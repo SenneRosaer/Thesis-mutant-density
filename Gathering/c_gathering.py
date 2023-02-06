@@ -3,12 +3,15 @@ from fileParser import findCppFiles
 
 def gather_c_information(directory, output_name):
     files = findCppFiles(directory)
+
     if os.path.exists("output/c-info-temp.txt"):
         os.remove("output/c-info-temp.txt")
     output = []
     for file in files:
         if os.path.exists("output/c-info-temp.txt"):
             os.remove("output/c-info-temp.txt")
+        if "comm_buffer" in file:
+            print()
         cmd = f"pmccabe -v {file} >> output/c-info-temp.txt"
         os.system(cmd)
 

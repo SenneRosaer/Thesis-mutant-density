@@ -1,29 +1,46 @@
 import os
 from fileParser import findPythonFiles
-
+import ast
+from collections import defaultdict
 #TODO add filename to method name for duplicates
 def gather_python_information(directory):
     files = findPythonFiles(directory)
     if os.path.exists("output/py-info-temp.txt"):
         os.remove("output/py-info-temp.txt")
     output = []
+
+
+
+
     for file in files:
+        data = str(open(file, "r").read())
+        tree = ast.parse(data)
+        v = visitor()
+        v.visit(tree)
+        print()
+        results = {}
+        for key, item in v.data.items():
+            results[key] = len(item)
+
         cmd = f"python -m mccabe {file} >> output/py-info-temp.txt"
         os.system(cmd)
         functions = splitFileInFunctions(file)
         with open("output/py-info-temp.txt", "r") as f:
             lines = f.readlines()
+            if not lines:
+                continue
             if "If " in lines[-1]:
                 lines.pop()
             for line in lines:
                 splittedline = line.replace('\n', '').replace(' ', '').split('\'')
-                output.append(f"{splittedline[1]};{splittedline[-1]};0;{len(functions[splittedline[1]])}")
+                fname = file.split('/')[-1].replace(".py", "")
+                output.append(f"{fname};{splittedline[1]};{splittedline[-1]};{results[splittedline[1]]}")
 
         if os.path.exists("output/py-info-temp.txt"):
             os.remove("output/py-info-temp.txt")
 
     with open("output/python-results.csv", "w") as o_file:
-        o_file.write("Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code\n")
+        o_file.write("File;Method Name;Cyclomatic Complexity;Source Lines of Code\n")
         for line in output:
             o_file.write(line + '\n')
 
@@ -67,3 +84,40 @@ def splitFileInFunctions(filename):
                 entered_function_name = splitted[-1].split('(')[0]
                 continue
     return functions
+
+
+
+class visitor(ast.NodeVisitor):
+    def __init__(self):
+        def f():
+            return set()
+        self.data = defaultdict(f)
+        self.current_function = None
+        self.current_class = None
+        self.line_no = None
+    def visit_ClassDef(self, node):
+        print()
+        self.current_class = node.name
+        ast.NodeVisitor.generic_visit(self, node)
+        self.current_class = None
+
+    def visit_FunctionDef(self, node):
+        self.current_function = node.name
+        self.line_no = node.lineno
+        self.generic_visit(node)
+        self.current_function = None
+        self.line_no = None
+
+
+    def generic_visit(self, node):
+        if self.current_function != None:
+                try:
+                    if node.lineno != self.line_no:
+                        if self.current_class:
+                            self.data[self.current_class + "." +self.current_function].add(node.lineno)
+                        else:
+                            self.data[self.current_function].add(node.lineno)
+
+                except:
+                    pass
+        ast.NodeVisitor.generic_visit(self, node)

@@ -1,9 +1,13 @@
+import _ast
+
 from mutpy.commandline import build_parser, run_mutpy
 from python_gathering import gather_python_information
 from c_gathering import gather_c_information
 from dextool_html_parser import parse_mutants_from_file
 import os
-
+import ast
+from collections import defaultdict
+import pandas as pd
 # needs to use bear to create compilation database
 def parse_c_dataset(directory_name):
     pass
@@ -11,15 +15,22 @@ def parse_c_dataset(directory_name):
 # use radon for gathering cc and sloc?
 def parse_python_dataset(directory_name):
     parser = build_parser()
-    run_mutpy(parser, ['./python_example'], ['./python_example/test/simple_good_test.py'], './output/temp_results.csv')
-    # gather_python_information('./python_example')
+    run_mutpy(parser, ['./python_example'],  './output/temp_results.csv')
+    gather_python_information('./python_example')
+    df1 = pd.read_csv('./output/python-results.csv', delimiter=";")
+    df2 = pd.read_csv('./output/temp_results.csv', delimiter=";")
+    df = df1.merge(df2, left_on=["File", "Method Name"], right_on=["File", "Method Name"], how="left")
+    df = df.dropna(how='any')
+    df['Mutant Density'] = df['Mutant Density'].astype(int)
+    df.to_csv('./output/test.csv', index=False)
+    print(df.dtypes)
 
 
 def parse_java_dataset(directory_name):
     pass
 
 def parse_cpp_dataset(directory_name):
-    # gather_c_information(directory_name, "./output/t.csv")
+    gather_c_information(directory_name, "./output/t.csv")
     cmd = f"cd {directory_name}"
     # with open("temp_script.sh", "w+") as f:
     #     f.write(cmd + "\n")
@@ -51,10 +62,36 @@ def parse_cpp_dataset(directory_name):
         total += val
     print(total1)
     print(total)
+    return results
 
 
+import sqlite3
+def read_from_db_file(results):
+    dbfile = './RoadFighter/metrixpp.db'
+    con = sqlite3.connect(dbfile)
+    cur = con.cursor()
+    cur.execute("SELECT name from sqlite_master WHERE type='table';")
+    print(f"Table Name : {cur.fetchall()}")
+
+    df_files = pd.read_sql_query('SELECT * FROM __files__', con)
+    df_files.rename(columns={'id': 'file_id'}, inplace=True)
+    df_regions = pd.read_sql_query('SELECT * FROM __regions__', con)
+    df_complexity = pd.read_sql_query("SELECT * FROM 'std.code.complexity'", con)
+    df_lines = pd.read_sql_query("SELECT * FROM 'std.code.lines'", con)
+    df = df_complexity.merge(df_files, on='file_id')
+    df_final = df.merge(df_regions, on=['file_id', 'region_id'])
+    df_final = df_final.merge(df_lines, on=['file_id', 'region_id'])
+    df_final = df_final[['path','name','code','cyclomatic']]
+    print(df_final.head(100))
+    for index, row in df_final.iterrows():
+        t = row['path']
+        if 'Game.cpp' in row['path']:
+            print()
 
 if __name__ == '__main__':
-    # parse_python_dataset("")
-    parse_cpp_dataset("Dataset/Cpp/large/opencv-4.x")
-    # parse_cpp_dataset("RoadFighter")
+    # cmd = f"pmccabe -v comm_buffer.hpp >> output/c-info-temp.txt"
+    # os.system(cmd)
+    # parse_python_dataset("python_example")
+    # parse_cpp_dataset("Dataset/Cpp/large/opencv-4.x")
+    results = parse_cpp_dataset("RoadFighter")
+    read_from_db_file(results)

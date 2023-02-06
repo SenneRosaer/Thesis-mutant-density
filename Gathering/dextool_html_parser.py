@@ -45,7 +45,9 @@ def parse_mutants_from_file(filename):
             count = row.count("class=\"mutant")
             if count:
                 print(f"{count} mutant(s) at {index+1}")
-                results[filename + latest_key.replace("&nbsp;", "")] += count
+                if 'Game.cpp' in filename:
+                    print()
+                results[filename.split('/')[-1].replace('.html','').replace('__','/')+ '//' + latest_key.split('(')[0].split("&nbsp;")[-1]] += count
         return results
 if __name__ == '__main__':
     resulst = parse_mutants_from_file('Game.cpp.html')

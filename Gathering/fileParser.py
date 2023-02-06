@@ -56,6 +56,8 @@ def findCppFiles(sourcePath: str) -> List[str]:
             fileList.append(os.path.join(root, filename))
         for filename in fnmatch.filter(filenames, "*.h"):
             fileList.append(os.path.join(root, filename))
+        for filename in fnmatch.filter(filenames, "*.hpp"):
+            fileList.append(os.path.join(root, filename))
         print("Searching for C++ files... {} found.".format(len(fileList)), end="\r")
 
     if len(fileList) == 0:
