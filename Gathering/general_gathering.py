@@ -45,8 +45,8 @@ def parse_cpp_dataset(directory_name):
         f.write("dub run dextool -- mutate analyze" + "\n")
         f.write("dub run dextool -- mutate report --style html" + "\n")
 
-    os.system("chmod +x temp_script.sh")
-    os.system("./temp_script.sh")
+    # os.system("chmod +x temp_script.sh")
+    # os.system("./temp_script.sh")
     files = os.listdir(f"{directory_name}/html/files")
     results = {}
     total1 = 0
@@ -112,5 +112,5 @@ if __name__ == '__main__':
     # os.system(cmd)
     # parse_python_dataset("python_example")
     # parse_cpp_dataset("Dataset/Cpp/large/opencv-4.x")
-    results = parse_cpp_dataset("./Dataset/Cpp/large/ClickHouse-master")
-    read_from_db_file("./Dataset/Cpp/large/ClickHouse-master", results)
+    results = parse_cpp_dataset("./Dataset/C/medium/libusb-master")
+    read_from_db_file("./Dataset/C/medium/libusb-master", results)

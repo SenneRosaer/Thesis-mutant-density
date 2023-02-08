@@ -28,7 +28,7 @@ def parse_mutants_from_file(filename):
         latest_key_index = None
         for index, row in enumerate(rows):
             if "{" in row:
-                if index > 14500:
+                if filename == './Dataset/C/medium/libusb-master/html/files/libusb__descriptor.c.html':
                     print()
                 if current_stack == 0:
                     print("open at: " + str(index+1))
@@ -39,18 +39,24 @@ def parse_mutants_from_file(filename):
                         tmp_row = rows[new_index]
                         tmp_row = tmp_row.split('<')[1:]
                         output = extract_output_from_line(tmp_row)
+                        if ('{' in output or '}' in output) and new_index != index:
+                            break
                         new_index -= 1
                         if '//' not in output and '///' not in output:
                             total = output + total
 
-                    latest_key_index = int(rows[new_index + 2].split('">')[0].split('loc-')[-1])
+                    # if '{' in total:
+                    #     latest_key_index = int(rows[new_index + 1].split('">')[0].split('loc-')[-1])
+                    # else:
+                    #     latest_key_index = int(rows[new_index + 2].split('">')[0].split('loc-')[-1])
+                    latest_key_index = (new_index, index)
                     latest_key = total.replace('\n', '')
                     if latest_key == '':
                         continue
-                if latest_key and "namespace" in latest_key:
+                if latest_key and "namespace&nbsp;" in latest_key:
                     latest_key = None
                     backup_stack += 1
-                elif latest_key and "class" in latest_key:
+                elif latest_key and "class&nbsp;" in latest_key:
                     backup_stack += 1
                 else:
                     current_stack +=1
@@ -69,7 +75,15 @@ def parse_mutants_from_file(filename):
                 print(f"{count} mutant(s) at {index+1}")
 
                 # TODO struct shit is weird with struct in struct etc.
-                if 'struct' in latest_key:
+                def check_struct():
+                    if 'struct' in latest_key:
+                        temp_split = latest_key.split('struct')
+                        if '(' in latest_key:
+                            if latest_key.index('(') < latest_key.index('struct'):
+                                return False
+                        return True
+                    return False
+                if check_struct():
                     method = latest_key.split('struct')[1].split('&lt;')[0].replace('&nbsp;', '').replace('{', '')
                 else:
                     try:
@@ -95,7 +109,12 @@ def parse_mutants_from_file(filename):
                     print()
                 if '::' in method:
                     method = method.split('::')[-1]
-                results[str(latest_key_index) + '//' +filename.split('/')[-1].replace('.html','').replace('__','/')+ '//' + method] += count
+
+                def_index = None
+                for i in range(latest_key_index[0], latest_key_index[1]+1):
+                    if method in rows[i]:
+                        def_index = i+1
+                results[str(def_index) + '//' +filename.split('/')[-1].replace('.html','').replace('__','/')+ '//' + method] += count
                 # results[filename.split('/')[-1].replace('.html', '').replace('__', '/') + '//' + latest_key.split('(')[0].split("&nbsp;")[-1].split('::')[-1]] += count
 
         return results
