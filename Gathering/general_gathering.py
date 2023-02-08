@@ -32,20 +32,21 @@ def parse_java_dataset(directory_name):
 def parse_cpp_dataset(directory_name):
     gather_c_information(directory_name, "./output/t.csv")
     cmd = f"cd {directory_name}"
-    # with open("temp_script.sh", "w+") as f:
-    #     f.write(cmd + "\n")
-        # f.write("mkdir build" + "\n")
-        # f.write("cd build" + "\n")
-        # f.write("cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -Dgtest_build_tests=ON -Dgmock_build_tests=ON .." + "\n")
-        # f.write("make" + "\n")
-        # f.write("cd .." + "\n")
-        # f.write("mv build/compile_commands.json compile_commands.json")
-        # f.write("dub run dextool -- mutate admin --init" + "\n")
-        # f.write("dub run dextool -- mutate analyze" + "\n")
-        # f.write("dub run dextool -- mutate report --style html" + "\n")
+    # TODO if it has a makefile and no cmake we need bear -- make or something to create compilation database
+    with open("temp_script.sh", "w+") as f:
+        f.write(cmd + "\n")
+        f.write("mkdir build" + "\n")
+        f.write("cd build" + "\n")
+        f.write("cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -Dgtest_build_tests=ON -Dgmock_build_tests=ON .." + "\n")
+        f.write("make" + "\n")
+        f.write("cd .." + "\n")
+        f.write("mv build/compile_commands.json compile_commands.json \n")
+        f.write("dub run dextool -- mutate admin --init" + "\n")
+        f.write("dub run dextool -- mutate analyze" + "\n")
+        f.write("dub run dextool -- mutate report --style html" + "\n")
 
-    # os.system("chmod +x temp_script.sh")
-    # os.system("./temp_script.sh")
+    os.system("chmod +x temp_script.sh")
+    os.system("./temp_script.sh")
     files = os.listdir(f"{directory_name}/html/files")
     results = {}
     total1 = 0
@@ -66,8 +67,14 @@ def parse_cpp_dataset(directory_name):
 
 
 import sqlite3
-def read_from_db_file(results):
-    dbfile = './RoadFighter/metrixpp.db'
+def read_from_db_file(filename,results):
+    with open("temp_script.sh", "w+") as f:
+        f.write(f"cd {filename}" + "\n")
+        f.write("python /home/senne/School/Master_SE/Thesis/metrixplusplus/metrix++.py collect --std.code.lines.code --std.code.complexity.cyclomatic")
+
+    os.system("chmod +x temp_script.sh")
+    os.system("./temp_script.sh")
+    dbfile = f"{filename}/metrixpp.db"
     con = sqlite3.connect(dbfile)
     cur = con.cursor()
     cur.execute("SELECT name from sqlite_master WHERE type='table';")
@@ -81,17 +88,29 @@ def read_from_db_file(results):
     df = df_complexity.merge(df_files, on='file_id')
     df_final = df.merge(df_regions, on=['file_id', 'region_id'])
     df_final = df_final.merge(df_lines, on=['file_id', 'region_id'])
-    df_final = df_final[['path','name','code','cyclomatic']]
+    df_final = df_final[['path','name','code','cyclomatic', 'line_begin']]
     print(df_final.head(100))
+    file_output = ['File,Method Name,Cyclomatic Complexity,Source Lines of Code,Mutant Density\n']
+
     for index, row in df_final.iterrows():
-        t = row['path']
+        file = row['path'].replace('./','')
+        name = row['name']
         if 'Game.cpp' in row['path']:
             print()
+
+        key = str(row['line_begin']) +'//' + file + '//' + name
+        if key in results:
+            print(f"key = {key}     mutant = {results[key]}")
+            file_output.append(f"{file}, {name}, {row['cyclomatic']}, {row['code']}, {results[key]}\n")
+
+    with open('output/cpp_result.csv', 'w+') as f:
+        for line in file_output:
+            f.write(line)
 
 if __name__ == '__main__':
     # cmd = f"pmccabe -v comm_buffer.hpp >> output/c-info-temp.txt"
     # os.system(cmd)
     # parse_python_dataset("python_example")
     # parse_cpp_dataset("Dataset/Cpp/large/opencv-4.x")
-    results = parse_cpp_dataset("RoadFighter")
-    read_from_db_file(results)
+    results = parse_cpp_dataset("./Dataset/Cpp/large/ClickHouse-master")
+    read_from_db_file("./Dataset/Cpp/large/ClickHouse-master", results)
