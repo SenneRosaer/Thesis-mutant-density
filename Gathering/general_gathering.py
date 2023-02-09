@@ -15,19 +15,20 @@ def parse_c_dataset(directory_name):
 # use radon for gathering cc and sloc?
 def parse_python_dataset(directory_name):
     parser = build_parser()
-    run_mutpy(parser, ['./python_example'],  './output/temp_results.csv')
-    gather_python_information('./python_example')
+    run_mutpy(parser, [f"{directory_name}"],  './output/temp_results.csv')
+    gather_python_information(f"{directory_name}")
     df1 = pd.read_csv('./output/python-results.csv', delimiter=";")
     df2 = pd.read_csv('./output/temp_results.csv', delimiter=";")
     df = df1.merge(df2, left_on=["File", "Method Name"], right_on=["File", "Method Name"], how="left")
     df = df.dropna(how='any')
     df['Mutant Density'] = df['Mutant Density'].astype(int)
-    df.to_csv('./output/test.csv', index=False)
+    df.to_csv('./output/python.csv', index=False)
     print(df.dtypes)
 
 
 def parse_java_dataset(directory_name):
-    pass
+    command = f"python3 -m chaosmeter  -p {directory_name} -t ./output/java.csv"
+    os.system(command)
 
 def parse_cpp_dataset(directory_name):
     gather_c_information(directory_name, "./output/t.csv")
@@ -110,7 +111,14 @@ def read_from_db_file(filename,results):
 if __name__ == '__main__':
     # cmd = f"pmccabe -v comm_buffer.hpp >> output/c-info-temp.txt"
     # os.system(cmd)
-    # parse_python_dataset("python_example")
+    # parse_python_dataset("./Dataset/Python/large/flask-main/src")
+    # parse_python_dataset("./python_example")
+    parse_python_dataset("./Dataset/Python/medium/scrapy-master/scrapy")
+
     # parse_cpp_dataset("Dataset/Cpp/large/opencv-4.x")
-    results = parse_cpp_dataset("./Dataset/C/medium/libusb-master")
-    read_from_db_file("./Dataset/C/medium/libusb-master", results)
+
+
+    # results = parse_cpp_dataset("./Dataset/C/medium/libusb-master")
+    # read_from_db_file("./Dataset/C/medium/libusb-master", results)
+
+    # parse_java_dataset('./Dataset/Java/small/socket.io-client-java-main')

@@ -24,7 +24,7 @@ def gather_python_information(directory):
 
         cmd = f"python -m mccabe {file} >> output/py-info-temp.txt"
         os.system(cmd)
-        functions = splitFileInFunctions(file)
+        # functions = splitFileInFunctions(file)
         with open("output/py-info-temp.txt", "r") as f:
             lines = f.readlines()
             if not lines:
@@ -32,10 +32,18 @@ def gather_python_information(directory):
             if "If " in lines[-1]:
                 lines.pop()
             for line in lines:
+                if 'If'in line:
+                    continue
                 splittedline = line.replace('\n', '').replace(' ', '').split('\'')
+                if len(splittedline) != 3:
+                    continue
                 fname = file.split('/')[-1].replace(".py", "")
-                output.append(f"{fname};{splittedline[1]};{splittedline[-1]};{results[splittedline[1]]}")
-
+                testfname = file.replace(directory, '')[1:].replace(".py", "")
+                # TODO class in class without functions inbetween is supported however
+                try:
+                    output.append(f"scrapy/{testfname};{splittedline[1]};{splittedline[-1]};{results[splittedline[1]]}")
+                except:
+                    pass
         if os.path.exists("output/py-info-temp.txt"):
             os.remove("output/py-info-temp.txt")
 
@@ -86,33 +94,46 @@ def splitFileInFunctions(filename):
     return functions
 
 
-
+# TODO pmccabe does not support function in function or class in function so we currently dont as well
 class visitor(ast.NodeVisitor):
     def __init__(self):
         def f():
             return set()
         self.data = defaultdict(f)
         self.current_function = None
+        self.current_function_depth = 0
         self.current_class = None
+        self.stack = []
         self.line_no = None
     def visit_ClassDef(self, node):
         print()
-        self.current_class = node.name
+        if not self.current_function:
+            self.current_class = node.name
         ast.NodeVisitor.generic_visit(self, node)
-        self.current_class = None
+        if not self.current_function:
+            self.current_class = None
 
     def visit_FunctionDef(self, node):
-        self.current_function = node.name
-        self.line_no = node.lineno
+        self.current_function_depth += 1
+        if not self.current_function:
+            self.current_function = node.name
+            self.line_no = node.lineno
         self.generic_visit(node)
-        self.current_function = None
-        self.line_no = None
+        self.current_function_depth -= 1
+        if self.current_function_depth == 0:
+            self.current_function = None
+            self.line_no = None
 
 
     def generic_visit(self, node):
         if self.current_function != None:
                 try:
                     if node.lineno != self.line_no:
+                        # key = ""
+                        # keys = []
+                        # reverse_stack = self.stack[::-1]
+                        # for index, item in enumerate(reverse_stack):
+                        #     if item
                         if self.current_class:
                             self.data[self.current_class + "." +self.current_function].add(node.lineno)
                         else:

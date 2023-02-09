@@ -1,7 +1,24 @@
 from mutpy.utils import notmutate
 
 
+def t4(self):
+    class temp2:
+        def __init__(self):
+            self.x = 5
+
+def testing(self):
+    print("123")
+
 class Base:
+    def t1(self):
+        def t2():
+            return 5+ 7
+        return t2
+
+    def t3(self):
+        class temp:
+            def __init__(self):
+                self.x = 5
 
     def foo(self):
         return 1
