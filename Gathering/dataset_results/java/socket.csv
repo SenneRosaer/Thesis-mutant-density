@@ -1,0 +1,311 @@
+File;Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+src/main/java/io/socket/backo/Backoff.java;Backoff.Backoff( );1;0;1
+src/main/java/io/socket/backo/Backoff.java;Backoff.duration( );3;5;15
+src/main/java/io/socket/backo/Backoff.java;Backoff.getAttempts( );1;0;3
+src/main/java/io/socket/backo/Backoff.java;Backoff.reset( );1;0;3
+src/main/java/io/socket/backo/Backoff.java;Backoff.setFactor( int factor );1;0;4
+src/main/java/io/socket/backo/Backoff.java;Backoff.setJitter( double jitter );3;4;8
+src/main/java/io/socket/backo/Backoff.java;Backoff.setMax( long max );1;0;4
+src/main/java/io/socket/backo/Backoff.java;Backoff.setMin( long min );1;0;4
+src/main/java/io/socket/client/AckWithTimeout.java;AckWithTimeout.AckWithTimeout( long timeout );1;0;3
+src/main/java/io/socket/client/AckWithTimeout.java;AckWithTimeout.call( Object ... args );1;0;4
+src/main/java/io/socket/client/AckWithTimeout.java;AckWithTimeout.cancelTimer( );1;0;3
+src/main/java/io/socket/client/AckWithTimeout.java;AckWithTimeout.schedule( TimerTask task );1;0;3
+src/main/java/io/socket/client/IO.java;IO.IO( );1;0;1
+src/main/java/io/socket/client/IO.java;IO.setDefaultOkHttpCallFactory( Call . Factory factory );1;0;3
+src/main/java/io/socket/client/IO.java;IO.setDefaultOkHttpWebSocketFactory( WebSocket . Factory factory );1;0;3
+src/main/java/io/socket/client/IO.java;IO.socket( String uri );1;0;3
+src/main/java/io/socket/client/IO.java;IO.socket( String uri , Options opts );1;0;3
+src/main/java/io/socket/client/IO.java;IO.socket( URI uri );1;0;3
+src/main/java/io/socket/client/IO.java;IO.socket( URI uri , Options opts );12;10;31
+src/main/java/io/socket/client/IO.java;Options.builder( );1;0;3
+src/main/java/io/socket/client/Manager.java;Engine.Engine( URI uri , Options opts );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.Manager( );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.Manager( Options opts );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.Manager( URI uri );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.Manager( URI uri , Options opts );11;10;33
+src/main/java/io/socket/client/Manager.java;Manager.call( Exception err );2;1;11
+src/main/java/io/socket/client/Manager.java;Manager.call( Object ... args );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.call( Object ... objects );2;3;4
+src/main/java/io/socket/client/Manager.java;Manager.call( Object [ ] encodedPackets );4;0;11
+src/main/java/io/socket/client/Manager.java;Manager.call( Packet packet );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.cleanup( );2;1;9
+src/main/java/io/socket/client/Manager.java;Manager.close( );3;2;13
+src/main/java/io/socket/client/Manager.java;Manager.destroy( );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.isReconnecting( );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.maybeReconnectOnOpen( );4;4;5
+src/main/java/io/socket/client/Manager.java;Manager.onclose( String reason );3;2;10
+src/main/java/io/socket/client/Manager.java;Manager.ondecoded( Packet packet );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.onerror( Exception err );1;0;4
+src/main/java/io/socket/client/Manager.java;Manager.onopen( );4;0;40
+src/main/java/io/socket/client/Manager.java;Manager.onreconnect( );1;0;6
+src/main/java/io/socket/client/Manager.java;Manager.open( );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.open( final OpenCallback fn );11;0;82
+src/main/java/io/socket/client/Manager.java;Manager.packet( Packet packet );6;1;25
+src/main/java/io/socket/client/Manager.java;Manager.processPacketQueue( );3;3;6
+src/main/java/io/socket/client/Manager.java;Manager.randomizationFactor( );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.randomizationFactor( double v );2;1;7
+src/main/java/io/socket/client/Manager.java;Manager.reconnect( );7;2;50
+src/main/java/io/socket/client/Manager.java;Manager.reconnection( );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.reconnection( boolean v );1;0;4
+src/main/java/io/socket/client/Manager.java;Manager.reconnectionAttempts( );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.reconnectionAttempts( int v );1;0;4
+src/main/java/io/socket/client/Manager.java;Manager.reconnectionDelay( );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.reconnectionDelay( long v );2;1;7
+src/main/java/io/socket/client/Manager.java;Manager.reconnectionDelayMax( );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.reconnectionDelayMax( long v );2;1;7
+src/main/java/io/socket/client/Manager.java;Manager.run( );1;5;6
+src/main/java/io/socket/client/Manager.java;Manager.socket( String nsp );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.socket( final String nsp , Options opts );2;1;10
+src/main/java/io/socket/client/Manager.java;Manager.timeout( );1;0;3
+src/main/java/io/socket/client/Manager.java;Manager.timeout( long v );1;0;4
+src/main/java/io/socket/client/On.java;On.On( );1;0;1
+src/main/java/io/socket/client/On.java;On.destroy( );1;0;3
+src/main/java/io/socket/client/On.java;On.on( final Emitter obj , final String ev , final Emitter . Listener fn );1;0;9
+src/main/java/io/socket/client/Socket.java;Socket.Socket( Manager io , String nsp , Manager . Options opts );2;1;7
+src/main/java/io/socket/client/Socket.java;Socket.ack( final int id );5;0;26
+src/main/java/io/socket/client/Socket.java;Socket.call( Object ... args );1;2;3
+src/main/java/io/socket/client/Socket.java;Socket.call( final Object ... args );5;0;19
+src/main/java/io/socket/client/Socket.java;Socket.close( );4;0;18
+src/main/java/io/socket/client/Socket.java;Socket.connect( );1;0;3
+src/main/java/io/socket/client/Socket.java;Socket.connected( );1;0;3
+src/main/java/io/socket/client/Socket.java;Socket.destroy( );5;1;14
+src/main/java/io/socket/client/Socket.java;Socket.disconnect( );1;0;3
+src/main/java/io/socket/client/Socket.java;Socket.emit( final String event , final Object ... args );5;0;25
+src/main/java/io/socket/client/Socket.java;Socket.emit( final String event , final Object [ ] args , final Ack ack );8;0;43
+src/main/java/io/socket/client/Socket.java;Socket.emitBuffered( );3;2;13
+src/main/java/io/socket/client/Socket.java;Socket.id( );1;0;3
+src/main/java/io/socket/client/Socket.java;Socket.io( );1;0;3
+src/main/java/io/socket/client/Socket.java;Socket.isActive( );1;1;3
+src/main/java/io/socket/client/Socket.java;Socket.offAnyIncoming( );1;0;4
+src/main/java/io/socket/client/Socket.java;Socket.offAnyIncoming( Listener fn );3;1;11
+src/main/java/io/socket/client/Socket.java;Socket.offAnyOutgoing( );1;0;4
+src/main/java/io/socket/client/Socket.java;Socket.offAnyOutgoing( Listener fn );3;1;11
+src/main/java/io/socket/client/Socket.java;Socket.onAnyIncoming( Listener fn );1;0;4
+src/main/java/io/socket/client/Socket.java;Socket.onAnyOutgoing( Listener fn );1;0;4
+src/main/java/io/socket/client/Socket.java;Socket.onack( Packet < JSONArray > packet );4;1;13
+src/main/java/io/socket/client/Socket.java;Socket.onclose( String reason );2;0;8
+src/main/java/io/socket/client/Socket.java;Socket.onconnect( String id );1;0;6
+src/main/java/io/socket/client/Socket.java;Socket.ondisconnect( );2;0;7
+src/main/java/io/socket/client/Socket.java;Socket.onevent( Packet < JSONArray > packet );7;2;23
+src/main/java/io/socket/client/Socket.java;Socket.onopen( );2;1;8
+src/main/java/io/socket/client/Socket.java;Socket.onpacket( Packet < ? > packet );12;2;47
+src/main/java/io/socket/client/Socket.java;Socket.open( );4;0;12
+src/main/java/io/socket/client/Socket.java;Socket.packet( Packet packet );4;2;12
+src/main/java/io/socket/client/Socket.java;Socket.run( );4;12;6
+src/main/java/io/socket/client/Socket.java;Socket.send( final Object ... args );1;0;9
+src/main/java/io/socket/client/Socket.java;Socket.subEvents( );5;1;32
+src/main/java/io/socket/client/Socket.java;Socket.toArray( JSONArray array );4;2;15
+src/main/java/io/socket/client/SocketIOException.java;SocketIOException.SocketIOException( );1;0;3
+src/main/java/io/socket/client/SocketIOException.java;SocketIOException.SocketIOException( String message );1;0;3
+src/main/java/io/socket/client/SocketIOException.java;SocketIOException.SocketIOException( String message , Throwable cause );1;0;3
+src/main/java/io/socket/client/SocketIOException.java;SocketIOException.SocketIOException( Throwable cause );1;0;3
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.SocketOptionBuilder( );1;0;3
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.SocketOptionBuilder( IO . Options options );2;1;24
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.build( );1;0;3
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.builder( );1;0;3
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.builder( IO . Options options );1;0;3
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setAuth( Map < String , String > auth );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setExtraHeaders( Map < String , List < String > > extraHeaders );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setForceNew( boolean forceNew );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setHost( String host );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setHostname( String hostname );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setMultiplex( boolean multiplex );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setPath( String path );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setPolicyPort( int policyPort );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setPort( int port );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setQuery( String query );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setRandomizationFactor( double randomizationFactor );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setReconnection( boolean reconnection );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setReconnectionAttempts( int reconnectionAttempts );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setReconnectionDelay( long reconnectionDelay );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setReconnectionDelayMax( long reconnectionDelayMax );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setRememberUpgrade( boolean rememberUpgrade );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setSecure( boolean secure );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setTimeout( long timeout );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setTransports( String [ ] transports );1;0;4
+src/main/java/io/socket/client/SocketOptionBuilder.java;SocketOptionBuilder.setUpgrade( boolean upgrade );1;0;4
+src/main/java/io/socket/client/Url.java;ParsedURI.ParsedURI( URI uri , String id );1;0;4
+src/main/java/io/socket/client/Url.java;Url.Url( );1;0;1
+src/main/java/io/socket/client/Url.java;Url.extractHostFromAuthorityPart( String authority );3;2;10
+src/main/java/io/socket/client/Url.java;Url.parse( URI uri );15;24;34
+src/main/java/io/socket/hasbinary/HasBinary.java;HasBinary.HasBinary( );1;0;1
+src/main/java/io/socket/hasbinary/HasBinary.java;HasBinary._hasBinary( Object obj );12;3;39
+src/main/java/io/socket/hasbinary/HasBinary.java;HasBinary.hasBinary( Object data );1;0;3
+src/main/java/io/socket/parser/Binary.java;Binary._deconstructPacket( Object data , List < byte [ ] > buffers );11;3;43
+src/main/java/io/socket/parser/Binary.java;Binary._reconstructPacket( Object data , byte [ ] [ ] buffers );11;6;33
+src/main/java/io/socket/parser/Binary.java;Binary.deconstructPacket( Packet packet );1;0;9
+src/main/java/io/socket/parser/Binary.java;Binary.reconstructPacket( Packet packet , byte [ ] [ ] buffers );1;1;5
+src/main/java/io/socket/parser/DecodingException.java;DecodingException.DecodingException( String message );1;0;3
+src/main/java/io/socket/parser/IOParser.java;BinaryReconstructor.BinaryReconstructor( Packet packet );1;0;4
+src/main/java/io/socket/parser/IOParser.java;BinaryReconstructor.finishReconstruction( );1;0;4
+src/main/java/io/socket/parser/IOParser.java;BinaryReconstructor.takeBinaryData( byte [ ] binData );2;1;10
+src/main/java/io/socket/parser/IOParser.java;Decoder.Decoder( );1;0;3
+src/main/java/io/socket/parser/IOParser.java;Decoder.add( String obj );6;6;15
+src/main/java/io/socket/parser/IOParser.java;Decoder.add( byte [ ] obj );4;3;13
+src/main/java/io/socket/parser/IOParser.java;Decoder.decodeString( String str );23;36;68
+src/main/java/io/socket/parser/IOParser.java;Decoder.destroy( );2;1;6
+src/main/java/io/socket/parser/IOParser.java;Decoder.isPayloadValid( int type , Object payload );10;5;19
+src/main/java/io/socket/parser/IOParser.java;Decoder.onDecoded( Callback callback );1;0;3
+src/main/java/io/socket/parser/IOParser.java;Encoder.Encoder( );1;0;1
+src/main/java/io/socket/parser/IOParser.java;Encoder.encode( Packet obj , Callback callback );8;8;14
+src/main/java/io/socket/parser/IOParser.java;Encoder.encodeAsBinary( Packet obj , Callback callback );1;0;7
+src/main/java/io/socket/parser/IOParser.java;Encoder.encodeAsString( Packet obj );9;10;21
+src/main/java/io/socket/parser/IOParser.java;IOParser.IOParser( );1;0;1
+src/main/java/io/socket/parser/Packet.java;***not in a method***;0;2;0
+src/main/java/io/socket/parser/Packet.java;Packet.Packet( );1;0;1
+src/main/java/io/socket/parser/Packet.java;Packet.Packet( int type );1;0;3
+src/main/java/io/socket/parser/Packet.java;Packet.Packet( int type , T data );1;0;4
+src/test/java/io/socket/Fiddle.java;Fiddle.call( Object ... args );1;0;3
+src/test/java/io/socket/Fiddle.java;Fiddle.main( String [ ] argz );1;0;23
+src/test/java/io/socket/backo/BackoffTest.java;BackoffTest.durationOverflow( );4;9;17
+src/test/java/io/socket/backo/BackoffTest.java;BackoffTest.durationShouldIncreaseTheBackoff( );1;6;10
+src/test/java/io/socket/backo/BackoffTest.java;BackoffTest.ensureJitterIsValid( );1;0;4
+src/test/java/io/socket/client/Connection.java;Connection.client( );1;0;3
+src/test/java/io/socket/client/Connection.java;Connection.client( IO . Options opts );1;0;3
+src/test/java/io/socket/client/Connection.java;Connection.client( String path );1;0;3
+src/test/java/io/socket/client/Connection.java;Connection.client( String path , IO . Options opts );1;1;3
+src/test/java/io/socket/client/Connection.java;Connection.createEnv( );2;2;12
+src/test/java/io/socket/client/Connection.java;Connection.createOptions( );1;0;5
+src/test/java/io/socket/client/Connection.java;Connection.nsp( );1;0;3
+src/test/java/io/socket/client/Connection.java;Connection.run( );3;2;14
+src/test/java/io/socket/client/Connection.java;Connection.startServer( );5;0;40
+src/test/java/io/socket/client/Connection.java;Connection.stopServer( );1;0;8
+src/test/java/io/socket/client/Connection.java;Connection.uri( );1;0;3
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.attemptReconnectsAfterAFailedReconnect( );1;0;34
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.call( Object ... args );1;8;3
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.call( Object ... objects );1;2;9
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.connectToLocalhost( );1;0;19
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.connectToNamespaceAfterConnectionEstablished( );1;0;23
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.connectToNamespaceAfterConnectionGetsClosed( );1;0;27
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.connectWhileDisconnectingAnotherSocket( );1;0;23
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.emitDateAsString( );1;0;19
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.emitDateInObject( );2;0;27
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.fireReconnectEventsOnSocket( );1;0;30
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.fireReconnectingWithAttemptsNumberWhenReconnectingTwice( );1;0;30
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.notReconnectWhenForceClosed( );1;0;27
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.notTryToReconnectWithIncorrectPortWhenReconnectionDisabled( );1;0;31
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.receiveBinaryDataWithAck( );1;0;19
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.receiveDateWithAck( );2;0;22
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.receiveUTF8MultibyteCharacters( );3;0;30
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.reconnectAfterStoppingReconnection( );1;0;24
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.reconnectAutomaticallyAfterReconnectingManually( );1;0;30
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.reconnectByDefault( );1;0;19
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.reconnectDelayShouldIncreaseEveryTime( );2;0;45
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.reconnectManually( );1;0;24
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.run( );1;0;3
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.sendAndGetBinaryData( );1;0;20
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.sendBinaryAck( );1;0;28
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.sendBinaryDataMixedWithJson( );2;0;31
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.sendEventsWithByteArraysInTheCorrectOrder( );1;0;22
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.startTwoConnectionsWithSamePath( );1;0;7
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.startTwoConnectionsWithSamePathAndDifferentQuerystrings( );1;0;7
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.stopReconnectingOnASocketAndKeepToReconnectOnAnother( );1;0;40
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.stopReconnectingWhenForceClosed( );1;0;27
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.tryToReconnectTwiceAndFailWithImmediateTimeout( );1;0;28
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.tryToReconnectTwiceAndFailWithIncorrectAddress( );1;0;27
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.workWithAcks( );5;0;39
+src/test/java/io/socket/client/ConnectionTest.java;ConnectionTest.workWithFalse( );1;0;19
+src/test/java/io/socket/client/ExecutionTest.java;***not in a method***;0;1;0
+src/test/java/io/socket/client/ExecutionTest.java;ExecutionTest.exec( String mainClass );2;1;12
+src/test/java/io/socket/client/ExecutionTest.java;ExecutionTest.execConnection( );1;0;3
+src/test/java/io/socket/client/ExecutionTest.java;ExecutionTest.execConnectionFailure( );1;0;3
+src/test/java/io/socket/client/ExecutionTest.java;ExecutionTest.execImmediateClose( );1;0;3
+src/test/java/io/socket/client/SSLConnectionTest.java;SSLConnectionTest.call( Object ... args );1;0;3
+src/test/java/io/socket/client/SSLConnectionTest.java;SSLConnectionTest.call( Object ... objects );1;0;9
+src/test/java/io/socket/client/SSLConnectionTest.java;SSLConnectionTest.connect( );1;0;22
+src/test/java/io/socket/client/SSLConnectionTest.java;SSLConnectionTest.createEnv( );1;0;3
+src/test/java/io/socket/client/SSLConnectionTest.java;SSLConnectionTest.createOptions( );1;0;5
+src/test/java/io/socket/client/SSLConnectionTest.java;SSLConnectionTest.defaultSSLContext( );1;0;21
+src/test/java/io/socket/client/SSLConnectionTest.java;SSLConnectionTest.prepareOkHttpClient( );1;0;20
+src/test/java/io/socket/client/SSLConnectionTest.java;SSLConnectionTest.tearDown( );1;0;4
+src/test/java/io/socket/client/SSLConnectionTest.java;SSLConnectionTest.uri( );1;0;3
+src/test/java/io/socket/client/SSLConnectionTest.java;SSLConnectionTest.verify( String hostname , SSLSession sslSession );1;0;3
+src/test/java/io/socket/client/ServerConnectionNamespaceTest.java;ServerConnectionNamespaceTest.nsp( );1;0;3
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.ack( );1;0;23
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.ackWithoutArgs( );1;0;18
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.ackWithoutArgsFromClient( );1;0;31
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.broadcast( );1;0;28
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.call( Object ... args );1;2;4
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.call( Object ... objects );1;0;3
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.closeEngineConnection( );1;0;18
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.disconnectFromServer( );1;0;17
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.event( );1;0;24
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.message( );1;0;19
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.openAndClose( );1;0;21
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.pollingHeaders( );2;0;31
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.room( );1;0;20
+src/test/java/io/socket/client/ServerConnectionTest.java;ServerConnectionTest.websocketHandshakeHeaders( );2;0;31
+src/test/java/io/socket/client/SocketTest.java;SocketTest.call( Object ... args );1;0;3
+src/test/java/io/socket/client/SocketTest.java;SocketTest.call( Object ... objects );1;0;3
+src/test/java/io/socket/client/SocketTest.java;SocketTest.clearsSocketIdUponDisconnection( );1;0;20
+src/test/java/io/socket/client/SocketTest.java;SocketTest.doesNotFireConnectErrorIfWeForceDisconnectInOpeningState( );2;0;23
+src/test/java/io/socket/client/SocketTest.java;SocketTest.onSuccess( Object ... args );1;0;3
+src/test/java/io/socket/client/SocketTest.java;SocketTest.onTimeout( );1;0;3
+src/test/java/io/socket/client/SocketTest.java;SocketTest.run( );1;0;3
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldAcceptAQueryString( );1;0;18
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldAcceptAQueryStringOnDefaultNamespace( );1;0;16
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldAcceptAnAuthOption( );1;0;19
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldCallCatchAllListenerForIncomingPackets( );2;0;23
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldCallCatchAllListenerForOutgoingPackets( );2;0;18
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldChangeSocketIdUponReconnection( );1;0;33
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldEmitEventsInOrder( );1;0;24
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldFireAnErrorEventOnMiddlewareFailure( );1;0;17
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldHaveAnAccessibleSocketIdEqualToServerSideSocketId( );1;0;16
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldHaveAnAccessibleSocketIdEqualToServerSideSocketIdOnCustomNamespace( );1;0;16
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldNotTimeoutWhenTheServerDoesAcknowledgeTheEvent( );2;0;25
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldThrowOnReservedEvent( );2;0;11
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldTimeoutAfterTheGivenDelayWhenSocketIsNotConnected( );1;0;15
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldTimeoutWhenTheServerDoesNotAcknowledgeTheEvent( );1;0;21
+src/test/java/io/socket/client/SocketTest.java;SocketTest.shouldTimeoutWhenTheServerDoesNotAcknowledgeTheEventInTime( );1;0;21
+src/test/java/io/socket/client/UrlTest.java;UrlTest.extractId( );1;0;8
+src/test/java/io/socket/client/UrlTest.java;UrlTest.extractId( String uri );1;0;3
+src/test/java/io/socket/client/UrlTest.java;UrlTest.ipv6( );1;0;8
+src/test/java/io/socket/client/UrlTest.java;UrlTest.parse( );1;0;4
+src/test/java/io/socket/client/UrlTest.java;UrlTest.parse( String uri );1;0;3
+src/test/java/io/socket/client/UrlTest.java;UrlTest.parseDefaultPort( );1;0;4
+src/test/java/io/socket/client/UrlTest.java;UrlTest.parseNamespace( );1;0;5
+src/test/java/io/socket/client/UrlTest.java;UrlTest.parseNoProtocol( );1;0;6
+src/test/java/io/socket/client/UrlTest.java;UrlTest.parseRelativePath( );1;0;6
+src/test/java/io/socket/client/UrlTest.java;UrlTest.testWsProtocol( );1;0;7
+src/test/java/io/socket/client/UrlTest.java;UrlTest.testWssProtocol( );1;0;7
+src/test/java/io/socket/client/executions/Connection.java;Connection.call( Object ... args );1;0;4
+src/test/java/io/socket/client/executions/Connection.java;Connection.main( String [ ] args );1;0;23
+src/test/java/io/socket/client/executions/ConnectionFailure.java;ConnectionFailure.call( Object ... args );1;0;4
+src/test/java/io/socket/client/executions/ConnectionFailure.java;ConnectionFailure.main( String [ ] args );1;1;24
+src/test/java/io/socket/client/executions/ImmediateClose.java;ImmediateClose.call( Object ... args );1;0;3
+src/test/java/io/socket/client/executions/ImmediateClose.java;ImmediateClose.main( String [ ] args );1;0;28
+src/test/java/io/socket/hasbinary/HasBinaryTest.java;HasBinaryTest.aComplexObjectThatContainsBinary( );1;0;9
+src/test/java/io/socket/hasbinary/HasBinaryTest.java;HasBinaryTest.aComplexObjectThatContainsNoBinary( );1;1;8
+src/test/java/io/socket/hasbinary/HasBinaryTest.java;HasBinaryTest.anArrayContainsByteArray( );1;0;5
+src/test/java/io/socket/hasbinary/HasBinaryTest.java;HasBinaryTest.anArrayThatDoesNotContainByteArray( );1;1;4
+src/test/java/io/socket/hasbinary/HasBinaryTest.java;HasBinaryTest.anObjectThatContainsByteArray( );1;0;5
+src/test/java/io/socket/hasbinary/HasBinaryTest.java;HasBinaryTest.anObjectThatDoesNotContainByteArray( );1;1;4
+src/test/java/io/socket/hasbinary/HasBinaryTest.java;HasBinaryTest.byteArray( );1;0;3
+src/test/java/io/socket/hasbinary/HasBinaryTest.java;HasBinaryTest.testNull( );1;1;3
+src/test/java/io/socket/parser/ByteArrayTest.java;ByteArrayTest.call( Packet packet );1;0;3
+src/test/java/io/socket/parser/ByteArrayTest.java;ByteArrayTest.call( final Object [ ] encodedPackets );1;0;13
+src/test/java/io/socket/parser/ByteArrayTest.java;ByteArrayTest.cleanItselfUpOnClose( );1;0;25
+src/test/java/io/socket/parser/ByteArrayTest.java;ByteArrayTest.encodeBinaryAckWithByteArray( );1;0;9
+src/test/java/io/socket/parser/ByteArrayTest.java;ByteArrayTest.encodeByteArray( );1;0;7
+src/test/java/io/socket/parser/ByteArrayTest.java;ByteArrayTest.encodeByteArray2( );1;0;7
+src/test/java/io/socket/parser/ByteArrayTest.java;ByteArrayTest.encodeByteArrayDeepInJson( );1;0;10
+src/test/java/io/socket/parser/ByteArrayTest.java;ByteArrayTest.encodeDeepBinaryJSONWithNullValue( );1;0;9
+src/test/java/io/socket/parser/Helpers.java;Helpers.assertPacket( Packet expected , Packet actual );5;0;21
+src/test/java/io/socket/parser/Helpers.java;Helpers.call( Object [ ] encodedPackets );1;0;10
+src/test/java/io/socket/parser/Helpers.java;Helpers.call( Packet packet );1;1;3
+src/test/java/io/socket/parser/Helpers.java;Helpers.test( final Packet obj );1;0;15
+src/test/java/io/socket/parser/Helpers.java;Helpers.testBin( final Packet obj );4;0;24
+src/test/java/io/socket/parser/Helpers.java;Helpers.testDecodeError( final String errorMessage );2;0;7
+src/test/java/io/socket/parser/ParserTest.java;ParserTest.decodeInError( );1;0;12
+src/test/java/io/socket/parser/ParserTest.java;ParserTest.encodeAck( );1;0;7
+src/test/java/io/socket/parser/ParserTest.java;ParserTest.encodeConnection( );1;0;5
+src/test/java/io/socket/parser/ParserTest.java;ParserTest.encodeDisconnection( );1;0;5
+src/test/java/io/socket/parser/ParserTest.java;ParserTest.encodeEvent( );1;0;10
+src/test/java/io/socket/util/Optional.java;Optional.Optional( T value );1;0;3
+src/test/java/io/socket/util/Optional.java;Optional.empty( );1;0;3
+src/test/java/io/socket/util/Optional.java;Optional.get( );2;1;6
+src/test/java/io/socket/util/Optional.java;Optional.isPresent( );1;1;3
+src/test/java/io/socket/util/Optional.java;Optional.of( T value );2;1;6
+src/test/java/io/socket/util/Optional.java;Optional.ofNullable( T value );1;0;3
+src/test/java/io/socket/util/Optional.java;Optional.orElse( T other );2;1;3

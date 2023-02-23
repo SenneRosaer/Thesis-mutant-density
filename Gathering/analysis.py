@@ -34,6 +34,7 @@ if __name__ == '__main__':
     for file in os.listdir('dataset_results/java'):
         java_dfs.append(pd.read_csv(f"dataset_results/java/{file}", delimiter=";"))
     df_java = pd.concat(java_dfs, ignore_index=True)
+    df_java = df_java[df_java['Mutant Density'] != 0]
 
     cpp_dfs = []
     for file in os.listdir('dataset_results/cpp'):
@@ -66,7 +67,7 @@ if __name__ == '__main__':
     max_sloc = 0
     boxplot_cc_sloc = [[] for i in range(0,100)]
     boxplot_md_sloc = [[] for i in range(0, 100)]
-    for idx, row in df_python.iterrows():
+    for idx, row in df_java.iterrows():
         sloc_for_method = row['Source Lines of Code']
         cc_for_method = row['Cyclomatic Complexity']
         md_for_method = row["Mutant Density"]

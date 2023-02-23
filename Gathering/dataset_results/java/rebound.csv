@@ -1,0 +1,402 @@
+File;Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+rebound-android-example/src/main/java/com/facebook/rebound/example/MainActivity.java;ExampleSpringListener.onSpringUpdate( Spring spring );1;0;5
+rebound-android-example/src/main/java/com/facebook/rebound/example/MainActivity.java;MainActivity.onCreate( Bundle savedInstanceState );4;0;22
+rebound-android-example/src/main/java/com/facebook/rebound/example/MainActivity.java;MainActivity.onPause( );1;0;4
+rebound-android-example/src/main/java/com/facebook/rebound/example/MainActivity.java;MainActivity.onResume( );1;0;4
+rebound-android-example/src/main/java/com/facebook/rebound/example/MainActivity.java;MainActivity.onTouch( View v , MotionEvent event );4;0;12
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/ExampleContainerView.java;ExampleContainerView.ExampleContainerView( Context context );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/ExampleContainerView.java;ExampleContainerView.ExampleContainerView( Context context , AttributeSet attrs );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/ExampleContainerView.java;ExampleContainerView.ExampleContainerView( Context context , AttributeSet attrs , int defStyle );1;0;15
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/ExampleContainerView.java;ExampleContainerView.clearCallback( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/ExampleContainerView.java;ExampleContainerView.hide( boolean animated , Callback callback );2;0;8
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/ExampleContainerView.java;ExampleContainerView.onAttachedToWindow( );1;0;4
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/ExampleContainerView.java;ExampleContainerView.onDetachedFromWindow( );1;0;4
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/ExampleContainerView.java;ExampleContainerView.onGlobalLayout( );1;0;4
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/ExampleContainerView.java;ExampleContainerView.onSpringActivate( Spring spring );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/ExampleContainerView.java;ExampleContainerView.onSpringAtRest( Spring spring );2;1;5
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/ExampleContainerView.java;ExampleContainerView.onSpringEndStateChange( Spring spring );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/ExampleContainerView.java;ExampleContainerView.onSpringUpdate( Spring spring );2;1;8
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/ExampleContainerView.java;ExampleContainerView.reveal( boolean animated , Callback callback );2;0;8
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;ExampleListAdapter.areAllItemsEnabled( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;ExampleListAdapter.getCount( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;ExampleListAdapter.getItem( int position );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;ExampleListAdapter.getItemId( int position );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;ExampleListAdapter.getItemViewType( int position );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;ExampleListAdapter.getView( int position , View convertView , ViewGroup parent );2;1;11
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;ExampleListAdapter.getViewTypeCount( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;ExampleListAdapter.hasStableIds( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;ExampleListAdapter.isEmpty( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;ExampleListAdapter.isEnabled( int position );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;ExampleListAdapter.registerDataSetObserver( DataSetObserver observer );1;0;1
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;ExampleListAdapter.unregisterDataSetObserver( DataSetObserver observer );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;PlaygroundActivity.onBackPressed( );3;2;22
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;PlaygroundActivity.onCreate( Bundle savedInstanceState );1;0;11
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;PlaygroundActivity.onCreateOptionsMenu( Menu menu );1;0;4
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;PlaygroundActivity.onEnd( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;PlaygroundActivity.onItemClick( AdapterView < ? > parent , View view , int position , long id );9;1;44
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;PlaygroundActivity.onOptionsItemSelected( MenuItem item );2;1;7
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;PlaygroundActivity.onProgress( double progress );1;0;6
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;PlaygroundActivity.run( );1;0;15
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/PlaygroundActivity.java;Sample.Sample( Class < ? extends View > viewClass , String text , String subtext );1;0;5
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/RowView.java;RowView.RowView( Context context );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/RowView.java;RowView.RowView( Context context , AttributeSet attrs );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/RowView.java;RowView.RowView( Context context , AttributeSet attrs , int defStyle );1;0;9
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/RowView.java;RowView.setSubtext( String text );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/RowView.java;RowView.setText( String text );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/Util.java;***not in a method***;0;2;0
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/app/Util.java;Util.randomColor( );1;0;8
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.BallExample( Context context );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.BallExample( Context context , AttributeSet attrs );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.BallExample( Context context , AttributeSet attrs , int defStyle );3;0;30
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.checkConstraints( );10;29;29
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.dist( double posX , double posY , double pos2X , double pos2Y );1;3;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.onAfterIntegrate( BaseSpringSystem springSystem );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.onBeforeIntegrate( BaseSpringSystem springSystem );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.onDraw( Canvas canvas );2;6;25
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.onGlobalLayout( );3;18;14
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.onSpringActivate( Spring spring );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.onSpringAtRest( Spring spring );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.onSpringEndStateChange( Spring spring );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.onSpringUpdate( Spring spring );1;0;5
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/BallExample.java;BallExample.onTouchEvent( MotionEvent event );11;17;49
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/OrigamiExample.java;OrigamiExample.OrigamiExample( Context context );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/OrigamiExample.java;OrigamiExample.OrigamiExample( Context context , AttributeSet attrs );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/OrigamiExample.java;OrigamiExample.OrigamiExample( Context context , AttributeSet attrs , int defStyle );1;0;37
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/OrigamiExample.java;OrigamiExample.handleClick( View view );2;1;7
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/OrigamiExample.java;OrigamiExample.onClick( View v );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/OrigamiExample.java;OrigamiExample.onGlobalLayout( );1;0;4
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/OrigamiExample.java;OrigamiExample.onSpringUpdate( Spring spring );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/OrigamiExample.java;OrigamiExample.render( );1;1;24
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/PhotoGalleryExample.java;PhotoGalleryExample.PhotoGalleryExample( Context context );3;5;44
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/PhotoGalleryExample.java;PhotoGalleryExample.layout( );3;21;23
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/PhotoGalleryExample.java;PhotoGalleryExample.onClick( View v );2;1;6
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/PhotoGalleryExample.java;PhotoGalleryExample.onGlobalLayout( );1;0;10
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/PhotoGalleryExample.java;PhotoGalleryExample.onSpringActivate( Spring spring );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/PhotoGalleryExample.java;PhotoGalleryExample.onSpringAtRest( Spring spring );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/PhotoGalleryExample.java;PhotoGalleryExample.onSpringEndStateChange( Spring spring );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/PhotoGalleryExample.java;PhotoGalleryExample.onSpringUpdate( Spring spring );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/PhotoGalleryExample.java;PhotoGalleryExample.render( );6;9;36
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/PhotoGalleryExample.java;PhotoGalleryExample.run( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SimpleExample.java;ExampleSpringListener.onSpringUpdate( Spring spring );1;0;5
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SimpleExample.java;SimpleExample.SimpleExample( Context context );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SimpleExample.java;SimpleExample.SimpleExample( Context context , AttributeSet attrs );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SimpleExample.java;SimpleExample.SimpleExample( Context context , AttributeSet attrs , int defStyle );4;0;23
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SimpleExample.java;SimpleExample.onAttachedToWindow( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SimpleExample.java;SimpleExample.onDetachedFromWindow( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SimpleExample.java;SimpleExample.onTouch( View v , MotionEvent event );4;0;12
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SpringChainExample.java;SpringChainExample.SpringChainExample( Context context );3;3;58
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SpringChainExample.java;SpringChainExample.handleRowTouch( View view , MotionEvent event );7;8;45
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SpringChainExample.java;SpringChainExample.onGlobalLayout( );2;3;16
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SpringChainExample.java;SpringChainExample.onSpringUpdate( Spring spring );1;0;4
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SpringChainExample.java;SpringChainExample.onTouch( View v , MotionEvent event );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SpringChainExample.java;SpringChainExample.run( );1;0;6
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/SpringScrollViewExample.java;SpringScrollViewExample.SpringScrollViewExample( Context context );2;3;18
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/ExampleRowView.java;ExampleRowView.ExampleRowView( Context context );1;0;7
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/ExampleRowView.java;ExampleRowView.setText( String text );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.SpringOverScroller( Context context );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.SpringOverScroller( Context context , Interpolator interpolator );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.SpringOverScroller( Context context , Interpolator interpolator , boolean flywheel );1;0;15
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.SpringOverScroller( Context context , Interpolator interpolator , float bounceCoefficientX , float bounceCoefficientY );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.SpringOverScroller( Context context , Interpolator interpolator , float bounceCoefficientX , float bounceCoefficientY , boolean flywheel );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.abortAnimation( );1;0;4
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.computeScrollOffset( );2;2;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.fling( int startX , int startY , int velocityX , int velocityY , int minX , int maxX , int minY , int maxY , int overX , int overY );1;0;10
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.getCurrVelocity( );1;3;5
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.getCurrX( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.getCurrY( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.getFinalX( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.getFinalY( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.getStartX( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.getStartY( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.isFinished( );2;1;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.notifyHorizontalEdgeReached( int startX , int finalX , int overX );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.notifyVerticalEdgeReached( int startY , int finalY , int overY );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.onSpringActivate( Spring spring );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.onSpringAtRest( Spring spring );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.onSpringEndStateChange( Spring spring );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.onSpringUpdate( Spring spring );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.setFriction( float friction );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.springBack( int startX , int startY , int minX , int maxX , int minY , int maxY );9;10;23
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringOverScroller.java;SpringOverScroller.startScroll( int startX , int startY , int dx , int dy );1;0;4
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;***not in a method***;0;1;0
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SavedState.SavedState( Parcel source );1;0;4
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SavedState.SavedState( Parcelable superState );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SavedState.createFromParcel( Parcel in );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SavedState.newArray( int size );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SavedState.toString( );1;0;5
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SavedState.writeToParcel( Parcel dest , int flags );1;0;4
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.SpringScrollView( Context context );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.SpringScrollView( Context context , AttributeSet attrs );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.SpringScrollView( Context context , AttributeSet attrs , int defStyle );1;0;4
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.addView( View child );2;1;6
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.addView( View child , ViewGroup . LayoutParams params );2;1;6
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.addView( View child , int index );2;1;6
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.addView( View child , int index , ViewGroup . LayoutParams params );2;1;6
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.arrowScroll( int direction );14;19;38
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.canScroll( );2;4;8
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.computeScroll( );7;11;20
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.computeScrollDeltaToGetChildRectOnScreen( Rect rect );10;24;32
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.computeVerticalScrollOffset( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.computeVerticalScrollRange( );4;9;16
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.dispatchKeyEvent( KeyEvent event );2;1;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.doScrollY( int delta );3;1;9
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.draw( Canvas canvas );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.endDrag( );1;0;4
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.executeKeyEvent( KeyEvent event );14;11;38
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.findFocusableViewInBounds( boolean topFocus , int top , int bottom );14;16;37
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.fling( int velocityY );2;5;9
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.fullScroll( int direction );3;5;15
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.getBottomFadingEdgeStrength( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.getMaxScrollAmount( );1;2;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.getOverScrollMode( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.getScrollRange( );2;4;9
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.getTopFadingEdgeStrength( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.inChild( int x , int y );5;11;11
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.initOrResetVelocityTracker( );2;1;7
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.initScrollView( );1;0;12
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.initVelocityTrackerIfNotExists( );2;1;5
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.invalidateParentIfNeeded( );3;1;5
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.isFillViewport( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.isOffScreen( View descendant );1;1;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.isSmoothScrollingEnabled( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.isViewDescendantOf( View child , View parent );3;2;7
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.isWithinDeltaOfScreen( View descendant , int delta , int height );2;6;6
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.measureChild( View child , int parentWidthMeasureSpec , int parentHeightMeasureSpec );1;1;9
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.measureChildWithMargins( View child , int parentWidthMeasureSpec , int widthUsed , int parentHeightMeasureSpec , int heightUsed );1;5;9
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.onDetachedFromWindow( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.onInitializeAccessibilityEvent( AccessibilityEvent event );1;1;10
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.onInitializeAccessibilityNodeInfo( AccessibilityNodeInfo info );5;3;16
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.onInterceptTouchEvent( MotionEvent ev );16;14;63
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.onLayout( boolean changed , int l , int t , int r , int b );8;11;23
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.onMeasure( int widthMeasureSpec , int heightMeasureSpec );5;7;24
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.onOverScrolled( int scrollX , int scrollY , boolean clampedX , boolean clampedY );3;1;16
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.onRequestFocusInDescendants( int direction , Rect previouslyFocusedRect );6;4;18
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.onRestoreInstanceState( Parcelable state );2;1;10
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.onSaveInstanceState( );2;1;9
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.onSecondaryPointerUp( MotionEvent ev );4;5;13
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.onSizeChanged( int w , int h , int oldw , int oldh );4;3;12
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.onTouchEvent( MotionEvent ev );27;25;97
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.overScrollBy( int deltaX , int deltaY , int scrollX , int scrollY , int scrollRangeX , int scrollRangeY , int maxOverScrollX , int maxOverScrollY , boolean isTouchEvent );15;32;41
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.pageScroll( int direction );5;10;21
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.performAccessibilityAction( int action , Bundle arguments );7;9;27
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.recycleVelocityTracker( );2;1;6
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.requestChildFocus( View child , View focused );2;1;8
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.requestChildRectangleOnScreen( View child , Rect rectangle , boolean immediate );1;2;5
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.requestDisallowInterceptTouchEvent( boolean disallowIntercept );2;0;6
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.requestLayout( );1;0;4
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.scrollAndFocus( int direction , int top , int bottom );6;9;19
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.scrollTo( int x , int y );4;4;7
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.scrollToChild( View child );2;1;8
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.scrollToChildRect( Rect rect , boolean immediate );3;1;12
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.setFillViewport( boolean fillViewport );2;1;6
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.setOverScrollMode( int mode );1;0;2
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.setSmoothScrollingEnabled( boolean smoothScrollingEnabled );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.shouldDelayChildPressedState( );1;0;3
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.smoothScrollBy( int dx , int dy );4;9;21
+rebound-android-playground/src/main/java/com/facebook/rebound/playground/examples/scrollview/SpringScrollView.java;SpringScrollView.smoothScrollTo( int x , int y );1;2;3
+rebound-android/src/main/java/com/facebook/rebound/AndroidSpringLooperFactory.java;AndroidSpringLooperFactory.createSpringLooper( );2;1;7
+rebound-android/src/main/java/com/facebook/rebound/AndroidSpringLooperFactory.java;ChoreographerAndroidSpringLooper.ChoreographerAndroidSpringLooper( Choreographer choreographer );3;0;15
+rebound-android/src/main/java/com/facebook/rebound/AndroidSpringLooperFactory.java;ChoreographerAndroidSpringLooper.create( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/AndroidSpringLooperFactory.java;ChoreographerAndroidSpringLooper.doFrame( long frameTimeNanos );3;4;9
+rebound-android/src/main/java/com/facebook/rebound/AndroidSpringLooperFactory.java;ChoreographerAndroidSpringLooper.start( );2;0;9
+rebound-android/src/main/java/com/facebook/rebound/AndroidSpringLooperFactory.java;ChoreographerAndroidSpringLooper.stop( );1;0;4
+rebound-android/src/main/java/com/facebook/rebound/AndroidSpringLooperFactory.java;LegacyAndroidSpringLooper.LegacyAndroidSpringLooper( Handler handler );3;0;15
+rebound-android/src/main/java/com/facebook/rebound/AndroidSpringLooperFactory.java;LegacyAndroidSpringLooper.create( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/AndroidSpringLooperFactory.java;LegacyAndroidSpringLooper.run( );3;4;9
+rebound-android/src/main/java/com/facebook/rebound/AndroidSpringLooperFactory.java;LegacyAndroidSpringLooper.start( );2;0;9
+rebound-android/src/main/java/com/facebook/rebound/AndroidSpringLooperFactory.java;LegacyAndroidSpringLooper.stop( );1;0;4
+rebound-android/src/main/java/com/facebook/rebound/AnimationQueue.java;AnimationQueue.AnimationQueue( );1;0;9
+rebound-android/src/main/java/com/facebook/rebound/AnimationQueue.java;AnimationQueue.addAllValues( Collection < Double > values );1;0;4
+rebound-android/src/main/java/com/facebook/rebound/AnimationQueue.java;AnimationQueue.addCallback( Callback callback );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/AnimationQueue.java;AnimationQueue.addValue( Double value );1;0;4
+rebound-android/src/main/java/com/facebook/rebound/AnimationQueue.java;AnimationQueue.clearCallbacks( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/AnimationQueue.java;AnimationQueue.clearValues( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/AnimationQueue.java;AnimationQueue.doFrame( long frameTimeNanos );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/AnimationQueue.java;AnimationQueue.onFrame( long frameTimeNanos );7;13;27
+rebound-android/src/main/java/com/facebook/rebound/AnimationQueue.java;AnimationQueue.removeCallback( Callback callback );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/AnimationQueue.java;AnimationQueue.runIfIdle( );2;1;6
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;***not in a method***;0;1;0
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;ChoreographerCompat.ChoreographerCompat( );2;0;7
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;ChoreographerCompat.choreographerPostFrameCallback( Choreographer . FrameCallback frameCallback );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;ChoreographerCompat.choreographerPostFrameCallbackDelayed( Choreographer . FrameCallback frameCallback , long delayMillis );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;ChoreographerCompat.choreographerRemoveFrameCallback( Choreographer . FrameCallback frameCallback );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;ChoreographerCompat.getChoreographer( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;ChoreographerCompat.getInstance( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;ChoreographerCompat.postFrameCallback( FrameCallback callbackWrapper );2;0;7
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;ChoreographerCompat.postFrameCallbackDelayed( FrameCallback callbackWrapper , long delayMillis );2;1;7
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;ChoreographerCompat.removeFrameCallback( FrameCallback callbackWrapper );2;0;7
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;FrameCallback.doFrame( long frameTimeNanos );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;FrameCallback.getFrameCallback( );2;1;11
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;FrameCallback.getRunnable( );2;1;11
+rebound-android/src/main/java/com/facebook/rebound/ChoreographerCompat.java;FrameCallback.run( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;***not in a method***;0;1;0
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.SpringChain( );1;0;7
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.SpringChain( int mainTension , int mainFriction , int attachmentTension , int attachmentFriction );1;2;7
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.addSpring( final SpringListener listener );1;0;9
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.create( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.create( int mainTension , int mainFriction , int attachmentTension , int attachmentFriction );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.getAllSprings( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.getAttachmentSpringConfig( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.getControlSpring( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.getMainSpringConfig( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.onSpringActivate( Spring spring );1;0;4
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.onSpringAtRest( Spring spring );1;0;4
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.onSpringEndStateChange( Spring spring );1;0;4
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.onSpringUpdate( Spring spring );8;17;21
+rebound-android/src/main/java/com/facebook/rebound/SpringChain.java;SpringChain.setControlSpringIndex( int i );3;1;12
+rebound-android/src/main/java/com/facebook/rebound/SpringSystem.java;SpringSystem.SpringSystem( SpringLooper springLooper );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/SpringSystem.java;SpringSystem.create( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;OnNubTouchListener.onTouch( View view , MotionEvent motionEvent );2;1;6
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;RevealerSpringListener.onSpringActivate( Spring spring );1;0;2
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;RevealerSpringListener.onSpringAtRest( Spring spring );1;0;2
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;RevealerSpringListener.onSpringEndStateChange( Spring spring );1;0;2
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;RevealerSpringListener.onSpringUpdate( Spring spring );1;3;8
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SeekbarListener.onProgressChanged( SeekBar seekBar , int val , boolean b );3;10;18
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SeekbarListener.onStartTrackingTouch( SeekBar seekBar );1;0;2
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SeekbarListener.onStopTrackingTouch( SeekBar seekBar );1;0;2
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpinnerAdapter.SpinnerAdapter( Context context );1;0;4
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpinnerAdapter.add( String string );1;0;4
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpinnerAdapter.clear( );1;0;4
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpinnerAdapter.getCount( );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpinnerAdapter.getItem( int position );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpinnerAdapter.getItemId( int position );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpinnerAdapter.getView( int position , View convertView , ViewGroup parent );2;1;17
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpringConfiguratorView.SpringConfiguratorView( Context context );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpringConfiguratorView.SpringConfiguratorView( Context context , AttributeSet attrs );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpringConfiguratorView.SpringConfiguratorView( Context context , AttributeSet attrs , int defStyle );1;0;25
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpringConfiguratorView.destroy( );2;1;7
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpringConfiguratorView.generateHierarchy( Context context );1;3;79
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpringConfiguratorView.refreshSpringConfigurations( );4;2;18
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpringConfiguratorView.togglePosition( );2;1;5
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpringConfiguratorView.updateSeekBarsForSpringConfig( SpringConfig springConfig );1;8;10
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpringSelectedListener.onItemSelected( AdapterView < ? > adapterView , View view , int i , long l );1;0;4
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpringSelectedListener.onNothingSelected( AdapterView < ? > adapterView );1;0;2
+rebound-android/src/main/java/com/facebook/rebound/ui/Util.java;Util.createLayoutParams( int width , int height );1;0;3
+rebound-android/src/main/java/com/facebook/rebound/ui/Util.java;Util.createMatchParams( );1;0;5
+rebound-android/src/main/java/com/facebook/rebound/ui/Util.java;Util.createMatchWrapParams( );1;0;5
+rebound-android/src/main/java/com/facebook/rebound/ui/Util.java;Util.createWrapMatchParams( );1;0;5
+rebound-android/src/main/java/com/facebook/rebound/ui/Util.java;Util.createWrapParams( );1;0;5
+rebound-android/src/main/java/com/facebook/rebound/ui/Util.java;Util.dpToPx( float dp , Resources res );1;0;6
+rebound-core/src/main/java/com/facebook/rebound/BaseSpringSystem.java;BaseSpringSystem.BaseSpringSystem( SpringLooper springLooper );2;1;7
+rebound-core/src/main/java/com/facebook/rebound/BaseSpringSystem.java;BaseSpringSystem.activateSpring( String springId );3;1;11
+rebound-core/src/main/java/com/facebook/rebound/BaseSpringSystem.java;BaseSpringSystem.addListener( SpringSystemListener newListener );2;1;6
+rebound-core/src/main/java/com/facebook/rebound/BaseSpringSystem.java;BaseSpringSystem.advance( double deltaTime );3;1;9
+rebound-core/src/main/java/com/facebook/rebound/BaseSpringSystem.java;BaseSpringSystem.createSpring( );1;0;5
+rebound-core/src/main/java/com/facebook/rebound/BaseSpringSystem.java;BaseSpringSystem.deregisterSpring( Spring spring );2;1;7
+rebound-core/src/main/java/com/facebook/rebound/BaseSpringSystem.java;BaseSpringSystem.getAllSprings( );2;0;10
+rebound-core/src/main/java/com/facebook/rebound/BaseSpringSystem.java;BaseSpringSystem.getIsIdle( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/BaseSpringSystem.java;BaseSpringSystem.getSpringById( String id );2;1;6
+rebound-core/src/main/java/com/facebook/rebound/BaseSpringSystem.java;BaseSpringSystem.loop( double elapsedMillis );5;0;15
+rebound-core/src/main/java/com/facebook/rebound/BaseSpringSystem.java;BaseSpringSystem.registerSpring( Spring spring );3;1;8
+rebound-core/src/main/java/com/facebook/rebound/BaseSpringSystem.java;BaseSpringSystem.removeAllListeners( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/BaseSpringSystem.java;BaseSpringSystem.removeListener( SpringSystemListener listenerToRemove );2;1;6
+rebound-core/src/main/java/com/facebook/rebound/BouncyConversion.java;BouncyConversion.BouncyConversion( double speed , double bounciness );1;2;9
+rebound-core/src/main/java/com/facebook/rebound/BouncyConversion.java;BouncyConversion.b3_friction1( double x );1;6;3
+rebound-core/src/main/java/com/facebook/rebound/BouncyConversion.java;BouncyConversion.b3_friction2( double x );1;6;3
+rebound-core/src/main/java/com/facebook/rebound/BouncyConversion.java;BouncyConversion.b3_friction3( double x );1;6;3
+rebound-core/src/main/java/com/facebook/rebound/BouncyConversion.java;BouncyConversion.b3_nobounce( double tension );5;5;13
+rebound-core/src/main/java/com/facebook/rebound/BouncyConversion.java;BouncyConversion.getBounciness( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/BouncyConversion.java;BouncyConversion.getBouncyFriction( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/BouncyConversion.java;BouncyConversion.getBouncyTension( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/BouncyConversion.java;BouncyConversion.getSpeed( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/BouncyConversion.java;BouncyConversion.linear_interpolation( double t , double start , double end );1;4;3
+rebound-core/src/main/java/com/facebook/rebound/BouncyConversion.java;BouncyConversion.normalize( double value , double startValue , double endValue );1;3;3
+rebound-core/src/main/java/com/facebook/rebound/BouncyConversion.java;BouncyConversion.project_normal( double n , double start , double end );1;3;3
+rebound-core/src/main/java/com/facebook/rebound/BouncyConversion.java;BouncyConversion.quadratic_out_interpolation( double t , double start , double end );1;3;3
+rebound-core/src/main/java/com/facebook/rebound/OrigamiValueConverter.java;OrigamiValueConverter.frictionFromOrigamiValue( double oValue );2;4;3
+rebound-core/src/main/java/com/facebook/rebound/OrigamiValueConverter.java;OrigamiValueConverter.origamiValueFromFriction( double friction );2;4;3
+rebound-core/src/main/java/com/facebook/rebound/OrigamiValueConverter.java;OrigamiValueConverter.origamiValueFromTension( double tension );2;4;3
+rebound-core/src/main/java/com/facebook/rebound/OrigamiValueConverter.java;OrigamiValueConverter.tensionFromOrigamiValue( double oValue );2;4;3
+rebound-core/src/main/java/com/facebook/rebound/SimpleSpringListener.java;SimpleSpringListener.onSpringActivate( Spring spring );1;0;2
+rebound-core/src/main/java/com/facebook/rebound/SimpleSpringListener.java;SimpleSpringListener.onSpringAtRest( Spring spring );1;0;2
+rebound-core/src/main/java/com/facebook/rebound/SimpleSpringListener.java;SimpleSpringListener.onSpringEndStateChange( Spring spring );1;0;2
+rebound-core/src/main/java/com/facebook/rebound/SimpleSpringListener.java;SimpleSpringListener.onSpringUpdate( Spring spring );1;0;2
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.Spring( BaseSpringSystem springSystem );2;2;8
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.addListener( SpringListener newListener );2;1;7
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.advance( double realDeltaTime );16;59;84
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.currentValueIsApproximately( double value );1;2;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.destroy( );1;0;4
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.getCurrentDisplacementDistance( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.getCurrentValue( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.getDisplacementDistanceForState( PhysicsState state );1;1;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.getEndValue( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.getId( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.getRestDisplacementThreshold( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.getRestSpeedThreshold( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.getSpringConfig( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.getStartValue( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.getVelocity( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.interpolate( double alpha );1;8;4
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.isAtRest( );3;5;5
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.isOvershootClampingEnabled( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.isOvershooting( );5;9;5
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.removeAllListeners( );1;0;4
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.removeListener( SpringListener listenerToRemove );2;1;7
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.setAtRest( );1;0;6
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.setCurrentValue( double currentValue );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.setCurrentValue( double currentValue , boolean setAtRest );3;0;12
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.setEndValue( double endValue );4;2;12
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.setOvershootClampingEnabled( boolean overshootClampingEnabled );1;0;4
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.setRestDisplacementThreshold( double displacementFromRestThreshold );1;0;4
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.setRestSpeedThreshold( double restSpeedThreshold );1;0;4
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.setSpringConfig( SpringConfig springConfig );2;1;7
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.setVelocity( double velocity );2;1;8
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.systemShouldAdvance( );2;3;3
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.wasAtRest( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/SpringConfig.java;SpringConfig.SpringConfig( double tension , double friction );1;0;4
+rebound-core/src/main/java/com/facebook/rebound/SpringConfig.java;SpringConfig.fromBouncinessAndSpeed( double bounciness , double speed );1;0;6
+rebound-core/src/main/java/com/facebook/rebound/SpringConfig.java;SpringConfig.fromOrigamiTensionAndFriction( double qcTension , double qcFriction );1;0;6
+rebound-core/src/main/java/com/facebook/rebound/SpringConfigRegistry.java;SpringConfigRegistry.SpringConfigRegistry( boolean includeDefaultEntry );2;0;6
+rebound-core/src/main/java/com/facebook/rebound/SpringConfigRegistry.java;SpringConfigRegistry.addSpringConfig( SpringConfig springConfig , String configName );4;2;13
+rebound-core/src/main/java/com/facebook/rebound/SpringConfigRegistry.java;SpringConfigRegistry.getAllSpringConfig( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/SpringConfigRegistry.java;SpringConfigRegistry.getInstance( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/SpringConfigRegistry.java;SpringConfigRegistry.removeAllSpringConfig( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/SpringConfigRegistry.java;SpringConfigRegistry.removeSpringConfig( SpringConfig springConfig );2;2;6
+rebound-core/src/main/java/com/facebook/rebound/SpringLooper.java;SpringLooper.setSpringSystem( BaseSpringSystem springSystem );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/SpringUtil.java;SpringUtil.clamp( double value , double low , double high );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/SpringUtil.java;SpringUtil.mapValueFromRangeToRange( double value , double fromLow , double fromHigh , double toLow , double toHigh );1;6;6
+rebound-core/src/main/java/com/facebook/rebound/SteppingLooper.java;SteppingLooper.start( );1;0;4
+rebound-core/src/main/java/com/facebook/rebound/SteppingLooper.java;SteppingLooper.step( long interval );3;4;9
+rebound-core/src/main/java/com/facebook/rebound/SteppingLooper.java;SteppingLooper.stop( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/SynchronousLooper.java;SynchronousLooper.SynchronousLooper( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/SynchronousLooper.java;SynchronousLooper.getTimeStep( );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/SynchronousLooper.java;SynchronousLooper.setTimeStep( double timeStep );1;0;3
+rebound-core/src/main/java/com/facebook/rebound/SynchronousLooper.java;SynchronousLooper.start( );3;2;9
+rebound-core/src/main/java/com/facebook/rebound/SynchronousLooper.java;SynchronousLooper.stop( );1;0;3
+rebound-core/src/test/java/com/facebook/rebound/SpringConfigRegistryTest.java;SpringConfigRegistryTest.beforeEach( );1;0;3
+rebound-core/src/test/java/com/facebook/rebound/SpringConfigRegistryTest.java;SpringConfigRegistryTest.testAddSpringConfig( );1;0;9
+rebound-core/src/test/java/com/facebook/rebound/SpringConfigRegistryTest.java;SpringConfigRegistryTest.testRemoveAllSpringConfig( );1;0;13
+rebound-core/src/test/java/com/facebook/rebound/SpringConfigRegistryTest.java;SpringConfigRegistryTest.testRemoveSpringConfig( );1;0;9
+rebound-core/src/test/java/com/facebook/rebound/SpringSystemTest.java;SimpleSpringSystemListener.onAfterIntegrate( BaseSpringSystem springSystem );1;0;2
+rebound-core/src/test/java/com/facebook/rebound/SpringSystemTest.java;SimpleSpringSystemListener.onBeforeIntegrate( BaseSpringSystem springSystem );1;0;2
+rebound-core/src/test/java/com/facebook/rebound/SpringSystemTest.java;SpringSystemTest.beforeEach( );1;0;7
+rebound-core/src/test/java/com/facebook/rebound/SpringSystemTest.java;SpringSystemTest.onAfterIntegrate( BaseSpringSystem springSystem );1;0;2
+rebound-core/src/test/java/com/facebook/rebound/SpringSystemTest.java;SpringSystemTest.onBeforeIntegrate( BaseSpringSystem springSystem );1;0;2
+rebound-core/src/test/java/com/facebook/rebound/SpringSystemTest.java;SpringSystemTest.testActivatingAndDeactivatingSpring( );1;1;31
+rebound-core/src/test/java/com/facebook/rebound/SpringSystemTest.java;SpringSystemTest.testCanAddListenersWhileIterating( );1;0;11
+rebound-core/src/test/java/com/facebook/rebound/SpringSystemTest.java;SpringSystemTest.testCanRemoveListenersWhileIterating( );1;0;16
+rebound-core/src/test/java/com/facebook/rebound/SpringSystemTest.java;SpringSystemTest.testCreateSpringWithoutName( );1;0;6
+rebound-core/src/test/java/com/facebook/rebound/SpringSystemTest.java;SpringSystemTest.testLoop( );1;1;8
+rebound-core/src/test/java/com/facebook/rebound/SpringSystemTest.java;SpringSystemTest.testLoopWithMultiplePassesRunsAndTerminates( );1;1;16
+rebound-core/src/test/java/com/facebook/rebound/SpringSystemTest.java;SpringSystemTest.testRegisterSpringOnCreation( );1;0;4
+rebound-core/src/test/java/com/facebook/rebound/SpringSystemTest.java;SpringSystemTest.testSpringSystemListener( );1;0;23
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;***not in a method***;0;34;0
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.beforeEach( );1;0;6
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.createTestSpring( );1;0;3
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.iterateUntilRest( Spring spring );2;2;6
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.onSpringUpdate( Spring spring );1;0;3
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testActivateSpringOnEndValueChange( );1;0;5
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testCanAddListenersWhileIterating( );1;0;11
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testCanRemoveListenersWhileIterating( );1;0;13
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testOvershootClamping( );3;9;25
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testSetCurrentValueSetsAtRestByDefault( );1;0;15
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testSettingCurrentValueWithoutSettingAtRestTriggersIteration( );1;19;27
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testSettingVelocityTriggersIteration( );1;34;33
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testSetupSpring( );1;5;10
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testSpringBehaviorWhenUpdatingEndStateWhileNotAtRest( );2;4;25
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testSpringDoesNotActivateAfterRest( );2;0;25
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testSpringDoesNotActivateAfterSetAtRestCall( );3;5;30
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testSpringListeners( );2;4;21
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testSpringListenersWithOvershootClamping( );2;4;22
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testSpringMotionWithNoFriction( );1;0;26
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testSpringSimulation( );2;6;19
