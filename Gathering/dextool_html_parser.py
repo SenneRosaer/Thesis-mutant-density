@@ -71,7 +71,7 @@ def parse_mutants_from_file(filename):
                     print("close at: " + str(index+1))
 
             count = row.count("class=\"mutant")
-            if count:
+            if count and latest_key:
                 print(f"{count} mutant(s) at {index+1}")
 
                 # TODO struct shit is weird with struct in struct etc.

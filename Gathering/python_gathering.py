@@ -17,7 +17,6 @@ def gather_python_information(directory):
         tree = ast.parse(data)
         v = visitor()
         v.visit(tree)
-        print()
         results = {}
         for key, item in v.data.items():
             results[key] = len(item)
@@ -41,7 +40,7 @@ def gather_python_information(directory):
                 testfname = file.replace(directory, '')[1:].replace(".py", "")
                 # TODO class in class without functions inbetween is supported however
                 try:
-                    output.append(f"scrapy/{testfname};{splittedline[1]};{splittedline[-1]};{results[splittedline[1]]}")
+                    output.append(f"ansible/{testfname};{splittedline[1]};{splittedline[-1]};{results[splittedline[1]]}")
                 except:
                     pass
         if os.path.exists("output/py-info-temp.txt"):
@@ -106,7 +105,6 @@ class visitor(ast.NodeVisitor):
         self.stack = []
         self.line_no = None
     def visit_ClassDef(self, node):
-        print()
         if not self.current_function:
             self.current_class = node.name
         ast.NodeVisitor.generic_visit(self, node)

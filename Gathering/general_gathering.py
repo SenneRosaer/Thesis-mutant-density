@@ -64,7 +64,7 @@ def parse_cpp_dataset(directory_name):
         total += val
     print(total1)
     print(total)
-    return results
+    read_from_db_file(directory_name, results)
 
 
 import sqlite3
@@ -111,11 +111,11 @@ def read_from_db_file(filename,results):
 if __name__ == '__main__':
     # cmd = f"pmccabe -v comm_buffer.hpp >> output/c-info-temp.txt"
     # os.system(cmd)
-    # parse_python_dataset("./Dataset/Python/large/flask-main/src")
+    # parse_python_dataset("./Dataset/Python/large/ansible-devel/lib/ansible")
     # parse_python_dataset("./python_example")
-    parse_python_dataset("./Dataset/Python/medium/scrapy-master/scrapy")
+    # parse_python_dataset("./Dataset/Python/medium/scrapy-master/scrapy")
 
-    # parse_cpp_dataset("Dataset/Cpp/large/opencv-4.x")
+    parse_cpp_dataset("Dataset/Cpp/large/PrusaSlicer")
 
 
     # results = parse_cpp_dataset("./Dataset/C/medium/libusb-master")
