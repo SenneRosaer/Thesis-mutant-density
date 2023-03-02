@@ -113,9 +113,9 @@ if __name__ == '__main__':
     # os.system(cmd)
     # parse_python_dataset("./Dataset/Python/large/ansible-devel/lib/ansible")
     # parse_python_dataset("./python_example")
-    # parse_python_dataset("./Dataset/Python/medium/scrapy-master/scrapy")
+    parse_python_dataset("./Dataset/Python/large/biopython/Bio")
 
-    parse_cpp_dataset("Dataset/Cpp/large/PrusaSlicer")
+    # parse_cpp_dataset("Dataset/C/SoftEtherVPN")
 
 
     # results = parse_cpp_dataset("./Dataset/C/medium/libusb-master")

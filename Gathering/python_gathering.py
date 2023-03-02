@@ -40,7 +40,7 @@ def gather_python_information(directory):
                 testfname = file.replace(directory, '')[1:].replace(".py", "")
                 # TODO class in class without functions inbetween is supported however
                 try:
-                    output.append(f"ansible/{testfname};{splittedline[1]};{splittedline[-1]};{results[splittedline[1]]}")
+                    output.append(f"Bio/{testfname};{splittedline[1]};{splittedline[-1]};{results[splittedline[1]]}")
                 except:
                     pass
         if os.path.exists("output/py-info-temp.txt"):

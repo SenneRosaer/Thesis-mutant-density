@@ -67,10 +67,10 @@ if __name__ == '__main__':
     max_sloc = 0
     boxplot_cc_sloc = [[] for i in range(0,100)]
     boxplot_md_sloc = [[] for i in range(0, 100)]
-    for idx, row in df_java.iterrows():
-        sloc_for_method = row['Source Lines of Code']
-        cc_for_method = row['Cyclomatic Complexity']
-        md_for_method = row["Mutant Density"]
+    for idx, row in df_python.iterrows():
+        sloc_for_method = int(row['Source Lines of Code'])
+        cc_for_method = int(row['Cyclomatic Complexity'])
+        md_for_method = int(row["Mutant Density"])
         if sloc_for_method < min_sloc:
             min_sloc = sloc_for_method
         if sloc_for_method > max_sloc:
