@@ -1,0 +1,35 @@
+File;Method Name;CC;SLOC;Mean;Std
+src/main/java/com/alibaba/fastjson/JSONPath.java;JSONPathParser.skipWhitespace( );9;10;2.973231357552581;1.4017369987903217
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanFieldIntArray( char [ ] fieldName );22;93;24.5;0.5
+src/main/java/com/alibaba/fastjson/parser/JSONScanner.java;JSONScanner.scanInt( char expectNext );29;99;0.16538461538461538;1.8207019583945567
+src/main/java/com/alibaba/fastjson/parser/ParserConfig.java;ParserConfig.isPrimitive2( final Class < ? > clazz );16;21;5.095238095238095;2.223355719986429
+src/main/java/com/alibaba/fastjson/parser/deserializer/Jdk8DateCodec.java;Jdk8DateCodec.parseDateTime( String text , DateTimeFormatter formatter );42;99;0.16538461538461538;1.8207019583945567
+src/main/java/com/alibaba/fastjson/serializer/JSONSerializer.java;JSONSerializer.checkValue( SerializeFilterable filterable );9;7;2.2439903846153846;0.9691577627704965
+src/main/java/com/alibaba/fastjson/serializer/JodaCodec.java;JodaCodec.parseLocalDate( String text , String format , DateTimeFormatter formatter );27;64;5.0;4.0
+src/main/java/com/alibaba/fastjson/serializer/JodaCodec.java;JodaCodec.parseZonedDateTime( String text , DateTimeFormatter formatter );27;64;5.0;4.0
+src/main/java/com/alibaba/fastjson/util/ParameterizedTypeImpl.java;ParameterizedTypeImpl.equals( Object o );8;8;2.4589308996088657;1.0567078364185976
+src/test/java/com/alibaba/json/bvt/util/RyuFloatTest.java;RyuFloatTest.test_0( );3;85;18.5;3.5
+src/test/java/com/alibaba/json/demo/hibernate/data/OrderDetailId.java;OrderDetailId.equals( Object other );11;8;2.4589308996088657;1.0567078364185976
+src/test/java/com/alibaba/json/demo/hibernate/data/PaymentId.java;PaymentId.equals( Object other );11;8;2.4589308996088657;1.0567078364185976
+src/test/java/com/alibaba/json/test/dubbo/PersonInfo.java;PersonInfo.hashCode( );11;15;3.492957746478873;1.856645767306433
+src/test/java/data/media/Image.java;Image.equals( Object o );11;11;3.1824034334763946;1.5304461663654547
+src/test/java/data/media/Media.java;Media.equals( Object o );21;18;4.536945812807882;2.30706017098205
+src/test/java/data/media/MediaContent.java;MediaContent.equals( Object o );8;8;2.4589308996088657;1.0567078364185976
+src/main/java/org/mockito/internal/matchers/ArrayEquals.java;ArrayEquals.matches( Object actual );21;25;6.239130434782608;2.916853446175352
+src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java;ReturnsEmptyValues.returnValueFor( Class < ? > type );27;56;18.4;1.6852299546352718
+src/test/java/org/mockito/internal/matchers/apachecommons/EqualsBuilderTest.java;EqualsBuilderTest.testReflectionHierarchyEquals( boolean testTransients );1;74;22.333333333333332;2.0548046676563256
+rebound-android/src/main/java/com/facebook/rebound/ui/SpringConfiguratorView.java;SpringConfiguratorView.generateHierarchy( Context context );1;79;22.0;3.0
+spring-aspects/src/test/java/org/springframework/cache/config/AnnotatedJCacheableService.java;AnnotatedJCacheableService.earlyRemoveAll( );6;6;2.127003699136868;0.8643641020134099
+spring-beans/src/main/java/org/springframework/beans/propertyeditors/CustomBooleanEditor.java;CustomBooleanEditor.setAsText( @ Nullable String text );18;25;6.239130434782608;2.916853446175352
+spring-context-support/src/test/java/org/springframework/cache/jcache/interceptor/AnnotatedJCacheableService.java;AnnotatedJCacheableService.earlyRemoveAll( );6;6;2.127003699136868;0.8643641020134099
+spring-core/src/main/java/org/springframework/util/xml/AbstractXMLStreamReader.java;AbstractXMLStreamReader.nextTag( );10;12;3.4897025171624714;1.5361424995034965
+spring-expression/src/main/java/org/springframework/expression/spel/standard/Token.java;Token.isNumericRelationalOperator( );6;4;1.8702983138780804;0.8314737992521544
+spring-jdbc/src/test/java/org/springframework/jdbc/datasource/DataSourceTransactionManagerTests.java;DataSourceTransactionManagerTests.doTestTransactionCommitRestoringAutoCommit( boolean autoCommit , boolean lazyConnection , final boolean createStatement );11;56;18.4;1.6852299546352718
+spring-jdbc/src/test/java/org/springframework/jdbc/support/JdbcTransactionManagerTests.java;JdbcTransactionManagerTests.doTestParticipatingTransactionWithRollbackOnly( boolean failEarly );5;56;18.4;1.6852299546352718
+spring-messaging/src/test/java/org/springframework/messaging/handler/annotation/MessagingPredicates.java;HeaderPredicate.test( MethodParameter parameter );7;7;2.2439903846153846;0.9691577627704965
+spring-web/src/main/java/org/springframework/web/multipart/support/MultipartResolutionDelegate.java;MultipartResolutionDelegate.isMultipartArgument( MethodParameter parameter );7;6;2.127003699136868;0.8643641020134099
+spring-webmvc/src/main/java/org/springframework/web/servlet/config/ScriptTemplateConfigurerBeanDefinitionParser.java;ScriptTemplateConfigurerBeanDefinitionParser.isEligibleAttribute( String name );7;5;2.0345622119815667;0.798156815061557
+spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/annotation/ServletRequestMethodArgumentResolver.java;ServletRequestMethodArgumentResolver.supportsParameter( MethodParameter parameter );15;15;3.492957746478873;1.856645767306433
+spring-webmvc/src/test/java/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupportExtensionTests.java;WebMvcConfigurationSupportExtensionTests.handlerMappings( );1;66;20.142857142857142;3.313546715640915
+spring-webmvc/src/test/java/org/springframework/web/servlet/mvc/method/annotation/ServletAnnotationControllerHandlerMethodTests.java;EntityPredicate.accept( E entity );6;5;2.0345622119815667;0.798156815061557
+spring-websocket/src/main/java/org/springframework/web/socket/sockjs/frame/AbstractSockJsMessageCodec.java;AbstractSockJsMessageCodec.isSockJsSpecialChar( char ch );10;5;2.0345622119815667;0.798156815061557

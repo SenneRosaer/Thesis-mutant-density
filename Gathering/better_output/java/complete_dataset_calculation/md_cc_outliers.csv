@@ -1,0 +1,70 @@
+File;Method Name;MD;CC;Distance From Mean
+src/main/java/com/alibaba/fastjson/asm/ClassReader.java;ClassReader.accept( final TypeCollector classVisitor );55;15;37.881827948103464 
+src/main/java/com/alibaba/fastjson/asm/ClassReader.java;ClassReader.readMethod( TypeCollector classVisitor , char [ ] c , int u );49;15;31.881827948103464 
+src/main/java/com/alibaba/fastjson/asm/Type.java;***not in a method***;54;0;51.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanDate( char seperator );78;30;45.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanDecimal( char seperator );92;40;49.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanDouble( char seperator );95;37;55.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanFieldBigInteger( char [ ] fieldName );81;34;44.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanFieldDate( char [ ] fieldName );69;27;39.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanFieldDecimal( char [ ] fieldName );95;41;51.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanFieldDouble( char [ ] fieldName );110;43;64.88182794810346 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanFieldFloat( char [ ] fieldName );110;43;64.88182794810346 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanFieldFloatArray( char [ ] fieldName );93;36;54.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanFieldFloatArray2( char [ ] fieldName );107;42;62.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanFieldStringArray( char [ ] fieldName , Class < ? > type );71;25;43.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanFieldUUID( char [ ] fieldName );189;65;121.88182794810346 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanFloat( char seperator );95;37;55.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanLong( char expectNextChar );61;28;30.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanStringArray( Collection < String > list , char seperator );74;24;47.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java;JSONLexerBase.scanUUID( char seperator );184;64;117.88182794810346 
+src/main/java/com/alibaba/fastjson/parser/JSONScanner.java;JSONScanner.scanDouble( char seperator );74;37;34.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONScanner.java;JSONScanner.scanISO8601DateIfMatch( boolean strict , int rest );376;145;228.88182794810345 
+src/main/java/com/alibaba/fastjson/parser/JSONScanner.java;JSONScanner.seekObjectToField( long [ ] fieldNameHash );111;70;38.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/JSONScanner.java;JSONScanner.seekObjectToField( long fieldNameHash , boolean deepScan );135;97;35.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/ParserConfig.java;ParserConfig.getDeserializer( Class < ? > clazz , Type type );35;71;33.881827948103464 
+src/main/java/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java;JavaBeanDeserializer.deserialze( DefaultJSONParser parser , Type type , Object fieldName , Object object , int features , int [ ] setFlags );260;223;34.881827948103464 
+src/main/java/com/alibaba/fastjson/serializer/JavaBeanSerializer.java;JavaBeanSerializer.write( JSONSerializer serializer , Object object , Object fieldName , Type fieldType , int features , boolean unwrapped );199;150;46.881827948103464 
+src/main/java/com/alibaba/fastjson/serializer/SerializeConfig.java;SerializeConfig.getObjectWriter( Class < ? > clazz , boolean create );41;103;59.881827948103464 
+src/main/java/com/alibaba/fastjson/serializer/SerializeWriter.java;SerializeWriter.writeByteArray( byte [ ] bytes );85;15;67.88182794810346 
+src/main/java/com/alibaba/fastjson/serializer/SerializeWriter.java;SerializeWriter.writeFieldValueStringWithDoubleQuoteCheck( char seperator , String name , String value );199;47;149.88182794810345 
+src/main/java/com/alibaba/fastjson/serializer/SerializeWriter.java;SerializeWriter.writeStringWithDoubleQuote( String text , final char seperator );337;97;237.88182794810345 
+src/main/java/com/alibaba/fastjson/serializer/SerializeWriter.java;SerializeWriter.writeStringWithDoubleQuote( char [ ] text , final char seperator );337;97;237.88182794810345 
+src/main/java/com/alibaba/fastjson/serializer/SerializeWriter.java;SerializeWriter.writeStringWithSingleQuote( String text );64;26;35.881827948103464 
+src/main/java/com/alibaba/fastjson/serializer/SerializeWriter.java;SerializeWriter.writeStringWithSingleQuote( char [ ] chars );64;26;35.881827948103464 
+src/main/java/com/alibaba/fastjson/util/Base64.java;Base64.decodeFast( String chars , int offset , int charsLen );60;16;41.881827948103464 
+src/main/java/com/alibaba/fastjson/util/Base64.java;Base64.decodeFast( String s );61;16;42.881827948103464 
+src/main/java/com/alibaba/fastjson/util/Base64.java;Base64.decodeFast( char [ ] chars , int offset , int charsLen );60;16;41.881827948103464 
+src/main/java/com/alibaba/fastjson/util/IOUtils.java;***not in a method***;34;0;31.881827948103464 
+src/main/java/com/alibaba/fastjson/util/IOUtils.java;IOUtils.decodeBase64( String chars , int offset , int charsLen );60;16;41.881827948103464 
+src/main/java/com/alibaba/fastjson/util/IOUtils.java;IOUtils.decodeBase64( String s );61;16;42.881827948103464 
+src/main/java/com/alibaba/fastjson/util/IOUtils.java;IOUtils.decodeBase64( char [ ] chars , int offset , int charsLen );60;16;41.881827948103464 
+src/main/java/com/alibaba/fastjson/util/IOUtils.java;IOUtils.decodeUTF8( byte [ ] sa , int sp , int len , char [ ] da );111;24;84.88182794810346 
+src/main/java/com/alibaba/fastjson/util/IOUtils.java;IOUtils.encodeUTF8( char [ ] chars , int offset , int len , byte [ ] bytes );74;16;55.881827948103464 
+src/main/java/com/alibaba/fastjson/util/RyuDouble.java;RyuDouble.toString( double value , char [ ] result , int off );460;95;362.8818279481035 
+src/main/java/com/alibaba/fastjson/util/RyuFloat.java;RyuFloat.toString( float value , char [ ] result , int off );326;60;263.8818279481035 
+src/main/java/com/alibaba/fastjson/util/TypeUtils.java;TypeUtils.num( char c0 , char c1 , char c2 , char c3 , char c4 , char c5 , char c6 , char c7 , char c8 );61;19;39.881827948103464 
+src/main/java/com/alibaba/fastjson/util/UTF8Decoder.java;UTF8Decoder.decodeArrayLoop( ByteBuffer src , CharBuffer dst );82;20;59.881827948103464 
+src/test/java/com/alibaba/json/bvt/util/RyuDoubleTest.java;RyuDoubleTest.test_0( );50;3;44.881827948103464 
+src/test/java/com/alibaba/json/bvt/util/RyuDoubleTest.java;RyuDoubleTest.test_1( );64;3;58.881827948103464 
+src/test/java/com/alibaba/json/test/Base64.java;Base64.decodeFast( byte [ ] sArr );61;16;42.881827948103464 
+src/test/java/com/alibaba/json/test/Base64.java;Base64.decodeFast( char [ ] sArr );59;16;40.881827948103464 
+src/test/java/com/alibaba/json/test/Base64.java;Base64.dedecodeFast( String s );61;16;42.881827948103464 
+src/test/java/com/alibaba/json/test/Base64.java;Base64.encodeToByte( byte [ ] sArr , boolean lineSep );60;11;46.881827948103464 
+src/test/java/com/alibaba/json/test/Base64.java;Base64.encodeToChar( byte [ ] bytes , boolean lineSep );60;11;46.881827948103464 
+src/test/java/com/alibaba/json/test/TestUtils.java;TestUtils.encodeToChar( byte [ ] sArr , boolean lineSep );60;11;46.881827948103464 
+src/test/java/data/media/MediaGenDecoder.java;MediaGenDecoder.deserialze( DefaultJSONParser parser , Type type , Object fieldName );117;76;38.881827948103464 
+rebound-core/src/main/java/com/facebook/rebound/Spring.java;Spring.advance( double realDeltaTime );59;16;40.881827948103464 
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;***not in a method***;34;0;31.881827948103464 
+rebound-core/src/test/java/com/facebook/rebound/SpringTest.java;SpringTest.testSettingVelocityTriggersIteration( );34;1;30.881827948103464 
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.accept( final ClassVisitor classVisitor , final Attribute [ ] attributePrototypes , final int parsingOptions );83;50;30.881827948103464 
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.readCode( final MethodVisitor methodVisitor , final Context context , final int codeOffset );296;532;233.88182794810345 
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.readModuleAttributes( final ClassVisitor classVisitor , final Context context , final int moduleOffset , final int modulePackagesOffset , final String moduleMainClass );48;15;30.881827948103464 
+spring-core/src/main/java/org/springframework/asm/ClassWriter.java;ClassWriter.toByteArray( );115;46;66.88182794810346 
+spring-core/src/main/java/org/springframework/asm/Frame.java;***not in a method***;35;0;32.881827948103464 
+spring-core/src/main/java/org/springframework/asm/Frame.java;Frame.execute( final int opcode , final int arg , final Symbol argSymbol , final SymbolTable symbolTable );52;191;136.88182794810345 
+spring-core/src/main/java/org/springframework/asm/Frame.java;Frame.merge( final SymbolTable symbolTable , final int sourceType , final int [ ] dstTypes , final int dstIndex );53;20;30.881827948103464 
+spring-core/src/main/java/org/springframework/asm/MethodWriter.java;***not in a method***;87;0;84.88182794810346 
+spring-core/src/main/java/org/springframework/asm/MethodWriter.java;MethodWriter.putMethodInfo( final ByteVector output );85;43;39.881827948103464 
+spring-core/src/main/java/org/springframework/asm/Opcodes.java;***not in a method***;66;0;63.881827948103464 
+spring-expression/src/main/java/org/springframework/expression/spel/standard/Tokenizer.java;Tokenizer.process( );5;61;53.881827948103464 
