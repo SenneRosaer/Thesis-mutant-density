@@ -1,0 +1,35 @@
+File;Method Name;MD;CC;Distance From Mean
+spring-core/src/main/java/org/springframework/asm/AnnotationWriter.java;AnnotationWriter.visit( final String name , final Object value );1;26;23.4055855648776 
+spring-core/src/main/java/org/springframework/asm/ByteVector.java;ByteVector.encodeUtf8( final String stringValue , final int offset , final int maxByteLength );44;12;30.4055855648776 
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.accept( final ClassVisitor classVisitor , final Attribute [ ] attributePrototypes , final int parsingOptions );83;50;31.4055855648776 
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.getFirstAttributeOffset( );25;5;18.4055855648776 
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.readCode( final MethodVisitor methodVisitor , final Context context , final int codeOffset );296;532;234.4055855648776 
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.readElementValue( final AnnotationVisitor annotationVisitor , final int elementValueOffset , final String elementName , final char [ ] charBuffer );57;36;19.4055855648776 
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.readMethod( final ClassVisitor classVisitor , final Context context , final int methodInfoOffset );59;38;19.4055855648776 
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.readModuleAttributes( final ClassVisitor classVisitor , final Context context , final int moduleOffset , final int modulePackagesOffset , final String moduleMainClass );48;15;31.4055855648776 
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.readUtf( final int utfOffset , final int utfLength , final char [ ] charBuffer );25;4;19.4055855648776 
+spring-core/src/main/java/org/springframework/asm/ClassWriter.java;ClassWriter.toByteArray( );115;46;67.4055855648776 
+spring-core/src/main/java/org/springframework/asm/Frame.java;Frame.execute( final int opcode , final int arg , final Symbol argSymbol , final SymbolTable symbolTable );52;191;137.4055855648776 
+spring-core/src/main/java/org/springframework/asm/Frame.java;Frame.merge( final SymbolTable symbolTable , final int sourceType , final int [ ] dstTypes , final int dstIndex );53;20;31.4055855648776 
+spring-core/src/main/java/org/springframework/asm/Label.java;Label.resolve( final byte [ ] code , final int bytecodeOffset );24;7;15.405585564877601 
+spring-core/src/main/java/org/springframework/asm/MethodWriter.java;MethodWriter.computeMethodInfoSize( );46;20;24.4055855648776 
+spring-core/src/main/java/org/springframework/asm/MethodWriter.java;MethodWriter.putMethodInfo( final ByteVector output );85;43;40.4055855648776 
+spring-core/src/main/java/org/springframework/asm/MethodWriter.java;MethodWriter.visitJumpInsn( final int opcode , final Label label );35;18;15.405585564877601 
+spring-core/src/main/java/org/springframework/asm/MethodWriter.java;MethodWriter.visitVarInsn( final int opcode , final int varIndex );37;19;16.4055855648776 
+spring-core/src/main/java/org/springframework/core/io/support/LocalizedResourceHelper.java;LocalizedResourceHelper.findLocalizedResource( String name , String extension , @ Nullable Locale locale );31;11;18.4055855648776 
+spring-core/src/main/java/org/springframework/util/AntPathMatcher.java;AntPathMatcher.doMatch( String pattern , @ Nullable String path , boolean fullMatch , @ Nullable Map < String , String > uriTemplateVariables );73;41;30.4055855648776 
+spring-core/src/test/java/org/springframework/util/NumberUtilsTests.java;NumberUtilsTests.convertToInteger( );22;1;19.4055855648776 
+spring-core/src/test/java/org/springframework/util/NumberUtilsTests.java;NumberUtilsTests.convertToLong( );20;1;17.4055855648776 
+spring-expression/src/main/java/org/springframework/expression/spel/standard/Tokenizer.java;Tokenizer.process( );5;61;54.4055855648776 
+spring-expression/src/test/java/org/springframework/expression/spel/ComparatorTests.java;ComparatorTests.testPrimitives( );18;1;15.405585564877601 
+spring-expression/src/test/java/org/springframework/expression/spel/SpelCompilationPerformanceTests.java;SpelCompilationPerformanceTests.compilingMathematicalExpressionsWithDifferentOperandTypes( );36;13;21.4055855648776 
+spring-expression/src/test/java/org/springframework/expression/spel/ast/OpPlusTests.java;OpPlusTests.test_binaryPlusWithNumberOperands( );21;1;18.4055855648776 
+spring-jdbc/src/main/java/org/springframework/jdbc/datasource/LazyConnectionDataSourceProxy.java;LazyConnectionInvocationHandler.invoke( Object proxy , Method method , Object [ ] args );4;30;24.4055855648776 
+spring-jdbc/src/test/java/org/springframework/jdbc/datasource/DataSourceTransactionManagerTests.java;DataSourceTransactionManagerTests.doInTransactionWithoutResult( TransactionStatus status );34;3;29.4055855648776 
+spring-jdbc/src/test/java/org/springframework/jdbc/support/JdbcTransactionManagerTests.java;JdbcTransactionManagerTests.doInTransactionWithoutResult( TransactionStatus status );34;3;29.4055855648776 
+spring-jdbc/src/test/java/org/springframework/jdbc/support/SQLErrorCodesFactoryTests.java;SQLErrorCodesFactoryTests.assertIsSQLServer( SQLErrorCodes sec );22;1;19.4055855648776 
+spring-jms/src/test/java/org/springframework/jms/core/JmsTemplateTests.java;JmsTemplateTests.doTestReceive( boolean explicitDestination , boolean useDefaultDestination , boolean testConverter , boolean clientAcknowledge , boolean messageSelector , boolean noLocal , long timeout );7;26;17.4055855648776 
+spring-web/src/test/java/org/springframework/web/util/WebUtilsTests.java;WebUtilsTests.isSameOrigin( );18;1;15.405585564877601 
+spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor.java;AbstractMessageConverterMethodProcessor.writeWithMessageConverters( @ Nullable T value , MethodParameter returnType , ServletServerHttpRequest inputMessage , ServletServerHttpResponse outputMessage );25;42;15.405585564877601 
+spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java;DefaultHandlerExceptionResolver.doResolveException( HttpServletRequest request , HttpServletResponse response , @ Nullable Object handler , Exception ex );1;20;17.4055855648776 
+spring-websocket/src/main/java/org/springframework/web/socket/config/MessageBrokerBeanDefinitionParser.java;MessageBrokerBeanDefinitionParser.registerMessageBroker( Element brokerElement , RuntimeBeanReference inChannel , RuntimeBeanReference outChannel , RuntimeBeanReference brokerChannel , Object userDestHandler , RuntimeBeanReference brokerTemplate , RuntimeBeanReference userRegistry , ParserContext context , @ Nullable Object source );3;21;16.4055855648776 
