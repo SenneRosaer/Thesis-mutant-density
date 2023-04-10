@@ -34,17 +34,17 @@ def parse_cpp_dataset(directory_name):
     gather_c_information(directory_name, "./output/t.csv")
     cmd = f"cd {directory_name}"
     # TODO if it has a makefile and no cmake we need bear -- make or something to create compilation database
-    with open("temp_script.sh", "w+") as f:
-        f.write(cmd + "\n")
-        f.write("mkdir build" + "\n")
-        f.write("cd build" + "\n")
-        f.write("cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -Dgtest_build_tests=ON -Dgmock_build_tests=ON .." + "\n")
-        f.write("make" + "\n")
-        f.write("cd .." + "\n")
-        f.write("mv build/compile_commands.json compile_commands.json \n")
-        f.write("dub run dextool -- mutate admin --init" + "\n")
-        f.write("dub run dextool -- mutate analyze" + "\n")
-        f.write("dub run dextool -- mutate report --style html" + "\n")
+    # with open("temp_script.sh", "w+") as f:
+    #     f.write(cmd + "\n")
+    #     f.write("mkdir build" + "\n")
+    #     f.write("cd build" + "\n")
+    #     f.write("cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -Dgtest_build_tests=ON -Dgmock_build_tests=ON .." + "\n")
+    #     f.write("make" + "\n")
+    #     f.write("cd .." + "\n")
+    #     f.write("mv build/compile_commands.json compile_commands.json \n")
+    #     f.write("dub run dextool -- mutate admin --init" + "\n")
+    #     f.write("dub run dextool -- mutate analyze" + "\n")
+    #     f.write("dub run dextool -- mutate report --style html" + "\n")
 
     # os.system("chmod +x temp_script.sh")
     # os.system("./temp_script.sh")
@@ -113,8 +113,8 @@ if __name__ == '__main__':
     # os.system(cmd)
     # parse_python_dataset("./Dataset/Python/large/ansible-devel/lib/ansible")
     # parse_python_dataset("./python_example")
-    parse_python_dataset("./Dataset/Python/large/biopython/Bio")
-
+    # parse_python_dataset("./Dataset/Python/large/biopython/Bio")
+    parse_cpp_dataset("./Dataset/Cpp/large/opencv-4.x")
     # parse_cpp_dataset("Dataset/C/SoftEtherVPN")
 
 
