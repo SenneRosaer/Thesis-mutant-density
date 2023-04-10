@@ -146,9 +146,9 @@ if __name__ == '__main__':
         sloc_for_method = row['Source Lines of Code']
         cc_for_method = row['Cyclomatic Complexity']
         md_for_method = row["Mutant Density"]
-        cc_md_diff.append(abs(cc_for_method- md_for_method))
-        cc_sloc_diff.append(abs(cc_for_method-sloc_for_method))
-        md_sloc_diff.append(abs(md_for_method-sloc_for_method))
+        cc_md_diff.append(abs(cc_for_method- md_for_method)/sloc_for_method)
+        cc_sloc_diff.append(abs(cc_for_method/sloc_for_method))
+        md_sloc_diff.append(abs(md_for_method/sloc_for_method))
 
         if sloc_for_method < min_sloc:
             min_sloc = sloc_for_method
@@ -175,8 +175,9 @@ if __name__ == '__main__':
     mean_diff = np.mean(cc_sloc_diff)
     std_diff = np.std(cc_sloc_diff)
     all_diffs = []
+    print(f"cc sloc mean= {mean_diff} & std = {std_diff}")
     with open("better_output/cc_sloc_outliers.csv", "w+") as f:
-        f.write(f"File;Method Name;CC;SLOC;Mean;Std\n")
+        f.write(f"File;Method Name;Average; Distance From Mean\n")
         for idx, row in df_java.iterrows():
             sloc = row['Source Lines of Code']
             cc = row["Cyclomatic Complexity"]
@@ -187,8 +188,8 @@ if __name__ == '__main__':
             all_diffs.append(cc/sloc)
             if std == 0:
                 continue
-            if cc < (mean-std*4) or cc > (mean + std*4):
-                f.write(f"{row['File']};{row['Method Name']};{cc};{sloc};{mean};{std}\n")
+            if (cc/sloc) < (mean_diff-std_diff*2) or (cc/sloc) > (mean_diff + std_diff*2):
+                f.write(f"{row['File']};{row['Method Name']};{cc/sloc};{abs((cc/sloc) - mean_diff)}\n")
     sns.displot(all_diffs, kde=True).set(title='java distribution plot of differences CC & SLOC')
     plt.xlim(-50, 50)
     plt.show()
@@ -196,8 +197,9 @@ if __name__ == '__main__':
     mean_diff = np.mean(md_sloc_diff)
     std_diff = np.std(md_sloc_diff)
     all_diffs = []
+    print(f"md sloc mean= {mean_diff} & std = {std_diff}")
     with open("better_output/md_sloc_outliers.csv", "w+") as f:
-        f.write(f"File;Method Name;MD;SLOC;Mean;Std\n")
+        f.write(f"File;Method Name;Average; Distance From Mean\n")
         for idx, row in df_java.iterrows():
             sloc = row['Source Lines of Code']
             md = row["Mutant Density"]
@@ -208,8 +210,8 @@ if __name__ == '__main__':
             mean, std = md_sloc_std[sloc]
             if std == 0:
                 continue
-            if md < (mean-std*4) or md > (mean + std*4):
-                f.write(f"{row['File']};{row['Method Name']};{md};{sloc};{mean};{std}\n")
+            if (md/sloc) < (mean_diff-std_diff*2) or (md/sloc) > (mean_diff + std_diff*2):
+                f.write(f"{row['File']};{row['Method Name']};{md/sloc};{abs((md/sloc) - mean_diff)}\n")
     sns.displot(all_diffs, kde=True).set(title='java distribution plot of differences SLOC & MD')
     plt.xlim(-50, 50)
     plt.show()
@@ -220,7 +222,7 @@ if __name__ == '__main__':
     all_diffs = []
     print(f"better_output/md_cc_outliers.csv mean diff = {mean_diff} & mean std {std_diff}")
     with open("better_output/md_cc_outliers.csv", "w+") as f:
-        f.write(f"File;Method Name;MD;CC;Distance From Mean\n")
+        f.write(f"File;Method Name;Average; Distance\n")
         for idx, row in df_java.iterrows():
             cc = row["Cyclomatic Complexity"]
             md = row["Mutant Density"]
@@ -228,8 +230,8 @@ if __name__ == '__main__':
             diff = abs(cc -md)
             # all_diffs.append(cc - md)
             all_diffs.append(diff/sloc)
-            if diff > mean_diff + 4* std_diff:
-                f.write(f"{row['File']};{row['Method Name']};{md};{cc};{abs(diff - mean_diff)} \n")
+            if diff/sloc > mean_diff + std_diff or diff/sloc < mean_diff - std_diff:
+                f.write(f"{row['File']};{row['Method Name']};{diff/sloc};{abs(diff/sloc - mean_diff)} \n")
     sns.displot(all_diffs, kde=True).set(title='java distribution plot of differences CC & MD')
     plt.xlim(-50,50)
     plt.show()
