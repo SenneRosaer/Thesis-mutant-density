@@ -146,7 +146,7 @@ if __name__ == '__main__':
         sloc_for_method = row['Source Lines of Code']
         cc_for_method = row['Cyclomatic Complexity']
         md_for_method = row["Mutant Density"]
-        cc_md_diff.append(abs(cc_for_method- md_for_method)/sloc_for_method)
+        cc_md_diff.append((cc_for_method- md_for_method)/sloc_for_method)
         cc_sloc_diff.append(abs(cc_for_method/sloc_for_method))
         md_sloc_diff.append(abs(md_for_method/sloc_for_method))
 
@@ -175,6 +175,7 @@ if __name__ == '__main__':
     mean_diff = np.mean(cc_sloc_diff)
     std_diff = np.std(cc_sloc_diff)
     all_diffs = []
+    cc_outliers = set()
     print(f"cc sloc mean= {mean_diff} & std = {std_diff}")
     with open("better_output/cc_sloc_outliers.csv", "w+") as f:
         f.write(f"File;Method Name;Average; Distance From Mean\n")
@@ -189,15 +190,18 @@ if __name__ == '__main__':
             if std == 0:
                 continue
             if (cc/sloc) < (mean_diff-std_diff*2) or (cc/sloc) > (mean_diff + std_diff*2):
-                f.write(f"{row['File']};{row['Method Name']};{cc/sloc};{abs((cc/sloc) - mean_diff)}\n")
-    sns.displot(all_diffs, kde=True).set(title='java distribution plot of differences CC & SLOC')
-    plt.xlim(-50, 50)
-    plt.show()
+                f.write(f"{row['File']};{row['Method Name']};{cc/sloc};{abs((cc/sloc) - mean_diff) * (sloc+cc)/100}\n")
+                cc_outliers.add(f"{row['File']};{row['Method Name']};{sloc}")
+
+    # sns.displot(all_diffs, kde=True).set(title='java distribution plot of differences CC & SLOC')
+    # plt.xlim(-50, 50)
+    # plt.show()
     ########## Outliers of md in comparison to sloc
     mean_diff = np.mean(md_sloc_diff)
     std_diff = np.std(md_sloc_diff)
     all_diffs = []
     print(f"md sloc mean= {mean_diff} & std = {std_diff}")
+    md_outliers = set()
     with open("better_output/md_sloc_outliers.csv", "w+") as f:
         f.write(f"File;Method Name;Average; Distance From Mean\n")
         for idx, row in df_java.iterrows():
@@ -210,12 +214,14 @@ if __name__ == '__main__':
             mean, std = md_sloc_std[sloc]
             if std == 0:
                 continue
-            if (md/sloc) < (mean_diff-std_diff*2) or (md/sloc) > (mean_diff + std_diff*2):
+            if (md/sloc) < (mean_diff-std_diff*4) or (md/sloc) > (mean_diff + std_diff*4):
                 f.write(f"{row['File']};{row['Method Name']};{md/sloc};{abs((md/sloc) - mean_diff)}\n")
-    sns.displot(all_diffs, kde=True).set(title='java distribution plot of differences SLOC & MD')
-    plt.xlim(-50, 50)
-    plt.show()
-
+                md_outliers.add(f"{row['File']};{row['Method Name']};{sloc}")
+    # sns.displot(all_diffs, kde=True).set(title='java distribution plot of differences SLOC & MD')
+    # plt.xlim(-50, 50)
+    # plt.show()
+    t = md_outliers.difference(cc_outliers)
+    print(md_outliers.difference(cc_outliers))
     ########## Outliers of difference between md and cc
     mean_diff = np.mean(cc_md_diff)
     std_diff = np.std(cc_md_diff)
@@ -227,21 +233,21 @@ if __name__ == '__main__':
             cc = row["Cyclomatic Complexity"]
             md = row["Mutant Density"]
             sloc = row['Source Lines of Code']
-            diff = abs(cc -md)
+            diff = cc -md
             # all_diffs.append(cc - md)
             all_diffs.append(diff/sloc)
-            if diff/sloc > mean_diff + std_diff or diff/sloc < mean_diff - std_diff:
-                f.write(f"{row['File']};{row['Method Name']};{diff/sloc};{abs(diff/sloc - mean_diff)} \n")
-    sns.displot(all_diffs, kde=True).set(title='java distribution plot of differences CC & MD')
-    plt.xlim(-50,50)
-    plt.show()
+            if diff/sloc > mean_diff + std_diff*2 or diff/sloc < mean_diff - std_diff*2:
+                f.write(f"{row['File']};{row['Method Name']};{diff/sloc};{abs(diff/sloc - mean_diff) * (sloc+cc+md)/100} \n")
+    # sns.displot(all_diffs, kde=True).set(title='java distribution plot of differences CC & MD')
+    # plt.xlim(-50,50)
+    # plt.show()
 
     # plt.xscale('log')
     # plt.yscale('log')
-    plt.xlim(0,50)
+    # plt.xlim(0,50)
     # sns.histplot(df_java, x='Source Lines of Code',kde=False,bins=25).set(title="Java SLOC frequency")
-    sns.histplot(df_java, x='Source Lines of Code', stat='percent', binwidth=1).set(title="Java dataset SLOC frequency")
-    plt.show()
+    # sns.histplot(df_java, x='Source Lines of Code', stat='percent', binwidth=1).set(title="Java dataset SLOC frequency")
+    # plt.show()
     # plt.xscale('log')
     # plt.yscale('log')
     # sns.histplot(df, x='Cyclomatic Complexity', kde=False, binwidth=0.1).set(title="Java CC frequency")
