@@ -114,11 +114,11 @@ if __name__ == '__main__':
     # parse_python_dataset("./Dataset/Python/large/ansible-devel/lib/ansible")
     # parse_python_dataset("./python_example")
     # parse_python_dataset("./Dataset/Python/large/biopython/Bio")
-    parse_cpp_dataset("./Dataset/Cpp/large/opencv-4.x")
+    # parse_cpp_dataset("./Dataset/Cpp/large/opencv-4.x")
     # parse_cpp_dataset("Dataset/C/SoftEtherVPN")
 
 
     # results = parse_cpp_dataset("./Dataset/C/medium/libusb-master")
     # read_from_db_file("./Dataset/C/medium/libusb-master", results)
 
-    # parse_java_dataset('./Dataset/Java/small/socket.io-client-java-main')
+    parse_java_dataset('./Dataset/Analytics')
