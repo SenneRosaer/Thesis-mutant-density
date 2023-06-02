@@ -1,0 +1,68 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpRequest.getRealPath( String path );1;0;3
+HttpRequest.getLocalAttributeNames( );1;0;3
+HttpRequest.getPathTranslated( );1;0;3
+HttpRequest.getAttributeNames( );1;0;3
+HttpRequest.getSession( );1;0;3
+HttpRequest.isSecure( );1;0;3
+HttpRequest.getContentType( );1;0;3
+HttpRequest.getCookies( );1;0;3
+HttpRequest.getDateHeader( String name );1;0;3
+HttpRequest.createCookieMap( );3;3;11
+HttpRequest.getInputStream( );1;0;3
+HttpRequest.getReader( );1;0;3
+HttpRequest.getContextPath( );1;0;3
+HttpRequest.isRequestedSessionIdValid( );1;0;3
+HttpRequest.getServletPath( );1;0;3
+HttpRequest.removeLocalAttribute( String name );1;0;3
+HttpRequest.getRemoteHost( );1;0;3
+HttpRequest.getUserPrincipal( );1;0;3
+HttpRequest.getRequestURI( );5;3;14
+HttpRequest.getRemoteUser( );1;0;3
+HttpRequest.getHeaderNames( );1;0;3
+HttpRequest.getQueryString( );1;0;3
+HttpRequest.removeAttribute( String name );1;0;3
+HttpRequest.getCocoonSession( );1;0;3
+HttpRequest.decode( String str );4;2;11
+HttpRequest.getScheme( );1;0;3
+HttpRequest.isUserInRole( String role );1;0;3
+HttpRequest.getRequestDispatcher( String path );1;0;3
+HttpRequest.getRemoteAddr( );1;0;3
+HttpRequest.getParameterValues( String name );4;4;12
+HttpRequest.getServerName( );1;0;3
+HttpRequest.setCharacterEncoding( String form_encoding );1;0;3
+HttpRequest.setLocalAttribute( String name , Object value );1;0;3
+HttpRequest.getCocoonSession( boolean create );1;0;3
+HttpRequest.getSession( boolean create );4;4;21
+HttpRequest.getIntHeader( String name );1;0;3
+HttpRequest.getCookieMap( );2;1;6
+HttpRequest.getLocale( );1;0;3
+HttpRequest.setAttribute( String name , Object value );1;0;3
+HttpRequest.getLocales( );1;0;3
+HttpRequest.wrapCookies( );3;3;13
+HttpRequest.setContainerEncoding( String container_encoding );1;0;3
+HttpRequest.getMethod( );1;0;3
+HttpRequest.getParameterNames( );1;0;3
+HttpRequest.HttpRequest( HttpServletRequest req , HttpEnvironment env );1;0;5
+HttpRequest.isRequestedSessionIdFromCookie( );1;0;3
+HttpRequest.getServerPort( );1;0;3
+HttpRequest.getSitemapPath( );1;0;3
+HttpRequest.searchAttribute( String name );2;1;7
+HttpRequest.getHeaders( String name );1;0;3
+HttpRequest.getParameter( String name );5;5;10
+HttpRequest.getCocoonCookieMap( );2;1;6
+HttpRequest.getCocoonCookies( );2;1;6
+HttpRequest.getProtocol( );1;0;3
+HttpRequest.getCharacterEncoding( );2;1;6
+HttpRequest.getSitemapURIPrefix( );1;0;3
+HttpRequest.getHeader( String name );1;0;3
+HttpRequest.getLocalAttribute( String name );1;0;3
+HttpRequest.getContentLength( );1;0;3
+HttpRequest.getRequestedSessionId( );1;0;3
+HttpRequest.getAttribute( String name );1;0;3
+HttpRequest.isRequestedSessionIdFromURL( );1;0;3
+HttpRequest.getSitemapURI( );1;0;3
+HttpRequest.getAuthType( );1;0;3
+HttpRequest.get( String name );6;5;20
+HttpRequest.getPathInfo( );1;0;3
+HttpRequest.isRequestedSessionIdFromUrl( );1;0;3

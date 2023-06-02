@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StaxEventHandler.charactersInternal( String data );1;0;3
+LocatorLocationAdapter.getColumnNumber( );1;0;3
+LocatorLocationAdapter.getPublicId( );1;0;3
+LocatorLocationAdapter.getLineNumber( );1;0;3
+StaxEventHandler.StaxEventHandler( XMLEventWriter eventWriter , XMLEventFactory factory );1;0;4
+StaxEventHandler.setDocumentLocator( @ Nullable Locator locator );2;1;5
+StaxEventHandler.endDocumentInternal( );1;0;3
+StaxEventHandler.getAttributes( Attributes attributes );3;3;11
+StaxEventHandler.startDocumentInternal( );1;0;3
+StaxEventHandler.startElementInternal( QName name , Attributes atts , Map < String , String > namespaceMapping );1;0;6
+LocatorLocationAdapter.getCharacterOffset( );1;1;3
+StaxEventHandler.ignorableWhitespaceInternal( String data );1;0;3
+LocatorLocationAdapter.getSystemId( );1;0;3
+StaxEventHandler.cDataInternal( String data );1;0;3
+StaxEventHandler.endElementInternal( QName name , Map < String , String > namespaceMapping );1;0;4
+StaxEventHandler.getNamespaces( Map < String , String > namespaceMappings );1;0;6
+LocatorLocationAdapter.LocatorLocationAdapter( Locator locator );1;0;3
+StaxEventHandler.dtdInternal( String dtd );1;0;3
+StaxEventHandler.processingInstructionInternal( String target , String data );1;0;3
+StaxEventHandler.skippedEntityInternal( String name );1;0;2
+StaxEventHandler.StaxEventHandler( XMLEventWriter eventWriter );1;0;4
+StaxEventHandler.commentInternal( String comment );1;0;3

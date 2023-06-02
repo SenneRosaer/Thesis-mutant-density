@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChainResolver.download( ArtifactOrigin artifact , DownloadOptions options );3;1;12
+ChainResolver.publish( Artifact artifact , File src , boolean overwrite );1;0;3
+ChainResolver.commitPublishTransaction( );1;0;3
+ChainResolver.findIvyFileRef( DependencyDescriptor dd , ResolveData data );3;1;10
+ChainResolver.setDual( boolean b );1;0;3
+ChainResolver.isReturnFirst( );1;0;3
+ResolvedModuleRevisionArtifactInfo.getRevision( );1;0;3
+ChainResolver.reportFailure( );2;0;6
+ChainResolver.getLatestStrategyName( DependencyResolver resolver );2;0;7
+ChainResolver.setLatest( DependencyResolver resolver , LatestStrategy latest );2;0;6
+ChainResolver.download( Artifact [ ] artifacts , DownloadOptions options );6;5;23
+ChainResolver.beginPublishTransaction( ModuleRevisionId module , boolean overwrite );1;0;3
+ChainResolver.setLatestIfRequired( DependencyResolver resolver , LatestStrategy latestStrategy );3;3;10
+ChainResolver.forcedRevision( ResolvedModuleRevision rmr );2;1;8
+ResolvedModuleRevisionArtifactInfo.getLastModified( );1;0;3
+ChainResolver.setCheckmodified( boolean check );1;0;3
+ChainResolver.getFirstResolver( );2;0;6
+ChainResolver.getDependency( DependencyDescriptor dd , ResolveData data );16;14;62
+ChainResolver.reportFailure( Artifact art );2;0;6
+ChainResolver.isDual( );1;0;3
+ChainResolver.getLatest( DependencyResolver resolver );2;0;7
+ChainResolver.abortPublishTransaction( );1;0;3
+ChainResolver.add( DependencyResolver resolver );1;0;3
+ChainResolver.isCheckmodified( );4;3;12
+ChainResolver.getResolvers( );1;0;3
+ChainResolver.dumpSettings( );2;0;9
+ResolvedModuleRevisionArtifactInfo.ResolvedModuleRevisionArtifactInfo( ResolvedModuleRevision rmr );1;0;3
+ChainResolver.setReturnFirst( boolean returnFirst );1;0;3
+ChainResolver.locate( Artifact artifact );3;1;10
+ChainResolver.exists( Artifact artifact );3;0;9
+ChainResolver.resolvedRevision( ResolvedModuleRevision mr );3;2;8

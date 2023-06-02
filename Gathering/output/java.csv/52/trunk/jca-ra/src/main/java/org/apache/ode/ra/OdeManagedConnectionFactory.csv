@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OdeManagedConnectionFactory.getLogWriter( );1;0;3
+OdeManagedConnectionFactory.setURL( String url );1;0;3
+OdeManagedConnectionFactory.matchManagedConnections( Set candidates , Subject subject , ConnectionRequestInfo connectionRequestInfo );1;0;3
+OdeManagedConnectionFactory.setProperty( String key , String val );3;0;8
+OdeManagedConnectionFactory.createManagedConnection( Subject subject , ConnectionRequestInfo connectionRequestInfo );4;2;11
+OdeManagedConnectionFactory.setTransport( String transportClassName );4;0;15
+OdeManagedConnectionFactory.OdeManagedConnectionFactory( );2;0;6
+OdeManagedConnectionFactory.createConnectionFactory( );1;0;3
+OdeManagedConnectionFactory.createConnectionFactory( ConnectionManager connectionManager );1;0;3
+OdeManagedConnectionFactory.setLogWriter( PrintWriter printWriter );1;0;3

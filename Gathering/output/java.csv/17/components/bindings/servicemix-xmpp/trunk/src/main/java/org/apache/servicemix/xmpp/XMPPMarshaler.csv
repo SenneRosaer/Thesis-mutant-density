@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMPPMarshaler.messageAsString( NormalizedMessage normalizedMessage );1;0;3
+XMPPMarshaler.setMessageBodyOpenTag( String messageBodyOpenTag );1;0;3
+XMPPMarshaler.XMPPMarshaler( );1;0;3
+XMPPMarshaler.shouldIncludeHeader( NormalizedMessage normalizedMessage , String name , Object value );3;2;3
+XMPPMarshaler.getMessageBodyOpenTag( );1;0;3
+XMPPMarshaler.setMessageBodyCloseTag( String messageBodyCloseTag );1;0;3
+XMPPMarshaler.addNmsProperties( NormalizedMessage normalizedMessage , Packet message );2;0;8
+XMPPMarshaler.addJabberProperties( Message message , MessageExchange exchange , NormalizedMessage normalizedMessage );4;1;17
+XMPPMarshaler.setSourceMarshaler( SourceMarshaler sourceMarshaler );1;0;3
+XMPPMarshaler.setProperty( Message message , String name , QName qName );2;1;5
+XMPPMarshaler.toNMS( NormalizedMessage normalizedMessage , Packet packet );3;3;12
+XMPPMarshaler.getSourceMarshaler( );1;0;3
+XMPPMarshaler.getMessageBodyCloseTag( );1;0;3
+XMPPMarshaler.fromNMS( Message message , MessageExchange exchange , NormalizedMessage normalizedMessage );1;0;5
+XMPPMarshaler.XMPPMarshaler( SourceMarshaler sourceMarshaler );1;0;3

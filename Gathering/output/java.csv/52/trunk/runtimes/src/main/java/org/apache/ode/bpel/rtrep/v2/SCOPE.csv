@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SCOPE.SCOPE( ActivityInfo self , ScopeFrame frame , LinkFrame linkFrame );1;1;5
+ACTIVE.completed( FaultData fault , Set < CompensationHandler > compensations );2;0;5
+ACTIVE.ACTIVE( );1;0;4
+ACTIVE.stopEventHandlers( );4;3;8
+ACTIVE.completed( FaultData flt , Set < CompensationHandler > compensations );4;4;11
+ACTIVE.terminate( );3;3;9
+ACTIVE.run( );32;21;162
+ACTIVE.failure( String reason , Element data );1;0;4
+ACTIVE.cancelled( );2;0;6
+***not in a method***;0;2;0
+SCOPE.run( );4;1;28
+SCOPE.findCompensationData( OScope scope );4;2;8
+SCOPE.findCatch( OFaultHandler fh , QName faultName , OVarType faultType );25;22;44
+ACTIVE.terminateEventHandlers( );4;3;8
+ACTIVE.compensate( OScope scope , SynchChannel ret );2;1;10
+ACTIVE.completed( FaultData flt , Set < CompensationHandler > compenstations );6;7;15
+EventHandlerInfo.EventHandlerInfo( OBase o , EventHandlerControlChannel cc , ParentScopeChannel psc , TerminationChannel tc );1;0;6

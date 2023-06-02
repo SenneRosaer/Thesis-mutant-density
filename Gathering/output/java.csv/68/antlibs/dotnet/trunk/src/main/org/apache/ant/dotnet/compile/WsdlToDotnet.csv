@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Compiler.getCommand( );1;0;3
+WsdlToDotnet.setIdeErrors( boolean ideErrors );1;0;3
+Compiler.applyExtraArgs( NetCommand command );2;2;6
+Schema.getFile( );1;0;3
+Schema.setUrl( String url );1;0;3
+WsdlToDotnet.setMakeURL( boolean b );1;0;3
+Schema.evaluate( );4;2;14
+WsdlToDotnet.setCompiler( Compiler compiler );1;0;3
+Schema.getUrl( );1;0;3
+WsdlToDotnet.isRebuildNeeded( Schema schema , long destLastModified );2;3;6
+Schema.isMakeURL( );1;0;3
+Schema.getTimestamp( );2;2;7
+WsdlToDotnet.setSrcFile( File srcFile );1;0;3
+Compiler.getExtraArgs( );1;0;3
+Schema.setFile( File file );1;0;3
+WsdlToDotnet.validate( );3;1;10
+WsdlToDotnet.setServer( boolean server );1;0;3
+Compiler.createDefaultCompiler( );2;0;7
+WsdlToDotnet.setLanguage( String language );1;0;3
+WsdlToDotnet.setProtocol( String protocol );1;0;3
+WsdlToDotnet.setExtraOptions( String extraOptions );1;0;3
+WsdlToDotnet.setNamespace( String namespace );1;0;3
+Schema.validate( );8;10;16
+WsdlToDotnet.setFailOnError( boolean failOnError );1;0;3
+Compiler.getValues( );1;0;3
+Compiler.supportsAbsoluteFiles( );1;0;3
+WsdlToDotnet.setDestFile( File destFile );1;0;3
+Schema.setMakeURL( boolean makeURL );1;0;3
+WsdlToDotnet.setUrl( String url );1;0;3
+WsdlToDotnet.addSchema( Schema source );1;0;3
+WsdlToDotnet.execute( );11;7;51

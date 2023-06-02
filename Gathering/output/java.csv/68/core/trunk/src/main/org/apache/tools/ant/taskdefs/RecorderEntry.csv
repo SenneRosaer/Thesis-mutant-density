@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RecorderEntry.setOutputPrintStream( PrintStream output );1;0;4
+RecorderEntry.messageLogged( BuildEvent event );4;5;17
+RecorderEntry.openFile( boolean append );1;0;3
+RecorderEntry.taskFinished( BuildEvent event );1;0;4
+RecorderEntry.targetStarted( BuildEvent event );1;1;6
+RecorderEntry.taskStarted( BuildEvent event );1;0;3
+RecorderEntry.flush( );3;2;5
+RecorderEntry.cleanup( );2;1;7
+RecorderEntry.reopenFile( );1;0;3
+RecorderEntry.targetFinished( BuildEvent event );1;2;6
+RecorderEntry.subBuildFinished( BuildEvent event );2;1;5
+RecorderEntry.buildStarted( BuildEvent event );1;0;3
+RecorderEntry.setRecordState( Boolean state );2;1;6
+RecorderEntry.setErrorPrintStream( PrintStream err );1;0;3
+RecorderEntry.formatTime( long millis );5;13;13
+RecorderEntry.RecorderEntry( String name );1;0;4
+RecorderEntry.setProject( Project project );2;1;6
+RecorderEntry.setMessageOutputLevel( int level );3;3;5
+RecorderEntry.setEmacsMode( boolean emacsMode );1;0;3
+RecorderEntry.getFilename( );1;0;3
+RecorderEntry.subBuildStarted( BuildEvent event );1;0;2
+RecorderEntry.buildFinished( BuildEvent event );4;4;14
+RecorderEntry.openFileImpl( boolean append );3;1;10
+RecorderEntry.log( String mesg , int level );4;4;5
+RecorderEntry.closeFile( );2;1;6

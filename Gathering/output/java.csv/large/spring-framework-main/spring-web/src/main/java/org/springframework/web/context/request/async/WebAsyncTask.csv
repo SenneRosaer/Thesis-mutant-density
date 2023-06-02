@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebAsyncTask.handleTimeout( NativeWebRequest request , Callable < T > task );2;1;3
+WebAsyncTask.onTimeout( Callable < V > callback );1;0;3
+WebAsyncTask.setBeanFactory( BeanFactory beanFactory );1;0;3
+WebAsyncTask.onError( Callable < V > callback );1;0;3
+WebAsyncTask.getExecutor( );3;3;12
+WebAsyncTask.WebAsyncTask( Callable < V > callable );1;0;4
+WebAsyncTask.getInterceptor( );4;0;18
+WebAsyncTask.WebAsyncTask( @ Nullable Long timeout , AsyncTaskExecutor executor , Callable < V > callable );1;0;6
+WebAsyncTask.WebAsyncTask( long timeout , Callable < V > callable );1;0;4
+WebAsyncTask.getTimeout( );1;0;3
+WebAsyncTask.WebAsyncTask( @ Nullable Long timeout , String executorName , Callable < V > callable );1;0;6
+WebAsyncTask.handleError( NativeWebRequest request , Callable < T > task , Throwable t );2;1;3
+WebAsyncTask.onCompletion( Runnable callback );1;0;3
+WebAsyncTask.getCallable( );1;0;3
+WebAsyncTask.afterCompletion( NativeWebRequest request , Callable < T > task );2;1;5

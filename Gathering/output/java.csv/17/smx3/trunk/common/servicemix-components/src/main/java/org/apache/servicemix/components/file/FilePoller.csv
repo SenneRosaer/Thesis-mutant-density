@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FilePoller.processFile( File aFile );2;1;16
+FilePoller.poll( );1;0;3
+FilePoller.pollFileOrDirectory( File fileOrDirectory , boolean processDir );4;3;13
+FilePoller.setRecursive( boolean recursive );1;0;3
+FilePoller.setDeleteFile( boolean deleteFile );1;0;3
+FilePoller.setAutoCreateDirectory( boolean autoCreateDirectory );1;0;3
+FilePoller.init( );9;8;20
+FilePoller.pollFile( final File aFile );3;0;16
+FilePoller.setFilter( FileFilter filter );1;0;3
+FilePoller.getFile( );1;0;3
+FilePoller.getArchive( );1;0;3
+FilePoller.getWorkingSet( );1;0;3
+FilePoller.processFileAndDelete( File aFile );7;2;22
+FilePoller.setArchive( File archive );1;0;3
+FilePoller.getMarshaler( );1;0;3
+FilePoller.pollFileOrDirectory( File fileOrDirectory );1;0;3
+FilePoller.isAutoCreateDirectory( );1;0;3
+FilePoller.setMarshaler( FileMarshaler marshaler );1;0;3
+FilePoller.setFile( File file );1;0;3
+FilePoller.isDeleteFile( );1;0;3
+FilePoller.isRecursive( );1;0;3
+FilePoller.run( );1;0;7
+FilePoller.getFilter( );1;0;3

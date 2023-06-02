@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ObrCommandImpl.parseInfo( String commandLine );13;13;75
+ParsedCommand.getTargetCount( );1;0;3
+ParsedCommand.setCheck( boolean b );1;0;3
+ParsedCommand.setResolve( boolean b );1;0;3
+ParsedCommand.getTargetVersion( int i );3;3;7
+ObrCommandImpl.selectNewestVersion( Resource [ ] resources );6;8;22
+ObrCommandImpl.info( String commandLine , String command , PrintStream out , PrintStream err );6;8;23
+ObrCommandImpl.urls( String commandLine , String command , PrintStream out , PrintStream err );8;6;42
+ObrCommandImpl.parseSource( String commandLine );16;19;89
+ParsedCommand.setExtract( boolean b );1;0;3
+ParsedCommand.isCheck( );1;0;3
+ParsedCommand.setDirectory( String s );1;0;3
+ObrCommandImpl.help( PrintStream out , StringTokenizer st );10;0;150
+ObrCommandImpl.execute( String commandLine , PrintStream out , PrintStream err );14;5;56
+ObrCommandImpl.getUsage( );1;0;3
+ObrCommandImpl.source( String commandLine , String command , PrintStream out , PrintStream err );4;4;26
+ObrCommandImpl.getName( );1;0;3
+ObrCommandImpl._deploy( ParsedCommand pc , String command , PrintStream out , PrintStream err );20;29;85
+ObrCommandImpl.deploy( String commandLine , String command , PrintStream out , PrintStream err );1;0;4
+ObrCommandImpl.searchRepository( String targetId , String targetVersion );3;1;23
+ObrCommandImpl.parseInstallStart( String commandLine );13;14;75
+ObrCommandImpl.printUnderline( PrintStream out , int length );2;2;7
+ParsedCommand.getTargetId( int i );3;3;7
+ObrCommandImpl.getShortDescription( );1;0;3
+ObrCommandImpl.printResource( PrintStream out , Resource resource );10;13;40
+ParsedCommand.getDirectory( );1;0;3
+ParsedCommand.isExtract( );1;0;3
+ObrCommandImpl.ObrCommandImpl( BundleContext context , RepositoryAdmin repoAdmin );1;0;4
+ParsedCommand.addTarget( String name , String version );1;1;6
+ParsedCommand.isResolve( );1;0;3
+ObrCommandImpl.list( String commandLine , String command , PrintStream out , PrintStream err );12;19;67

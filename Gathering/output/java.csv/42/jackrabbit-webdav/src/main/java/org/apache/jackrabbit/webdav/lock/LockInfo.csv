@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LockInfo.LockInfo( Scope scope , Type type , String owner , long timeout , boolean isDeep );4;4;11
+LockInfo.getType( );1;0;3
+LockInfo.getTimeout( );1;0;3
+LockInfo.getOwner( );1;0;3
+LockInfo.setScope( Scope scope );1;0;3
+LockInfo.isRefreshLock( );1;0;3
+LockInfo.LockInfo( Element liElement , long timeout , boolean isDeep );9;4;28
+LockInfo.getScope( );1;0;3
+LockInfo.setType( Type type );1;0;3
+LockInfo.toXml( Document document );3;1;13
+LockInfo.isDeep( );1;0;3
+LockInfo.LockInfo( long timeout );2;1;4

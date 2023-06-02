@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SQLSupport.getInstance( );1;0;3
+SQLSupport.lookoupDefaultFilterOperationAbbreviation( String typeHint );3;2;6
+SQLSupport.configure( SQLSupportConfig config );1;0;3
+SQLSupport.mapFilterAbbreviationToOperation( String abbrev );3;2;8
+SQLSupport.internalCreateOrderByFragment( InternalStringBuilder sql , List sorts );4;4;10
+SQLSupport.convertSQLPattern( Object o );2;1;11
+SQLSupport.lookupOperator( FilterOperationHint op );7;0;19
+SQLSupport.SQLSupport( );1;0;2
+SQLSupport.addParameter( InternalStringBuilder sql , Object value , FilterTypeHint typeHint );2;1;6
+SQLSupport.createOrderByClause( List sorts );3;3;8
+SQLSupport.lookupFilterOperationLabels( String typeHint );4;3;20
+SQLSupport.convertSQLString( Object o );2;1;6
+SQLSupport.createWhereClause( List filters );3;3;8
+SQLSupport.createOrderByFragment( List sorts );3;3;7
+SQLSupport.getInstance( SQLSupportConfig config );1;0;5
+SQLSupport.getInstance( DatabaseMetaData databaseMetaData );1;0;4
+SQLSupport.mapFilterHintToOperation( FilterOperationHint hint );3;2;8
+SQLSupport.createWhereFragment( List filters );3;3;7
+SQLSupport.internalCreateWhereFragment( InternalStringBuilder sql , List filters );28;16;105

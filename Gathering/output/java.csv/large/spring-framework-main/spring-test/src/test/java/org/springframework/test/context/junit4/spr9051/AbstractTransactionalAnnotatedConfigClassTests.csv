@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractTransactionalAnnotatedConfigClassTests.countRowsInTable( String tableName );1;0;3
+AbstractTransactionalAnnotatedConfigClassTests.tearDown( );2;0;3
+AbstractTransactionalAnnotatedConfigClassTests.setDataSource( DataSource dataSource );1;0;4
+AbstractTransactionalAnnotatedConfigClassTests.deletePerson( String name );1;0;3
+AbstractTransactionalAnnotatedConfigClassTests.setTransactionManager( DataSourceTransactionManager transactionManager );1;0;3
+AbstractTransactionalAnnotatedConfigClassTests.afterTransaction( );1;0;4
+AbstractTransactionalAnnotatedConfigClassTests.setUp( );2;0;3
+AbstractTransactionalAnnotatedConfigClassTests.modifyTestDataWithinTransaction( );1;0;6
+AbstractTransactionalAnnotatedConfigClassTests.beforeTransaction( );1;0;4
+AbstractTransactionalAnnotatedConfigClassTests.autowiringFromConfigClass( );1;0;4
+AbstractTransactionalAnnotatedConfigClassTests.createPerson( String name );1;0;3
+AbstractTransactionalAnnotatedConfigClassTests.assertAddPerson( final String name );1;0;3
+AbstractTransactionalAnnotatedConfigClassTests.assertNumRowsInPersonTable( int expectedNumRows , String testState );1;0;3

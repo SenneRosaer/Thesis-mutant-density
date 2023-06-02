@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestSockJsSession.setBinaryMessageSizeLimit( int messageSizeLimit );1;0;2
+TestSockJsSession.disconnect( CloseStatus status );1;0;3
+TestSockJsSession.getNumberOfLastActiveTimeUpdates( );1;0;3
+TestSockJsSession.setActive( boolean active );1;0;3
+TestSockJsSession.getExtensions( );1;0;3
+TestSockJsSession.setPrincipal( Principal principal );1;0;3
+TestSockJsSession.getLocalAddress( );1;0;3
+TestSockJsSession.setUri( URI uri );1;0;3
+TestSockJsSession.didCancelHeartbeat( );1;0;3
+TestSockJsSession.setExtensions( List < WebSocketExtension > extensions );1;0;3
+TestSockJsSession.sendMessageInternal( String message );1;0;2
+TestSockJsSession.setRemoteAddress( InetSocketAddress remoteAddress );1;0;3
+TestSockJsSession.getBinaryMessageSizeLimit( );1;0;3
+TestSockJsSession.getCloseStatus( );1;0;3
+TestSockJsSession.updateLastActiveTime( );1;1;4
+TestSockJsSession.cancelHeartbeat( );1;0;4
+TestSockJsSession.getPrincipal( );1;0;3
+TestSockJsSession.getTextMessageSizeLimit( );1;0;3
+TestSockJsSession.setAcceptedProtocol( String protocol );1;0;3
+TestSockJsSession.setTextMessageSizeLimit( int messageSizeLimit );1;0;2
+TestSockJsSession.isActive( );1;0;3
+TestSockJsSession.getRemoteAddress( );1;0;3
+TestSockJsSession.setExceptionOnWrite( IOException exceptionOnWrite );1;0;3
+TestSockJsSession.getHeaders( );1;0;3
+TestSockJsSession.getSockJsFramesWritten( );1;0;3
+TestSockJsSession.setHeaders( HttpHeaders headers );1;0;3
+TestSockJsSession.TestSockJsSession( String sessionId , SockJsServiceConfig config , WebSocketHandler wsHandler , Map < String , Object > attributes );1;0;3
+TestSockJsSession.getAcceptedProtocol( );1;0;3
+TestSockJsSession.getHandshakeHeaders( );1;0;3
+TestSockJsSession.getUri( );1;0;3
+TestSockJsSession.writeFrameInternal( SockJsFrame frame );2;1;6
+TestSockJsSession.setLocalAddress( InetSocketAddress localAddress );1;0;3

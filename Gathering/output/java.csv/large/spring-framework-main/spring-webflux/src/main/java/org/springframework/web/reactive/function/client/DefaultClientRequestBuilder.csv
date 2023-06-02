@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultClientRequestBuilder.headers( Consumer < HttpHeaders > headersConsumer );1;0;4
+BodyInserterRequest.cookies( );1;0;3
+DefaultClientRequestBuilder.DefaultClientRequestBuilder( HttpMethod method , URI url );1;0;6
+DefaultClientRequestBuilder.attributes( Consumer < Map < String , Object > > attributesConsumer );1;0;4
+BodyInserterRequest.BodyInserterRequest( HttpMethod method , URI url , HttpHeaders headers , MultiValueMap < String , String > cookies , BodyInserter < ? , ? super ClientHttpRequest > body , Map < String , Object > attributes , @ Nullable Consumer < ClientHttpRequest > httpRequestConsumer );1;0;11
+DefaultClientRequestBuilder.header( String headerName , String ... headerValues );2;0;6
+DefaultClientRequestBuilder.build( );1;0;5
+BodyInserterRequest.attributes( );1;0;3
+BodyInserterRequest.logPrefix( );1;0;3
+BodyInserterRequest.body( );1;0;3
+DefaultClientRequestBuilder.body( P publisher , Class < S > elementClass );1;0;4
+BodyInserterRequest.messageWriters( );1;0;3
+BodyInserterRequest.method( );1;0;3
+BodyInserterRequest.headers( );1;0;3
+DefaultClientRequestBuilder.method( HttpMethod method );1;0;5
+DefaultClientRequestBuilder.attribute( String name , Object value );1;0;4
+BodyInserterRequest.httpRequest( );1;0;3
+DefaultClientRequestBuilder.cookies( Consumer < MultiValueMap < String , String > > cookiesConsumer );1;0;4
+DefaultClientRequestBuilder.httpRequest( Consumer < ClientHttpRequest > requestConsumer );2;1;5
+BodyInserterRequest.writeTo( ClientHttpRequest request , ExchangeStrategies strategies );5;4;33
+BodyInserterRequest.serverRequest( );1;0;3
+DefaultClientRequestBuilder.cookie( String name , String ... values );2;0;6
+DefaultClientRequestBuilder.DefaultClientRequestBuilder( ClientRequest other );1;0;10
+DefaultClientRequestBuilder.body( BodyInserter < ? , ? super ClientHttpRequest > inserter );1;0;4
+DefaultClientRequestBuilder.url( URI url );1;0;5
+DefaultClientRequestBuilder.body( P publisher , ParameterizedTypeReference < S > typeReference );1;0;4
+BodyInserterRequest.url( );1;0;3
+BodyInserterRequest.hints( );1;0;3

@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SettableListenableFutureTests.cancelDoesNotNotifyCallbacksOnSet( );1;0;11
+SettableListenableFutureTests.setValueUpdatesDoneStatus( );1;0;5
+SettableListenableFutureTests.validateInitialValues( );1;0;4
+SettableListenableFutureTests.cancelWithMayInterruptIfRunningTrueCallsOverriddenMethod( );1;0;7
+SettableListenableFutureTests.cancelWithMayInterruptIfRunningFalseDoesNotCallOverriddenMethod( );1;0;7
+SettableListenableFutureTests.getWithTimeoutWaitsForCompletion( );2;0;16
+SettableListenableFutureTests.cancelStateThrowsExceptionWhenCallingGet( );1;0;6
+SettableListenableFutureTests.throwsSetErrorWrappedInExecutionException( );1;0;9
+SettableListenableFutureTests.setExceptionPreventsCancel( );1;0;6
+SettableListenableFutureTests.returnsSetValueFromCompletable( );1;0;8
+InterruptibleSettableListenableFuture.interruptTask( );1;0;3
+InterruptibleSettableListenableFuture.calledInterruptTask( );1;0;3
+SettableListenableFutureTests.cancelStateThrowsExceptionWhenCallingGetWithTimeout( );2;0;15
+SettableListenableFutureTests.cancelSetsFutureToDone( );1;0;5
+SettableListenableFutureTests.nullIsAcceptedAsValueToSet( );1;0;6
+SettableListenableFutureTests.setValueTriggersCallbackOnlyOnce( );1;0;19
+SettableListenableFutureTests.throwsSetExceptionWrappedInExecutionException( );1;0;9
+SettableListenableFutureTests.getWithTimeoutThrowsTimeoutException( );1;0;4
+SettableListenableFutureTests.getWaitsForCompletion( );2;0;16
+SettableListenableFutureTests.setValueTriggersCallback( );1;0;18
+SettableListenableFutureTests.cancelPreventsValueFromBeingSet( );1;0;6
+SettableListenableFutureTests.onSuccess( String result );1;0;3
+SettableListenableFutureTests.throwsSetExceptionWrappedInExecutionExceptionFromCompletable( );1;0;10
+SettableListenableFutureTests.setExceptionTriggersCallback( );1;0;18
+SettableListenableFutureTests.cancelDoesNotNotifyCallbacksOnSetException( );1;0;11
+SettableListenableFutureTests.setPreventsCancel( );1;0;6
+SettableListenableFutureTests.onFailure( Throwable ex );1;0;3
+SettableListenableFutureTests.returnsSetValue( );1;0;7
+SettableListenableFutureTests.cancelPreventsExceptionFromBeingSet( );1;0;6
+SettableListenableFutureTests.throwsSetErrorWrappedInExecutionExceptionFromCompletable( );1;0;10
+SettableListenableFutureTests.setExceptionTriggersCallbackOnlyOnce( );1;0;19

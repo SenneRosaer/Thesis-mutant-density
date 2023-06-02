@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SoftReferenceSymbolTable.clean( );2;1;7
+SoftReferenceSymbolTable.SoftReferenceSymbolTable( );1;0;3
+SREntryData.SREntryData( String internedSymbol );1;0;5
+SoftReferenceSymbolTable.SoftReferenceSymbolTable( int initialCapacity , float loadFactor );5;5;17
+SREntry.initialize( SREntry next , int bucket );2;1;8
+SREntryData.SREntryData( String internedSymbol , char [ ] ch , int offset , int length );1;0;5
+SoftReferenceSymbolTable.SoftReferenceSymbolTable( int initialCapacity );1;0;3
+SoftReferenceSymbolTable.rehash( );5;10;27
+SREntry.SREntry( String internedSymbol , char [ ] ch , int offset , int length , SREntry next , int bucket , ReferenceQueue q );1;0;4
+SoftReferenceSymbolTable.containsSymbol( char [ ] buffer , int offset , int length );6;8;18
+SoftReferenceSymbolTable.removeEntry( SREntry entry );3;3;12
+SoftReferenceSymbolTable.containsSymbol( String symbol );6;7;19
+SoftReferenceSymbolTable.addSymbol( String symbol );5;6;22
+SREntry.SREntry( String internedSymbol , SREntry next , int bucket , ReferenceQueue q );1;0;4
+SoftReferenceSymbolTable.addSymbol( char [ ] buffer , int offset , int length );7;11;27

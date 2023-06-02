@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestClientSockJsSession.setBinaryMessageSizeLimit( int messageSizeLimit );1;0;2
+ClientSockJsSessionTests.handleFrameMessage( );1;0;8
+ClientSockJsSessionTests.timeoutTask( );1;0;4
+ClientSockJsSessionTests.handleFrameMessageWithBadData( );1;0;8
+ClientSockJsSessionTests.handleFrameClose( );1;0;8
+ClientSockJsSessionTests.handleFrameOpen( );1;0;9
+TestClientSockJsSession.getBinaryMessageSizeLimit( );1;0;3
+ClientSockJsSessionTests.send( );1;0;5
+TestClientSockJsSession.getExtensions( );1;0;3
+TestClientSockJsSession.TestClientSockJsSession( TransportRequest request , WebSocketHandler handler , CompletableFuture < WebSocketSession > connectFuture );1;0;3
+ClientSockJsSessionTests.handleFrameOpenWhenStatusNotNew( );1;0;6
+ClientSockJsSessionTests.closeWithNullStatus( );1;0;6
+TestClientSockJsSession.sendInternal( TextMessage textMessage );1;0;3
+TestClientSockJsSession.setTextMessageSizeLimit( int messageSizeLimit );1;0;2
+ClientSockJsSessionTests.handleTransportError( );1;0;6
+ClientSockJsSessionTests.handleFrameOpenWithWebSocketHandlerException( );1;0;5
+TestClientSockJsSession.disconnect( CloseStatus status );1;0;3
+ClientSockJsSessionTests.handleFrameMessageWhenNotOpen( );1;0;7
+ClientSockJsSessionTests.close( );1;0;8
+TestClientSockJsSession.getLocalAddress( );1;0;3
+ClientSockJsSessionTests.setup( );1;0;6
+ClientSockJsSessionTests.handleFrameMessageWithWebSocketHandlerException( );1;0;13
+ClientSockJsSessionTests.afterTransportClosed( );1;0;8
+TestClientSockJsSession.getRemoteAddress( );1;0;3
+TestClientSockJsSession.getTextMessageSizeLimit( );1;0;3
+ClientSockJsSessionTests.closeWithStatusOutOfRange( );1;0;6
+ClientSockJsSessionTests.closeWithStatus( );1;0;5
+TestClientSockJsSession.getAcceptedProtocol( );1;0;3

@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultJCacheOperationSource.getExceptionCacheResolver( );1;0;3
+DefaultJCacheOperationSource.setKeyGenerator( KeyGenerator keyGenerator );1;0;3
+DefaultJCacheOperationSource.DefaultJCacheOperationSource( );1;0;3
+DefaultJCacheOperationSource.getDefaultKeyGenerator( );1;0;3
+DefaultJCacheOperationSource.setBeanFactory( BeanFactory beanFactory );1;0;3
+DefaultJCacheOperationSource.getDefaultCacheResolver( );2;1;6
+DefaultJCacheOperationSource.setExceptionCacheResolver( @ Nullable CacheResolver exceptionCacheResolver );1;0;3
+DefaultJCacheOperationSource.getCacheResolver( );1;0;3
+DefaultJCacheOperationSource.getDefaultExceptionCacheResolver( );2;1;6
+DefaultJCacheOperationSource.setCacheResolver( @ Nullable CacheResolver cacheResolver );1;0;3
+DefaultJCacheOperationSource.getBean( Class < T > type );4;1;16
+DefaultJCacheOperationSource.getCacheManager( );1;0;3
+DefaultJCacheOperationSource.afterSingletonsInstantiated( );1;1;3
+DefaultJCacheOperationSource.getDefaultCacheManager( );4;2;17
+DefaultJCacheOperationSource.DefaultJCacheOperationSource( @ Nullable Supplier < CacheManager > cacheManager , @ Nullable Supplier < CacheResolver > cacheResolver , @ Nullable Supplier < CacheResolver > exceptionCacheResolver , @ Nullable Supplier < KeyGenerator > keyGenerator );1;0;6
+LazyCacheResolver.resolveCaches( CacheOperationInvocationContext < ? > context );1;0;3
+DefaultJCacheOperationSource.setCacheManager( @ Nullable CacheManager cacheManager );1;0;3
+DefaultJCacheOperationSource.getKeyGenerator( );1;0;3

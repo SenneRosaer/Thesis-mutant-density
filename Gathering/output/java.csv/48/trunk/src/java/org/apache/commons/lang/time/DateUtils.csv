@@ -1,0 +1,53 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DateUtils.modify( Calendar val , int field , boolean round );31;51;94
+DateUtils.getFragmentInMilliseconds( Calendar calendar , int fragment );1;0;3
+***not in a method***;0;9;0
+DateIterator.next( );2;0;7
+DateUtils.getFragmentInMinutes( Date date , int fragment );1;0;3
+DateIterator.remove( );1;0;3
+DateUtils.setYears( Date date , int amount );1;0;3
+DateUtils.getFragmentInHours( Date date , int fragment );1;0;3
+DateUtils.addMinutes( Date date , int amount );1;0;3
+DateUtils.isSameInstant( Calendar cal1 , Calendar cal2 );3;4;6
+DateUtils.round( Date date , int field );2;1;9
+DateUtils.addMilliseconds( Date date , int amount );1;0;3
+DateUtils.getFragmentInMinutes( Calendar calendar , int fragment );1;0;3
+DateIterator.hasNext( );1;0;3
+DateUtils.iterator( Date focus , int rangeStyle );2;1;8
+DateUtils.round( Calendar date , int field );2;1;8
+DateUtils.setMinutes( Date date , int amount );1;0;3
+DateIterator.DateIterator( Calendar startFinal , Calendar endFinal );1;1;6
+DateUtils.getFragmentInHours( Calendar calendar , int fragment );1;0;3
+DateUtils.setSeconds( Date date , int amount );1;0;3
+DateUtils.addHours( Date date , int amount );1;0;3
+DateUtils.getFragmentInDays( Date date , int fragment );1;0;3
+DateUtils.isSameLocalTime( Calendar cal1 , Calendar cal2 );10;18;13
+DateUtils.setHours( Date date , int amount );1;0;3
+DateUtils.add( Date date , int calendarField , int amount );2;1;9
+DateUtils.truncate( Calendar date , int field );2;1;8
+DateUtils.round( Object date , int field );4;1;12
+DateUtils.isSameDay( Date date1 , Date date2 );3;3;10
+DateUtils.addWeeks( Date date , int amount );1;0;3
+DateUtils.addSeconds( Date date , int amount );1;0;3
+DateUtils.getFragment( Calendar calendar , int fragment , int unit );12;19;32
+DateUtils.getFragmentInSeconds( Calendar calendar , int fragment );1;0;3
+DateUtils.parseDate( String str , String [ ] parsePatterns );7;10;20
+DateUtils.getFragmentInDays( Calendar calendar , int fragment );1;0;3
+DateUtils.DateUtils( );1;0;3
+DateUtils.truncate( Object date , int field );4;1;12
+DateUtils.addYears( Date date , int amount );1;0;3
+DateUtils.set( Date date , int calendarField , int amount );2;1;10
+DateUtils.truncate( Date date , int field );2;1;9
+DateUtils.setMilliseconds( Date date , int amount );1;0;3
+DateUtils.getMillisPerUnit( int unit );7;0;23
+DateUtils.getFragmentInSeconds( Date date , int fragment );1;0;3
+DateUtils.iterator( Calendar focus , int rangeStyle );19;17;66
+DateUtils.isSameInstant( Date date1 , Date date2 );3;4;6
+DateUtils.isSameDay( Calendar cal1 , Calendar cal2 );5;8;8
+DateUtils.getFragment( Date date , int fragment , int unit );2;1;8
+DateUtils.iterator( Object focus , int rangeStyle );4;1;12
+DateUtils.setMonths( Date date , int amount );1;0;3
+DateUtils.setDays( Date date , int amount );1;0;3
+DateUtils.addMonths( Date date , int amount );1;0;3
+DateUtils.getFragmentInMilliseconds( Date date , int fragment );1;0;3
+DateUtils.addDays( Date date , int amount );1;0;3

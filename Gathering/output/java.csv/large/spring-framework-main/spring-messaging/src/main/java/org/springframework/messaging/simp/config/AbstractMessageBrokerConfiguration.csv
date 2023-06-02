@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractMessageBrokerConfiguration.simpAnnotationMethodMessageHandler( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel , SimpMessagingTemplate brokerMessagingTemplate , CompositeMessageConverter brokerMessageConverter );2;1;19
+AbstractMessageBrokerConfiguration.getApplicationContext( );1;0;3
+AbstractMessageBrokerConfiguration.configureClientOutboundChannel( ChannelRegistration registration );1;0;2
+AbstractMessageBrokerConfiguration.getValidator( );1;0;3
+AbstractMessageBrokerConfiguration.configureClientInboundChannel( ChannelRegistration registration );1;0;2
+AbstractMessageBrokerConfiguration.addArgumentResolvers( List < HandlerMethodArgumentResolver > argumentResolvers );1;0;2
+AbstractMessageBrokerConfiguration.validate( @ Nullable Object target , Errors errors );1;0;2
+AbstractMessageBrokerConfiguration.userDestinationResolver( SimpUserRegistry userRegistry , AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel );2;1;9
+AbstractMessageBrokerConfiguration.brokerMessagingTemplate( AbstractSubscribableChannel brokerChannel , AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel , CompositeMessageConverter brokerMessageConverter );2;1;10
+AbstractMessageBrokerConfiguration.getClientOutboundChannelRegistration( );2;1;9
+AbstractMessageBrokerConfiguration.brokerChannel( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel , @ Qualifier ( "brokerChannelExecutor" ) TaskExecutor executor );2;0;10
+AbstractMessageBrokerConfiguration.AbstractMessageBrokerConfiguration( );1;0;2
+AbstractMessageBrokerConfiguration.clientOutboundChannel( @ Qualifier ( "clientOutboundChannelExecutor" ) TaskExecutor executor );2;0;9
+AbstractMessageBrokerConfiguration.addReturnValueHandlers( List < HandlerMethodReturnValueHandler > returnValueHandlers );1;0;2
+AbstractMessageBrokerConfiguration.brokerChannelExecutor( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel );2;0;16
+AbstractMessageBrokerConfiguration.userRegistry( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel );2;1;6
+AbstractMessageBrokerConfiguration.stompBrokerRelayMessageHandler( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel , AbstractSubscribableChannel brokerChannel , UserDestinationMessageHandler userDestinationMessageHandler , @ Nullable MessageHandler userRegistryMessageHandler , UserDestinationResolver userDestinationResolver );4;3;19
+AbstractMessageBrokerConfiguration.brokerMessageConverter( );6;0;21
+AbstractMessageBrokerConfiguration.configureMessageConverters( List < MessageConverter > messageConverters );1;0;3
+AbstractMessageBrokerConfiguration.setApplicationContext( @ Nullable ApplicationContext applicationContext );1;0;3
+AbstractMessageBrokerConfiguration.userRegistryMessageHandler( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel , SimpUserRegistry userRegistry , SimpMessagingTemplate brokerMessagingTemplate , @ Qualifier ( "messageBrokerTaskScheduler" ) TaskScheduler scheduler );2;1;10
+AbstractMessageBrokerConfiguration.getPathMatcher( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel );1;0;3
+***not in a method***;0;1;0
+AbstractMessageBrokerConfiguration.updateUserDestinationResolver( AbstractBrokerMessageHandler handler , UserDestinationResolver userDestinationResolver , @ Nullable String userDestinationPrefix );4;3;9
+AbstractMessageBrokerConfiguration.clientOutboundChannelExecutor( );1;0;6
+AbstractMessageBrokerConfiguration.createJacksonConverter( );1;0;7
+AbstractMessageBrokerConfiguration.userDestinationMessageHandler( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel , AbstractSubscribableChannel brokerChannel , UserDestinationResolver userDestinationResolver );2;1;10
+AbstractMessageBrokerConfiguration.messageBrokerTaskScheduler( );1;0;7
+AbstractMessageBrokerConfiguration.simpleBrokerMessageHandler( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel , AbstractSubscribableChannel brokerChannel , UserDestinationResolver userDestinationResolver );2;1;9
+AbstractMessageBrokerConfiguration.createAnnotationMethodMessageHandler( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel , SimpMessagingTemplate brokerMessagingTemplate );1;0;4
+AbstractMessageBrokerConfiguration.clientInboundChannel( @ Qualifier ( "clientInboundChannelExecutor" ) TaskExecutor executor );2;0;9
+AbstractMessageBrokerConfiguration.configureMessageBroker( MessageBrokerRegistry registry );1;0;2
+AbstractMessageBrokerConfiguration.getBrokerRegistry( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel );2;1;8
+AbstractMessageBrokerConfiguration.getClientInboundChannelRegistration( );2;1;9
+AbstractMessageBrokerConfiguration.simpValidator( );7;3;28
+AbstractMessageBrokerConfiguration.clientInboundChannelExecutor( );1;0;6
+AbstractMessageBrokerConfiguration.supports( Class < ? > clazz );1;0;3

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnnotationDescriptorReader.createClassDescriptor( Class clazz , Node nodeAnnotation );9;11;26
+AnnotationDescriptorReader.buildClassDescriptor( MappingDescriptor mappingDescriptor , Class clazz );2;1;15
+AnnotationDescriptorReader.addCollectionDescriptor( MappingDescriptor mappingDescriptor , ClassDescriptor descriptor , java . lang . reflect . Field field , Collection collectionAnnotation );6;6;43
+AnnotationDescriptorReader.addImplementDescriptor( ClassDescriptor classDescriptor , Class clazz );3;3;15
+AnnotationDescriptorReader.addBeanDescriptor( ClassDescriptor classDescriptor , String fieldName , Bean beanAnnotation );3;3;24
+AnnotationDescriptorReader.addAttributeDescriptors( MappingDescriptor mappingDescriptor , ClassDescriptor classDescriptor , Class clazz );1;0;4
+AnnotationDescriptorReader.loadClassDescriptors( );2;0;8
+AnnotationDescriptorReader.setElementClassName( CollectionDescriptor collectionDescriptor , Type type );4;2;25
+AnnotationDescriptorReader.AnnotationDescriptorReader( List < Class > annotatedClassNames );1;0;3
+AnnotationDescriptorReader.addDescriptorsFromFields( MappingDescriptor mappingDescriptor , ClassDescriptor classDescriptor , Class clazz );5;5;18
+AnnotationDescriptorReader.addFieldDescriptor( ClassDescriptor classDescriptor , String fieldName , Field fieldAnnotation );10;13;37
+AnnotationDescriptorReader.addDescriptorsFromGetters( MappingDescriptor mappingDescriptor , ClassDescriptor classDescriptor , Class clazz );7;4;29

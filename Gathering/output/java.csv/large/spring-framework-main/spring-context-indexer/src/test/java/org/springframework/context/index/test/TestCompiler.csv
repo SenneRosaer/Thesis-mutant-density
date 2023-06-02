@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestCompiler.getOutputLocation( );1;0;3
+TestCompiler.TestCompiler( JavaCompiler compiler , Path tempDir );2;0;8
+TestCompilationTask.TestCompilationTask( JavaCompiler . CompilationTask task );1;0;3
+TestCompilationTask.call( Processor ... processors );2;1;6
+TestCompiler.getTask( String ... types );2;0;4
+TestCompiler.getSourceFolder( );1;0;3
+TestCompiler.getTask( Class < ? > ... types );1;0;3
+TestCompiler.getFile( String type );1;0;3
+TestCompiler.getTask( Iterable < ? extends JavaFileObject > javaFileObjects );1;0;4
+TestCompiler.getJavaFileObjects( String ... types );2;2;7
+TestCompiler.sourcePathFor( String type );1;0;3
+TestCompiler.TestCompiler( Path tempDir );1;0;3

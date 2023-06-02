@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LineIterator.LineIterator( final Reader reader );3;1;10
+LineIterator.close( );1;0;5
+LineIterator.closeQuietly( Reader input );3;1;8
+LineIterator.next( );1;0;3
+LineIterator.closeQuietly( LineIterator iterator );2;1;5
+LineIterator.remove( );1;0;3
+LineIterator.nextLine( );2;1;8
+LineIterator.hasNext( );7;2;23
+LineIterator.isValidLine( String line );1;0;3

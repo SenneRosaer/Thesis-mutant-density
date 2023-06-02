@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlNameImpl.XmlNameImpl( String localName );1;0;3
+XmlNameImpl.setLocalName( String localName );1;0;4
+XmlNameImpl.setNamespaceUri( String namespaceUri );3;2;5
+XmlNameImpl.getNamespaceUri( );1;0;1
+XmlNameImpl.setPrefix( String prefix );1;0;1
+XmlNameImpl.XmlNameImpl( String namespaceUri , String localName , String prefix );1;0;5
+XmlNameImpl.XmlNameImpl( String namespaceUri , String localName );1;0;4
+XmlNameImpl.equals( Object obj );6;6;14
+XmlNameImpl.getPrefix( );1;0;1
+XmlNameImpl.getLocalName( );1;0;1
+XmlNameImpl.XmlNameImpl( );1;0;1
+XmlNameImpl.toString( );2;1;6
+XmlNameImpl.getQualifiedName( );3;4;6
+XmlNameImpl.hashCode( );4;7;14

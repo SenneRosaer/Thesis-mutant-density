@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Controller.getSourceDocumentAsOutput( final URI requestURI );2;0;12
+Controller.getReader( AbstractSourceNode sourceNode );2;0;7
+Controller.sourceExists( URI requestURI , LocationNode location );1;1;4
+Controller.processRequest( final URI requestURI );2;1;18
+Controller.getInputPlugin( final AbstractSourceDocument doc );3;0;13
+Controller.Controller( );1;0;7
+Controller.resolveSourceLocations( final URI requestURI );11;5;44
+Controller.Controller( final String locationmapPath , final String contextPath );1;0;3
+Controller.getReader( final URI uri );3;0;15
+Controller.getInternalDocumentAsOutput( final URI requestURI );2;0;12
+Controller.getSourceLocations( final URI requestURI );2;1;8
+Controller.initLocationmap( final String locationmapPath );1;0;3
+Controller.loadAllSourceDocuments( URI requestURI , final List < LocationNode > sourceLocations );3;3;10
+Controller.addToSourceDocCache( URI requestURI , AbstractSourceDocument doc );3;1;10
+Controller.getOutputDocument( URI requestURI );6;1;20
+Controller.processInputPlugins( URI requestURI , final AbstractSourceDocument sourceDocument );3;2;15
+Controller.getInternalDocument( final URI requestURI );3;1;13
+Controller.getPipelineAsOutput( URI requestURI );2;0;34
+Controller.loadSourceDocument( URI requestURI , final LocationNode location );4;2;16
+Controller.getOutputPlugin( final URI requestURI );4;3;18
+Controller.processOutputPlugins( final URI requestURI );1;0;5
+Controller.init( final String locationmapPath , File context );2;0;12
+Controller.getSourceDocuments( final URI requestURI );3;1;13

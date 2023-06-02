@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XalanExtension.copyProperties( XSLProcessorContext context , Element element );1;0;5
+XalanExtension.forward( XSLProcessorContext context , Element element );2;1;14
+XalanExtension.getExchange( XSLProcessorContext context , Element element );1;0;3
+XalanExtension.getComponent( XSLProcessorContext context , Element element );1;0;3
+XalanExtension.getAttribute( Element element , String attribute , String defaultValue );3;3;7
+XalanExtension.getParameter( XSLProcessorContext context , String name );1;0;3
+XalanExtension.getInMessage( XSLProcessorContext context , Element element );1;0;3
+XalanExtension.invoke( XSLProcessorContext context , ElemTemplateElement element );2;1;20
+XalanExtension.getQNameAttribute( PrefixResolver namespaceContext , Element element , String name );4;4;20
+XalanExtension.call( XSLProcessorContext context , ElemTemplateElement element );5;3;33
+XalanExtension.setOutProperty( XSLProcessorContext context , ElemTemplateElement element );7;4;27
+XalanExtension.getOutMessage( XSLProcessorContext context , Element element );1;0;3

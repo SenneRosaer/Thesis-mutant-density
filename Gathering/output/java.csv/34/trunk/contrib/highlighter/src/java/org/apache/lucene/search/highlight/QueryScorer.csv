@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QueryScorer.QueryScorer( Query query , String fieldName );1;0;3
+QueryScorer.getFragmentScore( );1;0;3
+QueryScorer.QueryScorer( Query query );1;0;3
+QueryScorer.allFragmentsProcessed( );1;0;2
+QueryScorer.QueryScorer( WeightedTerm [ ] weightedTerms );4;5;12
+QueryScorer.QueryScorer( Query query , IndexReader reader , String fieldName );1;0;3
+QueryScorer.getMaxTermWeight( );1;0;3
+QueryScorer.startFragment( TextFragment newFragment );1;0;5
+QueryScorer.getTokenScore( Token token );3;3;14

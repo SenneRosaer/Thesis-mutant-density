@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XsltComponent.parse( Resource res );3;1;9
+XsltComponent.createXsltSource( );2;1;6
+XsltComponent.isForceDocIfDom( );1;0;3
+XsltComponent.getXsltSource( );2;1;6
+XsltComponent.getTransformerFactory( );2;1;6
+XsltComponent.setUseStringBuffer( boolean useStringBuffer );1;0;3
+XsltComponent.createTemplates( );1;0;4
+XsltComponent.setXsltParameters( Map xsltParameters );1;0;3
+XsltComponent.shouldOutputResult( Transformer transformer );2;0;6
+XsltComponent.getXsltResource( );1;0;3
+XsltComponent.isDisableOutput( );1;0;3
+XsltComponent.getTemplates( );2;1;6
+XsltComponent.setForceDocIfDom( boolean forceDocIfDom );1;0;3
+XsltComponent.getXsltParameters( );1;0;3
+XsltComponent.transform( MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );2;0;12
+XsltComponent.createTransformer( MessageExchange exchange , NormalizedMessage in );2;1;9
+XsltComponent.setTransformerFactory( TransformerFactory transformerFactory );1;0;3
+XsltComponent.setDisableOutput( boolean disableOutput );1;0;3
+XsltComponent.transformContent( Transformer transformer , MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );5;2;23
+XsltComponent.isUseStringBuffer( );1;0;3
+XsltComponent.setXsltSource( Source xsltSource );1;0;3
+XsltComponent.setXsltResource( Resource xsltResource );1;0;3
+XsltComponent.configureTransformer( Transformer transformer , MessageExchange exchange , NormalizedMessage in );5;1;22

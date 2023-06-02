@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RemoteCacheServerListener.setListenerId( long id );2;0;7
+RemoteCacheServerListener.handleDispose( String cacheName );2;0;8
+RemoteCacheServerListener.handlePut( ICacheElement cb );3;3;12
+RemoteCacheServerListener.getListenerId( );2;0;7
+RemoteCacheServerListener.RemoteCacheServerListener( IRemoteCacheAttributes irca );3;1;19
+RemoteCacheServerListener.handleRemove( String cacheName , Serializable key );4;3;17
+***not in a method***;0;1;0
+RemoteCacheServerListener.getRemoteType( );2;0;7
+RemoteCacheServerListener.handleRemoveAll( String cacheName );2;0;9
+RemoteCacheServerListener.getInstance( IRemoteCacheAttributes irca );3;2;13
+RemoteCacheServerListener.getCacheManager( );4;1;17

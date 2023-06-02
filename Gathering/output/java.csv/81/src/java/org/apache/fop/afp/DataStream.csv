@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DataStream.endOverlay( );2;1;7
+DataStream.getCurrentPageGroup( );1;0;3
+DataStream.createLine( AFPLineDataInfo lineDataInfo );1;0;3
+DataStream.getCurrentPage( );1;0;3
+DataStream.createFont( int fontReference , AFPFont font , int size );1;0;3
+DataStream.startPage( int pageWidth , int pageHeight , int pageRotation , int pageWidthRes , int pageHeightRes );1;0;6
+DataStream.createText( AFPTextDataInfo textDataInfo );2;1;10
+DataStream.createPageGroupTagLogicalElement( TagLogicalElementBean [ ] attributes );2;2;7
+DataStream.savePage( );2;1;11
+DataStream.getInterchangeSet( );1;0;3
+DataStream.startDocument( );1;0;4
+DataStream.startPageGroup( );1;0;4
+DataStream.getDocument( );1;0;3
+DataStream.createTagLogicalElement( String name , String value );2;1;7
+DataStream.restorePage( PageObject pageObject );1;0;4
+DataStream.setDocumentName( String name );2;1;7
+DataStream.createIncludePageOverlay( String name );1;0;4
+DataStream.createInvokeMediumMap( String name );1;0;3
+DataStream.addFontsToCurrentPage( Map pageFonts );2;0;9
+DataStream.getOutputStream( );1;0;3
+DataStream.createShading( int x , int y , int w , int h , Color col );1;0;3
+DataStream.endPage( );3;2;14
+DataStream.createIncludePageSegment( String name , int x , int y );4;4;24
+DataStream.getResourceGroup( AFPResourceLevel level );4;0;11
+DataStream.createPageTagLogicalElement( TagLogicalElementBean [ ] attributes );2;2;7
+DataStream.endDocument( );5;3;21
+DataStream.getPoint( int x , int y );4;4;23
+DataStream.DataStream( Factory factory , AFPPaintingState paintingState , OutputStream outputStream );1;0;5
+DataStream.endPageGroup( );2;1;8
+DataStream.setInterchangeSet( InterchangeSet interchangeSet );1;0;3
+DataStream.startOverlay( int x , int y , int width , int height , int widthRes , int heightRes , int overlayRotation );1;0;7
+DataStream.createNoOperation( String content );1;0;3

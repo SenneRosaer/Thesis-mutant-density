@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLHelper.XMLHelper( );1;0;2
+XMLHelper.getDocBuilder( EntityResolver entityResolver );4;2;15
+XMLHelper.parseToDom( InputStream stream , Resource res , EntityResolver entityResolver );2;0;13
+XMLHelper.parse( InputSource xmlStream , URL schema , DefaultHandler handler , LexicalHandler lHandler );6;3;26
+XMLHelper.canUseSchemaValidation( );1;0;3
+XMLHelper.escape( String text );7;3;26
+XMLHelper.newSAXParser( URL schema , InputStream schemaStream );4;3;18
+XMLHelper.parse( URL xmlURL , URL schema , DefaultHandler handler );1;0;3
+XMLHelper.parse( URL xmlURL , URL schema , DefaultHandler handler , LexicalHandler lHandler );2;0;13
+XMLHelper.parse( InputStream xmlStream , URL schema , DefaultHandler handler , LexicalHandler lHandler );1;0;3

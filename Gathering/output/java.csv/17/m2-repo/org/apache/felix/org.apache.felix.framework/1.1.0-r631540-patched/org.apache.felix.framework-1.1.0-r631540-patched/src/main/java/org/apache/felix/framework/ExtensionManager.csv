@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExtensionManager.setURLPolicy( IURLPolicy urlPolicy );1;0;3
+ExtensionManager._add( String name , Bundle extension );2;1;7
+ExtensionManager.findLibrary( String name );1;0;3
+ExtensionManager.getResource( String name );1;0;3
+ExtensionManager.getContent( );1;0;3
+ExtensionManager.getLibraries( );1;0;3
+ExtensionManager.getSearchPolicy( );1;0;3
+ExtensionManager.getHostAddress( URL u );1;0;3
+ExtensionManager.getRequirements( );1;0;3
+ExtensionManager._removeExtensions( Object source );3;1;13
+ExtensionManager.openConnection( URL url );4;1;16
+ExtensionManager.close( );1;0;2
+ExtensionManager.hasMoreElements( );1;0;3
+ExtensionManager.getResourceFromContent( String name );1;0;3
+ExtensionManager.setSearchPolicy( ISearchPolicy searchPolicy );1;0;3
+ExtensionManager.setSecurityContext( Object securityContext );1;0;3
+ExtensionManager.getCapabilities( );1;0;3
+ExtensionManager.addExtensionBundle( Felix felix , FelixBundle bundle );7;5;67
+ExtensionManager.ExtensionManager( );1;0;5
+ExtensionManager.getEntryAsStream( String name );1;0;3
+ExtensionManager.hasEntry( String name );1;0;3
+ExtensionManager.ExtensionManager( Logger logger , Map configMap , BundleInfo systemBundleInfo );2;0;32
+ExtensionManager.open( );1;0;2
+ExtensionManager.getResources( String name );2;0;10
+ExtensionManager.getClass( String name );3;1;18
+ExtensionManager.convertCapabilitiesToHeaders( Map headers );4;5;18
+ExtensionManager.addExtension( Object source , Bundle extension );2;1;10
+ExtensionManager.nextElement( );1;0;3
+ExtensionManager.getDynamicRequirements( );1;0;3
+ExtensionManager.getInputStream( int index , String urlPath );1;0;3
+ExtensionManager.getURLPolicy( );1;0;3
+ExtensionManager.getEntry( String name );1;0;3
+ExtensionManager.getSecurityContext( );1;0;3
+ExtensionManager.isExtensionBundle( Map headers );3;3;7
+ExtensionManager.getEntries( );1;0;13
+ExtensionManager.hasInputStream( int index , String urlPath );1;1;3
+ExtensionManager.removeExtensions( Felix felix );2;1;6
+ExtensionManager.startExtensionBundle( Felix felix , FelixBundle bundle );4;2;27
+ExtensionManager.setCapabilities( ICapability [ ] capabilities );1;0;6

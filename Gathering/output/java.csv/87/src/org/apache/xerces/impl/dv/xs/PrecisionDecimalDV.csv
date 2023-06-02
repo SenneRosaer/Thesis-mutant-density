@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PrecisionDecimalDV.compare( Object value1 , Object value2 );1;0;3
+XPrecisionDecimal.toString( );2;1;6
+XPrecisionDecimal.compareDecimal( String iValue , String fValue , String otherIValue , String otherFValue );6;4;12
+XPrecisionDecimal.compare( XPrecisionDecimal val );11;19;41
+XPrecisionDecimal.equals( Object val );3;3;8
+XPrecisionDecimal.compareTo( XPrecisionDecimal val );12;6;21
+XPrecisionDecimal.truncateTrailingZeros( StringBuffer fValue , StringBuffer otherFValue );5;8;12
+PrecisionDecimalDV.getTotalDigits( Object value );1;0;3
+XPrecisionDecimal.compareFractionalPart( XPrecisionDecimal oval );2;0;8
+PrecisionDecimalDV.isIdentical( Object value1 , Object value2 );3;3;5
+XPrecisionDecimal.initD( String content );22;36;49
+XPrecisionDecimal.makeCanonical( );1;0;3
+PrecisionDecimalDV.getAllowedFacets( );1;8;3
+XPrecisionDecimal.isIdentical( XPrecisionDecimal decimal );11;12;8
+XPrecisionDecimal.XPrecisionDecimal( String content );6;3;11
+PrecisionDecimalDV.getActualValue( String content , ValidationContext context );2;0;7
+XPrecisionDecimal.intComp( XPrecisionDecimal val );3;2;5
+PrecisionDecimalDV.getFractionDigits( Object value );1;0;3

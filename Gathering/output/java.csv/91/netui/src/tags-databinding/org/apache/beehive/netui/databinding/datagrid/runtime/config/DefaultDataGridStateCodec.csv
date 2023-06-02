@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultDataGridStateCodec.decodeFilter( String value );5;7;27
+DefaultDataGridStateCodec.getDataGridURLBuilder( );1;0;3
+DefaultDataGridStateCodec.encodeFilters( List filters );3;2;18
+DefaultDataGridStateCodec.encodeRow( final int row );1;0;7
+DefaultDataGridStateCodec.decodePageSize( final String pageSize );2;3;6
+DefaultDataGridStateCodec.decode( Map parameters );20;13;75
+DefaultDataGridStateCodec.encodeSorts( List sorts );6;5;22
+DefaultDataGridStateCodec.decodeSort( String value );5;4;22
+DefaultDataGridStateCodec.DefaultDataGridStateCodec( DataGridConfig config );1;0;6
+DefaultDataGridStateCodec.buildFilterParamMap( List filters );4;4;12
+DefaultDataGridStateCodec.encodePageSize( final int pageSize );1;0;7
+DefaultDataGridStateCodec.decodeInt( String value , int defaultValue );2;0;10
+DefaultDataGridStateCodec.buildSortParamMap( List sorts );4;4;12
+DefaultDataGridStateCodec.addParam( String key , String value );3;2;10
+DefaultDataGridStateCodec.getExistingParams( );1;0;3
+DefaultDataGridStateCodec.addParam( String key , String [ ] values );4;4;12
+DefaultDataGridStateCodec.buildPageParamMap( Integer row , Integer pageSize );5;6;8
+DefaultDataGridStateCodec.getDataGridState( );2;1;6
+DefaultDataGridStateCodec.decodeRow( final String page );2;3;6
+DefaultDataGridStateCodec.setDataGridState( DataGridState state );1;0;3

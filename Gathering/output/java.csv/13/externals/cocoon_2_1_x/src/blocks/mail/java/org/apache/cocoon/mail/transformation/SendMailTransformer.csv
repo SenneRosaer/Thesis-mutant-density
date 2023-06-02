@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AddressHandler.getSendMailResult( );1;0;3
+AttachmentDescriptor.copy( );1;0;8
+SendMailTransformer.sendExceptionElement( Exception ex );2;2;13
+SendMailTransformer.sendMail( List newAddresses , Transport trans );10;10;39
+SendMailTransformer.setUpMessage( Session session );8;6;49
+SendMailTransformer.appendToAddress( List addresses , String s );2;0;6
+SendMailTransformer.setup( SourceResolver resolver , Map objectModel , String src , Parameters par );2;0;19
+AttachmentDescriptor.isURLSource( );1;1;3
+SendMailTransformer.configure( Configuration configuration );1;0;6
+AttachmentDescriptor.isTextContent( );1;1;3
+SendMailTransformer.getAddresses( AddressHandler [ ] handlerArr );2;2;7
+SendMailTransformer.endTransformingElement( String uri , String name , String raw );16;2;54
+SendMailTransformer.startTransformingElement( String uri , String name , String raw , Attributes attr );15;2;54
+AddressHandler.AddressHandler( InternetAddress newAddress );1;0;3
+SendMailTransformer.recycle( );2;0;23
+AddressHandler.setSendMailResult( String newSendMailResult );1;0;3
+AttachmentDescriptor.isFileSource( );1;1;3
+SendMailTransformer.SendMailTransformer( );1;0;3
+SendMailTransformer.sendMail( );8;12;48
+AddressHandler.getAddress( );1;0;3
+AttachmentDescriptor.setContent( String newContent );1;0;3
+AttachmentDescriptor.AttachmentDescriptor( String newAttrName , String newAttrMimeType , String newAttrSrc , String newAttrFile );1;0;6
+SendMailTransformer.generateSAXReportStatements( AddressHandler [ ] addressArr );3;3;19

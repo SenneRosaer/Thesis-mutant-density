@@ -1,0 +1,62 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractGraphics2D.translate( double tx , double ty );1;0;3
+AbstractGraphics2D.drawArc( int x , int y , int width , int height , int startAngle , int arcAngle );1;0;4
+AbstractGraphics2D.getStroke( );1;0;3
+AbstractGraphics2D.drawImage( Image img , AffineTransform xform , ImageObserver obs );3;1;21
+AbstractGraphics2D.drawRoundRect( int x , int y , int width , int height , int arcWidth , int arcHeight );1;0;4
+AbstractGraphics2D.addRenderingHints( Map hints );1;0;3
+AbstractGraphics2D.drawImage( BufferedImage img , BufferedImageOp op , int x , int y );1;0;4
+AbstractGraphics2D.drawOval( int x , int y , int width , int height );1;0;4
+AbstractGraphics2D.setColor( Color c );1;0;3
+AbstractGraphics2D.getColor( );1;0;3
+AbstractGraphics2D.rotate( double theta , double x , double y );1;0;3
+AbstractGraphics2D.drawImage( Image img , int dx1 , int dy1 , int dx2 , int dy2 , int sx1 , int sy1 , int sx2 , int sy2 , ImageObserver observer );1;4;8
+AbstractGraphics2D.AbstractGraphics2D( boolean textAsShapes );1;0;3
+AbstractGraphics2D.setRenderingHints( Map hints );1;0;3
+AbstractGraphics2D.fillRect( int x , int y , int width , int height );1;0;4
+AbstractGraphics2D.clearRect( int x , int y , int width , int height );1;0;6
+AbstractGraphics2D.fillArc( int x , int y , int width , int height , int startAngle , int arcAngle );1;0;4
+AbstractGraphics2D.drawImage( Image img , int x , int y , Color bgcolor , ImageObserver observer );1;0;4
+AbstractGraphics2D.fillOval( int x , int y , int width , int height );1;0;4
+AbstractGraphics2D.AbstractGraphics2D( AbstractGraphics2D g );1;0;5
+AbstractGraphics2D.setPaintMode( );1;0;3
+AbstractGraphics2D.rotate( double theta );1;0;3
+AbstractGraphics2D.getComposite( );1;0;3
+AbstractGraphics2D.setTransform( AffineTransform Tx );1;0;3
+AbstractGraphics2D.getTransform( );1;0;3
+AbstractGraphics2D.setPaint( Paint paint );1;0;3
+AbstractGraphics2D.getRenderingHints( );1;0;3
+AbstractGraphics2D.scale( double sx , double sy );1;0;3
+AbstractGraphics2D.drawGlyphVector( GlyphVector g , float x , float y );1;0;4
+AbstractGraphics2D.getClip( );1;0;3
+AbstractGraphics2D.transform( AffineTransform Tx );1;0;3
+AbstractGraphics2D.getRenderingHint( RenderingHints . Key hintKey );1;0;3
+AbstractGraphics2D.drawPolyline( int [ ] xPoints , int [ ] yPoints , int nPoints );3;3;9
+AbstractGraphics2D.setStroke( Stroke s );1;0;3
+AbstractGraphics2D.getGraphicContext( );1;0;3
+AbstractGraphics2D.setRenderingHint( RenderingHints . Key hintKey , Object hintValue );1;0;3
+AbstractGraphics2D.drawString( AttributedCharacterIterator iterator , int x , int y );1;0;3
+AbstractGraphics2D.hit( Rectangle rect , Shape s , boolean onStroke );2;0;7
+AbstractGraphics2D.drawImage( Image img , int x , int y , int width , int height , Color bgcolor , ImageObserver observer );1;0;8
+AbstractGraphics2D.setFont( Font font );1;0;3
+AbstractGraphics2D.setBackground( Color color );1;0;3
+AbstractGraphics2D.fillPolygon( int [ ] xPoints , int [ ] yPoints , int nPoints );1;0;4
+AbstractGraphics2D.drawImage( Image img , int dx1 , int dy1 , int dx2 , int dy2 , int sx1 , int sy1 , int sx2 , int sy2 , Color bgcolor , ImageObserver observer );1;2;7
+AbstractGraphics2D.shear( double shx , double shy );1;0;3
+AbstractGraphics2D.getFont( );1;0;3
+AbstractGraphics2D.getFontRenderContext( );1;0;3
+AbstractGraphics2D.drawString( AttributedCharacterIterator iterator , float x , float y );2;0;10
+AbstractGraphics2D.drawRect( int x , int y , int width , int height );1;0;4
+AbstractGraphics2D.fillRoundRect( int x , int y , int width , int height , int arcWidth , int arcHeight );1;0;4
+AbstractGraphics2D.getBackground( );1;0;3
+AbstractGraphics2D.translate( int x , int y );1;0;3
+AbstractGraphics2D.clipRect( int x , int y , int width , int height );1;0;3
+AbstractGraphics2D.drawPolygon( int [ ] xPoints , int [ ] yPoints , int nPoints );1;0;4
+AbstractGraphics2D.drawString( String str , int x , int y );1;0;3
+AbstractGraphics2D.setComposite( Composite comp );1;0;3
+AbstractGraphics2D.setClip( Shape clip );1;0;3
+AbstractGraphics2D.drawLine( int x1 , int y1 , int x2 , int y2 );1;0;4
+AbstractGraphics2D.setClip( int x , int y , int width , int height );1;0;3
+AbstractGraphics2D.getPaint( );1;0;3
+AbstractGraphics2D.getClipBounds( );1;0;3
+AbstractGraphics2D.clip( Shape s );1;0;3

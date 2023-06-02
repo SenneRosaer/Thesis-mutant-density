@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BuilderContext.getTableContext( );1;0;3
+BuilderContext.getObjectFromStack( Stack s , Class desiredClass );3;1;12
+BuilderContext.popContainer( );1;0;3
+BuilderContext.popTableContext( );1;0;3
+BuilderContext.pushContainer( RtfContainer c );1;0;3
+BuilderContext.replaceContainer( RtfContainer oldC , RtfContainer newC );2;1;7
+BuilderContext.pushTableContext( TableContext tc );1;0;3
+BuilderContext.BuilderContext( IRtfOptions rtfOptions );1;0;3
+BuilderContext.getContainer( Class containerClass , boolean required , Object forWhichBuilder );3;2;11

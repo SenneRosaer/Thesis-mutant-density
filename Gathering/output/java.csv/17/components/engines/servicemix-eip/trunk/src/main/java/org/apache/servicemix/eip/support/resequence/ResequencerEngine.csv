@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResequencerEngine.setOutQueue( Queue < E > outQueue );1;0;3
+ResequencerEngine.getTimeout( );1;0;3
+ResequencerEngine.defineTimeout( );1;0;5
+ResequencerEngine.stop( );1;0;3
+ResequencerEngine.insert( E o );5;2;16
+ResequencerEngine.getLastDelivered( );2;1;6
+ResequencerEngine.setLastDelivered( E o );1;0;3
+ResequencerEngine.successorOfLastDelivered( Element < E > element );3;1;9
+ResequencerEngine.createSequence( SequenceElementComparator < E > comparator );1;0;3
+ResequencerEngine.getOutQueue( );1;0;3
+ResequencerEngine.put( E o );2;1;6
+ResequencerEngine.ResequencerEngine( SequenceElementComparator < E > comparator );1;0;3
+ResequencerEngine.add( E o );2;1;6
+ResequencerEngine.timeout( Timeout timout );3;0;8
+ResequencerEngine.setTimeout( long timeout );1;0;3
+ResequencerEngine.ResequencerEngine( SequenceElementComparator < E > comparator , int capacity );1;0;7
+ResequencerEngine.deliver( );3;1;14

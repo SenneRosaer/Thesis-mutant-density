@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TarEntry.setName( final String name );1;0;3
+TarEntry.TarEntry( final File file );13;20;55
+TarEntry.getUserID( );1;0;3
+TarEntry.isDescendent( final TarEntry desc );1;0;3
+TarEntry.getGroupID( );1;0;3
+TarEntry.getGroupId( );1;0;3
+TarEntry.TarEntry( );2;1;12
+TarEntry.setMode( final int mode );1;0;3
+TarEntry.setUserName( final String userName );1;0;3
+TarEntry.setUserId( final int userId );1;0;3
+TarEntry.getUserName( );1;0;3
+TarEntry.getSize( );1;0;3
+TarEntry.getModTime( );1;1;3
+TarEntry.equals( final TarEntry other );1;0;3
+TarEntry.getMode( );1;0;3
+TarEntry.getUserId( );1;0;3
+TarEntry.TarEntry( final String name , final byte linkFlag );1;0;4
+TarEntry.setUserID( final int userId );1;0;3
+TarEntry.setSize( final long size );1;0;3
+TarEntry.setModTime( final long time );1;1;3
+TarEntry.TarEntry( final byte [ ] header );1;0;4
+TarEntry.setModTime( final Date time );1;1;3
+TarEntry.getGroupName( );1;0;3
+TarEntry.getDirectoryEntries( );4;5;13
+TarEntry.isDirectory( );4;2;15
+TarEntry.setGroupID( final int groupId );1;0;3
+TarEntry.isGNULongNameEntry( );2;2;4
+TarEntry.setGroupName( final String groupName );1;0;3
+TarEntry.TarEntry( final String name );3;1;11
+TarEntry.writeEntryHeader( final byte [ ] buffer );3;6;27
+TarEntry.getFile( );1;0;3
+TarEntry.setGroupId( final int groupId );1;0;3
+TarEntry.getName( );1;0;3
+TarEntry.parseTarHeader( final byte [ ] header );1;13;29
+TarEntry.getCheckSum( );1;0;3

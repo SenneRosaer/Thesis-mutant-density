@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultErrorResponseBuilder.instance( @ Nullable URI instance );1;0;4
+DefaultErrorResponseBuilder.detail( String detail );1;0;4
+DefaultErrorResponseBuilder.DefaultErrorResponseBuilder( Throwable ex , HttpStatusCode statusCode , String detail );1;0;10
+DefaultErrorResponseBuilder.property( String name , @ Nullable Object value );1;0;4
+DefaultErrorResponseBuilder.title( @ Nullable String title );1;0;4
+DefaultErrorResponseBuilder.type( URI type );1;0;4
+SimpleErrorResponse.getDetailMessageArguments( );1;0;3
+SimpleErrorResponse.getHeaders( );1;0;3
+SimpleErrorResponse.toString( );1;0;5
+SimpleErrorResponse.getBody( );1;0;3
+DefaultErrorResponseBuilder.detailMessageCode( String messageCode );1;0;5
+DefaultErrorResponseBuilder.header( String headerName , String ... headerValues );3;1;7
+DefaultErrorResponseBuilder.titleMessageCode( String messageCode );1;0;5
+SimpleErrorResponse.getDetailMessageCode( );1;0;3
+DefaultErrorResponseBuilder.detailMessageArguments( Object ... messageArguments );1;0;4
+SimpleErrorResponse.getTitleMessageCode( );1;0;3
+SimpleErrorResponse.SimpleErrorResponse( Throwable ex , HttpStatusCode statusCode , @ Nullable HttpHeaders headers , ProblemDetail problemDetail , String detailMessageCode , @ Nullable Object [ ] detailMessageArguments , String titleMessageCode );2;1;9
+SimpleErrorResponse.getStatusCode( );1;0;3
+DefaultErrorResponseBuilder.build( );1;0;5
+DefaultErrorResponseBuilder.headers( Consumer < HttpHeaders > headersConsumer );1;0;3

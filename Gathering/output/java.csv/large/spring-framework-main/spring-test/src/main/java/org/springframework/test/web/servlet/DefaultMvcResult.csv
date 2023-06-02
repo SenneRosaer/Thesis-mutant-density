@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultMvcResult.setAsyncResult( Object asyncResult );1;0;3
+DefaultMvcResult.getModelAndView( );1;0;3
+DefaultMvcResult.awaitAsyncDispatch( long timeout );2;1;10
+DefaultMvcResult.getRequest( );1;0;3
+DefaultMvcResult.getFlashMap( );1;0;3
+DefaultMvcResult.getHandler( );1;0;3
+DefaultMvcResult.getAsyncResult( long timeToWait );5;8;13
+DefaultMvcResult.setHandler( @ Nullable Object handler );1;0;3
+DefaultMvcResult.setResolvedException( Exception resolvedException );1;0;3
+DefaultMvcResult.setInterceptors( @ Nullable HandlerInterceptor ... interceptors );1;0;3
+DefaultMvcResult.DefaultMvcResult( MockHttpServletRequest request , MockHttpServletResponse response );1;0;4
+DefaultMvcResult.getInterceptors( );1;0;3
+DefaultMvcResult.setModelAndView( @ Nullable ModelAndView mav );1;0;3
+DefaultMvcResult.setAsyncDispatchLatch( CountDownLatch asyncDispatchLatch );1;0;3
+DefaultMvcResult.getAsyncResult( );1;1;3
+DefaultMvcResult.getResponse( );1;0;3
+DefaultMvcResult.getResolvedException( );1;0;3

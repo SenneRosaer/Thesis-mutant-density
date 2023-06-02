@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultAspectDataHandler.getPersistentAspectDatas( Aspectalizable owner );7;3;27
+AspectDatasHashMap.initialize( );1;0;3
+DefaultAspectDataHandler.setAspectData( Aspectalizable owner , String aspectName , Object data );3;1;13
+DefaultAspectDataHandler.getAspectDatas( Aspectalizable owner );3;1;13
+DefaultAspectDataHandler.isAspectSupported( String aspectName );1;1;3
+DefaultAspectDataHandler.getAspectData( Aspectalizable owner , String aspectName );5;3;19
+AspectDatasHashMap.AspectDatasHashMap( Aspectalizable owner , AspectDataHandler handler );1;0;4
+DefaultAspectDataHandler.DefaultAspectDataHandler( AspectalizableDescription desc , ServiceSelector storeSelector );1;0;4
+AspectDatasHashMap.put( Object key , Object value );2;0;7

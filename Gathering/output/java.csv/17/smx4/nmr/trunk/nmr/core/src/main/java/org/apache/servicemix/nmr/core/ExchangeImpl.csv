@@ -1,0 +1,51 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExchangeImpl.readObject( java . io . ObjectInputStream in );1;0;3
+ExchangeImpl.setDestination( InternalEndpoint destination );1;0;3
+ExchangeImpl.setProperty( Class < T > type , T value );2;1;6
+ExchangeImpl.getOut( boolean lazyCreate );5;5;8
+ExchangeImpl.setProperties( Map < String , Object > properties );1;0;3
+ExchangeImpl.removeProperty( Class < T > type );1;0;3
+ExchangeImpl.setSource( InternalEndpoint source );1;0;3
+ExchangeImpl.setError( Exception error );1;0;4
+ExchangeImpl.getOut( );1;0;3
+ExchangeImpl.setTarget( Reference target );1;0;3
+ExchangeImpl.ExchangeImpl( Pattern pattern );1;0;6
+ExchangeImpl.setIn( Message message );1;0;3
+ExchangeImpl.writeObject( java . io . ObjectOutputStream out );1;0;4
+ExchangeImpl.setOut( Message message );1;0;3
+ExchangeImpl.removeProperty( String name );2;1;6
+ExchangeImpl.getStatus( );1;0;3
+ExchangeImpl.getSource( );1;0;3
+ExchangeImpl.getProperty( Class < T > type );2;1;6
+ExchangeImpl.getTarget( );1;0;3
+ExchangeImpl.display( boolean displayContent );1;0;3
+ExchangeImpl.ExchangeImpl( );1;0;2
+ExchangeImpl.setRole( Role role );1;0;3
+ExchangeImpl.getProviderLock( boolean create );2;0;6
+ExchangeImpl.getError( );1;0;3
+ExchangeImpl.getOperation( );1;0;3
+ExchangeImpl.getProperties( );2;1;6
+ExchangeImpl.toString( );1;0;3
+ExchangeImpl.setOperation( QName operation );1;0;3
+ExchangeImpl.createMessage( );1;0;3
+ExchangeImpl.getConsumerLock( boolean create );2;0;6
+ExchangeImpl.getMessage( Type type );1;0;3
+ExchangeImpl.getProperty( String name , Class < T > type );2;1;6
+ExchangeImpl.setProperty( String name , Object value );2;1;6
+ExchangeImpl.convert( Object body , Class < T > type );4;1;13
+ExchangeImpl.getIn( boolean lazyCreate );3;2;6
+ExchangeImpl.getId( );1;0;3
+ExchangeImpl.getIn( );1;0;3
+ExchangeImpl.ensureReReadable( );1;0;3
+ExchangeImpl.copyFrom( Exchange exchange );4;3;16
+ExchangeImpl.setFault( Message message );1;0;3
+ExchangeImpl.getFault( boolean lazyCreate );4;3;8
+ExchangeImpl.copy( );1;0;5
+ExchangeImpl.setStatus( Status status );1;0;3
+ExchangeImpl.getPattern( );1;0;3
+ExchangeImpl.getRole( );1;0;3
+ExchangeImpl.getDestination( );1;0;3
+ExchangeImpl.getProperty( String name );2;1;6
+ExchangeImpl.getMessage( Type type , boolean lazyCreate );4;0;12
+ExchangeImpl.getFault( );1;0;3
+ExchangeImpl.setMessage( Type type , Message message );4;0;13

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HeaderAssertionTests.assertIncorrectResponseHeader( ResultMatcher matcher , String expected );3;0;16
+HeaderAssertionTests.stringWithMissingResponseHeader( );1;0;5
+HeaderAssertionTests.stringWithMatcherAndMissingResponseHeader( );1;0;5
+HeaderAssertionTests.dateValueWithCorrectResponseHeaderValue( );1;0;4
+HeaderAssertionTests.doesNotExist( );1;0;3
+HeaderAssertionTests.exists( );1;0;3
+HeaderAssertionTests.stringWithMatcherAndCorrectResponseHeaderValue( );1;0;4
+PersonController.showEntity( @ PathVariable long id , WebRequest request );1;0;8
+HeaderAssertionTests.existsFail( );1;0;4
+HeaderAssertionTests.setup( );1;2;9
+HeaderAssertionTests.stringWithMatcherAndIncorrectResponseHeaderValue( );1;1;9
+HeaderAssertionTests.multiStringHeaderValueWithMatchers( );1;0;4
+PersonController.setStubTimestamp( long timestamp );1;0;3
+HeaderAssertionTests.assertMessageContains( AssertionError error , String expected );1;0;3
+HeaderAssertionTests.multiStringHeaderValue( );1;0;3
+HeaderAssertionTests.longValueWithCorrectResponseHeaderValue( );1;0;4
+HeaderAssertionTests.doesNotExistFail( );1;0;4
+HeaderAssertionTests.longValueWithIncorrectResponseHeaderValue( );1;0;4
+HeaderAssertionTests.longValueWithMissingResponseHeader( );3;0;14
+HeaderAssertionTests.stringWithCorrectResponseHeaderValue( );1;0;4

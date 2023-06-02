@@ -1,0 +1,94 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParenToken.size( );1;0;3
+Token.addChild( Token tok );1;0;3
+Token.toString( int options );2;1;3
+Token.addRange( int start , int end );1;0;3
+Token.intersectRanges( Token tok );1;0;3
+Token.size( );1;0;3
+ConditionToken.size( );2;1;3
+UnionToken.getChild( int index );1;0;3
+Token.createAnchor( int ch );2;1;4
+ConcatToken.size( );1;0;3
+Token.createParen( Token child , int pnumber );2;1;4
+Token.createConcat( );2;1;4
+CharToken.toString( int options );21;5;34
+Token.createLook( int type , Token child );2;1;4
+UnionToken.size( );2;1;3
+Token.registerNonXS( String name );2;1;5
+Token.setAlias( String newName , String name , boolean positive );2;0;11
+StringToken.toString( int options );2;1;6
+ClosureToken.size( );1;0;3
+StringToken.getString( );1;0;3
+Token.createClosure( Token tok );2;1;4
+UnionToken.addChild( Token tok );16;24;49
+Token.createString( String str );2;1;4
+Token.toString( );1;0;3
+Token.getMinLength( );26;9;47
+Token.sortRanges( );1;0;3
+ClosureToken.toString( int options );16;29;29
+Token.Token( int type );1;0;3
+ConditionToken.toString( int options );4;6;16
+Token.isSet( int options , int flag );1;2;3
+ConditionToken.getChild( int index );3;2;5
+Token.setMax( int max );1;0;2
+Token.getChar( );1;1;3
+ClosureToken.getMin( );1;0;3
+ParenToken.getParenNumber( );1;0;3
+ModifierToken.toString( int options );3;2;8
+Token.createNGClosure( Token tok );2;1;4
+Token.isShorterThan( Token tok );4;4;10
+Token.complementRanges( Token tok );1;0;3
+Token.createRange( );2;1;4
+ModifierToken.size( );1;0;3
+ClosureToken.setMax( int max );1;0;3
+Token.compactRanges( );1;0;3
+ConcatToken.getChild( int index );2;1;3
+CharToken.match( int ch );2;2;6
+ParenToken.toString( int options );8;1;28
+Token.mergeRanges( Token tok );1;0;3
+Token.createBackReference( int refno );2;1;4
+Token.subtractRanges( Token tok );1;0;3
+Token.getParenNumber( );1;0;3
+***not in a method***;0;5;0
+ModifierToken.getChild( int index );1;0;3
+Token.getMaxLength( );29;17;55
+ConditionToken.ConditionToken( int refno , Token cond , Token yespat , Token nopat );1;0;7
+Token.findFixedString( FixedStringContainer container , int options );24;6;51
+Token.createConcat( Token tok1 , Token tok2 );2;1;4
+ParenToken.ParenToken( int type , Token tok , int paren );1;0;5
+Token.isRegisterNonXS( String name );2;1;5
+ClosureToken.ClosureToken( int type , Token tok );1;2;6
+Token.getGraphemePattern( );3;3;26
+Token.getMax( );1;1;3
+Token.getCombiningCharacterSequence( );2;1;8
+ModifierToken.ModifierToken( Token tok , int add , int mask );1;0;6
+Token.getChild( int index );1;0;3
+Token.getReferenceNumber( );1;0;3
+Token.createModifierGroup( Token child , int add , int mask );2;1;4
+UnionToken.toString( int options );13;19;37
+ClosureToken.getChild( int index );1;0;3
+ClosureToken.setMin( int min );1;0;3
+Token.createNRange( );2;1;4
+ModifierToken.getOptions( );1;0;3
+Token.match( int ch );1;0;3
+FixedStringContainer.FixedStringContainer( );1;0;2
+Token.getString( );1;0;3
+ConcatToken.toString( int options );5;7;10
+ClosureToken.getMax( );1;0;3
+CharToken.getChar( );1;0;3
+Token.createEmpty( );1;0;3
+UnionToken.UnionToken( int type );1;0;3
+Token.getMin( );1;1;3
+StringToken.getReferenceNumber( );1;0;3
+StringToken.StringToken( int type , String str , int n );1;0;5
+CharToken.CharToken( int type , int ch );1;0;4
+Token.getRange( String name , boolean positive );57;42;212
+Token.getRange( String name , boolean positive , boolean xs );4;3;6
+Token.createChar( int ch );2;1;4
+Token.analyzeFirstCharacter( RangeToken result , int options );42;23;95
+ParenToken.getChild( int index );1;0;3
+ConcatToken.ConcatToken( Token t1 , Token t2 );1;0;5
+Token.createCondition( int refno , Token condition , Token yespat , Token nopat );2;1;4
+ModifierToken.getOptionsMask( );1;0;3
+Token.setMin( int min );1;0;2
+Token.createUnion( );2;1;4

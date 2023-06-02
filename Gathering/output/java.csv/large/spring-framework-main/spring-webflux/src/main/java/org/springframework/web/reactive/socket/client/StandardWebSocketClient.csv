@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandardWebSocketClient.StandardWebSocketClient( );1;0;3
+DefaultConfigurator.beforeRequest( Map < String , List < String > > requestHeaders );1;0;3
+StandardWebSocketClient.bufferFactory( );1;0;3
+StandardWebSocketClient.StandardWebSocketClient( WebSocketContainer webSocketContainer );1;0;3
+DefaultConfigurator.getResponseHeaders( );1;0;3
+DefaultConfigurator.DefaultConfigurator( HttpHeaders requestHeaders );1;0;3
+StandardWebSocketClient.execute( URI url , HttpHeaders headers , WebSocketHandler handler );1;0;3
+StandardWebSocketClient.createEndpointConfig( Configurator configurator , List < String > subProtocols );1;0;6
+StandardWebSocketClient.createHandshakeInfo( URI url , DefaultConfigurator configurator );1;0;5
+DefaultConfigurator.afterResponse( HandshakeResponse response );1;0;3
+StandardWebSocketClient.createEndpoint( URI url , WebSocketHandler handler , Sinks . Empty < Void > completionSink , DefaultConfigurator configurator );1;0;4
+StandardWebSocketClient.createWebSocketSession( Session session , HandshakeInfo info , Sinks . Empty < Void > completionSink );1;0;4
+StandardWebSocketClient.execute( URI url , WebSocketHandler handler );1;0;3
+StandardWebSocketClient.getWebSocketContainer( );1;0;3
+StandardWebSocketClient.executeInternal( URI url , HttpHeaders requestHeaders , WebSocketHandler handler );3;0;22

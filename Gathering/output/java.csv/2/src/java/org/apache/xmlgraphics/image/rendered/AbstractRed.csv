@@ -1,0 +1,41 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractRed.getWidth( );1;0;3
+AbstractRed.AbstractRed( CachableRed src , Rectangle bounds , ColorModel cm , SampleModel sm , Map props );3;2;6
+AbstractRed.getXTile( int xloc );2;6;7
+AbstractRed.getProperty( String name );4;2;11
+AbstractRed.getBounds( );1;0;6
+AbstractRed.AbstractRed( List srcs , Rectangle bounds , ColorModel cm , SampleModel sm , int tileGridXOff , int tileGridYOff , Map props );1;0;3
+AbstractRed.getTileGridYOffset( );1;0;3
+AbstractRed.getSources( );1;0;3
+AbstractRed.getNumYTiles( );1;0;3
+AbstractRed.AbstractRed( );1;0;2
+AbstractRed.getData( Rectangle rect );1;0;7
+AbstractRed.AbstractRed( CachableRed src , Rectangle bounds , Map props );1;0;6
+AbstractRed.getDependencyRegion( int srcIndex , Rectangle outputRgn );4;4;8
+AbstractRed.getNumXTiles( );1;0;3
+AbstractRed.getColorModel( );1;0;3
+AbstractRed.getDirtyRegion( int srcIndex , Rectangle inputRgn );3;2;8
+AbstractRed.init( CachableRed src , Rectangle bounds , ColorModel cm , SampleModel sm , int tileGridXOff , int tileGridYOff , Map props );8;7;26
+AbstractRed.AbstractRed( List srcs , Rectangle bounds , Map props );1;0;3
+AbstractRed.getTile( int tileX , int tileY );1;0;4
+AbstractRed.init( List srcs , Rectangle bounds , ColorModel cm , SampleModel sm , int tileGridXOff , int tileGridYOff , Map props );9;8;29
+AbstractRed.makeTile( int tileX , int tileY );13;40;25
+AbstractRed.getHeight( );1;0;3
+AbstractRed.updateTileGridInfo( );1;8;13
+AbstractRed.getMinTileY( );1;0;3
+AbstractRed.getData( );1;0;3
+AbstractRed.getMinTileX( );1;0;3
+AbstractRed.getTileGridXOffset( );1;0;3
+AbstractRed.AbstractRed( CachableRed src , Map props );1;0;6
+AbstractRed.getMinX( );1;0;3
+AbstractRed.AbstractRed( Rectangle bounds , Map props );1;0;4
+AbstractRed.getMinY( );1;0;3
+AbstractRed.AbstractRed( CachableRed src , Rectangle bounds , ColorModel cm , SampleModel sm , int tileGridXOff , int tileGridYOff , Map props );1;0;3
+AbstractRed.copyToRaster( WritableRaster wr );8;18;20
+AbstractRed.getTileWidth( );1;0;3
+AbstractRed.getPropertyNames( );3;2;17
+AbstractRed.copyBand( Raster src , int srcBand , WritableRaster dst , int dstBand );2;3;12
+AbstractRed.getSampleModel( );1;0;3
+AbstractRed.getTileHeight( );1;0;3
+AbstractRed.AbstractRed( List srcs , Rectangle bounds , ColorModel cm , SampleModel sm , Map props );1;0;3
+AbstractRed.getYTile( int yloc );2;6;7

@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScopedRequestImpl.getParameterValues( String paramName );8;10;17
+ScopedRequestImpl.addParameter( String name , String value );2;1;7
+ScopedRequestImpl.getParameter( String paramName );2;1;8
+ScopedRequestImpl.ScopedRequestImpl( HttpServletRequest req , String overrideRequestURI , Object scopeKey , ServletContext context );1;0;3
+ScopedRequestImpl.getForwardedURI( );1;0;3
+ScopedRequestImpl.getAttributeNames( );7;1;23
+ScopedRequestImpl.setAttribute( String attrName , Object o );3;2;10
+ScopedRequestImpl.doForward( );3;6;21
+ScopedRequestImpl.setPathInfo( String pathInfo );1;0;3
+ScopedRequestImpl.setActiveRequest( );1;0;3
+ScopedRequestImpl.getScopeKey( );1;0;3
+ScopedRequestImpl.getAttribute( String attrName );1;0;3
+ScopedRequestImpl.getRequestedSessionId( );1;0;3
+ScopedRequestImpl.getServletPath( );1;0;3
+ScopedRequestImpl.getScopedName( String baseName );1;0;3
+ScopedRequestImpl.getAttributeMap( );1;0;3
+ScopedRequestImpl.ScopedRequestImpl( HttpServletRequest req , String overrideRequestURI , Object scopeKey , ServletContext servletContext , boolean seeOuterRequestAttributes );2;1;7
+ScopedRequestImpl.getNamesOfRemovableAttributes( );1;0;3
+ScopedRequestImpl.getRequestURL( );1;0;8
+ScopedRequestImpl.setRequestURI( String contextPath , String servletPath );1;1;4
+ScopedRequestImpl.getRequestURI( );1;0;3
+ScopedRequestImpl.getListenScopeParameter( String paramName );4;5;12
+ScopedRequestImpl.addListenScope( Object scopeKey );2;2;8
+ScopedRequestImpl.setServletPath( String servletPath );4;1;14
+ScopedRequestImpl.persistAttributes( );1;0;4
+ScopedRequestImpl.registerOuterAttribute( String attrName );2;1;10
+ScopedRequestImpl.restoreAttributes( );2;1;8
+ScopedRequestImpl.parseQueryParameters( );4;3;21
+ScopedRequestImpl.getPathInfo( );1;0;3
+ScopedRequestImpl.renameScope( Object newScopeKey );1;0;3
+ScopedRequestImpl.hasListenScopes( );2;3;3
+ScopedRequestImpl.getLocalParameter( String paramName );6;5;17
+ScopedRequestImpl.getOuterRequest( );1;0;3
+ScopedRequestImpl.getRequestDispatcher( String uri );1;0;3
+ScopedRequestImpl.filterParameterMap( Map parameterMap );8;4;28
+ScopedRequestImpl.getParameterNames( );8;4;27
+ScopedRequestImpl.getParameterMap( );1;0;3
+ScopedRequestImpl.getAttribute( String attrName , boolean allowOuterRequestAttributes );6;5;14
+ScopedRequestImpl.setAttributeMap( Map savedAttrs );2;2;11
+ScopedRequestImpl.renameSessionScope( Object oldScopeKey , Object newScopeKey , HttpServletRequest outerRequest );2;1;10
+ScopedRequestImpl.setRequestURI( String uri );2;1;10
+ScopedRequestImpl.removeAttribute( String attrName );3;2;10
+ScopedRequestImpl.didRedirect( );1;0;3
+ScopedRequestImpl.setForwardedURI( String uri );1;0;3

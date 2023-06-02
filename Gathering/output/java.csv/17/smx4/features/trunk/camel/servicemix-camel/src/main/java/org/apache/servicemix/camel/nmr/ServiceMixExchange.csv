@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServiceMixExchange.createOutMessage( );2;1;4
+ServiceMixExchange.createFaultMessage( );2;1;4
+ServiceMixExchange.getProperties( );1;0;3
+ServiceMixExchange.ServiceMixExchange( CamelContext context , ExchangePattern exchangePattern , org . apache . servicemix . nmr . api . Message inMessage , org . apache . servicemix . nmr . api . Exchange exchange );3;2;13
+ServiceMixExchange.ServiceMixExchange( org . apache . servicemix . nmr . api . Exchange exchange , CamelContext camelContext );3;2;13
+ServiceMixExchange.getOut( );1;0;3
+ServiceMixExchange.getFault( );1;0;3
+ServiceMixExchange.getIn( );1;0;3
+ServiceMixExchange.setProperty( String name , Object value );1;0;3
+ServiceMixExchange.getProperty( String name );1;0;3
+ServiceMixExchange.createInMessage( );2;1;4
+ServiceMixExchange.getProperty( String name , Class < T > type );1;0;3
+ServiceMixExchange.getOut( boolean lazyCreate );1;0;3
+ServiceMixExchange.ServiceMixExchange( CamelContext context , ExchangePattern pattern , org . apache . servicemix . nmr . api . Exchange exchange );3;2;13
+ServiceMixExchange.removeProperty( String name );1;0;5

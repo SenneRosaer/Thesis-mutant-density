@@ -1,0 +1,153 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StrBuilder.appendAll( Iterator it );3;1;8
+StrBuilder.setNullText( String nullText );3;3;7
+StrBuilderReader.mark( int readAheadLimit );1;0;3
+StrBuilder.getChars( char [ ] destination );3;3;8
+StrBuilderReader.skip( long n );3;5;10
+StrBuilder.indexOf( String str );1;0;3
+StrBuilder.endsWith( String str );6;8;19
+StrBuilder.insert( int index , boolean value );2;15;22
+StrBuilder.replaceImpl( int startIndex , int endIndex , int removeLen , String insertStr , int insertLen );3;6;11
+StrBuilderReader.reset( );1;0;3
+StrBuilder.deleteFirst( StrMatcher matcher );1;0;3
+StrBuilder.appendSeparator( char separator , int loopIndex );2;1;6
+StrBuilder.append( char [ ] chars , int startIndex , int length );7;11;18
+StrBuilder.minimizeCapacity( );2;1;8
+StrBuilder.insert( int index , Object obj );2;1;6
+StrBuilderWriter.write( char [ ] cbuf );1;0;3
+StrBuilder.deleteAll( StrMatcher matcher );1;1;3
+StrBuilder.appendFixedWidthPadLeft( int value , int width , char padChar );1;0;3
+StrBuilder.appendSeparator( char separator );2;1;6
+StrBuilder.appendSeparator( String separator , int loopIndex );3;3;6
+StrBuilderReader.ready( );1;1;3
+StrBuilderReader.read( char b [ ] , int off , int len );9;19;18
+StrBuilder.asReader( );1;0;3
+StrBuilder.leftString( int length );3;2;9
+StrBuilder.appendWithSeparators( Iterator it , String separator );5;2;12
+StrBuilderWriter.write( String str , int off , int len );1;0;3
+StrBuilder.appendln( char [ ] chars );1;0;3
+StrBuilder.substring( int startIndex , int endIndex );1;1;4
+StrBuilder.appendln( StringBuffer str , int startIndex , int length );1;0;3
+StrBuilder.replaceAll( String searchStr , String replaceStr );5;6;12
+StrBuilder.appendSeparator( String separator );3;3;6
+StrBuilder.getNewLineText( );1;0;3
+StrBuilder.append( StrBuilder str , int startIndex , int length );7;12;18
+StrBuilder.appendAll( Object [ ] array );4;5;8
+StrBuilder.appendln( StrBuilder str );1;0;3
+StrBuilder.appendln( char [ ] chars , int startIndex , int length );1;0;3
+StrBuilder.lastIndexOf( String str , int startIndex );11;20;24
+StrBuilder.appendln( String str , int startIndex , int length );1;0;3
+StrBuilder.size( );1;0;3
+StrBuilder.deleteImpl( int startIndex , int endIndex , int len );1;2;4
+StrBuilder.appendFixedWidthPadRight( Object obj , int width , char padChar );6;11;21
+StrBuilder.contains( StrMatcher matcher );1;1;3
+StrBuilderWriter.flush( );1;0;2
+StrBuilder.deleteCharAt( int index );3;4;7
+StrBuilder.append( String str );3;4;13
+StrBuilder.appendln( int value );1;0;3
+StrBuilderTokenizer.StrBuilderTokenizer( );1;0;3
+StrBuilder.insert( int index , char chars [ ] );3;6;14
+StrBuilderWriter.write( int c );1;0;3
+StrBuilderWriter.write( char [ ] cbuf , int off , int len );1;0;3
+StrBuilder.capacity( );1;0;3
+StrBuilder.equals( Object obj );2;0;6
+StrBuilder.appendln( char ch );1;0;3
+StrBuilder.appendNull( );2;1;6
+StrBuilder.append( double value );1;0;3
+StrBuilder.toStringBuffer( );1;0;3
+StrBuilder.deleteFirst( String str );4;4;10
+StrBuilder.indexOf( StrMatcher matcher , int startIndex );6;9;14
+StrBuilder.replaceFirst( char search , char replace );4;4;11
+StrBuilder.replaceImpl( StrMatcher matcher , String replaceStr , int from , int to , int replaceCount );8;16;19
+StrBuilder.append( char [ ] chars );3;4;13
+StrBuilder.asWriter( );1;0;3
+StrBuilder.lastIndexOf( StrMatcher matcher , int startIndex );6;11;14
+StrBuilder.equals( StrBuilder other );5;6;16
+StrBuilder.lastIndexOf( String str );1;1;3
+StrBuilder.isEmpty( );1;1;3
+StrBuilder.appendFixedWidthPadRight( int value , int width , char padChar );1;0;3
+StrBuilder.append( boolean value );2;11;17
+StrBuilder.StrBuilder( String str );2;2;9
+StrBuilder.append( float value );1;0;3
+StrBuilder.getNullText( );1;0;3
+StrBuilder.appendPadding( int length , char padChar );3;5;9
+StrBuilder.deleteFirst( char ch );3;4;9
+StrBuilder.deleteAll( String str );4;4;11
+StrBuilderWriter.StrBuilderWriter( );1;0;3
+StrBuilder.setNewLineText( String newLine );1;0;4
+StrBuilder.delete( int startIndex , int endIndex );2;2;8
+StrBuilder.appendNewLine( );2;1;7
+StrBuilder.substring( int start );1;0;3
+StrBuilder.asTokenizer( );1;0;3
+StrBuilder.append( StringBuffer str , int startIndex , int length );7;12;18
+StrBuilderReader.StrBuilderReader( );1;0;3
+StrBuilder.append( StringBuffer str );3;4;13
+StrBuilder.reverse( );3;6;13
+StrBuilder.append( long value );1;0;3
+StrBuilder.lastIndexOf( char ch , int startIndex );5;8;12
+StrBuilder.appendln( StrBuilder str , int startIndex , int length );1;0;3
+StrBuilder.indexOf( StrMatcher matcher );1;0;3
+StrBuilder.hashCode( );2;5;8
+StrBuilder.toCharArray( int startIndex , int endIndex );2;2;10
+StrBuilder.appendln( double value );1;0;3
+StrBuilderTokenizer.getContent( );2;1;8
+StrBuilder.charAt( int index );3;3;6
+StrBuilder.trim( );8;12;21
+StrBuilder.append( int value );1;0;3
+StrBuilder.validateRange( int startIndex , int endIndex );4;3;12
+StrBuilder.contains( String str );1;1;3
+StrBuilder.append( char ch );1;2;6
+StrBuilderWriter.close( );1;0;2
+StrBuilderReader.markSupported( );1;0;3
+StrBuilder.appendFixedWidthPadLeft( Object obj , int width , char padChar );6;12;21
+StrBuilder.lastIndexOf( StrMatcher matcher );1;0;3
+StrBuilder.toString( );1;0;3
+StrBuilder.replaceFirst( StrMatcher matcher , String replaceStr );1;0;3
+StrBuilder.insert( int index , long value );1;0;3
+StrBuilder.appendWithSeparators( Object [ ] array , String separator );5;6;11
+StrBuilder.insert( int index , char chars [ ] , int offset , int length );7;13;19
+StrBuilder.indexOf( char ch , int startIndex );5;7;13
+StrBuilder.append( StrBuilder str );3;4;13
+StrBuilder.appendln( StringBuffer str );1;0;3
+StrBuilder.replace( StrMatcher matcher , String replaceStr , int startIndex , int endIndex , int replaceCount );1;0;4
+StrBuilder.clear( );1;0;4
+StrBuilder.getChars( int startIndex , int endIndex , char destination [ ] , int destinationIndex );5;6;12
+StrBuilderTokenizer.tokenize( char [ ] chars , int offset , int count );2;1;7
+StrBuilder.appendln( float value );1;0;3
+StrBuilder.startsWith( String str );6;6;18
+StrBuilder.StrBuilder( int initialCapacity );2;1;7
+StrBuilderWriter.write( String str );1;0;3
+StrBuilder.appendln( boolean value );1;0;3
+StrBuilder.setCharAt( int index , char ch );3;3;7
+StrBuilder.appendln( long value );1;0;3
+StrBuilder.rightString( int length );3;3;9
+StrBuilder.replaceAll( StrMatcher matcher , String replaceStr );1;1;3
+StrBuilder.indexOf( char ch );1;0;3
+StrBuilder.append( Object obj );2;1;6
+StrBuilderReader.read( );2;3;6
+StrBuilder.equalsIgnoreCase( StrBuilder other );6;8;18
+StrBuilder.insert( int index , float value );1;0;3
+StrBuilderReader.close( );1;0;2
+StrBuilder.lastIndexOf( char ch );1;1;3
+StrBuilder.midString( int index , int length );5;7;13
+StrBuilder.ensureCapacity( int capacity );2;1;8
+StrBuilder.length( );1;0;3
+StrBuilder.deleteAll( char ch );5;8;16
+StrBuilder.validateIndex( int index );3;3;5
+StrBuilder.replaceFirst( String searchStr , String replaceStr );5;5;11
+StrBuilder.replace( int startIndex , int endIndex , String replaceStr );2;2;6
+StrBuilder.insert( int index , String str );4;6;15
+StrBuilder.appendAll( Collection coll );4;3;9
+StrBuilder.append( String str , int startIndex , int length );7;12;18
+StrBuilder.appendln( Object obj );1;0;3
+StrBuilder.appendln( String str );1;0;3
+StrBuilder.appendWithSeparators( Collection coll , String separator );6;4;13
+StrBuilder.StrBuilder( );1;0;3
+StrBuilder.contains( char ch );3;3;9
+StrBuilder.insert( int index , int value );1;0;3
+StrBuilder.indexOf( String str , int startIndex );10;18;28
+StrBuilder.insert( int index , char value );1;4;8
+StrBuilder.replaceAll( char search , char replace );4;4;10
+StrBuilder.setLength( int length );5;5;17
+StrBuilder.insert( int index , double value );1;0;3
+StrBuilder.toCharArray( );2;1;8

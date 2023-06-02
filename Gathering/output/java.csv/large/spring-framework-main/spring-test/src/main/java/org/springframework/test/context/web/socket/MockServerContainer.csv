@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockServerContainer.getInstalledExtensions( );1;0;3
+MockServerContainer.setDefaultMaxBinaryMessageBufferSize( int max );1;0;3
+MockServerContainer.connectToServer( Object annotatedEndpointInstance , URI path );1;0;3
+MockServerContainer.getDefaultMaxSessionIdleTimeout( );1;0;3
+MockServerContainer.setDefaultMaxTextMessageBufferSize( int max );1;0;3
+MockServerContainer.connectToServer( Class < ? extends Endpoint > endpointClass , ClientEndpointConfig cec , URI path );1;0;4
+MockServerContainer.getDefaultMaxBinaryMessageBufferSize( );1;0;3
+MockServerContainer.setAsyncSendTimeout( long timeout );1;0;3
+MockServerContainer.addEndpoint( ServerEndpointConfig serverConfig );1;0;4
+MockServerContainer.connectToServer( Class < ? > annotatedEndpointClass , URI path );1;0;3
+MockServerContainer.addEndpoint( Class < ? > endpointClass );1;0;3
+MockServerContainer.upgradeHttpToWebSocket( Object httpServletRequest , Object httpServletResponse , ServerEndpointConfig sec , Map < String , String > pathParameters );1;0;3
+MockServerContainer.connectToServer( Endpoint endpointInstance , ClientEndpointConfig cec , URI path );1;0;4
+MockServerContainer.getDefaultAsyncSendTimeout( );1;0;3
+MockServerContainer.getDefaultMaxTextMessageBufferSize( );1;0;3
+MockServerContainer.setDefaultMaxSessionIdleTimeout( long timeout );1;0;3

@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TxLockManagerImpl.getLock( String lockToken , Scope scope , DavResource resource );12;8;31
+GlobalTransaction.start( TransactionResource resource );2;1;9
+AbstractTransaction.getLock( );1;0;3
+TxLockManagerImpl.removeTransactionListener( TransactionListener listener );1;0;5
+GlobalTransaction.getXAResource( TransactionResource resource );1;0;3
+LocalTransaction.isLocal( );1;0;3
+GlobalTransaction.put( String key , Transaction value );2;1;6
+TransactionMap.put( String key , Transaction value );1;0;3
+AbstractTransaction.appliesToResource( DavResource resource );4;1;13
+TxLockManagerImpl.refreshLock( LockInfo lockInfo , String lockToken , DavResource resource );3;3;6
+TxLockManagerImpl.createLock( LockInfo lockInfo , DavResource resource );3;3;6
+TxLockManagerImpl.getLock( Type type , Scope scope , TransactionResource resource );4;4;13
+TxLockManagerImpl.createLock( LockInfo lockInfo , TransactionResource resource );4;4;13
+XidImpl.getGlobalTransactionId( );1;0;3
+XidImpl.getFormatId( );1;0;3
+GlobalTransaction.rollback( TransactionResource resource );2;0;9
+TxLockManagerImpl.refreshLock( LockInfo lockInfo , String lockToken , TransactionResource resource );3;1;13
+TxLockManagerImpl.removeExpired( Transaction tx , TransactionMap responsibleMap , TransactionResource resource );2;0;9
+LocalTransaction.put( String key , Transaction value );1;0;3
+LocalTransaction.LocalTransaction( DavResourceLocator locator , TxActiveLock lock );1;0;3
+TxLockManagerImpl.addTransactionListener( TransactionListener listener );1;0;5
+TransactionMap.get( String key );2;0;7
+LocalTransaction.start( TransactionResource resource );3;1;10
+AbstractTransaction.getResourcePath( );1;0;3
+LocalTransaction.rollback( TransactionResource resource );2;0;7
+LocalTransaction.getItem( TransactionResource resource );1;0;4
+TxLockManagerImpl.getMap( TransactionResource resource );6;4;18
+XidImpl.XidImpl( String id );1;0;3
+GlobalTransaction.isLocal( );1;0;3
+TxLockManagerImpl.removeReferences( Transaction tx , TransactionMap responsibleMap , TransactionResource resource );1;0;6
+TxLockManagerImpl.getRepositorySession( TransactionResource resource );1;0;3
+LocalTransaction.commit( TransactionResource resource );2;0;7
+GlobalTransaction.commit( TransactionResource resource );2;0;9
+XidImpl.getBranchQualifier( );1;0;3
+AbstractTransaction.getId( );1;0;3
+TxLockManagerImpl.createTransaction( DavResourceLocator locator , LockInfo lockInfo );2;0;7
+TxLockManagerImpl.releaseLock( TransactionInfo lockInfo , String lockToken , TransactionResource resource );9;8;38
+AbstractTransaction.AbstractTransaction( DavResourceLocator locator , TxActiveLock lock );1;0;4
+GlobalTransaction.GlobalTransaction( DavResourceLocator locator , TxActiveLock lock );1;0;4
+GlobalTransaction.removeLocalTxReferences( TransactionResource resource );2;0;7
+TxLockManagerImpl.releaseLock( String lockToken , DavResource resource );1;0;3
+TxLockManagerImpl.hasLock( String token , DavResource resource );1;1;3
+TxLockManagerImpl.addReferences( Transaction tx , TransactionMap responsibleMap , TransactionResource resource );1;0;6
+TxLockManagerImpl.getLock( Type type , Scope scope , DavResource resource );1;0;3

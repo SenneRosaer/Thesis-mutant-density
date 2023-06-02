@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QuartzSupportTests.multipleSchedulersWithQuartzProperties( );1;0;9
+QuartzSupportTests.schedulerWithHsqlDataSource( );1;0;8
+QuartzSupportTests.schedulerAutoStartupFalse( );1;0;10
+QuartzSupportTests.schedulerWithTaskExecutor( );1;1;25
+QuartzSupportTests.schedulerFactoryBeanWithCustomJobStore( );1;0;16
+QuartzSupportTests.context( String path );1;0;3
+DummyJob.execute( JobExecutionContext jobExecutionContext );1;1;3
+QuartzSupportTests.schedulerWithQuartzJobBean( );1;1;25
+QuartzSupportTests.multipleSchedulers( );1;0;9
+DummyJobBean.setParam( int value );2;1;6
+QuartzSupportTests.createScheduler( SchedulerFactory schedulerFactory , String schedulerName );1;0;3
+QuartzSupportTests.jobDetailWithRunnableInsteadOfJob( );1;0;5
+DummyRunnable.run( );1;0;2
+DummyJob.setParam( int value );2;1;6
+QuartzSupportTests.schedulerRepositoryExposure( );1;0;5
+QuartzSupportTests.twoAnonymousMethodInvokingJobDetailFactoryBeans( );1;0;11
+CountingTaskExecutor.execute( Runnable task );1;1;4
+QuartzSupportTests.schedulerAutoStartsOnContextRefreshedEventByDefault( );1;0;8
+QuartzSupportTests.schedulerWithSpringBeanJobFactoryAndJobSchedulingData( );1;1;13
+QuartzSupportTests.schedulerWithSpringBeanJobFactoryAndParamMismatchNotIgnored( );1;1;28
+QuartzSupportTests.schedulerWithSpringBeanJobFactory( );1;1;27
+QuartzSupportTests.schedulerWithSpringBeanJobFactoryAndQuartzJobBean( );1;1;26
+DummyJobBean.executeInternal( JobExecutionContext jobExecutionContext );1;1;3
+QuartzSupportTests.schedulerFactoryBeanWithApplicationContext( );1;0;31
+QuartzSupportTests.schedulerAccessorBean( );1;0;11

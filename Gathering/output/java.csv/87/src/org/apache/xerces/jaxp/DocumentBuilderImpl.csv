@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocumentBuilderImpl.isValidating( );2;0;8
+DocumentBuilderImpl.newDocument( );1;0;3
+DocumentBuilderImpl.reset( );3;2;8
+DocumentBuilderImpl.getDOMImplementation( );1;0;3
+DocumentBuilderImpl.setDocumentBuilderFactoryAttributes( Hashtable dbfAttrs );11;3;37
+DocumentBuilderImpl.parse( InputSource is );4;3;18
+DocumentBuilderImpl.isNamespaceAware( );2;0;8
+DocumentBuilderImpl.setFeatures( Hashtable features );3;1;11
+DocumentBuilderImpl.getSchema( );1;0;3
+***not in a method***;0;9;0
+DocumentBuilderImpl.setEntityResolver( EntityResolver er );1;0;3
+DocumentBuilderImpl.resetSchemaValidator( );2;0;8
+DocumentBuilderImpl.getDOMParser( );1;0;3
+DocumentBuilderImpl.setErrorHandler( ErrorHandler eh );1;0;3
+DocumentBuilderImpl.isXIncludeAware( );2;0;8
+DocumentBuilderImpl.DocumentBuilderImpl( DocumentBuilderFactoryImpl dbf , Hashtable dbfAttrs , Hashtable features );1;0;3
+DocumentBuilderImpl.DocumentBuilderImpl( DocumentBuilderFactoryImpl dbf , Hashtable dbfAttrs , Hashtable features , boolean secureProcessing );6;5;62

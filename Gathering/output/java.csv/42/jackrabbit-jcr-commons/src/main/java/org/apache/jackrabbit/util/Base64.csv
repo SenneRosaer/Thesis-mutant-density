@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Base64.decode( String data , OutputStream out );1;0;4
+Base64.decode( char [ ] chars , OutputStream out );1;0;3
+Base64.encode( byte [ ] data , int off , int len , Writer writer );8;41;37
+Base64.calcEncodedLength( long dataLength );1;5;5
+Base64.decode( Reader reader , OutputStream out );2;2;7
+Base64.encode( InputStream in , Writer writer );2;2;7
+Base64.guessDecodedLength( long encLength );1;3;4
+***not in a method***;0;4;0
+Base64.decode( InputStream in , OutputStream out );1;0;3
+Base64.encode( InputStream in , OutputStream out );1;0;4
+Base64.Base64( );1;0;2
+Base64.decode( char [ ] chars , int off , int len , OutputStream out );13;50;41

@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServiceMixClientFacade.close( );1;0;2
+ServiceMixClientFacade.createResolverForExternalInterface( QName interfaceName );1;0;3
+ServiceMixClientFacade.createDestination( String uri );1;0;3
+ServiceMixClientFacade.setFilter( EndpointFilter filter );1;0;3
+ServiceMixClientFacade.sendSync( EndpointResolver resolver , Map exchangeProperties , Map inMessageProperties , Object content );1;0;5
+ServiceMixClientFacade.ServiceMixClientFacade( JBIContainer container );1;0;3
+ServiceMixClientFacade.configureEndpoint( MessageExchange exchange , EndpointResolver resolver );2;1;5
+ServiceMixClientFacade.createResolverForService( QName service );1;0;3
+ServiceMixClientFacade.send( MessageExchange exchange );1;0;3
+ServiceMixClientFacade.createInOutExchange( );1;0;6
+ServiceMixClientFacade.fail( MessageExchange exchange , Fault fault );1;0;4
+ServiceMixClientFacade.createInOnlyExchange( );1;0;6
+ServiceMixClientFacade.receive( );1;0;3
+ServiceMixClientFacade.populateExchangeProperties( MessageExchange exchange , Map properties );3;1;8
+ServiceMixClientFacade.getFilter( );1;0;3
+ServiceMixClientFacade.request( Map inMessageProperties , Object content );1;0;3
+ServiceMixClientFacade.receive( long timeout );1;0;3
+ServiceMixClientFacade.sendSync( Map inMessageProperties , Object content );1;0;3
+ServiceMixClientFacade.createRobustInOnlyExchange( );1;0;6
+ServiceMixClientFacade.createInOptionalOutExchange( EndpointResolver resolver );1;0;5
+ServiceMixClientFacade.createInOutExchange( EndpointResolver resolver );1;0;5
+ServiceMixClientFacade.createInOptionalOutExchange( );1;0;6
+ServiceMixClientFacade.createResolverForExternalService( QName service );1;0;3
+ServiceMixClientFacade.createInOnlyExchange( EndpointResolver resolver );1;0;5
+ServiceMixClientFacade.ServiceMixClientFacade( ComponentContext context );1;0;3
+ServiceMixClientFacade.createResolverForExternalInterface( QName service , String endpoint );1;0;3
+ServiceMixClientFacade.getMarshaler( );1;0;3
+ServiceMixClientFacade.createRobustInOnlyExchange( EndpointResolver resolver );1;0;5
+ServiceMixClientFacade.getDeliveryChannel( );1;0;3
+ServiceMixClientFacade.send( Map inMessageProperties , Object content );1;0;3
+ServiceMixClientFacade.send( Message message );1;0;3
+ServiceMixClientFacade.request( EndpointResolver resolver , Map exchangeProperties , Map inMessageProperties , Object content );5;4;23
+ServiceMixClientFacade.sendSync( MessageExchange exchange );1;0;3
+ServiceMixClientFacade.getContext( );1;0;3
+ServiceMixClientFacade.populateMessageProperties( NormalizedMessage message , Map properties );3;1;8
+ServiceMixClientFacade.setMarshaler( PojoMarshaler marshaler );1;0;3
+ServiceMixClientFacade.getExchangeFactory( );3;3;6
+ServiceMixClientFacade.createResolverInterface( QName interfaceName );1;0;3
+ServiceMixClientFacade.send( EndpointResolver resolver , Map exchangeProperties , Map inMessageProperties , Object content );1;0;5
+ServiceMixClientFacade.done( MessageExchange exchange );1;0;4
+ServiceMixClientFacade.sendSync( MessageExchange exchange , long timeout );1;0;3
+ServiceMixClientFacade.populateMessage( MessageExchange exchange , Map exchangeProperties , Map inMessageProperties , Object content );1;0;6
+ServiceMixClientFacade.resolveEndpointReference( String uri );1;0;4
+ServiceMixClientFacade.fail( MessageExchange exchange , Exception error );2;0;9
+ServiceMixClientFacade.ServiceMixClientFacade( JBIContainer container , ActivationSpec activationSpec );1;0;4

@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BpelDAOConnectionImpl._instanceQuery( Session session , boolean countOnly , InstanceFilter filter );1;0;6
+BpelDAOConnectionImpl.bpelEventTimelineQuery( InstanceFilter ifilter , BpelEventFilter efilter );3;2;11
+BpelDAOConnectionImpl.getMessageExchange( String mexId );3;1;11
+BpelDAOConnectionImpl.instanceQuery( String expression );2;0;12
+BpelDAOConnectionImpl.createMessageExchange( String mexId , char dir );1;0;7
+BpelDAOConnectionImpl._insertBpelEvent( Session sess , BpelEvent event , ProcessDAO process , ProcessInstanceDAO instance );5;2;24
+BpelDAOConnectionImpl.bpelEventQuery( InstanceFilter ifilter , BpelEventFilter efilter );4;2;21
+BpelDAOConnectionImpl.releaseMessageExchange( String mexid );1;0;2
+BpelDAOConnectionImpl.getScope( Long siidl );1;0;3
+BpelDAOConnectionImpl.BpelDAOConnectionImpl( SessionManager sm );1;0;4
+BpelDAOConnectionImpl.insertBpelEvent( BpelEvent event , ProcessDAO process , ProcessInstanceDAO instance );1;0;3
+BpelDAOConnectionImpl.apply( HBpelEvent x );1;0;3
+BpelDAOConnectionImpl.createProcess( QName pid , QName type , String guid , long version );1;0;11
+BpelDAOConnectionImpl.instanceQuery( InstanceFilter criteria );3;1;11
+BpelDAOConnectionImpl.getInstance( Long instanceId );1;0;3
+BpelDAOConnectionImpl.getProcess( QName processId );3;1;11
+BpelDAOConnectionImpl.close( );1;0;2
+BpelDAOConnectionImpl._getScope( SessionManager sm , Session session , Long siid );2;1;4
+BpelDAOConnectionImpl._getInstance( SessionManager sm , Session session , Long iid );2;1;4

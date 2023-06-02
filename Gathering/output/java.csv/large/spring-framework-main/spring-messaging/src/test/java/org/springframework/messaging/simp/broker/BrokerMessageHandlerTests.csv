@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BrokerMessageHandlerTests.checkDestinationWithoutConfiguredPrefixes( );2;0;13
+BrokerMessageHandlerTests.checkDestination( );2;0;16
+BrokerMessageHandlerTests.publishBrokerUnavailableEvent( );1;0;7
+BrokerMessageHandlerTests.handleMessageWhenBrokerNotRunning( );1;0;4
+TestBrokerMessageHandler.publishEvent( ApplicationEvent event );1;0;3
+BrokerMessageHandlerTests.startShouldUpdateIsRunning( );1;0;5
+BrokerMessageHandlerTests.publishBrokerAvailableEvent( );1;0;7
+BrokerMessageHandlerTests.stopShouldUpdateIsRunning( );1;0;6
+BrokerMessageHandlerTests.publishBrokerUnavailableEventWhenAlreadyUnavailable( );1;0;6
+BrokerMessageHandlerTests.startAndStopShouldNotPublishBrokerAvailabilityEvents( );1;0;5
+TestBrokerMessageHandler.publishEvent( Object event );2;0;5
+BrokerMessageHandlerTests.publishBrokerAvailableEventWhenAlreadyAvailable( );1;0;5
+TestBrokerMessageHandler.TestBrokerMessageHandler( String ... destinationPrefixes );1;0;4
+TestBrokerMessageHandler.handleMessageInternal( Message < ? > message );2;0;6

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XPathUtil.makeTidyParser( boolean quiet , boolean showWarnings , boolean isXml , StringWriter stringWriter );2;1;12
+MyErrorHandler.warning( SAXParseException ex );3;2;6
+XPathUtil.makeDocument( InputStream stream , boolean validate , boolean whitespace , boolean namespace , boolean tolerant );1;0;3
+MyErrorHandler.error( SAXParseException ex );3;2;6
+XPathUtil.makeDocument( InputStream stream , boolean validate , boolean whitespace , boolean namespace , boolean tolerant , boolean quiet , boolean showWarnings , boolean report_errors , boolean isXml );2;0;9
+MyErrorHandler.fatalError( SAXParseException ex );3;2;6
+XPathUtil.makeDocumentBuilder( boolean validate , boolean whitespace , boolean namespace );1;0;5
+XPathUtil.makeDocumentBuilderFactory( boolean validate , boolean whitespace , boolean namespace );5;7;11
+XPathUtil.XPathUtil( );1;0;3
+XPathUtil.tidyDoc( InputStream stream , boolean quiet , boolean showWarnings , boolean report_errors , boolean isXML );3;1;14
+XPathUtil.makeDocument( InputStream stream , boolean validate , boolean whitespace , boolean namespace , boolean tolerant , boolean quiet , boolean showWarnings , boolean report_errors );1;0;4
+MyErrorHandler.MyErrorHandler( boolean validate , boolean tolerate );1;0;5

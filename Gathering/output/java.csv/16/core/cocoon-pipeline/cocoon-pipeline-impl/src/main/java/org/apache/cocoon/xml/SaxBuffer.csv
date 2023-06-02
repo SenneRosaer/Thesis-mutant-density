@@ -1,0 +1,81 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StartEntity.dump( Writer writer );1;0;3
+XMLizableBit.dump( Writer writer );2;0;9
+EndDocument.send( ContentHandler contentHandler );1;0;3
+StartEntity.StartEntity( String name );1;0;3
+SaxBuffer.xmlizable( XMLizable xml );1;0;3
+SaxBuffer.SaxBuffer( );1;0;3
+StartPrefixMapping.dump( Writer writer );1;0;3
+IgnorableWhitespace.IgnorableWhitespace( char [ ] ch , int start , int length );1;0;4
+StartElement.StartElement( String namespaceURI , String localName , String qName , Attributes attrs );1;0;6
+StartDocument.send( ContentHandler contentHandler );1;0;3
+SaxBuffer.endDocument( );1;0;3
+PI.PI( String target , String data );1;0;4
+SkippedEntity.dump( Writer writer );1;0;3
+SaxBuffer.startPrefixMapping( String prefix , String uri );1;0;3
+StartDTD.send( ContentHandler contentHandler );2;0;4
+EndDTD.dump( Writer writer );1;0;3
+Characters.dump( Writer writer );1;0;3
+Comment.Comment( char [ ] ch , int start , int length );1;0;4
+StartDTD.dump( Writer writer );1;0;3
+PI.dump( Writer writer );1;0;3
+EndElement.EndElement( String namespaceURI , String localName , String qName );1;0;5
+SaxBuffer.startElement( String namespaceURI , String localName , String qName , Attributes atts );1;0;3
+SaxBuffer.endEntity( String name );1;0;3
+SaxBuffer.comment( char ch [ ] , int start , int length );1;0;3
+SaxBuffer.processingInstruction( String target , String data );1;0;3
+SkippedEntity.SkippedEntity( String name );1;0;3
+EndElement.dump( Writer writer );1;0;3
+SaxBuffer.ignorableWhitespace( char ch [ ] , int start , int length );1;0;3
+SaxBuffer.endPrefixMapping( String prefix );1;0;3
+IgnorableWhitespace.send( ContentHandler contentHandler );1;0;3
+EndPrefixMapping.send( ContentHandler contentHandler );1;0;3
+EndCDATA.send( ContentHandler contentHandler );2;0;4
+SaxBuffer.toString( );3;0;10
+Characters.Characters( char [ ] ch , int start , int length );1;0;4
+StartPrefixMapping.send( ContentHandler contentHandler );1;0;3
+StartElement.dump( Writer writer );2;2;6
+Characters.send( ContentHandler contentHandler );1;0;3
+StartCDATA.dump( Writer writer );1;0;3
+StartPrefixMapping.StartPrefixMapping( String prefix , String uri );1;0;4
+StartEntity.send( ContentHandler contentHandler );2;0;4
+StartCDATA.send( ContentHandler contentHandler );2;0;4
+SaxBuffer.endDTD( );1;0;3
+SaxBuffer.startEntity( String name );1;0;3
+XMLizableBit.send( ContentHandler contentHandler );1;0;3
+Comment.send( ContentHandler contentHandler );2;0;4
+SaxBuffer.startDTD( String name , String publicId , String systemId );1;0;3
+SaxBuffer.startDocument( );1;0;3
+SaxBuffer.skippedEntity( String name );1;0;3
+EndElement.send( ContentHandler contentHandler );1;0;3
+EndPrefixMapping.dump( Writer writer );1;0;3
+SaxBuffer.addBit( SaxBit bit );1;0;3
+SaxBuffer.isEmpty( );1;0;3
+SaxBuffer.SaxBuffer( SaxBuffer saxBuffer );1;0;3
+EndCDATA.dump( Writer writer );1;0;3
+SaxBuffer.endCDATA( );1;0;3
+SkippedEntity.send( ContentHandler contentHandler );1;0;3
+EndDTD.send( ContentHandler contentHandler );2;0;4
+SaxBuffer.dump( Writer writer );2;0;8
+EndEntity.dump( Writer writer );1;0;3
+StartDTD.StartDTD( String name , String publicId , String systemId );1;0;5
+EndPrefixMapping.EndPrefixMapping( String prefix );1;0;3
+SaxBuffer.setDocumentLocator( Locator locator );1;0;2
+SaxBuffer.characters( char ch [ ] , int start , int length );1;0;3
+IgnorableWhitespace.dump( Writer writer );1;0;3
+SaxBuffer.bits( );1;0;3
+XMLizableBit.XMLizableBit( XMLizable xml );1;0;3
+StartDocument.dump( Writer writer );1;0;3
+SaxBuffer.toSAX( ContentHandler contentHandler );2;0;6
+StartElement.send( ContentHandler contentHandler );1;0;3
+Comment.dump( Writer writer );1;0;3
+SaxBuffer.endElement( String namespaceURI , String localName , String qName );1;0;3
+Characters.toString( StringBuffer value );1;0;3
+SaxBuffer.recycle( );1;0;3
+SaxBuffer.getBits( );1;0;3
+SaxBuffer.SaxBuffer( List bits );1;0;3
+EndDocument.dump( Writer writer );1;0;3
+EndEntity.EndEntity( String name );1;0;3
+SaxBuffer.startCDATA( );1;0;3
+EndEntity.send( ContentHandler contentHandler );2;0;4
+PI.send( ContentHandler contentHandler );1;0;3

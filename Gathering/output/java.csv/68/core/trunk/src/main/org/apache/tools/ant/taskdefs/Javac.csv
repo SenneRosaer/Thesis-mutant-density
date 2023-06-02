@@ -1,0 +1,87 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Javac.getExecutable( );1;0;3
+Javac.getCompiler( );3;0;12
+Javac.getDestdir( );1;0;3
+Javac.createSrc( );2;1;6
+Javac.setMemoryMaximumSize( String memoryMaximumSize );1;0;3
+Javac.setExtdirs( Path extdirs );2;1;7
+Javac.setDebugLevel( String v );1;0;3
+Javac.checkParameters( );5;5;16
+ImplementationSpecificArgument.setCompiler( String impl );1;0;3
+Javac.createCompilerArg( );1;0;6
+Javac.setIncludeDestClasses( boolean includeDestClasses );1;0;3
+Javac.setFailonerror( boolean fail );1;0;3
+Javac.getVerbose( );1;0;3
+Javac.setDebug( boolean debug );1;0;3
+Javac.isIncludeDestClasses( );1;0;3
+Javac.setIncludejavaruntime( boolean include );1;0;3
+Javac.isJdkCompiler( String compilerImpl );8;7;10
+Javac.getDeprecation( );1;0;3
+Javac.getIncludeantruntime( );1;0;3
+Javac.getFileList( );1;0;3
+Javac.getJavacExecutable( );5;5;8
+Javac.setDepend( boolean depend );1;0;3
+Javac.compile( );10;6;34
+Javac.setTempdir( File tmpDir );1;0;3
+Javac.setNowarn( boolean flag );1;0;3
+Javac.setMemoryInitialSize( String memoryInitialSize );1;0;3
+Javac.getListfiles( );1;0;3
+Javac.setSourcepath( Path sourcepath );2;1;7
+Javac.setDeprecation( boolean deprecation );1;0;3
+Javac.getSrcdir( );1;0;3
+Javac.setListfiles( boolean list );1;0;3
+Javac.setErrorProperty( String errorProperty );1;0;3
+Javac.execute( );7;8;22
+Javac.hasPackageInfo( File [ ] newFiles );3;2;8
+Javac.getClasspath( );1;0;3
+Javac.Javac( );1;0;3
+Javac.createExtdirs( );2;1;6
+Javac.createBootclasspath( );2;1;6
+Javac.setEncoding( String encoding );1;0;3
+Javac.getOptimize( );1;0;3
+Javac.getCompilerVersion( );1;0;4
+Javac.getTaskSuccess( );1;0;3
+Javac.setSourcepathRef( Reference r );1;0;3
+Javac.getAltCompilerName( String anImplementation );14;7;28
+Javac.setUpdatedProperty( String updatedProperty );1;0;3
+Javac.setProceed( boolean proceed );1;1;3
+Javac.getDebugLevel( );1;0;3
+Javac.getDepend( );1;0;3
+Javac.recreateSrc( );1;0;4
+Javac.scanDir( File srcDir , File destDir , String [ ] files );2;2;17
+Javac.setSource( String v );1;0;3
+Javac.setClasspath( Path classpath );2;1;7
+Javac.assumedJavaVersion( );6;0;15
+Javac.getCurrentCompilerArgs( );3;3;16
+Javac.getTarget( );2;1;5
+Javac.getMemoryInitialSize( );1;0;3
+Javac.getExtdirs( );1;0;3
+Javac.setClasspathRef( Reference r );1;0;3
+Javac.getFailonerror( );1;0;3
+Javac.setBootclasspath( Path bootclasspath );2;1;7
+Javac.setTarget( String target );1;0;3
+Javac.getSystemJavac( );1;0;3
+Javac.getMemoryMaximumSize( );1;0;3
+Javac.setSrcdir( Path srcDir );2;1;7
+Javac.setExecutable( String forkExec );1;0;3
+Javac.resetFileLists( );1;0;3
+Javac.createClasspath( );2;1;6
+Javac.setBootClasspathRef( Reference r );1;0;3
+Javac.setOptimize( boolean optimize );1;0;3
+Javac.getIncludejavaruntime( );1;0;3
+Javac.removePackageInfoFiles( File [ ] newFiles , File srcDir , File destDir );4;3;12
+Javac.getTempdir( );1;0;3
+Javac.setIncludeantruntime( boolean include );1;0;3
+Javac.getSourcepath( );1;0;3
+Javac.getEncoding( );1;0;3
+Javac.getNowarn( );1;0;3
+Javac.getDebug( );1;0;3
+Javac.isForkedJavac( );2;1;3
+Javac.getSource( );2;1;4
+Javac.setCompiler( String compiler );1;0;3
+Javac.setDestdir( File destDir );1;0;3
+Javac.needsCompilePackageFile( File file , File srcDir , File destDir );4;2;19
+Javac.createSourcepath( );2;1;6
+Javac.setFork( boolean f );1;0;3
+Javac.getBootclasspath( );1;0;3
+Javac.setVerbose( boolean verbose );1;0;3

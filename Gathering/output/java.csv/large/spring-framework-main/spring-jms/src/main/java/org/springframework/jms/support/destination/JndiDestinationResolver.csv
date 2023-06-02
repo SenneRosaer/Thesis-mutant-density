@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JndiDestinationResolver.validateDestination( Destination destination , String destinationName , boolean pubSubDomain );4;1;10
+JndiDestinationResolver.setDynamicDestinationResolver( DestinationResolver dynamicDestinationResolver );1;0;3
+JndiDestinationResolver.setCache( boolean cache );1;0;3
+JndiDestinationResolver.removeFromCache( String destinationName );1;0;3
+JndiDestinationResolver.clearCache( );1;0;3
+JndiDestinationResolver.setFallbackToDynamicDestination( boolean fallbackToDynamicDestination );1;0;3
+JndiDestinationResolver.resolveDestinationName( @ Nullable Session session , String destinationName , boolean pubSubDomain );6;1;29

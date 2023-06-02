@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BufferedIndexInput.setBufferSize( int newSize );6;9;21
+BufferedIndexInput.clone( );1;0;8
+BufferedIndexInput.refill( );4;6;17
+BufferedIndexInput.BufferedIndexInput( int bufferSize );1;0;4
+BufferedIndexInput.seek( long pos );3;5;10
+BufferedIndexInput.readBytes( byte [ ] b , int offset , int len );1;0;3
+BufferedIndexInput.readBytes( byte [ ] b , int offset , int len , boolean useBuffer );8;15;33
+BufferedIndexInput.checkBufferSize( int bufferSize );2;1;4
+BufferedIndexInput.getBufferSize( );1;0;3
+BufferedIndexInput.newBuffer( byte [ ] newBuffer );1;0;3
+BufferedIndexInput.BufferedIndexInput( );1;0;1
+BufferedIndexInput.getFilePointer( );1;1;1
+BufferedIndexInput.readByte( );2;2;5

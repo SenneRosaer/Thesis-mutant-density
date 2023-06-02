@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MatchActionProcessor.processMatches( InputStream input , OutputStream output );1;0;4
+MatchActionProcessor.processMatches( InputStream input , OutputStream output , String encoding );1;0;4
+MatchActionProcessor.MatchActionProcessor( );1;0;3
+MatchActionProcessor.MatchActionProcessor( PatternCompiler compiler , PatternMatcher matcher );1;0;4
+MatchActionProcessor.setFieldSeparator( String separator );1;0;3
+MatchActionProcessor.addAction( String pattern , int options );1;0;3
+MatchActionProcessor.setFieldSeparator( String separator , int options );2;1;7
+MatchActionProcessor.addAction( String pattern , MatchAction action );1;0;3
+MatchActionProcessor.addAction( String pattern );1;0;3
+MatchActionProcessor.addAction( String pattern , int options , MatchAction action );2;1;7
+MatchActionProcessor.processMatches( Reader input , Writer output );7;6;52

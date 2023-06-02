@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCRMailRepository.remove( Mail mail );1;0;3
+JCRMailRepository.setRemoteAddr( Node node , String addr );1;0;3
+JCRMailRepository.unlock( String key );1;0;3
+JCRMailRepository.setRecipients( Node node , Collection recipients );2;1;8
+JCRMailRepository.lock( String key );1;0;3
+JCRMailRepository.run( );3;0;11
+JCRMailRepository.store( Mail mail );5;0;31
+JCRMailRepository.remove( String key );4;0;26
+JCRMailRepository.JCRMailRepository( );1;0;4
+JCRMailRepository.getAttributes( Node node , Mail mail );4;1;21
+JCRMailRepository.getLastUpdated( Node node );2;0;8
+JCRMailRepository.setState( Node node , String state );1;0;3
+JCRMailRepository.getMessage( Node node );2;0;16
+JCRMailRepository.setSender( Node node , MailAddress sender );1;0;3
+JCRMailRepository.getMail( Node node );1;0;13
+JCRMailRepository.setError( Node node , String error );1;0;3
+JCRMailRepository.getRemoteAddr( Node node );2;0;7
+JCRMailRepository.setMessage( Node node , final MimeMessage message );4;0;23
+JCRMailRepository.getRecipients( Node node );3;2;12
+JCRMailRepository.setAttributes( Node node , Mail mail );4;2;19
+JCRMailRepository.JCRMailRepository( Repository repository , Log logger );1;0;3
+JCRMailRepository.remove( Collection mails );5;0;31
+JCRMailRepository.getSender( Node node );2;0;8
+JCRMailRepository.retrieve( String key );4;0;26
+JCRMailRepository.getError( Node node );2;0;7
+JCRMailRepository.JCRMailRepository( Repository repository , Credentials credentials , String workspace , String path , Log logger );1;0;3
+JCRMailRepository.setMail( Node node , Mail mail );1;0;11
+JCRMailRepository.list( );3;0;22
+JCRMailRepository.setRemoteHost( Node node , String host );1;0;3
+JCRMailRepository.getRemoteHost( Node node );2;0;7
+JCRMailRepository.setLastUpdated( Node node , Date updated );3;1;12
+JCRMailRepository.getState( Node node );2;0;7

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceContextImpl.acquire( );3;0;8
+ResourceContextImpl.removeResourceEventsListener( ResourceEvents resourceListener );1;0;3
+ResourceContextImpl.postInvoke( Object retval , Throwable t );1;0;1
+ResourceContextImpl.getProvider( );1;0;1
+ResourceContextProvider.releaseService( BeanContextServices bcs , Object requestor , Object service );1;0;3
+ResourceContextImpl.ResourceContextImpl( ControlContainerContext containerContext , ControlBean bean );1;0;5
+ResourceContextImpl.preInvoke( Method m , Object [ ] args );2;1;4
+ResourceContextProvider.getService( BeanContextServices bcs , Object requestor , Class serviceClass , Object serviceSelector );2;0;7
+ResourceContextProvider.getCurrentServiceSelectors( BeanContextServices bcs , Class serviceClass );1;0;3
+ResourceContextImpl.addResourceEventsListener( ResourceEvents resourceListener );1;0;3
+ResourceContextImpl.release( );3;1;8
+ResourceContextImpl.hasResources( );1;0;1

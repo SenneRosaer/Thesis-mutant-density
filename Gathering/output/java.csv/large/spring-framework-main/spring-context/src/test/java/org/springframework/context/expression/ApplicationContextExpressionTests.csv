@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PrototypeTestBean.setCountry2( String country2 );1;0;3
+ApplicationContextExpressionTests.genericApplicationContext( );3;0;119
+ApplicationContextExpressionTests.prototypeCreationReevaluatesExpressions( );1;0;31
+PropertyValueTestBean.setTb( TestBean tb );1;0;3
+PropertyValueTestBean.setCountry( String country );1;0;3
+ApplicationContextExpressionTests.registerDestructionCallback( String name , Runnable callback );1;0;2
+ApplicationContextExpressionTests.resolveContextualObject( String key );2;0;8
+ApplicationContextExpressionTests.get( String name , ObjectFactory < ? > objectFactory );1;0;3
+PrototypeTestBean.getCountry2( );1;0;3
+ApplicationContextExpressionTests.stringConcatenationWithDebugLogging( );1;0;11
+ConstructorValueTestBean.ConstructorValueTestBean( @ Value ( "XXX#{tb0.name}YYY#{mySpecialAttr}ZZZ" ) String name , @ Value ( "#{mySpecialAttr}" ) int age , @ Qualifier ( "original" ) TestBean tb , @ Value ( "${code} #{systemProperties.country}" ) String country );1;0;6
+ApplicationContextExpressionTests.remove( String name );1;0;3
+PrototypeTestBean.getCountry( );1;0;3
+PrototypeTestBean.setCountry( String country );1;0;3
+MethodValueTestBean.configure( @ Qualifier ( "original" ) TestBean tb , @ Value ( "XXX#{tb0.name}YYY#{mySpecialAttr}ZZZ" ) String name , @ Value ( "#{mySpecialAttr}" ) int age , @ Value ( "${code} #{systemProperties.country}" ) String country );1;0;6
+PropertyValueTestBean.setAge( int age );1;0;3
+PrototypeTestBean.setName( String name );1;0;3
+PrototypeTestBean.getName( );1;0;3
+PropertyValueTestBean.setName( String name );1;0;3
+ApplicationContextExpressionTests.getConversationId( );1;0;3
+ApplicationContextExpressionTests.resourceInjection( );1;0;16

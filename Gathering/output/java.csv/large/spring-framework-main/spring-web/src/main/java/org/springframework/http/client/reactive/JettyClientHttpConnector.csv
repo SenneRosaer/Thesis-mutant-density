@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JettyClientHttpConnector.JettyClientHttpConnector( HttpClient httpClient , @ Nullable JettyResourceFactory resourceFactory );2;1;9
+JettyClientHttpConnector.JettyClientHttpConnector( );1;0;3
+JettyClientHttpConnector.execute( JettyClientHttpRequest request );1;0;7
+JettyClientHttpConnector.connect( HttpMethod method , URI uri , Function < ? super ClientHttpRequest , Mono < Void > > requestCallback );4;2;16
+JettyClientHttpConnector.toDataBuffer( ContentChunk chunk );1;0;6
+JettyClientHttpConnector.JettyClientHttpConnector( JettyResourceFactory resourceFactory , @ Nullable Consumer < HttpClient > customizer );2;1;6
+JettyClientHttpConnector.JettyClientHttpConnector( HttpClient httpClient );1;0;3
+JettyClientHttpConnector.setBufferFactory( DataBufferFactory bufferFactory );1;0;3

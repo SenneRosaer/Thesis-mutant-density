@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClassLoaderXmlPreprocessor.getResource( String location );3;1;12
+ClassLoaderXmlPreprocessor.getClassLoader( SpringApplicationContext applicationContext , XmlBeanDefinitionReader reader , Document document );21;24;95
+ClassLoaderXmlPreprocessor.getParentClassLoader( SpringApplicationContext applicationContext );3;2;10
+ClassLoaderXmlPreprocessor.preprocess( SpringApplicationContext applicationContext , XmlBeanDefinitionReader reader , Document document );5;2;32
+ClassLoaderXmlPreprocessor.ClassLoaderXmlPreprocessor( File root );1;0;3
+ClassLoaderXmlPreprocessor.accept( File dir , String name );2;1;4
+ClassLoaderXmlPreprocessor.ClassLoaderXmlPreprocessor( File root , ServiceMixComponent component );1;0;4
+ClassLoaderXmlPreprocessor.getDefaultLocations( );6;6;20

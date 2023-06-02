@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BpelManagementFacadeImpl.setCorrelation( final Long iid , final Long scopeId , final String correlationSet , final QName [ ] propertyNames , final CorrelationKey values );2;0;13
+BpelManagementFacadeImpl.getEvents( final Long iid , final int startIdx , final int count );3;3;14
+BpelManagementFacadeImpl.getBreakpoints( Long iid );1;0;4
+BpelManagementFacadeImpl.setVariable( Long pid , Long scopeId , String varName , String data );1;0;3
+BpelManagementFacadeImpl.removeGlobalBreakpoint( String procid , Breakpoint sp );1;0;4
+BpelManagementFacadeImpl.addVariableModificationBreakpoint( Long iid , String scopename , String variable );1;0;3
+BpelManagementFacadeImpl.BpelManagementFacadeImpl( BpelServer server , ProcessStore store );1;0;3
+BpelManagementFacadeImpl.getProcessInstance( String pid , final CorrelationKey ckey );2;0;8
+BpelManagementFacadeImpl.nodeToString( XmlDataDAO xml );3;2;12
+BpelManagementFacadeImpl.addActivityBreakpoint( Long iid , String activity );1;0;6
+BpelManagementFacadeImpl.step( final Long iid );1;1;5
+BpelManagementFacadeImpl.addGlobalActivityBreakpoint( String procid , String activity );1;0;6
+BpelManagementFacadeImpl.getStartTime( final Long iid );2;0;10
+BpelManagementFacadeImpl.getState( final Long iid );1;0;8
+BpelManagementFacadeImpl.removeBreakpoint( Long iid , Breakpoint sp );1;0;4
+BpelManagementFacadeImpl.getEventCount( final Long iid );2;1;6
+BpelManagementFacadeImpl.getGlobalBreakpoints( String procId );1;0;4
+BpelManagementFacadeImpl.findCorrelationSetDAO( ProcessInstanceDAO instance , Long scopeId , String correlationSet );4;3;13
+BpelManagementFacadeImpl.run( BpelDAOConnection session );1;8;4
+BpelManagementFacadeImpl.getScopeInstancesForScope( final Long iid , final String scopeName );3;0;16
+BpelManagementFacadeImpl.getCorrelation( final Long iid , final Long scopeId , final String correlationSet );2;0;12
+BpelManagementFacadeImpl.getCompletedFault( final Long iid );2;0;10
+BpelManagementFacadeImpl.getVariable( final Long iid , final Long scopeId , final String varName );4;0;19

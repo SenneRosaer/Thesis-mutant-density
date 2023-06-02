@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PipelineFactory.PipelineFactory( ImageManager manager );1;0;3
+PipelineFactory.determineCandidatePipelines( Image sourceImage , ImageFlavor [ ] flavors );2;2;8
+PipelineFactory.findPipeline( DefaultEdgeDirectory dir , ImageFlavor originFlavor , ImageRepresentation destination );6;2;32
+PipelineComparator.compare( Object o1 , Object o2 );1;1;5
+***not in a method***;0;1;0
+PipelineFactory.determineCandidatePipelines( ImageInfo imageInfo , ImageFlavor [ ] flavors );2;2;8
+PipelineFactory.newImageConverterPipeline( ImageInfo imageInfo , ImageFlavor targetFlavor );12;13;51
+PipelineFactory.newImageConverterPipeline( Image originalImage , ImageFlavor targetFlavor );1;0;6
+PipelineFactory.getEdgeDirectory( );3;1;15

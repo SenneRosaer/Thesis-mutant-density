@@ -1,0 +1,70 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PortalManagerImpl.getConfiguration( );33;37;131
+PortalManagerImpl.processCoplet( Object [ ] loadedCoplet , XMLConsumer consumer , String notAvailableMessage , long defaultCopletTimeout );20;27;75
+PortalManagerImpl.buildBaseProfile( Map config , boolean adminProfile );13;3;79
+PortalManagerImpl.processCopletList( List copletList , XMLConsumer consumer , String copletNotAvailableMessage , long defaultCopletTimeout );2;2;6
+PortalManagerImpl.saveUserStatusProfile( Map profile , Map config , String role , String id );5;6;44
+PortalManagerImpl.getCopletConfiguration( String copletID , Map defaultCoplets , Map mediaCoplets );3;2;8
+PortalManagerImpl.createProfile( SessionContext context , String type , String role , String id , boolean adminProfile );9;5;38
+PortalManagerImpl.streamConfiguration( XMLConsumer consumer , String requestURI , String profileID , String media , String contextID );4;4;33
+PortalManagerImpl.recompose( ComponentManager manager );1;0;3
+PortalManagerImpl.getTransactionManager( );3;1;10
+PortalManagerImpl.getContextManager( );3;1;10
+PortalManagerImpl.configurationTest( );3;0;10
+PortalManagerImpl.buildcopleyLayouts( SessionContext context , DocumentFragment baseProfile );5;3;19
+PortalManagerImpl.compose( ComponentManager manager );1;0;5
+PortalManagerImpl.compareAttributes( Node first , Node second );29;43;54
+PortalManagerImpl.dispose( );2;1;8
+PortalManagerImpl.recycle( );2;1;17
+PortalManagerImpl.loadCoplets( Element element , Map defaultCoplets , Map mediaCoplets , List copletList , boolean parallelCoplets , long defaultCopletTimeout , Element statusProfile );5;4;21
+PortalManagerImpl.storeProfile( String profileID , Map profile );3;0;12
+PortalManagerImpl.sendEvents( XMLConsumer consumer , Node node );1;0;3
+PortalManagerImpl.getUsers( String role , String ID );11;8;33
+PortalManagerImpl.addProfilePart( Element profileRoot , DocumentFragment delta , String deltaRootTagName , String deltaTag );6;3;23
+PortalManagerImpl.buildUserProfile( Element profileRoot , Map config , String role , String id , boolean adminProfile );8;4;43
+PortalManagerImpl.streamLayoutProfile( XMLConsumer consumer , Map portalLayouts , Map copletLayouts , String mediaType );3;4;25
+PortalManagerImpl.getRequestState( );2;0;11
+PortalManagerImpl.contextualize( Context context );1;0;3
+PortalManagerImpl.retrieveProfile( String profileID );4;1;15
+PortalManagerImpl.buildRoleProfile( Element profileRoot , Map config , String role , boolean adminProfile );8;4;42
+PortalManagerImpl.getSessionManager( );3;1;10
+PortalManagerImpl.showAdminConf( XMLConsumer consumer );72;63;286
+PortalManagerImpl.getCopletElement( String copletID , String copletNr , Node [ ] miscNodes );8;11;22
+PortalManagerImpl.getProfileStore( );3;1;10
+PortalManagerImpl.setup( );5;2;17
+PortalManagerImpl.loadCoplet( Element element , Map defaultCoplets , Map mediaCoplets , List copletList , boolean parallelCoplets , long defaultCopletTimeout , Element statusProfile );15;16;84
+PortalManagerImpl.getMediaType( );1;0;4
+PortalManagerImpl.importProfileDelta( Element profileRoot , DocumentFragment delta , String deltaRootTagName , String deltaTag );5;2;19
+PortalManagerImpl.cleanUpCache( String type , String role , Map configuration );24;23;67
+PortalManagerImpl.buildProfile( String type , String role , String id , boolean adminProfile );34;16;141
+PortalManagerImpl.buildPortalLayouts( SessionContext context , DocumentFragment baseProfile );5;3;19
+PortalManagerImpl.modifyCoplet( String requestString , SessionContext context , Map theProfile , DocumentFragment profile );48;45;188
+PortalManagerImpl.isCopletAvailable( SessionContext context , String copletID , Map defaultCoplets , Map mediaCoplets );7;4;19
+PortalManagerImpl.checkAuthentication( Redirector redirector , String copletID );12;11;45
+PortalManagerImpl.cacheProfile( String profileID , Map profile , Map configuration );7;4;19
+PortalManagerImpl.getCachedProfile( String profileID , Map configuration );9;5;25
+PortalManagerImpl.buildProfileDelta( String type , String role , String id , boolean adminProfile );18;14;106
+PortalManagerImpl.getID( String profileID );4;9;21
+PortalManagerImpl.getStatusProfile( );7;3;27
+PortalManagerImpl.getAuthenticationManager( );3;1;10
+PortalManagerImpl.buildUserStatusProfile( Element profileRoot , Map config , String role , String id );6;3;33
+PortalManagerImpl.buildTypeProfile( Map theProfile , SessionContext context , DocumentFragment baseProfile );11;11;56
+PortalManagerImpl.getProfileID( String type , String role , String id , boolean adminProfile );5;1;20
+PortalManagerImpl.buildGlobalProfile( Element profileRoot , Map config , boolean adminProfile );10;4;47
+PortalManagerImpl.getIsAdminProfile( String profileID );1;0;3
+PortalManagerImpl.diffNode( Element baseNode , Element originalNode , List nodeStack , Element deltaElement );17;20;68
+PortalManagerImpl.getContext( boolean create );7;6;25
+PortalManagerImpl.importNode( Element profile , Element delta );14;17;51
+PortalManagerImpl.setTypeInfo( DocumentFragment baseProfile , List paths , List confPaths );15;27;60
+PortalManagerImpl.getMediaManager( );3;1;10
+PortalManagerImpl.getRoles( );8;5;27
+PortalManagerImpl.buildRunProfile( Map profileMap , SessionContext context , DocumentFragment baseProfile );50;67;222
+PortalManagerImpl.changeProfile( );44;43;168
+PortalManagerImpl.diff( DocumentFragment original , DocumentFragment base , String path , Element deltaElement );3;3;11
+PortalManagerImpl.showPortal( XMLConsumer consumer , boolean configMode , boolean adminProfile );11;3;50
+PortalManagerImpl.changeColumns( DocumentFragment profile , int oldNumber , int columnNumber , Node [ ] miscNodes );10;19;44
+PortalManagerImpl.showPortal( XMLConsumer consumer , boolean configMode , SessionContext context , Map storedProfile , String profileID );50;73;227
+PortalManagerImpl.loadResource( String resource , SourceParameters parameters );2;0;14
+PortalManagerImpl.addTypePath( List list , NodeList childs , String path );12;15;52
+PortalManagerImpl.getType( String profileID );2;4;11
+PortalManagerImpl.getRole( String profileID );3;8;14

@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ContinuationsManagerImpl.lookupWebContinuationsHolder( boolean createNew );6;6;19
+HolderAwareWebContinuation.getContinuationsHolder( );1;0;3
+WebContinuationsHolder.removeContinuation( WebContinuation wk );1;0;3
+ContinuationsManagerImpl.getForest( );4;1;18
+HolderAwareWebContinuation.HolderAwareWebContinuation( String id , Object continuation , WebContinuation parentContinuation , int timeToLive , String interpreterId , ContinuationsDisposer disposer , WebContinuationsHolder continuationsHolder );1;0;4
+ContinuationsManagerImpl.createWebContinuation( Object kont , WebContinuation parent , int timeToLive , String interpreterId , ContinuationsDisposer disposer );4;2;14
+ContinuationsManagerImpl._invalidate( WebContinuationsHolder continuationsHolder , WebContinuation wk );3;2;12
+WebContinuationsHolder.contains( WebContinuation wk );1;0;3
+ContinuationsManagerImpl.contextualize( Context context );1;0;3
+WebContinuationsHolder.valueUnbound( HttpSessionBindingEvent event );1;0;3
+ContinuationsManagerImpl.configure( Configuration config );3;2;23
+ContinuationsManagerImpl.getWebContinuationsDataBeanList( );3;0;11
+ContinuationsManagerImpl.expireContinuations( );5;2;31
+ContinuationsManagerImpl.removeContinuation( WebContinuationsHolder continuationsHolder , WebContinuation wk );5;3;14
+ContinuationsManagerImpl._detach( WebContinuation wk );2;1;6
+WebContinuationsHolder.addContinuation( WebContinuation wk );1;0;3
+ContinuationsManagerImpl.displayExpireSet( );3;1;17
+ContinuationsManagerImpl.invalidateContinuations( WebContinuationsHolder continuationsHolder );2;2;11
+ContinuationsManagerImpl.disposeContinuation( WebContinuationsHolder continuationsHolder , WebContinuation wk );1;0;4
+ContinuationsManagerImpl.service( ServiceManager manager );1;0;3
+ContinuationsManagerImpl.ContinuationsManagerImpl( );2;0;8
+ContinuationsManagerImpl.displayAllContinuations( );3;0;9
+ContinuationsManagerImpl.lookupWebContinuation( String id , String interpreterId );5;3;27
+WebContinuationsHolder.valueBound( HttpSessionBindingEvent event );1;0;2
+WebContinuationsHolder.get( Object id );1;0;3
+ExpirationPredicate.evaluate( final Object obj );1;0;3
+ContinuationsManagerImpl.generateContinuation( Object kont , WebContinuation parent , int ttl , String interpreterId , ContinuationsDisposer disposer );5;9;29
+WebContinuationsHolder.contains( String continuationId );1;0;3
+ContinuationsManagerImpl.run( );1;0;3
+ContinuationsManagerImpl.invalidateWebContinuation( WebContinuation wk );2;1;8

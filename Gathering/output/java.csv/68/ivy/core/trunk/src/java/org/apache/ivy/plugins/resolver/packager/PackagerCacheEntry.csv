@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PackagerCacheEntry.build( Resource packagerResource , Map properties );13;5;60
+PackagerCacheEntry.saveFile( String name );2;1;7
+PackagerCacheEntry.isBuilt( );1;0;3
+PackagerCacheEntry.PackagerCacheEntry( ModuleRevisionId mr , File rootDir , File resourceCache , String resourceURL , boolean validate , boolean preserve , boolean verbose , boolean quiet );1;0;10
+PackagerCacheEntry.getSubdir( File rootDir , ModuleRevisionId mr );1;4;6
+PackagerCacheEntry.cleanup( );1;0;4
+PackagerCacheEntry.getBuiltArtifact( Artifact artifact );2;1;8
+PackagerCacheEntry.finalize( );2;1;9
+PackagerCacheEntry.getResourceURL( );2;3;10
+PackagerCacheEntry.saveFile( String name , InputStream input );1;0;3

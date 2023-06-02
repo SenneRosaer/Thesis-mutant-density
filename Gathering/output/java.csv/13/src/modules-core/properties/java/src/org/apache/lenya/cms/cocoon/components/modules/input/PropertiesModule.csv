@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropertiesModule.loadSystemProperties( AntProperties props );3;1;9
+PropertiesModule.loadXMLPropertiesFromURI( String uri );7;6;27
+PropertiesModule.getAttribute( String name , Configuration modeConf , Map objectModel );3;1;18
+PropertiesModule.debugging( );1;0;3
+PropertiesModule.getAttributeValues( String name , Configuration modeConf , Map objectModel );1;0;5
+PropertiesModule.merge( AntProperties existingProps , AntProperties newProps );3;0;9
+PropertiesModule.initialize( );4;6;22
+PropertiesModule.getProperties( Map objectModel );3;0;21
+PropertiesModule.overwriteProperty( AntProperties props , String propName , String propValue );1;0;4
+PropertiesModule.debug( String debugString );1;0;3
+PropertiesModule.getAttributeNames( Configuration modeConf , Map objectModel );3;0;13
+PropertiesModule.service( ServiceManager manager );1;0;5
+PropertiesModule.getPublicationProperties( Publication pub );3;1;14
+PropertiesModule.setHomes( );1;0;4

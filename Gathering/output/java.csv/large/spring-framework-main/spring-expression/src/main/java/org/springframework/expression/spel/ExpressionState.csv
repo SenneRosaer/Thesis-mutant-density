@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VariableScope.definesVariable( String name );1;0;3
+ExpressionState.enterScope( Map < String , Object > argMap );1;0;4
+ExpressionState.convertValue( Object value , TypeDescriptor targetTypeDescriptor );2;1;8
+ExpressionState.setVariable( String name , @ Nullable Object value );1;0;3
+ExpressionState.setLocalVariable( String name , Object value );1;0;3
+ExpressionState.initVariableScopes( );2;1;7
+ExpressionState.lookupVariable( String name );2;1;4
+ExpressionState.getConfiguration( );1;0;3
+ExpressionState.findType( String type );1;0;3
+ExpressionState.getTypeConverter( );1;0;3
+VariableScope.lookupVariable( String name );1;0;3
+ExpressionState.operate( Operation op , @ Nullable Object left , @ Nullable Object right );4;2;12
+ExpressionState.getPropertyAccessors( );1;0;3
+ExpressionState.convertValue( TypedValue value , TypeDescriptor targetTypeDescriptor );1;0;5
+ExpressionState.getRootContextObject( );1;0;3
+ExpressionState.lookupLocalVariable( String name );3;0;8
+VariableScope.VariableScope( String name , Object value );1;0;3
+VariableScope.setVariable( String name , Object value );1;0;3
+ExpressionState.getActiveContextObject( );2;0;6
+ExpressionState.ExpressionState( EvaluationContext context , SpelParserConfiguration configuration );1;0;3
+ExpressionState.ExpressionState( EvaluationContext context , TypedValue rootObject );1;0;3
+ExpressionState.ExpressionState( EvaluationContext context );1;0;3
+ExpressionState.popActiveContextObject( );3;1;11
+VariableScope.VariableScope( @ Nullable Map < String , Object > arguments );2;1;5
+ExpressionState.getScopeRootContextObject( );2;0;6
+ExpressionState.getEvaluationContext( );1;0;3
+ExpressionState.getTypeComparator( );1;0;3
+ExpressionState.ExpressionState( EvaluationContext context , TypedValue rootObject , SpelParserConfiguration configuration );1;0;7
+ExpressionState.enterScope( String name , Object value );1;0;4
+ExpressionState.enterScope( );1;0;4
+ExpressionState.pushActiveContextObject( TypedValue obj );2;1;6
+ExpressionState.initScopeRootObjects( );2;1;6
+VariableScope.VariableScope( );1;0;2
+ExpressionState.exitScope( );1;0;4

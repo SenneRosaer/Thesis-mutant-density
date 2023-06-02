@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XIncludePipe.startPrefixMapping( String prefix , String uri );2;0;5
+XIncludePipe.startEntity( String name );2;0;5
+XIncludePipe.processingInstruction( String target , String data );2;0;5
+XIncludePipe.isEvaluatingContent( );3;5;3
+XIncludePipe.getLocation( );2;3;7
+XIncludeTransformer.setup( SourceResolver resolver , Map objectModel , String source , Parameters parameters );1;0;9
+XIncludeTransformer.setConsumer( XMLConsumer consumer );1;0;3
+XIncludePipe.endDocument( );1;0;4
+XIncludeTransformer.setContentHandler( ContentHandler handler );1;0;3
+XIncludePipe.endEntity( String name );2;0;5
+XIncludePipe.startCDATA( );2;0;5
+XIncludePipe.endCDATA( );2;0;5
+XIncludePipe.endElement( String uri , String name , String raw );6;3;15
+XIncludePipe.getParent( );1;0;3
+XIncludeTransformer.service( ServiceManager manager );1;0;3
+XIncludePipe.setParent( XIncludePipe parent );1;0;3
+XIncludePipe.getXpointer( );1;0;3
+XIncludePipe.setDocumentLocator( Locator locator );5;2;21
+XIncludeTransformer.getKey( );1;0;3
+XIncludePipe.ignorableWhitespace( char c [ ] , int start , int len );2;0;5
+XIncludeTransformer.getValidity( );1;0;3
+XIncludePipe.getHref( );1;0;3
+XIncludePipe.init( String uri , String xpointer );1;0;5
+XIncludePipe.characters( char c [ ] , int start , int len );2;0;5
+XIncludePipe.processXIncludeElement( String href , String parse , String xpointer );30;28;118
+XIncludeTransformer.recycle( );1;0;6
+XIncludePipe.comment( char ch [ ] , int start , int len );2;0;5
+XIncludeTransformer.setLexicalHandler( LexicalHandler handler );1;0;3
+XIncludePipe.skippedEntity( String name );2;0;5
+XIncludePipe.endPrefixMapping( String prefix );2;0;5
+XIncludePipe.isLoopInclusion( String uri , String xpointer );9;6;16
+XIncludePipe.startElement( String uri , String name , String raw , Attributes attr );8;2;28

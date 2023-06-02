@@ -1,0 +1,63 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AspectJAdviceParameterNameDiscovererTests.oneThrowable( Exception ex );1;0;2
+StandardTests.allTogetherNow( );1;0;4
+StandardTests.argsOnePrimitive( );1;0;3
+StandardTests.argsBindingOneObjectTwoCandidates( );1;0;4
+AspectJAdviceParameterNameDiscovererTests.noArgs( );1;0;2
+StandardTests.argsOnePrimitiveOneObject( );1;0;4
+AnnotationTests.atWithincode( );1;0;3
+StandardTests.joinPointOnly( );1;0;3
+StandardTests.joinPointStaticPartOnly( );1;0;3
+StandardTests.targetBindingWithAlternateTokenizations( );1;0;7
+StandardTests.returning( );1;0;3
+StandardTests.throwableNoCandidates( );1;0;4
+AspectJAdviceParameterNameDiscovererTests.tjpsp( JoinPoint . StaticPart tjpsp );1;0;2
+AspectJAdviceParameterNameDiscovererTests.jpAndTwoThrowables( JoinPoint jp , Exception ex , Error err );1;0;2
+StandardTests.thisBindingOneCandidate( );1;0;3
+StandardTests.twoJoinPoints( );1;0;4
+AnnotationTests.atTarget( );1;0;3
+StandardTests.throwingAndPrimitive( );1;0;4
+StandardTests.thisAndPrimitive( );1;0;4
+StandardTests.returningNoCandidates( );1;0;4
+AspectJAdviceParameterNameDiscovererTests.theBigOne( JoinPoint jp , Throwable x , int y , Object foo );1;0;2
+AspectJAdviceParameterNameDiscovererTests.oneObject( Object x );1;0;2
+StandardTests.targetAndPrimitive( );1;0;4
+StandardTests.targetBindingWithBadPointcutExpressions( );1;0;6
+AspectJAdviceParameterNameDiscovererTests.assertParameterNames( Method method , String pointcut , String returning , String throwing , String [ ] parameterNames );2;2;18
+AspectJAdviceParameterNameDiscovererTests.oneThrowableOnePrimitive( Throwable x , int y );1;0;2
+AspectJAdviceParameterNameDiscovererTests.assertException( Method method , String pointcut , Class < ? extends Throwable > exceptionType , String message );1;0;3
+StandardTests.thisBindingWithBadPointcutExpressions( );1;0;6
+StandardTests.ambiguousArgsBinding( );1;0;4
+StandardTests.referenceBinding( );1;0;3
+AspectJAdviceParameterNameDiscovererTests.twoObjects( Object x , Object y );1;0;2
+StandardTests.thisBindingTwoCandidates( );1;0;4
+AspectJAdviceParameterNameDiscovererTests.oneObjectOnePrimitive( Object x , int y );1;0;2
+AnnotationTests.atArgs( );1;0;3
+AspectJAdviceParameterNameDiscovererTests.onePrimitive( int x );1;0;2
+AspectJAdviceParameterNameDiscovererTests.annotationMedley( Throwable t , Object foo , int x , MyAnnotation ma );1;0;1
+AspectJAdviceParameterNameDiscovererTests.assertException( Method method , String pointcut , String returning , String throwing , Class < ? extends Throwable > exceptionType , String message );1;0;9
+AnnotationTests.ambiguousAnnotationTwoVars( );1;0;4
+AspectJAdviceParameterNameDiscovererTests.pjpAndAnAnnotation( ProceedingJoinPoint pjp , MyAnnotation ann );1;0;1
+AnnotationTests.atThis( );1;0;3
+AnnotationTests.annotationMedley( );1;0;4
+StandardTests.ambiguousReturning( );1;0;4
+StandardTests.oneJPAndTwoThrowables( );1;0;4
+StandardTests.noArgs( );1;0;3
+AspectJAdviceParameterNameDiscovererTests.tjp( JoinPoint jp );1;0;2
+AspectJAdviceParameterNameDiscovererTests.assertParameterNames( Method method , String pointcut , String [ ] parameterNames );1;0;3
+AspectJAdviceParameterNameDiscovererTests.getMethod( String name );3;0;8
+AnnotationTests.annotationBinding( );1;0;5
+StandardTests.thisBindingWithAlternateTokenizations( );1;0;7
+AnnotationTests.ambiguousAnnotationOneVar( );1;0;4
+AnnotationTests.atWithin( );1;0;3
+StandardTests.targetBindingTwoCandidates( );1;0;4
+StandardTests.oneThrowable( );1;0;3
+AspectJAdviceParameterNameDiscovererTests.jpAndOneThrowable( JoinPoint jp , Exception ex );1;0;2
+StandardTests.referenceBindingWithAlternateTokenizations( );1;0;5
+AspectJAdviceParameterNameDiscovererTests.twoJoinPoints( JoinPoint jp1 , JoinPoint jp2 );1;0;2
+StandardTests.argsBindingOneObject( );1;0;3
+StandardTests.targetBindingOneCandidate( );1;0;3
+StandardTests.oneJPAndOneThrowable( );1;0;3
+AnnotationTests.atAnnotation( );1;0;3
+AspectJAdviceParameterNameDiscovererTests.twoAnnotations( MyAnnotation ann , MyAnnotation anotherAnn );1;0;1
+AspectJAdviceParameterNameDiscovererTests.oneAnnotation( MyAnnotation ann );1;0;1

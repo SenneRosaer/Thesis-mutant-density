@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProfilingNonCachingProcessingPipeline.processReader( Environment environment );2;2;14
+ProfilingNonCachingProcessingPipeline.parameterize( Parameters params );1;0;4
+ProfilingNonCachingProcessingPipeline.setReader( String role , String source , Parameters param , String mimeType );2;1;7
+ProfilingNonCachingProcessingPipeline.process( Environment environment );2;2;14
+ProfilingNonCachingProcessingPipeline.dispose( );2;1;7
+ProfilingNonCachingProcessingPipeline.recycle( );1;0;5
+ProfilingNonCachingProcessingPipeline.setupPipeline( Environment environment );4;5;33
+ProfilingNonCachingProcessingPipeline.processXMLPipeline( Environment environment );2;2;14
+ProfilingNonCachingProcessingPipeline.connect( Environment environment , XMLProducer producer , XMLConsumer consumer );2;1;15
+ProfilingNonCachingProcessingPipeline.addTransformer( String role , String source , Parameters param , Parameters hintParam );2;2;8
+ProfilingNonCachingProcessingPipeline.service( ServiceManager aManager );1;0;4
+ProfilingNonCachingProcessingPipeline.setGenerator( String role , String source , Parameters param , Parameters hintParam );2;1;7
+ProfilingNonCachingProcessingPipeline.setSerializer( String role , String source , Parameters param , Parameters hintParam , String mimeType );2;1;7

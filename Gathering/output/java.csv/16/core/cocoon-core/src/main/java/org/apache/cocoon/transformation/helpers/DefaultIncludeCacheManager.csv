@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultIncludeCacheManager.service( ServiceManager manager );1;0;4
+DefaultIncludeCacheManager.dispose( );2;1;11
+DefaultIncludeCacheManager.load( String uri , IncludeCacheManagerSession session );13;8;46
+LoaderThread.LoaderThread( Source source , XMLByteStreamCompiler serializer );1;0;5
+PreemptiveBooter.run( );2;0;7
+DefaultIncludeCacheManager.getSession( Parameters pars );9;3;46
+DefaultIncludeCacheManager.terminateSession( IncludeCacheManagerSession session );2;0;6
+LoaderThread.run( );2;0;10
+DefaultIncludeCacheManager.parameterize( Parameters parameters );4;4;14
+PreemptiveBooter.PreemptiveBooter( final String uri );1;0;3
+DefaultIncludeCacheManager.stream( String uri , IncludeCacheManagerSession session , XMLConsumer handler );28;16;102
+LoaderThread.join( );2;0;6

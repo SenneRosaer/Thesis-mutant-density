@@ -1,0 +1,60 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Ivy14.Ivy14( Ivy ivy );1;0;3
+Ivy14.retrieve( ModuleId moduleId , String [ ] confs , File cache , String destFilePattern , String destIvyPattern , Filter artifactFilter );2;0;9
+Ivy14.splitConfs( String conf );4;4;10
+Ivy14.listRevisions( String org , String module );1;0;3
+Ivy14.interrupt( Thread operatingThread );1;0;3
+Ivy14.deliver( ModuleRevisionId mrid , String revision , File cache , String destIvyPattern , String status , Date pubdate , PublishingDependencyRevisionResolver pdrResolver , boolean validate , boolean resolveDynamicRevisions );1;0;5
+Ivy14.retrieve( ModuleId moduleId , String [ ] confs , File cache , String destFilePattern , String destIvyPattern , Filter artifactFilter , boolean sync , boolean useOrigin );2;0;10
+Ivy14.listOrganisations( );1;0;3
+Ivy14.resolve( URL ivySource , String revision , String [ ] confs , File cache , Date date , boolean validate , boolean useCacheOnly , boolean transitive , boolean useOrigin , Filter artifactFilter );1;0;4
+Ivy14.configure( URL settingsURL );1;0;3
+Ivy14.listModuleEntries( OrganisationEntry org );1;0;3
+Ivy14.deliver( ModuleRevisionId mrid , String revision , File cache , String destIvyPattern , String status , Date pubdate , PublishingDependencyRevisionResolver pdrResolver , boolean validate );1;0;4
+Ivy14.findModule( ModuleRevisionId id );1;0;5
+Ivy14.resolve( ModuleDescriptor md , String [ ] confs , File cache , Date date , boolean validate , boolean useCacheOnly , boolean transitive , boolean download , boolean outputReport , Filter artifactFilter );1;0;4
+Ivy14.getVariable( String name );1;0;3
+Ivy14.resolve( ModuleRevisionId mrid , String [ ] confs );1;0;5
+Ivy14.install( ModuleRevisionId mrid , String from , String to , boolean transitive , boolean validate , boolean overwrite , Filter artifactFilter , File cache , String matcherName );1;0;9
+Ivy14.determineArtifactsToCopy( ModuleId moduleId , String [ ] confs , File cache , String destFilePattern , String destIvyPattern , Filter artifactFilter );1;0;7
+Ivy14.retrieve( ModuleId moduleId , String [ ] confs , File cache , String destFilePattern );2;0;8
+Ivy14.resolve( ModuleRevisionId mrid , String [ ] confs , boolean transitive , boolean changing , File cache , Date date , boolean validate , boolean useCacheOnly , Filter artifactFilter );1;0;4
+Ivy14.getDependencies( ModuleDescriptor md , String [ ] confs , File cache , Date date , ResolveReport report , boolean validate );1;0;6
+Ivy14.substitute( String str );1;0;3
+Ivy14.resolve( ModuleDescriptor md , String [ ] confs , File cache , Date date , boolean validate , boolean useCacheOnly , Filter artifactFilter );1;0;4
+Ivy14.listRevisionEntries( ModuleEntry module );1;0;3
+Ivy14.isInterrupted( );1;0;3
+Ivy14.sortNodes( Collection nodes );1;0;4
+Ivy14.resolve( ModuleDescriptor md , String [ ] confs , File cache , Date date , boolean validate , boolean useCacheOnly , boolean transitive , Filter artifactFilter );1;0;4
+Ivy14.listOrganisationEntries( );1;0;3
+Ivy14.resolve( URL ivySource );1;0;3
+Ivy14.Ivy14( );1;0;3
+Ivy14.newResolveOptions( String [ ] confs , String revision , File cache , Date date , boolean validate , boolean useCacheOnly , boolean transitive , boolean useOrigin , boolean download , boolean outputReport , Filter artifactFilter );2;0;9
+Ivy14.listModules( ModuleRevisionId criteria , PatternMatcher matcher );1;0;3
+Ivy14.configure( File settingsFile );1;0;3
+Ivy14.publish( ModuleRevisionId mrid , String pubrevision , File cache , String srcArtifactPattern , String resolverName , String srcIvyPattern , String status , Date pubdate , Artifact [ ] extraArtifacts , boolean validate , boolean overwrite , boolean update , String conf );1;0;8
+Ivy14.publish( ModuleRevisionId mrid , String pubrevision , File cache , String srcArtifactPattern , String resolverName , String srcIvyPattern , boolean validate , boolean overwrite );1;0;6
+Ivy14.listTokenValues( String token , Map otherTokenValues );1;0;3
+Ivy14.setVariable( String varName , String value );1;0;3
+Ivy14.resolve( URL ivySource , String revision , String [ ] confs , File cache , Date date , boolean validate , boolean useCacheOnly , Filter artifactFilter );1;0;4
+Ivy14.resolve( URL ivySource , String revision , String [ ] confs , File cache , Date date , boolean validate , boolean useCacheOnly );1;0;4
+Ivy14.publish( ModuleDescriptor md , DependencyResolver resolver , Collection srcArtifactPattern , String srcIvyPattern , Artifact [ ] extraArtifacts , boolean overwrite , String conf );1;0;8
+Ivy14.getDependencies( ModuleDescriptor md , String [ ] confs , File cache , Date date , ResolveReport report , boolean validate , boolean transitive );1;0;6
+Ivy14.resolve( ModuleRevisionId mrid , String [ ] confs , boolean transitive , boolean changing , File cache , Date date , boolean validate , boolean useCacheOnly , boolean useOrigin , Filter artifactFilter );1;0;4
+Ivy14.check( URL ivyFile , String resolvername );1;0;3
+Ivy14.retrieve( ModuleId moduleId , String [ ] confs , File cache , String destFilePattern , String destIvyPattern , Filter artifactFilter , boolean sync , boolean useOrigin , boolean makeSymlinks );2;0;10
+Ivy14.download( Artifact artifact , File cache , boolean useOrigin );1;0;5
+Ivy14.listModules( String org );1;0;3
+Ivy14.configureDefault( );1;0;3
+Ivy14.resolve( ModuleDescriptor md , String [ ] confs , File cache , Date date , boolean validate , boolean useCacheOnly , boolean transitive , boolean useOrigin , boolean download , boolean outputReport , Filter artifactFilter );1;0;4
+Ivy14.sortModuleDescriptors( Collection moduleDescriptors );1;0;5
+Ivy14.resolve( File ivySource );1;0;3
+Ivy14.retrieve( ModuleId moduleId , String [ ] confs , File cache , String destFilePattern , String destIvyPattern );2;0;9
+Ivy14.publish( ModuleRevisionId mrid , String pubrevision , File cache , String srcArtifactPattern , String resolverName , String srcIvyPattern , boolean validate );1;0;6
+Ivy14.publish( ModuleRevisionId mrid , String pubrevision , File cache , Collection srcArtifactPattern , String resolverName , String srcIvyPattern , String status , Date pubdate , Artifact [ ] extraArtifacts , boolean validate , boolean overwrite , boolean update , String conf );1;0;7
+Ivy14.listModules( ModuleId criteria , PatternMatcher matcher );1;0;3
+Ivy14.determineArtifactsToCopy( ModuleId moduleId , String [ ] confs , File cache , String destFilePattern , String destIvyPattern );1;0;7
+Ivy14.resolve( URL ivySource , String revision , String [ ] confs , File cache , Date date , boolean validate , boolean useCacheOnly , boolean transitive , Filter artifactFilter );1;0;4
+Ivy14.resolve( URL ivySource , String revision , String [ ] confs , File cache , Date date , boolean validate );1;0;4
+Ivy14.getDependencies( URL ivySource , String [ ] confs , File cache , Date date , boolean validate );1;0;6
+Ivy14.interrupt( );1;0;3

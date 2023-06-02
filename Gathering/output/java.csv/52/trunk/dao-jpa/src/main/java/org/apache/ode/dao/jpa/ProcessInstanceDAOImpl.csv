@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProcessInstanceDAOImpl.getInstanceId( );1;0;3
+ProcessInstanceDAOImpl.getScope( Long scopeInstanceId );1;0;3
+ProcessInstanceDAOImpl.setExecutionStateCounter( int stateCounter );1;0;3
+ProcessInstanceDAOImpl.getProcess( );1;0;3
+ProcessInstanceDAOImpl.setState( short state );1;0;4
+ProcessInstanceDAOImpl.getExecutionState( );1;0;3
+ProcessInstanceDAOImpl.setFault( QName faultName , String explanation , int faultLineNo , int activityId , Element faultMessage );1;0;3
+ProcessInstanceDAOImpl.ProcessInstanceDAOImpl( CorrelatorDAOImpl correlator , ProcessDAOImpl process );1;0;4
+ProcessInstanceDAOImpl.getLastActiveTime( );1;0;3
+ProcessInstanceDAOImpl.getInstantiatingCorrelator( );1;0;3
+ProcessInstanceDAOImpl.setExecutionState( byte [ ] execState );1;0;3
+ProcessInstanceDAOImpl.getVariables( String variableName , int scopeModelId );4;2;10
+ProcessInstanceDAOImpl.getRootScope( );1;0;3
+ProcessInstanceDAOImpl.getEventsFirstLastCount( );1;0;3
+ProcessInstanceDAOImpl.ProcessInstanceDAOImpl( );1;0;1
+ProcessInstanceDAOImpl.getActivityRecoveries( );1;0;3
+ProcessInstanceDAOImpl.getScopes( String scopeName );3;0;7
+ProcessInstanceDAOImpl.getExecutionStateCounter( );1;0;3
+ProcessInstanceDAOImpl.getConnection( );1;0;3
+ProcessInstanceDAOImpl.finishCompletion( );1;0;3
+ProcessInstanceDAOImpl.removeRoutes( String routeGroupId );1;0;3
+ProcessInstanceDAOImpl.getFault( );1;0;3
+ProcessInstanceDAOImpl.deleteActivityRecovery( String channel );4;1;14
+ProcessInstanceDAOImpl.insertBpelEvent( ProcessInstanceEvent event );1;0;3
+ProcessInstanceDAOImpl.genMonotonic( );1;1;3
+ProcessInstanceDAOImpl.getScopes( );1;0;3
+ProcessInstanceDAOImpl.setFault( FaultDAO fault );1;0;3
+ProcessInstanceDAOImpl.delete( );2;1;5
+ProcessInstanceDAOImpl.createActivityRecovery( String channel , long activityId , String reason , Date dateTime , Element data , String [ ] actions , int retries );1;0;6
+ProcessInstanceDAOImpl.createScope( ScopeDAO parentScope , String name , int scopeModelId );2;1;8
+ProcessInstanceDAOImpl.getCreateTime( );1;0;3
+ProcessInstanceDAOImpl.getCorrelationSets( );1;0;3
+ProcessInstanceDAOImpl.getActivityFailureCount( );1;0;3
+ProcessInstanceDAOImpl.setLastActiveTime( Date dt );1;0;3
+ProcessInstanceDAOImpl.getCorrelationSet( String name );1;0;3
+ProcessInstanceDAOImpl.getState( );1;0;3
+ProcessInstanceDAOImpl.getPreviousState( );1;0;3
+ProcessInstanceDAOImpl.getActivityFailureDateTime( );1;0;3

@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SoapMessage.hasHeaders( );2;3;3
+SoapMessage.getHeaders( );1;0;3
+SoapMessage.addAttachment( String name , DataHandler handler );2;1;6
+SoapMessage.setSource( Source source );1;0;3
+SoapMessage.setFault( SoapFault fault );1;0;3
+SoapMessage.hasAttachments( );2;3;3
+SoapMessage.getBodyName( );1;0;3
+SoapMessage.getFault( );1;0;3
+SoapMessage.setBodyName( QName bodyName );1;0;3
+SoapMessage.setHeaders( Map headers );1;0;3
+SoapMessage.addPrincipal( Principal principal );2;1;6
+SoapMessage.getDocument( );1;0;3
+SoapMessage.getSource( );1;0;3
+SoapMessage.setSubject( Subject subject );1;0;3
+SoapMessage.setDocument( Document document );1;0;3
+SoapMessage.getAttachments( );1;0;3
+SoapMessage.addHeader( QName name , DocumentFragment header );2;1;6
+SoapMessage.getEnvelopeName( );1;0;3
+SoapMessage.getSubject( );1;0;3
+SoapMessage.setEnvelopeName( QName envelopeName );1;0;3
+SoapMessage.setAttachments( Map attachments );1;0;3

@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WixTask.isOutOfDate( File t , File s , Collection l );2;2;3
+WixTask.setMode( Mode m );1;0;3
+WixTask.doCandle( );7;4;29
+WixTask.isOutOfDate( File t , Collection l );3;1;10
+Mode.getValues( );1;0;3
+WixTask.doLight( Collection lightSources , Collection moreLightSources );2;0;7
+WixTask.addSources( FileSet fs );1;0;3
+WixTask.addMoreSources( FileSet fs );1;0;3
+WixTask.WixTask( );1;0;3
+WixTask.setSource( File f );1;0;3
+WixTask.setWixobjDestDir( File f );1;0;3
+WixTask.setVm( String value );1;0;3
+WixTask.setTarget( File f );1;0;3
+WixTask.runLight( Collection s );1;0;3
+WixTask.addCandleParameter( AbstractBuildTask . Property t );1;0;3
+WixTask.execute( );13;15;37
+WixTask.setWixHome( File f );1;0;3
+WixTask.getTarget( File s );3;3;11
+WixTask.runCandle( Collection s );1;0;3
+WixTask.grabFiles( Collection s );3;2;14
+WixTask.wixExecutable( String name );2;1;4
+WixTask.run( String executable , Collection s , File target , File runInDir , Collection params );5;2;26
+Mode.Mode( );1;0;3

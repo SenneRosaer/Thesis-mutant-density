@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JdkClientHttpConnector.JdkClientHttpConnector( );1;0;3
+JdkClientHttpConnector.connect( HttpMethod method , URI uri , Function < ? super ClientHttpRequest , Mono < Void > > requestCallback );1;0;10
+JdkClientHttpConnector.JdkClientHttpConnector( HttpClient . Builder clientBuilder , @ Nullable JdkHttpClientResourceFactory resourceFactory );2;1;7
+JdkClientHttpConnector.setBufferFactory( DataBufferFactory bufferFactory );1;0;4
+JdkClientHttpConnector.JdkClientHttpConnector( HttpClient httpClient );1;0;3

@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FormsVariables.getVariable( String name );2;0;9
+FormsVariables.addDeprecatedVariable( String name );1;0;3
+FormsPipelineConfig.setLocale( Locale locale );1;0;3
+FormsVariables.declareVariable( String name , Object value );1;0;3
+FormsVariables.undeclareVariable( String name );1;0;3
+FormsPipelineConfig.translateText( String original );10;10;45
+FormsPipelineConfig.setFormMethod( String method );1;0;3
+FormsPipelineConfig.findForm( String jxpathExpression );9;7;27
+FormsPipelineConfig.getFormAction( );1;0;3
+FormsPipelineConfig.getLocaleParameter( );1;0;3
+FormsPipelineConfig.FormsPipelineConfig( JXPathContext jxpc , Request req , Locale localeParam , String attName , String actionExpression , String method );1;0;8
+FormsPipelineConfig.createConfig( Map objectModel , Parameters parameters );3;2;35
+FormsPipelineConfig.evaluateExpression( String expression );1;0;3
+FormsPipelineConfig.addFormAttributes( AttributesImpl attrs );3;2;8
+FormsPipelineConfig.getFormMethod( );1;0;3
+FormsVariables.isDeclaredVariable( String name );1;0;3
+FormsPipelineConfig.findForm( );1;0;3
+FormsPipelineConfig.getFormAttributes( );1;0;5
+FormsPipelineConfig.getLocale( );1;0;3

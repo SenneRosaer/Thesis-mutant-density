@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandardJmsActivationSpecFactory.setActivationSpecClass( Class < ? > activationSpecClass );1;0;3
+StandardJmsActivationSpecFactory.determineActivationSpecClass( ResourceAdapter adapter );1;0;3
+StandardJmsActivationSpecFactory.populateActivationSpecProperties( BeanWrapper bw , JmsActivationSpecConfig config );12;5;37
+StandardJmsActivationSpecFactory.createActivationSpec( ResourceAdapter adapter , JmsActivationSpecConfig config );5;3;16
+StandardJmsActivationSpecFactory.setDestinationResolver( @ Nullable DestinationResolver destinationResolver );1;0;3
+StandardJmsActivationSpecFactory.applyAcknowledgeMode( BeanWrapper bw , int ackMode );6;4;17
+StandardJmsActivationSpecFactory.setDefaultProperties( Map < String , String > defaultProperties );1;0;3
+StandardJmsActivationSpecFactory.getDestinationResolver( );1;0;3

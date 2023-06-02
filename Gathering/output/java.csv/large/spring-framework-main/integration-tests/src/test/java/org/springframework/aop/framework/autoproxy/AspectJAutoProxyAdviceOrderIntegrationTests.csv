@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AfterAdviceLastTests.afterAdviceIsInvokedLast( @ Autowired Echo echo , @ Autowired AfterAdviceLastAspect aspect );1;0;8
+AfterAdviceLastAspect.after( );1;0;3
+AfterAdviceFirstConfig.echo( );1;0;3
+Echo.echo( Object obj );2;0;6
+AfterAdviceLastAspect.afterThrowing( );1;0;3
+AfterAdviceFirstAspect.afterReturning( );1;0;3
+AfterAdviceFirstAspect.echo( );1;0;2
+AfterAdviceLastAspect.echo( );1;0;2
+AfterAdviceFirstAspect.around( ProceedingJoinPoint joinPoint );1;0;9
+AfterAdviceLastConfig.echo( );1;0;3
+AfterAdviceFirstTests.afterAdviceIsInvokedLast( @ Autowired Echo echo , @ Autowired AfterAdviceFirstAspect aspect );1;0;8
+AfterAdviceFirstAspect.after( );1;0;3
+AfterAdviceFirstAspect.before( );1;0;3
+AfterAdviceFirstAspect.afterThrowing( );1;0;3
+AfterAdviceFirstConfig.echoAspect( );1;0;3
+AfterAdviceLastConfig.echoAspect( );1;0;3
+AfterAdviceLastAspect.around( ProceedingJoinPoint joinPoint );1;0;9
+AfterAdviceLastAspect.afterReturning( );1;0;3
+AfterAdviceLastAspect.before( );1;0;3

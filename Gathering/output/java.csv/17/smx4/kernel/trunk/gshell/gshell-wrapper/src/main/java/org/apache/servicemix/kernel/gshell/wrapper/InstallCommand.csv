@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InstallCommand.setName( String name );1;0;3
+InstallCommand.safeClose( OutputStream is );3;1;8
+InstallCommand.getStartType( );1;0;3
+InstallCommand.getDescription( );1;0;3
+InstallCommand.copyFilteredResourceTo( File outFile , String resource , HashMap < String , String > props );3;1;23
+InstallCommand.filter( String line , HashMap < String , String > props );3;4;11
+InstallCommand.setDescription( String description );1;0;3
+InstallCommand.chmod( File serviceFile , String mode );1;0;11
+InstallCommand.setDisplayName( String displayName );1;0;3
+InstallCommand.getDisplayName( );2;1;6
+InstallCommand.mkdir( File file );2;1;6
+InstallCommand.doExecute( );8;0;132
+InstallCommand.getName( );2;1;7
+InstallCommand.copyResourceTo( File outFile , String resource , boolean text );5;2;35
+InstallCommand.safeClose( InputStream is );3;1;8
+InstallCommand.setStartType( String startType );1;0;3

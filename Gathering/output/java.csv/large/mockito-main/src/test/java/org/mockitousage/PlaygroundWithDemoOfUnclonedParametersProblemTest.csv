@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PlaygroundWithDemoOfUnclonedParametersProblemTest.byCheckingLogEquals( final ImportLogBean status );1;0;9
+ImportLogBean.setStatus( int status );1;0;3
+PlaygroundWithDemoOfUnclonedParametersProblemTest.shouldAlterFinalLog( );1;0;13
+ImportManager.finalizeResume( ImportLogBean importLogBean );1;0;3
+ImportManager.startImportProcess( int importType , Date date );5;2;15
+PlaygroundWithDemoOfUnclonedParametersProblemTest.answer( InvocationOnMock invocation );1;0;5
+ImportLogBean.equals( Object o );7;7;11
+ImportLogBean.hashCode( );2;5;6
+PlaygroundWithDemoOfUnclonedParametersProblemTest.setUp( );1;0;5
+PlaygroundWithDemoOfUnclonedParametersProblemTest.shouldIncludeInitialLog( );1;0;13
+ImportManager.createResume( int importType , Date date );1;0;6
+ImportManager.isOkToImport( int importType , Date date );1;0;3
+ImportLogBean.ImportLogBean( Date currentDate , int importType );1;0;4
+ImportManager.ImportManager( ImportLogDao pImportLogDao );1;0;4

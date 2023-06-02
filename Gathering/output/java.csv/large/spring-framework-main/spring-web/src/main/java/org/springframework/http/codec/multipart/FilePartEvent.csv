@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+create( String name , Resource resource );1;0;3
+create( String name , Path path );1;0;3
+create( String partName , String filename , MediaType contentType , Flux < DataBuffer > contents );1;0;3
+create( String name , Path path , @ Nullable Consumer < HttpHeaders > headersConsumer );2;1;15
+create( String partName , String filename , MediaType contentType , Flux < DataBuffer > contents , @ Nullable Consumer < HttpHeaders > headersConsumer );2;1;19
+create( String name , Resource resource , @ Nullable Consumer < HttpHeaders > headersConsumer );2;0;8
+filename( );1;1;5

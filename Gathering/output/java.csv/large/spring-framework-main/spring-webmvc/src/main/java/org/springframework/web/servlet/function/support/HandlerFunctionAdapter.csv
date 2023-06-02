@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HandlerFunctionAdapter.getLastModified( HttpServletRequest request , Object handler );1;1;3
+HandlerFunctionAdapter.setAsyncRequestTimeout( long timeout );1;0;3
+ServerRequestContext.messageConverters( );1;0;3
+ServerRequestContext.ServerRequestContext( ServerRequest serverRequest );1;0;3
+HandlerFunctionAdapter.getServerRequest( HttpServletRequest servletRequest );1;1;7
+HandlerFunctionAdapter.getWebAsyncManager( HttpServletRequest servletRequest , HttpServletResponse servletResponse );1;0;7
+HandlerFunctionAdapter.supports( Object handler );1;0;3
+HandlerFunctionAdapter.handle( HttpServletRequest servletRequest , HttpServletResponse servletResponse , Object handler );5;1;18
+HandlerFunctionAdapter.getOrder( );1;0;3
+HandlerFunctionAdapter.setOrder( int order );1;0;3
+HandlerFunctionAdapter.handleAsync( WebAsyncManager asyncManager );5;2;23

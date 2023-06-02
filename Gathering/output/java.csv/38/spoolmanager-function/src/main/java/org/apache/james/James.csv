@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+James.setAttribute( String key , Object object );1;0;3
+James.getMailServers( String host );2;0;7
+James.initializeServices( );12;0;44
+James.isLocalEmail( MailAddress mailAddress );3;2;10
+James.log( String message );1;0;3
+James.removeAttribute( String key );1;0;3
+James.getUserInbox( String userName );11;11;37
+James.sendMail( MailAddress sender , Collection recipients , MimeMessage message );1;0;3
+James.setFileSystem( FileSystem system );1;0;3
+***not in a method***;0;1;0
+James.log( String message , Throwable t );1;0;3
+James.sendMail( MailAddress sender , Collection recipients , MimeMessage message , String state );1;0;9
+James.getSMTPHostAddresses( String domainName );2;0;7
+James.service( ServiceManager comp );1;0;6
+James.configure( Configuration conf );1;0;3
+James.getPostmaster( );1;0;3
+James.getMailetLogger( );2;1;6
+James.setLocalusers( UsersRepository localusers );1;0;3
+James.sendMail( MimeMessage message );4;3;13
+James.getAttribute( String key );1;0;3
+James.addUser( String userName , String password );1;0;3
+James.getDefaultDomain( );4;3;12
+James.bounce( Mail mail , String message , MailAddress bouncer );4;1;16
+James.initializeServernamesAndPostmaster( );11;10;37
+James.getAttributeNames( );2;0;7
+James.isLocalServer( final String serverName );3;1;8
+James.getHelloName( );3;2;12
+James.getServerInfo( );1;0;3
+James.setStore( Store store );1;0;3
+James.rawBounce( Mail mail , String bounceText );1;0;18
+James.initialize( );16;8;85
+James.supportVirtualHosting( );1;0;3
+James.main( String [ ] args );1;0;6
+James.initializeLocalDeliveryMailet( );1;0;9
+James.getMajorVersion( );1;0;3
+James.storeMail( MailAddress sender , MailAddress recipient , MimeMessage msg );3;2;13
+James.sendMail( Mail mail );4;0;21
+James.lookupDNSServer( );2;0;10
+James.bounce( Mail mail , String message );1;0;3
+James.isLocalUser( String name );4;3;15
+James.getId( );1;1;13
+James.setSpool( SpoolRepository spool );1;0;3
+James.sendMail( MailAddress sender , Collection recipients , InputStream msg );2;1;8
+James.getMinorVersion( );1;0;3

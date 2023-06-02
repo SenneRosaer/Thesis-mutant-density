@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Unit.isSpecial( );1;2;3
+Unit.addSIname( int si , String name , StringBuffer numerator , StringBuffer denominator );5;4;14
+Unit.find( long type );5;6;20
+Unit.mul( Unit that );3;3;7
+Unit.sub( Unit that );2;1;7
+Unit.toString( );4;27;31
+Unit.hashCode( );1;2;3
+Unit.equals( Object obj );3;3;9
+Unit.createType( int x , int rad , int cd , int mol , int A , int K , int kg , int s , int m );1;33;11
+Unit.Unit( String name , long type );1;0;4
+***not in a method***;0;24;0
+Unit.add( Unit that );2;1;6
+Unit.div( Unit that );4;4;10

@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BridgeElementParser.getConfigurationLocation( );1;0;3
+BridgeElementParser.prepareSelector( PipelineComponentInfo info , ConfigurationInfo configInfo , String category );2;1;6
+BridgeElementParser.addContext( Element element , BeanDefinitionRegistry registry );1;0;7
+BridgeElementParser.readConfiguration( String location , ResourceLoader resourceLoader );1;0;3
+BridgeElementParser.parse( Element element , ParserContext parserContext );2;0;15
+BridgeElementParser.addLogger( BeanDefinitionRegistry registry , String loggerCategory );2;1;7
+BridgeElementParser.registerComponentInfo( ConfigurationInfo configInfo , BeanDefinitionRegistry registry );3;1;40
+BridgeElementParser.createConfig( ConfigurationInfo info , BeanDefinitionRegistry registry );22;13;95
+BridgeElementParser.createComponents( Element element , ConfigurationInfo info , BeanDefinitionRegistry registry , BeanDefinitionReader reader , ResourceLoader resourceLoader );3;1;31

@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EncodedResourceResolver.getExtension( String coding );2;1;7
+EncodedResource.getURI( );1;0;3
+EncodedResource.EncodedResource( Resource original , String coding , String extension );1;1;5
+EncodedResource.createRelative( String relativePath );1;0;3
+EncodedResource.getURL( );1;0;3
+EncodedResourceResolver.getContentCodings( );1;0;3
+EncodedResourceResolver.registerExtension( String coding , String extension );2;0;3
+EncodedResourceResolver.setContentCodings( List < String > codings );1;0;5
+EncodedResource.exists( );1;0;3
+EncodedResource.contentLength( );1;0;3
+EncodedResourceResolver.resolveResourceInternal( @ Nullable HttpServletRequest request , String requestPath , List < ? extends Resource > locations , ResourceResolverChain chain );9;4;27
+EncodedResource.getFilename( );1;0;3
+EncodedResource.isReadable( );1;0;3
+EncodedResource.lastModified( );1;0;3
+EncodedResourceResolver.getAcceptEncoding( HttpServletRequest request );2;1;4
+EncodedResource.getResponseHeaders( );2;0;12
+EncodedResource.getFile( );1;0;3
+EncodedResourceResolver.setExtensions( Map < String , String > extensions );1;0;3
+EncodedResource.getDescription( );1;0;3
+EncodedResource.isOpen( );1;0;3
+EncodedResourceResolver.EncodedResourceResolver( );1;0;4
+EncodedResourceResolver.getExtensions( );1;0;3
+EncodedResource.getInputStream( );1;0;3
+EncodedResource.isFile( );1;0;3
+EncodedResourceResolver.resolveUrlPathInternal( String resourceUrlPath , List < ? extends Resource > locations , ResourceResolverChain chain );1;0;3

@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SourceUtil.getMimeType( String sourceUri , ServiceManager manager );3;2;16
+SourceUtil.delete( String sourceUri , ServiceManager manager );4;2;18
+SourceUtil.writeDOM( Document document , OutputStream oStream );3;1;11
+SourceUtil.copy( ServiceManager manager , String sourceUri , String destUri );2;1;11
+SourceUtil.readDOM( String sourceUri , ServiceManager manager );4;2;20
+SourceUtil.checkout( String sourceUri , ServiceManager manager );3;2;16
+SourceUtil.copy( SourceResolver resolver , String sourceUri , String destUri , boolean useBuffer );4;3;16
+SourceUtil.exists( String sourceUri , ServiceManager manager );3;2;16
+SourceUtil.lock( String sourceUri , ServiceManager manager );5;2;20
+SourceUtil.unlock( String sourceUri , ServiceManager manager );5;2;20
+SourceUtil.copy( SourceResolver resolver , String sourceUri , String destUri );1;0;3
+SourceUtil.checkin( String sourceUri , ServiceManager manager );3;2;16
+SourceUtil.copy( Source source , ModifiableSource destination , boolean useBuffer );4;2;23
+SourceUtil.copy( SourceResolver resolver , String sourceUri , OutputStream destOutputStream );5;3;27
+SourceUtil.writeDOM( Document document , String sourceUri , ServiceManager manager );3;2;17
+SourceUtil.getLastModified( String sourceUri , ServiceManager manager );3;2;16
+SourceUtil.deleteEmptyCollections( String sourceUri , ServiceManager manager );6;3;24
+SourceUtil.registerDirty( String sourceUri , ServiceManager manager );4;2;18
+SourceUtil.getContentLength( String sourceUri , ServiceManager manager );3;2;16

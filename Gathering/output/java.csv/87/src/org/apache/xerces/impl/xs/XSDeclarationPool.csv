@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSDeclarationPool.ensureSTDeclCapacity( int chunk );3;3;9
+XSDeclarationPool.ensureAttributeUseCapacity( int chunk );3;3;9
+***not in a method***;0;4;0
+XSDeclarationPool.resize( XSElementDecl array [ ] [ ] , int newsize );1;0;5
+XSDeclarationPool.ensureAttrDeclCapacity( int chunk );3;3;9
+XSDeclarationPool.getModelGroup( );2;4;12
+XSDeclarationPool.ensureCTDeclCapacity( int chunk );3;3;9
+XSDeclarationPool.resize( XSModelGroupImpl array [ ] [ ] , int newsize );1;0;5
+XSDeclarationPool.getAttributeDecl( );2;4;12
+XSDeclarationPool.resize( XSAttributeDecl array [ ] [ ] , int newsize );1;0;5
+XSDeclarationPool.ensureElementDeclCapacity( int chunk );3;3;9
+XSDeclarationPool.resize( XSParticleDecl array [ ] [ ] , int newsize );1;0;5
+XSDeclarationPool.ensureParticleDeclCapacity( int chunk );3;3;9
+XSDeclarationPool.resize( XSAttributeUseImpl array [ ] [ ] , int newsize );1;0;5
+XSDeclarationPool.reset( );1;0;9
+XSDeclarationPool.getParticleDecl( );2;4;12
+XSDeclarationPool.getComplexTypeDecl( );2;4;12
+XSDeclarationPool.resize( XSSimpleTypeDecl array [ ] [ ] , int newsize );1;0;5
+XSDeclarationPool.getElementDecl( );2;4;12
+XSDeclarationPool.ensureModelGroupCapacity( int chunk );3;3;9
+XSDeclarationPool.resize( XSComplexTypeDecl array [ ] [ ] , int newsize );1;0;5
+XSDeclarationPool.getSimpleTypeDecl( );2;4;12
+XSDeclarationPool.getAttributeUse( );2;4;12

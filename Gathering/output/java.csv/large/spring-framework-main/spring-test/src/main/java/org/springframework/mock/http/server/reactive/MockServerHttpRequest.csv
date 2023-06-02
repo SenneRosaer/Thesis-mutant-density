@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockServerHttpRequest.method( HttpMethod method , URI url );1;0;5
+MockServerHttpRequest.getLocalAddress( );1;0;3
+MockServerHttpRequest.MockServerHttpRequest( HttpMethod httpMethod , URI uri , @ Nullable String contextPath , HttpHeaders headers , MultiValueMap < String , HttpCookie > cookies , @ Nullable InetSocketAddress localAddress , @ Nullable InetSocketAddress remoteAddress , @ Nullable SslInfo sslInfo , Publisher < ? extends DataBuffer > body );1;0;9
+DefaultBodyBuilder.cookie( HttpCookie ... cookies );1;0;4
+DefaultBodyBuilder.localAddress( InetSocketAddress localAddress );1;0;4
+MockServerHttpRequest.head( String urlTemplate , Object ... uriVars );1;0;3
+DefaultBodyBuilder.queryParam( String name , Object ... values );1;0;4
+MockServerHttpRequest.toUri( String uri , Object [ ] vars );1;0;3
+DefaultBodyBuilder.contextPath( String contextPath );1;0;4
+DefaultBodyBuilder.header( String headerName , String ... headerValues );2;0;6
+DefaultBodyBuilder.remoteAddress( InetSocketAddress remoteAddress );1;0;4
+MockServerHttpRequest.initSslInfo( );1;0;3
+MockServerHttpRequest.options( String urlTemplate , Object ... uriVars );1;0;3
+DefaultBodyBuilder.acceptCharset( Charset ... acceptableCharsets );1;0;4
+MockServerHttpRequest.getBody( );1;0;3
+MockServerHttpRequest.patch( String urlTemplate , Object ... uriVars );1;0;3
+MockServerHttpRequest.delete( String urlTemplate , Object ... uriVars );1;0;3
+DefaultBodyBuilder.contentType( MediaType contentType );1;0;4
+MockServerHttpRequest.getNativeRequest( );1;0;3
+MockServerHttpRequest.put( String urlTemplate , Object ... uriVars );1;0;3
+DefaultBodyBuilder.getUrlToUse( );2;1;8
+MockServerHttpRequest.method( HttpMethod method , String uri , Object ... vars );1;0;3
+DefaultBodyBuilder.ifUnmodifiedSince( long ifUnmodifiedSince );1;0;4
+DefaultBodyBuilder.cookies( MultiValueMap < String , HttpCookie > cookies );1;0;4
+MockServerHttpRequest.get( String urlTemplate , Object ... uriVars );1;0;3
+DefaultBodyBuilder.queryParams( MultiValueMap < String , String > params );1;0;4
+DefaultBodyBuilder.range( HttpRange ... ranges );1;0;4
+MockServerHttpRequest.getMethod( );1;0;3
+DefaultBodyBuilder.accept( MediaType ... acceptableMediaTypes );1;0;4
+MockServerHttpRequest.getRemoteAddress( );1;0;3
+DefaultBodyBuilder.body( String body );1;0;5
+DefaultBodyBuilder.build( );1;0;3
+DefaultBodyBuilder.ifNoneMatch( String ... ifNoneMatches );1;0;4
+DefaultBodyBuilder.sslInfo( SslInfo sslInfo );1;0;3
+DefaultBodyBuilder.ifModifiedSince( long ifModifiedSince );1;0;4
+DefaultBodyBuilder.DefaultBodyBuilder( HttpMethod method , URI url );1;0;4
+DefaultBodyBuilder.body( Publisher < ? extends DataBuffer > body );1;0;5
+DefaultBodyBuilder.acceptLanguageAsLocales( Locale ... acceptableLocales );1;0;4
+DefaultBodyBuilder.contentLength( long contentLength );1;0;4
+DefaultBodyBuilder.headers( MultiValueMap < String , String > headers );1;0;4
+MockServerHttpRequest.method( String httpMethod , String uri , Object ... vars );1;0;4
+DefaultBodyBuilder.applyCookiesIfNecessary( );2;1;6
+MockServerHttpRequest.post( String urlTemplate , Object ... uriVars );1;0;3
+MockServerHttpRequest.initCookies( );1;0;3
+DefaultBodyBuilder.getCharset( );1;0;4

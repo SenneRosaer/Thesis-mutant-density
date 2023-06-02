@@ -1,0 +1,69 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Builder.setBlah( SecondMsg . Builder builderForValue );2;2;10
+Builder.clearFoo( );1;1;6
+Msg.parseFrom( com . google . protobuf . CodedInputStream input , com . google . protobuf . ExtensionRegistryLite extensionRegistry );1;0;3
+Msg.parseFrom( java . io . InputStream input );1;0;3
+Builder.create( );1;0;3
+Builder.maybeForceBuilderInitialization( );2;0;5
+Builder.Builder( com . google . protobuf . GeneratedMessage . BuilderParent parent );1;0;4
+Msg.getFooBytes( );2;0;12
+Builder.mergeFrom( Msg other );4;2;13
+Msg.getDescriptor( );1;0;3
+Builder.build( );2;1;7
+Msg.toBuilder( );1;0;1
+Builder.setBlah( SecondMsg value );3;3;13
+Builder.getDescriptor( );1;0;3
+Msg.parseFrom( java . io . InputStream input , com . google . protobuf . ExtensionRegistryLite extensionRegistry );1;0;3
+Msg.isInitialized( );2;3;6
+Msg.getDefaultInstanceForType( );1;0;3
+Msg.parseFrom( com . google . protobuf . CodedInputStream input );1;0;3
+Msg.parseFrom( byte [ ] data , com . google . protobuf . ExtensionRegistryLite extensionRegistry );1;0;3
+Builder.Builder( );1;0;3
+Msg.getFoo( );3;0;14
+Builder.clone( );1;0;3
+Msg.parseFrom( com . google . protobuf . ByteString data , com . google . protobuf . ExtensionRegistryLite extensionRegistry );1;0;3
+Msg.writeTo( com . google . protobuf . CodedOutputStream output );3;4;10
+Builder.clear( );2;3;12
+Builder.buildPartial( );4;7;20
+Msg.getBlahOrBuilder( );1;0;3
+Msg.Msg( boolean noInit );1;0;1
+Msg.getBlah( );1;0;3
+Msg.Msg( com . google . protobuf . GeneratedMessage . Builder < ? > builder );1;0;4
+Msg.parsePartialFrom( com . google . protobuf . CodedInputStream input , com . google . protobuf . ExtensionRegistryLite extensionRegistry );1;0;3
+Msg.newBuilder( );1;0;1
+Msg.parseFrom( byte [ ] data );1;0;3
+Msg.internalGetFieldAccessorTable( );1;0;5
+Msg.parseDelimitedFrom( java . io . InputStream input , com . google . protobuf . ExtensionRegistryLite extensionRegistry );1;0;3
+Msg.hasFoo( );1;2;3
+Msg.getParserForType( );1;0;3
+Builder.getDescriptorForType( );1;0;3
+Builder.getBlahFieldBuilder( );2;1;10
+Builder.mergeFrom( com . google . protobuf . CodedInputStream input , com . google . protobuf . ExtensionRegistryLite extensionRegistry );3;1;14
+Builder.getDefaultInstanceForType( );1;0;3
+Msg.parseDelimitedFrom( java . io . InputStream input );1;0;3
+Msg.newBuilderForType( );1;0;1
+Builder.getFooBytes( );2;0;12
+Builder.hasFoo( );1;2;3
+Builder.getBlahOrBuilder( );2;1;7
+Builder.mergeFrom( com . google . protobuf . Message other );2;0;8
+Msg.Msg( com . google . protobuf . CodedInputStream input , com . google . protobuf . ExtensionRegistryLite extensionRegistry );10;7;51
+***not in a method***;0;2;0
+Builder.mergeBlah( SecondMsg value );4;6;16
+Msg.getUnknownFields( );1;0;3
+Msg.initFields( );1;0;4
+Builder.getBlah( );2;1;7
+Builder.setFoo( String value );2;2;9
+Msg.writeReplace( );1;0;3
+Builder.getFoo( );2;1;11
+Msg.parseFrom( com . google . protobuf . ByteString data );1;0;3
+Msg.newBuilder( Msg prototype );1;0;3
+Msg.hasBlah( );1;2;3
+Msg.newBuilderForType( com . google . protobuf . GeneratedMessage . BuilderParent parent );1;0;4
+Builder.isInitialized( );1;0;3
+Builder.internalGetFieldAccessorTable( );1;0;5
+Msg.getSerializedSize( );4;9;16
+Builder.clearBlah( );2;2;10
+Msg.getDefaultInstance( );1;0;3
+Builder.getBlahBuilder( );1;1;5
+Builder.hasBlah( );1;2;3
+Builder.setFooBytes( com . google . protobuf . ByteString value );2;2;9

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FallbackSourceFactory.contextualize( org . apache . avalon . framework . context . Context _context );1;0;3
+FallbackSourceFactory.getPublicationId( );4;2;17
+FallbackSourceFactory.getStore( );3;1;10
+FallbackSourceFactory.findSource( final String location , Map parameters );10;6;60
+FallbackSourceFactory.service( ServiceManager _manager );1;0;3
+FallbackSourceFactory.getCacheKey( final String pubId , final String fallbackUri );2;2;4
+FallbackSourceFactory.getSourceVisitor( );1;0;3
+FallbackSourceFactory.useCache( );2;1;6
+FallbackSourceFactory.release( Source source );4;1;15
+FallbackSourceFactory.absolutize( String baseURI , String location );1;0;3
+FallbackSourceFactory.getSource( final String location , Map parameters );7;2;38

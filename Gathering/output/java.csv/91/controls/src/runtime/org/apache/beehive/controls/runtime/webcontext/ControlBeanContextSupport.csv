@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ControlBeanContextSupport.propertyChange( PropertyChangeEvent pce );1;0;3
+ControlBeanContextSupport.containsAll( Collection c );1;0;3
+ControlBeanContextSupport.internalAdd( Object o , boolean publicApi );12;2;48
+ControlBeanContextSupport.getResourceAsStream( String name , BeanContextChild bcc );4;4;11
+ControlBeanContextSupport.writeChildren( ObjectOutputStream oos );6;2;17
+ControlBeanContextSupport.removeBeanContextMembershipListener( BeanContextMembershipListener bcml );1;0;3
+ControlBeanContextSupport.addBeanContextMembershipListener( BeanContextMembershipListener bcml );1;0;3
+BCChild.hasProxy( );1;1;3
+ControlBeanContextSupport.avoidingGui( );2;2;3
+ControlBeanContextSupport.ControlBeanContextSupport( BeanContext peer );1;0;4
+ControlBeanContextSupport.vetoableChange( PropertyChangeEvent pce );1;0;3
+ControlBeanContextSupport.isEmpty( );1;0;3
+BCChild.isProxy( );1;0;3
+BCChild.isSerializable( );1;0;3
+ControlBeanContextSupport.size( );1;0;3
+BCChild.BCChild( BeanContextProxy proxy , BeanContextChild child , boolean isProxy );3;4;8
+ControlBeanContextSupport.setDesignTime( boolean designTime );2;2;5
+ControlBeanContextSupport.add( Object o );1;0;3
+BCChild.getProxy( );1;0;3
+ControlBeanContextSupport.dontUseGui( );4;1;9
+BCChild.BCChild( Object child );1;2;8
+ControlBeanContextSupport.internalRemove( Object o , boolean publicApi );10;2;38
+ControlBeanContextSupport.retainAll( Collection c );1;0;3
+ControlBeanContextSupport.iterator( );1;0;3
+ControlBeanContextSupport.isDesignTime( );1;0;3
+ControlBeanContextSupport.toArray( );1;0;3
+ControlBeanContextSupport.ControlBeanContextSupport( );1;0;4
+ControlBeanContextSupport.vetoableChange( PropertyChangeEvent evt );3;1;5
+ControlBeanContextSupport.addAll( Collection c );1;0;3
+ControlBeanContextSupport.okToUseGui( );4;0;9
+ControlBeanContextSupport.readChildren( ObjectInputStream in );2;2;6
+BCChild.getChild( );1;0;3
+ControlBeanContextSupport.contains( Object o );1;0;3
+ControlBeanContextSupport.needsGui( );6;2;14
+ControlBeanContextSupport.propertyChange( PropertyChangeEvent evt );5;3;8
+ControlBeanContextSupport.readObject( ObjectInputStream in );3;2;11
+ControlBeanContextSupport.clear( );1;0;3
+ControlBeanContextSupport.initialize( );1;0;14
+ControlBeanContextSupport.removeAll( Collection c );1;0;3
+ControlBeanContextSupport.writeObject( ObjectOutputStream out );7;2;21
+ControlBeanContextSupport.remove( Object o );1;0;3
+ControlBeanContextSupport.getResource( String name , BeanContextChild bcc );4;4;11
+ControlBeanContextSupport.toArray( Object [ ] a );1;0;3
+ControlBeanContextSupport.instantiateChild( String beanName );1;0;4
+ControlBeanContextSupport.fireMembershipEvent( BeanContextMembershipEvent bcme , boolean childrenAdded );3;0;10

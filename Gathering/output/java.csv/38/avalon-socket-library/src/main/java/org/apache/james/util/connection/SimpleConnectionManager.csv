@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleConnectionManager.service( ServiceManager componentManager );1;0;3
+SimpleConnectionManager.getMaximumNumberOfOpenConnectionsPerIP( );1;0;3
+SimpleConnectionManager.connect( String name , ServerSocket socket , ConnectionHandlerFactory handlerFactory , ThreadPool threadPool , int maxOpenConnections , int maxOpenConnectionsPerIP );5;3;20
+SimpleConnectionManager.dispose( );6;2;20
+SimpleConnectionManager.setThreadManager( ThreadManager threadManager );1;0;3
+SimpleConnectionManager.connect( String name , ServerSocket socket , ConnectionHandlerFactory handlerFactory , ThreadPool threadPool , int maxOpenConnections );1;0;3
+SimpleConnectionManager.disconnect( final String name , final boolean tearDown );2;1;7
+SimpleConnectionManager.connect( String name , ServerSocket socket , ConnectionHandlerFactory handlerFactory , int maxOpenConnections , int maxOpenConnectionsPerIP );1;0;3
+***not in a method***;0;2;0
+SimpleConnectionManager.disconnect( final String name );1;0;3
+SimpleConnectionManager.connect( String name , ServerSocket socket , ConnectionHandlerFactory handlerFactory );1;0;3
+SimpleConnectionManager.connect( String name , ServerSocket socket , ConnectionHandlerFactory handlerFactory , int maxOpenConnections );1;0;3
+SimpleConnectionManager.connect( String name , ServerSocket socket , ConnectionHandlerFactory handlerFactory , ThreadPool threadPool );1;0;3
+SimpleConnectionManager.configure( final Configuration configuration );7;5;32
+SimpleConnectionManager.getMaximumNumberOfOpenConnections( );1;0;3

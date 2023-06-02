@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletModelAttributeMethodProcessor.bindRequestParameters( WebDataBinder binder , NativeWebRequest request );1;1;6
+ServletModelAttributeMethodProcessor.createAttribute( String attributeName , MethodParameter parameter , WebDataBinderFactory binderFactory , NativeWebRequest request );3;2;11
+ServletModelAttributeMethodProcessor.ServletModelAttributeMethodProcessor( boolean annotationNotRequired );1;0;3
+ServletModelAttributeMethodProcessor.createAttributeFromRequestValue( String sourceValue , String attributeName , MethodParameter parameter , WebDataBinderFactory binderFactory , NativeWebRequest request );3;1;12
+ServletModelAttributeMethodProcessor.getRequestValueForAttribute( String attributeName , NativeWebRequest request );3;0;12
+ServletModelAttributeMethodProcessor.getUriTemplateVariables( NativeWebRequest request );2;1;6
+ServletModelAttributeMethodProcessor.resolveConstructorArgument( String paramName , Class < ? > paramType , NativeWebRequest request );3;2;14

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SampleResultConverter.writeString( HierarchicalStreamWriter writer , String tag , String value );2;1;8
+SampleResultConverter.saveAssertions( HierarchicalStreamWriter writer , MarshallingContext context , SampleResult res , SampleSaveConfiguration save );3;2;8
+SampleResultConverter.canConvert( Class arg0 );1;0;3
+SampleResultConverter.retrieveItem( HierarchicalStreamReader reader , UnmarshallingContext context , SampleResult res , Object subItem );10;1;30
+SampleResultConverter.saveResponseData( HierarchicalStreamWriter writer , MarshallingContext context , SampleResult res , SampleSaveConfiguration save );5;0;20
+SampleResultConverter.retrieveAttributes( HierarchicalStreamReader reader , UnmarshallingContext context , SampleResult res );2;1;22
+SampleResultConverter.saveResponseHeaders( HierarchicalStreamWriter writer , MarshallingContext context , SampleResult res , SampleSaveConfiguration save );2;0;5
+SampleResultConverter.marshal( Object obj , HierarchicalStreamWriter writer , MarshallingContext context );1;0;11
+SampleResultConverter.SampleResultConverter( Mapper arg0 );1;0;3
+SampleResultConverter.saveRequestHeaders( HierarchicalStreamWriter writer , MarshallingContext context , SampleResult res , SampleSaveConfiguration save );2;0;5
+SampleResultConverter.readFile( String resultFileName , SampleResult res );4;1;22
+SampleResultConverter.saveSamplerData( HierarchicalStreamWriter writer , MarshallingContext context , SampleResult res , SampleSaveConfiguration save );4;1;11
+SampleResultConverter.getVersion( );1;0;3
+SampleResultConverter.setAttributes( HierarchicalStreamWriter writer , MarshallingContext context , SampleResult res , SampleSaveConfiguration save );18;4;54
+SampleResultConverter.unmarshal( HierarchicalStreamReader reader , UnmarshallingContext context );4;3;16
+SampleResultConverter.saveSubResults( HierarchicalStreamWriter writer , MarshallingContext context , SampleResult res , SampleSaveConfiguration save );3;2;9

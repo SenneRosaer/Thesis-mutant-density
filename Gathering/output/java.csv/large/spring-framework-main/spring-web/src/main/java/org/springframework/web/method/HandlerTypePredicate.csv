@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Builder.basePackage( String ... packages );1;0;4
+HandlerTypePredicate.hasSelectors( );3;5;3
+HandlerTypePredicate.forAnyHandlerType( );1;0;4
+HandlerTypePredicate.forBasePackage( String ... packages );1;0;3
+HandlerTypePredicate.HandlerTypePredicate( Set < String > basePackages , List < Class < ? > > assignableTypes , List < Class < ? extends Annotation > > annotations );1;0;5
+HandlerTypePredicate.builder( );1;0;3
+Builder.basePackageClass( Class < ? > ... packageClasses );1;0;4
+Builder.addBasePackage( String basePackage );2;0;3
+HandlerTypePredicate.forBasePackageClass( Class < ? > ... packageClasses );1;0;3
+HandlerTypePredicate.test( @ Nullable Class < ? > controllerType );11;3;23
+HandlerTypePredicate.forAnnotation( Class < ? extends Annotation > ... annotations );1;0;3
+Builder.build( );1;0;3
+Builder.assignableType( Class < ? > ... types );1;0;4
+HandlerTypePredicate.forAssignableType( Class < ? > ... types );1;0;3
+Builder.annotation( Class < ? extends Annotation > ... annotations );1;0;4

@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IndexModifier.getMaxBufferedDocs( );1;0;7
+IndexModifier.addDocument( Document doc , Analyzer docAnalyzer );2;1;10
+IndexModifier.init( Directory directory , Analyzer analyzer , boolean create );1;0;8
+IndexModifier.optimize( );1;0;7
+IndexModifier.IndexModifier( Directory directory , Analyzer analyzer , boolean create );1;0;3
+IndexModifier.docCount( );2;1;10
+IndexModifier.getUseCompoundFile( );1;0;7
+IndexModifier.toString( );1;0;3
+IndexModifier.setMergeFactor( int mergeFactor );2;1;9
+IndexModifier.createIndexWriter( );4;3;15
+IndexModifier.addDocument( Document doc );1;0;3
+IndexModifier.setInfoStream( PrintStream infoStream );2;1;9
+IndexModifier.getMergeFactor( );1;0;7
+IndexModifier.setUseCompoundFile( boolean useCompoundFile );2;1;9
+IndexModifier.getMaxFieldLength( );1;0;7
+IndexModifier.close( );4;3;14
+IndexModifier.deleteDocument( int docNum );1;0;7
+IndexModifier.getInfoStream( );1;0;7
+IndexModifier.createIndexReader( );3;2;9
+IndexModifier.setMaxBufferedDocs( int maxBufferedDocs );2;1;9
+IndexModifier.IndexModifier( File file , Analyzer analyzer , boolean create );1;0;4
+IndexModifier.flush( );2;1;14
+IndexModifier.deleteDocuments( Term term );1;0;7
+IndexModifier.setMaxFieldLength( int maxFieldLength );2;1;9
+IndexModifier.IndexModifier( String dirName , Analyzer analyzer , boolean create );1;0;4
+IndexModifier.assureOpen( );2;1;5

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PatternOperation.PatternOperation( String regex );1;0;3
+PatternOperation.createRegexp( String pattern , Project project );1;0;5
+PatternOperation.convertToRegex( StringBuffer sb );1;0;3
+PatternOperation.convertToRegex( StringBuffer sb , boolean greedy );5;4;13
+PatternOperation.toRegex( String pattern , boolean greedy );6;5;18
+CharToPattern.CharToPattern( char patternChar , String regexpPattern );1;0;4
+RecognizeCrossPlatformSeparators.process( StringBuffer sb , ParsePosition pos );4;5;11
+PreserveEscapes.process( StringBuffer sb , ParsePosition pos );2;2;8
+PatternOperation.deEscape( char c , StringBuffer sb );4;6;9
+CharToPattern.process( StringBuffer sb , ParsePosition pos );2;3;9
+PatternOperation.toRegex( String pattern );1;0;3

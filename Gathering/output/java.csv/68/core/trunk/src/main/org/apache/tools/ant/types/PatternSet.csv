@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InvertedPatternSet.InvertedPatternSet( PatternSet p );1;0;4
+NameEntry.getName( );1;0;3
+PatternSet.createIncludesFile( );2;0;6
+PatternSet.getExcludePatterns( Project p );2;0;8
+PatternSet.append( PatternSet other , Project p );6;6;18
+NameEntry.evalName( Project p );2;0;3
+PatternSet.createInclude( );2;0;6
+InvertedPatternSet.getIncludePatterns( Project p );1;0;3
+PatternSet.readFiles( Project p );9;6;34
+PatternSet.setExcludesfile( File excludesFile );2;0;6
+PatternSet.PatternSet( );1;0;3
+PatternSet.setExcludes( String excludes );5;3;11
+InvertedPatternSet.getExcludePatterns( Project p );1;0;3
+PatternSet.clone( );2;0;12
+NameEntry.valid( Project p );5;6;9
+NameEntry.setName( String name );1;0;3
+PatternSet.getRef( Project p );1;0;3
+PatternSet.addPatternToList( Vector list );1;0;5
+PatternSet.hasPatterns( Project p );5;7;8
+NameEntry.toString( );6;6;23
+PatternSet.createExclude( );2;0;6
+PatternSet.toString( );1;0;3
+PatternSet.getIncludePatterns( Project p );2;0;8
+PatternSet.createExcludesFile( );2;0;6
+PatternSet.addConfiguredInvert( PatternSet p );1;0;3
+PatternSet.makeArray( Vector list , Project p );5;4;16
+PatternSet.setIncludes( String includes );5;3;11
+PatternSet.setIncludesfile( File includesFile );2;0;6
+PatternSet.readPatterns( File patternfile , Vector patternlist , Project p );4;2;19
+PatternSet.setRefid( Reference r );3;3;6
+PatternSet.addConfiguredPatternset( PatternSet p );6;6;17
+NameEntry.setIf( String cond );1;0;3
+NameEntry.setUnless( String cond );1;0;3

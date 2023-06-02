@@ -1,0 +1,59 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ShingleMatrixFilter.ShingleMatrixFilter( TokenStream input , int minimumShingleSize , int maximumShingleSize , Character spacerCharacter , boolean ignoringSinglePrefixOrSuffixShingle , TokenSettingsCodec settingsCodec );1;0;8
+ShingleMatrixFilter.ShingleMatrixFilter( TokenStream input , int minimumShingleSize , int maximumShingleSize , Character spacerCharacter );1;0;3
+Matrix.permutationIterator( );7;0;34
+SimpleThreeDimensionalTokenSettingsCodec.setWeight( Token token , float weight );2;1;7
+Column.Column( Token token );1;0;5
+ShingleMatrixFilter.setSpacerCharacter( Character spacerCharacter );1;0;3
+Matrix.toString( );1;0;5
+OneDimensionalNonWeightedTokenSettingsCodec.getWeight( Token token );1;0;3
+ShingleMatrixFilter.setMaximumShingleSize( int maximumShingleSize );1;0;3
+Matrix.hasNext( );2;5;4
+Matrix.remove( );1;0;3
+Row.getIndex( );1;0;3
+TwoDimensionalNonWeightedSynonymTokenSettingsCodec.setTokenPositioner( Token token , TokenPositioner tokenPositioner );1;0;3
+Column.getIndex( );1;0;3
+ShingleMatrixFilter.getSpacerCharacter( );1;0;3
+Row.Row( );1;0;3
+ShingleMatrixFilter.readColumn( );8;8;33
+ShingleMatrixFilter.nextTokensPermutation( );3;3;17
+Column.Column( );2;1;9
+Column.isFirst( );1;0;3
+ShingleMatrixFilter.ShingleMatrixFilter( TokenStream input , int minimumShingleSize , int maximumShingleSize );1;0;3
+OneDimensionalNonWeightedTokenSettingsCodec.setWeight( Token token , float weight );1;0;2
+TwoDimensionalNonWeightedSynonymTokenSettingsCodec.setWeight( Token token , float weight );1;0;2
+SimpleThreeDimensionalTokenSettingsCodec.getTokenPositioner( Token token );4;0;11
+Column.isLast( );1;0;3
+TokenPositioner.getIndex( );1;0;3
+TokenPositioner.TokenPositioner( int index );1;0;3
+Matrix.getColumns( );1;0;3
+Row.toString( );2;1;6
+ShingleMatrixFilter.isIgnoringSinglePrefixOrSuffixShingle( );1;0;3
+ShingleMatrixFilter.getMinimumShingleSize( );1;0;3
+Matrix.next( );3;3;11
+Column.toString( );1;0;7
+ShingleMatrixFilter.ShingleMatrixFilter( TokenStream input , int minimumShingleSize , int maximumShingleSize , Character spacerCharacter , boolean ignoringSinglePrefixOrSuffixShingle );1;0;3
+Column.setLast( boolean last );1;0;3
+ShingleMatrixFilter.next( final Token reusableToken );30;37;89
+ShingleMatrixFilter.setMinimumShingleSize( int minimumShingleSize );1;0;3
+TwoDimensionalNonWeightedSynonymTokenSettingsCodec.getWeight( Token token );1;0;3
+OneDimensionalNonWeightedTokenSettingsCodec.setTokenPositioner( Token token , TokenPositioner tokenPositioner );1;0;2
+Column.setFirst( boolean first );1;0;3
+Matrix.incrementColumnRowCounters( );4;7;11
+ShingleMatrixFilter.calculateShingleWeight( Token shingleToken , List shingle , int currentPermutationStartOffset , List currentPermutationRows , List currentPermuationTokens );4;9;20
+ShingleMatrixFilter.setIgnoringSinglePrefixOrSuffixShingle( boolean ignoringSinglePrefixOrSuffixShingle );1;0;3
+Row.getColumn( );1;0;3
+Column.getRows( );1;0;3
+ShingleMatrixFilter.getMatrix( );1;0;3
+TwoDimensionalNonWeightedSynonymTokenSettingsCodec.getTokenPositioner( Token token );2;1;7
+ShingleMatrixFilter.updateToken( Token token , List shingle , int currentPermutationStartOffset , List currentPermutationRows , List currentPermuationTokens );1;1;8
+ShingleMatrixFilter.setMatrix( Matrix matrix );1;0;3
+Row.getTokens( );1;0;3
+SimpleThreeDimensionalTokenSettingsCodec.getWeight( Token token );3;3;7
+Column.getMatrix( );1;0;3
+ShingleMatrixFilter.reset( );1;0;5
+ShingleMatrixFilter.ShingleMatrixFilter( Matrix matrix , int minimumShingleSize , int maximumShingleSize , Character spacerCharacter , boolean ignoringSinglePrefixOrSuffixShingle , TokenSettingsCodec settingsCodec );1;0;9
+ShingleMatrixFilter.getMaximumShingleSize( );1;0;3
+Row.setTokens( List tokens );1;0;3
+OneDimensionalNonWeightedTokenSettingsCodec.getTokenPositioner( Token token );1;0;3
+SimpleThreeDimensionalTokenSettingsCodec.setTokenPositioner( Token token , TokenPositioner tokenPositioner );1;0;3

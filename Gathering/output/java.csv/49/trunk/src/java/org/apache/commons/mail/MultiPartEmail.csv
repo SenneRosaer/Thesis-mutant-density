@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultiPartEmail.setInitialized( boolean b );1;0;3
+MultiPartEmail.buildMimeMessage( );5;2;25
+MultiPartEmail.getContainer( );2;1;7
+MultiPartEmail.attach( URL url , String name , String description , String disposition );2;0;12
+MultiPartEmail.createMimeMultipart( );1;0;4
+MultiPartEmail.createBodyPart( );1;0;4
+MultiPartEmail.setMsg( String msg );5;1;23
+MultiPartEmail.addPart( MimeMultipart multipart );2;0;10
+MultiPartEmail.isInitialized( );1;0;3
+MultiPartEmail.isBoolHasAttachments( );1;0;3
+MultiPartEmail.getPrimaryBodyPart( );3;2;12
+MultiPartEmail.attach( EmailAttachment attachment );5;3;44
+MultiPartEmail.setSubType( String aSubType );1;0;3
+MultiPartEmail.attach( URL url , String name , String description );1;0;3
+MultiPartEmail.setBoolHasAttachments( boolean b );1;0;3
+MultiPartEmail.attach( DataSource ds , String name , String description , String disposition );3;0;21
+MultiPartEmail.init( );2;0;9
+MultiPartEmail.getSubType( );1;0;3
+MultiPartEmail.attach( DataSource ds , String name , String description );4;3;14
+MultiPartEmail.addPart( String partContent , String partContentType );2;0;13
+MultiPartEmail.addPart( MimeMultipart multipart , int index );2;0;13

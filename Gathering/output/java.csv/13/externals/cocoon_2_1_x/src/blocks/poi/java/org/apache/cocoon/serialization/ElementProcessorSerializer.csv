@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ElementProcessorSerializer.shouldSetContentLength( );1;0;3
+ElementProcessorSerializer.endCDATA( );1;0;2
+ElementProcessorSerializer.startEntity( final String name );1;0;2
+ElementProcessorSerializer.characters( final char [ ] ch , final int start , final int length );2;1;6
+ElementProcessorSerializer.startDTD( final String name , final String publicId , final String systemId );1;0;2
+ElementProcessorSerializer.getCurrentElementProcessor( );2;0;4
+ElementProcessorSerializer.setOutputStream( final OutputStream out );1;0;3
+ElementProcessorSerializer.ignorableWhitespace( final char [ ] ch , final int start , final int length );2;1;6
+ElementProcessorSerializer.processingInstruction( final String target , final String data );1;0;2
+ElementProcessorSerializer.skippedEntity( final String name );1;0;2
+ElementProcessorSerializer.getOutputStream( );1;0;3
+ElementProcessorSerializer.endEntity( final String name );1;0;2
+ElementProcessorSerializer.endPrefixMapping( final String prefix );1;0;2
+ElementProcessorSerializer.cleanupArray( final char [ ] array , final int start , final int length );1;0;5
+ElementProcessorSerializer.comment( final char [ ] ch , final int start , final int length );1;0;2
+ElementProcessorSerializer.setDocumentLocator( final Locator locator );1;0;3
+ElementProcessorSerializer.service( ServiceManager manager );1;0;3
+ElementProcessorSerializer.startPrefixMapping( final String prefix , final String uri );1;0;2
+ElementProcessorSerializer.SAXExceptionFactory( final String message );1;0;3
+ElementProcessorSerializer.endDTD( );1;0;2
+ElementProcessorSerializer.startCDATA( );1;0;2
+ElementProcessorSerializer.startDocument( );1;0;2
+ElementProcessorSerializer.SAXExceptionFactory( final String message , final Exception e );4;3;21
+ElementProcessorSerializer.startElement( final String namespaceURI , final String localName , final String qName , final Attributes atts );9;9;26
+ElementProcessorSerializer.endElement( final String namespaceURI , final String localName , final String qName );2;0;8
+ElementProcessorSerializer.ElementProcessorSerializer( );1;0;3

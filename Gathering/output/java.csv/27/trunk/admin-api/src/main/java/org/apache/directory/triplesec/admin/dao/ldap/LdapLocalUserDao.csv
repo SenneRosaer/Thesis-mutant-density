@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LdapLocalUserDao.load( String id );3;0;57
+LdapLocalUserDao.LdapLocalUserDao( DirContext ctx );1;0;3
+LdapLocalUserDao.add( String id , String description , String firstName , String lastName , String password , String address1 , String address2 , String city , String stateProvRegion , String zipPostalCode , String country , String company , String email , boolean disabled );13;9;92
+LdapLocalUserDao.getRelativeDn( String uid );1;0;6
+LdapLocalUserDao.getEntryObject( Object extra , Attributes attrs );2;0;49
+LdapLocalUserDao.modify( String creatorsName , Date createTimestamp , String id , String description , String password , String firstName , String lastName , String address1 , String address2 , String city , String stateProvRegion , String zipPostalCode , String country , String company , String email , boolean disabled , ModificationItem [ ] mods );8;6;56
+LdapLocalUserDao.rename( String newId , LocalUser archetype );7;0;64
+LdapLocalUserDao.delete( String id );4;1;26
+LdapLocalUserDao.iterator( );2;0;17

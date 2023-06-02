@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleSessionContext.setValueOfNode( String path , String value );3;2;13
+SimpleSessionContext.setAttribute( String key , Object value );2;1;7
+SimpleSessionContext.createPath( String path );4;3;7
+SimpleSessionContext.setXML( String path , DocumentFragment fragment );6;7;19
+SimpleSessionContext.getAttribute( String key );1;0;3
+SimpleSessionContext.setNode( String path , Node node );3;2;11
+SimpleSessionContext.SimpleSessionContext( XPathProcessor xPathProcessor , SourceResolver resolver );1;0;6
+SimpleSessionContext.setup( String value , String loadResource , String saveResource );1;0;5
+SimpleSessionContext.loadXML( String path , SourceParameters parameters );3;1;17
+SimpleSessionContext.appendXML( String path , DocumentFragment fragment );7;9;22
+SimpleSessionContext.streamXML( String path , ContentHandler contentHandler , LexicalHandler lexicalHandler );8;10;28
+SimpleSessionContext.removeXML( String path );5;8;18
+SimpleSessionContext.getXML( String path );8;10;28
+SimpleSessionContext.saveXML( String path , SourceParameters parameters );3;2;15
+SimpleSessionContext.getAttribute( String key , Object defaultObject );2;1;5
+SimpleSessionContext.getName( );1;0;3
+SimpleSessionContext.getValueOfNode( String path );1;0;6
+SimpleSessionContext.getSingleNode( String path );3;1;11
+SimpleSessionContext.getNodeList( String path );3;2;14

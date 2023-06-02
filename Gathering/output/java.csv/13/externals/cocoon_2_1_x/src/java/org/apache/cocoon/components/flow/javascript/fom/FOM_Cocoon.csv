@@ -1,0 +1,66 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FOM_Cocoon.getLogger( );1;0;3
+AttributeHolderJavaObject.getIds( );2;0;9
+FOM_Request.getAttributeNames( );1;0;3
+FOM_Cocoon.makeWebContinuation( Continuation k , FOM_WebContinuation parent , int timeToLive );3;2;20
+FOM_Cocoon.popCallContext( );2;1;9
+FOM_Cocoon.jsFunction_setupObject( Object obj );1;0;12
+FOM_Session.getAttributeNames( );1;0;3
+FOM_Cocoon.setParameters( Scriptable value );1;0;3
+FOM_Cocoon.getClassName( );1;0;3
+CallContext.getRequest( );2;1;10
+CallContext.setLastContinuation( FOM_WebContinuation fwk );2;1;9
+FOM_Context.getAttribute( String name );1;0;3
+FOM_Cocoon.getRequest( );1;0;3
+AttributeHolderJavaObject.AttributeHolderJavaObject( Scriptable scope , Object object , Class clazz );1;0;4
+FOM_Cocoon.jsFunction_createPageLocal( );1;0;3
+FOM_Cocoon.getSession( );1;0;3
+FOM_Cocoon.getAvalonContext( );1;0;3
+FOM_Cocoon.jsGet_response( );1;0;3
+AttributeHolderJavaObject.getProperties( Class clazz );4;3;16
+FOM_Cocoon.getParameters( );1;0;3
+CallContext.CallContext( CallContext caller , FOM_JavaScriptInterpreter interp , Redirector redirector , ServiceManager manager , Context avalonContext , Logger logger , WebContinuation lastContinuation );3;2;23
+FOM_Cocoon.jsGet_parameters( );1;0;3
+CallContext.getResponse( );2;1;10
+FOM_Cocoon.jsFunction_disposeObject( Object obj );1;0;3
+FOM_Cocoon.unwrap( Object obj );3;1;8
+FOM_Cocoon.jsFunction_processPipelineTo( String uri , Object map , Object outputStream );2;1;8
+FOM_Cocoon.jsGet_log( );1;0;3
+FOM_Cocoon.jsFunction_redirectTo( String uri , boolean isGlobal );2;0;7
+FOM_Cocoon.getResponse( );1;0;3
+FOM_Cocoon.pushCallContext( FOM_JavaScriptInterpreter interp , Redirector redirector , ServiceManager manager , Context avalonContext , Logger logger , WebContinuation lastContinuation );3;1;14
+FOM_Request.FOM_Request( Scriptable scope , Request request );1;0;4
+FOM_Cocoon.jsFunction_createObject( Object classObj );3;0;13
+FOM_Cocoon.jsFunction_makeWebContinuation( Object k , Object ttl );1;0;10
+FOM_Cocoon.getServiceManager( );1;0;3
+FOM_Session.FOM_Session( Scriptable scope , Session session );1;0;4
+FOM_Request.getAttribute( String name );1;0;3
+FOM_Cocoon.jsSet_continuation( Object obj );1;0;4
+CallContext.setParameters( Scriptable parameters );1;0;3
+FOM_Cocoon.getInterpreter( );1;0;3
+FOM_Cocoon.findValidParent( final FOM_WebContinuation wk );5;4;14
+FOM_Cocoon.jsFunction_sendStatus( int sc );1;0;3
+FOM_Cocoon.handleContinuation( String kontId , Scriptable parameters );4;5;15
+FOM_Cocoon.jsFunction_load( String filename );1;0;7
+FOM_Cocoon.jsFunction_getComponent( String id );1;0;3
+CallContext.getLog( );2;1;7
+FOM_Cocoon.getInterpreterId( );1;0;3
+FOM_Cocoon.jsGet_context( );1;0;3
+CallContext.getSession( );2;1;10
+FOM_Cocoon.forwardTo( String uri , Object bean , FOM_WebContinuation fom_wk );1;0;8
+FOM_Cocoon.jsGet_request( );1;0;3
+AttributeHolderJavaObject.get( String name , Scriptable start );4;2;17
+FOM_Cocoon.jsGet_continuation( );1;0;3
+FOM_Context.getAttributeNames( );1;0;3
+FOM_Cocoon.getObjectModel( );1;0;3
+AttributeHolderJavaObject.has( String name , Scriptable start );2;2;3
+FOM_Cocoon.jsFunction_sendPage( String uri , Object obj , Object wk );2;1;8
+CallContext.getLastContinuation( );1;0;3
+CallContext.getParameters( );1;0;3
+FOM_Context.FOM_Context( Scriptable scope , org . apache . cocoon . environment . Context context );1;0;4
+CallContext.getContext( );2;1;10
+FOM_Session.getAttribute( String name );1;0;3
+FOM_Cocoon.jsGet_session( );1;0;3
+FOM_Cocoon.init( Scriptable scope );1;0;5
+FOM_Cocoon.getContext( );1;0;3
+FOM_Cocoon.jsFunction_releaseComponent( Object component );1;0;3

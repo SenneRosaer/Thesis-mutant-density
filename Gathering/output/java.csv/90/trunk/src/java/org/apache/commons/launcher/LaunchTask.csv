@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LaunchTask.setRequiretools( boolean requireTools );1;0;3
+LaunchTask.addArg( ConditionalArgument arg );1;0;3
+LaunchTask.addArgset( ArgumentSet set );1;0;3
+LaunchTask.setRedirectoutput( boolean redirect );1;0;3
+LaunchTask.setUseargs( boolean useArgs );1;0;3
+LaunchTask.addSyspropertyset( SysPropertySet set );1;0;3
+LaunchTask.setAppendoutput( boolean appendOutput );1;0;3
+LaunchTask.setUsesystemin( boolean useSystemIn );1;0;3
+LaunchTask.setClasspathref( Reference ref );1;0;3
+LaunchTask.setDebug( boolean debug );1;0;3
+LaunchTask.setMinimizedwindowtitle( String minimizedWindowTitle );1;0;3
+LaunchTask.setOutput( File outputFile );1;0;3
+LaunchTask.setMinimizedwindowicon( File minimizedWindowIcon );1;0;3
+LaunchTask.setDisposeminimizedwindow( boolean disposeMinimizedWindow );1;0;3
+LaunchTask.createClasspath( );2;1;5
+LaunchTask.setClassname( String mainClassName );1;0;3
+LaunchTask.setFilterclassname( String filterClassName );1;0;3
+LaunchTask.setFilterclasspath( Path filterClasspath );1;0;3
+LaunchTask.testUnlessCondition( String unlessCondition );3;3;5
+LaunchTask.execute( );72;77;293
+LaunchTask.addSysproperty( ConditionalVariable var );1;0;3
+LaunchTask.setClasspath( Path classpath );1;0;3
+LaunchTask.addJvmargset( JVMArgumentSet set );1;0;3
+LaunchTask.getChildProcesses( );1;0;3
+LaunchTask.setDisplayminimizedwindow( boolean displayMinimizedWindow );1;0;3
+LaunchTask.testIfCondition( String ifCondition );3;3;5
+LaunchTask.setPrint( boolean print );1;0;3
+LaunchTask.setFailonerror( boolean failOnError );1;0;3
+LaunchTask.addJvmarg( ConditionalArgument jvmArg );1;0;3
+LaunchTask.setWaitforchild( boolean waitForChild );1;0;3
+LaunchTask.createFilterclasspath( );2;1;5

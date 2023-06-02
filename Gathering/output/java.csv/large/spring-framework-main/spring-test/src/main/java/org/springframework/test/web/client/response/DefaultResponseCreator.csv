@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultResponseCreator.location( URI location );1;0;4
+DefaultResponseCreator.cookies( MultiValueMap < String , ResponseCookie > multiValueMap );1;0;4
+DefaultResponseCreator.cookies( ResponseCookie ... cookies );2;0;6
+DefaultResponseCreator.DefaultResponseCreator( HttpStatusCode statusCode );1;0;4
+DefaultResponseCreator.headers( HttpHeaders headers );1;0;4
+DefaultResponseCreator.contentType( MediaType mediaType );1;0;4
+DefaultResponseCreator.createResponse( @ Nullable ClientHttpRequest request );2;1;7
+DefaultResponseCreator.body( byte [ ] content );1;0;4
+DefaultResponseCreator.body( String content , Charset charset );1;0;4
+DefaultResponseCreator.body( String content );1;0;4
+DefaultResponseCreator.body( Resource resource );1;0;4
+DefaultResponseCreator.DefaultResponseCreator( int statusCode );1;0;3
+DefaultResponseCreator.header( String name , String ... headerValues );2;0;6

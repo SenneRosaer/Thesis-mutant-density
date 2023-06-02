@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Foo.boo( );1;0;1
+Foo.getSomeClass( );1;0;3
+SmartNullsStubbingTest.shouldNotThrowSmartNullPointerOnToString( );2;0;8
+SmartNullsStubbingTest.shouldSmartNPEPointToUnstubbedCall( );2;0;9
+Foo.getBarWithParams( int x , String y );1;0;3
+SmartNullsStubbingTest.should_not_throw_NPE_when_verifying_with_returns_smart_nulls( );1;0;5
+SmartNullsStubbingTest.shouldReturnOrdinaryEmptyValuesForOrdinaryTypes( );1;0;7
+SmartNullsStubbingTest.shouldThrowSmartNPEWhenMethodReturnsClass( );2;0;9
+Foo.getSomeInterface( );1;0;3
+Foo.returnsFromArg( T arg );1;0;3
+SmartNullsStubbingTest.unstubbedMethodInvokedHere( IMethods mock );1;0;3
+SmartNullsStubbingTest.shouldShowParameters( );2;0;10
+SmartNullsStubbingTest.setup( );1;0;3
+SmartNullsStubbingTest.shouldThrowSmartNPEWhenMethodReturnsInterface( );2;0;9
+SmartNullsStubbingTest.shouldNotThrowSmartNullPointerOnObjectMethods( );1;0;4
+SmartNullsStubbingTest.shouldShowParametersWhenParamsAreHuge( );2;0;12

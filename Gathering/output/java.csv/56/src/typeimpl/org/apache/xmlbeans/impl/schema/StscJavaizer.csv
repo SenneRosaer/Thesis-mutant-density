@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StscJavaizer.protectReservedGlobalClassNames( String name );3;3;7
+StscJavaizer.protectReservedPropertyNames( String name );3;3;4
+StscJavaizer.findTopName( SchemaType sType );8;9;20
+StscJavaizer.skipJavaizingType( SchemaTypeImpl sImpl );3;1;10
+StscJavaizer.javaizeAllTypes( boolean javaize );5;3;24
+StscJavaizer.pickJavaPropertyName( Set usedNames , String localName , String javaName );4;4;18
+StscJavaizer.pickFullJavaImplName( Set usedNames , String intfName );3;5;20
+StscJavaizer.assignJavaPropertyNames( Set usedNames , SchemaProperty [ ] props , SchemaType baseType , boolean doInherited );13;14;46
+StscJavaizer.setExtensions( SchemaTypeImpl sImpl , StscState state );3;3;9
+StscJavaizer.isPropertyModelOrderInsensitive( SchemaProperty [ ] properties );7;8;16
+StscJavaizer.avoidExtensionMethods( Set usedPropNames , SchemaTypeImpl sImpl );6;7;18
+StscJavaizer.secondPassProcessType( SchemaTypeImpl sImpl );7;8;39
+StscJavaizer.getOutermostPackage( String fqcn );3;2;8
+StscJavaizer.pickConstantName( Set usedNames , String words );4;3;20
+StscJavaizer.isStringType( SchemaType type );3;4;5
+StscJavaizer.javaTypeCodeForType( SchemaType sType );36;9;82
+StscJavaizer.assignGlobalJavaNames( Collection schemaTypes );4;0;18
+StscJavaizer.assignJavaTypeCodes( SchemaProperty [ ] properties );2;2;8
+StscJavaizer.verifyInterfaceNameCollisions( Set usedNames , StscState state );9;9;21
+StscJavaizer.protectReservedInnerClassNames( String name );2;1;3
+StscJavaizer.javaizeType( SchemaTypeImpl sImpl );12;14;41
+StscJavaizer.pickFullJavaClassName( Set usedNames , QName qName , String configname , boolean isDocument , boolean isAttrType );13;21;52
+StscJavaizer.javaTypeCodeInCommon( SchemaType [ ] types );6;7;13
+StscJavaizer.pickInnerJavaClassName( Set usedNames , String localName , String javaName );4;4;18
+StscJavaizer.pickInnerJavaImplName( Set usedNames , String localName , String javaName );3;3;13
+StscJavaizer.addAnonymousTypesFromRedefinition( SchemaType sType , List result );5;4;11
+StscJavaizer.assignJavaAnonymousTypeNames( SchemaTypeImpl outerType );15;13;77

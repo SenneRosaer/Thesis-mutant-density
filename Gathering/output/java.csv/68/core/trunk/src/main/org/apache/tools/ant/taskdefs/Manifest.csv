@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Section.clone( );2;0;12
+Manifest.getWarnings( );4;0;16
+Attribute.equals( Object rhs );8;11;16
+Section.setName( String name );1;0;3
+***not in a method***;0;1;0
+Manifest.addConfiguredAttribute( Attribute attribute );4;3;10
+Manifest.getSection( String name );1;0;3
+Section.merge( Section section );11;9;34
+Attribute.setValue( String value );2;2;8
+Manifest.merge( Manifest other );1;0;3
+Manifest.getMainSection( );1;0;3
+Attribute.writeValue( PrintWriter writer , String value );8;14;33
+Manifest.getManifestVersion( );1;0;3
+Section.getAttribute( String attributeName );1;0;3
+Attribute.write( PrintWriter writer );2;0;5
+Section.read( BufferedReader reader );8;8;28
+Manifest.addConfiguredSection( Section section );3;2;10
+Manifest.merge( Manifest other , boolean overwriteMain );7;4;26
+Attribute.addContinuation( String line );1;1;4
+Manifest.write( PrintWriter writer );5;6;25
+Attribute.parse( String line );2;3;10
+Section.getWarnings( );1;0;3
+Manifest.Manifest( );1;0;3
+Manifest.equals( Object rhs );8;8;20
+Manifest.toString( );2;0;9
+Attribute.Attribute( );1;0;2
+Manifest.getDefaultManifest( );5;2;31
+Attribute.getKey( );2;1;6
+Manifest.hashCode( );2;4;9
+Section.hashCode( );1;0;3
+Attribute.hashCode( );2;3;8
+Section.addConfiguredAttribute( Attribute attribute );2;1;8
+Section.addAttributeAndCheck( Attribute attribute );9;6;42
+Section.getAttributeValue( String attributeName );2;1;7
+Section.removeAttribute( String attributeName );1;0;5
+Section.getAttributeKeys( );1;0;3
+Section.write( PrintWriter writer );3;1;13
+Attribute.getValues( );1;0;3
+Manifest.Manifest( Reader r );6;5;33
+Attribute.addValue( String value );1;1;4
+Attribute.setName( String name );1;0;3
+Manifest.getSectionNames( );1;0;3
+Attribute.Attribute( String name , String value );1;0;4
+Section.equals( Object rhs );4;4;10
+Section.storeAttribute( Attribute attribute );3;2;10
+Section.getName( );1;0;3
+Attribute.getName( );1;0;3
+Attribute.getValue( );3;2;11
+Attribute.Attribute( String line );1;0;3

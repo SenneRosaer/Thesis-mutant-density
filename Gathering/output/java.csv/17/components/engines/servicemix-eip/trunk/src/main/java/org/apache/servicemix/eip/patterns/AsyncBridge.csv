@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AsyncBridge.timerExpired( Timer timer );1;0;3
+AsyncBridge.processAsync( MessageExchange exchange );1;0;3
+AsyncBridge.getResponseCorrId( );1;0;3
+AsyncBridge.process( MessageExchange exchange );22;22;73
+AsyncBridge.setUseRobustInOnly( boolean useRobustInOnly );1;0;3
+AsyncBridge.setResponseCorrIdProperty( String responseCorrIdProperty );1;0;3
+AsyncBridge.processSync( MessageExchange exchange );1;0;3
+AsyncBridge.evaluate( MessageExchange exchange , NormalizedMessage message );1;0;3
+AsyncBridge.getTarget( );1;0;3
+AsyncBridge.getTimeout( MessageExchange exchange );2;2;6
+AsyncBridge.setTimeout( long timeout );1;0;3
+AsyncBridge.getTimeout( );1;0;3
+AsyncBridge.getRequestCorrId( );1;0;3
+AsyncBridge.isUseRobustInOnly( );1;0;3
+AsyncBridge.start( );2;1;6
+AsyncBridge.onTimeout( String correlationId );3;1;10
+AsyncBridge.setTarget( ExchangeTarget target );1;0;3
+AsyncBridge.setRequestCorrId( Expression requestCorrId );1;0;3
+AsyncBridge.setResponseCorrId( Expression responseCorrId );1;0;3
+AsyncBridge.getResponseCorrIdProperty( );1;0;3

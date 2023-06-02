@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TagRenderingBase.renderEndTag( Appender buf , String name );1;0;5
+TagRenderingBase.renderAttributes( int type , Appender sb , AbstractAttributeState state , boolean doubleQuote );2;0;14
+TagRenderingBase.renderAttributeSingleQuotes( Appender buf , String name , String value );2;3;11
+TagRenderingBase.renderAttributes( int type , Appender sb , AbstractAttributeState state );1;0;3
+TagRenderingBase.renderGeneral( HashMap map , Appender sb , boolean doubleQuote );5;2;15
+***not in a method***;0;1;0
+Factory.getRendering( Object token );6;4;31
+TagRenderingBase.getAmp( );3;2;9
+TagRenderingBase.renderAttribute( Appender buf , String name , String value );2;3;11
+TagRenderingBase.renderTag( Appender buf , String name );1;2;6
+TagRenderingBase.getDefaultDocType( );1;0;3
+Factory.isXHTML( );2;2;9
+TagRenderingBase.setDefaultDocType( DocType docType );5;4;10
+Factory.getConstantRendering( );4;3;13

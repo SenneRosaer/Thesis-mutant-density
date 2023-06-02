@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractDOMTransformer.startEntity( String name );1;0;3
+AbstractDOMTransformer.startDTD( String name , String publicId , String systemId );1;0;3
+AbstractDOMTransformer.startCDATA( );1;0;3
+AbstractDOMTransformer.ignorableWhitespace( char c [ ] , int start , int len );1;0;3
+AbstractDOMTransformer.comment( char ch [ ] , int start , int len );1;0;3
+AbstractDOMTransformer.endElement( String uri , String loc , String raw );1;0;3
+AbstractDOMTransformer.startElement( String uri , String loc , String raw , Attributes a );1;0;3
+AbstractDOMTransformer.endDocument( );1;0;3
+AbstractDOMTransformer.notify( Document doc );1;0;5
+AbstractDOMTransformer.startDocument( );1;0;3
+AbstractDOMTransformer.dispose( );1;0;4
+AbstractDOMTransformer.startPrefixMapping( String prefix , String uri );1;0;3
+AbstractDOMTransformer.endPrefixMapping( String prefix );1;0;3
+AbstractDOMTransformer.endEntity( String name );1;0;3
+AbstractDOMTransformer.characters( char c [ ] , int start , int len );1;0;3
+AbstractDOMTransformer.setDocumentLocator( Locator locator );1;0;3
+AbstractDOMTransformer.endDTD( );1;0;3
+AbstractDOMTransformer.service( ServiceManager aManager );1;0;3
+AbstractDOMTransformer.skippedEntity( String name );1;0;3
+AbstractDOMTransformer.processingInstruction( String target , String data );1;0;3
+AbstractDOMTransformer.endCDATA( );1;0;3
+AbstractDOMTransformer.AbstractDOMTransformer( );1;0;3
+AbstractDOMTransformer.setup( SourceResolver resolver , Map objectModel , String src , Parameters par );1;0;6
+AbstractDOMTransformer.recycle( );1;0;8

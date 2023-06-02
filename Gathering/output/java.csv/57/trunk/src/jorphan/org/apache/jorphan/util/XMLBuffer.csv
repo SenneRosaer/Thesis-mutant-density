@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLBuffer.XMLBuffer( );1;0;2
+XMLBuffer.emptyTag( String t );1;0;6
+XMLBuffer.endTag( String t );1;0;6
+XMLBuffer.closeTag( String tagname );2;1;8
+XMLBuffer.openTag( String tagname );1;0;5
+XMLBuffer.toString( );2;1;6
+XMLBuffer.tag( String tagname , String content );2;1;10
+XMLBuffer.tag( String tagname , StringBuffer content );2;1;10
+XMLBuffer.startTag( String t );1;0;5

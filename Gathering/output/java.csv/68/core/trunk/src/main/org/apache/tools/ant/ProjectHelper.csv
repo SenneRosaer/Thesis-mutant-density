@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProjectHelper.parseAntlibDescriptor( Project containingProject , URL source );1;0;3
+ProjectHelper.newHelper( String helperClass );5;2;18
+ProjectHelper.setCurrentPrefixSeparator( String sep );1;0;3
+ProjectHelper.extractNameFromComponentName( String componentName );2;3;7
+ProjectHelper.storeChild( Project project , Object parent , Object child , String tag );1;0;4
+ProjectHelper.getCurrentTargetPrefix( );1;0;3
+ProjectHelper.getImportStack( );1;0;3
+ProjectHelper.ProjectHelper( );1;0;2
+ProjectHelper.setInIncludeMode( boolean includeMode );2;0;3
+ProjectHelper.canParseAntlibDescriptor( URL url );1;0;3
+ProjectHelper.addText( Project project , Object target , char [ ] buf , int start , int count );1;0;3
+ProjectHelper.extractUriFromComponentName( String componentName );3;3;10
+ProjectHelper.getProjectHelper( );12;9;42
+ProjectHelper.replaceProperties( Project project , String value , Hashtable keys );1;0;4
+ProjectHelper.replaceProperties( Project project , String value );1;0;3
+ProjectHelper.configure( Object target , AttributeList attrs , Project project );5;3;16
+ProjectHelper.getContextClassLoader( );2;0;3
+ProjectHelper.parsePropertyString( String value , Vector fragments , Vector propertyRefs );1;0;3
+ProjectHelper.addLocationToBuildException( BuildException ex , Location newLocation );4;4;14
+ProjectHelper.addText( Project project , Object target , String text );3;1;9
+ProjectHelper.initialValue( );1;0;3
+ProjectHelper.configureProject( Project project , File buildFile );1;0;5
+ProjectHelper.setCurrentTargetPrefix( String prefix );1;0;3
+ProjectHelper.isInIncludeMode( );1;1;3
+ProjectHelper.parse( Project project , Object source );1;0;4
+ProjectHelper.getCurrentPrefixSeparator( );1;0;3
+ProjectHelper.genComponentName( String uri , String name );4;4;6

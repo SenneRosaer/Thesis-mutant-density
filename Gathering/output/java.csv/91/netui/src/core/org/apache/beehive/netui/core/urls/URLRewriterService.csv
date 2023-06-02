@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+URLRewriterService.getURLRewriters( ServletRequest request );2;1;7
+URLRewriterService.registerURLRewriter( ServletRequest request , URLRewriter rewriter );2;1;14
+URLRewriterService.getRewriters( ServletRequest request );1;0;3
+URLRewriterService.getNamePrefix( ServletContext servletContext , ServletRequest request , String name );4;2;14
+URLRewriterService.allowParamsOnFormAction( ServletContext servletContext , ServletRequest request );4;2;12
+URLRewriterService.addRewriter( ArrayList rewriters , URLRewriter rewriter , int index );7;4;36
+URLRewriterService.unregisterURLRewriter( ServletRequest request , URLRewriter rewriter );4;3;16
+URLRewriterService.registerURLRewriter( int index , ServletRequest request , URLRewriter rewriter );2;1;14
+URLRewriterService.unregisterTemplatedURLFormatter( ServletRequest request );1;0;3
+URLRewriterService.getTemplatedURL( ServletContext servletContext , ServletRequest request , MutableURI uri , String key , URIContext uriContext );3;2;12
+URLRewriterService.unregisterAllURLRewriters( ServletRequest request );1;0;3
+URLRewriterService.getTemplatedURLFormatter( ServletRequest request );1;0;3
+URLRewriterService.dumpURLRewriters( ServletRequest request , PrintStream output );4;3;20
+URLRewriterService.rewriteURL( ServletContext servletContext , ServletRequest request , ServletResponse response , MutableURI url , URLType type , boolean needsToBeSecure );4;1;15
+URLRewriterService.otherRewritersAllowed( ArrayList rewriters );4;5;8
+URLRewriterService.registerTemplatedURLFormatter( ServletRequest request , TemplatedURLFormatter formatter );1;0;3
+URLRewriterService.getAjaxUrl( ServletContext servletContext , ServletRequest request , Object nameable );4;2;14

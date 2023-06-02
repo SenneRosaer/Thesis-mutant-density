@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SetValueTests.testAssign( );1;0;6
+SetValueTests.testSetPropertyTypeCoercionThroughSetter( );1;0;3
+SetValueTests.testSetMapElements( );1;0;3
+SetValueTests.testSetArrayElementInvalidIndex( );1;0;4
+SetValueTests.testSetElementOfNull( );1;0;4
+SetValueTests.testSetGenericListElementValueTypeCoercionOK( );1;0;3
+SetValueTests.testSetProperty( );1;0;3
+SetValueTests.testErrorCase( );1;0;3
+SetValueTests.testSetArrayElementNestedValue( );1;0;3
+SetValueTests.testSetGenericListElementValueTypeCoercion( );1;0;3
+SetValueTests.testSetNestedProperty( );1;0;3
+SetValueTests.setValue( String expression , Object value );3;0;16
+SetValueTests.setValueExpectError( String expression , Object value );2;0;10
+SetValueTests.testSetGenericMapElementRequiresCoercion( );5;0;16
+SetValueTests.setValue( String expression , Object value , Object expectedValue );3;0;18
+SetValueTests.testSetPropertyTypeCoercion( );1;0;3
+SetValueTests.parse( String expressionString );1;0;3
+SetValueTests.testSetArrayElementValueAllPrimitiveTypes( );1;0;10
+SetValueTests.testSetListElementNestedValue( );1;0;3
+SetValueTests.testSetListElementValue( );1;0;3
+SetValueTests.testIndexingIntoUnsupportedType( );1;0;3
+SetValueTests.testIsWritableForInvalidExpressions_SPR10610( );1;0;18
+SetValueTests.testSetArrayElementValueAllPrimitiveTypesErrors( );1;0;7
+SetValueTests.testSetArrayElementValue( );1;0;3

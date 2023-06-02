@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IncludeXMLConsumer.ignorableWhitespace( char [ ] ch , int start , int end );1;0;3
+IncludeXMLConsumer.startPrefixMapping( String prefix , String uri );1;0;3
+IncludeXMLConsumer.startDocument( );1;0;2
+IncludeXMLConsumer.IncludeXMLConsumer( ContentHandler contentHandler );2;0;3
+IncludeXMLConsumer.startEntity( String name );2;1;5
+IncludeXMLConsumer.endPrefixMapping( String prefix );1;0;3
+IncludeXMLConsumer.endEntity( String name );2;1;5
+IncludeXMLConsumer.IncludeXMLConsumer( ContentHandler contentHandler , LexicalHandler lexicalHandler );1;0;4
+IncludeXMLConsumer.skippedEntity( String ent );1;0;3
+IncludeXMLConsumer.processingInstruction( String name , String value );1;0;3
+IncludeXMLConsumer.endDTD( );1;0;3
+IncludeXMLConsumer.endCDATA( );2;1;5
+IncludeXMLConsumer.startElement( String uri , String local , String qName , Attributes attr );1;0;3
+IncludeXMLConsumer.comment( char ary [ ] , int start , int length );3;3;5
+IncludeXMLConsumer.endDocument( );1;0;2
+IncludeXMLConsumer.startCDATA( );2;1;5
+IncludeXMLConsumer.setDocumentLocator( Locator loc );1;0;3
+IncludeXMLConsumer.characters( char [ ] ch , int start , int end );1;0;3
+IncludeXMLConsumer.endElement( String uri , String local , String qName );1;0;3
+IncludeXMLConsumer.startDTD( String name , String public_id , String system_id );1;0;3

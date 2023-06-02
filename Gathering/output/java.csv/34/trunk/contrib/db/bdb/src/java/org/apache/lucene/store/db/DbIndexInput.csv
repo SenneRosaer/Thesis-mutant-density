@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DbIndexInput.close( );1;0;2
+DbIndexInput.readByte( );3;6;12
+DbIndexInput.DbIndexInput( DbDirectory directory , String name );2;1;10
+DbIndexInput.clone( );2;0;11
+DbIndexInput.getFilePointer( );1;0;3
+DbIndexInput.seek( long pos );3;4;11
+DbIndexInput.length( );1;0;3
+DbIndexInput.readBytes( byte [ ] b , int offset , int len );4;11;24

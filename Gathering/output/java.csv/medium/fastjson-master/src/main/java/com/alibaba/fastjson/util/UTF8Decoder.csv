@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UTF8Decoder.isMalformed3( int b1 , int b2 , int b3 );4;10;3
+UTF8Decoder.decodeArrayLoop( ByteBuffer src , CharBuffer dst );20;82;60
+UTF8Decoder.isMalformed2( int b1 , int b2 );2;5;3
+UTF8Decoder.isNotContinuation( int b );1;2;3
+UTF8Decoder.isMalformed4( int b2 , int b3 , int b4 );3;8;3
+UTF8Decoder.malformed( ByteBuffer src , int sp , CharBuffer dst , int dp , int nb );1;1;7
+UTF8Decoder.xflow( Buffer src , int sp , int sl , Buffer dst , int dp , int nb );3;4;5
+UTF8Decoder.lookupN( ByteBuffer src , int n );3;2;6
+UTF8Decoder.decodeLoop( ByteBuffer src , CharBuffer dst );1;0;3
+UTF8Decoder.UTF8Decoder( );1;0;3
+UTF8Decoder.malformedN( ByteBuffer src , int nb );20;28;31

@@ -1,0 +1,87 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RepositoryServiceImpl.registerNamespace( SessionInfo sessionInfo , String prefix , String uri );1;0;5
+RepositoryServiceImpl.removeVersionLabel( final SessionInfo sessionInfo , final NodeId versionHistoryId , final NodeId versionId , final Name label );2;0;16
+RepositoryServiceImpl.impersonate( SessionInfo sessionInfo , Credentials credentials );1;0;5
+RepositoryServiceImpl.obtain( SessionInfo sessionInfo , String workspaceName );1;0;5
+RepositoryServiceImpl.getWorkspaceNames( SessionInfo sessionInfo );1;0;4
+RepositoryServiceImpl.checkQueryStatement( SessionInfo sessionInfo , String statement , String language , Map namespaces );1;0;4
+BatchImpl.executeGuarded( Callable call );4;0;16
+RepositoryServiceImpl.createEventFilter( SessionInfo sessionInfo , int eventTypes , Path absPath , boolean isDeep , String [ ] uuid , Name [ ] nodeTypeName , boolean noLocal );2;1;7
+RepositoryServiceImpl.refreshLock( SessionInfo sessionInfo , NodeId nodeId );1;0;3
+BatchImpl.run( );4;19;22
+RepositoryServiceImpl.entering( Node node , int i );2;0;7
+RepositoryServiceImpl.obtain( Credentials credentials , String workspaceName );1;0;4
+RepositoryServiceImpl.createQuery( Session session , String statement , String language , Map namespaces );1;0;9
+BatchImpl.move( final NodeId srcNodeId , final NodeId destParentNodeId , final Name destName );2;0;14
+RepositoryServiceImpl.copy( final SessionInfo sessionInfo , final String srcWorkspaceName , final NodeId srcNodeId , final NodeId destParentNodeId , final Name destName );2;0;22
+RepositoryServiceImpl.getQNodeTypeDefinitions( SessionInfo sessionInfo , Name [ ] nodetypeNames );4;4;19
+RepositoryServiceImpl.getParent( NodeId parentId , SessionInfoImpl sessionInfo );2;0;7
+RepositoryServiceImpl.getEventSubscription( Subscription subscription );2;0;8
+RepositoryServiceImpl.getNode( NodeId id , SessionInfoImpl sessionInfo );5;3;19
+RepositoryServiceImpl.updateEventFilters( Subscription subscription , EventFilter [ ] filters );1;0;3
+RepositoryServiceImpl.checkin( final SessionInfo sessionInfo , final NodeId nodeId );1;0;9
+BatchImpl.BatchImpl( SessionInfoImpl sInfo );1;0;3
+RepositoryServiceImpl.RepositoryServiceImpl( Repository repository , BatchReadConfig batchReadConfig );1;0;5
+RepositoryServiceImpl.getProperty( PropertyId id , SessionInfoImpl sessionInfo );3;1;15
+RepositoryServiceImpl.leaving( Node node , int i );1;0;2
+RepositoryServiceImpl.executeQuery( SessionInfo sessionInfo , String statement , String language , Map namespaces );1;0;7
+RepositoryServiceImpl.removeVersion( final SessionInfo sessionInfo , final NodeId versionHistoryId , final NodeId versionId );2;0;15
+RepositoryServiceImpl.setNamespaceMappings( Session session , Map namespaces );6;8;26
+BatchImpl.createXMLFragment( String nodeName , String ntName , String uuid );1;0;14
+RepositoryServiceImpl.entering( Property property , int i );2;0;7
+RepositoryServiceImpl.update( final SessionInfo sessionInfo , final NodeId nodeId , final String srcWorkspaceName );1;0;9
+RepositoryServiceImpl.executeWithLocalEvents( Callable call , SessionInfoImpl sInfo );6;1;27
+RepositoryServiceImpl.isGranted( SessionInfo sessionInfo , ItemId itemId , String [ ] actions );4;5;22
+RepositoryServiceImpl.getNodeInfo( SessionInfo sessionInfo , NodeId nodeId );2;0;9
+RepositoryServiceImpl.getQValueFactory( );1;0;3
+RepositoryServiceImpl.getSupportedQueryLanguages( SessionInfo sessionInfo );1;0;4
+RepositoryServiceImpl.dispose( SessionInfo sessionInfo );2;0;8
+RepositoryServiceImpl.createBatch( SessionInfo sessionInfo , ItemId itemId );1;0;3
+BatchImpl.addProperty( final NodeId parentId , final Name propertyName , final QValue value );1;0;12
+RepositoryServiceImpl.getRepositoryDescriptors( );3;2;12
+RepositoryServiceImpl.unregisterNamespace( SessionInfo sessionInfo , String uri );1;0;5
+RepositoryServiceImpl.getItemInfos( SessionInfo sessionInfo , NodeId nodeId );6;1;43
+RepositoryServiceImpl.createSubscription( SessionInfo sessionInfo , EventFilter [ ] filters );1;0;3
+RepositoryServiceImpl.lock( final SessionInfo sessionInfo , final NodeId nodeId , final boolean deep , final boolean sessionScoped );1;0;10
+RepositoryServiceImpl.getPropertyDefinition( SessionInfo sessionInfo , PropertyId propertyId );2;0;11
+RepositoryServiceImpl.unlock( final SessionInfo sessionInfo , final NodeId nodeId );1;0;9
+RepositoryServiceImpl.getEvents( Subscription subscription , long timeout );2;0;8
+RepositoryServiceImpl.getChildInfos( SessionInfo sessionInfo , NodeId parentId );3;0;14
+RepositoryServiceImpl.getIdFactory( );1;0;3
+RepositoryServiceImpl.getLockInfo( SessionInfo sessionInfo , NodeId nodeId );2;0;9
+RepositoryServiceImpl.run( );2;12;9
+RepositoryServiceImpl.restore( final SessionInfo sessionInfo , final NodeId nodeId , final NodeId versionId , final boolean removeExisting );7;0;37
+RepositoryServiceImpl.hasNode( SessionInfo sessionInfo , NodeId nodeId );3;0;11
+BatchImpl.setValue( final PropertyId propertyId , final QValue [ ] values );2;0;14
+RepositoryServiceImpl.submit( Batch batch );2;0;8
+BatchImpl.setMixins( final NodeId nodeId , final Name [ ] mixinNodeTypeIds );5;0;26
+RepositoryServiceImpl.move( final SessionInfo sessionInfo , final NodeId srcNodeId , final NodeId destParentNodeId , final Name destName );2;0;15
+RepositoryServiceImpl.getPropertyInfo( SessionInfo sessionInfo , PropertyId propertyId );2;0;9
+RepositoryServiceImpl.getNamespacePrefix( SessionInfo sessionInfo , String uri );1;0;4
+RepositoryServiceImpl.leaving( Property property , int i );1;0;2
+RepositoryServiceImpl.addVersionLabel( final SessionInfo sessionInfo , final NodeId versionHistoryId , final NodeId versionId , final Name label , final boolean moveLabel );2;0;18
+RepositoryServiceImpl.resolveMergeConflict( final SessionInfo sessionInfo , final NodeId nodeId , final NodeId [ ] mergeFailedIds , final NodeId [ ] predecessorIds );5;0;36
+RepositoryServiceImpl.merge( final SessionInfo sessionInfo , final NodeId nodeId , final String srcWorkspaceName , final boolean bestEffort );2;0;15
+BatchImpl.addNode( final NodeId parentId , final Name nodeName , final Name nodetypeName , final String uuid );4;0;26
+RepositoryServiceImpl.pathForId( ItemId id , SessionInfoImpl sessionInfo );6;4;23
+RepositoryServiceImpl.checkout( final SessionInfo sessionInfo , final NodeId nodeId );1;0;9
+BatchImpl.calcRemoveNodeId( ItemId itemId );5;6;21
+BatchImpl.remove( final ItemId itemId );4;0;19
+BatchImpl.reorderNodes( final NodeId parentId , final NodeId srcNodeId , final NodeId beforeNodeId );5;0;25
+RepositoryServiceImpl.importXml( final SessionInfo sessionInfo , final NodeId parentId , final InputStream xmlStream , final int uuidBehaviour );2;0;14
+BatchImpl.end( );1;0;13
+RepositoryServiceImpl.clone( final SessionInfo sessionInfo , final String srcWorkspaceName , final NodeId srcNodeId , final NodeId destParentNodeId , final Name destName , final boolean removeExisting );1;0;17
+RepositoryServiceImpl.dispose( Subscription subscription );1;0;3
+RepositoryServiceImpl.getQNodeTypeDefinitions( SessionInfo sessionInfo );3;0;15
+BatchImpl.addProperty( final NodeId parentId , final Name propertyName , final QValue [ ] values );2;0;15
+RepositoryServiceImpl.getNameFactory( );1;0;3
+RepositoryServiceImpl.safeGetURI( Session session , String prefix );2;0;7
+RepositoryServiceImpl.getDestinationPath( NodeId destParentNodeId , Name destName , SessionInfoImpl sessionInfo );2;1;8
+RepositoryServiceImpl.getSessionInfoImpl( SessionInfo sessionInfo );2;0;8
+RepositoryServiceImpl.getPathFactory( );1;0;3
+RepositoryServiceImpl.getRegisteredNamespaces( SessionInfo sessionInfo );2;2;10
+RepositoryServiceImpl.getNodeDefinition( SessionInfo sessionInfo , NodeId nodeId );2;0;9
+RepositoryServiceImpl.getNamespaceURI( SessionInfo sessionInfo , String prefix );1;0;4
+RepositoryServiceImpl.restore( final SessionInfo sessionInfo , final NodeId [ ] versionIds , final boolean removeExisting );3;0;19
+BatchImpl.getJcrName( Name name );2;1;6
+BatchImpl.setValue( final PropertyId propertyId , final QValue value );1;0;11

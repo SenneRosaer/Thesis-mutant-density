@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UntypedAnnotationDescriptor.next( );3;2;8
+UntypedAnnotationDescriptor.UntypedAnnotationDescriptor( Class < ? > rootDeclaringClass , Annotation annotation , Class < ? extends Annotation > [ ] annotationTypes );1;0;3
+AnnotationDescriptor.getRootDeclaringClass( );1;0;3
+UntypedAnnotationDescriptor.UntypedAnnotationDescriptor( Class < ? > rootDeclaringClass , Class < ? > declaringClass , Annotation annotation , Class < ? extends Annotation > [ ] annotationTypes );1;0;4
+TestContextAnnotationUtils.getDefaultEnclosingConfigurationMode( );3;2;11
+TestContextAnnotationUtils.findAnnotationDescriptorForTypes( @ Nullable Class < ? > clazz , Class < ? extends Annotation > [ ] annotationTypes , Set < Annotation > visited );16;9;39
+TestContextAnnotationUtils.findAnnotationDescriptorForTypes( Class < ? > clazz , Class < ? extends Annotation > ... annotationTypes );1;0;4
+TestContextAnnotationUtils.searchEnclosingClass( Class < ? > clazz );2;2;4
+TestContextAnnotationUtils.findMergedAnnotation( Class < ? > clazz , Class < T > annotationType , Predicate < Class < ? > > searchEnclosingClass );1;0;7
+AnnotationDescriptor.getDeclaringClass( );1;0;3
+UntypedAnnotationDescriptor.findAllLocalMergedAnnotations( );1;0;4
+TestContextAnnotationUtils.assertNonEmptyAnnotationTypeArray( Class < ? > [ ] annotationTypes , String message );5;1;10
+TestContextAnnotationUtils.clearCaches( );1;0;4
+AnnotationDescriptor.getAnnotation( );1;0;3
+TestContextAnnotationUtils.hasAnnotation( Class < ? > clazz , Class < ? extends Annotation > annotationType );1;0;6
+TestContextAnnotationUtils.findAnnotationDescriptor( @ Nullable Class < ? > clazz , Class < T > annotationType , Predicate < Class < ? > > searchEnclosingClass , Set < Annotation > visited );15;9;35
+AnnotationDescriptor.getAnnotationType( );1;0;3
+TestContextAnnotationUtils.getMergedRepeatableAnnotations( Class < ? > clazz , Class < T > annotationType );3;1;12
+TestContextAnnotationUtils.getEnclosingConfiguration( Class < ? > clazz );1;0;3
+AnnotationDescriptor.next( );3;2;8
+AnnotationDescriptor.AnnotationDescriptor( Class < ? > rootDeclaringClass , Class < ? > declaringClass , T annotation );1;1;12
+TestContextAnnotationUtils.lookUpEnclosingConfiguration( Class < ? > clazz );3;1;6
+AnnotationDescriptor.toString( );1;0;7
+AnnotationDescriptor.AnnotationDescriptor( Class < ? > rootDeclaringClass , T annotation );1;0;3
+TestContextAnnotationUtils.findAnnotationDescriptor( Class < ? > clazz , Class < T > annotationType );1;0;5
+AnnotationDescriptor.findAllLocalMergedAnnotations( );1;0;7
+TestContextAnnotationUtils.findMergedAnnotation( Class < ? > clazz , Class < T > annotationType );1;0;3

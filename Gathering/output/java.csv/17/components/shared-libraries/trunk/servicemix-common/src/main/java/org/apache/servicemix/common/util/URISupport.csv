@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+URISupport.removeQuery( URI uri );1;0;3
+URISupport.changeScheme( URI bindAddr , String scheme );1;0;4
+URISupport.parseParamters( URI uri );2;1;3
+URISupport.parseQuery( String uri );5;5;21
+URISupport.stripPrefix( String value , String prefix );2;0;6
+URISupport.parseComposite( URI uri , CompositeData rc , String ssp );8;11;40
+CompositeData.getFragment( );1;0;3
+URISupport.createRemainingURI( URI originalURI , Map params );2;1;7
+URISupport.createURIWithQuery( URI uri , String query );1;0;3
+URISupport.parseComposite( URI uri );1;0;8
+CompositeData.getPath( );1;0;3
+URISupport.stripScheme( URI uri );1;0;3
+CompositeData.getParameters( );1;0;3
+URISupport.checkParenthesis( String str );4;8;19
+CompositeData.getComponents( );1;0;3
+CompositeData.toURI( );9;10;32
+URISupport.splitComponents( String str );7;7;32
+CompositeData.getHost( );1;0;3
+URISupport.createQueryString( Map options );5;1;25
+CompositeData.getScheme( );1;0;3
+URISupport.indexOfParenthesisMatch( String str );1;1;4

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMBuilder.DOMBuilder( SAXTransformerFactory factory );1;0;3
+DOMBuilder.DOMBuilder( Listener listener );1;0;3
+DOMBuilder.DOMBuilder( SAXTransformerFactory factory , Listener listener , Node parentNode );2;1;7
+DOMBuilder.setup( );3;1;15
+DOMBuilder.endDocument( );1;0;4
+DOMBuilder.DOMBuilder( );1;0;3
+DOMBuilder.notifyListener( );2;1;5
+DOMBuilder.DOMBuilder( Listener listener , Node parentNode );1;0;3
+DOMBuilder.DOMBuilder( Node parentNode );1;0;3
+DOMBuilder.getDocument( );4;4;9
+DOMBuilder.recycle( );1;0;4

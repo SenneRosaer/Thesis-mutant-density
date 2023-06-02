@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpringOverScroller.isFinished( );2;1;3
+SpringOverScroller.setFriction( float friction );1;0;2
+SpringOverScroller.SpringOverScroller( Context context , Interpolator interpolator );1;0;3
+SpringOverScroller.getFinalY( );1;0;3
+SpringOverScroller.onSpringEndStateChange( Spring spring );1;0;2
+SpringOverScroller.SpringOverScroller( Context context , Interpolator interpolator , float bounceCoefficientX , float bounceCoefficientY , boolean flywheel );1;0;3
+SpringOverScroller.startScroll( int startX , int startY , int dx , int dy );1;0;4
+SpringOverScroller.fling( int startX , int startY , int velocityX , int velocityY , int minX , int maxX , int minY , int maxY , int overX , int overY );1;0;10
+SpringOverScroller.getCurrY( );1;0;3
+SpringOverScroller.getStartX( );1;0;3
+SpringOverScroller.springBack( int startX , int startY , int minX , int maxX , int minY , int maxY );9;10;23
+SpringOverScroller.notifyVerticalEdgeReached( int startY , int finalY , int overY );1;0;2
+SpringOverScroller.onSpringUpdate( Spring spring );1;0;3
+SpringOverScroller.SpringOverScroller( Context context , Interpolator interpolator , boolean flywheel );1;0;15
+SpringOverScroller.abortAnimation( );1;0;4
+SpringOverScroller.getCurrVelocity( );1;3;5
+SpringOverScroller.getStartY( );1;0;3
+SpringOverScroller.getFinalX( );1;0;3
+SpringOverScroller.onSpringActivate( Spring spring );1;0;2
+SpringOverScroller.computeScrollOffset( );2;2;3
+SpringOverScroller.SpringOverScroller( Context context , Interpolator interpolator , float bounceCoefficientX , float bounceCoefficientY );1;0;3
+SpringOverScroller.notifyHorizontalEdgeReached( int startX , int finalX , int overX );1;0;2
+SpringOverScroller.getCurrX( );1;0;3
+SpringOverScroller.SpringOverScroller( Context context );1;0;3
+SpringOverScroller.onSpringAtRest( Spring spring );1;0;2

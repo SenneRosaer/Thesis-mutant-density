@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpanNotQuery.start( );1;0;1
+SpanNotQuery.getPayloadSpans( IndexReader reader );1;0;3
+SpanNotQuery.extractTerms( Set terms );1;0;1
+SpanNotQuery.end( );1;0;1
+SpanNotQuery.isPayloadAvailable( );1;0;3
+SpanNotQuery.skipTo( int target );11;12;19
+SpanNotQuery.getInclude( );1;0;1
+SpanNotQuery.getTerms( );1;0;1
+SpanNotQuery.equals( Object o );5;5;8
+SpanNotQuery.hashCode( );1;8;8
+SpanNotQuery.getField( );1;0;1
+SpanNotQuery.getPayload( );2;0;7
+SpanNotQuery.toString( String field );1;0;10
+SpanNotQuery.next( );11;11;19
+SpanNotQuery.SpanNotQuery( SpanQuery include , SpanQuery exclude );2;1;6
+SpanNotQuery.getSpans( final IndexReader reader );22;0;62
+SpanNotQuery.doc( );1;0;1
+SpanNotQuery.getExclude( );1;0;1
+SpanNotQuery.toString( );1;0;3
+SpanNotQuery.rewrite( IndexReader reader );5;4;18

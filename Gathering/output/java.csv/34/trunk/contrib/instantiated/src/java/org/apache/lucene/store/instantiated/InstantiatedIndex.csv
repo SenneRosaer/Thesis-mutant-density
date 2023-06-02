@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InstantiatedIndex.InstantiatedIndex( );1;0;3
+InstantiatedIndex.setDocumentsByNumber( InstantiatedDocument [ ] documentsByNumber );1;0;3
+InstantiatedIndex.findTerm( String field , String text );2;1;8
+InstantiatedIndex.InstantiatedIndex( IndexReader sourceIndexReader );1;0;3
+InstantiatedIndex.getDeletedDocuments( );1;0;3
+InstantiatedIndex.setNormsByFieldNameAndDocumentNumber( Map < String , byte [ ] > normsByFieldNameAndDocumentNumber );1;0;3
+InstantiatedIndex.indexWriterFactory( Analyzer analyzer , boolean create );1;0;3
+InstantiatedIndex.indexReaderFactory( );1;0;3
+InstantiatedIndex.getFieldSettings( );1;0;3
+InstantiatedIndex.getDocumentsByNumber( );1;0;3
+InstantiatedIndex.findTerm( Term term );1;0;3
+InstantiatedIndex.InstantiatedIndex( IndexReader sourceIndexReader , Set < String > fields );42;25;139
+InstantiatedIndex.setVersion( long version );1;0;3
+InstantiatedIndex.getVersion( );1;0;3
+InstantiatedIndex.setOrderedTerms( InstantiatedTerm [ ] orderedTerms );1;0;3
+InstantiatedIndex.getTermsByFieldAndText( );1;0;3
+InstantiatedIndex.getNormsByFieldNameAndDocumentNumber( );1;0;3
+InstantiatedIndex.getOrderedTerms( );1;0;3
+InstantiatedIndex.close( );1;0;2
+InstantiatedIndex.initialize( );1;0;8

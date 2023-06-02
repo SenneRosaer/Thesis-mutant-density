@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Spring.setEndValue( double endValue );4;2;12
+Spring.setVelocity( double velocity );2;1;8
+Spring.getSpringConfig( );1;0;3
+Spring.isOvershootClampingEnabled( );1;0;3
+Spring.isAtRest( );3;5;5
+Spring.currentValueIsApproximately( double value );1;2;3
+Spring.getRestDisplacementThreshold( );1;0;3
+Spring.getRestSpeedThreshold( );1;0;3
+Spring.setCurrentValue( double currentValue , boolean setAtRest );3;0;12
+Spring.systemShouldAdvance( );2;3;3
+Spring.getCurrentDisplacementDistance( );1;0;3
+Spring.wasAtRest( );1;0;3
+Spring.removeListener( SpringListener listenerToRemove );2;1;7
+Spring.setSpringConfig( SpringConfig springConfig );2;1;7
+Spring.setRestDisplacementThreshold( double displacementFromRestThreshold );1;0;4
+Spring.setRestSpeedThreshold( double restSpeedThreshold );1;0;4
+Spring.getEndValue( );1;0;3
+Spring.isOvershooting( );5;9;5
+Spring.setOvershootClampingEnabled( boolean overshootClampingEnabled );1;0;4
+Spring.advance( double realDeltaTime );16;59;84
+Spring.getId( );1;0;3
+Spring.getDisplacementDistanceForState( PhysicsState state );1;1;3
+Spring.destroy( );1;0;4
+Spring.Spring( BaseSpringSystem springSystem );2;2;8
+Spring.setCurrentValue( double currentValue );1;0;3
+Spring.removeAllListeners( );1;0;4
+Spring.getCurrentValue( );1;0;3
+Spring.addListener( SpringListener newListener );2;1;7
+Spring.setAtRest( );1;0;6
+Spring.getStartValue( );1;0;3
+Spring.interpolate( double alpha );1;8;4
+Spring.getVelocity( );1;0;3

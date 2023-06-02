@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AreaTreeHandler.signalPendingID( String id );1;0;3
+AreaTreeHandler.getLayoutManagerMaker( );1;0;3
+AreaTreeHandler.generatePageViewportKey( );1;1;4
+Statistics.Statistics( );1;0;3
+AreaTreeHandler.alreadyResolvedID( String id );1;0;3
+AreaTreeHandler.getResults( );1;0;3
+AreaTreeHandler.getIDTracker( );1;0;3
+Statistics.logResults( );3;12;17
+AreaTreeHandler.associateIDWithPageViewport( String id , PageViewport pv );1;0;3
+AreaTreeHandler.startAbstractPageSequence( AbstractPageSequence pageSequence );2;1;9
+AreaTreeHandler.AreaTreeHandler( FOUserAgent userAgent , String outputFormat , OutputStream stream );3;1;12
+AreaTreeHandler.notifyPageSequenceFinished( AbstractPageSequence pageSequence , int pageCount );2;0;6
+AreaTreeHandler.startPageSequence( PageSequence pageSequence );1;0;3
+AreaTreeHandler.signalIDProcessed( String id );1;0;3
+AreaTreeHandler.endPageSequence( PageSequence pageSequence );3;2;12
+Statistics.start( );1;1;4
+AreaTreeHandler.setupModel( FOUserAgent userAgent , String outputFormat , OutputStream stream );1;0;3
+AreaTreeHandler.getPageViewportsContainingID( String id );1;0;3
+AreaTreeHandler.finishPrevPageSequence( Numeric initialPageNumber );2;1;7
+AreaTreeHandler.getAreaTreeModel( );1;0;3
+AreaTreeHandler.endExternalDocument( ExternalDocument document );2;1;9
+AreaTreeHandler.addUnresolvedIDRef( String idref , Resolvable res );1;0;3
+AreaTreeHandler.addOffDocumentItem( OffDocumentItem odi );5;3;22
+AreaTreeHandler.endDocument( );7;6;25
+Statistics.end( );1;2;4
+AreaTreeHandler.tryIDResolution( PageViewport pv );1;0;3
+AreaTreeHandler.wrapAndAddExtensionAttachments( List list );2;0;7
+AreaTreeHandler.startExternalDocument( ExternalDocument document );1;0;3
+AreaTreeHandler.startDocument( );2;1;5

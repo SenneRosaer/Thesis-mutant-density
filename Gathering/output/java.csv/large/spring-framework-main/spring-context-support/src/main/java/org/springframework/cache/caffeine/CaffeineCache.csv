@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LoadFunction.apply( Object o );2;0;8
+CaffeineCache.put( Object key , @ Nullable Object value );1;0;3
+CaffeineCache.lookup( Object key );2;0;6
+CaffeineCache.getNativeCache( );1;0;3
+CaffeineCache.evictIfPresent( Object key );1;1;3
+CaffeineCache.clear( );1;0;3
+CaffeineCache.evict( Object key );1;0;3
+CaffeineCache.CaffeineCache( String name , com . github . benmanes . caffeine . cache . Cache < Object , Object > cache , boolean allowNullValues );1;0;7
+CaffeineCache.CaffeineCache( String name , com . github . benmanes . caffeine . cache . Cache < Object , Object > cache );1;0;3
+CaffeineCache.invalidate( );1;1;5
+CaffeineCache.getName( );1;0;3
+LoadFunction.LoadFunction( Callable < ? > valueLoader );1;0;3
+PutIfAbsentFunction.PutIfAbsentFunction( @ Nullable Object value );1;0;3
+CaffeineCache.get( Object key , final Callable < T > valueLoader );1;0;3
+CaffeineCache.putIfAbsent( Object key , @ Nullable final Object value );2;0;5
+PutIfAbsentFunction.apply( Object key );1;0;4

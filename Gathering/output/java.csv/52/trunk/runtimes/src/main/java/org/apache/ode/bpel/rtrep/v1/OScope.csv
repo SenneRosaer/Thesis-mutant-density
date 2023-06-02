@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OScope.getLocalPartnerLink( String name );1;0;3
+OScope.getLocalVariable( final String varName );1;0;3
+CorrelationSet.toString( );1;0;3
+CorrelationSet.CorrelationSet( OProcess owner );1;0;3
+OScope.addCorrelationSet( CorrelationSet ocset );1;0;3
+OScope.getCorrelationSet( String corrName );1;0;3
+OScope.getVisiblePartnerLink( String name );4;2;13
+Variable.getDescription( );1;0;6
+Variable.Variable( OProcess owner , OVarType type );1;0;4
+OScope.OScope( OProcess owner , OActivity parent );1;0;3
+OScope.addLocalVariable( Variable variable );1;0;3
+***not in a method***;0;3;0
+CorrelationSet.getExtractors( );1;0;3
+CorrelationSet.getAliases( QName messageName );3;1;13
+OScope.getVisibleVariable( String varName );4;2;13
+OScope.toString( );1;0;3
+Variable.toString( );1;0;3
+OScope.isInAtomicScope( );4;2;9

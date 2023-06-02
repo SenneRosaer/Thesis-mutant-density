@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Matcher.Matcher( Selector . XPath xpath , FieldActivator activator , int initialDepth );1;0;5
+Matcher.endElement( QName element , XSTypeDefinition type , boolean nillable , Object actualValue , short valueType , ShortList itemValueType );2;3;7
+Matcher.getInitialDepth( );1;0;3
+Selector.getXPath( );1;0;3
+Matcher.startDocumentFragment( );1;1;5
+Selector.Selector( Selector . XPath xpath , IdentityConstraint identityConstraint );1;0;4
+Selector.createMatcher( FieldActivator activator , int initialDepth );1;0;3
+XPath.XPath( String xpath , SymbolTable symbolTable , NamespaceContext context );3;4;10
+Selector.toString( );1;0;3
+Selector.getIDConstraint( );1;0;3
+XPath.normalize( String xpath );5;8;17
+Matcher.getIdentityConstraint( );1;0;3
+Matcher.startElement( QName element , XMLAttributes attributes );3;3;14

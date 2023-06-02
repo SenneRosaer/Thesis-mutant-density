@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BaseSpringSystem.addListener( SpringSystemListener newListener );2;1;6
+BaseSpringSystem.deregisterSpring( Spring spring );2;1;7
+BaseSpringSystem.getIsIdle( );1;0;3
+BaseSpringSystem.BaseSpringSystem( SpringLooper springLooper );2;1;7
+BaseSpringSystem.loop( double elapsedMillis );5;0;15
+BaseSpringSystem.advance( double deltaTime );3;1;9
+BaseSpringSystem.removeAllListeners( );1;0;3
+BaseSpringSystem.registerSpring( Spring spring );3;1;8
+BaseSpringSystem.activateSpring( String springId );3;1;11
+BaseSpringSystem.createSpring( );1;0;5
+BaseSpringSystem.getAllSprings( );2;0;10
+BaseSpringSystem.getSpringById( String id );2;1;6
+BaseSpringSystem.removeListener( SpringSystemListener listenerToRemove );2;1;6

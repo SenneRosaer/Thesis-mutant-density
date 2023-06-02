@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LateralTCPService.getGroupKeys( String cacheName , String group );2;0;7
+LateralTCPService.main( String args [ ] );3;0;21
+LateralTCPService.get( String cacheName , Serializable key );2;0;13
+LateralTCPService.LateralTCPService( ITCPLateralCacheAttributes lca );2;0;14
+LateralTCPService.getTcpLateralCacheAttributes( );1;0;3
+LateralTCPService.removeCacheListener( ICacheListener obj );1;0;2
+LateralTCPService.removeCacheListener( String cacheName , ICacheListener obj );1;0;2
+LateralTCPService.update( ICacheElement item , long requesterId );5;3;29
+LateralTCPService.removeAll( String cacheName , long requesterId );1;0;7
+LateralTCPService.setListenerId( long listernId );1;0;3
+LateralTCPService.remove( String cacheName , Serializable key );1;0;3
+LateralTCPService.addCacheListener( String cacheName , ICacheListener obj );1;0;2
+LateralTCPService.removeAll( String cacheName );1;0;3
+LateralTCPService.setTcpLateralCacheAttributes( ITCPLateralCacheAttributes tcpLateralCacheAttributes );1;0;3
+LateralTCPService.release( );1;0;2
+LateralTCPService.getListenerId( );1;0;3
+LateralTCPService.update( ICacheElement item );1;0;3
+LateralTCPService.get( String key );2;0;7
+LateralTCPService.addCacheListener( ICacheListener obj );1;0;2
+LateralTCPService.remove( String cacheName , Serializable key , long requesterId );1;0;7
+LateralTCPService.dispose( String cache );1;0;3

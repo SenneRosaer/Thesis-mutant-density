@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SubScorer.SubScorer( Scorer scorer , boolean required , boolean prohibited , HitCollector collector , SubScorer next );1;1;8
+BooleanScorer.score( HitCollector hc );1;0;4
+***not in a method***;0;3;0
+BooleanScorer.doc( );1;0;1
+BooleanScorer.BooleanScorer( Similarity similarity );1;0;3
+BooleanScorer.explain( int doc );1;0;3
+BooleanScorer.toString( );2;1;10
+BucketTable.newCollector( int mask );1;0;3
+Collector.Collector( int mask , BucketTable bucketTable );1;0;4
+BucketTable.BucketTable( );1;0;1
+BooleanScorer.next( );11;17;27
+Collector.collect( final int doc , final float score );3;6;19
+BooleanScorer.BooleanScorer( Similarity similarity , int minNrShouldMatch );1;0;4
+BooleanScorer.add( Scorer scorer , boolean required , boolean prohibited );7;7;19
+BucketTable.size( );1;0;1
+BooleanScorer.score( HitCollector hc , int max );13;18;41
+BooleanScorer.score( );2;2;5
+BooleanScorer.computeCoordFactors( );2;3;5
+BooleanScorer.skipTo( int target );1;0;3

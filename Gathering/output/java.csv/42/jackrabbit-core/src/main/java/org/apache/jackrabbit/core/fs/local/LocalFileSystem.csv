@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LocalFileSystem.isFile( String path );1;0;4
+LocalFileSystem.getRandomAccessOutputStream( String filePath );2;0;10
+LocalFileSystem.deleteFile( String filePath );5;3;17
+LocalFileSystem.init( );6;4;24
+LocalFileSystem.deleteFolder( String folderPath );3;1;15
+LocalFileSystem.copy( String srcPath , String destPath );2;0;12
+LocalFileSystem.close( );1;0;3
+LocalFileSystem.accept( File f );1;0;3
+LocalFileSystem.getOutputStream( String filePath );2;0;10
+LocalFileSystem.length( String filePath );2;2;7
+LocalFileSystem.getEnableHandleMonitor( );2;1;3
+LocalFileSystem.isFolder( String path );1;0;4
+LocalFileSystem.setEnableHandleMonitor( String enable );1;0;3
+LocalFileSystem.setEnableHandleMonitor( boolean enable );5;5;8
+LocalFileSystem.equals( Object obj );4;3;14
+LocalFileSystem.listFiles( String folderPath );3;3;18
+LocalFileSystem.lastModified( String path );1;0;4
+LocalFileSystem.getPath( );2;1;7
+LocalFileSystem.move( String srcPath , String destPath );6;3;29
+LocalFileSystem.osPath( String genericPath );2;0;6
+LocalFileSystem.listFolders( String folderPath );3;3;18
+LocalFileSystem.LocalFileSystem( );1;0;2
+LocalFileSystem.exists( String path );1;0;4
+LocalFileSystem.getInputStream( String filePath );3;1;14
+LocalFileSystem.setPath( String rootPath );1;0;3
+LocalFileSystem.list( String folderPath );2;1;10
+LocalFileSystem.touch( String filePath );1;0;4
+LocalFileSystem.createFolder( String folderPath );3;1;13
+LocalFileSystem.setRoot( File root );1;0;3
+LocalFileSystem.hasChildren( String path );3;2;12
+LocalFileSystem.hashCode( );1;0;3

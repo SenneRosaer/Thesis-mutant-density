@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketHandlerRegistrationTests.interceptors( );1;0;14
+WebSocketHandlerRegistrationTests.emptyAllowedOrigin( );1;0;14
+TestWebSocketHandlerRegistration.addSockJsServiceMapping( List < Mapping > mappings , SockJsService sockJsService , WebSocketHandler wsHandler , String pathPattern );1;0;3
+TestWebSocketHandlerRegistration.createMappings( );1;0;3
+WebSocketHandlerRegistrationTests.handshakeHandler( );1;0;11
+WebSocketHandlerRegistrationTests.interceptorsPassedToSockJsRegistration( );1;0;22
+Mapping.Mapping( WebSocketHandler handler , String path , SockJsService sockJsService );1;0;7
+WebSocketHandlerRegistrationTests.interceptorsWithAllowedOrigins( );1;0;19
+Mapping.Mapping( WebSocketHandler h , String path , HandshakeHandler hh , HandshakeInterceptor [ ] interceptors );1;0;7
+WebSocketHandlerRegistrationTests.minimal( );1;0;18
+WebSocketHandlerRegistrationTests.handshakeHandlerPassedToSockJsRegistration( );1;0;15
+TestWebSocketHandlerRegistration.addWebSocketHandlerMapping( List < Mapping > mappings , WebSocketHandler handler , HandshakeHandler handshakeHandler , HandshakeInterceptor [ ] interceptors , String path );1;0;3

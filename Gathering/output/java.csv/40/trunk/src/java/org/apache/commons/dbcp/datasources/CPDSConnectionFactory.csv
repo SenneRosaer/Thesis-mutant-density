@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CPDSConnectionFactory.getPool( );1;0;3
+CPDSConnectionFactory.setPool( ObjectPool pool );5;3;12
+CPDSConnectionFactory.makeObject( );4;2;20
+CPDSConnectionFactory.setCPDS( ConnectionPoolDataSource cpds );1;0;3
+CPDSConnectionFactory.destroyObject( Object obj );2;0;5
+CPDSConnectionFactory.connectionErrorOccurred( ConnectionEvent event );5;2;22
+CPDSConnectionFactory.CPDSConnectionFactory( ConnectionPoolDataSource cpds , ObjectPool pool , String validationQuery , boolean rollbackAfterValidation , String username , String password );1;0;4
+CPDSConnectionFactory.CPDSConnectionFactory( ConnectionPoolDataSource cpds , ObjectPool pool , String validationQuery , String username , String password );1;0;8
+CPDSConnectionFactory.connectionClosed( ConnectionEvent event );5;2;22
+CPDSConnectionFactory.setValidationQuery( String validationQuery );1;0;3
+CPDSConnectionFactory.setRollbackAfterValidation( boolean rollbackAfterValidation );1;0;3
+CPDSConnectionFactory.passivateObject( Object obj );1;0;2
+CPDSConnectionFactory.activateObject( Object obj );1;0;2
+CPDSConnectionFactory.validateObject( Object obj );12;4;54

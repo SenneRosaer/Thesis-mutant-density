@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NativeTextHandler.getPSGenerator( );1;0;3
+NativeTextHandler.escapeText( final String text , StringBuffer target );2;2;8
+NativeTextHandler.drawString( Graphics2D g , String s , float x , float y );2;2;27
+NativeTextHandler.createFont( java . awt . Font f );5;2;14
+NativeTextHandler.establishCurrentFont( );3;5;10
+NativeTextHandler.writePageSetup( );1;0;2
+NativeTextHandler.NativeTextHandler( PSGraphics2D g2d , FontInfo fontInfo );2;1;8
+NativeTextHandler.setupFontInfo( );1;0;4
+NativeTextHandler.writeSetup( );2;1;5
+NativeTextHandler.getFontInfo( );1;0;3
+NativeTextHandler.drawString( String text , float x , float y );1;0;3
+NativeTextHandler.setOverrideFont( Font override );1;0;3

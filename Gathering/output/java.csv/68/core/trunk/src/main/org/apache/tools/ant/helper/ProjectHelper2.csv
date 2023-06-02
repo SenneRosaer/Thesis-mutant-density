@@ -1,0 +1,41 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProjectHelper2.setMainHandler( AntHandler handler );1;0;3
+ProjectHelper2.parse( Project project , Object source );3;2;34
+ProjectHelper2.getElementHandler( );1;0;3
+ElementHandler.characters( char [ ] buf , int start , int count , AntXMLContext context );1;0;4
+AntHandler.onEndElement( String uri , String tag , AntXMLContext context );1;0;2
+ElementHandler.onStartElement( String uri , String tag , String qname , Attributes attrs , AntXMLContext context );13;16;53
+ProjectHelper2.getTargetHandler( );1;0;3
+AntHandler.checkNamespace( String uri );1;0;2
+RootHandler.startPrefixMapping( String prefix , String uri );1;0;3
+ProjectHelper2.setTargetHandler( AntHandler handler );1;0;3
+RootHandler.RootHandler( AntXMLContext context , AntHandler rootHandler );1;0;5
+AntHandler.onStartChild( String uri , String tag , String qname , Attributes attrs , AntXMLContext context );1;0;4
+TargetHandler.onStartElement( String uri , String tag , String qname , Attributes attrs , AntXMLContext context );34;31;121
+ProjectHelper2.setElementHandler( AntHandler handler );1;0;3
+ProjectHelper2.getMainHandler( );1;0;3
+RootHandler.getCurrentAntHandler( );1;0;3
+ElementHandler.onEndElement( String uri , String tag , AntXMLContext context );1;0;3
+TargetHandler.onEndElement( String uri , String tag , AntXMLContext context );1;0;3
+ProjectHandler.onStartChild( String uri , String name , String qname , Attributes attrs , AntXMLContext context );5;3;5
+AntHandler.onStartElement( String uri , String tag , String qname , Attributes attrs , AntXMLContext context );1;0;2
+RootHandler.characters( char [ ] buf , int start , int count );1;0;3
+RootHandler.startElement( String uri , String tag , String qname , Attributes attrs );1;0;6
+RootHandler.endPrefixMapping( String prefix );1;0;3
+ProjectHelper2.parseAntlibDescriptor( Project containingProject , URL source );1;0;3
+ProjectHandler.onStartElement( String uri , String tag , String qname , Attributes attrs , AntXMLContext context );31;30;84
+RootHandler.setDocumentLocator( Locator locator );1;0;3
+ProjectHelper2.parseUnknownElement( Project project , URL source );2;1;13
+AntHandler.characters( char [ ] buf , int start , int count , AntXMLContext context );2;1;6
+ProjectHelper2.setProjectHandler( AntHandler handler );1;0;3
+RootHandler.resolveEntity( String publicId , String systemId );4;1;25
+ElementHandler.onStartChild( String uri , String tag , String qname , Attributes attrs , AntXMLContext context );1;0;3
+AntHandler.onEndChild( String uri , String tag , String qname , AntXMLContext context );1;0;2
+ProjectHelper2.getProjectHandler( );1;0;3
+ProjectHelper2.parse( Project project , Object source , RootHandler handler );15;5;71
+TargetHandler.getTargetPrefix( AntXMLContext context );5;4;14
+ElementHandler.ElementHandler( );1;0;2
+TargetHandler.onStartChild( String uri , String name , String qname , Attributes attrs , AntXMLContext context );1;0;3
+MainHandler.onStartChild( String uri , String name , String qname , Attributes attrs , AntXMLContext context );5;2;12
+ProjectHelper2.canParseAntlibDescriptor( URL url );1;0;3
+RootHandler.endElement( String uri , String name , String qName );2;1;8

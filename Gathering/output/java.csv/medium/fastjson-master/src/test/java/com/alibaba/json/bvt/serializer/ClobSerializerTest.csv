@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockClob.setAsciiStream( long pos );1;0;3
+MockClob.length( );1;0;3
+ClobSerializerTest.test_clob( );1;0;4
+MockClob.position( String searchstr , long start );1;0;3
+VO.getValue( );1;0;3
+MockClob.getCharacterStream( );2;1;6
+MockClob.getAsciiStream( );1;0;3
+MockClob.MockClob( String text );1;0;3
+ClobSerializerTest.test_clob_error( );2;0;9
+VO.setValue( Clob value );1;0;3
+MockClob.MockClob( SQLException error );1;0;4
+ClobSerializerTest.test_clob_null( );1;0;4
+MockClob.truncate( long len );1;0;2
+MockClob.free( );1;0;2
+MockClob.getError( );1;0;3
+MockClob.getCharacterStream( long pos , long length );1;0;3
+MockClob.position( Clob searchstr , long start );1;0;3
+MockClob.setCharacterStream( long pos );1;0;3
+MockClob.setString( long pos , String str , int offset , int len );1;0;3
+MockClob.setError( SQLException error );1;0;3
+MockClob.getSubString( long pos , int length );1;0;3
+MockClob.setString( long pos , String str );1;0;3

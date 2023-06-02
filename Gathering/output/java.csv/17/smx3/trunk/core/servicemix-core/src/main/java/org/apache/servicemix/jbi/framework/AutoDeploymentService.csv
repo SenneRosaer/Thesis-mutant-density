@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AutoDeploymentService.updateArchive( String location , ArchiveEntry entry , boolean autoStart );12;8;45
+AutoDeploymentService.run( );4;1;11
+ArchiveEntry.setDependencies( Set < String > dependencies );1;0;3
+AutoDeploymentService.init( JBIContainer container );2;1;10
+AutoDeploymentService.checkPendingSAs( );8;2;33
+ArchiveEntry.setType( String type );1;0;3
+AutoDeploymentService.setMonitorInterval( int monitorInterval );1;0;3
+AutoDeploymentService.getServiceMBean( );1;0;3
+AutoDeploymentService.getComponentNames( ServiceAssembly sa );4;5;9
+AutoDeploymentService.setMonitorDeploymentDirectory( boolean monitorDeploymentDirectory );1;0;3
+AutoDeploymentService.initializeFileMaps( );7;4;18
+AutoDeploymentService.getMonitorInterval( );1;0;3
+AutoDeploymentService.isMonitorInstallationDirectory( );1;0;3
+AutoDeploymentService.getDescription( );1;0;3
+AutoDeploymentService.failure( String task , String info , Exception e , List componentResults );1;0;9
+AutoDeploymentService.failure( String task , String info );1;0;3
+AutoDeploymentService.updateServiceAssembly( ArchiveEntry entry , boolean autoStart , File tmpDir , Descriptor root );9;3;43
+ArchiveEntry.setLastModified( Date lastModified );1;0;3
+ArchiveEntry.setPending( boolean pending );1;0;3
+AutoDeploymentService.start( );2;0;6
+AutoDeploymentService.removePendingEntries( Map < String , ArchiveEntry > map );4;0;11
+AutoDeploymentService.unpackLocation( File tmpRoot , String location );13;2;53
+AutoDeploymentService.checkPendingComponents( );8;2;33
+ArchiveEntry.getLastModified( );1;0;3
+ArchiveEntry.isPending( );1;0;3
+AutoDeploymentService.isAllowedExtension( String file );3;2;9
+AutoDeploymentService.updateComponent( ArchiveEntry entry , boolean autoStart , File tmpDir , Descriptor root );8;4;41
+ArchiveEntry.setLocation( String location );1;0;3
+AutoDeploymentService.setMonitorInstallationDirectory( boolean monitorInstallationDirectory );1;0;3
+AutoDeploymentService.getExtensions( );1;0;3
+AutoDeploymentService.persistState( File root , Map < String , ArchiveEntry > map );2;0;8
+AutoDeploymentService.isMonitorDeploymentDirectory( );1;0;3
+ArchiveEntry.getDependencies( );1;0;3
+AutoDeploymentService.scheduleDirectoryTimer( );9;6;25
+AutoDeploymentService.getSharedLibraryNames( Component comp );4;5;9
+AutoDeploymentService.monitorDirectory( final File root , final Map < String , ArchiveEntry > fileMap );15;12;45
+ArchiveEntry.getType( );1;0;3
+AutoDeploymentService.isAvailable( File file );4;1;21
+AutoDeploymentService.removeArchive( ArchiveEntry entry );9;2;41
+AutoDeploymentService.failure( String task , String info , Exception e );1;0;3
+ArchiveEntry.getName( );1;0;3
+ArchiveEntry.setName( String name );1;0;3
+AutoDeploymentService.setExtensions( String extensions );1;0;3
+AutoDeploymentService.updateExternalArchive( String location , boolean autoStart );1;0;7
+AutoDeploymentService.readState( File root );3;0;14
+ArchiveEntry.getLocation( );1;0;3
+AutoDeploymentService.getAttributeInfos( );1;0;6
+AutoDeploymentService.updateSharedLibrary( ArchiveEntry entry , File tmpDir , Descriptor root );3;1;17
+AutoDeploymentService.stop( );3;1;8

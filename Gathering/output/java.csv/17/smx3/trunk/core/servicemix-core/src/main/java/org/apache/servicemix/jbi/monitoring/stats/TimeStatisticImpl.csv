@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TimeStatisticImpl.TimeStatisticImpl( String name , String description );1;0;3
+TimeStatisticImpl.setParent( TimeStatisticImpl parent );1;0;3
+TimeStatisticImpl.getMaxTime( );1;0;3
+TimeStatisticImpl.getAveragePerSecond( );2;2;8
+TimeStatisticImpl.getParent( );1;0;3
+TimeStatisticImpl.getAverageTime( );2;2;7
+TimeStatisticImpl.addTime( );5;8;16
+TimeStatisticImpl.addTime( long time );5;7;14
+TimeStatisticImpl.getCount( );1;0;3
+TimeStatisticImpl.TimeStatisticImpl( String name , String unit , String description );1;0;3
+TimeStatisticImpl.getAverageTimeExcludingMinMax( );2;5;7
+TimeStatisticImpl.appendFieldDescription( StringBuffer buffer );1;0;19
+TimeStatisticImpl.TimeStatisticImpl( TimeStatisticImpl parent , String name , String description );1;0;4
+TimeStatisticImpl.getAveragePerSecondExcludingMinMax( );2;2;8
+TimeStatisticImpl.getTotalTime( );1;0;3
+TimeStatisticImpl.getMinTime( );1;0;3
+TimeStatisticImpl.reset( );1;0;7

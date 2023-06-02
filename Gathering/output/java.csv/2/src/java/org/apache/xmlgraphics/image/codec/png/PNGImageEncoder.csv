@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PNGImageEncoder.writeGAMA( );4;4;13
+IDATOutputStream.write( byte [ ] b , int off , int len );3;6;12
+ChunkStream.ChunkStream( String type );1;0;5
+PNGImageEncoder.writeHIST( );3;2;10
+PNGImageEncoder.encode( RenderedImage im );40;44;147
+ChunkStream.writeChar( int v );1;0;3
+ChunkStream.writeFloat( float v );1;0;3
+***not in a method***;0;9;0
+PNGImageEncoder.writeSBIT( );3;2;11
+ChunkStream.writeBytes( String s );1;0;3
+PNGImageEncoder.encodePass( OutputStream os , Raster ras , int xOffset , int yOffset , int xSkip , int ySkip );19;60;80
+PNGImageEncoder.writeIDAT( );4;3;33
+PNGImageEncoder.writePLTE( );3;3;12
+ChunkStream.writeLong( long v );1;0;3
+PNGImageEncoder.writePrivateChunks( );2;2;10
+PNGImageEncoder.createGrayParam( byte [ ] redPalette , byte [ ] greenPalette , byte [ ] bluePalette , byte [ ] alphaPalette );8;16;25
+IDATOutputStream.writeInt( int x );1;6;6
+IDATOutputStream.write( byte [ ] b );1;0;3
+PNGImageEncoder.writeMagic( );1;0;3
+PNGImageEncoder.writeIEND( );1;0;4
+PNGImageEncoder.clamp( int val , int maxValue );2;1;3
+ChunkStream.write( byte [ ] b , int off , int len );1;0;3
+ChunkStream.writeBoolean( boolean v );1;0;3
+ChunkStream.writeToStream( DataOutputStream output );1;1;18
+PNGImageEncoder.writeICCP( );2;0;8
+PNGImageEncoder.writeTEXT( );3;6;14
+ChunkStream.write( byte [ ] b );1;0;3
+ChunkStream.writeDouble( double v );1;0;3
+IDATOutputStream.close( );1;0;3
+PNGImageEncoder.writeZTXT( );3;6;17
+PNGImageEncoder.PNGImageEncoder( OutputStream output , PNGEncodeParam param );2;1;7
+PNGImageEncoder.writePHYS( );2;0;10
+ChunkStream.writeShort( int v );1;0;3
+ChunkStream.writeInt( int v );1;0;3
+PNGImageEncoder.writeSPLT( );2;0;7
+ChunkStream.writeByte( int v );1;0;3
+ChunkStream.writeUTF( String str );1;0;3
+IDATOutputStream.write( int b );2;2;6
+PNGImageEncoder.writeTRNS( );13;14;38
+ChunkStream.write( int b );1;0;3
+PNGImageEncoder.writeCHRM( );5;5;15
+IDATOutputStream.IDATOutputStream( OutputStream output , int segmentLength );1;0;5
+PNGImageEncoder.writeTIME( );2;1;22
+ChunkStream.writeChars( String s );1;0;3
+PNGImageEncoder.writeBKGD( );7;0;25
+CRC.updateCRC( int crc , byte [ ] data , int off , int len );2;7;7
+IDATOutputStream.flush( );1;1;10
+PNGImageEncoder.writeSRGB( );2;0;8
+PNGImageEncoder.writeIHDR( );2;0;11

@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletServiceResponse.setLocale( Locale loc );1;0;3
+ServletServiceResponse.close( );1;0;3
+ServletServiceResponse.setDateHeader( String name , long date );1;0;3
+ServletServiceResponse.encodeURL( String url );1;0;3
+ServletServiceResponse.isCommitted( );1;0;3
+ServletServiceResponse.ServletServiceResponse( );1;0;4
+ServletServiceResponse.resetBuffer( );2;0;5
+ServletServiceResponse.addHeader( String name , String value );1;0;3
+ServletServiceResponse.flushBuffer( );1;0;3
+ServletServiceResponse.getDateHeader( String name );3;2;11
+ServletServiceResponse.setIntHeader( String name , int value );1;0;3
+ServletServiceResponse.setStatus( int sc , String sm );1;0;3
+ServletServiceResponse.reset( );1;0;3
+ServletServiceResponse.getLocale( );1;0;3
+ServletServiceResponse.getCharacterEncoding( );1;0;3
+ServletServiceResponse.getStatus( );1;0;3
+ServletServiceResponse.setHeader( String name , String value );1;0;3
+ServletServiceResponse.setBufferSize( int size );1;0;2
+ServletServiceResponse.getWriter( );3;2;10
+ServletServiceResponse.setStatus( int sc );1;0;3
+ServletServiceResponse.getOutputStream( );3;2;20
+ServletServiceResponse.containsHeader( String name );1;0;3
+ServletServiceResponse.sendRedirect( String location );1;0;2
+ServletServiceResponse.encodeRedirectURL( String url );1;0;3
+ServletServiceResponse.write( int b );1;0;4
+ServletServiceResponse.getIntHeader( String name );2;2;7
+ServletServiceResponse.sendError( int sc , String msg );1;0;2
+ServletServiceResponse.addCookie( Cookie cookie );1;0;2
+ServletServiceResponse.getBufferSize( );1;0;3
+ServletServiceResponse.setContentType( String type );1;0;3
+ServletServiceResponse.flush( );1;0;3
+ServletServiceResponse.getHeader( String name );1;0;3
+ServletServiceResponse.setOutputStream( OutputStream outputStream );1;0;3
+ServletServiceResponse.setCharacterEncoding( String arg0 );1;0;2
+ServletServiceResponse.addDateHeader( String name , long date );1;0;3
+ServletServiceResponse.sendError( int sc );1;0;2
+ServletServiceResponse.encodeUrl( String url );1;0;3
+ServletServiceResponse.encodeRedirectUrl( String url );1;0;3
+ServletServiceResponse.setContentLength( int len );1;0;2
+ServletServiceResponse.getContentType( );1;0;3
+ServletServiceResponse.addIntHeader( String name , int value );1;0;3

@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DeliveryChannelImpl.accept( );1;0;3
+DeliveryChannelImpl.accept( long timeoutMS );16;9;50
+DeliveryChannelImpl.getExchangeListener( );3;0;11
+DeliveryChannelImpl.DeliveryChannelImpl( ComponentMBeanImpl component );1;0;6
+DeliveryChannelImpl.resumeTx( MessageExchangeImpl me );6;4;15
+DeliveryChannelImpl.doSend( MessageExchangeImpl me , boolean sync );15;14;48
+DeliveryChannelImpl.checkNotClosed( );2;0;5
+DeliveryChannelImpl.suspendTx( MessageExchangeImpl me );7;5;20
+DeliveryChannelImpl.getContainer( );1;0;3
+DeliveryChannelImpl.autoEnlistInTx( MessageExchangeImpl me );9;9;18
+DeliveryChannelImpl.createExchangeFactory( ServiceEndpoint endpoint );1;0;5
+DeliveryChannelImpl.sendSync( MessageExchange messageExchange );1;0;3
+DeliveryChannelImpl.createExchangeFactory( QName interfaceName );1;0;5
+DeliveryChannelImpl.waitForExchange( MessageExchangeImpl me , Object lock , long timeout , String from );3;0;16
+DeliveryChannelImpl.toString( );1;0;3
+DeliveryChannelImpl.getInboundFactory( );2;1;6
+DeliveryChannelImpl.getContext( );1;0;3
+DeliveryChannelImpl.throttle( );4;2;13
+DeliveryChannelImpl.createMessageExchangeFactory( );1;0;5
+DeliveryChannelImpl.autoSetPersistent( MessageExchangeImpl me );3;2;11
+DeliveryChannelImpl.close( );9;7;27
+DeliveryChannelImpl.setContext( ComponentContextImpl context );1;0;3
+DeliveryChannelImpl.createExchangeFactory( );10;10;42
+DeliveryChannelImpl.notifyExchange( MessageExchangeImpl me , Object lock , String from );2;0;9
+DeliveryChannelImpl.setContainer( JBIContainer container );1;0;3
+DeliveryChannelImpl.getQueueSize( );1;0;3
+DeliveryChannelImpl.cancelPendingExchanges( );2;0;8
+DeliveryChannelImpl.processInBound( MessageExchangeImpl me );15;10;76
+DeliveryChannelImpl.getComponent( );1;0;3
+DeliveryChannelImpl.sendSync( MessageExchange messageExchange , long timeout );10;4;50
+DeliveryChannelImpl.createExchangeFactoryForService( QName serviceName );1;0;5
+DeliveryChannelImpl.send( MessageExchange messageExchange );2;0;9

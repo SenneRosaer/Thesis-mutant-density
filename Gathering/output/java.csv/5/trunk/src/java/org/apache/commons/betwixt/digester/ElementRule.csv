@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ElementRule.ElementRule( );1;0;2
+ElementRule.configureDescriptor( ElementDescriptor elementDescriptor , String updateMethodName , boolean forceAccessible );4;2;17
+ElementRule.configureDescriptor( ElementDescriptor elementDescriptor , String updateMethodName );1;0;3
+ElementRule.configureDescriptor( ElementDescriptor elementDescriptor );1;0;3
+ElementRule.begin( String name , String namespace , Attributes attributes );20;16;86
+ElementRule.setLog( Log newLog );1;0;3
+ElementRule.configureProperty( ElementDescriptor elementDescriptor , PropertyDescriptor propertyDescriptor , String updateMethodName , boolean forceAccessible , Class beanClass );22;11;96
+ElementRule.end( String name , String namespace );3;0;10
+ElementRule.searchMethodsForMatch( String updateMethodName , Method [ ] methods , boolean isMapType );6;3;20
+ElementRule.findPublicMethod( String updateMethodName , Class beanType , boolean isMapTypeProperty );1;0;5
+ElementRule.findAnyMethod( String updateMethodName , Class beanType , boolean isMapTypeProperty );6;6;17

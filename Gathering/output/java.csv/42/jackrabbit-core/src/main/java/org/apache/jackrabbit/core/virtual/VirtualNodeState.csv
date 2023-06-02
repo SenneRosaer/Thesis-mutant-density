@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VirtualNodeState.setMixinNodeTypes( Name [ ] mixins );3;3;12
+VirtualNodeState.VirtualNodeState( AbstractVISProvider stateMgr , NodeId parentId , NodeId id , Name nodeTypeName , Name [ ] mixins );1;0;7
+VirtualNodeState.addStateReference( NodeState state );2;1;6
+VirtualNodeState.getProperty( Name name );1;0;3
+VirtualNodeState.getPropertyValue( Name name );3;3;8
+VirtualNodeState.setPropertyValue( Name name , InternalValue value );1;0;3
+VirtualNodeState.setPropertyValues( Name name , int type , InternalValue [ ] values , boolean multiple );1;0;4
+VirtualNodeState.getPropertyValues( Name name );2;1;8
+VirtualNodeState.getProperties( );1;0;3
+VirtualNodeState.getOrCreatePropertyState( Name name , int type , boolean multiValued );2;1;9
+VirtualNodeState.setPropertyValues( Name name , int type , InternalValue [ ] values );1;0;3

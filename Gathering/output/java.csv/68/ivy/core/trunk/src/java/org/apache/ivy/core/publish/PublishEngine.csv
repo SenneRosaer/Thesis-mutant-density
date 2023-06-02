@@ -1,0 +1,5 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PublishEngine.PublishEngine( PublishEngineSettings settings , EventManager eventManager );1;0;4
+PublishEngine.publish( ModuleRevisionId mrid , Collection srcArtifactPattern , String resolverName , PublishOptions options );15;11;86
+PublishEngine.publish( Artifact artifact , File src , DependencyResolver resolver , boolean overwrite );2;0;15
+PublishEngine.publish( ModuleDescriptor md , Collection srcArtifactPattern , DependencyResolver resolver , PublishOptions options );23;17;91

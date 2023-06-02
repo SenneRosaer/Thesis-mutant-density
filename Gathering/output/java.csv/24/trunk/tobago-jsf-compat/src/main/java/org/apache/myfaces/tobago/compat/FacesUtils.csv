@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FacesUtils.getValueFromValueBindingOrValueExpression( FacesContext context , UIComponent component , String name );2;1;7
+FacesUtils.getExpressionString( UIComponent component , String name );2;1;7
+FacesUtils.setConverter( ValueHolder valueHolder , Object converterExpression );6;3;19
+FacesUtils.setBindingOrExpression( UIComponent component , String name , Object valueBindingOrExpression );2;1;7
+FacesUtils.copyValueBindingOrValueExpression( UIComponent fromComponent , String fromName , UIComponent toComponent , String toName );3;2;10
+FacesUtils.setValueOfBindingOrExpression( FacesContext context , Object value , Object bindingOrExpression );3;1;10
+FacesUtils.addBindingOrExpressionTabChangeListener( TabChangeSource source , String type , Object bindingOrExpression );2;1;7
+FacesUtils.isJSF12( );1;1;3
+FacesUtils.invokeOnComponentFacetsAndChildren( FacesContext context , UIComponent component , String clientId , ContextCallback callback );9;2;26
+FacesUtils.setValidator( EditableValueHolder editableValueHolder , Object validator );2;1;9
+FacesUtils.isReadonlyValueBindingOrValueExpression( FacesContext context , UIComponent component , String name );2;1;7
+FacesUtils.hasValueBindingOrValueExpression( UIComponent component , String name );2;2;7
+FacesUtils.setValueOfBindingOrExpression( FacesContext context , Object value , UIComponent component , String bindingName );3;2;10
+FacesUtils.getBindingOrExpressionComparator( FacesContext facesContext , UIComponent child , String var , boolean descending , Comparator comparator );2;1;8
+FacesUtils.invokeOnComponent( FacesContext context , UIComponent component , String clientId , ContextCallback callback );7;2;19
+FacesUtils.getValueFromBindingOrExpression( Object obj );3;1;10

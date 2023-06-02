@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Os.archMatches( final String arch );2;1;8
+Os.isFamily( final String family );1;0;3
+Os.isOs( final OsFamily family , final String name , final String arch , final String version );8;10;14
+Os.determineAllFamilies( );4;4;20
+Os.isName( final String name );1;0;3
+Os.isFamily( final OsFamily family );1;0;3
+Os.isVersion( final String version );1;0;3
+Os.isOs( final String family , final String name , final String arch , final String version );1;0;3
+Os.nameMatches( final String name );2;1;8
+Os.familyMatches( final OsFamily family );4;4;15
+Os.determineOsFamily( );10;16;42
+Os.versionMatches( final String version );2;1;8
+Os.isArch( final String arch );1;0;3
+Os.getFamily( final String name );3;2;11
+Os.Os( );1;0;2

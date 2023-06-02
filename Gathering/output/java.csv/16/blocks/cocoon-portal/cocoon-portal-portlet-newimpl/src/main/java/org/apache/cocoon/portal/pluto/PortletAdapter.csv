@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PortletAdapter.init( );1;0;5
+PortletAdapter.process( RequestProcessorAspectContext aspectContext );1;0;3
+PortletAdapter.login( CopletInstance coplet );1;0;3
+PortletAdapter.getPossibleWindowStates( CopletInstance copletInstanceData );1;0;4
+PortletAdapter.getPossibleCopletModes( CopletInstance copletInstanceData );1;0;4
+PortletAdapter.getResponse( CopletInstance instance , HttpServletResponse response );1;0;3
+PortletAdapter.inform( CopletInstanceSizingEvent event , PortalService service );6;5;16
+PortletAdapter.logout( CopletInstance coplet );1;0;3
+PortletAdapter.getTitle( CopletInstance copletInstanceData );2;1;7
+PortletAdapter.render( ResponseProcessorAspectContext aspectContext , ContentHandler ch , Properties properties );2;1;6
+PortletAdapter.streamContent( CopletInstance coplet , ContentHandler contentHandler );1;0;2
+PortletAdapter.initContainer( );1;0;2
+PortletAdapter.inform( PortletURLProviderImpl event , PortalService service );1;0;2

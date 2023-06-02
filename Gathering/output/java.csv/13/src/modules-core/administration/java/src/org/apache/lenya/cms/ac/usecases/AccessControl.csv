@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AccessControl.doCheckPreconditions( );3;3;8
+AccessControl.doCheckExecutionConditions( );10;9;35
+AccessControl.manipulateCredential( Accreditable accreditable , Role role , String operation , String method );6;0;17
+AccessControl.setSSLProtected( boolean ssl );2;0;9
+AccessControl.getParentCredentials( );1;0;3
+AccessControl.getPolicy( );1;0;4
+AccessControl.doExecute( );5;7;23
+AccessControl.isAncestorSSLProtected( );3;2;15
+AccessControl.getPolicies( boolean inherit );6;7;30
+AccessControl.getSubtreeCredentials( );1;0;3
+AccessControl.initParameters( );9;8;53
+AccessControl.getPolicyManager( );1;0;3
+AccessControl.getCredentials( boolean inherit );5;4;25
+AccessControl.containsCredential( ModifiablePolicy policy , Accreditable accreditable , Role role );4;5;12
+AccessControl.isSSLProtected( );2;0;10
+AccessControl.getAccreditable( String type , String id );5;0;13
+AccessControl.getAccreditableManager( );1;0;3
+AccessControl.getPolicyURL( );1;0;7

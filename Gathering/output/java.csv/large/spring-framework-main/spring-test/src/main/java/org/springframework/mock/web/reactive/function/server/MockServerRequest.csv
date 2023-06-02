@@ -1,0 +1,61 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BuilderImpl.contextPath( String contextPath );1;0;5
+BuilderImpl.queryParams( MultiValueMap < String , String > queryParams );1;0;5
+BuilderImpl.method( HttpMethod method );1;0;5
+BuilderImpl.cookie( HttpCookie ... cookies );1;0;4
+MockServerRequest.queryParams( );1;0;3
+BuilderImpl.build( );1;0;6
+MockServerRequest.remoteAddress( );1;0;3
+BuilderImpl.remoteAddress( InetSocketAddress remoteAddress );1;0;5
+MockServerRequest.uriBuilder( );1;0;3
+MockServerRequest.uri( );1;0;3
+MockServerRequest.builder( );1;0;3
+MockServerRequest.methodName( );1;0;3
+MockHeaders.accept( );1;0;3
+MockHeaders.contentLength( );1;0;3
+BuilderImpl.pathVariables( Map < String , String > pathVariables );1;0;5
+MockServerRequest.bodyToFlux( Class < ? extends S > elementClass );1;1;4
+MockHeaders.asHttpHeaders( );1;0;3
+MockHeaders.delegate( );1;0;3
+BuilderImpl.messageReaders( List < HttpMessageReader < ? > > messageReaders );1;0;5
+BuilderImpl.header( String key , String value );1;0;6
+MockHeaders.acceptCharset( );1;0;3
+BuilderImpl.pathVariable( String key , String value );1;0;6
+MockServerRequest.pathVariables( );1;0;3
+MockServerRequest.attributes( );1;0;3
+MockServerRequest.messageReaders( );1;0;3
+MockServerRequest.method( );1;0;3
+MockServerRequest.body( BodyExtractor < S , ? super ServerHttpRequest > extractor );1;1;4
+MockServerRequest.MockServerRequest( HttpMethod method , URI uri , String contextPath , MockHeaders headers , MultiValueMap < String , HttpCookie > cookies , @ Nullable Object body , Map < String , Object > attributes , MultiValueMap < String , String > queryParams , Map < String , String > pathVariables , @ Nullable WebSession session , @ Nullable Principal principal , @ Nullable InetSocketAddress remoteAddress , @ Nullable InetSocketAddress localAddress , List < HttpMessageReader < ? > > messageReaders , @ Nullable ServerWebExchange exchange );1;0;17
+BuilderImpl.exchange( ServerWebExchange exchange );1;0;5
+BuilderImpl.localAddress( InetSocketAddress localAddress );1;0;5
+MockHeaders.range( );1;0;3
+MockServerRequest.exchange( );1;1;4
+MockHeaders.acceptLanguage( );1;0;3
+MockHeaders.host( );1;0;3
+MockServerRequest.multipartData( );1;1;4
+MockServerRequest.cookies( );1;0;3
+MockServerRequest.headers( );1;0;3
+MockServerRequest.formData( );1;1;4
+MockServerRequest.session( );1;0;3
+BuilderImpl.uri( URI uri );1;0;5
+MockServerRequest.bodyToFlux( ParameterizedTypeReference < S > typeReference );1;1;4
+MockServerRequest.principal( );1;0;3
+BuilderImpl.body( Object body );1;0;7
+MockServerRequest.requestPath( );1;0;3
+BuilderImpl.headers( HttpHeaders headers );1;0;5
+BuilderImpl.principal( Principal principal );1;0;5
+MockServerRequest.body( BodyExtractor < S , ? super ServerHttpRequest > extractor , Map < String , Object > hints );1;1;4
+MockServerRequest.bodyToMono( Class < ? extends S > elementClass );1;1;4
+MockHeaders.contentType( );1;0;3
+MockHeaders.MockHeaders( HttpHeaders headers );1;0;3
+MockHeaders.header( String key , String value );1;0;3
+BuilderImpl.cookies( MultiValueMap < String , HttpCookie > cookies );1;0;5
+MockHeaders.toOptionalLong( long value );2;2;3
+MockServerRequest.localAddress( );1;0;3
+MockServerRequest.bodyToMono( ParameterizedTypeReference < S > typeReference );1;1;4
+BuilderImpl.session( WebSession session );1;0;5
+MockHeaders.header( String headerName );2;1;4
+BuilderImpl.attributes( Map < String , Object > attributes );1;0;5
+BuilderImpl.queryParam( String key , String value );1;0;6
+BuilderImpl.attribute( String name , Object value );1;0;6

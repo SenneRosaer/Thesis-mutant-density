@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WrappedSubscription.WrappedSubscription( Subscription subsc );1;0;3
+SubscriptionManagerImpl.validate( String subscriptionId , ObservationResource resource );4;1;16
+SubscriptionMap.getByPath( DavResourceLocator locator );4;3;15
+SubscriptionMap.get( String subscriptionId );1;0;3
+WrappedSubscription.toXml( Document document );1;0;3
+SubscriptionManagerImpl.registerSubscription( SubscriptionImpl subscription , ObservationResource resource );2;0;15
+SubscriptionManagerImpl.subscribe( SubscriptionInfo info , String subscriptionId , ObservationResource resource );2;1;16
+SubscriptionMap.iterator( );1;0;3
+SubscriptionManagerImpl.beforeCommit( TransactionResource resource , String lockToken );2;0;10
+SubscriptionManagerImpl.getRepositorySession( ObservationResource resource );1;0;3
+SubscriptionManagerImpl.unregisterSubscription( SubscriptionImpl subscription , ObservationResource resource );2;0;12
+SubscriptionManagerImpl.afterCommit( TransactionResource resource , String lockToken , boolean success );3;1;9
+WrappedSubscription.getSubscriptionId( );1;0;3
+SubscriptionManagerImpl.unsubscribe( String subscriptionId , ObservationResource resource );1;0;4
+SubscriptionMap.remove( String subscriptionId );1;0;4
+SubscriptionMap.contains( String subscriptionId );1;0;3
+SubscriptionManagerImpl.poll( String subscriptionId , long timeout , ObservationResource resource );1;0;4
+SubscriptionManagerImpl.getSubscriptionDiscovery( ObservationResource resource );1;0;4
+SubscriptionMap.put( String subscriptionId , SubscriptionImpl subscription );3;1;14

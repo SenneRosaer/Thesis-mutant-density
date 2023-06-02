@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageConverterTests.toMessageWithHeaders( );2;0;10
+MessageConverterTests.supportsMimeType( );1;0;5
+MessageConverterTests.supportsMimeTypeNoneConfigured( );1;0;6
+MessageConverterTests.canConvertFromStrictContentTypeMatch( );1;0;9
+MessageConverterTests.supportsMimeTypeNotSpecified( );1;0;4
+MessageConverterTests.supportsMimeTypeNotSupported( );1;0;5
+MessageConverterTests.toMessageContentTypeHeader( );2;0;4
+TestMessageConverter.convertToInternal( Object payload , @ Nullable MessageHeaders headers , @ Nullable Object conversionHint );1;0;3
+TestMessageConverter.TestMessageConverter( );1;0;3
+TestMessageConverter.TestMessageConverter( MimeType ... supportedMimeTypes );1;0;3
+TestMessageConverter.supports( Class < ? > clazz );1;0;3
+MessageConverterTests.toMessageWithMutableMessageHeaders( );2;0;12
+MessageConverterTests.supportsTargetClass( );1;0;5
+TestMessageConverter.convertFromInternal( Message < ? > message , Class < ? > targetClass , @ Nullable Object conversionHint );1;0;3
+MessageConverterTests.setStrictContentTypeMatchWithNoSupportedMimeTypes( );1;0;4

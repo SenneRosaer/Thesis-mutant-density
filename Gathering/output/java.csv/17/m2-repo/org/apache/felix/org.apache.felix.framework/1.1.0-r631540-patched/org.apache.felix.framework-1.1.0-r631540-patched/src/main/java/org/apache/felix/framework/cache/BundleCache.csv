@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BundleCache.BundleCache( Logger logger , Map configMap );1;0;5
+BundleCache.getArchiveIndex( BundleArchive ba );3;4;10
+BundleCache.getSecureAction( );1;0;3
+BundleCache.remove( BundleArchive ba );4;6;19
+BundleCache.create( long id , String location , InputStream is );4;4;29
+BundleCache.copyStreamToFile( InputStream is , File outputFile );4;4;19
+BundleCache.getSystemBundleDataFile( String fileName );6;7;18
+BundleCache.getArchive( long id );3;3;10
+BundleCache.getArchives( );1;0;3
+BundleCache.deleteDirectoryTree( File target );4;3;15
+BundleCache.initialize( );15;17;72

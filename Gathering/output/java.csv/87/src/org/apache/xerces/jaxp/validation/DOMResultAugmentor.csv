@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMResultAugmentor.processingInstruction( String target , XMLString data , Augmentations augs );1;0;1
+DOMResultAugmentor.textDecl( String version , String encoding , Augmentations augs );1;0;1
+DOMResultAugmentor.processAttributePSVI( AttrImpl attr , AttributePSVI attrPSVI );4;2;18
+DOMResultAugmentor.startCDATA( Augmentations augs );1;0;1
+DOMResultAugmentor.xmlDecl( String version , String encoding , String standalone , Augmentations augs );1;0;1
+DOMResultAugmentor.doctypeDecl( DocumentType node );1;0;1
+DOMResultAugmentor.setIgnoringCharacters( boolean ignore );1;0;3
+DOMResultAugmentor.endDocument( Augmentations augs );1;0;1
+DOMResultAugmentor.endCDATA( Augmentations augs );1;0;1
+DOMResultAugmentor.characters( XMLString text , Augmentations augs );2;1;6
+DOMResultAugmentor.comment( Comment node );1;0;1
+DOMResultAugmentor.endGeneralEntity( String name , Augmentations augs );1;0;1
+DOMResultAugmentor.startElement( QName element , XMLAttributes attributes , Augmentations augs );11;11;42
+DOMResultAugmentor.ignorableWhitespace( XMLString text , Augmentations augs );1;0;3
+DOMResultAugmentor.processingInstruction( ProcessingInstruction node );1;0;1
+DOMResultAugmentor.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );1;0;1
+DOMResultAugmentor.setDOMResult( DOMResult result );4;2;13
+DOMResultAugmentor.getDocumentSource( );1;0;3
+DOMResultAugmentor.DOMResultAugmentor( DOMValidatorHelper helper );1;0;3
+DOMResultAugmentor.setDocumentSource( XMLDocumentSource source );1;0;1
+DOMResultAugmentor.startGeneralEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );1;0;1
+DOMResultAugmentor.cdata( CDATASection node );1;0;1
+DOMResultAugmentor.endElement( QName element , Augmentations augs );6;5;16
+DOMResultAugmentor.characters( Text node );1;0;1
+DOMResultAugmentor.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );1;0;4
+DOMResultAugmentor.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );1;0;1
+DOMResultAugmentor.comment( XMLString text , Augmentations augs );1;0;1

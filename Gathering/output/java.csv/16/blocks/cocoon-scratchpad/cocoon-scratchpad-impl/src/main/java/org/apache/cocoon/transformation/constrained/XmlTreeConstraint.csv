@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlTreeConstraint.XmlTreeConstraint( String [ ] allowedMyUriStackEnd );1;0;3
+XmlTreeConstraint.XmlTreeConstraint( List allowedMyUriStackEnd , List allowedGlobalStackEnd , Boolean isMyUriRequired );1;0;5
+XmlTreeConstraint.XmlTreeConstraint( List allowedMyUriStackEnd , Boolean isMyUriRequired );1;0;4
+XmlTreeConstraint.XmlTreeConstraint( String [ ] allowedMyUriStackEnd , String [ ] allowedGlobalStackEnd , boolean isMyUriRequired );1;0;5
+XmlTreeConstraint.XmlTreeConstraint( String [ ] allowedMyUriStackEnd , boolean isMyUriRequired );1;0;4
+XmlTreeConstraint.isAllowed( Boolean isMyUri , List myUriStack , List globalStack );12;9;36
+XmlTreeConstraint.XmlTreeConstraint( List allowedMyUriStackEnd );1;0;3
+XmlTreeConstraint.areEndsEqual( List l1 , List l2 );7;8;20

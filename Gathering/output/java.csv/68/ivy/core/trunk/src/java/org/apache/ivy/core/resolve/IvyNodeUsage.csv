@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IvyNodeUsage.getNode( );1;0;3
+IvyNodeUsage.IvyNodeUsage( IvyNode node );1;0;3
+IvyNodeUsage.getConfigurations( String rootModuleConf );1;0;3
+Depender.toString( );1;1;3
+IvyNodeUsage.blacklist( IvyNodeBlacklist bdata );1;0;3
+IvyNodeUsage.updateDataFrom( Collection usages , String rootModuleConf );2;0;6
+IvyNodeUsage.removeRootModuleConf( String rootModuleConf );1;0;3
+NodeConf.equals( Object obj );3;2;7
+IvyNodeUsage.getRootModuleConfigurations( );1;0;3
+NodeConf.hashCode( );1;4;6
+IvyNodeUsage.updateDataFrom( IvyNodeUsage usage , String rootModuleConf );1;0;5
+Depender.Depender( DependencyDescriptor dd , String dependerConf );1;0;4
+IvyNodeUsage.isBlacklisted( String rootModuleConf );1;0;3
+IvyNodeUsage.getRequiredConfigurations( IvyNode in , String inConf );1;0;3
+NodeConf.getNode( );1;0;3
+NodeConf.getConf( );1;0;3
+IvyNodeUsage.addUsage( String rootModuleConf , DependencyDescriptor dd , String parentConf );1;0;3
+IvyNodeUsage.getDependencyArtifactsSet( String rootModuleConf );3;1;14
+IvyNodeUsage.addAndGetConfigurations( String rootModuleConf );2;1;8
+IvyNodeUsage.updateMapOfSet( Map from , Map to );2;0;6
+IvyNodeUsage.getDependencyIncludesSet( String rootModuleConf );5;4;17
+Depender.hashCode( );1;4;6
+NodeConf.NodeConf( IvyNode node , String conf );3;2;10
+IvyNodeUsage.getBlacklistData( String rootModuleConf );1;0;3
+Depender.equals( Object obj );3;3;7
+IvyNodeUsage.updateMapOfSetForKey( Map from , Map to , Object key );3;2;11
+NodeConf.toString( );1;0;3
+IvyNodeUsage.addObjectsForConf( String rootModuleConf , Object objectToAdd , Map map );2;1;8
+IvyNodeUsage.setRequiredConfs( IvyNode parent , String parentConf , Collection confs );1;0;3

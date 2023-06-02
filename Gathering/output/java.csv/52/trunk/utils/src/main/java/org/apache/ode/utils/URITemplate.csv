@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+URITemplate.varSubstitution( String expansionPattern , Object [ ] expansionInfo , Map < String , String > nameValuePairs );1;0;3
+URITemplate.expandLazily( String uriTemplate , String ... nameValuePairs );1;0;3
+URITemplate.varSubstitution( String expansionPattern , Object [ ] expansionInfo , Map < String , String > nameValuePairs , boolean preserveUndefinedVar );8;5;30
+URITemplate.main( String [ ] args );2;0;8
+URITemplate.parseExpansion( String expansion );5;2;23
+URITemplate.expand( String uriTemplate , Map < String , String > nameValuePairs );1;0;3
+URITemplate.expand( String uriTemplate , String ... nameValuePairs );1;0;3
+URITemplate.expand( String uriTemplate , Map < String , String > nameValuePairs , boolean preserveUndefinedVar );5;2;25
+URITemplate.expandLazily( String uriTemplate , Map < String , String > nameValuePairs );1;0;3
+URITemplate.toMap( String ... nameValuePairs );3;5;10

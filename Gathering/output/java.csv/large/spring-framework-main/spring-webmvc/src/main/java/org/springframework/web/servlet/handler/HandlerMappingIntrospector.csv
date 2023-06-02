@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AttributesPreservingRequest.getAttributeNames( );1;0;3
+HandlerMappingIntrospector.setApplicationContext( ApplicationContext applicationContext );1;0;3
+HandlerMappingIntrospector.doWithMatchingMappingIgnoringException( HttpServletRequest request , BiFunction < HandlerMapping , HandlerExecutionChain , T > matchHandler );2;0;8
+HandlerMappingIntrospector.initFallback( ApplicationContext applicationContext );5;0;25
+HandlerMappingIntrospector.getHandlerMappings( );2;1;3
+AttributesPreservingRequest.getAttribute( String name );1;0;3
+AttributesPreservingRequest.AttributesPreservingRequest( HttpServletRequest request );1;0;4
+PathSettingHandlerMapping.match( HttpServletRequest request , String pattern );1;0;10
+AttributesPreservingRequest.removeAttribute( String name );1;0;3
+HandlerMappingIntrospector.doWithMatchingMapping( HttpServletRequest request , boolean ignoreException , BiFunction < HandlerMapping , HandlerExecutionChain , T > matchHandler );7;4;32
+HandlerMappingIntrospector.getCorsConfiguration( HttpServletRequest request );4;0;14
+PathSettingHandlerMapping.getHandler( HttpServletRequest request );1;0;3
+HandlerMappingIntrospector.getMatchableHandlerMapping( HttpServletRequest request );3;1;17
+HandlerMappingIntrospector.initPathPatternMatchableHandlerMappings( List < HandlerMapping > mappings );1;1;7
+HandlerMappingIntrospector.initHandlerMappings( ApplicationContext applicationContext );2;1;10
+HandlerMappingIntrospector.afterPropertiesSet( );2;1;7
+AttributesPreservingRequest.setAttribute( String name , Object value );1;0;3
+AttributesPreservingRequest.initAttributes( HttpServletRequest request );2;0;9
+PathSettingHandlerMapping.PathSettingHandlerMapping( MatchableHandlerMapping delegate , Object path );2;0;6

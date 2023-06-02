@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropertySet.toString( );4;1;18
+PropertySet.dieOnCircularReference( Stack stk , Project p );5;1;17
+PropertySet.getDynamic( );2;0;7
+PropertySet.getRef( );1;0;3
+PropertySet.getAllSystemProperties( );2;0;9
+PropertySet.isFilesystemOnly( );2;0;7
+PropertySet.setNegate( boolean negate );1;0;4
+PropertySet.appendName( String name );1;0;5
+PropertySet.iterator( );2;0;18
+PropertySet.setMapper( String type , String from , String to );1;0;8
+PropertySet.appendRegex( String regex );1;0;5
+PropertyRef.setRegex( String regex );1;0;4
+PropertyRef.setName( String name );1;0;4
+PropertySet.hasNext( );1;0;3
+PropertySet.add( FileNameMapper fileNameMapper );1;0;3
+PropertySet.addPropertyref( PropertyRef ref );1;0;5
+PropertySet.getMapper( );2;0;7
+PropertySet.assertNotReference( );2;0;6
+PropertySet.createMapper( );2;1;9
+PropertySet.addPropertyset( PropertySet ref );1;0;5
+PropertyRef.setPrefix( String prefix );1;0;4
+PropertyRef.setBuiltin( BuiltinPropertySetName b );1;0;5
+PropertySet.appendPrefix( String prefix );1;0;5
+BuiltinPropertySetName.getValues( );1;0;3
+PropertySet.addPropertyNames( Set names , Hashtable properties );15;5;45
+PropertySet.appendBuiltin( BuiltinPropertySetName b );1;0;5
+PropertySet.setRefid( Reference r );2;1;6
+PropertySet.setDynamic( boolean dynamic );1;0;4
+PropertySet.getProperties( );14;8;52
+PropertyRef.assertValid( String attr , String value );4;5;9
+PropertySet.size( );2;0;3
+PropertyRef.toString( );1;0;4
+PropertySet.next( );1;0;3
+PropertySet.remove( );1;0;3

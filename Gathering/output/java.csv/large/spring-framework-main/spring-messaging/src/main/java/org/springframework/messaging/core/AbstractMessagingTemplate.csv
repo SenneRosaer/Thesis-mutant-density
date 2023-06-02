@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractMessagingTemplate.convertSendAndReceive( D destination , Object request , Class < T > targetClass );1;0;3
+AbstractMessagingTemplate.sendAndReceive( Message < ? > requestMessage );1;0;3
+AbstractMessagingTemplate.convertSendAndReceive( D destination , Object request , Class < T > targetClass , @ Nullable MessagePostProcessor postProcessor );1;0;3
+AbstractMessagingTemplate.convertSendAndReceive( Object request , Class < T > targetClass );1;0;3
+AbstractMessagingTemplate.convertSendAndReceive( D destination , Object request , @ Nullable Map < String , Object > headers , Class < T > targetClass );1;0;3
+AbstractMessagingTemplate.sendAndReceive( D destination , Message < ? > requestMessage );1;0;3
+AbstractMessagingTemplate.convertSendAndReceive( Object request , Class < T > targetClass , @ Nullable MessagePostProcessor postProcessor );1;0;3
+AbstractMessagingTemplate.convertSendAndReceive( D destination , Object request , @ Nullable Map < String , Object > headers , Class < T > targetClass , @ Nullable MessagePostProcessor postProcessor );4;1;5

@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Message.setTask( String task );1;0;3
+Message.getException( );1;0;3
+Message.getType( );1;0;3
+Message.getMessage( );1;0;3
+Message.isCauseFramework( );1;0;3
+Message.setMessage( String message );1;0;3
+Message.setType( String type );1;0;3
+ManagementSupport.createSuccessMessage( String task );1;0;3
+ManagementSupport.createWarningMessage( String task , String info , List componentResults );1;0;8
+Message.setException( Exception exception );1;0;3
+ManagementSupport.createChild( Node parent , String name , String text );3;1;9
+Message.setLocale( String locale );1;0;3
+Message.getTask( );1;0;3
+ManagementSupport.createComponentWarning( String task , String component , String info , Exception e );1;0;10
+Message.setCauseFramework( boolean value );1;0;3
+Message.getComponent( );1;0;3
+ManagementSupport.failure( String task , String info );1;0;3
+ManagementSupport.ManagementSupport( );1;0;2
+Message.getLocale( );1;0;3
+ManagementSupport.createChild( Node parent , String name );1;0;3
+ManagementSupport.createComponentFailure( String task , String component , String info , Exception e );1;0;10
+Message.setComponent( String component );1;0;3
+Message.getResult( );1;0;3
+ManagementSupport.failure( String task , List componentResults );1;0;3
+ManagementSupport.createSuccessMessage( String task , String info , List componentResults );1;0;7
+ManagementSupport.failure( String task , String info , Exception e , List componentResults );1;0;9
+ManagementSupport.createSuccessMessage( String task , String info );1;0;3
+ManagementSupport.failure( String task , String info , Exception e );1;0;3
+ManagementSupport.createSuccessMessage( String task , List componentResults );1;0;3
+ManagementSupport.createComponentMessage( Message msg );1;0;8
+ManagementSupport.componentFailure( String task , String component , String info );3;0;11
+ManagementSupport.createDocument( );2;0;10
+Message.setResult( String result );1;0;3
+ManagementSupport.appendTaskResultDetails( Element root , Message fmkMsg );4;3;26
+ManagementSupport.createComponentSuccess( String task , String component );1;0;7
+ManagementSupport.createFrameworkMessage( Message fmkMsg , List componentResults );5;2;25

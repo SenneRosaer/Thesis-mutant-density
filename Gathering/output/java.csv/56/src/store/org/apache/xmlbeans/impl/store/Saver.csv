@@ -1,0 +1,297 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocSaveCur.hasText( );1;0;1
+PrettySaveCur.toEnd( );2;4;6
+StartPrefixMappingImpl.getPrefix( );1;0;3
+Saver.ensureMapping( String uri , String candidatePrefix , boolean considerCreatingDefault , boolean mustHavePrefix );17;21;36
+TextSaver.preEmit( int cch );22;61;33
+Saver.getPrefixMap( );1;0;3
+AttributeImpl.AttributeImpl( );1;0;2
+TextSaver.write( Writer writer , int cchMin );13;29;33
+TextSaver.emit( char ch );17;42;17
+SaverIOException.SaverIOException( IOException e );1;0;3
+StartElementImpl.getNamespaceMap( );1;0;3
+SynthNamespaceSaver.emitElement( SaveCur c , ArrayList attrNames , ArrayList attrValues );1;0;1
+XmlEventImpl.getSchemaType( );1;0;3
+OptimizedForSpeedSaver.entitizeAndWritePIText( int bufLimit );5;4;23
+Saver.hasMappings( );2;4;4
+SaveCur.isElem( );1;1;1
+CharacterDataImpl.CharacterDataImpl( Object obj , int cch , int off );1;0;3
+XmlInputStreamSaver.emitProcinst( SaveCur c );2;1;7
+Saver.hasMapping( );1;1;3
+PrettySaveCur.getAncestorNamespaces( );1;0;1
+FilterSaveCur.getXmlnsUri( );1;0;1
+SaxSaver.emitNamespacesHelper( );6;3;20
+StartDocumentImpl.getVersion( );1;0;3
+Saver.addMapping( String prefix , String uri );10;16;51
+SaveCur.isContainer( );1;0;1
+OptimizedForSpeedSaver.emitText( SaveCur c );3;7;15
+OutputStreamImpl.read( );2;6;9
+TripletEventImpl.getContent( );1;0;3
+XmlEventImpl.getLocation( );1;0;3
+Saver.Saver( Cur c , XmlOptions options );10;4;47
+XmlInputStreamSaver.emitEndDoc( SaveCur c );1;0;3
+XmlnsAttributeImpl.XmlnsAttributeImpl( String prefix , String uri );2;1;16
+SaveCur.isProcinst( );1;1;1
+StartElementImpl.getAttributes( );1;0;3
+OptimizedForSpeedSaver.emitDocType( String docTypeName , String publicId , String systemId );4;5;19
+TextSaver.resize( int cch , int i );27;76;50
+TextSaver.emitName( QName name , boolean needsPrefix );7;10;21
+FilterSaveCur.kind( );1;0;1
+FilterSaveCur.getAttrValue( );1;0;1
+SaveCur.isFinish( );1;0;1
+FilterSaveCur.toNextAttr( );1;0;1
+Saver.positionToInner( Cur c , Cur start , Cur end );2;1;8
+OptimizedForSpeedSaver.emitLiteral( String literal );2;1;14
+EndPrefixMappingImpl.EndPrefixMappingImpl( String prefix );1;0;4
+TextSaver.emitStartDoc( SaveCur c );1;0;2
+StartElementImpl.getName( );1;0;3
+SaveCur.isText( );1;1;1
+InputStreamSaver.available( );2;0;9
+XmlEventImpl.hasName( );1;0;3
+TextReader.read( char [ ] cbuf );4;2;5
+FragSaveCur.toEnd( );7;5;11
+Saver.processElement( );10;12;46
+XmlInputStreamSaver.emitText( SaveCur c );1;0;7
+PrettySaveCur.getDocProps( );1;0;1
+TextSaver.emitProcinst( SaveCur c );2;0;15
+Saver.iterateMappings( );3;5;5
+Saver.getNonDefaultUriMapping( String uri );6;5;13
+ChangePrefixMappingImpl.ChangePrefixMappingImpl( String prefix , String oldUri , String newUri );1;0;6
+StartDocumentImpl.isStandalone( );1;0;3
+SaxSaver.emitComment( SaveCur c );7;5;32
+DocSaveCur.next( );1;0;1
+DocSaveCur.getXmlnsPrefix( );1;0;1
+FragSaveCur.kind( );5;3;11
+PrettySaveCur.getAttrValue( );1;1;1
+PrettySaveCur.push( );1;0;6
+PrettySaveCur.toNextAttr( );1;1;1
+ProcessingInstructionImpl.getData( );1;0;3
+OutputStreamImpl.getAvailable( );2;2;3
+SaxSaver.emitText( SaveCur c );5;4;28
+Saver.addNewFrameMapping( String prefix , String uri , boolean ensureDefaultEmpty );9;9;12
+SaxSaver.emitDocType( String docTypeName , String publicId , String systemId );3;1;14
+FilterPiSaveCur.FilterPiSaveCur( SaveCur c , String target );1;0;4
+XmlInputStreamImpl.XmlInputStreamImpl( Cur cur , XmlOptions options );1;0;5
+TextSaver.emitNamespacesHelper( );2;0;7
+OptimizedForSpeedSaver.emitElement( SaveCur c , ArrayList attrNames , ArrayList attrValues );5;6;19
+PrettySaveCur.toFirstAttr( );1;1;1
+TextSaver.isEscapedChar( char ch );2;2;3
+OptimizedForSpeedSaver.emit( char c1 , char c2 );2;0;12
+SynthNamespaceSaver.emitFinish( SaveCur c );1;0;1
+TextSaver.TextSaver( Cur c , XmlOptions options , String encoding );20;33;29
+PrettySaveCur.trim( StringBuffer sb );5;7;11
+AttributeIteratorImpl.skip( );3;2;10
+ChangePrefixMappingImpl.getOldNamespaceUri( );1;0;3
+DocSaveCur.hasChildren( );1;0;1
+PrettySaveCur.PrettySaveCur( SaveCur c , XmlOptions options );4;1;21
+OptimizedForSpeedSaver.emitEndDoc( SaveCur c );1;0;2
+ChangePrefixMappingImpl.getPrefix( );1;0;3
+FragSaveCur.FragSaveCur( Cur start , Cur end , QName synthElem );2;1;11
+PrettySaveCur.kind( );2;1;1
+OptimizedForSpeedSaver.save( Cur cur , Writer writer );3;0;12
+EndElementImpl.getName( );1;0;3
+OutputStreamImpl.write( byte [ ] buf , int off , int cbyte );6;17;27
+EndElementImpl.EndElementImpl( XMLName name );1;0;4
+DocSaveCur.toEnd( );1;0;1
+PrettySaveCur.getName( );1;1;1
+FragSaveCur.getDocProps( );1;0;1
+FragSaveCur.release( );1;0;6
+SaveCur.isRoot( );1;1;1
+TextSaver.entitizeContent( boolean forceCData );34;50;76
+PrettySaveCur.isTextCData( );3;2;2
+PrettySaveCur.hasText( );2;1;1
+TextReader.read( );2;0;5
+SaveCur.isAttr( );1;1;1
+PrettySaveCur.next( );17;32;53
+OptimizedForSpeedSaver.entitizeAndWriteCommentText( int bufLimit );7;7;30
+TextSaver.emit( char ch1 , char ch2 );10;24;14
+TextReader.close( );1;0;1
+CommentImpl.CommentImpl( Object obj , int cch , int off );1;0;3
+SaxSaver.SaxSaver( Cur c , XmlOptions options , ContentHandler ch , LexicalHandler lh );3;1;18
+InputStreamSaver.read( );2;0;5
+TextSaver.read( );10;26;15
+SynthNamespaceSaver.emitEndDoc( SaveCur c );1;0;1
+Saver.pushMappings( SaveCur c , boolean ensureDefaultEmpty );7;6;27
+StartPrefixMappingImpl.StartPrefixMappingImpl( String prefix , String uri );1;0;5
+OptimizedForSpeedSaver.emit( String s );2;0;10
+TextSaver.emitText( SaveCur c );2;1;6
+Saver.saveNamespacesFirst( );1;0;3
+OptimizedForSpeedSaver.OptimizedForSpeedSaver( Cur cur , Writer writer );1;0;4
+DocSaveCur.getXmlnsUri( );1;0;1
+AttributeIteratorImpl.checkVersion( );1;0;2
+ProcessingInstructionImpl.ProcessingInstructionImpl( String target , Object obj , int cch , int off );1;0;4
+FragSaveCur.getName( );5;1;11
+FilterSaveCur.toFirstAttr( );1;0;1
+InputStreamSaver.close( );1;0;3
+PrettySaveCur.release( );1;0;1
+XmlInputStreamSaver.enqueue( XmlEventImpl e );2;3;13
+OptimizedForSpeedSaver.emitName( QName name , boolean needsPrefix );7;10;21
+TextSaver.emitXmlns( String prefix , String uri );2;3;14
+DocSaveCur.kind( );1;0;1
+AttributeIteratorImpl.hasNext( );2;3;7
+TextSaver.ensure( int cch );4;4;10
+Saver.popMappings( );7;21;36
+DocSaveCur.push( );1;0;1
+FilterSaveCur.getAncestorNamespaces( );1;0;1
+FragSaveCur.hasText( );3;0;12
+DocSaveCur.getDocProps( );1;0;1
+XmlInputStreamSaver.computeName( QName name , Saver saver , boolean needsPrefix );7;10;17
+StartElementImpl.getAttributeByName( XMLName xmlName );3;1;8
+ProcessingInstructionImpl.getTarget( );1;0;3
+XmlInputStreamSaver.emitStartDoc( SaveCur c );1;0;3
+TextSaver.saveToString( );3;2;7
+Saver.syntheticNamespace( String prefix , String uri , boolean considerDefault );1;0;1
+FilterSaveCur.getChars( );1;0;6
+TextReader.read( char [ ] cbuf , int off , int len );2;0;5
+Saver.getUriMapping( String uri );1;1;4
+FilterSaveCur.getName( );1;0;1
+Saver.mappingUri( );1;1;4
+FilterSaveCur.push( );1;0;1
+TextReader.ready( );1;1;1
+DocSaveCur.DocSaveCur( Cur c );1;0;4
+FilterSaveCur.isXmlns( );1;0;1
+FilterSaveCur.FilterSaveCur( SaveCur c );1;0;4
+DocSaveCur.getAncestorNamespaces( );1;0;1
+AttributeIteratorImpl.next( );3;2;18
+XmlInputStreamSaver.emitElement( SaveCur c , ArrayList attrNames , ArrayList attrValues );6;4;37
+EndDocumentImpl.EndDocumentImpl( );1;0;3
+DocSaveCur.toFirstAttr( );1;0;1
+AttributeImpl.getType( );1;0;3
+***not in a method***;0;1;0
+FilterSaveCur.toEnd( );1;0;1
+DocSaveCur.isXmlns( );1;0;1
+FilterSaveCur.next( );5;7;9
+SaxSaver.emitProcinst( SaveCur c );2;0;15
+TextSaver.emitElement( SaveCur c , ArrayList attrNames , ArrayList attrValues );6;6;21
+OptimizedForSpeedSaver.emitStartDoc( SaveCur c );1;0;2
+DocSaveCur.release( );1;0;4
+SaverSAXException.SaverSAXException( SAXException e );1;0;3
+DocSaveCur.getName( );1;0;1
+TextReader.TextReader( Cur c , XmlOptions options );1;0;5
+OptimizedForSpeedSaver.emitCommentText( SaveCur c );3;5;15
+SaxSaver.emitStartDoc( SaveCur c );1;0;2
+SaxSaver.emitFinish( SaveCur c );3;0;14
+FragSaveCur.toFirstAttr( );6;2;14
+NormalAttributeImpl.getValue( );1;0;3
+AttributeIteratorImpl.monitor( );1;0;3
+OptimizedForSpeedSaver.emitProcinst( SaveCur c );2;0;14
+Saver.getNamespaceForPrefix( String prefix );2;2;4
+OutputStreamImpl.read( byte [ ] bbuf , int off , int len );7;14;28
+TextSaver.getAvailable( );2;2;3
+OptimizedForSpeedSaver.emitAttrValue( CharSequence attVal );5;5;15
+Saver.enterLocale( );1;0;3
+FragSaveCur.hasChildren( );4;3;12
+TextSaver.isBadChar( char ch );9;18;8
+StartElementImpl.StartElementImpl( XMLName name , AttributeImpl attributes , AttributeImpl namespaces , Map prefixMap );1;0;7
+SynthNamespaceSaver.syntheticNamespace( String prefix , String uri , boolean considerCreatingDefault );2;0;3
+SaveCur.isComment( );1;1;1
+OptimizedForSpeedSaver.emitXmlns( String prefix , String uri );2;3;13
+SaxSaver.emitElement( SaveCur c , ArrayList attrNames , ArrayList attrValues );5;3;26
+XmlEventImpl.getName( );1;0;3
+TextSaver.entitizeComment( );8;11;35
+Saver.exitLocale( );1;0;3
+Saver.processFinish( );1;0;4
+TextSaver.emitLiteral( String literal );2;1;14
+ChangePrefixMappingImpl.getNewNamespaceUri( );1;0;3
+XmlnsAttributeImpl.getValue( );1;0;3
+FilterSaveCur.getXmlnsPrefix( );1;0;1
+InputStreamSaver.ensure( int cbyte );4;3;13
+StartElementImpl.hasName( );1;0;3
+DocSaveCur.getChars( );1;1;6
+FilterPiSaveCur.filter( );2;2;3
+FragSaveCur.push( );2;3;10
+FilterSaveCur.hasText( );1;0;1
+OptimizedForSpeedSaver.emitPiText( SaveCur c );3;5;15
+OptimizedForSpeedSaver.emitNamespacesHelper( );2;0;7
+SaxSaver.getPrefixedName( QName name );3;3;10
+TextSaver.emitAttrHelper( QName attrName , String attrValue );1;0;8
+SynthNamespaceSaver.emitDocType( String docTypeName , String publicId , String systemId );1;0;1
+FilterSaveCur.isTextCData( );1;0;1
+InputStreamSaver.InputStreamSaver( Cur c , XmlOptions options );9;7;33
+DocSaveCur.isTextCData( );1;0;1
+FragSaveCur.getAncestorNamespaces( );1;0;3
+FilterSaveCur.pop( );1;0;1
+PrettySaveCur.getXmlnsPrefix( );1;1;1
+TripletEventImpl.hasContent( );1;1;3
+FragSaveCur.isXmlns( );2;2;4
+InputStreamSaver.read( byte [ ] bbuf , int off , int len );5;4;9
+DocSaveCur.toNextAttr( );1;0;1
+OptimizedForSpeedSaver.isBadChar( char ch );9;18;8
+SynthNamespaceSaver.SynthNamespaceSaver( Cur c , XmlOptions options );1;0;3
+PrettySaveCur.getXmlnsUri( );1;1;1
+TextSaver.entitizeProcinst( );7;8;27
+PrettySaveCur.pop( );1;2;6
+StartElementImpl.getNamespaces( );1;0;3
+TextSaver.entitizeAttrValue( );7;8;19
+TextSaver.read( char [ ] cbuf , int off , int len );15;35;34
+SynthNamespaceSaver.emitProcinst( SaveCur c );1;0;1
+FragSaveCur.pop( );1;1;4
+OptimizedForSpeedSaver.emitAttrHelper( QName attrName , String attrValue );1;0;7
+OptimizedForSpeedSaver.emit( char c );2;0;11
+PrettySaveCur.spaces( StringBuffer sb , int offset , int count );2;2;4
+OptimizedForSpeedSaver.emitFinish( SaveCur c );1;0;5
+TextSaver.emitFinish( SaveCur c );1;0;5
+FragSaveCur.isTextCData( );1;0;3
+OutputStreamImpl.write( int bite );2;5;8
+FragSaveCur.getXmlnsUri( );2;2;4
+Saver.mappingPrefix( );1;1;4
+XmlEventImpl.XmlEventImpl( int type );1;0;3
+FilterSaveCur.release( );1;0;4
+FilterSaveCur.getDocProps( );1;0;1
+OutputStreamImpl.resize( int cbyte );6;14;31
+TextSaver.emitDocType( String docTypeName , String publicId , String systemId );4;5;19
+EndPrefixMappingImpl.getPrefix( );1;0;3
+XmlInputStreamSaver.emitFinish( SaveCur c );2;0;10
+SynthNamespaceSaver.emitText( SaveCur c );1;0;1
+XmlInputStreamSaver.XmlInputStreamSaver( Cur c , XmlOptions options );1;0;3
+XmlInputStreamSaver.dequeue( );5;4;21
+AttributeImpl.getSchemaType( );1;0;3
+SaveCur.skip( );1;0;1
+EndElementImpl.hasName( );1;0;3
+OptimizedForSpeedSaver.entitizeAndWriteText( int bufLimit );4;7;21
+FilterSaveCur.hasChildren( );1;0;1
+DocSaveCur.getAttrValue( );1;0;1
+TextSaver.emit( String s );21;48;29
+NormalAttributeImpl.NormalAttributeImpl( XMLName name , String value );1;0;4
+TextReader.checkClosed( );2;0;4
+XmlInputStreamSaver.emitComment( SaveCur c );1;0;3
+FragSaveCur.toNextAttr( );2;3;4
+TextSaver.replace( int i , String replacement );15;72;57
+TextSaver.emit( SaveCur c );5;9;23
+Saver.tryPrefix( String prefix );6;7;8
+SynthNamespaceSaver.emitComment( SaveCur c );1;0;1
+Saver.dumpMappings( );3;13;33
+AttributeIteratorImpl.AttributeIteratorImpl( AttributeImpl attributes , AttributeImpl namespaces );1;0;4
+SaveCur.isNormalAttr( );2;3;1
+OptimizedForSpeedSaver.emitComment( SaveCur c );1;0;9
+StartPrefixMappingImpl.getNamespaceUri( );1;0;3
+Saver.createSaveCur( Cur c , XmlOptions options );23;22;98
+FragSaveCur.getChars( );2;3;7
+AttributeImpl.getName( );1;0;3
+StartDocumentImpl.getSystemId( );1;0;3
+OptimizedForSpeedSaver.emit( char [ ] buf , int start , int len );2;0;10
+PrettySaveCur.isXmlns( );2;1;1
+FragSaveCur.next( );12;3;44
+FragSaveCur.computeAncestorNamespaces( Cur c );7;3;24
+InputStreamSaver.checkClosed( );2;0;4
+Saver.process( );10;4;26
+TextSaver.emitComment( SaveCur c );1;0;10
+FragSaveCur.getXmlnsPrefix( );2;2;4
+StartElementImpl.getAttributesAndNamespaces( );1;0;3
+TextSaver.emitEndDoc( SaveCur c );1;0;2
+PrettySaveCur.getChars( );2;1;12
+StartDocumentImpl.StartDocumentImpl( String systemID , String encoding , boolean isStandAlone , String version );1;0;7
+FragSaveCur.getAttrValue( );2;2;4
+Saver.processRoot( );9;8;30
+StartDocumentImpl.getCharacterEncodingScheme( );1;0;3
+SynthNamespaceSaver.emitStartDoc( SaveCur c );1;0;1
+XmlInputStreamImpl.nextEvent( );1;0;3
+XmlInputStreamSaver.emitEndPrefixMappings( );3;1;14
+AttributeIteratorImpl.peek( );3;2;11
+DocSaveCur.pop( );1;0;1
+TripletEventImpl.TripletEventImpl( int eventType , Object obj , int cch , int off );1;0;6
+PrettySaveCur.hasChildren( );2;1;1
+Saver.nextMapping( );1;1;3
+XmlInputStreamSaver.emitDocType( String doctypeName , String publicID , String systemID );1;0;3
+StartElementImpl.getNamespaceUri( String prefix );2;1;3
+SaxSaver.emitEndDoc( SaveCur c );1;0;2

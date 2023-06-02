@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpMessageWriterView.getSupportedMediaTypes( );1;0;3
+HttpMessageWriterView.HttpMessageWriterView( Encoder < ? > encoder );1;0;3
+HttpMessageWriterView.HttpMessageWriterView( HttpMessageWriter < ? > writer );1;0;5
+HttpMessageWriterView.getModelKeys( );1;0;3
+HttpMessageWriterView.getMessageWriter( );1;0;3
+HttpMessageWriterView.write( T value , @ Nullable MediaType contentType , ServerWebExchange exchange );1;0;7
+HttpMessageWriterView.getObjectToRender( @ Nullable Map < String , ? > model );6;2;21
+HttpMessageWriterView.render( @ Nullable Map < String , ? > model , @ Nullable MediaType contentType , ServerWebExchange exchange );2;1;4
+HttpMessageWriterView.setModelKeys( @ Nullable Set < String > modelKeys );2;1;6
+HttpMessageWriterView.isMatch( Map . Entry < String , ? > entry );4;4;10

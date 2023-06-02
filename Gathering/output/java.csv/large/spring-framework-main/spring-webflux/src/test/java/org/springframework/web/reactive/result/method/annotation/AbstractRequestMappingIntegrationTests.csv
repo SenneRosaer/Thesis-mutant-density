@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractRequestMappingIntegrationTests.getApplicationContext( );1;0;3
+AbstractRequestMappingIntegrationTests.createHttpHandler( );1;0;5
+AbstractRequestMappingIntegrationTests.performOptions( String url , HttpHeaders headers , Class < T > type );1;0;3
+AbstractRequestMappingIntegrationTests.performPost( String url , MediaType in , Object body , MediaType out , Class < T > type );2;1;8
+AbstractRequestMappingIntegrationTests.performPost( String url , HttpHeaders headers , Object body , Class < T > type );1;0;3
+AbstractRequestMappingIntegrationTests.preparePost( String url , HttpHeaders headers , Object body );1;0;6
+AbstractRequestMappingIntegrationTests.performGet( String url , HttpHeaders headers , Class < T > type );1;0;3
+AbstractRequestMappingIntegrationTests.prepareGet( String url , HttpHeaders headers );2;0;6
+AbstractRequestMappingIntegrationTests.addHeaders( RequestEntity . HeadersBuilder < ? > builder , HttpHeaders headers );3;0;7
+AbstractRequestMappingIntegrationTests.performPost( String url , MediaType in , Object body , MediaType out , ParameterizedTypeReference < T > type );2;1;8
+AbstractRequestMappingIntegrationTests.performGet( String url , MediaType out , Class < T > type );1;0;5
+AbstractRequestMappingIntegrationTests.initRestTemplate( );1;0;3
+AbstractRequestMappingIntegrationTests.prepareOptions( String url , HttpHeaders headers );2;0;6
+AbstractRequestMappingIntegrationTests.performGet( String url , MediaType out , ParameterizedTypeReference < T > type );1;0;5
+AbstractRequestMappingIntegrationTests.getRestTemplate( );1;0;3

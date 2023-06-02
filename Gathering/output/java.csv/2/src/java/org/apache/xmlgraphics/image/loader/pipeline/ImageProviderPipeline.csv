@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ImageProviderPipeline.ImageProviderPipeline( ImageCache cache , ImageLoader loader );1;0;4
+ImageProviderPipeline.getTargetFlavor( );3;3;9
+ImageProviderPipeline.addConverter( ImageConverter converter );1;0;3
+ImageProviderPipeline.execute( ImageInfo info , Map hints , ImageSessionContext context );1;0;3
+ImageProviderPipeline.toString( );2;1;9
+ImageProviderPipeline.getConverter( int index );1;0;3
+ImageProviderPipeline.forceCaching( Image img );3;0;19
+ImageProviderPipeline.execute( ImageInfo info , Image originalImage , Map hints , ImageSessionContext context );23;27;72
+ImageProviderPipeline.setImageLoader( ImageLoader imageLoader );1;0;3
+ImageProviderPipeline.ImageProviderPipeline( ImageLoader loader );1;0;3
+ImageProviderPipeline.ImageProviderPipeline( );1;0;3
+ImageProviderPipeline.getConversionPenalty( );3;3;12

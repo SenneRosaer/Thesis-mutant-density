@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IndexReaderCache.close( );3;1;9
+SimpleLuceneCocoonSearcherImpl.getDefaultQueryDefault( );1;0;3
+SimpleLuceneCocoonSearcherImpl.setAnalyzer( Analyzer analyzer );1;0;3
+SimpleLuceneCocoonSearcherImpl.setDirectory( Directory directory );2;1;7
+SimpleLuceneCocoonSearcherImpl.getReader( );2;1;6
+SimpleLuceneCocoonSearcherImpl.setDefaultDirectory( String defaultDirectory );1;0;3
+IndexReaderCache.createIndexReader( Directory directory );1;0;5
+SimpleLuceneCocoonSearcherImpl.getDefaultDirectory( );1;0;3
+SimpleLuceneCocoonSearcherImpl.releaseIndexSearcher( );3;1;9
+IndexReaderCache.IndexReaderCache( );1;0;2
+SimpleLuceneCocoonSearcherImpl.setDefaultQueryparser( String defaultQueryparser );1;0;3
+SimpleLuceneCocoonSearcherImpl.getDefaultSearchFieldDefault( );1;0;3
+IndexReaderCache.finalize( );1;0;3
+SimpleLuceneCocoonSearcherImpl.search( String query_string , String default_field );5;2;21
+SimpleLuceneCocoonSearcherImpl.dispose( );1;0;4
+SimpleLuceneCocoonSearcherImpl.getAnalyzer( );1;0;3
+IndexReaderCache.indexReaderIsValid( Directory directory );2;3;3
+IndexReaderCache.getIndexReader( Directory directory );3;2;10
+SimpleLuceneCocoonSearcherImpl.getDefaultQueryparser( );1;0;3
+SimpleLuceneCocoonSearcherImpl.releaseIndexReaderCache( );2;1;5
+SimpleLuceneCocoonSearcherImpl.setDefaultSearchFieldDefault( String defaultSearchFieldDefault );1;0;3
+SimpleLuceneCocoonSearcherImpl.afterPropertiesSet( );2;0;8
+SimpleLuceneCocoonSearcherImpl.setDefaultQueryDefault( String defaultQueryDefault );1;0;3
+SimpleLuceneCocoonSearcherImpl.search( Query query );2;0;11

@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PDFFont.getName( );1;0;3
+PDFFont.createFont( String fontname , FontType subtype , String basefont , Object encoding );6;6;17
+PDFFont.getPDFNameForFontType( FontType fontType );6;5;15
+PDFFont.getBaseFont( );1;0;3
+PDFFont.setEncoding( PDFEncoding encoding );2;1;5
+PDFFont.output( OutputStream stream );1;0;4
+PDFFont.PDFFont( String fontname , FontType subtype , String basefont , Object encoding );3;0;12
+PDFFont.validate( );3;1;9
+PDFFont.setEncoding( String encoding );2;1;5

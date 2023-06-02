@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+State.removePlaybackSession( String testId );2;0;12
+State.removePlaybackSession( PlaybackSession session );1;0;3
+State.addPlaybackSession( PlaybackSession session );2;0;13
+State.isRecording( );2;1;7
+State.State( );2;0;6
+State.isTestMode( );1;0;3
+State.toString( );1;0;9
+State.createPlaybackSession( String sessionName , File playbackFile , File recordFile , File diffFile );1;0;3
+State.getRecordingSession( );1;0;3
+State.playbackStop( String testId );5;2;19
+State.recordStop( );6;2;36
+State.stopAll( );13;2;45
+State.getPlaybackMap( );2;1;6
+State.createRecordSession( String sessionName , File recordFile , boolean overwrite , String testUser , String description );1;0;3
+State.recordStart( RecordSession session );6;3;31
+State.removeRecordingSession( );1;0;5
+State.playbackSessionExists( String testId );2;1;6
+State.playbackStart( PlaybackSession session );5;1;22
+State.setTestMode( boolean testMode );1;0;3
+State.playbackSessionExists( PlaybackSession session );1;0;3
+State.getPlaybackSession( String testId );1;0;3
+State.setTestMode( );1;0;3
+State.getInternalPlaybackMap( );1;0;3
+State.setRecordingSession( RecordSession recordSession );1;0;3

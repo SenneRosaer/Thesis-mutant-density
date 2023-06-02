@@ -1,0 +1,108 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SearchIndex.createSynonymProvider( );3;1;14
+SearchIndex.getDirectoryManagerClass( );1;0;3
+SearchIndex.setExcerptProviderClass( String className );3;0;14
+SearchIndex.createSortFields( Name [ ] orderProps , boolean [ ] orderSpecs );4;3;16
+SearchIndex.getIndexingConfigurationDOM( );8;4;30
+SearchIndex.SearchIndex( );1;0;3
+CombinedIndexReader.release( );2;2;5
+SearchIndex.getMaxFieldLength( );1;0;3
+SearchIndex.setExtractorTimeout( long timeout );1;0;3
+SearchIndex.setAutoRepair( boolean b );1;0;3
+SearchIndex.getAnalyzer( );1;0;3
+SearchIndex.getCacheSize( );1;0;3
+SearchIndex.getSpellChecker( );1;0;3
+SearchIndex.getExcerptProviderClass( );1;0;3
+SearchIndex.updateNodes( NodeIdIterator remove , NodeStateIterator add );5;1;57
+SearchIndex.executeQuery( SessionImpl session , AbstractQueryImpl queryImpl , Query query , Name [ ] orderProps , boolean [ ] orderSpecs );1;0;17
+SearchIndex.createIndexingConfiguration( NamespaceMappings namespaceMappings );3;1;17
+SearchIndex.setExtractorPoolSize( int numThreads );2;1;6
+SearchIndex.getSynonymProviderClass( );2;1;7
+SearchIndex.setRespectDocumentOrder( boolean docOrder );1;0;3
+SearchIndex.setAnalyzer( String analyzerClassName );2;0;8
+SearchIndex.getTextExtractor( );1;0;3
+SearchIndex.setMaxVolatileIndexSize( long maxVolatileIndexSize );1;0;3
+SearchIndex.getTextFilterClasses( );1;0;3
+SearchIndex.createTextExtractor( );2;1;8
+SearchIndex.setExtractorBackLogSize( int backLog );1;0;3
+SearchIndex.createSynonymProviderConfigResource( );5;5;34
+SearchIndex.getIndexReader( );1;0;3
+SearchIndex.setDirectoryManagerClass( String className );1;0;3
+SearchIndex.setSynonymProviderConfigPath( String path );1;0;3
+SearchIndex.getSupportHighlighting( );1;0;3
+SearchIndex.getTermInfosIndexDivisor( );1;0;3
+SearchIndex.getMinMergeDocs( );1;0;3
+CombinedIndexReader.CombinedIndexReader( CachingMultiIndexReader [ ] indexReaders );2;4;11
+SearchIndex.getIndexFormatVersion( );4;2;16
+SearchIndex.getSpellCheckerClass( );2;1;7
+SearchIndex.setForceConsistencyCheck( boolean b );1;0;3
+SearchIndex.getIndexingConfig( );1;0;3
+SearchIndex.setUseCompoundFile( boolean b );1;0;3
+SearchIndex.getExtractorTimeout( );1;0;3
+SearchIndex.getSimilarity( );1;0;3
+SearchIndex.setMinMergeDocs( int minMergeDocs );1;0;3
+SearchIndex.setSupportHighlighting( boolean b );1;0;3
+SearchIndex.retrieveAggregateRoot( NodeState state , Map map );6;5;20
+CombinedIndexReader.readerIndex( int n );6;14;19
+SearchIndex.setMergeFactor( int mergeFactor );1;0;3
+SearchIndex.getIndexingConfigurationClass( );1;0;3
+SearchIndex.createExecutableQuery( SessionImpl session , ItemManager itemMgr , String statement , String language );1;0;6
+SearchIndex.mergeAggregatedNodeIndexes( NodeState state , Document doc );9;10;35
+SearchIndex.setSpellCheckerClass( String className );3;0;15
+SearchIndex.setMaxMergeDocs( int maxMergeDocs );1;0;3
+SearchIndex.retrieveAggregateRoot( Set removedUUIDs , Map map );6;4;44
+CombinedIndexReader.equals( Object obj );2;0;7
+SearchIndex.createExcerptProvider( Query query );2;0;10
+SearchIndex.createExecutableQuery( SessionImpl session , ItemManager itemMgr , QueryObjectModelTree qomTree );1;0;6
+***not in a method***;0;2;0
+SearchIndex.getBufferSize( );1;0;3
+SearchIndex.getSimilarityClass( );1;0;3
+SearchIndex.setMaxFieldLength( int length );1;0;3
+SearchIndex.getAutoRepair( );1;0;3
+SearchIndex.setVolatileIdleTime( int volatileIdleTime );1;0;3
+SearchIndex.getExtractorBackLogSize( );1;0;3
+SearchIndex.createSpellChecker( );3;1;13
+SearchIndex.setSynonymProviderClass( String className );3;0;15
+SearchIndex.setEnableConsistencyCheck( boolean b );1;0;3
+SearchIndex.setIndexingConfigurationClass( String className );3;0;15
+SearchIndex.getMaxMergeDocs( );1;0;3
+SearchIndex.getSynonymProvider( );3;1;12
+SearchIndex.getVolatileIdleTime( );1;0;3
+SearchIndex.setSimilarityClass( String className );2;0;8
+SearchIndex.getExtractorPoolSize( );1;0;3
+SearchIndex.getIndexingConfiguration( );1;0;3
+SearchIndex.setPath( String path );1;0;3
+SearchIndex.getForceConsistencyCheck( );1;0;3
+SearchIndex.setBufferSize( int size );1;0;3
+SearchIndex.getSynonymProviderConfigPath( );1;0;3
+SearchIndex.setCacheSize( int size );1;0;3
+SearchIndex.createDocument( NodeState node , NamespaceMappings nsMappings , IndexFormatVersion indexFormatVersion );1;0;10
+SearchIndex.getResultFetchSize( );1;0;3
+SearchIndex.getUseCompoundFile( );1;0;3
+SearchIndex.doInit( );15;7;69
+SearchIndex.getIndex( );1;0;3
+SearchIndex.addNode( NodeState node );1;0;3
+SearchIndex.getPath( );1;0;3
+CombinedIndexReader.createDocId( UUID uuid );3;3;10
+SearchIndex.getIndexReader( boolean includeSystemIndex );4;2;15
+SearchIndex.getQueryNodeFactory( );1;0;3
+SearchIndex.transform( Object input );1;1;5
+SearchIndex.getEnableConsistencyCheck( );1;0;3
+SearchIndex.getNamespaceMappings( );1;0;3
+SearchIndex.getRespectDocumentOrder( );1;0;3
+CombinedIndexReader.getParent( int n );1;1;6
+SearchIndex.getMaxVolatileIndexSize( );1;0;3
+SearchIndex.setIndexingConfiguration( String path );1;0;3
+CombinedIndexReader.hashCode( );2;4;7
+SearchIndex.createDirectoryManager( );4;1;18
+SearchIndex.setResultFetchSize( int size );1;0;3
+SearchIndex.getMergeFactor( );1;0;3
+SearchIndex.setTermInfosIndexDivisor( int termInfosIndexDivisor );1;0;3
+SearchIndex.setTextFilterClasses( String filterClasses );1;0;3
+SearchIndex.close( );5;2;19
+CombinedIndexReader.getIndexReaders( );1;0;5
+SearchIndex.deleteNode( NodeId id );1;0;3
+SearchIndex.checkOpen( );2;0;5
+SearchIndex.getTextAnalyzer( );1;0;3
+CombinedIndexReader.getDocumentNumber( ForeignSegmentDocId docId );3;5;10
+SearchIndex.getDirectoryManager( );1;0;3

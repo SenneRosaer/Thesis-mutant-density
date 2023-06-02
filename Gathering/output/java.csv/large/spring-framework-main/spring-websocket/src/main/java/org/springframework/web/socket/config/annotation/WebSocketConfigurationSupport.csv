@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketConfigurationSupport.defaultSockJsSchedulerContainer( );2;0;5
+WebSocketConfigurationSupport.initDefaultSockJsScheduler( );1;0;7
+DefaultSockJsSchedulerContainer.destroy( );2;1;5
+WebSocketConfigurationSupport.initHandlerRegistry( );2;1;7
+WebSocketConfigurationSupport.webSocketHandlerMapping( @ Qualifier ( "defaultSockJsSchedulerContainer" ) DefaultSockJsSchedulerContainer schedulerContainer );2;0;9
+DefaultSockJsSchedulerContainer.afterPropertiesSet( );2;1;5
+WebSocketConfigurationSupport.registerWebSocketHandlers( WebSocketHandlerRegistry registry );1;0;2
+DefaultSockJsSchedulerContainer.getScheduler( );1;0;3
+DefaultSockJsSchedulerContainer.DefaultSockJsSchedulerContainer( @ Nullable ThreadPoolTaskScheduler scheduler );1;0;3

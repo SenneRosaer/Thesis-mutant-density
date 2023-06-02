@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JettyContextManager.createServer( URL url , SslParameters ssl );11;4;47
+JettyContextManager.remove( Object context );4;3;12
+ThreadPoolWrapper.getIdleThreads( );1;0;3
+JettyContextManager.stop( );5;2;17
+ThreadPoolWrapper.join( );1;0;2
+JettyContextManager.init( );5;5;13
+JettyContextManager.start( );2;0;7
+JettyContextManager.getConfiguration( );1;0;3
+JettyContextManager.setupSslConnector( URL url , SslParameters ssl );9;6;46
+JettyContextManager.createContext( String strUrl , HttpProcessor processor );13;12;72
+JettyContextManager.getKey( URL url );3;2;11
+JettyContextManager.shutDown( );1;0;3
+ThreadPoolWrapper.isLowOnThreads( );1;0;3
+JettyContextManager.getMainProcessor( );1;0;3
+ThreadPoolWrapper.dispatch( Runnable job );2;0;6
+JettyContextManager.setupManagerSslConnector( URL url , SslParameters ssl );3;2;24
+DisplayServiceHandler.handle( String target , HttpServletRequest request , HttpServletResponse response , int dispatch );13;13;59
+JettyContextManager.getMBeanServer( );1;0;3
+ThreadPoolWrapper.getThreads( );1;0;3
+JettyContextManager.setConfiguration( HttpConfiguration configuration );1;0;3
+JettyContextManager.setMBeanServer( MBeanServer mBeanServer );1;0;3
+JettyContextManager.getServer( URL url );1;0;3
+JettyContextManager.getThreadPool( );1;0;3

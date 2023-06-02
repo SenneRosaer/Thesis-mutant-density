@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LayoutInfo.parseColumnLayout( double space , int padding );12;6;38
+LayoutInfo.isFree( int column );1;1;3
+***not in a method***;0;2;0
+LayoutInfo.arrayAsString( int [ ] currentSpaces );2;0;9
+LayoutInfo.toString( );1;0;8
+LayoutInfo.getLayoutTokens( );1;0;3
+LayoutInfo.LayoutInfo( int cellCount , int space , LayoutTokens layoutTokens , String clientIdForLogging , boolean ignoreMismatch );6;7;25
+LayoutInfo.parseColumnLayout( double space );1;0;3
+LayoutInfo.addSpace( int space , int i );3;4;10
+LayoutInfo.tokensToString( String [ ] tokens );3;1;12
+LayoutInfo.hasLayoutTokens( );1;1;3
+LayoutInfo.createAndInitSpaces( int columns , int initValue );2;2;6
+LayoutInfo.createLayoutTokens( String columnLayout , int count , String defaultToken );7;3;25
+LayoutInfo.tokensToString( int [ ] tokens );2;2;7
+LayoutInfo.getSpaceLeft( );1;0;3
+LayoutInfo.getSpaceList( );2;0;7
+LayoutInfo.handleIllegalTokens( );4;2;11
+LayoutInfo.LayoutInfo( int cellCount , int space , LayoutTokens layoutTokens , String clientIdForLogging );1;0;3
+LayoutInfo.update( int space , int index , boolean force );10;8;35
+LayoutInfo.update( int space , int index );1;0;3
+LayoutInfo.columnsLeft( );1;1;3
+LayoutInfo.handleSpaceLeft( );13;13;32
+LayoutInfo.parsePortions( int portions );9;7;27
+LayoutInfo.getSpaceForColumn( int column );2;1;7
+LayoutInfo.listToTokenString( List list );2;2;7

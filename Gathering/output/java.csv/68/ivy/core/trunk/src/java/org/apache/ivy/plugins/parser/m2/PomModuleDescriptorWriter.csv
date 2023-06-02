@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PomModuleDescriptorWriter.printDependencies( ModuleDescriptor md , ConfigurationScopeMapping mapping , PrintWriter out );5;4;22
+ConfigurationScopeMapping.getScope( String [ ] confs );1;0;3
+PomModuleDescriptorWriter.printModuleId( ModuleDescriptor md , PrintWriter out );3;2;12
+PomModuleDescriptorWriter.write( ModuleDescriptor md , String licenseHeader , ConfigurationScopeMapping mapping , File output );4;2;31
+ConfigurationScopeMapping.ConfigurationScopeMapping( Map scopesMapping );1;0;3
+PomModuleDescriptorWriter.PomModuleDescriptorWriter( );1;0;2
+PomModuleDescriptorWriter.setAddIvyVersion( boolean addIvyVersion );1;0;3
+ConfigurationScopeMapping.isOptional( String [ ] confs );1;1;3
+PomModuleDescriptorWriter.write( ModuleDescriptor md , ConfigurationScopeMapping mapping , File output );1;0;3

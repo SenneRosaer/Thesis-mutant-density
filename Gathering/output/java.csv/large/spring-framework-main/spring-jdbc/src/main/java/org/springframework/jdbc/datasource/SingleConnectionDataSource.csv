@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SingleConnectionDataSource.SingleConnectionDataSource( Connection target , boolean suppressClose );2;0;6
+SingleConnectionDataSource.getConnection( String username , String password );3;1;9
+SingleConnectionDataSource.isSuppressClose( );1;0;3
+SingleConnectionDataSource.SingleConnectionDataSource( );1;0;2
+SingleConnectionDataSource.closeConnection( );3;1;10
+SingleConnectionDataSource.getConnection( );3;1;13
+SingleConnectionDataSource.getAutoCommitValue( );1;0;3
+SingleConnectionDataSource.resetConnection( );1;0;7
+SingleConnectionDataSource.setAutoCommit( boolean autoCommit );1;0;3
+CloseSuppressingInvocationHandler.CloseSuppressingInvocationHandler( Connection target );1;0;3
+SingleConnectionDataSource.setSuppressClose( boolean suppressClose );1;0;3
+SingleConnectionDataSource.destroy( );1;0;5
+SingleConnectionDataSource.initConnection( );4;1;14
+SingleConnectionDataSource.prepareConnection( Connection con );3;3;6
+SingleConnectionDataSource.SingleConnectionDataSource( String url , String username , String password , boolean suppressClose );1;0;4
+CloseSuppressingInvocationHandler.invoke( Object proxy , Method method , Object [ ] args );15;2;24
+SingleConnectionDataSource.getCloseSuppressingConnectionProxy( Connection target );2;0;6
+SingleConnectionDataSource.shouldClose( Connection con );2;3;5
+SingleConnectionDataSource.SingleConnectionDataSource( String url , boolean suppressClose );1;0;4

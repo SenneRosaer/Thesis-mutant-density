@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JUnitResultAssert.succeeds( int successCount );2;2;16
+JUnitResultAssert.fails( String methodName , Class expectedException );4;1;15
+JUnitResultAssert.fails( Class expectedException , String exceptionMessage );1;0;6
+JUnitResultAssert.JUnitResultAssert( Result result );1;0;3
+JUnitResultAssert.fails( int expectedFailureCount , String methodName , Class expectedException );1;0;3
+JUnitResultAssert.formatFailures( List < Failure > failures );3;1;11
+JUnitResultAssert.assertThat( Result result );1;0;3
+JUnitResultAssert.isSuccessful( );2;0;6
+JUnitResultAssert.fails( int expectedFailureCount , Class expectedException );3;1;15
+JUnitResultAssert.failsExactly( Class ... expectedExceptions );3;3;19
+JUnitResultAssert.fails( int expectedFailureCount );2;1;12

@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PathMatchConfigurer.preferPathMatcher( );2;2;3
+PathMatchConfigurer.getPathMatcherOrDefault( );3;2;9
+PathMatchConfigurer.getPatternParserOrDefault( );3;2;9
+PathMatchConfigurer.setUseSuffixPatternMatch( @ Nullable Boolean suffixPatternMatch );2;3;5
+PathMatchConfigurer.getUrlPathHelperOrDefault( );3;2;9
+PathMatchConfigurer.isUseSuffixPatternMatch( );1;0;3
+PathMatchConfigurer.setUseTrailingSlashMatch( Boolean trailingSlashMatch );1;0;4
+PathMatchConfigurer.addPathPrefix( String prefix , Predicate < Class < ? > > predicate );2;1;7
+PathMatchConfigurer.setPatternParser( @ Nullable PathPatternParser patternParser );1;1;5
+PathMatchConfigurer.setUrlPathHelper( UrlPathHelper urlPathHelper );1;0;5
+PathMatchConfigurer.isUseTrailingSlashMatch( );1;0;3
+PathMatchConfigurer.isUseRegisteredSuffixPatternMatch( );1;0;3
+PathMatchConfigurer.getPathPrefixes( );1;0;3
+PathMatchConfigurer.getPatternParser( );1;0;3
+PathMatchConfigurer.setUseRegisteredSuffixPatternMatch( @ Nullable Boolean registeredSuffixPatternMatch );2;3;5
+PathMatchConfigurer.getPathMatcher( );1;0;3
+PathMatchConfigurer.setPathMatcher( PathMatcher pathMatcher );1;0;5
+PathMatchConfigurer.getUrlPathHelper( );1;0;3

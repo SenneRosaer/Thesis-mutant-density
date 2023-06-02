@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PathVariableMethodArgumentResolver.formatUriValue( @ Nullable ConversionService cs , @ Nullable TypeDescriptor sourceType , Object value );3;1;11
+PathVariableMethodArgumentResolver.handleMissingValue( String name , MethodParameter parameter );1;0;3
+PathVariableMethodArgumentResolver.supportsParameter( MethodParameter parameter );4;3;10
+PathVariableMethodArgumentResolver.handleMissingValueAfterConversion( String name , MethodParameter parameter , NativeWebRequest request );1;0;3
+PathVariableMethodArgumentResolver.handleResolvedValue( @ Nullable Object arg , String name , MethodParameter parameter , @ Nullable ModelAndViewContainer mavContainer , NativeWebRequest request );2;1;10
+PathVariableMethodArgumentResolver.resolveName( String name , MethodParameter parameter , NativeWebRequest request );2;1;5
+PathVariableMethodArgumentResolver.createNamedValueInfo( MethodParameter parameter );1;1;5
+PathVariableNamedValueInfo.PathVariableNamedValueInfo( PathVariable annotation );1;0;3
+PathVariableMethodArgumentResolver.contributeMethodArgument( MethodParameter parameter , Object value , UriComponentsBuilder builder , Map < String , Object > uriVariables , ConversionService conversionService );4;2;9

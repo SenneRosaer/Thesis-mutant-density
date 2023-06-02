@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockRestResponseCreators.withServiceUnavailable( );1;0;3
+MockRestResponseCreators.withUnauthorizedRequest( );1;0;3
+MockRestResponseCreators.withForbiddenRequest( );1;0;3
+MockRestResponseCreators.withAccepted( );1;0;3
+MockRestResponseCreators.withRequestConflict( );1;0;3
+MockRestResponseCreators.withSuccess( String body , @ Nullable MediaType contentType );2;1;4
+MockRestResponseCreators.withRawStatus( int status );1;0;3
+MockRestResponseCreators.withGatewayTimeout( );1;0;3
+MockRestResponseCreators.withResourceNotFound( );1;0;3
+MockRestResponseCreators.withSuccess( );1;0;3
+MockRestResponseCreators.withCreatedEntity( URI location );1;0;3
+MockRestResponseCreators.withTooManyRequests( int retryAfter );1;0;4
+MockRestResponseCreators.withNoContent( );1;0;3
+MockRestResponseCreators.withBadRequest( );1;0;3
+MockRestResponseCreators.withSuccess( byte [ ] body , @ Nullable MediaType contentType );2;1;4
+MockRestResponseCreators.withSuccess( Resource body , @ Nullable MediaType contentType );2;1;4
+MockRestResponseCreators.withTooManyRequests( );1;0;3
+MockRestResponseCreators.withBadGateway( );1;0;3
+MockRestResponseCreators.withException( IOException ex );1;0;5
+MockRestResponseCreators.withStatus( HttpStatusCode status );1;0;3
+MockRestResponseCreators.withServerError( );1;0;3

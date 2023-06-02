@@ -1,0 +1,86 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParsedConfiguration.setMarkUndeliverableSeen( boolean markUndeliverableSeen );1;0;3
+ParsedConfiguration.setMarkUserUndefinedSeen( boolean markExternalSeen );1;0;3
+ParsedConfiguration.setDefaultDomainNameBasic( String defaultDomainName );1;0;3
+ParsedConfiguration.isRejectRecipientNotFound( );1;0;3
+ParsedConfiguration.isLeaveRemoteRecipient( );1;0;3
+ParsedConfiguration.setFetchTaskName( String fetchTaskName );1;0;3
+ParsedConfiguration.setMarkSeen( boolean markSeen );1;0;3
+ParsedConfiguration.setMarkRecipientNotFoundSeen( boolean markRecipientNotFoundSeen );1;0;3
+ParsedConfiguration.setRejectRemoteRecipient( boolean rejectRemoteRecipient );1;0;3
+ParsedConfiguration.updateDefaultDomainName( );1;0;3
+ParsedConfiguration.getFetchTaskName( );1;0;3
+ParsedConfiguration.setLeave( boolean keep );1;0;3
+ParsedConfiguration.getMaxMessageSizeLimit( );1;0;3
+ParsedConfiguration.getServer( );1;0;3
+ParsedConfiguration.getLocalUsers( );1;0;3
+ParsedConfiguration.ParsedConfiguration( );1;0;3
+ParsedConfiguration.setServer( MailServer server );1;0;3
+ParsedConfiguration.isOpenReadOnly( );14;20;17
+ParsedConfiguration.getBlacklist( );1;0;3
+ParsedConfiguration.validateDefaultDomainName( String defaultDomainName );2;1;8
+ParsedConfiguration.setLocalUsers( UsersRepository localUsers );1;0;3
+ParsedConfiguration.setDeferRecipientNotFound( boolean deferRecipientNotFound );1;0;3
+ParsedConfiguration.setRejectRemoteReceivedHeaderInvalid( boolean rejectRemoteReceivedHeaderInvalid );1;0;4
+ParsedConfiguration.setDNSServer( DNSService dnsServer );1;0;3
+ParsedConfiguration.setLeaveRemoteReceivedHeaderInvalid( boolean leaveRemoteReceivedHeaderInvalid );1;0;4
+ParsedConfiguration.setHost( String host );1;0;3
+ParsedConfiguration.isMarkRecipientNotFoundSeen( );1;0;3
+ParsedConfiguration.setLeaveMaxMessageSizeExceeded( boolean leaveMaxMessageSize );1;0;3
+ParsedConfiguration.computeDefaultDomainName( );2;0;12
+ParsedConfiguration.isRejectRemoteRecipient( );1;0;3
+ParsedConfiguration.setRejectBlacklisted( boolean rejectBlacklisted );1;0;3
+ParsedConfiguration.setJavaMailFolderName( String javaMailFolderName );1;0;3
+ParsedConfiguration.getJavaMailProviderName( );1;0;3
+ParsedConfiguration.setLeaveRemoteRecipient( boolean leaveRemoteRecipient );1;0;3
+ParsedConfiguration.setDefaultDomainName( String defaultDomainName );1;0;4
+ParsedConfiguration.setBlacklist( String blacklistValue );3;0;19
+ParsedConfiguration.isMarkSeen( );1;0;3
+ParsedConfiguration.setRejectUserUndefined( boolean localRecipientsOnly );1;0;3
+ParsedConfiguration.isRejectUserUndefined( );1;0;3
+ParsedConfiguration.isRejectRemoteReceivedHeaderInvalid( );1;0;3
+ParsedConfiguration.setLogger( Logger logger );1;0;3
+ParsedConfiguration.getRemoteReceivedHeaderIndex( );1;0;3
+ParsedConfiguration.setLeaveRecipientNotFound( boolean leaveRecipientNotFound );1;0;3
+ParsedConfiguration.isMarkUndeliverableSeen( );1;0;3
+ParsedConfiguration.getDefaultDomainNameBasic( );1;0;3
+ParsedConfiguration.isFetchAll( );1;0;3
+ParsedConfiguration.setJavaMailProviderName( String javaMailProviderName );1;0;3
+***not in a method***;0;1;0
+ParsedConfiguration.ParsedConfiguration( Configuration configuration , Logger logger , MailServer server , UsersRepository localUsers , DNSService dnsServer );1;0;8
+ParsedConfiguration.setMaxMessageSizeLimit( int maxMessageSizeLimit );1;0;3
+ParsedConfiguration.setLeaveBlacklisted( boolean keepRejected );1;0;3
+ParsedConfiguration.setRejectRecipientNotFound( boolean rejectRecipientNotFound );1;0;3
+ParsedConfiguration.isLeaveRemoteReceivedHeaderInvalid( );1;0;3
+ParsedConfiguration.setRecurse( boolean recurse );1;0;3
+ParsedConfiguration.isLeaveMaxMessageSizeExceeded( );1;0;3
+ParsedConfiguration.isLeaveUndeliverable( );1;0;3
+ParsedConfiguration.isLeaveBlacklisted( );1;0;3
+ParsedConfiguration.setMarkMaxMessageSizeExceededSeen( boolean markMaxMessageSizeSeen );1;0;3
+ParsedConfiguration.isLeaveUserUndefined( );1;0;3
+ParsedConfiguration.isMarkRemoteRecipientSeen( );1;0;3
+ParsedConfiguration.isMarkRemoteReceivedHeaderInvalidSeen( );1;0;3
+ParsedConfiguration.getJavaMailFolderName( );1;0;3
+ParsedConfiguration.configure( Configuration conf );5;4;76
+ParsedConfiguration.isMarkMaxMessageSizeExceededSeen( );1;0;3
+ParsedConfiguration.isMarkBlacklistedSeen( );1;0;3
+ParsedConfiguration.setRemoteReceivedHeaderIndex( int remoteReceivedHeaderIndex );1;0;3
+ParsedConfiguration.isMarkUserUndefinedSeen( );1;0;3
+ParsedConfiguration.setMarkBlacklistedSeen( boolean markRejectedSeen );1;0;3
+ParsedConfiguration.setFetchAll( boolean fetchAll );1;0;3
+ParsedConfiguration.setLeaveUserUndefined( boolean leaveExternal );1;0;3
+ParsedConfiguration.isRejectBlacklisted( );1;0;3
+ParsedConfiguration.setBlacklist( Set blacklist );1;0;3
+ParsedConfiguration.setRejectMaxMessageSizeExceeded( boolean rejectMaxMessageSize );1;0;3
+ParsedConfiguration.getDefaultDomainName( );2;1;9
+ParsedConfiguration.getDNSServer( );1;0;3
+ParsedConfiguration.getHost( );1;0;3
+ParsedConfiguration.setMarkRemoteRecipientSeen( boolean markRemoteRecipientSeen );1;0;3
+ParsedConfiguration.isDeferRecipientNotFound( );1;0;3
+ParsedConfiguration.setLeaveUndeliverable( boolean leaveUndeliverable );1;0;3
+ParsedConfiguration.setMarkRemoteReceivedHeaderInvalidSeen( boolean markRemoteReceivedHeaderInvalidSeen );1;0;4
+ParsedConfiguration.isLeave( );1;0;3
+ParsedConfiguration.isRecurse( );1;0;3
+ParsedConfiguration.getLogger( );1;0;3
+ParsedConfiguration.isLeaveRecipientNotFound( );1;0;3
+ParsedConfiguration.isRejectMaxMessageSizeExceeded( );1;0;3

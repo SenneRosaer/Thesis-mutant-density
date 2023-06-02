@@ -1,0 +1,224 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TextAdapter.TextAdapter( Node parent , Pointer ptr , Object data );1;0;4
+TextAdapter.unwrap( );1;0;3
+DocumentAdapter.cloneNode( boolean deep );1;0;4
+ElementAdapter.getNextSibling( );3;1;8
+DocumentAdapter.isSameNode( Node other );1;0;3
+TextAdapter.replaceData( int offset , int count , String arg );1;0;3
+NodeAdapter.getNodeValue( );1;0;3
+NodeAdapter.getParentContext( );2;0;7
+ElementAdapter.hasAttributes( );1;1;3
+DocumentAdapter.createCDATASection( String data );1;0;3
+ElementAdapter.getElementsByTagNameNS( String namespaceURI , String localName );1;0;3
+TextAdapter.deleteData( int offset , int count );1;0;3
+DocumentAdapter.lookupNamespaceURI( String prefix );1;0;3
+DocumentAdapter.getXmlStandalone( );1;0;3
+DocumentAdapter.DocumentAdapter( Object obj , String tagName );1;1;7
+DocumentAdapter.getNodeType( );1;0;3
+ElementAdapter.isDefaultNamespace( String namespaceURI );1;0;3
+NodeAdapter.getPointer( CompiledExpression expr );1;0;3
+AttrAdapter.compareDocumentPosition( Node other );1;0;3
+NodeAdapter.getNextSibling( );1;0;3
+DocumentAdapter.setNamedItemNS( Node arg );1;0;4
+DocumentAdapter.isEqualNode( Node arg );1;0;3
+TextAdapter.isEqualNode( Node arg );1;0;3
+AttrAdapter.getSpecified( );1;0;3
+DocumentAdapter.getNamedItem( String name );1;0;3
+DocumentAdapter.getParentNode( );1;0;3
+DocumentAdapter.createDocumentFragment( );1;0;3
+TextAdapter.getNodeName( );1;0;3
+ElementAdapter.getAttributeNodeNS( String namespaceURI , String localName );2;1;5
+DocumentAdapter.normalizeDocument( );1;0;3
+ElementAdapter.removeNamedItemNS( String namespaceURI , String localName );1;0;4
+DocumentAdapter.getPreviousSibling( );1;0;3
+TextAdapter.isSameNode( Node other );1;0;3
+TextAdapter.substringData( int offset , int count );1;0;3
+DocumentAdapter.getNamespaceURI( );1;0;3
+DocumentAdapter.setXmlEncoding( String version );1;0;3
+ElementAdapter.setAttributeNode( Attr newAttr );1;0;4
+TextAdapter.getWholeText( );1;0;3
+AttrAdapter.setUserData( String key , Object value , UserDataHandler handler );1;0;3
+ElementAdapter.getLastChild( );2;2;7
+ElementAdapter.unwrap( );1;0;3
+DocumentAdapter.getChildNodes( );1;0;3
+ElementAdapter.setIdAttributeNode( Attr idAttr , boolean isId );1;0;3
+ElementAdapter.getNodeValue( );2;1;6
+DocumentAdapter.getAttributes( );1;0;3
+DocumentAdapter.removeNamedItemNS( String namespaceURI , String localName );1;0;4
+TextAdapter.isElementContentWhitespace( );1;0;3
+AttrAdapter.getNodeName( );1;0;3
+ElementAdapter.lookupNamespaceURI( String prefix );1;0;3
+TextAdapter.getNodeValue( );4;1;14
+DocumentAdapter.notSupported( );1;0;3
+DocumentAdapter.getElementById( String elementId );1;0;3
+ElementAdapter.removeNamedItem( String name );1;0;4
+ElementAdapter.getContext( );2;1;6
+DocumentAdapter.createEntityReference( String name );1;0;3
+AttrAdapter.isDefaultNamespace( String namespaceURI );1;0;3
+ElementAdapter.isEqualNode( Node arg );1;0;3
+ElementAdapter.ElementAdapter( Node parent , Pointer ptr , int index , String tagName , Object nodeValue );5;3;23
+NodeAdapter.getNamespaceURI( );1;0;3
+NodeAdapter.getOwnerDocument( );1;0;3
+AttrAdapter.AttrAdapter( Node par , NodePointer np );1;0;4
+DocumentAdapter.setDocumentURI( String uri );1;0;3
+AttrAdapter.isId( );1;0;3
+DocumentAdapter.getXmlEncoding( );1;0;3
+ElementAdapter.setIdAttribute( String name , boolean isId );1;0;3
+TextAdapter.setTextContent( String textContent );1;0;3
+TextAdapter.splitText( int offset );1;0;4
+AttrAdapter.lookupPrefix( String namespaceURI );1;0;3
+DocumentAdapter.getImplementation( );1;0;3
+NodeAdapter.isSupported( String feature , String version );1;0;3
+ElementAdapter.isSameNode( Node other );1;0;3
+ElementAdapter.getNamedItemNS( String namespaceURI , String localName );1;0;5
+NodeAdapter.getPreviousSibling( );1;0;3
+DocumentAdapter.setNamedItem( Node arg );1;0;4
+AttrAdapter.setValue( String value );1;0;3
+NodeAdapter.removeChild( Node oldChild );1;0;4
+DocumentAdapter.getStrictErrorChecking( );1;0;3
+AttrAdapter.getNodeValue( );1;0;3
+ElementAdapter.hasAttributeNS( String namespaceURI , String localName );1;1;3
+ElementAdapter.setAttributeNS( String namespaceURI , String qualifiedName , String value );1;0;3
+DocumentAdapter.unwrap( );1;0;3
+ElementAdapter.getFeature( String feature , String version );1;0;3
+DocumentAdapter.getElementsByTagNameNS( String namespaceURI , String localName );1;0;3
+DocumentAdapter.setTextContent( String textContent );1;0;3
+NodeAdapter.setNodeValue( String nodeValue );1;0;3
+AttrAdapter.getTextContent( );1;0;3
+ElementAdapter.removeAttribute( String name );1;0;3
+NodeAdapter.getLocalName( );1;0;3
+DocumentAdapter.item( int i );1;0;3
+AttrAdapter.getValue( );2;1;5
+ElementAdapter.compareDocumentPosition( Node other );1;0;3
+ElementAdapter.getSchemaTypeInfo( );1;0;3
+DocumentAdapter.getNodeValue( );1;0;3
+DocumentAdapter.item( int index );1;0;3
+DocumentAdapter.createElementNS( String namespaceURI , String qualifiedName );1;0;3
+NodeAdapter.getChildNodes( );1;0;3
+TextAdapter.replaceWholeText( String content );1;0;3
+TextAdapter.insertData( int offset , String arg );1;0;3
+NodeAdapter.getAttributes( );1;0;3
+ElementAdapter.getElementsByTagName( String name );1;0;3
+AttrAdapter.getFeature( String feature , String version );1;0;3
+DocumentAdapter.getNodeName( );1;0;3
+NodeAdapter.cloneNode( boolean deep );1;0;4
+DocumentAdapter.getLastChild( );1;0;3
+NodeAdapter.normalize( );1;0;2
+ElementAdapter.item( int index );1;0;3
+DocumentAdapter.getLength( );1;0;3
+TextAdapter.getBaseURI( );1;0;3
+ElementAdapter.getPreviousSibling( );3;1;8
+NodeAdapter.NodeAdapter( Node parent , Pointer ptr );1;0;4
+DocumentAdapter.setUserData( String key , Object value , UserDataHandler handler );1;0;3
+DocumentAdapter.createTextNode( String data );1;0;3
+ElementAdapter.getNextSibling( int index );3;4;7
+AttrAdapter.getUserData( String key );1;0;3
+NodeAdapter.setPrefix( String prefix );1;0;3
+DocumentAdapter.removeChild( Node oldChild );1;0;4
+DocumentAdapter.getNextSibling( );1;0;3
+DocumentAdapter.getDocumentElement( );1;0;3
+TextAdapter.appendData( String arg );1;0;3
+NodeAdapter.getValue( CompiledExpression expr );1;0;3
+NodeAdapter.getPrefix( );1;0;3
+ElementAdapter.setIdAttributeNS( String namespaceURI , String localName , boolean isId );1;0;3
+TextAdapter.isDefaultNamespace( String namespaceURI );1;0;3
+AttrAdapter.lookupNamespaceURI( String prefix );1;0;3
+NodeAdapter.unwrap( );2;1;6
+ElementAdapter.getNodeType( );1;0;3
+DocumentAdapter.getElementsByTagName( String tagname );1;0;3
+DocumentAdapter.createProcessingInstruction( String target , String data );1;0;3
+ElementAdapter.getNodeName( );1;0;3
+ElementAdapter.removeAttributeNode( Attr oldAttr );1;0;4
+DocumentAdapter.appendChild( Node newChild );1;0;4
+ElementAdapter.getTextContent( );1;0;3
+NodeAdapter.getParentNode( );1;0;3
+DocumentAdapter.replaceChild( Node newChild , Node oldChild );1;0;4
+ElementAdapter.getParentNode( );1;0;3
+DocumentAdapter.setXmlStandalone( boolean value );1;0;3
+ElementAdapter.getLength( );1;0;3
+AttrAdapter.getNodeType( );1;0;3
+TextAdapter.getTextContent( );1;0;3
+NodeAdapter.insertBefore( Node newChild , Node refChild );1;0;4
+DocumentAdapter.getTextContent( );1;0;3
+DocumentAdapter.getUserData( String key );1;0;3
+ElementAdapter.hasAttribute( String name );1;1;3
+DocumentAdapter.insertBefore( Node newChild , Node refChild );1;0;4
+ElementAdapter.setNamedItemNS( Node arg );1;0;4
+DocumentAdapter.getPrefix( );1;0;3
+ElementAdapter.hasChildNodes( );1;1;3
+DocumentAdapter.getFeature( String feature , String version );1;0;3
+NodeAdapter.getFirstChild( );1;0;3
+DocumentAdapter.isDefaultNamespace( String namespaceURI );1;0;3
+DocumentAdapter.setPrefix( String prefix );1;0;3
+DocumentAdapter.createAttributeNS( String namespaceURI , String qualifiedName );1;0;3
+ElementAdapter.getNamedItem( String name );1;0;3
+AttrAdapter.isEqualNode( Node arg );1;0;3
+DocumentAdapter.adoptNode( Node source );1;0;3
+ElementAdapter.getUserData( String key );1;0;3
+DocumentAdapter.hasAttributes( );1;0;3
+DocumentAdapter.getBaseURI( );1;0;3
+ElementAdapter.getAttributeNS( String namespaceURI , String localName );2;1;5
+ElementAdapter.setTextContent( String textContent );1;0;3
+AttrAdapter.getName( );1;0;3
+DocumentAdapter.lookupPrefix( String namespaceURI );1;0;3
+DocumentAdapter.hasChildNodes( );1;0;3
+DocumentAdapter.setStrictErrorChecking( boolean value );1;0;3
+DocumentAdapter.getOwnerDocument( );1;0;3
+DocumentAdapter.compareDocumentPosition( Node other );1;0;3
+DocumentAdapter.getFirstChild( );1;0;3
+DocumentAdapter.createElement( String tagName );1;0;4
+NodeAdapter.replaceChild( Node newChild , Node oldChild );1;0;4
+AttrAdapter.setTextContent( String textContent );1;0;3
+AttrAdapter.isSameNode( Node other );1;0;3
+ElementAdapter.getLocalName( );1;0;3
+ElementAdapter.setNamedItem( Node arg );1;0;4
+DocumentAdapter.setXmlVersion( String version );1;0;3
+DocumentAdapter.getDocumentURI( );1;0;3
+TextAdapter.compareDocumentPosition( Node other );1;0;3
+ElementAdapter.removeAttributeNS( String namespaceURI , String localName );1;0;3
+TextAdapter.lookupNamespaceURI( String prefix );1;0;3
+ElementAdapter.getChildNodes( );6;2;33
+TextAdapter.setData( String data );1;0;3
+NodeAdapter.getLastChild( );1;0;3
+TextAdapter.getUserData( String key );1;0;3
+ElementAdapter.getPreviousSibling( int index );3;4;7
+NodeAdapter.getContext( );2;1;6
+TextAdapter.getData( );1;0;3
+DocumentAdapter.removeNamedItem( String name );1;0;4
+NodeAdapter.hasAttributes( );1;0;3
+ElementAdapter.lookupPrefix( String namespaceURI );1;0;3
+DocumentAdapter.getInputEncoding( );1;0;3
+ElementAdapter.setAttribute( String name , String value );1;0;3
+TextAdapter.setUserData( String key , Object value , UserDataHandler handler );1;0;3
+DocumentAdapter.isSupported( String feature , String version );1;0;3
+ElementAdapter.setUserData( String key , Object value , UserDataHandler handler );1;0;3
+DocumentAdapter.newContext( Object obj );1;0;3
+ElementAdapter.getBaseURI( );1;0;3
+DocumentAdapter.getDoctype( );1;0;3
+ElementAdapter.getTagName( );1;0;3
+ElementAdapter.getAttributes( );4;1;57
+TextAdapter.getParentNode( );1;0;3
+DocumentAdapter.normalize( );1;0;3
+NodeAdapter.appendChild( Node newChild );1;0;4
+DocumentAdapter.renameNode( Node node , String namespaceURI , String qualifiedName );1;0;3
+AttrAdapter.getSchemaTypeInfo( );1;0;3
+TextAdapter.getFeature( String feature , String version );1;0;3
+ElementAdapter.item( int i );1;0;3
+DocumentAdapter.getNamedItemNS( String namespaceURI , String localName );1;0;3
+ElementAdapter.getAttribute( String name );2;1;5
+TextAdapter.lookupPrefix( String namespaceURI );1;0;3
+AttrAdapter.getBaseURI( );1;0;3
+ElementAdapter.getAttributeNode( String name );2;1;5
+AttrAdapter.getOwnerElement( );1;0;3
+DocumentAdapter.createAttribute( String name );1;0;3
+DocumentAdapter.setNodeValue( String nodeValue );1;0;3
+TextAdapter.getLength( );1;0;3
+DocumentAdapter.getXmlVersion( );1;0;3
+DocumentAdapter.getLocalName( );1;0;3
+DocumentAdapter.createComment( String data );1;0;3
+ElementAdapter.getFirstChild( );2;1;7
+TextAdapter.getNodeType( );1;0;3
+ElementAdapter.setAttributeNodeNS( Attr newAttr );1;0;4
+DocumentAdapter.getDomConfig( );1;0;3
+DocumentAdapter.importNode( Node importedNode , boolean deep );1;0;3
+NodeAdapter.hasChildNodes( );1;0;3

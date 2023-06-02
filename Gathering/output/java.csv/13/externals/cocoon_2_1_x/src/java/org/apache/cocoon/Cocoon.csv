@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Cocoon.getComponentConfigurations( );1;0;3
+Cocoon.enableLogging( Logger logger );1;0;4
+Cocoon.initialize( );10;2;70
+Cocoon.modifiedSince( long date );1;1;3
+Cocoon.getSystemProperty( String property , String value );2;0;9
+Cocoon.dumpSystemProperties( );4;1;14
+Cocoon.setLoggerManager( LoggerManager loggerManager );1;0;4
+Cocoon.getActiveRequestCount( );1;0;3
+Cocoon.getComponentManager( );1;0;3
+Cocoon.createSourceResolver( Logger logger );2;0;11
+Cocoon.setSystemProperties( );5;1;17
+Cocoon.compose( ComponentManager manager );1;0;3
+Cocoon.Cocoon( );1;0;4
+Cocoon.process( Environment environment );14;7;67
+Cocoon.setInstrumentManager( final InstrumentManager manager );1;0;3
+Cocoon.configure( ExcaliburComponentManager startupManager );12;6;77
+Cocoon.contextualize( Context context );4;1;19
+Cocoon.buildPipeline( Environment environment );5;3;25
+Cocoon.getLocation( Object obj , String description );8;4;33
+Cocoon.getRootProcessor( );1;0;3
+Cocoon.dispose( );4;3;18
+Cocoon.debug( Environment environment , boolean internal );12;8;80

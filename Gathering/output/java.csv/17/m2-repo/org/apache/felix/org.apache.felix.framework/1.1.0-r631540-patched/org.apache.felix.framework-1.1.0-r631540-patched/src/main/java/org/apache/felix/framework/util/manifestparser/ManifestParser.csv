@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ManifestParser.getName( String path );2;2;8
+ManifestParser.getCapabilities( );1;0;3
+ManifestParser.checkExtensionBundle( );6;4;10
+ManifestParser.parseStandardHeaderClause( String clauseString );12;15;72
+ManifestParser.parseRequireBundleHeader( String header );6;9;42
+ManifestParser.getSymbolicName( );1;0;3
+ManifestParser.getDynamicRequirements( );1;0;3
+ManifestParser.parseExportHeader( String header );13;20;63
+ManifestParser.getBundleVersion( );1;0;3
+ManifestParser.checkAndNormalizeR4( );9;11;38
+ManifestParser.parseExtensionBundleHeader( String header );6;3;20
+ManifestParser.getLibraries( BundleRevision revision );8;10;40
+ManifestParser.getRequirements( );1;0;3
+ManifestParser.parseLibraryStrings( Logger logger , String [ ] libStrs );3;3;13
+ManifestParser.checkAndNormalizeR3( );36;43;157
+ManifestParser.getManifestVersion( );2;1;4
+ManifestParser.getSelectedLibraryClause( );9;8;35
+ManifestParser.ManifestParser( Logger logger , Map configMap , Map headerMap );20;22;127
+ManifestParser.parseDelimitedString( String value , String delim );11;24;48
+ManifestParser.firstSortedClause( List clauseList );18;25;82
+ManifestParser.parseImportHeader( String header );12;18;68
+ManifestParser.parseStandardHeader( String header );6;7;20
+ManifestParser.getLibraryClauses( );1;0;3

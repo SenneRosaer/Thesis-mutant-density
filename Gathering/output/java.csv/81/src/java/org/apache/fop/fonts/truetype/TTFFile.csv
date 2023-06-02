@@ -1,0 +1,56 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TTFFile.createCMaps( );4;5;23
+TTFFile.printMaxMin( );4;4;14
+TTFFile.readGlyf( FontFileReader in );8;15;41
+TTFFile.checkTTC( FontFileReader in , String name );5;4;38
+UnicodeMapping.UnicodeMapping( int glyphIndex , int unicodeIndex );1;0;6
+TTFFile.readOS2( FontFileReader in );7;11;51
+TTFFile.determineAscDesc( );8;12;25
+TTFFile.readHorizontalHeader( FontFileReader in );1;5;10
+TTFFile.getCharWidth( int idx );1;0;3
+TTFFile.getWidths( );2;2;7
+TTFFile.isEmbeddable( );1;0;3
+TTFFile.unicodeToWinAnsi( int unicode );3;3;9
+TTFFile.isCFF( );1;0;3
+TTFFile.getLastChar( );1;0;3
+TTFFile.getStemV( );1;0;3
+TTFFile.readDirTabs( FontFileReader in );6;2;31
+TTFFile.getKerning( );1;0;3
+TTFFile.getWeightClass( );1;0;3
+UnicodeMapping.getGlyphIndex( );1;0;3
+TTFFile.printStuff( );2;7;24
+TTFFile.glyphToUnicode( int glyphIndex );1;0;3
+TTFFile.main( String [ ] args );3;1;15
+TTFFile.readCMAP( FontFileReader in );32;55;141
+TTFFile.getLowerCaseDescent( );1;0;3
+TTFFile.getNumGlyphs( FontFileReader in );1;0;4
+TTFFile.readHorizontalMetrics( FontFileReader in );8;8;28
+TTFFile.readKerning( FontFileReader in );19;27;74
+TTFFile.getTTCnames( FontFileReader in );5;4;34
+TTFFile.getFullName( );1;0;3
+TTFFile.convertTTFUnit2PDFUnit( int n );3;16;12
+TTFFile.readIndexToLocation( FontFileReader in );5;7;12
+TTFFile.getFontBBox( );1;0;8
+UnicodeMapping.getUnicodeIndex( );1;0;3
+TTFFile.initAnsiWidths( );4;5;17
+TTFFile.seekTab( FontFileReader in , String name , long offset );2;2;11
+TTFFile.getFirstChar( );1;0;3
+TTFFile.getLowerCaseAscent( );1;0;3
+TTFFile.getCharSetName( );1;0;3
+TTFFile.readFont( FontFileReader in );1;0;3
+TTFFile.unicodeToGlyph( int unicodeIndex );2;1;9
+TTFFile.readPCLT( FontFileReader in );3;13;25
+TTFFile.getFamilyNames( );1;0;3
+TTFFile.getCMaps( );1;0;3
+TTFFile.guessVerticalMetricsFromGlyphBBox( );20;15;69
+TTFFile.getSubFamilyName( );1;0;3
+TTFFile.readFont( FontFileReader in , String name );6;4;38
+TTFFile.readPostScript( FontFileReader in );14;17;60
+TTFFile.readFontHeader( FontFileReader in );1;6;12
+TTFFile.getItalicAngle( );1;1;4
+TTFFile.getAnsiKerning( );1;0;3
+TTFFile.getXHeight( );1;0;3
+TTFFile.getCapHeight( );1;0;3
+TTFFile.getPostScriptName( );2;1;7
+TTFFile.readName( FontFileReader in );20;29;60
+TTFFile.getFlags( );4;5;13

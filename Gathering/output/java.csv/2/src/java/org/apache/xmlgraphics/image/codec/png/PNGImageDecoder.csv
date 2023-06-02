@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PNGImage.decodeUpFilter( byte [ ] curr , byte [ ] prev , int count );2;5;7
+PNGImage.parse_zTXt_chunk( PNGChunk chunk );4;8;25
+PNGImage.parse_tEXt_chunk( PNGChunk chunk );3;6;14
+PNGImage.parse_IEND_chunk( PNGChunk chunk );24;42;88
+PNGImage.parse_PLTE_chunk( PNGChunk chunk );6;16;26
+***not in a method***;0;6;0
+PNGChunk.isType( String typeName );1;0;3
+PNGChunk.getLength( );1;0;3
+PNGImage.parse_hIST_chunk( PNGChunk chunk );4;5;14
+PNGChunk.getInt1( int offset );1;1;3
+PNGImage.decodeImage( boolean useInterlacing );2;25;13
+PNGChunk.getByte( int offset );1;0;3
+PNGImage.parse_sRGB_chunk( PNGChunk chunk );4;12;31
+PNGImageDecoder.decodeAsRenderedImage( int page );2;1;6
+PNGImage.getChunkType( DataInputStream distream );2;10;17
+PNGImage.paethPredictor( int a , int b , int c );4;9;13
+PNGImage.initGammaLut( int bits );4;11;15
+PNGChunk.PNGChunk( int length , int type , byte [ ] data , int crc );1;10;11
+PNGChunk.getInt2( int offset );1;5;4
+PNGImage.parse_gAMA_chunk( PNGChunk chunk );5;7;14
+PNGImage.decodePass( WritableRaster imRas , int xOffset , int yOffset , int xStep , int yStep , int passWidth , int passHeight );14;21;68
+PNGImage.parse_bKGD_chunk( PNGChunk chunk );13;13;52
+PNGImage.decodePaethFilter( byte [ ] curr , byte [ ] prev , int count , int bpp );3;14;17
+PNGImage.createComponentColorModel( SampleModel sm );16;3;52
+PNGImage.createRaster( int width , int height , int bands , int scanlineStride , int bitDepth );4;7;29
+PNGImage.parse_tRNS_chunk( PNGChunk chunk );17;18;65
+PNGImage.PNGImage( InputStream stream , PNGDecodeParam decodeParam );30;8;115
+PNGImage.decodeSubFilter( byte [ ] curr , int count , int bpp );2;6;8
+PNGImage.parse_iCCP_chunk( PNGChunk chunk );2;3;8
+PNGImage.parse_cHRM_chunk( PNGChunk chunk );4;11;27
+PNGImage.readChunk( DataInputStream distream );2;0;13
+PNGImage.parse_tIME_chunk( PNGChunk chunk );3;2;19
+PNGChunk.getString4( int offset );1;3;7
+PNGImage.processPixels( int process , Raster src , WritableRaster dst , int xOffset , int step , int y , int width );42;53;209
+PNGImageDecoder.PNGImageDecoder( InputStream input , PNGDecodeParam param );1;0;3
+PNGImage.getTile( int tileX , int tileY );3;3;7
+PNGChunk.getData( );1;0;3
+PNGChunk.getTypeString( );1;0;3
+PNGImage.parse_IHDR_chunk( PNGChunk chunk );55;55;159
+PNGImage.initGrayLut( int bits );3;3;11
+PNGChunk.getInt4( int offset );1;13;6
+PNGImage.parse_pHYs_chunk( PNGChunk chunk );5;4;22
+PNGImage.decodeAverageFilter( byte [ ] curr , byte [ ] prev , int count , int bpp );3;15;14
+PNGChunk.getType( );1;0;3
+PNGImage.parse_sBIT_chunk( PNGChunk chunk );8;8;22

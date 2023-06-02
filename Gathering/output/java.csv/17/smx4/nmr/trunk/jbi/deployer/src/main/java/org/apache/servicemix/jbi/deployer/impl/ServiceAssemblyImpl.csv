@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServiceAssemblyImpl.getDescription( );1;0;3
+ServiceAssemblyImpl.getName( );1;0;3
+ServiceAssemblyImpl.ServiceAssemblyImpl( ServiceAssemblyDesc serviceAssemblyDesc , List < ServiceUnitImpl > serviceUnits , Preferences prefs , boolean autoStart );3;0;9
+ServiceAssemblyImpl.transition( State to );6;1;22
+ServiceAssemblyImpl.changeState( ServiceUnitImpl su , State state );5;0;16
+ServiceAssemblyImpl.shutDown( );1;0;3
+ServiceAssemblyImpl.getCurrentState( );5;0;13
+ServiceAssemblyImpl.shutDown( boolean persist );2;0;6
+ServiceAssemblyImpl.getServiceUnits( );1;0;3
+ServiceAssemblyImpl.saveState( );2;0;8
+ServiceAssemblyImpl.start( boolean persist );2;0;6
+ServiceAssemblyImpl.stop( boolean persist );2;0;6
+ServiceAssemblyImpl.init( );4;3;11
+ServiceAssemblyImpl.getState( );1;0;3
+ServiceAssemblyImpl.start( );1;0;3
+ServiceAssemblyImpl.stop( );1;0;3

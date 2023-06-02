@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultHandler.exportContent( ExportContext context , boolean isCollection );4;2;15
+DefaultHandler.isDefinedByFilteredNodeType( PropertyDefinition def );4;3;7
+DefaultHandler.getContentNode( ExportContext context , boolean isCollection );2;1;7
+DefaultHandler.canExport( ExportContext context , boolean isCollection );7;6;16
+DefaultHandler.DefaultHandler( IOManager ioManager , String collectionNodetype , String defaultNodetype , String contentNodetype );1;0;6
+DefaultHandler.getName( );1;0;3
+DefaultHandler.getNodeType( );1;0;3
+DefaultHandler.getContentNode( ImportContext context , boolean isCollection );10;3;34
+DefaultHandler.canExport( ExportContext context , DavResource resource );2;1;6
+DefaultHandler.importContent( ImportContext context , boolean isCollection );6;3;25
+DefaultHandler.getJcrName( DavPropertyName propName , Session session );2;2;11
+DefaultHandler.DefaultHandler( );1;0;2
+DefaultHandler.canExport( PropertyExportContext context , boolean isCollection );1;0;3
+DefaultHandler.getIOManager( );1;0;3
+DefaultHandler.setJcrProperty( DavProperty property , Node contentNode );3;1;15
+DefaultHandler.canImport( ImportContext context , DavResource resource );2;1;6
+DefaultHandler.setLastModified( Node contentNode , long hint );3;1;12
+DefaultHandler.canImport( PropertyImportContext context , boolean isCollection );7;6;12
+DefaultHandler.getDavName( String jcrName , Session session );1;0;8
+DefaultHandler.importContent( ImportContext context , DavResource resource );2;2;6
+DefaultHandler.DefaultHandler( IOManager ioManager );1;0;3
+DefaultHandler.getContentNodeType( );1;0;3
+DefaultHandler.exportData( ExportContext context , boolean isCollection , Node contentNode );2;0;6
+DefaultHandler.setIOManager( IOManager ioManager );1;0;3
+DefaultHandler.importProperties( ImportContext context , boolean isCollection , Node contentNode );5;2;16
+DefaultHandler.canImport( ImportContext context , boolean isCollection );5;6;7
+DefaultHandler.importData( ImportContext context , boolean isCollection , Node contentNode );3;1;14
+DefaultHandler.removeJcrProperty( DavPropertyName propertyName , Node contentNode );5;0;15
+DefaultHandler.exportProperties( ExportContext context , boolean isCollection , Node contentNode );12;7;40
+DefaultHandler.forceCompatibleContentNodes( );1;0;3
+DefaultHandler.exportContent( ExportContext context , DavResource resource );2;2;6
+DefaultHandler.exportProperties( PropertyExportContext exportContext , boolean isCollection );10;5;30
+DefaultHandler.importProperties( PropertyImportContext importContext , boolean isCollection );10;4;34
+DefaultHandler.getCollectionNodeType( );1;0;3

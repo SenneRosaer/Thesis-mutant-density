@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketHandshakeTests.unsolicitedPongWithEmptyPayload( WebSocketTestServer server , WebSocketClient webSocketClient , TestInfo testInfo );1;0;12
+TestWebSocketHandler.getTransportError( );1;0;3
+TestWebSocketHandler.handleMessage( WebSocketSession session , WebSocketMessage < ? > message );2;1;6
+TestWebSocketHandler.handleTransportError( WebSocketSession session , Throwable exception );1;0;4
+TestWebSocketHandler.setWaitMessageCount( int waitMessageCount );1;0;3
+TestConfig.handler( );1;0;3
+WebSocketHandshakeTests.subProtocolNegotiation( WebSocketTestServer server , WebSocketClient webSocketClient , TestInfo testInfo );1;0;9
+WebSocketHandshakeTests.getAnnotatedConfigClasses( );2;0;3
+TestWebSocketHandler.getReceivedMessages( );1;0;3
+TestWebSocketHandler.await( );1;0;3
+TestConfig.registerWebSocketHandlers( WebSocketHandlerRegistry registry );1;0;4

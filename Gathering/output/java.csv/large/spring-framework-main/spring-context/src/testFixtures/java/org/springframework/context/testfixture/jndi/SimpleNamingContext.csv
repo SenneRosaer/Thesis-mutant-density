@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NameClassPairEnumeration.createObject( String strippedName , Object obj );1;0;3
+AbstractNamingEnumeration.hasMore( );1;0;3
+SimpleNamingContext.getNameParser( String name );1;0;3
+SimpleNamingContext.list( Name name );1;0;3
+AbstractNamingEnumeration.AbstractNamingEnumeration( SimpleNamingContext context , String proot );9;9;26
+AbstractNamingEnumeration.close( );1;0;2
+SimpleNamingContext.listBindings( Name name );1;0;3
+SimpleNamingContext.removeFromEnvironment( String propName );1;0;3
+SimpleNamingContext.lookupLink( String name );1;0;3
+SimpleNamingContext.lookup( String lookupName );7;3;24
+SimpleNamingContext.composeName( Name name , Name prefix );1;0;3
+SimpleNamingContext.listBindings( String root );2;0;6
+SimpleNamingContext.lookupLink( Name name );1;0;3
+SimpleNamingContext.rebind( String name , Object obj );1;0;3
+SimpleNamingContext.destroySubcontext( String name );1;0;3
+SimpleNamingContext.getEnvironment( );1;0;3
+SimpleNamingContext.lookup( Name name );1;0;3
+BindingEnumeration.BindingEnumeration( SimpleNamingContext context , String root );1;0;3
+SimpleNamingContext.rename( Name oldName , Name newName );1;0;3
+SimpleNamingContext.destroySubcontext( Name name );1;0;3
+SimpleNamingContext.unbind( String name );2;1;6
+SimpleNamingContext.SimpleNamingContext( );1;0;3
+SimpleNamingContext.unbind( Name name );1;0;3
+NameClassPairEnumeration.NameClassPairEnumeration( SimpleNamingContext context , String root );1;0;3
+SimpleNamingContext.addToEnvironment( String propName , Object propVal );1;0;3
+SimpleNamingContext.bind( Name name , Object obj );1;0;3
+SimpleNamingContext.close( );1;0;2
+SimpleNamingContext.createSubcontext( Name name );1;0;3
+SimpleNamingContext.rebind( Name name , Object obj );1;0;3
+AbstractNamingEnumeration.hasMoreElements( );1;0;3
+SimpleNamingContext.list( String root );2;0;6
+SimpleNamingContext.SimpleNamingContext( String root );1;0;4
+SimpleNamingContext.bind( String name , Object obj );2;1;6
+SimpleNamingContext.createSubcontext( String name );2;3;9
+AbstractNamingEnumeration.nextElement( );1;0;3
+SimpleNamingContext.SimpleNamingContext( String root , Hashtable < String , Object > boundObjects , @ Nullable Hashtable < String , Object > env );2;1;7
+BindingEnumeration.createObject( String strippedName , Object obj );1;0;3
+SimpleNamingContext.rename( String oldName , String newName );1;0;5
+AbstractNamingEnumeration.next( );1;0;3
+SimpleNamingContext.composeName( String name , String prefix );1;1;3
+SimpleNamingContext.getNameParser( Name name );1;0;3
+SimpleNamingContext.getNameInNamespace( );1;0;3

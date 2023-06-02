@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EmailTask.setCcList( String list );2;0;6
+EmailTask.setUser( String user );1;0;3
+EmailTask.setSSL( boolean ssl );1;0;3
+EmailTask.setBccList( String list );2;0;6
+EmailTask.setIgnoreInvalidRecipients( boolean b );1;0;3
+EmailTask.addFileset( FileSet fs );1;0;3
+EmailTask.addReplyTo( EmailAddress address );1;0;3
+EmailTask.setCharset( String charset );1;0;3
+EmailTask.createHeader( );1;0;5
+EmailTask.addFrom( EmailAddress address );2;1;6
+EmailTask.setReplyTo( String address );1;0;3
+Encoding.getValues( );1;0;3
+EmailTask.addCc( EmailAddress address );1;0;3
+EmailTask.addBcc( EmailAddress address );1;0;3
+EmailTask.setMailport( int port );1;0;3
+EmailTask.setFiles( String filenames );2;0;7
+EmailTask.setMessageFile( File file );2;1;8
+EmailTask.addTo( EmailAddress address );1;0;3
+EmailTask.setMessage( String message );2;1;8
+EmailTask.setEncoding( Encoding encoding );1;0;3
+EmailTask.createAttachments( );2;1;6
+EmailTask.getCharset( );1;0;3
+EmailTask.setToList( String list );2;0;6
+EmailTask.setFrom( String address );2;1;6
+EmailTask.logBuildException( String reason , BuildException e );2;2;4
+EmailTask.setFailOnError( boolean failOnError );1;0;3
+EmailTask.setSubject( String subject );1;0;3
+EmailTask.setIncludefilenames( boolean includeFileNames );1;0;3
+EmailTask.execute( );40;33;126
+EmailTask.setMessageMimeType( String type );1;0;3
+EmailTask.setEnableStartTLS( boolean b );1;0;3
+EmailTask.addMessage( Message message );2;1;7
+EmailTask.setMailhost( String host );1;0;3
+EmailTask.getIncludeFileNames( );1;0;3
+EmailTask.setPassword( String password );1;0;3

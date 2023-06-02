@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TreeSiteManager.getRequiringResources( DocumentFactory map , SiteNode resource );3;3;13
+TreeSiteManager.add( String path , Document doc );1;0;3
+TreeSiteManager.set( String path , Document document );2;0;9
+TreeSiteManager.isVisibleInNav( Document document );2;0;7
+TreeSiteManager.requires( DocumentFactory map , SiteNode depending , SiteNode required );1;0;3
+TreeSiteManager.getRequiredResources( DocumentFactory map , DocumentLocator loc );2;1;10
+TreeSiteManager.setVisibleInNav( Document document , boolean visibleInNav );2;0;7
+TreeSiteManager.contains( Document doc );1;0;3
+TreeSiteManager.getDocuments( DocumentFactory factory , Publication pub , String area );4;4;18
+TreeSiteManager.copy( Document srcDoc , Document destDoc );9;8;43
+TreeSiteManager.containsInAnyLanguage( Document doc );1;0;3
+TreeSiteManager.getKey( Area area );1;1;3
+TreeSiteManager.getAvailableLocator( DocumentFactory factory , DocumentLocator locator );1;0;4
+TreeSiteManager.getSiteStructure( DocumentFactory map , Publication publication , String area );2;0;7
+TreeSiteManager.computeUniquePath( DocumentFactory factory , DocumentLocator locator );7;10;35
+TreeSiteManager.getTree( Area area );2;0;12

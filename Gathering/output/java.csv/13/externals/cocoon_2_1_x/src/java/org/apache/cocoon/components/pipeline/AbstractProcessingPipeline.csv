@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractProcessingPipeline.setupReader( Environment environment );3;0;10
+AbstractProcessingPipeline.recycle( );6;6;42
+AbstractProcessingPipeline.preparePipeline( Environment environment );4;2;14
+AbstractProcessingPipeline.addTransformer( String role , String source , Parameters param , Parameters hintParam );5;2;24
+AbstractProcessingPipeline.getKeyForEventPipeline( );1;0;3
+***not in a method***;0;1;0
+AbstractProcessingPipeline.release( );2;0;7
+AbstractProcessingPipeline.getGenerator( );1;0;3
+AbstractProcessingPipeline.process( Environment environment , XMLConsumer consumer );7;4;25
+AbstractProcessingPipeline.isInternalError( );1;1;3
+AbstractProcessingPipeline.processXMLPipeline( Environment environment );4;1;22
+AbstractProcessingPipeline.getLocation( Parameters param );3;1;10
+AbstractProcessingPipeline.setGenerator( String role , String source , Parameters param , Parameters hintParam );5;2;22
+AbstractProcessingPipeline.parameterize( Parameters params );2;1;8
+AbstractProcessingPipeline.setMimeTypeForReader( Environment environment );4;3;12
+AbstractProcessingPipeline.prepareInternalErrorHandler( Environment environment , ProcessingException ex );5;2;19
+AbstractProcessingPipeline.informBranchPoint( );1;0;2
+AbstractProcessingPipeline.setupPipeline( Environment environment );4;0;31
+AbstractProcessingPipeline.checkPipeline( );5;6;9
+AbstractProcessingPipeline.recompose( ComponentManager manager );1;0;3
+AbstractProcessingPipeline.compose( ComponentManager manager );1;0;4
+AbstractProcessingPipeline.setMimeTypeForSerializer( Environment environment );5;4;20
+AbstractProcessingPipeline.processReader( Environment environment );3;0;18
+AbstractProcessingPipeline.connectPipeline( Environment environment );2;0;10
+AbstractProcessingPipeline.prepareInternal( Environment environment );2;0;8
+AbstractProcessingPipeline.handleException( Exception e );11;16;27
+AbstractProcessingPipeline.process( Environment environment );7;7;27
+AbstractProcessingPipeline.processErrorHandler( Environment environment , ProcessingException e , XMLConsumer consumer );4;2;14
+AbstractProcessingPipeline.setReader( String role , String source , Parameters param , String mimeType );5;2;24
+AbstractProcessingPipeline.setSerializer( String role , String source , Parameters param , Parameters hintParam , String mimeType );6;3;29
+AbstractProcessingPipeline.setup( Parameters params );2;1;11
+AbstractProcessingPipeline.getValidityForEventPipeline( );1;0;3
+AbstractProcessingPipeline.parseExpires( String expire );15;26;55
+AbstractProcessingPipeline.connect( Environment environment , XMLProducer producer , XMLConsumer consumer );1;0;3
+AbstractProcessingPipeline.setErrorHandler( SitemapErrorHandler errorHandler );1;0;3
+AbstractProcessingPipeline.checkIfModified( Environment environment , long lastModified );2;1;7

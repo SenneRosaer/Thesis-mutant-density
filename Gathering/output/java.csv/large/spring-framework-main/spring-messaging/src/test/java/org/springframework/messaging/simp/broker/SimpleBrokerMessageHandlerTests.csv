@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleBrokerMessageHandlerTests.connect( );2;0;10
+SimpleBrokerMessageHandlerTests.createConnectMessage( String sessionId , Principal user , long [ ] heartbeat );1;0;7
+SimpleBrokerMessageHandlerTests.readInactivity( );2;0;24
+SimpleBrokerMessageHandlerTests.subscribePublish( );1;0;19
+SimpleBrokerMessageHandlerTests.heartbeatValueWithAndWithoutTaskScheduler( );1;0;6
+SimpleBrokerMessageHandlerTests.readWriteIntervalCalculation( );2;0;19
+SimpleBrokerMessageHandlerTests.writeInactivity( );2;0;24
+SimpleBrokerMessageHandlerTests.setup( );1;0;4
+SimpleBrokerMessageHandlerTests.startWithHeartbeatValueWithoutTaskScheduler( );1;0;5
+SimpleBrokerMessageHandlerTests.messageCaptured( String sessionId , String subscriptionId , String destination );6;0;13
+SimpleBrokerMessageHandlerTests.startWithOneZeroHeartbeatValue( );1;0;6
+SimpleBrokerMessageHandlerTests.subscribeDisconnectPublish( );2;0;28
+SimpleBrokerMessageHandlerTests.createSubscriptionMessage( String sessionId , String subscriptionId , String destination );1;0;7
+SimpleBrokerMessageHandlerTests.startSession( String id );1;0;9
+SimpleBrokerMessageHandlerTests.startAndStopWithHeartbeatValue( );1;0;12
+SimpleBrokerMessageHandlerTests.createMessage( String destination , String payload );1;0;5

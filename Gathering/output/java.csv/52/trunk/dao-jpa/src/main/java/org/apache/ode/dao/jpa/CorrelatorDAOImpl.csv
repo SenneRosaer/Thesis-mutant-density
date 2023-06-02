@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CorrelatorDAOImpl.dequeueMessage( CorrelationKey correlationKey );3;0;11
+CorrelatorDAOImpl.CorrelatorDAOImpl( );1;0;1
+CorrelatorDAOImpl.enqueueMessage( MessageExchangeDAO mex , CorrelationKey [ ] correlationKeys );2;0;8
+CorrelatorDAOImpl.CorrelatorDAOImpl( String correlatorKey , ProcessDAOImpl process );1;0;4
+CorrelatorDAOImpl.getCorrelatorId( );1;0;3
+CorrelatorDAOImpl.removeRoutes( String routeGroupId , ProcessInstanceDAO target );1;0;3
+CorrelatorDAOImpl.removeLocalRoutes( String routeGroupId , ProcessInstanceDAO target );4;1;9
+CorrelatorDAOImpl.addRoute( String routeGroupId , ProcessInstanceDAO target , int index , CorrelationKey correlationKey );1;0;5
+CorrelatorDAOImpl.findRoute( CorrelationKey correlationKey );2;1;9

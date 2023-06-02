@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParticleArray.pushContext( );2;4;10
+XSDAbstractParticleTraverser.traverseAll( Element allDecl , XSDocumentInfo schemaDoc , SchemaGrammar grammar , int allContextFlags , XSObject parent );8;6;60
+ParticleArray.getParticleCount( );1;2;3
+ParticleArray.addParticle( XSParticleDecl particle );2;3;9
+ParticleArray.popContext( );3;8;12
+XSDAbstractParticleTraverser.hasAllContent( XSParticleDecl particle );3;4;6
+XSDAbstractParticleTraverser.traverseSeqChoice( Element decl , XSDocumentInfo schemaDoc , SchemaGrammar grammar , int allContextFlags , boolean choice , XSObject parent );16;6;82
+XSDAbstractParticleTraverser.traverseSequence( Element seqDecl , XSDocumentInfo schemaDoc , SchemaGrammar grammar , int allContextFlags , XSObject parent );1;0;3
+XSDAbstractParticleTraverser.traverseChoice( Element choiceDecl , XSDocumentInfo schemaDoc , SchemaGrammar grammar , int allContextFlags , XSObject parent );1;0;3
+XSDAbstractParticleTraverser.XSDAbstractParticleTraverser( XSDHandler handler , XSAttributeChecker gAttrCheck );1;0;3

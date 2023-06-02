@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractComponentContext.getEndpoints( QName interfaceName );1;0;5
+SimpleServiceEndpoint.getServiceName( );1;0;3
+AbstractComponentContext.getNamingContext( );2;1;6
+SimpleServiceEndpoint.getProperties( );1;0;3
+AbstractComponentContext.resolveStandardEPR( DocumentFragment epr );10;6;43
+AbstractComponentContext.getLogger( String suffix , String resourceBundleName );3;2;8
+AbstractComponentContext.internalQueryEndpoints( Map < String , Object > props );5;3;13
+AbstractComponentContext.getExternalEndpoints( QName interfaceName );1;0;3
+SimpleServiceEndpoint.getInterfaces( );2;1;4
+AbstractComponentContext.getTransactionManager( );2;1;6
+AbstractComponentContext.getEndpointDescriptor( ServiceEndpoint endpoint );7;2;21
+AbstractComponentContext.createCustomComponentMBeanName( String customName );2;1;6
+AbstractComponentContext.getJmxDomainName( );2;1;6
+AbstractComponentContext.resolveInternalEPR( DocumentFragment epr );8;10;24
+AbstractComponentContext.getEndpoint( QName serviceName , String endpointName );3;0;11
+AbstractComponentContext.getEndpointsForService( QName serviceName );1;0;5
+SimpleServiceEndpoint.SimpleServiceEndpoint( Map < String , ? > properties );1;0;3
+AbstractComponentContext.getMBeanNames( );1;0;3
+SimpleServiceEndpoint.getAsReference( QName operationName );2;3;15
+AbstractComponentContext.AbstractComponentContext( ComponentRegistryImpl componentRegistry );1;0;3
+SimpleServiceEndpoint.getEndpointName( );1;0;3
+AbstractComponentContext.getMBeanServer( );2;1;6
+AbstractComponentContext.getNmr( );1;0;3
+AbstractComponentContext.getDeliveryChannel( );1;0;3
+SimpleServiceEndpoint.SimpleServiceEndpoint( Map < String , ? > properties , EndpointImpl endpoint );1;0;4
+SimpleServiceEndpoint.getEndpoint( );1;0;3
+AbstractComponentContext.resolveEndpointReference( DocumentFragment epr );4;2;13
+AbstractComponentContext.getExternalEndpointsForService( QName serviceName );1;0;3

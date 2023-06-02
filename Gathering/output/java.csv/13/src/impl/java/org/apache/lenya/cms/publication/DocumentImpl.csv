@@ -1,0 +1,57 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocumentImpl.delete( );3;0;11
+DocumentImpl.getCanonicalWebappURL( );1;0;3
+DocumentImpl.area( );2;0;7
+DocumentImpl.getLanguages( );4;2;13
+DocumentImpl.setMimeType( String mimeType );2;0;8
+DocumentImpl.getRepositoryNode( );2;1;6
+DocumentImpl.getSession( );1;0;3
+***not in a method***;0;1;0
+DocumentImpl.existsVersion( String area , String language );2;0;8
+DocumentImpl.accept( DocumentVisitor visitor );1;0;3
+DocumentImpl.getVersion( String area , String language );2;0;7
+DocumentImpl.getInputStream( );2;0;7
+DocumentImpl.getSourceURI( Publication pub , String area , String uuid , String language );1;2;4
+DocumentImpl.getIdentifier( );1;0;3
+DocumentImpl.getFactory( );1;0;3
+DocumentImpl.getSourceExtension( );3;1;15
+DocumentImpl.getContentLength( );2;0;7
+DocumentImpl.setExtension( String _extension );1;2;6
+DocumentImpl.exists( );2;0;7
+DocumentImpl.getLastModified( );2;0;7
+DocumentImpl.getExpires( );4;6;25
+DocumentImpl.getResourceType( );4;2;17
+DocumentImpl.checkWritability( );2;0;5
+DocumentImpl.getCanonicalDocumentURL( );2;0;10
+DocumentImpl.getFile( );1;0;4
+DocumentImpl.getExtension( );4;2;12
+DocumentImpl.getOutputStream( );2;0;8
+DocumentImpl.getLanguage( );1;0;3
+DocumentImpl.getName( );2;0;7
+DocumentImpl.getLocator( );3;1;13
+DocumentImpl.isRevisionSpecified( );1;2;3
+DocumentImpl.setSourceExtension( String extension );2;1;11
+DocumentImpl.getArea( );1;0;3
+DocumentImpl.getTranslation( String language );2;0;7
+DocumentImpl.getLink( );3;0;13
+DocumentImpl.getRepositoryNode( ServiceManager manager , DocumentFactory docFactory , String sourceUri );3;1;14
+DocumentImpl.getSourceURI( );1;0;3
+DocumentImpl.getMimeType( );3;1;11
+DocumentImpl.DocumentImpl( ServiceManager manager , DocumentFactory map , DocumentIdentifier identifier , int revision , Logger _logger );4;1;20
+DocumentImpl.equals( Object object );2;0;7
+DocumentImpl.getRevisionNumber( );2;1;7
+DocumentImpl.existsTranslation( String language );1;0;3
+DocumentImpl.getMetaDataCache( );3;1;10
+DocumentImpl.existsInAnyLanguage( );6;2;23
+DocumentImpl.hasLink( );1;0;3
+DocumentImpl.getMetaData( String namespaceUri );2;3;11
+DocumentImpl.existsAreaVersion( String area );2;0;8
+DocumentImpl.toString( );1;0;3
+DocumentImpl.getUUID( );1;0;3
+DocumentImpl.getMetaDataNamespaceUris( );1;0;3
+DocumentImpl.getAreaVersion( String area );2;0;7
+DocumentImpl.setResourceType( ResourceType resourceType );2;0;10
+DocumentImpl.getContentHolder( );3;0;12
+DocumentImpl.getPath( );1;0;3
+DocumentImpl.getPublication( );3;1;10
+DocumentImpl.hashCode( );1;4;5

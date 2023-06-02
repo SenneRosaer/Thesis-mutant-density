@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CocoonPortlet.getLogger( );1;0;3
+CocoonPortlet.destroy( );2;1;8
+PortletBootstrapEnvironment.configure( DefaultContext context );1;0;3
+CocoonPortlet.getEnvironment( String servletPath , String pathInfo , String uri , RenderRequest req , RenderResponse res );2;1;19
+CocoonPortlet.getEnvironment( String servletPath , String pathInfo , String uri , ActionRequest req , ActionResponse res );2;1;19
+CocoonPortlet.render( RenderRequest req , RenderResponse res );29;12;117
+CocoonPortlet.init( PortletConfig conf );5;0;35
+CocoonPortlet.getInitParameter( String name );3;2;10
+***not in a method***;0;2;0
+PortletBootstrapEnvironment.PortletBootstrapEnvironment( PortletConfig config );1;0;3
+CocoonPortlet.manageException( RenderRequest req , RenderResponse res , Environment env , String uri , String title , String message , String description , Exception e );6;4;34
+CocoonPortlet.getPathInfo( PortletRequest request );6;4;19
+CocoonPortlet.processAction( ActionRequest req , ActionResponse res );26;8;113
+CocoonPortlet.getInitParameter( String name , String defaultValue );4;4;10
+CocoonPortlet.processTime( long time );4;6;17
+PortletBootstrapEnvironment.configure( MutableSettings settings );2;1;7
+CocoonPortlet.manageException( ActionRequest req , ActionResponse res , Environment env , String uri , String title , String message , String description , Exception e );1;0;3

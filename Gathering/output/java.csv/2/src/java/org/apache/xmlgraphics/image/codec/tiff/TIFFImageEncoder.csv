@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TIFFImageEncoder.writeLong( long l );1;7;6
+***not in a method***;0;1;0
+TIFFImageEncoder.writeFileHeader( );1;0;7
+TIFFImageEncoder.encodeMultiple( Object context , RenderedImage img );3;2;16
+TIFFImageEncoder.writeValues( TIFFField field );22;20;67
+TIFFImageEncoder.writeDirectory( int thisIFDOffset , SortedSet fields , int nextIFDOffset );5;9;28
+TIFFImageEncoder.encode( RenderedImage im );6;2;28
+TIFFImageEncoder.getOffset( OutputStream out );3;0;9
+TIFFImageEncoder.TIFFImageEncoder( OutputStream output , ImageEncodeParam param );2;1;6
+TIFFImageEncoder.packBits( byte [ ] input , int inOffset , int inCount , byte [ ] output , int outOffset );15;45;42
+TIFFImageEncoder.deflate( Deflater deflater , byte [ ] inflated , byte [ ] deflated );1;0;7
+TIFFImageEncoder.getValueSize( TIFFField field );4;8;17
+TIFFImageEncoder.writeValuesAsFourBytes( TIFFField field );11;14;28
+TIFFImageEncoder.encode( RenderedImage im , TIFFEncodeParam encodeParam , int ifdOffset , boolean isLast );218;426;906
+TIFFImageEncoder.getDirectorySize( SortedSet fields );3;6;13
+TIFFImageEncoder.modifyEncodeParam( JPEGEncodeParam src , JPEGEncodeParam dst , int nbands );3;3;11
+TIFFImageEncoder.compressPackBits( byte [ ] data , int numRows , int bytesPerRow , byte [ ] compData );2;3;10
+TIFFImageEncoder.finishMultiple( Object context );2;1;8
+TIFFImageEncoder.writeUnsignedShort( int s );1;3;4

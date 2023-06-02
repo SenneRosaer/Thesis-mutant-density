@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LdapApplicationPolicy.removePermission( String permName );1;0;6
+LdapApplicationPolicy.parseBoolean( String bool );2;0;7
+LdapApplicationPolicy.getRole( Attributes attrs );5;4;29
+LdapApplicationPolicy.removePolicyListener( PolicyChangeListener listener );1;0;3
+LdapApplicationPolicy.getRoles( );1;0;3
+LdapApplicationPolicy.getUserProfileIds( String userName );4;1;30
+JndiListener.logEvent( NamingEvent evt , Attributes entry );4;2;26
+LdapApplicationPolicy.getPermissions( );1;0;3
+LdapApplicationPolicy.getDependentProfileNames( Role role );4;1;31
+JndiListener.objectRenamed( NamingEvent evt );10;8;63
+LdapApplicationPolicy.close( );3;1;15
+LdapApplicationPolicy.add( Role role );1;0;4
+LdapApplicationPolicy.addPolicyListener( PolicyChangeListener listener );2;0;8
+LdapApplicationPolicy.getPermission( Attributes attrs );2;1;14
+LdapApplicationPolicy.LdapApplicationPolicy( DirContext ctx , Properties info );5;4;35
+LdapApplicationPolicy.getDescription( );1;0;3
+LdapApplicationPolicy.removeRole( String roleName );1;0;6
+LdapApplicationPolicy.loadRoles( );3;0;27
+LdapApplicationPolicy.getProfileIdIterator( );2;0;16
+LdapApplicationPolicy.initializeNotifications( );2;0;16
+LdapApplicationPolicy.getRdn( String name );3;4;12
+LdapApplicationPolicy.getRdnValue( String rdn );1;1;4
+LdapApplicationPolicy.loadPermissions( );3;0;28
+LdapApplicationPolicy.hasObjectClass( Attribute oc , String value );5;2;20
+JndiListener.objectChanged( NamingEvent evt );17;8;124
+LdapApplicationPolicy.getProfile( String profileId );9;2;56
+JndiListener.namingExceptionThrown( NamingExceptionEvent evt );2;0;12
+LdapApplicationPolicy.getApplicationName( );1;0;3
+JndiListener.objectRemoved( NamingEvent evt );10;8;63
+LdapApplicationPolicy.getApplicationName( String principalDN );2;1;10
+LdapApplicationPolicy.getAdminProfile( );1;0;3
+LdapApplicationPolicy.getProfile( Attributes attrs );12;9;94
+LdapApplicationPolicy.getRoleFromStore( String roleName );3;0;28
+JndiListener.objectAdded( NamingEvent evt );10;8;62
+LdapApplicationPolicy.add( Permission permission );1;0;4
+LdapApplicationPolicy.getDependentProfileNames( Permission permission );4;1;33

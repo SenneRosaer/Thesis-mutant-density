@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CustomerQuery.findCustomers( Integer id );1;0;5
+SqlQueryTests.testUnnamedParameterDeclarationWithNamedParameterQuery( );1;0;25
+SqlQueryTests.testNamedParameterQueryReusingParameter( );1;0;40
+CustomerQuery.testNamedParameterInListQuery( );1;0;6
+CustomerQuery.testListCustomersIntInt( );1;0;6
+SqlQueryTests.testUpdateCustomers( );3;0;32
+CustomerQuery.testNamedParameterQueryReusingParameter( );1;0;6
+CustomerQuery.testUnnamedParameterDeclarationWithNamedParameterQuery( );1;0;6
+CustomerQuery.testFindCustomerMixed( );1;0;6
+CustomerQuery.findCustomers( List < Integer > ids );1;0;5
+SqlQueryTests.testFindCustomerMixed( );1;3;44
+CustomerQuery.testFindCustomerString( );1;0;5
+SqlQueryTests.mapRow( ResultSet rs , int rownum );1;0;3
+SqlQueryTests.testNamedParameterCustomerQueryWithNamedDeclarations( );1;0;3
+SqlQueryTests.testListCustomersIntInt( );1;1;31
+SqlQueryTests.testQueryWithoutParams( );3;0;21
+SqlQueryTests.testQueryWithoutEnoughParams( );1;0;15
+SqlQueryTests.testFindTooManyCustomers( );1;0;30
+CustomerUpdateQuery.testUpdateCustomers( );1;0;5
+CustomerQuery.testListCustomersString( );1;0;5
+CustomerQuery.testFindCustomerIntInt( );1;0;6
+CustomerQuery.testFindTooManyCustomers( );1;0;5
+CustomerQuery.findCustomer( int id , String country );1;0;6
+SqlQueryTests.testNamedParameterUsingInvalidQuestionMarkPlaceHolders( );1;0;28
+StringQuery.StringQuery( DataSource ds , String sql );1;0;4
+CustomerUpdateQuery.updateRow( ResultSet rs , int rownum , @ Nullable Map < ? , ? > context );1;0;4
+CustomerQuery.findCustomer( String id );1;0;3
+CustomerQuery.findCustomer( int id , int otherNum );1;0;3
+CustomerQuery.mapRow( ResultSet rs , int rownum );1;0;6
+StringQuery.mapRow( ResultSet rs , int rownum );1;0;3
+SqlQueryTests.testFindCustomerString( );1;1;31
+CustomerQuery.testFancyCustomerQuery( );1;0;6
+SqlQueryTests.testFancyCustomerQuery( );1;1;34
+SqlQueryTests.testNamedParameterInListQuery( );1;0;43
+SqlQueryTests.testNamedParameterCustomerQueryWithUnnamedDeclarations( );1;0;3
+CustomerQuery.findCustomer( int id );1;0;3
+SqlQueryTests.mapRow( ResultSet rs , int rownum , @ Nullable Object [ ] params , @ Nullable Map < ? , ? > context );1;2;5
+SqlQueryTests.doTestNamedParameterCustomerQuery( final boolean namedDeclarations );2;1;45
+StringQuery.run( );1;0;3
+CustomerQuery.findCustomer( int id , String name );1;0;3
+SqlQueryTests.testListCustomersString( );1;1;29
+SqlQueryTests.testQueryWithMissingMapParams( );1;0;15
+SqlQueryTests.testStringQueryWithoutResults( );1;0;10
+CustomerQuery.testNamedParameterUsingInvalidQuestionMarkPlaceHolders( );1;0;6
+SqlQueryTests.setUp( );1;0;5
+CustomerQuery.doTestNamedParameterCustomerQuery( final boolean namedDeclarations );2;0;13
+CustomerQuery.findCustomers( Integer id1 );1;0;5
+SqlQueryTests.testFindCustomerIntInt( );1;1;33
+SqlQueryTests.testStringQueryWithResults( );1;0;13

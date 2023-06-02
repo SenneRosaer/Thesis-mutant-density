@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMidiGenerator.getKey( );1;0;3
+XMidiGenerator.parameterize( Parameters parameters );1;0;5
+XMidiGenerator.initializeLookupTables( );1;60;370
+XMidiGenerator.initializeVariables( );1;0;4
+XMidiGenerator.parseMIDI( Source source );8;6;80
+XMidiGenerator.doTrack( byte [ ] dta , int len );49;88;328
+XMidiGenerator.setup( SourceResolver resolver , Map objectModel , String src , Parameters par );2;0;14
+XMidiGenerator.getValidity( );1;0;3
+XMidiGenerator.recycle( );2;1;8
+XMidiGenerator.validateVerbosity( String verbose );3;0;8
+XMidiGenerator.generate( );3;0;11
+XMidiGenerator.doHexData( byte [ ] dta , int len );3;11;20

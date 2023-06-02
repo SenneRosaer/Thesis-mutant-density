@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageInputStream.reset( );3;3;6
+MessageInputStream.mark( int readLimit );1;0;3
+MessageInputStream.throwException( );3;1;18
+MessageInputStream.read( byte [ ] b );3;3;6
+MessageInputStream.closeOutputStreams( OutputStream headerStream , OutputStream bodyStream );4;4;11
+MessageInputStream.getSize( );1;0;3
+MessageInputStream.MessageInputStream( Mail mc , StreamRepository srep , int sizeLimit );5;3;33
+MessageInputStream.read( byte [ ] b , int off , int len );3;3;6
+MessageInputStream.skip( long n );3;3;6
+MessageInputStream.read( );3;3;6
+MessageInputStream.close( );3;3;7
+MessageInputStream.getCause( );1;0;3
+MessageInputStream.setParam( Mail mc , PipedOutputStream headerOut );1;0;5
+MessageInputStream.run( );3;0;9
+***not in a method***;0;1;0
+MessageInputStream.markSupported( );1;0;3
+MessageInputStream.available( );3;3;6
+MessageInputStream.writeStream( Mail mail , OutputStream out );2;1;15

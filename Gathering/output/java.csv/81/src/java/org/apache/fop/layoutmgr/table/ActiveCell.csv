@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ActiveCell.getFirstStep( );1;1;4
+FillerBox.FillerBox( int length );1;0;3
+ActiveCell.endRow( int rowIndex );2;5;12
+FillerPenalty.FillerPenalty( int length );1;0;4
+ActiveCell.toString( );1;2;3
+ActiveCell.getPenaltyValue( );2;0;7
+ActiveCell.getPrimaryGridUnit( );1;0;3
+Step.set( Step other );1;0;11
+ActiveCell.ActiveCell( PrimaryGridUnit pgu , EffRow row , int rowIndex , int previousRowsLength , TableLayoutManager tableLM );2;11;33
+ActiveCell.signalRowFirstStep( int firstStep );2;1;6
+Step.Step( Step other );1;0;3
+ActiveCell.gotoNextLegalBreak( );12;13;49
+ActiveCell.signalRowLastStep( int lastStep );2;1;6
+ActiveCell.getKeepWithNextStrength( );1;0;3
+ActiveCell.includedInLastStep( );1;1;3
+ActiveCell.getLastStep( );2;9;8
+ActiveCell.finishes( int step );2;4;3
+ActiveCell.endsOnRow( int rowIndex );1;1;3
+ActiveCell.getNextStep( );4;6;17
+Step.toString( );1;0;3
+Step.Step( int contentLength );1;1;4
+ActiveCell.handleExplicitHeight( MinOptMax cellBPD , MinOptMax rowBPD );9;12;31
+FillerPenalty.FillerPenalty( KnuthPenalty p , int length );1;0;5
+ActiveCell.getRemainingLength( );3;5;7
+ActiveCell.increaseCurrentStep( int limit );5;7;11
+ActiveCell.createCellPart( );5;9;23
+ActiveCell.nextRowStarts( );1;6;9
+ActiveCell.signalNextStep( int minStep );2;3;9
+ActiveCell.getElementContentLength( KnuthElement el );3;0;9
+ActiveCell.addFootnotes( List footnoteList );3;2;5

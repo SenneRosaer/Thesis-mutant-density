@@ -1,0 +1,47 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BeanMap.toString( );1;0;3
+BeanMap.BeanMap( Object bean );1;0;4
+BeanMap.values( );1;0;3
+Entry.Entry( BeanMap owner , Object key , Object value );1;0;4
+BeanMap.containsValue( Object value );1;0;3
+BeanMap.logInfo( Exception ex );1;0;3
+BeanMap.get( Object name );7;2;23
+BeanMap.getWriteMethod( String name );1;0;3
+BeanMap.keySet( );1;0;3
+BeanMap.initialise( );8;7;31
+BeanMap.hasNext( );1;0;3
+BeanMap.iterator( );1;0;3
+BeanMap.getBean( );1;0;3
+BeanMap.get( Object key );1;0;3
+BeanMap.transform( Object input );1;0;3
+BeanMap.getType( String name );1;0;3
+BeanMap.reinitialise( );1;0;6
+BeanMap.put( Object key , Object value );1;0;3
+BeanMap.getTypeTransformer( Class aType );1;0;3
+BeanMap.clear( );1;1;3
+BeanMap.firePropertyChange( Object key , Object oldValue , Object newValue );1;0;2
+BeanMap.remove( );1;0;3
+BeanMap.createWriteMethodArguments( Method method , Object value );7;5;23
+BeanMap.containsKey( Object key );1;0;3
+BeanMap.getReadMethod( Object name );1;0;3
+BeanMap.convertType( Class newType , Object value );3;1;15
+BeanMap.remove( Object key );1;0;3
+BeanMap.getWriteMethod( Object name );1;0;3
+BeanMap.size( );1;0;3
+BeanMap.put( Object name , Object value );5;2;26
+Entry.setValue( Object value );1;0;8
+BeanMap.putAllWriteable( BeanMap map );3;1;9
+BeanMap.entrySet( );1;0;3
+BeanMap.containsKey( Object name );1;1;4
+BeanMap.BeanMap( );1;0;2
+BeanMap.setBean( Object newBean );1;0;4
+BeanMap.entryIterator( );1;0;16
+BeanMap.putAll( Map m );1;0;3
+BeanMap.logWarn( Exception ex );1;0;4
+BeanMap.createTypeTransformers( );1;0;68
+BeanMap.isEmpty( );1;0;3
+BeanMap.keyIterator( );1;0;3
+BeanMap.valueIterator( );1;0;15
+BeanMap.clone( );7;2;37
+BeanMap.next( );1;0;4
+BeanMap.getReadMethod( String name );1;0;3

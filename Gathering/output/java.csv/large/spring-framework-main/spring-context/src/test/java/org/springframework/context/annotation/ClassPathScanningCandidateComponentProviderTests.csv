@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClassPathScanningCandidateComponentProviderTests.testDefault( ClassPathScanningCandidateComponentProvider provider , boolean includeScannedJakartaComponents , boolean includeIndexedJakartaComponents );1;0;3
+ClassPathScanningCandidateComponentProviderTests.withInterfaceType( );1;0;6
+ClassPathScanningCandidateComponentProviderTests.bogusPackageWithIndex( );1;0;6
+ClassPathScanningCandidateComponentProviderTests.customSupportIncludeFilterWithNonIndexedTypeUseScan( );1;0;8
+ClassPathScanningCandidateComponentProviderTests.defaultsWithIndex( );1;0;5
+ClassPathScanningCandidateComponentProviderTests.testCustomAnnotationTypeIncludeFilter( ClassPathScanningCandidateComponentProvider provider );1;0;4
+ClassPathScanningCandidateComponentProviderTests.customAssignableTypeIncludeFilterWithIndex( );1;0;5
+ClassPathScanningCandidateComponentProviderTests.integrationWithAnnotationConfigApplicationContext_defaultProfile( );1;0;8
+ClassPathScanningCandidateComponentProviderTests.withActiveProfile( );1;0;8
+ClassPathScanningCandidateComponentProviderTests.integrationWithAnnotationConfigApplicationContext_metaProfile( );2;0;30
+ClassPathScanningCandidateComponentProviderTests.withNullEnvironment( );1;0;5
+ClassPathScanningCandidateComponentProviderTests.testDefault( ClassPathScanningCandidateComponentProvider provider , String basePackage , boolean includeScannedJakartaComponents , boolean includeIndexedJakartaComponents );4;0;12
+ClassPathScanningCandidateComponentProviderTests.withAspectAnnotationOnly( );1;0;6
+ClassPathScanningCandidateComponentProviderTests.testAntStyle( ClassPathScanningCandidateComponentProvider provider );1;0;5
+ClassPathScanningCandidateComponentProviderTests.integrationWithAnnotationConfigApplicationContext_validMetaAnnotatedProfile( );1;0;8
+ClassPathScanningCandidateComponentProviderTests.assertScannedBeanDefinitions( Set < BeanDefinition > candidates );1;0;3
+ClassPathScanningCandidateComponentProviderTests.assertBeanTypes( Set < BeanDefinition > candidates , Class < ? > ... expectedTypes );1;0;3
+ClassPathScanningCandidateComponentProviderTests.testCustomAssignableTypeIncludeFilter( ClassPathScanningCandidateComponentProvider provider );1;0;6
+ClassPathScanningCandidateComponentProviderTests.defaultsWithScan( );1;0;6
+ClassPathScanningCandidateComponentProviderTests.integrationWithAnnotationConfigApplicationContext_invalidMetaAnnotatedProfile( );1;0;8
+ClassPathScanningCandidateComponentProviderTests.customAssignableTypeIncludeFilterWithScan( );1;0;6
+ClassPathScanningCandidateComponentProviderTests.testExclude( ClassPathScanningCandidateComponentProvider provider );1;0;6
+ClassPathScanningCandidateComponentProviderTests.withInactiveProfile( );1;0;8
+ClassPathScanningCandidateComponentProviderTests.customSupportedIncludeAndExcludeFilterWithIndex( );1;0;5
+ClassPathScanningCandidateComponentProviderTests.excludeFilterWithIndex( );1;0;6
+ClassPathScanningCandidateComponentProviderTests.bogusPackageWithScan( );1;0;7
+ClassPathScanningCandidateComponentProviderTests.integrationWithAnnotationConfigApplicationContext_validProfile( );1;0;8
+ClassPathScanningCandidateComponentProviderTests.antStylePackageWithScan( );1;0;6
+ClassPathScanningCandidateComponentProviderTests.customSupportedIncludeAndExcludedFilterWithScan( );1;0;6
+ClassPathScanningCandidateComponentProviderTests.withMultipleMatchingFilters( );1;0;8
+ClassPathScanningCandidateComponentProviderTests.customFiltersFollowedByResetUseIndex( );1;0;8
+ClassPathScanningCandidateComponentProviderTests.antStylePackageWithIndex( );1;0;5
+ClassPathScanningCandidateComponentProviderTests.excludeTakesPrecedence( );1;0;9
+ClassPathScanningCandidateComponentProviderTests.customAnnotationTypeIncludeFilterWithScan( );1;0;6
+ClassPathScanningCandidateComponentProviderTests.withNoFilters( );1;0;5
+ClassPathScanningCandidateComponentProviderTests.assertBeanTypes( Set < BeanDefinition > candidates , Stream < Class < ? > > expectedTypes );1;0;5
+ClassPathScanningCandidateComponentProviderTests.componentScanningFindsComponentsAnnotatedWithAnnotationsContainingNestedAnnotations( );1;0;6
+ClassPathScanningCandidateComponentProviderTests.customNotSupportedIncludeFilterUseScan( );1;0;8
+ClassPathScanningCandidateComponentProviderTests.assertBeanTypes( Set < BeanDefinition > candidates , Collection < Class < ? > > expectedTypes );1;0;3
+ClassPathScanningCandidateComponentProviderTests.integrationWithAnnotationConfigApplicationContext_invalidProfile( );1;0;8
+ClassPathScanningCandidateComponentProviderTests.withComponentAnnotationOnly( );1;0;9
+ClassPathScanningCandidateComponentProviderTests.testCustomSupportedIncludeAndExcludeFilter( ClassPathScanningCandidateComponentProvider provider );1;0;8
+ClassPathScanningCandidateComponentProviderTests.integrationWithAnnotationConfigApplicationContext_noProfile( );1;0;7
+ClassPathScanningCandidateComponentProviderTests.excludeFilterWithScan( );1;0;7
+ClassPathScanningCandidateComponentProviderTests.integrationWithAnnotationConfigApplicationContext_defaultAndDevProfile( );2;0;30
+ClassPathScanningCandidateComponentProviderTests.withClassType( );1;0;6
+ClassPathScanningCandidateComponentProviderTests.customAnnotationTypeIncludeFilterWithIndex( );1;0;5

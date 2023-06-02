@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RepositoryConfigurationParser.RepositoryConfigurationParser( Properties variables );1;0;3
+RepositoryConfigurationParser.getFileSystem( );3;0;14
+RepositoryConfigurationParser.createSubParser( Properties variables );1;0;5
+RepositoryConfigurationParser.parseAccessManagerConfig( Element security );2;1;8
+RepositoryConfigurationParser.getDataStore( );4;4;15
+RepositoryConfigurationParser.getFileSystemFactory( Element parent , String name );3;0;19
+RepositoryConfigurationParser.parseISMLockingConfig( Element parent );4;4;14
+RepositoryConfigurationParser.parseLoginModuleConfig( Element security );2;1;8
+RepositoryConfigurationParser.getDataStoreFactory( final Element parent , final String directory );4;0;19
+RepositoryConfigurationParser.parsePersistenceManagerConfig( Element parent );1;0;4
+RepositoryConfigurationParser.parseSecurityManagerConfig( Element security );3;2;15
+RepositoryConfigurationParser.parseClusterConfig( Element parent );5;5;20
+RepositoryConfigurationParser.parseSecurityConfig( Element security );1;0;7
+RepositoryConfigurationParser.parseRepositoryConfig( InputSource xml );1;0;24
+RepositoryConfigurationParser.parseVersioningConfig( Element parent );1;0;10
+RepositoryConfigurationParser.parseSearchConfig( Element parent );5;5;19
+RepositoryConfigurationParser.parseJournalConfig( Element cluster );1;0;4
+RepositoryConfigurationParser.parseWorkspaceSecurityConfig( Element parent );3;2;11
+RepositoryConfigurationParser.parseWorkspaceConfig( InputSource xml );1;0;18

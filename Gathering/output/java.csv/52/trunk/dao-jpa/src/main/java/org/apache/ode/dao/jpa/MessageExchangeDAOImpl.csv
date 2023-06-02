@@ -1,0 +1,62 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageExchangeDAOImpl.setCorrelator( CorrelatorDAOImpl correlator );1;0;3
+MessageExchangeDAOImpl.setPartnerLinkModelId( int modelId );1;0;3
+MessageExchangeDAOImpl.getAckType( );2;1;3
+MessageExchangeDAOImpl.getEPR( );5;5;10
+MessageExchangeDAOImpl.getFaultExplanation( );1;0;3
+MessageExchangeDAOImpl.getCorrelationKeys( );4;2;13
+MessageExchangeDAOImpl.getCorrelationStatus( );1;0;3
+MessageExchangeDAOImpl.setEPR( Element epr );1;0;4
+MessageExchangeDAOImpl.getPropertyNames( );2;0;7
+MessageExchangeDAOImpl.setTimeout( long timeout );1;0;3
+MessageExchangeDAOImpl.getChannel( );1;0;3
+MessageExchangeDAOImpl.release( );1;0;2
+MessageExchangeDAOImpl.setStatus( Status status );2;1;3
+MessageExchangeDAOImpl.setResponse( MessageDAO msg );1;0;3
+MessageExchangeDAOImpl.createMessage( QName type );1;0;4
+MessageExchangeDAOImpl.setFailureType( FailureType failureType );2;1;3
+MessageExchangeDAOImpl.setInstance( ProcessInstanceDAO dao );1;0;3
+MessageExchangeDAOImpl.getCorrelator( );1;0;3
+MessageExchangeDAOImpl.getPortType( );2;1;3
+MessageExchangeDAOImpl.setRequest( MessageDAO msg );1;0;3
+MessageExchangeDAOImpl.getCallee( );2;1;3
+MessageExchangeDAOImpl.getInstance( );1;0;3
+MessageExchangeDAOImpl.setPipedMessageExchangeId( String pipedMessageExchangeId );1;0;3
+MessageExchangeDAOImpl.getOperation( );1;0;3
+MessageExchangeDAOImpl.setPortType( QName porttype );1;0;3
+MessageExchangeDAOImpl.getRequest( );1;0;3
+MessageExchangeDAOImpl.getProcess( );1;0;3
+MessageExchangeDAOImpl.getInvocationStyle( );2;1;3
+MessageExchangeDAOImpl.setProperty( String key , String value );1;0;3
+MessageExchangeDAOImpl.setFault( QName faultType );2;1;3
+MessageExchangeDAOImpl.getProperty( String key );3;0;6
+MessageExchangeDAOImpl.getPartnerLink( );1;0;3
+MessageExchangeDAOImpl.setProcess( ProcessDAO process );1;0;3
+MessageExchangeDAOImpl.getPropagateTransactionFlag( );1;0;3
+MessageExchangeDAOImpl.getPattern( );2;1;3
+MessageExchangeDAOImpl.MessageExchangeDAOImpl( String mexId , char direction );1;0;5
+MessageExchangeDAOImpl.getPipedPID( );2;1;3
+MessageExchangeDAOImpl.setPartnerLink( PartnerLinkDAO plinkDAO );1;0;3
+MessageExchangeDAOImpl.getFailureType( );2;1;3
+MessageExchangeDAOImpl.setChannel( String channel );1;0;3
+MessageExchangeDAOImpl.getFault( );2;1;3
+MessageExchangeDAOImpl.getDirection( );1;0;3
+MessageExchangeDAOImpl.MessageExchangeDAOImpl( );1;0;1
+MessageExchangeDAOImpl.setPipedPID( QName pipedPid );2;1;3
+MessageExchangeDAOImpl.setAckType( AckType ackType );2;1;3
+MessageExchangeDAOImpl.setPattern( MessageExchangePattern pattern );2;1;3
+MessageExchangeDAOImpl.setOperation( String opname );1;0;3
+MessageExchangeDAOImpl.setPartnersKey( String correlationId );1;0;3
+MessageExchangeDAOImpl.getStatus( );2;1;3
+MessageExchangeDAOImpl.setCorrelationStatus( String cstatus );1;0;3
+MessageExchangeDAOImpl.setCallee( QName callee );1;0;3
+MessageExchangeDAOImpl.addCorrelationKey( CorrelationKey correlationKey );2;2;6
+MessageExchangeDAOImpl.getResponse( );1;0;3
+MessageExchangeDAOImpl.getPartnerLinkModelId( );1;0;3
+MessageExchangeDAOImpl.getTimeout( );1;0;3
+MessageExchangeDAOImpl.setFaultExplanation( String explanation );1;0;3
+MessageExchangeDAOImpl.getMessageExchangeId( );1;0;3
+MessageExchangeDAOImpl.getPartnersKey( );1;0;3
+MessageExchangeDAOImpl.getCreateTime( );1;0;3
+MessageExchangeDAOImpl.setInvocationStyle( InvocationStyle invocationStyle );2;1;3
+MessageExchangeDAOImpl.getPipedMessageExchangeId( );1;0;3

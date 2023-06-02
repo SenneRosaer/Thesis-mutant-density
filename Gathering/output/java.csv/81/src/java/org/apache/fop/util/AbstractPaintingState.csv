@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractPaintingState.getLineWidth( );1;0;3
+AbstractPaintingState.setData( AbstractData data );1;0;3
+AbstractPaintingState.toString( );1;0;4
+AbstractPaintingState.getBaseTransform( );2;0;8
+AbstractPaintingState.setLineWidth( float width );2;1;7
+AbstractPaintingState.clearTransform( );1;0;3
+AbstractPaintingState.getData( );2;1;6
+AbstractPaintingState.setFontName( String internalFontName );2;1;7
+AbstractPaintingState.saveAll( List dataList );2;0;7
+AbstractPaintingState.getBackColor( );2;1;6
+AbstractPaintingState.restoreAll( );3;1;12
+AbstractData.getTransform( );2;1;6
+AbstractData.toString( );1;0;9
+AbstractPaintingState.getTransform( );2;0;11
+AbstractPaintingState.setDashArray( float [ ] dash );2;1;7
+AbstractPaintingState.save( );1;0;4
+AbstractData.setTransform( AffineTransform baseTransform );1;0;3
+AbstractData.clone( );1;0;11
+AbstractPaintingState.concatenate( AffineTransform at );1;0;3
+AbstractData.getDerivedRotation( );13;21;18
+AbstractPaintingState.getStateStack( );1;0;3
+AbstractPaintingState.setFontSize( int size );2;1;7
+AbstractPaintingState.setBackColor( Color col );2;1;7
+AbstractPaintingState.resetTransform( );1;0;3
+StateStack.StateStack( );1;0;3
+AbstractData.clearTransform( );1;0;3
+AbstractPaintingState.getFontName( );1;0;3
+AbstractPaintingState.restore( );2;1;8
+StateStack.StateStack( Collection c );1;2;6
+AbstractPaintingState.clear( );1;0;4
+AbstractPaintingState.checkTransform( AffineTransform tf );1;1;3
+AbstractPaintingState.getFontSize( );1;0;3
+AbstractData.concatenate( AffineTransform at );1;0;3
+AbstractPaintingState.getColor( );2;1;6
+AbstractPaintingState.setColor( Color col );2;1;7
+AbstractPaintingState.clone( );1;0;6

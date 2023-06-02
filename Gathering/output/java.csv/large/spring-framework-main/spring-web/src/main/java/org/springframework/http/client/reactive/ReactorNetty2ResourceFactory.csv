@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReactorNetty2ResourceFactory.isUseGlobalResources( );1;0;3
+ReactorNetty2ResourceFactory.addGlobalResourcesConsumer( Consumer < HttpResources > consumer );2;1;5
+ReactorNetty2ResourceFactory.setConnectionProviderSupplier( Supplier < ConnectionProvider > supplier );1;0;3
+ReactorNetty2ResourceFactory.setLoopResources( LoopResources loopResources );1;0;3
+ReactorNetty2ResourceFactory.getLoopResources( );1;1;4
+ReactorNetty2ResourceFactory.setUseGlobalResources( boolean useGlobalResources );1;0;3
+ReactorNetty2ResourceFactory.setShutdownTimeout( Duration shutdownTimeout );1;0;4
+ReactorNetty2ResourceFactory.setConnectionProvider( ConnectionProvider connectionProvider );1;0;3
+ReactorNetty2ResourceFactory.afterPropertiesSet( );6;6;22
+ReactorNetty2ResourceFactory.destroy( );8;4;23
+ReactorNetty2ResourceFactory.setLoopResourcesSupplier( Supplier < LoopResources > supplier );1;0;3
+ReactorNetty2ResourceFactory.setShutdownQuietPeriod( Duration shutdownQuietPeriod );1;0;4
+ReactorNetty2ResourceFactory.getConnectionProvider( );1;1;4

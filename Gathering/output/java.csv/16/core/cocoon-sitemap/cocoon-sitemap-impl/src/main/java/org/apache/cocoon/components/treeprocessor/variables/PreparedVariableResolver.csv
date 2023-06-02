@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PreparedVariableResolver.processVariable( Token expr , List mapStack , int stackSize );5;5;14
+PreparedVariableResolver.getNewVariableToken( String variable );3;2;12
+Token.Token( int type , InputModule module );1;0;4
+Token.equals( Object o );2;0;6
+***not in a method***;0;9;0
+PreparedVariableResolver.PreparedVariableResolver( );1;0;3
+Token.getModule( );2;0;6
+PreparedVariableResolver.processNewExpression( Token expr , ExpressionFactory expressionFactory , ObjectModel newObjectModel );3;1;11
+PreparedVariableResolver.setManager( ServiceManager manager );1;0;3
+PreparedVariableResolver.resolve( InvokeContext context , Map objectModel );23;4;86
+Token.Token( int type );2;1;8
+PreparedVariableResolver.setExpression( String expr );10;0;44
+PreparedVariableResolver.PreparedVariableResolver( String expression , ServiceManager manager );1;0;4
+PreparedVariableResolver.processModule( Token module , Token expr , Map objectModel , InvokeContext context , List mapStack , int stackSize );14;12;54
+PreparedVariableResolver.getManager( );1;0;3
+PreparedVariableResolver.dispose( );4;1;13
+Token.hasType( int type );1;1;3
+Token.merge( Token newToken );1;1;3
+PreparedVariableResolver.getNewModuleToken( String moduleName );3;2;17
+Token.Token( int type , String value );1;0;4
+PreparedVariableResolver.addToken( int type , String value );10;0;38
+Token.getStringValue( );2;0;6
+Token.Token( String value );1;0;4
+Token.getType( );1;0;3

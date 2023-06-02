@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SubscriptionInfo.SubscriptionInfo( EventType [ ] eventTypes , Filter [ ] filters , boolean noLocal , boolean isDeep , long timeout );4;4;14
+SubscriptionInfo.SubscriptionInfo( EventType [ ] eventTypes , boolean isDeep , long timeout );1;0;3
+SubscriptionInfo.getFilters( String localName , Namespace namespace );3;2;9
+SubscriptionInfo.getTimeOut( );1;0;3
+SubscriptionInfo.isDeep( );1;0;3
+SubscriptionInfo.toXml( Document document );5;5;17
+SubscriptionInfo.getEventTypes( );1;0;3
+SubscriptionInfo.isNoLocal( );1;0;3
+SubscriptionInfo.SubscriptionInfo( Element reqInfo , long timeout , boolean isDeep );6;4;30
+SubscriptionInfo.getFilters( );1;0;3

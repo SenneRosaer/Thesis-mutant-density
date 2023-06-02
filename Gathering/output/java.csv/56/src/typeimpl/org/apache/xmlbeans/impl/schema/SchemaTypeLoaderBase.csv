@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SchemaTypeLoaderBase.findAttribute( QName name );2;2;8
+SchemaTypeLoaderBase.parse( Reader jior , SchemaType type , XmlOptions options );2;1;6
+SchemaTypeLoaderBase.compileQuery( String queryExpr );1;0;3
+SchemaTypeLoaderBase.parse( File file , SchemaType type , XmlOptions options );3;2;21
+SchemaTypeLoaderBase.parse( String xmlText , SchemaType type , XmlOptions options );2;1;6
+SchemaTypeLoaderBase.parse( Node node , SchemaType type , XmlOptions options );2;1;6
+SchemaTypeLoaderBase.invokeMethod( Method method , Object [ ] args );3;0;19
+SchemaTypeLoaderBase.findDocumentType( QName name );2;2;8
+SchemaTypeLoaderBase.newDomImplementation( XmlOptions options );1;0;3
+SchemaTypeLoaderBase.findAttributeGroup( QName name );2;2;8
+SchemaTypeLoaderBase.newXmlSaxHandler( SchemaType type , XmlOptions options );2;1;6
+SchemaTypeLoaderBase.doCompileQuery( String queryExpr , XmlOptions options );1;0;3
+SchemaTypeLoaderBase.parse( InputStream jiois , SchemaType type , XmlOptions options );6;4;25
+SchemaTypeLoaderBase.findElement( QName name );2;2;8
+SchemaTypeLoaderBase.compilePath( String pathExpr );1;0;3
+SchemaTypeLoaderBase.findAttributeType( QName name );2;2;8
+SchemaTypeLoaderBase.compileQuery( String queryExpr , XmlOptions options );1;0;3
+SchemaTypeLoaderBase.getMethod( String className , String methodName , Class [ ] args );2;0;15
+SchemaTypeLoaderBase.newInstance( SchemaType type , XmlOptions options );2;1;6
+SchemaTypeLoaderBase.findModelGroup( QName name );2;2;8
+SchemaTypeLoaderBase.compilePath( String pathExpr , XmlOptions options );1;0;3
+SchemaTypeLoaderBase.parse( URL url , SchemaType type , XmlOptions options );11;10;50
+SchemaTypeLoaderBase.findType( QName name );2;2;8
+SchemaTypeLoaderBase.doCompilePath( String pathExpr , XmlOptions options );1;0;3
+SchemaTypeLoaderBase.parse( XMLInputStream xis , SchemaType type , XmlOptions options );2;1;6
+SchemaTypeLoaderBase.newValidatingXMLInputStream( XMLInputStream xis , SchemaType type , XmlOptions options );1;0;3
+SchemaTypeLoaderBase.typeForSignature( String signature );53;48;169
+SchemaTypeLoaderBase.parse( XMLStreamReader xsr , SchemaType type , XmlOptions options );2;1;6

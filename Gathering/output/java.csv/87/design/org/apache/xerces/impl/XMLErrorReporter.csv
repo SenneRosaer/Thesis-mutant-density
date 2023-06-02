@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLErrorReporter.reset( XMLComponentManager componentManager );1;0;2
+XMLErrorReporter.getMessageFormatter( String domain );1;0;3
+XMLErrorReporter.removeMessageFormatter( String domain );1;0;3
+XMLErrorReporter.putMessageFormatter( String domain , MessageFormatter messageFormatter );1;0;2
+XMLErrorReporter.XMLErrorReporter( );1;0;2
+***not in a method***;0;3;0
+XMLErrorReporter.setFeature( String featureId , boolean state );1;0;2
+XMLErrorReporter.setLocale( Locale locale );1;0;2
+XMLErrorReporter.setProperty( String propertyId , Object value );1;0;2
+XMLErrorReporter.reportError( String domain , String key , Object [ ] arguments , short severity );1;0;2

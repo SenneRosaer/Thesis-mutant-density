@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExecutorConfigurationSupport.setThreadFactory( @ Nullable ThreadFactory threadFactory );2;1;3
+ExecutorConfigurationSupport.destroy( );1;0;3
+ExecutorConfigurationSupport.afterPropertiesSet( );1;0;3
+ExecutorConfigurationSupport.setAwaitTerminationMillis( long awaitTerminationMillis );1;0;3
+ExecutorConfigurationSupport.setWaitForTasksToCompleteOnShutdown( boolean waitForJobsToCompleteOnShutdown );1;0;3
+ExecutorConfigurationSupport.setThreadNamePrefix( @ Nullable String threadNamePrefix );1;0;4
+ExecutorConfigurationSupport.setRejectedExecutionHandler( @ Nullable RejectedExecutionHandler rejectedExecutionHandler );2;1;4
+ExecutorConfigurationSupport.shutdown( );6;2;16
+ExecutorConfigurationSupport.cancelRemainingTask( Runnable task );3;0;5
+ExecutorConfigurationSupport.awaitTerminationIfNecessary( ExecutorService executor );8;4;19
+ExecutorConfigurationSupport.setBeanName( String name );1;0;3
+ExecutorConfigurationSupport.initialize( );5;4;9
+ExecutorConfigurationSupport.setAwaitTerminationSeconds( int awaitTerminationSeconds );1;1;3

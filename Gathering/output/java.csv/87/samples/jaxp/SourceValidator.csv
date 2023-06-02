@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SourceValidator.validate( Validator validator , Source source , String systemId , int repetitions , boolean memoryUsage );7;5;28
+SourceValidator.warning( SAXParseException ex );1;0;3
+SourceValidator.printError( String type , SAXParseException ex );3;4;20
+SourceValidator.printResults( PrintWriter out , String uri , long time , long memory , int repetition );3;3;22
+SourceValidator.fatalError( SAXParseException ex );1;0;4
+SourceValidator.main( String [ ] argv );64;47;253
+SourceValidator.printUsage( );6;0;41
+SourceValidator.validate( Validator validator , XMLInputFactory xif , String systemId , int repetitions , boolean memoryUsage );7;5;31
+SourceValidator.SourceValidator( );1;0;2
+SourceValidator.error( SAXParseException ex );1;0;3

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+INVOKE.requireRecovery( );7;1;42
+INVOKE.onFailure( );1;0;4
+INVOKE.retryOrFailure( String reason , Element data );7;9;41
+INVOKE.INVOKE( ActivityInfo self , ScopeFrame scopeFrame , LinkFrame linkFrame );1;0;5
+INVOKE.onFault( );1;0;9
+INVOKE.retry( );2;0;7
+INVOKE.onResponse( );11;6;45
+INVOKE.cancel( );2;0;7
+INVOKE.setupOutbound( OInvoke oinvoke , Collection < OScope . CorrelationSet > outboundInitiations );4;2;13
+INVOKE.terminate( );1;0;15
+INVOKE.onCancel( );1;0;3
+INVOKE.onTimeout( );1;0;3
+INVOKE.run( );15;3;113
+INVOKE.fault( FaultData faultData );3;1;9

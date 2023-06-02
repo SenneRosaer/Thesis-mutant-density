@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSLoaderImpl.getParameter( String name );1;0;3
+XSLoaderImpl.getParameterNames( );1;0;3
+XSLoaderImpl.canSetParameter( String name , Object value );1;0;3
+XSLoaderImpl.loadURIList( StringList uriList );3;2;14
+XSLoaderImpl.getConfig( );1;0;3
+XSGrammarMerger.getGrammar( XMLGrammarDescription desc );1;0;3
+XSGrammarMerger.retrieveGrammar( XMLGrammarDescription desc );1;0;3
+XSGrammarMerger.putGrammar( Grammar grammar );3;2;13
+XSLoaderImpl.loadURI( String uri );2;0;10
+XSLoaderImpl.XSLoaderImpl( );1;0;3
+XSLoaderImpl.setParameter( String name , Object value );1;0;3
+XSGrammarMerger.retrieveInitialGrammarSet( String grammarType );1;0;3
+XSLoaderImpl.loadInputList( LSInputList is );3;2;14
+XSGrammarMerger.mergeSchemaGrammars( SchemaGrammar cachedGrammar , SchemaGrammar newGrammar );14;20;55
+XSLoaderImpl.load( LSInput is );2;0;10
+XSGrammarMerger.toSchemaGrammar( Grammar grammar );2;0;3
+XSGrammarMerger.containsGrammar( XMLGrammarDescription desc );1;0;3
+XSGrammarMerger.XSGrammarMerger( );1;0;1

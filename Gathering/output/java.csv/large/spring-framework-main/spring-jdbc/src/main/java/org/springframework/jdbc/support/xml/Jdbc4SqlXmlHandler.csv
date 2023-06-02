@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Jdbc4SqlXmlHandler.getXmlAsCharacterStream( ResultSet rs , int columnIndex );2;1;4
+Jdbc4SqlXmlHandler.getXmlAsString( ResultSet rs , int columnIndex );2;1;4
+Jdbc4SqlXmlHandler.getXmlAsSource( ResultSet rs , String columnName , @ Nullable Class < ? extends Source > sourceClass );3;2;7
+Jdbc4SqlXmlHandler.newSqlXmlValue( final Class < ? extends Result > resultClass , final XmlResultProvider provider );1;0;8
+Jdbc4SqlXmlHandler.getXmlAsString( ResultSet rs , String columnName );2;1;4
+Jdbc4SqlXmlHandler.newSqlXmlValue( final String value );1;0;8
+Jdbc4SqlXmlHandler.provideXml( SQLXML xmlObject );1;0;3
+Jdbc4SqlXmlHandler.getXmlAsCharacterStream( ResultSet rs , String columnName );2;1;4
+AbstractJdbc4SqlXmlValue.setValue( PreparedStatement ps , int paramIndex );2;0;10
+Jdbc4SqlXmlHandler.getXmlAsBinaryStream( ResultSet rs , String columnName );2;1;4
+Jdbc4SqlXmlHandler.newSqlXmlValue( final Document document );1;0;8
+AbstractJdbc4SqlXmlValue.cleanup( );3;1;10
+Jdbc4SqlXmlHandler.newSqlXmlValue( final XmlCharacterStreamProvider provider );1;0;8
+Jdbc4SqlXmlHandler.newSqlXmlValue( final XmlBinaryStreamProvider provider );1;0;8
+Jdbc4SqlXmlHandler.getXmlAsSource( ResultSet rs , int columnIndex , @ Nullable Class < ? extends Source > sourceClass );3;2;7
+Jdbc4SqlXmlHandler.getXmlAsBinaryStream( ResultSet rs , int columnIndex );2;1;4

@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BundleAllPlugin.alreadyBundled( Artifact artifact );1;1;3
+BundleAllPlugin.bundleAll( MavenProject project , int depth );18;8;105
+BundleAllPlugin.isOsgi( Jar jar );2;2;7
+BundleAllPlugin.resolveArtifact( Artifact artifact );3;1;23
+BundleAllPlugin.addExportedPackages( MavenProject project , Collection packages );2;0;9
+BundleAllPlugin.bundleRoot( MavenProject project , BundleInfo bundleInfo );3;2;12
+BundleAllPlugin.bundleAll( MavenProject project );1;0;3
+BundleAllPlugin.getOutputFile( Artifact artifact );1;0;3
+BundleAllPlugin.getBundleName( MavenProject project );1;0;3
+BundleAllPlugin.getBuiltFile( final Artifact artifact );9;5;37
+BundleAllPlugin.getArtifactKey( Artifact artifact );1;1;3
+BundleAllPlugin.bundle( MavenProject project );4;0;41
+BundleAllPlugin.accept( File dir , String name );3;1;7
+BundleAllPlugin.getBundleName( Artifact artifact );1;0;3
+BundleAllPlugin.getFile( final Artifact artifact );2;1;9
+BundleAllPlugin.snapshotMatch( Artifact artifact , String bundleName );3;1;16
+BundleAllPlugin.execute( );1;0;4
+BundleAllPlugin.logDuplicatedPackages( BundleInfo bundleInfo );3;0;15

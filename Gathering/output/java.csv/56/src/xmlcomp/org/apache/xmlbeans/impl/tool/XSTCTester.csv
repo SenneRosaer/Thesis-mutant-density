@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestCase.getId( );1;0;3
+TestCaseResult.isSvActual( );1;0;3
+TestCase.isRvExpected( );1;0;3
+TestCase.getLtgFile( );1;0;3
+TestCaseResult.addIvMessages( Collection ivMessages );1;0;3
+TestCase.getResourceFile( );1;0;3
+TestCaseResult.setCrash( boolean crash );1;0;3
+TestCaseResult.getSvMessages( );1;0;3
+TestCase.getErrorCode( );1;0;3
+TestCaseResult.isIvActual( );1;0;3
+XSTCTester.errorReported( String errorCode , Collection set );6;5;10
+TestCaseResult.setIvActual( boolean ivActual );1;0;3
+TestCase.getOrigin( );1;0;3
+TestCaseResult.succeeded( boolean errcode );6;9;8
+XSTCTester.summarizeResultAsHTMLTableRows( TestCaseResult result , PrintWriter out , boolean errcode );21;20;40
+XSTCTester.parseLTGFile( File ltgFile , Collection outerErrors );17;15;71
+TestCase.isIvExpected( );1;0;3
+TestCase.getSchemaFile( );1;0;3
+XSTCTester.printUsage( );1;0;3
+XSTCTester.makeHTMLLink( File file , boolean value );2;1;6
+TestCase.getInstanceFile( );1;0;3
+TestCaseResult.setSvActual( boolean svActual );1;0;3
+XSTCTester.makeHTMLDescription( TestCase testCase );3;2;17
+TestCaseResult.isCrash( );1;0;3
+TestCaseResult.getTestCase( );1;0;3
+TestCaseResult.addSvMessages( Collection svMessages );1;0;3
+XSTCTester.main( String [ ] args );21;28;125
+TestCase.getDescription( );1;0;3
+TestCase.isSvExpected( );1;0;3
+TestCaseResult.getIvMessages( );1;0;3

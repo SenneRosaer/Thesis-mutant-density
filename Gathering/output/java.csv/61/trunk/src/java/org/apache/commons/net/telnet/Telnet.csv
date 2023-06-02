@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Telnet._sendDo( int option );3;1;9
+Telnet._processAYTResponse( );3;1;17
+Telnet.Telnet( );1;4;8
+Telnet._stateIsWont( int option );1;1;3
+Telnet._setWont( int option );2;2;7
+Telnet._setWantWill( int option );1;1;3
+Telnet._sendSubnegotiation( int subn [ ] );6;6;25
+Telnet._requestedWill( int option );1;2;3
+Telnet._sendDont( int option );3;1;9
+Telnet._setWantDo( int option );1;1;3
+Telnet._requestDont( int option );4;4;10
+Telnet._sendTerminalType( );3;1;14
+Telnet._setDont( int option );2;2;7
+Telnet._setWill( int option );5;3;25
+Telnet._processDont( int option );10;9;35
+Telnet._processWill( int option );10;10;45
+Telnet._requestWill( int option );4;4;10
+Telnet._setWantWont( int option );1;1;3
+Telnet._connectAction_( );9;8;48
+Telnet._spyRead( int ch );5;3;21
+Telnet._registerSpyStream( OutputStream spystream );1;0;3
+Telnet.unregisterNotifHandler( );1;0;3
+Telnet._stopSpyStream( );1;0;3
+Telnet._processDo( int option );13;13;66
+Telnet._stateIsDont( int option );1;1;3
+Telnet.registerNotifHandler( TelnetNotificationHandler notifhand );1;0;3
+Telnet._sendWont( int option );3;1;9
+Telnet.addOptionHandler( TelnetOptionHandler opthand );8;1;49
+Telnet._sendByte( int b );1;0;4
+Telnet.deleteOptionHandler( int optcode );7;1;46
+Telnet._sendWill( int option );3;1;9
+Telnet._requestedDont( int option );1;1;3
+Telnet._sendAYT( long timeout );3;1;31
+Telnet._requestDo( int option );4;4;10
+Telnet._processSuboption( int suboption [ ] , int suboptionLength );9;8;35
+Telnet._requestedDo( int option );1;2;3
+Telnet._requestedWont( int option );1;1;3
+Telnet._stateIsWill( int option );1;2;3
+Telnet._requestWont( int option );4;4;10
+Telnet._setDo( int option );5;3;24
+Telnet._spyWrite( int ch );5;3;18
+Telnet._stateIsDo( int option );1;2;3
+Telnet._setWantDont( int option );1;1;3
+Telnet.Telnet( String termtype );1;4;9
+Telnet._processWont( int option );10;9;35

@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AwkCompiler.__branch( );10;10;36
+AwkCompiler.__parseUnsignedInteger( int radix , int minDigits , int maxDigits );6;8;22
+AwkCompiler.compile( char [ ] pattern );1;0;3
+AwkCompiler.compile( String pattern , int options );1;4;13
+AwkCompiler._isLowerCase( char token );2;3;3
+AwkCompiler._toggleCase( char token );3;2;7
+AwkCompiler.__backslashToken( );20;26;97
+AwkCompiler.compile( char [ ] pattern , int options );1;4;13
+AwkCompiler._newTokenNode( char token , int position );5;5;10
+AwkCompiler.__regex( );2;1;9
+AwkCompiler.__putback( );2;3;5
+AwkCompiler.__characterClass( );16;20;66
+AwkCompiler.__repetition( SyntaxNode atom );21;27;115
+AwkCompiler.compile( String pattern );1;0;3
+AwkCompiler.__match( char token );3;3;13
+AwkCompiler.__piece( );5;0;11
+AwkCompiler.__atom( );7;9;29
+AwkCompiler.__isMetachar( char token );9;17;6
+AwkCompiler._isWordCharacter( char token );7;13;6
+AwkCompiler._isUpperCase( char token );2;3;3
+AwkCompiler._parse( char [ ] expression );7;12;30

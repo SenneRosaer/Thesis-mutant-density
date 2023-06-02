@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnnotationTypeMappings.forAnnotationType( Class < ? extends Annotation > annotationType , AnnotationFilter annotationFilter );1;0;3
+AnnotationTypeMappings.addMetaAnnotationsToQueue( Deque < AnnotationTypeMapping > queue , AnnotationTypeMapping source );6;3;20
+AnnotationTypeMappings.clearCache( );1;0;4
+Cache.get( Class < ? extends Annotation > annotationType );1;0;3
+Cache.createMappings( Class < ? extends Annotation > annotationType );1;0;3
+AnnotationTypeMappings.addIfPossible( Deque < AnnotationTypeMapping > queue , @ Nullable AnnotationTypeMapping source , Class < ? extends Annotation > annotationType , @ Nullable Annotation ann );4;1;12
+AnnotationTypeMappings.isAlreadyMapped( AnnotationTypeMapping source , Annotation metaAnnotation );4;2;11
+AnnotationTypeMappings.size( );1;0;3
+AnnotationTypeMappings.AnnotationTypeMappings( RepeatableContainers repeatableContainers , AnnotationFilter filter , Class < ? extends Annotation > annotationType );1;0;7
+AnnotationTypeMappings.get( int index );1;0;3
+AnnotationTypeMappings.addIfPossible( Deque < AnnotationTypeMapping > queue , AnnotationTypeMapping source , Annotation ann );1;0;3
+AnnotationTypeMappings.forAnnotationType( Class < ? extends Annotation > annotationType , RepeatableContainers repeatableContainers , AnnotationFilter annotationFilter );3;2;11
+AnnotationTypeMappings.forAnnotationType( Class < ? extends Annotation > annotationType );1;0;3
+Cache.Cache( RepeatableContainers repeatableContainers , AnnotationFilter filter );1;0;5
+AnnotationTypeMappings.addAllMappings( Class < ? extends Annotation > annotationType );2;1;9
+AnnotationTypeMappings.isMappable( AnnotationTypeMapping source , @ Nullable Annotation metaAnnotation );4;7;5

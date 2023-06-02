@@ -1,0 +1,98 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ErrorHandler.startElement( String uri , String loc , String raw , Attributes attrs );1;0;3
+EffectPipe.getContentHandler( );1;0;3
+BufferHandler.startCDATA( );2;1;4
+NullHandler.comment( char c [ ] , int start , int len );1;0;3
+EffectPipe.processingInstruction( String target , String data );1;0;3
+EffectPipe.startPrefixMapping( String prefix , String uri );1;0;3
+NullHandler.endEntity( String name );1;0;3
+NullHandler.startEntity( String name );1;0;3
+ErrorHandler.endEntity( String name );1;0;3
+BufferHandler.comment( char c [ ] , int start , int len );2;1;4
+EffectPipe.endBuffer( );4;4;12
+NullHandler.startDocument( );1;0;3
+NullHandler.endDocument( );1;0;2
+EffectPipe.endElement( String uri , String loc , String raw );1;0;4
+NullHandler.processingInstruction( String target , String data );1;0;3
+EffectPipe.startDTD( String name , String publicId , String systemId );1;0;3
+ErrorHandler.startCDATA( );1;0;3
+BufferHandler.endCDATA( );2;1;4
+ErrorHandler.startDTD( String name , String publicId , String systemId );1;0;3
+CopyHandler.startPrefixMapping( String prefix , String uri );1;0;3
+EffectPipe.skippedEntity( String name );1;0;3
+CopyHandler.startCDATA( );2;1;4
+ErrorHandler.endPrefixMapping( String prefix );1;0;3
+CopyHandler.startElement( String uri , String loc , String raw , Attributes attrs );1;0;4
+NullHandler.characters( char ch [ ] , int start , int length );1;0;3
+BufferHandler.characters( char ch [ ] , int start , int length );2;1;4
+BufferHandler.endDocument( );2;1;3
+EffectPipe.pushHandler( Handler handler );1;0;4
+ErrorHandler.getName( );1;0;3
+EffectPipe.beginBuffer( );4;3;13
+BufferHandler.startEntity( String name );2;1;4
+BufferHandler.processingInstruction( String target , String data );2;1;4
+CopyHandler.startDocument( );1;0;4
+CopyHandler.startEntity( String name );2;1;4
+CopyHandler.endDTD( );2;1;4
+EffectPipe.comment( char ch [ ] , int start , int len );1;0;3
+EffectPipe.endDocument( );1;0;4
+EffectPipe.recycle( );1;0;9
+BufferHandler.startElement( String uri , String loc , String raw , Attributes attrs );2;1;4
+CopyHandler.endElement( String uri , String loc , String raw );1;0;3
+EffectPipe.characters( char ch [ ] , int start , int len );1;0;3
+BufferHandler.endEntity( String name );2;1;4
+EffectPipe.getLexicalHandler( );1;0;3
+NullHandler.endElement( String uri , String loc , String raw );1;0;2
+ErrorHandler.endDTD( );1;0;3
+NullHandler.skippedEntity( String name );1;0;3
+CopyHandler.characters( char ch [ ] , int start , int length );1;0;4
+EffectPipe.init( Handler top );1;0;5
+NullHandler.startElement( String uri , String loc , String raw , Attributes attrs );1;0;3
+CopyHandler.skippedEntity( String name );1;0;4
+ErrorHandler.startDocument( );1;0;3
+NullHandler.startCDATA( );1;0;3
+ErrorHandler.processingInstruction( String target , String data );1;0;3
+NullHandler.endPrefixMapping( String prefix );1;0;2
+ErrorHandler.endDocument( );1;0;3
+BufferHandler.endPrefixMapping( String prefix );2;1;3
+EffectPipe.startCDATA( );1;0;3
+ErrorHandler.startPrefixMapping( String prefix , String uri );1;0;3
+BufferHandler.endElement( String uri , String loc , String raw );2;1;3
+ErrorHandler.startEntity( String name );1;0;3
+NullHandler.endCDATA( );1;0;3
+BufferHandler.startPrefixMapping( String prefix , String uri );2;1;3
+CopyHandler.endCDATA( );2;1;4
+CopyHandler.startDTD( String name , String publicId , String systemId );2;1;4
+BufferHandler.endDTD( );2;1;4
+BufferHandler.skippedEntity( String name );2;1;4
+BufferHandler.startDocument( );2;1;4
+CopyHandler.ignorableWhitespace( char ch [ ] , int start , int length );1;0;4
+EffectPipe.endDTD( );1;0;3
+EffectPipe.popHandler( );1;0;3
+NullHandler.endDTD( );1;0;3
+EffectPipe.startElement( String uri , String loc , String raw , Attributes attrs );1;0;4
+ErrorHandler.skippedEntity( String name );1;0;3
+ErrorHandler.endCDATA( );1;0;3
+EffectPipe.getLocation( );2;1;8
+EffectPipe.endEntity( String name );1;0;3
+EffectPipe.endPrefixMapping( String prefix );1;0;3
+NullHandler.startDTD( String name , String publicId , String systemId );1;0;3
+CopyHandler.endDocument( );1;0;3
+EffectPipe.endCDATA( );1;0;3
+CopyHandler.endEntity( String name );2;1;4
+CopyHandler.processingInstruction( String target , String data );1;0;4
+CopyHandler.comment( char c [ ] , int start , int len );2;1;4
+ErrorHandler.endElement( String uri , String loc , String raw );1;0;3
+ErrorHandler.characters( char ch [ ] , int start , int length );1;0;3
+BufferHandler.setDocumentLocator( Locator paramLocator );2;1;4
+NullHandler.nestedElement( String uri , String loc , String raw , Attributes attrs );1;0;3
+EffectPipe.startDocument( );1;0;3
+NullHandler.startPrefixMapping( String prefix , String uri );1;0;2
+CopyHandler.endPrefixMapping( String prefix );1;0;3
+NullHandler.ignorableWhitespace( char ch [ ] , int start , int length );1;0;3
+BufferHandler.startDTD( String name , String publicId , String systemId );2;1;4
+BufferHandler.ignorableWhitespace( char ch [ ] , int start , int length );2;1;4
+EffectPipe.startEntity( String name );1;0;3
+EffectPipe.setDocumentLocator( Locator locator );1;0;3
+ErrorHandler.comment( char c [ ] , int start , int len );1;0;3
+EffectPipe.ignorableWhitespace( char ch [ ] , int start , int len );1;0;3

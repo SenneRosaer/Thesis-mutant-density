@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FlightRecorderTag.FlightRecorderTag( String key , String value );1;0;4
+FlightRecorderTags.iterator( );1;0;3
+FlightRecorderTags.add( String key , Supplier < String > value );1;0;3
+FlightRecorderStartupStep.getName( );1;0;3
+FlightRecorderStartupStep.FlightRecorderStartupStep( long id , String name , long parentId , Consumer < FlightRecorderStartupStep > recordingCallback );1;0;5
+TagsIterator.remove( );1;0;3
+FlightRecorderStartupStep.getEvent( );1;0;3
+FlightRecorderTag.getValue( );1;0;3
+FlightRecorderStartupStep.tag( String key , Supplier < String > value );1;0;4
+FlightRecorderTag.getKey( );1;0;3
+FlightRecorderStartupStep.getId( );1;0;3
+TagsIterator.hasNext( );1;1;3
+FlightRecorderStartupStep.getParentId( );1;0;3
+FlightRecorderStartupStep.end( );2;0;12
+FlightRecorderTags.add( String key , String value );1;2;6
+FlightRecorderStartupStep.getTags( );1;0;3
+TagsIterator.next( );1;1;3
+FlightRecorderStartupStep.tag( String key , String value );1;0;4

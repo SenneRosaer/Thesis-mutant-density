@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IndexingRule.appliesTo( NodeState state );3;2;10
+IndexingRule.IndexingRule( Node config );1;0;8
+IndexingConfigurationImpl.getCondition( Node config );12;12;62
+IndexingConfigurationImpl.createPropertyConfigs( Node config , Map propConfigs , List namePatterns );9;6;44
+IndexingConfigurationImpl.getTextContent( Node node );3;3;11
+IndexingRule.isIncludedInNodeScopeIndex( Name propertyName );2;1;8
+IndexingRule.isIndexed( Name propertyName );1;1;3
+NamePattern.NamePattern( String pattern , PropertyConfig config , NameResolver resolver );2;3;11
+IndexingConfigurationImpl.useInExcerpt( NodeState state , Name propertyName );2;1;7
+PropertyConfig.PropertyConfig( float boost , boolean nodeScopeIndex , boolean useInExcerpt );1;0;5
+NamePattern.getConfig( );1;0;3
+IndexingConfigurationImpl.getPropertyAnalyzer( String fieldName );2;0;6
+PathExpression.evaluate( final NodeState context );21;14;91
+PathExpression.PathExpression( int axis , Name elementTest , Name nameTest , Name propertyName , String propertyValue );1;0;7
+IndexingConfigurationImpl.getNodeBoost( NodeState state );2;1;7
+PathExpression.hasNext( );1;1;3
+IndexingRule.getBoost( Name propertyName );2;1;8
+IndexingRule.getNodeBoost( Node config );3;1;10
+IndexingRule.getConfig( Name propertyName );5;2;15
+PathExpression.remove( );1;0;3
+IndexingConfigurationImpl.getNamespaces( Node node );3;2;12
+IndexingRule.getNodeTypeName( );1;0;3
+PathExpression.next( );2;1;11
+IndexingRule.getNodeTypeName( Node config );1;0;4
+IndexingConfigurationImpl.getPropertyBoost( NodeState state , Name propertyName );2;1;7
+IndexingConfigurationImpl.init( Element config , QueryHandlerContext context , NamespaceMappings nsMappings );16;15;73
+IndexingConfigurationImpl.getAggregateRules( );1;0;3
+IndexingConfigurationImpl.getApplicableIndexingRule( NodeState state );8;4;28
+IndexingConfigurationImpl.isIncludedInNodeScopeIndex( NodeState state , Name propertyName );2;1;7
+IndexingConfigurationImpl.isIndexed( NodeState state , Name propertyName );2;1;7
+IndexingRule.getNodeBoost( );1;0;3
+NamePattern.matches( Path path );1;0;3
+IndexingRule.useInExcerpt( Name propertyName );2;1;8
+IndexingRule.IndexingRule( IndexingRule original , Name nodeTypeName );1;0;7

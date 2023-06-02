@@ -1,0 +1,5 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TaskUtils.getDefaultErrorHandler( boolean isRepeatingTask );2;0;3
+PropagatingErrorHandler.handleError( Throwable t );1;0;4
+LoggingErrorHandler.handleError( Throwable t );1;0;3
+TaskUtils.decorateTaskWithErrorHandler( Runnable task , @ Nullable ErrorHandler errorHandler , boolean isRepeatingTask );3;1;7

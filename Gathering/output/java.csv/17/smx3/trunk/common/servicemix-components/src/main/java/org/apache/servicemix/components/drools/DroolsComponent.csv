@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DroolsComponent.getRuleBase( );1;0;3
+DroolsComponent.setRuleBaseResource( Resource ruleBaseResource );1;0;3
+DroolsComponent.setRuleBase( RuleBase ruleBase );1;0;3
+DroolsComponent.process( MessageExchange exchange , NormalizedMessage in );3;1;13
+DroolsComponent.populateWorkingMemory( WorkingMemory memory , MessageExchange exchange , NormalizedMessage in );1;0;7
+DroolsComponent.forwardToService( MessageExchange exchange , NormalizedMessage in , QName name );2;1;10
+DroolsComponent.setRuleBaseURL( URL ruleBaseURL );1;0;3
+DroolsComponent.getRuleBaseResource( );1;0;3
+DroolsComponent.getRuleBaseURL( );1;0;3
+DroolsComponent.route( MessageExchange exchange , NormalizedMessage in , QName service , QName interfaceName , QName operation );5;4;35
+DroolsComponent.init( );5;3;20
+DroolsComponent.forwardToInterface( QName name , MessageExchange exchange , NormalizedMessage in );2;1;10

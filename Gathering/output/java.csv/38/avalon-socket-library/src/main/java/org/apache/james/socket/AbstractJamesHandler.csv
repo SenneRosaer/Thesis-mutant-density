@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractJamesHandler.logResponseString( String responseString );2;0;5
+JamesWatchdogTarget.execute( );1;0;3
+AbstractJamesHandler.errorHandler( RuntimeException e );2;0;6
+AbstractJamesHandler.initHandler( Socket connection );5;1;52
+AbstractJamesHandler.setStreamDumpDir( String streamDumpDir );3;3;12
+AbstractJamesHandler.cleanHandler( );7;4;35
+AbstractJamesHandler.service( ServiceManager arg0 );1;0;3
+AbstractJamesHandler.writeLoggedFlushedResponse( String responseString );1;0;5
+AbstractJamesHandler.handleConnection( Socket connection );8;0;50
+AbstractJamesHandler.writeLoggedResponse( String responseString );1;0;4
+AbstractJamesHandler.setDnsServer( DNSService dnsServer );1;0;3
+AbstractJamesHandler.idleClose( );5;3;19
+AbstractJamesHandler.setWatchdog( Watchdog theWatchdog );1;0;3
+AbstractJamesHandler.getWatchdogTarget( );1;0;3

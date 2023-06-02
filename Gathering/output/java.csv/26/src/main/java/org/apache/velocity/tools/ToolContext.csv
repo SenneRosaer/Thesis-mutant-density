@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ToolContext.putToolProperty( String key , Object value );1;0;3
+ToolContext.ToolContext( Map < String , Object > toolProps );2;1;7
+ToolContext.keySet( );2;0;9
+ToolContext.getToolProperties( );1;0;3
+ToolContext.getKeys( );1;0;3
+ToolContext.containsKey( Object key );1;0;3
+ToolContext.getToolboxes( );1;0;3
+ToolContext.getToolbox( );2;0;9
+ToolContext.getToolClassMap( );2;3;10
+ToolContext.addToolbox( Toolbox toolbox );1;0;3
+ToolContext.internalGet( String key );1;0;3
+ToolContext.findTool( String key );3;1;12
+ToolContext.get( String key );2;1;8
+ToolContext.ToolContext( );1;0;3
+ToolContext.remove( Object key );1;0;3
+ToolContext.putVelocityEngine( VelocityEngine engine );2;1;10
+ToolContext.put( String key , Object value );1;0;3
+ToolContext.putToolProperties( Map < String , Object > props );3;1;9
+ToolContext.putAll( Map context );1;0;3
+ToolContext.ToolContext( VelocityEngine engine );1;0;4

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MethodWriter.visitMaxs( final int maxStack , final int maxLocals );1;0;4
+MethodWriter.visitMethodInsn( final int opcode , final String owner , final String name , final String desc );3;3;14
+MethodWriter.visitFieldInsn( final int opcode , final String owner , final String name , final String desc );1;0;4
+MethodWriter.put( final ByteVector out );6;14;28
+MethodWriter.visitInsn( final int opcode );1;0;3
+MethodWriter.visitJumpInsn( final int opcode , final Label label );3;7;8
+MethodWriter.visitIincInsn( final int var , final int increment );1;0;3
+MethodWriter.MethodWriter( final ClassWriter cw , final int access , final String name , final String desc , final String signature , final String [ ] exceptions );5;6;19
+MethodWriter.getSize( );3;9;12
+MethodWriter.visitVarInsn( final int opcode , final int var );5;13;15
+MethodWriter.visitTypeInsn( final int opcode , final String type );1;0;4
+MethodWriter.visitEnd( );1;0;2
+MethodWriter.visitLdcInsn( final Object cst );4;4;11
+MethodWriter.visitIntInsn( final int opcode , final int operand );1;0;3
+MethodWriter.visitLabel( final Label label );1;0;3

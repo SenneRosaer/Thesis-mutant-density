@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Token.equals( Object obj2 );6;3;19
+Token.Token( Object value , int count );1;0;4
+Token.toString( );1;0;3
+DurationFormatUtils.formatDurationISO( long durationMillis );1;0;3
+Token.getValue( );1;0;3
+DurationFormatUtils.formatDurationHMS( long durationMillis );1;0;3
+DurationFormatUtils.formatDuration( long durationMillis , String format , boolean padWithZeros );6;12;28
+Token.Token( Object value );1;0;4
+DurationFormatUtils.formatDurationWords( long durationMillis , boolean suppressLeadingZeroElements , boolean suppressTrailingZeroElements );10;7;42
+DurationFormatUtils.formatDuration( long durationMillis , String format );1;0;3
+DurationFormatUtils.DurationFormatUtils( );1;0;3
+Token.getCount( );1;0;3
+DurationFormatUtils.formatPeriod( long startMillis , long endMillis , String format , boolean padWithZeros , TimeZone timezone );23;59;94
+Token.increment( );1;1;3
+DurationFormatUtils.format( Token [ ] tokens , int years , int months , int days , int hours , int minutes , int seconds , int milliseconds , boolean padWithZeros );19;10;53
+DurationFormatUtils.formatPeriodISO( long startMillis , long endMillis );1;0;3
+Token.containsTokenWithValue( Token [ ] tokens , Object value );3;3;9
+DurationFormatUtils.lexx( String format );17;9;52
+Token.hashCode( );1;0;3
+DurationFormatUtils.formatPeriod( long startMillis , long endMillis , String format );1;0;3

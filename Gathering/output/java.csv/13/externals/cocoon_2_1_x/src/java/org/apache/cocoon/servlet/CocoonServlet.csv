@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CocoonServlet.extractLibraries( );16;14;71
+CocoonServlet.getCocoonLogger( );2;1;8
+***not in a method***;0;2;0
+CocoonServlet.getEnvironment( String uri , HttpServletRequest req , HttpServletResponse res );2;1;17
+CocoonServlet.processTime( long time );4;6;17
+CocoonServlet.forceProperty( );8;6;26
+CocoonServlet.getLoggerManager( );1;0;3
+CocoonServlet.initLogger( );10;8;70
+CocoonServlet.reloadCocoon( final String pathInfo , final String reloadParam );11;7;26
+CocoonServlet.getLogger( );1;0;3
+CocoonServlet.manageException( HttpServletRequest req , HttpServletResponse res , Environment env , String uri , int errorStatus , String title , String message , String description , Exception e );7;5;40
+CocoonServlet.forceLoad( );6;1;18
+CocoonServlet.getParentComponentManager( );9;3;27
+CocoonServlet.getConfigFile( final String configFileName );10;5;44
+CocoonServlet.getInstrumentManager( );3;1;20
+CocoonServlet.destroy( );8;3;24
+CocoonServlet.getExtraClassPath( );12;11;48
+CocoonServlet.newLoggerManager( String loggerManagerClass , Hierarchy hierarchy );5;1;15
+CocoonServlet.disposeCocoon( );2;1;6
+CocoonServlet.createCocoon( );9;2;41
+CocoonServlet.updateEnvironment( );1;0;4
+CocoonServlet.getInitParameterAsBoolean( String name , boolean defaultValue );4;4;10
+CocoonServlet.getInitParameterAsInteger( String name , int defaultValue );4;4;11
+CocoonServlet.service( HttpServletRequest req , HttpServletResponse res );43;18;173
+CocoonServlet.getClassPath( );15;11;56
+CocoonServlet.init( ServletConfig conf );39;20;186
+CocoonServlet.getInitParameter( String name );3;2;10
+CocoonServlet.addClassLoaderDirectory( String dir );1;0;2
+CocoonServlet.addClassLoaderURL( URL URL );1;0;2
+CocoonServlet.getInitParameter( String name , String defaultValue );4;4;11

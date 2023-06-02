@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QualityBenchmark.QualityBenchmark( QualityQuery qqs [ ] , QualityQueryParser qqParser , Searcher searcher , String docNameField );1;0;6
+QualityBenchmark.execute( Judge judge , SubmissionReport submitRep , PrintWriter qualityLog );5;6;21
+QualityBenchmark.setMaxResults( int maxResults );1;0;3
+QualityBenchmark.getMaxQueries( );1;0;3
+QualityBenchmark.analyzeQueryResults( QualityQuery qq , Query q , TopDocs td , Judge judge , PrintWriter logger , long searchTime );3;6;18
+QualityBenchmark.setMaxQueries( int maxQueries );1;0;3
+QualityBenchmark.getMaxResults( );1;0;3

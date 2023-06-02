@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChainsawCyclicBufferTableModel.addPropertyChangeListener( PropertyChangeListener l );1;0;3
+ChainsawCyclicBufferTableModel.getMaxSize( );1;0;3
+ChainsawCyclicBufferTableModel.getLoggerNames( );1;0;3
+ChainsawCyclicBufferTableModel.getRowCount( );1;0;5
+ChainsawCyclicBufferTableModel.addNewKeyListener( NewKeyListener l );1;0;3
+ChainsawCyclicBufferTableModel.getRow( int row );2;1;8
+ModelChanger.run( );4;5;52
+ChainsawCyclicBufferTableModel.notifyCountListeners( );2;2;9
+ChainsawCyclicBufferTableModel.ChainsawCyclicBufferTableModel( int cyclicBufferSize );1;0;7
+ChainsawCyclicBufferTableModel.getRowIndex( LoggingEvent e );1;0;5
+ChainsawCyclicBufferTableModel.addEventCountListener( EventCountListener listener );1;0;3
+ChainsawCyclicBufferTableModel.getLastAdded( );2;2;9
+ChainsawCyclicBufferTableModel.getAllEvents( );1;0;7
+ChainsawCyclicBufferTableModel.setCyclic( final boolean cyclic );2;1;8
+ChainsawCyclicBufferTableModel.removeLoggerNameListener( LoggerNameListener l );1;0;3
+ChainsawCyclicBufferTableModel.isSortable( int col );1;0;3
+ChainsawCyclicBufferTableModel.getColumnCount( );1;0;3
+ChainsawCyclicBufferTableModel.clearModel( );1;0;15
+ChainsawCyclicBufferTableModel.isCellEditable( int rowIndex , int columnIndex );2;1;7
+ChainsawCyclicBufferTableModel.addPropertyChangeListener( String propertyName , PropertyChangeListener l );1;0;3
+ChainsawCyclicBufferTableModel.addLoggerNameListener( LoggerNameListener l );1;0;3
+ChainsawCyclicBufferTableModel.setDisplayRule( Rule displayRule );3;2;10
+ChainsawCyclicBufferTableModel.isCyclic( );1;0;3
+ChainsawCyclicBufferTableModel.find( Rule rule , int startLocation , boolean searchForward );6;6;18
+ChainsawCyclicBufferTableModel.run( );5;12;16
+ChainsawCyclicBufferTableModel.getValueAt( int rowIndex , int columnIndex );32;25;66
+ChainsawCyclicBufferTableModel.fireTableEvent( final int begin , final int end , final int count );4;0;20
+ChainsawCyclicBufferTableModel.removeNewKeyListener( NewKeyListener l );1;0;3
+ChainsawCyclicBufferTableModel.reFilter( );8;2;33
+ChainsawCyclicBufferTableModel.isAddRow( LoggingEvent e );12;8;45
+ChainsawCyclicBufferTableModel.getColumnName( int column );1;0;3
+ChainsawCyclicBufferTableModel.propertyChange( PropertyChangeEvent evt );2;0;5
+ChainsawCyclicBufferTableModel.size( );1;0;3
+ChainsawCyclicBufferTableModel.addLoggerName( String loggerName );1;0;3
+ChainsawCyclicBufferTableModel.fireNewKeyColumnAdded( NewKeyEvent e );2;2;8
+ChainsawCyclicBufferTableModel.getMatchingEvents( Rule rule );3;0;13
+ChainsawCyclicBufferTableModel.getFilteredEvents( );1;0;7
+ChainsawCyclicBufferTableModel.isSortEnabled( );1;0;3
+ChainsawCyclicBufferTableModel.sortColumn( int col , boolean ascending );1;0;7
+ModelChanger.propertyChange( PropertyChangeEvent arg0 );4;1;60
+ChainsawCyclicBufferTableModel.sort( );3;2;16

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockScheduler.beforeCompletion( );1;0;2
+MockScheduler.registerSynchronizer( final Synchronization synch );2;0;8
+MockScheduler.call( );1;0;5
+MockScheduler.stop( );1;0;2
+MockScheduler.doExecute( JobInfo ji );3;1;10
+MockScheduler.start( );1;0;2
+MockScheduler.jobCompleted( String jobId );1;0;2
+MockScheduler.afterCompletion( int status );1;1;10
+MockScheduler.MockScheduler( TransactionManager txm );1;0;4
+MockScheduler.shutdown( );1;0;2
+MockScheduler.cancelJob( String arg0 );1;0;2
+MockScheduler.initialValue( );1;0;3
+MockScheduler.schedulePersistedJob( final Map < String , Object > detail , Date dt );2;1;18
+MockScheduler.setJobProcessor( JobProcessor processor );1;0;3

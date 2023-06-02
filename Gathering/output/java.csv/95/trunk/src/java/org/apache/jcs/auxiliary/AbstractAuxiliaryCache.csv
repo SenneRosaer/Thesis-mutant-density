@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractAuxiliaryCache.logICacheEvent( ICacheEvent cacheEvent );2;1;6
+AbstractAuxiliaryCache.setElementSerializer( IElementSerializer elementSerializer );2;1;6
+AbstractAuxiliaryCache.setKeyMatcher( IKeyMatcher keyMatcher );2;1;6
+AbstractAuxiliaryCache.getKeyMatcher( );1;0;3
+***not in a method***;0;1;0
+AbstractAuxiliaryCache.createICacheEvent( ICacheElement item , String eventName );3;2;14
+AbstractAuxiliaryCache.logApplicationEvent( String source , String eventName , String optionalDetails );2;1;6
+AbstractAuxiliaryCache.createICacheEvent( String regionName , Serializable key , String eventName );2;1;9
+AbstractAuxiliaryCache.getElementSerializer( );1;0;3
+AbstractAuxiliaryCache.setCacheEventLogger( ICacheEventLogger cacheEventLogger );1;0;3
+AbstractAuxiliaryCache.getCacheEventLogger( );1;0;3
+AbstractAuxiliaryCache.logError( String source , String eventName , String errorMessage );2;1;6

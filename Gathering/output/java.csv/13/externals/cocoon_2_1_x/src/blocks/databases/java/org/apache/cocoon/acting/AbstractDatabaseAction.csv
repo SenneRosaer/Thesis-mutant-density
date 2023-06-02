@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractDatabaseAction.dateValue( String value , String format );1;0;4
+AbstractDatabaseAction.dispose( );1;0;3
+AbstractDatabaseAction.setColumn( PreparedStatement statement , int position , Request request , Configuration entry , String param );3;2;6
+AbstractDatabaseAction.isLargeObject( String type );4;0;6
+AbstractDatabaseAction.setColumn( PreparedStatement statement , int position , Request request , Configuration entry , String param , Object value );1;0;3
+AbstractDatabaseAction.buildList( Configuration [ ] values , int begin );3;3;14
+AbstractDatabaseAction.getColumn( ResultSet set , Request request , Configuration entry );19;1;75
+AbstractDatabaseAction.buildList( Configuration [ ] values , String separator );3;3;11
+AbstractDatabaseAction.getRequestAttribute( Request request , String key );1;0;3
+AbstractDatabaseAction.getDataSource( Configuration conf );1;0;4
+AbstractDatabaseAction.service( ServiceManager manager );1;0;4
+AbstractDatabaseAction.setColumn( PreparedStatement statement , int position , Request request , Configuration entry , String param , Object value , int rowIndex );57;10;237
+AbstractDatabaseAction.setRequestAttribute( Request request , String key , Object value );1;0;3
+AbstractDatabaseAction.setColumn( PreparedStatement statement , int position , Request request , Configuration entry );1;0;3

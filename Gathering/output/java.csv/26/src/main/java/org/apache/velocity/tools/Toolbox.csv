@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Toolbox.get( String key , Map < String , Object > context );1;0;3
+Toolbox.getKeys( );2;1;8
+Toolbox.getToolClassMap( );2;0;8
+Toolbox.get( String key , String path , Map < String , Object > context );3;2;12
+Toolbox.Toolbox( Map < String , ToolInfo > toolInfo );1;0;3
+Toolbox.hasPermission( ToolInfo info , String path );3;3;7
+Toolbox.getFromCache( String key , String path );5;3;26
+Toolbox.getProperties( );1;0;3
+Toolbox.getAll( Map < String , Object > context );2;0;7
+Toolbox.getFromInfo( String key , String path , Map < String , Object > context );5;5;14
+Toolbox.get( String key , String path );1;0;3
+Toolbox.Toolbox( Map < String , ToolInfo > toolInfo , Map < String , Object > properties );2;1;11
+Toolbox.cacheData( Map < String , Object > data );3;3;6
+Toolbox.combine( Toolbox ... toolboxes );2;0;14
+Toolbox.get( String key );1;0;3

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExtensiblePatternFormatter.getTypeIdFor( final String type );7;0;17
+ExtensiblePatternFormatter.addTextRun( final Stack stack , final char pattern [ ] , int index );8;10;30
+ExtensiblePatternFormatter.getTime( final long time , final String format );1;0;3
+ExtensiblePatternFormatter.fix( final String context );1;0;3
+ExtensiblePatternFormatter.format( final LogEvent event );4;4;15
+ExtensiblePatternFormatter.getCategory( final String category , final String format );1;0;3
+ExtensiblePatternFormatter.parse( final String patternString );6;13;20
+ExtensiblePatternFormatter.addPatternRun( final Stack stack , final char pattern [ ] , int index );21;46;58
+ExtensiblePatternFormatter.formatPatternRun( final LogEvent event , final PatternRun run );7;0;27
+ExtensiblePatternFormatter.append( final StringBuffer sb , final int minSize , final int maxSize , final boolean rightJustify , final String output );5;2;17
+ExtensiblePatternFormatter.setFormat( final String format );1;0;3
+ExtensiblePatternFormatter.getMessage( final String message , final String format );1;0;3
+ExtensiblePatternFormatter.getStackTrace( final Throwable throwable , final String format );2;1;8
+ExtensiblePatternFormatter.getPriority( final Priority priority , final String format );1;0;3

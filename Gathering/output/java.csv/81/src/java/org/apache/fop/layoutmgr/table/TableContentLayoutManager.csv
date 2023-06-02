@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TableContentLayoutManager.setStartXOffset( int startXOffset );1;0;3
+TableContentLayoutManager.addTablePartAreas( List positions , RowPainter painter , TablePart body , boolean isFirstPos , boolean isLastPos , boolean lastInBody , boolean lastOnPage );2;0;11
+TableContentLayoutManager.getXOffsetOfGridUnit( int colIndex );1;2;3
+TableContentLayoutManager.TableContentLayoutManager( TableLayoutManager parent );3;2;12
+TableContentLayoutManager.addAreas( PositionIterator parentIter , LayoutContext layoutContext );19;11;75
+TableContentLayoutManager.isSeparateBorderModel( );1;0;3
+TableContentLayoutManager.getColumns( );1;0;3
+TableContentLayoutManager.getFooterElements( );1;0;3
+TableContentLayoutManager.getKnuthElementsForRowIterator( TableRowIterator iter , LayoutContext context , int alignment , int bodyType );10;10;66
+TableContentLayoutManager.getHeaderElements( );1;0;3
+TableContentLayoutManager.getHeaderNetHeight( );1;0;3
+TableContentLayoutManager.getTableLM( );1;0;3
+TableContentLayoutManager.addBodyAreas( Iterator iterator , RowPainter painter , boolean lastOnPage );5;3;23
+TableContentLayoutManager.getXOffsetOfGridUnit( PrimaryGridUnit gu );1;0;3
+TableContentLayoutManager.getNextKnuthElements( LayoutContext context , int alignment );18;18;63
+TableContentLayoutManager.getBaseLength( int lengthBase , FObj fobj );1;0;3
+TableContentLayoutManager.addHeaderFooterAreas( List elements , TablePart part , RowPainter painter , boolean lastOnPage );3;0;10
+TableContentLayoutManager.getUsedBPD( );1;0;3
+TableContentLayoutManager.getFooterNetHeight( );1;0;3

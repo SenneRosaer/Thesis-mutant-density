@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Specification.getImplementationVendor( );1;0;3
+Specification.Specification( final String specificationTitle , final String specificationVersion , final String specificationVendor , final String implementationTitle , final String implementationVersion , final String implementationVendor );1;0;5
+Specification.getSpecificationTitle( );1;0;3
+Specification.toString( );6;5;39
+Specification.removeDuplicates( final ArrayList list );5;2;23
+Specification.getSections( );2;1;8
+Specification.isCompatibleWith( final Specification other );1;1;3
+Specification.getSpecificationVersion( );1;0;3
+Specification.isEqual( final Specification specification , final Specification other );6;5;9
+Specification.getImplementationTitle( );1;0;3
+Specification.mergeInSections( final Specification specification , final ArrayList sectionsToAdd );2;1;15
+Specification.getSpecification( final String section , final Attributes attributes );7;11;35
+Specification.getTrimmedString( final String value );2;1;3
+Specification.getSpecificationVendor( );1;0;3
+Specification.Specification( final String specificationTitle , final String specificationVersion , final String specificationVendor , final String implementationTitle , final String implementationVersion , final String implementationVendor , final String [ ] sections );5;3;27
+Specification.getImplementationVersion( );1;0;3
+Specification.getCompatibilityWith( final Specification other );11;13;30
+Specification.getSpecifications( final Manifest manifest );4;2;19
+Specification.isCompatible( final DeweyDecimal first , final DeweyDecimal second );1;0;3

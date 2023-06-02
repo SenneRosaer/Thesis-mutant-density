@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClassWriter.get( final Item key );4;6;7
+ClassWriter.newString( final String value );2;2;10
+ClassWriter.newMethodItem( final String owner , final String name , final String desc , final boolean itf );3;2;12
+ClassWriter.newClassItem( final String value );2;2;10
+ClassWriter.visit( final int version , final int access , final String name , final String superName , final String [ ] interfaces );5;6;14
+ClassWriter.newConstItem( final Object cst );6;3;20
+ClassWriter.toByteArray( );6;14;42
+ClassWriter.ClassWriter( final int flags );1;1;9
+ClassWriter.put( final Item i );4;10;22
+ClassWriter.newNameTypeItem( final String name , final String desc );2;2;11
+ClassWriter.ClassWriter( );1;0;3
+ClassWriter.newFieldItem( final String owner , final String name , final String desc );2;2;11
+ClassWriter.newUTF8( final String value );2;2;10

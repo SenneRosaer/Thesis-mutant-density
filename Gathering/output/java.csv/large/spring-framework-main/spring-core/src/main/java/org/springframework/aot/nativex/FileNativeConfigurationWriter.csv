@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileNativeConfigurationWriter.FileNativeConfigurationWriter( Path basePath );1;0;3
+FileNativeConfigurationWriter.FileNativeConfigurationWriter( Path basePath , @ Nullable String groupId , @ Nullable String artifactId );5;7;8
+FileNativeConfigurationWriter.createJsonWriter( Writer out );1;0;3
+FileNativeConfigurationWriter.createIfNecessary( String filename );3;3;10
+FileNativeConfigurationWriter.writeTo( String fileName , Consumer < BasicJsonWriter > writer );2;0;11

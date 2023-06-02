@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JBIComponentsPortlet.init( PortletConfig portletConfig );1;0;5
+ComponentInfo.getName( );1;0;3
+JBIComponentsPortlet.renderView( RenderRequest renderRequest , RenderResponse renderResponse );2;0;9
+JBIComponentsPortlet.renderListRequest( RenderRequest request , RenderResponse response );4;4;27
+JBIComponentsPortlet.renderCompRequest( RenderRequest request , RenderResponse response );1;0;3
+ComponentInfo.setState( String state );1;0;3
+ComponentInfo.setName( String name );1;0;3
+ComponentInfo.setType( String type );1;0;3
+ComponentInfo.getType( );1;0;3
+JBIComponentsPortlet.getAttribute( ObjectName name , String attribute );2;0;8
+ComponentInfo.getState( );1;0;3
+JBIComponentsPortlet.doProcessAction( ActionRequest actionRequest , ActionResponse actionResponse );4;0;13

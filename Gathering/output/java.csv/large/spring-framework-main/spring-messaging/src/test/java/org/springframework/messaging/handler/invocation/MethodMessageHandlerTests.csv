@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestMethodMessageHandler.getDestination( Message < ? > message );1;0;3
+MethodMessageHandlerTests.handleException( );1;0;5
+MethodMessageHandlerTests.duplicateMapping( );1;0;4
+MethodMessageHandlerTests.toDestination( String destination );1;0;3
+MethodMessageHandlerTests.setup( );1;0;9
+MethodMessageHandlerTests.registeredMappings( );1;0;5
+MethodMessageHandlerTests.patternMatch( );1;0;6
+TestMethodMessageHandler.getDirectLookupDestinations( String mapping );2;1;7
+TestMethodMessageHandler.isHandler( Class < ? > beanType );1;0;3
+TestMethodMessageHandler.registerHandler( Object handler );1;0;3
+TestMethodMessageHandler.registerHandlerMethod( Object handler , Method method , String mapping );1;0;3
+TestMethodMessageHandler.getMappingForMethod( Method method , Class < ? > handlerType );2;0;7
+TestController.secondBestMatch( );1;0;3
+TestController.bestMatch( );1;0;3
+MethodMessageHandlerTests.bestMatch( );1;0;8
+TestController.handlerPathMatchWildcard( );1;0;3
+TestMethodMessageHandler.initArgumentResolvers( );1;0;6
+TestMethodMessageHandler.createExceptionHandlerMethodResolverFor( Class < ? > beanType );1;0;3
+TestController.handlerThrowsExc( );1;0;3
+DuplicateMappingsController.handlerFoo( );1;0;1
+TestMethodMessageHandler.getMappingComparator( final Message < ? > message );1;0;7
+TestMethodMessageHandler.initReturnValueHandlers( );1;0;4
+TestMethodMessageHandler.getMatchingMapping( String mapping , Message < ? > message );3;1;5
+MethodMessageHandlerTests.argumentResolution( );1;0;5
+TestController.handlerArgumentResolver( Message message );1;0;4
+TestController.handleIllegalStateException( IllegalStateException exception );1;0;4
+DuplicateMappingsController.handlerFoo( String arg );1;0;1

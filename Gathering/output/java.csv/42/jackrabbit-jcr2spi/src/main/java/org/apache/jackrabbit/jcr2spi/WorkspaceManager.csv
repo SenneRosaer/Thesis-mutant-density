@@ -1,0 +1,76 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WorkspaceManager.removeEventListener( InternalEventListener listener );2;0;11
+OperationVisitorImpl.visit( Merge operation );1;0;5
+OperationVisitorImpl.visit( WorkspaceImport operation );1;0;3
+WorkspaceManager.createDefinitionProvider( EffectiveNodeTypeProvider entProvider );1;0;3
+ChangePolling.ChangePolling( int pollTimeout );1;0;3
+WorkspaceManager.getItemStateFactory( );1;0;3
+WorkspaceManager.getNodeTypeRegistry( );1;0;3
+WorkspaceManager.unregisterNodeTypes( Name [ ] nodeTypeNames );1;0;3
+WorkspaceManager.getHierarchyManager( );1;0;3
+WorkspaceManager.registerNamespace( String prefix , String uri );1;0;3
+WorkspaceManager.isGranted( NodeState parentState , Path relPath , String [ ] actions );2;1;7
+OperationVisitorImpl.visit( ReorderNodes operation );1;0;6
+WorkspaceManager.updateEventFilters( );1;0;5
+OperationVisitorImpl.visit( AddNode operation );1;0;4
+WorkspaceManager.getWorkspaceNames( );1;0;3
+OperationVisitorImpl.execute( ChangeLog changeLog );7;3;31
+WorkspaceManager.isGranted( ItemState itemState , String [ ] actions );2;1;6
+WorkspaceManager.execute( ChangeLog changes );2;0;13
+ChangePolling.run( );9;2;39
+WorkspaceManager.createChangeFeed( int pollTimeout , boolean enableObservation );2;0;10
+WorkspaceManager.createHierarchyManager( TransientItemStateFactory tisf , IdFactory idFactory );1;0;3
+WorkspaceManager.getSupportedQueryLanguages( );1;0;3
+WorkspaceManager.getNamespaceRegistryImpl( );1;0;3
+WorkspaceManager.addEventListener( InternalEventListener listener );2;1;12
+WorkspaceManager.getIdFactory( );1;0;3
+OperationVisitorImpl.visit( Clone operation );1;0;5
+WorkspaceManager.createHierarchyListener( HierarchyManager hierarchyMgr );1;0;4
+OperationVisitorImpl.visit( AddProperty operation );2;0;10
+WorkspaceManager.dispose( );4;2;18
+OperationVisitorImpl.visit( LockRelease operation );1;0;3
+OperationVisitorImpl.visit( Restore operation );3;2;16
+WorkspaceManager.WorkspaceManager( RepositoryService service , SessionInfo sessionInfo , CacheBehaviour cacheBehaviour , int pollTimeout , boolean enableObservation );1;0;16
+OperationVisitorImpl.visit( Remove operation );1;0;3
+WorkspaceManager.onEventReceived( EventBundle [ ] eventBundles , InternalEventListener [ ] lstnrs );11;6;42
+WorkspaceManager.addLockToken( String lt );1;0;3
+OperationVisitorImpl.visit( LockOperation operation );1;0;4
+WorkspaceManager.getLockTokens( );1;0;3
+WorkspaceManager.getNameFactory( );1;0;3
+OperationVisitorImpl.visit( SetMixin operation );1;0;3
+OperationVisitorImpl.visit( ResolveMergeConflict operation );1;0;6
+WorkspaceManager.getDefinitions( Name [ ] nodeTypeNames );1;0;3
+OperationVisitorImpl.visit( SetPropertyValue operation );2;0;8
+OperationVisitorImpl.visit( Update operation );1;0;4
+OperationVisitorImpl.visit( RemoveLabel operation );1;0;5
+WorkspaceManager.canRemove( ItemState itemState );2;1;6
+WorkspaceManager.getPathFactory( );1;0;3
+WorkspaceManager.executeQuery( String statement , String language , Map namespaces );1;0;3
+WorkspaceManager.createNodeTypeRegistry( NamespaceRegistry nsRegistry );1;0;22
+WorkspaceManager.execute( Operation operation );2;0;13
+OperationVisitorImpl.visit( Checkout operation );1;0;3
+WorkspaceManager.getRegisteredNamespaces( );1;0;3
+WorkspaceManager.getAllDefinitions( );1;0;3
+WorkspaceManager.createEventFilter( int eventTypes , Path path , boolean isDeep , String [ ] uuids , Name [ ] nodeTypes , boolean noLocal );1;0;3
+WorkspaceManager.checkQueryStatement( String statement , String language , Map namespaces );1;0;3
+WorkspaceManager.getURI( String prefix );1;0;3
+WorkspaceManager.canRead( ItemState itemState );2;1;6
+WorkspaceManager.getItemDefinitionProvider( );1;0;3
+OperationVisitorImpl.visit( AddLabel operation );1;0;5
+WorkspaceManager.unregisterNamespace( String uri );1;0;3
+OperationVisitorImpl.visit( Checkin operation );1;0;4
+WorkspaceManager.getPrefix( String uri );1;0;3
+OperationVisitorImpl.visit( Move operation );2;1;9
+OperationVisitorImpl.visit( LockRefresh operation );1;0;3
+OperationVisitorImpl.visit( Copy operation );1;0;5
+WorkspaceManager.registerNodeTypes( QNodeTypeDefinition [ ] nodeTypeDefs );1;0;3
+WorkspaceManager.reregisterNodeTypes( QNodeTypeDefinition [ ] nodeTypeDefs );1;0;3
+WorkspaceManager.getEventFilters( Collection listeners );2;0;8
+WorkspaceManager.removeLockToken( String lt );3;2;10
+WorkspaceManager.getLockInfo( NodeId nodeId );1;0;3
+WorkspaceManager.getEffectiveNodeTypeProvider( );1;0;3
+OperationVisitorImpl.visit( RemoveVersion operation );1;0;5
+WorkspaceManager.createItemStateFactory( );1;0;5
+OperationVisitorImpl.execute( Operation workspaceOperation );1;0;4
+WorkspaceManager.canAccess( String workspaceName );3;2;9
+OperationVisitorImpl.OperationVisitorImpl( SessionInfo sessionInfo );1;0;3

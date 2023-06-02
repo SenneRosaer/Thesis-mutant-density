@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DNSRBLHandler.check( SMTPSession session );5;8;8
+DNSRBLHandler.onCommand( SMTPSession session );1;0;3
+DNSRBLHandler.setBlacklist( String [ ] blacklist );1;0;3
+DNSRBLHandler.getJunkHandlerData( SMTPSession session );2;1;14
+DNSRBLHandler.getJunkScore( SMTPSession session );1;0;3
+DNSRBLHandler.setWhitelist( String [ ] whitelist );1;0;3
+DNSRBLHandler.service( ServiceManager serviceMan );1;0;3
+DNSRBLHandler.checkDNSRBL( SMTPSession session , String ipAddress );17;13;50
+DNSRBLHandler.onConnect( SMTPSession session );1;0;3
+DNSRBLHandler.configure( Configuration handlerConfiguration );14;15;45
+DNSRBLHandler.setDNSServer( DNSService dnsServer );1;0;3
+DNSRBLHandler.getImplCommands( );1;0;5
+DNSRBLHandler.setGetDetail( boolean getDetail );1;0;3

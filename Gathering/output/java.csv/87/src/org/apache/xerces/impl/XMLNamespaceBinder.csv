@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLNamespaceBinder.processingInstruction( String target , XMLString data , Augmentations augs );3;3;5
+XMLNamespaceBinder.getDocumentHandler( );1;0;3
+***not in a method***;0;3;0
+XMLNamespaceBinder.comment( XMLString text , Augmentations augs );3;3;5
+XMLNamespaceBinder.handleEndElement( QName element , Augmentations augs , boolean isEmpty );6;6;13
+XMLNamespaceBinder.setDocumentSource( XMLDocumentSource source );1;0;3
+XMLNamespaceBinder.startElement( QName element , XMLAttributes attributes , Augmentations augs );3;1;8
+XMLNamespaceBinder.getOnlyPassPrefixMappingEvents( );1;0;3
+XMLNamespaceBinder.setFeature( String featureId , boolean state );1;0;2
+XMLNamespaceBinder.reset( XMLComponentManager componentManager );2;0;10
+XMLNamespaceBinder.XMLNamespaceBinder( );1;0;2
+XMLNamespaceBinder.textDecl( String version , String encoding , Augmentations augs );3;3;5
+XMLNamespaceBinder.endElement( QName element , Augmentations augs );3;1;8
+XMLNamespaceBinder.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );3;3;5
+XMLNamespaceBinder.startGeneralEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );3;3;5
+XMLNamespaceBinder.ignorableWhitespace( XMLString text , Augmentations augs );3;3;5
+XMLNamespaceBinder.startCDATA( Augmentations augs );3;3;5
+XMLNamespaceBinder.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );3;3;6
+XMLNamespaceBinder.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );3;1;9
+XMLNamespaceBinder.characters( XMLString text , Augmentations augs );3;3;5
+XMLNamespaceBinder.setDocumentHandler( XMLDocumentHandler documentHandler );1;0;3
+XMLNamespaceBinder.handleStartElement( QName element , XMLAttributes attributes , Augmentations augs , boolean isEmpty );34;45;113
+XMLNamespaceBinder.endGeneralEntity( String name , Augmentations augs );3;3;5
+XMLNamespaceBinder.getRecognizedProperties( );1;0;3
+XMLNamespaceBinder.endDocument( Augmentations augs );3;3;5
+XMLNamespaceBinder.endCDATA( Augmentations augs );3;3;5
+XMLNamespaceBinder.xmlDecl( String version , String encoding , String standalone , Augmentations augs );3;3;5
+XMLNamespaceBinder.getDocumentSource( );1;0;3
+XMLNamespaceBinder.setProperty( String propertyId , Object value );6;5;14
+XMLNamespaceBinder.getRecognizedFeatures( );1;0;3
+XMLNamespaceBinder.setOnlyPassPrefixMappingEvents( boolean onlyPassPrefixMappingEvents );1;0;3
+XMLNamespaceBinder.getPropertyDefault( String propertyId );3;2;8
+XMLNamespaceBinder.prefixBoundToNullURI( String uri , String localpart );2;3;3
+XMLNamespaceBinder.getFeatureDefault( String featureId );3;2;8

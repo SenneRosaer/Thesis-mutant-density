@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResultStatus.ResultStatus( boolean valid , Object result );1;0;4
+ResultStatus.setResult( Object result );1;0;3
+ValidatorResult.ValidatorResult( Field field );1;0;3
+ResultStatus.getResult( );1;0;3
+ValidatorResult.getResult( String validatorName );2;1;4
+ResultStatus.setValid( boolean valid );1;0;3
+ValidatorResult.getActionMap( );1;0;3
+ValidatorResult.add( String validatorName , boolean result , Object value );1;0;3
+ValidatorResult.containsAction( String validatorName );1;0;3
+ResultStatus.isValid( );1;0;3
+ValidatorResult.getActions( );1;0;3
+ValidatorResult.isValid( String validatorName );2;1;4
+ValidatorResult.add( String validatorName , boolean result );1;0;3
+ValidatorResult.getField( );1;0;3

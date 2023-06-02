@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RamFileSystem.importTree( File file );1;0;4
+RamFileSystem.close( );1;0;4
+RamFileSystem.createFile( FileName name );1;0;4
+RamFileSystem.toRamFileObject( FileObject fo , FileObject root );7;5;54
+RamFileSystem.delete( RamFileObject file );2;1;12
+RamFileSystem.size( );2;1;10
+RamFileSystem.save( final RamFileObject file );4;3;21
+RamFileSystem.addCapabilities( Collection caps );1;0;3
+RamFileSystem.RamFileSystem( FileName rootName , FileSystemOptions fileSystemOptions );1;0;8
+RamFileSystem.attach( RamFileObject fo );3;2;12
+RamFileSystem.listChildren( FileName name );4;4;18
+RamFileSystem.rename( RamFileObject from , RamFileObject to );2;1;12

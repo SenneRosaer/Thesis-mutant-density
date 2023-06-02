@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Entry.getHost( );1;0;3
+Entry.getChannelSftp( );1;0;3
+Entry.getUser( );1;0;3
+SshCache.clearSession( Session session );2;1;6
+SshCache.SshCache( );1;0;2
+Entry.getPort( );1;0;3
+SshCache.attachChannelSftp( Session session , ChannelSftp channel );2;1;7
+CfUserInfo.CfUserInfo( String host , String userName , String userPassword , File pemFile , String pemPassword , File passfile );1;0;8
+Entry.releaseChannelSftp( );3;1;10
+Entry.progress( IvyEvent event );1;0;4
+SshCache.getChannelSftp( Session session );4;4;12
+SshCache.getCacheEntry( Session session );1;0;3
+CfUserInfo.getPassphrase( );4;4;11
+CfUserInfo.promptYesNo( String message );1;0;3
+Entry.Entry( Session newSession , String newUser , String newHost , int newPort );1;0;12
+SshCache.createCacheKey( String user , String host , int port );3;6;8
+Entry.getSession( );1;0;3
+SshCache.setSession( String user , String host , int port , Session newSession );8;9;24
+Entry.setChannelSftp( ChannelSftp newChannel );3;3;6
+SshCache.getCacheEntry( String user , String host , int port );1;0;3
+CfUserInfo.promptPassword( String message );1;0;3
+SshCache.getInstance( );1;0;3
+CfUserInfo.getPassword( );3;2;11
+CfUserInfo.showMessage( String message );1;0;3
+CfUserInfo.promptPassphrase( String message );1;0;3
+CfUserInfo.promptKeyboardInteractive( String destination , String name , String instruction , String [ ] prompt , boolean [ ] echo );1;0;3
+SshCache.getSession( String host , int port , String username , String userPassword , File pemFile , String pemPassword , File passFile );9;9;36

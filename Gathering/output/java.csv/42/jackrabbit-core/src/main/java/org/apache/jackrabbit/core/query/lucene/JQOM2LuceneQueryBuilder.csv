@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JQOM2LuceneQueryBuilder.visit( FullTextSearchScoreImpl node , Object data );1;0;3
+JQOM2LuceneQueryBuilder.visit( SameNodeImpl node , Object data );4;0;16
+JQOM2LuceneQueryBuilder.transformTermQuery( TermQuery query , boolean toUpper );4;2;15
+JQOM2LuceneQueryBuilder.visit( LiteralImpl node , Object data );1;0;3
+JQOM2LuceneQueryBuilder.visit( NotImpl node , Object data );1;0;4
+JQOM2LuceneQueryBuilder.visit( OrImpl node , Object data );1;0;8
+JQOM2LuceneQueryBuilder.visit( ColumnImpl node , Object data );1;0;3
+JQOM2LuceneQueryBuilder.visit( PropertyValueImpl node , Object data );10;0;53
+JQOM2LuceneQueryBuilder.visit( ChildNodeImpl node , Object data );5;0;19
+JQOM2LuceneQueryBuilder.visit( ComparisonImpl node , Object data );1;0;3
+JQOM2LuceneQueryBuilder.visit( UpperCaseImpl node , Object data );1;0;4
+JQOM2LuceneQueryBuilder.createQuery( QueryObjectModelTree qomTree , SessionImpl session , ItemStateManager sharedItemMgr , NamespaceMappings nsMappings , Analyzer analyzer , PropertyTypeRegistry propReg , SynonymProvider synonymProvider , Map bindVariableValues , IndexFormatVersion version );1;0;8
+JQOM2LuceneQueryBuilder.visit( NodeNameImpl node , Object data );15;0;49
+JQOM2LuceneQueryBuilder.visit( ChildNodeJoinConditionImpl node , Object data );1;0;3
+JQOM2LuceneQueryBuilder.visit( JoinImpl node , Object data );1;0;3
+JQOM2LuceneQueryBuilder.visit( DescendantNodeImpl node , Object data );3;0;15
+JQOM2LuceneQueryBuilder.visit( OrderingImpl node , Object data );1;0;3
+JQOM2LuceneQueryBuilder.visit( LengthImpl node , Object data );10;3;53
+JQOM2LuceneQueryBuilder.transformCase( Object operand , Object data , boolean toUpperCase );12;2;43
+JQOM2LuceneQueryBuilder.visit( BindVariableValueImpl node , Object data );2;1;9
+JQOM2LuceneQueryBuilder.createLuceneQuery( );3;0;9
+JQOM2LuceneQueryBuilder.stringValueOf( Value value );10;0;27
+JQOM2LuceneQueryBuilder.visit( NodeLocalNameImpl node , Object data );11;1;43
+JQOM2LuceneQueryBuilder.visit( EquiJoinConditionImpl node , Object data );1;0;3
+JQOM2LuceneQueryBuilder.JQOM2LuceneQueryBuilder( QueryObjectModelTree qomTree , SessionImpl session , ItemStateManager ism , HierarchyManager hmgr , NamespaceMappings nsMappings , Analyzer analyzer , PropertyTypeRegistry propReg , SynonymProvider synonymProvider , Map bindVariableValues , IndexFormatVersion version );1;0;13
+JQOM2LuceneQueryBuilder.visit( PropertyExistenceImpl node , Object data );1;0;4
+JQOM2LuceneQueryBuilder.visit( DescendantNodeJoinConditionImpl node , Object data );1;0;3
+JQOM2LuceneQueryBuilder.visit( SameNodeJoinConditionImpl node , Object data );1;0;3
+JQOM2LuceneQueryBuilder.visit( QueryObjectModelTree node , Object data );2;1;12
+JQOM2LuceneQueryBuilder.visit( AndImpl node , Object data );1;0;8
+JQOM2LuceneQueryBuilder.visit( SelectorImpl node , Object data );10;4;54
+JQOM2LuceneQueryBuilder.visit( LowerCaseImpl node , Object data );1;0;4
+JQOM2LuceneQueryBuilder.visit( FullTextSearchImpl node , Object data );8;5;43

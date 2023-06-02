@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSDElementTraverser.traverseGlobal( Element elmDecl , XSDocumentInfo schemaDoc , SchemaGrammar grammar );1;0;6
+XSDElementTraverser.traverseLocal( Element elmDecl , XSDocumentInfo schemaDoc , SchemaGrammar grammar , int allContextFlags , XSObject parent );7;4;28
+XSDElementTraverser.traverseLocal( XSParticleDecl particle , Element elmDecl , XSDocumentInfo schemaDoc , SchemaGrammar grammar , int allContextFlags , XSObject parent , String [ ] localNSDecls );12;11;61
+XSDElementTraverser.XSDElementTraverser( XSDHandler handler , XSAttributeChecker gAttrCheck );1;0;3
+XSDElementTraverser.reset( SymbolTable symbolTable , boolean validateAnnotations , Locale locale );1;0;4
+XSDElementTraverser.traverseNamedElement( Element elmDecl , Object [ ] attrValues , XSDocumentInfo schemaDoc , SchemaGrammar grammar , boolean isGlobal , XSObject parent );58;59;173

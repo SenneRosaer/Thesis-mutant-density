@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SendToMethodReturnValueHandler.setHeaderInitializer( @ Nullable MessageHeaderInitializer headerInitializer );1;0;3
+SendToMethodReturnValueHandler.setDefaultDestinationPrefix( String defaultDestinationPrefix );1;0;3
+SendToMethodReturnValueHandler.createHeaders( @ Nullable String sessionId , MethodParameter returnType );3;2;12
+SendToMethodReturnValueHandler.SendToMethodReturnValueHandler( SimpMessageSendingOperations messagingTemplate , boolean annotationRequired );1;0;5
+DestinationHelper.DestinationHelper( MessageHeaders headers , @ Nullable SendToUser sendToUser , @ Nullable SendTo sendTo );1;0;6
+SendToMethodReturnValueHandler.getDestinationHelper( MessageHeaders headers , MethodParameter returnType );11;17;14
+SendToMethodReturnValueHandler.getTargetDestinations( @ Nullable Annotation annotation , Message < ? > message , String defaultPrefix );5;6;15
+SendToMethodReturnValueHandler.toString( );1;0;3
+SendToMethodReturnValueHandler.getHeaderInitializer( );1;0;3
+SendToMethodReturnValueHandler.supportsReturnType( MethodParameter returnType );5;5;7
+DestinationHelper.getTemplateVariables( MessageHeaders headers );1;0;4
+SendToMethodReturnValueHandler.getDefaultUserDestinationPrefix( );1;0;3
+DestinationHelper.expandTemplateVars( String destination );1;0;3
+SendToMethodReturnValueHandler.handleReturnValue( @ Nullable Object returnValue , MethodParameter returnType , Message < ? > message );10;7;40
+DestinationHelper.getSendTo( );1;0;3
+SendToMethodReturnValueHandler.setDefaultUserDestinationPrefix( String prefix );1;0;3
+DestinationHelper.getSendToUser( );1;0;3
+SendToMethodReturnValueHandler.getDefaultDestinationPrefix( );1;0;3
+SendToMethodReturnValueHandler.getUserName( Message < ? > message , MessageHeaders headers );3;1;8

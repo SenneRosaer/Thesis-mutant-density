@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BinaryFileMarshaler.readMessage( MessageExchange exchange , NormalizedMessage message , InputStream in , String path );1;0;7
+BinaryFileMarshaler.getAttachment( );1;0;3
+BinaryFileMarshaler.copyInputStream( InputStream in , OutputStream out );2;1;10
+BinaryFileMarshaler.setAttachment( String attachment );1;0;3
+BinaryFileMarshaler.getContentType( );1;0;3
+BinaryFileMarshaler.setContentType( String contentType );1;0;3
+BinaryFileMarshaler.writeMessage( MessageExchange exchange , NormalizedMessage message , OutputStream out , String path );2;1;8

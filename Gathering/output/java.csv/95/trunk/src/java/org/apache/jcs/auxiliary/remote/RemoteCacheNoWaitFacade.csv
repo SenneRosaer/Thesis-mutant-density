@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RemoteCacheNoWaitFacade.toString( );1;0;3
+RemoteCacheNoWaitFacade.failover( int i );7;4;33
+RemoteCacheNoWaitFacade.get( Serializable key );4;3;19
+RemoteCacheNoWaitFacade.getMultiple( Set keys );5;5;18
+RemoteCacheNoWaitFacade.getCacheType( );1;0;3
+***not in a method***;0;1;0
+RemoteCacheNoWaitFacade.remove( Serializable key );3;2;14
+RemoteCacheNoWaitFacade.update( ICacheElement ce );5;6;28
+RemoteCacheNoWaitFacade.removeAll( );3;2;13
+RemoteCacheNoWaitFacade.getGroupKeys( String group );3;3;12
+RemoteCacheNoWaitFacade.setRemoteCacheAttributes( RemoteCacheAttributes rca );1;0;3
+RemoteCacheNoWaitFacade.getMatching( String pattern );3;2;15
+RemoteCacheNoWaitFacade.getStats( );1;0;3
+RemoteCacheNoWaitFacade.getCacheName( );1;0;3
+RemoteCacheNoWaitFacade.getStatistics( );3;3;23
+RemoteCacheNoWaitFacade.getRemoteCacheAttributes( );1;0;3
+RemoteCacheNoWaitFacade.getStatus( );3;3;10
+RemoteCacheNoWaitFacade.getAuxiliaryCacheAttributes( );1;0;3
+RemoteCacheNoWaitFacade.getEventLoggingExtraInfo( );1;0;3
+RemoteCacheNoWaitFacade.dispose( );3;2;13
+RemoteCacheNoWaitFacade.RemoteCacheNoWaitFacade( RemoteCacheNoWait [ ] noWaits , RemoteCacheAttributes rca , ICompositeCacheManager cacheMgr , ICacheEventLogger cacheEventLogger , IElementSerializer elementSerializer );2;0;12
+RemoteCacheNoWaitFacade.getSize( );1;0;3

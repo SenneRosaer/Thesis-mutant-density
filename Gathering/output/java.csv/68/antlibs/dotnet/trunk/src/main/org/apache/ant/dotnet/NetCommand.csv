@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NetCommand.setAutomaticResponseFileThreshold( int automaticResponseFileThreshold );1;0;3
+NetCommand.addArguments( String [ ] arguments );4;5;7
+NetCommand.addArgument( String argument1 , String argument2 );3;4;5
+NetCommand.setFailOnError( boolean b );1;0;3
+NetCommand.getAutomaticResponseFileThreshold( );1;0;3
+NetCommand.setExecutableCommandLine( );11;15;45
+NetCommand.getFailFailOnError( );1;0;3
+NetCommand.setTraceCommandLine( boolean b );1;0;3
+NetCommand.logVerbose( String msg );1;0;3
+NetCommand.NetCommand( Task owner , String title , String program );1;0;7
+NetCommand.addArgument( String argument , boolean mayBeInResponseFile );4;4;8
+NetCommand.runCommand( );6;5;28
+NetCommand.prepareExecutor( );4;3;17
+NetCommand.scanOneFileset( DirectoryScanner scanner , Hashtable filesToBuild , long outputTimestamp );4;5;20
+NetCommand.addArgument( String argument );1;0;3
+NetCommand.logError( String msg );1;0;3
+NetCommand.setUseResponseFile( boolean useResponseFile );1;0;3
+NetCommand.isUseResponseFile( );1;0;3
+NetCommand.setDirectory( File directory );1;0;3

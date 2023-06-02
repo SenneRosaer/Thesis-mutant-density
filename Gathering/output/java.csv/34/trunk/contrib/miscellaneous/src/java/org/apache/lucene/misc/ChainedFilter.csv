@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChainedFilter.getDocIdSet( IndexReader reader , int [ ] logic , int [ ] index );3;3;10
+ChainedFilter.finalResult( OpenBitSetDISI result , int maxDocs );2;2;5
+ChainedFilter.getDISI( Filter filter , IndexReader reader );1;0;3
+ChainedFilter.getDocIdSet( IndexReader reader );3;3;10
+***not in a method***;0;1;0
+ChainedFilter.initialResult( IndexReader reader , int logic , int [ ] index );3;4;19
+ChainedFilter.doChain( OpenBitSetDISI result , int logic , DocIdSet dis );10;0;42
+ChainedFilter.ChainedFilter( Filter [ ] chain );1;0;3
+ChainedFilter.toString( );2;2;11
+ChainedFilter.ChainedFilter( Filter [ ] chain , int [ ] logicArray );1;0;4
+ChainedFilter.getDocIdSet( IndexReader reader , int logic , int [ ] index );2;2;8
+ChainedFilter.ChainedFilter( Filter [ ] chain , int logic );1;0;4

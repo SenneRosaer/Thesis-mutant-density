@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AntSoundPlayer.messageLogged( BuildEvent event );1;0;2
+AntSoundPlayer.buildFinished( BuildEvent event );5;6;7
+AntSoundPlayer.targetFinished( BuildEvent event );1;0;2
+AntSoundPlayer.taskStarted( BuildEvent event );1;0;2
+AntSoundPlayer.update( LineEvent event );3;0;7
+AntSoundPlayer.buildStarted( BuildEvent event );1;0;2
+AntSoundPlayer.playClip( Clip clip , int loops );2;0;5
+AntSoundPlayer.play( Project project , File file , int loops , Long duration );7;2;36
+AntSoundPlayer.addBuildFailedSound( File fileFail , int loopsFail , Long durationFail );1;0;5
+AntSoundPlayer.addBuildSuccessfulSound( File file , int loops , Long duration );1;0;5
+AntSoundPlayer.playClip( Clip clip , long duration );2;0;7
+AntSoundPlayer.taskFinished( BuildEvent event );1;0;2
+AntSoundPlayer.targetStarted( BuildEvent event );1;0;2
+AntSoundPlayer.AntSoundPlayer( );1;0;2

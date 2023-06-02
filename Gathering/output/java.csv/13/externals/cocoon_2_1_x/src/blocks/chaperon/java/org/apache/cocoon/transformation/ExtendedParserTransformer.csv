@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GrammarEntry.GrammarEntry( ExtendedGrammar grammar , SourceValidity validity );1;0;4
+ExtendedParserTransformer.enableLogging( Logger logger );1;0;3
+GrammarEntry.getExtendedGrammar( );1;0;3
+ExtendedParserTransformer.parameterize( Parameters parameters );1;0;2
+ExtendedParserTransformer.recycle( );3;3;7
+GrammarEntry.writeObject( java . io . ObjectOutputStream out );1;0;4
+ExtendedParserTransformer.getValidity( );1;0;3
+ExtendedParserTransformer.dispose( );3;3;8
+GrammarEntry.getValidity( );1;0;3
+GrammarEntry.readObject( java . io . ObjectInputStream in );1;0;4
+ExtendedParserTransformer.getKey( );1;0;3
+ExtendedParserTransformer.setConsumer( XMLConsumer consumer );1;0;4
+ExtendedParserTransformer.service( ServiceManager manager );1;0;3
+ExtendedParserTransformer.setup( SourceResolver resolver , Map objectmodel , String src , Parameters parameters );10;8;55

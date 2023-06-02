@@ -1,0 +1,71 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JdbcTransactionManagerTests.testExistingTransactionWithManualSavepoint( );1;3;25
+JdbcTransactionManagerTests.testTransactionWithEnforceReadOnly( );1;2;27
+JdbcTransactionManagerTests.doTestTransactionRollbackRestoringAutoCommit( boolean autoCommit , boolean lazyConnection , final boolean createStatement );11;9;49
+JdbcTransactionManagerTests.testParticipatingTransactionWithIncompatibleReadOnly( );1;3;28
+TestTransactionSynchronization.suspend( );1;0;2
+JdbcTransactionManagerTests.testTransactionWithDataAccessExceptionOnRollbackFromLazyExceptionTranslator( );1;1;18
+JdbcTransactionManagerTests.transactionWithTimeout( int timeout );7;6;50
+JdbcTransactionManagerTests.testParticipatingTransactionWithTransactionStartedFromSynch( );1;3;33
+JdbcTransactionManagerTests.verifyTransactionSynchronizationManagerState( );1;0;6
+TestTransactionSynchronization.beforeCompletion( );1;0;4
+JdbcTransactionManagerTests.testPropagationRequiresNewWithExistingTransactionAndUnrelatedFailingDataSource( );1;5;34
+JdbcTransactionManagerTests.doTestTransactionCommitRestoringAutoCommit( boolean autoCommit , boolean lazyConnection , final boolean createStatement );11;9;52
+JdbcTransactionManagerTests.doInTransactionWithoutResult( TransactionStatus status );3;34;20
+JdbcTransactionManagerTests.testTransactionWithExceptionOnCommit( );1;1;12
+JdbcTransactionManagerTests.testTransactionRollbackOnly( );2;4;29
+JdbcTransactionManagerTests.testExistingTransactionWithPropagationNestedTwice( );1;0;3
+JdbcTransactionManagerTests.testPropagationNeverWithExistingTransaction( );1;3;24
+JdbcTransactionManagerTests.testTransactionWithPropagationNever( );1;2;13
+JdbcTransactionManagerTests.testTransactionRollbackWithAutoCommitTrueAndLazyConnection( );1;0;3
+JdbcTransactionManagerTests.testTransactionCommitWithAutoCommitFalseAndLazyConnectionAndStatementCreated( );1;0;3
+JdbcTransactionManagerTests.testTransactionCommitWithAutoCommitTrue( );1;0;3
+JdbcTransactionManagerTests.testTransactionRollbackWithAutoCommitFalseAndLazyConnectionAndCreateStatement( );1;0;3
+JdbcTransactionManagerTests.testTransactionWithPropagationNotSupported( );1;2;13
+JdbcTransactionManagerTests.testTransactionCommitWithAutoCommitFalse( );1;0;3
+TestTransactionSynchronization.afterCommit( );2;1;7
+JdbcTransactionManagerTests.testTransactionAwareDataSourceProxyWithSuspension( );4;2;46
+JdbcTransactionManagerTests.testPropagationSupportsAndRequiresNew( );1;3;27
+JdbcTransactionManagerTests.testParticipatingTransactionWithRollbackOnlyAndFailEarly( );1;0;3
+JdbcTransactionManagerTests.testTransactionRollbackWithAutoCommitFalseAndLazyConnection( );1;0;3
+TestTransactionSynchronization.flush( );1;0;2
+JdbcTransactionManagerTests.testTransactionCommitWithAutoCommitTrueAndLazyConnection( );1;0;3
+JdbcTransactionManagerTests.testParticipatingTransactionWithDifferentConnectionObtainedFromSynch( );1;3;32
+JdbcTransactionManagerTests.testTransactionWithExceptionOnCommitAndRollbackOnCommitFailure( );1;1;14
+JdbcTransactionManagerTests.testParticipatingTransactionWithRollbackOnly( );1;0;3
+JdbcTransactionManagerTests.testExistingTransactionWithPropagationNested( );1;0;3
+JdbcTransactionManagerTests.doAfterCompletion( int status );1;0;9
+JdbcTransactionManagerTests.doTestParticipatingTransactionWithRollbackOnly( boolean failEarly );5;4;56
+JdbcTransactionManagerTests.testTransactionWithExceptionOnBegin( );1;1;12
+JdbcTransactionManagerTests.testParticipatingTransactionWithRollbackOnlyAndInnerSynch( );1;3;40
+JdbcTransactionManagerTests.setup( );1;0;3
+TestTransactionSynchronization.beforeCommit( boolean readOnly );2;1;7
+JdbcTransactionManagerTests.testTransactionRollbackWithAutoCommitTrueAndLazyConnectionAndCreateStatement( );1;0;3
+JdbcTransactionManagerTests.testTransactionCommitWithAutoCommitFalseAndLazyConnection( );1;0;3
+TestTransactionSynchronization.afterCompletion( int status );2;0;8
+JdbcTransactionManagerTests.testExistingTransactionWithPropagationNestedAndRequiredRollback( );1;3;46
+JdbcTransactionManagerTests.testTransactionWithDataAccessExceptionOnCommitFromLazyExceptionTranslator( );1;1;12
+JdbcTransactionManagerTests.testTransactionAwareDataSourceProxyWithSuspensionAndReobtaining( );4;2;47
+JdbcTransactionManagerTests.testTransactionWithPropagationNestedAndRollback( );1;3;16
+JdbcTransactionManagerTests.testPropagationNotSupportedWithExistingTransaction( );1;3;32
+JdbcTransactionManagerTests.testTransactionRollbackWithAutoCommitTrue( );1;0;3
+JdbcTransactionManagerTests.testTransactionCommitWithAutoCommitTrueAndLazyConnectionAndStatementCreated( );1;0;3
+JdbcTransactionManagerTests.testTransactionWithExceptionOnRollback( );1;1;18
+JdbcTransactionManagerTests.testTransactionAwareDataSourceProxy( );2;2;29
+TestTransactionSynchronization.TestTransactionSynchronization( DataSource dataSource , int status );1;0;4
+JdbcTransactionManagerTests.testTransactionWithDataAccessExceptionOnCommit( );1;1;13
+TestTransactionSynchronization.doAfterCompletion( int status );1;1;6
+JdbcTransactionManagerTests.testExistingTransactionWithManualSavepointAndRollback( );1;3;24
+JdbcTransactionManagerTests.testParticipatingTransactionWithIncompatibleIsolationLevel( );1;3;26
+JdbcTransactionManagerTests.testPropagationSupportsAndRequiresNewWithEarlyAccess( );1;3;35
+JdbcTransactionManagerTests.testExistingTransactionWithPropagationNestedAndRequiredRollbackOnly( );1;3;46
+JdbcTransactionManagerTests.testPropagationRequiresNewWithExistingTransactionAndUnrelatedDataSource( );1;5;42
+JdbcTransactionManagerTests.testTransactionWithPropagationSupports( );1;2;15
+TestTransactionSynchronization.resume( );1;0;2
+JdbcTransactionManagerTests.testPropagationRequiresNewWithExistingTransaction( );1;3;33
+JdbcTransactionManagerTests.testTransactionRollbackWithAutoCommitFalse( );1;0;3
+JdbcTransactionManagerTests.testTransactionWithPropagationNested( );1;3;15
+JdbcTransactionManagerTests.testTransactionWithIsolationAndReadOnly( );1;2;26
+JdbcTransactionManagerTests.testExistingTransactionWithPropagationNestedAndRollback( );1;3;35
+JdbcTransactionManagerTests.doTestExistingTransactionWithPropagationNested( final int count );3;6;37
+JdbcTransactionManagerTests.testTransactionWithDataAccessExceptionOnRollback( );1;1;19

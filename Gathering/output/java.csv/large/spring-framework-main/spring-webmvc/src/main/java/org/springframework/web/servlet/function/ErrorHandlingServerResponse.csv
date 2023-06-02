@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ErrorHandler.ErrorHandler( Predicate < Throwable > predicate , BiFunction < Throwable , ServerRequest , T > responseProvider );1;0;6
+ErrorHandlingServerResponse.addErrorHandler( Predicate < Throwable > predicate , BiFunction < Throwable , ServerRequest , T > errorHandler );1;0;5
+ErrorHandler.handle( Throwable t , ServerRequest serverRequest );1;0;3
+ErrorHandlingServerResponse.handleError( Throwable t , HttpServletRequest servletRequest , HttpServletResponse servletResponse , Context context );4;1;15
+ErrorHandler.test( Throwable t );1;0;3
+ErrorHandlingServerResponse.errorResponse( Throwable t , HttpServletRequest servletRequest );4;0;10

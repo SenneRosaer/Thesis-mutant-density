@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScopeDAOImpl.getVariable( String varName );3;0;9
+ScopeDAOImpl.getPartnerLink( int plinkModelId );3;1;8
+ScopeDAOImpl.getScopeInstanceId( );1;0;3
+ScopeDAOImpl.listEvents( );2;0;9
+ScopeDAOImpl.getVariables( );1;0;3
+ScopeDAOImpl.getModelId( );1;0;3
+ScopeDAOImpl.getProcessInstance( );1;0;3
+ScopeDAOImpl.getState( );1;0;3
+ScopeDAOImpl.createPartnerLink( int plinkModelId , String pLinkName , String myRole , String partnerRole );1;0;6
+ScopeDAOImpl.getCorrelationSet( String corrSetName );4;1;12
+ScopeDAOImpl.getPartnerLinks( );1;0;3
+ScopeDAOImpl.getParentScope( );1;0;3
+ScopeDAOImpl.getChildScopes( );1;0;3
+ScopeDAOImpl.setState( ScopeStateEnum state );1;0;3
+ScopeDAOImpl.getCorrelationSets( );1;0;3
+ScopeDAOImpl.ScopeDAOImpl( ScopeDAOImpl parentScope , String name , int scopeModelId , ProcessInstanceDAOImpl pi );1;0;6
+ScopeDAOImpl.getName( );1;0;3
+ScopeDAOImpl.ScopeDAOImpl( );1;0;1

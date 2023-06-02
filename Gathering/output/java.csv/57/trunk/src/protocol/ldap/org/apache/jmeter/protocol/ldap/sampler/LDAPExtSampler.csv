@@ -1,0 +1,67 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LDAPExtSampler.getAttrs( );1;0;3
+LDAPExtSampler.setBaseEntryDN( String newbaseentry );1;0;3
+LDAPExtSampler.bindOp( LdapExtClient ldap , DirContext dirContext , SampleResult res );2;1;14
+LDAPExtSampler.getPort( );1;0;3
+LDAPExtSampler.singleBindOp( SampleResult res );1;0;11
+LDAPExtSampler.getScope( );1;0;3
+LDAPExtSampler.setRetobj( String newRobj );1;0;3
+LDAPExtSampler.getTimelim( );1;0;3
+LDAPExtSampler.getUserPw( );1;0;3
+LDAPExtSampler.getConnTimeOut( );1;0;3
+LDAPExtSampler.getTest( );1;0;3
+LDAPExtSampler.getUserModAttributes( );7;5;26
+LDAPExtSampler.sortResults( final ArrayList sortedResults );6;0;33
+LDAPExtSampler.getTimelimAsInt( );1;0;3
+LDAPExtSampler.unbindOp( LdapExtClient ldap , DirContext dirContext , SampleResult res );1;0;11
+LDAPExtSampler.setServername( String servername );1;0;3
+LDAPExtSampler.isSecure( );1;0;3
+LDAPExtSampler.testIterationStart( LoopIterationEvent event );1;0;2
+LDAPExtSampler.getLDAPArguments( );1;0;3
+LDAPExtSampler.setConnTimeOut( String connto );1;0;3
+LDAPExtSampler.setTimelim( String newTlim );1;0;3
+LDAPExtSampler.normaliseSearchDN( final SearchResult sr , final String searchBase , final String rootDn );6;10;19
+LDAPExtSampler.setCountlim( String newClim );1;0;3
+LDAPExtSampler.getServername( );1;0;3
+LDAPExtSampler.getWriteValue( final Object value );4;0;16
+LDAPExtSampler.setSecure( String sec );1;0;3
+LDAPExtSampler.testEnded( );1;0;3
+LDAPExtSampler.getUserDN( );1;0;3
+LDAPExtSampler.testStarted( String host );1;0;2
+LDAPExtSampler.testStarted( );1;0;3
+LDAPExtSampler.getBasicAttribute( String name , String value );1;0;4
+LDAPExtSampler.getArguments( );1;0;3
+LDAPExtSampler.getCountlim( );1;0;3
+LDAPExtSampler.getRequestAttributes( String reqAttr );6;10;31
+LDAPExtSampler.isDeref( );1;0;3
+LDAPExtSampler.compare( Object o1 , Object o2 );1;2;5
+LDAPExtSampler.writeSearchResult( final SearchResult sr , final XMLBuffer xmlb );7;1;48
+LDAPExtSampler.deleteTest( LdapExtClient ldap , DirContext dirContext , SampleResult res );1;0;8
+LDAPExtSampler.testEnded( String host );3;0;14
+LDAPExtSampler.getBaseEntryDN( );1;0;3
+LDAPExtSampler.sortAttributes( final ArrayList sortedAttrs );1;0;11
+LDAPExtSampler.writeSearchResults( final XMLBuffer xmlb , final NamingEnumeration srch );5;2;24
+LDAPExtSampler.getCountlimAsLong( );1;0;3
+LDAPExtSampler.getScopeAsInt( );1;0;3
+LDAPExtSampler.setArguments( Arguments value );1;0;3
+LDAPExtSampler.isParseFlag( );1;0;3
+LDAPExtSampler.getUserAttributes( );3;1;16
+LDAPExtSampler.setAttrs( String newAttrs );1;0;3
+LDAPExtSampler.setRootdn( String newRootdn );1;0;3
+LDAPExtSampler.setUserPw( String newUserPw );1;0;3
+LDAPExtSampler.setParseFlag( String parseFlag );1;0;3
+LDAPExtSampler.getLabel( );1;0;5
+LDAPExtSampler.sample( Entry e );18;8;147
+LDAPExtSampler.isRetobj( );1;0;3
+LDAPExtSampler.setUserDN( String newUserDN );1;0;3
+LDAPExtSampler.setLDAPArguments( LDAPArguments value );1;0;3
+LDAPExtSampler.modifyTest( LdapExtClient ldap , DirContext dirContext , SampleResult res );1;0;8
+LDAPExtSampler.setScope( String newScope );1;0;3
+LDAPExtSampler.LDAPExtSampler( );1;0;2
+LDAPExtSampler.compareToReverse( final String s1 , final String s2 );4;10;15
+LDAPExtSampler.setTest( String newTest );1;0;3
+LDAPExtSampler.addTest( LdapExtClient ldap , DirContext dirContext , SampleResult res );1;0;8
+LDAPExtSampler.setPort( String port );1;0;3
+LDAPExtSampler.setDeref( String newDref );1;0;3
+LDAPExtSampler.renameTest( LdapExtClient ldap , DirContext dirContext , SampleResult res );1;0;8
+LDAPExtSampler.getRootdn( );1;0;3

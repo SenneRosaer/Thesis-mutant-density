@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StreamConverter.StreamConverter( ConversionService conversionService );1;0;3
+StreamConverter.convert( @ Nullable Object source , TypeDescriptor sourceType , TypeDescriptor targetType );4;0;9
+StreamConverter.createConvertibleTypes( );1;0;8
+StreamConverter.matchesFromStream( @ Nullable TypeDescriptor elementType , TypeDescriptor targetType );1;0;4
+StreamConverter.getConvertibleTypes( );1;0;3
+StreamConverter.matchesToStream( @ Nullable TypeDescriptor elementType , TypeDescriptor sourceType );1;0;4
+StreamConverter.matches( TypeDescriptor sourceType , TypeDescriptor targetType );3;0;9
+StreamConverter.convertFromStream( @ Nullable Stream < ? > source , TypeDescriptor streamType , TypeDescriptor targetType );2;1;5
+StreamConverter.convertToStream( @ Nullable Object source , TypeDescriptor sourceType , TypeDescriptor streamType );4;1;8

@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EventSubscription.getNodeTypeNames( NodeType [ ] nt , NameResolver resolver );2;2;8
+EventSubscription.getLocalEventListener( );1;0;7
+EventSubscription.onEvent( javax . jcr . observation . EventIterator events );1;0;3
+EventSubscription.dispose( );1;0;8
+EventSubscription.EventSubscription( IdFactory idFactory , SessionInfoImpl sessionInfo , EventFilter [ ] filters );1;0;9
+***not in a method***;0;4;0
+EventSubscription.setFilters( EventFilter [ ] filters );3;3;9
+EventSubscription.getEventBundles( long timeout );9;7;33
+EventSubscription.createEventBundle( javax . jcr . observation . EventIterator events , boolean isLocal );11;1;51
+EventSubscription.getSessionInfo( );1;0;3

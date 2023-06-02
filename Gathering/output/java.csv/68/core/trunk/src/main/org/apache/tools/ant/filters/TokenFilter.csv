@@ -1,0 +1,44 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ContainsString.setContains( String contains );1;0;3
+TokenFilter.addContainsString( ContainsString filter );1;0;3
+DeleteCharacters.isDeleteCharacter( char c );3;3;8
+ReplaceRegex.setReplace( String to );1;0;3
+ContainsRegex.setPattern( String from );1;0;3
+DeleteCharacters.read( );4;3;11
+TokenFilter.chain( final Reader reader );1;0;8
+ReplaceRegex.setPattern( String from );1;0;3
+TokenFilter.TokenFilter( final Reader in );1;0;3
+TokenFilter.resolveBackSlash( String input );1;0;3
+TokenFilter.addIgnoreBlank( IgnoreBlank filter );1;0;3
+DeleteCharacters.setChars( String deleteChars );1;0;3
+ReplaceRegex.setFlags( String flags );1;0;3
+DeleteCharacters.chain( Reader reader );4;0;16
+TokenFilter.addTrim( Trim filter );1;0;3
+TokenFilter.addDeleteCharacters( DeleteCharacters filter );1;0;3
+ContainsString.filter( String string );3;3;9
+ChainableReaderFilter.setByLine( boolean byLine );1;0;3
+ReplaceString.filter( String line );6;6;22
+ReplaceRegex.initialize( );4;2;17
+TokenFilter.setDelimOutput( String delimOutput );1;0;3
+TokenFilter.addFileTokenizer( FileTokenizer tokenizer );1;0;3
+TokenFilter.addReplaceRegex( ReplaceRegex filter );1;0;3
+ContainsRegex.setFlags( String flags );1;0;3
+ReplaceRegex.filter( String line );2;1;8
+ContainsRegex.initialize( );4;2;17
+DeleteCharacters.filter( String string );3;3;10
+Trim.filter( String line );1;0;3
+ReplaceString.setFrom( String from );1;0;3
+TokenFilter.addReplaceString( ReplaceString filter );1;0;3
+TokenFilter.read( );11;14;34
+TokenFilter.convertRegexOptions( String flags );6;13;19
+IgnoreBlank.filter( String line );2;1;6
+TokenFilter.add( Filter filter );1;0;3
+TokenFilter.addLineTokenizer( LineTokenizer tokenizer );1;0;3
+TokenFilter.addContainsRegex( ContainsRegex filter );1;0;3
+ContainsRegex.filter( String string );3;2;11
+ContainsRegex.setReplace( String to );1;0;3
+ChainableReaderFilter.chain( Reader reader );2;1;8
+TokenFilter.add( Tokenizer tokenizer );2;1;6
+ReplaceString.setTo( String to );1;0;3
+TokenFilter.TokenFilter( );1;0;3
+TokenFilter.addStringTokenizer( StringTokenizer tokenizer );1;0;3

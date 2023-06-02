@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandaloneCrypto.setKeyStoreType( String keyStoreType );1;0;3
+StandaloneCrypto.setKeyPassword( String keyPassword );1;0;3
+StandaloneCrypto.getKeyPassword( );1;0;3
+StandaloneCrypto.getKeyStoreType( );1;0;3
+StandaloneCrypto.getKeyStoreUrl( );1;0;3
+StandaloneCrypto.getTrustCertificates( );3;0;12
+StandaloneCrypto.setKeyStoreUrl( Resource keyStoreUrl );1;0;3
+StandaloneCrypto.loadKeyStore( );13;10;31
+StandaloneCrypto.getKeyStorePassword( );1;0;3
+StandaloneCrypto.getAliases( );1;0;4
+StandaloneCrypto.getPrivateKey( String alias , String password );7;7;19
+StandaloneCrypto.setKeyStorePassword( String keyStorePassword );1;0;3
+StandaloneCrypto.getCertificateAlias( Certificate cert );1;0;3
+StandaloneCrypto.getCertificate( String alias );1;0;3
+StandaloneCrypto.getCertificateChain( String alias );1;0;3

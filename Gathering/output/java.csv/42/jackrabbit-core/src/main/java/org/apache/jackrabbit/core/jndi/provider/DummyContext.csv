@@ -1,0 +1,44 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DummyContext.close( );1;0;2
+DummyContext.destroySubcontext( Name name );1;0;3
+DummyContext.bind( Name name , Object obj );3;0;10
+NamingEnum.hasMoreElements( );1;0;3
+DummyContext.createSubcontext( String name );1;0;3
+NamingEnum.nextElement( );1;0;5
+DummyContext.getNameParser( String name );1;0;3
+DummyContext.getComponentName( Name name );3;1;10
+DummyContext.rename( Name oldName , Name newName );3;1;9
+DummyContext.listBindings( Name name );3;0;12
+FlatNameParser.parse( String name );1;0;3
+DummyContext.addToEnvironment( String propName , Object propVal );1;0;3
+DummyContext.DummyContext( );1;0;3
+DummyContext.clone( );1;0;5
+DummyContext.removeFromEnvironment( String propName );1;0;3
+DummyContext.list( String name );1;0;3
+DummyContext.lookup( String name );1;0;3
+NamingEnum.hasMore( );1;0;3
+DummyContext.createSubcontext( Name name );1;0;3
+DummyContext.lookupLink( String name );1;0;3
+DummyContext.lookup( Name name );2;0;7
+DummyContext.rebind( Name name , Object obj );2;0;7
+DummyContext.listBindings( String name );1;0;3
+DummyContext.unbind( Name name );2;0;7
+NamingEnum.next( );1;0;3
+DummyContext.composeName( Name name , Name prefix );1;0;4
+DummyContext.unbind( String name );1;0;3
+DummyContext.destroySubcontext( String name );1;0;3
+DummyContext.rebind( String name , Object obj );1;0;3
+BindingEnum.nextElement( );1;0;4
+NamingEnum.close( );1;0;2
+DummyContext.getNameInNamespace( );1;0;3
+DummyContext.DummyContext( Hashtable environment );2;1;7
+DummyContext.list( Name name );3;0;12
+BindingEnum.BindingEnum( Hashtable bindings );1;0;3
+DummyContext.composeName( String name , String prefix );1;0;3
+DummyContext.bind( String name , Object obj );1;0;3
+DummyContext.rename( String oldName , String newName );1;0;3
+DummyContext.getEnvironment( );1;0;3
+DummyContext.getNameParser( Name name );1;0;3
+DummyContext.getBoundObject( String name );2;1;8
+DummyContext.lookupLink( Name name );1;0;3
+NamingEnum.NamingEnum( Hashtable bindings );1;0;4

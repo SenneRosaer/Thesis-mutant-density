@@ -1,0 +1,44 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CodeFlow.nextFreeVariableId( );1;1;3
+CodeFlow.exitCompilationScope( );1;0;3
+CodeFlow.insertNumericUnboxOrPrimitiveTypeCoercion( MethodVisitor mv , @ Nullable String stackDescriptor , char targetDescriptor );2;1;8
+CodeFlow.insertBoxIfNecessary( MethodVisitor mv , char ch );12;0;34
+CodeFlow.toBoxedDescriptor( String primitiveDescriptor );9;0;14
+CodeFlow.insertArrayStore( MethodVisitor mv , String arrayElementType );10;1;36
+CodeFlow.toParamDescriptors( Method method );1;0;3
+CodeFlow.getClassName( );1;0;3
+CodeFlow.createSignatureDescriptor( Constructor < ? > ctor );4;0;10
+CodeFlow.insertBoxIfNecessary( MethodVisitor mv , @ Nullable String descriptor );3;3;5
+CodeFlow.CodeFlow( String className , ClassWriter classWriter );1;0;6
+CodeFlow.pushDescriptor( @ Nullable String descriptor );2;1;5
+CodeFlow.toParamDescriptors( Constructor < ? > ctor );1;0;3
+CodeFlow.toPrimitiveTargetDesc( String descriptor );10;1;32
+CodeFlow.loadEvaluationContext( MethodVisitor mv );1;0;3
+CodeFlow.createSignatureDescriptor( Method method );4;0;11
+CodeFlow.insertUnboxInsns( MethodVisitor mv , char ch , @ Nullable String stackDescriptor );18;9;57
+CodeFlow.isPrimitiveOrUnboxableSupportedNumberOrBoolean( @ Nullable String descriptor );4;2;9
+CodeFlow.enterCompilationScope( );1;0;3
+CodeFlow.arrayCodeFor( String arraytype );9;0;14
+CodeFlow.insertOptimalLoad( MethodVisitor mv , int value );4;4;14
+CodeFlow.isPrimitiveOrUnboxableSupportedNumber( @ Nullable String descriptor );8;5;15
+CodeFlow.isPrimitiveArray( @ Nullable String descriptor );4;5;15
+CodeFlow.registerNewField( FieldAdder fieldAdder );2;1;6
+CodeFlow.isPrimitive( @ Nullable String descriptor );2;3;3
+CodeFlow.isIntegerForNumericOp( Number number );3;2;3
+CodeFlow.loadTarget( MethodVisitor mv );1;0;3
+CodeFlow.isBooleanCompatible( @ Nullable String descriptor );3;3;3
+CodeFlow.toDescriptorFromObject( @ Nullable Object value );2;1;8
+CodeFlow.nextFieldId( );1;1;3
+CodeFlow.insertAnyNecessaryTypeConversionBytecodes( MethodVisitor mv , char targetDescriptor , String stackDescriptor );25;26;69
+CodeFlow.registerNewClinit( ClinitAdder clinitAdder );2;1;6
+CodeFlow.unboxBooleanIfNecessary( MethodVisitor mv );2;0;5
+CodeFlow.toDescriptor( Class < ? > type );17;2;55
+CodeFlow.lastDescriptor( );1;0;3
+CodeFlow.insertNewArrayCode( MethodVisitor mv , int size , String arraytype );4;2;19
+CodeFlow.toDescriptors( Class < ? > [ ] types );2;2;8
+CodeFlow.insertCheckCast( MethodVisitor mv , @ Nullable String descriptor );6;5;17
+CodeFlow.areBoxingCompatible( String desc1 , String desc2 );14;2;40
+CodeFlow.finish( );5;3;18
+CodeFlow.toJvmDescriptor( Class < ? > clazz );13;9;44
+CodeFlow.isReferenceTypeArray( String arraytype );3;4;11
+CodeFlow.insertUnboxNumberInsns( MethodVisitor mv , char targetDescriptor , @ Nullable String stackDescriptor );10;1;33

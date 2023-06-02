@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ObservationManager.getIdentifier( DocumentEvent event );1;0;6
+ObservationManager.eventFired( RepositoryEvent event );2;0;11
+ObservationManager.getListeners( DocumentIdentifier doc );2;1;8
+ObservationManager.registerListener( RepositoryListener listener , Document doc );2;0;8
+ObservationManager.registerListener( RepositoryListener listener );2;0;6
+ObservationManager.getAllListeners( DocumentIdentifier doc );1;0;8
+ObservationManager.notify( Set listeners , RepositoryEvent event );2;0;6

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QueryImpl.getStoredQueryPath( );2;1;7
+QueryImpl.setOffset( long offset );1;0;3
+QueryImpl.storeAsNode( String absPath );3;1;18
+QueryImpl.init( SessionImpl session , ItemManager itemMgr , QueryHandler handler , String statement , String language );1;0;9
+QueryImpl.init( SessionImpl session , ItemManager itemMgr , QueryHandler handler , Node node );2;1;13
+QueryImpl.getStatement( );1;0;4
+QueryImpl.execute( );2;2;14
+QueryImpl.getLanguage( );1;0;4
+QueryImpl.checkNotInitialized( );2;0;5
+QueryImpl.bindValue( String varName , Value value );2;0;8
+QueryImpl.checkInitialized( );2;1;5
+QueryImpl.init( SessionImpl session , ItemManager itemMgr , QueryHandler handler , QueryObjectModelTree qomTree , String language );1;0;3
+QueryImpl.setInitialized( );1;0;3
+QueryImpl.setLimit( long limit );1;0;3

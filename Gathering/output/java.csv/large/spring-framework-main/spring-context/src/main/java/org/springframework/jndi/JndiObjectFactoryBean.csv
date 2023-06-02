@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JndiContextExposingInterceptor.isEligible( Method method );1;1;3
+JndiObjectProxyFactory.createJndiObjectProxy( JndiObjectFactoryBean jof );9;3;34
+JndiContextExposingInterceptor.JndiContextExposingInterceptor( JndiTemplate jndiTemplate );1;0;3
+JndiObjectFactoryBean.getObject( );1;0;3
+JndiObjectFactoryBean.getObjectType( );5;4;16
+JndiObjectFactoryBean.setProxyInterface( Class < ? > proxyInterface );2;0;3
+JndiObjectFactoryBean.isSingleton( );1;0;3
+JndiObjectFactoryBean.afterPropertiesSet( );11;13;26
+JndiObjectFactoryBean.createCompositeInterface( Class < ? > [ ] interfaces );1;0;3
+JndiObjectFactoryBean.setExposeAccessContext( boolean exposeAccessContext );1;0;3
+JndiObjectFactoryBean.setDefaultObject( Object defaultObject );1;0;3
+JndiContextExposingInterceptor.invoke( MethodInvocation invocation );2;0;9
+JndiObjectFactoryBean.setProxyInterfaces( Class < ? > ... proxyInterfaces );1;0;3
+JndiObjectFactoryBean.setBeanFactory( BeanFactory beanFactory );2;0;5
+JndiObjectFactoryBean.setCache( boolean cache );1;0;3
+JndiObjectFactoryBean.setLookupOnStartup( boolean lookupOnStartup );1;0;3
+JndiObjectFactoryBean.setBeanClassLoader( ClassLoader classLoader );1;0;3
+JndiObjectFactoryBean.lookupWithFallback( );7;2;26

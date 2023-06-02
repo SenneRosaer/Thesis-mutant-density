@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResolveEngine.getEventManager( );1;0;3
+ResolveEngine.setDictatorResolver( DependencyResolver dictatorResolver );1;0;4
+ResolveEngine.checkInterrupted( );1;0;3
+ResolveEngine.computeConflicts( VisitNode node , VisitNode ancestor , String conf , Collection toevict , Collection selectedNodes );9;3;32
+ResolveEngine.outputReport( ResolveReport report , ResolutionCacheManager cacheMgr , ResolveOptions options );2;0;11
+ResolveEngine.getSettings( );1;0;3
+ResolveEngine.isDependenciesFetched( IvyNode node , String conf );1;0;4
+ResolveEngine.resolve( File ivySource );1;0;3
+ResolveEngine.handleTransiviteEviction( ModuleDescriptor md , String [ ] confs , ResolveData data , List sortedDependencies );12;8;48
+ResolveEngine.resolve( final ModuleRevisionId mrid , ResolveOptions options , boolean changing );3;1;21
+ResolveEngine.getDependencies( URL ivySource , ResolveOptions options );1;0;4
+ResolveEngine.fetchDependencies( VisitNode node , String conf , boolean shouldBePublic );18;22;54
+ResolveEngine.download( Artifact artifact , DownloadOptions options );1;0;5
+ResolveEngine.getDependenciesFetchedKey( IvyNode node , String conf );1;3;6
+ResolveEngine.resolveConflict( VisitNode node , VisitNode ancestor , String conf , Collection toevict );21;9;109
+ResolveEngine.checkConflictSolvedEvicted( VisitNode node , VisitNode ancestor );3;0;9
+ResolveEngine.getDictatorResolver( );1;0;3
+ResolveEngine.checkConflictSolvedSelected( VisitNode node , VisitNode ancestor );3;0;9
+ResolveEngine.getSortEngine( );1;0;3
+ResolveEngine.downloadArtifacts( ResolveReport report , Filter artifactFilter , DownloadOptions options );12;17;45
+ResolveEngine.resolveConflicts( VisitNode node , VisitNode ancestor , Collection conflicts , ConflictManager conflictManager );6;4;19
+ResolveEngine.findModule( ModuleRevisionId id , ResolveOptions options );4;2;18
+ResolveEngine.markDependenciesFetched( IvyNode node , String conf );1;0;4
+ResolveEngine.locate( Artifact artifact );1;0;4
+ResolveEngine.doFetchDependencies( VisitNode node , String conf );16;18;47
+ResolveEngine.download( ArtifactOrigin origin , DownloadOptions options );1;0;5
+ResolveEngine.mediate( DependencyDescriptor dd , ResolveOptions options );5;4;15
+ResolveEngine.resolve( URL ivySource , ResolveOptions options );4;4;15
+ResolveEngine.resolve( URL ivySource );1;0;3
+ResolveEngine.getDependencies( ModuleDescriptor md , ResolveOptions options , ResolveReport report );18;18;81
+ResolveEngine.resolve( ModuleDescriptor md , ResolveOptions options );17;11;91
+ResolveEngine.ResolveEngine( ResolveEngineSettings settings , EventManager eventManager , SortEngine sortEngine );1;0;5
+ResolveEngine.resolveConflict( VisitNode node , String conf );1;0;3

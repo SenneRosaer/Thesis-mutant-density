@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WorkspaceImpl.getJcrValueFactory( );1;0;3
+WorkspaceImpl.getNameResolver( );1;0;3
+WorkspaceImpl.createObservationManager( NamePathResolver resolver , NodeTypeRegistry ntRegistry );1;0;3
+WorkspaceImpl.createLockManager( WorkspaceManager wspManager , ItemManager itemManager );1;0;5
+WorkspaceImpl.getAccessManager( );1;0;3
+WorkspaceImpl.getAccessibleWorkspaceNames( );1;0;4
+WorkspaceImpl.getItemDefinitionProvider( );1;0;3
+WorkspaceImpl.getLockManager( );2;1;6
+WorkspaceImpl.getNameFactory( );1;0;3
+WorkspaceImpl.getHierarchyManager( );1;0;3
+WorkspaceImpl.importXML( String parentAbsPath , InputStream in , int uuidBehavior );1;2;9
+WorkspaceImpl.getQueryManager( );2;1;8
+WorkspaceImpl.getNodeTypeRegistry( );1;0;3
+WorkspaceImpl.createVersionManager( WorkspaceManager wspManager );1;0;3
+WorkspaceImpl.getUpdatableItemStateManager( );1;0;3
+WorkspaceImpl.copy( String srcWorkspace , String srcAbsPath , String destAbsPath );3;1;22
+WorkspaceImpl.move( String srcAbsPath , String destAbsPath );1;0;8
+WorkspaceImpl.copy( String srcAbsPath , String destAbsPath );1;0;8
+WorkspaceImpl.getPathFactory( );1;0;3
+WorkspaceImpl.getIdFactory( );1;0;3
+WorkspaceImpl.getQValueFactory( );1;0;3
+WorkspaceImpl.getObservationManager( );2;1;8
+WorkspaceImpl.getSession( );1;0;3
+WorkspaceImpl.getPathResolver( );1;0;3
+WorkspaceImpl.getName( );1;0;3
+WorkspaceImpl.getNodeTypeManager( );1;0;4
+WorkspaceImpl.createManager( RepositoryService service , SessionInfo sessionInfo , CacheBehaviour cacheBehaviour , int pollTimeout );1;0;4
+WorkspaceImpl.clone( String srcWorkspace , String srcAbsPath , String destAbsPath , boolean removeExisting );3;1;23
+WorkspaceImpl.restore( Version [ ] versions , boolean removeExisting );2;2;8
+WorkspaceImpl.getImportContentHandler( String parentAbsPath , int uuidBehavior );1;2;9
+WorkspaceImpl.getEffectiveNodeTypeProvider( );1;0;3
+WorkspaceImpl.getVersionManager( );2;1;6
+WorkspaceImpl.WorkspaceImpl( String name , SessionImpl session , RepositoryConfig config , SessionInfo sessionInfo );1;1;9
+WorkspaceImpl.getNamespaceResolver( );1;0;3
+WorkspaceImpl.getItemStateFactory( );1;0;3
+WorkspaceImpl.dispose( );1;0;2
+WorkspaceImpl.getNamespaceRegistry( );1;0;4
+WorkspaceImpl.getValidator( );1;0;3
+WorkspaceImpl.getNamePathResolver( );1;0;3

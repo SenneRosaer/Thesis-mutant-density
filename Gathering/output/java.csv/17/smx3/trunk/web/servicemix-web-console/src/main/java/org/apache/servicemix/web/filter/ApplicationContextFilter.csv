@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ApplicationContextFilter.getApplicationContextName( );1;0;3
+ApplicationContextFilter.getInitParameter( FilterConfig config , String key , String defaultValue );2;1;4
+ApplicationContextFilter.getContext( );1;0;3
+ApplicationContextFilter.doFilter( ServletRequest request , ServletResponse response , FilterChain chain );1;0;6
+ApplicationContextFilter.init( FilterConfig config );1;0;9
+ApplicationContextFilter.setRequestContextName( String requestContextName );1;0;3
+ApplicationContextFilter.destroy( );1;0;2
+ApplicationContextFilter.getRequestContextName( );1;0;3
+ApplicationContextFilter.entrySet( );1;0;3
+ApplicationContextFilter.setApplicationContextName( String variableName );1;0;3
+ApplicationContextFilter.createApplicationContextWrapper( final WebApplicationContext context );2;0;17
+ApplicationContextFilter.bindRequestBean( Object bean , ServletRequest request );2;0;8
+ApplicationContextFilter.createRequestContextWrapper( final ServletRequest request );2;0;18
+ApplicationContextFilter.getServletContext( );1;0;3
+ApplicationContextFilter.get( Object key );2;2;6

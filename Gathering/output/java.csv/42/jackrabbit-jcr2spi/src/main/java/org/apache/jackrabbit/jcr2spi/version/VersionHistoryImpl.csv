@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VersionHistoryImpl.addVersionLabel( String versionName , String label , boolean moveLabel );1;0;6
+VersionHistoryImpl.getVersionableUUID( );1;0;4
+VersionHistoryImpl.getVersionState( String versionName );3;1;14
+VersionHistoryImpl.checkIsWritable( );1;0;4
+VersionHistoryImpl.getAllVersions( );3;1;13
+VersionHistoryImpl.removeVersionLabel( String label );1;0;7
+VersionHistoryImpl.VersionHistoryImpl( SessionImpl session , NodeState state , ItemLifeCycleListener [ ] listeners );2;1;10
+VersionHistoryImpl.isWritable( );1;0;4
+VersionHistoryImpl.getRootVersion( );2;1;10
+VersionHistoryImpl.getVersionLabels( Version version );3;2;13
+VersionHistoryImpl.getVersionByLabel( Name qLabel );2;1;9
+VersionHistoryImpl.isSame( Item otherItem );2;0;8
+VersionHistoryImpl.checkValidVersion( Version version );2;1;5
+VersionHistoryImpl.getVersionLabels( );2;2;9
+VersionHistoryImpl.refreshEntry( NodeEntry entry );1;0;3
+VersionHistoryImpl.getQLabel( String label );2;0;9
+VersionHistoryImpl.getQLabels( );4;3;12
+VersionHistoryImpl.hasVersionLabel( Version version , String label );3;2;13
+VersionHistoryImpl.removeVersion( String versionName );1;0;5
+VersionHistoryImpl.getVersionByLabel( String label );1;0;4
+VersionHistoryImpl.hasVersionLabel( String label );3;2;11
+VersionHistoryImpl.getVersion( String versionName );1;0;5

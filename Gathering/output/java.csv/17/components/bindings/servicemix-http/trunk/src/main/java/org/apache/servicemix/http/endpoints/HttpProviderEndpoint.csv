@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpProviderEndpoint.getProxyPassword( );1;0;3
+HttpProviderEndpoint.stop( );3;2;7
+HttpProviderEndpoint.getProxyHost( );1;0;3
+HttpProviderEndpoint.getLocationURI( );1;0;3
+Exchange.onException( Throwable throwable );1;0;3
+HttpProviderEndpoint.handleException( SmxHttpExchange httpExchange , MessageExchange exchange , Throwable ex );5;3;15
+HttpProviderEndpoint.setExpectGzippedResponse( boolean expectGzippedResponse );1;0;3
+HttpProviderEndpoint.setMarshaler( HttpProviderMarshaler marshaler );1;0;3
+HttpProviderEndpoint.getProxyUsername( );1;0;3
+HttpProviderEndpoint.getMarshaler( );1;0;3
+HttpProviderEndpoint.getSsl( );1;0;3
+HttpProviderEndpoint.HttpProviderEndpoint( );1;0;3
+HttpProviderEndpoint.setProxyPort( int proxyPort );1;0;3
+HttpProviderEndpoint.setProxyHost( String proxyHost );1;0;3
+HttpProviderEndpoint.process( MessageExchange exchange );3;2;11
+HttpProviderEndpoint.getConfiguration( );1;0;3
+HttpProviderEndpoint.getClientSoTimeout( );1;0;3
+HttpProviderEndpoint.setProxyUsername( String proxyUsername );1;0;3
+HttpProviderEndpoint.setGzipRequest( boolean gzipRequest );1;0;3
+HttpProviderEndpoint.setProxyPassword( String proxyPassword );1;0;3
+HttpProviderEndpoint.handle( SmxHttpExchange httpExchange , MessageExchange exchange );6;3;18
+Exchange.Exchange( MessageExchange jbiExchange );1;0;3
+HttpProviderEndpoint.isGzipRequest( );1;0;3
+SSLManagedHttpClient.getSSLContext( );2;1;7
+HttpProviderEndpoint.HttpProviderEndpoint( DefaultComponent component , ServiceEndpoint endpoint );1;0;3
+HttpProviderEndpoint.isExpectGzippedResponse( );1;0;3
+HttpProviderEndpoint.getProxyPort( );1;0;3
+HttpProviderEndpoint.validate( );7;3;17
+Exchange.onResponseComplete( );1;0;3
+HttpProviderEndpoint.setLocationURI( String locationURI );1;0;3
+SSLManagedHttpClient.getStrictSSLContext( );8;5;37
+HttpProviderEndpoint.HttpProviderEndpoint( ServiceUnit serviceUnit , QName service , String endpoint );1;0;3
+HttpProviderEndpoint.setClientSoTimeout( int clientTimeout );1;0;3
+HttpProviderEndpoint.setSsl( SslParameters ssl );1;0;3
+HttpProviderEndpoint.getConnectionPool( );8;8;26
+Exchange.onConnectionFailed( Throwable throwable );1;0;3

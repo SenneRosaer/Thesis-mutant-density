@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+***not in a method***;0;1;0
+BooleanScorer2.addProhibitedScorers( Scorer requiredCountingSumScorer );3;2;8
+Coordinator.init( );2;3;7
+BooleanScorer2.dualConjunctionSumScorer( Scorer req1 , Scorer req2 );1;0;3
+BooleanScorer2.skipTo( int target );2;1;6
+BooleanScorer2.makeCountingSumScorerSomeReq( );6;5;28
+BooleanScorer2.countingDisjunctionSumScorer( final List scorers , int minNrShouldMatch );2;1;12
+BooleanScorer2.makeCountingSumScorer( );2;1;5
+Coordinator.initDoc( );1;0;3
+BooleanScorer2.explain( int doc );1;0;3
+BooleanScorer2.next( );2;1;6
+Coordinator.coordFactor( );1;0;3
+BooleanScorer2.BooleanScorer2( Similarity similarity , int minNrShouldMatch );1;0;3
+SingleMatchScorer.skipTo( int docNr );1;0;3
+BooleanScorer2.countingConjunctionSumScorer( List requiredScorers );2;1;13
+BooleanScorer2.initCountingSumScorer( );1;0;4
+BooleanScorer2.makeCountingSumScorerNoReq( );6;5;19
+BooleanScorer2.BooleanScorer2( Similarity similarity , int minNrShouldMatch , boolean allowDocsOutOfOrder );2;1;9
+SingleMatchScorer.SingleMatchScorer( Scorer scorer );1;0;4
+BooleanScorer2.score( );2;5;7
+SingleMatchScorer.explain( int docNr );1;0;3
+BooleanScorer2.score( HitCollector hc , int max );3;2;11
+BooleanScorer2.score( HitCollector hc );8;5;22
+SingleMatchScorer.score( );2;2;7
+SingleMatchScorer.doc( );1;0;3
+BooleanScorer2.BooleanScorer2( Similarity similarity );1;0;3
+BooleanScorer2.doc( );1;0;1
+BooleanScorer2.add( final Scorer scorer , boolean required , boolean prohibited );5;2;15
+SingleMatchScorer.next( );1;0;3

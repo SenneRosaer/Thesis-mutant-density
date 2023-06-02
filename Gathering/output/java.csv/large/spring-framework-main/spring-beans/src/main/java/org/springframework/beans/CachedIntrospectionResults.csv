@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CachedIntrospectionResults.forClass( Class < ? > beanClass );8;4;24
+CachedIntrospectionResults.CachedIntrospectionResults( Class < ? > beanClass );20;16;48
+CachedIntrospectionResults.buildGenericTypeAwarePropertyDescriptor( Class < ? > beanClass , PropertyDescriptor pd );2;0;9
+CachedIntrospectionResults.getTypeDescriptor( PropertyDescriptor pd );1;0;3
+CachedIntrospectionResults.getBeanInfo( Class < ? > beanClass );3;1;9
+CachedIntrospectionResults.getPropertyDescriptor( String name );4;3;10
+CachedIntrospectionResults.getBeanInfo( );1;0;3
+CachedIntrospectionResults.isClassLoaderAccepted( ClassLoader classLoader );3;0;8
+CachedIntrospectionResults.isPlainAccessor( Method method );8;9;15
+CachedIntrospectionResults.isUnderneathClassLoader( @ Nullable ClassLoader candidate , @ Nullable ClassLoader parent );5;4;16
+CachedIntrospectionResults.acceptClassLoader( @ Nullable ClassLoader classLoader );2;1;5
+CachedIntrospectionResults.getPropertyDescriptors( );1;0;3
+CachedIntrospectionResults.isInvalidReadOnlyPropertyType( @ Nullable Class < ? > returnType , Class < ? > beanClass );5;6;6
+CachedIntrospectionResults.introspectInterfaces( Class < ? > beanClass , Class < ? > currClass , Set < String > readMethodNames );11;9;23
+CachedIntrospectionResults.clearClassLoader( @ Nullable ClassLoader classLoader );1;0;8
+CachedIntrospectionResults.addTypeDescriptor( PropertyDescriptor pd , TypeDescriptor td );2;1;4
+CachedIntrospectionResults.introspectPlainAccessors( Class < ? > beanClass , Set < String > readMethodNames );5;4;10
+CachedIntrospectionResults.getBeanClass( );1;0;3

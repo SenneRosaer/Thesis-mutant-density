@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HeaderMethodArgumentResolverTests.resolveArgumentNotFound( );1;0;5
+HeaderMethodArgumentResolverTests.resolveArgument( );1;0;5
+HeaderMethodArgumentResolverTests.resolveArgumentDefaultValue( );1;0;5
+HeaderMethodArgumentResolverTests.setup( );1;0;5
+TestMessageHeaderAccessor.TestMessageHeaderAccessor( );1;0;3
+HeaderMethodArgumentResolverTests.supportsParameter( );1;0;4
+HeaderMethodArgumentResolverTests.resolveArgumentNativeHeader( );1;0;6
+HeaderMethodArgumentResolverTests.resolveArgument( MethodParameter param , Message < ? > message );1;0;3
+HeaderMethodArgumentResolverTests.resolveOptionalHeaderWithValue( );1;0;6
+HeaderMethodArgumentResolverTests.handleMessage( @ Header String param1 , @ Header ( name = "name" , defaultValue = "bar" ) String param2 , @ Header ( name = "name" , defaultValue = "#{systemProperties.systemProperty}" ) String param3 , @ Header ( name = "#{systemProperties.systemProperty}" ) String param4 , String param5 , @ Header ( "foo" ) Optional < String > param6 , @ Header ( "nativeHeaders.param1" ) String nativeHeaderParam1 );1;0;2
+HeaderMethodArgumentResolverTests.resolveArgumentNativeHeaderAmbiguity( );1;0;10
+HeaderMethodArgumentResolverTests.resolveDefaultValueSystemProperty( );1;0;12
+HeaderMethodArgumentResolverTests.resolveNameFromSystemProperty( );1;0;12
+HeaderMethodArgumentResolverTests.resolveOptionalHeaderAsEmpty( );1;0;6

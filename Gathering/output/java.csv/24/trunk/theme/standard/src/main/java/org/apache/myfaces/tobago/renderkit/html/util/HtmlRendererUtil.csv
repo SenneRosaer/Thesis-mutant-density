@@ -1,0 +1,65 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HtmlRendererUtil.writeLabelWithAccessKey( TobagoResponseWriter writer , LabelWithAccessKey label );2;3;13
+HtmlRendererUtil.addAcceleratorKey( FacesContext facesContext , String func , char key );1;0;3
+HtmlRendererUtil.getStyleAttributeIntValue( HtmlStyleMap style , String name );2;1;6
+HtmlRendererUtil.ensureStyleAttributeMap( UIComponent component , String attribute );2;1;9
+HtmlRendererUtil.checkForCommandFacet( UIComponent component , FacesContext facesContext , TobagoResponseWriter writer );1;0;3
+HtmlRendererUtil.checkForCommandFacet( UIComponent component , List < String > clientIds , FacesContext facesContext , TobagoResponseWriter writer );5;1;12
+HtmlRendererUtil.getRenderedPartiallyJavascriptArray( FacesContext facesContext , UICommand command );4;4;18
+HtmlRendererUtil.renderSelectItems( UIInput component , List < SelectItem > items , Object [ ] values , TobagoResponseWriter writer , FacesContext facesContext );11;2;44
+HtmlRendererUtil.removeStyleClasses( UIComponent cell );6;6;14
+HtmlRendererUtil.HtmlRendererUtil( );1;0;2
+HtmlRendererUtil.getComponentId( FacesContext context , UIComponent component , String componentId );5;3;15
+HtmlRendererUtil.renderDojoDndSource( FacesContext context , UIComponent component );5;3;9
+HtmlRendererUtil.getRendererName( FacesContext facesContext , UIComponent component );3;2;11
+HtmlRendererUtil.getStyleAttributeValue( String style , String name );4;2;14
+HtmlRendererUtil.removeStyleAttribute( String style , String name );2;1;7
+HtmlRendererUtil.replaceStyleAttribute( UIComponent component , String attribute , String styleAttribute , int value );1;0;4
+HtmlRendererUtil.writeScriptForClientId( String clientId , Map . Entry < String , UIComponent > facetEntry , FacesContext facesContext , TobagoResponseWriter writer );4;3;41
+HtmlRendererUtil.addMarkupClass( UIComponent component , String rendererName , String subComponent , StringBuilder tobagoClass );1;0;3
+HtmlRendererUtil.startJavascript( ResponseWriter writer );1;0;5
+HtmlRendererUtil.renderTip( UIComponent component , TobagoResponseWriter writer );3;1;10
+HtmlRendererUtil.addMarkupClass( UIComponent component , String rendererName , StyleClasses classes );1;0;3
+HtmlRendererUtil.createHeaderAndBodyStyles( FacesContext facesContext , UIComponent component );1;0;4
+HtmlRendererUtil.addCssClass( UIComponent component , String clazz );1;0;3
+HtmlRendererUtil.createSrc( String src , String ext );2;4;9
+HtmlRendererUtil.ensureStyleAttributeMap( UIComponent component );1;0;3
+HtmlRendererUtil.createHeaderAndBodyStyles( FacesContext facesContext , UIComponent component , boolean width );7;4;28
+HtmlRendererUtil.replaceStyleAttribute( UIComponent component , String styleAttribute , int value );1;0;4
+HtmlRendererUtil.createOnclickAcceleratorKeyJsStatement( String clientId , char key , String modifier );1;0;4
+HtmlRendererUtil.toStyleString( String key , Integer value );1;0;8
+HtmlRendererUtil.writeScriptLoader( FacesContext facesContext , String [ ] scripts , String [ ] afterLoadCmds );11;7;41
+HtmlRendererUtil.removeStyleAttribute( UIComponent component , String name );1;0;3
+HtmlRendererUtil.replaceStyleAttribute( UIComponent component , String attribute , String styleAttribute , String value );1;0;4
+HtmlRendererUtil.endJavascript( ResponseWriter writer );1;0;4
+HtmlRendererUtil.toStyleString( String key , String value );1;0;8
+HtmlRendererUtil.getComponentIds( FacesContext context , UIComponent component , String [ ] componentId );5;3;15
+HtmlRendererUtil.getTobagoResponseWriter( FacesContext facesContext );2;0;8
+HtmlRendererUtil.layoutSpace( FacesContext facesContext , UIComponent component , boolean width );15;18;53
+HtmlRendererUtil.renderImageTip( UIComponent component , TobagoResponseWriter writer );3;1;12
+HtmlRendererUtil.getTitleFromTipAndMessages( FacesContext facesContext , UIComponent component );1;0;4
+HtmlRendererUtil.addClickAcceleratorKey( FacesContext facesContext , String clientId , char key );1;0;3
+HtmlRendererUtil.setDefaultTransition( FacesContext facesContext , boolean transition );1;0;3
+HtmlRendererUtil.addTip( String title , Object tip );4;6;11
+HtmlRendererUtil.getJavascriptString( String str );2;1;6
+HtmlRendererUtil.layoutHeight( FacesContext facesContext , UIComponent component );1;0;3
+HtmlRendererUtil.writeJavascript( ResponseWriter writer , String script );1;0;5
+HtmlRendererUtil.writeStyleLoader( FacesContext facesContext , String [ ] styles );1;0;8
+HtmlRendererUtil.createAcceleratorKeyJsStatement( String func , char key , String modifier );3;2;15
+HtmlRendererUtil.replaceStyleAttribute( String style , String name , String value );2;3;4
+HtmlRendererUtil.writeScriptLoader( FacesContext facesContext , String script );1;0;3
+HtmlRendererUtil.addImageSources( FacesContext facesContext , TobagoResponseWriter writer , String src , String id );4;3;16
+HtmlRendererUtil.addCommandFacet( List < String > clientIds , Map . Entry < String , UIComponent > facetEntry , FacesContext facesContext , TobagoResponseWriter writer );2;0;5
+HtmlRendererUtil.getJavascriptArray( String [ ] list );3;3;14
+HtmlRendererUtil.getLayoutSpaceStyle( UIComponent component );3;2;16
+HtmlRendererUtil.addAcceleratorKey( FacesContext facesContext , String func , char key , String modifier );1;0;4
+HtmlRendererUtil.createDojoDndType( UIComponent component , String clientId , String dojoType );12;12;51
+HtmlRendererUtil.layoutWidth( FacesContext facesContext , UIComponent component );1;0;3
+HtmlRendererUtil.renderFocusId( FacesContext facesContext , UIComponent component );4;3;13
+HtmlRendererUtil.renderDojoDndItem( UIComponent component , TobagoResponseWriter writer , boolean addStyle );6;6;14
+HtmlRendererUtil.createCssClass( FacesContext facesContext , UIComponent component );2;1;7
+HtmlRendererUtil.prepareRender( FacesContext facesContext , UIComponent component );3;3;8
+HtmlRendererUtil.addClickAcceleratorKey( FacesContext facesContext , String clientId , char key , String modifier );1;0;5
+HtmlRendererUtil.replaceStyleAttribute( UIComponent component , String styleAttribute , String value );1;0;4
+HtmlRendererUtil.prepareInnerStyle( UIComponent component );5;8;14
+HtmlRendererUtil.updateClassAttribute( String cssClass , String rendererName , UIComponent component );1;0;4

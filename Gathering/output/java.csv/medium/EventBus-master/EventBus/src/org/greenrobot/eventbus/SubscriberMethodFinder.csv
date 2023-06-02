@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SubscriberMethodFinder.clearCaches( );1;0;3
+SubscriberMethodFinder.findUsingReflectionInSingleClass( FindState findState );16;13;44
+SubscriberMethodFinder.getMethodsAndRelease( FindState findState );3;3;13
+FindState.checkAdd( Method method , Class < ? > eventType );4;2;14
+SubscriberMethodFinder.prepareFindState( );3;3;12
+SubscriberMethodFinder.findUsingReflection( Class < ? > subscriberClass );2;1;9
+SubscriberMethodFinder.findSubscriberMethods( Class < ? > subscriberClass );4;1;18
+FindState.checkAddWithMethodSignature( Method method , Class < ? > eventType );5;2;14
+SubscriberMethodFinder.getSubscriberInfo( FindState findState );7;6;17
+***not in a method***;0;3;0
+FindState.moveToSuperclass( );6;3;12
+SubscriberMethodFinder.SubscriberMethodFinder( List < SubscriberInfoIndex > subscriberInfoIndexes , boolean strictMethodVerification , boolean ignoreGeneratedIndex );1;0;5
+FindState.recycle( );1;0;10
+SubscriberMethodFinder.findUsingInfo( Class < ? > subscriberClass );5;2;19
+FindState.initForSubscriber( Class < ? > subscriberClass );1;0;5

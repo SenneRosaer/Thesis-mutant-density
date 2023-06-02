@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PageFlowController.getStrutsLocalURI( );1;1;6
+PageFlowController.getReturnActionViewRenderer( );1;0;3
+PageFlowController.onExitNesting( );1;0;2
+PageFlowController.isLocalFile( ActionForward forward );3;7;19
+PageFlowController.thePreviousActionInfo( );1;0;3
+PageFlowController.getCachedInfo( );2;1;10
+PageFlowController.checkPreviousActionInfoDisabled( );2;0;6
+PageFlowController.savePreviousPageInfo( ActionForward forward , ActionForm form , ActionMapping mapping , HttpServletRequest request , ServletContext servletContext , boolean isSpecialForward );11;11;27
+PageFlowController.getPreviousFormBean( );2;1;4
+PageFlowController.getPreviousActionURI( );2;1;4
+PageFlowController.removeFromSession( HttpServletRequest request );2;0;11
+PageFlowController.isOnNestingStack( );1;0;3
+PageFlowController.getURI( );1;0;3
+PageFlowController.create( HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );1;0;5
+PageFlowController.removeSharedFlow( String sharedFlowName );2;1;5
+PageFlowController.forwardTo( ActionForward fwd , ActionMapping mapping , PageFlowExceptionConfig exceptionConfig , String actionName , ModuleConfig altModuleConfig , ActionForm form , HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );10;2;44
+PageFlowController.isPreviousPageInfoDisabled( );3;1;6
+PageFlowController.isNestable( );1;0;3
+PageFlowController.setReturnActionViewRenderer( ViewRenderer returnActionViewRenderer );1;0;3
+PageFlowController.internalExecute( ActionMapping mapping , ActionForm form , HttpServletRequest request , HttpServletResponse response );1;0;4
+PageFlowController.setIsOnNestingStack( boolean isOnNestingStack );1;0;3
+PageFlowController.getModulePath( );1;0;3
+PageFlowController.isPreviousActionInfoDisabled( );3;1;6
+PageFlowController.beforePage( );4;4;15
+PageFlowController.getDisplayName( );1;0;3
+PageFlowController.getTaxonomy( );1;3;6
+PageFlowController.isPageFlow( );1;0;3
+PageFlowController.thePreviousPageInfo( );1;0;3
+PageFlowController.initializeSharedFlowFields( HttpServletRequest request );6;5;30
+PageFlowController.isLongLived( );1;0;3
+PageFlowController.checkPreviousPageInfoDisabled( );2;0;6
+PageFlowController.valueUnbound( HttpSessionBindingEvent event );2;1;6
+PageFlowController.getPreviousForwardPath( );3;2;12
+PageFlowController.getPreviousForm( );2;1;4
+PageFlowController.theSharedFlows( );1;0;3
+PageFlowController.persistInSession( HttpServletRequest request , HttpServletResponse response );3;3;14
+PageFlowController.ensureFailover( HttpServletRequest request );4;3;22
+PageFlowController.theCurrentPageInfo( );1;0;3
+PageFlowController.getCurrentForwardPath( );4;3;20
+PageFlowController.PageFlowController( );1;0;2
+PageFlowController.getSharedFlow( String sharedFlowName );1;0;3
+PageFlowController.getPreviousActionInfo( );1;0;4
+PageFlowController.getPreviousPageInfo( );3;2;9
+PageFlowController.getSharedFlows( );1;0;3
+PageFlowController.getCurrentPageInfo( );2;1;8
+PageFlowController.exitNesting( HttpServletRequest request , HttpServletResponse response , ActionMapping mapping , ActionForm form );4;1;30
+PageFlowController.getPreviousPageInfoLegacy( PageFlowController curJpf , HttpServletRequest request );2;0;10
+PageFlowController.savePreviousActionInfo( ActionForm form , HttpServletRequest request , ActionMapping mapping , ServletContext servletContext );2;0;5

@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HeapedScorerDoc.HeapedScorerDoc( Scorer s );1;0;1
+ScorerDocQueue.ScorerDocQueue( int maxSize );1;1;7
+ScorerDocQueue.topSkipToAndAdjustElsePop( int target );1;0;3
+ScorerDocQueue.adjustTop( );1;0;4
+ScorerDocQueue.put( Scorer scorer );1;1;5
+ScorerDocQueue.downHeap( );7;13;20
+ScorerDocQueue.upHeap( );3;5;12
+ScorerDocQueue.pop( );1;0;5
+ScorerDocQueue.topScore( );1;0;3
+ScorerDocQueue.topNextAndAdjustElsePop( );1;0;3
+ScorerDocQueue.top( );1;0;3
+ScorerDocQueue.size( );1;0;3
+ScorerDocQueue.topDoc( );1;0;3
+ScorerDocQueue.clear( );2;2;6
+HeapedScorerDoc.HeapedScorerDoc( Scorer scorer , int doc );1;0;4
+ScorerDocQueue.checkAdjustElsePop( boolean cond );2;1;11
+ScorerDocQueue.popNoResult( );1;1;6
+HeapedScorerDoc.adjust( );1;0;1
+ScorerDocQueue.insert( Scorer scorer );4;5;15

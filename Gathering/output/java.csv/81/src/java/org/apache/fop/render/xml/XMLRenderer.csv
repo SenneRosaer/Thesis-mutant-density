@@ -1,0 +1,44 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLRenderer.renderFlow( NormalFlow flow );1;0;8
+XMLRenderer.renderInlineAreaBackAndBorders( InlineArea area );1;0;2
+XMLRenderer.processOffDocumentItem( OffDocumentItem oDI );5;1;16
+XMLRenderer.isDetailedFormat( );1;1;3
+XMLRenderer.startPageSequence( PageSequence pageSequence );5;5;23
+XMLRenderer.renderPage( PageViewport page );3;1;20
+XMLRenderer.renderBeforeFloat( BeforeFloat bf );1;0;5
+XMLRenderer.mimicRenderer( Renderer renderer );1;0;3
+XMLRenderer.renderViewport( Viewport viewport );2;0;13
+XMLRenderer.startVParea( CTM ctm , Rectangle2D clippingRect );1;0;2
+XMLRenderer.addTraitAttributes( Area area );18;9;66
+XMLRenderer.renderText( TextArea text );3;2;16
+XMLRenderer.renderInlineParent( InlineParent ip );1;0;9
+XMLRenderer.renderForeignObject( ForeignObject fo , Rectangle2D pos );1;0;12
+XMLRenderer.renderMainReference( MainReference mr );5;6;27
+XMLRenderer.getMimeType( );1;0;3
+XMLRenderer.renderLeader( Leader area );1;0;11
+XMLRenderer.XMLRenderer( );1;0;3
+XMLRenderer.renderContainer( Container cont );1;0;5
+XMLRenderer.renderBookmarkTree( BookmarkData bookmarkRoot );3;3;10
+XMLRenderer.renderFootnote( Footnote footnote );1;0;7
+XMLRenderer.startRenderer( OutputStream outputStream );5;2;25
+XMLRenderer.setUserAgent( FOUserAgent agent );2;1;9
+XMLRenderer.renderDestination( DestinationData destination );3;2;12
+XMLRenderer.renderReferenceArea( Block block );2;1;7
+XMLRenderer.handleExtensionAttachments( List attachments );6;3;20
+XMLRenderer.renderInlineSpace( Space space );1;0;8
+XMLRenderer.setCompactFormat( boolean compact );1;0;3
+XMLRenderer.addAreaAttributes( Area area );4;5;16
+XMLRenderer.renderLineArea( LineArea line );1;0;8
+XMLRenderer.renderInlineArea( InlineArea inlineArea );2;1;11
+XMLRenderer.renderWord( WordArea word );5;6;23
+XMLRenderer.transferForeignObjects( AreaTreeObject ato );3;0;17
+XMLRenderer.renderInlineBlockParent( InlineBlockParent ibp );1;0;9
+XMLRenderer.endVParea( );1;0;2
+XMLRenderer.renderBookmarkItem( BookmarkData bm );3;3;14
+XMLRenderer.setupFontInfo( FontInfo inFontInfo );2;1;7
+XMLRenderer.renderBlock( Block block );11;5;44
+XMLRenderer.renderSpace( SpaceArea space );2;1;11
+XMLRenderer.renderImage( Image image , Rectangle2D pos );1;0;8
+XMLRenderer.stopRenderer( );3;1;13
+XMLRenderer.endPageSequence( );2;0;6
+XMLRenderer.renderRegionViewport( RegionViewport port );9;7;45

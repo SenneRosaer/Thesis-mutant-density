@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RedefinitionHolder.redefineComplexType( String name );3;3;5
+RedefinitionMaster.getAttributeGroupRedefinitions( String name , StscImporter . SchemaToProcess schema );2;1;6
+StscTranslator.uriMatch( String s1 , String s2 );4;4;7
+RedefinitionMaster.doTopologicalSort( List genericRedefines , StscImporter . SchemaToProcess schema , String name , short componentType );31;46;110
+RedefinitionMaster.getModelGroupRedefinitions( String name , StscImporter . SchemaToProcess schema );2;1;6
+StscTranslator.getUserData( XmlObject pos );3;2;7
+StscTranslator.findFilename( XmlObject xobj );1;0;3
+RedefinitionMaster.componentNameFromCode( short code );5;0;12
+StscTranslator.findElementFormDefault( XmlObject obj );3;2;7
+StscTranslator.findAttributeFormDefault( XmlObject obj );3;2;7
+RedefinitionHolder.complainAboutMissingDefinitions( );9;3;26
+RedefinitionMaster.getSimpleTypeRedefinitions( String name , StscImporter . SchemaToProcess schema );2;1;6
+StscTranslator.copyGlobalElementToLocalElement( SchemaGlobalElement referenced , SchemaLocalElementImpl target );1;0;11
+RedefinitionHolder.redefineSimpleType( String name );3;3;5
+StscTranslator.isReservedTypeName( QName name );1;1;3
+RedefinitionMaster.RedefinitionMaster( RedefinitionHolder [ ] redefHolders );11;7;57
+RedefinitionMaster.locationFromRedefinitionAndCode( RedefinitionHolder redefinition , String name , short code );5;0;21
+StscTranslator.translateGlobalComplexType( TopLevelComplexType xsdType , String targetNamespace , boolean chameleon , boolean redefinition );4;2;26
+StscTranslator.translateModelGroup( NamedGroup namedGroup , String targetNamespace , boolean chameleon , boolean redefinition );4;3;19
+StscTranslator.translateAttributeType( TopLevelAttribute xsdType , String targetNamespace , boolean chameleon );1;0;7
+StscTranslator.buildPosInteger( XmlAnySimpleType value );2;0;15
+StscTranslator.translateElement( Element xsdElt , String targetNamespace , boolean chameleon , String elemFormDefault , String attFormDefault , List anonymousTypes , SchemaType outerType );74;65;289
+StscTranslator.translateDocumentType( TopLevelElement xsdType , String targetNamespace , boolean chameleon );1;0;7
+StscTranslator.translateIdentityConstraint( Keybase parseIC , String targetNamespace , boolean chameleon );7;7;45
+RedefinitionHolder.redefineModelGroup( String name );3;3;5
+StscTranslator.translateUseCode( Attribute . Use attruse );5;1;12
+StscTranslator.translateAttribute( Attribute xsdAttr , String targetNamespace , String formDefault , boolean chameleon , List anonymousTypes , SchemaType outerType , SchemaAttributeModel baseModel , boolean local );53;48;180
+StscTranslator.translateAnonymousSimpleType( SimpleType typedef , String targetNamespace , boolean chameleon , String elemFormDefault , String attFormDefault , List anonymousTypes , SchemaType outerType );1;0;12
+StscTranslator.translateGlobalSimpleType( TopLevelSimpleType xsdType , String targetNamespace , boolean chameleon , boolean redefinition );4;2;27
+RedefinitionMaster.getComplexTypeRedefinitions( String name , StscImporter . SchemaToProcess schema );2;1;6
+StscTranslator.removeWhitespace( String xpath );3;2;11
+StscTranslator.translateAttributeGroup( AttributeGroup attrGroup , String targetNamespace , boolean chameleon , boolean redefinition );3;2;17
+StscTranslator.checkRecursiveGroupReference( QName [ ] context , QName containingElement , SchemaTypeImpl outerType );14;16;29
+StscTranslator.addAllDefinitions( StscImporter . SchemaToProcess [ ] schemasAndChameleons );31;65;177
+RedefinitionHolder.redefineAttributeGroup( String name );3;3;5
+StscTranslator.copyGlobalAttributeToLocalAttribute( SchemaGlobalAttributeImpl referenced , SchemaLocalAttributeImpl target );1;0;9
+StscTranslator.isEmptySchema( Schema schema );1;1;6
+StscTranslator.checkXPathSyntax( String xpath );2;1;9
+StscTranslator.buildBigInt( XmlAnySimpleType value );4;2;21
+StscTranslator.buildNnInteger( XmlAnySimpleType value );2;0;15
+RedefinitionHolder.RedefinitionHolder( StscImporter . SchemaToProcess schemaToProcess , Redefine redefine );15;14;57

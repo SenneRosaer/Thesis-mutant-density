@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BpelDAOConnectionImpl.bpelEventTimelineQuery( InstanceFilter ifilter , BpelEventFilter efilter );1;0;9
+***not in a method***;0;3;0
+BpelDAOConnectionImpl.getInstance( Long iid );3;1;8
+BpelDAOConnectionImpl.equalsOrWildcardMatch( String s1 , String s2 );8;5;15
+BpelDAOConnectionImpl.instanceQuery( String expression );1;0;3
+BpelDAOConnectionImpl.beforeCompletion( );1;0;3
+BpelDAOConnectionImpl.apply( BpelEvent x );1;0;3
+BpelDAOConnectionImpl.insertBpelEvent( BpelEvent event , ProcessDAO processConfiguration , ProcessInstanceDAO instance );1;0;3
+BpelDAOConnectionImpl.bpelEventQuery( InstanceFilter ifilter , BpelEventFilter efilter );1;0;3
+BpelDAOConnectionImpl.compareInstanceUsingKey( String key , ProcessInstanceDAO instanceDAO1 , ProcessInstanceDAO instanceDAO2 );12;1;39
+BpelDAOConnectionImpl.releaseMessageExchange( String mexid );2;1;8
+BpelDAOConnectionImpl.getScope( Long siidl );4;1;9
+BpelDAOConnectionImpl.processQuery( ProcessFilter filter );1;0;3
+BpelDAOConnectionImpl.instanceQuery( InstanceFilter filter );22;18;55
+BpelDAOConnectionImpl.createProcess( QName pid , QName type , String guid , long version );1;0;5
+BpelDAOConnectionImpl.run( );2;1;7
+BpelDAOConnectionImpl.dateMatch( List < String > dateFilters , Date instanceDate , InstanceFilter filter );14;9;24
+BpelDAOConnectionImpl.createMessageExchange( final String mexId , char dir );2;0;19
+BpelDAOConnectionImpl.getMessageExchange( String mexid );1;0;5
+BpelDAOConnectionImpl.getProcess( QName processId );1;0;3
+BpelDAOConnectionImpl.BpelDAOConnectionImpl( Map < QName , ProcessDaoImpl > store , TransactionManager txm );1;0;4
+BpelDAOConnectionImpl.compare( ProcessInstanceDAO o1 , ProcessInstanceDAO o2 );3;1;8
+BpelDAOConnectionImpl.close( );1;0;2
+BpelDAOConnectionImpl.cleanupDeadWood( );4;5;18
+BpelDAOConnectionImpl.defer( final Runnable runnable );2;0;13
+BpelDAOConnectionImpl.onRollback( final Runnable runnable );3;0;12
+BpelDAOConnectionImpl.afterCompletion( int status );1;1;2

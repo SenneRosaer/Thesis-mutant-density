@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConcurrentTaskExecutor.setConcurrentExecutor( @ Nullable Executor executor );2;1;4
+ConcurrentTaskExecutor.execute( Runnable task );1;0;3
+ConcurrentTaskExecutor.submitListenable( Callable < T > task );1;0;3
+ManagedTaskBuilder.buildManagedTask( Callable < T > task , String identityName );1;0;5
+ManagedTaskExecutorAdapter.submitListenable( Runnable task );1;0;3
+ConcurrentTaskExecutor.ConcurrentTaskExecutor( );1;0;4
+ConcurrentTaskExecutor.submit( Callable < T > task );1;0;3
+ConcurrentTaskExecutor.getAdaptedExecutor( Executor concurrentExecutor );3;2;6
+ConcurrentTaskExecutor.setTaskDecorator( TaskDecorator taskDecorator );1;0;3
+ManagedTaskExecutorAdapter.submit( Runnable task );1;0;3
+ManagedTaskExecutorAdapter.execute( Runnable task );1;0;3
+ManagedTaskExecutorAdapter.submitListenable( Callable < T > task );1;0;3
+ConcurrentTaskExecutor.submitListenable( Runnable task );1;0;3
+ConcurrentTaskExecutor.submit( Runnable task );1;0;3
+ManagedTaskExecutorAdapter.submit( Callable < T > task );1;0;3
+ConcurrentTaskExecutor.getConcurrentExecutor( );1;0;3
+ConcurrentTaskExecutor.execute( Runnable task , long startTimeout );1;0;3
+ConcurrentTaskExecutor.ConcurrentTaskExecutor( @ Nullable Executor executor );2;1;4
+ManagedTaskBuilder.buildManagedTask( Runnable task , String identityName );2;0;13
+ManagedTaskExecutorAdapter.ManagedTaskExecutorAdapter( Executor concurrentExecutor );1;0;3

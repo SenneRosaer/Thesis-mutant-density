@@ -1,0 +1,41 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Manager.Manager( URI uri , Options opts );11;10;33
+Manager.reconnection( boolean v );1;0;4
+Manager.onreconnect( );1;0;6
+Manager.processPacketQueue( );3;3;6
+Manager.call( Packet packet );1;0;3
+Manager.reconnectionAttempts( int v );1;0;4
+Manager.call( Object ... objects );2;3;4
+Manager.reconnectionDelay( long v );2;1;7
+Manager.reconnection( );1;0;3
+Manager.call( Object ... args );1;0;3
+Manager.socket( String nsp );1;0;3
+Manager.open( );1;0;3
+Manager.packet( Packet packet );6;1;25
+Engine.Engine( URI uri , Options opts );1;0;3
+Manager.call( Object [ ] encodedPackets );4;0;11
+Manager.randomizationFactor( );1;0;3
+Manager.isReconnecting( );1;0;3
+Manager.randomizationFactor( double v );2;1;7
+Manager.onopen( );4;0;40
+Manager.onerror( Exception err );1;0;4
+Manager.timeout( long v );1;0;4
+Manager.onclose( String reason );3;2;10
+Manager.ondecoded( Packet packet );1;0;3
+Manager.reconnectionDelayMax( long v );2;1;7
+Manager.timeout( );1;0;3
+Manager.cleanup( );2;1;9
+Manager.maybeReconnectOnOpen( );4;4;5
+Manager.open( final OpenCallback fn );11;0;82
+Manager.call( Exception err );2;1;11
+Manager.Manager( );1;0;3
+Manager.socket( final String nsp , Options opts );2;1;10
+Manager.reconnect( );7;2;50
+Manager.reconnectionDelayMax( );1;0;3
+Manager.Manager( URI uri );1;0;3
+Manager.Manager( Options opts );1;0;3
+Manager.close( );3;2;13
+Manager.run( );1;5;6
+Manager.destroy( );1;0;3
+Manager.reconnectionDelay( );1;0;3
+Manager.reconnectionAttempts( );1;0;3

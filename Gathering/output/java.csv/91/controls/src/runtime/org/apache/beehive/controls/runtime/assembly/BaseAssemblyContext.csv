@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BaseAssemblyContext.getDefaultImplClassName( );1;0;6
+BaseAssemblyContext.getMessager( );1;0;3
+BaseAssemblyContext.hasErrors( );1;1;3
+BaseAssemblyContext.getSrcOutputDir( );1;0;3
+BaseAssemblyContext.getControlMethodAnnotation( Class < T > annotationClass , Method m );1;0;6
+DefaultAssemblyMessager.printNotice( SourcePosition pos , String msg );1;0;3
+BaseAssemblyContext.getControlType( );1;0;3
+BaseAssemblyContext.getModuleDir( );1;0;3
+BaseAssemblyContext.getMostDerivedControlInterface( );1;0;3
+BaseAssemblyContext.BaseAssemblyContext( Class controlIntfOrExt , Map < String , String > bindings , Set < String > clients , File moduleRoot , String moduleName , File srcOutputRoot );5;2;25
+DefaultAssemblyMessager.printWarning( SourcePosition pos , String msg );1;0;3
+DefaultAssemblyMessager.printError( SourcePosition pos , String msg );1;1;4
+BaseAssemblyContext.getModuleName( );1;0;3
+DefaultAssemblyMessager.printWarning( String msg );1;0;3
+BaseAssemblyContext.getClients( );1;0;3
+DefaultAssemblyMessager.printDiagnostic( String type , SourcePosition pos , String msg );2;5;12
+DefaultAssemblyMessager.printNotice( String msg );1;0;3
+BaseAssemblyContext.getControlAnnotation( Class < T > annotationClass );1;0;4
+DefaultAssemblyMessager.printError( String msg );1;0;3

@@ -1,0 +1,55 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractHttpServletRequestWrapper.setAttribute( String theName , Object theAttribute );1;0;3
+AbstractHttpServletRequestWrapper.getContextPath( );3;3;9
+AbstractHttpServletRequestWrapper.removeAttribute( String theName );1;0;3
+AbstractHttpServletRequestWrapper.getHeaders( String theName );1;0;3
+AbstractHttpServletRequestWrapper.getLocale( );1;0;3
+AbstractHttpServletRequestWrapper.isUserInRole( String theRole );1;0;3
+AbstractHttpServletRequestWrapper.getRemoteAddr( );2;1;12
+AbstractHttpServletRequestWrapper.getAttribute( String theName );1;0;3
+AbstractHttpServletRequestWrapper.isRequestedSessionIdValid( );1;0;3
+AbstractHttpServletRequestWrapper.getQueryString( );2;1;13
+AbstractHttpServletRequestWrapper.isRequestedSessionIdFromUrl( );1;0;3
+AbstractHttpServletRequestWrapper.getSession( );1;0;3
+AbstractHttpServletRequestWrapper.getHeaderNames( );1;0;3
+AbstractHttpServletRequestWrapper.getPathTranslated( );6;7;32
+AbstractHttpServletRequestWrapper.getRealPath( String thePath );1;0;3
+AbstractHttpServletRequestWrapper.AbstractHttpServletRequestWrapper( HttpServletRequest theRequest , ServletURL theURL );1;0;4
+AbstractHttpServletRequestWrapper.getHeader( String theName );1;0;3
+AbstractHttpServletRequestWrapper.getProtocol( );1;0;3
+AbstractHttpServletRequestWrapper.setRemoteIPAddress( String theRemoteIPAddress );1;0;3
+AbstractHttpServletRequestWrapper.catPath( String theLookupPath , String thePath );3;3;19
+AbstractHttpServletRequestWrapper.getRequestDispatcher( String thePath );5;4;32
+AbstractHttpServletRequestWrapper.getAuthType( );1;0;3
+AbstractHttpServletRequestWrapper.getContentLength( );1;0;3
+AbstractHttpServletRequestWrapper.getUserPrincipal( );1;0;3
+AbstractHttpServletRequestWrapper.getSession( boolean isCreate );1;0;3
+AbstractHttpServletRequestWrapper.getServerPort( );4;5;9
+AbstractHttpServletRequestWrapper.getParameter( String theName );1;0;3
+AbstractHttpServletRequestWrapper.getCookies( );1;0;3
+AbstractHttpServletRequestWrapper.getRemoteHost( );2;1;12
+AbstractHttpServletRequestWrapper.getInputStream( );1;0;3
+AbstractHttpServletRequestWrapper.getOriginalRequest( );1;0;3
+AbstractHttpServletRequestWrapper.getAttributeNames( );1;0;3
+AbstractHttpServletRequestWrapper.isRequestedSessionIdFromURL( );1;0;3
+AbstractHttpServletRequestWrapper.getServletPath( );3;3;9
+AbstractHttpServletRequestWrapper.getParameterNames( );1;0;3
+AbstractHttpServletRequestWrapper.setRemoteUser( String theRemoteUser );1;0;3
+AbstractHttpServletRequestWrapper.getContentType( );1;0;3
+AbstractHttpServletRequestWrapper.getScheme( );1;0;3
+AbstractHttpServletRequestWrapper.isSecure( );1;0;3
+AbstractHttpServletRequestWrapper.getLocales( );1;0;3
+AbstractHttpServletRequestWrapper.getReader( );1;0;3
+AbstractHttpServletRequestWrapper.getServerName( );3;3;9
+AbstractHttpServletRequestWrapper.isRequestedSessionIdFromCookie( );1;0;3
+AbstractHttpServletRequestWrapper.getDateHeader( String theName );1;0;3
+AbstractHttpServletRequestWrapper.getParameterValues( String theName );1;0;3
+AbstractHttpServletRequestWrapper.getPathInfo( );2;1;13
+AbstractHttpServletRequestWrapper.getCharacterEncoding( );1;0;3
+AbstractHttpServletRequestWrapper.getMethod( );1;0;3
+AbstractHttpServletRequestWrapper.getIntHeader( String theName );1;0;3
+AbstractHttpServletRequestWrapper.setRemoteHostName( String theRemoteHostName );1;0;3
+AbstractHttpServletRequestWrapper.getRequestedSessionId( );1;0;3
+AbstractHttpServletRequestWrapper.getRequestURI( );4;5;15
+AbstractHttpServletRequestWrapper.newInstance( HttpServletRequest theOriginalRequest , ServletURL theURL );2;0;17
+AbstractHttpServletRequestWrapper.getRemoteUser( );2;1;12

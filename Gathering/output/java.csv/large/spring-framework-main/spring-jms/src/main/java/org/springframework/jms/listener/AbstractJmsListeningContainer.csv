@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractJmsListeningContainer.refreshSharedConnection( );2;0;11
+AbstractJmsListeningContainer.destroy( );1;0;3
+SharedConnectionNotInitializedException.SharedConnectionNotInitializedException( String msg );1;0;3
+AbstractJmsListeningContainer.setClientId( @ Nullable String clientId );1;0;3
+AbstractJmsListeningContainer.setAutoStartup( boolean autoStartup );1;0;3
+AbstractJmsListeningContainer.logRejectedTask( Object task , RuntimeException ex );2;0;5
+AbstractJmsListeningContainer.startSharedConnection( );3;1;13
+AbstractJmsListeningContainer.stop( );2;0;8
+AbstractJmsListeningContainer.establishSharedConnection( );2;1;8
+AbstractJmsListeningContainer.doStart( );3;0;13
+AbstractJmsListeningContainer.isAutoStartup( );1;0;3
+AbstractJmsListeningContainer.doStop( );2;0;9
+AbstractJmsListeningContainer.initialize( );2;0;16
+AbstractJmsListeningContainer.getPausedTaskCount( );1;0;5
+AbstractJmsListeningContainer.getPhase( );1;0;3
+AbstractJmsListeningContainer.getBeanName( );1;0;3
+AbstractJmsListeningContainer.start( );2;0;8
+AbstractJmsListeningContainer.afterPropertiesSet( );1;0;5
+AbstractJmsListeningContainer.getSharedConnection( );3;2;13
+AbstractJmsListeningContainer.isRunning( );2;1;3
+AbstractJmsListeningContainer.validateConfiguration( );1;0;2
+AbstractJmsListeningContainer.isActive( );1;0;5
+AbstractJmsListeningContainer.setPhase( int phase );1;0;3
+AbstractJmsListeningContainer.rescheduleTaskIfNecessary( Object task );4;0;19
+AbstractJmsListeningContainer.resumePausedTasks( );6;1;19
+AbstractJmsListeningContainer.doRescheduleTask( Object task );1;0;4
+AbstractJmsListeningContainer.createSharedConnection( );2;0;11
+AbstractJmsListeningContainer.shutdown( );6;1;33
+AbstractJmsListeningContainer.getClientId( );1;0;3
+AbstractJmsListeningContainer.runningAllowed( );1;0;3
+AbstractJmsListeningContainer.setBeanName( @ Nullable String beanName );1;0;3
+AbstractJmsListeningContainer.stopSharedConnection( );3;1;13
+AbstractJmsListeningContainer.prepareSharedConnection( Connection connection );2;1;6

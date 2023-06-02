@@ -1,0 +1,56 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AntTypeTable.containsValue( Object value );1;0;3
+ComponentHelper.printNotLoadDependentClass( PrintWriter out , boolean optional , NoClassDefFoundError ncdfe , String dirListing );2;0;14
+ComponentHelper.updateDataTypeDefinition( AntTypeDefinition def );6;3;20
+ComponentHelper.createDataType( String typeName );1;0;3
+ComponentHelper.getElementName( Object o , boolean brief );5;2;15
+ComponentHelper.getDataTypeDefinitions( );5;2;21
+ComponentHelper.getUnmappedElementName( Class c , boolean brief );2;1;7
+***not in a method***;0;1;0
+ComponentHelper.enterAntLib( String uri );1;0;4
+ComponentHelper.getDefaultDefinitions( boolean type );7;2;23
+ComponentHelper.updateRestrictedDefinition( AntTypeDefinition def );4;1;21
+ComponentHelper.sameDefinition( AntTypeDefinition def , AntTypeDefinition old );3;4;5
+ComponentHelper.getCheckedNamespace( );1;0;3
+AntTypeTable.create( String name );2;1;4
+ComponentHelper.getComponentHelper( Project project );3;2;13
+AntTypeTable.getDefinition( String key );1;0;3
+ComponentHelper.checkNamespace( String componentName );4;1;21
+ComponentHelper.addTaskDefinition( String taskName , Class taskClass );1;0;11
+ComponentHelper.getElementName( Object element );1;0;3
+ComponentHelper.setProject( Project project );1;0;4
+ComponentHelper.addDataTypeDefinition( AntTypeDefinition def );2;1;7
+ComponentHelper.getTaskDefinitions( );5;1;21
+ComponentHelper.validDefinition( AntTypeDefinition def );2;4;3
+ComponentHelper.setNext( ComponentHelper next );1;0;3
+ComponentHelper.getAntTypeTable( );1;0;3
+ComponentHelper.initTasks( );2;0;16
+AntTypeTable.findMatches( String prefix );3;0;10
+AntTypeTable.contains( Object clazz );4;3;9
+ComponentHelper.checkTaskClass( final Class taskClass );5;2;22
+AntTypeTable.getExposedClass( String name );2;1;4
+ComponentHelper.createNewTask( String taskType );5;5;19
+ComponentHelper.getProject( );1;0;3
+ComponentHelper.createComponent( UnknownElement ue , String ns , String componentType );2;0;12
+ComponentHelper.printUnknownDefinition( PrintWriter out , String componentName , String dirListing );5;3;29
+AntTypeTable.AntTypeTable( Project project );1;0;3
+ComponentHelper.ComponentHelper( );1;0;2
+ComponentHelper.exitAntLib( );2;1;4
+ComponentHelper.getElementName( Project p , Object o , boolean brief );3;2;7
+ComponentHelper.createComponent( String componentName );2;1;4
+ComponentHelper.diagnoseCreationFailure( String componentName , String type );17;5;120
+AntTypeTable.get( Object key );1;0;3
+ComponentHelper.createTask( String taskType );3;2;8
+ComponentHelper.initDefaultDefinitions( );1;0;4
+AntTypeTable.getTypeClass( String name );2;1;4
+ComponentHelper.printClassNotFound( PrintWriter out , String classname , boolean optional , String dirListing );2;0;12
+ComponentHelper.getCurrentAntlibUri( );1;0;3
+ComponentHelper.getComponentClass( String componentName );2;1;4
+ComponentHelper.getNext( );1;0;3
+ComponentHelper.initSubProject( ComponentHelper helper );2;0;17
+ComponentHelper.getClassLoader( ClassLoader classLoader );3;3;8
+ComponentHelper.getDefinition( String componentName );1;0;4
+ComponentHelper.getRestrictedDefintion( );2;0;16
+ComponentHelper.addDataTypeDefinition( String typeName , Class typeClass );1;0;8
+ComponentHelper.getRestrictedDefinitions( String componentName );1;0;5
+ComponentHelper.initTypes( );2;0;14

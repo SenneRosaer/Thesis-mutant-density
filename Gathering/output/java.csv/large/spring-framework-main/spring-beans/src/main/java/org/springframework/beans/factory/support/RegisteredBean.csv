@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RegisteredBean.RegisteredBean( ConfigurableListableBeanFactory beanFactory , Supplier < String > beanName , boolean generatedBeanName , Supplier < RootBeanDefinition > mergedBeanDefinition , @ Nullable RegisteredBean parent );1;0;7
+RegisteredBean.getBeanName( );1;0;3
+RegisteredBean.isInnerBean( );1;1;3
+RegisteredBean.ofInnerBean( RegisteredBean parent , BeanDefinitionHolder innerBean );1;0;4
+RegisteredBean.getBeanClass( );1;0;3
+RegisteredBean.resolveConstructorOrFactoryMethod( );1;0;4
+RegisteredBean.getMergedBeanDefinition( );1;0;3
+RegisteredBean.getParent( );1;0;3
+RegisteredBean.getBeanFactory( );1;0;3
+InnerBeanResolver.InnerBeanResolver( RegisteredBean parent , @ Nullable String innerBeanName , BeanDefinition innerBeanDefinition );1;0;7
+RegisteredBean.isGeneratedBeanName( );1;0;3
+RegisteredBean.ofInnerBean( RegisteredBean parent , @ Nullable String innerBeanName , BeanDefinition innerBeanDefinition );2;1;9
+InnerBeanResolver.resolveMergedBeanDefinition( );1;0;4
+RegisteredBean.of( ConfigurableListableBeanFactory beanFactory , String beanName );1;0;7
+RegisteredBean.getBeanType( );1;0;3
+RegisteredBean.toString( );1;0;4
+InnerBeanResolver.resolveInnerBean( BiFunction < String , RootBeanDefinition , T > resolver );1;0;7
+InnerBeanResolver.resolveBeanName( );2;1;10
+RegisteredBean.ofInnerBean( RegisteredBean parent , BeanDefinition innerBeanDefinition );1;0;3

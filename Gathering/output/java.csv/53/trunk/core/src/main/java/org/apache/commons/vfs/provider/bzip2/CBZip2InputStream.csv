@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CBZip2InputStream.available( );2;1;7
+CBZip2InputStream.setupRandPartC( );2;3;15
+CBZip2InputStream.recvDecodingTables( );14;26;72
+***not in a method***;0;1;0
+CBZip2InputStream.initialize( );4;6;12
+CBZip2InputStream.compressedStreamEOF( );1;0;3
+CBZip2InputStream.bsR( final int n );4;13;23
+CBZip2InputStream.close( );1;0;3
+CBZip2InputStream.readUnsignedChar( );1;0;3
+CBZip2InputStream.badBlockHeader( );1;0;3
+CBZip2InputStream.complete( );2;1;9
+CBZip2InputStream.bsFinishedWithStream( );3;1;13
+CBZip2InputStream.setupNoRandPartC( );2;3;15
+CBZip2InputStream.endBlock( );2;5;10
+CBZip2InputStream.buildInUseTable( );8;12;31
+CBZip2InputStream.getAndMoveToFrontDecode( );28;101;189
+CBZip2InputStream.setupBlock( );5;10;34
+CBZip2InputStream.setDecompressStructureSizes( int newSize100k );6;10;14
+CBZip2InputStream.CBZip2InputStream( final InputStream input );1;0;6
+CBZip2InputStream.setupRandPartA( );5;8;29
+CBZip2InputStream.hbCreateDecodeTables( final int [ ] limit , final int [ ] base , final int [ ] perm , final char [ ] length , final int minLen , final int maxLen , final int alphaSize );10;32;41
+CBZip2InputStream.cadvise( );1;0;3
+CBZip2InputStream.blockOverrun( );1;0;3
+CBZip2InputStream.initBlock( );14;23;33
+CBZip2InputStream.makeMaps( );3;3;12
+CBZip2InputStream.setupNoRandPartB( );3;3;25
+CBZip2InputStream.bsSetStream( final InputStream input );1;0;5
+CBZip2InputStream.readVariableSizedInt( final int numBits );1;0;3
+CBZip2InputStream.readInt( );1;8;8
+CBZip2InputStream.setupRandPartB( );6;9;36
+CBZip2InputStream.read( );9;1;34
+CBZip2InputStream.crcError( );1;0;3
+CBZip2InputStream.setupNoRandPartA( );2;2;18

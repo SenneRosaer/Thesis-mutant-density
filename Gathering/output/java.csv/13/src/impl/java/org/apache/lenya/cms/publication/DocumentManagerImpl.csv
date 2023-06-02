@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocumentManagerImpl.deleteAllLanguageVersions( Document document );2;2;8
+DocumentManagerImpl.copyInSiteStructure( Document sourceDoc , Document destDoc , String destPath );11;6;47
+DocumentManagerImpl.copyToArea( Document sourceDoc , String destinationArea );1;0;4
+DocumentManagerImpl.add( DocumentFactory factory , ResourceType documentType , InputStream initialContentsStream , Publication pub , String area , String language , String extension , String mimeType );1;0;5
+DocumentManagerImpl.add( Document sourceDocument , String area , String path , String language , String extension , String navigationTitle , boolean visibleInNav );1;0;7
+DocumentManagerImpl.deleteAll( Document document );6;4;27
+DocumentManagerImpl.add( DocumentFactory factory , ResourceType documentType , InputStream initialContentsStream , Publication pub , String area , String path , String language , String extension , String navigationTitle , boolean visibleInNav , String mimeType );3;1;12
+SourceTargetVisitor.SourceTargetVisitor( DocumentManager manager , Document source , DocumentLocator target );1;0;5
+DocumentManagerImpl.service( ServiceManager _manager );1;0;3
+DocumentManagerImpl.move( Document sourceDocument , DocumentLocator destination );3;1;16
+DocumentManagerImpl.copyToVersion( Document sourceDoc , String destinationArea , String language );3;0;12
+DocumentManagerImpl.copyMetaData( Document source , Document destination );6;5;17
+DocumentManagerImpl.create( InputStream stream , Document document );3;1;15
+DocumentManagerImpl.addToSiteManager( String path , Document document , String navigationTitle , boolean visibleInNav );1;0;3
+DocumentManagerImpl.addVersion( Document sourceDocument , String area , String language );1;0;8
+DocumentManagerImpl.copyContent( Document sourceDocument , Document destinationDocument );5;2;28
+DocumentManagerImpl.preOrder( SiteNode node );2;2;9
+DocumentManagerImpl.moveAll( Area sourceArea , String sourcePath , Area targetArea , String targetPath );3;3;17
+DocumentManagerImpl.add( DocumentFactory factory , ResourceType documentType , String uuid , InputStream stream , Publication pub , String area , String language , String extension , String mimeType );4;0;24
+DocumentManagerImpl.copyToArea( DocumentSet documentSet , String destinationArea );2;2;6
+DocumentManagerImpl.copy( Document sourceDoc , DocumentLocator destination );3;1;18
+DocumentManagerImpl.addToSiteManager( String path , Document document , String navigationTitle , boolean visibleInNav , String followingSiblingPath );3;3;9
+DocumentManagerImpl.generateUUID( );3;1;15
+SourceTargetVisitor.getRootTarget( );1;0;3
+DocumentManagerImpl.add( DocumentFactory factory , ResourceType documentType , String initialContentsURI , Publication pub , String area , String path , String language , String extension , String navigationTitle , boolean visibleInNav );3;1;12
+SourceTargetVisitor.getRootSource( );1;0;3
+DeleteVisitor.getDocumentManager( );1;0;3
+SourceTargetVisitor.getDocumentManager( );1;0;3
+DocumentManagerImpl.move( DocumentSet sources , DocumentSet destinations );1;0;4
+DocumentManagerImpl.contextualize( Context _context );1;0;3
+DeleteVisitor.DeleteVisitor( DocumentManager manager );1;0;3
+DocumentManagerImpl.copyDocumentSource( Document sourceDocument , Document destinationDocument );1;0;4
+DocumentManagerImpl.exists( DocumentFactory factory , Publication pub , String area , String uuid , String language );2;0;9
+DocumentManagerImpl.copyAllLanguageVersions( Area sourceArea , String sourcePath , Area targetArea , String targetPath );3;3;21
+DocumentManagerImpl.copyAll( Area sourceArea , String sourcePath , Area targetArea , String targetPath );2;1;11
+DocumentManagerImpl.copyRevisions( Document sourceDoc , Document targetDoc );2;0;8
+DocumentManagerImpl.copy( SourceResolver resolver , InputStream sourceInputStream , Document destination );4;2;22
+DocumentManagerImpl.delete( DocumentSet documents );5;2;26
+DocumentManagerImpl.add( DocumentFactory factory , ResourceType documentType , String initialContentsURI , Publication pub , String area , String language , String extension );4;2;20
+DocumentManagerImpl.copy( DocumentSet sources , DocumentSet destinations );4;5;19
+SourceTargetVisitor.getTarget( Document source );2;0;10
+DocumentManagerImpl.getMimeType( Source source );2;1;7
+DocumentManagerImpl.getContext( );1;0;3
+DeleteVisitor.visitDocument( Document document );1;0;3
+DocumentManagerImpl.delete( Document document );3;1;9
+DocumentManagerImpl.moveAllLanguageVersions( Area sourceArea , String sourcePath , Area targetArea , String targetPath );3;2;23
+DocumentManagerImpl.sortAscending( DocumentSet set );10;10;39
+DocumentManagerImpl.addVersion( Document sourceDocument , String area , String language , boolean addToSiteStructure );3;1;9

@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BaseStandardMBean.setAttribute( Attribute attr );6;1;23
+BaseStandardMBean.getObjectName( );1;0;3
+BaseStandardMBean.propertyChange( PropertyChangeEvent event );1;0;3
+BaseStandardMBean.sendAttributeChangeNotification( AttributeChangeNotification notification );1;0;3
+BaseStandardMBean.updateAttribute( String name , Object value );4;1;14
+BaseStandardMBean.removeAttributeChangeNotificationListener( NotificationListener l , String attrName );1;0;3
+BaseStandardMBean.addNotificationListener( NotificationListener l , NotificationFilter filter , Object handle );1;0;3
+BaseStandardMBean.getNotificationInfo( );1;0;13
+BaseStandardMBean.run( );1;0;3
+BaseStandardMBean.postRegister( Boolean done );1;0;2
+BaseStandardMBean.getMBeanInfo( );1;0;3
+BaseStandardMBean.addAttributeChangeNotificationListener( NotificationListener l , String attrName , Object handback );1;0;5
+BaseStandardMBean.preRegister( MBeanServer mbs , ObjectName on );3;2;9
+BaseStandardMBean.invoke( String name , Object [ ] params , String [ ] signature );10;3;29
+BaseStandardMBean.setAttributes( AttributeList attributes );7;3;21
+BaseStandardMBean.sendNotification( final Notification notification );3;3;9
+BaseStandardMBean.getAttribute( String name );5;2;19
+BaseStandardMBean.getAttributes( String [ ] attributes );5;3;22
+BaseStandardMBean.postDeregister( );1;0;2
+BaseStandardMBean.sendNotification( String text );2;1;6
+BaseStandardMBean.sendAttributeChangeNotification( Attribute oldAttr , Attribute newAttr );2;1;8
+BaseStandardMBean.removeNotificationListener( NotificationListener l );1;0;3
+BaseStandardMBean.getBeanServer( );1;0;3
+BaseStandardMBean.getCurrentValue( CachedAttribute ca );5;1;15
+BaseStandardMBean.BaseStandardMBean( Object object , Class interfaceMBean , String description , MBeanAttributeInfo [ ] attrs , MBeanOperationInfo [ ] ops , ExecutorService executorService );1;0;7
+BaseStandardMBean.buildAttributes( Object obj , MBeanAttributeInfo [ ] attrs );6;3;22
+BaseStandardMBean.preDeregister( );1;0;2

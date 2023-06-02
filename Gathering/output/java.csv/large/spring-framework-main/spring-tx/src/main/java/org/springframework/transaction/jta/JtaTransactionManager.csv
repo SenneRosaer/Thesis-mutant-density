@@ -1,0 +1,59 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JtaTransactionManager.setTransactionSynchronizationRegistryName( String transactionSynchronizationRegistryName );1;0;3
+JtaTransactionManager.setAutodetectTransactionManager( boolean autodetectTransactionManager );1;0;3
+JtaTransactionManager.retrieveTransactionManager( );1;0;3
+JtaTransactionManager.getJndiTemplate( );1;0;3
+JtaTransactionManager.JtaTransactionManager( );1;0;3
+JtaTransactionManager.retrieveUserTransaction( );1;0;3
+JtaTransactionManager.readObject( ObjectInputStream ois );1;0;6
+JtaTransactionManager.afterPropertiesSet( );1;0;5
+JtaTransactionManager.JtaTransactionManager( UserTransaction userTransaction );1;0;5
+JtaTransactionManager.registerAfterCompletionWithExistingTransaction( Object transaction , List < TransactionSynchronization > synchronizations );5;1;26
+JtaTransactionManager.doJtaBegin( JtaTransactionObject txObject , TransactionDefinition definition );1;0;6
+JtaTransactionManager.shouldCommitOnGlobalRollbackOnly( );1;0;3
+JtaTransactionManager.getTransactionSynchronizationRegistry( );1;0;3
+JtaTransactionManager.setCacheUserTransaction( boolean cacheUserTransaction );1;0;3
+JtaTransactionManager.getJndiEnvironment( );1;0;3
+JtaTransactionManager.initTransactionSynchronizationRegistry( );7;4;20
+JtaTransactionManager.setJndiTemplate( JndiTemplate jndiTemplate );1;0;4
+JtaTransactionManager.doBegin( Object transaction , TransactionDefinition definition );3;0;13
+JtaTransactionManager.doRollback( DefaultTransactionStatus status );6;2;24
+JtaTransactionManager.doSuspend( Object transaction );2;0;9
+JtaTransactionManager.findTransactionManager( @ Nullable UserTransaction ut );7;0;23
+JtaTransactionManager.findUserTransaction( );4;0;17
+JtaTransactionManager.setAutodetectTransactionSynchronizationRegistry( boolean autodetectTransactionSynchronizationRegistry );1;0;3
+JtaTransactionManager.findTransactionSynchronizationRegistry( @ Nullable UserTransaction ut , @ Nullable TransactionManager tm );7;0;24
+JtaTransactionManager.setUserTransactionName( String userTransactionName );1;0;3
+JtaTransactionManager.setTransactionManagerName( String transactionManagerName );1;0;3
+JtaTransactionManager.doCommit( DefaultTransactionStatus status );10;2;37
+JtaTransactionManager.supportsResourceAdapterManagedTransactions( );1;0;3
+JtaTransactionManager.buildUserTransaction( TransactionManager transactionManager );2;0;8
+JtaTransactionManager.setTransactionManager( @ Nullable TransactionManager transactionManager );1;0;3
+JtaTransactionManager.checkUserTransactionAndTransactionManager( );5;2;19
+JtaTransactionManager.JtaTransactionManager( TransactionManager transactionManager );1;0;6
+JtaTransactionManager.setJndiEnvironment( @ Nullable Properties jndiEnvironment );1;0;3
+JtaTransactionManager.initUserTransactionAndTransactionManager( );11;9;28
+JtaTransactionManager.doRegisterAfterCompletionWithJtaTransaction( JtaTransactionObject txObject , List < TransactionSynchronization > synchronizations );6;5;26
+JtaTransactionManager.retrieveTransactionSynchronizationRegistry( );1;0;3
+JtaTransactionManager.doSetRollbackOnly( DefaultTransactionStatus status );6;3;18
+JtaTransactionManager.doGetJtaTransaction( UserTransaction ut );1;0;3
+JtaTransactionManager.getUserTransaction( );1;0;3
+JtaTransactionManager.applyTimeout( JtaTransactionObject txObject , int timeout );3;2;8
+JtaTransactionManager.createTransaction( @ Nullable String name , int timeout );2;2;9
+JtaTransactionManager.setAllowCustomIsolationLevels( boolean allowCustomIsolationLevels );1;0;3
+JtaTransactionManager.isExistingTransaction( Object transaction );2;1;9
+JtaTransactionManager.setTransactionSynchronizationRegistry( @ Nullable TransactionSynchronizationRegistry transactionSynchronizationRegistry );1;0;3
+JtaTransactionManager.setAutodetectUserTransaction( boolean autodetectUserTransaction );1;0;3
+JtaTransactionManager.doCleanupAfterCompletion( Object transaction );3;0;11
+JtaTransactionManager.setUserTransaction( @ Nullable UserTransaction userTransaction );1;0;3
+JtaTransactionManager.lookupTransactionManager( String transactionManagerName );3;0;12
+JtaTransactionManager.doResume( @ Nullable Object transaction , Object suspendedResources );4;0;15
+JtaTransactionManager.lookupUserTransaction( String userTransactionName );3;0;12
+JtaTransactionManager.lookupTransactionSynchronizationRegistry( String registryName );3;0;12
+JtaTransactionManager.getTransactionManager( );1;0;3
+JtaTransactionManager.applyIsolationLevel( JtaTransactionObject txObject , int isolationLevel );3;3;7
+JtaTransactionManager.useSavepointForNestedTransaction( );1;0;3
+JtaTransactionManager.doJtaSuspend( JtaTransactionObject txObject );2;1;8
+JtaTransactionManager.doGetTransaction( );4;3;12
+JtaTransactionManager.JtaTransactionManager( UserTransaction userTransaction , TransactionManager transactionManager );1;0;7
+JtaTransactionManager.doJtaResume( @ Nullable JtaTransactionObject txObject , Object suspendedTransaction );2;1;8

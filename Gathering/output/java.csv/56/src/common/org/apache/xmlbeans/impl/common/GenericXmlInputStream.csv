@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GenericXmlInputStream.GenericXmlInputStream( );1;0;4
+GenericXmlInputStream.hasNext( );1;1;4
+GenericXmlInputStream.peek( );1;0;4
+GenericXmlInputStream.GenericXmlInputStream( GenericXmlInputStream master );1;0;4
+GenericXmlInputStream.getSubStream( );1;0;6
+GenericXmlInputStream.getNextEvent( );2;1;4
+EventItem.EventItem( XMLEvent e );1;0;3
+GenericXmlInputStream.next( );7;8;20
+GenericXmlInputStream.close( );1;0;2
+EventItem.getName( );1;0;1
+GenericXmlInputStream.nextEvent( );1;0;3
+EventItem.getType( );1;0;1
+GenericXmlInputStream.ensureInit( );3;1;14
+GenericXmlInputStream.skip( XMLName name , int eventType );5;4;13
+EventItem.hasName( );1;0;1
+GenericXmlInputStream.skip( int eventType );3;2;9
+GenericXmlInputStream.skip( );1;0;3
+GenericXmlInputStream.skipElement( );7;9;17
+GenericXmlInputStream.skip( XMLName name );4;2;9
+GenericXmlInputStream.getReferenceResolver( );1;0;4
+GenericXmlInputStream.setReferenceResolver( ReferenceResolver resolver );1;0;4

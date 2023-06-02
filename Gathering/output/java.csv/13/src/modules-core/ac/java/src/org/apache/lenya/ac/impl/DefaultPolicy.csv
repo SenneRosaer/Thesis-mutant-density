@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultPolicy.check( Identity identity , Role role );5;4;14
+DefaultPolicy.matches( Identity identity , Accreditable accreditable );1;0;4
+DefaultPolicy.moveRoleDown( Accreditable accreditable , Role role );1;0;3
+DefaultPolicy.removeRoles( Accreditable accreditable );3;2;9
+DefaultPolicy.getCredential( Accreditable accreditable , Role role );4;1;10
+DefaultPolicy.addRole( Accreditable accreditable , Role role , String method );1;2;7
+DefaultPolicy.isSSLProtected( );1;0;3
+DefaultPolicy.setSSL( boolean ssl );1;0;3
+DefaultPolicy.getCredentials( Identity identity );4;4;15
+DefaultPolicy.isEmpty( );1;1;3
+DefaultPolicy.getCredentials( );1;0;3
+DefaultPolicy.moveRoleUp( Accreditable accreditable , Role role );1;0;3
+DefaultPolicy.removeRole( Accreditable accreditable , Role role );1;2;5
+DefaultPolicy.addCredential( Credential credential );2;1;9
+DefaultPolicy.moveRole( Accreditable accreditable , Role role , boolean down );5;8;11
+DefaultPolicy.removeCredential( Credential credential );2;0;5

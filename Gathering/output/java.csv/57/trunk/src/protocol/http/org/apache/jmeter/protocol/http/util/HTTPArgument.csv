@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HTTPArgument.HTTPArgument( String name , String value , String metaData , boolean alreadyEncoded );1;0;3
+HTTPArgument.HTTPArgument( );1;0;2
+HTTPArgument.setUseEquals( boolean ue );2;0;8
+HTTPArgument.setAlwaysEncoded( boolean ae );1;0;3
+HTTPArgument.convertArgumentsToHTTP( Arguments args );3;1;14
+HTTPArgument.HTTPArgument( String name , String value , boolean alreadyEncoded );1;0;3
+HTTPArgument.isUseEquals( );4;4;8
+HTTPArgument.HTTPArgument( String name , String value );1;0;3
+HTTPArgument.HTTPArgument( String name , String value , boolean alreadyEncoded , String contentEncoding );3;0;15
+HTTPArgument.HTTPArgument( String name , String value , String metadata );1;0;4
+HTTPArgument.isAlwaysEncoded( );1;0;3
+HTTPArgument.getEncodedName( );2;0;7
+HTTPArgument.getEncodedValue( );2;0;7
+HTTPArgument.getEncodedValue( String contentEncoding );2;0;7
+HTTPArgument.setName( String newName );3;3;5
+HTTPArgument.HTTPArgument( Argument arg );1;0;3
+HTTPArgument.HTTPArgument( String name , String value , String metaData , boolean alreadyEncoded , String contentEncoding );1;0;4

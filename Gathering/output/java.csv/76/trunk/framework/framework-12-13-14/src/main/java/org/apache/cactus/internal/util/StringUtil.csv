@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StringUtil.exceptionToString( Throwable theThrowable );1;0;3
+StringUtil.replace( String theBaseString , char theChar , String theNewString );5;6;25
+StringUtil.filterStackTrace( String theStackTrace , String [ ] theFilterPatterns );7;7;27
+StringUtil.exceptionToString( Throwable theThrowable , String [ ] theFilterPatterns );1;0;7
+StringUtil.filterLine( String theLine , String [ ] theFilterPatterns );3;3;10

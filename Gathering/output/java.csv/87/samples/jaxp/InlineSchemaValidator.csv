@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InlineSchemaValidator.getPrefix( String namespaceURI );7;5;18
+InlineSchemaValidator.fatalError( SAXParseException ex );1;0;4
+InlineSchemaValidator.main( String [ ] argv );60;58;259
+InlineSchemaValidator.getNamespaceURI( String prefix );6;3;18
+InlineSchemaValidator.printResults( PrintWriter out , String uri , long time , long memory , int repetition );3;3;22
+InlineSchemaValidator.printError( String type , SAXParseException ex );3;4;20
+InlineSchemaValidator.next( );2;2;7
+InlineSchemaValidator.warning( SAXParseException ex );1;0;3
+InlineSchemaValidator.getPrefixes( String namespaceURI );9;5;48
+InlineSchemaValidator.hasNext( );1;0;3
+InlineSchemaValidator.validate( Validator validator , Source source , String systemId , int repetitions , boolean memoryUsage );7;5;28
+InlineSchemaValidator.InlineSchemaValidator( HashMap prefixToURIMappings , HashMap uriToPrefixMappings );1;0;4
+InlineSchemaValidator.error( SAXParseException ex );1;0;3
+InlineSchemaValidator.remove( );1;0;3
+InlineSchemaValidator.printUsage( );6;0;40

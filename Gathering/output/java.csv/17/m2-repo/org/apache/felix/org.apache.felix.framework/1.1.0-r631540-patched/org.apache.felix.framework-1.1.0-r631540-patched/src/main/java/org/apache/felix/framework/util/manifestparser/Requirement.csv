@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Requirement.Requirement( String namespace , String filterStr );1;0;4
+Requirement.getFilter( );2;1;7
+Requirement.isSatisfied( ICapability capability );6;6;13
+Requirement.getComment( );1;0;3
+Requirement.toString( );1;1;3
+Requirement.convertToFilter( );15;13;80
+Requirement.getPackageVersionRange( );1;0;3
+Requirement.getPackageName( );1;0;3
+Requirement.getNamespace( );1;0;3
+Requirement.getDirectives( );1;0;3
+Requirement.getAttributes( );1;0;3
+Requirement.isOptional( );1;0;3
+Requirement.Requirement( String namespace , String pkgName , R4Directive [ ] directives , R4Attribute [ ] attributes );9;8;28
+Requirement.doAttributesMatch( Capability ec );15;16;56
+Requirement.isMultiple( );1;0;3

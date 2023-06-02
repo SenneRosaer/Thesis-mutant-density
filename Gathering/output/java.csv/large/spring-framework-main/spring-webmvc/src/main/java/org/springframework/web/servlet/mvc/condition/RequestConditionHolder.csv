@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestConditionHolder.compareTo( RequestConditionHolder other , HttpServletRequest request );5;6;15
+RequestConditionHolder.getMatchingCondition( HttpServletRequest request );5;2;7
+RequestConditionHolder.RequestConditionHolder( @ Nullable RequestCondition < ? > requestCondition );1;0;3
+RequestConditionHolder.getCondition( );1;0;3
+RequestConditionHolder.getContent( );2;1;3
+RequestConditionHolder.assertEqualConditionTypes( RequestCondition < ? > thisCondition , RequestCondition < ? > otherCondition );4;1;7
+RequestConditionHolder.getToStringInfix( );1;0;3
+RequestConditionHolder.combine( RequestConditionHolder other );7;5;16

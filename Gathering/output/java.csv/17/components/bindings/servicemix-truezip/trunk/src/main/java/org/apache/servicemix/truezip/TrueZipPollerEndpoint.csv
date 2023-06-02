@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TrueZipPollerEndpoint.getFilter( );1;0;3
+TrueZipPollerEndpoint.process( MessageExchange exchange );1;0;2
+TrueZipPollerEndpoint.pollFile( final File aFile );4;0;22
+TrueZipPollerEndpoint.poll( );1;0;3
+TrueZipPollerEndpoint.validate( );5;4;12
+TrueZipPollerEndpoint.isRecursive( );1;0;3
+TrueZipPollerEndpoint.isAutoCreateDirectory( );1;0;3
+TrueZipPollerEndpoint.createLockManager( );1;0;3
+TrueZipPollerEndpoint.processFile( File aFile );1;0;11
+TrueZipPollerEndpoint.run( );3;0;15
+TrueZipPollerEndpoint.setLockManager( LockManager lockManager );1;0;3
+TrueZipPollerEndpoint.setRecursive( boolean recursive );1;0;3
+TrueZipPollerEndpoint.setDeleteFile( boolean deleteFile );1;0;3
+TrueZipPollerEndpoint.getLocationURI( );1;0;3
+TrueZipPollerEndpoint.getFile( );1;0;3
+TrueZipPollerEndpoint.isDeleteFile( );1;0;3
+TrueZipPollerEndpoint.TrueZipPollerEndpoint( );1;0;2
+TrueZipPollerEndpoint.setAutoCreateDirectory( boolean autoCreateDirectory );1;0;3
+TrueZipPollerEndpoint.TrueZipPollerEndpoint( DefaultComponent component , ServiceEndpoint endpoint );1;0;3
+TrueZipPollerEndpoint.pollFileOrDirectory( File fileOrDirectory , boolean processDir );4;3;13
+TrueZipPollerEndpoint.processFileAndDelete( File aFile );6;2;15
+TrueZipPollerEndpoint.getMarshaler( );1;0;3
+TrueZipPollerEndpoint.TrueZipPollerEndpoint( ServiceUnit serviceUnit , QName service , String endpoint );1;0;3
+TrueZipPollerEndpoint.pollFileOrDirectory( File fileOrDirectory );1;0;3
+TrueZipPollerEndpoint.setFile( java . io . File file );1;0;3
+TrueZipPollerEndpoint.setFilter( FileFilter filter );1;0;3
+TrueZipPollerEndpoint.getLockManager( );1;0;3
+TrueZipPollerEndpoint.setMarshaler( FileMarshaler marshaler );1;0;3

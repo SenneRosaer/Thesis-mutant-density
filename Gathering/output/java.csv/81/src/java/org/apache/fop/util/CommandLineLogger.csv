@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CommandLineLogger.setLogLevel( String level );7;0;17
+CommandLineLogger.info( Object message , Throwable t );2;0;5
+CommandLineLogger.CommandLineLogger( String logName );1;0;4
+CommandLineLogger.debug( Object message );2;0;5
+CommandLineLogger.isInfoEnabled( );1;1;3
+CommandLineLogger.isTraceEnabled( );1;1;3
+CommandLineLogger.debug( Object message , Throwable t );2;0;5
+CommandLineLogger.trace( Object message );2;0;5
+CommandLineLogger.warn( Object message , Throwable t );2;0;5
+CommandLineLogger.isErrorEnabled( );1;1;3
+CommandLineLogger.error( Object message );2;0;5
+CommandLineLogger.isDebugEnabled( );1;1;3
+CommandLineLogger.log( int type , Object message , Throwable t );4;3;22
+CommandLineLogger.warn( Object message );2;0;5
+CommandLineLogger.isFatalEnabled( );1;1;3
+CommandLineLogger.error( Object message , Throwable t );2;0;5
+CommandLineLogger.isWarnEnabled( );1;1;3
+CommandLineLogger.fatal( Object message , Throwable t );2;0;5
+CommandLineLogger.info( Object message );2;0;5
+CommandLineLogger.fatal( Object message );2;0;5
+CommandLineLogger.trace( Object message , Throwable t );2;0;5

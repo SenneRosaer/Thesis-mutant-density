@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DroolsEndpoint.setDefaultTargetURI( String defaultTargetURI );1;0;3
+DroolsEndpoint.setGlobals( Map < String , Object > variables );1;0;3
+DroolsEndpoint.getDefaultTargetURI( );1;0;3
+DroolsEndpoint.getCorrelationId( MessageExchange exchange );2;1;8
+DroolsEndpoint.getDefaultTargetService( );1;0;3
+DroolsEndpoint.getRuleBaseURL( );1;0;3
+DroolsEndpoint.setDefaultTargetService( QName defaultTargetService );1;0;3
+DroolsEndpoint.handleConsumerExchange( MessageExchange exchange );5;4;22
+DroolsEndpoint.getAssertedObjects( );1;0;3
+DroolsEndpoint.DroolsEndpoint( );1;0;3
+DroolsEndpoint.setRuleBaseURL( URL ruleBaseURL );1;0;3
+DroolsEndpoint.getRuleBaseResource( );1;0;3
+DroolsEndpoint.setRuleBaseResource( Resource ruleBaseResource );1;0;3
+DroolsEndpoint.setAssertedObjects( List < Object > assertedObjects );1;0;3
+DroolsEndpoint.start( );6;4;24
+DroolsEndpoint.remove( Object key );2;1;8
+DroolsEndpoint.getRuleBase( );1;0;3
+DroolsEndpoint.handleProviderExchange( MessageExchange exchange );2;1;7
+DroolsEndpoint.setNamespaceContext( NamespaceContext namespaceContext );1;0;3
+DroolsEndpoint.validate( );4;5;6
+DroolsEndpoint.getNamespaceContext( );1;0;3
+DroolsEndpoint.drools( MessageExchange exchange );4;2;10
+DroolsEndpoint.send( MessageExchange me );2;1;6
+DroolsEndpoint.process( MessageExchange exchange );2;1;7
+DroolsEndpoint.setRuleBase( RuleBase ruleBase );1;0;3
+DroolsEndpoint.DroolsEndpoint( ServiceUnit su , QName service , String endpoint );1;0;3
+DroolsEndpoint.getGlobals( );1;0;3
+DroolsEndpoint.DroolsEndpoint( DefaultComponent component , ServiceEndpoint endpoint );1;0;3
+DroolsEndpoint.getDefaultRouteURI( );4;3;11
+DroolsEndpoint.startDroolsExecutionContext( MessageExchange exchange );1;0;6

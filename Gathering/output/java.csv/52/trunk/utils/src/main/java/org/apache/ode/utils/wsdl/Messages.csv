@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Messages.msgPortDefinitionNotFound( QName serviceName , String portName );1;0;3
+Messages.msgUnexpectedElementInSOAPBody( QName name , QName elementName );1;0;4
+Messages.msgNoSOAPBindingForPort( String name );1;0;3
+Messages.msgBindingNotFound( String portName );1;0;3
+Messages.msgBindingOperationNotFound( QName serviceName , String portName , String name );1;0;4
+Messages.msgMultipleBindingsForOperation( String operationName );1;0;3
+Messages.msgWsdlImportNotFound( String wsdlUri , String location );1;0;3
+Messages.msgUnexpectedBindingClass( Class passedClass );1;0;4
+Messages.msgMultipleMimeContent( );1;0;3
+Messages.msgOdeMessageMissingRequiredPart( String partName );1;0;4
+Messages.msgUndefinedFault( QName serviceName , String portName , String opname , QName faultName );1;0;4
+Messages.msgNoBinding( QName bindingName );1;0;3
+Messages.msgSoapHeaderReferencesUnkownPart( String part );1;0;4
+Messages.msgOdeMessagePartMissingRequiredElement( QName serviceName , String portName , String opname , QName elementName );1;0;5
+Messages.msgSoapHeaderMustBeAnElement( Node headerNode );1;0;4
+Messages.msgNoHTTPBindingForPort( String name );1;0;3
+Messages.msgNoAddressForPort( String portName );1;0;3
+Messages.msgSOAPBodyDoesNotContainAllRequiredParts( );1;0;4
+Messages.msgBindingInputNotFound( QName serviceName , String portName , String name );1;0;4
+Messages.msgServiceDefinitionNotFound( QName serviceName );1;0;3
+Messages.msgDuplicateWSDLImport( String tns , String location );1;0;4
+Messages.msgSoapBodyDoesNotContainExpectedPartWrapper( QName serviceName , String portName , QName rpcWrapQName );1;0;5
+Messages.msgSOAPBodyDoesNotContainRequiredPart( String name );1;0;4
+Messages.msgNoBindingForOperation( String operationName );1;0;3
+Messages.msgBindingOutputNotFound( QName serviceName , String portName , String name );1;0;4
+Messages.msgBindingDefinesNonElementDocListParts( );1;0;4
+Messages.msgMultipleBindings( QName bindingName );1;0;3
+Messages.msgSoapHeaderMissingRequiredElement( QName elementType );1;0;4
+Messages.msgMultipleAddressesForPort( String portName );1;0;3

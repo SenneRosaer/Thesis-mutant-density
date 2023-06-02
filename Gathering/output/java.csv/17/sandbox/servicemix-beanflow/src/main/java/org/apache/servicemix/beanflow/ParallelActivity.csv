@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParallelActivity.init( );2;0;5
+ParallelActivity.ParallelActivity( JoinSupport activity , Executor executor , CallablesFactory < T > callablesFactory );1;0;3
+ParallelActivity.sync( long millis );2;0;14
+ParallelActivity.ParallelActivity( JoinSupport activity , List < CallableActivity < T > > activities );1;0;5
+ParallelActivity.newParallelMethodActivity( Executor executor , Object bean );1;0;3
+ParallelActivity.newParallelMethodActivity( JoinSupport join , Executor executor , Object bean );1;0;3
+ParallelActivity.getCountDownLatch( );2;1;9
+ParallelActivity.start( );1;0;4
+ParallelActivity.getFutures( );2;0;9
+ParallelActivity.resetCountDownLatch( );3;3;7
+ParallelActivity.sync( );2;0;13
+ParallelActivity.ParallelActivity( JoinSupport activity , Executor executor , List < Callable < T > > callables );2;0;8
+ParallelActivity.doStart( );2;0;5
+ParallelActivity.startWithTimeout( Timer timer , long timeout );1;0;4

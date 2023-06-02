@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConfigurationReader.readConfiguration( Configuration rolesConfig , Configuration componentConfig );1;0;5
+ConfigurationReader.ConfigurationReader( ConfigurationInfo parentInfo , ResourceLoader resourceLoader );5;3;19
+ConfigurationReader.parseConfiguration( final Configuration configuration , String contextURI , Set loadedURIs );7;4;16
+ConfigurationReader.getUrl( Resource rsrc );2;0;7
+ConfigurationReader.getInputSource( Resource rsrc );1;0;5
+ConfigurationReader.getUrl( String url , String base );5;7;14
+ConfigurationReader.readConfiguration( String source , ResourceLoader resourceLoader );1;0;5
+ConfigurationReader.correctUrl( String url );2;0;7
+ConfigurationReader.readSitemap( ConfigurationInfo parentInfo , String src , ResourceLoader resourceLoader );3;3;9
+ConfigurationReader.configureRoles( final Configuration configuration );15;16;69
+ConfigurationReader.convert( Configuration config , Configuration additionalConfig , String rootUri );12;6;41
+ConfigurationReader.handleInclude( final String contextURI , final Set loadedURIs , final Configuration includeStatement );13;13;45
+ConfigurationReader.handleBeanInclude( final String contextURI , final Configuration includeStatement );11;11;43
+ConfigurationReader.loadURI( final Resource src , final Set loadedURIs , final Configuration includeStatement );7;2;25
+ConfigurationReader.convertSitemap( String sitemapLocation );5;2;19
+ConfigurationReader.convertUrl( String url );4;1;12
+ConfigurationReader.convert( String relativePath );5;2;20
+ConfigurationReader.processComponents( );26;29;96

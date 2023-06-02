@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CommonsLoggingListener.CommonsLoggingListener( );1;0;2
+CommonsLoggingListener.taskFinished( BuildEvent event );6;2;23
+CommonsLoggingListener.setEmacsMode( boolean emacsMode );1;0;2
+CommonsLoggingListener.targetStarted( BuildEvent event );2;0;8
+CommonsLoggingListener.getLog( String cat , String suffix );4;3;24
+CommonsLoggingListener.targetFinished( BuildEvent event );3;1;14
+CommonsLoggingListener.setMessageOutputLevel( int level );1;0;2
+CommonsLoggingListener.buildStarted( BuildEvent event );2;0;7
+CommonsLoggingListener.buildFinished( BuildEvent event );3;1;12
+CommonsLoggingListener.messageLogged( BuildEvent event );5;3;29
+CommonsLoggingListener.realLog( Log log , String message , int priority , Throwable t );9;3;40
+CommonsLoggingListener.taskStarted( BuildEvent event );5;1;17
+CommonsLoggingListener.setErrorPrintStream( PrintStream err );1;0;3
+CommonsLoggingListener.setOutputPrintStream( PrintStream output );1;0;3

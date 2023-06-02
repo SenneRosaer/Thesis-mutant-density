@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClientItem.ClientItem( Session session , RemoteItem remote , LocalAdapterFactory factory );1;0;5
+ClientItem.getDepth( );2;0;7
+ClientItem.remove( );2;0;7
+ClientItem.getAncestor( int level );2;0;7
+ClientItem.getSession( );1;0;3
+ClientItem.getParent( );2;0;7
+ClientItem.isModified( );2;0;7
+ClientItem.refresh( boolean keepChanges );2;0;7
+ClientItem.accept( ItemVisitor visitor );1;0;2
+ClientItem.save( );2;0;7
+ClientItem.isNew( );2;0;7
+ClientItem.isNode( );1;0;3
+ClientItem.isSame( Item item );4;2;11
+ClientItem.getName( );2;0;7
+ClientItem.getPath( );2;0;7

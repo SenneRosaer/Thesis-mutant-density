@@ -1,0 +1,57 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PCLRenderer.getMimeType( );1;0;3
+PCLRenderer.moveTo( float x , float y );2;1;6
+PCLRenderer.renderWord( WordArea word );2;0;9
+PCLRenderer.renderSpace( SpaceArea space );3;4;17
+PCLRenderer.closePath( );1;0;3
+PCLRenderer.getGraphicContext( );1;0;3
+PCLRenderer.transformedPoint( int x , int y );6;21;41
+PCLRenderer.changePrintDirection( );15;26;24
+PCLRenderer.clipRect( float x , float y , float width , float height );1;0;2
+PCLRenderer.getGraphics2DAdapter( );1;0;3
+PCLRenderer.getResolution( );2;1;8
+PCLRenderer.paint( Graphics2D g2d , Rectangle2D area );1;112;8
+PCLRenderer.fillRect( float x , float y , float width , float height );2;4;9
+PCLRenderer.updateFillColor( java . awt . Color color );1;0;3
+PCLRenderer.clip( );2;1;6
+PCLRenderer.stopRenderer( );2;1;7
+PCLRenderer.renderInlineAreaBackAndBorders( InlineArea area );4;19;17
+PCLRenderer.startVParea( CTM ctm , Rectangle2D clippingRect );2;0;9
+PCLRenderer.setFont( String name , float size , String text );21;17;78
+PCLRenderer.setupFontInfo( FontInfo inFontInfo );1;0;15
+PCLRenderer.drawImage( String uri , Rectangle2D pos , Map foreignAttributes );10;5;53
+PCLRenderer.createRendererContext( int x , int y , int width , int height , Map foreignAttributes );1;0;7
+PCLRenderer.PCLRenderer( );1;0;2
+PCLRenderer.setPJLDisabled( boolean disable );1;0;3
+PCLRenderer.renderReferenceArea( Block block );4;3;24
+PCLRenderer.renderForeignObject( ForeignObject fo , Rectangle2D pos );1;0;5
+PCLRenderer.handleIOTrouble( IOException ioe );2;1;8
+PCLRenderer.endVParea( );2;0;7
+PCLRenderer.getImageSize( );1;0;3
+PCLRenderer.renderFlow( NormalFlow flow );3;2;18
+PCLRenderer.handleRegionTraits( RegionViewport region );2;5;12
+PCLRenderer.transformedPoint( float x , float y );1;0;3
+PCLRenderer.renderText( final TextArea text );7;12;68
+PCLRenderer.restoreStateStackAfterBreakOut( List breakOutList );2;2;7
+PCLRenderer.restoreGraphicsState( );1;0;3
+PCLRenderer.drawQualityBorders( Rectangle2D . Float borderRect , final BorderProps bpsBefore , final BorderProps bpsAfter , final BorderProps bpsStart , final BorderProps bpsEnd );46;17;201
+PCLRenderer.renderImage( Image image , Rectangle2D pos );1;0;3
+PCLRenderer.renderTextDecoration( Graphics2D g2d , FontMetrics fm , int fontsize , InlineArea inline , int baseline , int startx );7;24;35
+PCLRenderer.saveGraphicsState( );1;0;4
+PCLRenderer.startRenderer( OutputStream outputStream );3;2;17
+PCLRenderer.selectPageFormat( long pagewidth , long pageheight );6;4;25
+PCLRenderer.renderBlockViewport( BlockViewport bv , List children );7;19;63
+PCLRenderer.drawFastBorders( Rectangle2D . Float borderRect , final BorderProps bpsBefore , final BorderProps bpsAfter , final BorderProps bpsStart , final BorderProps bpsEnd );5;12;27
+PCLRenderer.renderPage( PageViewport page );3;2;19
+PCLRenderer.drawBackAndBorders( Area area , float startx , float starty , float width , float height );15;44;71
+PCLRenderer.renderLeader( Leader area );7;9;26
+PCLRenderer.concatenateTransformationMatrix( AffineTransform at );2;1;6
+PCLRenderer.renderViewport( Viewport viewport );3;15;21
+PCLRenderer.isPJLDisabled( );1;0;3
+PCLRenderer.setQualityBeforeSpeed( boolean qualityBeforeSpeed );1;0;3
+PCLRenderer.setAllTextAsBitmaps( boolean allTextAsBitmaps );1;0;3
+PCLRenderer.breakOutOfStateStack( );2;1;9
+PCLRenderer.handleBlockTraits( Block block );1;16;15
+PCLRenderer.setCursorPos( float x , float y );2;0;8
+PCLRenderer.lineTo( float x , float y );2;1;6
+PCLRenderer.drawBorders( Rectangle2D . Float borderRect , final BorderProps bpsBefore , final BorderProps bpsAfter , final BorderProps bpsStart , final BorderProps bpsEnd );6;7;10

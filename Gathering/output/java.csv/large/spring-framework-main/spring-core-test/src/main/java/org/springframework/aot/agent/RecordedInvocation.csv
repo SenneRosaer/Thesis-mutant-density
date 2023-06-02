@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RecordedInvocation.isStatic( );1;1;3
+RecordedInvocation.getHintType( );1;0;3
+Builder.onInstance( Object instance );1;0;4
+RecordedInvocation.getMethodReference( );1;0;3
+Builder.build( );1;0;6
+RecordedInvocation.matches( RuntimeHints hints );1;0;3
+RecordedInvocation.of( InstrumentedMethod instrumentedMethod );1;0;4
+Builder.Builder( InstrumentedMethod instrumentedMethod );1;0;3
+RecordedInvocation.getArguments( );1;0;3
+Builder.withArguments( @ Nullable Object ... arguments );2;1;6
+RecordedInvocation.getInstanceTypeReference( );1;1;4
+RecordedInvocation.getInstance( );1;1;4
+RecordedInvocation.getArgument( int index );1;0;3
+Builder.returnValue( @ Nullable Object returnValue );1;0;4
+Builder.withArgument( @ Nullable Object argument );2;1;6
+RecordedInvocation.toString( );5;0;11
+RecordedInvocation.getStackFrames( );1;0;3
+RecordedInvocation.getArgumentTypes( );1;0;3
+RecordedInvocation.RecordedInvocation( InstrumentedMethod instrumentedMethod , @ Nullable Object instance , Object [ ] arguments , @ Nullable Object returnValue , List < StackWalker . StackFrame > stackFrames );1;0;7
+RecordedInvocation.getReturnValue( );1;0;3
+RecordedInvocation.getArgumentTypes( int index );1;0;3

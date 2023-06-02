@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompletionPipe.startPrefixMapping( String prefix , String uri );1;0;5
+CompletionPipe.startDocument( );1;0;4
+ServerPagesGenerator.generate( );10;5;44
+ServerPagesGenerator.getKey( );2;3;7
+CompletionPipe.endDocument( );1;0;4
+CompletionPipe.startCDATA( );1;0;4
+CompletionPipe.startDTD( String name , String publicId , String systemId );1;0;4
+CompletionPipe.endEntity( String name );1;0;5
+ServerPagesGenerator.setup( SourceResolver resolver , Map objectModel , String src , Parameters par );5;0;26
+CompletionPipe.flushEvents( );10;2;33
+CompletionPipe.startEntity( String name );1;0;5
+CompletionPipe.endCDATA( );1;0;4
+CompletionPipe.endPrefixMapping( String prefix );1;0;5
+CompletionPipe.endDTD( );1;0;4
+CompletionPipe.recycle( );1;0;4
+CompletionPipe.startElement( String namespaceURI , String localName , String rawName , Attributes atts );1;0;7
+CompletionPipe.endElement( String namespaceURI , String localName , String rawName );1;0;7
+ServerPagesGenerator.compose( ComponentManager manager );2;1;7
+ServerPagesGenerator.getValidity( );1;0;3
+ServerPagesGenerator.configure( Configuration config );2;0;9
+ServerPagesGenerator.dispose( );1;0;5
+ServerPagesGenerator.recycle( );4;3;15

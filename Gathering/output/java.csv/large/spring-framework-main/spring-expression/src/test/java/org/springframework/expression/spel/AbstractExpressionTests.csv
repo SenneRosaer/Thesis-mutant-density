@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractExpressionTests.stringValueOf( Object value );1;0;3
+AbstractExpressionTests.stringValueOf( Object value , boolean isNested );18;15;73
+AbstractExpressionTests.parseAndCheckError( String expression , SpelMessage expectedMessage , Object ... otherProperties );4;5;19
+AbstractExpressionTests.evaluateAndCheckError( String expression , SpelMessage expectedMessage , Object ... otherProperties );1;0;3
+AbstractExpressionTests.evaluateAndCheckError( String expression , Class < ? > expectedReturnType , SpelMessage expectedMessage , Object ... otherProperties );4;4;25
+AbstractExpressionTests.evaluate( String expression , Object expectedValue , Class < ? > expectedResultType , boolean shouldBeWritable );6;2;24
+AbstractExpressionTests.evaluateAndAskForReturnType( String expression , Object expectedValue , Class < ? > expectedResultType );5;2;18
+AbstractExpressionTests.evaluate( String expression , Object expectedValue , Class < ? > expectedResultType );6;2;23

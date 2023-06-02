@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessagingRSocket.handleAndReply( Payload firstPayload , FrameType frameType , Flux < Payload > payloads );3;2;15
+MessagingRSocket.refCount( DataBuffer dataBuffer );2;0;4
+MessagingRSocket.requestStream( Payload payload );1;0;3
+MessagingRSocket.createHeaders( Payload payload , FrameType frameType , @ Nullable AtomicReference < Flux < Payload > > responseRef );4;1;24
+MessagingRSocket.handleConnectionSetupPayload( ConnectionSetupPayload payload );1;0;4
+MessagingRSocket.MessagingRSocket( MimeType dataMimeType , MimeType metadataMimeType , MetadataExtractor metadataExtractor , RSocketRequester requester , ReactiveMessageHandler messageHandler , RouteMatcher routeMatcher , RSocketStrategies strategies );1;0;16
+MessagingRSocket.requestChannel( Publisher < Payload > payloads );2;1;8
+MessagingRSocket.handle( Payload payload , FrameType frameType );3;1;12
+MessagingRSocket.metadataPush( Payload payload );1;0;3
+MessagingRSocket.requestResponse( Payload payload );1;0;3
+MessagingRSocket.retainDataAndReleasePayload( Payload payload );1;0;3
+MessagingRSocket.fireAndForget( Payload payload );1;0;3

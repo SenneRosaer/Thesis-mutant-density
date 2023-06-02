@@ -1,0 +1,81 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultRepositoryCacheManager.getArtifactPattern( );4;3;11
+DefaultRepositoryCacheManager.dumpSettings( );1;0;8
+DefaultRepositoryCacheManager.isUseOrigin( );3;2;11
+DefaultRepositoryCacheManager.getGroupIntValue( java . util . regex . Matcher m , int groupNumber );3;3;4
+DefaultRepositoryCacheManager.findModuleInCache( DependencyDescriptor dd , ModuleRevisionId requestedRevisionId , CacheMetadataOptions options , String expectedResolver );3;0;12
+DefaultRepositoryCacheManager.getChangingPattern( );1;0;3
+DefaultRepositoryCacheManager.getIvyPattern( );4;3;11
+DefaultRepositoryCacheManager.getPrefixKey( Artifact artifact );1;0;5
+DefaultRepositoryCacheManager.setDataFilePattern( String dataFilePattern );1;0;4
+DefaultRepositoryCacheManager.getChangingMatcherName( );1;0;3
+DefaultRepositoryCacheManager.getIsLocalKey( Artifact artifact );1;0;4
+DefaultRepositoryCacheManager.setChangingPattern( String changingPattern );1;0;3
+DefaultRepositoryCacheManager.originalToCachedModuleDescriptor( DependencyResolver resolver , ResolvedResource orginalMetadataRef , Artifact requestedMetadataArtifact , ResolvedModuleRevision rmr , ModuleDescriptorWriter writer );8;5;35
+DefaultRepositoryCacheManager.setName( String name );1;0;3
+DefaultRepositoryCacheManager.setArtifactPattern( String artifactPattern );1;0;4
+DefaultRepositoryCacheManager.getArchiveFileInCache( Artifact artifact , ArtifactOrigin origin );5;4;12
+DefaultRepositoryCacheManager.getSavedArtResolverName( ModuleDescriptor md );1;0;4
+DefaultRepositoryCacheManager.isChanging( DependencyDescriptor dd , ModuleRevisionId requestedRevisionId , CacheMetadataOptions options );2;1;4
+DefaultRepositoryCacheManager.setIvyPattern( String ivyPattern );1;0;4
+DefaultRepositoryCacheManager.saveResolvers( ModuleDescriptor md , String metadataResolverName , String artifactResolverName );2;1;15
+DefaultRepositoryCacheManager.getStaledMd( ModuleDescriptorParser mdParser , CacheMetadataOptions options , File ivyFile );1;0;5
+DefaultRepositoryCacheManager.getExpiration( ModuleRevisionId mrid );1;1;3
+DefaultRepositoryCacheManager.setLockStrategy( LockStrategy lockStrategy );1;0;3
+DefaultRepositoryCacheManager.removeSavedArtifactOrigin( Artifact artifact );1;0;6
+DefaultRepositoryCacheManager.getMdFromCache( XmlModuleDescriptorParser mdParser , CacheMetadataOptions options , File ivyFile );1;0;5
+DefaultRepositoryCacheManager.getSavedArtifactOrigin( Artifact artifact );3;2;19
+DefaultRepositoryCacheManager.setSettings( IvySettings settings );1;0;3
+DefaultRepositoryCacheManager.getDefaultTTL( );2;1;6
+DefaultRepositoryCacheManager.parseDuration( String duration );3;9;21
+DefaultRepositoryCacheManager.getArchivePathInCache( Artifact artifact );1;0;3
+DefaultRepositoryCacheManager.getCachedDataFile( ModuleRevisionId mRevId );1;0;5
+DefaultRepositoryCacheManager.getArchiveFileInCache( Artifact artifact , ArtifactOrigin origin , boolean useOrigin );4;3;7
+DefaultRepositoryCacheManager.getOriginalMetadataArtifact( Artifact moduleArtifact );1;0;4
+DefaultRepositoryCacheManager.getRepositoryCacheRoot( );1;0;3
+DefaultRepositoryCacheManager.setDefaultTTL( String defaultTTL );1;0;3
+DefaultRepositoryCacheManager.getDefaultMetadataArtifact( ModuleRevisionId mrid );1;0;3
+DefaultRepositoryCacheManager.saveResolvedRevision( ModuleRevisionId mrid , String revision );2;1;14
+***not in a method***;0;3;0
+DefaultRepositoryCacheManager.unlockMetadataArtifact( ModuleRevisionId mrid );1;0;5
+DefaultRepositoryCacheManager.isCheckmodified( );4;3;12
+DefaultRepositoryCacheManager.setUseOrigin( boolean b );1;0;3
+DefaultRepositoryCacheManager.isOriginalMetadataArtifact( Artifact artifact );2;1;4
+DefaultRepositoryCacheManager.getDataFilePattern( );1;0;3
+DefaultRepositoryCacheManager.getChangingMatcher( CacheMetadataOptions options );5;4;15
+DefaultRepositoryCacheManager.lockMetadataArtifact( ModuleRevisionId mrid );2;0;10
+DefaultRepositoryCacheManager.addConfiguredTtl( Map attributes );3;2;11
+DefaultRepositoryCacheManager.getDefaultMetadataArtifactOrigin( ModuleRevisionId mrid );1;0;4
+DefaultRepositoryCacheManager.getBasedir( );2;1;6
+DefaultRepositoryCacheManager.setLockStrategy( String lockStrategyName );1;0;3
+DefaultRepositoryCacheManager.getLocationKey( Artifact artifact );1;0;4
+DefaultRepositoryCacheManager.getIvyFileInCache( ModuleRevisionId mrid );1;0;5
+DefaultRepositoryCacheManager.toString( );1;0;3
+DefaultRepositoryCacheManager.getArchivePathInCache( Artifact artifact , ArtifactOrigin origin );2;0;7
+DefaultRepositoryCacheManager.isCheckmodified( DependencyDescriptor dd , ModuleRevisionId requestedRevisionId , CacheMetadataOptions options );2;1;6
+DefaultRepositoryCacheManager.saveArtifactOrigin( Artifact artifact , ArtifactOrigin origin );1;0;6
+DefaultRepositoryCacheManager.resolve( Artifact artifact );1;0;3
+DefaultRepositoryCacheManager.setCheckmodified( boolean check );1;0;3
+DefaultRepositoryCacheManager.getLockStrategy( );3;2;10
+DefaultRepositoryCacheManager.getResolvedRevision( ModuleRevisionId mrid , CacheMetadataOptions options );6;4;31
+DefaultRepositoryCacheManager.getTTL( ModuleRevisionId mrid );2;1;4
+DefaultRepositoryCacheManager.addTTL( Map attributes , PatternMatcher matcher , long duration );1;0;3
+DefaultRepositoryCacheManager.getArchiveFileInCache( Artifact artifact );1;0;4
+DefaultRepositoryCacheManager.download( Artifact artifact , ArtifactResourceResolver resourceResolver , ResourceDownloader resourceDownloader , CacheDownloadOptions options );12;11;75
+MyModuleDescriptorProvider.provideModule( ParserSettings ivySettings , File descriptorURL , boolean validate );1;0;3
+DefaultRepositoryCacheManager.saveResolver( ModuleDescriptor md , String name );1;0;5
+DefaultRepositoryCacheManager.getMemoryCache( );2;1;6
+DefaultRepositoryCacheManager.clean( );1;0;3
+DefaultRepositoryCacheManager.setMemorySize( int size );1;0;3
+DefaultRepositoryCacheManager.getSettings( );1;0;3
+DefaultRepositoryCacheManager.getName( );1;0;3
+DefaultRepositoryCacheManager.setChangingMatcher( String changingMatcherName );1;0;3
+DefaultRepositoryCacheManager.cacheModuleDescriptor( DependencyResolver resolver , final ResolvedResource mdRef , DependencyDescriptor dd , Artifact moduleArtifact , ResourceDownloader downloader , CacheMetadataOptions options );20;19;116
+DefaultRepositoryCacheManager.setBasedir( File cache );1;0;3
+DefaultRepositoryCacheManager.DefaultRepositoryCacheManager( );1;0;2
+DefaultRepositoryCacheManager.doFindModuleInCache( ModuleRevisionId mrid , CacheMetadataOptions options , String expectedResolver );12;8;78
+MyModuleDescriptorProvider.MyModuleDescriptorProvider( ModuleDescriptorParser mdParser );1;0;3
+DefaultRepositoryCacheManager.DefaultRepositoryCacheManager( String name , IvySettings settings , File basedir );1;0;5
+DefaultRepositoryCacheManager.getSavedResolverName( ModuleDescriptor md );1;0;4
+DefaultRepositoryCacheManager.getCachedDataFile( ModuleDescriptor md );1;0;3
+DefaultRepositoryCacheManager.setDefaultTTL( long defaultTTL );1;0;3

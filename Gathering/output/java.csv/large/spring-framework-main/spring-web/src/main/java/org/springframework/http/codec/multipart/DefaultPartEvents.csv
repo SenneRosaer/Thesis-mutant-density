@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractPartEvent.AbstractPartEvent( HttpHeaders headers );1;0;3
+DefaultFormFieldPartEvent.value( );1;0;3
+DefaultPartEvent.isLast( );1;0;3
+DefaultFormFieldPartEvent.DefaultFormFieldPartEvent( HttpHeaders headers );1;0;3
+DefaultPartEvents.file( HttpHeaders headers );1;0;4
+DefaultFormFieldPartEvent.DefaultFormFieldPartEvent( HttpHeaders headers , String value );1;0;4
+DefaultPartEvent.DefaultPartEvent( HttpHeaders headers );1;0;3
+DefaultFormFieldPartEvent.isLast( );1;0;3
+DefaultPartEvent.DefaultPartEvent( HttpHeaders headers , DataBuffer content , boolean last );1;0;5
+DefaultPartEvent.content( );1;0;3
+AbstractPartEvent.headers( );1;0;3
+DefaultFormFieldPartEvent.content( );1;0;4
+DefaultPartEvents.form( HttpHeaders headers );1;0;4
+DefaultPartEvents.create( HttpHeaders headers );2;1;9
+DefaultFilePartEvent.DefaultFilePartEvent( HttpHeaders headers );1;0;3
+DefaultPartEvents.create( HttpHeaders headers , DataBuffer dataBuffer , boolean isLast );2;1;10
+DefaultFilePartEvent.DefaultFilePartEvent( HttpHeaders headers , DataBuffer content , boolean last );1;0;3
+DefaultPartEvents.file( HttpHeaders headers , DataBuffer dataBuffer , boolean isLast );1;0;5
+DefaultPartEvents.form( HttpHeaders headers , String value );1;0;5

@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestTransactionSynchronization.suspend( );1;0;3
+TestTransactionSynchronization.beforeCompletion( );1;0;6
+R2dbcTransactionManagerUnitTests.doesNotSetIsolationLevelIfMatch( );1;0;16
+R2dbcTransactionManagerUnitTests.appliesTransactionDefinition( );1;0;24
+R2dbcTransactionManagerUnitTests.testRollback( );1;0;22
+R2dbcTransactionManagerUnitTests.testPropagationSupportsAndRequiresNew( );1;0;20
+TestTransactionSynchronization.afterCommit( );2;1;9
+R2dbcTransactionManagerUnitTests.testCommitFails( );1;0;16
+R2dbcTransactionManagerUnitTests.testSimpleTransaction( );1;0;26
+R2dbcTransactionManagerUnitTests.testBeginFails( );1;0;16
+TestTransactionSynchronization.TestTransactionSynchronization( int status );1;0;3
+R2dbcTransactionManagerUnitTests.before( );1;0;6
+R2dbcTransactionManagerUnitTests.restoresAutoCommit( );1;0;17
+TestTransactionSynchronization.beforeCommit( boolean readOnly );2;1;9
+R2dbcTransactionManagerUnitTests.appliesReadOnly( );1;0;22
+R2dbcTransactionManagerUnitTests.doesNotSetAutoCommitDisabled( );1;0;14
+TestTransactionSynchronization.afterCompletion( int status );2;0;8
+TestTransactionSynchronization.doAfterCompletion( int status );1;0;5
+R2dbcTransactionManagerUnitTests.testPropagationNeverWithExistingTransaction( );1;0;17
+R2dbcTransactionManagerUnitTests.testRollbackFails( );1;0;17
+TestTransactionSynchronization.resume( );1;0;3
+R2dbcTransactionManagerUnitTests.testTransactionSetRollbackOnly( );1;0;25

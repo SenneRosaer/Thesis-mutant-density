@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LocalItemStateManager.hasNodeReferences( NodeReferencesId id );2;1;6
+LocalItemStateManager.hasItemState( ItemId id );4;1;14
+LocalItemStateManager.getNodeReferences( NodeReferencesId id );2;1;7
+LocalItemStateManager.createNew( Name propName , NodeId parentId );2;1;10
+LocalItemStateManager.getNodeState( NodeId id );1;0;7
+LocalItemStateManager.cancel( );2;1;7
+LocalItemStateManager.getPropertyState( PropertyId id );1;0;7
+LocalItemStateManager.createNew( NodeId id , Name nodeTypeName , NodeId parentId );2;1;10
+LocalItemStateManager.nodesReplaced( NodeState state );1;0;3
+LocalItemStateManager.addListener( ItemStateListener listener );1;0;3
+LocalItemStateManager.nodeModified( NodeState state );1;0;3
+LocalItemStateManager.update( );3;1;10
+LocalItemStateManager.update( ChangeLog changeLog );1;0;4
+LocalItemStateManager.stateCreated( ItemState created );6;4;22
+LocalItemStateManager.destroy( ItemState state );2;1;6
+LocalItemStateManager.edit( );2;0;7
+LocalItemStateManager.store( ItemState state );2;1;6
+LocalItemStateManager.stateDestroyed( ItemState destroyed );5;4;15
+LocalItemStateManager.stateModified( ItemState modified );6;4;16
+LocalItemStateManager.nodeRemoved( NodeState state , Name name , int index , NodeId id );1;0;3
+LocalItemStateManager.inEditMode( );1;0;3
+LocalItemStateManager.stateDiscarded( ItemState discarded );5;4;15
+LocalItemStateManager.LocalItemStateManager( SharedItemStateManager sharedStateMgr , EventStateCollectionFactory factory , ItemStateCacheFactory cacheFactory );1;0;6
+LocalItemStateManager.dispose( );3;3;13
+LocalItemStateManager.removeListener( ItemStateListener listener );1;0;3
+LocalItemStateManager.getItemState( ItemId id );4;2;17
+LocalItemStateManager.getChanges( );1;0;3
+LocalItemStateManager.nodeAdded( NodeState state , Name name , int index , NodeId id );1;0;3

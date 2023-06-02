@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UidToKeyBidiMapImpl.put( String key , long uid );1;0;4
+UIDPlusFolderMailRepository.createAdapter( Folder folder );1;0;3
+UidToKeyBidiMapImpl.getByUid( long uid );1;0;3
+UIDPlusFolderMailRepository.remove( String key );3;1;20
+UIDPlusFolderMailRepository.setUidToKeyBidiMap( UidToKeyBidiMap uidToKeyBidiMap );1;0;3
+UIDPlusFolderMailRepository.addUIDMessage( Message message );7;6;33
+UidToKeyBidiMapImpl.UidToKeyBidiMapImpl( );1;0;4
+UidToKeyBidiMapImpl.retainAllListedAndAddedByKeys( final String [ ] before , final Collection listed );1;0;8
+UIDPlusFolderMailRepository.list( );6;4;34
+UidToKeyBidiMapImpl.getByKey( String key );2;2;8
+UidToKeyBidiMapImpl.containsKey( String key );1;0;3
+UidToKeyBidiMapImpl.getKeys( );1;0;5
+UIDPlusFolderMailRepository.getMessageFromInbox( String key , UIDFolder inbox );3;2;13
+UidToKeyBidiMapImpl.removeByKey( String key );2;2;7
+UIDPlusFolderMailRepository.store( Mail mc );6;4;38
+UIDPlusFolderMailRepository.retrieve( String key );2;1;16
+UIDPlusFolderMailRepository.getUidToKeyBidiMap( );2;1;6

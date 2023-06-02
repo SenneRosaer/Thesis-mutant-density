@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WorkflowUtil.canInvoke( ServiceManager manager , Session session , Logger logger , Document document , String event );3;1;14
+WorkflowUtil.getWorkflowable( ServiceManager manager , Session session , Logger logger , Document document );1;0;4
+WorkflowUtil.invoke( ServiceManager manager , Session session , Logger logger , DocumentSet documentSet , String event , boolean force );4;3;20
+WorkflowUtil.getWorkflowSchema( ServiceManager manager , Session session , Logger logger , Document document );4;1;18
+WorkflowUtil.canInvoke( ServiceManager manager , Session session , Logger logger , DocumentSet documents , String event );5;4;22
+WorkflowUtil.invoke( ServiceManager manager , Session session , Logger logger , Document document , String event );3;1;14
+WorkflowUtil.invoke( ServiceManager manager , Session session , Logger logger , Document document , String event , boolean force );3;1;14
+WorkflowUtil.hasWorkflow( ServiceManager manager , Session session , Logger logger , Document document );3;1;14

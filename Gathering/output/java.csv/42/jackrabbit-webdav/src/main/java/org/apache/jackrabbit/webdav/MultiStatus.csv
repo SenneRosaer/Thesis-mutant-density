@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultiStatus.addResponse( MultiStatusResponse response );1;0;3
+MultiStatus.addResourceProperties( DavResource resource , DavPropertyNameSet propNameSet , int propFindType , int depth );4;3;9
+MultiStatus.toXml( Document document );3;1;12
+MultiStatus.getResponseDescription( );1;0;3
+MultiStatus.addResourceProperties( DavResource resource , DavPropertyNameSet propNameSet , int depth );1;0;3
+MultiStatus.getResponses( );1;0;3
+MultiStatus.setResponseDescription( String responseDescription );1;0;3
+MultiStatus.addResourceStatus( DavResource resource , int status , int depth );4;3;9
+MultiStatus.createFromXml( Element multistatusElement );3;1;14

@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JMSControlImpl.getDestination( );2;1;8
+JMSControlImpl.valueAsLong( Object obj );4;0;9
+JMSControlImpl.getDestinationType( );2;2;8
+JMSControlImpl.getJndiControl( );6;5;19
+JMSControlImpl.determineDestination( );10;2;33
+JMSControlImpl.setHeaders( Map headers );13;1;33
+JMSControlImpl.onRelease( );1;0;3
+JMSControlImpl.getHeaderAsString( HeaderType name );2;1;4
+JMSControlImpl.getHeaderAsInteger( HeaderType name );1;0;3
+JMSControlImpl.getConnection( );1;0;4
+JMSControlImpl.getProducer( );7;1;27
+JMSControlImpl.getDestinationProperties( );1;0;3
+JMSControlImpl.invoke( Method method , Object [ ] args );71;65;201
+JMSControlImpl.onAcquire( );1;0;2
+JMSControlImpl.createTopicSession( );1;0;10
+JMSControlImpl.modeToJmsMode( AcknowledgeMode mode );3;2;8
+JMSControlImpl.setHeader( JMSControl . HeaderType type , Object value );2;1;5
+JMSControlImpl.setMessageHeaders( javax . jms . Message msg );3;1;8
+JMSControlImpl.valueAsInteger( Object obj );4;0;9
+JMSControlImpl.createQueueSession( );1;0;10
+JMSControlImpl.nullIfEmpty( String str );3;3;6
+JMSControlImpl.deliveryModeToJmsMode( Object value );6;0;16
+JMSControlImpl.close( );5;3;19
+JMSControlImpl.getHeader( HeaderType name );2;2;6
+JMSControlImpl.setProperty( String name , Object value );2;1;5
+JMSControlImpl.getSession( );6;1;21
+JMSControlImpl.setMessageProperties( javax . jms . Message msg );4;1;15
+JMSControlImpl.setMessageHeader( javax . jms . Message msg , HeaderType type , Object value );15;0;45
+JMSControlImpl.setProperties( Map properties );3;1;10
+JMSControlImpl.getHeaderAsLong( HeaderType name );1;0;3
+JMSControlImpl.checkBody( Object value , Class cls );2;1;4

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CountStatistic.CountStatistic( String name , String description );1;0;3
+CountStatistic.setCount( long count );1;0;3
+CountStatistic.subtract( long amount );2;2;7
+CountStatistic.appendFieldDescription( StringBuffer buffer );1;0;5
+CountStatistic.getParent( );1;0;3
+CountStatistic.setParent( CountStatistic parent );1;0;3
+CountStatistic.getPeriod( );2;4;8
+CountStatistic.reset( );1;0;4
+CountStatistic.CountStatistic( CountStatistic parent , String name , String description );1;0;4
+CountStatistic.decrement( );2;1;7
+CountStatistic.getCount( );1;0;3
+CountStatistic.add( long amount );2;1;7
+CountStatistic.increment( );2;1;7
+CountStatistic.getFrequency( );1;3;5
+CountStatistic.CountStatistic( String name , String unit , String description );1;0;3

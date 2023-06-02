@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMUtil.valueOf( Node parent , Object v );8;3;29
+DOMUtil.setValueOfNode( Node node , String value );3;1;10
+DOMUtil.getValueOf( Node root , String path , XPathProcessor processor );5;3;17
+DOMUtil.getFirstNodeFromPath( Node contextNode , final String [ ] path , final boolean create );14;19;35
+DOMUtil.getValueAsBooleanOf( Node root , String path , XPathProcessor processor );2;1;7
+DOMUtil.getValueOfNode( XPathProcessor processor , Node root , String path , String defaultValue );2;1;6
+DOMUtil.getSingleNode( Node contextNode , String str );2;1;8
+DOMUtil.getValueOfNodeAsBoolean( XPathProcessor processor , Node root , String path );2;1;7
+DOMUtil.getDocumentFragment( SAXParser parser , Reader stream );8;6;54
+DOMUtil.getValueOf( Node root , String path , String defaultValue );2;1;7
+DOMUtil.getValueOfNode( Node node );5;5;20
+DOMUtil.getNodesFromPath( final NodeListImpl result , final Node contextNode , final String [ ] path , final int startIndex );12;13;36
+DOMUtil.selectNodeList( Node contextNode , String str );2;1;7
+DOMUtil.node2StringBuffer( Node node , boolean pretty , String indent );1;0;3
+DOMUtil.getValueAsBooleanOf( Node root , String path );2;1;8
+DOMUtil.compareAttributes( Element first , Element second );18;22;46
+DOMUtil.createDocument( );2;0;11
+DOMUtil.getFirstNodeFromPath( final Node contextNode , final String [ ] path , final int startIndex );11;14;34
+DOMUtil.valueOf( Node parent , String text );2;1;5
+DOMUtil.node2String( Node node , boolean pretty );3;0;13
+DOMUtil.getValueOfNode( XPathProcessor processor , Node root , String path );4;3;13
+DOMUtil.getValueAsBooleanOf( Node root , String path , boolean defaultValue );2;1;7
+DOMUtil.createParameters( Node fragment , SourceParameters source );11;13;34
+DOMUtil.getValueOf( Node root , String path );5;3;17
+DOMUtil.getValueOf( Node root , String path , String defaultValue , XPathProcessor processor );2;1;7
+DOMUtil.getSingleNode( Node contextNode , String str , XPathProcessor processor );2;1;8
+DOMUtil.createText( DocumentFragment fragment );6;6;18
+DOMUtil.getValueOfNodeAsBoolean( XPathProcessor processor , Node root , String path , boolean defaultValue );2;1;7
+DOMUtil.getOwnerDocument( Node node );2;1;7
+DOMUtil.getValueAsBooleanOf( Node root , String path , boolean defaultValue , XPathProcessor processor );2;1;7
+DOMUtil.getNodeListFromPath( Node contextNode , String [ ] path );5;4;16
+DOMUtil.selectNodeList( Node contextNode , String str , XPathProcessor processor );2;1;7
+DOMUtil.node2StringBuffer( Node node );1;0;3
+DOMUtil.buildPathArray( String xpath );15;16;53
+DOMUtil.node2String( Node node );2;0;7
+DOMUtil.valueOf( Node parent , Map v );3;1;17
+DOMUtil.valueOf( Node parent , Collection v );3;1;8
+DOMUtil.valueOf( Node parent , XMLizable v );3;1;10
+DOMUtil.valueOf( Node parent , Node v );2;1;5
+DOMUtil.getValueOfNode( Node node , String defaultValue );1;0;3
+DOMUtil.selectSingleNode( Node rootNode , String path );29;28;107
+DOMUtil.selectSingleNode( Node rootNode , String path , XPathProcessor processor );29;28;107

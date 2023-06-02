@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PDFObject.encode( String text );1;0;3
+PDFObject.setParent( PDFObject parent );1;0;3
+PDFObject.output( OutputStream stream );1;0;5
+PDFObject.encodeText( String text );2;0;9
+PDFObject.toPDFString( );1;0;4
+PDFObject.getObjectNumber( );2;1;6
+PDFObject.getDocumentSafely( );2;1;8
+PDFObject.setDocument( PDFDocument doc );1;0;3
+PDFObject.PDFObject( PDFObject parent );1;0;3
+PDFObject.getObjectID( );1;1;3
+PDFObject.setObjectNumber( int objnum );2;0;9
+PDFObject.formatDateTime( Date time );1;0;3
+PDFObject.getGeneration( );1;0;3
+PDFObject.getParent( );1;0;3
+PDFObject.encodeString( String string );1;0;3
+PDFObject.outputInline( OutputStream out , Writer writer );2;0;8
+PDFObject.formatObject( Object obj , OutputStream out , Writer writer );8;2;21
+PDFObject.referencePDF( );2;2;8
+PDFObject.hasObjectNumber( );1;1;3
+PDFObject.encodeBinaryToHexString( byte [ ] data , OutputStream out );2;0;10
+PDFObject.toPDF( );1;0;3
+PDFObject.formatDateTime( Date time , TimeZone tz );5;10;32
+PDFObject.getDocument( );3;2;9
+PDFObject.PDFObject( );1;0;2
+PDFObject.makeReference( );1;0;3

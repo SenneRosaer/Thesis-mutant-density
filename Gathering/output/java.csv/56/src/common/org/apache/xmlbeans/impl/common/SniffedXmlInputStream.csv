@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SniffedXmlInputStream.sniffFourBytes( );13;25;38
+SniffedXmlInputStream.scanAttribute( char [ ] buf , int startAt , int limit , ScannedAttribute attr );8;21;22
+SniffedXmlInputStream.extractXmlDeclEncoding( char [ ] buf , int offset , int size );5;5;18
+SniffedXmlInputStream.getXmlEncoding( );1;0;3
+SniffedXmlInputStream.nextNonmatchingByte( char [ ] lookFor , char [ ] buf , int startAt , int limit );4;6;11
+SniffedXmlInputStream.SniffedXmlInputStream( InputStream stream );6;5;18
+SniffedXmlInputStream.nextMatchingByte( char [ ] lookFor , char [ ] buf , int startAt , int limit );4;6;10
+SniffedXmlInputStream.sniffForXmlDecl( String encoding );3;4;24
+SniffedXmlInputStream.firstIndexOf( String s , char [ ] buf , int startAt , int limit );5;10;20
+SniffedXmlInputStream.readAsMuchAsPossible( byte [ ] buf , int startAt , int len );3;5;11
+SniffedXmlInputStream.nextMatchingByte( char lookFor , char [ ] buf , int startAt , int limit );3;4;8

@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropertyUtilsBean.getProperty( Object bean , String name );1;0;3
+PropertyUtilsBean.isReadable( Object bean , String name );17;7;61
+PropertyUtilsBean.getPropertyType( Object bean , String name );12;6;49
+PropertyUtilsBean.getNestedProperty( Object bean , String name );11;3;39
+PropertyUtilsBean.setResolver( Resolver resolver );2;1;7
+PropertyUtilsBean.getReadMethod( PropertyDescriptor descriptor );1;0;3
+PropertyUtilsBean.getResolver( );1;0;3
+PropertyUtilsBean.setIndexedProperty( Object bean , String name , int index , Object value );19;11;81
+PropertyUtilsBean.getInstance( );1;0;3
+PropertyUtilsBean.isWriteable( Object bean , String name );17;7;61
+PropertyUtilsBean.setNestedProperty( Object bean , String name , Object value );11;3;38
+PropertyUtilsBean.getPropertyOfMapBean( Map bean , String propertyName );6;4;15
+PropertyUtilsBean.getWriteMethod( PropertyDescriptor descriptor );1;0;3
+PropertyUtilsBean.setProperty( Object bean , String name , Object value );1;0;3
+PropertyUtilsBean.setMappedProperty( Object bean , String name , String key , Object value );13;8;65
+PropertyUtilsBean.getWriteMethod( Class clazz , PropertyDescriptor descriptor );1;0;3
+PropertyUtilsBean.getPropertyDescriptors( Object bean );2;1;6
+PropertyUtilsBean.getMappedProperty( Object bean , String name );5;3;23
+PropertyUtilsBean.getPropertyDescriptors( Class beanClass );20;17;73
+PropertyUtilsBean.PropertyUtilsBean( );1;0;6
+PropertyUtilsBean.clearDescriptors( );1;0;5
+PropertyUtilsBean.getSimpleProperty( Object bean , String name );10;5;45
+PropertyUtilsBean.setMappedProperty( Object bean , String name , Object value );5;3;24
+PropertyUtilsBean.setPropertyOfMapBean( Map bean , String propertyName , Object value );6;4;15
+PropertyUtilsBean.getPropertyEditorClass( Object bean , String name );4;3;16
+PropertyUtilsBean.getIndexedProperty( Object bean , String name );5;4;23
+PropertyUtilsBean.getReadMethod( Class clazz , PropertyDescriptor descriptor );1;0;3
+PropertyUtilsBean.invokeMethod( Method method , Object bean , Object [ ] values );10;14;41
+PropertyUtilsBean.getIndexedProperty( Object bean , String name , int index );17;11;67
+PropertyUtilsBean.setSimpleProperty( Object bean , String name , Object value );12;6;53
+PropertyUtilsBean.setIndexedProperty( Object bean , String name , Object value );5;4;22
+PropertyUtilsBean.getMappedPropertyDescriptors( Object bean );2;1;6
+PropertyUtilsBean.getMappedProperty( Object bean , String name , String key );11;7;55
+PropertyUtilsBean.getPropertyDescriptor( Object bean , String name );14;12;51
+PropertyUtilsBean.getMappedPropertyDescriptors( Class beanClass );2;1;6
+PropertyUtilsBean.describe( Object bean );6;6;24
+PropertyUtilsBean.copyProperties( Object dest , Object orig );22;8;69

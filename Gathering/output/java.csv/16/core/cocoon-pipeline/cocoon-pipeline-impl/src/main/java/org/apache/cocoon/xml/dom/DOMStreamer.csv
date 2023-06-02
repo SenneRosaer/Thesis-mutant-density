@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMStreamer.DOMStreamer( ContentHandler content );2;0;3
+DOMStreamer.setLexicalHandler( LexicalHandler handler );1;0;4
+DOMStreamer.recycle( );1;0;5
+DOMStreamer.stream( Node node );2;0;7
+NamespaceNormalizingDOMStreamer.getPrefixAndLocalName( String nodeName );2;3;12
+ElementInfo.findPrefix( String namespaceURI );5;5;12
+ElementInfo.getNamespaceURI( String prefix );3;3;5
+DOMStreamer.DOMStreamer( XMLConsumer consumer );1;0;3
+DOMStreamer.DOMStreamer( ContentHandler content , LexicalHandler lexical );1;0;5
+NamespaceNormalizingDOMStreamer.endNode( Node node );9;4;28
+DOMStreamer.setConsumer( XMLConsumer consumer );1;0;4
+NamespaceNormalizingDOMStreamer.stream( Node pos );10;7;32
+DOMStreamer.isNormalizeNamespaces( );1;0;3
+ElementInfo.put( String prefix , String namespaceURI );2;1;5
+DOMStreamer.setContentHandler( ContentHandler handler );1;0;4
+DOMStreamer.setNormalizeNamespaces( boolean normalizeNamespaces );1;0;3
+ElementInfo.getPrefix( String namespaceURI );5;3;11
+NamespaceNormalizingDOMStreamer.getNamespaceForPrefix( String prefix , Element namespaceContext );10;9;27
+ElementInfo.ElementInfo( ElementInfo parent );1;0;3
+DefaultDOMStreamer.stream( Node node );5;2;23
+NamespaceNormalizingDOMStreamer.recycle( );1;0;5
+DOMStreamer.DOMStreamer( );1;0;3
+ElementInfo.findNamespaceURI( String prefix );5;5;12
+NamespaceNormalizingDOMStreamer.startNode( Node node );42;38;160
+NamespaceNormalizingDOMStreamer.dispatchChars( Node node );2;1;6

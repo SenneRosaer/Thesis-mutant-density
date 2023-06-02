@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SaveService.saveSampleResult( SampleEvent evt , Writer writer );1;0;6
+SaveService.getPropertiesVersion( );1;0;3
+SaveService.extractVersion( String rev );2;3;6
+SaveService.writeXmlHeader( OutputStreamWriter writer );2;1;8
+SaveService.loadTree( InputStream reader );6;2;27
+SaveService.isSaveTestLogFormat20( );1;0;3
+SaveService.loadTestResults( InputStream reader , ResultCollectorHelper resultCollectorHelper );1;0;7
+SaveService.CEtoString( ConversionException ce );1;0;7
+XStreamWrapper.realClass( String alias );2;1;4
+SaveService.aliasToClass( String s );2;1;4
+SaveService.loadProperties( );1;1;12
+XStreamWrapper.wrapMapper( MapperWrapper next );4;0;15
+SaveService.isSaveTestPlanFormat22( );1;0;3
+SaveService.checkPropertyVersion( );1;0;3
+SaveService.checkVersions( );4;2;13
+SaveService.getVERSION( );1;0;3
+SaveService.saveTestElement( TestElement elem , Writer writer );1;0;4
+XStreamWrapper.serializedClass( Class type );3;2;7
+SaveService.registerConverter( String key , XStream jmxsaver , boolean useMapper );2;0;9
+SaveService.isSaveTestPlanFormat20( );1;0;3
+SaveService.saveTree( HashTree tree , OutputStream out );1;0;9
+SaveService.getFileEncodingCharset( );3;3;8
+SaveService.getOutputStreamWriter( OutputStream outStream );2;1;9
+SaveService.initProps( );16;2;55
+SaveService.loadElement( InputStream in );1;0;6
+SaveService.classToAlias( String s );2;1;4
+XStreamWrapper.XStreamWrapper( ReflectionProvider reflectionProvider );1;0;3
+SaveService.getInputStreamReader( InputStream inStream );2;1;9
+SaveService.checkFileVersion( );1;0;3
+SaveService.getFileEncoding( String dflt );3;3;8
+SaveService.saveElement( Object el , OutputStream out );1;0;6
+SaveService.makeAlias( String alias , String clazz );2;1;7

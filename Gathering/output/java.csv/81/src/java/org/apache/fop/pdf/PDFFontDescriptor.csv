@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PDFFontDescriptor.PDFFontDescriptor( String basefont , int ascent , int descent , int capHeight , int flags , PDFRectangle fontBBox , int italicAngle , int stemV );1;0;12
+PDFFontDescriptor.getCIDSet( );1;0;3
+PDFFontDescriptor.setFontFile( FontType subtype , AbstractPDFStream fontfile );2;1;7
+PDFFontDescriptor.getFontFile( );3;2;11
+PDFFontDescriptor.setCIDSet( AbstractPDFStream cidSet );1;0;3
+PDFFontDescriptor.setMetrics( int avgWidth , int maxWidth , int missingWidth , int leading , int stemH , int xHeight );7;6;20

@@ -1,0 +1,63 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConcurrentReferenceHashMapTests.shouldReplaceOldNullValueWithNewValue( );1;0;7
+ConcurrentReferenceHashMapTests.shouldReplaceOldValueWithNewValue( );1;0;7
+ConcurrentReferenceHashMapTests.shouldGetFollowingNexts( );1;0;11
+ConcurrentReferenceHashMapTests.shouldPurgeOnGet( );2;2;13
+TestWeakConcurrentCache.TestWeakConcurrentCache( );1;0;3
+MockReference.getHash( );1;0;3
+ConcurrentReferenceHashMapTests.shouldSetViaEntrySet( );1;0;12
+TestWeakConcurrentCache.TestWeakConcurrentCache( int initialCapacity , int concurrencyLevel );1;0;3
+ConcurrentReferenceHashMapTests.shouldRemoveWhenKeyIsInMap( );1;0;9
+ConcurrentReferenceHashMapTests.shouldNeedPositiveLoadFactor( );1;0;6
+ConcurrentReferenceHashMapTests.shouldBeFasterThanSynchronizedMap( );1;1;9
+MockReference.getNext( );1;0;3
+ConcurrentReferenceHashMapTests.run( );3;4;7
+ConcurrentReferenceHashMapTests.shouldContainKey( );1;0;8
+ConcurrentReferenceHashMapTests.shouldPutIfAbsentWithNullKey( );1;0;5
+ConcurrentReferenceHashMapTests.shouldReplaceValue( );1;0;5
+ConcurrentReferenceHashMapTests.timeMultiThreaded( String id , final Map < Integer , V > map , ValueFactory < V > factory );8;4;30
+ConcurrentReferenceHashMapTests.shouldGetValues( );1;0;13
+TestWeakConcurrentCache.getMockReference( K key , Restructure restructure );1;0;3
+TestWeakConcurrentCache.setDisableTestHooks( boolean disableTestHooks );1;0;3
+ConcurrentReferenceHashMapTests.shouldClear( );1;0;10
+ConcurrentReferenceHashMapTests.shouldContainValue( );1;0;8
+ConcurrentReferenceHashMapTests.shouldSupportIsEmpty( );1;0;7
+ConcurrentReferenceHashMapTests.shouldPutAndGet( );1;0;10
+ConcurrentReferenceHashMapTests.shouldGetSize( );1;0;7
+ConcurrentReferenceHashMapTests.shouldGetWithNoItems( );1;0;3
+MockReference.queueForPurge( );1;0;3
+ConcurrentReferenceHashMapTests.shouldRemoveKeyAndValueWithExistingNull( );1;0;8
+TestWeakConcurrentCache.TestWeakConcurrentCache( int initialCapacity , float loadFactor , int concurrencyLevel );1;0;3
+ConcurrentReferenceHashMapTests.shouldCreateWithInitialCapacity( );1;0;6
+MockReference.release( );1;0;4
+ConcurrentReferenceHashMapTests.shouldCreateWithInitialCapacityAndLoadFactor( );1;0;6
+ConcurrentReferenceHashMapTests.shouldCreateWithDefaults( );1;0;6
+TestWeakConcurrentCache.getHash( @ Nullable Object o );3;1;7
+ConcurrentReferenceHashMapTests.shouldPutIfAbsentWithNullValue( );1;0;5
+ConcurrentReferenceHashMapTests.shouldGetEntrySetFollowingNext( );1;0;11
+ConcurrentReferenceHashMapTests.shouldApplySupplementalHash( );1;2;6
+ConcurrentReferenceHashMapTests.shouldReplaceNullValue( );1;0;5
+ConcurrentReferenceHashMapTests.shouldRemoveViaEntrySet( );1;0;14
+ConcurrentReferenceHashMapTests.shouldGetEntrySet( );1;0;10
+ConcurrentReferenceHashMapTests.shouldPutNullKey( );1;0;7
+TestWeakConcurrentCache.createReference( Entry < K , V > entry , int hash , @ Nullable Reference < K , V > next );2;0;6
+MockReference.MockReference( Entry < K , V > entry , int hash , Reference < K , V > next , LinkedList < MockReference < K , V > > queue );1;0;6
+ConcurrentReferenceHashMapTests.containsViaEntrySet( );1;0;18
+MockReference.get( );1;0;3
+ConcurrentReferenceHashMapTests.shouldReplaceOnDoublePut( );1;0;5
+ConcurrentReferenceHashMapTests.shouldResize( );2;2;23
+ConcurrentReferenceHashMapTests.shouldPutNullValue( );1;0;10
+ConcurrentReferenceHashMapTests.shouldSupportNullReference( );1;0;3
+ConcurrentReferenceHashMapTests.shouldRemoveWhenKeyIsNotInMap( );1;0;5
+ConcurrentReferenceHashMapTests.shouldCreateFullyCustom( );1;0;6
+TestWeakConcurrentCache.pollForPurge( );3;0;6
+TestWeakConcurrentCache.createReferenceManager( );4;0;18
+ConcurrentReferenceHashMapTests.shouldGetKeySet( );1;0;10
+TestWeakConcurrentCache.getSupplementalHash( );1;0;3
+ConcurrentReferenceHashMapTests.shouldNeedPositiveConcurrencyLevel( );1;0;6
+ConcurrentReferenceHashMapTests.shouldRemoveKeyAndValue( );1;0;8
+ConcurrentReferenceHashMapTests.shouldPutIfAbsent( );1;0;5
+ConcurrentReferenceHashMapTests.shouldNeedNonNegativeInitialCapacity( );1;1;6
+ConcurrentReferenceHashMapTests.shouldPutAll( );1;0;11
+ConcurrentReferenceHashMapTests.shouldPurgeOnPut( );2;2;14
+ConcurrentReferenceHashMapTests.shouldCreateWithInitialCapacityAndConcurrentLevel( );1;0;6

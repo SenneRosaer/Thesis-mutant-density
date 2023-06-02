@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChannelInterceptorTests.afterCompletionWithSendException( );3;0;20
+AbstractTestInterceptor.getCounter( );1;0;3
+ChannelInterceptorTests.setup( );1;0;5
+PreSendInterceptor.preSend( Message < ? > message , MessageChannel channel );3;2;7
+ChannelInterceptorTests.preSendInterceptorReturningNull( );2;0;13
+ChannelInterceptorTests.preSendInterceptorReturningModifiedMessage( );3;0;12
+TestMessageHandler.handleMessage( Message < ? > message );1;0;3
+PreSendInterceptor.setExceptionToRaise( RuntimeException exception );1;0;3
+AbstractTestInterceptor.preSend( Message < ? > message , MessageChannel channel );1;0;5
+PreSendInterceptor.setMessageToReturn( Message < ? > messageToReturn );1;0;3
+ChannelInterceptorTests.postSendInterceptorMessageWasNotSent( );5;0;31
+ChannelInterceptorTests.postSendInterceptorMessageWasSent( );4;0;25
+ChannelInterceptorTests.assertInput( Message < ? > message , MessageChannel channel , boolean sent );1;0;6
+ChannelInterceptorTests.postSend( Message < ? > message , MessageChannel channel , boolean sent );1;0;4
+ChannelInterceptorTests.afterCompletionWithPreSendException( );2;0;15
+AbstractTestInterceptor.wasAfterCompletionInvoked( );1;0;3
+ChannelInterceptorTests.afterSendCompletion( Message < ? > message , MessageChannel channel , boolean sent , Exception ex );1;0;4
+TestMessageHandler.getMessages( );1;0;3
+AbstractTestInterceptor.afterSendCompletion( Message < ? > message , MessageChannel channel , boolean sent , Exception ex );1;0;3
+NullReturningPreSendInterceptor.preSend( Message < ? > message , MessageChannel channel );1;0;4
+ChannelInterceptorTests.sendInternal( Message < ? > message , long timeout );1;0;3

@@ -1,0 +1,73 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProperyImportCtx.informCompleted( boolean success );1;0;4
+DavResourceImpl.isCollection( );1;0;3
+ProperyImportCtx.isCompleted( );1;0;3
+DavResourceImpl.bind( DavResource collection , DavResource newBinding );7;3;25
+DavResourceImpl.getPropertyImportContext( List changeList );1;0;3
+DavResourceImpl.getSupportedMethods( );1;0;3
+DavResourceImpl.getHref( );1;0;3
+PropertyExportCtx.setProperty( Object propertyName , Object propertyValue );4;1;17
+PropertyExportCtx.PropertyExportCtx( );1;0;5
+DavResourceImpl.isJsrLockable( );5;2;15
+DavResourceImpl.unlock( String lockToken );5;1;18
+PropertyExportCtx.getOutputStream( );1;0;3
+ProperyImportCtx.ProperyImportCtx( List changeList );1;0;3
+***not in a method***;0;1;0
+DavResourceImpl.alterProperties( List changeList );11;1;42
+DavResourceImpl.getPropertyNames( );1;0;3
+DavResourceImpl.getJcrSession( );1;0;3
+DavResourceImpl.removeMember( DavResource member );11;6;34
+DavResourceImpl.rebind( DavResource collection , DavResource newBinding );8;2;24
+DavResourceImpl.removeProperty( DavPropertyName propertyName );1;0;3
+DavResourceImpl.initRfc4122Uri( );4;0;14
+DavResourceImpl.DavResourceImpl( DavResourceLocator locator , DavResourceFactory factory , DavSession session , ResourceConfig config );7;5;22
+DavResourceImpl.DavResourceImpl( DavResourceLocator locator , DavResourceFactory factory , DavSession session , ResourceConfig config , boolean isCollection );1;0;4
+DavResourceImpl.getParentElements( );4;1;21
+DavResourceImpl.getFactory( );1;0;3
+PropertyExportCtx.setContentLanguage( String contentLanguage );2;1;5
+DavResourceImpl.addLockManager( LockManager lockMgr );1;0;3
+DavResourceImpl.getCollection( );5;3;15
+DavResourceImpl.copy( DavResource destination , boolean shallow );8;2;23
+DavResourceImpl.hasLock( Type type , Scope scope );1;1;3
+DavResourceImpl.getProperty( DavPropertyName name );1;0;4
+DavResourceImpl.getResourcePath( );1;0;3
+PropertyExportCtx.setModificationTime( long modTime );2;1;9
+PropertyExportCtx.setContentLength( long contentLength );2;1;5
+DavResourceImpl.addMember( DavResource member , InputContext inputContext );9;4;26
+DavResourceImpl.getLocator( );1;0;3
+DavResourceImpl.getMembers( );7;2;21
+DavResourceImpl.alterProperty( Object prop );6;1;27
+PropertyExportCtx.setContentType( String mimeType , String encoding );2;1;6
+PropertyExportCtx.setETag( String etag );2;1;5
+DavResourceImpl.getDisplayName( );2;1;4
+DavResourceImpl.checkSameWorkspace( DavResourceLocator otherLoc );2;1;6
+DavResourceImpl.getLocks( );2;1;4
+DavResourceImpl.spool( OutputContext outputContext );4;3;8
+DavResourceImpl.getLock( Type type , Scope scope );9;5;18
+DavResourceImpl.isLockable( Type type , Scope scope );2;1;3
+DavResourceImpl.getComplianceClass( );1;0;3
+DavResourceImpl.setIsCollection( boolean isCollection );1;0;3
+ProperyImportCtx.getIOListener( );1;0;3
+DavResourceImpl.exists( );1;1;3
+DavResourceImpl.getSession( );1;0;3
+DavResourceImpl.refreshLock( LockInfo lockInfo , String lockToken );5;2;19
+DavResourceImpl.getImportContext( InputContext inputCtx , String systemId );1;0;3
+DavResourceImpl.getNode( );1;0;3
+DavResourceImpl.lock( LockInfo lockInfo );5;1;20
+DavResourceImpl.alterProperties( DavPropertySet setProperties , DavPropertyNameSet removePropertyNames );5;2;16
+DavResourceImpl.getPropertyExportContext( );1;0;3
+DavResourceImpl.getExportContext( OutputContext outputCtx );1;0;3
+DavResourceImpl.getModificationTime( );1;0;4
+ProperyImportCtx.hasStream( );1;0;3
+DavResourceImpl.initProperties( );8;5;32
+PropertyExportCtx.setCreationTime( long creationTime );1;0;4
+DavResourceImpl.getProperties( );1;0;4
+DavResourceImpl.isFilteredResource( DavResource resource );2;2;4
+ProperyImportCtx.getChangeList( );1;0;3
+DavResourceImpl.isLocked( DavResource res );4;3;14
+ProperyImportCtx.checkCompleted( );2;0;5
+DavResourceImpl.DavResourceImpl( DavResourceLocator locator , DavResourceFactory factory , DavSession session , ResourceConfig config , Node node );6;7;19
+ProperyImportCtx.getImportRoot( );1;0;3
+DavResourceImpl.move( DavResource destination );5;1;18
+DavResourceImpl.isFilteredItem( Item item );2;2;4
+DavResourceImpl.setProperty( DavProperty property );1;0;3

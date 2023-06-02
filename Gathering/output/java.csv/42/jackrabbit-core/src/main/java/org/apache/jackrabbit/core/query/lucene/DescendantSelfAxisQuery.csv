@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DescendantSelfAxisWeight.normalize( float norm );1;0;2
+DescendantSelfAxisScorer.collectContextHits( );3;2;20
+DescendantSelfAxisQuery.rewrite( IndexReader reader );5;4;16
+DescendantSelfAxisQuery.DescendantSelfAxisQuery( Query context , Query sub , int minLevels );1;0;5
+DescendantSelfAxisWeight.scorer( IndexReader reader );1;0;6
+DescendantSelfAxisScorer.collect( int doc , float score );1;0;3
+DescendantSelfAxisScorer.next( );6;5;14
+DescendantSelfAxisQuery.subQueryMatchesAll( );1;0;3
+DescendantSelfAxisQuery.DescendantSelfAxisQuery( Query context , Query sub );1;0;3
+DescendantSelfAxisQuery.DescendantSelfAxisQuery( Query context , boolean includeSelf );1;0;3
+DescendantSelfAxisScorer.explain( int doc );1;0;3
+DescendantSelfAxisQuery.getContextQuery( );1;0;3
+DescendantSelfAxisWeight.explain( IndexReader reader , int doc );1;0;3
+DescendantSelfAxisQuery.getMinLevels( );1;0;3
+DescendantSelfAxisWeight.getValue( );1;0;3
+DescendantSelfAxisScorer.skipTo( int target );3;0;13
+DescendantSelfAxisWeight.DescendantSelfAxisWeight( Searcher searcher );1;0;3
+DescendantSelfAxisQuery.fetchNextTraversal( );4;2;17
+DescendantSelfAxisScorer.isValid( int doc );9;16;24
+DescendantSelfAxisWeight.sumOfSquaredWeights( );1;0;3
+DescendantSelfAxisWeight.getQuery( );1;0;3
+DescendantSelfAxisQuery.execute( final JackrabbitIndexSearcher searcher , final SessionImpl session , final Sort sort );15;7;73
+DescendantSelfAxisQuery.close( );2;1;5
+DescendantSelfAxisQuery.createWeight( Searcher searcher );1;0;3
+DescendantSelfAxisQuery.nextScoreNode( );3;2;11
+DescendantSelfAxisQuery.extractTerms( Set terms );1;0;4
+DescendantSelfAxisScorer.score( );1;0;3
+DescendantSelfAxisQuery.toString( String field );1;0;11
+DescendantSelfAxisQuery.DescendantSelfAxisQuery( Query context , Query sub , boolean includeSelf );2;0;3
+DescendantSelfAxisScorer.DescendantSelfAxisScorer( Similarity similarity , IndexReader reader , HierarchyResolver hResolver );1;0;5
+DescendantSelfAxisScorer.doc( );1;0;3

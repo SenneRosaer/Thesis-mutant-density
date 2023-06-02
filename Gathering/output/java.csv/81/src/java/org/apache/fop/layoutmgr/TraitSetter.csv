@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TraitSetter.addMargins( Area area , CommonBorderPaddingBackground bpProps , CommonMarginBlock marginProps , PercentBaseContext context );1;0;5
+TraitSetter.addBreaks( Area area , int breakBefore , int breakAfter );1;0;2
+TraitSetter.getEffectiveSpace( double adjust , MinOptMax space );3;8;12
+TraitSetter.addMargins( Area area , CommonBorderPaddingBackground bpProps , int startIndent , int endIndent , PercentBaseContext context );5;8;20
+TraitSetter.addTextDecoration( Area area , CommonTextDecoration deco );6;1;19
+TraitSetter.addSpaceBeforeAfter( Area area , double adjust , MinOptMax spaceBefore , MinOptMax spaceAfter );3;2;11
+TraitSetter.addPadding( Area area , CommonBorderPaddingBackground bordProps , boolean discardBefore , boolean discardAfter , boolean discardStart , boolean discardEnd , PercentBaseContext context );5;4;22
+TraitSetter.addFontTraits( Area area , Font font );1;0;4
+TraitSetter.addBorders( Area area , CommonBorderPaddingBackground bordProps , boolean discardBefore , boolean discardAfter , boolean discardStart , boolean discardEnd , PercentBaseContext context );9;12;18
+TraitSetter.getBorderProps( CommonBorderPaddingBackground bordProps , int side );2;1;13
+TraitSetter.setProducerID( Area area , String id );3;3;5
+TraitSetter.addBorderTrait( Area area , CommonBorderPaddingBackground bpProps , boolean bDiscard , int iSide , int mode , Object oTrait );2;1;9
+TraitSetter.setBorderPaddingTraits( Area area , CommonBorderPaddingBackground bpProps , boolean bNotFirst , boolean bNotLast , PercentBaseContext context );5;4;31
+TraitSetter.addCollapsingBorders( Area area , BorderInfo borderBefore , BorderInfo borderAfter , BorderInfo borderStart , BorderInfo borderEnd , boolean [ ] outer );5;4;18
+TraitSetter.addBackground( Area area , CommonBorderPaddingBackground backProps , PercentBaseContext context , int ipdShift , int bpdShift , int referenceIPD , int referenceBPD );11;16;45
+TraitSetter.addPadding( Area area , CommonBorderPaddingBackground bordProps , PercentBaseContext context );1;0;3
+TraitSetter.addBorders( Area area , CommonBorderPaddingBackground bordProps , PercentBaseContext context );5;4;19
+TraitSetter.getCollapsingBorderProps( BorderInfo borderInfo , boolean outer );3;2;11
+TraitSetter.addBackground( Area area , CommonBorderPaddingBackground backProps , PercentBaseContext context );11;18;59

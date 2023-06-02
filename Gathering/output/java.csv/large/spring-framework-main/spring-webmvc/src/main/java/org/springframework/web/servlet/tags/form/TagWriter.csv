@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TagWriter.writeAttribute( String attributeName );2;0;6
+TagWriter.endTag( );1;0;3
+TagStateEntry.isBlockTag( );1;0;3
+TagWriter.inTag( );1;1;3
+SafeWriter.getWriterToUse( );2;2;5
+TagStateEntry.getTagName( );1;0;3
+TagWriter.startTag( String tagName );2;0;7
+TagWriter.writeAttribute( String attributeName , String attributeValue );2;0;7
+TagStateEntry.markAsBlockTag( );1;0;3
+TagWriter.TagWriter( PageContext pageContext );1;0;4
+SafeWriter.SafeWriter( Writer writer );1;0;3
+TagWriter.forceBlock( );2;0;6
+TagWriter.endTag( boolean enforceClosingTag );5;2;19
+TagWriter.closeTagAndMarkAsBlock( );2;1;6
+SafeWriter.append( String value );2;0;9
+TagStateEntry.TagStateEntry( String tagName );1;0;3
+TagWriter.currentState( );1;0;3
+TagWriter.writeOptionalAttributeValue( String attributeName , @ Nullable String attributeValue );2;0;5
+TagWriter.appendValue( String value );2;1;7
+TagWriter.push( String tagName );1;0;3
+TagWriter.TagWriter( Writer writer );1;0;4
+SafeWriter.SafeWriter( PageContext pageContext );1;0;3

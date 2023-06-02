@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NumberConverter.toNumber( Class sourceType , Class targetType , Number value );22;23;76
+NumberConverter.convertToType( Class targetType , Object value );11;3;30
+NumberConverter.setUseLocaleFormat( boolean useLocaleFormat );1;0;3
+NumberConverter.setLocale( Locale locale );1;0;4
+NumberConverter.toString( );3;2;18
+NumberConverter.setPattern( String pattern );1;0;4
+NumberConverter.parse( Class sourceType , Class targetType , String value , NumberFormat format );7;8;18
+NumberConverter.toNumber( Class sourceType , Class targetType , String value );10;2;32
+NumberConverter.convertToString( Object value );5;1;17
+NumberConverter.isAllowDecimals( );1;0;3
+NumberConverter.NumberConverter( boolean allowDecimals , Object defaultValue );1;0;5
+NumberConverter.NumberConverter( boolean allowDecimals );1;0;4
+NumberConverter.getPattern( );1;0;3
+NumberConverter.getFormat( );9;4;34
+NumberConverter.getLocale( );1;0;3

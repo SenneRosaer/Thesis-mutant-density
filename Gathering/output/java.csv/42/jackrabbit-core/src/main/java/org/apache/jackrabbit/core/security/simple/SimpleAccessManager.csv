@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleAccessManager.internalIsGranted( Path absPath , int permissions );4;2;12
+SimpleAccessManager.checkPermission( ItemId id , int permissions );2;1;5
+SimpleAccessManager.checkValidNodePath( String absPath );3;2;9
+SimpleAccessManager.isGranted( Path absPath , int permissions );1;0;3
+SimpleAccessManager.hasPrivileges( String absPath , Privilege [ ] privileges );6;4;17
+SimpleAccessManager.canRead( Path itemPath );1;0;3
+SimpleAccessManager.init( AMContext context , AccessControlProvider acProvider , WorkspaceAccessManager wspAccessManager );3;3;16
+SimpleAccessManager.SimpleAccessManager( );1;0;5
+SimpleAccessManager.checkInitialized( );2;1;5
+SimpleAccessManager.getPrivilegeRegistry( );1;0;4
+SimpleAccessManager.close( );1;0;4
+SimpleAccessManager.getEffectivePolicies( String absPath );1;0;5
+SimpleAccessManager.checkPrivileges( String absPath , int privileges );3;2;6
+SimpleAccessManager.isGranted( ItemId id , int permissions );5;5;12
+SimpleAccessManager.canAccess( String workspaceName );3;2;6
+SimpleAccessManager.init( AMContext context );1;0;3
+SimpleAccessManager.isGranted( Path parentPath , Name childName , int permissions );1;0;3
+SimpleAccessManager.getPrivileges( String absPath );3;0;11

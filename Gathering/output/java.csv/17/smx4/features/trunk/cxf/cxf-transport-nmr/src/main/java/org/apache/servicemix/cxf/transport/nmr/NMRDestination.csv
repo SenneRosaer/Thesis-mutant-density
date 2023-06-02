@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NMRDestination.getLogger( );1;0;3
+NMRDestination.getInbuiltBackChannel( Message inMessage );1;0;4
+BackChannelConduit.getLogger( );1;0;3
+NMRDestination.shutdown( );1;0;2
+NMRDestination.getChannel( );1;0;3
+NMRDestination.setChannel( Channel dc );1;0;3
+NMRDestination.process( Exchange exchange );2;0;16
+BackChannelConduit.prepare( Message message );1;0;5
+BackChannelConduit.setMessageObserver( MessageObserver observer );1;0;2
+NMRDestination.deactivate( );1;0;3
+NMRDestination.NMRDestination( EndpointInfo info , NMR nmr );1;0;8
+NMRDestination.activate( );1;0;3
+BackChannelConduit.BackChannelConduit( EndpointReferenceType ref , Message message );1;0;4

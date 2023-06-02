@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractKotlinSerializationHttpMessageConverter.serializer( Type type );5;2;17
+AbstractKotlinSerializationHttpMessageConverter.AbstractKotlinSerializationHttpMessageConverter( T format , MediaType ... supportedMediaTypes );1;0;4
+AbstractKotlinSerializationHttpMessageConverter.hasPolymorphism( SerialDescriptor descriptor , Set < String > alreadyProcessed );5;4;13
+AbstractKotlinSerializationHttpMessageConverter.read( Type type , @ Nullable Class < ? > contextClass , HttpInputMessage inputMessage );2;1;8
+AbstractKotlinSerializationHttpMessageConverter.canWrite( @ Nullable Type type , Class < ? > clazz , @ Nullable MediaType mediaType );3;2;8
+AbstractKotlinSerializationHttpMessageConverter.supports( Class < ? > clazz );1;1;3
+AbstractKotlinSerializationHttpMessageConverter.writeInternal( Object object , @ Nullable Type type , HttpOutputMessage outputMessage );3;2;8
+AbstractKotlinSerializationHttpMessageConverter.canRead( Type type , @ Nullable Class < ? > contextClass , @ Nullable MediaType mediaType );2;1;8
+AbstractKotlinSerializationHttpMessageConverter.readInternal( Class < ? > clazz , HttpInputMessage inputMessage );2;1;7

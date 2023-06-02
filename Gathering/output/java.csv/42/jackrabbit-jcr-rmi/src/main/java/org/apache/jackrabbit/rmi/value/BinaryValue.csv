@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BinaryValue.getDouble( );1;0;3
+BinaryValue.getString( );1;0;3
+BinaryValue.BinaryValue( String value );1;0;3
+BinaryValue.BinaryValue( InputStream stream );1;0;3
+***not in a method***;0;1;0
+BinaryValue.getBoolean( );1;0;3
+BinaryValue.readObject( ObjectInputStream in );4;2;30
+BinaryValue.getLong( );1;0;3
+BinaryValue.getDate( );1;0;3
+BinaryValue.getType( );1;0;3
+BinaryValue.getStream( );1;0;3
+BinaryValue.toStream( String value );2;0;7
+BinaryValue.writeObject( ObjectOutputStream out );3;2;12
+BinaryValue.close( );1;0;5
+BinaryValue.finalize( );2;1;9

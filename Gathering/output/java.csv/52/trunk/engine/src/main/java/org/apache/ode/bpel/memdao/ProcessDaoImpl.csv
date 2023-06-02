@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProcessDaoImpl.getGuid( );1;0;3
+ProcessDaoImpl.getNumInstances( );1;0;3
+ProcessDaoImpl.removeRoutes( String routeId , ProcessInstanceDAO target );2;0;5
+***not in a method***;0;2;0
+ProcessDaoImpl.getInstance( Long instanceId );1;0;3
+ProcessDaoImpl.discardOldInstances( );5;10;16
+ProcessDaoImpl.getDeployer( );1;0;3
+ProcessDaoImpl.run( );1;0;4
+ProcessDaoImpl.getVersion( );1;0;3
+ProcessDaoImpl.instanceCompleted( ProcessInstanceDAO instance );4;1;14
+ProcessDaoImpl.createInstance( CorrelatorDAO correlator );1;1;19
+ProcessDaoImpl.update( );1;0;2
+ProcessDaoImpl.getProcessId( );1;0;3
+ProcessDaoImpl.getActivityFailureDateTime( );1;0;3
+ProcessDaoImpl.getInstanceWithLock( Long iid );1;0;3
+ProcessDaoImpl.findInstance( CorrelationKey key );4;0;9
+ProcessDaoImpl.setGuid( String guid );1;0;3
+ProcessDaoImpl.addCorrelator( String correlator );1;0;5
+ProcessDaoImpl.getCorrelator( String cid );2;1;7
+ProcessDaoImpl.ProcessDaoImpl( BpelDAOConnectionImpl conn , Map < QName , ProcessDaoImpl > store , QName processId , QName type , String guid , long version );2;0;11
+ProcessDaoImpl.getCorrelators( );2;0;4
+ProcessDaoImpl.getType( );1;0;3
+ProcessDaoImpl.delete( );1;0;3
+ProcessDaoImpl.getActivityFailureCount( );1;0;3

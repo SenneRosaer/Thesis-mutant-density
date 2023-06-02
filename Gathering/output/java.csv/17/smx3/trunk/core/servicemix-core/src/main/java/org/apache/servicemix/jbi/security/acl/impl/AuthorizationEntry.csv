@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AuthorizationEntry.getRoles( );4;1;13
+AuthorizationEntry.getOperation( );1;0;3
+AuthorizationEntry.buildRoles( String roles );2;0;9
+AuthorizationEntry.getService( );1;0;3
+AuthorizationEntry.getType( );1;0;3
+AuthorizationEntry.setEndpoint( String endpoint );1;0;3
+AuthorizationEntry.setAcls( Set < GroupPrincipal > acls );1;0;3
+AuthorizationEntry.getEndpoint( );1;0;3
+AuthorizationEntry.setOperation( QName operation );1;0;3
+AuthorizationEntry.AuthorizationEntry( );1;0;2
+AuthorizationEntry.setRoles( String roles );1;0;3
+AuthorizationEntry.setService( QName service );4;4;7
+AuthorizationEntry.setType( String type );1;0;3
+AuthorizationEntry.AuthorizationEntry( QName service , String endpoint , QName operation , String roles );1;0;6
+AuthorizationEntry.toString( );1;0;3
+AuthorizationEntry.AuthorizationEntry( QName service , String endpoint , QName operation , String roles , String type );1;0;7
+AuthorizationEntry.getAcls( );1;0;3

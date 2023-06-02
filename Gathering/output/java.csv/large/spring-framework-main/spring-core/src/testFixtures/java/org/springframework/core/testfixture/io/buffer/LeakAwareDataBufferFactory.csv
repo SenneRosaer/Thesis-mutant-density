@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LeakAwareDataBufferFactory.wrap( byte [ ] bytes );1;0;3
+LeakAwareDataBufferFactory.join( List < ? extends DataBuffer > dataBuffers );2;0;6
+LeakAwareDataBufferFactory.wrap( ByteBuffer byteBuffer );1;0;3
+LeakAwareDataBufferFactory.createLeakAwareDataBuffer( DataBuffer delegateBuffer );2;0;7
+LeakAwareDataBufferFactory.allocateBuffer( );1;0;3
+LeakAwareDataBufferFactory.LeakAwareDataBufferFactory( );1;0;3
+LeakAwareDataBufferFactory.checkForLeaks( Duration timeout );5;0;23
+LeakAwareDataBufferFactory.checkForLeaks( );1;0;3
+LeakAwareDataBufferFactory.allocateBuffer( int initialCapacity );1;0;3
+LeakAwareDataBufferFactory.isDirect( );1;0;3
+LeakAwareDataBufferFactory.LeakAwareDataBufferFactory( DataBufferFactory delegate );1;0;4

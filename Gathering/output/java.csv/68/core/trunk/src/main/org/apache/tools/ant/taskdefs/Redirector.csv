@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Redirector.handleErrorFlush( String output );2;1;6
+Redirector.handleErrorOutput( String output );2;1;6
+Redirector.setOutput( File out );2;1;3
+Redirector.complete( );9;10;38
+Redirector.outStreams( );7;6;20
+Redirector.setError( File error );2;1;3
+Redirector.setOutputEncoding( String outputEncoding );2;1;8
+Redirector.setProperties( );5;2;14
+Redirector.setInput( File [ ] input );1;0;3
+Redirector.setLogError( boolean logError );1;0;3
+Redirector.setOutputFilterChains( Vector outputFilterChains );1;0;3
+Redirector.setCreateEmptyFiles( boolean createEmptyFiles );1;0;3
+Redirector.handleInput( byte [ ] buffer , int offset , int length );2;1;8
+Redirector.handleFlush( String output );2;1;7
+Redirector.setInputString( String inputString );1;0;3
+Redirector.setOutputProperty( String outputProperty );3;3;7
+Redirector.createHandler( );1;0;4
+Redirector.getErrorStream( );1;0;3
+Redirector.setInputStream( InputStream inputStream );1;0;3
+Redirector.setInputEncoding( String inputEncoding );2;1;8
+Redirector.setLogInputString( boolean logInputString );1;0;3
+Redirector.setErrorEncoding( String errorEncoding );2;1;8
+Redirector.Redirector( Task managingTask );1;0;3
+Redirector.setInput( File input );2;1;3
+Redirector.Redirector( ProjectComponent managingTask );1;0;3
+Redirector.setAlwaysLog( boolean alwaysLog );1;0;3
+Redirector.setPropertyFromBAOS( ByteArrayOutputStream baos , String propertyName );3;2;13
+Redirector.setAppend( boolean append );1;0;3
+Redirector.createStreams( );29;32;100
+Redirector.setErrorFilterChains( Vector errorFilterChains );1;0;3
+Redirector.setError( File [ ] error );1;0;3
+PropertyOutputStream.PropertyOutputStream( String property );1;0;4
+Redirector.getInputStream( );1;0;3
+Redirector.foldFiles( File [ ] file , String logHead , int loglevel );2;4;14
+Redirector.setInputFilterChains( Vector inputFilterChains );1;0;3
+Redirector.getOutputStream( );1;0;3
+Redirector.setAppendProperties( boolean appendProperties );1;0;3
+Redirector.handleOutput( String output );2;1;6
+Redirector.errorStreams( );11;11;31
+Redirector.setErrorProperty( String errorProperty );3;3;7
+Redirector.setOutput( File [ ] out );1;0;3
+PropertyOutputStream.close( );4;4;6

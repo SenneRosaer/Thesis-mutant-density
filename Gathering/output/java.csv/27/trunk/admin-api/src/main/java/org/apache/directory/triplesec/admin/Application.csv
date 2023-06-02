@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Application.getProfile( String profileId );1;0;3
+Application.getDescription( );1;0;3
+Application.getRole( String roleName );1;0;3
+Application.Application( String creatorsName , Date creationTimestamp , ApplicationDao dao , String name , String description , String password , PermissionDao permissionDao , RoleDao roleDao , ProfileDao profileDao );1;0;4
+Application.getPermissionDao( );1;0;3
+Application.profileIterator( );1;0;3
+Application.modifier( );1;0;3
+Application.getPermission( String permName );1;0;3
+Application.getPassword( );1;0;3
+Application.getProfileDao( );1;0;3
+Application.roleIterator( );1;0;3
+Application.profileIterator( String user );1;0;3
+Application.Application( String creatorsName , Date creationTimestamp , String modifiersName , Date modifyTimestamp , ApplicationDao dao , String name , String description , String userPassword , PermissionDao permissionDao , RoleDao roleDao , ProfileDao profileDao );1;0;10
+Application.getName( );1;0;3
+Application.toString( );1;0;3
+Application.permissionIterator( );1;0;3
+Application.getRoleDao( );1;0;3

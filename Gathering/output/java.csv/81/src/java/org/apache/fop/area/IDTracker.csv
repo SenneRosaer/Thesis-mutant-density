@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IDTracker.tryIDResolution( String id , PageViewport pv , List pvList );4;2;15
+IDTracker.signalIDProcessed( String id );5;2;19
+IDTracker.associateIDWithPageViewport( String id , PageViewport pv );5;3;19
+IDTracker.addUnresolvedIDRef( String idref , Resolvable res );2;1;8
+IDTracker.tryIDResolution( PageViewport pv );4;4;11
+IDTracker.getPageViewportsContainingID( String id );1;0;3
+IDTracker.alreadyResolvedID( String id );1;0;3
+IDTracker.signalPendingID( String id );2;0;6

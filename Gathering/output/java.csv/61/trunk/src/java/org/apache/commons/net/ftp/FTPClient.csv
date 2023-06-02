@@ -1,0 +1,82 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FTPClient.setBufferSize( int bufSize );1;0;3
+FTPClient.configure( FTPClientConfig config );1;0;3
+FTPClient.removeDirectory( String pathname );1;0;3
+FTPClient.setFileType( int fileType , int formatOrByteSize );2;0;9
+FTPClient.getDataConnectionMode( );1;0;3
+FTPClient.initiateListParsing( );1;0;3
+FTPClient.getStatus( );2;0;5
+FTPClient.changeToParentDirectory( );1;0;3
+FTPClient.abort( );1;0;3
+FTPClient.initiateListParsing( FTPFileEntryParser parser , String pathname );2;1;16
+FTPClient.__initDefaults( );1;1;13
+FTPClient.enterRemoteActiveMode( InetAddress host , int port );2;1;10
+FTPClient.remoteStoreUnique( );3;3;6
+FTPClient.listFiles( FTPFileListParser parser , String pathname );2;1;10
+FTPClient.storeUniqueFileStream( );1;0;3
+FTPClient.appendFileStream( String remote );1;0;3
+FTPClient.completePendingCommand( );1;0;3
+FTPClient.listFiles( FTPFileListParser parser );1;0;3
+FTPClient.listHelp( );2;0;5
+FTPClient.__storeFileStream( int command , String remote );3;2;13
+FTPClient.storeFile( String remote , InputStream local );1;0;3
+FTPClient._connectAction_( );1;0;4
+FTPClient.sendSiteCommand( String arguments );1;0;3
+FTPClient.rename( String from , String to );2;1;5
+FTPClient.getStatus( String pathname );2;0;5
+FTPClient.deleteFile( String pathname );1;0;3
+FTPClient.getPassiveHost( );1;0;3
+FTPClient.disconnect( );1;0;4
+FTPClient.setDataTimeout( int timeout );1;0;3
+FTPClient.reinitialize( );4;2;11
+FTPClient.enterLocalActiveMode( );1;1;5
+FTPClient.getSystemName( );3;2;5
+FTPClient.listFiles( String pathname );1;0;6
+FTPClient.listFiles( );1;0;3
+FTPClient.__storeFile( int command , String remote , InputStream local );5;2;30
+FTPClient.getPassivePort( );1;0;3
+FTPClient.setParserFactory( FTPFileEntryParserFactory parserFactory );1;0;3
+FTPClient.enterRemotePassiveMode( );2;1;7
+FTPClient.listNames( String pathname );4;2;23
+FTPClient.allocate( int bytes );1;0;3
+FTPClient.createFileList( String pathname , FTPFileEntryParser parser );2;1;11
+FTPClient.listFiles( String parserKey , String pathname );1;0;5
+FTPClient.sendNoOp( );1;0;3
+FTPClient.remoteRetrieve( String filename );3;3;6
+FTPClient.changeWorkingDirectory( String pathname );1;0;3
+FTPClient.getBufferSize( );1;0;3
+FTPClient.listHelp( String command );2;0;5
+FTPClient.__parsePathname( String reply );1;1;6
+FTPClient.setFileStructure( int structure );2;0;8
+FTPClient.storeFileStream( String remote );1;0;3
+FTPClient.FTPClient( );1;1;7
+FTPClient.structureMount( String pathname );1;0;3
+FTPClient.initiateListParsing( String pathname );1;0;4
+FTPClient.appendFile( String remote , InputStream local );1;0;3
+FTPClient.isRemoteVerificationEnabled( );1;0;3
+FTPClient.logout( );1;0;3
+FTPClient.retrieveFile( String remote , OutputStream local );5;2;28
+FTPClient.retrieveFileStream( String remote );3;2;13
+FTPClient.remoteStoreUnique( String filename );3;3;6
+FTPClient.printWorkingDirectory( );2;1;5
+FTPClient.login( String username , String password , String account );5;2;13
+FTPClient.allocate( int bytes , int recordSize );1;0;3
+FTPClient.setFileTransferMode( int mode );2;0;8
+FTPClient.listNames( );1;0;3
+FTPClient.restart( long offset );1;0;4
+FTPClient.storeUniqueFileStream( String remote );1;0;3
+FTPClient.createFileList( FTPFileEntryParser parser );1;0;3
+FTPClient.setRestartOffset( long offset );2;1;4
+FTPClient.setFileType( int fileType );2;0;9
+FTPClient.initiateListParsing( String parserKey , String pathname );4;3;17
+FTPClient.remoteAppend( String filename );3;3;6
+FTPClient.setRemoteVerificationEnabled( boolean enable );1;0;3
+FTPClient.remoteStore( String filename );3;3;6
+FTPClient.login( String username , String password );3;1;8
+FTPClient._openDataConnection_( int command , String arg );16;18;64
+FTPClient.getRestartOffset( );1;0;3
+FTPClient.storeUniqueFile( InputStream local );1;0;3
+FTPClient.storeUniqueFile( String remote , InputStream local );1;0;3
+FTPClient.makeDirectory( String pathname );1;0;3
+FTPClient.__parsePassiveModeReply( String reply );3;8;36
+FTPClient.enterLocalPassiveMode( );1;1;5

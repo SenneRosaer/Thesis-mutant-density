@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JmsNamespaceHandlerTests.testResponseDestination( );1;0;18
+JmsNamespaceHandlerTests.getPhase( String containerBeanName );2;1;7
+JmsNamespaceHandlerTests.testComponentRegistration( );1;0;12
+JmsNamespaceHandlerTests.testJcaContainerFactoryConfiguration( );1;0;14
+TestMessageListener.onMessage( Message message );1;0;3
+JmsNamespaceHandlerTests.testRecoveryInterval( );1;0;9
+JmsNamespaceHandlerTests.getRecoveryInterval( String containerBeanName );1;0;5
+JmsNamespaceHandlerTests.getBackOff( String containerBeanName );1;0;4
+ToolingTestApplicationContext.getRegisteredComponents( );1;0;3
+ToolingTestApplicationContext.initBeanDefinitionReader( XmlBeanDefinitionReader beanDefinitionReader );1;0;5
+JmsNamespaceHandlerTests.testListeners( );1;0;22
+StoringReaderEventListener.StoringReaderEventListener( Set < ComponentDefinition > registeredComponents );1;0;3
+JmsNamespaceHandlerTests.testJmsContainerFactoryConfiguration( );1;0;19
+JmsNamespaceHandlerTests.testJcaContainerConfiguration( );1;0;15
+JmsNamespaceHandlerTests.validateComponentDefinition( ComponentDefinition compDef );2;0;6
+JmsNamespaceHandlerTests.getErrorHandler( String containerBeanName );1;0;4
+JmsNamespaceHandlerTests.getListener( String containerBeanName );1;0;4
+JmsNamespaceHandlerTests.shutdown( );1;0;3
+JmsNamespaceHandlerTests.testPhases( );1;0;12
+JmsNamespaceHandlerTests.setup( );1;0;3
+StoringReaderEventListener.componentRegistered( ComponentDefinition componentDefinition );1;0;3
+JmsNamespaceHandlerTests.testConcurrency( );1;0;20
+JmsNamespaceHandlerTests.testBeansCreated( );2;0;8
+JmsNamespaceHandlerTests.testSourceExtraction( );2;0;8
+JmsNamespaceHandlerTests.createDummyEndpoint( );1;0;6
+TestErrorHandler.handleError( Throwable t );1;0;2
+ToolingTestApplicationContext.containsComponentDefinition( String name );6;0;18
+ToolingTestApplicationContext.ToolingTestApplicationContext( String path , Class < ? > clazz );1;0;3
+JmsNamespaceHandlerTests.testContainerConfiguration( );4;2;17
+JmsNamespaceHandlerTests.testErrorHandlers( );1;0;9

@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+postSend( Message < ? > message , MessageChannel channel , boolean sent );1;0;2
+preReceive( MessageChannel channel );1;0;3
+preSend( Message < ? > message , MessageChannel channel );1;0;3
+afterReceiveCompletion( @ Nullable Message < ? > message , MessageChannel channel , @ Nullable Exception ex );1;0;2
+postReceive( Message < ? > message , MessageChannel channel );1;0;3
+afterSendCompletion( Message < ? > message , MessageChannel channel , boolean sent , @ Nullable Exception ex );1;0;2

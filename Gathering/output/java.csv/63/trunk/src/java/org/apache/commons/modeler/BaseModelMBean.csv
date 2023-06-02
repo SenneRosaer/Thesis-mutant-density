@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MethodKey.hashCode( );1;0;3
+BaseModelMBean.addNotificationListener( NotificationListener listener , NotificationFilter filter , Object handback );6;3;15
+BaseModelMBean.getClassName( );1;0;3
+BaseModelMBean.removeAttributeChangeNotificationListener( NotificationListener listener , String attributeName , Object handback );1;0;3
+BaseModelMBean.BaseModelMBean( );2;0;5
+BaseModelMBean.setAttribute( Attribute attribute );26;15;99
+BaseModelMBean.setRegistry( Registry registry );1;0;3
+BaseModelMBean.getAttributes( String names [ ] );4;3;16
+BaseModelMBean.postDeregister( );2;0;5
+BaseModelMBean.createDefaultModelMBeanInfo( );1;0;5
+BaseModelMBean.BaseModelMBean( String type , ModelerSource source );2;0;8
+BaseModelMBean.createResource( );3;0;14
+BaseModelMBean.setManagedResource( Object resource , String type );6;3;20
+BaseModelMBean.BaseModelMBean( String type );2;0;7
+BaseModelMBean.getObjectName( );2;1;7
+BaseModelMBean.removeNotificationListener( NotificationListener listener , NotificationFilter filter , Object handback );1;0;3
+BaseModelMBean.load( );1;0;5
+BaseModelMBean.getModelerType( );1;0;3
+BaseModelMBean.removeNotificationListener( NotificationListener listener , Object handback );1;0;3
+BaseModelMBean.getRegistry( );2;1;5
+BaseModelMBean.setModelMBeanInfo( ModelMBeanInfo info );3;2;11
+BaseModelMBean.toString( );2;1;5
+BaseModelMBean.preRegister( MBeanServer server , ObjectName name );3;0;9
+BaseModelMBean.getNotificationInfo( );2;2;32
+BaseModelMBean.invoke( String name , Object params [ ] , String signature [ ] );22;15;81
+BaseModelMBean.removeAttributeChangeNotificationListener( NotificationListener listener , String name );3;2;7
+BaseModelMBean.getMBeanInfo( );2;1;4
+BaseModelMBean.getAttribute( String name );19;12;69
+BaseModelMBean.postRegister( Boolean registrationDone );2;0;5
+BaseModelMBean.BaseModelMBean( ModelMBeanInfo info );2;0;5
+MethodKey.MethodKey( String name , String [ ] signature );2;1;7
+BaseModelMBean.getJmxName( );1;0;3
+BaseModelMBean.removeNotificationListener( NotificationListener listener );3;2;7
+BaseModelMBean.setAttributes( AttributeList attributes );4;2;20
+BaseModelMBean.preDeregister( );2;0;5
+BaseModelMBean.isModelMBeanInfoValid( ModelMBeanInfo info );1;0;3
+BaseModelMBean.addAttributeChangeNotificationListener( NotificationListener listener , String name , Object handback );4;2;11
+BaseModelMBean.sendNotification( Notification notification );3;2;9
+BaseModelMBean.sendAttributeChangeNotification( Attribute oldValue , Attribute newValue );3;2;16
+BaseModelMBean.sendAttributeChangeNotification( AttributeChangeNotification notification );4;2;11
+BaseModelMBean.getAttributeClass( String signature );12;1;32
+BaseModelMBean.store( );1;0;5
+BaseModelMBean.getManagedResource( );2;1;7
+BaseModelMBean.sendNotification( String message );2;1;9
+BaseModelMBean.setModeledType( String type );1;0;4
+BaseModelMBean.initModelInfo( String type );6;2;24
+MethodKey.equals( Object other );6;6;18

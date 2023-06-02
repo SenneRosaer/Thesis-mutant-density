@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Values.charset( );1;0;3
+MailLogger.buildFinished( BuildEvent event );12;8;63
+Values.mailhost( );1;0;3
+Values.user( String user );1;0;4
+MailLogger.vectorizeEmailAddresses( String listString );2;0;8
+Values.body( );1;0;3
+Values.mailhost( String mailhost );1;0;4
+Values.starttls( );1;0;3
+Values.ssl( boolean ssl );1;0;4
+Values.password( String password );1;0;4
+Values.charset( String charset );1;0;4
+Values.user( );1;0;3
+Values.mimeType( );1;0;3
+Values.toList( );1;0;3
+Values.from( );1;0;3
+Values.replytoList( );1;0;3
+Values.from( String from );1;0;4
+Values.replytoList( String replytoList );1;0;4
+Values.subject( );1;0;3
+Values.mimeType( String mimeType );1;0;4
+Values.toList( String toList );1;0;4
+Values.port( int port );1;0;4
+MailLogger.log( String message );1;0;3
+Values.ssl( );1;0;3
+Values.body( String body );1;0;4
+Values.password( );1;0;3
+MailLogger.sendMail( Values values , String message );6;4;27
+Values.subject( String subject );1;0;4
+Values.starttls( boolean starttls );1;0;4
+MailLogger.getValue( Hashtable properties , String name , String defaultValue );3;2;11
+MailLogger.sendMimeMail( Project project , Values values , String message );5;3;37
+Values.port( );1;0;3

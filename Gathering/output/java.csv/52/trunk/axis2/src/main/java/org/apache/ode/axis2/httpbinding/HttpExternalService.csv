@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpExternalService.getServiceName( );1;0;3
+TwoWayCallable._4xx_5xx_error( );2;1;8
+TwoWayCallable.replyWithFailure( String errmsg );1;0;3
+TwoWayCallable.TwoWayCallable( HttpClient client , HttpMethod method , PartnerRoleMessageExchange odeMex );1;0;3
+TwoWayCallable.processResponse( final int statusCode );8;9;15
+HttpExternalService.invoke( PartnerRoleMessageExchange odeMex );6;1;33
+OneWayCallable.OneWayCallable( HttpClient client , HttpMethod method , PartnerRoleMessageExchange odeMex );1;0;5
+TwoWayCallable.unmanagedStatus( );1;0;3
+TwoWayCallable.replyWithFailure( String errmsg , Throwable t );1;0;4
+TwoWayCallable.replyWithFault( );2;0;8
+OneWayCallable.call( );5;0;27
+HttpExternalService.getPortName( );1;0;3
+HttpExternalService.close( );1;0;3
+OneWayCallable.processResponse( int statusCode );4;1;13
+TwoWayCallable._2xx_success( );6;1;16
+HttpExternalService.getInitialEndpointReference( );1;0;3
+TwoWayCallable._3xx_redirection( );1;0;3
+HttpExternalService.HttpExternalService( ProcessConf pconf , QName serviceName , String portName , BpelServer server );7;5;28

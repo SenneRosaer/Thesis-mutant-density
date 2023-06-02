@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultDocumentBuilder.getLocator( DocumentFactory factory , String webappUrl );2;1;8
+DefaultDocumentBuilder.getLocatorWithoutCheck( DocumentFactory factory , String webappUrl );7;4;28
+DefaultDocumentBuilder.isDocument( DocumentFactory factory , String url );5;1;19
+DefaultDocumentBuilder.removeExtensions( String url );2;2;7
+DefaultDocumentBuilder.buildCanonicalUrl( DocumentFactory factory , DocumentLocator doc );1;0;5
+DefaultDocumentBuilder.DefaultDocumentBuilder( );1;0;2
+DefaultDocumentBuilder.getLanguage( String urlWithoutSuffix );3;4;12
+DefaultDocumentBuilder.buildCanonicalDocumentUrl( DocumentFactory factory , DocumentLocator locator );3;2;15
+DefaultDocumentBuilder.getExtension( String url );3;5;8
+DefaultDocumentBuilder.service( ServiceManager manager );1;0;3
+DefaultDocumentBuilder.isValidDocumentName( String documentName );1;0;3

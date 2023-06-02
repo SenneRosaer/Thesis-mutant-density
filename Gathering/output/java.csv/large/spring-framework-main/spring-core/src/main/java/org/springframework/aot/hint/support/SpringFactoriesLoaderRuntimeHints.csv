@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpringFactoriesLoaderRuntimeHints.registerHints( RuntimeHints hints , ClassLoader classLoader , String resourceLocation );1;0;7
+SpringFactoriesLoaderRuntimeHints.registerHints( RuntimeHints hints , ClassLoader classLoader );2;0;5
+ExtendedSpringFactoriesLoader.accessLoadFactoriesResource( ClassLoader classLoader , String resourceLocation );1;0;3
+SpringFactoriesLoaderRuntimeHints.resolveClassName( ClassLoader classLoader , String factoryClassName );3;0;10
+SpringFactoriesLoaderRuntimeHints.registerHints( RuntimeHints hints , ClassLoader classLoader , String factoryClassName , List < String > implementationClassNames );10;3;24
+ExtendedSpringFactoriesLoader.ExtendedSpringFactoriesLoader( @ Nullable ClassLoader classLoader , Map < String , List < String > > factories );1;0;3

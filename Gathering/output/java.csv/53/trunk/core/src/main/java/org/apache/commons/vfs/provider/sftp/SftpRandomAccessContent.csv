@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SftpRandomAccessContent.SftpRandomAccessContent( final SftpFileObject fileObject , RandomAccessMode mode );1;0;4
+SftpRandomAccessContent.read( byte b [ ] , int off , int len );2;3;8
+SftpRandomAccessContent.seek( long pos );4;3;19
+SftpRandomAccessContent.length( );1;0;3
+SftpRandomAccessContent.read( byte b [ ] );2;3;8
+SftpRandomAccessContent.getDataInputStream( );5;1;42
+SftpRandomAccessContent.getFilePointer( );1;0;3
+SftpRandomAccessContent.close( );1;1;3
+SftpRandomAccessContent.read( );2;3;8

@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StrSubstitutor.checkCyclicSubstitution( String varName , List priorVariables );2;1;11
+StrSubstitutor.replace( StringBuffer source );2;1;8
+StrSubstitutor.StrSubstitutor( Map valueMap , String prefix , String suffix , char escape );1;0;3
+StrSubstitutor.setVariablePrefix( char prefix );1;0;3
+StrSubstitutor.setVariableSuffixMatcher( StrMatcher suffixMatcher );2;1;7
+StrSubstitutor.replace( Object source , Map valueMap );1;0;3
+StrSubstitutor.replaceIn( StringBuffer source );2;1;6
+StrSubstitutor.getVariableResolver( );1;0;3
+StrSubstitutor.getEscapeChar( );1;0;3
+StrSubstitutor.getVariablePrefixMatcher( );1;0;3
+StrSubstitutor.setVariableSuffix( char suffix );1;0;3
+StrSubstitutor.replaceSystemProperties( Object source );1;0;3
+StrSubstitutor.setVariablePrefix( String prefix );2;1;6
+StrSubstitutor.replaceIn( StrBuilder source , int offset , int length );2;1;6
+StrSubstitutor.StrSubstitutor( Map valueMap );1;0;3
+StrSubstitutor.StrSubstitutor( StrLookup variableResolver , String prefix , String suffix , char escape );1;0;6
+StrSubstitutor.replaceIn( StringBuffer source , int offset , int length );3;3;11
+StrSubstitutor.replace( Object source , Map valueMap , String prefix , String suffix );1;0;3
+StrSubstitutor.setVariableResolver( StrLookup variableResolver );1;0;3
+StrSubstitutor.StrSubstitutor( StrLookup variableResolver );1;0;3
+StrSubstitutor.setVariablePrefixMatcher( StrMatcher prefixMatcher );2;1;7
+StrSubstitutor.replaceIn( StrBuilder source );2;1;6
+StrSubstitutor.replace( char [ ] source , int offset , int length );2;1;8
+StrSubstitutor.setVariableSuffix( String suffix );2;1;6
+StrSubstitutor.StrSubstitutor( );1;0;3
+StrSubstitutor.getVariableSuffixMatcher( );1;0;3
+StrSubstitutor.setEscapeChar( char escapeCharacter );1;0;3
+StrSubstitutor.resolveVariable( String variableName , StrBuilder buf , int startPos , int endPos );2;1;7
+StrSubstitutor.replace( String source );3;2;10
+StrSubstitutor.StrSubstitutor( Map valueMap , String prefix , String suffix );1;0;3
+StrSubstitutor.replace( char [ ] source );2;1;8
+StrSubstitutor.replace( Object source );2;1;8
+StrSubstitutor.substitute( StrBuilder buf , int offset , int length , List priorVariables );11;29;64
+StrSubstitutor.StrSubstitutor( StrLookup variableResolver , StrMatcher prefixMatcher , StrMatcher suffixMatcher , char escape );1;0;6
+StrSubstitutor.replace( StrBuilder source , int offset , int length );2;1;8
+StrSubstitutor.replace( StrBuilder source );2;1;8
+StrSubstitutor.substitute( StrBuilder buf , int offset , int length );1;1;3
+StrSubstitutor.replace( StringBuffer source , int offset , int length );2;1;8
+StrSubstitutor.replace( String source , int offset , int length );3;3;10

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RAMDirectory.sizeInBytes( );1;0;4
+RAMDirectory.close( );1;0;4
+RAMDirectory.RAMDirectory( Directory dir );1;0;3
+RAMDirectory.fileLength( String name );2;1;10
+RAMDirectory.RAMDirectory( );1;0;3
+RAMDirectory.fileExists( String name );1;1;8
+RAMDirectory.RAMDirectory( String dir );1;0;3
+RAMDirectory.RAMDirectory( File dir );1;0;3
+RAMDirectory.renameFile( String from , String to );3;3;13
+RAMDirectory.touchFile( String name );4;2;17
+RAMDirectory.RAMDirectory( Directory dir , boolean closeDir );1;0;4
+RAMDirectory.fileModified( String name );2;1;10
+RAMDirectory.openInput( String name );2;1;10
+RAMDirectory.createOutput( String name );2;2;13
+RAMDirectory.list( );2;1;10
+RAMDirectory.deleteFile( String name );2;2;10

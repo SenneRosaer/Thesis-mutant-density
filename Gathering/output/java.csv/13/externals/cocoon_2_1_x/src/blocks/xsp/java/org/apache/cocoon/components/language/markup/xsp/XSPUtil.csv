@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSPUtil.getContextAttribute( Map objectModel , String name );1;0;4
+XSPUtil.normalizedBaseName( String filename );1;0;4
+XSPUtil.getFileContents( String filename );1;0;3
+XSPUtil.includeFile( String name , ComponentManager manager , ContentHandler contentHandler , Map objectModel );2;0;8
+XSPUtil.isAlphaNumeric( char c );7;13;3
+XSPUtil.split( String line );1;0;3
+XSPUtil.baseName( String filename , String suffix );2;1;7
+XSPUtil.formDecode( String s );1;0;3
+XSPUtil.getSourceContents( String url , SourceResolver resolver );1;0;8
+XSPUtil.split( String line , String delimiter );1;0;3
+XSPUtil.getFileContents( String filename , String encoding );1;0;3
+XSPUtil.getSessionCount( Session session );2;2;11
+XSPUtil.pathComponent( String filename );2;1;4
+XSPUtil.includeString( String string , ComponentManager manager , ContentHandler contentHandler );1;0;4
+XSPUtil.relativeFilename( String filename , Map objectModel );4;2;12
+XSPUtil.getCount( );1;1;3
+XSPUtil.getContents( InputStream in , String encoding );1;0;3
+XSPUtil.getSourceContents( String uri , String base , SourceResolver resolver );2;0;11
+XSPUtil.fileComponent( String filename );2;2;4
+XSPUtil.encodeMarkup( String string );1;0;3
+XSPUtil.getContents( Reader reader );2;1;13
+XSPUtil.normalizedName( String filename );6;6;20
+XSPUtil.includeInputSource( InputSource source , ComponentManager manager , ContentHandler contentHandler );3;1;14
+XSPUtil.getContents( InputStream in );1;0;3
+XSPUtil.baseName( String filename );1;0;3
+XSPUtil.formatDate( Date date , String pattern );3;0;10
+XSPUtil.includeSource( String uri , String base , SourceResolver resolver , ContentHandler contentHandler );4;1;16
+XSPUtil.formEncode( String text );1;0;3

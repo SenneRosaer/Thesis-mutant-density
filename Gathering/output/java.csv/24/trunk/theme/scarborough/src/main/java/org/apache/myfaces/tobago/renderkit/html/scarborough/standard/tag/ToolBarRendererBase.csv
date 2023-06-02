@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ToolBarRendererBase.encodeEnd( FacesContext context , UIComponent uiComponent );3;1;16
+ToolBarRendererBase.getLabelPosition( UIComponent component );1;0;3
+ToolBarRendererBase.encodeChildren( FacesContext facesContext , UIComponent component );1;0;2
+ToolBarRendererBase.renderSelectOne( FacesContext facesContext , UICommand command , TobagoResponseWriter writer , boolean first , boolean last );12;10;53
+ToolBarRendererBase.getIconClass( String iconSize );1;0;3
+ToolBarRendererBase.renderToolbarCommand( FacesContext facesContext , final UICommand command , TobagoResponseWriter writer , boolean first , boolean last );6;1;19
+ToolBarRendererBase.getRendersChildren( );1;0;3
+ToolBarRendererBase.renderToolbarButton( FacesContext facesContext , final UICommand command , TobagoResponseWriter writer , boolean first , boolean last , boolean selected , String onClick );23;31;101
+ToolBarRendererBase.renderPopupTd( FacesContext facesContext , TobagoResponseWriter writer , UIComponent command , UIComponent popupMenu , boolean labelBottom );4;2;30
+ToolBarRendererBase.getIconSize( UIComponent component );1;0;3
+ToolBarRendererBase.renderAnchorBegin( FacesContext facesContext , TobagoResponseWriter writer , final UICommand command , final LabelWithAccessKey label , final boolean disabled );5;5;19
+ToolBarRendererBase.createOnClick( FacesContext facesContext , UIComponent component );5;8;14
+ToolBarRendererBase.prepareRender( FacesContext facesContext , UIComponent component );1;0;4
+ToolBarRendererBase.renderSelectBoolean( FacesContext facesContext , UICommand command , TobagoResponseWriter writer , boolean first , boolean last );3;1;15
+ToolBarRendererBase.getImage( FacesContext facesContext , String name , String iconSize , boolean disabled , boolean selected );16;26;53
+ToolBarRendererBase.getFixedHeight( FacesContext facesContext , UIComponent component );1;1;7
+ToolBarRendererBase.getAnchorClass( boolean disabled );2;0;3

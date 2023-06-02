@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompiledPermissionsImpl.canReadAll( );1;0;3
+UserAccessControlProvider.getUserPrincipal( Set principals );6;4;15
+CompiledPermissionsImpl.onEvent( EventIterator events );11;3;36
+CompiledPermissionsImpl.CompiledPermissionsImpl( Set principals , NodeImpl userNode );1;2;7
+UserAccessControlProvider.compilePermissions( Set principals );3;1;14
+UserAccessControlProvider.canAccessRoot( Set principals );1;0;4
+UserAccessControlProvider.init( Session systemSession , Map configuration );6;2;21
+UserAccessControlProvider.isAcItem( ItemImpl item );1;0;3
+UserAccessControlProvider.initGroup( UserManager uMgr , String principalName );4;3;19
+UserAccessControlProvider.containsGroup( Set principals , String groupName );4;2;9
+UserAccessControlProvider.getEditor( Session session );1;0;4
+CompiledPermissionsImpl.buildResult( Path path );27;18;69
+UserAccessControlProvider.UserAccessControlProvider( );1;0;3
+UserAccessControlProvider.getEffectivePolicies( Path absPath );1;0;4
+UserAccessControlProvider.getExistingNode( Path path );4;0;15
+UserAccessControlProvider.isAcItem( Path absPath );1;0;3
+CompiledPermissionsImpl.grants( Path absPath , int permissions );2;1;6
+CompiledPermissionsImpl.close( );2;0;8
+UserAccessControlProvider.getUserNode( ItemBasedPrincipal principal );3;1;12

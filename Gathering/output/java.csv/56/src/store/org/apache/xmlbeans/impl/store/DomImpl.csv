@@ -1,0 +1,369 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CharNode.insertBefore( Node newChild , Node refChild );1;0;1
+DomImpl._attributes_getNamedItemNS( Dom e , String uri , String local );2;0;7
+DomImpl.append( Dom n , Dom p );1;0;3
+DomImpl.node_removeChild( Dom parent , Dom child );14;1;36
+DomImpl._text_replaceWholeText( Dom t , String content );1;0;3
+DomImpl._soapNode_getValue( Dom n );2;0;6
+CharNode.getOwnerDocument( );1;0;1
+DomImpl.soapBody_addBodyElement( Dom d , Name name );2;0;6
+DomImpl.document_getDocumentElement( Dom d );3;2;8
+DomImpl._node_getNodeValue( Dom n );2;0;5
+DomImpl.nextSibling( Dom d );1;0;1
+ElementsNodeList.item( int i );3;3;4
+DomImpl._soapElement_getElementName( Dom d );2;0;6
+DomImpl._processingInstruction_getData( Dom p );1;0;3
+DomImpl.soapBody_addFault( Dom d , Name faultCode , String faultString , java . util . Locale locale );2;0;6
+CharNode.setNodeValue( String nodeValue );1;0;1
+CharNode.getBaseURI( );1;0;1
+EmptyNodeList.getLength( );1;0;1
+DomImpl.firstChild( Dom d );1;0;1
+CharNode.getDom( );2;0;6
+DomImpl._element_getAttributeNode( Dom e , String name );1;0;3
+DomImpl._soapPart_getEnvelope( Dom d );2;0;6
+DomImpl._element_setAttributeNode( Dom e , Attr newAttr );1;0;3
+DomImpl.soapHeaderElement_getActor( Dom d );2;0;6
+DomImpl._element_getAttribute( Dom e , String name );2;1;4
+DomImpl._node_cloneNode( Dom n , boolean deep );2;0;7
+DomImpl._childNodes_item( Dom n , int i );3;1;8
+HierarchyRequestErr.HierarchyRequestErr( String message );1;0;1
+DomImpl._node_replaceChild( Dom p , Node newChild , Node oldChild );8;8;17
+CharNode.replaceChild( Node newChild , Node oldChild );1;0;1
+DomImpl._document_createTextNode( Dom d , String data );1;0;3
+DomImpl.saajCallback_setSaajData( Dom d , Object o );2;0;5
+DomImpl._soapEnvelope_addHeader( Dom d );2;0;6
+SaajCdataNode.getParentElement( );1;0;1
+DomImpl._document_getElementsByTagName( Dom d , String name );2;0;5
+DomImpl._soapEnvelope_createName( Dom d , String localName , String prefix , String namespaceURI );2;0;6
+WrongDocumentErr.WrongDocumentErr( );1;0;1
+CharNode.lookupNamespaceURI( String prefix );1;0;1
+DomImpl._node_compareDocumentPosition( Dom n , Node other );1;0;3
+DomImpl._node_lookupNamespaceURI( Dom n , String prefix );1;0;3
+DomImpl._soapElement_removeAttribute( Dom d , Name name );2;0;6
+CharNode.isSupported( String feature , String version );1;0;1
+DomImpl._attributes_setNamedItem( Dom e , Node attr );5;4;12
+DomImpl.element_setAttribute( Dom e , String name , String value );2;1;9
+DomImpl._soapElement_addChildElement( Dom d , String localName , String prefix );2;0;6
+DomImpl._soapNode_setParentElement( Dom n , SOAPElement p );2;0;6
+CharNode.isSameNode( Node arg );1;0;1
+DomImpl.node_getNodeValue( Dom n );8;1;38
+DomImpl.impl_saajCallback_setSaajData( Dom d , Object o );3;2;15
+CharNode.getNodeValue( );1;0;1
+DomImpl.validateQualifiedName( String name , String uri , boolean isAttr );12;13;34
+DomImpl._node_getParentNode( Dom n );2;0;7
+CharNode.getData( );1;0;1
+DomImpl.soapHeader_addHeaderElement( Dom d , Name name );2;0;6
+DomImpl._document_createDocumentFragment( Dom d );2;0;7
+CharNode.isDefaultNamespace( String namespaceURI );1;0;1
+CharNode.getChildNodes( );1;0;1
+DomImpl.node_getLastChild( Dom n );18;5;44
+CharNode.hasAttributes( );1;0;1
+DomImpl._node_getNamespaceURI( Dom n );3;2;6
+CharNode.getNodeType( );1;0;1
+DomImpl._document_getElementById( Dom d , String elementId );1;0;3
+DomImpl._node_getOwnerDocument( Dom n );2;0;7
+DomImpl.node_cloneNode( Dom n , boolean deep );30;6;85
+DomImpl.detail_getDetailEntries( Dom d );2;0;6
+DomImpl._document_getDocumentElement( Dom d );2;0;7
+SaajTextNode.getValue( );1;0;1
+SaajCdataNode.setValue( String value );1;0;1
+NoModificationAllowedErr.NoModificationAllowedErr( );1;0;1
+CharNode.insertNode( CharNode nodes , CharNode newNode , CharNode before );7;12;28
+DomImpl.soapFault_setFaultString( Dom d , String faultString , java . util . Locale locale );2;0;6
+TextNode.name( );1;0;1
+DomImpl.soapFault_getFaultActor( Dom d );2;0;6
+DomImpl._element_setAttributeNodeNS( Dom e , Attr newAttr );1;0;3
+CharNode.getUserData( String key );1;0;1
+DomImpl._soapElement_getNamespacePrefixes( Dom d );2;0;6
+CharNode.setTextContent( String textContent );1;0;1
+CharNode.appendData( String arg );1;0;1
+DomImpl._soapNode_setValue( Dom n , String value );2;0;6
+DomImpl._node_isSupported( Dom n , String feature , String version );1;0;3
+DomImpl.soapHeader_extractAllHeaderElements( Dom d );2;0;6
+DomImpl.removeNode( Dom n );4;4;18
+DomImpl._soapElement_getChildElements( Dom d , Name name );2;0;6
+DomImpl.getXmlStreamReader( Dom n );14;1;44
+DomImpl.attributes_removeNamedItemNS( Dom e , String uri , String local );9;4;29
+DomImpl.document_createTextNode( Dom d , String data );2;1;7
+DomImpl.soapHeader_extractHeaderElements( Dom d , String actor );2;0;6
+CharNode.insertData( int offset , String arg );1;0;1
+DomImpl.attributes_getLength( Dom e );2;1;8
+CharNode.hasChildNodes( );1;0;1
+DomImpl.impl_saajCallback_getSaajData( Dom d );2;1;9
+DomImpl.attr_getOwnerElement( Dom n );2;1;11
+CharNode.getNextSibling( );1;0;1
+CharNode.setChars( Object src , int off , int cch );3;3;9
+DomImpl._document_getDoctype( Dom d );2;0;7
+SaajTextNode.recycleNode( );1;0;1
+DomImpl._soapPart_removeMimeHeader( Dom d , String name );2;0;6
+DomImpl._processingInstruction_setData( Dom p , String data );1;0;3
+CharNode.appendChild( Node newChild );1;0;1
+SaajCdataNode.setParentElement( SOAPElement p );1;0;1
+CharNode.CharNode( Locale l );1;1;4
+DomImpl.attributes_item( Dom e , int index );4;3;16
+DomImpl._soapElement_addChildElement( Dom d , String localName );2;0;6
+DomImpl.soapBody_addFault( Dom d , Name name , String s );2;0;6
+DomImpl._characterData_appendData( Dom cd , String arg );3;4;4
+SaajCdataNode.detachNode( );1;0;1
+CharNode.getFirstChild( );1;0;1
+DomImpl.node_getPreviousSibling( Dom n );10;8;36
+NotFoundErr.NotFoundErr( );1;0;1
+IndexSizeError.IndexSizeError( String message );1;0;1
+DomImpl.document_createCDATASection( Dom d , String data );2;1;7
+DomImpl._node_appendChild( Dom p , Node newChild );1;0;3
+DomImpl._soapPart_getAllMimeHeaders( Dom d );2;0;6
+CharNode.getAttributes( );1;0;1
+DomImpl._soapPart_removeAllMimeHeaders( Dom d );2;0;6
+DomImpl._document_importNode( Dom d , Node n , boolean deep );2;0;9
+DomImpl._attributes_getNamedItem( Dom e , String name );2;0;7
+DomImpl._node_hasAttributes( Dom n );2;0;5
+NamespaceErr.NamespaceErr( );1;0;1
+ElementsByTagNameNodeList.match( Dom element );2;0;3
+DomImpl.soapFault_addDetail( Dom d );2;0;6
+DomImpl.soapFault_setFaultActor( Dom d , String faultActorString );2;0;6
+CharNode.getPreviousSibling( );1;0;1
+CdataNode.CdataNode( Locale l );1;0;3
+TextNode.getWholeText( );1;0;1
+DomImpl._processingInstruction_getTarget( Dom p );1;0;3
+DomImpl._characterData_substringData( Dom c , int offset , int count );5;9;8
+CdataNode.nodeType( );1;0;1
+CharNode.cloneNode( boolean deep );1;0;1
+DomImpl.node_hasAttributes( Dom n );2;1;10
+DomImpl.attributes_getNamedItemNS( Dom e , String uri , String local );5;2;18
+DomImpl._soapPart_setMimeHeader( Dom d , String name , String value );2;0;6
+DomImpl.soapBody_hasFault( Dom d );2;0;6
+CharNode.getNodeName( );1;0;1
+DomImpl.impl_saajCallback_createSoapElement( Dom d , QName name , QName parentName );1;0;7
+DomImpl._soapElement_addChildElement( Dom d , Name name );2;0;6
+DomImpl._node_getBaseURI( Dom n );1;0;3
+DomImpl._soapElement_removeContents( Dom d );2;0;6
+DomImpl._element_hasAttribute( Dom e , String name );1;1;3
+NoModificationAllowedErr.NoModificationAllowedErr( String message );1;0;1
+DomImpl.document_getDoctype( Dom d );1;0;3
+DomImpl.validateNcName( String name );4;5;4
+DomImpl._node_isSameNode( Dom n , Node arg );1;0;3
+DomImpl.childNodes_item( Dom n , int i );15;2;26
+CharNode.remove( CharNode nodes , CharNode node );3;2;11
+DomImpl._node_hasChildNodes( Dom n );1;1;3
+DomImpl.domImplementation_createDocument( Locale l , String namespaceURI , String qualifiedName , DocumentType doctype );3;1;21
+DomImpl._soapElement_getEncodingStyle( Dom d );2;0;6
+DomImpl.soapHeader_examineMustUnderstandHeaderElements( Dom d , String mustUnderstandString );2;0;6
+DomImpl.soapBody_getFault( Dom d );2;0;6
+SaajTextNode.getParentElement( );1;0;1
+DomImpl._soapEnvelope_createName( Dom d , String localName );2;0;6
+CharNode.removeChild( Node oldChild );1;0;1
+SaajCdataNode.recycleNode( );1;0;1
+DomImpl.node_insertBefore( Dom p , Dom nc , Dom rc );35;43;117
+CharNode.substringData( int offset , int count );1;0;1
+ElementsByTagNameNSNodeList.match( Dom element );4;1;5
+DomImpl.document_createElement( Dom d , String name );1;0;10
+ElementsNodeList.getLength( );1;0;4
+DomImpl._element_setAttributeNS( Dom e , String uri , String qname , String value );2;0;5
+TextNode.replaceWholeText( String content );1;0;1
+DomImpl._document_createAttribute( Dom d , String name );2;0;7
+DomImpl._soapElement_getNamespaceURI( Dom d , String prefix );2;0;6
+CharNode.setDom( Dom d );1;1;5
+DomImpl._characterData_deleteData( Dom c , int offset , int count );6;11;9
+CharNode.appendNodes( CharNode nodes , CharNode newNodes );3;4;12
+DomImpl._soapElement_addNamespaceDeclaration( Dom d , String prefix , String uri );2;0;6
+CharNode.setUserData( String key , Object data , UserDataHandler handler );1;0;1
+DomImpl._text_splitText( Dom t , int offset );4;6;15
+SaajTextNode.setParentElement( SOAPElement p );1;0;1
+DomImpl.document_getElementsByTagName( Dom d , String name );1;0;3
+DomImpl.node_normalize( Dom n );19;6;52
+DomImpl._soapEnvelope_getBody( Dom d );2;0;6
+TextNode.isElementContentWhitespace( );1;0;1
+DomImpl._soapElement_setEncodingStyle( Dom d , String encodingStyle );2;0;6
+DomImpl._node_getNodeType( Dom n );1;0;3
+SaajCdataNode.getValue( );1;0;1
+DomImpl._getXmlCursor( Dom n );2;0;5
+DomImpl._attr_getSpecified( Dom a );1;0;3
+DomImpl.document_createDocumentFragment( Dom d );1;0;7
+DomImpl._node_lookupPrefix( Dom n , String namespaceURI );1;0;3
+DomImpl.soapFault_setFaultString( Dom d , String faultString );2;0;6
+DomImpl._node_setTextContent( Dom n , String textContent );1;0;3
+DomImpl._node_isDefaultNamespace( Dom n , String namespaceURI );1;0;3
+DomImpl.childNodes_getLength( Dom n );14;1;28
+DomImpl.attributes_removeNamedItem( Dom e , String name );7;2;26
+DomImpl._node_normalize( Dom n );2;0;5
+DomImpl.insert( Dom n , Dom b );1;1;4
+DomImpl.node_setNodeValue( Dom n , String nodeValue );12;6;63
+CharNode.isValid( );3;2;7
+CharNode.isEqualNode( Node arg );1;0;1
+DomImpl._node_setNodeValue( Dom n , String nodeValue );2;0;5
+InvalidCharacterError.InvalidCharacterError( );1;0;1
+DomImpl.attributes_setNamedItem( Dom e , Dom a );7;4;37
+DomImpl.node_getNextSibling( Dom n );18;2;53
+DomImpl._attributes_item( Dom e , int index );2;0;7
+DomImpl._soapPart_getMatchingMimeHeaders( Dom d , String [ ] names );2;0;6
+DomImpl.document_createProcessingInstruction( Dom d , String target , String data );7;6;21
+DomImpl._characterData_replaceData( Dom c , int offset , int count , String arg );7;13;13
+DomImpl._getXmlObject( Dom n );2;0;5
+IndexSizeError.IndexSizeError( );1;0;1
+DomImpl._document_createElement( Dom d , String name );2;0;7
+SaajTextNode.SaajTextNode( Locale l );1;0;3
+CharNode.setData( String data );1;0;1
+DomImpl.element_getElementsByTagName( Dom e , String name );1;0;3
+DomImpl._element_removeAttribute( Dom e , String name );2;0;9
+DomImpl.parent( Dom d );1;0;1
+ElementsNodeList.addElements( Dom node );4;2;11
+DomImpl.validateName( String name );4;3;8
+WrongDocumentErr.WrongDocumentErr( String message );1;0;1
+ElementsByTagNameNodeList.ElementsByTagNameNodeList( Dom root , String name );1;0;4
+InvalidCharacterError.InvalidCharacterError( String message );1;0;1
+DomImpl.validatePrefix( String prefix , String uri , String local , boolean isAttr );16;12;31
+DomImpl._node_getPrefix( Dom n );3;2;6
+DomImpl._document_createCDATASection( Dom d , String data );1;0;3
+DomImpl._document_createElementNS( Dom d , String uri , String qname );2;0;7
+DomImpl.saajCallback_ensureSoapTextNode( Dom d );2;0;5
+DomImpl._domImplementation_hasFeature( Locale l , String feature , String version );8;8;14
+DomImpl.remove( Dom n );2;1;6
+DomImpl._element_getElementsByTagNameNS( Dom e , String uri , String local );2;0;5
+DomImpl._element_removeAttributeNS( Dom e , String uri , String local );2;0;9
+DomImpl.soapFault_getDetail( Dom d );2;0;6
+DomImpl.validateNewChild( Dom parent , Dom child );6;5;14
+NotFoundErr.NotFoundErr( String message );1;0;1
+CharNode.dump( PrintStream o );1;0;3
+DomImpl.soapHeader_examineHeaderElements( Dom d , String actor );2;0;6
+DomImpl.isValidChild( Dom parent , Dom child );27;6;62
+DomImpl._soapElement_addChildElement( Dom d , SOAPElement oldChild );2;0;6
+CharNode.getNamespaceURI( );1;0;1
+DomImpl._node_getPreviousSibling( Dom n );2;0;7
+DomImpl.attributes_setNamedItemNS( Dom e , Dom a );8;5;40
+DomImpl._characterData_setData( Dom c , String data );1;0;3
+DomImpl.element_getElementsByTagNameNS( Dom e , String uri , String local );1;0;3
+CharNode.getLength( );1;0;1
+DomImpl.node_setPrefix( Dom n , String prefix );3;4;14
+DomImpl._document_createComment( Dom d , String data );2;0;7
+DomImpl._node_getFirstChild( Dom n );7;3;20
+DomImpl._attributes_setNamedItemNS( Dom e , Node attr );5;4;12
+DomImpl.getXmlCursor( Dom n );1;0;6
+SaajTextNode.detachNode( );1;0;1
+DomImpl._node_getLocalName( Dom n );3;2;5
+DomImpl.soapHeaderElement_setMustUnderstand( Dom d , boolean mustUnderstand );2;0;6
+SaajCdataNode.SaajCdataNode( Locale l );1;0;3
+DomImpl._element_removeAttributeNode( Dom e , Attr oldAttr );3;2;7
+InuseAttributeError.InuseAttributeError( );1;0;1
+DomImpl._attributes_removeNamedItemNS( Dom e , String uri , String local );2;0;7
+ElementsNodeList.ensureElements( );3;1;9
+DomImpl._soapElement_addAttribute( Dom d , Name name , String value );2;0;6
+DomImpl.soapHeaderElement_setActor( Dom d , String actor );2;0;6
+DomImpl.impl_saajCallback_importSoapElement( Dom d , Element elem , boolean deep , QName parentName );1;0;3
+DomImpl.soapBody_addDocument( Dom d , Document document );2;0;6
+DomImpl.node_replaceChild( Dom p , Dom newChild , Dom oldChild );2;0;14
+DomImpl._childNodes_getLength( Dom n );4;3;11
+SaajTextNode.setValue( String value );1;0;1
+DomImpl._soapText_isComment( Dom n );2;0;6
+DomImpl._soapPart_addMimeHeader( Dom d , String name , String value );2;0;6
+NotSupportedError.NotSupportedError( String message );1;0;1
+NamespaceErr.NamespaceErr( String message );1;0;1
+DomImpl._getXmlStreamReader( Dom n );2;0;5
+DomImpl.saajCallback_createSoapElement( Dom d , QName name , QName parentName );2;0;7
+DomImpl._node_setPrefix( Dom n , String prefix );2;0;5
+DomImpl._element_getTagName( Dom e );1;0;3
+DomImpl._node_getTextContent( Dom n );1;0;3
+DomImpl._element_hasAttributeNS( Dom e , String uri , String local );1;1;3
+DomImpl._attr_getOwnerElement( Dom a );2;0;7
+DomImpl.prevSibling( Dom d );1;0;1
+DomImpl._soapElement_addTextNode( Dom d , String data );2;0;6
+DomImpl._text_isElementContentWhitespace( Dom t );1;0;3
+CharNode.getFeature( String feature , String version );1;0;1
+DomImpl.document_createElementNS( Dom d , String uri , String qname );1;0;9
+DomImpl._characterData_getData( Dom c );1;0;3
+EmptyNodeList.item( int i );1;0;1
+DomImpl._document_getImplementation( Dom d );1;0;3
+DomImpl._node_getLastChild( Dom n );2;0;7
+CharNode.copyNodes( CharNode nodes , Object newSrc );5;3;21
+DomImpl.node_getParentNode( Dom n );16;3;40
+DomImpl.document_importNode( Dom d , Node n , boolean deep );29;25;90
+DomImpl._node_setUserData( Dom n , String key , Object data , UserDataHandler handler );1;0;3
+DomImpl.document_createAttribute( Dom d , String name );1;0;10
+DomImpl._soapElement_removeNamespaceDeclaration( Dom d , String prefix );2;0;6
+TextNode.TextNode( Locale l );1;0;3
+DomImpl.saajCallback_getSaajData( Dom d );2;0;5
+DomImpl._document_getElementsByTagNameNS( Dom d , String uri , String local );2;0;5
+CharNode.appendNode( CharNode nodes , CharNode newNode );1;0;3
+CharNode.getParentNode( );1;0;1
+DomImpl._domImplementation_createDocument( Locale l , String u , String n , DocumentType t );2;0;5
+CharNode.getLocalName( );1;0;1
+DomImpl._soapPart_setContent( Dom d , Source source );2;0;6
+DomImpl.soapFault_getFaultStringLocale( Dom d );2;0;6
+DomImpl.soapFault_setFaultCode( Dom d , String faultCode );2;0;6
+DomImpl._text_getWholeText( Dom t );1;0;3
+DomImpl.document_getElementsByTagNameNS( Dom d , String uri , String local );1;0;3
+DomImpl._node_getNodeName( Dom n );14;2;24
+DomImpl._attributes_removeNamedItem( Dom e , String name );2;0;7
+CharNode.getQName( );1;0;3
+DomImpl.nodeKindName( int t );13;0;18
+DomImpl.detail_addDetailEntry( Dom d , Name name );2;0;6
+DomImpl._soapPart_getContent( Dom d );2;0;6
+DomImpl._soapPart_getNonMatchingMimeHeaders( Dom d , String [ ] names );2;0;6
+CharNode.nodeCanHavePrefixUri( );1;0;3
+DomImpl._element_getAttributeNS( Dom e , String uri , String local );2;1;4
+DomImpl.soapFault_getFaultCode( Dom d );2;0;6
+DomImpl.element_setAttributeNS( Dom e , String uri , String qname , String value );2;1;14
+DomImpl._element_setAttribute( Dom e , String name , String value );2;0;5
+DomImpl.soapFault_setFaultCode( Dom d , Name faultCodeName );2;0;6
+DomImpl._soapElement_getChildElements( Dom d );2;0;6
+DomImpl._node_getUserData( Dom n , String key );1;0;3
+CharNode.tempCur( );2;1;8
+DomImpl._soapPart_getMimeHeader( Dom d , String name );2;0;6
+DomImpl._soapEnvelope_addBody( Dom d );2;0;6
+DomImpl._document_createProcessingInstruction( Dom d , String target , String data );2;0;7
+SaajCdataNode.isComment( );1;0;1
+DomImpl.soapFault_getFaultCodeAsName( Dom d );2;0;6
+DomImpl.document_createComment( Dom d , String data );2;1;13
+DomImpl._characterData_getLength( Dom c );1;0;3
+CharNode.deleteData( int offset , int count );1;0;1
+TextNode.splitText( int offset );1;0;1
+DomImpl.attributes_getNamedItem( Dom e , String name );3;0;15
+DomImpl._soapElement_getVisibleNamespacePrefixes( Dom d );2;0;6
+DomImpl._node_getFeature( Dom n , String feature , String version );1;0;3
+DomImpl._soapElement_addChildElement( Dom d , String localName , String prefix , String uri );2;0;6
+CharNode.isOnList( CharNode nodes , CharNode node );3;3;7
+CharNode.lookupPrefix( String namespaceURI );1;0;1
+CharNode.getPrefix( );1;0;1
+DomImpl._soapNode_detachNode( Dom n );2;0;6
+CharNode.replaceData( int offset , int count , String arg );1;0;1
+DomImpl.document_createAttributeNS( Dom d , String uri , String qname );1;0;9
+NotSupportedError.NotSupportedError( );1;0;1
+CharNode.dump( PrintStream o , Object ref );2;0;6
+ElementsNodeList.ElementsNodeList( Dom root );2;3;6
+DomImpl._node_getNextSibling( Dom n );2;0;7
+DomImpl._attributes_getLength( Dom e );2;0;5
+DomImpl.soapFault_getFaultString( Dom d );2;0;6
+CharNode.locale( );2;1;4
+DomImpl._node_isEqualNode( Dom n , Node arg );1;0;3
+DomImpl._node_removeChild( Dom p , Node child );5;4;12
+DomImpl._soapNode_getParentElement( Dom n );2;0;6
+CharNode.compareDocumentPosition( Node other );1;0;1
+DomImpl._element_getAttributeNodeNS( Dom e , String uri , String local );1;0;3
+DomImpl.getXmlObject( Dom n );1;0;6
+DomImpl.node_getOwnerDocument( Dom n );3;2;13
+DomImpl.node_getFirstChild( Dom n );18;1;39
+CharNode.isNodeAftertext( );3;2;8
+DomImpl._document_createEntityReference( Dom d , String name );1;0;3
+SaajTextNode.isComment( );1;0;1
+DomImpl.saajCallback_importSoapElement( Dom d , Element elem , boolean deep , QName parentName );2;0;7
+DomImpl.soapHeaderElement_getMustUnderstand( Dom d );2;0;6
+CharNode.setPrefix( String prefix );1;0;1
+DomImpl._element_getElementsByTagName( Dom e , String name );2;0;5
+CharNode.dump( );1;0;3
+DomImpl.soapBody_addFault( Dom d );2;0;6
+DomImpl.impl_saajCallback_ensureSoapTextNode( Dom d );1;0;3
+ElementsByTagNameNSNodeList.ElementsByTagNameNSNodeList( Dom root , String uri , String local );2;1;5
+InuseAttributeError.InuseAttributeError( String message );1;0;1
+CharNode.normalize( );1;0;1
+DomImpl._soapEnvelope_getHeader( Dom d );2;0;6
+DomImpl._soapElement_getAllAttributes( Dom d );2;0;6
+CdataNode.name( );1;0;1
+DomImpl._document_createAttributeNS( Dom d , String uri , String qname );2;0;7
+TextNode.nodeType( );1;0;1
+DomImpl.soapHeader_examineAllHeaderElements( Dom d );2;0;6
+DomImpl._soapNode_recycleNode( Dom n );2;0;6
+DomImpl._soapElement_getAttributeValue( Dom d , Name name );2;0;6
+HierarchyRequestErr.HierarchyRequestErr( );1;0;1
+CharNode.getLastChild( );1;0;1
+DomImpl._node_insertBefore( Dom p , Node newChild , Node refChild );8;8;18
+DomImpl._characterData_insertData( Dom c , int offset , String arg );5;8;7
+CharNode.getTextContent( );1;0;1

@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompositeCache.get( Serializable key );1;0;3
+CompositeCache.getStatistics( );2;4;22
+CompositeCache.dispose( boolean fromRemote );15;15;60
+CompositeCache.setRemoveCount( int removeCount );1;0;3
+CompositeCache.getCacheAttributes( );1;0;3
+CompositeCache.CompositeCache( String cacheName , ICompositeCacheAttributes cattr , IElementAttributes attr );3;0;14
+***not in a method***;0;1;0
+CompositeCache.getCacheType( );1;0;3
+CompositeCache.getCacheName( );1;0;3
+CompositeCache.getRemoveCount( );1;0;3
+CompositeCache.remove( Serializable key );1;0;3
+CompositeCache.getMemoryCache( );1;0;3
+CompositeCache.localUpdate( ICacheElement ce );1;0;3
+CompositeCache.removeAll( );1;0;3
+CompositeCache.removeAll( boolean localOnly );9;7;35
+CompositeCache.update( ICacheElement cacheElement , boolean localOnly );24;19;74
+CompositeCache.createMemoryCache( ICompositeCacheAttributes cattr );3;1;21
+CompositeCache.getUpdateCount( );1;0;3
+CompositeCache.addElementEvent( IElementEventHandler hand , IElementEvent event );2;0;7
+CompositeCache.handleElementEvent( ICacheElement ce , int eventType );5;1;24
+CompositeCache.setElementAttributes( IElementAttributes attr );1;0;3
+CompositeCache.getGroupKeys( String group );4;3;19
+CompositeCache.getElementAttributes( Serializable key );2;1;8
+CompositeCache.get( Serializable key , boolean localOnly );22;18;113
+CompositeCache.remove( Serializable key , boolean localOnly );11;11;42
+CompositeCache.save( );8;5;39
+CompositeCache.spoolToDisk( ICacheElement ce );10;7;44
+CompositeCache.localRemoveAll( );1;0;3
+CompositeCache.getMissCountNotFound( );1;0;3
+CompositeCache.isExpired( ICacheElement element );9;13;36
+CompositeCache.getElementAttributes( );1;0;3
+CompositeCache.setAuxCaches( AuxiliaryCache [ ] auxCaches );2;1;7
+CompositeCache.localGet( Serializable key );1;0;3
+CompositeCache.setCacheAttributes( ICompositeCacheAttributes cattr );1;0;4
+CompositeCache.getStats( );1;0;3
+CompositeCache.update( ICacheElement ce );1;0;3
+CompositeCache.dispose( );1;0;3
+CompositeCache.getHitCountAux( );1;0;3
+CompositeCache.localRemove( Serializable key );1;0;3
+CompositeCache.getStatus( );2;0;3
+CompositeCache.getMissCountExpired( );1;0;3
+CompositeCache.setUpdateCount( int updateCount );1;0;3
+CompositeCache.getHitCountRam( );1;0;3
+CompositeCache.getSize( );1;0;3

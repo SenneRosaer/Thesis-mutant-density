@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultDatabaseClientUnitTests.getSource( );1;0;3
+DefaultDatabaseClientUnitTests.toQuery( );1;0;3
+DefaultDatabaseClientUnitTests.mockStatementFor( @ Nullable String sql , @ Nullable Result result );3;2;8
+DefaultDatabaseClientUnitTests.onNext( Object o );1;0;2
+DefaultDatabaseClientUnitTests.executeShouldBindNullValues( );1;0;10
+DefaultDatabaseClientUnitTests.executeShouldBindSettableValues( );1;0;12
+DefaultDatabaseClientUnitTests.mockSingleColumnEmptyResult( );1;0;3
+DefaultDatabaseClientUnitTests.selectOneShouldFailWithException( );1;0;14
+DefaultDatabaseClientUnitTests.bindTo( BindTarget target );1;0;3
+DefaultDatabaseClientUnitTests.shouldApplyPreparedOperation( );1;0;22
+DefaultDatabaseClientUnitTests.mockStatementFor( String sql );1;0;3
+DefaultDatabaseClientUnitTests.onComplete( );1;0;3
+DefaultDatabaseClientUnitTests.before( );1;0;7
+DefaultDatabaseClientUnitTests.shouldApplySimpleStatementFilterFunctions( );1;0;14
+DefaultDatabaseClientUnitTests.shouldApplyExecuteFunction( );1;0;10
+DefaultDatabaseClientUnitTests.shouldCloseConnectionOnlyOnce( );1;0;23
+DefaultDatabaseClientUnitTests.mockStatement( );1;0;3
+DefaultDatabaseClientUnitTests.selectShouldEmitFirstValue( );1;0;15
+DefaultDatabaseClientUnitTests.mockSingleColumnResult( @ Nullable MockRow . Builder row );2;1;9
+DefaultDatabaseClientUnitTests.sqlSupplierInvocationIsDeferredUntilSubscription( );1;1;31
+DefaultDatabaseClientUnitTests.executeShouldBindNamedValuesFromIndexes( );1;0;14
+DefaultDatabaseClientUnitTests.mockStatement( Result result );1;0;3
+DefaultDatabaseClientUnitTests.executeShouldBindNamedValuesByIndex( );1;0;7
+DefaultDatabaseClientUnitTests.executeShouldBindNamedNullValues( );1;0;7
+DefaultDatabaseClientUnitTests.onError( Throwable t );1;0;2
+DefaultDatabaseClientUnitTests.connectionFactoryIsExposed( );1;0;7
+DefaultDatabaseClientUnitTests.shouldApplyStatementFilterFunctions( );1;0;15
+DefaultDatabaseClientUnitTests.selectShouldEmitAllValues( );1;0;16
+DefaultDatabaseClientUnitTests.onSubscribe( Subscription s );1;0;4
+DefaultDatabaseClientUnitTests.executeShouldBindValues( );1;0;10
+DefaultDatabaseClientUnitTests.rowsUpdatedShouldEmitSingleValue( );1;0;12

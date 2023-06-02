@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResponseWrapper.setStatus( int statusCode );3;0;10
+ResponseWrapper.getOutputString( );3;2;13
+ResponseWrapper.populate( HttpServletResponse response , ResponseData respData );4;0;19
+ResponseWrapper.sendError( int statusCode );2;0;7
+ResponseWrapper.reset( );3;0;11
+ResponseWrapper.resetBuffer( );3;0;10
+ResponseWrapper.sendError( int statusCode , String reason );2;0;9
+ResponseWrapper.ResponseWrapper( HttpServletResponse response );1;0;4
+ResponseWrapper.getStatusCode( );1;0;3
+ResponseWrapper.getReason( );1;0;3
+ResponseWrapper.getOutputStream( );3;1;8
+ResponseWrapper.getWriter( );3;1;11
+InternalServletStream.InternalServletStream( OutputStream stream );1;0;3
+InternalServletStream.write( int b );1;0;3

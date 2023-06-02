@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ContentCachingInputStream.read( byte [ ] b );1;0;5
+ContentCachingInputStream.setReadListener( ReadListener readListener );1;0;3
+ContentCachingRequestWrapper.writeRequestParametersToCachedContent( );8;2;29
+ContentCachingRequestWrapper.getParameterNames( );3;2;6
+ContentCachingRequestWrapper.getParameterMap( );3;2;6
+ContentCachingRequestWrapper.getCharacterEncoding( );2;1;4
+ContentCachingRequestWrapper.handleContentOverflow( int contentCacheLimit );1;0;2
+ContentCachingRequestWrapper.getParameter( String name );3;2;6
+ContentCachingRequestWrapper.getInputStream( );2;1;6
+ContentCachingRequestWrapper.getParameterValues( String name );3;2;6
+ContentCachingInputStream.isReady( );1;0;3
+ContentCachingRequestWrapper.isFormPost( );3;3;5
+ContentCachingInputStream.writeToCache( final byte [ ] b , final int off , int count );5;8;12
+ContentCachingRequestWrapper.getReader( );2;1;6
+ContentCachingInputStream.readLine( final byte [ ] b , final int off , final int len );1;0;5
+ContentCachingRequestWrapper.getContentAsByteArray( );1;0;3
+ContentCachingRequestWrapper.ContentCachingRequestWrapper( HttpServletRequest request );2;1;6
+ContentCachingInputStream.read( final byte [ ] b , final int off , final int len );1;0;5
+ContentCachingInputStream.isFinished( );1;0;3
+ContentCachingInputStream.ContentCachingInputStream( ServletInputStream is );1;0;3
+ContentCachingInputStream.read( );5;7;13
+ContentCachingRequestWrapper.ContentCachingRequestWrapper( HttpServletRequest request , int contentCacheLimit );1;0;5

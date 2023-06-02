@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConcreteTreeProcessor.ConcreteTreeProcessor( TreeProcessor wrappingProcessor );1;0;3
+ConcreteTreeProcessor.dispose( );3;5;9
+ForwardEnvironmentWrapper.setResponseIsNotModified( );1;0;3
+ConcreteTreeProcessor.handleCocoonRedirect( String uri , Environment environment , InvokeContext context );8;5;27
+ConcreteTreeProcessor.process( Environment environment , InvokeContext context );2;3;31
+ConcreteTreeProcessor.getWrappingProcessor( );1;0;3
+ForwardEnvironmentWrapper.getContentType( );1;0;3
+ConcreteTreeProcessor.process( Environment environment );1;0;9
+ConcreteTreeProcessor.setProcessorData( ComponentManager manager , ProcessingNode rootNode , List disposableNodes );2;1;8
+ForwardEnvironmentWrapper.setContentType( String contentType );1;0;3
+ForwardEnvironmentWrapper.ForwardEnvironmentWrapper( Environment env , ComponentManager manager , String uri , Logger logger );1;0;3
+ConcreteTreeProcessor.toString( );1;0;3
+ForwardEnvironmentWrapper.isResponseModified( long lastModified );1;0;3
+ConcreteTreeProcessor.setComponentConfigurations( Configuration componentConfigurations );1;0;4
+ConcreteTreeProcessor.buildPipeline( Environment environment );2;0;13
+ConcreteTreeProcessor.getRootProcessor( );1;0;3
+TreeProcessorRedirector.cocoonRedirect( String uri );5;0;13
+ConcreteTreeProcessor.markForDisposal( );2;2;8
+ForwardEnvironmentWrapper.setStatus( int statusCode );1;0;3
+TreeProcessorRedirector.TreeProcessorRedirector( Environment env , InvokeContext context );1;0;4
+ConcreteTreeProcessor.getComponentConfigurations( );8;8;30
+ForwardEnvironmentWrapper.setContentLength( int length );1;0;3

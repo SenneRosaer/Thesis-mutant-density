@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandardServletAsyncWebRequest.isAsyncComplete( );1;0;3
+StandardServletAsyncWebRequest.addTimeoutHandler( Runnable timeoutHandler );1;0;3
+StandardServletAsyncWebRequest.StandardServletAsyncWebRequest( HttpServletRequest request , HttpServletResponse response );1;0;3
+StandardServletAsyncWebRequest.addCompletionHandler( Runnable runnable );1;0;3
+StandardServletAsyncWebRequest.onComplete( AsyncEvent event );1;0;5
+StandardServletAsyncWebRequest.startAsync( );3;2;16
+StandardServletAsyncWebRequest.dispatch( );1;1;4
+StandardServletAsyncWebRequest.addErrorHandler( Consumer < Throwable > exceptionHandler );1;0;3
+StandardServletAsyncWebRequest.onError( AsyncEvent event );1;0;3
+StandardServletAsyncWebRequest.onStartAsync( AsyncEvent event );1;0;2
+StandardServletAsyncWebRequest.onTimeout( AsyncEvent event );1;0;3
+StandardServletAsyncWebRequest.setTimeout( Long timeout );1;1;4
+StandardServletAsyncWebRequest.isAsyncStarted( );2;2;3

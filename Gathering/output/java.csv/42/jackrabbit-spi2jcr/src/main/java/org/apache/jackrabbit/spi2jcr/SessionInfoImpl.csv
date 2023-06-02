@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SessionInfoImpl.getWorkspaceName( );1;0;3
+SessionInfoImpl.addLockToken( String lockToken );1;0;3
+SessionInfoImpl.getLockTokens( );1;0;3
+SessionInfoImpl.removeSubscription( Subscription subscription );1;0;7
+SessionInfoImpl.createSubscription( IdFactory idFactory , EventFilter [ ] filters );1;0;9
+SessionInfoImpl.getSession( );1;0;3
+SessionInfoImpl.SessionInfoImpl( Session session , Credentials credentials , NameFactory nameFactory , PathFactory pathFactory );3;0;26
+SessionInfoImpl.removeLockToken( String lockToken );1;0;3
+SessionInfoImpl.getSubscriptions( );1;0;5
+SessionInfoImpl.duplicateCredentials( Credentials credentials );3;1;16
+SessionInfoImpl.getPrefix( String uri );2;0;8
+SessionInfoImpl.getNamePathResolver( );1;0;3
+SessionInfoImpl.getURI( String prefix );2;0;8
+SessionInfoImpl.getUserID( );1;0;3
+SessionInfoImpl.getCredentials( );1;0;3

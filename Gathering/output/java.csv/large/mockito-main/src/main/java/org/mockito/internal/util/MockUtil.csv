@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockUtil.getMockHandler( Object mock );2;1;8
+MockUtil.resetMock( Object mock );1;0;7
+MockUtil.isMock( Object mock );2;2;6
+MockUtil.getMockName( Object mock );1;0;3
+MockUtil.resolve( Object mock );4;0;9
+MockUtil.typeMockabilityOf( Class < ? > type , String mockMaker );1;0;3
+MockUtil.getMockMaker( String mockMaker );7;2;31
+MockUtil.isSpy( Object mock );2;2;4
+MockUtil.MockUtil( );1;0;1
+MockUtil.getMockHandlerOrNull( Object mock );5;3;14
+MockUtil.getMockSettings( Object mock );1;0;3
+MockUtil.maybeRedefineMockName( Object mock , String newName );3;1;7
+MockUtil.areSameMocks( Object mockA , Object mockB );2;3;3
+MockUtil.createConstructionMock( Class < T > type , Function < MockedConstruction . Context , MockCreationSettings < T > > settingsFactory , MockedConstruction . MockInitializer < T > mockInitializer );1;0;6
+MockUtil.createStaticMock( Class < T > type , MockCreationSettings < T > settings );1;0;5
+MockUtil.createMock( MockCreationSettings < T > settings );2;1;20
+MockUtil.getInvocationContainer( Object mock );1;0;3
+MockUtil.clearAllCaches( );2;0;5

@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TreeBuilder.extractValue( Node parentNode , int index );1;0;3
+TreeBuilder.extractChildNode( Node parentNode , int index );2;1;6
+TreeBuilder.extractLogicNodes( Node parentNode );2;2;7
+TreeBuilder.build( Node node );11;0;33
+TreeBuilder.createLess( Node node );1;0;4
+TreeBuilder.checkChildsNumber( Node node , int expected );2;1;6
+TreeBuilder.createConjunction( Node node );1;0;4
+TreeBuilder.createOrderBy( Node node );2;2;7
+TreeBuilder.createOrderByElement( ASTOrderByField node );3;2;14
+TreeBuilder.createLE( Node node );1;0;4
+TreeBuilder.createLimit( Node node );1;0;3
+TreeBuilder.build( String query );2;0;8
+TreeBuilder.createGE( Node node );1;0;4
+TreeBuilder.createSelection( ASTStart node );4;2;17
+TreeBuilder.createEquality( Node node );1;0;4
+TreeBuilder.createGreater( Node node );1;0;4
+TreeBuilder.createIdentifier( Node parentNode , int index );3;0;10
+TreeBuilder.createValue( Node parentNode , int index );1;0;3
+TreeBuilder.createIn( Node node );2;2;9
+TreeBuilder.createLike( Node node );1;0;4
+TreeBuilder.extractChildNode( Node parentNode , int index , Class expected );2;1;7
+TreeBuilder.createDisjunction( Node node );1;0;4

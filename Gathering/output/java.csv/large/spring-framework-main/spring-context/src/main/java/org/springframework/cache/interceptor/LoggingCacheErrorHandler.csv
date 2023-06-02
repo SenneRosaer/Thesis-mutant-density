@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LoggingCacheErrorHandler.LoggingCacheErrorHandler( boolean logStackTraces );1;0;3
+LoggingCacheErrorHandler.logCacheError( Supplier < String > messageSupplier , RuntimeException exception );3;0;10
+LoggingCacheErrorHandler.handleCacheClearError( RuntimeException exception , Cache cache );1;0;5
+LoggingCacheErrorHandler.getLogger( );1;0;3
+LoggingCacheErrorHandler.LoggingCacheErrorHandler( Log logger , boolean logStackTraces );1;0;5
+LoggingCacheErrorHandler.LoggingCacheErrorHandler( );1;0;3
+LoggingCacheErrorHandler.handleCachePutError( RuntimeException exception , Cache cache , Object key , @ Nullable Object value );1;0;5
+LoggingCacheErrorHandler.LoggingCacheErrorHandler( String loggerName , boolean logStackTraces );1;0;5
+LoggingCacheErrorHandler.isLogStackTraces( );1;0;3
+LoggingCacheErrorHandler.handleCacheEvictError( RuntimeException exception , Cache cache , Object key );1;0;5
+LoggingCacheErrorHandler.handleCacheGetError( RuntimeException exception , Cache cache , Object key );1;0;5

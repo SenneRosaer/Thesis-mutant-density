@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParameterResolutionTests.assertAutowirableParameters( Executable executable );4;3;9
+ParameterResolutionTests.getParameter( );1;0;4
+ParameterResolutionTests.resolveDependencyPreconditionsForParameter( );1;0;5
+ParameterResolutionTests.annotatedParametersInInnerClassConstructorAreCandidatesForAutowiring( );3;0;6
+AutowirableClass.AutowirableClass( String notAutowirableParameter );1;0;2
+ParameterResolutionTests.resolveDependencyPreconditionsForBeanFactory( );1;0;5
+ParameterResolutionTests.resolveDependencyForAnnotatedParametersInTopLevelClassConstructor( );3;2;13
+ParameterResolutionTests.isAutowirablePreconditions( );1;0;5
+AutowirableClass.AutowirableClass( @ Autowired String firstParameter , @ Qualifier ( "someQualifier" ) String secondParameter , @ Value ( "${someValue}" ) String thirdParameter , @ Autowired ( required = false ) String fourthParameter );1;0;2
+ParameterResolutionTests.annotatedParametersInTopLevelClassConstructorAreCandidatesForAutowiring( );2;0;4
+ParameterResolutionTests.annotatedParametersInMethodAreCandidatesForAutowiring( );1;0;4
+InnerAutowirableClass.InnerAutowirableClass( @ Autowired String firstParameter , @ Qualifier ( "someQualifier" ) String secondParameter );1;0;2
+ParameterResolutionTests.autowirableMethod( @ Autowired String firstParameter , @ Qualifier ( "someQualifier" ) String secondParameter , @ Value ( "${someValue}" ) String thirdParameter , @ Autowired ( required = false ) String fourthParameter );1;0;2
+ParameterResolutionTests.nonAnnotatedParametersInTopLevelClassConstructorAreNotCandidatesForAutowiring( );3;2;8
+ParameterResolutionTests.resolveDependencyPreconditionsForContainingClass( );1;0;5

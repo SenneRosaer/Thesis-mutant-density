@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodeTypeCache.registerNodeTypes( NodeTypeStorage storage , QNodeTypeDefinition [ ] nodeTypeDefs );1;0;3
+NodeTypeCache.getAllDefinitions( );1;0;3
+NodeTypeCache.getDefinitions( NodeTypeStorage storage , Name [ ] nodeTypeNames );6;5;29
+NodeTypeCache.registerNodeTypes( QNodeTypeDefinition [ ] nodeTypeDefs );1;0;3
+NodeTypeCache.unregisterNodeTypes( Name [ ] nodeTypeNames );1;0;3
+NodeTypeCache.getAllDefinitions( NodeTypeStorage storage );2;0;12
+NodeTypeCache.unregisterNodeTypes( NodeTypeStorage storage , Name [ ] nodeTypeNames );1;0;3
+NodeTypeCache.NodeTypeCache( );1;0;2
+NodeTypeCache.getDefinitions( Name [ ] nodeTypeNames );1;0;3
+NodeTypeCache.wrap( final NodeTypeStorage storage );1;0;23
+NodeTypeCache.reregisterNodeTypes( NodeTypeStorage storage , QNodeTypeDefinition [ ] nodeTypeDefs );1;0;3
+NodeTypeCache.reregisterNodeTypes( QNodeTypeDefinition [ ] nodeTypeDefs );1;0;3
+NodeTypeCache.getInstance( RepositoryService service , String userId );4;3;21

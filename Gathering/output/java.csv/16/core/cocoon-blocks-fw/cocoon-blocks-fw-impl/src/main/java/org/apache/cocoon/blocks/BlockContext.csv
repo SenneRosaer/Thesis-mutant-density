@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PathDispatcher.PathDispatcher( String path );1;0;2
+BlockContext.setProperties( Map properties );1;0;3
+BlockContext.getAttributeNames( );1;0;3
+BlockContext.removeAttribute( String name );1;0;3
+NamedDispatcher.exists( );1;1;3
+PathDispatcher.forward( ServletRequest request , ServletResponse response );1;0;3
+BlockContext.getResource( String path );9;11;26
+BlockContext.getMajorVersion( );1;0;3
+BlockContext.getAttribute( String name );2;1;4
+NamedDispatcher.include( ServletRequest request , ServletResponse response );1;0;3
+BlockContext.setServlet( Servlet servlet );1;0;3
+PathDispatcher.exists( );1;1;3
+BlockContext.getServerInfo( );1;0;3
+PathDispatcher.include( ServletRequest request , ServletResponse response );1;0;3
+BlockContext.setBlockContextURL( String blockContextURL );1;0;3
+PathDispatcher.forward( ServletRequest request , ServletResponse response , boolean superCall );2;1;12
+BlockContext.setConnections( Map connections );1;0;3
+BlockContext.getResourcePaths( String path );4;3;19
+BlockContext.getRequestDispatcher( String path );2;0;4
+NamedDispatcher.forward( ServletRequest request , ServletResponse response );3;2;11
+BlockContext.getMountPath( );1;0;3
+BlockContext.setMountPath( String mountPath );1;0;3
+BlockContext.getResourceAsStream( String path );2;0;8
+BlockContext.getNamedContext( String name );3;2;8
+BlockContext.getInitParameter( String name );5;4;14
+BlockContext.getInitParameterNames( );5;2;18
+NamedDispatcher.NamedDispatcher( String blockName );3;2;13
+BlockContext.getServletContextName( );1;0;3
+BlockContext.getDirectoryList( File file , String pathPrefix );3;4;13
+BlockContext.getMinorVersion( );1;0;3
+BlockContext.setAttribute( String name , Object value );1;0;3
+BlockContext.absolutizeURI( URI uri );5;5;20
+BlockContext.getContext( String uripath );1;0;3
+BlockContext.getRealPath( String path );1;0;3
+BlockContext.getNamedDispatcher( String name );2;0;4

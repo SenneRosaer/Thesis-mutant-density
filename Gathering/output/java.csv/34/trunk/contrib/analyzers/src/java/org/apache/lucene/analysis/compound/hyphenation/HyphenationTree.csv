@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HyphenationTree.addPattern( String pattern , String ivalue );2;1;8
+HyphenationTree.hyphenate( char [ ] w , int offset , int len , int remainCharCount , int pushCharCount );17;45;69
+HyphenationTree.searchPatterns( char [ ] word , int index , byte [ ] il );18;27;51
+HyphenationTree.printStats( );1;0;5
+HyphenationTree.loadPatterns( InputSource source );1;0;9
+HyphenationTree.loadPatterns( File f );2;0;9
+HyphenationTree.hyphenate( String word , int remainCharCount , int pushCharCount );1;0;4
+HyphenationTree.addClass( String chargroup );3;3;11
+HyphenationTree.unpackValues( int k );3;10;16
+HyphenationTree.hstrcmp( char [ ] s , int si , char [ ] t , int ti );4;6;11
+HyphenationTree.addException( String word , ArrayList hyphenatedword );1;0;3
+HyphenationTree.findPattern( String pat );2;1;7
+HyphenationTree.packValues( String values );4;21;17
+***not in a method***;0;1;0
+HyphenationTree.getValues( int k );4;10;20
+HyphenationTree.HyphenationTree( );1;0;6

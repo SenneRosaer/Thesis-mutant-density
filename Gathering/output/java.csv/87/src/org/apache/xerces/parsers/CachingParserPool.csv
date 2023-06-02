@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SynchronizedGrammarPool.retrieveInitialGrammarSet( String grammarType );1;0;5
+SynchronizedGrammarPool.cacheGrammars( String grammarType , Grammar [ ] grammars );1;0;5
+CachingParserPool.CachingParserPool( SymbolTable symbolTable , XMLGrammarPool grammarPool );1;0;4
+ShadowedGrammarPool.retrieveGrammar( XMLGrammarDescription gDesc );2;1;5
+SynchronizedGrammarPool.clear( );1;0;5
+SynchronizedGrammarPool.retrieveGrammar( XMLGrammarDescription gDesc );1;0;5
+ShadowedGrammarPool.ShadowedGrammarPool( XMLGrammarPool grammarPool );1;0;3
+SynchronizedGrammarPool.SynchronizedGrammarPool( XMLGrammarPool grammarPool );1;0;3
+CachingParserPool.getSymbolTable( );1;0;3
+ShadowedGrammarPool.retrieveInitialGrammarSet( String grammarType );2;1;5
+ShadowedGrammarPool.getGrammar( XMLGrammarDescription desc );2;0;6
+CachingParserPool.setShadowSymbolTable( boolean shadow );1;0;3
+ShadowedGrammarPool.containsGrammar( XMLGrammarDescription desc );1;0;3
+CachingParserPool.CachingParserPool( );1;0;3
+CachingParserPool.createSAXParser( );3;0;9
+SynchronizedGrammarPool.lockPool( );1;0;5
+CachingParserPool.getXMLGrammarPool( );1;0;3
+ShadowedGrammarPool.cacheGrammars( String grammarType , Grammar [ ] grammars );1;0;4
+SynchronizedGrammarPool.unlockPool( );1;0;5
+CachingParserPool.createDOMParser( );3;0;9

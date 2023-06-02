@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleLuceneCocoonSearcherImpl.getAnalyzer( );1;0;3
+SimpleLuceneCocoonSearcherImpl.configure( Configuration conf );11;8;43
+SimpleLuceneCocoonSearcherImpl.releaseIndexReaderCache( );2;1;5
+SimpleLuceneCocoonSearcherImpl.service( ServiceManager manager );1;0;3
+IndexReaderCache.finalize( );1;0;3
+IndexReaderCache.close( );3;1;9
+SimpleLuceneCocoonSearcherImpl.releaseIndexSearcher( );3;1;9
+IndexReaderCache.IndexReaderCache( );1;0;1
+SimpleLuceneCocoonSearcherImpl.setAnalyzer( Analyzer analyzer );1;0;3
+SimpleLuceneCocoonSearcherImpl.recycle( );1;0;4
+SimpleLuceneCocoonSearcherImpl.setDirectory( Directory directory );2;1;7
+SimpleLuceneCocoonSearcherImpl.search( String query_string , String default_field );5;2;20
+SimpleLuceneCocoonSearcherImpl.dispose( );1;0;4
+SimpleLuceneCocoonSearcherImpl.getReader( );2;1;6
+IndexReaderCache.createIndexReader( Directory directory );1;0;5
+IndexReaderCache.indexReaderIsValid( Directory directory );2;3;4
+SimpleLuceneCocoonSearcherImpl.search( Query query );2;0;11
+IndexReaderCache.getIndexReader( Directory directory );3;2;10

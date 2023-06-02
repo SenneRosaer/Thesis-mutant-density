@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TypeInfoWriter.printQuotedString( String s );2;1;9
+TypeInfoWriter.printError( String type , SAXParseException ex );3;4;20
+TypeInfoWriter.warning( SAXParseException ex );1;0;3
+TypeInfoWriter.endDocument( );1;1;6
+TypeInfoWriter.error( SAXParseException ex );1;0;3
+TypeInfoWriter.printIndent( );2;2;5
+TypeInfoWriter.printQName( String uri , String localName );3;5;7
+TypeInfoWriter.startElement( String uri , String localName , String qname , Attributes attributes );12;15;53
+TypeInfoWriter.startDocument( );1;1;7
+TypeInfoWriter.setOutput( OutputStream stream , String encoding );2;1;7
+TypeInfoWriter.setDocumentLocator( Locator locator );1;0;11
+TypeInfoWriter.printUsage( );5;0;30
+TypeInfoWriter.main( String [ ] argv );52;33;222
+TypeInfoWriter.fatalError( SAXParseException ex );1;0;4
+TypeInfoWriter.TypeInfoWriter( );1;0;1
+TypeInfoWriter.endElement( String uri , String localName , String qname );1;1;9
+TypeInfoWriter.setTypeInfoProvider( TypeInfoProvider provider );1;0;3

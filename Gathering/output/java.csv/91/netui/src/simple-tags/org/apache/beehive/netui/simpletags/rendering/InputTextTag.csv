@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HtmlRendering.writeEnd( Appender sb );1;0;3
+State.clear( );1;0;9
+HtmlRendering.renderReadonly( Appender sb , boolean readonly );2;0;4
+InputTextTag.add( HashMap html , HashMap htmlQuirks , HashMap xhtml );1;0;5
+HtmlRendering.renderDisabled( Appender sb , boolean disabled );2;0;4
+InputTextTag.doEndTag( Appender sb );1;0;2
+XhtmlRendering.writeEnd( Appender sb );1;0;3
+XhtmlRendering.renderDisabled( Appender sb , boolean disabled );2;0;4
+InputTextTag.doStartTag( Appender sb , AbstractTagState renderState );4;5;24
+XhtmlRendering.renderReadonly( Appender sb , boolean readonly );2;0;4

@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SharedItemStoreImpl.getId( );1;0;3
+SharedItemStoreImpl.createLock( Lockable lockable , int version );1;0;3
+SharedItemStoreImpl.rollback( );1;0;3
+SharedItemStoreImpl.commit( );1;0;3
+SharedItemStoreImpl.addListener( RepositoryListener listener );1;0;3
+SharedItemStoreImpl.getRepositoryItem( RepositoryItemFactory factory , String key );1;0;4
+SharedItemStoreImpl.registerRemoved( Transactionable object );1;0;3
+SharedItemStoreImpl.setIdentity( Identity identity );1;0;3
+SharedItemStoreImpl.removeLock( Lockable lockable );1;0;3
+SharedItemStoreImpl.isModifiable( );1;0;3
+SharedItemStoreImpl.registerNew( Transactionable object );1;0;3
+SharedItemStoreImpl.isListenerRegistered( RepositoryListener listener );1;0;3
+SharedItemStoreImpl.enqueueEvent( RepositoryEvent event );1;0;3
+SharedItemStoreImpl.registerDirty( Transactionable object );1;0;3
+SharedItemStoreImpl.getIdentityMap( );2;1;6
+SharedItemStoreImpl.clear( );1;0;3
+SharedItemStoreImpl.getIdentity( );1;0;3
+SharedItemStoreImpl.isDirty( Transactionable transactionable );1;0;3

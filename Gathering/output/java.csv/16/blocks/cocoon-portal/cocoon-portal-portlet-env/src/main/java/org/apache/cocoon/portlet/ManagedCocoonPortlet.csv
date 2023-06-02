@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ManagedCocoonPortlet.processAction( ActionRequest req , ActionResponse res );25;7;108
+ManagedCocoonPortlet.getLogger( );1;0;3
+ManagedCocoonPortlet.manageException( RenderRequest req , RenderResponse res , Environment env , String uri , String title , String message , String description , Exception e );6;4;34
+ManagedCocoonPortlet.getInitParameter( String name );3;2;10
+ManagedCocoonPortlet.processTime( long time );4;6;17
+ManagedCocoonPortlet.render( RenderRequest req , RenderResponse res );26;12;104
+ManagedCocoonPortlet.getInitParameter( String name , String defaultValue );4;4;10
+***not in a method***;0;2;0
+ManagedCocoonPortlet.getInitParameterAsInteger( String name , int defaultValue );4;4;10
+ManagedCocoonPortlet.instance( );1;0;3
+ManagedCocoonPortlet.init( PortletConfig conf );19;9;96
+ManagedCocoonPortlet.getEnvironment( String servletPath , String pathInfo , String uri , RenderRequest req , RenderResponse res );2;1;19
+ManagedCocoonPortlet.getEnvironment( String servletPath , String pathInfo , String uri , ActionRequest req , ActionResponse res );2;1;19
+ManagedCocoonPortlet.getInitParameterAsBoolean( String name , boolean defaultValue );4;4;10
+ManagedCocoonPortlet.manageException( ActionRequest req , ActionResponse res , Environment env , String uri , String title , String message , String description , Exception e );1;0;3
+ManagedCocoonPortlet.getCocoon( );1;0;7
+ManagedCocoonPortlet.getPathInfo( PortletRequest request );6;4;19

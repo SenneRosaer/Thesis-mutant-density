@@ -1,0 +1,65 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractFileSet.addAnd( AndSelector selector );1;0;3
+AbstractFileSet.setupDirectoryScanner( FileScanner ds );1;0;3
+AbstractFileSet.setFile( File file );2;0;7
+AbstractFileSet.addModified( ModifiedSelector selector );1;0;3
+AbstractFileSet.addWritable( WritableSelector w );1;0;3
+AbstractFileSet.setErrorOnMissingDir( boolean errorOnMissingDir );1;0;3
+AbstractFileSet.clone( );4;0;20
+AbstractFileSet.addCustom( ExtendSelector selector );1;0;3
+AbstractFileSet.addOr( OrSelector selector );1;0;3
+AbstractFileSet.isCaseSensitive( );2;0;7
+AbstractFileSet.AbstractFileSet( );1;0;3
+AbstractFileSet.addReadable( ReadableSelector r );1;0;3
+AbstractFileSet.mergeIncludes( Project p );1;0;3
+AbstractFileSet.addContains( ContainsSelector selector );1;0;3
+AbstractFileSet.getSelectors( Project p );2;0;8
+AbstractFileSet.addMajority( MajoritySelector selector );1;0;3
+AbstractFileSet.setFollowSymlinks( boolean followSymlinks );2;0;7
+AbstractFileSet.addSize( SizeSelector selector );1;0;3
+AbstractFileSet.addPresent( PresentSelector selector );1;0;3
+AbstractFileSet.mergePatterns( Project p );3;2;13
+AbstractFileSet.setIncludesfile( File incl );2;0;7
+AbstractFileSet.addContainsRegexp( ContainsRegexpSelector selector );1;0;3
+AbstractFileSet.setRefid( Reference r );5;4;12
+AbstractFileSet.getDirectoryScanner( Project p );10;10;34
+AbstractFileSet.AbstractFileSet( AbstractFileSet fileset );1;0;12
+AbstractFileSet.addDate( DateSelector selector );1;0;3
+AbstractFileSet.setDir( File dir );2;0;7
+AbstractFileSet.addDepend( DependSelector selector );1;0;3
+AbstractFileSet.setExcludesfile( File excl );2;0;7
+AbstractFileSet.setExcludes( String excludes );2;0;7
+AbstractFileSet.createIncludesFile( );2;0;7
+AbstractFileSet.hasPatterns( );6;2;17
+AbstractFileSet.isFollowSymlinks( );2;0;7
+AbstractFileSet.dieOnCircularReference( Stack stk , Project p );6;0;20
+AbstractFileSet.addFilename( FilenameSelector selector );1;0;3
+AbstractFileSet.setCaseSensitive( boolean caseSensitive );2;0;7
+AbstractFileSet.createInclude( );2;0;7
+AbstractFileSet.createPatternSet( );2;0;9
+AbstractFileSet.addSelector( SelectSelector selector );1;0;3
+AbstractFileSet.toString( );4;3;16
+AbstractFileSet.addNone( NoneSelector selector );1;0;3
+AbstractFileSet.getDefaultexcludes( );2;0;7
+AbstractFileSet.addDepth( DepthSelector selector );1;0;3
+AbstractFileSet.add( FileSelector selector );1;0;3
+AbstractFileSet.mergeExcludes( Project p );1;0;3
+AbstractFileSet.selectorCount( );2;0;7
+AbstractFileSet.appendIncludes( String [ ] includes );4;3;11
+AbstractFileSet.selectorElements( );2;0;7
+AbstractFileSet.setIncludes( String includes );2;0;7
+AbstractFileSet.getDir( Project p );2;0;7
+AbstractFileSet.appendSelector( FileSelector selector );2;0;8
+AbstractFileSet.getDir( );1;0;3
+AbstractFileSet.addNot( NotSelector selector );1;0;3
+AbstractFileSet.createExcludesFile( );2;0;7
+AbstractFileSet.setMaxLevelsOfSymlinks( int max );1;0;3
+AbstractFileSet.setupDirectoryScanner( FileScanner ds , Project p );5;3;24
+AbstractFileSet.getDirectoryScanner( );1;0;3
+AbstractFileSet.appendExcludes( String [ ] excludes );4;3;11
+AbstractFileSet.createExclude( );2;0;7
+AbstractFileSet.addType( TypeSelector selector );1;0;3
+AbstractFileSet.getRef( Project p );1;0;3
+AbstractFileSet.addDifferent( DifferentSelector selector );1;0;3
+AbstractFileSet.setDefaultexcludes( boolean useDefaultExcludes );2;0;7
+AbstractFileSet.hasSelectors( );2;1;7

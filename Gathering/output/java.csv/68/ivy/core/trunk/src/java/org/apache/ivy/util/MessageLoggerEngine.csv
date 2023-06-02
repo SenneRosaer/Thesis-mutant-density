@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageLoggerEngine.isShowProgress( );1;0;3
+MessageLoggerEngine.sumupProblems( );1;0;4
+MessageLoggerEngine.clearProblems( );2;0;10
+MessageLoggerEngine.debug( String msg );1;0;3
+MessageLoggerEngine.setShowProgress( boolean progress );2;0;7
+MessageLoggerEngine.error( String msg );1;0;5
+MessageLoggerEngine.endProgress( );1;0;3
+MessageLoggerEngine.warn( String msg );1;0;5
+MessageLoggerEngine.info( String msg );1;0;3
+MessageLoggerEngine.endProgress( String msg );1;0;3
+MessageLoggerEngine.MessageLoggerEngine( );1;0;2
+MessageLoggerEngine.peekLogger( );2;0;6
+MessageLoggerEngine.deprecated( String msg );1;0;3
+MessageLoggerEngine.verbose( String msg );1;0;3
+MessageLoggerEngine.getProblems( );1;0;3
+MessageLoggerEngine.log( String msg , int level );1;0;3
+MessageLoggerEngine.progress( );1;0;3
+MessageLoggerEngine.getDefaultLogger( );2;1;3
+MessageLoggerEngine.rawlog( String msg , int level );1;0;3
+MessageLoggerEngine.setDefaultLogger( MessageLogger defaultLogger );1;0;3
+MessageLoggerEngine.popLogger( );2;1;5
+MessageLoggerEngine.rawinfo( String msg );1;0;3
+MessageLoggerEngine.getErrors( );1;0;3
+MessageLoggerEngine.pushLogger( MessageLogger logger );1;0;4
+MessageLoggerEngine.getWarns( );1;0;3

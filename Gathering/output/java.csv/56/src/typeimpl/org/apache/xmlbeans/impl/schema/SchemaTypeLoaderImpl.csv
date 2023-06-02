@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SchemaTypeLoaderImpl.typeSystemForComponent( String searchdir , QName name );4;4;11
+SchemaTypeLoaderImpl.findAttributeRef( QName name );8;9;23
+SchemaTypeLoaderImpl.typeSystemForClassname( String searchdir , String name );5;5;16
+SchemaTypeLoaderImpl.getContextTypeLoader( );2;1;13
+SchemaTypeLoaderImpl.getTypeSystemOnClasspath( String name );2;1;9
+SchemaTypeLoaderImpl.getSourceAsStream( String sourceName );5;5;10
+SchemaTypeLoaderCache.getFromTypeLoaderCache( ClassLoader cl );6;12;28
+SchemaTypeLoaderImpl.crackEntry( ClassLoader loader , String searchfor );2;1;6
+SchemaTypeLoaderImpl.findAttributeGroupRef( QName name );8;9;23
+SchemaTypeLoaderCache.initialValue( );1;0;1
+SchemaTypeLoaderImpl.findTypeRef( QName name );8;9;23
+SubLoaderList.add( SchemaTypeLoader loader );2;0;7
+SchemaTypeLoaderImpl.initCaches( );1;0;13
+SchemaTypeLoaderImpl.build( SchemaTypeLoader [ ] searchPath , ResourceLoader resourceLoader , ClassLoader classLoader );11;15;29
+SchemaTypeLoaderImpl.crackEntry( ResourceLoader loader , String searchfor );2;1;6
+SchemaTypeLoaderImpl.typeSystemForName( String name );5;4;15
+SchemaTypeLoaderCache.addToTypeLoaderCache( SchemaTypeLoader stl , ClassLoader cl );3;3;13
+SchemaTypeLoaderImpl.findAttributeTypeRef( QName name );8;9;23
+SchemaTypeLoaderImpl.isNamespaceDefined( String namespace );3;3;7
+SchemaTypeLoaderImpl.getTypeSystemOnClassloader( String name );2;1;11
+SchemaTypeLoaderImpl.findElementRef( QName name );8;9;23
+SubLoaderList.toArray( );1;0;3
+SchemaTypeLoaderImpl.findDocumentTypeRef( QName name );8;9;23
+SchemaTypeLoaderImpl.findIdentityConstraintRef( QName name );8;9;23
+SchemaTypeLoaderImpl.SchemaTypeLoaderImpl( SchemaTypeLoader [ ] searchPath , ResourceLoader resourceLoader , ClassLoader classLoader );2;1;9
+SchemaTypeLoaderImpl.findModelGroupRef( QName name );8;9;23
+SchemaTypeLoaderImpl.typeForClassname( String classname );8;9;24
+SchemaTypeLoaderImpl.crackPointer( InputStream stream );1;0;3

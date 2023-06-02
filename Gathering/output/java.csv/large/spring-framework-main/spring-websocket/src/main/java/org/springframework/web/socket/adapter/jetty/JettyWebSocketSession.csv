@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JettyWebSocketSession.initializeNativeSession( Session session );3;2;15
+JettyWebSocketSession.isOpen( );1;0;3
+JettyWebSocketSession.getPrincipal( );1;0;3
+JettyWebSocketSession.setBinaryMessageSizeLimit( int messageSizeLimit );1;0;2
+JettyWebSocketSession.getBinaryMessageSizeLimit( );1;0;4
+JettyWebSocketSession.JettyWebSocketSession( Map < String , Object > attributes , @ Nullable Principal user );1;0;5
+JettyWebSocketSession.getId( );1;0;3
+JettyWebSocketSession.getTextMessageSizeLimit( );1;0;4
+JettyWebSocketSession.getLocalAddress( );1;0;4
+JettyWebSocketSession.sendPongMessage( PongMessage message );1;0;3
+JettyWebSocketSession.getExtensions( );1;1;4
+JettyWebSocketSession.sendBinaryMessage( BinaryMessage message );1;0;3
+JettyWebSocketSession.getHandshakeHeaders( );1;1;4
+JettyWebSocketSession.getExtensions( Session session );3;1;11
+JettyWebSocketSession.sendPingMessage( PingMessage message );1;0;3
+JettyWebSocketSession.closeInternal( CloseStatus status );1;0;3
+JettyWebSocketSession.getRemoteEndpoint( );1;0;3
+JettyWebSocketSession.sendTextMessage( TextMessage message );1;0;3
+JettyWebSocketSession.getAcceptedProtocol( );1;0;4
+JettyWebSocketSession.setTextMessageSizeLimit( int messageSizeLimit );1;0;2
+JettyWebSocketSession.getRemoteAddress( );1;0;4
+JettyWebSocketSession.getUri( );1;0;4
+JettyWebSocketSession.JettyWebSocketSession( Map < String , Object > attributes );1;0;3

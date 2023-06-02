@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WsdlUtils.getBindingExtension( Binding binding );3;2;13
+WsdlUtils.useHTTPBinding( Binding binding );2;1;10
+WsdlUtils.getMimeContent( List extensibilityElements );3;2;10
+WsdlUtils.resolveVerb( Binding binding , BindingOperation bindingOperation );3;2;6
+WsdlUtils.getOperationVerb( BindingOperation bindingOperation );5;2;12
+WsdlUtils.getHttpHeaders( List extensibilityElements );4;3;11
+WsdlUtils.inferFault( Operation operation , QName elName );6;2;11
+WsdlUtils.getBindingExtension( Port port );2;1;7
+WsdlUtils.useMimeMultipartRelated( BindingInput bindingInput );1;1;4
+WsdlUtils.useHTTPBinding( Port port );1;0;3
+WsdlUtils.useSOAPBinding( Definition def , QName serviceName , String portName );3;2;9
+WsdlUtils.useSOAPBinding( Binding binding );1;0;4
+WsdlUtils.useHTTPBinding( Definition def , QName serviceName , String portName );3;2;9
+WsdlUtils.useSOAPBinding( Port port );1;0;3
+WsdlUtils.useUrlReplacement( BindingInput bindingInput );1;1;4
+WsdlUtils.getOperationExtension( BindingOperation bindingOperation );3;2;13
+WsdlUtils.useUrlEncoded( BindingInput bindingInput );1;1;4
+WsdlUtils.getAddressExtension( Port port );3;2;13
+WsdlUtils.isOdeFault( BindingFault fault );5;1;15

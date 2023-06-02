@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CachedMessageProducer.send( Destination destination , Message message , int deliveryMode , int priority , long timeToLive , CompletionListener completionListener );1;0;3
+CachedMessageProducer.getTimeToLive( );1;0;3
+CachedMessageProducer.getDestination( );1;0;3
+CachedMessageProducer.getDeliveryDelay( );1;0;3
+CachedMessageProducer.setDeliveryDelay( long deliveryDelay );2;1;6
+CachedMessageProducer.setDisableMessageID( boolean disableMessageID );2;1;6
+CachedMessageProducer.publish( Message message , int deliveryMode , int priority , long timeToLive );1;0;3
+CachedMessageProducer.send( Queue queue , Message message );1;0;3
+CachedMessageProducer.send( Message message , int deliveryMode , int priority , long timeToLive );1;0;3
+CachedMessageProducer.publish( Topic topic , Message message , int deliveryMode , int priority , long timeToLive );1;0;3
+CachedMessageProducer.send( Destination destination , Message message , CompletionListener completionListener );1;0;3
+CachedMessageProducer.getDisableMessageTimestamp( );1;0;3
+CachedMessageProducer.publish( Message message );1;0;3
+CachedMessageProducer.CachedMessageProducer( MessageProducer target );1;0;6
+CachedMessageProducer.getDisableMessageID( );1;0;3
+CachedMessageProducer.send( Destination destination , Message message , int deliveryMode , int priority , long timeToLive );1;0;3
+CachedMessageProducer.setTimeToLive( long timeToLive );1;0;3
+CachedMessageProducer.send( Queue queue , Message message , int deliveryMode , int priority , long timeToLive );1;0;3
+CachedMessageProducer.toString( );1;0;3
+CachedMessageProducer.send( Message message , CompletionListener completionListener );1;0;3
+CachedMessageProducer.send( Destination destination , Message message );1;0;3
+CachedMessageProducer.publish( Topic topic , Message message );1;0;3
+CachedMessageProducer.send( Message message , int deliveryMode , int priority , long timeToLive , CompletionListener completionListener );1;0;3
+CachedMessageProducer.getTopic( );1;0;3
+CachedMessageProducer.close( );4;3;14
+CachedMessageProducer.getDeliveryMode( );1;0;3
+CachedMessageProducer.getPriority( );1;0;3
+CachedMessageProducer.setPriority( int priority );1;0;3
+CachedMessageProducer.setDeliveryMode( int deliveryMode );1;0;3
+CachedMessageProducer.getQueue( );1;0;3
+CachedMessageProducer.send( Message message );1;0;3
+CachedMessageProducer.setDisableMessageTimestamp( boolean disableMessageTimestamp );2;1;6

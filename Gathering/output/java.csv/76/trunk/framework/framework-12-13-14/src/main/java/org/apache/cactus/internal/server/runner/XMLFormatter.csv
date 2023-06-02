@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLFormatter.toXML( TestResult theResult );2;1;21
+XMLFormatter.addFailure( Test theTest , AssertionFailedError theError );1;0;12
+XMLFormatter.xmlEncode( String theString );1;0;8
+XMLFormatter.setTotalDuration( long theDuration );1;0;3
+XMLFormatter.getTotalDurationAsString( );1;0;3
+XMLFormatter.getDurationAsString( long theDuration );1;1;3
+XMLFormatter.getSuiteClassName( );1;0;3
+XMLFormatter.setXslFileName( String theXslFileName );1;0;3
+XMLFormatter.setSuiteClassName( String theSuiteClassName );1;0;3
+XMLFormatter.setEncoding( String theEncoding );1;0;3
+XMLFormatter.addError( Test theTest , Throwable theThrowable );1;0;12
+XMLFormatter.endTest( Test theTest );2;2;14
+XMLFormatter.startTest( Test theTest );1;0;4
+XMLFormatter.getEncoding( );1;0;3

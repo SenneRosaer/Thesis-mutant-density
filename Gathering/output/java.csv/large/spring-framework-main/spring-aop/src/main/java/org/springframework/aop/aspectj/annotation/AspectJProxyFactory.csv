@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AspectJProxyFactory.getSingletonAspectInstance( Class < ? > aspectClass );1;0;4
+AspectJProxyFactory.getProxy( ClassLoader classLoader );1;0;3
+AspectJProxyFactory.addAspect( Class < ? > aspectClass );1;0;6
+AspectJProxyFactory.AspectJProxyFactory( Class < ? > ... interfaces );1;0;3
+AspectJProxyFactory.AspectJProxyFactory( Object target );1;0;5
+AspectJProxyFactory.addAdvisorsFromAspectInstanceFactory( MetadataAwareAspectInstanceFactory instanceFactory );2;1;9
+AspectJProxyFactory.addAspect( Object aspectInstance );3;1;11
+AspectJProxyFactory.getProxy( );1;0;3
+AspectJProxyFactory.createAspectMetadata( Class < ? > aspectClass , String aspectName );2;1;7
+AspectJProxyFactory.AspectJProxyFactory( );1;0;2
+AspectJProxyFactory.createAspectInstanceFactory( AspectMetadata am , Class < ? > aspectClass , String aspectName );2;1;11

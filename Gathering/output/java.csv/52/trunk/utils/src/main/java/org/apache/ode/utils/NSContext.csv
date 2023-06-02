@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NSContext.NSContext( NSContext map );1;0;3
+NSContext.register( String prefix , String uri );4;2;10
+NSContext.getNamespaceURI( String prefix );2;1;3
+NSContext.getPrefixes( final String uri );1;0;5
+NSContext.derefQName( String qname );4;5;15
+NSContext.readExternal( ObjectInput in );3;2;11
+NSContext.register( Map < String , String > prefixMapping );2;0;6
+NSContext.writeExternal( ObjectOutput out );3;0;11
+NSContext.getPrefix( String uri );2;0;7
+NSContext.toMap( );1;0;3
+NSContext.NSContext( );1;0;2
+NSContext.getPrefixes( );1;0;3
+NSContext.getUriSet( );1;0;3

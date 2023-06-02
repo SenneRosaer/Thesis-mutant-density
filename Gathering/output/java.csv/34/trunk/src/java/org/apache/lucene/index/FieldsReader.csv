@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LazyField.getFieldStream( );2;1;8
+FieldsReader.FieldsReader( Directory d , String segment , FieldInfos fn , int readBufferSize );1;1;3
+LazyField.getToRead( );1;0;4
+FieldsReader.addFieldForMerge( Document doc , FieldInfo fi , boolean binary , boolean compressed , boolean tokenize );3;1;12
+FieldsReader.skipField( boolean binary , boolean compressed );1;0;3
+FieldsReader.getIndexType( FieldInfo fi , boolean tokenize );5;3;10
+FieldsReader.size( );1;0;3
+FieldsReader.FieldsReader( Directory d , String segment , FieldInfos fn , int readBufferSize , int docStoreOffset , int size );7;15;38
+LazyField.setToRead( int toRead );1;0;4
+FieldsReader.addFieldLazy( Document doc , FieldInfo fi , boolean binary , boolean compressed , boolean tokenize );5;4;35
+FieldForMerge.readerValue( );1;0;3
+LazyField.getBinaryValue( byte [ ] result );7;5;28
+FieldsReader.doc( int n , FieldSelector fieldSelector );9;12;41
+FieldsReader.getTermVectorType( FieldInfo fi );5;0;19
+FieldsReader.close( );5;4;15
+FieldsReader.ensureOpen( );2;0;5
+FieldsReader.skipField( boolean binary , boolean compressed , int toRead );4;4;7
+LazyField.LazyField( String name , Field . Store store , Field . Index index , Field . TermVector termVector , int toRead , long pointer , boolean isBinary );2;0;9
+FieldForMerge.binaryValue( );1;0;3
+LazyField.readerValue( );1;0;4
+FieldsReader.rawDocs( int [ ] lengths , int startDocID , int numDocs );3;8;19
+FieldForMerge.FieldForMerge( Object value , FieldInfo fi , boolean binary , boolean compressed , boolean tokenize );2;0;15
+LazyField.LazyField( String name , Field . Store store , int toRead , long pointer , boolean isBinary );2;0;9
+LazyField.getPointer( );1;0;4
+FieldForMerge.tokenStreamValue( );1;0;3
+LazyField.binaryValue( );1;0;3
+FieldsReader.addFieldSize( Document doc , FieldInfo fi , boolean binary , boolean compressed );3;5;10
+FieldsReader.addField( Document doc , FieldInfo fi , boolean binary , boolean compressed , boolean tokenize );4;0;36
+FieldsReader.uncompress( final byte [ ] input );3;1;22
+FieldsReader.FieldsReader( Directory d , String segment , FieldInfos fn );1;1;3
+LazyField.tokenStreamValue( );1;0;4
+FieldsReader.seekIndex( int docID );1;3;3
+LazyField.setPointer( long pointer );1;0;4
+FieldsReader.canReadRawDocs( );1;1;3
+LazyField.stringValue( );6;2;31
+FieldForMerge.stringValue( );1;0;3

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractJdbcUsersRepository.setDatasources( DataSourceSelector datasources );1;0;3
+AbstractJdbcUsersRepository.delegatedLog( String logString );1;0;4
+AbstractJdbcUsersRepository.contains( String name );1;1;4
+AbstractJdbcUsersRepository.configure( Configuration configuration );9;7;49
+AbstractJdbcUsersRepository.doAddUser( User user );2;0;16
+AbstractJdbcUsersRepository.containsCaseInsensitive( String name );1;1;4
+AbstractJdbcUsersRepository.getUserByName( String name );1;0;3
+AbstractJdbcUsersRepository.listAllUsers( );1;0;3
+AbstractJdbcUsersRepository.getUserByNameCaseInsensitive( String name );1;0;3
+AbstractJdbcUsersRepository.countUsers( );1;0;4
+AbstractJdbcUsersRepository.service( final ServiceManager componentManager );2;0;11
+AbstractJdbcUsersRepository.removeUser( String userName );2;1;6
+AbstractJdbcUsersRepository.doRemoveUser( User user );2;0;17
+AbstractJdbcUsersRepository.doUpdateUser( User user );2;0;16
+AbstractJdbcUsersRepository.test( String name , String password );2;1;8
+AbstractJdbcUsersRepository.getUserByName( String name , boolean ignoreCase );6;2;32
+AbstractJdbcUsersRepository.initialize( );6;1;65
+AbstractJdbcUsersRepository.openConnection( );2;0;9
+AbstractJdbcUsersRepository.getUserByNameIterating( String name , boolean ignoreCase );6;4;12
+AbstractJdbcUsersRepository.list( );1;0;3
+AbstractJdbcUsersRepository.setFileSystem( FileSystem system );1;0;3
+AbstractJdbcUsersRepository.getAllUsers( );3;0;23
+AbstractJdbcUsersRepository.getRealName( String name );2;1;8
+AbstractJdbcUsersRepository.listUserNames( );2;0;9

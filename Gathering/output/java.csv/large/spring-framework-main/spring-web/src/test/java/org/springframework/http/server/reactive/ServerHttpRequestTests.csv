@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServerHttpRequestTests.mutateDoesNotPreventAccessToNativeRequest( );1;0;6
+ServerHttpRequestTests.mutateUriAndPath( );1;0;10
+ServerHttpRequestTests.createRequest( String uriString );1;0;3
+ServerHttpRequestTests.mutateSslInfo( );1;0;5
+ServerHttpRequestTests.createRequest( String uriString , String contextPath );1;0;7
+ServerHttpRequestTests.mutateHeaderBySettingHeaderValues( );1;0;12
+ServerHttpRequestTests.queryParamsWithEncodedValue( );1;0;5
+ServerHttpRequestTests.mutateContextPathWithoutUpdatingPathShouldFail( );1;0;6
+ServerHttpRequestTests.mutateWithExistingContextPath( );1;0;11
+ServerHttpRequestTests.queryParamsNone( );1;0;4
+ServerHttpRequestTests.queryParamsWithEmptyValue( );1;0;5
+ServerHttpRequestTests.queryParamsWithMultipleValues( );1;0;5
+TestHttpServletRequest.getInputStream( );1;0;7
+ServerHttpRequestTests.queryParamsWithNoValue( );1;0;5
+ServerHttpRequestTests.mutateWithInvalidPath( );1;0;3
+ServerHttpRequestTests.mutateRequestMethod( );1;0;4
+TestHttpServletRequest.setReadListener( ReadListener readListener );1;0;2
+ServerHttpRequestTests.queryParams( );1;0;6
+ServerHttpRequestTests.mutateContentTypeHeaderValue( );1;0;8
+ServerHttpRequestTests.mutateHeadersViaConsumer( );1;0;11
+ServerHttpRequestTests.mutatePathWithEncodedQueryParams( );1;0;6
+TestHttpServletRequest.TestHttpServletRequest( URI uri );5;5;15

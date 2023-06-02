@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PDFEncryptionJCE.PDFEncryptionJCE( int objnum );2;0;9
+PDFEncryptionJCE.initCipher( byte [ ] key );4;0;14
+PDFEncryptionJCE.make( int objnum , PDFEncryptionParams params );1;0;6
+PDFEncryptionJCE.getParams( );1;0;3
+PDFEncryptionJCE.applyFilter( AbstractPDFStream stream );1;0;4
+PDFEncryptionJCE.encryptWithKey( byte [ ] data , byte [ ] key );3;0;10
+EncryptionFilter.applyFilter( OutputStream out );1;0;4
+EncryptionFilter.EncryptionFilter( PDFEncryptionJCE encryption , int number , int generation );1;0;8
+PDFEncryptionJCE.encryptWithHash( byte [ ] data , byte [ ] hash , int size );1;0;5
+PDFEncryptionJCE.getTrailerEntry( );1;0;5
+PDFEncryptionJCE.prepPassword( String password );4;7;14
+EncryptionFilter.getDecodeParms( );1;0;3
+EncryptionFilter.getName( );1;0;3
+PDFEncryptionJCE.encrypt( byte [ ] data , PDFObject refObj );4;4;10
+PDFEncryptionJCE.calcKey( byte [ ] hash , int size );2;2;7
+EncryptionFilter.encode( InputStream in , OutputStream out , int length );1;0;6
+PDFEncryptionJCE.setParams( PDFEncryptionParams params );1;0;3
+PDFEncryptionJCE.init( );7;19;48
+PDFEncryptionJCE.initCipher( int number , int generation );1;0;7
+PDFEncryptionJCE.encryptData( byte [ ] data , int number , int generation );2;1;7
+EncryptionFilter.encode( byte [ ] data );1;0;3
+PDFEncryptionJCE.getFileID( int index );2;1;8
+PDFEncryptionJCE.toPDF( );2;1;6
+PDFEncryptionJCE.getFileID( );2;1;7
+PDFEncryptionJCE.makeFilter( int number , int generation );1;0;3
+PDFEncryptionJCE.calcHash( int number , int generation );2;13;13

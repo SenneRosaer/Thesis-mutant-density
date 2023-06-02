@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RuntimeHintsBeanFactoryInitializationAotProcessor.extractFromBeanFactory( ConfigurableListableBeanFactory beanFactory );3;0;8
+RuntimeHintsBeanFactoryInitializationAotProcessor.extractFromBeanDefinition( String beanName , ImportRuntimeHints annotation );5;0;11
+RuntimeHintsRegistrarContribution.RuntimeHintsRegistrarContribution( Iterable < RuntimeHintsRegistrar > registrars , @ Nullable ClassLoader beanClassLoader );1;0;4
+RuntimeHintsRegistrarContribution.applyTo( GenerationContext generationContext , BeanFactoryInitializationCode beanFactoryInitializationCode );2;0;11
+RuntimeHintsBeanFactoryInitializationAotProcessor.processAheadOfTime( ConfigurableListableBeanFactory beanFactory );2;0;8

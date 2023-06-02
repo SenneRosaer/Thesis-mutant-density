@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PCLGraphics2D.bezierAbsolute( double x1 , double y1 , double x2 , double y2 , double x3 , double y3 , StringBuffer sb );1;0;8
+PCLGraphics2D.applyStroke( Stroke stroke );14;15;71
+PCLGraphics2D.drawString( AttributedCharacterIterator iterator , float x , float y );1;0;3
+PCLGraphics2D.plotAbsolute( double x , double y , StringBuffer sb );1;0;4
+PCLGraphics2D.fill( Shape s );2;0;13
+PCLGraphics2D.buildBufferedImage( Dimension size );1;0;4
+PCLGraphics2D.setClippingDisabled( boolean value );1;0;3
+PCLGraphics2D.PCLGraphics2D( PCLGraphics2D g );1;0;4
+PCLGraphics2D.dispose( );1;0;3
+PCLGraphics2D.penDown( StringBuffer sb );1;0;3
+PCLGraphics2D.drawImage( Image img , int x , int y , ImageObserver observer );1;0;4
+PCLGraphics2D.quadraticBezierAbsolute( double originX , double originY , double x1 , double y1 , double x2 , double y2 , StringBuffer sb );1;16;7
+PCLGraphics2D.handleUnsupportedFeature( String msg );2;0;5
+PCLGraphics2D.drawString( String s , float x , float y );1;0;7
+PCLGraphics2D.copyArea( int x , int y , int width , int height , int dx , int dy );1;0;3
+PCLGraphics2D.processPathIteratorStroke( PathIterator iter );11;4;65
+PCLGraphics2D.drawImage( Image img , int x , int y , int width , int height , ImageObserver observer );1;0;4
+PCLGraphics2D.getDeviceConfiguration( );1;0;4
+PCLGraphics2D.getFontMetrics( java . awt . Font f );1;0;3
+PCLGraphics2D.writeClip( Shape imclip );3;1;9
+PCLGraphics2D.penUp( StringBuffer sb );1;0;3
+PCLGraphics2D.fillPolygon( int windingRule , StringBuffer sb );2;1;4
+PCLGraphics2D.create( );1;0;5
+PCLGraphics2D.PCLGraphics2D( PCLGenerator gen );1;0;4
+PCLGraphics2D.draw( Shape s );3;1;16
+PCLGraphics2D.handleIOException( IOException ioe );1;0;3
+PCLGraphics2D.setGraphicContext( GraphicContext c );1;0;3
+PCLGraphics2D.applyPaint( Paint paint );2;0;9
+PCLGraphics2D.drawRenderedImage( RenderedImage img , AffineTransform xform );1;0;3
+PCLGraphics2D.setXORMode( Color c1 );1;0;3
+PCLGraphics2D.drawRenderableImage( RenderableImage img , AffineTransform xform );1;0;3
+PCLGraphics2D.processPathIteratorFill( PathIterator iter );11;4;63

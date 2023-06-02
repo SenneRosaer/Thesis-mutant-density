@@ -1,0 +1,77 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Parameters.setClasspath( File [ ] classpath );1;0;3
+Parameters.isNoVDoc( );1;0;3
+Parameters.isQuiet( );1;0;3
+Parameters.setIncrementalSrcGen( boolean incrSrcGen );1;0;3
+Parameters.isNoPvr( );1;0;3
+SchemaCompiler.printUsage( );1;0;28
+Parameters.getSchemaCodePrinter( );1;0;3
+Parameters.setNoExt( boolean newNoExt );1;0;3
+SchemaCompiler.wsdlContainsEncoded( XmlObject wsdldoc );3;2;11
+Parameters.getName( );1;0;3
+Parameters.setCompiler( String compiler );1;0;3
+Parameters.setMemoryInitialSize( String memoryInitialSize );1;0;3
+Parameters.setJavaSource( String javasource );1;0;3
+Parameters.setClassesDir( File classesDir );1;0;3
+Parameters.isNoExt( );1;0;3
+Parameters.setName( String name );1;0;3
+Parameters.getConfigFiles( );1;0;3
+Parameters.getJavaFiles( );1;0;3
+Parameters.setMemoryMaximumSize( String memoryMaximumSize );1;0;3
+Parameters.getOutputJar( );1;0;3
+SchemaCompiler.addSchema( String name , SchemaDocument schemadoc , XmlErrorWatcher errorListener , boolean noVDoc , List scontentlist );3;0;8
+Parameters.setVerbose( boolean verbose );1;0;3
+Parameters.getMemoryMaximumSize( );1;0;3
+Parameters.isNoAnn( );1;0;3
+Parameters.setDebug( boolean debug );1;0;3
+Parameters.getExtensions( );1;0;3
+SchemaCompiler.compile( Parameters params );31;35;123
+Parameters.getErrorListener( );1;0;3
+SchemaCompiler.addWsdlSchemas( String name , org . apache . xmlbeans . impl . xb . substwsdl . DefinitionsDocument wsdldoc , XmlErrorWatcher errorListener , boolean noVDoc , List scontentlist );8;7;29
+Parameters.setNoPvr( boolean noPvr );1;0;3
+Parameters.isNojavac( );1;0;3
+Parameters.getMdefNamespaces( );1;0;3
+SchemaCompiler.loadTypeSystem( String name , File [ ] xsdFiles , File [ ] wsdlFiles , URL [ ] urlFiles , File [ ] configFiles , File [ ] javaFiles , ResourceLoader cpResourceLoader , boolean download , boolean noUpa , boolean noPvr , boolean noAnn , boolean noVDoc , boolean noExt , Set mdefNamespaces , File baseDir , Map sourcesToCopyMap , Collection outerErrorListener , File schemasDir , EntityResolver entResolver , File [ ] classpath , String javasource );32;18;184
+Parameters.setJavaFiles( File [ ] javaFiles );1;0;3
+Parameters.getCatalogFile( );1;0;3
+Parameters.setNoVDoc( boolean newNoVDoc );1;0;3
+Parameters.setDownload( boolean download );1;0;3
+Parameters.getJavaSource( );1;0;3
+Parameters.isDownload( );1;0;3
+Parameters.getWsdlFiles( );1;0;3
+Parameters.isVerbose( );1;0;3
+Parameters.getClassesDir( );1;0;3
+Parameters.setBaseDir( File baseDir );1;0;3
+Parameters.setConfigFiles( File [ ] configFiles );1;0;3
+Parameters.setRepackage( String newRepackage );1;0;3
+Parameters.getMemoryInitialSize( );1;0;3
+Parameters.getBaseDir( );1;0;3
+Parameters.setQuiet( boolean quiet );1;0;3
+Parameters.getClasspath( );1;0;3
+SchemaCompiler.main( String [ ] args );42;56;243
+Parameters.getRepackage( );1;0;3
+Parameters.getJar( );1;0;3
+Parameters.getEntityResolver( );1;0;3
+Parameters.isDebug( );1;0;3
+Parameters.setNoUpa( boolean noUpa );1;0;3
+Parameters.getUrlFiles( );1;0;3
+Parameters.isNoUpa( );1;0;3
+Parameters.setWsdlFiles( File [ ] wsdlFiles );1;0;3
+Parameters.setMdefNamespaces( Set mdefNamespaces );1;0;3
+Parameters.getXsdFiles( );1;0;3
+Parameters.setEntityResolver( EntityResolver entityResolver );1;0;3
+Parameters.setExtensions( List extensions );1;0;3
+Parameters.getCompiler( );1;0;3
+Parameters.setNojavac( boolean nojavac );1;0;3
+Parameters.setXsdFiles( File [ ] xsdFiles );1;0;3
+Parameters.setOutputJar( File outputJar );1;0;3
+Parameters.setUrlFiles( URL [ ] urlFiles );1;0;3
+SchemaCompiler.runExtensions( List extensions , SchemaTypeSystem system , File classesDir );8;3;48
+Parameters.setCatalogFile( String catalogPropFile );1;0;3
+Parameters.setSchemaCodePrinter( SchemaCodePrinter schemaCodePrinter );1;0;3
+Parameters.setErrorListener( Collection errorListener );1;0;3
+Parameters.setNoAnn( boolean noAnn );1;0;3
+Parameters.setJar( String jar );1;0;2
+Parameters.getSrcDir( );1;0;3
+Parameters.isIncrementalSrcGen( );1;0;3
+Parameters.setSrcDir( File srcDir );1;0;3

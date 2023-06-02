@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLResponseWriter.writeURIAttribute( String name , Object value , String componentPropertyName );1;0;3
+XMLResponseWriter.write( int c );1;0;4
+XMLResponseWriter.write( String str , int off , int len );1;0;4
+XMLResponseWriter.writeComment( Object comment );2;0;9
+XMLResponseWriter.write( char cbuf );1;0;4
+XMLResponseWriter.writeText( char text );2;0;9
+XMLResponseWriter.write( String str );1;0;4
+XMLResponseWriter.startElement( String name , UIComponent component );1;0;5
+XMLResponseWriter.XMLResponseWriter( XMLConsumer xmlConsumer , String contentType , String encoding );2;1;7
+XMLResponseWriter.writeText( char text [ ] , int off , int len );2;0;8
+XMLResponseWriter.writeText( char text [ ] );2;0;8
+XMLResponseWriter.writeText( Object text , String componentPropertyName );2;0;9
+XMLResponseWriter.getCharacterEncoding( );1;0;3
+XMLResponseWriter.startDocument( );1;0;2
+XMLResponseWriter.write( char cbuf [ ] , int off , int len );1;0;4
+XMLResponseWriter.close( );1;0;3
+XMLResponseWriter.endElement( String name );2;0;8
+XMLResponseWriter.endDocument( );1;0;3
+XMLResponseWriter.writeAttribute( String name , Object value , String componentPropertyName );3;1;9
+XMLResponseWriter.flush( );1;0;3
+XMLResponseWriter.getContentType( );1;0;3
+XMLResponseWriter.cloneWithWriter( Writer writer );2;1;8
+XMLResponseWriter.closeStartIfNecessary( );3;0;11

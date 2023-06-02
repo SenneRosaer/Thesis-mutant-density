@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLAttributes.setAttribute( QName name , String type , XMLString value );1;1;3
+XMLAttributes.setType( int index , String type );1;0;2
+XMLAttributes.getEntityName( int attrIndex , int entityIndex );1;0;3
+XMLAttributes.clear( );1;0;2
+XMLAttributes.getEntityOffset( int attrIndex , int entityIndex );1;1;3
+XMLAttributes.removeAttribute( QName name );1;0;2
+XMLAttributes.getEntityLength( int attrIndex , int entityIndex );1;1;3
+XMLAttributes.getEntityCount( int attrIndex );1;1;3
+XMLAttributes.XMLAttributes( );1;0;2
+XMLAttributes.setNamespaces( boolean namespaces );1;0;2
+XMLAttributes.getLength( );1;1;3
+XMLAttributes.getValue( int index , XMLString value );1;0;2
+XMLAttributes.getType( int index );1;0;3
+XMLAttributes.getName( int index , QName name );1;0;2
+XMLAttributes.setValue( int index , String value );1;0;2
+XMLAttributes.addAttributeEntity( int index , String name , int offset , int length );1;0;2
+XMLAttributes.setName( int index , QName name );1;0;2
+XMLAttributes.setValue( int index , XMLString value );1;0;2

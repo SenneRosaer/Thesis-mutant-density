@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DijkstraAlgorithm.getPredecessor( Vertex vertex );1;0;3
+DijkstraAlgorithm.setShortestDistance( Vertex vertex , int distance );1;0;5
+DijkstraAlgorithm.reset( );1;0;6
+DijkstraAlgorithm.execute( Vertex start , Vertex destination );5;4;18
+DijkstraAlgorithm.getLowestPenalty( Vertex vertex );2;1;4
+DijkstraAlgorithm.getDestinations( Vertex origin );1;0;3
+DijkstraAlgorithm.DijkstraAlgorithm( EdgeDirectory edgeDirectory );1;0;3
+DijkstraAlgorithm.setPredecessor( Vertex a , Vertex b );1;0;3
+DijkstraAlgorithm.compare( Object left , Object right );3;3;11
+DijkstraAlgorithm.getPenalty( Vertex start , Vertex end );1;0;3
+DijkstraAlgorithm.relax( Vertex u );4;2;14
+DijkstraAlgorithm.isFinished( Vertex v );1;0;3

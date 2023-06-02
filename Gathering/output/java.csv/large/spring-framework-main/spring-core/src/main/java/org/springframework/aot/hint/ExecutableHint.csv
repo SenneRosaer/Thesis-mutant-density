@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExecutableHint.builtWith( ExecutableMode mode );1;0;3
+Builder.Builder( String name , List < TypeReference > parameterTypes );1;0;4
+ExecutableHint.ofConstructor( List < TypeReference > parameterTypes );1;0;3
+ExecutableHint.getMode( );1;0;3
+ExecutableHint.getParameterTypes( );1;0;3
+Builder.build( );1;0;3
+Builder.withMode( ExecutableMode mode );3;3;7
+ExecutableHint.ExecutableHint( Builder builder );2;1;5
+ExecutableHint.ofMethod( String name , List < TypeReference > parameterTypes );1;0;3

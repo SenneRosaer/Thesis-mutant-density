@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleLoginModule.doInit( CallbackHandler callbackHandler , Session session , Map options );1;0;3
+SimpleLoginModule.getPrincipal( Credentials credentials );3;2;9
+SimpleLoginModule.getAuthentication( Principal principal , Credentials creds );2;0;13
+SimpleLoginModule.authenticate( Credentials credentials );1;0;3
+SimpleLoginModule.canHandle( Credentials credentials );1;0;3
+SimpleLoginModule.impersonate( Principal principal , Credentials credentials );2;1;7

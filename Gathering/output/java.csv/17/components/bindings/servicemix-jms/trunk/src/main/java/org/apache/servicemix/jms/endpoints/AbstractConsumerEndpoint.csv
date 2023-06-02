@@ -1,0 +1,53 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractConsumerEndpoint.getDestinationResolver( );1;0;3
+AbstractConsumerEndpoint.getReplyDeliveryMode( );1;0;3
+AbstractConsumerEndpoint.getConnectionFactory( );1;0;3
+AbstractConsumerEndpoint.setSynchronous( boolean synchronous );1;0;3
+AbstractConsumerEndpoint.getReplyDestination( MessageExchange exchange , Object message , Session session , JmsContext context );7;4;23
+AbstractConsumerEndpoint.getDestinationChooser( );1;0;3
+AbstractConsumerEndpoint.setCorrelationId( Message query , Message reply );7;5;23
+AbstractConsumerEndpoint.activate( );6;6;16
+AbstractConsumerEndpoint.getLocationURI( );1;1;3
+AbstractConsumerEndpoint.getReplyDestinationName( );1;0;3
+AbstractConsumerEndpoint.setStateless( boolean stateless );1;0;3
+AbstractConsumerEndpoint.setReplyProperties( Map < String , Object > replyProperties );1;0;3
+AbstractConsumerEndpoint.setReplyPriority( int replyPriority );1;0;3
+AbstractConsumerEndpoint.isPubSubDomain( );1;0;3
+AbstractConsumerEndpoint.isReplyExplicitQosEnabled( );1;0;3
+AbstractConsumerEndpoint.isJms102( );1;0;3
+AbstractConsumerEndpoint.doInJms( Session session );2;0;8
+AbstractConsumerEndpoint.getReplyPriority( );1;0;3
+AbstractConsumerEndpoint.AbstractConsumerEndpoint( DefaultComponent component , ServiceEndpoint endpoint );1;0;3
+AbstractConsumerEndpoint.getReplyTimeToLive( );1;0;3
+AbstractConsumerEndpoint.setJms102( boolean jms102 );1;0;3
+AbstractConsumerEndpoint.getReplyDestination( );1;0;3
+AbstractConsumerEndpoint.onMessage( Message jmsMessage , Session session );10;3;43
+AbstractConsumerEndpoint.setMarshaler( JmsConsumerMarshaler marshaler );1;0;3
+AbstractConsumerEndpoint.setDestinationResolver( DestinationResolver destinationResolver );1;0;3
+AbstractConsumerEndpoint.setStoreFactory( StoreFactory storeFactory );1;0;3
+AbstractConsumerEndpoint.setReplyExplicitQosEnabled( boolean replyExplicitQosEnabled );1;0;3
+AbstractConsumerEndpoint.AbstractConsumerEndpoint( ServiceUnit serviceUnit , QName service , String endpoint );1;0;3
+AbstractConsumerEndpoint.getReplyProperties( );1;0;3
+AbstractConsumerEndpoint.setPubSubDomain( boolean pubSubDomain );1;0;3
+AbstractConsumerEndpoint.sendError( final MessageExchange exchange , final Exception error , Session session , final JmsContext context );3;1;19
+AbstractConsumerEndpoint.isStateless( );1;0;3
+AbstractConsumerEndpoint.setReplyTimeToLive( long replyTimeToLive );1;0;3
+AbstractConsumerEndpoint.setReplyDestination( Destination replyDestination );1;0;3
+AbstractConsumerEndpoint.AbstractConsumerEndpoint( );1;0;3
+AbstractConsumerEndpoint.setStore( Store store );1;0;3
+AbstractConsumerEndpoint.getMarshaler( );1;0;3
+AbstractConsumerEndpoint.getStore( );1;0;3
+AbstractConsumerEndpoint.setConnectionFactory( ConnectionFactory connectionFactory );1;0;3
+AbstractConsumerEndpoint.send( Message msg , Session session , Destination dest );10;1;42
+AbstractConsumerEndpoint.setReplyDeliveryMode( int replyDeliveryMode );1;0;3
+AbstractConsumerEndpoint.setUseMessageIdInResponse( Boolean useMessageIdInResponse );1;0;3
+AbstractConsumerEndpoint.deactivate( );3;2;9
+AbstractConsumerEndpoint.setDestinationChooser( DestinationChooser destinationChooser );1;0;3
+AbstractConsumerEndpoint.process( MessageExchange exchange );2;0;9
+AbstractConsumerEndpoint.processExchange( final MessageExchange exchange , final Session session , final JmsContext context );12;8;55
+AbstractConsumerEndpoint.getStoreFactory( );1;0;3
+AbstractConsumerEndpoint.isSynchronous( );1;0;3
+AbstractConsumerEndpoint.setReplyDestinationName( String replyDestinationName );1;0;3
+AbstractConsumerEndpoint.getUseMessageIdInResponse( );1;0;3
+AbstractConsumerEndpoint.treatExceptionAsFault( Exception error );1;0;3
+AbstractConsumerEndpoint.handleException( MessageExchange exchange , Exception error , Session session , JmsContext context );3;0;10

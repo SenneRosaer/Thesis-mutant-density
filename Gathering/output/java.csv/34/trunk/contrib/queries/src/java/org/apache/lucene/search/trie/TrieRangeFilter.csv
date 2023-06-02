@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TrieRangeFilter.splitRange( final IndexReader reader , final TermDocs termDocs , final OpenBitSet bits , final String min , final boolean lowerBoundOpen , final String max , final boolean upperBoundOpen );9;18;27
+TrieRangeFilter.getDocIdSet( IndexReader reader );1;0;15
+TrieRangeFilter.TrieRangeFilter( final String field , final Date min , final Date max );1;0;3
+TrieRangeFilter.toString( final String field );2;1;5
+TrieRangeFilter.hashCode( );1;6;3
+TrieRangeFilter.getLastNumberOfTerms( );2;1;4
+TrieRangeFilter.toString( );1;0;3
+TrieRangeFilter.TrieRangeFilter( final String field , final Date min , final Date max , final TrieUtils variant );3;2;10
+TrieRangeFilter.TrieRangeFilter( final String field , final Double min , final Double max , final TrieUtils variant );3;2;10
+TrieRangeFilter.TrieRangeFilter( final String field , final Double min , final Double max );1;0;3
+TrieRangeFilter.TrieRangeFilter( final String field , final String min , final String max , final TrieUtils variant );5;5;9
+TrieRangeFilter.stringToHexDigits( final String s );2;3;8
+TrieRangeFilter.TrieRangeFilter( final String field , final Long min , final Long max , final TrieUtils variant );3;2;10
+TrieRangeFilter.TrieRangeFilter( final String field , final String min , final String max );1;0;3
+TrieRangeFilter.TrieRangeFilter( final String field , final Long min , final Long max );1;0;3
+TrieRangeFilter.equals( final Object o );5;5;6
+TrieRangeFilter.setBits( final IndexReader reader , final TermDocs termDocs , final OpenBitSet bits , String lowerTerm , String upperTerm );8;14;28

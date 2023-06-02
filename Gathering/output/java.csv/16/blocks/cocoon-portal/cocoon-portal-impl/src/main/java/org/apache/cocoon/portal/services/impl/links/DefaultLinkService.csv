@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultLinkService.process( RequestProcessorAspectContext context );4;4;16
+DefaultLinkService.getLinkURI( Event event , Boolean secure );1;0;3
+DefaultLinkService.getRefreshLinkURI( );1;0;3
+DefaultLinkService.setDefaultPort( int defaultPort );1;0;3
+DefaultLinkService.isInternalParameterName( String name );3;0;10
+DefaultLinkService.isSecure( );1;0;4
+DefaultLinkService.setInternalParameters( List internalParams );4;1;14
+DefaultLinkService.getRefreshLinkURI( Boolean secure );3;2;11
+DefaultLinkService.setDefaultSecurePort( int defaultSecurePort );1;0;3
+DefaultLinkService.DefaultLinkService( );1;0;3
+DefaultLinkService.addParameter( StringBuffer buffer , String name , String value , boolean hasParams );3;0;12
+DefaultLinkService.addEvent( StringBuffer buffer , Event event , boolean hasParams );3;0;13
+DefaultLinkService.getLinkURI( List events );1;0;3
+DefaultLinkService.getInfo( );3;2;12
+DefaultLinkService.addParameterToLink( String name , String value );1;0;4
+DefaultLinkService.setRequestParameterName( String requestParameterName );1;0;3
+DefaultLinkService.addEventToLink( Event event );1;0;4
+DefaultLinkService.createUrl( List events , List parameterDescriptions , Boolean secure );8;6;35
+DefaultLinkService.addUniqueParameterToLink( String name , String value );1;0;5
+DefaultLinkService.getLinkURI( List events , Boolean secure );15;10;45
+DefaultLinkService.encodeURL( String url );1;0;4
+DefaultLinkService.getLinkURI( Event event );1;0;3

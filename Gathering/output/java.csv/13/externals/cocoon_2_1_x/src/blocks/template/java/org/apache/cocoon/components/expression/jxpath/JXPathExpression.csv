@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JXPathExpression.next( );1;0;3
+VariableAdapter.declareVariable( String name , Object value );1;0;3
+VariableAdapter.getVariable( String name );1;0;3
+JXPathExpression.getLanguage( );1;0;3
+JXPathExpression.getExpression( );1;0;3
+JXPathExpression.JXPathExpression( String language , String expression );1;0;5
+JXPathExpression.getNode( ExpressionContext context );6;1;27
+JXPathExpression.getContext( ExpressionContext context );1;0;7
+JXPathExpression.evaluate( ExpressionContext context );1;0;3
+VariableAdapter.isDeclaredVariable( String name );1;0;3
+JXPathExpression.iterate( ExpressionContext context );2;0;21
+VariableAdapter.VariableAdapter( ExpressionContext context );1;0;3
+JXPathExpression.remove( );1;0;3
+JXPathExpression.setProperty( String property , Object value );2;0;4
+VariableAdapter.undeclareVariable( String name );1;0;3
+JXPathExpression.assign( ExpressionContext context , Object value );1;0;3
+JXPathExpression.hasNext( );1;0;3

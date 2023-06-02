@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageFactory.getMessage( FacesContext context , String messageId , Object param0 , Object param1 );1;0;3
+MessageFactory.MessageFactory( );1;0;2
+MessageFactory.getMessage( FacesContext context , String messageId );1;0;3
+MessageFactory.getMessage( String messageId , Object params [ ] );4;4;13
+MessageFactory.getMessage( FacesContext context , String messageId , Object param0 );1;0;3
+MessageFactory.getMessage( FacesContext context , String messageId , Object param0 , Object param1 , Object param2 );1;0;4
+MessageFactory.getMessage( Locale locale , String messageId , Object params [ ] );11;8;45
+MessageFactory.substituteParams( Locale locale , String msgtext , Object params [ ] );4;4;14
+MessageFactory.getApplication( );1;0;3
+MessageFactory.getMessage( FacesContext context , String messageId , Object params [ ] );7;8;21
+MessageFactory.getCurrentLoader( Object fallbackClass );2;1;8
+MessageFactory.getMessage( FacesContext context , String messageId , Object param0 , Object param1 , Object param2 , Object param3 );1;0;4

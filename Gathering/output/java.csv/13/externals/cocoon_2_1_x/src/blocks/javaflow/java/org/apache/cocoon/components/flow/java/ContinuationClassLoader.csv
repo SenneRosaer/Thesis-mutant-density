@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ContinuationClassLoader.getParamTypes( ConstantPool cp , int index );1;0;6
+ContinuationClassLoader.transform( JavaClass javaclazz );3;2;21
+ContinuationClassLoader.getReturnType( ConstantPool cp , int index );1;0;6
+ContinuationClassLoader.getTypeSuffix( Type type );9;0;19
+ContinuationClassLoader.getObjectType( ConstantPool cp , int index );1;0;5
+ContinuationClassLoader.rewrite( MethodGen method , ControlFlowGraph cfg );18;23;104
+ContinuationClassLoader.loadClass( String name , boolean resolve );6;5;17
+ContinuationClassLoader.duplicateStack( MethodGen method , InvokeInstruction invoke , ObjectType objecttype );12;14;36
+ContinuationClassLoader.restoreFrame( MethodGen method , InstructionHandle handle , InstructionFactory insFactory , Frame frame , ObjectType objecttype );21;27;59
+ContinuationClassLoader.saveFrame( MethodGen method , InstructionHandle handle , int pc , InstructionFactory insFactory , Frame frame );19;23;61
+ContinuationClassLoader.ContinuationClassLoader( ClassLoader parent );1;0;4
+ContinuationClassLoader.rewriteable( MethodGen method , InstructionHandle handle );7;9;19
+ContinuationClassLoader.analyse( ClassGen clazz , MethodGen method , ControlFlowGraph cfg , InstConstraintVisitor icv , ExecutionVisitor ev );19;22;74
+ContinuationClassLoader.isValid( MethodGen m );5;3;10
+ContinuationClassLoader.getPopMethod( Type type );1;1;3
+ContinuationClassLoader.getPushMethod( Type type );1;1;3

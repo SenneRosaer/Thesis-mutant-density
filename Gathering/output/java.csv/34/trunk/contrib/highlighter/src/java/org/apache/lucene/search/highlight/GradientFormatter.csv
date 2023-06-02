@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GradientFormatter.getBackgroundColorString( float score );1;0;11
+GradientFormatter.hexToInt( String hex );4;6;15
+GradientFormatter.intToHex( int i );1;3;3
+GradientFormatter.getForegroundColorString( float score );1;0;11
+GradientFormatter.GradientFormatter( float maxScore , String minForegroundColor , String maxForegroundColor , String minBackgroundColor , String maxBackgroundColor );9;10;49
+GradientFormatter.highlightTerm( String originalText , TokenGroup tokenGroup );5;2;27
+GradientFormatter.getColorVal( int colorMin , int colorMax , float score );2;5;10

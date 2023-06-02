@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EnvironmentContext.stop( );2;0;5
+EnvironmentContext.shutDown( );1;0;5
+EnvironmentContext.getServiceMBean( );1;0;3
+EnvironmentContext.createWorkspaceDirectory( String componentName );1;0;6
+EnvironmentContext.createSharedLibraryDirectory( String name );1;0;5
+EnvironmentContext.getTmpDir( );2;1;6
+EnvironmentContext.createComponentRootDir( String componentName );2;1;6
+EnvironmentContext.getComponentRootDir( String componentName );2;1;6
+EnvironmentContext.start( );2;0;5
+EnvironmentContext.getJbiRootDir( );1;0;3
+EnvironmentContext.getComponentInstallationDir( String componentName );1;0;4
+EnvironmentContext.setDeploymentDir( File deploymentDir );1;0;3
+EnvironmentContext.getServiceAssembliesDir( );1;0;3
+EnvironmentContext.registerComponent( ComponentMBeanImpl connector );1;0;3
+EnvironmentContext.registerComponent( ComponentEnvironment result , ComponentMBeanImpl connector );8;5;31
+EnvironmentContext.getNewComponentInstallationDir( String componentName );1;0;4
+EnvironmentContext.removeComponentRootDirectory( String componentName );3;2;10
+EnvironmentContext.unreregister( ComponentMBeanImpl connector );1;0;3
+EnvironmentContext.getServiceAssemblyEnvironment( String saName );1;0;13
+EnvironmentContext.getNewServiceAssemblyEnvironment( String saName );1;0;13
+EnvironmentContext.setInstallationDir( File installationDir );1;0;3
+EnvironmentContext.getVersion( );2;1;8
+EnvironmentContext.getSharedLibDir( );1;0;3
+EnvironmentContext.getInstallationDir( );1;0;3
+EnvironmentContext.getDescription( );1;0;3
+EnvironmentContext.getComponentsDir( );1;0;3
+EnvironmentContext.getComponentEnvironment( String compName );1;0;12
+EnvironmentContext.init( JBIContainer container , String rootDirPath );1;0;5
+EnvironmentContext.getDeploymentDir( );1;0;3
+EnvironmentContext.removeSharedLibraryDirectory( String name );1;0;4
+EnvironmentContext.buildDirectoryStructure( );8;5;35
+EnvironmentContext.getNewComponentEnvironment( String compName );1;0;12

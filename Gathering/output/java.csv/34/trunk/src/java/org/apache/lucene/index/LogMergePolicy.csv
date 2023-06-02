@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LogMergePolicy.useCompoundDocStore( SegmentInfos infos );1;0;3
+LogMergePolicy.findMergesForOptimize( SegmentInfos infos , IndexWriter writer , int maxNumSegments , Set segmentsToOptimize );16;35;44
+LogMergePolicy.getMaxMergeDocs( );1;0;3
+LogMergePolicy.getUseCompoundDocStore( );1;0;3
+LogMergePolicy.isOptimized( IndexWriter writer , SegmentInfo info );4;7;6
+LogMergePolicy.setUseCompoundDocStore( boolean useCompoundDocStore );1;0;3
+LogMergePolicy.useCompoundFile( SegmentInfos infos , SegmentInfo info );1;0;3
+LogMergePolicy.getMergeFactor( );1;0;3
+LogMergePolicy.getUseCompoundFile( );1;0;3
+LogMergePolicy.message( String message );2;1;4
+LogMergePolicy.findMerges( SegmentInfos infos , IndexWriter writer );17;36;65
+LogMergePolicy.isOptimized( SegmentInfos infos , IndexWriter writer , int maxNumSegments , Set segmentsToOptimize );6;9;14
+LogMergePolicy.close( );1;0;1
+LogMergePolicy.setMergeFactor( int mergeFactor );2;1;5
+LogMergePolicy.findMergesToExpungeDeletes( SegmentInfos segmentInfos , IndexWriter writer );7;15;29
+LogMergePolicy.setUseCompoundFile( boolean useCompoundFile );1;0;3
+LogMergePolicy.setMaxMergeDocs( int maxMergeDocs );1;0;3

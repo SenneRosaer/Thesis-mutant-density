@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Highlighter.setMaxDocBytesToAnalyze( int byteCount );1;0;3
+Highlighter.getBestFragments( Analyzer analyzer , String text , int maxNumFragments );1;0;4
+FragmentQueue.lessThan( Object a , Object b );2;3;8
+Highlighter.getFragmentScorer( );1;0;3
+Highlighter.getEncoder( );1;0;3
+***not in a method***;0;1;0
+Highlighter.setEncoder( Encoder encoder );1;0;3
+Highlighter.getBestTextFragments( TokenStream tokenStream , String text , boolean mergeContiguousFragments , int maxNumFragments );19;20;102
+Highlighter.Highlighter( Scorer fragmentScorer );1;0;3
+Highlighter.setMaxDocCharsToAnalyze( int maxDocCharsToAnalyze );1;0;3
+Highlighter.getBestFragments( Analyzer analyzer , String fieldName , String text , int maxNumFragments );1;0;4
+Highlighter.getBestFragments( TokenStream tokenStream , String text , int maxNumFragments );4;5;13
+Highlighter.getBestFragment( TokenStream tokenStream , String text );2;1;8
+Highlighter.Highlighter( Formatter formatter , Scorer fragmentScorer );1;0;3
+Highlighter.getMaxDocCharsToAnalyze( );1;0;3
+Highlighter.mergeContiguousFragments( TextFragment [ ] frag );12;10;65
+Highlighter.getBestFragment( Analyzer analyzer , String fieldName , String text );1;0;4
+Highlighter.setFragmentScorer( Scorer scorer );1;0;3
+Highlighter.getTextFragmenter( );1;0;3
+Highlighter.setTextFragmenter( Fragmenter fragmenter );1;0;3
+Highlighter.getMaxDocBytesToAnalyze( );1;0;3
+Highlighter.Highlighter( Formatter formatter , Encoder encoder , Scorer fragmentScorer );1;0;5
+Highlighter.getBestFragments( TokenStream tokenStream , String text , int maxNumFragments , String separator );3;3;13
+FragmentQueue.FragmentQueue( int size );1;0;3

@@ -1,0 +1,67 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultJSONParser.parseExtra( Object object , String key );8;4;26
+DefaultJSONParser.throwException( int token );1;0;4
+DefaultJSONParser.acceptType( String typeName );4;2;15
+DefaultJSONParser.parseObject( Type type );1;0;3
+DefaultJSONParser.parseArray( Class < T > clazz );1;0;5
+DefaultJSONParser.DefaultJSONParser( final String input , final ParserConfig config , int features );1;0;3
+DefaultJSONParser.getExtraProcessors( );2;1;6
+DefaultJSONParser.setFieldTypeResolver( FieldTypeResolver fieldTypeResolver );1;0;3
+DefaultJSONParser.getExtraTypeProviders( );2;1;6
+DefaultJSONParser.DefaultJSONParser( final String input , final ParserConfig config );1;0;3
+DefaultJSONParser.close( );3;1;12
+DefaultJSONParser.getConfig( );1;0;3
+DefaultJSONParser.parseObject( final Map object , Object fieldName );127;129;400
+DefaultJSONParser.addResolveTask( ResolveTask task );2;1;6
+DefaultJSONParser.parseArray( Class < ? > clazz , @ SuppressWarnings ( "rawtypes" ) Collection array );1;0;3
+DefaultJSONParser.DefaultJSONParser( final Object input , final JSONLexer lexer , final ParserConfig config );3;2;16
+DefaultJSONParser.DefaultJSONParser( final JSONLexer lexer , final ParserConfig config );1;0;3
+DefaultJSONParser.setConfig( ParserConfig config );1;0;3
+DefaultJSONParser.parse( PropertyProcessable object , Object fieldName );28;29;116
+DefaultJSONParser.parseObject( final Map object );1;0;3
+DefaultJSONParser.DefaultJSONParser( final JSONLexer lexer );1;0;3
+DefaultJSONParser.setDateFormat( DateFormat dateFormat );1;0;3
+DefaultJSONParser.parseArrayWithType( Type collectionType );16;4;50
+DefaultJSONParser.parseArray( final Collection array , Object fieldName );26;10;103
+DefaultJSONParser.parseArray( final Collection array );1;0;3
+DefaultJSONParser.setContext( Object object , Object fieldName );2;0;6
+DefaultJSONParser.config( Feature feature , boolean state );1;0;3
+DefaultJSONParser.DefaultJSONParser( String input );1;0;3
+DefaultJSONParser.parse( Object fieldName );26;1;95
+DefaultJSONParser.popContext( );3;2;11
+DefaultJSONParser.getResolveTaskList( );2;1;6
+DefaultJSONParser.getInput( );2;0;6
+DefaultJSONParser.checkMapResolve( Map object , Object fieldName );2;1;9
+DefaultJSONParser.parseArray( Type [ ] types );30;31;96
+DefaultJSONParser.checkListResolve( Collection array );3;2;17
+DefaultJSONParser.accept( final int token , int nextExpectToken );2;1;8
+DefaultJSONParser.getContext( );1;0;3
+DefaultJSONParser.parseObject( Class < T > clazz );1;0;3
+ResolveTask.ResolveTask( ParseContext context , String referenceValue );1;0;4
+DefaultJSONParser.getLastResolveTask( );1;1;3
+DefaultJSONParser.isEnabled( Feature feature );1;0;3
+DefaultJSONParser.addContext( ParseContext context );3;5;12
+DefaultJSONParser.setContext( ParseContext parent , Object object , Object fieldName );2;0;8
+DefaultJSONParser.getObject( String path );3;2;8
+DefaultJSONParser.getDateFormat( );2;1;7
+DefaultJSONParser.getOwnerContext( );1;0;3
+DefaultJSONParser.handleResovleTask( Object value );19;19;53
+DefaultJSONParser.getLexer( );1;0;3
+DefaultJSONParser.parseArray( Type type , Collection array , Object fieldName );16;15;71
+DefaultJSONParser.parseKey( );2;1;8
+DefaultJSONParser.getDateFomartPattern( );1;0;3
+DefaultJSONParser.DefaultJSONParser( final char [ ] input , int length , final ParserConfig config , int features );1;0;3
+DefaultJSONParser.parse( );1;0;3
+DefaultJSONParser.setContext( ParseContext context );2;0;6
+DefaultJSONParser.parseObject( Type type , Object fieldName );10;8;34
+DefaultJSONParser.parseObject( Object object );20;15;67
+DefaultJSONParser.getResolveStatus( );1;0;3
+DefaultJSONParser.setDateFomrat( DateFormat dateFormat );1;0;3
+DefaultJSONParser.getFieldTypeResolver( );1;0;3
+DefaultJSONParser.parseArray( Type type , Collection array );1;0;3
+DefaultJSONParser.resolveReference( String ref );5;5;12
+DefaultJSONParser.setDateFormat( String dateFormat );1;0;4
+DefaultJSONParser.getSymbolTable( );1;0;3
+DefaultJSONParser.parseObject( );3;1;11
+DefaultJSONParser.accept( final int token );2;1;9
+DefaultJSONParser.setResolveStatus( int resolveStatus );1;0;3

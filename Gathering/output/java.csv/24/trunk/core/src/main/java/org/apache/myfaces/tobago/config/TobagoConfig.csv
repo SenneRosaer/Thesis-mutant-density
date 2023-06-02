@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TobagoConfig.setDefaultThemeName( String defaultThemeName );1;0;3
+TobagoConfig.checkThemeIsAvailable( String name , Theme theme );2;1;9
+TobagoConfig.getMappingRule( String requestUri );3;0;9
+TobagoConfig.resolveThemes( );10;5;41
+TobagoConfig.addSupportedThemeName( String name );1;0;3
+TobagoConfig.getMappingRules( );2;1;8
+TobagoConfig.addResourceDir( String resourceDir );3;1;8
+TobagoConfig.getRenderersConfig( );1;0;3
+TobagoConfig.addMappingRule( MappingRule mappingRule );3;1;9
+TobagoConfig.setAjaxEnabled( String value );1;0;3
+TobagoConfig.getResourceDirs( );1;0;3
+TobagoConfig.getTheme( String name );5;1;17
+TobagoConfig.getDefaultTheme( );1;0;3
+TobagoConfig.getInstance( FacesContext facesContext );1;0;4
+TobagoConfig.getSupportedThemes( );1;0;3
+TobagoConfig.setRenderersConfig( RenderersConfig renderersConfig );1;0;3
+TobagoConfig.setAvailableThemes( Map < String , Theme > availableTheme );1;0;3
+TobagoConfig.setLoadThemesFromClasspath( String loadThemesFromClasspath );1;0;4
+TobagoConfig.TobagoConfig( );1;0;6
+TobagoConfig.isAjaxEnabled( );1;0;3

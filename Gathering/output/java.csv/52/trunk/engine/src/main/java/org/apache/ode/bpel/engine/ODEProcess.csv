@@ -1,0 +1,80 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProcessCallable.call( );1;0;8
+ODEProcess.getSupportedInvocationStyle( QName serviceId );1;0;3
+ODEProcess.executeContinueInstancePartnerRoleResponseReceived( MessageExchangeDAO mexdao );2;1;14
+ODEProcess.onMyRoleMexAck( MessageExchangeDAO mexdao , Status old );8;7;32
+ODEProcess.dehydrate( );1;0;7
+ODEProcess.getProcessModel( );1;0;8
+ODEProcess.getServiceNames( );2;0;7
+HydrationLatch.doHydrate( );12;4;59
+HydrationLatch.call( );1;0;4
+ODEProcess.setStatefulEPRs( MessageExchangeDAO partnerRoleMex , MessageExchangeDAO myRoleMex );7;4;17
+ODEProcess.getBaseResourceURI( );1;0;3
+HydrationLatch.run( );1;0;3
+ODEProcess.enqueueRunnable( BpelInstanceWorker worker );2;0;4
+ProcessCallable.ProcessCallable( Callable < T > work );1;0;3
+ODEProcess.getProperties( );1;0;3
+ODEProcess.invokePartner( MessageExchangeDAO mexdao );8;9;33
+ODEProcess.createPartnerRoleMex( MessageExchangeDAO mexdao );1;0;10
+ODEProcess.execInstanceEvent( WorkEvent we );10;2;32
+ODEProcess.invokeProcess( final MessageExchangeDAO mexdao );15;15;74
+ODEProcess.createMessageExchange( String mexId , final char dir );2;0;7
+ODEProcess.recoverActivity( ProcessInstanceDAO instanceDAO , final String channel , final long activityId , final String action , final FaultInfo fault );3;0;23
+ODEProcess.getInitialPartnerRoleEndpoint( PartnerLinkModel link );2;1;11
+ODEProcess.scheduleRunnable( final Runnable runnable );2;0;4
+ODEProcess.getInitialPartnerRoleEPR( PartnerLinkModel link );2;1;11
+ODEProcess.ODEProcess( BpelServerImpl server , ProcessConf conf , BpelEventListener debugger , MyRoleMessageExchangeCache mexCache );2;1;14
+ODEProcess.loadMexDao( String mexId );2;0;4
+ODEProcess.createNewMyRoleMex( final InvocationStyle istyle , final QName targetService , final String operation );3;2;15
+ODEProcess.run( );1;0;4
+ODEProcess.getInMemMexDAO( String mexId );1;0;3
+ODEProcess.executeContinueInstanceResume( ProcessInstanceDAO instanceDao , int retryCount );1;0;8
+ODEProcess.setStatefulEPRs( MessageExchangeDAO partnerRoleMex );1;0;3
+ODEProcess.hintIsHydrated( );1;1;3
+ODEProcess.handleWorkEvent( final JobInfo jobInfo );2;1;14
+ODEProcess.doInstanceWork( Long instanceId , final Callable < T > callable );2;0;8
+ODEProcess.isInMemory( );1;0;3
+ODEProcess.getState( BpelInstanceWorker worker , ProcessInstanceDAO instanceDAO );6;3;23
+ODEProcess.getInitialMyRoleEPR( PartnerLinkModel link );2;1;10
+ODEProcess.genCorrelatorId( PartnerLinkModel plink , String opName );1;1;3
+ODEProcess.initExternalVariables( );1;0;5
+ODEProcess.lookupMyRoleMex( MessageExchangeDAO mexdao );1;0;3
+ODEProcess.executeContinueInstanceTimerReceived( ProcessInstanceDAO instanceDao , String timerChannel );2;0;7
+ODEProcess.executeCreateInstance( MessageExchangeDAO mexdao );1;0;8
+ODEProcess.executeContinueInstanceMyRoleRequestReceived( MessageExchangeDAO mexdao );1;1;12
+ODEProcess.getMyRoleForService( QName serviceName );3;0;8
+ODEProcess.enqueueTransaction( final Callable < T > tx );1;0;3
+ODEProcess.activate( Contexts contexts );4;1;24
+ODEProcess.getLastUsed( );1;0;3
+ODEProcess.newMyRoleMex( InvocationStyle istyle , String mexId , QName target , PartnerLinkModel mplink , Operation operation );4;0;18
+ODEProcess.buildRuntime( int modelVersion );2;0;11
+ODEProcess.saveEvent( ProcessInstanceEvent event , ProcessInstanceDAO instanceDao );1;0;3
+ODEProcess.getPartnerRoleChannel( PartnerLinkModel partnerLink );2;1;11
+ODEProcess.enqueueInstanceTransaction( Long instanceId , final Runnable runnable );2;1;6
+ProcessRunnable.run( );1;0;8
+ODEProcess.saveEvent( ProcessInstanceEvent event , ProcessInstanceDAO instanceDao , List < String > scopeNames );3;1;10
+ODEProcess.recreateMyRoleMex( MessageExchangeDAO mexdao );4;3;33
+ODEProcess.invokeP2P( ODEProcess target , QName serviceName , Operation operation , MessageExchangeDAO partnerRoleMex );3;0;25
+ODEProcess.getPID( );1;0;3
+ODEProcess.getProcessType( );1;0;3
+ODEProcess.setRoles( ProcessModel oprocess );11;5;44
+ODEProcess.deactivate( );4;1;14
+ODEProcess.getEVM( );1;0;3
+ODEProcess.isShareable( Endpoint endpoint );2;1;4
+ODEProcess.scheduleInvokeCheck( MessageExchangeDAO mex );4;5;14
+ODEProcess.bounceProcessDAO( BpelDAOConnection conn , final QName pid , final long version , final ProcessModel mprocess );8;2;32
+ODEProcess.getProcessDAO( );2;0;3
+ODEProcess.markused( );1;0;3
+ODEProcess.scheduleWorkEvent( WorkEvent we , Date timeToFire );1;0;3
+ODEProcess.releaseMessageExchange( String mexId );2;0;5
+ODEProcess.hydrate( );1;0;7
+HydrationLatch.doDehydrate( );1;0;6
+ODEProcess.getPartnerLinkForService( QName serviceName );3;0;8
+ODEProcess.call( );1;0;4
+ProcessRunnable.ProcessRunnable( Runnable work );1;0;3
+ODEProcess.deserializeCompiledProcess( InputStream is );1;0;6
+ODEProcess.processInterceptors( MessageExchangeDAO mexdao , InterceptorInvoker invoker );5;0;16
+ODEProcess.p2pWakeup( final MessageExchangeDAO prolemex );2;0;12
+HydrationLatch.HydrationLatch( );1;0;13
+ODEProcess.executeContinueInstanceMatcherEvent( ProcessInstanceDAO instanceDao , String correlatorId , CorrelationKey correlationKey );5;2;28
+ODEProcess.toString( );1;0;3

@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MenuBarRenderer.addMenuItem( StringBuilder sb , String var , FacesContext facesContext , UICommand command , LabelWithAccessKey label , String image , String onClick );10;7;54
+MenuBarRenderer.getRendersChildren( );1;0;3
+MenuBarRenderer.addSelectOne( StringBuilder sb , String var , FacesContext facesContext , UICommand command , String onclick );8;9;43
+MenuBarRenderer.createMenuEntry( FacesContext facesContext , UIPanel uiPanel );1;0;10
+MenuBarRenderer.addMenu( StringBuilder sb , String var , FacesContext facesContext , UIPanel menu , int i );2;3;10
+MenuBarRenderer.addMenuSeparator( StringBuilder sb , String var );1;0;15
+MenuBarRenderer.encodeEnd( FacesContext facesContext , UIComponent component );4;1;29
+MenuBarRenderer.addImage( TobagoResponseWriter writer , FacesContext facesContext , String image , boolean disabled );4;2;19
+MenuBarRenderer.addSelectBoolean( StringBuilder sb , String var , FacesContext facesContext , UICommand command , String onClick );4;1;15
+MenuBarRenderer.addCommand( StringBuilder sb , String var , FacesContext facesContext , UICommand command , String onClick );1;0;4
+MenuBarRenderer.createJavascriptFunction( FacesContext facesContext , UIComponent component , String setupFunction );2;0;37
+MenuBarRenderer.addMenuEntrys( StringBuilder sb , String var , FacesContext facesContext , UIComponent component , boolean warn );1;0;3
+MenuBarRenderer.prepareForScript( String s );1;0;3
+MenuBarRenderer.writeMenuEntry( FacesContext facesContext , TobagoResponseWriter writer , UIPanel uiPanel );11;9;38
+MenuBarRenderer.addMenuEntrys( StringBuilder sb , String var , FacesContext facesContext , UIComponent component , boolean warn , int index );7;0;18
+MenuBarRenderer.renderTopLevelItems( FacesContext facesContext , TobagoResponseWriter writer , UIComponent component );3;0;12
+MenuBarRenderer.addMenuItem( StringBuilder sb , String var , FacesContext facesContext , UICommand command , String image , String onclick );1;0;4
+MenuBarRenderer.encodeChildren( FacesContext facesContext , UIComponent component );1;0;2
+MenuBarRenderer.addAcceleratorKey( FacesContext facesContext , UIComponent component , Character accessKey );4;4;15
+MenuBarRenderer.createSetupFunction( String clientId );1;0;3
+MenuBarRenderer.addMenuEntry( StringBuilder sb , String var , FacesContext facesContext , UICommand command );7;1;20
+MenuBarRenderer.prepareRender( FacesContext facesContext , UIComponent component );4;4;20
+MenuBarRenderer.addScriptsAndStyles( FacesContext facesContext , UIComponent component , final String clientId );3;2;17

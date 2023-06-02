@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MethodAttributeBundle.getReturnAttributes( );1;0;3
+MethodAttributeBundle.setReturnAttributes( Collection returnAttributes );1;0;3
+MethodAttributeBundle.getAttributes( );1;0;3
+DefaultCachedRepository.getAttributes( );1;0;3
+MethodAttributeBundle.getParameterAttributes( int index );3;3;6
+DefaultCachedRepository.getAttributes( Constructor c );2;0;7
+DefaultCachedRepository.getParameterAttributes( Method m , int parameter );2;0;7
+DefaultCachedRepository.getInheritableClassAttributes( Class c );3;3;13
+DefaultCachedRepository.getInheritableAttributes( Collection attrs );3;0;11
+DefaultCachedRepository.getAttributes( Method m );2;0;7
+DefaultCachedRepository.getInheritableMethodAttributes( Class c , String methodName , Class [ ] methodParams );5;5;19
+DefaultCachedRepository.getParameterAttributes( Constructor c , int parameter );2;0;7
+DefaultCachedRepository.getInheritableReturnAttributes( Class c , String methodName , Class [ ] methodParams );5;5;19
+DefaultCachedRepository.getReturnAttributes( Method m );2;0;7
+MethodAttributeBundle.addParameterAttributes( Collection parameterAttributes );1;0;3
+DefaultCachedRepository.getInheritableMethodParameterAttributes( Class c , String methodName , Class [ ] methodParams , int parameter );5;5;19
+DefaultCachedRepository.DefaultCachedRepository( Class clazz , AttributeRepositoryClass repo );18;25;79
+DefaultCachedRepository.getAttributes( Field f );2;0;7
+MethodAttributeBundle.setAttributes( Collection attributes );1;0;3
+MethodAttributeBundle.MethodAttributeBundle( String methodName );1;0;3

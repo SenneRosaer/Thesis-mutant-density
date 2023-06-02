@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+I18nTransformer.configure( Configuration conf );16;14;91
+I18nTransformer.endDate_TimeElement( );4;0;16
+I18nTransformer.getMessage( String catalogueID , String key );7;3;27
+I18nTransformer.service( ServiceManager manager );2;0;9
+I18nTransformer.startElement( String uri , String name , String raw , Attributes attr );11;10;25
+I18nTransformer.translateAttribute( String element , String name , String key );3;4;15
+I18nTransformer.formatNumber( Map params );30;35;113
+I18nTransformer.getLocale( Map params , String attribute );1;0;4
+I18nTransformer.getLocale( );1;0;3
+I18nTransformer.endNumberElement( );4;0;15
+I18nTransformer.getKey( );3;2;15
+I18nTransformer.addToken( int type , String value );6;6;16
+CatalogueInfo.CatalogueInfo( String name , String [ ] locations );2;2;7
+I18nTransformer.getValidity( );1;0;3
+I18nTransformer.endElement( String uri , String name , String raw );10;12;19
+I18nTransformer.endParamElement( );12;5;35
+CatalogueInfo.getName( );3;1;9
+I18nTransformer.formatDate_Time( Map params );15;10;83
+I18nTransformer.endI18NElement( String name );12;0;31
+I18nTransformer.startI18NElement( String name , Attributes attr );49;52;163
+CatalogueInfo.releaseCatalog( );2;1;8
+I18nTransformer.translateAttributes( final String element , Attributes attr );17;13;74
+I18nTransformer.i18nCharacters( String textValue );17;5;49
+I18nTransformer.endTextElement( );14;9;46
+I18nTransformer.recycle( );2;0;11
+I18nTransformer.getMessage( String key , ParamSaxBuffer defaultValue );2;1;7
+CatalogueInfo.getCatalogue( );3;1;13
+I18nTransformer.setup( SourceResolver resolver , Map objectModel , String source , Parameters parameters );6;3;43
+I18nTransformer.dispose( );2;1;8
+CatalogueInfo.getLocation( );3;1;9
+I18nTransformer.endChooseElement( );1;0;3
+I18nTransformer.endTranslateElement( );3;1;14
+CatalogueInfo.resolve( );4;4;11
+I18nTransformer.endWhenElement( );2;0;7
+I18nTransformer.setFormattingParams( Attributes attr );9;8;35
+I18nTransformer.characters( char [ ] ch , int start , int len );6;7;12

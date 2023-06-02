@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CodecConfigurerTests.assertDecoderInstance( Decoder < ? > decoder );2;1;8
+CodecConfigurerTests.cloneEmptyCustomCodecs( );1;0;14
+TestCodecConfigurer.clone( );1;0;3
+CodecConfigurerTests.encoderDecoderOverrides( );1;0;26
+TestCodecConfigurer.TestCodecConfigurer( TestCodecConfigurer other );1;0;3
+CodecConfigurerTests.withDefaultCodecConfig( );1;0;10
+CodecConfigurerTests.defaultsOffWithCustomWriters( );6;0;21
+CodecConfigurerTests.defaultAndCustomWriters( );6;0;38
+CodecConfigurerTests.assertStringDecoder( Decoder < ? > decoder , boolean textOnly );1;1;6
+CodecConfigurerTests.assertStringEncoder( Encoder < ? > encoder , boolean textOnly );1;1;6
+TestCodecConfigurer.cloneDefaultCodecs( );1;0;3
+CodecConfigurerTests.cloneDefaultCodecs( );7;0;35
+CodecConfigurerTests.defaultReaders( );2;0;23
+CodecConfigurerTests.assertEncoderInstance( Encoder < ? > encoder );2;1;8
+TestCodecConfigurer.TestCodecConfigurer( );1;0;3
+CodecConfigurerTests.defaultWriters( );2;0;22
+CodecConfigurerTests.cloneCustomCodecs( );1;0;16
+CodecConfigurerTests.defaultAndCustomReaders( );6;0;39
+CodecConfigurerTests.getNextEncoder( List < HttpMessageWriter < ? > > writers );3;0;5
+CodecConfigurerTests.defaultsOffCustomReaders( );6;0;21
+CodecConfigurerTests.getNextDecoder( List < HttpMessageReader < ? > > readers );3;0;5

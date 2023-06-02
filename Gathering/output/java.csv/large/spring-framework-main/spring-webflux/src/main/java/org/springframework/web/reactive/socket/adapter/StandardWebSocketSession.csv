@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandardWebSocketSession.sendMessage( WebSocketMessage message );5;0;22
+StandardWebSocketSession.canSuspendReceiving( );1;0;3
+StandardWebSocketSession.isOpen( );1;0;3
+StandardWebSocketSession.resumeReceiving( );1;0;2
+StandardWebSocketSession.suspendReceiving( );1;0;2
+StandardWebSocketSession.close( CloseStatus status );2;0;10
+StandardWebSocketSession.StandardWebSocketSession( Session session , HandshakeInfo info , DataBufferFactory factory );1;0;3
+StandardWebSocketSession.StandardWebSocketSession( Session session , HandshakeInfo info , DataBufferFactory factory , @ Nullable Sinks . Empty < Void > completionSink );1;0;3
+SendProcessorCallback.onResult( SendResult result );2;0;10

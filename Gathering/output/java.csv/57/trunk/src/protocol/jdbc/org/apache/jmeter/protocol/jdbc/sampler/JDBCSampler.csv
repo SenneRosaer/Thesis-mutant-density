@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JDBCSampler.close( Connection c );3;1;9
+JDBCSampler.getPreparedStatement( Connection conn );1;0;3
+JDBCSampler.getJdbcType( String jdbcType );3;1;11
+JDBCSampler.sample( Entry e );13;1;97
+***not in a method***;0;2;0
+JDBCSampler.setQuery( String query );1;0;3
+JDBCSampler.close( Statement s );3;1;9
+JDBCSampler.getQueryArguments( );1;0;3
+JDBCSampler.setDataSource( String dataSource );1;0;3
+JDBCSampler.close( ResultSet rs );3;1;9
+JDBCSampler.getVariableNames( );1;0;3
+JDBCSampler.getQuery( );1;0;3
+JDBCSampler.getQueryType( );1;0;3
+JDBCSampler.toString( );1;0;12
+JDBCSampler.closeAllStatements( Collection collection );2;0;7
+JDBCSampler.JDBCSampler( );1;0;2
+JDBCSampler.getDataSource( );1;0;3
+JDBCSampler.removeEldestEntry( java . util . Map . Entry arg0 );3;2;10
+JDBCSampler.resultSetsToString( PreparedStatement pstmt , boolean result , int [ ] out );10;12;41
+JDBCSampler.setArguments( PreparedStatement pstmt );10;11;41
+JDBCSampler.getCallableStatement( Connection conn );1;0;3
+JDBCSampler.getQueryArgumentsTypes( );1;0;3
+JDBCSampler.setQueryArguments( String queryArguments );1;0;3
+JDBCSampler.setQueryType( String queryType );1;0;3
+JDBCSampler.setQueryArgumentsTypes( String queryArgumentsType );1;0;3
+JDBCSampler.getDataFromResultSet( ResultSet rs );15;26;48
+JDBCSampler.setVariableNames( String variableNames );1;0;3
+JDBCSampler.getPreparedStatement( Connection conn , boolean callable );6;2;31

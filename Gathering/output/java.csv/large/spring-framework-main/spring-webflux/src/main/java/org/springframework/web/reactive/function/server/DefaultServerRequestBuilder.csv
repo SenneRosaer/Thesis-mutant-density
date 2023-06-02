@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BuiltServerHttpRequest.getMethod( );1;0;3
+BuiltServerHttpRequest.getId( );1;0;3
+DelegatingServerWebExchange.getSession( );1;0;3
+DefaultServerRequestBuilder.attribute( String name , Object value );1;0;4
+DefaultServerRequestBuilder.cookie( String name , String ... values );2;0;6
+DelegatingServerWebExchange.getMultipartData( );1;0;3
+DelegatingServerWebExchange.initFormData( ServerHttpRequest request , List < HttpMessageReader < ? > > readers );3;0;17
+BuiltServerHttpRequest.getBody( );1;0;3
+DefaultServerRequestBuilder.build( );1;0;7
+DelegatingServerWebExchange.isNotModified( );1;0;3
+DelegatingServerWebExchange.addUrlTransformer( Function < String , String > transformer );1;0;3
+DefaultServerRequestBuilder.header( String headerName , String ... headerValues );2;0;6
+DelegatingServerWebExchange.getRequest( );1;0;3
+DefaultServerRequestBuilder.cookies( Consumer < MultiValueMap < String , HttpCookie > > cookiesConsumer );1;0;4
+DelegatingServerWebExchange.DelegatingServerWebExchange( ServerHttpRequest request , Map < String , Object > attributes , ServerWebExchange delegate , List < HttpMessageReader < ? > > messageReaders );1;0;7
+DefaultServerRequestBuilder.releaseBody( );1;0;3
+BuiltServerHttpRequest.getQueryParams( );1;0;3
+DefaultServerRequestBuilder.body( Flux < DataBuffer > body );1;0;6
+DelegatingServerWebExchange.getApplicationContext( );1;0;3
+BuiltServerHttpRequest.getURI( );1;0;3
+DelegatingServerWebExchange.getLogPrefix( );1;0;3
+DelegatingServerWebExchange.getPrincipal( );1;0;3
+DelegatingServerWebExchange.transformUrl( String url );1;0;3
+DefaultServerRequestBuilder.method( HttpMethod method );1;0;5
+DelegatingServerWebExchange.getFormData( );1;0;3
+BuiltServerHttpRequest.getCookies( );1;0;3
+DefaultServerRequestBuilder.DefaultServerRequestBuilder( ServerRequest other );1;0;11
+DefaultServerRequestBuilder.attributes( Consumer < Map < String , Object > > attributesConsumer );1;0;4
+DefaultServerRequestBuilder.contextPath( @ Nullable String contextPath );1;0;4
+DelegatingServerWebExchange.getAttributes( );1;0;3
+BuiltServerHttpRequest.getHeaders( );1;0;3
+DefaultServerRequestBuilder.body( String body );1;0;10
+DelegatingServerWebExchange.initMultipartData( ServerHttpRequest request , List < HttpMessageReader < ? > > readers );3;0;17
+BuiltServerHttpRequest.unmodifiableCopy( MultiValueMap < K , V > original );1;0;3
+DefaultServerRequestBuilder.uri( URI uri );1;0;5
+DelegatingServerWebExchange.checkNotModified( String etag );1;0;3
+BuiltServerHttpRequest.getPath( );1;0;3
+DelegatingServerWebExchange.getLocaleContext( );1;0;3
+DelegatingServerWebExchange.getResponse( );1;0;3
+BuiltServerHttpRequest.parseQueryParams( URI uri );5;2;20
+DefaultServerRequestBuilder.headers( Consumer < HttpHeaders > headersConsumer );1;0;4
+DelegatingServerWebExchange.checkNotModified( Instant lastModified );1;0;3
+DelegatingServerWebExchange.checkNotModified( @ Nullable String etag , Instant lastModified );1;0;3
+BuiltServerHttpRequest.BuiltServerHttpRequest( String id , HttpMethod method , URI uri , @ Nullable String contextPath , HttpHeaders headers , MultiValueMap < String , HttpCookie > cookies , Flux < DataBuffer > body );1;0;10

@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LookupCommand.getNameKey( );1;0;3
+LookupCommand.getCatalogFactory( );1;0;3
+LookupCommand.getCatalog( Context context );5;4;23
+LookupCommand.setIgnoreExecuteResult( boolean ignoreReturn );1;0;3
+LookupCommand.isOptional( );1;0;3
+LookupCommand.isIgnoreExecuteResult( );1;0;3
+LookupCommand.setOptional( boolean optional );1;0;3
+LookupCommand.setCatalogName( String catalogName );1;0;3
+LookupCommand.setName( String name );1;0;3
+LookupCommand.execute( Context context );3;1;12
+LookupCommand.getCommand( Context context );5;5;22
+LookupCommand.postprocess( Context context , Exception exception );4;1;13
+LookupCommand.getCommandName( Context context );2;1;7
+LookupCommand.setIgnorePostprocessResult( boolean ignorePostprocessResult );1;0;3
+LookupCommand.getCatalogName( );1;0;3
+LookupCommand.isIgnorePostprocessResult( );1;0;3
+LookupCommand.LookupCommand( );1;0;3
+LookupCommand.setCatalogFactory( CatalogFactory catalogFactory );1;0;3
+LookupCommand.getName( );1;0;3
+LookupCommand.LookupCommand( CatalogFactory factory );1;0;3
+LookupCommand.setNameKey( String nameKey );1;0;3

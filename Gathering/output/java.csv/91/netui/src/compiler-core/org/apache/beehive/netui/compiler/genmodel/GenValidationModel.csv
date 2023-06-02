@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GenValidationModel.getOutputFileURI( );1;0;3
+GenValidationModel.getFieldRule( String entityName , String propertyName , AnnotationInstance ruleAnnotation );3;3;12
+GenValidationModel.writeToFile( );1;0;13
+GenValidationModel.getHeaderComment( File mergeFile );1;0;3
+GenValidationModel.getFormBeanNames( TypeDeclaration beanType );2;0;10
+GenValidationModel.addFieldRules( AnnotationInstance rulesContainerAnnotation , RuleInfo ruleInfo , boolean applyToAllLocales );12;8;39
+GenValidationModel.addFieldRuleFromAnnotation( RuleInfo ruleInfo , AnnotationInstance annotation , Locale locale , boolean applyToAllLocales );3;1;14
+GenValidationModel.addRulesFromActionAnnotation( AnnotationInstance actionAnnotation , String actionName );2;3;13
+GenValidationModel.addRulesFromAnnotation( AnnotationInstance validationFieldAnn , String entityName , String propertyName );2;0;13
+GenValidationModel.addRulesFromActions( ClassDeclaration jclass , MergedControllerAnnotation mca );7;7;31
+GenValidationModel.addRulesFromBeans( ClassDeclaration jclass );5;2;13
+GenValidationModel.GenValidationModel( ClassDeclaration jclass , GenStrutsApp strutsApp , CoreAnnotationProcessorEnv env );1;0;11
+GenValidationModel.addRulesFromBeanClass( ClassDeclaration beanClass );10;7;39
+GenValidationModel.addRulesFromClass( MergedControllerAnnotation mca );4;3;24
+GenValidationModel.addMessageArgs( ValidatorRule rule , AnnotationInstance annotation );6;5;29

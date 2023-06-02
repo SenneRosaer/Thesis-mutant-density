@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QualityStats.getPrecisionAt( int n );4;6;9
+QualityStats.format( String s , int minLen );2;2;5
+QualityStats.getRecallPoints( );1;0;3
+RecallPoint.getRecall( );1;0;3
+RecallPoint.getRank( );1;0;3
+QualityStats.getMRR( );1;0;3
+QualityStats.getMaxGoodPoints( );1;0;3
+QualityStats.QualityStats( double maxGoodPoints , long searchTime );1;1;6
+QualityStats.average( QualityStats [ ] stats );6;29;37
+QualityStats.log( String title , int paddLines , PrintWriter logger , String prefix );8;32;37
+QualityStats.getSearchTime( );1;0;3
+QualityStats.getNumGoodPoints( );1;0;3
+QualityStats.getAvp( );2;2;3
+QualityStats.getRecall( );1;0;3
+QualityStats.getNumPoints( );1;0;3
+QualityStats.getDocNamesExtractTime( );1;0;3
+RecallPoint.RecallPoint( int rank , double recall );1;0;4
+QualityStats.addResult( int n , boolean isRelevant , long docNameExtractTime );8;14;22
+QualityStats.fracFormat( String frac );1;3;7

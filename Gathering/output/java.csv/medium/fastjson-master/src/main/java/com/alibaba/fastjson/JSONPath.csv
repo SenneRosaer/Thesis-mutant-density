@@ -1,0 +1,153 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JSONPath.JSONPath( String path , SerializeConfig serializeConfig , ParserConfig parserConfig , boolean ignoreNullValue );3;3;9
+IntBetweenSegement.apply( JSONPath path , Object rootObject , Object currentObject , Object item );5;5;13
+JSONPath.eq( Object a , Object b );7;5;18
+JSONPath.keySet( Object rootObject , String path );1;0;5
+IntObjInSegement.IntObjInSegement( String propertyName , boolean function , Long [ ] values , boolean not );1;0;5
+FilterSegment.extract( JSONPath path , DefaultJSONParser parser , Context context );1;0;4
+MatchSegement.MatchSegement( String propertyName , boolean function , String startsWithValue , String endsWithValue , String [ ] containsValues , boolean not );5;6;20
+ArrayAccessSegment.eval( JSONPath path , Object rootObject , Object currentObject );1;0;3
+SizeSegment.eval( JSONPath path , Object rootObject , Object currentObject );1;0;3
+JSONPath.reserveToArray( Object object , String ... paths );4;3;13
+JSONPathParser.buildArraySegement( String indexText );23;38;76
+PropertySegment.extract( JSONPath path , DefaultJSONParser parser , Context context );48;19;165
+RegMatchSegement.RegMatchSegement( String propertyName , boolean function , Pattern pattern , Operator op );1;0;5
+JSONPathParser.filterRest( Filter filter );9;12;21
+JSONPathParser.readLongValue( );5;8;13
+FilterSegment.eval( JSONPath path , Object rootObject , Object currentObject );6;1;20
+MultiIndexSegment.extract( JSONPath path , DefaultJSONParser parser , Context context );6;5;21
+JSONPath.eval( Object rootObject , String path );1;0;4
+ValueSegment.apply( JSONPath path , Object rootObject , Object currentObject , Object item );2;2;8
+JSONPath.size( Object rootObject , String path );1;0;5
+JSONPath.evalKeySet( Object currentObject );8;4;21
+JSONPath.getPropertyValue( Object currentObject , String propertyName , long propertyNameHash );41;37;124
+JSONPath.arrayAdd( Object rootObject , String path , Object ... values );1;0;4
+JSONPath.getJavaBeanDeserializer( final Class < ? > currentClass );2;0;10
+JSONPathParser.skipWhitespace( );9;13;10
+JSONPath.contains( Object rootObject );6;6;18
+MultiPropertySegment.MultiPropertySegment( String [ ] propertyNames );2;2;7
+RangeSegment.extract( JSONPath path , DefaultJSONParser parser , Context context );1;0;3
+FilterSegment.remove( JSONPath path , Object rootObject , Object currentObject );5;1;16
+PropertyFilter.PropertyFilter( String propertyName , boolean function );4;2;14
+IntObjInSegement.apply( JSONPath path , Object rootObject , Object currentObject , Object item );8;6;23
+JSONPath.compile( String path );4;3;14
+IntInSegement.apply( JSONPath path , Object rootObject , Object currentObject , Object item );5;3;15
+JSONPath.toJSONString( );1;0;3
+JSONPath.eval( Object rootObject , String path , boolean ignoreNullValue );1;0;4
+PropertySegment.setValue( JSONPath path , Object parent , Object value );2;0;7
+JSONPath.JSONPath( String path );1;0;3
+JSONPath.isRef( );5;5;17
+JSONPath.patchAdd( Object rootObject , Object value , boolean replace );15;14;54
+JSONPathParser.isDigitFirst( char ch );4;7;3
+MultiIndexSegment.MultiIndexSegment( int [ ] indexes );1;0;3
+JSONPath.eval( Object rootObject , Type clazz , ParserConfig parserConfig );1;0;4
+NotNullSegement.apply( JSONPath path , Object rootObject , Object currentObject , Object item );1;1;3
+JSONPathParser.JSONPathParser( String path );1;0;4
+ValueSegment.ValueSegment( String propertyName , boolean function , Object value , boolean eq );2;1;8
+NotNullSegement.NotNullSegement( String propertyName , boolean function );1;0;3
+JSONPathParser.getNextChar( );1;0;3
+ArrayAccessSegment.remove( JSONPath path , Object currentObject );1;0;3
+MinSegment.eval( JSONPath path , Object rootObject , Object currentObject );6;3;20
+JSONPath.paths( Object javaObject , SerializeConfig config );1;0;6
+JSONPath.containsValue( Object rootObject , Object value );6;2;20
+SizeSegment.extract( JSONPath path , DefaultJSONParser parser , Context context );1;0;4
+JSONPath.paths( Object javaObject );1;0;3
+JSONPath.extract( String json , String path );1;0;3
+JSONPath.isInt( Class < ? > clazzA );4;7;3
+JSONPath.extract( String json , String path , ParserConfig config , int features , Feature ... optionFeatures );1;1;8
+MultiPropertySegment.extract( JSONPath path , DefaultJSONParser parser , Context context );9;5;42
+FloorSegment.eval( JSONPath path , Object rootObject , Object currentObject );4;3;14
+JSONPath.init( );3;1;12
+RangeSegment.RangeSegment( int start , int end , int step );1;0;5
+Context.Context( Context parent , boolean eval );1;0;4
+JSONPathParser.parseArrayAccessFilter( boolean acceptBracket );189;208;554
+MatchSegement.apply( JSONPath path , Object rootObject , Object currentObject , Object item );10;12;32
+JSONPath.extract( DefaultJSONParser parser );24;23;60
+JSONPath.deepScan( final Object currentObject , final String propertyName , List < Object > results );24;7;68
+TypeSegment.eval( JSONPath path , Object rootObject , Object currentObject );8;3;20
+StringInSegement.apply( JSONPath path , Object rootObject , Object currentObject , Object item );5;5;11
+JSONPath.set( Object rootObject , String path , Object value );1;0;4
+FilterGroup.FilterGroup( Filter left , Filter right , boolean and );1;0;6
+JSONPath.removeArrayItem( JSONPath path , Object currentObject , int index );6;4;20
+JSONPath.setPropertyValue( Object parent , String name , long propertyNameHash , Object value );10;6;32
+JSONPath.set( Object rootObject , Object value , boolean p );19;13;72
+JSONPath.removePropertyValue( Object parent , String name , boolean deep );11;4;39
+JSONPath.deepGetObjects( final Object currentObject , List < Object > outValues );10;4;29
+TypeSegment.extract( JSONPath path , DefaultJSONParser parser , Context context );1;0;3
+PropertySegment.eval( JSONPath path , Object rootObject , Object currentObject );2;0;9
+IntBetweenSegement.IntBetweenSegement( String propertyName , boolean function , long startValue , long endValue , boolean not );1;0;6
+JSONPath.deepGetPropertyValues( final Object currentObject , List < Object > outValues );10;4;28
+DoubleOpSegement.apply( JSONPath path , Object rootObject , Object currentObject , Object item );9;8;25
+RefOpSegement.RefOpSegement( String propertyName , boolean function , Segment refSgement , Operator op );1;0;5
+WildCardSegment.WildCardSegment( boolean deep , boolean objectOnly );1;0;4
+JSONPathParser.readName( );9;7;28
+RlikeSegement.RlikeSegement( String propertyName , boolean function , String pattern , boolean not );1;0;5
+JSONPath.read( String json , String path );1;0;6
+JSONPathParser.isEOF( );1;1;3
+JSONPathParser.parseArrayAccess( boolean acceptBracket );2;0;7
+JSONPath.remove( Object rootObject );27;17;84
+WildCardSegment.extract( JSONPath path , DefaultJSONParser parser , Context context );6;0;26
+WildCardSegment.eval( JSONPath path , Object rootObject , Object currentObject );2;1;8
+NullSegement.NullSegement( String propertyName , boolean function );1;0;3
+PropertySegment.PropertySegment( String propertyName , boolean deep );1;0;5
+NullSegement.apply( JSONPath path , Object rootObject , Object currentObject , Object item );1;1;4
+JSONPath.setArrayItem( JSONPath path , Object currentObject , int index , Object value );8;6;26
+RefOpSegement.apply( JSONPath path , Object rootObject , Object currentObject , Object item );24;20;49
+JSONPathParser.accept( char expect );4;3;11
+JSONPathParser.readString( );4;5;11
+FloorSegment.extract( JSONPath path , DefaultJSONParser parser , Context context );1;0;3
+JSONPath.getPropertyValues( final Object currentObject );7;2;22
+JSONPath.containsValue( Object rootObject , String path , Object value );1;0;4
+JSONPathParser.readValue( );6;4;18
+JSONPath.getPath( );1;0;3
+RangeSegment.eval( JSONPath path , Object rootObject , Object currentObject );6;13;15
+KeySetSegment.extract( JSONPath path , DefaultJSONParser parser , Context context );1;0;3
+JSONPath.getJavaBeanSerializer( final Class < ? > currentClass );2;0;10
+ArrayAccessSegment.ArrayAccessSegment( int index );1;0;3
+RegMatchSegement.apply( JSONPath path , Object rootObject , Object currentObject , Object item );2;1;9
+MultiPropertySegment.eval( JSONPath path , Object rootObject , Object currentObject );2;2;8
+KeySetSegment.eval( JSONPath path , Object rootObject , Object currentObject );1;0;3
+JSONPath.eval( Object rootObject , Type clazz );1;0;3
+JSONPath.compile( String path , boolean ignoreNullValue );4;3;14
+JSONPath.eqNotNull( Number a , Number b );14;7;35
+MaxSegment.extract( JSONPath path , DefaultJSONParser parser , Context context );1;0;3
+ArrayAccessSegment.extract( JSONPath path , DefaultJSONParser parser , Context context );3;1;8
+JSONPath.remove( Object root , String path );1;0;4
+IntInSegement.IntInSegement( String propertyName , boolean function , long [ ] values , boolean not );1;0;5
+JSONPath.size( Object rootObject );3;4;11
+RlikeSegement.apply( JSONPath path , Object rootObject , Object currentObject , Object item );3;2;13
+JSONPath.read( String json , String path , Type clazz );1;0;3
+JSONPathParser.readDoubleValue( long longValue );3;6;12
+JSONPath.read( String json , String path , Type clazz , ParserConfig parserConfig );1;0;3
+MinSegment.extract( JSONPath path , DefaultJSONParser parser , Context context );1;0;3
+PropertySegment.remove( JSONPath path , Object parent );1;0;3
+JSONPathParser.readOp( );20;9;68
+JSONPath.eval( Object rootObject );3;3;12
+JSONPath.compare( Object a , Object b );25;24;55
+StringInSegement.StringInSegement( String propertyName , boolean function , String [ ] values , boolean not );1;0;5
+JSONPath.reserveToObject( Object object , String ... paths );6;5;20
+JSONPathParser.next( );1;1;3
+FilterGroup.apply( JSONPath path , Object rootObject , Object currentObject , Object item );6;1;17
+MultiIndexSegment.eval( JSONPath path , Object rootObject , Object currentObject );2;2;8
+JSONPath.JSONPath( String path , boolean ignoreNullValue );1;0;3
+ArrayAccessSegment.setValue( JSONPath path , Object currentObject , Object value );1;0;3
+JSONPath.arrayAdd( Object rootObject , Object ... values );14;14;52
+DoubleOpSegement.DoubleOpSegement( String propertyName , boolean function , double value , Operator op );1;0;5
+FloorSegment.floor( Object item );10;5;23
+JSONPathParser.explain( );10;11;30
+IntOpSegement.IntOpSegement( String propertyName , boolean function , long value , Operator op );1;0;5
+JSONPath.contains( Object rootObject , String path );2;1;7
+JSONPath.set( Object rootObject , Object value );1;0;3
+JSONPathParser.readSegement( );40;45;97
+FilterSegment.FilterSegment( Filter filter );1;0;4
+StringOpSegement.apply( JSONPath path , Object rootObject , Object currentObject , Object item );8;12;22
+JSONPath.deepSet( final Object currentObject , final String propertyName , long propertyNameHash , Object value );12;5;44
+JSONPath.getArrayItem( final Object currentObject , int index );16;13;56
+JSONPath.isDouble( Class < ? > clazzA );2;3;3
+PropertyFilter.get( JSONPath path , Object rootObject , Object currentObject );2;1;6
+MaxSegment.eval( JSONPath path , Object rootObject , Object currentObject );6;3;20
+JSONPath.paths( Map < Object , String > values , Map < String , Object > paths , String parent , Object javaObject , SerializeConfig config );29;21;74
+StringOpSegement.StringOpSegement( String propertyName , boolean function , String value , Operator op );1;0;5
+JSONPath.keySet( Object rootObject );3;3;11
+IntOpSegement.apply( JSONPath path , Object rootObject , Object currentObject , Object item );33;29;88
+JSONPath.evalSize( Object currentObject );10;6;32

@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Path.getCompiledPath( String pathExpr , XmlOptions options );6;2;13
+XbeanPathEngine.XbeanPathEngine( XPath xpath , Cur c );4;6;13
+Path.getCompiledPathXbean( String pathExpr , String currentVar , Map namespaces );2;1;6
+Path.createXqrl2002CompiledPath( String pathExpr , String currentVar );7;2;38
+DelegatePathImpl.execute( Cur c , XmlOptions options );1;0;3
+Path.createXqrlCompiledPath( String pathExpr , String currentVar );7;2;35
+Path.compilePath( String pathExpr , XmlOptions options );1;0;3
+XbeanPath.execute( Cur c , XmlOptions options );4;3;12
+DelegatePathEngine.next( Cur c );7;7;41
+XbeanPathEngine.next( Cur c );5;5;11
+DelegatePathEngine.DelegatePathEngine( PathDelegate . SelectPathInterface xpathImpl , Cur c );1;0;5
+XbeanPathEngine.release( );2;1;6
+Path.getCompiledPath( String pathExpr , int force , String currentVar , String delIntfName );21;38;37
+DelegatePathEngine.getType( Object node );9;0;22
+XbeanPathEngine.advance( Cur c );8;8;32
+XbeanPathEngine.doAttrs( int ret , Cur c );5;2;13
+Path.getCompiledPathDelegate( String pathExpr , String currentVar , Map namespaces , String delIntfName );4;2;22
+Path.getCompiledPathXqrl( String pathExpr , String currentVar );2;1;6
+XbeanPath.create( String pathExpr , String currentVar , Map namespaces );2;0;10
+XbeanPath.XbeanPath( String pathExpr , String currentVar , XPath xpath );1;0;5
+DelegatePathImpl.create( String implClassName , String pathExpr , String currentNodeVar , Map namespaceMap );2;2;8
+DelegatePathImpl.DelegatePathImpl( PathDelegate . SelectPathInterface xpathImpl , String pathExpr );1;0;4
+DelegatePathEngine.release( );2;1;6
+Path.getCurrentNodeVar( XmlOptions options );3;0;11
+Path.getCompiledPathXqrl2002( String pathExpr , String currentVar );2;1;6
+Path.Path( String key );1;0;3

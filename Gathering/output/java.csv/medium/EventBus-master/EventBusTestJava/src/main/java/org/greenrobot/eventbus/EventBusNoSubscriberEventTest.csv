@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EventBusNoSubscriberEventTest.onEvent( SubscriberExceptionEvent event );1;0;3
+DummySubscriber.onEvent( String dummy );1;0;2
+BadNoSubscriberSubscriber.onEvent( NoSubscriberEvent event );1;0;3
+EventBusNoSubscriberEventTest.testNoSubscriberEvent( );1;0;9
+EventBusNoSubscriberEventTest.testBadNoSubscriberSubscriber( );1;0;10
+EventBusNoSubscriberEventTest.testNoSubscriberEventAfterUnregister( );1;0;6
+EventBusNoSubscriberEventTest.onEvent( NoSubscriberEvent event );1;0;3

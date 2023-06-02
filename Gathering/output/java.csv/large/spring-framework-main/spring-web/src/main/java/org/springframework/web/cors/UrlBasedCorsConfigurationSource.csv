@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UrlBasedCorsConfigurationSource.initUrlPathHelper( );2;1;5
+UrlBasedCorsConfigurationSource.setUrlPathHelper( UrlPathHelper urlPathHelper );1;0;4
+UrlBasedCorsConfigurationSource.setRemoveSemicolonContent( boolean removeSemicolonContent );1;0;4
+UrlBasedCorsConfigurationSource.getCorsConfiguration( HttpServletRequest request );3;0;10
+UrlBasedCorsConfigurationSource.setAllowInitLookupPath( boolean allowInitLookupPath );1;0;3
+UrlBasedCorsConfigurationSource.UrlBasedCorsConfigurationSource( PathPatternParser parser );1;0;4
+UrlBasedCorsConfigurationSource.resolvePath( HttpServletRequest request );5;4;12
+UrlBasedCorsConfigurationSource.match( Object path , boolean isPathContainer , PathPattern pattern );2;0;5
+UrlBasedCorsConfigurationSource.getCorsConfigurations( );1;0;5
+UrlBasedCorsConfigurationSource.setCorsConfigurations( @ Nullable Map < String , CorsConfiguration > corsConfigurations );2;1;6
+UrlBasedCorsConfigurationSource.setLookupPathAttributeName( String name );1;0;3
+UrlBasedCorsConfigurationSource.registerCorsConfiguration( String pattern , CorsConfiguration config );1;0;3
+UrlBasedCorsConfigurationSource.UrlBasedCorsConfigurationSource( );1;0;3
+UrlBasedCorsConfigurationSource.setAlwaysUseFullPath( boolean alwaysUseFullPath );1;0;4
+UrlBasedCorsConfigurationSource.setPathMatcher( PathMatcher pathMatcher );1;0;3
+UrlBasedCorsConfigurationSource.setUrlDecode( boolean urlDecode );1;0;4

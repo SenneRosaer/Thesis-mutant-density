@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FTPClientPool.getUsername( );1;0;3
+FTPClientPool.setPassiveMode( boolean passiveMode );1;0;3
+FTPClientPool.passivateObject( Object object );1;0;4
+FTPClientPool.getPassword( );1;0;3
+FTPClientPool.setDataTimeout( int dataTimeout );1;0;3
+FTPClientPool.getDataTimeout( );1;0;3
+FTPClientPool.setControlEncoding( String controlEncoding );1;0;3
+FTPClientPool.setUsername( String username );1;0;3
+FTPClientPool.getConfig( );1;0;3
+FTPClientPool.getControlEncoding( );1;0;3
+FTPClientPool.createSocketClient( );1;0;3
+FTPClientPool.setPassword( String password );1;0;3
+FTPClientPool.connect( SocketClient client );6;3;24
+FTPClientPool.isBinaryMode( );1;0;3
+FTPClientPool.setConfig( FTPClientConfig config );1;0;3
+FTPClientPool.isPassiveMode( );1;0;3
+FTPClientPool.validateObject( Object object );2;0;8
+FTPClientPool.disconnect( SocketClient client );2;0;7
+FTPClientPool.setBinaryMode( boolean binaryMode );1;0;3
+FTPClientPool.activateObject( Object object );1;0;4

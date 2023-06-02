@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RepositoryResolver.putChecksum( Artifact artifact , File src , String dest , boolean overwrite , String algorithm );1;2;11
+RepositoryResolver.put( Artifact artifact , File src , String dest , boolean overwrite );4;5;11
+RepositoryResolver.get( Resource resource , File dest );2;1;9
+RepositoryResolver.setRepository( Repository repository );1;0;3
+RepositoryResolver.getResource( String source );1;0;3
+RepositoryResolver.listTokenValues( String pattern , String token );1;0;3
+RepositoryResolver.findResourceUsingPattern( ModuleRevisionId mrid , String pattern , Artifact artifact , ResourceMDParser rmdparser , Date date );12;14;52
+RepositoryResolver.setAlwaysCheckExactRevision( boolean alwaysCheckExactRevision );1;0;3
+RepositoryResolver.getTypeName( );1;0;3
+RepositoryResolver.setName( String name );2;0;6
+RepositoryResolver.publish( Artifact artifact , File src , boolean overwrite );5;3;18
+RepositoryResolver.RepositoryResolver( );1;0;2
+RepositoryResolver.getRepository( );1;0;3
+RepositoryResolver.dumpSettings( );1;0;4
+RepositoryResolver.listResources( Repository repository , ModuleRevisionId mrid , String pattern , Artifact artifact );1;0;3
+RepositoryResolver.exist( String path );2;0;8
+RepositoryResolver.setSettings( ResolverSettings settings );3;2;9
+RepositoryResolver.findTokenValues( Collection names , List patterns , Map tokenValues , String token );3;1;12
+RepositoryResolver.findDynamicResourceUsingPattern( ResourceMDParser rmdparser , ModuleRevisionId mrid , String pattern , Artifact artifact , Date date );3;2;18
+RepositoryResolver.isAlwaysCheckExactRevision( );2;1;3
+RepositoryResolver.download( Artifact [ ] artifacts , DownloadOptions options );3;2;13
+RepositoryResolver.getDestination( String pattern , Artifact artifact , ModuleRevisionId mrid );1;0;3

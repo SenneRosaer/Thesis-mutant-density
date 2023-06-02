@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JacobVPU.stringify( Object [ ] list );4;4;13
+JacobVPU.activeJacobThread( );1;0;3
+JacobVPU.registerExtension( Class extensionClass , Object obj );2;0;8
+JacobThreadImpl.newChannel( Class channelType , String creator , String description );2;2;10
+JacobThreadImpl.stackThread( );2;1;8
+JacobThreadImpl.unstackThread( );1;1;5
+JacobThreadImpl.toString( );1;0;3
+JacobThreadImpl.exportChannel( Channel channel );2;1;7
+JacobThreadImpl.message( Channel channel , Method method , Object [ ] args );4;7;25
+JacobVPU.addReaction( JacobObject jo , Method method , Object [ ] args , String desc );2;1;10
+JacobThreadImpl.importChannel( String channelId , Class channelType );1;0;4
+JacobVPU.setContext( ExecutionQueue executionQueue );2;0;8
+JacobThreadImpl.getExtension( Class extensionClass );1;0;3
+JacobVPU.setClassLoader( ClassLoader classLoader );2;1;6
+JacobThreadImpl.object( boolean replicate , ChannelListener methodList );1;0;3
+JacobThreadImpl.run( );6;8;40
+JacobVPU.execute( );6;6;29
+JacobVPU.JacobVPU( );1;0;2
+JacobVPU.stringifyMethods( Class kind );6;4;24
+JacobVPU.isComplete( );1;0;3
+JacobThreadImpl.object( boolean replicate , ChannelListener [ ] ml );5;6;23
+JacobVPU.JacobVPU( ExecutionQueue context , JacobRunnable concretion );1;0;4
+JacobVPU.dumpState( );1;0;4
+JacobVPU.JacobVPU( ExecutionQueue executionQueue );1;0;3
+JacobVPU.inject( JacobRunnable concretion );3;0;7
+JacobVPU.flush( );2;0;6
+JacobThreadImpl.instance( JacobRunnable template );2;2;9
+JacobThreadImpl.JacobThreadImpl( Continuation rqe );2;1;13

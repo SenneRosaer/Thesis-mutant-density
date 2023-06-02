@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ItemInfos.ItemInfos( Iterator infos );1;0;4
+WorkspaceItemStateFactory.createDeepNodeState( NodeId nodeId , NodeEntry anyParent );2;0;8
+WorkspaceItemStateFactory.getChildNodeInfos( NodeId nodeId );1;0;3
+ItemInfos.hasNext( );2;1;7
+WorkspaceItemStateFactory.createPropertyState( PropertyInfo info , PropertyEntry entry );5;3;21
+WorkspaceItemStateFactory.getNodeReferences( NodeState nodeState );4;3;14
+WorkspaceItemStateFactory.WorkspaceItemStateFactory( RepositoryService service , SessionInfo sessionInfo , ItemDefinitionProvider definitionProvider );1;0;5
+WorkspaceItemStateFactory.createNodeState( NodeId nodeId , NodeEntry entry );3;1;12
+WorkspaceItemStateFactory.createRootState( NodeEntry entry );1;0;5
+WorkspaceItemStateFactory.createItemStates( NodeId nodeId , Iterator itemInfos , NodeEntry entry , boolean isDeep );5;0;26
+WorkspaceItemStateFactory.assertMatchingPath( ItemInfo info , HierarchyEntry entry );2;1;6
+WorkspaceItemStateFactory.getAncestor( HierarchyEntry entry , int degree );4;6;12
+WorkspaceItemStateFactory.createNodeState( NodeInfo info , NodeEntry entry );9;5;39
+WorkspaceItemStateFactory.createDeepPropertyState( PropertyInfo info , NodeEntry anyParent , ItemInfos infos );4;3;24
+ItemInfos.prefetch( );3;0;13
+WorkspaceItemStateFactory.createDeepPropertyState( PropertyId propertyId , NodeEntry anyParent );2;0;10
+WorkspaceItemStateFactory.createIntermediateNodeEntry( NodeEntry parentEntry , Name name , int index , ItemInfos infos );3;2;10
+WorkspaceItemStateFactory.createDeepNodeState( NodeInfo info , NodeEntry anyParent , ItemInfos infos );5;3;23
+WorkspaceItemStateFactory.assertValidState( ItemState state , ItemInfo info );2;1;6
+ItemInfos.remove( );1;0;3
+WorkspaceItemStateFactory.createPropertyState( PropertyId propertyId , PropertyEntry entry );2;0;9
+ItemInfos.getChildInfos( NodeId parentId );4;3;7
+WorkspaceItemStateFactory.startsWithIllegalElement( Path . Element [ ] missingElems );2;2;6
+ItemInfos.next( );3;0;11

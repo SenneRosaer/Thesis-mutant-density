@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ZipFile.dosToJavaTime( long dosTime );1;14;10
+ZipFile.ZipFile( File f );1;0;3
+***not in a method***;0;38;0
+ZipFile.getEntries( );1;0;3
+ZipFile.ZipFile( File f , String encoding );3;0;14
+ZipFile.populateFromCentralDirectory( );4;18;56
+ZipFile.closeQuietly( ZipFile zipfile );3;1;8
+ZipFile.positionAtCentralDirectory( );9;14;34
+ZipFile.ZipFile( String name );1;0;3
+BoundedInputStream.read( );3;4;13
+ZipFile.resolveLocalFileHeaderData( );2;6;20
+BoundedInputStream.addDummy( );1;0;3
+ZipFile.close( );1;0;3
+ZipFile.getEntry( String name );1;0;3
+BoundedInputStream.read( byte [ ] b , int off , int len );6;8;26
+ZipFile.startsWithLocalFileHeader( );3;3;11
+ZipFile.getInputStream( ZipEntry ze );4;1;19
+ZipFile.getString( byte [ ] bytes );3;1;11
+ZipFile.ZipFile( String name , String encoding );1;0;3
+ZipFile.fromDosTime( ZipLong zipDosTime );1;0;4
+BoundedInputStream.BoundedInputStream( long start , long remaining );1;0;4
+ZipFile.getEncoding( );1;0;3

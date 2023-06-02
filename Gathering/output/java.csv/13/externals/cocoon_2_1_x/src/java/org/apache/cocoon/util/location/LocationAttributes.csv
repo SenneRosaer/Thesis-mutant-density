@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Pipe.endElement( String arg0 , String arg1 , String arg2 );1;0;3
+Pipe.Pipe( ContentHandler next );1;0;3
+Pipe.startPrefixMapping( String arg0 , String arg1 );1;0;3
+LocationAttributes.getLocation( Element elem , String description );3;2;8
+LocationAttributes.addLocationAttributes( Locator locator , Attributes attrs );4;4;11
+LocationAttributes.getLocation( Attributes attrs , String description );2;1;7
+LocationAttributes.getURI( Attributes attrs );2;1;4
+Pipe.startElement( String uri , String loc , String raw , Attributes attrs );1;0;3
+Pipe.characters( char [ ] arg0 , int arg1 , int arg2 );1;0;3
+LocationAttributes.getColumn( Element elem );2;2;4
+LocationAttributes.getURI( Element elem );2;1;4
+Pipe.Pipe( );1;0;2
+Pipe.endDocument( );1;0;4
+LocationAttributes.getLine( Attributes attrs );2;2;4
+LocationAttributes.remove( Element elem , boolean recurse );4;3;14
+LocationAttributes.getColumn( Attributes attrs );2;2;4
+Pipe.startDocument( );1;0;4
+Pipe.setDocumentLocator( Locator locator );1;0;4
+LocationAttributes.getLocationString( Element elem );2;3;7
+LocationAttributes.getLocation( Element elem );1;0;3
+Pipe.endPrefixMapping( String arg0 );1;0;3
+Pipe.ignorableWhitespace( char [ ] arg0 , int arg1 , int arg2 );1;0;3
+LocationAttributes.LocationAttributes( );1;0;2
+Pipe.processingInstruction( String arg0 , String arg1 );1;0;3
+Pipe.skippedEntity( String arg0 );1;0;3
+LocationAttributes.getLine( Element elem );2;2;4
+LocationAttributes.getLocationString( Attributes attrs );2;3;7

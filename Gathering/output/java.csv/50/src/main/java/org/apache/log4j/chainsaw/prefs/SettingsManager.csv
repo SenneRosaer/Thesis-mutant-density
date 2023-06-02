@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SettingsManager.SettingsManager( );4;1;19
+SettingsManager.getInstance( );1;0;3
+SettingsManager.loadSettings( );2;1;8
+SettingsManager.loadGlobalProperties( );5;1;24
+SettingsManager.configure( SettingsListener listener );2;0;10
+SettingsManager.loadGlobalSettings( );3;3;12
+SettingsManager.loadProfileble( Profileable p );1;0;4
+SettingsManager.getSettingsDirectory( );1;0;3
+SettingsManager.createProfilebleEvent( Profileable p );1;0;7
+SettingsManager.saveProfileableSetting( File settingsDir );6;3;29
+SettingsManager.getDefaultSettings( );1;0;3
+SettingsManager.loadProperties( Profileable p );6;2;29
+SettingsManager.loadProfileableSettings( );3;2;10
+SettingsManager.addSettingsListener( SettingsListener listener );1;0;3
+SettingsManager.saveSettings( );2;1;8
+SettingsManager.saveGlobalSettings( File settingsDir );7;5;29

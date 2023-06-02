@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CastorSourceConverter.setConfiguration( Properties configuration );1;0;3
+CastorSourceConverter.getURI( ProfileKey key , String type , boolean load );3;1;16
+CastorSourceConverter.init( );6;4;42
+CastorSourceConverter.setLogger( Log l );1;0;3
+CastorSourceConverter.setSourceResolver( SourceResolver sr );1;0;3
+CastorSourceConverter.storeObject( OutputStream stream , Object object , PersistenceType type );5;2;21
+CastorSourceConverter.setSuppressXSIType( boolean flag );1;0;3
+CastorSourceConverter.getLogger( );1;0;3
+ReferenceResolver.resolve( String refId );1;0;4
+CastorSourceConverter.saveProfile( ProfileKey key , PersistenceType type , Object profile );3;0;27
+CastorSourceConverter.getObject( InputStream stream , PersistenceType type );3;0;15
+CastorSourceConverter.setValidateUnmarshalling( boolean flag );1;0;3
+CastorSourceConverter.getValidity( ProfileKey key , String type );2;0;13
+ReferenceResolver.ReferenceResolver( );1;0;2
+CastorSourceConverter.loadProfile( ProfileKey key , PersistenceType type );1;0;11
+CastorSourceConverter.setCastorProperties( Properties props );1;0;3

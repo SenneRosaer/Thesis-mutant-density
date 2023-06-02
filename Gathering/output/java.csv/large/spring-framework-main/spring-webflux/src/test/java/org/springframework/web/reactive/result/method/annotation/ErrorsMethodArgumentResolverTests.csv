@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ErrorsMethodArgumentResolverTests.resolveWithCustomModelAttributeNameConfiguredViaNameAttribute( );1;0;9
+Foo.Foo( String name );1;0;3
+ErrorsMethodArgumentResolverTests.handleWithCustomModelAttributeNameViaNameAttribute( @ ModelAttribute ( name = "custom" ) Foo foo , Errors errors );1;0;2
+ErrorsMethodArgumentResolverTests.createBindingResult( Foo target , String name );1;0;4
+ErrorsMethodArgumentResolverTests.resolveWithMonoAndCustomModelAttributeNameConfiguredViaValueAttribute( );1;0;9
+ErrorsMethodArgumentResolverTests.supports( );1;0;10
+ErrorsMethodArgumentResolverTests.resolveWithCustomModelAttributeNameConfiguredViaValueAttribute( );1;0;9
+ErrorsMethodArgumentResolverTests.resolveWithMonoOnBindingResultAndModelAttribute( );1;0;8
+ErrorsMethodArgumentResolverTests.resolveWithMono( );1;0;8
+Foo.getName( );1;0;3
+Foo.Foo( );1;0;2
+ErrorsMethodArgumentResolverTests.resolveWithBindingResultNotFound( );1;0;8
+ErrorsMethodArgumentResolverTests.handle( @ ModelAttribute Foo foo , Errors errors , @ ModelAttribute Mono < Foo > fooMono , BindingResult bindingResult , Mono < Errors > errorsMono , String string );1;0;2
+ErrorsMethodArgumentResolverTests.handleWithCustomModelAttributeNameViaValueAttribute( @ ModelAttribute ( "custom" ) Foo foo , Errors errors );1;0;2
+Foo.setName( String name );1;0;3
+ErrorsMethodArgumentResolverTests.resolveWithInferredModelAttributeName( );1;0;8

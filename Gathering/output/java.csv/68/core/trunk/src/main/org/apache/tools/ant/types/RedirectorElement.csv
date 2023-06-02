@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RedirectorElement.configure( Redirector redirector , String sourcefile );31;29;91
+RedirectorElement.setAppend( boolean append );3;0;6
+RedirectorElement.setRefid( Reference r );14;22;18
+RedirectorElement.setInput( File input );3;1;11
+RedirectorElement.setInputString( String inputString );3;0;10
+RedirectorElement.toFileArray( String [ ] name );4;4;12
+RedirectorElement.createErrorFilterChain( );2;0;10
+RedirectorElement.setErrorProperty( String errorProperty );2;0;6
+RedirectorElement.addConfiguredErrorMapper( Mapper errorMapper );4;1;15
+RedirectorElement.getRef( );1;0;3
+RedirectorElement.createMergeMapper( File destfile );1;0;7
+RedirectorElement.setLogError( boolean logError );3;0;6
+RedirectorElement.createInputFilterChain( );2;0;10
+RedirectorElement.setAlwaysLog( boolean alwaysLog );3;0;6
+RedirectorElement.configure( Redirector redirector );1;0;3
+RedirectorElement.addConfiguredOutputMapper( Mapper outputMapper );4;1;15
+RedirectorElement.setOutput( File out );3;1;10
+RedirectorElement.dieOnCircularReference( Stack stk , Project p );8;6;28
+RedirectorElement.setError( File error );3;1;10
+RedirectorElement.setLogInputString( boolean logInputString );3;0;6
+RedirectorElement.setInputEncoding( String inputEncoding );2;0;6
+RedirectorElement.setOutputEncoding( String outputEncoding );2;0;6
+RedirectorElement.setErrorEncoding( String errorEncoding );2;0;6
+RedirectorElement.setOutputProperty( String outputProperty );2;0;6
+RedirectorElement.setCreateEmptyFiles( boolean createEmptyFiles );3;0;7
+RedirectorElement.createOutputFilterChain( );2;0;10
+RedirectorElement.addConfiguredInputMapper( Mapper inputMapper );4;1;15

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractVersionStrategy.removeVersion( String requestPath , String version );1;0;3
+PrefixVersionPathStrategy.removeVersion( String requestPath , String version );1;0;3
+PrefixVersionPathStrategy.PrefixVersionPathStrategy( String version );1;0;4
+AbstractVersionStrategy.getVersionPathStrategy( );1;0;3
+AbstractVersionStrategy.AbstractVersionStrategy( VersionPathStrategy pathStrategy );1;0;4
+FileNameVersionPathStrategy.removeVersion( String requestPath , String version );1;0;3
+FileNameVersionPathStrategy.extractVersion( String requestPath );3;1;10
+AbstractVersionStrategy.addVersion( String requestPath , String version );1;0;3
+PrefixVersionPathStrategy.extractVersion( String requestPath );2;0;3
+AbstractVersionStrategy.extractVersion( String requestPath );1;0;3
+FileNameVersionPathStrategy.addVersion( String requestPath , String version );1;4;5
+PrefixVersionPathStrategy.addVersion( String path , String version );4;4;9

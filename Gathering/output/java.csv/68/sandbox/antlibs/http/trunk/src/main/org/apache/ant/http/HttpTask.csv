@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpTask.setUseCaches( boolean usecaches );1;0;3
+HttpTask.getUsername( );1;0;3
+HttpTask.setUsername( String username );2;1;6
+HttpTask.setDestFile( File destFile );1;0;3
+HttpTask.getAuthStrategy( );4;0;15
+HttpTask.setPassword( String password );1;0;3
+HttpTask.probeConnection( HttpURLConnection connection );1;0;3
+AuthMethodType.getValues( );1;0;6
+HttpTask.execute( );36;34;147
+HttpTask.makeConnectionWithAuthHandling( URLConnection connection );4;3;17
+HttpTask.setAuthtype( AuthMethodType type );1;0;3
+HttpTask.getStatus( );1;0;3
+HttpTask.noteSuccess( );3;3;5
+HttpTask.doConnectWithUpload( URLConnection connection , String contentType , int contentLength , InputStream content );5;4;30
+HttpTask.setFailOnError( boolean b );1;0;3
+HttpTask.getTimestamp( );4;3;9
+HttpTask.getURL( );1;0;3
+HttpTask.setUseTimestamp( boolean usetimestamp );1;0;3
+HttpTask.setDestinationProperty( String name );1;0;3
+HttpTask.showProgressChar( char c );1;0;3
+HttpTask.getDestinationProperty( );1;0;3
+HttpTask.buildURL( );3;0;12
+HttpTask.getInputStream( URLConnection connection );5;5;20
+HttpTask.onDownloadFinished( URLConnection connection );1;0;3
+HttpTask.getFailOnError( );1;0;3
+HttpTask.doConnect( URLConnection connection );1;0;3
+HttpTask.getPassword( );1;0;3
+HttpTask.verifyArguments( );8;7;18
+HttpTask.setVerbose( boolean verbose );1;0;3
+HttpTask.getRequestParameters( );1;0;3
+HttpTask.areParamsAddedToUrl( );1;0;3
+HttpTask.getAuthenticationString( );4;5;12
+HttpTask.setUseResponseCode( boolean useResponseCode );1;0;3
+HttpTask.parameterizeURL( );5;6;16
+HttpTask.setURL( String u );1;0;3
+HttpTask.onConnected( URLConnection connection );1;0;3
+HttpTask.addParam( HttpRequestParameter param );1;0;3
+HttpTask.setBlockSize( int blocksize );1;0;3
+HttpTask.getDestFile( );1;0;3
+HttpTask.setStatus( String status );1;0;3
+HttpTask.addHeader( HttpRequestParameter header );1;0;3
+HttpTask.getBlockSize( );1;0;3
+HttpTask.getUseCaches( );1;0;3
+HttpTask.getResponseCode( HttpURLConnection connection );5;5;22

@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ComplexSqlFragment.ComplexSqlFragment( String sql , SQLParameter [ ] parameters );2;1;5
+ComplexSqlFragment.ComplexSqlFragment( );1;0;4
+SQLParameter.SQLParameter( Object value , int type );1;0;4
+ScrollType( int scrollType , int concurrencyType );1;0;4
+HoldabilityType( int holdability );1;0;3
+ComplexSqlFragment.getParameters( );2;1;5
+ComplexSqlFragment.getSQL( );1;0;3
+getConcurrencyType( );1;0;1
+getType( );1;0;1
+SQLParameter.SQLParameter( Object value , int type , int dir );1;0;4
+ComplexSqlFragment.toString( );1;0;3
+SQLParameter.SQLParameter( Object value );1;0;3
+***not in a method***;0;3;0
+FetchDirection( int direction );1;0;3
+toString( );6;7;20
+getHoldability( );1;0;1
+SQLParameter.clone( );1;0;3
+getDirection( );1;0;1

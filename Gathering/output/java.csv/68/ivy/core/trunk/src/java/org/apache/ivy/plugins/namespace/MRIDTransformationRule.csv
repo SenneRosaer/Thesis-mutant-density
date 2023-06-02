@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MridRuleMatcher.match( MRIDRule src , ModuleRevisionId mrid );6;5;25
+MRIDTransformationRule.isIdentity( );1;0;3
+MRIDTransformationRule.addDest( MRIDRule dest );2;1;6
+MridRuleMatcher.applyTypeRule( String rule , String type , String ruleType , Matcher m );7;6;24
+MridRuleMatcher.apply( MRIDRule dest , ModuleRevisionId mrid );1;0;8
+MridRuleMatcher.applyRules( String str , String type );2;2;6
+MRIDTransformationRule.transform( ModuleRevisionId mrid );3;0;13
+MridRuleMatcher.getPattern( String p );2;1;3
+MRIDTransformationRule.addSrc( MRIDRule src );1;0;3

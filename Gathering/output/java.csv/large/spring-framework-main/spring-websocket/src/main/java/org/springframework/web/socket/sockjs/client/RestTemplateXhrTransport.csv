@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XhrReceiveExtractor.XhrReceiveExtractor( XhrClientSockJsSession sockJsSession );1;0;3
+RestTemplateXhrTransport.RestTemplateXhrTransport( RestOperations restTemplate );1;0;4
+XhrRequestCallback.XhrRequestCallback( HttpHeaders headers );1;0;3
+XhrReceiveExtractor.extractData( ClientHttpResponse response );10;5;38
+RestTemplateXhrTransport.setTaskExecutor( TaskExecutor taskExecutor );1;0;4
+XhrRequestCallback.XhrRequestCallback( HttpHeaders headers , @ Nullable String body );1;0;4
+RestTemplateXhrTransport.getRestTemplate( );1;0;3
+XhrRequestCallback.doWithRequest( ClientHttpRequest request );3;1;12
+RestTemplateXhrTransport.RestTemplateXhrTransport( );1;0;3
+XhrReceiveExtractor.handleFrame( ByteArrayOutputStream os );3;1;10
+RestTemplateXhrTransport.executeInfoRequestInternal( URI infoUrl , HttpHeaders headers );1;0;4
+RestTemplateXhrTransport.getTaskExecutor( );1;0;3
+RestTemplateXhrTransport.nonNull( @ Nullable T result );1;1;4
+RestTemplateXhrTransport.connectInternal( final TransportRequest transportRequest , final WebSocketHandler handler , final URI receiveUrl , final HttpHeaders handshakeHeaders , final XhrClientSockJsSession session , final CompletableFuture < WebSocketSession > connectFuture );6;1;31
+RestTemplateXhrTransport.executeSendRequestInternal( URI url , HttpHeaders headers , TextMessage message );1;0;4

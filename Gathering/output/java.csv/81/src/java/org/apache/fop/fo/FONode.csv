@@ -1,0 +1,57 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FONode.FONode( FONode parent );1;0;3
+FONode.nodesOutOfOrderError( Locator loc , String tooLateNode , String tooEarlyNode );1;0;3
+FONode.getLogger( );1;0;3
+FONode.setLocator( Locator locator );2;1;5
+FONode.getContentHandlerFactory( );1;0;3
+FONode.canHaveMarkers( );20;0;27
+FONode.getChildNodes( FONode childNode );1;0;3
+FONode.charIterator( );1;0;3
+FONode.tooManyNodesError( Locator loc , String offendingNode );1;0;3
+FONode.addCharacters( char [ ] data , int start , int end , PropertyList pList , Locator locator );1;0;2
+FONode.getBuilderContext( );1;0;3
+FONode.getNameId( );1;0;3
+FONode.getFOValidationEventProducer( );1;0;4
+FONode.invalidChildError( Locator loc , String parentName , String nsURI , String lName , String ruleViolated );1;0;4
+FONode.getLocator( );1;0;3
+FONode.gatherContextInfo( );1;0;3
+FONode.missingPropertyError( String propertyName );1;0;3
+FONode.getContextInfo( );5;4;24
+FONode.getLocatorString( Locator loc );2;2;7
+FONode.startOfNode( );1;0;2
+FONode.getFOEventHandler( );1;0;3
+FONode.bind( PropertyList propertyList );1;0;2
+FONode.getNodeString( String namespaceURI , String localName );4;0;12
+GatherContextInfoFunction.evaluate( Map params );3;0;12
+FONode.addChildNode( FONode child );1;0;2
+FONode.finalizeNode( );1;0;2
+FONode.getRoot( );1;0;3
+FONode.tooManyNodesError( Locator loc , String nsURI , String lName );1;0;3
+FONode.warningText( Locator loc );1;0;3
+FONode.nodesOutOfOrderError( Locator loc , String tooLateNode , String tooEarlyNode , boolean canRecover );1;0;4
+FONode.getContextInfoAlt( );3;2;16
+FONode.validateChildNode( Locator loc , String namespaceURI , String localName );1;0;2
+FONode.getExtensionAttachment( );1;0;3
+FONode.attachSiblings( FONode precedingSibling , FONode followingSibling );3;2;10
+FONode.getNamespaceURI( );1;0;3
+FONode.removeChild( FONode child );1;0;2
+FONode.getName( );1;0;3
+FONode.getParent( );1;0;3
+FONode.errorText( Locator loc );1;0;3
+FONode.decorateWithContextInfo( String text , FONode node );2;1;9
+FONode.missingChildElementError( String contentModel );1;0;4
+FONode.endOfNode( );1;0;3
+FONode.createPropertyList( PropertyList pList , FOEventHandler foEventHandler );1;0;3
+FONode.characters( char [ ] data , int start , int length , PropertyList pList , Locator locator );1;1;3
+FONode.inMarker( );1;0;3
+FONode.getUserAgent( );1;0;3
+FONode.clone( FONode cloneparent , boolean removeChildren );2;0;10
+FONode.getChildNodes( );1;0;3
+FONode.clone( );1;0;3
+FONode.validateChildNode( FONode fo , Locator loc , String namespaceURI , String localName );1;0;3
+GatherContextInfoFunction.getName( );1;0;3
+FONode.getName( String prefix );2;1;9
+FONode.invalidChildError( Locator loc , String nsURI , String lName );1;0;3
+FONode.processNode( String elementName , Locator locator , Attributes attlist , PropertyList pList );3;1;6
+FONode.missingChildElementError( String contentModel , boolean canRecover );1;0;4
+FONode.tooManyNodesError( Locator loc , QName offendingNode );1;0;3

@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SseEmitter.send( Object object );1;0;3
+SseEventBuilderImpl.build( );3;2;8
+SseEventBuilderImpl.name( String name );1;0;4
+SseEventBuilderImpl.reconnectTime( long reconnectTimeMillis );1;0;4
+SseEventBuilderImpl.append( char ch );2;1;7
+SseEventBuilderImpl.data( Object object );1;0;3
+SseEmitter.send( SseEventBuilder builder );2;0;8
+SseEventBuilderImpl.append( String text );2;1;7
+SseEmitter.extendResponse( ServerHttpResponse outputMessage );2;1;7
+SseEmitter.toString( );1;0;3
+SseEmitter.SseEmitter( );1;0;3
+SseEventBuilderImpl.data( Object object , @ Nullable MediaType mediaType );1;0;7
+SseEventBuilderImpl.comment( String comment );1;0;4
+SseEmitter.SseEmitter( Long timeout );1;0;3
+SseEventBuilderImpl.id( String id );1;0;4
+SseEventBuilderImpl.saveAppendedText( );2;1;6
+SseEmitter.event( );1;0;3
+SseEmitter.send( Object object , @ Nullable MediaType mediaType );1;0;3

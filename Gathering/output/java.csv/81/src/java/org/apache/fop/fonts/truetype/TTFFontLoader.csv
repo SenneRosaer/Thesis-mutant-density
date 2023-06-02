@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TTFFontLoader.TTFFontLoader( String fontFileURI , FontResolver resolver );1;0;3
+TTFFontLoader.TTFFontLoader( String fontFileURI , String subFontName , boolean embedded , FontResolver resolver );1;0;4
+TTFFontLoader.buildFont( TTFFile ttf , String ttcFontName );7;2;56
+TTFFontLoader.read( );1;0;3
+TTFFontLoader.copyWidthsSingleByte( TTFFile ttf );7;9;24
+TTFFontLoader.copyKerning( TTFFile ttf , boolean isCid );4;0;18
+TTFFontLoader.read( String ttcFontName );2;1;15

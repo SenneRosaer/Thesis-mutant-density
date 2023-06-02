@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractLoginModule.getImpersonatorSubject( Credentials credentials );5;1;18
+AbstractLoginModule.setAnonymousId( String anonymousId );1;0;3
+AbstractLoginModule.commit( );4;4;12
+AbstractLoginModule.abort( );2;1;11
+AbstractLoginModule.authenticate( Principal principal , Credentials credentials );3;1;9
+AbstractLoginModule.login( );9;3;37
+AbstractLoginModule.getAdminId( );1;0;3
+AbstractLoginModule.isInitialized( );1;0;3
+AbstractLoginModule.initialize( Subject subject , CallbackHandler callbackHandler , Map sharedState , Map options );12;6;47
+AbstractLoginModule.getCredentials( );9;3;31
+AbstractLoginModule.logout( );5;5;12
+AbstractLoginModule.setAdminId( String adminId );1;0;3
+AbstractLoginModule.getAnonymousId( );1;0;3
+AbstractLoginModule.isAnonymous( Credentials credentials );3;2;8
+AbstractLoginModule.isImpersonation( Credentials credentials );1;1;3
+AbstractLoginModule.getPrincipalProvider( );1;0;3
+AbstractLoginModule.getUserID( Credentials credentials );9;4;27
+AbstractLoginModule.setPrincipalProvider( String principalProvider );1;0;3
+AbstractLoginModule.getPrincipals( );2;0;9

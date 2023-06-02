@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageMappingMessageHandler.getMappingComparator( Message < ? > message );1;0;3
+MessageMappingMessageHandler.setConversionService( ConversionService conversionService );1;0;3
+MessageMappingMessageHandler.setRouteMatcher( @ Nullable RouteMatcher routeMatcher );1;0;3
+MessageMappingMessageHandler.getCondition( AnnotatedElement element );3;3;9
+MessageMappingMessageHandler.afterPropertiesSet( );2;1;8
+MessageMappingMessageHandler.getRouteMatcher( );1;0;3
+MessageMappingMessageHandler.getConversionService( );1;0;3
+MessageMappingMessageHandler.registerMessagingAdvice( MessagingAdviceBean bean );5;1;12
+MessageMappingMessageHandler.MessageMappingMessageHandler( );1;0;3
+MessageMappingMessageHandler.processDestinations( String [ ] destinations );2;1;8
+MessageMappingMessageHandler.initReturnValueHandlers( );1;0;3
+MessageMappingMessageHandler.getDecoders( );1;0;3
+MessageMappingMessageHandler.getMatchingMapping( CompositeMessageCondition mapping , Message < ? > message );1;0;3
+MessageMappingMessageHandler.createExceptionMethodResolverFor( Class < ? > beanType );1;0;3
+MessageMappingMessageHandler.setDecoders( List < ? extends Decoder < ? > > decoders );1;0;4
+MessageMappingMessageHandler.getDestination( Message < ? > message );1;0;4
+MessageMappingMessageHandler.handleMatch( CompositeMessageCondition mapping , HandlerMethod handlerMethod , Message < ? > message );4;5;15
+MessageMappingMessageHandler.obtainRouteMatcher( );1;1;5
+MessageMappingMessageHandler.setValidator( @ Nullable Validator validator );1;0;3
+MessageMappingMessageHandler.getValidator( );1;0;3
+MessageMappingMessageHandler.getDirectLookupMappings( CompositeMessageCondition mapping );3;1;9
+MessageMappingMessageHandler.getMappingForMethod( Method method , Class < ? > handlerType );3;2;10
+MessageMappingMessageHandler.initArgumentResolvers( );3;0;16
+MessageMappingMessageHandler.setEmbeddedValueResolver( StringValueResolver resolver );1;0;3

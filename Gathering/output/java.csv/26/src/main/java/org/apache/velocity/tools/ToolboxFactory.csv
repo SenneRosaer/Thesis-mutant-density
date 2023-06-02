@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ToolboxFactory.putProperties( String scope , Map < String , Object > props );4;4;15
+ToolboxFactory.putData( String key , Object value );2;1;7
+ToolboxFactory.putGlobalProperties( Map < String , Object > props );4;4;13
+ToolboxFactory.getGlobalProperty( String name );2;1;7
+ToolboxFactory.hasTools( String scope );5;5;12
+ToolboxFactory.addToolInfo( String scope , ToolInfo tool );1;0;3
+ToolboxFactory.getData( );1;0;3
+ToolboxFactory.getToolInfo( String scope );2;1;9
+ToolboxFactory.configure( FactoryConfiguration config );7;0;30
+ToolboxFactory.ToolboxFactory( );1;0;4
+ToolboxFactory.createToolbox( String scope );7;7;30

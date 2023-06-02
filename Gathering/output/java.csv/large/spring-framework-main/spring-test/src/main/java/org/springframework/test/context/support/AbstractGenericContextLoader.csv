@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractGenericContextLoader.loadBeanDefinitions( GenericApplicationContext context , MergedContextConfiguration mergedConfig );1;0;3
+AbstractGenericContextLoader.prepareContext( GenericApplicationContext context );1;0;2
+AbstractGenericContextLoader.customizeContext( GenericApplicationContext context );1;0;2
+AbstractGenericContextLoader.loadContext( String ... locations );2;0;14
+AbstractGenericContextLoader.loadContextForAotRuntime( MergedContextConfiguration mergedConfig , ApplicationContextInitializer < ConfigurableApplicationContext > initializer );4;0;25
+AbstractGenericContextLoader.loadContext( MergedContextConfiguration mergedConfig );1;0;3
+AbstractGenericContextLoader.validateMergedContextConfiguration( MergedContextConfiguration mergedConfig );1;0;2
+AbstractGenericContextLoader.loadContextForAotProcessing( MergedContextConfiguration mergedConfig );1;0;3
+AbstractGenericContextLoader.loadContext( MergedContextConfiguration mergedConfig , boolean forAotProcessing );8;2;33
+AbstractGenericContextLoader.customizeBeanFactory( DefaultListableBeanFactory beanFactory );1;0;2
+AbstractGenericContextLoader.createContext( );1;0;3

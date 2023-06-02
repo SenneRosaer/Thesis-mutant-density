@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClientHandler.echoChannel( Flux < String > payloads );1;0;3
+RSocketServerToClientIntegrationTests.connectAndRunTest( String connectionRoute );2;1;20
+RSocketConfig.serverMessageHandler( );1;0;5
+ClientHandler.echoStream( String payload );1;1;3
+ClientHandler.echo( String payload );1;0;3
+RSocketServerToClientIntegrationTests.tearDownOnce( );1;0;3
+ClientHandler.receive( String payload );1;0;3
+RSocketServerToClientIntegrationTests.setupOnce( );1;0;9
+ServerController.echoStream( RSocketRequester requester );1;0;12
+RSocketServerToClientIntegrationTests.echoChannel( );1;0;3
+ServerController.echoAsync( RSocketRequester requester );1;0;12
+ServerController.echo( RSocketRequester requester );1;0;12
+ServerController.runTest( Runnable testEcho );1;0;9
+ServerController.reset( );1;0;3
+RSocketServerToClientIntegrationTests.echoStream( );1;0;3
+ClientHandler.echoAsync( String payload );1;0;3
+ServerController.await( Duration duration );1;0;3
+ServerController.echoChannel( RSocketRequester requester );1;0;13
+RSocketConfig.rsocketStrategies( );1;0;3
+RSocketServerToClientIntegrationTests.echo( );1;0;3
+RSocketConfig.serverController( );1;0;3
+RSocketServerToClientIntegrationTests.echoAsync( );1;0;3
+ServerController.handleFireAndForget( );1;0;2

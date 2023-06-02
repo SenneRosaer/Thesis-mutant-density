@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+R4LibraryClause.normalizeOSVersion( String value );5;3;36
+R4LibraryClause.normalizeProcessor( String value );20;9;47
+R4LibraryClause.getLanguages( );1;0;3
+R4LibraryClause.getOSVersions( );1;0;3
+R4LibraryClause.getSelectionFilter( );1;0;3
+R4LibraryClause.getProcessors( );1;0;3
+R4LibraryClause.getOSNames( );1;0;3
+R4LibraryClause.normalizeOSName( String value );28;13;97
+R4LibraryClause.checkSelectionFilter( Map configMap , String expr );3;0;18
+R4LibraryClause.R4LibraryClause( R4LibraryClause library );1;0;8
+R4LibraryClause.checkOSVersions( String currentOSVersion , String [ ] osversions );5;4;19
+R4LibraryClause.match( Map configMap );12;17;33
+R4LibraryClause.getLibraryFiles( );1;0;3
+R4LibraryClause.R4LibraryClause( String [ ] libraryFiles , String [ ] osnames , String [ ] processors , String [ ] osversions , String [ ] languages , String selectionFilter );1;0;8
+R4LibraryClause.checkProcessors( String currentProcessor , String [ ] processors );4;4;10
+R4LibraryClause.checkLanguages( String currentLanguage , String [ ] languages );4;4;10
+R4LibraryClause.parse( Logger logger , String s );17;14;99
+R4LibraryClause.checkOSNames( String currentOSName , String [ ] osnames );13;13;19

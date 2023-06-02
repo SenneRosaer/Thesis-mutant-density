@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UserManagerImpl.UserManagerImpl( SessionImpl session , String adminId );2;0;12
+UserManagerImpl.createParentNode( String path );5;5;25
+UserManagerImpl.getUserNode( String userID );7;2;20
+AuthorizableIterator.remove( );1;0;3
+UserManagerImpl.createGroup( Principal principal );1;0;3
+UserManagerImpl.getParentPath( String hint , String root );6;7;13
+UserManagerImpl.getAuthorizable( Principal principal );8;2;26
+AuthorizableIterator.AuthorizableIterator( NodeIterator authNodeIter );1;0;4
+UserManagerImpl.getAuthorizable( String id );5;5;16
+UserManagerImpl.isAdminId( String userID );2;1;3
+UserManagerImpl.createGroup( Principal principal , String intermediatePath );5;2;25
+UserManagerImpl.createUser( String userID , String password , Principal principal , String intermediatePath );8;7;30
+UserManagerImpl.hasAuthorizableOrReferee( Principal principal );1;0;7
+AuthorizableIterator.hasNext( );1;1;3
+UserManagerImpl.setProtectedProperty( NodeImpl node , Name propName , Value value );1;0;4
+AuthorizableIterator.next( );2;1;8
+UserManagerImpl.createUser( NodeImpl userNode );1;0;5
+UserManagerImpl.setProtectedProperty( NodeImpl node , Name propName , Value [ ] values );1;0;4
+UserManagerImpl.createUser( String userID , String password );1;0;3
+UserManagerImpl.getCurrentUserPath( );4;1;17
+AuthorizableIterator.seekNext( );6;1;23
+UserManagerImpl.getGroupNode( String groupID );7;2;21
+UserManagerImpl.findAuthorizables( String propertyName , String value );1;0;3
+UserManagerImpl.getValue( String strValue );1;0;3
+UserManagerImpl.getGroupId( String principalName );2;3;10
+UserManagerImpl.findAuthorizables( String propertyName , String value , int searchType );4;0;18
+UserManagerImpl.removeProtectedItem( ItemImpl item , Node parent );1;0;4
+UserManagerImpl.createGroup( NodeImpl groupNode );1;0;5

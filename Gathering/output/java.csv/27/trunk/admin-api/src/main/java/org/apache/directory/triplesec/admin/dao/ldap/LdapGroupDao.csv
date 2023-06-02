@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LdapGroupDao.convertToLdapDns( ModificationItem item );3;2;19
+LdapGroupDao.iterator( );2;0;17
+LdapGroupDao.convertDnsToUsers( Attribute attribute );2;2;10
+LdapGroupDao.load( String name );3;0;31
+LdapGroupDao.getRelativeDn( String name );1;0;6
+LdapGroupDao.getEntryObject( Object extra , Attributes attrs );2;0;23
+LdapGroupDao.delete( String name );3;1;20
+LdapGroupDao.LdapGroupDao( DirContext ctx );3;0;29
+LdapGroupDao.rename( String newName , Group archetype );5;0;34
+LdapGroupDao.modify( String creatorsName , Date createTimestamp , String name , Set members , ModificationItem [ ] mods );6;4;36
+LdapGroupDao.add( String name , Set members );4;1;27
+LdapGroupDao.deleteEntry( String rdn );2;0;10
+LdapGroupDao.convertToLdapDns( Set members );2;0;12

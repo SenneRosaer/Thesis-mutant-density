@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CharUtil.CharUtil( int charBufSize );1;0;3
+CharIterator.release( );1;0;5
+CharIterator.hasNext( );1;1;1
+***not in a method***;0;1;0
+CharJoin.getChars( char [ ] chars , int start , int off , int cch );3;9;12
+CharUtil.stripRight( Object src , int off , int cch );5;4;19
+CharJoin.dumpChars( int off , int cch );1;0;3
+CharUtil.dump( Object src , int off , int cch );1;0;4
+CharJoin.dumpChars( PrintStream p , int off , int cch );1;0;7
+CharUtil.isWhiteSpace( Object src , int off , int cch );10;10;30
+CharUtil.getCharIterator( Object src , int off , int cch );1;0;4
+CharJoin.CharJoin( Object srcLeft , int offLeft , int cchLeft , Object srcRight , int offRight );4;4;15
+CharJoin.getString( StringBuffer sb , int off , int cch );3;8;12
+CharJoin.depth( );3;1;8
+CharUtil.getThreadLocalCharUtil( );2;1;10
+CharUtil.sizeof( Object src );5;4;6
+CharUtil.getCharIterator( Object src , int off , int cch , int start );1;0;4
+CharUtil.getString( Object src , int off , int cch );6;5;17
+CharUtil.insertChars( int posInsert , Object src , int off , int cch , Object srcInsert , int offInsert , int cchInsert );9;18;47
+CharJoin.isValid( int off , int cch );6;7;12
+CharUtil.dumpChars( PrintStream p , Object src , int off , int cch );17;26;42
+CharUtil.removeChars( int posRemove , int cchRemove , Object src , int off , int cch );9;24;49
+CharUtil.saveChars( Object srcSave , int offSave , int cchSave , Object srcPrev , int offPrev , int cchPrev );10;23;56
+CharIterator.movePos( int newPos );9;20;39
+CharUtil.allocate( int cch );4;10;18
+CharUtil.stripLeft( Object src , int off , int cch );11;13;36
+CharUtil.getString( StringBuffer sb , Object src , int off , int cch );6;5;17
+CharIterator.prev( );1;1;5
+CharIterator.next( );1;1;6
+CharUtil.initialValue( );1;0;1
+CharUtil.isValid( Object src , int off , int cch );10;15;19
+CharIterator.hasPrev( );1;1;1
+CharIterator.init( Object src , int off , int cch , int startPos );1;1;9
+CharIterator.currentChar( );2;3;4
+CharUtil.dumpText( PrintStream o , String s );9;9;20
+CharUtil.saveChars( Object srcSave , int offSave , int cchSave );1;0;3
+CharIterator.init( Object src , int off , int cch );1;0;3
+CharJoin.cchRight( int off , int cch );1;2;3
+CharUtil.getChars( char [ ] chars , int start , Object src , int off , int cch );6;7;12
+CharUtil.isWhiteSpace( char ch );5;0;7
+CharUtil.canAllocate( int cch );2;4;3

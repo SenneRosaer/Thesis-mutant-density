@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ObjectPersistenceManager.store( NodeState state );3;1;20
+ObjectPersistenceManager.destroy( PropertyState state );8;6;28
+ObjectPersistenceManager.load( PropertyId id );5;2;30
+ObjectPersistenceManager.destroy( NodeState state );4;1;16
+ObjectPersistenceManager.load( NodeReferencesId id );5;2;30
+ObjectPersistenceManager.destroy( NodeReferences refs );4;1;16
+ObjectPersistenceManager.close( );2;1;12
+ObjectPersistenceManager.store( PropertyState state );3;1;20
+ObjectPersistenceManager.ObjectPersistenceManager( );1;0;3
+ObjectPersistenceManager.store( NodeReferences refs );3;1;20
+ObjectPersistenceManager.exists( NodeReferencesId id );3;1;14
+ObjectPersistenceManager.buildNodeReferencesFilePath( NodeReferencesId id );1;2;3
+ObjectPersistenceManager.buildNodeFolderPath( NodeId id );5;7;16
+ObjectPersistenceManager.exists( NodeId id );3;1;14
+ObjectPersistenceManager.init( PMContext context );2;0;13
+ObjectPersistenceManager.load( NodeId id );6;2;34
+ObjectPersistenceManager.buildPropFilePath( PropertyId id );3;10;20
+ObjectPersistenceManager.buildNodeFilePath( NodeId id );1;2;3
+ObjectPersistenceManager.exists( PropertyId id );3;1;14

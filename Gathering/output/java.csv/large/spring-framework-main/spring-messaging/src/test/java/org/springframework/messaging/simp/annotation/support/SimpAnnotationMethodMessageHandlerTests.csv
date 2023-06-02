@@ -1,0 +1,53 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestController.headers( @ Header String foo , @ Headers Map < String , Object > headers );1;0;5
+ListenableFutureController.handleListenableFutureException( );1;0;6
+SimpAnnotationMethodMessageHandlerTests.headerArgumentResolution( );2;0;9
+TestSimpAnnotationMethodMessageHandler.TestSimpAnnotationMethodMessageHandler( SimpMessageSendingOperations brokerTemplate , SubscribableChannel clientInboundChannel , MessageChannel clientOutboundChannel );1;0;3
+SimpAnnotationMethodMessageHandlerTests.dotPathSeparator( );2;0;13
+StringTestValidator.StringTestValidator( String invalidValue );1;0;3
+ReactiveController.handleValidationException( );1;0;3
+TestController.optionalHeaders( @ Header ( name = "foo" , required = false ) String foo1 , @ Header ( "foo" ) Optional < String > foo2 );2;0;5
+SimpAnnotationMethodMessageHandlerTests.placeholder( );3;0;7
+SimpAnnotationMethodMessageHandlerTests.fluxNotHandled( );2;0;10
+TestController.payloadValidation( @ Validated @ Payload String payload );1;0;4
+TestController.messageMappingDestinationVariable( @ DestinationVariable ( "foo" ) String param1 , @ DestinationVariable ( "name" ) String param2 );1;0;5
+SimpAnnotationMethodMessageHandlerTests.exceptionWithHandlerMethodArg( );2;0;9
+SimpAnnotationMethodMessageHandlerTests.validationError( );2;0;6
+TestController.handleExceptionWithHandlerMethodArg( IllegalStateException ex , HandlerMethod handlerMethod );1;0;5
+DotPathSeparatorController.handleFoo( );1;0;3
+ReactiveController.handleMono( );1;0;4
+TestController.errorAsThrowable( );1;0;3
+CompletableFutureController.handleCompletableFuture( );1;0;4
+SimpAnnotationMethodMessageHandlerTests.optionalHeaderArgumentResolutionWhenPresent( );2;0;9
+SimpAnnotationMethodMessageHandlerTests.simpScope( );2;0;12
+TestController.scope( );1;0;5
+SimpAnnotationMethodMessageHandlerTests.setup( );1;0;8
+TestSimpAnnotationMethodMessageHandler.registerHandler( Object handler );1;0;3
+SimpAnnotationMethodMessageHandlerTests.messageMappingDestinationVariableResolution( );2;0;8
+TestController.handleValidationException( );1;0;3
+SimpAnnotationMethodMessageHandlerTests.subscribeEventDestinationVariableResolution( );2;0;8
+SimpAnnotationMethodMessageHandlerTests.monoSuccess( );2;0;14
+ListenableFutureController.handleListenableFuture( );1;0;4
+SimpAnnotationMethodMessageHandlerTests.createMessage( String destination , Map < String , Object > headers );1;0;3
+SimpAnnotationMethodMessageHandlerTests.completableFutureFailure( );2;0;9
+StringTestValidator.validate( @ Nullable Object target , Errors errors );2;0;6
+SimpAnnotationMethodMessageHandlerTests.listenableFutureSuccess( );2;0;14
+ListenableFutureController.handleValidationException( );1;0;3
+TestController.subscribeEventDestinationVariable( @ DestinationVariable ( "foo" ) String param1 , @ DestinationVariable ( "name" ) String param2 );1;0;5
+TestController.handleErrorWithHandlerMethodArg( Error ex , HandlerMethod handlerMethod );1;0;5
+SimpAnnotationMethodMessageHandlerTests.createMessage( String destination );1;0;3
+SimpAnnotationMethodMessageHandlerTests.monoFailure( );2;0;9
+StringTestValidator.supports( Class < ? > clazz );1;0;3
+CompletableFutureController.handleValidationException( );1;0;3
+TestController.illegalState( );1;0;3
+SimpAnnotationMethodMessageHandlerTests.errorAsMessageHandlingException( );2;0;9
+SimpAnnotationMethodMessageHandlerTests.optionalHeaderArgumentResolutionWhenNotPresent( );2;0;8
+TestController.simpleBinding( @ DestinationVariable ( "id" ) Long id );1;0;4
+SimpAnnotationMethodMessageHandlerTests.simpleBinding( );2;0;8
+TestController.placeholder( );1;0;3
+SimpAnnotationMethodMessageHandlerTests.listenableFutureFailure( );2;0;9
+TestController.illegalStateCause( );1;0;3
+SimpAnnotationMethodMessageHandlerTests.createMessage( SimpMessageType messageType , String destination , Map < String , Object > headers );3;1;12
+ReactiveController.handleFlux( );1;0;4
+SimpAnnotationMethodMessageHandlerTests.completableFutureSuccess( );2;0;14
+SimpAnnotationMethodMessageHandlerTests.exceptionAsCause( );2;0;9

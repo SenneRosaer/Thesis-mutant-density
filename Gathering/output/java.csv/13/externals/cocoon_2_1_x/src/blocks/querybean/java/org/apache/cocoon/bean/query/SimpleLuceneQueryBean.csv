@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleLuceneQueryBean.getCriteria( );1;0;3
+SimpleLuceneQueryBean.getId( );1;0;3
+SimpleLuceneQueryBean.page( Hits hits );7;6;21
+SimpleLuceneQueryBean.setSize( Long size );1;0;3
+SimpleLuceneQueryBean.addCriterion( SimpleLuceneCriterionBean criterion );2;1;4
+SimpleLuceneQueryBean.getBool( );1;0;3
+SimpleLuceneQueryBean.getName( );1;0;3
+SimpleLuceneQueryBean.search( LuceneCocoonSearcher searcher );3;0;15
+SimpleLuceneQueryBean.setDate( Date date );1;0;3
+SimpleLuceneQueryBean.setType( String type );1;0;3
+SimpleLuceneQueryBean.SimpleLuceneQueryBean( String type , String bool , String match , String field , String query );1;0;11
+SimpleLuceneQueryBean.getDate( );1;0;3
+SimpleLuceneQueryBean.setUser( String user );1;0;3
+SimpleLuceneQueryBean.setName( String name );1;0;3
+SimpleLuceneQueryBean.setPage( Long page );1;0;3
+SimpleLuceneQueryBean.setTotal( Long total );1;0;3
+SimpleLuceneQueryBean.clone( );2;0;7
+SimpleLuceneQueryBean.SimpleLuceneQueryBean( );1;0;2
+SimpleLuceneQueryBean.getUser( );1;0;3
+SimpleLuceneQueryBean.setId( Long id );1;0;3
+SimpleLuceneQueryBean.getPage( );2;1;7
+SimpleLuceneQueryBean.getTotal( );1;0;3
+SimpleLuceneQueryBean.removeCriterion( SimpleLuceneCriterionBean criterion );2;1;3
+SimpleLuceneQueryBean.setCriteria( List criteria );1;0;3
+SimpleLuceneQueryBean.getType( );1;0;3
+SimpleLuceneQueryBean.setBool( String bool );1;0;3
+SimpleLuceneQueryBean.getSize( );2;1;7

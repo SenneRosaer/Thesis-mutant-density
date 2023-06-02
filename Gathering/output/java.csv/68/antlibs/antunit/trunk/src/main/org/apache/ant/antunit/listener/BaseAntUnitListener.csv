@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LogGrabber.taskStarted( BuildEvent event );1;0;1
+LogGrabber.buildStarted( BuildEvent event );1;0;1
+***not in a method***;0;1;0
+LogGrabber.buildFinished( BuildEvent event );1;0;1
+LogGrabber.targetFinished( BuildEvent event );1;0;1
+AntUnitLogLevel.getValues( );1;0;10
+BaseAntUnitListener.setParentTask( Task t );1;0;3
+AntUnitLogLevel.AntUnitLogLevel( String value );1;0;4
+BaseAntUnitListener.normalize( String buildFile );4;4;13
+BaseAntUnitListener.getLocation( Throwable t );3;1;10
+BaseAntUnitListener.getToDir( );1;0;3
+BaseAntUnitListener.startTest( String target );1;1;4
+SendLogTo.SendLogTo( );1;0;1
+BaseAntUnitListener.setCurrentTestProject( Project p );1;0;4
+BaseAntUnitListener.getOut( String buildFile );11;5;33
+BaseAntUnitListener.messageLogged( BuildEvent event );1;0;1
+AntUnitLogLevel.AntUnitLogLevel( );1;0;3
+BaseAntUnitListener.addFailure( String target , AssertionFailedException ae );1;1;3
+LogGrabber.targetStarted( BuildEvent event );1;0;1
+BaseAntUnitListener.setToDir( File f );1;0;3
+BaseAntUnitListener.setLogLevel( AntUnitLogLevel l );1;0;3
+BaseAntUnitListener.BaseAntUnitListener( SendLogTo defaultReportTarget , String extension );1;0;5
+AntUnitLogLevel.getLevel( );1;0;3
+BaseAntUnitListener.getCurrentTestProject( );1;0;3
+BaseAntUnitListener.close( OutputStream out );3;3;5
+BaseAntUnitListener.addError( String target , Throwable ae );1;1;3
+LogGrabber.messageLogged( BuildEvent event );2;1;6
+SendLogTo.getValues( );1;0;3
+BaseAntUnitListener.startTestSuite( Project testProject , String buildFile );1;0;4
+BaseAntUnitListener.setSendLogTo( SendLogTo logTo );1;0;3
+SendLogTo.SendLogTo( String s );1;0;3
+LogGrabber.taskFinished( BuildEvent event );1;0;1

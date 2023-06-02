@@ -1,0 +1,59 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RegularExpression.setPattern( String newPattern );1;0;3
+RegularExpression.matches( String target , int start , int end , Match match );43;45;135
+RegularExpression.matches( CharacterIterator target , Match match );41;45;130
+RegularExpression.matches( CharacterIterator target );1;0;3
+RegularExpression.isWordChar( int ch );8;7;10
+***not in a method***;0;10;0
+RegularExpression.matches( String target );1;0;3
+RegularExpression.matches( char [ ] target , int start , int end , Match match );41;45;128
+RegularExpression.prepare( );21;21;56
+RegularExpression.getPreviousWordType( CharacterIterator target , int begin , int end , int offset , int opts );2;3;6
+RegularExpression.isSet( int options , int flag );1;2;3
+RegularExpression.compile( Token tok );2;1;6
+RegularExpression.getNumberOfGroups( );1;0;3
+RegularExpression.regionMatchesIgnoreCase( CharacterIterator target , int offset , int limit , int offset2 , int partlen );7;10;19
+RegularExpression.matchIgnoreCase( int chardata , int ch );5;6;8
+RegularExpression.regionMatchesIgnoreCase( String text , int offset , int limit , String part , int partlen );1;0;3
+RegularExpression.matches( char [ ] target );1;0;3
+RegularExpression.getWordType0( char ch , int opts );23;1;37
+RegularExpression.matches( String target , Match match );1;0;3
+RegularExpression.regionMatches( String text , int offset , int limit , String part , int partlen );2;2;4
+RegularExpression.getPreviousWordType( char [ ] target , int begin , int end , int offset , int opts );2;3;6
+RegularExpression.regionMatches( CharacterIterator target , int offset , int limit , int offset2 , int partlen );5;8;11
+Context.reset( char [ ] target , int start , int limit , int nofclosures );1;0;6
+Context.Context( );1;0;2
+RegularExpression.matches( char [ ] target , int start , int end );1;0;3
+RegularExpression.matchCharArray( Context con , Op op , int offset , int dx , int opts );171;267;379
+Context.reset( String target , int start , int limit , int nofclosures );1;0;6
+RegularExpression.isEOLChar( int ch );4;7;4
+RegularExpression.matches( String target , int start , int end );1;0;3
+RegularExpression.hashCode( );1;1;3
+RegularExpression.regionMatchesIgnoreCase( String text , int offset , int limit , int offset2 , int partlen );2;2;4
+RegularExpression.regionMatches( char [ ] target , int offset , int limit , String part , int partlen );5;8;11
+RegularExpression.equals( String pattern , int options );2;2;3
+RegularExpression.getWordType( CharacterIterator target , int begin , int end , int offset , int opts );3;3;4
+RegularExpression.getWordType( char [ ] target , int begin , int end , int offset , int opts );3;3;4
+RegularExpression.equals( Object obj );4;4;7
+RegularExpression.regionMatchesIgnoreCase( CharacterIterator target , int offset , int limit , String part , int partlen );7;10;19
+RegularExpression.regionMatches( String text , int offset , int limit , int offset2 , int partlen );2;2;4
+RegularExpression.getPreviousWordType( String target , int begin , int end , int offset , int opts );2;3;6
+RegularExpression.regionMatchesIgnoreCase( char [ ] target , int offset , int limit , int offset2 , int partlen );7;10;19
+RegularExpression.setPattern( String newPattern , String options );1;0;3
+RegularExpression.regionMatches( char [ ] target , int offset , int limit , int offset2 , int partlen );5;8;11
+RegularExpression.RegularExpression( String regex );1;0;3
+RegularExpression.matchString( Context con , Op op , int offset , int dx , int opts );171;267;379
+RegularExpression.compile( Token tok , Op next , boolean reverse );40;33;138
+RegularExpression.matches( char [ ] target , Match match );1;0;3
+RegularExpression.setPattern( String newPattern , int options );2;0;11
+RegularExpression.RegularExpression( String regex , Token tok , int parens , boolean hasBackReferences , int options );1;0;7
+RegularExpression.matchCharacterIterator( Context con , Op op , int offset , int dx , int opts );171;267;379
+RegularExpression.getPattern( );1;0;3
+RegularExpression.RegularExpression( String regex , String options );1;0;3
+RegularExpression.toString( );1;0;3
+Context.reset( CharacterIterator target , int start , int limit , int nofclosures );1;0;6
+RegularExpression.getOptions( );1;0;3
+Context.resetCommon( int nofclosures );4;7;8
+RegularExpression.regionMatchesIgnoreCase( char [ ] target , int offset , int limit , String part , int partlen );7;10;19
+RegularExpression.regionMatches( CharacterIterator target , int offset , int limit , String part , int partlen );5;8;11
+RegularExpression.getWordType( String target , int begin , int end , int offset , int opts );3;3;4

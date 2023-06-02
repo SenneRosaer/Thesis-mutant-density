@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InternalVersionImpl.getName( );1;0;3
+InternalVersionImpl.getParent( );1;0;3
+InternalVersionImpl.clear( );1;0;3
+InternalVersionImpl.isMoreRecent( InternalVersion v );4;3;10
+InternalVersionImpl.internalAddSuccessor( InternalVersionImpl succ , boolean store );2;1;7
+InternalVersionImpl.internalAttach( );2;2;6
+InternalVersionImpl.internalDetach( );3;4;11
+InternalVersionImpl.getFrozenNodeId( );2;1;7
+InternalVersionImpl.storeXCessors( List cessors , Name propname , boolean store );3;2;11
+InternalVersionImpl.invalidate( );1;0;3
+InternalVersionImpl.getId( );1;0;3
+InternalVersionImpl.getLabels( );1;0;3
+InternalVersionImpl.internalDetachPredecessor( InternalVersionImpl v , boolean store );1;0;6
+InternalVersionImpl.getVersionHistory( );1;0;3
+InternalVersionImpl.getCreated( );1;0;3
+InternalVersionImpl.hashCode( );1;0;3
+InternalVersionImpl.getFrozenNode( );2;0;7
+InternalVersionImpl.InternalVersionImpl( InternalVersionHistoryImpl vh , NodeStateEx node , Name name );2;1;10
+InternalVersionImpl.getPredecessors( );3;3;13
+InternalVersionImpl.internalAddLabel( Name label );2;1;6
+InternalVersionImpl.internalRemoveLabel( Name label );2;1;7
+InternalVersionImpl.isRootVersion( );1;0;3
+InternalVersionImpl.hasLabel( Name label );1;0;3
+InternalVersionImpl.internalDetachSuccessor( InternalVersionImpl v , boolean store );1;0;6
+InternalVersionImpl.getSuccessors( );3;3;18
+InternalVersionImpl.equals( Object obj );3;1;10
+InternalVersionImpl.internalHasLabel( Name label );2;1;7
+InternalVersionImpl.internalGetLabels( );2;1;7
+InternalVersionImpl.legacyResolveSuccessors( );3;3;10

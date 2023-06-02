@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JUnitTestRunner.setSystemError( String err );1;0;2
+JUnitTestRunner.createAndStoreFormatter( String line );4;7;22
+JUnitTestRunner.JUnitTestRunner( JUnitTest test , boolean haltOnError , boolean filtertrace , boolean haltOnFailure , boolean showOutput , boolean logTestListenerEvents , ClassLoader loader );1;0;9
+JUnitTestRunner.handleErrorOutput( String output );2;1;5
+JUnitTestRunner.startTest( Test test );1;0;3
+JUnitTestRunner.sendOutAndErr( String out , String err );2;2;8
+JUnitTestRunner.launch( JUnitTest t , boolean haltError , boolean stackfilter , boolean haltFail , boolean showOut , boolean outputToFormat , boolean logTestListenerEvents );1;0;10
+JUnitTestRunner.fireEndTestSuite( );2;2;6
+JUnitTestRunner.handleInput( byte [ ] buffer , int offset , int length );1;1;3
+JUnitTestRunner.JUnitTestRunner( JUnitTest test , boolean haltOnError , boolean filtertrace , boolean haltOnFailure );1;0;3
+JUnitTestRunner.filterLine( String line );3;4;8
+JUnitTestRunner.addError( Test test , Throwable t );2;3;7
+JUnitTestRunner.setOutput( OutputStream out );1;0;2
+JUnitTestRunner.setPermissions( Permissions permissions );1;0;3
+JUnitTestRunner.run( );20;18;108
+JUnitTestRunner.findJUnit4FailureErrorCount( TestResult res );5;4;20
+JUnitTestRunner.setSystemOutput( String out );1;0;2
+JUnitTestRunner.setupIOStreams( ByteArrayOutputStream o , ByteArrayOutputStream e );6;4;29
+JUnitTestRunner.transferFormatters( JUnitTestRunner runner , JUnitTest test );4;4;33
+JUnitTestRunner.registerTestCase( String testCase );4;2;17
+JUnitTestRunner.logTestListenerEvent( String msg );5;3;15
+JUnitTestRunner.startTest( Test arg0 );1;0;3
+JUnitTestRunner.getFilteredTrace( Throwable t );1;0;4
+JUnitTestRunner.addFormatter( JUnitTaskMirror . JUnitResultFormatterMirror f );1;0;3
+JUnitTestRunner.write( int b );1;0;2
+JUnitTestRunner.getRetCode( );1;0;3
+JUnitTestRunner.endTestSuite( JUnitTest suite );1;0;2
+JUnitTestRunner.JUnitTestRunner( JUnitTest test , boolean haltOnError , boolean filtertrace , boolean haltOnFailure , boolean showOutput , boolean logTestListenerEvents );1;0;4
+JUnitTestRunner.addFormatter( JUnitResultFormatter f );1;0;3
+JUnitTestRunner.handleOutput( String output );4;3;6
+JUnitTestRunner.JUnitTestRunner( JUnitTest test , boolean haltOnError , boolean filtertrace , boolean haltOnFailure , boolean showOutput );1;0;3
+JUnitTestRunner.startTestSuite( JUnitTest suite );1;0;2
+JUnitTestRunner.endTest( Test arg0 );1;0;2
+JUnitTestRunner.endTest( Test test );1;0;4
+JUnitTestRunner.addError( Test arg0 , Throwable arg1 );1;0;2
+JUnitTestRunner.createEmptyStream( );1;0;7
+JUnitTestRunner.addFailure( Test test , Throwable t );2;0;7
+JUnitTestRunner.createTeePrint( PrintStream ps1 , PrintStream ps2 );1;0;3
+JUnitTestRunner.handleErrorFlush( String output );2;1;5
+JUnitTestRunner.filterStack( String stack );5;3;20
+JUnitTestRunner.isAssertionError( Class clazz );3;1;9
+JUnitTestRunner.fireStartTestSuite( );2;2;6
+JUnitTestRunner.JUnitTestRunner( JUnitTest test , boolean haltOnError , boolean filtertrace , boolean haltOnFailure , boolean showOutput , ClassLoader loader );1;0;4
+JUnitTestRunner.main( String [ ] args );25;11;102
+JUnitTestRunner.registerNonCrash( );3;2;14
+JUnitTestRunner.handleFlush( String output );2;1;5
+JUnitTestRunner.addFailure( Test test , AssertionFailedError t );1;0;3
+JUnitTestRunner.wrapListener( final TestListener testListener );8;0;40
+JUnitTestRunner.startTest( Test t );1;0;4
+JUnitTestRunner.JUnitTestRunner( JUnitTest test , boolean haltOnError , boolean filtertrace , boolean haltOnFailure , ClassLoader loader );1;0;3
+JUnitTestRunner.addFailure( Test arg0 , AssertionFailedError arg1 );1;0;2

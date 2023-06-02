@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SvnChangeLogTask.loadUserlist( final Properties userList );3;1;9
+SvnChangeLogTask.replaceAuthorIdWithName( final Properties userList , final SvnEntry [ ] entrySet );3;2;8
+SvnChangeLogTask.validate( );6;6;19
+SvnChangeLogTask.setEnd( final String endRevision );1;0;3
+SvnChangeLogTask.setStart( final String start );1;0;3
+SvnChangeLogTask.addFileset( final FileSet fileSet );1;0;3
+SvnChangeLogTask.setDir( final File inputDir );1;0;3
+SvnChangeLogTask.setDaysinpast( final int days );2;5;11
+SvnChangeLogTask.addUser( final CvsUser user );1;0;3
+SvnChangeLogTask.setUsersfile( final File usersFile );1;0;3
+SvnChangeLogTask.writeChangeLog( final SvnEntry [ ] entrySet );3;0;16
+SvnChangeLogTask.execute( );7;8;49
+SvnChangeLogTask.setDestfile( final File destFile );1;0;3
+SvnChangeLogTask.filterEntrySet( final SvnEntry [ ] entrySet );4;5;13
+SvnChangeLogTask.isBeforeEndRevision( SvnEntry entry );5;5;21

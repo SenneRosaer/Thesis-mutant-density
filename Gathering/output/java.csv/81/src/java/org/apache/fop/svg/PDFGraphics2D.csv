@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PDFGraphics2D.processPathIterator( PathIterator iter );7;11;36
+PDFGraphics2D.dispose( );1;0;6
+PDFGraphics2D.handleIOException( IOException ioe );1;0;3
+PDFGraphics2D.applyPaint( Paint paint , boolean fill );19;31;138
+PDFGraphics2D.getString( );1;0;3
+PDFGraphics2D.preparePainting( );1;0;2
+PDFGraphics2D.drawRenderableImage( RenderableImage img , AffineTransform xform );1;0;3
+PDFGraphics2D.fill( Shape s );14;9;52
+PDFGraphics2D.addRenderedImage( String key , RenderedImage img );3;1;15
+PDFGraphics2D.drawInnerRenderedImage( String key , RenderedImage img , AffineTransform xform );2;1;10
+PDFGraphics2D.applyColor( Color col , boolean fill );8;7;36
+PDFGraphics2D.writeClip( Shape s );2;1;10
+PDFGraphics2D.copyArea( int x , int y , int width , int height , int dx , int dy );1;0;2
+PDFGraphics2D.addLink( Rectangle2D bounds , AffineTransform trans , String dest , int linkType );4;3;20
+PDFGraphics2D.doDrawing( boolean fill , boolean stroke , boolean nonzero );5;0;20
+PDFGraphics2D.getBuffer( );1;0;3
+PDFGraphics2D.createPattern( PatternPaint pp , boolean fill );5;6;51
+PDFGraphics2D.addNativeImage( org . apache . xmlgraphics . image . loader . Image image , float x , float y , float width , float height );6;3;27
+PDFGraphics2D.getPageReference( );1;0;3
+PDFGraphics2D.drawString( String s , float x , float y );14;20;75
+PDFGraphics2D.getInternalFontForAWTFont( java . awt . Font awtFont );1;0;3
+PDFGraphics2D.getDeviceConfiguration( );1;0;3
+PDFGraphics2D.PDFGraphics2D( boolean textAsShapes );1;0;3
+PDFGraphics2D.applyStroke( Stroke stroke );11;5;47
+PDFGraphics2D.setPaintingState( PDFPaintingState state );1;0;4
+PDFGraphics2D.buildBufferedImage( Dimension size );1;0;4
+PDFGraphics2D.getBaseTransform( );1;0;4
+PDFGraphics2D.setGraphicContext( GraphicContext c );1;0;4
+PDFGraphics2D.draw( Shape s );13;7;50
+PDFGraphics2D.setXORMode( Color c1 );1;0;2
+PDFGraphics2D.checkTransparencyAllowed( );1;0;3
+PDFGraphics2D.drawImage( Image img , int x , int y , int width , int height , ImageObserver observer );3;2;30
+PDFGraphics2D.useXObject( PDFXObject xObject , AffineTransform xform , float width , float height );1;0;11
+PDFGraphics2D.isMultiByteFont( String name );1;0;5
+PDFGraphics2D.applyAlpha( int fillAlpha , int strokeAlpha );5;7;16
+PDFGraphics2D.setOverrideFontState( Font infont );1;0;3
+PDFGraphics2D.concatMatrix( double [ ] matrix );1;5;8
+PDFGraphics2D.drawImage( Image img , int x , int y , ImageObserver observer );3;5;9
+PDFGraphics2D.setPrivateHints( );1;0;4
+PDFGraphics2D.updateCurrentFont( Font font );3;4;10
+PDFGraphics2D.concatMatrix( AffineTransform transform );2;1;7
+PDFGraphics2D.drawRenderedImage( RenderedImage img , AffineTransform xform );1;0;4
+PDFGraphics2D.create( );1;0;3
+PDFGraphics2D.PDFGraphics2D( boolean textAsShapes , FontInfo fi , PDFDocument doc , PDFResourceContext page , String pref , String font , float size );1;0;10
+PDFGraphics2D.PDFGraphics2D( PDFGraphics2D g );1;0;14
+PDFGraphics2D.getFontMetrics( java . awt . Font f );1;0;3
+PDFGraphics2D.applyUnknownPaint( Paint paint , Shape shape );16;39;111
+PDFGraphics2D.setOutputStream( OutputStream os );1;0;3
+PDFGraphics2D.addKerning( StringWriter buf , Integer ch1 , Integer ch2 , Map kerning , String startText , String endText );3;5;10

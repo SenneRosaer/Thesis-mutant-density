@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Resource.setDirectory( boolean directory );2;0;4
+Resource.setSize( long size );2;1;4
+Resource.equals( Object other );3;2;6
+***not in a method***;0;1;0
+Resource.setName( String name );1;0;4
+Resource.Resource( String name , boolean exists , long lastmodified , boolean directory );1;0;3
+Resource.Resource( String name );1;0;3
+Resource.next( );2;0;7
+Resource.setRefid( Reference r );6;9;10
+Resource.Resource( String name , boolean exists , long lastmodified );1;0;3
+Resource.getOutputStream( );2;0;6
+Resource.size( );2;0;3
+Resource.clone( );2;0;9
+Resource.toLongString( );2;2;4
+Resource.getName( );2;0;3
+Resource.getLastModified( );5;4;10
+Resource.toString( );3;1;7
+Resource.remove( );1;0;3
+Resource.getSize( );4;1;8
+Resource.isDirectory( );3;2;6
+Resource.setExists( boolean exists );2;0;4
+Resource.isExists( );3;2;6
+Resource.hashCode( );3;2;7
+Resource.getInputStream( );2;0;6
+Resource.hasNext( );1;1;3
+Resource.getMagicNumber( byte [ ] seed );1;0;3
+Resource.isFilesystemOnly( );3;3;4
+Resource.Resource( String name , boolean exists , long lastmodified , boolean directory , long size );1;0;8
+Resource.Resource( );1;0;2
+Resource.compareTo( Object other );3;1;10
+Resource.iterator( );3;0;19
+Resource.setLastModified( long lastmodified );1;0;4
+Resource.as( Class clazz );2;0;3

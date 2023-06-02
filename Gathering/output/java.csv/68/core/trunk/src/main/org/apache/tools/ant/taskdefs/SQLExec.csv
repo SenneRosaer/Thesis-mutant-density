@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SQLExec.setCsvQuoteCharacter( String s );3;3;7
+SQLExec.setShowtrailers( boolean showtrailers );1;0;3
+SQLExec.printWarnings( SQLWarning warning , boolean force );7;4;13
+SQLExec.setEncoding( String encoding );1;0;3
+SQLExec.getStatement( );2;1;7
+SQLExec.setEscapeProcessing( boolean enable );1;0;3
+SQLExec.setDelimiter( String delimiter );1;0;3
+SQLExec.setExpandProperties( boolean expandProperties );1;0;3
+Transaction.setSrc( File src );2;1;5
+SQLExec.setShowWarnings( boolean b );1;0;3
+SQLExec.printResults( PrintStream out );2;1;10
+SQLExec.addFileset( FileSet set );1;0;3
+Transaction.addConfigured( ResourceCollection a );2;1;7
+SQLExec.setRawBlobs( boolean rawBlobs );1;0;3
+Transaction.addText( String sql );2;2;5
+SQLExec.setPrint( boolean print );1;0;3
+DelimiterType.getValues( );1;0;3
+SQLExec.setDelimiterType( DelimiterType delimiterType );1;0;3
+SQLExec.setOutput( Resource output );1;0;3
+SQLExec.setTreatWarningsAsErrors( boolean b );1;0;3
+OnError.getValues( );1;0;3
+SQLExec.execute( );26;19;100
+SQLExec.setStrictDelimiterMatching( boolean b );1;0;3
+SQLExec.lastDelimiterPosition( StringBuffer buf , String currentLine );13;21;37
+SQLExec.closeQuietly( );5;4;8
+SQLExec.setAppend( boolean append );1;0;3
+SQLExec.setCsvColumnSeparator( String s );1;0;3
+SQLExec.printResults( ResultSet rs , PrintStream out );7;6;27
+SQLExec.runStatements( Reader reader , PrintStream out );14;9;40
+SQLExec.setOnerror( OnError action );1;0;3
+Transaction.runTransaction( PrintStream out );4;3;21
+SQLExec.add( ResourceCollection rc );3;2;11
+SQLExec.addText( String sql );1;1;3
+SQLExec.setSrc( File srcFile );1;0;3
+SQLExec.setKeepformat( boolean keepformat );1;0;3
+SQLExec.getConnection( );3;2;9
+SQLExec.execSQL( String sql , PrintStream out );14;12;54
+SQLExec.maybeQuote( String s );7;12;18
+Transaction.setSrcResource( Resource src );2;1;6
+SQLExec.createTransaction( );1;0;5
+SQLExec.getExpandProperties( );1;0;3
+SQLExec.setOutput( File output );1;0;3
+SQLExec.printValue( ResultSet rs , int col , PrintStream out );4;3;10
+SQLExec.setShowheaders( boolean showheaders );1;0;3

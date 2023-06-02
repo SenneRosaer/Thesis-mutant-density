@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SmsSessionFactory.getSmsSession( String user , String password , String applicationId , boolean enableKeepAlive );2;1;8
+SmsSessionFactory.getSmsSession( String user , String password , String applicationId , SmsTransportType transport );2;1;8
+SmsSessionFactory.getDefaultInstance( );5;1;23
+SmsSessionFactory.getSmsSession( String sessionId );2;1;8
+SmsSessionFactory.getOverridenFactory( );5;1;23
+SmsSessionFactory.getSmsSession( String user , String password , String applicationId );2;1;8
+SmsSessionFactory.getSmsSession( String user , String password , String applicationId , SmsTransportType transport , boolean enableKeepAlive );2;1;8

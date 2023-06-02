@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TimeStamp.TimeStamp( Date d );2;1;3
+TimeStamp.toUTCString( );3;2;15
+***not in a method***;0;1;0
+TimeStamp.TimeStamp( String s );1;0;3
+TimeStamp.parseNtpString( String s );1;0;3
+TimeStamp.appendHexString( StringBuffer buf , long l );2;2;6
+TimeStamp.decodeNtpHexString( String s );4;8;12
+TimeStamp.getDate( );1;0;4
+TimeStamp.getCurrentTime( );1;0;3
+TimeStamp.toDateString( );3;2;15
+TimeStamp.compareTo( Object o );1;0;3
+TimeStamp.getTime( );1;0;3
+TimeStamp.getNtpTime( long date );1;0;3
+TimeStamp.toString( );1;0;3
+TimeStamp.equals( Object obj );2;1;6
+TimeStamp.TimeStamp( long ntpTime );1;0;3
+TimeStamp.getTime( long ntpTimeValue );2;13;11
+TimeStamp.hashCode( );1;2;3
+TimeStamp.getFraction( );1;1;3
+TimeStamp.getSeconds( );1;2;3
+TimeStamp.toString( long ntpTime );1;3;7
+TimeStamp.compareTo( TimeStamp anotherTimeStamp );3;3;5
+TimeStamp.ntpValue( );1;0;3
+TimeStamp.toNtpTime( long t );3;10;16

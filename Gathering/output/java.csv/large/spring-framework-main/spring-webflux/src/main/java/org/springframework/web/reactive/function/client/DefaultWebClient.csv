@@ -1,0 +1,81 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultResponseSpec.toEntityFlux( Class < T > elementType );1;0;4
+DefaultResponseSpec.getUriToLog( HttpRequest request );3;0;11
+DefaultResponseSpec.toEntity( ParameterizedTypeReference < T > bodyTypeRef );1;0;5
+DefaultResponseSpec.toEntityList( ParameterizedTypeReference < T > elementTypeRef );1;0;5
+DefaultWebClient.put( );1;0;3
+DefaultResponseSpec.toEntityList( Class < T > elementClass );1;0;5
+StatusHandler.test( HttpStatusCode status );1;0;3
+DefaultRequestBodyUriSpec.exchangeToFlux( Function < ClientResponse , ? extends Flux < V > > responseHandler );2;0;12
+DefaultRequestBodyUriSpec.body( P publisher , Class < T > elementClass );1;0;4
+DefaultWebClient.releaseIfNotConsumed( ClientResponse response );1;0;3
+DefaultRequestBodyUriSpec.attribute( String name , Object value );1;0;4
+DefaultWebClient.methodInternal( HttpMethod httpMethod );1;0;3
+DefaultRequestBodyUriSpec.body( P publisher , ParameterizedTypeReference < T > elementTypeRef );1;0;4
+DefaultResponseSpec.bodyToFlux( Class < T > elementClass );1;0;5
+DefaultWebClient.get( );1;0;3
+DefaultResponseSpec.DefaultResponseSpec( Mono < ClientResponse > responseMono , Supplier < HttpRequest > requestSupplier , List < StatusHandler > defaultStatusHandlers );1;0;7
+StatusHandler.StatusHandler( Predicate < HttpStatusCode > predicate , Function < ClientResponse , Mono < ? extends Throwable > > exceptionFunction );1;0;4
+DefaultRequestBodyUriSpec.headers( Consumer < HttpHeaders > headersConsumer );1;0;4
+DefaultWebClient.head( );1;0;3
+StatusHandler.apply( ClientResponse response );1;0;3
+DefaultRequestBodyUriSpec.exchangeToMono( Function < ClientResponse , ? extends Mono < V > > responseHandler );2;0;13
+DefaultRequestBodyUriSpec.context( Function < Context , Context > contextModifier );2;1;5
+DefaultWebClient.delete( );1;0;3
+DefaultWebClient.options( );1;0;3
+DefaultRequestBodyUriSpec.body( Object producer , ParameterizedTypeReference < ? > elementTypeRef );1;0;4
+DefaultRequestBodyUriSpec.initCookies( );4;1;14
+DefaultRequestBodyUriSpec.getURI( );1;0;3
+DefaultRequestBodyUriSpec.cookies( Consumer < MultiValueMap < String , String > > cookiesConsumer );1;0;4
+DefaultRequestBodyUriSpec.uri( Function < UriBuilder , URI > uriFunction );1;0;3
+DefaultRequestBodyUriSpec.getMethod( );1;0;3
+DefaultRequestBodyUriSpec.bodyValue( Object body );1;0;4
+DefaultWebClient.initStatusHandlers( @ Nullable Map < Predicate < HttpStatusCode > , Function < ClientResponse , Mono < ? extends Throwable > > > handlerMap );2;0;6
+DefaultRequestBodyUriSpec.attributes( Consumer < Map < String , Object > > attributesConsumer );1;0;4
+DefaultWebClient.method( HttpMethod httpMethod );1;0;3
+DefaultRequestBodyUriSpec.uri( URI uri );1;0;4
+DefaultRequestBodyUriSpec.getHeaders( );2;1;6
+DefaultRequestBodyUriSpec.exchange( );3;2;31
+DefaultRequestBodyUriSpec.header( String headerName , String ... headerValues );2;0;6
+DefaultRequestBodyUriSpec.ifNoneMatch( String ... ifNoneMatches );1;0;4
+DefaultRequestBodyUriSpec.initUri( );2;1;3
+DefaultResponseSpec.handleBodyMono( ClientResponse response , Mono < T > body );2;1;5
+DefaultRequestBodyUriSpec.acceptCharset( Charset ... acceptableCharsets );1;0;4
+DefaultWebClient.mutate( );1;0;3
+DefaultRequestBodyUriSpec.accept( MediaType ... acceptableMediaTypes );1;0;4
+DefaultResponseSpec.bodyToMono( Class < T > elementClass );1;0;5
+DefaultRequestBodyUriSpec.contentLength( long contentLength );1;0;4
+DefaultRequestBodyUriSpec.syncBody( Object body );1;0;3
+DefaultWebClient.DefaultWebClient( ExchangeFunction exchangeFunction , UriBuilderFactory uriBuilderFactory , @ Nullable HttpHeaders defaultHeaders , @ Nullable MultiValueMap < String , String > defaultCookies , @ Nullable Consumer < RequestHeadersSpec < ? > > defaultRequest , @ Nullable Map < Predicate < HttpStatusCode > , Function < ClientResponse , Mono < ? extends Throwable > > > statusHandlerMap , ObservationRegistry observationRegistry , ClientRequestObservationConvention observationConvention , DefaultWebClientBuilder builder );1;0;11
+DefaultResponseSpec.onRawStatus( IntPredicate statusCodePredicate , Function < ClientResponse , Mono < ? extends Throwable > > exceptionFunction );1;0;3
+DefaultResponseSpec.toBodilessEntity( );1;0;8
+DefaultResponseSpec.toEntityFlux( ParameterizedTypeReference < T > elementTypeRef );1;0;4
+DefaultResponseSpec.toEntityFlux( BodyExtractor < Flux < T > , ? super ClientHttpResponse > bodyExtractor );1;0;4
+DefaultRequestBodyUriSpec.uri( String uriTemplate , Object ... uriVariables );1;0;4
+DefaultRequestBodyUriSpec.retrieve( );1;0;4
+DefaultRequestBodyUriSpec.contentType( MediaType contentType );1;0;4
+DefaultWebClient.patch( );1;0;3
+DefaultResponseSpec.handleBodyFlux( ClientResponse response , Flux < T > body );2;1;5
+DefaultResponseSpec.toStatusCodePredicate( IntPredicate predicate );1;0;3
+DefaultResponseSpec.applyStatusHandlers( ClientResponse response );5;0;20
+DefaultResponseSpec.onStatus( Predicate < HttpStatusCode > statusCodePredicate , Function < ClientResponse , Mono < ? extends Throwable > > exceptionFunction );1;1;7
+DefaultResponseSpec.bodyToFlux( ParameterizedTypeReference < T > elementTypeRef );1;0;5
+DefaultResponseSpec.bodyToMono( ParameterizedTypeReference < T > elementTypeRef );1;0;5
+DefaultRequestBodyUriSpec.body( Object producer , Class < ? > elementClass );1;0;4
+DefaultResponseSpec.insertCheckpoint( Mono < T > result , HttpStatusCode statusCode , HttpRequest request );1;2;5
+DefaultRequestBodyUriSpec.DefaultRequestBodyUriSpec( HttpMethod httpMethod );1;0;3
+DefaultRequestBodyUriSpec.initHeaders( );4;1;14
+DefaultResponseSpec.handlerEntityFlux( ClientResponse response , Flux < T > body );2;1;8
+DefaultRequestBodyUriSpec.initRequestBuilder( );3;2;13
+DefaultRequestBodyUriSpec.cookie( String name , String value );1;0;4
+DefaultWebClient.post( );1;0;3
+DefaultRequestBodyUriSpec.uri( String uriTemplate , Map < String , ? > uriVariables );1;0;4
+DefaultRequestBodyUriSpec.body( BodyInserter < ? , ? super ClientHttpRequest > inserter );1;0;4
+DefaultResponseSpec.exceptionWrappingFunction( ClientResponse response );1;0;3
+DefaultRequestBodyUriSpec.createRequest( );1;0;18
+DefaultRequestBodyUriSpec.ifModifiedSince( ZonedDateTime ifModifiedSince );1;0;4
+DefaultRequestBodyUriSpec.uri( String uriTemplate , Function < UriBuilder , URI > uriFunction );1;0;4
+DefaultWebClient.releaseIfNotConsumed( ClientResponse response , Throwable ex );1;0;3
+DefaultRequestBodyUriSpec.httpRequest( Consumer < ClientHttpRequest > requestConsumer );2;1;5
+DefaultRequestBodyUriSpec.getCookies( );2;1;6
+DefaultResponseSpec.toEntity( Class < T > bodyClass );1;0;5

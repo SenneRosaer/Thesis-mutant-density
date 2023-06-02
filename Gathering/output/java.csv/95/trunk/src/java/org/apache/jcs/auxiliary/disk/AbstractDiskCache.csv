@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractDiskCache.doGet( Serializable key );1;0;3
+AbstractDiskCache.doUpdate( ICacheElement cacheElement );1;0;3
+AbstractDiskCache.getMatching( String pattern );1;0;12
+AbstractDiskCache.removeAll( );3;0;14
+MyCacheListener.handlePut( ICacheElement element );6;1;51
+AbstractDiskCache.get( Serializable key );7;5;37
+MyCacheListener.handleDispose( String cacheName );2;0;6
+AbstractDiskCache.getStats( );1;0;3
+MyCacheListener.handleRemove( String cacheName , Serializable key );3;0;9
+AbstractDiskCache.getCacheName( );1;0;3
+AbstractDiskCache.getEventLoggingExtraInfo( );1;0;3
+AbstractDiskCache.getStatistics( );1;0;21
+AbstractDiskCache.doDispose( );1;0;3
+AbstractDiskCache.dispose( );4;1;39
+AbstractDiskCache.processGetMultiple( Set keys );5;4;17
+AbstractDiskCache.initPurgatory( );5;3;39
+AbstractDiskCache.doRemove( Serializable key );1;0;3
+AbstractDiskCache.remove( Serializable key );2;1;24
+AbstractDiskCache.getCacheType( );1;0;3
+AbstractDiskCache.run( );3;2;19
+AbstractDiskCache.getStatus( );2;0;3
+MyCacheListener.getListenerId( );1;0;3
+AbstractDiskCache.doRemoveAll( );1;0;3
+AbstractDiskCache.AbstractDiskCache( IDiskCacheAttributes attr );1;0;8
+MyCacheListener.setListenerId( long id );1;0;3
+MyCacheListener.handleRemoveAll( String cacheName );2;0;6
+AbstractDiskCache.update( ICacheElement cacheElement );3;0;21
+AbstractDiskCache.doGetMatching( String pattern );1;0;3

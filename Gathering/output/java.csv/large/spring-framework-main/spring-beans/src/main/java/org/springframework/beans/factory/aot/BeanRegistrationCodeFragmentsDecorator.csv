@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BeanRegistrationCodeFragmentsDecorator.generateReturnCode( GenerationContext generationContext , BeanRegistrationCode beanRegistrationCode );1;0;3
+BeanRegistrationCodeFragmentsDecorator.generateInstanceSupplierCode( GenerationContext generationContext , BeanRegistrationCode beanRegistrationCode , Executable constructorOrFactoryMethod , boolean allowDirectSupplierShortcut );1;0;4
+BeanRegistrationCodeFragmentsDecorator.getTarget( RegisteredBean registeredBean , Executable constructorOrFactoryMethod );1;0;3
+BeanRegistrationCodeFragmentsDecorator.generateSetBeanDefinitionPropertiesCode( GenerationContext generationContext , BeanRegistrationCode beanRegistrationCode , RootBeanDefinition beanDefinition , Predicate < String > attributeFilter );1;0;4
+BeanRegistrationCodeFragmentsDecorator.generateSetBeanInstanceSupplierCode( GenerationContext generationContext , BeanRegistrationCode beanRegistrationCode , CodeBlock instanceSupplierCode , List < MethodReference > postProcessors );1;0;4
+BeanRegistrationCodeFragmentsDecorator.BeanRegistrationCodeFragmentsDecorator( BeanRegistrationCodeFragments delegate );1;0;4
+BeanRegistrationCodeFragmentsDecorator.generateNewBeanDefinitionCode( GenerationContext generationContext , ResolvableType beanType , BeanRegistrationCode beanRegistrationCode );1;0;4

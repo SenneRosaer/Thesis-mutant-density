@@ -1,0 +1,62 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BaseMarkupSerializer.endDocument( );2;0;8
+BaseMarkupSerializer.comment( char [ ] chars , int start , int length );2;0;7
+BaseMarkupSerializer.notationDecl( String name , String publicId , String systemId );5;2;25
+BaseMarkupSerializer.isDocumentState( );1;1;3
+BaseMarkupSerializer.endCDATA( );1;0;5
+BaseMarkupSerializer.asContentHandler( );1;0;4
+BaseMarkupSerializer.startDTD( String name , String publicId , String systemId );2;0;9
+BaseMarkupSerializer.endPrefixMapping( String prefix );1;0;2
+BaseMarkupSerializer.characters( String text );5;2;24
+BaseMarkupSerializer.processingInstructionIO( String target , String code );7;4;31
+BaseMarkupSerializer.printHex( int ch );1;0;5
+BaseMarkupSerializer.surrogates( int high , int low , boolean inContent );6;3;25
+BaseMarkupSerializer.serializeNode( Node node );55;46;209
+BaseMarkupSerializer.serialize( Element elem );2;1;8
+BaseMarkupSerializer.setOutputCharStream( Writer writer );2;1;10
+BaseMarkupSerializer.startEntity( String name );1;0;2
+BaseMarkupSerializer.printEscaped( int ch );9;18;19
+BaseMarkupSerializer.startNonEscaping( );1;0;5
+BaseMarkupSerializer.printEscaped( String source );5;16;13
+BaseMarkupSerializer.processingInstruction( String target , String code );2;0;7
+BaseMarkupSerializer.ignorableWhitespace( char [ ] chars , int start , int length );4;3;13
+BaseMarkupSerializer.internalEntityDecl( String name , String value );3;0;14
+BaseMarkupSerializer.endNonEscaping( );1;0;5
+BaseMarkupSerializer.reset( );2;1;11
+BaseMarkupSerializer.setOutputByteStream( OutputStream output );2;1;10
+BaseMarkupSerializer.getPrefix( String namespaceURI );7;7;19
+BaseMarkupSerializer.BaseMarkupSerializer( OutputFormat format );2;2;7
+BaseMarkupSerializer.characters( char [ ] chars , int start , int length );19;29;57
+BaseMarkupSerializer.startDocument( );2;0;7
+BaseMarkupSerializer.modifyDOMError( String message , short severity , String type , Node node );1;3;8
+BaseMarkupSerializer.serialize( Document doc );2;1;9
+BaseMarkupSerializer.externalEntityDecl( String name , String publicId , String systemId );2;0;8
+BaseMarkupSerializer.serialize( DocumentFragment frag );2;1;8
+BaseMarkupSerializer.attributeDecl( String eName , String aName , String type , String valueDefault , String value );5;2;25
+BaseMarkupSerializer.printDoctypeURL( String url );5;7;12
+BaseMarkupSerializer.fatalError( String message );2;1;9
+BaseMarkupSerializer.endDTD( );1;0;2
+BaseMarkupSerializer.endPreserving( );1;0;5
+BaseMarkupSerializer.setDocumentLocator( Locator locator );1;0;2
+BaseMarkupSerializer.printCDATAText( String text );18;32;61
+BaseMarkupSerializer.startPrefixMapping( String prefix , String uri );3;2;5
+BaseMarkupSerializer.printText( String text , boolean preserveSpace , boolean unescaped );13;17;26
+BaseMarkupSerializer.unparsedEntityDecl( String name , String publicId , String systemId , String notationName );5;2;27
+BaseMarkupSerializer.endEntity( String name );1;0;2
+BaseMarkupSerializer.enterElementState( String namespaceURI , String localName , String rawName , boolean preserveSpace );4;8;26
+BaseMarkupSerializer.setOutputFormat( OutputFormat format );2;1;9
+BaseMarkupSerializer.serializePreRoot( );4;3;11
+BaseMarkupSerializer.leaveElementState( );2;2;9
+BaseMarkupSerializer.startCDATA( );1;0;5
+BaseMarkupSerializer.comment( String text );8;4;28
+BaseMarkupSerializer.prepare( );6;4;36
+BaseMarkupSerializer.skippedEntity( String name );2;0;11
+BaseMarkupSerializer.clearDocumentState( );1;0;3
+BaseMarkupSerializer.asDOMSerializer( );1;0;4
+BaseMarkupSerializer.asDocumentHandler( );1;0;4
+BaseMarkupSerializer.checkUnboundNamespacePrefixedNode( Node node );1;0;2
+BaseMarkupSerializer.content( );5;3;17
+BaseMarkupSerializer.printText( char [ ] chars , int start , int length , boolean preserveSpace , boolean unescaped );13;19;28
+BaseMarkupSerializer.getElementState( );1;0;3
+BaseMarkupSerializer.startPreserving( );1;0;5
+BaseMarkupSerializer.elementDecl( String name , String model );3;0;14

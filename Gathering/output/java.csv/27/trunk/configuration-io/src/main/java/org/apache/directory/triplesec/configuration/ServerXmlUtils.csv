@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServerXmlUtils.addBeans( String propertyKey , Element bean , Set objects );2;0;10
+ServerXmlUtils.addBeanProperty( Element bean , String key , Class clazz );1;0;5
+ServerXmlUtils.addInterceptorBeans( String propertyKey , Element bean , List interceptorConfigurations );2;2;13
+ServerXmlUtils.addProperty( Element bean , SmtpConfiguration smtpConfiguration );2;0;15
+ServerXmlUtils.readConfiguration( URL url );1;0;5
+ServerXmlUtils.addPartitionConfiguration( Element beansElement , MutablePartitionConfiguration configuration );5;2;38
+ServerXmlUtils.addProperty( Element bean , String key , File value );1;0;5
+ServerXmlUtils.addPartitionRefs( Element bean , Set partitions );2;0;9
+ServerXmlUtils.writeConfiguration( File configurationFile , TriplesecStartupConfiguration configuration , Properties environment );2;0;16
+ServerXmlUtils.addProperty( Element bean , String key , boolean value );1;0;5
+ServerXmlUtils.readDocument( URL url );1;0;6
+ServerXmlUtils.addCustomEditorsBean( Element beans );1;0;7
+ServerXmlUtils.addProperty( Element bean , String key , String value );1;0;5
+ServerXmlUtils.addProperty( Element bean , SmsConfiguration smsConfiguration );1;0;10
+ServerXmlUtils.addBeans( String propertyKey , Element bean , List objects );2;2;10
+ServerXmlUtils.addProperty( Element bean , String key , int value );1;0;5
+ServerXmlUtils.addConfigurationBean( Element beansElement , TriplesecStartupConfiguration configuration );8;8;48
+ServerXmlUtils.addEnvironmentBean( Element beansElement , Properties environment );2;2;18

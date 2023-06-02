@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractCvsTask.setPackage( String p );1;0;3
+AbstractCvsTask.AbstractCvsTask( );1;0;3
+AbstractCvsTask.setCommand( String c );1;0;3
+AbstractCvsTask.getPassFile( );1;0;3
+AbstractCvsTask.setDest( File dest );1;0;3
+AbstractCvsTask.removeCvsPassword( String cmdLine );6;12;17
+AbstractCvsTask.addCommandArgument( Commandline c , String arg );1;0;3
+AbstractCvsTask.addConfiguredCommandline( Commandline c , boolean insertAtStart );3;1;11
+AbstractCvsTask.getCommand( );1;0;3
+AbstractCvsTask.setOutput( File output );1;0;3
+AbstractCvsTask.runCommand( Commandline toExecute );20;11;90
+AbstractCvsTask.getCvsRsh( );1;0;3
+AbstractCvsTask.getCvsRoot( );1;0;3
+AbstractCvsTask.addConfiguredCommandline( Commandline c );1;0;3
+AbstractCvsTask.getTag( );1;0;3
+AbstractCvsTask.setDate( String p );3;3;6
+Module.setName( String s );1;0;3
+AbstractCvsTask.setExecuteStreamHandler( ExecuteStreamHandler handler );1;0;3
+AbstractCvsTask.setCvsRsh( String rsh );3;1;8
+AbstractCvsTask.addCommandArgument( String arg );1;0;3
+AbstractCvsTask.removeCommandline( Commandline c );1;0;3
+AbstractCvsTask.getPort( );1;0;3
+AbstractCvsTask.getModules( );1;0;3
+AbstractCvsTask.getExecuteStreamHandler( );2;1;7
+AbstractCvsTask.setCompressionLevel( int level );1;0;3
+AbstractCvsTask.getErrorStream( );4;2;17
+AbstractCvsTask.setNoexec( boolean ne );1;0;3
+AbstractCvsTask.setCvsRoot( String root );3;1;8
+AbstractCvsTask.setCompression( boolean usecomp );2;0;4
+AbstractCvsTask.setReallyquiet( boolean q );1;0;3
+AbstractCvsTask.setFailOnError( boolean failOnError );1;0;3
+AbstractCvsTask.setOutputStream( OutputStream outputStream );1;0;3
+AbstractCvsTask.setPassfile( File passFile );1;0;3
+AbstractCvsTask.setQuiet( boolean q );1;0;3
+AbstractCvsTask.execute( );6;7;25
+AbstractCvsTask.setAppend( boolean value );1;0;3
+AbstractCvsTask.setTag( String p );3;3;6
+AbstractCvsTask.setError( File error );1;0;3
+AbstractCvsTask.getPackage( );1;0;3
+AbstractCvsTask.setPort( int port );1;0;3
+AbstractCvsTask.getOutputStream( );4;2;18
+AbstractCvsTask.executeToString( Execute execute );3;3;19
+AbstractCvsTask.addModule( Module m );1;0;3
+AbstractCvsTask.setErrorStream( OutputStream errorStream );1;0;3
+Module.getName( );1;0;3
+AbstractCvsTask.getDest( );1;0;3
+AbstractCvsTask.configureCommandline( Commandline c );11;8;29

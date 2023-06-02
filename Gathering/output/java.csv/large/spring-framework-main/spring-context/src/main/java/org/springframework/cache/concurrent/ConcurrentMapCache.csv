@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConcurrentMapCache.get( Object key , Callable < T > valueLoader );2;0;10
+ConcurrentMapCache.evict( Object key );1;0;3
+ConcurrentMapCache.lookup( Object key );1;0;3
+ConcurrentMapCache.ConcurrentMapCache( String name , boolean allowNullValues );1;0;3
+ConcurrentMapCache.evictIfPresent( Object key );1;1;3
+ConcurrentMapCache.fromStoreValue( @ Nullable Object storeValue );4;3;13
+ConcurrentMapCache.putIfAbsent( Object key , @ Nullable Object value );1;0;4
+ConcurrentMapCache.clear( );1;0;3
+ConcurrentMapCache.toStoreValue( @ Nullable Object userValue );3;1;15
+ConcurrentMapCache.ConcurrentMapCache( String name , ConcurrentMap < Object , Object > store , boolean allowNullValues );1;0;3
+ConcurrentMapCache.invalidate( );1;1;5
+ConcurrentMapCache.put( Object key , @ Nullable Object value );1;0;3
+ConcurrentMapCache.ConcurrentMapCache( String name , ConcurrentMap < Object , Object > store , boolean allowNullValues , @ Nullable SerializationDelegate serialization );1;0;8
+ConcurrentMapCache.getNativeCache( );1;0;3
+ConcurrentMapCache.ConcurrentMapCache( String name );1;0;3
+ConcurrentMapCache.getName( );1;0;3
+ConcurrentMapCache.isStoreByValue( );1;1;3

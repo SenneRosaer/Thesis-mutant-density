@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InvocationContainerImpl.setInvocationForPotentialStubbing( MatchableInvocation invocation );1;0;4
+InvocationContainerImpl.findAnswerFor( Invocation invocation );3;0;12
+InvocationContainerImpl.setMethodForStubbing( MatchableInvocation invocation );2;3;11
+InvocationContainerImpl.toString( );1;0;3
+InvocationContainerImpl.addConsecutiveAnswer( Answer < ? > answer );1;0;3
+InvocationContainerImpl.findStubbedAnswer( );3;0;10
+InvocationContainerImpl.getStubbingsAscending( );1;0;8
+InvocationContainerImpl.getInvocations( );1;0;3
+InvocationContainerImpl.addAnswer( Answer < ? > answer , Strictness stubbingStrictness );1;0;4
+InvocationContainerImpl.hasAnswersForStubbing( );1;1;3
+InvocationContainerImpl.createRegisteredInvocations( MockCreationSettings < ? > mockSettings );2;0;5
+InvocationContainerImpl.addAnswer( Answer < ? > answer , boolean isConsecutive , Strictness stubbingStrictness );4;1;19
+InvocationContainerImpl.InvocationContainerImpl( MockCreationSettings < ? > mockSettings );1;0;5
+***not in a method***;0;1;0
+InvocationContainerImpl.resetInvocationForPotentialStubbing( MatchableInvocation invocationMatcher );1;0;3
+InvocationContainerImpl.invokedMock( );1;0;3
+InvocationContainerImpl.clearInvocations( );1;0;3
+InvocationContainerImpl.setAnswersForStubbing( List < Answer < ? > > answers , Strictness strictness );1;0;3
+InvocationContainerImpl.answerTo( Invocation invocation );1;0;3
+InvocationContainerImpl.hasInvocationForPotentialStubbing( );1;1;3

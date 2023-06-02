@@ -1,0 +1,61 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SlowSSLSocket.SlowSSLSocket( );1;0;4
+SlowSSLSocket.setReceiveBufferSize( int size );1;0;3
+SlowSSLSocket.getUseClientMode( );1;0;3
+SlowSSLSocket.getEnabledProtocols( );1;0;3
+SlowSSLSocket.sendUrgentData( int data );1;0;3
+SlowSSLSocket.getLocalSocketAddress( );1;0;3
+SlowSSLSocket.getRemoteSocketAddress( );1;0;3
+SlowSSLSocket.setNeedClientAuth( boolean arg0 );1;0;3
+SlowSSLSocket.toString( );1;0;3
+SlowSSLSocket.getReceiveBufferSize( );1;0;3
+SlowSSLSocket.getSoTimeout( );1;0;3
+SlowSSLSocket.close( );1;0;3
+SlowSSLSocket.bind( SocketAddress bindpoint );1;0;3
+SlowSSLSocket.setEnableSessionCreation( boolean arg0 );1;0;3
+SlowSSLSocket.addHandshakeCompletedListener( HandshakeCompletedListener arg0 );1;0;3
+SlowSSLSocket.getOOBInline( );1;0;3
+SlowSSLSocket.connect( SocketAddress endpoint );1;0;3
+SlowSSLSocket.setReuseAddress( boolean on );1;0;3
+SlowSSLSocket.setWantClientAuth( boolean arg0 );1;0;3
+SlowSSLSocket.isOutputShutdown( );1;0;3
+SlowSSLSocket.setEnabledCipherSuites( String [ ] arg0 );1;0;3
+SlowSSLSocket.getWantClientAuth( );1;0;3
+SlowSSLSocket.getEnabledCipherSuites( );1;0;3
+SlowSSLSocket.getReuseAddress( );1;0;3
+SlowSSLSocket.connect( SocketAddress endpoint , int timeout );1;0;3
+SlowSSLSocket.getEnableSessionCreation( );1;0;3
+SlowSSLSocket.setSoLinger( boolean on , int linger );1;0;3
+SlowSSLSocket.setSoTimeout( int timeout );1;0;3
+SlowSSLSocket.setKeepAlive( boolean on );1;0;3
+SlowSSLSocket.setSendBufferSize( int size );1;0;3
+SlowSSLSocket.getChannel( );1;0;3
+SlowSSLSocket.shutdownOutput( );1;0;3
+SlowSSLSocket.getSendBufferSize( );1;0;3
+SlowSSLSocket.getPort( );1;0;3
+SlowSSLSocket.getSupportedProtocols( );1;0;3
+SlowSSLSocket.setTcpNoDelay( boolean on );1;0;3
+SlowSSLSocket.isBound( );1;0;3
+SlowSSLSocket.setEnabledProtocols( String [ ] arg0 );1;0;3
+SlowSSLSocket.getLocalAddress( );1;0;3
+SlowSSLSocket.setUseClientMode( boolean arg0 );1;0;3
+SlowSSLSocket.getInetAddress( );1;0;3
+SlowSSLSocket.isClosed( );1;0;3
+SlowSSLSocket.setTrafficClass( int tc );1;0;3
+SlowSSLSocket.getOutputStream( );1;0;3
+SlowSSLSocket.SlowSSLSocket( final SSLSocket sock , final int cps );2;1;7
+SlowSSLSocket.getSoLinger( );1;0;3
+SlowSSLSocket.setOOBInline( boolean on );1;0;3
+SlowSSLSocket.getSession( );1;0;3
+SlowSSLSocket.getKeepAlive( );1;0;3
+SlowSSLSocket.removeHandshakeCompletedListener( HandshakeCompletedListener arg0 );1;0;3
+SlowSSLSocket.getInputStream( );1;0;3
+SlowSSLSocket.startHandshake( );1;0;3
+SlowSSLSocket.getSupportedCipherSuites( );1;0;3
+SlowSSLSocket.getLocalPort( );1;0;3
+SlowSSLSocket.shutdownInput( );1;0;3
+SlowSSLSocket.getTrafficClass( );1;0;3
+SlowSSLSocket.getNeedClientAuth( );1;0;3
+SlowSSLSocket.isConnected( );1;0;3
+SlowSSLSocket.getTcpNoDelay( );1;0;3
+SlowSSLSocket.isInputShutdown( );1;0;3

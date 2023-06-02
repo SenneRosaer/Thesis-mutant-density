@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MBeanRegistrationSupport.setServer( @ Nullable MBeanServer server );1;0;3
+MBeanRegistrationSupport.onRegister( ObjectName objectName );1;0;2
+MBeanRegistrationSupport.setRegistrationPolicy( RegistrationPolicy registrationPolicy );1;0;4
+MBeanRegistrationSupport.unregisterBeans( );3;1;12
+MBeanRegistrationSupport.onUnregister( ObjectName objectName );1;0;2
+MBeanRegistrationSupport.onRegister( ObjectName objectName , Object mbean );1;0;3
+MBeanRegistrationSupport.doUnregister( ObjectName objectName );7;1;28
+MBeanRegistrationSupport.doRegister( Object mbean , ObjectName objectName );10;5;41
+MBeanRegistrationSupport.getRegisteredObjectNames( );1;0;5
+MBeanRegistrationSupport.getServer( );1;0;3

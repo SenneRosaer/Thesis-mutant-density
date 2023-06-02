@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BridgedFinder.BridgedFinder( Set eligibleMethods , Map resolved );1;0;5
+BridgedFinder.visitMethodInsn( int opcode , String owner , String name , String desc , boolean itf );6;7;11
+BridgedFinder.visitMethod( int access , String name , String desc , String signature , String [ ] exceptions );7;0;23
+BridgeMethodResolver.resolveAll( );4;2;22
+BridgedFinder.visit( int version , int access , String name , String signature , String superName , String [ ] interfaces );1;0;2
+BridgeMethodResolver.BridgeMethodResolver( Map declToBridge , ClassLoader classLoader );1;0;4

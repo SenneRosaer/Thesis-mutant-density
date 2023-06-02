@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageFactory.getMessageText( FacesContext facesContext , String bundle , String key );4;3;11
+MessageFactory.createFacesMessage( FacesContext facesContext , String bundle , String key , FacesMessage . Severity severity , Object [ ] args );6;6;16
+MessageFactory.getLocale( FacesContext facesContext );2;1;10
+MessageFactory.createFacesMessage( FacesContext facesContext , String key , FacesMessage . Severity severity );1;0;3
+MessageFactory.createFacesMessage( FacesContext facesContext , String bundle , String key , FacesMessage . Severity severity );1;0;3
+MessageFactory.getFacesMessages( Locale locale );2;1;9
+MessageFactory.createFacesMessage( FacesContext facesContext , String key , FacesMessage . Severity severity , Object [ ] args );1;0;3

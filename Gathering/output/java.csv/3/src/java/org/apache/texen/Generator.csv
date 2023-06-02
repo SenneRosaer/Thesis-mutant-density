@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Generator.getWriter( File path , String encoding );5;5;13
+Generator.parse( String inputTemplate , String outputFile , String objectID , Object object );1;0;3
+FileClosingLRUMap.removeLRU( AbstractLinkedMap . LinkEntry entry );4;1;21
+Generator.getContext( Hashtable objs );1;0;4
+***not in a method***;0;1;0
+FileClosingLRUMap.FileClosingLRUMap( int i );1;0;3
+Generator.fillContextProperties( Context context );4;1;22
+Generator.setVelocityEngine( VelocityEngine ve );1;0;3
+Generator.shutdown( );4;0;22
+Generator.Generator( );1;0;3
+Generator.parse( String inputTemplate , String inputEncoding , String outputFile , String outputEncoding , String objectID , Object object );8;8;32
+Generator.Generator( Properties props );1;0;4
+Generator.setOutputPath( final File outputPath );1;0;3
+Generator.setDefaultProps( );3;1;24
+Generator.getTemplate( String templateName , String encoding );5;5;10
+Generator.getOutputPath( );1;0;3
+Generator.Generator( String propFile );3;1;26
+Generator.fillContextHash( Context context , Hashtable objs );2;0;8
+Generator.fillContextDefaults( Context context );1;0;4
+Generator.setOutputEncoding( String outputEncoding );1;0;3
+Generator.setTemplatePath( final String templatePath );1;0;3
+Generator.parse( String inputTemplate , String outputFile );1;0;3
+Generator.getTemplatePath( );1;0;3
+Generator.parse( String controlTemplate , Context controlContext );1;0;9
+Generator.setInputEncoding( String inputEncoding );1;0;3

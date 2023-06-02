@@ -1,0 +1,77 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StompBrokerRelayMessageHandler.getTaskScheduler( );1;0;3
+RelayConnectionHandler.afterDisconnectSent( StompHeaderAccessor accessor );4;1;12
+StompBrokerRelayMessageHandler.getRelayHost( );1;0;3
+RelayConnectionHandler.afterConnectFailure( Throwable ex );1;0;3
+DefaultStats.getTotalHandlers( );1;0;3
+StompBrokerRelayMessageHandler.getSystemHeartbeatSendInterval( );1;0;3
+StompBrokerRelayMessageHandler.setSystemHeartbeatReceiveInterval( long heartbeatReceiveInterval );1;0;3
+RelayConnectionHandler.RelayConnectionHandler( String sessionId , StompHeaderAccessor connectHeaders );1;0;3
+StompBrokerRelayMessageHandler.initTcpClient( );4;1;19
+RelayConnectionHandler.afterStompConnected( StompHeaderAccessor connectedHeaders );1;0;5
+SystemSessionConnectionHandler.afterConnectionClosed( );1;0;4
+RelayConnectionHandler.handleFailure( Throwable ex );3;1;8
+StompBrokerRelayMessageHandler.getTcpClient( );1;0;3
+StompBrokerRelayMessageHandler.StompBrokerRelayMessageHandler( SubscribableChannel inboundChannel , MessageChannel outboundChannel , SubscribableChannel brokerChannel , Collection < String > destinationPrefixes );1;0;3
+StompBrokerRelayMessageHandler.startInternal( );6;3;28
+StompBrokerRelayMessageHandler.getSystemPasscode( );1;0;3
+DefaultStats.toString( );2;5;6
+StompBrokerRelayMessageHandler.setSystemLogin( String systemLogin );1;0;4
+DefaultStats.getTotalConnect( );1;0;3
+StompBrokerRelayMessageHandler.setTaskScheduler( @ Nullable TaskScheduler taskScheduler );1;0;3
+RelayConnectionHandler.handleMessage( Message < byte [ ] > message );7;3;23
+StompBrokerRelayMessageHandler.getVirtualHost( );1;0;3
+StompBrokerRelayMessageHandler.setHeaderInitializer( @ Nullable MessageHeaderInitializer headerInitializer );1;0;3
+StompBrokerRelayMessageHandler.getClientLogin( );1;0;3
+RelayConnectionHandler.handleInboundMessage( Message < ? > message );2;0;5
+SystemSessionConnectionHandler.handleInboundMessage( Message < ? > message );9;4;29
+RelayConnectionHandler.sendStompErrorFrameToClient( String errorText );5;2;17
+StompBrokerRelayMessageHandler.getStatsInfo( );1;0;3
+StompBrokerRelayMessageHandler.toString( );1;0;3
+StompBrokerRelayMessageHandler.getTcpClientInfo( );2;2;3
+ClientSendMessageCountTask.run( );2;0;6
+DefaultStats.getTotalDisconnect( );1;0;3
+RelayConnectionHandler.toString( );1;0;3
+StompBrokerRelayMessageHandler.setSystemSubscriptions( @ Nullable Map < String , MessageHandler > subscriptions );2;1;6
+SystemSessionConnectionHandler.SystemSessionConnectionHandler( StompHeaderAccessor connectHeaders );1;0;3
+SystemSessionConnectionHandler.afterStompConnected( StompHeaderAccessor connectedHeaders );2;0;8
+RelayConnectionHandler.forward( final Message < ? > message , final StompHeaderAccessor accessor );20;13;50
+StompBrokerRelayMessageHandler.stopInternal( );3;1;11
+StompBrokerRelayMessageHandler.getSystemLogin( );1;0;3
+SystemSessionConnectionHandler.handleTcpConnectionFailure( String errorMessage , @ Nullable Throwable ex );1;0;4
+StompBrokerRelayMessageHandler.setClientLogin( String clientLogin );1;0;4
+StompBrokerRelayMessageHandler.setVirtualHost( @ Nullable String virtualHost );1;0;3
+RelayConnectionHandler.getTcpConnection( );1;0;3
+StompBrokerRelayMessageHandler.getConnectionCount( );1;0;3
+StompBrokerRelayMessageHandler.getSystemHeartbeatReceiveInterval( );1;0;3
+DefaultStats.incrementDisconnectCount( );1;0;3
+SystemSessionConnectionHandler.shouldSendHeartbeatForIgnoredMessage( );1;0;3
+StompBrokerRelayMessageHandler.getHeaderInitializer( );1;0;3
+***not in a method***;0;1;0
+RelayConnectionHandler.shouldSendHeartbeatForIgnoredMessage( );2;3;3
+StompBrokerRelayMessageHandler.getSystemSubscriptions( );1;0;3
+SystemSessionConnectionHandler.sendSystemSubscriptions( );5;3;20
+RelayConnectionHandler.handleTcpConnectionFailure( String error , @ Nullable Throwable ex );4;0;18
+RelayConnectionHandler.afterConnected( TcpConnection < byte [ ] > connection );4;3;13
+RelayConnectionHandler.initHeartbeats( StompHeaderAccessor connectedHeaders );2;1;6
+DefaultStats.incrementConnectedCount( );1;0;3
+DefaultStats.incrementConnectCount( );1;0;3
+SystemSessionConnectionHandler.initHeartbeats( StompHeaderAccessor connectedHeaders );6;9;22
+RelayConnectionHandler.clearConnection( );5;1;17
+RelayConnectionHandler.updateClientSendMessageCount( long now );3;4;6
+SystemSessionConnectionHandler.forward( Message < ? > message , StompHeaderAccessor accessor );3;1;12
+StompBrokerRelayMessageHandler.setTcpClient( @ Nullable TcpOperations < byte [ ] > tcpClient );1;0;3
+StompBrokerRelayMessageHandler.getClientPasscode( );1;0;3
+StompBrokerRelayMessageHandler.getRelayPort( );1;0;3
+StompBrokerRelayMessageHandler.setRelayHost( String relayHost );1;0;4
+StompBrokerRelayMessageHandler.getStats( );1;0;3
+StompBrokerRelayMessageHandler.handleMessageInternal( Message < ? > message );30;20;111
+RelayConnectionHandler.getSessionId( );1;0;3
+StompBrokerRelayMessageHandler.setSystemPasscode( String systemPasscode );1;0;3
+StompBrokerRelayMessageHandler.setSystemHeartbeatSendInterval( long systemHeartbeatSendInterval );1;0;3
+StompBrokerRelayMessageHandler.setRelayPort( int relayPort );1;0;3
+RelayConnectionHandler.RelayConnectionHandler( String sessionId , StompHeaderAccessor connectHeaders , boolean isClientSession );4;3;18
+RelayConnectionHandler.getConnectHeaders( );1;0;3
+RelayConnectionHandler.afterConnectionClosed( );4;1;19
+StompBrokerRelayMessageHandler.setClientPasscode( String clientPasscode );1;0;4
+DefaultStats.getTotalConnected( );1;0;3

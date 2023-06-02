@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestMappingHandlerAdapterTests.cacheControlWithoutSessionAttributes( );1;0;7
+ModelAttributePackageAdvice.addAttributes( Model model );1;0;3
+RequestMappingHandlerAdapterTests.cacheControlWithSessionAttributes( );1;0;7
+SimpleController.handle( );1;0;3
+RequestMappingHandlerAdapterTests.handlerMethod( Object handler , String methodName , Class < ? > ... paramTypes );1;0;4
+RedirectAttributeController.handle( Model model );1;0;4
+RequestMappingHandlerAdapterTests.setCustomArgumentResolvers( );1;2;7
+RequestMappingHandlerAdapterTests.responseBodyAdvice( );2;0;14
+SessionAttributeController.handle( );1;0;2
+ResponseCodeSuppressingAdvice.afterBodyRead( Object body , HttpInputMessage inputMessage , MethodParameter parameter , Type targetType , Class < ? extends HttpMessageConverter < ? > > converterType );1;0;3
+ModelAttributeAdvice.addAttributes( Model model );1;0;5
+RequestMappingHandlerAdapterTests.setReturnValueHandlers( );1;0;6
+RequestMappingHandlerAdapterTests.setCustomReturnValueHandlers( );1;1;7
+RequestMappingHandlerAdapterTests.setup( );1;0;7
+RequestMappingHandlerAdapterTests.setInitBinderArgumentResolvers( );1;0;6
+ResponseCodeSuppressingAdvice.beforeBodyRead( HttpInputMessage inputMessage , MethodParameter parameter , Type targetType , Class < ? extends HttpMessageConverter < ? > > converterType );1;0;3
+ResponseCodeSuppressingAdvice.beforeBodyWriteInternal( MappingJacksonValue bodyContainer , MediaType contentType , MethodParameter returnType , ServerHttpRequest request , ServerHttpResponse response );1;0;8
+ModelAttributeNotUsedPackageAdvice.addAttributes( Model model );1;0;3
+SimpleController.addAttributes( Model model );1;0;3
+SimpleController.handleWithResponseEntity( );1;0;4
+ResponseCodeSuppressingAdvice.handleEmptyBody( @ Nullable Object body , HttpInputMessage inputMessage , MethodParameter parameter , Type targetType , Class < ? extends HttpMessageConverter < ? > > converterType );1;0;3
+RequestMappingHandlerAdapterTests.modelAttributeAdvice( );1;0;9
+ResponseCodeSuppressingAdvice.supports( MethodParameter methodParameter , Type targetType , Class < ? extends HttpMessageConverter < ? > > converterType );1;0;3
+RequestMappingHandlerAdapterTests.setArgumentResolvers( );1;0;6
+RequestMappingHandlerAdapterTests.setupOnce( );1;0;8
+RequestMappingHandlerAdapterTests.setAlwaysUseRedirectAttributes( );1;0;12
+RequestMappingHandlerAdapterTests.prototypeControllerAdvice( );1;0;9
+RequestMappingHandlerAdapterTests.assertMethodProcessorCount( int resolverCount , int initBinderResolverCount , int handlerCount );1;0;5
+SimpleController.handleBadRequest( );1;0;3
+RequestMappingHandlerAdapterTests.modelAttributePackageNameAdvice( );1;0;11
+RequestMappingHandlerAdapterTests.modelAttributeAdviceInParentContext( );1;0;12

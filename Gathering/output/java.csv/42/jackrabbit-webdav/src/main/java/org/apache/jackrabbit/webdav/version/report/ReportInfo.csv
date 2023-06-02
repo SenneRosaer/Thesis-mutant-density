@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReportInfo.getReportName( );1;0;3
+ReportInfo.getDepth( );1;0;3
+ReportInfo.ReportInfo( ReportType type );1;0;3
+ReportInfo.ReportInfo( Element reportElement , int depth );5;3;23
+ReportInfo.setContentElement( Element contentElement );1;0;3
+ReportInfo.toXml( Document document );5;2;17
+ReportInfo.ReportInfo( ReportType type , int depth );1;0;3
+ReportInfo.containsContentElement( String localName , Namespace namespace );6;3;14
+ReportInfo.ReportInfo( ReportType type , int depth , DavPropertyNameSet propertyNames );2;1;10
+ReportInfo.getContentElement( String localName , Namespace namespace );2;0;8
+ReportInfo.getContentElements( String localName , Namespace namespace );3;0;11
+ReportInfo.getPropertyNameSet( );1;0;3

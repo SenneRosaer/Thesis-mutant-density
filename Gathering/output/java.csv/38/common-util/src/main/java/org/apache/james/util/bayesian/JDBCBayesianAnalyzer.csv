@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JDBCBayesianAnalyzer.updateSpamTokens( Connection conn );1;0;6
+JDBCBayesianAnalyzer.setMessageCount( Connection conn , String sqlStatement , int count );6;3;26
+JDBCBayesianAnalyzer.updateTokens( Connection conn , Map tokens , String insertSqlStatement , String updateSqlStatement );7;3;35
+JDBCBayesianAnalyzer.loadHamNSpam( Connection conn );10;4;55
+JDBCBayesianAnalyzer.getLastDatabaseUpdateTime( );1;0;3
+JDBCBayesianAnalyzer.delegatedLog( String logString );1;0;3
+JDBCBayesianAnalyzer.JDBCBayesianAnalyzer( );1;0;2
+JDBCBayesianAnalyzer.updateHamTokens( Connection conn );1;0;6
+JDBCBayesianAnalyzer.getSqlParameters( );1;0;3
+JDBCBayesianAnalyzer.resetData( Connection conn );1;0;5
+JDBCBayesianAnalyzer.setSqlParameters( Map sqlParameters );1;0;3
+JDBCBayesianAnalyzer.setSqlFileName( String sqlFileName );1;0;3
+JDBCBayesianAnalyzer.checkTables( Connection conn );4;4;11
+JDBCBayesianAnalyzer.createTable( Connection conn , String tableNameSqlStringName , String createSqlStringName );2;0;25
+JDBCBayesianAnalyzer.deleteData( Connection conn , String deleteSqlStatement );3;1;15
+JDBCBayesianAnalyzer.touchLastDatabaseUpdateTime( );1;0;3
+JDBCBayesianAnalyzer.initSqlQueries( Connection conn , String file );2;0;12
+JDBCBayesianAnalyzer.getSqlFileName( );1;0;3

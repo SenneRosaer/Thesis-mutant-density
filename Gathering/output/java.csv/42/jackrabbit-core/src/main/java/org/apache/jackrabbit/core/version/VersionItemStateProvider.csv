@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VersionItemStateProvider.stateModified( ItemState modified );1;0;2
+VersionItemStateProvider.addListener( ItemStateListener listener );1;0;3
+VersionItemStateProvider.removeListener( ItemStateListener listener );1;0;3
+VersionItemStateProvider.getVirtualRootId( );1;0;3
+VersionItemStateProvider.stateCreated( ItemState created );1;0;2
+VersionItemStateProvider.hasNodeReferences( NodeReferencesId id );1;0;3
+VersionItemStateProvider.createNodeState( VirtualNodeState parent , Name name , NodeId id , Name nodeTypeName );1;0;3
+VersionItemStateProvider.stateDiscarded( ItemState discarded );1;0;3
+VersionItemStateProvider.getNodeReferences( NodeReferencesId id );1;0;3
+VersionItemStateProvider.setNodeReferences( ChangeLog references );1;0;3
+VersionItemStateProvider.hasItemState( ItemId id );2;2;3
+VersionItemStateProvider.getItemState( ItemId id );2;1;8
+VersionItemStateProvider.stateDestroyed( ItemState destroyed );1;0;3
+VersionItemStateProvider.isVirtualRoot( ItemId id );1;0;3
+VersionItemStateProvider.VersionItemStateProvider( NodeId historyRootId , VersionItemStateManager stateMgr );1;0;5
+VersionItemStateProvider.createPropertyState( VirtualNodeState parent , Name name , int type , boolean multiValued );1;0;3

@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LoggingSessionHandler.handleTransportError( StompSession session , Throwable exception );1;0;3
+ProducingHandler.addToSend( String topic , Object payload );1;0;5
+ConsumingHandler.getPayloadType( StompHeaders headers );1;0;3
+ConsumingHandler.awaitForMessageCount( int expected , long millisToWait );4;3;13
+ConsumingHandler.afterConnected( StompSession session , StompHeaders connectedHeaders );2;0;16
+LoggingSessionHandler.handleException( StompSession session , StompCommand command , StompHeaders headers , byte [ ] payload , Throwable ex );1;1;3
+ReactorNettyTcpStompClientTests.shutdown( );3;1;16
+ConsumingHandler.handleFrame( StompHeaders headers , @ Nullable Object payload );1;0;3
+ConsumingHandler.ConsumingHandler( String ... topics );1;0;5
+ReactorNettyTcpStompClientTests.createStompConnector( );1;0;5
+ReactorNettyTcpStompClientTests.testPublishSubscribe( ReactorNettyTcpStompClient clientToUse );1;0;20
+ReactorNettyTcpStompClientTests.setup( TestInfo testInfo );1;4;22
+ProducingHandler.afterConnected( StompSession session , StompHeaders connectedHeaders );2;2;5
+LoggingSessionHandler.handleFrame( StompHeaders headers , @ Nullable Object payload );1;0;3
+ReactorNettyTcpStompClientTests.publishSubscribeOnReactorNetty2( );1;0;3
+ReactorNettyTcpStompClientTests.publishSubscribeOnReactorNetty( );1;0;3
+ConsumingHandler.awaitForSubscriptions( long millisToWait );2;0;6
+ConsumingHandler.getReceived( );1;0;3

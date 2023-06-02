@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JdbcDelegate.deleteJob( String jobid , String nodeId );3;1;18
+JdbcDelegate.insertJob( Job job , String nodeId , boolean loaded );4;1;29
+JdbcDelegate.getConnection( );1;0;3
+JdbcDelegate.asInteger( boolean value );2;0;3
+JdbcDelegate.updateAssignToNode( String node , int i , int numNodes , long maxtime );4;1;24
+JdbcDelegate.getNodeIds( );5;1;23
+JdbcDelegate.dequeueImmediate( String nodeId , long maxtime , int maxjobs );8;10;49
+JdbcDelegate.guessDialect( );10;8;34
+JdbcDelegate.updateReassign( String oldnode , String newnode );3;0;18
+JdbcDelegate.asBoolean( int value );1;1;3
+JdbcDelegate.close( Connection con );3;1;9
+JdbcDelegate.close( PreparedStatement ps );3;1;9
+JdbcDelegate.JdbcDelegate( DataSource ds );1;0;4

@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DualResolver.dumpSettings( );3;3;8
+DualResolver.commitPublishTransaction( );1;0;4
+DualResolver.beginPublishTransaction( ModuleRevisionId module , boolean overwrite );1;0;4
+DualResolver.locate( Artifact artifact );2;0;7
+DualResolver.download( ArtifactOrigin artifact , DownloadOptions options );2;0;7
+DualResolver.getDependency( DependencyDescriptor dd , ResolveData data );6;5;25
+DualResolver.setArtifactResolver( DependencyResolver artifactResolver );1;0;3
+DualResolver.reportFailure( );1;0;4
+DualResolver.findIvyFileRef( DependencyDescriptor dd , ResolveData data );1;0;3
+DualResolver.getIvyResolver( );1;0;3
+DualResolver.download( Artifact [ ] artifacts , DownloadOptions options );1;0;3
+DualResolver.abortPublishTransaction( );1;0;4
+DualResolver.setDescriptor( String descriptorRule );3;0;12
+DualResolver.reportFailure( Artifact art );1;0;4
+DualResolver.setAllownomd( boolean allownomd );2;0;6
+DualResolver.exists( Artifact artifact );2;0;7
+DualResolver.setIvyResolver( DependencyResolver ivyResolver );1;0;3
+DualResolver.getArtifactResolver( );1;0;3
+DualResolver.add( DependencyResolver resolver );3;2;10
+DualResolver.isAllownomd( );1;0;3
+DualResolver.publish( Artifact artifact , File src , boolean overwrite );2;0;7

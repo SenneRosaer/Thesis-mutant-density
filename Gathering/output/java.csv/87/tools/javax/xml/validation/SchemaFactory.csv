@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SchemaFactory.newSchema( File schema );1;0;3
+SchemaFactory.setProperty( String name , Object object );2;1;6
+SchemaFactory.setFeature( String name , boolean value );2;1;6
+SchemaFactory.newSchema( URL schema );1;0;3
+SchemaFactory.newInstance( String schemaLanguage );3;2;12
+SchemaFactory.getFeature( String name );2;1;6
+SchemaFactory.getProperty( String name );2;1;6
+SchemaFactory.newSchema( Source schema );1;0;3
+SchemaFactory.newInstance( String schemaLanguage , String factoryClassName , ClassLoader classLoader );6;6;16
+SchemaFactory.SchemaFactory( );1;0;2

@@ -1,0 +1,188 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StartChoose.StartChoose( StartElement raw );1;0;3
+TemplateConsumer.service( ServiceManager manager );1;0;3
+Parser.addEvent( Event ev );3;2;13
+JXTemplateGenerator.toDOMNodeList( String elementName , StartInstruction si , MyJexlContext jexlContext , StartElement macroCall );1;0;10
+Parser.endDocument( );1;0;6
+StartOut.StartOut( StartElement raw , JXTExpression expr , Boolean lenient );1;0;5
+StartFormatNumber.format( JexlContext jexl , JXPathContext jxp );6;3;42
+JXCacheKey.hashCode( );1;1;3
+JSMethod.JSMethod( Scriptable scope , String name );1;0;4
+StartForEach.StartForEach( StartElement raw , JXTExpression items , JXTExpression var , JXTExpression varStatus , JXTExpression begin , JXTExpression end , JXTExpression step , Boolean lenient );1;0;10
+NativeArrayIterator.hasNext( );1;1;3
+StartFormatNumber.StartFormatNumber( StartElement raw , JXTExpression var , JXTExpression value , JXTExpression type , JXTExpression pattern , JXTExpression currencyCode , JXTExpression currencySymbol , JXTExpression isGroupingUsed , JXTExpression maxIntegerDigits , JXTExpression minIntegerDigits , JXTExpression maxFractionDigits , JXTExpression minFractionDigits , JXTExpression locale );1;0;14
+JSMethod.getReturnType( );1;0;3
+JSMethod.getMethodName( );1;0;3
+JSMethod.invoke( Object thisArg , Object [ ] args );14;17;37
+JXTemplateGenerator.getValue( JXTExpression expr , JexlContext jexlContext , JXPathContext jxpathContext , Boolean lenient );7;2;31
+JXTemplateGenerator.getKey( );3;1;12
+JXCacheKey.JXCacheKey( String templateUri , Serializable templateKey );1;0;4
+MyJexlContext.getVars( );1;0;3
+StartEval.StartEval( StartElement raw , JXTExpression value );1;0;4
+MyVariables.undeclareVariable( String varName );1;0;3
+MyJexlContext.setVars( Map map );1;0;3
+JXTemplateGenerator.setup( SourceResolver resolver , Map objectModel , String src , Parameters parameters );9;7;44
+JSIntrospector.getMethod( Object obj , String methodName , Object [ ] args , Info i );2;1;4
+IgnorableWhitespace.IgnorableWhitespace( Location location , char [ ] chars , int start , int length );1;0;3
+MyJexlContext.MyJexlContext( );1;0;3
+StartDefine.finish( );12;7;40
+CopyAttribute.CopyAttribute( String namespaceURI , String localName , String raw , String type , String value );1;0;4
+JXTemplateGenerator.getNode( JXTExpression expr , JexlContext jexlContext , JXPathContext jxpathContext , Boolean lenient );11;2;48
+Characters.Characters( Location location , char [ ] chars , int start , int length );1;0;3
+Parser.endEntity( String name );1;0;3
+NativeArrayIterator.remove( );1;0;3
+Parser.startEntity( String name );1;0;3
+StartFormatNumber.createFormatter( Locale loc , String type );5;2;13
+ScriptableIterator.next( );5;5;16
+Parser.flushChars( );2;1;11
+JSIntrospector.getPropertySet( Object obj , String identifier , Object arg , Info i );2;1;4
+Parser.endElement( String namespaceURI , String localName , String raw );7;2;34
+Parser.setDocumentLocator( Locator locator );1;0;3
+EndElement.EndElement( Location location , StartElement startElement );1;0;4
+MyVariables.MyVariables( Object cocoon , Object bean , WebContinuation kont , Object request , Object session , Object context , Object parameters );1;0;9
+LocationFacade.getSystemId( );1;0;3
+Parser.endDTD( );1;0;3
+Parser.skippedEntity( String name );1;0;3
+LoopTagStatus.getCount( );1;0;3
+TransformerAdapter.setConsumer( XMLConsumer xmlConsumer );1;0;4
+StartFormatNumber.configureFormatter( NumberFormat formatter , Boolean isGroupingUsed , Number maxIntegerDigits , Number minIntegerDigits , Number maxFractionDigits , Number minFractionDigits );6;5;12
+TemplateConsumer.recycle( );1;0;4
+JSIntrospector.hasNext( );1;0;3
+ErrorHolder.getError( );1;0;3
+ErrorHolder.printStackTrace( );1;0;3
+JSIntrospector.getIterator( Object obj , Info i );5;1;25
+JXSourceValidity.isValid( );5;1;14
+Event.Event( Location locator );2;1;3
+StartTemplate.StartTemplate( StartElement raw );1;0;3
+LoopTagStatus.getStep( );1;0;3
+JSMethod.isCacheable( );1;0;3
+JXTemplateGenerator.getBooleanValue( JXTExpression expr , JexlContext jexlContext , JXPathContext jxpathContext );2;0;4
+ScriptableIterator.remove( );1;0;8
+JXTemplateGenerator.generate( );1;0;8
+StartCDATA.StartCDATA( Location location );1;0;3
+JXSourceValidity.JXSourceValidity( SourceValidity sourceValidity , SourceValidity templateValidity );1;0;4
+Parser.getStartEvent( );1;0;3
+SkippedEntity.SkippedEntity( Location location , String name );1;0;4
+JSPropertySet.getMethodName( );1;0;3
+EndInstruction.EndInstruction( Location locator , StartInstruction startInstruction );1;0;5
+JXTemplateGenerator.getJXPathContext( );1;0;3
+TransformerAdapter.setup( SourceResolver resolver , Map objectModel , String src , Parameters parameters );1;0;4
+StartOtherwise.StartOtherwise( StartElement raw );1;0;3
+ErrorHolder.printStackTrace( PrintWriter pw );1;0;3
+TemplateConsumer.TemplateConsumer( );1;0;3
+Parser.characters( char [ ] ch , int start , int length );2;1;7
+ScriptableIterator.hasNext( );1;1;3
+MyJexlContext.get( Object key );4;3;10
+ProcessingInstruction.ProcessingInstruction( Location location , String target , String data );1;0;5
+LoopTagStatus.getIndex( );1;0;3
+LocationFacade.getLineNumber( );1;0;3
+EndPrefixMapping.EndPrefixMapping( Location location , String prefix );1;0;4
+StartPrefixMapping.StartPrefixMapping( Location location , String prefix , String uri );1;0;5
+JSIntrospector.next( );1;0;3
+StartIf.StartIf( StartElement raw , JXTExpression test );1;0;4
+LocaleAwareInstruction.LocaleAwareInstruction( StartElement startElement , JXTExpression locale );1;0;4
+Parser.startDocument( );1;0;5
+NativeArrayIterator.next( );5;5;19
+Parser.startPrefixMapping( String prefix , String uri );1;0;3
+JSPropertySet.invoke( Object thisArg , Object rhs );7;10;23
+StartComment.StartComment( StartElement raw );1;0;3
+JSPropertyGet.invoke( Object thisArg );10;9;28
+JXTemplateGenerator.compileExpr( String expr , String errorPrefix , Location location );2;1;7
+StartFormatDate.StartFormatDate( StartElement raw , JXTExpression var , JXTExpression value , JXTExpression type , JXTExpression pattern , JXTExpression timeZone , JXTExpression dateStyle , JXTExpression timeStyle , JXTExpression locale );1;0;10
+JXTemplateGenerator.getConsumer( );1;0;3
+MyJexlContext.containsKey( Object key );1;1;3
+AttributeEvent.AttributeEvent( String namespaceURI , String localName , String raw , String type );1;0;6
+TransformerAdapter.service( ServiceManager manager );1;0;4
+JSPropertyGet.JSPropertyGet( Scriptable scope , String name );1;0;4
+Literal.Literal( String val );1;0;3
+JXTemplateGenerator.getJexlContext( );1;0;3
+JXTemplateGenerator.getCurrentTemplateProperty( String propertyName );2;1;8
+JSIntrospector.remove( );1;0;2
+StartWhen.StartWhen( StartElement raw , JXTExpression test );1;0;4
+ErrorHolder.ErrorHolder( Error err );1;0;4
+StartElement.StartElement( Location location , String namespaceURI , String localName , String raw , Attributes attrs );20;19;88
+JXTemplateGenerator.next( );1;0;3
+JXCacheKey.equals( Object o );3;1;8
+MyVariables.getVariable( String varName );10;2;26
+SubstituteAttribute.SubstituteAttribute( String namespaceURI , String localName , String raw , String type , List substs );1;0;4
+EndCDATA.EndCDATA( Location location );1;0;3
+JXTExpression.JXTExpression( String raw , Object expr );1;0;4
+JXTException.JXTException( String message , Location loc , Throwable thr );1;0;3
+JXTemplateGenerator.setContexts( Object contextObject , WebContinuation kont , Parameters parameters , Map objectModel );7;5;46
+LoopTagStatus.getCurrent( );1;0;3
+JSPropertySet.isCacheable( );1;0;3
+TemplateConsumer.endDocument( );1;0;4
+JXTemplateGenerator.hasNext( );1;1;3
+JXTemplateGenerator.fillContext( Object contextObject , Map map );9;6;35
+LocationFacade.getColumnNumber( );1;0;3
+Parser.recycle( );1;0;8
+StartEntity.StartEntity( Location location , String name );1;0;4
+JXCacheKey.toString( );1;0;3
+Parser.processingInstruction( String target , String data );1;0;4
+JXTemplateGenerator.compile( final String variable , boolean xpath );2;0;9
+Parser.startDTD( String name , String publicId , String systemId );1;0;3
+StartSet.StartSet( StartElement raw , JXTExpression var , JXTExpression value );1;0;5
+JXSourceValidity.isValid( SourceValidity otherValidity );6;1;17
+JXTemplateGenerator.characters( char [ ] ch , int offset , int len );1;0;3
+Parser.endCDATA( );1;0;3
+EndEntity.EndEntity( Location location , String name );1;0;4
+TextEvent.TextEvent( Location location , char [ ] chars , int start , int length );19;15;73
+LocationFacade.LocationFacade( Location initialLocation );1;0;3
+Parser.Parser( );1;0;2
+StartFormatDate.createFormatter( Locale loc , String type , String dateStyle , String timeStyle );5;2;13
+JXTemplateGenerator.getStringValue( JXTExpression expr , JexlContext jexlContext , JXPathContext jxpathContext );4;4;10
+NativeArrayIterator.NativeArrayIterator( NativeArray arr );1;0;4
+JXTemplateGenerator.compileInt( String val , String msg , Location location );3;2;10
+ErrorHolder.printStackTrace( PrintStream ps );1;0;3
+LoopTagStatus.getEnd( );1;0;3
+JXTemplateGenerator.parseLocale( String locale , String variant );7;7;21
+StartDefine.StartDefine( StartElement raw , String namespace , String name );1;0;7
+Parser.comment( char ch [ ] , int start , int length );1;0;2
+TemplateConsumer.setup( SourceResolver resolver , Map objectModel , String src , Parameters parameters );1;0;3
+Parser.startElement( String namespaceURI , String localName , String qname , Attributes attrs );45;30;203
+Parser.startCDATA( );1;0;3
+LocationFacade.getPublicId( );1;0;3
+LoopTagStatus.isLast( );1;0;3
+JXTemplateGenerator.getValue( JXTExpression expr , JexlContext jexlContext , JXPathContext jxpathContext );1;0;3
+LoopTagStatus.isFirst( );1;0;3
+JXTemplateGenerator.compileExpr( String inStr );13;12;41
+StartParameter.StartParameter( StartElement raw , String name , String optional , String default_ );1;0;6
+StartImport.StartImport( StartElement raw , AttributeEvent uri , JXTExpression select );1;0;5
+Parser.ignorableWhitespace( char [ ] ch , int start , int length );1;0;4
+StartFormatNumber.setCurrency( NumberFormat formatter , String currencyCode , String currencySymbol );7;6;37
+EndDTD.EndDTD( Location location );1;0;3
+ScriptableIterator.ScriptableIterator( Scriptable scope );1;0;5
+JXTemplateGenerator.getValidity( );4;3;13
+JSPropertyGet.getMethodName( );1;0;3
+Parser.endPrefixMapping( String prefix );1;0;4
+JSPropertySet.JSPropertySet( Scriptable scope , String name );1;0;4
+JXTemplateGenerator.performGeneration( final XMLConsumer consumer , MyJexlContext jexlContext , JXPathContext jxpathContext , StartElement macroCall , Event startEvent , Event endEvent );1;0;5
+JXTemplateGenerator.getNode( JXTExpression expr , JexlContext jexlContext , JXPathContext jxpathContext );1;0;3
+JSIntrospector.getPropertyGet( Object obj , String identifier , Info i );2;1;4
+JXTemplateGenerator.getNumberValue( JXTExpression expr , JexlContext jexlContext , JXPathContext jxpathContext );3;1;10
+JXTemplateGenerator.remove( );1;0;2
+StartFormatDate.format( JexlContext jexl , JXPathContext jxp );10;5;42
+StartInstruction.StartInstruction( StartElement startElement );1;0;4
+LoopTagStatus.getBegin( );1;0;3
+LocationFacade.setDocumentLocation( Location newLocation );1;0;3
+MyVariables.MyVariables( MyVariables parent );1;0;3
+StartFormatDate.getStyle( String style );7;1;19
+StartDTD.StartDTD( Location location , String name , String publicId , String systemId );1;0;6
+JXTemplateGenerator.recycle( );2;1;13
+Event.locationString( );1;0;3
+JXTemplateGenerator.call( Location location , StartElement macroCall , final XMLConsumer consumer , MyJexlContext jexlContext , JXPathContext jxpathContext , Event startEvent , Event endEvent );2;1;7
+MyVariables.declareVariable( String varName , Object value );1;0;3
+JXTemplateGenerator.characters( JexlContext jexlContext , JXPathContext jxpathContext , TextEvent event , CharHandler handler );5;1;19
+StartEvalBody.StartEvalBody( StartElement raw );1;0;3
+TransformerAdapter.recycle( );1;0;4
+EndDocument.EndDocument( Location location );1;0;3
+TemplateConsumer.setConsumer( XMLConsumer consumer );1;0;3
+MyVariables.isDeclaredVariable( String varName );5;3;15
+JXTemplateGenerator.executeDOM( final XMLConsumer consumer , MyJexlContext jexlContext , JXPathContext jxpathContext , Node node );1;0;5
+JXTemplateGenerator.execute( final XMLConsumer consumer , MyJexlContext jexlContext , JXPathContext jxpathContext , StartElement macroCall , Event startEvent , Event endEvent );137;69;588
+LocaleAwareInstruction.getLocale( JexlContext jexl , JXPathContext jxp );4;2;10
+JXTemplateGenerator.compileBoolean( String val , String msg , Location location );3;2;10
+JSPropertyGet.isCacheable( );1;0;3
+StartDocument.StartDocument( Location location );1;0;4
+JXTemplateGenerator.getIntValue( JXTExpression expr , JexlContext jexlContext , JXPathContext jxpathContext );2;0;4
+MyJexlContext.MyJexlContext( MyJexlContext closure );1;0;3

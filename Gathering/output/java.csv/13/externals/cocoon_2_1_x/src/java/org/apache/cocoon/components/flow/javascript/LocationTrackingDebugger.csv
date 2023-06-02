@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StackTrackingFrame.onLineChange( Context cx , int lineNumber );1;0;3
+StackTrackingFrame.onExceptionThrown( Context cx , Throwable ex );1;0;3
+StackTrackingFrame.StackTrackingFrame( DebuggableScript script );1;0;3
+StackTrackingFrame.onLineChange( Context cx , int lineNumber , boolean breakpoint );1;0;3
+LocationTrackingDebugger.enterFrame( Context cx , Scriptable scope , Scriptable thisObj , Object [ ] args , DebuggableScript fnOrScript );1;0;3
+StackTrackingFrame.onExit( Context cx , boolean byThrow , Object resultOrException );4;3;11
+LocationTrackingDebugger.getException( String description , Exception originalException );4;4;9
+LocationTrackingDebugger.handleCompilationDone( Context cx , DebuggableScript fnOrScript , StringBuffer source );1;0;2
+StackTrackingFrame.onEnter( Context cx , Scriptable activation , Scriptable thisObj , Object [ ] args );1;0;2
+LocationTrackingDebugger.handleCompilationDone( Context cx , DebuggableScript fnOrScript , String source );1;0;2
+LocationTrackingDebugger.getFrame( Context cx , DebuggableScript fnOrScript );1;0;3
+LocationTrackingDebugger.getLocation( Object obj , String description );5;3;18

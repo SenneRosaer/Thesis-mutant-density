@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AggregateRuleImpl.getRules( Node config );6;5;25
+AggregateRuleImpl.getTextContent( Node node );3;3;11
+AggregateRuleImpl.getNodeTypeName( Node config );1;0;4
+Rule.Rule( Path pattern , Name nodeTypeName );1;0;4
+Rule.resolve( NodeState nodeState , List collector , int offset );7;5;26
+AggregateRuleImpl.getAggregatedNodeStates( NodeState nodeState );4;3;12
+Rule.resolve( NodeState nodeState );1;0;5
+AggregateRuleImpl.AggregateRuleImpl( Node config , NameResolver resolver , ItemStateManager ism , HierarchyManager hmgr );1;0;7
+Rule.matches( NodeState nodeState );7;6;25
+AggregateRuleImpl.getAggregateRoot( NodeState nodeState );4;4;10

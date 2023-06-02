@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CustomizableTraceInterceptor.invokeUnderTrace( MethodInvocation invocation , Log logger );5;2;31
+CustomizableTraceInterceptor.checkForInvalidPlaceholders( String message );3;1;9
+CustomizableTraceInterceptor.setExitMessage( String exitMessage );1;0;7
+CustomizableTraceInterceptor.appendArgumentTypes( MethodInvocation methodInvocation , Matcher matcher , StringBuilder output );3;2;9
+CustomizableTraceInterceptor.setEnterMessage( String enterMessage );1;0;11
+CustomizableTraceInterceptor.appendReturnValue( MethodInvocation methodInvocation , Matcher matcher , StringBuilder output , @ Nullable Object returnValue );3;2;11
+CustomizableTraceInterceptor.replacePlaceholders( String message , MethodInvocation methodInvocation , @ Nullable Object returnValue , @ Nullable Throwable throwable , long invocationTime );11;3;41
+CustomizableTraceInterceptor.setExceptionMessage( String exceptionMessage );1;0;7

@@ -1,0 +1,5 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PartEventHttpMessageWriter.encodePartData( byte [ ] boundary , DataBufferFactory bufferFactory , HttpHeaders headers , Flux < DataBuffer > body );1;0;7
+PartEventHttpMessageWriter.canWrite( ResolvableType elementType , @ Nullable MediaType mediaType );5;1;13
+PartEventHttpMessageWriter.write( Publisher < ? extends PartEvent > partDataStream , ResolvableType elementType , @ Nullable MediaType mediaType , ReactiveHttpOutputMessage outputMessage , Map < String , Object > hints );4;2;28
+PartEventHttpMessageWriter.PartEventHttpMessageWriter( );1;0;3

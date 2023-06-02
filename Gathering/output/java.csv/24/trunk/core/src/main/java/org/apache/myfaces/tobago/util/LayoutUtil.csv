@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LayoutUtil.getLayoutSpace( UIComponent component , String sizeAttribute , String layoutAttribute );4;2;14
+LayoutUtil.addChildren( List < UIComponent > children , UIComponent panel );3;0;11
+LayoutUtil.getLabelWidth( UIComponent component );5;3;16
+LayoutUtil.getInnerSpace( FacesContext facesContext , UIComponent component , boolean width );8;9;31
+LayoutUtil.getInnerSpace( FacesContext facesContext , UIComponent component , int outerSpace , boolean width );6;7;25
+LayoutUtil.LayoutUtil( );1;0;2
+LayoutUtil.calculateFixedHeightForChildren( FacesContext facesContext , UIComponent component );7;7;19
+LayoutUtil.getLayoutParent( UIComponent component );3;2;7
+LayoutUtil.getMinimumSize( FacesContext facesContext , UIComponent component );3;4;11
+LayoutUtil.getMinimumWidth( FacesContext facesContext , UIComponent component );2;2;7
+LayoutUtil.maybeSetLayoutAttribute( UIComponent cell , String attribute , Integer value );7;0;20
+LayoutUtil.checkTokens( String columns );3;1;10
+LayoutUtil.getMinimumHeight( FacesContext facesContext , UIComponent component );2;2;7
+LayoutUtil.isTransparentForLayout( UIComponent component );4;3;10
+LayoutUtil.getLayoutHeight( UIComponent component );1;0;3
+LayoutUtil.getLayoutWidth( UIComponent component );1;0;3

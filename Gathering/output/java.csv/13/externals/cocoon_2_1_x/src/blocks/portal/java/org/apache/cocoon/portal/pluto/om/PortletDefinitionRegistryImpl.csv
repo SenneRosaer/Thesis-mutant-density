@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PortletDefinitionRegistryImpl.load( String baseWMDir , Mapping portletXMLMapping , Mapping webXMLMapping );8;6;23
+PortletDefinitionRegistryImpl.dispose( );2;1;10
+PortletDefinitionRegistryImpl.load( InputSource portletXml , InputSource webXml , String webModule , Mapping portletXMLMapping , Mapping webXMLMapping );5;1;50
+PortletDefinitionRegistryImpl.getPortalService( );1;0;3
+PortletDefinitionRegistryImpl.loadWebApp( String baseDir , String webModule , Mapping portletXMLMapping , Mapping webXMLMapping );5;3;24
+PortletDefinitionRegistryImpl.getPortletApplicationDefinitionList( );1;0;3
+PortletDefinitionRegistryImpl.getPortletApplicationEntityList( );1;0;3
+PortletDefinitionRegistryImpl.loadLocal( Mapping portletXMLMapping , Mapping webXMLMapping );5;3;27
+PortletDefinitionRegistryImpl.getPortletDefinition( ObjectID id );1;0;3
+PortletDefinitionRegistryImpl.initialize( );7;4;52
+PortletDefinitionRegistryImpl.contextualize( Context context );1;0;3
+PortletDefinitionRegistryImpl.service( ServiceManager manager );1;0;5
+PortletDefinitionRegistryImpl.loadWar( File warFile , String webModule , Mapping portletXMLMapping , Mapping webXMLMapping );6;2;29

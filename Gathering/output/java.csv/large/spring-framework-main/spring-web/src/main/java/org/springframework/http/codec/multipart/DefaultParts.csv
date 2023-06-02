@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultFormFieldPart.content( );1;0;6
+AbstractPart.headers( );1;0;3
+DefaultFilePart.DefaultFilePart( HttpHeaders headers , Content content );1;0;3
+DefaultFormFieldPart.value( );1;0;3
+DefaultFilePart.toString( );2;1;11
+AbstractPart.name( );1;1;5
+DefaultFilePart.filename( );1;1;5
+DefaultPart.delete( );1;0;3
+FluxContent.content( );1;0;3
+FluxContent.FluxContent( Flux < DataBuffer > content );1;0;3
+DefaultPart.content( );1;0;3
+FileContent.FileContent( Path file , Scheduler scheduler );1;0;4
+DefaultParts.partInternal( HttpHeaders headers , Content content );2;1;9
+AbstractPart.AbstractPart( HttpHeaders headers );1;0;4
+FileContent.delete( );1;0;6
+DefaultPart.toString( );2;1;9
+FluxContent.delete( );1;0;3
+DefaultParts.formFieldPart( HttpHeaders headers , String value );1;0;5
+DefaultParts.part( HttpHeaders headers , Path file , Scheduler scheduler );1;0;6
+DefaultParts.part( HttpHeaders headers , Flux < DataBuffer > dataBuffers );1;0;5
+DefaultPart.DefaultPart( HttpHeaders headers , Content content );1;0;4
+FileContent.blockingOperation( Callable < ? > callable );2;0;12
+FluxContent.transferTo( Path dest );1;0;3
+DefaultFormFieldPart.DefaultFormFieldPart( HttpHeaders headers , String value );1;0;4
+FileContent.transferTo( Path dest );1;0;3
+FileContent.content( );1;0;6
+DefaultFormFieldPart.toString( );2;1;9
+DefaultFilePart.transferTo( Path dest );1;0;3

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters( HttpInputMessage inputMessage , MethodParameter parameter , Type targetType );29;18;69
+AbstractMessageConverterMethodArgumentResolver.validateIfApplicable( WebDataBinder binder , MethodParameter parameter );3;1;10
+EmptyBodyCheckingHttpInputMessage.getBody( );2;1;3
+AbstractMessageConverterMethodArgumentResolver.isBindExceptionRequired( WebDataBinder binder , MethodParameter parameter );3;5;6
+EmptyBodyCheckingHttpInputMessage.hasBody( );1;1;3
+AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters( NativeWebRequest webRequest , MethodParameter parameter , Type paramType );1;0;4
+AbstractMessageConverterMethodArgumentResolver.closeStreamIfNecessary( InputStream body );1;0;2
+AbstractMessageConverterMethodArgumentResolver.getAdvice( );1;0;3
+AbstractMessageConverterMethodArgumentResolver.AbstractMessageConverterMethodArgumentResolver( List < HttpMessageConverter < ? > > converters , @ Nullable List < Object > requestResponseBodyAdvice );1;0;5
+AbstractMessageConverterMethodArgumentResolver.getSupportedMediaTypes( Class < ? > clazz );3;0;9
+EmptyBodyCheckingHttpInputMessage.getHeaders( );1;0;3
+AbstractMessageConverterMethodArgumentResolver.adaptArgumentIfNecessary( @ Nullable Object arg , MethodParameter parameter );8;7;12
+AbstractMessageConverterMethodArgumentResolver.AbstractMessageConverterMethodArgumentResolver( List < HttpMessageConverter < ? > > converters );1;0;3
+AbstractMessageConverterMethodArgumentResolver.createInputMessage( NativeWebRequest webRequest );1;1;5
+EmptyBodyCheckingHttpInputMessage.EmptyBodyCheckingHttpInputMessage( HttpInputMessage inputMessage );4;4;20

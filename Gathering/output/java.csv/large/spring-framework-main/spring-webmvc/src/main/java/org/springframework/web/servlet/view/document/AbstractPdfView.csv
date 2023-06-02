@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractPdfView.AbstractPdfView( );1;0;3
+AbstractPdfView.buildPdfMetadata( Map < String , Object > model , Document document , HttpServletRequest request );1;0;2
+AbstractPdfView.newDocument( );1;0;3
+AbstractPdfView.newWriter( Document document , OutputStream os );1;0;3
+AbstractPdfView.generatesDownloadContent( );1;0;3
+AbstractPdfView.renderMergedOutputModel( Map < String , Object > model , HttpServletRequest request , HttpServletResponse response );1;0;11
+AbstractPdfView.prepareWriter( Map < String , Object > model , PdfWriter writer , HttpServletRequest request );1;0;3
+AbstractPdfView.getViewerPreferences( );1;1;3

@@ -1,0 +1,98 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PNGEncodeParam.isPhysicalDimensionSet( );1;0;3
+PNGEncodeParam.removeUnsafeToCopyPrivateChunks( );4;5;15
+PNGEncodeParam.unsetModificationTime( );1;0;4
+PNGEncodeParam.setPaletteHistogram( int [ ] paletteHistogram );1;0;4
+PNGEncodeParam.unsetTransparency( );1;0;3
+RGB.setBitDepth( int bitDepth );3;3;7
+PNGEncodeParam.setInterlacing( boolean useInterlacing );1;0;3
+PNGEncodeParam.getBitDepth( );2;1;6
+Palette.getBackgroundPaletteIndex( );2;1;6
+Palette.getPalette( );2;1;6
+PNGEncodeParam.unsetSignificantBits( );1;0;4
+PNGEncodeParam.filterRow( byte [ ] currRow , byte [ ] prevRow , byte [ ] [ ] scratchRows , int bytesPerRow , int bytesPerPixel );21;64;84
+Palette.setBitDepth( int bitDepth );5;7;8
+PNGEncodeParam.getPrivateChunkType( int index );1;0;3
+RGB.getTransparentRGB( );2;1;6
+PNGEncodeParam.getPhysicalDimension( );2;1;6
+PNGEncodeParam.isModificationTimeSet( );1;0;3
+PNGEncodeParam.getSignificantBits( );2;1;6
+PNGEncodeParam.unsetPhysicalDimension( );1;0;4
+PNGEncodeParam.unsetBitDepth( );1;0;3
+PNGEncodeParam.getChromaticity( );2;1;6
+PNGEncodeParam.getICCProfileData( );2;1;6
+Gray.getBackgroundGray( );2;1;6
+Gray.getTransparentGray( );2;1;7
+PNGEncodeParam.unsetBackground( );1;0;3
+PNGEncodeParam.getPaletteHistogram( );2;1;6
+PNGEncodeParam.unsetSRGBIntent( );1;0;3
+Palette.Palette( );1;0;1
+PNGEncodeParam.getNumPrivateChunks( );1;0;3
+PNGEncodeParam.setCompressedText( String [ ] text );1;0;4
+Palette.unsetBackground( );1;0;3
+Gray.setTransparentGray( int transparentGray );1;0;5
+Palette.setPalette( int [ ] rgb );4;7;12
+Palette.setPaletteTransparency( byte [ ] alpha );2;3;7
+PNGEncodeParam.getDefaultEncodeParam( RenderedImage im );4;3;13
+PNGEncodeParam.isTransparencySet( );1;0;3
+Gray.setBitShift( int bitShift );2;1;7
+PNGEncodeParam.getInterlacing( );1;0;3
+PNGEncodeParam.getModificationTime( );2;1;6
+PNGEncodeParam.setICCProfileData( byte [ ] ICCProfileData );1;0;4
+PNGEncodeParam.unsetText( );1;0;4
+PNGEncodeParam.unsetICCProfileData( );1;0;4
+PNGEncodeParam.isTextSet( );1;0;3
+Palette.unsetPalette( );1;0;4
+Gray.unsetBitShift( );1;0;3
+PNGEncodeParam.isICCProfileDataSet( );1;0;3
+Palette.isBackgroundSet( );1;0;3
+PNGEncodeParam.unsetGamma( );1;0;3
+RGB.unsetBackground( );1;0;3
+PNGEncodeParam.setGamma( float gamma );1;0;4
+PNGEncodeParam.isPaletteHistogramSet( );1;0;3
+RGB.getBackgroundRGB( );2;1;6
+RGB.RGB( );1;0;1
+PNGEncodeParam.addPrivateChunk( String type , byte [ ] data );1;0;4
+PNGEncodeParam.setPhysicalDimension( int xPixelsPerUnit , int yPixelsPerUnit , int unitSpecifier );1;0;7
+Gray.setBackgroundGray( int gray );1;0;4
+Palette.isPaletteSet( );1;0;3
+PNGEncodeParam.unsetCompressedText( );1;0;4
+PNGEncodeParam.setPhysicalDimension( int [ ] physicalDimension );1;0;4
+PNGEncodeParam.paethPredictor( int a , int b , int c );4;9;13
+PNGEncodeParam.isSuggestedPaletteSet( );1;0;3
+PNGEncodeParam.isChromaticitySet( );1;0;3
+PNGEncodeParam.getPrivateChunkData( int index );1;0;3
+RGB.setTransparentRGB( int [ ] transparentRGB );1;0;4
+Palette.getPaletteTransparency( );3;3;10
+PNGEncodeParam.setSuggestedPalette( PNGSuggestedPaletteEntry [ ] palette );1;0;4
+PNGEncodeParam.isGammaSet( );1;0;3
+PNGEncodeParam.abs( int x );2;2;3
+PNGEncodeParam.getSRGBIntent( );2;1;6
+PNGEncodeParam.unsetSuggestedPalette( );1;0;4
+PNGEncodeParam.getCompressedText( );2;1;6
+RGB.setBackgroundRGB( int [ ] rgb );2;1;7
+Gray.unsetBackground( );1;0;3
+Gray.setBitDepth( int bitDepth );6;9;8
+PNGEncodeParam.getGamma( );2;1;6
+Gray.isBackgroundSet( );1;0;3
+PNGEncodeParam.setModificationTime( Date modificationTime );1;0;4
+Gray.getBitShift( );2;1;6
+PNGEncodeParam.removeAllPrivateChunks( );1;0;4
+PNGEncodeParam.setChromaticity( float [ ] chromaticity );2;1;7
+PNGEncodeParam.setSRGBIntent( int SRGBIntent );1;0;4
+PNGEncodeParam.unsetChromaticity( );1;0;4
+Gray.isBitShiftSet( );1;0;3
+Gray.Gray( );1;0;1
+PNGEncodeParam.getText( );2;1;6
+PNGEncodeParam.setChromaticity( float whitePointX , float whitePointY , float redX , float redY , float greenX , float greenY , float blueX , float blueY );1;0;12
+PNGEncodeParam.setSignificantBits( int [ ] significantBits );1;0;4
+PNGEncodeParam.getSuggestedPalette( );2;1;6
+PNGEncodeParam.isBackgroundSet( );1;0;3
+PNGEncodeParam.isSRGBIntentSet( );1;0;3
+PNGEncodeParam.setText( String [ ] text );1;0;4
+PNGEncodeParam.isSignificantBitsSet( );1;0;3
+Palette.setBackgroundPaletteIndex( int index );1;0;4
+Gray.isBitDepthSet( );1;0;3
+PNGEncodeParam.isCompressedTextSet( );1;0;3
+PNGEncodeParam.unsetPaletteHistogram( );1;0;4
+RGB.isBackgroundSet( );1;0;3

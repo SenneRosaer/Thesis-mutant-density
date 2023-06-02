@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ComponentContextImpl.getInstallRoot( );1;0;3
+ComponentContextImpl.registerExternalEndpoint( ServiceEndpoint externalEndpoint );1;0;2
+ComponentContextImpl.getWorkspaceRoot( );1;0;3
+ComponentContextImpl.deregisterExternalEndpoint( ServiceEndpoint externalEndpoint );1;0;2
+ComponentContextImpl.destroy( );2;0;8
+ComponentContextImpl.getComponent( );1;0;3
+ComponentContextImpl.deactivateEndpoint( ServiceEndpoint endpoint );3;0;11
+ComponentContextImpl.getComponentName( );1;0;3
+ComponentContextImpl.ComponentContextImpl( ComponentRegistryImpl componentRegistry , ComponentWrapper component , Map < String , ? > properties );1;0;15
+ComponentContextImpl.activateEndpoint( QName serviceName , String endpointName );3;2;22

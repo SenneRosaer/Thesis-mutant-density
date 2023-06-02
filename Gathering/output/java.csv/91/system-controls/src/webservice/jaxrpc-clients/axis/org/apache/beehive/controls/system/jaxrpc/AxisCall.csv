@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AxisCall.setServicePortName( QName portQName );1;0;3
+AxisCall.setReturnType( Class returnType , QName xmlReturnType );3;3;8
+AxisCall.setOperationStyle( WsdlOperation . SOAPBindingStyle style , WsdlOperation . SOAPParameterStyle parameterStyle , WsdlOperation . SOAPBindingUse use );3;3;6
+AxisCall.addFault( QName faultName , QName xmlType , boolean isComplexType , WsdlOperation . SOAPBindingStyle style , WsdlOperation . SOAPBindingUse use );1;0;5
+AxisCall.addParameter( QName paramName , Class paramClass , QName xmlType , WsdlOpParameter . ParameterMode mode , boolean isHeader );4;2;19
+AxisCall.AxisCall( Service service , WsdlComplexTypes complexTypes );1;0;6

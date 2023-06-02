@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LockInfo.update( );2;0;7
+LockInfo.getXAEnv( );1;0;3
+XAEnvironment.XAEnvironment( LockManagerImpl lockMgr );1;0;3
+XAEnvironment.getLockInfos( SessionImpl session );3;3;12
+LockInfo.mayChange( );3;3;7
+LockInfo.isUnlock( );1;0;3
+XAEnvironment.addLockToken( String lt );1;0;2
+LockInfo.LockInfo( NodeImpl node , LockToken lockToken , boolean sessionScoped , boolean deep , String lockOwner );1;0;4
+XAEnvironment.removeLockToken( String lt );1;0;2
+XAEnvironment.isLocked( NodeImpl node );1;1;4
+XAEnvironment.unlock( NodeImpl node );5;5;19
+XAEnvironment.differentXAEnv( AbstractLockInfo info );2;1;7
+XAEnvironment.getLockInfo( NodeImpl node );8;4;23
+LockInfo.LockInfo( NodeImpl node , AbstractLockInfo info );1;0;5
+XAEnvironment.lock( NodeImpl node , boolean isDeep , boolean isSessionScoped );5;4;23
+XAEnvironment.reset( );1;0;6
+XAEnvironment.prepare( );7;7;31
+XAEnvironment.rollback( );5;5;20
+LockInfo.undo( );2;0;7
+XAEnvironment.commit( );3;2;11

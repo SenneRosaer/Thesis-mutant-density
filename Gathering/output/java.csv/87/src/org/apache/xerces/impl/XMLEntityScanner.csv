@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLEntityScanner.scanQName( QName qname );19;26;98
+XMLEntityScanner.scanNCName( );13;12;58
+XMLEntityScanner.setBufferSize( int size );1;0;3
+XMLEntityScanner.getPublicId( );3;3;3
+XMLEntityScanner.getExpandedSystemId( );4;4;12
+XMLEntityScanner.getCharacterOffset( );3;4;11
+XMLEntityScanner.scanChar( );11;14;34
+XMLEntityScanner.fillInStackTrace( );1;0;3
+XMLEntityScanner.scanName( );13;12;58
+XMLEntityScanner.getLiteralSystemId( );4;4;12
+XMLEntityScanner.scanContent( XMLString content );27;46;112
+XMLEntityScanner.setXMLVersion( String xmlVersion );1;0;3
+XMLEntityScanner.getEncoding( );3;1;11
+XMLEntityScanner.setEncoding( String encoding );14;6;39
+XMLEntityScanner.XMLEntityScanner( );1;0;2
+XMLEntityScanner.reset( SymbolTable symbolTable , XMLEntityManager entityManager , XMLErrorReporter reporter );1;0;6
+XMLEntityScanner.skipChar( int c );13;15;51
+XMLEntityScanner.getBaseSystemId( );3;3;3
+XMLEntityScanner.scanData( String delimiter , XMLStringBuffer buffer );35;71;152
+XMLEntityScanner.setCurrentEntity( XMLEntityManager . ScannedEntity ent );1;0;3
+XMLEntityScanner.scanLiteral( int quote , XMLString content );31;54;114
+XMLEntityScanner.skipString( String s );11;20;43
+XMLEntityScanner.scanNmtoken( );9;9;42
+XMLEntityScanner.load( int offset , boolean changeEntity );12;12;44
+XMLEntityScanner.getXMLVersion( );3;1;11
+XMLEntityScanner.getColumnNumber( );3;2;11
+XMLEntityScanner.peekChar( );8;3;27
+XMLEntityScanner.getLineNumber( );3;2;11
+XMLEntityScanner.skipSpaces( );17;18;54
+XMLEntityScanner.isExternal( );1;0;3
+XMLEntityScanner.skipDeclSpaces( );17;18;54

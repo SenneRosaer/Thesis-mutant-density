@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClusterNode.getId( );1;0;3
+ClusterNode.setStopDelay( long stopDelay );1;0;3
+ClusterNode.consume( Record record );2;0;9
+WorkspaceUpdateChannel.setListener( UpdateEventListener listener );3;2;10
+WorkspaceUpdateChannel.updateCancelled( Update update );3;2;11
+ClusterNode.workspaceCreated( String workspaceName , ClonedInputSource inputSource );6;4;25
+ClusterNode.process( NamespaceRecord record );3;1;14
+ClusterNode.getClusterNodeIdFromFile( );3;3;10
+ClusterNode.createLockChannel( String workspace );1;0;3
+ClusterNode.registered( Collection ntDefs );6;4;25
+WorkspaceUpdateChannel.updatePrepared( Update update );7;5;32
+WorkspaceLockChannel.WorkspaceLockChannel( String workspace );1;0;3
+WorkspaceUpdateChannel.updateCommitted( Update update );5;2;25
+ClusterNode.process( WorkspaceRecord record );4;2;17
+ClusterNode.remapped( String oldPrefix , String newPrefix , String uri );6;4;25
+ClusterNode.stop( );6;4;20
+WorkspaceLockChannel.create( NodeId nodeId , boolean deep , String owner );4;1;19
+ClusterNode.init( ClusterContext clusterContext );1;0;4
+ClusterNode.getRevision( );2;0;8
+ClusterNode.setRepositoryHome( Journal journal , File repHome );2;0;6
+ClusterNode.getJournal( );1;0;3
+ClusterNode.reregistered( NodeTypeDef ntDef );6;4;25
+ClusterNode.sync( );3;0;15
+ClusterNode.start( );2;1;10
+ClusterNode.process( ChangeLogRecord record );7;4;37
+WorkspaceUpdateChannel.WorkspaceUpdateChannel( String workspace );1;0;3
+ClusterNode.ended( DefaultClusterOperation operation , boolean successful );5;1;22
+ClusterNode.createUpdateChannel( String workspace );1;0;3
+ClusterNode.run( );7;0;25
+ClusterNode.init( );3;0;18
+ClusterNode.process( NodeTypeRecord record );7;1;28
+ClusterNode.setListener( NamespaceEventListener listener );1;0;3
+ClusterNode.setListener( NodeTypeEventListener listener );1;0;3
+WorkspaceLockChannel.create( NodeId nodeId );4;1;19
+ClusterNode.unregistered( Collection qnames );6;4;25
+ClusterNode.getStopDelay( );1;0;3
+WorkspaceLockChannel.setListener( LockEventListener listener );2;1;6
+ClusterNode.setRevision( long revision );2;0;7
+ClusterNode.setListener( WorkspaceListener listener );1;0;3
+WorkspaceUpdateChannel.updateCreated( Update update );4;1;16
+ClusterNode.getClusterNodeId( String id );4;2;13
+ClusterNode.process( LockRecord record );6;2;30

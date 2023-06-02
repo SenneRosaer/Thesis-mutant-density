@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractListenerWriteFlushProcessor.onSubscribe( Subscription subscription );1;0;3
+AbstractListenerWriteFlushProcessor.onError( Throwable ex );2;2;7
+AbstractListenerWriteFlushProcessor.flushIfPossible( );3;1;9
+AbstractListenerWriteFlushProcessor.onComplete( );2;1;7
+AbstractListenerWriteFlushProcessor.subscribe( Subscriber < ? super Void > subscriber );1;0;3
+WriteResultSubscriber.toString( );1;0;3
+AbstractListenerWriteFlushProcessor.onFlushPossible( );1;0;3
+AbstractListenerWriteFlushProcessor.AbstractListenerWriteFlushProcessor( );1;0;3
+WriteResultSubscriber.WriteResultSubscriber( AbstractListenerWriteFlushProcessor < ? > processor );1;0;3
+WriteResultSubscriber.onComplete( );2;0;8
+AbstractListenerWriteFlushProcessor.onNext( Publisher < ? extends T > publisher );2;0;6
+AbstractListenerWriteFlushProcessor.onNext( AbstractListenerWriteFlushProcessor < T > processor , Publisher < ? extends T > currentPublisher );4;0;8
+AbstractListenerWriteFlushProcessor.handleSourceCompleted( AbstractListenerWriteFlushProcessor < T > processor );3;0;12
+AbstractListenerWriteFlushProcessor.flushingFailed( Throwable t );1;0;4
+AbstractListenerWriteFlushProcessor.writeComplete( AbstractListenerWriteFlushProcessor < T > processor );4;1;18
+AbstractListenerWriteFlushProcessor.onNext( AbstractListenerWriteFlushProcessor < T > proc , Publisher < ? extends T > pub );1;0;2
+AbstractListenerWriteFlushProcessor.onError( AbstractListenerWriteFlushProcessor < T > processor , Throwable ex );2;0;8
+WriteResultSubscriber.onNext( Void aVoid );1;0;2
+AbstractListenerWriteFlushProcessor.onError( AbstractListenerWriteFlushProcessor < T > processor , Throwable t );1;0;2
+AbstractListenerWriteFlushProcessor.changeState( State oldState , State newState );3;3;7
+AbstractListenerWriteFlushProcessor.onSubscribe( AbstractListenerWriteFlushProcessor < T > proc , Subscription subscription );1;0;3
+AbstractListenerWriteFlushProcessor.onFlushPossible( AbstractListenerWriteFlushProcessor < T > processor );3;0;15
+AbstractListenerWriteFlushProcessor.onComplete( AbstractListenerWriteFlushProcessor < T > processor );2;1;8
+AbstractListenerWriteFlushProcessor.AbstractListenerWriteFlushProcessor( String logPrefix );4;3;16
+WriteResultSubscriber.onError( Throwable ex );2;1;9
+WriteResultSubscriber.onSubscribe( Subscription subscription );1;0;3
+AbstractListenerWriteFlushProcessor.onSubscribe( AbstractListenerWriteFlushProcessor < T > processor , Subscription subscription );2;0;10
+AbstractListenerWriteFlushProcessor.cancel( );3;2;8
+AbstractListenerWriteFlushProcessor.getLogPrefix( );1;0;3

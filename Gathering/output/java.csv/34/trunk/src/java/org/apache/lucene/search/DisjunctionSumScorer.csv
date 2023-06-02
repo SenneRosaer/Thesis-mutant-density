@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DisjunctionSumScorer.next( );3;3;7
+DisjunctionSumScorer.doc( );1;0;1
+DisjunctionSumScorer.skipTo( int target );8;7;20
+DisjunctionSumScorer.DisjunctionSumScorer( List subScorers );1;0;3
+DisjunctionSumScorer.initScorerDocQueue( );4;1;13
+DisjunctionSumScorer.nrMatchers( );1;0;3
+***not in a method***;0;3;0
+DisjunctionSumScorer.explain( int doc );4;6;25
+DisjunctionSumScorer.score( );1;0;1
+DisjunctionSumScorer.score( HitCollector hc , int max );3;2;9
+DisjunctionSumScorer.score( HitCollector hc );2;0;5
+DisjunctionSumScorer.advanceAfterCurrent( );8;8;24
+DisjunctionSumScorer.DisjunctionSumScorer( List subScorers , int minimumNrMatchers );3;2;12

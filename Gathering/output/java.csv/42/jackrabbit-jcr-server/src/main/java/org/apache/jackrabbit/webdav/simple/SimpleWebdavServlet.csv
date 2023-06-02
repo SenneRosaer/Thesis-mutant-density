@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleWebdavServlet.setResourceConfig( ResourceConfig config );1;0;3
+SimpleWebdavServlet.setSessionProvider( SessionProvider sessionProvider );1;0;3
+SimpleWebdavServlet.setLockManager( LockManager lockManager );1;0;3
+SimpleWebdavServlet.getLocatorFactory( );2;1;6
+SimpleWebdavServlet.getPathPrefix( );1;0;3
+SimpleWebdavServlet.getResourceFactory( );2;1;6
+SimpleWebdavServlet.isPreconditionValid( WebdavRequest request , DavResource resource );2;2;3
+SimpleWebdavServlet.init( );6;5;27
+SimpleWebdavServlet.getAuthenticateHeaderValue( );1;0;3
+SimpleWebdavServlet.setDavSessionProvider( DavSessionProvider sessionProvider );1;0;3
+SimpleWebdavServlet.setLocatorFactory( DavLocatorFactory locatorFactory );1;0;3
+SimpleWebdavServlet.getPathPrefix( ServletContext ctx );1;0;3
+SimpleWebdavServlet.getResourceConfig( );2;1;6
+SimpleWebdavServlet.getDavSessionProvider( );2;1;7
+SimpleWebdavServlet.getCredentialsProvider( );1;0;3
+SimpleWebdavServlet.getLockManager( );2;1;6
+SimpleWebdavServlet.getSessionProvider( );2;1;6
+SimpleWebdavServlet.setResourceFactory( DavResourceFactory resourceFactory );1;0;3

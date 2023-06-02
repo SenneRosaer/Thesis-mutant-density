@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WeightedHighlighter.mergeFragments( TermVectorOffsetInfo [ ] offsets , String text , String excerptStart , String excerptEnd , String fragmentStart , String fragmentEnd , String hlStart , String hlEnd , int maxFragments , int surround );19;26;76
+WeightedHighlighter.startFragment( StringBuffer sb , String text , int offset , int limit );6;10;19
+WeightedHighlighter.endFragment( StringBuffer sb , String text , int offset , int limit );4;3;13
+WeightedHighlighter.highlight( TermPositionVector tvec , Set queryTerms , String text , int maxFragments , int surround );1;0;5
+FragmentInfo.getEndOffset( );1;0;3
+FragmentInfo.add( TermVectorOffsetInfo offsetinfo , String text );6;10;24
+FragmentInfoPriorityQueue.FragmentInfoPriorityQueue( int size );1;0;3
+FragmentInfoPriorityQueue.lessThan( Object a , Object b );2;3;8
+FragmentInfo.FragmentInfo( TermVectorOffsetInfo offsetinfo , int maxFragmentSize );1;0;8
+FragmentInfo.iterator( );1;0;3
+FragmentInfo.getStartOffset( );1;0;3
+WeightedHighlighter.WeightedHighlighter( );1;0;2
+WeightedHighlighter.highlight( TermPositionVector tvec , Set queryTerms , String text , String excerptStart , String excerptEnd , String fragmentStart , String fragmentEnd , String hlStart , String hlEnd , int maxFragments , int surround );1;0;5
+FragmentInfo.getQuality( );1;0;3

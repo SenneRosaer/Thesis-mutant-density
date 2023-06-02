@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractListenerWriteProcessor.onWritePossible( );2;1;7
+AbstractListenerWriteProcessor.onComplete( );2;1;7
+AbstractListenerWriteProcessor.dataReceived( T data );2;1;9
+AbstractListenerWriteProcessor.cancelAndSetCompleted( );6;4;18
+AbstractListenerWriteProcessor.changeStateToReceived( State oldState );2;0;5
+AbstractListenerWriteProcessor.onComplete( AbstractListenerWriteProcessor < T > processor );1;2;3
+AbstractListenerWriteProcessor.onError( Throwable ex );2;2;7
+AbstractListenerWriteProcessor.getLogPrefix( );1;0;3
+AbstractListenerWriteProcessor.changeStateToComplete( State oldState );2;0;10
+AbstractListenerWriteProcessor.writingComplete( );1;0;2
+AbstractListenerWriteProcessor.cancel( );3;2;8
+AbstractListenerWriteProcessor.subscribe( Subscriber < ? super Void > subscriber );1;0;3
+AbstractListenerWriteProcessor.onError( AbstractListenerWriteProcessor < T > processor , Throwable ex );1;0;2
+AbstractListenerWriteProcessor.onSubscribe( AbstractListenerWriteProcessor < T > processor , Subscription subscription );2;0;10
+AbstractListenerWriteProcessor.discardCurrentData( );2;1;7
+AbstractListenerWriteProcessor.writingFailed( Throwable ex );1;0;2
+AbstractListenerWriteProcessor.onNext( AbstractListenerWriteProcessor < T > processor , T data );2;1;10
+AbstractListenerWriteProcessor.onSubscribe( Subscription subscription );1;0;3
+AbstractListenerWriteProcessor.AbstractListenerWriteProcessor( String logPrefix );2;0;4
+AbstractListenerWriteProcessor.writingPaused( );1;0;2
+AbstractListenerWriteProcessor.onNext( T data );2;1;6
+AbstractListenerWriteProcessor.changeState( State oldState , State newState );3;3;7
+AbstractListenerWriteProcessor.AbstractListenerWriteProcessor( );1;0;3
+AbstractListenerWriteProcessor.writeIfPossible( );4;2;9
+AbstractListenerWriteProcessor.onWritePossible( AbstractListenerWriteProcessor < T > processor );7;2;31

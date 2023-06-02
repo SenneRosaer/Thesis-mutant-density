@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FastJsonpResponseBodyAdvice.FastJsonpResponseBodyAdvice( );1;0;3
+FastJsonpResponseBodyAdvice.isValidJsonpQueryParam( String value );1;0;3
+FastJsonpResponseBodyAdvice.FastJsonpResponseBodyAdvice( String ... queryParamNames );1;1;4
+FastJsonpResponseBodyAdvice.beforeBodyWrite( Object body , MethodParameter returnType , MediaType selectedContentType , Class < ? extends HttpMessageConverter < ? > > selectedConverterType , ServerHttpRequest request , ServerHttpResponse response );1;0;5
+FastJsonpResponseBodyAdvice.beforeBodyWriteInternal( MappingFastJsonValue bodyContainer , MediaType contentType , MethodParameter returnType , ServerHttpRequest request , ServerHttpResponse response );4;2;13
+FastJsonpResponseBodyAdvice.supports( MethodParameter returnType , Class < ? extends HttpMessageConverter < ? > > converterType );1;0;3
+FastJsonpResponseBodyAdvice.getContentType( MediaType contentType , ServerHttpRequest request , ServerHttpResponse response );1;0;3
+FastJsonpResponseBodyAdvice.getOrCreateContainer( Object body );2;0;3

@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ObjectConverterImpl.ObjectConverterImpl( Mapper mapper , AtomicTypeConverterProvider converterProvider );1;0;7
+ObjectConverterImpl.insertBeanFields( Session session , Object object , ClassDescriptor classDescriptor , Node objectNode );6;4;26
+ObjectConverterImpl.retrieveMappedAttribute( Session session , Object object , String attributeName );5;2;32
+ObjectConverterImpl.retrieveCollectionField( Session session , CollectionDescriptor collectionDescriptor , Node parentNode , Object object , boolean forceToRetrieve );7;7;33
+ObjectConverterImpl.update( Session session , String uuId , Object object );3;0;11
+ObjectConverterImpl.getObject( Session session , String path );9;3;40
+ObjectConverterImpl.update( Session session , Object object );3;0;14
+ObjectConverterImpl.addDiscriminatorProperty( Object object , Node objectNode );2;0;12
+ObjectConverterImpl.setMapper( Mapper mapper );1;0;3
+ObjectConverterImpl.retrieveAllMappedAttributes( Session session , Object object );3;0;15
+ObjectConverterImpl.checkCompatibleNodeTypes( NodeType nodeType , ClassDescriptor descriptor );6;4;15
+ObjectConverterImpl.retrieveBeanField( Session session , BeanDescriptor beanDescriptor , Node node , String path , Object object , boolean forceToRetrieve );12;8;52
+ObjectConverterImpl.update( Session session , Node parentNode , String nodeName , Object object );3;0;12
+ObjectConverterImpl.setAtomicTypeConverterProvider( AtomicTypeConverterProvider converterProvider );1;0;3
+ObjectConverterImpl.getObject( Session session , Class clazz , String path );16;7;59
+ObjectConverterImpl.getNode( Node parentNode , ClassDescriptor classDescriptor , String nodeName , Object object );6;4;17
+ObjectConverterImpl.ObjectConverterImpl( );1;0;2
+ObjectConverterImpl.retrieveBeanFields( Session session , ClassDescriptor classDescriptor , Node node , String path , Object object , boolean forceToRetrieve );2;0;7
+ObjectConverterImpl.update( Session session , Node objectNode , Object object );1;0;9
+ObjectConverterImpl.insertCollectionFields( Session session , Object object , ClassDescriptor classDescriptor , Node objectNode );3;1;13
+ObjectConverterImpl.getClassDescriptor( Class beanClass );2;1;8
+ObjectConverterImpl.updateBeanFields( Session session , Object object , ClassDescriptor classDescriptor , Node objectNode );6;4;32
+ObjectConverterImpl.updateCollectionFields( Session session , Object object , ClassDescriptor classDescriptor , Node objectNode );3;1;13
+ObjectConverterImpl.ObjectConverterImpl( Mapper mapper , AtomicTypeConverterProvider converterProvider , ProxyManager proxyManager , ObjectCache requestObjectCache );1;0;7
+ObjectConverterImpl.retrieveCollectionFields( Session session , ClassDescriptor classDescriptor , Node parentNode , Object object , boolean forceToRetrieve );2;0;7
+ObjectConverterImpl.checkCompatiblePrimaryNodeTypes( Session session , Node node , ClassDescriptor classDescriptor , boolean checkVersionNode );6;4;18
+ObjectConverterImpl.insert( Session session , Object object );3;0;14
+ObjectConverterImpl.getPath( Session session , Object object );2;1;13
+ObjectConverterImpl.checkNodeType( Session session , ClassDescriptor classDescriptor );7;5;22
+ObjectConverterImpl.getCollectionConverter( Session session , CollectionDescriptor collectionDescriptor );2;1;10
+ObjectConverterImpl.getActualNode( Session session , Node node );2;0;11
+ObjectConverterImpl.insert( Session session , Node parentNode , String nodeName , Object object );13;7;47

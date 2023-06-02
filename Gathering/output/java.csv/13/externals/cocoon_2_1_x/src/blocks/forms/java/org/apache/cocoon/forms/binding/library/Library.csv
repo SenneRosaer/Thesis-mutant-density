@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Library.setSourceURI( String uri );1;0;3
+Library.includeAs( String key , String sourceURI );3;4;8
+Dependency.Dependency( String dependencySourceURI );1;0;5
+Library.addBinding( Binding binding );4;2;13
+Library.getSourceURI( );1;0;3
+Library.buildLibrary( Element libraryElement );2;2;10
+Dependency.isValid( );2;3;4
+Library.Library( LibraryManager lm , JXPathBindingManager . Assistant assistant );1;0;4
+Library.dependenciesHaveChanged( );3;1;10
+Library.getBinding( String key );6;8;26

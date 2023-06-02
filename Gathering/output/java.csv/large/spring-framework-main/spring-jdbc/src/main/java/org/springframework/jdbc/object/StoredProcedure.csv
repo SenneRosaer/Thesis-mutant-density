@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StoredProcedure.StoredProcedure( DataSource ds , String name );1;0;4
+StoredProcedure.allowsUnusedParameters( );1;0;3
+StoredProcedure.execute( ParameterMapper inParamMapper );1;0;4
+StoredProcedure.declareParameter( SqlParameter param );2;1;6
+StoredProcedure.StoredProcedure( JdbcTemplate jdbcTemplate , String name );1;0;4
+StoredProcedure.StoredProcedure( );1;0;2
+StoredProcedure.execute( Object ... inParams );4;3;11
+StoredProcedure.execute( Map < String , ? > inParams );1;0;4

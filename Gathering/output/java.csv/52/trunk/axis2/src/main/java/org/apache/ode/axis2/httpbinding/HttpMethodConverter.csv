@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpMethodConverter.createHttpRequest( PartnerRoleMessageExchange odeMex , HttpParams params );1;0;11
+HttpMethodConverter.createPartElement( Part part , String textContent );2;1;12
+HttpMethodConverter.extractPartElements( Message msgDef , Element message );3;1;11
+HttpMethodConverter.parseFault( PartnerRoleMessageExchange odeMex , HttpMethod method );13;7;48
+HttpMethodConverter.setHttpRequestHeaders( HttpMethod method , BindingOperation opBinding , Map < String , Element > partValues , Map < String , Node > headers , HttpParams params );14;4;58
+HttpMethodConverter.extractHttpResponseHeaders( org . apache . ode . bpel . iapi . Message odeMessage , HttpMethod method , Operation operationDef );7;1;25
+HttpMethodConverter.createPartElement( Part part , Element receivedElement );4;3;17
+HttpMethodConverter.prepareHttpMethod( BindingOperation opBinding , String verb , Map < String , Element > partValues , Map < String , Node > headers , final String rootUri , HttpParams params );25;8;72
+HttpMethodConverter.HttpMethodConverter( Definition definition , QName serviceName , String portName );1;0;6
+HttpMethodConverter.parseHttpResponse( org . apache . ode . bpel . iapi . Message odeResponse , HttpMethod method , Operation opDef );16;11;46

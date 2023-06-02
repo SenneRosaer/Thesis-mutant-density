@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AO_FOM_JavaScriptInterpreter.configure( Configuration config );3;1;19
+AO_FOM_JavaScriptInterpreter.callFunction( String funName , List params , Redirector redirector );13;9;62
+ThreadScope.put( int index , Scriptable start , Object value );1;0;4
+AO_FOM_JavaScriptInterpreter.getDebugger( );2;3;22
+ScriptSourceEntry.ScriptSourceEntry( Source source );1;0;3
+***not in a method***;0;1;0
+AO_FOM_JavaScriptInterpreter.initialize( );4;0;24
+AO_FOM_JavaScriptInterpreter.setupContext( Redirector redirector , org . mozilla . javascript . Context context , Scriptable thrScope );14;17;57
+AO_FOM_JavaScriptInterpreter.getScriptExtension( );1;0;3
+AO_FOM_JavaScriptInterpreter.getSessionScope( );4;3;18
+AO_FOM_JavaScriptInterpreter.run( );1;0;3
+ScriptSourceEntry.ScriptSourceEntry( Source source , Script script , long t );1;0;5
+ScriptSourceEntry.getSource( );1;0;3
+AO_FOM_JavaScriptInterpreter.unwrap( JavaScriptException e );3;0;10
+AO_FOM_JavaScriptInterpreter.process( Scriptable scope , AO_FOM_Cocoon cocoon , String uri , Object bizData , OutputStream out );1;0;5
+AO_FOM_JavaScriptInterpreter.compileScript( Context cx , String fileName );3;2;17
+AO_FOM_JavaScriptInterpreter.setSessionScope( Scriptable scope );2;1;14
+ThreadScope.ThreadScope( );1;0;2
+ThreadScope.reset( );1;0;3
+AO_FOM_JavaScriptInterpreter.service( ServiceManager manager );1;0;4
+ScriptSourceEntry.setAspectWeaver( JavaScriptAspectWeaver aspectWeaver );1;0;3
+AO_FOM_JavaScriptInterpreter.setupView( Scriptable scope , AO_FOM_Cocoon cocoon , FOM_WebContinuation kont );3;2;25
+AO_FOM_JavaScriptInterpreter.forwardTo( Scriptable scope , AO_FOM_Cocoon cocoon , String uri , Object bizData , FOM_WebContinuation fom_wk , Redirector redirector );2;1;7
+ScriptSourceEntry.getScript( Context context , Scriptable scope , boolean refresh );4;3;10
+AO_FOM_JavaScriptInterpreter.handleContinuation( String id , List params , Redirector redirector );10;6;65
+AO_FOM_JavaScriptInterpreter.createThreadScope( );1;1;18
+ThreadScope.put( String name , Scriptable start , Object value );1;0;4
+AO_FOM_JavaScriptInterpreter.updateSession( Scriptable scope );2;0;6
+ThreadScope.getClassName( );1;0;3
+AO_FOM_JavaScriptInterpreter.compileScript( Context cx , Scriptable scope , Source src , JavaScriptAspectWeaver aspectWeaver );5;6;23

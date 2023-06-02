@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VarargConstructor.VarargConstructor( String whatever , Observer ... observers );1;0;1
+ParameterizedConstructorInstantiatorTest.should_instantiate_type_if_resolver_provide_matching_types( );1;0;11
+ParameterizedConstructorInstantiatorTest.field( String fieldName );1;0;5
+ParameterizedConstructorInstantiatorTest.should_be_created_with_an_argument_resolver( );1;0;3
+ParameterizedConstructorInstantiatorTest.should_instantiate_type_with_vararg_constructor( );1;0;8
+MultipleConstructor.MultipleConstructor( Observer observer );1;0;3
+ParameterizedConstructorInstantiatorTest.should_report_failure_if_constructor_throws_exception( );3;0;12
+MultipleConstructor.MultipleConstructor( Observer observer , Map map );1;0;5
+OneConstructor.OneConstructor( Observer observer );1;0;1
+ParameterizedConstructorInstantiatorTest.should_fail_if_an_argument_instance_type_do_not_match_wanted_type( );4;0;14
+ThrowingConstructor.ThrowingConstructor( Observer observer );1;0;3
+ParameterizedConstructorInstantiatorTest.should_fail_if_no_parameterized_constructor_found___excluding_inner_and_others_kind_of_types( );2;0;12
+ParameterizedConstructorInstantiatorTest.ensure_instances_to_create_are_null( );1;0;7
+NoArgConstructor.NoArgConstructor( );1;0;1

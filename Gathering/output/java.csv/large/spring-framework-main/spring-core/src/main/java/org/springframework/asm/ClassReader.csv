@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClassReader.readInt( final int offset );1;13;7
+ClassReader.getItemCount( );1;0;3
+ClassReader.readBootstrapMethodsAttribute( final int maxStringLength );4;13;21
+ClassReader.readParameterAnnotations( final MethodVisitor methodVisitor , final Context context , final int runtimeParameterAnnotationsOffset , final boolean visible );3;8;20
+ClassReader.readTypeAnnotations( final MethodVisitor methodVisitor , final Context context , final int runtimeTypeAnnotationsOffset , final boolean visible );27;24;70
+ClassReader.getTypeAnnotationBytecodeOffset( final int [ ] typeAnnotationOffsets , final int typeAnnotationIndex );4;7;8
+ClassReader.readTypeAnnotationTarget( final Context context , final int typeAnnotationOffset );25;24;68
+ClassReader.accept( final ClassVisitor classVisitor , final int parsingOptions );1;0;3
+ClassReader.getItem( final int constantPoolEntryIndex );1;0;3
+ClassReader.computeBufferSize( final InputStream inputStream );2;1;7
+ClassReader.readUtf( final int utfOffset , final int utfLength , final char [ ] charBuffer );4;25;22
+ClassReader.readUtf( final int constantPoolEntryIndex , final char [ ] charBuffer );2;2;9
+ClassReader.readConst( final int constantPoolEntryIndex , final char [ ] charBuffer );10;6;33
+ClassReader.ClassReader( final byte [ ] classFileBuffer , final int classFileOffset , final boolean checkClassVersion );24;14;68
+ClassReader.computeImplicitFrame( final Context context );18;23;59
+ClassReader.readUTF8( final int offset , final char [ ] charBuffer );3;3;7
+ClassReader.readByte( final int offset );1;1;3
+ClassReader.readModuleAttributes( final ClassVisitor classVisitor , final Context context , final int moduleOffset , final int modulePackagesOffset , final String moduleMainClass );15;48;86
+ClassReader.readModule( final int offset , final char [ ] charBuffer );1;0;3
+ClassReader.readLong( final int offset );1;4;5
+ClassReader.getSuperName( );1;1;3
+ClassReader.getClassName( );1;1;3
+ClassReader.getInterfaces( );3;5;13
+ClassReader.getAccess( );1;0;3
+ClassReader.ClassReader( final String className );1;0;5
+ClassReader.readAttribute( final Attribute [ ] attributePrototypes , final String type , final int offset , final int length , final char [ ] charBuffer , final int codeAttributeOffset , final Label [ ] labels );3;1;9
+ClassReader.readElementValues( final AnnotationVisitor annotationVisitor , final int annotationOffset , final boolean named , final char [ ] charBuffer );5;7;21
+ClassReader.createLabel( final int bytecodeOffset , final Label [ ] labels );1;1;5
+ClassReader.getFirstAttributeOffset( );5;25;22
+ClassReader.readStringish( final int offset , final char [ ] charBuffer );1;0;3
+ClassReader.readClass( final int offset , final char [ ] charBuffer );1;0;3
+ClassReader.readCode( final MethodVisitor methodVisitor , final Context context , final int codeOffset );532;296;977
+***not in a method***;0;1;0
+ClassReader.getMaxStringLength( );1;0;3
+ClassReader.readVerificationTypeInfo( final int verificationTypeInfoOffset , final Object [ ] frame , final int index , final char [ ] charBuffer , final Label [ ] labels );10;4;38
+ClassReader.createDebugLabel( final int bytecodeOffset , final Label [ ] labels );2;2;5
+ClassReader.ClassReader( final InputStream inputStream );1;0;3
+ClassReader.readRecordComponent( final ClassVisitor classVisitor , final Context context , final int recordComponentOffset );17;31;123
+ClassReader.accept( final ClassVisitor classVisitor , final Attribute [ ] attributePrototypes , final int parsingOptions );50;83;234
+ClassReader.readField( final ClassVisitor classVisitor , final Context context , final int fieldInfoOffset );21;35;132
+ClassReader.ClassReader( final byte [ ] classFile );1;0;3
+ClassReader.readPackage( final int offset , final char [ ] charBuffer );1;0;3
+ClassReader.readStream( final InputStream inputStream , final boolean close );5;5;23
+ClassReader.readUnsignedShort( final int offset );1;5;4
+ClassReader.readShort( final int offset );1;5;4
+ClassReader.ClassReader( final byte [ ] classFileBuffer , final int classFileOffset , final int classFileLength );1;0;3
+ClassReader.readElementValue( final AnnotationVisitor annotationVisitor , final int elementValueOffset , final String elementName , final char [ ] charBuffer );36;57;163
+ClassReader.readConstantDynamic( final int constantPoolEntryIndex , final char [ ] charBuffer );3;8;20
+ClassReader.readMethod( final ClassVisitor classVisitor , final Context context , final int methodInfoOffset );38;59;207
+ClassReader.readStackMapFrame( final int stackMapFrameOffset , final boolean compressed , final boolean expand , final Context context );14;30;79
+ClassReader.readLabel( final int bytecodeOffset , final Label [ ] labels );3;2;9

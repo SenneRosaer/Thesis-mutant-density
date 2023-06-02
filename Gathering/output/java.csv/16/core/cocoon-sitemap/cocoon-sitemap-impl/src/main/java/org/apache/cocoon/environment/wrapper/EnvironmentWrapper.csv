@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EnvironmentWrapper.getAttribute( String name );2;1;6
+EnvironmentWrapper.removeAttribute( String name );1;0;4
+EnvironmentWrapper.getRedirectURL( );1;0;3
+EnvironmentWrapper.commitResponse( );2;2;8
+EnvironmentWrapper.EnvironmentWrapper( Environment env , SitemapSourceInfo info );1;0;3
+EnvironmentWrapper.setStatus( int statusCode );1;0;2
+EnvironmentWrapper.isExternal( );1;0;3
+EnvironmentWrapper.getContentType( );1;0;3
+EnvironmentWrapper.setInternalRedirect( boolean flag );2;0;6
+EnvironmentWrapper.setContentType( String contentType );1;0;3
+EnvironmentWrapper.reset( );1;0;3
+EnvironmentWrapper.tryResetResponse( );3;2;8
+EnvironmentWrapper.setOutputStream( OutputStream stream );1;0;3
+EnvironmentWrapper.redirect( String newURL , boolean global , boolean permanent );3;3;7
+EnvironmentWrapper.getOutputStream( int bufferSize );2;1;5
+EnvironmentWrapper.isInternalRedirect( );1;0;3
+EnvironmentWrapper.EnvironmentWrapper( Environment env , SitemapSourceInfo info , boolean wrapResponse );2;0;17
+EnvironmentWrapper.setContentLength( int length );1;0;2

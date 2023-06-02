@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLStreamReaderLocation.getCharacterOffset( );2;2;7
+XMLStreamReaderLocation.getSystemId( );2;1;7
+StreamHelper.validate( XMLStreamReader reader , StAXResult result );22;15;77
+StAXValidatorHelper.processEntityDeclarations( List entityDecls );5;5;12
+EventHelper.fillDeclaredPrefixes( Iterator namespaces );3;1;8
+EventHelper.validate( XMLEventReader reader , StAXResult result );25;16;102
+***not in a method***;0;6;0
+EventHelper.fillDeclaredPrefixes( StartElement event );1;0;3
+EventHelper.sendCharactersToValidator( String str );4;5;17
+StreamHelper.fillDeclaredPrefixes( XMLStreamReader reader );3;3;8
+StreamHelper.StreamHelper( );1;0;1
+XMLStreamReaderLocation.getLineNumber( );2;2;7
+XMLStreamReaderLocation.getColumnNumber( );2;2;7
+StAXValidatorHelper.isEntityDeclared( String name );2;1;6
+XMLStreamReaderLocation.getPublicId( );2;1;7
+StAXValidatorHelper.getCurrentEvent( );1;0;3
+StAXValidatorHelper.validate( Source source , Result result );10;6;42
+XMLStreamReaderLocation.setXMLStreamReader( XMLStreamReader reader );1;0;3
+EventHelper.fillQName( QName toFill , javax . xml . namespace . QName toCopy );1;0;3
+StreamHelper.fillXMLAttributes( XMLStreamReader reader );3;3;12
+XMLStreamReaderLocation.getLocation( );2;1;3
+XMLStreamReaderLocation.XMLStreamReaderLocation( );1;0;1
+StAXValidatorHelper.setupStAXResultHandler( StAXResult result );5;4;23
+StAXValidatorHelper.getEntityDeclaration( String name );2;1;3
+StAXValidatorHelper.isEntityUnparsed( String name );3;3;9
+EventHelper.fillDeclaredPrefixes( EndElement event );1;0;3
+EventHelper.EventHelper( );1;0;1
+StAXValidatorHelper.setup( Location location , StAXResult result , boolean stringsInternalized );3;3;12
+StAXValidatorHelper.fillQName( QName toFill , String uri , String localpart , String prefix );12;14;27
+EventHelper.fillXMLAttributes( StartElement event );3;1;13
+StAXValidatorHelper.StAXValidatorHelper( XMLSchemaValidatorComponentManager componentManager );1;0;9

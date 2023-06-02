@@ -1,0 +1,58 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ArgResolver.arg( Class < ? > type , ResolvableType generic , ResolvableType ... generics );1;0;3
+MethodInvocationInterceptor.invoke( Object proxy , Method method , Object [ ] args );1;0;3
+ArgResolver.annot( Predicate < MethodParameter > ... filters );1;0;4
+LabeledPredicate.or( Predicate < ? super T > other );1;0;3
+Builder.formatFilters( );1;0;4
+ResolvableMethod.arg( ResolvableType type );1;0;3
+Builder.resolveMethod( String methodName );1;0;3
+Builder.mockCall( Consumer < T > invoker );1;0;7
+ResolvableMethod.arg( Class < ? > type , ResolvableType generic , ResolvableType ... generics );1;0;3
+Builder.formatMethods( Set < Method > methods );1;0;4
+Builder.build( );1;2;6
+ResolvableMethod.method( );1;0;3
+Builder.resolveReturnType( ResolvableType returnType );1;0;3
+Builder.annotPresent( Class < ? extends Annotation > ... annotationTypes );1;1;7
+ArgResolver.arg( ResolvableType type );1;0;4
+Builder.annot( Predicate < Method > ... filters );1;0;4
+Builder.returning( ResolvableType returnType );1;0;6
+ResolvableMethod.ResolvableMethod( Method method );1;0;4
+LabeledPredicate.LabeledPredicate( String label , Predicate < T > delegate );1;0;4
+Builder.isMatch( Method method );1;0;3
+LabeledPredicate.negate( );1;0;3
+ResolvableMethod.on( Class < T > objectClass );1;0;3
+ArgResolver.ArgResolver( Predicate < MethodParameter > ... filter );1;0;3
+Builder.Builder( Class < ? > objectClass );1;0;4
+Builder.toString( );1;0;5
+Builder.addFilter( String message , Predicate < Method > filter );1;0;3
+Builder.returning( Class < ? > returnType , ResolvableType generic , ResolvableType ... generics );1;0;3
+ArgResolver.arg( Class < ? > type , Class < ? > ... generics );1;0;3
+Builder.returning( Class < ? > returnType , Class < ? > ... generics );1;0;3
+MethodInvocationInterceptor.getInvokedMethod( );1;0;3
+ArgResolver.arg( );1;2;8
+Builder.resolveReturnType( );1;0;3
+Builder.resolveReturnType( Class < ? > returnType , ResolvableType generic , ResolvableType ... generics );1;0;3
+ResolvableMethod.returnType( );1;1;3
+ArgResolver.annotNotPresent( Class < ? extends Annotation > ... annotationTypes );2;2;7
+ResolvableMethod.formatParameter( Parameter param );2;2;6
+ResolvableMethod.initProxy( Class < ? > type , MethodInvocationInterceptor interceptor );9;1;37
+ResolvableMethod.formatMethod( );1;1;6
+ResolvableMethod.toResolvableType( Class < ? > type , ResolvableType generic , ResolvableType ... generics );1;1;6
+ResolvableMethod.toString( );1;0;3
+ArgResolver.annotPresent( Class < ? extends Annotation > ... annotationTypes );1;0;4
+LabeledPredicate.test( T method );1;0;3
+ResolvableMethod.annotNotPresent( Class < ? extends Annotation > ... annotationTypes );1;0;3
+ResolvableMethod.arg( Class < ? > type , Class < ? > ... generics );1;0;3
+ResolvableMethod.annotPresent( Class < ? extends Annotation > ... annotationTypes );1;0;3
+Builder.named( String methodName );1;0;4
+LabeledPredicate.toString( );1;0;3
+ResolvableMethod.toResolvableType( Class < ? > type , Class < ? > ... generics );2;0;4
+Builder.argTypes( Class < ? > ... argTypes );2;1;6
+ResolvableMethod.formatAnnotation( Annotation annotation );2;1;9
+Builder.annotNotPresent( Class < ? extends Annotation > ... annotationTypes );2;3;13
+ArgResolver.applyFilters( );3;2;11
+Builder.resolveReturnType( Class < ? > returnType , Class < ? > ... generics );1;0;3
+MethodInvocationInterceptor.intercept( Object object , Method method , Object [ ] args , MethodProxy proxy );2;0;9
+LabeledPredicate.and( Predicate < ? super T > other );1;0;3
+Builder.resolveMethod( );1;0;3
+ResolvableMethod.annot( Predicate < MethodParameter > ... filter );1;0;3

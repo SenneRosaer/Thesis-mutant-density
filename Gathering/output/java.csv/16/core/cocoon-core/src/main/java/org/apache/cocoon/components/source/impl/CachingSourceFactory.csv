@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CachingSourceFactory.createCachingSource( String uri , String wrappedUri , Source wrappedSource , int expires , String cacheName , boolean fail );6;3;30
+CachingSourceFactory.getSource( final String location , final Map parameters );8;9;36
+CachingSourceFactory.setServiceManager( ServiceManager serviceManager );1;0;3
+CachingSourceFactory.setDefaultExpires( int expires );1;0;3
+CachingSourceFactory.setSourceResolver( SourceResolver resolver );1;0;3
+CachingSourceFactory.setBeanName( String beanName );1;1;4
+CachingSourceFactory.absolutize( String baseURI , String location );1;0;3
+CachingSourceFactory.release( Source source );3;0;10
+***not in a method***;0;1;0
+CachingSourceFactory.setAsync( boolean async );1;0;3
+CachingSourceFactory.setCache( Cache cache );1;0;3
+CachingSourceFactory.setSourceRefresher( SourceRefresher refresher );1;0;3
+CachingSourceFactory.CachingSourceFactory( );1;0;2
+CachingSourceFactory.setValidityStrategy( CachingSourceValidityStrategy validityStrategy );1;0;3
+CachingSourceFactory.instantiateSource( String uri , String wrappedUri , Source wrappedSource , int expires , String cacheName , boolean fail );2;0;26

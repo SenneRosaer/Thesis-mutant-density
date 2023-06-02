@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CacheOperationInvokerAdapter.invoke( );1;0;3
+JCacheAspectSupport.createCacheOperationInvocationContext( Object target , Object [ ] args , JCacheOperation < ? > operation );1;0;4
+JCacheAspectSupport.getCacheOperationSource( );1;1;5
+JCacheAspectSupport.setCacheOperationSource( JCacheOperationSource cacheOperationSource );1;0;4
+CacheOperationInvokerAdapter.CacheOperationInvokerAdapter( CacheOperationInvoker delegate );1;0;3
+JCacheAspectSupport.invokeOperation( CacheOperationInvoker invoker );1;0;3
+JCacheAspectSupport.execute( CacheOperationInvoker invoker , Object target , Method method , Object [ ] args );6;1;12
+JCacheAspectSupport.execute( CacheOperationInvocationContext < ? > context , CacheOperationInvoker invoker );5;4;27
+JCacheAspectSupport.afterPropertiesSet( );1;0;8

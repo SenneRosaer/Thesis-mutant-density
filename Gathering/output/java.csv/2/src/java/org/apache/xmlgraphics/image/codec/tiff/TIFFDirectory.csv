@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TIFFDirectory.TIFFDirectory( SeekableStream stream , int directory );6;8;34
+TIFFDirectory.getTags( );2;1;9
+TIFFDirectory.TIFFDirectory( );1;0;1
+TIFFDirectory.getFieldAsFloat( int tag , int index );1;0;4
+TIFFDirectory.readLong( SeekableStream stream );2;0;7
+TIFFDirectory.getField( int tag );2;1;8
+TIFFDirectory.readUnsignedInt( SeekableStream stream );2;0;7
+TIFFDirectory.getFieldAsLong( int tag , int index );1;0;4
+TIFFDirectory.TIFFDirectory( SeekableStream stream , long ifd_offset , int directory );3;6;21
+TIFFDirectory.getFieldAsLong( int tag );1;0;3
+TIFFDirectory.readUnsignedShort( SeekableStream stream , boolean isBigEndian );2;0;7
+TIFFDirectory.initialize( SeekableStream stream );28;28;115
+TIFFDirectory.getNextIFDOffset( );1;0;3
+TIFFDirectory.getNumDirectories( SeekableStream stream );4;6;27
+TIFFDirectory.isTagPresent( int tag );1;0;3
+TIFFDirectory.isBigEndian( );1;0;3
+TIFFDirectory.isValidEndianTag( int endian );2;3;3
+TIFFDirectory.readUnsignedShort( SeekableStream stream );2;0;7
+TIFFDirectory.getFieldAsDouble( int tag );1;0;3
+TIFFDirectory.readDouble( SeekableStream stream );2;0;7
+TIFFDirectory.readFloat( SeekableStream stream );2;0;7
+TIFFDirectory.readUnsignedInt( SeekableStream stream , boolean isBigEndian );2;0;7
+TIFFDirectory.getFieldAsDouble( int tag , int index );1;0;4
+TIFFDirectory.getFieldAsFloat( int tag );1;0;3
+TIFFDirectory.readShort( SeekableStream stream );2;0;7
+TIFFDirectory.getIFDOffset( );1;0;3
+TIFFDirectory.getFieldAsByte( int tag , int index );1;0;5
+TIFFDirectory.getNumEntries( );1;0;3
+TIFFDirectory.getFieldAsByte( int tag );1;0;3
+TIFFDirectory.getFields( );1;0;3
+TIFFDirectory.readInt( SeekableStream stream );2;0;7

@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HtmlParsingUtils.getDOM( String text );3;0;15
+HtmlParsingUtils.getParser( );2;0;12
+HtmlParsingUtils.HtmlParsingUtils( );1;0;2
+HtmlParsingUtils.createUrlFromAnchor( String parsedUrlString , URL context );2;0;13
+HtmlParsingUtils.printNode( Node node );2;2;15
+HtmlParsingUtils.createFormUrlConfig( Node tempNode , URL context );2;1;9
+HtmlParsingUtils.getAttributeValue( NamedNodeMap att , String attName );2;0;7
+HtmlParsingUtils.createURLFromForm( Node doc , URL context );1;0;6
+HtmlParsingUtils.isEqualOrMatches( String arg , String pat );1;0;3
+HtmlParsingUtils.isArgumentMatched( Argument arg , Argument patternArg );2;1;8
+HtmlParsingUtils.isEqualOrMatchesCaseBlind( String arg , String pat , Perl5Matcher matcher , PatternCacheLRU cache );2;2;6
+HtmlParsingUtils.createEmptyDoc( );1;0;3
+HtmlParsingUtils.isAnchorMatched( HTTPSamplerBase newLink , HTTPSamplerBase config );13;14;41
+HtmlParsingUtils.recurseForm( Node tempNode , LinkedList urlConfigs , URL context , String selectName , boolean inForm );15;3;52
+HtmlParsingUtils.extractStyleURLs( final URL baseUrl , final URLCollection urls , String styleTagStr );2;2;13
+HtmlParsingUtils.isEqualOrMatches( String arg , String pat , Perl5Matcher matcher , PatternCacheLRU cache );2;1;6
+HtmlParsingUtils.isEqualOrMatchesCaseBlind( String arg , String pat );1;0;3

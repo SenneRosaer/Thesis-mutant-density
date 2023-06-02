@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SockJsResponseListener.onFailure( Throwable failure );3;0;13
+UndertowXhrTransport.addHttpHeaders( ClientRequest request , HttpHeaders headers );2;0;8
+UndertowXhrTransport.executeReceiveRequest( final TransportRequest transportRequest , final URI url , final HttpHeaders headers , final XhrClientSockJsSession session , final CompletableFuture < WebSocketSession > connectFuture );2;0;22
+UndertowXhrTransport.failed( IOException ex );1;0;3
+UndertowXhrTransport.toHttpHeaders( HeaderMap headerMap );3;0;9
+SockJsResponseListener.setup( StreamSourceChannel channel );1;0;5
+UndertowXhrTransport.UndertowXhrTransport( OptionMap optionMap );1;1;7
+SockJsResponseListener.handleEvent( StreamSourceChannel channel );9;5;39
+UndertowXhrTransport.completed( ClientExchange result );5;4;29
+UndertowXhrTransport.UndertowXhrTransport( );1;0;3
+UndertowXhrTransport.executeSendRequestInternal( URI url , HttpHeaders headers , TextMessage message );1;0;3
+UndertowXhrTransport.completed( ClientConnection connection );1;0;9
+UndertowXhrTransport.stringDone( String string );1;0;4
+SockJsResponseListener.SockJsResponseListener( TransportRequest request , ClientConnection connection , URI url , HttpHeaders headers , XhrClientSockJsSession sockJsSession , CompletableFuture < WebSocketSession > connectFuture );1;0;8
+UndertowXhrTransport.onFailure( CountDownLatch latch , IOException ex );1;0;4
+UndertowXhrTransport.completed( final ClientExchange result );1;0;14
+UndertowXhrTransport.getWorker( );1;0;3
+UndertowXhrTransport.connectInternal( TransportRequest request , WebSocketHandler handler , URI receiveUrl , HttpHeaders handshakeHeaders , XhrClientSockJsSession session , CompletableFuture < WebSocketSession > connectFuture );1;0;3
+UndertowXhrTransport.error( IOException ex );1;0;3
+SockJsResponseListener.onSuccess( );3;1;10
+UndertowXhrTransport.getHttpClient( );1;0;3
+UndertowXhrTransport.createReceiveCallback( final TransportRequest transportRequest , final URI url , final HttpHeaders headers , final XhrClientSockJsSession sockJsSession , final CompletableFuture < WebSocketSession > connectFuture );7;0;60
+UndertowXhrTransport.executeInfoRequestInternal( URI infoUrl , HttpHeaders headers );1;0;3
+UndertowXhrTransport.completed( final ClientExchange exchange );5;0;39
+UndertowXhrTransport.failed( IOException exc );1;0;4
+UndertowXhrTransport.executeRequest( URI url , HttpString method , HttpHeaders headers , @ Nullable String body );5;1;36
+UndertowXhrTransport.onFailure( Throwable failure );3;0;12
+UndertowXhrTransport.createRequestCallback( final @ Nullable String body , final List < ClientResponse > responses , final CountDownLatch latch );4;0;50
+SockJsResponseListener.handleFrame( );3;1;10

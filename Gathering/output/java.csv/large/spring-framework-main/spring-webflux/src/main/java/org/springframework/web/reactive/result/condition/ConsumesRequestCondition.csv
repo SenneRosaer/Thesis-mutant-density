@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConsumeMediaTypeExpression.ConsumeMediaTypeExpression( String expression );1;0;3
+ConsumesRequestCondition.ConsumesRequestCondition( List < ConsumeMediaTypeExpression > expressions );1;0;3
+ConsumesRequestCondition.getExpressions( );1;0;3
+ConsumesRequestCondition.setBodyRequired( boolean bodyRequired );1;0;3
+ConsumesRequestCondition.compareTo( ConsumesRequestCondition other , ServerWebExchange exchange );5;2;14
+ConsumesRequestCondition.isEmpty( );1;0;3
+ConsumesRequestCondition.hasBody( ServerHttpRequest request );3;3;6
+ConsumeMediaTypeExpression.matchMediaType( ServerWebExchange exchange );4;2;12
+ConsumesRequestCondition.parseExpressions( String [ ] consumes , String [ ] headers );10;5;21
+ConsumesRequestCondition.combine( ConsumesRequestCondition other );2;1;3
+ConsumeMediaTypeExpression.ConsumeMediaTypeExpression( MediaType mediaType , boolean negated );1;0;3
+ConsumesRequestCondition.getToStringInfix( );1;0;3
+ConsumesRequestCondition.getMatchingExpressions( ServerWebExchange exchange );4;1;10
+ConsumesRequestCondition.isBodyRequired( );1;0;3
+ConsumesRequestCondition.getMatchingCondition( ServerWebExchange exchange );6;4;14
+ConsumesRequestCondition.ConsumesRequestCondition( String ... consumes );1;0;3
+ConsumesRequestCondition.getConsumableMediaTypes( );3;1;9
+ConsumesRequestCondition.ConsumesRequestCondition( String [ ] consumes , String [ ] headers );2;1;6
+ConsumesRequestCondition.getContent( );1;0;3

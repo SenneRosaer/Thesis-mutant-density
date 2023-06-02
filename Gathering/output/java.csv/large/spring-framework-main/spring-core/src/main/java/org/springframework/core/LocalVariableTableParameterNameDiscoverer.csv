@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LocalVariableTableVisitor.visitLocalVariable( String name , String description , String signature , Label start , Label end , int index );3;3;8
+ParameterNameDiscoveringVisitor.isSyntheticOrBridged( int access );1;4;3
+LocalVariableTableParameterNameDiscoverer.doGetParameterNames( Executable executable );3;1;5
+LocalVariableTableVisitor.resolveExecutable( );6;2;17
+LocalVariableTableVisitor.isWideType( Type aType );2;3;3
+LocalVariableTableVisitor.computeLvtSlotIndices( boolean isStatic , Type [ ] paramTypes );4;4;14
+LocalVariableTableParameterNameDiscoverer.getParameterNames( Method method );1;0;4
+LocalVariableTableParameterNameDiscoverer.getParameterNames( Constructor < ? > ctor );1;0;3
+ParameterNameDiscoveringVisitor.ParameterNameDiscoveringVisitor( Class < ? > clazz , Map < Executable , String [ ] > executableMap );1;0;5
+LocalVariableTableVisitor.visitEnd( );4;3;5
+ParameterNameDiscoveringVisitor.isStatic( int access );1;2;3
+LocalVariableTableParameterNameDiscoverer.inspectClass( Class < ? > clazz );9;1;41
+LocalVariableTableVisitor.LocalVariableTableVisitor( Class < ? > clazz , Map < Executable , String [ ] > map , String name , String desc , boolean isStatic );1;0;10
+ParameterNameDiscoveringVisitor.visitMethod( int access , String name , String desc , String signature , String [ ] exceptions );3;3;6

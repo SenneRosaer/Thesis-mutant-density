@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodeState.hasChildNodeEntry( Name name , int index );1;0;3
+NodeState.reorderChildNodeEntries( NodeState insertNode , NodeState beforeNode );2;1;5
+NodeState.setMixinTypeNames( Name [ ] mixinTypeNames );2;1;5
+NodeState.revert( );4;1;14
+NodeState.getNodeEntry( );1;0;3
+NodeState.getMixinTypeNames( );1;0;3
+NodeState.getNodeTypeNames( );1;2;7
+NodeState.getPropertyState( Name propertyName );2;1;8
+NodeState.isRoot( );1;1;3
+NodeState.getAllNodeTypeNames( );5;5;23
+NodeState.isNode( );1;0;3
+NodeState.getWorkspaceId( );1;0;3
+NodeState.getDefinition( );2;1;6
+NodeState.NodeState( NodeEntry entry , NodeInfo nInfo , ItemStateFactory isf , ItemDefinitionProvider definitionProvider );1;0;5
+NodeState.getId( );1;0;3
+NodeState.hasDefinition( );1;1;3
+NodeState.hasPropertyName( Name propName );1;0;3
+NodeState.getNodeReferences( );1;0;3
+NodeState.retrieveDefinition( );2;0;11
+NodeState.moveChildNodeEntry( NodeState newParent , NodeState childState , Name newName , QNodeDefinition newDefinition );1;0;7
+NodeState.getUniqueID( );1;0;3
+NodeState.getNodeId( );1;0;3
+NodeState.getChildNodeState( Name nodeName , int index );2;1;8
+NodeState.merge( ItemState another , boolean keepChanges );8;10;22
+NodeState.getNodeTypeName( );1;0;3
+NodeState.NodeState( NodeEntry entry , Name nodeTypeName , Name [ ] mixinTypeNames , ItemStateFactory isf , QNodeDefinition definition , ItemDefinitionProvider definitionProvider );1;0;6

@@ -1,0 +1,62 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Dispatcher.Dispatcher( int id , String sql );1;0;4
+JdbcTemplateTests.testSQLErrorCodeTranslationWithSpecifiedDatabaseName( );1;0;15
+JdbcTemplateTests.testSqlUpdate( );1;1;10
+JdbcTemplateTests.testStaticResultSetClosed( );1;0;18
+JdbcTemplateTests.testBatchUpdateFails( );1;0;29
+JdbcTemplateTests.testCloseConnectionOnRequest( );1;0;10
+StringHandler.getStrings( );1;0;3
+JdbcTemplateTests.testUpdateCount( );1;1;11
+JdbcTemplateTests.testIgnoredWarning( );1;0;13
+JdbcTemplateTests.testEquallyNamedColumn( );1;0;14
+JdbcTemplateTests.testBatchUpdate( );1;1;14
+JdbcTemplateTests.testBogusUpdate( );1;0;13
+JdbcTemplateTests.testBatchUpdateWithBatchFailure( );2;0;14
+JdbcTemplateTests.testCouldNotGetConnectionInOperationWithExceptionTranslatorInitializedViaBeanProperty( );1;0;3
+JdbcTemplateTests.testBatchUpdateWithNoBatchSupportAndSelect( );1;0;15
+JdbcTemplateTests.setValuesIfAvailable( PreparedStatement ps , int i );2;2;9
+JdbcTemplateTests.testUseCustomExceptionTranslator( );1;0;18
+JdbcTemplateTests.testStringsWithPreparedStatementArgs( );1;0;5
+JdbcTemplateTests.getBatchSize( );1;0;3
+JdbcTemplateTests.testConnectionCallbackWithStatementSettings( );1;0;14
+JdbcTemplateTests.doTestStrings( Integer fetchSize , Integer maxRows , Integer queryTimeout , Object argument , JdbcTemplateCallback jdbcTemplateCallback );9;10;50
+JdbcTemplateTests.testInterruptibleBatchUpdateWithBaseClass( );2;1;30
+JdbcTemplateTests.testSqlUpdateEncountersSqlException( );1;0;11
+JdbcTemplateTests.setup( );1;0;11
+JdbcTemplateTests.testSQLErrorCodeTranslation( );1;0;16
+Dispatcher.createPreparedStatement( Connection connection );1;0;5
+JdbcTemplateTests.testInterruptibleBatchUpdateWithBaseClassAndNoBatchSupport( );2;1;30
+StringHandler.processRow( ResultSet rs );1;0;3
+JdbcTemplateTests.testBatchUpdateWithNoBatchSupport( );1;1;15
+JdbcTemplateTests.testStringsWithStaticSql( );1;0;3
+JdbcTemplateTests.testBatchUpdateWithCollectionOfObjects( );1;0;21
+JdbcTemplateTests.testCouldNotClose( );1;0;11
+JdbcTemplateTests.testFatalWarning( );1;0;16
+JdbcTemplateTests.testPreparedStatementSetterSucceeds( );1;0;12
+JdbcTemplateTests.testBatchUpdateWithListOfObjectArraysPlusTypeInfo( );1;1;20
+JdbcTemplateTests.testCouldNotGetConnectionInOperationWithExceptionTranslatorInitializedInAfterPropertiesSet( );1;0;3
+JdbcTemplateTests.testInterruptibleBatchUpdate( );2;1;34
+JdbcTemplateTests.testBeanProperties( );1;2;7
+JdbcTemplateTests.testSqlUpdateWithArguments( );1;1;12
+JdbcTemplateTests.testBatchUpdateWithListOfObjectArrays( );1;1;19
+JdbcTemplateTests.testStringsWithEmptyPreparedStatementArgs( );1;0;4
+JdbcTemplateTests.testBatchUpdateWithPreparedStatementAndNoBatchSupport( );1;1;25
+JdbcTemplateTests.testCaseInsensitiveResultsMap( );1;2;16
+JdbcTemplateTests.testConnectionCallback( );1;0;8
+JdbcTemplateTests.testPreparedStatementSetterFails( );1;0;13
+JdbcTemplateTests.testSqlUpdateWithThreadConnection( );1;1;10
+JdbcTemplateTests.testExceptionComesBack( );1;0;19
+JdbcTemplateTests.testCouldNotGetConnectionForOperationOrExceptionTranslator( );1;0;9
+JdbcTemplateTests.testLeaveConnectionOpenOnRequest( );1;0;13
+JdbcTemplateTests.doTestCouldNotGetConnectionInOperationWithExceptionTranslatorInitialized( boolean beanProperty );2;0;17
+JdbcTemplateTests.testCouldNotGetConnectionForOperationWithLazyExceptionTranslator( );1;0;11
+JdbcTemplateTests.isBatchExhausted( int i );1;1;3
+JdbcTemplateTests.testBatchUpdateWithPreparedStatement( );1;1;27
+JdbcTemplateTests.testBatchUpdateWithEmptyList( );1;1;6
+JdbcTemplateTests.testExecuteClosed( );1;1;13
+JdbcTemplateTests.setValues( PreparedStatement ps , int i );1;1;3
+JdbcTemplateTests.testStringsWithEmptyPreparedStatementSetter( );1;0;4
+JdbcTemplateTests.testStringsWithStaticSqlAndFetchSizeAndMaxRows( );1;0;3
+JdbcTemplateTests.testStringsWithPreparedStatementSetter( );1;0;5
+Dispatcher.getSql( );1;0;3
+JdbcTemplateTests.mockDatabaseMetaData( boolean supportsBatchUpdates );1;0;6

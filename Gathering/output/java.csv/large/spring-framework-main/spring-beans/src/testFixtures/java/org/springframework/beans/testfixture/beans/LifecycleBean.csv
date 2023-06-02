@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LifecycleBean.postProcessAfterInit( );5;3;12
+LifecycleBean.setBeanName( String name );1;0;3
+LifecycleBean.getBeanName( );1;0;3
+LifecycleBean.destroy( );2;0;6
+LifecycleBean.isDestroyed( );1;0;3
+LifecycleBean.setBeanFactory( BeanFactory beanFactory );1;0;3
+LifecycleBean.afterPropertiesSet( );5;2;15
+PostProcessor.postProcessBeforeInitialization( Object bean , String name );2;0;6
+LifecycleBean.postProcessBeforeInit( );4;1;9
+LifecycleBean.isInitMethodDeclared( );1;0;3
+LifecycleBean.declaredInitMethod( );3;1;9
+PostProcessor.postProcessAfterInitialization( Object bean , String name );2;0;6
+LifecycleBean.setInitMethodDeclared( boolean initMethodDeclared );1;0;3
+LifecycleBean.businessMethod( );5;6;6

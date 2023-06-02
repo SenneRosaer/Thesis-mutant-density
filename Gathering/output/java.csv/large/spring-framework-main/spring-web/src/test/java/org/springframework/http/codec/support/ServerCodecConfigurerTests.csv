@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServerCodecConfigurerTests.jackson2EncoderOverride( );3;0;13
+ServerCodecConfigurerTests.assertStringDecoder( Decoder < ? > decoder , boolean textOnly );1;1;11
+ServerCodecConfigurerTests.getNextDecoder( List < HttpMessageReader < ? > > readers );3;0;5
+ServerCodecConfigurerTests.assertStringEncoder( Encoder < ? > encoder , boolean textOnly );1;1;6
+ServerCodecConfigurerTests.nextReader( List < HttpMessageReader < ? > > readers );1;0;3
+ServerCodecConfigurerTests.defaultWriters( );2;0;23
+ServerCodecConfigurerTests.maxInMemorySize( );2;0;26
+ServerCodecConfigurerTests.defaultReaders( );2;0;23
+ServerCodecConfigurerTests.findCodec( List < ? > codecs , Class < T > type );5;0;15
+ServerCodecConfigurerTests.enableRequestLoggingDetailsWithCustomCodecs( );2;0;10
+ServerCodecConfigurerTests.getNextEncoder( List < HttpMessageWriter < ? > > writers );3;0;5
+ServerCodecConfigurerTests.maxInMemorySizeWithCustomCodecs( );2;2;16
+ServerCodecConfigurerTests.enableRequestLoggingDetails( );2;0;9
+ServerCodecConfigurerTests.cloneConfigurer( );2;0;17
+ServerCodecConfigurerTests.assertSseWriter( List < HttpMessageWriter < ? > > writers );3;0;7

@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ElementAttributeMatching.matchesIncludesElementAttribute( String element_attr_name );1;0;4
+EncodeURLTransformer.checkForEncoding( Request request );4;2;9
+EncodeURLTransformer.encodeURL( String url );4;5;13
+ElementAttributeMatching.matchesElementAttribute( String element_name , String attr_name , String value );4;5;9
+ElementAttributeMatching.matchesExcludesElementAttribute( String element_attr_name );1;0;4
+EncodeURLTransformer.startElement( String uri , String name , String raw , Attributes attributes );8;7;22
+ElementAttributeMatching.canonicalizeElementAttribute( String element_name , String attr_name , String value );1;2;3
+EncodeURLTransformer.recycle( );1;0;6
+EncodeURLTransformer.getKey( );2;0;7
+EncodeURLTransformer.getValidity( );2;0;7
+EncodeURLTransformer.configure( Configuration configuration );3;2;15
+ElementAttributeMatching.ElementAttributeMatching( String includeName , String excludeName );1;0;4
+EncodeURLTransformer.setup( SourceResolver resolver , Map objectModel , String source , Parameters parameters );3;0;17

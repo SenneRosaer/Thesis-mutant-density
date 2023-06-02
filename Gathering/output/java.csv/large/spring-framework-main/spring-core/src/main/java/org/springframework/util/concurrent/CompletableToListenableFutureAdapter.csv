@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompletableToListenableFutureAdapter.cancel( boolean mayInterruptIfRunning );1;0;3
+CompletableToListenableFutureAdapter.CompletableToListenableFutureAdapter( CompletionStage < T > completionStage );1;0;3
+CompletableToListenableFutureAdapter.isDone( );1;0;3
+CompletableToListenableFutureAdapter.addCallback( SuccessCallback < ? super T > successCallback , FailureCallback failureCallback );1;0;4
+CompletableToListenableFutureAdapter.get( long timeout , TimeUnit unit );1;0;3
+CompletableToListenableFutureAdapter.completable( );1;0;3
+CompletableToListenableFutureAdapter.isCancelled( );1;0;3
+CompletableToListenableFutureAdapter.addCallback( ListenableFutureCallback < ? super T > callback );1;0;3
+CompletableToListenableFutureAdapter.get( );1;0;3
+CompletableToListenableFutureAdapter.CompletableToListenableFutureAdapter( CompletableFuture < T > completableFuture );2;1;11

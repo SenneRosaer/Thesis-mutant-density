@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpMarshaler.addHttpHeaders( HttpServletResponse response , NormalizedMessage normalizedMessage );3;0;9
+HttpMarshaler.toNMS( MessageExchange exchange , NormalizedMessage inMessage , HttpServletRequest request );4;2;16
+HttpMarshaler.shouldIncludeHeader( NormalizedMessage normalizedMessage , String name , Object value );3;4;5
+HttpMarshaler.getContentType( );1;0;3
+HttpMarshaler.toResponse( InOut exchange , NormalizedMessage message , HttpServletResponse response );2;1;7
+HttpMarshaler.setContentType( String contentType );1;0;3
+HttpMarshaler.addNmsProperties( NormalizedMessage message , HttpServletRequest request );2;0;26

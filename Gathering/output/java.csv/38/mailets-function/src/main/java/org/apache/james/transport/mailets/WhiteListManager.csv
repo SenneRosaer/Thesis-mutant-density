@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WhiteListManager.initSqlQueries( Connection conn , org . apache . mailet . MailetContext mailetContext );2;0;12
+WhiteListManager.createTable( Connection conn , String tableNameSqlStringName , String createSqlStringName );2;0;25
+WhiteListManager.service( Mail mail );13;12;36
+WhiteListManager.manageRemoveRequest( Mail mail );20;13;99
+WhiteListManager.getMailetInfo( );1;0;3
+WhiteListManager.delegatedLog( String logString );1;0;3
+WhiteListManager.checkTables( Connection conn );4;4;8
+WhiteListManager.getSqlParameters( );1;0;3
+WhiteListManager.checkAndInsert( MailAddress senderMailAddress , Collection recipients );15;11;65
+WhiteListManager.init( );10;6;72
+WhiteListManager.getPrimaryName( String originalUsername );3;0;14
+WhiteListManager.manageInsertRequest( Mail mail );20;12;99
+WhiteListManager.manageDisplayRequest( Mail mail );3;0;37
+WhiteListManager.sendReplyFromPostmaster( Mail mail , String stringContent );5;3;38

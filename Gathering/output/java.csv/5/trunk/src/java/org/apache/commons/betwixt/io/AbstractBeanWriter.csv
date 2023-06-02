@@ -1,0 +1,90 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractBeanWriter.write( Object bean );3;0;12
+AbstractBeanWriter.startElement( String uri , String localName , String qName , Attributes attr );1;0;1
+WriteContextImpl.getCurrentDescriptor( );1;0;3
+AbstractBeanWriter.getAbstractBeanWriterLog( );1;0;3
+AbstractBeanWriter.popBean( );2;0;7
+ElementAttributes.getValue( int index );2;0;6
+AbstractBeanWriter.getWriteEmptyElements( );1;0;3
+IDElementAttributes.getValue( String qName );1;0;3
+IDElementAttributes.getQName( int index );2;1;6
+AbstractBeanWriter.getXMLIntrospector( );1;0;3
+ElementAttributes.getValue( String uri , String localName );1;0;3
+AbstractBeanWriter.write( Object bean , InputSource source );1;0;9
+AbstractBeanWriter.setXMLIntrospector( XMLIntrospector introspector );1;0;3
+AbstractBeanWriter.writeIndent( );1;0;1
+AbstractBeanWriter.expressElementEnd( String qualifiedName );1;0;2
+IDElementAttributes.getURI( int index );2;1;6
+AbstractBeanWriter.writeElementContent( ElementDescriptor elementDescriptor , Context context );16;16;74
+AbstractBeanWriter.bodyText( WriteContext context , String text );1;0;3
+ElementAttributes.getIndex( String uri , String localName );6;8;12
+ElementAttributes.indexInRange( int index );2;3;3
+ElementAttributes.getQName( int index );2;0;6
+ElementAttributes.getType( String uri , String localName );1;0;3
+AbstractBeanWriter.startElement( WriteContext context , String uri , String localName , String qName , Attributes attr );1;0;3
+AbstractBeanWriter.bodyText( String text );1;0;1
+AbstractBeanWriter.convertToString( Object value , Descriptor descriptor , Context context );1;0;5
+AbstractBeanWriter.expressElementStart( String uri , String localName , String qualifiedName );1;0;3
+AbstractBeanWriter.writeIDREFElement( ElementDescriptor elementDescriptor , String uri , String localName , String qualifiedName , String idrefAttributeName , String idrefAttributeValue );1;0;12
+AbstractBeanWriter.start( );1;0;2
+AbstractBeanWriter.isEmptyElement( ElementDescriptor descriptor , Context context );13;9;48
+ElementAttributes.valueAttribute( AttributeDescriptor attribute );2;1;8
+ElementAttributes.getLength( );1;0;3
+AbstractBeanWriter.setBindingConfiguration( BindingConfiguration bindingConfiguration );1;0;3
+AbstractBeanWriter.writePrintln( );1;0;1
+AbstractBeanWriter.writeBean( String namespaceUri , String localName , String qualifiedName , Object bean , Context context , XMLBeanInfo beanInfo );15;11;95
+AbstractBeanWriter.writeAttributes( ElementDescriptor elementDescriptor , Context context );4;4;12
+AbstractBeanWriter.writeBean( String namespaceUri , String localName , String qualifiedName , Object bean , ElementDescriptor parentDescriptor , Context context );2;0;8
+IDElementAttributes.getType( int index );2;1;6
+AbstractBeanWriter.expressElementStart( String qualifiedName );1;0;2
+AbstractBeanWriter.end( );1;0;2
+IDElementAttributes.getValue( int index );2;1;6
+AbstractBeanWriter.pushBean( Object bean );7;3;31
+IDElementAttributes.getIndex( String uri , String localName );2;0;6
+IDElementAttributes.IDElementAttributes( ElementDescriptor descriptor , Context context , String idAttributeName , String idValue );4;5;18
+AbstractBeanWriter.makeContext( Object bean );1;0;3
+AbstractBeanWriter.expressElementEnd( String uri , String localName , String qualifiedName );1;0;3
+ElementAttributes.init( AttributeDescriptor [ ] baseAttributes );4;6;17
+AbstractBeanWriter.writeElement( String namespaceUri , String localName , String qualifiedName , ElementDescriptor elementDescriptor , Context context , String idAttribute , String idValue );3;1;21
+AbstractBeanWriter.write( String qualifiedName , Object bean );1;0;5
+AbstractBeanWriter.endElement( String uri , String localName , String qName );1;0;1
+ElementAttributes.getValue( String qName );1;0;3
+AbstractBeanWriter.write( String qualifiedName , ElementDescriptor elementDescriptor , Context context , String idAttribute , String idValue );1;0;10
+AbstractBeanWriter.setWriteIDs( boolean writeIDs );1;0;3
+ElementAttributes.getIndex( String qName );4;5;9
+IDElementAttributes.getType( String qName );1;0;3
+IDElementAttributes.getType( String uri , String localName );1;0;3
+AbstractBeanWriter.writeElement( String namespaceUri , String localName , String qualifiedName , ElementDescriptor elementDescriptor , Context context );4;1;22
+AbstractBeanWriter.writeRestOfElement( String qualifiedName , ElementDescriptor elementDescriptor , Context context );1;0;3
+AbstractBeanWriter.expressTagClose( );1;0;1
+WriteContextImpl.setCurrentDescriptor( ElementDescriptor currentDescriptor );1;0;3
+ElementAttributes.getLocalName( int index );2;0;6
+AbstractBeanWriter.expressAttribute( String qualifiedName , String value );1;0;2
+AbstractBeanWriter.expressBodyText( String text );1;0;1
+AbstractBeanWriter.getWriteIDs( );1;0;3
+ElementAttributes.getURI( int index );2;0;6
+AbstractBeanWriter.writeContent( ElementDescriptor elementDescriptor , Context context );1;0;3
+AbstractBeanWriter.setIdGenerator( IDGenerator idGenerator );1;0;3
+AbstractBeanWriter.getIdGenerator( );1;0;3
+ElementAttributes.getType( String qName );1;0;3
+AbstractBeanWriter.writeBean( String namespaceUri , String localName , String qualifiedName , Object bean , Context context );2;0;8
+AbstractBeanWriter.writeRestOfElement( String uri , String localName , String qualifiedName , ElementDescriptor elementDescriptor , Context context );1;0;3
+IDElementAttributes.getLocalName( int index );2;1;6
+AbstractBeanWriter.write( String qualifiedName , ElementDescriptor elementDescriptor , Context context );1;0;3
+AbstractBeanWriter.expressElementEnd( );1;0;1
+IDElementAttributes.getIndex( String qName );2;0;6
+AbstractBeanWriter.addNamespaceDeclarations( Attributes attributes , String elementNamespaceUri );8;12;24
+AbstractBeanWriter.expressAttribute( String namespaceUri , String localName , String qualifiedName , String value );1;0;3
+IDElementAttributes.getValue( String uri , String localName );1;0;3
+AbstractBeanWriter.getIndentLevel( );1;0;3
+AbstractBeanWriter.writeIDREFElement( String qualifiedName , String idrefAttributeName , String idrefAttributeValue );1;0;11
+AbstractBeanWriter.endElement( WriteContext context , String uri , String localName , String qName );1;0;3
+IDElementAttributes.getLength( );1;0;3
+AbstractBeanWriter.getBindingConfiguration( );1;0;3
+ElementAttributes.getType( int index );2;0;6
+AbstractBeanWriter.writeAttribute( AttributeDescriptor attributeDescriptor , Context context );5;5;16
+AbstractBeanWriter.setAbstractBeanWriterLog( Log log );1;0;3
+AbstractBeanWriter.setWriteEmptyElements( boolean writeEmptyElements );1;0;3
+AbstractBeanWriter.findXMLBeanInfo( Object bean , ElementDescriptor parentDescriptor );4;3;13
+ElementAttributes.ElementAttributes( ElementDescriptor descriptor , Context context );1;0;4
+AbstractBeanWriter.ignoreElement( ElementDescriptor descriptor , String namespaceUri , String localName , String qualifiedName , Context context );3;1;9

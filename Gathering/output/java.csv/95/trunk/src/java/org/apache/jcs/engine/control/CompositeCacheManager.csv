@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompositeCacheManager.getCacheNames( );2;1;9
+CompositeCacheManager.createInstance( );1;0;3
+CompositeCacheManager.getCache( String cacheName , ICompositeCacheAttributes cattr , IElementAttributes attr );1;0;4
+CompositeCacheManager.release( boolean fromRemote );6;3;26
+CompositeCacheManager.getConfigurationProperties( );1;0;3
+CompositeCacheManager.incrementClients( );1;1;3
+CompositeCacheManager.setDefaultCacheAttributes( ICompositeCacheAttributes icca );1;0;3
+CompositeCacheManager.registryAttrPut( AuxiliaryCacheAttributes auxAttr );1;0;3
+CompositeCacheManager.registryFacPut( AuxiliaryCacheFactory auxFac );1;0;3
+CompositeCacheManager.release( );1;0;3
+CompositeCacheManager.registryFacGet( String name );1;0;3
+CompositeCacheManager.getStatistics( );3;1;14
+CompositeCacheManager.configure( Properties props , boolean useSystemProperties );7;1;36
+CompositeCacheManager.setConfigurationProperties( Properties props );1;0;3
+CompositeCacheManager.getInstance( );2;1;10
+CompositeCacheManager.CompositeCacheManager( );2;0;11
+CompositeCacheManager.freeCache( String name );1;0;3
+CompositeCacheManager.getUnconfiguredInstance( );3;1;12
+CompositeCacheManager.freeCache( String name , boolean fromRemote );2;1;7
+CompositeCacheManager.getCache( ICompositeCacheAttributes cattr );1;0;3
+CompositeCacheManager.configure( );1;0;3
+CompositeCacheManager.getCache( ICompositeCacheAttributes cattr , IElementAttributes attr );3;1;20
+CompositeCacheManager.getDefaultElementAttributes( );1;0;3
+CompositeCacheManager.getDefaultCacheAttributes( );1;0;3
+CompositeCacheManager.setDefaultElementAttributes( IElementAttributes iea );1;0;3
+CompositeCacheManager.getCacheType( );1;0;3
+CompositeCacheManager.getDefaultCattr( );1;0;3
+CompositeCacheManager.configure( Properties props );1;0;3
+CompositeCacheManager.shutDown( );3;2;19
+ShutdownHook.run( );2;1;7
+CompositeCacheManager.getInstance( String propsFilename );3;1;13
+CompositeCacheManager.registerShutdownObserver( IShutdownObserver observer );1;0;6
+CompositeCacheManager.deregisterShutdownObserver( IShutdownObserver observer );1;0;6
+CompositeCacheManager.registryAttrGet( String name );1;0;3
+CompositeCacheManager.getStats( );3;3;15
+CompositeCacheManager.configure( String propFile );5;1;37
+CompositeCacheManager.getCache( String cacheName );1;0;3
+CompositeCacheManager.getCache( String cacheName , ICompositeCacheAttributes cattr );1;0;4

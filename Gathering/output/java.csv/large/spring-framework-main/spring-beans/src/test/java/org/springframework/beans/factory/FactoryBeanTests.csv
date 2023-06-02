@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PassThroughFactoryBean.setInstanceName( String instanceName );1;0;3
+Beta.getName( );1;0;3
+Alpha.afterPropertiesSet( );1;0;3
+NullReturningFactoryBean.isSingleton( );1;0;3
+BetaFactoryBean.isSingleton( );1;0;3
+PassThroughFactoryBean.getObjectType( );1;0;3
+CountingPostProcessor.postProcessBeforeInitialization( Object bean , String beanName );1;0;3
+PassThroughFactoryBean.setBeanFactory( BeanFactory beanFactory );1;0;3
+FactoryBeanTests.testFactoryBeansWithAutowiring( );1;0;15
+Alpha.setBeta( Beta beta );1;0;3
+BeanImpl2.getImpl1( );1;0;3
+FactoryBeanTests.testAbstractFactoryBeanViaAnnotation( );1;0;5
+Beta.getGamma( );1;0;3
+FactoryBeanTests.testCircularReferenceWithPostProcessor( );1;0;13
+NullReturningFactoryBean.getObject( );1;0;3
+Alpha.getBeta( );1;0;3
+PassThroughFactoryBean.getObject( );2;1;6
+BetaFactoryBean.getObject( );1;0;3
+BeanImpl1.getImpl2( );1;0;3
+Beta.setGamma( Gamma gamma );1;0;3
+Beta.afterPropertiesSet( );1;0;3
+BetaFactoryBean.getObjectType( );1;0;3
+PassThroughFactoryBean.isSingleton( );1;0;3
+FactoryBeanTests.testFactoryBeansWithIntermediateFactoryBeanAutowiringFailure( );1;0;11
+Beta.setName( String name );1;0;3
+BeanImpl2.setImpl1( BeanImpl1 impl1 );1;0;3
+BetaFactoryBean.setBeta( Beta beta );1;0;3
+FactoryBeanTests.testFactoryBeanReturnsNull( );1;0;5
+FactoryBeanTests.testAbstractFactoryBeanViaType( );1;0;5
+CountingPostProcessor.getCount( String beanName );2;1;9
+NullReturningFactoryBean.getObjectType( );1;0;3
+PassThroughFactoryBean.PassThroughFactoryBean( Class < T > type );1;0;3
+BetaFactoryBean.BetaFactoryBean( Alpha alpha );1;0;2
+CountingPostProcessor.postProcessAfterInitialization( Object bean , String beanName );3;1;12
+BeanImpl1.setImpl2( BeanImpl2 impl2 );1;0;3

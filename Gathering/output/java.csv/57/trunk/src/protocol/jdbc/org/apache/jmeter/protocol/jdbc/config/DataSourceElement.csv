@@ -1,0 +1,41 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DataSourceComponentImpl.DataSourceComponentImpl( );1;0;3
+DataSourceElement.getTrimInterval( );1;0;3
+DataSourceElement.setDbUrl( String dbUrl );1;0;3
+DataSourceElement.isAutocommit( );1;0;3
+DataSourceElement.initPool( String maxPool );6;2;75
+DataSourceElement.testEnded( String host );1;0;3
+DataSourceElement.getConnection( String poolName );2;1;8
+DataSourceComponentImpl.DataSourceComponentImpl( ResourceLimitingJdbcDataSource p_dsc );1;0;3
+DataSourceElement.setKeepAlive( boolean keepAlive );1;0;3
+DataSourceElement.setUsername( String username );1;0;3
+DataSourceElement.setDriver( String driver );1;0;3
+DataSourceComponentImpl.configure( Configuration arg0 );1;0;2
+DataSourceElement.isKeepAlive( );1;0;3
+DataSourceElement.setConnectionAge( String connectionAge );1;0;3
+DataSourceElement.testIterationStart( LoopIterationEvent event );1;0;2
+DataSourceElement.testStarted( String host );1;0;3
+DataSourceElement.addConfigElement( ConfigElement config );1;0;2
+DataSourceElement.setDataSource( String dataSource );1;0;3
+DataSourceElement.getConnectionAge( );1;0;3
+DataSourceElement.getPoolMax( );1;0;3
+DataSourceElement.testStarted( );3;1;21
+DataSourceElement.setAutocommit( boolean autocommit );1;0;3
+DataSourceElement.setTrimInterval( String trimInterval );1;0;3
+DataSourceComponentImpl.getConnection( );4;3;20
+DataSourceElement.expectsModification( );1;0;3
+DataSourceElement.testEnded( );4;2;17
+DataSourceElement.setPassword( String password );1;0;3
+DataSourceElement.getCheckQuery( );1;0;3
+DataSourceElement.getDriver( );1;0;3
+DataSourceElement.getPassword( );1;0;3
+DataSourceElement.initialValue( );1;0;3
+DataSourceElement.setPoolMax( String poolMax );1;0;3
+DataSourceElement.getDbUrl( );1;0;3
+DataSourceElement.setCheckQuery( String checkQuery );1;0;3
+DataSourceElement.clone( );1;0;6
+DataSourceElement.getDataSource( );1;0;3
+DataSourceElement.setTimeout( String timeout );1;0;3
+DataSourceElement.getTimeout( );1;0;3
+DataSourceElement.getUsername( );1;0;3
+DataSourceElement.DataSourceElement( );1;0;2

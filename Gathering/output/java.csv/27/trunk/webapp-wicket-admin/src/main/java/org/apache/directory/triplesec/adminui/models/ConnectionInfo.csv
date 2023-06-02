@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConnectionInfo.setPrincipal( String aPrincipal );1;0;3
+ConnectionInfo.getCredentials( );1;0;3
+ConnectionInfo.getHost( );1;0;3
+ConnectionInfo.isUseLdaps( );1;0;3
+ConnectionInfo.ConnectionInfo( String host , int ldapPort , int krb5Port , boolean useLdaps , String realm , String principal , String credentials , String passcode );1;0;10
+ConnectionInfo.getPasscode( );1;0;3
+ConnectionInfo.setRealm( String aRealm );1;0;3
+ConnectionInfo.setCredentials( String aCredentials );1;0;3
+ConnectionInfo.getLdapPort( );1;0;3
+ConnectionInfo.setKrb5Port( int aKrb5Port );1;0;3
+ConnectionInfo.getRealm( );1;0;3
+ConnectionInfo.getLdapRealmBase( );1;0;3
+ConnectionInfo.getKrb5Port( );1;0;3
+ConnectionInfo.ConnectionInfo( );1;0;2
+ConnectionInfo.setPasscode( String aPasscode );1;0;3
+ConnectionInfo.setHost( String aHost );1;0;3
+ConnectionInfo.getPrincipal( );1;0;3
+ConnectionInfo.setLdapPort( int aLdapPort );1;0;3
+ConnectionInfo.setUseLdaps( boolean aUseLdaps );1;0;3

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UrlTag.addParam( Param param );1;0;3
+UrlTag.setJavaScriptEscape( boolean javaScriptEscape );1;0;3
+UrlTag.replaceUriTemplateParams( String uri , List < Param > params , Set < String > usedParams );8;7;32
+UrlTag.createQueryString( List < Param > params , Set < String > usedParams , boolean includeQueryStringDelimiter );8;5;25
+UrlTag.setValue( String value );3;0;14
+UrlTag.setScope( String scope );1;0;3
+UrlTag.setVar( String var );1;0;3
+UrlTag.setContext( String context );2;0;8
+UrlTag.doStartTagInternal( );1;0;5
+UrlTag.doEndTag( );5;3;20
+UrlTag.createUrl( );9;12;31

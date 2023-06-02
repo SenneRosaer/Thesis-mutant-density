@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FTPFileList.getLines( );1;0;3
+FTPFileList.create( InputStream stream , FTPFileEntryParser parser , String encoding );1;0;6
+FTPFileList.FTPFileList( FTPFileEntryParser parser , String encoding );1;0;4
+FTPFileList.iterator( );1;0;3
+FTPFileList.readStream( InputStream stream , String encoding );2;1;10
+***not in a method***;0;1;0
+FTPFileList.create( InputStream stream , FTPFileEntryParser parser );1;0;3
+FTPFileList.readStream( InputStream stream );1;0;3
+FTPFileList.iterator( FTPFileEntryParser parser );1;0;3
+FTPFileList.getParser( );1;0;3
+FTPFileList.getFiles( );1;0;3

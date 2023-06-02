@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleMappingExceptionResolver.getStatusCodesAsMap( );1;0;3
+SimpleMappingExceptionResolver.doResolveException( HttpServletRequest request , HttpServletResponse response , @ Nullable Object handler , Exception ex );3;2;13
+SimpleMappingExceptionResolver.applyStatusCodeIfPossible( HttpServletRequest request , HttpServletResponse response , int statusCode );3;1;9
+SimpleMappingExceptionResolver.determineStatusCode( HttpServletRequest request , String viewName );2;0;6
+SimpleMappingExceptionResolver.setExceptionAttribute( @ Nullable String exceptionAttribute );1;0;3
+SimpleMappingExceptionResolver.getModelAndView( String viewName , Exception ex );2;1;7
+SimpleMappingExceptionResolver.setDefaultStatusCode( int defaultStatusCode );1;0;3
+SimpleMappingExceptionResolver.determineViewName( Exception ex , HttpServletRequest request );9;5;20
+SimpleMappingExceptionResolver.setDefaultErrorView( String defaultErrorView );1;0;3
+SimpleMappingExceptionResolver.setExcludedExceptions( Class < ? > ... excludedExceptions );1;0;3
+SimpleMappingExceptionResolver.getDepth( String exceptionMapping , Class < ? > exceptionClass , int depth );3;3;9
+SimpleMappingExceptionResolver.getModelAndView( String viewName , Exception ex , HttpServletRequest request );1;0;3
+SimpleMappingExceptionResolver.addStatusCode( String viewName , int statusCode );1;0;3
+SimpleMappingExceptionResolver.getDepth( String exceptionMapping , Exception ex );1;0;3
+SimpleMappingExceptionResolver.setStatusCodes( Properties statusCodes );3;0;7
+SimpleMappingExceptionResolver.findMatchingViewName( Properties exceptionMappings , Exception ex );10;11;19
+SimpleMappingExceptionResolver.setExceptionMappings( Properties mappings );1;0;3

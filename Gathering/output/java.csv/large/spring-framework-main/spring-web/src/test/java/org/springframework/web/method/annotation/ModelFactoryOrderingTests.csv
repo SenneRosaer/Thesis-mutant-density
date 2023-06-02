@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InvertedTreeDependencyController.getC2( Model model );1;0;3
+StraightLineDependencyController.getC3( @ ModelAttribute C2 c2 , Model model );1;0;3
+TreeDependencyController.getB2( @ ModelAttribute A a , Model model );1;0;3
+StraightLineDependencyController.getB2( @ ModelAttribute B1 b1 , Model model );1;0;3
+UnresolvedDependencyController.getC3( @ ModelAttribute B2 b2 , Model model );1;0;3
+InvertedTreeDependencyController.getC1( Model model );1;0;3
+InvertedTreeDependencyController.getB2( @ ModelAttribute C3 c3 , @ ModelAttribute C4 c4 , Model model );1;0;3
+InvertedTreeDependencyController.getA( @ ModelAttribute B1 b1 , @ ModelAttribute B2 b2 , Model model );1;0;3
+ModelFactoryOrderingTests.runTest( Object controller );4;0;22
+StraightLineDependencyController.getC4( @ ModelAttribute C3 c3 , Model model );1;0;3
+AbstractController.handle( );1;0;2
+InvertedTreeDependencyController.getC3( Model model );1;0;3
+ModelFactoryOrderingTests.getInvokedMethods( );1;0;3
+TreeDependencyController.getA( Model model );1;0;3
+ModelFactoryOrderingTests.InvertedTreeDependency( );1;0;9
+ModelFactoryOrderingTests.straightLineDependency( );1;0;9
+TreeDependencyController.getC2( @ ModelAttribute B1 b1 , Model model );1;0;3
+UnresolvedDependencyController.getC2( @ ModelAttribute B1 b1 , Model model );1;0;3
+UnresolvedDependencyController.getC1( @ ModelAttribute B1 b1 , Model model );1;0;3
+InvertedTreeDependencyController.getC4( Model model );1;0;3
+TreeDependencyController.getB1( @ ModelAttribute A a , Model model );1;0;3
+UnresolvedDependencyController.getC4( @ ModelAttribute B2 b2 , Model model );1;0;3
+InvertedTreeDependencyController.getB1( @ ModelAttribute C1 c1 , @ ModelAttribute C2 c2 , Model model );1;0;3
+UnresolvedDependencyController.getA( Model model );1;0;3
+***not in a method***;0;3;0
+StraightLineDependencyController.getA( Model model );1;0;3
+StraightLineDependencyController.getB1( @ ModelAttribute A a , Model model );1;0;3
+ModelFactoryOrderingTests.setup( );1;0;3
+StraightLineDependencyController.getC2( @ ModelAttribute C1 c1 , Model model );1;0;3
+ModelFactoryOrderingTests.treeDependency( );1;0;6
+ModelFactoryOrderingTests.unresolvedDependency( );1;0;4
+TreeDependencyController.getC1( @ ModelAttribute B1 b1 , Model model );1;0;3
+StraightLineDependencyController.getC1( @ ModelAttribute B2 b2 , Model model );1;0;3
+TreeDependencyController.getC4( @ ModelAttribute B2 b2 , Model model );1;0;3
+ModelFactoryOrderingTests.assertInvokedBefore( String beforeMethod , String ... afterMethods );2;3;8
+AbstractController.updateAndReturn( Model model , String methodName , T returnValue );1;0;4
+TreeDependencyController.getC3( @ ModelAttribute B2 b2 , Model model );1;0;3

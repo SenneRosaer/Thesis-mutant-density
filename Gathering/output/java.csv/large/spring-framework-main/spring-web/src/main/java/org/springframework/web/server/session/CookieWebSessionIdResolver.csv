@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CookieWebSessionIdResolver.setCookieMaxAge( Duration maxAge );1;0;3
+CookieWebSessionIdResolver.resolveSessionIds( ServerWebExchange exchange );2;1;8
+CookieWebSessionIdResolver.setSessionId( ServerWebExchange exchange , String id );1;0;5
+CookieWebSessionIdResolver.addCookieInitializer( Consumer < ResponseCookie . ResponseCookieBuilder > initializer );2;1;4
+***not in a method***;0;1;0
+CookieWebSessionIdResolver.getCookieName( );1;0;3
+CookieWebSessionIdResolver.getCookieMaxAge( );1;0;3
+CookieWebSessionIdResolver.expireSession( ServerWebExchange exchange );1;0;4
+CookieWebSessionIdResolver.initSessionCookie( ServerWebExchange exchange , String id , Duration maxAge );2;1;12
+CookieWebSessionIdResolver.setCookieName( String cookieName );1;0;4

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PDFTextUtil.initValues( );1;0;5
+PDFTextUtil.writeTf( String fontName , double fontSize );3;0;6
+PDFTextUtil.isInTextObject( );1;0;3
+PDFTextUtil.writeChar( char ch , StringBuffer sb );7;4;19
+PDFTextUtil.writeAffineTransform( AffineTransform at , StringBuffer sb );1;0;10
+PDFTextUtil.endTextObject( );1;0;6
+PDFTextUtil.saveGraphicsState( );1;0;3
+PDFTextUtil.restoreGraphicsState( );1;0;3
+PDFTextUtil.writeTJMappedChar( char codepoint );3;2;9
+PDFTextUtil.writeTextMatrix( AffineTransform localTransform );1;0;6
+PDFTextUtil.beginTextObject( );2;0;7
+PDFTextUtil.writeTJ( );2;0;7
+PDFTextUtil.setTextRenderingMode( boolean fill , boolean stroke , boolean addToClip );5;1;12
+PDFTextUtil.PDFTextUtil( );1;0;2
+PDFTextUtil.isInString( );2;3;3
+PDFTextUtil.setTextRenderingMode( int mode );4;4;11
+PDFTextUtil.adjustGlyphTJ( double adjust );1;1;6
+PDFTextUtil.checkInTextObject( );2;1;5
+PDFTextUtil.updateTf( String fontName , double fontSize , boolean multiByte );3;3;10
+PDFTextUtil.concatMatrix( AffineTransform at );2;1;9

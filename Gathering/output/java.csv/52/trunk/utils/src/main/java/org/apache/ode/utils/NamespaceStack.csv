@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NamespaceStack.NamespaceStack( );1;0;6
+NamespaceStack.toNSContext( );5;3;13
+Frame.declarePrefix( String prefix , String uri );2;1;6
+Frame.Frame( Frame parent );1;0;3
+Frame.getPrefix( String uri );1;0;3
+NamespaceStack.getPrefix( String uri );1;0;3
+NamespaceStack.pop( );2;1;6
+NamespaceStack.declarePrefix( String prefix , String uri );3;2;3
+NamespaceStack.endPrefixMappings( ContentHandler ch );1;0;3
+NamespaceStack.startPrefixMappings( ContentHandler ch );1;0;3
+NamespaceStack.allocatePrefix( String hint , String uri );5;3;15
+Frame.endPrefixMappings( ContentHandler ch );3;1;7
+Frame.getNamespaceURI( String prefix );4;3;10
+Frame.startPrefixMappings( ContentHandler ch );3;1;8
+NamespaceStack.pushNewContext( );1;0;3
+NamespaceStack.getNamespaceUri( String prefix );2;1;3
+Frame.Frame( );1;0;2
+NamespaceStack.dereferenceQName( String qname );6;9;20

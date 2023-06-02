@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BeanValidationBeanRegistrationAotProcessorTests.process( Class < ? > beanClass );2;1;6
+ExistsValidator.isValid( String value , ConstraintValidatorContext constraintValidatorContext );1;0;3
+BeanValidationBeanRegistrationAotProcessorTests.shouldProcessPropertyLevelConstraint( );1;0;5
+BeanValidationBeanRegistrationAotProcessorTests.createContribution( Class < ? > beanClass );1;0;5
+MethodParameterLevelConstraint.hello( @ Exists String name );1;0;3
+PropertyLevelConstraint.getName( );1;0;3
+BeanValidationBeanRegistrationAotProcessorTests.shouldProcessMethodParameterLevelConstraint( );1;0;5
+ConstructorParameterLevelConstraint.ConstructorParameterLevelConstraint( @ Exists String name );1;0;3
+BeanValidationBeanRegistrationAotProcessorTests.shouldProcessConstructorParameterLevelConstraint( );1;0;5
+PropertyLevelConstraint.setName( String name );1;0;3
+BeanValidationBeanRegistrationAotProcessorTests.shouldSkipNonAnnotatedType( );1;0;4
+ConstructorParameterLevelConstraint.hello( );1;0;3

@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultActionForwardHandler.getRegisteredActionForwardHandler( );1;0;3
+DefaultActionForwardHandler.doReturnToAction( FlowControllerHandlerContext context , String actionName , Forward pageFlowFwd );8;8;37
+DefaultActionForwardHandler.doNestingReturn( FlowControllerHandlerContext context , Forward pageFlowFwd , ActionMapping mapping , ActionForm form );10;6;62
+DefaultActionForwardHandler.handleInterceptorReturn( FlowControllerHandlerContext context , PageFlowController poppedPageFlow , PageFlowStack . PushedPageFlow pushedPageFlowWrapper , String returnAction , ActionMapping actionMapping , ActionForm form , ActionInterceptor interceptor );7;2;54
+DefaultActionForwardHandler.DefaultActionForwardHandler( ServletContext servletContext );1;0;3
+DefaultActionForwardHandler.doAutoViewRender( FlowControllerHandlerContext context , ActionMapping mapping , ActionForm form );6;4;44
+WrapperForward.WrapperForward( ActionForward base );1;0;3
+DefaultActionForwardHandler.doReturnToPage( FlowControllerHandlerContext context , PreviousPageInfo prevPageInfo , PageFlowController currentPageFlow , ActionForm currentForm , String actionName , Forward pageFlowFwd );14;15;56
+DefaultActionForwardHandler.getQueryString( Forward pageFlowFwd , PreviousInfo previousInfo );5;5;11
+DefaultActionForwardHandler.processForward( FlowControllerHandlerContext context , ActionForward fwd , ActionMapping mapping , ExceptionConfig exceptionConfig , String actionName , ModuleConfig altModuleConfig , ActionForm form );34;26;125

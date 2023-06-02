@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestRunEvent.getError( );1;0;3
+TestRunEvent.equals( Object o );11;15;12
+TestRunEvent.getName( );1;0;3
+***not in a method***;0;1;0
+TestRunEvent.getType( );1;0;3
+TestRunEvent.TestRunEvent( Integer id , int type , Properties props , TestSummary result );1;0;5
+TestRunEvent.TestRunEvent( Integer id , int type , String name , Throwable t );1;0;4
+TestRunEvent.getTimeStamp( );1;0;3
+TestRunEvent.setTimeStamp( long timestamp );1;0;3
+TestRunEvent.TestRunEvent( Integer id , int type , String name , TestSummary result );1;0;4
+TestRunEvent.setType( int type );1;0;3
+TestRunEvent.getProperties( );1;0;3
+TestRunEvent.TestRunEvent( Integer id , int type , String name );1;0;4
+TestRunEvent.setError( ExceptionData error );1;0;3
+TestRunEvent.TestRunEvent( Integer id , int type );1;0;4
+TestRunEvent.getSummary( );1;0;3
+TestRunEvent.setName( String name );1;0;3
+TestRunEvent.toString( );1;0;6
+TestRunEvent.setProperties( Properties props );1;0;3

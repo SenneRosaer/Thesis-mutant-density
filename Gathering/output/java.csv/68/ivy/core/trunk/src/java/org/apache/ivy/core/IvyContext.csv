@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IvyContext.IvyContext( );1;0;2
+IvyContext.getOperatingThread( );1;0;3
+IvyContext.peekInContextStack( String key );3;5;9
+IvyContext.checkInterrupted( );1;0;3
+IvyContext.pop( String key );4;2;17
+IvyContext.get( String key );2;1;4
+IvyContext.pop( String key , Object expectedValue );5;3;21
+IvyContext.getMessageLogger( );3;2;12
+IvyContext.getEventManager( );1;0;3
+IvyContext.setResolveData( ResolveData data );1;0;3
+IvyContext.getDependencyDescriptor( );1;0;3
+IvyContext.peekIvy( );1;0;4
+IvyContext.peek( String key );4;2;17
+IvyContext.getCircularDependencyStrategy( );1;0;3
+IvyContext.getIvy( );2;1;4
+IvyContext.getResolveData( );1;0;3
+IvyContext.popContext( );1;0;3
+IvyContext.pushNewCopyContext( );1;0;3
+IvyContext.setDependencyDescriptor( DependencyDescriptor dd );1;0;3
+IvyContext.setIvy( Ivy ivy );1;0;4
+IvyContext.getContext( );2;0;7
+IvyContext.getCurrentStack( );2;1;8
+IvyContext.pushNewContext( );1;0;3
+IvyContext.getDefaultIvy( );3;1;10
+IvyContext.IvyContext( IvyContext ctx );1;0;8
+IvyContext.getSettings( );1;0;3
+IvyContext.pushContext( IvyContext context );1;0;4
+IvyContext.push( String key , Object value );3;1;13
+IvyContext.set( String key , Object value );1;0;3

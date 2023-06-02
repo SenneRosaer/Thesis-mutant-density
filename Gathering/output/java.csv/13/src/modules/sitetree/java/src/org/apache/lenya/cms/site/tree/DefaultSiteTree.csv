@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultSiteTree.preOrder( );1;0;4
+DefaultSiteTree.removeNodeInternal( String path );2;0;12
+DefaultSiteTree.addNode( String parentid , String id , String uuid , boolean visibleInNav , String href , String suffix , boolean link );1;1;3
+DefaultSiteTree.saveDocument( );2;0;7
+DefaultSiteTree.addNode( String path , String uuid , boolean visibleInNav , String href , String suffix , boolean link );1;0;3
+DefaultSiteTree.save( );2;0;7
+DefaultSiteTree.getArea( );1;0;3
+DefaultSiteTree.getNodeInternal( String path );2;0;9
+DefaultSiteTree.getByUuid( String uuid , String language );2;1;8
+DefaultSiteTree.moveUp( String path );5;3;24
+DefaultSiteTree.createDocument( );1;0;9
+DefaultSiteTree.add( String path , String followingSiblingPath );1;0;4
+DefaultSiteTree.addNode( String parentPath , String name , String uuid , boolean visibleInNav , String href , String suffix , boolean link , String refpath );12;13;45
+DefaultSiteTree.addNode( SiteTreeNode node , String refpath );1;0;5
+DefaultSiteTree.changed( );1;0;3
+DefaultSiteTree.addLabel( String path , String language , String label );3;1;11
+DefaultSiteTree.containsByUuid( String uuid , String language );1;1;3
+DefaultSiteTree.addNode( String path , String uuid , boolean visibleInNav , String href , String suffix , boolean link , String refpath );2;3;11
+DefaultSiteTree.addNode( String parentid , String id , String uuid , boolean visibleInNav );1;0;3
+DefaultSiteTree.contains( String path , String language );3;0;12
+DefaultSiteTree.add( String path , org . apache . lenya . cms . publication . Document doc );5;4;14
+DefaultSiteTree.getNodesByXpath( String xPath );3;2;13
+DefaultSiteTree.getFactory( );1;0;3
+DefaultSiteTree.DefaultSiteTree( DocumentFactory factory , Publication publication , String _area , ServiceManager manager , Logger logger );3;2;20
+DefaultSiteTree.createParents( final String path );3;4;12
+DefaultSiteTree.moveDown( String path );5;3;25
+DefaultSiteTree.add( String path );1;0;4
+DefaultSiteTree.findNode( Node node , List ids );7;8;17
+DefaultSiteTree.copyLinks( SiteTreeNode source , SiteTreeNode target );2;2;6
+DefaultSiteTree.getByUuidInternal( String uuid , String language );3;2;10
+DefaultSiteTree.getTopLevelNodes( );1;0;3
+DefaultSiteTree.getNode( String path );3;2;17
+DefaultSiteTree.removeLabel( String path , String language );2;0;9
+DefaultSiteTree.getSession( );1;0;3
+DefaultSiteTree.removeNode( String path );3;2;15
+DefaultSiteTree.setLabel( String path , String language , String label );2;0;8
+DefaultSiteTree.getNodes( );1;0;5
+DefaultSiteTree.getNodeByXpath( String xPath );3;1;12
+DefaultSiteTree.contains( String path );2;1;7
+DefaultSiteTree.getPublication( );1;0;3
+DefaultSiteTree.addNode( SiteTreeNode node );1;0;3
+DefaultSiteTree.getRepositoryNode( );4;2;18
+DefaultSiteTree.containsInAnyLanguage( String uuid );1;1;4
+DefaultSiteTree.getRootNode( );2;0;9

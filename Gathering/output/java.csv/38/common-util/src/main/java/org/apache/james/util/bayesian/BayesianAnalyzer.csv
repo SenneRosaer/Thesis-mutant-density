@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TokenProbabilityStrength.toString( );1;0;7
+BayesianAnalyzer.getHamMessageCount( );1;0;3
+***not in a method***;0;1;0
+BayesianAnalyzer.clear( );1;0;6
+BayesianAnalyzer.addSpam( Reader stream );1;1;4
+BayesianAnalyzer.buildCorpus( );2;1;12
+BayesianAnalyzer.nextToken( Reader reader );24;26;68
+TokenProbabilityStrength.compareTo( Object anotherTokenProbabilityStrength );2;3;8
+BayesianAnalyzer.computeSpamProbability( Reader stream );1;0;6
+BayesianAnalyzer.setCorpus( Map corpus );1;0;3
+BayesianAnalyzer.computeOverallProbability( SortedSet tokenProbabilityStrengths , Map workCorpus );5;11;19
+BayesianAnalyzer.addTokenOccurrences( Reader stream , Map target );14;18;34
+BayesianAnalyzer.setHamTokenCounts( Map hamTokenCounts );1;0;3
+BayesianAnalyzer.setSpamMessageCount( int spamMessageCount );1;0;3
+BayesianAnalyzer.allSameChar( String s );4;4;12
+BayesianAnalyzer.tokenCountsClear( );1;0;4
+BayesianAnalyzer.buildDegenerated( String fullToken );11;19;39
+BayesianAnalyzer.getSpamTokenCounts( );1;0;3
+BayesianAnalyzer.getCorpus( );1;0;3
+BayesianAnalyzer.parse( Reader stream );13;17;30
+BayesianAnalyzer.computeProbability( String token );10;11;32
+BayesianAnalyzer.getSpamMessageCount( );1;0;3
+BayesianAnalyzer.allDigits( String s );3;3;8
+BayesianAnalyzer.getHamTokenCounts( );1;0;3
+BayesianAnalyzer.addHam( Reader stream );1;1;4
+BayesianAnalyzer.getTokenProbabilityStrengths( Set tokens , Map workCorpus );7;4;39
+BayesianAnalyzer.setSpamTokenCounts( Map spamTokenCounts );1;0;3
+BayesianAnalyzer.setHamMessageCount( int hamMessageCount );1;0;3
+BayesianAnalyzer.BayesianAnalyzer( );1;0;2

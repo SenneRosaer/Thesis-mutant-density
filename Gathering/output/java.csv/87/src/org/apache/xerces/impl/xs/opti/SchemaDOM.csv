@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SchemaDOM.startElement( QName element , XMLAttributes attributes , int line , int column , int offset );1;0;6
+SchemaDOM.endElement( );1;0;4
+SchemaDOM.endAnnotationElement( QName elemName );1;0;3
+SchemaDOM.endAnnotationCDATA( );1;0;4
+SchemaDOM.startAnnotation( QName elemName , XMLAttributes attributes , NamespaceContext namespaceContext );10;10;32
+SchemaDOM.reset( );5;7;16
+SchemaDOM.getDocumentElement( );1;0;3
+SchemaDOM.printDOM( );1;0;2
+SchemaDOM.endAnnotation( QName elemName , ElementImpl annotation );1;0;5
+SchemaDOM.SchemaDOM( );1;0;3
+SchemaDOM.resizeRelations( int i );1;1;5
+SchemaDOM.processingInstruction( String target , XMLString data );2;1;7
+SchemaDOM.resizeRelations( );2;3;8
+SchemaDOM.startAnnotationCDATA( );1;0;4
+SchemaDOM.escapeAttValue( String original , int from );8;8;31
+SchemaDOM.emptyElement( QName element , XMLAttributes attributes , int line , int column );1;1;3
+SchemaDOM.startElement( QName element , XMLAttributes attributes , int line , int column );1;1;3
+SchemaDOM.characters( XMLString text );7;8;25
+SchemaDOM.traverse( Node node , int depth );5;5;23
+SchemaDOM.processAttValue( String original );8;13;11
+SchemaDOM.comment( XMLString text );2;1;7
+SchemaDOM.startAnnotationElement( QName elemName , XMLAttributes attributes );2;2;8
+SchemaDOM.endSyntheticAnnotationElement( QName elemName , boolean complete );2;0;8
+SchemaDOM.emptyElement( QName element , XMLAttributes attributes , int line , int column , int offset );1;0;5
+SchemaDOM.indent( int amount );2;2;5
+SchemaDOM.processElement( QName element , XMLAttributes attributes , ElementImpl node );7;9;39

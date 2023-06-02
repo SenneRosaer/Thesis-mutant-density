@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PatternAnalyzer.equals( Object other );9;10;13
+FastStringReader.getString( );1;0;3
+FastStringTokenizer.isTokenChar( char c , boolean isLetter );2;1;3
+PatternAnalyzer.hashCode( );5;12;10
+PatternAnalyzer.tokenStream( String fieldName , String text );5;4;16
+PatternAnalyzer.toString( Reader input );4;7;24
+FastStringTokenizer.next( final Token reusableToken );10;12;29
+PatternTokenizer.next( final Token reusableToken );7;4;22
+FastStringTokenizer.isStopWord( String text );2;2;3
+PatternTokenizer.PatternTokenizer( String str , Pattern pattern , boolean toLowerCase );1;0;5
+PatternAnalyzer.eq( Object o1 , Object o2 );3;3;3
+PatternAnalyzer.eqPattern( Pattern p1 , Pattern p2 );3;4;3
+PatternAnalyzer.tokenStream( String fieldName , Reader reader );3;0;11
+FastStringTokenizer.FastStringTokenizer( String str , boolean isLetter , boolean toLowerCase , Set stopWords );1;0;6
+PatternAnalyzer.PatternAnalyzer( Pattern pattern , boolean toLowerCase , Set stopWords );6;4;10
+PatternAnalyzer.makeStopSet( String [ ] stopWords );1;1;5
+FastStringReader.FastStringReader( String s );1;0;4

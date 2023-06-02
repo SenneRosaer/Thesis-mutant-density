@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultHighlighter.doHighlight( TermPositionVector tvec , Set queryTerms , String text , String excerptStart , String excerptEnd , String fragmentStart , String fragmentEnd , String hlStart , String hlEnd , int maxFragments , int surround );4;4;20
+FragmentInfo.getEndOffset( );1;0;3
+FragmentInfo.numTerms( );1;0;3
+FragmentInfoPositionSorter.compare( Object o1 , Object o2 );3;3;8
+FragmentInfo.FragmentInfo( TermVectorOffsetInfo offsetinfo , int mergeGap );1;0;8
+DefaultHighlighter.createDefaultExcerpt( String text , String excerptStart , String excerptEnd , String fragmentStart , String fragmentEnd , int maxLength );4;4;20
+DefaultHighlighter.mergeFragments( TermVectorOffsetInfo [ ] offsets , String text , String excerptStart , String excerptEnd , String fragmentStart , String fragmentEnd , String hlStart , String hlEnd , int maxFragments , int surround );39;81;156
+FragmentInfo.iterator( );1;0;3
+FragmentInfo.getStartOffset( );1;0;3
+FragmentInfoScoreSorter.compare( Object o1 , Object o2 );4;5;8
+TermVectorOffsetInfoSorter.compare( Object o1 , Object o2 );3;3;8
+DefaultHighlighter.DefaultHighlighter( );1;0;2
+TermVectorOffsetInfoSorter.equals( Object obj );1;0;3
+DefaultHighlighter.highlight( TermPositionVector tvec , Set queryTerms , String text , int maxFragments , int surround );1;0;5
+FragmentInfoPositionSorter.equals( Object obj );1;0;3
+FragmentInfo.trim( );3;3;10
+FragmentInfo.add( TermVectorOffsetInfo offsetinfo );2;3;9
+DefaultHighlighter.highlight( TermPositionVector tvec , Set queryTerms , String text , String excerptStart , String excerptEnd , String fragmentStart , String fragmentEnd , String hlStart , String hlEnd , int maxFragments , int surround );1;0;5
+FragmentInfoScoreSorter.equals( Object obj );1;0;3

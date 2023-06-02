@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocumentLocator.getKey( String pubId , String area , String path , String language );1;3;3
+DocumentLocator.toString( );1;0;3
+DocumentLocator.getArea( );1;0;3
+DocumentLocator.getLanguageVersion( String language );1;0;3
+DocumentLocator.getDescendant( String relativePath );3;2;9
+DocumentLocator.DocumentLocator( String pubId , String area , String path , String language );1;0;6
+DocumentLocator.getParent( String defaultPath );2;1;8
+DocumentLocator.hashCode( );1;0;3
+DocumentLocator.equals( Object obj );2;1;7
+DocumentLocator.getAreaVersion( String area );1;0;3
+DocumentLocator.getPublicationId( );1;0;3
+DocumentLocator.getPath( );1;0;3
+DocumentLocator.getKey( );1;0;3
+DocumentLocator.getParent( );2;2;9
+DocumentLocator.getChild( String step );2;2;6
+DocumentLocator.getLocator( String pubId , String area , String path , String language );2;1;9
+DocumentLocator.getLanguage( );1;0;3
+DocumentLocator.getPathVersion( String path );1;0;3

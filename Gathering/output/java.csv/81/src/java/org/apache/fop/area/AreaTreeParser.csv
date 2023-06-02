@@ -1,0 +1,81 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PageSequenceMaker.startElement( Attributes attributes );1;0;8
+Handler.transferForeignObjects( Attributes atts , AreaTreeObject ato );4;3;12
+BookmarkMaker.startElement( Attributes attributes );2;0;14
+WordMaker.ignoreCharacters( );1;0;3
+RegionEndMaker.endElement( );1;0;3
+Handler.characters( char [ ] ch , int start , int length );5;6;19
+SpanMaker.startElement( Attributes attributes );1;0;11
+BookmarkTreeMaker.endElement( );1;0;5
+Handler.setTraits( Attributes attributes , Area area , Object [ ] traitSubset );21;20;77
+PageMaker.endElement( );1;0;4
+RegionViewportMaker.endElement( );1;0;3
+BeforeFloatMaker.endElement( );1;0;3
+InlineBlockParentMaker.startElement( Attributes attributes );1;0;12
+Handler.assertObjectOfClass( Object obj , Class clazz );2;1;6
+AreaTreeParser.getContentHandler( AreaTreeModel treeModel , FOUserAgent userAgent );1;0;5
+RegionStartMaker.startElement( Attributes attributes );1;0;3
+Handler.getAttributeAsRectangle2D( Attributes attributes , String name );2;1;8
+Handler.getCurrentRegionViewport( );1;0;3
+Handler.getCurrentBodyRegion( );1;0;3
+Handler.startElement( String uri , String localName , String qName , Attributes attributes );11;8;59
+RegionEndMaker.startElement( Attributes attributes );1;0;3
+RegionBodyMaker.endElement( );1;0;3
+Handler.endElement( String uri , String localName , String qName );6;3;24
+ForeignObjectMaker.startElement( Attributes attributes );2;1;15
+ViewportMaker.startElement( Attributes attributes );1;0;14
+InlineBlockParentMaker.endElement( );1;0;3
+PageMaker.startElement( Attributes attributes );1;0;4
+FlowMaker.endElement( );1;0;3
+Handler.Handler( AreaTreeModel treeModel , FOUserAgent userAgent , ElementMappingRegistry elementMappingRegistry );1;0;36
+TitleMaker.startElement( Attributes attributes );1;0;5
+FlowMaker.startElement( Attributes attributes );2;1;12
+Handler.getCurrentViewport( );1;0;3
+InlineMaker.startElement( Attributes attributes );1;0;12
+BookmarkMaker.endElement( );1;0;3
+SpaceMaker.ignoreCharacters( );1;0;3
+AbstractMaker.startElement( Attributes attributes );1;0;2
+AreaTreeMaker.startElement( Attributes attributes );1;0;3
+Handler.pushNewRegionReference( Attributes attributes , int side );1;0;13
+SpaceMaker.endElement( );2;1;20
+InlineMaker.endElement( );1;0;3
+DestinationMaker.startElement( Attributes attributes );1;0;10
+Handler.getCurrentText( );1;0;3
+MainReferenceMaker.startElement( Attributes attributes );1;0;5
+Handler.getAttributeAsCTM( Attributes attributes , String name );4;3;13
+Handler.getCurrentBlockParent( );1;0;3
+RegionBeforeMaker.startElement( Attributes attributes );1;0;3
+RegionAfterMaker.startElement( Attributes attributes );1;0;3
+RegionStartMaker.endElement( );1;0;3
+InlineParentMaker.endElement( );1;0;3
+WordMaker.endElement( );1;0;11
+AreaTreeParser.parse( Source src , AreaTreeModel treeModel , FOUserAgent userAgent );1;0;6
+RegionBodyMaker.startElement( Attributes attributes );2;1;19
+ImageMaker.startElement( Attributes attributes );1;0;8
+ViewportMaker.endElement( );1;0;3
+AbstractMaker.ignoreCharacters( );1;0;3
+DestinationMaker.endElement( );1;0;5
+BeforeFloatMaker.startElement( Attributes attributes );1;0;5
+BookmarkTreeMaker.startElement( Attributes attributes );1;0;4
+Handler.findAreaType( Class clazz );5;7;13
+BlockMaker.endElement( );1;0;3
+TextMaker.endElement( );1;0;3
+FootnoteMaker.endElement( );1;0;3
+RegionAfterMaker.endElement( );1;0;3
+FootnoteMaker.startElement( Attributes attributes );1;0;6
+Handler.setAreaAttributes( Attributes attributes , Area area );1;0;4
+ForeignObjectMaker.endElement( );1;0;3
+Handler.getAttributeAsBoolean( Attributes attributes , String name , boolean defaultValue );2;1;8
+TextMaker.startElement( Attributes attributes );2;1;20
+RegionBeforeMaker.endElement( );1;0;3
+LineAreaMaker.endElement( );1;0;3
+AbstractMaker.endElement( );1;0;2
+TitleMaker.endElement( );1;0;5
+BlockMaker.startElement( Attributes attributes );8;3;43
+Handler.getAttributeAsInteger( Attributes attributes , String name , int defaultValue );2;1;8
+InlineParentMaker.startElement( Attributes attributes );1;0;13
+LineAreaMaker.startElement( Attributes attributes );1;0;10
+Handler.handleExternallyGeneratedObject( Object obj );4;3;13
+PageViewportMaker.startElement( Attributes attributes );3;3;22
+LeaderMaker.startElement( Attributes attributes );2;1;18
+RegionViewportMaker.startElement( Attributes attributes );2;1;15

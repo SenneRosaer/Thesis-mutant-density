@@ -1,0 +1,115 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompilerUtils.getAnnotation( AnnotationInstance annotation , String memberName , boolean defaultIsNull );2;1;4
+CompilerUtils.inferTypeFromPath( String webappRelativePath , CoreAnnotationProcessorEnv env );1;0;5
+CompilerUtils.getAnnotationFullyQualified( Declaration element , String fullyQualifiedName );3;2;10
+ErrorTypeDeclaration.getPackage( );1;0;3
+CompilerUtils.getPathRelativeToPackage( String relativePath , PackageDeclaration packageDecl );3;6;8
+CompilerUtils.getOuterClass( MemberDeclaration classMember );2;0;5
+CompilerUtils.isAssignableFrom( String className , TypeInstance type , CoreAnnotationProcessorEnv env );2;1;4
+CompilerUtils.getFormClassName( DeclaredType jclass , CoreAnnotationProcessorEnv env );1;0;3
+CompilerUtils.getClassField( TypeDeclaration type , String fieldName , String desiredAnnotation , boolean onlyPublicOrProtected );10;11;24
+Mutable.get( );1;0;3
+CompilerUtils.getFileRelativeToSourceFile( TypeDeclaration outerClass , String relativePath , CoreAnnotationProcessorEnv env );4;3;12
+ErrorTypeDeclaration.getFields( );1;0;3
+CompilerUtils.getSourceFile( TypeDeclaration decl , boolean mustBeNonNull );3;2;6
+ErrorTypeDeclaration.getAnnotationInstances( );1;0;3
+CompilerUtils.annotationsAreEqual( AnnotationInstance a1 , AnnotationInstance a2 , boolean allowExactDuplicates , CoreAnnotationProcessorEnv env );20;15;56
+ErrorTypeDeclaration.hasModifier( Modifier modifier );1;0;3
+CompilerUtils.getDeclaration( DeclaredType type );3;2;4
+CompilerUtils.isAssignableFrom( TypeDeclaration base , TypeInstance cl );2;1;4
+CompilerUtils.getArrayBaseType( ArrayType arrayType );2;0;8
+ErrorTypeDeclaration.getPosition( );1;0;3
+CompilerUtils.getFormClassName( TypeDeclaration jclass , CoreAnnotationProcessorEnv env );4;0;18
+Mutable.Mutable( Object val );1;0;3
+CompilerUtils.getReferenceType( AnnotationInstance annotation , String memberName , boolean defaultIsNull );4;3;5
+CompilerUtils.isAssignableFrom( TypeInstance base , TypeDeclaration cl );2;1;4
+CompilerUtils.getEnumFieldName( AnnotationInstance annotation , String memberName , boolean defaultIsNull );2;1;4
+ErrorTypeDeclaration.getModifiers( );1;0;3
+ErrorTypeDeclaration.getSimpleName( );1;0;3
+ErrorTypeDeclaration.getNestedTypes( );1;0;3
+CompilerUtils.getClassFields( TypeDeclaration jclass );1;0;5
+CompilerUtils.isAssignableFrom( String className , TypeDeclaration cl , CoreAnnotationProcessorEnv env );1;0;4
+CompilerUtils.getAnnotationValue( Declaration element , String annotationName , String valueName );2;1;4
+BeanPropertyDescriptor.BeanPropertyDescriptor( String propertyName , String type );1;0;4
+CompilerUtils.getWebContentRoots( CoreAnnotationProcessorEnv env );1;0;3
+ExtendedCoreAnnotationProcessorEnv.getDeclarationsAnnotatedWith( AnnotationTypeDeclaration annotationTypeDeclaration );1;0;3
+CompilerUtils.getInteger( AnnotationInstance annotation , String memberName , boolean defaultIsNull );4;1;6
+CompilerUtils.getDeclaredType( AnnotationInstance annotation , String memberName , boolean defaultIsNull );1;0;3
+CompilerUtils.findInnerClass( TypeDeclaration jclass , String innerClassName );1;0;3
+CompilerUtils.isPageFlowClass( ClassDeclaration jclass , CoreAnnotationProcessorEnv env );2;2;3
+CompilerUtils.isReconcilePhase( CoreAnnotationProcessorEnv env );5;6;7
+ExtendedCoreAnnotationProcessorEnv.getSpecifiedTypeDeclarations( );1;0;3
+Mutable.Mutable( );1;0;2
+CompilerUtils.getClassMethods( TypeDeclaration type , String desiredAnnotation , boolean onlyPublicOrPrivate , Collection results );18;19;49
+ErrorTypeDeclaration.getDeclaringType( );1;0;3
+ErrorTypeDeclaration.getMethods( );1;0;3
+CompilerUtils.getPackageNameFromType( TypeDeclaration type );2;3;6
+CompilerUtils.findElement( Collection elements , String elementName );3;0;9
+CompilerUtils.getClassMethods( TypeDeclaration jclass , String desiredAnnotation );1;0;5
+ErrorTypeDeclaration.getQualifiedName( );1;0;3
+CompilerUtils.getLong( AnnotationInstance annotation , String memberName , boolean defaultIsNull );4;1;6
+CompilerUtils.getStringValue( Declaration element , String annotationName , String memberName , boolean defaultIsNull );1;0;3
+CompilerUtils.getAnnotation( ClassDeclaration decl , String unqualifiedName , boolean inherited );5;3;12
+CompilerUtils.isAbsoluteURI( String uri );6;7;16
+CompilerUtils.inferModulePathFromType( TypeDeclaration type );1;1;4
+CompilerUtils.getBeanProperty( MethodDeclaration method );13;14;33
+CompilerUtils.getFloat( AnnotationInstance annotation , String memberName , boolean defaultIsNull );4;1;6
+CompilerUtils.getStringArrayValue( Declaration element , String annotationName , String memberName , boolean defaultIsNull );2;1;7
+CompilerUtils.getOption( String optionName , boolean required , CoreAnnotationProcessorEnv env );8;6;31
+CompilerUtils.getValues( AnnotationValue arrayValue , List translatedValues , boolean weedOutErrorType );5;3;9
+BeanPropertyDescriptor.getType( );1;0;3
+CompilerUtils.getEnumFieldName( AnnotationValue enumMember );3;3;6
+CompilerUtils.getOutermostClass( MemberDeclaration classMember );2;1;9
+ExtendedCoreAnnotationProcessorEnv.ExtendedCoreAnnotationProcessorEnv( CoreAnnotationProcessorEnv env , boolean useEqualsToCompareAnnotations );1;0;4
+CompilerUtils.getQualifiedName( AnnotationInstance annotation );1;0;3
+CompilerUtils.getBeanProperties( ClassDeclaration type , boolean getInheritedProperties );5;3;14
+CompilerUtils.getAnnotationArrayValue( Declaration element , String annotationName , String memberName , boolean defaultIsNull );2;1;7
+ErrorTypeDeclaration.getSuperinterfaces( );1;0;3
+CompilerUtils.typesAreEqual( TypeDeclaration t1 , TypeDeclaration t2 );2;2;5
+CompilerUtils.isCheckForOverlappingController( CoreAnnotationProcessorEnv env );4;4;7
+CompilerUtils.getClassMethod( TypeDeclaration jclass , String methodName , String desiredAnnotation );1;0;3
+ErrorTypeInstance.toString( );1;0;3
+BeanPropertyDeclaration.BeanPropertyDeclaration( String propertyName , String type , MethodDeclaration getter );1;0;4
+CompilerUtils.getBoolean( AnnotationInstance annotation , String memberName , boolean defaultIsNull );4;1;6
+CompilerUtils.getClassFields( TypeDeclaration type , boolean onlyPublicOrPrivate , Collection results );7;7;15
+CompilerUtils.getLoadableName( DeclaredType jclass );1;0;3
+ExtendedCoreAnnotationProcessorEnv.getMessager( );1;0;3
+ErrorTypeDeclaration.getDocComment( );1;0;3
+CompilerUtils.getLoadableName( TypeDeclaration jclass );2;3;11
+CompilerUtils.getWebappRelativeFile( String webappRelativePath , boolean lookInSourceRoots , CoreAnnotationProcessorEnv env );6;6;21
+CompilerUtils.getBooleanValue( Declaration element , String annotationName , String memberName , boolean defaultIsNull );2;1;4
+CompilerUtils.getTypeInstance( AnnotationInstance annotation , String memberName , boolean defaultIsNull );3;1;9
+ExtendedCoreAnnotationProcessorEnv.getFiler( );1;0;3
+CompilerUtils.getWebSourceRoots( CoreAnnotationProcessorEnv env );2;1;5
+CompilerUtils.getSimpleName( AnnotationInstance annotation );1;0;3
+CompilerUtils.getValue( Declaration element , String annotationName , String memberName , boolean defaultIsNull );2;1;4
+CompilerUtils.getAnnotationValue( AnnotationInstance annotation , String memberName , boolean defaultIsNull );7;3;21
+BeanPropertyDescriptor.getPropertyName( );1;0;3
+CompilerUtils.getAnnotation( Declaration element , String unqualifiedName );1;1;3
+CompilerUtils.assertAnnotationValue( Declaration element , String annotationName , String valueName , boolean defaultIsNull );2;1;11
+CompilerUtils.getClassNestedTypes( TypeDeclaration jclass );1;0;5
+CompilerUtils.getPathRelativeToPackage( String relativePath , String packageName );3;7;6
+CompilerUtils.getClassField( TypeDeclaration jclass , String fieldName , String desiredAnnotation );1;0;3
+ExtendedCoreAnnotationProcessorEnv.setAttribute( String propertyName , Object value );2;1;4
+CompilerUtils.getClassMethod( TypeDeclaration type , String methodName , String desiredAnnotation , boolean onlyPublicOrProtected );10;11;24
+CompilerUtils.removeFileExtension( String uri );1;0;4
+CompilerUtils.getAnnotationArray( AnnotationInstance annotation , String memberName , boolean defaultIsNull );1;0;4
+CompilerUtils.getClassNestedTypes( TypeDeclaration type , boolean onlyPublicOrPrivate , Collection results );7;7;16
+CompilerUtils.isJpfAnnotation( AnnotationInstance annotation , String unqualifiedName );1;1;4
+CompilerUtils.isOfClass( TypeInstance type , String className , CoreAnnotationProcessorEnv env );2;1;4
+ExtendedCoreAnnotationProcessorEnv.getAttribute( String propertyName );2;1;3
+BeanPropertyDeclaration.getGetter( );1;0;3
+CompilerUtils.hasDefaultConstructor( TypeDeclaration jclass );4;4;10
+CompilerUtils.isErrorString( Object str );1;0;3
+ExtendedCoreAnnotationProcessorEnv.getOptions( );1;0;3
+CompilerUtils.getString( AnnotationInstance annotation , String memberName , boolean defaultIsNull );3;1;4
+CompilerUtils.findField( TypeDeclaration jclass , String fieldName );1;0;3
+ExtendedCoreAnnotationProcessorEnv.useEqualsToCompareAnnotations( );1;0;3
+CompilerUtils.isAbsoluteURL( String path );2;1;10
+Mutable.set( Object val );1;0;3
+CompilerUtils.getStringArray( AnnotationInstance annotation , String memberName , boolean defaultIsNull );2;1;7
+ExtendedCoreAnnotationProcessorEnv.getTypeDeclaration( String s );1;0;3
+CompilerUtils.isAssignableFrom( TypeDeclaration base , TypeDeclaration typeDecl );9;7;18
+CompilerUtils.getAnnotationArray( AnnotationValue value );2;1;6
+CompilerUtils.getDouble( AnnotationInstance annotation , String memberName , boolean defaultIsNull );4;1;6
+CompilerUtils.getGenericBoundsType( TypeInstance type );3;1;8

@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JmsActivationSpecConfig.getDurableSubscriptionName( );2;0;3
+JmsActivationSpecConfig.getReplyQosSettings( );1;0;3
+JmsActivationSpecConfig.setSubscriptionName( @ Nullable String subscriptionName );1;0;3
+JmsActivationSpecConfig.setDestinationName( @ Nullable String destinationName );1;0;3
+JmsActivationSpecConfig.setReplyQosSettings( @ Nullable QosSettings replyQosSettings );1;0;3
+JmsActivationSpecConfig.setAcknowledgeMode( int acknowledgeMode );1;0;3
+JmsActivationSpecConfig.setMaxConcurrency( int maxConcurrency );1;0;3
+JmsActivationSpecConfig.setMessageSelector( @ Nullable String messageSelector );1;0;3
+JmsActivationSpecConfig.getSubscriptionName( );1;0;3
+JmsActivationSpecConfig.isSubscriptionDurable( );1;0;3
+JmsActivationSpecConfig.setAcknowledgeModeName( String constantName );1;0;3
+JmsActivationSpecConfig.getClientId( );1;0;3
+JmsActivationSpecConfig.getDestinationName( );1;0;3
+JmsActivationSpecConfig.setClientId( @ Nullable String clientId );1;0;3
+JmsActivationSpecConfig.getMessageSelector( );1;0;3
+JmsActivationSpecConfig.setDurableSubscriptionName( @ Nullable String durableSubscriptionName );1;1;4
+JmsActivationSpecConfig.setSubscriptionShared( boolean subscriptionShared );2;0;6
+JmsActivationSpecConfig.isSubscriptionShared( );1;0;3
+JmsActivationSpecConfig.setMessageConverter( @ Nullable MessageConverter messageConverter );1;0;3
+JmsActivationSpecConfig.getPrefetchSize( );1;0;3
+JmsActivationSpecConfig.isReplyPubSubDomain( );2;1;8
+JmsActivationSpecConfig.setConcurrency( String concurrency );3;3;17
+JmsActivationSpecConfig.getMessageConverter( );1;0;3
+***not in a method***;0;2;0
+JmsActivationSpecConfig.getMaxConcurrency( );1;0;3
+JmsActivationSpecConfig.setReplyPubSubDomain( boolean replyPubSubDomain );1;0;3
+JmsActivationSpecConfig.setSubscriptionDurable( boolean subscriptionDurable );2;0;6
+JmsActivationSpecConfig.isPubSubDomain( );1;0;3
+JmsActivationSpecConfig.setPubSubDomain( boolean pubSubDomain );1;0;3
+JmsActivationSpecConfig.setPrefetchSize( int prefetchSize );1;0;3
+JmsActivationSpecConfig.getAcknowledgeMode( );1;0;3

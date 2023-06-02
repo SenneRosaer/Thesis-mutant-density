@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Caller.equals( Object obj );3;2;7
+IvyNodeCallers.addCaller( String rootModuleConf , IvyNode callerNode , String callerConf , String [ ] dependencyConfs , DependencyDescriptor dd );5;2;25
+IvyNodeCallers.doesExclude( ModuleDescriptor md , String rootModuleConf , String [ ] moduleConfs , DependencyDescriptor dd , Artifact artifact , Stack callersStack );5;2;16
+Caller.setRealCaller( boolean b );1;0;3
+Caller.isRealCaller( );1;0;3
+IvyNodeCallers.doesCallersExclude( String rootModuleConf , Artifact artifact );1;0;3
+Caller.getModuleRevisionId( );1;0;3
+Caller.getAskedDependencyId( ResolveData resolveData );1;0;3
+Caller.addConfiguration( String callerConf , String [ ] dependencyConfs );2;1;11
+IvyNodeCallers.removeCaller( String rootModuleConf , ModuleRevisionId callerMrid );2;1;7
+Caller.Caller( ModuleDescriptor md , ModuleRevisionId mrid , DependencyDescriptor dd , boolean callerCanExclude );1;0;6
+Caller.canExclude( );3;2;3
+Caller.getDependencyDescriptor( );1;0;3
+IvyNodeCallers.getCallers( String rootModuleConf );2;1;7
+IvyNodeCallers.updateFrom( IvyNodeCallers callers , String rootModuleConf , boolean real );6;4;19
+Caller.hashCode( );1;4;6
+Caller.toString( );1;0;3
+Caller.getCallerConfigurations( );1;0;3
+IvyNodeCallers.getAllCallersModuleIds( );1;0;3
+IvyNodeCallers.IvyNodeCallers( IvyNode node );1;0;3
+IvyNodeCallers.getAllCallers( );2;0;8
+IvyNodeCallers.getDirectCallerFor( ModuleId from );1;0;3
+IvyNodeCallers.getAllRealCallers( );4;0;13
+Caller.getModuleDescriptor( );1;0;3
+IvyNodeCallers.doesCallersExclude( String rootModuleConf , Artifact artifact , Stack callersStack );6;5;25

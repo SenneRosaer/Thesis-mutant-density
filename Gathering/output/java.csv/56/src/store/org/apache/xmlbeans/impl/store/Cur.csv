@@ -1,0 +1,215 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Cur.kindName( int kind );7;0;12
+Cur.firstBookmarkInCharsLeft( Object key , int cch );7;15;16
+Locations.allocate( Cur addThis );2;5;16
+Cur.isEnd( );2;3;1
+Cur.toParent( boolean raw );2;1;7
+CurLoadContext.stripText( Object src , int off , int cch );3;0;13
+Cur.peekUser( );1;0;4
+Cur.setAttrValue( QName name , String value );1;0;4
+Locations.remove( int head , int i );5;12;23
+Cur.isSamePos( Cur that );4;6;4
+Cur.setXsiType( QName value );1;0;4
+Cur.isOnList( Cur head );3;2;6
+Cur.contains( Cur that );2;2;5
+Cur.hasChildren( );1;0;4
+CurLoadContext.xmlns( String prefix , String uri );3;2;15
+Cur.valueAsQName( );1;0;3
+Cur.getUser( );1;0;4
+Cur.dumpBookmarks( PrintStream o , Xobj xo , Object ref );4;2;15
+Cur.prevChars( int cch );4;5;9
+CurLoadContext.procInst( String target , String value );2;1;12
+Cur.getNormal( Xobj x , int p );1;0;5
+CurLoadContext.startDTD( String name , String publicId , String systemId );1;0;5
+Cur.tempCur( Xobj x , int p );3;5;8
+CurLoadContext.startElement( QName name );1;0;4
+Cur.moveNode( Cur to );5;10;9
+Cur.moveToNoCheck( Xobj x , int p );3;3;10
+Cur.getCharsAsString( int cch , int wsr );1;0;3
+Cur.skipWithAttrs( );3;0;11
+Cur.isNode( );1;1;1
+Cur.createElementXobj( Locale l , QName name , QName parentName );12;11;16
+Cur.prefixForNamespace( String ns , String suggestion , boolean createIfMissing );2;0;5
+Cur.next( boolean withAttrs );2;0;3
+Cur.Cur( Locale l );1;3;11
+Cur.removeFollowingAttrs( );5;1;16
+Cur.setValue( String value );1;0;7
+Cur.isJustAfterEnd( Xobj x );1;0;3
+Cur.getUri( );1;0;1
+Cur.getValueAsString( );1;1;5
+Cur.tempCur( );1;0;3
+Cur.isPositioned( );1;1;1
+Cur.isNormal( );6;8;12
+Cur.setValueAsQName( QName qname );3;3;11
+Cur.cchLeft( );1;0;1
+Cur.isAtEndOfLastPush( );1;1;4
+Cur.isEndRoot( );2;3;1
+Cur.createDomDocumentRoot( );1;0;3
+Cur.createComment( );1;0;3
+Cur.setBookmark( Object key , Object value );1;1;5
+Cur.clearSelection( );2;2;5
+CurLoadContext.attr( String local , String uri , String prefix , String value );1;0;3
+Cur.firstBookmarkInChars( Object key , int cch );7;13;14
+Cur.weakCur( Object o );1;0;5
+Cur.getXsiTypeName( );1;0;4
+Cur.toNextSibling( );5;3;17
+Cur.dump( Dom d );1;0;3
+Cur.release( Cur c );2;1;4
+Cur.moveChars( Cur to , int cchMove );13;15;52
+Cur.selectionIndex( int i );6;12;19
+Cur.next( );17;19;60
+Cur.getDenormal( Xobj x , int p );1;0;5
+CurLoadContext.attr( QName name , String value );5;0;24
+CurLoadContext.comment( Object src , int off , int cch );1;0;8
+Cur.createHelper( Xobj x );2;1;10
+Cur.isContainerOrFinish( );6;12;7
+CurLoadContext.text( char [ ] src , int off , int cch );1;0;3
+Cur.getDenormal( );1;0;4
+Cur.getFirstChars( );1;0;7
+CurLoadContext.abort( );2;1;6
+Cur.toAttr( QName name );2;1;8
+Locations.isAtEndOf( int i , Cur c );5;9;8
+Locations.moveTo( int i , Cur c );2;1;6
+Cur.isUserNode( );4;7;1
+CurLoadContext.start( Xobj xo );3;4;14
+Cur.moveNodeContents( Cur to , boolean moveAttrs );2;4;5
+CurLoadContext.bookmark( XmlBookmark bm );1;0;3
+Cur.setSubstitution( QName name , SchemaType type );1;0;3
+Cur.getXmlnsPrefix( );1;0;1
+Cur.isNormalAttr( );2;1;1
+Cur.isContainer( );2;2;1
+Cur.dump( PrintStream o , Node n );1;0;3
+Cur.isInSameTree( Cur that );2;1;4
+Cur.selectionCount( );1;0;3
+Cur.dumpCharNodes( PrintStream o , CharNode nodes , Object ref );4;3;9
+CurLoadContext.checkName( QName name , boolean local );5;6;9
+Cur.dump( PrintStream o , Dom d , Object ref );1;0;2
+Locations.makeRoom( );2;15;35
+Cur.createDomDocumentRootXobj( Locale l );1;0;3
+Cur.createDomDocFragRoot( );1;0;3
+Cur.dump( PrintStream o );2;1;8
+Cur.isTextCData( );1;0;1
+CurLoadContext.comment( char [ ] chars , int off , int cch );2;1;9
+Cur.setAttrValueAsQName( QName name , QName value );3;1;21
+Cur.pop( );2;1;7
+Cur.setId( String id );1;0;3
+Cur.isAtLastPush( );1;1;4
+Cur.isText( );1;1;1
+CurLoadContext.dump( );1;0;3
+Cur.dump( Node n );1;0;3
+Cur.dumpXobj( PrintStream o , Xobj xo , int level , Object ref );16;20;55
+Cur.inChars( Cur c , int cch , boolean includeEnd );3;3;5
+Cur.toNextAttr( );3;2;8
+Cur.createProcinst( String target );1;0;3
+Cur.setName( QName newName );2;2;4
+Cur.cchRight( );1;0;1
+Cur.isXmlns( );2;1;1
+Cur.isProcinst( );2;3;1
+Cur.transferChars( Xobj xFrom , int pFrom , Xobj xTo , int pTo , int cch );5;13;12
+Cur.skip( );5;3;14
+Cur.kind( );3;3;5
+CurLoadContext.finish( );26;22;78
+Cur.toLastAttr( );3;1;8
+Cur.pop( boolean stay );2;0;6
+Cur.getValueAsString( int wsr );1;0;4
+Cur.dump( );1;0;3
+Cur.kindIsFinish( int k );2;5;1
+Cur.setType( SchemaType type );1;0;3
+Cur.getName( );2;1;1
+Cur.createElement( QName name , QName parentName );1;0;3
+CurLoadContext.flushText( );3;0;21
+Cur.listInsert( Cur head );3;4;11
+Cur.getCharsAsString( int cch );2;2;4
+***not in a method***;0;3;0
+Cur.dumpCurs( PrintStream o , Xobj xo , Object ref );4;3;9
+Cur.isDomFragRoot( );2;1;1
+Cur.hasAttrs( );1;0;4
+Cur.moveNodeContents( Xobj x , Cur to , boolean moveAttrs );41;52;145
+Locations.prev( int i );1;0;1
+Cur.moveNode( Xobj x , Cur to );25;38;68
+Cur.removeAttr( QName name );1;0;4
+CurLoadContext.endDTD( );1;0;2
+Cur.getBookmark( Object key );4;5;8
+Cur.createAttr( QName name );1;0;3
+Cur.addToSelection( Cur that );3;4;7
+Cur.isAttr( );2;3;1
+Cur.createRoot( );1;0;3
+Cur.getChars( int cch );1;0;4
+Cur.hasParent( );5;9;7
+Cur.getLocal( );1;0;1
+Cur.getObject( );2;0;3
+Locations.next( int i );1;0;1
+Cur.setType( SchemaType type , boolean complain );12;9;45
+Cur.namespaceForPrefix( String prefix , boolean defaultAlwaysMapped );1;0;3
+Locations.insert( int head , int before , int i , int [ ] next , int [ ] prev );4;5;24
+Cur.dump( PrintStream o , Xobj xo , Object ref );3;2;8
+Locations.Locations( Locale l );2;6;22
+Cur.getParentRaw( );1;0;1
+Cur.comparePosition( Cur that );26;43;45
+Cur.isDomDocRoot( );2;1;1
+CurLoadContext.bookmarkLastNonAttr( XmlBookmark bm );3;4;9
+CurLoadContext.text( Object src , int off , int cch );3;4;25
+Locations.insert( int head , int before , int i );1;0;3
+CurLoadContext.comment( String comment );2;1;5
+Cur.release( );9;15;43
+Cur.toParentRaw( );1;0;1
+Cur.setSubstitution( QName name , SchemaType type , boolean complain );12;9;47
+Cur.updateCharNodes( Locale l , Xobj x , CharNode nodes , int cch );8;14;34
+Cur.isJustAfterEnd( Cur that );4;4;4
+CurLoadContext.bookmarkLastAttr( QName attrName , XmlBookmark bm );4;4;9
+Cur.insertString( String s );2;1;4
+Cur.setCharNodes( CharNode nodes );6;10;13
+Cur.toParent( );1;0;1
+CurLoadContext.text( String s );2;1;5
+Cur.isAtEndOf( Cur that );4;6;4
+Cur.getDom( );4;2;12
+Cur.dump( PrintStream o , Dom d );1;0;3
+Cur.copyNode( Cur to );2;1;9
+Cur.toFirstChild( );4;2;13
+Cur.insertChars( Object src , int off , int cch );4;6;15
+Cur.prev( );16;22;38
+Cur.moveToSelection( int i );2;3;4
+Cur.inChars( Bookmark b , int cch , boolean includeEnd );3;3;5
+Cur.getParent( boolean raw );8;10;17
+Cur.moveToCur( Cur to );4;4;7
+Cur.isComment( );2;3;1
+Cur.tempCur( String id );1;0;5
+Cur.isRoot( );2;3;1
+Cur.toPrevAttr( );4;2;17
+Cur.toLastChild( );2;1;7
+Cur.moveTo( Xobj x );1;0;3
+Cur.nextWithAttrs( );6;3;17
+CurLoadContext.endElement( );1;0;5
+Cur.kindIsContainer( int k );2;3;1
+Cur.nextChars( int cch );4;5;13
+Cur.toEnd( );1;0;4
+Cur.getParent( );1;0;1
+Cur.addToSelection( );1;1;6
+Cur.removeSelection( int i );5;9;16
+Locations.notifyChange( );4;6;11
+Cur.createDomDocumentRootXobj( Locale l , boolean fragment );4;2;13
+Cur.getParentNoRoot( );6;9;9
+Cur.listRemove( Cur head );5;6;22
+Cur.push( );1;0;5
+Cur.isFinish( );2;2;1
+Cur.moveToDom( Dom d );3;2;5
+Cur.toFirstAttr( );2;1;8
+Cur.isElem( );2;3;1
+Cur.prevWithAttrs( );3;1;8
+CurLoadContext.end( );3;4;11
+CurLoadContext.lineNumber( int line , int column , int offset );1;0;6
+Cur.createElement( QName name );1;0;3
+Locations.remove( int head , int i , int [ ] next , int [ ] prev );4;5;24
+Cur.moveToCharNode( CharNode node );6;10;27
+Cur.dumpChars( PrintStream o , Object src , int off , int cch );9;10;26
+CurLoadContext.parent( );2;0;3
+CurLoadContext.CurLoadContext( Locale l , XmlOptions options );3;2;24
+Cur.getCharNodes( );2;2;18
+Cur.getXmlnsUri( );1;0;1
+Cur.getAttrValue( QName name );2;0;8
+Cur.dumpCur( PrintStream o , String prefix , Cur c , Object ref );3;4;6
+Cur.popButStay( );2;1;4
+Cur.moveTo( Xobj x , int p );15;30;10
+Cur.hasText( );1;0;4
+Cur.toRoot( );3;2;19
+Locations.isSamePos( int i , Cur c );3;4;6

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QuartzEndpoint.setTrigger( Trigger trigger );1;0;3
+QuartzEndpoint.start( );5;2;23
+QuartzEndpoint.setMarshaler( QuartzMarshaler marshaler );1;0;3
+QuartzEndpoint.stop( );3;0;11
+QuartzEndpoint.getJobDetail( );1;0;3
+QuartzEndpoint.setCalendars( Map < String , Calendar > calendars );1;0;3
+QuartzEndpoint.process( MessageExchange exchange );2;1;5
+QuartzEndpoint.getTrigger( );1;0;3
+QuartzEndpoint.onJobExecute( JobExecutionContext context );3;0;15
+QuartzEndpoint.getCalendars( );1;0;3
+QuartzEndpoint.getMarshaler( );1;0;3
+QuartzEndpoint.getLocationURI( );1;0;3
+QuartzEndpoint.validate( );13;13;33
+QuartzEndpoint.setJobDetail( JobDetail job );1;0;3
+QuartzEndpoint.getTriggers( );1;0;3
+QuartzEndpoint.setTriggers( List < Trigger > triggers );1;0;3

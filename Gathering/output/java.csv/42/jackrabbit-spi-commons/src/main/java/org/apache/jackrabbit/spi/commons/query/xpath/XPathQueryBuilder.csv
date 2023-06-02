@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XPathQueryBuilder.createOrderSpec( SimpleNode node , OrderQueryNode queryNode );4;2;18
+XPathQueryBuilder.createExpression( SimpleNode node , NAryQueryNode queryNode );18;1;54
+XPathQueryBuilder.assignValue( SimpleNode node , RelationQueryNode queryNode );6;5;17
+XPathQueryBuilder.decode( Name name );2;0;8
+XPathQueryBuilder.createLocationStep( SimpleNode node , NAryQueryNode parent );4;6;19
+XPathQueryBuilder.createPathQueryNode( SimpleNode node );1;0;5
+XPathQueryBuilder.unescapeQuotes( String literal );3;3;12
+XPathQueryBuilder.visit( SimpleNode node , Object data );57;44;177
+XPathQueryBuilder.toString( QueryRootNode root , NameResolver resolver );1;0;3
+XPathQueryBuilder.XPathQueryBuilder( String statement , NameResolver resolver , QueryNodeFactory factory );6;4;34
+XPathQueryBuilder.createQuery( String statement , NameResolver resolver , QueryNodeFactory factory );1;0;3
+XPathQueryBuilder.isAttributeNameTest( SimpleNode node );2;2;7
+XPathQueryBuilder.visit( PropertyFunctionQueryNode node , Object data );4;3;10
+XPathQueryBuilder.createNodeTest( SimpleNode node , QueryNode queryNode );17;14;45
+XPathQueryBuilder.isAttributeAxis( SimpleNode node );3;3;8
+XPathQueryBuilder.createFunction( SimpleNode node , QueryNode queryNode );67;47;272
+XPathQueryBuilder.getRootNode( );1;0;3
+XPathQueryBuilder.applyRelativePath( RelationQueryNode node );4;3;12

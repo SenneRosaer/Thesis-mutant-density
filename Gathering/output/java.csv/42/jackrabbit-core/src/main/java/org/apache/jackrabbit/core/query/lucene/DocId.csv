@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PlainDocId.getDocumentNumber( MultiIndexReader reader );1;0;3
+PlainDocId.PlainDocId( int docNumber );1;0;3
+DocId.isValid( BitSet deleted );1;0;3
+UUIDDocId.toString( );1;0;3
+DocId.create( String uuid );1;0;3
+UUIDDocId.applyOffset( int offset );1;0;3
+PlainDocId.isValid( BitSet deleted );1;1;3
+UUIDDocId.isValid( BitSet deleted );1;0;3
+DocId.create( UUID uuid );1;0;3
+DocId.create( int docNumber );1;0;3
+PlainDocId.applyOffset( int offset );1;1;3
+DocId.getDocumentNumber( MultiIndexReader reader );1;1;3
+UUIDDocId.UUIDDocId( UUID uuid );1;0;4
+DocId.applyOffset( int offset );1;0;3
+UUIDDocId.getDocumentNumber( MultiIndexReader reader );4;5;15
+PlainDocId.toString( );1;0;3

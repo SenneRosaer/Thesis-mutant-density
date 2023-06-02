@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+addSourceFile( JavaFile javaFile );1;1;4
+addFile( Kind kind , String path , ThrowingConsumer < Appendable > content );1;0;4
+addResourceFile( String path , CharSequence content );1;0;3
+addFile( Kind kind , String path , CharSequence content );1;0;3
+addSourceFile( String className , ThrowingConsumer < Appendable > content );1;0;3
+addClassFile( String path , InputStreamSource content );1;0;3
+addResourceFile( String path , InputStreamSource content );1;0;3
+getClassNamePath( String className );1;0;5
+addResourceFile( String path , ThrowingConsumer < Appendable > content );1;0;3
+isJavaIdentifier( String className );7;10;12
+addSourceFile( String className , InputStreamSource content );1;0;3
+addSourceFile( String className , CharSequence content );1;0;3

@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractWebSocketSession.getLogPrefix( );1;0;3
+AbstractWebSocketSession.getDelegate( );1;0;3
+AbstractWebSocketSession.AbstractWebSocketSession( T delegate , String id , HandshakeInfo info , DataBufferFactory bufferFactory );3;5;17
+AbstractWebSocketSession.pingMessage( Function < DataBufferFactory , DataBuffer > payloadFactory );1;0;4
+AbstractWebSocketSession.binaryMessage( Function < DataBufferFactory , DataBuffer > payloadFactory );1;0;4
+AbstractWebSocketSession.pongMessage( Function < DataBufferFactory , DataBuffer > payloadFactory );1;0;4
+AbstractWebSocketSession.textMessage( String payload );1;0;5
+AbstractWebSocketSession.getAttributes( );1;0;3
+AbstractWebSocketSession.getId( );1;0;3
+AbstractWebSocketSession.toString( );1;2;3
+AbstractWebSocketSession.getHandshakeInfo( );1;0;3
+AbstractWebSocketSession.bufferFactory( );1;0;3
+AbstractWebSocketSession.initLogPrefix( HandshakeInfo info , String id );2;1;3

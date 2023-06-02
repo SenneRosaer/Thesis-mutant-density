@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StubbingWithDelegateTest.calling_missing_method_should_throw_exception( );2;0;9
+StubbingWithDelegateTest.calling_method_with_wrong_reference_return_should_throw_exception( );2;0;11
+FakeList.get( int i );1;0;3
+StubbingWithDelegateTest.bar( );1;0;3
+StubbingWithDelegateTest.exception_should_be_propagated_from_delegate( );2;0;19
+StubbingWithDelegateTest.delegate_should_not_be_called_when_stubbed2( );1;0;9
+StubbingWithDelegateTest.when_stubbed_the_delegate_should_not_be_called( );1;0;9
+StubbingWithDelegateTest.method_with_subtype_return_can_be_called( );1;0;5
+StubbingWithDelegateTest.calling_method_with_wrong_primitive_return_should_throw_exception( );2;0;11
+StubbingWithDelegateTest.instance_of_different_class_can_be_called( );1;0;5
+FakeList.size( );1;0;3
+FakeListWithWrongMethods.subList( int fromIndex , int toIndex );1;0;3
+FakeList.subList( int fromIndex , int toIndex );1;0;3
+FakeList.set( int i , T value );1;0;4
+StubbingWithDelegateTest.when_not_stubbed_delegate_should_be_called( );1;0;7
+StubbingWithDelegateTest.simpleMethod( );1;0;3
+StubbingWithDelegateTest.should_call_anonymous_class_method( );1;0;11
+FakeListWithWrongMethods.size( );1;0;3
+StubbingWithDelegateTest.null_wrapper_dont_throw_exception_from_org_mockito_package( );1;0;4

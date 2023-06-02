@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ListenableFutureTask.ListenableFutureTask( Runnable runnable , @ Nullable T result );1;0;3
+ListenableFutureTask.completable( );1;0;6
+ListenableFutureTask.done( );5;1;22
+ListenableFutureTask.ListenableFutureTask( Callable < T > callable );1;0;3
+ListenableFutureTask.addCallback( ListenableFutureCallback < ? super T > callback );1;0;3
+ListenableFutureTask.addCallback( SuccessCallback < ? super T > successCallback , FailureCallback failureCallback );1;0;4

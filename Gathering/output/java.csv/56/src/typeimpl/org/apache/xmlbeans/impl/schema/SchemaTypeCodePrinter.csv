@@ -1,0 +1,78 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SchemaTypeCodePrinter.javaStringEscape( String str );11;4;40
+SchemaTypeCodePrinter.getFullJavaName( SchemaType sType );2;0;10
+SchemaTypeCodePrinter.getExtensionInterfaces( SchemaType sType );4;4;10
+SchemaTypeCodePrinter.shortIndexClassForSystem( SchemaTypeSystem system );1;0;3
+SchemaTypeCodePrinter.printSetterImpls( QName qName , boolean isAttr , String propertyName , int javaType , String type , String xtype , boolean nillable , boolean optional , boolean several , boolean singleton , boolean isunion , String identifier , String setIdentifier , SchemaType sType );40;25;258
+SchemaTypeCodePrinter.startInterface( SchemaType sType );1;0;8
+SchemaTypeCodePrinter.printLoader( Writer writer , SchemaTypeSystem system , XmlOptions opt );1;0;3
+SchemaTypeCodePrinter.javaTypeForProperty( SchemaProperty sProp );23;3;58
+SchemaTypeCodePrinter.findBaseType( SchemaType sType );2;1;5
+SchemaTypeCodePrinter.printGetterImpls( String parentJavaName , SchemaProperty prop , QName qName , boolean isAttr , String propertyName , int javaType , String type , String xtype , boolean nillable , boolean optional , boolean several , boolean singleton , boolean isunion , String identifier , String setIdentifier );29;18;168
+SchemaTypeCodePrinter.emitPre( SchemaType sType , int opType , String identifier , boolean isAttr , String index );4;2;14
+SchemaTypeCodePrinter.getImpl( SchemaType sType );2;0;6
+SchemaTypeCodePrinter.getDerivedProperties( SchemaType sType );8;9;22
+SchemaTypeCodePrinter.printInnerTypeImpl( SchemaType sType , SchemaTypeSystem system , boolean isInner );13;19;86
+SchemaTypeCodePrinter.printInterfaceMethodImpl( String handler , InterfaceExtension . MethodSignature method );3;3;11
+SchemaTypeCodePrinter.printTypeImpl( Writer writer , SchemaType sType );1;0;6
+SchemaTypeCodePrinter.printShortJavaDoc( String sentence );1;0;3
+SchemaTypeCodePrinter.indexClassForSystem( SchemaTypeSystem system );1;1;4
+SchemaTypeCodePrinter.encodeString( String s );7;7;37
+SchemaTypeCodePrinter.printStaticFields( SchemaProperty [ ] properties );5;11;40
+SchemaTypeCodePrinter.printTopComment( SchemaType sType );4;2;31
+SchemaTypeCodePrinter.emitGetTarget( String setIdentifier , String identifier , boolean isAttr , String index , int nullBehaviour , String xtype );7;4;26
+SchemaTypeCodePrinter.emitDeclareTarget( boolean declareTarget , String xtype );2;0;4
+SchemaTypeCodePrinter.getTypeName( Class c , StringBuffer sb );3;3;10
+SchemaTypeCodePrinter.makeSafe( String s );10;6;38
+SchemaTypeCodePrinter.xmlTypeForProperty( SchemaProperty sProp );1;0;4
+SchemaTypeCodePrinter.emitPost( SchemaType sType , int opType , String identifier , boolean isAttr , String index );5;6;15
+SchemaTypeCodePrinter.emitImplementationPreamble( );1;0;6
+SchemaTypeCodePrinter.indent( );1;1;3
+SchemaTypeCodePrinter.printInnerType( SchemaType sType , SchemaTypeSystem system );7;7;51
+SchemaTypeCodePrinter.getPrinter( XmlOptions opt );3;3;9
+SchemaTypeCodePrinter.emitPost( SchemaType sType , int opType , String identifier , boolean isAttr );1;0;3
+SchemaTypeCodePrinter.getSetIdentifier( Map qNameMap , QName qName );2;1;4
+SchemaTypeCodePrinter.printTypeImpl( Writer writer , SchemaType sType , XmlOptions opt );1;0;3
+SchemaTypeCodePrinter.printStringEnumeration( SchemaType sType );12;11;107
+SchemaTypeCodePrinter.printJavaDoc( String sentence );1;0;6
+SchemaTypeCodePrinter.getAtomicRestrictionType( SchemaType sType );28;0;59
+***not in a method***;0;1;0
+SchemaTypeCodePrinter.getBaseClass( SchemaType sType );6;2;19
+SchemaTypeCodePrinter.printLoader( Writer writer , SchemaTypeSystem system );1;0;2
+SchemaTypeCodePrinter.outdent( );1;1;3
+SchemaTypeCodePrinter.printInterfaceMethodDecl( InterfaceExtension . MethodSignature method );5;7;17
+SchemaTypeCodePrinter.printPropertySetters( QName qName , boolean isAttr , String propertyName , int javaType , String type , String xtype , boolean nillable , boolean optional , boolean several , boolean singleton );17;13;65
+SchemaTypeCodePrinter.printConstructor( SchemaType sType , String shortName );3;3;18
+SchemaTypeCodePrinter.findJavaType( SchemaType sType );2;1;5
+SchemaTypeCodePrinter.printJGetValue( int javaType , String type );21;0;45
+SchemaTypeCodePrinter.getIdentifier( Map qNameMap , QName qName );1;0;3
+SchemaTypeCodePrinter.prePostOpString( int opType );4;0;13
+SchemaTypeCodePrinter.printStaticTypeDeclaration( SchemaType sType , SchemaTypeSystem system );1;0;10
+SchemaTypeCodePrinter.prettyQName( QName qname );2;2;6
+SchemaTypeCodePrinter.printNestedTypeImpls( SchemaType sType , SchemaTypeSystem system );8;10;19
+SchemaTypeCodePrinter.hasBase( SchemaType sType );4;5;14
+SchemaTypeCodePrinter.makeAttributeDefaultValue( String jtargetType , SchemaProperty prop , String identifier );2;1;6
+SchemaTypeCodePrinter.printPropertyGetters( QName qName , boolean isAttr , String propertyName , int javaType , String type , String xtype , boolean nillable , boolean optional , boolean several , boolean singleton );18;13;77
+SchemaTypeCodePrinter.xmlTypeForPropertyIsUnion( SchemaProperty sProp );2;2;4
+SchemaTypeCodePrinter.emit( String s );4;6;17
+SchemaTypeCodePrinter.printInnerTypeJavaDoc( SchemaType sType );13;5;41
+SchemaTypeCodePrinter.printType( Writer writer , SchemaType sType , XmlOptions opt );1;0;3
+SchemaTypeCodePrinter.printFactory( SchemaType sType );8;4;97
+SchemaTypeCodePrinter.printJGetArrayValue( int javaType , String type );21;2;105
+SchemaTypeCodePrinter.emitPre( SchemaType sType , int opType , String identifier , boolean isAttr );1;0;3
+SchemaTypeCodePrinter.printPackage( SchemaType sType , boolean intf );3;1;12
+SchemaTypeCodePrinter.SchemaTypeCodePrinter( XmlOptions opt );4;3;9
+SchemaTypeCodePrinter.startClass( SchemaType sType , boolean isInner );4;3;15
+SchemaTypeCodePrinter.isJavaPrimitive( int javaType );3;2;4
+SchemaTypeCodePrinter.printNestedInnerTypes( SchemaType sType , SchemaTypeSystem system );8;10;19
+SchemaTypeCodePrinter.emitImplementationPostamble( );1;0;4
+SchemaTypeCodePrinter.printListGetter15Impl( String parentJavaName , String propdesc , String propertyName , String wrappedType , String xtype , boolean xmltype , boolean xget );6;10;44
+SchemaTypeCodePrinter.emitAddTarget( String identifier , boolean isAttr , boolean declareTarget , String xtype );2;0;6
+SchemaTypeCodePrinter.startBlock( );1;0;4
+SchemaTypeCodePrinter.makeMissingValue( int javaType );21;0;32
+SchemaTypeCodePrinter.javaWrappedType( int javaType );8;0;22
+SchemaTypeCodePrinter.endBlock( );1;0;4
+SchemaTypeCodePrinter.printType( Writer writer , SchemaType sType );1;0;8
+SchemaTypeCodePrinter.emitSpecializedAccessors( SchemaType sType );14;16;81
+SchemaTypeCodePrinter.printExtensionImplMethods( SchemaType sType );6;7;21
+SchemaTypeCodePrinter.jsetMethod( int javaType );21;0;47

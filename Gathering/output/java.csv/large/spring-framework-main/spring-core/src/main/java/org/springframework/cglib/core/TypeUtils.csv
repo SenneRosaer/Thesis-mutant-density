@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TypeUtils.ICONST( int value );8;2;12
+TypeUtils.DCONST( double value );3;3;9
+TypeUtils.LCONST( long value );3;3;9
+TypeUtils.TypeUtils( );1;0;2
+TypeUtils.isPrimitive( Type type );3;0;9
+TypeUtils.isStatic( int access );1;2;3
+TypeUtils.isBridge( int access );1;2;3
+TypeUtils.isConstructor( MethodInfo method );1;0;3
+TypeUtils.getClassName( Type type );3;0;9
+TypeUtils.parseSignature( String s );2;2;15
+TypeUtils.isArray( Type type );1;1;3
+TypeUtils.add( Type [ ] types , Type extra );3;2;14
+TypeUtils.isSynthetic( int access );1;2;3
+TypeUtils.isPrivate( int access );1;2;3
+TypeUtils.isFinal( int access );1;2;3
+TypeUtils.fromInternalName( String name );1;0;3
+TypeUtils.NEWARRAY( Type type );9;1;22
+TypeUtils.emulateClassGetName( Type type );2;0;7
+TypeUtils.FCONST( float value );4;4;11
+TypeUtils.parseType( String s );1;0;3
+TypeUtils.parseConstructor( String sig );1;0;3
+TypeUtils.isPublic( int access );1;2;3
+TypeUtils.map( String type );5;6;20
+TypeUtils.getPackageName( String className );2;1;4
+TypeUtils.getStackSize( Type [ ] types );2;1;7
+TypeUtils.isAbstract( int access );1;2;3
+TypeUtils.getBoxedType( Type type );9;0;22
+TypeUtils.toInternalNames( Type [ ] types );3;3;10
+TypeUtils.isProtected( int access );1;2;3
+TypeUtils.add( Type [ ] t1 , Type [ ] t2 );1;1;6
+TypeUtils.parseTypes( String s );2;2;8
+TypeUtils.getType( String className );1;0;3
+TypeUtils.upperFirst( String s );3;4;6
+TypeUtils.escapeType( String s );9;2;18
+TypeUtils.isInterface( int access );1;2;3
+TypeUtils.getPackageName( Type type );1;0;3
+TypeUtils.fromInternalNames( String [ ] names );3;3;10
+TypeUtils.getComponentType( Type type );2;1;6
+TypeUtils.parseTypes( String s , int mark , int end );3;2;13
+TypeUtils.getTypes( Class [ ] classes );3;3;10
+TypeUtils.parseConstructor( Type [ ] types );2;0;10
+TypeUtils.getUnboxedType( Type type );9;0;21

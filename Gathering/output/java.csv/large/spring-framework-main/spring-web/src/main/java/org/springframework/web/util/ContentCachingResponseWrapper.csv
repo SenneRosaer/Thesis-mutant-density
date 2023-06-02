@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ContentCachingResponseWrapper.sendError( int sc , String msg );2;0;9
+ResponseServletOutputStream.setWriteListener( WriteListener writeListener );1;0;3
+ContentCachingResponseWrapper.ContentCachingResponseWrapper( HttpServletResponse response );1;0;3
+ContentCachingResponseWrapper.setContentLength( int len );2;1;6
+ContentCachingResponseWrapper.copyBodyToResponse( );1;0;3
+ContentCachingResponseWrapper.getOutputStream( );2;1;6
+ResponsePrintWriter.ResponsePrintWriter( String characterEncoding );1;0;3
+ContentCachingResponseWrapper.flushBuffer( );1;0;2
+ContentCachingResponseWrapper.copyBodyToResponse( boolean complete );8;6;16
+ContentCachingResponseWrapper.getWriter( );3;2;8
+ContentCachingResponseWrapper.sendRedirect( String location );1;0;4
+ContentCachingResponseWrapper.getContentInputStream( );1;0;3
+ContentCachingResponseWrapper.reset( );1;0;4
+ContentCachingResponseWrapper.getContentSize( );1;0;3
+ContentCachingResponseWrapper.sendError( int sc );2;0;9
+ContentCachingResponseWrapper.setBufferSize( int size );2;1;5
+ResponseServletOutputStream.write( int b );1;0;3
+ContentCachingResponseWrapper.setContentLengthLong( long len );3;2;11
+ResponsePrintWriter.write( int c );1;0;4
+ResponsePrintWriter.write( char [ ] buf , int off , int len );1;0;4
+ContentCachingResponseWrapper.resetBuffer( );1;0;3
+ResponsePrintWriter.write( String s , int off , int len );1;0;4
+ResponseServletOutputStream.write( byte [ ] b , int off , int len );1;0;3
+ResponseServletOutputStream.ResponseServletOutputStream( ServletOutputStream os );1;0;3
+ContentCachingResponseWrapper.getContentAsByteArray( );1;0;3
+ResponseServletOutputStream.isReady( );1;0;3

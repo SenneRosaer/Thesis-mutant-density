@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlValidationModeDetector.hasOpeningTag( String content );4;7;8
+XmlValidationModeDetector.endComment( String line );1;0;3
+XmlValidationModeDetector.consume( String line );3;2;4
+XmlValidationModeDetector.hasDoctype( String content );1;0;3
+XmlValidationModeDetector.commentToken( String line , String token , boolean inCommentIfPresent );3;5;7
+XmlValidationModeDetector.detectValidationMode( InputStream inputStream );7;2;24
+XmlValidationModeDetector.consumeCommentTokens( String line );6;9;16
+XmlValidationModeDetector.startComment( String line );1;0;3

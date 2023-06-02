@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OldCommandWrapper.getUsage( );1;0;3
+OldCommandWrapper.execute( String line , PrintStream out , PrintStream err );1;0;3
+ShellServiceImpl.executeCommand( String commandLine , PrintStream out , PrintStream err );6;3;37
+OldCommandWrapper.getShortDescription( );1;0;3
+ShellServiceImpl.getCommands( );2;1;6
+Activator.serviceChanged( ServiceEvent event );3;2;13
+OldCommandWrapper.OldCommandWrapper( org . ungoverned . osgi . service . shell . Command oldCommand );1;0;3
+Activator.stop( BundleContext context );1;0;3
+Activator.initializeCommands( );4;3;21
+ShellServiceImpl.getCommandReference( String name );1;0;3
+ExecutePrivileged.ExecutePrivileged( Command command , String commandLine , PrintStream out , PrintStream err );1;0;6
+OldCommandWrapper.getName( );1;0;3
+ShellServiceImpl.clearCommands( );1;0;4
+ShellServiceImpl.getCommandDescription( String name );2;1;4
+ShellServiceImpl.getCommand( String name );2;1;4
+Activator.start( BundleContext context );4;0;92
+ExecutePrivileged.run( );1;0;4
+ShellServiceImpl.getCommandUsage( String name );2;1;4
+ShellServiceImpl.addCommand( ServiceReference ref );2;0;9
+ShellServiceImpl.removeCommand( ServiceReference ref );2;1;7

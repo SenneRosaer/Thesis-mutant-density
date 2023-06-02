@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResponseBodyProcessor.writingComplete( );1;0;3
+ResponseBodyProcessor.isWritePossible( );1;0;3
+ResponseBodyFlushProcessor.isFlushPending( );1;0;3
+ServletServerHttpResponse.getNativeResponse( );1;0;3
+ServletServerHttpResponse.getRawStatusCode( );2;1;4
+ResponseBodyFlushProcessor.flush( );2;0;6
+ResponseBodyProcessor.ResponseBodyProcessor( );1;0;3
+ResponseBodyProcessor.write( DataBuffer dataBuffer );8;7;26
+ResponseBodyProcessor.discardData( DataBuffer dataBuffer );1;0;3
+ResponseAsyncListener.onStartAsync( AsyncEvent event );1;0;1
+ServletServerHttpResponse.isWritePossible( );1;0;3
+ServletServerHttpResponse.flush( );3;0;16
+ResponseBodyFlushProcessor.ResponseBodyFlushProcessor( );1;0;3
+ServletServerHttpResponse.getAsyncListener( );1;0;3
+ServletServerHttpResponse.ServletServerHttpResponse( HttpHeaders headers , HttpServletResponse response , AsyncContext asyncContext , DataBufferFactory bufferFactory , int bufferSize , ServletServerHttpRequest request );1;1;12
+ServletServerHttpResponse.applyCookies( );3;0;7
+ServletServerHttpResponse.applyHeaders( );2;0;8
+ServletServerHttpResponse.applyStatusCode( );2;1;6
+ServletServerHttpResponse.createBodyFlushProcessor( );1;0;5
+ServletServerHttpResponse.ServletServerHttpResponse( HttpServletResponse response , AsyncContext asyncContext , DataBufferFactory bufferFactory , int bufferSize , ServletServerHttpRequest request );1;0;3
+ResponseAsyncListener.onError( AsyncEvent event );1;0;3
+ResponseBodyFlushProcessor.isWritePossible( );1;0;3
+ServletServerHttpResponse.getStatusCode( );2;1;4
+ResponseBodyFlushProcessor.createWriteProcessor( );1;0;5
+ResponseBodyWriteListener.onWritePossible( );3;2;12
+ServletServerHttpResponse.adaptHeaders( boolean removeAdaptedHeaders );9;9;25
+ServletServerHttpResponse.getOutputStream( );1;0;3
+ResponseBodyWriteListener.onError( Throwable ex );1;0;3
+ResponseBodyProcessor.isDataEmpty( DataBuffer dataBuffer );1;1;3
+ResponseAsyncListener.onTimeout( AsyncEvent event );2;1;5
+ServletServerHttpResponse.writeToOutputStream( DataBuffer dataBuffer );3;4;12
+ResponseAsyncListener.handleError( Throwable ex );3;2;12
+ResponseAsyncListener.onComplete( AsyncEvent event );3;2;12

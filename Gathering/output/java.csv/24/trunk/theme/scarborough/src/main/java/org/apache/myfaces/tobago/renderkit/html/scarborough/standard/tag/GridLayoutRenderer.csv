@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GridLayoutRenderer.isHidden( Object cell );4;5;5
+GridLayoutRenderer.getSpacingSum( UIComponent component , FacesContext facesContext , int count );3;7;13
+GridLayoutRenderer.encodeEnd( FacesContext facesContext , UIComponent component );2;0;7
+GridLayoutRenderer.getFixedHeight( FacesContext facesContext , UIComponent component );1;2;8
+GridLayoutRenderer.getCellSpacing( FacesContext facesContext , UIComponent component );4;1;14
+GridLayoutRenderer.getOverflow( UIComponent cell );6;1;18
+GridLayoutRenderer.getMaxWidth( FacesContext facesContext , List < UIGridLayout . Row > rows , int column , boolean minimum );9;4;30
+GridLayoutRenderer.getComponentExtraHeight( FacesContext facesContext , UIComponent component );1;2;7
+GridLayoutRenderer.layoutBegin( FacesContext facesContext , UIComponent component );3;0;10
+GridLayoutRenderer.prepareRender( FacesContext facesContext , UIComponent component );1;0;5
+GridLayoutRenderer.layoutEnd( FacesContext facesContext , UIComponent component );8;9;29
+GridLayoutRenderer.layoutHeight( Integer innerHeight , UIGridLayout layout , FacesContext facesContext );6;7;28
+GridLayoutRenderer.layoutWidth( Integer innerWidth , UIGridLayout layout , FacesContext facesContext );6;8;34
+GridLayoutRenderer.getHeightSpacingSum( UIGridLayout layout , FacesContext facesContext , int renderedRowCount );1;1;5
+GridLayoutRenderer.encodeChildrenOfComponent( FacesContext facesContext , UIComponent component );26;37;120
+GridLayoutRenderer.columnIsRendered( List < UIGridLayout . Row > rows , int column );7;1;20
+GridLayoutRenderer.getWidthSpacingSum( UIGridLayout component , FacesContext facesContext , int renderedColumnCount );1;1;5
+GridLayoutRenderer.parseFixedSpace( LayoutInfo layoutInfo , UIGridLayout layout , LayoutTokens layoutTokens , boolean width , FacesContext facesContext );8;4;30
+GridLayoutRenderer.getMaxHeight( FacesContext facesContext , UIGridLayout . Row row , boolean minimum );6;2;23
+GridLayoutRenderer.calculateLayoutWidth( FacesContext facesContext , UIComponent component , boolean minimum );14;17;47
+GridLayoutRenderer.getFixedWidth( FacesContext facesContext , UIComponent component );1;1;7
+GridLayoutRenderer.rowIsRendered( UIGridLayout . Row row );4;0;11
+GridLayoutRenderer.setColumnWidths( UIGridLayout layout , LayoutInfo layoutInfo , FacesContext facesContext );7;15;24
+GridLayoutRenderer.getComponentExtraWidth( FacesContext facesContext , UIComponent component );1;2;7
+GridLayoutRenderer.parseFixedWidth( LayoutInfo layoutInfo , UIGridLayout layout , FacesContext facesContext );1;0;3
+GridLayoutRenderer.getBorder( UIComponent component );4;1;15
+GridLayoutRenderer.removePx( String margin );3;3;6
+GridLayoutRenderer.getCellPadding( FacesContext facesContext , UIComponent component , boolean first );2;0;3
+GridLayoutRenderer.prepareDimension( FacesContext facesContext , UIComponent component );1;0;2
+GridLayoutRenderer.layoutMargins( UIGridLayout layout );8;9;31
+GridLayoutRenderer.parseFixedSpace( LayoutInfo layoutInfo , UIGridLayout layout , boolean width , FacesContext facesContext );8;4;31
+GridLayoutRenderer.calculateLayoutHeight( FacesContext facesContext , UIComponent component , boolean minimum );15;18;48
+GridLayoutRenderer.parseFixedHeight( LayoutInfo layoutInfo , UIGridLayout layout , FacesContext facesContext );1;0;3
+GridLayoutRenderer.getMarginAsInt( String margin );4;1;14
+GridLayoutRenderer.setColumnHeights( UIGridLayout layout , LayoutInfo layoutInfo , FacesContext facesContext );12;18;40

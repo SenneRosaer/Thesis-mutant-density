@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultiStatusResponse.MultiStatusResponse( DavResource resource , DavPropertyNameSet propNameSet );1;0;3
+MultiStatusResponse.add( DavProperty property );1;0;5
+MultiStatusResponse.checkType( int type );2;1;5
+MultiStatusResponse.createFromXml( Element responseElement );8;6;34
+MultiStatusResponse.add( DavProperty property , int status );1;0;5
+MultiStatusResponse.MultiStatusResponse( String href , int statusCode );1;0;3
+MultiStatusResponse.getPropContainer( int status , boolean forNames );3;1;16
+MultiStatusResponse.MultiStatusResponse( String href , int statusCode , String responseDescription );1;0;3
+MultiStatusResponse.MultiStatusResponse( DavResource resource , DavPropertyNameSet propNameSet , int propFindType );11;12;31
+MultiStatusResponse.getProperties( int status );4;2;10
+MultiStatusResponse.getPropertyNames( int status );5;3;19
+MultiStatusResponse.add( DavPropertyName propertyName , int status );1;0;5
+MultiStatusResponse.toXml( Document document );5;3;27
+MultiStatusResponse.getStatus( );3;2;14
+MultiStatusResponse.add( DavPropertyName propertyName );1;0;5
+MultiStatusResponse.getHref( );1;0;3
+MultiStatusResponse.MultiStatusResponse( String href , String responseDescription );1;0;3
+MultiStatusResponse.MultiStatusResponse( String href , Status status , String responseDescription );2;1;7
+MultiStatusResponse.getResponseDescription( );1;0;3
+MultiStatusResponse.MultiStatusResponse( String href , String responseDescription , int type );2;1;8
+MultiStatusResponse.isValidHref( String href );2;3;3

@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UnmodifiableHttpParams.getDoubleParameter( String name , double defaultValue );1;0;3
+***not in a method***;0;1;0
+UnmodifiableHttpParams.setIntParameter( String name , int value );1;0;3
+UnmodifiableHttpParams.isParameterSetLocally( String name );1;0;3
+UnmodifiableHttpParams.getBooleanParameter( String name , boolean defaultValue );1;0;3
+UnmodifiableHttpParams.isParameterFalse( String name );1;0;3
+Axis2.translate( Map < String , String > properties );1;0;3
+UnmodifiableHttpParams.getLongParameter( String name , long defaultValue );1;0;3
+UnmodifiableHttpParams.setDoubleParameter( String name , double value );1;0;3
+UnmodifiableHttpParams.setBooleanParameter( String name , boolean value );1;0;3
+Axis2.translate( Map < String , String > properties , Options options );26;4;67
+UnmodifiableHttpParams.getParameter( String name );1;0;3
+Properties.getProxyAndHeaders( Map < String , String > properties );16;6;30
+UnmodifiableHttpParams.setLongParameter( String name , long value );1;0;3
+UnmodifiableHttpParams.getIntParameter( String name , int defaultValue );1;0;3
+HttpClient.translate( Map < String , String > properties );1;0;3
+UnmodifiableHttpParams.setDefaults( HttpParams params );1;0;3
+UnmodifiableHttpParams.getDefaults( );1;0;3
+UnmodifiableHttpParams.UnmodifiableHttpParams( HttpParams p );1;0;3
+UnmodifiableHttpParams.isParameterSet( String name );1;0;3
+UnmodifiableHttpParams.setParameter( String name , Object value );1;0;3
+HttpClient.translate( Map < String , String > properties , HttpParams p );27;4;71
+UnmodifiableHttpParams.isParameterTrue( String name );1;0;3

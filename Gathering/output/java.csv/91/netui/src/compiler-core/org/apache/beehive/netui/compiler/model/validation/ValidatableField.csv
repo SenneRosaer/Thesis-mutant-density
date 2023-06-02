@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ValidatableField.setDisplayName( String displayName );1;0;3
+ValidatableField.getArgElement( XmlModelWriter xw , Element element , int argNum , String forRuleName , boolean create );9;8;26
+ValidatableField.setDisplayNameKey( String displayNameKey );1;0;3
+ValidatableField.ValidatableField( String propertyName , String displayName , String displayNameKey , boolean isValidatorOneOne );1;0;6
+ValidatableField.getRules( );1;0;3
+ValidatableField.getDisplayNameKey( );1;0;3
+ValidatableField.setRuleArg( XmlModelWriter xw , ValidatorRule rule , int argNum , Element element , String altMessageVar );7;6;26
+ValidatableField.setDefaultArg0Element( XmlModelWriter xw , String displayName , boolean displayNameIsResource , Element element );2;2;9
+ValidatableField.hasRule( ValidatorRule rule );3;1;13
+ValidatableField.addRule( ValidatorRule rule );1;1;4
+ValidatableField.writeToElement( XmlModelWriter xw , Element element );13;13;43
+ValidatableField.setRuleMessage( XmlModelWriter xw , ValidatorRule rule , Element element );5;5;20
+ValidatableField.getDisplayName( );1;0;3
+ValidatableField.mergeDependsList( Element element );7;5;27
+ValidatableField.getPropertyName( );1;0;3

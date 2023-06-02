@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TelnetTask.execute( );16;16;40
+AntTelnetClient.sendString( String s , boolean echoString );3;0;12
+TelnetTask.setInitialCR( boolean b );1;0;3
+AntTelnetClient.waitForString( String s );1;0;3
+TelnetTask.setPort( int p );1;0;3
+AntTelnetClient.waitForString( String s , Integer timeout );12;15;36
+TelnetRead.setTimeout( Integer i );1;0;3
+TelnetRead.execute( AntTelnetClient telnet );1;0;3
+TelnetTask.login( AntTelnetClient telnet );2;0;9
+TelnetSubTask.setString( String s );1;1;3
+TelnetTask.setUserid( String u );1;0;3
+TelnetSubTask.execute( AntTelnetClient telnet );1;0;3
+TelnetWrite.execute( AntTelnetClient telnet );1;0;3
+TelnetTask.setPassword( String p );1;0;3
+TelnetWrite.setEcho( boolean b );1;0;3
+TelnetSubTask.addText( String s );1;0;3
+TelnetTask.createWrite( );1;0;5
+TelnetTask.setTimeout( Integer i );1;0;3
+TelnetTask.setServer( String m );1;0;3
+TelnetRead.setDefaultTimeout( Integer defaultTimeout );2;1;5
+TelnetTask.createRead( );1;0;5

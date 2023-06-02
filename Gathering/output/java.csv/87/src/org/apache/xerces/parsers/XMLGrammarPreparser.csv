@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLGrammarPreparser.registerPreparser( String grammarType , XMLGrammarLoader loader );4;1;18
+XMLGrammarPreparser.clearModCounts( );2;0;8
+XMLGrammarLoaderContainer.XMLGrammarLoaderContainer( XMLGrammarLoader loader );1;0;3
+XMLGrammarPreparser.getLocale( );1;0;3
+XMLGrammarPreparser.getFeature( String type , String featureId );1;0;4
+***not in a method***;0;6;0
+XMLGrammarPreparser.setFeature( String featureId , boolean value );4;0;13
+XMLGrammarPreparser.XMLGrammarPreparser( SymbolTable symbolTable );1;0;7
+XMLGrammarPreparser.getErrorHandler( );1;0;3
+XMLGrammarPreparser.getEntityResolver( );1;0;3
+XMLGrammarPreparser.setErrorHandler( XMLErrorHandler errorHandler );1;0;3
+XMLGrammarPreparser.setProperty( String propId , Object value );3;0;10
+XMLGrammarPreparser.getGrammarPool( );1;0;3
+XMLGrammarPreparser.preparseGrammar( String type , XMLInputSource is );5;2;20
+XMLGrammarPreparser.getLoader( String type );2;1;4
+XMLGrammarPreparser.getProperty( String type , String propertyId );1;0;4
+XMLGrammarPreparser.setLocale( Locale locale );1;0;4
+XMLGrammarPreparser.XMLGrammarPreparser( );1;0;3
+XMLGrammarPreparser.setEntityResolver( XMLEntityResolver entityResolver );3;3;8
+XMLGrammarPreparser.setGrammarPool( XMLGrammarPool grammarPool );3;3;8

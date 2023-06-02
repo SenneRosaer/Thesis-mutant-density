@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractWebSocketHandler.handleTransportError( WebSocketSession session , Throwable exception );1;0;2
+AbstractWebSocketHandler.handleTextMessage( WebSocketSession session , TextMessage message );1;0;2
+AbstractWebSocketHandler.supportsPartialMessages( );1;0;3
+AbstractWebSocketHandler.handleBinaryMessage( WebSocketSession session , BinaryMessage message );1;0;2
+AbstractWebSocketHandler.handleMessage( WebSocketSession session , WebSocketMessage < ? > message );4;0;14
+AbstractWebSocketHandler.handlePongMessage( WebSocketSession session , PongMessage message );1;0;2
+AbstractWebSocketHandler.afterConnectionEstablished( WebSocketSession session );1;0;2
+AbstractWebSocketHandler.afterConnectionClosed( WebSocketSession session , CloseStatus status );1;0;2

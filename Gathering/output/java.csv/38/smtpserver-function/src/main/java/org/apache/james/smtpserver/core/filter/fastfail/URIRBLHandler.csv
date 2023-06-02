@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+URIRBLHandler.service( ServiceManager serviceMan );1;0;3
+URIRBLHandler.setUriRblServer( Collection uriRbl );1;0;3
+URIRBLHandler.setDnsServer( DNSService dnsServer );1;0;3
+URIRBLHandler.onMessage( SMTPSession session );1;0;3
+URIRBLHandler.getJunkHandlerData( SMTPSession session );4;3;24
+URIRBLHandler.setGetDetail( boolean getDetail );1;0;3
+URIRBLHandler.setCheckAuthNetworks( boolean checkAuthNetworks );1;0;3
+URIRBLHandler.scanMailForDomains( MimePart part );9;9;24
+URIRBLHandler.check( SMTPSession session );9;3;35
+URIRBLHandler.configure( Configuration arg0 );10;10;36

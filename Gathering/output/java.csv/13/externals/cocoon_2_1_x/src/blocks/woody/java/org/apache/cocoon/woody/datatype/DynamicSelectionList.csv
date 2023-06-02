@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SelectionListHandler.startDocument( );1;0;2
+SelectionListHandler.endDTD( );1;0;2
+SelectionListHandler.ignorableWhitespace( char c [ ] , int start , int len );2;1;6
+SelectionListHandler.startPrefixMapping( String prefix , String uri );2;1;6
+DynamicSelectionList.generateSaxFragment( ContentHandler contentHandler , Locale locale , Source source );1;0;5
+SelectionListHandler.endEntity( String name );2;1;6
+SelectionListHandler.processingInstruction( String target , String data );2;1;6
+SelectionListHandler.startEntity( String name );2;1;6
+SelectionListHandler.startElement( String namespaceURI , String localName , String qName , Attributes attributes );12;12;39
+DynamicSelectionList.generateSaxFragment( ContentHandler contentHandler , Locale locale );5;2;17
+SelectionListHandler.characters( char c [ ] , int start , int len );2;1;6
+DynamicSelectionList.DynamicSelectionList( Datatype datatype , String src , ServiceManager serviceManager );1;0;5
+SelectionListHandler.SelectionListHandler( Locale locale );1;0;3
+SelectionListHandler.skippedEntity( String name );2;1;6
+SelectionListHandler.endCDATA( );2;1;6
+SelectionListHandler.endPrefixMapping( String prefix );2;1;6
+SelectionListHandler.endElement( String namespaceURI , String localName , String qName );9;9;31
+DynamicSelectionList.getDatatype( );1;0;3
+SelectionListHandler.startDTD( String name , String publicId , String systemId );1;0;2
+SelectionListHandler.startCDATA( );2;1;6
+SelectionListHandler.comment( char ch [ ] , int start , int len );2;1;6
+SelectionListHandler.endDocument( );1;0;2

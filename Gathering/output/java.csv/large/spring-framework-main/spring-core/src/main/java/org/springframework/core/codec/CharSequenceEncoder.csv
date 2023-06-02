@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CharSequenceEncoder.allMimeTypes( );1;0;3
+CharSequenceEncoder.encode( Publisher < ? extends CharSequence > inputStream , DataBufferFactory bufferFactory , ResolvableType elementType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );1;0;4
+CharSequenceEncoder.calculateCapacity( CharSequence sequence , Charset charset );1;1;6
+CharSequenceEncoder.getCharset( @ Nullable MimeType mimeType );3;3;8
+CharSequenceEncoder.encodeValue( CharSequence charSequence , DataBufferFactory bufferFactory , ResolvableType valueType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );4;3;25
+CharSequenceEncoder.textPlainOnly( );1;0;3
+CharSequenceEncoder.canEncode( ResolvableType elementType , @ Nullable MimeType mimeType );3;1;4
+CharSequenceEncoder.CharSequenceEncoder( MimeType ... mimeTypes );1;0;3

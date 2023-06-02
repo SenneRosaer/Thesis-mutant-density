@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OutputStreamFunneler.close( );1;0;8
+OutputStreamFunneler.OutputStreamFunneler( OutputStream out , long timeoutMillis );2;1;9
+Funnel.close( );1;0;3
+Funnel.write( int b );1;0;6
+OutputStreamFunneler.release( Funnel funnel );5;4;17
+OutputStreamFunneler.getFunnelInstance( );1;0;8
+Funnel.write( byte [ ] b );1;0;6
+OutputStreamFunneler.setTimeout( long timeoutMillis );1;0;3
+OutputStreamFunneler.dieIfClosed( );2;0;5
+Funnel.Funnel( );1;1;5
+Funnel.flush( );1;0;6
+OutputStreamFunneler.OutputStreamFunneler( OutputStream out );1;0;3
+Funnel.write( byte [ ] b , int off , int len );1;0;6

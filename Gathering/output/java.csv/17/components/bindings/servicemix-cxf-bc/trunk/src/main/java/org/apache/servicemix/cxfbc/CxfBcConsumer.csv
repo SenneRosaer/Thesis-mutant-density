@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CxfBcConsumer.setOutInterceptors( List < Interceptor > interceptors );1;0;3
+CxfBcConsumer.isMtomEnabled( );1;0;3
+CxfBcConsumer.handleMessage( Message message );2;1;5
+CxfBcConsumer.getInInterceptors( );1;0;3
+JbiChainInitiationObserver.setExchangeProperties( Exchange exchange , Message m );1;0;6
+CxfBcConsumer.start( );1;0;4
+CxfBcConsumer.stop( );1;0;4
+JbiChainInitiationObserver.JbiChainInitiationObserver( Endpoint endpoint , Bus bus );1;0;3
+CxfBcConsumer.isSynchronous( );1;0;3
+CxfBcConsumer.isUseJBIWrapper( );1;0;3
+JbiPostInvokerInterceptor.processFaultDetail( Fault fault , Message msg );8;3;30
+CxfBcConsumer.removeEmptyDefaultTns( Element ret );5;4;14
+CxfBcConsumer.activate( );1;0;5
+JbiPostInvokerInterceptor.handleMessage( final Message message );13;11;80
+CxfBcConsumer.getOutInterceptors( );1;0;3
+JbiPostInvokerInterceptor.JbiPostInvokerInterceptor( );1;0;4
+CxfBcConsumer.setInFaultInterceptors( List < Interceptor > interceptors );1;0;3
+JbiInvokerInterceptor.JbiInvokerInterceptor( );1;0;3
+CxfBcConsumer.setOutFaultInterceptors( List < Interceptor > interceptors );1;0;3
+CxfBcConsumer.setTimeout( long timeout );1;0;3
+CxfBcConsumer.getBus( );3;2;11
+CxfBcConsumer.getOutFaultInterceptors( );1;0;3
+CxfBcConsumer.setUseJBIWrapper( boolean useJBIWrapper );1;0;3
+CxfBcConsumer.validate( );13;8;108
+CxfBcConsumer.setWsdl( Resource wsdl );1;0;3
+CxfBcConsumer.setLocationURI( String locationURI );1;0;3
+CxfBcConsumer.deactivate( );3;2;8
+JbiInvokerInterceptor.getInvokee( Message message );2;1;7
+JbiInvokerInterceptor.copyJaxwsProperties( Message inMsg , Message outMsg );1;0;10
+CxfBcConsumer.getBusCfg( );1;0;3
+CxfBcConsumer.toElement( Source src );2;0;10
+JbiInvokerInterceptor.handleMessage( final Message message );16;9;73
+CxfBcConsumer.setBusCfg( String busCfg );1;0;3
+CxfBcConsumer.setInInterceptors( List < Interceptor > interceptors );1;0;3
+CxfBcConsumer.setSynchronous( boolean synchronous );1;0;3
+CxfBcConsumer.isUseSOAPEnvelope( );1;0;3
+CxfBcConsumer.registerListServiceHandler( );3;1;12
+CxfBcConsumer.getTimeout( );1;0;3
+CxfBcConsumer.process( MessageExchange exchange );3;2;15
+CxfBcConsumer.retrieveWSDL( );10;11;38
+CxfBcConsumer.getLocationURI( );1;0;3
+CxfBcConsumer.getInFaultInterceptors( );1;0;3
+CxfBcConsumer.setMtomEnabled( boolean mtomEnabled );1;0;3
+CxfBcConsumer.setUseSOAPEnvelope( boolean useSOAPEnvelope );1;0;3
+CxfBcConsumer.getWsdl( );1;0;3

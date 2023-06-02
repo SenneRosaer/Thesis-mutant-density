@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IvyArtifactReport.writeRetrieveLocation( TransformerHandler saxHandler , String artifactDestPath );1;0;8
+IvyArtifactReport.getTofile( );1;0;3
+IvyArtifactReport.startArtifact( TransformerHandler saxHandler , Artifact artifact );1;0;7
+IvyArtifactReport.doExecute( );7;3;44
+IvyArtifactReport.setPattern( String aPattern );1;0;3
+IvyArtifactReport.getPattern( );1;0;3
+IvyArtifactReport.startModule( TransformerHandler saxHandler , IvyNode dependency );1;0;12
+IvyArtifactReport.writeOriginLocationIfPresent( RepositoryCacheManager cache , TransformerHandler saxHandler , ArtifactDownloadReport artifact );3;1;21
+IvyArtifactReport.generateXml( IvyNode [ ] dependencies , Map moduleRevToArtifactsMap , Map artifactsToCopy );10;5;48
+IvyArtifactReport.writeCacheLocation( RepositoryCacheManager cache , TransformerHandler saxHandler , ArtifactDownloadReport artifact );1;0;7
+IvyArtifactReport.removeLeadingPath( File leading , File path );4;2;11
+IvyArtifactReport.setTofile( File aFile );1;0;3
+IvyArtifactReport.createTransformerHandler( FileOutputStream fileOuputStream );1;0;9

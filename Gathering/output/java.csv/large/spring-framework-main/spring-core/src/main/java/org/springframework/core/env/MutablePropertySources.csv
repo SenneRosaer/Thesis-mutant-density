@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MutablePropertySources.MutablePropertySources( PropertySources propertySources );3;0;6
+MutablePropertySources.addLast( PropertySource < ? > propertySource );1;0;6
+MutablePropertySources.assertLegalRelativeAddition( String relativePropertySourceName , PropertySource < ? > propertySource );2;0;7
+MutablePropertySources.addAfter( String relativePropertySourceName , PropertySource < ? > propertySource );1;1;8
+MutablePropertySources.addAtIndex( int index , PropertySource < ? > propertySource );1;0;4
+MutablePropertySources.removeIfPresent( PropertySource < ? > propertySource );1;0;3
+MutablePropertySources.contains( String name );4;0;8
+MutablePropertySources.stream( );1;0;3
+MutablePropertySources.iterator( );1;0;3
+MutablePropertySources.addBefore( String relativePropertySourceName , PropertySource < ? > propertySource );1;0;8
+MutablePropertySources.toString( );1;0;3
+MutablePropertySources.MutablePropertySources( );1;0;2
+MutablePropertySources.remove( String name );2;2;6
+MutablePropertySources.size( );1;0;3
+MutablePropertySources.spliterator( );1;0;3
+MutablePropertySources.get( String name );4;0;8
+MutablePropertySources.precedenceOf( PropertySource < ? > propertySource );1;0;3
+MutablePropertySources.assertPresentAndGetIndex( String name );2;2;7
+MutablePropertySources.addFirst( PropertySource < ? > propertySource );1;0;6
+MutablePropertySources.replace( String name , PropertySource < ? > propertySource );1;0;6

@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TreeWalkerImpl.setWhatShow( int whatToShow );1;0;3
+TreeWalkerImpl.getPreviousSibling( Node node , Node root );10;9;28
+TreeWalkerImpl.getNextSibling( Node node );1;0;3
+TreeWalkerImpl.nextNode( );6;5;24
+TreeWalkerImpl.getNextSibling( Node node , Node root );10;9;28
+TreeWalkerImpl.getLastChild( Node node );9;9;25
+TreeWalkerImpl.getFirstChild( Node node );9;9;25
+TreeWalkerImpl.acceptNode( Node node );4;9;15
+TreeWalkerImpl.nextSibling( );3;2;8
+TreeWalkerImpl.getRoot( );1;0;3
+TreeWalkerImpl.getPreviousSibling( Node node );1;0;3
+TreeWalkerImpl.parentNode( );3;2;8
+TreeWalkerImpl.previousSibling( );3;2;8
+TreeWalkerImpl.useIsSameNode( Node node );4;3;8
+TreeWalkerImpl.getExpandEntityReferences( );1;0;3
+TreeWalkerImpl.getCurrentNode( );1;0;3
+TreeWalkerImpl.lastChild( );3;2;8
+TreeWalkerImpl.getWhatToShow( );1;0;3
+TreeWalkerImpl.firstChild( );3;2;8
+TreeWalkerImpl.getFilter( );1;0;3
+TreeWalkerImpl.isSameNode( Node m , Node n );2;1;3
+TreeWalkerImpl.TreeWalkerImpl( Node root , int whatToShow , NodeFilter nodeFilter , boolean entityReferenceExpansion );1;0;8
+TreeWalkerImpl.setCurrentNode( Node node );2;1;7
+TreeWalkerImpl.getParentNode( Node node );5;4;12
+TreeWalkerImpl.previousNode( );7;6;29

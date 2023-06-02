@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractTestInterceptor.getCounter( );1;0;3
+ExecutorSubscribableChannelTests.unsubscribeTwice( );1;0;7
+ExecutorSubscribableChannelTests.sendWithExecutor( );1;0;14
+BeforeHandleInterceptor.setMessageToReturn( Message < ? > messageToReturn );1;0;3
+AbstractTestInterceptor.afterMessageHandled( Message < ? > message , MessageChannel channel , MessageHandler handler , Exception ex );1;0;3
+BeforeHandleInterceptor.setExceptionToRaise( RuntimeException exception );1;0;3
+ExecutorSubscribableChannelTests.concurrentModification( );1;0;6
+ExecutorSubscribableChannelTests.sendWithoutExecutor( );1;0;9
+ExecutorSubscribableChannelTests.messageMustNotBeNull( );1;0;5
+NullReturningBeforeHandleInterceptor.beforeHandle( Message < ? > message , MessageChannel channel , MessageHandler handler );1;0;4
+BeforeHandleInterceptor.beforeHandle( Message < ? > message , MessageChannel channel , MessageHandler handler );3;2;7
+ExecutorSubscribableChannelTests.interceptorWithException( );2;0;16
+AbstractTestInterceptor.beforeHandle( Message < ? > message , MessageChannel channel , MessageHandler handler );1;0;5
+ExecutorSubscribableChannelTests.interceptorWithNull( );1;0;12
+ExecutorSubscribableChannelTests.interceptorWithModifiedMessage( );2;0;11
+ExecutorSubscribableChannelTests.failurePropagates( );2;0;14
+ExecutorSubscribableChannelTests.subscribeTwice( );1;0;6
+AbstractTestInterceptor.wasAfterHandledInvoked( );1;0;3

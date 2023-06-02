@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Encoder.encodeAsString( Packet obj );9;10;21
+Decoder.add( byte [ ] obj );4;3;13
+Encoder.encode( Packet obj , Callback callback );8;8;14
+BinaryReconstructor.finishReconstruction( );1;0;4
+BinaryReconstructor.takeBinaryData( byte [ ] binData );2;1;10
+Decoder.decodeString( String str );23;36;68
+Encoder.encodeAsBinary( Packet obj , Callback callback );1;0;7
+IOParser.IOParser( );1;0;1
+BinaryReconstructor.BinaryReconstructor( Packet packet );1;0;4
+Decoder.destroy( );2;1;6
+Decoder.isPayloadValid( int type , Object payload );10;5;19
+Encoder.Encoder( );1;0;1
+Decoder.add( String obj );6;6;15
+Decoder.Decoder( );1;0;3
+Decoder.onDecoded( Callback callback );1;0;3

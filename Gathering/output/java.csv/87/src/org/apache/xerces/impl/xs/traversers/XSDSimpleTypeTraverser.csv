@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSDSimpleTypeTraverser.errorType( String name , String namespace , short refType );4;0;14
+XSDSimpleTypeTraverser.genAnonTypeName( Element simpleTypeDecl );3;3;9
+XSDSimpleTypeTraverser.traverseLocal( Element elmNode , XSDocumentInfo schemaDoc , SchemaGrammar grammar );2;0;10
+XSDSimpleTypeTraverser.getSimpleType( String name , Element simpleTypeDecl , Object [ ] attrValues , XSDocumentInfo schemaDoc , SchemaGrammar grammar );72;61;201
+XSDSimpleTypeTraverser.isListDatatype( XSSimpleType validator );5;5;13
+XSDSimpleTypeTraverser.traverseSimpleTypeDecl( Element simpleTypeDecl , Object [ ] attrValues , XSDocumentInfo schemaDoc , SchemaGrammar grammar );1;0;4
+XSDSimpleTypeTraverser.traverseGlobal( Element elmNode , XSDocumentInfo schemaDoc , SchemaGrammar grammar );3;2;14
+XSDSimpleTypeTraverser.XSDSimpleTypeTraverser( XSDHandler handler , XSAttributeChecker gAttrCheck );2;0;6
+XSDSimpleTypeTraverser.checkBuiltIn( String name , String namespace );3;2;7
+XSDSimpleTypeTraverser.findDTValidator( Element elm , String refName , QName baseTypeStr , short baseRefContext , XSDocumentInfo schemaDoc );12;14;29

@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultWebTestClientBuilder.build( );7;5;25
+DefaultWebTestClientBuilder.baseUrl( String baseUrl );1;0;4
+DefaultWebTestClientBuilder.DefaultWebTestClientBuilder( WebHttpHandlerBuilder httpHandlerBuilder );1;0;3
+DefaultWebTestClientBuilder.uriBuilderFactory( UriBuilderFactory uriBuilderFactory );1;0;4
+DefaultWebTestClientBuilder.initUriBuilderFactory( );3;2;7
+DefaultWebTestClientBuilder.DefaultWebTestClientBuilder( ClientHttpConnector connector );1;0;3
+DefaultWebTestClientBuilder.defaultHeader( String header , String ... values );1;0;4
+DefaultWebTestClientBuilder.apply( WebTestClientConfigurer configurer );1;0;4
+DefaultWebTestClientBuilder.initCookies( );2;1;6
+DefaultWebTestClientBuilder.DefaultWebTestClientBuilder( DefaultWebTestClientBuilder other );6;5;21
+DefaultWebTestClientBuilder.filter( ExchangeFilterFunction filter );1;0;5
+DefaultWebTestClientBuilder.exchangeStrategies( ExchangeStrategies strategies );1;0;4
+DefaultWebTestClientBuilder.defaultCookie( String cookie , String ... values );1;0;4
+DefaultWebTestClientBuilder.responseTimeout( Duration timeout );1;0;4
+DefaultWebTestClientBuilder.initHeaders( );2;1;6
+DefaultWebTestClientBuilder.filters( Consumer < List < ExchangeFilterFunction > > filtersConsumer );1;0;4
+***not in a method***;0;1;0
+DefaultWebTestClientBuilder.initFilters( );2;1;6
+DefaultWebTestClientBuilder.DefaultWebTestClientBuilder( );1;0;3
+DefaultWebTestClientBuilder.DefaultWebTestClientBuilder( @ Nullable WebHttpHandlerBuilder httpHandlerBuilder , @ Nullable ClientHttpConnector connector );3;4;8
+DefaultWebTestClientBuilder.initExchangeStrategies( );4;2;9
+DefaultWebTestClientBuilder.initConnector( );5;0;17
+DefaultWebTestClientBuilder.defaultCookies( Consumer < MultiValueMap < String , String > > cookiesConsumer );1;0;4
+DefaultWebTestClientBuilder.entityExchangeResultConsumer( Consumer < EntityExchangeResult < ? > > entityResultConsumer );1;0;5
+DefaultWebTestClientBuilder.defaultHeaders( Consumer < HttpHeaders > headersConsumer );1;0;4
+DefaultWebTestClientBuilder.exchangeStrategies( Consumer < ExchangeStrategies . Builder > configurer );2;1;7
+DefaultWebTestClientBuilder.codecs( Consumer < ClientCodecConfigurer > configurer );2;1;7

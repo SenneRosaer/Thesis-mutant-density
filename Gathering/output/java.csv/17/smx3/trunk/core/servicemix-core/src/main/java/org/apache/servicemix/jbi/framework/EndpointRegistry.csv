@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EndpointRegistry.registerExternalEndpoint( ComponentNameSpace cns , ServiceEndpoint externalEndpoint );2;1;10
+EndpointRegistry.registerEndpointConnection( QName fromSvc , String fromEp , QName toSvc , String toEp , String link );2;1;10
+EndpointRegistry.getEndpointsByService( QName serviceName , Collection < ServiceEndpoint > endpoints );3;0;10
+EndpointRegistry.registerInternalEndpoint( ComponentContextImpl provider , QName serviceName , String endpointName );7;6;26
+EndpointRegistry.getEndpointsByInterface( QName interfaceName , Collection < ServiceEndpoint > endpoints );7;6;20
+EndpointRegistry.getExternalEndpointsForService( QName serviceName );1;0;4
+EndpointRegistry.run( );1;2;3
+InterfaceConnection.InterfaceConnection( QName service , String endpoint );1;0;4
+EndpointRegistry.unregisterRemoteEndpoint( InternalEndpoint remote );4;4;12
+EndpointRegistry.getKey( QName svcName , String epName );1;1;3
+EndpointRegistry.getEndpointsForInterface( QName interfaceName );4;3;19
+EndpointRegistry.unregisterInterfaceConnection( QName fromItf );1;0;3
+EndpointRegistry.getInternalEndpoints( );1;0;3
+EndpointRegistry.unregisterInternalEndpoint( ComponentContext provider , InternalEndpoint serviceEndpoint );2;0;11
+EndpointRegistry.getAllEndpointsForComponent( ComponentNameSpace cns );5;0;16
+EndpointRegistry.getEndpointsForComponent( ComponentNameSpace cns );3;0;10
+EndpointRegistry.registerEndpoint( AbstractServiceEndpoint serviceEndpoint );2;0;10
+EndpointRegistry.getEndpointMBeans( );1;0;3
+EndpointRegistry.getEndpoint( QName service , String name );2;1;8
+EndpointRegistry.unregisterEndpointConnection( QName fromSvc , String fromEp );1;0;5
+EndpointRegistry.asEndpointArray( Collection < ServiceEndpoint > collection );2;1;8
+EndpointRegistry.unregisterExternalEndpoint( ComponentNameSpace cns , ServiceEndpoint externalEndpoint );1;0;5
+EndpointRegistry.getEndpointsForService( QName serviceName );1;0;4
+EndpointRegistry.fireEvent( final ServiceEndpoint ep , final int type );10;0;38
+EndpointRegistry.getEndpointProcessors( );3;2;16
+EndpointRegistry.getExternalEndpoints( );1;0;3
+EndpointRegistry.registerRemoteEndpoint( InternalEndpoint remote );2;1;9
+EndpointRegistry.EndpointRegistry( Registry registry );1;0;14
+EndpointRegistry.unregisterEndpoint( AbstractServiceEndpoint se );2;0;8
+EndpointRegistry.getInternalEndpoint( QName service , String name );1;0;3
+EndpointRegistry.registerInterfaceConnection( QName fromItf , QName toSvc , String toEp );2;1;6
+EndpointRegistry.getExternalEndpointsForInterface( QName interfaceName );1;0;4
+EndpointRegistry.getKey( ServiceEndpoint ep );1;0;3

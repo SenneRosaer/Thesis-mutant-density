@@ -1,0 +1,67 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileUtils.close( InputStream device );3;1;8
+FileUtils.isLeadingPath( File leading , File path );3;2;11
+FileUtils.createNewFile( File f );1;0;3
+FileUtils.toVMSPath( File f );13;21;41
+FileUtils.translatePath( String toProcess );5;5;17
+FileUtils.isAbsolutePath( String filename );14;23;23
+FileUtils.setFileLastModified( File file , long time );1;0;3
+FileUtils.copyFile( File sourceFile , File destFile , FilterSetCollection filters , Vector filterChains , boolean overwrite , boolean preserveLastModified , String inputEncoding , String outputEncoding , Project project );1;0;4
+***not in a method***;0;1;0
+FileUtils.readFully( Reader rdr );1;0;3
+FileUtils.contentEquals( File f1 , File f2 , boolean textfile );1;0;3
+FileUtils.copyFile( String sourceFile , String destFile , FilterSetCollection filters );1;0;3
+FileUtils.copyFile( File sourceFile , File destFile , FilterSetCollection filters , boolean overwrite , boolean preserveLastModified , String encoding );1;0;4
+FileUtils.contentEquals( File f1 , File f2 );1;0;3
+FileUtils.isUpToDate( long sourceTime , long destTime , long granularity );2;5;3
+FileUtils.normalize( final String path );7;4;28
+FileUtils.copyFile( String sourceFile , String destFile , FilterSetCollection filters , Vector filterChains , boolean overwrite , boolean preserveLastModified , String encoding , Project project );1;0;4
+FileUtils.getParentFile( File f );2;1;3
+FileUtils.copyFile( File sourceFile , File destFile , FilterSetCollection filters );1;0;3
+FileUtils.close( Reader device );3;1;8
+FileUtils.removeLeadingPath( File leading , File path );4;2;11
+FileUtils.copyFile( File sourceFile , File destFile , FilterSetCollection filters , Vector filterChains , boolean overwrite , boolean preserveLastModified , String encoding , Project project );1;0;4
+FileUtils.dissect( String path );12;20;32
+FileUtils.copyFile( File sourceFile , File destFile );1;0;3
+FileUtils.copyFile( String sourceFile , String destFile );1;0;3
+FileUtils.delete( File file );2;1;5
+FileUtils.copyFile( String sourceFile , String destFile , FilterSetCollection filters , boolean overwrite );1;0;3
+FileUtils.getFileTimestampGranularity( );4;0;12
+FileUtils.isContextRelativePath( String filename );11;18;13
+FileUtils.createTempFile( String prefix , String suffix , File parentDir , boolean deleteOnExit );1;0;3
+FileUtils.getRelativePath( File fromFile , File toFile );8;11;27
+FileUtils.safeReadFully( Reader reader );2;1;4
+FileUtils.newFileUtils( );1;0;3
+FileUtils.copyFile( File sourceFile , File destFile , FilterSetCollection filters , boolean overwrite );1;0;3
+FileUtils.close( Channel device );3;1;8
+FileUtils.getPathStack( String path );1;0;7
+FileUtils.close( OutputStream device );3;1;8
+FileUtils.getPath( List pathStack );1;0;3
+FileUtils.isUpToDate( File source , File dest );1;0;3
+FileUtils.copyFile( File sourceFile , File destFile , FilterSetCollection filters , boolean overwrite , boolean preserveLastModified );1;0;3
+FileUtils.FileUtils( );1;0;2
+FileUtils.accept( File dir , String name );2;2;3
+FileUtils.readFully( Reader rdr , int bufferSize );6;6;17
+FileUtils.copyFile( File sourceFile , File destFile , FilterSetCollection filters , Vector filterChains , boolean overwrite , boolean preserveLastModified , boolean append , String inputEncoding , String outputEncoding , Project project );1;0;5
+FileUtils.copyFile( String sourceFile , String destFile , FilterSetCollection filters , Vector filterChains , boolean overwrite , boolean preserveLastModified , String inputEncoding , String outputEncoding , Project project );1;0;4
+FileUtils.toURI( String path );1;0;3
+FileUtils.hasErrorInCase( File localFile );4;4;14
+FileUtils.copyFile( String sourceFile , String destFile , FilterSetCollection filters , boolean overwrite , boolean preserveLastModified , String encoding );1;0;4
+FileUtils.resolveFile( File file , String filename );5;5;15
+FileUtils.read( );1;1;3
+FileUtils.copyFile( String sourceFile , String destFile , FilterSetCollection filters , boolean overwrite , boolean preserveLastModified );1;0;4
+FileUtils.createNewFile( File f , boolean mkdirs );3;2;7
+FileUtils.createTempFile( String prefix , String suffix , File parentDir , boolean deleteOnExit , boolean createFile );6;3;26
+FileUtils.fromURI( String uri );3;0;12
+FileUtils.isUpToDate( File source , File dest , long granularity );2;1;8
+FileUtils.close( Writer device );3;1;8
+FileUtils.getFileUtils( );1;0;3
+FileUtils.tryHardToDelete( File f );4;1;13
+FileUtils.isUpToDate( long sourceTime , long destTime );1;0;3
+FileUtils.isSymbolicLink( File parent , String name );2;1;7
+FileUtils.getFileURL( File file );1;0;3
+FileUtils.getDefaultEncoding( );1;0;13
+FileUtils.getPath( final List pathStack , final char separatorChar );3;0;12
+FileUtils.createTempFile( String prefix , String suffix , File parentDir );1;0;3
+FileUtils.rename( File from , File to );11;11;27
+FileUtils.fileNameEquals( File f1 , File f2 );1;0;4

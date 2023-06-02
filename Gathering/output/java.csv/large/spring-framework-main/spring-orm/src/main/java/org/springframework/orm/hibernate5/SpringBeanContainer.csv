@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpringBeanContainer.getBean( String name , Class < B > beanType , LifecycleOptions lifecycleOptions , BeanInstanceProducer fallbackProducer );4;1;14
+SpringContainedBean.destroyIfNecessary( );2;1;5
+SpringBeanContainer.getBean( Class < B > beanType , LifecycleOptions lifecycleOptions , BeanInstanceProducer fallbackProducer );4;1;14
+SpringBeanContainer.stop( );1;0;4
+SpringBeanContainer.createBean( String name , Class < ? > beanType , LifecycleOptions lifecycleOptions , BeanInstanceProducer fallbackProducer );7;0;34
+SpringContainedBean.getBeanInstance( );1;0;3
+SpringContainedBean.SpringContainedBean( B beanInstance );1;0;3
+SpringContainedBean.SpringContainedBean( B beanInstance , Consumer < B > destructionCallback );1;0;4
+SpringBeanContainer.SpringBeanContainer( ConfigurableListableBeanFactory beanFactory );1;0;4
+SpringBeanContainer.createBean( Class < ? > beanType , LifecycleOptions lifecycleOptions , BeanInstanceProducer fallbackProducer );7;0;32

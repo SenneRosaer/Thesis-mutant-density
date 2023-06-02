@@ -1,0 +1,55 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProcessAndInstanceManagementImpl.getDebugger( final Long iid );3;0;15
+ProcessAndInstanceManagementImpl.recoverActivity( final Long iid , final Long aid , final String action );6;0;25
+ProcessAndInstanceManagementImpl.getExtensibilityElements( QName pid , Integer [ ] aids );8;4;27
+ProcessAndInstanceManagementImpl.run( BpelDAOConnection session );4;3;19
+ProcessAndInstanceManagementImpl.listInstances( String filter , String order , int limit );3;0;20
+ProcessAndInstanceManagementImpl.setRetired( final QName pid , final boolean retired );3;0;9
+ProcessAndInstanceManagementImpl.getInstanceInfo( Long iid );1;0;3
+ProcessAndInstanceManagementImpl.isMember( ProcessConf o );6;5;13
+ProcessAndInstanceManagementImpl.dbexec( BpelDatabase . Callable < T > callable );3;0;10
+ProcessAndInstanceManagementImpl.getScopeInfoWithActivity( String siid , boolean includeActivityInfo );1;0;3
+ProcessAndInstanceManagementImpl.listAllProcesses( );1;0;3
+ProcessAndInstanceManagementImpl.dbexec( BpelProcessDatabase . Callable < T > runnable );3;0;10
+ProcessAndInstanceManagementImpl.fillVariableRef( TVariableRef ref , XmlDataDAO i );1;0;5
+ProcessAndInstanceManagementImpl.fillProcessInfo( TProcessInfo info , ProcessConf pconf , ProcessInfoCustomizer custom );14;7;58
+ProcessAndInstanceManagementImpl.toCalendar( Date dtime );2;1;7
+ProcessAndInstanceManagementImpl.listEvents( String instanceFilter , String eventFilter , int maxCount );2;0;17
+ProcessAndInstanceManagementImpl.suspend( final Long iid );1;1;6
+ProcessAndInstanceManagementImpl.getScopeInfo( String siid );1;0;3
+ProcessAndInstanceManagementImpl.listAllInstancesWithLimit( int limit );1;0;3
+ProcessAndInstanceManagementImpl.setProcessProperty( final QName pid , final QName propertyName , final String value );5;1;21
+ProcessAndInstanceManagementImpl.delete( String filter );3;0;20
+ProcessAndInstanceManagementImpl.listProcesses( String filter , String orderKeys );1;0;3
+ProcessAndInstanceManagementImpl.activate( QName pid );2;0;9
+ProcessAndInstanceManagementImpl.run( BpelDAOConnection conn );2;11;7
+ProcessAndInstanceManagementImpl.getProcessInfoCustom( QName pid , ProcessInfoCustomizer custom );1;0;3
+ProcessAndInstanceManagementImpl.terminate( final Long iid );1;1;6
+ProcessAndInstanceManagementImpl.ProcessAndInstanceManagementImpl( BpelServer server , ProcessStore store );1;0;5
+ProcessAndInstanceManagementImpl.processQuery( ProcessFilter filter );27;11;104
+ProcessAndInstanceManagementImpl.compare( ProcessConf o1 , ProcessConf o2 );1;3;3
+ProcessAndInstanceManagementImpl.fillScopeRef( TScopeRef tref , ScopeDAO scope );1;0;6
+ProcessAndInstanceManagementImpl.isMember( QName o );1;3;3
+ProcessAndInstanceManagementImpl.fillEventInfo( TEventInfo info , BpelEvent event );23;3;83
+ProcessAndInstanceManagementImpl.genInstanceSummaryEntry( TInstanceSummary . Instances instances , TInstanceStatus . Enum state , ProcessConf pconf );1;0;12
+ProcessAndInstanceManagementImpl.getDebugger( QName procid );2;1;6
+ProcessAndInstanceManagementImpl.genProcessInfoDocument( final QName procid , final ProcessInfoCustomizer custom );5;2;19
+ProcessAndInstanceManagementImpl.resume( final Long iid );1;0;4
+ProcessAndInstanceManagementImpl.getProcessInfo( QName pid );1;0;3
+ProcessAndInstanceManagementImpl.fillScopeInfo( TScopeInfo scopeInfo , ScopeDAO scope , boolean includeActivityInfo );17;7;63
+ProcessAndInstanceManagementImpl.genDocumentInfo( TProcessInfo . Documents docinfo , File f );3;1;9
+ProcessAndInstanceManagementImpl.getInstanceSummaryActivityFailure( final TInstanceSummary summary , ProcessConf pconf );6;0;27
+ProcessAndInstanceManagementImpl.getVariableInfo( final String scopeId , final String varName );4;0;27
+ProcessAndInstanceManagementImpl.genInstanceInfoDocument( final Long iid );3;1;17
+ProcessAndInstanceManagementImpl.fillInstanceInfo( TInstanceInfo info , ProcessInstanceDAO instance );8;5;41
+ProcessAndInstanceManagementImpl.listAllInstances( );1;0;3
+ProcessAndInstanceManagementImpl.getEventTimeline( String instanceFilter , String eventFilter );1;0;16
+ProcessAndInstanceManagementImpl.apply( Date x );1;0;3
+ProcessAndInstanceManagementImpl.genScopeRef( ScopeDAO scope );1;0;5
+ProcessAndInstanceManagementImpl.setPackageRetired( final String packageName , final boolean retired );2;0;8
+ProcessAndInstanceManagementImpl.setProcessPropertyNode( final QName pid , final QName propertyName , final Node value );5;1;21
+ProcessAndInstanceManagementImpl.listProcessesCustom( String filter , String orderKeys , final ProcessInfoCustomizer custom );3;0;13
+ProcessAndInstanceManagementImpl.genScopeInfoDocument( final String siid , final boolean includeActivityInfo );5;1;27
+ProcessAndInstanceManagementImpl.fault( Long iid , QName faultname , Element faultData );1;0;3
+ProcessAndInstanceManagementImpl.genDocumentInfo( TProcessInfo . Documents docinfo , File [ ] files , boolean recurse );7;1;14
+ProcessAndInstanceManagementImpl.queryInstances( final String query );3;0;19

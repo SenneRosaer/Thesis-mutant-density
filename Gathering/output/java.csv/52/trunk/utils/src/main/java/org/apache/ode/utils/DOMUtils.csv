@@ -1,0 +1,53 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMUtils.toDOMDocument( Node node );4;1;16
+DOMUtils.getTransformer( );3;1;16
+DOMUtils.getAttributeNS( Element el , String namespaceURI , String localPart );2;1;8
+DOMUtils.parse( InputStream inputStream );1;0;3
+DOMUtils.injectNamespaces( Element domElement , NSContext nscontext );4;2;9
+DOMUtils.getNamespaceURIFromPrefix( Node context , String prefix );7;5;28
+DOMUtils.parse( XMLStreamReader reader );1;0;5
+DOMUtils.findChildrenByName( Element parent , QName name );7;6;17
+DOMUtils.parse( XMLStreamReader reader , Document doc , Node parent );23;13;66
+DOMUtils.getQualifiedName( QName qName );3;3;4
+DOMUtils.initDocumentBuilderFactory( );1;0;5
+DOMUtils.declare( Element node , String uri , String prefix );4;4;9
+DOMUtils.removeAttributes( Element target , boolean flag );6;4;21
+DOMUtils.getTextContent( Node node );4;4;10
+DOMUtils.throwIOException( Throwable t );1;0;5
+DOMUtils.toList( Object nl );4;3;8
+DOMUtils.getParentNamespaces( Element el );8;6;23
+DOMUtils.findChildByName( Element parent , QName name );1;0;3
+DOMUtils.getNextSiblingElement( Element elem );3;2;6
+DOMUtils.findChildByType( Element elem , int type );4;3;10
+DOMUtils.domToStringLevel2( Node node );4;4;23
+DOMUtils.domToString( Node node );6;6;31
+DOMUtils.isNSAttribute( Attr a );2;3;5
+DOMUtils.getFirstChildElement( Element elem );1;0;3
+DOMUtils.findChildElementWithAttribute( Element elem , String attrName , String attrValue );4;2;8
+DOMUtils.getNSPrefixFromNSAttr( Attr a );2;3;8
+DOMUtils.countKids( Element elem , short nodeType );3;3;9
+DOMUtils.getElementContent( Node node );3;3;7
+DOMUtils.getChildCharacterData( Element parentEl );5;2;17
+DOMUtils.isXmlSchemaDocument( Document d );4;4;7
+DOMUtils.toDocumentFromStream( StreamSource source );3;2;19
+DOMUtils.getDocument( Node contextNode );2;1;3
+DOMUtils.getElementQName( Element el );1;0;3
+DOMUtils.isWsdlDocument( Document d );4;4;7
+DOMUtils.getBuilder( );3;1;16
+DOMUtils.sourceToDOM( Source inputSource );11;7;31
+DOMUtils.getQualifiedAttributeValue( Element el , String attrName );5;6;19
+DOMUtils.serialize( Element elmt , OutputStream ostr );3;2;15
+DOMUtils.prettyPrint( Element e );1;0;10
+DOMUtils.copyNSContext( Element source , Element dest );5;2;15
+DOMUtils.isEmptyElement( Element el );7;5;18
+DOMUtils.newDocument( );1;0;4
+DOMUtils.getMyNamespaces( Element el );3;2;12
+DOMUtils.getAttribute( Element el , String attrName );2;1;8
+DOMUtils.getNodeQName( String qualifiedName );2;2;8
+DOMUtils.stringToDOM( String s );1;0;3
+DOMUtils.removeChildren( Node target );2;0;5
+DOMUtils.getElementByID( Element el , String id );6;4;14
+DOMUtils.getMyNSContext( Element el );1;0;6
+DOMUtils.parse( InputSource inputSource );1;0;4
+DOMUtils.pancakeNamespaces( Element el );3;2;14
+DOMUtils.findChildByName( Element parent , QName name , boolean recurse );11;10;27

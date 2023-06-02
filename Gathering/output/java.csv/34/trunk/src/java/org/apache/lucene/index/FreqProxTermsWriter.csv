@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FreqProxTermsWriter.compareText( final char [ ] text1 , int pos1 , final char [ ] text2 , int pos2 );6;8;15
+FreqProxTermsWriter.addThread( TermsHashPerThread perThread );1;0;3
+FreqProxTermsWriter.appendPostings( FreqProxTermsWriterPerField [ ] fields , FormatPostingsFieldsConsumer consumer );20;37;72
+FreqProxTermsWriter.closeDocStore( SegmentWriteState state );1;0;1
+FreqProxTermsWriter.createPostings( RawPostingList [ ] postings , int start , int count );2;3;5
+FreqProxTermsWriter.files( Collection files );1;0;1
+FreqProxTermsWriter.flush( Map threadsAndFields , final SegmentWriteState state );10;14;46
+FreqProxTermsWriter.bytesPerPosting( );1;2;3
+FreqProxTermsWriter.abort( );1;0;1

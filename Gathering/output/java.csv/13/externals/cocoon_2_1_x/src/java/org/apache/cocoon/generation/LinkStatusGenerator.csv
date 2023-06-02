@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LinkStatusGenerator.processURL( URL url , String referrer );8;11;46
+LinkStatusGenerator.configure( Configuration configuration );15;18;56
+Link.getReferrer( );1;0;3
+Link.getURL( );1;0;3
+LinkStatusGenerator.isIncludedURL( String url );7;1;23
+LinkStatusGenerator.recycle( );1;0;4
+LinkStatusGenerator.isExcludedURL( String url );7;1;23
+LinkStatusGenerator.setDefaultExcludeFromCrawling( );3;2;18
+Link.equals( Link l );1;0;3
+LinkStatusGenerator.generate( );7;7;36
+LinkStatusGenerator.setup( SourceResolver resolver , Map objectModel , String src , Parameters par );1;0;4
+Link.Link( URL url , String referrer );1;0;4
+LinkStatusGenerator.getLinksFromConnection( String url_link_string , URL url_of_referrer );15;11;58

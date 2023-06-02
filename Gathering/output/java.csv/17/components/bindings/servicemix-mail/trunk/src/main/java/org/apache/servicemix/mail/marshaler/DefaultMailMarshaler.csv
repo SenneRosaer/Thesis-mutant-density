@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultMailMarshaler.parsePart( MimeBodyPart mbp , NormalizedMessage nmsg );4;4;17
+DefaultMailMarshaler.copyInputStream( InputStream in , OutputStream out );2;1;10
+DefaultMailMarshaler.fillMailBody( MimeMessage mimeMessage , MessageExchange exchange , NormalizedMessage nmsg , MimeMultipart content );15;14;90
+DefaultMailMarshaler.copyBodyAndAttachments( MessageExchange exchange , NormalizedMessage nmsg , MimeMessage mailMsg );30;27;89
+DefaultMailMarshaler.fillMailBodyAndAttachments( MimeMessage mimeMessage , MessageExchange exchange , NormalizedMessage nmsg );4;1;28
+DefaultMailMarshaler.convertMailToJBI( MessageExchange exchange , NormalizedMessage nmsg , MimeMessage mailMsg );1;0;4
+DefaultMailMarshaler.fillMailHeaders( MimeMessage mimeMessage , MessageExchange exchange , NormalizedMessage nmsg , String configuredSender , String configuredReceiver );22;21;74
+DefaultMailMarshaler.convertJBIToMail( MimeMessage mimeMessage , MessageExchange exchange , NormalizedMessage nmsg , String configuredSender , String configuredReceiver );2;0;8
+DefaultMailMarshaler.copyHeaders( MessageExchange exchange , NormalizedMessage nmsg , MimeMessage mailMsg );10;9;41

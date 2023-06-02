@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Pointcuts.union( Pointcut pc1 , Pointcut pc2 );1;0;3
+Pointcuts.intersection( Pointcut pc1 , Pointcut pc2 );1;0;3
+SetterPointcut.readResolve( );1;0;3
+SetterPointcut.toString( );1;0;3
+GetterPointcut.toString( );1;0;3
+Pointcuts.matches( Pointcut pointcut , Method method , Class < ? > targetClass , Object ... args );5;3;13
+GetterPointcut.readResolve( );1;0;3
+GetterPointcut.matches( Method method , Class < ? > targetClass );2;2;4
+SetterPointcut.matches( Method method , Class < ? > targetClass );3;4;5

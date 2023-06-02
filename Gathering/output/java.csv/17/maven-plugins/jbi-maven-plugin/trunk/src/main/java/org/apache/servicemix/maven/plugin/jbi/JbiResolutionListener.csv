@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JbiResolutionListener.getRootNode( );1;0;3
+JbiResolutionListener.manageArtifact( Artifact artifact , Artifact replacement );4;3;11
+JbiResolutionListener.includeArtifact( Artifact artifact );4;3;15
+JbiResolutionListener.updateScope( Artifact artifact , String scope );1;0;4
+JbiResolutionListener.getLog( );1;0;3
+JbiResolutionListener.getNode( Artifact artifact );1;0;3
+JbiResolutionListener.testArtifact( Artifact artifact );1;0;2
+JbiResolutionListener.endProcessChildren( Artifact artifact );1;0;4
+JbiResolutionListener.restrictRange( Artifact artifact , Artifact artifact1 , VersionRange versionRange );1;0;3
+Node.getParents( );1;0;3
+JbiResolutionListener.getArtifacts( );1;0;3
+Node.getArtifact( );1;0;3
+JbiResolutionListener.updateScopeCurrentPom( Artifact artifact , String key );1;0;3
+Node.getChildren( );1;0;3
+JbiResolutionListener.setLog( Log log );1;0;3
+JbiResolutionListener.print( Node node , String string );2;0;6
+JbiResolutionListener.omitForNearer( Artifact omitted , Artifact kept );1;1;7
+JbiResolutionListener.selectVersionFromRange( Artifact artifact );1;0;3
+JbiResolutionListener.startProcessChildren( Artifact artifact );2;0;7
+JbiResolutionListener.omitForCycle( Artifact artifact );1;0;2

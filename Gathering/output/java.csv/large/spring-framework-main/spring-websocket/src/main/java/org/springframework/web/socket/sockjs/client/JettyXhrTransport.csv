@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JettyXhrTransport.JettyXhrTransport( HttpClient httpClient );1;0;4
+JettyXhrTransport.getHttpClient( );1;0;3
+JettyXhrTransport.executeRequest( URI url , HttpMethod method , HttpHeaders headers , @ Nullable String body );4;2;19
+JettyXhrTransport.toHttpHeaders( HttpFields httpFields );3;0;13
+SockJsResponseListener.onFailure( Response response , Throwable failure );3;0;12
+JettyXhrTransport.addHttpHeaders( Request request , HttpHeaders headers );2;0;9
+SockJsResponseListener.onBegin( Response response );2;1;6
+SockJsResponseListener.onContent( Response response , ByteBuffer buffer );6;2;21
+JettyXhrTransport.start( );3;1;10
+SockJsResponseListener.onHeaders( Response response );2;0;5
+SockJsResponseListener.onSuccess( Response response );3;1;9
+JettyXhrTransport.stop( );3;0;10
+JettyXhrTransport.executeReceiveRequest( URI url , HttpHeaders headers , SockJsResponseListener listener );2;0;8
+JettyXhrTransport.isRunning( );1;0;3
+JettyXhrTransport.executeInfoRequestInternal( URI infoUrl , HttpHeaders headers );1;0;3
+SockJsResponseListener.SockJsResponseListener( URI url , HttpHeaders headers , XhrClientSockJsSession sockJsSession , CompletableFuture < WebSocketSession > connectFuture );1;0;6
+SockJsResponseListener.handleFrame( );3;1;10
+JettyXhrTransport.connectInternal( TransportRequest transportRequest , WebSocketHandler handler , URI url , HttpHeaders handshakeHeaders , XhrClientSockJsSession session , CompletableFuture < WebSocketSession > connectFuture );1;0;5
+JettyXhrTransport.executeSendRequestInternal( URI url , HttpHeaders headers , TextMessage message );1;0;3

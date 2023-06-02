@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UpdaterHandler.substitute( ParserSettings ivy , String value );2;1;4
+UpdaterHandler.endCDATA( );1;0;2
+UpdaterHandler.removeConfigurationsFromList( String list , List confsToRemove );3;1;14
+UpdaterHandler.endDocument( );1;0;5
+XmlModuleDescriptorUpdater.update( URL srcURL , OutputStream destFile , UpdateOptions options );3;0;17
+UpdaterHandler.startCDATA( );1;0;2
+UpdaterHandler.startDependencies( Attributes attributes );9;10;27
+UpdaterHandler.endElement( String uri , String localName , String qName );7;2;24
+XmlModuleDescriptorUpdater.update( URL inStreamCtx , InputStream inStream , OutputStream outStream , final UpdateOptions options );3;1;20
+ExtendedBuffer.isPrint( );2;1;6
+ExtendedBuffer.getContext( );1;0;3
+ExtendedBuffer.setPrint( boolean print );1;0;3
+UpdaterHandler.fatalError( SAXParseException e );1;0;3
+ExtendedBuffer.setDefaultPrint( boolean print );1;0;3
+UpdaterHandler.warning( SAXParseException e );1;0;3
+ExtendedBuffer.getBuffer( );1;0;3
+UpdaterHandler.endDTD( );1;0;2
+UpdaterHandler.error( SAXParseException e );1;0;3
+UpdaterHandler.endEntity( String name );1;0;2
+UpdaterHandler.startEntity( String name );1;0;2
+UpdaterHandler.characters( char [ ] ch , int start , int length );2;1;7
+UpdaterHandler.startElement( String uri , String localName , String qName , Attributes attributes );20;22;62
+XmlModuleDescriptorUpdater.XmlModuleDescriptorUpdater( );1;0;2
+UpdaterHandler.UpdaterHandler( URL relativePathCtx , PrintWriter out , final UpdateOptions options );2;1;17
+XmlModuleDescriptorUpdater.update( InputStream in , Resource res , File destFile , UpdateOptions options );6;1;26
+UpdaterHandler.startElementInConfigurationsConf( String qName , Attributes attributes );6;4;23
+XmlModuleDescriptorUpdater.copyHeader( InputStream in , PrintWriter out );5;6;18
+UpdaterHandler.write( String content );2;0;8
+UpdaterHandler.includeStarted( Attributes attributes );16;2;77
+UpdaterHandler.startElementInDependency( Attributes attributes );27;26;80
+XmlModuleDescriptorUpdater.update( URL srcURL , File destFile , UpdateOptions options );3;1;15
+UpdaterHandler.startDTD( String name , String publicId , String systemId );1;0;2
+UpdaterHandler.comment( char [ ] ch , int start , int length );3;2;13
+UpdaterHandler.removeConfigurationsFromMapping( String mapping , List confsToRemove );7;5;31
+UpdaterHandler.getContext( );3;2;11
+ExtendedBuffer.ExtendedBuffer( String context );1;0;3
+UpdaterHandler.infoStarted( Attributes attributes );12;12;49
+UpdaterHandler.endElement( String uri , String localName , String name );2;0;5

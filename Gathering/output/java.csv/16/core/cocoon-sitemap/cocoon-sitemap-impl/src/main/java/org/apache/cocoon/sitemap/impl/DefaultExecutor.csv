@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultExecutor.leaveSitemap( ExecutionContext context , Map objectModel );1;0;2
+DefaultExecutor.invokeMatcher( ExecutionContext context , Map objectModel , Matcher matcher , String pattern , Parameters resolvedParams );1;0;3
+DefaultExecutor.addReader( ExecutionContext context , Map objectModel , PipelineComponentDescription desc );1;0;3
+DefaultExecutor.addGenerator( ExecutionContext context , Map objectModel , PipelineComponentDescription desc );1;0;3
+DefaultExecutor.addSerializer( ExecutionContext context , Map objectModel , PipelineComponentDescription desc );1;0;3
+DefaultExecutor.redirectTo( ExecutionContext context , Map objectModel , String uri , boolean createSession , boolean global , boolean permanent );1;0;3
+DefaultExecutor.invokeAction( final ExecutionContext context , final Map objectModel , final Action action , final Redirector redirector , final SourceResolver resolver , final String resolvedSource , final Parameters resolvedParams );1;0;4
+DefaultExecutor.addTransformer( ExecutionContext context , Map objectModel , PipelineComponentDescription desc );1;0;3
+DefaultExecutor.invokeSelector( ExecutionContext context , Map objectModel , Selector selector , String expression , Parameters parameters );1;0;3
+DefaultExecutor.enteringPipeline( ExecutionContext context , Map objectModel , PipelineComponentDescription desc );1;0;3
+DefaultExecutor.enterSitemap( ExecutionContext context , Map objectModel , String source );1;0;2
+DefaultExecutor.popVariables( ExecutionContext context , Map objectModel );1;0;2
+DefaultExecutor.invokeSwitchSelector( ExecutionContext context , Map objectModel , SwitchSelector selector , String expression , Parameters parameters , Object selectorContext );1;0;3
+DefaultExecutor.pushVariables( ExecutionContext context , Map objectModel , String key , Map variables );1;0;3
+DefaultExecutor.invokePreparableMatcher( ExecutionContext context , Map objectModel , PreparableMatcher matcher , String pattern , Object preparedPattern , Parameters resolvedParams );1;0;3

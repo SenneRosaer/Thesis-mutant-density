@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NoBodyResponse.setIntHeader( String name , int value );1;0;1
+NoBodyResponse.getCharacterEncoding( );1;0;1
+NoBodyResponse.setStatus( int sc );1;0;1
+NoBodyOutputStream.NoBodyOutputStream( );1;0;1
+HttpServlet.service( ServletRequest req , ServletResponse res );2;0;11
+HttpServlet.getAllDeclaredMethods( Class c );5;9;21
+NoBodyResponse.sendError( int sc , String msg );1;0;1
+HttpServlet.doOptions( HttpServletRequest req , HttpServletResponse resp );20;15;45
+NoBodyResponse.encodeUrl( String url );1;0;1
+NoBodyOutputStream.write( byte buf [ ] , int offset , int len );2;2;8
+NoBodyResponse.setContentType( String type );1;0;1
+NoBodyResponse.setContentLength( );2;1;4
+HttpServlet.doHead( HttpServletRequest req , HttpServletResponse resp );1;0;5
+HttpServlet.doGet( HttpServletRequest req , HttpServletResponse resp );2;0;9
+HttpServlet.doDelete( HttpServletRequest req , HttpServletResponse resp );2;0;9
+NoBodyOutputStream.write( int b );1;1;3
+NoBodyResponse.setHeader( String name , String value );1;0;1
+HttpServlet.maybeSetLastModified( HttpServletResponse resp , long lastModified );3;1;6
+HttpServlet.doPost( HttpServletRequest req , HttpServletResponse resp );2;0;9
+NoBodyResponse.encodeRedirectURL( String url );1;0;1
+NoBodyResponse.setStatus( int sc , String sm );1;0;1
+NoBodyResponse.setContentLength( int len );1;0;4
+NoBodyResponse.addCookie( Cookie cookie );1;0;1
+NoBodyResponse.encodeRedirectUrl( String url );1;0;1
+NoBodyResponse.NoBodyResponse( HttpServletResponse r );1;0;4
+NoBodyOutputStream.getContentLength( );1;0;3
+NoBodyResponse.sendRedirect( String location );1;0;1
+NoBodyResponse.encodeURL( String url );1;0;1
+NoBodyResponse.setDateHeader( String name , long date );1;0;1
+NoBodyResponse.containsHeader( String name );1;0;1
+HttpServlet.getLastModified( HttpServletRequest req );1;1;3
+HttpServlet.doTrace( HttpServletRequest req , HttpServletResponse resp );2;4;20
+NoBodyResponse.getOutputStream( );1;0;1
+NoBodyResponse.sendError( int sc );1;0;1
+HttpServlet.doPut( HttpServletRequest req , HttpServletResponse resp );2;0;9
+HttpServlet.service( HttpServletRequest req , HttpServletResponse resp );10;5;37
+NoBodyResponse.getWriter( );2;1;8
+HttpServlet.HttpServlet( );1;0;1

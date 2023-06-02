@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpHelper.isFaultOrFailure( int s );27;50;34
+HttpHelper.responseToString( HttpMethod m );9;6;29
+HttpHelper.requestToString( HttpMethod m );8;4;29
+HttpHelper.replaceCRLFwithLWS( String header );2;0;10
+HttpHelper.prepareDetailsElement( HttpMethod method );11;5;33
+HttpHelper.statusLineToElement( String statusLine );1;0;3
+HttpHelper.configure( HttpClient client , URI targetURI , Element authPart , HttpParams params );12;11;29
+HttpHelper.statusLineToElement( StatusLine statusLine );1;0;3
+HttpHelper.statusLineToElement( Document doc , StatusLine statusLine );1;0;17

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StscSimpleTypeResolver.resolveErrorSimpleType( SchemaTypeImpl sImpl );1;1;6
+StscSimpleTypeResolver.resolveUnionType( SchemaTypeImpl sImpl , UnionDocument . Union parseUnion , List anonTypes );21;22;95
+StscSimpleTypeResolver.facetAppliesToType( int facetCode , SchemaTypeImpl baseImpl );55;0;96
+StscSimpleTypeResolver.makeValueRefArray( XmlAnySimpleType [ ] source );3;3;6
+StscSimpleTypeResolver.decimalSizeOfType( SchemaTypeImpl sImpl );6;8;8
+StscSimpleTypeResolver.resolveFundamentalFacets( SchemaTypeImpl sImpl );17;20;50
+StscSimpleTypeResolver.translateFacetCode( QName name );2;2;6
+StscSimpleTypeResolver.resolveFacets( SchemaTypeImpl sImpl , XmlObject restriction , SchemaTypeImpl baseImpl );85;74;292
+StscSimpleTypeResolver.resolveSimpleRestrictionType( SchemaTypeImpl sImpl , RestrictionDocument . Restriction parseRestr , List anonTypes );16;13;83
+StscSimpleTypeResolver.makeRefArray( Collection typeList );2;1;7
+StscSimpleTypeResolver.isMultipleFacet( int facetcode );2;3;4
+StscSimpleTypeResolver.isNumericPrimitive( SchemaType sImpl );4;0;10
+StscSimpleTypeResolver.isDiscreteType( SchemaTypeImpl sImpl );9;1;16
+CodeForNameEntry.CodeForNameEntry( QName name , int code );1;0;1
+StscSimpleTypeResolver.resolveSimpleType( SchemaTypeImpl sImpl );19;10;65
+StscSimpleTypeResolver.other_similar_limit( int facetcode );5;0;16
+StscSimpleTypeResolver.translateWhitespaceCode( XmlAnySimpleType value );4;0;11
+StscSimpleTypeResolver.buildFacetCodeMap( );2;2;6
+StscSimpleTypeResolver.mathematicalSizeOfType( SchemaTypeImpl sImpl );40;21;64
+StscSimpleTypeResolver.resolveListType( SchemaTypeImpl sImpl , org . apache . xmlbeans . impl . xb . xsdschema . ListDocument . List parseList , List anonTypes );13;9;75

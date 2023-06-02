@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JdbcControlImpl.parseProperties( String propertiesString );3;4;13
+JdbcControlImpl.onRelease( );2;0;6
+JdbcControlImpl.getConnectionFromDriverManager( String dbDriverClassName , String dbUrlStr , String userName , String password , String propertiesString );5;3;20
+JdbcControlImpl.setConnection( Connection con );4;4;13
+JdbcControlImpl.setTypeMappers( TypeMapper [ ] typeMappers );4;1;9
+JdbcControlImpl.onAcquire( );5;2;14
+JdbcControlImpl.cleanupConnection( );6;3;20
+JdbcControlImpl.loadConnectionAnnotationValues( );4;7;8
+JdbcControlImpl.execPreparedStatement( Method method , Object [ ] args );28;26;94
+JdbcControlImpl.getConnectionFromDataSource( String jndiName , Class < ? extends JdbcControl . JndiContextFactory > jndiFactory );4;0;19
+JdbcControlImpl.setConnectionOptions( );5;3;19
+JdbcControlImpl.invoke( Method method , Object [ ] args );5;3;14
+JdbcControlImpl.JdbcControlImpl( );1;0;1
+JdbcControlImpl.getResources( );2;1;6
+JdbcControlImpl.getConnection( );6;7;22
+JdbcControlImpl.getDataSourceCalendar( );1;0;3
+JdbcControlImpl.setDataSourceCalendar( Calendar cal );1;0;3

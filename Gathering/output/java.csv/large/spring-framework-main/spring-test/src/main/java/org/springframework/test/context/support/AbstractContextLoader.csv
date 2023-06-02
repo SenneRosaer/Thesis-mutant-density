@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractContextLoader.processLocations( Class < ? > clazz , String ... locations );1;0;3
+AbstractContextLoader.isGenerateDefaultLocations( );1;0;3
+AbstractContextLoader.customizeContext( ConfigurableApplicationContext context , MergedContextConfiguration mergedConfig );2;0;5
+AbstractContextLoader.getResourceSuffixes( );1;0;3
+AbstractContextLoader.invokeApplicationContextInitializers( ConfigurableApplicationContext context , MergedContextConfiguration mergedConfig );12;3;25
+AbstractContextLoader.modifyLocations( Class < ? > clazz , String ... locations );1;0;3
+AbstractContextLoader.generateDefaultLocations( Class < ? > clazz );6;3;26
+AbstractContextLoader.prepareContext( ConfigurableApplicationContext context , MergedContextConfiguration mergedConfig );1;0;6
+AbstractContextLoader.processLocationsInternal( Class < ? > clazz , String ... locations );3;1;4
+AbstractContextLoader.processContextConfiguration( ContextConfigurationAttributes configAttributes );1;0;5

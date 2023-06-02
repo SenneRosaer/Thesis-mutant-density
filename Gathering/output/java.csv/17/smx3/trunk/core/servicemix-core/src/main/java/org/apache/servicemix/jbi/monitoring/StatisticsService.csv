@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StatisticsService.externalEndpointUnregistered( EndpointEvent event );1;0;3
+StatisticsService.componentInitialized( ComponentEvent event );1;0;3
+StatisticsService.doDumpStats( );2;0;6
+StatisticsService.onExchangeAccepted( ExchangeEvent event );6;8;12
+StatisticsService.getComponentStats( );1;0;3
+StatisticsService.onExchangeSent( ExchangeEvent event );9;11;27
+StatisticsService.getOperationInfos( );1;0;5
+StatisticsService.exchangeSent( ExchangeEvent event );1;0;3
+StatisticsService.init( JBIContainer container );1;0;13
+StatisticsService.getEndpointStats( );1;0;3
+StatisticsService.setDumpStats( boolean value );6;5;11
+StatisticsService.removeEndpointStats( JBIContainer containner , AbstractServiceEndpoint endpoint );3;0;13
+StatisticsService.internalEndpointRegistered( EndpointEvent event );1;0;3
+StatisticsService.externalEndpointRegistered( EndpointEvent event );1;0;3
+StatisticsService.getDescription( );1;0;3
+StatisticsService.componentShutDown( ComponentEvent event );1;0;3
+StatisticsService.setStatsInterval( long statsInterval );1;0;3
+StatisticsService.exchangeAccepted( ExchangeEvent event );1;0;3
+StatisticsService.getAttributeInfos( );1;0;6
+StatisticsService.removeComponentStats( JBIContainer container , ComponentMBeanImpl component );4;1;16
+StatisticsService.resetAllStats( );3;0;10
+StatisticsService.stop( );4;2;14
+StatisticsService.createComponentStats( JBIContainer container , ComponentMBeanImpl component );3;0;16
+StatisticsService.getStatsInterval( );1;0;3
+StatisticsService.start( );2;0;7
+StatisticsService.internalEndpointUnregistered( EndpointEvent event );1;0;3
+StatisticsService.isDumpStats( );1;0;3
+StatisticsService.run( );1;0;3
+StatisticsService.createEndpointStats( JBIContainer container , AbstractServiceEndpoint endpoint );3;0;17
+StatisticsService.initEndpointListener( final JBIContainer container );2;0;23
+StatisticsService.initComponentListener( final JBIContainer container );2;0;14
+StatisticsService.scheduleStatsTimer( );3;3;15
+StatisticsService.getServiceMBean( );1;0;3

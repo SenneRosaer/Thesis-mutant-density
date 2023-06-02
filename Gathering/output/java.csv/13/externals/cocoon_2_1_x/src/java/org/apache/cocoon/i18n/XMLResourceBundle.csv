@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLResourceBundle.getLocale( );1;0;3
+SAXContentHandler.SAXContentHandler( Map values );1;0;3
+SAXContentHandler.ignorableWhitespace( char [ ] ch , int start , int length );2;1;5
+XMLResourceBundle.XMLResourceBundle( String sourceURI , Locale locale , Bundle parent );1;0;6
+SAXContentHandler.endPrefixMapping( String prefix );2;1;5
+XMLResourceBundle.reload( SourceResolver resolver , long interval );20;16;64
+SAXContentHandler.startPrefixMapping( String prefix , String uri );2;1;5
+SAXContentHandler.startElement( String ns , String localName , String qName , Attributes atts );10;9;38
+SAXContentHandler.setDocumentLocator( Locator arg0 );1;0;2
+SAXContentHandler.processingInstruction( String arg0 , String arg1 );1;0;2
+SAXContentHandler.characters( char [ ] ch , int start , int length );2;1;5
+SAXContentHandler.skippedEntity( String arg0 );1;0;2
+XMLResourceBundle.getObject( String key );4;3;13
+XMLResourceBundle.getSourceURI( );1;0;3
+SAXContentHandler.endDocument( );1;0;2
+SAXContentHandler.endElement( String ns , String localName , String qName );6;3;19
+XMLResourceBundle.getValidity( );1;0;3
+SAXContentHandler.startDocument( );1;0;2
+XMLResourceBundle.getString( String key );4;3;13

@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CacheManager.CacheManager( );1;0;4
+CacheManager.getCache( );1;0;3
+CacheManager.setHeaders( HttpURLConnection conn , URL url );5;5;16
+CacheEntry.getLastModified( );1;0;3
+CacheManager.testStarted( String host );1;0;2
+CacheManager.testStarted( );1;0;2
+CacheManager.testIterationStart( LoopIterationEvent event );2;0;5
+CacheManager.setClearEachIteration( boolean clear );1;0;3
+CacheManager.getClearEachIteration( );1;0;3
+CacheEntry.toString( );1;1;3
+CacheEntry.getEtag( );1;0;3
+CacheManager.isCacheable( SampleResult res );2;3;5
+CacheManager.clearCache( );1;0;8
+CacheManager.getHeader( HttpMethod method , String name );2;1;4
+CacheManager.testEnded( String host );1;0;2
+CacheManager.saveDetails( HttpMethod method , SampleResult res );2;0;8
+CacheManager.clear( );1;0;4
+CacheManager.saveDetails( URLConnection conn , SampleResult res );2;0;8
+CacheEntry.CacheEntry( String lastModified , String etag );1;0;4
+CacheManager.setHeaders( URL url , HttpMethod method );5;5;16
+CacheManager.initialValue( );1;0;3
+CacheManager.setCache( String lastModified , String etag , String url );2;0;6
+CacheManager.testEnded( );1;0;2

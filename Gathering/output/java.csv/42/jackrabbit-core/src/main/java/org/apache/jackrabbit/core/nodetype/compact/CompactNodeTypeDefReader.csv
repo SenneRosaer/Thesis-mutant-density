@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompactNodeTypeDefReader.doNodeTypeName( NodeTypeDef ntd );3;2;12
+CompactNodeTypeDefReader.doPropertyDefaultValue( PropDefImpl pdi );5;1;24
+CompactNodeTypeDefReader.doPropertyType( PropDefImpl pdi );13;2;34
+CompactNodeTypeDefReader.doItemDefs( NodeTypeDef ntd );7;3;40
+CompactNodeTypeDefReader.getNodeTypeDefinitions( NamePathResolver resolver );2;0;7
+CompactNodeTypeDefReader.doChildNodeDefaultType( NodeDefImpl ndi );2;1;8
+CompactNodeTypeDefReader.CompactNodeTypeDefReader( Reader r , String systemId );1;0;3
+CompactNodeTypeDefReader.CompactNodeTypeDefReader( Reader r , String systemId , NamespaceMapping mapping );1;0;7
+CompactNodeTypeDefReader.doOptions( NodeTypeDef ntd );5;0;17
+CompactNodeTypeDefReader.currentTokenEquals( char c );2;3;3
+CompactNodeTypeDefReader.doSuperTypes( NodeTypeDef ntd );3;1;12
+CompactNodeTypeDefReader.parse( );4;3;18
+CompactNodeTypeDefReader.getNodeTypeDefs( );1;0;3
+CompactNodeTypeDefReader.toQName( String stringName );3;0;13
+CompactNodeTypeDefReader.nextToken( );1;0;3
+CompactNodeTypeDefReader.doChildNodeDefinition( NodeDefImpl ndi , NodeTypeDef ntd );2;0;11
+CompactNodeTypeDefReader.doPropertyDefinition( PropDefImpl pdi , NodeTypeDef ntd );2;0;12
+CompactNodeTypeDefReader.doChildNodeRequiredTypes( NodeDefImpl ndi );3;1;13
+CompactNodeTypeDefReader.getNamespaceMapping( );1;0;3
+CompactNodeTypeDefReader.currentTokenEquals( String s );1;0;3
+CompactNodeTypeDefReader.doChildNodeAttributes( NodeDefImpl ndi , NodeTypeDef ntd );15;1;36
+CompactNodeTypeDefReader.doPropertyAttributes( PropDefImpl pdi , NodeTypeDef ntd );15;1;36
+CompactNodeTypeDefReader.doPropertyValueConstraints( PropDefImpl pdi );4;1;19
+CompactNodeTypeDefReader.currentTokenEquals( String [ ] s );3;2;8
+CompactNodeTypeDefReader.doNameSpace( );5;3;23

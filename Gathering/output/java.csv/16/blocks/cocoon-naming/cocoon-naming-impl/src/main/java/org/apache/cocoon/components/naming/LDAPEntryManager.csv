@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LDAPEntryManager.map2Attributes( Map map );3;0;14
+LDAPEntryManager.dispose( );3;1;13
+LDAPEntryManager.recycle( );2;0;9
+LDAPEntryManager.attributes2Map( Attributes attributes );3;0;14
+LDAPEntryManager.find( String cntx , Map attributes );4;1;13
+LDAPEntryManager.modify( String name , int mod_op , Map attributes );4;1;11
+LDAPEntryManager.find( Map attributes );1;0;3
+LDAPEntryManager.initialize( );3;0;9
+LDAPEntryManager.namingEnumeration2Map( NamingEnumeration enumeration );2;0;8
+LDAPEntryManager.create( String name , Map attributes );6;2;22
+LDAPEntryManager.parameterize( Parameters params );3;2;18
+LDAPEntryManager.get( String name );4;1;13

@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FormHttpMessageWriter.getMediaType( @ Nullable MediaType mediaType );3;2;11
+FormHttpMessageWriter.getWritableMediaTypes( );1;0;3
+FormHttpMessageWriter.serializeForm( MultiValueMap < String , String > formData , Charset charset );3;2;15
+FormHttpMessageWriter.canWrite( ResolvableType elementType , @ Nullable MediaType mediaType );4;2;12
+FormHttpMessageWriter.write( Publisher < ? extends MultiValueMap < String , String > > inputStream , ResolvableType elementType , @ Nullable MediaType mediaType , ReactiveHttpOutputMessage message , Map < String , Object > hints );2;1;13
+FormHttpMessageWriter.logFormData( MultiValueMap < String , String > form , Map < String , Object > hints );2;2;6
+FormHttpMessageWriter.getDefaultCharset( );1;0;3
+FormHttpMessageWriter.setDefaultCharset( Charset charset );1;0;4

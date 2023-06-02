@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FuzzyQuery.getPrefixLength( );1;0;3
+FuzzyQuery.hashCode( );2;6;6
+FuzzyQuery.rewrite( IndexReader reader );6;6;35
+ScoreTermQueue.lessThan( Object a , Object b );2;3;8
+FuzzyQuery.FuzzyQuery( Term term , float minimumSimilarity , int prefixLength );4;3;11
+FuzzyQuery.FuzzyQuery( Term term );1;0;3
+FuzzyQuery.getEnum( IndexReader reader );1;0;3
+ScoreTermQueue.ScoreTermQueue( int size );1;0;3
+FuzzyQuery.setConstantScoreRewrite( boolean constantScoreRewrite );1;0;3
+ScoreTerm.ScoreTerm( Term term , float score );1;0;4
+FuzzyQuery.equals( Object o );6;5;9
+FuzzyQuery.toString( String field );2;1;13
+FuzzyQuery.FuzzyQuery( Term term , float minimumSimilarity );1;0;3
+FuzzyQuery.getMinSimilarity( );1;0;3

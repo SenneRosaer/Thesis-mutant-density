@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Service.getPort( );1;0;3
+DynamicPropertySourceIntegrationTests.serviceHasInjectedValues( @ Autowired Service service );1;0;4
+Service.Service( @ Value ( "${test.container.ip}" ) String ip , @ Value ( "${test.container.port}" ) int port );1;0;4
+DynamicPropertySourceIntegrationTests.clearSystemProperty( );1;0;3
+DynamicPropertySourceIntegrationTests.containerProperties( DynamicPropertyRegistry registry );1;0;4
+Service.getIp( );1;0;3
+DemoContainer.getPort( );1;0;3
+DemoContainer.getIpAddress( );1;0;3
+DynamicPropertySourceIntegrationTests.dynamicPropertySourceOverridesTestPropertySourceAndSystemProperty( @ Autowired ConfigurableEnvironment env );1;0;11

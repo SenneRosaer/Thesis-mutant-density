@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SafehausLoginModule.SafehausLoginModule( );5;0;25
+SafehausLoginModule.abort( );2;0;10
+SafehausLoginModule.commit( );3;0;16
+SafehausLoginModule.logout( );2;0;10
+SafehausLoginModule.getUserDn( String username , String realm );4;8;17
+SafehausLoginModule.initialize( Subject subject , CallbackHandler callbackHandler , Map sharedState , Map options );1;0;11
+SafehausLoginModule.bindAs( String principalDn , String userName );5;1;35
+SafehausLoginModule.handle( LoginException le );7;1;22
+SafehausLoginModule.handle( Callback [ ] callbacks );4;4;15
+SafehausLoginModule.login( );23;12;140

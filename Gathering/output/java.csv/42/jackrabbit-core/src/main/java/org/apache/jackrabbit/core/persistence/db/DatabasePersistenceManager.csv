@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DatabasePersistenceManager.store( PropertyState state );4;2;17
+DatabasePersistenceManager.initConnection( );2;0;6
+DatabasePersistenceManager.setExternalBLOBs( boolean externalBLOBs );1;0;3
+DatabasePersistenceManager.store( ChangeLog changeLog );10;6;47
+DatabasePersistenceManager.getSchemaDDL( );1;0;3
+DatabasePersistenceManager.getConnection( );1;0;3
+DbBLOBStore.remove( String blobId );1;1;4
+SizedInputStream.read( byte [ ] b );1;0;4
+DatabasePersistenceManager.initPreparedStatements( );2;1;39
+DatabasePersistenceManager.exists( PropertyId id );3;1;20
+DatabasePersistenceManager.destroy( PropertyState state );8;6;30
+DatabasePersistenceManager.exists( NodeId id );3;1;19
+DatabasePersistenceManager.resetStatement( PreparedStatement stmt );3;1;10
+DatabasePersistenceManager.init( PMContext context );4;0;27
+DatabasePersistenceManager.prepareSchemaObjectPrefix( );3;6;20
+SizedInputStream.isConsumed( );1;0;3
+DbBLOBStore.createId( PropertyId id , int index );1;0;8
+SizedInputStream.getSize( );1;0;3
+DatabasePersistenceManager.buildSQLStatements( );2;1;46
+DatabasePersistenceManager.store( NodeReferences refs );4;1;17
+DatabasePersistenceManager.store( NodeState state );4;2;17
+SizedInputStream.read( byte [ ] b , int off , int len );1;0;4
+DatabasePersistenceManager.destroy( NodeState state );3;1;12
+DatabasePersistenceManager.setSchema( String schema );1;0;3
+DatabasePersistenceManager.exists( NodeReferencesId targetId );3;1;21
+DbBLOBStore.put( String blobId , InputStream in , long size );2;0;8
+DatabasePersistenceManager.closeStatement( Statement stmt );3;1;9
+DatabasePersistenceManager.close( );4;1;19
+DatabasePersistenceManager.setSchemaObjectPrefix( String schemaObjectPrefix );1;0;3
+DatabasePersistenceManager.load( PropertyId id );6;3;36
+DatabasePersistenceManager.getSchemaObjectPrefix( );1;0;3
+DatabasePersistenceManager.destroy( NodeReferences refs );3;1;12
+DatabasePersistenceManager.setExternalBLOBs( String externalBLOBs );1;0;3
+DatabasePersistenceManager.isExternalBLOBs( );1;0;3
+DatabasePersistenceManager.load( NodeReferencesId targetId );5;2;31
+DbBLOBStore.close( );1;0;4
+DatabasePersistenceManager.reestablishConnection( );7;1;27
+SizedInputStream.skip( long n );1;0;4
+DatabasePersistenceManager.getSchema( );1;0;3
+DatabasePersistenceManager.load( NodeId id );5;2;30
+DatabasePersistenceManager.DatabasePersistenceManager( );1;0;6
+SizedInputStream.read( );1;0;4
+DatabasePersistenceManager.closeConnection( Connection connection );1;0;3
+DatabasePersistenceManager.logException( String message , SQLException se );2;1;8
+SizedInputStream.SizedInputStream( InputStream in , long size );1;0;4
+DatabasePersistenceManager.executeStmt( String sql , Object [ ] params );11;8;37
+DatabasePersistenceManager.closeResultSet( ResultSet rs );3;1;9
+DbBLOBStore.get( String blobId );3;2;21
+DatabasePersistenceManager.checkSchema( );8;6;40

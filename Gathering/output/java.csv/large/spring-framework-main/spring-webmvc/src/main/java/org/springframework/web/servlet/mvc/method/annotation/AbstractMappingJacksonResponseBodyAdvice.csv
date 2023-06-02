@@ -1,0 +1,4 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractMappingJacksonResponseBodyAdvice.supports( MethodParameter returnType , Class < ? extends HttpMessageConverter < ? > > converterType );1;0;3
+AbstractMappingJacksonResponseBodyAdvice.beforeBodyWrite( @ Nullable Object body , MethodParameter returnType , MediaType contentType , Class < ? extends HttpMessageConverter < ? > > converterType , ServerHttpRequest request , ServerHttpResponse response );2;1;8
+AbstractMappingJacksonResponseBodyAdvice.getOrCreateContainer( Object body );2;0;3

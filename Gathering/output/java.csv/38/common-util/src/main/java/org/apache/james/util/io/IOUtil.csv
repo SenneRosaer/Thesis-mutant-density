@@ -1,0 +1,44 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IOUtil.shutdownSocket( final Socket socket );3;1;9
+IOUtil.copy( final InputStream input , final Writer output , final String encoding );1;0;4
+IOUtil.toString( final InputStream input , final String encoding , final int bufferSize );1;0;5
+IOUtil.copy( final InputStream input , final Writer output );1;0;3
+IOUtil.copy( final Reader input , final Writer output , final int bufferSize );2;2;8
+***not in a method***;0;1;0
+IOUtil.toString( final Reader input );1;0;3
+IOUtil.copy( final byte [ ] input , final OutputStream output );1;0;3
+IOUtil.shutdownStream( final OutputStream output );3;1;13
+IOUtil.toByteArray( final String input );1;0;3
+IOUtil.toString( final InputStream input , final int bufferSize );1;0;5
+IOUtil.copy( final InputStream input , final Writer output , final String encoding , final int bufferSize );1;0;4
+IOUtil.toString( final byte [ ] input , final String encoding , final int bufferSize );1;0;5
+IOUtil.copy( final Reader input , final OutputStream output );1;0;3
+IOUtil.copy( final Reader input , final Writer output );1;0;3
+IOUtil.toString( final byte [ ] input , final int bufferSize );1;0;5
+IOUtil.shutdownStream( final InputStream input );3;1;13
+IOUtil.toString( final byte [ ] input );1;0;3
+IOUtil.toByteArray( final InputStream input );1;0;3
+IOUtil.copy( final String input , final OutputStream output );1;0;3
+IOUtil.shutdownWriter( final Writer output );3;1;13
+IOUtil.copy( final String input , final OutputStream output , final int bufferSize );1;0;6
+IOUtil.toString( final byte [ ] input , final String encoding );1;0;3
+IOUtil.toByteArray( final InputStream input , final int bufferSize );1;0;5
+IOUtil.toString( final InputStream input );1;0;3
+IOUtil.toString( final Reader input , final int bufferSize );1;0;5
+IOUtil.toByteArray( final Reader input , final int bufferSize );1;0;5
+IOUtil.copy( final Reader input , final OutputStream output , final int bufferSize );1;0;5
+IOUtil.copy( final String input , final Writer output );1;0;3
+IOUtil.copy( final byte [ ] input , final Writer output );1;0;3
+IOUtil.toByteArray( final String input , final int bufferSize );1;0;5
+IOUtil.copy( final InputStream input , final Writer output , final int bufferSize );1;0;4
+IOUtil.contentEquals( final InputStream input1 , final InputStream input2 );4;5;23
+IOUtil.shutdownReader( final Reader input );3;1;13
+IOUtil.toString( final InputStream input , final String encoding );1;0;3
+IOUtil.copy( final byte [ ] input , final Writer output , final int bufferSize );1;0;4
+IOUtil.copy( final byte [ ] input , final Writer output , final String encoding , final int bufferSize );1;0;4
+IOUtil.copy( final byte [ ] input , final OutputStream output , final int bufferSize );1;0;3
+IOUtil.copy( final InputStream input , final OutputStream output , final int bufferSize );2;2;8
+IOUtil.copy( final InputStream input , final OutputStream output );1;0;3
+IOUtil.copy( final byte [ ] input , final Writer output , final String encoding );1;0;4
+IOUtil.toByteArray( final Reader input );1;0;3
+IOUtil.IOUtil( );1;0;2

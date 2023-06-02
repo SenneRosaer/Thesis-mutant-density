@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SysViewImportHandler.SysViewImportHandler( Importer importer , NamePathResolver resolver );1;0;3
+SysViewImportHandler.characters( char [ ] ch , int start , int length );3;1;10
+SysViewImportHandler.ignorableWhitespace( char [ ] ch , int start , int length );3;1;10
+SysViewImportHandler.endElement( String namespaceURI , String localName , String qName );17;4;64
+SysViewImportHandler.processNode( ImportState state , boolean start , boolean end );9;5;27
+SysViewImportHandler.startElement( String namespaceURI , String localName , String qName , Attributes atts );14;6;54

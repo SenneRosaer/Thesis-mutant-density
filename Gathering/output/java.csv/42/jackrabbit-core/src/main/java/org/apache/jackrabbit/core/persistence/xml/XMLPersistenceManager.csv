@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLPersistenceManager.readState( DOMWalker walker , PropertyState state );12;7;71
+XMLPersistenceManager.buildNodeReferencesFilePath( NodeReferencesId id );1;1;3
+XMLPersistenceManager.exists( PropertyId id );3;1;14
+XMLPersistenceManager.readState( DOMWalker walker , NodeState state );12;5;52
+XMLPersistenceManager.readState( DOMWalker walker , NodeReferences refs );4;2;16
+XMLPersistenceManager.store( NodeState state );8;2;65
+XMLPersistenceManager.load( NodeReferencesId id );5;2;28
+XMLPersistenceManager.store( PropertyState state );11;6;85
+XMLPersistenceManager.buildNodeFolderPath( NodeId id );5;8;16
+XMLPersistenceManager.close( );2;1;12
+XMLPersistenceManager.destroy( PropertyState state );8;6;28
+XMLPersistenceManager.XMLPersistenceManager( );1;0;4
+XMLPersistenceManager.buildPropFilePath( PropertyId id );3;9;20
+XMLPersistenceManager.load( PropertyId id );5;2;28
+XMLPersistenceManager.load( NodeId id );5;2;30
+XMLPersistenceManager.store( NodeReferences refs );5;1;39
+XMLPersistenceManager.destroy( NodeState state );4;1;17
+XMLPersistenceManager.exists( NodeId id );3;1;14
+XMLPersistenceManager.destroy( NodeReferences refs );4;1;17
+XMLPersistenceManager.exists( NodeReferencesId id );3;1;14
+XMLPersistenceManager.setNodePathTemplate( String template );1;0;3
+XMLPersistenceManager.getNodePathTemplate( );1;0;3
+XMLPersistenceManager.init( PMContext context );2;0;12
+XMLPersistenceManager.buildNodeFilePath( NodeId id );1;1;3

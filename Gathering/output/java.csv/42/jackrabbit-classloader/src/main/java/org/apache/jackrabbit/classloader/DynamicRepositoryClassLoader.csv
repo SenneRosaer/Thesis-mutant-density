@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DynamicRepositoryClassLoader.setAddedRepositories( ClassPathEntry [ ] addedRepositories );1;0;3
+DynamicRepositoryClassLoader.shouldReload( String name , boolean force );4;1;17
+DynamicRepositoryClassLoader.shouldReload( String name );1;0;3
+DynamicRepositoryClassLoader.destroy( );2;0;9
+DynamicRepositoryClassLoader.getAddedRepositories( );1;0;3
+DynamicRepositoryClassLoader.resetClassPathEntries( ClassPathEntry [ ] oldClassPath );3;3;12
+DynamicRepositoryClassLoader.onEvent( EventIterator events );6;4;25
+DynamicRepositoryClassLoader.addClassPathEntry( ClassPathEntry cpe );1;0;6
+DynamicRepositoryClassLoader.unregisterListener( );2;0;11
+DynamicRepositoryClassLoader.toString( );2;0;9
+DynamicRepositoryClassLoader.DynamicRepositoryClassLoader( Session session , DynamicRepositoryClassLoader old , ClassLoader parent );1;0;13
+DynamicRepositoryClassLoader.registerModificationListener( );2;0;11
+DynamicRepositoryClassLoader.shouldReload( );4;0;14
+DynamicRepositoryClassLoader.expireResource( ClassLoaderResource resource );2;3;6
+DynamicRepositoryClassLoader.reconfigure( String [ ] classPath );4;1;18
+DynamicRepositoryClassLoader.pathChanged( );1;0;5
+DynamicRepositoryClassLoader.reinstantiate( Session session , ClassLoader parent );2;0;9
+DynamicRepositoryClassLoader.buildRepository( );3;4;14
+DynamicRepositoryClassLoader.findClassLoaderResource( String name );4;2;15
+DynamicRepositoryClassLoader.DynamicRepositoryClassLoader( Session session , String [ ] classPath , ClassLoader parent );1;0;7
+DynamicRepositoryClassLoader.isDirty( );3;3;3

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IntegerValidator.isInRange( int value , int min , int max );2;3;3
+IntegerValidator.validate( String value , String pattern );1;0;3
+IntegerValidator.validate( String value , Locale locale );1;0;3
+IntegerValidator.maxValue( Integer value , int max );1;0;3
+IntegerValidator.isInRange( Integer value , int min , int max );1;0;3
+IntegerValidator.IntegerValidator( );1;0;3
+IntegerValidator.minValue( int value , int min );1;1;3
+IntegerValidator.IntegerValidator( boolean strict , int formatType );1;0;3
+IntegerValidator.validate( String value );1;0;3
+IntegerValidator.validate( String value , String pattern , Locale locale );1;0;3
+IntegerValidator.getInstance( );1;0;3
+IntegerValidator.processParsedValue( Object value , Format formatter );3;3;9
+IntegerValidator.minValue( Integer value , int min );1;0;3
+IntegerValidator.maxValue( int value , int max );1;1;3

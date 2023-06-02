@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MBoxMailRepository.isComplete( );1;0;1
+***not in a method***;0;1;0
+MBoxMailRepository.generateKeyValue( String emailBody );2;2;8
+MBoxMailRepository.remove( Mail mail );1;0;5
+MBoxMailRepository.messageAction( String messageSeparator , String bodyText , long messageStart );3;4;11
+MBoxMailRepository.convertTextToMimeMessage( String emailBody );4;2;19
+MBoxMailRepository.parseMboxFile( RandomAccessFile ins , MessageAction messAct );25;18;88
+MBoxMailRepository.getRawMessage( MimeMessage mc );1;0;5
+MBoxMailRepository.loadKeys( );12;7;39
+MBoxMailRepository.configure( Configuration conf );6;4;23
+MBoxMailRepository.lockMBox( );8;8;26
+MBoxMailRepository.list( );5;2;18
+MBoxMailRepository.store( Mail mc );8;2;37
+MBoxMailRepository.selectMessage( final String key );17;10;64
+MBoxMailRepository.unlock( String key );1;0;3
+MBoxMailRepository.lock( String key );1;0;3
+MBoxMailRepository.unlockMBox( );2;2;12
+MBoxMailRepository.remove( String key );2;0;13
+MBoxMailRepository.remove( final Collection mails );12;4;61
+MBoxMailRepository.retrieve( String key );4;2;21
+MBoxMailRepository.findMessage( String key );2;1;10

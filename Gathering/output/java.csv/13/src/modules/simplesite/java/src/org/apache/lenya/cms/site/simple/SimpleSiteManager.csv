@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleSiteManager.contains( Document resource );2;0;8
+SimpleSiteManager.copy( Document sourceDocument , Document destinationDocument );3;1;10
+SimpleSiteManager.getStore( Document document );1;0;6
+SimpleSiteManager.getAvailableLocator( DocumentFactory factory , DocumentLocator document );1;0;3
+SimpleSiteManager.getSiteStructure( DocumentFactory map , Publication publication , String area );1;0;3
+SimpleSiteManager.containsInAnyLanguage( Document resource );4;3;14
+SimpleSiteManager.setVisibleInNav( Document document , boolean visibleInNav );1;0;2
+SimpleSiteManager.getKey( Publication publication , String area );1;2;3
+SimpleSiteManager.getStore( DocumentFactory map , Publication publication , String area );2;0;11
+SimpleSiteManager.getRequiringResources( DocumentFactory map , SiteNode resource );1;0;3
+SimpleSiteManager.set( String path , Document document );2;0;7
+SimpleSiteManager.isVisibleInNav( Document document );1;0;3
+SimpleSiteManager.getDocuments( DocumentFactory identityMap , Publication publication , String area );2;0;8
+SimpleSiteManager.getCollectionUuid( Publication pub );4;3;16
+SimpleSiteManager.add( String path , Document document );1;0;3
+SimpleSiteManager.service( ServiceManager manager );1;0;3
+SimpleSiteManager.requires( DocumentFactory map , SiteNode dependingResource , SiteNode requiredResource );1;0;3
+SimpleSiteManager.getRequiredResources( DocumentFactory map , DocumentLocator locator );1;0;3

@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JDBCDiskCache.getStatistics( );1;0;41
+JDBCDiskCache.processGet( Serializable key );13;7;87
+JDBCDiskCache.incrementUpdateCount( );1;1;3
+JDBCDiskCache.serialize( Serializable obj );1;0;3
+JDBCDiskCache.processGetMatching( String pattern );13;7;88
+***not in a method***;0;1;0
+JDBCDiskCache.getAuxiliaryCacheAttributes( );1;0;3
+JDBCDiskCache.deleteExpired( );5;3;55
+JDBCDiskCache.getTableState( );1;0;3
+JDBCDiskCache.setJdbcDiskCacheAttributes( JDBCDiskCacheAttributes jdbcDiskCacheAttributes );1;0;3
+JDBCDiskCache.getGroupKeys( String groupName );2;0;7
+JDBCDiskCache.getSize( );7;2;65
+JDBCDiskCache.toString( );1;0;3
+JDBCDiskCache.processRemove( Serializable key );8;2;57
+JDBCDiskCache.setElementSerializer( IElementSerializer elementSerializer );1;0;3
+JDBCDiskCache.processDispose( );2;0;18
+JDBCDiskCache.JDBCDiskCache( JDBCDiskCacheAttributes cattr , TableState tableState , ICompositeCacheManager compositeCacheManager );2;0;11
+JDBCDiskCache.getJdbcDiskCacheAttributes( );1;0;3
+JDBCDiskCache.constructLikeParameterFromPattern( String pattern );2;0;9
+JDBCDiskCache.reset( );1;0;2
+JDBCDiskCache.getDiskLocation( );1;0;3
+JDBCDiskCache.getTableName( );2;1;8
+JDBCDiskCache.incrementGetCount( );1;1;3
+JDBCDiskCache.getElementSerializer( );1;0;3
+JDBCDiskCache.setTableState( TableState tableState );1;0;3
+JDBCDiskCache.updateRow( ICacheElement ce , Connection con , byte [ ] element );3;2;29
+JDBCDiskCache.insertRow( ICacheElement ce , Connection con , byte [ ] element );8;13;49
+JDBCDiskCache.processUpdate( ICacheElement ce );15;4;95
+JDBCDiskCache.initializePoolAccess( JDBCDiskCacheAttributes cattr , ICompositeCacheManager compositeCacheManager );4;3;33
+JDBCDiskCache.incrementGetMatchingCount( );1;1;3
+JDBCDiskCache.processRemoveAll( );7;1;50
+JDBCDiskCache.doesElementExist( ICacheElement ce );8;1;60

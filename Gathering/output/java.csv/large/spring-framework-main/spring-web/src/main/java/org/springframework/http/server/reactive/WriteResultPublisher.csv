@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WriteResultPublisher.publishError( WriteResultPublisher publisher , Throwable ex );2;2;6
+WriteResultSubscription.WriteResultSubscription( WriteResultPublisher publisher );1;0;3
+WriteResultPublisher.request( WriteResultPublisher publisher , long n );1;0;3
+WriteResultSubscription.getState( );1;0;3
+WriteResultSubscription.request( long n );3;2;7
+WriteResultPublisher.cancel( WriteResultPublisher publisher );1;0;2
+WriteResultPublisher.publishComplete( WriteResultPublisher publisher );2;3;6
+WriteResultPublisher.WriteResultPublisher( String logPrefix , Runnable cancelTask );1;0;4
+WriteResultSubscription.cancel( );2;1;7
+WriteResultPublisher.publishError( WriteResultPublisher publisher , Throwable t );1;1;2
+WriteResultPublisher.publishError( Throwable t );2;2;7
+WriteResultPublisher.changeState( State oldState , State newState );1;0;3
+WriteResultPublisher.subscribe( Subscriber < ? super Void > subscriber );2;1;6
+WriteResultPublisher.publishComplete( );2;1;7
+WriteResultPublisher.subscribe( WriteResultPublisher publisher , Subscriber < ? super Void > subscriber );4;1;19

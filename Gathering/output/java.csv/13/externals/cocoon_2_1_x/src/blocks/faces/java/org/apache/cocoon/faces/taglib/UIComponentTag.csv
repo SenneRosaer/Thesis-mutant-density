@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UIComponentTag.setIntegerProperty( UIComponent component , String name , String value );3;1;10
+UIComponentTag.getDoEndValue( );1;0;3
+UIComponentTag.getFacesContext( );1;0;3
+UIComponentTag.getComponentInstance( );1;0;3
+UIComponentTag.findComponent( UIComponentTag parentTag );4;3;16
+UIComponentTag.setProperties( UIComponent component );4;2;13
+UIComponentTag.getBinding( );1;0;3
+UIComponentTag.getCreated( );1;0;3
+UIComponentTag.doEndTag( String namespaceURI , String localName , String qName );4;1;17
+UIComponentTag.addFacet( String name );2;1;6
+UIComponentTag.setId( String id );1;0;3
+UIComponentTag.doStartTag( String namespaceURI , String localName , String qName , Attributes attrs );4;2;15
+UIComponentTag.isSuppressed( );6;4;17
+UIComponentTag.setup( SourceResolver resolver , Map objectModel , Parameters parameters );2;1;10
+UIComponentTag.createValueBinding( String valueRef );1;0;3
+UIComponentTag.getFacetName( );2;0;7
+UIComponentTag.getRendered( );1;0;3
+UIComponentTag.removeOldChildren( );7;4;21
+UIComponentTag.evaluate( String value );2;0;6
+UIComponentTag.evaluateLong( String value );2;0;7
+UIComponentTag.evaluateInteger( String value );2;0;7
+UIComponentTag.setBooleanProperty( UIComponent component , String name , String value );3;1;10
+UIComponentTag.removeOldFacets( );7;4;22
+UIComponentTag.createId( );2;1;6
+UIComponentTag.evaluateBoolean( String value );2;0;7
+UIComponentTag.setRendered( String rendered );1;0;3
+UIComponentTag.findParent( );3;3;7
+UIComponentTag.recycle( );1;0;11
+UIComponentTag.addChild( UIComponent child );2;1;6
+UIComponentTag.getApplication( );1;0;3
+UIComponentTag.encodeBegin( );1;0;3
+UIComponentTag.createChild( UIComponentTag parentTag , String id );2;1;10
+UIComponentTag.getId( );1;0;3
+UIComponentTag.createComponent( String id );2;1;15
+UIComponentTag.evaluateDouble( String value );2;0;7
+UIComponentTag.encodeEnd( );1;0;3
+UIComponentTag.getDoStartValue( );1;0;3
+UIComponentTag.setProperty( UIComponent component , String name , String value );3;1;10
+UIComponentTag.createFacet( UIComponentTag parentTag , String name , String id );2;1;10
+UIComponentTag.encodeChildren( );1;0;3
+UIComponentTag.setBinding( String binding );2;1;6

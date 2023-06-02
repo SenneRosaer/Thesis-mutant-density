@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpringCacheAnnotationParser.parseCacheAnnotations( Class < ? > type );1;0;4
+SpringCacheAnnotationParser.hashCode( );1;0;3
+SpringCacheAnnotationParser.parseCacheAnnotations( Method method );1;0;4
+SpringCacheAnnotationParser.parseEvictAnnotation( AnnotatedElement ae , DefaultCacheConfig defaultConfig , CacheEvict cacheEvict );1;0;16
+SpringCacheAnnotationParser.validateCacheOperation( AnnotatedElement ae , CacheOperation operation );5;2;15
+DefaultCacheConfig.applyDefault( CacheOperation . Builder builder );12;9;27
+SpringCacheAnnotationParser.parseCacheAnnotations( DefaultCacheConfig cachingConfig , AnnotatedElement ae , boolean localOnly );4;0;18
+SpringCacheAnnotationParser.parseCacheableAnnotation( AnnotatedElement ae , DefaultCacheConfig defaultConfig , Cacheable cacheable );1;0;16
+SpringCacheAnnotationParser.parseCachingAnnotation( AnnotatedElement ae , DefaultCacheConfig defaultConfig , Caching caching , Collection < CacheOperation > ops );4;0;14
+SpringCacheAnnotationParser.parsePutAnnotation( AnnotatedElement ae , DefaultCacheConfig defaultConfig , CachePut cachePut );1;0;15
+SpringCacheAnnotationParser.parseCacheAnnotations( DefaultCacheConfig cachingConfig , AnnotatedElement ae );4;4;10
+DefaultCacheConfig.DefaultCacheConfig( Class < ? > target );1;0;3
+SpringCacheAnnotationParser.isCandidateClass( Class < ? > targetClass );1;0;3
+SpringCacheAnnotationParser.equals( @ Nullable Object other );1;0;3

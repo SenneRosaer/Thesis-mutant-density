@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StAXStreamResultBuilder.startDocument( StartDocument event );3;2;6
+StAXStreamResultBuilder.processingInstruction( ProcessingInstruction event );3;3;9
+StAXStreamResultBuilder.setStAXResult( StAXResult result );2;1;6
+StAXStreamResultBuilder.endCDATA( Augmentations augs );1;0;3
+StAXStreamResultBuilder.ignorableWhitespace( XMLString text , Augmentations augs );1;0;3
+StAXStreamResultBuilder.endDocument( XMLStreamReader reader );1;0;4
+StAXStreamResultBuilder.comment( Comment event );1;0;3
+StAXStreamResultBuilder.endElement( QName element , Augmentations augs );2;0;8
+StAXStreamResultBuilder.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );1;0;1
+StAXStreamResultBuilder.comment( XMLStreamReader reader );1;0;3
+StAXStreamResultBuilder.doctypeDecl( DTD event );1;0;3
+StAXStreamResultBuilder.startElement( QName element , XMLAttributes attributes , Augmentations augs );13;13;45
+StAXStreamResultBuilder.startGeneralEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );1;0;1
+StAXStreamResultBuilder.setDocumentSource( XMLDocumentSource source );1;0;1
+StAXStreamResultBuilder.characters( Characters event );1;0;3
+StAXStreamResultBuilder.textDecl( String version , String encoding , Augmentations augs );1;0;1
+StAXStreamResultBuilder.setIgnoringCharacters( boolean ignore );1;0;3
+StAXStreamResultBuilder.comment( XMLString text , Augmentations augs );1;0;1
+StAXStreamResultBuilder.getDocumentSource( );1;0;3
+StAXStreamResultBuilder.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );1;0;1
+StAXStreamResultBuilder.startDocument( XMLStreamReader reader );3;2;6
+StAXStreamResultBuilder.characters( XMLString text , Augmentations augs );4;2;15
+StAXStreamResultBuilder.StAXStreamResultBuilder( JAXPNamespaceContextWrapper context );1;0;3
+StAXStreamResultBuilder.endDocument( Augmentations augs );1;0;1
+StAXStreamResultBuilder.processingInstruction( XMLStreamReader reader );3;3;9
+StAXStreamResultBuilder.processingInstruction( String target , XMLString data , Augmentations augs );1;0;1
+StAXStreamResultBuilder.endDocument( EndDocument event );1;0;4
+StAXStreamResultBuilder.xmlDecl( String version , String encoding , String standalone , Augmentations augs );1;0;1
+StAXStreamResultBuilder.endGeneralEntity( String name , Augmentations augs );1;0;1
+StAXStreamResultBuilder.entityReference( EntityReference event );1;0;3
+StAXStreamResultBuilder.entityReference( XMLStreamReader reader );1;0;3
+StAXStreamResultBuilder.startCDATA( Augmentations augs );1;0;3
+StAXStreamResultBuilder.cdata( Characters event );1;0;3
+StAXStreamResultBuilder.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );1;0;4

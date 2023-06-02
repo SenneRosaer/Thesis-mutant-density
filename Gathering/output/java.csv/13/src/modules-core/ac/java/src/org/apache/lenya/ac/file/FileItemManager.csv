@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileItemManager.addItemManagerListener( ItemManagerListener listener );3;1;8
+FileItemManager.removeItemManagerListener( ItemManagerListener listener );2;0;6
+FileItemManager.getConfigurationDirectory( );1;0;3
+FileItemManager.loadItem( File file );4;2;27
+FileItemManager.loadItems( );10;8;38
+FileItemManager.getItemConfiguration( File file );2;0;14
+FileItemManager.configure( File _configurationDirectory );3;4;11
+DirectoryChangeNotifier.hasChanged( );11;12;42
+FileItemManager.removeItem( File file );1;0;2
+FileItemManager.getAccreditableManager( );1;0;3
+FileItemManager.update( Item newItem );2;0;7
+FileItemManager.FileItemManager( AccreditableManager accreditableManager );1;0;3
+FileItemManager.getFileFilter( );1;0;8
+FileItemManager.remove( Item item );2;0;7
+FileItemManager.notifyRemoved( Item item );4;0;13
+FileItemManager.getItems( );2;0;8
+DirectoryChangeNotifier.getRemovedFiles( );1;0;3
+DirectoryChangeNotifier.DirectoryChangeNotifier( File _directory , FileFilter _filter );1;0;4
+DirectoryChangeNotifier.getAddedFiles( );1;0;3
+DirectoryChangeNotifier.getChangedFiles( );1;0;3
+FileItemManager.getItem( String id );2;0;8
+FileItemManager.accept( File pathname );1;0;3
+FileItemManager.notifyAdded( Item item );3;0;10
+FileItemManager.contains( Item item );2;0;8
+FileItemManager.add( Item item );2;1;8

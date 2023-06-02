@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChecksumValidatorMojo.key( Artifact pom );1;0;11
+ChecksumValidatorMojo.toString( byte [ ] digest );2;6;8
+ChecksumValidatorMojo.generateArtifact( HashMap checksums , Artifact artifact );5;5;20
+ChecksumValidatorMojo.generate( );4;2;19
+ChecksumValidatorMojo.execute( );2;0;7
+ChecksumValidatorMojo.checksum( File file );5;2;25
+ChecksumValidatorMojo.keyAnyVersion( Artifact pom );1;0;11
+ChecksumValidatorMojo.resolve( Artifact artifact );3;1;10
+ChecksumValidatorMojo.getPomArtifact( Artifact artifact );1;0;3
+ChecksumValidatorMojo.validate( );3;2;14
+ChecksumValidatorMojo.getArtifacts( );4;0;13
+ChecksumValidatorMojo.validateArtifact( LinkedHashMap checksums , Artifact artifact );5;5;17
+ChecksumValidatorMojo.loadChecksums( );8;6;34
+ChecksumValidatorMojo.storeChecksums( LinkedHashMap checksums );8;3;41

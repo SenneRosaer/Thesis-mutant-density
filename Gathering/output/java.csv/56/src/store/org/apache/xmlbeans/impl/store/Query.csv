@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DelegateQueryEngine.loadNodeHelper( Locale locale , Node node , Locale . LoadContext context );2;1;10
+Query.createXqrlCompiledQuery( String queryExpr , String currentVar );7;2;37
+DelegateQueryEngine.DelegateQueryEngine( QueryDelegate . QueryInterface xqImpl , Cur c , XmlOptions opt );1;0;6
+Query.getCompiledQuery( String queryExpr , XmlOptions options );1;0;3
+DelegateQueryEngine.loadNode( Locale locale , Node node );2;0;13
+Query.objectExecQuery( Cur c , String queryExpr , XmlOptions options );1;0;3
+DelegateQueryEngine.getType( Object node );9;0;22
+DelegateQueryEngine.release( );2;1;6
+Query.getCompiledQuery( String queryExpr , String currentVar , XmlOptions options );11;8;53
+DelegateQueryEngine.cursorExecute( );5;7;31
+DelegateQueryImpl.createDelegateCompiledQuery( String delIntfName , String queryExpr , String currentVar , int boundary );3;3;9
+Query.getXqrl2002CompiledQuery( String queryExpr , String currentVar );7;2;36
+DelegateQueryImpl.DelegateQueryImpl( QueryDelegate . QueryInterface xqueryImpl );1;0;3
+DelegateQueryImpl.cursorExecute( Cur c , XmlOptions options );1;0;3
+Query.cursorExecQuery( Cur c , String queryExpr , XmlOptions options );1;0;3
+DelegateQueryImpl.objectExecute( Cur c , XmlOptions options );1;0;3
+Query.compileQuery( String queryExpr , XmlOptions options );1;0;4
+DelegateQueryEngine.objectExecute( );6;8;40

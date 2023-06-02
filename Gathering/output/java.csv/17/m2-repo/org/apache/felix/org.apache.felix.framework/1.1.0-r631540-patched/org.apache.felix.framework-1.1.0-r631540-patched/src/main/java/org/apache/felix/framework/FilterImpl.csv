@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FilterImpl.FilterImpl( String expr );1;0;3
+FilterImpl.match( Dictionary dict );1;0;3
+FilterImpl.hashCode( );1;0;3
+SimpleMapper.setSource( Dictionary dict , boolean caseSensitive );5;3;29
+FilterImpl.toString( );2;1;7
+SimpleMapper.lookup( String name );2;1;7
+FilterImpl.matchCase( Dictionary dict );1;0;3
+FilterImpl.equals( Object o );3;1;11
+SimpleMapper.setSource( ServiceReference ref );1;0;4
+FilterImpl.match( ServiceReference ref );1;0;3
+FilterImpl.FilterImpl( Logger logger , String expr );5;2;29
+FilterImpl.log( int flag , String msg , Throwable th );2;2;10
+FilterImpl.match( Dictionary dict , ServiceReference ref , boolean caseSensitive );8;5;56

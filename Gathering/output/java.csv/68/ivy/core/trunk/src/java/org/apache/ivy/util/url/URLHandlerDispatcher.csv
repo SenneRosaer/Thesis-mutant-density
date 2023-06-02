@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+URLHandlerDispatcher.download( URL src , File dest , CopyProgressListener l );1;0;3
+URLHandlerDispatcher.getLastModified( URL url , int timeout );1;0;3
+URLHandlerDispatcher.getLastModified( URL url );1;0;3
+URLHandlerDispatcher.getHandler( String protocol );2;1;4
+URLHandlerDispatcher.getContentLength( URL url );1;0;3
+URLHandlerDispatcher.getURLInfo( URL url , int timeout );1;0;3
+URLHandlerDispatcher.isReachable( URL url );1;0;3
+URLHandlerDispatcher.getURLInfo( URL url );1;0;3
+URLHandlerDispatcher.getDefault( );1;0;3
+URLHandlerDispatcher.getContentLength( URL url , int timeout );1;0;3
+URLHandlerDispatcher.isReachable( URL url , int timeout );1;0;3
+URLHandlerDispatcher.setDownloader( String protocol , URLHandler downloader );1;0;3
+URLHandlerDispatcher.setRequestMethod( int requestMethod );2;0;7
+URLHandlerDispatcher.setDefault( URLHandler default1 );1;0;3
+URLHandlerDispatcher.upload( File src , URL dest , CopyProgressListener l );1;0;3
+URLHandlerDispatcher.openStream( URL url );1;0;3
+URLHandlerDispatcher.URLHandlerDispatcher( );1;0;2

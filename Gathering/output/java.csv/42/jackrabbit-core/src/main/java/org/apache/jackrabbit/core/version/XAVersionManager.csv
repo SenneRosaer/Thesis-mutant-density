@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XAVersionManager.getNodeReferences( NodeReferencesId id );2;1;7
+XAVersionManager.getVirtualItemStateProvider( );1;0;3
+XAVersionManager.isVirtualRoot( ItemId id );1;0;3
+XAVersionManager.checkin( InternalVersionHistoryImpl history , NodeImpl node );3;2;13
+XAVersionManager.createVersionHistory( Session session , NodeState node );2;0;13
+XAVersionManager.hasNodeReferences( NodeReferencesId id );2;2;7
+XAVersionManager.removeVersion( InternalVersionHistoryImpl history , Name name );4;5;16
+XAVersionManager.createNodeState( VirtualNodeState parent , Name name , NodeId id , Name nodeTypeName );1;0;3
+XAVersionManager.checkin( NodeImpl node );2;0;9
+XAVersionManager.setVersionLabel( InternalVersionHistoryImpl history , Name version , Name label , boolean move );2;1;7
+XAVersionManager.removeVersion( VersionHistory history , Name versionName );2;0;9
+XAVersionManager.getXAResourceEnd( );2;0;24
+XAVersionManager.close( );1;0;3
+XAVersionManager.getXAResourceBegin( );2;0;21
+XAVersionManager.afterOperation( TransactionContext tx );1;0;3
+XAVersionManager.commit( TransactionContext tx );2;0;7
+XAVersionManager.hasItem( NodeId id );3;2;6
+XAVersionManager.prepare( TransactionContext tx );2;1;5
+XAVersionManager.rollback( TransactionContext tx );2;0;5
+XAVersionManager.internalReleaseWriteLock( );2;0;6
+XAVersionManager.associate( TransactionContext tx );3;2;12
+XAVersionManager.createEventStateCollection( );1;0;3
+XAVersionManager.isInXA( );1;1;3
+XAVersionManager.addListener( ItemStateListener listener );1;0;2
+XAVersionManager.setVersionLabel( VersionHistory history , Name version , Name label , boolean move );3;1;13
+XAVersionManager.removeListener( ItemStateListener listener );1;0;2
+XAVersionManager.beforeOperation( TransactionContext tx );1;0;3
+XAVersionManager.hasItemState( ItemId id );2;1;7
+XAVersionManager.XAVersionManager( VersionManagerImpl vMgr , NodeTypeRegistry ntReg , SessionImpl session , ItemStateCacheFactory cacheFactory );2;0;14
+XAVersionManager.differentXAEnv( InternalVersionItemImpl item );4;4;8
+XAVersionManager.setNodeReferences( ChangeLog references );3;1;12
+XAVersionManager.makeLocalCopy( InternalVersionHistoryImpl history );2;0;12
+XAVersionManager.versionCreated( InternalVersion version );1;0;3
+XAVersionManager.versionDestroyed( InternalVersion version );1;0;3
+XAVersionManager.getItemState( ItemId id );2;1;7
+XAVersionManager.hasItemReferences( InternalVersionItem item );1;0;3
+XAVersionManager.getVirtualRootId( );1;0;3
+XAVersionManager.getItem( NodeId id );3;2;10
+XAVersionManager.createPropertyState( VirtualNodeState parent , Name name , int type , boolean multiValued );1;0;3

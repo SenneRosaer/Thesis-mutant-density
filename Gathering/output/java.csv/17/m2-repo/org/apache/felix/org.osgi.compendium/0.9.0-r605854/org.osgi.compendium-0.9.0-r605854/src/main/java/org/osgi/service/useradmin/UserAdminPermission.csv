@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UserAdminPermission.match_property( char [ ] a , int i );16;47;9
+***not in a method***;0;4;0
+UserAdminPermission.getMask( );1;0;3
+UserAdminPermission.match_credential( char [ ] a , int i );20;59;11
+UserAdminPermission.newPermissionCollection( );1;0;3
+UserAdminPermissionCollection.UserAdminPermissionCollection( );1;0;4
+UserAdminPermissionCollection.implies( Permission permission );11;20;40
+UserAdminPermission.match_change( char [ ] a , int i );12;35;7
+UserAdminPermission.UserAdminPermission( String name , String actions );1;0;3
+UserAdminPermission.readObject( java . io . ObjectInputStream ois );1;0;4
+UserAdminPermission.getMask( String actions );28;39;60
+UserAdminPermission.equals( Object obj );4;3;13
+UserAdminPermission.getActions( );7;7;23
+UserAdminPermission.toString( );3;2;17
+UserAdminPermission.UserAdminPermission( String name , int mask );1;0;4
+UserAdminPermissionCollection.add( Permission permission );7;5;28
+UserAdminPermission.hashCode( );1;1;3
+UserAdminPermission.match_get( char [ ] a , int i );6;17;4
+UserAdminPermission.implies( Permission p );5;7;13
+UserAdminPermission.init( int mask );5;5;14
+UserAdminPermission.writeObject( java . io . ObjectOutputStream s );2;1;5
+UserAdminPermissionCollection.elements( );1;0;3

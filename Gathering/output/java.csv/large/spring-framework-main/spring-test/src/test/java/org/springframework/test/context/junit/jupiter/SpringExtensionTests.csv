@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpringExtensionTests.valueParameterFromSpelExpressionWithNestedPropertyPlaceholder( @ Value ( "#{'Hello ' + ${enigma}}" ) String hello );1;0;4
+SpringExtensionTests.autowiredParameterByTypeForSingleBean( @ Autowired Dog dog );1;0;4
+SpringExtensionTests.autowiredParameterOfList( @ Autowired List < Person > peopleParam );1;0;4
+SpringExtensionTests.autowiredParameterThatDoesNotExistAsJavaUtilOptional( @ Autowired Optional < Number > number );1;0;4
+SpringExtensionTests.autowiredParameterByTypeForPrimaryBean( @ Autowired Cat primaryCat );1;0;4
+SpringExtensionTests.autowiredParameterAsJavaUtilOptional( @ Autowired Optional < Dog > dog );1;0;5
+SpringExtensionTests.applicationContextInjectedIntoMethod( ApplicationContext applicationContext );1;0;4
+SpringExtensionTests.valueParameterFromDefaultValueForPropertyPlaceholder( @ Value ( "${bogus:false}" ) Boolean defaultValue );1;0;4
+SpringExtensionTests.autowiredFields( );1;0;12
+SpringExtensionTests.autowiredParameterWithExplicitQualifier( @ Qualifier ( "wally" ) Person person );1;0;4
+SpringExtensionTests.genericApplicationContextInjectedIntoMethod( GenericApplicationContext applicationContext );1;0;4
+SpringExtensionTests.valueParameterFromSpelExpression( @ Value ( "#{@dilbert.name}" ) String name );1;0;4
+SpringExtensionTests.autowiredParameterThatDoesNotExistButIsNotRequired( @ Autowired ( required = false ) Number number );1;0;3
+SpringExtensionTests.junitAndSpringMethodInjectionCombined( @ Autowired Cat kittyCat , TestInfo testInfo , ApplicationContext context , TestReporter testReporter );1;0;6
+SpringExtensionTests.autowiredParameterWithImplicitQualifierBasedOnParameterName( @ Autowired Person wally );1;0;4
+SpringExtensionTests.valueParameterFromPropertyPlaceholder( @ Value ( "${enigma}" ) Integer enigmaParam );1;0;4
+SpringExtensionTests.valueParameterWithPrimitiveType( @ Value ( "99" ) int num );1;0;3

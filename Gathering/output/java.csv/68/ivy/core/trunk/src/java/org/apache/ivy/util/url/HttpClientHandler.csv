@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GETInputStream.mark( int readlimit );1;0;3
+GETInputStream.markSupported( );1;0;3
+GETInputStream.toString( );1;0;3
+HttpClientHandler.useProxyAuthentication( );2;3;3
+GETInputStream.read( );1;0;3
+GETInputStream.GETInputStream( GetMethod get );1;0;4
+HttpClientHandler.getURLInfo( URL url );1;0;3
+HttpClientHandler.getHttpClientMajorVersion( );1;0;4
+HttpClientHandler.useAuthentication( URL url );1;1;3
+HttpClientHandler.configureProxy( );2;0;13
+GETInputStream.read( byte [ ] b );1;0;3
+HttpClientHelper3x.getResponseContentLength( HttpMethodBase method );1;0;3
+HttpClientHelper3x.getHttpClientMajorVersion( );1;0;3
+HttpClientHelper2x.getHttpClientMajorVersion( );1;0;3
+HttpClientHandler.useProxy( );2;3;3
+GETInputStream.hashCode( );1;0;3
+GETInputStream.equals( Object obj );1;0;3
+HttpClientHandler.getHttpClientHelper( );4;1;20
+HttpClientHandler.getCredentials( URL url );1;0;3
+HttpClientHelper3x.HttpClientHelper3x( );1;0;2
+HttpClientHandler.upload( File src , URL dest , CopyProgressListener l );4;2;20
+HttpClientHandler.getURLInfo( URL url , int timeout );8;2;28
+GETInputStream.close( );1;0;4
+HttpClientHandler.getResponseContentLength( HttpMethodBase head );1;0;3
+HttpClientHelper2x.HttpClientHelper2x( );1;0;2
+HttpClientHandler.checkStatusCode( URL url , HttpMethodBase method );5;2;15
+HttpClientHandler.HttpClientHandler( );1;0;3
+GETInputStream.available( );1;0;3
+GETInputStream.reset( );1;0;3
+HttpClientHandler.openStream( URL url );2;1;10
+GETInputStream.read( byte [ ] b , int off , int len );1;0;3
+HttpClientHandler.doGet( URL url , int timeout );2;1;8
+HttpClientHandler.download( URL src , File dest , CopyProgressListener l );2;1;14
+HttpClientHandler.getLastModified( HttpMethodBase method );3;1;13
+HttpClientHelper2x.getResponseContentLength( HttpMethodBase method );3;1;11
+HttpClientHandler.getClient( URL url );5;2;32
+HttpClientHandler.run( );1;0;3
+HttpClientHandler.doHead( URL url , int timeout );2;1;8
+GETInputStream.skip( long n );1;0;3

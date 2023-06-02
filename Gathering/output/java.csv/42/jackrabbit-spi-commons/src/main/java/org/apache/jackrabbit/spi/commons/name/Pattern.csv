@@ -1,0 +1,44 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Pattern.sequence( Pattern pattern1 , Pattern pattern2 );3;3;6
+Pattern.match( Path input );2;0;9
+Pattern.name( String namespaceUri , String localName );3;3;6
+Pattern.match( Context input );1;0;3
+SequencePattern.match( Context input );2;0;9
+Context.isExhausted( );1;1;3
+SelectPattern.toString( );1;0;9
+Context.isMatch( );1;0;3
+AbstractNamePattern.match( Context input );5;4;14
+SelectPattern.match( Context input );2;1;6
+RepeatPattern.RepeatPattern( Pattern pattern );1;0;4
+PathPattern.match( Context input );6;5;21
+PathPattern.toString( );1;0;7
+RepeatPattern.toString( );1;0;7
+Pattern.repeat( Pattern pattern );2;1;6
+Pattern.selection( Pattern pattern1 , Pattern pattern2 );3;3;6
+RepeatPattern.match( Context input );6;9;16
+RegexPattern.RegexPattern( String namespaceUri , String localName );1;0;7
+Pattern.toString( );1;0;3
+Context.matchToEnd( );1;0;3
+Pattern.name( Name name );2;1;6
+SelectPattern.SelectPattern( Pattern pattern1 , Pattern pattern2 );1;0;5
+NamePattern.toString( );1;0;7
+Context.match( int count );1;1;3
+Context.toString( );1;1;3
+Context.getRemainder( );2;1;8
+SequencePattern.SequencePattern( Pattern pattern1 , Pattern pattern2 );1;0;5
+RepeatPattern.hasBounds( );1;0;3
+Context.Context( Context context , int pos , boolean matched );2;1;9
+PathPattern.PathPattern( Path path );1;0;5
+Pattern.repeat( Pattern pattern , int min , int max );2;1;6
+Context.getMatchResult( );2;0;3
+Pattern.nothing( );1;0;3
+NamePattern.NamePattern( Name name );1;0;4
+RegexPattern.toString( );1;0;9
+RegexPattern.matches( Element element );2;1;6
+Pattern.all( );1;0;3
+NamePattern.matches( Element element );1;0;3
+SequencePattern.toString( );1;0;9
+RepeatPattern.RepeatPattern( Pattern pattern , int min , int max );1;0;7
+Context.Context( Path path );1;0;7
+Pattern.path( Path path );2;1;6
+Context.noMatch( );1;0;3

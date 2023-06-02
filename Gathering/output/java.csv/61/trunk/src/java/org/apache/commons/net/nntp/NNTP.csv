@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NNTP.head( String messageId );1;0;3
+NNTP.post( );1;0;3
+NNTP.stat( int articleNumber );1;0;3
+NNTP.body( int articleNumber );1;0;3
+NNTP.body( String messageId );1;0;3
+NNTP.head( int articleNumber );1;0;3
+NNTP.NNTP( );1;0;9
+NNTP.list( );1;0;3
+NNTP.article( );1;0;3
+NNTP.xover( String selectedArticles );1;0;3
+NNTP.ihave( String messageId );1;0;3
+NNTP._connectAction_( );1;1;11
+NNTP.stat( );1;0;3
+NNTP.getReplyCode( );1;0;3
+NNTP.sendCommand( String command );1;0;3
+NNTP.getReply( );1;0;4
+NNTP.next( );1;0;3
+NNTP.sendCommand( int command );1;0;3
+NNTP.head( );1;0;3
+NNTP.last( );1;0;3
+NNTP.sendCommand( int command , String args );1;0;3
+NNTP.isAllowedToPost( );1;0;3
+NNTP.sendCommand( String command , String args );3;2;17
+NNTP.authinfoPass( String password );1;0;4
+NNTP.authinfoUser( String username );1;0;4
+NNTP.newnews( String newsgroups , String date , String time , boolean GMT , String distributions );3;1;20
+NNTP.help( );1;0;3
+NNTP.__getReply( );6;5;24
+NNTP.article( int articleNumber );1;0;3
+NNTP.removeProtocolCommandListener( ProtocolCommandListener listener );1;0;3
+NNTP.article( String messageId );1;0;3
+NNTP.group( String newsgroup );1;0;3
+NNTP.listActive( String wildmat );1;0;5
+NNTP.body( );1;0;3
+NNTP.newgroups( String date , String time , boolean GMT , String distributions );3;1;18
+NNTP.getReplyString( );1;0;3
+NNTP.quit( );1;0;3
+NNTP.disconnect( );1;0;7
+NNTP.stat( String messageId );1;0;3
+NNTP.xhdr( String header , String selectedArticles );1;0;6
+NNTP.addProtocolCommandListener( ProtocolCommandListener listener );1;0;3

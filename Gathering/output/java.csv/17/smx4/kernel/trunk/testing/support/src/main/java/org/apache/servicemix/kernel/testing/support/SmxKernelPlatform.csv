@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SmxKernelPlatform.toURLs( String [ ] jars );3;2;11
+SmxKernelPlatform.getJars( Class ... classes );4;1;15
+SmxKernelPlatform.stop( );1;0;8
+SmxKernelPlatform.start( BundleContext context );1;0;12
+SmxKernelPlatform.stop( BundleContext context );1;0;3
+GuardClassLoader.nextElement( );1;0;3
+SmxKernelPlatform.createTempDir( String suffix );4;1;18
+GuardClassLoader.loadClass( String name , boolean resolve );11;4;33
+GuardClassLoader.getResource( String name );3;2;9
+SmxKernelPlatform.getArgs( );1;0;3
+SmxKernelPlatform.getConfigurationProperties( );1;0;5
+SmxKernelPlatform.delete( File file );4;5;12
+SmxKernelPlatform.toString( );1;0;3
+SmxKernelPlatform.run( );1;0;4
+SmxKernelPlatform.setExitCode( int exitCode );1;0;2
+SmxKernelPlatform.getPlatformProperties( );1;0;6
+SmxKernelPlatform.getExitCode( );1;0;3
+SmxKernelPlatform.getBundleContext( );1;0;3
+GuardClassLoader.GuardClassLoader( URL [ ] urls , List < String > additionalPackages );8;4;32
+SmxKernelPlatform.start( );1;0;38
+GuardClassLoader.hasMoreElements( );4;4;10
+SmxKernelPlatform.getFelixConfiguration( );7;2;31
+SmxKernelPlatform.getLocalConfiguration( );2;0;8
+GuardClassLoader.getResources( final String name );4;0;28

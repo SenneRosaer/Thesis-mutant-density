@@ -1,0 +1,112 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SchemaGrammar.getSubstitutionGroups( );2;1;5
+Schema4Annotations.createAnnotationElementDecl( String localName );1;2;10
+SchemaGrammar.getGlobalTypeDecl( String declName );1;0;3
+BuiltinSchemaGrammar.BuiltinSchemaGrammar( int grammar , short schemaVersion );6;5;66
+SchemaGrammar.SchemaGrammar( );1;0;1
+BuiltinSchemaGrammar.addGlobalGroupDecl( XSGroupDecl decl );1;0;2
+Schema4Annotations.createUnboundedModelGroupParticle( );1;0;7
+Schema4Annotations.addGlobalAttributeGroupDecl( XSAttributeGroupDecl decl );1;0;2
+XSAnyType.getParticle( );1;0;18
+Schema4Annotations.addGlobalElementDecl( XSElementDecl decl );1;0;2
+Schema4Annotations.addGlobalAttributeDecl( XSAttributeDecl decl );1;0;2
+BuiltinSchemaGrammar.getSAXParser( );1;0;3
+SchemaGrammar.addGlobalComplexTypeDecl( XSComplexTypeDecl decl );1;0;4
+SchemaGrammar.getNotationDeclaration( String name );1;0;3
+SchemaGrammar.getImportedGrammars( );1;0;3
+BuiltinSchemaGrammar.addDocument( Object document , String location );1;0;2
+XSAnyType.XSAnyType( );1;0;9
+SchemaGrammar.isImmutable( );1;0;3
+SchemaGrammar.getSchemaNamespace( );1;0;3
+SchemaGrammar.addRedefinedGroupDecl( XSGroupDecl derived , XSGroupDecl base , SimpleLocator locator );2;5;9
+SchemaGrammar.getAttributeGroup( String name );1;0;3
+BuiltinAttrDecl.getNamespaceItem( );1;0;3
+Schema4Annotations.addGlobalNotationDecl( XSNotationDecl decl );1;0;2
+XSAnyType.getNamespaceItem( );1;0;3
+SchemaGrammar.addGlobalAttributeDecl( XSAttributeDecl decl );1;0;4
+Schema4Annotations.getGrammarDescription( );1;0;3
+BuiltinSchemaGrammar.getGrammarDescription( );1;0;3
+SchemaGrammar.resize( XSElementDecl [ ] oldArray , int newSize );1;0;5
+SchemaGrammar.getGlobalAttributeDecl( String declName );1;0;3
+SchemaGrammar.getDocumentLocations( );1;0;3
+BuiltinSchemaGrammar.addGlobalComplexTypeDecl( XSComplexTypeDecl decl );1;0;2
+SchemaGrammar.setImportedGrammars( Vector importedGrammars );1;0;3
+XSAnyType.getAttrGrp( );1;0;7
+SchemaGrammar.setUncheckedTypeNum( int newSize );1;0;5
+SchemaGrammar.SchemaGrammar( String targetNamespace , XSDDescription grammarDesc , SymbolTable symbolTable );2;1;15
+Schema4Annotations.addGlobalGroupDecl( XSGroupDecl decl );1;0;2
+SchemaGrammar.addGlobalSimpleTypeDecl( XSSimpleType decl );2;0;6
+Schema4Annotations.getSAXParser( );1;0;3
+SchemaGrammar.getGlobalGroupDecl( String declName );1;0;3
+SchemaGrammar.hasIDConstraints( );1;1;3
+SchemaGrammar.addIDConstraintDecl( XSElementDecl elmDecl , IdentityConstraint decl );1;0;4
+XSAnyType.getAttributeWildcard( );1;0;5
+BuiltinSchemaGrammar.setImportedGrammars( Vector importedGrammars );1;0;2
+SchemaGrammar.getGlobalNotationDecl( String declName );1;0;3
+BuiltinSchemaGrammar.addGlobalNotationDecl( XSNotationDecl decl );1;0;2
+BuiltinSchemaGrammar.addGlobalAttributeGroupDecl( XSAttributeGroupDecl decl );1;0;2
+SchemaGrammar.getIDConstraintDecl( String declName );1;0;3
+SchemaGrammar.getRGLocators( );2;2;7
+BuiltinSchemaGrammar.addGlobalElementDecl( XSElementDecl decl );1;0;2
+BuiltinAttrDecl.getAnnotation( );1;0;3
+XSAnyType.setIsAbstractType( );1;0;2
+***not in a method***;0;1;0
+SchemaGrammar.addComplexTypeDecl( XSComplexTypeDecl decl , SimpleLocator locator );2;4;8
+XSAnyType.getAnnotations( );1;0;3
+Schema4Annotations.addDocument( Object document , String location );1;0;2
+SchemaGrammar.addAnnotation( XSAnnotationImpl annotation );4;5;14
+Schema4Annotations.addRedefinedGroupDecl( XSGroupDecl derived , XSGroupDecl base , SimpleLocator locator );1;0;2
+SchemaGrammar.addGlobalAttributeGroupDecl( XSAttributeGroupDecl decl );1;0;4
+BuiltinSchemaGrammar.addComplexTypeDecl( XSComplexTypeDecl decl , SimpleLocator locator );1;0;2
+SchemaGrammar.addDocument( Object document , String location );2;1;8
+SchemaGrammar.getTargetNamespace( );1;0;3
+Schema4Annotations.setImportedGrammars( Vector importedGrammars );1;0;2
+BuiltinSchemaGrammar.addGlobalSimpleTypeDecl( XSSimpleType decl );1;0;2
+Schema4Annotations.createAnyLaxWildcardParticle( );1;0;12
+SchemaGrammar.resize( SimpleLocator [ ] oldArray , int newSize );1;0;5
+SchemaGrammar.resize( XSGroupDecl [ ] oldArray , int newSize );1;0;5
+SchemaGrammar.getGrammarDescription( );1;0;3
+SchemaGrammar.getGlobalAttributeGroupDecl( String declName );1;0;3
+SchemaGrammar.getModelGroupDefinition( String name );1;0;3
+SchemaGrammar.getAnnotations( );2;1;6
+SchemaGrammar.getDOMParser( );4;5;18
+Schema4Annotations.addComplexTypeDecl( XSComplexTypeDecl decl , SimpleLocator locator );1;0;2
+Schema4Annotations.addGlobalComplexTypeDecl( XSComplexTypeDecl decl );1;0;2
+XSAnyType.setContainsTypeID( );1;0;2
+Schema4Annotations.getDOMParser( );1;0;3
+SchemaGrammar.getGlobalElementDecl( String declName );1;0;3
+BuiltinAttrDecl.reset( );1;0;2
+SchemaGrammar.addGlobalTypeDecl( XSTypeDefinition decl );3;0;9
+SchemaGrammar.toXSModel( );1;0;3
+BuiltinAttrDecl.setValues( String name , String targetNamespace , XSSimpleType simpleType , short constraintType , short scope , ValidatedInfo valInfo , XSComplexTypeDecl enclosingCT );1;0;2
+SchemaGrammar.getS4SGrammar( short schemaVersion );2;1;8
+SchemaGrammar.setImmutable( boolean isImmutable );1;0;3
+XSAnyType.getAttributeUses( );1;0;3
+XSAnyType.setIsAnonymous( );1;0;2
+Schema4Annotations.createUnboundedAnyWildcardSequenceParticle( );1;0;10
+BuiltinSchemaGrammar.addGlobalTypeDecl( XSTypeDefinition decl );1;0;2
+BuiltinSchemaGrammar.addRedefinedGroupDecl( XSGroupDecl derived , XSGroupDecl base , SimpleLocator locator );1;0;2
+SchemaGrammar.addGlobalGroupDecl( XSGroupDecl decl );1;0;4
+SchemaGrammar.getUncheckedComplexTypeDecls( );2;1;7
+SchemaGrammar.addGlobalNotationDecl( XSNotationDecl decl );1;0;4
+XSAnyType.reset( );1;0;2
+SchemaGrammar.getAttributeDeclaration( String name );1;0;3
+SchemaGrammar.toXSModel( XSGrammar [ ] grammars );8;10;18
+BuiltinAttrDecl.BuiltinAttrDecl( String name , String tns , XSSimpleType type , short scope );1;0;6
+SchemaGrammar.getRedefinedGroupDecls( );2;2;7
+Schema4Annotations.addGlobalSimpleTypeDecl( XSSimpleType decl );1;0;2
+SchemaGrammar.addGlobalElementDecl( XSElementDecl decl );3;4;9
+XSAnyType.setValues( String name , String targetNamespace , XSTypeDefinition baseType , short derivedBy , short schemaFinal , short block , short contentType , boolean isAbstract , XSAttributeGroupDecl attrGrp , XSSimpleType simpleType , XSParticleDecl particle );1;0;2
+SchemaGrammar.isNamespaceAware( );1;0;3
+Schema4Annotations.addGlobalTypeDecl( XSTypeDefinition decl );1;0;2
+SchemaGrammar.getComponents( short objectType );16;11;41
+SchemaGrammar.getSAXParser( );3;4;14
+Schema4Annotations.createChoiceElementParticle( XSElementDecl ref );1;0;8
+SchemaGrammar.resize( XSComplexTypeDecl [ ] oldArray , int newSize );1;0;5
+BuiltinSchemaGrammar.getDOMParser( );1;0;3
+SchemaGrammar.getUncheckedCTLocators( );2;1;7
+BuiltinSchemaGrammar.addGlobalAttributeDecl( XSAttributeDecl decl );1;0;2
+SchemaGrammar.getTypeDefinition( String name );1;0;3
+XSAnyType.setName( String name );1;0;2
+SchemaGrammar.getElementDeclaration( String name );1;0;3
+Schema4Annotations.Schema4Annotations( );1;3;91

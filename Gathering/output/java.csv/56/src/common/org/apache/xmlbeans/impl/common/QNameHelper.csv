@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QNameHelper.readable( SchemaType sType );1;0;3
+QNameHelper.hexsafe( String s );9;15;57
+QNameHelper.readable( QName name , Map prefixes );3;4;8
+QNameHelper.namespace( SchemaType sType );5;5;11
+QNameHelper.startsWithXml( String s , int i );8;15;11
+QNameHelper.readable( SchemaType sType , Map nsPrefix );13;7;47
+QNameHelper.suggestPrefix( String namespace );17;32;47
+QNameHelper.buildWKP( );1;0;10
+QNameHelper.readable( QName name );1;0;3
+QNameHelper.getLocalPart( String qname );2;2;4
+QNameHelper.forLN( String localname );1;0;3
+QNameHelper.forPretty( String pretty , int offset );2;2;6
+QNameHelper.pretty( QName name );4;5;7
+QNameHelper.forLNS( String localname , String uri );2;1;5
+QNameHelper.hexsafedir( QName name );3;4;5
+QNameHelper.isSafe( int c );7;9;9
+QNameHelper.getPrefixPart( String qname );2;1;4
+QNameHelper.getXMLName( QName qname );2;1;5
+QNameHelper.isVowel( char ch );11;0;18

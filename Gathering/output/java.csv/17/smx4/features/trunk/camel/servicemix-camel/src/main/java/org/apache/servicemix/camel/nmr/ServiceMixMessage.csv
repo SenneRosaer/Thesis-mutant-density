@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServiceMixMessage.copyFrom( Message message );1;0;5
+ServiceMixMessage.getHeader( String name , Class < T > type );1;0;3
+ServiceMixMessage.getMessageId( );1;0;3
+ServiceMixMessage.setHeader( Class < T > type , T value );1;0;3
+ServiceMixMessage.setBody( Object content , Class < T > type );1;0;3
+ServiceMixMessage.setHeader( String name , Object value );1;0;3
+ServiceMixMessage.getHeader( String name );1;0;3
+ServiceMixMessage.ServiceMixMessage( org . apache . servicemix . nmr . api . Message message );1;0;3
+ServiceMixMessage.getBody( );1;0;3
+ServiceMixMessage.ServiceMixMessage( ServiceMixExchange exchange , org . apache . servicemix . nmr . api . Message message );1;0;4
+ServiceMixMessage.getHeader( Class < T > type );1;0;3
+ServiceMixMessage.getBody( Class < T > type );1;0;3
+ServiceMixMessage.removeHeader( String name );1;0;3
+ServiceMixMessage.getExchange( );1;0;3
+ServiceMixMessage.setMessageId( String messageId );1;0;3
+ServiceMixMessage.setBody( Object content );1;0;3
+ServiceMixMessage.setHeaders( Map < String , Object > headers );1;0;3
+ServiceMixMessage.getHeaders( );1;0;3
+ServiceMixMessage.copy( );1;0;5

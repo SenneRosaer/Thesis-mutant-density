@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InjectingAnnotationEngine.onInjection( Object testClassInstance , Class < ? > clazz , Set < Field > mockDependentFields , Set < Object > mocks );1;0;1
+InjectingAnnotationEngine.process( Class < ? > clazz , Object testInstance );2;0;10
+InjectingAnnotationEngine.processInjectMocks( final Class < ? > clazz , final Object testInstance );3;1;9
+InjectingAnnotationEngine.injectMocks( Object testClassInstance );2;0;7
+InjectingAnnotationEngine.injectCloseableMocks( final Object testClassInstance );5;1;20
+InjectingAnnotationEngine.processIndependentAnnotations( final Class < ? > clazz , final Object testInstance );3;1;10

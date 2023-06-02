@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MBeanServerFactoryBean.setDefaultDomain( String defaultDomain );1;0;3
+MBeanServerFactoryBean.setAgentId( String agentId );1;0;3
+MBeanServerFactoryBean.locateMBeanServer( @ Nullable String agentId );1;0;3
+MBeanServerFactoryBean.isSingleton( );1;0;3
+MBeanServerFactoryBean.setRegisterWithFactory( boolean registerWithFactory );1;0;3
+MBeanServerFactoryBean.setLocateExistingServerIfPossible( boolean locateExistingServerIfPossible );1;0;3
+MBeanServerFactoryBean.destroy( );2;0;5
+MBeanServerFactoryBean.createMBeanServer( @ Nullable String defaultDomain , boolean registerWithFactory );2;0;8
+MBeanServerFactoryBean.getObjectType( );2;1;3
+MBeanServerFactoryBean.afterPropertiesSet( );6;4;17
+MBeanServerFactoryBean.getObject( );1;0;3

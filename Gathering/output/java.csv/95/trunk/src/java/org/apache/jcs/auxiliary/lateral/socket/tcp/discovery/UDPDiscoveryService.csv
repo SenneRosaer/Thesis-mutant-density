@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UDPDiscoveryService.addNoWait( LateralCacheNoWait noWait );5;1;23
+UDPDiscoveryService.getDiscoveryPort( );1;0;3
+UDPDiscoveryService.addNoWaitFacade( LateralCacheNoWaitFacade facade , String cacheName );3;2;12
+UDPDiscoveryService.shutdown( );5;0;27
+UDPDiscoveryService.UDPDiscoveryService( String discoveryAddress , int discoveryPort , int servicePort , ICompositeCacheManager cacheMgr , ICacheEventLogger cacheEventLogger , IElementSerializer elementSerializer );4;2;37
+UDPDiscoveryService.getServicePort( );1;0;3
+UDPDiscoveryService.setDiscoveryAddress( String discoveryAddress );1;0;3
+UDPDiscoveryService.setServicePort( int servicePort );1;0;3
+UDPDiscoveryService.setTcpLateralCacheAttributes( ITCPLateralCacheAttributes tCPLateralCacheAttributes );1;0;3
+UDPDiscoveryService.serviceRequestBroadcast( );5;1;31
+MyThreadFactory.newThread( Runnable runner );1;0;8
+UDPDiscoveryService.getTcpLateralCacheAttributes( );1;0;3
+UDPDiscoveryService.getDiscoveryAddress( );1;0;3
+UDPDiscoveryService.setDiscoveryPort( int discoveryPort );1;0;3
+UDPDiscoveryService.getCacheNames( );2;0;11

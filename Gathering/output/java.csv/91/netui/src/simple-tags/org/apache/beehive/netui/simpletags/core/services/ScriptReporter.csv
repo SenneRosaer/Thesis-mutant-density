@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScriptReporter.writeLookupMethod( String bundleString , int feature );2;4;8
+ScriptReporter.writeScriptBlock( Appender results , String script );1;1;11
+ScriptReporter.isFeatureWritten( CoreScriptFeature feature );1;2;3
+ScriptReporter.addTagIdMappings( String tagId , String realId , String realName );3;4;10
+ScriptReporter.writeAfterBlocks( Appender appender );4;3;12
+ScriptReporter.writeFrameworkScript( Appender appender );11;12;38
+ScriptReporter.getFeatureKey( CoreScriptFeature feature );12;0;28
+ScriptReporter.writeFeature( CoreScriptFeature feature , boolean singleInstance , boolean inline , Object [ ] args );3;3;10
+ScriptReporter.processIdMap( HashMap map , String mapEntry );4;3;13
+ScriptReporter.addScriptFunction( ScriptPlacement placement , String script );8;10;23
+ScriptReporter.getString( String aKey , Object [ ] args );2;2;8
+ScriptReporter.writeFeature( String featureKey , Object [ ] args );1;0;4
+ScriptReporter.writeScript( Appender appender );2;1;9
+ScriptReporter.writeNetuiNameFunctions( ScriptReporter scriptReporter , boolean writeId , boolean writeName );5;2;9
+ScriptReporter.writeBeforeBlocks( Appender appender );4;3;12
+ScriptReporter.getBundle( );2;1;5

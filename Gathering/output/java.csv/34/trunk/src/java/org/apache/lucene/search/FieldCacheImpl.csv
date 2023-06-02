@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FieldCacheImpl.getStringIndex( IndexReader reader , String field );1;0;3
+FieldCacheImpl.getFloats( IndexReader reader , String field );1;0;3
+FieldCacheImpl.getBytes( IndexReader reader , String field , ByteParser parser );1;0;3
+FieldCacheImpl.getFloats( IndexReader reader , String field , FloatParser parser );1;0;3
+FieldCacheImpl.createValue( IndexReader reader , Object entryKey );5;15;23
+FieldCacheImpl.getShorts( IndexReader reader , String field , ShortParser parser );1;0;3
+FieldCacheImpl.getStrings( IndexReader reader , String field );1;0;3
+Cache.get( IndexReader reader , Object key );5;3;31
+Entry.hashCode( );3;5;3
+FieldCacheImpl.parseByte( String value );1;0;3
+FieldCacheImpl.getAuto( IndexReader reader , String field );1;0;3
+FieldCacheImpl.getInts( IndexReader reader , String field );1;0;3
+FieldCacheImpl.getShorts( IndexReader reader , String field );1;0;3
+FieldCacheImpl.createValue( IndexReader reader , Object fieldKey );5;14;21
+FieldCacheImpl.parseShort( String value );1;0;3
+FieldCacheImpl.getInts( IndexReader reader , String field , IntParser parser );1;0;3
+Entry.Entry( String field , int type , Locale locale );1;0;6
+FieldCacheImpl.parseInt( String value );1;0;3
+FieldCacheImpl.getCustom( IndexReader reader , String field , SortComparator comparator );1;0;3
+FieldCacheImpl.getBytes( IndexReader reader , String field );1;0;3
+FieldCacheImpl.parseFloat( String value );1;0;3
+Entry.equals( Object o );9;7;15
+Entry.Entry( String field , Object custom );1;0;6

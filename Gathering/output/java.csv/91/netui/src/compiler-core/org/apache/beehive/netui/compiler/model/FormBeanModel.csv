@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FormBeanModel.findPropertyIndex( String name );3;3;11
+Property.isRequired( );1;0;3
+FormBeanModel.getPropertyList( );1;0;3
+Property.setMultiValue( boolean multi );1;0;3
+FormBeanModel.addSetProperty( XmlModelWriter xw , Element element , String propertyName , String propertyValue );1;0;3
+FormBeanModel.setType( String type );1;0;3
+Property.setName( String name );1;0;3
+FormBeanModel.addProperty( String name , String type , boolean required , boolean multival );1;0;3
+FormBeanModel.deleteProperty( String name );3;3;10
+Property.Property( String name , String type , boolean required , boolean multival );1;0;6
+FormBeanModel.setClassName( String className );3;1;8
+FormBeanModel.isDynamic( );1;0;3
+FormBeanModel.getType( );1;0;3
+FormBeanModel.isPageFlowScoped( );1;0;3
+FormBeanModel.writeToElement( XmlModelWriter xw , Element element );3;3;12
+Property.isMultiValue( );1;0;3
+FormBeanModel.getFormBeanMessageResourcesKey( );1;0;3
+Property.getName( );1;0;3
+FormBeanModel.setName( String name );1;0;3
+FormBeanModel.setId( String id );1;0;3
+FormBeanModel.setActualType( String actualType );1;0;3
+FormBeanModel.setDynamic( boolean dynamic );1;0;3
+FormBeanModel.findProperty( String name );2;2;4
+FormBeanModel.FormBeanModel( String name , String type , String actualType , boolean pageFlowScoped , String formBeanMessageResorucesKey , StrutsApp parent );1;0;8
+FormBeanModel.getProperties( );1;0;3
+FormBeanModel.updateProperties( Collection newProps );2;1;7
+Property.setRequired( boolean required );1;0;3
+FormBeanModel.getActualType( );1;0;3
+FormBeanModel.getId( );1;0;3
+Property.setType( String type );1;0;3
+FormBeanModel.getName( );1;0;3
+Property.getType( );1;0;3
+FormBeanModel.deleteProperty( Property prop );1;0;3

@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandardWebSocketSession.StandardWebSocketSession( @ Nullable HttpHeaders headers , @ Nullable Map < String , Object > attributes , @ Nullable InetSocketAddress localAddress , @ Nullable InetSocketAddress remoteAddress );1;0;3
+StandardWebSocketSession.sendTextMessage( TextMessage message );1;0;3
+StandardWebSocketSession.getPrincipal( );1;0;3
+StandardWebSocketSession.getUri( );1;0;4
+StandardWebSocketSession.getRemoteAddress( );1;0;3
+StandardWebSocketSession.isOpen( );1;0;3
+StandardWebSocketSession.sendPingMessage( PingMessage message );1;0;3
+StandardWebSocketSession.setTextMessageSizeLimit( int messageSizeLimit );1;0;4
+StandardWebSocketSession.getLocalAddress( );1;0;3
+StandardWebSocketSession.sendPongMessage( PongMessage message );1;0;3
+StandardWebSocketSession.getHandshakeHeaders( );1;0;3
+StandardWebSocketSession.StandardWebSocketSession( @ Nullable HttpHeaders headers , @ Nullable Map < String , Object > attributes , @ Nullable InetSocketAddress localAddress , @ Nullable InetSocketAddress remoteAddress , @ Nullable Principal user );2;1;9
+StandardWebSocketSession.getId( );1;0;3
+StandardWebSocketSession.closeInternal( CloseStatus status );1;0;3
+StandardWebSocketSession.initializeNativeSession( Session session );4;2;19
+StandardWebSocketSession.setBinaryMessageSizeLimit( int messageSizeLimit );1;0;4
+StandardWebSocketSession.getBinaryMessageSizeLimit( );1;0;4
+StandardWebSocketSession.getAcceptedProtocol( );1;0;4
+StandardWebSocketSession.getTextMessageSizeLimit( );1;0;4
+StandardWebSocketSession.sendBinaryMessage( BinaryMessage message );1;0;3
+StandardWebSocketSession.getExtensions( );1;1;4

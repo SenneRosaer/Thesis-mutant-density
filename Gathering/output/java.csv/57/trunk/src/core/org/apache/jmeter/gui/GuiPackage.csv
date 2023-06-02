@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GuiPackage.getCurrentSubTree( );1;0;3
+GuiPackage.setDirty( boolean dirty );1;0;3
+GuiPackage.GuiPackage( );1;0;3
+GuiPackage.addSubTree( HashTree subTree );1;0;3
+GuiPackage.showInfoMessage( final String message , final String title );1;0;3
+GuiPackage.run( );1;0;3
+GuiPackage.isDirty( );1;0;3
+GuiPackage.getTreeListener( );1;0;3
+GuiPackage.getCurrentNode( );1;0;3
+GuiPackage.setTreeModel( JMeterTreeModel newTreeModel );1;0;3
+GuiPackage.getGuiFromCache( Class guiClass , Class testClass );5;4;19
+GuiPackage.setTestPlanFile( String f );2;1;11
+GuiPackage.getInstance( JMeterTreeListener listener , JMeterTreeModel treeModel );2;1;8
+GuiPackage.displayPopUp( MouseEvent e , JPopupMenu popup );1;0;3
+GuiPackage.clearTestPlan( );1;0;5
+GuiPackage.displayPopUp( Component invoker , MouseEvent e , JPopupMenu popup );2;1;9
+GuiPackage.getTreeModel( );1;0;3
+GuiPackage.updateCurrentGui( );1;0;8
+GuiPackage.createTestElement( Class guiClass , Class testClass );2;0;12
+GuiPackage.showWarningMessage( final String message , final String title );1;0;3
+GuiPackage.updateCurrentNode( );4;3;14
+GuiPackage.getGui( TestElement node );4;1;20
+GuiPackage.localeChanged( LocaleChangeEvent event );2;1;15
+GuiPackage.setMainFrame( MainFrame newMainFrame );1;0;3
+GuiPackage.getGui( TestElement node , Class guiClass , Class testClass );3;1;14
+GuiPackage.showErrorMessage( final String message , final String title );1;0;3
+GuiPackage.getInstance( );1;0;3
+GuiPackage.clearTestPlan( TestElement element );1;0;4
+GuiPackage.getMainFrame( );1;0;3
+GuiPackage.getReplacer( );1;0;4
+GuiPackage.getCurrentElement( );1;0;3
+GuiPackage.showMessage( final String message , final String title , final int type );2;1;10
+GuiPackage.removeNode( TestElement node );1;0;3
+GuiPackage.createTestElement( String objClass );6;0;33
+GuiPackage.getCurrentGui( );2;0;15
+GuiPackage.getNodeOf( TestElement userObject );1;0;3
+GuiPackage.setTreeListener( JMeterTreeListener newTreeListener );1;0;3
+GuiPackage.getTestPlanFile( );1;0;3

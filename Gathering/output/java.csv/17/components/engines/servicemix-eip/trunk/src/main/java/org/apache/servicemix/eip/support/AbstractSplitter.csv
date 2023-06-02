@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractSplitter.createPart( URI pattern , NormalizedMessage srcMessage , Source content );5;0;21
+AbstractSplitter.setForwardProperties( boolean forwardProperties );1;0;3
+AbstractSplitter.isForwardProperties( );1;0;3
+AbstractSplitter.isForwardAttachments( );1;0;3
+AbstractSplitter.setTarget( ExchangeTarget target );1;0;3
+AbstractSplitter.setForwardAttachments( boolean forwardAttachments );1;0;3
+AbstractSplitter.getTarget( );1;0;3
+AbstractSplitter.start( );1;0;3
+AbstractSplitter.processSync( MessageExchange exchange );11;9;36
+AbstractSplitter.setSynchronous( boolean synchronous );1;0;3
+AbstractSplitter.isSynchronous( );1;0;3
+AbstractSplitter.createParts( MessageExchange exchange );2;2;13
+AbstractSplitter.setReportErrors( boolean reportErrors );1;0;3
+AbstractSplitter.processAsync( MessageExchange exchange );16;21;63
+AbstractSplitter.isReportErrors( );1;0;3
+AbstractSplitter.validate( );2;1;6

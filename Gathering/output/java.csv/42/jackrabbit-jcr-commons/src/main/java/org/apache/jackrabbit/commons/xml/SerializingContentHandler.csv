@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SerializingContentHandler.getSerializer( Result result );3;0;17
+SerializingContentHandler.startPrefixMapping( String prefix , String uri );4;4;14
+SerializingContentHandler.endPrefixMapping( String prefix );4;2;14
+SerializingContentHandler.needsXmlnsAttributes( );2;2;16
+SerializingContentHandler.getSerializer( OutputStream output );1;0;3
+SerializingContentHandler.SerializingContentHandler( ContentHandler handler );1;0;3
+SerializingContentHandler.endElement( String eltUri , String eltLocalName , String eltQName );6;7;14
+SerializingContentHandler.startDocument( );1;0;6
+SerializingContentHandler.startElement( String eltUri , String eltLocalName , String eltQName , Attributes attrs );16;16;48
+SerializingContentHandler.endDocument( );1;0;6
+SerializingContentHandler.getSerializer( Writer writer );1;0;3
+SerializingContentHandler.checkPrefixMapping( String uri , String qname );10;16;24
+SerializingContentHandler.clearMappings( );1;0;5

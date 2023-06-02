@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ContextPathCompositeHandlerTests.matchWithContextPathEqualToPath( );1;0;12
+ContextPathCompositeHandlerTests.testHandle( String pathToHandle , Map < String , HttpHandler > handlerMap );1;0;6
+ContextPathCompositeHandlerTests.assertNotInvoked( TestHttpHandler ... handlers );1;0;3
+TestHttpHandler.wasInvoked( );1;1;3
+ContextPathCompositeHandlerTests.testInvalid( String contextPath , String expectedError );1;0;5
+ContextPathCompositeHandlerTests.match( );1;0;12
+ContextPathCompositeHandlerTests.notFoundWithCommitAction( );1;0;16
+ContextPathCompositeHandlerTests.matchWithNativeContextPath( );1;0;11
+TestHttpHandler.getRequest( );1;0;3
+ContextPathCompositeHandlerTests.notFound( );1;0;10
+TestHttpHandler.handle( ServerHttpRequest request , ServerHttpResponse response );1;0;4
+ContextPathCompositeHandlerTests.assertInvoked( TestHttpHandler handler , String contextPath );1;0;4
+ContextPathCompositeHandlerTests.invalidContextPath( );1;0;5

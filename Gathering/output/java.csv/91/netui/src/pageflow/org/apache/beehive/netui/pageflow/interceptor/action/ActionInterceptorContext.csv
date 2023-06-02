@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ActionInterceptorContext.hasInterceptorForward( );1;0;3
+ActionInterceptorContext.setOverrideForward( InterceptorForward fwd , ActionInterceptor interceptor );2;1;5
+ActionInterceptorContext.getActionName( );1;0;3
+ActionInterceptorContext.getInterceptorForward( );1;0;3
+ActionInterceptorContext.setOriginalForward( ActionForward origFwd );2;1;3
+ActionInterceptorContext.getOriginalForward( );1;0;3
+ActionInterceptorContext.init( ServletContext servletContext );1;0;2
+ActionInterceptorContext.addSimpleInterceptors( org . apache . beehive . netui . util . config . bean . SimpleActionInterceptorConfig [ ] configBeans , List interceptorsList );3;3;12
+ActionInterceptorContext.ActionInterceptorContext( HttpServletRequest request , HttpServletResponse response , ServletContext servletContext , PageFlowController controller , InterceptorForward originalForward , String actionName );1;0;6
+ActionInterceptorContext.getActiveContext( ServletRequest request , boolean consume );2;0;6
+ActionInterceptorContext.getPageFlow( );1;0;3
+ActionInterceptorContext.getActionInterceptors( );15;16;68
+ActionInterceptorContext.getOverridingActionInterceptor( );1;0;3

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SafeJUnitRule.expectSuccess( Runnable successAssert );1;0;3
+SafeJUnitRule.SafeJUnitRule( MethodRule testedRule );1;0;3
+SafeJUnitRule.expectFailure( final Class < ? extends Throwable > expected );1;0;8
+ExpectedThrowableNotReported.ExpectedThrowableNotReported( String message );1;0;3
+SafeJUnitRule.expectFailure( final Class < ? extends Throwable > expected , final String expectedMessage );1;0;8
+SafeJUnitRule.expectFailure( FailureAssert failureAssert );1;0;3
+SafeJUnitRule.doAssert( Throwable t );1;0;3
+SafeJUnitRule.apply( final Statement base , final FrameworkMethod method , final Object target );4;0;20
+SafeJUnitRule.evaluate( );4;2;16
+SafeJUnitRule.assertThrowable( Throwable throwable , Class < ? extends Throwable > expected );1;0;3
+SafeJUnitRule.run( );1;0;1

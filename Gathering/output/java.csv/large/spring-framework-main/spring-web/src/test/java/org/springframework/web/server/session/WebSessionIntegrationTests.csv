@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestWebHandler.handle( ServerWebExchange exchange );4;0;16
+TestWebHandler.getSessionRequestCount( );1;0;3
+WebSessionIntegrationTests.createUri( );1;0;3
+WebSessionIntegrationTests.createSession( HttpServer httpServer );1;0;14
+WebSessionIntegrationTests.expiredSessionEnds( HttpServer httpServer );1;0;17
+WebSessionIntegrationTests.expiredSessionIsRecreated( HttpServer httpServer );1;0;24
+WebSessionIntegrationTests.changeSessionId( HttpServer httpServer );1;0;17
+WebSessionIntegrationTests.createHttpHandler( );1;0;3
+TestWebHandler.updateSessionAttribute( WebSession session );1;1;5
+WebSessionIntegrationTests.extractSessionId( HttpHeaders headers );3;0;11
+WebSessionIntegrationTests.invalidate( HttpServer httpServer );1;0;15

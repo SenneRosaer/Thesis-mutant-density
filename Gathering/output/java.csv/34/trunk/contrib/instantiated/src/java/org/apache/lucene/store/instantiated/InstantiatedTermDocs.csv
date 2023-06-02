@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InstantiatedTermDocs.doc( );1;0;3
+InstantiatedTermDocs.read( int [ ] docs , int [ ] freqs );3;3;11
+InstantiatedTermDocs.InstantiatedTermDocs( InstantiatedIndexReader reader );1;0;3
+InstantiatedTermDocs.seek( org . apache . lucene . index . TermEnum termEnum );1;0;3
+InstantiatedTermDocs.freq( );1;0;3
+InstantiatedTermDocs.seek( Term term );1;1;4
+InstantiatedTermDocs.close( );1;0;2
+InstantiatedTermDocs.next( );5;4;14
+InstantiatedTermDocs.skipTo( int target );7;6;20

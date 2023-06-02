@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Commandline.describeArguments( String [ ] args );1;0;3
+Commandline.iterator( );1;0;3
+Commandline.toString( );1;0;3
+Commandline.describeArguments( String [ ] args , int offset );5;6;16
+Argument.setFile( File value );1;0;3
+***not in a method***;0;3;0
+Commandline.addArguments( String [ ] line );2;2;5
+Commandline.describeArguments( Commandline line );1;0;3
+Commandline.createArgument( boolean insertAtStart );2;0;9
+Commandline.createArgument( );1;0;3
+Argument.setValue( String value );1;0;3
+Marker.getPosition( );4;6;10
+Commandline.toString( String [ ] line );5;6;13
+Argument.setLine( String line );2;1;6
+Commandline.addArgumentsToList( ListIterator list );4;5;11
+Commandline.clearArgs( );1;0;3
+Argument.setPathref( Reference value );1;0;5
+Commandline.addCommandToList( ListIterator list );2;1;6
+Commandline.createMarker( );1;0;3
+Commandline.describeCommand( String [ ] args );4;4;15
+Commandline.describeArguments( );1;0;3
+Commandline.clear( );1;0;4
+Argument.getParts( );1;0;3
+Commandline.Commandline( String toProcess );4;5;10
+Commandline.size( );1;0;3
+Commandline.describeCommand( );1;0;3
+Commandline.getExecutable( );1;0;3
+Commandline.clone( );2;0;9
+Commandline.describeCommand( Commandline line );1;0;3
+Marker.Marker( int position );1;0;3
+Commandline.Commandline( );1;0;3
+Argument.setPath( Path value );1;0;3
+Commandline.setExecutable( String executable );3;3;7
+Commandline.getCommandline( );1;0;7
+Commandline.getArguments( );1;1;6
+Commandline.quoteArgument( String argument );7;17;16
+Commandline.translateCommandline( String toProcess );17;10;58

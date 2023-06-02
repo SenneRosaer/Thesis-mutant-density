@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CheckedGroup.members( );1;0;12
+PrincipalManagerImpl.disguise( Principal principal , PrincipalProvider provider );4;2;11
+CheckedGroup.nextElement( );1;0;3
+PrincipalManagerImpl.getPrincipal( String principalName );2;1;8
+PrincipalManagerImpl.internalGetPrincipal( String principalName );4;4;10
+CheckedIteratorEntry.CheckedIteratorEntry( Iterator iterator , PrincipalProvider provider );1;0;4
+CheckedPrincipalIterator.CheckedPrincipalIterator( List entries );1;0;4
+CheckedGroup.CheckedGroup( Group delegatee , PrincipalProvider provider );1;0;4
+PrincipalManagerImpl.hasPrincipal( String principalName );1;1;3
+PrincipalManagerImpl.checkIsValid( );2;0;5
+PrincipalManagerImpl.getGroupMembership( Principal principal );4;4;16
+PrincipalManagerImpl.getPrincipals( int searchType );3;2;12
+CheckedGroup.equals( Object obj );1;0;3
+CheckedGroup.addMember( Principal user );1;0;3
+CheckedGroup.getName( );1;0;3
+CheckedGroup.hashCode( );1;0;3
+ItemBasedCheckedGroup.getPath( );1;0;3
+PrincipalManagerImpl.PrincipalManagerImpl( Session session , PrincipalProvider [ ] providers );1;0;5
+CheckedGroup.isMember( Principal member );1;0;3
+PrincipalManagerImpl.findPrincipals( String simpleFilter , int searchType );3;2;12
+PrincipalManagerImpl.getEveryone( );1;0;4
+CheckedGroup.removeMember( Principal user );1;0;3
+ItemBasedCheckedGroup.ItemBasedCheckedGroup( Group delegatee , PrincipalProvider provider );2;1;6
+CheckedGroup.hasMoreElements( );1;0;3
+PrincipalManagerImpl.findPrincipals( String simpleFilter );3;2;12
+CheckedPrincipalIterator.CheckedPrincipalIterator( Iterator it , PrincipalProvider provider );1;0;5
+CheckedPrincipalIterator.seekNext( );5;3;15

@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StscChecker.checkRestriction( SchemaTypeImpl sType );30;28;110
+StscChecker.nameAndTypeOK( SchemaLocalElement baseElement , SchemaLocalElement derivedElement , Collection errors , XmlObject context );9;8;32
+StscChecker.printType( SchemaType type );2;1;5
+StscChecker.checkAllDerivationsForRestriction( SchemaType baseType , SchemaType derivedType , Collection errors , XmlObject context );6;7;19
+StscChecker.recurseLax( SchemaParticle baseModel , SchemaParticle derivedModel , Collection errors , XmlObject context );7;11;27
+StscChecker.isParticleValidRestriction( SchemaParticle baseModel , SchemaParticle derivedModel , Collection errors , XmlObject context );32;0;139
+StscChecker.getEffectiveMaxRangeChoice( SchemaParticle derivedModel );18;13;54
+StscChecker.nsRecurseCheckCardinality( SchemaParticle baseModel , SchemaParticle derivedModel , Collection errors , XmlObject context );11;9;39
+StscChecker.checkFixed( SchemaLocalElement baseModel , SchemaLocalElement derivedModel , Collection errors , XmlObject context );3;0;17
+StscChecker.getEffectiveMinRangeAllSeq( SchemaParticle derivedModel );7;2;23
+StscChecker.printParticle( SchemaParticle part );6;0;16
+StscChecker.checkSubstitutionGroups( SchemaGlobalElement [ ] elts );11;10;47
+StscChecker.getEffectiveMaxRangeAllSeq( SchemaParticle derivedModel );17;12;52
+StscChecker.mapAndSum( SchemaParticle baseModel , SchemaParticle derivedModel , Collection errors , XmlObject context );11;15;45
+StscChecker.blockSetOK( SchemaLocalElement baseElement , SchemaLocalElement derivedElement , Collection errors , XmlObject context );7;6;24
+StscChecker.nsCompat( SchemaParticle baseModel , SchemaLocalElement derivedElement , Collection errors , XmlObject context );3;1;16
+StscChecker.printParticles( List parts );1;0;3
+StscChecker.checkIdentityConstraints( SchemaLocalElement baseElement , SchemaLocalElement derivedElement , Collection errors , XmlObject context );3;2;16
+StscChecker.nsSubset( SchemaParticle baseModel , SchemaParticle derivedModel , Collection errors , XmlObject context );3;2;17
+StscChecker.recurse( SchemaParticle baseModel , SchemaParticle derivedModel , Collection errors , XmlObject context );11;13;50
+StscChecker.printParticles( SchemaParticle [ ] parts , int start );1;0;3
+StscChecker.getEffectiveMinRangeChoice( SchemaParticle derivedModel );15;13;34
+StscChecker.checkAll( );4;5;20
+StscChecker.printParticles( SchemaParticle [ ] parts );1;0;3
+StscChecker.recurseUnordered( SchemaParticle baseModel , SchemaParticle derivedModel , Collection errors , XmlObject context );14;17;58
+StscChecker.printMaxOccurs( BigInteger bi );2;1;5
+StscChecker.checkElementDefaults( SchemaParticle model , XmlObject location , SchemaType parentType );26;21;90
+StscChecker.recurseAsIfGroup( SchemaParticle baseModel , SchemaParticle derivedModel , Collection errors , XmlObject context );6;11;11
+StscChecker.printParticles( SchemaParticle [ ] parts , int start , int end );3;4;10
+StscChecker.checkForIdentityConstraintExistence( SchemaIdentityConstraint [ ] baseConstraints , SchemaIdentityConstraint derivedConstraint );3;2;11
+StscChecker.checkGroupOccurrenceOK( SchemaParticle baseModel , SchemaParticle derivedModel , Collection errors , XmlObject context );8;4;39
+StscChecker.checkFields( SchemaTypeImpl sType );17;14;69
+StscChecker.occurrenceRangeOK( SchemaParticle baseParticle , SchemaParticle derivedParticle , Collection errors , XmlObject context );6;7;26
+StscChecker.typeDerivationOK( SchemaType baseType , SchemaType derivedType , Collection errors , XmlObject context );2;0;11

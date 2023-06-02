@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SettableTask.checkCompletingThread( );2;1;7
+SettableTask.setResultValue( @ Nullable T value );1;0;4
+SettableListenableFuture.get( );1;0;3
+SettableTask.setExceptionResult( Throwable exception );1;0;4
+SettableTask.done( );2;1;6
+SettableListenableFuture.interruptTask( );1;0;2
+SettableListenableFuture.get( long timeout , TimeUnit unit );1;0;3
+SettableListenableFuture.cancel( boolean mayInterruptIfRunning );3;1;7
+SettableListenableFuture.completable( );1;0;3
+SettableListenableFuture.setException( Throwable exception );1;0;4
+SettableListenableFuture.isCancelled( );1;0;3
+SettableListenableFuture.addCallback( SuccessCallback < ? super T > successCallback , FailureCallback failureCallback );1;0;3
+SettableListenableFuture.set( @ Nullable T value );1;0;3
+SettableListenableFuture.addCallback( ListenableFutureCallback < ? super T > callback );1;0;3
+SettableListenableFuture.isDone( );1;0;3
+SettableTask.SettableTask( );1;0;3

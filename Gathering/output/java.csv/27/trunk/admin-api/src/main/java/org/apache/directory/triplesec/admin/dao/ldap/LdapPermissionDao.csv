@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LdapPermissionDao.modify( String creatorsName , Date createTimestamp , String appName , String permName , String description , ModificationItem [ ] mods );4;1;28
+LdapPermissionDao.has( String appName , String permName );3;0;16
+LdapPermissionDao.deleteEntry( String rdn );2;0;10
+LdapPermissionDao.LdapPermissionDao( DirContext ctx );3;0;29
+LdapPermissionDao.getEntryObject( Object extra , Attributes attrs );2;0;24
+LdapPermissionDao.permissionNameIterator( String appName );2;0;16
+LdapPermissionDao.rename( String newPermName , Permission perm );5;0;35
+LdapPermissionDao.permissionIterator( String appName );2;0;17
+LdapPermissionDao.getRelativeDn( String appName );1;0;6
+LdapPermissionDao.getRelativeDn( String appName , String permName );1;0;7
+LdapPermissionDao.delete( String appName , String permName );3;1;20
+LdapPermissionDao.load( String appName , String permName );3;0;32
+LdapPermissionDao.add( String appName , String permName , String description );4;1;27

@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Writer.normalizeAndPrint( char c , boolean isAttValue );20;19;47
+Writer.printUsage( );15;0;64
+Writer.startDocument( );1;0;5
+Writer.endCDATA( );2;1;6
+Writer.normalizeAndPrint( String s , boolean isAttValue );3;3;7
+Writer.setOutput( OutputStream stream , String encoding );2;1;7
+Writer.endDTD( );1;0;2
+Writer.startElement( String uri , String local , String raw , Attributes attrs );9;8;40
+Writer.endEntity( String name );1;0;2
+Writer.endElement( String uri , String local , String raw );1;1;7
+Writer.warning( SAXParseException ex );1;0;3
+Writer.startDTD( String name , String publicId , String systemId );1;0;2
+Writer.setDocumentLocator( Locator locator );1;0;3
+Writer.characters( char ch [ ] , int start , int length );3;4;11
+Writer.comment( char ch [ ] , int start , int length );4;6;10
+Writer.ignorableWhitespace( char ch [ ] , int start , int length );1;0;4
+Writer.normalizeAndPrint( char [ ] ch , int offset , int length , boolean isAttValue );2;3;5
+Writer.printError( String type , SAXParseException ex );3;4;20
+Writer.processingInstruction( String target , String data );4;4;12
+Writer.startEntity( String name );1;0;2
+Writer.startCDATA( );2;1;6
+Writer.error( SAXParseException ex );1;0;3
+Writer.fatalError( SAXParseException ex );1;0;4
+Writer.Writer( );1;0;2
+Writer.setCanonical( boolean canonical );1;0;3
+Writer.sortAttributes( Attributes attrs );5;6;18
+Writer.setOutput( java . io . Writer writer );2;0;4
+Writer.main( String argv [ ] );55;8;261

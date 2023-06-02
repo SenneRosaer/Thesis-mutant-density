@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ViewToolManager.hasSessionTools( );1;0;3
+ViewToolManager.getToolboxKey( );1;0;3
+ViewToolManager.ViewToolManager( ServletContext app , boolean includeDefaults );1;0;3
+ViewToolManager.updateGlobalProperties( );3;2;14
+ViewToolManager.publishToolbox( ServletRequest request );3;2;7
+ViewToolManager.ViewToolManager( ServletContext app );1;0;3
+ViewToolManager.createContext( HttpServletRequest request , HttpServletResponse response );1;0;6
+ViewToolManager.findConfig( String path );1;0;3
+ViewToolManager.getSessionToolbox( );1;0;3
+ViewToolManager.ViewToolManager( ServletContext app , boolean autoConfig , boolean includeDefaults );2;1;8
+ViewToolManager.publishToolboxes( ServletRequest request );1;0;3
+ViewToolManager.unpublishApplicationTools( );2;0;7
+ViewToolManager.getPublishToolboxes( );1;0;3
+ViewToolManager.getCreateSession( );1;0;3
+ViewToolManager.setPublishToolboxes( boolean publish );2;1;7
+ViewToolManager.setCreateSession( boolean create );2;1;7
+ViewToolManager.publishToolboxes( HttpServletRequest request );6;4;21
+ViewToolManager.configure( FactoryConfiguration config );1;0;5
+ViewToolManager.setToolboxKey( String key );3;2;12
+ViewToolManager.prepareContext( ViewToolContext context , HttpServletRequest request );3;1;16
+ViewToolManager.createContext( Map < String , Object > toolProps );1;0;6
+ViewToolManager.addToolboxes( ToolContext context );2;0;7
+ViewToolManager.autoConfigure( boolean includeDefaults );2;1;8

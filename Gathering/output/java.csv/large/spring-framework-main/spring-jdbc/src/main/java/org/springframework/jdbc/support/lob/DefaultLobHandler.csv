@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultLobHandler.getClobAsString( ResultSet rs , int columnIndex );2;0;10
+DefaultLobHandler.getBlobAsBytes( ResultSet rs , int columnIndex );2;0;10
+DefaultLobCreator.setClobAsAsciiStream( PreparedStatement ps , int paramIndex , @ Nullable InputStream asciiStream , int contentLength );9;5;34
+DefaultLobHandler.getLobCreator( );2;0;3
+DefaultLobHandler.setWrapAsLob( boolean wrapAsLob );1;0;3
+DefaultLobHandler.getClobAsAsciiStream( ResultSet rs , int columnIndex );2;0;10
+DefaultLobCreator.setBlobAsBytes( PreparedStatement ps , int paramIndex , @ Nullable byte [ ] content );7;3;25
+DefaultLobHandler.getClobAsCharacterStream( ResultSet rs , int columnIndex );2;0;10
+DefaultLobCreator.setBlobAsBinaryStream( PreparedStatement ps , int paramIndex , @ Nullable InputStream binaryStream , int contentLength );9;5;33
+DefaultLobCreator.setClobAsCharacterStream( PreparedStatement ps , int paramIndex , @ Nullable Reader characterStream , int contentLength );9;5;33
+DefaultLobHandler.setStreamAsLob( boolean streamAsLob );1;0;3
+DefaultLobHandler.setCreateTemporaryLob( boolean createTemporaryLob );1;0;3
+DefaultLobHandler.getBlobAsBinaryStream( ResultSet rs , int columnIndex );2;0;10
+DefaultLobCreator.close( );1;0;2
+DefaultLobCreator.setClobAsString( PreparedStatement ps , int paramIndex , @ Nullable String content );7;3;25

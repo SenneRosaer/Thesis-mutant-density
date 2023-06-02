@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SubAnt.setAntfile( String antfile );1;0;3
+SubAnt.setFailonerror( boolean failOnError );1;0;3
+SubAnt.setOutput( String s );1;0;3
+SubAnt.getBuildpath( );2;1;6
+SubAnt.addDirset( DirSet set );1;0;3
+SubAnt.setInheritall( boolean b );1;0;3
+SubAnt.setVerbose( boolean on );1;0;3
+SubAnt.add( ResourceCollection rc );1;0;3
+SubAnt.setBuildpath( Path s );1;0;3
+SubAnt.setInheritrefs( boolean b );1;0;3
+SubAnt.handleFlush( String output );2;1;7
+SubAnt.addReference( Ant . Reference r );1;0;3
+SubAnt.execute( File file , File directory );10;6;37
+SubAnt.addFileset( FileSet set );1;0;3
+SubAnt.setTarget( String target );1;0;3
+SubAnt.createBuildpathElement( );1;0;3
+SubAnt.createBuildpath( );1;0;3
+SubAnt.handleErrorFlush( String output );2;1;7
+SubAnt.handleInput( byte [ ] buffer , int offset , int length );2;1;7
+SubAnt.handleOutput( String output );2;1;7
+SubAnt.execute( );24;19;78
+SubAnt.setBuildpathRef( Reference r );1;0;3
+SubAnt.handleErrorOutput( String output );2;1;7
+SubAnt.copyProperty( Property to , Property from );8;7;24
+SubAnt.addPropertyset( PropertySet ps );1;0;3
+SubAnt.setGenericAntfile( File afile );1;0;3
+SubAnt.addConfiguredTarget( TargetElement t );2;0;7
+SubAnt.createAntTask( File directory );8;5;27
+SubAnt.addProperty( Property p );1;0;3
+SubAnt.addFilelist( FileList list );1;0;3

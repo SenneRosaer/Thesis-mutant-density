@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Cookie.setExpiryDate( Date theExpiryDate );1;0;3
+Cookie.setPath( String thePath );1;0;3
+Cookie.getPath( );1;0;3
+Cookie.getCookiePath( WebRequest theRequest , String theRealPath );1;0;3
+Cookie.getCookiePort( WebRequest theRequest , int theRealPort );1;0;3
+Cookie.setDomain( String theDomain );2;2;8
+Cookie.getExpiryDate( );1;0;3
+Cookie.setName( String theName );1;0;3
+Cookie.getDomain( );1;0;3
+Cookie.isExpired( );2;3;4
+Cookie.setComment( String theComment );1;0;3
+Cookie.getCookieDomain( WebRequest theRequest , String theRealHost );1;0;3
+Cookie.Cookie( String theDomain , String theName , String theValue );4;3;17
+Cookie.toString( );1;0;11
+Cookie.equals( Object theObject );5;4;10
+Cookie.setSecure( boolean isSecure );1;0;3
+Cookie.isSecure( );1;0;3
+Cookie.getName( );1;0;3
+Cookie.getValue( );1;0;3
+Cookie.isToBeDiscarded( );1;1;3
+Cookie.getComment( );1;0;3
+Cookie.hashCode( );1;2;4
+Cookie.setValue( String theValue );1;0;3

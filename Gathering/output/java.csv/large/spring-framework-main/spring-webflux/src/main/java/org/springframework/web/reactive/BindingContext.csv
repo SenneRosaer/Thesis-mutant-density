@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BindingContext.initDataBinder( WebExchangeDataBinder binder , ServerWebExchange exchange );1;0;3
+ExtendedWebExchangeDataBinder.getValuesToBind( ServerWebExchange exchange );1;0;5
+BindingContext.createDataBinder( ServerWebExchange exchange , String name );1;0;3
+BindingContext.createDataBinder( ServerWebExchange exchange , @ Nullable Object target , String name );2;1;7
+BindingContext.BindingContext( );1;0;3
+ExtendedWebExchangeDataBinder.ExtendedWebExchangeDataBinder( @ Nullable Object target , String objectName );1;0;3
+BindingContext.BindingContext( @ Nullable WebBindingInitializer initializer );1;0;3
+BindingContext.getModel( );1;0;3

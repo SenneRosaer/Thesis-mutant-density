@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SizeCalculatorOutputStream.write( byte [ ] arg0 );1;1;3
+SizeCalculatorOutputStream.write( int arg0 );1;1;3
+MimeMessageUtil.writeTo( MimeMessage message , OutputStream headerOs , OutputStream bodyOs );1;0;3
+SizeCalculatorOutputStream.write( byte [ ] arg0 , int arg1 , int arg2 );1;1;3
+SizeCalculatorOutputStream.getSize( );1;0;3
+MimeMessageUtil.copyStream( InputStream in , OutputStream out );2;2;8
+MimeMessageUtil.writeMessageBodyTo( MimeMessage message , OutputStream bodyOs );5;0;29
+MimeMessageUtil.writeTo( MimeMessage message , OutputStream headerOs , OutputStream bodyOs , String [ ] ignoreList );4;1;15
+MimeMessageUtil.getMessageSize( MimeMessage message );4;3;14
+MimeMessageUtil.writeHeadersTo( Enumeration headers , OutputStream headerOs );2;0;8
+MimeMessageUtil.writeHeadersTo( MimeMessage message , OutputStream headerOs , String [ ] ignoreList );1;0;4
+MimeMessageUtil.calculateMessageSize( MimeMessage message );6;7;23
+MimeMessageUtil.writeToInternal( MimeMessage message , OutputStream headerOs , OutputStream bodyOs , String [ ] ignoreList );2;1;7
+MimeMessageUtil.getHeadersInputStream( MimeMessage message , String [ ] ignoreList );1;0;5

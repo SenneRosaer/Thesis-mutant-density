@@ -1,0 +1,56 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ManagedIterator.isFirst( );3;2;7
+LoopTool.isFirst( String name );2;1;8
+LoopTool.isLast( );2;0;7
+SyncedIterator.shift( );2;0;10
+ActionCondition.ActionCondition( Action action , Condition condition );3;3;8
+LoopTool.skip( int number );2;1;6
+LoopTool.stop( String name );3;0;10
+SyncedIterator.SyncedIterator( Iterator iterator );2;1;7
+ManagedIterator.remove( );1;0;3
+Equals.Equals( Object compare );1;0;3
+ManagedIterator.condition( ActionCondition condition );3;2;12
+ManagedIterator.get( String name );3;2;12
+LoopTool.getFirst( );1;0;3
+LoopTool.stopAll( );2;0;6
+ManagedIterator.cacheNext( boolean popWhenDone );8;2;33
+LoopTool.getDepth( );1;0;3
+LoopTool.manage( Iterator iterator , String name );1;0;3
+ManagedIterator.hasNext( boolean popWhenDone );3;1;11
+LoopTool.getIterator( Object obj );3;1;14
+LoopTool.get( String key );9;6;31
+LoopTool.getCount( String name );2;1;8
+Equals.test( Object value );4;1;15
+ManagedIterator.hasNext( );1;0;3
+ManagedIterator.ManagedIterator( String name , Iterator iterator , LoopTool owner );2;1;12
+ManagedIterator.isLast( );1;1;3
+LoopTool.watch( Object obj , String name );3;2;14
+ManagedIterator.isSyncedWith( String name );2;1;7
+LoopTool.findIterator( String name );3;0;10
+LoopTool.isFirst( );2;0;7
+LoopTool.stopTo( String name );7;5;29
+LoopTool.skip( int number , ManagedIterator iterator );3;2;13
+ManagedIterator.shiftSynced( );3;1;9
+LoopTool.getLast( );1;0;3
+LoopTool.getIndex( );3;4;8
+ActionCondition.matches( Object value );1;0;3
+LoopTool.isLast( String name );2;1;8
+ManagedIterator.getName( );1;0;3
+ManagedIterator.next( );5;4;21
+Comparison.Comparison( Object compare );2;1;7
+ManagedIterator.sync( Object iterable );1;0;3
+LoopTool.getIndex( String name );3;4;8
+ManagedIterator.getCount( );1;0;3
+ManagedIterator.exclude( Object compare );1;0;3
+ManagedIterator.toString( );1;2;3
+LoopTool.watch( Object obj );2;1;10
+LoopTool.pop( );1;0;3
+ManagedIterator.stop( );1;0;4
+ManagedIterator.sync( Object iterable , String name );3;2;13
+LoopTool.skip( int number , String name );2;1;7
+LoopTool.stop( );2;1;6
+ManagedIterator.stop( Object compare );1;0;3
+LoopTool.getCount( );2;0;7
+LoopTool.get( String name , String synced );2;1;8
+LoopTool.sync( Object main , Object synced );1;0;3
+SyncedIterator.get( );1;0;3

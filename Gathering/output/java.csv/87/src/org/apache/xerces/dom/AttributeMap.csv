@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AttributeMap.safeRemoveNamedItemNS( String namespaceURI , String name );1;0;3
+AttributeMap.safeRemoveNamedItem( String name );1;0;3
+AttributeMap.reconcileDefaults( NamedNodeMapImpl defaults );9;14;30
+AttributeMap.AttributeMap( ElementImpl ownerNode , NamedNodeMapImpl defaults );3;2;9
+AttributeMap.cloneMap( NodeImpl ownerNode );1;0;7
+AttributeMap.remove( AttrImpl attr , int index , boolean addDefault );9;8;38
+AttributeMap.internalRemoveNamedItemNS( String namespaceURI , String name , boolean raiseEx );13;10;56
+AttributeMap.internalRemoveNamedItem( String name , boolean raiseEx );4;1;16
+AttributeMap.cloneContent( NamedNodeMapImpl srcmap );5;5;22
+AttributeMap.removeNamedItemNS( String namespaceURI , String name );1;0;3
+AttributeMap.moveSpecifiedAttributes( AttributeMap srcmap );5;5;15
+AttributeMap.removeNamedItem( String name );1;0;3
+AttributeMap.setNamedItemNS( Node arg );12;10;53
+AttributeMap.setNamedItem( Node arg );11;9;47
+AttributeMap.removeItem( Node item , boolean addDefault );5;6;17
+AttributeMap.addItem( Node arg );4;5;24

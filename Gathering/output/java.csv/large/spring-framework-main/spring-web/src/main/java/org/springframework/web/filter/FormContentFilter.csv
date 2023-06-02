@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FormContentRequestWrapper.getParameterMap( );2;0;9
+FormContentRequestWrapper.getParameterNames( );1;0;6
+FormContentFilter.setCharset( Charset charset );1;0;3
+FormContentFilter.doFilterInternal( HttpServletRequest request , HttpServletResponse response , FilterChain filterChain );2;1;9
+FormContentFilter.shouldParse( HttpServletRequest request );4;1;13
+FormContentFilter.setFormConverter( FormHttpMessageConverter converter );1;0;4
+FormContentRequestWrapper.getParameterValues( String name );4;5;16
+FormContentRequestWrapper.FormContentRequestWrapper( HttpServletRequest request , MultiValueMap < String , String > params );1;0;4
+FormContentRequestWrapper.getParameter( String name );2;1;5
+FormContentFilter.parseIfNecessary( HttpServletRequest request );2;1;12
+FormContentFilter.getBody( );1;0;3

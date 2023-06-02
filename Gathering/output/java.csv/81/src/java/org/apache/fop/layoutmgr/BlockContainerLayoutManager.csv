@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BlockContainerLayoutManager.getGeneratesBlockArea( );1;0;3
+BlockContainerLayoutManager.notifyBorder( RelSide side , MinOptMax effectiveLength );4;4;12
+BlockContainerBreaker.BlockContainerBreaker( BlockContainerLayoutManager bclm , MinOptMax ipd );1;0;4
+BlockContainerBreaker.doPhase3( PageBreakingAlgorithm alg , int partCount , BlockSequence originalList , BlockSequence effectiveList );1;0;5
+BlockContainerLayoutManager.initialize( );3;3;33
+BlockContainerBreaker.getDifferenceOfFirstPart( );1;0;4
+BlockContainerLayoutManager.addChildArea( Area childArea );2;1;5
+BlockContainerBreaker.getOverflowAmount( );1;2;4
+BlockContainerPosition.getBreaker( );1;0;3
+BlockContainerLayoutManager.getContentAreaBPD( );2;1;7
+BlockContainerLayoutManager.isFixed( );1;1;3
+BlockContainerBreaker.isPartOverflowRecoveryActivated( );1;0;3
+BlockContainerLayoutManager.flush( );1;0;7
+BlockContainerLayoutManager.notifySpace( RelSide side , MinOptMax effectiveLength );4;7;15
+BlockContainerBreaker.isOverflow( );3;6;6
+BlockContainerLayoutManager.getKeepTogetherStrength( );1;0;6
+BlockContainerLayoutManager.addAreas( PositionIterator parentIter , LayoutContext layoutContext );24;36;118
+BlockContainerBreaker.isSinglePartFavored( );1;0;3
+BlockContainerLayoutManager.BlockContainerLayoutManager( BlockContainer node );1;0;3
+BlockContainerBreaker.finishPart( PageBreakingAlgorithm alg , PageBreakPosition pbp );1;0;2
+BlockContainerLayoutManager.getKeepWithPreviousStrength( );1;0;4
+BlockContainerLayoutManager.notifyPadding( RelSide side , MinOptMax effectiveLength );4;4;12
+BlockContainerLayoutManager.updateRelDims( double xOffset , double yOffset , boolean skipAutoHeight );1;0;11
+BlockContainerLayoutManager.getParentArea( Area childArea );8;10;48
+BlockContainerBreaker.addAreas( PositionIterator posIter , LayoutContext context );1;0;3
+BlockContainerBreaker.hasMoreContent( );1;1;3
+BlockContainerBreaker.getNextKnuthElements( LayoutContext context , int alignment );4;3;20
+BlockContainerLayoutManager.negotiateBPDAdjustment( int adj , KnuthElement lastElement );1;0;3
+BlockContainerLayoutManager.getSpaceBefore( );1;0;3
+BlockContainerLayoutManager.resetSpaces( );1;0;8
+BlockContainerLayoutManager.getKeepWithNextStrength( );1;0;4
+BlockContainerBreaker.observeElementList( List elementList );1;0;4
+BlockContainerBreaker.getCurrentChildLM( );1;0;3
+BlockContainerLayoutManager.getBPIndents( );1;1;6
+BlockContainerLayoutManager.getBlockContainerFO( );1;0;3
+BlockContainerLayoutManager.getGeneratesReferenceArea( );1;0;3
+BlockContainerBreaker.createLayoutContext( );1;0;6
+BlockContainerLayoutManager.getNextKnuthElements( LayoutContext context , int alignment );27;28;145
+BlockContainerLayoutManager.needClip( );2;3;4
+BlockContainerBreaker.getCurrentDisplayAlign( );1;0;3
+BlockContainerBreaker.getTopLevelLM( );1;0;3
+BlockContainerLayoutManager.getRotatedIPD( );1;0;4
+BlockContainerLayoutManager.discardSpace( KnuthGlue spaceGlue );1;0;2
+BlockContainerPosition.BlockContainerPosition( LayoutManager lm , BlockContainerBreaker breaker );1;0;4
+BlockContainerLayoutManager.getNextKnuthElementsAbsolute( LayoutContext context , int alignment );22;29;98
+BlockContainerLayoutManager.getAbsOffset( );7;12;19
+BlockContainerBreaker.addContainedAreas( );2;0;9
+BlockContainerLayoutManager.isAbsoluteOrFixed( );2;3;4

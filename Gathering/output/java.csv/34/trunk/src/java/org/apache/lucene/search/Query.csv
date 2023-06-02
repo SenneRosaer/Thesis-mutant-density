@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Query.weight( Searcher searcher );1;0;8
+Query.rewrite( IndexReader reader );1;0;3
+Query.extractTerms( Set terms );1;0;3
+Query.mergeBooleanQueries( Query [ ] queries );5;5;17
+Query.createWeight( Searcher searcher );1;0;3
+Query.combine( Query [ ] queries );9;9;31
+Query.getSimilarity( Searcher searcher );1;0;3
+Query.toString( );1;0;3
+Query.setBoost( float b );1;0;1
+Query.clone( );2;0;7
+Query.getBoost( );1;0;1

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ImageCache.getImage( String uri , ImageFlavor flavor );5;4;15
+ImageCache.putImageInfo( ImageInfo info );1;0;3
+ImageCache.registerInvalidURI( String uri );2;1;8
+ImageCache.getImage( ImageInfo info , ImageFlavor flavor );1;0;3
+ImageCache.clearCache( );1;0;6
+ImageCache.putImage( Image img );4;3;12
+ImageCache.getImageInfo( String uri );4;3;13
+ImageCache.doHouseKeeping( );1;0;4
+ImageCache.isInvalidURI( String uri );3;1;9
+ImageCache.setCacheListener( ImageCacheListener listener );1;0;3
+ImageCache.needImageInfo( String uri , ImageSessionContext session , ImageManager manager );6;2;28

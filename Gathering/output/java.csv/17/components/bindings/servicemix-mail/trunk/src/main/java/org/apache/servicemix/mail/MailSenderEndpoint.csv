@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MailSenderEndpoint.getConnection( );1;0;3
+MailSenderEndpoint.setIgnoreMessageProperties( List < String > ignoreMessageProperties );1;0;3
+MailSenderEndpoint.handleIgnoreProperties( NormalizedMessage in );5;4;9
+MailSenderEndpoint.setCustomProperties( Map < String , String > customProperties );1;0;3
+MailSenderEndpoint.getMarshaler( );1;0;3
+MailSenderEndpoint.setCustomTrustManagers( String customTrustManagers );1;0;3
+MailSenderEndpoint.processInOut( MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );6;3;33
+MailSenderEndpoint.setDebugMode( boolean debugMode );1;0;3
+MailSenderEndpoint.setConnection( String connection );2;0;8
+MailSenderEndpoint.isDebugMode( );1;0;3
+MailSenderEndpoint.validate( );5;5;10
+MailSenderEndpoint.processInOnly( MessageExchange exchange , NormalizedMessage in );6;3;32
+MailSenderEndpoint.getCustomTrustManagers( );1;0;3
+MailSenderEndpoint.getCustomProperties( );1;0;3
+MailSenderEndpoint.setMarshaler( AbstractMailMarshaler marshaler );1;0;3
+MailSenderEndpoint.getReceiver( );1;0;3
+MailSenderEndpoint.setSender( String sender );1;0;3
+MailSenderEndpoint.applyCustomProperties( Properties props );2;1;5
+MailSenderEndpoint.setReceiver( String receiver );1;0;3
+MailSenderEndpoint.getIgnoreMessageProperties( );1;0;3
+MailSenderEndpoint.getSender( );1;0;3

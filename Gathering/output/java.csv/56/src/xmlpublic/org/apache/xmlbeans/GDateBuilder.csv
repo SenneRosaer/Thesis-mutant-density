@@ -1,0 +1,74 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GDateBuilder.btcForFlags( int flags );9;11;23
+GDateBuilder.compareToGDate( GDateSpecification datespec );1;0;3
+GDateBuilder.toGDate( );1;0;3
+GDateBuilder.clearTimeZone( );1;1;6
+GDateBuilder.GDateBuilder( int year , int month , int day , int hour , int minute , int second , BigDecimal fraction , int tzSign , int tzHour , int tzMinute );5;9;17
+GDateBuilder._setToFirstMoment( );5;4;10
+GDateBuilder._modulo( long temp , int low , int high );1;3;5
+GDateBuilder.setGDate( GDateSpecification gdate );2;7;14
+GDateBuilder.setTimeZone( int tzTotalMinutes );5;13;9
+GDateBuilder.getFraction( );1;0;1
+GDateBuilder.hasYear( );1;2;1
+GDateBuilder.GDateBuilder( int year , int month , int day , int hour , int minute , int second , BigDecimal fraction );5;8;14
+GDateBuilder.GDateBuilder( CharSequence string );1;0;3
+GDateBuilder._normalizeDate( );5;10;11
+GDateBuilder.getFlags( );1;0;3
+GDateBuilder.getDay( );1;0;1
+GDateBuilder.isValid( );1;0;3
+GDateBuilder._maxDayInMonth( int month );6;8;7
+GDateBuilder.hasDay( );1;2;1
+GDateBuilder.setYear( int year );5;8;7
+GDateBuilder.setDay( int day );3;4;5
+GDateBuilder.setDate( Date date );3;18;24
+GDateBuilder.addGDuration( GDurationSpecification duration );1;0;4
+GDateBuilder.setJulianDate( int julianday );2;31;17
+GDateBuilder.clearTime( );1;1;7
+GDateBuilder.fieldwiseCompare( GDateSpecification tdate , GDateSpecification date );21;23;43
+GDateBuilder.GDateBuilder( GDateSpecification gdate );6;0;12
+GDateBuilder.normalize( );19;22;45
+GDateBuilder.setTimeZone( int tzSign , int tzHour , int tzMinute );13;25;12
+GDateBuilder.setMonth( int month );3;4;5
+GDateBuilder.clearYear( );1;1;1
+GDateBuilder.isValidGDate( GDateSpecification date );35;59;29
+GDateBuilder.getTimeZoneMinute( );1;0;1
+GDateBuilder.setBuiltinTypeCode( int typeCode );9;0;40
+GDateBuilder.getHour( );1;0;1
+GDateBuilder.getTimeZoneSign( );1;0;1
+GDateBuilder.getMillisecond( );3;3;5
+GDateBuilder.getJulianDate( );1;0;3
+GDateBuilder._mod( long a , int b , long quotient );1;2;3
+GDateBuilder._isLeapYear( int year );3;8;3
+GDateBuilder.clearMonth( );1;1;1
+GDateBuilder.canonicalString( );9;14;15
+GDateBuilder.dateForGDate( GDateSpecification date );2;25;21
+GDateBuilder.addDuration( int sign , int year , int month , int day , int hour , int minute , int second , BigDecimal fraction );23;42;44
+GDateBuilder._fQuotient( long temp , int low , int high );1;2;3
+GDateBuilder.getYear( );2;2;1
+GDateBuilder.getSecond( );1;0;1
+GDateBuilder.hasTimeZone( );1;2;1
+GDateBuilder._fQuotient( long a , int b );2;8;5
+GDateBuilder._maxDayInMonthFor( int year , int month );7;8;7
+GDateBuilder.hasTime( );1;2;1
+GDateBuilder.isImmutable( );1;0;3
+GDateBuilder.clone( );1;0;3
+GDateBuilder.toString( );1;0;3
+GDateBuilder.GDateBuilder( Calendar calendar );1;0;3
+GDateBuilder.getTimeZoneHour( );1;0;1
+GDateBuilder.GDateBuilder( Date date );1;0;3
+GDateBuilder.setTime( int hour , int minute , int second , BigDecimal fraction );11;16;15
+GDateBuilder._normalizeTime( );11;21;23
+GDateBuilder.normalizeToTimeZone( int tzSign , int tzHour , int tzMinute );16;36;17
+GDateBuilder.getCalendar( );1;0;3
+GDateBuilder.getBuiltinTypeCode( );1;0;3
+GDateBuilder.compareGDate( GDateSpecification tdate , GDateSpecification datespec );23;53;63
+GDateBuilder.subtractGDuration( GDurationSpecification duration );1;1;4
+GDateBuilder.clearDay( );1;1;1
+GDateBuilder.getMonth( );1;0;1
+GDateBuilder.getDate( );1;0;3
+GDateBuilder.normalizeToTimeZone( int tzTotalMinutes );5;13;9
+GDateBuilder.hasDate( );1;6;1
+GDateBuilder.GDateBuilder( );1;0;2
+GDateBuilder.julianDateForGDate( GDateSpecification date );4;28;13
+GDateBuilder.hasMonth( );1;2;1
+GDateBuilder.getMinute( );1;0;1

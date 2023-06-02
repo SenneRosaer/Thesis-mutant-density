@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JettyClientHttpRequest.applyCookies( );1;0;5
+JettyClientHttpRequest.toReactiveRequest( );1;0;3
+JettyClientHttpRequest.succeeded( );1;0;3
+JettyClientHttpRequest.getMethod( );1;0;3
+JettyClientHttpRequest.initReadOnlyHeaders( );1;0;3
+JettyClientHttpRequest.JettyClientHttpRequest( Request jettyRequest , DataBufferFactory bufferFactory );1;0;5
+JettyClientHttpRequest.getContentType( );2;1;4
+JettyClientHttpRequest.writeAndFlushWith( Publisher < ? extends Publisher < ? extends DataBuffer > > body );1;0;5
+JettyClientHttpRequest.applyHeaders( );2;1;9
+JettyClientHttpRequest.writeWith( Publisher < ? extends DataBuffer > body );1;0;9
+JettyClientHttpRequest.getURI( );1;0;3
+JettyClientHttpRequest.getNativeRequest( );1;0;3
+JettyClientHttpRequest.bufferFactory( );1;0;3
+JettyClientHttpRequest.failed( Throwable t );1;0;4
+JettyClientHttpRequest.setComplete( );1;0;3
+JettyClientHttpRequest.toContentChunk( DataBuffer buffer , MonoSink < Void > sink );1;0;13

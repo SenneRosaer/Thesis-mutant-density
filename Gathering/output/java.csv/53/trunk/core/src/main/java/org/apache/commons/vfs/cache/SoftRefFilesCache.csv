@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SoftRefReleaseThread.SoftRefReleaseThread( );1;0;4
+SoftRefFilesCache.touchFile( FileObject file );1;0;2
+SoftRefFilesCache.removeFile( FileSystem filesystem , FileName name );2;0;6
+SoftRefFilesCache.close( );1;0;12
+SoftRefFilesCache.getFile( final FileSystem filesystem , final FileName name );3;2;17
+SoftRefFilesCache.createReference( FileObject file , ReferenceQueue refqueue );1;0;3
+SoftRefFilesCache.removeFile( final FileSystemAndNameKey key );3;2;19
+SoftRefFilesCache.putFile( final FileObject file );2;0;18
+SoftRefFilesCache.SoftRefFilesCache( );1;0;2
+SoftRefFilesCache.getOrCreateFilesystemCache( final FileSystem filesystem );3;2;16
+SoftRefReleaseThread.run( );8;6;39
+SoftRefFilesCache.startThread( );2;1;10
+SoftRefFilesCache.endThread( );2;1;8
+SoftRefFilesCache.filesystemClose( FileSystem filesystem );3;1;16
+SoftRefFilesCache.clear( FileSystem filesystem );4;2;25

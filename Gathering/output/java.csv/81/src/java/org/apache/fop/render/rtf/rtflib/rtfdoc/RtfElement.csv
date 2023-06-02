@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RtfElement.writeControlWord( String word );1;0;5
+RtfElement.writeOneAttribute( String name , Object value );4;2;13
+RtfElement.writeRtf( );3;1;10
+RtfElement.getRtfAttributes( );1;0;3
+RtfElement.getParentOfClass( Class c );3;1;12
+RtfElement.writeOneAttributeNS( String name , Object value );4;2;13
+RtfElement.writeRtfSuffix( );1;0;2
+RtfElement.newLine( );1;0;3
+RtfElement.dump( Writer w , int indent );2;2;8
+RtfElement.RtfElement( RtfContainer parent , Writer w );1;0;3
+RtfElement.writeControlWordNS( String word );1;0;4
+RtfElement.isClosed( );1;0;3
+RtfElement.writeRtfPrefix( );1;0;2
+RtfElement.writeExceptionInRtf( Exception ie );1;0;10
+RtfElement.okToWriteRtf( );1;0;3
+RtfElement.writeStarControlWordNS( String word );1;0;4
+RtfElement.writeGroupMark( boolean isStart );2;0;3
+RtfElement.RtfElement( RtfContainer parent , Writer w , RtfAttributes attr );3;3;10
+RtfElement.writeAttributes( RtfAttributes attr , String [ ] nameList );7;4;20
+RtfElement.writeStarControlWord( String word );1;0;5
+RtfElement.close( );1;0;3
+RtfElement.toString( );2;2;3
+RtfElement.getRtfFile( );2;1;7

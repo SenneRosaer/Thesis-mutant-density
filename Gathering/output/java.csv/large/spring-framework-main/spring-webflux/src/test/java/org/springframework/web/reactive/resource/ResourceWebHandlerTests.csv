@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceWebHandlerTests.noPathWithinHandlerMappingAttribute( );1;0;5
+ResourceWebHandlerTests.processPath( );1;1;19
+ResourceWebHandlerTests.initAllowedLocations( );1;0;5
+ResourceWebHandlerTests.partialContentByteRangeLargeEnd( );1;0;14
+ResourceWebHandlerTests.initAllowedLocationsWithExplicitConfiguration( );1;0;11
+ResourceWebHandlerTests.resourceLastModifiedDate( String resourceName );1;0;3
+ResourceWebHandlerTests.filterNonExistingLocations( );1;0;14
+ResourceWebHandlerTests.directory( );1;0;10
+ResourceWebHandlerTests.setPathWithinHandlerMapping( ServerWebExchange exchange , String path );1;0;4
+ResourceWebHandlerTests.directoryInJarFile( );1;0;10
+ResourceWebHandlerTests.getResourceWithHtmlMediaType( );1;2;13
+ResourceWebHandlerTests.partialContentMultipleByteRanges( );1;0;36
+ResourceWebHandlerTests.resolvePathWithTraversal( HttpMethod method );1;0;19
+ResourceWebHandlerTests.modified( );1;3;10
+ResourceWebHandlerTests.unsupportedHttpMethod( );1;0;7
+ResourceWebHandlerTests.getResource( );1;2;15
+ResourceWebHandlerTests.missingResourcePath( );1;0;10
+ResourceWebHandlerTests.testResolvePathWithTraversal( HttpMethod httpMethod , String requestPath , Resource location );3;3;14
+ResourceWebHandlerTests.testInvalidPath( String requestPath , ResourceWebHandler handler );1;0;10
+ResourceWebHandlerTests.getResourceFromSubDirectory( );1;0;8
+ResourceWebHandlerTests.resourceNotFound( HttpMethod method );1;0;15
+ResourceWebHandlerTests.getResourceHttpOptions( );1;0;8
+ResourceWebHandlerTests.partialContentSuffixRange( );1;0;14
+ResourceWebHandlerTests.partialContentSuffixRangeLargeSuffix( );1;0;14
+ResourceWebHandlerTests.httpMethods( );1;0;3
+ResourceWebHandlerTests.getResourceWithFullPathAsPattern( );1;0;10
+ResourceWebHandlerTests.getResourceFromSubDirectoryOfAlternatePath( );1;0;9
+ResourceWebHandlerTests.notModified( );1;0;8
+ResourceWebHandlerTests.getResourceFromFileSystem( );1;0;15
+ResourceWebHandlerTests.ignoreLastModified( );1;0;12
+ResourceWebHandlerTests.doOverwriteExistingCacheControlHeaders( );1;0;8
+ResourceWebHandlerTests.resourceLastModified( String resourceName );1;0;3
+ResourceWebHandlerTests.getResourceWithRegisteredMediaType( );1;0;14
+ResourceWebHandlerTests.assertResponseBody( MockServerWebExchange exchange , String responseBody );1;0;6
+ResourceWebHandlerTests.getMediaTypeWithFavorPathExtensionOff( );1;0;12
+ResourceWebHandlerTests.partialContentByteRangeNoEnd( );1;0;14
+ResourceWebHandlerTests.getResourceNoCache( );1;2;13
+ResourceWebHandlerTests.getVersionedResource( );1;0;13
+ResourceWebHandlerTests.getResourceHttpHeader( );1;2;17
+ResourceWebHandlerTests.getResourceFromAlternatePath( );1;2;15
+ResourceWebHandlerTests.setup( );1;0;10
+ResourceWebHandlerTests.partialContentByteRange( );1;0;14
+ResourceWebHandlerTests.invalidPath( );1;0;26
+ResourceWebHandlerTests.setBestMachingPattern( ServerWebExchange exchange , String pattern );1;0;4
+ResourceWebHandlerTests.partialContentInvalidRangeHeader( );1;0;12

@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BaseStubbing.thenReturn( T value );1;0;3
+BaseStubbing.getMock( );1;0;3
+BaseStubbing.thenThrow( Throwable throwable );1;0;3
+BaseStubbing.thenThrow( Class < ? extends Throwable > throwableType );2;1;7
+BaseStubbing.then( Answer < ? > answer );1;0;3
+BaseStubbing.thenThrow( Class < ? extends Throwable > toBeThrown , Class < ? extends Throwable > ... nextToBeThrown );4;1;10
+BaseStubbing.thenReturn( T value , T ... values );3;1;10
+BaseStubbing.BaseStubbing( Object mock );1;0;3
+BaseStubbing.thenThrow( Throwable ... throwables );4;2;14
+BaseStubbing.thenCallRealMethod( );1;0;3

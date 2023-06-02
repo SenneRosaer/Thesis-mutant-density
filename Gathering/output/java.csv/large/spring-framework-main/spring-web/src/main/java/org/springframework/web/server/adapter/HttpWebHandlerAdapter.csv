@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpWebHandlerAdapter.cleanupMultipart( ServerWebExchange exchange );1;0;8
+HttpWebHandlerAdapter.getLocaleContextResolver( );1;0;3
+HttpWebHandlerAdapter.isDisconnectedClientError( Throwable ex );4;2;10
+HttpWebHandlerAdapter.afterPropertiesSet( );3;0;9
+HttpWebHandlerAdapter.getCodecConfigurer( );2;1;6
+HttpWebHandlerAdapter.handleUnresolvedError( ServerWebExchange exchange , Throwable ex );5;6;24
+HttpWebHandlerAdapter.handle( ServerHttpRequest request , ServerHttpResponse response );5;3;23
+HttpWebHandlerAdapter.formatHeaders( HttpHeaders responseHeaders );3;0;4
+HttpWebHandlerAdapter.setApplicationContext( ApplicationContext applicationContext );1;0;3
+HttpWebHandlerAdapter.setLocaleContextResolver( LocaleContextResolver resolver );1;0;4
+HttpWebHandlerAdapter.getSessionManager( );1;0;3
+HttpWebHandlerAdapter.setSessionManager( WebSessionManager sessionManager );1;0;4
+HttpWebHandlerAdapter.setCodecConfigurer( ServerCodecConfigurer codecConfigurer );2;0;12
+HttpWebHandlerAdapter.logResponse( ServerWebExchange exchange );3;3;7
+HttpWebHandlerAdapter.HttpWebHandlerAdapter( WebHandler delegate );1;0;3
+HttpWebHandlerAdapter.createExchange( ServerHttpRequest request , ServerHttpResponse response );1;0;4
+HttpWebHandlerAdapter.getApplicationContext( );1;0;3
+HttpWebHandlerAdapter.getForwardedHeaderTransformer( );1;0;3
+HttpWebHandlerAdapter.deletePart( Part part );2;0;8
+HttpWebHandlerAdapter.formatRequest( ServerHttpRequest request );2;0;5
+HttpWebHandlerAdapter.setForwardedHeaderTransformer( ForwardedHeaderTransformer transformer );1;0;4

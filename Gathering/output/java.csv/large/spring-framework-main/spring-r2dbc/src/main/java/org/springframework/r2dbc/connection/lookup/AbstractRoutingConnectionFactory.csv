@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractRoutingConnectionFactory.create( );1;0;3
+AbstractRoutingConnectionFactory.setConnectionFactoryLookup( ConnectionFactoryLookup connectionFactoryLookup );1;0;4
+AbstractRoutingConnectionFactory.afterPropertiesSet( );2;1;12
+AbstractRoutingConnectionFactory.resolveSpecifiedConnectionFactory( Object connectionFactory );3;0;12
+AbstractRoutingConnectionFactory.setTargetConnectionFactories( Map < ? , ? > targetConnectionFactories );1;0;3
+AbstractRoutingConnectionFactory.getMetadata( );2;1;7
+AbstractRoutingConnectionFactory.setDefaultTargetConnectionFactory( Object defaultTargetConnectionFactory );1;0;3
+AbstractRoutingConnectionFactory.setLenientFallback( boolean lenientFallback );1;0;3
+AbstractRoutingConnectionFactory.resolveSpecifiedLookupKey( Object lookupKey );1;0;3
+AbstractRoutingConnectionFactory.determineTargetConnectionFactory( );6;7;16

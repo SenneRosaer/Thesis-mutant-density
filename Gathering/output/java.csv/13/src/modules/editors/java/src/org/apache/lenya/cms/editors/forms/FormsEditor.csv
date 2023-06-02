@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FormsEditor.processElements( Document document , XUpdateImpl xq );27;34;83
+FormsEditor.getEvent( );1;0;3
+FormsEditor.insertAfter( String pname );1;0;5
+FormsEditor.doCheckPreconditions( );2;1;7
+FormsEditor.update( String pname , String select , Node nodeToUpdate , boolean parent );4;3;41
+FormsEditor.insertBefore( String pname );1;0;5
+FormsEditor.doExecute( );3;1;11
+FormsEditor.changeTagNumber( String tagID , int step );1;4;6
+FormsEditor.getAttributes( Node node );5;5;32
+FormsEditor.append( String pname );1;0;5
+FormsEditor.advance( );8;5;43
+FormsEditor.updateCDATA( String pname , boolean parent );1;1;5
+XUpdateAttributes.XUpdateAttributes( String _xupdateAttrExpr , String _tagID );1;0;4
+FormsEditor.writeDocument( Document document , OutputStream oStream , String encoding );4;1;15
+FormsEditor.remove( String pname );1;0;5
+FormsEditor.getNamespaceMap( String namespaces );4;6;19
+FormsEditor.removeParent( String xmlSnippet );1;2;8
+FormsEditor.getNodesToLock( );2;1;9
+FormsEditor.getAttributes( String update , String tagID );4;6;18
+FormPrefixResolver.FormPrefixResolver( Node context );1;0;3
+FormPrefixResolver.getNamespaceForPrefix( String prefix , Node context );2;1;7
+FormsEditor.renumberDocument( Document doc , Source unnumberTagsXSL , Source numberTagsXSL );2;0;19
+FormsEditor.checkModifiability( Source source );2;1;5
+FormsEditor.save( SourceResolver resolver , org . apache . lenya . cms . publication . Document lenyaDocument , Source unnumberTagsXslSource , Source numberTagsXslSource , String encoding );6;4;52

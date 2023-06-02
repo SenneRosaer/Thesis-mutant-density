@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CocoonLogFormatter.CocoonLogFormatter( int stackDepth );2;0;6
+CocoonLogFormatter.getStackTrace( final Throwable throwable , final String format );2;1;7
+CocoonLogFormatter.getClass( String format );6;6;16
+CocoonLogFormatter.getTime( final long time , String pattern );3;2;6
+CocoonLogFormatter.getURI( ContextMap ctxMap );5;4;12
+CocoonLogFormatter.getTypeIdFor( String type );7;0;17
+CallStack.get( );1;0;3
+CocoonLogFormatter.formatPatternRun( LogEvent event , PatternRun run );8;1;19
+***not in a method***;0;6;0
+CocoonLogFormatter.getHost( ContextMap ctxMap );5;4;12
+CocoonLogFormatter.getThread( ContextMap ctxMap );3;2;9
+CocoonLogFormatter.CocoonLogFormatter( );1;0;3
+CocoonLogFormatter.getQueryString( ContextMap ctxMap );6;5;15

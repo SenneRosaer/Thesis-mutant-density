@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParserConfigurationSettings.ParserConfigurationSettings( XMLComponentManager parent );1;0;7
+ParserConfigurationSettings.addRecognizedProperties( String [ ] propertyIds );4;4;9
+ParserConfigurationSettings.ParserConfigurationSettings( );1;0;3
+ParserConfigurationSettings.setProperty( String propertyId , Object value );1;0;4
+ParserConfigurationSettings.getFeature( String featureId );2;1;8
+ParserConfigurationSettings.checkProperty( String propertyId );3;2;11
+ParserConfigurationSettings.addRecognizedFeatures( String [ ] featureIds );4;4;9
+ParserConfigurationSettings.setFeature( String featureId , boolean state );2;0;4
+***not in a method***;0;1;0
+ParserConfigurationSettings.checkFeature( String featureId );3;2;11
+ParserConfigurationSettings.getProperty( String propertyId );2;1;7

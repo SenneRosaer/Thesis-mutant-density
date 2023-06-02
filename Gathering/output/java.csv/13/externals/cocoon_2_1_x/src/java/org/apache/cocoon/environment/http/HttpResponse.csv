@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpResponse.setDateHeader( String name , long date );1;0;3
+HttpResponse.createCookie( String name , String value );1;0;3
+HttpResponse.setBufferSize( int size );1;0;3
+HttpResponse.setLocale( Locale loc );1;0;3
+HttpResponse.reset( );1;0;3
+HttpResponse.sendError( int sc , String msg );1;0;3
+HttpResponse.addDateHeader( String name , long date );1;0;3
+HttpResponse.encodeURL( String url );3;4;5
+HttpResponse.HttpResponse( HttpServletResponse res );1;0;3
+HttpResponse.encodeRedirectUrl( String url );1;0;3
+HttpResponse.getWriter( );1;0;3
+HttpResponse.addIntHeader( String name , int value );1;0;3
+HttpResponse.sendRedirect( String location );1;0;3
+HttpResponse.flushBuffer( );1;0;3
+HttpResponse.encodeRedirectURL( String url );3;4;6
+HttpResponse.setStatus( int sc , String sm );1;0;3
+HttpResponse.setStatus( int sc );1;0;3
+HttpResponse.getOutputStream( );1;0;3
+HttpResponse.addHeader( String name , String value );1;0;3
+HttpResponse.setIntHeader( String name , int value );1;0;3
+HttpResponse.getLocale( );1;0;3
+HttpResponse.setContentType( String type );1;0;3
+HttpResponse.setHeader( String name , String value );1;0;3
+HttpResponse.getBufferSize( );1;0;3
+HttpResponse.sendError( int sc );1;0;3
+HttpResponse.isCommitted( );1;0;3
+HttpResponse.containsHeader( String name );1;0;3
+HttpResponse.sendPermanentRedirect( String location );1;0;4
+HttpResponse.addCookie( Cookie cookie );2;0;15
+HttpResponse.encodeUrl( String url );1;0;3
+HttpResponse.getCharacterEncoding( );1;0;3
+HttpResponse.setContentLength( int len );1;0;3

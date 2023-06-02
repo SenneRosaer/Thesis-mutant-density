@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompositeMessageConverter.CompositeMessageConverter( Collection < MessageConverter > converters );1;0;4
+CompositeMessageConverter.getConverters( );1;0;3
+CompositeMessageConverter.toString( );1;0;3
+CompositeMessageConverter.fromMessage( Message < ? > message , Class < ? > targetClass , @ Nullable Object conversionHint );4;1;11
+CompositeMessageConverter.toMessage( Object payload , @ Nullable MessageHeaders headers , @ Nullable Object conversionHint );5;1;11
+CompositeMessageConverter.toMessage( Object payload , @ Nullable MessageHeaders headers );4;1;9
+CompositeMessageConverter.fromMessage( Message < ? > message , Class < ? > targetClass );3;1;9

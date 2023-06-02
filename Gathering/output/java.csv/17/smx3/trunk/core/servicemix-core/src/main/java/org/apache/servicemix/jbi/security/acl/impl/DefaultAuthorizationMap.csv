@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultAuthorizationMap.DefaultAuthorizationMap( );1;0;2
+DefaultAuthorizationMap.match( QName acl , QName target );2;1;4
+DefaultAuthorizationMap.setDefaultEntry( AuthorizationEntry defaultEntry );1;0;3
+DefaultAuthorizationMap.setAuthorizationEntries( List < AuthorizationEntry > authorizationEntries );1;0;3
+DefaultAuthorizationMap.getDefaultEntry( );1;0;3
+DefaultAuthorizationMap.getAuthorizationEntries( );1;0;3
+DefaultAuthorizationMap.getAcls( ServiceEndpoint endpoint , QName operation );7;1;19
+DefaultAuthorizationMap.match( String acl , String target );3;3;5
+DefaultAuthorizationMap.match( AuthorizationEntry entry , ServiceEndpoint endpoint , QName operation );5;6;5
+DefaultAuthorizationMap.DefaultAuthorizationMap( List < AuthorizationEntry > authorizationEntries );1;0;3

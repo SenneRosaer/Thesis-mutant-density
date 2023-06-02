@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LoggingManager.getLoggerFor( String category );1;0;3
+LoggingManager.initializeLogging( Properties properties );2;1;12
+LoggingManager.getCallerClassName( );1;0;4
+LoggingManager.getTarget( Writer targetFile , PatternFormatter fmt );1;0;3
+LoggingManager.LoggingManager( );1;0;2
+LoggingManager.makeWriter( String logFile , String propName );5;7;21
+LoggingManager.setPriority( Priority p , String category );1;0;3
+LoggingManager.setTarget( Writer targetFile );4;3;13
+LoggingManager.setPriority( Priority p );1;0;3
+LoggingManager.getFormat( );2;1;6
+LoggingManager.setPriorityFullName( String p , String fullName );1;0;3
+LoggingManager.removePrefix( String name );2;0;6
+LoggingManager.setPriority( String p );1;0;3
+LoggingManager.getLoggerForClass( );1;0;4
+LoggingManager.getLogManager( );1;0;3
+LoggingManager.setConfig( Properties p );8;1;33
+LoggingManager.setFormat( Properties properties );4;1;16
+LoggingManager.setLoggingLevels( Properties appProperties );4;2;16
+LoggingManager.setTarget( LogTarget target , String category );1;0;4
+LoggingManager.getLoggerForShortName( String category );1;0;3
+LoggingManager.setPriority( String p , String category );1;0;3

@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VersionManagerImpl.close( );1;0;4
+VersionManagerImpl.setEventChannel( UpdateEventChannel eventChannel );1;0;4
+DynamicESCFactory.createEventStateCollection( SessionImpl source );1;0;3
+VersionManagerImpl.getVirtualItemStateProvider( );1;0;3
+VersionManagerImpl.itemDiscarded( InternalVersionItem item );1;0;8
+VersionManagerImpl.getItem( NodeId id );4;2;22
+DynamicESCFactory.DynamicESCFactory( DelegatingObservationDispatcher obsMgr );1;0;3
+VersionManagerImpl.getSharedStateMgr( );1;0;3
+DynamicESCFactory.doSourced( SessionImpl eventSource , SourcedTarget runnable );1;0;8
+VersionManagerImpl.stateCreated( ItemState created );1;0;2
+VersionManagerImpl.VersionManagerImpl( PersistenceManager pMgr , FileSystem fs , NodeTypeRegistry ntReg , DelegatingObservationDispatcher obsMgr , NodeId rootId , NodeId rootParentId , ItemStateCacheFactory cacheFactory , ISMLocking ismLocking );3;1;35
+VersionManagerImpl.getPersistenceManager( );1;0;3
+VersionManagerImpl.run( );1;0;3
+VersionManagerImpl.hasItemReferences( InternalVersionItem item );3;0;11
+VersionManagerImpl.stateDiscarded( ItemState discarded );1;0;2
+DynamicESCFactory.createEventStateCollection( );2;1;6
+VersionManagerImpl.setVersionLabel( final VersionHistory history , final Name version , final Name label , final boolean move );2;1;16
+VersionManagerImpl.itemsUpdated( Collection items );5;1;25
+VersionManagerImpl.hasItem( NodeId id );1;0;8
+VersionManagerImpl.getHistoryRootId( );1;0;3
+VersionManagerImpl.externalUpdate( ChangeLog changes , List events , long timestamp );1;0;6
+VersionManagerImpl.removeVersion( VersionHistory history , final Name name );2;1;15
+VersionManagerImpl.createVersionHistory( Session session , final NodeState node );2;1;15
+VersionManagerImpl.getEscFactory( );1;0;3
+VersionManagerImpl.stateDestroyed( ItemState destroyed );1;0;8
+VersionManagerImpl.stateModified( ItemState modified );1;0;2
+VersionManagerImpl.createItemStateManager( PersistenceManager pMgr , NodeId rootId , NodeTypeRegistry ntReg , ItemStateCacheFactory cacheFactory , ISMLocking ismLocking );1;0;3
+VersionManagerImpl.checkin( final NodeImpl node );1;0;12

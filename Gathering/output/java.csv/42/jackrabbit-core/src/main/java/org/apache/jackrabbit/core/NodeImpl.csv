@@ -1,0 +1,142 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodeImpl.internalAddNode( String relPath , NodeTypeImpl nodeType );1;0;3
+NodeImpl.doneMerge( Version version );1;0;3
+NodeImpl.isNodeType( String nodeTypeName );2;0;8
+NodeImpl.setProperty( String name , String value , int type );5;3;20
+NodeImpl.hasPendingChanges( );2;0;7
+NodeImpl.setProperty( Name name , Value [ ] values , int type );5;3;20
+NodeImpl.restore( Version version , String relPath , boolean removeExisting );5;0;31
+NodeImpl.checkout( );5;2;29
+NodeImpl.internalMerge( String srcWorkspaceName , List failedIds , boolean bestEffort );5;1;27
+NodeImpl.hasShareParent( NodeId parentId );1;0;3
+NodeImpl.getPrimaryNodeType( );1;0;5
+NodeImpl.internalGetUUID( );1;0;3
+NodeImpl.setProperty( Name name , Value [ ] values );6;5;22
+NodeImpl.getProperties( String namePattern );1;0;6
+NodeImpl.NodeImpl( ItemManager itemMgr , SessionImpl session , AbstractNodeData data );2;1;11
+NodeImpl.onRedefine( NodeDefId defId );1;0;7
+NodeImpl.accept( ItemVisitor visitor );1;0;4
+NodeImpl.checkin( );3;1;21
+NodeImpl.getProperty( String relPath );4;1;14
+NodeImpl.hasProperty( String relPath );2;1;9
+NodeImpl.addMixin( Name mixinName );13;8;67
+NodeImpl.getName( );3;2;15
+NodeImpl.hasProperty( Name name );2;1;9
+NodeImpl.computeSystemGeneratedPropertyValues( Name name , PropertyDefinitionImpl def );13;0;37
+NodeImpl.unlock( );3;0;18
+NodeImpl.getUUID( );2;1;7
+NodeImpl.checkLockable( );2;1;9
+NodeImpl.internalAddChildNode( Name nodeName , NodeTypeImpl nodeType );1;0;3
+NodeImpl.getNode( Name name );1;0;3
+NodeImpl.internalAddChildNode( Name nodeName , NodeTypeImpl nodeType , NodeId id );9;5;43
+NodeImpl.lock( boolean isDeep , boolean isSessionScoped );4;1;32
+NodeImpl.getCorrespondingNode( SessionImpl srcSession );8;4;35
+NodeImpl.orderBefore( String srcName , String destName );10;9;31
+NodeImpl.getVersionHistory( );1;0;7
+NodeImpl.addNode( String relPath );1;0;4
+NodeImpl.getPrimaryItem( );4;1;14
+NodeImpl.getMixinNodeTypes( );3;1;14
+NodeImpl.internalGetMergeFailed( );3;2;10
+NodeImpl.isLocked( );2;0;7
+NodeImpl.setProperty( String name , long value );3;0;16
+NodeImpl.hasNode( Name name );1;0;3
+NodeImpl.renameChildNode( Name oldName , int index , NodeId id , Name newName );1;0;4
+NodeImpl.getMixinTypeNames( );1;0;3
+NodeImpl.getParentId( );1;0;3
+NodeImpl.setProperty( String name , Calendar value );3;0;16
+NodeImpl.addNode( Name name , InternalFrozenNode frozen );2;2;11
+NodeImpl.internalSetProperty( Name name , InternalValue value );5;2;23
+NodeImpl.restore( String versionName , boolean removeExisting );1;0;8
+NodeImpl.getBaseVersion( );1;0;7
+NodeImpl.setPrimaryType( String nodeTypeName );28;13;159
+NodeImpl.setProperty( String name , Value value );6;4;24
+NodeImpl.createChildNode( Name name , NodeDefinitionImpl def , NodeTypeImpl nodeType , NodeId id );6;5;37
+NodeImpl.setProperty( String name , String [ ] values );3;0;16
+NodeImpl.removeShare( );1;0;4
+NodeImpl.checkSetProperty( );2;1;8
+NodeImpl.removeMixin( Name mixinName );19;17;74
+NodeImpl.restore( Version version , boolean removeExisting );2;1;10
+NodeImpl.setProperty( String name , Value [ ] values );8;8;27
+NodeImpl.internalIsCheckedOut( );5;2;19
+NodeImpl.createChildProperty( Name name , int type , PropertyDefinitionImpl def );4;2;27
+NodeImpl.makePersistent( );6;5;34
+NodeImpl.isNodeType( Name ntName );4;0;22
+NodeImpl.hasNode( String relPath );2;1;9
+NodeImpl.internalCopyPropertyFrom( PropertyImpl prop );3;2;13
+NodeImpl.getIdentifier( );1;0;3
+NodeImpl.replaceChildNode( NodeId id , Name nodeName , Name nodeTypeName , Name [ ] mixinNames );7;5;33
+NodeImpl.internalAddNode( String relPath , NodeTypeImpl nodeType , NodeId id );6;3;41
+NodeImpl.isCheckedOut( );1;0;4
+NodeImpl.setMixinTypesProperty( Set mixinNames );4;1;22
+NodeImpl.getParent( );2;1;10
+NodeImpl.getQName( );2;1;10
+NodeImpl.restoreByLabel( String versionLabel , boolean removeExisting );2;1;10
+NodeImpl.internalFinishMerge( Version version , boolean cancel );6;6;35
+NodeImpl.internalSetMergeFailed( Set set );3;1;14
+NodeImpl.getLock( );2;0;7
+NodeImpl.internalMerge( SessionImpl srcSession , List failedIds , boolean bestEffort , boolean removeExisting , boolean replaceExisting );25;13;88
+NodeImpl.getApplicableChildNodeDefinition( Name nodeName , Name nodeTypeName );1;0;6
+NodeImpl.getNodeId( );1;0;3
+NodeImpl.doMergeTest( SessionImpl srcSession , List failedIds , boolean bestEffort );10;8;32
+NodeImpl.getSharedSet( );3;1;15
+NodeImpl.getEffectiveNodeType( );2;0;13
+NodeImpl.removeChildProperty( String propName );2;0;8
+NodeImpl.setProperty( String name , Value value , int type );5;3;20
+NodeImpl.resolveRelativePropertyPath( String relPath );4;2;20
+NodeImpl.cancelMerge( Version version );1;0;3
+NodeImpl.getIndex( );3;1;18
+NodeImpl.addNode( String relPath , String nodeTypeName );2;0;8
+NodeImpl.hasProperties( );1;0;4
+NodeImpl.addNode( Name nodeName , Name nodeTypeName , UUID uuid );4;3;14
+NodeImpl.addShareParent( NodeId parentId );6;3;24
+NodeImpl.getOrCreateProperty( Name name , int type , boolean multiValued , boolean exactTypeMatch , BitSet status );5;2;22
+NodeImpl.hasNodes( );1;0;4
+NodeImpl.setProperty( String name , double value );3;0;16
+NodeImpl.getProperties( );3;0;14
+NodeImpl.getProperty( Name name );2;0;9
+NodeImpl.addMixin( String mixinName );2;0;8
+NodeImpl.hasNode( Name name , int index );3;2;12
+NodeImpl.getPrimaryPath( );4;3;24
+NodeImpl.setProperty( String name , boolean value );3;0;16
+NodeImpl.removeMixin( String mixinName );2;0;8
+NodeImpl.getNodes( String namePattern );1;0;6
+NodeImpl.isShareable( );1;0;3
+NodeImpl.canAddMixin( String mixinName );9;2;45
+NodeImpl.checkVersionable( );2;1;9
+NodeImpl.getDefinition( );1;0;4
+NodeImpl.setProperty( String name , Value [ ] values , int type );3;0;15
+NodeImpl.setProperty( String name , Node value );3;0;16
+NodeImpl.removeChildNode( Name nodeName , int index );4;3;21
+NodeImpl.holdsLock( );3;2;7
+NodeImpl.checkSessionHasPending( );2;0;7
+NodeImpl.getReferences( String name );7;1;33
+NodeImpl.internalSetProperty( Name name , InternalValue [ ] values );4;5;10
+NodeImpl.getNode( String relPath );5;1;17
+NodeImpl.internalRestore( VersionImpl version , VersionSelector vsel , boolean removeExisting );2;0;15
+NodeImpl.internalSetProperty( Name name , InternalValue [ ] values , int type );3;0;13
+NodeImpl.getReferences( );1;0;3
+NodeImpl.removeSharedSet( );2;0;7
+NodeImpl.onRemove( NodeId parentId );6;4;30
+NodeImpl.clone( NodeImpl src , Name name );8;4;47
+NodeImpl.merge( String srcWorkspace , boolean bestEffort );1;0;5
+NodeImpl.orderBefore( Path . Element srcName , Path . Element dstName );31;43;97
+NodeImpl.internalRestore( Version version , VersionSelector vsel , boolean removeExisting );3;0;13
+NodeImpl.restoreFrozenState( InternalFrozenNode freeze , VersionSelector vsel , Set restored , boolean removeExisting );45;34;158
+NodeImpl.setProperty( String name , String [ ] values , int type );5;3;20
+NodeImpl.setProperty( String name , InputStream value );3;0;16
+NodeImpl.addNode( String relPath , InternalFrozenNode frozen );2;2;11
+NodeImpl.getNode( Name name , int index );4;2;16
+NodeImpl.resolveRelativeNodePath( String relPath );6;3;28
+NodeImpl.restoreTransient( NodeState transientState );3;3;15
+NodeImpl.checkLock( );2;0;6
+NodeImpl.getCorrespondingNodePath( String workspaceName );9;8;40
+NodeImpl.isNode( );1;0;3
+NodeImpl.getApplicablePropertyDefinition( Name propertyName , int type , boolean multiValued , boolean exactTypeMatch );4;2;16
+NodeImpl.getOrCreateProperty( String name , int type , boolean multiValued , boolean exactTypeMatch , BitSet status );2;0;9
+NodeImpl.removeChildProperty( Name propName );2;1;10
+NodeImpl.setProperty( String name , String value );3;0;16
+NodeImpl.update( String srcWorkspaceName );1;0;3
+NodeImpl.getOrCreateTransientItemState( );3;1;17
+NodeImpl.setProperty( Name name , Value value );4;1;19
+NodeImpl.getNodes( );3;0;14
+NodeImpl.toString( );1;0;3

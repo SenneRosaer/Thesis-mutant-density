@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PSGenerator.writeByteArr( byte [ ] cmd );1;0;4
+PSGenerator.flush( );1;0;3
+PSGenerator.escapeChar( char c , StringBuffer target );12;11;39
+PSGenerator.commentln( String comment );2;0;5
+PSGenerator.useDash( String pattern );3;1;8
+PSGenerator.writeln( String cmd );1;0;4
+PSGenerator.isResourceSupplied( PSResource res );1;0;3
+PSGenerator.useRGBColor( Color col );1;0;3
+PSGenerator.formatDouble5( double value );1;0;3
+PSGenerator.defineRect( double x , double y , double w , double h );1;3;7
+PSGenerator.resolveURI( String uri );1;0;3
+PSGenerator.concatMatrix( double [ ] matrix );1;0;5
+PSGenerator.getResourceTracker( );1;0;3
+PSGenerator.convertColorToPS( Color col );10;11;35
+PSGenerator.convertRealToDSC( float value );1;0;3
+PSGenerator.notifyStartNewPage( );1;0;3
+PSGenerator.PSGenerator( OutputStream out );1;0;4
+PSGenerator.formatDouble( double value );1;0;3
+PSGenerator.writeDSCComment( String name , Object param );1;0;3
+PSGenerator.useLineWidth( double width );2;0;5
+PSGenerator.formatRectangleToArray( Rectangle2D rect );1;0;6
+PSGenerator.newLine( );1;0;3
+PSGenerator.notifyResourceUsage( PSResource res , boolean needed );1;0;3
+PSGenerator.useColor( Color col );2;0;5
+PSGenerator.setResourceTracker( ResourceTracker resTracker );1;0;3
+PSGenerator.writeDSCComment( String name , Object [ ] params );11;7;31
+PSGenerator.convertStringToDSC( String text );1;0;3
+PSGenerator.write( String cmd );1;0;3
+PSGenerator.writeDSCComment( String name );1;0;3
+PSGenerator.saveGraphicsState( );1;0;6
+PSGenerator.restoreGraphicsState( );2;1;9
+PSGenerator.convertStringToDSC( String text , boolean forceParentheses );7;11;24
+PSGenerator.setPSLevel( int level );1;0;3
+PSGenerator.useFont( String name , float size );2;1;5
+PSGenerator.concatMatrix( double a , double b , double c , double d , double e , double f );1;0;4
+PSGenerator.getCurrentState( );1;0;3
+PSGenerator.concatMatrix( AffineTransform at );1;0;4
+PSGenerator.formatMatrix( AffineTransform at );1;0;10
+PSGenerator.getOutputStream( );1;0;3
+PSGenerator.useLineCap( int linecap );2;0;5
+PSGenerator.getPSLevel( );1;0;3
+PSGenerator.writeResources( boolean pageLevel );1;0;3

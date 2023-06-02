@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ComponentSupport.createInOnlyExchange( MessageExchange srcExchange );1;0;6
+ComponentSupport.getLifeCycle( );2;1;8
+ComponentSupport.forwardToExchange( MessageExchange exchange , InOnly outExchange , NormalizedMessage in , QName operationName );2;1;6
+ComponentSupport.forwardToExchange( MessageExchange exchange , InOnly outExchange , NormalizedMessage in );1;0;6
+ComponentSupport.creatInOutExchange( QName service , QName interfaceName , QName operation , MessageExchange srcExchange );1;0;5
+ComponentSupport.getInMessage( MessageExchange exchange );2;1;7
+ComponentSupport.invoke( MessageExchange exchange , NormalizedMessage in , QName service , QName interfaceName , QName operation );1;0;4
+ComponentSupport.resolveEndpointReference( DocumentFragment fragment );1;0;3
+ComponentSupport.createInOptionalOutExchange( MessageExchange srcExchange );1;0;6
+ComponentSupport.createInOutExchange( QName service , QName interfaceName , QName operation );6;5;22
+ComponentSupport.createServiceUnitManager( );1;0;3
+ComponentSupport.getServiceUnitManager( );1;0;4
+ComponentSupport.createRobustInOnlyExchange( MessageExchange srcExchange );1;0;6
+ComponentSupport.createInOnlyExchange( QName service , QName interfaceName , QName operation );6;5;22
+ComponentSupport.createInOutExchange( MessageExchange srcExchange );1;0;6
+ComponentSupport.createComponentLifeCycle( );1;0;3
+ComponentSupport.createInOnlyExchange( QName service , QName interfaceName , QName operation , MessageExchange beforeExchange );1;0;5
+ComponentSupport.isExchangeWithConsumerOkay( ServiceEndpoint endpoint , MessageExchange exchange );1;0;3
+ComponentSupport.ComponentSupport( );1;0;2
+ComponentSupport.isExchangeWithProviderOkay( ServiceEndpoint endpoint , MessageExchange exchange );1;0;3
+ComponentSupport.ComponentSupport( QName service , String endpoint );1;0;3
+ComponentSupport.setMessageTransformer( MessageTransformer transformer );1;0;3
+ComponentSupport.getServiceDescription( ServiceEndpoint endpoint );1;0;3
+ComponentSupport.initializeServiceUnitManager( );2;1;5
+ComponentSupport.getMessageTransformer( );1;0;3
+ComponentSupport.propagateCorrelationId( MessageExchange source , MessageExchange dest );4;4;11

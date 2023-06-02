@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLHelper.createPlaybackFile( File playbackFile , PlaybackSessionBean bean );9;12;83
+XMLHelper.write( File file , String contents );4;1;14
+XMLHelper.getConfig( final InputStream xmlInputStream , final String xmlResourcePath );5;3;53
+XMLHelper.fatalError( SAXParseException exception );1;0;4
+XMLHelper.getNVPairs( String namespaceURI , NodeList nodeList );2;2;10
+XMLHelper.getDiffResults( File file );6;3;60
+XMLHelper.resolveEntity( String publicId , String systemId );2;0;8
+XMLHelper.getTestDefinitionsInstance( ClassLoader loader );10;4;50
+XMLHelper.error( SAXParseException exception );1;0;4
+XMLHelper.getRecordSessionBean( File file );19;15;136
+XMLHelper.createRecordFile( File recordFile , RecordSessionBean bean );9;12;77
+XMLHelper.getWebapps( final InputStream xmlInputStream , final String xmlResourcePath , Config config );9;9;86
+XMLHelper.getTestDefinitionsInstance( final InputStream xmlInputStream , final String xmlResourcePath , Webapps webapps , String baseDirPath );10;10;83
+XMLHelper.getServerDefinition( final InputStream xmlInputStream , final String xmlResourcePath );5;3;61
+XMLHelper.warning( SAXParseException exception );2;0;5
+XMLHelper.writeElement( StringBuffer buffer , String elementName , Object elementValue );1;0;9
+XMLHelper.createDiffFile( File diffFile , PlaybackSessionBean bean );4;5;34

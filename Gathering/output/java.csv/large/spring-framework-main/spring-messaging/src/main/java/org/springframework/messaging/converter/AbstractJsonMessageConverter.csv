@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractJsonMessageConverter.convertToInternal( Object payload , @ Nullable MessageHeaders headers , @ Nullable Object conversionHint );3;1;18
+AbstractJsonMessageConverter.getReader( byte [ ] payload , @ Nullable MessageHeaders headers );1;0;4
+AbstractJsonMessageConverter.convertFromInternal( Message < ? > message , Class < ? > targetClass , @ Nullable Object conversionHint );4;0;18
+AbstractJsonMessageConverter.getWriter( ByteArrayOutputStream out , @ Nullable MessageHeaders headers );1;0;3
+AbstractJsonMessageConverter.AbstractJsonMessageConverter( );1;0;3
+AbstractJsonMessageConverter.supports( Class < ? > clazz );1;0;3
+AbstractJsonMessageConverter.getCharsetToUse( @ Nullable MessageHeaders headers );3;3;4

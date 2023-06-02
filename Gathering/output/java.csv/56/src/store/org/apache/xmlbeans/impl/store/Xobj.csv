@@ -1,0 +1,474 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Xobj.insertXobj( Xobj s );3;8;17
+SoapPartDom.getContent( );1;0;1
+AttrXobj.getNextSibling( );1;0;1
+Xobj.setBit( int mask );1;1;1
+CommentXobj.deleteData( int offset , int count );1;0;1
+DocumentXobj.renameNode( Node n , String namespaceURI , String qualifiedName );1;0;1
+DocumentXobj.adoptNode( Node source );1;0;1
+DetailEntryXobj.DetailEntryXobj( Locale l , QName name );1;0;1
+DocumentXobj.setXmlStandalone( boolean xmlStandalone );1;0;1
+NodeXobj.lookupPrefix( String namespaceURI );1;0;1
+NodeXobj.appendChild( Node newChild );1;0;1
+SoapPartDom.dump( PrintStream o , Object ref );1;0;1
+SoapHeaderXobj.extractHeaderElements( String actor );1;0;1
+Xobj.removeXobjs( Xobj first , Xobj last );6;8;17
+SoapPartDom.nodeType( );1;0;1
+SoapPartDom.getAttributes( );1;0;1
+ElementAttributes.ElementAttributes( ElementXobj elementXobj );1;0;3
+SoapPartDom.lookupPrefix( String namespaceURI );1;0;1
+SoapHeaderXobj.extractAllHeaderElements( );1;0;1
+SoapPartDom.getAllMimeHeaders( );1;0;1
+NodeXobj.getAttributes( );1;0;1
+DocumentXobj.getXmlEncoding( );1;0;1
+NodeXobj.getLocalName( );1;0;1
+Xobj.isCharNodesValueUsable( );2;2;6
+SoapPartDom.getFeature( String feature , String version );1;0;1
+SoapPartDom.getNodeName( );1;0;1
+Xobj.setStableType( SchemaType type );1;0;3
+SoapEnvelopeXobj.newNode( Locale l );1;0;1
+SoapPartDom.getChildNodes( );1;0;1
+SoapFaultXobj.setFaultActor( String faultActorString );1;0;1
+ElementAttributes.getLength( );1;0;1
+Xobj.remove_attribute( QName name );2;1;12
+SoapPartDom.removeMimeHeader( String name );1;0;1
+Xobj.kind( );1;1;1
+Xobj.Xobj( Locale l , int kind , int domType );5;11;5
+Bookmark.isOnList( Bookmark head );3;2;6
+SoapBodyXobj.addFault( Name faultCode , String faultString , java . util . Locale locale );1;0;1
+ElementXobj.ElementXobj( Locale l , QName name );1;0;4
+Xobj.contains( Cur c );1;0;4
+SoapPartDom.createElement( String tagName );1;0;1
+SoapHeaderXobj.examineAllHeaderElements( );1;0;1
+CommentXobj.getChildNodes( );1;0;1
+SoapElementXobj.addChildElement( Name name );1;0;1
+DocumentXobj.setXmlVersion( String xmlVersion );1;0;1
+SoapPartDom.isEqualNode( Node arg );1;0;1
+SoapBodyXobj.SoapBodyXobj( Locale l , QName name );1;0;1
+DocumentXobj.createCDATASection( String data );1;0;1
+SoapBodyXobj.addDocument( Document document );1;0;1
+Xobj.getFirstChars( );4;6;13
+SoapElementXobj.getNamespacePrefixes( );1;0;1
+AttrIdXobj.AttrIdXobj( Locale l , QName name );1;0;3
+SoapFaultXobj.addDetail( );1;0;1
+SoapPartDom.getNodeValue( );1;0;1
+CommentXobj.getData( );1;0;1
+AttrXobj.newNode( Locale l );1;0;1
+SoapPartDom.getQName( );1;0;1
+Xobj.insertElement( QName name , Xobj x , int pos );1;0;16
+NodeXobj.getPreviousSibling( );1;0;1
+Xobj.hasAttrs( );2;2;1
+SoapFaultXobj.getFaultCode( );1;0;1
+Xobj.inChars( int p , Xobj xIn , int pIn , int cch , boolean includeEnd );10;18;16
+SoapElementXobj.removeContents( );1;0;1
+ElementAttributes.setNamedItem( Node arg );1;0;1
+Xobj.isNormalAttr( );2;2;1
+Xobj.isUserNode( );4;7;1
+DetailXobj.newNode( Locale l );1;0;1
+Xobj.bitIsSet( int mask );1;2;1
+Xobj.copy_contents_from( TypeStore source );7;5;56
+ElementAttributes.removeNamedItemNS( String namespaceURI , String localName );1;0;1
+DocumentXobj.getElementById( String elementId );4;3;10
+AttrXobj.getSpecified( );1;0;1
+DocumentXobj.setStrictErrorChecking( boolean strictErrorChecking );1;0;1
+ElementAttributes.getNamedItemNS( String namespaceURI , String localName );1;0;1
+AttrXobj.isId( );1;0;1
+SoapFaultXobj.getFaultCodeAsName( );1;0;1
+SoapPartDom.createAttributeNS( String namespaceURI , String qualifiedName );1;0;1
+Xobj.getObject( );2;0;3
+SoapPartDom.getUserData( String key );1;0;1
+ElementXobj.getAttribute( String name );1;0;1
+NodeXobj.isEqualNode( Node arg );1;0;1
+CommentXobj.insertData( int offset , String arg );1;0;1
+Xobj.isRoot( );1;1;1
+Xobj.find_element_user( QName name , int i );5;5;6
+Xobj.isStableUser( );1;0;1
+ProcInstXobj.getTarget( );1;0;1
+SoapElementXobj.SoapElementXobj( Locale l , QName name );1;0;1
+DetailXobj.addDetailEntry( Name name );1;0;1
+ElementXobj.getElementsByTagNameNS( String namespaceURI , String localName );1;0;1
+SoapElementXobj.getElementName( );1;0;1
+SoapElementXobj.removeNamespaceDeclaration( String prefix );1;0;1
+NodeXobj.getFeature( String feature , String version );1;0;1
+SoapPartDom.hasChildNodes( );1;0;1
+SoapElementXobj.getEncodingStyle( );1;0;1
+Xobj.disconnectChildrenUsers( );2;3;8
+SoapElementXobj.getNamespaceURI( String prefix );1;0;1
+ElementXobj.hasAttribute( String name );1;0;1
+SoapPartDom.getXmlEncoding( );1;0;1
+SoapElementXobj.addChildElement( String localName , String prefix , String uri );1;0;1
+SoapPartDom.getMatchingMimeHeaders( String [ ] names );1;0;1
+ElementXobj.setAttributeNode( Attr newAttr );1;0;1
+Xobj.find_nil( );4;2;17
+Xobj.isExistingCharNodesValueUsable( );5;6;7
+Xobj.posAfter( );1;1;1
+SoapPartDom.name( );1;0;1
+SoapBodyXobj.hasFault( );1;0;1
+SoapPartDom.setUserData( String key , Object data , UserDataHandler handler );1;0;1
+SoapElementXobj.newNode( Locale l );1;0;1
+DetailEntryXobj.newNode( Locale l );1;0;1
+Xobj.find_prefix_for_nsuri( String nsuri , String suggested_prefix );1;0;11
+ElementAttributes.item( int index );1;0;1
+SoapElementXobj.getParentElement( );1;0;1
+Xobj.get_schema_field( );7;2;21
+SoapPartDom.getNodeType( );1;0;1
+ElementXobj.setAttribute( String name , String value );1;0;1
+SoapPartDom.getLength( );1;0;1
+SoapPartDom.getXmlStandalone( );1;0;1
+SoapElementXobj.recycleNode( );1;0;1
+SoapPartDom.removeAllMimeHeaders( );1;0;1
+Xobj.cchAfter( );1;0;1
+SoapElementXobj.setValue( String value );1;0;1
+ElementXobj.setIdAttribute( String name , boolean isId );1;0;1
+SoapPartDocXobj.getDom( );1;0;1
+ProcInstXobj.setData( String data );1;0;1
+NodeXobj.getPrefix( );1;0;1
+Xobj.contains( Xobj x , int p );7;9;11
+Xobj.getEmbedded( );1;0;4
+Xobj.hasTextEnsureOccupancy( );1;0;4
+Xobj.disconnectNonRootUsers( );3;3;9
+DetailXobj.DetailXobj( Locale l , QName name );1;0;1
+NodeXobj.removeChild( Node oldChild );1;0;1
+Xobj.getCharsValueAsString( int off , int cch );1;1;4
+DocumentXobj.setDocumentURI( String documentURI );1;0;1
+Xobj.invalidate_nil( );3;1;16
+SoapPartDom.dump( PrintStream o );1;0;1
+DocumentXobj.getInputEncoding( );1;0;1
+DocumentXobj.DocumentXobj( Locale l );1;0;3
+SoapEnvelopeXobj.addHeader( );1;0;1
+NodeXobj.isDefaultNamespace( String namespaceURI );1;0;1
+Xobj.getUser( );6;7;17
+Xobj.cchValue( );1;0;1
+Xobj.remove_element( QName name , int i );7;7;11
+SoapBodyElementXobj.SoapBodyElementXobj( Locale l , QName name );1;0;1
+NodeXobj.setUserData( String key , Object data , UserDataHandler handler );1;0;1
+SoapPartDom.renameNode( Node n , String namespaceURI , String qualifiedName );1;0;1
+Xobj.disconnectUser( );3;3;8
+DocumentXobj.createAttribute( String name );1;0;1
+Xobj.removeXobj( );6;5;17
+NodeXobj.isSameNode( Node arg );1;0;1
+Xobj.getChars( int pos , int cch );4;4;13
+SoapPartDom.replaceChild( Node newChild , Node oldChild );1;0;1
+SoapFaultXobj.getFaultActor( );1;0;1
+NodeXobj.compareDocumentPosition( Node other );1;0;1
+Xobj.find_element_user( QNameSet names , int i );5;5;6
+DocumentXobj.getDocumentURI( );1;0;1
+CommentXobj.replaceData( int offset , int count , String arg );1;0;1
+Xobj.isElem( );1;1;1
+ElementXobj.newNode( Locale l );1;0;1
+NodeXobj.cloneNode( boolean deep );1;0;1
+CommentXobj.appendData( String arg );1;0;1
+Xobj.removeAttr( QName name );4;2;17
+SoapPartDom.tempCur( );1;0;1
+ElementXobj.getAttributeNS( String namespaceURI , String localName );1;0;1
+Xobj.substitute( QName name , SchemaType type );1;0;14
+SoapFaultElementXobj.newNode( Locale l );1;0;1
+Xobj.dump( PrintStream o );1;0;1
+Xobj.isXmlns( );2;1;1
+CommentXobj.substringData( int offset , int count );1;0;1
+Xobj.compute_default_text( );8;3;22
+SoapPartDom.getOwnerDocument( );1;0;1
+Xobj.isInSameTree( Xobj x );8;6;19
+Xobj.visit_elements( TypeStoreVisitor visitor );1;0;3
+SoapBodyXobj.addFault( );1;0;1
+ElementXobj.setAttributeNodeNS( Attr newAttr );1;0;1
+SoapHeaderElementXobj.getMustUnderstand( );1;0;1
+DocumentXobj.getXmlStandalone( );1;0;1
+ElementXobj.getTagName( );1;0;1
+SoapPartDom.getBaseURI( );1;0;1
+Xobj.hasBookmark( Object key , int pos );4;4;8
+Xobj.getDenormal( int p );7;13;30
+SoapEnvelopeXobj.getHeader( );1;0;1
+Xobj.getXmlnsPrefix( );1;0;1
+SoapEnvelopeXobj.createName( String localName );1;0;1
+SoapPartDom.dump( );1;0;1
+Xobj.getValueAsString( );1;0;3
+CommentXobj.getFirstChild( );1;0;1
+ElementXobj.setIdAttributeNS( String namespaceURI , String localName , boolean isId );1;0;1
+Xobj.new_cursor( );1;0;14
+SoapElementXobj.getAttributeValue( Name name );1;0;1
+Xobj.getQName( );1;0;1
+ProcInstXobj.getLength( );1;0;1
+Xobj.getCharsAfterAsString( int off , int cch );2;4;7
+Xobj.getCharsAsString( int p , int cch , int wsr );3;2;10
+NodeXobj.getLength( );1;0;1
+DocumentXobj.getXmlVersion( );1;0;1
+NodeXobj.getFirstChild( );1;0;1
+Xobj.add_element_user( QName name );9;6;26
+AttrIdXobj.isId( );1;0;3
+SoapPartDom.getNonMatchingMimeHeaders( String [ ] names );1;0;1
+ProcInstXobj.newNode( Locale l );1;0;1
+SoapPartDom.getLocalName( );1;0;1
+SoapBodyXobj.addFault( Name name , String s );1;0;1
+SoapPartDom.getPreviousSibling( );1;0;1
+Xobj.nodeType( );1;0;1
+SoapPartDom.normalize( );1;0;1
+SoapElementXobj.addNamespaceDeclaration( String prefix , String uri );1;0;1
+ElementAttributes.setNamedItemNS( Node arg );1;0;1
+SoapPartDom.isDefaultNamespace( String namespaceURI );1;0;1
+Xobj.clearBit( int mask );1;1;1
+NodeXobj.replaceChild( Node newChild , Node oldChild );1;0;1
+Xobj.array_setter( XmlObject [ ] sources , QName elementName );10;14;69
+SoapFaultXobj.setFaultString( String faultString );1;0;1
+Xobj.cchRight( int p );3;6;7
+SoapFaultXobj.setFaultCode( String faultCode );1;0;1
+CommentXobj.setData( String data );1;0;1
+SoapPartDom.getPrefix( );1;0;1
+Xobj.get_xsi_type( );1;0;3
+SoapBodyXobj.getFault( );1;0;1
+SoapPartDom.getXmlVersion( );1;0;1
+ElementXobj.getSchemaTypeInfo( );1;0;1
+DocumentXobj.removeIdElement( String idVal );2;1;4
+NodeXobj.setPrefix( String prefix );1;0;1
+DocumentXobj.createElementNS( String namespaceURI , String qualifiedName );1;0;1
+NodeXobj.lookupNamespaceURI( String prefix );1;0;1
+Xobj.insert_element_user( QNameSet names , QName name , int i );5;5;14
+SoapPartDom.getParentNode( );1;0;1
+Xobj.isNormal( int p );13;15;20
+SoapFaultXobj.setFaultString( String faultString , java . util . Locale locale );1;0;1
+DocumentXobj.addIdElement( String idVal , Dom e );2;1;5
+NodeXobj.getChildNodes( );1;0;1
+SoapPartDom.getFirstChild( );1;0;1
+AttrXobj.getName( );1;0;1
+DocumentXobj.normalizeDocument( );1;0;1
+NodeXobj.setTextContent( String textContent );1;0;1
+Xobj.isContainer( );1;0;1
+SoapPartDocXobj.SoapPartDocXobj( Locale l );1;0;4
+Xobj.invalidate_text( );4;2;26
+Xobj.appendXobjs( Xobj first , Xobj last );4;10;16
+SoapPartDom.nodeCanHavePrefixUri( );1;0;1
+Xobj.find_all_element_users( QName name , List fillMeUp );4;2;5
+SoapPartDom.SoapPartDom( SoapPartDocXobj docXobj );1;0;3
+Xobj.invalidateUser( );3;3;6
+SoapPartDom.createComment( String data );1;0;1
+Xobj.add_attribute_user( QName name );2;1;13
+DocumentXobj.getDoctype( );1;0;1
+Xobj.ensureOccupancy( );2;2;18
+Bookmark.listInsert( Bookmark head );3;4;11
+Xobj.getXsiTypeName( );2;1;5
+Xobj.isJustAfterEnd( Xobj x , int p );5;7;9
+Xobj.hasTextNoEnsureOccupancy( );3;4;6
+SoapEnvelopeXobj.SoapEnvelopeXobj( Locale l , QName name );1;0;1
+NodeXobj.hasChildNodes( );1;0;1
+SoapFaultXobj.getFaultStringLocale( );1;0;1
+SoapElementXobj.removeAttribute( Name name );1;0;1
+SoapFaultXobj.setFaultCode( Name faultCodeName );1;0;1
+SoapElementXobj.addTextNode( String data );1;0;1
+SoapElementXobj.getChildElements( );1;0;1
+DocumentXobj.getImplementation( );1;0;1
+Xobj.dump( PrintStream o , Object ref );1;0;1
+Xobj.get_root_object( );1;0;3
+Xobj.walk( Xobj root , boolean walkChildren );5;4;8
+Xobj.getString( int p , int cch );9;16;29
+Xobj.exec_query( String queryExpr , XmlOptions options );1;0;14
+Xobj.remove_element( QNameSet names , int i );7;7;11
+DocumentXobj.createAttributeNS( String namespaceURI , String qualifiedName );1;0;1
+NodeXobj.hasAttributes( );1;0;1
+ElementXobj.removeAttributeNode( Attr oldAttr );1;0;1
+Xobj.getDomZeroOneChildren( );27;45;39
+SoapPartDom.setXmlVersion( String xmlVersion );1;0;1
+SoapElementXobj.detachNode( );1;0;1
+SoapPartDom.setStrictErrorChecking( boolean strictErrorChecking );1;0;1
+SoapPartDom.getNextSibling( );1;0;1
+DocumentXobj.getDomConfig( );1;0;1
+SoapPartDom.getEnvelope( );1;0;1
+SoapPartDom.createTextNode( String data );1;0;1
+SoapElementXobj.getVisibleNamespacePrefixes( );1;0;1
+ElementXobj.getAttributeNode( String name );1;0;1
+Xobj.compute_flags( );8;4;22
+SoapHeaderXobj.examineMustUnderstandHeaderElements( String mustUnderstandString );1;0;1
+DocumentXobj.importNode( Node importedNode , boolean deep );1;0;1
+Xobj.tempCur( );1;0;1
+AttrXobj.getSchemaTypeInfo( );1;0;1
+ElementXobj.hasAttributeNS( String namespaceURI , String localName );1;0;1
+Xobj.find_all_element_users( QNameSet names , List fillMeUp );4;2;5
+SoapEnvelopeXobj.getBody( );1;0;1
+Xobj.change_type( SchemaType type );1;0;14
+SoapPartDom.getNamespaceURI( );1;0;1
+SoapPartDom.getLastChild( );1;0;1
+ElementXobj.getAttributes( );2;1;5
+CommentXobj.CommentXobj( Locale l );1;0;1
+SoapElementXobj.getAllAttributes( );1;0;1
+Xobj.insertCharsHelper( int p , Object src , int off , int cch , boolean invalidate );12;18;34
+SoapFaultXobj.newNode( Locale l );1;0;1
+DocumentFragXobj.newNode( Locale l );1;0;1
+Xobj.cchLeft( int p );4;4;8
+Xobj.firstAttr( );3;3;3
+SoapHeaderElementXobj.SoapHeaderElementXobj( Locale l , QName name );1;0;1
+Xobj.isComment( );1;1;1
+SoapElementXobj.setEncodingStyle( String encodingStyle );1;0;1
+SoapPartDom.setXmlStandalone( boolean xmlStandalone );1;0;1
+SoapPartDom.createEntityReference( String name );1;0;1
+SoapPartDom.setMimeHeader( String name , String value );1;0;1
+Xobj.isValid( );4;4;5
+SoapPartDom.setTextContent( String textContent );1;0;1
+ElementXobj.setIdAttributeNode( Attr idAttr , boolean isId );1;0;1
+SoapElementXobj.getValue( );1;0;1
+NodeXobj.getNextSibling( );1;0;1
+Xobj.bitIsClear( int mask );1;2;1
+NodeXobj.nodeCanHavePrefixUri( );1;0;1
+ElementXobj.setAttributeNS( String namespaceURI , String qualifiedName , String value );1;0;1
+Xobj.fetch_text( int wsr );2;1;12
+SoapPartDom.insertBefore( Node newChild , Node refChild );1;0;1
+Xobj.ensureParent( );4;6;4
+ElementXobj.getElementsByTagName( String name );1;0;1
+Xobj.disbandXobjs( Xobj first , Xobj last );3;8;13
+Xobj.domType( );1;2;1
+Xobj.isOccupied( );1;0;1
+Xobj.posMax( );1;2;1
+NodeXobj.setNodeValue( String nodeValue );1;0;1
+SoapPartDom.getDocumentURI( );1;0;1
+SoapElementXobj.addAttribute( Name name , String value );1;0;1
+NodeXobj.NodeXobj( Locale l , int kind , int domType );1;0;3
+SoapPartDom.setNodeValue( String nodeValue );1;0;1
+SoapPartDom.addMimeHeader( String name , String value );1;0;1
+NodeXobj.getParentNode( );1;0;1
+SoapBodyXobj.addBodyElement( Name name );1;0;1
+NodeXobj.isSupported( String feature , String version );1;0;1
+Xobj.removeElement( Xobj x );2;1;15
+Xobj.getValueAsString( int wsr );10;9;45
+NamedNodeXobj.NamedNodeXobj( Locale l , int kind , int domType );1;0;4
+SoapHeaderElementXobj.setActor( String actor );1;0;1
+SoapElementXobj.addChildElement( String localName );1;0;1
+Xobj.isCharNodesAfterUsable( );5;7;9
+Xobj.get_schematypeloader( );1;0;3
+Xobj.posTemp( );1;0;3
+AttrXobj.setValue( String value );1;0;1
+SoapHeaderElementXobj.setMustUnderstand( boolean mustUnderstand );1;0;1
+SoapHeaderXobj.addHeaderElement( Name name );1;0;1
+Xobj.lastAttr( );5;5;8
+SoapEnvelopeXobj.addBody( );1;0;1
+SoapHeaderXobj.examineHeaderElements( String actor );1;0;1
+AttrXobj.getValue( );1;0;1
+Xobj.removeCharsHelper( int p , int cchRemove , Xobj xTo , int pTo , boolean moveCurs , boolean invalidate );19;45;55
+SoapPartDom.getDoctype( );1;0;1
+SoapPartDom.createAttribute( String name );1;0;1
+SoapPartDom.getElementsByTagNameNS( String namespaceURI , String localName );1;0;1
+Xobj.isVacant( );1;0;1
+Xobj.getAttr( QName name );4;2;6
+NodeXobj.getNodeType( );1;0;1
+SoapFaultXobj.getDetail( );1;0;1
+Xobj.nextAttr( );5;4;7
+Xobj.locale( );1;0;1
+Xobj.getChars( int pos , int cch , Cur c );1;0;6
+SoapPartDom.createDocumentFragment( );1;0;1
+Xobj.getNamespaceForPrefix( String prefix );1;0;3
+DocumentXobj.getElementsByTagName( String tagname );1;0;1
+NodeXobj.getDom( );1;0;1
+Xobj.setValue( String val );3;2;15
+SoapElementXobj.addChildElement( SOAPElement oldChild );1;0;1
+SoapPartDom.removeChild( Node oldChild );1;0;1
+Xobj.isProcinst( );1;1;1
+Xobj.findXmlnsForPrefix( String prefix );6;5;8
+SoapPartDom.getMimeHeader( String name );1;0;1
+SoapPartDom.item( int i );1;0;1
+SoapPartDom.getImplementation( );1;0;1
+Xobj.find_attribute_user( QName name );2;1;4
+ProcInstXobj.getData( );1;0;1
+SoapPartDocXobj.newNode( Locale l );1;0;1
+SoapPartDom.getInputEncoding( );1;0;1
+DocumentFragXobj.DocumentFragXobj( Locale l );1;0;1
+ElementAttributes.removeNamedItem( String name );1;0;1
+NodeXobj.normalize( );1;0;1
+Xobj.setStableUser( TypeStoreUser user );1;1;8
+DocumentXobj.createTextNode( String data );1;0;1
+Xobj.entered( );1;0;1
+SoapPartDom.isSameNode( Node arg );1;0;1
+Xobj.is_attribute( );1;0;1
+Xobj.insert_element_user( QName name , int i );5;5;14
+Bookmark.listRemove( Bookmark head );5;6;22
+Xobj.prefixForNamespace( String ns , String suggestion , boolean createIfMissing );24;25;47
+ProcInstXobj.getFirstChild( );1;0;1
+SoapPartDom.adoptNode( Node source );1;0;1
+Xobj.get_locale( );1;0;3
+SoapElementXobj.addChildElement( String localName , String prefix );1;0;1
+SoapPartDom.hasAttributes( );1;0;1
+SoapPartDom.getDocumentElement( );1;0;1
+SoapPartDom.getElementById( String elementId );1;0;1
+SoapElementXobj.getChildElements( Name name );1;0;1
+Xobj.copy( SchemaTypeLoader stl , SchemaType type , XmlOptions options );7;4;27
+Xobj.setName( QName newName );13;13;29
+Xobj.getXmlnsUri( );1;0;1
+NodeXobj.getOwnerDocument( );1;0;1
+SoapPartDom.compareDocumentPosition( Node other );1;0;1
+Xobj.isFirstChildPtrDomUsable( );8;12;16
+AttrXobj.getOwnerElement( );1;0;1
+DocumentXobj.getElementsByTagNameNS( String namespaceURI , String localName );1;0;1
+Xobj.isAttr( );1;1;1
+ProcInstXobj.ProcInstXobj( Locale l , String target );1;0;4
+SoapPartDom.cloneNode( boolean deep );1;0;1
+CommentXobj.getLength( );1;0;1
+DocumentXobj.getStrictErrorChecking( );1;0;1
+Xobj.setAttr( QName name , String value );2;0;15
+SoapPartDom.createProcessingInstruction( String target , String data );1;0;1
+SoapFaultXobj.getFaultString( );1;0;1
+ElementAttributes.getNamedItem( String name );1;0;1
+NodeXobj.getNodeName( );1;0;1
+SoapPartDom.importNode( Node importedNode , boolean deep );1;0;1
+ElementXobj.removeAttribute( String name );1;0;1
+SoapHeaderElementXobj.getActor( );1;0;1
+NodeXobj.getNodeValue( );1;0;1
+Xobj.count_elements( QName name );1;0;3
+SoapPartDom.isSupported( String feature , String version );1;0;1
+Xobj.getCharsHelper( int pos , int cch );3;8;17
+CommentXobj.newNode( Locale l );1;0;1
+DetailXobj.getDetailEntries( );1;0;1
+SoapPartDom.getStrictErrorChecking( );1;0;1
+Xobj.insertXobjs( Xobj first , Xobj last );4;9;16
+SoapHeaderElementXobj.newNode( Locale l );1;0;1
+Xobj.hasChildren( );2;3;1
+NodeXobj.insertBefore( Node newChild , Node refChild );1;0;1
+Xobj.store_text( String text );3;4;22
+ElementXobj.getAttributeNodeNS( String namespaceURI , String localName );1;0;1
+SoapPartDom.setDocumentURI( String documentURI );1;0;1
+Xobj.invalidateSpecialAttr( Xobj newParent );8;4;19
+Xobj.validate_on_set( );1;0;1
+SoapPartDom.lookupNamespaceURI( String prefix );1;0;1
+SoapEnvelopeXobj.createName( String localName , String prefix , String namespaceURI );1;0;1
+SoapPartDom.getElementsByTagName( String tagname );1;0;1
+SoapPartDom.setPrefix( String prefix );1;0;1
+NodeXobj.getBaseURI( );1;0;1
+Xobj.getValueAsQName( );3;4;20
+DocumentXobj.createComment( String data );1;0;1
+DocumentXobj.getDocumentElement( );1;0;1
+SoapHeaderXobj.newNode( Locale l );1;0;1
+ElementXobj.removeAttributeNS( String namespaceURI , String localName );1;0;1
+SoapPartDom.getTextContent( );1;0;1
+Xobj.appendXobj( Xobj c );3;9;16
+SoapPartDom.createElementNS( String namespaceURI , String qualifiedName );1;0;1
+Bookmark.moveTo( Xobj x , int p );2;1;10
+SoapPartDom.normalizeDocument( );1;0;1
+NodeXobj.getLastChild( );1;0;1
+SoapBodyElementXobj.newNode( Locale l );1;0;1
+Xobj.getNormal( int p );6;9;21
+SoapPartDom.setContent( Source source );1;0;1
+Xobj.setBookmark( int p , Object key , Object value );6;6;25
+NodeXobj.getUserData( String key );1;0;1
+SoapFaultXobj.SoapFaultXobj( Locale l , QName name );1;0;1
+SoapPartDom.getDomConfig( );1;0;1
+NodeXobj.getTextContent( );1;0;1
+SoapFaultElementXobj.SoapFaultElementXobj( Locale l , QName name );1;0;1
+SoapPartDom.appendChild( Node newChild );1;0;1
+DocumentXobj.createEntityReference( String name );1;0;1
+DocumentXobj.newNode( Locale l );1;0;1
+SoapPartDom.createCDATASection( String data );1;0;1
+NamedNodeXobj.nodeCanHavePrefixUri( );1;0;1
+SoapPartDom.locale( );1;0;1
+AttrXobj.AttrXobj( Locale l , QName name );1;0;4
+Xobj.count_elements( QNameSet names );1;0;3
+Bookmark.createCursor( );2;1;9
+DocumentXobj.createDocumentFragment( );1;0;1
+Xobj.isNextSiblingPtrDomUsable( );4;5;11
+SoapBodyXobj.newNode( Locale l );1;0;1
+Xobj.invalidateNil( );2;1;4
+Xobj.copyNode( Locale toLocale );6;4;31
+Xobj.validate( ValidatorListener eventSink );1;0;13
+SoapElementXobj.setParentElement( SOAPElement p );1;0;1
+SoapHeaderXobj.SoapHeaderXobj( Locale l , QName name );1;0;1
+Xobj.inhibitDisconnect( );1;0;1
+Xobj.dump( );1;0;1
+NodeXobj.getNamespaceURI( );1;0;1
+DocumentXobj.createProcessingInstruction( String target , String data );1;0;1
+DocumentXobj.createElement( String tagName );1;0;1
+Xobj.namespaceForPrefix( String prefix , boolean defaultAlwaysMapped );11;7;13
+NodeXobj.item( int i );1;0;1

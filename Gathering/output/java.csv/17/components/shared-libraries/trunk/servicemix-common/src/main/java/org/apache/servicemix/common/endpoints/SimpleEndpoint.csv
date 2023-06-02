@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleEndpoint.stop( );1;0;2
+SimpleEndpoint.getChannel( );1;0;3
+SimpleEndpoint.activate( );1;0;5
+SimpleEndpoint.getContext( );1;0;3
+SimpleEndpoint.start( );1;0;2
+SimpleEndpoint.deactivate( );1;0;2
+SimpleEndpoint.fail( MessageExchange me , Exception error );1;0;4
+SimpleEndpoint.sendSync( MessageExchange me );2;1;5
+SimpleEndpoint.SimpleEndpoint( DefaultComponent component , ServiceEndpoint endpoint );1;0;3
+SimpleEndpoint.getExchangeFactory( );1;0;3
+SimpleEndpoint.SimpleEndpoint( ServiceUnit serviceUnit , QName service , String endpoint );1;0;3
+SimpleEndpoint.SimpleEndpoint( );1;0;2
+SimpleEndpoint.send( MessageExchange me );1;0;3
+SimpleEndpoint.done( MessageExchange me );1;0;4

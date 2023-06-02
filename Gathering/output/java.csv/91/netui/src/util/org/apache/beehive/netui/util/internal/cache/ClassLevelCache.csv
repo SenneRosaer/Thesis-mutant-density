@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClassLevelCache.getCacheMap( String cacheID , boolean createIfMissing );3;2;8
+ClassLevelCache.ClassLevelCache( );1;0;2
+ClassLevelCache.getCacheMap( String cacheID );1;0;3
+ClassLevelCache.setCacheObject( String cacheID , Object object );1;0;3
+ClassLevelCache.getCacheObject( String cacheID );1;0;3
+ClassLevelCache.get( String majorKey , String minorKey );2;1;4
+ClassLevelCache.put( String cacheID , String minorKey , Object value );1;1;4
+ClassLevelCache.clearAll( );1;0;3
+ClassLevelCache.getCache( Class c );2;1;9

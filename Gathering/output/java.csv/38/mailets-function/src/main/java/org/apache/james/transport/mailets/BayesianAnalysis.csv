@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BayesianAnalysis.appendToSubject( MimeMessage message , String toAppend );3;2;10
+BayesianAnalysis.getMaxSize( );1;0;3
+BayesianAnalysis.setMaxSize( int maxSize );1;0;3
+BayesianAnalysis.touchLastCorpusLoadTime( );1;0;3
+BayesianAnalysis.getAddressesString( Collection addresses );4;4;16
+BayesianAnalysis.service( Mail mail );12;12;53
+BayesianAnalysis.getMailetInfo( );1;0;3
+BayesianAnalysis.initDb( );4;1;21
+BayesianAnalysis.getLastCorpusLoadTime( );1;0;3
+CorpusLoader.run( );6;1;24
+CorpusLoader.CorpusLoader( BayesianAnalysis analysis );1;0;4
+BayesianAnalysis.saveChanges( MimeMessage message );2;1;7
+BayesianAnalysis.init( );6;4;26
+BayesianAnalysis.delegatedLog( String logString );1;0;3
+BayesianAnalysis.loadData( Connection conn );2;1;16

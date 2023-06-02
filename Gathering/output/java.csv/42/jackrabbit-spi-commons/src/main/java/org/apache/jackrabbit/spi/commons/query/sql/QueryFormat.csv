@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QueryFormat.visit( AndQueryNode node , Object data );6;4;26
+QueryFormat.visit( OrQueryNode node , Object data );7;4;23
+QueryFormat.visit( LocationStepQueryNode node , Object data );6;4;22
+QueryFormat.visit( ExactQueryNode node , Object data );2;0;10
+QueryFormat.containsAllChildrenMatch( PathQueryNode path );6;10;13
+QueryFormat.visit( NotQueryNode node , Object data );2;1;9
+QueryFormat.visit( TextsearchQueryNode node , Object data );5;4;22
+QueryFormat.visit( OrderQueryNode node , Object data );5;4;23
+QueryFormat.visit( PathQueryNode node , Object data );18;21;68
+QueryFormat.visit( DerefQueryNode node , Object data );1;0;4
+QueryFormat.appendName( Name name , NameResolver resolver , StringBuffer b );3;2;10
+QueryFormat.visit( NodeTypeQueryNode node , Object data );1;0;4
+QueryFormat.QueryFormat( QueryRootNode root , NameResolver resolver );2;1;8
+QueryFormat.appendValue( RelationQueryNode node , StringBuffer b );6;6;15
+QueryFormat.toString( );1;0;3
+QueryFormat.containsDescendantOrSelf( PathQueryNode path );4;6;10
+QueryFormat.visit( PropertyFunctionQueryNode node , Object data );3;0;12
+QueryFormat.toString( QueryRootNode root , NameResolver resolver );2;0;8
+QueryFormat.visit( QueryRootNode node , Object data );18;22;67
+QueryFormat.visit( RelationQueryNode node , Object data );23;29;69

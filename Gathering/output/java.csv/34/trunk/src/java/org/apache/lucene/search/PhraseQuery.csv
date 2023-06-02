@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PhraseQuery.PhraseQuery( );1;0;1
+PhraseQuery.toString( String f );9;13;37
+PhraseWeight.normalize( float queryNorm );1;2;5
+PhraseQuery.getSlop( );1;0;1
+PhraseQuery.extractTerms( Set queryTerms );1;0;3
+PhraseQuery.setSlop( int s );1;0;1
+PhraseQuery.hashCode( );1;3;6
+PhraseQuery.add( Term term );2;3;6
+PhraseWeight.PhraseWeight( Searcher searcher );1;0;4
+PhraseQuery.equals( Object o );5;6;9
+PhraseWeight.toString( );1;0;1
+PhraseWeight.getValue( );1;0;1
+PhraseWeight.getQuery( );1;0;1
+PhraseWeight.sumOfSquaredWeights( );1;2;4
+PhraseQuery.getPositions( );2;2;6
+PhraseQuery.createWeight( Searcher searcher );2;1;9
+PhraseQuery.add( Term term , int position );4;3;9
+PhraseWeight.scorer( IndexReader reader );5;5;18
+PhraseQuery.getTerms( );1;0;3
+PhraseWeight.explain( IndexReader reader , int doc );6;11;54

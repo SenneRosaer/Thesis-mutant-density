@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PortletDriverImpl.getInteractionParams( InteractionRequest actionRequest );3;2;13
+PortletDriverImpl.setPortletProperties( PropertyList properties , String userID );4;2;19
+PortletDriverImpl.getPortletProperties( String [ ] names , String userID );4;2;19
+PortletDriverImpl.getMarkup( MarkupRequest markupRequest , String userID );9;5;40
+PortletDriverImpl.getWsrp4jLogger( );2;1;6
+PortletDriverImpl.getValidValues( String [ ] supported , String [ ] allowed );3;3;12
+PortletDriverImpl.init( WSRPPortlet portlet );3;2;14
+PortletDriverImpl.getPortlet( );1;0;3
+PortletDriverImpl.getMarkupParamsExtensions( );1;0;3
+PortletDriverImpl.getUserContext( String userID );4;3;14
+PortletDriverImpl.setConsumerEnvironment( ConsumerEnvironment env );1;0;3
+PortletDriverImpl.performBlockingInteraction( InteractionRequest actionRequest , String userID );5;2;25
+PortletDriverImpl.clonePortlet( String userID );4;2;18
+PortletDriverImpl.initCookie( );3;1;11
+PortletDriverImpl.destroyPortlets( String [ ] portletHandles , String userID );3;1;15
+PortletDriverImpl.resetInitCookie( String userID );6;2;23
+PortletDriverImpl.checkInitCookie( String userID );7;4;32
+PortletDriverImpl.getMarkupParams( WSRPBaseRequest request );2;1;22
+PortletDriverImpl.releaseSessions( String [ ] sessionIDs , String userID );3;1;15
+PortletDriverImpl.getPortletDescription( String userID , String [ ] desiredLocales );4;2;19
+PortletDriverImpl.getRuntimeContext( WSRPBaseRequest request );7;6;33
+PortletDriverImpl.getPortletPropertyDescription( String userID );4;2;19
+PortletDriverImpl.setPortalService( PortalService service );1;0;3

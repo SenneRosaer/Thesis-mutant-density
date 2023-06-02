@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DetachedThreadLocal.get( Thread thread );1;0;3
+DetachedThreadLocal.getBackingMap( );1;0;3
+DetachedThreadLocal.inheritValue( T value );1;0;3
+DetachedThreadLocal.pushTo( Thread thread );2;1;7
+DetachedThreadLocal.set( T value );1;0;3
+DetachedThreadLocal.clear( );1;0;3
+DetachedThreadLocal.fetchFrom( Thread thread );2;1;7
+DetachedThreadLocal.DetachedThreadLocal( Cleaner cleaner );4;1;25
+DetachedThreadLocal.initialValue( Thread thread );1;0;3
+DetachedThreadLocal.get( );1;0;3
+DetachedThreadLocal.defaultValue( Thread key );1;0;3
+DetachedThreadLocal.run( );1;0;3
+DetachedThreadLocal.define( Thread thread , T value );1;0;3
+DetachedThreadLocal.clearAll( );1;0;3

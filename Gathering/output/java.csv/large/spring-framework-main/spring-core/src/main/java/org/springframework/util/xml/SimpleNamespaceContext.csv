@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleNamespaceContext.getBoundPrefixes( );1;0;3
+SimpleNamespaceContext.bindDefaultNamespaceUri( String namespaceUri );1;0;3
+SimpleNamespaceContext.bindNamespaceUri( String prefix , String namespaceUri );2;0;13
+SimpleNamespaceContext.getNamespaceURI( String prefix );5;0;16
+SimpleNamespaceContext.clear( );1;0;4
+SimpleNamespaceContext.setBindings( Map < String , String > bindings );1;0;3
+SimpleNamespaceContext.getPrefixesSet( String namespaceUri );5;1;16
+SimpleNamespaceContext.getPrefix( String namespaceUri );2;1;4
+SimpleNamespaceContext.getPrefixes( String namespaceUri );1;0;3
+SimpleNamespaceContext.removeBinding( @ Nullable String prefix );6;3;17

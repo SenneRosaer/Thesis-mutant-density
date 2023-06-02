@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultItemCollection.spool( OutputContext outputContext );5;2;13
+DefaultItemCollection.unlock( String lockToken );4;2;12
+DefaultItemCollection.removeProperty( DavPropertyName propertyName );1;0;4
+DefaultItemCollection.isOrderable( );3;0;11
+DefaultItemCollection.addMember( DavResource resource , InputContext inputContext );21;15;83
+DefaultItemCollection.setProperty( DavProperty property );1;0;4
+DefaultItemCollection.buildValuesProperty( InputStream in );6;0;20
+DefaultItemCollection.hasLock( Type type , Scope scope );4;0;14
+DefaultItemCollection.getRelDestinationPath( Position position , NodeIterator childNodes );9;4;29
+DefaultItemCollection.internalSetProperty( DavProperty property );7;3;29
+DefaultItemCollection.orderMembers( OrderPatch orderPatch );5;4;21
+DefaultItemCollection.initProperties( );9;0;38
+DefaultItemCollection.refreshLock( LockInfo reqLockInfo , String lockToken );5;2;20
+DefaultItemCollection.isCollection( );1;0;3
+DefaultItemCollection.alterProperties( List changeList );4;0;17
+DefaultItemCollection.addHrefProperty( DavPropertyName name , Iterator itemIterator , boolean isProtected );2;0;7
+DefaultItemCollection.DefaultItemCollection( DavResourceLocator locator , JcrDavSession session , DavResourceFactory factory , Item item );3;2;6
+DefaultItemCollection.getComplianceClass( );2;0;13
+DefaultItemCollection.getSupportedMethods( );2;0;10
+DefaultItemCollection.initLockSupport( );4;1;11
+DefaultItemCollection.internalRemoveProperty( DavPropertyName propertyName );5;3;18
+DefaultItemCollection.initSupportedReports( );2;0;7
+DefaultItemCollection.removeMember( DavResource member );5;5;17
+DefaultItemCollection.addHrefProperty( DavPropertyName name , Item [ ] values , boolean isProtected );3;3;10
+DefaultItemCollection.getModificationTime( );4;0;12
+DefaultItemCollection.getLock( Type type , Scope scope );7;1;22
+DefaultItemCollection.getMembers( );6;0;25
+DefaultItemCollection.lock( LockInfo reqLockInfo );5;2;21
+DefaultItemCollection.getWriteLock( );3;2;10

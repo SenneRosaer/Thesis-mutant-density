@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BatchSqlUpdate.setBatchSize( int batchSize );1;0;3
+BatchSqlUpdate.BatchSqlUpdate( DataSource ds , String sql );1;0;3
+BatchSqlUpdate.getExecutionCount( );1;0;3
+BatchSqlUpdate.getRowsAffected( );2;2;7
+BatchSqlUpdate.reset( );1;0;4
+BatchSqlUpdate.supportsLobParameters( );1;0;3
+BatchSqlUpdate.BatchSqlUpdate( DataSource ds , String sql , int [ ] types , int batchSize );1;0;4
+BatchSqlUpdate.flush( );4;0;25
+BatchSqlUpdate.getBatchSize( );1;0;3
+BatchSqlUpdate.setTrackRowsAffected( boolean trackRowsAffected );1;0;3
+BatchSqlUpdate.update( Object ... params );3;2;11
+BatchSqlUpdate.getQueueCount( );1;0;3
+BatchSqlUpdate.BatchSqlUpdate( DataSource ds , String sql , int [ ] types );1;0;3
+BatchSqlUpdate.BatchSqlUpdate( );1;0;3
+BatchSqlUpdate.setValues( PreparedStatement ps , int index );1;0;4

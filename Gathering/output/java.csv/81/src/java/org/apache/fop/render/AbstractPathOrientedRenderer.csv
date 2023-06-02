@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractPathOrientedRenderer.renderViewport( Viewport viewport );3;15;21
+AbstractPathOrientedRenderer.handleRegionTraits( RegionViewport region );1;4;11
+AbstractPathOrientedRenderer.drawImage( String url , Rectangle2D pos );1;0;3
+AbstractPathOrientedRenderer.drawBorders( Rectangle2D . Float borderRect , BorderProps bpsBefore , BorderProps bpsAfter , BorderProps bpsStart , BorderProps bpsEnd );41;96;155
+AbstractPathOrientedRenderer.establishTransformationMatrix( AffineTransform at );1;0;4
+AbstractPathOrientedRenderer.renderForeignObject( ForeignObject fo , Rectangle2D pos );1;0;6
+AbstractPathOrientedRenderer.renderReferenceArea( Block block );4;3;23
+AbstractPathOrientedRenderer.drawBorders( float startx , float starty , float width , float height , BorderProps bpsBefore , BorderProps bpsAfter , BorderProps bpsStart , BorderProps bpsEnd );1;0;4
+AbstractPathOrientedRenderer.handleBlockTraits( Block block );1;16;16
+AbstractPathOrientedRenderer.drawBackground( float startx , float starty , float width , float height , Trait . Background back , BorderProps bpsBefore , BorderProps bpsAfter , BorderProps bpsStart , BorderProps bpsEnd );15;44;65
+AbstractPathOrientedRenderer.renderFlow( NormalFlow flow );3;2;17
+AbstractPathOrientedRenderer.drawBackAndBorders( Area area , float startx , float starty , float width , float height );1;0;3
+AbstractPathOrientedRenderer.drawBackAndBorders( Area backgroundArea , Area borderArea , float startx , float starty , float width , float height );1;0;11
+AbstractPathOrientedRenderer.renderTextDecoration( FontMetrics fm , int fontsize , InlineArea inline , int baseline , int startx );7;30;33
+AbstractPathOrientedRenderer.renderInlineAreaBackAndBorders( InlineArea area );4;19;17
+AbstractPathOrientedRenderer.renderBlockViewport( BlockViewport bv , List children );15;27;84

@@ -1,0 +1,73 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodeEntryImpl.getPropertyEntry( Name propName , boolean loadIfNotFound );1;0;3
+NodeEntryImpl.matches( Name oldName );1;0;3
+NodeEntryImpl.getOrAddNodeEntry( Name nodeName , int index , String uniqueID );2;1;9
+NodeEntryImpl.getNodeEntries( Name nodeName );4;2;16
+NodeEntryImpl.complete( Remove operation );7;2;23
+NodeEntryImpl.hasNodeEntry( Name nodeName );2;0;8
+NodeEntryImpl.getDeepNodeEntry( Path path );10;8;45
+NodeEntryImpl.complete( Operation operation );7;0;17
+NodeEntryImpl.createNodeEntry( NodeEntryImpl parent , Name name , String uniqueId , EntryFactory factory );1;0;3
+NodeEntryImpl.getDeepPropertyEntry( Path path );13;15;49
+NodeEntryImpl.internalAddPropertyEntry( Name propName , boolean notifySpecial );3;1;8
+NodeEntryImpl.getNodeEntry( Name nodeName , int index );1;0;3
+NodeEntryImpl.complete( Move operation );8;6;23
+NodeEntryImpl.getPropertyEntry( Name propName );2;0;8
+NodeEntryImpl.getNodeEntries( );3;0;10
+NodeEntryImpl.denotesNode( );1;0;3
+NodeEntryImpl.getChildIndex( NodeEntry cne , boolean wspIndex );10;5;36
+NodeEntryImpl.getWorkspaceId( );4;4;10
+NodeEntryImpl.matches( Name oldName , int oldIndex );3;2;7
+NodeEntryImpl.refresh( Event childEvent );18;9;53
+NodeEntryImpl.getAllChildEntries( boolean includeAttic );2;0;15
+NodeEntryImpl.transientRemove( );3;1;11
+NodeEntryImpl.containsAtticChild( List siblings , Name childName , int childIndex );10;11;20
+NodeEntryImpl.getNodeState( );1;0;3
+NodeEntryImpl.invalidate( boolean recursive );4;1;12
+RevertInfo.dispose( boolean persisted );4;2;15
+NodeEntryImpl.getId( );3;2;14
+NodeEntryImpl.revert( );2;1;7
+NodeEntryImpl.buildPath( PathBuilder builder , NodeEntryImpl nEntry , boolean wspPath );4;3;11
+NodeEntryImpl.setPropertyEntries( Collection propNames );8;6;21
+NodeEntryImpl.lookupNodeEntry( String uniqueChildId , Name childName , int index );6;6;16
+NodeEntryImpl.getNodeEntry( Name nodeName , int index , boolean loadIfNotFound );10;13;24
+NodeEntryImpl.hasNodeEntry( Name nodeName , int index );2;1;8
+NodeEntryImpl.complete( SetMixin operation );7;5;22
+NodeEntryImpl.doResolve( );1;0;3
+NodeEntryImpl.complete( ReorderNodes operation );9;8;21
+NodeEntryImpl.loadPropertyEntry( PropertyId childId );2;0;8
+NodeEntryImpl.complete( AddProperty operation );8;5;22
+NodeEntryImpl.getIndex( boolean wspIndex );7;7;15
+NodeEntryImpl.lookupPropertyEntry( Name childName );2;1;7
+NodeEntryImpl.addNewPropertyEntry( Name propName , QPropertyDefinition definition , QValue [ ] values , int propertyType );6;2;25
+NodeEntryImpl.isTransientlyMoved( );2;2;3
+NodeEntryImpl.getUniqueID( );1;0;3
+RevertInfo.RevertInfo( );1;0;7
+NodeEntryImpl.lookupEntry( ItemId eventId , Path eventPath );3;1;12
+NodeEntryImpl.loadNodeEntry( NodeId childId );2;0;8
+NodeEntryImpl.notifyUUIDorMIXINModified( PropertyEntry child );6;1;18
+NodeEntryImpl.getOrAddPropertyEntry( Name propName );2;1;9
+NodeEntryImpl.lookupDeepEntry( Path workspacePath );7;8;24
+NodeEntryImpl.setNodeEntries( Iterator childInfos );4;1;14
+NodeEntryImpl.getIndex( );1;0;3
+NodeEntryImpl.createRootEntry( EntryFactory factory );1;0;3
+NodeEntryImpl.complete( AddNode operation );6;2;20
+NodeEntryImpl.reload( boolean recursive );4;2;9
+NodeEntryImpl.addNewNodeEntry( Name nodeName , String uniqueID , Name primaryNodeType , QNodeDefinition definition );1;0;6
+NodeEntryImpl.orderBefore( NodeEntry beforeEntry );2;1;8
+NodeEntryImpl.revertMove( );2;1;12
+NodeEntryImpl.getPropertyEntries( );4;3;16
+NodeEntryImpl.notifyUUIDorMIXINRemoved( Name propName );4;1;10
+NodeEntryImpl.getName( boolean wspName );3;2;7
+NodeEntryImpl.move( Name newName , NodeEntry newParent , boolean transientMove );6;4;25
+NodeEntryImpl.remove( );2;1;8
+NodeEntryImpl.createRevertInfo( );3;3;5
+NodeEntryImpl.internalRemove( boolean staleParent );3;2;8
+RevertInfo.isMoved( );2;3;3
+NodeEntryImpl.internalRemoveChildEntry( HierarchyEntry childEntry );6;3;18
+NodeEntryImpl.hasPropertyEntry( Name propName );1;0;4
+NodeEntryImpl.buildPath( boolean wspPath );2;1;9
+NodeEntryImpl.getCompleteChildNodeEntries( );2;0;10
+NodeEntryImpl.setUniqueID( String uniqueID );3;3;8
+NodeEntryImpl.NodeEntryImpl( NodeEntryImpl parent , Name name , String uniqueID , EntryFactory factory );1;0;9
+NodeEntryImpl.internalAddNodeEntry( Name nodeName , String uniqueID , int index );1;0;5

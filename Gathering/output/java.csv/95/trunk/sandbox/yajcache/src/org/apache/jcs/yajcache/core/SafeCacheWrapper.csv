@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SafeCacheWrapper.putBeanClone( @ NonNullable String key , @ NonNullable V value );1;0;3
+SafeCacheWrapper.isEmpty( );1;0;3
+SafeCacheWrapper.get( Object key );1;0;3
+SafeCacheWrapper.get( String key );1;0;3
+SafeCacheWrapper.putAllBeanCopies( @ NonNullable Map < ? extends String , ? extends V > map );4;0;4
+SafeCacheWrapper.putAllBeanClones( @ NonNullable Map < ? extends String , ? extends V > map );4;0;4
+SafeCacheWrapper.values( );1;0;3
+SafeCacheWrapper.putBeanCopy( @ NonNullable String key , @ NonNullable V value );1;0;3
+SafeCacheWrapper.putAllCopies( @ NonNullable Map < ? extends String , ? extends V > map );4;0;4
+SafeCacheWrapper.toString( );1;0;5
+SafeCacheWrapper.clear( );1;0;3
+SafeCacheWrapper.containsValue( Object value );1;0;3
+SafeCacheWrapper.getBeanCopy( @ NonNullable String key );1;0;4
+SafeCacheWrapper.getBeanClone( @ NonNullable String key );1;0;4
+SafeCacheWrapper.getValueType( );1;0;3
+SafeCacheWrapper.keySet( );1;0;3
+SafeCacheWrapper.getCopy( @ NonNullable String key );1;0;4
+SafeCacheWrapper.remove( Object key );1;0;3
+SafeCacheWrapper.putCopy( @ NonNullable String key , @ NonNullable V value );1;0;3
+SafeCacheWrapper.dup( V val );2;0;6
+SafeCacheWrapper.getCacheType( );1;0;3
+SafeCacheWrapper.getName( );1;0;3
+SafeCacheWrapper.entrySet( );1;0;3
+SafeCacheWrapper.containsKey( Object key );1;0;3
+SafeCacheWrapper.size( );1;0;3
+SafeCacheWrapper.SafeCacheWrapper( @ NonNullable ICache < V > cache );3;0;13
+SafeCacheWrapper.putAll( @ NonNullable Map < ? extends String , ? extends V > map );4;0;4
+SafeCacheWrapper.put( String key , V value );1;0;3

@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Importer.importContent( Area area , String path );1;0;3
+Importer.convertLinks( Publication srcPub , Area area );2;2;7
+Importer.importDocument( Area area , Element element , String baseUri , String path , boolean visibleInNav );8;10;61
+Importer.importElement( Area area , NamespaceHelper helper , Element element , String baseUri , String parentPath );4;6;13
+Importer.importChildren( Area area , NamespaceHelper helper , Element element , String baseUri , String path );2;2;6
+Importer.Importer( ServiceManager manager , Logger logger );1;0;4
+Importer.importContent( Publication srcPub , Area area , String path );1;0;10

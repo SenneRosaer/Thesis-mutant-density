@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLErrorReporter.reportError( XMLLocator location , String domain , String key , Object [ ] arguments , short severity , Exception exception );13;11;52
+XMLErrorReporter.reportError( XMLLocator location , String domain , String key , Object [ ] arguments , short severity );1;0;3
+XMLErrorReporter.reportError( String domain , String key , Object [ ] arguments , short severity , Exception exception );1;0;3
+***not in a method***;0;2;0
+XMLErrorReporter.getRecognizedProperties( );1;0;3
+XMLErrorReporter.getRecognizedFeatures( );1;0;3
+XMLErrorReporter.reportError( String domain , String key , Object [ ] arguments , short severity );1;0;3
+XMLErrorReporter.getPropertyDefault( String propertyId );3;2;8
+XMLErrorReporter.getMessageFormatter( String domain );1;0;3
+XMLErrorReporter.removeMessageFormatter( String domain );1;0;3
+XMLErrorReporter.setFeature( String featureId , boolean state );4;3;9
+XMLErrorReporter.setLocale( Locale locale );1;0;3
+XMLErrorReporter.getLocale( );1;0;3
+XMLErrorReporter.getFeature( String featureId );4;3;10
+XMLErrorReporter.getErrorHandler( );1;0;3
+XMLErrorReporter.putMessageFormatter( String domain , MessageFormatter messageFormatter );1;0;3
+XMLErrorReporter.getSAXErrorHandler( );2;1;10
+XMLErrorReporter.setProperty( String propertyId , Object value );4;3;9
+XMLErrorReporter.setDocumentLocator( XMLLocator locator );1;0;3
+XMLErrorReporter.getFeatureDefault( String featureId );3;2;8
+XMLErrorReporter.XMLErrorReporter( );1;0;3
+XMLErrorReporter.reset( XMLComponentManager componentManager );2;0;9

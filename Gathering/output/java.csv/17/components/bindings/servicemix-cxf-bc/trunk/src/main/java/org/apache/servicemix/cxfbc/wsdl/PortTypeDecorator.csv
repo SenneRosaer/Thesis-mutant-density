@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PortTypeDecorator.decorate( Definition def , PortType portType , String locationUri , String bindingName , String serviceName , String portName , String soapVersion );2;0;14
+PortTypeDecorator.createSoapExtension( boolean soap11 , Binding binding );2;0;13
+PortTypeDecorator.createService( Definition def , String locationUri , String serviceName , String portName , boolean soap11 , Binding binding );2;0;18
+PortTypeDecorator.createOperation( Definition def , PortType portType , boolean soap11 , Binding binding );9;2;65
+PortTypeDecorator.decorate( Definition definition , String importUri , String targetNamespace , String locationUri );2;0;9
+PortTypeDecorator.PortTypeDecorator( );1;0;2
+PortTypeDecorator.decorate( Definition def , PortType portType , String locationUri );1;0;5
+PortTypeDecorator.createBinding( Definition def , PortType portType , String bindingName );1;0;7
+PortTypeDecorator.createImportDef( Definition definition , String targetNamespace , String importUri );2;0;18

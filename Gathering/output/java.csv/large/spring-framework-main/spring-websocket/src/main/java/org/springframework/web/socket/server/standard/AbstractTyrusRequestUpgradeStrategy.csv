@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractTyrusRequestUpgradeStrategy.unregister( TyrusWebSocketEngine engine , Object endpoint );2;0;8
+AbstractTyrusRequestUpgradeStrategy.getEndpointConstructor( );6;3;9
+AbstractTyrusRequestUpgradeStrategy.createTyrusEndpoint( Endpoint endpoint , String endpointPath , @ Nullable String protocol , List < Extension > extensions , WebSocketContainer container , TyrusWebSocketEngine engine );1;0;6
+AbstractTyrusRequestUpgradeStrategy.register( TyrusWebSocketEngine engine , Object endpoint );2;0;8
+AbstractTyrusRequestUpgradeStrategy.getInstalledExtensions( WebSocketContainer container );2;0;8
+AbstractTyrusRequestUpgradeStrategy.getSupportedVersions( );1;0;3
+AbstractTyrusRequestUpgradeStrategy.createRequestContext( HttpServletRequest request , String endpointPath , HttpHeaders headers );1;0;11
+***not in a method***;0;4;0
+AbstractTyrusRequestUpgradeStrategy.createEndpoint( ServerEndpointRegistration registration , ComponentProviderService provider , WebSocketContainer container , TyrusWebSocketEngine engine );3;0;18
+AbstractTyrusRequestUpgradeStrategy.upgradeInternal( ServerHttpRequest request , ServerHttpResponse response , @ Nullable String selectedProtocol , List < Extension > extensions , Endpoint endpoint );5;1;32
+AbstractTyrusRequestUpgradeStrategy.unregisterTyrusEndpoint( TyrusWebSocketEngine engine , @ Nullable Object tyrusEndpoint );3;1;9

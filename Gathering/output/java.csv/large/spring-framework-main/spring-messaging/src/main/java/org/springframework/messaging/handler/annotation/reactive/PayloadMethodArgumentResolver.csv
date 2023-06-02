@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PayloadMethodArgumentResolver.resolveArgument( MethodParameter parameter , Message < ? > message );5;5;10
+PayloadMethodArgumentResolver.handleMissingBody( MethodParameter param , Message < ? > message );1;0;4
+PayloadMethodArgumentResolver.getDecoders( );1;0;3
+PayloadMethodArgumentResolver.getMimeType( Message < ? > message );4;1;15
+PayloadMethodArgumentResolver.getAdapterRegistry( );1;0;3
+PayloadMethodArgumentResolver.decodeContent( MethodParameter parameter , Message < ? > message , boolean isContentRequired , Flux < DataBuffer > content , MimeType mimeType );18;11;41
+PayloadMethodArgumentResolver.getValidator( Message < ? > message , MethodParameter parameter );10;6;26
+PayloadMethodArgumentResolver.PayloadMethodArgumentResolver( List < ? extends Decoder < ? > > decoders , @ Nullable Validator validator , @ Nullable ReactiveAdapterRegistry registry , boolean useDefaultResolution );2;2;7
+PayloadMethodArgumentResolver.handleReadError( MethodParameter parameter , Message < ? > message , Throwable ex );2;0;4
+PayloadMethodArgumentResolver.getUnexpectedPayloadError( Message < ? > message , MethodParameter parameter , String actualType );1;0;4
+PayloadMethodArgumentResolver.getValidator( );1;0;3
+PayloadMethodArgumentResolver.isUseDefaultResolution( );1;0;3
+PayloadMethodArgumentResolver.nonEmptyDataBuffer( DataBuffer buffer );2;1;7
+PayloadMethodArgumentResolver.supportsParameter( MethodParameter parameter );2;1;3
+PayloadMethodArgumentResolver.extractContent( MethodParameter parameter , Message < ? > message );5;0;16

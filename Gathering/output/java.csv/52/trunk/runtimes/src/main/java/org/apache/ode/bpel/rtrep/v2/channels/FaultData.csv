@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FaultData.FaultData( QName fault , OBase location , String explanation );1;0;5
+FaultData.getFaultType( );1;0;3
+FaultData.getActivityId( );1;0;3
+FaultData.getFaultMessage( );2;1;5
+FaultData.FaultData( QName fault , Element faultMsg , OVarType faultVarType , OBase location );2;3;8
+FaultData.getExplanation( );1;0;3
+FaultData.findLineNo( OBase location );3;4;7
+FaultData.getFaultName( );1;0;3
+FaultData.getFaultLineNo( );1;0;3
+FaultData.toString( );2;1;14

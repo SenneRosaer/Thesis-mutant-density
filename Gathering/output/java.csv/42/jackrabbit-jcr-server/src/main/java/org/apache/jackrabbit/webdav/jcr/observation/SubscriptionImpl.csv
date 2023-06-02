@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SubscriptionImpl.discoverEvents( long timeout );5;2;16
+SubscriptionImpl.getJcrEventType( EventType eventType );8;3;21
+SubscriptionImpl.getFilterValues( String filterLocalName );4;4;11
+SubscriptionImpl.getUuidFilters( );1;0;3
+SubscriptionImpl.getJcrEventTypes( );2;3;8
+SubscriptionImpl.suspend( );2;0;7
+TransactionEvent.beforeCommit( TransactionResource resource , String lockToken );3;0;13
+SubscriptionImpl.getNodetypeNameFilters( );1;0;3
+SubscriptionImpl.isDeep( );1;0;3
+EventBundleImpl.EventBundleImpl( EventIterator events , String transactionId );1;0;4
+SubscriptionImpl.createTransactionListener( );2;0;16
+SubscriptionImpl.getLocator( );1;0;3
+EventBundleImpl.toXml( Document document );5;4;22
+SubscriptionImpl.toXml( Document document );2;1;11
+SubscriptionImpl.resume( );2;0;9
+EventBundleImpl.EventBundleImpl( EventIterator events );1;0;3
+SubscriptionImpl.SubscriptionImpl( SubscriptionInfo info , ObservationResource resource );2;0;10
+SubscriptionImpl.getEventType( int jcrEventType );6;0;23
+SubscriptionImpl.afterCommit( TransactionResource resource , String lockToken , boolean success );1;0;2
+TransactionEvent.afterCommit( TransactionResource resource , String lockToken , boolean success );3;0;10
+SubscriptionImpl.isSubscribedToResource( ObservationResource resource );1;0;3
+SubscriptionImpl.setInfo( SubscriptionInfo info );2;2;8
+SubscriptionImpl.beforeCommit( TransactionResource resource , String lockToken );1;0;2
+TransactionEvent.onEvent( EventIterator events );2;1;10
+SubscriptionImpl.getSubscriptionId( );1;0;3
+SubscriptionImpl.onEvent( EventIterator events );1;1;2
+SubscriptionImpl.isExpired( );1;1;3
+SubscriptionImpl.isNoLocal( );1;0;3

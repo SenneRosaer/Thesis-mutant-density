@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PSGraphics2D.setCustomTextHandler( TextHandler handler );1;0;3
+PSGraphics2D.getDeviceConfiguration( );1;0;4
+PSGraphics2D.writeClip( Shape s );4;2;16
+PSGraphics2D.establishColor( Color c );1;0;3
+PSGraphics2D.doDrawing( boolean fill , boolean stroke , boolean nonzero );5;2;20
+PSGraphics2D.setPSGenerator( PSGenerator gen );1;0;3
+PSGraphics2D.create( );1;0;4
+PSGraphics2D.drawString( String s , float x , float y );4;3;11
+PSGraphics2D.handleIOException( IOException ioe );1;0;3
+PSGraphics2D.drawImage( Image img , int x , int y , int width , int height , ImageObserver observer );1;0;5
+PSGraphics2D.getFontMetrics( java . awt . Font f );1;0;3
+PSGraphics2D.drawRenderableImage( RenderableImage img , AffineTransform xform );1;0;4
+PSGraphics2D.getPSGenerator( );1;0;3
+PSGraphics2D.PSGraphics2D( boolean textAsShapes , PSGenerator gen );1;0;4
+PSGraphics2D.draw( Shape s );4;2;24
+PSGraphics2D.fill( Shape s );4;3;24
+PSGraphics2D.getCustomTextHandler( );1;0;3
+PSGraphics2D.applyStroke( Stroke stroke );13;7;53
+PSGraphics2D.buildBufferedImage( Dimension size );1;0;4
+PSGraphics2D.setGraphicContext( GraphicContext c );1;0;3
+PSGraphics2D.PSGraphics2D( PSGraphics2D g );2;1;8
+PSGraphics2D.setXORMode( Color c1 );1;0;3
+PSGraphics2D.PSGraphics2D( boolean textAsShapes );1;0;3
+PSGraphics2D.applyPaint( Paint paint , boolean fill );3;0;8
+PSGraphics2D.copyArea( int x , int y , int width , int height , int dx , int dy );1;0;3
+PSGraphics2D.preparePainting( );2;1;5
+PSGraphics2D.dispose( );1;0;6
+PSGraphics2D.getFallbackTextHandler( );1;0;3
+PSGraphics2D.drawImage( Image img , int x , int y , ImageObserver observer );6;6;36
+PSGraphics2D.processPathIterator( PathIterator iter );7;11;39
+PSGraphics2D.drawRenderedImage( RenderedImage img , AffineTransform xform );2;0;16

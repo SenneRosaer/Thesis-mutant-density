@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SeekableStream.readChar( );2;5;7
+SeekableStream.readFloat( );1;0;3
+SeekableStream.mark( int readLimit );2;1;7
+***not in a method***;0;1;0
+SeekableStream.readDouble( );1;0;3
+SeekableStream.readFully( byte [ ] b );1;0;3
+SeekableStream.readIntLE( );2;11;9
+SeekableStream.readCharLE( );2;5;7
+SeekableStream.readUnsignedShortLE( );2;5;7
+SeekableStream.readUnsignedShort( );2;5;7
+SeekableStream.finalize( );1;0;4
+SeekableStream.readBoolean( );2;2;6
+SeekableStream.readUnsignedIntLE( );1;11;8
+SeekableStream.readUnsignedInt( );2;11;9
+SeekableStream.readFully( byte [ ] b , int off , int len );3;5;9
+SeekableStream.readShort( );2;5;7
+SeekableStream.wrapInputStream( InputStream is , boolean canSeekBackwards );3;0;13
+SeekableStream.readInt( );2;11;9
+SeekableStream.readFloatLE( );1;0;3
+SeekableStream.readLine( );8;8;27
+SeekableStream.readUnsignedByte( );2;1;6
+SeekableStream.readUTF( );1;0;3
+SeekableStream.skipBytes( int n );2;1;6
+SeekableStream.reset( );2;2;5
+SeekableStream.markSupported( );1;0;3
+SeekableStream.readLong( );1;3;3
+SeekableStream.readByte( );2;1;6
+SeekableStream.canSeekBackwards( );1;0;3
+SeekableStream.readDoubleLE( );1;0;3
+SeekableStream.readShortLE( );2;5;7
+SeekableStream.readLongLE( );1;3;5

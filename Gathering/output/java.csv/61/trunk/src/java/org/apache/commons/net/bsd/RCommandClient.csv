@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RCommandClient.rcommand( String localUsername , String remoteUsername , String command );1;0;3
+RCommandClient._createErrorStream( );6;5;35
+RCommandClient.connect( String hostname , int port );1;0;3
+RCommandClient.connect( String hostname , int port , InetAddress localAddr );1;0;3
+RCommandClient.connect( InetAddress host , int port , InetAddress localAddr );4;3;20
+RCommandClient.connect( InetAddress host , int port , InetAddress localAddr , int localPort );3;3;5
+RCommandClient.rcommand( String localUsername , String remoteUsername , String command , boolean separateErrorStream );1;0;3
+RCommandClient.RCommandClient( );1;0;3
+RCommandClient.connect( String hostname , int port , InetAddress localAddr , int localPort );3;3;5
+RCommandClient.connect( InetAddress host , int port );1;0;3

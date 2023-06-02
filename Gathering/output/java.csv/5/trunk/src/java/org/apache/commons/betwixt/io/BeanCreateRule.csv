@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BeanCreateRule.BeanCreateRule( ElementDescriptor descriptor , Class beanClass , boolean matchIDs );1;0;3
+BeanCreateRule.begin( Attributes attributes );14;13;57
+BeanCreateRule.BeanCreateRule( ElementDescriptor descriptor , Context context , String pathPrefix );1;0;3
+BeanCreateRule.addChildRules( );2;1;6
+BeanCreateRule.createBean( Attributes attributes );8;3;30
+BeanCreateRule.BeanCreateRule( ElementDescriptor descriptor , Class beanClass );1;0;3
+BeanCreateRule.body( String text );1;0;3
+BeanCreateRule.BeanCreateRule( ElementDescriptor descriptor , Class beanClass , Context context , String pathPrefix , boolean matchIDs );2;0;13
+BeanCreateRule.setLog( Log aLog );1;0;3
+BeanCreateRule.BeanCreateRule( ElementDescriptor descriptor , Class beanClass , String pathPrefix , boolean matchIDs );1;0;8
+BeanCreateRule.BeanCreateRule( ElementDescriptor descriptor , Class beanClass , String pathPrefix );1;0;3
+BeanCreateRule.toString( );1;0;3
+BeanCreateRule.getClassNameAttribute( );1;0;3
+BeanCreateRule.getBeanReader( );1;0;3
+BeanCreateRule.addRule( String path , Rule rule );4;0;17
+BeanCreateRule.addChildRules( String prefix , ElementDescriptor currentDescriptor );24;28;83
+BeanCreateRule.setClassNameAttribute( String classNameAttribute );1;0;3
+BeanCreateRule.getElementDescriptor( ElementDescriptor propertyDescriptor );3;1;13
+BeanCreateRule.end( );6;2;24
+BeanCreateRule.finish( );1;0;1
+BeanCreateRule.addPrimitiveTypeRule( String path , final ElementDescriptor childDescriptor );1;0;8
+BeanCreateRule.BeanCreateRule( ElementDescriptor descriptor , Context context , String pathPrefix , boolean matchIDs );1;0;8
+BeanCreateRule.getBeansById( );2;1;9

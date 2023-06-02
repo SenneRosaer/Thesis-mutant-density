@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JMeterTreeModel.clearTestPlan( );1;0;4
+JMeterTreeModel.clearTestPlan( TestElement testPlan );2;1;9
+JMeterTreeModel.removeNodeFromParent( JMeterTreeNode node );3;3;5
+JMeterTreeModel.addSubTree( HashTree subTree , JMeterTreeNode current );4;0;25
+JMeterTreeModel.getNodeOf( TestElement userObject );1;0;3
+JMeterTreeModel.initTree( TestElement tp , TestElement wb );1;0;5
+JMeterTreeModel.getTestPlan( );1;0;3
+JMeterTreeModel.traverseAndFind( Class type , JMeterTreeNode node , List nodeList );3;0;10
+JMeterTreeModel.getNodesOfType( Class type );1;0;5
+JMeterTreeModel.JMeterTreeModel( TestElement tp , TestElement wb );1;0;4
+JMeterTreeModel.getCurrentSubTree( JMeterTreeNode node );2;0;9
+JMeterTreeModel.JMeterTreeModel( );1;0;3
+JMeterTreeModel.traverseAndFind( TestElement userObject , JMeterTreeNode node );4;2;14
+JMeterTreeModel.addComponent( TestElement component , JMeterTreeNode node );6;2;28
+JMeterTreeModel.JMeterTreeModel( Object o );1;0;3

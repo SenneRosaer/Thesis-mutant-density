@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestRunner.addError( Test test , Throwable t );2;0;8
+TestRunner.countTests( Collection tests );2;1;8
+TestRunner.stop( );2;1;5
+TestRunner.endTest( Test test );2;0;8
+***not in a method***;0;1;0
+TestRunner.runTests( );7;2;31
+TestRunner.setHost( String host );1;0;3
+StopThread.run( );4;2;12
+TestRunner.TestRunner( );1;0;5
+TestRunner.startTest( Test test );2;0;8
+TestRunner.setDebug( boolean debug );1;0;3
+TestRunner.setPort( int port );1;0;3
+TestRunner.log( String msg );2;0;5
+TestRunner.log( Throwable t );2;0;5
+TestRunner.fireEvent( TestRunEvent evt );2;0;7
+TestRunner.runTest( Test test , String name );3;0;19
+TestRunner.shutDown( );5;2;18
+TestRunner.addFailure( Test test , Throwable t );2;0;8
+TestRunner.addTestClassName( String classname );1;0;3
+TestRunner.init( Properties props );6;4;20
+TestRunner.init( String [ ] args );9;8;27
+TestRunner.getSuites( );4;3;19
+TestRunner.connect( );1;0;6
+TestRunner.run( );3;2;14
+TestRunner.main( String [ ] args );1;0;5
+TestRunner.addFailure( Test test , AssertionFailedError afe );1;0;3

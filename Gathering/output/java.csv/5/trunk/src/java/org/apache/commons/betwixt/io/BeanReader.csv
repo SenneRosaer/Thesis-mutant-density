@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BeanReader.setXMLIntrospector( XMLIntrospector introspector );1;0;3
+BeanReader.setReadConfiguration( ReadConfiguration readConfiguration );1;0;3
+BeanReader.register( Class beanClass , String path );4;1;15
+BeanReader.makeContext( );1;0;3
+BeanReader.getLog( );1;0;3
+BeanReader.deregisterBeanClass( Class beanClass );1;0;3
+BeanReader.setBindingConfiguration( BindingConfiguration bindingConfiguration );1;0;3
+BeanReader.setLog( Log log );1;0;4
+BeanReader.addBeanCreateRule( String path , ElementDescriptor elementDescriptor , Class beanClass );2;0;12
+BeanReader.getReadConfiguration( );1;0;3
+BeanReader.BeanReader( );1;0;3
+BeanReader.registerBeanClass( Class beanClass );3;1;9
+BeanReader.flushRegisteredBeanClasses( );1;0;3
+BeanReader.BeanReader( XMLReader reader );1;0;4
+BeanReader.getMatchIDs( );1;0;3
+BeanReader.BeanReader( SAXParser parser );1;0;4
+BeanReader.getBindingConfiguration( );1;0;3
+BeanReader.registerBeanClass( String path , Class beanClass );3;1;9
+BeanReader.registerMultiMapping( InputSource mapping );3;3;10
+BeanReader.setMatchIDs( boolean matchIDs );1;0;3
+BeanReader.getXMLIntrospector( );1;0;3
+BeanReader.registerBeanClass( InputSource mapping , Class beanClass );3;1;10

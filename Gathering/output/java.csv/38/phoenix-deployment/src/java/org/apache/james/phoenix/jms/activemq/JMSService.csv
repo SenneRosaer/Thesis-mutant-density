@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JMSService.createBuilder( final Configuration configuration );9;5;35
+JMSService.service( ServiceManager serviceManager );1;0;3
+JMSService.configureConnectors( BrokerService broker , Configuration [ ] connectors );5;3;16
+JMSService.configureJmx( Configuration configuration , BrokerService broker );1;0;4
+JMSService.initialize( );2;1;7
+JMSService.setupLogger( Object subject );7;1;19
+JMSService.configureConsumers( final BrokerManager broker , final Configuration [ ] consumers );9;9;35
+JMSService.configureService( Configuration configuration );1;0;9
+JMSService.load( String className );5;0;23
+JMSService.configurePersistent( Configuration configuration , BrokerService broker );1;0;4
+JMSService.setup( final Object subject , final Configuration configuration );4;3;9
+JMSService.createConsumer( final Configuration configuration );8;4;30
+JMSService.configure( Configuration configuration );2;0;11

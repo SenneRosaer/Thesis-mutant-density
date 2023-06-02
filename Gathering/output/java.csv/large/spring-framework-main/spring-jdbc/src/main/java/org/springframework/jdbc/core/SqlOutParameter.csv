@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SqlOutParameter.SqlOutParameter( String name , int sqlType , RowMapper < ? > rm );1;0;3
+SqlOutParameter.SqlOutParameter( String name , int sqlType );1;0;3
+SqlOutParameter.SqlOutParameter( String name , int sqlType , RowCallbackHandler rch );1;0;3
+SqlOutParameter.getSqlReturnType( );1;0;3
+SqlOutParameter.SqlOutParameter( String name , int sqlType , int scale );1;0;3
+SqlOutParameter.SqlOutParameter( String name , int sqlType , @ Nullable String typeName );1;0;3
+SqlOutParameter.SqlOutParameter( String name , int sqlType , @ Nullable String typeName , @ Nullable SqlReturnType sqlReturnType );1;0;4
+SqlOutParameter.isReturnTypeSupported( );1;1;3
+SqlOutParameter.SqlOutParameter( String name , int sqlType , ResultSetExtractor < ? > rse );1;0;3

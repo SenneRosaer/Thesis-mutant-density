@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebContinuation.getContinuation( int level );3;3;9
+WebContinuation.getUserObject( );1;0;3
+WebContinuation.equals( Object another );2;0;6
+WebContinuation.removeAttribute( String name );2;1;5
+WebContinuation.getAttribute( String name );2;1;6
+WebContinuation.getContinuation( );1;0;3
+WebContinuation.getInterpreterId( );1;0;3
+WebContinuation.setAttribute( String name , Object value );2;1;6
+WebContinuation.display( int depth );4;6;21
+WebContinuation.getParentContinuation( );1;0;3
+WebContinuation.dispose( );2;1;6
+WebContinuation.setUserObject( Object obj );1;0;3
+WebContinuation.getAttributeNames( );2;1;6
+WebContinuation.getTimeToLive( );1;0;3
+WebContinuation.hasExpired( );1;2;5
+WebContinuation.clone( );2;0;11
+WebContinuation.WebContinuation( String id , Object continuation , WebContinuation parentContinuation , int timeToLive , String interpreterId , ContinuationsDisposer disposer );2;1;12
+WebContinuation.disposed( );1;1;3
+WebContinuation.compareTo( Object other );1;3;5
+WebContinuation.getLastAccessTime( );1;0;3
+WebContinuation.interpreterMatches( String interpreterId );1;0;3
+WebContinuation.detachFromParent( );2;1;5
+WebContinuation.getDisposer( );1;0;3
+WebContinuation.hashCode( );1;0;3
+WebContinuation.getChildren( );1;0;3
+WebContinuation.toString( );1;0;3
+WebContinuation.getId( );1;0;3
+WebContinuation.updateLastAccessTime( );1;0;3

@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReactorNetty2ClientHttpConnector.ReactorNetty2ClientHttpConnector( ReactorNetty2ResourceFactory factory , Function < HttpClient , HttpClient > mapper );1;0;6
+ReactorNetty2ClientHttpConnector.adaptRequest( HttpMethod method , URI uri , HttpClientRequest request , NettyOutbound nettyOutbound );1;0;3
+ReactorNetty2ClientHttpConnector.ReactorNetty2ClientHttpConnector( );1;0;3
+ReactorNetty2ClientHttpConnector.connect( HttpMethod method , URI uri , Function < ? super ClientHttpRequest , Mono < Void > > requestCallback );2;1;18
+ReactorNetty2ClientHttpConnector.ReactorNetty2ClientHttpConnector( HttpClient httpClient );1;0;4
+ReactorNetty2ClientHttpConnector.applyLoopResources( ReactorNetty2ResourceFactory factory );1;0;7

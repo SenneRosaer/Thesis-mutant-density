@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ImportContextImpl.ImportContextImpl( Item importRoot , String systemId , InputContext inputCtx , MimeResolver mimeResolver );2;1;4
+ImportContextImpl.getContentType( );2;1;3
+ImportContextImpl.isCompleted( );1;0;3
+ImportContextImpl.getProperty( Object propertyName );2;1;3
+ImportContextImpl.getEncoding( );2;1;4
+ImportContextImpl.ImportContextImpl( Item importRoot , String systemId , InputStream in , IOListener ioListener );1;0;3
+ImportContextImpl.getModificationTime( );2;1;3
+ImportContextImpl.getMimeResolver( );1;0;3
+ImportContextImpl.hasStream( );1;1;3
+ImportContextImpl.getImportRoot( );1;0;3
+ImportContextImpl.ImportContextImpl( Item importRoot , String systemId , InputStream in , IOListener ioListener , MimeResolver mimeResolver );3;2;7
+ImportContextImpl.ImportContextImpl( Item importRoot , String systemId , InputContext inputCtx );1;0;3
+ImportContextImpl.getMimeType( );3;2;10
+ImportContextImpl.checkCompleted( );2;0;5
+ImportContextImpl.getIOListener( );1;0;3
+ImportContextImpl.getInputStream( );3;1;11
+ImportContextImpl.getContentLength( );5;5;13
+ImportContextImpl.getContentLanguage( );2;1;3
+ImportContextImpl.getSystemId( );1;0;3
+ImportContextImpl.informCompleted( boolean success );2;1;7

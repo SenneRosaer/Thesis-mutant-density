@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ByteSliceReader.length( );1;0;1
+ByteSliceReader.readByte( );2;4;7
+ByteSliceReader.eof( );1;4;4
+ByteSliceReader.init( ByteBlockPool pool , int startIndex , int endIndex );2;12;17
+ByteSliceReader.seek( long pos );1;0;1
+ByteSliceReader.writeTo( IndexOutput out );3;10;16
+ByteSliceReader.close( );1;0;1
+ByteSliceReader.nextSlice( );2;23;15
+ByteSliceReader.getFilePointer( );1;0;1
+ByteSliceReader.readBytes( byte [ ] b , int offset , int len );3;6;15

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractContentHandler.setDocumentLocator( Locator locator );1;0;3
+AbstractContentHandler.startElement( String uri , String loc , String raw , Attributes a );1;0;3
+AbstractContentHandler.endEntity( String name );2;1;5
+AbstractContentHandler.AbstractContentHandler( ContentHandler contentHandler , LexicalHandler lexicalHandler );2;1;7
+AbstractContentHandler.AbstractContentHandler( ContentHandler contentHandler );2;0;3
+AbstractContentHandler.endElement( String uri , String loc , String raw );1;0;3
+AbstractContentHandler.characters( char ch [ ] , int start , int len );1;0;3
+AbstractContentHandler.startEntity( String name );2;1;5
+AbstractContentHandler.startDocument( );1;0;3
+AbstractContentHandler.startPrefixMapping( String prefix , String uri );5;4;13
+AbstractContentHandler.startCDATA( );2;1;5
+AbstractContentHandler.comment( char ch [ ] , int start , int len );2;1;5
+AbstractContentHandler.startDTD( String name , String publicId , String systemId );2;1;5
+AbstractContentHandler.endDTD( );2;1;5
+AbstractContentHandler.processingInstruction( String target , String data );1;0;3
+AbstractContentHandler.endDocument( );1;0;3
+AbstractContentHandler.endPrefixMapping( String prefix );10;11;31
+AbstractContentHandler.endCDATA( );2;1;5
+AbstractContentHandler.skippedEntity( String name );1;0;3
+AbstractContentHandler.ignorableWhitespace( char ch [ ] , int start , int len );1;0;3

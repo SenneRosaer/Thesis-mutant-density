@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultiValueMap.writeObject( ObjectOutputStream out );1;0;4
+ValuesIterator.ValuesIterator( Object key );1;0;5
+Values.clear( );1;0;3
+***not in a method***;0;1;0
+MultiValueMap.decorate( Map map , Factory collectionFactory );1;0;3
+MultiValueMap.containsValue( Object value );4;1;15
+MultiValueMap.iterator( Object key );2;1;7
+MultiValueMap.MultiValueMap( );1;0;3
+ReflectionFactory.ReflectionFactory( Class clazz );1;0;3
+ReflectionFactory.create( );2;0;7
+MultiValueMap.size( Object key );2;1;7
+MultiValueMap.put( Object key , Object value );4;2;15
+MultiValueMap.MultiValueMap( Map map , Factory collectionFactory );2;1;7
+MultiValueMap.remove( Object key , Object value );4;2;14
+MultiValueMap.getCollection( Object key );1;0;3
+MultiValueMap.decorate( Map map );1;0;3
+ValuesIterator.hasNext( );1;0;3
+MultiValueMap.totalSize( );2;1;9
+MultiValueMap.putAll( Object key , Collection values );5;5;18
+MultiValueMap.containsValue( Object key , Object value );2;1;7
+ValuesIterator.remove( );2;0;6
+MultiValueMap.putAll( Map map );4;0;14
+MultiValueMap.decorate( Map map , Class collectionClass );1;0;3
+ValuesIterator.next( );1;0;3
+MultiValueMap.createCollection( int size );1;0;3
+MultiValueMap.clear( );1;0;3
+Values.iterator( );2;0;7
+Values.size( );1;0;3
+MultiValueMap.values( );2;1;6
+MultiValueMap.readObject( ObjectInputStream in );1;0;4

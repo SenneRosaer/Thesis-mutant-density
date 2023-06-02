@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParserConfig.ParserConfig( ASMDeserializerFactory asmFactory );1;0;3
+ParserConfig.ParserConfig( boolean fieldBase );1;0;3
+ParserConfig.setSafeMode( boolean safeMode );1;0;3
+ParserConfig.setDefaultClassLoader( ClassLoader defaultClassLoader );1;0;3
+ParserConfig.getDeserializer( FieldInfo fieldInfo );1;0;3
+ParserConfig.initJavaBeanDeserializers( Class < ? > ... classes );5;2;12
+ParserConfig.register( Module module );1;0;3
+ParserConfig.getFieldFromCache( String fieldName , Map < String , Field > fieldCacheMap );13;15;31
+ParserConfig.getGlobalInstance( );1;0;3
+ParserConfig.isSafeMode( );1;0;3
+ParserConfig.ParserConfig( ASMDeserializerFactory asmFactory , ClassLoader parentClassLoader , boolean fieldBased );8;5;23
+ParserConfig.ParserConfig( ClassLoader parentClassLoader );1;0;3
+ParserConfig.getDeserializers( );1;0;3
+ParserConfig.getDefaultClassLoader( );1;0;3
+ParserConfig.addItemsToDeny0( final String [ ] items );3;3;9
+ParserConfig.isAutoTypeSupport( );1;0;3
+ParserConfig.register( String typeName , Class type );1;0;3
+ParserConfig.clearDeserializers( );1;0;4
+ParserConfig.isPrimitive2( final Class < ? > clazz );16;27;21
+ParserConfig.addAccept( String name );4;6;14
+ParserConfig.setAutoTypeSupport( boolean autoTypeSupport );1;0;3
+ParserConfig.createJavaBeanDeserializer( Class < ? > clazz , Type type );55;45;125
+ParserConfig.parserAllFieldToCache( Class < ? > clazz , Map < String , Field > fieldCacheMap );5;4;12
+ParserConfig.addDenyInternal( String name );5;7;18
+ParserConfig.addDeny( String name );4;6;14
+ParserConfig.addItemsToAccept( final String [ ] items );3;3;9
+ParserConfig.initDeserializers( );1;0;69
+ParserConfig.isAsmEnable( );1;0;3
+ParserConfig.configFromPropety( Properties properties );3;0;20
+ParserConfig.call( );1;0;7
+***not in a method***;0;4;0
+ParserConfig.getEnumDeserializer( Class < ? > clazz );1;0;3
+ParserConfig.checkAutoType( Class type );2;1;6
+ParserConfig.createFieldDeserializer( ParserConfig mapping , JavaBeanInfo beanInfo , FieldInfo fieldInfo );9;7;16
+ParserConfig.addItemsToDeny( final String [ ] items );3;3;9
+ParserConfig.apply( Class < ? > clazz );3;5;5
+ParserConfig.isJacksonCompatible( );1;0;3
+ParserConfig.getDeserializer( Class < ? > clazz , Type type );71;35;238
+ParserConfig.getDerializers( );1;0;3
+ParserConfig.putDeserializer( Type type , ObjectDeserializer deserializer );3;2;13
+ParserConfig.ParserConfig( );1;0;3
+ParserConfig.get( Type type );3;2;11
+ParserConfig.splitItemsFormProperty( final String property );3;3;6
+ParserConfig.isPrimitive( Class < ? > clazz );1;0;3
+ParserConfig.getDeserializer( Type type );11;2;26
+ParserConfig.getEnumCreator( Class clazz , Class enumClass );6;5;17
+ParserConfig.setAsmEnable( boolean asmEnable );1;0;3
+ParserConfig.checkAutoType( String typeName , Class < ? > expectClass , int features );83;112;203
+ParserConfig.setJacksonCompatible( boolean jacksonCompatible );1;0;3
+ParserConfig.addAutoTypeCheckHandler( AutoTypeCheckHandler h );2;1;9
+ParserConfig.checkAutoType( String typeName , Class < ? > expectClass );1;0;3

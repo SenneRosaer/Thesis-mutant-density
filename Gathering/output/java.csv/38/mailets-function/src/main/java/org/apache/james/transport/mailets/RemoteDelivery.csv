@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RemoteDelivery.calcTotalAttempts( ArrayList delayList );2;1;9
+Delay.setAttempts( int value );1;0;3
+RemoteDelivery.next( );1;2;3
+RemoteDelivery.logSendFailedException( SendFailedException sfe );12;3;42
+RemoteDelivery.init( );31;26;139
+Delay.getAttempts( );1;0;3
+Delay.getDelayTime( );1;0;3
+MultipleDelayFilter.accept( String key , String state , long lastUpdated , String errorMessage );7;6;22
+RemoteDelivery.getNextDelay( int retry_count );2;2;6
+RemoteDelivery.failMessage( Mail mail , Exception ex , boolean permanent );11;7;74
+RemoteDelivery.getMailetInfo( );1;0;3
+RemoteDelivery.deliver( Mail mail , Session session );62;42;246
+RemoteDelivery.destroy( );2;0;8
+RemoteDelivery.service( Mail mail );8;2;53
+RemoteDelivery.remove( );1;0;3
+MultipleDelayFilter.getWaitTime( );3;3;9
+RemoteDelivery.invokeGetter( Object target , String getter );5;0;11
+RemoteDelivery.hasNext( );1;7;3
+RemoteDelivery.getGatewaySMTPHostAddresses( final Collection gatewayServers );9;0;51
+RemoteDelivery.hasNextAddress( );2;2;3
+RemoteDelivery.exceptionToLogString( Exception e );15;9;42
+Delay.Delay( );1;0;2
+RemoteDelivery.obtainSession( Properties props );1;0;3
+RemoteDelivery.convertTo7Bit( MimePart part );5;2;14
+Delay.Delay( String initString );6;6;24
+Delay.toString( );1;1;4
+RemoteDelivery.bounce( Mail mail , Exception ex );11;1;52
+RemoteDelivery.setDNSServer( DNSService dnsServer );1;0;3
+RemoteDelivery.expandDelays( ArrayList list );3;3;12
+RemoteDelivery.run( );15;12;68

@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FtpSenderEndpoint.getMarshaler( );1;0;3
+FtpSenderEndpoint.setClientPool( FTPClientPool clientPool );1;0;3
+FtpSenderEndpoint.isCheckDuplicates( );1;0;3
+FtpSenderEndpoint.FtpSenderEndpoint( FtpComponent component , ServiceEndpoint endpoint );1;0;3
+FtpSenderEndpoint.createClientPool( );1;0;5
+FtpSenderEndpoint.setMarshaler( FileMarshaler marshaler );1;0;3
+FtpSenderEndpoint.processInOnly( MessageExchange exchange , NormalizedMessage message );16;17;50
+FtpSenderEndpoint.setUri( URI uri );1;0;3
+FtpSenderEndpoint.getUploadSuffix( );1;0;3
+FtpSenderEndpoint.setUploadSuffix( String uploadSuffix );1;0;3
+FtpSenderEndpoint.returnClient( FTPClient client );3;1;9
+FtpSenderEndpoint.setCheckDuplicates( boolean checkDuplicates );1;0;3
+FtpSenderEndpoint.start( );5;4;17
+FtpSenderEndpoint.setOverwrite( boolean overwrite );1;0;3
+FtpSenderEndpoint.isOverwrite( );1;0;3
+FtpSenderEndpoint.getClientPool( );1;0;3
+FtpSenderEndpoint.validate( );7;10;9
+FtpSenderEndpoint.borrowClient( );2;0;7
+FtpSenderEndpoint.FtpSenderEndpoint( );1;0;2
+FtpSenderEndpoint.getUniqueFileName( );1;0;3
+FtpSenderEndpoint.setUniqueFileName( String uniqueFileName );1;0;3

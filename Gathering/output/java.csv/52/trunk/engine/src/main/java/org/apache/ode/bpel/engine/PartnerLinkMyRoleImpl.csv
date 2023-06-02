@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PartnerLinkMyRoleImpl.PartnerLinkMyRoleImpl( ODEProcess process , PartnerLinkModel plink , Endpoint endpoint );1;0;4
+PartnerLinkMyRoleImpl.isOneWayOnly( );4;2;12
+PartnerLinkMyRoleImpl.computeCorrelationKeys( MessageExchangeDAO mex , Operation operation );3;2;14
+PartnerLinkMyRoleImpl.computeCorrelationKey( CorrelationSetModel cset , QName messageName , Element msg );6;2;33
+PartnerLinkMyRoleImpl.getMyRoleOperation( String operationName );1;0;3
+PartnerLinkMyRoleImpl.toString( );1;0;10
+PartnerLinkMyRoleImpl.invokeMyRoleCreateInstance( MessageExchangeDAO mex , Operation operation , String correlatorId , CorrelatorDAO correlator );3;1;19
+PartnerLinkMyRoleImpl.invokeMyRole( MessageExchangeDAO mex );13;6;72

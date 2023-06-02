@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IOUtil.getEncoding( String contentType );4;7;12
+IOUtil.mkDirs( Node root , String relPath , String dirNodeType );3;3;10
+IOUtil.buildContentType( String mimeType , String encoding );3;4;7
+IOUtil.getTempFile( InputStream inputStream );3;2;15
+IOUtil.spool( InputStream in , OutputStream out );2;1;11
+IOUtil.getCreated( long createdTime );2;1;6
+***not in a method***;0;1;0
+IOUtil.getLastModified( long modificationTime );2;1;6
+IOUtil.getMimeType( String contentType );3;2;8

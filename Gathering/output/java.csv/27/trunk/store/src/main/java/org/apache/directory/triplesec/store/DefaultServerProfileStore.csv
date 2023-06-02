@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultServerProfileStore.update( KerberosPrincipal oldPrincipal , ServerProfile updated );13;13;76
+DefaultServerProfileStore.getInt( String id , Attributes attrs );3;3;8
+DefaultServerProfileStore.getLong( String id , Attributes attrs );3;3;8
+DefaultServerProfileStore.add( ServerProfile profile );1;0;4
+DefaultServerProfileStore.hasProfile( KerberosPrincipal principal );4;3;18
+DefaultServerProfileStore.delete( KerberosPrincipal principal );1;0;4
+DefaultServerProfileStore.DefaultServerProfileStore( DirContext userContext );1;0;3
+DefaultServerProfileStore.getProfileEntry( KerberosPrincipal principal );2;0;12
+DefaultServerProfileStore.setMonitor( StoreMonitor monitor );1;0;3
+DefaultServerProfileStore.getString( String id , Attributes attrs );5;3;16
+DefaultServerProfileStore.getProfile( KerberosPrincipal principal );5;3;26
+DefaultServerProfileStore.init( );1;0;2

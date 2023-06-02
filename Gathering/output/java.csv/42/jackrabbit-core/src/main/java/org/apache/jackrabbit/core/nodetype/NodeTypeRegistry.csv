@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodeTypeRegistry.validateNodeTypeDef( NodeTypeDef ntd , EffectiveNodeTypeCache entCache , Map ntdCache , NamespaceRegistry nsReg , boolean lenient );66;67;258
+NodeTypeRegistry.getNodeDef( NodeDefId id );1;0;3
+NodeTypeRegistry.getPropDef( PropDefId id );1;0;3
+NodeTypeRegistry.notifyReRegistered( Name ntName );3;3;10
+NodeTypeRegistry.externalRegistered( Collection ntDefs );1;0;3
+NodeTypeRegistry.getNodeTypeDef( Name nodeTypeName );2;1;7
+NodeTypeRegistry.checkForReferencesInContent( Name nodeTypeName );1;0;3
+NodeTypeRegistry.checkForCircularNodeAutoCreation( EffectiveNodeType childNodeENT , Stack definingParentNTs , EffectiveNodeTypeCache anEntCache , Map ntDefCache );8;10;41
+NodeTypeRegistry.internalRegister( Collection ntDefs );1;0;3
+NodeTypeRegistry.dump( PrintStream ps );19;22;81
+NodeTypeRegistry.unregisterNodeType( Name ntName );1;0;5
+NodeTypeRegistry.externalUnregistered( Collection ntNames );1;0;3
+NodeTypeRegistry.getEffectiveNodeType( Name ntName );1;0;3
+NodeTypeRegistry.getRegisteredNodeTypes( );1;0;3
+NodeTypeRegistry.NodeTypeRegistry( NamespaceRegistry nsReg , FileSystem ntStore );5;1;44
+NodeTypeRegistry.internalRegister( Collection ntDefs , boolean lenient );8;6;35
+NodeTypeRegistry.internalRegister( NodeTypeDef ntd );5;6;22
+NodeTypeRegistry.removeListener( NodeTypeRegistryListener listener );1;0;3
+NodeTypeRegistry.registerNodeType( NodeTypeDef ntd );2;1;12
+NodeTypeRegistry.getEffectiveNodeType( Name ntName , EffectiveNodeTypeCache entCache , Map ntdCache );4;2;22
+NodeTypeRegistry.getEffectiveNodeType( Name primary , Set mixins );2;2;10
+NodeTypeRegistry.checkForConflictingContent( NodeTypeDef ntd );1;0;3
+NodeTypeRegistry.addListener( NodeTypeRegistryListener listener );2;1;5
+NodeTypeRegistry.reregisterNodeType( NodeTypeDef ntd );1;0;3
+NodeTypeRegistry.externalReregistered( NodeTypeDef ntDef );1;0;3
+NodeTypeRegistry.create( NamespaceRegistry nsReg , FileSystem ntStore );1;0;4
+NodeTypeRegistry.checkNamespace( Name name , NamespaceRegistry nsReg );2;1;5
+NodeTypeRegistry.notifyRegistered( Name ntName );3;3;10
+NodeTypeRegistry.checkForCircularInheritance( Name [ ] supertypes , Stack inheritanceChain , Map ntDefCache );7;7;32
+NodeTypeRegistry.persistCustomNodeTypeDefs( NodeTypeDefStore store );3;0;22
+NodeTypeRegistry.notifyUnregistered( Name ntName );3;3;10
+NodeTypeRegistry.createRootNodeDef( );1;0;12
+NodeTypeRegistry.getRootNodeDef( );1;0;3
+NodeTypeRegistry.internalUnregister( Collection ntNames );2;0;6
+NodeTypeRegistry.reregisterNodeType( NodeTypeDef ntd , boolean external );7;5;35
+NodeTypeRegistry.unregisterNodeTypes( Collection ntNames );1;0;3
+NodeTypeRegistry.loadCustomNodeTypeDefs( NodeTypeDefStore store );7;1;38
+NodeTypeRegistry.loadBuiltInNodeTypeDefs( NodeTypeDefStore store );3;0;21
+NodeTypeRegistry.getDependentNodeTypes( Name nodeTypeName );4;1;14
+NodeTypeRegistry.registerNodeTypes( Collection ntDefs );1;0;3
+NodeTypeRegistry.isBuiltIn( Name nodeTypeName );1;0;3
+NodeTypeRegistry.registerNodeTypes( Collection ntDefs , boolean external );5;3;15
+NodeTypeRegistry.unregisterNodeTypes( Collection ntNames , boolean external );10;5;37
+NodeTypeRegistry.internalUnregister( Name name );4;5;16
+NodeTypeRegistry.setEventChannel( NodeTypeEventChannel eventChannel );1;0;4
+NodeTypeRegistry.isRegistered( Name nodeTypeName );1;0;3
+NodeTypeRegistry.getEffectiveNodeType( Name [ ] ntNames , EffectiveNodeTypeCache entCache , Map ntdCache );10;10;47

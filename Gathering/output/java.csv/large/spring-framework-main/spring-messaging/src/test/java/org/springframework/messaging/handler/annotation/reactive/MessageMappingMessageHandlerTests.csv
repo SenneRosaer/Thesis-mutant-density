@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageMappingMessageHandlerTests.handleErrorSignal( );1;0;5
+MessageMappingMessageHandlerTests.message( String destination , String ... content );1;0;8
+MessageMappingMessageHandlerTests.initMesssageHandler( );4;0;18
+TestController.handleWithPlaceholder( String payload );1;0;3
+MessageMappingMessageHandlerTests.handleWithPlaceholderInMapping( );1;0;5
+TestController.handleString( String payload );1;0;3
+TestController.handleFluxString( Flux < String > payload );1;0;3
+MessageMappingMessageHandlerTests.toDataBuffer( String payload );1;0;3
+MessageMappingMessageHandlerTests.handleWithDestinationVariable( );1;0;5
+TestController.handleException( IllegalArgumentException ex );1;0;3
+TestController.handleAndSignalError( );1;0;4
+TestController.handleWithDestinationVariable( @ DestinationVariable String variable , String payload );1;1;3
+MessageMappingMessageHandlerTests.handleException( );1;0;5
+MessageMappingMessageHandlerTests.handleFluxString( );1;0;5
+MessageMappingMessageHandlerTests.handleMonoString( );1;0;5
+MessageMappingMessageHandlerTests.unhandledExceptionShouldFlowThrough( );2;0;8
+TestController.handleAndThrow( );1;0;3
+TestController.handleMonoString( Mono < String > payload );1;0;3
+MessageMappingMessageHandlerTests.verifyOutputContent( List < String > expected );1;0;4
+MessageMappingMessageHandlerTests.handleString( );1;0;5

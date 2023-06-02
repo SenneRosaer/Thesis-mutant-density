@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InvocableHandlerMethod.InvocableHandlerMethod( Object bean , String methodName , Class < ? > ... parameterTypes );1;0;3
+AsyncResultMethodParameter.getParameterType( );3;2;9
+AsyncResultMethodParameter.clone( );1;0;3
+InvocableHandlerMethod.getAsyncReturnValueType( @ Nullable Object returnValue );1;0;3
+InvocableHandlerMethod.invoke( Message < ? > message , Object ... providedArgs );2;0;7
+InvocableHandlerMethod.doInvoke( Object ... args );8;2;26
+InvocableHandlerMethod.setMessageMethodArgumentResolvers( HandlerMethodArgumentResolverComposite argumentResolvers );1;0;3
+InvocableHandlerMethod.setParameterNameDiscoverer( ParameterNameDiscoverer parameterNameDiscoverer );1;0;3
+AsyncResultMethodParameter.AsyncResultMethodParameter( AsyncResultMethodParameter original );1;0;5
+InvocableHandlerMethod.getMethodArgumentValues( Message < ? > message , Object ... providedArgs );9;7;32
+InvocableHandlerMethod.InvocableHandlerMethod( Object bean , Method method );1;0;3
+AsyncResultMethodParameter.AsyncResultMethodParameter( @ Nullable Object returnValue );1;1;5
+AsyncResultMethodParameter.getGenericParameterType( );1;0;3
+InvocableHandlerMethod.InvocableHandlerMethod( HandlerMethod handlerMethod );1;0;3

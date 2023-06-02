@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionalOperatorImpl.hashCode( );1;0;3
+TransactionalOperatorImpl.equals( @ Nullable Object other );4;6;4
+TransactionalOperatorImpl.TransactionalOperatorImpl( ReactiveTransactionManager transactionManager , TransactionDefinition transactionDefinition );1;0;6
+TransactionalOperatorImpl.transactional( Mono < T > mono );1;0;10
+TransactionalOperatorImpl.rollbackOnException( ReactiveTransaction status , Throwable ex );2;0;11
+TransactionalOperatorImpl.getTransactionManager( );1;0;3
+TransactionalOperatorImpl.execute( TransactionCallback < T > action );1;0;16

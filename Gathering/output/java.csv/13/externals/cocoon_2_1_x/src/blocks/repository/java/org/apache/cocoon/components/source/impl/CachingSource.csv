@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CachingSource.getScheme( );1;0;3
+CachingSource.getCacheKey( );1;0;3
+CachingSource.checkValidity( );12;8;36
+CachingSource.toSAX( ContentHandler contentHandler );4;0;15
+CachingSource.getURI( );1;0;3
+CachingSource.getLastModified( );1;0;3
+CachingSource.setResponse( CachedSourceResponse response );3;1;10
+CachingSource.getResponseMeta( );2;1;9
+SourceMeta.getMimeType( );1;0;3
+SourceMeta.SourceMeta( );1;0;2
+CachingSource.readBinaryResponse( Source source );2;2;12
+CachingSource.initialize( );11;9;25
+CachingSource.getInputStream( );2;0;7
+CachingSource.readMeta( Source source );1;0;3
+SourceMeta.setMimeType( String mimeType );1;0;3
+SourceMeta.exists( );1;0;3
+CachingSource.getCacheValidities( );2;0;7
+CachingSource.getBinaryResponse( );4;2;14
+CachingSource.refresh( );8;4;29
+CachingSource.getXMLResponse( );5;3;17
+SourceMeta.getLastModified( );1;0;3
+CachingSource.getContentLength( );1;0;3
+CachingSource.getMeta( );2;0;7
+SourceMeta.setLastModified( long lastModified );1;0;3
+CachingSource.readXMLResponse( Source source , byte [ ] binary , ServiceManager manager );5;2;25
+CachingSource.getMimeType( );1;0;3
+CachingSource.clearResponse( );1;0;4
+CachingSource.dispose( );1;0;6
+SourceMeta.getContentLength( );1;0;3
+CachingSource.getSourceURI( );1;0;3
+CachingSource.CachingSource( final String protocol , final String uri , final String sourceUri , final Source source , final int expires , final String cacheName , final boolean async , final boolean eventAware );2;2;15
+SourceMeta.setContentLength( long contentLength );1;0;3
+CachingSource.getValidity( );2;1;7
+CachingSource.getResponse( );2;1;7
+CachingSource.getExpiration( );1;1;3
+SourceMeta.SourceMeta( Source source );3;2;15
+SourceMeta.setExists( boolean exists );1;0;3
+CachingSource.service( final ServiceManager manager );1;0;3
+CachingSource.exists( );1;0;3

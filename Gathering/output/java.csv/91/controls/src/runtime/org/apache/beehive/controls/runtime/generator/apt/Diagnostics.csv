@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Diagnostics.Diagnostics( AnnotationProcessorEnvironment env );1;0;3
+Diagnostics.setHasErrors( boolean hadErrors );1;0;3
+Diagnostics.addWarning( AnnotationMirror ann , String messageKey , Object ... args );1;0;3
+Diagnostics.addWarning( AnnotationValue annVal , String messageKey , Object ... args );1;0;3
+Diagnostics.addError( AnnotationMirror ann , String messageKey , Object ... args );1;0;4
+Diagnostics.getAnnotationProcessorEnvironment( );1;0;3
+Diagnostics.addWarning( Declaration decl , String messageKey , Object ... args );1;0;3
+Diagnostics.addErrorArrayArgs( AnnotationMirror ann , String messageKey , Object [ ] args );1;0;4
+Diagnostics.hasErrors( );1;0;3
+Diagnostics.addError( Declaration decl , String messageKey , Object ... args );1;0;4
+Diagnostics.addError( AnnotationValue annVal , String messageKey , Object ... args );1;0;4

@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GroupBasedProfileManager.initialize( );1;0;9
+GroupBasedProfileManager.prepareObject( Object object , PortalService service );10;2;39
+GroupBasedProfileManager.getCopletInstanceDatas( final ProfileLS loader , final UserProfile profile , final UserInfo info , final PortalService service , final String category );3;1;22
+GroupBasedProfileManager.unregister( Layout layout );3;3;6
+GroupBasedProfileManager.parameterize( Parameters params );1;0;3
+GroupBasedProfileManager.getLayout( final ProfileLS loader , final UserProfile profile , final UserInfo info , final PortalService service , final String category );3;1;22
+GroupBasedProfileManager.login( );1;0;4
+GroupBasedProfileManager.removeUserProfiles( );2;1;12
+GroupBasedProfileManager.buildKey( String category , String profileType , UserInfo info , boolean load );4;0;25
+***not in a method***;0;1;0
+GroupBasedProfileManager.loadProfile( final String layoutKey , final PortalService service );10;10;30
+GroupBasedProfileManager.getGlobalBaseDatas( final ProfileLS loader , final UserInfo info , final PortalService service );6;8;27
+GroupBasedProfileManager.dispose( );1;0;5
+GroupBasedProfileManager.getCopletData( String copletDataId );2;1;7
+GroupBasedProfileManager.getCopletInstanceData( String copletID );2;1;7
+GroupBasedProfileManager.contextualize( Context context );1;0;3
+GroupBasedProfileManager.getCopletDatas( );2;1;7
+GroupBasedProfileManager.getUserProfile( String layoutKey );3;2;14
+GroupBasedProfileManager.getPortalLayout( String layoutKey , String layoutId );6;4;24
+GroupBasedProfileManager.storeUserProfile( String layoutKey , PortalService service , UserProfile profile );2;2;6
+GroupBasedProfileManager.getCopletInstanceData( CopletData data );4;1;14
+GroupBasedProfileManager.saveUserCopletInstanceDatas( String layoutKey );3;1;27
+GroupBasedProfileManager.storeProfile( Layout rootLayout , String layoutKey );3;1;20
+GroupBasedProfileManager.getUser( );2;0;13
+GroupBasedProfileManager.logout( );4;1;26
+GroupBasedProfileManager.saveUserLayout( String layoutKey );3;1;26
+GroupBasedProfileManager.unregister( CopletInstanceData coplet );1;0;4
+GroupBasedProfileManager.getGlobalDatas( final ProfileLS loader , final UserInfo info , final PortalService service , final UserProfile profile );6;8;27
+GroupBasedProfileManager.register( Layout layout );3;3;6
+GroupBasedProfileManager.getCopletInstanceDatas( );2;1;7
+GroupBasedProfileManager.isSourceNotFoundException( Throwable t );3;1;9
+GroupBasedProfileManager.register( CopletInstanceData coplet );1;0;4

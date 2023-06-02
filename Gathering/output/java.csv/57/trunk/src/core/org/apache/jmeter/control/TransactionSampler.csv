@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionSampler.TransactionSampler( TransactionController controller , String name );1;0;8
+TransactionSampler.sample( Entry e );1;0;3
+TransactionSampler.getSubSampler( );1;0;3
+TransactionSampler.getTransactionController( );1;0;3
+TransactionSampler.TransactionSampler( );1;0;2
+TransactionSampler.setTransactionDone( );2;0;9
+TransactionSampler.isTransactionDone( );1;0;3
+TransactionSampler.getTransactionResult( );1;0;3
+TransactionSampler.setSubSampler( Sampler subSampler );1;0;3
+TransactionSampler.addSubSamplerResult( SampleResult res );2;3;8

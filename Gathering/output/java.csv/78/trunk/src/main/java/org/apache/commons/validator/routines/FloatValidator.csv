@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FloatValidator.validate( String value , Locale locale );1;0;3
+FloatValidator.processParsedValue( Object value , Format formatter );7;8;20
+FloatValidator.FloatValidator( boolean strict , int formatType );1;0;3
+FloatValidator.minValue( Float value , float min );1;0;3
+FloatValidator.validate( String value );1;0;3
+FloatValidator.FloatValidator( );1;0;3
+FloatValidator.getInstance( );1;0;3
+FloatValidator.minValue( float value , float min );1;1;3
+FloatValidator.maxValue( Float value , float max );1;0;3
+FloatValidator.isInRange( Float value , float min , float max );1;0;3
+FloatValidator.validate( String value , String pattern );1;0;3
+FloatValidator.validate( String value , String pattern , Locale locale );1;0;3
+FloatValidator.maxValue( float value , float max );1;1;3
+FloatValidator.isInRange( float value , float min , float max );2;3;3

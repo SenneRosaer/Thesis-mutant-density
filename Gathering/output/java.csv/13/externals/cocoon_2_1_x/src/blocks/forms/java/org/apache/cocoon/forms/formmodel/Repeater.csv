@@ -1,0 +1,47 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Repeater.getParentRow( Widget widget );4;4;10
+RepeaterRow.getDefinition( );1;0;3
+Repeater.getWidget( int rowIndex , String id );1;0;4
+Repeater.getSize( );1;0;3
+***not in a method***;0;1;0
+Repeater.readFromRequest( FormContext formContext );14;14;52
+Repeater.getXMLElementName( );1;0;3
+Repeater.getRow( int index );1;0;3
+Repeater.initialize( );2;2;7
+Repeater.removeRow( int index );1;0;6
+Repeater.addRepeaterListener( RepeaterListener listener );1;0;3
+Repeater.getMaxSize( );1;0;3
+Repeater.getXMLElementAttributes( );3;2;13
+Repeater.addRow( );1;1;8
+Repeater.generateWidgetLabel( String widgetId , ContentHandler contentHandler );2;1;8
+Repeater.clear( );2;2;9
+Repeater.addRow( int index );2;2;13
+Repeater.setValidationError( ValidationError error );1;0;3
+Repeater.generateSize( ContentHandler contentHandler );1;2;5
+Repeater.validate( );7;7;24
+Repeater.getDefinition( );1;0;3
+Repeater.moveRowRight( int index );3;6;10
+RepeaterRow.RepeaterRow( RepeaterDefinition definition );1;0;5
+Repeater.moveRowLeft( int index );3;5;10
+Repeater.removeRepeaterListener( RepeaterListener listener );1;0;3
+RepeaterRow.validate( );1;0;3
+Repeater.indexOf( RepeaterRow row );1;0;3
+Repeater.getValidationError( );1;0;3
+RepeaterRow.getRequestParameterName( );1;0;4
+RepeaterRow.initialize( );2;0;6
+RepeaterRow.generateLabel( ContentHandler contentHandler );1;0;2
+Repeater.generateItemSaxFragment( ContentHandler contentHandler , Locale locale );2;0;7
+Repeater.moveRow2( int from , int to );6;8;14
+Repeater.broadcastEvent( WidgetEvent event );3;1;9
+RepeaterRow.getXMLElementName( );1;0;3
+RepeaterRow.generateDisplayData( ContentHandler contentHandler );1;0;2
+Repeater.generateDisplayData( ContentHandler contentHandler );2;6;14
+Repeater.removeRows( );1;0;3
+Repeater.Repeater( RepeaterDefinition repeaterDefinition );2;2;9
+RepeaterRow.getId( );3;3;12
+RepeaterRow.broadcastEvent( WidgetEvent event );1;0;3
+Repeater.getChild( String id );4;3;12
+Repeater.hasRepeaterListeners( );1;1;3
+Repeater.getMinSize( );1;0;3
+RepeaterRow.getForm( );1;0;3
+Repeater.moveRow( int from , int to );8;11;20

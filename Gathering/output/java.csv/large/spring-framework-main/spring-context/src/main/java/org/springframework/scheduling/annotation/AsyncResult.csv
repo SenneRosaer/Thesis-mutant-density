@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AsyncResult.exposedException( Throwable original );3;1;9
+AsyncResult.isDone( );1;0;3
+AsyncResult.addCallback( ListenableFutureCallback < ? super V > callback );1;0;3
+AsyncResult.completable( );2;1;10
+AsyncResult.get( long timeout , TimeUnit unit );1;0;3
+AsyncResult.cancel( boolean mayInterruptIfRunning );1;0;3
+AsyncResult.forValue( V value );1;0;3
+AsyncResult.get( );3;1;8
+AsyncResult.isCancelled( );1;0;3
+AsyncResult.AsyncResult( @ Nullable V value , @ Nullable Throwable ex );1;0;4
+AsyncResult.AsyncResult( @ Nullable V value );1;0;3
+AsyncResult.addCallback( SuccessCallback < ? super V > successCallback , FailureCallback failureCallback );3;1;12
+AsyncResult.forExecutionException( Throwable ex );1;0;3

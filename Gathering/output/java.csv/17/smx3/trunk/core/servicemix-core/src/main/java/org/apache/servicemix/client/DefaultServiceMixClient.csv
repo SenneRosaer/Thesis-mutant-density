@@ -1,0 +1,55 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultServiceMixClient.sendSync( EndpointResolver resolver , Map exchangeProperties , Map inMessageProperties , Object content );1;0;5
+DefaultServiceMixClient.populateMessageProperties( NormalizedMessage message , Map properties );3;1;8
+DefaultServiceMixClient.createResolverInterface( QName interfaceName );1;0;3
+DefaultServiceMixClient.configureEndpoint( MessageExchange exchange , org . apache . servicemix . jbi . api . EndpointResolver resolver );2;1;5
+DefaultServiceMixClient.resolveEndpointReference( String uri );1;0;4
+DefaultServiceMixClient.send( org . apache . servicemix . client . Message message );1;0;3
+DefaultServiceMixClient.send( Message message );1;0;3
+DefaultServiceMixClient.createInOnlyExchange( org . apache . servicemix . jbi . api . EndpointResolver resolver );1;0;5
+DefaultServiceMixClient.receive( long timeout );1;0;3
+DefaultServiceMixClient.createInOnlyExchange( EndpointResolver resolver );1;0;5
+DefaultServiceMixClient.fail( MessageExchange exchange , Fault fault );1;0;3
+DefaultServiceMixClient.populateMessage( MessageExchange exchange , Map exchangeProperties , Map inMessageProperties , Object content );1;0;6
+DefaultServiceMixClient.send( MessageExchange exchange );1;0;3
+DefaultServiceMixClient.sendSync( Map inMessageProperties , Object content );1;0;3
+DefaultServiceMixClient.createRobustInOnlyExchange( );1;0;6
+DefaultServiceMixClient.request( org . apache . servicemix . jbi . api . EndpointResolver resolver , Map exchangeProperties , Map inMessageProperties , Object content );5;4;23
+DefaultServiceMixClient.setFilter( EndpointFilter filter );1;0;3
+DefaultServiceMixClient.populateExchangeProperties( MessageExchange exchange , Map properties );3;1;8
+DefaultServiceMixClient.getMarshaler( );1;0;3
+DefaultServiceMixClient.getFilter( );1;0;3
+DefaultServiceMixClient.sendSync( MessageExchange exchange , long timeout );1;0;3
+DefaultServiceMixClient.setMarshaler( PojoMarshaler marshaler );1;0;3
+DefaultServiceMixClient.done( MessageExchange exchange );1;0;3
+DefaultServiceMixClient.send( EndpointResolver resolver , Map exchangeProperties , Map inMessageProperties , Object content );1;0;5
+DefaultServiceMixClient.createInOnlyExchange( );1;0;6
+DefaultServiceMixClient.DefaultServiceMixClient( JBIContainer container , ActivationSpec activationSpec );1;0;6
+DefaultServiceMixClient.getExchangeFactory( );1;0;3
+DefaultServiceMixClient.request( EndpointResolver resolver , Map exchangeProperties , Map inMessageProperties , Object content );5;4;23
+DefaultServiceMixClient.getDeliveryChannel( );1;0;3
+DefaultServiceMixClient.DefaultServiceMixClient( JBIContainer container );1;0;3
+DefaultServiceMixClient.createInOutExchange( EndpointResolver resolver );1;0;5
+DefaultServiceMixClient.createResolverForService( QName service );1;0;3
+DefaultServiceMixClient.sendSync( org . apache . servicemix . jbi . api . EndpointResolver resolver , Map exchangeProperties , Map inMessageProperties , Object content );1;0;5
+DefaultServiceMixClient.configureEndpoint( MessageExchange exchange , EndpointResolver resolver );2;1;5
+DefaultServiceMixClient.createInOptionalOutExchange( org . apache . servicemix . jbi . api . EndpointResolver resolver );1;0;5
+DefaultServiceMixClient.receive( );1;0;3
+DefaultServiceMixClient.createInOptionalOutExchange( EndpointResolver resolver );1;0;5
+DefaultServiceMixClient.fail( MessageExchange exchange , Exception error );1;0;3
+DefaultServiceMixClient.close( );2;1;5
+DefaultServiceMixClient.createResolverForExternalInterface( QName service , String endpoint );1;0;3
+DefaultServiceMixClient.createInOutExchange( org . apache . servicemix . jbi . api . EndpointResolver resolver );1;0;5
+DefaultServiceMixClient.createResolverForExternalInterface( QName interfaceName );1;0;3
+DefaultServiceMixClient.createResolverForExternalService( QName service );1;0;3
+DefaultServiceMixClient.send( Map inMessageProperties , Object content );1;0;3
+DefaultServiceMixClient.send( org . apache . servicemix . jbi . api . EndpointResolver resolver , Map exchangeProperties , Map inMessageProperties , Object content );1;0;5
+DefaultServiceMixClient.DefaultServiceMixClient( );1;0;2
+DefaultServiceMixClient.createRobustInOnlyExchange( EndpointResolver resolver );1;0;5
+DefaultServiceMixClient.createInOptionalOutExchange( );1;0;6
+DefaultServiceMixClient.request( Map inMessageProperties , Object content );1;0;3
+DefaultServiceMixClient.createDestination( String uri );1;0;3
+DefaultServiceMixClient.getContext( );1;0;3
+DefaultServiceMixClient.sendSync( MessageExchange exchange );1;0;3
+DefaultServiceMixClient.createRobustInOnlyExchange( org . apache . servicemix . jbi . api . EndpointResolver resolver );1;0;5
+DefaultServiceMixClient.createInOutExchange( );1;0;6

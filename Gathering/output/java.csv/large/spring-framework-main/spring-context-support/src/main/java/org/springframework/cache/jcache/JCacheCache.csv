@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCacheCache.lookup( Object key );1;0;3
+JCacheCache.JCacheCache( Cache < Object , Object > jcache );1;0;3
+JCacheCache.putIfAbsent( Object key , @ Nullable Object value );2;0;4
+JCacheCache.JCacheCache( Cache < Object , Object > jcache , boolean allowNullValues );1;0;5
+JCacheCache.clear( );1;0;3
+ValueLoaderEntryProcessor.process( MutableEntry < Object , Object > entry , Object ... arguments );3;0;18
+JCacheCache.getName( );1;0;3
+JCacheCache.evictIfPresent( Object key );1;0;3
+JCacheCache.invalidate( );1;0;5
+JCacheCache.get( Object key , Callable < T > valueLoader );2;0;8
+JCacheCache.put( Object key , @ Nullable Object value );1;0;3
+JCacheCache.getNativeCache( );1;0;3
+JCacheCache.evict( Object key );1;0;3

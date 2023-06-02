@@ -1,0 +1,56 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RangeImpl.traverseCommonStartContainer( Node endAncestor , int how );8;9;35
+RangeImpl.traverseFullySelected( Node n , int how );5;1;19
+RangeImpl.selectNode( Node refNode );9;11;32
+RangeImpl.nextNode( Node node , boolean visitChildren );8;7;26
+RangeImpl.selectNodeContents( Node refNode );8;7;32
+RangeImpl.cloneContents( );1;0;3
+RangeImpl.receiveDeletedText( CharacterDataImpl node , int offset , int count );9;16;20
+RangeImpl.getRootContainer( Node node );3;2;7
+RangeImpl.setStartBefore( Node refNode );11;14;31
+RangeImpl.getEndContainer( );2;0;8
+RangeImpl.insertData( CharacterData node , int index , String insert );1;0;5
+RangeImpl.setEnd( Node refNode , int offset );9;9;26
+RangeImpl.isLegalContainer( Node node );6;2;16
+RangeImpl.receiveInsertedText( CharacterDataImpl node , int index , int len );7;8;14
+RangeImpl.isLegalContainedNode( Node node );7;1;14
+RangeImpl.insertNode( Node newNode );21;29;74
+RangeImpl.collapse( boolean toStart );3;0;14
+RangeImpl.removeChild( Node parent , Node child );1;0;6
+RangeImpl.getStartOffset( );2;0;8
+RangeImpl.surroundContents( Node newParent );13;15;39
+RangeImpl.receiveReplacedText( CharacterDataImpl node );4;3;9
+RangeImpl.hasLegalRootContainer( Node node );5;1;13
+RangeImpl.getSelectedNode( Node container , int offset );6;7;15
+RangeImpl.traverseContents( int how );12;16;49
+RangeImpl.toString( );20;26;57
+RangeImpl.deleteContents( );1;0;3
+RangeImpl.cloneRange( );2;0;11
+RangeImpl.traverseCommonEndContainer( Node startAncestor , int how );6;8;27
+RangeImpl.setEndAfter( Node refNode );11;13;30
+RangeImpl.RangeImpl( DocumentImpl document );1;0;8
+RangeImpl.traverseLeftBoundary( Node root , int how );7;7;30
+RangeImpl.deleteData( CharacterData node , int offset , int count );1;0;5
+RangeImpl.receiveSplitData( Node node , Node newNode , int offset );10;14;18
+RangeImpl.traverseRightBoundary( Node root , int how );7;8;35
+RangeImpl.getCommonAncestorContainer( );7;10;33
+RangeImpl.insertedNodeFromDOM( Node node );8;8;18
+RangeImpl.setEndBefore( Node refNode );11;14;30
+RangeImpl.getEndOffset( );2;0;8
+RangeImpl.indexOf( Node child , Node parent );3;4;8
+RangeImpl.traverseSameContainer( int how );15;20;52
+RangeImpl.detach( );2;0;9
+RangeImpl.checkIndex( Node refNode , int offset );8;10;23
+RangeImpl.extractContents( );1;0;3
+RangeImpl.isAncestorOf( Node a , Node b );3;2;6
+RangeImpl.setStart( Node refNode , int offset );9;9;26
+RangeImpl.getCollapsed( );3;3;9
+RangeImpl.getStartContainer( );2;0;8
+RangeImpl.traverseNode( Node n , boolean isFullySelected , boolean isLeft , int how );6;7;13
+RangeImpl.removeNode( Node node );11;11;28
+RangeImpl.setStartAfter( Node refNode );11;13;30
+RangeImpl.signalSplitData( Node node , Node newNode , int offset );1;0;5
+RangeImpl.traversePartiallySelected( Node n , int how );4;0;11
+RangeImpl.traverseCharacterDataNode( Node n , boolean isLeft , int how );4;2;24
+RangeImpl.traverseCommonAncestors( Node startAncestor , Node endAncestor , int how );7;9;32
+RangeImpl.compareBoundaryPoints( short how , Range sourceRange );28;38;100

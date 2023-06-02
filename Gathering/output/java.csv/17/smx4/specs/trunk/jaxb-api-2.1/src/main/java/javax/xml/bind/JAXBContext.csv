@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JAXBContext.createBinder( );1;0;3
+JAXBContext.newInstance( String contextPath , ClassLoader classLoader );1;0;3
+JAXBContext.newInstance( String contextPath );1;0;3
+JAXBContext.newInstance( Class ... classesToBeBound );1;0;3
+JAXBContext.generateSchema( SchemaOutputResolver resolver );1;0;3
+JAXBContext.newInstance( String contextPath , ClassLoader classLoader , Map < String , ? > properties );1;0;3
+JAXBContext.newInstance( Class [ ] classesToBeBound , Map < String , ? > properties );3;1;8
+JAXBContext.createBinder( Class < T > domType );1;0;3
+JAXBContext.createJAXBIntrospector( );1;0;3
+JAXBContext.JAXBContext( );1;0;2

@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HtmlWriterUtil.writeText( final String text );1;0;3
+HtmlWriterUtil.writeDecRef( final char ch );4;33;34
+HtmlWriterUtil.writeAttributeValue( final String text );1;0;3
+HtmlWriterUtil.HtmlWriterUtil( Writer out , String characterEncoding );1;0;5
+HtmlWriterUtil.writeAttributeValue( final char [ ] text , final int start , final int length );1;0;3
+HtmlWriterUtil.writeEncodedValue( final char [ ] text , final int start , final int length , final boolean isAttribute );16;23;43
+HtmlWriterUtil.writeText( final char [ ] text , final int start , final int length );1;0;3
+HtmlWriterUtil.attributeValueMustEscaped( final String name );17;19;28

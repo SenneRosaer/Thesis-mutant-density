@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Roles.toString( );3;0;25
+Roles.get( String roleName );1;0;3
+Roles.iterator( );1;0;3
+Roles.removeAll( Roles roles );1;0;7
+Roles.getDependentRoles( String permName );4;1;18
+Roles.containsAll( Roles roles );1;0;4
+Roles.Roles( String applicationName , Role [ ] roles );7;8;28
+Roles.checkApplicationName( Roles roles );2;1;6
+Roles.equals( Object that );3;1;12
+Roles.getDependentRoles( Permission perm );5;2;23
+Roles.hashCode( );1;1;3
+Roles.addAll( Roles roles );1;0;6
+Roles.retainAll( Roles roles );1;0;7
+Roles.isEmpty( );1;0;3
+Roles.size( );1;0;3
+Roles.clone( );1;0;5
+Roles.contains( String roleName );1;0;3
+Roles.contains( Role role );2;1;4
+Roles.getApplicationName( );1;0;3

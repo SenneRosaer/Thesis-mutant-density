@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MailMessage.isResponseOK( String response , int [ ] ok );3;2;8
+MailMessage.sanitizeAddress( String s );11;17;28
+MailMessage.setCcHeader( );2;1;5
+MailPrintStream.MailPrintStream( OutputStream out );1;0;3
+MailPrintStream.rawWrite( int b );1;0;3
+MailMessage.sendQuit( );2;0;8
+MailMessage.flushHeaders( );2;3;9
+MailMessage.connect( );1;0;8
+MailMessage.replyto( String rto );1;0;3
+MailMessage.MailMessage( String host );1;0;3
+MailMessage.sendDot( );1;0;4
+MailMessage.getReady( );2;1;8
+MailMessage.sendAndClose( );1;0;8
+MailMessage.send( String msg , int [ ] ok );2;1;8
+MailMessage.from( String from );1;0;4
+MailMessage.setSubject( String subj );1;0;3
+MailMessage.setReplyToHeader( );2;1;5
+MailMessage.sendData( );1;0;4
+MailMessage.sendHelo( );1;0;5
+MailPrintStream.write( byte [ ] buf , int off , int len );2;3;5
+MailMessage.sendRcpt( String rcpt );1;0;4
+MailMessage.setHeader( String name , String value );1;0;4
+MailMessage.setPort( int port );1;0;3
+MailMessage.bcc( String bcc );1;0;3
+MailMessage.disconnect( );6;3;17
+MailMessage.MailMessage( String host , int port );1;0;11
+MailMessage.MailMessage( );1;0;3
+MailMessage.cc( String cc );1;0;4
+MailMessage.to( String to );1;0;4
+MailPrintStream.rawPrint( String s );2;2;6
+MailMessage.setToHeader( );2;1;5
+MailMessage.vectorToList( Vector v );3;0;11
+MailMessage.sendFrom( String from );1;0;4
+MailMessage.getPrintStream( );1;0;10
+MailPrintStream.write( int b );5;6;12
+MailMessage.setFromHeader( );1;0;3

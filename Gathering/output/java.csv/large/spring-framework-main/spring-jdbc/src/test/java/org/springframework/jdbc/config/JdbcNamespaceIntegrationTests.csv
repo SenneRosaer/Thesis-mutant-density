@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JdbcNamespaceIntegrationTests.createWithResourcePattern( );1;0;3
+JdbcNamespaceIntegrationTests.createAndDestroyNestedWithH2( );1;0;10
+JdbcNamespaceIntegrationTests.createWithEndingsNested( );1;0;3
+JdbcNamespaceIntegrationTests.createAndDestroyNestedWithHsql( );1;0;10
+JdbcNamespaceIntegrationTests.createWithAnonymousDataSourceAndDefaultDatabaseName( );1;0;4
+JdbcNamespaceIntegrationTests.createEmbeddedDatabase( );1;0;3
+JdbcNamespaceIntegrationTests.createWithGeneratedDatabaseName( );1;2;6
+JdbcNamespaceIntegrationTests.assertCorrectSetupForSingleDataSource( String file , Predicate < String > urlPredicate );1;0;9
+JdbcNamespaceIntegrationTests.initializeWithCustomSeparator( );1;0;3
+JdbcNamespaceIntegrationTests.createEmbeddedDatabaseAgain( );1;0;3
+JdbcNamespaceIntegrationTests.multipleDataSourcesHaveDifferentDatabaseNames( );1;0;7
+JdbcNamespaceIntegrationTests.createWithEndings( );1;0;3
+JdbcNamespaceIntegrationTests.assertCorrectSetup( String file , String ... dataSources );1;0;3
+JdbcNamespaceIntegrationTests.assertBeanPropertyValueOf( String propertyName , String expected , DefaultListableBeanFactory factory );1;0;6
+JdbcNamespaceIntegrationTests.context( String file );1;0;3
+JdbcNamespaceIntegrationTests.assertCorrectSetupAndCloseContext( String file , int count , String ... dataSources );2;0;11
+JdbcNamespaceIntegrationTests.embeddedWithCustomSeparator( );1;0;3
+JdbcNamespaceIntegrationTests.createWithImplicitDatabaseName( );1;0;3
+JdbcNamespaceIntegrationTests.assertNumRowsInTestTable( JdbcTemplate template , int count );1;0;3
+JdbcNamespaceIntegrationTests.createAndDestroy( );1;0;10
+JdbcNamespaceIntegrationTests.createWithExplicitDatabaseName( );1;0;3

@@ -1,0 +1,80 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractFileObject.exists( );1;1;3
+AbstractFileObject.getRandomAccessContent( final RandomAccessMode mode );8;4;32
+AbstractFileObject.isReadable( );3;0;17
+AbstractFileObject.isContentOpen( );2;1;7
+AbstractFileObject.getOutputStream( );1;0;3
+AbstractFileObject.createFile( );6;3;25
+AbstractFileObject.copyFrom( final FileObject file , final FileSelector selector );8;5;34
+AbstractFileObject.doGetAttributes( );1;0;3
+AbstractFileObject.AbstractFileObject( final FileName name , final AbstractFileSystem fs );1;0;5
+AbstractFileObject.doAttach( );1;0;2
+AbstractFileObject.canRenameTo( FileObject newfile );2;1;7
+AbstractFileObject.resolveFile( FileName child );1;0;3
+AbstractFileObject.notifyAllStreamsClosed( );1;0;2
+AbstractFileObject.doDetach( );1;0;2
+AbstractFileObject.resolveFile( final String path );1;0;4
+AbstractFileObject.detach( );2;0;19
+AbstractFileObject.getInputStream( );5;0;22
+AbstractFileObject.doDelete( );1;0;3
+AbstractFileObject.doRemoveAttribute( final String atttrName );1;0;3
+AbstractFileObject.handleChanged( );1;0;3
+AbstractFileObject.doIsHidden( );1;0;3
+AbstractFileObject.handleDelete( );2;0;13
+AbstractFileObject.getContent( );2;1;11
+AbstractFileObject.getFileSystem( );1;0;3
+AbstractFileObject.endOutput( );2;1;10
+AbstractFileObject.getFileContentInfoFactory( );1;0;3
+AbstractFileObject.doGetCertificates( );1;0;3
+AbstractFileObject.isWriteable( );4;1;22
+AbstractFileObject.doGetRandomAccessContent( final RandomAccessMode mode );1;0;3
+AbstractFileObject.attach( );3;0;18
+AbstractFileObject.isHidden( );3;0;17
+AbstractFileObject.getOutputStream( boolean bAppend );7;4;26
+AbstractFileObject.getType( );4;2;22
+AbstractFileObject.getChild( final String name );3;2;12
+AbstractFileObject.createFolder( );6;2;31
+AbstractFileObject.notifyParent( FileName childName , FileType newType );4;3;14
+AbstractFileObject.onChildrenChanged( FileName child , FileType newType );1;0;2
+AbstractFileObject.refresh( );2;0;10
+AbstractFileObject.getParent( );4;3;21
+AbstractFileObject.getName( );1;0;3
+AbstractFileObject.resolveFiles( FileName [ ] children );3;3;12
+AbstractFileObject.deleteSelf( );3;0;19
+AbstractFileObject.doCreateFolder( );1;0;3
+AbstractFileObject.childrenChanged( FileName childName , FileType newType );5;4;20
+AbstractFileObject.doSetLastModTime( final long modtime );1;0;4
+AbstractFileObject.findFiles( final FileSelector selector , final boolean depthwise , final List selected );3;0;17
+AbstractFileObject.findFiles( final FileSelector selector );2;1;9
+AbstractFileObject.holdObject( Object strongRef );2;1;7
+AbstractFileObject.doListChildrenResolved( );1;0;3
+AbstractFileObject.doGetOutputStream( boolean bAppend );1;0;3
+AbstractFileObject.toString( );1;0;3
+AbstractFileObject.doIsSameFile( FileObject destFile );1;0;3
+AbstractFileObject.doGetLastModifiedTime( );1;0;3
+AbstractFileObject.doIsReadable( );1;0;3
+AbstractFileObject.injectType( FileType fileType );1;0;3
+AbstractFileObject.onChange( );1;0;2
+AbstractFileObject.isSameFile( FileObject destFile );1;0;4
+AbstractFileObject.traverse( final DefaultFileSelectorInfo fileInfo , final FileSelector selector , final boolean depthwise , final List selected );6;4;29
+AbstractFileObject.getFileOperations( );2;1;7
+AbstractFileObject.resolveFile( final String name , final NameScope scope );1;0;3
+AbstractFileObject.moveTo( FileObject destFile );14;8;54
+AbstractFileObject.delete( final FileSelector selector );5;5;20
+AbstractFileObject.doSetLastModifiedTime( final long modtime );1;0;3
+AbstractFileObject.handleCreate( final FileType newType );2;0;13
+AbstractFileObject.extractNames( FileObject [ ] objects );3;3;12
+AbstractFileObject.removeChildrenCache( );1;0;3
+AbstractFileObject.doRename( FileObject newfile );1;0;3
+AbstractFileObject.isAttached( );1;0;3
+AbstractFileObject.doIsWriteable( );1;0;3
+AbstractFileObject.run( );1;1;4
+AbstractFileObject.getURL( );2;0;18
+AbstractFileObject.doCreateFileContent( );1;0;3
+AbstractFileObject.finalize( );1;0;4
+AbstractFileObject.close( );5;2;27
+AbstractFileObject.childrenChanged( );1;0;3
+AbstractFileObject.delete( );1;1;3
+AbstractFileObject.doSetAttribute( final String atttrName , final Object value );1;0;3
+AbstractFileObject.setFileType( FileType type );4;3;14
+AbstractFileObject.getChildren( );11;7;63

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MyRoleMessageExchangeImpl.invokeBlocking( );1;0;3
+MyRoleMessageExchangeImpl.getServiceName( );1;0;3
+MyRoleMessageExchangeImpl.cloneMessage( Message message );3;0;13
+MyRoleMessageExchangeImpl.getClientId( );1;0;3
+MyRoleMessageExchangeImpl.invokeTransacted( );1;0;3
+MyRoleMessageExchangeImpl.doInvoke( );4;2;18
+MyRoleMessageExchangeImpl.load( MessageExchangeDAO dao );2;1;5
+MyRoleMessageExchangeImpl.getFailureType( );3;3;5
+MyRoleMessageExchangeImpl.getCorrelationStatus( );1;0;3
+MyRoleMessageExchangeImpl.complete( );1;0;2
+MyRoleMessageExchangeImpl.save( MessageExchangeDAO dao );3;1;13
+MyRoleMessageExchangeImpl.setRequest( final Message request );1;0;4
+MyRoleMessageExchangeImpl.MyRoleMessageExchangeImpl( ODEProcess process , String mexId , PartnerLinkModel oplink , Operation operation , QName callee );2;1;4
+MyRoleMessageExchangeImpl.invokeReliable( );1;0;3
+MyRoleMessageExchangeImpl.invokeAsync( );1;0;3
+MyRoleMessageExchangeImpl.toString( );2;0;7

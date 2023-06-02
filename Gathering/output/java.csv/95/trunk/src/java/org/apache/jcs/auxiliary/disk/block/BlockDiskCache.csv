@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BlockDiskCache.run( );2;0;10
+BlockDiskCache.getAuxiliaryCacheAttributes( );1;0;3
+BlockDiskCache.reset( );5;2;34
+BlockDiskCache.getStatistics( );3;1;55
+BlockDiskCache.freeBlocks( int [ ] blocksToFree );1;0;3
+BlockDiskCache.getSize( );1;0;3
+BlockDiskCache.processUpdate( ICacheElement element );7;8;41
+BlockDiskCache.disposeInternal( );5;4;33
+BlockDiskCache.processDispose( );3;1;26
+BlockDiskCache.processGetMatching( String pattern );4;2;32
+BlockDiskCache.processRemoveAll( );2;0;11
+BlockDiskCache.processGet( Serializable key );7;6;41
+BlockDiskCache.BlockDiskCache( BlockDiskCacheAttributes cacheAttributes );8;8;45
+BlockDiskCache.processRemove( Serializable key );16;9;76
+BlockDiskCache.getGroupKeys( String groupName );5;2;25
+BlockDiskCache.verifyDisk( );5;4;27
+BlockDiskCache.getDiskLocation( );1;0;3
+BlockDiskCache.getStats( );1;0;3

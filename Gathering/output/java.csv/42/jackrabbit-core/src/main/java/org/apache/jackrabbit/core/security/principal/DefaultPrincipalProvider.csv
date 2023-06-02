@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultPrincipalProvider.collectGroupMembership( Principal princ );4;1;21
+DefaultPrincipalProvider.findPrincipals( String simpleFilter , int searchType );4;0;17
+DefaultPrincipalProvider.getGroupMembership( Principal userPrincipal );4;3;15
+DefaultPrincipalProvider.providePrincipal( String principalName );4;1;15
+PrincipalIteratorImpl.seekNext( );4;0;17
+DefaultPrincipalProvider.onEvent( EventIterator eventIterator );7;5;20
+DefaultPrincipalProvider.findUserPrincipals( String simpleFilter );2;0;11
+DefaultPrincipalProvider.DefaultPrincipalProvider( Session securitySession , UserManagerImpl userManager );2;3;23
+DefaultPrincipalProvider.getPrincipals( int searchType );1;0;3
+PrincipalIteratorImpl.PrincipalIteratorImpl( Iterator authorizableItr , boolean addEveryone );1;0;5
+DefaultPrincipalProvider.canReadPrincipal( Session session , Principal principal );1;0;4
+DefaultPrincipalProvider.findPrincipals( String simpleFilter );1;0;3
+DefaultPrincipalProvider.findGroupPrincipals( final String simpleFilter );2;0;12
+DefaultPrincipalProvider.close( );1;0;4

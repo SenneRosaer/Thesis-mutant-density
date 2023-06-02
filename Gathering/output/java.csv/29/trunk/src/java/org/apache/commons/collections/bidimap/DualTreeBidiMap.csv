@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DualTreeBidiMap.DualTreeBidiMap( Comparator comparator );1;0;4
+BidiOrderedMapIterator.next( );1;0;4
+ViewMap.subMap( Object fromKey , Object toKey );1;0;3
+BidiOrderedMapIterator.hasPrevious( );1;0;3
+DualTreeBidiMap.tailMap( Object fromKey );1;0;4
+DualTreeBidiMap.lastKey( );1;0;3
+DualTreeBidiMap.nextKey( Object key );4;0;15
+BidiOrderedMapIterator.toString( );2;1;7
+ViewMap.clear( );2;0;6
+BidiOrderedMapIterator.getValue( );2;1;6
+DualTreeBidiMap.DualTreeBidiMap( Map normalMap , Map reverseMap , BidiMap inverseBidiMap );1;0;4
+DualTreeBidiMap.writeObject( ObjectOutputStream out );1;0;4
+DualTreeBidiMap.inverseSortedBidiMap( );1;0;3
+BidiOrderedMapIterator.previous( );1;0;4
+DualTreeBidiMap.subMap( Object fromKey , Object toKey );1;0;4
+DualTreeBidiMap.headMap( Object toKey );1;0;4
+DualTreeBidiMap.previousKey( Object key );4;0;14
+BidiOrderedMapIterator.reset( );1;0;4
+DualTreeBidiMap.orderedMapIterator( );1;0;3
+ViewMap.headMap( Object toKey );1;0;3
+ViewMap.ViewMap( DualTreeBidiMap bidi , SortedMap sm );1;0;4
+DualTreeBidiMap.DualTreeBidiMap( Map map );1;0;5
+ViewMap.tailMap( Object fromKey );1;0;3
+DualTreeBidiMap.createBidiMap( Map normalMap , Map reverseMap , BidiMap inverseMap );1;0;3
+BidiOrderedMapIterator.BidiOrderedMapIterator( AbstractDualBidiMap parent );1;0;5
+BidiOrderedMapIterator.getKey( );2;1;6
+DualTreeBidiMap.inverseOrderedBidiMap( );1;0;3
+DualTreeBidiMap.firstKey( );1;0;3
+BidiOrderedMapIterator.hasNext( );1;0;3
+DualTreeBidiMap.comparator( );1;0;3
+BidiOrderedMapIterator.setValue( Object value );4;3;10
+ViewMap.containsValue( Object value );1;0;3
+DualTreeBidiMap.DualTreeBidiMap( );1;0;4
+BidiOrderedMapIterator.remove( );1;0;5
+DualTreeBidiMap.readObject( ObjectInputStream in );1;0;7

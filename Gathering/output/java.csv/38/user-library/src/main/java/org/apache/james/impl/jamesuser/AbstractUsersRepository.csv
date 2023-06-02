@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractUsersRepository.setEnableForwarding( boolean enableForwarding );1;0;3
+AbstractUsersRepository.configure( Configuration configuration );1;0;5
+AbstractUsersRepository.addUser( User user );2;0;8
+AbstractUsersRepository.addUser( String name , Object attributes );2;0;10
+AbstractUsersRepository.setEnableAliases( boolean enableAliases );1;0;3
+AbstractUsersRepository.setIgnoreCase( boolean ignoreCase );1;0;3
+AbstractUsersRepository.getMappings( String username , String domain );10;8;33
+AbstractUsersRepository.updateUser( User user );2;1;8

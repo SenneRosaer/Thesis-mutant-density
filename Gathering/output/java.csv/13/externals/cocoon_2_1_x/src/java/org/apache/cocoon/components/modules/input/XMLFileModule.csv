@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLFileModule.flushCache( );2;0;10
+XMLFileModule.getContextObject( Configuration modeConf , Map objectModel );3;0;11
+DocumentHelper.getDocument( ComponentManager manager , SourceResolver resolver , Logger logger );14;8;47
+XMLFileModule.compose( ComponentManager manager );1;0;4
+XMLFileModule.getDocumentHelper( Configuration modeConf );11;8;41
+XMLFileModule.configure( Configuration config );4;3;24
+XMLFileModule.getAttribute( String name , Configuration modeConf , Map objectModel , boolean getValues );12;3;38
+DocumentHelper.DocumentHelper( boolean reload , boolean cache , String src , XMLFileModule instance );1;0;6
+XMLFileModule.getAttributeValues( String name , Configuration modeConf , Map objectModel );2;1;4
+XMLFileModule.getAttribute( String name , Configuration modeConf , Map objectModel );1;0;3
+XMLFileModule.getExpressionCache( Map cache , Object key );2;1;10
+XMLFileModule.dispose( );2;1;11

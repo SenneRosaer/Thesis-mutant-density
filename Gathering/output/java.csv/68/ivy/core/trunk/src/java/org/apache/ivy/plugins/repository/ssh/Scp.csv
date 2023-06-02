@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Scp.readResponse( InputStream is );6;7;17
+***not in a method***;0;1;0
+FileInfo.setLength( long length );1;0;3
+Scp.getFileinfo( String remoteFile );4;2;22
+Scp.get( String remoteFile , String localTarget );1;0;5
+Scp.receiveStream( Channel channel , String file , OutputStream targetStream );15;12;69
+FileInfo.getLastModified( );1;0;3
+FileInfo.setLastModified( long lastModified );1;0;3
+FileInfo.getLength( );1;0;3
+Scp.get( String remoteFile , OutputStream localTarget );5;4;19
+Scp.put( String localFile , String remoteTargetDir , String remoteTargetName , String mode );12;14;35
+Scp.Scp( Session session );2;1;6
+Scp.sendFile( Channel channel , String localFile , String remoteName , String mode );9;6;55
+FileInfo.getFilename( );1;0;3
+Scp.parseTLine( String line , FileInfo fileInfo );13;25;39
+Scp.parseCLine( String line , FileInfo fileInfo );10;15;36
+Scp.getExecChannel( );1;0;5
+FileInfo.setFilename( String filename );1;0;3
+Scp.receiveLine( InputStream is );5;3;17

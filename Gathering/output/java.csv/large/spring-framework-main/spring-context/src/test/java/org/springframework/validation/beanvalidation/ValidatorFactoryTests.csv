@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ValidatorFactoryTests.withConstraintValidatorFactory( );1;0;9
+ListContainer.getList( );1;0;3
+ValidPerson.setAddressList( List < ValidAddress > addressList );1;0;3
+ValidatorFactoryTests.springValidationWithErrorInSetElement( );1;0;17
+ValidatorFactoryTests.simpleValidation( );3;1;18
+ValidPerson.getAddressList( );1;0;3
+ValidPerson.getAddress( );1;0;3
+ListContainer.addString( String value );1;0;3
+ValidPerson.setAddressSet( Set < ValidAddress > addressSet );1;0;3
+ValidPerson.getAddressSet( );1;0;3
+ValidatorFactoryTests.validationWithOptionalField( );1;0;11
+ValidatorFactoryTests.innerBeanValidation( );1;0;11
+ValidatorFactoryTests.listValidation( );1;0;16
+ValidatorFactoryTests.springValidationWithErrorInListElement( );1;0;17
+MainBeanWithOptional.getInner( );1;0;3
+ValidatorFactoryTests.springValidationWithClassLevel( );1;0;17
+ValidatorFactoryTests.springValidationFieldType( );1;0;15
+ValidPerson.getName( );1;0;3
+ValidatorFactoryTests.withCustomInitializer( );1;0;9
+ValidAddress.getStreet( );1;0;3
+InnerBean.setValue( String value );1;0;3
+ValidAddress.setStreet( String street );1;0;3
+InnerBean.getValue( );1;0;3
+ValidatorFactoryTests.simpleValidationWithClassLevel( );2;0;15
+ValidatorFactoryTests.springValidationWithAutowiredValidator( );1;0;19
+NameAddressValidator.isValid( ValidPerson value , ConstraintValidatorContext context );5;5;11
+ValidPerson.setAddress( ValidAddress address );1;0;3
+ValidatorFactoryTests.simpleValidationWithCustomProvider( );3;1;19
+ValidatorFactoryTests.springValidation( );1;0;27
+NotXListValidator.initialize( NotXList constraintAnnotation );1;0;2
+InnerValidator.initialize( InnerValid constraintAnnotation );1;0;2
+ValidPerson.setName( String name );1;0;3
+InnerValidator.isValid( InnerBean bean , ConstraintValidatorContext context );2;1;9
+NotXListValidator.isValid( List < String > list , ConstraintValidatorContext context );3;2;12
+NameAddressValidator.initialize( NameAddressValid constraintAnnotation );1;0;2
+MainBean.getInner( );1;0;3

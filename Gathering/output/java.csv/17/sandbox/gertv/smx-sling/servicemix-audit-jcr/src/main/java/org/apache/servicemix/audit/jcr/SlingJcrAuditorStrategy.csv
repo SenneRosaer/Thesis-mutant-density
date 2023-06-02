@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SlingJcrAuditorStrategy.getMessageFlowBaseNode( Session session );1;0;5
+SlingJcrAuditorStrategy.addNormalizedMessages( Node parent , String type , NormalizedMessage message );4;1;16
+SlingJcrAuditorStrategy.getCorrelationIdNode( Node parent , String corr_id , String id );3;1;19
+SlingJcrAuditorStrategy.getNormalizedMessageContent( NormalizedMessage message );1;0;4
+SlingJcrAuditorStrategy.processExchange( MessageExchange messageExchange , Session session );4;2;23
+SlingJcrAuditorStrategy.addNormalizedMessages( Node node , MessageExchange exchange );4;3;11
+SlingJcrAuditorStrategy.getNodeForExchange( MessageExchange exchange , Session session );2;0;17
+SlingJcrAuditorStrategy.createOrGet( Node exchanges , String path );2;0;10

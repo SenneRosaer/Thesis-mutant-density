@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WSRPAdapter.getWsrpConfiguration( );1;0;4
+WSRPAdapter.setConfigLocation( String location );1;0;3
+WSRPAdapter.getPossibleCopletModes( CopletInstance copletInstanceData );11;9;49
+WSRPAdapter.inform( WSRPEvent event );13;7;58
+WSRPAdapter.setProperties( Properties properties );1;0;3
+WSRPAdapter.setCurrentCopletInstanceData( CopletInstance coplet );1;0;3
+WSRPAdapter.init( );1;0;7
+WSRPAdapter.login( CopletInstance coplet );8;5;61
+FormRewritingHandler.FormRewritingHandler( ContentHandler ch );2;0;6
+WSRPAdapter.getPortletInstanceKey( PortletKey key , CopletInstance coplet , String userName );1;0;6
+WSRPAdapter.setSourceResolver( SourceResolver sourceResolver );1;0;3
+WSRPAdapter.getPossibleWindowStates( CopletInstance copletInstanceData );11;9;49
+WSRPAdapter.createObject( String className );5;0;18
+FormRewritingHandler.startElement( String uri , String loc , String raw , Attributes a );5;4;26
+WSRPAdapter.logout( CopletInstance coplet );3;1;24
+WSRPAdapter.performBlockingInteraction( WSRPPortlet portlet , SimplePortletWindowSession windowSession , User user , Request request );8;6;30
+WSRPAdapter.getCurrentCopletInstanceData( );1;0;3
+WSRPAdapter.getSimplePortletWindowSession( WSRPPortlet portlet , String portletInstanceKey , User user );6;4;32
+WSRPAdapter.getTitle( CopletInstance copletInstanceData );4;3;14
+WSRPAdapter.destroy( );3;1;13
+WSRPAdapter.getMarkupContext( WSRPPortlet portlet , SimplePortletWindowSession windowSession , User user );4;4;13
+WSRPAdapter.setServiceManager( ServiceManager manager );1;0;3
+WSRPAdapter.getConsumerEnvironment( );1;0;3
+WSRPAdapter.setUserContextProvider( UserContextProvider userContextProvider );1;0;3
+WSRPAdapter.process( RequestProcessorAspectContext context );5;4;20
+WSRPAdapter.checkInitialized( );6;2;23
+WSRPAdapter.addProducer( ProducerDescription desc );1;0;3
+WSRPAdapter.streamContent( CopletInstance coplet , ContentHandler contentHandler );11;7;47
+WSRPAdapter.getAdapterConfiguration( );1;0;3

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultSubscriptionRegistryTests.registerSubscriptionWithSelectorNotSupported( );2;0;16
+DefaultSubscriptionRegistryTests.registerSubscription( );1;0;10
+DefaultSubscriptionRegistryTests.cacheLimitExceeded( );1;0;11
+DefaultSubscriptionRegistryTests.registerSubscriptionWithSelector( );2;0;18
+DefaultSubscriptionRegistryTests.registerSubscriptionWithDestinationPattern( );1;0;11
+DefaultSubscriptionRegistryTests.unregisterAllSubscriptionsNoMatch( );1;0;3
+DefaultSubscriptionRegistryTests.sort( List < String > list );1;0;4
+DefaultSubscriptionRegistryTests.registerSubscriptionWithDestinationPatternRegex( );2;0;20
+DefaultSubscriptionRegistryTests.registerSubscriptionInvalidInput( );1;0;17
+DefaultSubscriptionRegistryTests.registerSubscriptionTwiceAndUnregister( );1;0;17
+DefaultSubscriptionRegistryTests.registerSubscriptionMultipleSessions( );3;0;16
+DefaultSubscriptionRegistryTests.registerSameSubscriptionTwice( );1;0;11
+DefaultSubscriptionRegistryTests.registerSubscriptionOneSession( );2;0;12
+DefaultSubscriptionRegistryTests.subscribeMessage( String sessionId , String subscriptionId , String destination );1;0;3
+DefaultSubscriptionRegistryTests.unregisterAllSubscriptions( );3;0;16
+DefaultSubscriptionRegistryTests.createMessage( String destination );1;0;5
+DefaultSubscriptionRegistryTests.registerSubscriptionsWithSimpleAndPatternDestinations( );2;0;50
+DefaultSubscriptionRegistryTests.findSubscriptionsReturnsMapSafeToIterate( );1;0;11
+DefaultSubscriptionRegistryTests.findSubscriptionsNoMatches( );1;0;5
+DefaultSubscriptionRegistryTests.unregisterSubscription( );3;0;18
+DefaultSubscriptionRegistryTests.unsubscribeMessage( String sessionId , String subscriptionId );1;0;6
+DefaultSubscriptionRegistryTests.subscribeMessage( String sessionId , String subscriptionId , String dest , String selector );3;2;12
+DefaultSubscriptionRegistryTests.registerAndUnregisterMultipleDestinations( );1;0;25
+DefaultSubscriptionRegistryTests.findSubscriptionsReturnsMapSafeToIterateIncludingValues( );1;0;11

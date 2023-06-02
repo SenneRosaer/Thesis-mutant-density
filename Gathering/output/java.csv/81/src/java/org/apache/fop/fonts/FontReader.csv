@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FontReader.setFontEmbedPath( String path );1;0;3
+FontReader.setResolver( FontResolver resolver );1;0;3
+FontReader.setDocumentLocator( Locator locator );1;0;3
+FontReader.startElement( String uri , String localName , String qName , Attributes attributes );14;0;52
+FontReader.characters( char [ ] ch , int start , int length );1;0;3
+FontReader.setKerningEnabled( boolean enabled );1;0;3
+FontReader.createFont( InputSource source );6;1;28
+FontReader.endElement( String uri , String localName , String qName );28;7;69
+FontReader.FontReader( InputSource source );1;0;3
+FontReader.startDocument( );1;0;2
+FontReader.getFont( );1;0;3
+FontReader.getInt( String str );2;0;9

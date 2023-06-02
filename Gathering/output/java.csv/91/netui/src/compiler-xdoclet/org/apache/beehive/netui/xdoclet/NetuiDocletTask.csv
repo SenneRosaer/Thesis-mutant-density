@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BuildMessage.BuildMessage( String message , int line , boolean error );1;0;5
+NetuiDocletTask.addError( String error , SourcePosition sourcePosition );1;1;6
+BuildMessage.isError( );1;0;3
+BuildMessage.getMessage( );1;0;3
+BuildMessage.getLine( );1;0;3
+NetuiDocletTask.setWebcontentdir( File file );1;0;3
+NetuiDocletTask.addWarning( String warning , SourcePosition sourcePosition );1;1;6
+NetuiDocletTask.addWarning( String warning , String sourceFile , int line );2;1;9
+NetuiDocletTask.start( );13;11;74
+NetuiDocletTask.setSourcepath( String sourcePath );1;0;3
+NetuiDocletTask.validateOptions( );2;1;7
+NetuiDocletTask.addError( String error , String sourceFile , int line );2;1;9

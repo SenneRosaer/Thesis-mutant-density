@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BridgeMethodResolver.findGenericDeclaration( Method bridgeMethod );7;6;12
+BridgeMethodResolver.isResolvedTypeMatch( Method genericMethod , Method candidateMethod , Class < ? > declaringClass );8;5;20
+BridgeMethodResolver.isVisibilityBridgeMethodPair( Method bridgeMethod , Method bridgedMethod );4;4;8
+BridgeMethodResolver.searchInterfaces( Class < ? > [ ] interfaces , Method bridgeMethod );6;4;15
+BridgeMethodResolver.isBridgeMethodFor( Method bridgeMethod , Method candidateMethod , Class < ? > declaringClass );3;2;7
+BridgeMethodResolver.findBridgedMethod( Method bridgeMethod );6;5;22
+BridgeMethodResolver.searchForMatch( Class < ? > type , Method bridgeMethod );2;0;8
+BridgeMethodResolver.isBridgedCandidateFor( Method candidateMethod , Method bridgeMethod );3;4;5
+BridgeMethodResolver.searchCandidates( List < Method > candidateMethods , Method bridgeMethod );7;2;18
+BridgeMethodResolver.BridgeMethodResolver( );1;0;2

@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+POP3Handler.getUserMailbox( );1;0;3
+POP3Handler.getUser( );1;0;3
+POP3Handler.getOutputStream( );1;0;3
+POP3Handler.getRemoteHost( );1;0;3
+POP3Handler.clearResponseBuffer( );1;0;5
+POP3Handler.setUser( String userID );1;0;3
+POP3Handler.setBackupUserMailbox( List backupUserMailbox );1;0;3
+POP3Handler.setHandlerChain( POP3HandlerChain handlerChain );1;0;3
+POP3Handler.getBackupUserMailbox( );1;0;3
+POP3Handler.getWatchdog( );1;0;3
+POP3Handler.resetHandler( );5;2;21
+POP3Handler.setConfigurationData( Object theData );2;0;7
+POP3Handler.errorHandler( RuntimeException e );2;0;8
+POP3Handler.writeResponse( String respString );2;1;6
+POP3Handler.getCommandName( );1;0;3
+POP3Handler.readCommandLine( );4;1;11
+POP3Handler.setHandlerState( int handlerState );1;0;3
+POP3Handler.getUserInbox( );1;0;3
+POP3Handler.setProtocolHandlerHelper( ProtocolHandlerHelper phh );1;0;3
+POP3Handler.setUserInbox( MailRepository userInbox );1;0;3
+POP3Handler.getHandlerState( );1;0;3
+POP3Handler.setUserMailbox( List userMailbox );1;0;3
+POP3Handler.getRemoteIPAddress( );1;0;3
+POP3Handler.getConfigurationData( );1;0;3
+POP3Handler.getCommandArgument( );1;0;3
+POP3Handler.endSession( );1;0;3
+POP3Handler.resetState( );1;0;3
+POP3Handler.handleProtocol( );13;12;75
+POP3Handler.isSessionEnded( );1;0;3
+POP3Handler.getResponseBuffer( );1;0;3
+POP3Handler.getState( );1;0;3

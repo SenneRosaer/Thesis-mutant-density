@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HeadersRequestCondition.combine( HeadersRequestCondition other );5;1;14
+HeadersRequestCondition.getValueMatchCount( Set < HeaderExpression > expressions );4;4;9
+HeaderExpression.matchValue( ServerWebExchange exchange );2;2;3
+HeadersRequestCondition.getMatchingCondition( ServerWebExchange exchange );4;1;11
+HeaderExpression.matchName( ServerWebExchange exchange );1;1;3
+HeaderExpression.parseValue( String valueExpression );1;0;3
+HeadersRequestCondition.getExpressions( );1;0;3
+HeaderExpression.isCaseSensitiveName( );1;0;3
+HeadersRequestCondition.HeadersRequestCondition( String ... headers );1;0;3
+HeadersRequestCondition.getToStringInfix( );1;0;3
+HeadersRequestCondition.compareTo( HeadersRequestCondition other , ServerWebExchange exchange );2;3;7
+HeadersRequestCondition.getContent( );1;0;3
+HeadersRequestCondition.parseExpressions( String ... headers );7;4;14
+HeaderExpression.HeaderExpression( String expression );1;0;3
+HeadersRequestCondition.HeadersRequestCondition( Set < HeaderExpression > conditions );1;0;3

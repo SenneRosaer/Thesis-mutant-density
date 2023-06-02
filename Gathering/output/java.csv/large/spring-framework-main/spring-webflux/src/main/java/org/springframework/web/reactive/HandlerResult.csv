@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HandlerResult.getReturnType( );1;0;3
+HandlerResult.getModel( );1;0;3
+HandlerResult.hasExceptionHandler( );1;1;3
+HandlerResult.getReturnTypeSource( );1;0;3
+HandlerResult.getHandler( );1;0;3
+HandlerResult.getExceptionHandler( );1;0;3
+HandlerResult.HandlerResult( Object handler , @ Nullable Object returnValue , MethodParameter returnType );1;0;3
+HandlerResult.HandlerResult( Object handler , @ Nullable Object returnValue , MethodParameter returnType , @ Nullable BindingContext context );2;1;8
+HandlerResult.getReturnValue( );1;0;3
+HandlerResult.setExceptionHandler( Function < Throwable , Mono < HandlerResult > > function );1;0;5
+HandlerResult.getBindingContext( );1;0;3
+HandlerResult.applyExceptionHandler( Throwable failure );2;1;4
+HandlerResult.setExceptionHandler( DispatchExceptionHandler exceptionHandler );1;0;4

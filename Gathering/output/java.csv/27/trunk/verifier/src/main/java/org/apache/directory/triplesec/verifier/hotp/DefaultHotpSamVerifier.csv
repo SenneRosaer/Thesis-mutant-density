@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultHotpSamVerifier.setUserContext( DirContext userContext );1;0;3
+DefaultHotpSamVerifier.findHotpMonitor( );7;3;33
+DefaultHotpSamVerifier.setHotpMonitor( HotpMonitor monitor );2;1;10
+DefaultHotpSamVerifier.getWindow( KerberosPrincipal principal , ServerProfile p , int size );2;4;10
+DefaultHotpSamVerifier.startup( );4;2;19
+DefaultHotpSamVerifier.shutdown( );1;0;6
+DefaultHotpSamVerifier.verify( KerberosPrincipal principal , byte [ ] sad );11;14;72
+DefaultHotpSamVerifier.getResychParameters( ServerProfile p );2;1;9
+DefaultHotpSamVerifier.setIntegrityChecker( KeyIntegrityChecker keyChecker );1;0;3
+DefaultHotpSamVerifier.getHotpMonitor( );1;0;3
+DefaultHotpSamVerifier.getSamType( );1;0;3
+DefaultHotpSamVerifier.getStore( );1;0;3

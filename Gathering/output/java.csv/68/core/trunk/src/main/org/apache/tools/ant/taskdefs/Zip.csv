@@ -1,0 +1,65 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Zip.zipDir( File dir , ZipOutputStream zOut , String vPath , int mode , ZipExtraField [ ] extra );9;7;30
+Zip.setRoundUp( boolean r );1;0;3
+Zip.isCompress( );1;0;3
+Zip.finalizeZipOutputStream( ZipOutputStream zOut );1;0;2
+Zip.isEmpty( Resource [ ] [ ] r );3;3;8
+Zip.setComment( String comment );1;0;3
+Zip.grabNonFileSetResources( ResourceCollection [ ] rcs );5;3;20
+Zip.getDestFile( );1;0;3
+Zip.zipFile( InputStream in , ZipOutputStream zOut , String vPath , long lastModified , File fromArchive , int mode );13;14;63
+Zip.setLevel( int level );1;0;3
+Zip.setFilesonly( boolean f );1;0;3
+Zip.hasUpdatedFile( );1;0;3
+Zip.setCompress( boolean c );1;0;3
+ArchiveState.ArchiveState( boolean state , Resource [ ] [ ] r );1;0;4
+Zip.isAddingNewFiles( );1;0;3
+Zip.isInUpdateMode( );1;0;3
+Zip.setDuplicate( Duplicate df );1;0;3
+Zip.getLevel( );1;0;3
+Zip.processGroupFilesets( );3;4;18
+Zip.processDoUpdate( );3;2;7
+Zip.addResources( FileSet fileset , Resource [ ] resources , ZipOutputStream zOut );38;51;131
+Zip.getEncoding( );1;0;3
+Zip.getResourcesToAdd( ResourceCollection [ ] rcs , File zipFile , boolean needsUpdate );7;8;32
+Zip.execute( );2;0;10
+Zip.addFileset( FileSet set );1;0;3
+Zip.initZipOutputStream( ZipOutputStream zOut );1;0;2
+Zip.setKeepCompression( boolean keep );1;0;3
+Zip.setBasedir( File baseDir );1;0;3
+ArchiveState.isOutOfDate( );1;0;3
+Zip.setEncoding( String encoding );1;0;3
+Zip.getResourcesToAdd( FileSet [ ] filesets , File zipFile , boolean needsUpdate );31;32;95
+Zip.checkAttributesAndElements( );10;11;18
+Zip.setUpdate( boolean c );1;0;4
+***not in a method***;0;1;0
+ArchiveState.getResourcesToAdd( );1;0;3
+Zip.cleanUp( );2;0;13
+Zip.grabResources( FileSet [ ] filesets );12;14;34
+Zip.addResources( ResourceCollection rc , Resource [ ] resources , ZipOutputStream zOut );11;7;44
+Zip.zipFile( File file , ZipOutputStream zOut , String vPath , int mode );3;1;14
+Zip.closeZout( ZipOutputStream zOut , boolean success );4;1;12
+Zip.executeMain( );28;32;117
+Zip.zipDir( File dir , ZipOutputStream zOut , String vPath , int mode );1;0;3
+Zip.getComment( );1;0;3
+Zip.setWhenempty( WhenEmpty we );1;0;3
+Zip.addZipGroupFileset( FileSet set );1;0;3
+Zip.setZipfile( File zipFile );1;0;3
+Zip.getNonFileSetResourcesToAdd( ResourceCollection [ ] rcs , File zipFile , boolean needsUpdate );16;16;44
+Zip.isFirstPass( );2;2;3
+Duplicate.getValues( );1;0;3
+Zip.setPreserve0Permissions( boolean b );1;0;3
+Zip.addZipfileset( ZipFileSet set );1;0;3
+Zip.createEmptyZip( File zipFile );3;1;23
+WhenEmpty.getValues( );1;0;3
+Zip.reset( );1;0;13
+ArchiveState.isWithoutAnyResources( );5;5;13
+Zip.logOnFirstPass( String msg , int level );2;0;5
+Zip.renameFile( );3;0;18
+Zip.setDestFile( File destFile );1;0;3
+Zip.selectFileResources( Resource [ ] orig );5;5;21
+Zip.getZipScanner( );2;1;8
+Zip.addParentDirs( File baseDir , String entry , ZipOutputStream zOut , String prefix , int dirMode );6;10;23
+Zip.setFile( File file );1;0;3
+Zip.getPreserve0Permissions( );1;0;3
+Zip.add( ResourceCollection a );1;0;3

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClickatellSmsSession.invalidate( );1;0;3
+ClickatellSmsSessionFactory.getSmsSession( String user , String password , String applicationId );1;0;9
+ClickatellSmsSessionFactory.getSmsSession( String user , String password , String applicationId , SmsTransportType transport , boolean enableKeepAlive );1;0;3
+ClickatellSmsSession.setSessionId( String sessionId );1;0;3
+ClickatellSmsSession.setUser( String user );1;0;3
+ClickatellSmsSession.setApplicationId( String applicationId );1;0;3
+SessionKeepAlive.run( );4;0;26
+ClickatellSmsSessionFactory.getSmsSession( String user , String password , String applicationId , boolean enableKeepAlive );1;0;3
+ClickatellSmsSessionFactory.getSmsSession( String user , String password , String applicationId , SmsTransportType transport );1;0;3
+ClickatellSmsSessionFactory.getSmsSession( String sessionId );1;0;3
+ClickatellSmsSessionFactory.authenticate( String user , String password , String applicationId , SmsTransportType transport );1;1;14
+ClickatellSmsSessionFactory.ping( SmsSession session );2;3;14
+ClickatellSmsSession.setKeepAliveEnabled( boolean isKeepAliveEnabled );1;0;3
+ClickatellSmsSession.setTransport( SmsTransportType transport );1;0;3
+ClickatellSmsSession.sendMessage( SmsMessage msg );3;4;24

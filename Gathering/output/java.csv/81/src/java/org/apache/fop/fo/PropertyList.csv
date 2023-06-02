@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropertyList.isInherited( int propId );4;6;11
+PropertyList.setWritingMode( );3;2;8
+PropertyList.isValidPropertyName( String propertyName );3;8;9
+PropertyList.getBorderPaddingBackgroundProps( );1;0;3
+PropertyList.getTextDecorationProps( );1;0;3
+PropertyList.getParentFObj( );2;1;7
+PropertyList.getFromParent( int propId );2;1;7
+PropertyList.getShorthand( int propId );2;1;8
+PropertyList.getInherited( int propId );2;0;7
+PropertyList.getAccessibilityProps( );1;0;3
+PropertyList.findSubPropertyName( String attributeName );2;3;8
+PropertyList.get( int propId );1;0;3
+PropertyList.getHyphenationProps( );1;0;3
+PropertyList.convertAttributeToProperty( Attributes attributes , String attributeName , String attributeValue );12;13;44
+PropertyList.getRelativePositionProps( );1;0;3
+PropertyList.getExplicitOrShorthand( int propId );2;1;7
+PropertyList.addAttributesToList( Attributes attributes );10;12;47
+PropertyList.get( int propId , boolean bTryInherit , boolean bTryDefault );2;3;8
+PropertyList.handleInvalidProperty( QName attr );2;1;6
+PropertyList.getMarginInlineProps( );1;0;3
+PropertyList.getAbsolutePositionProps( );1;0;3
+PropertyList.findMaker( int propId );3;3;7
+PropertyList.findBaseProperty( Attributes attributes , FObj parentFO , int propId , String basePropertyName , PropertyMaker propertyMaker );4;4;13
+PropertyList.getFontProps( );1;0;3
+PropertyList.getNearestSpecified( int propId );3;2;13
+PropertyList.getFObj( );1;0;3
+PropertyList.findBasePropertyName( String attributeName );2;2;8
+PropertyList.getAuralProps( );1;0;4
+PropertyList.getWritingMode( int lrtb , int rltb , int tbrl );4;1;9
+PropertyList.getWritingMode( );1;0;3
+PropertyList.getParentPropertyList( );1;0;3
+PropertyList.getMarginBlockProps( );1;0;3
+PropertyList.makeProperty( int propId );2;1;8
+PropertyList.PropertyList( FObj fObjToAttach , PropertyList parentPropertyList );1;0;4

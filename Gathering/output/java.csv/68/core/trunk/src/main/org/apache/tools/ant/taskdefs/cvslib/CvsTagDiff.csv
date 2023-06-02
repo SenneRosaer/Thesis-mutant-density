@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CvsTagDiff.parseRDiff( File tmpFile );8;5;32
+CvsTagDiff.setIgnoreRemoved( boolean b );1;0;3
+CvsTagDiff.execute( );4;3;37
+CvsTagDiff.doFileWasRemoved( Vector entries , String line );4;5;19
+CvsTagDiff.setPackage( String p );1;0;3
+CvsTagDiff.writeTagDiff( CvsTagEntry [ ] entries );8;5;44
+CvsTagDiff.setEndTag( String s );1;0;3
+CvsTagDiff.validate( );12;16;22
+CvsTagDiff.doFileHasChanged( Vector entries , String line );2;4;18
+CvsTagDiff.setEndDate( String s );1;0;3
+CvsTagDiff.setStartTag( String s );1;0;3
+CvsTagDiff.doFileIsNew( Vector entries , String line );3;5;16
+CvsTagDiff.setStartDate( String s );1;0;3
+CvsTagDiff.setDestFile( File f );1;0;3
+CvsTagDiff.writeTagEntry( Document doc , PrintWriter writer , CvsTagEntry entry );3;2;13
+CvsTagDiff.removePackageName( String line , String [ ] packagePrefixes , int [ ] prefixLengths );5;4;17
+CvsTagDiff.handlePackageNames( );5;4;20

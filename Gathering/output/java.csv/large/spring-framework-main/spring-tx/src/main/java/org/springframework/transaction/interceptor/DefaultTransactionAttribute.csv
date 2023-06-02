@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultTransactionAttribute.DefaultTransactionAttribute( TransactionAttribute other );1;0;3
+DefaultTransactionAttribute.rollbackOn( Throwable ex );2;1;3
+DefaultTransactionAttribute.resolveAttributeStrings( @ Nullable StringValueResolver resolver );8;3;27
+DefaultTransactionAttribute.getLabels( );1;0;3
+DefaultTransactionAttribute.DefaultTransactionAttribute( int propagationBehavior );1;0;3
+DefaultTransactionAttribute.getTimeoutString( );1;0;3
+DefaultTransactionAttribute.getDescriptor( );1;0;3
+DefaultTransactionAttribute.getQualifier( );1;0;3
+DefaultTransactionAttribute.setDescriptor( @ Nullable String descriptor );1;0;3
+DefaultTransactionAttribute.getAttributeDescription( );3;1;10
+DefaultTransactionAttribute.DefaultTransactionAttribute( );1;0;3
+DefaultTransactionAttribute.setQualifier( @ Nullable String qualifier );1;0;3
+DefaultTransactionAttribute.setTimeoutString( @ Nullable String timeoutString );1;0;3
+DefaultTransactionAttribute.setLabels( Collection < String > labels );1;0;3

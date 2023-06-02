@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BundleContextImpl.createFilter( String expr );1;0;4
+BundleContextImpl.getBundle( );1;0;4
+BundleContextImpl.getBundle( long id );1;0;4
+BundleContextImpl.removeServiceListener( ServiceListener l );1;0;4
+BundleContextImpl.getBestServiceReference( ServiceReference [ ] refs );13;14;56
+BundleContextImpl.getServiceReference( String clazz );2;0;13
+BundleContextImpl.checkValidity( );5;0;13
+BundleContextImpl.removeRequirement( );1;0;3
+BundleContextImpl.BundleContextImpl( Logger logger , Felix felix , FelixBundle bundle );1;0;5
+BundleContextImpl.getServiceReferences( String clazz , String filter );1;0;4
+BundleContextImpl.ungetService( ServiceReference ref );2;1;8
+BundleContextImpl.addServiceListener( ServiceListener l );2;0;9
+BundleContextImpl.invalidate( );1;0;3
+BundleContextImpl.getService( ServiceReference ref );8;8;34
+BundleContextImpl.registerService( String clazz , Object svcObj , Dictionary dict );1;0;3
+BundleContextImpl.installBundle( String location , InputStream is );2;1;16
+BundleContextImpl.installBundle( String location );1;0;3
+BundleContextImpl.removeFrameworkListener( FrameworkListener l );1;0;4
+BundleContextImpl.addCapability( );1;0;3
+BundleContextImpl.registerService( String [ ] clazzes , Object svcObj , Dictionary dict );4;4;16
+BundleContextImpl.removeBundleListener( BundleListener l );3;1;13
+BundleContextImpl.getBundles( );1;0;4
+BundleContextImpl.addRequirement( String s );1;0;3
+BundleContextImpl.removeCapability( );1;0;3
+BundleContextImpl.getAllServiceReferences( String clazz , String filter );1;0;4
+BundleContextImpl.addBundleListener( BundleListener l );3;1;13
+BundleContextImpl.getDataFile( String s );1;0;4
+BundleContextImpl.addServiceListener( ServiceListener l , String s );1;0;4
+BundleContextImpl.addFrameworkListener( FrameworkListener l );1;0;4
+BundleContextImpl.getProperty( String name );8;7;18

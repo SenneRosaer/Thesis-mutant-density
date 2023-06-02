@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageUtil.copyFault( MessageExchange exchange );1;0;3
+MessageUtil.transferFaultToFault( MessageExchange source , MessageExchange dest );1;0;3
+***not in a method***;0;2;0
+NormalizedMessageImpl.setProperty( String name , Object value );1;0;3
+MessageUtil.copyIn( MessageExchange exchange );1;0;3
+NormalizedMessageImpl.getPropertyNames( );1;0;3
+NormalizedMessageImpl.getSecuritySubject( );1;0;3
+MessageUtil.transferOutToIn( MessageExchange source , MessageExchange dest );1;0;3
+NormalizedMessageImpl.removeAttachment( String id );1;0;3
+MessageUtil.transferToFault( Fault fault , MessageExchange dest );1;0;3
+MessageUtil.copyOut( MessageExchange exchange );1;0;3
+MessageUtil.transferTo( NormalizedMessage sourceMsg , MessageExchange dest , String name );2;0;5
+NormalizedMessageImpl.getContent( );1;0;3
+MessageUtil.transferOutToOut( MessageExchange source , MessageExchange dest );1;0;3
+NormalizedMessageImpl.setSecuritySubject( Subject sub );1;0;3
+MessageUtil.transferInToOut( MessageExchange source , MessageExchange dest );1;0;3
+NormalizedMessageImpl.getProperty( String name );1;0;3
+NormalizedMessageImpl.getAttachmentNames( );1;0;3
+MessageUtil.transferInToIn( MessageExchange source , MessageExchange dest );1;0;3
+MessageUtil.transferToOut( NormalizedMessage sourceMsg , MessageExchange dest );1;0;3
+MessageUtil.copy( NormalizedMessage source );2;0;7
+NormalizedMessageImpl.getAttachment( String id );1;0;3
+MessageUtil.transfer( NormalizedMessage source , NormalizedMessage dest );3;0;12
+NormalizedMessageImpl.NormalizedMessageImpl( NormalizedMessage message );7;2;30
+MessageUtil.MessageUtil( );1;0;2
+MessageUtil.transferTo( MessageExchange source , MessageExchange dest , String name );2;0;6
+NormalizedMessageImpl.setContent( Source content );1;0;3
+NormalizedMessageImpl.NormalizedMessageImpl( );1;0;2
+NormalizedMessageImpl.addAttachment( String id , DataHandler data );1;0;3
+FaultImpl.FaultImpl( Fault fault );1;0;3
+MessageUtil.transferToIn( NormalizedMessage sourceMsg , MessageExchange dest );1;0;3
+MessageUtil.enableContentRereadability( NormalizedMessage message );8;2;19
+FaultImpl.FaultImpl( );1;0;2

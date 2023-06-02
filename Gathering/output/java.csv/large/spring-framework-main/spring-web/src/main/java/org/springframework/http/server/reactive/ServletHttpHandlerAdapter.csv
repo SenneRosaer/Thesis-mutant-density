@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletHttpHandlerAdapter.getServletPath( );1;0;3
+HttpHandlerAsyncListener.handleTimeoutOrError( AsyncEvent event );1;0;11
+ServletHttpHandlerAdapter.getDataBufferFactory( );1;0;3
+ServletHttpHandlerAdapter.init( ServletConfig config );1;0;3
+HttpHandlerAsyncListener.onTimeout( AsyncEvent event );2;0;8
+HttpHandlerAsyncListener.delegateError( AsyncListener listener , AsyncEvent event );2;0;7
+ServletHttpHandlerAdapter.ServletHttpHandlerAdapter( HttpHandler httpHandler );1;0;4
+ServletHttpHandlerAdapter.runIfAsyncNotComplete( AsyncContext asyncContext , AtomicBoolean isCompleted , Runnable task );4;1;9
+HandlerResultSubscriber.onNext( Void aVoid );1;0;2
+ServletHttpHandlerAdapter.getServletInfo( );1;0;3
+ServletHttpHandlerAdapter.destroy( );1;0;2
+HttpHandlerAsyncListener.onError( AsyncEvent event );3;2;9
+ServletHttpHandlerAdapter.createResponse( HttpServletResponse response , AsyncContext context , ServletServerHttpRequest request );1;0;3
+HandlerResultSubscriber.onError( Throwable ex );3;1;22
+ServletHttpHandlerAdapter.createRequest( HttpServletRequest request , AsyncContext context );1;1;5
+HandlerResultSubscriber.HandlerResultSubscriber( AsyncContext asyncContext , AtomicBoolean completionFlag , String logPrefix );1;0;5
+HttpHandlerAsyncListener.onStartAsync( AsyncEvent event );1;0;2
+HandlerResultSubscriber.run( );2;1;6
+HttpHandlerAsyncListener.delegateComplete( AsyncListener listener , AsyncEvent event );2;0;7
+ServletHttpHandlerAdapter.getServletConfig( );1;0;3
+HttpHandlerAsyncListener.HttpHandlerAsyncListener( AsyncListener requestAsyncListener , AsyncListener responseAsyncListener , Runnable handlerDisposeTask , AtomicBoolean completionFlag , String logPrefix );1;0;7
+HttpHandlerAsyncListener.onComplete( AsyncEvent event );1;0;4
+HttpHandlerAsyncListener.delegateTimeout( AsyncListener listener , AsyncEvent event );2;0;7
+HandlerResultSubscriber.onSubscribe( Subscription subscription );1;0;4
+ServletHttpHandlerAdapter.service( ServletRequest request , ServletResponse response );5;3;36
+ServletHttpHandlerAdapter.setDataBufferFactory( DataBufferFactory dataBufferFactory );1;0;4
+ServletHttpHandlerAdapter.getBufferSize( );1;0;3
+ServletHttpHandlerAdapter.getServletPath( ServletConfig config );7;5;25
+ServletHttpHandlerAdapter.setBufferSize( int bufferSize );1;1;4
+HandlerResultSubscriber.onComplete( );2;0;6

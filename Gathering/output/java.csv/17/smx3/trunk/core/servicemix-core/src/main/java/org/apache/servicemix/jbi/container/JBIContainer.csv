@@ -1,0 +1,122 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JBIContainer.shutdownRegistry( );3;1;25
+JBIContainer.deregisterExternalEndpoint( ComponentNameSpace cns , ServiceEndpoint externalEndpoint );1;0;3
+JBIContainer.getManagementContext( );1;0;3
+JBIContainer.getDeploymentDirPath( );2;1;4
+JBIContainer.containerShutdown( );2;0;7
+JBIContainer.createExecutorFactory( );1;0;3
+JBIContainer.checkInitialized( );2;1;5
+JBIContainer.defaultComponentServiceAndEndpoint( PojoSupport component , ActivationSpec activationSpec );3;2;8
+JBIContainer.setName( String name );1;0;3
+JBIContainer.getEndpointsForService( ComponentContextImpl context , QName serviceName );1;0;3
+JBIContainer.resolveEndpointReference( ComponentContextImpl context , DocumentFragment epr );1;0;3
+JBIContainer.getExternalEndpointsForService( ComponentContextImpl context , QName serviceName );1;0;3
+JBIContainer.getEndpoint( ComponentContextImpl context , QName service , String endpointName );1;0;3
+JBIContainer.getDeploymentService( );1;0;3
+JBIContainer.updateExternalArchive( String location );1;0;3
+JBIContainer.isPersistent( );1;0;3
+JBIContainer.getBroker( );1;0;3
+JBIContainer.setPersistent( boolean persistent );1;0;3
+JBIContainer.getListeners( Class lc );1;0;3
+JBIContainer.isUseMBeanServer( );1;0;3
+JBIContainer.getComponent( String componentName );1;0;3
+JBIContainer.setUseShutdownHook( boolean useShutdownHook );1;0;3
+JBIContainer.getDefaultBroker( );2;1;6
+JBIContainer.createComponentAdaptor( ComponentLifeCycle lifeCycle , ActivationSpec activationSpec );2;0;11
+JBIContainer.sendExchange( MessageExchangeImpl exchange );3;0;9
+JBIContainer.isNotifyStatistics( );1;0;3
+JBIContainer.setExecutorFactory( ExecutorFactory executorFactory );1;0;3
+JBIContainer.run( );1;0;3
+JBIContainer.removeShutdownHook( );3;1;9
+JBIContainer.setRmiPort( int portNum );1;0;3
+JBIContainer.isEmbedded( );1;0;3
+JBIContainer.getTransactionManager( );5;3;15
+JBIContainer.activateComponent( Component component , String componentName );1;0;7
+JBIContainer.setAutoEnlistInTransaction( boolean autoEnlistInTransaction );1;0;3
+JBIContainer.activateComponent( Component component , String description , ActivationSpec activationSpec , boolean pojo , boolean binding , boolean service , String [ ] sharedLibraries );2;1;8
+JBIContainer.start( );4;3;21
+JBIContainer.isUseNewTransactionModel( );1;0;3
+JBIContainer.setEmbedded( boolean embedded );1;0;3
+JBIContainer.getFlowName( );3;2;11
+JBIContainer.getLocalComponentConnectors( );1;0;3
+JBIContainer.setTransactionManager( Object tm );1;0;3
+JBIContainer.setSubscriptionFlowName( String subscriptionFlowName );1;0;3
+JBIContainer.deactivateComponent( String componentName );2;1;13
+JBIContainer.setListeners( EventListener [ ] listeners );1;0;3
+JBIContainer.getRegistry( );1;0;3
+JBIContainer.getExternalEndpoints( ComponentContextImpl context , QName interfaceName );1;0;3
+JBIContainer.shutdownServices( );3;4;7
+JBIContainer.getLogger( String suffix , String resourceBundleName );2;0;7
+JBIContainer.call( );1;0;4
+JBIContainer.deleteComponent( String id );1;0;4
+JBIContainer.getMonitorInterval( );1;0;3
+JBIContainer.setCreateMBeanServer( boolean enableJMX );1;0;3
+JBIContainer.setGeneratedRootDirPrefix( String generatedRootDirPrefix );1;0;3
+JBIContainer.setFlowName( String flowName );1;0;3
+JBIContainer.isMonitorInstallationDirectory( );1;0;3
+JBIContainer.removeListener( EventListener listener );7;0;21
+JBIContainer.createRootDir( );3;3;10
+JBIContainer.setInstallationDirPath( String installationDir );3;3;5
+JBIContainer.getEndpoints( ComponentContextImpl context , QName interfaceName );1;0;3
+JBIContainer.isCreateMBeanServer( );1;0;3
+JBIContainer.setDeploymentExtensions( String deploymentExtensions );1;0;3
+JBIContainer.setGenerateRootDir( boolean generateRootDir );1;0;3
+JBIContainer.isMonitorDeploymentDirectory( );1;0;3
+JBIContainer.getServices( );1;0;3
+JBIContainer.setDeploymentDirPath( String deploymentDir );3;3;5
+JBIContainer.activateComponent( ActivationSpec activationSpec );13;8;47
+JBIContainer.init( );11;8;48
+JBIContainer.activateComponent( File installationDir , Component component , String description , ComponentContextImpl context , ActivationSpec activationSpec , boolean pojo , boolean binding , boolean service , String [ ] sharedLibraries );7;3;28
+JBIContainer.setRootDir( String root );1;0;3
+JBIContainer.registerExternalEndpoint( ComponentNameSpace cns , ServiceEndpoint externalEndpoint );1;0;3
+JBIContainer.isGenerateRootDir( );1;0;3
+JBIContainer.setFlows( Flow [ ] flows );1;0;3
+JBIContainer.setMBeanServer( MBeanServer mbs );1;0;3
+JBIContainer.getNamingContext( );1;0;3
+JBIContainer.shutDown( );2;0;19
+JBIContainer.setMonitorInterval( int monitorInterval );1;0;3
+JBIContainer.setUseNewTransactionModel( boolean useNewTransactionModel );1;0;3
+JBIContainer.installArchive( String url );1;0;3
+JBIContainer.getAutoDeploymentService( );1;0;3
+JBIContainer.getForceShutdown( );1;0;3
+JBIContainer.JBIContainer( );1;0;2
+JBIContainer.getDescription( );1;0;3
+JBIContainer.getRmiPort( );1;0;3
+JBIContainer.getInstallationDirPath( );2;1;4
+JBIContainer.getFlows( );1;0;3
+JBIContainer.createComponentID( );1;0;3
+JBIContainer.setMonitorInstallationDirectory( boolean monitorInstallationDirectory );1;0;3
+JBIContainer.resendExchange( MessageExchange exchange );4;3;23
+JBIContainer.setMonitorDeploymentDirectory( boolean monitorDeploymentDirectory );1;0;3
+JBIContainer.isAutoEnlistInTransaction( );1;0;3
+JBIContainer.activateComponent( File installDir , Component component , String description , ComponentContextImpl context , boolean binding , boolean service , String [ ] sharedLibraries );1;0;7
+JBIContainer.setFlowNames( String flowNames );1;0;3
+JBIContainer.getFlowNames( );1;0;3
+JBIContainer.getSubscriptionFlowName( );1;0;3
+JBIContainer.addListener( EventListener listener );8;0;25
+JBIContainer.updateExternalArchive( String location , boolean autoStart );1;0;3
+JBIContainer.getFlow( );4;4;10
+JBIContainer.getRootDir( );3;1;11
+JBIContainer.getAdminCommandsService( );1;0;3
+JBIContainer.setUseMBeanServer( boolean useMBeanServer );1;0;3
+JBIContainer.addShutdownHook( );2;0;10
+JBIContainer.getClientFactory( );1;0;3
+JBIContainer.setNamingContext( InitialContext ic );1;0;3
+JBIContainer.activateComponent( Component component , ActivationSpec activationSpec );1;0;3
+JBIContainer.setFlow( Flow flow );1;0;3
+JBIContainer.getMBeanServer( );1;0;3
+JBIContainer.isCreateJmxConnector( );1;0;3
+JBIContainer.setBroker( Broker broker );1;0;3
+JBIContainer.setServices( BaseSystemService [ ] services );1;0;3
+JBIContainer.stop( );4;4;21
+JBIContainer.setCreateJmxConnector( boolean createJmxConnector );1;0;3
+JBIContainer.getInstallationService( );1;0;3
+JBIContainer.getDeploymentExtensions( );1;0;3
+JBIContainer.isUseShutdownHook( );1;0;3
+JBIContainer.getEnvironmentContext( );1;0;3
+JBIContainer.setNotifyStatistics( boolean notifyStatistics );1;0;3
+JBIContainer.createComponentAdaptor( MessageExchangeListener listener , ActivationSpec activationSpec );1;0;4
+JBIContainer.getGeneratedRootDirPrefix( );1;0;3
+JBIContainer.getName( );1;0;3
+JBIContainer.setForceShutdown( long forceShutdown );1;0;3
+JBIContainer.getExecutorFactory( );1;0;3

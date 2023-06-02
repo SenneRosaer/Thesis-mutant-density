@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GenerateFeaturesFileMojo.prepare( );5;2;31
+GenerateFeaturesFileMojo.findServicemixBundle( Artifact artifact );6;0;31
+GenerateFeaturesFileMojo.writeProjectDependencyFeatures( PrintStream out );4;1;18
+GenerateFeaturesFileMojo.writeBundle( PrintStream out , Artifact artifact );10;4;41
+GenerateFeaturesFileMojo.getBestVersionForArtifact( Artifact artifact , List < ArtifactVersion > versions );7;4;18
+GenerateFeaturesFileMojo.getDependencies( Artifact artifact );4;1;14
+GenerateFeaturesFileMojo.getReplacement( Artifact artifact );5;1;20
+GenerateFeaturesFileMojo.getStringNames( Properties file );5;1;11
+GenerateFeaturesFileMojo.populateProperties( PrintStream out );3;0;11
+GenerateFeaturesFileMojo.get( Object key );2;1;6
+GenerateFeaturesFileMojo.writeBundle( PrintStream out , String groupId , String artifactId , String version );1;0;10
+GenerateFeaturesFileMojo.isBundle( Artifact artifact );6;1;24
+GenerateFeaturesFileMojo.isValidDependency( Dependency dependency );1;0;3
+GenerateFeaturesFileMojo.writeCurrentProjectFeature( PrintStream out );3;0;14
+GenerateFeaturesFileMojo.execute( );4;1;23
+GenerateFeaturesFileMojo.isProvided( Artifact bundle );4;1;9

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ControlClientAnnotationProcessor.getGenerator( );3;1;12
+ControlClientAnnotationProcessor.generate( Declaration decl );1;0;2
+ControlClientAnnotationProcessor.getMostDerivedControlInterface( InterfaceDeclaration controlIntfOrExt );4;2;14
+ControlClientAnnotationProcessor.addControlType( Map < TypeDeclaration , Set < TypeMirror > > clientsMap , TypeDeclaration clientType , TypeMirror controlFieldType );2;1;9
+ControlClientAnnotationProcessor.getControlInterfaceOrExtension( TypeMirror intfOrBeanClass );11;8;45
+ControlClientAnnotationProcessor.check( Declaration d );4;0;14
+ControlClientAnnotationProcessor.ControlClientAnnotationProcessor( Set < AnnotationTypeDeclaration > atds , AnnotationProcessorEnvironment env );1;0;3
+ControlClientAnnotationProcessor.enforceVersionRequired( FieldDeclaration f , InterfaceDeclaration controlIntf );9;11;34
+ControlClientAnnotationProcessor.generate( );25;10;125
+ControlClientAnnotationProcessor.checkControlField( FieldDeclaration f );26;16;102
+ControlClientAnnotationProcessor.checkControlClientType( TypeDeclaration t );9;5;33

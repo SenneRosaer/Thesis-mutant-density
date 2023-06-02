@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JDBCDiskCacheManager.getDefaultJDBCDiskCacheAttributes( );1;0;3
+JDBCDiskCacheManager.setCompositeCacheManager( ICompositeCacheManager compositeCacheManager );1;0;3
+JDBCDiskCacheManager.getInstance( JDBCDiskCacheAttributes cattr , ICompositeCacheManager compositeCacheManager , ICacheEventLogger cacheEventLogger , IElementSerializer elementSerializer );2;2;11
+***not in a method***;0;1;0
+JDBCDiskCacheManager.getCompositeCacheManager( );1;0;3
+JDBCDiskCacheManager.createJDBCDiskCache( JDBCDiskCacheAttributes cattr , TableState tableState );1;0;5
+JDBCDiskCacheManager.JDBCDiskCacheManager( JDBCDiskCacheAttributes cattr , ICompositeCacheManager compositeCacheManager , ICacheEventLogger cacheEventLogger , IElementSerializer elementSerializer );2;0;10
+JDBCDiskCacheManager.getCache( String cacheName );1;0;5

@@ -1,0 +1,59 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestContext.getQueryString( );1;0;3
+RequestContext.setDefaultHtmlEscape( boolean defaultHtmlEscape );1;0;3
+RequestContext.getThemeMessage( MessageSourceResolvable resolvable );1;0;3
+RequestContext.getThemeMessage( String code , @ Nullable Object [ ] args , String defaultMessage );2;1;4
+RequestContext.getMessage( String code , @ Nullable Object [ ] args , boolean htmlEscape );2;0;4
+RequestContext.getErrors( String name );1;0;3
+RequestContext.getMessage( String code );1;0;3
+RequestContext.getUrlPathHelper( );1;0;3
+RequestContext.getMessageSource( );1;0;3
+RequestContext.setUrlPathHelper( UrlPathHelper urlPathHelper );1;0;4
+RequestContext.getRequest( );1;0;3
+RequestContext.getContextUrl( String relativeUrl );2;2;7
+RequestContext.getContextUrl( String relativeUrl , Map < String , ? > params );2;2;8
+RequestContext.changeLocale( Locale locale , TimeZone timeZone );2;1;10
+RequestContext.getTheme( );3;2;9
+RequestContext.getWebApplicationContext( );1;0;3
+RequestContext.isResponseEncodedHtmlEscape( );2;2;3
+RequestContext.getMessage( String code , @ Nullable Object [ ] args );1;0;3
+RequestContext.getMessage( String code , String defaultMessage );1;0;3
+RequestContext.getPathToServlet( );2;1;7
+RequestContext.getRequestDataValueProcessor( );1;0;3
+RequestContext.getThemeMessage( String code , @ Nullable List < ? > args , String defaultMessage );3;2;5
+RequestContext.getFallbackLocale( );3;1;9
+RequestContext.getResponseEncodedHtmlEscape( );1;0;3
+RequestContext.getMessage( String code , @ Nullable Object [ ] args , String defaultMessage , boolean htmlEscape );3;1;7
+RequestContext.changeTheme( @ Nullable org . springframework . ui . context . Theme theme );3;2;8
+RequestContext.getFallbackTimeZone( );3;1;9
+RequestContext.getModel( );1;0;3
+RequestContext.getThemeMessage( String code , String defaultMessage );2;1;4
+RequestContext.getMessage( String code , @ Nullable Object [ ] args , String defaultMessage );1;0;3
+RequestContext.getRequestUri( );1;0;3
+JstlLocaleResolver.getJstlLocale( HttpServletRequest request , @ Nullable ServletContext servletContext );6;5;13
+RequestContext.getThemeMessage( String code , @ Nullable List < ? > args );2;1;3
+RequestContext.changeLocale( Locale locale );2;1;8
+RequestContext.getBindStatus( String path );1;0;3
+RequestContext.getBindStatus( String path , boolean htmlEscape );1;0;3
+RequestContext.getMessage( String code , @ Nullable List < ? > args );2;1;3
+RequestContext.getFallbackTheme( );3;2;11
+RequestContext.getLocale( );2;1;3
+RequestContext.RequestContext( HttpServletRequest request , HttpServletResponse response );1;0;3
+RequestContext.changeTheme( String themeName );2;1;8
+RequestContext.getThemeMessage( String code );1;0;3
+RequestContext.getModelObject( String modelName );2;1;8
+RequestContext.isDefaultHtmlEscape( );2;2;3
+RequestContext.getErrors( String name , boolean htmlEscape );10;8;29
+RequestContext.getContextPath( );1;0;3
+RequestContext.RequestContext( HttpServletRequest request , @ Nullable Map < String , Object > model );1;0;3
+JstlLocaleResolver.getJstlTimeZone( HttpServletRequest request , @ Nullable ServletContext servletContext );6;5;13
+RequestContext.getTimeZone( );2;1;3
+RequestContext.getServletContext( );1;0;3
+RequestContext.getMessage( String code , @ Nullable List < ? > args , String defaultMessage );2;1;3
+RequestContext.RequestContext( HttpServletRequest request , @ Nullable HttpServletResponse response , @ Nullable ServletContext servletContext , @ Nullable Map < String , Object > model );7;3;37
+RequestContext.RequestContext( HttpServletRequest request , @ Nullable ServletContext servletContext );1;0;3
+RequestContext.getDefaultHtmlEscape( );1;0;3
+RequestContext.getMessage( MessageSourceResolvable resolvable , boolean htmlEscape );2;0;4
+RequestContext.RequestContext( HttpServletRequest request );1;0;3
+RequestContext.getThemeMessage( String code , @ Nullable Object [ ] args );1;0;3
+RequestContext.getMessage( MessageSourceResolvable resolvable );1;0;3

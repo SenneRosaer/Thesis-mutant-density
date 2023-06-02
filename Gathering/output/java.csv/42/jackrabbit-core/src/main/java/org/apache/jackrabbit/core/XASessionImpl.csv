@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XASessionImpl.logout( );2;0;8
+XASessionImpl.createTransaction( Xid xid );1;0;5
+XASessionImpl.createVersionManager( RepositoryImpl rep );1;0;4
+XASessionImpl.setTransactionTimeout( int seconds );1;0;4
+XASessionImpl.XASessionImpl( RepositoryImpl rep , AuthContext loginContext , WorkspaceConfig wspConfig );1;0;4
+XASessionImpl.getXAResource( );1;0;3
+XASessionImpl.rollback( Xid xid );2;1;8
+XASessionImpl.start( Xid xid , int flags );9;7;29
+XASessionImpl.recover( int flags );1;0;3
+XASessionImpl.createWorkspaceInstance( WorkspaceConfig wspConfig , SharedItemStateManager stateMgr , RepositoryImpl rep , SessionImpl session );1;0;3
+XASessionImpl.associate( TransactionContext tx );2;2;7
+XASessionImpl.stringsEqual( String s1 , String s2 );2;2;7
+XASessionImpl.forget( Xid xid );1;0;2
+XASessionImpl.getLockManager( );2;1;7
+XASessionImpl.commit( Xid xid , boolean onePhase );3;1;11
+XASessionImpl.XASessionImpl( RepositoryImpl rep , Subject subject , WorkspaceConfig wspConfig );1;0;4
+XASessionImpl.end( Xid xid , int flags );8;8;26
+XASessionImpl.prepare( Xid xid );2;1;8
+XASessionImpl.isAssociated( );1;1;3
+XASessionImpl.init( );1;0;11
+XASessionImpl.isSameRM( XAResource xares );2;0;7
+XASessionImpl.getTransactionTimeout( );2;1;3

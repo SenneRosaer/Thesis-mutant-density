@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMPSchemaAdapter.getQName( String propName );1;0;3
+XMPSchemaAdapter.setDateValue( String propName , Date value );1;0;4
+XMPSchemaAdapter.removeLangAlt( String lang , String propName );5;4;15
+XMPSchemaAdapter.XMPSchemaAdapter( Metadata meta , XMPSchema schema );3;2;10
+XMPSchemaAdapter.addStringToArray( String propName , String value , XMPArrayType arrayType );2;1;14
+XMPSchemaAdapter.getDateValue( String propName );2;1;8
+XMPSchemaAdapter.getStringArray( String propName );3;3;11
+XMPSchemaAdapter.getValue( String propName );2;1;9
+XMPSchemaAdapter.formatISO8601Date( Date dt );1;0;3
+XMPSchemaAdapter.getDateArray( String propName );4;3;16
+XMPSchemaAdapter.createPseudoISO8601DateFormat( );1;0;6
+XMPSchemaAdapter.getObjectArray( String propName );3;2;12
+XMPSchemaAdapter.addStringToSeq( String propName , String value );1;0;3
+XMPSchemaAdapter.getLangAlt( String lang , String propName );3;2;14
+XMPSchemaAdapter.setValue( String propName , String value );2;1;10
+XMPSchemaAdapter.formatISO8601Date( Date dt , TimeZone tz );5;10;30
+XMPSchemaAdapter.getSchema( );1;0;3
+XMPSchemaAdapter.addDateToSeq( String propName , Date value );1;0;4
+XMPSchemaAdapter.setLangAlt( String propName , String lang , String value );3;2;18
+XMPSchemaAdapter.parseISO8601Date( final String dt );5;10;32
+XMPSchemaAdapter.addStringToBag( String propName , String value );1;0;3

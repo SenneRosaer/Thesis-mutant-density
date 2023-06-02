@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Logger.log( ServiceReference sr , int level , String msg , Throwable throwable );1;0;3
+Logger.log( int level , String msg );1;0;3
+Logger.setLogLevel( int i );1;0;3
+Logger.serviceChanged( ServiceEvent event );9;10;33
+Logger.log( ServiceReference sr , int level , String msg );1;0;3
+Logger._log( ServiceReference sr , int level , String msg , Throwable throwable );3;2;14
+Logger.getLogLevel( );1;0;3
+Logger.log( int level , String msg , Throwable throwable );1;0;3
+Logger.doLog( ServiceReference sr , int level , String msg , Throwable throwable );11;8;31
+Logger.setSystemBundleContext( BundleContext context );1;0;4
+Logger.startListeningForLogService( );3;1;14
+Logger.setLogger( Object logObj );3;1;26
+Logger.Logger( );1;0;2
+Logger._logReflectively( Object [ ] logger , ServiceReference sr , int level , String msg , Throwable throwable );4;1;20

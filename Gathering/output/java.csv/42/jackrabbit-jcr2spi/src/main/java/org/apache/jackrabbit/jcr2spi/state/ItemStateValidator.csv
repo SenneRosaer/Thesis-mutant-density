@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ItemStateValidator.checkProtection( QItemDefinition definition );2;0;5
+ItemStateValidator.checkCollision( NodeState parentState , Name nodeName , Name nodeTypeName );6;2;20
+ItemStateValidator.checkLock( ItemState itemState );2;0;4
+ItemStateValidator.checkProtection( ItemState itemState );2;0;9
+ItemStateValidator.checkRemoveConstraints( ItemState itemState );2;0;9
+ItemStateValidator.checkIsCheckedOut( ItemState itemState );2;0;4
+ItemStateValidator.checkWriteProperty( NodeState parentState , Name propertyName , QPropertyDefinition definition , int options );5;8;15
+ItemStateValidator.safeGetJCRPath( ItemState itemState );1;0;3
+ItemStateValidator.checkSetProperty( PropertyState propState , int options );1;0;5
+ItemStateValidator.ItemStateValidator( ManagerProvider mgrProvider , PathFactory pathFactory );1;0;4
+***not in a method***;0;4;0
+ItemStateValidator.checkIsWritable( NodeState parentState , int options );6;9;16
+ItemStateValidator.checkAddProperty( NodeState parentState , Name propertyName , QPropertyDefinition definition , int options );1;0;3
+ItemStateValidator.checkRemoveItem( ItemState targetState , int options );7;6;20
+ItemStateValidator.checkCollision( NodeState parentState , Name propertyName );4;1;16
+ItemStateValidator.validate( NodeState nodeState );7;12;38
+ItemStateValidator.checkAddNode( NodeState parentState , Name nodeName , Name nodeTypeName , int options );5;8;17

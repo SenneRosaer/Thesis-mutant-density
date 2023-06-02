@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LoggerWrapper.debug( String message );1;0;4
+LoggerWrapper.fatalError( String message , Throwable thr );1;0;4
+LogLevel.LogLevel( String text , int value );1;0;3
+LoggerWrapper.error( String message );1;0;4
+LoggerWrapper.setLogger( Logger logger );2;0;6
+LoggerWrapper.fatalError( String message );1;0;4
+LoggerWrapper.isDebugEnabled( );2;1;3
+LoggerWrapper.isThrowingException( int level );1;1;3
+LogLevel.getLevel( String level );1;0;3
+LoggerWrapper.error( String message , Throwable thr );1;0;4
+Deprecation.setLogger( Logger newLogger );1;0;3
+LoggerWrapper.isFatalErrorEnabled( );1;0;3
+LoggerWrapper.throwException( int level , String message );2;1;5
+LoggerWrapper.isInfoEnabled( );2;1;3
+LoggerWrapper.isWarnEnabled( );2;1;3
+LoggerWrapper.setForbiddenLevel( LogLevel level );1;0;3
+Deprecation.setForbiddenLevel( LogLevel level );2;1;6
+LoggerWrapper.isErrorEnabled( );2;1;3
+LoggerWrapper.warn( String message , Throwable thr );1;0;4
+LoggerWrapper.info( String message , Throwable thr );1;0;4
+LoggerWrapper.debug( String message , Throwable thr );1;0;4
+LoggerWrapper.LoggerWrapper( Logger logger );1;0;3
+LoggerWrapper.getChildLogger( String message );1;0;3
+LoggerWrapper.info( String message );1;0;4
+LoggerWrapper.warn( String message );1;0;4

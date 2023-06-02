@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SqlStatement.SqlStatement( );1;0;3
+SqlStatement.checkJdbcSupport( DatabaseMetaData metaData );9;10;16
+SqlStatement.doBatchUpdate( PreparedStatement ps , ControlBeanContext context , Method method , Object [ ] args , Calendar cal );5;3;16
+SqlStatement.loadSQLAnnotationStatmentOptions( ControlBeanContext context , Method method );1;0;13
+SqlStatement.setCallableStatement( Object [ ] args );6;6;9
+SqlStatement.computeMaxRows( Method method );6;8;12
+SqlStatement.createPreparedStatementString( ControlBeanContext context , Connection connection , Method method , Object [ ] arguments );11;6;33
+SqlStatement.setPreparedStatementParameter( PreparedStatement ps , int i , Object value , int sqlType , Calendar cal );22;9;66
+SqlStatement.isBatchUpdate( );1;0;1
+SqlStatement.getsGeneratedKeys( );1;0;1
+SqlStatement.isCallableStatement( );1;0;1
+SqlStatement.isCacheable( );1;0;1
+SqlStatement.addChild( SqlFragment frag );2;0;6
+SqlStatement.createPreparedStatement( ControlBeanContext context , Connection connection , Calendar calendar , Method method , Object [ ] arguments );23;13;75

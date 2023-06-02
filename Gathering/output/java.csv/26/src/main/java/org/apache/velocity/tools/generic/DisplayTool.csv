@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DisplayTool.cell( Object obj , String suffix );1;0;3
+DisplayTool.alt( Object checkMe );1;0;3
+DisplayTool.uncapitalize( Object uncapitalizeMe );4;1;19
+DisplayTool.message( String format , Object ... args );7;6;23
+DisplayTool.setCellSuffix( String suffix );1;0;3
+DisplayTool.alt( Object checkMe , Object alternate );2;1;7
+DisplayTool.list( Object list , String delim );1;0;3
+DisplayTool.truncate( Object truncateMe , String suffix );1;0;3
+Measurements.getHeight( );1;0;3
+DisplayTool.printf( String format , Object ... args );7;6;23
+DisplayTool.measure( Object measureMe );2;1;7
+DisplayTool.truncate( Object truncateMe , int maxLength );1;0;3
+DisplayTool.getTruncateSuffix( );1;0;3
+DisplayTool.setTruncateLength( int maxlen );1;0;3
+DisplayTool.configure( ValueParser values );8;7;37
+Measurements.toString( );1;0;9
+DisplayTool.setDefaultAlternate( String dflt );1;0;3
+DisplayTool.list( Object list );1;0;3
+DisplayTool.cell( Object obj );1;0;3
+DisplayTool.setListFinalDelimiter( String finalDelim );1;0;3
+Measurements.getWidth( );1;0;3
+DisplayTool.getCellSuffix( );1;0;3
+DisplayTool.setListDelimiter( String delim );1;0;3
+Measurements.Measurements( String s );3;1;11
+DisplayTool.getDefaultAlternate( );1;0;3
+DisplayTool.message( String format , Collection args );1;0;3
+DisplayTool.space( int length );3;3;12
+DisplayTool.format( Collection list , String delim , String finaldelim );4;6;18
+DisplayTool.setTruncateSuffix( String suffix );1;0;3
+DisplayTool.message( String format , Object arg );1;0;3
+DisplayTool.setCellLength( int maxlen );1;0;3
+DisplayTool.capitalize( Object capitalizeMe );4;1;19
+DisplayTool.getCellLength( );1;0;3
+DisplayTool.getTruncateLength( );1;0;3
+DisplayTool.cell( Object obj , int cellsize , String suffix );5;7;19
+DisplayTool.list( Object list , String delim , String finaldelim );5;3;25
+DisplayTool.message( String format , Object arg1 , Object arg2 );1;0;3
+DisplayTool.cell( Object obj , int cellsize );1;0;3
+DisplayTool.getListFinalDelimiter( );1;0;3
+DisplayTool.getListDelimiter( );1;0;3
+DisplayTool.truncate( Object truncateMe );1;0;3
+DisplayTool.truncate( Object truncateMe , int maxLength , String suffix );6;10;16

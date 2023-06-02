@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLStructurer.inject( LinkedHashSet < XMLEvent > pathElement , XMLStreamReader parser , String injectionPoint );4;0;23
+XMLStructurer.processContractResult( InputStream resultStream );10;2;41
+XMLStructurer.processHook( XMLStreamReader reader , boolean start );2;0;12
+XMLStructurer.processStructure( XMLStreamReader reader );9;1;36
+XMLStructurer.processProperty( XMLStreamReader reader , HashMap param );4;2;12
+XMLStructurer.XMLStructurer( DispatcherBean config );1;0;5
+XMLStructurer.createResultStax( XMLEventWriter writer );7;7;32
+XMLStructurer.injectResult( XMLEventWriter writer , String element );2;2;7
+XMLStructurer.processContract( XMLStreamReader reader );12;5;43
+XMLStructurer.execute( InputStream structurerStream , String format );13;3;52
+XMLStructurer.closingPaths( XMLEventWriter writer , String [ ] tokenizer );3;4;9
+XMLStructurer.openPaths( XMLEventWriter writer , String [ ] tokenizer );3;1;9

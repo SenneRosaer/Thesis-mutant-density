@@ -1,0 +1,67 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SegmentReader.incRef( );2;0;8
+SegmentReader.terms( Term t );1;0;4
+SegmentReader.decRefReaderNotNorms( );1;0;3
+SegmentReader.getSegmentName( );1;0;3
+SegmentReader.incRefReaderNotNorms( );1;0;3
+SegmentReader.get( Directory dir , SegmentInfo si , SegmentInfos sis , boolean closeDir , boolean ownDir , int readBufferSize );1;0;3
+SegmentReader.getFieldNames( IndexReader . FieldOption fieldOption );30;37;45
+SegmentReader.getTermInfosIndexDivisor( );1;0;3
+SegmentReader.hasDeletions( SegmentInfo si );1;0;3
+SegmentReader.initialize( SegmentInfo si , int readBufferSize , boolean doOpenStores );17;19;64
+Norm.reWrite( SegmentInfo si );1;0;10
+SegmentReader.fakeNorms( );2;1;4
+SegmentReader.maxDoc( );1;0;3
+SegmentReader.numDocs( );2;2;6
+SegmentReader.termDocs( );1;0;4
+SegmentReader.getTermFreqVectors( int docNumber );3;2;9
+SegmentReader.terms( );1;0;4
+SegmentReader.get( SegmentInfo si , boolean doOpenStores );1;0;3
+SegmentReader.norms( String field , byte [ ] bytes , int offset );4;2;22
+SegmentReader.getNorms( String field );3;2;13
+SegmentReader.getTermFreqVector( int docNumber , String field );5;6;10
+SegmentReader.doClose( );11;10;32
+Norm.incRef( );1;2;4
+SegmentReader.get( boolean readOnly , SegmentInfos sis , SegmentInfo si , boolean closeDir );1;0;3
+SegmentReader.getFieldsReader( );1;0;3
+SegmentReader.hasNorms( String field );1;0;4
+SegmentReader.document( int n , FieldSelector fieldSelector );2;0;7
+SegmentReader.files( );1;0;3
+SegmentReader.createFakeNorms( int size );1;0;5
+SegmentReader.get( SegmentInfo si , int readBufferSize , boolean doOpenStores );1;0;3
+SegmentReader.getFieldInfos( );1;0;3
+SegmentReader.get( boolean readOnly , SegmentInfo si , int readBufferSize , boolean doOpenStores );1;0;3
+SegmentReader.fieldInfos( );1;0;3
+SegmentReader.getTermVectorsReader( );3;2;13
+Norm.decRef( );2;3;7
+SegmentReader.getSegmentInfo( );1;0;3
+SegmentReader.loadDeletedDocs( );2;3;10
+SegmentReader.commitChanges( );7;2;25
+SegmentReader.getTermFreqVector( int docNumber , String field , TermVectorMapper mapper );5;6;12
+SegmentReader.termPositions( );1;0;4
+SegmentReader.doDelete( int docNum );3;3;8
+SegmentReader.rollbackCommit( );2;0;12
+SegmentReader.get( SegmentInfo si , int readBufferSize );1;0;3
+SegmentReader.normsClosed( );4;2;13
+SegmentReader.doReopen( SegmentInfos infos );5;3;17
+SegmentReader.reopenSegment( SegmentInfo si );28;25;109
+SegmentReader.startCommit( );2;0;12
+SegmentReader.decRef( );2;0;8
+SegmentReader.isDeleted( int n );2;2;3
+SegmentReader.hasDeletions( );1;1;3
+SegmentReader.getTermFreqVector( int docNumber , TermVectorMapper mapper );3;2;9
+SegmentReader.openNorms( Directory cfsDir , int readBufferSize );8;7;32
+SegmentReader.normsClosed( String field );1;1;4
+SegmentReader.get( boolean readOnly , SegmentInfo si );1;0;3
+SegmentReader.hasSeparateNorms( SegmentInfo si );1;0;3
+SegmentReader.doUndeleteAll( );1;0;5
+Norm.Norm( IndexInput in , boolean useSingleNormStream , int number , long normSeek );1;0;7
+SegmentReader.norms( String field );2;1;6
+SegmentReader.get( boolean readOnly , Directory dir , SegmentInfo si , SegmentInfos sis , boolean closeDir , boolean ownDir , int readBufferSize , boolean doOpenStores );3;0;14
+Norm.close( );3;3;6
+SegmentReader.setTermInfosIndexDivisor( int indexDivisor );1;0;3
+SegmentReader.docFreq( Term t );2;1;8
+SegmentReader.usesCompoundFile( SegmentInfo si );1;0;3
+SegmentReader.setSegmentInfo( SegmentInfo info );1;0;3
+SegmentReader.doSetNorm( int doc , String field , byte value );2;1;8
+SegmentReader.get( SegmentInfo si );1;0;3

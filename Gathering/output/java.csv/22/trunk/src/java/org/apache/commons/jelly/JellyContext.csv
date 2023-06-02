@@ -1,0 +1,67 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JellyContext.getRootURL( );1;0;3
+JellyContext.createRelativeURL( URL rootURL , String relativeURI );3;2;12
+JellyContext.getClassLoader( );1;0;3
+JellyContext.runScript( File file , XMLOutput output );2;0;8
+JellyContext.runScript( URL url , XMLOutput output );1;0;4
+JellyContext.findVariable( String name );7;6;15
+JellyContext.setInherit( boolean inherit );1;0;3
+JellyContext.isTagLibraryRegistered( String namespaceURI );3;1;12
+JellyContext.newJellyContext( Map newVariables );1;0;6
+JellyContext.getSystemProperty( String name );2;0;9
+JellyContext.init( );2;0;8
+JellyContext.runScript( String uri , XMLOutput output , boolean export , boolean inherit );3;1;12
+JellyContext.setCurrentURL( URL currentURL );1;0;3
+JellyContext.removeVariable( String name , String scopeName );2;1;6
+JellyContext.isExportLibraries( );1;0;3
+JellyContext.JellyContext( JellyContext parentJellyContext , URL currentURL );1;0;4
+JellyContext.setCacheTags( boolean cacheTags );1;0;3
+JellyContext.setExport( boolean export );1;0;3
+JellyContext.runScript( URL url , XMLOutput output , boolean export , boolean inherit );1;0;3
+JellyContext.isSuppressExpressionExceptions( );1;0;3
+JellyContext.getVariableNames( );1;0;3
+JellyContext.registerTagLibrary( String namespaceURI , String className );4;2;9
+JellyContext.getResource( String uri );4;0;17
+JellyContext.runScript( String uri , XMLOutput output );3;1;13
+JellyContext.JellyContext( JellyContext parentJellyContext , URL rootURL , URL currentURL );1;0;4
+JellyContext.setClassLoader( ClassLoader classLoader );1;0;3
+JellyContext.clearVariables( );1;0;3
+JellyContext.compileScript( String uri );4;1;17
+JellyContext.getVariables( );1;0;3
+JellyContext.isExport( );1;0;3
+JellyContext.removeVariable( String name );1;0;3
+JellyContext.getParent( );1;0;3
+JellyContext.getTagLibrary( String namespaceURI );9;4;41
+JellyContext.JellyContext( URL rootURL , URL currentURL );1;0;5
+JellyContext.getXMLParser( );1;0;4
+JellyContext.getJellyContextURL( InputSource source );2;2;10
+JellyContext.setVariable( String name , String scopeName , Object value );2;1;6
+JellyContext.getVariable( String name );7;6;15
+JellyContext.getCurrentURL( );1;0;3
+JellyContext.getResourceAsStream( String uri );3;0;14
+JellyContext.setRootURL( URL rootURL );1;0;3
+JellyContext.isInherit( );1;0;3
+JellyContext.runScript( InputSource source , XMLOutput output , boolean export , boolean inherit );4;0;24
+JellyContext.setVariables( Map variables );3;1;8
+JellyContext.runScript( File file , XMLOutput output , boolean export , boolean inherit );2;0;7
+JellyContext.setExportLibraries( boolean exportLibraries );1;0;3
+JellyContext.setUseContextClassLoader( boolean use );1;0;3
+JellyContext.createChildContext( );1;0;3
+JellyContext.createXMLParser( );1;0;3
+JellyContext.registerTagLibrary( String namespaceURI , TagLibrary taglib );4;2;9
+JellyContext.clear( );1;0;3
+JellyContext.JellyContext( URL rootURL );1;0;3
+JellyContext.setSuppressExpressionExceptions( boolean suppressExpressionExceptions );1;0;3
+JellyContext.compileScript( URL url );3;0;13
+JellyContext.newJellyContext( );1;0;3
+JellyContext.runScript( InputSource source , XMLOutput output );1;0;4
+JellyContext.setParent( JellyContext context );5;2;19
+JellyContext.getScope( String name );2;0;6
+JellyContext.JellyContext( JellyContext parent );1;0;9
+JellyContext.getUseContextClassLoader( );1;0;3
+JellyContext.JellyContext( );1;0;4
+JellyContext.getVariable( String name , String scopeName );2;1;7
+JellyContext.isCacheTags( );1;0;3
+JellyContext.getJellyContextURL( URL url );1;1;6
+JellyContext.compileScript( InputSource source );3;0;13
+JellyContext.setVariable( String name , Object value );3;1;12

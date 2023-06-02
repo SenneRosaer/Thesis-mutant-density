@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JspPropertyAccessor.canWrite( EvaluationContext context , @ Nullable Object target , String name );1;0;3
+EvalTag.getConversionService( PageContext pageContext );1;0;3
+JspPropertyAccessor.write( EvaluationContext context , @ Nullable Object target , String name , @ Nullable Object newValue );1;0;3
+JspPropertyAccessor.JspPropertyAccessor( PageContext pageContext );1;0;4
+EvalTag.setVar( String var );1;0;3
+EvalTag.createEvaluationContext( PageContext pageContext );2;1;12
+EvalTag.doEndTag( );7;4;26
+EvalTag.setJavaScriptEscape( boolean javaScriptEscape );1;0;3
+EvalTag.setExpression( String expression );1;0;3
+JspPropertyAccessor.getSpecificTargetClasses( );1;0;3
+EvalTag.setScope( String scope );1;0;3
+JspPropertyAccessor.read( EvaluationContext context , @ Nullable Object target , String name );2;1;7
+JspPropertyAccessor.resolveImplicitVariable( String name );3;1;12
+EvalTag.doStartTagInternal( );1;0;3
+JspPropertyAccessor.canRead( EvaluationContext context , @ Nullable Object target , String name );3;5;4

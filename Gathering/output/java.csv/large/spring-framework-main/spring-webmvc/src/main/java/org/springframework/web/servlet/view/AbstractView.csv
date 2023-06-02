@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractView.setExposedContextBeanNames( String ... exposedContextBeanNames );1;0;3
+AbstractView.setAttributesCSV( @ Nullable String propString );5;7;22
+AbstractView.isExposePathVariables( );1;0;3
+AbstractView.render( @ Nullable Map < String , ? > model , HttpServletRequest request , HttpServletResponse response );4;1;10
+AbstractView.setRequestContextAttribute( @ Nullable String requestContextAttribute );1;0;3
+AbstractView.getContentType( );1;0;3
+AbstractView.createRequestContext( HttpServletRequest request , HttpServletResponse response , Map < String , Object > model );1;0;3
+AbstractView.getRequestToExpose( HttpServletRequest originalRequest );3;3;8
+AbstractView.getRequestContextAttribute( );1;0;3
+AbstractView.generatesDownloadContent( );1;0;3
+AbstractView.setExposeContextBeansAsAttributes( boolean exposeContextBeansAsAttributes );1;0;3
+AbstractView.setContentType( @ Nullable String contentType );1;0;3
+AbstractView.writeToResponse( HttpServletResponse response , ByteArrayOutputStream baos );1;0;7
+AbstractView.setBeanName( @ Nullable String beanName );1;0;3
+AbstractView.setAttributesMap( @ Nullable Map < String , ? > attributes );2;1;5
+AbstractView.getAttributesMap( );1;0;3
+AbstractView.prepareResponse( HttpServletRequest request , HttpServletResponse response );2;0;6
+AbstractView.createTemporaryOutputStream( );1;0;3
+AbstractView.getStaticAttributes( );1;0;3
+AbstractView.createMergedOutputModel( @ Nullable Map < String , ? > model , HttpServletRequest request , HttpServletResponse response );7;7;20
+AbstractView.setAttributes( Properties attributes );1;0;3
+AbstractView.addStaticAttribute( String name , Object value );1;0;3
+AbstractView.exposeModelAsRequestAttributes( Map < String , Object > model , HttpServletRequest request );2;1;10
+AbstractView.toString( );1;1;3
+AbstractView.formatViewName( );2;1;3
+AbstractView.setExposePathVariables( boolean exposePathVariables );1;0;3
+AbstractView.getBeanName( );1;0;3
+AbstractView.setResponseContentType( HttpServletRequest request , HttpServletResponse response );3;2;9

@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Marker.Marker( FONode parent );1;0;3
+MarkerPropertyList.putExplicit( int propId , Property value );1;0;2
+Marker.getMarkerClassName( );1;0;3
+MarkerPropertyList.addAttributesToList( Attributes attributes );2;2;15
+MarkerPropertyList.getIndex( String qname );6;8;12
+MarkerPropertyList.getLocalName( int index );5;7;10
+MarkerPropertyList.getValue( String name , String namespace );2;1;7
+MarkerPropertyList.getExplicit( int propId );1;0;3
+Marker.startOfNode( );1;0;11
+MarkerPropertyList.getType( String qname );1;0;3
+MarkerPropertyList.getURI( int index );5;7;10
+MarkerAttribute.getInstance( String namespace , String qname , String name , String value );2;0;10
+MarkerAttribute.MarkerAttribute( String namespace , String qname , String name , String value );2;1;6
+MarkerPropertyList.getType( String name , String namespace );1;0;3
+MarkerPropertyList.getIndex( String name , String namespace );8;11;13
+MarkerPropertyList.getValue( int index );5;7;10
+MarkerPropertyList.getQName( int index );5;7;10
+Marker.toString( );1;0;5
+Marker.getLocalName( );1;0;3
+Marker.validateChildNode( Locator loc , String nsURI , String localName );3;1;7
+MarkerPropertyList.MarkerPropertyList( FObj fobj , PropertyList parentPropertyList );1;0;3
+Marker.getPropertyListFor( FONode foNode );1;0;4
+MarkerPropertyList.getValue( String qname );2;1;7
+Marker.make( FObj fobj , PropertyList parentPropertyList );1;0;5
+Marker.inMarker( );1;0;3
+MarkerPropertyList.getType( int index );1;0;3
+Marker.endOfNode( );1;0;5
+MarkerAttribute.equals( Object o );13;19;19
+Marker.bind( PropertyList pList );4;3;10
+MarkerPropertyList.getLength( );2;1;7
+Marker.getNameId( );1;0;3

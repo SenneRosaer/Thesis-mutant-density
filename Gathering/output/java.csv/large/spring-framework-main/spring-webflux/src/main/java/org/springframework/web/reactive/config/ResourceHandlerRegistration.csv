@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceHandlerRegistration.setOptimizeLocations( boolean optimizeLocations );1;0;4
+ResourceHandlerRegistration.setCacheControl( CacheControl cacheControl );1;0;4
+ResourceHandlerRegistration.resourceChain( boolean cacheResources , Cache cache );1;0;4
+ResourceHandlerRegistration.setMediaTypes( Map < String , MediaType > mediaTypes );2;1;7
+ResourceHandlerRegistration.addResourceLocations( String ... resourceLocations );1;0;4
+ResourceHandlerRegistration.resourceChain( boolean cacheResources );1;0;4
+ResourceHandlerRegistration.setUseLastModified( boolean useLastModified );1;0;4
+ResourceHandlerRegistration.getPathPatterns( );1;0;3
+ResourceHandlerRegistration.ResourceHandlerRegistration( ResourceLoader resourceLoader , String ... pathPatterns );1;0;6
+ResourceHandlerRegistration.getRequestHandler( );4;3;18

@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EnvironmentChanger.endElement( String uri , String loc , String raw );1;0;5
+EnvironmentStack.getCurrentInfo( );1;0;3
+EnvironmentStack.getOffset( );1;0;3
+EnvironmentChanger.ignorableWhitespace( char c [ ] , int start , int len );1;0;5
+EnvironmentChanger.setDocumentLocator( Locator locator );1;0;5
+EnvironmentChanger.startElement( String uri , String loc , String raw , Attributes a );1;0;5
+EnvironmentChanger.startEntity( String name );1;0;5
+EnvironmentChanger.comment( char ch [ ] , int start , int len );1;0;5
+EnvironmentChanger.endDocument( );1;0;5
+EnvironmentStack.pushInfo( EnvironmentInfo info );1;0;3
+EnvironmentChanger.startPrefixMapping( String prefix , String uri );1;0;5
+EnvironmentChanger.endDTD( );1;0;5
+EnvironmentChanger.startCDATA( );1;0;5
+EnvironmentChanger.skippedEntity( String name );1;0;5
+EnvironmentStack.setOffset( int value );1;0;3
+EnvironmentChanger.startDocument( );1;0;5
+EnvironmentChanger.characters( char c [ ] , int start , int len );1;0;5
+EnvironmentChanger.endEntity( String name );1;0;5
+EnvironmentStack.popInfo( );1;0;3
+EnvironmentStack.getEnvironmentAwareConsumerWrapper( XMLConsumer consumer , int oldOffset );1;0;3
+EnvironmentChanger.processingInstruction( String target , String data );1;0;5
+EnvironmentStack.clone( );1;0;5
+EnvironmentStack.peekInfo( );1;0;3
+EnvironmentChanger.endCDATA( );1;0;5
+EnvironmentChanger.startDTD( String name , String publicId , String systemId );1;0;5
+EnvironmentChanger.EnvironmentChanger( XMLConsumer consumer , EnvironmentStack es , int oldOffset , int newOffset );1;0;6
+EnvironmentChanger.endPrefixMapping( String prefix );1;0;5

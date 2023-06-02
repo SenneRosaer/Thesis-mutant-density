@@ -1,0 +1,5 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FastJsonViewResponseBodyAdvice.supports( MethodParameter returnType , Class < ? extends HttpMessageConverter < ? > > converterType );2;1;3
+FastJsonViewResponseBodyAdvice.beforeBodyWriteInternal( FastJsonContainer container , MediaType contentType , MethodParameter returnType , ServerHttpRequest request , ServerHttpResponse response );3;0;13
+FastJsonViewResponseBodyAdvice.beforeBodyWrite( Object body , MethodParameter returnType , MediaType selectedContentType , Class < ? extends HttpMessageConverter < ? > > selectedConverterType , ServerHttpRequest request , ServerHttpResponse response );1;0;5
+FastJsonViewResponseBodyAdvice.getOrCreateContainer( Object body );2;0;3

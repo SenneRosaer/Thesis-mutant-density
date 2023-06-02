@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CSVSaveService.saveCSVStats( Vector data , FileWriter writer , String headers [ ] );7;9;25
+CSVSaveService.saveCSVStats( DefaultTableModel model , FileWriter writer );6;8;24
+CSVSaveService.CSVSaveService( );1;0;2
+CSVSaveService.printableFieldNamesToString( );1;0;3
+CSVSaveService.splitHeader( String headerLine , String delim );5;7;21
+CSVSaveService.processSamples( String filename , Visualizer visualizer , ResultCollector resultCollector );6;5;34
+StringQuoter.append( String s );1;0;4
+CSVSaveService.resultToDelimitedString( SampleEvent event , final String delimiter );26;8;119
+StringQuoter.addDelim( );2;0;7
+StringQuoter.append( Object obj );1;0;3
+CSVSaveService.quoteDelimiters( String input , char [ ] specialChars );4;4;17
+CSVSaveService.csvSplitString( String line , char delim );1;0;3
+StringQuoter.append( boolean b );1;0;4
+CSVSaveService.getSampleSaveConfiguration( String headerLine , String filename );7;6;35
+CSVSaveService.saveCSVStats( Vector data , FileWriter writer );1;0;3
+CSVSaveService.makeResultFromDelimitedString( final String inputLine , final SampleSaveConfiguration saveConfig , final long lineNumber );1;0;4
+CSVSaveService.makeResultFromDelimitedString( final String [ ] parts , final SampleSaveConfiguration saveConfig , final long lineNumber );26;22;132
+StringQuoter.resultToDelimitedString( SampleEvent event , final String delimiter );1;0;4
+CSVSaveService.printableFieldNamesToString( SampleSaveConfiguration saveConfig );20;4;91
+CSVSaveService.csvReadFile( BufferedReader infile , char delim );22;18;74
+CSVSaveService.isVariableName( final String label );3;3;5
+CSVSaveService.resultToDelimitedString( SampleEvent event );1;0;3
+StringQuoter.append( int i );1;0;4
+CSVSaveService.isDelimOrEOL( char delim , int ch );3;5;3
+StringQuoter.append( long l );1;0;4
+StringQuoter.toString( );1;0;3

@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MutableSettings.getFormEncoding( );2;1;6
+MutableSettings.MutableSettings( String mode );1;0;7
+MutableSettings.getReloadDelay( String type );5;6;16
+MutableSettings.setWorkDirectory( String workDirectory );1;0;5
+MutableSettings.isReloadingEnabled( String type );5;6;16
+MutableSettings.setConfigurationReloadDelay( long configurationReloadDelay );1;0;5
+MutableSettings.toString( );1;0;11
+MutableSettings.getLoadClasses( );1;0;3
+MutableSettings.configure( Properties props );11;1;29
+MutableSettings.getPropertyNames( );6;3;21
+MutableSettings.setCreationTime( long value );1;0;4
+MutableSettings.checkSubSetting( );2;1;6
+MutableSettings.makeReadOnly( );1;0;3
+MutableSettings.getProperty( String key , String defaultValue );13;4;34
+MutableSettings.getWorkDirectory( );2;1;6
+MutableSettings.getRunningMode( );1;0;3
+MutableSettings.getPropertyNames( String keyPrefix );7;4;21
+MutableSettings.checkWriteable( );2;0;6
+MutableSettings.setReloadingEnabled( boolean allowReload );1;0;5
+MutableSettings.getCacheDirectory( );2;1;6
+MutableSettings.setContainerEncoding( String value );1;0;4
+MutableSettings.setFormEncoding( String formEncoding );1;0;5
+MutableSettings.getCreationTime( );2;1;6
+MutableSettings.MutableSettings( Settings parent );2;1;7
+MutableSettings.getContainerEncoding( );2;1;6
+MutableSettings.toString( List a );3;0;14
+MutableSettings.getProperty( String name );1;0;3
+MutableSettings.addToLoadClasses( String className );1;0;4
+MutableSettings.setCacheDirectory( String cacheDirectory );1;0;5

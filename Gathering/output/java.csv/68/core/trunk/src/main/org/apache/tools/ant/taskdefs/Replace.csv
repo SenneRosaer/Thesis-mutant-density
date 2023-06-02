@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileOutput.close( );1;0;3
+Replace.createReplacefilter( );1;0;5
+Replace.setReplaceFilterFile( File replaceFilterFile );1;0;3
+Replace.setSummary( boolean summary );1;0;3
+Replacefilter.setProperty( String property );1;0;3
+Replace.createReplaceToken( );2;1;6
+Replace.setEncoding( String encoding );1;0;3
+FileOutput.flush( );1;0;4
+Replace.validateAttributes( );9;11;21
+Replacefilter.setValue( String value );1;0;3
+Replacefilter.setInputBuffer( StringBuffer input );1;0;3
+Replace.setPropertyFile( File propertyFile );1;0;3
+FileInput.FileInput( File source );2;1;10
+Replace.setDir( File dir );1;0;3
+Replace.setValue( String value );1;0;3
+FileInput.closeQuietly( );1;0;3
+Replace.createPrimaryfilter( );1;0;5
+FileInput.readChunk( );2;1;9
+FileInput.close( );1;0;3
+Replace.setToken( String token );1;0;3
+Replacefilter.getToken( );1;0;3
+Replacefilter.replace( );2;5;12
+Replace.validateReplacefilters( );2;2;7
+Replace.stringReplace( StringBuffer str , String str1 , String str2 );2;3;7
+FileOutput.closeQuietly( );1;0;3
+Replacefilter.process( );2;2;10
+Replace.execute( );10;8;53
+Replacefilter.setToken( String token );1;0;3
+FileOutput.FileOutput( File out );2;1;8
+Replacefilter.getProperty( );1;0;3
+Replacefilter.getOutputBuffer( );1;0;3
+Replace.processFile( File src );10;7;51
+NestedString.getText( );1;0;3
+Replace.processFilterChain( );3;3;9
+Replace.logFilterChain( String filename );2;2;7
+Replace.buildFilterChain( StringBuffer inputBuffer );2;2;9
+FileInput.getOutputBuffer( );1;0;3
+FileOutput.process( );1;0;5
+Replace.getProperties( File propertyFile );3;0;19
+Replacefilter.getReplaceValue( );4;3;11
+Replacefilter.validate( );9;9;33
+Replace.setFile( File file );1;0;3
+Replacefilter.flush( );1;0;5
+FileOutput.setInputBuffer( StringBuffer input );1;0;3
+Replacefilter.getValue( );1;0;3
+NestedString.addText( String val );1;0;3
+Replace.createReplaceValue( );1;0;3
+Replace.flushFilterChain( );2;2;6

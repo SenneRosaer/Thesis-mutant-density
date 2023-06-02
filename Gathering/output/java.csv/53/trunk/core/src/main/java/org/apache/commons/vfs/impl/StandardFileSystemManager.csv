@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandardFileSystemManager.findClassLoader( );3;2;12
+StandardFileSystemManager.setClassLoader( final ClassLoader classLoader );1;0;3
+StandardFileSystemManager.findClass( final String className );2;0;11
+StandardFileSystemManager.setConfiguration( final String configUri );2;0;10
+StandardFileSystemManager.configure( final Element config );6;9;33
+StandardFileSystemManager.setConfiguration( final URL configUri );1;0;3
+StandardFileSystemManager.createDefaultFileReplicator( );1;0;3
+StandardFileSystemManager.configure( final URL configUri );4;1;28
+StandardFileSystemManager.addExtensionMap( final Element map );3;3;8
+StandardFileSystemManager.init( );3;2;17
+StandardFileSystemManager.configure( final String configUri , final InputStream configStream );2;0;12
+StandardFileSystemManager.addOperationProvider( final Element providerDef );3;2;13
+StandardFileSystemManager.getRequiredSchemes( final Element providerDef );4;5;15
+StandardFileSystemManager.addMimeTypeMap( final Element map );1;0;5
+StandardFileSystemManager.getSchemas( final Element provider );2;2;11
+StandardFileSystemManager.getRequiredClasses( final Element providerDef );4;5;15
+StandardFileSystemManager.createDocumentBuilder( );1;0;8
+StandardFileSystemManager.addProvider( final Element providerDef , final boolean isDefault );7;7;37
+StandardFileSystemManager.configurePlugins( );3;0;17
+StandardFileSystemManager.createInstance( final String className );2;0;11

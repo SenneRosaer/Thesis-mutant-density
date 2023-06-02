@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FOURIResolver.FOURIResolver( boolean throwExceptions );1;0;3
+FOURIResolver.getCustomURIResolver( );1;0;3
+FOURIResolver.resolve( String href , String base );22;17;87
+FOURIResolver.updateURLConnection( URLConnection connection , String href );1;0;2
+FOURIResolver.setCustomURIResolver( URIResolver resolver );1;0;3
+FOURIResolver.checkBaseURL( String base );5;2;15
+FOURIResolver.handleException( Exception e , String errorStr , boolean strict );2;0;6
+FOURIResolver.FOURIResolver( );1;0;3
+FOURIResolver.setThrowExceptions( boolean throwExceptions );1;0;3
+FOURIResolver.applyHttpBasicAuthentication( URLConnection connection , String username , String password );2;2;15

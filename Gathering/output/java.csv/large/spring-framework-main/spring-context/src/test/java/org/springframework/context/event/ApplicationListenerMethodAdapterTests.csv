@@ -1,0 +1,60 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SampleEvents.handleStringAnnotationClasses( );1;0;2
+ApplicationListenerMethodAdapterTests.listenerWithSubTypeSeveralGenericsResolved( );1;0;4
+ApplicationListenerMethodAdapterTests.invokeListenerWithAnnotationValue( );1;0;6
+ApplicationListenerMethodAdapterTests.invokeListenerWithPayloadWrongType( );1;0;6
+SampleEvents.generateRuntimeException( GenericTestEvent < String > event );2;0;5
+SampleEvents.handleRaw( ApplicationEvent event );1;0;2
+ApplicationListenerMethodAdapterTests.createGenericEventType( Class < ? > payloadType );1;0;3
+SampleEvents.noParameter( );1;0;2
+SampleEvents.handleGenericStringPayload( EntityWrapper < String > event );1;0;2
+ApplicationListenerMethodAdapterTests.invokeListenerWithGenericEvent( );1;0;7
+ApplicationListenerMethodAdapterTests.listenerWithPayloadTypeErasure( );1;0;4
+InvalidProxyTestBean.handleIt( ApplicationEvent event );1;0;2
+ApplicationListenerMethodAdapterTests.invokeListenerWithAnyGenericPayload( );1;0;7
+PayloadStringTestEvent.PayloadStringTestEvent( Object source , String payload , Long something );1;0;3
+ApplicationListenerMethodAdapterTests.listenerWithSubTypeSeveralGenerics( );1;0;4
+StaticApplicationListenerMethodAdapter.StaticApplicationListenerMethodAdapter( Method method , Object targetBean );1;0;4
+EntityWrapper.getResolvableType( );1;0;3
+ApplicationListenerMethodAdapterTests.supportsEventType( boolean match , Method method , ResolvableType eventType );1;0;5
+ApplicationListenerMethodAdapterTests.listenerWithMoreThanOneParameter( );1;0;5
+ApplicationListenerMethodAdapterTests.invokeListenerWithPayload( );1;0;6
+ApplicationListenerMethodAdapterTests.genericListenerWrongParameterizedType( );1;0;5
+ApplicationListenerMethodAdapterTests.defaultOrder( );1;0;6
+ApplicationListenerMethodAdapterTests.invokeListenerCheckedException( );1;0;8
+ApplicationListenerMethodAdapterTests.listenerWithTooManyParameters( );1;0;5
+SampleEvents.handleString( String payload );1;0;2
+ApplicationListenerMethodAdapterTests.beanInstanceRetrievedAtEveryInvocation( );1;0;15
+ApplicationListenerMethodAdapterTests.listenerWithAnnotationClasses( );1;0;4
+ApplicationListenerMethodAdapterTests.specifiedOrder( );1;0;6
+InvalidProxyTestBean.handleIt2( ApplicationEvent event );1;0;2
+ApplicationListenerMethodAdapterTests.genericListener( );1;0;5
+SampleEvents.handleStringOrIntegerWithParam( String invalid );1;0;2
+ApplicationListenerMethodAdapterTests.rawListener( );1;0;4
+EntityWrapper.EntityWrapper( T entity );1;0;3
+SampleEvents.handleStringAnnotationValue( );1;0;2
+ApplicationListenerMethodAdapterTests.invokeListener( );1;0;7
+ApplicationListenerMethodAdapterTests.createTestInstance( Method method );1;0;3
+ApplicationListenerMethodAdapterTests.invokeListenerWithAnnotationValueAndParameter( );1;0;7
+SampleEvents.handleGenericString( GenericTestEvent < String > event );1;0;2
+SampleEvents.handleGenericAnyPayload( EntityWrapper < ? > event );1;0;2
+StaticApplicationListenerMethodAdapter.getTargetBean( );1;0;3
+ApplicationListenerMethodAdapterTests.invokeListenerWithWrongGenericPayload( );1;0;7
+ApplicationListenerMethodAdapterTests.rawListenerWithGenericEvent( );1;0;4
+ApplicationListenerMethodAdapterTests.invokeListenerWithSeveralTypes( );1;0;12
+SampleEvents.generateCheckedException( GenericTestEvent < String > event );2;0;5
+PayloadTestEvent.PayloadTestEvent( Object source , T payload , V something );1;0;4
+ApplicationListenerMethodAdapterTests.listenerWithPayloadAndGenericInformation( );1;0;4
+ApplicationListenerMethodAdapterTests.invokeListenerWithGenericPayload( );1;0;7
+ApplicationListenerMethodAdapterTests.listenerWithNoParameter( );1;0;4
+ApplicationListenerMethodAdapterTests.listenerWithSeveralTypes( );1;0;6
+SampleEvents.moreThanOneParameter( String foo , Integer bar );1;0;2
+ApplicationListenerMethodAdapterTests.invokeListener( Method method , ApplicationEvent event );1;0;4
+ApplicationListenerMethodAdapterTests.listenerWithInvalidPayloadAndGenericInformation( );1;0;4
+ApplicationListenerMethodAdapterTests.listenerWithAnnotationValueAndParameter( );1;0;5
+ApplicationListenerMethodAdapterTests.invokeListenerRuntimeException( );1;0;9
+SampleEvents.handleStringOrInteger( );1;0;2
+ApplicationListenerMethodAdapterTests.listenerWithAnnotationValue( );1;0;4
+ApplicationListenerMethodAdapterTests.invokeListenerInvalidProxy( );1;0;14
+SampleEvents.tooManyParameters( String event , String whatIsThis );1;0;2
+SampleEvents.handleStringAnnotationValueAndParameter( String payload );1;0;2

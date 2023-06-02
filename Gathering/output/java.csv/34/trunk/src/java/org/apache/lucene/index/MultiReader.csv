@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultiReader.hasNorms( String field );3;2;7
+MultiReader.MultiReader( IndexReader [ ] subReaders );1;0;3
+MultiReader.getFieldNames( IndexReader . FieldOption fieldNames );1;0;4
+***not in a method***;0;1;0
+MultiReader.getTermFreqVector( int docNumber , String field , TermVectorMapper mapper );1;1;5
+MultiReader.getTermFreqVector( int docNumber , TermVectorMapper mapper );1;1;5
+MultiReader.norms( String field , byte [ ] result , int offset );5;7;9
+MultiReader.getTermFreqVector( int n , String field );1;1;5
+MultiReader.numDocs( );3;5;9
+MultiReader.reopen( );12;11;46
+MultiReader.doClose( );3;2;9
+MultiReader.isOptimized( );1;0;3
+MultiReader.initialize( IndexReader [ ] subReaders , boolean closeSubReaders );4;5;18
+MultiReader.document( int n , FieldSelector fieldSelector );1;1;5
+MultiReader.terms( );1;0;4
+MultiReader.doDelete( int n );1;2;6
+MultiReader.fakeNorms( );2;1;4
+MultiReader.termPositions( );1;0;4
+MultiReader.norms( String field );4;4;13
+MultiReader.MultiReader( IndexReader [ ] subReaders , boolean closeSubReaders );1;0;3
+MultiReader.isDeleted( int n );1;1;4
+MultiReader.readerIndex( int n );1;0;3
+MultiReader.maxDoc( );1;0;3
+MultiReader.getVersion( );1;0;3
+MultiReader.doCommit( );2;2;4
+MultiReader.terms( Term term );1;0;4
+MultiReader.doSetNorm( int n , String field , byte value );1;1;7
+MultiReader.getSubReaders( );1;0;3
+MultiReader.getTermFreqVectors( int n );1;1;5
+MultiReader.isCurrent( );3;3;8
+MultiReader.hasDeletions( );1;0;3
+MultiReader.docFreq( Term t );2;3;7
+MultiReader.termDocs( );1;0;4
+MultiReader.doUndeleteAll( );2;3;6

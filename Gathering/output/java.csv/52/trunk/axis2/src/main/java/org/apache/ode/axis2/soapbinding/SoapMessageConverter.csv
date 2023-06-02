@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SoapMessageConverter.parseSoapRequest( org . apache . ode . bpel . iapi . Message odeMessage , SOAPEnvelope envelope , Operation op );5;4;13
+SoapMessageConverter.SoapMessageConverter( Definition def , QName serviceName , String portName );10;7;34
+SoapMessageConverter.getSOAPHeaders( ElementExtensible eee );1;0;4
+SoapMessageConverter.createSoapHeaders( SOAPEnvelope soapEnv , List < SOAPHeader > headerDefs , Message msgdef , Map < String , Node > headers );6;3;12
+SoapMessageConverter.extractSoapBodyParts( org . apache . ode . bpel . iapi . Message message , org . apache . axiom . soap . SOAPBody soapBody , SOAPBody bodyDef , Message msg , String rpcWrapper );9;5;30
+SoapMessageConverter.handleSoapHeaderPartDef( org . apache . ode . bpel . iapi . Message odeMessage , org . apache . axiom . soap . SOAPHeader header , SOAPHeader headerdef , Message msgType );13;15;19
+SoapMessageConverter.inferFault( Operation operation , SOAPFault flt );2;1;6
+SoapMessageConverter.createSoapRequest( MessageContext msgCtx , org . apache . ode . bpel . iapi . Message message , Operation op );10;10;25
+SoapMessageConverter.getWSAInputAction( String operation );5;4;11
+SoapMessageConverter.parseSoapFault( Element odeMsgEl , SOAPEnvelope envelope , Operation operation );3;2;17
+SoapMessageConverter.getFirstExtensibilityElement( ElementExtensible parent , Class < T > cls );2;0;4
+SoapMessageConverter.createSoapBody( org . apache . axiom . soap . SOAPBody sb , SOAPBody soapBody , Message msgDef , Element message , String rpcWrapper );6;1;13
+SoapMessageConverter.parseSoapResponse( org . apache . ode . bpel . iapi . Message odeMessage , SOAPEnvelope envelope , Operation op );5;4;13
+SoapMessageConverter.createSoapFault( Element message , QName faultName , Operation op );2;1;12
+SoapMessageConverter.buildSoapDetail( Element message , QName faultName , Operation op );6;5;17
+SoapMessageConverter.getSOAPBody( ElementExtensible ee );1;0;3
+SoapMessageConverter.createSoapResponse( MessageContext msgCtx , org . apache . ode . bpel . iapi . Message message , Operation op );11;11;26
+SoapMessageConverter.handleSoapHeaderDef( SOAPEnvelope soapEnv , SOAPHeader headerdef , Message msgdef , Map < String , Node > headers );13;11;24
+SoapMessageConverter.getSoapAction( String operation );3;1;8
+SoapMessageConverter.toFaultDetail( QName fault , Element message );4;3;8
+SoapMessageConverter.findHeaderPartName( List < SOAPHeader > headerDefs , QName elmtName );4;0;10
+SoapMessageConverter.extractSoapHeaderParts( org . apache . ode . bpel . iapi . Message message , org . apache . axiom . soap . SOAPHeader soapHeader , List < SOAPHeader > headerDefs , Message msg );3;0;10

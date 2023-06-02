@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SessionImporter.SessionImporter( NodeImpl importTargetNode , SessionImpl session , int uuidBehavior );1;0;8
+SessionImporter.endNode( NodeInfo nodeInfo );1;0;3
+SessionImporter.resolveUUIDConflict( NodeImpl parent , NodeImpl conflicting , NodeInfo nodeInfo );9;5;42
+SessionImporter.createNode( NodeImpl parent , Name nodeName , Name nodeTypeName , Name [ ] mixinNames , NodeId id );4;4;11
+SessionImporter.startNode( NodeInfo nodeInfo , List propInfos );17;13;62
+SessionImporter.start( );1;0;2
+SessionImporter.end( );7;5;32

@@ -1,0 +1,60 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ActionModel.ActionModel( StrutsApp parent );1;0;3
+ActionModel.getRoles( );1;0;3
+ActionModel.setFormClass( String formClass );1;0;3
+ActionModel.isSimpleAction( );1;0;3
+ActionModel.setFormBeanName( String formBeanName );1;0;3
+ActionModel.setType( String type );1;0;3
+ActionModel.getPrefix( );1;0;3
+ActionModel.setScope( String scope );1;0;3
+ActionModel.getSuffix( );1;0;3
+ActionModel.getFormClass( );1;0;3
+ActionModel.addSetProperty( XmlModelWriter xw , Element element , String propertyName , Boolean propertyValue );2;1;3
+ActionModel.isReadonly( );1;0;3
+ActionModel.getScope( );2;1;3
+ActionModel.getName( );1;0;3
+ActionModel.getFormBeanName( );1;0;3
+ActionModel.setSuffix( String suffix );1;0;3
+ActionModel.getInput( );1;0;3
+ActionModel.addSetProperty( XmlModelWriter xw , Element element , String propertyName , String propertyValue );1;0;3
+ActionModel.getParameter( );1;0;3
+ActionModel.getInclude( );1;0;3
+ActionModel.setForward( String forward );1;0;3
+ActionModel.getAttribute( );1;0;3
+ActionModel.setName( String name );1;0;3
+ActionModel.setUnqualifiedActionPath( String unqualifiedActionPath );1;0;3
+ActionModel.addSetProperty( XmlModelWriter xw , Element element , String propertyName , boolean propertyValue );2;0;3
+ActionModel.setPreventDoubleSubmit( boolean preventDoubleSubmit );1;0;3
+ActionModel.setPath( String path );1;0;3
+ActionModel.ActionModel( String path , String formName , StrutsApp parent );1;0;5
+ActionModel.getType( );1;0;3
+ActionModel.addException( ExceptionModel em );1;0;3
+ActionModel.getActionPath( );1;0;3
+ActionModel.setRoles( String roles );1;0;3
+ActionModel.setAttribute( String attribute );1;0;3
+ActionModel.isUnknown( );1;0;3
+ActionModel.setLoginRequired( Boolean loginRequired );1;0;3
+ActionModel.setActionName( String actionName );1;1;3
+ActionModel.setPrefix( String prefix );1;0;3
+ActionModel.getPath( boolean useUnqualifiedPath );3;2;10
+ActionModel.getDefaultForwardName( );1;0;3
+ActionModel.setValidate( boolean validate );1;0;3
+ActionModel.getUnqualifiedActionPath( );1;0;3
+ActionModel.setDefaultForwardName( String defaultForwardName );1;0;3
+ActionModel.setUnknown( boolean unknown );1;0;3
+ActionModel.isValidate( );1;0;3
+ActionModel.getPath( );1;0;3
+ActionModel.setParameter( String parameter );1;0;3
+ActionModel.setInclude( String include );1;0;3
+ActionModel.getMapString( Map map );2;0;9
+ActionModel.setFormMember( String formMember );1;0;3
+ActionModel.setSimpleAction( boolean simpleAction );1;0;3
+ActionModel.isOverloaded( );1;0;3
+ActionModel.addConditionalForward( String expression , String forwardName );2;1;4
+ActionModel.getFormMember( );1;0;3
+ActionModel.getForward( );1;0;3
+ActionModel.writeToElement( XmlModelWriter xw , Element element );6;7;41
+ActionModel.setFormBeanMessageResourcesKey( String formBeanMessageResourcesKey );1;0;3
+ActionModel.setInput( String input );1;0;3
+ActionModel.setOverloaded( boolean overloaded );1;0;3
+ActionModel.setReadonly( Boolean readonly );1;0;3

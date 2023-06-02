@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DbDirectory.DbDirectory( Transaction txn , Database files , Database blocks , int flags );2;1;7
+DbDirectory.close( );1;0;3
+DbDirectory.createOutput( String name );1;0;3
+DbDirectory.touchFile( String name );2;0;7
+DbDirectory.fileModified( String name );2;0;6
+DbDirectory.openInput( String name );1;0;3
+DbDirectory.renameFile( String from , String to );1;0;3
+DbDirectory.setTransaction( Transaction txn );2;1;3
+DbDirectory.fileExists( String name );1;0;3
+DbDirectory.deleteFile( String name );1;0;3
+DbDirectory.makeLock( String name );1;0;3
+DbDirectory.flush( );2;0;5
+DbDirectory.DbDirectory( DbTxn txn , Db files , Db blocks , int flags );1;0;7
+DbDirectory.list( );5;5;36
+DbDirectory.DbDirectory( Transaction txn , Database files , Database blocks );1;0;3
+DbDirectory.fileLength( String name );2;0;6
+DbDirectory.setTransaction( DbTxn txn );1;0;3

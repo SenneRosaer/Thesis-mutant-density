@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultContextManager.existsReservedContext( String name );2;0;12
+DefaultContextManager.dispose( );2;1;11
+DefaultContextManager.getReservedContext( String name );2;0;14
+DefaultContextManager.existsContext( String name );4;3;14
+DefaultContextManager.deleteContext( String name );7;2;24
+DefaultContextManager.contextualize( Context context );1;0;3
+DefaultContextManager.createContext( String name , String loadURI , String saveURI );7;2;32
+DefaultContextManager.getContext( String name );5;1;23
+DefaultContextManager.service( ServiceManager manager );1;0;7
+DefaultContextManager.isReservedContextName( String name );5;5;23
+DefaultContextManager.getSession( boolean create );1;0;4
+DefaultContextManager.hasSessionContext( );2;2;10
+DefaultContextManager.getSessionContexts( Session session );2;1;9

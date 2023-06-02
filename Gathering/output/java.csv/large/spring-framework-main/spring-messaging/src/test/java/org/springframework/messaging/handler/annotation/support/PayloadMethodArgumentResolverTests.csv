@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PayloadMethodArgumentResolverTests.resolveRequiredEmpty( );2;0;5
+PayloadMethodArgumentResolverTests.resolveRequired( );2;0;5
+PayloadMethodArgumentResolverTests.setup( );1;0;14
+PayloadMethodArgumentResolverTests.resolveFailValidationNoConversionNecessary( );2;0;5
+PayloadMethodArgumentResolverTests.resolveRequiredEmptyNonAnnotatedParameter( );2;0;5
+PayloadMethodArgumentResolverTests.supportsParameter( );1;0;8
+PayloadMethodArgumentResolverTests.resolveNonAnnotatedParameter( );3;0;7
+PayloadMethodArgumentResolverTests.resolveNonConvertibleParam( );2;0;6
+PayloadMethodArgumentResolverTests.resolveNonAnnotatedParameterFailValidation( );2;0;5
+PayloadMethodArgumentResolverTests.resolveValidation( );2;0;4
+PayloadMethodArgumentResolverTests.resolveNotRequired( );4;0;8
+PayloadMethodArgumentResolverTests.testValidator( );3;0;15
+PayloadMethodArgumentResolverTests.supports( Class < ? > clazz );1;0;3
+PayloadMethodArgumentResolverTests.resolveSpelExpressionNotSupported( );2;0;5
+PayloadMethodArgumentResolverTests.handleMessage( @ Payload String param , @ Payload ( required = false ) String paramNotRequired , @ Payload ( required = true ) Locale nonConvertibleRequiredParam , @ Payload ( "foo.bar" ) String paramWithSpelExpression , @ MyValid @ Payload String validParam , @ Validated String validParamNotAnnotated , String paramNotAnnotated );1;0;2
+PayloadMethodArgumentResolverTests.resolveFailValidation( );2;0;5
+PayloadMethodArgumentResolverTests.validate( Object target , Errors errors );2;0;6

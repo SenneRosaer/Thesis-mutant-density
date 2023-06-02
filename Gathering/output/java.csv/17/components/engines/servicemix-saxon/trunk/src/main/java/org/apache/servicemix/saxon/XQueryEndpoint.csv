@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XQueryEndpoint.transform( MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );1;0;4
+XQueryEndpoint.validate( );4;5;5
+XQueryEndpoint.getQuery( );1;0;3
+XQueryEndpoint.setQuery( String query );1;0;3
+XQueryEndpoint.setOutputProperties( Properties outputProperties );1;0;3
+XQueryEndpoint.queryContent( XQueryExpression expression , MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );4;1;23
+XQueryEndpoint.start( );2;1;11
+XQueryEndpoint.configureQuery( DynamicQueryContext dynamicEnv , MessageExchange exchange , NormalizedMessage in );5;1;23
+XQueryEndpoint.compileQuery( );3;2;8
+XQueryEndpoint.createQuery( MessageExchange exchange , NormalizedMessage in );3;1;12
+XQueryEndpoint.getOutputProperties( );1;0;3

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractPropertyResolver.containsProperty( String key );1;1;3
+AbstractPropertyResolver.setIgnoreUnresolvableNestedPlaceholders( boolean ignoreUnresolvableNestedPlaceholders );1;0;3
+AbstractPropertyResolver.resolveNestedPlaceholders( String value );3;0;7
+AbstractPropertyResolver.setPlaceholderPrefix( String placeholderPrefix );1;0;4
+AbstractPropertyResolver.getProperty( String key , String defaultValue );2;1;4
+AbstractPropertyResolver.setValueSeparator( @ Nullable String valueSeparator );1;0;3
+AbstractPropertyResolver.setRequiredProperties( String ... requiredProperties );1;0;3
+AbstractPropertyResolver.setConversionService( ConfigurableConversionService conversionService );1;0;4
+AbstractPropertyResolver.resolveRequiredPlaceholders( String text );2;1;6
+AbstractPropertyResolver.doResolvePlaceholders( String text , PropertyPlaceholderHelper helper );1;0;3
+AbstractPropertyResolver.getConversionService( );3;2;13
+AbstractPropertyResolver.convertValueIfNecessary( Object value , @ Nullable Class < T > targetType );4;2;13
+AbstractPropertyResolver.getRequiredProperty( String key );2;1;7
+AbstractPropertyResolver.getProperty( String key );1;0;3
+AbstractPropertyResolver.createPlaceholderHelper( boolean ignoreUnresolvablePlaceholders );1;0;4
+AbstractPropertyResolver.getRequiredProperty( String key , Class < T > valueType );2;1;7
+AbstractPropertyResolver.getProperty( String key , Class < T > targetType , T defaultValue );2;1;4
+AbstractPropertyResolver.validateRequiredProperties( );4;2;11
+AbstractPropertyResolver.resolvePlaceholders( String text );2;1;6
+AbstractPropertyResolver.setPlaceholderSuffix( String placeholderSuffix );1;0;4

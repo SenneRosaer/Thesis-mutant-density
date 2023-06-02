@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractEncoderMethodReturnValueHandler.getEncoders( );1;0;3
+AbstractEncoderMethodReturnValueHandler.AbstractEncoderMethodReturnValueHandler( List < Encoder < ? > > encoders , ReactiveAdapterRegistry registry );1;0;6
+AbstractEncoderMethodReturnValueHandler.encodeContent( @ Nullable Object content , MethodParameter returnType , DataBufferFactory bufferFactory , @ Nullable MimeType mimeType , Map < String , Object > hints );11;11;25
+AbstractEncoderMethodReturnValueHandler.getElementType( ReactiveAdapter adapter , ResolvableType type );3;1;11
+AbstractEncoderMethodReturnValueHandler.encodeValue( Object element , ResolvableType elementType , @ Nullable Encoder < T > encoder , DataBufferFactory bufferFactory , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );3;2;10
+AbstractEncoderMethodReturnValueHandler.getAdapterRegistry( );1;0;3
+AbstractEncoderMethodReturnValueHandler.handleReturnValue( @ Nullable Object returnValue , MethodParameter returnType , Message < ? > message );2;1;13
+AbstractEncoderMethodReturnValueHandler.getEncoder( ResolvableType elementType , @ Nullable MimeType mimeType );4;0;8
+AbstractEncoderMethodReturnValueHandler.supportsReturnType( MethodParameter returnType );1;0;3

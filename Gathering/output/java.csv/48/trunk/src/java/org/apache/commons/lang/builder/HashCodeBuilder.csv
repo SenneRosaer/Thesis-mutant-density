@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HashCodeBuilder.reflectionHashCode( Object object );1;0;3
+HashCodeBuilder.append( Object object );11;4;28
+HashCodeBuilder.appendSuper( int superHashCode );1;2;4
+HashCodeBuilder.isRegistered( Object value );1;0;3
+HashCodeBuilder.append( char value );1;2;4
+HashCodeBuilder.append( float [ ] array );3;4;10
+HashCodeBuilder.append( short value );1;2;4
+HashCodeBuilder.append( boolean value );2;2;4
+HashCodeBuilder.reflectionHashCode( int initialNonZeroOddNumber , int multiplierNonZeroOddNumber , Object object , boolean testTransients );1;0;4
+HashCodeBuilder.append( long [ ] array );3;4;10
+HashCodeBuilder.append( char [ ] array );3;4;10
+HashCodeBuilder.append( double value );1;0;3
+HashCodeBuilder.append( short [ ] array );3;4;10
+HashCodeBuilder.append( int value );1;2;4
+HashCodeBuilder.unregister( Object value );1;0;3
+HashCodeBuilder.toHashCode( );1;0;3
+HashCodeBuilder.append( byte value );1;2;4
+HashCodeBuilder.append( float value );1;2;4
+HashCodeBuilder.initialValue( );1;0;3
+HashCodeBuilder.reflectionHashCode( Object object , String [ ] excludeFields );1;0;3
+HashCodeBuilder.reflectionHashCode( int initialNonZeroOddNumber , int multiplierNonZeroOddNumber , Object object , boolean testTransients , Class reflectUpToClass );1;0;4
+HashCodeBuilder.reflectionHashCode( int initialNonZeroOddNumber , int multiplierNonZeroOddNumber , Object object , boolean testTransients , Class reflectUpToClass , String [ ] excludeFields );4;4;13
+HashCodeBuilder.HashCodeBuilder( );1;0;4
+HashCodeBuilder.register( Object value );1;0;3
+HashCodeBuilder.reflectionHashCode( int initialNonZeroOddNumber , int multiplierNonZeroOddNumber , Object object );1;0;3
+HashCodeBuilder.reflectionHashCode( Object object , boolean testTransients );1;0;3
+HashCodeBuilder.append( long value );1;4;4
+HashCodeBuilder.reflectionHashCode( Object object , Collection excludeFields );1;0;3
+HashCodeBuilder.reflectionAppend( Object object , Class clazz , HashCodeBuilder builder , boolean useTransients , String [ ] excludeFields );10;12;27
+HashCodeBuilder.append( byte [ ] array );3;4;10
+HashCodeBuilder.append( boolean [ ] array );3;4;10
+HashCodeBuilder.append( double [ ] array );3;4;10
+HashCodeBuilder.append( Object [ ] array );3;4;10
+HashCodeBuilder.append( int [ ] array );3;4;10
+HashCodeBuilder.HashCodeBuilder( int initialNonZeroOddNumber , int multiplierNonZeroOddNumber );5;6;16
+HashCodeBuilder.getRegistry( );1;0;3

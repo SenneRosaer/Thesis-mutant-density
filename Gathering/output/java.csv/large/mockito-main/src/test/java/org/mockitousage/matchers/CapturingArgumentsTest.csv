@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CapturingArgumentsTest.should_allow_assertions_on_last_argument( );1;0;6
+CapturingArgumentsTest.should_capture_one_arg_even_when_using_vararg_captor_on_nonvararg_method( );1;0;6
+CapturingArgumentsTest.should_say_something_smart_when_misused( );2;0;8
+CapturingArgumentsTest.should_capture_when_stubbing_only_when_entire_invocation_matches( );1;0;7
+CapturingArgumentsTest.captures_correctly_when_captor_used_on_pure_vararg_method( );1;0;6
+CapturingArgumentsTest.should_capture_by_type_using_annotation( );1;0;6
+CapturingArgumentsTest.should_capture_by_type( );2;0;7
+CapturingArgumentsTest.should_capture_multiple_invocations_with_array_captor( );1;0;9
+CapturingArgumentsTest.should_not_capture_int_by_creating_captor_with_primitive( );1;0;5
+CapturingArgumentsTest.should_print_captor_matcher( );2;0;9
+CapturingArgumentsTest.should_capture_byte_vararg_by_creating_captor_with_primitive_2_args( );1;0;7
+CapturingArgumentsTest.should_allow_assertions_on_captured_argument( );1;0;6
+CapturingArgumentsTest.should_capture_single_vararg_with_array_captor( );1;0;7
+CapturingArgumentsTest.should_not_capture_empty_vararg_with_single_captor( );1;0;5
+CapturingArgumentsTest.should_capture_int_by_creating_captor_with_primitive( );1;0;6
+CapturingArgumentsTest.should_not_capture_multiple_vararg_with_single_captor( );1;0;5
+CapturingArgumentsTest.should_allow_capturing_for_stubbing( );1;0;6
+CapturingArgumentsTest.captures_correctly_when_captor_used_multiple_times( );1;0;11
+CapturingArgumentsTest.should_capture_multiple_invocations_with_captor( );1;0;9
+CapturingArgumentsTest.should_allow_construction_of_captor_for_a_more_specific_type( );2;0;4
+CapturingArgumentsTest.should_capture_multiple_vararg_with_array_captor( );1;0;6
+Person.getAge( );1;0;3
+CapturingArgumentsTest.should_not_capture_multiple_vararg_some_null_with_single_captor( );1;0;5
+CapturingArgumentsTest.should_capture_int_by_creating_captor_with_primitive_wrapper( );1;0;6
+Person.Person( Integer age );1;0;3
+CapturingArgumentsTest.should_capture_single_vararg_with_single_captor( );1;0;6
+CapturingArgumentsTest.should_capture_when_full_arg_list_matches( );1;0;8
+CapturingArgumentsTest.should_capture_multiple_vararg_some_null_with_array_captor( );1;0;6
+CapturingArgumentsTest.should_capture_byte_vararg_by_creating_captor_with_primitive_array( );1;0;8
+CapturingArgumentsTest.should_capture_empty_vararg_with_array_captor( );1;0;7
+CapturingArgumentsTest.should_capture_multiple_vararg_with_multiple_captor( );1;0;7
+BulkEmailService.BulkEmailService( EmailService service );1;0;3
+CapturingArgumentsTest.should_always_capture_nulls( );4;0;7
+BulkEmailService.email( Integer ... personId );2;0;6
+CapturingArgumentsTest.should_capture_byte_vararg_by_creating_captor_with_primitive_wrapper( );1;0;7
+CapturingArgumentsTest.should_capture_byte_vararg_by_creating_captor_with_primitive( );1;0;7
+CapturingArgumentsTest.should_allow_construction_of_captor_for_parameterized_type_in_a_convenient_way( );1;0;5
+CapturingArgumentsTest.should_allow_assertions_on_all_captured_arguments( );1;0;7
+CapturingArgumentsTest.should_allow_assertions_on_captured_null( );1;0;6

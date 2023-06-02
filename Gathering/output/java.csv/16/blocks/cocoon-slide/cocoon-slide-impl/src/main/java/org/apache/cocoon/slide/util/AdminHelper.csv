@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AdminHelper.getUriFromPath( NamespaceAccessToken nat , String path );3;3;11
+Group.Group( String uri , List members );1;0;4
+AdminHelper.listGroups( NamespaceAccessToken nat , String caller , String path );5;8;33
+AdminHelper.addRole( NamespaceAccessToken nat , String caller , String rolename );3;1;26
+AdminHelper.listPrivileges( NamespaceAccessToken nat , String caller );1;0;3
+Group.toString( );1;0;3
+AdminHelper.listPermissions( NamespaceAccessToken nat , String caller , String path );4;0;24
+AdminHelper.removePermission( NamespaceAccessToken nat , String caller , String path , String subject , String action );3;0;20
+AdminHelper.addGroup( NamespaceAccessToken nat , String caller , String groupname );3;1;26
+AdminHelper.addLock( NamespaceAccessToken nat , String caller , String path , String subject , String type , String expiration , String exclusive , String inherit );3;3;23
+AdminHelper.listLocks( NamespaceAccessToken nat , String caller , String path );4;0;23
+AdminHelper.listUsers( NamespaceAccessToken nat , String caller );1;0;3
+AdminHelper.removeLock( NamespaceAccessToken nat , String caller , String uri , String lockId );3;0;18
+AdminHelper.addMember( NamespaceAccessToken nat , String caller , String objectUri , String subjectUri );6;4;37
+AdminHelper.addUser( NamespaceAccessToken nat , String caller , String username , String password );3;1;28
+Group.getUri( );1;0;3
+AdminHelper.removeObject( NamespaceAccessToken nat , String caller , String objectUri );4;1;26
+Group.getMembers( );1;0;3
+AdminHelper.addPermission( NamespaceAccessToken nat , String caller , String path , String subject , String action , String inheritable , String negative );4;0;26
+AdminHelper.listObjects( NamespaceAccessToken nat , String caller , String path );2;0;11
+AdminHelper.changePassword( NamespaceAccessToken nat , String caller , String userUri , String password );3;0;22
+AdminHelper.removeMember( NamespaceAccessToken nat , String caller , String objectUri , String subjectUri );8;10;45
+AdminHelper.login( NamespaceAccessToken nat , String userId , String password );2;1;16

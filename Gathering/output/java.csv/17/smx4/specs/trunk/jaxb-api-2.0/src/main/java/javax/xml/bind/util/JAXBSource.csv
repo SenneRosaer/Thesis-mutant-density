@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Reader.parse( String systemId );1;0;3
+Reader.setEntityResolver( EntityResolver resolver );1;0;3
+Reader.setContentHandler( ContentHandler handler );1;0;3
+Reader.setErrorHandler( ErrorHandler handler );1;0;3
+JAXBSource.JAXBSource( final Marshaller marshaller , final Object contentObject );3;2;10
+Reader.getDTDHandler( );1;0;3
+Reader.setFeature( String name , boolean value );5;3;9
+Reader.parse( InputSource input );1;0;3
+Reader.Reader( Marshaller marshaller , Object contentObject );1;0;5
+Reader.getFeature( String name );3;0;9
+JAXBSource.JAXBSource( JAXBContext context , Object contentObject );3;2;10
+Reader.getErrorHandler( );1;0;3
+Reader.setProperty( String name , Object value );2;0;7
+Reader.getEntityResolver( );1;0;3
+Reader.parse( );3;3;11
+Reader.getProperty( String name );2;0;6
+Reader.getContentHandler( );1;0;3
+Reader.setDTDHandler( DTDHandler handler );1;0;3

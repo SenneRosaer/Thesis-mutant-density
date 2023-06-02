@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DisjunctionMaxWeight.DisjunctionMaxWeight( Searcher searcher );2;2;5
+DisjunctionMaxWeight.sumOfSquaredWeights( );2;9;9
+DisjunctionMaxQuery.rewrite( IndexReader reader );8;9;22
+DisjunctionMaxWeight.getValue( );1;0;1
+DisjunctionMaxQuery.equals( Object o );4;5;7
+DisjunctionMaxQuery.iterator( );1;0;3
+DisjunctionMaxQuery.add( Query query );1;0;3
+DisjunctionMaxWeight.getQuery( );1;0;1
+DisjunctionMaxQuery.createWeight( Searcher searcher );1;0;3
+DisjunctionMaxQuery.add( Collection disjuncts );1;0;3
+DisjunctionMaxQuery.clone( );1;0;5
+DisjunctionMaxWeight.normalize( float norm );2;3;5
+DisjunctionMaxQuery.hashCode( );1;2;5
+DisjunctionMaxQuery.toString( String field );6;6;24
+DisjunctionMaxQuery.extractTerms( Set terms );2;2;5
+DisjunctionMaxWeight.explain( IndexReader reader , int doc );5;8;17
+DisjunctionMaxWeight.scorer( IndexReader reader );3;3;10
+DisjunctionMaxQuery.DisjunctionMaxQuery( float tieBreakerMultiplier );1;0;3
+DisjunctionMaxQuery.DisjunctionMaxQuery( Collection disjuncts , float tieBreakerMultiplier );1;0;4

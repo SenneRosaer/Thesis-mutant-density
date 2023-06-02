@@ -1,0 +1,54 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AspectJExpressionPointcutTests.setUp( );2;0;8
+AspectJExpressionPointcutTests.testMultipleAndSubstitutions( );1;0;5
+BeanA.setName( String name );1;0;3
+AspectJExpressionPointcutTests.testFriendlyErrorOnNoLocation2ArgMatching( );1;0;6
+AspectJExpressionPointcutTests.testFriendlyErrorOnNoLocation3ArgMatching( );1;0;6
+AspectJExpressionPointcutTests.testAnnotationOnMethodArgumentsWithFQN( );1;0;22
+AspectJExpressionPointcutTests.testMatchVarargs( );1;0;20
+CallCountingInterceptor.reset( );1;0;3
+HasTransactionalAnnotation.foo( );1;0;2
+AspectJExpressionPointcutTests.testTarget( );1;0;3
+AspectJExpressionPointcutTests.testMatchAnnotationOnClassWithSubpackageWildcard( );1;0;9
+AspectJExpressionPointcutTests.testWithUnsupportedPointcutPrimitive( );1;0;6
+HasGeneric.setPhoneNumbers( List < String > numbers );1;0;2
+AspectJExpressionPointcutTests.testMatchWithArgs( );1;0;11
+AspectJExpressionPointcutTests.testFriendlyErrorOnNoLocationClassMatching( );1;0;6
+AspectJExpressionPointcutTests.assertMatchesTestBeanClass( ClassFilter classFilter );1;0;3
+AspectJExpressionPointcutTests.testAnnotationOnMethodWithWildcard( );1;0;13
+AspectJExpressionPointcutTests.testMatchExplicit( );1;0;10
+AspectJExpressionPointcutTests.assertMatchesGetAge( MethodMatcher methodMatcher );1;0;3
+AspectJExpressionPointcutTests.getAdvisedProxy( String pointcutExpression , CallCountingInterceptor interceptor );1;0;11
+CallCountingInterceptor.invoke( MethodInvocation methodInvocation );1;1;4
+AspectJExpressionPointcutTests.testWithinRootAndSubpackages( );1;0;3
+HasTransactionalAnnotation.bar( String foo );1;0;3
+AspectJExpressionPointcutTests.testThisOrTarget( String which );1;0;12
+OtherIOther.absquatulate( );1;0;2
+AspectJExpressionPointcutTests.getPointcut( String expression );1;0;5
+AspectJExpressionPointcutTests.testAnnotationOnDynamicProxyMethod( );1;0;9
+BeanA.getAge( );1;0;3
+AspectJExpressionPointcutTests.testWithinPackage( boolean matchSubpackages );2;1;16
+ProcessesSpringAnnotatedParameters.takesAnnotatedParameters( TestBean tb , SpringAnnotated sa );1;0;2
+HasGeneric.setPartners( List < ? > partners );1;0;2
+AspectJExpressionPointcutTests.testThis( );1;0;3
+AspectJExpressionPointcutTests.testMatchAnnotationOnClass( String expression );1;0;10
+AspectJExpressionPointcutTests.testAnnotationOnCglibProxyMethod( );1;0;9
+AspectJExpressionPointcutTests.testAnnotationOnMethodWithFQN( );1;0;11
+AspectJExpressionPointcutTests.testMatchGenericArgument( );1;0;11
+CallCountingInterceptor.getCount( );1;0;3
+AspectJExpressionPointcutTests.testAndSubstitution( );1;0;5
+SpringAnnotated.foo( );1;0;2
+HasGeneric.setFriends( List < TestBean > friends );1;0;2
+AspectJExpressionPointcutTests.testWithinRootPackage( );1;0;3
+HasGeneric.setEnemies( List < TestBean > enemies );1;0;2
+AspectJExpressionPointcutTests.testMatchAnnotationOnClassWithoutBinding( );1;0;4
+AspectJExpressionPointcutTests.testMatchAnnotationOnClassWithExactPackageWildcard( );1;0;4
+AspectJExpressionPointcutTests.testMatchAnnotationOnClassWithAtWithin( );1;0;4
+AspectJExpressionPointcutTests.testDynamicMatchingProxy( );1;0;10
+AspectJExpressionPointcutTests.testAnnotationOnMethodArgumentsWithWildcards( );1;0;19
+MyTemplate.queryForInt( String sql , Object ... params );1;0;3
+AspectJExpressionPointcutTests.testMatchWithTypePattern( );1;0;10
+AspectJExpressionPointcutTests.testInvalidExpression( );1;0;5
+AspectJExpressionPointcutTests.testSimpleAdvice( );1;0;10
+ProcessesSpringAnnotatedParameters.takesNoAnnotatedParameters( TestBean tb , BeanA tb3 );1;0;2
+BeanB.setName( String name );1;0;3

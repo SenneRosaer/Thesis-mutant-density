@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UriParser.extractScheme( final String uri , final StringBuffer buffer );15;24;32
+UriParser.encode( String [ ] strings );3;3;11
+UriParser.canonicalizePath( StringBuffer buffer , int offset , int length , FileNameParser fileNameParser );10;30;47
+UriParser.encode( final String decodedStr );1;0;3
+UriParser.UriParser( );1;0;2
+UriParser.checkUriEncoding( String uri );1;0;3
+UriParser.extractFirstElement( final StringBuffer name );5;6;24
+UriParser.extractQueryString( StringBuffer name );3;4;12
+UriParser.normalisePath( final StringBuffer path );21;40;69
+UriParser.decode( final String encodedStr );3;2;13
+UriParser.encode( final StringBuffer buffer , final int offset , final int length , final char [ ] reserved );7;15;28
+UriParser.encode( final String decodedStr , final char [ ] reserved );2;1;9
+UriParser.decode( final StringBuffer buffer , final int offset , final int length );6;19;30
+UriParser.fixSeparators( final StringBuffer name );3;3;14
+UriParser.appendEncoded( final StringBuffer buffer , final String unencodedValue , final char [ ] reserved );1;0;5
+UriParser.extractScheme( final String uri );1;0;3

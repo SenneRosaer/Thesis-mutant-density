@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InvocableHelper.initMessageMappingMethod( HandlerMethod handlerMethod );1;0;5
+InvocableHelper.getReactiveAdapterRegistry( );1;0;3
+InvocableHelper.addReturnValueHandlers( List < ? extends HandlerMethodReturnValueHandler > handlers );1;0;3
+InvocableHelper.handleMessage( HandlerMethod handlerMethod , Message < ? > message );4;1;21
+InvocableHelper.addArgumentResolvers( List < ? extends HandlerMethodArgumentResolver > resolvers );1;0;3
+InvocableHelper.setReactiveAdapterRegistry( ReactiveAdapterRegistry registry );1;0;4
+InvocableHelper.registerExceptionHandlerAdvice( MessagingAdviceBean bean , AbstractExceptionHandlerMethodResolver resolver );1;0;3
+InvocableHelper.initExceptionHandlerMethod( HandlerMethod handlerMethod , Throwable ex );9;4;37
+InvocableHelper.handleReturnValue( @ Nullable Object returnValue , HandlerMethod handlerMethod , Message < ? > message );1;0;4
+InvocableHelper.InvocableHelper( Function < Class < ? > , AbstractExceptionHandlerMethodResolver > exceptionMethodResolverFactory );1;0;3
+InvocableHelper.getArgumentResolvers( );1;0;3

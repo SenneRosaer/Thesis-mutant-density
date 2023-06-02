@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ThreadScope.importClass( Context ctx , Scriptable thisObj , Object [ ] args , Function funObj );3;4;12
+ThreadScope.setupPackages( ClassLoader cl );3;3;17
+FOM_JavaScriptInterpreter.updateSourcePath( );2;1;5
+ThreadScope.put( int index , Scriptable start , Object value );3;2;7
+***not in a method***;0;1;0
+ThreadScope.ThreadScope( Global scope );1;1;18
+FOM_JavaScriptInterpreter.compileScript( Context cx , Scriptable scope , Source src );2;1;13
+FOM_JavaScriptInterpreter.setupView( Scriptable scope , FOM_Cocoon cocoon , FOM_WebContinuation kont );3;2;22
+FOM_JavaScriptInterpreter.compileScript( Context cx , String fileName );4;5;21
+FOM_JavaScriptInterpreter.getSessionScope( );3;3;16
+FOM_JavaScriptInterpreter.run( );1;0;3
+FOM_JavaScriptInterpreter.setupContext( Redirector redirector , Context context , ThreadScope thrScope );15;19;55
+ThreadScope.getClassLoader( );1;0;3
+MyClassRepository.getCompiledClass( String className );1;0;3
+FOM_JavaScriptInterpreter.configure( Configuration config );5;5;26
+FOM_JavaScriptInterpreter.callFunction( String funName , List params , Redirector redirector );13;8;71
+FOM_JavaScriptInterpreter.getServiceManager( );1;0;3
+FOM_JavaScriptInterpreter.createThreadScope( );1;0;3
+FOM_JavaScriptInterpreter.getClassLoader( boolean needsRefresh );7;6;29
+FOM_JavaScriptInterpreter.initialize( );4;0;24
+MyClassRepository.addCompiledClass( String className , Source src , byte [ ] contents );2;1;12
+FOM_JavaScriptInterpreter.sourceCompilationError( Source src , String msg );2;1;5
+ThreadScope.setLock( boolean lock );1;0;3
+FOM_JavaScriptInterpreter.findEncoding( PushbackInputStream is );2;0;11
+FOM_JavaScriptInterpreter.setSessionScope( ThreadScope scope );4;1;14
+FOM_JavaScriptInterpreter.process( Scriptable scope , FOM_Cocoon cocoon , String uri , Object bizData , OutputStream out );1;0;4
+MyClassRepository.upToDateCheck( );8;4;44
+FOM_JavaScriptInterpreter.sourceCompiled( Source src );1;0;2
+FOM_JavaScriptInterpreter.handleContinuation( String id , List params , Redirector redirector );9;6;62
+ThreadScope.put( String name , Scriptable start , Object value );5;6;8
+ThreadScope.getClassName( );1;0;3
+FOM_JavaScriptInterpreter.forwardTo( Scriptable scope , FOM_Cocoon cocoon , String uri , Object bizData , FOM_WebContinuation fom_wk , Redirector redirector );2;1;6
+FOM_JavaScriptInterpreter.getDebugger( );2;3;20
+ThreadScope.onExec( );1;0;4

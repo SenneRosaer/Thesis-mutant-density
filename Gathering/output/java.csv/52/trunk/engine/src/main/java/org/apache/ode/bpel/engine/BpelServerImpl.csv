@@ -1,0 +1,66 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BpelServerImpl.setConfigProperties( OdeConfigProperties properties );1;0;3
+BpelServerImpl.createNewMyRoleMex( ODEProcess target , List < MyRoleMessageExchange > meps , InvocationStyle istyle );5;0;15
+BpelServerImpl.stop( );2;1;15
+BpelServerImpl.register( ProcessConf conf );9;5;40
+BpelServerImpl.setBindingContext( BindingContext bc );1;0;3
+BpelServerImpl.getConfigProperties( );1;0;3
+BpelServerImpl.registerMessageExchangeInterceptor( MessageExchangeInterceptor interceptor );1;0;3
+BpelServerImpl.setExecutor( ExecutorService exec );1;0;3
+BpelServerImpl.unregister( QName pid );6;1;26
+***not in a method***;0;3;0
+BpelServerImpl.setScheduler( Scheduler scheduler );1;0;3
+TransactedCallable.call( );1;0;3
+BpelServerImpl.registerExternalVariableEngine( ExternalVariableModule eve );1;0;3
+BpelServerImpl.unregisterExtensionBundle( String nsURI );1;0;3
+BpelServerImpl.assertTransaction( );2;1;4
+BpelServerImpl.newThread( Runnable r );1;1;6
+BpelServerImpl.unregisterBpelEventListeners( );2;0;5
+BpelServerImpl.setTransacted( boolean atomicScope );1;0;2
+BpelServerImpl.onScheduledJob( final JobInfo jobInfo );8;5;34
+BpelServerImpl.deleteProcessDAO( final QName pid );3;0;18
+BpelServerImpl.unregisterMessageExchangeInterceptor( MessageExchangeInterceptor interceptor );1;0;3
+BpelServerImpl.getMessageExchangeByForeignKey( String foreignKey );1;0;3
+BpelServerImpl.debuggingDelay( );3;1;10
+BpelServerImpl.enqueueRunnable( final Runnable runnable );1;0;3
+BpelServerImpl.enqueueTransaction( final Callable < T > transaction );1;0;3
+BpelServerImpl.run( BpelDAOConnection conn );2;1;8
+BpelServerImpl.registerExtensionBundle( ExtensionBundleRuntime bundle );1;0;4
+ServerRunnable.run( );2;0;14
+BpelServerImpl.start( );6;5;39
+BpelServerImpl.BpelServerImpl( );1;0;2
+BpelServerImpl.shutdown( );1;0;12
+TransactedRunnable.run( );1;0;3
+TransactedRunnable.TransactedRunnable( Runnable work );1;0;3
+TransactedCallable.TransactedCallable( Callable < T > work );1;0;3
+BpelServerImpl.unregisterBpelEventListener( BpelEventListener listener );3;0;10
+BpelServerImpl.call( );1;9;7
+BpelServerImpl.setTransactionManager( TransactionManager txm );1;0;3
+BpelServerImpl.setEndpointReferenceContext( EndpointReferenceContext eprContext );1;0;3
+BpelServerImpl.scheduleRunnable( final Runnable runnable );1;0;8
+BpelServerImpl.createNewMyRoleMex( ODEProcess process , final InvocationStyle istyle , final QName targetService , final String operation , final String clientKey );3;3;7
+ServerCallable.ServerCallable( Callable < T > work );1;0;3
+BpelServerImpl.checkState( State i , State j );3;2;7
+BpelServerImpl.fireEvent( BpelEvent event );2;0;5
+BpelServerImpl.route( QName service , Message request );1;0;8
+BpelServerImpl.setDaoConnectionFactory( BpelDAOConnectionFactory daoCF );1;0;3
+ProcessDefReaper.run( );4;0;27
+BpelServerImpl.setMessageExchangeContext( MessageExchangeContext mexContext );1;0;3
+ServerRunnable.ServerRunnable( Runnable work );1;0;3
+ServerCallable.call( );2;0;15
+BpelServerImpl.getSupportedInvocationStyle( QName serviceId );7;4;24
+BpelServerImpl.assertNoTransaction( );2;0;4
+BpelServerImpl.getProcessModel( QName processId );2;1;10
+BpelServerImpl.createMessageExchange( final InvocationStyle istyle , final QName targetService , final String operation , final String clientKey );5;4;20
+BpelServerImpl.setDehydrationPolicy( DehydrationPolicy dehydrationPolicy );1;0;3
+BpelServerImpl.getInMemMexDAO( String mexId );3;1;13
+BpelServerImpl.ticktock( );1;0;3
+BpelServerImpl.init( );2;1;14
+BpelServerImpl.waitForQuiessence( );5;1;21
+BpelServerImpl.getSharedEndpoints( );1;0;3
+BpelServerImpl.getMessageExchange( final String mexId );13;2;45
+BpelServerImpl.run( );1;0;3
+ProcessDefReaper.isMember( ODEProcess o );1;1;3
+BpelServerImpl.registerBpelEventListener( BpelEventListener listener );1;0;4
+BpelServerImpl.getBpelProcess( QName processId );1;0;8
+BpelServerImpl.randomExp( double mean );1;2;4

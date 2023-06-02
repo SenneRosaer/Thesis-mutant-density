@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FilterIndexReader.isCurrent( );1;0;4
+FilterIndexReader.norms( String f , byte [ ] bytes , int offset );1;0;4
+FilterTermEnum.docFreq( );1;0;1
+FilterIndexReader.maxDoc( );1;0;3
+FilterTermEnum.term( );1;0;1
+FilterIndexReader.hasNorms( String field );1;0;4
+FilterIndexReader.getVersion( );1;0;4
+FilterIndexReader.hasDeletions( );1;0;3
+FilterIndexReader.doClose( );1;0;1
+FilterIndexReader.doSetNorm( int d , String f , byte b );1;0;3
+FilterTermDocs.skipTo( int i );1;0;1
+FilterTermDocs.doc( );1;0;1
+FilterIndexReader.docFreq( Term t );1;0;4
+FilterTermDocs.freq( );1;0;1
+FilterIndexReader.termDocs( );1;0;4
+FilterIndexReader.doDelete( int n );1;0;1
+FilterTermDocs.FilterTermDocs( TermDocs in );1;0;1
+FilterTermEnum.close( );1;0;1
+FilterTermPositions.getPayloadLength( );1;0;3
+FilterTermPositions.isPayloadAvailable( );1;0;3
+FilterIndexReader.numDocs( );1;0;3
+FilterTermDocs.seek( Term term );1;0;1
+FilterIndexReader.doUndeleteAll( );1;0;1
+FilterIndexReader.getFieldNames( IndexReader . FieldOption fieldNames );1;0;4
+FilterTermDocs.seek( TermEnum termEnum );1;0;1
+FilterIndexReader.norms( String f );1;0;4
+FilterTermPositions.nextPosition( );1;0;3
+FilterIndexReader.isOptimized( );1;0;4
+FilterTermDocs.close( );1;0;1
+FilterIndexReader.document( int n , FieldSelector fieldSelector );1;0;4
+FilterIndexReader.getTermFreqVectors( int docNumber );1;0;4
+FilterIndexReader.directory( );1;0;3
+FilterTermEnum.FilterTermEnum( TermEnum in );1;0;1
+FilterTermDocs.next( );1;0;1
+FilterTermPositions.FilterTermPositions( TermPositions in );1;0;1
+FilterIndexReader.termPositions( );1;0;4
+FilterIndexReader.getTermFreqVector( int docNumber , String field , TermVectorMapper mapper );1;0;4
+FilterIndexReader.getTermFreqVector( int docNumber , String field );1;0;4
+FilterIndexReader.terms( Term t );1;0;4
+FilterIndexReader.FilterIndexReader( IndexReader in );1;0;4
+FilterTermPositions.getPayload( byte [ ] data , int offset );1;0;3
+FilterIndexReader.terms( );1;0;4
+FilterTermDocs.read( int [ ] docs , int [ ] freqs );1;0;3
+FilterIndexReader.isDeleted( int n );1;0;3
+FilterIndexReader.doCommit( );1;0;1
+FilterTermEnum.next( );1;0;1
+FilterIndexReader.getTermFreqVector( int docNumber , TermVectorMapper mapper );1;0;4

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MatchAllDocsQuery.createWeight( Searcher searcher );1;0;3
+MatchAllDocsQuery.MatchAllDocsQuery( );1;0;2
+MatchAllDocsQuery.extractTerms( Set terms );1;0;2
+MatchAllScorer.doc( );1;0;3
+MatchAllScorer.next( );3;3;9
+MatchAllScorer.explain( int doc );1;0;3
+MatchAllDocsWeight.getValue( );1;0;3
+MatchAllDocsWeight.sumOfSquaredWeights( );1;1;4
+MatchAllScorer.score( );1;0;3
+MatchAllDocsQuery.toString( String field );1;0;6
+MatchAllDocsWeight.explain( IndexReader reader , int doc );2;1;9
+MatchAllDocsWeight.toString( );1;0;3
+MatchAllDocsQuery.equals( Object o );2;2;6
+MatchAllDocsWeight.MatchAllDocsWeight( Searcher searcher );1;0;3
+MatchAllDocsWeight.scorer( IndexReader reader );1;0;3
+MatchAllScorer.MatchAllScorer( IndexReader reader , Similarity similarity , Weight w );1;2;7
+MatchAllDocsWeight.normalize( float queryNorm );1;1;4
+MatchAllDocsQuery.hashCode( );1;1;3
+MatchAllScorer.skipTo( int target );1;1;4
+MatchAllDocsWeight.getQuery( );1;0;3

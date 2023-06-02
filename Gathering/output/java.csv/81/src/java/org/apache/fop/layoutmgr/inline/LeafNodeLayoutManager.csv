@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LeafNodeLayoutManager.addKnuthElementsForBorderPaddingStart( List returnList );3;5;11
+LeafNodeLayoutManager.addAreas( PositionIterator posIter , LayoutContext context );5;4;18
+LeafNodeLayoutManager.hyphenate( Position pos , HyphContext hc );1;0;2
+LeafNodeLayoutManager.offsetArea( InlineArea area , LayoutContext context );1;0;3
+LeafNodeLayoutManager.widthAdjustArea( InlineArea area , LayoutContext context );3;9;13
+LeafNodeLayoutManager.get( LayoutContext context );1;0;3
+LeafNodeLayoutManager.getEffectiveArea( );1;0;3
+LeafNodeLayoutManager.getParentArea( Area childArea );1;0;3
+LeafNodeLayoutManager.addChildArea( Area childArea );1;0;2
+LeafNodeLayoutManager.getWordChars( StringBuffer sbChars , Position pos );1;0;2
+LeafNodeLayoutManager.addKnuthElementsForBorderPaddingEnd( List returnList );3;5;11
+LeafNodeLayoutManager.makeAlignmentContext( LayoutContext context );1;0;3
+LeafNodeLayoutManager.removeWordSpace( List oldList );1;0;3
+LeafNodeLayoutManager.getAllocationIPD( int refIPD );1;0;3
+LeafNodeLayoutManager.LeafNodeLayoutManager( );1;0;2
+LeafNodeLayoutManager.getChangedKnuthElements( List oldList , int alignment );2;0;12
+LeafNodeLayoutManager.applyChanges( List oldList );1;0;4
+LeafNodeLayoutManager.resolved( );1;0;3
+LeafNodeLayoutManager.getNextKnuthElements( LayoutContext context , int alignment );2;1;19
+LeafNodeLayoutManager.setCurrentArea( InlineArea ia );1;0;3
+LeafNodeLayoutManager.LeafNodeLayoutManager( FObj node );1;0;3
+AreaInfo.AreaInfo( short iLS , MinOptMax ipd , boolean bHyph , AlignmentContext alignmentContext );1;0;6
+LeafNodeLayoutManager.addALetterSpaceTo( List oldList );1;0;3
+LeafNodeLayoutManager.setCommonBorderPaddingBackground( CommonBorderPaddingBackground commonBorderPaddingBackground );1;0;3

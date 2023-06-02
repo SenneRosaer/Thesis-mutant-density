@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NullCacheResolver.getCacheNames( CacheOperationInvocationContext < ? > context );1;0;3
+Config.cacheManager( );1;0;3
+Config.runtimeCacheResolver( );1;0;3
+CacheResolverCustomizationTests.noCacheResolved( );1;0;6
+NullCacheResolver.NullCacheResolver( CacheManager cacheManager );1;0;3
+CacheResolverCustomizationTests.unknownCacheResolver( );1;0;5
+CacheResolverCustomizationTests.runtimeResolution( );1;0;14
+Config.namedCacheResolver( );1;0;6
+RuntimeCacheResolver.getCacheNames( CacheOperationInvocationContext < ? > context );1;0;4
+SimpleService.getWithRuntimeCacheResolution( Object key , String cacheName );1;0;3
+SimpleService.noCacheResolved( Object key );1;0;3
+CacheResolverCustomizationTests.setup( );1;0;6
+SimpleService.getWithNamedCacheResolution( Object key );1;0;3
+CacheResolverCustomizationTests.noCustomization( );1;0;7
+CacheResolverCustomizationTests.tearDown( );1;0;3
+SimpleService.getWithCustomCacheResolver( Object key );1;0;3
+Config.secondaryCacheResolver( );1;0;3
+Config.primaryCacheResolver( );1;0;3
+Config.simpleService( );1;0;3
+Config.nullCacheResolver( );1;0;3
+CacheResolverCustomizationTests.customCacheResolver( );1;0;7
+Config.anotherCacheManager( );1;0;3
+CacheResolverCustomizationTests.namedResolution( );1;0;7
+SimpleService.unknownCacheResolver( Object key );1;0;3
+CacheResolverCustomizationTests.customCacheManager( );1;0;7
+SimpleService.getWithCustomCacheManager( Object key );1;0;3
+RuntimeCacheResolver.RuntimeCacheResolver( CacheManager cacheManager );1;0;3
+SimpleService.getSimple( Object key );1;0;3

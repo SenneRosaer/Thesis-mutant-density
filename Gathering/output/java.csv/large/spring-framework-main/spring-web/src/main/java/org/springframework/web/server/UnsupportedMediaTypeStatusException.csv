@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UnsupportedMediaTypeStatusException.getResponseHeaders( );1;0;3
+UnsupportedMediaTypeStatusException.getSupportedMediaTypes( );1;0;3
+UnsupportedMediaTypeStatusException.getContentType( );1;0;3
+UnsupportedMediaTypeStatusException.getBodyType( );1;0;3
+UnsupportedMediaTypeStatusException.getHeaders( );3;1;11
+UnsupportedMediaTypeStatusException.UnsupportedMediaTypeStatusException( @ Nullable MediaType contentType , List < MediaType > supportedTypes );1;0;3
+UnsupportedMediaTypeStatusException.initMessage( @ Nullable MediaType contentType , @ Nullable ResolvableType bodyType );3;2;4
+UnsupportedMediaTypeStatusException.UnsupportedMediaTypeStatusException( @ Nullable String reason , List < MediaType > supportedTypes );1;0;8
+UnsupportedMediaTypeStatusException.UnsupportedMediaTypeStatusException( @ Nullable MediaType contentType , List < MediaType > supportedTypes , @ Nullable HttpMethod method );1;0;3
+UnsupportedMediaTypeStatusException.UnsupportedMediaTypeStatusException( @ Nullable String reason );1;0;3
+UnsupportedMediaTypeStatusException.UnsupportedMediaTypeStatusException( @ Nullable MediaType contentType , List < MediaType > supportedTypes , @ Nullable ResolvableType bodyType );1;0;3
+UnsupportedMediaTypeStatusException.UnsupportedMediaTypeStatusException( @ Nullable MediaType contentType , List < MediaType > supportedTypes , @ Nullable ResolvableType bodyType , @ Nullable HttpMethod method );2;1;9

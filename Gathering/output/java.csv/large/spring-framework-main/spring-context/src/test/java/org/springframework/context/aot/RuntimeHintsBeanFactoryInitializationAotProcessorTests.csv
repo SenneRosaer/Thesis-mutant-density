@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RuntimeHintsBeanFactoryInitializationAotProcessorTests.shouldProcessRegistrarInSpringFactory( );1;0;8
+RuntimeHintsBeanFactoryInitializationAotProcessorTests.setup( );1;0;4
+RuntimeHintsBeanFactoryInitializationAotProcessorTests.assertThatSampleRegistrarContributed( );1;0;6
+RuntimeHintsBeanFactoryInitializationAotProcessorTests.shouldProcessRegistrarOnConfiguration( );1;0;7
+SampleRuntimeHintsRegistrar.registerHints( RuntimeHints hints , ClassLoader classLoader );1;0;3
+TestSpringFactoriesClassLoader.getResources( String name );2;0;7
+ConfigurationWithBeanDeclaringHints.sampleBean( );1;0;3
+IllegalRuntimeHintsRegistrar.registerHints( RuntimeHints hints , ClassLoader classLoader );1;0;3
+RuntimeHintsBeanFactoryInitializationAotProcessorTests.createApplicationContext( Class < ? > ... configClasses );3;0;9
+RuntimeHintsBeanFactoryInitializationAotProcessorTests.assertThatInheritedSampleRegistrarContributed( );1;0;7
+RuntimeHintsBeanFactoryInitializationAotProcessorTests.shouldRejectRuntimeHintsRegistrarWithoutDefaultConstructor( );1;0;7
+RuntimeHintsBeanFactoryInitializationAotProcessorTests.shouldProcessDuplicatedRegistrarsOnlyOnce( );1;0;16
+TestSpringFactoriesClassLoader.TestSpringFactoriesClassLoader( String factoriesName );1;0;4
+IllegalRuntimeHintsRegistrar.IllegalRuntimeHintsRegistrar( String arg );1;0;2
+ExtendedSampleRuntimeHintsRegistrar.registerHints( RuntimeHints hints , ClassLoader classLoader );1;0;3
+RuntimeHintsBeanFactoryInitializationAotProcessorTests.shouldProcessRegistrarsOnInheritedConfiguration( );1;0;7
+RuntimeHintsBeanFactoryInitializationAotProcessorTests.shouldProcessRegistrarOnBeanMethod( );1;0;7
+IncrementalRuntimeHintsRegistrar.registerHints( RuntimeHints hints , @ Nullable ClassLoader classLoader );1;0;3

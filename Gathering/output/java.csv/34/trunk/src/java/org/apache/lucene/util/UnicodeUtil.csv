@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UnicodeUtil.UTF16toUTF8( final char [ ] source , final int offset , final int length , UTF8Result result );12;60;42
+UTF16Result.setLength( int newLength );2;2;8
+UTF16Result.copyText( UTF16Result other );1;0;4
+UnicodeUtil.UTF8toUTF16( final byte [ ] utf8 , final int offset , final int length , final UTF16Result result );9;63;50
+UnicodeUtil.UTF16toUTF8( final char [ ] source , final int offset , UTF8Result result );12;57;43
+UnicodeUtil.UTF16toUTF8( final String s , final int offset , final int length , UTF8Result result );11;60;41
+UTF8Result.setLength( int newLength );2;2;8

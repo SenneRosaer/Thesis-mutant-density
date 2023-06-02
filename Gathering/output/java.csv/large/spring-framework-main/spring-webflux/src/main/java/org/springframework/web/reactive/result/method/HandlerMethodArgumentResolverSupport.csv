@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HandlerMethodArgumentResolverSupport.assertHasValues( ReactiveAdapter adapter , MethodParameter param );2;0;6
+HandlerMethodArgumentResolverSupport.checkAnnotatedParamNoReactiveWrapper( MethodParameter parameter , Class < A > annotationType , BiPredicate < A , Class < ? > > typePredicate );6;3;21
+HandlerMethodArgumentResolverSupport.buildReactiveWrapperException( MethodParameter parameter );1;1;4
+HandlerMethodArgumentResolverSupport.HandlerMethodArgumentResolverSupport( ReactiveAdapterRegistry adapterRegistry );1;0;4
+HandlerMethodArgumentResolverSupport.checkParameterType( MethodParameter parameter , Predicate < Class < ? > > predicate );3;1;9
+HandlerMethodArgumentResolverSupport.getAdapterRegistry( );1;0;3
+HandlerMethodArgumentResolverSupport.checkParameterTypeNoReactiveWrapper( MethodParameter parameter , Predicate < Class < ? > > predicate );5;2;15

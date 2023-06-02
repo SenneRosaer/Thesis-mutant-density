@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IOUtils.getContextFilePath( String directoryPath , String filePath );8;12;24
+IOUtils.objectToBytes( Object object );1;0;6
+IOUtils.deserializeString( File file );2;1;14
+IOUtils.bytesToObject( byte [ ] bytes );1;0;5
+IOUtils.fileComponent( String filename );2;3;4
+IOUtils.getFullFilename( File file );2;0;7
+IOUtils.pathComponent( String filename );2;2;4
+IOUtils.baseName( String filename );2;2;4
+IOUtils.serializeObject( File file , Object object );1;0;10
+IOUtils.isJavaKeyword( String keyword );1;1;3
+IOUtils.serializeString( File file , String string );1;0;3
+IOUtils.normalizedFilename( String filename );15;14;41
+IOUtils.createFile( File destDir , String filename );2;1;7
+IOUtils.deserializeObject( File file );1;0;11
+IOUtils.serializeString( File file , String string , String encoding );2;1;12

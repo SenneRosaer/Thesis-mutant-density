@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLValidateTask.initValidator( );5;6;18
+XMLValidateTask.addFileset( FileSet set );1;0;3
+XMLValidateTask.onSuccessfulValidation( int fileProcessed );1;1;3
+XMLValidateTask.createAttribute( );1;0;5
+XMLValidateTask.createXmlReader( );8;6;44
+Property.setName( String name );1;0;3
+XMLValidateTask.addConfiguredXMLCatalog( XMLCatalog catalog );1;0;3
+XMLValidateTask.setLenient( boolean bool );1;0;3
+XMLValidateTask.setWarn( boolean bool );1;0;3
+XMLValidateTask.createProperty( );1;0;5
+ValidatorErrorHandler.init( File file );1;0;4
+XMLValidateTask.setFile( File file );1;0;3
+ValidatorErrorHandler.getFailure( );1;0;3
+XMLValidateTask.getEntityResolver( );1;0;3
+XMLValidateTask.createDTD( );1;0;5
+XMLValidateTask.createDefaultReader( );1;0;3
+Property.getValue( );1;0;3
+XMLValidateTask.createClasspath( );2;1;6
+Property.setValue( String value );1;0;3
+ValidatorErrorHandler.fatalError( SAXParseException exception );1;0;4
+XMLValidateTask.init( );1;0;4
+XMLValidateTask.setClasspathRef( Reference r );1;0;3
+XMLValidateTask.setFailOnError( boolean fail );1;0;3
+ValidatorErrorHandler.doLog( SAXParseException e , int logLevel );1;0;3
+XMLValidateTask.isSax1Parser( );1;0;3
+Property.getName( );1;0;3
+ValidatorErrorHandler.getMessage( SAXParseException e );6;7;21
+XMLValidateTask.createDefaultReaderOrParser( );2;0;9
+XMLValidateTask.doValidate( File afile );6;0;33
+XMLValidateTask.setFeature( String feature , boolean value );3;0;22
+XMLValidateTask.getXmlReader( );1;0;3
+XMLValidateTask.setClasspath( Path classpath );2;1;7
+ValidatorErrorHandler.error( SAXParseException exception );1;0;4
+Attribute.setValue( boolean value );1;0;3
+XMLValidateTask.setProperty( String name , String value );5;3;24
+XMLValidateTask.execute( );10;12;31
+Attribute.setName( String name );1;0;3
+ValidatorErrorHandler.warning( SAXParseException exception );2;0;5
+Attribute.getName( );1;0;3
+Attribute.getValue( );1;0;3
+XMLValidateTask.setClassName( String className );1;0;3

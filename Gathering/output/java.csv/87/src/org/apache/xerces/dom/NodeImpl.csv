@@ -1,0 +1,84 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodeImpl.isIdAttribute( boolean value );2;2;3
+NodeImpl.isReadOnly( );1;2;3
+NodeImpl.needsSyncData( boolean value );2;2;3
+NodeImpl.getUserData( String key );1;0;3
+NodeImpl.needsSyncChildren( );1;2;3
+NodeImpl.getPrefix( );1;0;3
+NodeImpl.dispatchEvent( Event event );1;0;3
+NodeImpl.isSameNode( Node other );1;1;3
+NodeImpl.setReadOnly( boolean readOnly , boolean deep );2;0;6
+NodeImpl.hasAttributes( );1;0;3
+NodeImpl.isSupported( String feature , String version );1;0;4
+NodeImpl.getParentNode( );1;0;3
+NodeImpl.lookupNamespacePrefix( String namespaceURI , ElementImpl el );17;16;38
+NodeImpl.getPreviousSibling( );1;0;3
+NodeImpl.isIdAttribute( );1;2;3
+NodeImpl.normalize( );1;0;2
+NodeImpl.getUserData( );1;0;3
+NodeImpl.compareTreePosition( Node other );31;46;97
+NodeImpl.setOwnerDocument( CoreDocumentImpl doc );3;1;8
+NodeImpl.hasStringValue( boolean value );2;2;3
+NodeImpl.insertBefore( Node newChild , Node refChild );1;0;5
+NodeImpl.NodeImpl( CoreDocumentImpl ownerDocument );1;0;3
+NodeImpl.getLength( );1;0;3
+NodeImpl.needsSyncData( );1;2;3
+NodeImpl.getUserDataRecord( );1;0;3
+NodeImpl.getBaseURI( );1;0;3
+NodeImpl.isOwned( boolean value );2;2;3
+NodeImpl.isIgnorableWhitespace( boolean value );2;2;3
+NodeImpl.setUserData( Object data );1;0;3
+NodeImpl.writeObject( ObjectOutputStream out );2;0;6
+NodeImpl.getLastChild( );1;0;3
+NodeImpl.getElementAncestor( Node currentNode );3;2;11
+NodeImpl.cloneNode( boolean deep );3;0;18
+***not in a method***;0;11;0
+NodeImpl.changes( );1;0;3
+NodeImpl.isNormalized( );1;2;3
+NodeImpl.item( int index );1;0;3
+NodeImpl.getAttributes( );1;0;3
+NodeImpl.hasStringValue( );1;2;3
+NodeImpl.removeEventListener( String type , EventListener listener , boolean useCapture );1;0;3
+NodeImpl.removeChild( Node oldChild );1;0;5
+NodeImpl.getTextContent( StringBuffer buf );2;1;6
+NodeImpl.isOwned( );1;2;3
+NodeImpl.internalIsIgnorableWhitespace( );1;2;3
+NodeImpl.isReadOnly( boolean value );2;2;3
+NodeImpl.replaceChild( Node newChild , Node oldChild );1;0;5
+NodeImpl.appendChild( Node newChild );1;0;3
+NodeImpl.getNodeNumber( );1;0;6
+NodeImpl.NodeImpl( );1;0;1
+NodeImpl.lookupNamespaceURI( String specifiedPrefix );25;18;62
+NodeImpl.setPrefix( String prefix );1;0;5
+NodeImpl.isNormalized( boolean value );5;6;6
+NodeImpl.lookupPrefix( String namespaceURI );11;3;33
+NodeImpl.getOwnerDocument( );2;0;7
+NodeImpl.getLocalName( );1;0;3
+NodeImpl.isSpecified( boolean value );2;2;3
+NodeImpl.isDefaultNamespace( String namespaceURI );17;11;52
+NodeImpl.previousSibling( );1;0;3
+NodeImpl.setUserData( String key , Object data , UserDataHandler handler );1;0;3
+NodeImpl.getNodeValue( );1;0;3
+NodeImpl.isFirstChild( );1;2;3
+NodeImpl.synchronizeData( );1;0;3
+NodeImpl.getFeature( String feature , String version );2;0;3
+NodeImpl.compareDocumentPosition( Node other );55;76;198
+NodeImpl.parentNode( );1;0;3
+NodeImpl.getReadOnly( );2;0;6
+NodeImpl.getContainer( );1;0;3
+NodeImpl.getChildNodes( );1;0;3
+NodeImpl.isFirstChild( boolean value );2;2;3
+NodeImpl.setTextContent( String textContent );1;0;3
+NodeImpl.changed( );1;0;3
+NodeImpl.isEqualNode( Node arg );18;17;49
+NodeImpl.addEventListener( String type , EventListener listener , boolean useCapture );1;0;3
+NodeImpl.getNextSibling( );1;0;3
+NodeImpl.getTextContent( );1;0;3
+NodeImpl.getNamespaceURI( );1;0;3
+NodeImpl.setNodeValue( String x );1;0;2
+NodeImpl.hasChildNodes( );1;0;3
+NodeImpl.isSpecified( );1;2;3
+NodeImpl.needsSyncChildren( boolean value );2;2;3
+NodeImpl.getFirstChild( );1;0;3
+NodeImpl.ownerDocument( );2;0;7
+NodeImpl.toString( );1;0;3

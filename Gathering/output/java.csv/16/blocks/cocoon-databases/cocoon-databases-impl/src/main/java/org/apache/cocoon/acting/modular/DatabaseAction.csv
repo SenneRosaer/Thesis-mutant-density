@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LookUpKey.LookUpKey( Configuration tableConf , Map modeTypes );1;0;4
+DatabaseAction.configure( Configuration conf );5;2;20
+DatabaseAction.service( ServiceManager manager );1;0;4
+DatabaseAction.act( Redirector redirector , SourceResolver resolver , Map objectModel , String source , Parameters param );52;46;177
+CacheHelper.CacheHelper( int keys , int cols );2;2;7
+LookUpKey.hashCode( );3;2;5
+DatabaseAction.processTable( Configuration table , Connection conn , Map objectModel , Map results , Map modeTypes );10;6;42
+***not in a method***;0;1;0
+CacheHelper.CacheHelper( int cols );1;0;3
+DatabaseAction.getOutputName( Configuration tableConf , Configuration columnConf );1;1;3
+DatabaseAction.dispose( );1;0;3
+DatabaseAction.fillModes( Configuration [ ] conf , boolean isKey , Map defaultModeNames , Map modeTypes , CacheHelper set );10;10;32
+DatabaseAction.getDataSource( Configuration conf , Parameters parameters );3;1;11
+DatabaseAction.isLargeObject( String type );4;0;6
+DatabaseAction.getColumnValue( Configuration tableConf , Column column , Map objectModel );13;9;43
+DatabaseAction.setOutput( Map objectModel , String outputMode , Map results , Configuration table , Configuration column , int rowIndex , Object value );3;1;10
+DatabaseAction.setColumn( Map objectModel , String outputMode , Map results , Configuration table , Configuration column , int rowIndex , Object value , PreparedStatement statement , int position );2;1;6
+DatabaseAction.getOutputName( Configuration tableConf , Configuration columnConf , int rowIndex );10;17;20
+DatabaseAction.getMode( Configuration conf , String type );5;3;15
+DatabaseAction.setOutputAttribute( Map objectModel , String outputMode , String key , Object value );10;7;25
+DatabaseAction.setColumn( PreparedStatement statement , int position , Configuration entry , Object value );1;0;4
+LookUpKey.equals( Object obj );7;8;12

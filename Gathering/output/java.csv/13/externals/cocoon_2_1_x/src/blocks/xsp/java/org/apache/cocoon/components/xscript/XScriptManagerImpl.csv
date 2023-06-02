@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XScriptManagerImpl.removeFirst( XScriptVariableScope pageScope , Map objectModel , String name );1;0;3
+XScriptManagerImpl.parameterize( Parameters params );2;2;10
+XScriptManagerImpl.contextualize( org . apache . avalon . framework . context . Context context );1;0;3
+XScriptManagerImpl.get( XScriptVariableScope pageScope , Map objectModel , String name , int scope );15;14;50
+XScriptManagerImpl.register( XScriptObject object );2;0;5
+XScriptManagerImpl.remove( XScriptVariableScope pageScope , Map objectModel , String name , int scope );15;14;50
+XScriptManagerImpl.put( XScriptVariableScope pageScope , Map objectModel , String name , XScriptObject value , int scope );8;7;33
+XScriptManagerImpl.dispose( );2;1;5
+XScriptManagerImpl.service( ServiceManager manager );1;0;3
+XScriptManagerImpl.createAccessException( String msg , String name , int scope );6;5;18
+XScriptManagerImpl.getFirst( XScriptVariableScope pageScope , Map objectModel , String name );1;0;3

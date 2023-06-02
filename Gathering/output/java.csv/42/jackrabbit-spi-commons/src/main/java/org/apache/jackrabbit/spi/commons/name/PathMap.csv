@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Element.remove( Path . Element nameIndex );1;0;3
+Element.updatePathElement( Name name , int index );2;1;7
+Element.isAncestorOf( Element other );3;2;10
+Element.remove( );1;0;3
+Element.hasPath( Path . Element [ ] elements , int len );3;3;9
+Element.getPath( PathBuilder builder );2;1;8
+Element.getChildrenCount( );1;0;3
+Element.getDepth( );2;2;6
+PathMap.map( Path path , boolean exact );4;3;15
+Element.getChild( Path . Element nameIndex );4;4;11
+Element.insert( Path . Element nameIndex );6;8;16
+PathMap.traverse( ElementVisitor visitor , boolean includeEmpty );1;0;3
+Element.getIndex( );1;0;3
+PathMap.put( Path path , Element element );3;4;12
+Element.createChild( Path . Element nameIndex );1;0;5
+Element.getNormalizedIndex( );1;0;3
+Element.remove( Path . Element nameIndex , boolean shift , boolean removeIfEmpty );12;17;29
+Element.getZeroBasedIndex( Path . Element nameIndex );1;1;3
+Element.hasPath( Path path );1;0;3
+Element.set( Object obj );4;5;6
+Element.getPath( );2;1;8
+PathMap.put( Path path );3;3;12
+Element.Element( Path . Element nameIndex );2;0;8
+Element.getName( );1;0;3
+Element.getChildren( );5;4;16
+Element.getParent( );1;0;3
+Element.get( );1;0;3
+Element.remove( boolean shift );2;1;9
+Element.setChildren( Map children );5;5;14
+Element.getDescendant( Path relPath , boolean exact );4;3;15
+Element.traverse( ElementVisitor visitor , boolean includeEmpty );7;6;17
+Element.removeAll( );3;3;7
+Element.put( Path . Element nameIndex , Element element );5;5;23
+PathMap.put( Path path , Object obj );1;0;5
+Element.getPathElement( );2;1;7

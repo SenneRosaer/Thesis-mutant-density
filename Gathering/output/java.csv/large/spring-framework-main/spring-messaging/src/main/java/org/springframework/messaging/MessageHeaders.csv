@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageHeaders.readObject( ObjectInputStream in );1;0;3
+MessageHeaders.getId( );1;0;3
+MessageHeaders.size( );1;0;3
+MessageHeaders.get( Object key );1;0;3
+MessageHeaders.MessageHeaders( @ Nullable Map < String , Object > headers , @ Nullable UUID id , @ Nullable Long timestamp );6;5;21
+MessageHeaders.getTimestamp( );1;0;3
+MessageHeaders.getReplyChannel( );1;0;3
+MessageHeaders.hashCode( );1;0;3
+MessageHeaders.containsKey( Object key );1;0;3
+MessageHeaders.containsValue( Object value );1;0;3
+MessageHeaders.getIdGenerator( );2;1;4
+MessageHeaders.writeObject( ObjectOutputStream out );4;1;17
+MessageHeaders.clear( );1;0;3
+MessageHeaders.putAll( Map < ? extends String , ? extends Object > map );1;0;3
+MessageHeaders.isEmpty( );1;0;3
+MessageHeaders.getRawHeaders( );1;0;3
+MessageHeaders.MessageHeaders( MessageHeaders original , Set < String > keysToIgnore );2;1;8
+MessageHeaders.keySet( );1;0;3
+MessageHeaders.entrySet( );1;0;3
+MessageHeaders.get( Object key , Class < T > type );3;2;11
+MessageHeaders.MessageHeaders( @ Nullable Map < String , Object > headers );1;0;3
+MessageHeaders.equals( @ Nullable Object other );3;3;4
+MessageHeaders.values( );1;0;3
+MessageHeaders.toString( );1;0;3
+MessageHeaders.getErrorChannel( );1;0;3
+MessageHeaders.remove( Object key );1;0;3
+MessageHeaders.put( String key , Object value );1;0;3

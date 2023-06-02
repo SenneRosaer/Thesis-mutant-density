@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LinkInfo.hasParameters( );1;0;3
+LinkInfo.addParameterToBase( String name , String value );3;0;12
+LinkInfo.appendToBase( String value );1;0;4
+LinkInfo.getBase( Boolean secure );3;3;9
+LinkInfo.deleteParameterFromBase( String parameterName );6;6;21
+LinkInfo.getSecureLinkBase( Request request , String relativeURI , int defaultPort );2;0;3
+LinkInfo.getAbsoluteUrl( Request request , boolean useSecure , int port );8;8;23
+LinkInfo.LinkInfo( Request request , int defaultPort , int defaultSecurePort );1;0;7
+LinkInfo.getRelativeURI( Request request );2;3;9
+LinkInfo.appendToBase( char c );1;0;4
+LinkInfo.getHttpLinkBase( Request request , String relativeURI , int defaultPort );2;0;3

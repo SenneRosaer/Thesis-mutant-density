@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DTDConfiguration.DTDConfiguration( SymbolTable symbolTable , XMLGrammarPool grammarPool , XMLComponentManager parentSettings );12;8;83
+***not in a method***;0;21;0
+DTDConfiguration.setLocale( Locale locale );1;0;4
+DTDConfiguration.parse( boolean complete );18;1;52
+DTDConfiguration.parse( XMLInputSource source );10;0;34
+DTDConfiguration.createDocumentScanner( );1;0;3
+DTDConfiguration.setInputSource( XMLInputSource inputSource );1;0;3
+DTDConfiguration.setProperty( String propertyId , Object value );2;0;6
+DTDConfiguration.checkProperty( String propertyId );4;3;10
+DTDConfiguration.createNamespaceBinder( );1;0;3
+DTDConfiguration.createEntityManager( );1;0;3
+DTDConfiguration.reset( );2;1;6
+DTDConfiguration.configureDTDPipeline( );7;6;30
+DTDConfiguration.getProperty( String propertyId );2;0;6
+DTDConfiguration.DTDConfiguration( );1;0;3
+DTDConfiguration.createDTDProcessor( );1;0;3
+DTDConfiguration.createDatatypeValidatorFactory( );1;0;3
+DTDConfiguration.createErrorReporter( );1;0;3
+DTDConfiguration.createValidationManager( );1;0;3
+DTDConfiguration.cleanup( );1;0;3
+DTDConfiguration.checkFeature( String featureId );14;13;33
+DTDConfiguration.createDTDScanner( );1;0;3
+DTDConfiguration.DTDConfiguration( SymbolTable symbolTable );1;0;3
+DTDConfiguration.DTDConfiguration( SymbolTable symbolTable , XMLGrammarPool grammarPool );1;0;3
+DTDConfiguration.createDTDValidator( );1;0;3
+DTDConfiguration.configurePipeline( );4;3;30

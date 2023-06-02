@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DTDParser.comment( XMLString text , Augmentations augmentations );1;0;2
+DTDParser.startDTD( XMLLocator locator , Augmentations augmentations );1;0;2
+DTDParser.endEntity( String name , Augmentations augmentations );1;0;2
+DTDParser.internalEntityDecl( String name , XMLString text , XMLString nonNormalizedText , Augmentations augmentations );1;0;2
+DTDParser.unparsedEntityDecl( String name , XMLResourceIdentifier identifier , String notation , Augmentations augmentations );1;0;2
+DTDParser.childrenSeparator( short separator );1;0;2
+DTDParser.endContentModel( );1;0;2
+DTDParser.childrenEndGroup( );1;0;2
+DTDParser.startEntity( String name , String publicId , String systemId , String encoding );1;0;2
+DTDParser.notationDecl( String name , XMLResourceIdentifier identifier , Augmentations augmentations );1;0;2
+DTDParser.startExternalSubset( XMLResourceIdentifier identifier , Augmentations augmentations );1;0;2
+DTDParser.attributeDecl( String elementName , String attributeName , String type , String [ ] enumeration , String defaultType , XMLString defaultValue , XMLString nonNormalizedDefaultValue , Augmentations augmentations );1;0;2
+DTDParser.startContentModel( String elementName , short type );1;0;2
+DTDParser.startAttlist( String elementName , Augmentations augmentations );1;0;2
+DTDParser.elementDecl( String name , String contentModel , Augmentations augmentations );1;0;2
+DTDParser.childrenStartGroup( );1;0;2
+DTDParser.endDTD( Augmentations augmentations );1;0;2
+DTDParser.externalEntityDecl( String name , XMLResourceIdentifier identifier , Augmentations augmentations );1;0;2
+DTDParser.endAttlist( Augmentations augmentations );1;0;2
+DTDParser.endExternalSubset( Augmentations augmentations );1;0;2
+DTDParser.mixedElement( String elementName );1;0;2
+DTDParser.textDecl( String version , String encoding );1;0;2
+DTDParser.childrenElement( String elementName );1;0;2
+DTDParser.DTDParser( SymbolTable symbolTable );1;0;3
+DTDParser.processingInstruction( String target , XMLString data , Augmentations augmentations );1;0;2
+DTDParser.childrenOccurrence( short occurrence );1;0;2
+DTDParser.startConditional( short type , Augmentations augmentations );1;0;2
+DTDParser.getDTDGrammar( );1;0;3
+DTDParser.endConditional( Augmentations augmentations );1;0;2

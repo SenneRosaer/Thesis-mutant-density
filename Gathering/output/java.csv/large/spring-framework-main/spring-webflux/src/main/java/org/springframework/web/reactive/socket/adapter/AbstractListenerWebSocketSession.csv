@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketSendProcessor.discardData( WebSocketMessage message );1;0;3
+AbstractListenerWebSocketSession.onError( Throwable ex );4;1;12
+AbstractListenerWebSocketSession.handleClose( CloseStatus closeStatus );2;1;9
+WebSocketReceivePublisher.readingPaused( );1;0;3
+WebSocketReceivePublisher.checkOnDataAvailable( );3;2;10
+WebSocketReceivePublisher.handleMessage( WebSocketMessage message );4;3;14
+AbstractListenerWebSocketSession.onComplete( );2;1;6
+WebSocketReceivePublisher.read( );1;0;3
+AbstractListenerWebSocketSession.closeStatus( );1;0;3
+AbstractListenerWebSocketSession.onNext( Void aVoid );1;0;2
+AbstractListenerWebSocketSession.send( Publisher < WebSocketMessage > messages );2;0;13
+AbstractListenerWebSocketSession.onSubscribe( Subscription subscription );1;0;3
+AbstractListenerWebSocketSession.AbstractListenerWebSocketSession( T delegate , String id , HandshakeInfo info , DataBufferFactory bufferFactory , @ Nullable Sinks . Empty < Void > handlerCompletionSink );1;0;5
+WebSocketSendProcessor.write( WebSocketMessage message );3;2;9
+AbstractListenerWebSocketSession.handleError( Throwable ex );2;1;9
+WebSocketReceivePublisher.discardData( );3;1;9
+WebSocketSendProcessor.setReadyToSend( boolean ready );3;1;6
+WebSocketReceivePublisher.WebSocketReceivePublisher( );1;0;3
+WebSocketSendProcessor.WebSocketSendProcessor( );1;0;3
+WebSocketSendProcessor.isWritePossible( );1;0;3
+WebSocketSendProcessor.isDataEmpty( WebSocketMessage message );1;1;3
+AbstractListenerWebSocketSession.handleMessage( Type type , WebSocketMessage message );1;0;3
+AbstractListenerWebSocketSession.getSendProcessor( );1;1;5
+AbstractListenerWebSocketSession.receive( );2;0;4
+AbstractListenerWebSocketSession.AbstractListenerWebSocketSession( T delegate , String id , HandshakeInfo info , DataBufferFactory bufferFactory );1;0;3

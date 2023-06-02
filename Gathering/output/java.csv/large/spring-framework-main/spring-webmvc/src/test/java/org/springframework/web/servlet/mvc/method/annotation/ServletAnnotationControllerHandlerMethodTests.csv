@@ -1,0 +1,330 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithOptionalAndConversionError( boolean usePathPatterns );1;0;9
+IMyControllerImpl.handle( Writer writer , @ RequestParam ( value = "p" , required = false ) String param );1;0;3
+MyParameterDispatchingController.myHandle( HttpServletResponse response , HttpServletRequest request );6;9;12
+ServletAnnotationControllerHandlerMethodTests.requestBodyResponseBody( boolean usePathPatterns );1;0;12
+ServletAnnotationControllerHandlerMethodTests.requestParamMap( boolean usePathPatterns );1;0;13
+ServletAnnotationControllerHandlerMethodTests.regularParameterAsSingleString( boolean usePathPatterns );1;0;10
+ServletAnnotationControllerHandlerMethodTests.parameterizedAnnotatedInterface( boolean usePathPatterns );1;4;27
+TextRestController.a1( @ RequestBody String body );1;0;3
+DefaultExpressionValueParamController.myHandle( @ RequestParam ( value = "id" , defaultValue = "${myKey}" ) String id , @ RequestHeader ( defaultValue = "#{systemProperties.myHeader}" ) String header , @ Value ( "#{request.contextPath}" ) String contextPath , HttpServletResponse response );1;2;3
+CustomAnnotationController.myHandle( );1;0;2
+BindStatusView.renderMergedOutputModel( Map < String , Object > model , HttpServletRequest request , HttpServletResponse response );1;0;8
+ServletAnnotationControllerHandlerMethodTests.parameterDispatchingController( boolean usePathPatterns );1;0;52
+MyAdaptedControllerBase.myHandle( @ RequestParam ( "param1" ) T p1 , int param2 , @ RequestHeader Integer header1 , @ CookieValue int cookie1 , HttpServletResponse response );1;0;3
+AnnotatedExceptionRaisingConverter.convert( String source );1;0;3
+MyRelativeMethodPathDispatchingController.myLangHandle( HttpServletResponse response );1;0;3
+MethodNotAllowedController.put( );1;0;2
+ServletAnnotationControllerHandlerMethodTests.responseStatus( boolean usePathPatterns );1;0;9
+MyAdaptedController2.myHandle( TestBean tb , HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithFieldMarkerFallback( boolean usePathPatterns );1;0;9
+EmptyParameterListHandlerMethodController.emptyParameterListHandler( );1;0;3
+ServletAnnotationControllerHandlerMethodTests.multipartFileAsSingleString( boolean usePathPatterns );1;0;9
+ValidTestBean.setValidCountry( String validCountry );1;0;3
+ServletAnnotationControllerHandlerMethodTests.flashAttributesWithResponseEntity( boolean usePathPatterns );1;0;18
+SimpleMessageConverter.getSupportedMediaTypes( );1;0;3
+RequestParamMapController.multiValueMap( @ RequestParam MultiValueMap < String , String > params , Writer writer );5;0;17
+ServletAnnotationControllerHandlerMethodTests.defaultExpressionParameters( boolean usePathPatterns );1;0;18
+ServletAnnotationControllerHandlerMethodTests.httpHead( boolean usePathPatterns );1;1;17
+OptionalParamController.myHandle( @ RequestParam ( required = false ) String id , @ RequestParam ( required = false ) boolean flag , @ RequestHeader ( value = "header" , required = false ) String header , HttpServletResponse response );1;2;3
+PrototypeController.populate( Model model );1;1;3
+DataRecordController.handle( DataRecord data );1;2;3
+ServletAnnotationControllerHandlerMethodTests.typedCommandProvidingFormController( boolean usePathPatterns );1;0;32
+ControllerWithErrorThrown.myPath2( Error err , HttpServletResponse response );1;0;3
+NullableDataClassController.handle( @ Nullable DataClass data , BindingResult result );2;4;9
+EmptyParameterListHandlerMethodController.nonEmptyParameterListHandler( HttpServletResponse response );1;0;2
+ServletAnnotationControllerHandlerMethodTests.pathPatternsArguments( );1;0;3
+MyAdaptedController3.myHandle( HttpServletRequest request , HttpServletResponse response );1;0;3
+MyCommandProvidingFormController.myHandle( @ ModelAttribute ( "myCommand" ) @ Valid TestBean tb , BindingResult errors , ModelMap model );2;1;6
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithValidationErrorAndConversionError( boolean usePathPatterns );1;0;8
+SimpleMessageConverter.canWrite( Class < ? > clazz , @ Nullable MediaType mediaType );1;0;3
+MyFormController.getTestBeans( );1;0;6
+ServletAnnotationControllerHandlerMethodTests.trailingSlash( boolean usePathPatterns );1;0;7
+MySpecificBinderInitializingCommandProvidingFormController.initBinder( WebDataBinder binder , String date , @ RequestParam ( "date" ) String [ ] date2 );1;0;11
+ServletAnnotationControllerHandlerMethodTests.bridgeMethodsWithMultipleInterfaces( boolean usePathPatterns );1;0;6
+ModelExposingViewResolver.resolveViewName( String viewName , Locale locale );1;0;6
+MyModelFormController.myHandle( @ ModelAttribute ( "myCommand" ) TestBean tb , BindingResult errors , Model model );2;1;6
+ControllerWithEmptyValueMapping.myPath2( Exception ex , HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.typeConversionError( boolean usePathPatterns );1;0;8
+HeadersConditionController.home( );1;0;3
+DateClassController.initBinder( WebDataBinder binder );1;0;4
+DefaultValueParamController.myHandle( @ RequestParam ( value = "id" , defaultValue = "foo" ) String id , @ RequestParam ( value = "otherId" , defaultValue = "" ) String id2 , @ RequestHeader ( defaultValue = "bar" ) String header , HttpServletResponse response );1;2;3
+ServletAnnotationControllerHandlerMethodTests.relativePathDispatchingController( boolean usePathPatterns );3;2;25
+ServletAnnotationControllerHandlerMethodTests.ambiguousParams( boolean usePathPatterns );1;0;12
+AmbiguousPathAndRequestMethodController.patternMatch( Writer writer );1;0;3
+CustomMapEditorController.handle( @ RequestParam ( "map" ) Map map , Writer writer );1;0;3
+HttpHeadersResponseController.create( );1;0;5
+ServletAnnotationControllerHandlerMethodTests.customAnnotationController( boolean usePathPatterns );1;0;7
+MyAdaptedController2.myHandle( TestBean tb , Errors errors , HttpServletResponse response );1;0;3
+RequestParamMapController.map( @ RequestParam Map < String , String > params , Writer writer );3;1;9
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithMultipartFile( boolean usePathPatterns );1;0;10
+DateClass.DateClass( LocalDate date );1;0;3
+ServletAnnotationControllerHandlerMethodTests.formController( boolean usePathPatterns );1;0;12
+ServletAnnotationControllerHandlerMethodTests.binderInitializingCommandProvidingFormController( boolean usePathPatterns );1;0;12
+PrototypeController.message( int param , Writer writer );1;1;4
+ServletAnnotationControllerHandlerMethodTests.dataRecordBinding( boolean usePathPatterns );1;0;10
+ServletAnnotationControllerHandlerMethodTests.responseBodyAsHtmlWithProducesCondition( boolean usePathPatterns );3;2;30
+MyParameterDispatchingController.myLangHandle( HttpServletResponse response );1;0;3
+ResponseEntityController.getResource( );1;0;3
+TrailingSlashController.templatePath( Writer writer );1;0;3
+MethodNotAllowedController.trace( );1;0;2
+ServletAnnotationControllerHandlerMethodTests.httpPatch( boolean usePathPatterns );1;0;12
+RedirectAttributesController.sendMessage( TestBean testBean , BindingResult result , RedirectAttributes attributes );2;0;8
+RequestHeaderMapController.map( @ RequestHeader Map < String , String > headers , Writer writer );3;1;9
+ServletAnnotationControllerHandlerMethodTests.DataRecord( String param1 , boolean param2 , int param3 );1;0;2
+MultipartFileDataClass.MultipartFileDataClass( MultipartFile param1 , boolean p2 , Optional < Integer > optionalParam );1;0;6
+LateBindingFormController.getTestBeans( @ ModelAttribute ( name = "myCommand" , binding = false ) TestBean tb );1;0;6
+MyParameterizedControllerImplWithOverriddenMappings.post( @ ModelAttribute ( "object1" ) TestBean object1 );1;0;3
+MyAdaptedController3.myHandle( TestBean tb , HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.badRequestRequestBody( boolean usePathPatterns );1;0;14
+MyCommandProvidingFormController.createTestBean( @ RequestParam T defaultName , Map < String , Object > model , @ RequestParam Date date );1;1;6
+ModelAndViewResolverController.handle( );1;0;3
+ContentTypeHeadersController.handleHtml( Writer writer );1;0;3
+ServletAnnotationControllerHandlerMethodTests.ambiguousPathAndRequestMethod( boolean usePathPatterns );1;0;8
+MyRelativeMethodPathDispatchingController.myHandle( HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithFieldMarker( boolean usePathPatterns );1;0;10
+TestEntity.getName( );1;0;3
+MyParameterizedControllerImpl.get( Model model );1;0;5
+DateClassController.handle( DateClass data , BindingResult result );2;0;11
+ServletAnnotationControllerHandlerMethodTests.multipartFilesAsStringArray( boolean usePathPatterns );1;0;10
+CustomMapEditor.setAsText( String text );2;0;8
+MyFormController.myHandle( @ ModelAttribute ( "myCommand" ) TestBean tb , BindingResult errors , ModelMap model );2;1;9
+TestViewResolver.resolveViewName( final String viewName , Locale locale );9;0;38
+ServletAnnotationControllerHandlerMethodTests.unsupportedPatchBody( boolean usePathPatterns );1;0;17
+ServletAnnotationControllerHandlerMethodTests.nullCommandController( boolean usePathPatterns );1;0;9
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithOptional( boolean usePathPatterns );1;0;10
+RedirectAttributesController.message( ModelMap model , Writer writer );1;0;3
+BindStatusView.BindStatusView( String content );1;0;3
+RequestBodyArgMismatchController.handle( @ RequestBody A a );1;0;2
+DataClass.DataClass( String param1 , boolean p2 , Optional < Integer > optionalParam );1;0;6
+ServletAnnotationControllerHandlerMethodTests.redirectAttribute( boolean usePathPatterns );1;0;27
+MyModelAndViewResolver.getContentType( );1;0;3
+MyParameterizedControllerImplWithOverriddenMappings.get( Model model );1;0;5
+ServletAnnotationControllerHandlerMethodTests.lateBindingFormController( boolean usePathPatterns );1;0;12
+ValidatedDataClassController.initBinder( WebDataBinder binder );1;0;6
+ServletAnnotationControllerHandlerMethodTests.responseBodyVoid( boolean usePathPatterns );1;0;8
+ServletAnnotationControllerHandlerMethodTests.overlappingMessageConvertersRequestBody( boolean usePathPatterns );2;0;18
+ProducesController.handleHtml( Writer writer );1;0;3
+ThisWillActuallyRun.home( );1;0;3
+MyConstrainedParameterDispatchingController.myOtherHandle( HttpServletResponse response );1;0;3
+NotReadableMessageConverter.canRead( Class < ? > clazz , @ Nullable MediaType mediaType );1;0;3
+ServletAnnotationControllerHandlerMethodTests.optionalParamPresent( boolean usePathPatterns );1;0;10
+AcceptHeadersController.handleXml( Writer writer );1;0;3
+ValidatedDataClassController.handle( @ Valid DataClass data , BindingResult result );2;5;8
+RequestResponseBodyController.handle( @ RequestBody String body );1;0;3
+CsvController.processCsv( @ RequestParam ( "content" ) Integer [ ] content , HttpServletResponse response );1;0;3
+ProducesController.handleCsv( );1;0;3
+ServletAnnotationControllerHandlerMethodTests.emptyParameterListHandleMethod( boolean usePathPatterns );1;0;13
+TextRestController.a3( @ RequestBody String body );1;0;3
+ServletAnnotationControllerHandlerMethodTests.httpEntity( boolean usePathPatterns );1;0;19
+RequestHeaderMapController.httpHeaders( @ RequestHeader HttpHeaders headers , Writer writer );1;0;4
+TextRestController.a4( @ RequestBody String body );1;0;3
+MethodNotAllowedController.post( );1;0;2
+ServletAnnotationControllerHandlerMethodTests.unmappedPathMapping( boolean usePathPatterns );1;0;12
+ProducesController.handleXml( Writer writer );1;0;3
+NotReadableMessageConverter.write( Object o , @ Nullable MediaType contentType , HttpOutputMessage outputMessage );1;0;3
+ChildController.doGet( HttpServletRequest req , HttpServletResponse resp , @ RequestParam ( "childId" ) String id );1;0;2
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithLocalDate( boolean usePathPatterns );1;0;8
+NoPathGetAndM2PostController.handle1( Writer writer );1;0;3
+MyNullCommandController.handle( @ ModelAttribute TestBean testBean , Errors errors , @ ModelAttribute TestPrincipal modelPrinc , OtherPrincipal requestPrinc , Writer writer );1;0;8
+ServletAnnotationControllerHandlerMethodTests.prototypeController( boolean usePathPatterns );1;0;15
+MultipartController.processMultipart( @ RequestParam ( "content" ) String content , HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.adaptedHandleMethods( boolean usePathPatterns );2;1;10
+TestControllerImpl.method( MyEntity object );1;0;3
+NestedSetController.myHandle( GenericBean < ? > gb , HttpServletResponse response );1;1;4
+ServletAnnotationControllerHandlerMethodTests.routerFunction( );1;0;16
+ServletAnnotationControllerHandlerMethodTests.requiredParamMissing( boolean usePathPatterns );1;0;8
+MySessionAttributesControllerImpl.get( Model model );1;0;5
+RequestHeaderMapController.multiValueMap( @ RequestHeader MultiValueMap < String , String > headers , Writer writer );5;0;17
+SimpleMessageConverter.SimpleMessageConverter( MediaType ... supportedMediaTypes );1;0;3
+ConsumesController.handleHtml( Writer writer );1;0;3
+MultipartFileDataClassController.handle( MultipartFileDataClass data );1;2;4
+MyParameterizedControllerImpl.post( TestBean object );1;0;3
+MultipartController.initBinder( WebDataBinder binder );1;0;3
+RedirectAttributesController.initBinder( WebDataBinder dataBinder );1;0;3
+ServletAnnotationControllerHandlerMethodTests.adaptedHandleMethods3( boolean usePathPatterns );1;0;4
+MySessionAttributesController.post( @ ModelAttribute ( "object1" ) Object object1 );1;0;3
+UnmappedPathController.get( Writer writer );1;0;3
+ServletAnnotationControllerHandlerMethodTests.customMapEditor( boolean usePathPatterns );1;0;8
+MyAdaptedController2.myHandle( @ RequestParam ( "param1" ) String p1 , int param2 , HttpServletResponse response , @ RequestHeader ( "header1" ) String h1 , @ CookieValue ( "cookie1" ) String c1 );1;0;3
+SimpleMessageConverter.read( Class < ? > clazz , HttpInputMessage inputMessage );1;0;3
+MyBinderInitializingCommandProvidingFormController.myHandle( @ ModelAttribute ( "myCommand" ) @ Valid TestBean tb , BindingResult errors , ModelMap model );2;1;6
+MyAdaptedController.myHandle( TestBean tb , HttpServletResponse response );1;0;3
+LateBindingFormController.myHandle( @ ModelAttribute ( name = "myCommand" , binding = true ) TestBean tb , BindingResult errors , ModelMap model );2;1;9
+TestBeanConverter.convert( String source );1;0;3
+ArticleController.find( String pageable , ArticlePredicate predicate );1;0;3
+MyAdaptedController.myHandle( TestBean tb , Errors errors , HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.typeNestedSetBinding( boolean usePathPatterns );1;0;16
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithFieldDefault( boolean usePathPatterns );1;0;10
+ContentTypeHeadersController.handlePdf( Writer writer );1;0;3
+ExplicitAndEmptyPathsController.get( Writer writer );1;0;3
+NegatedContentTypeHeadersController.handlePdf( Writer writer );1;0;3
+TestViewResolver.render( @ Nullable Map model , HttpServletRequest request , HttpServletResponse response );9;13;31
+MyAdaptedController.myHandle( HttpServletRequest request , HttpServletResponse response );1;0;3
+MyNullCommandController.getTestBean( );1;0;3
+ArticlePredicate.accept( Article entity );4;4;3
+AmbiguousPathAndRequestMethodController.directMatch( Writer writer );1;0;3
+ServletAnnotationControllerHandlerMethodTests.dataClassBinding( boolean usePathPatterns );1;0;9
+BindingCookieValueController.initBinder( WebDataBinder binder );1;0;6
+TestEntity.setName( String name );1;0;3
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithResult( boolean usePathPatterns );1;0;10
+ServletAnnotationControllerHandlerMethodTests.httpHeadExplicit( boolean usePathPatterns );1;0;8
+ServletAnnotationControllerHandlerMethodTests.specificBinderInitializingCommandProvidingFormController( boolean usePathPatterns );1;0;12
+ServletAnnotationControllerHandlerMethodTests.methodNotAllowed( boolean usePathPatterns );1;0;17
+ResponseEntityController.headResource( );1;0;3
+ResponseStatusController.handle( Writer writer );1;0;3
+ServletAnnotationControllerHandlerMethodTests.responseBodyNoAcceptHeader( boolean usePathPatterns );1;0;11
+ServletAnnotationControllerHandlerMethodTests.testMatchWithoutMethodLevelPath( boolean usePathPatterns );1;0;7
+TrailingSlashController.root( Writer writer );1;0;3
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithNullable( boolean usePathPatterns );1;0;10
+ServletAnnotationControllerHandlerMethodTests.requestHeaderMap( boolean usePathPatterns );1;0;20
+ControllerWithErrorThrown.myPath2( HttpServletResponse response );1;0;3
+MySessionAttributesControllerImpl.post( @ ModelAttribute ( "object1" ) Object object1 );1;0;3
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithPathVariable( boolean usePathPatterns );1;0;8
+MyParameterizedControllerImplWithOverriddenMappings.getTestBeans( );1;0;6
+HttpHeadersResponseController.createNoHeader( );1;0;3
+MyModelAndViewResolver.render( @ Nullable Map < String , ? > model , HttpServletRequest request , HttpServletResponse response );1;0;3
+MyRelativePathDispatchingController.myOtherHandle( HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.sessionAttributeExposure( boolean usePathPatterns );1;4;25
+MyAdaptedController.myHandle( @ RequestParam ( "param1" ) String p1 , @ RequestParam ( "param2" ) int p2 , @ RequestHeader ( "header1" ) long h1 , @ CookieValue ( name = "cookie1" ) Cookie c1 , HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.equivalentMappingsWithSameMethodName( boolean usePathPatterns );1;0;6
+MySpecialArgumentResolver.resolveArgument( MethodParameter methodParameter , NativeWebRequest webRequest );2;0;6
+ServletAnnotationControllerHandlerMethodTests.restController( boolean usePathPatterns );1;0;7
+CustomMapEditorController.initBinder( WebDataBinder binder );1;0;4
+HeadersConditionController.homeJson( );1;0;3
+ServletPartDataClass.ServletPartDataClass( Part param1 , boolean p2 , Optional < Integer > optionalParam );1;0;6
+ServletAnnotationControllerHandlerMethodTests.modelAndViewWithStatusInExceptionHandler( boolean usePathPatterns );1;0;8
+MySpecialArg.MySpecialArg( String value );1;0;2
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithNullableAndConversionError( boolean usePathPatterns );1;0;9
+AcceptHeadersController.handleHtml( Writer writer );1;0;3
+MyRelativeMethodPathDispatchingController.mySurpriseHandle( HttpServletResponse response );1;0;3
+OtherPrincipal.getName( );1;0;3
+MyRelativeMethodPathDispatchingController.myOtherHandle( HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithOptionalParameter( boolean usePathPatterns );1;0;10
+ServletAnnotationControllerHandlerMethodTests.defaultParameters( boolean usePathPatterns );1;0;7
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithFieldDefaultFallback( boolean usePathPatterns );1;0;9
+ResponseEntityController.baz( );1;0;3
+ResponseEntityController.testEntity( );1;0;5
+ProducesController.handle( IllegalArgumentException ex );1;0;3
+ResponseEntityController.bar( );1;0;3
+SimpleMessageConverter.write( Object o , @ Nullable MediaType contentType , HttpOutputMessage outputMessage );1;0;4
+ServletAnnotationControllerHandlerMethodTests.requestMappingInterfaceWithProxy( boolean usePathPatterns );1;0;17
+ServletAnnotationControllerHandlerMethodTests.errorThrownFromHandlerMethod( boolean usePathPatterns );2;1;15
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithMissingParameter( boolean usePathPatterns );1;0;8
+DataClass.param1( );1;0;3
+ServletPartDataClassController.handle( ServletPartDataClass data );1;2;4
+MyModelFormController.getTestBeans( );1;0;6
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithConversionError( boolean usePathPatterns );1;0;9
+ResponseEntityController.foo( HttpEntity < byte [ ] > requestEntity );1;0;8
+MyNullCommandController.getPrincipal( );1;0;3
+ServletAnnotationControllerHandlerMethodTests.modelFormController( boolean usePathPatterns );1;0;12
+AmbiguousParamsController.noParams( Writer writer );1;0;3
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithAdditionalSetter( boolean usePathPatterns );1;0;10
+ServletAnnotationControllerHandlerMethodTests.consumes( boolean usePathPatterns );1;0;18
+DataClass.setParam3( int param3 );1;0;3
+ModelAndViewController.methodWithHttpStatus( MyEntity object );1;0;3
+NegatedContentTypeHeadersController.handleNonPdf( Writer writer );1;0;3
+MyParameterDispatchingController.myOtherHandle( HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.responseAsHttpHeadersNoHeader( boolean usePathPatterns );1;0;8
+MyCommandProvidingFormController.myThirdHandle( TB tb , Model model );1;0;4
+MethodNotAllowedController.delete( );1;0;2
+ServletAnnotationControllerHandlerMethodTests.multipartFileAsStringArray( boolean usePathPatterns );1;0;9
+ServletAnnotationControllerHandlerMethodTests.mavResolver( boolean usePathPatterns );1;0;12
+ServletAnnotationControllerHandlerMethodTests.explicitAndEmptyPathsControllerMapping( boolean usePathPatterns );1;0;11
+MyParameterizedControllerImpl.getTestBeans( );1;0;6
+MultipartFileDataClass.setParam3( int param3 );1;0;3
+ConsumesController.handlePdf( Writer writer );1;0;3
+ServletAnnotationControllerHandlerMethodTests.responseBodyAsHtmlWithSuffixPresent( boolean usePathPatterns );1;0;19
+RequestResponseBodyProducesController.handle( @ RequestBody String body );1;0;3
+ServletAnnotationControllerHandlerMethodTests.responseBodyAsTextWithCssExtension( boolean usePathPatterns );1;0;24
+ServletAnnotationControllerHandlerMethodTests.relativeMethodPathDispatchingController( boolean usePathPatterns );3;2;33
+PathOrderingController.method1( Writer writer );1;0;3
+MySessionAttributesController.get( Model model );1;0;5
+ControllerWithEmptyValueMapping.myPath3( HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.requestMappingBaseClass( boolean usePathPatterns );1;0;7
+MyRelativePathDispatchingController.myLangHandle( HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.acceptHeaders( boolean usePathPatterns );1;0;28
+MethodNotAllowedController.get( );1;0;2
+MyAdaptedController3.myHandle( TestBean tb , Errors errors , HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.modelAndViewWithStatus( boolean usePathPatterns );1;0;8
+PathOrderingController.method2( Writer writer );1;0;3
+ServletAnnotationControllerHandlerMethodTests.responseBodyWildCardMediaType( boolean usePathPatterns );1;0;11
+ServletAnnotationControllerHandlerMethodTests.emptyValueMapping( boolean usePathPatterns );2;1;15
+NotReadableMessageConverter.read( Class < ? > clazz , HttpInputMessage inputMessage );1;0;3
+ServletAnnotationControllerHandlerMethodTests.responseAsHttpHeaders( boolean usePathPatterns );1;0;9
+MyRelativePathDispatchingController.mySurpriseHandle( HttpServletResponse response );1;0;3
+PathVariableDataClassController.handle( DataClass data );1;2;3
+DataClassController.handle( DataClass data );1;2;3
+TextRestController.a2( @ RequestBody String body );1;0;3
+ValidTestBean.getValidCountry( );1;0;3
+ServletAnnotationControllerHandlerMethodTests.optionalParamMissing( boolean usePathPatterns );1;0;7
+MultipartController.processMultipart( @ RequestParam ( "content" ) String [ ] content , HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.testHeadersCondition( boolean usePathPatterns );1;0;21
+MyRelativePathDispatchingController.myHandle( HttpServletResponse response );1;0;3
+MyCommandProvidingFormController.getModelAttr( );1;0;3
+NoPathGetAndM2PostController.handle2( Writer writer );1;0;3
+ServletAnnotationControllerHandlerMethodTests.httpEntityWithContentType( boolean usePathPatterns );2;0;18
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithServletPart( boolean usePathPatterns );1;0;10
+SimpleMessageConverter.canRead( Class < ? > clazz , @ Nullable MediaType mediaType );1;0;3
+MyCommandProvidingFormController.myOtherHandle( TB tb , BindingResult errors , ExtendedModelMap model , MySpecialArg arg );1;0;8
+MyAdaptedControllerBase.modelAttribute( @ RequestParam ( "param1" ) String p1 , @ RequestParam ( value = "paramX" , required = false ) String px , int param2 );1;0;3
+ParentController.doGet( HttpServletRequest req , HttpServletResponse resp );1;0;2
+ModelAndViewController.raiseException( );1;0;3
+MyBinderInitializingCommandProvidingFormController.initBinder( WebDataBinder binder );1;0;10
+CsvController.processCsv( @ RequestParam ( "content" ) Integer content , HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.regularParameterAsStringArray( boolean usePathPatterns );1;0;10
+ServletAnnotationControllerHandlerMethodTests.doTestAdaptedHandleMethods( boolean usePathPatterns );2;1;34
+ArticleController.find( boolean sort , ArticlePredicate predicate );1;0;3
+BindingCookieValueController.handle( @ CookieValue ( "date" ) Date date , Writer writer );1;0;4
+ServletAnnotationControllerHandlerMethodTests.pathOrdering( boolean usePathPatterns );1;0;7
+MyAdaptedController2.myHandle( HttpServletRequest request , HttpServletResponse response );1;0;3
+ModelAndViewController.handleException( );1;0;3
+ServletAnnotationControllerHandlerMethodTests.unsupportedRequestBody( boolean usePathPatterns );1;0;17
+MyConstrainedParameterDispatchingController.myLangHandle( HttpServletResponse response );1;0;3
+AmbiguousParamsController.param( @ RequestParam ( "myParam" ) int myParam , Writer writer );1;0;3
+ServletAnnotationControllerHandlerMethodTests.modelAndViewWithStatusForRedirect( boolean usePathPatterns );1;0;8
+MyWebBindingInitializer.initBinder( WebDataBinder binder );1;0;8
+MyAdaptedController3.initBinder( @ RequestParam ( "param1" ) String p1 , @ RequestParam ( value = "paramX" , required = false ) String px , int param2 );1;0;3
+ServletAnnotationControllerHandlerMethodTests.proxiedFormController( boolean usePathPatterns );1;0;15
+ServletAnnotationControllerHandlerMethodTests.httpOptions( boolean usePathPatterns );1;1;9
+ServletPartDataClass.setParam3( int param3 );1;0;3
+ServletAnnotationControllerHandlerMethodTests.requestMappingInterface( boolean usePathPatterns );1;0;12
+RedirectAttributesController.sendMessage( RedirectAttributes attributes );1;0;5
+EntityPredicate.accept( E entity );6;10;5
+MyAdaptedControllerBase.initBinder( @ RequestParam ( "param1" ) String p1 , @ RequestParam ( value = "paramX" , required = false ) String px , int param2 );1;0;3
+ServletAnnotationControllerHandlerMethodTests.pathVariableWithCustomConverter( boolean usePathPatterns );1;0;15
+ModelAndViewController.methodWithHttpStatusForRedirect( MyEntity object );1;0;3
+NotReadableMessageConverter.canWrite( Class < ? > clazz , @ Nullable MediaType mediaType );1;0;3
+ServletAnnotationControllerHandlerMethodTests.parameterCsvAsStringArray( boolean usePathPatterns );1;0;17
+ResponseBodyVoidController.handle( );1;0;2
+DataClass.getParam3( );1;0;3
+ServletAnnotationControllerHandlerMethodTests.dataClassBindingWithValidationError( boolean usePathPatterns );1;0;9
+MyAdaptedController3.myHandle( @ RequestParam ( "param1" ) String p1 , int param2 , @ RequestHeader Integer header1 , @ CookieValue int cookie1 , HttpServletResponse response );1;0;3
+NotReadableMessageConverter.getSupportedMediaTypes( );1;0;3
+OptionalDataClassController.handle( Optional < DataClass > optionalData , BindingResult result );2;4;9
+ServletAnnotationControllerHandlerMethodTests.produces( boolean usePathPatterns );2;0;46
+ServletAnnotationControllerHandlerMethodTests.responseBodyNoAcceptableMediaType( boolean usePathPatterns );1;0;16
+ServletAnnotationControllerHandlerMethodTests.parameterizedAnnotatedInterfaceWithOverriddenMappingsInImpl( boolean usePathPatterns );1;4;27
+ServletAnnotationControllerHandlerMethodTests.commandProvidingFormControllerWithCustomEditor( boolean usePathPatterns );1;0;15
+ServletAnnotationControllerHandlerMethodTests.adaptedHandleMethods2( boolean usePathPatterns );1;0;3
+ServletAnnotationControllerHandlerMethodTests.responseBodyAsHtml( boolean usePathPatterns );3;2;31
+ServletAnnotationControllerHandlerMethodTests.responseBodyArgMismatch( boolean usePathPatterns );2;0;23
+ControllerWithErrorThrown.myPath3( HttpServletResponse response );1;0;3
+RequestResponseBodyController.handlePartialUpdate( @ RequestBody String content );1;0;3
+ServletAnnotationControllerHandlerMethodTests.sessionAttributeExposureWithInterface( boolean usePathPatterns );1;4;28
+RequiredParamController.myHandle( @ RequestParam ( value = "id" , required = true ) int id , @ RequestHeader ( value = "header" , required = true ) String header );1;0;2
+MyParameterDispatchingController.mySurpriseHandle( HttpServletResponse response );1;0;3
+DataClass.param2( );1;0;3
+MethodNotAllowedController.head( );1;0;2
+PrototypeController.initBinder( WebDataBinder dataBinder );1;1;3
+MyAdaptedController3.modelAttribute( @ RequestParam ( "param1" ) String p1 , @ RequestParam ( value = "paramX" , required = false ) String px , int param2 );1;0;3
+MethodNotAllowedController.options( );1;0;2
+ServletAnnotationControllerHandlerMethodTests.regularParametersAsStringArray( boolean usePathPatterns );1;0;11
+PathVariableWithCustomConverterController.myHandle( @ PathVariable ( "id" ) ITestBean bean );1;0;2
+ServletAnnotationControllerHandlerMethodTests.bridgeMethods( boolean usePathPatterns );1;0;6
+ServletAnnotationControllerHandlerMethodTests.bindingCookieValue( boolean usePathPatterns );1;0;8
+MyModelAndViewResolver.resolveModelAndView( Method handlerMethod , Class < ? > handlerType , Object returnValue , ExtendedModelMap implicitModel , NativeWebRequest webRequest );3;0;16
+ServletAnnotationControllerHandlerMethodTests.contentTypeHeaders( boolean usePathPatterns );1;0;18
+MyAbstractControllerImpl.handle( Writer writer );1;0;3
+ControllerWithEmptyValueMapping.myPath2( HttpServletResponse response );1;0;3
+ServletAnnotationControllerHandlerMethodTests.negatedContentTypeHeaders( boolean usePathPatterns );1;0;13

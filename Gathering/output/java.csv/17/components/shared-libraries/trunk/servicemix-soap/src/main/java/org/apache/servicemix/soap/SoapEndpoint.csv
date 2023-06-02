@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SoapEndpoint.setRoleAsString( String role );4;1;11
+SoapEndpoint.process( MessageExchange exchange );1;0;3
+SoapEndpoint.mapDefinition( Definition def );1;0;4
+SoapEndpoint.createWsdlReader( );1;0;9
+SoapEndpoint.getSoapVersion( );1;0;3
+SoapEndpoint.SoapEndpoint( boolean dynamic );1;0;4
+SoapEndpoint.activate( );4;2;21
+SoapEndpoint.getURIParent( String path );1;0;3
+SoapEndpoint.retrieveProxiedEndpointDefinition( );27;31;52
+SoapEndpoint.getAuthenticationService( );1;0;3
+SoapEndpoint.mapSchema( Schema schema , String contextPath );12;14;27
+SoapEndpoint.getTargetService( );1;0;3
+SoapEndpoint.mapImports( Definition def , String contextPath );9;6;26
+SoapEndpoint.SoapEndpoint( );1;0;3
+SoapEndpoint.setSoap( boolean soap );1;0;3
+SoapEndpoint.getTargetEndpoint( );1;0;3
+SoapEndpoint.getRole( );1;0;3
+SoapEndpoint.setSoapVersion( String soapVersion );1;0;3
+SoapEndpoint.resolveRelativeURI( String context , String path );2;2;7
+SoapEndpoint.setRole( Role role );1;0;3
+SoapEndpoint.isSoap( );1;0;3
+SoapEndpoint.stop( );1;0;3
+SoapEndpoint.setDefaultMep( URI defaultMep );1;0;3
+SoapEndpoint.setWsdlResource( Resource wsdlResource );1;0;3
+SoapEndpoint.getWsdlResource( );1;0;3
+SoapEndpoint.getTargetInterfaceName( );1;0;3
+SoapEndpoint.getPolicies( );1;0;3
+SoapEndpoint.setPolicies( List policies );1;0;3
+SoapEndpoint.registerExtensions( ExtensionRegistry registry );1;0;3
+SoapEndpoint.setDefaultOperation( QName defaultOperation );1;0;3
+SoapEndpoint.getDefaultMep( );1;0;3
+SoapEndpoint.getDefaultOperation( );1;0;3
+SoapEndpoint.getKeystoreManager( );1;0;3
+SoapEndpoint.setTargetInterfaceName( QName targetInterfaceName );1;0;3
+SoapEndpoint.createWsdlWriter( );1;0;7
+SoapEndpoint.loadWsdl( );15;15;40
+SoapEndpoint.setTargetService( QName targetServiceName );1;0;3
+SoapEndpoint.getWsdls( );1;0;3
+SoapEndpoint.start( );1;0;3
+SoapEndpoint.setTargetEndpoint( String targetEndpoint );1;0;3
+SoapEndpoint.deactivate( );3;2;15

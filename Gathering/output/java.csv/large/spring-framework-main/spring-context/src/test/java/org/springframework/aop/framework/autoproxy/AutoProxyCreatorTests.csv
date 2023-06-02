@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CustomProxyFactoryBean.isSingleton( );1;0;3
+CustomProxyFactoryBean.getObjectType( );1;0;3
+TestAutoProxyCreator.setProxyObject( boolean proxyObject );1;0;3
+TestInterceptor.invoke( MethodInvocation invocation );2;2;6
+SpringProxyFactoryBean.isSingleton( );1;0;3
+ContainerCallbackInterfacesOnly.afterPropertiesSet( );1;0;2
+FallbackTestAutoProxyCreator.FallbackTestAutoProxyCreator( );1;0;3
+IntroductionTestAutoProxyCreator.getAdvicesAndAdvisors( );1;0;5
+AutoProxyCreatorTests.testAutoProxyCreatorWithFallbackToTargetClass( );1;0;31
+TestAutoProxyCreator.getAdvicesAndAdvisorsForBean( Class < ? > beanClass , String name , @ Nullable TargetSource customTargetSource );7;4;17
+AutoProxyCreatorTests.testAutoProxyCreatorWithFactoryBean( );3;0;15
+AutoProxyCreatorTests.testBeanNameAutoProxyCreator( );1;0;37
+AutoProxyCreatorTests.testCustomAutoProxyCreator( );1;0;31
+ContainerCallbackInterfacesOnly.destroy( );1;0;2
+SpringProxyFactoryBean.getObject( );1;0;3
+CustomProxyFactoryBean.getObject( );2;0;4
+ContainerCallbackInterfacesOnly.setApplicationContext( ApplicationContext applicationContext );1;0;2
+TestAutoProxyCreator.getAdvicesAndAdvisors( );1;0;3
+TestAutoProxyCreator.TestAutoProxyCreator( );1;0;4
+AutoProxyCreatorTests.testAutoProxyCreatorWithFactoryBeanAndProxyObjectOnly( );3;0;22
+AutoProxyCreatorTests.testAutoProxyCreatorWithPackageVisibleMethod( );1;0;13
+AutoProxyCreatorTests.testBeanNameAutoProxyCreatorWithFactoryBeanProxy( );3;3;25
+AutoProxyCreatorTests.testAutoProxyCreatorWithFactoryBeanAndPrototype( );3;0;17
+AutoProxyCreatorTests.testAutoProxyCreatorWithFallbackToDynamicProxy( );1;0;33
+TestAutoProxyCreator.setProxyFactoryBean( boolean proxyFactoryBean );1;0;3
+ContainerCallbackInterfacesOnly.setBeanFactory( BeanFactory beanFactory );1;0;2
+AutoProxyCreatorTests.testAutoProxyCreatorWithFactoryBeanAndProxyFactoryBeanOnly( );3;0;19
+SpringProxyFactoryBean.getObjectType( );1;0;3

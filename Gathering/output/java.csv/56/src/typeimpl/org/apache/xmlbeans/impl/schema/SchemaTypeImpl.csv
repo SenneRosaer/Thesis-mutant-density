@@ -1,0 +1,222 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SchemaTypeImpl.setWhiteSpaceRule( int ws );1;0;1
+SchemaTypeImpl.setBaseEnumTypeRef( SchemaType . Ref baseEnumTyperef );1;0;3
+SchemaTypeImpl.createElementType( QName eltName , QName xsiType , SchemaTypeLoader wildcardTypeLoader );14;12;45
+SchemaTypeImpl.createUnattachedSubclass( SchemaType sType );8;4;40
+SchemaTypeImpl.getElementProperties( );2;1;6
+SchemaTypeImpl.isSGResolved( );1;1;1
+SchemaTypeImpl.getJavaImplConstructor2( );5;4;16
+SchemaTypeImpl.setName( QName name );1;0;1
+SchemaTypeImpl.getSubstitutionGroupMembers( );1;0;4
+SchemaTypeImpl.getContainerField( );5;6;14
+SequencerImpl.SequencerImpl( SchemaTypeVisitorImpl visitor );1;0;3
+SchemaTypeImpl.buildEltList( List eltList , SchemaParticle contentModel );7;3;18
+SchemaTypeImpl.finishResolvingSGs( );2;1;5
+SchemaTypeImpl.getPrePostExtension( );1;0;3
+SchemaTypeImpl.setOrderSensitive( boolean sensitive );1;0;1
+SchemaTypeImpl.createBuiltinInstance( );48;0;101
+SchemaTypeImpl.finalList( );1;0;1
+SchemaTypeImpl.qnameSetForWildcardAttributes( );3;3;14
+SchemaTypeImpl.containsElements( );2;3;4
+SchemaTypeImpl.assertSGResolving( );3;3;4
+SchemaTypeImpl.createAttributeType( QName attrName , SchemaTypeLoader wildcardTypeLoader );8;5;35
+SchemaTypeImpl.setDocumentType( boolean isDocument );1;0;1
+SchemaTypeImpl.setUserData( Object data );1;0;1
+SchemaTypeImpl.isFinite( );1;0;1
+SchemaTypeImpl.setOrdered( int ordering );1;0;1
+SchemaTypeImpl.setBounded( boolean f );1;0;1
+SchemaTypeImpl.SchemaTypeImpl( SchemaContainer container );1;0;3
+SchemaTypeImpl.getDocumentElementName( );3;1;9
+SchemaTypeImpl.setBaseTypeRef( SchemaType . Ref typeref );1;0;1
+SchemaTypeImpl.getEnumerationValues( );4;4;11
+SchemaTypeImpl.isRedefinition( );1;0;1
+SchemaTypeImpl.getContentType( );1;0;1
+SchemaTypeImpl.setAnnotation( SchemaAnnotation ann );1;0;1
+SchemaTypeImpl.SchemaTypeImpl( SchemaContainer container , boolean unloaded );2;0;6
+SchemaTypeImpl.enumForString( String s );2;1;6
+SchemaTypeImpl.isValidSubstitution( QName name );1;0;3
+SchemaTypeImpl.getTypeSystem( );1;0;1
+SchemaTypeImpl.finishJavaizing( );2;1;5
+SchemaTypeImpl.getContainer( );1;0;1
+SchemaTypeImpl.getGroupReferenceContext( );1;0;1
+SchemaTypeImpl.setCompiled( boolean f );1;0;1
+SchemaTypeImpl.isSkippedAnonymousType( );2;3;2
+SchemaTypeImpl.getShortJavaName( );1;0;1
+SchemaTypeImpl.getUserData( );1;0;1
+SchemaTypeImpl.eq( String a , String b );5;6;7
+SchemaTypeImpl.getAttributeProperties( );2;1;6
+SchemaTypeImpl.setShortJavaImplName( String name );2;2;8
+SchemaTypeImpl.setSimpleTypeVariety( int variety );1;0;1
+SchemaTypeImpl.setContainerField( SchemaField field );1;1;5
+SchemaTypeImpl.isJavaized( );1;1;1
+SchemaTypeImpl.setAttributeType( boolean isAttribute );1;0;1
+SchemaTypeImpl.setSubstitutionGroup( QName sg );1;0;1
+SchemaTypeImpl.isAttributeType( );1;0;1
+SchemaTypeImpl.getBaseDepth( );1;0;1
+SchemaTypeImpl.setUnionConstituentTypes( SchemaType [ ] types );1;0;1
+SequencerImpl.peek( QName elementName );2;1;5
+SchemaTypeImpl.getWhiteSpaceRule( );1;0;1
+SchemaTypeImpl.setSimpleFinal( boolean finalRest , boolean finalList , boolean finalUnion );1;0;3
+SchemaTypeImpl.buildLocalElts( );1;0;5
+SchemaTypeImpl.getTargetNamespace( );1;0;1
+SchemaTypeImpl.getCommonBaseType( SchemaType type );11;11;21
+SchemaTypeImpl.setBuiltinTypeCode( int builtinTypeCode );1;0;1
+SchemaTypeImpl.setUnionOfLists( boolean f );1;0;1
+SchemaTypeImpl.setSimpleType( boolean f );1;0;1
+SchemaTypeImpl.isDocumentType( );1;0;1
+SchemaTypeImpl.createTypeStoreUser( );1;0;3
+SchemaTypeImpl.isOrderSensitive( );1;0;1
+SchemaTypeImpl.getUnionCommonBaseType( );2;1;5
+SchemaTypeImpl.setContentModel( SchemaParticle contentModel , SchemaAttributeModel attrModel , Map propertyModelByElementName , Map propertyModelByAttributeName , boolean isAll );5;4;23
+SchemaTypeImpl.getContentBasedOnType( );2;1;1
+SchemaTypeImpl.blockExtension( );1;0;1
+SchemaTypeImpl.getFacet( int facetCode );3;2;8
+SchemaTypeImpl.qnameSetForWildcardElements( );2;2;13
+SchemaTypeImpl.getBasicFacets( );2;3;8
+SchemaTypeImpl.computeFlatUnionModel( );7;4;39
+SchemaTypeImpl.setInterfaceExtensions( InterfaceExtension [ ] interfaces );1;0;4
+SchemaTypeImpl.setOuterSchemaTypeRef( SchemaType . Ref typeref );1;0;1
+SchemaTypeImpl.setGroupReferenceContext( QName [ ] groupNames );1;0;4
+SchemaTypeImpl.assertJavaizing( );3;3;4
+SchemaTypeImpl.getBaseEnumType( );2;1;3
+SchemaTypeImpl.getIndexForLocalAttribute( SchemaLocalAttribute attr );3;3;14
+SchemaTypeImpl.getAttributeProperty( QName attrName );2;1;1
+SchemaTypeImpl.setFinite( boolean f );1;0;1
+SchemaTypeImpl.setListItemTypeRef( SchemaType . Ref typeref );1;0;1
+SchemaTypeImpl.getAnonymousUnionMemberOrdinal( );1;0;1
+SchemaTypeImpl.ordered( );1;0;1
+SchemaTypeImpl.getDerivedProperties( );11;8;28
+SchemaTypeImpl.setContainerFieldIndex( short code , int index );1;0;5
+SchemaTypeImpl.getComponentRef( );1;0;1
+SchemaTypeImpl.isBuiltinType( );1;1;3
+SchemaTypeImpl.getAttributeType( QName attrName , SchemaTypeLoader wildcardTypeLoader );8;6;15
+SchemaTypeImpl.createUnattachedNode( SchemaProperty prop );6;5;27
+SchemaTypeImpl.getStringEnumEntries( );2;1;7
+SchemaTypeImpl.setPatterns( org . apache . xmlbeans . impl . regex . RegularExpression [ ] list );1;0;1
+SchemaTypeImpl.getLocalElementByIndex( int i );2;1;9
+SchemaTypeImpl.isUnloaded( );1;0;3
+SchemaTypeImpl.isAnonymousType( );1;1;1
+SchemaTypeImpl.setFullJavaName( String name );1;1;7
+SchemaTypeImpl.setBaseDepth( int depth );1;0;1
+SchemaTypeImpl.getDerivationType( );1;0;1
+SchemaTypeImpl.startResolving( );5;6;6
+SchemaTypeImpl.getSubstitutionGroup( );1;0;1
+SchemaTypeImpl.getSourceName( );6;3;15
+SchemaTypeImpl.getComponentType( );1;0;1
+SchemaTypeImpl.getPatterns( );3;3;8
+SchemaTypeImpl.setBasicFacets( XmlValueRef [ ] values , boolean [ ] fixed );1;0;5
+SchemaTypeImpl.finalExtension( );1;0;1
+SchemaTypeImpl.setFullJavaImplName( String name );1;1;7
+SchemaTypeImpl.getElementSequencer( );2;1;5
+SchemaTypeImpl.createBuiltinSubclass( SchemaType sType );53;1;116
+SchemaTypeImpl.setAnonymousUnionMemberOrdinal( int i );1;0;1
+SchemaTypeImpl.boaCopy( boolean [ ] a );2;1;7
+SchemaTypeImpl.getFullJavaName( );1;0;1
+SchemaTypeImpl.getPatternExpressions( );2;1;7
+SchemaTypeImpl.getName( );1;0;1
+SchemaTypeImpl.isSimpleType( );1;0;1
+SchemaTypeImpl.setDerivationType( int type );1;0;1
+SchemaTypeImpl.getJavaImplConstructor( );5;4;16
+SchemaTypeImpl.startJavaizing( );2;1;5
+SchemaTypeImpl.isNumeric( );1;0;1
+SchemaTypeImpl.getProperties( );3;2;10
+SchemaTypeImpl.getUnionConstituentTypes( );2;1;5
+SchemaTypeImpl.getParseObject( );1;0;1
+SchemaTypeImpl.isPrimitiveType( );2;3;4
+SchemaTypeImpl.isURType( );2;3;1
+SchemaTypeImpl.computeAllContainedElements( SchemaParticle contentModel , Map state );8;3;28
+SchemaTypeImpl.getDecimalSize( );1;0;1
+SchemaTypeImpl.addSubstitutionGroupMember( QName member );1;0;1
+SchemaTypeImpl.newValue( Object obj );1;0;3
+SchemaTypeImpl.setContainer( SchemaContainer container );1;0;1
+SequencerImpl.next( QName elementName );2;1;5
+SchemaTypeImpl.isBounded( );1;0;1
+SchemaTypeImpl.getJavaClass( );4;3;12
+SchemaTypeImpl.getAttFormDefault( );1;0;1
+SchemaTypeImpl.getElemFormDefault( );1;0;1
+SchemaTypeImpl.computeWildcardSet( SchemaParticle model , QNameSetBuilder result );3;3;13
+SchemaTypeImpl.getAttributeModel( );1;0;1
+SchemaTypeImpl.getFullJavaImplName( );1;0;1
+SchemaTypeImpl.assertResolved( );3;3;4
+SchemaTypeImpl.assignJavaElementSetterModel( );2;2;14
+SchemaTypeImpl.newValidatingValue( Object obj );1;0;3
+SchemaTypeImpl.computeNondelimitingElements( QName target , SchemaParticle contentModel , Map state );14;8;45
+SchemaTypeImpl.setStringEnumEntries( SchemaStringEnumEntry sEnums [ ] );1;0;4
+SchemaTypeImpl.getChameleonNamespace( );2;0;1
+SchemaTypeImpl.getShortJavaImplName( );1;0;1
+SchemaTypeImpl.finishLoading( );1;0;3
+SchemaTypeImpl.setNumeric( boolean f );1;0;1
+SchemaTypeImpl.isUnjavaized( );1;1;1
+SchemaTypeImpl.setParseContext( XmlObject parseObject , String targetNamespace , boolean chameleon , String elemFormDefault , String attFormDefault , boolean redefinition );1;0;8
+SchemaTypeImpl.hasStringEnumValues( );1;1;3
+SchemaTypeImpl.setUnionMemberTypeRefs( SchemaType . Ref [ ] typerefs );1;0;1
+SchemaTypeImpl.isResolving( );1;1;1
+SchemaTypeImpl.matchPatternFacet( String s );7;7;16
+SchemaTypeImpl.getUnionMemberTypes( );3;3;6
+SchemaTypeImpl.getUnionSubTypes( );2;1;5
+SchemaTypeImpl.getPrimitiveType( );2;1;1
+SchemaTypeImpl.setComplexTypeVariety( int complexTypeVariety );1;0;1
+SchemaTypeImpl.finalRestriction( );1;0;1
+SchemaTypeImpl.isAssignableFrom( SchemaType type );9;9;22
+SchemaTypeImpl.getListItemType( );2;1;1
+SchemaTypeImpl.setContentBasedOnTypeRef( SchemaType . Ref typeref );1;0;1
+SchemaTypeImpl.newValue( Object obj , boolean validateOnSet );5;3;14
+SchemaTypeImpl.getAttributeTypeAttributeName( );5;4;16
+SchemaTypeImpl.getJavaImplClass( );5;2;17
+SchemaTypeImpl.isCompiled( );1;0;1
+SchemaTypeImpl.blockRestriction( );1;0;1
+SchemaTypeImpl.assertSGResolved( );3;3;4
+SchemaTypeImpl.getContentModel( );1;0;1
+SchemaTypeImpl.getAnonymousTypes( );2;2;6
+SchemaTypeImpl.setPrePostExtension( PrePostExtension prepost );1;0;4
+SchemaTypeImpl.setShortJavaName( String name );2;2;8
+SchemaTypeImpl.isAbstract( );1;0;1
+SchemaTypeImpl.finishResolving( );2;1;5
+SchemaTypeImpl.assertUnresolved( );3;3;4
+SchemaTypeImpl.finalUnion( );1;0;1
+SchemaTypeImpl.startResolvingSGs( );2;1;5
+SchemaTypeImpl.setAbstractFinal( boolean abs , boolean finalExt , boolean finalRest , boolean finalList , boolean finalUnion );1;0;6
+SchemaTypeImpl.isNoType( );1;1;1
+SchemaTypeImpl.setJavaClass( Class javaClass );1;0;5
+SchemaTypeImpl.hasElementWildcards( );1;0;3
+SchemaTypeImpl.setAnonymousTypeRefs( SchemaType . Ref [ ] anonymousTyperefs );1;0;3
+SchemaTypeImpl.setPrimitiveTypeRef( SchemaType . Ref typeref );1;0;1
+SchemaTypeImpl.ensureStringEnumInfo( );12;13;67
+SchemaTypeImpl.getInterfaceExtensions( );1;0;3
+SchemaTypeImpl.getRef( );1;0;1
+SchemaTypeImpl.setEnumerationValues( XmlValueRef [ ] a );1;0;1
+SchemaTypeImpl.getBaseType( );2;1;1
+SchemaTypeImpl.hasAllContent( );1;0;1
+SchemaTypeImpl.getBuiltinTypeCode( );1;0;1
+SchemaTypeImpl.copyEnumerationValues( SchemaTypeImpl baseImpl );1;0;5
+SchemaTypeImpl.getFixedFacets( );1;0;3
+SchemaTypeImpl.eq( BigInteger a , BigInteger b );5;6;7
+SchemaTypeImpl.setBlock( boolean blockExt , boolean blockRest );1;0;3
+SchemaTypeImpl.setFilename( String filename );1;0;1
+SchemaTypeImpl.enumEntryForString( String s );2;1;6
+SchemaTypeImpl.setUnionSubTypes( SchemaType [ ] types );1;0;1
+SchemaTypeImpl.setDecimalSize( int bits );1;0;1
+SchemaTypeImpl.isResolved( );1;1;1
+SchemaTypeImpl.finishQuick( );1;0;3
+SchemaTypeImpl.getAnnotation( );1;0;1
+SchemaTypeImpl.setUnionCommonBaseType( SchemaType type );1;0;1
+SchemaTypeImpl.toString( );15;12;33
+SchemaTypeImpl.getElementType( QName eltName , QName xsiType , SchemaTypeLoader wildcardTypeLoader );14;13;36
+SchemaTypeImpl.setContainerFieldRef( SchemaComponent . Ref ref );1;0;5
+SchemaTypeImpl.isSGResolving( );1;1;1
+SchemaTypeImpl.hasAttributeWildcards( );1;0;3
+SchemaTypeImpl.setPatternFacet( boolean hasPatterns );1;0;1
+SchemaTypeImpl.enumForInt( int i );4;5;6
+SchemaTypeImpl.getOuterType( );2;1;1
+SchemaTypeImpl.assertResolving( );3;3;4
+SchemaTypeImpl.getElementProperty( QName eltName );2;1;1
+SchemaTypeImpl.hasPatternFacet( );1;0;1
+SchemaTypeImpl.isFacetFixed( int facetCode );1;0;3
+SchemaTypeImpl.isChameleon( );1;0;1
+SchemaTypeImpl.isUnionOfLists( );1;0;1
+SchemaTypeImpl.createUnwrappedNode( );1;0;4
+SchemaTypeImpl.getIndexForLocalElement( SchemaLocalElement elt );4;4;15
+SchemaTypeImpl.getSimpleVariety( );1;0;1
+SchemaTypeImpl.staCopy( SchemaType [ ] a );2;1;7
+SchemaTypeImpl.getEnumJavaClass( );3;1;10
+SchemaTypeImpl.setWildcardSummary( QNameSet elementSet , boolean haswcElt , QNameSet attributeSet , boolean haswcAtt );1;0;3

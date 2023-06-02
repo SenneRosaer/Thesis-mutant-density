@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCAManagedConnectionFactory.matchManagedConnections( Set set , Subject subject , ConnectionRequestInfo cri );5;0;15
+JCAManagedConnectionFactory.createConnectionFactory( );1;0;3
+JCAManagedConnectionFactory.getHomeDir( );1;0;3
+JCAManagedConnectionFactory.getBindSessionToTransaction( );1;0;3
+JCAManagedConnectionFactory.createManagedConnection( JCAConnectionRequestInfo cri );1;0;3
+JCAManagedConnectionFactory.getConfigFile( );1;0;3
+JCAManagedConnectionFactory.openSession( JCAConnectionRequestInfo cri );2;0;16
+JCAManagedConnectionFactory.createConnectionFactory( ConnectionManager cm );1;0;6
+JCAManagedConnectionFactory.log( String message );1;0;3
+JCAManagedConnectionFactory.equals( Object o1 , Object o2 );4;4;9
+JCAManagedConnectionFactory.createManagedConnection( Subject subject , ConnectionRequestInfo cri );2;1;6
+JCAManagedConnectionFactory.createRepository( );7;5;21
+JCAManagedConnectionFactory.equals( Object o );3;1;9
+JCAManagedConnectionFactory.getRepository( );1;0;3
+JCAManagedConnectionFactory.finalize( );1;0;4
+JCAManagedConnectionFactory.setBindSessionToTransaction( Boolean bindSessionToTransaction );1;0;3
+JCAManagedConnectionFactory.setHomeDir( String homeDir );1;0;3
+JCAManagedConnectionFactory.setLogWriter( PrintWriter logWriter );1;0;3
+JCAManagedConnectionFactory.setConfigFile( String configFile );1;0;3
+JCAManagedConnectionFactory.equals( JCAManagedConnectionFactory o );2;1;4
+JCAManagedConnectionFactory.getLogWriter( );1;0;3
+JCAManagedConnectionFactory.hashCode( );3;4;5
+JCAManagedConnectionFactory.log( String message , Throwable exception );3;2;8

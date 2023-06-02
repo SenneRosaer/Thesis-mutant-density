@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BoostingTermQuery.BoostingTermQuery( Term term );1;0;3
+BoostingSpanScorer.processPayload( Similarity similarity );2;2;8
+BoostingTermWeight.BoostingTermWeight( BoostingTermQuery query , Searcher searcher );1;0;3
+BoostingSpanScorer.BoostingSpanScorer( TermSpans spans , Weight weight , Similarity similarity , byte [ ] norms );1;0;4
+BoostingTermQuery.createWeight( Searcher searcher );1;0;3
+BoostingTermWeight.scorer( IndexReader reader );1;0;4
+BoostingSpanScorer.explain( final int doc );3;4;14
+BoostingSpanScorer.score( );2;3;3
+BoostingSpanScorer.setFreqCurrentDoc( );5;7;17
+BoostingTermQuery.equals( Object o );3;3;7

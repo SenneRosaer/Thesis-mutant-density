@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractRequestAttributesArgumentResolverTests.handleWithRequestAttribute( @ RequestAttribute Foo foo , @ RequestAttribute ( "specialFoo" ) Foo namedFoo , @ RequestAttribute ( name = "foo" , required = false ) Foo notRequiredFoo , @ RequestAttribute ( name = "foo" ) Optional < Foo > optionalFoo );1;0;2
+AbstractRequestAttributesArgumentResolverTests.initMethodParameter( int parameterIndex );1;0;5
+AbstractRequestAttributesArgumentResolverTests.resolve( );1;0;9
+AbstractRequestAttributesArgumentResolverTests.setup( );1;0;8
+AbstractRequestAttributesArgumentResolverTests.testResolveArgument( MethodParameter param );1;0;3
+AbstractRequestAttributesArgumentResolverTests.testResolveArgument( MethodParameter param , WebDataBinderFactory factory );1;0;4
+AbstractRequestAttributesArgumentResolverTests.handleWithSessionAttribute( @ SessionAttribute Foo foo , @ SessionAttribute ( "specialFoo" ) Foo namedFoo , @ SessionAttribute ( name = "foo" , required = false ) Foo notRequiredFoo , @ SessionAttribute ( name = "foo" ) Optional < Foo > optionalFoo );1;0;2
+AbstractRequestAttributesArgumentResolverTests.resolveWithName( );1;0;6
+AbstractRequestAttributesArgumentResolverTests.supportsParameter( );1;1;4
+AbstractRequestAttributesArgumentResolverTests.resolveNotRequired( );1;0;7
+AbstractRequestAttributesArgumentResolverTests.resolveOptional( );4;0;18

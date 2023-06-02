@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UnparsedEntityHandler.textDecl( String version , String encoding , Augmentations augmentations );2;1;5
+UnparsedEntityHandler.endExternalSubset( Augmentations augmentations );2;1;5
+UnparsedEntityHandler.endConditional( Augmentations augmentations );2;1;5
+UnparsedEntityHandler.UnparsedEntityHandler( ValidationManager manager );1;0;3
+UnparsedEntityHandler.elementDecl( String name , String contentModel , Augmentations augmentations );2;1;5
+UnparsedEntityHandler.processingInstruction( String target , XMLString data , Augmentations augmentations );2;1;5
+UnparsedEntityHandler.startParameterEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augmentations );2;1;5
+UnparsedEntityHandler.startDTD( XMLLocator locator , Augmentations augmentations );2;1;6
+UnparsedEntityHandler.notationDecl( String name , XMLResourceIdentifier identifier , Augmentations augmentations );2;1;5
+UnparsedEntityHandler.endDTD( Augmentations augmentations );2;1;5
+UnparsedEntityHandler.endAttlist( Augmentations augmentations );2;1;5
+UnparsedEntityHandler.startExternalSubset( XMLResourceIdentifier identifier , Augmentations augmentations );2;1;5
+UnparsedEntityHandler.endParameterEntity( String name , Augmentations augmentations );2;1;5
+UnparsedEntityHandler.getDTDSource( );1;0;3
+UnparsedEntityHandler.unparsedEntityDecl( String name , XMLResourceIdentifier identifier , String notation , Augmentations augmentations );3;2;9
+UnparsedEntityHandler.startAttlist( String elementName , Augmentations augmentations );2;1;5
+UnparsedEntityHandler.externalEntityDecl( String name , XMLResourceIdentifier identifier , Augmentations augmentations );2;1;5
+UnparsedEntityHandler.startConditional( short type , Augmentations augmentations );2;1;5
+UnparsedEntityHandler.isEntityDeclared( String name );1;0;3
+UnparsedEntityHandler.internalEntityDecl( String name , XMLString text , XMLString nonNormalizedText , Augmentations augmentations );2;1;6
+UnparsedEntityHandler.isEntityUnparsed( String name );2;1;6
+UnparsedEntityHandler.comment( XMLString text , Augmentations augmentations );2;1;5
+UnparsedEntityHandler.getDTDHandler( );1;0;3
+UnparsedEntityHandler.setDTDHandler( XMLDTDHandler handler );1;0;3
+UnparsedEntityHandler.reset( );3;3;5
+UnparsedEntityHandler.setDTDSource( XMLDTDSource source );1;0;3
+UnparsedEntityHandler.ignoredCharacters( XMLString text , Augmentations augmentations );2;1;5
+UnparsedEntityHandler.attributeDecl( String elementName , String attributeName , String type , String [ ] enumeration , String defaultType , XMLString defaultValue , XMLString nonNormalizedDefaultValue , Augmentations augmentations );2;1;8

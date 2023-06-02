@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Key.hashCode( );1;2;3
+Key.equals( Object o );4;4;9
+Key.Key( String field , String prefix , SortComparator comparator );1;0;5
+SharedFieldCache.store( IndexReader reader , String field , String prefix , SortComparator comparer , SharedFieldCache . StringIndex value );2;1;11
+SharedFieldCache.getStringIndex( IndexReader reader , String field , String prefix , SortComparator comparator , boolean includeLookup );13;6;50
+StringIndex.StringIndex( String [ ] terms , String [ ] lookup );1;0;4
+SharedFieldCache.lookup( IndexReader reader , String field , String prefix , SortComparator comparer );2;1;10
+SharedFieldCache.SharedFieldCache( );1;0;2

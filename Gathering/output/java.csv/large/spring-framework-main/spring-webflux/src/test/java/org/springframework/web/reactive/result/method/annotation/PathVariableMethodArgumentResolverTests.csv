@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PathVariableMethodArgumentResolverTests.resolveArgument( );1;0;9
+PathVariableMethodArgumentResolverTests.supportsParameter( );1;0;7
+PathVariableMethodArgumentResolverTests.handleMissingValue( );1;0;8
+PathVariableMethodArgumentResolverTests.nullIfNotRequired( );1;0;8
+PathVariableMethodArgumentResolverTests.setup( );2;0;9
+PathVariableMethodArgumentResolverTests.wrapEmptyWithOptional( );2;0;12
+PathVariableMethodArgumentResolverTests.resolveArgumentWrappedAsOptional( );1;0;11
+PathVariableMethodArgumentResolverTests.handle( @ PathVariable ( value = "name" ) String param1 , String param2 , @ PathVariable ( name = "name" , required = false ) String param3 , @ PathVariable ( "name" ) Optional < String > param4 , @ PathVariable Mono < String > param5 );1;0;2
+PathVariableMethodArgumentResolverTests.resolveArgumentNotRequired( );1;0;9

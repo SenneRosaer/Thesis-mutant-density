@@ -1,0 +1,47 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GDate.getYear( );1;0;1
+GDate.compareToGDate( GDateSpecification datespec );1;0;3
+GDate.getDay( );1;0;1
+GDate.isSpace( char ch );5;0;12
+GDate.hasTimeZone( );1;2;1
+GDate.ensureCanonicalString( );10;15;20
+GDate.GDate( CharSequence string );61;107;173
+GDate.equals( Object obj );3;2;8
+GDate.hasTime( );1;2;1
+GDate.GDate( GDateSpecification gdate );6;5;32
+GDate.digitVal( char ch );1;1;3
+GDate.getCalendar( );1;0;3
+GDate.twoDigit( CharSequence str , int index );3;6;7
+GDate.getDate( );1;0;3
+GDate.getHour( );1;0;1
+GDate.getFlags( );1;0;3
+GDate.isValid( );1;0;3
+GDate._padFourAppend( char [ ] b , int i , int n );3;12;20
+GDate.canonicalString( );1;0;4
+GDate.getTimeZoneSign( );1;0;1
+GDate.getTimeZoneMinute( );1;0;1
+GDate.hasDay( );1;2;1
+GDate.isImmutable( );1;0;3
+GDate.isDigit( char ch );1;3;3
+GDate.getMinute( );1;0;1
+GDate.GDate( Calendar calendar );22;26;98
+GDate.add( GDurationSpecification duration );1;0;5
+GDate._padTwoAppend( char [ ] b , int i , int n );2;5;6
+GDate.timeZoneForGDate( GDateSpecification date );8;9;17
+GDate.formatGDate( GDateSpecification spec );17;22;59
+GDate.toString( );2;1;5
+GDate.hasDate( );1;6;1
+GDate.hasYear( );1;2;1
+GDate.getMonth( );1;0;1
+GDate.hasMonth( );1;2;1
+GDate.hashCode( );1;0;4
+GDate.getTimeZoneHour( );1;0;1
+GDate.GDate( Date date );1;0;3
+GDate.getBuiltinTypeCode( );1;0;3
+GDate.subtract( GDurationSpecification duration );1;0;5
+GDate.getSecond( );1;0;1
+GDate.getMillisecond( );2;1;5
+GDate.GDate( int year , int month , int day , int hour , int minute , int second , BigDecimal fraction );3;5;12
+GDate.getJulianDate( );1;0;3
+GDate.GDate( int year , int month , int day , int hour , int minute , int second , BigDecimal fraction , int tzSign , int tzHour , int tzMinute );3;6;15
+GDate.getFraction( );1;0;1

@@ -1,0 +1,77 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SerializeWriter.toCharArrayForSpringWebSocket( );2;3;8
+SerializeWriter.writeStringWithDoubleQuote( char [ ] text , final char seperator );97;337;342
+SerializeWriter.writeFieldValue( char seperator , String name , float value );1;0;5
+SerializeWriter.writeFieldValue( char seperator , String name , BigDecimal value );5;6;13
+SerializeWriter.writeFieldValue( char seperator , String name , String value );6;2;29
+SerializeWriter.getMaxBufSize( );1;0;3
+SerializeWriter.SerializeWriter( SerializerFeature ... features );1;0;3
+SerializeWriter.writeFieldValue( char seperator , String name , int value );6;17;29
+SerializeWriter.SerializeWriter( Writer writer , int initialSize );2;1;8
+SerializeWriter.writeString( String text );2;0;7
+SerializeWriter.close( );4;4;9
+SerializeWriter.toString( );1;0;3
+SerializeWriter.toBytes( Charset charset );3;2;10
+SerializeWriter.append( CharSequence csq , int start , int end );2;1;5
+SerializeWriter.SerializeWriter( Writer writer , SerializerFeature ... features );1;0;3
+SerializeWriter.toBytes( String charsetName );3;2;5
+SerializeWriter.writeFieldName( String key );1;0;3
+SerializeWriter.writeNull( int beanFeatures , int feature );9;15;24
+SerializeWriter.writeInt( int i );5;7;20
+SerializeWriter.writeHex( byte [ ] bytes );5;18;17
+SerializeWriter.writeString( char [ ] chars );2;0;8
+SerializeWriter.isNotWriteDefaultValue( );1;0;3
+SerializeWriter.writeByteArray( byte [ ] bytes );15;85;59
+SerializeWriter.SerializeWriter( int initialSize );1;0;3
+SerializeWriter.writeFieldValue( char seperator , String name , Enum < ? > value );5;3;15
+SerializeWriter.write( List < String > list );16;29;61
+SerializeWriter.writeNull( SerializerFeature feature );1;0;3
+SerializeWriter.writeEnum( Enum < ? > value );7;4;20
+SerializeWriter.writeKeyWithSingleQuoteIfHasSpecial( String text );20;47;87
+SerializeWriter.writeFieldValueStringWithDoubleQuoteCheck( char seperator , String name , String value );47;199;195
+SerializeWriter.writeFieldValue( char seperator , String name , boolean value );6;13;33
+SerializeWriter.writeFieldValue( char seperator , String name , long value );7;18;32
+SerializeWriter.append( CharSequence csq );2;1;5
+SerializeWriter.writeStringWithSingleQuote( char [ ] chars );26;64;74
+SerializeWriter.writeFloat( float value , boolean checkWriteClassName );10;11;24
+SerializeWriter.writeLongAndChar( long i , char c );1;0;4
+SerializeWriter.encodeToUTF8( OutputStream out );5;7;18
+SerializeWriter.isSortField( );1;0;3
+SerializeWriter.writeFieldName( String key , boolean checkSpecial );10;11;34
+SerializeWriter.config( SerializerFeature feature , boolean state );4;6;13
+SerializeWriter.writeTo( Writer out );2;1;6
+SerializeWriter.setMaxBufSize( int maxBufSize );2;1;6
+SerializeWriter.reset( );1;0;3
+SerializeWriter.writeStringWithSingleQuote( String text );26;64;74
+SerializeWriter.writeFieldValue( char seperator , String name , char value );2;1;9
+SerializeWriter.writeFieldNameDirect( String text );2;6;13
+SerializeWriter.write( String text );2;1;7
+SerializeWriter.encodeToUTF8Bytes( );5;7;19
+SerializeWriter.writeTo( OutputStream out , String charsetName );1;0;3
+***not in a method***;0;19;0
+SerializeWriter.SerializeWriter( Writer writer );1;0;3
+SerializeWriter.writeNull( );1;0;3
+SerializeWriter.writeString( String text , char seperator );2;0;8
+SerializeWriter.write( char c [ ] , int off , int len );10;19;29
+SerializeWriter.SerializeWriter( );1;0;3
+SerializeWriter.write( boolean value );2;0;7
+SerializeWriter.writeToEx( OutputStream out , Charset charset );3;2;12
+SerializeWriter.write( int c );3;3;13
+SerializeWriter.writeLong( long i );12;17;40
+SerializeWriter.getBufferLength( );1;0;3
+SerializeWriter.isEnabled( SerializerFeature feature );1;2;3
+SerializeWriter.toCharArray( );2;1;8
+SerializeWriter.writeTo( OutputStream out , Charset charset );1;0;3
+SerializeWriter.append( char c );1;0;4
+SerializeWriter.computeFeatures( );7;27;21
+SerializeWriter.writeDouble( double value , boolean checkWriteClassName );9;7;25
+SerializeWriter.size( );1;0;3
+SerializeWriter.writeFieldValueStringWithDoubleQuote( char seperator , String name , String value );3;12;29
+SerializeWriter.writeStringWithDoubleQuote( String text , final char seperator );97;337;340
+SerializeWriter.isEnabled( int feature );1;2;3
+SerializeWriter.flush( );3;1;12
+SerializeWriter.SerializeWriter( Writer writer , int defaultFeatures , SerializerFeature ... features );3;2;15
+SerializeWriter.writeFieldValue( char seperator , String name , double value );1;0;5
+SerializeWriter.expandCapacity( int minimumCapacity );7;12;18
+SerializeWriter.writeEnumFieldValue( char seperator , String name , String value );2;0;7
+SerializeWriter.write( String str , int off , int len );4;9;20

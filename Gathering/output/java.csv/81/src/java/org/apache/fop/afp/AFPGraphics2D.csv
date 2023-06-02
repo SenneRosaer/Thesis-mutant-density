@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AFPGraphics2D.draw( Shape shape );1;0;4
+AFPGraphics2D.setPaintingState( AFPPaintingState paintingState );1;0;3
+AFPGraphics2D.fill( Shape shape );1;0;4
+AFPGraphics2D.getFontInfo( );1;0;3
+AFPGraphics2D.AFPGraphics2D( boolean textAsShapes , AFPPaintingState paintingState , AFPResourceManager resourceManager , AFPResourceInfo resourceInfo , FontInfo fontInfo );1;0;7
+AFPGraphics2D.setResourceInfo( AFPResourceInfo resourceInfo );1;0;3
+AFPGraphics2D.setGraphicsObject( GraphicsObject obj );1;0;3
+AFPGraphics2D.getPaintingState( );1;0;3
+AFPGraphics2D.drawBufferedImage( Image img , BufferedImage bufferedImage , int width , int height , ImageObserver observer );1;0;18
+AFPGraphics2D.handleIOException( IOException ioe );1;0;4
+AFPGraphics2D.create( );1;0;3
+AFPGraphics2D.AFPGraphics2D( AFPGraphics2D g2d );1;0;10
+AFPGraphics2D.drawImage( Image img , int x , int y , int width , int height , ImageObserver observer );3;0;22
+AFPGraphics2D.setFontInfo( FontInfo fontInfo );1;0;3
+AFPGraphics2D.getFontMetrics( Font f );1;0;4
+AFPGraphics2D.drawString( String str , float x , float y );4;3;11
+AFPGraphics2D.applyPaint( Paint paint , boolean fill );3;0;9
+AFPGraphics2D.dispose( );1;0;3
+AFPGraphics2D.setCustomTextHandler( TextHandler handler );1;0;3
+AFPGraphics2D.setXORMode( Color col );1;0;3
+AFPGraphics2D.doDrawing( Shape shape , boolean fill );7;5;65
+AFPGraphics2D.drawRenderableImage( RenderableImage img , AffineTransform xform );1;0;3
+AFPGraphics2D.copyArea( int x , int y , int width , int height , int dx , int dy );1;0;3
+AFPGraphics2D.buildBufferedImage( Dimension size );1;0;4
+AFPGraphics2D.addNativeImage( org . apache . xmlgraphics . image . loader . Image image , float x , float y , float width , float height );1;0;4
+AFPGraphics2D.setResourceManager( AFPResourceManager resourceManager );1;0;3
+AFPGraphics2D.setGraphicContext( GraphicContext gc );1;0;3
+AFPGraphics2D.drawRenderedImage( RenderedImage img , AffineTransform xform );2;6;19
+AFPGraphics2D.getGraphicsObject( );1;0;3
+AFPGraphics2D.createImageObjectInfo( RenderedImage img , int x , int y , int width , int height );3;2;42
+AFPGraphics2D.applyStroke( Stroke stroke );16;18;38
+AFPGraphics2D.getDeviceConfiguration( );1;0;3
+AFPGraphics2D.processPathIterator( PathIterator iter );7;1;44
+AFPGraphics2D.drawImage( Image img , int x , int y , ImageObserver observer );1;0;3

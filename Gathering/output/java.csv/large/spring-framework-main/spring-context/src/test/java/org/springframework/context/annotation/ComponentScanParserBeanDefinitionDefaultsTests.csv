@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ComponentScanParserBeanDefinitionDefaultsTests.testDefaultInitAndDestroyMethodsNotDefined( );1;0;10
+DefaultsTestBean.getConstructorDependency( );1;0;3
+DefaultsTestBean.setPropertyDependency2( PropertyDependencyTestBean pdtb );1;0;3
+DefaultsTestBean.setPropertyDependency1( PropertyDependencyTestBean pdtb );1;0;3
+DefaultsTestBean.getPropertyDependency2( );1;0;3
+ComponentScanParserBeanDefinitionDefaultsTests.testDefaultLazyInit( );1;0;9
+ComponentScanParserBeanDefinitionDefaultsTests.testDefaultDependencyCheck( );1;0;10
+DefaultsTestBean.getPropertyDependency1( );1;0;3
+ConstructorDependencyTestBean.ConstructorDependencyTestBean( String name );1;0;3
+PropertyDependencyTestBean.getName( );1;0;3
+DefaultsTestBean.isDestroyed( );1;0;3
+ComponentScanParserBeanDefinitionDefaultsTests.testDefaultAutowire( );1;0;10
+ComponentScanParserBeanDefinitionDefaultsTests.testAutowireNo( );1;0;10
+ComponentScanParserBeanDefinitionDefaultsTests.testAutowireConstructor( );1;0;11
+ComponentScanParserBeanDefinitionDefaultsTests.testLazyInitFalse( );1;0;9
+DefaultsTestBean.isInitialized( );1;0;3
+ConstructorDependencyTestBean.getName( );1;0;3
+ComponentScanParserBeanDefinitionDefaultsTests.testLazyInitTrue( );1;0;11
+DefaultsTestBean.DefaultsTestBean( );1;1;3
+DefaultsTestBean.destroy( );1;0;3
+DefaultsTestBean.DefaultsTestBean( ConstructorDependencyTestBean cdtb );1;0;4
+ComponentScanParserBeanDefinitionDefaultsTests.testDefaultNonExistingInitAndDestroyMethodsDefined( );1;0;10
+PropertyDependencyTestBean.PropertyDependencyTestBean( String name );1;0;3
+ComponentScanParserBeanDefinitionDefaultsTests.testDefaultInitAndDestroyMethodsDefined( );1;0;10
+ComponentScanParserBeanDefinitionDefaultsTests.testAutowireByName( );1;0;11
+ComponentScanParserBeanDefinitionDefaultsTests.setUp( );1;0;3
+DefaultsTestBean.init( );1;0;3
+ComponentScanParserBeanDefinitionDefaultsTests.testAutowireByType( );1;0;7

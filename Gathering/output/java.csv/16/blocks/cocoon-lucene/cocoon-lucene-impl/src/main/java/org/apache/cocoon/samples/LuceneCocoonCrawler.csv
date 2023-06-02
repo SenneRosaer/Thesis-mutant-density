@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CocoonCrawlerIterator.CocoonCrawlerIterator( LuceneCocoonCrawler cocoonCrawler );1;0;3
+LuceneCocoonCrawler.crawl( URL url , int maxDepth );2;0;10
+CocoonCrawlerIterator.hasNext( );2;3;3
+LuceneCocoonCrawler.afterPropertiesSet( );11;10;43
+LuceneCocoonCrawler.crawl( URL url );1;1;3
+LuceneCocoonCrawler.getLinkViewQuery( );1;0;3
+LuceneCocoonCrawler.getAccept( );1;0;3
+LuceneCocoonCrawler.setAccept( String accept );3;3;5
+LuceneCocoonCrawler.iterator( );1;0;3
+LuceneCocoonCrawler.setExcludes( List excludes );1;0;3
+LuceneCocoonCrawler.setDefaultExcludeFromCrawling( );3;2;12
+CocoonCrawlerIterator.next( );9;12;22
+LuceneCocoonCrawler.isExcludedURL( String url );6;1;20
+LuceneCocoonCrawler.setUserAgent( String userAgent );3;3;5
+LuceneCocoonCrawler.recycle( );1;1;6
+LuceneCocoonCrawler.getLinks( URL url );21;18;77
+LuceneCocoonCrawler.setIncludes( List includes );1;0;3
+LuceneCocoonCrawler.isIncludedURL( String url );6;1;20
+LuceneCocoonCrawler.setLinkViewQuery( String linkViewQuery );3;3;5
+LuceneCocoonCrawler.LuceneCocoonCrawler( );1;0;4
+LuceneCocoonCrawler.getExcludes( );1;0;3
+CocoonCrawlerIterator.remove( );1;0;3
+LuceneCocoonCrawler.getLinkContentType( );1;0;3
+LuceneCocoonCrawler.getIncludes( );1;0;3
+LuceneCocoonCrawler.dispose( );1;0;7
+LuceneCocoonCrawler.getUserAgent( );1;0;3
+LuceneCocoonCrawler.setLinkContentType( String linkContentType );3;3;5

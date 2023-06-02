@@ -1,0 +1,182 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Locale.setSaajData( Node n , Object o );1;0;4
+Locale.parseToXmlObject( SchemaTypeLoader stl , Node node , SchemaType type , XmlOptions options );2;0;28
+Locale.loadXMLInputStream( XMLInputStream xis , XmlOptions options );35;10;118
+Locale.initialValue( );1;0;3
+Locale.parseToXmlObject( XMLInputStream xis , SchemaType type , XmlOptions options );2;0;15
+Locale.createXmlns( String prefix );3;2;8
+SaxLoader.SaxLoader( XMLReader xr , Locator startLocator );2;0;21
+SaxHandler.attributeDecl( String eName , String aName , String type , String valueDefault , String value );2;0;5
+Locale.enter( Locale otherLocale );2;1;5
+Locale.parseToXmlObject( SchemaTypeLoader stl , XMLInputStream xis , SchemaType type , XmlOptions options );2;0;28
+Locale.createSoapElement( QName name , QName parentName );1;1;5
+Locale.toChild( Cur c , QName name , int n );4;3;13
+ScrubBuffer.init( int wsr );1;0;5
+Locale.applyWhiteSpaceRule( String s , int wsr );15;18;27
+Locale.lineNumber( XMLStreamReader xsr , LoadContext context );2;1;8
+Locale.autoTypeDocument( Cur c , SchemaType requestedType , XmlOptions options );27;30;74
+Locale.importSoapElement( Document doc , Element elem , boolean deep , QName parentName );1;0;5
+DefaultEntityResolver.resolveEntity( String publicId , String systemId );1;0;3
+Locale.createDocument( String uri , String qname , DocumentType doctype );1;0;4
+nthCache.namesSame( QName pattern , QName name );2;2;3
+DefaultQNameFactory.getQName( String uri , String local , String prefix );1;0;3
+SaxHandler.setDocumentLocator( Locator locator );1;0;2
+nthCache.cacheSame( QName namePattern , QNameSet setPattern );2;1;6
+SaxHandler.startDocument( );1;0;2
+Locale.verifyDocumentType( Cur c , QName docElemName );8;4;58
+Locale.getCharUtil( );2;1;5
+SaxHandler.elementDecl( String name , String model );1;0;2
+Locale.isFragment( Cur start , Cur end );9;15;30
+Locale.sync( );1;1;3
+Locale.getDocProps( Cur c , boolean ensure );4;2;10
+DefaultQNameFactory.getQName( String uri , String local );1;0;3
+Locale.newSaxHandler( SchemaType type , XmlOptions options );1;0;3
+Locale.getScrubBuffer( int wsr );2;1;11
+Locale.parseToXmlObject( SchemaTypeLoader stl , XMLStreamReader xsr , SchemaType type , XmlOptions options );2;0;28
+Locale.toFirstNormalAttr( Cur c );4;1;17
+nthCache.setsSame( QNameSet patternSet , QNameSet set );2;3;3
+Locale.parseToXmlObject( Reader reader , SchemaType type , XmlOptions options );1;0;8
+Locale.lineNumber( XMLEvent xe , LoadContext context );2;2;5
+Locale.invalidateDomCaches( Dom d );3;4;6
+Locale.createTextNode( );2;1;3
+SaxHandler.comment( char ch [ ] , int start , int length );1;0;3
+Locale.makeQNameNoCheck( String uri , String localPart );1;0;3
+SaxHandler.notationDecl( String name , String publicId , String systemId );1;0;2
+Locale.isFragmentQName( QName name );2;1;4
+Locale.notifyChange( );3;2;12
+SaxHandler.endEntity( String name );1;0;2
+domNthCache.distance( Dom parent , int n );4;7;8
+Locale.newInstance( SchemaTypeLoader stl , SchemaType type , XmlOptions options );2;0;28
+DefaultQNameFactory.getQName( char [ ] uriSrc , int uriPos , int uriCch , char [ ] localSrc , int localPos , int localCch );1;0;6
+SaxLoader.setEntityResolver( EntityResolver er );1;0;3
+Locale.findDomNthChild( Dom parent , int n );8;24;34
+Locale.parseToXmlObject( Node node , SchemaType type , XmlOptions options );1;0;10
+Locale.addNamespace( StringBuffer sb , QName name );2;1;10
+Locale.parseToXmlObject( SchemaTypeLoader stl , InputStream is , SchemaType type , XmlOptions options );2;0;28
+Locale.getLocale( SchemaTypeLoader stl , XmlOptions options );10;7;30
+SaxHandler.skippedEntity( String name );1;0;2
+Locale.namespacesSame( QName n1 , QName n2 );7;8;11
+Locale.loadNodeChildren( Node n , LoadContext context );2;1;4
+Locale.nodeToXmlStream( Node n );1;0;3
+Locale.getPiccoloSaxLoader( );2;1;9
+SaxHandler.startElement( String uri , String local , String qName , Attributes atts );11;12;63
+XmlSaxHandlerImpl.getLexicalHandler( );2;1;3
+SaxLoader.fatalError( SAXParseException e );1;0;3
+SaxHandler.internalEntityDecl( String name , String value );1;0;2
+Locale.toFirstChildElement( Cur c );11;7;31
+Locale.version( );1;0;3
+DocProps.put( Object key , Object value );1;0;3
+Locale.doNamespaces( XMLStreamReader xsr , LoadContext context );4;5;13
+nthCache.distance( Xobj parent , QName name , QNameSet set , int n );5;9;8
+Locale.isXmlns( QName name );3;2;6
+Locale.associateSourceName( Cur c , XmlOptions options );2;1;6
+Locale.hasFeature( String feature , String version );1;0;3
+Locale.processWhiteSpaceRule( String s , int wsr );1;0;5
+XmlSaxHandlerImpl.bookmarkLastAttr( QName attrName , XmlBookmark mark );1;0;3
+Locale.isDomCached( Dom d );2;3;3
+Locale.newSaxHandler( SchemaTypeLoader stl , SchemaType type , XmlOptions options );2;0;28
+ScrubBuffer.scrub( Object src , int off , int cch );14;22;44
+Locale.parseToXmlObject( SchemaTypeLoader stl , String xmlText , SchemaType type , XmlOptions options );2;0;28
+Locale.checkNode( Node n );3;2;7
+SaxHandler.processingInstruction( String target , String data );1;0;3
+SaxHandler.ignorableWhitespace( char ch [ ] , int start , int length );1;0;2
+Locale.noSync( );1;0;3
+Locale.domLength( Dom parent );4;3;17
+Locale.nodeToXmlObject( Node n );1;0;3
+Locale.beginsWithXml( String name );8;12;12
+Locale.doAttributes( XMLStreamReader xsr , LoadContext context );2;2;10
+XmlSaxHandlerImpl.XmlSaxHandlerImpl( Locale l , SchemaType type , XmlOptions options );1;0;8
+Locale.load( String s , XmlOptions options );3;0;22
+SaxLoader.error( SAXParseException e );1;0;3
+SaxHandler.endElement( String namespaceURI , String localName , String qName );2;2;9
+PiccoloSaxLoader.newInstance( );1;0;3
+Locale.toPrevSiblingElement( Cur cur );8;8;27
+XmlSaxHandlerImpl.getObject( );2;1;18
+Locale.toLastChildElement( Cur c );5;6;11
+Locale.load( InputStream in );1;0;3
+DocProps.get( Object key );1;0;3
+Locale.parseToXmlObject( XMLStreamReader xsr , SchemaType type , XmlOptions options );2;0;15
+LoadContext.isAttrOfTypeId( QName aqn , QName eqn );5;4;14
+SaxHandler.SaxHandler( Locator startLocator );1;0;3
+SaxHandler.startEntity( String name );1;0;2
+XmlReaderSaxLoader.XmlReaderSaxLoader( XMLReader xr );1;0;3
+Locale.weakCur( Object o );2;6;8
+domNthCache.length( Dom parent );7;13;31
+Locale.isWhiteSpace( StringBuffer sb );3;3;7
+Locale.loadXMLStreamReader( XMLStreamReader xsr , XmlOptions options );24;7;104
+Locale.findNthChildElem( Xobj parent , QName name , QNameSet set , int n );5;7;19
+nthCache.fetch( Xobj parent , QName name , QNameSet set , int n );21;22;60
+Locale.newInstance( SchemaType type , XmlOptions options );4;2;15
+Locale.Locale( SchemaTypeLoader stl , XmlOptions options );3;2;18
+SaxHandler.unparsedEntityDecl( String name , String publicId , String systemId , String notationName );1;0;2
+SaxHandler.endPrefixMapping( String prefix );1;0;2
+Locale.exit( );3;7;9
+XmlSaxHandlerImpl.getContentHandler( );2;1;3
+SaxHandler.endDTD( );1;0;3
+Locale.getTextValue( Cur c , int wsr , char [ ] chars , int off , int maxCch );3;2;11
+Locale.load( Reader r );1;0;3
+Locale.getSaajData( Node n );1;0;4
+Locale.makeQName( String uri , String localPart );2;3;4
+Locale.toNextSiblingElement( Cur c );7;6;26
+Locale.pollQueue( );5;3;13
+Locale.streamToNode( XMLStreamReader xs );1;0;3
+SaxHandler.endCDATA( );1;0;3
+Locale.load( String s );1;0;3
+SaxHandler.characters( char ch [ ] , int start , int length );3;1;5
+Locale.applyNamespaces( Cur c , Map namespaces );4;2;20
+Locale.getFeature( String feature , String version );1;0;3
+Locale.load( InputSource is , XmlOptions options );1;0;3
+Locale.xmlnsPrefix( QName name );2;0;3
+Locale.entered( );1;2;3
+Locale.toNextNormalAttr( Cur c );3;1;13
+Locale.toPrevNormalAttr( Cur c );6;2;22
+SaxHandler.externalEntityDecl( String name , String publicId , String systemId );1;0;2
+Locale.parseToXmlObject( InputStream is , SchemaType type , XmlOptions options );1;0;8
+Locale.toNextSiblingElement( Cur c , Xobj parent );6;5;24
+SaxHandler.startDTD( String name , String publicId , String systemId );1;0;3
+DocProps.remove( Object key );1;0;3
+Locale.parseToXmlObject( SchemaTypeLoader stl , Reader reader , SchemaType type , XmlOptions options );2;0;28
+LoadContext.addIdAttr( String eName , String aName );2;1;5
+SaxHandler.startPrefixMapping( String prefix , String uri );4;3;11
+Locale.newDomImplementation( SchemaTypeLoader stl , XmlOptions options );1;0;3
+Locale.createCdataNode( );2;1;4
+SaxLoader.load( Locale l , InputSource is , XmlOptions options );6;1;43
+Locale.embedCurs( );2;2;9
+ScrubBuffer.getResultAsString( );1;0;3
+Locale.registerForChange( ChangeListener listener );3;2;10
+Locale.createDocumentType( String qname , String publicId , String systemId );1;0;3
+domNthCache.fetch( Dom parent , int n );15;20;52
+Locale.load( Reader r , XmlOptions options );1;0;3
+SaxLoader.postLoad( Cur c );1;0;4
+DefaultQNameFactory.getQName( char [ ] uriSrc , int uriPos , int uriCch , char [ ] localSrc , int localPos , int localCch , char [ ] prefixSrc , int prefixPos , int prefixCch );1;0;6
+Locale.refQueue( );2;1;5
+Locale.enter( );3;6;17
+Locale.parse( String s , SchemaType type , XmlOptions options );3;0;25
+Locale.count( Xobj parent , QName name , QNameSet set );6;4;18
+Locale.nodeToCursor( Node n );1;0;3
+Locale.load( InputStream in , XmlOptions options );1;0;3
+Locale.exit( Locale otherLocale );2;1;5
+PiccoloSaxLoader.postLoad( Cur c );1;0;6
+XmlSaxHandlerImpl.bookmarkLastEvent( XmlBookmark mark );1;0;3
+Locale.getCur( );5;13;18
+SaxHandler.endDocument( );1;0;2
+SaxHandler.startCDATA( );1;0;3
+Locale.getSaxLoader( XmlOptions options );7;5;29
+Locale.verifyAttributeType( Cur c , QName attrName );8;4;56
+Locale.tempCur( );1;0;3
+Locale.getTextValue( Cur c );7;6;16
+ScrubBuffer.ScrubBuffer( );1;0;3
+Locale.pushToContainer( Cur c );8;2;23
+PiccoloSaxLoader.PiccoloSaxLoader( Piccolo p );1;0;4
+Locale.loadNode( Node n , LoadContext context );16;3;61
+Locale.parseToXmlObject( String xmlText , SchemaType type , XmlOptions options );1;0;6
+Locale.isWhiteSpace( String s );3;3;7
+SaxHandler.SaxHandler( );1;0;3
+nthCache.nameHit( QName namePattern , QNameSet setPattern , QName name );2;1;6
+Locale.getAllNamespaces( Cur c , Map filleMe );12;11;34
+Locale.makeQualifiedQName( String uri , String qname );3;3;11
+SaxHandler.initSaxHandler( Locale l , XmlOptions options );4;6;14
+Locale.makeQName( String uri , String local , String prefix );2;1;3
+Ref.Ref( Cur c , Object obj );1;0;4
+SaxLoader.warning( SAXParseException e );1;0;3
+Locale.tempCur( String id );3;11;19

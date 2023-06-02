@@ -1,0 +1,84 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RepositoryImpl.getFileSystem( );1;0;3
+RepositoryImpl.RepositoryImpl( RepositoryConfig repConfig );13;10;81
+WorkspaceInfo.doDispose( );9;6;43
+WorkspaceInfo.setIdleTimestamp( long ts );1;0;3
+RepositoryImpl.loggedOut( SessionImpl session );1;0;5
+RepositoryImpl.getVersionManager( );1;0;4
+RepositoryImpl.create( RepositoryConfig config );1;0;3
+RepositoryImpl.getDescriptorKeys( );1;0;5
+RepositoryImpl.shutdown( );3;1;14
+WorkspaceInfo.WorkspaceInfo( WorkspaceConfig config );1;0;5
+RepositoryImpl.getNamespaceRegistry( );1;0;4
+ExternalEventListener.updateEventsReady( String workspace );1;0;3
+WorkspaceInfo.disposeIfIdle( long maxIdleTime );5;5;25
+RepositoryImpl.onEvent( EventIterator events );7;12;27
+ExternalEventListener.getClusterConfig( );1;0;3
+RepositoryImpl.getLockManager( String workspaceName );1;0;4
+WorkspaceInfo.getObservationDispatcher( );2;1;7
+RepositoryImpl.createSession( AuthContext loginContext , String workspaceName );1;0;7
+RepositoryImpl.loadRootNodeId( FileSystem fs );5;0;41
+ExternalEventListener.getRepositoryHome( );1;0;3
+RepositoryImpl.login( Credentials credentials , String workspaceName );8;3;33
+RepositoryImpl.getConfig( );1;0;3
+WorkspaceInfo.isInitialized( );3;1;12
+RepositoryImpl.getDescriptor( String key );1;0;3
+WorkspaceJanitor.run( );6;0;31
+RepositoryImpl.getDataStore( );1;0;3
+RepositoryImpl.extendAuthentication( String workspaceName );5;1;29
+WorkspaceInfo.getItemStateProvider( );2;1;7
+WorkspaceInfo.doInitialize( );5;2;34
+RepositoryImpl.initStartupWorkspaces( );5;4;20
+WorkspaceInfo.externalUpdate( ChangeLog external , List events , long timestamp );2;0;12
+RepositoryImpl.loggingOut( SessionImpl session );1;0;2
+WorkspaceInfo.getFileSystem( );2;1;7
+RepositoryImpl.onSessionCreated( SessionImpl session );1;0;6
+RepositoryImpl.externalWorkspaceCreated( String workspaceName , InputSource configTemplate );1;0;3
+RepositoryImpl.loadRepProps( );3;0;21
+RepositoryImpl.createVersionManager( VersioningConfig vConfig , DelegatingObservationDispatcher delegatingDispatcher );1;0;14
+RepositoryImpl.storeRepProps( Properties props );2;0;16
+WorkspaceInfo.getIdleTimestamp( );1;0;3
+WorkspaceJanitor.WorkspaceJanitor( long maxIdleTime );1;1;4
+WorkspaceInfo.getName( );1;0;3
+RepositoryImpl.getSecurityManager( );5;5;20
+RepositoryImpl.createNamespaceRegistry( FileSystem fs );1;0;3
+WorkspaceInfo.lockRelease( );1;0;3
+RepositoryImpl.initWorkspace( WorkspaceInfo wspInfo );3;9;19
+RepositoryImpl.getObservationDispatcher( String workspaceName );1;0;4
+RepositoryImpl.getSystemSearchManager( String wspName );3;6;17
+RepositoryImpl.doShutdown( );14;10;56
+RepositoryImpl.setDefaultRepositoryProperties( Properties props );4;2;17
+WorkspaceInfo.getLockManager( );5;4;16
+RepositoryImpl.getSearchManager( String workspaceName );1;0;4
+RepositoryImpl.createWorkspaceInternal( String workspaceName , InputSource configTemplate );2;0;11
+RepositoryImpl.getCacheManager( );1;0;3
+WorkspaceInfo.getSearchManager( );4;3;22
+RepositoryImpl.createNodeTypeRegistry( NamespaceRegistry nsReg , FileSystem fs );1;0;3
+RepositoryImpl.createWorkspace( String workspaceName , InputSource configTemplate );2;1;10
+ExternalEventListener.lockEventsReady( String workspace );1;0;3
+RepositoryImpl.setReferentialIntegrityChecking( String workspace , boolean enabled );1;0;4
+RepositoryImpl.createPersistenceManager( File homeDir , FileSystem fs , PersistenceManagerConfig pmConfig , NodeId rootNodeId , NamespaceRegistry nsReg , NodeTypeRegistry ntReg , DataStore dataStore );2;0;10
+WorkspaceInfo.lockAcquire( );2;0;7
+RepositoryImpl.createSession( Subject subject , String workspaceName );1;0;7
+WorkspaceInfo.getConfig( );1;0;3
+RepositoryImpl.createSessionInstance( Subject subject , WorkspaceConfig wspConfig );1;0;3
+RepositoryImpl.getRootNodeId( );1;0;4
+RepositoryImpl.createSessionInstance( AuthContext loginContext , WorkspaceConfig wspConfig );1;0;3
+RepositoryImpl.sanityCheck( );2;0;5
+ExternalEventListener.getDataStore( );1;0;3
+RepositoryImpl.getWorkspaceNames( );1;0;5
+RepositoryImpl.createWorkspace( String workspaceName );5;4;16
+WorkspaceInfo.dispose( );3;1;19
+RepositoryImpl.getClusterNode( );1;0;3
+RepositoryImpl.getWorkspaceInfo( String workspaceName );3;1;17
+RepositoryImpl.getWorkspaceStateManager( String workspaceName );1;0;4
+RepositoryImpl.createWorkspaceInfo( WorkspaceConfig wspConfig );1;0;3
+RepositoryImpl.getSystemSession( String workspaceName );1;0;4
+WorkspaceInfo.initialize( );5;0;31
+RepositoryImpl.createItemStateManager( PersistenceManager persistMgr , NodeId rootNodeId , NodeTypeRegistry ntReg , boolean usesReferences , ItemStateCacheFactory cacheFactory , ISMLocking locking );1;0;3
+RepositoryImpl.getItemStateCacheFactory( );1;0;3
+ExternalEventListener.getNamespaceResolver( );1;0;3
+RepositoryImpl.createClusterNode( );2;0;9
+WorkspaceInfo.getPersistenceManager( );2;1;7
+RepositoryImpl.getNodeTypeRegistry( );1;0;4
+WorkspaceInfo.getSystemSession( );3;2;13

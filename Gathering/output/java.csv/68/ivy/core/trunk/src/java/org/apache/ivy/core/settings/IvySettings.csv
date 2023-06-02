@@ -1,0 +1,164 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IvySettings.setCheckUpToDate( boolean checkUpToDate );1;0;3
+IvySettings.IvySettings( );1;0;3
+IvySettings.addConfigured( VersionMatcher vmatcher );1;0;3
+IvySettings.getDefaultRepositoryCacheBasedir( );2;1;8
+IvySettings.getSystemNamespace( );1;0;3
+IvySettings.getResolveMode( ModuleId moduleId );2;1;8
+IvySettings.addConfigured( CircularDependencyStrategy strategy );1;0;3
+IvySettings.getDefaultSettingsURL( );1;0;3
+ModuleSettings.ModuleSettings( String resolver , String branchName , String conflictMgr , String resolveMode );1;0;6
+IvySettings.configureDefaultVersionMatcher( );1;0;5
+IvySettings.isUseRemoteConfig( );1;0;3
+IvySettings.doValidate( );1;0;3
+IvySettings.setDefaultConflictManager( ConflictManager defaultConflictManager );1;0;3
+IvySettings.getReportOutputters( );1;0;4
+IvySettings.getResolver( String resolverName );3;2;10
+IvySettings.setDefaultResolutionCacheBasedir( String resolutionCacheRoot );3;2;8
+IvySettings.setValidate( boolean validate );1;0;3
+IvySettings.getIgnorableFilenames( );1;0;3
+IvySettings.typeDefs( Properties p );1;0;3
+IvySettings.getDefaultResolveMode( );1;0;3
+IvySettings.getDefaultLockStrategy( );2;1;6
+IvySettings.accept( Object o );1;4;3
+IvySettings.typeDefs( Properties p , boolean silentFail );2;0;6
+IvySettings.addCircularDependencyStrategy( CircularDependencyStrategy strategy );1;0;3
+IvySettings.setStatusManager( StatusManager statusManager );1;0;3
+IvySettings.defaultInit( );2;1;12
+ModuleSettings.toString( );5;7;6
+IvySettings.getResolutionCacheManager( );2;1;7
+IvySettings.addRepositoryCacheManager( RepositoryCacheManager c );1;0;4
+IvySettings.getDefault14SettingsURL( );1;0;3
+IvySettings.getInterruptTimeout( );1;0;3
+IvySettings.addConfigured( RepositoryCacheManager c );1;0;3
+IvySettings.getResolvers( );1;0;3
+IvySettings.logModulesInUse( );2;2;4
+IvySettings.setDefaultBranch( String defaultBranch );1;0;3
+IvySettings.getResolverName( ModuleRevisionId mrid );2;1;8
+IvySettings.addReportOutputter( ReportOutputter outputter );1;0;4
+IvySettings.debugConflictResolution( );3;3;8
+IvySettings.getDefaultSettingsDir( );1;1;5
+IvySettings.addConfigured( ModuleDescriptorParser parser );1;0;3
+IvySettings.setBaseDir( File baseDir );1;0;5
+IvySettings.configureDefaultCircularDependencyStrategies( );1;0;5
+IvySettings.addConfigured( ConflictManager cm );1;0;3
+IvySettings.setDictatorResolver( DependencyResolver resolver );1;0;3
+IvySettings.addLockStrategy( String name , LockStrategy lockStrategy );1;0;4
+IvySettings.logModuleWhenFound( );2;2;4
+IvySettings.loadDefault( );1;0;3
+IvySettings.filterIgnore( Collection names );1;0;3
+IvySettings.setDefaultCacheIvyPattern( String defaultCacheIvyPattern );1;0;4
+IvySettings.checkResolverName( String resolverName );3;3;6
+IvySettings.substitute( Map strings );2;0;8
+IvySettings.addTrigger( Trigger trigger );1;0;4
+IvySettings.loadProperties( File file );1;0;3
+IvySettings.addLatestStrategy( String name , LatestStrategy latest );1;0;4
+IvySettings.dumpSettings( );4;1;22
+IvySettings.typeDefs( InputStream stream );1;0;3
+IvySettings.isDefaultUseOrigin( );1;0;3
+IvySettings.addConfigured( ReportOutputter outputter );1;0;3
+ModuleSettings.getResolveMode( );1;0;3
+IvySettings.init( Object obj );3;0;7
+IvySettings.getStatusManager( );2;1;6
+IvySettings.setCircularDependencyStrategy( CircularDependencyStrategy strategy );1;0;3
+IvySettings.validate( );1;0;11
+IvySettings.logNotConvertedExclusionRule( );1;0;3
+IvySettings.addNamespace( Namespace ns );1;0;4
+IvySettings.classForName( String className , boolean silentFail );3;0;14
+IvySettings.load( URL settingsURL );2;2;16
+IvySettings.loadProperties( URL url , boolean overwrite );1;0;3
+IvySettings.substitute( String str );1;0;3
+IvySettings.setVariable( String varName , String value , boolean overwrite );1;0;3
+IvySettings.getConflictManager( ModuleId moduleId );3;2;18
+IvySettings.addSystemProperties( );1;0;3
+IvySettings.setDefaultLatestStrategy( LatestStrategy defaultLatestStrategy );1;0;3
+ModuleSettings.getConflictManager( );1;0;3
+IvySettings.addConfigured( LockStrategy lockStrategy );1;0;3
+IvySettings.loadDefaultProperties( );1;0;3
+IvySettings.setVariable( String varName , String value );1;0;3
+IvySettings.getVariable( String name );1;0;3
+ModuleSettings.getResolverName( );1;0;3
+IvySettings.addModuleConfiguration( Map attributes , PatternMatcher matcher , String resolverName , String branch , String conflictManager , String resolveMode );1;0;6
+IvySettings.getClassLoader( );3;1;11
+IvySettings.getCircularDependencyStrategy( String name );2;0;6
+IvySettings.typeDef( String name , String className );1;0;3
+IvySettings.getBaseDir( );1;0;3
+IvySettings.setVariableContainer( IvyVariableContainer variables );1;0;3
+IvySettings.setDefaultRepositoryCacheBasedir( String repositoryCacheRoot );4;3;9
+IvySettings.logResolvedRevision( );2;2;4
+IvySettings.addConfigured( LatestStrategy latest );1;0;3
+IvySettings.getVersionMatchers( );1;0;4
+IvySettings.getLatestStrategy( String name );2;0;6
+IvySettings.setDefaultIvyUserDir( File defaultUserDir );1;0;5
+IvySettings.addAllVariables( Map variables , boolean overwrite );2;0;7
+IvySettings.getReportOutputter( String name );1;0;3
+IvySettings.loadProperties( InputStream stream , boolean overwrite );3;1;14
+IvySettings.setDeprecatedVariable( String deprecatedKey , String newKey );1;0;3
+IvySettings.getRelativeUrlResolver( );1;0;3
+IvySettings.getDefaultLatestStrategy( );2;1;6
+IvySettings.addConflictManager( String name , ConflictManager cm );1;0;4
+IvySettings.getDefaultPropertiesURL( );1;0;3
+IvySettings.setDefaultLockStrategy( LockStrategy defaultLockStrategy );1;0;3
+IvySettings.getTriggers( );1;0;3
+IvySettings.setLogNotConvertedExclusionRule( boolean logNotConvertedExclusionRule );1;0;3
+IvySettings.addClasspathURL( URL url );1;0;4
+IvySettings.setDefaultCacheArtifactPattern( String defaultCacheArtifactPattern );1;0;4
+IvySettings.setSettingsVariables( URL settingsURL );2;2;13
+IvySettings.load( File settingsFile );3;2;23
+IvySettings.addAllVariables( Map variables );1;0;3
+IvySettings.IvySettings( IvyVariableContainer variableContainer );7;3;65
+IvySettings.setDefaultCache( File cacheDirectory );4;2;11
+IvySettings.getDefaultRepositoryCacheManager( );2;1;9
+IvySettings.getCircularDependencyStrategy( );2;1;6
+IvySettings.setDefaultResolveMode( String defaultResolveMode );1;0;3
+IvySettings.typeDefs( InputStream stream , boolean silentFail );1;0;9
+IvySettings.getDefaultCacheIvyPattern( );1;0;3
+IvySettings.getNamespace( String name );2;0;6
+IvySettings.getMatcherNames( );1;0;3
+IvySettings.addVersionMatcher( VersionMatcher vmatcher );3;1;12
+IvySettings.getMatcher( String name );1;0;3
+IvySettings.loadProperties( URL url );1;0;3
+IvySettings.getConflictManager( String name );2;0;6
+IvySettings.loadDefault14( );1;0;3
+IvySettings.loadProperties( File file , boolean overwrite );1;0;3
+IvySettings.getLockStrategy( String name );2;0;6
+IvySettings.getResolverNames( );1;0;3
+IvySettings.addConfigured( PatternMatcher m );1;0;3
+IvySettings.useDeprecatedUseOrigin( );1;0;5
+IvySettings.getDefaultBranch( ModuleId moduleId );2;1;8
+IvySettings.resolveFile( String fileName );1;0;3
+IvySettings.getDefaultCache( );3;2;12
+IvySettings.getVariableContainer( );1;0;3
+IvySettings.addConfigured( Trigger trigger );1;0;3
+IvySettings.getRepositoryCacheManagers( );1;0;4
+IvySettings.setDefaultResolver( String resolverName );1;0;4
+IvySettings.configureRepositories( boolean remote );9;4;36
+IvySettings.setResolutionCacheManager( ResolutionCacheManager resolutionCacheManager );1;0;3
+IvySettings.setSettingsVariables( File settingsFile );2;0;15
+IvySettings.setDefaultUseOrigin( boolean useOrigin );1;0;3
+IvySettings.dumpMemoryUsage( );3;3;8
+IvySettings.getVariables( );1;0;3
+IvySettings.addConfigured( Namespace ns );1;0;3
+IvySettings.addResolver( DependencyResolver resolver );7;3;23
+IvySettings.getTypeDef( String name );1;0;3
+IvySettings.debugLocking( );3;3;8
+IvySettings.typeDef( String name , String className , boolean silentFail );2;1;7
+IvySettings.setUseRemoteConfig( boolean useRemoteConfig );1;0;3
+IvySettings.getSettingsURL( String file );1;0;3
+IvySettings.getVersionMatcher( );2;1;6
+ModuleSettings.getBranch( );1;0;3
+IvySettings.getDefaultResolver( );3;2;9
+IvySettings.getDefaultBranch( );1;0;3
+IvySettings.getVersionMatcher( String name );1;0;3
+IvySettings.getDefaultConflictManager( );2;1;6
+IvySettings.setDefaultRepositoryCacheManager( RepositoryCacheManager cache );1;0;3
+IvySettings.addMatcher( PatternMatcher m );1;0;4
+IvySettings.getDefaultIvyUserDir( );3;2;13
+IvySettings.addConfigured( DependencyResolver resolver );1;0;3
+IvySettings.getResolver( ModuleRevisionId mrid );2;1;7
+IvySettings.getDefaultCacheArtifactPattern( );1;0;3
+IvySettings.getTypeDefs( );1;0;3
+IvySettings.getRepositoryCacheManager( String name );1;0;3
+IvySettings.isCheckUpToDate( );1;0;3
+IvySettings.validateAll( Collection values );3;0;8
+IvySettings.getDefaultResolutionCacheBasedir( );2;1;8

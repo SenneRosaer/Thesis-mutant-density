@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCRUser.JCRUser( final String userName , String hashedSaltedPassword );1;0;5
+JCRUser.getHashedSaltedPassword( );1;0;3
+JCRUser.verifyPassword( String pass );2;2;9
+JCRUser.setPassword( String newPass );2;1;10
+JCRUser.getUserName( );1;0;3
+JCRUser.hashPassword( String username , String password );1;2;4

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OracleFileSystem.init( );2;0;14
+OracleFileSystem.seek( long position );1;0;3
+OracleFileSystem.getTableSpace( );1;0;3
+OracleFileSystem.getRandomAccessOutputStream( final String filePath );10;2;99
+OracleFileSystem.write( int b );1;0;3
+OracleFileSystem.OracleFileSystem( );1;0;6
+OracleFileSystem.setTableSpace( String tableSpace );2;1;7
+OracleFileSystem.write( byte [ ] b );1;0;3
+OracleFileSystem.createTemporaryBlob( InputStream in );2;0;23
+OracleFileSystem.buildSQLStatements( );1;0;75
+OracleFileSystem.write( byte [ ] b , int off , int len );1;0;3
+OracleFileSystem.close( );5;2;49
+OracleFileSystem.checkSchema( );10;8;47
+OracleFileSystem.flush( );1;0;2
+OracleFileSystem.getOutputStream( final String filePath );9;2;73
+OracleFileSystem.freeTemporaryBlob( Object blob );1;0;4

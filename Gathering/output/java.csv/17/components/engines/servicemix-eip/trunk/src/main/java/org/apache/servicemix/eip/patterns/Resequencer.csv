@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Resequencer.setCapacity( int capacity );1;0;3
+Resequencer.sendSync( MessageExchange exchange );1;0;3
+Resequencer.stop( );1;0;5
+Resequencer.sendSync( List < MessageExchange > exchanges );2;0;5
+Resequencer.processSync( MessageExchange exchange );1;0;3
+Resequencer.start( );2;1;12
+Resequencer.setComparator( SequenceElementComparator < MessageExchange > comparator );1;0;3
+Resequencer.processAsync( MessageExchange exchange );4;3;13
+Resequencer.Resequencer( );1;0;4
+Resequencer.processMessage( MessageExchange sourceExchange );1;0;6
+Resequencer.setTimeout( long timeout );1;0;3

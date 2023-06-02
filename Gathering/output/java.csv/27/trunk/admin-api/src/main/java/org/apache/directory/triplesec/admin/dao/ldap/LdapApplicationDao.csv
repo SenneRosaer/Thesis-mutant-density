@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LdapApplicationDao.applicationIterator( );2;0;16
+LdapApplicationDao.getEntryObject( Object extra , Attributes attrs );2;0;27
+LdapApplicationDao.has( String appName );3;1;19
+LdapApplicationDao.rename( Application app , String newName );5;0;35
+LdapApplicationDao.load( String appName );3;0;34
+LdapApplicationDao.modify( String appName , ModificationItem [ ] mods );4;1;27
+LdapApplicationDao.LdapApplicationDao( DirContext ctx , PermissionDao permissionDao , RoleDao roleDao , ProfileDao profileDao );3;0;32
+LdapApplicationDao.delete( Application application );5;4;38
+LdapApplicationDao.deleteEntry( String rdn );2;0;10
+LdapApplicationDao.getRelativeDn( String appName );1;0;6
+LdapApplicationDao.add( String appName , String description , String userPassword );5;2;41

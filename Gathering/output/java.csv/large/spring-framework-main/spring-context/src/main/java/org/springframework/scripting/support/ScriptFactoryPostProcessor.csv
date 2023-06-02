@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScriptFactoryPostProcessor.createConfigInterface( BeanDefinition bd , @ Nullable Class < ? > [ ] interfaces );5;0;20
+ScriptFactoryPostProcessor.getScriptSource( String beanName , String scriptSourceLocator );1;0;4
+ScriptFactoryPostProcessor.prepareScriptBeans( BeanDefinition bd , String scriptFactoryBeanName , String scriptedObjectBeanName );8;4;25
+ScriptFactoryPostProcessor.resolveProxyTargetClass( BeanDefinition beanDefinition );4;1;16
+ScriptFactoryPostProcessor.postProcessProperties( PropertyValues pvs , Object bean , String beanName );1;0;3
+ScriptFactoryPostProcessor.createCompositeInterface( Class < ? > [ ] interfaces );1;0;3
+ScriptFactoryPostProcessor.setDefaultProxyTargetClass( boolean defaultProxyTargetClass );1;0;3
+ScriptFactoryPostProcessor.postProcessBeforeInstantiation( Class < ? > beanClass , String beanName );11;11;42
+ScriptFactoryPostProcessor.resolveRefreshCheckDelay( BeanDefinition beanDefinition );4;1;16
+ScriptFactoryPostProcessor.setResourceLoader( ResourceLoader resourceLoader );1;0;3
+ScriptFactoryPostProcessor.setBeanClassLoader( ClassLoader classLoader );1;0;3
+ScriptFactoryPostProcessor.setDefaultRefreshCheckDelay( long defaultRefreshCheckDelay );1;0;3
+ScriptFactoryPostProcessor.getOrder( );1;0;3
+ScriptFactoryPostProcessor.destroy( );1;0;3
+***not in a method***;0;1;0
+ScriptFactoryPostProcessor.createScriptedObjectBeanDefinition( BeanDefinition bd , String scriptFactoryBeanName , ScriptSource scriptSource , @ Nullable Class < ? > [ ] interfaces );1;0;9
+ScriptFactoryPostProcessor.predictBeanType( Class < ? > beanClass , String beanName );13;8;42
+ScriptFactoryPostProcessor.createRefreshableProxy( TargetSource ts , @ Nullable Class < ? > [ ] interfaces , boolean proxyTargetClass );5;2;22
+ScriptFactoryPostProcessor.createScriptFactoryBeanDefinition( BeanDefinition bd );1;0;6
+ScriptFactoryPostProcessor.convertToScriptSource( String beanName , String scriptSourceLocator , ResourceLoader resourceLoader );2;0;8
+ScriptFactoryPostProcessor.setBeanFactory( BeanFactory beanFactory );2;1;11

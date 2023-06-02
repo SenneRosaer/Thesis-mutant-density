@@ -1,0 +1,57 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JSTokenList.debugToString( );2;0;11
+JSToken.stream( );1;0;3
+JSTokenList.getScriptAsCharArray( );2;1;13
+JSTokenList.getInterceptorFunctionName( int functionPosition );5;4;17
+JSTokenList.addInterceptions( ArrayList interceptionsList );8;4;43
+JavaScriptAspectWeaver.getInterceptedScriptAsReader( );2;0;11
+JSTokenList.getFunctionPositions( );4;3;11
+JSParser.isJSIdentifierStartCharacter( char c );1;0;3
+Interceptor.addToken( JSToken token );1;0;3
+JSParser.isJSIdentifierPartCharacter( char c );8;12;12
+JavaScriptAspectWeaver.service( ServiceManager manager );1;0;3
+JSTokenList.getScriptsApplied( );8;6;33
+JSTokenList.addInterceptionEvents( List stopExecutionFunctions );14;23;62
+JSToken.JSToken( int type );1;0;4
+JSToken.equals( String comp );2;0;6
+JSTokenList.writeToFile( Source source );3;3;14
+JSTokenList.toString( );2;0;9
+JSToken.append( char c [ ] );1;1;7
+JSToken.append( String str );1;0;5
+JavaScriptAspectWeaver.setBaseScript( Source source );2;2;10
+JSToken.append( char c );1;2;7
+JSToken.size( );1;0;3
+Interceptor.getBaseScript( );1;0;3
+JSTokenList.getScriptAsReader( );1;0;3
+JavaScriptAspectWeaver.addInterceptorGroup( String source );2;2;21
+JavaScriptAspectWeaver.clearInterceptorGroups( );1;0;3
+Interceptor.Interceptor( String functionName , String type );1;2;4
+Interceptor.clone( );1;0;3
+JSParser.parse( char [ ] c );50;62;231
+JSTokenList.readInterceptionTokens( );23;24;67
+Interceptor.getTokens( );1;0;3
+JavaScriptAspectWeaver.setStopExecutionFunctionsConf( Configuration conf );2;2;7
+JSToken.toString( );2;2;7
+InterceptorEvent.InterceptorEvent( int type );1;0;3
+JSTokenList.getFunctionName( int functionPosition );5;4;16
+JSToken.JSToken( int type , String tokenValue );1;0;4
+JavaScriptAspectWeaver.areScriptsApplied( );1;0;3
+JSToken.getType( );1;0;3
+JavaScriptAspectWeaver.setSerializeResultScriptParam( boolean serialize );1;0;3
+JavaScriptAspectWeaver.readSourceIntoCharArray( InputStream is );2;2;13
+Interceptor.setBaseScript( String src );1;0;3
+JSTokenList.addInterceptionTokens( ArrayList interceptionGroupList , String functionName , String eventType , ListIterator tokensListIt );7;6;37
+JSToken.getClone( );2;0;7
+InterceptionList.getSourceScript( );1;0;3
+JSTokenList.replaceReturnStatements( );12;10;49
+Interceptor.getName( );1;0;3
+InterceptorEvent.getName( );1;0;3
+JSTokenList.commentScriptsApplied( );4;7;21
+JSTokenList.isStopFunction( JSToken curToken , ListIterator liTokens );8;6;31
+Interceptor.stream( );2;1;13
+InterceptorEvent.InterceptorEvent( int type , String name );1;0;4
+JSToken.setType( int type );1;0;3
+Interceptor.getType( );1;0;3
+InterceptionList.setSourceScript( String source );1;0;3
+JSToken.clone( );1;0;3
+Interceptor.getClone( );2;0;7

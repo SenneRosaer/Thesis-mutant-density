@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Attribute.putAttributes( final SymbolTable symbolTable , final ByteVector output );1;2;7
+Attribute.Attribute( final String type );1;0;3
+Set.contains( final Attribute attribute );3;2;8
+Attribute.computeAttributesSize( final SymbolTable symbolTable );1;2;7
+Attribute.isUnknown( );1;0;3
+Attribute.putAttributes( final SymbolTable symbolTable , final byte [ ] code , final int codeLength , final int maxStack , final int maxLocals , final ByteVector output );2;1;11
+Attribute.isCodeAttribute( );1;0;3
+Set.add( final Attribute attribute );2;3;8
+Attribute.putAttributes( final SymbolTable symbolTable , final int accessFlags , final int signatureIndex , final ByteVector output );5;7;15
+Attribute.read( final ClassReader classReader , final int offset , final int length , final char [ ] charBuffer , final int codeAttributeOffset , final Label [ ] labels );1;0;6
+Attribute.computeAttributesSize( final SymbolTable symbolTable , final byte [ ] code , final int codeLength , final int maxStack , final int maxLocals );2;3;11
+Attribute.computeAttributesSize( final SymbolTable symbolTable , final int accessFlags , final int signatureIndex );5;10;17
+Attribute.getLabels( );1;0;3
+Set.addAttributes( final Attribute attributeList );3;2;9
+Set.toArray( );1;0;5
+Attribute.getAttributeCount( );2;2;9
+Attribute.write( final ClassWriter classWriter , final byte [ ] code , final int codeLength , final int maxStack , final int maxLocals );1;0;3

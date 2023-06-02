@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Scp.setLocalTofile( String aToUri );1;0;4
+Scp.setTodir( String aToUri );1;0;4
+Scp.exactlyOne( String [ ] attrs );1;0;3
+Scp.setRemoteTofile( String aToUri );1;0;5
+Scp.validateRemoteUri( String type , String aToUri );2;2;9
+Scp.setRemoteFile( String aFromUri );1;0;5
+Scp.init( );1;0;6
+Scp.createDirectory( FileSet set );6;5;25
+Scp.addFileset( FileSet set );2;1;6
+Scp.execute( );13;10;32
+Scp.parseUri( String uri );10;20;35
+Scp.setSftp( boolean yesOrNo );1;0;3
+Scp.setFromUri( String fromUri );2;1;6
+Scp.upload( List fileSet , String toSshUri );6;4;31
+Scp.setPreservelastmodified( boolean yesOrNo );1;0;3
+Scp.upload( String fromPath , String toSshUri );3;2;24
+Scp.setFile( String aFromUri );1;0;4
+Scp.exactlyOne( String [ ] attrs , String alt );3;3;12
+Scp.setRemoteTodir( String aToUri );1;0;5
+Scp.setToUri( String toUri );2;1;6
+Scp.setLocalFile( String aFromUri );1;0;4
+Scp.download( String fromSshUri , String toPath );3;2;28
+Scp.setLocalTodir( String aToUri );1;0;4
+Scp.isRemoteUri( String uri );2;1;8

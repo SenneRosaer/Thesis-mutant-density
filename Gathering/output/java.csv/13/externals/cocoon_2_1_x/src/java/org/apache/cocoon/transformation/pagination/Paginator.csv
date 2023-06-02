@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Paginator.startElement( String uri , String loc , String raw , Attributes a );4;3;24
+Paginator.getKey( );2;2;7
+Paginator.skippedEntity( String name );2;0;5
+Paginator.endDTD( );2;0;7
+Paginator.endElement( String uri , String loc , String raw );7;7;67
+Paginator.encodeURI( String uri , int current , int next );3;11;17
+Paginator.recycle( );2;1;8
+Paginator.cleanURI( String uri , int current );2;6;10
+Paginator.addPaginateTags( Integer [ ] rangeLinks , int unitLinks , int currentPage , int totalPages , String requestURI , AbstractTransformer saxTransformer );11;27;96
+Paginator.comment( char ch [ ] , int start , int len );2;0;5
+Paginator.startCDATA( );2;0;5
+Paginator.getValidity( );2;1;10
+Paginator.ignorableWhitespace( char c [ ] , int start , int len );2;0;5
+Paginator.startEntity( String name );2;0;5
+Paginator.characters( char c [ ] , int start , int len );2;0;6
+Paginator.endCDATA( );2;0;5
+Paginator.setup( SourceResolver resolver , Map objectModel , String src , Parameters par );9;5;44
+Paginator.startDTD( String name , String publicId , String systemId );2;0;7
+Paginator.processingInstruction( String target , String data );2;0;5
+Paginator.dispose( );3;2;12
+Paginator.endEntity( String name );2;0;5
+Paginator.service( ServiceManager manager );2;0;11

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProcessDaoImpl.getType( );1;0;3
+ProcessDaoImpl.getVersion( );1;0;3
+ProcessDaoImpl.ProcessDaoImpl( SessionManager sm , HProcess process );1;0;5
+ProcessDaoImpl.addCorrelator( String corrid );1;0;10
+ProcessDaoImpl.getCorrelator( String corrId );2;1;16
+ProcessDaoImpl.instanceCompleted( ProcessInstanceDAO instance );1;0;2
+ProcessDaoImpl.getNumInstances( );1;0;4
+ProcessDaoImpl.getGuid( );1;0;3
+ProcessDaoImpl.removeRoutes( String routeId , ProcessInstanceDAO target );2;0;6
+ProcessDaoImpl.createInstance( CorrelatorDAO correlator );1;0;9
+ProcessDaoImpl.delete( );1;0;4
+ProcessDaoImpl.getProcessId( );1;0;3
+ProcessDaoImpl.getInstance( Long iid );3;3;7
+ProcessDaoImpl.findInstance( CorrelationKey ckeyValue );1;0;8

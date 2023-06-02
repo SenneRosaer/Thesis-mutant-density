@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JikesOutputParser.JikesOutputParser( Task task , boolean emacsMode );1;0;10
+JikesOutputParser.setError( boolean err );2;0;6
+JikesOutputParser.setProcessErrorStream( InputStream is );1;0;2
+JikesOutputParser.getErrorFlag( );1;0;3
+JikesOutputParser.log( String line );4;1;6
+JikesOutputParser.setProcessInputStream( OutputStream os );1;0;2
+JikesOutputParser.stop( );1;0;2
+JikesOutputParser.setProcessOutputStream( InputStream is );1;0;3
+JikesOutputParser.parseOutput( BufferedReader reader );2;0;7
+JikesOutputParser.parseEmacsOutput( BufferedReader reader );1;0;3
+JikesOutputParser.start( );1;0;3
+JikesOutputParser.parseStandardOutput( BufferedReader reader );6;5;20

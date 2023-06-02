@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketMessageBrokerConfigurationSupportTests.clientInboundChannelSendMessage( );2;1;18
+WebSocketMessageBrokerConfigurationSupportTests.clientOutboundChannel( );1;1;9
+WebSocketHandlerDecoratorConfig.afterConnectionEstablished( WebSocketSession session );1;0;4
+WebSocketMessageBrokerConfigurationSupportTests.brokerChannel( );1;1;10
+WebSocketMessageBrokerConfigurationSupportTests.handlerMapping( );1;0;8
+TestController.handleMessage( );1;0;3
+WebSocketMessageBrokerConfigurationSupportTests.webSocketMessageBrokerStats( );1;0;14
+TestChannelConfig.brokerChannel( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel , TaskExecutor brokerChannelExecutor );1;0;5
+WebSocketMessageBrokerConfigurationSupportTests.taskScheduler( );1;0;11
+WebSocketHandlerDecoratorConfig.configureWebSocketTransport( WebSocketTransportRegistration registry );1;0;9
+TestConfigurer.configureWebSocketTransport( WebSocketTransportRegistration registration );1;4;6
+WebSocketHandlerDecoratorConfig.registerStompEndpoints( StompEndpointRegistry registry );1;0;3
+TestConfigurer.configureMessageBroker( MessageBrokerRegistry registry );1;0;5
+TestConfigurer.subscriptionController( );1;0;3
+TestConfigurer.registerStompEndpoints( StompEndpointRegistry registry );1;0;3
+TestController.handleSubscribe( );1;0;3
+WebSocketMessageBrokerConfigurationSupportTests.webSocketHandler( );1;4;10
+WebSocketMessageBrokerConfigurationSupportTests.createContext( Class < ? > ... configClasses );1;0;3
+TestChannel.sendInternal( Message < ? > message , long timeout );1;0;4
+TestChannelConfig.clientInboundChannel( TaskExecutor clientInboundChannelExecutor );1;0;5
+TestChannelConfig.clientOutboundChannel( TaskExecutor clientOutboundChannelExecutor );1;0;5
+WebSocketMessageBrokerConfigurationSupportTests.webSocketHandlerDecorator( );1;0;11

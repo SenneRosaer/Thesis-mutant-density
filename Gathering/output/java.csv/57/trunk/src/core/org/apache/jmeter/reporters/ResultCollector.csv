@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResultCollector.clone( );1;0;5
+ResultCollector.sampleStarted( SampleEvent e );1;0;2
+ResultCollector.setFilenameProperty( String f );1;0;3
+ResultCollector.writeFileStart( PrintWriter writer , SampleSaveConfiguration saveConfig );4;1;16
+***not in a method***;0;2;0
+ResultCollector.writeFileEnd( PrintWriter pw , SampleSaveConfiguration saveConfig );2;0;7
+ResultCollector.isSampleWanted( boolean success );1;0;5
+ResultCollector.testEnded( );1;0;3
+ResultCollector.isSuccessOnlyLogging( );1;0;3
+ResultCollector.loadExistingFile( );12;4;62
+ResultCollector.ResultCollector( );1;0;9
+ResultCollector.testStarted( String host );3;2;12
+ResultCollector.isSampleWanted( boolean success , boolean errorOnly , boolean successOnly );6;8;5
+ResultCollector.initializeFileOutput( );5;4;12
+ResultCollector.getFileWriter( String filename , SampleSaveConfiguration saveConfig );8;7;31
+ResultCollector.sendToVisualizer( SampleResult r );2;1;5
+ResultCollector.sampleStopped( SampleEvent e );1;0;2
+ResultCollector.isResultMarked( SampleResult res );2;1;8
+ResultCollector.setErrorLogging( boolean errorLogging );1;0;3
+ResultCollector.setSuccessOnlyLogging( boolean value );2;0;7
+ResultCollector.setFilename( String f );2;0;6
+ResultCollector.testIterationStart( LoopIterationEvent event );1;0;2
+ResultCollector.trimLastLine( String filename );9;8;45
+ResultCollector.recordStats( TestElement e );3;2;8
+ResultCollector.sampleOccurred( SampleEvent event );9;6;27
+ResultCollector.testEnded( String host );2;2;7
+ResultCollector.isErrorLogging( );1;0;3
+ResultCollector.finalizeFileOutput( );2;0;11
+ResultCollector.testStarted( );1;0;3
+FileEntry.FileEntry( PrintWriter _pw , SampleSaveConfiguration _config );1;0;4
+ResultCollector.clearData( );1;0;2
+ResultCollector.getSaveConfig( );2;0;8
+ResultCollector.setSaveConfig( SampleSaveConfiguration saveConfig );1;0;3
+ResultCollector.getFilename( );1;0;3

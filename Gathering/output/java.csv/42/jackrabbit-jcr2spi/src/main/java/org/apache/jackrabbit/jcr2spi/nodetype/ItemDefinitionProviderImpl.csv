@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ItemDefinitionProviderImpl.getQNodeDefinition( EffectiveNodeType ent , Name name , Name nodeTypeName );1;0;4
+ItemDefinitionProviderImpl.getEffectiveNodeType( Name ntName );2;1;7
+ItemDefinitionProviderImpl.getQPropertyDefinition( Name [ ] parentNodeTypeNames , Name propertyName , int propertType , boolean isMultiValued , PropertyId propertyId );2;0;10
+ItemDefinitionProviderImpl.getMatchingPropDef( QPropertyDefinition [ ] defs , int type );13;16;32
+ItemDefinitionProviderImpl.getQPropertyDefinition( Name [ ] parentNodeTypeNames , Name name , int type , boolean multiValued );1;0;4
+ItemDefinitionProviderImpl.getQPropertyDefinition( Name [ ] parentNodeTypeNames , Name name , int type );1;0;4
+ItemDefinitionProviderImpl.ItemDefinitionProviderImpl( EffectiveNodeTypeProvider entProvider , RepositoryService service , SessionInfo sessionInfo );1;0;5
+ItemDefinitionProviderImpl.getQNodeDefinition( Name [ ] parentNodeTypeNames , Name name , Name nodeTypeName );1;0;5
+ItemDefinitionProviderImpl.getQNodeDefinition( EffectiveNodeType ent , EffectiveNodeType entTarget , Name name );12;13;31
+ItemDefinitionProviderImpl.getMatchingPropDef( QPropertyDefinition [ ] defs , int type , boolean multiValued , boolean throwWhenAmbiguous );13;16;31
+ItemDefinitionProviderImpl.getRootNodeDefinition( );2;1;9
+ItemDefinitionProviderImpl.getQPropertyDefinition( EffectiveNodeType ent , Name name , int type );3;2;13
+ItemDefinitionProviderImpl.getQNodeDefinition( Name [ ] parentNodeTypeNames , Name nodeName , Name ntName , NodeId nodeId );3;1;14
+ItemDefinitionProviderImpl.getQPropertyDefinition( Name ntName , Name propName , int type , boolean multiValued );1;0;4
+ItemDefinitionProviderImpl.getQPropertyDefinition( EffectiveNodeType ent , Name name , int type , boolean multiValued , boolean throwWhenAmbiguous );3;2;13

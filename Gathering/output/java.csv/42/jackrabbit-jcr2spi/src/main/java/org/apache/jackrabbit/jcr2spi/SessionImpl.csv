@@ -1,0 +1,64 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SessionImpl.getItemDefinitionProvider( );1;0;3
+SessionImpl.createSessionItemStateManager( UpdatableItemStateManager workspaceStateManager , ItemStateFactory isf );1;0;3
+SessionImpl.getCacheBehaviour( );1;0;3
+SessionImpl.checkPermission( String absPath , String actions );6;2;27
+SessionImpl.getAttributeNames( );1;0;3
+SessionImpl.getValueFactory( );1;0;4
+SessionImpl.getAttribute( String name );1;0;3
+SessionImpl.setNamespacePrefix( String prefix , String uri );1;0;4
+SessionImpl.getPathFactory( );1;0;3
+SessionImpl.isSupportedOption( String option );1;0;4
+SessionImpl.getRootNode( );1;0;5
+SessionImpl.getQValueFactory( );1;0;3
+SessionImpl.getNamePathResolver( );1;0;3
+SessionImpl.getJcrValueFactory( );1;0;3
+SessionImpl.getImportContentHandler( String parentAbsPath , int uuidBehavior );1;0;7
+SessionImpl.getItemManager( );1;0;3
+SessionImpl.refresh( boolean keepChanges );1;0;3
+SessionImpl.checkAccessibleWorkspace( String workspaceName );4;5;10
+SessionImpl.switchWorkspace( String workspaceName );2;0;9
+SessionImpl.notifyLoggingOut( );3;3;8
+SessionImpl.getVersionState( Version version );3;2;15
+SessionImpl.impersonate( Credentials credentials );3;0;14
+SessionImpl.getRepository( );1;0;3
+SessionImpl.getNamespaceResolver( );1;0;3
+SessionImpl.checkHasPendingChanges( );2;0;7
+SessionImpl.getQPath( String absPath );3;1;13
+SessionImpl.removeListener( SessionListener listener );1;0;3
+SessionImpl.getNameFactory( );1;0;3
+SessionImpl.notifyLoggedOut( );3;3;8
+SessionImpl.SessionImpl( SessionInfo sessionInfo , Repository repository , RepositoryConfig config );2;0;17
+SessionImpl.getItem( String absPath );3;0;14
+SessionImpl.move( String srcAbsPath , String destAbsPath );1;0;8
+SessionImpl.getIdFactory( );1;0;3
+SessionImpl.getHierarchyManager( );1;0;3
+SessionImpl.getNameResolver( );1;0;3
+SessionImpl.getLockTokens( );1;0;3
+SessionImpl.addListener( SessionListener listener );2;1;5
+SessionImpl.getValidator( );1;0;3
+SessionImpl.getEffectiveNodeTypeProvider( );1;0;3
+SessionImpl.isLive( );1;0;3
+SessionImpl.getUserID( );1;0;3
+SessionImpl.getNodeByUUID( String uuid );4;1;12
+SessionImpl.getURI( String prefix );3;0;9
+SessionImpl.getPrefix( String uri );3;0;9
+SessionImpl.getWorkspace( );1;0;3
+SessionImpl.checkSupportedOption( String option );2;1;5
+SessionImpl.createWorkspaceInstance( RepositoryConfig config , SessionInfo sessionInfo );1;0;3
+SessionImpl.getLockManager( );1;0;3
+SessionImpl.createItemManager( HierarchyManager hierarchyManager );1;0;5
+SessionImpl.getPathResolver( );1;0;3
+SessionImpl.removeLockToken( String lt );2;0;7
+SessionImpl.save( );1;0;4
+SessionImpl.addLockToken( String lt );2;0;7
+SessionImpl.itemExists( String absPath );2;0;6
+SessionImpl.getAccessManager( );1;0;3
+SessionImpl.logout( );2;1;11
+SessionImpl.importXML( String parentAbsPath , InputStream in , int uuidBehavior );5;2;22
+SessionImpl.checkIsAlive( );2;1;5
+SessionImpl.hasPendingChanges( );1;0;4
+SessionImpl.getNodeById( NodeId id );3;0;15
+SessionImpl.getSessionItemStateManager( );1;0;3
+SessionImpl.getVersionManager( );1;0;3
+SessionImpl.getNodeTypeManager( );1;0;3

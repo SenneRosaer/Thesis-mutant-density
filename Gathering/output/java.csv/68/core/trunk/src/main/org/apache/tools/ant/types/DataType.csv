@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DataType.checkAttributesAllowed( );2;0;5
+DataType.invokeCircularReferenceCheck( DataType dt , Stack stk , Project p );1;0;3
+DataType.getRefid( );1;0;3
+DataType.getCheckedRef( Project p );1;0;3
+DataType.setRefid( final Reference ref );1;0;4
+DataType.checkChildrenAllowed( );2;0;5
+DataType.circularReference( );1;0;4
+DataType.getCheckedRef( final Class requiredClass , final String dataTypeName , final Project project );3;3;14
+DataType.clone( );2;1;9
+DataType.dieOnCircularReference( );1;0;3
+DataType.noChildrenAllowed( );1;0;4
+DataType.dieOnCircularReference( final Stack stack , final Project project );5;2;17
+DataType.getCheckedRef( );1;0;3
+DataType.pushAndInvokeCircularReferenceCheck( DataType dt , Stack stk , Project p );1;0;5
+DataType.isReference( );1;1;3
+DataType.toString( );2;2;4
+DataType.dieOnCircularReference( Project p );3;2;6
+DataType.getDataTypeName( );1;0;3
+DataType.isChecked( );1;0;3
+DataType.setChecked( final boolean checked );1;0;3
+DataType.getCheckedRef( final Class requiredClass , final String dataTypeName );1;0;3
+DataType.tooManyAttributes( );1;0;4

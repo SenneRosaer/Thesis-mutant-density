@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropInfo.PropInfo( Name name , int type , TextValue [ ] values );1;0;5
+PropInfo.getTargetType( PropDef def );3;2;10
+PropInfo.apply( NodeState node , BatchedItemOperations itemOps , NodeTypeRegistry ntReg , ReferenceChangeTracker refTracker );12;13;41
+PropInfo.apply( NodeImpl node , NamePathResolver resolver , ReferenceChangeTracker refTracker );9;7;30
+PropInfo.getApplicablePropertyDef( EffectiveNodeType ent );2;1;7
+PropInfo.dispose( );2;2;5

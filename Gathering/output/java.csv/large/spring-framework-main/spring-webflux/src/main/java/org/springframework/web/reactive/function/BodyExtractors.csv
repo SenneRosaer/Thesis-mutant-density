@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BodyExtractors.toFlux( ParameterizedTypeReference < T > typeRef );1;0;3
+BodyExtractors.toParts( );1;0;8
+BodyExtractors.skipBodyAsFlux( ReactiveHttpInputMessage message );2;0;4
+BodyExtractors.toFlux( ResolvableType elementType );1;0;7
+BodyExtractors.readToMono( ReactiveHttpInputMessage message , BodyExtractor . Context context , ResolvableType type , HttpMessageReader < T > reader );1;0;5
+BodyExtractors.unsupportedErrorHandler( ReactiveHttpInputMessage message , UnsupportedMediaTypeException ex );3;1;14
+BodyExtractors.skipBodyAsMono( ReactiveHttpInputMessage message );2;0;4
+BodyExtractors.toFormData( );1;0;8
+BodyExtractors.toMono( Class < ? extends T > elementClass );1;0;3
+BodyExtractors.findReader( ResolvableType elementType , MediaType mediaType , BodyExtractor . Context context );1;0;8
+BodyExtractors.toFlux( Class < ? extends T > elementClass );1;0;3
+BodyExtractors.toDataBuffers( );1;0;3
+BodyExtractors.cast( HttpMessageReader < ? > reader );1;0;3
+BodyExtractors.readWithMessageReaders( ReactiveHttpInputMessage message , BodyExtractor . Context context , ResolvableType elementType , Function < HttpMessageReader < T > , S > readerFunction , Function < UnsupportedMediaTypeException , S > errorFunction , Supplier < S > emptySupplier );2;0;19
+BodyExtractors.consumeAndCancel( ReactiveHttpInputMessage message );1;0;6
+BodyExtractors.toMono( ResolvableType elementType );1;0;7
+BodyExtractors.readToFlux( ReactiveHttpInputMessage message , BodyExtractor . Context context , ResolvableType type , HttpMessageReader < T > reader );1;0;5
+BodyExtractors.toMono( ParameterizedTypeReference < T > elementTypeRef );1;0;3
+BodyExtractors.toMultipartData( );1;0;8

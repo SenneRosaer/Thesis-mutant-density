@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CacheManager.add( Cache cache );1;0;5
+CacheInfo.wasFull( );1;0;3
+CacheManager.getMaxMemory( );1;0;3
+CacheManager.setMinResizeInterval( long minResizeInterval );1;0;3
+***not in a method***;0;7;0
+CacheManager.setMaxMemoryPerCache( final long maxMemoryPerCache );1;0;3
+CacheManager.setMinMemoryPerCache( final long minMemoryPerCache );1;0;3
+CacheManager.getMaxMemoryPerCache( );1;0;3
+CacheInfo.CacheInfo( Cache cache );1;2;8
+CacheManager.getMinMemoryPerCache( );1;0;3
+CacheManager.getMinResizeInterval( );1;0;3
+CacheManager.setMaxMemory( final long maxMemory );1;0;3
+CacheManager.remove( Cache cache );1;0;5
+CacheManager.disposeCache( Cache cache );1;0;3
+CacheManager.resizeAll( );15;33;66
+CacheInfo.getMemory( );1;0;3
+CacheManager.cacheAccessed( );3;4;14
+CacheInfo.getCache( );1;0;3
+CacheInfo.getMemoryUsed( );1;0;3
+CacheInfo.setMemory( long mem );1;0;3
+CacheInfo.getAccessCount( );1;0;3

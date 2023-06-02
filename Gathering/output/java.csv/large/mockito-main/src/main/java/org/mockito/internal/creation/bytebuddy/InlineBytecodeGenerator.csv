@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InlineBytecodeGenerator.clearAllCaches( );5;0;21
+InlineBytecodeGenerator.checkSupportedCombination( boolean subclassingRequired , MockFeatures < T > features );7;7;11
+InlineBytecodeGenerator.mockClassConstruction( Class < ? > type );1;0;3
+InlineBytecodeGenerator.mockClass( MockFeatures < T > features );6;5;15
+InlineBytecodeGenerator.assureCanReadMockito( Set < Class < ? > > types );8;4;41
+ParameterWritingVisitorWrapper.wrap( TypeDescription instrumentedType , ClassVisitor classVisitor , Implementation . Context implementationContext , TypePool typePool , FieldList < FieldDescription . InDefinedShape > fields , MethodList < ? > methods , int writerFlags , int readerFlags );2;0;6
+ParameterAddingClassVisitor.ParameterAddingClassVisitor( ClassVisitor cv , TypeDescription typeDescription );1;0;4
+ParameterWritingVisitorWrapper.ParameterWritingVisitorWrapper( Class < ? > type );1;0;3
+InlineBytecodeGenerator.mockClassStatic( Class < ? > type );1;0;3
+MethodParameterStrippingMethodVisitor.MethodParameterStrippingMethodVisitor( MethodVisitor mv );1;0;3
+InlineBytecodeGenerator.InlineBytecodeGenerator( Instrumentation instrumentation , WeakConcurrentMap < Object , MockMethodInterceptor > mocks , DetachedThreadLocal < Map < Class < ? > , MockMethodInterceptor > > mockedStatics , Predicate < Class < ? > > isMockConstruction , ConstructionCallback onConstruction );2;0;86
+ParameterAddingClassVisitor.visitMethod( int access , String name , String desc , String signature , String [ ] exceptions );6;2;25
+InlineBytecodeGenerator.addInterfaces( Set < Class < ? > > types , Class < ? > [ ] interfaces );5;1;11
+InlineBytecodeGenerator.preload( );4;1;13
+InlineBytecodeGenerator.assureInitialization( Class < ? > type );3;0;12
+InlineBytecodeGenerator.transform( ClassLoader loader , String className , Class < ? > classBeingRedefined , ProtectionDomain protectionDomain , byte [ ] classfileBuffer );6;6;24
+InlineBytecodeGenerator.triggerRetransformation( Set < Class < ? > > types , boolean flat );20;6;57
+MethodParameterStrippingMethodVisitor.visitParameter( String name , int access );1;0;2

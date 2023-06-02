@@ -1,0 +1,57 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnnotationTransactionInterceptorTests.assertReactiveGetTransactionAndCommitCount( int expectedCount );1;0;4
+AnnotationTransactionInterceptorTests.withVavrTryCheckedException( );1;0;8
+AnnotationTransactionInterceptorTests.withMonoRollback( );1;0;8
+AnnotationTransactionInterceptorTests.assertGetTransactionAndCommitCount( int expectedCount );1;0;4
+TestWithReactive.fluxFailure( );1;0;3
+AnnotationTransactionInterceptorTests.doSomethingDefault( );1;0;4
+AnnotationTransactionInterceptorTests.withVavrTryCheckedExceptionAndRollbackRule( );1;0;8
+TestWithMultiMethodOverride.doSomethingCompletelyElse( );1;0;4
+TestWithReactive.monoSuccess( );1;0;3
+AnnotationTransactionInterceptorTests.withCommitOnCheckedException( );1;0;9
+AnnotationTransactionInterceptorTests.withVavrTryRuntimeException( );1;0;8
+AnnotationTransactionInterceptorTests.withVavrTrySuccess( );1;0;8
+AnnotationTransactionInterceptorTests.withFluxRollback( );1;0;8
+TestWithExceptions.doSomethingErroneous( );1;0;5
+TestWithInterfaceImpl.doSomethingElse( );1;0;4
+AnnotationTransactionInterceptorTests.crossClassInterfaceMethodLevelOnJdkProxy( );1;0;13
+TestWithVavrTry.doSomethingErroneous( );1;0;5
+SomeServiceImpl.foo( );1;0;2
+TestWithSingleMethodOverrideInverted.doSomething( );1;0;4
+SomeServiceImpl.bar( );1;0;2
+AnnotationTransactionInterceptorTests.withInterfaceOnTargetJdkProxy( );1;0;20
+TestWithSingleMethodOverrideInverted.doSomethingElse( );1;0;4
+AnnotationTransactionInterceptorTests.crossClassInterfaceOnJdkProxy( );1;0;9
+AnnotationTransactionInterceptorTests.withSingleMethodOverride( );1;0;14
+AnnotationTransactionInterceptorTests.withFluxSuccess( );1;0;8
+TestWithSingleMethodOverride.doSomethingCompletelyElse( );1;0;4
+AnnotationTransactionInterceptorTests.classLevelOnly( );1;0;14
+AnnotationTransactionInterceptorTests.withRollbackOnRuntimeException( );1;0;12
+TestWithReactive.monoFailure( );1;0;3
+TestWithMultiMethodOverride.doSomethingElse( );1;0;4
+AnnotationTransactionInterceptorTests.withInterface( );1;0;17
+AnnotationTransactionInterceptorTests.assertReactiveGetTransactionAndRollbackCount( int expectedCount );1;0;4
+AnnotationTransactionInterceptorTests.assertGetTransactionAndRollbackCount( int expectedCount );1;0;4
+AnnotationTransactionInterceptorTests.withSingleMethodOverrideInverted( );1;0;14
+TestWithReactive.fluxSuccess( );1;0;3
+TestWithSingleMethodOverride.doSomethingElse( );1;0;4
+AnnotationTransactionInterceptorTests.withRollbackOnCheckedExceptionAndRollbackRule( );1;0;9
+AnnotationTransactionInterceptorTests.withMonoSuccess( );1;0;8
+OtherServiceImpl.foo( );1;0;2
+TestWithInterfaceImpl.doSomething( );1;0;4
+TestWithExceptions.doSomethingElseWithCheckedExceptionAndRollbackRule( );1;0;5
+TestWithSingleMethodOverride.doSomething( );1;0;4
+TestWithExceptions.doSomethingElseErroneous( );1;0;5
+TestWithVavrTry.doSomething( );1;0;5
+TestClassLevelOnly.doSomething( );1;0;4
+TestWithVavrTry.doSomethingErroneousWithCheckedException( );1;0;5
+AnnotationTransactionInterceptorTests.withMultiMethodOverride( );1;0;14
+AnnotationTransactionInterceptorTests.withInterfaceOnTargetCglibProxy( );1;0;20
+TestClassLevelOnly.doSomethingElse( );1;0;4
+AnnotationTransactionInterceptorTests.withFluxFailure( );1;0;8
+TestWithExceptions.doSomethingElseWithCheckedException( );1;0;5
+TestWithMultiMethodOverride.doSomething( );1;0;4
+AnnotationTransactionInterceptorTests.withMonoFailure( );1;0;8
+TestWithVavrTry.doSomethingErroneousWithCheckedExceptionAndRollbackRule( );1;0;5
+SomeServiceImpl.fooBar( );1;0;2
+TestWithSingleMethodOverrideInverted.doSomethingCompletelyElse( );1;0;4

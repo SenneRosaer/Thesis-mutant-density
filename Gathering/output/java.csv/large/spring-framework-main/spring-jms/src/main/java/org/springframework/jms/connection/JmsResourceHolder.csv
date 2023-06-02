@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JmsResourceHolder.getSession( );1;0;3
+JmsResourceHolder.JmsResourceHolder( Connection connection , Session session );1;0;5
+JmsResourceHolder.getConnection( );1;0;3
+JmsResourceHolder.JmsResourceHolder( Session session );1;0;4
+JmsResourceHolder.JmsResourceHolder( );1;0;2
+JmsResourceHolder.getOriginalSession( );1;0;3
+JmsResourceHolder.addSession( Session session );1;0;3
+JmsResourceHolder.JmsResourceHolder( @ Nullable ConnectionFactory connectionFactory , Connection connection , Session session );1;0;6
+JmsResourceHolder.JmsResourceHolder( @ Nullable ConnectionFactory connectionFactory );1;0;3
+JmsResourceHolder.getSession( Class < S > sessionType , @ Nullable Connection connection );2;1;5
+JmsResourceHolder.commitAll( );10;2;35
+JmsResourceHolder.addSession( Session session , @ Nullable Connection connection );3;3;12
+JmsResourceHolder.isFrozen( );1;0;3
+JmsResourceHolder.getConnection( Class < C > connectionType );1;0;3
+JmsResourceHolder.getSession( Class < S > sessionType );1;0;3
+JmsResourceHolder.containsSession( Session session );1;0;3
+JmsResourceHolder.addConnection( Connection connection );2;2;7
+JmsResourceHolder.closeAll( );4;0;16

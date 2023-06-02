@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RemoteDebuggingSitemapExecutor.notifyPipelineProcessed( ExecutionContext context , Map objectModel );7;5;38
+RemoteDebuggingSitemapExecutor.addGenerator( ExecutionContext context , Map objectModel , PipelineComponentDescription desc );2;1;10
+RemoteDebuggingSitemapExecutor.invokeSwitchSelector( ExecutionContext context , Map objectModel , SwitchSelector selector , String expression , Parameters parameters , Object selectorContext );2;1;14
+RemoteDebuggingSitemapExecutor.popVariables( ExecutionContext context , Map objectModel );2;1;6
+RemoteDebuggingSitemapExecutor.invokePreparableMatcher( ExecutionContext context , Map objectModel , PreparableMatcher matcher , String pattern , Object preparedPattern , Parameters resolvedParams );2;1;9
+RemoteDebuggingSitemapExecutor.invokeMatcher( ExecutionContext context , Map objectModel , Matcher matcher , String pattern , Parameters resolvedParams );2;1;9
+RemoteDebuggingSitemapExecutor.addTransformer( ExecutionContext context , Map objectModel , PipelineComponentDescription desc );2;1;10
+RemoteDebuggingSitemapExecutor.addSerializer( ExecutionContext context , Map objectModel , PipelineComponentDescription desc );2;1;9
+RemoteDebuggingSitemapExecutor.leaveSitemap( ExecutionContext context , Map objectModel );3;2;12
+RemoteDebuggingSitemapExecutor.invokeSelector( ExecutionContext context , Map objectModel , Selector selector , String expression , Parameters parameters );2;1;14
+RemoteDebuggingSitemapExecutor.invokeAction( final ExecutionContext context , final Map objectModel , final Action action , final Redirector redirector , final SourceResolver resolver , final String resolvedSource , final Parameters resolvedParams );2;1;9
+RemoteDebuggingSitemapExecutor.contextualize( Context context );1;0;3
+RemoteDebuggingSitemapExecutor.service( ServiceManager manager );1;0;3
+RemoteDebuggingSitemapExecutor.redirectTo( ExecutionContext context , Map objectModel , String uri , boolean createSession , boolean global , boolean permanent );2;1;10
+RemoteDebuggingSitemapExecutor.enterSitemap( ExecutionContext context , Map objectModel , String source );10;8;55
+RemoteDebuggingSitemapExecutor.enteringPipeline( ExecutionContext context , Map objectModel , PipelineComponentDescription desc );2;1;8
+RemoteDebuggingSitemapExecutor.pushVariables( ExecutionContext context , Map objectModel , String key , Map variables );3;2;10
+RemoteDebuggingSitemapExecutor.addReader( ExecutionContext context , Map objectModel , PipelineComponentDescription desc );2;1;10

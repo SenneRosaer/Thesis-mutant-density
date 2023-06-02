@@ -1,0 +1,5 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SessionAttributeOutputModule.getName( String name );2;2;4
+SessionAttributeOutputModule.setAttribute( Configuration modeConf , Map objectModel , String name , Object value );5;1;17
+SessionAttributeOutputModule.commit( Configuration modeConf , Map objectModel );11;5;39
+SessionAttributeOutputModule.rollback( Configuration modeConf , Map objectModel , Exception e );11;3;37

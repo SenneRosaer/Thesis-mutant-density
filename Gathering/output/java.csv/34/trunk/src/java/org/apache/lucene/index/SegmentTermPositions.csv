@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SegmentTermPositions.seek( TermInfo ti , Term term );2;1;9
+SegmentTermPositions.lazySkip( );4;5;14
+SegmentTermPositions.skipPositions( int n );2;3;7
+SegmentTermPositions.skippingDoc( );1;1;3
+SegmentTermPositions.nextPosition( );2;2;7
+SegmentTermPositions.read( final int [ ] docs , final int [ ] freqs );1;0;3
+SegmentTermPositions.skipProx( long proxPointer , int payloadLength );1;0;7
+***not in a method***;0;1;0
+SegmentTermPositions.close( );2;1;4
+SegmentTermPositions.isPayloadAvailable( );2;2;3
+SegmentTermPositions.getPayloadLength( );1;0;3
+SegmentTermPositions.next( );2;1;9
+SegmentTermPositions.getPayload( byte [ ] data , int offset );4;5;17
+SegmentTermPositions.SegmentTermPositions( SegmentReader p );1;0;4
+SegmentTermPositions.readDeltaPosition( );3;3;11
+SegmentTermPositions.skipPayload( );3;3;6

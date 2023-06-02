@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StrutsUtils.getLocale( HttpServletRequest request , HttpSession session );3;2;12
+StrutsUtils.getMessageResources( HttpServletRequest request , ServletContext app , String bundle );3;4;12
+StrutsUtils.StrutsUtils( );1;0;1
+StrutsUtils.getActionForm( HttpServletRequest request , HttpSession session );5;3;22
+StrutsUtils.getMessageResources( HttpServletRequest request , ServletContext app );1;0;3
+StrutsUtils.getActionMappingURL( ServletContext application , HttpServletRequest request , String action );8;6;45
+StrutsUtils.errorMarkup( String property , HttpServletRequest request , HttpSession session , ServletContext application );1;0;3
+StrutsUtils.getActionMappingName( String action );5;4;13
+StrutsUtils.selectModule( String urlPath , ServletContext app );1;1;6
+StrutsUtils.getForwardURL( HttpServletRequest request , ServletContext app , String forward );5;3;29
+StrutsUtils.getActionFormName( HttpServletRequest request , HttpSession session );2;1;9
+StrutsUtils.getToken( HttpSession session );2;1;7
+StrutsUtils.getErrors( HttpServletRequest request );4;3;12
+StrutsUtils.errorMarkup( String property , String bundle , HttpServletRequest request , HttpSession session , ServletContext application );13;11;79
+StrutsUtils.getMessages( HttpServletRequest request );4;3;12
+StrutsUtils.getInstance( );1;0;3

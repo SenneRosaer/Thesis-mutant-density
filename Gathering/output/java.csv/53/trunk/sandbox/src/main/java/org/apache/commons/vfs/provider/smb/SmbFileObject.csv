@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SmbFileObject.doDetach( );1;0;3
+SmbFileObject.doRename( FileObject newfile );1;0;3
+SmbFileObject.doCreateFolder( );1;0;4
+SmbFileObject.doGetContentSize( );1;0;3
+SmbFileObject.doGetOutputStream( boolean bAppend );1;0;3
+SmbFileObject.doIsHidden( );1;0;3
+SmbFileObject.doGetType( );4;1;15
+SmbFileObject.doGetRandomAccessContent( final RandomAccessMode mode );1;0;3
+SmbFileObject.SmbFileObject( final FileName name , final SmbFileSystem fileSystem );1;0;3
+SmbFileObject.doGetLastModifiedTime( );1;0;3
+SmbFileObject.doGetInputStream( );4;1;18
+SmbFileObject.doDelete( );1;0;3
+SmbFileObject.doListChildren( );2;1;7
+SmbFileObject.createSmbFile( FileName fileName );3;2;37
+SmbFileObject.doAttach( );2;1;6

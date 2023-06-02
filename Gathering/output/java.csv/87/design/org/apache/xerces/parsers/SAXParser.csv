@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SAXParser.setContentHandler( ContentHandler contentHandler );1;0;2
+SAXParser.startExternalSubset( );1;0;2
+SAXParser.setLocale( Locale locale );1;0;2
+SAXParser.SAXParser( SymbolTable symbolTable , GrammarPool grammarPool );1;0;2
+SAXParser.comment( XMLString text );1;0;2
+SAXParser.internalEntityDecl( String name , XMLString text );1;0;2
+SAXParser.SAXParser( );1;0;2
+SAXParser.setProperty( String propertyId , Object value );1;0;2
+SAXParser.startAttlist( String elementName );1;0;2
+SAXParser.parse( String systemId );1;0;2
+SAXParser.notationDecl( String name , String publicId , String systemId );1;0;2
+SAXParser.endEntity( String name );1;0;2
+SAXParser.startEntity( String name , String publicId , String systemId , String encoding );1;0;2
+SAXParser.parse( InputSource inputSource );1;0;2
+SAXParser.setDTDHandler( DTDHandler dtdHandler );1;0;2
+SAXParser.endExternalSubset( );1;0;2
+SAXParser.unparsedEntityDecl( String name , String publicId , String systemId , String notation );1;0;2
+SAXParser.processingInstruction( String target , XMLString data );1;0;2
+SAXParser.elementDecl( String name , XMLString contentModel );1;0;2
+SAXParser.getFeature( String featureId );1;0;3
+SAXParser.startConditional( short type );1;0;2
+SAXParser.endDTD( );1;0;2
+SAXParser.startDTD( );1;0;2
+SAXParser.endConditional( );1;0;2
+SAXParser.externalEntityDecl( String name , String publicId , String systemId );1;0;2
+SAXParser.getDTDHandler( );1;0;3
+SAXParser.endAttlist( );1;0;2
+SAXParser.setErrorHandler( ErrorHandler errorHandler );1;0;2
+SAXParser.setFeature( String featureId , boolean state );1;0;2
+SAXParser.setDocumentHandler( DocumentHandler documentHandler );1;0;2
+SAXParser.getErrorHandler( );1;0;3
+SAXParser.getProperty( String propertyId );1;0;3
+SAXParser.setEntityResolver( EntityResolver entityResolver );1;0;2
+SAXParser.attributeDecl( String elementName , String attributeName , String type , String [ ] enumeration , String defaultType , XMLString defaultValue );1;0;2
+SAXParser.getContentHandler( );1;0;3
+SAXParser.getEntityResolver( );1;0;3

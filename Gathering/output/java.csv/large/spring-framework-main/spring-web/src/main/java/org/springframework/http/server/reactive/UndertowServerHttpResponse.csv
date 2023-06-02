@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResponseBodyProcessor.writingComplete( );1;0;4
+ResponseBodyProcessor.isWritePossible( );1;0;4
+ResponseBodyFlushProcessor.isFlushPending( );1;0;3
+UndertowServerHttpResponse.getStatusCode( );2;1;4
+TransferBodyListener.closeSource( );2;0;7
+ResponseBodyProcessor.dataReceived( DataBuffer dataBuffer );1;0;4
+ResponseBodyFlushProcessor.flush( );3;1;9
+TransferBodyListener.transfer( StreamSinkChannel destination );4;4;19
+UndertowServerHttpResponse.getRawStatusCode( );2;1;4
+ResponseBodyProcessor.write( DataBuffer dataBuffer );4;4;19
+ResponseBodyProcessor.discardData( DataBuffer dataBuffer );1;0;3
+UndertowServerHttpResponse.createHeaders( HttpServerExchange exchange );1;0;5
+UndertowServerHttpResponse.applyStatusCode( );2;1;6
+ResponseBodyFlushProcessor.ResponseBodyFlushProcessor( );1;0;3
+ResponseBodyProcessor.writingFailed( Throwable ex );1;0;4
+TransferBodyListener.TransferBodyListener( FileChannel source , long position , long count , MonoSink < Void > sink );1;0;6
+UndertowServerHttpResponse.applyHeaders( );1;0;2
+ResponseBodyFlushProcessor.isWritePossible( );2;1;8
+UndertowServerHttpResponse.UndertowServerHttpResponse( HttpServerExchange exchange , DataBufferFactory bufferFactory , UndertowServerHttpRequest request );1;0;5
+ResponseBodyFlushProcessor.createWriteProcessor( );1;0;3
+UndertowServerHttpResponse.createBodyProcessor( );2;1;6
+UndertowServerHttpResponse.writeWith( Path file , long position , long count );2;0;16
+UndertowServerHttpResponse.getNativeResponse( );1;0;3
+UndertowServerHttpResponse.applyCookies( );6;3;20
+ResponseBodyProcessor.ResponseBodyProcessor( StreamSinkChannel channel );1;0;10
+ResponseBodyProcessor.isDataEmpty( DataBuffer dataBuffer );1;1;3
+ResponseBodyProcessor.writeByteBuffer( ByteBuffer byteBuffer );3;3;10
+UndertowServerHttpResponse.createBodyFlushProcessor( );1;0;3

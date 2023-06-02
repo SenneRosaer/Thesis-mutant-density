@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JMSConnectionManagerImpl.stop( );2;0;7
+JMSConnectionManagerImpl.createConnection( ConnectionFactory factory , ConnectionConfiguration cc );8;1;31
+JMSConnectionManagerImpl.getConnection( String name );1;0;3
+JMSConnectionManagerImpl.getQueueConnection( String name );1;0;3
+ConnectionConfiguration.getType( );1;0;3
+JMSConnectionManagerImpl.removeConnectionListener( String name , JMSConnectionEventListener listener );2;1;6
+ConnectionConfiguration.getUserName( );1;0;3
+JMSConnectionManagerImpl.service( ServiceManager manager );1;0;3
+JMSConnectionManagerImpl.start( );3;0;11
+JMSConnectionManagerImpl.configure( Configuration configuration );1;0;9
+JMSConnectionManagerImpl.scheduleReconnectionJob( ConnectionConfiguration configuration );7;2;27
+ConnectionConfiguration.getPassword( );1;0;3
+JMSConnectionManagerImpl.stopConnection( String name , Connection connection );3;0;10
+JMSConnectionManagerImpl.getTopicConnection( String name );1;0;3
+ReconnectionListener.ReconnectionListener( JMSConnectionManagerImpl manager , ConnectionConfiguration configuration );1;0;5
+JMSConnectionManagerImpl.configureConnections( Configuration [ ] connections , int type );3;2;12
+ConnectionConfiguration.isAutoReconnect( );1;0;3
+JMSConnectionManagerImpl.notifyListenersOfDisconnection( String name );3;1;9
+JMSConnectionManagerImpl.dispose( );4;0;16
+JMSConnectionManagerImpl.JMSConnectionManagerImpl( );1;0;2
+ConnectionConfiguration.ConnectionConfiguration( String name , Parameters parameters , int type );4;2;20
+JMSConnectionManagerImpl.removeConnection( String name );1;0;5
+JMSConnectionManagerImpl.notifyListenersOfConnection( String name );3;1;9
+ConnectionConfiguration.getJNDIProperties( );1;0;3
+ConnectionConfiguration.hashCode( );1;0;3
+JMSConnectionManagerImpl.addConnectionListener( String name , JMSConnectionEventListener listener );2;1;8
+ConnectionConfiguration.getAutoReconnectDelay( );1;0;3
+JMSConnectionManagerImpl.addConnection( String name , Connection connection );1;0;4
+JMSConnectionManagerImpl.createInitialContext( Properties properties );2;1;6
+ConnectionConfiguration.getName( );1;0;3
+JMSConnectionManagerImpl.initialize( );3;0;15
+ReconnectionJob.ReconnectionJob( JMSConnectionManagerImpl manager , ConnectionConfiguration configuration );1;0;5
+JMSConnectionManagerImpl.createConnection( ConnectionConfiguration cc );7;3;36
+ReconnectionListener.onException( JMSException exception );1;0;4
+ReconnectionJob.execute( String jobname );7;0;25
+ConnectionConfiguration.getConnectionFactory( );1;0;3

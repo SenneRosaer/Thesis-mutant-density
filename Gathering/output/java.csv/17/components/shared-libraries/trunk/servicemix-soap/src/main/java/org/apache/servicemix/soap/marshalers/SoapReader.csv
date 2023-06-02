@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SoapReader.read( MimeMessage mime );10;10;44
+SoapReader.parseHeaders( SoapMessage message , Element headers );2;1;9
+SoapReader.parseHeaders( SoapMessage message , XMLStreamReader reader );2;1;11
+SoapReader.readSoapUsingStax( InputStream is );8;6;44
+SoapReader.read( InputStream is , String contentType );3;2;11
+SoapReader.read( InputStream is );3;0;13
+SoapReader.readSoapUsingDom( InputStream is );9;7;46
+SoapReader.getDetailsAsSource( Element parent );6;6;22
+SoapReader.readFaultUsingDom( Element element );17;14;87
+SoapReader.startsWithCaseInsensitive( String s1 , String s2 );1;0;3
+SoapReader.readFaultUsingStax( XMLStreamReader reader );3;0;12
+SoapReader.SoapReader( SoapMarshaler marshaler );1;0;3
+SoapReader.checkElementName( Element element , QName expected );2;1;6

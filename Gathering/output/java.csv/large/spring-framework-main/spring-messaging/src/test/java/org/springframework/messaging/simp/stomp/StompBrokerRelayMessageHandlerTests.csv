@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StompBrokerRelayMessageHandlerTests.connectWhenBrokerNotAvailable( );1;0;11
+StompBrokerRelayMessageHandlerTests.loginAndPasscode( );1;0;17
+StubTcpConnection.sendAsync( Message < byte [ ] > message );1;0;4
+StompBrokerRelayMessageHandlerTests.getVoidFuture( );1;0;3
+StubTcpOperations.handleMessage( Message < byte [ ] > message );1;0;3
+StubTcpConnection.getMessages( );1;0;3
+StompBrokerRelayMessageHandlerTests.systemSubscription( );1;0;18
+StompBrokerRelayMessageHandlerTests.message( StompCommand command , String sessionId , String user , String destination );4;3;14
+StompBrokerRelayMessageHandlerTests.connectMessage( String sessionId , String user );1;0;7
+StompBrokerRelayMessageHandlerTests.destinationExcluded( );1;0;18
+StubTcpOperations.shutdownAsync( );1;0;3
+StubTcpConnection.onReadInactivity( Runnable runnable , long duration );1;0;2
+StompBrokerRelayMessageHandlerTests.destinationExcludedWithHeartbeat( );1;0;17
+StompBrokerRelayMessageHandlerTests.messageFromBrokerIsEnriched( );1;0;12
+StubTcpOperations.getSentHeaders( int index );1;1;7
+StubTcpOperations.connectAsync( TcpConnectionHandler < byte [ ] > handler );1;0;5
+StompBrokerRelayMessageHandlerTests.startInternal( );1;0;4
+StompBrokerRelayMessageHandlerTests.virtualHost( );1;0;14
+StubTcpConnection.close( );1;0;2
+StubTcpOperations.getSentMessages( );1;0;3
+StompBrokerRelayMessageHandlerTests.sendAfterBrokerUnavailable( );1;0;15
+StompBrokerRelayMessageHandlerTests.setup( );1;0;12
+StompBrokerRelayMessageHandlerTests.alreadyConnected( );1;0;15
+StubTcpConnection.onWriteInactivity( Runnable runnable , long duration );1;0;2
+StubTcpOperations.connectAsync( TcpConnectionHandler < byte [ ] > handler , ReconnectStrategy reconnectStrategy );1;0;5

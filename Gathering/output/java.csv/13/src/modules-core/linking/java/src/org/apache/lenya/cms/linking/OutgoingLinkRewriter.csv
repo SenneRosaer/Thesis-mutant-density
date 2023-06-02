@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OutgoingLinkRewriter.getRelativeUrlTo( String webappUrl );10;10;33
+OutgoingLinkRewriter.hasArea( Publication pub , String area );2;1;9
+OutgoingLinkRewriter.getLastStep( String url );1;1;3
+OutgoingLinkRewriter.normalizeUrl( final String url );2;2;9
+OutgoingLinkRewriter.rewriteLink( String linkUrl , Publication pub , boolean ssl );3;4;14
+OutgoingLinkRewriter.matches( String url );1;0;3
+OutgoingLinkRewriter.toList( String url );1;1;3
+OutgoingLinkRewriter.rewrite( final String url );9;11;50
+OutgoingLinkRewriter.getPublication( String pubId );1;0;3
+OutgoingLinkRewriter.getGlobalProxies( );3;1;10
+OutgoingLinkRewriter.OutgoingLinkRewriter( ServiceManager manager , Session session , String requestUrl , boolean ssl , boolean considerSslPolicies , boolean relativeUrls );7;5;36
+OutgoingLinkRewriter.generateUpDots( int length );1;0;7

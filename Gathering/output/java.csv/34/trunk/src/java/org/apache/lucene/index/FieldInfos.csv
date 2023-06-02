@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FieldInfos.add( Collection names , boolean isIndexed );2;0;6
+FieldInfos.addInternal( String name , boolean isIndexed , boolean storeTermVector , boolean storePositionWithTermVector , boolean storeOffsetWithTermVector , boolean omitNorms , boolean storePayloads , boolean omitTf );1;0;8
+FieldInfos.clone( );2;2;10
+FieldInfos.write( IndexOutput output );9;9;16
+FieldInfos.write( Directory d , String name );1;0;8
+FieldInfos.add( Document doc );2;0;9
+FieldInfos.addIndexed( Collection names , boolean storeTermVectors , boolean storePositionWithTermVector , boolean storeOffsetWithTermVector );2;0;6
+FieldInfos.fieldNumber( String fieldName );2;2;4
+FieldInfos.add( String name , boolean isIndexed , boolean storeTermVector , boolean storePositionWithTermVector , boolean storeOffsetWithTermVector );1;0;3
+FieldInfos.fieldInfo( String fieldName );1;0;3
+FieldInfos.fieldName( int fieldNumber );2;1;4
+FieldInfos.fieldInfo( int fieldNumber );2;1;3
+FieldInfos.read( IndexInput input );2;16;15
+FieldInfos.add( String name , boolean isIndexed , boolean storeTermVector );1;0;3
+FieldInfos.FieldInfos( Directory d , String name );1;0;8
+FieldInfos.hasProx( );3;3;7
+FieldInfos.add( String name , boolean isIndexed );1;0;3
+FieldInfos.FieldInfos( );1;0;1
+FieldInfos.hasVectors( );3;2;10
+FieldInfos.add( String name , boolean isIndexed , boolean storeTermVector , boolean storePositionWithTermVector , boolean storeOffsetWithTermVector , boolean omitNorms , boolean storePayloads , boolean omitTf );2;1;9
+FieldInfos.add( String name , boolean isIndexed , boolean storeTermVector , boolean storePositionWithTermVector , boolean storeOffsetWithTermVector , boolean omitNorms );1;0;4
+FieldInfos.size( );1;0;3

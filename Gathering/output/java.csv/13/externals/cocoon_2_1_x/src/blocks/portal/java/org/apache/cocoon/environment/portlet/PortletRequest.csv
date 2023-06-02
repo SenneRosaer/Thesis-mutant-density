@@ -1,0 +1,69 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PortletRequest.getProperties( String name );1;0;3
+PortletRequest.getAuthType( );1;0;3
+PortletRequest.getCocoonSession( );1;0;3
+PortletRequest.getPortalContext( );1;0;3
+PortletRequest.getRequestedSessionId( );1;0;3
+PortletRequest.getQueryString( );1;0;3
+PortletRequest.getRequestURI( );6;7;20
+PortletRequest.PortletRequest( String servletPath , String pathInfo , javax . portlet . PortletRequest request , PortletEnvironment environment );1;0;7
+PortletRequest.getScheme( );1;0;3
+PortletRequest.getSitemapURI( );1;0;3
+PortletRequest.getRemoteHost( );1;0;3
+PortletRequest.isSecure( );1;0;3
+PortletRequest.getWindowState( );1;0;3
+PortletRequest.isRequestedSessionIdFromCookie( );1;0;3
+PortletRequest.getPortletMode( );1;0;3
+PortletRequest.setContainerEncoding( String container_encoding );1;0;3
+PortletRequest.setCharacterEncoding( String form_encoding );1;0;3
+PortletRequest.getPortletSession( );1;0;3
+PortletRequest.getServletPath( );1;0;3
+PortletRequest.getPortletRequest( );1;0;3
+PortletRequest.getPathTranslated( );1;0;3
+PortletRequest.isUserInRole( String role );1;0;3
+PortletRequest.getDateHeader( String name );1;0;3
+PortletRequest.getHeader( String name );3;0;9
+PortletRequest.getParameter( String name );3;3;7
+PortletRequest.getSitemapURIPrefix( );1;0;3
+PortletRequest.getUserPrincipal( );1;0;3
+PortletRequest.getServerName( );1;0;3
+PortletRequest.getSession( );1;0;3
+PortletRequest.getLocales( );1;0;3
+PortletRequest.getRemoteUser( );1;0;3
+PortletRequest.getAttributeNames( );1;0;3
+PortletRequest.getResponseContentType( );1;0;3
+PortletRequest.getServerPort( );1;0;3
+PortletRequest.getProtocol( );1;0;3
+PortletRequest.hasMoreElements( );2;2;3
+PortletRequest.getCookies( );2;1;6
+PortletRequest.getSession( boolean create );4;3;16
+PortletRequest.getPropertyNames( );1;0;3
+PortletRequest.getRemoteAddr( );1;0;3
+PortletRequest.getPreferences( );1;0;3
+PortletRequest.getProperty( String name );1;0;3
+PortletRequest.getAttribute( String name );1;0;3
+PortletRequest.nextElement( );4;4;14
+PortletRequest.isRequestedSessionIdFromURL( );1;0;3
+PortletRequest.getPathInfo( );1;0;3
+PortletRequest.isPortletModeAllowed( PortletMode mode );1;0;3
+PortletRequest.isRequestedSessionIdValid( );1;0;3
+PortletRequest.isWindowStateAllowed( WindowState state );1;0;3
+PortletRequest.getParameterNames( );1;0;3
+PortletRequest.get( String name );6;5;21
+PortletRequest.getCharacterEncoding( );1;0;3
+PortletRequest.getHeaderNames( );5;0;23
+PortletRequest.decode( String str );4;2;14
+PortletRequest.getResponseContentTypes( );1;0;3
+PortletRequest.getHeaders( String name );1;0;3
+PortletRequest.wrapCookies( );3;2;15
+PortletRequest.getCookieMap( );2;1;6
+PortletRequest.removeAttribute( String name );1;0;3
+PortletRequest.getContentLength( );1;1;3
+PortletRequest.getContextPath( );1;0;3
+PortletRequest.getCocoonSession( boolean create );1;0;3
+PortletRequest.setAttribute( String name , Object o );1;0;3
+PortletRequest.getParameterMap( );1;0;3
+PortletRequest.getLocale( );1;0;3
+PortletRequest.getPortletSession( boolean create );1;0;3
+PortletRequest.getContentType( );1;0;3
+PortletRequest.getParameterValues( String name );4;4;13

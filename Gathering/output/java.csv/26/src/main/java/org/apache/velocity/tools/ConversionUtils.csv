@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConversionUtils.getInstance( );1;0;3
+ConversionUtils.toCalendar( Date date , Locale locale );3;2;18
+ConversionUtils.getNumberStyleAsInt( String style );9;7;26
+ConversionUtils.toNumber( String value , String format , Locale locale );5;5;15
+ConversionUtils.toDate( Object obj );5;1;21
+ConversionUtils.toURL( String value , Object caller );6;1;26
+ConversionUtils.getDateFormat( int dateStyle , int timeStyle , Locale locale , TimeZone timezone );6;5;29
+ConversionUtils.toURL( String value );1;0;3
+ConversionUtils.getDateFormat( String dateStyle , String timeStyle , Locale locale , TimeZone timezone );1;0;5
+ConversionUtils.toNumber( Object value , String format , Locale locale );2;1;8
+ConversionUtils.toDate( Object obj , String format , Locale locale , TimeZone timezone );2;1;8
+ConversionUtils.toLocale( String value );4;3;19
+ConversionUtils.toNumber( Object obj , boolean handleStrings );6;1;24
+ConversionUtils.getDateStyleAsInt( String style );9;7;26
+ConversionUtils.getNumberFormat( int numberStyle , Locale locale );6;0;28
+ConversionUtils.ConversionUtils( );1;0;1
+ConversionUtils.getDateFormat( String format , Locale locale , TimeZone timezone );5;6;33
+ConversionUtils.toDate( String str , String format , Locale locale , TimeZone timezone );2;0;11
+ConversionUtils.toNumber( Object obj );1;0;3
+ConversionUtils.getNumberFormat( String format , Locale locale );4;4;17

@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FailureRecorder.taskStarted( BuildEvent event );1;0;2
+FailureRecorder.targetStarted( BuildEvent event );1;0;2
+TestInfos.compareTo( Object other );2;1;8
+TestInfos.toString( );1;0;3
+FailureRecorder.createClassFooter( );1;0;3
+FailureRecorder.setOutput( OutputStream out );2;1;5
+FailureRecorder.setSystemError( String err );1;0;2
+FailureRecorder.setProject( Project project );4;3;16
+FailureRecorder.endTest( Test test );1;0;2
+FailureRecorder.writeJavaClass( );2;0;14
+FailureRecorder.verbose( String message );1;1;3
+FailureRecorder.addError( Test test , Throwable throwable );1;0;3
+FailureRecorder.taskFinished( BuildEvent event );2;1;5
+FailureRecorder.startTest( Test test );1;0;2
+FailureRecorder.buildFinished( BuildEvent event );1;0;2
+FailureRecorder.getLocationName( );5;4;28
+FailureRecorder.startTestSuite( JUnitTest suite );1;0;2
+FailureRecorder.setSystemOutput( String out );1;0;2
+FailureRecorder.log( String message );1;1;3
+TestInfos.TestInfos( Test test );1;0;5
+FailureRecorder.targetFinished( BuildEvent event );1;0;2
+FailureRecorder.createClassHeader( );2;3;18
+FailureRecorder.endTestSuite( JUnitTest suite );1;0;2
+FailureRecorder.buildStarted( BuildEvent event );1;0;2
+FailureRecorder.messageLogged( BuildEvent event );1;0;2
+FailureRecorder.addFailure( Test test , AssertionFailedError error );1;0;3
+FailureRecorder.createSuiteMethod( );2;0;12

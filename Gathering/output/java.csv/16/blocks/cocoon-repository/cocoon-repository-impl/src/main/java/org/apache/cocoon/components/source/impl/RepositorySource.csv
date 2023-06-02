@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RepositorySource.RepositorySource( final String prefix , final ModifiableTraversableSource delegate , final SourceDescriptor descriptor );1;0;5
+RepositorySource.removeSourceProperty( String uri , String name );3;1;8
+RepositorySource.getChildren( );3;1;12
+RepositorySource.refresh( );1;0;3
+RepositorySource.getInputStream( );1;0;3
+RepositorySource.cancel( OutputStream out );1;0;3
+RepositorySource.makeCollection( );1;0;3
+RepositorySource.canCancel( OutputStream out );1;0;3
+RepositorySource.exists( );1;0;3
+RepositorySource.delete( );1;0;3
+RepositorySource.getScheme( );1;0;3
+RepositorySource.isCollection( );1;0;3
+RepositorySource.getSourceProperty( String uri , String name );4;3;10
+RepositorySource.setSourceProperty( SourceProperty property );3;1;7
+RepositorySource.getLastModified( );1;0;3
+RepositorySource.getURI( );1;1;3
+RepositorySource.getChild( String name );3;2;10
+RepositorySource.getParent( );1;0;5
+RepositorySource.getOutputStream( );1;0;3
+RepositorySource.getName( );1;0;3
+RepositorySource.getSourceProperties( );3;1;10
+RepositorySource.getMimeType( );1;0;3
+RepositorySource.getContentLength( );1;0;3
+RepositorySource.getValidity( );4;4;14

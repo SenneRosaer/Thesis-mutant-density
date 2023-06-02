@@ -1,0 +1,44 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NNTPHandler.doLISTOVERVIEWFMT( );2;2;8
+NNTPHandler.processMessage( MailHeaders headers , InputStream bodyIn );3;1;15
+NNTPHandler.doLAST( String argument );5;5;21
+NNTPHandler.doLIST( String argument );13;4;49
+NNTPHandler.doAUTHINFO( String argument );11;7;54
+NNTPHandler.parseCommand( String commandRaw );32;6;81
+***not in a method***;0;1;0
+NNTPHandler.setProtocolHandlerHelper( ProtocolHandlerHelper phh );1;0;3
+NNTPHandler.getRange( String range );8;12;32
+NNTPHandler.isMessageId( String testString );4;3;9
+NNTPHandler.doNEWGROUPS( String argument );4;0;26
+NNTPHandler.resetHandler( );1;1;8
+NNTPHandler.getDateFrom( String argument );5;3;34
+NNTPHandler.processMessageHeaders( MailHeaders headers );1;0;3
+NNTPHandler.doHDR( String argument );10;12;42
+NNTPHandler.doSLAVE( String argument );1;0;3
+NNTPHandler.setConfigurationData( Object theData );2;0;7
+NNTPHandler.doBODY( String param );9;7;57
+NNTPHandler.doLISTGROUP( String groupName );7;6;29
+NNTPHandler.doNEXT( String argument );5;5;21
+NNTPHandler.doXHDR( String argument );1;0;3
+NNTPHandler.createArticle( );2;0;11
+NNTPHandler.doIHAVE( String id );4;2;19
+NNTPHandler.doHELP( String argument );1;0;4
+NNTPHandler.doLISTEXTENSIONS( );1;0;10
+NNTPHandler.doNEWNEWS( String argument );6;3;38
+NNTPHandler.handleProtocol( );3;0;23
+NNTPHandler.isAuthenticated( );5;5;11
+NNTPHandler.doOVER( String range );7;9;23
+NNTPHandler.doMODEREADER( String argument );2;0;4
+NNTPHandler.doHEAD( String param );9;7;57
+NNTPHandler.doSTAT( String param );8;6;52
+NNTPHandler.doQUIT( String argument );1;0;3
+NNTPHandler.doXOVER( String range );1;0;3
+NNTPHandler.errorHandler( RuntimeException e );3;1;8
+NNTPHandler.doPOST( String argument );2;1;8
+NNTPHandler.isAuthorized( String command );5;3;10
+NNTPHandler.doUnknownCommand( String command , String argument );2;0;12
+NNTPHandler.doDATE( String argument );1;2;5
+NNTPHandler.doGROUP( String groupName );4;4;32
+NNTPHandler.doPAT( String argument );1;0;3
+NNTPHandler.doMODESTREAM( String argument );1;0;3
+NNTPHandler.doARTICLE( String param );9;7;57

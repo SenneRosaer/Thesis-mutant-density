@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RepositoryClassLoader.hasLoadedResources( );1;0;3
+RepositoryClassLoader.setHandles( PatternPath handles );1;0;3
+RepositoryClassLoader.findClass( final String name );3;0;16
+RepositoryClassLoader.setRepository( ClassPathEntry [ ] classPath );1;0;3
+RepositoryClassLoader.addClassPathEntry( ClassPathEntry [ ] list , ClassPathEntry newEntry );2;2;9
+RepositoryClassLoader.isExpired( );1;0;3
+RepositoryClassLoader.RepositoryClassLoader( Session session , String [ ] classPath , ClassLoader parent );1;0;3
+RepositoryClassLoader.getURLs( );4;3;14
+RepositoryClassLoader.toString( );2;0;12
+RepositoryClassLoader.run( );1;0;3
+RepositoryClassLoader.findClassLoaderResource( String name );5;5;23
+RepositoryClassLoader.destroy( );5;2;20
+RepositoryClassLoader.buildRepository( );8;7;36
+RepositoryClassLoader.addClassPathEntry( ClassPathEntry cpe );1;0;6
+RepositoryClassLoader.getCachedResources( );1;0;3
+RepositoryClassLoader.nextElement( );1;0;3
+RepositoryClassLoader.getCachedResource( String name );3;3;8
+RepositoryClassLoader.getRepository( );1;0;3
+RepositoryClassLoader.addURL( URL url );4;0;17
+RepositoryClassLoader.isDestroyed( );1;0;3
+RepositoryClassLoader.findResources( String name );5;4;29
+RepositoryClassLoader.isSealed( String name , Manifest man );4;3;14
+RepositoryClassLoader.checkURL( URL url );1;0;3
+RepositoryClassLoader.addHandle( String path );3;1;13
+RepositoryClassLoader.hasMoreElements( );1;0;3
+RepositoryClassLoader.getSession( );1;0;3
+RepositoryClassLoader.cleanCache( );3;1;7
+RepositoryClassLoader.RepositoryClassLoader( Session session , PatternPath handles , ClassLoader parent );3;2;15
+RepositoryClassLoader.getHandles( );1;0;3
+RepositoryClassLoader.findResource( String name );3;1;14
+RepositoryClassLoader.findClassPrivileged( String name );5;2;26
+RepositoryClassLoader.defineClass( String name , ClassLoaderResource res );8;9;34

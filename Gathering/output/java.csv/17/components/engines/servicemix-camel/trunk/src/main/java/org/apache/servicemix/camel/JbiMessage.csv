@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JbiMessage.toString( );2;1;7
+JbiMessage.setNormalizedMessage( NormalizedMessage normalizedMessage );1;0;3
+JbiMessage.getHeader( String name );3;2;10
+JbiMessage.setHeader( String name , Object value );2;1;7
+JbiMessage.setBody( Object body );4;2;13
+JbiMessage.getNormalizedMessage( );1;0;3
+JbiMessage.addAttachment( String id , DataHandler content );3;1;11
+JbiMessage.getExchange( );1;0;3
+JbiMessage.populateInitialAttachments( Map < String , DataHandler > map );3;1;10
+JbiMessage.JbiMessage( NormalizedMessage normalizedMessage );1;0;3
+JbiMessage.createBody( );2;1;6
+JbiMessage.populateInitialHeaders( Map < String , Object > map );3;1;10
+JbiMessage.getAttachment( String id );3;2;10
+JbiMessage.newInstance( );1;0;3
+JbiMessage.JbiMessage( );1;0;2

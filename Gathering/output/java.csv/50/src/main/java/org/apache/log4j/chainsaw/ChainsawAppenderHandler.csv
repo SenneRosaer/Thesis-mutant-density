@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChainsawAppenderHandler.ChainsawAppenderHandler( final ChainsawAppender appender );1;0;4
+ChainsawAppenderHandler.main( String [ ] args );1;0;16
+WorkerThread.WorkerThread( );1;1;5
+ChainsawAppenderHandler.getIdentifierExpression( );1;0;3
+ChainsawAppenderHandler.append( LoggingEvent event );1;0;3
+ChainsawAppenderHandler.getDataRate( );1;0;3
+ChainsawAppenderHandler.getTabIdentifier( LoggingEvent e );2;1;4
+WorkerThread.dispatchEventBatch( ChainsawEventBatch eventBatch );6;5;19
+ChainsawAppenderHandler.removePropertyChangeListener( PropertyChangeListener listener );1;0;3
+ChainsawAppenderHandler.setQueueInterval( int interval );1;0;3
+ChainsawAppenderHandler.getQueueInterval( );1;0;3
+ChainsawAppenderHandler.ChainsawAppenderHandler( );1;0;3
+ChainsawAppenderHandler.addEventBatchListener( EventBatchListener l );1;0;3
+ChainsawAppenderHandler.removePropertyChangeListener( String propertyName , PropertyChangeListener listener );1;0;3
+ChainsawAppenderHandler.setDataRate( double dataRate );1;0;6
+ChainsawAppenderHandler.addPropertyChangeListener( String propertyName , PropertyChangeListener listener );1;0;3
+ChainsawAppenderHandler.getInterestedIdentifier( );1;0;3
+WorkerThread.run( );16;14;68
+ChainsawAppenderHandler.setIdentifierExpression( String identifierExpression );1;0;6
+ChainsawAppenderHandler.addPropertyChangeListener( PropertyChangeListener listener );1;0;3
+WorkQueue.enqueue( LoggingEvent event );1;0;6
+ChainsawAppenderHandler.removeEventBatchListener( EventBatchListener l );1;0;3
+WorkQueue.WorkQueue( );1;0;4
+ChainsawAppenderHandler.requiresLayout( );1;0;3
+ChainsawAppenderHandler.addCustomEventBatchListener( String identifier , EventBatchListener l );1;0;4
+WorkQueue.stop( );1;0;5
+ChainsawAppenderHandler.receiveEventBatch( String identifier , List events );1;0;3
+ChainsawAppenderHandler.close( );1;0;1

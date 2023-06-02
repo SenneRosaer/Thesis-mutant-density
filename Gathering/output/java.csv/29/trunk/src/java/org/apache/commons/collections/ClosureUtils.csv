@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClosureUtils.switchClosure( Map predicatesAndClosures );1;0;3
+ClosureUtils.invokerClosure( String methodName );1;0;3
+ClosureUtils.chainedClosure( Closure [ ] closures );1;0;3
+ClosureUtils.chainedClosure( Closure closure1 , Closure closure2 );1;0;3
+ClosureUtils.chainedClosure( Collection closures );1;0;3
+ClosureUtils.ifClosure( Predicate predicate , Closure trueClosure , Closure falseClosure );1;0;3
+ClosureUtils.asClosure( Transformer transformer );1;0;3
+ClosureUtils.ClosureUtils( );1;0;3
+ClosureUtils.switchClosure( Predicate [ ] predicates , Closure [ ] closures , Closure defaultClosure );1;0;3
+ClosureUtils.exceptionClosure( );1;0;3
+ClosureUtils.forClosure( int count , Closure closure );1;0;3
+ClosureUtils.doWhileClosure( Closure closure , Predicate predicate );1;0;3
+ClosureUtils.nopClosure( );1;0;3
+ClosureUtils.switchMapClosure( Map objectsAndClosures );3;2;19
+ClosureUtils.switchClosure( Predicate [ ] predicates , Closure [ ] closures );1;0;3
+ClosureUtils.ifClosure( Predicate predicate , Closure trueClosure );1;0;3
+ClosureUtils.whileClosure( Predicate predicate , Closure closure );1;0;3
+ClosureUtils.invokerClosure( String methodName , Class [ ] paramTypes , Object [ ] args );1;0;3

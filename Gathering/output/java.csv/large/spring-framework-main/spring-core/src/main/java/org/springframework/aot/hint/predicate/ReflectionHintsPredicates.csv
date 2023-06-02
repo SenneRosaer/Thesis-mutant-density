@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FieldHintPredicate.FieldHintPredicate( Field field );1;0;3
+TypeHintPredicate.TypeHintPredicate( TypeReference type );1;0;3
+TypeHintPredicate.test( RuntimeHints hints );1;1;3
+ExecutableHintPredicate.includes( ExecutableHint hint , String name , List < TypeReference > parameterTypes , ExecutableMode executableModes );4;4;4
+MethodHintPredicate.MethodHintPredicate( Method method );1;0;3
+ExecutableHintPredicate.introspect( );1;0;4
+FieldHintPredicate.exactMatch( TypeHint typeHint );1;0;4
+ReflectionHintsPredicates.onType( Class < ? > type );1;0;4
+ReflectionHintsPredicates.onField( Class < ? > type , String fieldName );2;1;9
+ReflectionHintsPredicates.onMethod( Method method );1;0;4
+ConstructorHintPredicate.ConstructorHintPredicate( Constructor < ? > constructor );1;0;3
+ConstructorHintPredicate.getDeclaredMemberCategories( );2;1;7
+ReflectionHintsPredicates.onMethod( Class < ? > type , String methodName );1;0;5
+ReflectionHintsPredicates.onField( Field field );1;0;4
+MethodHintPredicate.getPublicMemberCategories( );2;1;7
+ExecutableHintPredicate.test( RuntimeHints runtimeHints );1;0;7
+MethodHintPredicate.getDeclaredMemberCategories( );2;1;7
+ReflectionHintsPredicates.onMethod( String className , String methodName );1;0;5
+FieldHintPredicate.memberCategoryMatch( TypeHint typeHint );3;1;9
+ExecutableHintPredicate.invoke( );1;0;4
+ExecutableHintPredicate.ExecutableHintPredicate( T executable );1;0;3
+TypeHintPredicate.withMemberCategory( MemberCategory memberCategory );1;0;4
+ReflectionHintsPredicates.onField( String className , String fieldName );1;0;5
+TypeHintPredicate.withAnyMemberCategory( MemberCategory ... memberCategories );1;0;5
+MethodHintPredicate.exactMatch( );2;2;7
+TypeHintPredicate.getTypeHint( RuntimeHints hints );1;0;3
+TypeHintPredicate.withMemberCategories( MemberCategory ... memberCategories );1;0;4
+ReflectionHintsPredicates.ReflectionHintsPredicates( );1;0;2
+ConstructorHintPredicate.exactMatch( );2;2;7
+ReflectionHintsPredicates.getMethod( Class < ? > type , String methodName );3;2;13
+ConstructorHintPredicate.getPublicMemberCategories( );2;1;7
+ReflectionHintsPredicates.onConstructor( Constructor < ? > constructor );1;0;4
+ReflectionHintsPredicates.onType( TypeReference typeReference );1;0;4
+FieldHintPredicate.test( RuntimeHints runtimeHints );3;2;7

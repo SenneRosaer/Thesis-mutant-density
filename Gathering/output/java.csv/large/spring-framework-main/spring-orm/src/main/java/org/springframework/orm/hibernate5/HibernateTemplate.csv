@@ -1,0 +1,90 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HibernateTemplate.deleteAll( Collection < ? > entities );2;0;9
+HibernateTemplate.findByCriteria( DetachedCriteria criteria );1;2;3
+HibernateTemplate.merge( T entity );1;0;6
+HibernateTemplate.save( String entityName , Object entity );1;0;6
+HibernateTemplate.getQueryCacheRegion( );1;0;3
+HibernateTemplate.load( String entityName , Serializable id , @ Nullable LockMode lockMode );2;1;10
+HibernateTemplate.load( String entityName , Serializable id );1;0;3
+HibernateTemplate.HibernateTemplate( );1;0;2
+HibernateTemplate.initialize( Object proxy );2;0;8
+HibernateTemplate.replicate( String entityName , Object entity , ReplicationMode replicationMode );1;0;7
+HibernateTemplate.contains( Object entity );1;1;5
+HibernateTemplate.enableFilters( Session session );3;1;8
+HibernateTemplate.find( String queryString , @ Nullable Object ... values );5;3;12
+HibernateTemplate.get( String entityName , Serializable id );1;0;3
+HibernateTemplate.update( Object entity );1;0;3
+HibernateTemplate.findByNamedQuery( String queryName , @ Nullable Object ... values );5;3;12
+HibernateTemplate.persist( String entityName , Object entity );1;0;7
+HibernateTemplate.findByExample( T exampleEntity );1;2;3
+HibernateTemplate.setMaxResults( int maxResults );1;0;3
+HibernateTemplate.obtainSessionFactory( );1;1;5
+HibernateTemplate.prepareQuery( Query < ? > queryObject );7;5;19
+HibernateTemplate.bulkUpdate( String queryString , @ Nullable Object ... values );4;4;14
+HibernateTemplate.execute( HibernateCallback < T > action );1;0;3
+HibernateTemplate.HibernateTemplate( SessionFactory sessionFactory );1;0;4
+HibernateTemplate.load( Class < T > entityClass , Serializable id );1;0;3
+HibernateTemplate.doExecute( HibernateCallback < T > action , boolean enforceNativeSession );10;2;42
+HibernateTemplate.loadAll( Class < T > entityClass );1;0;8
+HibernateTemplate.setFetchSize( int fetchSize );1;0;3
+HibernateTemplate.saveOrUpdate( String entityName , Object entity );1;0;7
+HibernateTemplate.update( String entityName , Object entity );1;0;3
+HibernateTemplate.getSessionFactory( );1;0;3
+CloseSuppressingInvocationHandler.invoke( Object proxy , Method method , Object [ ] args );8;1;23
+HibernateTemplate.clear( );1;0;6
+HibernateTemplate.prepareCriteria( Criteria criteria );7;5;19
+HibernateTemplate.afterPropertiesSet( );2;1;5
+HibernateTemplate.merge( String entityName , T entity );1;0;6
+HibernateTemplate.lock( String entityName , Object entity , LockMode lockMode );1;0;6
+HibernateTemplate.findByNamedParam( String queryString , String paramName , Object value );1;0;3
+HibernateTemplate.findByNamedQueryAndNamedParam( String queryName , @ Nullable String [ ] paramNames , @ Nullable Object [ ] values );8;8;15
+HibernateTemplate.applyNamedParameterToQuery( Query < ? > queryObject , String paramName , Object value );4;0;11
+HibernateTemplate.save( Object entity );1;0;6
+HibernateTemplate.closeIterator( Iterator < ? > it );2;0;8
+HibernateTemplate.setCacheQueries( boolean cacheQueries );1;0;3
+HibernateTemplate.enableFilter( String filterName );2;1;8
+HibernateTemplate.findByValueBean( String queryString , Object valueBean );3;0;8
+HibernateTemplate.refresh( Object entity , @ Nullable LockMode lockMode );2;1;11
+HibernateTemplate.flush( );1;0;6
+HibernateTemplate.createSessionProxy( Session session );2;0;5
+HibernateTemplate.findByExample( @ Nullable String entityName , T exampleEntity , int firstResult , int maxResults );4;3;16
+HibernateTemplate.load( Object entity , Serializable id );1;0;6
+HibernateTemplate.get( Class < T > entityClass , Serializable id , @ Nullable LockMode lockMode );2;1;10
+HibernateTemplate.delete( String entityName , Object entity , @ Nullable LockMode lockMode );2;1;10
+HibernateTemplate.load( Class < T > entityClass , Serializable id , @ Nullable LockMode lockMode );2;1;10
+HibernateTemplate.setCheckWriteOperations( boolean checkWriteOperations );1;0;3
+HibernateTemplate.delete( String entityName , Object entity );1;0;3
+HibernateTemplate.getFetchSize( );1;0;3
+HibernateTemplate.evict( Object entity );1;0;6
+HibernateTemplate.refresh( Object entity );1;0;3
+HibernateTemplate.findByExample( String entityName , T exampleEntity );1;2;3
+HibernateTemplate.findByNamedQueryAndValueBean( String queryName , Object valueBean );3;0;8
+HibernateTemplate.isExposeNativeSession( );1;0;3
+HibernateTemplate.update( Object entity , @ Nullable LockMode lockMode );2;1;10
+HibernateTemplate.iterate( String queryString , @ Nullable Object ... values );5;3;12
+HibernateTemplate.setQueryCacheRegion( @ Nullable String queryCacheRegion );1;0;3
+HibernateTemplate.findByExample( T exampleEntity , int firstResult , int maxResults );1;0;3
+HibernateTemplate.findByNamedParam( String queryString , String [ ] paramNames , Object [ ] values );5;3;13
+HibernateTemplate.checkWriteOperationAllowed( Session session );3;1;7
+HibernateTemplate.setExposeNativeSession( boolean exposeNativeSession );1;0;3
+HibernateTemplate.setFilterNames( @ Nullable String ... filterNames );1;0;3
+HibernateTemplate.lock( Object entity , LockMode lockMode );1;0;6
+HibernateTemplate.saveOrUpdate( Object entity );1;0;7
+HibernateTemplate.delete( Object entity , @ Nullable LockMode lockMode );2;1;10
+HibernateTemplate.isCacheQueries( );1;0;3
+HibernateTemplate.isCheckWriteOperations( );1;0;3
+HibernateTemplate.disableFilters( Session session );3;1;8
+CloseSuppressingInvocationHandler.CloseSuppressingInvocationHandler( Session target );1;0;3
+HibernateTemplate.executeWithNativeSession( HibernateCallback < T > action );1;0;3
+HibernateTemplate.update( String entityName , Object entity , @ Nullable LockMode lockMode );2;1;10
+HibernateTemplate.getFilterNames( );1;0;3
+HibernateTemplate.get( String entityName , Serializable id , @ Nullable LockMode lockMode );2;1;10
+HibernateTemplate.replicate( Object entity , ReplicationMode replicationMode );1;0;7
+HibernateTemplate.findByCriteria( DetachedCriteria criteria , int firstResult , int maxResults );4;2;14
+HibernateTemplate.getMaxResults( );1;0;3
+HibernateTemplate.delete( Object entity );1;0;3
+HibernateTemplate.persist( Object entity );1;0;7
+HibernateTemplate.get( Class < T > entityClass , Serializable id );1;0;3
+HibernateTemplate.findByNamedQueryAndNamedParam( String queryName , String paramName , Object value );1;0;3
+HibernateTemplate.setSessionFactory( @ Nullable SessionFactory sessionFactory );1;0;3
+HibernateTemplate.nonNull( @ Nullable T result );1;1;4

@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OriginHandshakeInterceptor.beforeHandshake( ServerHttpRequest request , ServerHttpResponse response , WebSocketHandler wsHandler , Map < String , Object > attributes );4;3;12
+OriginHandshakeInterceptor.OriginHandshakeInterceptor( Collection < String > allowedOrigins );1;0;3
+OriginHandshakeInterceptor.afterHandshake( ServerHttpRequest request , ServerHttpResponse response , WebSocketHandler wsHandler , @ Nullable Exception exception );1;0;2
+OriginHandshakeInterceptor.getAllowedOrigins( );2;0;5
+OriginHandshakeInterceptor.setAllowedOriginPatterns( Collection < String > allowedOriginPatterns );1;0;4
+OriginHandshakeInterceptor.setAllowedOrigins( Collection < String > allowedOrigins );1;0;4
+OriginHandshakeInterceptor.OriginHandshakeInterceptor( );1;0;2
+OriginHandshakeInterceptor.getAllowedOriginPatterns( );2;0;5

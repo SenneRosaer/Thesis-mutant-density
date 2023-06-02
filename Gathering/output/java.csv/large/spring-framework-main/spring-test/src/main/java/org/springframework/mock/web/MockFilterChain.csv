@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockFilterChain.getRequest( );1;0;3
+ServletFilterProxy.ServletFilterProxy( Servlet servlet );1;0;4
+MockFilterChain.MockFilterChain( Servlet servlet , Filter ... filters );1;0;5
+MockFilterChain.doFilter( ServletRequest request , ServletResponse response );3;2;14
+ServletFilterProxy.doFilter( ServletRequest request , ServletResponse response , FilterChain chain );1;0;3
+ServletFilterProxy.destroy( );1;0;2
+ServletFilterProxy.init( FilterConfig filterConfig );1;0;2
+MockFilterChain.getResponse( );1;0;3
+MockFilterChain.MockFilterChain( Servlet servlet );1;0;3
+MockFilterChain.initFilterList( Servlet servlet , Filter ... filters );1;0;4
+MockFilterChain.MockFilterChain( );1;0;3
+ServletFilterProxy.toString( );1;0;3
+MockFilterChain.reset( );1;0;5

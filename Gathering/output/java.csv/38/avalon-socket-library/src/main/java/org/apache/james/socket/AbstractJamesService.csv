@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractJamesService.initializeHandlerPool( );3;1;19
+AbstractJamesService.setConnectionManager( JamesConnectionManager connectionManager );1;0;3
+AbstractJamesService.getSocketType( );1;0;3
+AbstractJamesService.createConnectionHandler( );1;0;5
+AbstractJamesService.initializeServerSocketWorker( SocketManager socketManager );10;5;44
+AbstractJamesService.newInstance( );1;0;3
+AbstractJamesService.getWatchdogFactory( );1;0;6
+***not in a method***;0;3;0
+AbstractJamesService.releaseConnectionHandler( ConnectionHandler connectionHandler );2;0;6
+AbstractJamesService.getLocalHostName( );2;0;9
+AbstractJamesService.initializeServerSocket( SocketManager socketManager );2;0;12
+AbstractJamesService.getCreatedClass( );1;0;3
+AbstractJamesService.dispose( );7;1;40
+AbstractJamesService.getServiceType( );3;5;8
+AbstractJamesService.initialize( );2;1;17
+AbstractJamesService.logJCELoadFailure( final Logger logger , final String providerName , Exception e );1;0;4
+AbstractJamesService.isDefaultTLSEnabled( );1;0;3
+AbstractJamesService.isEnabled( );1;0;3
+AbstractJamesService.configureHelloName( Configuration handlerConfiguration );4;1;32
+AbstractJamesService.decommission( Object object );1;0;3
+AbstractJamesService.service( ServiceManager comp );1;0;8
+AbstractJamesService.getPort( );1;0;3
+AbstractJamesService.getDefaultPort( );1;0;3
+AbstractJamesService.newHandler( );2;0;11
+AbstractJamesService.loadProvider( final Logger logger , final String providerName );6;1;19
+AbstractJamesService.getBindingErrorMessage( BindException e );5;6;17
+AbstractJamesService.initializeThreadPool( ThreadManager threadManager );2;1;7
+AbstractJamesService.setStreamDumpDir( String streamdumpDir );1;0;3
+AbstractJamesService.configure( Configuration conf );15;9;112
+AbstractJamesService.loadJCEProviders( Configuration conf , final Logger logger );2;2;7
+AbstractJamesService.getNetworkInterface( );2;1;7

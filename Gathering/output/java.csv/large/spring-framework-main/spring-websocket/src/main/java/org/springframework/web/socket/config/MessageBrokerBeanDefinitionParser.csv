@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageBrokerBeanDefinitionParser.parse( Element element , ParserContext context );5;1;40
+MessageBrokerBeanDefinitionParser.extractBeanSubElements( Element parentElement , ParserContext context );2;0;9
+MessageBrokerBeanDefinitionParser.registerHandlerMapping( Element element , ParserContext context , @ Nullable Object source );3;0;15
+MessageBrokerBeanDefinitionParser.registerMessageBroker( Element brokerElement , RuntimeBeanReference inChannel , RuntimeBeanReference outChannel , RuntimeBeanReference brokerChannel , Object userDestHandler , RuntimeBeanReference brokerTemplate , RuntimeBeanReference userRegistry , ParserContext context , @ Nullable Object source );21;3;87
+MessageBrokerBeanDefinitionParser.getMessageChannel( String name , @ Nullable Element element , ParserContext context , @ Nullable Object source );9;4;44
+DecoratingFactoryBean.DecoratingFactoryBean( WebSocketHandler handler , List < WebSocketHandlerDecoratorFactory > factories );1;0;4
+MessageBrokerBeanDefinitionParser.registerMessagingTemplate( Element element , RuntimeBeanReference brokerChannel , RuntimeBeanReference messageConverter , ParserContext context , @ Nullable Object source );2;0;12
+MessageBrokerBeanDefinitionParser.registerUserRegistry( Element element , ParserContext context , @ Nullable Object source );3;2;16
+MessageBrokerBeanDefinitionParser.registerUserRegistryMessageHandler( RuntimeBeanReference userRegistry , RuntimeBeanReference brokerTemplate , String destination , ParserContext context , @ Nullable Object source );1;0;10
+MessageBrokerBeanDefinitionParser.getValidator( Element messageBrokerElement , @ Nullable Object source , ParserContext context );3;0;17
+MessageBrokerBeanDefinitionParser.registerAnnotationMethodMessageHandler( Element messageBrokerElement , RuntimeBeanReference inChannel , RuntimeBeanReference outChannel , RuntimeBeanReference converter , RuntimeBeanReference messagingTemplate , ParserContext context , @ Nullable Object source );5;3;28
+DecoratingFactoryBean.isSingleton( );1;0;3
+MessageBrokerBeanDefinitionParser.registerMessageConverter( Element element , ParserContext context , @ Nullable Object source );8;3;40
+MessageBrokerBeanDefinitionParser.registerRequestHandler( Element element , RuntimeBeanReference subProtoHandler , ParserContext ctx , @ Nullable Object source );3;2;32
+***not in a method***;0;1;0
+MessageBrokerBeanDefinitionParser.registerBeanDef( RootBeanDefinition beanDef , ParserContext context , @ Nullable Object source );1;0;5
+MessageBrokerBeanDefinitionParser.registerUserDestHandler( Element brokerElem , RuntimeBeanReference userRegistry , RuntimeBeanReference inChannel , RuntimeBeanReference brokerChannel , ParserContext context , @ Nullable Object source );3;2;14
+MessageBrokerBeanDefinitionParser.registerWebSocketMessageBrokerStats( RootBeanDefinition broker , RuntimeBeanReference inChannel , RuntimeBeanReference outChannel , ParserContext context , @ Nullable Object source );4;1;19
+MessageBrokerBeanDefinitionParser.registerStompHandler( Element element , RuntimeBeanReference inChannel , RuntimeBeanReference outChannel , ParserContext context , @ Nullable Object source );8;3;40
+DecoratingFactoryBean.getObjectType( );1;0;3
+DecoratingFactoryBean.getObject( );2;0;7
+MessageBrokerBeanDefinitionParser.registerBeanDefByName( String name , RootBeanDefinition beanDef , ParserContext context , @ Nullable Object source );1;0;6
+MessageBrokerBeanDefinitionParser.getDefaultExecutorBeanDefinition( String channelName );2;1;11
+MessageBrokerBeanDefinitionParser.registerUserDestResolver( Element brokerElem , RuntimeBeanReference userRegistry , ParserContext context , @ Nullable Object source );2;0;8

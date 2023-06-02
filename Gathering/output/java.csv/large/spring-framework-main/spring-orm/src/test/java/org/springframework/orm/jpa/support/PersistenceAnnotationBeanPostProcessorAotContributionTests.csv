@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PersistenceAnnotationBeanPostProcessorAotContributionTests.setup( );1;0;4
+Invoker.accept( RegisteredBean registeredBean , Object instance );5;0;12
+CustomPropertiesPersistenceContextMethod.setEntityManager( EntityManager entityManager );1;0;3
+CustomUnitNamePublicPersistenceUnitMethod.setEmf( EntityManagerFactory emf );1;0;3
+PersistenceAnnotationBeanPostProcessorAotContributionTests.testCompile( RegisteredBean registeredBean , BiConsumer < BiConsumer < RegisteredBean , Object > , Compiled > result );1;0;10
+PersistenceAnnotationBeanPostProcessorAotContributionTests.registerBean( Class < ? > beanClass );1;0;6
+Invoker.Invoker( Compiled compiled );1;0;3
+PersistenceAnnotationBeanPostProcessorAotContributionTests.processAheadOfTimeWhenPersistenceContextWithCustomPropertiesOnMethod( );1;0;24
+PersistenceAnnotationBeanPostProcessorAotContributionTests.processAheadOfTimeWhenCustomPersistenceUnitOnPublicSetter( );1;0;15
+PersistenceAnnotationBeanPostProcessorAotContributionTests.processAheadOfTimeWhenPersistenceUnitOnPublicSetter( );1;0;13
+PersistenceAnnotationBeanPostProcessorAotContributionTests.processAheadOfTimeWhenPersistenceContextOnPrivateField( );1;0;19
+DefaultPersistenceUnitMethod.setEmf( EntityManagerFactory emf );1;0;3
+PersistenceAnnotationBeanPostProcessorAotContributionTests.processAheadOfTimeWhenPersistenceUnitOnPublicField( );1;0;13

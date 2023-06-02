@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TimeInfo.getMessage( );1;0;3
+TimeInfo.getDelay( );1;0;3
+TimeInfo.getReturnTime( );1;0;3
+TimeInfo.TimeInfo( NtpV3Packet msgPacket , long returnTime , boolean doComputeDetails );1;0;3
+TimeInfo.getComments( );1;0;3
+TimeInfo.computeDetails( );15;26;69
+TimeInfo.addComment( String comment );2;1;6
+TimeInfo.TimeInfo( NtpV3Packet message , long returnTime , List comments , boolean doComputeDetails );3;1;9
+TimeInfo.TimeInfo( NtpV3Packet message , long returnTime );1;0;3
+TimeInfo.TimeInfo( NtpV3Packet message , long returnTime , List comments );1;0;3
+TimeInfo.getOffset( );1;0;3

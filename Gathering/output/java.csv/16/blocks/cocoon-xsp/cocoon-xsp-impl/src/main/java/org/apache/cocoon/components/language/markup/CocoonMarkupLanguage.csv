@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CocoonTransformerChainBuilderFilter.startDocument( );1;0;7
+CocoonMarkupLanguage.CocoonMarkupLanguage( );1;0;2
+CocoonTransformerChainBuilderFilter.processingInstruction( String target , String data );5;3;22
+PreProcessFilter.PreProcessFilter( AbstractXMLPipe filter , String filename , ProgrammingLanguage language );1;0;8
+CocoonTransformerChainBuilderFilter.startElement( String namespaceURI , String localName , String qName , Attributes atts );11;6;61
+CocoonMarkupLanguage.getTransformerChainBuilder( LogicsheetCodeGenerator logicsheetMarkupGenerator );1;0;3
+PreProcessFilter.setContentHandler( ContentHandler handler );1;0;3
+CocoonTransformerChainBuilderFilter.startPrefixMapping( String prefix , String uri );2;0;10
+PreProcessFilter.startPrefixMapping( String prefix , String uri );2;0;6
+CocoonTransformerChainBuilderFilter.CocoonTransformerChainBuilderFilter( LogicsheetCodeGenerator logicsheetMarkupGenerator );1;0;3
+PreProcessFilter.startElement( String namespaceURI , String localName , String qName , Attributes atts );6;7;29
+PreProcessFilter.startDocument( );1;0;4
+CocoonMarkupLanguage.addDependency( String location );1;0;3
+CocoonMarkupLanguage.recycle( );1;0;4
+CocoonTransformerChainBuilderFilter.endElement( String namespaceURI , String localName , String qName );2;0;5
+PreProcessFilter.setConsumer( XMLConsumer consumer );1;0;3
+CocoonMarkupLanguage.addLogicsheetToList( LanguageDescriptor language , String logicsheetLocation );1;0;3
+PreProcessFilter.processingInstruction( String target , String data );2;1;6
+PreProcessFilter.setLexicalHandler( LexicalHandler handler );1;0;3
+CocoonMarkupLanguage.getPreprocessFilter( String filename , AbstractXMLPipe filter , ProgrammingLanguage language );1;0;3
+CocoonTransformerChainBuilderFilter.characters( char [ ] ch , int start , int length );3;1;7

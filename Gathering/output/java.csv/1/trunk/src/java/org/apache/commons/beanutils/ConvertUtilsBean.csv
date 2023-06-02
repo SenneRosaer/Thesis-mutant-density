@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConvertUtilsBean.ConvertUtilsBean( );1;0;5
+ConvertUtilsBean.getDefaultLong( );1;0;3
+ConvertUtilsBean.convert( Object value , Class targetType );13;12;34
+ConvertUtilsBean.getDefaultByte( );1;0;3
+ConvertUtilsBean.setDefaultFloat( float newDefaultFloat );1;0;5
+ConvertUtilsBean.deregister( );1;0;9
+ConvertUtilsBean.register( boolean throwException , boolean defaultNull , int defaultArraySize );1;0;6
+ConvertUtilsBean.setDefaultByte( byte newDefaultByte );1;0;5
+ConvertUtilsBean.registerArrays( boolean throwException , int defaultArraySize );1;0;29
+ConvertUtilsBean.lookup( Class sourceType , Class targetType );12;10;30
+ConvertUtilsBean.registerPrimitives( boolean throwException );9;0;10
+ConvertUtilsBean.setDefaultShort( short newDefaultShort );1;0;5
+ConvertUtilsBean.registerStandard( boolean throwException , boolean defaultNull );18;0;19
+ConvertUtilsBean.register( Converter converter , Class clazz );1;0;3
+ConvertUtilsBean.convert( Object value );5;3;19
+ConvertUtilsBean.getDefaultCharacter( );1;0;3
+ConvertUtilsBean.convert( String [ ] values , Class clazz );6;3;22
+ConvertUtilsBean.registerArrayConverter( Class componentType , Converter componentConverter , boolean throwException , int defaultArraySize );2;0;10
+ConvertUtilsBean.setDefaultInteger( int newDefaultInteger );1;0;5
+ConvertUtilsBean.lookup( Class clazz );1;0;3
+ConvertUtilsBean.getDefaultShort( );1;0;3
+ConvertUtilsBean.register( Class clazz , Converter converter );1;0;3
+ConvertUtilsBean.registerOther( boolean throwException );9;0;10
+ConvertUtilsBean.getDefaultBoolean( );1;0;3
+ConvertUtilsBean.setDefaultDouble( double newDefaultDouble );1;0;5
+ConvertUtilsBean.convert( String value , Class clazz );4;1;14
+ConvertUtilsBean.getDefaultFloat( );1;0;3
+ConvertUtilsBean.deregister( Class clazz );1;0;3
+ConvertUtilsBean.setDefaultLong( long newDefaultLong );1;0;5
+ConvertUtilsBean.getDefaultDouble( );1;0;3
+ConvertUtilsBean.setDefaultBoolean( boolean newDefaultBoolean );2;0;5
+ConvertUtilsBean.setDefaultCharacter( char newDefaultCharacter );1;0;7
+ConvertUtilsBean.getInstance( );1;0;3
+ConvertUtilsBean.getDefaultInteger( );1;0;3

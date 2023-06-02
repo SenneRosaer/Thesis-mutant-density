@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NamespaceContext.NamespaceContext( XmlObject xmlObject );1;0;4
+NamespaceContextStack.push( NamespaceContext next );1;0;4
+NamespaceContext.NamespaceContext( PrefixResolver resolver );1;0;4
+NamespaceContextStack.pop( );1;2;4
+NamespaceContext.push( NamespaceContext next );1;0;3
+NamespaceContext.pop( );2;1;6
+NamespaceContext.getCurrent( );1;0;3
+NamespaceContext.NamespaceContext( Map prefixToUriMap );1;0;4
+NamespaceContext.getNamespaceForPrefix( String prefix );12;4;35
+NamespaceContext.NamespaceContext( TypeStore typeStore );1;0;4
+NamespaceContext.getNamespaceContextStack( );2;1;9
+NamespaceContext.NamespaceContext( StartElement start );1;0;4

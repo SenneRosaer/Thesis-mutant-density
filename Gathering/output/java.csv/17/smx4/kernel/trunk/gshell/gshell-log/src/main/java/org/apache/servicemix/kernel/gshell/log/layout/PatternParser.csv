@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClassNamePatternConverter.getFullyQualifiedName( PaxLoggingEvent event );1;0;3
+LiteralPatternConverter.format( StringBuffer sbuf , LoggingEvent event );1;0;3
+PatternParser.parse( );24;29;90
+PatternParser.extractPrecisionOption( );4;2;15
+CategoryPatternConverter.CategoryPatternConverter( FormattingInfo formattingInfo , int precision );1;0;3
+PatternParser.addToList( PatternConverter pc );2;1;8
+ClassNamePatternConverter.ClassNamePatternConverter( FormattingInfo formattingInfo , int precision );1;0;3
+BasicPatternConverter.convert( PaxLoggingEvent event );5;1;14
+PatternParser.addConverter( PatternConverter pc );1;0;6
+PatternParser.extractOption( );4;6;11
+NamedPatternConverter.convert( PaxLoggingEvent event );4;8;15
+LocationPatternConverter.convert( PaxLoggingEvent event );4;0;12
+BasicPatternConverter.BasicPatternConverter( FormattingInfo formattingInfo , int type );1;0;4
+LocationPatternConverter.LocationPatternConverter( FormattingInfo formattingInfo , int type );1;0;4
+LiteralPatternConverter.convert( PaxLoggingEvent event );1;0;3
+DatePatternConverter.convert( PaxLoggingEvent event );2;0;10
+PatternParser.PatternParser( String pattern );1;0;5
+CategoryPatternConverter.getFullyQualifiedName( PaxLoggingEvent event );1;0;3
+PatternParser.finalizeConverter( char c );16;1;77
+DatePatternConverter.DatePatternConverter( FormattingInfo formattingInfo , DateFormat df );1;0;5
+NamedPatternConverter.NamedPatternConverter( FormattingInfo formattingInfo , int precision );1;0;4
+LiteralPatternConverter.LiteralPatternConverter( String value );1;0;3

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ImageManager.getImage( ImageInfo info , ImageFlavor flavor , ImageSessionContext session );1;0;3
+ImageManager.ImageManager( ImageContext context );1;0;3
+ImageManager.getImage( ImageInfo info , ImageFlavor flavor , Map hints , ImageSessionContext session );4;3;18
+ImageManager.getImageInfo( String uri , ImageSessionContext session );2;1;7
+ImageManager.getImage( ImageInfo info , ImageFlavor [ ] flavors , Map hints , ImageSessionContext session );4;3;19
+ImageManager.preloadImage( String uri , Source src );3;1;11
+ImageManager.getImageContext( );1;0;3
+ImageManager.convertImage( Image image , ImageFlavor [ ] flavors , Map hints );6;5;25
+ImageManager.getPipelineFactory( );1;0;3
+ImageManager.getCache( );1;0;3
+ImageManager.preloadImage( String uri , ImageSessionContext session );1;0;6
+ImageManager.getImage( ImageInfo info , ImageFlavor [ ] flavors , ImageSessionContext session );1;0;3
+ImageManager.convertImage( Image image , ImageFlavor [ ] flavors );1;0;3
+ImageManager.getRegistry( );1;0;3
+ImageManager.choosePipeline( ImageProviderPipeline [ ] candidates );5;5;19

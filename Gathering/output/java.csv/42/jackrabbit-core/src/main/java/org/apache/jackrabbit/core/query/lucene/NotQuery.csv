@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NotQueryWeight.getValue( );1;0;3
+NotQueryWeight.getQuery( );1;0;3
+NotQueryScorer.explain( int doc );1;0;3
+***not in a method***;0;2;0
+NotQueryWeight.scorer( IndexReader reader );1;0;4
+NotQueryScorer.score( );1;0;3
+NotQuery.createWeight( Searcher searcher );1;0;3
+NotQueryScorer.skipTo( int target );4;6;11
+NotQueryScorer.next( );8;12;19
+NotQuery.rewrite( IndexReader reader );2;1;8
+NotQueryWeight.sumOfSquaredWeights( );1;0;3
+NotQuery.NotQuery( Query context );1;0;3
+NotQueryScorer.NotQueryScorer( IndexReader reader );1;0;4
+NotQueryScorer.doc( );1;0;3
+NotQueryWeight.normalize( float norm );1;0;2
+NotQuery.extractTerms( Set terms );1;0;3
+NotQueryWeight.NotQueryWeight( Searcher searcher );1;0;3
+NotQuery.toString( String field );1;0;3
+NotQueryWeight.explain( IndexReader reader , int doc );1;0;3

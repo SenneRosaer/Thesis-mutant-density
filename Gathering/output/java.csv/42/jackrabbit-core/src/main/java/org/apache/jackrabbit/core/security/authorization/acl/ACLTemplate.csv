@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ACLTemplate.getAccessControlEntries( );1;0;4
+ACLTemplate.hashCode( );1;0;3
+ACLTemplate.internalGetEntries( );2;0;7
+ACLTemplate.equals( Object obj );4;2;10
+ACLTemplate.ACLTemplate( NodeImpl aclNode , PrivilegeRegistry privilegeRegistry );9;6;41
+Entry.Entry( Principal principal , Privilege [ ] privileges , boolean allow );1;0;3
+ACLTemplate.isEmpty( );1;0;3
+ACLTemplate.getPath( );1;0;3
+ACLTemplate.size( );1;0;3
+ACLTemplate.collectEntries( NodeImpl aclNode , Map princToEntries );7;3;33
+ACLTemplate.addEntry( Principal principal , Privilege [ ] privileges , boolean isAllow , Map restrictions );3;3;8
+ACLTemplate.checkValidEntry( Principal principal , Privilege [ ] privileges , boolean isAllow );4;3;8
+ACLTemplate.internalAdd( Entry entry );9;11;44
+ACLTemplate.removeAccessControlEntry( AccessControlEntry ace );4;1;13
+ACLTemplate.ACLTemplate( String path , PrincipalManager principalMgr , PrivilegeRegistry privilegeRegistry );1;0;5
+ACLTemplate.internalGetEntries( Principal principal );2;0;8
+ACLTemplate.addAccessControlEntry( Principal principal , Privilege [ ] privileges );1;0;3
+ACLTemplate.addEntry( Principal principal , Privilege [ ] privileges , boolean isAllow );1;0;3

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LinkTransformer.recycle( );1;0;7
+LinkTransformer.setup( SourceResolver resolver , Map objectModel , String src , Parameters par );1;2;16
+LinkTransformer.handleTag( String attributeName , String uri , String elementName , String raw , Attributes attributes , boolean eventLink , boolean direct );15;12;43
+LinkTransformer.startEventLinkElement( String element , String attribute , Attributes attributes );2;1;17
+LinkTransformer.endElement( String uri , String name , String raw );4;4;15
+LinkTransformer.buildUrlString( String uri , boolean applyPrefixAndPortalParams );6;7;25
+LinkTransformer.modifyLinkAttribute( String attribute , String remoteURI , Attributes attributes );1;0;6
+LinkTransformer.endDocument( );1;0;4
+LinkTransformer.startDocument( );1;0;7
+LinkTransformer.service( ServiceManager manager );1;0;3
+LinkTransformer.startElement( String uri , String name , String raw , Attributes attributes );13;7;37

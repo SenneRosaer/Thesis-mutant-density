@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IntArrayMatcher.matches( Object o );1;0;3
+MatcherApplicationStrategyTest.mixedVarargs( Object a , String ... s );1;0;4
+MatcherApplicationStrategyTest.shouldKnowWhenVarargsMatch( );1;0;8
+MatcherApplicationStrategyTest.shouldAnyDealWithDifferentSizeOfArgs( );1;0;9
+MatcherApplicationStrategyTest.shouldAllowAnyWithMixedVarargs( );1;0;8
+RecordingAction.assertContainsExactly( ArgumentMatcher < ? > ... matchers );1;0;3
+IntMatcher.matches( Object o );1;0;3
+MatcherApplicationStrategyTest.shouldKnowWhenActualArgsSizeIsDifferent1( );1;0;8
+RecordingAction.apply( ArgumentMatcher < ? > matcher , Object argument );1;0;4
+MatcherApplicationStrategyTest.shouldKnowWhenMatchersSizeIsDifferent( );1;0;8
+RecordingAction.assertIsEmpty( );1;0;3
+MatcherApplicationStrategyTest.shouldNotAllowAnyWithMixedVarargs( );1;0;8
+MatcherApplicationStrategyTest.shouldMatchAnyEvenIfOneOfTheArgsIsNull( );1;0;7
+MatcherApplicationStrategyTest.varargs( String ... s );1;0;4
+MatcherApplicationStrategyTest.shouldKnowWhenActualArgsSizeIsDifferent( );1;0;8
+IntArrayMatcher.describeTo( Description description );1;0;1
+MatcherApplicationStrategyTest.shouldMatchAnyEvenIfMatcherIsDecorated( );1;0;7
+MatcherApplicationStrategyTest.shouldKnowWhenActualArgsSizeIsDifferent2( );1;0;8
+IntMatcher.describeTo( Description description );1;0;1
+MatcherApplicationStrategyTest.shouldMatchAnyEvenIfMatcherIsWrappedInHamcrestMatcher( );1;0;9
+MatcherApplicationStrategyTest.shouldMatchAnyThatMatchesRawVarArgType( );1;0;8
+MatcherApplicationStrategyTest.apply( ArgumentMatcher < ? > matcher , Object argument );1;0;3
+MatcherApplicationStrategyTest.before( );1;0;3
+MatcherApplicationStrategyTest.shouldAllowAnyMatchEntireVararg( );1;0;8

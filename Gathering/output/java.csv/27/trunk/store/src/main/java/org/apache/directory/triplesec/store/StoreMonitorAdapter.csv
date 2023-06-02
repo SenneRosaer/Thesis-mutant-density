@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StoreMonitorAdapter.storeFailure( ServerProfileStore store , Throwable t );2;1;7
+StoreMonitorAdapter.storeFailure( ServerProfileStore store , KerberosPrincipal principal , Throwable t );2;1;7
+StoreMonitorAdapter.storeInitialized( ServerProfileStore store );1;0;2
+StoreMonitorAdapter.profileImported( ServerProfileStore store , String dn , Attributes attributes );1;0;2
+StoreMonitorAdapter.profileNotImported( ServerProfileStore store , String dn , Attributes attributes );1;0;2
+StoreMonitorAdapter.storeFailure( ServerProfileStore store );1;0;2
+StoreMonitorAdapter.profileAccessed( ServerProfileStore store , ServerProfile profile );1;0;2
+StoreMonitorAdapter.profileAdded( ServerProfileStore store , ServerProfile profile );1;0;2
+StoreMonitorAdapter.storeFailure( ServerProfileStore store , KerberosPrincipal principal );1;0;2
+StoreMonitorAdapter.profileUpdated( ServerProfileStore store , ServerProfile profile , ModificationItem [ ] mods );1;0;2
+StoreMonitorAdapter.storeFailure( ServerProfileStore store , KerberosPrincipal principal , String s );1;0;2
+StoreMonitorAdapter.profileDeleted( ServerProfileStore store , ServerProfile profile );1;0;2
+StoreMonitorAdapter.info( ServerProfileStore store , String s );1;0;2

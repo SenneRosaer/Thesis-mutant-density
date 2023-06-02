@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractPageContextWrapper.getAttribute( String theName );1;0;3
+AbstractPageContextWrapper.setAttribute( String theName , Object theAttribute );1;0;3
+AbstractPageContextWrapper.initialize( Servlet theServlet , ServletRequest theRequest , ServletResponse theResponse , String theErrorPageURL , boolean isSessionNeeded , int theBufferSize , boolean isAutoFlush );1;0;5
+AbstractPageContextWrapper.getSession( );1;0;3
+AbstractPageContextWrapper.getRequest( );1;0;5
+AbstractPageContextWrapper.getAttribute( String theName , int theScope );1;0;3
+AbstractPageContextWrapper.newInstance( PageContext theOriginalPageContext , ServletURL theServletURL );2;0;17
+AbstractPageContextWrapper.getPage( );1;0;3
+AbstractPageContextWrapper.getOut( );1;0;3
+AbstractPageContextWrapper.setAttribute( String theName , Object theAttribute , int theScope );1;0;3
+AbstractPageContextWrapper.getException( );1;0;3
+AbstractPageContextWrapper.AbstractPageContextWrapper( PageContext theOriginalPageContext , ServletURL theURL );1;0;4
+AbstractPageContextWrapper.getServletConfig( );1;0;4
+AbstractPageContextWrapper.removeAttribute( String theName );1;0;3
+AbstractPageContextWrapper.getAttributesScope( String theName );1;0;3
+AbstractPageContextWrapper.findAttribute( String theName );1;0;3
+AbstractPageContextWrapper.handlePageException( Exception theException );1;0;3
+AbstractPageContextWrapper.getAttributeNamesInScope( int theScope );1;0;3
+AbstractPageContextWrapper.forward( String theRelativeURLPath );1;0;3
+AbstractPageContextWrapper.getServletContext( );1;0;4
+AbstractPageContextWrapper.getResponse( );1;0;3
+AbstractPageContextWrapper.pushBody( );1;0;3
+AbstractPageContextWrapper.getOriginalPageContext( );1;0;3
+AbstractPageContextWrapper.include( String theRelativeURLPath );1;0;3
+AbstractPageContextWrapper.removeAttribute( String theName , int theScope );1;0;3
+AbstractPageContextWrapper.release( );1;0;3
+AbstractPageContextWrapper.popBody( );1;0;3

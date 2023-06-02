@@ -1,0 +1,82 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultBodyContentSpec.consumeWith( Consumer < EntityExchangeResult < byte [ ] > > consumer );1;0;4
+DefaultResponseSpec.expectBody( ParameterizedTypeReference < B > bodyType );1;0;5
+DefaultResponseSpec.DefaultResponseSpec( ExchangeResult exchangeResult , ClientResponse response , Consumer < EntityExchangeResult < ? > > entityResultConsumer , Duration timeout );1;0;6
+DefaultResponseSpec.returnResult( ParameterizedTypeReference < T > elementTypeRef );1;0;4
+DefaultResponseSpec.expectHeader( );1;0;3
+DefaultBodySpec.self( );1;0;3
+DefaultRequestBodyUriSpec.body( P publisher , Class < T > elementClass );1;0;4
+DefaultWebTestClient.options( );1;0;3
+DefaultRequestBodyUriSpec.attribute( String name , Object value );1;0;4
+DefaultRequestBodyUriSpec.body( P publisher , ParameterizedTypeReference < T > elementTypeRef );1;0;4
+DefaultBodySpec.value( Function < B , R > bodyMapper , Matcher < ? super R > matcher );1;0;7
+DefaultBodySpec.returnResult( );1;0;3
+DefaultRequestBodyUriSpec.headers( Consumer < HttpHeaders > headersConsumer );1;0;4
+DefaultResponseSpec.initEntityExchangeResult( @ Nullable B body );1;0;5
+DefaultRequestBodyUriSpec.body( Object producer , ParameterizedTypeReference < ? > elementTypeRef );1;0;4
+DefaultRequestBodyUriSpec.initCookies( );4;1;14
+DefaultListBodySpec.contains( E ... elements );2;2;8
+DefaultWebTestClient.getResponseTimeout( );1;0;3
+DefaultBodyContentSpec.returnResult( );1;0;3
+DefaultRequestBodyUriSpec.cookies( Consumer < MultiValueMap < String , String > > cookiesConsumer );1;0;4
+DefaultRequestBodyUriSpec.uri( Function < UriBuilder , URI > uriFunction );1;0;4
+DefaultWebTestClient.methodInternal( HttpMethod httpMethod );1;0;3
+DefaultRequestBodyUriSpec.bodyValue( Object body );1;0;4
+DefaultWebTestClient.method( HttpMethod httpMethod );1;0;3
+DefaultBodySpec.getResult( );1;0;3
+DefaultRequestBodyUriSpec.attributes( Consumer < Map < String , Object > > attributesConsumer );1;0;4
+DefaultBodyContentSpec.jsonPath( String expression , Object ... args );1;0;3
+DefaultBodySpec.DefaultBodySpec( EntityExchangeResult < B > result );1;0;3
+DefaultRequestBodyUriSpec.uri( URI uri );1;0;4
+DefaultRequestBodyUriSpec.getHeaders( );1;0;3
+DefaultRequestBodyUriSpec.exchange( );2;2;11
+DefaultRequestBodyUriSpec.header( String headerName , String ... headerValues );2;0;6
+DefaultRequestBodyUriSpec.ifNoneMatch( String ... ifNoneMatches );1;0;4
+DefaultRequestBodyUriSpec.initUri( );2;1;3
+DefaultListBodySpec.returnResult( );1;0;3
+DefaultRequestBodyUriSpec.acceptCharset( Charset ... acceptableCharsets );1;0;4
+DefaultWebTestClient.mutateWith( WebTestClientConfigurer configurer );1;0;3
+DefaultWebTestClient.get( );1;0;3
+DefaultRequestBodyUriSpec.accept( MediaType ... acceptableMediaTypes );1;0;4
+DefaultListBodySpec.doesNotContain( E ... elements );2;3;8
+DefaultResponseSpec.getListBodySpec( Flux < E > flux );1;0;5
+DefaultBodySpec.consumeWith( Consumer < EntityExchangeResult < B > > consumer );1;0;4
+DefaultRequestBodyUriSpec.contentLength( long contentLength );1;0;4
+DefaultRequestBodyUriSpec.syncBody( Object body );1;0;3
+DefaultResponseSpec.returnResult( Class < T > elementClass );2;0;11
+DefaultWebTestClient.delete( );1;0;3
+DefaultResponseSpec.expectCookie( );1;0;3
+DefaultListBodySpec.hasSize( int size );2;1;7
+DefaultBodySpec.isEqualTo( B expected );1;0;5
+DefaultWebTestClient.put( );1;0;3
+DefaultBodyContentSpec.getBodyAsString( );3;3;9
+DefaultRequestBodyUriSpec.uri( String uriTemplate , Object ... uriVariables );1;0;4
+DefaultRequestBodyUriSpec.contentType( MediaType contentType );1;0;4
+DefaultResponseSpec.expectBody( Class < B > bodyType );1;0;5
+DefaultBodyContentSpec.json( String json , boolean strict );2;0;11
+DefaultRequestBodyUriSpec.body( Object producer , Class < ? > elementClass );1;0;4
+DefaultBodyContentSpec.xml( String expectedXml );2;0;11
+DefaultWebTestClient.patch( );1;0;3
+DefaultResponseSpec.expectBodyList( Class < E > elementType );1;0;3
+DefaultResponseSpec.expectBody( );2;1;6
+DefaultRequestBodyUriSpec.DefaultRequestBodyUriSpec( HttpMethod httpMethod );1;0;6
+DefaultWebTestClient.DefaultWebTestClient( ClientHttpConnector connector , Function < ClientHttpConnector , ExchangeFunction > exchangeFactory , UriBuilderFactory uriBuilderFactory , @ Nullable HttpHeaders headers , @ Nullable MultiValueMap < String , String > cookies , Consumer < EntityExchangeResult < ? > > entityResultConsumer , @ Nullable Duration responseTimeout , DefaultWebTestClientBuilder clientBuilder );2;1;10
+DefaultRequestBodyUriSpec.initHeaders( );2;0;9
+DefaultRequestBodyUriSpec.initRequestBuilder( );2;1;10
+DefaultBodyContentSpec.isEmpty( );1;0;5
+DefaultRequestBodyUriSpec.cookie( String name , String value );1;0;4
+DefaultListBodySpec.DefaultListBodySpec( EntityExchangeResult < List < E > > result );1;0;3
+DefaultBodySpec.value( Consumer < B > consumer );1;0;4
+DefaultWebTestClient.post( );1;0;3
+DefaultBodyContentSpec.xpath( String expression , @ Nullable Map < String , String > namespaces , Object ... args );1;0;3
+DefaultRequestBodyUriSpec.uri( String uriTemplate , Map < String , ? > uriVariables );1;0;4
+DefaultResponseSpec.expectAll( ResponseSpecConsumer ... consumers );4;0;18
+DefaultResponseSpec.expectStatus( );1;0;3
+DefaultRequestBodyUriSpec.body( BodyInserter < ? , ? super ClientHttpRequest > inserter );1;0;4
+DefaultWebTestClient.mutate( );1;0;3
+DefaultRequestBodyUriSpec.ifModifiedSince( ZonedDateTime ifModifiedSince );1;0;4
+DefaultResponseSpec.expectBodyList( ParameterizedTypeReference < E > elementType );1;0;4
+DefaultBodyContentSpec.DefaultBodyContentSpec( EntityExchangeResult < byte [ ] > result );2;3;4
+DefaultWebTestClient.head( );1;0;3
+DefaultBodySpec.value( Matcher < ? super B > matcher );1;0;4
+DefaultRequestBodyUriSpec.getCookies( );2;1;6

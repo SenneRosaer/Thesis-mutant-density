@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExternalResolver.resolve( String href , String base );8;4;47
+XMLCatalog.setCatalogPathRef( Reference r );2;0;7
+XMLCatalog.getClasspath( );1;0;3
+XMLCatalog.dieOnCircularReference( Stack stk , Project p );5;2;16
+XMLCatalog.getCatalogPath( );1;0;3
+XMLCatalog.addDTD( ResourceLocation dtd );2;0;7
+XMLCatalog.setClasspath( Path classpath );3;1;11
+XMLCatalog.createCatalogPath( );3;1;10
+XMLCatalog.setClasspathRef( Reference r );2;0;7
+XMLCatalog.urlLookup( ResourceLocation matchingEntry );7;3;33
+XMLCatalog.findMatchingEntry( String publicId );4;0;14
+XMLCatalog.classpathLookup( ResourceLocation matchingEntry );3;2;22
+XMLCatalog.getRef( );2;1;6
+XMLCatalog.resolveEntity( String publicId , String systemId );3;1;15
+XMLCatalog.XMLCatalog( );1;0;3
+InternalResolver.InternalResolver( );1;0;4
+ExternalResolver.processExternalCatalogs( );6;4;27
+XMLCatalog.setRefid( Reference r );2;1;6
+InternalResolver.resolveEntity( String publicId , String systemId );4;3;18
+XMLCatalog.resolve( String href , String base );6;3;29
+XMLCatalog.addConfiguredXMLCatalog( XMLCatalog catalog );3;0;16
+XMLCatalog.getElements( );1;0;3
+XMLCatalog.removeFragment( String uri );2;1;8
+XMLCatalog.addEntity( ResourceLocation entity );1;0;3
+XMLCatalog.setEntityResolver( SAXSource source );4;1;16
+XMLCatalog.filesystemLookup( ResourceLocation matchingEntry );13;6;52
+InternalResolver.resolve( String href , String base );7;5;33
+ExternalResolver.resolveEntity( String publicId , String systemId );6;3;33
+XMLCatalog.getCatalogResolver( );5;4;26
+XMLCatalog.createClasspath( );3;1;10
+ExternalResolver.ExternalResolver( Class resolverImplClass , Object resolverImpl );2;0;21

@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Deployer.createComponentClassLoader( ComponentDesc component , Bundle bundle );5;8;27
+Deployer.registerService( Bundle bundle , String clazz , Object service , Dictionary props );3;2;10
+Deployer.installSharedLibrary( SharedLibraryDesc sharedLibraryDesc , Bundle bundle );1;0;10
+Deployer.isAutoStart( );1;0;3
+Deployer.register( Bundle bundle );6;3;25
+Deployer.destroy( );1;0;5
+Deployer.undeployServiceAssembly( ServiceAssemblyDesc serviceAssembyDesc , Bundle bundle );1;0;4
+Deployer.maybeUnwrapComponent( ServiceReference reference , javax . jbi . component . Component component );5;3;14
+Deployer.getPreferencesService( );1;0;3
+Deployer.addingService( ServiceReference serviceReference );1;0;5
+Deployer.extractBundle( File installRoot , Bundle bundle , String path );4;2;20
+Deployer.uninstallSharedLibrary( SharedLibraryDesc sharedLibraryDesc , Bundle bundle );1;0;2
+Deployer.deployServiceAssembly( ServiceAssemblyDesc serviceAssembyDesc , Bundle bundle );9;1;49
+Deployer.afterPropertiesSet( );1;0;27
+Deployer.maybeWrapComponent( ServiceReference reference , javax . jbi . component . Component component );3;3;19
+Deployer.setAutoStart( boolean autoStart );1;0;3
+Deployer.uninstallComponent( ComponentDesc componentDesc , Bundle bundle );4;3;14
+Deployer.installComponent( ComponentDesc componentDesc , Bundle bundle );4;2;28
+Deployer.checkPendingBundles( );3;1;9
+Deployer.match( Bundle bundle );2;1;9
+Deployer.unregisterDeployedServiceAssembly( ServiceReference serviceReference , DeployedAssembly assembly );2;0;7
+Deployer.removedService( ServiceReference serviceReference , Object o );1;0;4
+Deployer.registerDeployedServiceAssembly( ServiceReference serviceReference , DeployedAssembly assembly );3;0;21
+Deployer.unregisterSA( String name );5;3;14
+Deployer.registerSA( ServiceAssemblyDesc serviceAssembyDesc , Bundle bundle , List < ServiceUnitImpl > sus );1;0;10
+Deployer.Deployer( );1;0;10
+Deployer.getSharedLibraryClassLoader( SharedLibraryList sharedLibraryList );2;1;8
+Deployer.setPreferencesService( PreferencesService preferencesService );1;0;3
+Deployer.unregister( Bundle bundle );8;4;25

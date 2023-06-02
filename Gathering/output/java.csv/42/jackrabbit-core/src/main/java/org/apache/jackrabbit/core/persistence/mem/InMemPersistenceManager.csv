@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InMemPersistenceManager.exists( NodeReferencesId id );2;1;6
+InMemPersistenceManager.loadContents( );5;6;44
+InMemPersistenceManager.store( NodeState state );3;1;15
+InMemPersistenceManager.isPersistent( );1;0;3
+InMemPersistenceManager.setLoadFactor( float loadFactor );1;0;3
+InMemPersistenceManager.store( PropertyState state );3;1;15
+InMemPersistenceManager.InMemPersistenceManager( );1;0;3
+InMemPersistenceManager.exists( PropertyId id );2;1;6
+InMemPersistenceManager.setLoadFactor( String loadFactor );1;0;3
+InMemPersistenceManager.load( PropertyId id );4;2;19
+InMemPersistenceManager.getInitialCapacity( );1;0;3
+InMemPersistenceManager.destroy( NodeReferences refs );2;1;6
+InMemPersistenceManager.getLoadFactor( );1;0;3
+InMemPersistenceManager.buildBlobFilePath( String parentUUID , Name propName , int index );5;7;21
+InMemPersistenceManager.load( NodeReferencesId id );4;2;19
+InMemPersistenceManager.setPersistent( boolean persistent );1;0;3
+InMemPersistenceManager.close( );6;5;31
+InMemPersistenceManager.store( NodeReferences refs );3;1;15
+InMemPersistenceManager.load( NodeId id );4;2;19
+InMemPersistenceManager.setInitialCapacity( String initialCapacity );1;0;3
+InMemPersistenceManager.storeContents( );4;0;41
+InMemPersistenceManager.setPersistent( String persistent );1;0;3
+InMemPersistenceManager.destroy( PropertyState state );6;6;18
+InMemPersistenceManager.init( PMContext context );3;0;17
+InMemPersistenceManager.destroy( NodeState state );2;1;6
+InMemPersistenceManager.exists( NodeId id );2;1;6
+InMemPersistenceManager.setInitialCapacity( int initialCapacity );1;0;3

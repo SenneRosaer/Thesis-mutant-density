@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PDFPage.PDFPage( PDFResources resources , PDFStream contents , int pageWidth , int pageHeight , int pageIndex );1;0;7
+PDFPage.setContents( PDFStream contents );2;1;5
+PDFPage.setMediaBox( Rectangle2D box );1;0;3
+PDFPage.getPageIndex( );1;0;3
+PDFPage.setTransition( int dur , TransitionDictionary tr );1;0;4
+PDFPage.setSimplePageSize( int width , int height );1;0;6
+PDFPage.setBleedBox( Rectangle2D box );1;0;3
+PDFPage.setTrimBox( Rectangle2D box );1;0;3
+PDFPage.setParent( PDFPages parent );1;0;3
+PDFPage.PDFPage( PDFResources resources , int pageWidth , int pageHeight , int pageIndex );1;0;3
+PDFPage.toPDFArray( Rectangle2D box );1;0;4

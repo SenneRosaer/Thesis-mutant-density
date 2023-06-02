@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TermInfosReader.scanEnum( SegmentTermEnum enumerator , int position );3;2;6
+TermInfosReader.terms( Term term );1;0;4
+TermInfosReader.getIndexOffset( Term term );4;8;15
+TermInfosReader.seekEnum( SegmentTermEnum enumerator , int indexOffset );1;2;5
+TermInfosReader.get( int position );6;10;10
+TermInfosReader.getIndexDivisor( );1;0;3
+TermInfosReader.getThreadResources( );2;1;10
+TermInfosReader.close( );3;2;7
+TermInfosReader.setIndexDivisor( int indexDivisor );3;3;8
+TermInfosReader.getPosition( Term term );5;6;12
+TermInfosReader.getSkipInterval( );1;0;3
+TermInfosReader.TermInfosReader( Directory dir , String seg , FieldInfos fis );1;0;3
+TermInfosReader.terms( );1;0;3
+TermInfosReader.size( );1;0;3
+TermInfosReader.get( Term term , boolean useCache );17;24;44
+TermInfosReader.TermInfosReader( Directory dir , String seg , FieldInfos fis , int readBufferSize );2;3;19
+TermInfosReader.get( Term term );1;0;3
+TermInfosReader.ensureIndexIsRead( );5;8;21
+TermInfosReader.getMaxSkipLevels( );1;0;3

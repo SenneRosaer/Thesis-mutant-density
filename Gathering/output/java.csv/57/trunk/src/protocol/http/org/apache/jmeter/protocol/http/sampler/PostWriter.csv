@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PostWriter.getFileMultipartEndDivider( );1;1;7
+PostWriter.writeStartFileMultipart( OutputStream out , String filename , String nameField , String mimetype );1;0;10
+PostWriter.getBoundary( );1;0;3
+PostWriter.PostWriter( );1;0;3
+PostWriter.writeFileToStream( String filename , OutputStream out );2;1;13
+PostWriter.writeln( OutputStream out , String value );1;0;4
+PostWriter.PostWriter( String boundary );1;0;3
+PostWriter.getMultipartEndDivider( );1;1;7
+PostWriter.sendPostData( URLConnection connection , HTTPSampler sampler );10;12;51
+PostWriter.writeFormMultipart( OutputStream out , String name , String value , String charSet );1;0;9
+PostWriter.getMultipartDivider( );1;1;3
+PostWriter.write( OutputStream out , String value );1;0;3
+PostWriter.setHeaders( URLConnection connection , HTTPSampler sampler );24;34;104

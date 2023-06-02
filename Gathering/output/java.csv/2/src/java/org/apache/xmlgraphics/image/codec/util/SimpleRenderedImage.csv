@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleRenderedImage.getNumYTiles( );1;2;3
+SimpleRenderedImage.getMaxY( );1;1;3
+SimpleRenderedImage.getProperty( String name );1;0;4
+SimpleRenderedImage.getHeight( );1;0;3
+SimpleRenderedImage.XToTileX( int x , int tileGridXOffset , int tileWidth );2;5;7
+SimpleRenderedImage.getMaxTileY( );1;1;3
+SimpleRenderedImage.getWidth( );1;0;3
+SimpleRenderedImage.getColorModel( );1;0;3
+SimpleRenderedImage.getMinX( );1;0;3
+SimpleRenderedImage.getPropertyNames( );1;0;5
+SimpleRenderedImage.tileXToX( int tx , int tileGridXOffset , int tileWidth );1;2;3
+SimpleRenderedImage.getMinTileY( );1;0;3
+SimpleRenderedImage.getTileGridYOffset( );1;0;3
+SimpleRenderedImage.getSampleModel( );1;0;3
+SimpleRenderedImage.tileYToY( int ty );1;2;3
+SimpleRenderedImage.getBounds( );1;0;4
+SimpleRenderedImage.getMaxX( );1;1;3
+SimpleRenderedImage.YToTileY( int y , int tileGridYOffset , int tileHeight );2;5;7
+SimpleRenderedImage.getNumXTiles( );1;2;3
+SimpleRenderedImage.tileYToY( int ty , int tileGridYOffset , int tileHeight );1;2;3
+SimpleRenderedImage.getPropertyNames( String prefix );5;4;19
+SimpleRenderedImage.getMinY( );1;0;3
+SimpleRenderedImage.YToTileY( int y );1;0;3
+SimpleRenderedImage.getSources( );1;0;3
+SimpleRenderedImage.getTileGridXOffset( );1;0;3
+SimpleRenderedImage.getTileWidth( );1;0;3
+SimpleRenderedImage.getData( );1;0;5
+SimpleRenderedImage.tileXToX( int tx );1;2;3
+SimpleRenderedImage.getTileHeight( );1;0;3
+SimpleRenderedImage.copyData( WritableRaster dest );4;9;33
+SimpleRenderedImage.getMaxTileX( );1;1;3
+SimpleRenderedImage.getData( Rectangle bounds );5;11;35
+SimpleRenderedImage.XToTileX( int x );1;0;3
+SimpleRenderedImage.getMinTileX( );1;0;3
+SimpleRenderedImage.SimpleRenderedImage( );1;0;1

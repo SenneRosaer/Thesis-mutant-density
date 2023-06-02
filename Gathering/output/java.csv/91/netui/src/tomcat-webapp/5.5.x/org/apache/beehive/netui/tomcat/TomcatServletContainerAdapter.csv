@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TomcatServletContainerAdapter.accept( AdapterContext context );5;1;30
+TomcatServletContainerAdapter.login( String username , String password , HttpServletRequest request , HttpServletResponse response );1;0;3
+TomcatServletContainerAdapter.doSecurityRedirect( String uri , HttpServletRequest request , HttpServletResponse response );1;0;3
+TomcatServletContainerAdapter.getListenPort( HttpServletRequest request );1;0;3
+TomcatServletContainerAdapter.logout( boolean invalidateSessions , HttpServletRequest request , HttpServletResponse response );1;0;3
+TomcatServletContainerAdapter.getHelper( HttpServletRequest request );2;1;12
+TomcatServletContainerAdapter.getSecureListenPort( HttpServletRequest request );1;0;3
+TomcatServletContainerAdapter.getSecurityProtocol( String uri , HttpServletRequest request );3;1;7

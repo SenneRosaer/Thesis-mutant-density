@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceUtils.filterResources( Resource [ ] resources , ResourceFilter filter );2;1;7
+ResourceUtils.correctUri( String uri );2;0;7
+ResourceUtils.getUri( Resource resource );2;1;6
+ResourceUtils.readProperties( String propertiesPath , Properties properties , ResourceLoader resourceLoader , ResourceFilter resourceFilter , Log logger );21;17;56
+ResourceUtils.isClasspathUri( String uri );2;1;4
+ResourceUtils.getPOMProperties( String groupId , String artifactId );3;1;13
+ResourceUtils.getResourceComparator( );1;0;3
+ResourceComparator.compare( Object o1 , Object o2 );8;13;21

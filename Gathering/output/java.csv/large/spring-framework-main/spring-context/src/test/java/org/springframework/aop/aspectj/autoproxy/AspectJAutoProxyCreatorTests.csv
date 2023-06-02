@@ -1,0 +1,65 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AdviceUsingThisJoinPoint.getLastMethodEntered( );1;0;3
+AbstractProxyTargetClassConfig.supplierAdvice( );1;0;3
+IncreaseReturnValue.doubleReturnValue( ProceedingJoinPoint pjp );1;1;4
+AspectJAutoProxyCreatorTests.testIncludeMechanism( );1;0;6
+AspectJAutoProxyCreatorTests.testAgeAspect( ITestBean adrian , int start , int increment );1;3;10
+MultiplyReturnValueForMarker.setMultiple( int multiple );1;0;3
+DummyFactoryBean.getObjectType( );1;0;3
+DummyFactoryBean.getObject( );1;0;3
+RetryableException.RetryableException( String msg );1;0;3
+RetryAspect.retry( ProceedingJoinPoint jp );4;3;22
+AbstractMixinConfig.messageGenerator( );1;0;3
+AspectJAutoProxyCreatorTests.testPerThisAspect( );1;0;15
+AspectJAutoProxyCreatorTests.testMultipleAspectsWithParameterApplied( );1;0;6
+AspectJAutoProxyCreatorTests.testTwoAdviceAspectPrototype( );1;0;8
+RetryAspect.getRollbackCalls( );1;0;3
+RetryAspect.getCommitCalls( );1;0;3
+AspectJAutoProxyCreatorTests.doTestAspectsAndAdvisorAreApplied( ApplicationContext ac , ITestBean shouldBeWeaved );1;1;13
+TestBeanAdvisor.TestBeanAdvisor( );1;1;3
+AspectJAutoProxyCreatorTests.testAspectsAreApplied( );1;0;8
+MixinAdvisor.getClassFilter( );1;0;3
+MultiplyReturnValue.setMultiple( int multiple );1;0;3
+PerTargetAspect.setOrder( int order );1;0;3
+MultiplyReturnValueForMarker.getMultiple( );1;0;3
+PerTargetAspect.getOrder( );1;0;3
+AdviceUsingThisJoinPoint.methodExecution( );1;0;2
+MixinAdvisor.getInterfaces( );1;0;3
+PerTargetAspect.returnCountAsAge( );1;1;3
+AspectJAutoProxyCreatorTests.lambdaIsAlwaysProxiedWithJdkProxy( Class < ? > configClass );1;0;11
+AspectJAutoProxyCreatorTests.testRetryAspect( );1;0;10
+AbstractMixinConfig.mixinAdvisor( );1;0;3
+MultiplyReturnValue.getMultiple( );1;0;3
+RetryAspect.getBeginCalls( );1;0;3
+PerTargetAspect.countSetter( );1;1;3
+DummyAspect.test( ProceedingJoinPoint pjp );1;0;3
+AspectJAutoProxyCreatorTests.lambdaIsAlwaysProxiedWithJdkProxyWithIntroductions( Class < ? > configClass );1;0;10
+MultiplyReturnValueForMarker.doubleReturnValue( ProceedingJoinPoint pjp );1;2;5
+AspectJAutoProxyCreatorTests.testTwoAdviceAspectSingleton( );1;0;8
+AspectJAutoProxyCreatorTests.testAspectsAndAdvisorAreAppliedEvenIfComingFromParentFactory( );1;0;13
+MarkerTestBean.getAge( );1;0;3
+UnreliableBean.unreliable( );2;3;7
+MixinIntroductionInterceptor.invoke( MethodInvocation invocation );1;0;3
+MixinAdvisor.validateInterfaces( );1;0;2
+MixinAdvisor.getPointcut( );1;0;3
+AspectJAutoProxyCreatorTests.newContext( String fileSuffix );1;0;3
+AspectJAutoProxyCreatorTests.qName( String fileSuffix );1;0;3
+AspectJAutoProxyCreatorTests.testAspectsAreAppliedInDefinedOrder( );1;0;5
+AbstractProxyTargetClassConfig.stringSupplier( );1;0;3
+DummyFactoryBean.isSingleton( );1;0;3
+SupplierAdvice.aroundSupplier( ProceedingJoinPoint joinPoint );1;0;3
+TestBeanAdvisor.matches( Method method , @ Nullable Class < ? > targetClass );1;0;3
+AspectJAutoProxyCreatorTests.testAdviceUsingJoinPoint( );1;1;7
+MultiplyReturnValue.doubleReturnValue( ProceedingJoinPoint pjp );1;2;5
+MixinIntroductionInterceptor.implementsInterface( Class < ? > intf );1;0;3
+AdviceUsingThisJoinPoint.entryTrace( JoinPoint jp );1;0;3
+AspectJAutoProxyCreatorTests.testWithBeanNameAutoProxyCreator( );1;0;5
+RetryableException.RetryableException( String msg , Throwable cause );1;0;3
+AspectJAutoProxyCreatorTests.testPerTargetAspect( );1;0;24
+DummyAspectWithParameter.test( ProceedingJoinPoint pjp , int age );1;0;3
+AspectJAutoProxyCreatorTests.testTwoAdviceAspect( );1;0;5
+AspectJAutoProxyCreatorTests.testWithAbstractFactoryBeanAreApplied( );1;0;6
+RetryAspect.execOfPublicMethod( );1;0;2
+AspectJAutoProxyCreatorTests.testAspectsAndAdvisorAreApplied( );1;0;5
+AspectJAutoProxyCreatorTests.testForceProxyTargetClass( );1;0;6
+MixinAdvisor.getAdvice( );1;0;3

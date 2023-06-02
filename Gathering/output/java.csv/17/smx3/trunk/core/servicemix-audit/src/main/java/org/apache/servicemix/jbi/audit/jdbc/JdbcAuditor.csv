@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JdbcAuditor.isAutoStart( );1;0;3
+JdbcAuditor.afterPropertiesSet( );9;4;41
+JdbcAuditor.setAutoStart( boolean autoStart );1;0;3
+JdbcAuditor.deleteExchangesByIds( String [ ] ids );4;3;20
+JdbcAuditor.getExchange( byte [ ] data );6;0;20
+JdbcAuditor.close( Connection connection , boolean restoreAutoCommit );4;1;11
+JdbcAuditor.getExchangeIdsByRange( int fromIndex , int toIndex );5;3;20
+JdbcAuditor.store( Connection connection , String id , byte [ ] data );2;1;7
+JdbcAuditor.getDescription( );1;0;3
+JdbcAuditor.exchangeSent( ExchangeEvent event );4;1;26
+JdbcAuditor.getDataSource( );1;0;3
+JdbcAuditor.setDataSource( DataSource dataSource );1;0;3
+JdbcAuditor.getExchangeCount( );2;0;11
+JdbcAuditor.getExchangesByIds( String [ ] ids );3;2;15

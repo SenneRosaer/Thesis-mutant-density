@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResponseBodyEmitter.onTimeout( Runnable callback );1;0;3
+ResponseBodyEmitter.initializeWithError( Throwable ex );1;0;6
+DataWithMediaType.getMediaType( );1;0;3
+DataWithMediaType.DataWithMediaType( Object data , @ Nullable MediaType mediaType );1;0;4
+ResponseBodyEmitter.send( Object object , @ Nullable MediaType mediaType );2;2;5
+ResponseBodyEmitter.getTimeout( );1;0;3
+ResponseBodyEmitter.ResponseBodyEmitter( Long timeout );1;0;3
+ResponseBodyEmitter.sendInternal( Object object , @ Nullable MediaType mediaType );4;1;18
+DefaultCallback.setDelegate( Runnable delegate );1;0;3
+ErrorCallback.accept( Throwable t );2;1;6
+ResponseBodyEmitter.onCompletion( Runnable callback );1;0;3
+ErrorCallback.setDelegate( Consumer < Throwable > callback );1;0;3
+DataWithMediaType.getData( );1;0;3
+ResponseBodyEmitter.ResponseBodyEmitter( );1;0;3
+ResponseBodyEmitter.onError( Consumer < Throwable > callback );1;0;3
+ResponseBodyEmitter.completeWithError( Throwable ex );3;1;10
+ResponseBodyEmitter.send( Object object );1;0;3
+ResponseBodyEmitter.initialize( Handler handler );4;1;24
+ResponseBodyEmitter.extendResponse( ServerHttpResponse outputMessage );1;0;2
+ResponseBodyEmitter.complete( );3;1;9
+ResponseBodyEmitter.toString( );1;0;3
+DefaultCallback.run( );2;1;6

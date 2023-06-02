@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BrokerManager.consumeQueue( final MailConsumer consumer , final MailBuilder builder , String destination );2;0;7
+BrokerManager.BrokerManager( final BrokerService broker , final Log log );1;0;5
+ConsumerRegistration.ConsumerRegistration( final MailConsumer consumer , final MailBuilder builder , final String destination , final boolean topic );1;0;7
+BrokerManager.doListen( final MailConsumer consumer , final MailBuilder builder , String destination );2;0;11
+BrokerManager.register( final MailConsumer consumer , final MailBuilder builder , final String destination , final boolean topic );3;0;13
+BrokerManager.start( );7;1;29
+BrokerManager.stop( );3;0;13
+BrokerManager.subscribeToTopic( final MailConsumer consumer , final MailBuilder builder , String destination );2;0;7
+ConsumerRegistration.toString( );1;0;11
+ConsumerRegistration.register( final BrokerManager brokerManager );2;0;7
+BrokerManager.doSubscribe( final MailConsumer consumer , final MailBuilder builder , String destination );2;0;11

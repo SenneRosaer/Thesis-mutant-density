@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Publisher.initConnection( Context ctx , String connfactory , String topic );2;0;12
+Publisher.initJNDI( boolean useProps , String jndi , String url , boolean useAuth , String user , String pwd );3;0;12
+Publisher.Publisher( boolean useProps , String jndi , String url , String connfactory , String topic , boolean useAuth , String user , String pwd );2;1;9
+Publisher.close( );3;0;15
+Publisher.publish( Serializable contents );2;0;8
+Publisher.publish( String text );2;0;8

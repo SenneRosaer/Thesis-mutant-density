@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCRNodeSource.getValidity( );4;2;11
+JCRNodeSource.exists( );1;1;3
+JCRNodeSource.cancel( OutputStream os );2;0;7
+JCRNodeSource.getChildren( );4;1;17
+JCRNodeSource.JCRNodeSource( JCRNodeSource parent , Node node );2;0;10
+JCRNodeSource.delete( );3;0;11
+JCRNodeSource.getLastModified( );4;2;11
+JCRNodeSource.JCRNodeSource( JCRSourceFactory factory , Session session , String path );4;1;17
+JCRNodeSource.getChildPath( String path , String name );2;1;7
+JCRNodeSource.getPath( );1;0;3
+JCRNodeSource.getChild( String name );2;0;7
+JCRNodeSource.getMimeType( );5;3;16
+JCRSourceOutputStream.JCRSourceOutputStream( Node contentNode );1;0;3
+JCRNodeSource.getContentLength( );4;5;11
+JCRNodeSource.getParent( );3;2;8
+JCRNodeSource.makeCollection( );5;2;21
+JCRNodeSource.refresh( );1;0;2
+JCRSourceOutputStream.canCancel( );1;1;3
+JCRNodeSource.getOutputStream( );4;1;19
+JCRNodeSource.getContentNode( );4;1;13
+JCRNodeSource.JCRNodeSource( JCRSourceFactory factory , Node node );2;0;10
+JCRSourceOutputStream.cancel( );2;0;5
+JCRNodeSource.getName( );1;1;3
+JCRNodeSource.getNode( );1;0;3
+JCRNodeSource.canCancel( OutputStream os );2;0;7
+JCRSourceOutputStream.close( );5;3;19
+JCRNodeSource.getURI( );2;2;6
+JCRNodeSource.getScheme( );1;0;3
+JCRNodeSource.isCollection( );3;1;9
+JCRNodeSource.getSession( );1;0;3
+JCRNodeSource.getInputStream( );4;1;14

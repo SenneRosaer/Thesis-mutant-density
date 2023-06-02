@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClientXAResource.setTransactionTimeout( int seconds );2;0;7
+ClientXAResource.end( Xid xid , int flags );2;0;7
+ClientXAResource.isSameRM( XAResource xares );2;2;4
+ClientXAResource.ClientXAResource( RemoteXAResource remote );1;0;3
+ClientXAResource.start( Xid xid , int flags );2;0;7
+ClientXAResource.getTransactionTimeout( );2;0;7
+ClientXAResource.commit( Xid xid , boolean onePhase );2;0;7
+ClientXAResource.getXAException( RemoteException e );1;0;5
+ClientXAResource.prepare( Xid xid );2;0;7
+ClientXAResource.rollback( Xid xid );2;0;7
+ClientXAResource.recover( int flag );2;0;7
+ClientXAResource.forget( Xid xid );2;0;7

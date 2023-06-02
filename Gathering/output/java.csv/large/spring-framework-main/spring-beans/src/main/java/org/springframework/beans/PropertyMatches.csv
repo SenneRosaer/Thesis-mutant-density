@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BeanPropertyMatches.calculateMatches( String name , PropertyDescriptor [ ] descriptors , int maxDistance );4;2;13
+PropertyMatches.forField( String propertyName , Class < ? > beanClass , int maxDistance );1;0;3
+BeanPropertyMatches.buildErrorMessage( );2;1;12
+PropertyMatches.forField( String propertyName , Class < ? > beanClass );1;0;3
+BeanPropertyMatches.BeanPropertyMatches( String propertyName , Class < ? > beanClass , int maxDistance );1;0;4
+FieldPropertyMatches.buildErrorMessage( );2;1;9
+PropertyMatches.calculateStringDistance( String s1 , String s2 );8;20;30
+PropertyMatches.forProperty( String propertyName , Class < ? > beanClass , int maxDistance );1;0;3
+PropertyMatches.getPossibleMatches( );1;0;3
+PropertyMatches.forProperty( String propertyName , Class < ? > beanClass );1;0;3
+FieldPropertyMatches.FieldPropertyMatches( String propertyName , Class < ? > beanClass , int maxDistance );1;0;3
+PropertyMatches.PropertyMatches( String propertyName , String [ ] possibleMatches );1;0;4
+FieldPropertyMatches.calculateMatches( final String name , Class < ? > clazz , final int maxDistance );2;1;11
+PropertyMatches.getPropertyName( );1;0;3
+PropertyMatches.appendHintMessage( StringBuilder msg );4;6;14

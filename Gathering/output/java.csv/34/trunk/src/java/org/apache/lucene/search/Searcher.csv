@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Searcher.search( Query query , Filter filter , HitCollector results );1;0;3
+Searcher.search( Query query , Filter filter );1;0;3
+Searcher.setSimilarity( Similarity similarity );1;0;3
+Searcher.search( Query query , HitCollector results );1;0;3
+Searcher.search( Query query , int n );1;0;3
+Searcher.search( Query query , Filter filter , int n , Sort sort );1;0;3
+Searcher.search( Query query , Filter filter , Sort sort );1;0;3
+Searcher.getSimilarity( );1;0;3
+Searcher.explain( Query query , int doc );1;0;3
+Searcher.docFreqs( Term [ ] terms );2;2;7
+Searcher.search( Query query );1;0;3
+Searcher.search( Query query , Filter filter , int n );1;0;3
+Searcher.createWeight( Query query );1;0;3
+Searcher.search( Query query , Sort sort );1;0;3

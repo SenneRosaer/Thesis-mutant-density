@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebAsyncManager.setTaskExecutor( AsyncTaskExecutor taskExecutor );1;0;3
+WebAsyncManager.startAsyncProcessing( Object [ ] processingContext );2;0;11
+WebAsyncManager.startCallableProcessing( final WebAsyncTask < ? > webAsyncTask , Object ... processingContext );12;6;66
+WebAsyncManager.registerDeferredResultInterceptor( Object key , DeferredResultProcessingInterceptor interceptor );1;0;5
+WebAsyncManager.getConcurrentResultContext( );1;0;3
+WebAsyncManager.startDeferredResultProcessing( final DeferredResult < ? > deferredResult , Object ... processingContext );7;4;48
+WebAsyncManager.getConcurrentResult( );1;0;3
+WebAsyncManager.formatRequestUri( );2;1;4
+WebAsyncManager.setConcurrentResultAndDispatch( Object result );6;1;20
+WebAsyncManager.startCallableProcessing( Callable < ? > callable , Object ... processingContext );1;0;4
+WebAsyncManager.WebAsyncManager( );1;0;2
+WebAsyncManager.setAsyncWebRequest( AsyncWebRequest asyncWebRequest );1;0;6
+WebAsyncManager.registerCallableInterceptor( Object key , CallableProcessingInterceptor interceptor );1;0;5
+WebAsyncManager.getDeferredResultInterceptor( Object key );1;0;3
+WebAsyncManager.isConcurrentHandlingStarted( );2;2;3
+WebAsyncManager.registerCallableInterceptors( CallableProcessingInterceptor ... interceptors );2;1;7
+WebAsyncManager.getCallableInterceptor( Object key );1;0;3
+WebAsyncManager.clearConcurrentResult( );1;0;6
+WebAsyncManager.logExecutorWarning( );6;3;19
+WebAsyncManager.hasConcurrentResult( );1;1;3
+WebAsyncManager.registerDeferredResultInterceptors( DeferredResultProcessingInterceptor ... interceptors );2;1;7

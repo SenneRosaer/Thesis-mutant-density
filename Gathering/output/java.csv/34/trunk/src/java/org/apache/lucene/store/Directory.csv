@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Directory.getLockID( );1;0;3
+Directory.clearLock( String name );2;1;5
+Directory.makeLock( String name );1;0;3
+Directory.openInput( String name , int bufferSize );1;0;3
+Directory.sync( String name );1;0;1
+Directory.setLockFactory( LockFactory lockFactory );1;0;4
+Directory.getLockFactory( );1;0;3
+Directory.copy( Directory src , Directory dest , boolean closeDirSrc );8;10;32
+Directory.ensureOpen( );2;1;4

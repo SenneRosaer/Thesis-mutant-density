@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Form.Form( FormDefinition definition );1;0;4
+Form.isValid( );1;0;3
+Form.fireWidgetEvents( );4;2;13
+Form.getSubmitWidget( );1;0;3
+Form.setFormHandler( FormHandler formHandler );1;0;3
+Form.setAttribute( String name , Object value );2;1;6
+Form.getAttribute( String name );2;1;3
+Form.readFromRequest( FormContext formContext );1;0;3
+Form.addProcessingPhaseListener( ProcessingPhaseListener listener );1;0;3
+Form.generateSaxFragment( ContentHandler contentHandler , Locale locale );2;4;14
+Form.doValidate( FormContext formContext );1;0;3
+Form.getLocale( );1;0;3
+Form.doReadFromRequest( FormContext formContext );1;0;3
+Form.process( FormContext formContext );11;10;45
+Form.removeAttribute( String name );2;1;5
+Form.generateLabel( ContentHandler contentHandler );1;0;3
+Form.removeProcessingPhaseListener( ProcessingPhaseListener listener );1;0;3
+Form.setSubmitWidget( Widget widget );4;4;9
+Form.addWidgetEvent( WidgetEvent event );2;1;6
+Form.endProcessing( boolean redisplayForm );1;1;3
+Form.validate( FormContext formContext );1;0;3

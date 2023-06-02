@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransferEvent.TransferEvent( final Repository repository , final Resource resource , long length , final int requestType );1;0;5
+TransferEvent.getResource( );1;0;3
+TransferEvent.setResource( final Resource resource );1;0;4
+TransferEvent.getElapsedTime( int fromEventType , int toEventType );4;6;13
+TransferEvent.TransferEvent( final Repository repository , final Resource resource , final int eventType , final int requestType );1;0;7
+***not in a method***;0;1;0
+TransferEvent.setLength( long length );1;0;3
+TransferEvent.setEventType( final int eventType );4;3;15
+TransferEvent.getRepository( );1;0;3
+TransferEvent.getName( int eventType );6;0;16
+TransferEvent.getRequestType( );1;0;3
+TransferEvent.getException( );1;0;3
+TransferEvent.checkEventType( int eventType );3;3;5
+TransferEvent.getEventType( );1;0;3
+TransferEvent.setRequestType( final int requestType );4;1;12
+TransferEvent.setException( Exception exception );1;0;3
+TransferEvent.getLocalFile( );1;0;3
+TransferEvent.getLength( );1;0;3
+TransferEvent.setTotalLengthSet( boolean isTotalLengthSet );1;0;3
+TransferEvent.isTotalLengthSet( );1;0;3
+TransferEvent.setLocalFile( File localFile );1;0;3
+TransferEvent.TransferEvent( final Repository repository , final Resource resource , final Exception exception , final int requestType );1;0;4
+TransferEvent.setTotalLength( long totalLength );1;0;3
+TransferEvent.getTotalLength( );1;0;3

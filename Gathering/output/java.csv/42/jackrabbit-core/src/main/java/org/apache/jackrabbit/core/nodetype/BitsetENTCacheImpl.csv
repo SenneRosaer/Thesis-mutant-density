@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BitsetENTCacheImpl.getBitNumber( Name name );4;4;20
+BitsetKey.toString( );2;2;11
+BitsetENTCacheImpl.BitsetENTCacheImpl( );1;0;4
+BitsetKey.BitsetKey( long [ ] bits , int numBits );2;3;11
+***not in a method***;0;3;0
+BitsetENTCacheImpl.findBest( Key key );4;0;13
+BitsetKey.BitsetKey( Name [ ] names , int maxBit );2;7;9
+BitsetKey.calcHashCode( );4;12;12
+BitsetKey.bitCount( long val );1;17;8
+BitsetENTCacheImpl.remove( Key key );2;1;7
+BitsetKey.hashCode( );1;0;3
+BitsetKey.subtract( Key otherKey );4;6;13
+BitsetENTCacheImpl.put( Key key , EffectiveNodeType ent );1;0;4
+BitsetENTCacheImpl.contains( Key key );1;0;3
+BitsetENTCacheImpl.invalidate( Name name );3;0;10
+BitsetKey.contains( Key otherKey );5;6;13
+BitsetENTCacheImpl.put( EffectiveNodeType ent );1;0;3
+BitsetKey.nextSetBit( int fromIndex );5;12;17
+BitsetENTCacheImpl.getName( int n );1;0;3
+BitsetENTCacheImpl.get( Key key );1;0;3
+BitsetKey.equals( Object obj );8;8;22
+BitsetENTCacheImpl.clone( );1;0;9
+BitsetENTCacheImpl.dump( PrintStream ps );2;0;11
+BitsetKey.compareTo( Object other );7;14;22
+BitsetENTCacheImpl.getKey( Name [ ] ntNames );1;1;3
+BitsetKey.getNames( );1;0;3

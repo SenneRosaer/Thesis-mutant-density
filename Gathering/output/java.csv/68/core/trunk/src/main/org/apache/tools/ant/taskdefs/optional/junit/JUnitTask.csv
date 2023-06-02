@@ -1,0 +1,88 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JUnitTask.createBatchTest( );1;0;6
+JUnitTask.setupJUnitDelegate( );3;1;15
+JUnitTask.setShowOutput( boolean showOutput );1;0;3
+JUnitTask.addClasspathEntry( String resource );1;0;3
+JUnitTask.printDual( PrintWriter w , PrintStream s , String text );1;0;4
+ForkMode.ForkMode( String value );1;0;4
+JUnitLogStreamHandler.JUnitLogStreamHandler( Task task , int outlevel , int errlevel );1;0;4
+JUnitTask.addConfiguredSysproperty( Environment . Variable sysp );1;0;5
+JUnitTask.logVmExit( FormatterElement [ ] feArray , JUnitTest test , String message , String testCase );12;8;51
+SplitLoader.isSplit( String classname );4;5;10
+JUnitTask.setFiltertrace( boolean value );1;0;3
+JUnitTask.setHaltonfailure( boolean value );1;0;3
+JUnitTask.setTempdir( File tmpDir );4;4;9
+JUnitTask.setErrorProperty( String propertyName );1;0;3
+JUnitTask.executeInVM( JUnitTest arg );15;12;72
+JUnitTask.actOnTestResult( int exitValue , boolean wasKilled , JUnitTest test , String name );1;0;6
+JUnitTask.handleFlush( String output );3;1;10
+ForkedTestConfiguration.equals( Object other );13;22;18
+JUnitTask.setForkMode( ForkMode mode );1;0;3
+JUnitTask.getDefaultOutput( );1;0;3
+ForkMode.getValues( );1;0;3
+JUnitTask.setNewenvironment( boolean newenv );1;0;3
+JUnitTask.getCommandline( );2;1;6
+JUnitTask.handleInput( byte [ ] buffer , int offset , int length );2;1;7
+JUnitTask.execute( JUnitTest arg );4;3;17
+ForkMode.ForkMode( );1;0;3
+JUnitTask.setFailureProperty( String propertyName );1;0;3
+JUnitTask.actOnTestResult( TestResultHolder result , JUnitTest test , String name );18;17;25
+JUnitTask.setFork( boolean value );1;0;3
+JUnitTask.printlnDual( PrintWriter w , PrintStream s , String text );1;0;4
+JUnitTask.handleErrorFlush( String output );3;1;10
+JUnitTask.setReloading( boolean value );1;0;3
+JUnitTask.setCloneVm( boolean cloneVm );1;0;3
+JUnitTask.createMirror( JUnitTask task , ClassLoader loader );4;1;20
+JUnitTask.checkIncludeSummary( CommandlineJava cmd );3;1;12
+JUnitTask.setIncludeantruntime( boolean b );1;0;3
+JUnitTask.JUnitTask( );1;0;4
+JUnitTask.addClasspathResource( String resource );3;1;18
+JUnitTask.createPermissions( );2;1;6
+JUnitTask.createDummyTestForBatchTest( JUnitTest test );2;3;7
+JUnitTask.setMaxmemory( String max );1;0;3
+JUnitTask.addSyspropertyset( PropertySet sysp );1;0;3
+SummaryAttribute.asBoolean( );4;3;7
+JUnitTask.setPrintsummary( SummaryAttribute value );1;0;4
+JUnitTask.execute( );6;4;29
+ForkedTestConfiguration.hashCode( );4;2;5
+JUnitTask.checkForkedPath( CommandlineJava cmd );7;4;30
+JUnitTask.createTempPropertiesFile( String prefix );2;1;6
+JUnitTask.createClassLoader( );7;6;26
+JUnitTask.setTimeout( Integer value );1;0;3
+JUnitTask.mergeFormatters( JUnitTest test );1;0;7
+JUnitTask.setOutputToFormatters( boolean outputToFormatters );1;0;3
+SummaryAttribute.getValues( );1;0;4
+JUnitTask.createClasspath( );1;0;3
+SplitLoader.SplitLoader( ClassLoader parent , Path path );1;0;3
+JUnitTask.createWatchdog( );2;1;6
+JUnitTask.logVmCrash( FormatterElement [ ] feArray , JUnitTest test , String testCase );1;0;7
+JUnitLogOutputStream.JUnitLogOutputStream( Task task , int level );1;0;4
+JUnitTask.createBootclasspath( );1;0;3
+JUnitTask.logTimeout( FormatterElement [ ] feArray , JUnitTest test , String testCase );1;0;3
+JUnitTask.deleteClassLoader( );3;1;10
+JUnitTask.addEnv( Environment . Variable var );1;0;3
+JUnitTask.getOutput( FormatterElement fe , JUnitTest test );3;2;13
+JUnitTask.executeAsForked( JUnitTest test , ExecuteWatchdog watchdog , File casesFile );24;26;134
+ForkedTestConfiguration.ForkedTestConfiguration( boolean filterTrace , boolean haltOnError , boolean haltOnFailure , String errorProperty , String failureProperty );1;0;7
+JUnitTask.equalsWithOutAndErr( String summaryOption );2;2;4
+JUnitTask.checkIncludeAntRuntime( CommandlineJava cmd );4;0;19
+JUnitTask.setDir( File dir );1;0;3
+JUnitTask.addAssertions( Assertions asserts );2;1;6
+JUnitTask.executeOrQueue( Enumeration testList , boolean runIndividual );6;3;21
+JUnitTask.createJvmarg( );1;0;3
+JUnitTask.setJvm( String value );1;0;3
+JUnitTask.handleOutput( String output );5;1;14
+JUnitLogOutputStream.processLine( String line , int level );2;0;7
+JUnitTask.addFormatter( FormatterElement fe );1;0;3
+JUnitTask.cleanup( );1;0;4
+JUnitTask.init( );1;1;7
+JUnitTask.handleErrorOutput( String output );3;1;10
+JUnitTask.addTest( JUnitTest test );1;0;4
+JUnitTask.setHaltonerror( boolean value );1;0;3
+JUnitTask.execute( List testList );6;2;47
+ForkedTestConfiguration.ForkedTestConfiguration( JUnitTest test );1;0;7
+JUnitTask.preConfigure( BaseTest test );3;2;12
+JUnitTask.getIndividualTests( );2;4;10
+JUnitTask.addSysproperty( Environment . Variable sysp );1;0;3
+JUnitTask.allTests( );1;0;4
+SplitLoader.loadClass( String classname , boolean resolve );4;1;15

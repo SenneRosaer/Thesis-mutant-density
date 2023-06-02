@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OsgiLocator.OsgiLocator( );1;0;2
+OsgiLocator.register( String id , Callable < Class > factory );3;2;11
+OsgiLocator.unregister( String id , Callable < Class > factory );3;2;8
+OsgiLocator.locate( String factoryId );5;5;13
+OsgiLocator.locateAll( String factoryId );5;2;15

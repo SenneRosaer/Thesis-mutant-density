@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XDocletCompilerUtils.addWarning( SourcePosition sourcePosition , String messageKey , String [ ] args );1;1;5
+XDocletCompilerUtils.getMessage( String messageKey , String [ ] args );2;1;5
+XDocletCompilerUtils.resolveTypeDeclaration( String typeName );1;1;4
+XDocletCompilerUtils.isUnknownClass( XClass xclass );2;2;3
+XDocletCompilerUtils.resolveType( String typeName , boolean allowErrorType , XClass currentClass );1;0;3
+XDocletCompilerUtils.resolveTypeInstanceOrTypeDecl( String typeName , boolean allowUnknownType , XClass currentClass , boolean returnTypeInstance );18;15;66
+XDocletCompilerUtils.addError( SourcePosition sourcePosition , String messageKey , String [ ] args );1;1;5
+XDocletCompilerUtils.getXClass( String typeName , XJavaDoc xJavaDoc );3;6;14

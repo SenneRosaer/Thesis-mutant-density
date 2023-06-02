@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MethodWriter.addSuccessorToCurrentBasicBlock( final int info , final Label successor );1;0;3
+MethodWriter.putAbstractTypes( final int start , final int end );2;2;5
+MethodWriter.visitLocalVariable( final String name , final String descriptor , final String signature , final Label start , final Label end , final int index );8;13;31
+MethodWriter.collectAttributePrototypes( final Attribute . Set attributePrototypes );1;0;4
+MethodWriter.visitLdcInsn( final Object value );12;16;30
+MethodWriter.visitTryCatchBlock( final Label start , final Label end , final Label handler , final String type );3;2;11
+MethodWriter.visitLookupSwitchInsn( final Label dflt , final int [ ] keys , final Label [ ] labels );2;5;11
+MethodWriter.visitAnnotableParameterCount( final int parameterCount , final boolean visible );2;0;7
+MethodWriter.visitFrameEnd( );3;3;11
+MethodWriter.visitLocalVariableAnnotation( final int typeRef , final TypePath typePath , final Label [ ] start , final Label [ ] end , final int [ ] index , final String descriptor , final boolean visible );3;4;27
+MethodWriter.visitMaxs( final int maxStack , final int maxLocals );4;3;12
+MethodWriter.visitLineNumber( final int line , final Label start );2;2;8
+MethodWriter.visitTableSwitchInsn( final int min , final int max , final Label dflt , final Label ... labels );2;3;10
+MethodWriter.putMethodInfo( final ByteVector output );43;85;194
+MethodWriter.visitTryCatchAnnotation( final int typeRef , final TypePath typePath , final String descriptor , final boolean visible );2;0;11
+MethodWriter.visitFrame( final int type , final int numLocal , final Object [ ] local , final int numStack , final Object [ ] stack );28;41;112
+MethodWriter.visitTypeAnnotation( final int typeRef , final TypePath typePath , final String descriptor , final boolean visible );2;0;11
+MethodWriter.visitInsnAnnotation( final int typeRef , final TypePath typePath , final String descriptor , final boolean visible );2;6;19
+MethodWriter.putFrame( );26;38;88
+MethodWriter.setMethodAttributesSource( final int methodInfoOffset , final int methodInfoLength );1;2;4
+MethodWriter.visitTypeInsn( final int opcode , final String type );6;7;16
+MethodWriter.visitEnd( );1;0;2
+MethodWriter.hasAsmInstructions( );1;0;3
+MethodWriter.MethodWriter( final SymbolTable symbolTable , final int access , final String name , final String descriptor , final String signature , final String [ ] exceptions , final int compute );8;12;31
+MethodWriter.visitAttribute( final Attribute attribute );2;0;9
+MethodWriter.visitMultiANewArrayInsn( final String descriptor , final int numDimensions );4;6;13
+MethodWriter.visitCode( );1;0;2
+MethodWriter.hasFrames( );1;1;3
+MethodWriter.computeMethodInfoSize( );20;46;87
+MethodWriter.putFrameType( final Object type );3;0;13
+MethodWriter.visitFrameStart( final int offset , final int numLocal , final int numStack );3;5;10
+MethodWriter.endCurrentBasicBlockWithNoSuccessor( );3;2;13
+MethodWriter.visitAnnotationDefault( );1;0;4
+***not in a method***;0;87;0
+MethodWriter.computeMaxStackAndLocal( );18;25;72
+MethodWriter.visitIntInsn( final int opcode , final int operand );7;8;19
+MethodWriter.visitLabel( final Label label );14;20;48
+MethodWriter.visitAbstractType( final int frameIndex , final int abstractType );1;0;3
+MethodWriter.visitVarInsn( final int opcode , final int varIndex );19;37;50
+MethodWriter.visitInsn( final int opcode );8;11;18
+MethodWriter.computeAllFrames( );15;23;71
+MethodWriter.visitJumpInsn( final int opcode , final Label label );18;35;64
+MethodWriter.visitSwitchInsn( final Label dflt , final Label [ ] labels );6;6;20
+MethodWriter.visitParameter( final String name , final int access );3;3;7
+MethodWriter.canCopyMethodAttributes( final ClassReader source , final boolean hasSyntheticAttribute , final boolean hasDeprecatedAttribute , final int descriptorIndex , final int signatureIndex , final int exceptionsOffset );12;22;27
+MethodWriter.visitInvokeDynamicInsn( final String name , final String descriptor , final Handle bootstrapMethodHandle , final Object ... bootstrapMethodArguments );5;10;21
+MethodWriter.visitIincInsn( final int varIndex , final int increment );9;14;18
+MethodWriter.visitFieldInsn( final int opcode , final String owner , final String name , final String descriptor );17;25;32
+MethodWriter.visitMethodInsn( final int opcode , final String owner , final String name , final String descriptor , final boolean isInterface );7;14;28
+MethodWriter.visitParameterAnnotation( final int parameter , final String annotationDescriptor , final boolean visible );4;2;21
+MethodWriter.visitAnnotation( final String descriptor , final boolean visible );2;0;9

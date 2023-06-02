@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProxyTransformer.appendParameter( StringBuffer buffer , boolean firstparameter , boolean post , String name , String value );3;1;14
+ProxyTransformer.readXML( HttpURLConnection connection );4;6;19
+ProxyTransformer.recycle( );1;0;10
+ProxyTransformer.processRequest( );17;14;70
+ProxyTransformer.getInstanceData( ServiceManager manager , Map objectModel , Parameters parameters );5;2;25
+ProxyTransformer.parameterize( Parameters parameters );1;0;3
+ProxyTransformer.service( ServiceManager aManager );1;0;5
+ProxyTransformer.checkForRedirect( HttpURLConnection connection , String documentBase );5;8;22
+ProxyTransformer.dispose( );3;2;11
+ProxyTransformer.startElement( String uri , String name , String raw , Attributes attributes );2;0;6
+ProxyTransformer.setup( SourceResolver resolver , Map objectModel , String src , Parameters parameters );4;4;22
+ProxyTransformer.checkForRedirect( Document doc , String documentBase );9;11;53
+ProxyTransformer.resolveURI( String uri , String documentBase );6;7;22
+ProxyTransformer.connect( Request request , String uri , String query , boolean post );6;5;40

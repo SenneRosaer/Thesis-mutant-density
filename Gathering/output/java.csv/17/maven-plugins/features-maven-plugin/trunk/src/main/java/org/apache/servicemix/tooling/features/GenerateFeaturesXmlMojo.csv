@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GenerateFeaturesXmlMojo.getManifest( Artifact artifact );2;0;11
+GenerateFeaturesXmlMojo.isBundle( Artifact artifact );6;1;21
+GenerateFeaturesXmlMojo.readSystemPackages( );1;0;6
+GenerateFeaturesXmlMojo.getFeature( Artifact artifact );1;0;6
+GenerateFeaturesXmlMojo.readKernelBundles( );4;1;16
+GenerateFeaturesXmlMojo.discoverBundles( Artifact artifact );4;2;9
+GenerateFeaturesXmlMojo.registerFeature( Artifact artifact );1;0;4
+GenerateFeaturesXmlMojo.isFeature( Artifact artifact );1;0;3
+GenerateFeaturesXmlMojo.execute( );3;1;18
+GenerateFeaturesXmlMojo.readSystemPackages( Properties properties , String key );2;0;6
+GenerateFeaturesXmlMojo.getManifestEntries( List imports );2;1;7
+GenerateFeaturesXmlMojo.getDependencies( Artifact artifact );4;1;14
+GenerateFeaturesXmlMojo.registerBundle( Artifact artifact );3;1;13
+Feature.write( PrintStream out );3;1;13
+GenerateFeaturesXmlMojo.isOptional( ManifestEntry entry );3;4;4
+GenerateFeaturesXmlMojo.addRequirements( Artifact artifact , Feature feature );9;5;31
+GenerateFeaturesXmlMojo.writeFeatures( PrintStream out );2;0;13
+Feature.push( Artifact item );2;1;7
+GenerateFeaturesXmlMojo.readBundles( );6;5;24
+Feature.Feature( Artifact artifact );1;0;5
+GenerateFeaturesXmlMojo.getRemainingImports( Manifest manifest );9;0;24

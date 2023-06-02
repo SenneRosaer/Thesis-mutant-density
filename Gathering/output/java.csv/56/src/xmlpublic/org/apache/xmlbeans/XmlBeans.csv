@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlBeans.getContextTypeLoader( );3;0;17
+XmlBeans.compilePath( String pathExpr );1;0;3
+XmlBeans.XmlBeans( );1;0;1
+XmlBeans.buildNodeToCursorMethod( );1;0;3
+XmlBeans.buildNodeMethod( String className , String methodName );1;0;3
+XmlBeans.initialValue( );1;0;3
+***not in a method***;0;1;0
+XmlBeans.buildGetNoTypeMethod( );1;0;3
+XmlBeans.buildNoArgMethod( String className , String methodName );1;0;3
+XmlBeans.typeLoaderForResource( ResourceLoader resourceLoader );3;0;17
+XmlBeans.causedException( RuntimeException e , Throwable cause );1;0;4
+XmlBeans.buildConstructor( String className , Class [ ] args );2;0;16
+XmlBeans.nodeToXmlObject( Node n );3;0;19
+XmlBeans.loadXsd( XmlObject [ ] schemas );1;0;3
+XmlBeans.buildGetBuiltinSchemaTypeSystemMethod( );1;0;3
+XmlBeans.buildCompilationMethod( );1;0;6
+XmlBeans.typeLoaderForClassLoader( ClassLoader loader );3;0;17
+XmlBeans.compileXmlBeans( String name , SchemaTypeSystem system , XmlObject [ ] schemas , BindingConfig config , SchemaTypeLoader typepath , Filer filer , XmlOptions options );4;1;14
+XmlBeans.getVersion( );1;0;3
+XmlBeans.buildNodeToXmlObjectMethod( );1;0;3
+XmlBeans.buildTypeLoaderBuilderMethod( );1;0;6
+XmlBeans.wrappedException( Throwable e );2;0;5
+XmlBeans.resourceLoaderForPath( File [ ] path );4;0;21
+XmlBeans.compileQuery( String queryExpr , XmlOptions options );1;0;3
+XmlBeans.buildStreamToNodeMethod( );1;0;6
+XmlBeans.buildNodeToXmlStreamMethod( );1;0;3
+XmlBeans.typeForClass( Class c );5;4;15
+XmlBeans.buildPathResourceLoaderConstructor( );1;0;6
+XmlBeans.compileXsd( XmlObject [ ] schemas , SchemaTypeLoader typepath , XmlOptions options );1;0;3
+XmlBeans.loadXsd( XmlObject [ ] schemas , XmlOptions options );4;1;22
+XmlBeans.nodeToXmlStreamReader( Node n );3;0;19
+XmlBeans.compileQuery( String queryExpr );1;0;3
+XmlBeans.buildGetContextTypeLoaderMethod( );1;0;3
+XmlBeans.nodeToCursor( Node n );3;0;19
+XmlBeans.getQName( String localPart );1;0;3
+XmlBeans.compileXsd( SchemaTypeSystem system , XmlObject [ ] schemas , SchemaTypeLoader typepath , XmlOptions options );1;0;3
+XmlBeans.streamToNode( XMLStreamReader xs );3;0;19
+XmlBeans.compilePath( String pathExpr , XmlOptions options );1;0;3
+XmlBeans.getQNameCache( );2;1;10
+XmlBeans.typeLoaderUnion( SchemaTypeLoader [ ] typeLoaders );4;1;19
+XmlBeans.getNoType( );3;0;17
+XmlBeans.buildMethod( String className , String methodName , Class [ ] args );2;0;16
+XmlBeans.getQName( String namespaceUri , String localPart );1;0;3
+XmlBeans.getTitle( );1;0;3
+XmlBeans.getVendor( );1;0;3
+XmlBeans.getBuiltinTypeSystem( );3;0;17
+XmlBeans.typeSystemForClassLoader( ClassLoader loader , String stsName );5;2;34

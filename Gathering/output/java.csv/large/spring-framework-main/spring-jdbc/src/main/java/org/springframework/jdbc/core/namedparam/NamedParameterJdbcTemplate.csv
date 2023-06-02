@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NamedParameterJdbcTemplate.getJdbcTemplate( );1;0;4
+NamedParameterJdbcTemplate.queryForMap( String sql , Map < String , ? > paramMap );1;1;5
+NamedParameterJdbcTemplate.query( String sql , Map < String , ? > paramMap , ResultSetExtractor < T > rse );1;0;3
+NamedParameterJdbcTemplate.queryForList( String sql , Map < String , ? > paramMap );1;0;3
+NamedParameterJdbcTemplate.execute( String sql , Map < String , ? > paramMap , PreparedStatementCallback < T > action );1;0;3
+NamedParameterJdbcTemplate.query( String sql , SqlParameterSource paramSource , RowCallbackHandler rch );1;0;3
+NamedParameterJdbcTemplate.update( String sql , SqlParameterSource paramSource , KeyHolder generatedKeyHolder , @ Nullable String [ ] keyColumnNames );2;1;11
+NamedParameterJdbcTemplate.queryForMap( String sql , SqlParameterSource paramSource );1;1;5
+NamedParameterJdbcTemplate.getPreparedStatementCreator( String sql , SqlParameterSource paramSource );1;0;3
+NamedParameterJdbcTemplate.queryForStream( String sql , SqlParameterSource paramSource , RowMapper < T > rowMapper );1;0;3
+NamedParameterJdbcTemplate.getCacheLimit( );1;0;3
+NamedParameterJdbcTemplate.update( String sql , SqlParameterSource paramSource );1;0;3
+NamedParameterJdbcTemplate.execute( String sql , SqlParameterSource paramSource , PreparedStatementCallback < T > action );1;0;3
+NamedParameterJdbcTemplate.getBatchSize( );1;0;3
+NamedParameterJdbcTemplate.setValues( PreparedStatement ps , int i );1;0;4
+NamedParameterJdbcTemplate.queryForStream( String sql , Map < String , ? > paramMap , RowMapper < T > rowMapper );1;0;3
+NamedParameterJdbcTemplate.query( String sql , RowCallbackHandler rch );1;0;3
+NamedParameterJdbcTemplate.update( String sql , Map < String , ? > paramMap );1;0;3
+NamedParameterJdbcTemplate.query( String sql , SqlParameterSource paramSource , ResultSetExtractor < T > rse );1;0;3
+NamedParameterJdbcTemplate.getPreparedStatementCreator( String sql , SqlParameterSource paramSource , @ Nullable Consumer < PreparedStatementCreatorFactory > customizer );2;1;9
+NamedParameterJdbcTemplate.NamedParameterJdbcTemplate( JdbcOperations classicJdbcTemplate );1;0;4
+NamedParameterJdbcTemplate.queryForObject( String sql , Map < String , ? > paramMap , RowMapper < T > rowMapper );1;0;3
+NamedParameterJdbcTemplate.queryForObject( String sql , SqlParameterSource paramSource , Class < T > requiredType );1;0;3
+NamedParameterJdbcTemplate.queryForObject( String sql , Map < String , ? > paramMap , Class < T > requiredType );1;0;3
+NamedParameterJdbcTemplate.update( String sql , SqlParameterSource paramSource , KeyHolder generatedKeyHolder );1;0;3
+NamedParameterJdbcTemplate.query( String sql , ResultSetExtractor < T > rse );1;0;3
+NamedParameterJdbcTemplate.execute( String sql , PreparedStatementCallback < T > action );1;0;3
+NamedParameterJdbcTemplate.query( String sql , SqlParameterSource paramSource , RowMapper < T > rowMapper );1;0;3
+NamedParameterJdbcTemplate.queryForList( String sql , SqlParameterSource paramSource );1;0;3
+NamedParameterJdbcTemplate.NamedParameterJdbcTemplate( DataSource dataSource );1;0;4
+NamedParameterJdbcTemplate.query( String sql , Map < String , ? > paramMap , RowCallbackHandler rch );1;0;3
+NamedParameterJdbcTemplate.queryForList( String sql , SqlParameterSource paramSource , Class < T > elementType );1;0;3
+NamedParameterJdbcTemplate.getPreparedStatementCreatorFactory( ParsedSql parsedSql , SqlParameterSource paramSource );1;0;5
+NamedParameterJdbcTemplate.query( String sql , Map < String , ? > paramMap , RowMapper < T > rowMapper );1;0;3
+NamedParameterJdbcTemplate.getParsedSql( String sql );1;0;3
+NamedParameterJdbcTemplate.queryForList( String sql , Map < String , ? > paramMap , Class < T > elementType );1;0;3
+NamedParameterJdbcTemplate.queryForRowSet( String sql , Map < String , ? > paramMap );1;0;3
+NamedParameterJdbcTemplate.setCacheLimit( int cacheLimit );1;0;3
+NamedParameterJdbcTemplate.batchUpdate( String sql , Map < String , ? > [ ] batchValues );1;0;3
+NamedParameterJdbcTemplate.queryForRowSet( String sql , SqlParameterSource paramSource );1;1;6
+NamedParameterJdbcTemplate.batchUpdate( String sql , SqlParameterSource [ ] batchArgs );2;1;20
+NamedParameterJdbcTemplate.getJdbcOperations( );1;0;3
+NamedParameterJdbcTemplate.query( String sql , RowMapper < T > rowMapper );1;0;3
+NamedParameterJdbcTemplate.queryForObject( String sql , SqlParameterSource paramSource , RowMapper < T > rowMapper );1;0;4

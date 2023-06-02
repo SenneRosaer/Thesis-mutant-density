@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EndpointConnectionManager.getWebSocketContainer( );1;0;3
+EndpointConnectionManager.setSupportedProtocols( String ... protocols );1;0;3
+EndpointConnectionManager.closeConnection( );3;2;11
+EndpointConnectionManager.isConnected( );2;2;4
+EndpointConnectionManager.getTaskExecutor( );1;0;3
+EndpointConnectionManager.setTaskExecutor( TaskExecutor taskExecutor );1;0;4
+EndpointConnectionManager.setWebSocketContainer( WebSocketContainer webSocketContainer );1;0;3
+EndpointConnectionManager.setDecoders( List < Class < ? extends Decoder > > decoders );1;0;3
+EndpointConnectionManager.EndpointConnectionManager( Class < ? extends Endpoint > endpointClass , String uriTemplate , Object ... uriVars );1;0;6
+EndpointConnectionManager.setEncoders( List < Class < ? extends Encoder > > encoders );1;0;3
+EndpointConnectionManager.openConnection( );4;2;20
+EndpointConnectionManager.EndpointConnectionManager( Endpoint endpoint , String uriTemplate , Object ... uriVariables );1;0;6
+EndpointConnectionManager.setExtensions( Extension ... extensions );1;0;3
+EndpointConnectionManager.setConfigurator( Configurator configurator );1;0;3
+EndpointConnectionManager.setBeanFactory( BeanFactory beanFactory );2;1;5

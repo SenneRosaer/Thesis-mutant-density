@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionTemplate.equals( @ Nullable Object other );4;6;4
+TransactionTemplate.TransactionTemplate( );1;0;2
+TransactionTemplate.TransactionTemplate( PlatformTransactionManager transactionManager );1;0;3
+TransactionTemplate.execute( TransactionCallback < T > action );4;1;23
+TransactionTemplate.setTransactionManager( @ Nullable PlatformTransactionManager transactionManager );1;0;3
+TransactionTemplate.afterPropertiesSet( );2;1;5
+TransactionTemplate.getTransactionManager( );1;0;3
+TransactionTemplate.rollbackOnException( TransactionStatus status , Throwable ex );3;1;16
+TransactionTemplate.TransactionTemplate( PlatformTransactionManager transactionManager , TransactionDefinition transactionDefinition );1;0;4

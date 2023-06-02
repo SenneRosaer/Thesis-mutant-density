@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QDoxSource.saxStartElement( ContentHandler handler , String localName );1;2;3
+QDoxSource.outputSuperClassInheritance( ContentHandler handler , JavaClass jClass , int mode );3;2;6
+QDoxSource.hasInheritance( JavaClass jClass , int mode );17;23;39
+QDoxSource.resolveClassNameFromLink( String ref );2;1;10
+QDoxSource.outputMethodStartElement( ContentHandler handler , JavaMethod javaMethod );2;1;13
+QDoxSource.getURI( );1;0;3
+QDoxSource.outputModifiers( ContentHandler handler , AbstractJavaEntity entity );3;3;11
+QDoxSource.outputMethods( ContentHandler handler , JavaClass jClass , int mode );35;52;106
+QDoxSource.saxStartElement( ContentHandler handler , String localName , String [ ] [ ] attrs );4;6;11
+QDoxSource.getSignature( JavaMethod javaMethod );4;5;17
+QDoxSource.saxEndElement( ContentHandler handler , String localName );1;2;3
+QDoxSource.QDoxSource( String location , Source javaSource , ServiceManager manager );4;1;18
+QDoxSource.getContentLength( );1;1;3
+QDoxSource.getLastModified( );1;0;3
+QDoxSource.outputComment( ContentHandler handler , String comment );5;4;21
+QDoxSource.getValidity( );1;0;3
+QDoxSource.recycle( );2;0;12
+QDoxSource.outputImplements( ContentHandler handler , JavaClass jClass , boolean detailed );6;7;22
+QDoxSource.outputClassEndElement( ContentHandler handler , JavaClass jClass );2;0;3
+QDoxSource.getMimeType( );1;0;3
+QDoxSource.getJavadocSuperClass( JavaClass jClass );11;11;33
+QDoxSource.outputMethodEndElement( ContentHandler handler , JavaMethod javaMethod );2;1;7
+QDoxSource.exists( );1;0;3
+QDoxSource.saxCharacters( ContentHandler handler , String text );3;3;5
+QDoxSource.getQualifiedClassName( String classPart );21;22;60
+QDoxSource.outputClassInheritance( ContentHandler handler , JavaClass jClass , int mode );15;14;39
+QDoxSource.getJavadocClass( );1;0;3
+QDoxSource.outputInheritStartElement( ContentHandler handler , JavaClass jClass );2;0;7
+QDoxSource.outputClassStartElement( ContentHandler handler , JavaClass jClass );2;0;6
+QDoxSource.outputInnerClasses( ContentHandler handler , JavaClass jClass , boolean detailed );7;4;21
+QDoxSource.outputLink( ContentHandler handler , String ref , String display );5;3;18
+QDoxSource.outputTags( ContentHandler handler , AbstractJavaEntity entity );9;10;24
+QDoxSource.getInputStream( );5;1;26
+QDoxSource.getJavaClass( String className );10;5;33
+QDoxSource.toSAX( ContentHandler handler );8;6;58
+QDoxSource.createJavadocXml( );3;2;15
+QDoxSource.outputFields( ContentHandler handler , JavaClass jClass , boolean detailed );7;4;24

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractDestinationResolvingMessagingTemplate.resolveDestination( String destinationName );1;1;4
+AbstractDestinationResolvingMessagingTemplate.send( String destinationName , Message < ? > message );1;0;4
+AbstractDestinationResolvingMessagingTemplate.convertAndSend( String destinationName , T payload , @ Nullable Map < String , Object > headers );1;0;3
+AbstractDestinationResolvingMessagingTemplate.getDestinationResolver( );1;0;3
+AbstractDestinationResolvingMessagingTemplate.convertAndSend( String destinationName , T payload , @ Nullable MessagePostProcessor postProcessor );1;0;3
+AbstractDestinationResolvingMessagingTemplate.convertAndSend( String destinationName , T payload , @ Nullable Map < String , Object > headers , @ Nullable MessagePostProcessor postProcessor );1;0;4
+AbstractDestinationResolvingMessagingTemplate.setDestinationResolver( @ Nullable DestinationResolver < D > destinationResolver );1;0;3
+AbstractDestinationResolvingMessagingTemplate.sendAndReceive( String destinationName , Message < ? > requestMessage );1;0;4
+AbstractDestinationResolvingMessagingTemplate.convertAndSend( String destinationName , T payload );1;0;3
+AbstractDestinationResolvingMessagingTemplate.receiveAndConvert( String destinationName , Class < T > targetClass );1;0;4
+AbstractDestinationResolvingMessagingTemplate.convertSendAndReceive( String destinationName , Object request , Class < T > targetClass );1;0;4
+AbstractDestinationResolvingMessagingTemplate.convertSendAndReceive( String destinationName , Object request , Class < T > targetClass , @ Nullable MessagePostProcessor postProcessor );1;0;4
+AbstractDestinationResolvingMessagingTemplate.convertSendAndReceive( String destinationName , Object request , @ Nullable Map < String , Object > headers , Class < T > targetClass );1;0;4
+AbstractDestinationResolvingMessagingTemplate.convertSendAndReceive( String destinationName , Object request , @ Nullable Map < String , Object > headers , Class < T > targetClass , @ Nullable MessagePostProcessor postProcessor );1;0;4
+AbstractDestinationResolvingMessagingTemplate.receive( String destinationName );1;0;4

@@ -1,0 +1,47 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AttrImpl.item( int index );7;8;19
+AttrImpl.isEqualNode( Node arg );1;0;3
+AttrImpl.getFirstChild( );2;0;7
+AttrImpl.normalize( );9;9;25
+AttrImpl.rename( String name );2;0;6
+AttrImpl.getChildNodes( );2;0;6
+AttrImpl.getSchemaTypeInfo( );1;0;3
+AttrImpl.AttrImpl( );1;0;1
+AttrImpl.getLength( );3;2;11
+AttrImpl.getName( );2;0;6
+AttrImpl.replaceChild( Node newChild , Node oldChild );2;1;11
+AttrImpl.toString( );1;1;3
+AttrImpl.setNodeValue( String value );1;0;3
+AttrImpl.getSpecified( );2;0;6
+AttrImpl.lastChild( ChildNode node );2;1;5
+AttrImpl.lastChild( );2;1;4
+AttrImpl.getNodeType( );1;0;3
+AttrImpl.internalRemoveChild( Node oldChild , boolean replace );8;6;43
+AttrImpl.checkNormalizationAfterRemove( ChildNode previousSibling );5;6;9
+AttrImpl.getTypeName( );1;0;3
+AttrImpl.readObject( ObjectInputStream ois );1;0;4
+AttrImpl.isDerivedFrom( String typeNamespaceArg , String typeNameArg , int derivationMethod );1;0;3
+AttrImpl.checkNormalizationAfterInsert( ChildNode insertedChild );7;9;15
+AttrImpl.makeChildNode( );3;1;14
+AttrImpl.getElement( );2;0;3
+AttrImpl.getOwnerElement( );2;0;3
+AttrImpl.internalInsertBefore( Node newChild , Node refChild , boolean replace );21;17;100
+AttrImpl.hasChildNodes( );2;1;6
+AttrImpl.cloneNode( boolean deep );4;2;15
+AttrImpl.setReadOnly( boolean readOnly , boolean deep );6;2;18
+AttrImpl.getTypeNamespace( );2;1;6
+AttrImpl.isId( );1;0;3
+AttrImpl.getValue( );12;9;37
+AttrImpl.setOwnerDocument( CoreDocumentImpl doc );4;2;12
+AttrImpl.getNodeValue( );1;0;3
+AttrImpl.getNodeName( );2;0;6
+AttrImpl.setValue( String newvalue );16;8;73
+AttrImpl.writeObject( ObjectOutputStream out );2;0;6
+AttrImpl.setIdAttribute( boolean id );2;0;6
+AttrImpl.setType( Object type );1;0;3
+AttrImpl.setSpecified( boolean arg );2;0;6
+AttrImpl.AttrImpl( CoreDocumentImpl ownerDocument , String name );1;0;6
+AttrImpl.getLastChild( );2;0;6
+AttrImpl.synchronizeChildren( );1;0;3
+AttrImpl.removeChild( Node oldChild );2;0;7
+AttrImpl.insertBefore( Node newChild , Node refChild );1;0;3

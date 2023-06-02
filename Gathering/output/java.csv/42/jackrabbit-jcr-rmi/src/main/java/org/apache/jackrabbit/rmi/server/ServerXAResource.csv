@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServerXAResource.getXAException( XAException e );1;0;3
+ServerXAResource.forget( Xid xid );2;0;7
+ServerXAResource.start( Xid xid , int flags );2;0;7
+ServerXAResource.end( Xid xid , int flags );2;0;7
+ServerXAResource.rollback( Xid xid );2;0;7
+ServerXAResource.ServerXAResource( XAResource resource );1;0;3
+ServerXAResource.prepare( Xid xid );2;0;7
+ServerXAResource.setTransactionTimeout( int seconds );2;0;7
+ServerXAResource.getTransactionTimeout( );2;0;7
+ServerXAResource.commit( Xid xid , boolean onePhase );2;0;7
+ServerXAResource.recover( int flag );3;2;11

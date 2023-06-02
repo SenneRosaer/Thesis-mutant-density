@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CookieAssertions.httpOnly( String name , boolean expected );1;0;8
+CookieAssertions.doesNotExist( String name );2;2;8
+CookieAssertions.CookieAssertions( ExchangeResult exchangeResult , WebTestClient . ResponseSpec responseSpec );1;0;4
+CookieAssertions.maxAge( String name , Matcher < ? super Long > matcher );1;0;8
+CookieAssertions.secure( String name , boolean expected );1;0;8
+CookieAssertions.value( String name , Consumer < String > consumer );1;0;5
+CookieAssertions.path( String name , Matcher < ? super String > matcher );1;0;8
+CookieAssertions.exists( String name );1;0;4
+CookieAssertions.domain( String name , String expected );1;0;8
+CookieAssertions.maxAge( String name , Duration expected );1;0;8
+CookieAssertions.valueEquals( String name , String value );1;0;7
+CookieAssertions.domain( String name , Matcher < ? super String > matcher );1;0;8
+CookieAssertions.getCookie( String name );2;1;8
+CookieAssertions.value( String name , Matcher < ? super String > matcher );1;0;8
+CookieAssertions.sameSite( String name , String expected );1;0;8
+CookieAssertions.getMessage( String cookie );1;0;3
+CookieAssertions.path( String name , String expected );1;0;8

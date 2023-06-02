@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultSkipListReader.init( long skipPointer , long freqBasePointer , long proxBasePointer , int df , boolean storesPayloads );1;0;9
+DefaultSkipListReader.getPayloadLength( );1;0;3
+DefaultSkipListReader.setLastSkipData( int level );1;0;6
+DefaultSkipListReader.getFreqPointer( );1;0;3
+DefaultSkipListReader.getProxPointer( );1;0;3
+DefaultSkipListReader.seekChild( int level );1;0;6
+DefaultSkipListReader.readSkipData( int level , IndexInput skipStream );3;5;15
+DefaultSkipListReader.DefaultSkipListReader( IndexInput skipStream , int maxSkipLevels , int skipInterval );1;0;6

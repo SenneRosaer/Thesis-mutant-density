@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MimeMailMarshaler.prepareExchange( MessageExchange exchange , NormalizedMessage normalizedMessage , MimeMessage mimeMessage );15;7;68
+MimeMailMarshaler.getTo( MessageExchange exchange , NormalizedMessage normalizedMessage );1;0;3
+MimeMailMarshaler.prepareMessage( MimeMessage mimeMessage , MessageExchange exchange , NormalizedMessage normalizedMessage );17;14;73
+MimeMailMarshaler.getCc( MessageExchange exchange , NormalizedMessage normalizedMessage );1;0;3
+MimeMailMarshaler.getFrom( MessageExchange exchange , NormalizedMessage normalizedMessage );1;0;3
+MimeMailMarshaler.getAttachments( MessageExchange exchange , NormalizedMessage normalizedMessage );6;1;28
+MimeMailMarshaler.getReplyTo( MessageExchange exchange , NormalizedMessage normalizedMessage );1;0;3
+MimeMailMarshaler.getBcc( MessageExchange exchange , NormalizedMessage normalizedMessage );1;0;3

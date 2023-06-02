@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DSCParser.getInputStream( );1;0;3
+DSCParser.parseDSCComment( String name , String value );3;1;13
+DSCParser.parseNext( );11;8;26
+DSCParser.setFilter( DSCFilter filter );1;0;3
+DSCParser.parse( DSCHandler handler );8;0;30
+DSCParser.nextPSComment( String prefix , PSGenerator gen );5;1;15
+DSCParser.warn( String msg );1;0;3
+DSCParser.parseDSCLine( String line );8;7;34
+DSCParser.hasNext( );1;1;3
+DSCParser.isWhitespace( char c );2;3;3
+DSCParser.readLine( );1;0;6
+DSCParser.getLine( );2;1;7
+DSCParser.nextEvent( );1;0;4
+DSCParser.setNestedDocumentHandler( NestedDocumentHandler handler );1;0;3
+DSCParser.nextDSCComment( String name , PSGenerator gen );5;1;15
+DSCParser.isCheckEOF( );1;0;3
+DSCParser.checkLine( String line );4;3;9
+DSCParser.peek( );1;0;3
+DSCParser.getCurrentEvent( );1;0;3
+DSCParser.nextDSCComment( String name );1;0;3
+DSCParser.setCheckEOF( boolean value );1;0;3
+DSCParser.DSCParser( InputStream in );3;0;15
+DSCParser.next( );3;1;12

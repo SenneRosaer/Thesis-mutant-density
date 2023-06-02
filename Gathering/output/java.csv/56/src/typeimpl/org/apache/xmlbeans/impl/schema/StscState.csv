@@ -1,0 +1,113 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StscState.typesByClassname( );1;0;1
+StscState.allowPartial( );1;0;3
+StscState.sourceNameForUri( String uri );1;0;3
+StscState.globalAttributes( );1;0;1
+StscState.addIdConstraint( SchemaIdentityConstraintImpl idc );5;5;21
+StscState.findIdConstraint( QName name , String chameleonNamespace , String sourceNamespace );2;1;6
+StscState.registerContribution( String ns , String fileUrl );1;0;3
+StscState.relativize( String uri );1;0;3
+StscState.findGlobalAttribute( QName name , String chameleonNamespace , String sourceNamespace );4;5;13
+StscState.warning( String code , Object [ ] args , XmlObject loc );4;5;7
+StscState.info( String code , Object [ ] args );1;0;1
+StscState.noPvr( );1;0;3
+StscState.getJavaname( QName qname , int kind );2;1;5
+StscState.documentTypes( );1;0;1
+StscState.initFromTypeSystem( SchemaTypeSystemImpl system , Set newNamespaces );3;3;10
+StscState.addAttributeType( SchemaTypeImpl type , QName name );5;4;23
+StscState.linkerDefinesNamespace( String namespace );1;0;3
+StscState.setBaseUri( URI uri );1;0;3
+StscStack.pop( );1;2;4
+StscState.addGlobalAttribute( SchemaGlobalAttributeImpl attribute );3;4;11
+StscState.addAnnotation( SchemaAnnotationImpl ann , String targetNamespace );3;4;9
+StscState.setDependencies( SchemaDependencies deps );1;0;3
+StscState.setSchemasDir( File _schemasDir );1;0;3
+StscState.recover( String code , Object [ ] args , XmlObject loc );1;1;1
+StscState.setGivenTypeSystemName( String name );1;0;1
+StscState.getRecovered( );1;0;3
+StscState.findGlobalType( QName name , String chameleonNamespace , String sourceNamespace );4;5;13
+StscState.getDependencies( );1;0;3
+StscState.addSpelling( QName name , SchemaComponent comp );1;0;3
+StscState.globalElements( );1;0;1
+StscState.end( );2;1;6
+StscState.getNamespaces( );1;0;3
+StscState.getCurrentProcessing( );1;0;3
+StscState.getPackageOverride( String namespace );2;1;5
+StscState.idConstraints( );1;0;1
+StscState.addError( Collection errorListener , String message , int code , XmlObject location );1;0;8
+StscState.start( );2;1;9
+StscState.getS4SLoader( );1;0;3
+StscState.attributeGroups( );1;0;1
+StscState.getJavaPrefix( String namespace );2;1;5
+StscState.addNamespace( String targetNamespace );1;0;3
+StscState.setBindingConfig( BindingConfig config );1;0;3
+StscState.relativize( String uri , boolean forSavedFilename );13;23;40
+StscState.isFileProcessed( String url );1;0;3
+StscState.findDocumentType( QName name , String chameleonNamespace , String sourceNamespace );4;5;13
+StscState.addNewContainer( String namespace );2;0;8
+StscState.crunchName( QName name );1;0;3
+StscState.addError( Collection errorListener , String code , Object [ ] args , XmlObject location );1;0;9
+StscState.addGlobalType( SchemaTypeImpl type , SchemaTypeImpl redefined );10;7;53
+StscState.computeSavedFilename( String uri );1;0;3
+StscState.notFoundError( QName itemName , int code , XmlObject loc , boolean recovered );20;9;90
+StscState.noAnn( );1;0;3
+StscState.findAttributeType( QName name , String chameleonNamespace , String sourceNamespace );4;5;13
+StscState.getSchemasDir( );1;0;3
+StscState.noUpa( );1;0;3
+StscState.findRedefinedModelGroup( QName name , String chameleonNamespace , SchemaModelGroupImpl redefinedBy );3;1;12
+StscStack.push( );1;0;5
+StscState.buildString( String str );3;1;15
+StscState.info( String message );1;0;1
+StscState.addAttributeGroup( SchemaAttributeGroupImpl attributeGroup , SchemaAttributeGroupImpl redefined );10;7;53
+StscState.findModelGroup( QName name , String chameleonNamespace , String sourceNamespace );4;5;13
+StscState.setTargetSchemaTypeSystem( SchemaTypeSystemImpl target );1;0;1
+StscState.buildDefaultMdefNamespaces( );1;0;6
+StscState.StscState( );1;0;2
+StscState.findRedefinedAttributeGroup( QName name , String chameleonNamespace , SchemaAttributeGroupImpl redefinedBy );3;1;12
+StscState.compatName( QName name , String chameleonNamespace );6;7;10
+StscState.addContainer( SchemaContainer container );15;25;81
+StscState.get( );1;0;3
+StscState.addInfo( Collection errorListener , String code , Object [ ] args );1;0;4
+StscState.addError( Collection errorListener , String code , Object [ ] args , URL location );1;0;9
+StscState.addGlobalElement( SchemaGlobalElementImpl element );3;4;11
+StscState.startProcessing( Object obj );1;1;4
+StscState.annotations( );1;0;1
+StscState.build_wsstring( int wsr );4;0;12
+StscState.finishProcessing( Object obj );1;0;4
+StscState.getErrorListener( );1;0;3
+StscState.findAttributeGroup( QName name , String chameleonNamespace , String sourceNamespace );4;5;13
+StscState.error( String code , Object [ ] args , XmlObject loc );1;0;1
+StscState.redefinedAttributeGroups( );1;0;1
+StscState.modelGroups( );1;0;1
+StscState.addWarning( Collection errorListener , String code , Object [ ] args , XmlObject location );1;0;9
+StscState.setImportingTypeLoader( SchemaTypeLoader loader );1;0;3
+StscState.findSpelling( QName name );1;0;3
+StscState.addInfo( Collection errorListener , String message );1;0;4
+StscState.sts( );4;4;9
+StscState.redefinedModelGroups( );1;0;1
+StscState.ignoreMdef( QName name );1;0;3
+StscState.addSchemaDigest( byte [ ] digest );6;7;17
+StscState.error( String message , int code , XmlObject loc );1;0;1
+StscState.addWarning( Collection errorListener , String message , int code , XmlObject location );1;0;8
+StscState.addClassname( String classname , SchemaType type );1;0;1
+StscState.globalTypes( );1;0;1
+StscState.registerDependency( String sourceNs , String targetNs );1;0;3
+StscState.attributeTypes( );1;0;1
+StscState.sourceCopyMap( );1;0;3
+StscState.addError( Collection errorListener , String code , Object [ ] args , File location );1;0;9
+StscState.findGlobalElement( QName name , String chameleonNamespace , String sourceNamespace );4;5;13
+StscState.findRedefinedGlobalType( QName name , String chameleonNamespace , SchemaTypeImpl redefinedBy );3;1;12
+StscState.setErrorListener( Collection errorListener );1;0;1
+StscState.addModelGroup( SchemaModelGroupImpl modelGroup , SchemaModelGroupImpl redefined );10;7;53
+StscState.addDocumentType( SchemaTypeImpl type , QName name );5;4;23
+StscState.getJavaSuffix( String namespace );2;1;5
+StscState.isProcessing( Object obj );1;0;3
+StscState.shouldDownloadURI( String uriString );7;3;22
+StscState.getContainer( String namespace );1;0;3
+StscState.getBindingConfig( );1;0;3
+StscState.getContainerMap( );1;0;3
+StscState.getEntityResolver( );1;0;3
+StscState.redefinedGlobalTypes( );1;0;1
+StscState.warning( String message , int code , XmlObject loc );1;0;3
+StscState.setOptions( XmlOptions options );11;6;37
+StscState.addSourceUri( String uri , String nameToUse );3;2;7

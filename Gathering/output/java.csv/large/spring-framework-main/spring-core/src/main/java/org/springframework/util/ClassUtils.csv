@@ -1,0 +1,71 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClassUtils.forName( String name , @ Nullable ClassLoader classLoader );15;11;45
+ClassUtils.getShortName( Class < ? > clazz );1;0;3
+ClassUtils.getUserClass( Object instance );1;0;4
+ClassUtils.getAllInterfacesForClass( Class < ? > clazz , @ Nullable ClassLoader classLoader );1;0;3
+ClassUtils.getConstructorIfAvailable( Class < T > clazz , Class < ? > ... paramTypes );2;0;9
+ClassUtils.findInterfaceMethodIfPossible( Method method , Class < ? > startClass , Class < ? > endClass );8;3;15
+ClassUtils.registerCommonClasses( Class < ? > ... commonClasses );3;0;5
+ClassUtils.getQualifiedMethodName( Method method );1;0;3
+ClassUtils.getMostSpecificMethod( Method method , @ Nullable Class < ? > targetClass );8;5;22
+ClassUtils.getClassFileName( Class < ? > clazz );1;2;6
+ClassUtils.isInnerClass( Class < ? > clazz );2;2;3
+ClassUtils.getAllInterfaces( Object instance );1;0;4
+ClassUtils.getShortName( String className );2;3;11
+ClassUtils.classNamesToString( @ Nullable Collection < Class < ? > > classes );4;0;10
+ClassUtils.isAssignableValue( Class < ? > type , @ Nullable Object value );2;2;4
+ClassUtils.isPrimitiveArray( Class < ? > clazz );2;1;4
+ClassUtils.getMethodCountForName( Class < ? > clazz , String methodName );7;4;19
+ClassUtils.hasMethod( Class < ? > clazz , Method method );3;2;10
+ClassUtils.getAllInterfacesAsSet( Object instance );1;0;4
+ClassUtils.addResourcePathToPackagePath( Class < ? > clazz , String resourceName );2;4;7
+ClassUtils.getMethod( Class < ? > clazz , String methodName , @ Nullable Class < ? > ... paramTypes );5;2;24
+ClassUtils.isOverridable( Method method , @ Nullable Class < ? > targetClass );5;3;10
+ClassUtils.isAssignable( Class < ? > lhsType , Class < ? > rhsType );6;3;15
+ClassUtils.isPrimitiveWrapperArray( Class < ? > clazz );2;1;4
+ClassUtils.isCglibProxyClass( @ Nullable Class < ? > clazz );2;2;3
+ClassUtils.matchesTypeName( Class < ? > clazz , @ Nullable String typeName );3;3;4
+ClassUtils.hasAtLeastOneMethodWithName( Class < ? > clazz , String methodName );8;2;17
+ClassUtils.isCglibProxy( Object object );1;0;3
+ClassUtils.resolvePrimitiveIfNecessary( Class < ? > clazz );3;2;4
+ClassUtils.findMethodCandidatesByName( Class < ? > clazz , String methodName );3;0;10
+ClassUtils.getPackageName( Class < ? > clazz );1;0;4
+ClassUtils.convertClassNameToResourcePath( String className );1;0;4
+ClassUtils.getQualifiedMethodName( Method method , @ Nullable Class < ? > clazz );2;3;4
+ClassUtils.resolveClassName( String className , @ Nullable ClassLoader classLoader );4;0;15
+ClassUtils.getQualifiedName( Class < ? > clazz );1;0;4
+ClassUtils.isPrimitiveWrapper( Class < ? > clazz );1;0;4
+ClassUtils.hasMethod( Class < ? > clazz , String methodName , Class < ? > ... paramTypes );1;1;3
+ClassUtils.isStaticClass( Class < ? > clazz );1;0;3
+ClassUtils.classPackageAsResourcePath( @ Nullable Class < ? > clazz );3;3;12
+ClassUtils.getInterfaceMethodIfPossible( Method method );1;0;3
+ClassUtils.isVisible( Class < ? > clazz , @ Nullable ClassLoader classLoader );4;2;13
+ClassUtils.convertResourcePathToClassName( String resourcePath );1;0;4
+ClassUtils.overrideThreadContextClassLoader( @ Nullable ClassLoader classLoaderToUse );3;3;11
+ClassUtils.getDefaultClassLoader( );5;2;19
+ClassUtils.getAllInterfacesForClassAsSet( Class < ? > clazz );1;0;3
+ClassUtils.isUserLevelMethod( Method method );3;4;4
+ClassUtils.getMethodOrNull( Class < ? > clazz , String methodName , Class < ? > [ ] paramTypes );2;0;8
+ClassUtils.toClassArray( @ Nullable Collection < Class < ? > > collection );2;1;3
+ClassUtils.getMethodIfAvailable( Class < ? > clazz , String methodName , @ Nullable Class < ? > ... paramTypes );3;2;14
+ClassUtils.getDescriptiveType( @ Nullable Object value );6;1;17
+ClassUtils.isJavaLanguageInterface( Class < ? > ifc );1;0;3
+ClassUtils.hasConstructor( Class < ? > clazz , Class < ? > ... paramTypes );1;1;3
+ClassUtils.getAllInterfacesForClassAsSet( Class < ? > clazz , @ Nullable ClassLoader classLoader );10;2;18
+ClassUtils.getInterfaceMethodIfPossible( Method method , @ Nullable Class < ? > targetClass );5;5;11
+ClassUtils.isCacheSafe( Class < ? > clazz , @ Nullable ClassLoader classLoader );10;10;28
+ClassUtils.getPackageName( String fqClassName );2;2;5
+ClassUtils.isLambdaClass( Class < ? > clazz );4;5;4
+ClassUtils.getUserClass( Class < ? > clazz );5;3;9
+ClassUtils.getStaticMethod( Class < ? > clazz , String methodName , Class < ? > ... args );3;0;11
+ClassUtils.isCglibProxyClassName( @ Nullable String className );2;2;3
+ClassUtils.getShortNameAsProperty( Class < ? > clazz );2;3;6
+ClassUtils.resolvePrimitiveClassName( @ Nullable String name );4;3;7
+ClassUtils.classNamesToString( Class < ? > ... classes );1;0;3
+ClassUtils.isLoadable( Class < ? > clazz , ClassLoader classLoader );2;1;8
+ClassUtils.isPresent( String className , @ Nullable ClassLoader classLoader );3;0;13
+ClassUtils.isGroovyObjectMethod( Method method );1;0;3
+ClassUtils.createCompositeInterface( Class < ? > [ ] interfaces , @ Nullable ClassLoader classLoader );1;0;4
+ClassUtils.getAllInterfacesForClass( Class < ? > clazz );1;0;3
+ClassUtils.isPrimitiveOrWrapper( Class < ? > clazz );2;1;4
+ClassUtils.determineCommonAncestor( @ Nullable Class < ? > clazz1 , @ Nullable Class < ? > clazz2 );9;6;23

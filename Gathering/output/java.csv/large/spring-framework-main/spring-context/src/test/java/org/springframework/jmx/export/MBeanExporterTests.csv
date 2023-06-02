@@ -1,0 +1,57 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MBeanExporterTests.testNotRunningInBeanFactoryAndPassedBeanNameToExport( );1;0;8
+MBeanExporterTests.testRegisterNullNotificationListenerType( );1;0;7
+NullSomethingFactoryBean.isSingleton( );1;0;3
+NamedBeanAutodetectCapableMBeanInfoAssemblerStub.includeBean( Class < ? > beanClass , String beanName );1;0;3
+MBeanExporterTests.testSetAutodetectModeNameToAWhitespacedString( );1;0;5
+MBeanExporterTests.testSetAutodetectModeNameToAnEmptyString( );1;0;5
+MBeanExporterTests.load( String context );1;0;3
+MBeanExporterTests.testBonaFideMBeanAndRegularBeanExporterWithAutodetectAll( );1;0;21
+MBeanExporterTests.testAutodetectLazyMBeans( );1;0;14
+MBeanExporterTests.testNotRunningInBeanFactoryAndAutodetectionIsOn( );1;0;6
+MBeanExporterTests.testWithExposeClassLoader( );1;0;21
+MBeanExporterTests.testSelfNaming( );1;0;13
+MBeanExporterTests.testIgnoreBeanName( );1;0;18
+RuntimeExceptionThrowingConstructorBean.RuntimeExceptionThrowingConstructorBean( );1;0;3
+MBeanExporterTests.testSetAutodetectModeNameToARubbishValue( );1;0;5
+StubNotificationListener.handleNotification( Notification notification , Object handback );1;0;3
+MBeanExporterTests.testUserCreatedMBeanRegWithDynamicMBean( );1;0;18
+MBeanExporterTests.testWildcardCanBeUsedInNotificationListenersMap( );1;0;17
+NamedBeanAutodetectCapableMBeanInfoAssemblerStub.NamedBeanAutodetectCapableMBeanInfoAssemblerStub( String ... namedBeans );1;0;3
+SelfNamingTestBean.setObjectName( ObjectName objectName );1;0;3
+MBeanExporterTests.assertListener( MockMBeanExporterListener listener );1;0;7
+MBeanExporterTests.testWithSuppliedMBeanServer( );1;0;13
+MockMBeanExporterListener.mbeanRegistered( ObjectName objectName );1;0;3
+NullSomethingFactoryBean.getObjectType( );1;0;3
+InvokeDetectAssembler.getMBeanInfo( Object managedResource , String beanKey );1;0;4
+MBeanExporterTests.testAutodetectWithExclude( );1;0;10
+MBeanExporterTests.testSetAutodetectModeToOutOfRangeNegativeValue( );1;1;5
+NullSomethingFactoryBean.getObject( );1;0;3
+MBeanExporterTests.testBonaFideMBeanExplicitlyExportedAndAutodetectionIsOn( );1;0;16
+MockMBeanExporterListener.getUnregistered( );1;0;3
+MBeanExporterTests.testMBeanIsNotUnregisteredSpuriouslyIfSomeExternalProcessHasUnregisteredMBean( );1;0;13
+MBeanExporterTests.testAutodetectNoMBeans( );1;0;5
+MBeanExporterTests.testRegisterReplaceExisting( );1;0;18
+MBeanExporterTests.testRegisterNotificationListenerForNonExistentMBean( );1;0;14
+Person.getName( );1;0;3
+ProperSomethingFactoryBean.isSingleton( );1;0;3
+Person.setName( String name );1;0;3
+MBeanExporterTests.testOnlyBonaFideMBeanIsExportedWhenAutodetectIsMBeanOnly( );1;0;17
+MBeanExporterTests.testSetAutodetectModeToOutOfRangePositiveValue( );1;0;5
+MBeanExporterTests.testRegisterIgnoreExisting( );1;0;22
+SelfNamingTestBean.getObjectName( );1;0;3
+MockMBeanExporterListener.getRegistered( );1;0;3
+MBeanExporterTests.testBonaFideMBeanIsNotExportedWithAutodetectAssembler( );1;0;17
+StubNotificationListener.getNotifications( );1;0;3
+ProperSomethingFactoryBean.getObjectType( );1;0;3
+MBeanExporterTests.testIgnoreNullObjectFromFactoryBean( );1;0;11
+MockMBeanExporterListener.mbeanUnregistered( ObjectName objectName );1;0;3
+MBeanExporterTests.testBeanNameCanBeUsedInNotificationListenersMap( );1;0;17
+MBeanExporterTests.testBonaFideMBeanIsNotExportedWhenAutodetectIsTotallyTurnedOff( );1;0;15
+MBeanExporterTests.testWithMBeanExporterListeners( );1;0;12
+MBeanExporterTests.testMBeanIsUnregisteredForRuntimeExceptionDuringInitialization( );1;0;23
+ProperSomethingFactoryBean.getObject( );1;0;3
+MBeanExporterTests.getBeanMap( );1;0;5
+MBeanExporterTests.testRegisterFactoryBean( );1;0;11
+MBeanExporterTests.testExportJdkProxy( );1;0;19
+MBeanExporterTests.testAutodetectMBeans( );1;0;12

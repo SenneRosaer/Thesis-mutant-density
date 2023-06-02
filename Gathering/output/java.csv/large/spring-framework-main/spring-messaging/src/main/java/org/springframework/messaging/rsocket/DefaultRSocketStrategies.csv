@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultRSocketStrategiesBuilder.dataBufferFactory( @ Nullable DataBufferFactory bufferFactory );1;0;4
+DefaultRSocketStrategies.metadataExtractor( );1;0;3
+DefaultRSocketStrategiesBuilder.DefaultRSocketStrategiesBuilder( RSocketStrategies other );1;0;8
+DefaultRSocketStrategiesBuilder.reactiveAdapterStrategy( @ Nullable ReactiveAdapterRegistry registry );1;0;4
+DefaultRSocketStrategies.routeMatcher( );1;0;3
+DefaultRSocketStrategies.dataBufferFactory( );1;0;3
+DefaultRSocketStrategiesBuilder.decoders( Consumer < List < Decoder < ? > > > consumer );1;0;4
+DefaultRSocketStrategies.encoders( );1;0;3
+DefaultRSocketStrategiesBuilder.decoder( Decoder < ? > ... decoder );1;0;4
+DefaultRSocketStrategiesBuilder.build( );6;4;14
+DefaultRSocketStrategiesBuilder.encoder( Encoder < ? > ... encoders );1;0;4
+DefaultRSocketStrategiesBuilder.encoders( Consumer < List < Encoder < ? > > > consumer );1;0;4
+DefaultRSocketStrategies.DefaultRSocketStrategies( List < Encoder < ? > > encoders , List < Decoder < ? > > decoders , RouteMatcher routeMatcher , ReactiveAdapterRegistry adapterRegistry , DataBufferFactory bufferFactory , MetadataExtractor metadataExtractor );1;0;8
+DefaultRSocketStrategiesBuilder.metadataExtractor( @ Nullable MetadataExtractor metadataExtractor );1;0;4
+DefaultRSocketStrategies.reactiveAdapterRegistry( );1;0;3
+DefaultRSocketStrategiesBuilder.routeMatcher( @ Nullable RouteMatcher routeMatcher );1;0;4
+DefaultRSocketStrategiesBuilder.metadataExtractorRegistry( Consumer < MetadataExtractorRegistry > consumer );1;0;4
+DefaultRSocketStrategiesBuilder.initRouteMatcher( );1;0;5
+DefaultRSocketStrategies.decoders( );1;0;3
+DefaultRSocketStrategiesBuilder.DefaultRSocketStrategiesBuilder( );1;0;10

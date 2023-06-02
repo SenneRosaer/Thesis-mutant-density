@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClientTestCaseCaller.getCurrentTestName( );1;0;3
+ClientTestCaseCaller.callGlobalEndMethod( Request theRequest , ResponseObjectFactory theResponseFactory , Object theResponse );1;0;4
+ClientTestCaseCaller.callEndMethod( Request theRequest , ResponseObjectFactory theResponseFactory );1;0;4
+ClientTestCaseCaller.getLogger( );1;0;3
+ClientTestCaseCaller.getWrappedTest( );1;0;3
+ClientTestCaseCaller.callGlobalBeginMethod( Request theRequest );1;0;3
+ClientTestCaseCaller.getBaseMethodName( );2;1;11
+ClientTestCaseCaller.callBeginMethod( Request theRequest );1;0;3
+ClientTestCaseCaller.getBeginMethodName( );1;1;3
+ClientTestCaseCaller.getEndMethodName( );1;1;3
+ClientTestCaseCaller.runTest( );1;0;13
+ClientTestCaseCaller.runBareInit( );1;0;4
+ClientTestCaseCaller.ClientTestCaseCaller( Test theDelegatedTest , Test theWrappedTest , ProtocolHandler theProtocolHandler );2;1;10
+ClientTestCaseCaller.callGenericEndMethod( Request theRequest , ResponseObjectFactory theResponseFactory , String theMethodName , Object theResponse );9;5;55
+ClientTestCaseCaller.getDelegatedTest( );1;0;3
+ClientTestCaseCaller.getTest( );2;1;12
+ClientTestCaseCaller.callGenericBeginMethod( Request theRequest , String theMethodName );5;2;25
+ClientTestCaseCaller.setWrappedTest( Test theWrappedTest );1;0;3
+ClientTestCaseCaller.setDelegatedTest( Test theDelegatedTest );1;0;3

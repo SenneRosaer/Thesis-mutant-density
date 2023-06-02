@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WizardPanel.getForm( );1;0;3
+WizardPanel.resetBooleans( );1;0;2
+WizardPanel.checkTraverseBack( IWizardStep startState , IWizardStep searchState );3;3;9
+WizardPanel.getStateName( );1;0;3
+WizardPanel.getOutgoingTransition( );3;2;10
+WizardPanel.newForm( String id , IModel model );1;0;3
+WizardPanel.getIncomingTransition( );1;0;3
+WizardPanel.WizardPanel( String id , IModel model , String title , boolean hideBack , boolean hideNext );3;0;24
+WizardPanel.newCancelButton( String id );1;1;10
+WizardPanel.isStateInPath( );2;2;6
+WizardPanel.getWizard( );1;0;3
+WizardPanel.newNextButton( String id );3;1;18
+WizardPanel.addOutgoingTransition( IWizardTransition value );1;0;4
+WizardPanel.isCheckpoint( );1;0;3
+WizardPanel.getOutgoingTransitions( );1;0;4
+WizardPanel.newBackButton( String id );1;1;10
+WizardPanel.setOwner( IWizard owner );1;0;3
+WizardPanel.hideButtons( );4;3;14
+WizardPanel.getWizardPage( );1;0;3
+WizardPanel.onSubmit( );1;1;3
+WizardPanel.setIncomingTransition( IWizardTransition value );1;0;3
+WizardPanel.WizardPanel( String id , IModel model , String title );1;0;3

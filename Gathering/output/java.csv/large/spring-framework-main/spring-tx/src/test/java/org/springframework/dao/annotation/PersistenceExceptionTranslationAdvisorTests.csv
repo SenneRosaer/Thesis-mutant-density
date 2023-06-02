@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PersistenceExceptionTranslationAdvisorTests.createProxy( RepositoryInterfaceImpl target );1;0;8
+PersistenceExceptionTranslationAdvisorTests.translationNeededForTheseExceptions( );1;0;3
+PersistenceExceptionTranslationAdvisorTests.addPersistenceExceptionTranslation( ProxyFactory pf , PersistenceExceptionTranslator pet );1;0;3
+RepositoryInterfaceImpl.noThrowsClause( );2;1;5
+PersistenceExceptionTranslationAdvisorTests.translationNeededForTheseExceptionsOnInheritedInterface( );1;0;3
+PersistenceExceptionTranslationAdvisorTests.translationNeededForTheseExceptionsWithCustomStereotype( );1;0;3
+PersistenceExceptionTranslationAdvisorTests.translationNeededForTheseExceptionsOnSuperclass( );1;0;3
+PersistenceExceptionTranslationAdvisorTests.translationNeededForTheseExceptionsOnInterface( );1;0;3
+PersistenceExceptionTranslationAdvisorTests.translationNotNeededForTheseExceptions( );1;0;13
+PersistenceExceptionTranslationAdvisorTests.noTranslationNeeded( );1;0;13
+PersistenceExceptionTranslationAdvisorTests.doTestTranslationNeededForTheseExceptions( RepositoryInterfaceImpl target );1;0;10
+RepositoryInterfaceImpl.throwsPersistenceException( );2;1;5
+RepositoryInterfaceImpl.setBehavior( RuntimeException rex );1;0;3

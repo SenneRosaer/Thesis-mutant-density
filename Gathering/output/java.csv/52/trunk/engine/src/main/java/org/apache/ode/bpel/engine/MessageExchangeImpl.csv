@@ -1,0 +1,41 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageExchangeImpl.getOperationName( );1;0;3
+MessageExchangeImpl.getPortType( );1;0;3
+MessageExchangeImpl.assertTransaction( );2;1;4
+MessageExchangeImpl.getTimeout( );1;0;3
+MessageExchangeImpl.setProperty( String key , String value );1;0;5
+MessageExchangeImpl.equals( Object other );1;0;3
+MessageExchangeImpl.ack( AckType ackType );1;0;4
+***not in a method***;0;1;0
+MessageExchangeImpl.call( MessageExchangeDAO dao );2;2;5
+MessageExchangeImpl.getFault( );1;0;3
+MessageExchangeImpl.getOperation( );1;0;3
+MessageExchangeImpl.MessageExchangeImpl( ODEProcess process , Long iid , String mexId , PartnerLinkModel oplink , PortType ptype , Operation operation );1;0;9
+MessageExchangeImpl.toString( );1;0;3
+MessageExchangeImpl.getIID( );1;0;3
+MessageExchangeImpl.getMessageExchangePattern( );2;1;3
+MessageExchangeImpl.getRequest( );3;1;10
+MessageExchangeImpl.getDAO( );1;0;4
+MessageExchangeImpl.request( );1;0;3
+MessageExchangeImpl.isTransactional( );3;0;8
+MessageExchangeImpl.getFaultExplanation( );1;0;3
+MessageExchangeImpl.getAckType( );1;0;3
+MessageExchangeImpl.getFaultResponse( );2;1;3
+MessageExchangeImpl.getStatus( );1;0;3
+MessageExchangeImpl.getProperty( final String key );2;1;11
+MessageExchangeImpl.sync( );1;1;3
+MessageExchangeImpl.doInTX( final InDbAction < T > action );3;0;18
+MessageExchangeImpl.setTimeout( long timeout );1;0;3
+MessageExchangeImpl.setEndpointReference( EndpointReference ref );1;0;4
+MessageExchangeImpl.call( MessageExchangeDAO mexdao );1;1;4
+MessageExchangeImpl.getMessageExchangeId( );1;0;3
+MessageExchangeImpl.release( );1;0;5
+MessageExchangeImpl.getPropertyNames( );2;1;9
+MessageExchangeImpl.call( );1;0;4
+MessageExchangeImpl.createMessage( javax . xml . namespace . QName msgType );1;0;3
+MessageExchangeImpl.isSafe( );3;1;10
+MessageExchangeImpl.save( );1;0;8
+MessageExchangeImpl.getResponse( );3;1;10
+MessageExchangeImpl.save( MessageExchangeDAO dao );4;1;18
+MessageExchangeImpl.load( MessageExchangeDAO dao );2;1;8
+MessageExchangeImpl.getEndpointReference( );3;1;10

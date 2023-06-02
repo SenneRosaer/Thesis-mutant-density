@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SubclassByteBuddyMockMaker.resetMock( Object mock , MockHandler newHandler , MockCreationSettings settings );1;0;3
+SubclassByteBuddyMockMaker.createMock( MockCreationSettings < T > settings , MockHandler handler );4;0;29
+SubclassByteBuddyMockMaker.SubclassByteBuddyMockMaker( SubclassLoader loader );1;0;4
+SubclassByteBuddyMockMaker.describeClass( Class < ? > type );2;1;9
+SubclassByteBuddyMockMaker.clearAllCaches( );1;0;3
+SubclassByteBuddyMockMaker.getHandler( Object mock );2;1;6
+SubclassByteBuddyMockMaker.SubclassByteBuddyMockMaker( );1;0;3
+SubclassByteBuddyMockMaker.ensureMockIsAssignableToMockedType( MockCreationSettings < T > settings , T mock );1;0;4
+SubclassByteBuddyMockMaker.isTypeMockable( final Class < ? > type );7;0;26
+SubclassByteBuddyMockMaker.nonMockableReason( );5;0;15
+SubclassByteBuddyMockMaker.describeClass( Object instance );2;1;3
+SubclassByteBuddyMockMaker.createMockType( MockCreationSettings < T > settings );2;0;13
+SubclassByteBuddyMockMaker.mockable( );3;5;5
+SubclassByteBuddyMockMaker.prettifyFailure( MockCreationSettings < T > mockFeatures , Exception generationFailed );3;0;32

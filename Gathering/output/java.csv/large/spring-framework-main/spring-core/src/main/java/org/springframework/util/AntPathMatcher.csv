@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AntPathMatcher.skipSegment( String path , int pos , String prefix );5;6;17
+PatternInfo.initCounters( );9;21;27
+PatternInfo.getTotalCount( );1;3;3
+AntPathMatcher.extractUriTemplateVariables( String pattern , String path );2;1;8
+PathSeparatorPatternCache.PathSeparatorPatternCache( String pathSeparator );1;0;4
+AntPathMatcher.setTrimTokens( boolean trimTokens );1;0;3
+AntPathMatcher.isPattern( @ Nullable String path );8;9;20
+AntPathMatcher.setPathSeparator( @ Nullable String pathSeparator );2;1;4
+AntPathMatcher.matchStart( String pattern , String path );1;0;3
+AntPathMatcher.isPotentialMatch( String path , String [ ] pattDirs );6;8;15
+AntPathMatcher.getPatternComparator( String path );1;0;3
+AntPathMatcher.tokenizePath( String path );1;0;3
+AntPatternComparator.AntPatternComparator( String path );1;0;3
+AntPathMatcher.setCachePatterns( boolean cachePatterns );1;0;3
+AntPathMatcher.match( String pattern , String path );1;0;3
+AntPathMatcher.AntPathMatcher( );1;0;4
+AntPathMatcher.matchStrings( String pattern , String str , @ Nullable Map < String , String > uriTemplateVariables );1;0;3
+AntPathMatcher.doMatch( String pattern , @ Nullable String path , boolean fullMatch , @ Nullable Map < String , String > uriTemplateVariables );41;73;110
+AntPathStringMatcher.quote( String s , int start , int end );2;1;6
+AntPathMatcher.concat( String path1 , String path2 );5;6;13
+PatternInfo.PatternInfo( @ Nullable String pattern );5;5;11
+AntPathMatcher.extractPathWithinPattern( String pattern , String path );8;13;19
+AntPathMatcher.getStringMatcher( String pattern );8;8;18
+AntPathStringMatcher.AntPathStringMatcher( String pattern );1;0;3
+AntPathMatcher.deactivatePatternCache( );1;0;5
+AntPathMatcher.combine( String pattern1 , String pattern2 );20;27;36
+AntPathStringMatcher.AntPathStringMatcher( String pattern , boolean caseSensitive );9;7;43
+AntPathMatcher.setCaseSensitive( boolean caseSensitive );1;0;3
+AntPathMatcher.skipSeparator( String path , int pos , String separator );2;2;7
+PatternInfo.getLength( );3;2;7
+PatternInfo.isLeastSpecific( );2;2;3
+PatternInfo.getUriVars( );1;0;3
+AntPathStringMatcher.matchStrings( String str , @ Nullable Map < String , String > uriTemplateVariables );9;6;29
+PathSeparatorPatternCache.getEndsOnDoubleWildCard( );1;0;3
+PatternInfo.getDoubleWildcards( );1;0;3
+PathSeparatorPatternCache.getEndsOnWildCard( );1;0;3
+AntPatternComparator.compare( String pattern1 , String pattern2 );21;21;52
+AntPathMatcher.isWildcardChar( char c );3;1;8
+PatternInfo.isPrefixPattern( );1;0;3
+PatternInfo.getSingleWildcards( );1;0;3
+AntPathMatcher.tokenizePattern( String pattern );8;8;18
+AntPathMatcher.AntPathMatcher( String pathSeparator );1;0;5

@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompoundFileReader.deleteFile( String name );1;0;3
+CompoundFileReader.openInput( String id , int readBufferSize );3;2;8
+CSIndexInput.CSIndexInput( final IndexInput base , final long fileOffset , final long length , int readBufferSize );1;0;6
+CSIndexInput.clone( );1;0;7
+CSIndexInput.seekInternal( long pos );1;0;1
+CompoundFileReader.CompoundFileReader( Directory dir , String name , int readBufferSize );7;9;31
+CompoundFileReader.getName( );1;0;3
+CompoundFileReader.fileLength( String name );2;1;6
+CSIndexInput.length( );1;0;3
+CompoundFileReader.CompoundFileReader( Directory dir , String name );1;0;3
+CompoundFileReader.touchFile( String name );1;0;3
+CompoundFileReader.makeLock( String name );1;0;3
+CompoundFileReader.getDirectory( );1;0;3
+CSIndexInput.CSIndexInput( final IndexInput base , final long fileOffset , final long length );1;0;3
+CompoundFileReader.fileModified( String name );1;0;3
+CompoundFileReader.close( );2;1;7
+CompoundFileReader.createOutput( String name );1;0;3
+CompoundFileReader.fileExists( String name );1;0;3
+CompoundFileReader.openInput( String id );1;0;3
+CSIndexInput.close( );1;0;3
+CompoundFileReader.renameFile( String from , String to );1;0;3
+CompoundFileReader.list( );1;0;4
+CSIndexInput.readInternal( byte [ ] b , int offset , int len );2;3;7

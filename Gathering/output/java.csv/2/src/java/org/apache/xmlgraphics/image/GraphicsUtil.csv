@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GraphicsUtil.multiplyAlpha( WritableRaster wr );8;17;28
+GraphicsUtil.makeLinear_sRGBCM( boolean premult );2;0;3
+GraphicsUtil.copyData_INT_PACK( Raster src , WritableRaster dst );11;45;52
+GraphicsUtil.divide_BYTE_COMP_Data( WritableRaster wr );7;27;34
+GraphicsUtil.is_INT_PACK_Data( SampleModel sm , boolean requireAlpha );11;10;17
+GraphicsUtil.copyRaster( Raster ras );1;0;3
+GraphicsUtil.copyRaster( Raster ras , int minX , int minY );7;5;52
+GraphicsUtil.divide_INT_PACK_Data( WritableRaster wr );5;31;31
+GraphicsUtil.convertTosRGB( CachableRed src );2;1;7
+GraphicsUtil.makeLinearBufferedImage( int width , int height , boolean premult );1;0;5
+GraphicsUtil.copyBand( Raster src , int srcBand , WritableRaster dst , int dstBand );1;0;6
+GraphicsUtil.copyData_FALLBACK( Raster src , WritableRaster dst );6;20;18
+GraphicsUtil.makeRasterWritable( Raster ras , int minX , int minY );1;2;12
+GraphicsUtil.coerceData( WritableRaster wr , ColorModel cm , boolean newAlphaPreMult );4;2;12
+GraphicsUtil.copyData( Raster src , WritableRaster dst );3;1;8
+GraphicsUtil.copyBand( Raster src , Rectangle sR , int sBand , WritableRaster dst , Rectangle dR , int dBand );4;9;17
+GraphicsUtil.divideAlpha( WritableRaster wr );8;16;27
+GraphicsUtil.coerceColorModel( ColorModel cm , boolean newAlphaPreMult );2;1;6
+GraphicsUtil.getAlphaRaster( RenderedImage image );4;3;14
+GraphicsUtil.wrap( RenderedImage ri );3;0;7
+GraphicsUtil.convertToLsRGB( CachableRed src );2;1;7
+GraphicsUtil.copyData( BufferedImage src , BufferedImage dst );1;0;5
+GraphicsUtil.makeRasterWritable( Raster ras );1;0;3
+GraphicsUtil.mult_BYTE_COMP_Data( WritableRaster wr );5;22;29
+GraphicsUtil.copyData( BufferedImage src , Rectangle srcRect , BufferedImage dst , Point destP );40;152;156
+GraphicsUtil.is_BYTE_COMP_Data( SampleModel sm );3;2;5
+GraphicsUtil.mult_INT_PACK_Data( WritableRaster wr );5;30;27

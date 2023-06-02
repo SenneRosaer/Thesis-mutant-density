@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestRecorderServlet.doDisplayReport( HttpServletRequest request , HttpServletResponse response );7;5;39
+TestRecorderServlet.doDisplayRecord( HttpServletRequest request , HttpServletResponse response );4;2;25
+TestRecorderServlet.forward( HttpServletRequest request , HttpServletResponse response , String msg , String page , boolean error );1;0;3
+TestRecorderServlet.doResourceStream( HttpServletRequest request , HttpServletResponse response , final InputStream is , final String resource , final boolean outputHtml );9;5;30
+TestRecorderServlet.getTestFile( TestDefinition test );1;0;3
+TestRecorderServlet.doPlaybackStart( HttpServletRequest request , HttpServletResponse response );9;1;59
+TestRecorderServlet.getDiffFile( TestDefinition test );1;0;3
+TestRecorderServlet.doLink( HttpServletRequest request , HttpServletResponse response );7;3;43
+TestRecorderServlet.doClean( HttpServletRequest request , HttpServletResponse response );2;0;7
+TestRecorderServlet.doPlaybackStop( HttpServletRequest request , HttpServletResponse response );6;2;41
+TestRecorderServlet.doRecordStop( HttpServletRequest request , HttpServletResponse response );6;1;28
+TestRecorderServlet.doRecord( HttpServletRequest request , HttpServletResponse response );6;1;29
+TestRecorderServlet.doPlayback( HttpServletRequest request , HttpServletResponse response );4;1;17
+TestRecorderServlet.forward( HttpServletRequest request , HttpServletResponse response , String page );1;0;4
+TestRecorderServlet.getResultFile( TestDefinition test );1;0;3
+TestRecorderServlet.doFileReport( HttpServletRequest request , HttpServletResponse response , TestDefinition test , File file , String title );6;4;27
+TestRecorderServlet.doGet( HttpServletRequest request , HttpServletResponse response );10;1;40
+TestRecorderServlet.forward( HttpServletRequest request , HttpServletResponse response , String msg , String page , boolean error , Exception ex );4;2;10
+TestRecorderServlet.doRecordStart( String testName , HttpServletRequest request , HttpServletResponse response , boolean overwrite , String testUser , String description );9;3;49
+TestRecorderServlet.doPost( HttpServletRequest request , HttpServletResponse response );1;0;3
+TestRecorderServlet.doTestMode( HttpServletRequest request , HttpServletResponse response , boolean value );2;0;7
+TestRecorderServlet.doXml( HttpServletRequest request , HttpServletResponse response );8;1;36
+TestRecorderServlet.getTest( String name );3;1;8
+TestRecorderServlet.getTestName( HttpServletRequest request );1;0;3
+TestRecorderServlet.getRecordSession( TestDefinition test , boolean overwrite , String testUser , String description );2;0;7
+TestRecorderServlet.doDisplayPlayback( HttpServletRequest request , HttpServletResponse response );4;2;26
+TestRecorderServlet.doDetails( HttpServletRequest request , HttpServletResponse response );5;2;42
+TestRecorderServlet.getPlaybackSession( TestDefinition test );2;0;8
+TestRecorderServlet.doDiff( HttpServletRequest request , HttpServletResponse response );4;2;36
+TestRecorderServlet.doAdmin( HttpServletRequest request , HttpServletResponse response );9;1;34
+TestRecorderServlet.getPlaybackSessionFile( TestDefinition test );1;0;4
+TestRecorderServlet.getRecordSessionFile( TestDefinition test );1;0;3

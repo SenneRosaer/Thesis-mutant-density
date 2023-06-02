@@ -1,0 +1,44 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractRenderer.renderLineArea( LineArea line );2;3;10
+AbstractRenderer.renderRegion( RegionReference region );1;0;3
+AbstractRenderer.preparePage( PageViewport page );1;0;1
+AbstractRenderer.supportsOutOfOrder( );1;0;3
+AbstractRenderer.handleBlockTraits( Block block );1;0;2
+AbstractRenderer.renderBeforeFloat( BeforeFloat bf );3;2;10
+AbstractRenderer.renderInlineBlockParent( InlineBlockParent ibp );1;2;8
+AbstractRenderer.renderInlineParent( InlineParent ip );2;3;13
+AbstractRenderer.renderXML( RendererContext ctx , Document doc , String namespace );5;3;27
+AbstractRenderer.renderSpace( SpaceArea space );1;1;3
+AbstractRenderer.renderLeader( Leader area );1;1;3
+AbstractRenderer.handleRegionTraits( RegionViewport rv );1;0;2
+AbstractRenderer.getImageAdapter( );1;0;3
+AbstractRenderer.getMimeType( );1;0;3
+AbstractRenderer.startRenderer( OutputStream outputStream );2;1;5
+AbstractRenderer.renderViewport( Viewport viewport );5;2;17
+AbstractRenderer.renderText( TextArea text );2;1;9
+AbstractRenderer.renderBlocks( Block parent , List blocks );5;9;29
+AbstractRenderer.renderWord( WordArea word );1;1;3
+AbstractRenderer.renderBlock( Block block );6;8;29
+AbstractRenderer.renderFlow( NormalFlow flow );2;1;6
+AbstractRenderer.renderPageAreas( Page page );6;5;23
+AbstractRenderer.renderBlockViewport( BlockViewport bv , List children );3;2;26
+AbstractRenderer.renderForeignObject( ForeignObject fo , Rectangle2D pos );1;0;2
+AbstractRenderer.renderBodyRegion( BodyRegion region );4;3;14
+AbstractRenderer.startPageSequence( LineArea seqTitle );1;0;2
+AbstractRenderer.stopRenderer( );1;0;1
+AbstractRenderer.renderInlineSpace( Space space );1;1;5
+AbstractRenderer.renderMainReference( MainReference mr );4;8;23
+AbstractRenderer.renderImage( Image image , Rectangle2D pos );1;0;2
+AbstractRenderer.setUserAgent( FOUserAgent agent );1;0;3
+AbstractRenderer.getCurrentPageViewport( );1;0;3
+AbstractRenderer.convertTitleToString( LineArea title );1;0;5
+AbstractRenderer.getUserAgent( );2;1;6
+AbstractRenderer.renderPage( PageViewport page );1;0;9
+AbstractRenderer.convertToString( List children );4;2;15
+AbstractRenderer.renderContainer( Container cont );1;0;8
+AbstractRenderer.renderFootnote( Footnote footnote );3;3;11
+AbstractRenderer.processOffDocumentItem( OffDocumentItem odi );1;0;1
+AbstractRenderer.getGraphics2DAdapter( );1;0;3
+AbstractRenderer.startPageSequence( PageSequence pageSequence );1;0;3
+AbstractRenderer.renderRegionViewport( RegionViewport port );3;1;14
+AbstractRenderer.renderInlineArea( InlineArea inlineArea );9;0;19

@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Property.setUrl( URL url );1;0;3
+Property.getResource( );1;0;3
+Property.loadProperties( Properties props , InputStream is , boolean isXml );4;0;16
+Property.loadEnvironment( String prefix );4;6;19
+Property.setName( String name );1;0;3
+Property.setClasspathRef( Reference r );1;0;3
+Property.toString( );2;1;3
+Property.getRefid( );1;0;3
+Property.getPrefix( );1;0;3
+Property.setPrefix( String prefix );2;2;6
+Property.setClasspath( Path classpath );2;1;7
+Property.addProperty( String n , Object v );3;1;12
+Property.getEnvironment( );1;0;3
+Property.getFile( );1;0;3
+Property.getValue( );1;0;3
+Property.setLocation( File location );1;0;3
+Property.createClasspath( );2;1;6
+Property.loadResource( String name );7;4;33
+Property.setValue( String value );1;0;3
+Property.getName( );1;0;3
+Property.getUrl( );1;0;3
+Property.execute( );23;30;50
+Property.setResource( String resource );1;0;3
+Property.addProperties( Properties props );4;2;14
+Property.setEnvironment( String env );1;0;3
+Property.setFile( File file );1;0;3
+Property.setUserProperty( boolean userProperty );1;0;4
+Property.Property( boolean userProperty );1;0;3
+Property.loadFile( File file );3;0;21
+Property.getClasspath( );1;0;3
+Property.Property( );1;0;3
+Property.addProperty( String n , String v );1;0;3
+Property.resolveAllProperties( Map props );1;0;8
+Property.Property( boolean userProperty , Project fallback );1;0;4
+Property.setRefid( Reference ref );1;0;3
+Property.loadUrl( URL url );3;1;17
+Property.setValue( Object value );2;1;4

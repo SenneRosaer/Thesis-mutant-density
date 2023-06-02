@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractBreaker.adjustLineNumbers( LinkedList lineList , int difference , int total );4;6;15
+AbstractBreaker.isEmpty( );1;0;3
+AbstractBreaker.getNextBlockList( LayoutContext childLC , int nextSequenceStartsOn );9;2;48
+AbstractBreaker.addAreas( PageBreakingAlgorithm alg , int partCount , BlockSequence originalList , BlockSequence effectiveList );1;0;3
+AbstractBreaker.adjustBlockSpaces( LinkedList spaceList , int difference , int total );5;9;22
+AbstractBreaker.handleEmptyContent( );1;0;2
+AbstractBreaker.doLayout( int flowBPD );1;0;3
+PageBreakPosition.PageBreakPosition( LayoutManager lm , int iBreakIndex , int ffli , int ffei , int flli , int flei , double bpdA , int diff );1;0;9
+AbstractBreaker.isSinglePartFavored( );1;0;3
+AbstractBreaker.doLayout( int flowBPD , boolean autoHeight );11;9;55
+AbstractBreaker.startPart( BlockSequence list , int breakClass );1;0;2
+BlockSequence.endSequence( Position breakPosition );6;8;24
+BlockSequence.BlockSequence( int iStartOn , int displayAlign );1;0;5
+AbstractBreaker.updateLayoutContext( LayoutContext context );1;0;2
+AbstractBreaker.observeElementList( List elementList );1;0;3
+BlockSequence.getDisplayAlign( );1;0;3
+AbstractBreaker.handleSpanChange( LayoutContext childLC , int nextSequenceStartsOn );1;0;3
+AbstractBreaker.optimizeLineLength( KnuthSequence effectiveList , int startElementIndex , int endElementIndex );8;10;37
+AbstractBreaker.justifyBoxes( BlockSequence blockList , PageBreakingAlgorithm alg , int availableBPD );31;41;132
+AbstractBreaker.addAreas( PageBreakingAlgorithm alg , int startPart , int partCount , BlockSequence originalList , BlockSequence effectiveList );24;40;91
+AbstractBreaker.createLayoutListener( );1;0;3
+BlockSequence.endBlockSequence( Position breakPosition );2;1;11
+AbstractBreaker.getPageProvider( );1;0;3
+AbstractBreaker.createLayoutContext( );1;0;3
+BlockSequence.getStartOn( );1;0;3
+AbstractBreaker.isPartOverflowRecoveryActivated( );1;0;3
+BlockSequence.endSequence( );1;0;3

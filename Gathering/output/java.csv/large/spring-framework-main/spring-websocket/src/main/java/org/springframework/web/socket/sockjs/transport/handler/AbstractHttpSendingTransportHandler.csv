@@ -1,0 +1,5 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractHttpSendingTransportHandler.handleRequest( ServerHttpRequest request , ServerHttpResponse response , WebSocketHandler wsHandler , SockJsSession wsSession );1;0;5
+AbstractHttpSendingTransportHandler.handleRequestInternal( ServerHttpRequest request , ServerHttpResponse response , AbstractHttpSockJsSession sockJsSession );8;2;26
+AbstractHttpSendingTransportHandler.getCallbackParam( ServerHttpRequest request );3;1;10
+AbstractHttpSendingTransportHandler.writeFrame( SockJsFrame frame , ServerHttpRequest request , ServerHttpResponse response , AbstractHttpSockJsSession sockJsSession );2;0;9

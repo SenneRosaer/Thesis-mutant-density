@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LimitedDataBufferList.removeIf( Predicate < ? super DataBuffer > filter );1;0;3
+LimitedDataBufferList.add( int index , DataBuffer buffer );1;0;4
+LimitedDataBufferList.addAll( int index , Collection < ? extends DataBuffer > collection );1;0;5
+LimitedDataBufferList.add( DataBuffer buffer );1;0;4
+LimitedDataBufferList.clear( );1;0;4
+LimitedDataBufferList.releaseAndClear( );2;0;10
+LimitedDataBufferList.remove( Object o );1;0;3
+LimitedDataBufferList.updateCount( int bytesToAdd );4;5;14
+LimitedDataBufferList.addAll( Collection < ? extends DataBuffer > collection );1;0;5
+LimitedDataBufferList.remove( int index );1;0;3
+LimitedDataBufferList.LimitedDataBufferList( int maxByteCount );1;0;3
+LimitedDataBufferList.removeAll( Collection < ? > c );1;0;3
+LimitedDataBufferList.set( int index , DataBuffer element );1;0;3
+LimitedDataBufferList.raiseLimitException( );1;0;4
+LimitedDataBufferList.removeRange( int fromIndex , int toIndex );1;0;3

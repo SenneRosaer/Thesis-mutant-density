@@ -1,0 +1,89 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSLTProcess.handleError( String msg );2;0;6
+XSLTProcess.resolveProcessor( String proc );2;0;10
+XSLTProcess.setFileNameParameter( String fileNameParameter );1;0;3
+XSLTProcess.process( File inFile , File outFile , Resource stylesheet );6;5;25
+Attribute.createDynamicElement( String name );1;0;3
+XSLTProcess.getLiaison( );5;2;19
+TraceConfiguration.getSelection( );1;0;3
+Param.setExpression( String expression );1;0;3
+XSLTProcess.setIn( File inFile );1;0;3
+Attribute.setDynamicAttribute( String name , String value );6;0;19
+XSLTProcess.configureLiaison( File stylesheet );1;0;6
+XSLTProcess.add( FileNameMapper fileNameMapper );1;0;5
+XSLTProcess.setClasspath( Path classpath );1;0;3
+Param.getExpression( );2;1;6
+XSLTProcess.addConfiguredXMLCatalog( XMLCatalog xmlCatalog );1;0;3
+XSLTProcess.checkDest( );2;1;5
+XSLTProcess.handleError( Throwable ex );2;0;7
+OutputProperty.getName( );1;0;3
+XSLTProcess.setFileDirParameter( String fileDirParameter );1;0;3
+Attribute.getValue( );1;0;3
+XSLTProcess.processResources( Resource stylesheet );5;3;20
+XSLTProcess.createTrace( );2;1;8
+XSLTProcess.setForce( boolean force );1;0;3
+XSLTProcess.XSLTProcess( );1;0;2
+XSLTProcess.setDestdir( File dir );1;0;3
+XSLTProcess.setProcessor( String processor );1;0;3
+Param.getName( );2;1;6
+XSLTProcess.addSyspropertyset( PropertySet sysp );1;0;3
+XSLTProcess.handleTransformationError( Exception ex );3;1;8
+XSLTProcess.loadClass( String classname );2;1;8
+XSLTProcess.createOutputProperty( );1;0;5
+Factory.getName( );1;0;3
+XSLTProcess.createParam( );1;0;5
+XSLTProcess.setXslResource( Resource xslResource );1;0;3
+XSLTProcess.setClasspathRef( Reference r );1;0;3
+XSLTProcess.add( ResourceCollection rc );1;0;3
+XSLTProcess.setExtension( String name );1;0;3
+TraceConfiguration.setTemplates( boolean b );1;0;3
+XSLTProcess.getXMLCatalog( );1;0;4
+XSLTProcess.createFactory( );2;1;8
+Param.setUnless( String unlessProperty );1;0;3
+XSLTProcess.createClasspath( );2;1;6
+XSLTProcess.getTraceConfiguration( );1;0;3
+TraceConfiguration.setGeneration( boolean b );1;0;3
+XSLTProcess.setStyle( String xslFile );1;0;3
+XSLTProcess.setLiaisonDynamicFileParameters( XSLTLiaison liaison , File inFile );4;3;11
+XSLTProcess.init( );1;0;4
+XSLTProcess.ensureDirectoryFor( File targetFile );3;2;9
+XSLTProcess.addMapper( Mapper mapper );2;1;7
+XSLTProcess.process( File baseDir , String xmlFile , File destDir , Resource stylesheet );12;12;41
+XSLTProcess.setFailOnNoResources( boolean b );1;0;3
+XSLTProcess.setReloadStylesheet( boolean b );1;1;3
+XSLTProcess.configureLiaison( Resource stylesheet );9;2;34
+TraceConfiguration.getOutputStream( );1;0;3
+XSLTProcess.addConfiguredStyle( Resources rc );2;1;8
+TraceConfiguration.setElements( boolean b );1;0;3
+XSLTProcess.execute( );26;28;103
+XSLTProcess.getSuppressWarnings( );1;0;3
+XSLTProcess.setScanIncludedDirectories( boolean b );1;0;3
+XSLTProcess.setFailOnTransformationError( boolean b );1;0;3
+TraceConfiguration.getElements( );1;0;3
+XSLTProcess.getOutputProperties( );1;0;3
+OutputProperty.getValue( );1;0;3
+XSLTProcess.setFailOnError( boolean b );1;0;3
+StyleMapper.setTo( String to );1;0;2
+Param.shouldUse( );5;6;9
+XSLTProcess.addSysproperty( Environment . Variable sysp );1;0;3
+TraceConfiguration.setSelection( boolean b );1;0;3
+StyleMapper.mapFileName( String xmlFile );2;2;7
+OutputProperty.setValue( String value );1;0;3
+TraceConfiguration.getTemplates( );1;0;3
+StyleMapper.setFrom( String from );1;0;2
+TraceConfiguration.getGeneration( );1;0;3
+XSLTProcess.setOut( File outFile );1;0;3
+Param.setName( String name );1;0;3
+XSLTProcess.setUseImplicitFileset( boolean useimplicitfileset );1;0;3
+Param.setIf( String ifProperty );1;0;3
+OutputProperty.setName( String name );1;0;3
+XSLTProcess.getFactory( );1;0;3
+Factory.setName( String name );1;0;3
+Factory.getAttributes( );1;0;3
+XSLTProcess.setBasedir( File dir );1;0;3
+Param.setProject( Project project );1;0;3
+Factory.addAttribute( Attribute attr );1;0;3
+XSLTProcess.setSuppressWarnings( boolean b );1;0;3
+TraceConfiguration.getExtension( );1;0;3
+Attribute.getName( );1;0;3
+TraceConfiguration.setExtension( boolean b );1;0;3

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CodeFormatter.addTok( StringBuffer targetBuf , StringBuffer tokBuf , IndentWriter out );3;4;22
+CodeFormatter.setIndentationStep( int newIndentationStep );2;1;3
+CodeFormatter.getMaxLineLength( );1;0;3
+CodeFormatter.printLine( String line , IndentWriter out );31;32;124
+CodeFormatter.getStickyDelimiters( );1;0;3
+CodeFormatter.getIndentationStep( );1;0;3
+CodeFormatter.setMaxLineLength( int newMaxLineLength );2;1;3
+CodeFormatter.getDelimiters( );1;0;3
+CodeFormatter.setStickyDelimiters( String newStickyDelimiters );1;0;3
+CodeFormatter.setDelimiters( String newDelimiters );1;0;3
+CodeFormatter.formatCode( Reader source , Writer target );4;3;26

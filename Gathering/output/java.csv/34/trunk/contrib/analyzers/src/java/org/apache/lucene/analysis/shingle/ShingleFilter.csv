@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ShingleFilter.setTokenType( String tokenType );1;0;3
+ShingleFilter.ShingleFilter( TokenStream input , String tokenType );1;0;4
+ShingleFilter.next( final Token reusableToken );3;2;12
+ShingleFilter.setMaxShingleSize( int maxShingleSize );3;3;10
+ShingleFilter.ShingleFilter( TokenStream input , int maxShingleSize );1;0;4
+ShingleFilter.getNextToken( final Token reusableToken );4;3;19
+ShingleFilter.fillOutputBuf( Token token );17;19;67
+ShingleFilter.ShingleFilter( TokenStream input );1;0;3
+ShingleFilter.setOutputUnigrams( boolean outputUnigrams );1;0;3
+ShingleFilter.clearShingles( );2;2;5

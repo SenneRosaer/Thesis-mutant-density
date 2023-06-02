@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Main.handleArgBuildFile( String [ ] args , int pos );2;1;10
+Main.createLogger( );3;1;22
+Main.exit( int exitCode );1;0;3
+Main.printTargets( Project project , Vector names , Vector descriptions , String heading , int maxlen );4;9;20
+Main.printDescription( Project project );2;1;5
+Main.runBuild( ClassLoader coreLoader );18;10;94
+Main.printMessage( Throwable t );2;1;6
+Main.removeDuplicateTargets( Map targets );5;3;21
+Main.handleArgListener( String [ ] args , int pos );2;2;11
+Main.handleArgPropertyFile( String [ ] args , int pos );2;1;10
+Main.findBuildFile( String start , String suffix );4;3;15
+Main.getAntVersion( );4;1;23
+Main.addBuildListeners( Project project );2;2;11
+Main.addInputHandler( Project project );2;1;12
+Main.getParentFile( File file );3;3;7
+Main.handleArgNice( String [ ] args , int pos );5;4;18
+Main.handleArgLogger( String [ ] args , int pos );3;2;13
+Main.main( String [ ] args );1;0;3
+Main.processArgs( String [ ] args );51;27;124
+Main.printUsage( );1;0;45
+Main.handleLogfile( );2;0;6
+Main.handleArgInputHandler( String [ ] args , int pos );3;2;14
+Main.printTargets( Project project , boolean printSubTargets );9;6;41
+Main.loadPropertyFiles( );5;3;26
+Main.printVersion( int logLevel );1;0;3
+Main.start( String [ ] args , Properties additionalUserProperties , ClassLoader coreLoader );1;0;4
+Main.startAnt( String [ ] args , Properties additionalUserProperties , ClassLoader coreLoader );9;3;41
+Main.handleArgDefine( String [ ] args , int argPos );3;5;17
+Main.findTargetPosition( Vector names , String name );4;5;9
+Main.Main( String [ ] args );1;0;3
+Main.Main( );1;0;2

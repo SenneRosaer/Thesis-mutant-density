@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SrndTruncQuery.toStringUnquoted( );1;0;1
+SrndTruncQuery.appendRegExpForChar( char c , StringBuffer re );3;2;8
+SrndTruncQuery.visitMatchingTerms( IndexReader reader , String fieldName , MatchingTermVisitor mtv );7;5;29
+SrndTruncQuery.matchingChar( char c );2;3;3
+SrndTruncQuery.SrndTruncQuery( String truncated , char unlimited , char mask );1;0;7
+SrndTruncQuery.truncatedToPrefixAndPattern( );4;5;13
+SrndTruncQuery.getTruncated( );1;0;1

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PathInclusionPipe.startDTD( String name , String publicId , String systemId );2;0;4
+PathInclusionPipe.startDocument( );2;0;4
+PathInclusionPipe.endDTD( );2;0;4
+QName.matches( String namespaceURI , String localName );2;1;3
+PathInclusionPipe.endDocument( );2;0;4
+PathInclusionPipe.processingInstruction( String target , String data );2;0;4
+PathInclusionPipe.characters( char c [ ] , int start , int len );2;0;4
+PathInclusionPipe.startCDATA( );2;0;4
+PathInclusionPipe.endElement( String uri , String loc , String raw );4;3;7
+PathInclusionPipe.endEntity( String name );2;0;4
+PathInclusionPipe.startEntity( String name );2;0;4
+QName.QName( String namespaceURI , String localName );1;0;4
+PathInclusionPipe.setDocumentLocator( Locator locator );2;0;4
+ElementPathPart.ElementPathPart( String expression );1;0;3
+PathInclusionPipe.ignorableWhitespace( char c [ ] , int start , int len );2;0;4
+PathInclusionPipe.PathInclusionPipe( String expression , XPointerContext xpointerContext );4;2;19
+PathInclusionPipe.comment( char ch [ ] , int start , int len );2;0;4
+PathInclusionPipe.startElement( String namespaceURI , String localName , String raw , Attributes a );6;7;15
+PathInclusionPipe.endCDATA( );2;0;4
+QName.parse( String qName , XPointerContext xpointerContext );3;3;12
+ElementPathPart.process( XPointerContext xpointerContext );3;0;12
+PathInclusionPipe.skippedEntity( String name );2;0;4
+QName.getLocalName( );1;0;3
+QName.getNamespaceURI( );1;0;3

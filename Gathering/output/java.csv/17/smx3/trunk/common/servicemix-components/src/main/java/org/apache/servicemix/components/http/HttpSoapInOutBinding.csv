@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Controller.getService( HttpServletRequest request );1;0;3
+InOutService.invokeInOut( Source source , MessageContext context );1;0;3
+HttpSoapInOutBinding.setDefaultInOut( boolean defaultInOut );1;0;3
+InOnlyService.InOnlyService( HttpSoapInOutBinding component );1;0;3
+HttpSoapInOutBinding.process( HttpServletRequest request , HttpServletResponse response );1;0;3
+HttpSoapInOutBinding.setSoapAction( String soapAction );1;0;3
+HttpSoapInOutBinding.isDefaultInOut( );1;0;3
+InOnlyService.InOnlyService( );1;0;1
+HttpSoapInOutBinding.invokeInOnly( Source source , MessageContext context );6;3;22
+HttpSoapInOutBinding.invokeInOut( Source source , MessageContext context );9;6;41
+HttpSoapInOutBinding.HttpSoapInOutBinding( );1;0;2
+Controller.Controller( XFire xfire );1;0;3
+HttpSoapInOutBinding.getSoapAction( );1;0;3
+HttpSoapInOutBinding.populateExchange( MessageExchange exchange , Source src , MessageContext ctx );7;3;33
+HttpSoapInOutBinding.init( ComponentContext context );2;0;18
+InOutService.InOutService( );1;0;1
+InOutService.InOutService( HttpSoapInOutBinding component );1;0;3
+InOnlyService.invokeInOnly( Source source , MessageContext context );1;0;3

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StringUtils.StringUtils( );1;0;2
+StringUtils.split( String data , int ch );2;4;12
+StringUtils.getStackTrace( Throwable t );1;0;8
+StringUtils.removeSuffix( String string , String suffix );2;1;7
+StringUtils.endsWith( StringBuffer buffer , String suffix );4;7;15
+StringUtils.replace( String data , String from , String to );2;4;11
+***not in a method***;0;4;0
+StringUtils.lineSplit( String data );1;0;3
+StringUtils.removePrefix( String string , String prefix );2;0;7
+StringUtils.resolveBackSlash( String input );10;4;39
+StringUtils.parseHumanSizes( String humanSize );9;10;40

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultTransactionStatus.isTransactionSavepointManager( );1;0;3
+DefaultTransactionStatus.isGlobalRollbackOnly( );2;1;4
+DefaultTransactionStatus.isReadOnly( );1;0;3
+DefaultTransactionStatus.isNewTransaction( );2;1;3
+DefaultTransactionStatus.getTransaction( );1;1;4
+DefaultTransactionStatus.getSuspendedResources( );1;0;3
+DefaultTransactionStatus.isDebug( );1;0;3
+DefaultTransactionStatus.DefaultTransactionStatus( @ Nullable Object transaction , boolean newTransaction , boolean newSynchronization , boolean readOnly , boolean debug , @ Nullable Object suspendedResources );1;0;8
+DefaultTransactionStatus.hasTransaction( );1;1;3
+DefaultTransactionStatus.isNewSynchronization( );1;0;3
+DefaultTransactionStatus.flush( );2;0;5
+DefaultTransactionStatus.getSavepointManager( );2;1;8

@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VelocityGenerator.remove( Object key );1;0;3
+TemplateLoader.getLastModified( Resource resource );2;0;10
+TemplateLoader.getResourceStream( String systemId );3;0;9
+TemplateLoader.init( ExtendedProperties config );2;1;6
+TemplateLoader.isSourceModified( Resource resource );3;2;10
+JSIntrospector.getIterator( Object obj , Info i );3;1;9
+VelocityGenerator.getKeys( );4;5;20
+JSMethod.isCacheable( );1;0;3
+VelocityGenerator.generate( );14;8;67
+ScriptableIterator.remove( );1;0;8
+ChainedContext.internalGet( String key );10;4;40
+ScriptableIterator.ScriptableIterator( Scriptable scope );1;0;5
+VelocityGenerator.put( String key , Object value );7;4;21
+JSMethod.JSMethod( Scriptable scope , String name );1;0;4
+VelocityGenerator.setup( SourceResolver resolver , Map objectModel , String src , Parameters params );27;1;126
+JSPropertySet.isCacheable( );1;0;3
+NativeArrayIterator.hasNext( );1;1;3
+JSPropertyGet.getMethodName( );1;0;3
+JSMethod.getReturnType( );1;0;3
+JSPropertySet.JSPropertySet( Scriptable scope , String name );1;0;4
+JSPropertySet.getMethodName( );1;0;3
+JSMethod.getMethodName( );1;0;3
+JSIntrospector.getPropertyGet( Object obj , String identifier , Info i );2;1;6
+JSMethod.invoke( Object thisArg , Object [ ] args );13;16;40
+ScriptableIterator.hasNext( );1;1;3
+JSIntrospector.getMethod( Object obj , String methodName , Object [ ] args , Info i );2;1;6
+VelocityGenerator.init( RuntimeServices rs );1;0;2
+VelocityGenerator.logVelocityMessage( int level , String message );5;0;19
+NativeArrayIterator.next( );4;4;15
+NativeArrayIterator.remove( );1;0;3
+NativeArrayIterator.NativeArrayIterator( NativeArray arr );1;0;4
+JSPropertySet.invoke( Object thisArg , Object rhs );7;10;23
+JSPropertyGet.invoke( Object thisArg );5;4;21
+ChainedContext.ChainedContext( org . apache . velocity . context . Context ctx , Request request , Response response , org . apache . cocoon . environment . Context application , Parameters parameters );1;0;8
+VelocityGenerator.containsKey( Object key );8;6;21
+ScriptableIterator.next( );4;4;17
+VelocityGenerator.configure( Configuration configuration );10;10;56
+JSIntrospector.getPropertySet( Object obj , String identifier , Object arg , Info i );2;1;6
+VelocityGenerator.recycle( );3;0;12
+JSPropertyGet.JSPropertyGet( Scriptable scope , String name );1;0;4
+TemplateLoader.resolveSource( String systemId );5;1;21
+JSPropertyGet.isCacheable( );1;0;3
+VelocityGenerator.get( String key );7;3;22
+VelocityGenerator.initialize( );1;0;2

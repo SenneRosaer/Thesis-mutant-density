@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OpenSessionInViewInterceptor.openSession( );2;0;10
+OpenSessionInViewInterceptor.decrementParticipateCount( WebRequest request );3;3;14
+OpenSessionInViewInterceptor.getParticipateAttributeName( );1;1;3
+OpenSessionInViewInterceptor.afterCompletion( WebRequest request , @ Nullable Exception ex );2;1;8
+OpenSessionInViewInterceptor.obtainSessionFactory( );1;1;5
+OpenSessionInViewInterceptor.postHandle( WebRequest request , @ Nullable ModelMap model );1;0;2
+OpenSessionInViewInterceptor.setSessionFactory( @ Nullable SessionFactory sessionFactory );1;0;3
+OpenSessionInViewInterceptor.applySessionBindingInterceptor( WebAsyncManager asyncManager , String key );2;1;8
+OpenSessionInViewInterceptor.afterConcurrentHandlingStarted( WebRequest request );2;1;5
+OpenSessionInViewInterceptor.preHandle( WebRequest request );5;3;22
+OpenSessionInViewInterceptor.getSessionFactory( );1;0;3

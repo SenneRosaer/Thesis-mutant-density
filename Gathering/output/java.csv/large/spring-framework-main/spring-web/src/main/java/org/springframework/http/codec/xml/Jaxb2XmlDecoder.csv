@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Jaxb2XmlDecoder.setUnmarshallerProcessor( Function < Unmarshaller , Unmarshaller > processor );1;0;3
+Jaxb2XmlDecoder.toQName( Class < ? > outputClass );7;2;32
+Jaxb2XmlDecoder.canDecode( ResolvableType elementType , @ Nullable MimeType mimeType );4;2;5
+Jaxb2XmlDecoder.setMaxInMemorySize( int byteCount );1;0;4
+Jaxb2XmlDecoder.getUnmarshallerProcessor( );1;0;3
+SplitHandler.SplitHandler( QName desiredName );1;0;3
+Jaxb2XmlDecoder.Jaxb2XmlDecoder( );1;0;3
+Jaxb2XmlDecoder.decode( Publisher < DataBuffer > inputStream , ResolvableType elementType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );2;2;15
+Jaxb2XmlDecoder.unmarshal( List < XMLEvent > events , Class < ? > outputClass );5;0;19
+Jaxb2XmlDecoder.encoding( @ Nullable MimeType mimeType );3;2;12
+Jaxb2XmlDecoder.getMaxInMemorySize( );1;0;3
+Jaxb2XmlDecoder.split( Flux < XMLEvent > xmlEventFlux , QName desiredName );1;0;3
+Jaxb2XmlDecoder.Jaxb2XmlDecoder( MimeType ... supportedMimeTypes );1;0;3
+***not in a method***;0;1;0
+Jaxb2XmlDecoder.decodeToMono( Publisher < DataBuffer > input , ResolvableType elementType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );1;0;4
+Jaxb2XmlDecoder.initUnmarshaller( Class < ? > outputClass );1;0;4
+Jaxb2XmlDecoder.decode( DataBuffer dataBuffer , ResolvableType targetType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );4;0;24
+SplitHandler.accept( XMLEvent event , SynchronousSink < List < XMLEvent > > sink );7;7;24

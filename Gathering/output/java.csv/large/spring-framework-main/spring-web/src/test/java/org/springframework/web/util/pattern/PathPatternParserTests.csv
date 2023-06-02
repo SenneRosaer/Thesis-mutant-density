@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PathPatternParserTests.checkStructure( String pattern );1;0;5
+PathPatternParserTests.basicPatterns( );1;0;8
+PathPatternParserTests.completeCapturingPatterns( );1;0;8
+PathPatternParserTests.toPSC( String path );1;0;3
+PathPatternParserTests.separatorTests( );1;0;7
+PathPatternParserTests.completeCaptureWithConstraints( );1;0;7
+PathPatternParserTests.captureTheRestPatterns( );1;0;16
+PathPatternParserTests.assertMatches( PathPattern pp , String path );1;0;3
+PathPatternParserTests.computeScore( int capturedVariableCount , int wildcardCount );1;2;3
+PathPatternParserTests.patternPropertyGetWildcardCountTests( );1;0;16
+PathPatternParserTests.checkError( String pattern , int expectedPos , PatternMessage expectedMessage , String ... expectedInserts );3;2;13
+PathPatternParserTests.noEncoding( );1;0;8
+PathPatternParserTests.multiwildcardPattern( );1;0;6
+PathPatternParserTests.assertNoMatch( PathPattern pp , String path );1;0;3
+PathPatternParserTests.regexPathElementPatterns( );1;0;52
+PathPatternParserTests.compareTests( );1;5;51
+PathPatternParserTests.multipleSeparatorPatterns( );1;0;16
+PathPatternParserTests.patternPropertyGetCaptureCountTests( );1;0;17
+PathPatternParserTests.parse( String pattern );1;0;4
+PathPatternParserTests.captureTheRestWithinPatternNotSupported( );1;0;6
+PathPatternParserTests.singleCharWildcardPatterns( );1;0;6
+PathPatternParserTests.partialCapturingPatterns( );1;0;11
+PathPatternParserTests.badPatterns( );1;0;7
+PathPatternParserTests.toStringTests( );1;0;10
+PathPatternParserTests.matchAndExtract( PathPattern pp , String path );1;0;3
+PathPatternParserTests.patternPropertyGetLengthTests( );1;0;17
+PathPatternParserTests.checkError( String pattern , PatternMessage expectedMessage , String ... expectedInserts );1;1;3
+PathPatternParserTests.assertPathElements( PathPattern p , Class < ? extends PathElement > ... sectionClasses );4;1;10
+PathPatternParserTests.illegalCapturePatterns( );1;0;26
+PathPatternParserTests.equalsAndHashcode( );1;0;15

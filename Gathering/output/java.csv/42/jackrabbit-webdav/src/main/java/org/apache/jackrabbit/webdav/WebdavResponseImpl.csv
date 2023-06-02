@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebdavResponseImpl.resetBuffer( );1;0;3
+WebdavResponseImpl.addDateHeader( String s , long l );1;0;3
+WebdavResponseImpl.flushBuffer( );1;0;3
+WebdavResponseImpl.sendRefreshLockResponse( ActiveLock [ ] locks );1;0;5
+WebdavResponseImpl.sendLockResponse( ActiveLock lock );1;0;7
+WebdavResponseImpl.WebdavResponseImpl( HttpServletResponse httpResponse );1;0;3
+WebdavResponseImpl.setStatus( int i );1;0;3
+WebdavResponseImpl.sendMultiStatus( MultiStatus multistatus );1;0;3
+WebdavResponseImpl.setIntHeader( String s , int i );1;0;3
+WebdavResponseImpl.getOutputStream( );1;0;3
+WebdavResponseImpl.getCharacterEncoding( );1;0;3
+WebdavResponseImpl.sendError( int i );1;0;3
+WebdavResponseImpl.containsHeader( String s );1;0;3
+WebdavResponseImpl.encodeUrl( String s );1;0;3
+WebdavResponseImpl.getLocale( );1;0;3
+WebdavResponseImpl.setLocale( Locale locale );1;0;3
+WebdavResponseImpl.sendError( int i , String s );1;0;3
+WebdavResponseImpl.encodeURL( String s );1;0;3
+WebdavResponseImpl.sendError( DavException exception );2;1;7
+WebdavResponseImpl.getWriter( );1;0;3
+WebdavResponseImpl.addHeader( String s , String s1 );1;0;3
+WebdavResponseImpl.getBufferSize( );1;0;3
+WebdavResponseImpl.setDateHeader( String s , long l );1;0;3
+WebdavResponseImpl.sendXmlResponse( XmlSerializable serializable , int status );5;1;29
+WebdavResponseImpl.encodeRedirectURL( String s );1;0;3
+WebdavResponseImpl.addCookie( Cookie cookie );1;0;3
+WebdavResponseImpl.setStatus( int i , String s );1;0;3
+WebdavResponseImpl.setHeader( String s , String s1 );1;0;3
+WebdavResponseImpl.sendRedirect( String s );1;0;3
+WebdavResponseImpl.sendPollResponse( EventDiscovery eventDiscovery );1;0;3
+WebdavResponseImpl.encodeRedirectUrl( String s );1;0;3
+WebdavResponseImpl.setContentType( String s );1;0;3
+WebdavResponseImpl.isCommitted( );1;0;3
+WebdavResponseImpl.sendSubscriptionResponse( Subscription subscription );2;1;10
+WebdavResponseImpl.WebdavResponseImpl( HttpServletResponse httpResponse , boolean noCache );2;0;7
+WebdavResponseImpl.addIntHeader( String s , int i );1;0;3
+WebdavResponseImpl.setContentLength( int i );1;0;3
+WebdavResponseImpl.reset( );1;0;3
+WebdavResponseImpl.setBufferSize( int i );1;0;3

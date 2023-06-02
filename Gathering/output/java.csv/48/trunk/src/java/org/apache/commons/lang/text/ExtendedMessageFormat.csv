@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExtendedMessageFormat.getQuotedString( String pattern , ParsePosition pos , boolean escapingOn );1;0;3
+ExtendedMessageFormat.insertFormats( String pattern , ArrayList customPatterns );8;9;35
+***not in a method***;0;1;0
+ExtendedMessageFormat.ExtendedMessageFormat( String pattern , Locale locale );1;0;3
+ExtendedMessageFormat.setFormatByArgumentIndex( int argumentIndex , Format newFormat );1;0;3
+ExtendedMessageFormat.ExtendedMessageFormat( String pattern , Map registry );1;0;3
+ExtendedMessageFormat.applyPattern( String pattern );12;11;61
+ExtendedMessageFormat.getFormat( String desc );4;4;16
+ExtendedMessageFormat.ExtendedMessageFormat( String pattern , Locale locale , Map registry );1;0;6
+ExtendedMessageFormat.setFormats( Format [ ] newFormats );1;0;3
+ExtendedMessageFormat.parseFormatDescription( String pattern , ParsePosition pos );6;4;24
+ExtendedMessageFormat.next( ParsePosition pos );1;1;4
+ExtendedMessageFormat.toPattern( );1;0;3
+ExtendedMessageFormat.appendQuotedString( String pattern , ParsePosition pos , StringBuffer appendTo , boolean escapingOn );9;10;27
+ExtendedMessageFormat.seekNonWs( String pattern , ParsePosition pos );3;4;8
+ExtendedMessageFormat.readArgumentIndex( String pattern , ParsePosition pos );11;12;32
+ExtendedMessageFormat.ExtendedMessageFormat( String pattern );1;0;3
+ExtendedMessageFormat.setFormatsByArgumentIndex( Format [ ] newFormats );1;0;3
+ExtendedMessageFormat.setFormat( int formatElementIndex , Format newFormat );1;0;3
+ExtendedMessageFormat.containsElements( Collection coll );5;4;11

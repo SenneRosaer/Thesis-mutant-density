@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BSFEngineImpl.initialize( BSFManager mgr , String lang , Vector declaredBeans );1;0;8
+BSFEngineImpl.iexec( String source , int lineNo , int columnNo , Object script );1;0;3
+BSFEngineImpl.undeclareBean( BSFDeclaredBean bean );1;0;5
+BSFEngineImpl.compileExpr( String source , int lineNo , int columnNo , Object expr , CodeBuffer cb );4;7;20
+BSFEngineImpl.declareBean( BSFDeclaredBean bean );1;0;5
+BSFEngineImpl.exec( String source , int lineNo , int columnNo , Object script );1;0;3
+BSFEngineImpl.apply( String source , int lineNo , int columnNo , Object funcBody , Vector paramNames , Vector arguments );1;0;3
+BSFEngineImpl.compileApply( String source , int lineNo , int columnNo , Object funcBody , Vector paramNames , Vector arguments , CodeBuffer cb );1;0;3
+BSFEngineImpl.compileScript( String source , int lineNo , int columnNo , Object script , CodeBuffer cb );4;7;19
+BSFEngineImpl.terminate( );1;0;5
+BSFEngineImpl.propertyChange( PropertyChangeEvent e );4;0;13

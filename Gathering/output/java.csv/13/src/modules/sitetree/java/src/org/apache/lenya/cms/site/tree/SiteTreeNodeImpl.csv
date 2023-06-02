@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SiteTreeNodeImpl.getName( );2;1;6
+SiteTreeNodeImpl.visibleInNav( );2;1;7
+SiteTreeNodeImpl.getParent( );3;2;13
+SiteTreeNodeImpl.getLinks( );5;5;19
+SiteTreeNodeImpl.getPrecedingSiblings( );2;2;12
+SiteTreeNodeImpl.addLabel( String language , String label );1;1;8
+SiteTreeNodeImpl.getHref( );2;1;7
+SiteTreeNodeImpl.getUuid( );4;2;21
+SiteTreeNodeImpl.getNextSiblingDocumentId( );3;3;7
+SiteTreeNodeImpl.hasLink( );2;1;7
+SiteTreeNodeImpl.getLanguages( );2;2;8
+SiteTreeNodeImpl.setNodeAttribute( String attributeName , String attributeValue );1;0;4
+SiteTreeNodeImpl.preOrder( );2;2;10
+SiteTreeNodeImpl.removeLabel( String language );8;8;27
+SiteTreeNodeImpl.delete( );4;2;14
+SiteTreeNodeImpl.getLinkInternal( String language );3;2;9
+SiteTreeNodeImpl.getNextSiblings( );2;2;12
+SiteTreeNodeImpl.equals( Object obj );2;1;6
+SiteTreeNodeImpl.isVisible( );3;3;8
+SiteTreeNodeImpl.accept( SiteTreeNodeVisitor visitor );1;0;3
+SiteTreeNodeImpl.getNodeAttribute( String attributeName );1;0;4
+SiteTreeNodeImpl.SiteTreeNodeImpl( DocumentFactory factory , DefaultSiteTree tree , Element node , Logger logger );1;0;6
+SiteTreeNodeImpl.setUUID( String uuid );1;0;3
+SiteTreeNodeImpl.getKey( );1;2;3
+SiteTreeNodeImpl.hashCode( );1;0;3
+SiteTreeNodeImpl.hasLink( String language );1;1;3
+SiteTreeNodeImpl.getChildren( String language );3;2;10
+SiteTreeNodeImpl.getNamespaceHelper( );1;0;5
+SiteTreeNodeImpl.postOrder( );2;2;10
+SiteTreeNodeImpl.getTree( );1;0;3
+SiteTreeNodeImpl.getStructure( );1;0;3
+SiteTreeNodeImpl.setVisible( boolean visibleInNav );2;0;8
+SiteTreeNodeImpl.getPath( );4;3;19
+SiteTreeNodeImpl.removeChildren( );2;2;12
+SiteTreeNodeImpl.acceptReverseSubtree( SiteTreeNodeVisitor visitor );2;2;7
+SiteTreeNodeImpl.getParent( String language );3;1;12
+SiteTreeNodeImpl.save( );2;0;7
+SiteTreeNodeImpl.toString( );1;0;3
+SiteTreeNodeImpl.getChildren( );2;2;11
+SiteTreeNodeImpl.deleteIfEmpty( );3;3;5
+SiteTreeNodeImpl.acceptSubtree( SiteTreeNodeVisitor visitor );3;3;11
+SiteTreeNodeImpl.getSuffix( );2;1;7
+SiteTreeNodeImpl.getLink( String language );2;1;8
+SiteTreeNodeImpl.isTopLevel( );1;1;3

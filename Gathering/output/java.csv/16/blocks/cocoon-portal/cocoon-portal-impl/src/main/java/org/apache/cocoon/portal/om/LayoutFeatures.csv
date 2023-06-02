@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LayoutFeatures.setRenderInfo( PortalService service , Layout layout , RenderInfo info );2;1;8
+LayoutFeatures.traverseLayout( PortalService service , Layout rootLayout , LayoutTraverser traverser );1;0;3
+LayoutFeatures.getLayoutInstance( PortalService service , Layout layout , boolean create );3;2;7
+LayoutFeatures.checkLayoutClass( Layout layout , Class layoutClass , boolean throwException );3;0;9
+LayoutFeatures.searchLayout( final PortalService service , final String copletId , final Layout rootLayout );4;1;15
+LayoutFeatures.searchItemForMaximizedCoplet( CopletLayout layout );4;4;11
+LayoutFeatures.getFullScreenInfo( PortalService service );4;4;11
+LayoutFeatures.setFullScreenInfo( PortalService service , Layout fullScreenLayout );2;1;9
+LayoutFeatures.processLayout( Layout layout );3;0;8
+LayoutFeatures.traverseLayout( PortalService service , Layout rootLayout , LayoutTraverser traverser , boolean followLinks );9;5;23
+LayoutFeatures.getRenderInfo( PortalService service , Layout layout );3;2;10
+RenderInfo.RenderInfo( Layout l , Item i );1;0;4
+LayoutFeatures.getSelectedTab( PortalService service , Layout tabLayout );2;1;7

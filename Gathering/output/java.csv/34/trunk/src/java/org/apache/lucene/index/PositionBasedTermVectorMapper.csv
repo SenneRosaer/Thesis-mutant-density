@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PositionBasedTermVectorMapper.map( String term , int frequency , TermVectorOffsetInfo [ ] offsets , int [ ] positions );4;4;11
+PositionBasedTermVectorMapper.isIgnoringPositions( );1;0;3
+TVPositionInfo.getOffsets( );1;0;3
+TVPositionInfo.addTerm( String term , TermVectorOffsetInfo info );2;1;6
+TVPositionInfo.getPosition( );1;0;3
+TVPositionInfo.TVPositionInfo( int position , boolean storeOffsets );2;0;7
+TVPositionInfo.getTerms( );1;0;3
+PositionBasedTermVectorMapper.setExpectations( String field , int numTerms , boolean storeOffsets , boolean storePositions );3;2;14
+PositionBasedTermVectorMapper.getFieldToTerms( );1;0;3
+PositionBasedTermVectorMapper.PositionBasedTermVectorMapper( boolean ignoringOffsets );1;0;3
+PositionBasedTermVectorMapper.PositionBasedTermVectorMapper( );1;0;3

@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Hints.getLogPrefix( @ Nullable Map < String , Object > hints );2;1;3
+Hints.isLoggingSuppressed( @ Nullable Map < String , Object > hints );2;2;3
+Hints.none( );1;0;3
+Hints.merge( @ Nullable Map < String , Object > hints , String hintName , Object hintValue );2;1;9
+Hints.merge( @ Nullable Map < String , Object > hints1 , @ Nullable Map < String , Object > hints2 );6;3;15
+Hints.from( String hintName , Object value );1;0;3
+Hints.touchDataBuffer( DataBuffer buffer , @ Nullable Map < String , Object > hints , Log logger );4;3;8
+Hints.getRequiredHint( @ Nullable Map < String , Object > hints , String hintName );3;2;10

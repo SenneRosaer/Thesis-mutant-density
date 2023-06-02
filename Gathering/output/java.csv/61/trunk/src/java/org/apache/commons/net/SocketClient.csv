@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SocketClient.getRemotePort( );1;0;3
+SocketClient.setSocketFactory( SocketFactory factory );2;1;6
+SocketClient.connect( String hostname , int port , InetAddress localAddr , int localPort );1;0;5
+SocketClient.connect( String hostname );1;0;3
+SocketClient.connect( InetAddress host , int port );1;0;4
+SocketClient.setSoTimeout( int timeout );1;0;3
+SocketClient.setDefaultPort( int port );1;0;3
+SocketClient.getSoLinger( );1;0;3
+SocketClient.disconnect( );1;0;9
+SocketClient.getRemoteAddress( );1;0;3
+SocketClient.isConnected( );1;0;3
+SocketClient._connectAction_( );1;0;6
+SocketClient.connect( InetAddress host );1;0;3
+SocketClient.setTcpNoDelay( boolean on );1;0;3
+SocketClient.setSoLinger( boolean on , int val );1;0;3
+SocketClient.getLocalPort( );1;0;3
+SocketClient.getDefaultTimeout( );1;0;3
+SocketClient.getDefaultPort( );1;0;3
+SocketClient.getTcpNoDelay( );1;0;3
+SocketClient.setDefaultTimeout( int timeout );1;0;3
+SocketClient.connect( String hostname , int port );1;0;4
+SocketClient.verifyRemote( Socket socket );1;0;6
+SocketClient.getLocalAddress( );1;0;3
+SocketClient.connect( InetAddress host , int port , InetAddress localAddr , int localPort );1;0;4
+SocketClient.getSoTimeout( );1;0;3
+SocketClient.SocketClient( );1;0;9

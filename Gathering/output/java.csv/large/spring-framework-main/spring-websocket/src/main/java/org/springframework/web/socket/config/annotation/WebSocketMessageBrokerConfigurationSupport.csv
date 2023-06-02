@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketMessageBrokerConfigurationSupport.decorateWebSocketHandler( WebSocketHandler handler );2;0;6
+WebSocketMessageBrokerConfigurationSupport.stompWebSocketHandlerMapping( WebSocketHandler subProtocolWebSocketHandler , TaskScheduler messageBrokerTaskScheduler );2;1;11
+WebSocketMessageBrokerConfigurationSupport.configureWebSocketTransport( WebSocketTransportRegistration registry );1;0;2
+WebSocketMessageBrokerConfigurationSupport.createJacksonConverter( );2;1;10
+WebSocketMessageBrokerConfigurationSupport.getTransportRegistration( );2;1;7
+WebSocketMessageBrokerConfigurationSupport.createLocalUserRegistry( @ Nullable Integer order );2;1;7
+WebSocketMessageBrokerConfigurationSupport.createAnnotationMethodMessageHandler( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel , SimpMessagingTemplate brokerMessagingTemplate );1;0;4
+WebSocketMessageBrokerConfigurationSupport.webSocketScopeConfigurer( );1;0;5
+WebSocketMessageBrokerConfigurationSupport.webSocketMessageBrokerStats( @ Nullable AbstractBrokerMessageHandler stompBrokerRelayMessageHandler , WebSocketHandler subProtocolWebSocketHandler , @ Qualifier ( "clientInboundChannelExecutor" ) TaskExecutor inboundExecutor , @ Qualifier ( "clientOutboundChannelExecutor" ) TaskExecutor outboundExecutor , @ Qualifier ( "messageBrokerTaskScheduler" ) TaskScheduler scheduler );2;0;11
+WebSocketMessageBrokerConfigurationSupport.subProtocolWebSocketHandler( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel );1;0;3

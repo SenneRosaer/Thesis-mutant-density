@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TempFileInputStream.read( byte [ ] b );2;1;6
+TempFileInputStream.markSupported( );1;0;3
+TempFileInputStream.close( );2;1;7
+TempFileInputStream.mark( int readlimit );1;0;3
+TempFileInputStream.skip( long n );1;0;3
+TempFileInputStream.read( );2;1;6
+TempFileInputStream.read( byte [ ] b , int off , int len );2;1;6
+TempFileInputStream.TempFileInputStream( File file );1;0;4
+TempFileInputStream.reset( );1;0;3
+TempFileInputStream.closeIfEOF( int read );2;1;6
+TempFileInputStream.available( );1;0;3
+TempFileInputStream.writeToFileAndClose( InputStream in , File file );1;0;7

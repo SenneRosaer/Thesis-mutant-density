@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MailetContextWrapper.sendMail( MailAddress sender , Collection recipients , MimeMessage msg );1;0;3
+MailetContextWrapper.sendMail( MimeMessage msg );1;0;3
+MailetContextWrapper.getAttributeNames( );1;0;3
+MailetContextWrapper.getMinorVersion( );1;0;3
+MailetContextWrapper.getMajorVersion( );1;0;3
+MailetContextWrapper.log( String message );1;0;3
+MailetContextWrapper.isLocalEmail( MailAddress mailAddress );1;0;3
+MailetContextWrapper.getMailServers( String host );1;0;3
+MailetContextWrapper.removeAttribute( String name );1;0;3
+MailetContextWrapper.bounce( Mail mail , String message );1;0;3
+MailetContextWrapper.getPostmaster( );1;0;3
+MailetContextWrapper.MailetContextWrapper( MailetContext mailetContext , Logger logger );1;0;4
+Loader.setMailetContext( MailetContext mailetContext );1;0;3
+MailetContextWrapper.storeMail( MailAddress sender , MailAddress recipient , MimeMessage msg );1;0;3
+Loader.initialize( );1;0;3
+MailetContextWrapper.log( String message , Throwable t );1;0;3
+MailetContextWrapper.sendMail( Mail mail );1;0;3
+MailetContextWrapper.bounce( Mail mail , String message , MailAddress bouncer );1;0;3
+MailetContextWrapper.isLocalServer( String serverName );1;0;3
+MailetContextWrapper.setAttribute( String name , Object object );1;0;3
+MailetContextWrapper.getServerInfo( );1;0;3
+MailetContextWrapper.getSMTPHostAddresses( String domainName );1;0;3
+Loader.getPackages( Configuration conf , String packageType );3;4;13
+Loader.service( ServiceManager sm );3;0;10
+MailetContextWrapper.getAttribute( String name );1;0;3
+MailetContextWrapper.sendMail( MailAddress sender , Collection recipients , MimeMessage msg , String state );1;0;3
+MailetContextWrapper.isLocalUser( String userAccount );1;0;3

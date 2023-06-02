@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultipartHttpOutputMessage.bufferFactory( );1;0;3
+MultipartHttpMessageWriter.MultipartHttpMessageWriter( List < HttpMessageWriter < ? > > partWriters , @ Nullable HttpMessageWriter < MultiValueMap < String , String > > formWriter );1;0;3
+MultipartHttpOutputMessage.isCommitted( );1;0;3
+MultipartHttpMessageWriter.write( Publisher < ? extends MultiValueMap < String , ? > > inputStream , ResolvableType elementType , @ Nullable MediaType mediaType , ReactiveHttpOutputMessage outputMessage , Map < String , Object > hints );3;2;13
+MultipartHttpMessageWriter.writeMultipart( MultiValueMap < String , ? > map , ReactiveHttpOutputMessage outputMessage , @ Nullable MediaType mediaType , Map < String , Object > hints );3;2;18
+MultipartHttpOutputMessage.beforeCommit( Supplier < ? extends Mono < Void > > action );1;0;3
+MultipartHttpOutputMessage.writeWith( Publisher < ? extends DataBuffer > body );2;1;7
+MultipartHttpMessageWriter.MultipartHttpMessageWriter( );1;0;6
+MultipartHttpMessageWriter.MultipartHttpMessageWriter( Supplier < List < HttpMessageWriter < ? > > > partWritersSupplier , @ Nullable HttpMessageWriter < MultiValueMap < String , String > > formWriter );1;0;5
+MultipartHttpMessageWriter.encodePartValues( byte [ ] boundary , String name , List < ? > values , DataBufferFactory bufferFactory );1;0;4
+MultipartHttpMessageWriter.encodePart( byte [ ] boundary , String name , T value , DataBufferFactory factory );11;5;50
+MultipartHttpOutputMessage.setComplete( );1;0;3
+MultipartHttpOutputMessage.getHeaders( );2;1;3
+MultipartHttpMessageWriter.initMediaTypes( @ Nullable HttpMessageWriter < ? > formWriter );2;1;7
+MultipartHttpMessageWriter.isMultipart( MultiValueMap < String , ? > map , @ Nullable MediaType contentType );7;4;13
+MultipartHttpOutputMessage.getBody( );2;1;4
+MultipartHttpOutputMessage.MultipartHttpOutputMessage( DataBufferFactory bufferFactory );1;0;3
+MultipartHttpMessageWriter.canWrite( ResolvableType elementType , @ Nullable MediaType mediaType );5;1;13
+MultipartHttpMessageWriter.getPartWriters( );1;0;3
+MultipartHttpOutputMessage.writeAndFlushWith( Publisher < ? extends Publisher < ? extends DataBuffer > > body );1;0;3
+MultipartHttpMessageWriter.MultipartHttpMessageWriter( List < HttpMessageWriter < ? > > partWriters );1;0;3
+MultipartHttpMessageWriter.getFormWriter( );1;0;3

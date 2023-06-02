@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnnotationWriter.putParameterAnnotations( final int attributeNameIndex , final AnnotationWriter [ ] annotationWriters , final int annotableParameterCount , final ByteVector output );6;12;29
+AnnotationWriter.computeAnnotationsSize( final AnnotationWriter lastRuntimeVisibleAnnotation , final AnnotationWriter lastRuntimeInvisibleAnnotation , final AnnotationWriter lastRuntimeVisibleTypeAnnotation , final AnnotationWriter lastRuntimeInvisibleTypeAnnotation );5;8;24
+AnnotationWriter.visitAnnotation( final String name , final String descriptor );2;1;8
+AnnotationWriter.computeAnnotationsSize( final String attributeName );3;3;12
+AnnotationWriter.create( final SymbolTable symbolTable , final String descriptor , final AnnotationWriter previousAnnotation );1;0;6
+AnnotationWriter.computeParameterAnnotationsSize( final String attributeName , final AnnotationWriter [ ] annotationWriters , final int annotableParameterCount );3;7;9
+AnnotationWriter.create( final SymbolTable symbolTable , final int typeRef , final TypePath typePath , final String descriptor , final AnnotationWriter previousAnnotation );1;0;8
+AnnotationWriter.visitEnd( );2;4;7
+AnnotationWriter.putAnnotations( final int attributeNameIndex , final ByteVector output );3;4;21
+AnnotationWriter.visitEnum( final String name , final String descriptor , final String value );2;1;9
+AnnotationWriter.visit( final String name , final Object value );26;1;71
+AnnotationWriter.AnnotationWriter( final SymbolTable symbolTable , final boolean useNamedValues , final ByteVector annotation , final AnnotationWriter previousAnnotation );3;4;11
+AnnotationWriter.putAnnotations( final SymbolTable symbolTable , final AnnotationWriter lastRuntimeVisibleAnnotation , final AnnotationWriter lastRuntimeInvisibleAnnotation , final AnnotationWriter lastRuntimeVisibleTypeAnnotation , final AnnotationWriter lastRuntimeInvisibleTypeAnnotation , final ByteVector output );5;4;18
+AnnotationWriter.visitArray( final String name );2;1;8

@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QueryImpl.QueryImpl( Session session , ManagerProvider mgrProvider , ItemManager itemMgr , WorkspaceManager wspManager , String statement , String language );1;0;10
+QueryImpl.getStoredQueryPath( );2;1;6
+QueryImpl.storeAsNode( String absPath );4;2;22
+QueryImpl.getStatement( );1;0;3
+QueryImpl.execute( );1;0;5
+QueryImpl.getLanguage( );1;0;3
+QueryImpl.QueryImpl( Session session , ManagerProvider mgrProvider , ItemManager itemMgr , WorkspaceManager wspManager , Node node );3;2;18
+QueryImpl.getNamespaceMappings( );2;2;8

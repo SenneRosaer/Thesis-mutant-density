@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CodeBuffer.popSymbolTable( );1;0;4
+CodeBuffer.getMethodBuffer( );1;0;4
+CodeBuffer.setFinalServiceMethodStatement( ObjInfo finalStatementInfo );1;0;3
+CodeBuffer.print( PrintWriter out , boolean formatOutput );2;0;11
+CodeBuffer.CodeBuffer( CodeBuffer parent );1;0;3
+CodeBuffer.putSymbol( String symbol , ObjInfo obj );1;0;3
+CodeBuffer.setSymbolTable( Hashtable symbolTable );1;0;3
+CodeBuffer.getServiceMethodReturnType( );3;2;14
+CodeBuffer.addServiceMethodStatement( String statement );1;0;3
+CodeBuffer.getFinalServiceMethodStatement( );1;0;3
+CodeBuffer.getServiceMethodExceptions( );1;0;3
+CodeBuffer.getExtends( );1;0;3
+CodeBuffer.getConstructorExceptions( );1;0;3
+CodeBuffer.addInitializerStatement( String statement );1;0;3
+CodeBuffer.getClassName( );1;0;3
+CodeBuffer.addImport( String importName );2;1;6
+CodeBuffer.getInitializerBuffer( );1;0;4
+CodeBuffer.clearSymbolTable( );1;0;6
+CodeBuffer.getImplements( );1;0;3
+CodeBuffer.appendIfNecessary( PrintWriter pw , StringBuffer buf );2;1;6
+CodeBuffer.addConstructorStatement( String statement );1;0;3
+CodeBuffer.getImports( );1;0;3
+CodeBuffer.addImplements( String importName );2;1;6
+CodeBuffer.getFieldBuffer( );1;0;4
+CodeBuffer.putSymbolIndex( String prefix , Integer index );2;1;10
+CodeBuffer.getServiceMethodBuffer( );1;0;4
+CodeBuffer.setPackageName( String packageName );1;0;3
+CodeBuffer.addServiceMethodException( String exceptionName );2;1;6
+CodeBuffer.addConstructorException( String exceptionName );2;1;6
+CodeBuffer.buildNewSymbol( String prefix );3;6;16
+CodeBuffer.getSymbolTable( );1;0;3
+CodeBuffer.getSymbolIndex( String prefix );2;1;10
+CodeBuffer.addFieldDeclaration( String statement );1;0;3
+CodeBuffer.merge( CodeBuffer otherCB );4;4;18
+CodeBuffer.getPackageName( );1;0;3
+CodeBuffer.getConstructorBuffer( );1;0;4
+CodeBuffer.setServiceMethodReturnType( Class serviceMethodReturnType );1;0;3
+CodeBuffer.toString( );18;19;89
+CodeBuffer.setExtends( String extendsName );1;0;3
+CodeBuffer.setClassName( String className );1;0;3
+CodeBuffer.addMethodDeclaration( String statement );1;0;3
+CodeBuffer.getConstructorArguments( );1;0;3
+CodeBuffer.getServiceMethodName( );1;0;3
+CodeBuffer.pushSymbolTable( );1;0;3
+CodeBuffer.CodeBuffer( );1;0;2
+CodeBuffer.symbolTableIsStacked( );1;0;3
+CodeBuffer.addConstructorArgument( ObjInfo arg );1;0;3
+CodeBuffer.getSymbol( String symbol );3;3;6
+CodeBuffer.setServiceMethodName( String serviceMethodName );1;0;3

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CachedResponse.getContentType( );1;0;3
+CachedResponse.getResponse( );1;0;3
+CachedResponse.setExpires( Long newExpires );1;0;3
+CachedResponse.getValidityObjects( );1;0;3
+CachedResponse.setLastModified( long lastModified );1;2;3
+CachedResponse.getExpires( );1;0;3
+CachedResponse.CachedResponse( SourceValidity validityObject , byte [ ] response );1;0;3
+CachedResponse.setContentType( String value );1;0;3
+CachedResponse.getLastModified( );1;0;3
+CachedResponse.CachedResponse( SourceValidity [ ] validityObjects , byte [ ] response , Long expires );1;0;6
+CachedResponse.CachedResponse( SourceValidity [ ] validityObjects , byte [ ] response );1;0;3

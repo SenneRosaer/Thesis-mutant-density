@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLResourceBundle.getLocale( );1;0;3
+MissingBundle.getKeys( );1;0;3
+XMLResourceBundle.handleGetXMLBundle( String base , String locale , boolean loadBase , final ClassLoader loader );17;14;72
+XMLResourceBundle.strip( String name );2;2;7
+CatalogueHandler.characters( char [ ] ch , int start , int length );1;0;4
+XMLResourceBundle.handleGetObject( String key );2;1;6
+XMLResourceBundle.toString( );1;0;3
+CatalogueHandler.isOwnNamespace( String uri );1;0;3
+XMLResourceBundle.XMLResourceBundle( InputStream in );2;0;10
+CatalogueHandler.startElement( String uri , String localName , String qName , Attributes atts );5;2;18
+XMLResourceBundle.getLocalKeys( );1;0;3
+CatalogueHandler.endElement( String uri , String localName , String qName );5;1;17
+XMLResourceBundle.run( );2;1;5
+XMLResourceBundle.findNext( );4;2;13
+XMLResourceBundle.getKeys( );8;1;40
+XMLResourceBundle.setLocale( String name );6;12;22
+MissingBundle.handleGetObject( String name );1;0;3
+XMLResourceBundle.nextElement( );3;0;11
+XMLResourceBundle.getXMLBundle( String baseName , Locale locale , ClassLoader loader );6;8;21
+XMLResourceBundle.getXMLBundle( String baseName , ClassLoader loader );1;0;3
+XMLResourceBundle.hasMoreElements( );2;0;6
+CatalogueHandler.getParentElementName( );1;0;3

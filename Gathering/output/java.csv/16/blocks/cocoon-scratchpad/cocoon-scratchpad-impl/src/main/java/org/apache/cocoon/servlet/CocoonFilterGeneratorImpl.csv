@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CocoonFilterGeneratorImpl.createCocoonInstance( );2;1;9
+CocoonFilterGeneratorConfig.getInitParameter( String name );1;0;3
+CocoonFilterGeneratorImpl.isVerbose( );1;0;3
+CocoonFilterGeneratorOutputStream.write( int b );1;0;3
+CocoonFilterGeneratorResponseWrapper.getOutputStream( );1;0;3
+CocoonFilterGeneratorImpl.doFilter( ServletRequest req , ServletResponse res , FilterChain fc );4;0;26
+CocoonFilterGeneratorOutputStream.CocoonFilterGeneratorOutputStream( OutputStream output );1;0;3
+CocoonFilterGeneratorResponseWrapper.CocoonFilterGeneratorResponseWrapper( HttpServletResponse response );1;0;4
+CocoonFilterGeneratorRequestWrapper.getXMLData( );1;0;3
+CocoonFilterGeneratorImpl.getCocoonServletClassName( );2;1;8
+CocoonFilterGeneratorImpl.log( String s );1;0;3
+CocoonFilterGeneratorImpl.logFilterConfig( );2;0;12
+CocoonFilterGeneratorResponseWrapper.getWriter( );1;0;3
+CocoonFilterGeneratorConfig.getInitParameterNames( );1;0;3
+CocoonFilterGeneratorImpl.setFilterConfig( FilterConfig cfg );2;2;11
+CocoonFilterGeneratorConfig.CocoonFilterGeneratorConfig( ServletContext c );1;0;3
+CocoonFilterGeneratorRequestWrapper.CocoonFilterGeneratorRequestWrapper( HttpServletRequest request );1;0;3
+CocoonFilterGeneratorResponseWrapper.setContentType( String type );1;0;4
+CocoonFilterGeneratorOutputStream.write( byte [ ] b );1;0;3
+CocoonFilterGeneratorImpl.destroy( );2;1;6
+CocoonFilterGeneratorImpl.getFilterConfig( );1;0;3
+CocoonFilterGeneratorResponseWrapper.getContentType( );1;0;3
+CocoonFilterGeneratorResponseWrapper.getContentLength( );1;0;3
+CocoonFilterGeneratorConfig.getServletContext( );1;0;3
+CocoonFilterGeneratorImpl.init( FilterConfig cfg );1;0;3
+CocoonFilterGeneratorResponseWrapper.getData( );1;0;3
+CocoonFilterGeneratorOutputStream.write( byte [ ] b , int off , int len );1;0;3
+CocoonFilterGeneratorRequestWrapper.setXMLData( byte [ ] xmlData );1;0;3
+CocoonFilterGeneratorImpl.logServletContext( );3;0;20
+CocoonFilterGeneratorConfig.getServletName( );1;0;3

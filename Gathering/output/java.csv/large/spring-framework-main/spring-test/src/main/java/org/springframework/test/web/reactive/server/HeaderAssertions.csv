@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HeaderAssertions.doesNotExist( String name );2;1;7
+HeaderAssertions.contentType( String mediaType );1;0;3
+HeaderAssertions.getRequiredValues( String name );2;0;8
+HeaderAssertions.contentTypeCompatibleWith( String mediaType );1;0;3
+HeaderAssertions.assertHeader( String name , @ Nullable Object expected , @ Nullable Object actual );1;0;7
+HeaderAssertions.contentTypeCompatibleWith( MediaType mediaType );2;4;7
+HeaderAssertions.cacheControl( CacheControl cacheControl );1;0;3
+HeaderAssertions.value( String name , Matcher < ? super String > matcher );1;0;8
+HeaderAssertions.lastModified( long lastModified );1;0;3
+HeaderAssertions.getMessage( String headerName );1;0;3
+HeaderAssertions.valuesMatch( String name , String ... patterns );2;8;17
+HeaderAssertions.location( String location );1;0;3
+HeaderAssertions.valueEquals( String headerName , long value );1;1;6
+HeaderAssertions.contentLength( long contentLength );1;0;3
+HeaderAssertions.contentType( MediaType mediaType );1;0;3
+HeaderAssertions.exists( String name );2;1;7
+HeaderAssertions.value( String name , Consumer < String > consumer );1;0;5
+HeaderAssertions.values( String name , Consumer < List < String > > consumer );1;0;5
+HeaderAssertions.getHeaders( );1;0;3
+HeaderAssertions.HeaderAssertions( ExchangeResult result , WebTestClient . ResponseSpec spec );1;0;4
+HeaderAssertions.expires( long expires );1;0;3
+HeaderAssertions.values( String name , Matcher < ? super Iterable < String > > matcher );1;0;8
+HeaderAssertions.getRequiredValue( String name );1;0;3
+HeaderAssertions.valueMatches( String name , String pattern );1;2;6
+HeaderAssertions.valueEqualsDate( String headerName , long value );1;0;13
+HeaderAssertions.valueEquals( String headerName , String ... values );1;0;3
+HeaderAssertions.contentDisposition( ContentDisposition contentDisposition );1;0;3

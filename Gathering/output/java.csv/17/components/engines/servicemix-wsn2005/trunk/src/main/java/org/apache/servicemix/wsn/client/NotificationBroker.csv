@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NotificationBroker.getCurrentMessage( String topic );2;1;10
+NotificationBroker.NotificationBroker( ComponentContext context );1;0;3
+NotificationBroker.NotificationBroker( ComponentContext context , W3CEndpointReference endpoint );1;0;3
+NotificationBroker.notify( String topic , Object msg );2;1;13
+NotificationBroker.subscribe( W3CEndpointReference consumer , String topic , String xpath );1;0;3
+NotificationBroker.subscribe( W3CEndpointReference consumer , String topic );1;0;3
+NotificationBroker.registerPublisher( W3CEndpointReference publisherReference , String topic , boolean demand );2;1;12
+NotificationBroker.getResourceProperty( QName property );1;0;5
+NotificationBroker.subscribe( W3CEndpointReference consumer , String topic , String xpath , boolean raw );4;2;26
+NotificationBroker.NotificationBroker( ComponentContext context , String brokerName );1;2;3

@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleJBossAccessManager.isGranted( ItemId id , int permissions );3;5;3
+SimpleJBossAccessManager.close( );1;0;2
+SimpleJBossAccessManager.isGranted( Path parentPath , Name childName , int permissions );1;0;3
+SimpleJBossAccessManager.checkPermission( ItemId id , int permissions );2;1;5
+SimpleJBossAccessManager.init( AMContext context , AccessControlProvider acProvider , WorkspaceAccessManager wspAccessMgr );7;3;26
+SimpleJBossAccessManager.canAccess( String workspaceName );2;1;3
+SimpleJBossAccessManager.init( AMContext context );1;0;3
+SimpleJBossAccessManager.isGranted( Path absPath , int permissions );1;0;3
+SimpleJBossAccessManager.canRead( Path itemPath );1;0;3
+SimpleJBossAccessManager.internalIsGranted( int permissions );3;3;3

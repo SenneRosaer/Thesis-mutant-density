@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InstantiatedIndexReader.termDocs( );1;0;3
+InstantiatedIndexReader.doCommit( );6;2;21
+InstantiatedIndexReader.norms( String field , byte [ ] bytes , int offset );1;0;4
+InstantiatedIndexReader.doDelete( int docNum );3;1;7
+InstantiatedIndexReader.isDeleted( int n );2;1;3
+InstantiatedIndexReader.terms( );1;0;3
+InstantiatedIndexReader.doSetNorm( int doc , String field , byte value );3;2;11
+InstantiatedIndexReader.getVersion( );1;0;3
+InstantiatedIndexReader.getIndex( );1;0;3
+InstantiatedIndexReader.isOptimized( );1;0;3
+InstantiatedIndexReader.getFieldNames( FieldOption fieldOption );28;33;31
+InstantiatedIndexReader.docFreq( Term t );2;1;8
+InstantiatedIndexReader.termPositions( );1;0;3
+InstantiatedIndexReader.getTermFreqVectors( int docNumber );3;3;12
+InstantiatedIndexReader.getTermFreqVector( int docNumber , String field , TermVectorMapper mapper );4;3;10
+InstantiatedIndexReader.getTermFreqVector( int docNumber , TermVectorMapper mapper );3;0;9
+InstantiatedIndexReader.doClose( );1;0;2
+InstantiatedIndexReader.norms( String field );4;2;13
+InstantiatedIndexReader.maxDoc( );1;0;3
+NormUpdate.NormUpdate( int doc , byte value );1;0;4
+InstantiatedIndexReader.numDocs( );1;2;3
+InstantiatedIndexReader.hasDeletions( );2;3;3
+InstantiatedIndexReader.document( int n );2;0;3
+InstantiatedIndexReader.document( int n , FieldSelector fieldSelector );1;0;3
+InstantiatedIndexReader.getTermFreqVector( int docNumber , String field );3;3;8
+InstantiatedIndexReader.doUndeleteAll( );1;0;4
+InstantiatedIndexReader.InstantiatedIndexReader( InstantiatedIndex index );1;0;4
+InstantiatedIndexReader.isCurrent( );1;0;3
+InstantiatedIndexReader.terms( Term t );3;4;12
+InstantiatedIndexReader.directory( );1;0;3

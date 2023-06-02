@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IvySettingsModel.doLoadModel( );1;0;127
+IvySettingsModel.getLoad( IvyFile file );1;1;4
+IvySettingsModel.newIvyFile( String name , String content , int documentOffset );1;0;3
+IvySettingsModel.typedefedTag( String tagName , final Class clazz );20;0;70
+IvySettingsModel.getTypedefClasses( ClassLoader cl , Map typedefs );3;0;11
+IvySettingsModel.refreshIfNeeded( IvyFile file );2;1;6
+IvySettingsModel.getChildClasses( Map classes , Class type );3;0;10
+IvySettingsModel.isSupportedChildType( Class type );13;25;10
+IvySettingsModel.getRootIvyTagName( );1;0;3
+IvySettingsModel.doRefresh( IvyFile file , String toLoad );1;0;8
+IvySettingsModel.hasChild( );1;0;4
+IvySettingsModel.getChilds( );1;0;4
+IvySettingsModel.getAttributes( );1;0;4
+IvySettingsModel.getTypedefClasses( IvySettingsFile file , ClassLoader cl );1;0;4
+IvySettingsModel.init( );20;17;52
+IvySettingsModel.addTypedefChildren( IvyTag tag , Map children );2;0;8
+IvySettingsModel.IvySettingsModel( IvyModelSettings settings , File file );1;0;7
+IvySettingsModel.isSupportedAttributeType( Class type );14;11;18
+IvySettingsModel.getClassLoader( IvySettingsFile sfile );2;1;7

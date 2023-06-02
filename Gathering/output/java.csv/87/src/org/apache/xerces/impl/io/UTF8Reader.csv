@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UTF8Reader.reset( );1;1;4
+UTF8Reader.close( );1;0;3
+UTF8Reader.invalidByte( int position , int count , int c );1;0;7
+UTF8Reader.markSupported( );1;0;3
+UTF8Reader.read( char ch [ ] , int offset , int length );53;167;249
+UTF8Reader.UTF8Reader( InputStream inputStream , byte [ ] buffer , MessageFormatter messageFormatter , Locale locale );1;0;6
+UTF8Reader.UTF8Reader( InputStream inputStream );1;0;3
+UTF8Reader.ready( );1;0;3
+UTF8Reader.read( );35;109;95
+UTF8Reader.skip( long n );4;5;16
+UTF8Reader.UTF8Reader( InputStream inputStream , int size , MessageFormatter messageFormatter , Locale locale );1;0;3
+***not in a method***;0;1;0
+UTF8Reader.invalidSurrogate( int uuuuu );1;0;7
+UTF8Reader.UTF8Reader( InputStream inputStream , MessageFormatter messageFormatter , Locale locale );1;0;3
+UTF8Reader.mark( int readAheadLimit );1;0;3
+UTF8Reader.expectedByte( int position , int count );1;0;7

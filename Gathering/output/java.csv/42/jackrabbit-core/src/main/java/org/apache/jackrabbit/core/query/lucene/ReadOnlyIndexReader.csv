@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReadOnlyIndexReader.getDeletedDocsVersion( );1;0;3
+ReadOnlyIndexReader.hasDeletions( );1;1;3
+FilteredTermPositions.nextPosition( );1;0;3
+ReadOnlyIndexReader.isDeleted( int n );1;0;3
+FilteredTermDocs.read( int [ ] docs , int [ ] freqs );3;3;8
+ReadOnlyIndexReader.termPositions( );1;0;3
+ReadOnlyIndexReader.doCommit( );1;0;3
+FilteredTermPositions.isPayloadAvailable( );1;0;3
+ReadOnlyIndexReader.doUndeleteAll( );1;0;3
+FilteredTermDocs.skipTo( int i );3;1;7
+ReadOnlyIndexReader.updateDeletedDocs( CommittableIndexReader reader );3;2;9
+FilteredTermDocs.FilteredTermDocs( TermDocs in );1;0;3
+ReadOnlyIndexReader.getParent( int n );1;0;3
+FilteredTermPositions.getPayload( byte [ ] data , int offset );1;0;3
+FilteredTermPositions.FilteredTermPositions( TermPositions in );1;0;3
+ReadOnlyIndexReader.getBase( );1;0;3
+ReadOnlyIndexReader.ReadOnlyIndexReader( SharedIndexReader reader , BitSet deleted , long deletedDocsVersion );1;0;7
+FilteredTermDocs.next( );3;1;7
+ReadOnlyIndexReader.termDocs( );1;0;3
+ReadOnlyIndexReader.termDocs( Term term );2;1;7
+ReadOnlyIndexReader.getCreationTick( );1;0;3
+FilteredTermPositions.getPayloadLength( );1;0;3
+ReadOnlyIndexReader.numDocs( );1;1;3
+ReadOnlyIndexReader.doDelete( int docNum );1;0;3

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SuiteEndedAction.dispatch( TestRunListener listener , TestRunEvent evt );1;0;3
+EventDispatcher.dispatchEvent( TestRunEvent evt );3;3;14
+RunStoppedAction.dispatch( TestRunListener listener , TestRunEvent evt );1;0;3
+EventDispatcher.registerDefaults( );1;0;11
+EventDispatcher.removeListener( TestRunListener listener );1;0;3
+TestEndedAction.dispatch( TestRunListener listener , TestRunEvent evt );1;0;3
+RunEndedAction.dispatch( TestRunListener listener , TestRunEvent evt );1;0;3
+EventDispatcher.registerAction( int id , EventAction action );1;0;3
+TestStartedAction.dispatch( TestRunListener listener , TestRunEvent evt );1;0;3
+SuiteStartedAction.dispatch( TestRunListener listener , TestRunEvent evt );1;0;3
+TestErrorAction.dispatch( TestRunListener listener , TestRunEvent evt );1;0;3
+RunStartedAction.dispatch( TestRunListener listener , TestRunEvent evt );1;0;3
+TestFailureAction.dispatch( TestRunListener listener , TestRunEvent evt );1;0;3
+EventDispatcher.addListener( TestRunListener listener );1;0;3

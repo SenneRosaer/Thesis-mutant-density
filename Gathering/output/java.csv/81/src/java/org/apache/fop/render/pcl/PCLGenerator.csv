@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PCLGenerator.isMonochromeImage( RenderedImage img );2;1;9
+PCLGenerator.calculatePCLResolution( int resolution , boolean increased );11;17;22
+PCLGenerator.enterPCLMode( boolean restorePreviousPCLCursor );2;0;7
+PCLGenerator.selectGrayscale( Color col );4;0;14
+PCLGenerator.convertToPCLShade( Color col );1;3;4
+PCLGenerator.fillRect( int w , int h , Color col );7;12;26
+PCLGenerator.formFeed( );1;0;3
+PCLGenerator.calculatePCLResolution( int resolution );1;0;3
+PCLGenerator.setSourceTransparencyMode( boolean transparent );1;0;3
+PCLGenerator.enterHPGL2Mode( boolean restorePreviousHPGL2Cursor );2;0;7
+***not in a method***;0;4;0
+PCLGenerator.changePrintDirection( int rotate );1;0;3
+PCLGenerator.getAdjustedDimension( Dimension orgDim , double orgResolution , int pclResolution );2;5;10
+PCLGenerator.setTextLength( int numberOfLines );1;0;3
+PCLGenerator.isGrayscaleImage( RenderedImage img );1;1;3
+PCLGenerator.writeText( String s );1;0;3
+PCLGenerator.formatDouble4( double value );1;0;3
+PCLGenerator.universalEndOfLanguage( );1;0;3
+PCLGenerator.popCursorPos( );1;0;3
+PCLGenerator.setRasterGraphicsResolution( int value );1;0;3
+PCLGenerator.formatDouble2( double value );1;0;3
+PCLGenerator.setPatternTransparencyMode( boolean transparent );1;0;3
+PCLGenerator.clearHorizontalMargins( );1;0;3
+PCLGenerator.deriveBayerMatrix( int [ ] d );3;7;10
+PCLGenerator.selectDuplexMode( int selector );1;0;3
+PCLGenerator.PCLGenerator( OutputStream out );1;0;3
+PCLGenerator.getMaximumBitmapResolution( );1;0;3
+PCLGenerator.selectCurrentPattern( int patternID , int pattern );2;1;6
+PCLGenerator.setCursorPos( double x , double y );2;5;7
+PCLGenerator.setTopMargin( int numberOfLines );1;0;3
+PCLGenerator.createMonochromeBitmapConverter( );6;1;16
+PCLGenerator.selectPaperSource( int selector );1;0;3
+PCLGenerator.selectPageSize( int selector );1;0;3
+PCLGenerator.setValueInMatrix( int [ ] dn , int half , int part , int idx , int value );1;12;6
+PCLGenerator.pushCursorPos( );1;0;3
+PCLGenerator.paintMonochromeBitmap( RenderedImage img , int resolution );15;40;70
+PCLGenerator.defineGrayscalePattern( Color col , int patternID , int ditherMatrixSize );7;41;44
+PCLGenerator.PCLGenerator( OutputStream out , int maxResolution );4;4;14
+PCLGenerator.getMask( RenderedImage img , Dimension targetDim );3;2;35
+PCLGenerator.resetPrinter( );1;0;3
+PCLGenerator.isValidPCLResolution( int resolution );1;1;3
+PCLGenerator.convertToGray( int r , int g , int b );1;6;3
+PCLGenerator.paintBitmap( RenderedImage img , Dimension targetDim , boolean sourceTransparency );11;15;73
+PCLGenerator.setUnitOfMeasure( int value );1;0;3
+PCLGenerator.separateJobs( );1;0;3
+PCLGenerator.writeCommand( String cmd );1;0;4
+PCLGenerator.getOutputStream( );1;0;3
+PCLGenerator.setVMI( double value );1;0;3
+PCLGenerator.setTransparencyMode( boolean source , boolean pattern );9;5;11

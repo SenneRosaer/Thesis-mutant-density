@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FilteredQuery.score( );1;1;1
+FilteredQuery.equals( Object o );4;3;7
+FilteredQuery.getValue( );1;0;1
+FilteredQuery.createWeight( final Searcher searcher );14;0;74
+FilteredQuery.doc( );1;0;1
+FilteredQuery.next( );3;2;3
+FilteredQuery.rewrite( IndexReader reader );2;1;10
+FilteredQuery.FilteredQuery( Query query , Filter filter );1;0;4
+FilteredQuery.skipTo( int i );3;2;5
+FilteredQuery.getQuery( );1;0;1
+FilteredQuery.explain( IndexReader ir , int i );4;4;19
+FilteredQuery.toString( String s );1;0;9
+FilteredQuery.hashCode( );1;2;3
+FilteredQuery.sumOfSquaredWeights( );1;2;3
+FilteredQuery.normalize( float v );1;1;4
+FilteredQuery.explain( int i );3;3;11
+FilteredQuery.getFilter( );1;0;3
+FilteredQuery.scorer( IndexReader indexReader );11;0;39
+FilteredQuery.advanceToCommon( );5;4;12
+FilteredQuery.extractTerms( Set terms );1;0;3

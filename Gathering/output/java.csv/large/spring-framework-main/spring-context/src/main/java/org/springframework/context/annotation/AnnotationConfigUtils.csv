@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnnotationConfigUtils.processCommonDefinitionAnnotations( AnnotatedBeanDefinition abd );1;0;3
+AnnotationConfigUtils.unwrapDefaultListableBeanFactory( BeanDefinitionRegistry registry );3;0;11
+AnnotationConfigUtils.attributesFor( AnnotatedTypeMetadata metadata , Class < ? > annotationClass );1;0;3
+AnnotationConfigUtils.registerPostProcessor( BeanDefinitionRegistry registry , RootBeanDefinition definition , String beanName );1;0;5
+AnnotationConfigUtils.applyScopedProxyMode( ScopeMetadata metadata , BeanDefinitionHolder definition , BeanDefinitionRegistry registry );2;0;8
+AnnotationConfigUtils.attributesFor( AnnotatedTypeMetadata metadata , String annotationClassName );1;0;3
+AnnotationConfigUtils.registerAnnotationConfigProcessors( BeanDefinitionRegistry registry );1;0;3
+AnnotationConfigUtils.attributesForRepeatable( AnnotationMetadata metadata , Class < ? > containerClass , Class < ? > annotationClass );1;0;3
+***not in a method***;0;1;0
+AnnotationConfigUtils.addAttributesIfNotNull( Set < AnnotationAttributes > result , @ Nullable Map < String , Object > attributes );2;1;5
+AnnotationConfigUtils.processCommonDefinitionAnnotations( AnnotatedBeanDefinition abd , AnnotatedTypeMetadata metadata );8;6;27
+AnnotationConfigUtils.attributesForRepeatable( AnnotationMetadata metadata , String containerClassName , String annotationClassName );4;2;11
+AnnotationConfigUtils.registerAnnotationConfigProcessors( BeanDefinitionRegistry registry , @ Nullable Object source );16;13;62

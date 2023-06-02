@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WrappedX509KeyManager.getServerAliases( String keyType , Principal [ ] issuers );1;0;4
+JsseSSLManager.createContext( );12;11;45
+JsseSSLManager.setContext( HttpURLConnection conn );2;0;6
+JsseSSLManager.getContext( );6;1;20
+WrappedX509KeyManager.getClientAliases( String keyType , Principal [ ] issuers );1;0;5
+WrappedX509KeyManager.getPrivateKey( String alias );1;0;4
+JsseSSLManager.setProvider( Provider p );2;1;6
+JsseSSLManager.verify( String hostname , SSLSession session );1;0;3
+JsseSSLManager.resetContext( );2;1;6
+WrappedX509KeyManager.WrappedX509KeyManager( X509KeyManager parent , JmeterKeyStore ks );1;0;4
+JsseSSLManager.JsseSSLManager( Provider provider );4;1;30
+***not in a method***;0;1;0
+WrappedX509KeyManager.chooseServerAlias( String arg0 , Principal [ ] arg1 , Socket arg2 );1;0;3
+WrappedX509KeyManager.getCertificateChain( String alias );1;0;4
+WrappedX509KeyManager.chooseClientAlias( String [ ] keyType , Principal [ ] issuers , Socket socket );3;3;8

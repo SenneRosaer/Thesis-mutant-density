@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IvyResolveJob.isSourceArtifactName( String jar , String source );1;0;3
+IvyResolveJob.getSourcesArtifactPath( ArtifactDownloadReport adr , Collection all );6;4;15
+IvyResolveJob.accept( Artifact artifact );3;4;5
+IvyResolveJob.getExtraAttribute( Path classpathArtifact , Path javadocArtifact );6;3;27
+IvyResolveJob.warnIfDuplicates( Collection all );10;9;34
+IvyResolveJob.isArtifactName( String jar , String name , Collection suffixes );4;1;12
+IvyResolveJob.artifacts2ClasspathEntries( Collection all , Map dependencies );15;12;53
+IvyResolveJob.run( );15;8;115
+IvyResolveJob.findModuleDescriptor( IJavaProject javaProject );3;1;14
+IvyResolveJob.getSourceAttachment( Path classpathArtifact , Path sourcesArtifact );2;1;8
+IvyResolveJob.isSources( Artifact artifact );1;0;3
+IvyResolveJob.setResolveStatus( IStatus status );8;3;32
+IvyResolveJob.progress( IvyEvent event );11;5;31
+IvyResolveJob.isJavadoc( Artifact artifact );1;0;3
+IvyResolveJob.getJavadocArtifactPath( ArtifactDownloadReport adr , Collection all );7;5;15
+IvyResolveJob.run( IProgressMonitor m );22;4;157
+IvyResolveJob.maybeRetrieve( ModuleDescriptor md , String [ ] confs );2;1;13
+IvyResolveJob.IvyResolveJob( IvyClasspathContainer container , boolean usePreviousResolveIfExist );1;0;6
+IvyResolveJob.isJavadocArtifactName( String jar , String javadoc );1;0;3
+IvyResolveJob.getSourceAttachmentRoot( Path classpathArtifact , Path sourcesArtifact );3;3;8
+IvyResolveJob.listDependencies( ResolveReport r );2;0;10
+IvyResolveJob.transferProgress( TransferEvent evt );6;7;25

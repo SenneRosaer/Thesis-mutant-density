@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractVirtualUserTable.getUserDomainMappings( String user , String domain );1;0;3
+AbstractVirtualUserTable.removeErrorMapping( String user , String domain , String error );1;1;4
+AbstractVirtualUserTable.removeAliasDomainMapping( String aliasDomain , String realDomain );1;1;4
+AbstractVirtualUserTable.setAutoDetectIP( boolean autoDetectIP );1;0;4
+AbstractVirtualUserTable.setRecursiveMapping( boolean recursive );1;0;3
+AbstractVirtualUserTable.mapAddress( String user , String domain );5;5;21
+AbstractVirtualUserTable.getAllMappings( );2;1;9
+AbstractVirtualUserTable.addErrorMapping( String user , String domain , String error );2;2;8
+AbstractVirtualUserTable.getMappings( String user , String domain , int mappingLimit );16;10;56
+AbstractVirtualUserTable.addRegexMapping( String user , String domain , String regex );3;2;13
+AbstractVirtualUserTable.service( ServiceManager arg0 );1;0;3
+AbstractVirtualUserTable.setAutoDetect( boolean autoDetect );1;0;4
+AbstractVirtualUserTable.addMapping( String user , String domain , String mapping );5;1;13
+AbstractVirtualUserTable.getDomains( );11;10;32
+AbstractVirtualUserTable.addAddressMapping( String user , String domain , String address );4;2;16
+AbstractVirtualUserTable.setMappingLimit( int mappingLimit );2;1;4
+AbstractVirtualUserTable.getDomainsIP( List domains , DNSService dns , Logger log );5;6;14
+AbstractVirtualUserTable.getDomainIP( String domain , DNSService dns , Logger log );4;3;15
+AbstractVirtualUserTable.checkMapping( String user , String domain , String mapping );3;2;8
+AbstractVirtualUserTable.configure( Configuration arg0 );4;2;14
+AbstractVirtualUserTable.removeAddressMapping( String user , String domain , String address );2;1;7
+AbstractVirtualUserTable.addAliasDomainMapping( String aliasDomain , String realDomain );1;1;4
+AbstractVirtualUserTable.removeMapping( String user , String domain , String mapping );5;1;13
+AbstractVirtualUserTable.removeRegexMapping( String user , String domain , String regex );1;1;4
+AbstractVirtualUserTable.getMappings( String user , String domain );1;0;3

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LongValidator.processParsedValue( Object value , Format formatter );2;0;7
+LongValidator.maxValue( long value , long max );1;1;3
+LongValidator.getInstance( );1;0;3
+LongValidator.validate( String value );1;0;3
+LongValidator.validate( String value , String pattern , Locale locale );1;0;3
+LongValidator.LongValidator( boolean strict , int formatType );1;0;3
+LongValidator.LongValidator( );1;0;3
+LongValidator.validate( String value , Locale locale );1;0;3
+LongValidator.maxValue( Long value , long max );1;0;3
+LongValidator.validate( String value , String pattern );1;0;3
+LongValidator.minValue( Long value , long min );1;0;3
+LongValidator.isInRange( long value , long min , long max );2;3;3
+LongValidator.minValue( long value , long min );1;1;3
+LongValidator.isInRange( Long value , long min , long max );1;0;3

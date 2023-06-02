@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Instantiator.save( Document metaDoc , ModifiableSource metaSource );4;1;15
+Instantiator.service( ServiceManager manager );1;0;3
+Instantiator.addTemplateConfiguration( Publication template , DefaultConfiguration config );2;2;10
+Instantiator.copySource( Publication template , String publicationId , SourceResolver resolver , String publicationsUri , String source );3;6;18
+Instantiator.updateConfiguration( SourceResolver resolver , Publication template , String newPublicationId , String publicationsUri );6;5;32
+Instantiator.removeChildren( MutableConfiguration config , String name );2;2;6
+Instantiator.instantiate( Publication template , String newPublicationId , String name );7;5;40
+Instantiator.configureSearchIndex( SourceResolver resolver , Publication template , String newPublicationId , String publicationsUri );5;9;35
+Instantiator.copyDirSource( Publication template , String publicationId , SourceResolver resolver , String publicationsUri , String source );3;4;15
+Instantiator.updateMetaData( SourceResolver resolver , String newPublicationId , String name , String publicationsUri );3;4;18

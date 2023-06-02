@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TextAttributesConverter.hasBorder( FONode node );6;3;18
+TextAttributesConverter.TextAttributesConverter( );1;0;2
+TextAttributesConverter.attrBlockMargin( CommonMarginBlock cmb , FOPRtfAttributes rtfAttr );1;0;8
+TextAttributesConverter.attrFont( CommonFont font , FOPRtfAttributes rtfAttr );5;6;17
+TextAttributesConverter.attrBackgroundColor( CommonBorderPaddingBackground bpb , RtfAttributes rtfAttr );6;9;14
+TextAttributesConverter.attrFontColor( Color colorType , RtfAttributes rtfAttr );6;8;11
+TextAttributesConverter.convertMptToTwips( int mpt );1;0;3
+TextAttributesConverter.convertLeaderAttributes( Leader fobj , PercentBaseContext context );24;4;91
+TextAttributesConverter.convertBlockContainerAttributes( BlockContainer fobj );1;0;7
+TextAttributesConverter.attrBlockTextAlign( int alignment , RtfAttributes rtfAttr );4;0;18
+TextAttributesConverter.convertAttributes( Block fobj );1;0;10
+TextAttributesConverter.convertCharacterAttributes( Inline fobj );1;0;8
+TextAttributesConverter.attrBlockBackgroundColor( CommonBorderPaddingBackground bpb , RtfAttributes rtfAttr );2;0;7
+TextAttributesConverter.attrBorder( CommonBorderPaddingBackground bpb , RtfAttributes rtfAttr , FONode fobj );2;0;18
+TextAttributesConverter.convertFOPColorToRTF( Color fopColor );1;0;7
+TextAttributesConverter.attrBaseLineShift( Length baselineShift , RtfAttributes rtfAttr );3;2;8
+TextAttributesConverter.attrTextDecoration( CommonTextDecoration textDecoration , RtfAttributes rtfAttr );4;1;17
+TextAttributesConverter.attrInlineBorder( CommonBorderPaddingBackground bpb , RtfAttributes rtfAttr );1;0;5
+TextAttributesConverter.convertCharacterAttributes( FOText fobj );1;0;8
+TextAttributesConverter.convertCharacterAttributes( PageNumber fobj );1;0;7

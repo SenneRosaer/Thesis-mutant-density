@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RtfTableRow.newTableCellMergedVertically( int cellWidth , RtfAttributes attrs );1;1;6
+RtfTableRow.writeRtfSuffix( );2;0;16
+RtfTableRow.newTableCell( int cellWidth );1;1;5
+RtfTableRow.writePaddingAttributes( );7;9;21
+RtfTableRow.adjustBorderProperties( RtfTable parentTable );7;4;14
+RtfTableRow.RtfTableRow( RtfTable parent , Writer w , RtfAttributes attrs , int idNum );1;0;4
+RtfTableRow.getTable( );3;1;10
+RtfTableRow.isFirstRow( );1;1;3
+RtfTableRow.isHighestCell( int cellId );2;1;3
+RtfTableRow.writeRtfContent( );2;0;9
+RtfTableRow.newTableCellMergedHorizontally( int cellWidth , RtfAttributes attrs );2;2;10
+RtfTableRow.newTableCell( int cellWidth , RtfAttributes attrs );1;1;5
+RtfTableRow.writeRtfPrefix( );1;0;4
+RtfTableRow.writeRowAndCellsDefintions( );27;24;91
+RtfTableRow.RtfTableRow( RtfTable parent , Writer w , int idNum );1;0;4

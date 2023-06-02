@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FOTreeBuilder.setDocumentLocator( Locator locator );1;0;3
+FOTreeBuilder.endElement( String uri , String localName , String rawName );3;3;11
+MainFOHandler.characters( char [ ] data , int start , int length );2;1;6
+MainFOHandler.findFOMaker( String namespaceURI , String localName );2;0;12
+FOTreeBuilder.warning( SAXParseException e );1;0;3
+FOTreeBuilder.characters( char [ ] data , int start , int length );1;0;3
+MainFOHandler.startElement( String namespaceURI , String localName , String rawName , Attributes attlist );17;15;66
+FOTreeBuilder.getEventHandler( );1;0;3
+MainFOHandler.endElement( String uri , String localName , String rawName );11;14;31
+FOTreeBuilder.error( SAXParseException e );1;0;3
+FOTreeBuilder.make( FObj fobj , PropertyList parentPropertyList );1;0;3
+FOTreeBuilder.startDocument( );3;0;16
+FOTreeBuilder.FOTreeBuilder( String outputFormat , FOUserAgent foUserAgent , OutputStream stream );1;0;12
+FOTreeBuilder.endDocument( );4;2;13
+FOTreeBuilder.getEffectiveLocator( );2;0;3
+MainFOHandler.endDocument( );1;0;3
+FOTreeBuilder.getResults( );2;0;7
+FOTreeBuilder.fatalError( SAXParseException e );1;0;4
+FOTreeBuilder.startElement( String namespaceURI , String localName , String rawName , Attributes attlist );1;1;4

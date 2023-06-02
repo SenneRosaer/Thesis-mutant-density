@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XLinkPipe.startLocator( String href , String role , String title , String label , String uri , String name , String raw , Attributes attr );5;8;16
+XLinkPipe.linkTitle( String uri , String name , String raw , Attributes attr );1;0;3
+XLinkPipe.endLocator( String uri , String name , String raw );1;0;3
+XLinkPipe.endElement( String uri , String name , String raw );7;3;24
+XLinkPipe.simpleLink( String href , String role , String arcrole , String title , String show , String actuate , String uri , String name , String raw , Attributes attr );7;12;22
+XLinkPipe.startArc( String arcrole , String title , String show , String actuate , String from , String to , String uri , String name , String raw , Attributes attr );7;12;22
+XLinkPipe.endArc( String uri , String name , String raw );1;0;3
+XLinkPipe.startElement( String uri , String name , String raw , Attributes attr );24;19;123
+XLinkPipe.endExtendedLink( String uri , String name , String raw );1;0;3
+XLinkPipe.startExtendedLink( String role , String title , String uri , String name , String raw , Attributes attr );3;4;10
+XLinkPipe.linkResource( String role , String title , String label , String uri , String name , String raw , Attributes attr );4;6;13

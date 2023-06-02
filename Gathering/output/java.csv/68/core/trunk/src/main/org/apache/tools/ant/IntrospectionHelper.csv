@@ -1,0 +1,69 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IntrospectionHelper.getHelper( Project p , Class c );4;4;10
+IntrospectionHelper.createDynamicElement( Object parent , String ns , String localName , String qName );4;2;13
+IntrospectionHelper.createAddTypeCreator( Project project , Object parent , String elementName );10;8;45
+Creator.create( );10;5;31
+NestedCreator.isPolyMorphic( );1;0;3
+IntrospectionHelper.setAttribute( Project p , Object element , String attributeName , Object value );9;6;33
+IntrospectionHelper.IntrospectionHelper( final Class bean );49;51;92
+***not in a method***;0;2;0
+Creator.getRealObject( );1;0;3
+CreateNestedCreator.CreateNestedCreator( Method m );1;0;3
+IntrospectionHelper.throwNotSupported( Project project , Object parent , String elementName );1;3;6
+IntrospectionHelper.setAttribute( Project p , Object element , String attributeName , String value );1;0;3
+IntrospectionHelper.getAttributes( );1;0;3
+AddNestedCreator.istore( Object parent , Object child );1;0;3
+IntrospectionHelper.supportsReflectElement( String parentUri , String elementName );5;1;17
+IntrospectionHelper.getAttributeType( String attributeName );2;1;9
+AddNestedCreator.AddNestedCreator( Method m , Constructor c , int behavior );1;0;5
+AddNestedCreator.store( Object parent , Object child );2;1;5
+IntrospectionHelper.clearCache( );1;0;3
+AddNestedCreator.isPolyMorphic( );1;0;3
+IntrospectionHelper.store( Object parent , Object child );2;0;5
+IntrospectionHelper.addText( Project project , Object element , String text );5;3;17
+NestedCreator.NestedCreator( Method m );1;0;3
+IntrospectionHelper.condenseText( final String text );2;4;7
+Creator.setPolyType( String polyType );1;0;3
+Creator.Creator( Project project , Object parent , NestedCreator nestedCreator );1;0;5
+NestedCreator.store( Object parent , Object child );1;0;2
+AttributeSetter.setObject( Project p , Object parent , Object value );6;4;19
+NestedCreator.getMethod( );1;0;3
+IntrospectionHelper.getExtensionPoints( );2;0;4
+IntrospectionHelper.getAttributeMethod( String attributeName );2;1;9
+IntrospectionHelper.storeElement( Project project , Object parent , Object child , String elementName );6;2;18
+NestedCreator.getRealObject( );1;0;3
+IntrospectionHelper.create( Project project , Object parent , Object ignore );1;1;3
+IntrospectionHelper.getNestedElementMap( );2;0;4
+IntrospectionHelper.supportsNestedElement( String elementName );1;0;3
+IntrospectionHelper.findRestrictedDefinition( ComponentHelper helper , String componentName , List methods );6;6;30
+IntrospectionHelper.createTopLevel( ComponentHelper helper , String elementName , List methods );3;2;12
+IntrospectionHelper.set( Project p , Object parent , String value );1;2;4
+Creator.store( );6;1;16
+IntrospectionHelper.extractBuildException( InvocationTargetException ite );2;0;7
+IntrospectionHelper.getAttributeMap( );2;0;4
+IntrospectionHelper.supportsCharacters( );1;1;3
+IntrospectionHelper.getRealObject( );1;0;3
+IntrospectionHelper.supportsNestedElement( String parentUri , String elementName );3;2;6
+IntrospectionHelper.insertAddTypeMethod( Method method );5;2;17
+IntrospectionHelper.getElementName( Project project , Object element );1;0;3
+IntrospectionHelper.supportsNestedElement( String parentUri , String elementName , Project project , Object parent );4;4;7
+MethodAndObject.MethodAndObject( Method method , Object object );1;0;4
+AttributeSetter.AttributeSetter( Method m , Class type );1;0;4
+CreateNestedCreator.create( Project project , Object parent , Object ignore );1;0;3
+IntrospectionHelper.getNestedElements( );1;0;3
+IntrospectionHelper.getElementMethod( String elementName );2;1;9
+IntrospectionHelper.getNestedCreator( Project project , String parentUri , Object parent , String elementName , UnknownElement child );13;10;38
+IntrospectionHelper.getHelper( Class c );1;0;3
+IntrospectionHelper.getEnumSetter( final Class reflectedArg , final Method m , Class arg );7;2;32
+IntrospectionHelper.getElementCreator( Project project , String parentUri , Object parent , String elementName , UnknownElement ue );1;0;4
+IntrospectionHelper.createElement( Project project , Object parent , String elementName );5;1;16
+IntrospectionHelper.findMatchingMethod( Class paramClass , List methods );6;5;21
+IntrospectionHelper.getAddTextMethod( );2;1;7
+IntrospectionHelper.getElementType( String elementName );2;1;9
+IntrospectionHelper.isContainer( );1;0;3
+AddNestedCreator.create( Project project , Object parent , Object child );5;3;14
+IntrospectionHelper.isDynamic( );2;1;4
+IntrospectionHelper.createRestricted( ComponentHelper helper , String elementName , List addTypeMethods );4;3;22
+IntrospectionHelper.isHiddenSetMethod( String name , Class type );5;2;9
+IntrospectionHelper.getPropertyName( String methodName , String prefix );1;0;3
+IntrospectionHelper.createAttributeSetter( final Method m , Class arg , final String attrName );25;3;137

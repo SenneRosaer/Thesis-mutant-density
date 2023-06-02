@@ -1,0 +1,91 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EntryIterator.getValue( );2;1;5
+SimpleEntry.SimpleEntry( Object key , Object value );1;0;4
+Segment.remove( Object key , int hash , Object value );8;13;29
+SimpleEntry.eq( Object o1 , Object o2 );2;2;3
+InternalConcurrentHashMap.keySet( );2;1;4
+KeyIterator.nextElement( );1;0;1
+InternalConcurrentHashMap.put( Object key , Object value );2;1;6
+Segment.containsKey( Object key , int hash );5;4;11
+InternalConcurrentHashMap.putIfAbsent( Object key , Object value );2;1;6
+HashIterator.HashIterator( );1;2;5
+EntryIterator.equals( Object o );4;3;8
+InternalConcurrentHashMap.readObject( java . io . ObjectInputStream s );4;3;13
+SimpleEntry.toString( );1;1;3
+Segment.containsValue( Object value );6;5;18
+EntryIterator.getKey( );2;1;5
+Segment.readValueUnderLock( HashEntry e );1;0;8
+Values.iterator( );1;0;3
+EntryIterator.eq( Object o1 , Object o2 );2;2;3
+Segment.Segment( int initialCapacity , float lf );1;0;4
+InternalConcurrentHashMap.segmentFor( int hash );1;2;3
+HashEntry.HashEntry( Object key , int hash , HashEntry next , Object value );1;0;6
+InternalConcurrentHashMap.InternalConcurrentHashMap( );1;0;3
+SimpleEntry.getValue( );1;0;3
+InternalConcurrentHashMap.InternalConcurrentHashMap( Map t );1;2;6
+Values.clear( );1;0;3
+KeySet.toArray( );2;0;6
+InternalConcurrentHashMap.isEmpty( );7;10;19
+KeySet.toArray( Object [ ] a );2;0;6
+EntryIterator.hashCode( );4;4;8
+Segment.setTable( HashEntry [ ] newTable );1;1;4
+Segment.replace( Object key , int hash , Object newValue );5;6;16
+InternalConcurrentHashMap.values( );2;1;4
+InternalConcurrentHashMap.get( Object key );1;0;4
+Segment.getFirst( int hash );1;2;4
+EntrySet.clear( );1;0;3
+EntrySet.toArray( Object [ ] a );2;0;6
+SimpleEntry.getKey( );1;0;3
+InternalConcurrentHashMap.containsKey( Object key );1;0;4
+Segment.put( Object key , int hash , Object value , boolean onlyIfAbsent );7;12;29
+Segment.replace( Object key , int hash , Object oldValue , Object newValue );6;7;16
+EntrySet.toArray( );2;0;6
+ValueIterator.next( );1;0;1
+InternalConcurrentHashMap.replace( Object key , Object value );2;1;6
+HashIterator.advance( );9;14;20
+Values.toArray( );2;0;6
+InternalConcurrentHashMap.hash( Object x );1;8;8
+KeySet.clear( );1;0;3
+Segment.clear( );3;4;14
+SimpleEntry.SimpleEntry( Entry e );1;0;4
+KeySet.size( );1;0;3
+***not in a method***;0;2;0
+InternalConcurrentHashMap.remove( Object key );1;0;4
+KeySet.remove( Object o );1;1;3
+KeySet.contains( Object o );1;0;3
+HashIterator.remove( );2;1;6
+InternalConcurrentHashMap.elements( );1;0;3
+InternalConcurrentHashMap.size( );12;22;39
+InternalConcurrentHashMap.InternalConcurrentHashMap( int initialCapacity );1;0;3
+EntrySet.contains( Object o );3;3;7
+Segment.get( Object key , int hash );6;5;15
+HashIterator.hasMoreElements( );1;0;1
+InternalConcurrentHashMap.containsValue( Object value );13;16;43
+EntryIterator.next( );1;0;4
+KeyIterator.next( );1;0;1
+InternalConcurrentHashMap.putAll( Map t );2;0;6
+InternalConcurrentHashMap.replace( Object key , Object oldValue , Object newValue );3;3;6
+HashIterator.nextEntry( );2;1;7
+EntrySet.size( );1;0;3
+InternalConcurrentHashMap.entrySet( );2;1;4
+Values.toArray( Object [ ] a );2;0;6
+Values.contains( Object o );1;0;3
+SimpleEntry.equals( Object o );3;2;6
+SimpleEntry.hashCode( );3;3;4
+InternalConcurrentHashMap.keys( );1;0;3
+InternalConcurrentHashMap.writeObject( java . io . ObjectOutputStream s );4;5;20
+EntrySet.iterator( );1;0;3
+InternalConcurrentHashMap.InternalConcurrentHashMap( int initialCapacity , float loadFactor );1;0;3
+KeySet.iterator( );1;0;3
+InternalConcurrentHashMap.remove( Object key , Object value );1;1;4
+EntryIterator.setValue( Object value );2;1;5
+EntryIterator.toString( );2;2;6
+HashIterator.hasNext( );1;1;1
+InternalConcurrentHashMap.InternalConcurrentHashMap( int initialCapacity , float loadFactor , int concurrencyLevel );10;21;25
+Segment.rehash( );8;14;39
+EntrySet.remove( Object o );2;1;6
+InternalConcurrentHashMap.clear( );2;2;4
+ValueIterator.nextElement( );1;0;1
+Values.size( );1;0;3
+InternalConcurrentHashMap.contains( Object value );1;0;3
+SimpleEntry.setValue( Object value );1;0;5

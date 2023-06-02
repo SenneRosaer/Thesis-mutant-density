@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HandlerResultHandlerSupport.setOrder( int order );1;0;3
+HandlerResultHandlerSupport.getContentTypeResolver( );1;0;3
+HandlerResultHandlerSupport.selectMoreSpecificMediaType( MediaType acceptable , MediaType producible );2;0;9
+HandlerResultHandlerSupport.getAdapterRegistry( );1;0;3
+HandlerResultHandlerSupport.selectMediaType( ServerWebExchange exchange , Supplier < List < MediaType > > producibleTypesSupplier , List < MediaType > acceptableTypes );13;9;43
+HandlerResultHandlerSupport.getAdapter( HandlerResult result );1;0;3
+HandlerResultHandlerSupport.HandlerResultHandlerSupport( RequestedContentTypeResolver contentTypeResolver , ReactiveAdapterRegistry adapterRegistry );1;0;6
+HandlerResultHandlerSupport.getProducibleTypes( ServerWebExchange exchange , Supplier < List < MediaType > > producibleTypesSupplier );2;1;4
+HandlerResultHandlerSupport.getAcceptableTypes( ServerWebExchange exchange );1;0;3
+HandlerResultHandlerSupport.getOrder( );1;0;3
+HandlerResultHandlerSupport.selectMediaType( ServerWebExchange exchange , Supplier < List < MediaType > > producibleTypesSupplier );1;0;3

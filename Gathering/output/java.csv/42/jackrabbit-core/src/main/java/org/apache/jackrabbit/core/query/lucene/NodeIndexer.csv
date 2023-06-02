@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodeIndexer.createFulltextField( String value , boolean store , boolean withOffsets );4;1;21
+NodeIndexer.addLongValue( Document doc , String fieldName , Object internalValue );1;0;5
+NodeIndexer.addStringValue( Document doc , String fieldName , Object internalValue , boolean tokenized , boolean includeInNodeIndex , float boost , boolean useInExcerpt );6;6;28
+NodeIndexer.addPathValue( Document doc , String fieldName , Object internalValue );2;0;10
+NodeIndexer.addBooleanValue( Document doc , String fieldName , Object internalValue );1;0;4
+NodeIndexer.getValue( Name name );3;1;15
+NodeIndexer.useInExcerpt( Name propertyName );2;1;7
+NodeIndexer.addLength( Document doc , String propertyName , InternalValue value );4;4;14
+NodeIndexer.addPropertyName( Document doc , Name name );2;0;8
+NodeIndexer.getNodeId( );1;0;3
+NodeIndexer.getPropertyBoost( Name propertyName );2;1;7
+NodeIndexer.isIncludedInNodeIndex( Name propertyName );2;1;7
+NodeIndexer.addStringValue( Document doc , String fieldName , Object internalValue , boolean tokenized );1;0;3
+NodeIndexer.addValue( Document doc , InternalValue value , Name name );24;3;68
+NodeIndexer.createFulltextField( Reader value );2;0;7
+NodeIndexer.setIndexFormatVersion( IndexFormatVersion indexFormatVersion );1;0;3
+NodeIndexer.addMVPName( Document doc , Name name );2;0;7
+NodeIndexer.addNodeName( Document doc , String namespaceURI , String localName );2;2;8
+NodeIndexer.isIndexed( Name propertyName );2;1;7
+NodeIndexer.createFulltextField( String value );1;0;3
+NodeIndexer.addCalendarValue( Document doc , String fieldName , Object internalValue );1;0;6
+NodeIndexer.addReferenceValue( Document doc , String fieldName , Object internalValue );1;0;9
+NodeIndexer.createFieldWithoutNorms( String fieldName , String internalValue , int propertyType );2;1;17
+NodeIndexer.setIndexingConfiguration( IndexingConfiguration config );1;0;3
+NodeIndexer.addDoubleValue( Document doc , String fieldName , Object internalValue );1;0;5
+NodeIndexer.throwRepositoryException( Exception e );1;0;5
+NodeIndexer.addStringValue( Document doc , String fieldName , Object internalValue );1;0;3
+NodeIndexer.createDoc( );13;6;59
+NodeIndexer.setSupportHighlighting( boolean b );1;0;3
+NodeIndexer.NodeIndexer( NodeState node , ItemStateManager stateProvider , NamespaceMappings mappings , TextExtractor extractor );1;0;7
+NodeIndexer.addStringValue( Document doc , String fieldName , Object internalValue , boolean tokenized , boolean includeInNodeIndex , float boost );1;0;3
+NodeIndexer.addBinaryValue( Document doc , String fieldName , Object internalValue );5;3;23
+NodeIndexer.getNodeBoost( );2;1;7
+NodeIndexer.addNameValue( Document doc , String fieldName , Object internalValue );2;1;10

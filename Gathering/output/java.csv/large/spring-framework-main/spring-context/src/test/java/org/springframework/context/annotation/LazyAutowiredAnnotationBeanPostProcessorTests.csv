@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConstructorResourceInjectionBeanWithCompositeAnnotation.ConstructorResourceInjectionBeanWithCompositeAnnotation( TestBean testBean );1;0;3
+MethodResourceInjectionBean.getTestBean( );1;0;3
+ConstructorResourceInjectionBean.getTestBean( );1;0;3
+LazyAutowiredAnnotationBeanPostProcessorTests.lazyResourceInjectionWithMethodLevelLazy( );1;0;3
+ConstructorResourceInjectionBeanWithCompositeAnnotation.getTestBean( );1;0;3
+LazyAutowiredAnnotationBeanPostProcessorTests.lazyResourceInjectionWithField( );1;0;20
+OptionalFieldResourceInjectionBean.getTestBeans( );1;0;3
+MethodResourceInjectionBeanWithCompositeAnnotation.getTestBean( );1;0;3
+ConstructorResourceInjectionBeanWithConstructorLevelLazy.ConstructorResourceInjectionBeanWithConstructorLevelLazy( TestBean testBean );1;0;3
+LazyAutowiredAnnotationBeanPostProcessorTests.doTestLazyResourceInjection( Class < ? extends TestBeanHolder > annotatedBeanClass );1;0;22
+FieldResourceInjectionBeanWithCompositeAnnotation.getTestBean( );1;0;3
+LazyAutowiredAnnotationBeanPostProcessorTests.lazyResourceInjectionWithConstructorAndCustomAnnotation( );1;0;3
+LazyAutowiredAnnotationBeanPostProcessorTests.lazyResourceInjectionWithConstructorLevelLazy( );1;0;3
+LazyAutowiredAnnotationBeanPostProcessorTests.lazyResourceInjectionWithNonExistingTarget( );1;0;14
+FieldResourceInjectionBean.getTestBeans( );1;0;3
+OptionalFieldResourceInjectionBean.getTestBean( );1;0;3
+FieldResourceInjectionBean.getTestBean( );1;0;3
+MethodResourceInjectionBeanWithMethodLevelLazy.setTestBean( TestBean testBean );2;1;6
+MethodResourceInjectionBeanWithCompositeAnnotation.setTestBean( TestBean testBean );2;1;6
+LazyAutowiredAnnotationBeanPostProcessorTests.lazyOptionalResourceInjectionWithNonExistingTarget( );1;0;16
+MethodResourceInjectionBean.setTestBean( @ Lazy TestBean testBean );2;1;6
+MethodResourceInjectionBeanWithMethodLevelLazy.getTestBean( );1;0;3
+LazyAutowiredAnnotationBeanPostProcessorTests.lazyResourceInjectionWithMethod( );1;0;3
+ConstructorResourceInjectionBeanWithConstructorLevelLazy.getTestBean( );1;0;3
+ConstructorResourceInjectionBean.ConstructorResourceInjectionBean( @ Lazy TestBean testBean );1;0;3
+LazyAutowiredAnnotationBeanPostProcessorTests.lazyResourceInjectionWithMethodAndCustomAnnotation( );1;0;3
+LazyAutowiredAnnotationBeanPostProcessorTests.lazyResourceInjectionWithConstructor( );1;0;3
+LazyAutowiredAnnotationBeanPostProcessorTests.lazyResourceInjectionWithFieldAndCustomAnnotation( );1;0;3

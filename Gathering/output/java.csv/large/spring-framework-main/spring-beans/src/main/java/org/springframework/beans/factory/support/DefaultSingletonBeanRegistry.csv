@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultSingletonBeanRegistry.getSingleton( String beanName );1;0;3
+DefaultSingletonBeanRegistry.registerDisposableBean( String beanName , DisposableBean bean );1;0;5
+DefaultSingletonBeanRegistry.registerContainedBean( String containedBeanName , String containingBeanName );2;1;10
+DefaultSingletonBeanRegistry.getSingletonMutex( );1;0;3
+DefaultSingletonBeanRegistry.destroySingleton( String beanName );1;0;8
+DefaultSingletonBeanRegistry.isDependent( String beanName , String dependentBeanName );1;0;5
+DefaultSingletonBeanRegistry.getSingletonCount( );1;0;5
+DefaultSingletonBeanRegistry.registerDependentBean( String beanName , String dependentBeanName );2;1;15
+DefaultSingletonBeanRegistry.beforeSingletonCreation( String beanName );3;3;5
+DefaultSingletonBeanRegistry.setCurrentlyInCreation( String beanName , boolean inCreation );2;1;9
+DefaultSingletonBeanRegistry.destroySingletons( );3;3;19
+DefaultSingletonBeanRegistry.isSingletonCurrentlyInCreation( String beanName );1;0;3
+DefaultSingletonBeanRegistry.containsSingleton( String beanName );1;0;3
+DefaultSingletonBeanRegistry.isDependent( String beanName , String dependentBeanName , @ Nullable Set < String > alreadySeen );8;4;23
+DefaultSingletonBeanRegistry.removeSingleton( String beanName );1;0;8
+DefaultSingletonBeanRegistry.addSingletonFactory( String beanName , ObjectFactory < ? > singletonFactory );2;1;10
+DefaultSingletonBeanRegistry.clearSingletonCache( );1;0;9
+DefaultSingletonBeanRegistry.getSingleton( String beanName , boolean allowEarlyReference );9;7;23
+DefaultSingletonBeanRegistry.registerSingleton( String beanName , Object singletonObject );2;1;12
+DefaultSingletonBeanRegistry.onSuppressedException( Exception ex );3;3;7
+DefaultSingletonBeanRegistry.isCurrentlyInCreation( String beanName );2;2;4
+DefaultSingletonBeanRegistry.getSingleton( String beanName , ObjectFactory < ? > singletonFactory );12;3;50
+DefaultSingletonBeanRegistry.getDependenciesForBean( String beanName );2;1;9
+DefaultSingletonBeanRegistry.isActuallyInCreation( String beanName );1;0;3
+DefaultSingletonBeanRegistry.destroyBean( String beanName , @ Nullable DisposableBean bean );11;3;44
+DefaultSingletonBeanRegistry.getDependentBeans( String beanName );2;1;9
+DefaultSingletonBeanRegistry.addSingleton( String beanName , Object singletonObject );1;0;8
+DefaultSingletonBeanRegistry.hasDependentBean( String beanName );1;0;3
+DefaultSingletonBeanRegistry.getSingletonNames( );1;0;5
+DefaultSingletonBeanRegistry.afterSingletonCreation( String beanName );3;3;5

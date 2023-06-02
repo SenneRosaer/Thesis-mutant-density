@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSPCookieHelper.getValue( Map objectModel , String cookieName , int cookieIndex );1;0;3
+XSPCookieHelper.returnCookieProperty( Map objectModel , String cookieName , int cookieIndex , String propertyPrefix );10;1;23
+XSPCookieHelper.getComment( Map objectModel , String cookieName , int cookieIndex );1;0;3
+XSPCookieHelper.getVersion( Map objectModel , String cookieName , int cookieIndex );1;0;3
+XSPCookieHelper.getSecure( Map objectModel , String cookieName , int cookieIndex );1;0;3
+XSPCookieHelper.getName( Map objectModel , String cookieName , int cookieIndex );1;0;3
+XSPCookieHelper.getMaxAge( Map objectModel , String cookieName , int cookieIndex );1;0;3
+XSPCookieHelper.getCookies( Map objectModel );1;0;4
+XSPCookieHelper.getCookie( Map objectModel , String cookieName , int cookieIndex );11;9;32
+XSPCookieHelper.getCookies( Map objectModel , ContentHandler contentHandler );13;13;40
+XSPCookieHelper.addCookie( Map objectModel , String name , String value , String comment , String domain , int maxage , String path , String secure , int version );6;4;18
+XSPCookieHelper.getPath( Map objectModel , String cookieName , int cookieIndex );1;0;3
+XSPCookieHelper.getCookie( Map objectModel , String cookieName , int cookieIndex , ContentHandler contentHandler );14;11;39
+XSPCookieHelper.getDomain( Map objectModel , String cookieName , int cookieIndex );1;0;3

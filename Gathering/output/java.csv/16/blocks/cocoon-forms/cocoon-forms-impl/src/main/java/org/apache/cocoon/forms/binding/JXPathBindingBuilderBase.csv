@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CommonAttributes.CommonAttributes( String location , boolean loadEnabled , boolean saveEnabled , Boolean leniency , Map nsDeclarations , AbstractFactory jxPathFactory );1;0;9
+CommonAttributes.isLoadEnabled( String direction );2;1;3
+CommonAttributes.CommonAttributes( String location , String direction , String leniency , Map nsDeclarations , AbstractFactory jxPathFactory );1;0;5
+CommonAttributes.isSaveEnabled( String direction );2;1;3
+CommonAttributes.decideLeniency( String leniency );1;0;3
+JXPathBindingBuilderBase.mergeCommonAttributes( CommonAttributes existing , CommonAttributes extra );6;5;24
+JXPathBindingBuilderBase.getCommonAttributes( Element bindingElm );10;5;40

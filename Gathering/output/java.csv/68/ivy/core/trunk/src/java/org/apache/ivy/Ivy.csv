@@ -1,0 +1,75 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Ivy.getVariable( String name );1;0;9
+Ivy.getIvyHomeURL( );1;0;3
+Ivy.getIvyVersion( );1;0;3
+Ivy.resolve( ModuleRevisionId mrid , ResolveOptions options , boolean changing );1;0;8
+Ivy.publish( ModuleRevisionId mrid , Collection srcArtifactPattern , String resolverName , PublishOptions options );1;0;8
+Ivy.setRetrieveEngine( RetrieveEngine retrieveEngine );1;0;3
+Ivy.assertBound( );2;1;5
+Ivy.listModuleEntries( OrganisationEntry org );1;0;8
+Ivy.findModule( ModuleRevisionId mrid );1;0;10
+Ivy.execute( IvyCallback callback );1;0;8
+Ivy.getSearchEngine( );1;0;3
+Ivy.getWorkingRevision( );1;0;3
+Ivy.getRepositoryEngine( );1;0;3
+Ivy.newInstance( );1;0;5
+Ivy.listOrganisationEntries( );1;0;8
+Ivy.listModules( String org );1;0;8
+Ivy.setSettings( IvySettings settings );1;0;3
+Ivy.setResolveEngine( ResolveEngine resolveEngine );1;0;3
+Ivy.transferProgress( TransferEvent evt );7;7;21
+Ivy.listRevisionEntries( ModuleEntry module );1;0;8
+Ivy.setInstallEngine( InstallEngine installEngine );1;0;3
+Ivy.popContext( );1;0;3
+Ivy.getSettings( );1;0;3
+Ivy.configure( URL settingsURL );1;0;10
+Ivy.setRepositoryEngine( RepositoryManagementEngine repositoryEngine );1;0;3
+Ivy.getRetrieveEngine( );1;0;3
+Ivy.install( ModuleRevisionId mrid , String from , String to , InstallOptions options );1;0;8
+Ivy.interrupt( Thread operatingThread );6;3;25
+Ivy.getIvyDate( );1;0;3
+Ivy.getEventManager( );1;0;3
+Ivy.resolve( URL ivySource , ResolveOptions options );1;0;8
+Ivy.checkInterrupted( );2;0;6
+Ivy.getResolveEngine( );1;0;3
+Ivy.pushContext( );2;1;8
+Ivy.setPublishEngine( PublishEngine publishEngine );1;0;3
+Ivy.getLoggerEngine( );1;0;3
+Ivy.setSearchEngine( SearchEngine searchEngine );1;0;3
+Ivy.setDeliverEngine( DeliverEngine deliverEngine );1;0;3
+***not in a method***;0;1;0
+Ivy.listModules( ModuleRevisionId criteria , PatternMatcher matcher );1;0;8
+Ivy.Ivy( );1;0;2
+Ivy.deliver( ModuleRevisionId mrid , String revision , String destIvyPattern );1;0;9
+Ivy.deliver( String revision , String destIvyPattern , DeliverOptions options );1;0;8
+Ivy.configureDefault( );1;0;10
+Ivy.setEventManager( EventManager eventManager );1;0;3
+Ivy.resolve( URL ivySource );1;0;8
+Ivy.interrupt( );1;0;4
+Ivy.listModules( ModuleId criteria , PatternMatcher matcher );1;0;8
+Ivy.postConfigure( );4;0;13
+Ivy.setVariable( String varName , String value );1;0;9
+Ivy.newInstance( IvySettings settings );1;0;6
+Ivy.sortModuleDescriptors( Collection moduleDescriptors , SortOptions options );1;0;8
+Ivy.resolve( File ivySource );1;0;8
+Ivy.configure( File settingsFile );1;0;10
+Ivy.setSortEngine( SortEngine sortEngine );1;0;3
+Ivy.check( URL ivyFile , String resolvername );1;0;8
+Ivy.resolve( ModuleDescriptor md , ResolveOptions options );1;0;8
+Ivy.getPublishEngine( );1;0;3
+Ivy.substitute( String str );1;0;9
+Ivy.listOrganisations( );1;0;8
+Ivy.sortNodes( Collection nodes , SortOptions options );1;0;8
+Ivy.retrieve( ModuleRevisionId mrid , String destFilePattern , RetrieveOptions options );1;0;8
+Ivy.configureDefault14( );1;0;10
+Ivy.bind( );17;10;63
+Ivy.listRevisions( String org , String module );1;0;8
+Ivy.getSortEngine( );1;0;3
+Ivy.getInstallEngine( );1;0;3
+Ivy.getDeliverEngine( );1;0;3
+Ivy.getResolutionCacheManager( );1;0;3
+Ivy.setCheckEngine( CheckEngine checkEngine );1;0;3
+Ivy.listTokenValues( String token , Map otherTokenValues );1;0;8
+Ivy.getCheckEngine( );1;0;3
+Ivy.isInterrupted( );1;0;3
+Ivy.deliver( ModuleRevisionId mrid , String revision , String destIvyPattern , DeliverOptions options );1;0;8

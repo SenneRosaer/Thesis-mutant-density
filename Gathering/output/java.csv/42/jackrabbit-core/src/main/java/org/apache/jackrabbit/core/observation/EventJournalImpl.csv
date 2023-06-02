@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EventJournalImpl.getSkipMap( );2;1;10
+EventJournalImpl.getPosition( );1;0;3
+EventJournalImpl.refill( );9;5;46
+RecordProcessor.process( WorkspaceRecord record );1;0;2
+EventJournalImpl.hasNext( );2;2;7
+EventJournalImpl.skip( long skipNum );2;2;5
+EventJournalImpl.skipTo( long date );4;3;24
+EventJournalImpl.remove( );1;0;3
+EventJournalImpl.nextEvent( );4;5;13
+EventJournalImpl.EventJournalImpl( EventFilter filter , Journal journal , String producerId );1;0;6
+EventJournalImpl.getSize( );1;1;3
+EventJournalImpl.next( );1;0;3
+EventJournalImpl.getCurrentBundle( );3;1;11
+RecordProcessor.process( LockRecord record );1;0;2
+RecordProcessor.process( NamespaceRecord record );1;0;2
+RecordProcessor.process( ChangeLogRecord record );3;2;12
+RecordProcessor.process( NodeTypeRecord record );1;0;2
+RecordProcessor.getLastTimestamp( );1;0;3
+RecordProcessor.getNumEvents( );1;0;3
+EventBundle.EventBundle( List eventStates , long timestamp , EventFilter filter );1;0;5

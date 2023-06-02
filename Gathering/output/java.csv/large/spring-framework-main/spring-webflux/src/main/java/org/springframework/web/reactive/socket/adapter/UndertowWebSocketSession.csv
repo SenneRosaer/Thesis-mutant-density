@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UndertowWebSocketSession.UndertowWebSocketSession( WebSocketChannel channel , HandshakeInfo info , DataBufferFactory factory , @ Nullable Sinks . Empty < Void > completionSink );1;0;4
+UndertowWebSocketSession.close( CloseStatus status );2;1;7
+SendProcessorCallback.complete( WebSocketChannel channel , Void context );1;0;5
+UndertowWebSocketSession.isOpen( );1;0;3
+UndertowWebSocketSession.UndertowWebSocketSession( WebSocketChannel channel , HandshakeInfo info , DataBufferFactory factory );1;0;3
+SendProcessorCallback.SendProcessorCallback( DataBuffer payload );1;0;3
+UndertowWebSocketSession.canSuspendReceiving( );1;0;3
+SendProcessorCallback.onError( WebSocketChannel channel , Void context , Throwable throwable );1;0;5
+UndertowWebSocketSession.resumeReceiving( );1;0;3
+UndertowWebSocketSession.suspendReceiving( );1;0;3
+UndertowWebSocketSession.sendMessage( WebSocketMessage message );5;0;24

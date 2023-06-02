@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestHttpSockJsSession.disconnect( CloseStatus status );1;0;3
+TestHttpSockJsSession.isActive( );1;0;3
+TestHttpSockJsSession.TestHttpSockJsSession( String sessionId , SockJsServiceConfig config , WebSocketHandler wsHandler , Map < String , Object > attributes );1;0;3
+TestHttpSockJsSession.getSockJsFramesWritten( );1;0;3
+TestHttpSockJsSession.getCloseStatus( );1;0;3
+TestHttpSockJsSession.getNumberOfLastActiveTimeUpdates( );1;0;3
+TestHttpSockJsSession.setActive( boolean active );1;0;3
+TestHttpSockJsSession.flushCache( );1;0;2
+TestHttpSockJsSession.updateLastActiveTime( );1;1;4
+TestHttpSockJsSession.didCancelHeartbeat( );1;0;3
+TestHttpSockJsSession.setAcceptedProtocol( String protocol );1;0;3
+TestHttpSockJsSession.getPrelude( ServerHttpRequest request );1;0;3
+TestHttpSockJsSession.setExceptionOnWrite( IOException exceptionOnWrite );1;0;3
+TestHttpSockJsSession.writeFrameInternal( SockJsFrame frame );2;1;6
+TestHttpSockJsSession.cancelHeartbeat( );1;0;4
+TestHttpSockJsSession.getAcceptedProtocol( );1;0;3

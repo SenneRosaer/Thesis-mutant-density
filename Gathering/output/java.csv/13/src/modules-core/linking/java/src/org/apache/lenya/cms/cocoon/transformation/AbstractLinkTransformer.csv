@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractLinkTransformer.getWebappUrl( Parameters params , Map objectModel );3;0;14
+AbstractLinkTransformer.setup( SourceResolver resolver , Map objectModel , String src , Parameters params );1;0;6
+AbstractLinkTransformer.setAttribute( AttributesImpl attr , String name , String value );2;2;7
+AttributeConfiguration.AttributeConfiguration( String namespace , String element , String attribute );1;0;5
+AbstractLinkTransformer.handleLink( String linkUrl , AttributeConfiguration config , AttributesImpl newAttrs );5;3;14
+AttributeConfiguration.matches( String uri , String name , Attributes attrs );3;3;4
+AbstractLinkTransformer.startElement( String uri , String name , String qname , Attributes attrs );12;9;45
+AbstractLinkTransformer.getCacheKey( String namespace , String localName );1;1;3
+AbstractLinkTransformer.configure( Configuration config );5;5;31
+AbstractLinkTransformer.endElement( String uri , String name , String qname );6;3;16
+AbstractLinkTransformer.getMatchingConfigurations( String namespace , String localName , Attributes attrs );6;3;21
+AbstractLinkTransformer.existsMatchingConfiguration( String namespace , String localName );2;1;7
+AbstractLinkTransformer.markBrokenLink( AttributesImpl newAttrs , String attrName , String brokenLinkUri );6;7;22

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ManagedJbiRegistry.setManagementAgent( ManagementAgent managementAgent );1;0;3
+ManagedJbiRegistry.setNamingStrategy( NamingStrategy namingStrategy );1;0;3
+ManagedJbiRegistry.getNamingStrategy( );1;0;3
+ManagedJbiRegistry.unregisterComponent( Component component , Map < String , ? > properties );2;0;9
+ManagedJbiRegistry.afterPropertiesSet( );3;2;8
+ManagedJbiRegistry.getManagementAgent( );1;0;3
+ManagedJbiRegistry.registerServiceAssembly( ServiceAssembly serviceAssembly , Map < String , ? > properties );2;0;10
+ManagedJbiRegistry.ManagedJbiRegistry( );1;0;5
+ManagedJbiRegistry.registerComponent( Component component , Map < String , ? > properties );2;0;10
+ManagedJbiRegistry.unregisterServiceAssembly( ServiceAssembly serviceAssembly , Map < String , ? > properties );2;0;9
+ManagedJbiRegistry.registerSharedLibrary( SharedLibrary sharedLibrary , Map < String , ? > properties );2;1;10
+ManagedJbiRegistry.unregisterSharedLibrary( SharedLibrary sharedLibrary , Map < String , ? > properties );2;1;9

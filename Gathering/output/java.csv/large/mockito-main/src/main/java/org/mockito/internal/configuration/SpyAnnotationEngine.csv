@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpyAnnotationEngine.process( Class < ? > context , Object testInstance );7;3;29
+SpyAnnotationEngine.typeIsPrivateAbstractInnerClass( Class < ? > type , int modifiers );3;3;5
+SpyAnnotationEngine.typeIsNonStaticInnerClass( Class < ? > type , int modifiers );2;3;3
+SpyAnnotationEngine.noArgConstructorOf( Class < ? > type );3;0;13
+SpyAnnotationEngine.assertNoIncompatibleAnnotations( Class < ? extends Annotation > annotation , Field field , Class < ? extends Annotation > ... undesiredAnnotations );4;0;8
+SpyAnnotationEngine.spyNewInstance( Object testInstance , Field field );9;1;37
+SpyAnnotationEngine.spyInstance( Field field , Object instance );1;0;8

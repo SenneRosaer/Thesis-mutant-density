@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Parameters.getConfig( );1;0;3
+Parameters.setSchemasDir( File schemasDir );1;0;3
+Parameters.setBaseURI( URI baseURI );1;0;3
+Parameters.getOptions( );1;0;3
+Parameters.setOptions( XmlOptions options );1;0;3
+Parameters.setLinkTo( SchemaTypeLoader linkTo );1;0;3
+Parameters.getName( );1;0;3
+SchemaTypeSystemCompiler.generateTypes( SchemaTypeSystem system , Filer filer , XmlOptions options );12;4;47
+Parameters.getSourcesToCopyMap( );1;0;3
+Parameters.setSchemas( SchemaDocument . Schema [ ] schemas );1;0;3
+Parameters.getErrorListener( );1;0;3
+Parameters.setConfig( BindingConfig config );1;0;3
+Parameters.setExistingTypeSystem( SchemaTypeSystem system );1;0;3
+SchemaTypeSystemCompiler.compileImpl( SchemaTypeSystem system , String name , Schema [ ] schemas , BindingConfig config , SchemaTypeLoader linkTo , XmlOptions options , Collection outsideErrors , boolean javaize , URI baseURI , Map sourcesToCopyMap , File schemasDir );14;12;73
+Parameters.getSchemasDir( );1;0;3
+Parameters.getBaseURI( );1;0;3
+SchemaTypeSystemCompiler.compile( Parameters params );1;0;6
+Parameters.setSourcesToCopyMap( Map sourcesToCopyMap );1;0;3
+SchemaTypeSystemCompiler.getSchemasToRecompile( SchemaTypeSystemImpl system , Schema [ ] modified , Set namespaces );10;9;59
+Parameters.getSchemas( );1;0;3
+Parameters.getLinkTo( );1;0;3
+SchemaTypeSystemCompiler.compile( String name , SchemaTypeSystem existingSTS , XmlObject [ ] input , BindingConfig config , SchemaTypeLoader linkTo , Filer filer , XmlOptions options );11;13;31
+Parameters.getExistingTypeSystem( );1;0;3
+Parameters.setErrorListener( Collection errorListener );1;0;3
+Parameters.isJavaize( );1;0;3
+Parameters.setName( String name );1;0;3
+Parameters.setJavaize( boolean javaize );1;0;3

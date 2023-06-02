@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SOAPArrayType.equals( Object obj );10;11;20
+SOAPArrayType.containsNestedArrays( );1;1;3
+SOAPArrayType.newSoap12Array( QName itemType , String arraySize );5;5;30
+SOAPArrayType.getRanks( );1;0;5
+SOAPArrayType.isSameRankAs( SOAPArrayType otherType );5;5;12
+SOAPArrayType.nestedArrayType( );3;6;12
+SOAPArrayType.SOAPArrayType( );1;0;2
+SOAPArrayType.soap11DimensionString( int [ ] actualDimensions );6;8;20
+SOAPArrayType.SOAPArrayType( SOAPArrayType nested , int [ ] dimensions );1;2;8
+SOAPArrayType.getQName( );1;0;3
+SOAPArrayType.SOAPArrayType( String s , PrefixResolver m );4;4;15
+SOAPArrayType.internalParseCommaIntString( String csl );7;5;37
+SOAPArrayType.SOAPArrayType( QName name , String dimensions );5;4;34
+SOAPArrayType.parseSoap11Index( String inbraces );3;4;6
+SOAPArrayType.hashCode( );2;4;3
+SOAPArrayType.soap12DimensionString( int [ ] actualDimensions );4;4;11
+SOAPArrayType.getDimensions( );1;0;5
+SOAPArrayType.soap11DimensionString( );1;0;3
+SOAPArrayType.initDimensions( String s , int firstbrace );8;16;31

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NoModuleSystemFound.adjustModuleGraph( Class < ? > source , Class < ? > target , boolean export , boolean read );1;0;2
+NoModuleSystemFound.isOpened( Class < ? > source , Class < ? > target );1;0;3
+NoModuleSystemFound.canRead( Class < ? > source , Class < ? > target );1;0;3
+ModuleHandler.make( ByteBuddy byteBuddy , SubclassLoader loader );2;0;7
+ModuleSystemFound.injectionBase( ClassLoader classLoader , String typeName );7;6;36
+ModuleSystemFound.canRead( Class < ? > source , Class < ? > target );1;0;3
+NoModuleSystemFound.isExported( Class < ? > source , Class < ? > target );1;0;3
+ModuleSystemFound.invoke( Method method , Object target , Object ... args );2;0;12
+NoModuleSystemFound.injectionBase( ClassLoader classLoader , String tyoeName );1;0;3
+ModuleSystemFound.isExported( Class < ? > source , Class < ? > target );2;1;11
+ModuleSystemFound.ModuleSystemFound( ByteBuddy byteBuddy , SubclassLoader loader );3;0;17
+ModuleSystemFound.isOpened( Class < ? > source , Class < ? > target );2;1;11
+ModuleSystemFound.isExported( Class < ? > source );2;1;10
+NoModuleSystemFound.isExported( Class < ? > source );1;0;3
+ModuleSystemFound.adjustModuleGraph( Class < ? > source , Class < ? > target , boolean export , boolean read );14;13;123

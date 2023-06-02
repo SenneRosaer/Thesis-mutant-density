@@ -1,0 +1,66 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageExchangeImpl.setOperation( QName name );1;0;3
+MessageExchangeImpl.getMarshaler( );2;1;6
+MessageExchangeImpl.setTransactionContext( Transaction transaction );1;0;3
+MessageExchangeImpl.copyFrom( MessageExchangeImpl me );2;1;8
+MessageExchangeImpl.getExchangeId( );1;0;3
+MessageExchangeImpl.isTransacted( );1;1;3
+MessageExchangeImpl.setInMessage( NormalizedMessage message );1;0;3
+***not in a method***;0;1;0
+MessageExchangeImpl.setInterfaceName( QName name );1;0;3
+MessageExchangeImpl.getInterfaceName( );1;0;3
+MessageExchangeImpl.setMessage( NormalizedMessage message , String name );14;10;44
+MessageExchangeImpl.setMarshaler( PojoMarshaler marshaler );1;0;3
+MessageExchangeImpl.getSyncState( );1;0;3
+MessageExchangeImpl.getOperation( );1;0;3
+MessageExchangeImpl.getSourceId( );1;0;3
+MessageExchangeImpl.getFault( );1;0;3
+MessageExchangeImpl.writeExternal( ObjectOutput out );1;0;6
+MessageExchangeImpl.can( int c );1;2;3
+MessageExchangeImpl.toString( );8;8;38
+MessageExchangeImpl.setFault( Fault fault );1;0;3
+MessageExchangeImpl.getInMessage( );1;0;3
+MessageExchangeImpl.getMessage( String name );4;0;11
+MessageExchangeImpl.isPushDelivery( );1;0;3
+MessageExchangeImpl.getTransactionContext( );1;0;3
+MessageExchangeImpl.setPushDeliver( boolean b );1;0;3
+MessageExchangeImpl.display( String msg , StringBuffer sb , SourceTransformer st );6;3;26
+MessageExchangeImpl.getPersistent( );1;0;3
+MessageExchangeImpl.getKey( );3;3;6
+MessageExchangeImpl.getEndpoint( );1;0;3
+MessageExchangeImpl.setService( QName name );1;0;3
+MessageExchangeImpl.setTxLock( Object txLock );1;0;3
+MessageExchangeImpl.getProperty( String name );3;0;9
+MessageExchangeImpl.setStatus( ExchangeStatus exchangeStatus );2;1;6
+MessageExchangeImpl.getTxState( );1;0;3
+MessageExchangeImpl.MessageExchangeImpl( ExchangePacket packet , int [ ] [ ] states );1;0;4
+MessageExchangeImpl.getDestinationId( );1;0;3
+MessageExchangeImpl.getStatus( );2;0;6
+MessageExchangeImpl.setDestinationId( ComponentNameSpace destinationId );1;0;3
+MessageExchangeImpl.getPacket( );1;0;3
+MessageExchangeImpl.getService( );1;0;3
+MessageExchangeImpl.MessageExchangeImpl( );1;0;2
+MessageExchangeImpl.setProperty( String name , Object value );5;2;15
+MessageExchangeImpl.setError( Exception exception );2;1;6
+MessageExchangeImpl.handleSend( boolean sync );19;23;33
+MessageExchangeImpl.getPattern( );1;0;3
+MessageExchangeImpl.getMirror( );1;0;3
+MessageExchangeImpl.getRole( );2;0;3
+MessageExchangeImpl.setPersistent( Boolean persistent );1;0;3
+MessageExchangeImpl.setOutMessage( NormalizedMessage message );1;0;3
+MessageExchangeImpl.getOutMessage( );1;0;3
+MessageExchangeImpl.setSourceContext( ComponentContextImpl sourceContext );1;0;4
+MessageExchangeImpl.getPropertyNames( );1;0;3
+MessageExchangeImpl.setTxState( int txState );1;0;3
+MessageExchangeImpl.setEndpoint( ServiceEndpoint endpoint );1;0;3
+MessageExchangeImpl.createMessage( );1;0;3
+MessageExchangeImpl.MessageExchangeImpl( String exchangeId , URI pattern , int [ ] [ ] states );1;0;6
+MessageExchangeImpl.setSourceId( ComponentNameSpace sourceId );1;0;3
+MessageExchangeImpl.getError( );1;0;3
+MessageExchangeImpl.getActivationSpec( );2;1;6
+MessageExchangeImpl.getSourceContext( );1;0;3
+MessageExchangeImpl.createFault( );1;0;3
+MessageExchangeImpl.setSyncState( int syncState );1;0;3
+MessageExchangeImpl.getTxLock( );1;0;3
+AgeComparator.compare( MessageExchangeImpl m0 , MessageExchangeImpl m1 );3;10;11
+MessageExchangeImpl.handleAccept( );9;11;19

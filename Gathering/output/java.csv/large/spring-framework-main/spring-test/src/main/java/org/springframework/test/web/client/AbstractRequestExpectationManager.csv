@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractRequestExpectationManager.getRequests( );1;0;3
+RequestExpectationGroup.updateInternal( RequestExpectation expectation );2;0;8
+AbstractRequestExpectationManager.verify( );2;2;7
+AbstractRequestExpectationManager.getExpectations( );1;0;3
+AbstractRequestExpectationManager.createUnexpectedRequestError( ClientHttpRequest request );1;1;6
+AbstractRequestExpectationManager.verify( Duration timeout );3;1;10
+AbstractRequestExpectationManager.getRequestDetails( );3;1;14
+RequestExpectationGroup.addAllExpectations( Collection < RequestExpectation > expectations );1;0;3
+AbstractRequestExpectationManager.verifyInternal( );5;3;18
+AbstractRequestExpectationManager.matchRequest( ClientHttpRequest request );1;0;5
+AbstractRequestExpectationManager.reset( );1;0;5
+AbstractRequestExpectationManager.afterExpectationsDeclared( );1;0;2
+RequestExpectationGroup.findExpectation( ClientHttpRequest request );3;0;11
+AbstractRequestExpectationManager.validateRequest( ClientHttpRequest request );3;0;19
+RequestExpectationGroup.reset( );1;0;3
+RequestExpectationGroup.getExpectations( );1;0;3
+RequestExpectationGroup.update( RequestExpectation expectation );1;0;4
+AbstractRequestExpectationManager.expectRequest( ExpectedCount count , RequestMatcher matcher );1;0;6

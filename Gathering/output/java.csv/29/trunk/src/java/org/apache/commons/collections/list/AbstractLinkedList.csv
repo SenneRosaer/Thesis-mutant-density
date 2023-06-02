@@ -1,0 +1,91 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractLinkedList.listIterator( int fromIndex );1;0;3
+AbstractLinkedList.isEmpty( );1;1;3
+AbstractLinkedList.isEqualValue( Object value1 , Object value2 );3;3;3
+LinkedSubList.remove( int index );1;3;9
+AbstractLinkedList.removeAll( Collection coll );3;0;11
+Node.Node( );1;0;5
+LinkedSubListIterator.nextIndex( );1;1;3
+AbstractLinkedList.hashCode( );3;3;9
+AbstractLinkedList.containsAll( Collection coll );3;1;9
+LinkedListIterator.next( );2;2;11
+AbstractLinkedList.size( );1;0;3
+Node.getPreviousNode( );1;0;3
+LinkedSubList.checkModCount( );2;1;5
+AbstractLinkedList.remove( Object value );3;1;9
+AbstractLinkedList.doReadObject( ObjectInputStream inputStream );2;2;7
+LinkedListIterator.getLastNodeReturned( );2;1;6
+AbstractLinkedList.addLast( Object o );1;0;4
+LinkedListIterator.previous( );2;2;11
+AbstractLinkedList.retainAll( Collection coll );3;1;11
+AbstractLinkedList.addFirst( Object o );1;0;4
+AbstractLinkedList.get( int index );1;0;4
+AbstractLinkedList.AbstractLinkedList( Collection coll );1;0;5
+AbstractLinkedList.indexOf( Object value );3;3;10
+AbstractLinkedList.AbstractLinkedList( );1;0;3
+AbstractLinkedList.getLast( );2;1;7
+LinkedListIterator.LinkedListIterator( AbstractLinkedList parent , int fromIndex );1;0;7
+AbstractLinkedList.createSubListIterator( LinkedSubList subList );1;0;3
+LinkedSubListIterator.LinkedSubListIterator( LinkedSubList sub , int startIndex );1;1;4
+LinkedSubList.addAll( Collection coll );1;0;3
+LinkedListIterator.previousIndex( );1;1;3
+LinkedSubList.size( );1;0;4
+AbstractLinkedList.init( );1;0;3
+LinkedSubList.clear( );2;0;8
+AbstractLinkedList.add( int index , Object value );1;0;4
+Node.getNextNode( );1;0;3
+Node.setValue( Object value );1;0;3
+LinkedSubListIterator.remove( );1;1;5
+AbstractLinkedList.iterator( );1;0;3
+AbstractLinkedList.getFirst( );2;1;7
+AbstractLinkedList.set( int index , Object value );1;0;6
+AbstractLinkedList.equals( Object obj );9;9;21
+LinkedSubList.iterator( );1;0;4
+LinkedSubList.addAll( int index , Collection coll );2;5;13
+AbstractLinkedList.subList( int fromIndexInclusive , int toIndexExclusive );1;0;3
+AbstractLinkedList.clear( );1;0;3
+LinkedSubListIterator.add( Object obj );1;1;5
+AbstractLinkedList.add( Object value );1;0;4
+AbstractLinkedList.listIterator( );1;0;3
+LinkedListIterator.remove( );2;3;12
+LinkedSubListIterator.hasNext( );1;1;3
+LinkedListIterator.add( Object obj );1;2;7
+Node.Node( Node previous , Node next , Object value );1;0;6
+AbstractLinkedList.toArray( Object [ ] array );4;4;14
+LinkedSubList.add( int index , Object obj );1;4;8
+LinkedListIterator.nextIndex( );1;0;3
+AbstractLinkedList.removeAllNodes( );1;1;6
+LinkedSubList.listIterator( final int index );1;1;5
+Node.Node( Object value );1;0;4
+AbstractLinkedList.contains( Object value );1;2;3
+AbstractLinkedList.toArray( );1;0;3
+AbstractLinkedList.removeFirst( );2;1;9
+Node.getValue( );1;0;3
+Node.setNextNode( Node next );1;0;3
+Node.setPreviousNode( Node previous );1;0;3
+AbstractLinkedList.getNode( int index , boolean endMarkerAllowed );8;11;28
+AbstractLinkedList.doWriteObject( ObjectOutputStream outputStream );2;0;6
+AbstractLinkedList.toString( );5;3;19
+AbstractLinkedList.createHeaderNode( );1;0;3
+LinkedListIterator.hasNext( );1;1;3
+LinkedSubList.get( int index );1;1;5
+LinkedSubList.set( int index , Object obj );1;1;5
+LinkedListIterator.set( Object obj );1;0;4
+AbstractLinkedList.addNodeBefore( Node node , Object value );1;0;4
+LinkedSubList.rangeCheck( int index , int beyond );3;3;5
+AbstractLinkedList.addNodeAfter( Node node , Object value );1;0;4
+AbstractLinkedList.removeNode( Node node );1;2;6
+AbstractLinkedList.createNode( Object value );1;0;3
+AbstractLinkedList.updateNode( Node node , Object value );1;0;3
+AbstractLinkedList.removeLast( );2;1;9
+AbstractLinkedList.lastIndexOf( Object value );3;4;10
+LinkedSubListIterator.hasPrevious( );1;1;3
+AbstractLinkedList.remove( int index );1;0;6
+LinkedSubList.subList( int fromIndexInclusive , int toIndexExclusive );1;2;3
+LinkedListIterator.hasPrevious( );1;1;3
+AbstractLinkedList.createSubListListIterator( LinkedSubList subList , int fromIndex );1;0;3
+AbstractLinkedList.addAll( int index , Collection coll );2;0;8
+AbstractLinkedList.addNode( Node nodeToInsert , Node insertBeforeNode );1;2;8
+LinkedSubList.LinkedSubList( AbstractLinkedList parent , int fromIndex , int toIndex );4;4;15
+LinkedListIterator.checkModCount( );2;1;5
+AbstractLinkedList.addAll( Collection coll );1;0;3

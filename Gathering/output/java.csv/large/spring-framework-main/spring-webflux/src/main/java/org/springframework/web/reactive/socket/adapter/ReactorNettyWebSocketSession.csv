@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReactorNettyWebSocketSession.isOpen( );1;1;5
+WebSocketConnection.getInbound( );1;0;3
+WebSocketConnection.WebSocketConnection( WebsocketInbound inbound , WebsocketOutbound outbound );1;0;4
+ReactorNettyWebSocketSession.ReactorNettyWebSocketSession( WebsocketInbound inbound , WebsocketOutbound outbound , HandshakeInfo info , NettyDataBufferFactory bufferFactory , int maxFramePayloadLength );1;0;5
+ReactorNettyWebSocketSession.close( CloseStatus status );1;0;3
+DisposedCallback.isDisposed( );1;0;3
+ReactorNettyWebSocketSession.closeStatus( );1;0;4
+DisposedCallback.accept( Connection connection );1;0;3
+ReactorNettyWebSocketSession.send( Publisher < WebSocketMessage > messages );2;1;12
+WebSocketConnection.getOutbound( );1;0;3
+ReactorNettyWebSocketSession.receive( );2;1;11
+ReactorNettyWebSocketSession.ReactorNettyWebSocketSession( WebsocketInbound inbound , WebsocketOutbound outbound , HandshakeInfo info , NettyDataBufferFactory bufferFactory );1;0;3
+ReactorNettyWebSocketSession.getChannelId( );1;0;3

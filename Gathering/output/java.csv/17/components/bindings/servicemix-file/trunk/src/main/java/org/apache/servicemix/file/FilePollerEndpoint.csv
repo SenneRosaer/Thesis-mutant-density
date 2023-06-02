@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FilePollerEndpoint.processFileNow( File aFile );4;0;12
+FilePollerEndpoint.getFilter( );1;0;3
+FilePollerEndpoint.poll( );1;0;3
+FilePollerEndpoint.setArchive( File archive );1;0;3
+FilePollerEndpoint.isAutoCreateDirectory( );1;0;3
+FilePollerEndpoint.setRecursive( boolean recursive );1;0;3
+FilePollerEndpoint.setFile( File file );1;0;3
+FilePollerEndpoint.unlockAsyncFile( File file );3;1;11
+FilePollerEndpoint.getFile( );1;0;3
+FilePollerEndpoint.start( );1;0;4
+FilePollerEndpoint.getMarshaler( );1;0;3
+FilePollerEndpoint.getLockManager( );1;0;3
+FilePollerEndpoint.pollFileOrDirectory( File fileOrDirectory );1;0;3
+FilePollerEndpoint.isRecursive( );1;0;3
+FilePollerEndpoint.moveFile( File src , File targetDirectory );2;1;5
+FilePollerEndpoint.createLockManager( );1;0;3
+FilePollerEndpoint.setLockManager( LockManager lockManager );1;0;3
+FilePollerEndpoint.pollFileOrDirectory( File fileOrDirectory , boolean processDir );4;3;13
+FilePollerEndpoint.pollFile( final File aFile );4;0;18
+FilePollerEndpoint.FilePollerEndpoint( DefaultComponent component , ServiceEndpoint endpoint );1;0;3
+FilePollerEndpoint.FilePollerEndpoint( ServiceUnit serviceUnit , QName service , String endpoint );1;0;3
+FilePollerEndpoint.setFilter( FileFilter filter );1;0;3
+FilePollerEndpoint.isDeleteFile( );1;0;3
+FilePollerEndpoint.run( );3;0;11
+FilePollerEndpoint.setAutoCreateDirectory( boolean autoCreateDirectory );1;0;3
+FilePollerEndpoint.processFile( File file );1;0;11
+FilePollerEndpoint.setDeleteFile( boolean deleteFile );1;0;3
+FilePollerEndpoint.validate( );10;9;23
+FilePollerEndpoint.process( MessageExchange exchange );9;6;38
+FilePollerEndpoint.getArchive( );1;0;3
+FilePollerEndpoint.FilePollerEndpoint( );1;0;2
+FilePollerEndpoint.setMarshaler( FileMarshaler marshaler );1;0;3
+FilePollerEndpoint.getLocationURI( );1;0;3

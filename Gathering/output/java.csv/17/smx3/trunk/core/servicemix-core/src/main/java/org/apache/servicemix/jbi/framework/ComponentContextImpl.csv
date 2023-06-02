@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ComponentContextImpl.deregisterSubscriptions( ComponentContextImpl context , ActivationSpec as );1;0;4
+ComponentContextImpl.getInstallRoot( );2;1;6
+ComponentContextImpl.getEndpointDescriptor( ServiceEndpoint endpoint );1;0;4
+ComponentContextImpl.getMBeanServer( );1;0;3
+ComponentContextImpl.activate( Component comp , ComponentEnvironment env , ActivationSpec spec );1;0;7
+ComponentContextImpl.deactivateEndpoint( ServiceEndpoint endpoint );1;0;4
+ComponentContextImpl.getLogger( String suffix , String resourceBundleName );2;2;5
+ComponentContextImpl.setEnvironment( ComponentEnvironment ce );1;0;3
+ComponentContextImpl.registerExternalEndpoint( ServiceEndpoint externalEndpoint );2;1;7
+ComponentContextImpl.setDeliveryChannel( DeliveryChannel deliveryChannel );1;0;3
+ComponentContextImpl.getEndpointsForService( QName serviceName );1;0;4
+ComponentContextImpl.getExternalEndpointsForService( QName serviceName );1;0;4
+ComponentContextImpl.getNamingContext( );1;0;3
+ComponentContextImpl.getJmxDomainName( );1;0;3
+ComponentContextImpl.registerSubscriptions( ComponentContextImpl context , ActivationSpec as );1;0;4
+ComponentContextImpl.getComponent( );1;0;3
+ComponentContextImpl.activateEndpoint( QName serviceName , String endpointName );2;0;7
+ComponentContextImpl.createCustomComponentMBeanName( String customName );1;0;3
+ComponentContextImpl.registerSubscription( ComponentContextImpl context , SubscriptionSpec subscription , ServiceEndpoint endpoint );1;0;4
+ComponentContextImpl.setContainer( JBIContainer container );1;0;3
+ComponentContextImpl.getEndpoints( QName interfaceName );1;0;4
+ComponentContextImpl.resolveEndpointReference( DocumentFragment epr );1;0;4
+ComponentContextImpl.getContainer( );1;0;3
+ComponentContextImpl.getMBeanNames( );1;0;3
+ComponentContextImpl.availableEndpoints( QName serviceName );1;0;4
+ComponentContextImpl.getComponentNameSpace( );1;0;3
+ComponentContextImpl.getWorkspaceRoot( );2;1;6
+ComponentContextImpl.getEnvironment( );1;0;3
+ComponentContextImpl.deregisterSubscription( ComponentContextImpl context , SubscriptionSpec subscription );1;0;4
+ComponentContextImpl.deregisterExternalEndpoint( ServiceEndpoint externalEndpoint );1;0;4
+ComponentContextImpl.checkActivated( );2;1;5
+ComponentContextImpl.getActivationSpec( );1;0;3
+ComponentContextImpl.getEndpoint( QName service , String name );1;0;4
+ComponentContextImpl.ComponentContextImpl( JBIContainer container , ComponentNameSpace componentName );1;0;4
+ComponentContextImpl.getExternalEndpoints( QName interfaceName );1;0;4
+ComponentContextImpl.getComponentName( );1;0;3
+ComponentContextImpl.getTransactionManager( );1;0;3
+ComponentContextImpl.getDeliveryChannel( );1;0;3

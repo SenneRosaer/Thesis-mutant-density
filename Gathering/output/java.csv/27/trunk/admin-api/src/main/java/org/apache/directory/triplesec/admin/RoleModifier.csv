@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RoleModifier.RoleModifier( RoleDao dao , Role archetype );1;0;8
+RoleModifier.isValid( );1;1;3
+RoleModifier.isNewEntry( );1;1;3
+RoleModifier.rename( String newName );3;0;14
+RoleModifier.RoleModifier( RoleDao dao , String applicationName , String name );1;0;8
+RoleModifier.modify( );2;0;10
+RoleModifier.delete( );2;0;8
+RoleModifier.isUpdatableEntry( );1;1;3
+RoleModifier.setDescription( String description );1;0;4
+RoleModifier.add( );2;0;9
+RoleModifier.isUpdateNeeded( );2;1;3
+RoleModifier.removeGrant( String grant );2;1;8
+RoleModifier.getModificationItems( );4;1;16
+RoleModifier.addGrant( String grant );2;1;8
+RoleModifier.getArchetype( );1;0;3

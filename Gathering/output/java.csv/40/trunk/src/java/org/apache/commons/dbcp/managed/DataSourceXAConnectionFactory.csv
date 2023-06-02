@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DataSourceXAConnectionFactory.setUsername( String username );1;0;3
+DataSourceXAConnectionFactory.getUsername( );1;0;3
+DataSourceXAConnectionFactory.DataSourceXAConnectionFactory( TransactionManager transactionManager , XADataSource xaDataSource , String username , String password );3;2;8
+DataSourceXAConnectionFactory.setPassword( String password );1;0;3
+DataSourceXAConnectionFactory.getTransactionRegistry( );1;0;3
+DataSourceXAConnectionFactory.createConnection( );2;1;12
+DataSourceXAConnectionFactory.DataSourceXAConnectionFactory( TransactionManager transactionManager , XADataSource xaDataSource );1;0;3

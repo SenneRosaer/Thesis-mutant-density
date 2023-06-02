@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConcurrentMergeScheduler.clearUnhandledExceptions( );1;0;5
+MergeThread.getRunningMerge( );1;0;3
+ConcurrentMergeScheduler.doMerge( MergePolicy . OneMerge merge );1;0;3
+ConcurrentMergeScheduler.getMaxThreadCount( );1;0;3
+ConcurrentMergeScheduler.ConcurrentMergeScheduler( );2;1;5
+ConcurrentMergeScheduler.setMergeThreadPriority( int pri );4;5;10
+ConcurrentMergeScheduler.sync( );4;3;12
+ConcurrentMergeScheduler.clearSuppressExceptions( );1;0;3
+***not in a method***;0;1;0
+MergeThread.toString( );2;1;6
+ConcurrentMergeScheduler.setSuppressExceptions( );1;0;3
+ConcurrentMergeScheduler.mergeThreadCount( );3;3;8
+ConcurrentMergeScheduler.handleMergeException( Throwable exc );1;0;3
+ConcurrentMergeScheduler.close( );1;0;3
+MergeThread.run( );6;3;33
+ConcurrentMergeScheduler.initMergeThreadPriority( );3;4;7
+ConcurrentMergeScheduler.getMergeThreadPriority( );1;0;4
+MergeThread.MergeThread( IndexWriter writer , MergePolicy . OneMerge startMerge );1;0;4
+ConcurrentMergeScheduler.message( String message );2;1;4
+ConcurrentMergeScheduler.getMergeThread( IndexWriter writer , MergePolicy . OneMerge merge );1;1;7
+ConcurrentMergeScheduler.addMyself( );4;6;13
+ConcurrentMergeScheduler.setMaxThreadCount( int count );2;1;5
+MergeThread.setThreadPriority( int pri );3;0;7
+ConcurrentMergeScheduler.merge( IndexWriter writer );5;3;31
+ConcurrentMergeScheduler.setTestMode( );1;0;3
+ConcurrentMergeScheduler.anyUnhandledExceptions( );2;2;10
+MergeThread.setRunningMerge( MergePolicy . OneMerge merge );1;0;3

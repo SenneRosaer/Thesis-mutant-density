@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AttributesImpl.setLocalName( int index , String localName );3;5;7
+AttributesImpl.getIndex( String qName );3;6;9
+AttributesImpl.getType( int index );3;5;7
+AttributesImpl.badIndex( int index );1;0;5
+AttributesImpl.getValue( String qName );3;5;9
+AttributesImpl.getValue( int index );3;5;7
+AttributesImpl.getQName( int index );3;5;7
+AttributesImpl.setValue( int index , String value );3;5;7
+AttributesImpl.addAttribute( String uri , String localName , String qName , String type , String value );1;11;9
+AttributesImpl.setAttributes( Attributes atts );3;13;14
+AttributesImpl.setAttribute( int index , String uri , String localName , String qName , String type , String value );3;12;11
+AttributesImpl.getLocalName( int index );3;5;7
+AttributesImpl.setType( int index , String type );3;5;7
+AttributesImpl.AttributesImpl( );1;0;4
+AttributesImpl.AttributesImpl( Attributes atts );1;0;3
+AttributesImpl.ensureCapacity( int n );7;11;23
+AttributesImpl.getURI( int index );3;4;7
+AttributesImpl.setURI( int index , String uri );3;4;7
+AttributesImpl.removeAttribute( int index );4;18;17
+AttributesImpl.clear( );3;4;7
+AttributesImpl.getType( String qName );3;5;9
+AttributesImpl.getValue( String uri , String localName );4;6;9
+AttributesImpl.setQName( int index , String qName );3;5;7
+AttributesImpl.getLength( );1;0;3
+AttributesImpl.getType( String uri , String localName );4;6;9
+AttributesImpl.getIndex( String uri , String localName );4;7;9

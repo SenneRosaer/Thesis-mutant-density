@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ZombieRemoteCacheService.removeAll( String cacheName , long listenerId );2;1;8
+PutEvent.PutEvent( ICacheElement element , long requesterId );1;0;4
+ZombieRemoteCacheService.update( ICacheElement item , long listenerId );2;1;8
+ZombieRemoteCacheService.getGroupKeys( String cacheName , String groupName );1;0;3
+ZombieRemoteCacheService.propagateEvents( IRemoteCacheService service );7;2;31
+RemoveEvent.RemoveEvent( String cacheName , Serializable key , long requesterId );1;0;5
+ZombieRemoteCacheService.remove( String cacheName , Serializable key , long listenerId );2;1;8
+ZombieRemoteCacheService.getMultiple( String cacheName , Set keys , long requesterId );1;0;3
+RemoveAllEvent.RemoveAllEvent( String cacheName , long requesterId );1;0;4
+ZombieRemoteCacheService.get( String cacheName , Serializable key , long requesterId );1;0;3
+ZombieRemoteCacheService.ZombieRemoteCacheService( int maxQueueSize );1;0;4
+ZombieRemoteCacheService.getQueueSize( );1;0;3
+ZombieRemoteCacheService.getMatching( String cacheName , String pattern , long requesterId );1;0;3
+ZombieRemoteCacheService.ZombieRemoteCacheService( );1;0;3

@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AxisRPCReader.getSoapAction( HttpServletRequest req );4;2;16
+AxisRPCReader.configureResponseFromAxisFault( HttpServletResponse response , AxisFault fault );2;1;7
+AxisRPCReader.generate( );19;7;88
+AxisRPCReader.getProtocolVersion( HttpServletRequest req );4;4;14
+AxisRPCReader.checkHTTPPost( final Map objectModel );2;1;7
+AxisRPCReader.configure( Configuration config );1;0;3
+AxisRPCReader.getHttpServletResponseStatus( AxisFault af );2;0;5
+AxisRPCReader.service( final ServiceManager manager );1;0;4
+AxisRPCReader.setup( final SourceResolver resolver , final Map objectModel , final String src , final Parameters parameters );2;0;7
+AxisRPCReader.dispose( );1;0;3
+AxisRPCReader.messageToString( final Message msg );3;0;14
+AxisRPCReader.sendResponse( final String clientVersion , final SOAPConstants constants , final HttpServletResponse res , final Message responseMsg );6;2;22
+AxisRPCReader.processAxisFault( AxisFault fault );4;1;13

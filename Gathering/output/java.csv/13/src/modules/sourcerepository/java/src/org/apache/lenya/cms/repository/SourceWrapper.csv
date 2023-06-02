@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SourceWrapper.getNode( );1;0;3
+SourceWrapper.SourceWrapper( SourceNode node , String sourceUri , ServiceManager manager , Logger logger );1;0;9
+SourceWrapper.loadData( );12;9;43
+SourceWrapper.getContentLength( );1;0;4
+SourceWrapper.getSourceUri( );1;0;3
+NodeOutputStream.close( );2;0;9
+SourceWrapper.getRealSourceUri( );2;1;7
+SourceWrapper.getInputStream( );2;1;7
+SourceWrapper.deleteTransactionable( );3;1;13
+***not in a method***;0;1;0
+SourceWrapper.getLoadRevision( );1;0;3
+SourceWrapper.exists( );4;2;13
+SourceWrapper.computeRealSourceUri( ServiceManager manager , Session session , String sourceUri , Logger logger );8;9;46
+SourceWrapper.getOutputStream( );2;0;6
+SourceWrapper.saveTransactionable( );4;2;16
+SourceWrapper.saveTransactionable( String realSourceUri );8;5;38
+SourceWrapper.delete( );1;0;3
+SourceWrapper.getMimeType( );1;0;4

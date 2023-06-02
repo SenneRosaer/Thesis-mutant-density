@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TopicPermission.writeObject( java . io . ObjectOutputStream s );2;1;5
+TopicPermission.hashCode( );1;1;3
+TopicPermission.init( String name , int mask );7;8;19
+TopicPermission.getMask( );1;0;3
+TopicPermissionCollection.add( Permission permission );7;5;26
+TopicPermission.implies( Permission p );4;3;12
+TopicPermission.TopicPermission( String name , int mask );1;0;4
+TopicPermissionCollection.elements( );1;0;3
+***not in a method***;0;3;0
+TopicPermissionCollection.implies( Permission permission );10;18;36
+TopicPermissionCollection.TopicPermissionCollection( );1;0;4
+TopicPermission.readObject( java . io . ObjectInputStream s );1;0;4
+TopicPermission.TopicPermission( String name , String actions );1;0;3
+TopicPermission.getActions( );5;5;17
+TopicPermission.newPermissionCollection( );1;0;3
+TopicPermission.equals( Object obj );4;4;10
+TopicPermission.getMask( String actions );53;120;68

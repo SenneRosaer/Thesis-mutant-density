@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TableMetaDataContext.getSchemaName( );1;0;3
+TableMetaDataContext.isGetGeneratedKeysSupported( );1;0;3
+TableMetaDataContext.matchInParameterValuesWithInsertColumns( Map < String , ? > inParameters );7;2;19
+TableMetaDataContext.setAccessTableColumnMetaData( boolean accessTableColumnMetaData );1;0;3
+TableMetaDataContext.getTableName( );1;0;3
+TableMetaDataContext.matchInParameterValuesWithInsertColumns( SqlParameterSource parameterSource );6;0;32
+TableMetaDataContext.createInsertString( String ... generatedKeyNames );10;6;45
+TableMetaDataContext.setSchemaName( @ Nullable String schemaName );1;0;3
+TableMetaDataContext.isAccessTableColumnMetaData( );1;0;3
+TableMetaDataContext.setTableName( @ Nullable String tableName );1;0;3
+TableMetaDataContext.getCatalogName( );1;0;3
+TableMetaDataContext.getSimpleQueryForGetGeneratedKey( String tableName , String keyColumnName );1;0;3
+TableMetaDataContext.isOverrideIncludeSynonymsDefault( );1;0;3
+TableMetaDataContext.processMetaData( DataSource dataSource , List < String > declaredColumns , String [ ] generatedKeyNames );1;0;4
+TableMetaDataContext.obtainMetaDataProvider( );1;1;4
+TableMetaDataContext.createInsertTypes( );5;3;25
+TableMetaDataContext.setCatalogName( @ Nullable String catalogName );1;0;3
+TableMetaDataContext.reconcileColumnsToUse( List < String > declaredColumns , String [ ] generatedKeyNames );6;3;19
+TableMetaDataContext.setOverrideIncludeSynonymsDefault( boolean override );1;0;3
+TableMetaDataContext.getTableColumns( );1;0;3
+TableMetaDataContext.isGetGeneratedKeysSimulated( );1;0;3
+TableMetaDataContext.isGeneratedKeysColumnNameArraySupported( );1;0;3

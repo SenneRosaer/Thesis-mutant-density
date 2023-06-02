@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NestedTestWithExtraMock.nestedMockCreated( );1;0;3
+NestedTestWithConstructorParameter.can_inject_into_constructor_parameter( );1;0;4
+NestedTestWithConstructorParameter.NestedTestWithConstructorParameter( @ Mock Function < Integer , String > constructorMock );1;0;3
+JunitJupiterTest.ensureMockCreationWorks( );1;0;3
+ClassWithDependency.ClassWithDependency( Function < Integer , String > dependency );1;0;3
+JunitJupiterTest.initializes_parameters_with_custom_configuration( @ Mock ( name = "overriddenName" ) Function < String , String > localMock );1;0;3
+NestedTestWithExtraMock.rootMockCreated( );1;0;3
+NestedWithoutExtraMock.shouldWeCreateMocksInTheParentContext( );1;0;3
+JunitJupiterTest.initializes_parameters( @ Mock Function < String , String > localMock );1;0;4
+DuplicateExtensionOnNestedTest.ensureMocksAreCreatedForNestedTests( );1;0;3
+JunitJupiterTest.can_set_stubs_on_initialized_mock( );1;0;4
+JunitJupiterTest.should_be_injected_correct_instance_of_mock( );1;0;3

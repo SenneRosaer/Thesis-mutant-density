@@ -1,0 +1,41 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AntXmlContext.AntXmlContext( Project project , ProjectHelperImpl2 helper );1;0;5
+***not in a method***;0;8;0
+ElementHandler.onEndElement( String uri , String tag , AntXmlContext context );1;0;3
+TargetHandler.onStartChild( String uri , String name , String qname , Attributes attrs , AntXmlContext context );1;0;3
+ProjectHandler.onStartChild( String uri , String name , String qname , Attributes attrs , AntXmlContext context );2;0;7
+NestedElementHandler.onStartElement( String uri , String propType , String qname , Attributes attrs , AntXmlContext context );5;0;32
+TargetHandler.onEndElement( String uri , String tag , AntXmlContext context );1;0;3
+AntHandler.checkNamespace( String uri );1;0;2
+AntXmlContext.getWrapperStack( );1;0;3
+AntXmlContext.configureId( Object element , Attributes attr );2;1;6
+ElementHandler.characters( char [ ] buf , int start , int count , AntXmlContext context );1;0;4
+AntHandler.onEndChild( String uri , String tag , String qname , AntXmlContext context );1;0;2
+ProjectHelperImpl2.parse( Project project , Object source , RootHandler handler );12;2;65
+ProjectHandler.onStartElement( String uri , String tag , String qname , Attributes attrs , AntXmlContext context );18;13;55
+ProjectHelperImpl2.parse( Project project , Object source );1;0;7
+AntHandler.onStartChild( String uri , String tag , String qname , Attributes attrs , AntXmlContext context );1;0;3
+RootHandler.characters( char [ ] buf , int start , int count );1;0;3
+AntXmlContext.parentWrapper( );2;2;4
+TargetHandler.onStartElement( String uri , String tag , String qname , Attributes attrs , AntXmlContext context );16;10;58
+NestedElementHandler.NestedElementHandler( );1;0;2
+RootHandler.startElement( String uri , String tag , String qname , Attributes attrs );1;0;6
+ProjectHelperImpl2.fromURI( String uri );13;13;39
+RootHandler.setDocumentLocator( Locator locator );1;0;3
+ElementHandler.onEndChild( String uri , String tag , String qname , AntXmlContext context );1;0;2
+RootHandler.resolveEntity( String publicId , String systemId );4;1;19
+ProjectHelperImpl2.hookSpecialTasks( Project project );2;0;15
+AntXmlContext.pushWrapper( RuntimeConfigurable2 wrapper );1;0;3
+ElementHandler.onStartChild( String uri , String tag , String qname , Attributes attrs , AntXmlContext context );3;0;12
+RootHandler.RootHandler( AntXmlContext context );1;0;5
+MainHandler.onStartChild( String uri , String name , String qname , Attributes attrs , AntXmlContext context );2;0;7
+ProjectHelperImpl2.toURI( String path );5;2;24
+ElementHandler.ElementHandler( );1;0;2
+AntXmlContext.popWrapper( );2;2;4
+AntHandler.onEndElement( String uri , String tag , AntXmlContext context );1;0;2
+AntXmlContext.currentWrapper( );2;2;4
+ElementHandler.onStartElement( String uri , String tag , String qname , Attributes attrs , AntXmlContext context );8;5;37
+AntHandler.characters( char [ ] buf , int start , int count , AntXmlContext context );2;1;6
+AntHandler.onStartElement( String uri , String tag , String qname , Attributes attrs , AntXmlContext context );1;0;2
+AntXmlContext.getProject( );1;0;3
+RootHandler.endElement( String uri , String name , String qName );2;1;7

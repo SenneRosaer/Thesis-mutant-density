@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Permission.parseActions( String actions );3;1;11
+MySM.checkExit( int status );2;0;8
+Permissions.createPermission( Permissions . Permission permission );2;0;13
+Permission.getActions( );1;0;3
+Permission.toString( );1;0;3
+Permissions.addConfiguredRevoke( Permissions . Permission perm );1;0;3
+MySM.checkPermission( java . security . Permission perm );8;6;19
+Permission.setName( String aName );1;0;3
+Permissions.restoreSecurityManager( );1;0;4
+MySM.checkRevoked( java . security . Permission perm );3;0;7
+Permission.setClass( String aClass );1;0;3
+Permission.getClassName( );1;0;3
+Permissions.init( );5;2;40
+Permission.matches( java . security . Permission perm );8;7;25
+Permission.getName( );1;0;3
+Permissions.Permissions( boolean delegateToOldSM );1;0;3
+Permission.setActions( String actions );2;1;6
+Permissions.setSecurityManager( );1;0;6
+Permissions.addConfiguredGrant( Permissions . Permission perm );1;0;3
+Permissions.Permissions( );1;0;3

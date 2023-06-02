@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReadRecord.writeQName( Name name );1;0;3
+ReadRecord.writeInt( int n );1;0;3
+ReadRecord.writeLong( long n );1;0;3
+ReadRecord.getProducerId( );1;0;3
+ReadRecord.readByte( );2;0;9
+ReadRecord.getRevision( );1;0;3
+ReadRecord.readInt( );2;0;9
+ReadRecord.readLong( );2;0;9
+ReadRecord.update( );1;0;3
+ReadRecord.readBoolean( );2;0;9
+ReadRecord.writeByte( int n );1;0;3
+ReadRecord.getJournalId( );1;0;3
+ReadRecord.writeString( String s );1;0;3
+ReadRecord.ReadRecord( String journalId , String producerId , long revision , DataInputStream dataIn , int length , NamespaceResolver resolver , NamePathResolver npResolver );1;0;8
+ReadRecord.close( );3;2;9
+ReadRecord.skip( long n );4;5;15
+ReadRecord.writeBoolean( boolean b );1;0;3
+ReadRecord.readFully( byte [ ] b );2;0;9
+ReadRecord.cancelUpdate( );1;0;2
+ReadRecord.readChar( );2;0;9
+ReadRecord.unsupported( );1;0;4
+ReadRecord.readString( );3;0;14
+ReadRecord.writeChar( char c );1;0;3
+ReadRecord.write( byte [ ] b );1;0;3

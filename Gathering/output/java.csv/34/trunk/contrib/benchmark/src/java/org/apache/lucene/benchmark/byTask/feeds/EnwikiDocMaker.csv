@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Parser.create( String title , String time , String body , String id );3;1;17
+EnwikiDocMaker.makeDocument( );1;0;4
+Parser.run( );8;3;39
+DocState.setFields( String [ ] tuple );1;0;7
+EnwikiDocMaker.setConfig( Config config );1;0;4
+Parser.endElement( String namespace , String simple , String qualified );11;7;20
+EnwikiDocMaker.getDocState( );2;1;8
+***not in a method***;0;4;0
+Parser.next( );9;9;27
+Parser.time( String original );1;1;12
+Parser.characters( char [ ] ch , int start , int length );1;0;3
+Parser.startElement( String namespace , String simple , String qualified , Attributes attributes );6;0;16

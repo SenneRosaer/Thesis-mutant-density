@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProgramGeneratorImpl.release( CompiledComponent component );1;0;3
+ProgramGeneratorImpl.contextualize( Context context );6;3;24
+ProgramGeneratorImpl.loadProgram( ComponentManager newManager , String normalizedName , MarkupLanguage markupLanguage , ProgrammingLanguage programmingLanguage );8;0;31
+ProgramGeneratorImpl.getNormalizedName( final String systemId );2;0;10
+ProgramGeneratorImpl.generateSourcecode( Source source , String normalizedName , MarkupLanguage markupLanguage , ProgrammingLanguage programmingLanguage );7;6;25
+ProgramGeneratorImpl.load( ComponentManager newManager , String fileName , String markupLanguageName , String programmingLanguageName , SourceResolver resolver );1;0;8
+ProgramGeneratorImpl.dispose( );1;0;13
+ProgramGeneratorImpl.compose( ComponentManager manager );3;3;9
+ProgramGeneratorImpl.remove( Source source );1;0;4
+ProgramGeneratorImpl.parameterize( Parameters params );1;0;6
+ProgramGeneratorImpl.load( ComponentManager newManager , Source source , String markupLanguageName , String programmingLanguageName , SourceResolver resolver );30;11;143

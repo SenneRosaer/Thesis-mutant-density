@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Socket.onAnyIncoming( Listener fn );1;0;4
+Socket.offAnyOutgoing( );1;0;4
+Socket.emit( final String event , final Object [ ] args , final Ack ack );8;0;43
+Socket.close( );4;0;18
+Socket.onconnect( String id );1;0;6
+Socket.offAnyIncoming( Listener fn );3;1;11
+Socket.packet( Packet packet );4;2;12
+Socket.offAnyIncoming( );1;0;4
+Socket.onAnyOutgoing( Listener fn );1;0;4
+Socket.disconnect( );1;0;3
+Socket.open( );4;0;12
+Socket.io( );1;0;3
+Socket.call( final Object ... args );5;0;19
+Socket.onpacket( Packet < ? > packet );12;2;47
+Socket.onclose( String reason );2;0;8
+Socket.subEvents( );5;1;32
+Socket.id( );1;0;3
+Socket.emit( final String event , final Object ... args );5;0;25
+Socket.run( );4;12;6
+Socket.ack( final int id );5;0;26
+Socket.destroy( );5;1;14
+Socket.onack( Packet < JSONArray > packet );4;1;13
+Socket.Socket( Manager io , String nsp , Manager . Options opts );2;1;7
+Socket.connect( );1;0;3
+Socket.connected( );1;0;3
+Socket.ondisconnect( );2;0;7
+Socket.onopen( );2;1;8
+Socket.onevent( Packet < JSONArray > packet );7;2;23
+Socket.emitBuffered( );3;2;13
+Socket.call( Object ... args );1;2;3
+Socket.send( final Object ... args );1;0;9
+Socket.toArray( JSONArray array );4;2;15
+Socket.offAnyOutgoing( Listener fn );3;1;11
+Socket.isActive( );1;1;3

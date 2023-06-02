@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReflectionUtils.newInstance( String clazz );2;0;8
+ReflectionUtils.invokeConstructor( String className , Object [ ] params );2;0;9
+ReflectionUtils.getInterfaces( Class clazz );1;0;3
+ReflectionUtils.forName( String clazz );2;0;8
+ReflectionUtils.isAbstractClass( Class clazz );1;0;3
+ReflectionUtils.getAncestorClass( Class clazz );2;1;7
+ReflectionUtils.getNestedProperty( Object object , String fieldName );5;1;23
+ReflectionUtils.newInstance( Class clazz );2;0;10
+ReflectionUtils.setNestedProperty( Object object , String fieldName , Object value );3;1;10
+ReflectionUtils.getBeanClass( Object bean );2;0;8
+ReflectionUtils.isProxy( Class beanClass );1;0;3
+ReflectionUtils.implementsInterface( Class clazz , Class interfaceClass );5;3;16
+ReflectionUtils.getPropertyType( Object object , String fieldName );2;0;10
+ReflectionUtils.getClassLoader( );1;0;3
+ReflectionUtils.setClassLoader( ClassLoader newClassLoader );1;0;3
+ReflectionUtils.getDefaultImplementation( Class clazz );2;1;5

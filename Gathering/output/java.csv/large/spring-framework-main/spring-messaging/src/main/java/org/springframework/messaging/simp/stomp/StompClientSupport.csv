@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StompClientSupport.getReceiptTimeLimit( );1;0;3
+StompClientSupport.createSession( @ Nullable StompHeaders connectHeaders , StompSessionHandler handler );1;0;8
+StompClientSupport.getTaskScheduler( );1;0;3
+StompClientSupport.setTaskScheduler( @ Nullable TaskScheduler taskScheduler );1;0;3
+StompClientSupport.getDefaultHeartbeat( );1;0;3
+StompClientSupport.setDefaultHeartbeat( long [ ] heartbeat );4;5;6
+StompClientSupport.getMessageConverter( );1;0;3
+StompClientSupport.processConnectHeaders( @ Nullable StompHeaders connectHeaders );3;2;7
+StompClientSupport.isDefaultHeartbeatEnabled( );2;3;4
+StompClientSupport.setReceiptTimeLimit( long receiptTimeLimit );1;1;4
+StompClientSupport.setMessageConverter( MessageConverter messageConverter );1;0;4

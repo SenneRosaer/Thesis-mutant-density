@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransformComponentSupport.TransformComponentSupport( );1;0;2
+TransformComponentSupport.TransformComponentSupport( QName service , String endpoint );1;0;3
+TransformComponentSupport.isCopyAttachments( );1;0;3
+TransformComponentSupport.setCopyAttachments( boolean copyAttachments );2;0;6
+TransformComponentSupport.isCopyProperties( );1;0;3
+TransformComponentSupport.onMessageExchange( MessageExchange exchange );13;5;56
+TransformComponentSupport.setCopyProperties( boolean copyProperties );2;0;6
+TransformComponentSupport.copyPropertiesAndAttachments( MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );3;0;8

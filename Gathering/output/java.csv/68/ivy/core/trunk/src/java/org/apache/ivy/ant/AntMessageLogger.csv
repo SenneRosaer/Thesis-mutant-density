@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AntMessageLogger.messageLogged( BuildEvent event );1;0;2
+AntMessageLogger.buildStarted( BuildEvent event );1;0;2
+AntMessageLogger.doProgress( );3;3;11
+AntMessageLogger.targetStarted( BuildEvent event );1;0;2
+AntMessageLogger.taskFinished( BuildEvent event );2;2;7
+AntMessageLogger.rawlog( String msg , int level );1;0;3
+AntMessageLogger.AntMessageLogger( ProjectComponent antProjectComponent );1;0;4
+AntMessageLogger.toString( );1;0;3
+AntMessageLogger.targetFinished( BuildEvent event );1;0;2
+AntMessageLogger.doEndProgress( String msg );1;1;5
+AntMessageLogger.register( Task task , final Ivy ivy );2;0;27
+AntMessageLogger.log( String msg , int level );1;0;3
+AntMessageLogger.buildFinished( BuildEvent event );1;0;2
+AntMessageLogger.taskStarted( BuildEvent event );1;1;3

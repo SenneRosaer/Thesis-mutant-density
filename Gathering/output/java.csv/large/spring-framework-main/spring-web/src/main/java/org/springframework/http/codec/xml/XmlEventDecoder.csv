@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AaltoDataBufferToXmlEvent.increaseByteCount( DataBuffer dataBuffer );3;4;10
+AaltoDataBufferToXmlEvent.apply( DataBuffer dataBuffer );7;4;30
+AaltoDataBufferToXmlEvent.endOfInput( );1;0;3
+XmlEventDecoder.decode( Publisher < DataBuffer > input , ResolvableType elementType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );3;0;26
+XmlEventDecoder.XmlEventDecoder( );1;0;3
+AaltoDataBufferToXmlEvent.checkDepthAndResetByteCount( XMLEvent event );6;5;12
+***not in a method***;0;1;0
+AaltoDataBufferToXmlEvent.raiseLimitException( );1;0;4
+XmlEventDecoder.setMaxInMemorySize( int byteCount );1;0;3
+XmlEventDecoder.getMaxInMemorySize( );1;0;3
+AaltoDataBufferToXmlEvent.AaltoDataBufferToXmlEvent( int maxInMemorySize );1;0;3

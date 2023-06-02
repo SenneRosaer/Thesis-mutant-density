@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JmsListenerContainerFactoryIntegrationTests.messagingMessageConverterCanBeUsed( );1;0;6
+JmsListenerContainerFactoryIntegrationTests.setup( );1;0;3
+JmsListenerContainerFactoryIntegrationTests.parameterAnnotationWithJdkProxy( );1;0;11
+JmsListenerContainerFactoryIntegrationTests.initializeFactory( DefaultMessageHandlerMethodFactory factory );1;0;4
+JmsListenerContainerFactoryIntegrationTests.createDefaultMethodJmsEndpoint( Class < ? > clazz , String methodName , Class < ? > ... paramTypes );1;0;3
+JmsListenerContainerFactoryIntegrationTests.messageConverterUsedIfSet( );1;0;4
+UpperCaseMessageConverter.toMessage( Object object , Session session );1;0;3
+UpperCaseMessageConverter.fromMessage( Message message );1;0;4
+JmsListenerContainerFactoryIntegrationTests.parameterAnnotationWithCglibProxy( );1;0;12
+JmsListenerContainerFactoryIntegrationTests.invokeListener( JmsListenerEndpoint endpoint , Message message );2;0;10
+JmsListenerContainerFactoryIntegrationTests.testMessageConverterIsUsed( );1;0;8
+JmsEndpointSampleBean.handleIt( @ Payload String msg , @ Header ( "my-header" ) String myHeader );1;0;5
+JmsListenerContainerFactoryIntegrationTests.assertListenerMethodInvocation( String methodName );1;0;3
+JmsListenerContainerFactoryIntegrationTests.createMethodJmsEndpoint( DefaultMessageHandlerMethodFactory factory , Method method );1;0;7

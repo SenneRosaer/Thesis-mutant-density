@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WorkflowEngineImpl.canFire( Transition transition , Workflow workflow , Workflowable workflowable );4;4;10
+WorkflowEngineImpl.invoke( Workflowable workflowable , Workflow workflow , String event );4;4;18
+WorkflowEngineImpl.canInvoke( Workflowable workflowable , Workflow workflow , String event );1;1;4
+WorkflowEngineImpl.createNewVersion( Workflowable workflowable , Workflow workflow , String event , String destination );3;3;16
+WorkflowEngineImpl.getFiringTransitions( Workflowable workflowable , Workflow workflow , String event );5;4;18

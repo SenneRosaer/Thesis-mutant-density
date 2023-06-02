@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExponentialBackOff.setMaxInterval( long maxInterval );1;0;3
+ExponentialBackOff.ExponentialBackOff( );1;0;2
+ExponentialBackOff.ExponentialBackOff( long initialInterval , double multiplier );1;0;5
+ExponentialBackOff.setInitialInterval( long initialInterval );1;0;3
+ExponentialBackOff.getMultiplier( );1;0;3
+ExponentialBackOff.checkMultiplier( double multiplier );1;1;4
+ExponentialBackOffExecution.toString( );2;1;7
+ExponentialBackOffExecution.multiplyInterval( long maxInterval );1;1;5
+ExponentialBackOff.getMaxElapsedTime( );1;0;3
+ExponentialBackOff.start( );1;0;3
+***not in a method***;0;1;0
+ExponentialBackOffExecution.nextBackOff( );2;2;8
+ExponentialBackOff.getMaxInterval( );1;0;3
+ExponentialBackOff.setMaxElapsedTime( long maxElapsedTime );1;0;3
+ExponentialBackOff.setMultiplier( double multiplier );1;0;4
+ExponentialBackOff.getInitialInterval( );1;0;3
+ExponentialBackOffExecution.computeNextInterval( );3;2;14

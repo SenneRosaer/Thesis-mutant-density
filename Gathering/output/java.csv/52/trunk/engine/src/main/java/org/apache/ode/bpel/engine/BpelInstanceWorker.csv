@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BpelInstanceWorker.isWorkerThread( );1;1;3
+BpelInstanceWorker.call( );1;0;4
+BpelInstanceWorker.run( );2;0;9
+BpelInstanceWorker.getIID( );1;0;3
+BpelInstanceWorker.execInCurrentThread( Callable < T > callable );4;0;28
+CachedState.CachedState( Object uuid , Object state );1;0;4
+BpelInstanceWorker.instanceId( );1;1;3
+BpelInstanceWorker.setCachedState( Object uuid , Object state );1;0;3
+BpelInstanceWorker.enqueue( Runnable runnable );2;1;8
+BpelInstanceWorker.getCachedState( Object uuid );3;2;6
+BpelInstanceWorker.toString( );1;0;3
+BpelInstanceWorker.BpelInstanceWorker( ODEProcess process , Long iid );1;0;5
+BpelInstanceWorker.doInstanceWork( Callable < T > work );2;0;13

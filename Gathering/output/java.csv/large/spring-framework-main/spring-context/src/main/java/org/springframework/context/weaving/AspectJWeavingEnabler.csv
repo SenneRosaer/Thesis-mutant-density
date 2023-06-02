@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AspectJWeavingEnabler.getOrder( );1;0;3
+AspectJWeavingEnabler.setBeanClassLoader( ClassLoader classLoader );1;0;3
+AspectJWeavingEnabler.setLoadTimeWeaver( LoadTimeWeaver loadTimeWeaver );1;0;3
+AspectJWeavingEnabler.postProcessBeanFactory( ConfigurableListableBeanFactory beanFactory );1;0;3
+AspectJClassBypassingClassFileTransformer.transform( ClassLoader loader , String className , Class < ? > classBeingRedefined , ProtectionDomain protectionDomain , byte [ ] classfileBuffer );3;1;6
+AspectJWeavingEnabler.enableAspectJWeaving( @ Nullable LoadTimeWeaver weaverToUse , @ Nullable ClassLoader beanClassLoader );3;1;12
+AspectJClassBypassingClassFileTransformer.AspectJClassBypassingClassFileTransformer( ClassFileTransformer delegate );1;0;3

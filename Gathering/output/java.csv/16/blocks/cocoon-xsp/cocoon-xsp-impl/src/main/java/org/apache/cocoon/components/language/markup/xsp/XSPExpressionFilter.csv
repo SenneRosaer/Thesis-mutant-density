@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSPExpressionFilter.characters( char [ ] ch , int start , int length );2;0;8
+XMLPipeAdapter.setConsumer( XMLConsumer consumer );1;0;3
+XSPExpressionFilter.pushInterpolationStack( Attributes attribs );5;5;23
+XSPExpressionFilter.startDocument( );1;0;5
+XMLPipeAdapter.setContentHandler( ContentHandler handler );1;0;3
+XSPExpressionFilter.getInterpolationSettings( );1;0;3
+XSPExpressionFilter.addAttribute( AttributesImpl attribs , String name , String value );3;3;5
+XSPExpressionFilter.handleText( char [ ] chars , int start , int length );1;0;3
+XSPExpressionFilter.endElement( String uri , String loc , String raw );1;0;5
+InterpolationSettings.InterpolationSettings( boolean attrInterpolation , boolean textInterpolation );1;0;4
+XMLPipeAdapter.setDocumentLocator( Locator locator );1;0;4
+XSPExpressionFilter.XSPExpressionFilter( XSPMarkupLanguage markup );1;0;7
+XMLPipeAdapter.XMLPipeAdapter( XSPExpressionFilter expressionFilter , AbstractXMLPipe additionalFilter );1;0;7
+XSPExpressionFilter.startElement( String namespaceURI , String localName , String qName , Attributes attribs );6;7;36
+XMLPipeAdapter.setLexicalHandler( LexicalHandler handler );1;0;3
+XSPExpressionFilter.handleExpression( char [ ] chars , int start , int length );1;0;5

@@ -1,0 +1,75 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultModuleDescriptor.getExtraAttributesNamespaces( );1;0;3
+DefaultModuleDescriptor.checkConf( Stack confs , String confName );5;8;23
+DefaultModuleDescriptor.DefaultModuleDescriptor( ModuleRevisionId id , String status , Date pubDate );1;0;3
+DefaultModuleDescriptor.addExtraInfo( String infoKey , String value );1;0;3
+DefaultModuleDescriptor.canExclude( );1;1;3
+DefaultModuleDescriptor.setModuleRevisionId( ModuleRevisionId revId );3;2;9
+DefaultModuleDescriptor.setDescription( String description );1;0;3
+DefaultModuleDescriptor.toString( );1;0;5
+DefaultModuleDescriptor.getExtraInfo( );1;0;3
+DefaultModuleDescriptor.getConfigurationsNames( );1;0;3
+DefaultModuleDescriptor.setPublicationDate( Date publicationDate );3;2;6
+DefaultModuleDescriptor.getQualifiedExtraAttributes( );1;0;3
+DefaultModuleDescriptor.setResolvedPublicationDate( Date publicationDate );2;1;6
+DefaultModuleDescriptor.getAttributes( );1;0;3
+DefaultModuleDescriptor.transformInstance( ModuleDescriptor md , Namespace ns );6;6;43
+DefaultModuleDescriptor.getModuleRevisionId( );1;0;3
+DefaultModuleDescriptor.getResolvedPublicationDate( );1;0;3
+DefaultModuleDescriptor.newBasicInstance( ModuleRevisionId mrid , Date publicationDate );1;0;8
+DefaultModuleDescriptor.getConfigurations( );1;0;4
+DefaultModuleDescriptor.getConflictManager( ModuleId moduleId );1;0;3
+DefaultModuleDescriptor.newCallerInstance( ModuleRevisionId mrid , String [ ] confs , boolean transitive , boolean changing );3;4;16
+DefaultModuleDescriptor.getExcludeRules( String [ ] moduleConfigurations );3;0;11
+DefaultModuleDescriptor.newDefaultInstance( ModuleRevisionId mrid );1;0;3
+DefaultModuleDescriptor.getAllArtifacts( );1;0;3
+DefaultModuleDescriptor.getAllExcludeRules( );1;0;3
+DefaultModuleDescriptor.getPublicationDate( );1;0;3
+DefaultModuleDescriptor.getDescription( );1;0;3
+DefaultModuleDescriptor.getArtifacts( String conf );2;1;8
+DefaultModuleDescriptor.getExtraAttributes( );1;0;3
+DefaultModuleDescriptor.getNamespace( );1;0;3
+DefaultModuleDescriptor.addConflictManager( ModuleId moduleId , PatternMatcher matcher , ConflictManager manager );1;0;3
+DefaultModuleDescriptor.getHomePage( );1;0;3
+DefaultModuleDescriptor.isMappingOverride( );1;0;3
+DefaultModuleDescriptor.doesExclude( String [ ] moduleConfigurations , ArtifactId artifactId );4;3;13
+DefaultModuleDescriptor.getAllDependencyDescriptorMediators( );1;0;3
+DefaultModuleDescriptor.getConfiguration( String confName );1;0;3
+DefaultModuleDescriptor.getPublicConfigurationsNames( );3;1;10
+DefaultModuleDescriptor.setResolvedModuleRevisionId( ModuleRevisionId revId );1;0;3
+DefaultModuleDescriptor.getMetadataArtifact( );2;1;7
+DefaultModuleDescriptor.isDefault( );1;0;3
+DefaultModuleDescriptor.setHomePage( String homePage );1;0;3
+DefaultModuleDescriptor.addExtraAttributeNamespace( String prefix , String namespace );1;0;3
+DefaultModuleDescriptor.containsAny( String [ ] arr1 , String [ ] arr2 );1;0;3
+DefaultModuleDescriptor.mediate( DependencyDescriptor dd );2;2;7
+DefaultModuleDescriptor.getDependencies( );1;0;4
+DefaultModuleDescriptor.toIvyFile( File destFile );3;3;7
+DefaultModuleDescriptor.newCallerInstance( ModuleRevisionId [ ] mrid , boolean transitive , boolean changing );2;2;13
+DefaultModuleDescriptor.addArtifact( String conf , Artifact artifact );3;2;13
+DefaultModuleDescriptor.DefaultModuleDescriptor( ModuleRevisionId id , String status , Date pubDate , boolean isDefault );4;3;15
+DefaultModuleDescriptor.setMappingOverride( boolean override );1;0;3
+DefaultModuleDescriptor.setModuleArtifact( Artifact moduleArtifact );1;0;3
+DefaultModuleDescriptor.addDependencyDescriptorMediator( ModuleId moduleId , PatternMatcher matcher , DependencyDescriptorMediator ddm );1;0;4
+DefaultModuleDescriptor.getResolvedModuleRevisionId( );1;0;3
+DefaultModuleDescriptor.addDependency( DependencyDescriptor dependency );1;0;3
+DefaultModuleDescriptor.getStatus( );1;0;3
+DefaultModuleDescriptor.newDefaultInstance( ModuleRevisionId mrid , DependencyArtifactDescriptor [ ] artifacts );4;5;17
+DefaultModuleDescriptor.dependsOn( VersionMatcher matcher , ModuleDescriptor md );5;1;13
+DefaultModuleDescriptor.addConfiguration( Configuration conf );1;0;3
+DefaultModuleDescriptor.setDefault( boolean b );1;0;3
+DefaultModuleDescriptor.getParser( );1;0;3
+DefaultModuleDescriptor.check( );3;2;12
+DefaultModuleDescriptor.getAttribute( String attName );1;0;3
+DefaultModuleDescriptor.getRevision( );1;0;3
+DefaultModuleDescriptor.getExtraAttribute( String attName );1;0;3
+DefaultModuleDescriptor.getResource( );1;0;3
+DefaultModuleDescriptor.addExcludeRule( ExcludeRule rule );1;0;3
+DefaultModuleDescriptor.setNamespace( Namespace ns );1;0;3
+DefaultModuleDescriptor.getLastModified( );1;0;3
+DefaultModuleDescriptor.getLicenses( );1;0;3
+DefaultModuleDescriptor.addLicense( License license );1;0;3
+DefaultModuleDescriptor.setStatus( String status );1;0;3
+DefaultModuleDescriptor.DefaultModuleDescriptor( ModuleDescriptorParser parser , Resource res );1;0;4
+DefaultModuleDescriptor.isNamespaceUseful( );3;1;9
+DefaultModuleDescriptor.setLastModified( long lastModified );1;0;3

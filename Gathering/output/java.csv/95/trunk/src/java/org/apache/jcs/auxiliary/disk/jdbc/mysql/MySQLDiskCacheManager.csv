@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MySQLDiskCacheManager.getInstance( MySQLDiskCacheAttributes cattr , ICompositeCacheManager compositeCacheManager , ICacheEventLogger cacheEventLogger , IElementSerializer elementSerializer );2;2;11
+OptimizerTask.OptimizerTask( MySQLTableOptimizer optimizer );1;0;3
+MySQLDiskCacheManager.scheduleOptimization( Date startTime , MySQLTableOptimizer optimizer );4;1;16
+MySQLDiskCacheManager.createJDBCDiskCache( JDBCDiskCacheAttributes cattr , TableState tableState );1;0;5
+***not in a method***;0;4;0
+MySQLDiskCacheManager.getDefaultJDBCDiskCacheAttributes( );1;0;3
+MySQLDiskCacheManager.setCompositeCacheManager( ICompositeCacheManager compositeCacheManager );1;0;3
+OptimizerTask.run( );3;1;14
+MySQLDiskCacheManager.MySQLDiskCacheManager( MySQLDiskCacheAttributes cattr , ICompositeCacheManager compositeCacheManager , ICacheEventLogger cacheEventLogger , IElementSerializer elementSerializer );2;0;10
+MySQLDiskCacheManager.scheduleOptimizations( MySQLDiskCacheAttributes attributes , TableState tableState );8;5;36
+MySQLDiskCacheManager.getCompositeCacheManager( );1;0;3
+MySQLDiskCacheManager.getCache( String cacheName );1;0;5

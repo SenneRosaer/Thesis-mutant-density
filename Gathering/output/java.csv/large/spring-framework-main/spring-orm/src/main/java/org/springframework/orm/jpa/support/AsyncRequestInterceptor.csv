@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AsyncRequestInterceptor.afterCompletion( NativeWebRequest request , Callable < T > task );1;0;3
+AsyncRequestInterceptor.closeEntityManager( );3;1;6
+AsyncRequestInterceptor.handleError( NativeWebRequest request , Callable < T > task , Throwable t );1;0;4
+AsyncRequestInterceptor.preProcess( NativeWebRequest request , Callable < T > task );1;0;3
+AsyncRequestInterceptor.handleTimeout( NativeWebRequest request , Callable < T > task );1;0;4
+AsyncRequestInterceptor.AsyncRequestInterceptor( EntityManagerFactory emFactory , EntityManagerHolder emHolder );1;0;4
+AsyncRequestInterceptor.afterCompletion( NativeWebRequest request , DeferredResult < T > deferredResult );1;0;3
+AsyncRequestInterceptor.postProcess( NativeWebRequest request , Callable < T > task , Object concurrentResult );1;0;3
+AsyncRequestInterceptor.handleError( NativeWebRequest request , DeferredResult < T > deferredResult , Throwable t );1;0;4
+AsyncRequestInterceptor.bindEntityManager( );1;0;5
+AsyncRequestInterceptor.handleTimeout( NativeWebRequest request , DeferredResult < T > deferredResult );1;0;4

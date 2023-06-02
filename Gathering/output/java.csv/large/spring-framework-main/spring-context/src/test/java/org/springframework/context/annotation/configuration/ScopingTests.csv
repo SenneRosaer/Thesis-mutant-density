@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Bar.getFoo( );1;0;3
+ScopingTests.createContext( Class < ? > configClass );2;1;10
+CustomScope.getConversationId( );1;0;3
+ScopedConfigurationClass.singletonWithScopedInterfaceDep( );1;0;5
+CustomScope.remove( String name );1;0;3
+ScopingTests.testScopeOnInterfaces( );1;0;3
+CustomScope.resolveContextualObject( String key );1;0;3
+ScopedConfigurationClass.scopedClass( );1;0;5
+Foo.Foo( );1;0;2
+ScopedConfigurationClass.singletonWithScopedClassDep( );1;0;5
+ScopingTests.tearDown( );2;1;5
+Foo.doSomething( );1;0;2
+ScopedConfigurationClass.scopedProxyInterface( );1;0;5
+ScopingTests.setUp( );1;0;4
+ScopedConfigurationClass.scopedProxyClass( );1;0;5
+InvalidProxyOnPredefinedScopesConfiguration.invalidProxyOnPredefinedScopes( );1;0;3
+ScopedConfigurationClass.scopedInterface( );1;0;5
+CustomScope.registerDestructionCallback( String name , Runnable callback );1;0;3
+CustomScope.get( String name , ObjectFactory < ? > objectFactory );3;1;11
+Bar.Bar( Foo foo );1;0;3
+ScopingTests.testRawScopes( );1;0;6
+ScopingTests.testScopedProxyConfiguration( );1;0;18
+ScopingTests.testScopedProxyConfigurationWithClasses( );1;0;19
+ScopingTests.testScopeOnClasses( );1;0;3
+ScopingTests.genericTestScope( String beanName );1;0;19
+ScopingTests.testSameScopeOnDifferentBeans( );1;0;11

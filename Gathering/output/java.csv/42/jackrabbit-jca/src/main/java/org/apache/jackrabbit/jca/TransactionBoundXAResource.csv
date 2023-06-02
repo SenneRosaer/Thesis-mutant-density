@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionBoundXAResource.recover( int arg0 );1;0;3
+TransactionBoundXAResource.getTransactionTimeout( );1;0;3
+TransactionBoundXAResource.end( Xid arg0 , int arg1 );2;1;11
+TransactionBoundXAResource.prepare( Xid arg0 );1;0;3
+TransactionBoundXAResource.forget( Xid arg0 );1;0;3
+TransactionBoundXAResource.TransactionBoundXAResource( JCAManagedConnection connection , XAResource xaResource );1;0;5
+TransactionBoundXAResource.setTransactionTimeout( int arg0 );1;0;3
+TransactionBoundXAResource.isSameRM( XAResource arg0 );1;0;3
+TransactionBoundXAResource.rollback( Xid arg0 );1;0;3
+TransactionBoundXAResource.start( Xid arg0 , int arg1 );1;0;3
+TransactionBoundXAResource.commit( Xid arg0 , boolean arg1 );1;0;3

@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Jar.findJarName( String fileName , String [ ] classpath );9;7;33
+Jar.createIndexList( ZipOutputStream zOut );8;10;49
+Jar.cleanUp( );3;3;11
+Jar.getManifest( Reader r );3;0;14
+Jar.getManifestFromJar( File jarFile );5;1;23
+Jar.getManifest( File manifestFile );4;1;24
+Jar.setManifest( File manifestFile );2;1;7
+Jar.compare( Object o1 , Object o2 );3;2;7
+Jar.setWhenmanifestonly( WhenEmpty we );1;0;3
+Jar.jarHasIndex( File jarFile );5;1;21
+Jar.setManifestEncoding( String manifestEncoding );1;0;3
+Jar.addConfiguredIndexJars( Path p );2;1;6
+Jar.Jar( );1;0;7
+Jar.zipFile( InputStream is , ZipOutputStream zOut , String vPath , long lastModified , File fromArchive , int mode );7;4;17
+FilesetManifestConfig.getValues( );1;0;3
+Jar.writeIndexLikeList( List dirs , List files , PrintWriter writer );7;2;27
+Jar.getResourcesToAdd( ResourceCollection [ ] rcs , File zipFile , boolean needsUpdate );8;5;35
+Jar.grabFilesAndDirs( String file , List dirs , List files );6;5;28
+Jar.writeServices( ZipOutputStream zOut );2;0;18
+StrictMode.getValues( );1;0;3
+Jar.writeManifest( ZipOutputStream zOut , Manifest manifest );2;0;24
+StrictMode.StrictMode( String value );1;0;3
+Jar.createManifest( );5;3;20
+Jar.checkJarSpec( );8;6;32
+Jar.initZipOutputStream( ZipOutputStream zOut );2;1;7
+Jar.setFilesetmanifest( FilesetManifestConfig config );3;3;8
+Jar.filesetManifest( File file , InputStream is );13;10;52
+Jar.setIndex( boolean flag );1;0;3
+Jar.reset( );1;0;9
+Jar.setStrict( StrictMode strict );1;0;3
+Jar.finalizeZipOutputStream( ZipOutputStream zOut );2;0;5
+StrictMode.getLogLevel( );2;0;3
+Jar.setJarfile( File jarFile );1;0;3
+Jar.createEmptyZip( File zipFile );8;3;42
+Jar.addMetainf( ZipFileSet fs );1;0;4
+Jar.addConfiguredService( Service service );1;0;4
+Jar.addConfiguredManifest( Manifest newManifest );2;1;8
+Jar.setWhenempty( WhenEmpty we );1;0;4
+StrictMode.StrictMode( );1;0;2

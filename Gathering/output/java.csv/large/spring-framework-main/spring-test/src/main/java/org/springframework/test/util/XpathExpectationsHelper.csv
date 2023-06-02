@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XpathExpectationsHelper.exists( byte [ ] content , @ Nullable String encoding );1;0;4
+XpathExpectationsHelper.assertNodeCount( byte [ ] content , @ Nullable String encoding , int expectedCount );2;1;5
+XpathExpectationsHelper.assertNumber( byte [ ] content , @ Nullable String encoding , Double expectedValue );1;0;4
+XpathExpectationsHelper.assertString( byte [ ] content , @ Nullable String encoding , Matcher < ? super String > matcher );1;0;4
+XpathExpectationsHelper.doesNotExist( byte [ ] content , @ Nullable String encoding );1;0;4
+XpathExpectationsHelper.compileXpathExpression( String expression , @ Nullable Map < String , String > namespaces );2;1;7
+XpathExpectationsHelper.XpathExpectationsHelper( String expression , @ Nullable Map < String , String > namespaces , Object ... args );1;1;5
+XpathExpectationsHelper.assertNode( byte [ ] content , @ Nullable String encoding , Matcher < ? super Node > matcher );1;0;4
+XpathExpectationsHelper.toQName( Class < T > expectedClass );6;0;23
+XpathExpectationsHelper.parseXmlByteArray( byte [ ] xml , @ Nullable String encoding );2;0;10
+XpathExpectationsHelper.evaluateXpath( Document document , QName evaluationType , Class < T > expectedClass );1;0;3
+XpathExpectationsHelper.assertBoolean( byte [ ] content , @ Nullable String encoding , boolean expectedValue );1;0;4
+XpathExpectationsHelper.assertNodeList( byte [ ] content , @ Nullable String encoding , Matcher < ? super NodeList > matcher );1;0;5
+XpathExpectationsHelper.getXpathExpression( );1;0;3
+XpathExpectationsHelper.assertNodeCount( byte [ ] content , @ Nullable String encoding , Matcher < ? super Integer > matcher );2;1;5
+XpathExpectationsHelper.assertString( byte [ ] content , @ Nullable String encoding , String expectedValue );1;0;4
+XpathExpectationsHelper.assertNumber( byte [ ] content , @ Nullable String encoding , Matcher < ? super Double > matcher );1;0;4
+XpathExpectationsHelper.evaluateXpath( byte [ ] content , @ Nullable String encoding , Class < T > targetClass );1;0;4

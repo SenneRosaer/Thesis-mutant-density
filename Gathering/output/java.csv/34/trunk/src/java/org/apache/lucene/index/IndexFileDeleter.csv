@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CommitPoint.isDeleted( );1;0;3
+CommitPoint.getSegmentsFileName( );1;0;3
+RefCount.DecRef( );1;2;4
+IndexFileDeleter.deleteNewFiles( Collection files );3;1;8
+IndexFileDeleter.incRef( List files );4;4;11
+IndexFileDeleter.message( String message );1;0;3
+IndexFileDeleter.refresh( String segmentName );11;13;27
+CommitPoint.getVersion( );1;0;3
+IndexFileDeleter.IndexFileDeleter( Directory directory , IndexDeletionPolicy policy , SegmentInfos segmentInfos , PrintStream infoStream , DocumentsWriter docWriter );19;15;73
+RefCount.IncRef( );1;1;3
+CommitPoint.getGeneration( );1;0;3
+CommitPoint.isOptimized( );1;0;3
+CommitPoint.getUserData( );1;0;3
+CommitPoint.delete( );2;1;6
+IndexFileDeleter.decRef( List files );2;2;6
+IndexFileDeleter.close( );3;3;9
+IndexFileDeleter.deleteFile( String fileName );6;3;18
+IndexFileDeleter.checkpoint( SegmentInfos segmentInfos , boolean isCommit );10;10;35
+CommitPoint.CommitPoint( Collection commitsToDelete , Directory directory , SegmentInfos segmentInfos );4;6;19
+CommitPoint.compareTo( Object obj );3;3;10
+IndexFileDeleter.deleteFiles( List files );2;2;5
+IndexFileDeleter.setInfoStream( PrintStream infoStream );2;1;5
+IndexFileDeleter.refresh( );1;0;3
+CommitPoint.getDirectory( );1;0;3
+CommitPoint.getFileNames( );1;0;3
+IndexFileDeleter.getRefCount( String fileName );2;1;10
+IndexFileDeleter.decRef( SegmentInfos segmentInfos );3;3;9
+IndexFileDeleter.decRef( String fileName );4;3;10
+IndexFileDeleter.incRef( SegmentInfos segmentInfos , boolean isCommit );4;3;12
+IndexFileDeleter.deleteCommits( );9;14;33
+IndexFileDeleter.deletePendingFiles( );4;4;12

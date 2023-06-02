@@ -1,0 +1,4 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Attribute.Attribute( ParsingContext parsingContext , StartElement raw , Attributes attrs , Stack stack );1;0;5
+Attribute.getSubst( String attrName , Attributes attrs , ParsingContext parsingContext , boolean isRequired );5;5;10
+Attribute.execute( final XMLConsumer consumer , ObjectModel objectModel , ExecutionContext executionContext , MacroContext macroContext , NamespacesTable namespaces , Event startEvent , Event endEvent );7;3;32

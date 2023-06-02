@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XPath.fixupXPath2( String xpath , int offset , final int end );9;11;28
+Field.createMatcher( ValueStore store );1;0;3
+Field.getIdentityConstraint( );1;0;3
+Matcher.handleContent( XSTypeDefinition type , boolean nillable , Object actualValue , short valueType , ShortList itemValueType );4;5;12
+Matcher.convertToPrimitiveKind( ShortList itemValueType );7;9;23
+XPath.fixupXPath( String xpath );8;8;23
+Field.getXPath( );1;0;3
+XPath.XPath( String xpath , SymbolTable symbolTable , NamespaceContext context );5;8;13
+Matcher.Matcher( Field . XPath xpath , ValueStore store );1;0;4
+Matcher.convertToPrimitiveKind( short valueType );4;3;12
+Matcher.matched( Object actualValue , short valueType , ShortList itemValueType , boolean isNil );3;2;10
+Field.toString( );1;0;3
+Field.Field( Field . XPath xpath , IdentityConstraint identityConstraint );1;0;4

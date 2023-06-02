@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FacesConfigAnnotationVisitor.process( );25;13;135
+FacesConfigAnnotationVisitor.FacesConfigAnnotationVisitor( AnnotationProcessorEnvironment env );1;0;3
+FacesConfigAnnotationVisitor.createPropertyOrAttributeExtension( String extensionType , MethodDeclaration methodDeclaration , UIComponentTagAttribute uiComponentTagAttribute , Namespace namespace );5;4;35
+FacesConfigAnnotationVisitor.addElement( InterfaceDeclaration decl , List < Element > components , List < Element > renderer , Namespace namespace );9;6;31
+FacesConfigAnnotationVisitor.addRendererElement( TypeDeclaration decl , UIComponentTag componentTag , Class uiComponentClass , List < Element > renderer , Namespace namespace );4;4;26
+FacesConfigAnnotationVisitor.getEqualElement( List < Element > components , Element newElement );3;0;8
+FacesConfigAnnotationVisitor.is12( );1;0;3
+FacesConfigAnnotationVisitor.applyNamespace( Element parent , Namespace namespace );2;0;6
+FacesConfigAnnotationVisitor.addDescription( MethodDeclaration d , Element attribute , Namespace namespace );4;4;15
+FacesConfigAnnotationVisitor.addAttributes( InterfaceDeclaration type , Class uiComponentClass , List properties , List attributes , Namespace namespace );3;0;8
+FacesConfigAnnotationVisitor.addValidator( ClassDeclaration decl , List < Element > newValidators , Namespace namespace );3;2;17
+FacesConfigAnnotationVisitor.createElementExtension( TypeDeclaration decl , UIComponentTag uiComponentTag , Namespace namespace );3;2;24
+FacesConfigAnnotationVisitor.addAttribute( MethodDeclaration d , Class uiComponentClass , List properties , List attributes , Namespace namespace );9;7;54
+FacesConfigAnnotationVisitor.getIndexAfter( Element rootElement , String ... tagNames );3;1;9
+FacesConfigAnnotationVisitor.resolveEntity( String publicId , String systemId );2;0;8
+FacesConfigAnnotationVisitor.addElement( ClassDeclaration decl , List < Element > components , List < Element > renderer , Namespace namespace );9;6;31
+FacesConfigAnnotationVisitor.containsElement( List < Element > components , Element newElement );1;1;3
+FacesConfigAnnotationVisitor.addAttributes( ClassDeclaration d , Class uiComponentClass , List properties , List attributes , Namespace namespace );4;1;12
+FacesConfigAnnotationVisitor.createComponentElement( TypeDeclaration decl , UIComponentTag componentTag , Class uiComponentClass , Namespace namespace );2;1;19
+FacesConfigAnnotationVisitor.equals( Element element1 , Element element2 );5;1;11
+FacesConfigAnnotationVisitor.addFacets( UIComponentTag componentTag , Namespace namespace , Element element );5;4;26
+FacesConfigAnnotationVisitor.getIndexAfter( Element rootElement , String tagName );2;3;7
+FacesConfigAnnotationVisitor.normaliseLineEndings( Document document );2;0;6
+FacesConfigAnnotationVisitor.addConverter( ClassDeclaration decl , List < Element > newConverters , Namespace namespace );3;2;17
+FacesConfigAnnotationVisitor.addClass( UIComponentTagAttribute componentAttribute , Element attributeClass );9;5;21
+FacesConfigAnnotationVisitor.addAttributes( Collection < InterfaceType > interfaces , Class uiComponentClass , List properties , List attributes , Namespace namespace );2;0;5

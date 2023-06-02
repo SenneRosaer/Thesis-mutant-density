@@ -1,0 +1,60 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestUserRegistry.getUsers( );1;0;1
+DotSeparatorWithDotBrokerConventionConfig.configureMessageBroker( MessageBrokerRegistry registry );1;0;4
+MessageBrokerConfigurationTests.userBroadcasts( );1;0;14
+MessageBrokerConfigurationTests.brokerChannelCustomized( );1;0;11
+SimpleBrokerConfig.brokerChannel( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel , TaskExecutor brokerChannelExecutor );1;0;3
+MessageBrokerConfigurationTests.simpValidatorCustom( );1;0;10
+MessageBrokerConfigurationTests.testDotSeparator( ApplicationContext context , boolean expectLeadingSlash );5;0;36
+TestValidator.supports( Class < ? > clazz );1;0;3
+BaseTestMessageBrokerConfig.createLocalUserRegistry( @ Nullable Integer order );2;1;7
+CustomConfig.addReturnValueHandlers( List < HandlerMethodReturnValueHandler > returnValueHandlers );1;0;3
+MessageBrokerConfigurationTests.customUserRegistryOrder( );1;0;6
+MessageBrokerConfigurationTests.getValidator( );1;0;3
+MessageBrokerConfigurationTests.clientOutboundChannelCustomized( );1;0;14
+TestUserRegistry.findSubscriptions( SimpSubscriptionMatcher matcher );1;0;1
+MessageBrokerConfigurationTests.configureMessageConvertersDefault( );1;0;12
+MessageBrokerConfigurationTests.clientOutboundChannelUsedBySimpleBroker( );2;0;22
+BaseDotSeparatorConfig.configureMessageBroker( MessageBrokerRegistry registry );1;0;3
+MessageBrokerConfigurationTests.configureMessageConvertersCustom( );1;0;14
+MessageBrokerConfigurationTests.createConnectMessage( String sessionId , long [ ] heartbeat );1;0;6
+MessageBrokerConfigurationTests.configureMessageConverters( List < MessageConverter > messageConverters );1;0;4
+TestController.handleMessage( );1;0;3
+TestValidator.validate( @ Nullable Object target , Errors errors );1;0;2
+MessageBrokerConfigurationTests.brokerChannelWithBrokerRelay( );1;0;8
+TestUserRegistry.getOrder( );1;0;3
+MessageBrokerConfigurationTests.customArgumentAndReturnValueTypes( );1;0;11
+CustomConfig.configureClientInboundChannel( ChannelRegistration registration );1;0;5
+BaseDotSeparatorConfig.clientOutboundChannel( TaskExecutor clientOutboundChannelExecutor );1;0;3
+MessageBrokerConfigurationTests.loadConfig( Class < ? > configClass );1;0;3
+BaseDotSeparatorConfig.brokerChannel( AbstractSubscribableChannel clientInboundChannel , AbstractSubscribableChannel clientOutboundChannel , TaskExecutor brokerChannelExecutor );1;0;3
+CustomConfig.addArgumentResolvers( List < HandlerMethodArgumentResolver > argumentResolvers );1;0;3
+MessageBrokerConfigurationTests.customPathMatcher( );1;0;12
+TestUserRegistry.getUserCount( );1;0;1
+MessageBrokerConfigurationTests.clientInboundChannelCustomized( );1;0;11
+SimpleBrokerConfig.clientOutboundChannel( TaskExecutor clientOutboundChannelExecutor );1;0;3
+MessageBrokerConfigurationTests.brokerChannelUsedByAnnotatedMethod( );2;0;17
+MessageBrokerConfigurationTests.configureMessageConvertersCustomAndDefault( );1;0;18
+MessageBrokerConfigurationTests.dotSeparatorWithBrokerSlashConvention( );1;0;4
+TestUserRegistry.setOrder( int order );1;0;3
+TestController.handleSubscribe( );1;0;3
+MessageBrokerConfigurationTests.customCacheLimit( );1;0;6
+MessageBrokerConfigurationTests.clientInboundChannelWithBrokerRelay( );1;0;9
+MessageBrokerConfigurationTests.simpValidatorMvc( );1;0;8
+BrokerRelayConfig.configureMessageBroker( MessageBrokerRegistry registry );1;0;5
+BaseDotSeparatorConfig.clientInboundChannel( TaskExecutor clientInboundChannelExecutor );1;0;3
+MessageBrokerConfigurationTests.clientInboundChannel( );1;0;9
+MessageBrokerConfigurationTests.brokerChannel( );1;0;9
+SimpleBrokerConfig.clientInboundChannel( TaskExecutor clientInboundChannelExecutor );1;0;3
+DotSeparatorWithSlashBrokerConventionConfig.configureMessageBroker( MessageBrokerRegistry registry );1;0;4
+MessageBrokerConfigurationTests.threadPoolSizeDefault( );1;2;13
+CustomConfig.configureClientOutboundChannel( ChannelRegistration registration );1;0;4
+MessageBrokerConfigurationTests.simpValidatorInjected( );1;0;6
+TestChannel.sendInternal( Message < ? > message , long timeout );1;0;4
+TestUserRegistry.getUser( String userName );1;0;1
+MessageBrokerConfigurationTests.simpValidatorDefault( );1;0;6
+MessageBrokerConfigurationTests.userBroadcastsDisabledWithSimpleBroker( );1;0;10
+SimpleBrokerConfig.subscriptionController( );1;0;3
+MessageBrokerConfigurationTests.clientOutboundChannelUsedByAnnotatedMethod( );2;0;18
+MessageBrokerConfigurationTests.dotSeparatorWithBrokerDotConvention( );1;0;4
+CustomConfig.configureMessageBroker( MessageBrokerRegistry registry );1;0;9

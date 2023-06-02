@@ -1,0 +1,54 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SessionItemStateManager.disposeTransientItemStateInAttic( ItemState state );1;0;5
+SessionItemStateManager.destroy( ItemState state );1;0;3
+SessionItemStateManager.createTransientPropertyState( PropertyState overlayedState , int initialStatus );2;0;14
+SessionItemStateManager.hasItemState( ItemId id );3;0;9
+SessionItemStateManager.hasTransientItemStateInAttic( ItemId id );1;0;3
+SessionItemStateManager.getTransientItemState( ItemId id );2;1;8
+SessionItemStateManager.stateCreated( ItemState created );3;2;12
+SessionItemStateManager.update( );1;0;3
+SessionItemStateManager.createNew( NodeState transientState );1;0;7
+SessionItemStateManager.addListener( ItemStateListener listener );1;0;3
+SessionItemStateManager.getAtticAwareHierarchyMgr( );1;0;3
+SessionItemStateManager.store( ItemState state );1;0;3
+SessionItemStateManager.moveTransientItemStateToAttic( ItemState state );1;0;4
+SessionItemStateManager.nodeRemoved( NodeState state , Name name , int index , NodeId id );3;3;5
+SessionItemStateManager.SessionItemStateManager( NodeId rootNodeId , LocalItemStateManager stateMgr , NodeTypeRegistry ntReg );1;0;9
+SessionItemStateManager.getDescendantTransientItemStates( NodeId parentId );11;10;48
+SessionItemStateManager.disposeTransientItemState( ItemState state );1;0;5
+SessionItemStateManager.createTransientNodeState( NodeId id , Name nodeTypeName , NodeId parentId , int initialStatus );2;0;14
+SessionItemStateManager.inEditMode( );1;0;3
+SessionItemStateManager.cancel( );1;0;3
+SessionItemStateManager.nodeModified( NodeState state );3;3;5
+SessionItemStateManager.createTransientNodeState( NodeState overlayedState , int initialStatus );2;0;14
+SessionItemStateManager.dispose( );1;0;4
+SessionItemStateManager.isItemStateInAttic( ItemId id );1;0;3
+SessionItemStateManager.getNodeReferences( NodeReferencesId id );1;0;3
+SessionItemStateManager.hasNodeReferences( NodeReferencesId id );1;0;3
+SessionItemStateManager.getDescendantTransientItemStatesInAttic( NodeId parentId );10;10;42
+SessionItemStateManager.hasTransientItemState( ItemId id );1;0;3
+SessionItemStateManager.getItemState( ItemId id );4;0;12
+SessionItemStateManager.isDeleted( ItemId id );1;0;3
+SessionItemStateManager.isAdded( ItemId id );2;3;5
+AtticItemStateManager.getNodeReferences( NodeReferencesId id );1;0;3
+SessionItemStateManager.hasAnyTransientItemStates( );1;1;3
+SessionItemStateManager.dump( PrintStream ps );3;0;18
+SessionItemStateManager.getHierarchyMgr( );1;0;3
+AtticItemStateManager.getItemState( ItemId id );2;1;8
+SessionItemStateManager.edit( );1;0;3
+SessionItemStateManager.allowsSameNameSiblings( NodeId id );3;1;10
+SessionItemStateManager.disconnectTransientItemState( ItemState state );1;0;3
+SessionItemStateManager.nodeAdded( NodeState state , Name name , int index , NodeId id );3;3;5
+SessionItemStateManager.stateModified( ItemState modified );10;5;42
+AtticItemStateManager.hasNodeReferences( NodeReferencesId id );1;0;3
+SessionItemStateManager.createNew( Name propName , NodeId parentId );1;0;3
+SessionItemStateManager.createTransientPropertyState( NodeId parentId , Name propName , int initialStatus );2;0;14
+SessionItemStateManager.getAttic( );2;1;6
+SessionItemStateManager.disposeAllTransientItemStates( );3;0;14
+SessionItemStateManager.createNew( PropertyState transientState );1;0;6
+AtticItemStateManager.hasItemState( ItemId id );1;0;3
+SessionItemStateManager.nodesReplaced( NodeState state );3;3;5
+SessionItemStateManager.createNew( NodeId id , Name nodeTypeName , NodeId parentId );1;0;3
+SessionItemStateManager.stateDiscarded( ItemState discarded );3;2;11
+SessionItemStateManager.stateDestroyed( ItemState destroyed );3;2;11
+SessionItemStateManager.removeListener( ItemStateListener listener );1;0;3

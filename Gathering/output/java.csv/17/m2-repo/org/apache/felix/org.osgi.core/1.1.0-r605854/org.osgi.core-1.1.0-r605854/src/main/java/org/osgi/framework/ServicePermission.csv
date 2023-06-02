@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServicePermissionCollection.add( Permission permission );7;5;26
+ServicePermission.init( int mask );3;4;6
+ServicePermission.hashCode( );1;1;3
+ServicePermission.ServicePermission( String name , int mask );1;0;4
+ServicePermissionCollection.elements( );1;0;3
+ServicePermission.implies( Permission p );3;3;8
+ServicePermission.readObject( java . io . ObjectInputStream s );1;0;4
+ServicePermission.getActions( );5;5;17
+ServicePermissionCollection.implies( Permission permission );10;18;36
+ServicePermission.equals( Object obj );4;4;10
+ServicePermission.newPermissionCollection( );1;0;3
+ServicePermission.ServicePermission( String name , String actions );1;0;3
+ServicePermission.writeObject( java . io . ObjectOutputStream s );2;1;5
+***not in a method***;0;2;0
+ServicePermissionCollection.ServicePermissionCollection( );1;0;4
+ServicePermission.getMask( String actions );43;90;63
+ServicePermission.getMask( );1;0;3

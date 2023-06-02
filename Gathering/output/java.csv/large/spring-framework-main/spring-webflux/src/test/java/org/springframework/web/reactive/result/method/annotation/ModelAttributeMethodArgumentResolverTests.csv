@@ -1,0 +1,44 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ModelAttributeMethodArgumentResolverTests.handle( @ ModelAttribute @ Validated Pojo pojo , @ ModelAttribute @ Validated Mono < Pojo > mono , @ ModelAttribute @ Validated Single < Pojo > single , @ ModelAttribute ( binding = false ) NonBindingPojo nonBindingPojo , @ ModelAttribute ( binding = false ) Mono < NonBindingPojo > monoNonBindingPojo , @ ModelAttribute ( binding = false ) Single < NonBindingPojo > singleNonBindingPojo , @ ModelAttribute ( binding = false ) @ Validated ValidatedPojo validatedPojo , @ ModelAttribute ( binding = false ) @ Validated Mono < ValidatedPojo > monoValidatedPojo , @ ModelAttribute ( binding = false ) @ Validated Single < ValidatedPojo > singleValidatedPojo , Pojo pojoNotAnnotated , String stringNotAnnotated , Mono < Pojo > monoNotAnnotated , Mono < String > monoStringNotAnnotated , DataClass dataClassNotAnnotated );1;0;2
+ModelAttributeMethodArgumentResolverTests.validationErrorWithoutBindingForPojo( );1;0;4
+ModelAttributeMethodArgumentResolverTests.createButDoNotBindToSingle( );2;0;10
+DataClass.getName( );1;0;3
+ModelAttributeMethodArgumentResolverTests.testValidationError( MethodParameter param , Function < Mono < ? > , Mono < ? > > valueMonoExtractor , String formData , String field , String rejectedValue );2;0;13
+ValidatedPojo.toString( );1;0;3
+ValidatedPojo.setName( String name );1;0;3
+ModelAttributeMethodArgumentResolverTests.supports( );1;0;16
+Pojo.setName( String name );1;0;3
+ModelAttributeMethodArgumentResolverTests.setup( );1;0;7
+ModelAttributeMethodArgumentResolverTests.createButDoNotBind( );1;0;8
+ModelAttributeMethodArgumentResolverTests.validationErrorForMono( );2;0;10
+ModelAttributeMethodArgumentResolverTests.bindExistingSingle( );1;0;11
+ModelAttributeMethodArgumentResolverTests.createButDoNotBindToMono( );2;0;10
+ModelAttributeMethodArgumentResolverTests.createResolver( );1;0;3
+ModelAttributeMethodArgumentResolverTests.createAndBindToMono( );2;0;10
+ModelAttributeMethodArgumentResolverTests.bindExistingMonoToMono( );2;0;14
+ModelAttributeMethodArgumentResolverTests.bindExistingMono( );1;0;11
+ModelAttributeMethodArgumentResolverTests.supportsWithDefaultResolution( );1;0;12
+ModelAttributeMethodArgumentResolverTests.postForm( String formData );1;0;5
+ModelAttributeMethodArgumentResolverTests.testValidationErrorWithoutBinding( MethodParameter parameter , Function < Mono < ? > , Mono < ? > > valueMonoExtractor );1;0;3
+ModelAttributeMethodArgumentResolverTests.testValidationError( MethodParameter parameter , Function < Mono < ? > , Mono < ? > > valueMonoExtractor );1;0;3
+ModelAttributeMethodArgumentResolverTests.validationErrorWithoutBindingForSingle( );2;0;8
+Pojo.setAge( int age );1;0;3
+Pojo.getAge( );1;0;3
+ModelAttributeMethodArgumentResolverTests.createButDoNotBindToPojo( String modelKey , MethodParameter methodParameter , Function < Object , NonBindingPojo > valueExtractor );1;1;13
+Pojo.getName( );1;0;3
+ModelAttributeMethodArgumentResolverTests.validationErrorWithoutBindingForMono( );2;0;8
+ModelAttributeMethodArgumentResolverTests.bindExisting( );1;0;11
+ValidatedPojo.getName( );1;0;3
+DataClass.setCount( int count );1;0;3
+NonBindingPojo.getName( );1;0;3
+ModelAttributeMethodArgumentResolverTests.validationErrorForPojo( );1;0;4
+ModelAttributeMethodArgumentResolverTests.createAndBindToSingle( );2;0;10
+DataClass.getAge( );1;0;3
+NonBindingPojo.setName( String name );1;0;3
+ModelAttributeMethodArgumentResolverTests.bindDataClass( );1;1;16
+DataClass.getCount( );1;0;3
+DataClass.DataClass( String name , int age );1;0;4
+NonBindingPojo.toString( );1;0;3
+ModelAttributeMethodArgumentResolverTests.testBindPojo( String modelKey , MethodParameter param , Function < Object , Pojo > valueExtractor );1;1;13
+ModelAttributeMethodArgumentResolverTests.createAndBind( );1;0;6
+ModelAttributeMethodArgumentResolverTests.validationErrorForSingle( );2;0;10

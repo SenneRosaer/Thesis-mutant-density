@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SourceRoot.addPackage( String packageName );1;0;3
+QDoxSourceFactory.getSource( String location , Map parameters );6;3;24
+QDoxSourceFactory.service( ServiceManager manager );3;0;12
+QDoxSourceFactory.release( Source source );1;0;2
+QDoxSourceFactory.getSource( String classFileName , String packageName , SourceResolver resolver );6;4;22
+QDoxSourceFactory.getSource( String className );6;4;22
+QDoxSourceFactory.configure( Configuration config );5;6;14
+SourceRoot.getUri( );1;0;3
+SourceRoot.hasPackage( String packageName );1;0;3
+SourceRoot.SourceRoot( String uri );2;2;7
+QDoxSourceFactory.getSource( String uri , SourceResolver resolver );7;3;20

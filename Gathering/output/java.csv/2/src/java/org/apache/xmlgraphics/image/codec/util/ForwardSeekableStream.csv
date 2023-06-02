@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ForwardSeekableStream.markSupported( );1;0;3
+ForwardSeekableStream.close( );1;0;3
+ForwardSeekableStream.reset( );2;2;6
+ForwardSeekableStream.read( );2;3;7
+ForwardSeekableStream.getFilePointer( );1;0;3
+ForwardSeekableStream.canSeekBackwards( );1;0;3
+ForwardSeekableStream.ForwardSeekableStream( InputStream src );1;0;3
+***not in a method***;0;1;0
+ForwardSeekableStream.seek( long pos );2;4;5
+ForwardSeekableStream.mark( int readLimit );1;0;4
+ForwardSeekableStream.available( );1;0;3
+ForwardSeekableStream.read( byte [ ] b , int off , int len );2;3;7
+ForwardSeekableStream.skip( long n );1;1;5

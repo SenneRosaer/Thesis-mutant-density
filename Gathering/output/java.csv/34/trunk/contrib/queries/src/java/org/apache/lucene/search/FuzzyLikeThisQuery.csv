@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FuzzyTermQuery.getSimilarity( Searcher searcher );2;0;18
+FuzzyTermQuery.FuzzyTermQuery( Term t , boolean ignoreTF );1;0;4
+FuzzyLikeThisQuery.rewrite( IndexReader reader );8;5;53
+FuzzyLikeThisQuery.addTerms( String queryString , String fieldName , float minSimilarity , int prefixLength );1;0;3
+FuzzyLikeThisQuery.toString( String field );1;0;3
+ScoreTermQueue.lessThan( Object a , Object b );2;3;8
+FuzzyTermQuery.idf( int docFreq , int numDocs );1;0;3
+FuzzyLikeThisQuery.setIgnoreTF( boolean ignoreTF );1;0;3
+FuzzyTermQuery.tf( float freq );2;0;7
+ScoreTerm.ScoreTerm( Term term , float score , Term fuzziedSourceTerm );1;0;5
+FieldVals.FieldVals( String name , float similarity , int length , String queryString );1;0;6
+ScoreTermQueue.ScoreTermQueue( int size );1;0;3
+FuzzyLikeThisQuery.FuzzyLikeThisQuery( int maxNumTerms , Analyzer analyzer );1;0;4
+FuzzyLikeThisQuery.addTerms( IndexReader reader , FieldVals f );12;16;59
+FuzzyLikeThisQuery.isIgnoreTF( );1;0;3

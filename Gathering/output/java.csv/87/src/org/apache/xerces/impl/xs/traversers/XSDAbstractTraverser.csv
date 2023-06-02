@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSDAbstractTraverser.checkOccurrences( XSParticleDecl particle , String particleName , Element parent , int allContextFlags , long defaultVals );13;24;46
+XSDAbstractTraverser.processAttValue( String original );8;13;11
+XSDAbstractTraverser.reset( SymbolTable symbolTable , boolean validateAnnotations , Locale locale );1;0;7
+XSDAbstractTraverser.containsQName( XSSimpleType type );7;8;18
+FacetInfo.FacetInfo( XSFacets facets , Element nodeAfterFacets , short presentFacets , short fixedFacets );1;0;6
+XSDAbstractTraverser.traverseAttrsAndAttrGrps( Element firstAttr , XSAttributeGroupDecl attrGrp , XSDocumentInfo schemaDoc , SchemaGrammar grammar , XSComplexTypeDecl enclosingCT );30;27;92
+XSDAbstractTraverser.XSDAbstractTraverser( XSDHandler handler , XSAttributeChecker attrChecker );1;0;4
+XSDAbstractTraverser.traverseAnnotationDecl( Element annotationDecl , Object [ ] parentAttrs , boolean isGlobal , XSDocumentInfo schemaDoc );14;20;68
+XSDAbstractTraverser.traverseSyntheticAnnotation( Element annotationParent , String initialContent , Object [ ] parentAttrs , boolean isGlobal , XSDocumentInfo schemaDoc );8;13;47
+XSDAbstractTraverser.checkNotationType( String refName , XSTypeDefinition typeDecl , Element elem );5;7;9
+XSDAbstractTraverser.escapeAttValue( String original , int from );8;8;31
+XSDAbstractTraverser.reportSchemaError( String key , Object [ ] args , Element ele );1;0;3
+XSDAbstractTraverser.traverseFacets( Element content , XSSimpleType baseValidator , XSDocumentInfo schemaDoc );60;31;224

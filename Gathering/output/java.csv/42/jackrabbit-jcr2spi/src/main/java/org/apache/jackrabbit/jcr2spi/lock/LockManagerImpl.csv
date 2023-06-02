@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LockManagerImpl.getLockTokens( );1;0;3
+LockImpl.isHoldBySession( );1;1;3
+LockImpl.refresh( );3;2;10
+LockState.appliesToNodeState( NodeState nodeState );3;2;11
+LockState.LockState( NodeState lockHoldingState , LockInfo lockInfo );1;0;4
+LockManagerImpl.getLockImpl( NodeState nodeState , boolean lazyLockDiscovery );9;6;41
+LockManagerImpl.getLockFromMap( NodeState nodeState );4;2;10
+LockImpl.getLockInfo( );1;0;3
+LockManagerImpl.buildLockState( NodeState nodeState );5;2;25
+LockState.startListening( );4;2;14
+LockManagerImpl.getLockHoldingState( NodeState nodeState );4;2;16
+LockImpl.getLockToken( );1;0;4
+LockManagerImpl.checkLock( NodeState nodeState );4;4;9
+LockManagerImpl.removeLockToken( String lt );5;2;15
+LockImpl.isLive( );1;0;4
+LockManagerImpl.getLock( NodeState nodeState );2;1;7
+LockState.reloadLockInfo( );2;1;7
+LockManagerImpl.loggingOut( Session session );5;4;15
+LockManagerImpl.addLockToken( String lt );1;0;4
+LockState.release( );2;0;6
+LockManagerImpl.LockManagerImpl( WorkspaceManager wspManager , ItemManager itemManager , CacheBehaviour cacheBehaviour );1;0;6
+LockManagerImpl.notifyTokenRemoved( String lt );2;2;6
+LockImpl.lockTokenAdded( String lockToken );2;1;5
+LockImpl.getLockOwner( );1;0;3
+LockManagerImpl.loggedOut( Session session );2;2;6
+LockManagerImpl.isLocked( NodeState nodeState );1;1;4
+LockImpl.lockTokenRemoved( String lockToken );2;0;5
+LockImpl.isDeep( );1;0;3
+LockImpl.updateLockInfo( );3;0;9
+LockState.statusChanged( ItemState state , int previousStatus );3;1;11
+LockManagerImpl.unlock( NodeState nodeState );2;0;8
+LockImpl.LockImpl( LockState lockState , Node lockHoldingNode );4;2;16
+LockImpl.getNode( );1;0;3
+LockState.unlocked( );2;0;6
+LockManagerImpl.lock( NodeState nodeState , boolean isDeep , boolean isSessionScoped );2;0;13
+LockManagerImpl.notifyTokenAdded( String lt );2;2;6
+LockState.refresh( );1;0;4
+LockState.stopListening( );5;1;15
+LockImpl.isSessionScoped( );1;0;3

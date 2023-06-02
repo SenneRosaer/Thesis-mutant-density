@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClientCodecConfigurerTests.assertSseReader( List < HttpMessageReader < ? > > readers );3;0;7
+ClientCodecConfigurerTests.assertStringDecoder( Decoder < ? > decoder , boolean textOnly );1;1;11
+ClientCodecConfigurerTests.clonedConfigurer( );3;0;15
+ClientCodecConfigurerTests.jackson2CodecCustomization( );3;0;16
+ClientCodecConfigurerTests.cloneShouldNotBeImpactedByChangesToOriginal( );2;0;8
+ClientCodecConfigurerTests.cloneShouldNotDropMultipartCodecs( );2;0;6
+ClientCodecConfigurerTests.maxInMemorySize( );2;0;28
+ClientCodecConfigurerTests.assertStringEncoder( Encoder < ? > encoder , boolean textOnly );1;1;6
+ClientCodecConfigurerTests.objectMapperCustomization( );4;0;17
+ClientCodecConfigurerTests.defaultReaders( );2;0;24
+ClientCodecConfigurerTests.getNextEncoder( List < HttpMessageWriter < ? > > writers );3;0;5
+ClientCodecConfigurerTests.defaultWriters( );2;0;22
+ClientCodecConfigurerTests.enableLoggingRequestDetails( );2;0;9
+ClientCodecConfigurerTests.getNextDecoder( List < HttpMessageReader < ? > > readers );3;0;5
+ClientCodecConfigurerTests.nextReader( List < HttpMessageReader < ? > > readers );1;0;3
+ClientCodecConfigurerTests.findCodec( List < ? > codecs , Class < T > type );5;0;15

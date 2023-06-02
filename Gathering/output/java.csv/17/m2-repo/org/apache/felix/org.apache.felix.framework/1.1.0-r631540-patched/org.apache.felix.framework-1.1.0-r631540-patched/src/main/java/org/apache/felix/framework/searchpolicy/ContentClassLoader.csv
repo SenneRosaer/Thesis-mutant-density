@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ContentClassLoader.getResourceFromModule( String name );2;0;10
+ContentClassLoader.getResource( String name );2;0;10
+ContentClassLoader.findResource( String name );2;0;10
+ContentClassLoader.getDexFileClass( JarContent content , String name , ClassLoader loader );4;3;29
+ContentClassLoader.loadClass( String name , boolean resolve );4;2;20
+ContentClassLoader.findLibrary( String name );1;0;3
+ContentClassLoader.ContentClassLoader( ContentLoaderImpl contentLoader , ProtectionDomain protectionDomain );2;1;8
+ContentClassLoader.findResources( String name );2;0;10
+ContentClassLoader.findClass( String name );13;12;80
+ContentClassLoader.loadClassFromModule( String name );2;1;8
+ContentClassLoader.toString( );1;0;3
+ContentClassLoader.getContentLoader( );1;0;3

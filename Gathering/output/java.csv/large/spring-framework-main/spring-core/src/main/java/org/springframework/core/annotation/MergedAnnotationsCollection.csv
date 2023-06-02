@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MergedAnnotationsCollection.get( String annotationType );1;0;3
+MergedAnnotationsCollection.iterator( );1;0;3
+AnnotationsSpliterator.characteristics( );1;1;3
+MergedAnnotationsCollection.get( String annotationType , @ Nullable Predicate < ? super MergedAnnotation < A > > predicate , @ Nullable MergedAnnotationSelector < A > selector );2;1;4
+AnnotationsSpliterator.trySplit( );1;0;3
+MergedAnnotationsCollection.of( Collection < MergedAnnotation < ? > > annotations );2;0;7
+MergedAnnotationsCollection.stream( Class < A > annotationType );1;0;3
+MergedAnnotationsCollection.isDirectlyPresent( String annotationType );1;0;3
+MergedAnnotationsCollection.find( Object requiredType , @ Nullable Predicate < ? super MergedAnnotation < A > > predicate , @ Nullable MergedAnnotationSelector < A > selector );12;12;25
+MergedAnnotationsCollection.isPresent( Object requiredType , boolean directOnly );10;5;19
+MergedAnnotationsCollection.spliterator( @ Nullable Object annotationType );1;0;3
+AnnotationsSpliterator.getNextSuitableMapping( int annotationIndex );4;4;12
+AnnotationsSpliterator.estimateSize( );2;4;10
+AnnotationsSpliterator.createMergedAnnotationIfPossible( int annotationIndex , int mappingIndex );4;2;10
+MergedAnnotationsCollection.isPresent( String annotationType );1;0;3
+AnnotationsSpliterator.AnnotationsSpliterator( @ Nullable Object requiredType );1;0;4
+AnnotationsSpliterator.getMapping( int annotationIndex , int mappingIndex );2;1;4
+MergedAnnotationsCollection.isPresent( Class < A > annotationType );1;0;3
+MergedAnnotationsCollection.get( Class < A > annotationType , @ Nullable Predicate < ? super MergedAnnotation < A > > predicate );1;0;3
+MergedAnnotationsCollection.isDirectlyPresent( Class < A > annotationType );1;0;3
+MergedAnnotationsCollection.get( Class < A > annotationType );1;0;3
+MergedAnnotationsCollection.stream( String annotationType );1;0;3
+MergedAnnotationsCollection.stream( );1;0;3
+MergedAnnotationsCollection.get( Class < A > annotationType , @ Nullable Predicate < ? super MergedAnnotation < A > > predicate , @ Nullable MergedAnnotationSelector < A > selector );2;1;4
+MergedAnnotationsCollection.MergedAnnotationsCollection( Collection < MergedAnnotation < ? > > annotations );4;3;12
+MergedAnnotationsCollection.spliterator( );1;0;3
+AnnotationsSpliterator.tryAdvance( Consumer < ? super MergedAnnotation < A > > action );7;11;25
+MergedAnnotationsCollection.get( String annotationType , @ Nullable Predicate < ? super MergedAnnotation < A > > predicate );1;0;3
+MergedAnnotationsCollection.isMappingForType( AnnotationTypeMapping mapping , @ Nullable Object requiredType );4;3;7

@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ZombieCacheService.release( );1;0;3
+ZombieCacheService.dispose( String cacheName );1;0;3
+ZombieCacheService.put( ICacheElement item );2;0;6
+ZombieCacheService.remove( String cacheName , Serializable key );1;0;2
+ZombieCacheService.getMultiple( String cacheName , Set keys );1;0;3
+ZombieCacheService.get( String cacheName , Serializable key , boolean container );2;0;7
+ZombieCacheService.removeAll( String cacheName );1;0;2
+ZombieCacheService.update( ICacheElement item );1;0;2
+ZombieCacheService.get( String cacheName , Serializable key );1;0;3

@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultJDBCAdapter.doRemoveData( Connection connection , String id );2;1;12
+DefaultJDBCAdapter.close( ResultSet rs );3;1;8
+DefaultJDBCAdapter.doGetCount( Connection connection );1;0;13
+DefaultJDBCAdapter.doLoadData( Connection connection , String [ ] ids );3;2;18
+DefaultJDBCAdapter.setBinaryData( PreparedStatement s , int index , byte data [ ] );1;0;3
+DefaultJDBCAdapter.setStatements( Statements statements );1;0;3
+DefaultJDBCAdapter.close( Statement s );3;1;8
+DefaultJDBCAdapter.doLoadData( Connection connection , String id );2;1;16
+DefaultJDBCAdapter.doStoreData( Connection connection , String id , byte [ ] data );3;2;15
+DefaultJDBCAdapter.getBinaryData( ResultSet rs , int index );1;0;3
+DefaultJDBCAdapter.doUpdateData( Connection connection , String id , byte [ ] data );3;2;15
+DefaultJDBCAdapter.doGetIds( Connection connection );2;0;16
+DefaultJDBCAdapter.doDropTables( Connection connection );3;2;19
+DefaultJDBCAdapter.doRemoveData( Connection connection , String [ ] ids );2;2;12
+DefaultJDBCAdapter.doCreateTables( Connection connection );6;2;39
+DefaultJDBCAdapter.getStatements( );1;0;3
+DefaultJDBCAdapter.doGetIds( Connection connection , int fromIndex , int toIndex );3;7;21

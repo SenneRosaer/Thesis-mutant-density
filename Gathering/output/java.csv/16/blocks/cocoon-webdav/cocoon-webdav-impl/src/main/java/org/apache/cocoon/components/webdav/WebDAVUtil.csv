@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebDAVUtil.getAllProperties( String uri );3;0;17
+WebDAVUtil.getProperties( String uri , Set propNames );4;3;24
+WebDAVUtil.setProperties( String uri , Map properties );2;1;8
+WebDAVUtil.getWebdavResource( String uri );3;1;12
+WebDAVUtil.makeCollection( String parent , String collection );1;1;4
+WebDAVUtil.makePath( String path );5;5;21
+WebDAVUtil.createResource( final String uri , final String content );2;3;10
+WebDAVUtil.setProperty( String uri , String name , String namespace , String value );2;1;8
+WebDAVUtil.getProperty( String uri , String name , String namespace );3;0;17
+WebDAVUtil.copyResource( String from , String to , boolean recurse , boolean overwrite );3;2;12
+WebDAVUtil.moveResource( String from , String to , boolean recurse , boolean overwrite );3;2;12

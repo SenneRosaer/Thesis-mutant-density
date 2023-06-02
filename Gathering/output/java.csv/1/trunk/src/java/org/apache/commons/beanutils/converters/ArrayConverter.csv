@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ArrayConverter.setOnlyFirstToString( boolean onlyFirstToString );1;0;3
+ArrayConverter.getDefaultType( );1;0;3
+ArrayConverter.ArrayConverter( Class defaultType , Converter elementConverter );4;3;14
+ArrayConverter.setDelimiter( char delimiter );1;0;3
+ArrayConverter.convertToCollection( Class type , Object value );5;2;13
+ArrayConverter.toString( );1;0;10
+ArrayConverter.parseElements( Class type , String value );14;11;46
+ArrayConverter.convertToString( Object value );8;6;30
+ArrayConverter.getDefault( Class type );4;1;14
+ArrayConverter.ArrayConverter( Class defaultType , Converter elementConverter , int defaultSize );2;1;9
+ArrayConverter.convertToType( Class type , Object value );5;5;24
+ArrayConverter.setAllowedChars( char [ ] allowedChars );1;0;3
+ArrayConverter.convertArray( Object value );1;0;3

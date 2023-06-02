@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SchemaCodeGenerator.deleteObsoleteFiles( File rootDir , File srcDir , Set seenFiles );10;10;24
+SchemaCodeGenerator.tryHardToDelete( File dir );2;0;5
+SchemaCodeGenerator.run( );4;1;15
+SchemaCodeGenerator.tryToDelete( File dir );6;4;14
+SchemaCodeGenerator.deleteDirRecursively( File root , File dir );4;5;9
+SchemaCodeGenerator.tryToDeleteLater( File dir );6;2;30
+SchemaCodeGenerator.giveUp( );1;0;7
+SchemaCodeGenerator.saveTypeSystem( SchemaTypeSystem system , File classesDir , File sourceFile , Repackager repackager , XmlOptions options );1;0;4
+SchemaCodeGenerator.createTempDir( );6;8;25
+SchemaCodeGenerator.deleteXmlBeansFile( File file );2;0;4
+SchemaCodeGenerator.tryNowThatItsLater( );6;6;26

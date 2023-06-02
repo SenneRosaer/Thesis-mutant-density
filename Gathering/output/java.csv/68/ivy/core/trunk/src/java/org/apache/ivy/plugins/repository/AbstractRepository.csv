@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractRepository.fireTransferCompleted( long totalLength );1;0;6
+AbstractRepository.fireTransferCompleted( );3;3;7
+AbstractRepository.standardize( String source );1;0;3
+AbstractRepository.hasTransferListener( TransferListener listener );1;0;3
+AbstractRepository.addTransferListener( TransferListener listener );1;0;3
+AbstractRepository.removeTransferListener( TransferListener listener );1;0;3
+AbstractRepository.fireTransferStarted( long totalLength );1;0;6
+AbstractRepository.fireTransferProgress( long length );2;2;8
+AbstractRepository.fireTransferStarted( );1;0;4
+AbstractRepository.fireTransferInitiated( Resource res , int requestType );1;0;4
+AbstractRepository.fireTransferEvent( TransferEvent evt );3;5;8
+AbstractRepository.put( File source , String destination , boolean overwrite );1;0;3
+AbstractRepository.fireTransferError( Exception ex );1;0;5
+AbstractRepository.getName( );1;0;3
+AbstractRepository.put( Artifact artifact , File source , String destination , boolean overwrite );1;0;3
+AbstractRepository.toString( );1;0;3
+AbstractRepository.fireTransferError( );1;0;4
+AbstractRepository.setName( String name );1;0;3
+AbstractRepository.getFileSeparator( );1;0;3

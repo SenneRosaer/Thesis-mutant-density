@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultTransportRequest.setFallbackRequest( DefaultTransportRequest fallbackRequest );1;0;3
+ListenableConnectCallback.ListenableConnectCallback( WebSocketHandler handler , org . springframework . util . concurrent . SettableListenableFuture < WebSocketSession > future );1;0;4
+CompletableConnectCallback.handleFailure( @ Nullable Throwable ex , boolean isTimeoutFailure );8;2;33
+DefaultTransportRequest.getUser( );1;0;3
+CompletableConnectCallback.run( );1;0;3
+ListenableConnectCallback.onFailure( Throwable ex );1;0;3
+ListenableConnectCallback.run( );1;0;3
+DefaultTransportRequest.toString( );1;0;3
+DefaultTransportRequest.getHandshakeHeaders( );1;0;3
+DefaultTransportRequest.connect( WebSocketHandler handler , CompletableFuture < WebSocketSession > future );2;0;8
+DefaultTransportRequest.setTimeoutValue( long timeoutValue );1;0;3
+DefaultTransportRequest.getMessageCodec( );1;0;3
+DefaultTransportRequest.addTimeoutTask( Runnable runnable );1;0;3
+DefaultTransportRequest.setTimeoutScheduler( TaskScheduler scheduler );1;0;3
+ListenableConnectCallback.onSuccess( @ Nullable WebSocketSession session );3;0;8
+DefaultTransportRequest.getTransportUrl( );1;0;3
+DefaultTransportRequest.getHttpRequestHeaders( );1;0;3
+CompletableConnectCallback.CompletableConnectCallback( WebSocketHandler handler , CompletableFuture < WebSocketSession > future );1;0;4
+DefaultTransportRequest.setUser( Principal user );1;0;3
+ListenableConnectCallback.handleFailure( @ Nullable Throwable ex , boolean isTimeoutFailure );8;2;33
+CompletableConnectCallback.accept( @ Nullable WebSocketSession session , @ Nullable Throwable throwable );5;2;13
+DefaultTransportRequest.getSockJsUrlInfo( );1;0;3
+DefaultTransportRequest.connect( WebSocketHandler handler , org . springframework . util . concurrent . SettableListenableFuture < WebSocketSession > future );2;0;8
+DefaultTransportRequest.scheduleConnectTimeoutTask( ListenableConnectCallback connectHandler );4;1;12
+DefaultTransportRequest.DefaultTransportRequest( SockJsUrlInfo sockJsUrlInfo , @ Nullable HttpHeaders handshakeHeaders , @ Nullable HttpHeaders httpRequestHeaders , Transport transport , TransportType serverTransportType , SockJsMessageCodec codec );3;2;12
+DefaultTransportRequest.scheduleConnectTimeoutTask( CompletableConnectCallback connectHandler );4;1;12

@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FormatNumber.configureFormatter( NumberFormat formatter , Boolean isGroupingUsed , Number maxIntegerDigits , Number minIntegerDigits , Number maxFractionDigits , Number minFractionDigits );6;5;12
+FormatNumber.setCurrency( NumberFormat formatter , String currencyCode , String currencySymbol );7;6;38
+FormatNumber.execute( final XMLConsumer consumer , ObjectModel objectModel , ExecutionContext executionContext , MacroContext macroContext , NamespacesTable namespaces , Event startEvent , Event endEvent );4;1;15
+FormatNumber.FormatNumber( ParsingContext parsingContext , StartElement raw , Attributes attrs , Stack stack );1;0;23
+FormatNumber.format( ObjectModel objectModel );16;13;38
+FormatNumber.createFormatter( Locale loc , String type );5;2;14

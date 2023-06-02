@@ -1,0 +1,41 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PageViewport.clone( );1;0;3
+PageViewport.getPage( );1;0;3
+PageViewport.addMarkers( Map marks , boolean starting , boolean isfirst , boolean islast );26;10;79
+PageViewport.hasExtensionAttachments( );2;3;3
+PageViewport.getCurrentFlow( );1;0;3
+PageViewport.getMarker( String name , int pos );16;13;49
+***not in a method***;0;2;0
+PageViewport.getCurrentSpan( );1;0;3
+PageViewport.setFirstWithID( String id );2;1;5
+PageViewport.setKey( String key );1;0;3
+PageViewport.isFirstWithID( String id );1;0;3
+PageViewport.resolveIDRef( String id , List pages );9;9;24
+PageViewport.PageViewport( SimplePageMaster spm , int pageNumber , String pageStr , boolean blank );1;0;12
+PageViewport.getBodyRegion( );1;0;4
+PageViewport.getIDRefs( );2;1;4
+PageViewport.getViewArea( );1;0;3
+PageViewport.getPageIndex( );1;0;3
+PageViewport.addUnresolvedIDRef( String idref , Resolvable res );3;2;11
+PageViewport.getPageSequence( );1;0;3
+PageViewport.getPageNumberString( );1;0;3
+PageViewport.loadPage( ObjectInputStream in );4;3;12
+PageViewport.PageViewport( Rectangle2D viewArea , int pageNumber , String pageStr , String simplePageMasterName , boolean blank );1;0;7
+PageViewport.getRegionReference( int id );1;0;3
+PageViewport.getExtensionAttachments( );2;1;7
+PageViewport.createSpan( boolean spanAll );1;0;3
+PageViewport.isBlank( );1;0;3
+PageViewport.setPageSequence( PageSequence seq );1;0;3
+PageViewport.setPage( Page page );1;0;3
+PageViewport.clear( );1;0;3
+PageViewport.getKey( );2;1;6
+PageViewport.moveToNextFlow( );1;0;3
+PageViewport.isResolved( );2;3;4
+PageViewport.savePage( ObjectOutputStream out );1;0;5
+PageViewport.getPageNumber( );1;0;3
+PageViewport.getSimplePageMasterName( );1;0;3
+PageViewport.toString( );1;0;6
+PageViewport.PageViewport( PageViewport original );2;1;13
+PageViewport.dumpMarkers( );2;0;9
+PageViewport.addExtensionAttachment( ExtensionAttachment attachment );2;1;6
+PageViewport.setPageIndex( int index );1;0;3

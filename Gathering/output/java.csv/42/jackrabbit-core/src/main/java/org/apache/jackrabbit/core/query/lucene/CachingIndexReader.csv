@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CacheInitializer.waitUntilStopped( );2;0;8
+CachingIndexReader.doc( );1;1;3
+CachingIndexReader.getParent( int n , BitSet deleted );11;9;41
+CachingIndexReader.getCreationTick( );1;0;3
+CacheInitializer.collectTermDocs( IndexReader reader , Term start , TermDocsCollector collector );6;6;27
+CachingIndexReader.seek( Term term );1;0;2
+CachingIndexReader.termDocs( Term term );7;6;24
+CachingIndexReader.CachingIndexReader( IndexReader delegatee , DocNumberCache cache , boolean initCache );3;0;14
+CacheInitializer.collect( Term term , TermDocs tDocs );2;0;7
+CacheInitializer.CacheInitializer( IndexReader reader );1;0;3
+CacheInitializer.initializeParents( IndexReader reader );9;6;56
+CachingIndexReader.getNextCreationTick( );1;1;5
+CachingIndexReader.close( );1;0;2
+CachingIndexReader.read( int [ ] docs , int [ ] freqs );1;0;3
+CachingIndexReader.doClose( );2;0;7
+CachingIndexReader.seek( TermEnum termEnum );1;0;2
+CachingIndexReader.next( );1;0;3
+NodeInfo.NodeInfo( int docId , UUID uuid );1;0;4
+CachingIndexReader.freq( );1;1;3
+CacheInitializer.run( );4;1;20
+CachingIndexReader.skipTo( int target );1;0;3

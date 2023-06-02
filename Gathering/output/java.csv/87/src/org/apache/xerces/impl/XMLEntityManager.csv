@@ -1,0 +1,113 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CharacterBufferPool.returnBuffer( CharacterBuffer buffer );4;6;10
+CharacterBufferPool.getBuffer( boolean external );4;6;18
+XMLEntityManager.absolutizeAgainstUserDir( URI uri );1;0;3
+Entity.setValues( Entity entity );1;0;4
+RewindableInputStream.skip( long n );6;10;23
+ScannedEntity.getColumnNumber( );3;4;10
+RewindableInputStream.read( byte [ ] b , int off , int len );8;11;31
+ExternalEntity.ExternalEntity( String name , XMLResourceIdentifier entityLocation , String notation , boolean inExternalSubset );1;0;5
+CharacterBuffer.CharacterBuffer( boolean isExternal , int size );1;0;4
+ScannedEntity.setReader( InputStream stream , String encoding , Boolean isBigEndian );1;0;5
+XMLEntityManager.getUserDir( );18;21;68
+XMLEntityManager.getRecognizedProperties( );1;0;3
+XMLEntityManager.createASCIIReader( InputStream stream );3;1;12
+RewindableInputStream.RewindableInputStream( InputStream is );1;1;9
+XMLEntityManager.run( );1;0;3
+XMLEntityManager.getRecognizedFeatures( );1;0;3
+RewindableInputStream.reset( );1;0;3
+ScannedEntity.getLiteralSystemId( );4;6;12
+XMLEntityManager.getEncodingInfo( byte [ ] b4 , int count );39;67;46
+XMLEntityManager.getEntityScanner( );3;2;10
+RewindableInputStream.available( );4;4;11
+XMLEntityManager.isDeclaredEntity( String entityName );1;1;4
+ScannedEntity.setEncodingExternallySpecified( boolean value );1;0;3
+ExternalEntity.isExternal( );1;0;3
+ExternalEntity.ExternalEntity( );1;0;3
+XMLEntityManager.isExternalEntity( String entityName );2;1;7
+XMLEntityManager.createUTF8Reader( InputStream stream );3;1;12
+XMLEntityManager.endEntity( );9;5;35
+XMLEntityManager.closeReaders( );3;3;8
+XMLEntityManager.isStandalone( );1;0;3
+ScannedEntity.getEncoding( );3;3;10
+XMLEntityManager.setProperty( String propertyId , Object value );15;16;37
+RewindableInputStream.mark( int howMuch );1;0;3
+XMLEntityManager.fixURI( String str );13;19;40
+Entity.isEntityDeclInExternalSubset( );1;0;3
+RewindableInputStream.markSupported( );1;0;3
+ByteBufferPool.ByteBufferPool( int bufferSize );1;0;3
+CharacterBufferPool.init( );1;2;6
+XMLEntityManager.getCurrentEntity( );1;0;3
+ScannedEntity.toString( );1;0;11
+XMLEntityManager.endExternalSubset( );1;0;3
+XMLEntityManager.startDocumentEntity( XMLInputSource xmlInputSource );1;0;3
+XMLEntityManager.isEntityDeclInExternalSubset( String entityName );2;1;7
+ByteBufferPool.setBufferSize( int bufferSize );1;0;5
+XMLEntityManager.createOutputStream( String uri );7;6;23
+XMLEntityManager.print( ScannedEntity currentEntity );11;6;52
+ByteBufferPool.returnBuffer( byte [ ] buffer );2;2;5
+XMLEntityManager.createUTF16Reader( InputStream stream , boolean isBigEndian );4;2;17
+XMLEntityManager.startExternalSubset( );1;0;3
+XMLEntityManager.expandSystemId( String systemId , String baseSystemId , boolean strict );12;9;45
+ScannedEntity.isUnparsed( );1;0;3
+ExternalEntity.clear( );1;0;5
+ScannedEntity.getCharacterOffset( );3;6;10
+InternalEntity.setValues( InternalEntity entity );1;0;4
+Entity.Entity( String name , boolean inExternalSubset );1;0;4
+XMLEntityManager.createLatin1Reader( InputStream stream );3;1;9
+XMLEntityManager.notifyHasPEReferences( );1;0;3
+XMLEntityManager.startEntity( String entityName , boolean literal );25;28;96
+RewindableInputStream.rewind( );1;0;3
+InternalEntity.isExternal( );1;0;3
+EncodingInfo.EncodingInfo( String encoding , Boolean isBigEndian , boolean hasBOM );1;0;5
+***not in a method***;0;22;0
+XMLEntityManager.isUnparsedEntity( String entityName );2;1;7
+XMLEntityManager.resolveEntity( XMLResourceIdentifier resourceIdentifier );10;10;30
+Entity.Entity( );1;0;3
+XMLEntityManager.reset( );8;4;44
+ScannedEntity.ScannedEntity( String name , XMLResourceIdentifier entityLocation , InputStream stream , Reader reader , byte [ ] byteBuffer , String encoding , boolean literal , boolean mayReadChunks , boolean isExternal );1;0;13
+CharacterBufferPool.CharacterBufferPool( int poolSize , int externalBufferSize , int internalBufferSize );1;0;6
+InternalEntity.InternalEntity( );1;0;3
+XMLEntityManager.setFeature( String featureId , boolean state );4;3;9
+InternalEntity.isUnparsed( );1;0;3
+RewindableInputStream.read( );5;13;22
+XMLEntityManager.getPathWithoutEscapes( String origPath );5;8;15
+InternalEntity.clear( );1;0;4
+ExternalEntity.setValues( Entity entity );1;0;5
+XMLEntityManager.addUnparsedEntity( String name , String publicId , String systemId , String baseSystemId , String notation );3;1;16
+XMLEntityManager.addInternalEntity( String name , String text );3;1;14
+Entity.clear( );1;0;4
+RewindableInputStream.close( );2;1;6
+XMLEntityManager.startEntity( String name , XMLInputSource xmlInputSource , boolean literal , boolean isExternal );4;5;13
+XMLEntityManager.setScannerVersion( short version );4;3;17
+ByteBufferPool.ByteBufferPool( int poolSize , int bufferSize );1;0;6
+ByteBufferPool.getBuffer( );2;2;3
+ExternalEntity.isUnparsed( );1;1;3
+XMLEntityManager.getFeatureDefault( String featureId );3;2;8
+XMLEntityManager.XMLEntityManager( );1;0;3
+XMLEntityManager.reset( XMLComponentManager componentManager );12;1;69
+XMLEntityManager.getDeclaredEntities( );1;0;3
+XMLEntityManager.setStandalone( boolean standalone );1;0;3
+XMLEntityManager.expandSystemIdStrictOn( String systemId , String baseSystemId );5;4;18
+XMLEntityManager.setEntityHandler( XMLEntityHandler entityHandler );1;0;3
+XMLEntityManager.setupCurrentEntity( String name , XMLInputSource xmlInputSource , boolean literal , boolean isExternal );66;88;184
+XMLEntityManager.setInstanceFollowRedirects( HttpURLConnection urlCon , boolean followRedirects );3;0;7
+CharacterBufferPool.CharacterBufferPool( int externalBufferSize , int internalBufferSize );1;0;3
+XMLEntityManager.XMLEntityManager( XMLEntityManager entityManager );2;1;5
+XMLEntityManager.startDTDEntity( XMLInputSource xmlInputSource );1;0;3
+ScannedEntity.getXMLVersion( );3;3;10
+XMLEntityManager.createReader( InputStream inputStream , String encoding , Boolean isBigEndian );23;14;84
+ExternalEntity.setValues( ExternalEntity entity );1;0;5
+XMLEntityManager.hasPEReferences( );1;0;3
+ScannedEntity.isEncodingExternallySpecified( );1;0;3
+ScannedEntity.getExpandedSystemId( );4;6;12
+XMLEntityManager.getCurrentResourceIdentifier( );1;0;3
+RewindableInputStream.setStartOffset( int offset );1;0;3
+ScannedEntity.getLineNumber( );3;4;10
+XMLEntityManager.addExternalEntity( String name , String publicId , String literalSystemId , String baseSystemId );10;13;30
+CharacterBufferPool.setExternalBufferSize( int bufferSize );1;1;5
+XMLEntityManager.expandSystemIdStrictOff( String systemId , String baseSystemId );6;5;21
+XMLEntityManager.getPropertyDefault( String propertyId );3;2;8
+ScannedEntity.isExternal( );1;0;3
+InternalEntity.setValues( Entity entity );1;0;4
+InternalEntity.InternalEntity( String name , String text , boolean inExternalSubset );1;0;4

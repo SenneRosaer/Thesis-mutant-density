@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ImapServer.ImapServer( );1;0;2
+ImapServer.getServiceType( );1;0;3
+ImapServer.service( ServiceManager comp );1;0;5
+ImapServer.getDefaultPort( );1;0;3
+ImapServer.newProtocolHandlerInstance( );1;0;6
+ImapServer.configure( final Configuration configuration );1;1;4
+ImapServer.post( String url , MimeMessage mail );6;6;35
+ImapServer.postToMailbox( String username , MimeMessage mail , String destination );4;3;23
+ImapServer.getConfigurationData( );1;0;3

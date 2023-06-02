@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCRSourceFactory.createSource( JCRNodeSource parent , Node node );1;0;3
+JCRSourceFactory.createFileNode( Node folderNode , String name );2;1;8
+JCRSourceFactory.getSource( String uri , Map parameters );7;6;26
+JCRSourceFactory.createContentNode( Node fileNode );2;1;9
+JCRSourceFactory.getFolderNodeType( Node folderNode );1;0;4
+JCRSourceFactory.getValidityProperty( Node node );3;2;10
+JCRSourceFactory.getContentProperty( Node node );1;0;5
+JCRSourceFactory.getMimeTypeProperty( Node node );3;2;10
+JCRSourceFactory.service( ServiceManager manager );1;0;3
+JCRSourceFactory.configure( Configuration config );9;8;36
+JCRSourceFactory.lazyInit( );3;1;9
+JCRSourceFactory.getTypeInfo( Node node );2;1;8
+JCRSourceFactory.getTypeInfo( String typeName );2;1;7
+JCRSourceFactory.getScheme( );1;0;3
+JCRSourceFactory.getLastModifiedDateProperty( Node node );3;2;10
+JCRSourceFactory.getContentNode( Node node );5;1;18
+JCRSourceFactory.isCollection( Node node );1;0;3
+JCRSourceFactory.release( Source source );1;0;2
+JCRSourceFactory.createSource( Session session , String path );1;0;3

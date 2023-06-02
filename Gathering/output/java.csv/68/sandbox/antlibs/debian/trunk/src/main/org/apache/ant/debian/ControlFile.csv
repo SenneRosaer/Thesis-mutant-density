@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Dependency.Dependency( );1;0;1
+Recommends.Recommends( );1;0;1
+ControlFile.setDebPriority( String debPriority );1;0;3
+ControlFile.getDebSection( );1;0;3
+ControlFile.getDebPackage( );1;0;3
+ControlFile.setDebSection( String debSection );1;0;3
+Depends.Depends( );1;0;1
+Suggests.Suggests( );1;0;1
+ControlFile.setDebPackage( String debPackage );1;0;3
+ControlFile.setHomepage( String homepage );1;0;3
+ControlFile.write( PrintWriter writer );2;9;18
+Description.getDesc( );1;0;3
+ControlFile.getDebEssential( );1;0;3
+ControlFile.setDebMaintainer( String debMaintainer );1;0;3
+ControlFile.setDebEssential( String debEssential );1;0;3
+Replaces.Replaces( );1;0;1
+Conflicts.Conflicts( );1;0;1
+ControlFile.setDebVersion( String debVersion );1;0;3
+DpkgLine.setName( String name );1;0;3
+ControlFile.getDebVersion( );1;0;3
+ControlFile.addProvides( Provides p );1;0;3
+ControlFile.writeVector( Vector v , String header , PrintWriter w );5;1;17
+ControlFile.getDebArchitecture( );1;0;3
+ControlFile.addConflicts( Conflicts c );1;0;3
+ControlFile.addRecommends( Recommends r );1;0;3
+Description.addText( String text );1;0;3
+ControlFile.getDebMaintainer( );1;0;3
+ControlFile.setDebArchitecture( String debArchitecture );1;0;3
+ControlFile.addSuggests( Suggests s );1;0;3
+Provides.Provides( );1;0;1
+ControlFile.ControlFile( );1;0;1
+Description.setDesc( String desc );1;0;3
+ControlFile.addDescription( Description d );1;0;3
+ControlFile.addReplaces( Replaces r );1;0;3
+Description.Description( );1;0;1
+ControlFile.addDepends( Depends d );1;0;3
+DpkgLine.addText( String text );1;0;3
+DpkgLine.getName( );1;0;3
+ControlFile.getDebPriority( );1;0;3

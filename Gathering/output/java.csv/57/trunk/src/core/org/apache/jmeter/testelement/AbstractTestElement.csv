@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractTestElement.clearTemporary( JMeterProperty property );2;1;5
+AbstractTestElement.getPropertyAsBoolean( String key );1;0;3
+AbstractTestElement.clone( );4;0;15
+AbstractTestElement.setTemporary( JMeterProperty property );4;1;12
+AbstractTestElement.getPropertyAsInt( String key );1;0;3
+AbstractTestElement.recoverRunningVersion( );3;0;14
+AbstractTestElement.setProperty( String name , boolean value , boolean dflt );2;1;7
+AbstractTestElement.getProperty( String key );2;1;7
+AbstractTestElement.setRunningVersion( boolean runningVersion );2;0;7
+AbstractTestElement.getPropertyAsInt( String key , int defaultValue );2;0;4
+AbstractTestElement.equals( Object o );2;0;7
+AbstractTestElement.getPropertyAsLong( String key );1;0;3
+AbstractTestElement.canRemove( );1;0;3
+AbstractTestElement.traverseProperty( TestElementTraverser traverser , JMeterProperty value );4;0;11
+AbstractTestElement.setProperty( String name , String value , String dflt );2;0;7
+AbstractTestElement.isRunningVersion( );1;0;3
+AbstractTestElement.setProperty( String name , int value , int dflt );2;1;7
+AbstractTestElement.setProperty( String name , String value );1;0;3
+AbstractTestElement.hashCode( );1;0;3
+AbstractTestElement.setThreadContext( JMeterContext inthreadContext );3;2;8
+AbstractTestElement.traverse( TestElementTraverser traverser );2;0;8
+AbstractTestElement.logProperties( );3;0;10
+AbstractTestElement.getPropertyAsString( String key );1;0;3
+AbstractTestElement.setProperty( JMeterProperty property );3;0;11
+AbstractTestElement.traverseCollection( CollectionProperty col , TestElementTraverser traverser );2;0;6
+AbstractTestElement.getPropertyAsString( String key , String defaultValue );2;0;4
+AbstractTestElement.getThreadName( );1;0;3
+AbstractTestElement.setComment( String comment );1;0;3
+AbstractTestElement.traverseMap( MapProperty map , TestElementTraverser traverser );2;0;6
+AbstractTestElement.setName( String name );1;0;3
+AbstractTestElement.mergeIn( TestElement element );2;0;7
+AbstractTestElement.getPropertyAsDouble( String key );1;0;3
+AbstractTestElement.addProperty( JMeterProperty property );5;2;13
+AbstractTestElement.getPropertyAsFloat( String key );1;0;3
+AbstractTestElement.isTemporary( JMeterProperty property );2;1;7
+AbstractTestElement.propertyIterator( );1;0;3
+AbstractTestElement.emptyTemporary( );2;1;5
+AbstractTestElement.setThreadName( String inthreadName );3;2;8
+AbstractTestElement.getName( );1;0;3
+AbstractTestElement.getThreadContext( );2;1;6
+AbstractTestElement.isEnabled( );2;1;3
+AbstractTestElement.getPropertyAsBoolean( String key , boolean defaultVal );2;0;4
+AbstractTestElement.removeProperty( String key );1;0;3
+AbstractTestElement.clear( );1;0;3
+AbstractTestElement.getComment( );1;0;3
+AbstractTestElement.setProperty( String name , int value );1;0;3
+AbstractTestElement.addTestElement( TestElement el );1;0;3
+AbstractTestElement.AbstractTestElement( );1;0;3
+AbstractTestElement.setProperty( String name , boolean value );1;0;3

@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FtpPollerEndpoint.processFile( FTPClient ftp , String file );3;1;17
+FtpPollerEndpoint.getClientPool( );1;0;3
+FtpPollerEndpoint.getWorkingPath( );3;3;3
+FtpPollerEndpoint.isDeleteFile( );1;0;3
+FtpPollerEndpoint.unlockAsyncFile( String file );3;1;10
+FtpPollerEndpoint.setStateless( boolean stateless );1;0;3
+FtpPollerEndpoint.setFilter( FileFilter filter );1;0;3
+FtpPollerEndpoint.processFileNow( String file );5;2;21
+FtpPollerEndpoint.getTargetOperation( );1;0;3
+FtpPollerEndpoint.getMarshaler( );1;0;3
+FtpPollerEndpoint.FtpPollerEndpoint( ServiceUnit serviceUnit , QName service , String endpoint );1;0;3
+FtpPollerEndpoint.getLocationURI( );1;0;3
+FtpPollerEndpoint.listFiles( FTPClient ftp , String directory );2;0;8
+FtpPollerEndpoint.run( );2;0;6
+FtpPollerEndpoint.setMarshaler( FileMarshaler marshaler );1;0;3
+FtpPollerEndpoint.setUri( URI uri );1;0;3
+FtpPollerEndpoint.pollFile( final String file );3;0;13
+FtpPollerEndpoint.returnClient( FTPClient client );3;1;9
+FtpPollerEndpoint.isRecursive( );1;0;3
+FtpPollerEndpoint.createLockManager( );1;0;3
+FtpPollerEndpoint.FtpPollerEndpoint( DefaultComponent component , ServiceEndpoint endpoint );1;0;3
+FtpPollerEndpoint.pollFileOrDirectory( String fileOrDirectory );1;0;9
+FtpPollerEndpoint.start( );7;8;27
+FtpPollerEndpoint.setClientPool( FTPClientPool clientPool );1;0;3
+FtpPollerEndpoint.setDeleteFile( boolean deleteFile );1;0;3
+FtpPollerEndpoint.isStateless( );1;0;3
+FtpPollerEndpoint.createClientPool( );1;0;5
+FtpData.FtpData( String file , FTPClient ftp , InputStream in );1;0;5
+FtpPollerEndpoint.setChangeWorkingDirectory( boolean changeWorkingDirectory );1;0;3
+FtpPollerEndpoint.FtpPollerEndpoint( );1;0;2
+FtpPollerEndpoint.process( MessageExchange exchange );7;4;33
+FtpPollerEndpoint.validate( );9;11;12
+FtpPollerEndpoint.setRecursive( boolean recursive );1;0;3
+FtpPollerEndpoint.poll( );1;0;3
+FtpPollerEndpoint.pollFileOrDirectory( FTPClient ftp , String fileOrDirectory , boolean processDir );10;7;24
+FtpPollerEndpoint.setTargetOperation( QName targetOperation );1;0;3
+FtpPollerEndpoint.getFilter( );1;0;3
+FtpPollerEndpoint.getUri( );1;0;3
+FtpPollerEndpoint.borrowClient( );2;0;7

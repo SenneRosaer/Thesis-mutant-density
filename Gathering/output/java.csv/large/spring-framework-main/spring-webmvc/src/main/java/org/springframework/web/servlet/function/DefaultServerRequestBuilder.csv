@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultServerRequestBuilder.attribute( String name , Object value );1;0;5
+DefaultServerRequestBuilder.cookie( String name , String ... values );2;0;6
+BodyInputStream.read( byte [ ] b );1;0;3
+DefaultServerRequestBuilder.build( );1;0;4
+BuiltServerRequest.attributes( );1;0;3
+BuiltServerRequest.messageConverters( );1;0;3
+DefaultServerRequestBuilder.header( String headerName , String ... headerValues );2;0;6
+BodyInputStream.skip( long n );1;0;3
+DefaultServerRequestBuilder.headers( Consumer < HttpHeaders > headersConsumer );1;0;4
+BuiltInputMessage.getHeaders( );1;0;3
+BodyInputStream.read( byte [ ] b , int off , int len );1;0;3
+BuiltServerRequest.remoteAddress( );1;0;3
+BuiltServerRequest.body( Class < T > bodyType );1;0;3
+BodyInputStream.isReady( );1;0;3
+BodyInputStream.read( );1;0;3
+BodyInputStream.isFinished( );1;0;3
+BuiltServerRequest.pathVariables( );2;1;11
+BuiltServerRequest.uriBuilder( );1;0;3
+BodyInputStream.markSupported( );1;0;3
+BodyInputStream.mark( int readlimit );1;0;3
+BuiltServerRequest.body( ParameterizedTypeReference < T > bodyType );1;0;4
+BuiltServerRequest.params( );1;0;3
+DefaultServerRequestBuilder.method( HttpMethod method );1;0;5
+DefaultServerRequestBuilder.params( Consumer < MultiValueMap < String , String > > paramsConsumer );1;0;4
+BodyInputStream.close( );1;0;3
+BuiltServerRequest.BuiltServerRequest( HttpServletRequest servletRequest , HttpMethod method , URI uri , HttpHeaders headers , MultiValueMap < String , Cookie > cookies , Map < String , Object > attributes , MultiValueMap < String , String > params , @ Nullable InetSocketAddress remoteAddress , byte [ ] body , List < HttpMessageConverter < ? > > messageConverters );1;0;12
+BuiltInputMessage.getBody( );1;0;3
+BuiltServerRequest.servletRequest( );1;0;3
+DefaultServerRequestBuilder.DefaultServerRequestBuilder( ServerRequest other );1;0;12
+BuiltServerRequest.principal( );1;0;3
+DefaultServerRequestBuilder.attributes( Consumer < Map < String , Object > > attributesConsumer );1;0;4
+DefaultServerRequestBuilder.body( byte [ ] body );1;0;4
+BodyInputStream.BodyInputStream( byte [ ] body );1;0;3
+DefaultServerRequestBuilder.body( String body );1;0;3
+BodyInputStream.reset( );1;0;3
+DefaultServerRequestBuilder.param( String name , String ... values );2;0;6
+BuiltServerRequest.cookies( );1;0;3
+BuiltServerRequest.method( );1;0;3
+BodyInputStream.setReadListener( ReadListener readListener );1;0;3
+DefaultServerRequestBuilder.uri( URI uri );1;0;5
+BuiltServerRequest.uri( );1;0;3
+DefaultServerRequestBuilder.remoteAddress( InetSocketAddress remoteAddress );1;0;4
+BuiltServerRequest.bodyInternal( Type bodyType , Class < ? > bodyClass );8;0;20
+BuiltServerRequest.methodName( );1;0;3
+DefaultServerRequestBuilder.cookies( Consumer < MultiValueMap < String , Cookie > > cookiesConsumer );1;0;4
+BodyInputStream.available( );1;0;3
+BuiltServerRequest.headers( );1;0;3
+BuiltServerRequest.multipartData( );1;0;6
+BuiltServerRequest.session( );1;0;3

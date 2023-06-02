@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Parser.addEvent( Event ev );3;2;13
+Parser.ignorableWhitespace( char [ ] ch , int start , int length );1;0;4
+Parser.Parser( ParsingContext parsingContext );1;0;3
+Parser.endDocument( );1;0;6
+Parser.getStartEvent( );1;0;3
+Parser.endPrefixMapping( String prefix );1;0;5
+Parser.recycle( );1;0;8
+Parser.processingInstruction( String target , String data );1;0;4
+Parser.characters( char [ ] ch , int start , int length );3;2;8
+Parser.setParsingContext( ParsingContext parsingContext );1;0;3
+Parser.startDTD( String name , String publicId , String systemId );1;0;3
+Parser.endCDATA( );1;0;3
+Parser.Parser( );1;0;2
+Parser.startDocument( );1;0;5
+Parser.endEntity( String name );1;0;3
+Parser.startEntity( String name );1;0;3
+Parser.startPrefixMapping( String prefix , String uri );1;0;3
+Parser.flushChars( );2;1;11
+Parser.comment( char ch [ ] , int start , int length );1;0;2
+Parser.endElement( String namespaceURI , String localName , String raw );2;0;17
+Parser.startElement( String namespaceURI , String localName , String qname , Attributes attrs );4;3;24
+Parser.setDocumentLocator( Locator locator );1;0;3
+Parser.endDTD( );1;0;3
+Parser.startCDATA( );1;0;3
+Parser.skippedEntity( String name );1;0;3

@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RepackagingWriter.close( );1;0;8
+FilerImpl.writerForFile( File f );2;1;8
+FilerImpl.getRepackager( );1;0;3
+FilerImpl.getSourceFiles( );1;0;3
+IncrFileWriter.IncrFileWriter( File file , Repackager repackager );1;0;4
+RepackagingWriter.RepackagingWriter( File file , Repackager repackager );1;0;4
+FilerImpl.createSourceFile( String typename );7;5;26
+FilerImpl.FilerImpl( File classdir , File srcdir , Repackager repackager , boolean verbose , boolean incrSrcGen );3;1;10
+FilerImpl.createBinaryFile( String typename );2;0;7
+IncrFileWriter.close( );3;2;30

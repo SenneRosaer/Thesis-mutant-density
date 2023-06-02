@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+A.getB( );1;0;3
+CircularReferencesTest.test_2( );1;1;8
+CircularReferencesTest.test_1( );1;1;8
+B.B( );1;0;2
+A.A( B b );1;0;3
+A.setB( B b );1;0;3
+B.B( A a );1;0;3
+CircularReferencesTest.test_0( );1;1;8
+B.setA( A a );1;0;3
+B.getA( );1;0;3
+A.A( );1;0;2

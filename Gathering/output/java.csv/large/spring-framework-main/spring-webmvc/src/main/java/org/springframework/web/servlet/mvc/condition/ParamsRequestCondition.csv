@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParamsRequestCondition.getExpressions( );1;0;3
+ParamsRequestCondition.combine( ParamsRequestCondition other );5;1;14
+ParamsRequestCondition.getMatchingCondition( HttpServletRequest request );3;1;8
+ParamExpression.matchName( HttpServletRequest request );3;1;8
+ParamsRequestCondition.getContent( );1;0;3
+ParamExpression.parseValue( String valueExpression );1;0;3
+ParamsRequestCondition.getValueMatchCount( Set < ParamExpression > expressions );4;4;9
+ParamsRequestCondition.ParamsRequestCondition( String ... params );1;0;3
+ParamsRequestCondition.getToStringInfix( );1;0;3
+***not in a method***;0;1;0
+ParamExpression.ParamExpression( String expression );2;1;7
+ParamExpression.matchValue( HttpServletRequest request );1;0;3
+ParamExpression.isCaseSensitiveName( );1;0;3
+ParamsRequestCondition.parseExpressions( String ... params );3;0;10
+ParamsRequestCondition.ParamsRequestCondition( Set < ParamExpression > conditions );1;0;3
+ParamsRequestCondition.compareTo( ParamsRequestCondition other , HttpServletRequest request );2;3;7

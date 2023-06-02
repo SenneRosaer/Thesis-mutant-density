@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleSecurityManager.getUserManager( Session session );1;0;4
+SimplePrincipalProvider.SimplePrincipalProvider( );3;2;10
+SimplePrincipalProvider.findPrincipals( String simpleFilter , int searchType );6;7;11
+SimplePrincipalProvider.getPrincipal( String principalName );2;0;7
+SimpleSecurityManager.getAccessManager( Session session , AMContext amContext );4;1;20
+SimplePrincipalProvider.close( );1;0;2
+SimpleSecurityManager.dispose( String workspaceName );1;0;3
+SimplePrincipalProvider.canReadPrincipal( Session session , Principal principal );1;0;3
+SimplePrincipalProvider.getPrincipals( int searchType );4;0;19
+SimpleSecurityManager.checkInitialized( );2;1;5
+SimpleSecurityManager.init( Repository repository , Session systemSession );11;7;44
+SimpleSecurityManager.close( );1;0;3
+SimpleSecurityManager.getUserID( Subject subject );6;4;19
+SimpleSecurityManager.getAuthContext( Credentials creds , Subject subject );1;0;4
+SimplePrincipalProvider.init( Properties options );1;0;2
+SimplePrincipalProvider.findPrincipals( String simpleFilter );1;0;3
+SimpleSecurityManager.getPrincipalManager( Session session );2;0;9
+SimplePrincipalProvider.getGroupMembership( Principal principal );2;0;7

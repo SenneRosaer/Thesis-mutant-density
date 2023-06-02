@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WidgetFinder.addSimpleWidget( Widget context , String path );3;2;7
+WidgetFinder.hasNewAdditions( );1;1;3
+WidgetFinder.isMutable( );2;3;3
+WidgetFinder.refreshForAdd( Repeater repeater , int index );5;4;17
+RefreshingRepeaterListener.repeaterModified( RepeaterEvent event );5;4;14
+WidgetFinder.removeRepeaterListener( RepeaterListener listener );1;0;3
+WidgetFinder.getWidgets( );4;2;11
+WidgetFinder.hasRepeaterListeners( );1;1;3
+WidgetFinder.addRepeaterWidget( Repeater repeater , Widget okwdg );3;2;10
+WidgetFinder.toAsterisk( String path );1;0;3
+WidgetFinder.addRepeaterPath( Repeater repeater , String childpath );4;2;10
+WidgetFinder.WidgetFinder( Widget context , String path , boolean keepUpdated );2;2;9
+WidgetFinder.refreshForDelete( Repeater repeater , int index );7;3;23
+WidgetFinder.refreshForClear( Repeater repeater );4;1;11
+WidgetFinder.WidgetFinder( Widget context , Iterator paths , boolean keepUpdated );3;2;12
+WidgetFinder.getNewAdditions( );1;0;5
+WidgetFinder.addRepeaterListener( RepeaterListener listener );1;0;3
+WidgetFinder.recurseRepeaters( Widget context , String path , boolean root );9;11;34

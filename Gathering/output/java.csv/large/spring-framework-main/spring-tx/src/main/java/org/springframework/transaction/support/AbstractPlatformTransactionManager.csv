@@ -1,0 +1,51 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractPlatformTransactionManager.isGlobalRollbackOnParticipationFailure( );1;0;3
+AbstractPlatformTransactionManager.processRollback( DefaultTransactionStatus status , boolean unexpected );13;2;53
+AbstractPlatformTransactionManager.readObject( ObjectInputStream ois );1;0;4
+AbstractPlatformTransactionManager.getDefaultTimeout( );1;0;3
+AbstractPlatformTransactionManager.getTransaction( @ Nullable TransactionDefinition definition );12;11;38
+AbstractPlatformTransactionManager.isRollbackOnCommitFailure( );1;0;3
+AbstractPlatformTransactionManager.prepareForCommit( DefaultTransactionStatus status );1;0;2
+AbstractPlatformTransactionManager.doResumeSynchronization( List < TransactionSynchronization > suspendedSynchronizations );2;0;7
+AbstractPlatformTransactionManager.setNestedTransactionAllowed( boolean nestedTransactionAllowed );1;0;3
+AbstractPlatformTransactionManager.shouldCommitOnGlobalRollbackOnly( );1;0;3
+AbstractPlatformTransactionManager.commit( TransactionStatus status );7;2;22
+AbstractPlatformTransactionManager.prepareTransactionStatus( TransactionDefinition definition , @ Nullable Object transaction , boolean newTransaction , boolean newSynchronization , boolean debug , @ Nullable Object suspendedResources );1;0;6
+AbstractPlatformTransactionManager.registerAfterCompletionWithExistingTransaction( Object transaction , List < TransactionSynchronization > synchronizations );1;0;5
+AbstractPlatformTransactionManager.resume( @ Nullable Object transaction , @ Nullable SuspendedResourcesHolder resourcesHolder );4;3;16
+AbstractPlatformTransactionManager.suspend( @ Nullable Object transaction );5;2;32
+AbstractPlatformTransactionManager.doSetRollbackOnly( DefaultTransactionStatus status );1;0;5
+AbstractPlatformTransactionManager.isValidateExistingTransaction( );1;0;3
+AbstractPlatformTransactionManager.resumeAfterBeginException( Object transaction , @ Nullable SuspendedResourcesHolder suspendedResources , Throwable beginEx );2;0;10
+AbstractPlatformTransactionManager.doSuspendSynchronization( );2;0;9
+AbstractPlatformTransactionManager.setTransactionSynchronization( int transactionSynchronization );1;0;3
+AbstractPlatformTransactionManager.setRollbackOnCommitFailure( boolean rollbackOnCommitFailure );1;0;3
+SuspendedResourcesHolder.SuspendedResourcesHolder( Object suspendedResources );1;0;3
+AbstractPlatformTransactionManager.triggerBeforeCompletion( DefaultTransactionStatus status );2;0;5
+AbstractPlatformTransactionManager.rollback( TransactionStatus status );2;0;8
+AbstractPlatformTransactionManager.handleExistingTransaction( TransactionDefinition definition , Object transaction , boolean debugEnabled );19;13;72
+AbstractPlatformTransactionManager.processCommit( DefaultTransactionStatus status );12;1;62
+AbstractPlatformTransactionManager.setFailEarlyOnGlobalRollbackOnly( boolean failEarlyOnGlobalRollbackOnly );1;0;3
+AbstractPlatformTransactionManager.setValidateExistingTransaction( boolean validateExistingTransaction );1;0;3
+SuspendedResourcesHolder.SuspendedResourcesHolder( @ Nullable Object suspendedResources , List < TransactionSynchronization > suspendedSynchronizations , @ Nullable String name , boolean readOnly , @ Nullable Integer isolationLevel , boolean wasActive );1;0;8
+AbstractPlatformTransactionManager.determineTimeout( TransactionDefinition definition );2;1;6
+AbstractPlatformTransactionManager.isExistingTransaction( Object transaction );1;0;3
+AbstractPlatformTransactionManager.doRollbackOnCommitException( DefaultTransactionStatus status , Throwable ex );7;1;22
+AbstractPlatformTransactionManager.isFailEarlyOnGlobalRollbackOnly( );1;0;3
+AbstractPlatformTransactionManager.setDefaultTimeout( int defaultTimeout );2;1;6
+AbstractPlatformTransactionManager.triggerAfterCompletion( DefaultTransactionStatus status , int completionStatus );5;3;12
+AbstractPlatformTransactionManager.cleanupAfterCompletion( DefaultTransactionStatus status );6;1;16
+AbstractPlatformTransactionManager.setGlobalRollbackOnParticipationFailure( boolean globalRollbackOnParticipationFailure );1;0;3
+AbstractPlatformTransactionManager.doResume( @ Nullable Object transaction , Object suspendedResources );1;0;4
+AbstractPlatformTransactionManager.triggerAfterCommit( DefaultTransactionStatus status );2;0;5
+AbstractPlatformTransactionManager.invokeAfterCompletion( List < TransactionSynchronization > synchronizations , int completionStatus );1;0;3
+AbstractPlatformTransactionManager.isNestedTransactionAllowed( );1;0;3
+AbstractPlatformTransactionManager.getTransactionSynchronization( );1;0;3
+AbstractPlatformTransactionManager.triggerBeforeCommit( DefaultTransactionStatus status );2;0;5
+AbstractPlatformTransactionManager.startTransaction( TransactionDefinition definition , Object transaction , boolean debugEnabled , @ Nullable SuspendedResourcesHolder suspendedResources );1;1;8
+AbstractPlatformTransactionManager.doSuspend( Object transaction );1;0;4
+AbstractPlatformTransactionManager.useSavepointForNestedTransaction( );1;0;3
+AbstractPlatformTransactionManager.newTransactionStatus( TransactionDefinition definition , @ Nullable Object transaction , boolean newTransaction , boolean newSynchronization , boolean debug , @ Nullable Object suspendedResources );2;2;7
+AbstractPlatformTransactionManager.setTransactionSynchronizationName( String constantName );1;0;3
+AbstractPlatformTransactionManager.doCleanupAfterCompletion( Object transaction );1;0;2
+AbstractPlatformTransactionManager.prepareSynchronization( DefaultTransactionStatus status , TransactionDefinition definition );3;1;11

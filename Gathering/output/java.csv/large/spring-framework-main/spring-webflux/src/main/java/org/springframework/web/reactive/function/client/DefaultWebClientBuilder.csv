@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultWebClientBuilder.DefaultWebClientBuilder( DefaultWebClientBuilder other );7;6;26
+DefaultWebClientBuilder.uriBuilderFactory( UriBuilderFactory uriBuilderFactory );1;0;4
+DefaultWebClientBuilder.defaultHeaders( Consumer < HttpHeaders > headersConsumer );1;0;4
+DefaultWebClientBuilder.filter( ExchangeFilterFunction filter );1;0;5
+DefaultWebClientBuilder.defaultRequest( Consumer < WebClient . RequestHeadersSpec < ? > > defaultRequest );2;1;5
+DefaultWebClientBuilder.codecs( Consumer < ClientCodecConfigurer > configurer );2;1;7
+DefaultWebClientBuilder.exchangeStrategies( ExchangeStrategies strategies );1;0;4
+DefaultWebClientBuilder.defaultCookies( Consumer < MultiValueMap < String , String > > cookiesConsumer );1;0;4
+DefaultWebClientBuilder.DefaultWebClientBuilder( );1;0;2
+DefaultWebClientBuilder.build( );4;3;21
+DefaultWebClientBuilder.initExchangeStrategies( );4;2;9
+DefaultWebClientBuilder.copyDefaultHeaders( );2;1;10
+DefaultWebClientBuilder.initUriBuilderFactory( );3;2;9
+DefaultWebClientBuilder.clientConnector( ClientHttpConnector connector );1;0;4
+DefaultWebClientBuilder.initConnector( );5;0;17
+DefaultWebClientBuilder.exchangeStrategies( Consumer < ExchangeStrategies . Builder > configurer );2;1;7
+DefaultWebClientBuilder.initFilters( );2;1;6
+DefaultWebClientBuilder.initCookies( );2;1;6
+DefaultWebClientBuilder.baseUrl( String baseUrl );1;0;4
+***not in a method***;0;1;0
+DefaultWebClientBuilder.clone( );1;0;3
+DefaultWebClientBuilder.defaultHeader( String header , String ... values );1;0;4
+DefaultWebClientBuilder.defaultUriVariables( Map < String , ? > defaultUriVariables );1;0;4
+DefaultWebClientBuilder.observationRegistry( ObservationRegistry observationRegistry );1;0;5
+DefaultWebClientBuilder.copyDefaultCookies( );2;1;10
+DefaultWebClientBuilder.initHeaders( );2;1;6
+DefaultWebClientBuilder.filters( Consumer < List < ExchangeFilterFunction > > filtersConsumer );1;0;4
+DefaultWebClientBuilder.apply( Consumer < WebClient . Builder > builderConsumer );1;0;4
+DefaultWebClientBuilder.defaultCookie( String cookie , String ... values );1;0;4
+DefaultWebClientBuilder.defaultStatusHandler( Predicate < HttpStatusCode > statusPredicate , Function < ClientResponse , Mono < ? extends Throwable > > exceptionFunction );2;1;5
+DefaultWebClientBuilder.observationConvention( ClientRequestObservationConvention observationConvention );1;0;5
+DefaultWebClientBuilder.exchangeFunction( ExchangeFunction exchangeFunction );1;0;4

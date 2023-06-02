@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TemporaryLobCreator.setClobAsString( PreparedStatement ps , int paramIndex , @ Nullable String content );4;2;15
+TemporaryLobCreator.setClobAsAsciiStream( PreparedStatement ps , int paramIndex , @ Nullable InputStream asciiStream , int contentLength );5;2;21
+TemporaryLobCreator.setBlobAsBinaryStream( PreparedStatement ps , int paramIndex , @ Nullable InputStream binaryStream , int contentLength );5;2;21
+TemporaryLobCreator.setBlobAsBytes( PreparedStatement ps , int paramIndex , @ Nullable byte [ ] content );4;2;15
+TemporaryLobCreator.setClobAsCharacterStream( PreparedStatement ps , int paramIndex , @ Nullable Reader characterStream , int contentLength );5;2;21
+TemporaryLobCreator.close( );5;0;18

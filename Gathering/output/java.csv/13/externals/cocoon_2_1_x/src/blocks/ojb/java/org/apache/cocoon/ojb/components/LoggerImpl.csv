@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LoggerImpl.safeWarn( String message , Object obj , Throwable t );2;2;5
+LoggerImpl.warn( Object message , Throwable t );2;1;5
+LoggerImpl.safeError( String message , Object obj );2;2;5
+LoggerImpl.info( Object message , Throwable t );2;1;5
+LoggerImpl.isEnabledFor( int priority );1;1;3
+LoggerImpl.safeWarn( String message , Object obj );2;2;5
+LoggerImpl.warn( Object message );2;1;5
+LoggerImpl.getName( );1;0;3
+LoggerImpl.debug( Object message );2;1;5
+LoggerImpl.configure( Configuration config );1;0;2
+LoggerImpl.isDebugEnabled( );1;0;3
+LoggerImpl.safeInfo( String message , Object obj , Throwable t );2;2;5
+LoggerImpl.error( Object message , Throwable t );2;1;5
+LoggerImpl.safeDebug( String message , Object obj );2;2;5
+LoggerImpl.toString( Object obj );3;1;10
+LoggerImpl.info( Object message );2;1;5
+LoggerImpl.safeInfo( String message , Object obj );2;2;5
+LoggerImpl.fatal( Object message , Throwable t );2;1;5
+LoggerImpl.LoggerImpl( String name );2;0;3
+LoggerImpl.getLevel( );6;1;11
+LoggerImpl.safeDebug( String message , Object obj , Throwable t );2;2;5
+LoggerImpl.LoggerImpl( );1;0;3
+LoggerImpl.fatal( Object message );2;1;5
+LoggerImpl.LoggerImpl( String name , LoggingConfiguration config );1;0;3
+LoggerImpl.error( Object message );2;1;5
+LoggerImpl.safeFatal( String message , Object obj , Throwable t );2;2;5
+LoggerImpl.initialize( );1;0;3
+LoggerImpl.safeFatal( String message , Object obj );2;2;5
+LoggerImpl.safeError( String message , Object obj , Throwable t );2;2;5
+LoggerImpl.debug( Object message , Throwable t );2;1;5

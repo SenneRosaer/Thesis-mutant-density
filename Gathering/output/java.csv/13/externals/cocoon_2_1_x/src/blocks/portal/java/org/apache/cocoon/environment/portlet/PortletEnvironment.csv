@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PortletEnvironment.getDefaultSessionScope( );1;0;3
+PortletEnvironment.getContentType( );1;0;3
+PortletEnvironment.sendStatus( int sc );1;0;3
+PortletEnvironment.tryResetResponse( );6;2;20
+PortletEnvironment.permanentRedirect( boolean sessionmode , String newURL );1;0;3
+PortletEnvironment.setStatus( int statusCode );1;0;2
+PortletEnvironment.setResponseIsNotModified( );1;0;2
+PortletEnvironment.redirect( boolean sessionmode , String newURL );7;1;21
+PortletEnvironment.PortletEnvironment( String servletPath , String pathInfo , String uri , String root , javax . portlet . ActionRequest request , javax . portlet . ActionResponse response , PortletContext portletContext , Context context , String containerEncoding , String defaultFormEncoding , int defaultSessionScope );1;0;12
+PortletEnvironment.setContentLength( int length );1;0;2
+PortletEnvironment.isExternal( );1;0;3
+PortletEnvironment.initObjectModel( javax . portlet . PortletRequest portletRequest , javax . portlet . PortletResponse portletResponse , PortletContext portletContext );1;0;8
+PortletEnvironment.isResponseModified( long lastModified );1;0;3
+PortletEnvironment.getOutputStream( final int bufferSize );2;1;6
+PortletEnvironment.setContentType( String contentType );1;0;4
+PortletEnvironment.hasRedirected( );1;0;3
+PortletEnvironment.PortletEnvironment( String servletPath , String pathInfo , String uri , String root , javax . portlet . RenderRequest request , javax . portlet . RenderResponse response , PortletContext portletContext , Context context , String containerEncoding , String defaultFormEncoding , int defaultSessionScope );1;0;12

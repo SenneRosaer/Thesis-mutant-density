@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExpressionEvaluatorImpl.update( String expression , Object value , VariableResolver variableResolver , boolean requestParameter );3;0;21
+ExpressionEvaluatorImpl.parseExpression( String expression );2;1;10
+ExpressionEvaluatorImpl.evaluateStrict( String expression , VariableResolver variableResolver );2;0;19
+ExpressionEvaluatorImpl.changeContext( String expression , String oldContext , String newContext , int lookupIndex );2;0;17
+ExpressionEvaluatorImpl.isExpression( String expression );4;0;17
+ExpressionEvaluatorImpl.qualify( String contextName , String expression );2;0;15
+NetUIELEngineFactory.getInstance( );1;0;3
+ExpressionEvaluatorImpl.containsExpression( String expression );3;2;12

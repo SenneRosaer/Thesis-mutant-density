@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlModelWriter.addElementWithText( Element parent , String tagName , String text );1;0;6
+XmlModelWriter.writeComment( Writer out , Comment comment , int indent );1;0;6
+XmlModelWriter.getDocument( );1;0;3
+XmlModelWriter.write( Writer out );4;2;22
+XmlModelWriter.XmlModelWriter( File starterFile , String rootName , String publicID , String systemID , String headerComment );6;4;36
+XmlModelWriter.writeElement( Writer out , Element element , int indent );7;8;45
+XmlModelWriter.getRootElement( );1;0;3
+XmlModelWriter.simpleFastWrite( Writer out );3;3;13
+XmlModelWriter.addComment( Element parent , String commentText );2;1;6
+XmlModelWriter.doIndent( Writer out , int indent );2;2;5
+XmlModelWriter.filterValue( Writer writer , String value , boolean filterQuote );7;4;22
+XmlModelWriter.addElement( Element parent , String tagName );1;0;5

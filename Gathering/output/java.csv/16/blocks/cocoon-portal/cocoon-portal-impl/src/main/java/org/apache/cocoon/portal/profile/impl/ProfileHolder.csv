@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProfileHolder.getCopletDefinitionsMap( );1;0;3
+ProfileHolder.searchCopletDefinition( String copletDefinitionId );1;0;3
+ProfileHolder.searchCopletInstances( String copletDefinitionId );2;1;7
+ProfileHolder.setLayoutTypes( final Collection c );2;0;9
+ProfileHolder.getLayoutObjects( );1;0;3
+ProfileHolder.searchLayoutInstance( Layout layout );2;1;6
+ProfileHolder.getCopletInstances( );1;0;3
+ProfileHolder.setCopletInstances( Collection copletInstances );2;0;8
+ProfileHolder.searchCopletInstance( String copletId );1;0;3
+ProfileHolder.add( CopletInstance cid );2;1;5
+ProfileHolder.traverseLayouts( Layout layout );5;2;16
+ProfileHolder.setRootLayout( Layout rootLayout );1;0;4
+ProfileHolder.add( LayoutInstance instance );2;1;5
+ProfileHolder.searchCopletDefinitions( CopletType copletType );3;0;11
+ProfileHolder.add( Layout layout );3;2;8
+ProfileHolder.createLayoutCollections( );1;0;6
+ProfileHolder.searchCopletInstances( CopletDefinition copletDefinition );3;0;11
+ProfileHolder.getCopletInstancesMap( );1;0;3
+ProfileHolder.getRootLayout( );1;0;3
+ProfileHolder.getLayoutTypesMap( );1;0;3
+ProfileHolder.remove( CopletInstance cid );2;1;5
+ProfileHolder.searchLayout( String layoutId );1;0;3
+ProfileHolder.setCopletDefinitions( Map copletDefinitions );1;0;3
+ProfileHolder.remove( Layout layout );3;2;9
+ProfileHolder.getCopletDefinitions( );1;0;3

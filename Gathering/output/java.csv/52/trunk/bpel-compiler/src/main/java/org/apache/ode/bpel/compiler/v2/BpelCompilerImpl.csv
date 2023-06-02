@@ -1,0 +1,93 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StructureStack.push( OActivity act , BpelObject src );1;0;4
+BpelCompilerImpl.compile( URI current , Import imprt );7;3;18
+BpelCompilerImpl.isMember( OScope o );2;2;3
+BpelCompilerImpl.compileLinkSource( LinkSource linksrc );3;3;12
+BpelCompilerImpl.getSourceLocation( );2;1;3
+BpelCompilerImpl.compile( OActivity context , BpelObject source , Runnable run );6;3;21
+BpelCompilerImpl.createDebugInfo( BpelObject bpelObject , String description );5;6;8
+BpelCompilerImpl.compile( TerminationHandler terminationHandler );2;1;17
+BpelCompilerImpl.resolveVariable( String varName );5;4;10
+BpelCompilerImpl.resolveHeaderPart( OScope . Variable var , String partname );2;1;6
+BpelCompilerImpl.run( );5;34;20
+BpelCompilerImpl.setExtensionValidators( Map < QName , ExtensionValidator > extensionValidators );1;0;3
+BpelCompilerImpl.resolvePartnerLink( String name );3;1;8
+BpelCompilerImpl.resolveMessageVariable( String inputVar , QName messageType );2;1;7
+BpelCompilerImpl.addXsdImport( URI from , URI location , SourceLocation sloc );5;0;27
+BpelCompilerImpl.compileXslt( String docStrUri );3;1;17
+BpelCompilerImpl.compile( CompensationHandler compensationHandler );2;1;17
+BpelCompilerImpl.compile( CorrelationSet cset );2;2;11
+BpelCompilerImpl.getExtensionValidator( QName extensionElementName );1;0;3
+BpelCompilerImpl.resolveElementType( QName faultVariableElementType );2;1;8
+BpelCompilerImpl.recoveredFromError( SourceLocation where , CompilationException bce );10;2;28
+BpelCompilerImpl.constantExpr( boolean value );2;0;6
+BpelCompilerImpl.getAccessibleVariables( );2;0;7
+BpelCompilerImpl.compileExpr( Expression expression );1;0;3
+BpelCompilerImpl.compile( final Variable src );8;3;30
+BpelCompilerImpl.compileExtVar( Variable src );4;3;13
+BpelCompilerImpl.resolveCorrelationSet( String csetName );3;1;8
+BpelCompilerImpl.compileLValueExpr( Expression expression );1;0;3
+BpelCompilerImpl.resolvePortType( final QName portTypeName );3;2;8
+BpelCompilerImpl.resolveProperty( QName name );3;0;7
+BpelCompilerImpl.compileLinks( Activity source );5;2;8
+BpelCompilerImpl.compileSLC( final ScopeLikeActivity source , final OScope . Variable [ ] variables );6;0;30
+BpelCompilerImpl.compileJoinCondition( Expression expression );1;0;3
+BpelCompilerImpl.registerExpressionLanguage( String expLangUri , String classname );4;0;12
+BpelCompilerImpl.compileActivity( final boolean doLinks , final Activity source );2;0;15
+BpelCompilerImpl.isExtensionDeclared( String namespace );1;0;3
+StructureStack.iterator( );1;0;5
+BpelCompilerImpl.resolveMessageVariable( String inputVar );2;1;6
+BpelCompilerImpl.registerActivityCompiler( Class defClass , ActivityGenerator generator );2;0;6
+BpelCompilerImpl.compileExpr( String expr , NSContext nc );1;0;5
+BpelCompilerImpl.getOProcess( );1;0;3
+BpelCompilerImpl.compileScope( final OScope oscope , final Scope src , final Runnable init );24;3;88
+BpelCompilerImpl.findActivityGen( Activity source );4;0;12
+BpelCompilerImpl.getExpressionLanguage( Expression exp );3;2;8
+StructureStack.pop( );1;0;3
+BpelCompilerImpl.compile( final OnAlarm onAlarm );14;13;32
+BpelCompilerImpl.getWsdlDefinitions( );2;2;8
+BpelCompilerImpl.resolveMyRoleOperation( final OPartnerLink partnerLink , final String operationName );7;2;18
+BpelCompilerImpl.resolveLink( String linkName );4;1;11
+BpelCompilerImpl.getCurrent( );1;0;3
+StructureStack.clear( );1;0;3
+BpelCompilerImpl.compile( final PartnerLink plink );11;6;43
+BpelCompilerImpl.resolveCompensatableScope( final String scopeToCompensate );4;1;13
+BpelCompilerImpl.loadXsltSheet( URI uri );5;1;21
+BpelCompilerImpl.resolvePartnerRoleOperation( final OPartnerLink partnerLink , final String operationName );7;2;19
+BpelCompilerImpl.getProcessDef( );1;0;3
+BpelCompilerImpl.compile( PropertyAlias src );5;5;20
+BpelCompilerImpl.setCustomProperties( Map < QName , Node > customProperties );1;0;3
+StructureStack.topSource( );1;0;3
+BpelCompilerImpl.isMember( Operation o );5;14;7
+BpelCompilerImpl.getSchemaSources( );2;0;9
+StructureStack.topActivity( );2;0;3
+StructureStack.scopeStack( );1;0;5
+BpelCompilerImpl.compile( final Activity source );6;1;24
+BpelCompilerImpl.getCompileListener( );1;0;3
+BpelCompilerImpl.addWsdlImport( URI from , URI wsdlImport , SourceLocation sloc );4;0;20
+BpelCompilerImpl.compileExpr( Expression expression , boolean isJoinCondition , boolean isLValue );5;2;24
+BpelCompilerImpl.resolvePartnerLinkType( QName partnerLinkType );2;1;6
+BpelCompilerImpl.BpelCompilerImpl( WSDLFactory4BPEL wsdlFactory );1;0;4
+BpelCompilerImpl.resolvePart( OScope . Variable var , String partname );3;2;10
+BpelCompilerImpl.resolvePropertyAlias( OScope . Variable variable , QName propertyName );3;2;9
+BpelCompilerImpl.compile( FaultHandler fh );16;2;81
+BpelCompilerImpl.resolveXsdType( QName typeName );5;4;17
+BpelCompilerImpl.compile( final Process process , ResourceFinder rf );25;6;122
+BpelCompilerImpl.createDefaultCompensateActivity( BpelObject source , String desc );1;0;6
+StructureStack.topScope( );2;1;4
+StructureStack.size( );1;0;3
+StructureStack.rootScope( );3;0;6
+BpelCompilerImpl.compileExtension( Extension ext );3;0;13
+BpelCompilerImpl.registerExpressionLanguage( String expLangUri , ExpressionCompiler expressionCompiler );1;0;3
+BpelCompilerImpl.compileLinkTarget( LinkTarget target );2;2;9
+BpelCompilerImpl.createName( Activity source , String type );2;3;5
+BpelCompilerImpl.compile( Property property );4;1;17
+BpelCompilerImpl.findExpLangCompiler( String expLang );2;1;7
+BpelCompilerImpl.compile( final OnEvent onEvent );24;1;78
+BpelCompilerImpl.setCompileListener( CompileListener compileListener );1;0;3
+StructureStack.oscopeIterator( );1;0;5
+BpelCompilerImpl.getActivityStack( );1;0;5
+BpelCompilerImpl.isPartnerLinkAssigned( String plink );7;0;17
+BpelCompilerImpl.apply( Part part );2;1;11
+BpelCompilerImpl.setResourceFinder( ResourceFinder finder );2;1;7
+BpelCompilerImpl.resolveMessageType( QName messageType );4;2;29

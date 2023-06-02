@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultAuthorizationService.register( AuthorizationEntry entry , Map < String , ? > props );1;0;5
+DefaultAuthorizationService.match( AuthorizationEntry entry , String endpoint , QName operation );4;5;4
+DefaultAuthorizationService.compare( AuthorizationEntry o1 , AuthorizationEntry o2 );3;3;9
+DefaultAuthorizationService.DefaultAuthorizationService( );3;0;15
+DefaultAuthorizationService.unregister( AuthorizationEntry entry , Map < String , ? > props );1;0;5
+DefaultAuthorizationService.match( String acl , String target );3;3;5
+DefaultAuthorizationService.match( QName acl , QName target );2;1;4
+DefaultAuthorizationService.getAcls( String endpoint , QName operation );8;6;21

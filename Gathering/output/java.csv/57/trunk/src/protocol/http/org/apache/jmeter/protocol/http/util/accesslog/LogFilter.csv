@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LogFilter.excFile( String text );3;4;12
+LogFilter.incFile( String text );3;4;10
+LogFilter.excludePattern( String [ ] regexp );4;5;9
+LogFilter.setReplaceExtension( String oldext , String newext );5;6;12
+LogFilter.filter( String text );4;0;13
+LogFilter.replaceExtension( String text );2;5;10
+LogFilter.isFiltered( String path , TestElement el );6;2;13
+LogFilter.includePattern( String [ ] regexp );4;5;9
+LogFilter.reset( );1;0;2
+LogFilter.filterFile( String file );3;3;8
+LogFilter.LogFilter( );1;0;3
+LogFilter.excPattern( String text );3;2;12
+LogFilter.createPattern( String pattern );2;1;9
+LogFilter.excludeFiles( String [ ] filenames );3;3;6
+LogFilter.includeFiles( String [ ] filenames );3;3;6
+LogFilter.incPattern( String text );3;2;10
+LogFilter.filterPattern( String text );3;3;8

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConstantPool.ConstantPool( );1;0;5
+ConstantPool.getUTF8Entry( String value );2;2;8
+ConstantPool.resolve( );4;3;8
+ConstantPool.getClassEntry( String className );5;6;13
+ConstantPool.getConstantEntry( Object constantValue );5;6;13
+ConstantPool.size( );1;0;3
+ConstantPool.toString( );2;2;8
+ConstantPool.getMethodRefEntry( String methodClassName , String methodName , String methodType );7;8;15
+ConstantPool.read( DataInputStream classStream );2;2;9
+ConstantPool.getFieldRefEntry( String fieldClassName , String fieldName , String fieldType );7;8;15
+ConstantPool.addEntry( ConstantPoolEntry entry );3;3;13
+ConstantPool.getEntry( int index );1;0;3
+ConstantPool.getInterfaceMethodRefEntry( String interfaceMethodClassName , String interfaceMethodName , String interfaceMethodType );7;8;19
+ConstantPool.getNameAndTypeEntry( String name , String type );6;7;15

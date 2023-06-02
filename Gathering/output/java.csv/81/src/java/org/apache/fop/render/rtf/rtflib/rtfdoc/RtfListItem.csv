@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RtfListItem.writeRtfPrefix( );2;1;14
+RtfListItem.newParagraph( RtfAttributes attrs );2;1;7
+RtfListItemParagraph.writeRtfPrefix( );1;0;4
+RtfListItemLabel.RtfListItemLabel( RtfListItem item );1;0;4
+RtfListItem.newList( RtfAttributes attrs );1;0;4
+RtfListItem.RtfListItem( RtfList parent , Writer w , RtfAttributes attr );1;0;4
+RtfListItem.getTextrun( );1;0;5
+RtfListItem.getParentList( );1;0;3
+RtfListItemLabel.getTextrun( );1;0;3
+RtfListItem.getRtfListStyle( );2;1;7
+RtfListItem.RtfListItem( RtfList parent , Writer w );1;0;4
+RtfListItemLabel.addString( String s );3;2;8
+RtfListItem.getNumber( );1;0;3
+RtfListItemParagraph.RtfListItemParagraph( RtfListItem rli , RtfAttributes attrs );1;0;3
+RtfListItem.newParagraph( );1;0;3
+RtfListItem.writeRtfSuffix( );2;1;6
+RtfListItem.setRtfListStyle( RtfListStyle ls );1;0;5

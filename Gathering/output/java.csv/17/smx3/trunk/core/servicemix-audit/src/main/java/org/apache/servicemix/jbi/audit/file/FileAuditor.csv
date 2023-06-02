@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileAuditor.getExchangeCount( );1;0;3
+FileAuditor.getDescription( );1;0;3
+FileAuditor.exchangeSent( ExchangeEvent event );6;1;25
+MessageExchangeWriter.writeNormalizedMessage( NormalizedMessage message );2;0;6
+MessageExchangeWriter.writeMessageExchange( MessageExchange exchange );2;0;8
+FileAuditor.afterPropertiesSet( );2;0;8
+FileAuditor.deleteExchangesByIds( String [ ] ids );1;0;3
+MessageExchangeWriter.MessageExchangeWriter( OutputStream os );1;0;3
+FileAuditor.writeFileHeader( OutputStream os , MessageExchange exchange );1;0;8
+FileAuditor.getExchangesByIds( String [ ] ids );1;0;3
+FileAuditor.setDirectory( File directory );2;1;7
+FileAuditorStrategyImpl.getFileName( MessageExchange exchange );1;2;3
+FileAuditor.getExchangeIdsByRange( int fromIndex , int toIndex );1;0;3
+FileAuditor.getOutputStream( MessageExchange exchange );2;1;7
+MessageExchangeWriter.writeProperty( Object key , Object value );1;0;3

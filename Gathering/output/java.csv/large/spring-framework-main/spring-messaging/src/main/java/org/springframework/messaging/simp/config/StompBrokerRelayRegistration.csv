@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StompBrokerRelayRegistration.setUserDestinationBroadcast( String destination );1;0;4
+StompBrokerRelayRegistration.setSystemHeartbeatSendInterval( long systemHeartbeatSendInterval );1;0;4
+StompBrokerRelayRegistration.setVirtualHost( String virtualHost );1;0;4
+StompBrokerRelayRegistration.setRelayHost( String relayHost );1;0;5
+StompBrokerRelayRegistration.StompBrokerRelayRegistration( SubscribableChannel clientInboundChannel , MessageChannel clientOutboundChannel , String [ ] destinationPrefixes );1;0;3
+StompBrokerRelayRegistration.setSystemPasscode( String passcode );1;0;5
+StompBrokerRelayRegistration.setAutoStartup( boolean autoStartup );1;0;4
+StompBrokerRelayRegistration.setTcpClient( TcpOperations < byte [ ] > tcpClient );1;0;4
+StompBrokerRelayRegistration.setSystemHeartbeatReceiveInterval( long heartbeatReceiveInterval );1;0;4
+StompBrokerRelayRegistration.setRelayPort( int relayPort );1;0;4
+StompBrokerRelayRegistration.getUserRegistryBroadcast( );1;0;3
+StompBrokerRelayRegistration.setClientPasscode( String passcode );1;0;5
+StompBrokerRelayRegistration.setUserRegistryBroadcast( String destination );1;0;4
+StompBrokerRelayRegistration.setClientLogin( String login );1;0;5
+StompBrokerRelayRegistration.setSystemLogin( String login );1;0;5
+StompBrokerRelayRegistration.getUserDestinationBroadcast( );1;0;3
+StompBrokerRelayRegistration.getMessageHandler( SubscribableChannel brokerChannel );6;5;28
+StompBrokerRelayRegistration.setTaskScheduler( @ Nullable TaskScheduler taskScheduler );1;0;4

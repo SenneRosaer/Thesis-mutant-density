@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TreeProcessor.TreeProcessor( TreeProcessor parent , DelayedRefreshSourceWrapper sitemapSource , boolean checkReload , String prefix );1;0;14
+TreeProcessor.removeAttribute( String name );1;0;3
+TreeProcessor.setAttribute( String name , Object value );1;0;3
+TreeProcessor.initialize( );4;3;17
+TreeProcessor.TreeProcessor( );2;0;11
+TreeProcessor.dispose( );4;2;19
+TreeProcessor.service( ServiceManager serviceManager );1;0;5
+TreeProcessor.buildConcreteProcessor( Environment env );11;10;56
+TreeProcessor.setupConcreteProcessor( Environment env );6;6;10
+TreeProcessor.getAttribute( String name );1;0;3
+TreeProcessor.getRootProcessor( );2;1;7
+TreeProcessor.process( Environment environment );1;0;4
+TreeProcessor.getContext( );1;0;3
+TreeProcessor.handleNotification( );1;0;3
+TreeProcessor.createSitemapProgram( Source sitemapSource );3;0;14
+TreeProcessor.getEnvironmentHelper( );1;0;3
+TreeProcessor.getParent( );1;0;3
+TreeProcessor.getTreeBuilder( Configuration sitemapProgram );3;2;16
+TreeProcessor.getSourceResolver( );1;0;3
+TreeProcessor.configure( Configuration config );2;0;11
+TreeProcessor.createChildProcessor( String src , boolean configuredCheckReload , String prefix );1;0;5
+TreeProcessor.buildPipeline( Environment environment );1;0;4

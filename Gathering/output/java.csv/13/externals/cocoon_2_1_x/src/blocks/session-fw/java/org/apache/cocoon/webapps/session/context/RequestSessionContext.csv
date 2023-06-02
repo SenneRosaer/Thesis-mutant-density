@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestSessionContext.RequestSessionContext( Logger logger );1;0;3
+RequestSessionContext.buildHeadersXML( Element root );3;1;17
+RequestSessionContext.streamXML( String path , ContentHandler contentHandler , LexicalHandler lexicalHandler );8;9;26
+RequestSessionContext.appendXML( String path , DocumentFragment fragment );1;0;3
+RequestSessionContext.getParameterAsXML( final String parameterName );1;0;3
+RequestSessionContext.buildCookiesXML( Element root );3;3;41
+RequestSessionContext.getNodeList( String path );2;0;10
+RequestSessionContext.getValueOfNode( String path );2;1;8
+RequestSessionContext.getAttribute( String key , Object defaultObject );2;1;4
+RequestSessionContext.setup( Map objectModel , ServiceManager manager , XPathProcessor processor );2;0;20
+RequestSessionContext.buildParameterXML( Element root , SAXParser parser );10;9;61
+RequestSessionContext.buildAttributesXML( Element root );3;1;18
+RequestSessionContext.getSingleNode( String path );2;0;10
+RequestSessionContext.setValueOfNode( String path , String value );1;0;3
+RequestSessionContext.removeXML( String path );1;0;3
+RequestSessionContext.setNode( String path , Node node );1;0;3
+RequestSessionContext.getXML( String path );10;12;29
+RequestSessionContext.setXML( String path , DocumentFragment fragment );1;0;3
+RequestSessionContext.setup( String value , String loadResource , String saveResource );1;0;3
+RequestSessionContext.createPath( String path );4;4;7
+RequestSessionContext.saveXML( String path , SourceParameters parameters );1;0;3
+RequestSessionContext.getRequest( );1;0;3
+RequestSessionContext.getParameter( final String parameterName );1;0;3
+RequestSessionContext.createTextNode( Document doc , String value );2;1;3
+RequestSessionContext.setAttribute( String key , Object value );2;1;7
+RequestSessionContext.getName( );1;0;3
+RequestSessionContext.getAttribute( String key );1;0;3
+RequestSessionContext.buildMiscXML( Element root );1;0;64
+RequestSessionContext.loadXML( String path , SourceParameters parameters );1;0;3

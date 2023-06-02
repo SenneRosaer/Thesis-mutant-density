@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultEventManager.configure( Configuration conf );1;0;3
+DefaultEventManager.dispose( );3;2;12
+DefaultEventManager.send( Event event );13;5;37
+DefaultEventManager.service( ServiceManager manager );1;0;4
+DefaultEventManager.processEvents( );6;2;37
+DefaultEventManager.publish( final Event event );1;0;3
+DefaultEventManager.initialize( );10;12;66
+DefaultEventManager.subscribe( Receiver receiver );5;4;15
+DefaultEventManager.introspect( Class receiverClass );8;6;26
+DefaultEventManager.contextualize( Context context );1;0;3
+DefaultEventManager.subscribe( final Subscriber subscriber );5;2;16
+DefaultEventManager.getObjectModel( );1;0;3
+DefaultEventManager.getPublisher( );1;0;3
+DefaultEventManager.unsubscribe( Receiver receiver );2;0;6
+DefaultEventManager.unsubscribe( Subscriber subscriber );4;1;15
+DefaultEventManager.getRegister( );1;0;3

@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ZipOutputStream.deflate( );2;1;6
+ZipOutputStream.writeLocalFileHeader( ZipEntry ze );5;15;40
+ZipOutputStream.toDosTime( Date time );1;0;3
+ZipOutputStream.adjustToLong( int i );2;4;7
+ZipOutputStream.write( byte [ ] b , int offset , int length );7;14;28
+ZipOutputStream.deflateUntilInputIsNeeded( );2;1;5
+ZipOutputStream.flush( );2;1;5
+ZipOutputStream.writeOut( byte [ ] data );1;0;3
+ZipOutputStream.toDosTime( long t );2;15;15
+ZipOutputStream.setMethod( int method );1;0;3
+ZipOutputStream.closeEntry( );8;11;48
+ZipOutputStream.finish( );2;3;11
+ZipOutputStream.write( int b );1;1;5
+ZipOutputStream.ZipOutputStream( OutputStream out );1;0;3
+ZipOutputStream.getBytes( String name );3;1;11
+ZipOutputStream.writeOut( byte [ ] data , int offset , int length );2;1;7
+ZipOutputStream.setEncoding( String encoding );1;0;3
+ZipOutputStream.writeCentralFileHeader( ZipEntry ze );4;22;49
+ZipOutputStream.getEncoding( );1;0;3
+ZipOutputStream.setComment( String comment );1;0;3
+ZipOutputStream.setLevel( int level );3;4;9
+ZipOutputStream.writeDataDescriptor( ZipEntry ze );3;4;10
+ZipOutputStream.putNextEntry( ZipEntry ze );9;13;28
+ZipOutputStream.close( );3;2;9
+ZipOutputStream.ZipOutputStream( File file );4;1;16
+ZipOutputStream.writeCentralDirectoryEnd( );1;0;13
+ZipOutputStream.isSeekable( );1;1;3

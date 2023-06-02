@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BundleBinding.writeState( DataOutputStream out , NodePropBundle . PropertyEntry state );18;9;96
+BundleBinding.writeBundle( DataOutputStream out , NodePropBundle bundle );9;6;44
+BundleBinding.checkBundle( DataInputStream in );14;8;81
+BundleBinding.checkPropertyState( DataInputStream in );27;9;145
+BundleBinding.readBundle( DataInputStream in , NodeId id );10;11;52
+BundleBinding.readPropertyEntry( DataInputStream in , PropertyId id );14;7;69
+BundleBinding.BundleBinding( ErrorHandling errorHandling , BLOBStore blobStore , StringIndex nsIndex , StringIndex nameIndex , DataStore dataStore );1;0;3
+***not in a method***;0;2;0
+BundleBinding.writeSmallBinary( DataOutputStream out , BLOBFileValue blobVal , NodePropBundle . PropertyEntry state , int i );2;0;21

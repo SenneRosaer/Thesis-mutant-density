@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RuleColorizer.addRule( String ruleSetName , ColorRule rule );2;0;10
+RuleColorizer.setRules( Map rules );1;0;4
+RuleColorizer.setCurrentRuleSet( String ruleSetName );1;0;3
+RuleColorizer.addPropertyChangeListener( PropertyChangeListener listener );1;0;3
+RuleColorizer.addPropertyChangeListener( String propertyName , PropertyChangeListener listener );1;0;3
+RuleColorizer.setLoggerRule( Rule loggerRule );1;0;4
+RuleColorizer.setFindRule( Rule findRule );1;0;4
+RuleColorizer.removePropertyChangeListener( PropertyChangeListener listener );1;0;3
+RuleColorizer.getRules( );1;0;3
+RuleColorizer.getBackgroundColor( LoggingEvent event );9;6;19
+RuleColorizer.getForegroundColor( LoggingEvent event );9;6;19
+RuleColorizer.RuleColorizer( );1;0;15
+RuleColorizer.removeRule( String ruleSetName , String expression );4;2;12
+RuleColorizer.addRules( Map newRules );3;0;12

@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StopFilter.getEnablePositionIncrements( );1;0;3
+StopFilter.StopFilter( TokenStream in , String [ ] stopWords , boolean ignoreCase );1;0;5
+StopFilter.getEnablePositionIncrementsDefault( );1;0;3
+StopFilter.next( final Token reusableToken );4;5;14
+StopFilter.init( );1;0;4
+StopFilter.StopFilter( TokenStream input , Set stopWords , boolean ignoreCase );2;0;10
+StopFilter.StopFilter( TokenStream input , String [ ] stopWords );1;0;3
+StopFilter.setEnablePositionIncrements( boolean enable );1;0;3
+StopFilter.makeStopSet( String [ ] stopWords );1;0;3
+StopFilter.setEnablePositionIncrementsDefault( boolean defaultValue );1;0;3
+StopFilter.makeStopSet( String [ ] stopWords , boolean ignoreCase );1;0;5
+StopFilter.StopFilter( TokenStream in , Set stopWords );1;0;3
+StopFilter.incrementToken( );4;3;13

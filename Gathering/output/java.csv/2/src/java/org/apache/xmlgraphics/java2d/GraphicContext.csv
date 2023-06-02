@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GraphicContext.invalidateTransformStack( );1;0;4
+GraphicContext.transform( AffineTransform Tx );1;0;4
+GraphicContext.setTransform( AffineTransform Tx );2;1;7
+GraphicContext.getFont( );1;0;3
+GraphicContext.translate( int x , int y );3;3;6
+GraphicContext.getColor( );1;0;3
+GraphicContext.GraphicContext( AffineTransform defaultDeviceTransform );2;1;8
+GraphicContext.setClip( Shape clip );2;1;7
+GraphicContext.getStroke( );1;0;3
+GraphicContext.getTransform( );1;0;3
+GraphicContext.getRenderingHints( );1;0;3
+GraphicContext.addRenderingHints( Map hints );1;0;3
+GraphicContext.setBackground( Color color );2;1;6
+GraphicContext.clone( );1;0;3
+GraphicContext.GraphicContext( GraphicContext template );3;3;23
+GraphicContext.rotate( double theta );1;0;4
+GraphicContext.getBackground( );1;0;3
+GraphicContext.setRenderingHint( RenderingHints . Key hintKey , Object hintValue );1;0;3
+GraphicContext.setPaint( Paint paint );3;1;9
+GraphicContext.clipRect( int x , int y , int width , int height );1;0;3
+GraphicContext.getRenderingHint( RenderingHints . Key hintKey );1;0;3
+GraphicContext.setComposite( Composite comp );1;0;3
+GraphicContext.shear( double shx , double shy );1;0;4
+GraphicContext.getPaint( );1;0;3
+GraphicContext.isTransformStackValid( );1;0;3
+GraphicContext.setFont( Font font );2;1;5
+GraphicContext.setStroke( Stroke s );1;0;3
+GraphicContext.getClipBounds( );2;1;8
+GraphicContext.GraphicContext( );1;0;3
+GraphicContext.getFontRenderContext( );8;9;27
+GraphicContext.translate( double tx , double ty );1;0;4
+GraphicContext.scale( double sx , double sy );1;0;4
+GraphicContext.setColor( Color c );3;2;8
+GraphicContext.getComposite( );1;0;3
+GraphicContext.validateTransformStack( );1;0;3
+GraphicContext.rotate( double theta , double x , double y );1;2;6
+GraphicContext.setRenderingHints( Map hints );1;0;3
+GraphicContext.clip( Shape s );3;2;12
+GraphicContext.getTransformStack( );1;0;5
+GraphicContext.setClip( int x , int y , int width , int height );1;0;3
+GraphicContext.getClip( );2;0;7

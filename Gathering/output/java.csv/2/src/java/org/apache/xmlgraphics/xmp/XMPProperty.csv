@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMPProperty.getName( );1;0;3
+XMPProperty.setXMLLang( String lang );1;0;3
+XMPProperty.convertSimpleValueToArray( XMPArrayType type );3;2;12
+XMPProperty.getValue( );1;0;3
+XMPProperty.setValue( Object value );1;0;3
+XMPProperty.setPropertyQualifier( QName name , XMPProperty property );2;1;6
+XMPProperty.toString( );1;0;6
+XMPProperty.getXMLLang( );1;0;3
+XMPProperty.getNamespace( );1;0;3
+XMPProperty.getStructureValue( );2;0;3
+XMPProperty.getEffectiveQName( );3;3;8
+XMPProperty.simplify( );6;3;21
+XMPProperty.isQualifiedProperty( );2;2;9
+XMPProperty.hasPropertyQualifiers( );2;3;3
+XMPProperty.getArrayValue( );2;0;3
+XMPProperty.toSAX( ContentHandler handler );2;0;15
+XMPProperty.XMPProperty( QName name , Object value );1;0;4

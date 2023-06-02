@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BenchmarkTests.repeatedBeforeAdviceInvocationsWithAspectJ( );1;0;3
+BenchmarkTests.testRepeatedAroundAdviceInvocations( String file , int howmany , String technology );2;3;14
+MultiplyReturnValueInterceptor.invoke( MethodInvocation mi );1;2;5
+BenchmarkTests.repeatedAfterReturningAdviceInvocationsWithSpringAop( );1;0;3
+BenchmarkTests.repeatedBeforeAdviceInvocationsWithSpringAop( );1;0;3
+TraceBeforeAdvice.matches( Method method , Class < ? > targetClass );1;0;3
+BenchmarkTests.testBeforeAdviceWithoutJoinPoint( String file , int howmany , String technology );2;4;16
+TraceAspect.traceWithoutJoinPoint( );1;1;3
+BenchmarkTests.repeatedAroundAdviceInvocationsWithSpringAop( );1;0;3
+BenchmarkTests.repeatedAroundAdviceInvocationsWithAspectJ( );1;0;3
+TraceBeforeAdvice.advisor( );2;0;10
+TraceAfterReturningAdvice.matches( Method method , Class < ? > targetClass );2;2;4
+BenchmarkTests.getCount( );1;0;3
+MultiplyReturnValueInterceptor.setMultiple( int multiple );1;0;3
+BenchmarkTests.repeatedMixWithSpringAop( );1;0;3
+BenchmarkTests.repeatedAfterReturningAdviceInvocationsWithAspectJ( );1;0;3
+TraceAspect.traceWithoutJoinPoint2( );1;1;3
+TraceAfterReturningAdvice.advisor( );3;0;11
+MultiplyReturnValueInterceptor.getMultiple( );1;0;3
+BenchmarkTests.testMix( String file , int howmany , String technology );2;4;20
+TraceBeforeAdvice.before( Method method , Object [ ] args , Object target );1;1;3
+TraceAfterReturningAdvice.afterReturning( Object returnValue , Method method , Object [ ] args , Object target );1;1;3
+BenchmarkTests.repeatedMixWithAspectJ( );1;0;3
+BenchmarkTests.testAfterReturningAdviceWithoutJoinPoint( String file , int howmany , String technology );2;4;16

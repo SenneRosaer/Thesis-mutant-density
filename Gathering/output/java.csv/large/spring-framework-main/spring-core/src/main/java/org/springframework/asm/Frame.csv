@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Frame.merge( final SymbolTable symbolTable , final int sourceType , final int [ ] dstTypes , final int dstIndex );20;53;56
+Frame.setInputFrameFromApiFormat( final SymbolTable symbolTable , final int numLocal , final Object [ ] local , final int numStack , final Object [ ] stack );11;23;28
+Frame.addInitializedType( final int abstractType );3;5;13
+Frame.push( final SymbolTable symbolTable , final String descriptor );5;5;11
+Frame.setInputFrameFromDescriptor( final SymbolTable symbolTable , final int access , final String descriptor , final int maxLocals );7;14;24
+Frame.getLocal( final int localIndex );4;6;11
+Frame.getConcreteOutputType( final int abstractOutputType , final int numStack );9;21;21
+Frame.getInputStackSize( );1;0;3
+Frame.getAbstractTypeFromApiFormat( final SymbolTable symbolTable , final Object type );3;2;11
+Frame.getAbstractTypeFromInternalName( final SymbolTable symbolTable , final String internalName );1;1;3
+Frame.execute( final int opcode , final int arg , final Symbol argSymbol , final SymbolTable symbolTable );191;52;423
+Frame.getAbstractTypeFromDescriptor( final SymbolTable symbolTable , final String buffer , final int offset );22;12;63
+Frame.copyFrom( final Frame frame );1;0;10
+Frame.accept( final MethodWriter methodWriter );14;29;38
+Frame.Frame( final Label owner );1;0;3
+***not in a method***;0;35;0
+Frame.setLocal( final int localIndex , final int abstractType );3;4;12
+Frame.merge( final SymbolTable symbolTable , final Frame dstFrame , final int catchTypeIndex );15;27;59
+Frame.getInitializedType( final SymbolTable symbolTable , final int abstractType );8;20;25
+Frame.pop( final int elements );2;4;8
+Frame.putAbstractType( final SymbolTable symbolTable , final int abstractType , final ByteVector output );15;11;64
+Frame.pop( );2;5;7
+Frame.push( final int abstractType );4;7;16
+Frame.pop( final String descriptor );4;6;10

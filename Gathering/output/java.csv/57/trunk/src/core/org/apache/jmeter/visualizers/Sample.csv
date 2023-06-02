@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Sample.getStartTimeFormatted( Format format );1;0;3
+Sample.Sample( long data );1;0;3
+Sample.getCount( );1;0;3
+Sample.getMedian( );1;0;3
+Sample.isSuccess( );1;0;3
+Sample.getAverage( );1;0;3
+Sample.getThroughput( );1;0;3
+Sample.getDistributionLine( );1;0;3
+Sample.getErrorCount( );1;0;3
+Sample.Sample( String name , long data , long average , long deviation , long median , long distributionLine , double throughput , long errorCount , boolean success , long num , long endTime );1;0;15
+Sample.Sample( );1;0;3
+Sample.getData( );1;0;3
+Sample.Sample( String name , long data , long average , long deviation , long median , long distributionLine , double throughput , long errorCount , boolean success , long num , long endTime , int bytes );1;0;15
+Sample.compareTo( Object o );3;4;4
+Sample.getDeviation( );1;0;3
+Sample.Sample( String name , long data , long average , long deviation , long median , long distributionLine , double throughput , long errorCount , boolean success , long num , long endTime , int bytes , String threadName );1;0;15
+Sample.getEndTime( );1;0;3
+Sample.getLabel( );1;0;3
+Sample.Sample( long data , long average , long deviation , double throughput , long median , boolean success );1;0;3
+Sample.getThreadName( );1;0;3
+Sample.getStartTime( );1;1;3
+Sample.getBytes( );1;0;3

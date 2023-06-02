@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestPropertySourceAttributes.TestPropertySourceAttributes( MergedAnnotation < TestPropertySource > annotation );1;0;7
+TestPropertySourceAttributes.mergeWith( TestPropertySourceAttributes attributes );1;1;13
+TestPropertySourceAttributes.addPropertiesAndLocations( String [ ] locations , String [ ] properties , Class < ? > declaringClass , boolean prepend );3;1;9
+TestPropertySourceAttributes.addAll( boolean prepend , List < String > list , String ... elements );2;0;3
+TestPropertySourceAttributes.hashCode( );3;6;7
+TestPropertySourceAttributes.toString( );1;0;9
+TestPropertySourceAttributes.getLocations( );1;0;3
+TestPropertySourceAttributes.isEmpty( );2;1;3
+TestPropertySourceAttributes.mergePropertiesAndLocationsFrom( TestPropertySourceAttributes attributes );1;0;4
+TestPropertySourceAttributes.getDeclaringClass( );1;0;3
+TestPropertySourceAttributes.addPropertiesAndLocationsFrom( MergedAnnotation < TestPropertySource > mergedAnnotation );1;0;5
+TestPropertySourceAttributes.detectDefaultPropertiesFile( Class < ? > testClass );3;3;19
+TestPropertySourceAttributes.isInheritProperties( );1;0;3
+TestPropertySourceAttributes.declaringClass( MergedAnnotation < ? > mergedAnnotation );2;0;5
+TestPropertySourceAttributes.getProperties( );1;0;3
+TestPropertySourceAttributes.isInheritLocations( );1;0;3
+TestPropertySourceAttributes.equals( @ Nullable Object other );8;8;22
+TestPropertySourceAttributes.assertSameBooleanAttribute( boolean expected , boolean actual , String attributeName , TestPropertySourceAttributes that );1;1;8

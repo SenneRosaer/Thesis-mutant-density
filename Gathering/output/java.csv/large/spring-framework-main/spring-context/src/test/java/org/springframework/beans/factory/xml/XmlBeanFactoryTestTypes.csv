@@ -1,0 +1,73 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProtectedLifecycleBean.setBeanName( String name );1;0;3
+ConstructorInjectedOverrides.getTestBean( );1;0;3
+ConstructorDependenciesBean.getOther( );1;0;3
+OverrideOneMethod.echo( String echo );1;0;3
+ProtectedLifecycleBean.declaredInitMethod( );3;1;9
+DummyBoImpl.something( );1;0;2
+DummyReferencer.getDummyFactory( );1;0;3
+PostProcessor.postProcessAfterInitialization( Object bean , String name );2;0;6
+MethodReplaceCandidate.replaceMe( String echo );1;0;3
+SimpleConstructorArgBean.SimpleConstructorArgBean( );1;0;2
+ProtectedLifecycleBean.businessMethod( );5;6;6
+ReverseMethodReplacer.reimplement( Object obj , Method method , Object [ ] args );1;0;4
+PostProcessor.postProcessBeforeInitialization( Object bean , String name );2;0;6
+MapAndSet.getObject( );1;0;3
+ProtectedLifecycleBean.setBeanFactory( BeanFactory beanFactory );1;0;3
+MapAndSet.MapAndSet( Map < ? , ? > map );1;0;3
+ConstructorDependenciesBean.ConstructorDependenciesBean( TestBean spouse1 , TestBean spouse2 , int age );1;0;5
+ProtectedLifecycleBean.setInitMethodDeclared( boolean initMethodDeclared );1;0;3
+DerivedConstructorDependenciesBean.destroy( );1;0;3
+DerivedConstructorDependenciesBean.DerivedConstructorDependenciesBean( TestBean spouse1 , TestBean spouse2 , IndexedTestBean other , int age , int otherAge );1;0;3
+ConstructorDependenciesBean.getSpouse2( );1;0;3
+OverrideOneMethod.replaceMe( int someParam );1;0;3
+ConstructorInjectedOverrides.setSetterString( String setterString );1;0;3
+SingleSimpleTypeConstructorBean.SingleSimpleTypeConstructorBean( boolean singleBoolean );1;0;3
+OverrideOneMethod.invokesOverriddenMethodOnSelf( );1;0;3
+DummyReferencer.setDummyFactory( DummyFactory dummyFactory );1;0;3
+OverrideOneMethod.replaceMe( );1;0;3
+ConstructorDependenciesBean.getAge( );1;0;3
+DummyReferencer.getTestBean1( );1;0;3
+SingleSimpleTypeConstructorBean.isSecondBoolean( );1;0;3
+ProtectedLifecycleBean.postProcessAfterInit( );5;3;12
+OverrideOneMethodSubclass.doSomething( String arg );1;0;2
+DummyReferencer.getTestBean2( );1;0;3
+SimpleConstructorArgBean.SimpleConstructorArgBean( String name );1;0;3
+ConstructorDependenciesBean.getSpouse1( );1;0;3
+ConstructorDependenciesBean.ConstructorDependenciesBean( String name );1;0;3
+ConstructorDependenciesBean.getName( );1;0;3
+DummyReferencer.DummyReferencer( );1;0;2
+ProtectedLifecycleBean.isDestroyed( );1;0;3
+ProtectedLifecycleBean.isInitMethodDeclared( );1;0;3
+SingleSimpleTypeConstructorBean.SingleSimpleTypeConstructorBean( String testString , boolean secondBoolean );1;0;4
+SimpleConstructorArgBean.getAge( );1;0;3
+ConstructorDependenciesBean.ConstructorDependenciesBean( TestBean spouse1 , TestBean spouse2 );1;0;4
+ConstructorDependenciesBean.setName( String name );1;0;3
+ConstructorDependenciesBean.setAge( int age );1;0;3
+SingleSimpleTypeConstructorBean.getTestString( );1;0;3
+ProtectedLifecycleBean.destroy( );2;0;6
+ProtectedLifecycleBean.getBeanName( );1;0;3
+FixedMethodReplacer.reimplement( Object obj , Method method , Object [ ] args );1;0;3
+OverrideOneMethod.getPrototypeDependency( Object someParam );1;0;3
+SimpleConstructorArgBean.getName( );1;0;3
+DerivedConstructorDependenciesBean.DerivedConstructorDependenciesBean( TestBean spouse1 , Object spouse2 , IndexedTestBean other );1;0;3
+SimpleConstructorArgBean.SimpleConstructorArgBean( int age );1;0;3
+ConstructorDependenciesBean.ConstructorDependenciesBean( int age );1;0;3
+SingleSimpleTypeConstructorBean.isSingleBoolean( );1;0;3
+DummyReferencer.DummyReferencer( DummyFactory dummyFactory );1;0;3
+ConstructorDependenciesBean.ConstructorDependenciesBean( TestBean spouse1 , TestBean spouse2 , IndexedTestBean other );1;0;5
+OverrideOneMethod.replaceMe( String someParam );1;0;3
+DummyBoImpl.DummyBoImpl( DummyDao dao );1;0;3
+MixedCollectionBean.getJumble( );1;0;3
+DerivedConstructorDependenciesBean.init( );1;0;3
+ConstructorDependenciesBean.ConstructorDependenciesBean( TestBean spouse1 );1;0;3
+MapAndSet.MapAndSet( Set < ? > set );1;0;3
+MixedCollectionBean.setJumble( Collection < ? > jumble );1;0;3
+ProtectedLifecycleBean.postProcessBeforeInit( );4;1;9
+DummyReferencer.setTestBean1( TestBean testBean1 );1;0;3
+ConstructorInjectedOverrides.getSetterString( );1;0;3
+DerivedConstructorDependenciesBean.DerivedConstructorDependenciesBean( TestBean spouse1 , TestBean spouse2 , IndexedTestBean other , int age , String name );1;0;5
+ConstructorInjectedOverrides.ConstructorInjectedOverrides( ITestBean tb );1;0;3
+DerivedConstructorDependenciesBean.DerivedConstructorDependenciesBean( TestBean spouse1 , TestBean spouse2 , IndexedTestBean other );1;0;3
+DummyReferencer.setTestBean2( TestBean testBean2 );1;0;3
+ProtectedLifecycleBean.afterPropertiesSet( );5;2;15

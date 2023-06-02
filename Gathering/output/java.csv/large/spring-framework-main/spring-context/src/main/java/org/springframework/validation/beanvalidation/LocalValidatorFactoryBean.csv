@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LocalValidatorFactoryBean.unwrap( @ Nullable Class < T > type );7;5;21
+LocalValidatorFactoryBean.setApplicationContext( ApplicationContext applicationContext );1;0;3
+LocalValidatorFactoryBean.setConfigurationInitializer( Consumer < Configuration < ? > > configurationInitializer );1;0;3
+LocalValidatorFactoryBean.setValidationMessageSource( MessageSource messageSource );1;0;3
+LocalValidatorFactoryBean.close( );2;1;5
+LocalValidatorFactoryBean.getParameterNames( Constructor < ? > constructor );2;1;5
+LocalValidatorFactoryBean.getTraversableResolver( );1;1;4
+LocalValidatorFactoryBean.afterPropertiesSet( );17;13;71
+LocalValidatorFactoryBean.setProviderClass( Class providerClass );1;0;3
+LocalValidatorFactoryBean.getConstraintValidatorFactory( );1;1;4
+LocalValidatorFactoryBean.setMappingLocations( Resource ... mappingLocations );1;0;3
+LocalValidatorFactoryBean.setParameterNameDiscoverer( ParameterNameDiscoverer parameterNameDiscoverer );1;0;3
+LocalValidatorFactoryBean.getMessageInterpolator( );1;1;4
+LocalValidatorFactoryBean.getClockProvider( );1;1;4
+LocalValidatorFactoryBean.setValidationProperties( Properties jpaProperties );1;0;3
+LocalValidatorFactoryBean.destroy( );1;0;3
+LocalValidatorFactoryBean.setValidationPropertyMap( @ Nullable Map < String , String > validationProperties );2;1;5
+LocalValidatorFactoryBean.usingContext( );1;1;4
+LocalValidatorFactoryBean.setConstraintValidatorFactory( ConstraintValidatorFactory constraintValidatorFactory );1;0;3
+HibernateValidatorDelegate.buildMessageInterpolator( MessageSource messageSource );1;0;3
+LocalValidatorFactoryBean.getValidator( );1;1;4
+LocalValidatorFactoryBean.setValidationProviderResolver( ValidationProviderResolver validationProviderResolver );1;0;3
+LocalValidatorFactoryBean.getParameterNameProvider( );1;1;4
+LocalValidatorFactoryBean.getParameterNames( Method method );2;1;5
+LocalValidatorFactoryBean.postProcessConfiguration( Configuration < ? > configuration );1;0;2
+LocalValidatorFactoryBean.getValidationPropertyMap( );1;0;3
+LocalValidatorFactoryBean.setTraversableResolver( TraversableResolver traversableResolver );1;0;3
+LocalValidatorFactoryBean.configureParameterNameProvider( ParameterNameDiscoverer discoverer , Configuration < ? > configuration );4;0;17
+LocalValidatorFactoryBean.setMessageInterpolator( MessageInterpolator messageInterpolator );1;0;3
+LocalValidatorFactoryBean.closeMappingStreams( @ Nullable List < InputStream > mappingStreams );4;1;11

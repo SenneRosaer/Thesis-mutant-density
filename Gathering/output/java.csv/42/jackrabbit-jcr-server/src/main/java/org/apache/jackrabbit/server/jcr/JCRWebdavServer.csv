@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SessionCache.getUserID( DavSession session );3;1;11
+DavSessionImpl.DavSessionImpl( Session session );1;0;3
+DavSessionImpl.addReference( Object reference );1;0;3
+SessionCache.addReference( DavSession session , Object reference );2;1;9
+SessionCache.get( WebdavRequest request );11;8;33
+SessionCache.getSessionByReference( Object reference );1;0;3
+DavSessionImpl.removeReference( Object reference );1;0;3
+JCRWebdavServer.attachSession( WebdavRequest request );1;0;5
+JCRWebdavServer.JCRWebdavServer( Repository repository , SessionProvider sessionProvider );1;0;4
+SessionCache.getRepositorySession( WebdavRequest request );4;0;12
+SessionCache.containsReference( Object reference );1;0;3
+SessionCache.removeReference( DavSession session , Object reference );5;2;27
+SessionMap.remove( DavSession key );1;0;3
+SessionMap.get( DavSession key );1;0;3
+JCRWebdavServer.releaseSession( WebdavRequest request );2;1;7
+SessionMap.put( DavSession key , HashSet value );1;0;3

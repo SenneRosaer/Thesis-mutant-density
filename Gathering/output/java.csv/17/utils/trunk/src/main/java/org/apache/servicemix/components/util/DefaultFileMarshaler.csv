@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultFileMarshaler.writeValue( Object value , OutputStream out );3;0;12
+DefaultFileMarshaler.setContent( Expression content );1;0;3
+DefaultFileMarshaler.getOutputName( MessageExchange exchange , NormalizedMessage message );1;0;3
+DefaultFileMarshaler.getEncoding( );1;0;3
+DefaultFileMarshaler.writeMessageContent( MessageExchange exchange , NormalizedMessage message , OutputStream out , String path );3;1;11
+DefaultFileMarshaler.getContent( );1;0;3
+DefaultFileMarshaler.writeMessage( MessageExchange exchange , NormalizedMessage message , OutputStream out , String path );3;1;12
+DefaultFileMarshaler.setFileName( Expression fileName );1;0;3
+DefaultFileMarshaler.setEncoding( String encoding );1;0;3
+DefaultFileMarshaler.getFileName( );1;0;3
+DefaultFileMarshaler.readMessage( MessageExchange exchange , NormalizedMessage message , InputStream in , String path );2;1;9

@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpaceResolver.sum( MinOptMax [ ] lengths );3;3;9
+SpaceHandlingBreakPosition.getSpaceResolver( );1;0;3
+SpaceResolver.performSpaceResolutionRules2to3( UnresolvedListElement [ ] elems , MinOptMax [ ] lengths );6;7;18
+SpaceResolver.toString( Object [ ] arr1 , Object [ ] arr2 );4;4;16
+SpaceResolver.removeConditionalBorderAndPadding( UnresolvedListElement [ ] elems , MinOptMax [ ] lengths , boolean reverse );10;9;22
+SpaceHandlingBreakPosition.getOriginalBreakPosition( );1;0;3
+SpaceResolver.hasSecondPart( );2;3;3
+SpaceHandlingBreakPosition.notifyBreakSituation( boolean isBreakSituation , RelSide side );6;7;17
+SpaceResolver.generate( ListIterator iter );16;28;65
+SpaceResolver.SpaceResolver( List first , BreakElement breakPoss , List second , boolean isFirst , boolean isLast );17;17;71
+SpaceResolver.performSpaceResolutionRules2to3( UnresolvedListElement [ ] elems , MinOptMax [ ] lengths , int start , int end );32;33;120
+SpaceHandlingPosition.toString( );1;0;5
+SpaceHandlingBreakPosition.toString( );1;0;7
+SpaceHandlingBreakPosition.SpaceHandlingBreakPosition( SpaceResolver resolver , BreakElement breakPoss );2;0;8
+SpaceHandlingPosition.notifySpaceSituation( );3;3;8
+SpaceResolver.performConditionalsNotification( List effectiveList , int startElementIndex , int endElementIndex , int prevBreak );13;10;35
+SpaceHandlingPosition.getSpaceResolver( );1;0;3
+SpaceResolver.resolve( );9;2;42
+SpaceHandlingPosition.SpaceHandlingPosition( SpaceResolver resolver );1;0;4
+SpaceResolver.resolveElementList( List elems );18;12;70
+SpaceResolver.performSpaceResolutionRule1( UnresolvedListElement [ ] elems , MinOptMax [ ] lengths , boolean reverse );9;8;24
+SpaceResolver.hasFirstPart( );2;3;3

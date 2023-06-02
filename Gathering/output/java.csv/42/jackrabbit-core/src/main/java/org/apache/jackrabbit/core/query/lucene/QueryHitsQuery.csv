@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QueryHitsQueryWeight.normalize( float norm );1;0;2
+QueryHitsQueryWeight.sumOfSquaredWeights( );1;0;3
+QueryHitsQuery.createWeight( Searcher searcher );1;0;3
+QueryHitsQueryScorer.QueryHitsQueryScorer( IndexReader reader , Similarity similarity );3;1;24
+QueryHitsQueryWeight.getValue( );1;0;3
+QueryHitsQuery.toString( String field );1;0;3
+QueryHitsQuery.extractTerms( Set terms );1;0;2
+QueryHitsQueryScorer.skipTo( int target );3;2;8
+QueryHitsQueryWeight.scorer( IndexReader reader );1;0;3
+QueryHitsQueryScorer.score( );1;0;3
+QueryHitsQueryScorer.next( );2;0;7
+QueryHitsQueryWeight.getQuery( );1;0;3
+QueryHitsQuery.execute( JackrabbitIndexSearcher searcher , SessionImpl session , Sort sort );2;1;7
+QueryHitsQueryWeight.QueryHitsQueryWeight( Similarity similarity );1;0;3
+QueryHitsQuery.QueryHitsQuery( QueryHits hits );1;0;3
+QueryHitsQueryWeight.explain( IndexReader reader , int doc );1;0;3
+QueryHitsQueryScorer.explain( int doc );1;0;3
+QueryHitsQueryScorer.doc( );1;0;3

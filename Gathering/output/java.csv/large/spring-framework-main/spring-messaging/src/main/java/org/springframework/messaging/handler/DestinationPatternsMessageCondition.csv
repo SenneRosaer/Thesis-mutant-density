@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DestinationPatternsMessageCondition.DestinationPatternsMessageCondition( String [ ] patterns , @ Nullable PathMatcher matcher );2;1;3
+DestinationPatternsMessageCondition.getPatterns( );1;0;3
+DestinationPatternsMessageCondition.getPatternComparator( Object destination );2;0;5
+DestinationPatternsMessageCondition.getMatchingCondition( Message < ? > message );8;3;23
+DestinationPatternsMessageCondition.DestinationPatternsMessageCondition( String ... patterns );1;0;3
+DestinationPatternsMessageCondition.prependLeadingSlash( String [ ] patterns , RouteMatcher routeMatcher );5;3;11
+DestinationPatternsMessageCondition.combine( DestinationPatternsMessageCondition other );7;5;20
+DestinationPatternsMessageCondition.getToStringInfix( );1;0;3
+DestinationPatternsMessageCondition.compareTo( DestinationPatternsMessageCondition other , Message < ? > message );7;4;24
+DestinationPatternsMessageCondition.matchPattern( String pattern , Object destination );2;0;5
+DestinationPatternsMessageCondition.getContent( );1;0;3
+DestinationPatternsMessageCondition.DestinationPatternsMessageCondition( String [ ] patterns , RouteMatcher routeMatcher );1;0;3
+DestinationPatternsMessageCondition.DestinationPatternsMessageCondition( Set < String > patterns , RouteMatcher routeMatcher );1;0;4

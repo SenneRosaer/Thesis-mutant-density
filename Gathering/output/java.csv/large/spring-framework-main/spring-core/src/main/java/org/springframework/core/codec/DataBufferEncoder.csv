@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DataBufferEncoder.encodeValue( DataBuffer buffer , DataBufferFactory bufferFactory , ResolvableType valueType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );3;2;6
+DataBufferEncoder.encode( Publisher < ? extends DataBuffer > inputStream , DataBufferFactory bufferFactory , ResolvableType elementType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );3;2;7
+DataBufferEncoder.canEncode( ResolvableType elementType , @ Nullable MimeType mimeType );3;1;4
+DataBufferEncoder.logValue( DataBuffer buffer , @ Nullable Map < String , Object > hints );1;1;4
+DataBufferEncoder.DataBufferEncoder( );1;0;3

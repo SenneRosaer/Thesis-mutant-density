@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpoolManagement.resendSpoolItems( String spoolRepositoryURL , String key , SpoolFilter filter );2;0;7
+SpoolManagement.moveSpoolItems( String srcSpoolRepositoryURL , String srcState , String dstSpoolRepositoryURL , String dstState , String header , String headerValueRegex );2;0;8
+SpoolManagement.resendSpoolItems( String spoolRepositoryURL , String key , String state , String header , String headerValueRegex );1;0;3
+SpoolManagement.removeSpoolItems( String spoolRepositoryURL , String key , List lockingFailures , SpoolFilter filter );3;1;14
+SpoolManagement.filterMatches( Mail mail , SpoolFilter filter );17;10;43
+SpoolManagement.moveSpoolItems( String srcSpoolRepositoryURL , String dstSpoolRepositoryURL , String dstState , SpoolFilter filter );8;2;38
+SpoolManagement.removeSpoolItems( String spoolRepositoryURL , String key , String state , String header , String headerValueRegex );1;0;3
+SpoolManagement.setStore( Store mailStore );1;0;3
+SpoolManagement.removeMail( SpoolRepository spoolRepository , String key , int count , List lockingFailures , SpoolFilter filter );4;1;10
+SpoolManagement.removeMail( SpoolRepository spoolRepository , String key , SpoolFilter filter );4;3;9
+SpoolManagement.getSpoolRepository( String url );2;0;11
+SpoolManagement.getSpoolItems( String spoolRepositoryURL , SpoolFilter filter );4;0;20
+SpoolManagement.listSpoolItems( String spoolRepositoryURL , String state , String header , String headerValueRegex );1;0;3
+SpoolManagement.listSpoolItems( String spoolRepositoryURL , SpoolFilter filter );2;0;9
+SpoolManagement.resendMail( SpoolRepository spoolRepository , String key , SpoolFilter filter );3;1;16
+SpoolManagement.resendSpoolItems( String spoolRepositoryURL , String key , List lockingFailures , SpoolFilter filter );9;5;22
+SpoolManagement.addressesToStrings( Address [ ] addresses );4;4;9
+SpoolManagement.service( ServiceManager serviceManager );1;0;4
+SpoolManagement.removeSpoolItems( String spoolRepositoryURL , String key , SpoolFilter filter );2;0;7

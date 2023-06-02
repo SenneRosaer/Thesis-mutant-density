@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractNode.hasProperty( String relPath );2;0;8
+AbstractNode.setProperty( String name , String [ ] strings );2;2;8
+AbstractNode.getProperty( String relPath );6;4;22
+AbstractNode.setProperty( String name , String value , int type );1;0;4
+AbstractNode.getPath( );4;2;18
+AbstractNode.isLocked( );2;0;8
+AbstractNode.isCheckedOut( );3;0;11
+AbstractNode.setProperty( String name , double value );1;0;4
+AbstractNode.accept( ItemVisitor visitor );1;0;3
+AbstractNode.getName( String name );1;0;3
+AbstractNode.getMixinNodeTypes( );3;2;15
+AbstractNode.setProperty( String name , Value value , int type );2;1;7
+AbstractNode.setProperty( String name , Value [ ] values , int type );3;3;12
+AbstractNode.setProperty( String name , long value );1;0;4
+AbstractNode.restoreByLabel( String versionLabel , boolean removeExisting );1;0;4
+AbstractNode.hasProperties( );1;0;3
+AbstractNode.getUUID( );2;0;8
+AbstractNode.restore( String versionName , boolean removeExisting );1;0;3
+AbstractNode.setProperty( String name , boolean value );1;0;4
+AbstractNode.isNodeType( String name );8;6;25
+AbstractNode.restore( Version version , boolean removeExisting );1;0;3
+AbstractNode.hasNode( String relPath );2;0;8
+AbstractNode.getVersionHistory( );1;0;3
+AbstractNode.setProperty( String name , Node value );1;0;4
+AbstractNode.holdsLock( );2;0;7
+AbstractNode.getPrimaryNodeType( );1;0;6
+AbstractNode.setProperty( String name , String value );1;0;4
+AbstractNode.isNode( );1;0;3
+AbstractNode.setProperty( String name , Calendar value );1;0;4
+AbstractNode.setProperty( String name , String [ ] strings , int type );2;2;8
+AbstractNode.hasNodes( );1;0;3
+AbstractNode.setProperty( String name , InputStream value );1;0;4

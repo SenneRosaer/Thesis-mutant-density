@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Diff.filesAsXsb( File file1 , File file2 , List diffs );3;0;14
+Diff.readersAsText( Reader r1 , String name1 , Reader r2 , String name2 , List diffs );1;0;3
+Diff.zipEntriesAsXsb( ZipEntry file1 , JarFile jar1 , ZipEntry file2 , JarFile jar2 , List diffs );2;0;10
+Diff.streamsAsXsb( InputStream stream1 , String name1 , InputStream stream2 , String name2 , List diffs );1;0;10
+Diff.jarsAsTypeSystems( JarFile jar1 , JarFile jar2 , List diffs );14;16;62
+ZipEntryNameComparator.equals( Object object );1;1;3
+Diff.isDiffIndex( );4;2;8
+Diff.dirsAsTypeSystems( File dir1 , File dir2 , List diffs );26;34;102
+FileNameComparator.equals( Object object );1;1;3
+FileNameComparator.compare( Object object1 , Object object2 );1;0;7
+XsbFilenameFilter.accept( File dir , String name );1;0;3
+ZipEntryNameComparator.compare( Object object1 , Object object2 );1;0;7
+Diff.main( String [ ] args );10;7;54

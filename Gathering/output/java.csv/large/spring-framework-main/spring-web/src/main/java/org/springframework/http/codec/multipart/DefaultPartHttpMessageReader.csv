@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultPartHttpMessageReader.getReadableMediaTypes( );1;0;3
+DefaultPartHttpMessageReader.setMaxHeadersSize( int byteCount );1;0;3
+DefaultPartHttpMessageReader.getBlockingOperationScheduler( );1;0;3
+DefaultPartHttpMessageReader.setStreaming( boolean streaming );1;0;3
+DefaultPartHttpMessageReader.setBlockingOperationScheduler( Scheduler blockingOperationScheduler );1;0;4
+DefaultPartHttpMessageReader.read( ResolvableType elementType , ReactiveHttpInputMessage message , Map < String , Object > hints );3;1;25
+DefaultPartHttpMessageReader.setMaxDiskUsagePerPart( long maxDiskUsagePerPart );1;0;3
+DefaultPartHttpMessageReader.setMaxInMemorySize( int maxInMemorySize );1;0;3
+***not in a method***;0;4;0
+DefaultPartHttpMessageReader.canRead( ResolvableType elementType , @ Nullable MediaType mediaType );3;3;4
+DefaultPartHttpMessageReader.setMaxParts( int maxParts );1;0;3
+DefaultPartHttpMessageReader.setFileStorageDirectory( Path fileStorageDirectory );1;0;4
+DefaultPartHttpMessageReader.tooManyParts( AtomicInteger partCount );2;3;4
+DefaultPartHttpMessageReader.setHeadersCharset( Charset headersCharset );1;0;4
+DefaultPartHttpMessageReader.readMono( ResolvableType elementType , ReactiveHttpInputMessage message , Map < String , Object > hints );1;0;3
+DefaultPartHttpMessageReader.getMaxInMemorySize( );1;0;3

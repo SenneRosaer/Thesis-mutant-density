@@ -1,0 +1,97 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VM.sizeOfString( int len );1;3;3
+MemoryIndex.keywordTokenStream( final Collection keywords );4;1;19
+MemoryIndex.addField( String fieldName , TokenStream stream );1;0;3
+MemoryIndex.MemoryIndex( );1;0;3
+MemoryIndexReader.getTermPositions( int index );1;0;3
+MemoryIndexReader.doc( );2;0;4
+Info.Info( HashMap terms , int numTokens , int numOverlapTokens , float boost );1;0;6
+MemoryIndexReader.isDeleted( int n );2;0;4
+MemoryIndex.sort( HashMap map );3;3;10
+VM.sizeOfHashMap( int len );1;8;4
+MemoryIndexReader.setSearcher( Searcher searcher );1;0;3
+MemoryIndexReader.getTermFreqVectors( int docNumber );3;2;10
+ArrayIntList.ensureCapacity( int minCapacity );1;3;6
+MemoryIndexReader.norms( String fieldName , byte [ ] bytes , int offset );2;0;5
+MemoryIndexReader.getSimilarity( );2;1;4
+MemoryIndexReader.close( );2;0;3
+ArrayIntList.toArray( int stride );3;5;9
+MemoryIndex.next( final Token reusableToken );3;6;11
+Info.getBoost( );1;0;3
+MemoryIndexReader.hasDeletions( );2;0;4
+MemoryIndexReader.getOffsets( int index );3;6;13
+VM.sizeOfCharArray( int len );1;2;3
+MemoryIndexReader.document( int n , FieldSelector fieldSelector );2;0;4
+MemoryIndexReader.getPayload( byte [ ] data , int offset );1;0;3
+MemoryIndexReader.terms( );2;0;4
+VM.sizeOfIntArray( int len );1;2;3
+MemoryIndexReader.document( int n );2;0;4
+MemoryIndexReader.indexesOf( String [ ] terms , int start , int len );2;3;7
+MemoryIndexReader.termPositions( );14;0;64
+MemoryIndex.compare( Object o1 , Object o2 );4;1;6
+ArrayIntList.throwIndex( int index );1;0;4
+MemoryIndexReader.term( );4;2;7
+MemoryIndexReader.maxDoc( );2;0;4
+MemoryIndexReader.docFreq( );4;2;7
+MemoryIndexReader.numDocs( );3;1;4
+MemoryIndexReader.getTerms( );2;2;7
+ArrayIntList.size( );1;0;3
+ArrayIntList.ArrayIntList( );1;0;3
+Info.getPositions( String term );1;0;3
+MemoryIndexReader.doUndeleteAll( );1;0;3
+MemoryIndexReader.norms( String fieldName );7;6;19
+MemoryIndexReader.finalize( );1;0;1
+***not in a method***;0;1;0
+MemoryIndexReader.getTermFreqVector( int docNumber , final String fieldName );9;1;56
+VM.VM( );1;0;1
+VM.sizeOfObjectArray( int len );1;2;3
+MemoryIndexReader.getTermFreqVector( int docNumber , String field , TermVectorMapper mapper );5;9;23
+MemoryIndexReader.terms( Term term );21;13;71
+VM.sizeOf( int n );2;4;5
+MemoryIndexReader.MemoryIndexReader( );1;0;3
+MemoryIndexReader.doSetNorm( int doc , String fieldName , byte value );1;0;3
+MemoryIndexReader.getTermFrequencies( );2;2;7
+MemoryIndexReader.read( int [ ] docs , int [ ] freqs );3;1;8
+MemoryIndex.search( Query query );3;1;18
+MemoryIndexReader.doDelete( int docNum );1;0;3
+MemoryIndexReader.isPayloadAvailable( );1;0;3
+MemoryIndex.addField( String fieldName , TokenStream stream , float boost );14;16;49
+ArrayIntList.toString( int stride );4;8;13
+MemoryIndexReader.nextPosition( );2;1;6
+VM.sizeOfArrayIntList( int len );1;2;3
+MemoryIndexReader.freq( );3;1;5
+MemoryIndexReader.next( );5;5;11
+MemoryIndexReader.indexOf( String term );2;2;4
+MemoryIndex.getMemorySize( );5;19;25
+MemoryIndexReader.getTermFreqVector( int docNumber , TermVectorMapper mapper );3;0;8
+VM.log2( double value );1;1;3
+MemoryIndex.toString( );3;11;38
+MemoryIndexReader.getInfo( String fieldName );1;0;3
+MemoryIndexReader.getInfo( int pos );1;0;3
+MemoryIndexReader.createTerm( Info info , int pos , String text );2;1;9
+MemoryIndexReader.doClose( );2;0;3
+Info.getPositions( int pos );1;0;3
+MemoryIndexReader.getField( );1;0;3
+ArrayIntList.ArrayIntList( int initialCapacity );1;0;3
+ArrayIntList.add( int pos , int start , int end );2;6;7
+MemoryIndexReader.getPayloadLength( );1;0;3
+MemoryIndex.createSearcher( );1;0;6
+MemoryIndexReader.doCommit( );2;0;3
+MemoryIndex.addField( String fieldName , String text , Analyzer analyzer );5;3;16
+MemoryIndexReader.seek( Term term );3;2;7
+MemoryIndexReader.seek( TermEnum termEnum );2;0;4
+MemoryIndexReader.getFieldNames( FieldOption fieldOption );8;8;12
+MemoryIndexReader.docFreq( Term term );4;2;7
+MemoryIndex.numPositions( ArrayIntList positions );1;1;3
+MemoryIndexReader.size( );1;0;3
+MemoryIndex.collect( int doc , float score );1;0;3
+Info.sortTerms( );2;1;3
+ArrayIntList.add( int elem );2;3;4
+VM.sizeOfObject( int n );1;1;3
+MemoryIndexReader.skipTo( int target );2;0;4
+MemoryIndex.MemoryIndex( boolean storeOffsets );2;0;3
+MemoryIndex.sortFields( );2;1;3
+VM.sizeOfArrayList( int len );1;3;3
+ArrayIntList.get( int index );2;1;4
+VM.is64BitVM( );3;3;9
+MemoryIndexReader.termDocs( );2;0;4

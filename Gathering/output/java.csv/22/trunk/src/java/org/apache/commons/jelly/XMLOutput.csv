@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NamespaceStack.popNamespaces( );3;1;11
+NamespaceStack.decreaseLevel( );1;0;3
+XMLOutput.write( String text );1;0;4
+XMLOutput.startElement( String localName );1;0;3
+XMLOutput.endCDATA( );2;1;5
+XMLOutput.skippedEntity( String name );1;0;3
+XMLOutput.writeCDATA( String text );1;0;6
+XMLOutput.endElement( String uri , String localName , String qName );1;0;5
+XMLOutput.endDTD( );2;1;5
+XMLOutput.startPrefixMapping( String prefix , String uri );1;0;3
+NamespaceStack.pushNamespace( String prefix , String uri );11;4;36
+NamespaceStack.NamespaceStack( );1;0;4
+XMLOutput.flush( );3;0;7
+XMLOutput.setLexicalHandler( LexicalHandler lexicalHandler );1;0;3
+NamespaceStack.increaseLevel( );1;0;3
+XMLOutput.objectData( Object object );3;1;12
+XMLOutput.setDocumentLocator( Locator locator );1;0;3
+XMLOutput.createXMLOutput( OutputStream out , boolean escapeText );1;0;5
+XMLOutput.createXMLOutput( OutputStream out );1;0;3
+XMLOutput.createXMLOutput( Writer writer , boolean escapeText );1;0;5
+XMLOutput.createXMLOutput( final XMLWriter xmlWriter );1;0;10
+XMLOutput.startCDATA( );2;1;5
+XMLOutput.writeComment( String text );1;0;4
+XMLOutput.startDTD( String name , String publicId , String systemId );2;1;5
+XMLOutput.toString( );1;2;8
+XMLOutput.XMLOutput( ContentHandler contentHandler );2;0;6
+XMLOutput.startElement( String localName , Attributes attributes );1;0;3
+XMLOutput.startElement( String uri , String localName , String qName , Attributes atts );4;4;19
+NamespaceStack.popNamespace( String prefix );5;2;16
+XMLOutput.startDocument( );1;0;3
+XMLOutput.endElement( String localName );1;0;3
+XMLOutput.processingInstruction( String target , String data );1;0;3
+XMLOutput.getLexicalHandler( );1;0;3
+NamespaceStack.isRootNodeDefaultNs( String prefix , String uri );3;3;3
+XMLOutput.ignorableWhitespace( char [ ] ch , int start , int length );1;0;3
+XMLOutput.createXMLOutput( Writer writer );1;0;3
+XMLOutput.close( );1;0;2
+XMLOutput.endDocument( );1;0;3
+XMLOutput.createDummyXMLOutput( );1;0;3
+XMLOutput.endEntity( String name );2;1;5
+XMLOutput.comment( char ch [ ] , int start , int length );2;1;5
+XMLOutput.XMLOutput( ContentHandler contentHandler , LexicalHandler lexicalHandler );1;0;4
+XMLOutput.getContentHandler( );1;0;3
+XMLOutput.createXMLOutput( XMLReader xmlReader );5;2;17
+XMLOutput.startEntity( String name );2;1;5
+XMLOutput.XMLOutput( );1;0;2
+XMLOutput.characters( char [ ] ch , int start , int length );1;0;3
+XMLOutput.setContentHandler( ContentHandler contentHandler );2;1;6
+XMLOutput.endPrefixMapping( String prefix );1;0;2

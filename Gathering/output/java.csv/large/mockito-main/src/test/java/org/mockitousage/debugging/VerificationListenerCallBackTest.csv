@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VerificationListenerCallBackTest.clearListeners( );1;0;3
+RememberingListener.onVerification( VerificationEvent verificationEvent );1;0;6
+VerificationListenerCallBackTest.should_call_verification_listeners( );1;0;9
+VerificationListenerCallBackTest.should_notify_when_verification_throws_runtime_exception( );2;0;12
+VerificationListenerCallBackTest.should_not_call_listener_when_verify_was_called_incorrectly( );2;0;11
+VerificationListenerCallBackTest.should_call_single_listener_on_verify( );1;0;10
+VerificationListenerSample.verificationTest( );1;0;5
+RuntimeExceptionVerificationMode.description( String description );1;0;3
+VerificationListenerCallBackTest.should_notify_when_verification_throws_type_error( );2;0;12
+VerificationListenerCallBackTest.should_call_all_listeners_on_verify( );1;0;11
+VerificationListenerCallBackTest.matches( RememberingListener listener );1;0;7
+VerificationListenerCallBackTest.notifiedFor( final Object mock , final VerificationMode mode , final Method wantedMethod );1;0;11
+RuntimeExceptionVerificationMode.verify( VerificationData data );1;0;3

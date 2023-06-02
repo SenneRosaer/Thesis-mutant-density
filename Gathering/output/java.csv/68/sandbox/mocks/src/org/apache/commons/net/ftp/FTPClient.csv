@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FTPClient.login( String userid , String password );1;0;3
+FTPClient.getReplyStrings( );1;0;3
+FTPClient.listFiles( String name );1;0;3
+FTPClient.retrieveFile( String resolveFile , OutputStream outstream );1;0;1
+FTPClient.makeDirectory( String name );1;0;3
+FTPClient.login( String userid , String password , String account );1;0;3
+FTPClient.deleteFile( Object object );1;0;3
+FTPClient.configure( FTPClientConfig cfg );1;0;1
+FTPClient.printWorkingDirectory( );1;0;3
+FTPClient.getReplyCode( );1;0;3
+FTPClient.storeFile( String name , InputStream instream );1;0;1
+FTPClient.changeToParentDirectory( );1;0;1
+FTPClient.isConnected( );1;0;3
+FTPClient.connect( String s , int i );1;0;1
+FTPClient.disconnect( );1;0;1
+FTPClient.cwd( String s );1;0;1
+FTPClient.removeDirectory( String resolveFile );1;0;3
+FTPClient.sendSiteCommand( String theCMD );1;0;3
+FTPClient.getReplyString( );1;0;3
+FTPClient.setFileType( int image_file_type );1;0;1
+FTPClient.listFiles( );1;0;3
+FTPClient.changeWorkingDirectory( String s );1;0;3
+FTPClient.enterLocalPassiveMode( );1;0;2
+FTPClient.logout( );1;0;1

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HTTPSampler.saveConnectionCookies( HttpURLConnection conn , URL u , CookieManager cookieManager );4;3;9
+HTTPSampler.getResponseHeaders( HttpURLConnection conn );2;2;13
+HTTPSampler.setPostHeaders( URLConnection conn );1;0;4
+HTTPSampler.sample( URL url , String method , boolean areFollowingRedirect , int frameDepth );21;15;105
+HTTPSampler.sendPutData( URLConnection connection );1;0;3
+HTTPSampler.disconnect( HttpURLConnection conn );7;9;10
+HTTPSampler.readResponse( HttpURLConnection conn , SampleResult res );11;6;48
+HTTPSampler.sendPostData( URLConnection connection );1;0;3
+HTTPSampler.setConnectionHeaders( HttpURLConnection conn , URL u , HeaderManager headerManager , CacheManager cacheManager );5;3;17
+HTTPSampler.setConnectionAuthorization( HttpURLConnection conn , URL u , AuthManager authManager );3;2;8
+HTTPSampler.setPutHeaders( URLConnection conn );1;0;4
+HTTPSampler.getConnectionHeaders( HttpURLConnection conn );4;3;19
+HTTPSampler.HTTPSampler( );1;0;2
+HTTPSampler.setConnectionCookie( HttpURLConnection conn , URL u , CookieManager cookieManager );3;2;10
+HTTPSampler.setupConnection( URL u , String method , HTTPSampleResult res );10;2;42

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultiFieldQueryParser.getPrefixQuery( String field , String termStr );3;3;11
+MultiFieldQueryParser.getFuzzyQuery( String field , String termStr , float minSimilarity );3;3;11
+MultiFieldQueryParser.parse( String [ ] queries , String [ ] fields , Analyzer analyzer );6;8;15
+MultiFieldQueryParser.getWildcardQuery( String field , String termStr );3;3;11
+MultiFieldQueryParser.parse( String query , String [ ] fields , BooleanClause . Occur [ ] flags , Analyzer analyzer );6;8;14
+MultiFieldQueryParser.getFieldQuery( String field , String queryText , int slop );7;7;24
+MultiFieldQueryParser.MultiFieldQueryParser( String [ ] fields , Analyzer analyzer );1;0;4
+MultiFieldQueryParser.applySlop( Query q , int slop );3;0;7
+MultiFieldQueryParser.getFieldQuery( String field , String queryText );1;0;3
+MultiFieldQueryParser.MultiFieldQueryParser( String [ ] fields , Analyzer analyzer , Map boosts );1;0;4
+MultiFieldQueryParser.getRangeQuery( String field , String part1 , String part2 , boolean inclusive );3;3;11
+MultiFieldQueryParser.parse( String [ ] queries , String [ ] fields , BooleanClause . Occur [ ] flags , Analyzer analyzer );7;11;15

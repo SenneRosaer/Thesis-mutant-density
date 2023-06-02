@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JtaTransactionManagerTests.jtaTransactionManagerWithRollbackAndSynchronizationNever( );1;0;22
+JtaTransactionManagerTests.jtaTransactionManagerWithNoExceptionOnGlobalRollbackOnlyAndFailEarly( );1;0;3
+JtaTransactionManagerTests.jtaTransactionManagerWithPropagationRequiresNewAndExistingWithBeginException( );1;0;21
+JtaTransactionManagerTests.jtaTransactionManagerWithSystemExceptionOnCommit( );1;0;22
+JtaTransactionManagerTests.jtaTransactionManagerWithExistingTransactionAndRollbackOnly( );1;0;20
+JtaTransactionManagerTests.afterCompletion( int status );1;7;3
+JtaTransactionManagerTests.jtaTransactionManagerWithPropagationRequiresNewAndExistingWithSuspendException( );1;0;18
+JtaTransactionManagerTests.newJtaTransactionManager( UserTransaction ut , TransactionManager tm );1;0;3
+JtaTransactionManagerTests.jtaTransactionManagerWithSystemExceptionOnRollback( );1;0;22
+JtaTransactionManagerTests.jtaTransactionManagerWithCommitAndSynchronizationOnActual( );1;0;23
+JtaTransactionManagerTests.newJtaTransactionManager( TransactionManager tm );1;0;3
+JtaTransactionManagerTests.jtaTransactionManagerWithPropagationRequiresNewAndSuspensionNotSupported( );1;0;15
+JtaTransactionManagerTests.jtaTransactionManagerWithExistingTransactionAndExceptionAndNoGlobalRollback( );1;0;21
+JtaTransactionManagerTests.jtaTransactionManagerWithIllegalStateExceptionOnRollbackOnly( );1;0;15
+JtaTransactionManagerTests.jtaTransactionManagerWithPropagationSupportsAndSynchronizationOnActual( );1;0;18
+JtaTransactionManagerTests.jtaTransactionManagerWithRollbackAndSynchronizationOnActual( );1;0;24
+JtaTransactionManagerTests.jtaTransactionManagerWithRollbackExceptionOnCommit( );1;0;22
+JtaTransactionManagerTests.jtaTransactionManagerWithExistingTransactionAndSynchronizationNever( );1;0;18
+JtaTransactionManagerTests.jtaTransactionManagerWithSystemExceptionOnIsExisting( );1;0;13
+JtaTransactionManagerTests.jtaTransactionManagerWithNotSupportedExceptionOnNestedBegin( );1;0;15
+JtaTransactionManagerTests.doInTransactionWithoutResult( TransactionStatus status );1;0;6
+JtaTransactionManagerTests.jtaTransactionManagerWithExistingTransactionAndCommitException( );1;0;21
+JtaTransactionManagerTests.doTestJtaTransactionManagerWithNoExceptionOnGlobalRollbackOnly( boolean failEarly );5;1;43
+JtaTransactionManagerTests.jtaTransactionManagerWithPropagationRequiresNewAndAdapter( );1;0;20
+JtaTransactionManagerTests.jtaTransactionManagerWithExistingTransactionAndRollbackOnlyAndNoGlobalRollback( );1;0;21
+JtaTransactionManagerTests.jtaTransactionManagerWithIsolationLevel( );1;0;14
+JtaTransactionManagerTests.jtaTransactionManagerWithPropagationNotSupported( );1;0;20
+JtaTransactionManagerTests.jtaTransactionManagerWithExistingAndPropagationSupports( );1;0;21
+JtaTransactionManagerTests.jtaTransactionManagerWithDoubleCommit( );1;0;15
+JtaTransactionManagerTests.jtaTransactionManagerWithHeuristicMixedExceptionOnCommit( );1;0;22
+JtaTransactionManagerTests.jtaTransactionManagerWithExistingTransactionAndSynchronizationOnActual( );1;0;21
+JtaTransactionManagerTests.jtaTransactionManagerWithRollback( );1;0;30
+JtaTransactionManagerTests.jtaTransactionManagerWithPropagationRequiresNew( );1;0;41
+JtaTransactionManagerTests.jtaTransactionManagerWithExistingTransactionAndJtaSynchronization( );1;0;26
+JtaTransactionManagerTests.jtaTransactionManagerWithPropagationSupportsAndSynchronizationNever( );1;0;18
+JtaTransactionManagerTests.jtaTransactionManagerWithCommitAndSynchronizationNever( );1;0;19
+JtaTransactionManagerTests.jtaTransactionManagerWithRollbackAndCommit( );1;0;14
+JtaTransactionManagerTests.newJtaTransactionManager( UserTransaction ut );1;0;3
+JtaTransactionManagerTests.jtaTransactionManagerWithCommit( );1;0;30
+JtaTransactionManagerTests.tearDown( );1;0;8
+JtaTransactionManagerTests.jtaTransactionManagerWithPropagationRequiresNewWithinSupports( );1;0;33
+JtaTransactionManagerTests.jtaTransactionManagerWithPropagationSupports( );1;0;20
+JtaTransactionManagerTests.jtaTransactionManagerWithExistingTransactionAndException( );1;0;21
+JtaTransactionManagerTests.jtaTransactionManagerWithNoExceptionOnGlobalRollbackOnly( );1;0;3
+JtaTransactionManagerTests.jtaTransactionManagerWithHeuristicRollbackExceptionOnCommit( );1;0;22
+JtaTransactionManagerTests.jtaTransactionManagerWithNestedBegin( );1;0;14
+JtaTransactionManagerTests.jtaTransactionManagerWithDoubleRollback( );1;0;14
+JtaTransactionManagerTests.jtaTransactionManagerWithUnsupportedOperationExceptionOnNestedBegin( );1;0;15
+JtaTransactionManagerTests.jtaTransactionManagerWithPropagationRequiresNewAndExisting( );1;0;21
+JtaTransactionManagerTests.jtaTransactionManagerWithSystemExceptionOnBegin( );1;0;14
+JtaTransactionManagerTests.jtaTransactionManagerWithSystemExceptionOnRollbackOnly( );1;0;21

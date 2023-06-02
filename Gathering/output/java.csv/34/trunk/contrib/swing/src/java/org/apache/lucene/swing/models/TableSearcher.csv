@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TableSearcher.reindex( );4;4;20
+TableSearcher.getAnalyzer( );1;0;3
+TableSearcher.isCellEditable( int row , int column );1;0;3
+TableSearcher.getColumnCount( );2;1;3
+TableSearcher.getTableModel( );1;0;3
+TableSearcher.setTableModel( TableModel tableModel );3;2;11
+TableModelHandler.tableChanged( TableModelEvent e );2;1;12
+TableSearcher.getColumnName( int column );1;0;3
+TableSearcher.getColumnClass( int column );1;0;3
+TableSearcher.isSearching( );1;1;3
+TableSearcher.clearSearchingState( );2;2;7
+TableSearcher.getModelRow( int row );1;0;3
+TableSearcher.resetSearchResults( Hits hits );3;2;12
+TableSearcher.setAnalyzer( Analyzer analyzer );2;0;7
+TableSearcher.getValueAt( int row , int column );1;0;3
+TableSearcher.getRowCount( );2;1;3
+TableSearcher.setValueAt( Object aValue , int row , int column );1;0;3
+TableSearcher.search( String searchString );5;4;22
+TableSearcher.TableSearcher( TableModel tableModel );1;0;7

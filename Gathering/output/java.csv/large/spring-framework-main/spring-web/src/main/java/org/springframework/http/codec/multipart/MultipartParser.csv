@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultipartParser.hookOnError( Throwable throwable );1;0;5
+PreambleState.PreambleState( );1;0;4
+MultipartParser.onSinkCancel( );1;0;5
+PreambleState.onNext( DataBuffer buf );3;3;15
+HeadersToken.isLast( );1;0;3
+DisposedState.onComplete( );1;0;2
+PreambleState.onComplete( );2;0;5
+MultipartParser.currentContext( );1;0;3
+HeadersState.onNext( DataBuffer buf );8;3;31
+PreambleState.toString( );1;0;3
+MultipartParser.hookOnNext( DataBuffer value );1;0;4
+HeadersState.onComplete( );2;0;5
+MultipartParser.emitError( Throwable t );1;0;4
+MultipartParser.emitHeaders( HttpHeaders headers );2;0;6
+HeadersState.isLastBoundary( DataBuffer buf );9;16;11
+BodyState.toString( );1;0;3
+BodyToken.buffer( );1;0;3
+HeadersToken.headers( );1;0;3
+MultipartParser.changeState( State oldState , State newState , @ Nullable DataBuffer remainder );5;2;22
+MultipartParser.requestBuffer( );5;6;8
+DisposedState.toString( );1;0;3
+BodyToken.isLast( );1;0;3
+HeadersToken.buffer( );1;0;3
+DisposedState.DisposedState( );1;0;2
+BodyState.BodyState( );1;0;5
+MultipartParser.hookOnSubscribe( Subscription subscription );1;0;3
+BodyState.dispose( );1;0;4
+MultipartParser.parse( Flux < DataBuffer > buffers , byte [ ] boundary , int maxHeadersSize , Charset headersCharset );1;0;8
+DisposedState.onNext( DataBuffer buf );1;0;3
+MultipartParser.hookOnComplete( );1;0;3
+MultipartParser.dispose( );1;0;2
+HeadersToken.HeadersToken( HttpHeaders headers );1;0;3
+MultipartParser.emitBody( DataBuffer buffer , boolean last );2;0;6
+HeadersState.parseHeaders( );5;3;23
+MultipartParser.emitComplete( );1;0;4
+BodyState.flush( );2;1;8
+BodyToken.headers( );1;0;3
+BodyToken.BodyToken( DataBuffer buffer , boolean last );1;0;4
+HeadersState.dispose( );1;0;3
+BodyState.onComplete( );2;0;8
+HeadersState.belowMaxHeaderSize( long count );2;1;10
+BodyState.onNext( DataBuffer buffer );7;11;42
+MultipartParser.MultipartParser( FluxSink < Token > sink , byte [ ] boundary , int maxHeadersSize , Charset headersCharset );1;0;7
+HeadersState.toString( );1;0;3
+BodyState.enqueue( DataBuffer buf );3;2;14

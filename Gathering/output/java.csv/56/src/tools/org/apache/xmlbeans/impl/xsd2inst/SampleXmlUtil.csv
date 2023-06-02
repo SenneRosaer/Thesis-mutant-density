@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SampleXmlUtil.sampleDataForSimpleType( SchemaType sType );51;10;126
+SampleXmlUtil.processAll( SchemaParticle sp , XmlCursor xmlc , boolean mixed );4;5;9
+SampleXmlUtil.pick( String [ ] a , int count );4;5;15
+SampleXmlUtil.determineMinMaxForSample( SchemaParticle sp , XmlCursor xmlc );8;9;27
+SampleXmlUtil.pick( String [ ] a );1;0;3
+SampleXmlUtil.getItemNameOrType( SchemaParticle sp , XmlCursor xmlc );2;1;12
+SampleXmlUtil.createSampleForType( SchemaType sType );1;0;12
+SampleXmlUtil.processWildCard( SchemaParticle sp , XmlCursor xmlc , boolean mixed );1;0;4
+SampleXmlUtil.crackQName( String qName );2;2;16
+SampleXmlUtil.formatToLength( String s , SchemaType sType );8;7;28
+SampleXmlUtil.closestBuiltin( SchemaType sType );2;1;5
+SampleXmlUtil.pickDigits( int digits );2;2;6
+SampleXmlUtil.SampleXmlUtil( boolean soapEnc );1;0;3
+SampleXmlUtil.pickLength( SchemaType sType );8;12;23
+SampleXmlUtil.processSequence( SchemaParticle sp , XmlCursor xmlc , boolean mixed );4;5;9
+SampleXmlUtil.processAttributes( SchemaType stype , XmlCursor xmlc );9;6;30
+SampleXmlUtil.processParticle( SchemaParticle sp , XmlCursor xmlc , boolean mixed );7;2;25
+SampleXmlUtil.formatDecimal( String start , SchemaType sType );36;47;105
+SampleXmlUtil.moveToken( int numToMove , XmlCursor xmlc );3;3;13
+SampleXmlUtil.pick( int n );1;0;3
+SampleXmlUtil.getClosestName( SchemaType sType );2;1;5
+SampleXmlUtil.formatDate( SchemaType sType );88;111;201
+SampleXmlUtil.createSampleForType( SchemaType stype , XmlCursor xmlc );11;4;43
+SampleXmlUtil.formatDuration( SchemaType sType );37;42;93
+SampleXmlUtil.processChoice( SchemaParticle sp , XmlCursor xmlc , boolean mixed );2;2;8
+SampleXmlUtil.printParticleType( int particleType );6;0;26
+SampleXmlUtil.formatQName( XmlCursor xmlc , QName qName );3;4;12
+SampleXmlUtil.processElement( SchemaParticle sp , XmlCursor xmlc , boolean mixed );2;1;11
+SampleXmlUtil.processSimpleType( SchemaType stype , XmlCursor xmlc );1;0;4

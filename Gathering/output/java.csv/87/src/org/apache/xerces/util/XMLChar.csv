@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLChar.highSurrogate( int c );1;3;3
+XMLChar.isHighSurrogate( int c );2;3;3
+***not in a method***;0;316;0
+XMLChar.isInvalid( int c );1;1;3
+XMLChar.supplemental( char h , char l );1;5;3
+XMLChar.isNameStart( int c );2;4;3
+XMLChar.isSpace( int c );2;4;3
+XMLChar.isValidIANAEncoding( String ianaEncoding );17;28;20
+XMLChar.isContent( int c );4;8;4
+XMLChar.isMarkup( int c );3;5;3
+XMLChar.isValidName( String name );5;5;17
+XMLChar.isValidJavaEncoding( String javaEncoding );13;21;17
+XMLChar.lowSurrogate( int c );1;3;3
+XMLChar.isNCName( int c );2;4;3
+XMLChar.isValid( int c );4;8;4
+XMLChar.isValidNmtoken( String nmtoken );4;4;13
+XMLChar.isValidNCName( String ncName );5;5;17
+XMLChar.isPubid( int c );2;4;3
+XMLChar.isName( int c );2;4;3
+XMLChar.trim( String value );8;12;22
+XMLChar.isNCNameStart( int c );2;4;3
+XMLChar.isSupplemental( int c );2;3;3
+XMLChar.isLowSurrogate( int c );2;3;3

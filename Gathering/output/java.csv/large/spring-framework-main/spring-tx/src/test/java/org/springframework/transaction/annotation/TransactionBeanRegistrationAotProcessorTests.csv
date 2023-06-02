@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionBeanRegistrationAotProcessorTests.shouldSkipAnnotatedTypeWithNoInterface( );1;0;4
+TransactionBeanRegistrationAotProcessorTests.createContribution( Class < ? > beanClass );1;0;5
+TransactionalOnTypeBean.transactional( );1;0;2
+TransactionBeanRegistrationAotProcessorTests.shouldProcessJakartaTransactionalOnClass( );1;0;5
+TransactionBeanRegistrationAotProcessorTests.shouldSkipNonAnnotatedType( );1;0;4
+TransactionalOnClassMethodBean.transactional( );1;0;2
+JakartaTransactionalOnTypeBean.transactional( );1;0;2
+TransactionBeanRegistrationAotProcessorTests.shouldProcessTransactionalOnClassMethod( );1;0;5
+NonAnnotatedBean.notTransactional( );1;0;2
+TransactionalOnInterfaceMethodBean.transactional( );1;0;2
+TransactionBeanRegistrationAotProcessorTests.process( Class < ? > beanClass );2;1;6
+TransactionBeanRegistrationAotProcessorTests.shouldProcessTransactionalOnInterfaceMethod( );1;0;5
+TransactionBeanRegistrationAotProcessorTests.shouldProcessTransactionalOnClass( );1;0;5
+NoInterfaceBean.notTransactional( );1;0;2
+TransactionBeanRegistrationAotProcessorTests.shouldProcessTransactionalOnInterface( );1;0;5

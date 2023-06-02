@@ -1,0 +1,78 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InternalUtils.sendDevTimeError( String messageKey , Throwable cause , int productionTimeErrorCode , ServletRequest request , ServletResponse response , ServletContext servletContext , Object [ ] messageArgs );1;0;3
+InternalUtils.getFormBean( ActionMapping mapping , ServletRequest request );4;2;16
+InternalUtils.ensureModuleConfig( String modulePath , ServletContext context );5;1;27
+InternalUtils.getActionName( ActionMapping mapping );5;3;11
+InternalUtils.sendError( String messageKey , Throwable cause , ServletRequest request , HttpServletResponse response , Object [ ] messageArgs );2;1;4
+InternalUtils.findActionConfig( String actionConfigPath , String modulePath , ServletContext context );1;1;5
+InternalUtils.getModulePathFromReqAttr( HttpServletRequest request );2;1;4
+InternalUtils.setCurrentModule( ModuleConfig mc , ServletRequest request );1;0;3
+InternalUtils.getReloadableClass( String className , ServletContext servletContext );1;0;4
+InternalUtils.sendDevTimeError( String messageKey , Object [ ] messageArgs , Throwable cause , int productionTimeErrorCode , ServletRequest request , ServletResponse response , ServletContext servletContext );6;4;17
+InternalUtils.isNestable( ModuleConfig moduleConfig );2;1;4
+InternalUtils.unwrapFormBean( ActionForm form );3;1;8
+InternalUtils.isSessionScope( ActionMapping mapping );2;2;3
+InternalUtils.lookupField( Class parentClass , String fieldName );3;1;9
+InternalUtils.throwPageFlowException( PageFlowException ex );1;0;3
+InternalUtils.isSharedFlowModule( ModuleConfig mc );2;1;4
+InternalUtils.lookupMethod( Class parentClass , String methodName , Class [ ] signature );3;1;11
+InternalUtils.addActionError( String propertyName , ActionMessage error , ServletRequest request );2;1;5
+InternalUtils.throwPageFlowException( PageFlowException effect , ServletRequest request );6;5;11
+InternalUtils.getDecodedServletPath( HttpServletRequest request );3;1;5
+InternalUtils.unwrapMultipart( ServletRequest request );2;0;7
+InternalUtils.avoidDirectResponseOutput( ServletRequest request );2;2;4
+InternalUtils.setCurrentPageFlow( PageFlowController jpf , HttpServletRequest request , ServletContext servletContext );1;0;3
+InternalUtils.newReloadableInstance( String className , ServletContext servletContext );1;0;3
+InternalUtils.getPageInputMap( ServletRequest request , ServletContext servletContext );3;2;6
+InternalUtils.getForwardedFormBean( ServletRequest request , boolean removeFromRequest );2;0;5
+InternalUtils.getBindingUpdateErrors( ServletRequest request );1;0;3
+InternalUtils.getActionMappingName( String action );1;0;3
+InternalUtils.addParam( String url , String paramName , String paramVal );2;6;3
+InternalUtils.selectModule( String prefix , HttpServletRequest request , ServletContext servletContext );8;8;34
+InternalUtils.initDelegatingConfigs( ModuleConfig moduleConfig , ServletContext servletContext );7;6;24
+InternalUtils.getActionOutputMap( ServletRequest request , boolean createIfNotExist );3;2;9
+InternalUtils.createActionForm( ActionMapping mapping , ModuleConfig moduleConfig , ActionServlet actionServlet , ServletContext servletContext );8;2;38
+InternalUtils.getForwardingModule( ServletRequest request );1;0;3
+InternalUtils.createActionPath( ServletRequest request , String qualifiedAction );2;2;11
+InternalUtils.getCurrentActionForm( ServletRequest request );5;3;14
+InternalUtils.getFlowControllerClassName( String modulePath , ServletRequest request , ServletContext context );2;1;4
+InternalUtils.getModuleConfig( String modulePath , ServletContext context );1;1;3
+InternalUtils.getFlowControllerClassName( ModuleConfig mc );2;0;4
+InternalUtils.sessionExpired( ServletRequest servletRequest );4;4;13
+InternalUtils.getDecodedURI( HttpServletRequest request );1;1;3
+InternalUtils.setForwardedFormBean( ServletRequest request , ActionForm form );2;1;10
+InternalUtils.getQualifiedBundleName( String bundleName , ServletRequest request );7;10;18
+InternalUtils.isLongLived( ModuleConfig moduleConfig );2;0;11
+InternalUtils.getActionMappingPath( ServletRequest request );2;1;4
+InternalUtils.filterValue( String value );5;2;20
+InternalUtils.getActionServlet( ServletContext context );2;1;4
+InternalUtils.getMultipartHandlerType( );2;1;4
+InternalUtils.sendError( String messageKey , Object [ ] messageArgs , ServletRequest request , ServletResponse response , Throwable cause , boolean avoidDirectResponseOutput );6;8;17
+InternalUtils.getLongLivedFlowAttr( String modulePath );1;1;3
+InternalUtils.ignoreIncludeServletPath( ServletRequest request );1;1;3
+InternalUtils.qualifyAction( ServletContext servletContext , String action );3;5;13
+InternalUtils.wrapFormBean( Object formBean );7;5;20
+InternalUtils.setForwardingModule( ServletRequest request , String modulePrefix );1;0;3
+InternalUtils.getMessageResources( String bundleName , ServletRequest request , ServletContext servletContext );3;2;10
+InternalUtils.setFormInScope( String formName , ActionForm form , ActionMapping mapping , HttpServletRequest request , boolean overwrite );8;7;20
+InternalUtils.setCurrentActionResolver( ActionResolver resolver , HttpServletRequest request , ServletContext servletContext );5;3;31
+InternalUtils.getHttpSession( ServletRequest request , boolean create );2;1;4
+InternalUtils.getFacesBackingBean( ServletRequest request , ServletContext servletContext );2;0;11
+InternalUtils.setServletContext( ServletRequest request , ServletContext servletContext );1;0;3
+InternalUtils.lookupLocale( JspContext jspContext );2;1;4
+InternalUtils.setIgnoreIncludeServletPath( ServletRequest request , boolean ignore );4;5;21
+InternalUtils.setCurrentPageFlow( PageFlowController jpf , HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );5;3;27
+InternalUtils.getServletContext( ServletRequest req );2;1;6
+InternalUtils.addActionOutputs( Map toAdd , ServletRequest request , boolean overwrite );7;3;23
+InternalUtils.isMultipartHandlingEnabled( ServletRequest request );1;1;4
+InternalUtils.getCurrentActionMapping( ServletRequest request );1;0;3
+InternalUtils.getFormBeanType( FormBeanConfig formBeanConfig );3;1;9
+InternalUtils.getCleanActionName( String action , boolean prependSlash );6;5;20
+InternalUtils.loadClassNonFatal( String className );3;0;14
+InternalUtils.inferModulePathFromClassName( String className );2;3;12
+InternalUtils.removeCurrentPageFlow( HttpServletRequest request , ServletContext servletContext );1;0;10
+InternalUtils.lookupLocale( ServletRequest request );4;3;11
+InternalUtils.addBindingUpdateError( ServletRequest request , String expression , String message , Throwable cause );2;1;9
+InternalUtils.getPageInputMap( ServletRequest request );3;2;6
+InternalUtils.removeCurrentFacesBackingBean( HttpServletRequest request , ServletContext servletContext );1;0;7
+InternalUtils.setAvoidDirectResponseOutput( ServletRequest request );1;0;3

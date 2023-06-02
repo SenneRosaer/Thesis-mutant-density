@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RdbmsOperation.compile( );5;2;18
+RdbmsOperation.isUpdatableResults( );1;0;3
+RdbmsOperation.validateNamedParameters( @ Nullable Map < String , ? > parameters );10;10;20
+RdbmsOperation.setMaxRows( int maxRows );1;0;3
+RdbmsOperation.setResultSetType( int resultSetType );1;0;3
+RdbmsOperation.getJdbcTemplate( );1;0;3
+RdbmsOperation.supportsLobParameters( );1;0;3
+RdbmsOperation.checkCompiled( );2;1;6
+RdbmsOperation.setGeneratedKeysColumnNames( @ Nullable String ... names );2;0;7
+RdbmsOperation.getDeclaredParameters( );1;0;3
+RdbmsOperation.validateParameters( @ Nullable Object [ ] parameters );7;7;15
+RdbmsOperation.getResultSetType( );1;0;3
+RdbmsOperation.getGeneratedKeysColumnNames( );1;0;3
+RdbmsOperation.setTypes( @ Nullable int [ ] types );4;1;10
+RdbmsOperation.isCompiled( );1;0;3
+RdbmsOperation.setJdbcTemplate( JdbcTemplate jdbcTemplate );1;0;3
+RdbmsOperation.isReturnGeneratedKeys( );1;0;3
+RdbmsOperation.setUpdatableResults( boolean updatableResults );2;0;7
+RdbmsOperation.setQueryTimeout( int queryTimeout );1;0;3
+RdbmsOperation.afterPropertiesSet( );1;0;3
+RdbmsOperation.declareParameter( SqlParameter param );2;0;6
+RdbmsOperation.setDataSource( DataSource dataSource );1;0;3
+RdbmsOperation.setSql( @ Nullable String sql );1;0;3
+RdbmsOperation.allowsUnusedParameters( );1;0;3
+RdbmsOperation.getSql( );1;0;3
+RdbmsOperation.validateParameterCount( int suppliedParamCount , int declaredInParamCount );4;8;10
+RdbmsOperation.setReturnGeneratedKeys( boolean returnGeneratedKeys );2;0;7
+RdbmsOperation.setParameters( SqlParameter ... parameters );4;3;14
+RdbmsOperation.setFetchSize( int fetchSize );1;0;3
+RdbmsOperation.resolveSql( );1;1;5

@@ -1,0 +1,53 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnnotationTypeMappingsTests.getMirrorSetWhenThreeDeepReturnsMirrors( );1;0;14
+AnnotationTypeMappingsTests.forAnnotationTypeWhenHasRepeatingMetaAnnotationReturnsMapping( );1;0;7
+AnnotationTypeMappingsTests.getConventionMappingReturnsAttributes( );1;0;4
+AnnotationTypeMappingsTests.getAliasMappingsWhenHasDefinedAttributesReturnsMappedAttributes( );1;0;5
+AnnotationTypeMappingsTests.resolveMirrorsWhenHasWithMultipleRoutesToAliasReturnsMirrors( );1;0;10
+AnnotationTypeMappingsTests.forAnnotationTypeWhenAliasForWithArrayCompatibleReturnTypes( );1;0;7
+AnnotationTypeMappingsTests.forAnnotationTypeWhenAliasForHasMixedImplicitAndExplicitAliases( );1;0;4
+AnnotationTypeMappingsTests.getDistanceReturnsDistance( );1;0;5
+AnnotationTypeMappingsTests.forAnnotationTypeWhenAliasForToOtherNonExistingAttribute( );1;0;10
+AnnotationTypeMappingsTests.forAnnotationTypeWhenFormsLoopReturnsMapping( );1;0;6
+AnnotationTypeMappingsTests.resolveMirrorSets( AnnotationTypeMapping mapping , Class < ? > element , Class < ? extends Annotation > annotationClass );3;4;9
+AnnotationTypeMappingsTests.getAll( AnnotationTypeMappings mappings );1;0;3
+AnnotationTypeMappingsTests.getMapping( AnnotationTypeMappings mappings , Class < ? extends Annotation > annotationType );3;1;8
+AnnotationTypeMappingsTests.getAttributesReturnsAttributes( );1;0;7
+AnnotationTypeMappingsTests.forAnnotationTypeWhenNoMetaAnnotationsReturnsMappings( );1;0;7
+AnnotationTypeMappingsTests.isEquivalentToDefaultValueWhenNestedAnnotationAndExtractedValuesMatchReturnsTrueAndValueSuppliedAsTypeMappedAnnotation( );1;0;6
+AnnotationTypeMappingsTests.isEquivalentToDefaultValueWhenValueAndDefaultAreNullReturnsTrue( );1;0;4
+AnnotationTypeMappingsTests.getAnnotationWhenMetaAnnotationReturnsAnnotation( );1;0;4
+AnnotationTypeMappingsTests.forAnnotationTypeWhenAliasForNonMetaAnnotated( );1;0;9
+AnnotationTypeMappingsTests.resolveMirrorsWhenOnlyHasDefaultValuesUsesFirst( );1;0;6
+AnnotationTypeMappingsTests.isEquivalentToDefaultValueWhenValueAndDefaultMatchReturnsTrue( );1;0;4
+AnnotationTypeMappingsTests.getConventionMapping( AnnotationTypeMapping mapping , int attributeIndex );2;2;4
+AnnotationTypeMappingsTests.resolveMirrorsWhenHasDifferentValuesThrowsException( );1;0;9
+AnnotationTypeMappingsTests.getNames( MirrorSet mirrorSet );2;2;7
+AnnotationTypeMappingsTests.getAnnotationWhenRootReturnsNull( );1;0;4
+AnnotationTypeMappingsTests.forAnnotationTypeWhenAliasWithExplicitMirrorAndDifferentDefaults( );1;0;9
+AnnotationTypeMappingsTests.forAnnotationTypeWhenAliasForSelfWithMissingDefault( );1;0;9
+AnnotationTypeMappingsTests.assertMixedImplicitAndExplicitAliases( Class < ? extends Annotation > annotationType , String overriddenAttribute );1;0;9
+AnnotationTypeMappingsTests.forAnnotationTypeWhenAliasForToSelf( );1;0;8
+AnnotationTypeMappingsTests.getAliasMapping( AnnotationTypeMapping mapping , int attributeIndex );2;2;4
+AnnotationTypeMappingsTests.getConventionMappingWhenConventionToExplicitAliasesReturnsMappedAttributes( );1;0;6
+AnnotationTypeMappingsTests.isEquivalentToDefaultValueWhenNestedAnnotationAndExtractedValuesMatchReturnsTrueAndValueSuppliedAsMap( );1;0;5
+AnnotationTypeMappingsTests.isEquivalentToDefaultValueWhenNotMatchingReturnsFalse( );1;0;4
+AnnotationTypeMappingsTests.forAnnotationTypeWhenRepeatableMetaAnnotationIsFiltered( );1;0;6
+AnnotationTypeMappingsTests.getMirrorSetWhenAliasPairReturnsMirrors( );1;0;8
+AnnotationTypeMappingsTests.getAliasMappingWhenThreeDeepReturnsMappedAttributes( );1;0;15
+AnnotationTypeMappingsTests.forAnnotationTypeWhenHasAliasForWithBothValueAndAttributeThrowsException( );1;0;7
+AnnotationTypeMappingsTests.forAnnotationTypeWhenAliasForSelfWithDifferentDefaults( );1;0;9
+AnnotationTypeMappingsTests.forAnnotationTypeWhenAliasForToSelfAnnotatedToOtherAttribute( );1;0;8
+AnnotationTypeMappingsTests.getAnnotationTypeReturnsAnnotationType( );1;0;5
+AnnotationTypeMappingsTests.getMetaTypeReturnsTypes( );1;0;5
+AnnotationTypeMappingsTests.resolveMirrorsWhenHasSameValuesUsesFirst( );1;0;6
+AnnotationTypeMappingsTests.resolveMirrorsWhenAliasPairResolves( );1;0;9
+AnnotationTypeMappingsTests.isEquivalentToDefaultValueWhenClassArrayAndStringArrayNamesMatchReturnsTrue( );1;0;6
+AnnotationTypeMappingsTests.isEquivalentToDefaultValueWhenClassAndStringNamesMatchReturnsTrue( );1;0;4
+AnnotationTypeMappingsTests.getMirrorSetWhenImplicitMirrorsReturnsMirrors( );1;0;8
+AnnotationTypeMappingsTests.getAliasMappingReturnsAttributes( );1;0;4
+AnnotationTypeMappingsTests.forAnnotationTypeWhenSelfAnnotatedReturnsMapping( );1;0;6
+AnnotationTypeMappingsTests.forAnnotationTypeWhenAliasForToSelfNonExistingAttribute( );1;0;7
+AnnotationTypeMappingsTests.forAnnotationTypeWhenAliasForWithIncompatibleReturnTypes( );1;0;9
+AnnotationTypeMappingsTests.forAnnotationTypeWhenMetaAnnotationsReturnsMappings( );1;0;8
+AnnotationTypeMappingsTests.getAliasMappingWhenHasWithMultipleRoutesToAliasReturnsMappedAttributes( );1;0;13

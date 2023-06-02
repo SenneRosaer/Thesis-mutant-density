@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockMvcResultMatchers.xpath( String expression , Map < String , String > namespaces , Object ... args );1;0;3
+MockMvcResultMatchers.xpath( String expression , Object ... args );1;0;3
+MockMvcResultMatchers.forwardedUrl( @ Nullable String expectedUrl );1;0;3
+MockMvcResultMatchers.jsonPath( String expression , Matcher < ? super T > matcher );1;0;3
+MockMvcResultMatchers.content( );1;0;3
+MockMvcResultMatchers.model( );1;0;3
+MockMvcResultMatchers.redirectedUrlTemplate( String urlTemplate , Object ... uriVars );1;0;4
+MockMvcResultMatchers.view( );1;0;3
+MockMvcResultMatchers.flash( );1;0;3
+MockMvcResultMatchers.request( );1;0;3
+MockMvcResultMatchers.redirectedUrlPattern( String urlPattern );2;2;9
+MockMvcResultMatchers.jsonPath( String expression , Matcher < ? super T > matcher , Class < T > targetType );1;0;3
+MockMvcResultMatchers.header( );1;0;3
+MockMvcResultMatchers.cookie( );1;0;3
+MockMvcResultMatchers.jsonPath( String expression , Object ... args );1;0;3
+MockMvcResultMatchers.forwardedUrlTemplate( String urlTemplate , Object ... uriVars );1;0;4
+MockMvcResultMatchers.handler( );1;0;3
+MockMvcResultMatchers.redirectedUrl( String expectedUrl );1;0;3
+MockMvcResultMatchers.status( );1;0;3
+MockMvcResultMatchers.forwardedUrlPattern( String urlPattern );2;2;9

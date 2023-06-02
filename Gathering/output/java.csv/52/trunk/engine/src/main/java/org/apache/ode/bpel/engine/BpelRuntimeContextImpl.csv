@@ -1,0 +1,74 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BpelRuntimeContextImpl.getAtomicScopeRetryDelay( );1;0;3
+BpelRuntimeContextImpl._getPartnerResponse( String mexId );5;4;28
+BpelRuntimeContextImpl.cancelSelect( String selectId );1;0;3
+BpelRuntimeContextImpl.fetchPartnerLinkDAO( PartnerLink pLink );1;0;4
+BpelRuntimeContextImpl.getSourceEPR( String mexId );3;1;12
+BpelRuntimeContextImpl.recoverActivity( final String channel , final long activityId , final String action , final FaultInfo fault );1;0;4
+BpelRuntimeContextImpl.isVariableInitialized( Variable var );1;1;5
+BpelRuntimeContextImpl.readExtVar( Variable variable , Node reference );1;0;4
+BpelRuntimeContextImpl.sendEvent( ProcessInstanceEvent event );2;0;11
+BpelRuntimeContextImpl.writeCorrelation( CorrelationSet cset , QName [ ] propNames , CorrelationKey correlation );1;0;8
+BpelRuntimeContextImpl.commitChanges( Variable variable , Node changes );1;0;5
+BpelRuntimeContextImpl.isAtomicScope( );1;0;3
+BpelRuntimeContextImpl.registerTimer( String timerChannelId , Date timeToFire );1;0;8
+BpelRuntimeContextImpl.getPartnerResponseType( String mexId );1;0;3
+BpelRuntimeContextImpl.toString( );1;0;3
+BpelRuntimeContextImpl.completedOk( );2;0;12
+BpelRuntimeContextImpl.cancelTimer( String timerId );1;0;3
+BpelRuntimeContextImpl.injectMyRoleMessageExchange( final String responseChannelId , final int idx , MessageExchangeDAO mexdao );3;1;13
+BpelRuntimeContextImpl.getPid( );1;0;3
+BpelRuntimeContextImpl.fetchPartnersSessionId( PartnerLink pLink );1;0;3
+BpelRuntimeContextImpl.fetchMySessionId( PartnerLink pLink );1;1;5
+BpelRuntimeContextImpl.getMyRequest( String mexId );4;3;20
+BpelRuntimeContextImpl.writeEndpointReference( PartnerLink partnerLink , Element data );2;0;8
+BpelRuntimeContextImpl.setAtomicScope( boolean atomicScope );1;0;4
+BpelRuntimeContextImpl.setAtomicScopeRetriesDone( );1;0;3
+BpelRuntimeContextImpl.execute( );13;11;32
+BpelRuntimeContextImpl.getSourceSessionId( String mexId );1;0;4
+BpelRuntimeContextImpl.isAtomicScopeFirstTry( );1;1;3
+BpelRuntimeContextImpl.rollbackState( );1;0;7
+BpelRuntimeContextImpl.convertEndpointReference( Element sourceNode , Node targetNode );2;1;9
+BpelRuntimeContextImpl.getPartnerFaultExplanation( String mexId );2;1;4
+BpelRuntimeContextImpl.getPartnerResponse( String mexId );1;0;3
+BpelRuntimeContextImpl.initializeVariable( Variable variable , Node initData );1;0;6
+BpelRuntimeContextImpl.setAtomicScopeRetriedOnce( );1;1;3
+BpelRuntimeContextImpl.getRetryCount( );1;0;3
+BpelRuntimeContextImpl.getPartnerFault( String mexId );2;1;9
+BpelRuntimeContextImpl.forceFlush( );1;0;3
+BpelRuntimeContextImpl.fetchVariableData( Variable variable , boolean forWriting );2;0;6
+BpelRuntimeContextImpl.completedFault( FaultInfo faultData );2;0;14
+BpelRuntimeContextImpl.invoke( String requestId , PartnerLink partnerLink , Operation operation , Element outgoingMessage );8;4;52
+BpelRuntimeContextImpl.genId( );1;0;3
+BpelRuntimeContextImpl.getProperties( );1;0;3
+BpelRuntimeContextImpl.writeVariableProperty( Variable variable , QName property , String value );2;0;6
+BpelRuntimeContextImpl.readCorrelation( CorrelationSet cset );1;0;5
+BpelRuntimeContextImpl.executeCreateInstance( MessageExchangeDAO instantiatingMessageExchange );2;1;6
+BpelRuntimeContextImpl.isCorrelationInitialized( CorrelationSet correlationSet );1;1;5
+BpelRuntimeContextImpl.readVariableProperty( Variable variable , QName property );2;0;6
+BpelRuntimeContextImpl.isAtomicScopeRetryable( );1;1;3
+BpelRuntimeContextImpl.noreply( String mexId , FaultInfo optionalFaultData );4;3;19
+BpelRuntimeContextImpl.terminate( );1;0;9
+BpelRuntimeContextImpl.reply( String mexId , final PartnerLink plink , final String opName , Element msg , QName fault );4;4;26
+BpelRuntimeContextImpl.injectPartnerResponse( final String mexid , final String invokeId );7;2;36
+BpelRuntimeContextImpl.scheduleCorrelatorMatcher( String correlatorId , CorrelationKey key );1;0;9
+BpelRuntimeContextImpl.fetchEndpointSessionId( PartnerLink pLink , boolean isMyEPR );2;0;4
+BpelRuntimeContextImpl.buildOutgoingMessage( MessageDAO message , Element outgoingElmt );5;6;15
+BpelRuntimeContextImpl.injectTimerEvent( final String timerResponseChannel );2;0;6
+BpelRuntimeContextImpl.initializePartnerLinks( Long parentScopeId , Collection < ? extends PartnerLinkModel > partnerLinks );4;0;11
+BpelRuntimeContextImpl.fetchMyRoleEndpointReferenceData( PartnerLink pLink );1;0;3
+BpelRuntimeContextImpl.fetchPartnerRoleEndpointReferenceData( PartnerLink pLink );3;2;10
+BpelRuntimeContextImpl.BpelRuntimeContextImpl( BpelInstanceWorker instanceWorker , ProcessInstanceDAO instanceDAO , OdeRTInstance rti );1;0;9
+BpelRuntimeContextImpl.getBaseResourceURI( );1;0;3
+BpelRuntimeContextImpl.createScopeInstance( Long parentScopeId , String name , int modelId );3;1;11
+BpelRuntimeContextImpl.forceRollback( );1;0;3
+BpelRuntimeContextImpl.releasePartnerMex( String mexId );1;0;4
+BpelRuntimeContextImpl.saveState( );4;1;22
+BpelRuntimeContextImpl.isPartnerRoleEndpointInitialized( PartnerLink pLink );2;3;4
+BpelRuntimeContextImpl.setRetryCount( int retryCount );1;0;3
+BpelRuntimeContextImpl.unregisterActivityForRecovery( String channel );1;0;3
+BpelRuntimeContextImpl.mergeHeaders( MessageDAO msg );5;5;19
+BpelRuntimeContextImpl.writeExtVar( Variable variable , Node reference , Node value );1;0;7
+BpelRuntimeContextImpl.select( String selectChannelId , Date timeout , Selector [ ] selectors );15;9;53
+BpelRuntimeContextImpl.initializePartnersSessionId( PartnerLink pLink , String session );2;0;5
+BpelRuntimeContextImpl.registerActivityForRecovery( String channel , long activityId , String reason , Date dateTime , Element details , String [ ] actions , int retries );3;2;9

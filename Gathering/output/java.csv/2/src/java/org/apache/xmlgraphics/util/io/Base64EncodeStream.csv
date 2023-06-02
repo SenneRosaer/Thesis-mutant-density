@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Base64EncodeStream.Base64EncodeStream( OutputStream out );1;0;4
+Base64EncodeStream.encodeAtom( );5;28;35
+Base64EncodeStream.Base64EncodeStream( OutputStream out , boolean closeOutOnClose );1;0;4
+Base64EncodeStream.encodeFromArray( byte [ ] data , int offset , int len );10;33;46
+Base64EncodeStream.close( );3;1;9
+Base64EncodeStream.write( int b );2;2;5
+Base64EncodeStream.flush( );1;0;3
+Base64EncodeStream.write( byte [ ] data );1;0;3
+Base64EncodeStream.write( byte [ ] data , int off , int len );1;0;3

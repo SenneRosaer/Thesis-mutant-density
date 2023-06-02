@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JEIndexOutput.close( );1;0;5
+JEIndexOutput.flush( );2;1;4
+JEIndexOutput.writeBytes( byte [ ] b , int offset , int len );4;10;20
+JEIndexOutput.getFilePointer( );1;0;3
+JEIndexOutput.seek( long pos );3;4;12
+***not in a method***;0;2;0
+JEIndexOutput.length( );1;0;3
+JEIndexOutput.writeByte( byte b );3;5;11
+JEIndexOutput.JEIndexOutput( JEDirectory directory , String name , boolean create );1;0;10

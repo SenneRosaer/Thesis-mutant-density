@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SshRepository.getCreateDirCommand( );1;0;3
+SshRepository.setListCommand( String cmd );1;0;3
+***not in a method***;0;1;0
+SshRepository.setPublishPermissions( String permissions );1;0;3
+SshRepository.makePath( String path , Session session );7;9;28
+SshRepository.getRepositoryScheme( );1;0;3
+SshRepository.resolveResource( String source );6;2;26
+SshRepository.setCreateDirCommand( String createDirCommand );1;0;3
+SshRepository.openStream( SshResource resource );4;1;16
+SshRepository.setExistCommand( String existCommand );1;0;3
+SshRepository.checkExistence( String filePath , Session session );1;1;11
+SshRepository.getListCommand( );1;0;3
+SshRepository.put( File source , String destination , boolean overwrite );9;6;39
+SshRepository.getExecChannel( Session session );2;0;9
+SshRepository.readSessionOutput( ChannelExec channel , StringBuffer strStdout , StringBuffer strStderr );13;12;37
+SshRepository.getExistCommand( );1;0;3
+SshRepository.replaceArgument( String command , String argument );2;3;9
+SshRepository.get( String source , File destination );7;3;28
+SshRepository.list( String parent );4;2;30
+SshRepository.getResource( String source );1;0;4
+SshRepository.setFileSeparator( char fileSeparator );1;0;3

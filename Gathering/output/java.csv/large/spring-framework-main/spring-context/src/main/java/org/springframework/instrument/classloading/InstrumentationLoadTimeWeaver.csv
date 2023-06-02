@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FilteringClassFileTransformer.FilteringClassFileTransformer( ClassFileTransformer targetTransformer , @ Nullable ClassLoader targetClassLoader );1;0;4
+FilteringClassFileTransformer.transform( ClassLoader loader , String className , Class < ? > classBeingRedefined , ProtectionDomain protectionDomain , byte [ ] classfileBuffer );2;1;7
+InstrumentationLoadTimeWeaver.addTransformer( ClassFileTransformer transformer );1;1;11
+InstrumentationLoadTimeWeaver.getInstrumentation( );2;0;8
+InstrumentationLoadTimeWeaver.InstrumentationLoadTimeWeaver( @ Nullable ClassLoader classLoader );1;0;4
+InstrumentationLoadTimeWeaver.removeTransformers( );4;6;10
+InstrumentationLoadTimeWeaver.isInstrumentationAvailable( );1;1;3
+InstrumentationLoadTimeWeaver.InstrumentationLoadTimeWeaver( );1;0;3
+InstrumentationLoadTimeWeaver.getThrowawayClassLoader( );1;0;3
+InstrumentationAccessor.getInstrumentation( );1;0;3
+InstrumentationLoadTimeWeaver.getInstrumentableClassLoader( );1;1;4
+FilteringClassFileTransformer.toString( );1;0;3

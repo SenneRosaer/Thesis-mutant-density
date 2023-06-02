@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PayloadMethodArgumentResolverTests.stringFlux( );1;0;8
+PayloadMethodArgumentResolverTests.stringMono( );1;0;7
+PayloadMethodArgumentResolverTests.handle( @ Validated Mono < String > valueMono , @ Validated Flux < String > valueFlux , @ Payload ( required = false ) String optionalValue , String value );1;0;2
+PayloadMethodArgumentResolverTests.emptyBodyWhenNotRequired( );1;0;4
+PayloadMethodArgumentResolverTests.resolveValue( MethodParameter param , Publisher < DataBuffer > content , Validator validator );4;1;11
+PayloadMethodArgumentResolverTests.string( );1;0;6
+PayloadMethodArgumentResolverTests.emptyBodyWhenRequired( );1;0;10
+PayloadMethodArgumentResolverTests.supportsParameter( );1;0;10
+TestValidator.validate( @ Nullable Object target , Errors errors );3;2;5
+TestValidator.supports( Class < ? > clazz );1;0;3
+PayloadMethodArgumentResolverTests.toDataBuffer( String value );1;0;3
+PayloadMethodArgumentResolverTests.validateStringFlux( );1;0;11
+PayloadMethodArgumentResolverTests.createResolver( @ Nullable Validator validator , boolean useDefaultResolution );2;0;7
+PayloadMethodArgumentResolverTests.validateStringMono( );1;0;8

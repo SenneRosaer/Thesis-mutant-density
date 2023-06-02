@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SHA1Digest.getAlgorithmName( );1;0;3
+SHA1Digest.h( int u , int v , int w );1;2;3
+SHA1Digest.g( int u , int v , int w );1;5;3
+SHA1Digest.doFinal( byte [ ] out , int outOff );1;4;10
+SHA1Digest.unpackWord( int word , byte [ ] out , int outOff );1;6;6
+SHA1Digest.processWord( byte [ ] in , int inOff );2;15;8
+SHA1Digest.processLength( long bitLength );2;3;8
+SHA1Digest.getDigestSize( );1;0;3
+SHA1Digest.rotateLeft( int x , int n );1;4;3
+SHA1Digest.f( int u , int v , int w );1;3;3
+SHA1Digest.SHA1Digest( SHA1Digest t );1;0;10
+SHA1Digest.SHA1Digest( );1;0;3
+SHA1Digest.processBlock( );7;40;57
+SHA1Digest.reset( );2;2;13

@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RegisterExtensionSpringExtensionTests.valueParameterWithPrimitiveType( @ Value ( "99" ) int num );1;0;3
+RegisterExtensionSpringExtensionTests.applicationContextInjectedIntoMethod( ApplicationContext applicationContext );1;0;4
+RegisterExtensionSpringExtensionTests.junitAndSpringMethodInjectionCombined( @ Autowired Cat kittyCat , TestInfo testInfo , ApplicationContext context , TestReporter testReporter );1;0;6
+RegisterExtensionSpringExtensionTests.autowiredParameterOfList( @ Autowired List < Person > peopleParam );1;0;4
+RegisterExtensionSpringExtensionTests.autowiredParameterWithExplicitQualifier( @ Qualifier ( "wally" ) Person person );1;0;4
+RegisterExtensionSpringExtensionTests.autowiredParameterByTypeForSingleBean( @ Autowired Dog dog );1;0;4
+RegisterExtensionSpringExtensionTests.autowiredParameterAsJavaUtilOptional( @ Autowired Optional < Dog > dog );1;0;5
+RegisterExtensionSpringExtensionTests.autowiredFields( );1;0;12
+RegisterExtensionSpringExtensionTests.valueParameterFromSpelExpressionWithNestedPropertyPlaceholder( @ Value ( "#{'Hello ' + ${enigma}}" ) String hello );1;0;4
+RegisterExtensionSpringExtensionTests.autowiredParameterWithImplicitQualifierBasedOnParameterName( @ Autowired Person wally );1;0;4
+RegisterExtensionSpringExtensionTests.autowiredParameterByTypeForPrimaryBean( @ Autowired Cat primaryCat );1;0;4
+RegisterExtensionSpringExtensionTests.autowiredParameterThatDoesNotExistAsJavaUtilOptional( @ Autowired Optional < Number > number );1;0;4
+RegisterExtensionSpringExtensionTests.valueParameterFromSpelExpression( @ Value ( "#{@dilbert.name}" ) String name );1;0;5
+RegisterExtensionSpringExtensionTests.valueParameterFromDefaultValueForPropertyPlaceholder( @ Value ( "${bogus:false}" ) Boolean defaultValue );1;0;4
+RegisterExtensionSpringExtensionTests.valueParameterFromPropertyPlaceholder( @ Value ( "${enigma}" ) Integer enigmaParam );1;0;4
+RegisterExtensionSpringExtensionTests.autowiredParameterThatDoesNotExistButIsNotRequired( @ Autowired ( required = false ) Number number );1;0;3
+RegisterExtensionSpringExtensionTests.genericApplicationContextInjectedIntoMethod( GenericApplicationContext applicationContext );1;0;4

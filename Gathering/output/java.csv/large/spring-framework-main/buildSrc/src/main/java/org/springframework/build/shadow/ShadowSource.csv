@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ShadowSource.syncSourceJarFiles( );1;0;3
+ShadowSource.getRelocations( );1;0;3
+ShadowSource.executeQuery( ArtifactResolutionQuery query );1;0;3
+ShadowSource.relocateFile( FileCopyDetails details );2;0;7
+Relocation.relocatePath( String path );1;0;3
+ShadowSource.sync( List < File > sourceJarFiles );1;0;10
+ShadowSource.getConfigurations( );1;0;3
+Relocation.getDestination( );1;0;3
+ShadowSource.getSourceJarFiles( );3;0;15
+ShadowSource.setConfigurations( List < Configuration > configurations );1;0;3
+ShadowSource.getOutputDirectory( );1;0;3
+ShadowSource.zipTree( File sourceJar );1;0;3
+Relocation.transformContent( String content );1;0;3
+ShadowSource.relocate( String pattern , String destination );1;0;3
+Relocation.Relocation( String pattern , String destination );1;0;6
+ShadowSource.transformContent( String content );2;0;6
+ShadowSource.resolveSourceArtifacts( DependencyResult dependency );1;0;6
+Relocation.getPattern( );1;0;3

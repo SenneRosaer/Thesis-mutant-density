@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SqlUpdate.updateByNamedParam( Map < String , ? > paramMap , KeyHolder generatedKeyHolder );1;0;10
+SqlUpdate.checkRowsAffected( int rowsAffected );5;6;8
+SqlUpdate.update( String p1 , String p2 );1;0;3
+SqlUpdate.update( int p1 );1;0;3
+SqlUpdate.setMaxRowsAffected( int maxRowsAffected );1;0;3
+SqlUpdate.update( );1;0;3
+SqlUpdate.update( Object [ ] params , KeyHolder generatedKeyHolder );3;3;12
+SqlUpdate.update( long p1 );1;0;3
+SqlUpdate.SqlUpdate( DataSource ds , String sql , int [ ] types );1;0;5
+SqlUpdate.update( long p1 , long p2 );1;0;3
+SqlUpdate.update( Object ... params );1;0;6
+SqlUpdate.updateByNamedParam( Map < String , ? > paramMap );1;0;10
+SqlUpdate.update( String p );1;0;3
+SqlUpdate.setRequiredRowsAffected( int requiredRowsAffected );1;0;3
+SqlUpdate.SqlUpdate( );1;0;2
+SqlUpdate.SqlUpdate( DataSource ds , String sql );1;0;4
+SqlUpdate.update( int p1 , int p2 );1;0;3
+SqlUpdate.SqlUpdate( DataSource ds , String sql , int [ ] types , int maxRowsAffected );1;0;6

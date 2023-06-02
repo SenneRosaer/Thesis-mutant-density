@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RepeatableContainers.of( Class < ? extends Annotation > repeatable , @ Nullable Class < ? extends Annotation > container );1;0;3
+NoRepeatableContainers.NoRepeatableContainers( );1;0;3
+RepeatableContainers.RepeatableContainers( @ Nullable RepeatableContainers parent );1;0;3
+RepeatableContainers.equals( @ Nullable Object other );4;4;9
+RepeatableContainers.hashCode( );1;0;3
+ExplicitRepeatableContainer.hashCode( );1;4;6
+StandardRepeatableContainers.findRepeatedAnnotations( Annotation annotation );2;1;7
+ExplicitRepeatableContainer.deduceContainer( Class < ? extends Annotation > repeatable );1;0;6
+RepeatableContainers.none( );1;0;3
+StandardRepeatableContainers.computeRepeatedAnnotationsMethod( Class < ? extends Annotation > annotationType );7;2;15
+RepeatableContainers.standardRepeatables( );1;0;3
+ExplicitRepeatableContainer.ExplicitRepeatableContainer( @ Nullable RepeatableContainers parent , Class < ? extends Annotation > repeatable , @ Nullable Class < ? extends Annotation > container );8;5;30
+ExplicitRepeatableContainer.equals( @ Nullable Object other );3;2;7
+StandardRepeatableContainers.StandardRepeatableContainers( );1;0;3
+ExplicitRepeatableContainer.findRepeatedAnnotations( Annotation annotation );2;0;6
+StandardRepeatableContainers.getRepeatedAnnotationsMethod( Class < ? extends Annotation > annotationType );2;1;5
+RepeatableContainers.and( Class < ? extends Annotation > container , Class < ? extends Annotation > repeatable );1;0;3
+RepeatableContainers.findRepeatedAnnotations( Annotation annotation );2;1;6

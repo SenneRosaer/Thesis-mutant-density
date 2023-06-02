@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BoundedBuffer.decorate( Buffer buffer , int maximumSize , long timeout );1;0;3
+BoundedBuffer.timeoutWait( final int nAdditions );8;13;29
+BoundedBuffer.remove( );1;0;7
+BoundedBuffer.decorate( Buffer buffer , int maximumSize );1;0;3
+NotifyingIterator.remove( );1;0;6
+BoundedBuffer.addAll( final Collection c );1;0;6
+BoundedBuffer.iterator( );1;0;3
+BoundedBuffer.isFull( );1;1;3
+BoundedBuffer.maxSize( );1;0;3
+BoundedBuffer.BoundedBuffer( Buffer buffer , int maximumSize , long timeout );2;1;8
+NotifyingIterator.NotifyingIterator( Iterator it );1;0;3
+BoundedBuffer.add( Object o );1;0;6

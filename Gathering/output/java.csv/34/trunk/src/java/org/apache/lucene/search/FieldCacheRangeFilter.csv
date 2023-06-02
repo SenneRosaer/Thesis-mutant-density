@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FieldCacheRangeFilter.getFieldCache( );1;0;3
+FieldCacheRangeFilter.equals( Object o );10;13;12
+FieldCacheRangeFilter.getDocIdSet( IndexReader reader );1;0;3
+RangeMultiFilterDocIdSet.RangeMultiFilterDocIdSet( FieldCache . StringIndex fcsi );1;0;4
+***not in a method***;0;1;0
+RangeMultiFilterIterator.next( );4;4;12
+FieldCacheRangeFilter.FieldCacheRangeFilter( String field , String lowerVal , String upperVal , boolean includeLower , boolean includeUpper );1;0;7
+FieldCacheRangeFilter.hashCode( );5;11;9
+RangeMultiFilterIterator.doc( );1;0;3
+RangeMultiFilterIterator.skipTo( int target );4;4;13
+FieldCacheRangeFilter.toString( );5;2;15
+RangeMultiFilterDocIdSet.iterator( );1;0;3
+RangeMultiFilterDocIdSet.initialize( );14;20;27

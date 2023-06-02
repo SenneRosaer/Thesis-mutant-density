@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DynamicClassLoader.defineClass( String name , byte [ ] bytes );3;1;7
+DynamicClassLoader.createResourceUrl( String name , Supplier < byte [ ] > bytesSupplier );2;0;9
+DynamicClassLoader.findClass( String name );2;1;7
+ResourceFileConnection.ResourceFileConnection( URL url , Supplier < byte [ ] > bytesSupplier );1;0;4
+ResourceFileConnection.connect( );1;0;2
+ResourceFileConnection.getInputStream( );1;0;3
+DynamicClassLoader.lookupMethod( Class < ? > target , String name , Class < ? > ... parameterTypes );1;0;5
+DynamicClassLoader.findResource( String name );6;6;19
+DynamicClassLoader.DynamicClassLoader( ClassLoader parent , ClassFiles classFiles , ResourceFiles resourceFiles , Map < String , DynamicClassFileObject > dynamicClassFiles , Map < String , DynamicResourceFileObject > dynamicResourceFiles );3;0;22
+ResourceFileHandler.ResourceFileHandler( Supplier < byte [ ] > bytesSupplier );1;0;3
+SingletonEnumeration.hasMoreElements( );1;1;3
+DynamicClassLoader.findResources( String name );2;1;7
+DynamicClassLoader.findClassBytes( String name );3;2;8
+SingletonEnumeration.nextElement( );1;0;5
+SingletonEnumeration.SingletonEnumeration( @ Nullable E element );1;0;3
+ResourceFileHandler.openConnection( URL url );1;0;3

@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SplitAggregator.createChildElement( QName name , Node parent );3;1;12
+SplitAggregator.getCount( );1;0;3
+SplitterAggregation.getMessages( );1;0;3
+SplitAggregator.createAggregation( String correlationID );1;0;3
+SplitAggregator.buildAggregate( Object aggregation , NormalizedMessage message , MessageExchange exchange , boolean doTimeout );6;4;28
+SplitAggregator.setCountAttribute( String countAttribute );1;0;3
+SplitAggregator.getCorrId( );1;0;3
+SplitAggregator.setIndex( Expression index );1;0;3
+SplitAggregator.setAggregateElementName( QName aggregateElementName );1;0;3
+SplitAggregator.getAggregateElementName( );1;0;3
+SplitAggregator.setMessageElementName( QName messageElementName );1;0;3
+SplitAggregator.getIndex( );1;0;3
+SplitAggregator.getMessageElementName( );1;0;3
+SplitAggregator.setTimeout( long timeout );1;0;3
+SplitterAggregation.SplitterAggregation( String correlationId );1;0;3
+SplitterAggregation.setCorrelationId( String correlationId );1;0;3
+SplitAggregator.getCorrelationID( MessageExchange exchange , NormalizedMessage message );1;0;3
+SplitterAggregation.setMessages( NormalizedMessage [ ] messages );1;0;3
+SplitAggregator.getTimeout( Object aggregation );2;2;6
+SplitAggregator.addMessage( Object aggregation , NormalizedMessage message , MessageExchange exchange );10;11;33
+SplitAggregator.setIndexAttribute( String indexAttribute );1;0;3
+SplitAggregator.getCountAttribute( );1;0;3
+SplitterAggregation.getCorrelationId( );1;0;3
+SplitAggregator.getIndexAttribute( );1;0;3
+SplitAggregator.getTimeout( );1;0;3
+SplitAggregator.setCorrId( Expression corrId );1;0;3
+SplitAggregator.setCount( Expression count );1;0;3

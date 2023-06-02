@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractRedirect.getSender( );4;2;16
+AbstractRedirect.getSpecialAddress( String addressString , String [ ] allowedSpecials );16;16;55
+AbstractRedirect.getSubjectPrefix( );1;0;3
+AbstractRedirect.setSubjectPrefix( Mail newMail , String subjectPrefix , Mail originalMail );9;9;22
+AbstractRedirect.setIsReply( Mail newMail , boolean isReply , Mail originalMail );4;1;11
+AbstractRedirect.getRecipients( );6;5;26
+AbstractRedirect.isStatic( );1;0;3
+AbstractRedirect.getInLineType( );1;0;3
+AbstractRedirect.isReply( Mail originalMail );2;0;3
+AbstractRedirect.getAttachmentType( );1;0;3
+AbstractRedirect.getReplyTo( Mail originalMail );5;3;11
+AbstractRedirect.updateHeaders( );2;1;6
+AbstractRedirect.setReplyTo( Mail newMail , MailAddress replyTo , Mail originalMail );4;2;13
+AbstractRedirect.getRecipients( Mail originalMail );6;4;11
+AbstractRedirect.isReply( );1;0;3
+AbstractRedirect.getTypeCode( String param );7;6;22
+AbstractRedirect.attachError( );1;0;3
+AbstractRedirect.setRecipients( Mail newMail , Collection recipients , Mail originalMail );3;1;8
+AbstractRedirect.attachError( Mail originalMail );2;0;3
+AbstractRedirect.getSender( Mail originalMail );5;4;9
+AbstractRedirect.getFakeDomainCheck( Mail originalMail );2;0;3
+AbstractRedirect.setSender( Mail newMail , MailAddress sender , Mail originalMail );3;1;8
+AbstractRedirect.getTo( Mail originalMail );7;6;18
+AbstractRedirect.getAllowedInitParameters( );1;0;3
+AbstractRedirect.getInLineType( Mail originalMail );2;0;3
+AbstractRedirect.getMessage( Mail originalMail );2;0;3
+AbstractRedirect.replaceMailAddresses( Mail mail , Collection list );19;19;52
+AbstractRedirect.getReplyTo( );4;2;16
+AbstractRedirect.getTo( );6;5;24
+AbstractRedirect.getMessage( );1;0;3
+AbstractRedirect.getAttachmentType( Mail originalMail );2;0;3
+AbstractRedirect.getMessageHeaders( MimeMessage message );2;0;8
+AbstractRedirect.getReversePath( Mail originalMail );6;5;12
+AbstractRedirect.getSubject( Mail originalMail );2;0;3
+AbstractRedirect.getReversePath( );4;2;16
+AbstractRedirect.getPassThrough( );1;0;3
+AbstractRedirect.service( Mail originalMail );11;3;73
+AbstractRedirect.setTo( Mail newMail , InternetAddress [ ] to , Mail originalMail );3;1;8
+AbstractRedirect.senderDomainIsValid( Mail mail );3;3;5
+AbstractRedirect.changeSubject( MimeMessage message , String newValue );3;1;15
+AbstractRedirect.getSubject( );1;0;3
+AbstractRedirect.getPassThrough( Mail originalMail );2;0;3
+AbstractRedirect.setMessageId( Mail newMail , Mail originalMail );3;1;9
+AbstractRedirect.replaceInternetAddresses( Mail mail , Collection list );26;17;79
+AbstractRedirect.getSubjectPrefix( Mail originalMail );2;0;3
+AbstractRedirect.getFakeDomainCheck( );1;0;3
+AbstractRedirect.setReversePath( MailImpl newMail , MailAddress reversePath , Mail originalMail );4;2;11
+AbstractRedirect.buildAlteredMessage( Mail newMail , Mail originalMail );22;8;106
+AbstractRedirect.determineMailHeaderEncodingCharset( String rawText );7;13;14
+AbstractRedirect.init( );5;1;45
+AbstractRedirect.getMessageBody( MimeMessage message );1;0;5

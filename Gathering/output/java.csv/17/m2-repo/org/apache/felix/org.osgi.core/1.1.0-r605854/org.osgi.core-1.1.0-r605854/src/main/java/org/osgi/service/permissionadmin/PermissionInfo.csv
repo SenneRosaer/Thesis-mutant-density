@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PermissionInfo.getActions( );1;0;3
+PermissionInfo.getType( );1;0;3
+PermissionInfo.getName( );1;0;3
+PermissionInfo.unescapeString( char [ ] str , int begin , int end );8;7;29
+PermissionInfo.escapeString( String str , StringBuffer output );6;2;22
+PermissionInfo.equals( Object obj );9;14;25
+PermissionInfo.hashCode( );3;4;10
+PermissionInfo.toString( );1;0;3
+PermissionInfo.PermissionInfo( String type , String name , String actions );4;4;11
+PermissionInfo.getEncoded( );5;8;20
+PermissionInfo.PermissionInfo( String encodedPermission );25;38;78

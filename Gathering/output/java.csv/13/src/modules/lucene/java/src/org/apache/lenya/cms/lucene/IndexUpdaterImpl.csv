@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IndexUpdaterImpl.service( ServiceManager manager );1;0;3
+IndexUpdaterImpl.start( );2;1;11
+IndexUpdaterImpl.stop( );1;0;2
+IndexUpdaterImpl.delete( Session session , ResourceType resourceType , String pubId , String area , String uuid , String language );1;0;3
+IndexUpdaterImpl.updateIndex( String operation , ResourceType resourceType , String pubId , String area , String uuid , String language );3;3;19
+IndexUpdaterImpl.eventFired( RepositoryEvent repoEvent );5;1;17
+IndexUpdaterImpl.index( Session session , ResourceType resourceType , String pubId , String area , String uuid , String language );3;0;16

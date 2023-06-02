@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DomUtil.setAttribute( Node node , String attName , String val );1;0;6
+DomUtil.setText( Node node , String val );2;1;9
+DomUtil.setAttributes( Object o , Node parent );5;3;17
+DomUtil.getChild( Node parent , String name );8;7;18
+DomUtil.getNext( Node current );1;0;5
+DomUtil.writeXml( Node n , OutputStream os );1;0;6
+DomUtil.getChild( Node parent , int type );4;4;8
+DomUtil.findChildWithAtt( Node parent , String elemName , String attName , String attVal );10;13;17
+DomUtil.getContent( Node n );3;2;7
+NullResolver.resolveEntity( String publicId , String systemId );2;0;5
+DomUtil.removeAttribute( Node node , String attName );1;0;4
+DomUtil.getChildContent( Node parent , String name );4;2;11
+DomUtil.getAttribute( Node element , String attName );3;2;7
+DomUtil.getNext( Node current , String name , int type );7;6;14
+DomUtil.readXml( InputStream is );1;0;12

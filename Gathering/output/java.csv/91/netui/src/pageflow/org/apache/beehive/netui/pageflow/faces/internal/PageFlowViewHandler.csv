@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PageFlowViewHandler.renderView( FacesContext context , UIViewRoot viewToRender );2;0;11
+PageFlowViewHandler.setBackingBean( ServletRequest request , ServletResponse response , ServletContext servletContext );3;1;15
+PageFlowViewHandler.PageFlowViewHandler( ViewHandler delegate );1;0;3
+PageFlowViewHandler.calculateLocale( FacesContext context );1;0;3
+PageFlowViewHandler.calculateRenderKitId( FacesContext context );1;0;3
+PageFlowViewHandler.writeState( FacesContext context );1;0;3
+PageFlowViewHandler.createView( FacesContext context , String viewId );7;5;40
+PageFlowViewHandler.restoreView( FacesContext context , String viewId );3;1;19
+PageClientState.getBackingBean( );1;0;3
+PageFlowViewHandler.getResourceURL( FacesContext context , String path );1;0;3
+PageFlowViewHandler.savePreviousPageInfo( HttpServletRequest request , ExternalContext externalContext , String viewID , UIViewRoot viewRoot );5;4;18
+PageClientState.PageClientState( UIViewRoot viewRoot , FacesBackingBean backingBean );1;0;4
+PageClientState.getViewRoot( );1;0;3
+PageFlowViewHandler.getActionURL( FacesContext context , String viewId );1;0;3

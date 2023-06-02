@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JmsServiceComponent.start( );7;1;39
+JmsServiceComponent.getDestinationChooser( );1;0;3
+JmsServiceComponent.init( );1;0;6
+JmsServiceComponent.createMessage( Session session );3;0;16
+JmsServiceComponent.run( );1;0;3
+JmsServiceComponent.stop( );5;3;19
+JmsServiceComponent.afterPropertiesSet( );2;1;5
+JmsServiceComponent.getTemplate( );1;0;3
+JmsServiceComponent.getReplyToDestination( Message jmsMessage , final InOut messageExchange );2;1;6
+JmsServiceComponent.setMarshaler( JmsMarshaler marshaler );1;0;3
+JmsServiceComponent.setDestinationChooser( DestinationChooser destinationChooser );1;0;3
+JmsServiceComponent.chooseOutBoundDestination( MessageExchange exchange , Message inboundMessage );5;5;14
+JmsServiceComponent.getSelector( );1;0;3
+JmsServiceComponent.getMarshaler( );1;0;3
+JmsServiceComponent.onMessage( final Message jmsMessage );1;0;7
+JmsServiceComponent.handleMessage( final Message jmsMessage );7;0;45
+JmsServiceComponent.setSelector( String selector );1;0;3
+JmsServiceComponent.setTemplate( JmsTemplate template );1;0;3

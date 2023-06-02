@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LRUMap.LRUMap( int maxSize , boolean scanUntilRemovable );1;0;3
+LRUMap.LRUMap( int maxSize , float loadFactor );1;0;3
+LRUMap.LRUMap( int maxSize );1;0;3
+***not in a method***;0;1;0
+LRUMap.LRUMap( );1;0;3
+LRUMap.removeLRU( LinkEntry entry );1;0;3
+LRUMap.updateEntry( HashEntry entry , Object newValue );1;0;4
+LRUMap.get( Object key );2;1;8
+LRUMap.reuseMapping( LinkEntry entry , int hashIndex , int hashCode , Object key , Object value );5;6;29
+LRUMap.doReadObject( ObjectInputStream in );1;0;4
+LRUMap.LRUMap( Map map , boolean scanUntilRemovable );1;0;4
+LRUMap.readObject( ObjectInputStream in );1;0;4
+LRUMap.isFull( );1;1;3
+LRUMap.LRUMap( Map map );1;0;3
+LRUMap.clone( );1;0;3
+LRUMap.moveToMRU( LinkEntry entry );4;4;19
+LRUMap.LRUMap( int maxSize , float loadFactor , boolean scanUntilRemovable );3;2;8
+LRUMap.doWriteObject( ObjectOutputStream out );1;0;4
+LRUMap.isScanUntilRemovable( );1;0;3
+LRUMap.writeObject( ObjectOutputStream out );1;0;4
+LRUMap.addMapping( int hashIndex , int hashCode , Object key , Object value );9;5;38
+LRUMap.maxSize( );1;0;3

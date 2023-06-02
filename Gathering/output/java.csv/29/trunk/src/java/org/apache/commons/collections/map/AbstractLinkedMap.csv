@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+KeySetIterator.next( );1;0;3
+AbstractLinkedMap.clear( );1;0;4
+AbstractLinkedMap.lastKey( );2;1;6
+AbstractLinkedMap.AbstractLinkedMap( Map map );1;0;3
+AbstractLinkedMap.AbstractLinkedMap( int initialCapacity , float loadFactor );1;0;3
+AbstractLinkedMap.entryAfter( LinkEntry entry );1;0;3
+LinkMapIterator.previous( );1;0;3
+EntrySetIterator.next( );1;0;3
+LinkIterator.hasPrevious( );1;1;3
+LinkIterator.toString( );2;1;7
+AbstractLinkedMap.addEntry( HashEntry entry , int hashIndex );1;0;8
+AbstractLinkedMap.createEntrySetIterator( );2;1;6
+AbstractLinkedMap.init( );1;1;4
+LinkIterator.remove( );3;2;11
+LinkMapIterator.LinkMapIterator( AbstractLinkedMap parent );1;0;3
+AbstractLinkedMap.removeEntry( HashEntry entry , int hashIndex , HashEntry previous );1;0;8
+LinkMapIterator.getKey( );2;1;7
+AbstractLinkedMap.getEntry( int index );6;8;21
+LinkIterator.previousEntry( );3;2;12
+LinkMapIterator.next( );1;0;3
+AbstractLinkedMap.mapIterator( );2;1;6
+AbstractLinkedMap.previousKey( Object key );3;3;4
+AbstractLinkedMap.entryBefore( LinkEntry entry );1;0;3
+LinkIterator.currentEntry( );1;0;3
+LinkIterator.nextEntry( );3;2;11
+AbstractLinkedMap.firstKey( );2;1;6
+AbstractLinkedMap.AbstractLinkedMap( int initialCapacity );1;0;3
+KeySetIterator.KeySetIterator( AbstractLinkedMap parent );1;0;3
+LinkMapIterator.setValue( Object value );2;1;7
+LinkEntry.LinkEntry( HashEntry next , int hashCode , Object key , Object value );1;0;3
+AbstractLinkedMap.createEntry( HashEntry next , int hashCode , Object key , Object value );1;0;3
+EntrySetIterator.EntrySetIterator( AbstractLinkedMap parent );1;0;3
+ValuesIterator.next( );1;0;3
+AbstractLinkedMap.createKeySetIterator( );2;1;6
+LinkIterator.hasNext( );1;1;3
+AbstractLinkedMap.AbstractLinkedMap( int initialCapacity , float loadFactor , int threshold );1;0;3
+LinkIterator.reset( );1;0;4
+AbstractLinkedMap.orderedMapIterator( );2;1;6
+LinkIterator.LinkIterator( AbstractLinkedMap parent );1;0;6
+KeySetIterator.previous( );1;0;3
+ValuesIterator.previous( );1;0;3
+LinkMapIterator.getValue( );2;1;7
+AbstractLinkedMap.createValuesIterator( );2;1;6
+AbstractLinkedMap.containsValue( Object value );6;4;16
+ValuesIterator.ValuesIterator( AbstractLinkedMap parent );1;0;3
+AbstractLinkedMap.AbstractLinkedMap( );1;0;3
+EntrySetIterator.previous( );1;0;3
+AbstractLinkedMap.nextKey( Object key );3;3;4

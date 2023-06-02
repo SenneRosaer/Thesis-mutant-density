@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ElementSchemePointer.ElementSchemePointer( );1;0;2
+ElementSchemePointer.setSchemeName( String schemeName );1;0;3
+Scanner.Scanner( SymbolTable symbolTable );1;0;3
+***not in a method***;0;1;0
+Tokens.nextToken( );2;2;5
+ElementSchemePointer.init( );1;0;14
+ElementSchemePointer.isChildFragmentResolved( );6;7;8
+ElementSchemePointer.addToken( Tokens tokens , int token );3;3;9
+Tokens.addToken( int token );2;2;11
+ElementSchemePointer.reportError( String key , Object [ ] arguments );1;0;5
+ElementSchemePointer.initErrorReporter( );3;2;11
+Tokens.getToken( int token );1;0;3
+Tokens.addToken( String tokenStr );2;1;8
+Tokens.getTokenCount( );1;0;3
+Tokens.peekToken( );2;1;5
+Scanner.scanExpr( SymbolTable symbolTable , Tokens tokens , String data , int currentOffset , int endOffset );19;16;61
+Tokens.getTokenString( int token );1;0;3
+ElementSchemePointer.ElementSchemePointer( SymbolTable symbolTable );1;0;3
+Tokens.Tokens( SymbolTable symbolTable );1;0;7
+ElementSchemePointer.parseXPointer( String xpointer );7;4;48
+Tokens.rewind( );1;0;3
+Tokens.hasMore( );1;1;3
+ElementSchemePointer.checkMatch( );9;14;27
+ElementSchemePointer.resolveXPointer( QName element , XMLAttributes attributes , Augmentations augs , int event );6;4;23
+ElementSchemePointer.getSchemeData( );1;0;3
+ElementSchemePointer.ElementSchemePointer( SymbolTable symbolTable , XMLErrorReporter errorReporter );1;0;4
+ElementSchemePointer.isFragmentResolved( );1;0;3
+Tokens.nextTokenAsString( );2;1;6
+Scanner.scanNCName( String data , int endOffset , int currentOffset );13;18;32
+ElementSchemePointer.matchChildSequence( QName element , int event );16;21;52
+ElementSchemePointer.getSchemeName( );1;0;3
+ElementSchemePointer.setSchemeData( String schemeData );1;0;3
+Scanner.addToken( Tokens tokens , int token );1;0;3

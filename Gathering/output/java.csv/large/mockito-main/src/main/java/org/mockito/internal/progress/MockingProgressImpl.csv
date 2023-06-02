@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockingProgressImpl.reportOngoingStubbing( OngoingStubbing ongoingStubbing );1;0;3
+MockingProgressImpl.addListener( MockitoListener listener , Set < MockitoListener > listeners );5;1;15
+MockingProgressImpl.addListener( MockitoListener listener );1;0;3
+MockingProgressImpl.stubbingStarted( );1;0;4
+MockingProgressImpl.setVerificationStrategy( VerificationStrategy strategy );1;0;3
+MockingProgressImpl.resetOngoingStubbing( );1;0;3
+MockingProgressImpl.pullOngoingStubbing( );2;0;5
+MockingProgressImpl.clearListeners( );1;0;3
+MockingProgressImpl.getArgumentMatcherStorage( );1;0;3
+MockingProgressImpl.MockingProgressImpl( );1;0;3
+MockingProgressImpl.verificationStarted( VerificationMode verify );1;0;5
+MockingProgressImpl.stubbingCompleted( );1;0;3
+MockingProgressImpl.validateMostStuff( );2;1;9
+MockingProgressImpl.validateState( );2;1;8
+MockingProgressImpl.maybeVerifyLazily( VerificationMode mode );1;0;3
+MockingProgressImpl.mockingStarted( Class < ? > mock , MockCreationSettings settings );3;0;8
+MockingProgressImpl.reset( );1;0;5
+MockingProgressImpl.toString( );1;0;8
+MockingProgressImpl.mockingStarted( Object mock , MockCreationSettings settings );3;0;8
+MockingProgressImpl.verificationListeners( );3;0;9
+MockingProgressImpl.pullVerificationMode( );2;1;8
+MockingProgressImpl.removeListener( MockitoListener listener );1;0;3
+MockingProgressImpl.getDefaultVerificationStrategy( );1;0;8

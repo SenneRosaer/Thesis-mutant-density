@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ALockImpl.getTimeout( );1;0;4
+ALockImpl.isDeep( );1;0;4
+ALockImpl.getType( );1;0;3
+LockDiscovery.LockDiscovery( );1;0;3
+ALockImpl.setIsDeep( boolean isDeep );1;0;3
+LockDiscovery.addActiveLock( ActiveLock lock );2;1;5
+LockDiscovery.LockDiscovery( ActiveLock lock );1;0;4
+ALockImpl.isLockedByToken( String lockToken );2;1;8
+LockDiscovery.toXml( Document document );2;0;9
+ALockImpl.toXml( Document document );1;0;3
+ALockImpl.setTimeout( long timeout );1;0;3
+ALockImpl.getOwner( );3;1;12
+ALockImpl.setOwner( String owner );1;0;3
+ALockImpl.getScope( );1;0;3
+LockDiscovery.createFromXml( Element lockDiscoveryElement );3;1;12
+ALockImpl.ALockImpl( Element alElement );2;1;6
+ALockImpl.isExpired( );1;0;3
+LockDiscovery.getValue( );1;0;3
+ALockImpl.getToken( );2;1;7
+LockDiscovery.LockDiscovery( ActiveLock [ ] locks );2;2;6

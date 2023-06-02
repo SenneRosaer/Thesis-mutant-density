@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExtractingResponseErrorHandler.ExtractingResponseErrorHandler( );1;0;2
+ExtractingResponseErrorHandler.setMessageConverters( List < HttpMessageConverter < ? > > messageConverters );1;0;3
+ExtractingResponseErrorHandler.extract( @ Nullable Class < ? extends RestClientException > exceptionClass , ClientHttpResponse response );4;2;11
+ExtractingResponseErrorHandler.handleError( ClientHttpResponse response , HttpStatusCode statusCode );3;0;12
+ExtractingResponseErrorHandler.setStatusMapping( Map < HttpStatusCode , Class < ? extends RestClientException > > statusMapping );2;1;5
+ExtractingResponseErrorHandler.setSeriesMapping( Map < HttpStatus . Series , Class < ? extends RestClientException > > seriesMapping );2;1;5
+ExtractingResponseErrorHandler.ExtractingResponseErrorHandler( List < HttpMessageConverter < ? > > messageConverters );1;0;3
+ExtractingResponseErrorHandler.hasError( HttpStatusCode statusCode );3;2;12

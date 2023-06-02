@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UndertowTestServer.start( );1;0;5
+UndertowTestServer.stop( );1;0;4
+DispatcherServletInstanceFactory.DispatcherServletInstanceFactory( WebApplicationContext wac );1;0;3
+DispatcherServletInstanceFactory.createInstance( );1;0;11
+FilterInstanceFactory.createInstance( );1;0;10
+UndertowTestServer.getPort( );1;0;3
+DispatcherServletInstanceFactory.release( );1;0;2
+DispatcherServletInstanceFactory.getInstance( );1;0;3
+UndertowTestServer.deployConfig( WebApplicationContext wac , Filter ... filters );5;0;37
+FilterInstanceFactory.release( );1;0;1
+FilterInstanceFactory.getInstance( );1;0;3
+UndertowTestServer.setup( );1;0;2
+UndertowTestServer.undeployConfig( );1;0;3
+UndertowTestServer.getServletContext( );1;0;3
+FilterInstanceFactory.FilterInstanceFactory( Filter filter );1;0;3

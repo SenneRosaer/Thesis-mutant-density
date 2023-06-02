@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GDurationBuilder.addGDuration( GDurationSpecification duration );1;1;4
+GDurationBuilder.toPlainString( BigDecimal bd );12;17;34
+GDurationBuilder._fQuotient( long a , int b );2;8;5
+GDurationBuilder.setFraction( BigDecimal fraction );2;1;1
+GDurationBuilder.getSecond( );1;0;1
+GDurationBuilder.getSign( );1;0;1
+GDurationBuilder.setHour( int hour );1;0;1
+GDurationBuilder.setDay( int day );1;0;1
+GDurationBuilder.GDurationBuilder( );1;1;4
+GDurationBuilder._getTotalSignSlowly( );8;11;27
+GDurationBuilder._mod( long a , int b , long quotient );1;2;3
+GDurationBuilder.compareDurations( GDurationSpecification d1 , GDurationSpecification d2 );11;43;27
+GDurationBuilder.GDurationBuilder( int sign , int year , int month , int day , int hour , int minute , int second , BigDecimal fraction );4;5;12
+GDurationBuilder.toString( );1;0;3
+GDurationBuilder.getMinute( );1;0;1
+GDurationBuilder._add( GDurationSpecification duration , int sign );5;17;16
+GDurationBuilder.toGDuration( );1;0;3
+GDurationBuilder.getHour( );1;0;1
+GDurationBuilder.getDay( );1;0;1
+GDurationBuilder.stripTrailingZeros( String s );7;10;24
+GDurationBuilder.getYear( );1;0;1
+GDurationBuilder.formatDuration( GDurationSpecification duration );15;17;52
+GDurationBuilder.clone( );1;0;3
+GDurationBuilder.GDurationBuilder( String s );1;0;3
+GDurationBuilder.getFraction( );1;0;1
+GDurationBuilder.setSecond( int second );1;0;1
+GDurationBuilder.setMinute( int minute );1;0;1
+GDurationBuilder.isImmutable( );1;0;3
+GDurationBuilder.setSign( int sign );3;4;5
+GDurationBuilder.normalize( );1;0;3
+GDurationBuilder.setMonth( int month );1;0;1
+GDurationBuilder.isValidDuration( GDurationSpecification spec );9;18;7
+GDurationBuilder.GDurationBuilder( GDurationSpecification gDuration );1;0;10
+GDurationBuilder.subtractGDuration( GDurationSpecification duration );1;2;4
+GDurationBuilder.setYear( int year );1;0;1
+GDurationBuilder._normalizeImpl( boolean adjustSign );33;65;53
+GDurationBuilder.isValid( );1;0;3
+GDurationBuilder.getMonth( );1;0;1
+GDurationBuilder.compareToGDuration( GDurationSpecification duration );1;0;3

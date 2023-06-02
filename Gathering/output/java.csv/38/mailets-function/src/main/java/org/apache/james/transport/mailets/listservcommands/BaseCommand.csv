@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BaseCommand.sendStandardReply( Mail origMail , String subject , String message , String replyAddress );3;1;17
+BaseCommand.initXMLResources( String [ ] names );1;0;3
+BaseCommand.getCommandListservManager( );1;0;3
+BaseCommand.generateMail( String destEmailAddr , String destDisplayName , String fromEmailAddr , String fromDisplayName , String emailSubject , String emailPlainText );1;0;17
+BaseCommand.init( ICommandListservManager commandListservManager , Configuration configuration );1;0;7
+BaseCommand.log( String message , Throwable t );1;0;8
+BaseCommand.log( String message );1;0;8
+BaseCommand.getMailetContext( );1;0;3
+BaseCommand.getConfiguration( );1;0;3
+BaseCommand.getCommandName( );1;0;3
+BaseCommand.getStandardProperties( );1;0;3
+BaseCommand.getUsersRepository( );1;0;3

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractIntegrationTest.getBundleVersion( String groupId , String artifactId );4;3;17
+AbstractIntegrationTest.localMavenBundle( String groupId , String artifact , String version , String classifier , String type );2;1;20
+AbstractIntegrationTest.getSnapshot( String version );2;1;6
+AbstractIntegrationTest.isSnapshot( String version );1;0;3
+AbstractIntegrationTest.getPlatformName( );3;1;6
+AbstractIntegrationTest.isTimestamped( String version );1;0;3
+AbstractIntegrationTest.checkBundleStarted( String name );3;2;11
+AbstractIntegrationTest.getOsgiService( Class < T > type );1;0;3
+AbstractIntegrationTest.serviceChanged( ServiceEvent event );2;1;6
+AbstractIntegrationTest.locateBundle( String bundleId );3;4;15
+AbstractIntegrationTest.getBundle( String groupId , String artifactId );1;2;3
+AbstractIntegrationTest.installBundle( String groupId , String artifactId , String classifier , String type );1;0;7
+AbstractIntegrationTest.getTestFrameworkBundlesNames( );1;0;25
+AbstractIntegrationTest.getOsgiService( Class < T > type , long timeout );5;1;31

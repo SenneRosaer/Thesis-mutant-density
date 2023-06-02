@@ -1,0 +1,62 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocumentTracer.startCDATA( Augmentations augs );2;2;10
+DocumentTracer.warning( String domain , String key , XMLParseException ex );1;0;3
+DocumentTracer.endDTD( Augmentations augs );2;2;11
+DocumentTracer.ignorableWhitespace( XMLString text , Augmentations augs );2;1;12
+DocumentTracer.occurrence( short occurrence , Augmentations augs );5;1;28
+DocumentTracer.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );2;1;13
+DocumentTracer.DocumentTracer( );1;0;3
+DocumentTracer.endGroup( Augmentations augs );2;2;11
+DocumentTracer.separator( short separator , Augmentations augs );4;1;24
+DocumentTracer.processingInstruction( String target , XMLString data , Augmentations augs );2;1;15
+DocumentTracer.fatalError( String domain , String key , XMLParseException ex );1;0;4
+DocumentTracer.endAttlist( Augmentations augs );2;2;11
+DocumentTracer.endContentModel( Augmentations augs );2;2;11
+DocumentTracer.printAugmentations( Augmentations augs );2;0;12
+DocumentTracer.unparsedEntityDecl( String name , XMLResourceIdentifier identifier , String notation , Augmentations augs );2;1;24
+DocumentTracer.pcdata( Augmentations augs );2;1;10
+DocumentTracer.characters( XMLString text , Augmentations augs );2;1;12
+DocumentTracer.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );2;1;18
+DocumentTracer.endDocument( Augmentations augs );2;2;11
+DocumentTracer.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );3;3;41
+DocumentTracer.xmlDecl( String version , String encoding , String standalone , Augmentations augs );2;1;17
+DocumentTracer.printInScopeNamespaces( );3;3;17
+DocumentTracer.notationDecl( String name , XMLResourceIdentifier identifier , Augmentations augs );2;1;21
+DocumentTracer.endParameterEntity( String name , Augmentations augs );2;2;13
+DocumentTracer.DocumentTracer( XMLParserConfiguration config );1;0;5
+DocumentTracer.startElement( QName element , XMLAttributes attributes , Augmentations augs );2;2;13
+DocumentTracer.endCDATA( Augmentations augs );2;2;11
+DocumentTracer.any( Augmentations augs );2;1;10
+DocumentTracer.comment( XMLString text , Augmentations augs );2;1;12
+DocumentTracer.startAttlist( String elementName , Augmentations augs );2;2;13
+DocumentTracer.startContentModel( String elementName , Augmentations augs );2;2;13
+DocumentTracer.textDecl( String version , String encoding , Augmentations augs );2;1;15
+DocumentTracer.endElement( QName element , Augmentations augs );2;2;26
+DocumentTracer.setOutput( OutputStream stream , String encoding );2;1;7
+DocumentTracer.printElement( QName element , XMLAttributes attributes );6;6;67
+DocumentTracer.ignoredCharacters( XMLString text , Augmentations augs );2;1;12
+DocumentTracer.externalEntityDecl( String name , XMLResourceIdentifier identifier , Augmentations augs );2;1;21
+DocumentTracer.printQuotedString( char [ ] ch , int offset , int length );2;3;7
+DocumentTracer.element( String elementName , Augmentations augs );2;1;12
+DocumentTracer.startConditional( short type , Augmentations augs );4;2;25
+DocumentTracer.startParameterEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );2;2;19
+DocumentTracer.empty( Augmentations augs );2;1;10
+DocumentTracer.elementDecl( String name , String contentModel , Augmentations augs );2;1;15
+DocumentTracer.startGroup( Augmentations augs );2;2;11
+DocumentTracer.endGeneralEntity( String name , Augmentations augs );2;2;13
+DocumentTracer.main( String [ ] argv );30;11;137
+DocumentTracer.setOutput( Writer writer );2;0;4
+DocumentTracer.error( String domain , String key , XMLParseException ex );1;0;3
+DocumentTracer.startDTD( XMLLocator locator , Augmentations augs );3;3;36
+DocumentTracer.normalizeAndPrint( char c );6;0;27
+DocumentTracer.printEndNamespaceMapping( );3;3;14
+DocumentTracer.printError( String type , XMLParseException ex );3;4;20
+DocumentTracer.startGeneralEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );2;2;19
+DocumentTracer.printIndent( );2;2;5
+DocumentTracer.startExternalSubset( XMLResourceIdentifier identifier , Augmentations augs );2;2;11
+DocumentTracer.printQuotedString( String s );3;3;13
+DocumentTracer.endConditional( Augmentations augs );2;2;11
+DocumentTracer.endExternalSubset( Augmentations augs );2;2;11
+DocumentTracer.printUsage( );7;0;31
+DocumentTracer.internalEntityDecl( String name , XMLString text , XMLString nonNormalizedText , Augmentations augs );2;1;19
+DocumentTracer.attributeDecl( String elementName , String attributeName , String type , String [ ] enumeration , String defaultType , XMLString defaultValue , XMLString nonNormalizedDefaultValue , Augmentations augs );7;8;54

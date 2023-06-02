@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CallableInterceptorChain.triggerAfterError( NativeWebRequest request , Callable < ? > task , Throwable throwable );5;2;18
+CallableInterceptorChain.CallableInterceptorChain( List < CallableProcessingInterceptor > interceptors );1;0;3
+CallableInterceptorChain.applyBeforeConcurrentHandling( NativeWebRequest request , Callable < ? > task );2;0;5
+***not in a method***;0;1;0
+CallableInterceptorChain.triggerAfterTimeout( NativeWebRequest request , Callable < ? > task );5;2;18
+CallableInterceptorChain.applyPostProcess( NativeWebRequest request , Callable < ? > task , Object concurrentResult );6;4;19
+CallableInterceptorChain.applyPreProcess( NativeWebRequest request , Callable < ? > task );2;1;6
+CallableInterceptorChain.setTaskFuture( Future < ? > taskFuture );1;0;3
+CallableInterceptorChain.triggerAfterCompletion( NativeWebRequest request , Callable < ? > task );4;3;12
+CallableInterceptorChain.cancelTask( );4;1;10

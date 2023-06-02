@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleAnnotationMetadataReadingVisitor.getSource( );2;1;8
+Source.Source( String className );1;0;3
+SimpleAnnotationMetadataReadingVisitor.visitMethod( int access , String name , String descriptor , String signature , String [ ] exceptions );3;1;7
+SimpleAnnotationMetadataReadingVisitor.getMetadata( );1;1;4
+SimpleAnnotationMetadataReadingVisitor.visit( int version , int access , String name , String signature , @ Nullable String supername , String [ ] interfaces );4;3;10
+SimpleAnnotationMetadataReadingVisitor.isInterface( int access );1;2;3
+SimpleAnnotationMetadataReadingVisitor.SimpleAnnotationMetadataReadingVisitor( @ Nullable ClassLoader classLoader );1;0;4
+SimpleAnnotationMetadataReadingVisitor.visitAnnotation( String descriptor , boolean visible );1;0;4
+SimpleAnnotationMetadataReadingVisitor.toClassName( String name );1;0;3
+Source.equals( @ Nullable Object obj );4;4;9
+SimpleAnnotationMetadataReadingVisitor.visitInnerClass( String name , @ Nullable String outerName , String innerName , int access );4;3;13
+Source.toString( );1;0;3
+SimpleAnnotationMetadataReadingVisitor.visitOuterClass( String owner , String name , String desc );1;0;3
+SimpleAnnotationMetadataReadingVisitor.isBridge( int access );1;2;3
+SimpleAnnotationMetadataReadingVisitor.visitEnd( );1;0;6
+Source.hashCode( );1;0;3

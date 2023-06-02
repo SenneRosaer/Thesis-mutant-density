@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IteratorUtils.IteratorUtils( );1;0;2
+IteratorUtils.toListIterator( Iterator iterator );2;1;6
+IteratorUtils.emptyOrderedIterator( );1;0;3
+IteratorUtils.emptyMapIterator( );1;0;3
+IteratorUtils.emptyIterator( );1;0;3
+IteratorUtils.objectGraphIterator( Object root , Transformer transformer );1;0;3
+IteratorUtils.loopingListIterator( List list );2;1;6
+IteratorUtils.asEnumeration( Iterator iterator );2;1;6
+IteratorUtils.filteredListIterator( ListIterator listIterator , Predicate predicate );3;2;9
+IteratorUtils.singletonIterator( Object object );1;0;3
+IteratorUtils.unmodifiableMapIterator( MapIterator mapIterator );1;0;3
+IteratorUtils.arrayListIterator( Object array , int start );1;0;3
+IteratorUtils.arrayIterator( Object [ ] array , int start , int end );1;0;3
+IteratorUtils.unmodifiableListIterator( ListIterator listIterator );1;0;3
+IteratorUtils.transformedIterator( Iterator iterator , Transformer transform );3;2;9
+IteratorUtils.arrayIterator( Object [ ] array , int start );1;0;3
+IteratorUtils.arrayListIterator( Object array );1;0;3
+IteratorUtils.arrayListIterator( Object [ ] array );1;0;3
+IteratorUtils.toList( Iterator iterator , int estimatedSize );4;2;13
+IteratorUtils.emptyListIterator( );1;0;3
+IteratorUtils.arrayListIterator( Object [ ] array , int start , int end );1;0;3
+IteratorUtils.asIterator( Enumeration enumeration );2;1;6
+IteratorUtils.chainedIterator( Collection iterators );1;0;3
+IteratorUtils.singletonListIterator( Object object );1;0;3
+IteratorUtils.toList( Iterator iterator );1;0;3
+IteratorUtils.collatedIterator( Comparator comparator , Iterator iterator1 , Iterator iterator2 );1;0;3
+IteratorUtils.arrayListIterator( Object array , int start , int end );1;0;3
+IteratorUtils.arrayListIterator( Object [ ] array , int start );1;0;3
+IteratorUtils.collatedIterator( Comparator comparator , Iterator [ ] iterators );1;0;3
+IteratorUtils.toArray( Iterator iterator );2;1;7
+IteratorUtils.arrayIterator( Object array , int start , int end );1;0;3
+IteratorUtils.chainedIterator( Iterator iterator1 , Iterator iterator2 );1;0;3
+IteratorUtils.arrayIterator( Object array );1;0;3
+IteratorUtils.getIterator( Object obj );13;4;31
+IteratorUtils.emptyOrderedMapIterator( );1;0;3
+IteratorUtils.collatedIterator( Comparator comparator , Collection iterators );1;0;3
+IteratorUtils.chainedIterator( Iterator [ ] iterators );1;0;3
+IteratorUtils.unmodifiableIterator( Iterator iterator );1;0;3
+IteratorUtils.arrayIterator( Object [ ] array );1;0;3
+IteratorUtils.filteredIterator( Iterator iterator , Predicate predicate );3;2;9
+IteratorUtils.arrayIterator( Object array , int start );1;0;3
+IteratorUtils.toArray( Iterator iterator , Class arrayClass );3;2;10
+IteratorUtils.loopingIterator( Collection coll );2;1;6
+IteratorUtils.asIterator( Enumeration enumeration , Collection removeCollection );3;2;9

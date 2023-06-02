@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SessionImpl.enqueueEvent( RepositoryEvent event );3;2;12
+SessionImpl.isDirty( Transactionable transactionable );1;0;3
+SessionImpl.setIdentity( Identity identity );1;0;3
+SessionImpl.getId( );1;0;3
+SessionImpl.getSharedItemStore( );3;1;10
+SessionImpl.registerRemoved( Transactionable object );1;0;3
+SessionImpl.SessionImpl( Identity identity , boolean modifiable , ServiceManager manager , Logger logger );5;1;22
+SessionImpl.isListenerRegistered( RepositoryListener listener );1;0;3
+SessionImpl.registerDirty( Transactionable object );1;0;3
+SessionImpl.getRepositoryItem( RepositoryItemFactory factory , String key );1;0;4
+SessionImpl.commit( );5;0;23
+SessionImpl.getIdentity( );1;0;3
+SessionImpl.getIdentityMap( );1;0;3
+SessionImpl.registerNew( Transactionable object );1;0;3
+SessionImpl.isModifiable( );1;1;3
+SessionImpl.createUuid( );3;1;15
+SessionImpl.rollback( );2;0;10
+SessionImpl.toString( );1;0;3
+SessionImpl.savePersistables( );5;4;12
+SessionImpl.removeLock( Lockable lockable );1;0;3
+SessionImpl.addListener( RepositoryListener listener );2;0;7
+SessionImpl.getUnitOfWork( );2;1;6
+SessionImpl.createLock( Lockable lockable , int version );1;0;3

@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DatabaseAddAction.getAddQuery( Configuration table );8;10;36
+DatabaseAddAction.processTable( Configuration table , Connection conn , Request request , Map results );14;23;67
+DatabaseAddAction.setSelectQuery( String tableName , Configuration entry );1;0;7
+DatabaseAddAction.getSelectQuery( Configuration entry );1;0;3
+DatabaseAddAction.getActualParam( String param , String wildcard );2;5;8
+DatabaseAddAction.setKey( Configuration table , Configuration key , Connection conn , PreparedStatement statement , int currentIndex , Request request , String param , Map results );4;1;29
+DatabaseAddAction.act( Redirector redirector , SourceResolver resolver , Map objectModel , String source , Parameters param );10;5;44

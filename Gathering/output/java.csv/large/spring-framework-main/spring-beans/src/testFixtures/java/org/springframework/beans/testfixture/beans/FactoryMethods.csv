@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FactoryMethods.getTestBean( );1;0;3
+FactoryMethods.getNum( );1;0;3
+FactoryMethods.defaultInstance( );1;0;5
+FactoryMethods.setName( String name );1;0;3
+FactoryMethods.protectedGetTestBean( );1;0;3
+FactoryMethods.newInstance( TestBean tb );1;0;3
+FactoryMethods.privateGetTestBean( );1;0;3
+FactoryMethods.setStringValue( String stringValue );1;0;3
+FactoryMethods.getName( );1;0;3
+FactoryMethods.newInstance( TestBean tb , int num , String name );2;1;6
+ExtendedFactoryMethods.ExtendedFactoryMethods( TestBean tb , String name , int num );1;0;3
+FactoryMethods.listInstance( );1;0;3
+FactoryMethods.FactoryMethods( TestBean tb , String name , int num );1;0;5
+FactoryMethods.getStringValue( );1;0;3
+FactoryMethods.nullInstance( );1;0;3
+FactoryMethods.newInstance( TestBean tb , int num , Integer something );2;1;6

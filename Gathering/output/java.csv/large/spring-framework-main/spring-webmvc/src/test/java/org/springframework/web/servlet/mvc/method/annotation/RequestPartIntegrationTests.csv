@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestPartIntegrationTests.testCreate( String url , String basename );1;0;11
+StandardMultipartResolverTestConfig.multipartResolver( );1;0;3
+RequestPartTestController.create( @ RequestPart ( name = "json-data" ) TestData testData , @ RequestPart ( "file-data" ) Optional < MultipartFile > file , @ RequestPart ( name = "empty-data" , required = false ) TestData emptyData , @ RequestPart ( name = "iso-8859-1-data" ) byte [ ] iso88591Data );1;0;7
+TestData.getName( );1;0;3
+RequestPartIntegrationTests.stopServer( );2;1;5
+TestData.TestData( );1;0;3
+RequestPartTestConfig.controller( );1;0;3
+RequestPartIntegrationTests.standardMultipartResolverWithEncodedFileName( );1;0;21
+TestData.setName( String name );1;0;3
+TestData.TestData( String name );1;0;3
+RequestPartTestController.create( @ RequestPart ( "file" ) MultipartFile multipartFile );1;0;4
+RequestPartIntegrationTests.startServer( );1;0;15
+RequestPartIntegrationTests.setup( );2;0;13
+RequestPartIntegrationTests.standardMultipartResolver( );1;0;4

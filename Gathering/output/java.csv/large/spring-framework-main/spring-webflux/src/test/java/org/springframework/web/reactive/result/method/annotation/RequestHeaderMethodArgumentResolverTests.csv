@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestHeaderMethodArgumentResolverTests.params( @ RequestHeader ( name = "name" , defaultValue = "bar" ) String param1 , @ RequestHeader ( "name" ) String [ ] param2 , @ RequestHeader ( name = "name" , defaultValue = "#{systemProperties.systemProperty}" ) String param3 , @ RequestHeader ( "#{systemProperties.systemProperty}" ) String param4 , @ RequestHeader ( "${systemProperty}" ) String param5 , @ RequestHeader ( "name" ) Map < ? , ? > unsupported , @ RequestHeader ( "name" ) Date dateParam , @ RequestHeader ( "name" ) Instant instantParam , @ RequestHeader Mono < String > alsoNotSupported );1;0;2
+RequestHeaderMethodArgumentResolverTests.setup( );2;0;19
+RequestHeaderMethodArgumentResolverTests.resolveStringArgument( );1;0;10
+RequestHeaderMethodArgumentResolverTests.resolveDefaultValue( );1;0;9
+RequestHeaderMethodArgumentResolverTests.resolveDefaultValueFromSystemProperty( );1;0;15
+RequestHeaderMethodArgumentResolverTests.supportsParameter( );1;0;8
+RequestHeaderMethodArgumentResolverTests.resolveStringArrayArgument( );1;0;10
+RequestHeaderMethodArgumentResolverTests.resolveNameFromSystemPropertyThroughExpression( );1;0;17
+RequestHeaderMethodArgumentResolverTests.notFound( );1;0;9
+RequestHeaderMethodArgumentResolverTests.dateConversion( );1;0;10
+RequestHeaderMethodArgumentResolverTests.instantConversion( );1;0;10
+RequestHeaderMethodArgumentResolverTests.resolveNameFromSystemPropertyThroughPlaceholder( );1;0;17

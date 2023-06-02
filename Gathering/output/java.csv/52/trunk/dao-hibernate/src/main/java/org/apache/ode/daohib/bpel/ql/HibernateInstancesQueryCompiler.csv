@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HibernateInstancesQueryCompiler.compileOrderBy( OrderBy orderBy );8;6;28
+DBFieldValueEq.DBFieldValueEq( String identifier , Object fieldValue );1;0;4
+HibernateInstancesQueryCompiler.getIdentifier( );1;0;3
+HibernateInstancesQueryCompiler.compileIdentifierToValueCMP( IdentifierToValueCMP node );12;1;31
+HibernateInstancesQueryCompiler.compileGreater( final Greater gt );4;0;35
+HibernateInstancesQueryCompiler.compileGE( final GE ge );4;0;35
+HibernateInstancesQueryCompiler.compileDisjunction( Collection < CommandEvaluator > childs );2;0;11
+HibernateInstancesQueryCompiler.compileEqual( final Equality eq );10;0;51
+HibernateInstancesQueryCompiler.compileConjunction( Collection < CommandEvaluator > childs );2;0;11
+HibernateInstancesQueryCompiler.compileLess( final Less less );4;0;35
+HibernateInstancesQueryCompiler.compile( final Query node );10;2;36
+FieldValueEquality.FieldValueEquality( String identifier );1;0;3
+HibernateInstancesQueryCompiler.main( String [ ] args );1;0;7
+HibernateInstancesQueryCompiler.compileLE( final LE le );4;0;34
+HibernateInstancesQueryCompiler.evaluate( Object arg );2;0;7
+HibernateInstancesQueryCompiler.compileIn( final In in );17;1;90
+DBFieldValueEq.evaluate( Object paramValue );1;0;3
+HibernateInstancesQueryCompiler.evaluate( LogicExprNode exprNode );2;0;7
+HibernateInstancesQueryCompiler.compileLike( final Like like );5;0;38
+HibernateInstancesQueryCompiler.evaluate( Session session );8;3;23
+HibernateInstancesQueryCompiler.init( );1;0;5
+HibernateInstancesQueryCompiler.evaluate( Object paramValue );2;7;9
+HibernateInstancesQueryCompiler.compileEvaluator( Object node );5;0;12
+HibernateInstancesQueryCompiler.getDBField( String name );2;1;7

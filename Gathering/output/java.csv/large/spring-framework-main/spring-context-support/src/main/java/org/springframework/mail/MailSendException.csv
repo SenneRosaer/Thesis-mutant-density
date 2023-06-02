@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MailSendException.MailSendException( String msg , @ Nullable Throwable cause );1;0;5
+MailSendException.MailSendException( @ Nullable String msg , @ Nullable Throwable cause , Map < Object , Exception > failedMessages );1;0;5
+MailSendException.getMessage( );5;5;21
+MailSendException.toString( );3;3;15
+MailSendException.getFailedMessages( );1;0;3
+MailSendException.MailSendException( Map < Object , Exception > failedMessages );1;0;3
+MailSendException.getMessageExceptions( );2;1;3
+MailSendException.printStackTrace( PrintStream ps );3;4;14
+MailSendException.MailSendException( String msg );1;0;3
+MailSendException.printStackTrace( PrintWriter pw );3;4;14

@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketIntegrationTests.customHeader( WebSocketClient client , HttpServer server , Class < ? > serverConfigClass );1;0;14
+WebSocketIntegrationTests.handle( WebSocketSession session );1;0;8
+WebConfig.handlerMapping( );1;0;9
+WebConfig.cookieWebFilter( );2;0;8
+SubProtocolWebSocketHandler.handle( WebSocketSession session );2;1;5
+WebSocketIntegrationTests.testEcho( );1;0;14
+WebSocketIntegrationTests.getWebConfigClass( );1;0;3
+WebSocketIntegrationTests.getSubProtocols( );1;0;3
+CookieHandler.handle( WebSocketSession session );1;0;4
+CustomHeaderHandler.handle( WebSocketSession session );1;0;6
+EchoWebSocketHandler.handle( WebSocketSession session );1;0;7
+WebSocketIntegrationTests.echo( WebSocketClient client , HttpServer server , Class < ? > serverConfigClass );2;0;11
+WebSocketIntegrationTests.subProtocol( WebSocketClient client , HttpServer server , Class < ? > serverConfigClass );1;0;28
+SessionClosingHandler.handle( WebSocketSession session );1;0;6
+WebSocketIntegrationTests.cookie( WebSocketClient client , HttpServer server , Class < ? > serverConfigClass );1;0;17
+WebSocketIntegrationTests.sessionClosing( WebSocketClient client , HttpServer server , Class < ? > serverConfigClass );1;0;17
+SubProtocolWebSocketHandler.getSubProtocols( );1;0;3

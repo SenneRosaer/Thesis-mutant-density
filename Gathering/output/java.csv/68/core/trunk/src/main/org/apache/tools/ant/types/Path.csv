@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Path.translatePath( Project project , String source );5;3;26
+Path.createPath( );1;0;5
+Path.createPathElement( );2;0;8
+Path.concatSpecialPath( String defValue , Path p );7;3;26
+Path.addFileset( FileSet fs );2;1;6
+Path.translateFileSep( StringBuffer buffer , int pos );3;3;7
+Path.setPath( String path );1;0;4
+Path.addExisting( Path source );1;0;3
+Path.delegateIteratorToList( );3;1;11
+Path.setLocation( File location );1;0;4
+Path.concatSystemClasspath( );1;0;3
+PathElement.setPath( String path );1;0;3
+Path.dieOnCircularReference( Stack stk , Project p );4;1;13
+Path.size( );3;1;7
+Path.add( Path path );3;2;9
+Path.append( Path other );2;1;6
+Path.addExisting( Path source , boolean tryUserDir );6;4;17
+Path.clone( );3;1;9
+PathElement.getParts( );1;0;3
+Path.addJavaRuntime( );7;29;62
+Path.getPreserveBC( );3;1;6
+Path.isFilesystemOnly( );2;0;8
+Path.toString( );3;1;4
+Path.addDirset( DirSet dset );2;1;6
+Path.Path( Project p , String path );1;0;4
+PathElement.setLocation( File loc );1;0;3
+Path.addFilelist( FileList fl );2;1;6
+Path.list( );3;1;7
+Path.resolveFile( Project project , String relativeName );2;1;4
+Path.assertFilesystemOnly( ResourceCollection rc );3;3;7
+Path.addExtdirs( Path extdirs );6;5;20
+Path.Path( Project project );1;0;3
+Path.concatSystemClasspath( String defValue );1;0;3
+Path.setRefid( Reference r );2;1;6
+Path.translateFile( String source );3;3;10
+PathElement.iterator( );1;0;3
+Path.add( ResourceCollection c );3;2;13
+PathElement.isFilesystemOnly( );1;0;3
+Path.iterator( );4;1;11
+PathElement.size( );2;1;3
+Path.concatSystemBootClasspath( String defValue );1;0;3

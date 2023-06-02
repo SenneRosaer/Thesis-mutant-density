@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CollatingIterator.getIteratorIndex( );2;2;6
+CollatingIterator.getIterators( );1;0;3
+CollatingIterator.setIterator( final int index , final Iterator iterator );2;1;7
+***not in a method***;0;1;0
+CollatingIterator.CollatingIterator( final Comparator comp , final Iterator a , final Iterator b );1;0;5
+CollatingIterator.hasNext( );2;1;4
+CollatingIterator.least( );6;7;22
+CollatingIterator.addIterator( final Iterator iterator );2;1;7
+CollatingIterator.CollatingIterator( final Comparator comp , final int initIterCapacity );1;0;4
+CollatingIterator.set( int i );2;0;12
+CollatingIterator.CollatingIterator( );1;0;3
+CollatingIterator.clear( int i );1;0;4
+CollatingIterator.setComparator( final Comparator comp );1;0;4
+CollatingIterator.start( );3;3;10
+CollatingIterator.anyHasNext( ArrayList iters );3;2;9
+CollatingIterator.checkNotStarted( );2;1;5
+CollatingIterator.CollatingIterator( final Comparator comp );1;0;3
+CollatingIterator.getComparator( );1;0;3
+CollatingIterator.anyValueSet( BitSet set );3;2;8
+CollatingIterator.remove( );2;2;7
+CollatingIterator.CollatingIterator( final Comparator comp , final Collection iterators );2;0;7
+CollatingIterator.next( );3;3;14
+CollatingIterator.CollatingIterator( final Comparator comp , final Iterator [ ] iterators );2;2;6

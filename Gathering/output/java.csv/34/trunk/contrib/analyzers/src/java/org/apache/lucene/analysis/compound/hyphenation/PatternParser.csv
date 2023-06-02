@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PatternParser.PatternParser( );1;0;8
+PatternParser.addClass( String c );1;0;3
+PatternParser.parse( InputSource source );4;0;11
+PatternParser.getLocationString( SAXParseException ex );3;4;16
+PatternParser.warning( SAXParseException ex );1;0;3
+PatternParser.getPattern( String word );3;3;10
+PatternParser.resolveEntity( String publicId , String systemId );1;0;3
+PatternParser.readToken( StringBuffer chars );10;13;42
+PatternParser.error( SAXParseException ex );1;0;3
+PatternParser.setConsumer( PatternConsumer consumer );1;0;3
+HyphenationDTDGenerator.generateDTD( );1;0;3
+PatternParser.PatternParser( PatternConsumer consumer );1;0;4
+PatternParser.getInterletterValues( String pat );3;3;15
+PatternParser.createParser( );2;0;9
+PatternParser.addPattern( String p , String v );1;0;3
+PatternParser.fatalError( SAXParseException ex );1;0;4
+PatternParser.main( String [ ] args );2;1;7
+PatternParser.parse( String filename );1;0;3
+PatternParser.normalizeException( ArrayList ex );6;6;28
+PatternParser.addException( String w , ArrayList e );1;0;3
+PatternParser.startElement( String uri , String local , String raw , Attributes attrs );9;4;23
+PatternParser.getExceptionWord( ArrayList ex );4;3;14
+PatternParser.characters( char ch [ ] , int start , int length );5;1;23
+PatternParser.parse( File file );2;0;9
+PatternParser.endElement( String uri , String local , String raw );8;3;29

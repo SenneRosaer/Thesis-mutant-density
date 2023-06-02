@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompositeLog.isTraceEnabled( );1;0;3
+CompositeLog.debug( Object message , Throwable ex );1;0;3
+CompositeLog.isErrorEnabled( );1;0;3
+CompositeLog.error( Object message );1;0;3
+CompositeLog.isDebugEnabled( );1;0;3
+CompositeLog.isInfoEnabled( );1;0;3
+CompositeLog.trace( Object message );1;0;3
+CompositeLog.info( Object message );1;0;3
+CompositeLog.isEnabled( Predicate < Log > predicate );1;1;3
+CompositeLog.debug( Object message );1;0;3
+CompositeLog.error( Object message , Throwable ex );1;0;3
+CompositeLog.trace( Object message , Throwable ex );1;0;3
+CompositeLog.info( Object message , Throwable ex );1;0;3
+CompositeLog.getLogger( Predicate < Log > predicate );3;0;8
+CompositeLog.CompositeLog( List < Log > loggers );1;0;3
+CompositeLog.warn( Object message , Throwable ex );1;0;3
+CompositeLog.fatal( Object message , Throwable ex );1;0;3
+CompositeLog.fatal( Object message );1;0;3
+CompositeLog.isFatalEnabled( );1;0;3
+CompositeLog.warn( Object message );1;0;3
+CompositeLog.isWarnEnabled( );1;0;3

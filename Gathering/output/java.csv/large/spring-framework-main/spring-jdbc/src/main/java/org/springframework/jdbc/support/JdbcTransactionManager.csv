@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JdbcTransactionManager.JdbcTransactionManager( DataSource dataSource );1;0;5
+JdbcTransactionManager.getExceptionTranslator( );4;2;19
+JdbcTransactionManager.afterPropertiesSet( );2;1;6
+JdbcTransactionManager.JdbcTransactionManager( );1;0;3
+JdbcTransactionManager.setExceptionTranslator( SQLExceptionTranslator exceptionTranslator );1;0;3
+JdbcTransactionManager.translateException( String task , SQLException ex );2;1;7
+JdbcTransactionManager.setDatabaseProductName( String dbName );2;0;8
+JdbcTransactionManager.isLazyInit( );1;0;3
+JdbcTransactionManager.setLazyInit( boolean lazyInit );1;0;3

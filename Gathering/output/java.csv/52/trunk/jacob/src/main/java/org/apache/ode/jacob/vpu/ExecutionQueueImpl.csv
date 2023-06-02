@@ -1,0 +1,62 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExecutionQueueImpl.ExecutionQueueImpl( ClassLoader classLoader );1;0;3
+ExecutionQueueImpl.consumeExport( String exportId );2;1;12
+ExecutionQueueImpl.read( InputStream iis );7;12;38
+ExecutionQueueImpl.isComplete( );4;2;11
+ExecutionQueueImpl.getGlobalData( );1;0;3
+ExecutionQueueStatistics.printStatistics( PrintStream ps );3;2;12
+ExecutionQueueImpl.hasReactions( );1;1;3
+***not in a method***;0;2;0
+ObjectFrame.writeExternal( ObjectOutput out );1;0;4
+MessageFrame.MessageFrame( CommGroupFrame commFrame , ChannelFrame channelFrame , String method , Object [ ] args );2;1;5
+ChannelFrame.toString( );3;0;23
+ExecutionQueueImpl.cycle( );2;1;6
+ExecutionQueueOutputStream.ExecutionQueueOutputStream( OutputStream outputStream );1;0;4
+ExecutionQueueImpl.removeCommGroup( CommGroupFrame groupFrame );3;0;13
+ExecutionQueueInputStream.resolveObject( Object obj );7;4;20
+ExecutionQueueImpl.add( CommChannel channel );2;1;9
+ExecutionQueueInputStream.ExecutionQueueInputStream( InputStream in );1;0;4
+ExecutionQueueOutputStream.replaceObject( Object obj );6;3;15
+ObjectFrame.ObjectFrame( CommGroupFrame commGroupFrame , ChannelFrame channelFrame , ChannelListener continuation );1;0;4
+CommGroupFrame.CommGroupFrame( boolean replicated );1;0;3
+ExecutionQueueImpl.findChannelFrame( Object id );2;1;7
+ExecutionQueueInputStream.resolveClass( ObjectStreamClass desc );1;0;3
+ExecutionQueueImpl.matchCommunications( CommChannel channel );8;9;22
+ExecutionQueueImpl.createExport( CommChannel channel );2;1;7
+ChannelRef.ChannelRef( Class type , Integer id );1;0;4
+ExecutionQueueImpl.index( IndexedObject object );2;1;8
+ExecutionQueueImpl.setClassLoader( ClassLoader classLoader );1;0;3
+MessageFrame.MessageFrame( );1;0;3
+CommFrame.CommFrame( CommGroupFrame commGroupFrame , ChannelFrame channelFrame );1;0;4
+ChannelFrame.ChannelFrame( );1;0;2
+CommFrame.CommFrame( );1;0;2
+ChannelFrame.readExternal( ObjectInput in );3;4;16
+ExecutionQueueImpl.setGlobalData( Serializable data );1;0;3
+ExecutionQueueImpl.dumpState( PrintStream ps );3;2;16
+ExecutionQueueImpl.assignId( ExecutionQueueObject so , Object id );1;0;3
+MessageFrame.readExternal( ObjectInput in );2;2;8
+ExecutionQueueImpl.verifyNew( ExecutionQueueObject so );2;1;4
+ExecutionQueueInputStream.readClassDescriptor( );8;1;24
+ChannelFrame.getId( );1;0;3
+ExecutionQueueImpl.write( OutputStream oos );14;7;46
+ExecutionQueueImpl.flush( );2;0;5
+ObjectFrame.readExternal( ObjectInput in );1;0;4
+ObjectFrame.ObjectFrame( );1;0;3
+MessageFrame.writeExternal( ObjectOutput out );2;2;7
+ExecutionQueueInputStream.getSerializedChannels( );1;0;3
+ChannelRef.writeExternal( ObjectOutput out );1;0;4
+ChannelFrame.ChannelFrame( Class type , int id , String name , String description );1;0;5
+ExecutionQueueImpl.dequeueReaction( );3;1;12
+ExecutionQueueImpl.add( CommGroup group );10;0;38
+ExecutionQueueImpl.enqueueReaction( Continuation continuation );2;0;7
+CommFrame.readExternal( ObjectInput in );1;0;4
+ExecutionQueueImpl.getIndex( );1;0;3
+ChannelRef.equals( Object obj );1;0;3
+ExecutionQueueOutputStream.writeClassDescriptor( ObjectStreamClass desc );2;0;9
+ExecutionQueueOutputStream.getSerializedChannels( );1;0;3
+ExecutionQueueImpl.setReplacementMap( ReplacementMap replacementMap );1;0;3
+ChannelRef.ChannelRef( );1;0;2
+CommFrame.writeExternal( ObjectOutput out );1;0;4
+ChannelFrame.writeExternal( ObjectOutput out );4;1;15
+ChannelRef.hashCode( );1;0;3
+ChannelRef.readExternal( ObjectInput in );1;0;4

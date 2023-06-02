@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CollectionsX.transform( C dest , Enumeration < E > i , UnaryFunction < E , V > f );2;0;6
+CollectionsX.apply( Iterator < T > i , UnaryFunction < T , ? > f );2;0;5
+CollectionsX.insert( Collection < T > coll , Iterator < ? extends T > i );2;0;6
+CollectionsX.apply( Map . Entry x );1;0;3
+CollectionsX.find_if( Collection < T > coll , MemberOfFunction < ? super T > f );1;0;3
+CollectionsX.remove_if( Collection < T > coll , MemberOfFunction < T > f );3;0;9
+CollectionsX.insert( Collection < T > coll , Enumeration < ? extends T > e );2;0;6
+CollectionsX.apply( Iterator < T > i , UnaryFunctionEx < T , ? > f );2;0;5
+CollectionsX.insert( Collection < T > coll , Collection < ? extends T > src );1;0;3
+CollectionsX.transform( C dest , Collection < E > src , UnaryFunction < E , V > f );2;0;7
+CollectionsX.filter( C dest , Collection < S > source , MemberOfFunction < S > function );1;0;3
+CollectionsX.transformEx( C dest , Collection < E > src , UnaryFunctionEx < E , V > f );2;0;7
+CollectionsX.filter( Collection src , final Class < T > aClass );1;0;3
+CollectionsX.apply( Collection < T > coll , UnaryFunctionEx < T , ? > f );1;0;3
+CollectionsX.find_if( Iterator < T > i , MemberOfFunction < ? super T > f );3;0;9
+CollectionsX.filter( C dest , Collection < S > src , Class < T > t );1;0;3
+CollectionsX.filter( C newList , Iterator < S > iterator , Class < T > t );3;0;9
+CollectionsX.filter( C dest , Iterator < S > source , MemberOfFunction < S > function );3;0;9
+CollectionsX.apply( Collection < T > coll , UnaryFunction < T , ? > f );1;0;3

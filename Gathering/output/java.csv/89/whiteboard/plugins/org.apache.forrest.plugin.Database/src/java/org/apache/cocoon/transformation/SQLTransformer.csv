@@ -1,0 +1,62 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Query.serializeRow( ServiceManager manager );6;8;16
+Query.getConnection( );13;11;53
+Query.registerInParameters( PreparedStatement pst );4;1;17
+Query.setName( String name );1;0;3
+Query.serializeData( ServiceManager manager , String value );10;9;37
+SQLTransformer.endEscapeStringElement( );4;1;19
+Query.registerOutParameters( CallableStatement cst );5;4;30
+***not in a method***;0;1;0
+Query.execute( );15;10;61
+SQLTransformer.end( String name );3;0;9
+Query.setOutParameter( int pos , String type , String name );2;1;8
+Query.setStoredProcedure( boolean flag );1;0;3
+SQLTransformer.setup( SourceResolver resolver , Map objectModel , String source , Parameters parameters );3;2;21
+Query.setConnection( Connection conn );1;0;3
+SQLTransformer.endSubstituteValueElement( );1;0;3
+Query.Query( SQLTransformer transformer , int query_index );1;0;6
+SQLTransformer.startOutParameterElement( Attributes attributes );3;0;20
+SQLTransformer.endInParameterElement( );1;0;3
+Query.isStoredProcedure( );1;0;3
+SQLTransformer.setDocumentLocator( Locator locator );2;0;7
+SQLTransformer.startExecuteQueryElement( );3;0;13
+SQLTransformer.getQuery( int i );1;0;3
+SQLTransformer.endOutParameterElement( );1;0;3
+SQLTransformer.data( String data );2;1;5
+SQLTransformer.endTransformingElement( String uri , String name , String raw );11;2;25
+SQLTransformer.endQueryElement( );4;1;16
+SQLTransformer.dispose( );2;1;6
+Query.getColumnName( String tempColumnName );4;0;12
+Query.getName( );1;0;3
+Query.close( );6;5;19
+SQLTransformer.startSubstituteValueElement( Attributes attributes );6;2;29
+SQLTransformer.startAncestorValueElement( Attributes attributes );8;2;39
+SQLTransformer.SQLTransformer( );2;0;11
+Query.setInParameter( int pos , String val );2;1;6
+SQLTransformer.getStringValue( Object object );4;1;11
+Query.next( );5;5;13
+SQLTransformer.startQueryElement( Attributes attributes );7;7;24
+SQLTransformer.startValueElement( String name );2;0;12
+SQLTransformer.executeQuery( int index );18;11;80
+SQLTransformer.getTheLogger( );1;0;3
+SQLTransformer.startTransformingElement( String uri , String name , String raw , Attributes attributes );9;0;22
+SQLTransformer.nsQualify( String name , String prefix );3;0;10
+Query.setUpdate( boolean flag );1;0;3
+SQLTransformer.startEscapeStringElement( Attributes attributes );4;1;17
+SQLTransformer.endValueElement( );3;0;16
+SQLTransformer.configure( Configuration conf );2;0;10
+Query.getNrOfRows( );5;3;21
+SQLTransformer.start( String name , AttributesImpl attr );3;0;10
+SQLTransformer.endAncestorValueElement( );1;0;3
+AncestorValue.AncestorValue( int level , String name );1;0;4
+Query.serializeStoredProcedure( ServiceManager manager );11;9;50
+SQLTransformer.throwIllegalStateException( String message );1;0;3
+SQLTransformer.endExecuteQueryElement( );3;2;16
+Query.getColumnValue( int i );5;4;24
+SQLTransformer.recycle( );3;1;20
+SQLTransformer.getCurrentQuery( );1;0;3
+Query.setParameter( String name , String value );1;0;3
+SQLTransformer.service( ServiceManager manager );2;0;9
+Query.getColumnValue( String name );1;0;4
+SQLTransformer.startInParameterElement( Attributes attributes );3;0;18
+Query.addQueryPart( Object object );1;0;3

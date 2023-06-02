@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCLLogger.isDebugEnabled( );1;0;3
+JCLLogger.warn( String msg , Throwable th );1;0;3
+JCLLogger.info( String msg , Object arg0 , Object arg1 );2;0;5
+JCLLogger.debug( String msg , Object arg0 , Object arg1 );2;0;5
+JCLLogger.warn( String msg , Object arg0 , Object arg1 );2;0;5
+JCLLogger.getLogger( String loggerName );2;2;6
+JCLLogger.JCLLogger( );1;0;3
+JCLLogger.arrayFormat( String messagePattern , Object [ ] argArray );9;19;41
+JCLLogger.debug( String msg , Throwable th );1;0;3
+JCLLogger.JCLLogger( String name );1;0;4
+JCLLogger.setDebugEnabled( boolean enabled );1;0;3
+JCLLogger.init( );4;1;16

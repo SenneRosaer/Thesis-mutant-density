@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SharedFlowController.ensureFailover( HttpServletRequest request );1;1;8
+SharedFlowController.savePreviousActionInfo( ActionForm form , HttpServletRequest request , ActionMapping mapping , ServletContext servletContext );2;1;4
+SharedFlowController.getPreviousPageInfoLegacy( PageFlowController curJpf , HttpServletRequest request );1;1;4
+SharedFlowController.persistInSession( HttpServletRequest request , HttpServletResponse response );1;1;8
+SharedFlowController.savePreviousPageInfo( ActionForward forward , ActionForm form , ActionMapping mapping , HttpServletRequest request , ServletContext servletContext , boolean isSpecialForward );6;5;13
+SharedFlowController.getDisplayName( );1;0;3
+SharedFlowController.getModulePath( );3;4;16
+SharedFlowController.getURI( );1;0;3
+SharedFlowController.removeFromSession( HttpServletRequest request );1;0;3

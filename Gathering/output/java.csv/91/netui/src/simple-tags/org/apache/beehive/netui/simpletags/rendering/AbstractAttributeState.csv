@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractAttributeState.registerAttribute( int type , String attrName , String value );1;0;3
+AbstractAttributeState.clear( );2;1;4
+AbstractAttributeState.removeAttribute( int type , String attrName );2;1;10
+AbstractAttributeState.getAttribute( int type , String attrName );2;1;6
+AbstractAttributeState.selectMap( int type , boolean createIfNull );4;3;9
+AbstractAttributeState.getGeneralAttributeMap( );1;0;3
+AbstractAttributeState.registerAttribute( int type , String attrName , String value , boolean ignoreEmpty );5;4;15

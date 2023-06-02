@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServerHttpObservationFilter.findObservationContext( ServerWebExchange exchange );1;0;3
+ServerHttpObservationFilter.filter( ServerWebExchange exchange , WebFilterChain chain );1;0;6
+ServerHttpObservationFilter.ServerHttpObservationFilter( ObservationRegistry observationRegistry , ServerRequestObservationConvention observationConvention );1;0;4
+ServerHttpObservationFilter.onTerminalSignal( Observation observation , ServerWebExchange exchange );2;0;12
+ServerHttpObservationFilter.filter( ServerWebExchange exchange , ServerRequestObservationContext observationContext , Mono < Void > call );3;1;20
+ServerHttpObservationFilter.ServerHttpObservationFilter( ObservationRegistry observationRegistry );1;0;3

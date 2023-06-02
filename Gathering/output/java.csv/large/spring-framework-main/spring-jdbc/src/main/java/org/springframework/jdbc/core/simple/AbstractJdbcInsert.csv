@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractJdbcInsert.setAccessTableColumnMetaData( boolean accessTableColumnMetaData );1;0;3
+AbstractJdbcInsert.matchInParameterValuesWithInsertColumns( SqlParameterSource parameterSource );1;0;3
+AbstractJdbcInsert.isCompiled( );1;0;3
+AbstractJdbcInsert.prepareStatementForGeneratedKeys( Connection con );5;1;20
+AbstractJdbcInsert.matchInParameterValuesWithInsertColumns( Map < String , ? > args );1;0;3
+AbstractJdbcInsert.setColumnNames( List < String > columnNames );1;0;5
+AbstractJdbcInsert.getTableName( );1;0;3
+AbstractJdbcInsert.onCompileInternal( );1;0;2
+AbstractJdbcInsert.doExecute( SqlParameterSource parameterSource );1;0;5
+AbstractJdbcInsert.executeBatchInternal( final List < List < Object > > batchValues );2;0;16
+AbstractJdbcInsert.executeInsertAndReturnKeyInternal( final List < ? > values );2;1;10
+AbstractJdbcInsert.compileInternal( );2;1;11
+AbstractJdbcInsert.setGeneratedKeyNames( String ... generatedKeyNames );1;0;4
+AbstractJdbcInsert.doExecuteAndReturnKeyHolder( Map < String , ? > args );1;0;5
+AbstractJdbcInsert.getBatchSize( );1;0;3
+AbstractJdbcInsert.getInsertString( );1;0;3
+AbstractJdbcInsert.setTableName( @ Nullable String tableName );1;0;4
+AbstractJdbcInsert.setValues( PreparedStatement ps , int i );1;0;3
+AbstractJdbcInsert.compile( );5;2;18
+AbstractJdbcInsert.doExecuteAndReturnKeyHolder( SqlParameterSource parameterSource );1;0;5
+AbstractJdbcInsert.doExecuteBatch( Map < String , ? > ... batch );3;0;8
+AbstractJdbcInsert.setSchemaName( @ Nullable String schemaName );1;0;4
+AbstractJdbcInsert.doExecute( Map < String , ? > args );1;0;5
+AbstractJdbcInsert.checkCompiled( );2;1;6
+AbstractJdbcInsert.setParameterValues( PreparedStatement preparedStatement , List < ? > values , @ Nullable int ... columnTypes );4;5;12
+AbstractJdbcInsert.getSchemaName( );1;0;3
+AbstractJdbcInsert.getJdbcTemplate( );1;0;3
+AbstractJdbcInsert.executeInsertInternal( List < ? > values );2;0;6
+AbstractJdbcInsert.AbstractJdbcInsert( JdbcTemplate jdbcTemplate );1;0;4
+AbstractJdbcInsert.AbstractJdbcInsert( DataSource dataSource );1;0;3
+AbstractJdbcInsert.doExecuteAndReturnKey( SqlParameterSource parameterSource );1;0;5
+AbstractJdbcInsert.executeInsertAndReturnKeyHolderInternal( final List < ? > values );8;6;72
+AbstractJdbcInsert.setOverrideIncludeSynonymsDefault( boolean override );1;0;3
+AbstractJdbcInsert.setCatalogName( @ Nullable String catalogName );1;0;4
+AbstractJdbcInsert.getColumnNames( );1;0;3
+AbstractJdbcInsert.doExecuteBatch( SqlParameterSource ... batch );2;0;8
+AbstractJdbcInsert.doExecuteAndReturnKey( Map < String , ? > args );1;0;5
+AbstractJdbcInsert.getInsertTypes( );1;0;3
+AbstractJdbcInsert.checkIfConfigurationModificationIsAllowed( );2;0;6
+AbstractJdbcInsert.getGeneratedKeyNames( );1;0;3
+AbstractJdbcInsert.getCatalogName( );1;0;3
+AbstractJdbcInsert.setGeneratedKeyName( String generatedKeyName );1;0;4

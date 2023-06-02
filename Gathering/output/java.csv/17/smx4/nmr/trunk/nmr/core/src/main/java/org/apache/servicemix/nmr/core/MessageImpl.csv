@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageImpl.getHeader( String name , Class < T > type );2;1;6
+MessageImpl.toString( );1;0;3
+MessageImpl.getAttachment( String id );2;1;6
+MessageImpl.getBody( );1;0;3
+MessageImpl.getBody( Class < T > type );1;0;3
+***not in a method***;0;1;0
+MessageImpl.removeHeader( String name );2;1;6
+MessageImpl.display( boolean displayContent );2;0;6
+MessageImpl.setHeaders( Map < String , Object > headers );1;0;3
+MessageImpl.getSecuritySubject( );1;0;3
+MessageImpl.getAttachments( );2;1;6
+MessageImpl.getContentType( );1;0;3
+MessageImpl.getHeaders( );2;1;6
+MessageImpl.getContentEncoding( );1;0;3
+MessageImpl.readObject( java . io . ObjectInputStream stream );1;0;3
+MessageImpl.MessageImpl( );1;0;2
+MessageImpl.writeObject( java . io . ObjectOutputStream out );1;0;4
+MessageImpl.getHeader( Class < T > type );2;1;6
+MessageImpl.setBody( Object body );1;0;3
+MessageImpl.setSecuritySubject( Subject securitySubject );1;0;3
+MessageImpl.removeAttachment( String id );2;1;5
+MessageImpl.removeHeader( Class < T > type );1;0;3
+MessageImpl.copy( );1;0;5
+MessageImpl.setContentEncoding( String encoding );1;0;3
+MessageImpl.addAttachment( String id , Object value );2;1;6
+MessageImpl.copyFrom( Message msg );5;2;19
+MessageImpl.ensureReReadable( );1;0;3
+MessageImpl.convert( Object body , Class < T > type );4;1;13
+MessageImpl.setHeader( String name , Object value );2;1;6
+MessageImpl.getHeader( String name );2;1;6
+MessageImpl.setContentType( String type );1;0;3
+MessageImpl.setHeader( Class < T > type , T value );2;1;6
+MessageImpl.setBody( Object content , Class < T > type );2;1;4

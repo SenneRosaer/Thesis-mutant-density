@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SoftReferenceGrammarPool.equals( XMLGrammarDescription desc1 , XMLGrammarDescription desc2 );9;7;29
+SoftReferenceGrammarPool.clear( );3;3;9
+SoftReferenceGrammarPool.removeEntry( Entry entry );3;3;14
+SoftReferenceGrammarPool.unlockPool( );1;0;3
+SoftReferenceGrammarPool.putGrammar( Grammar grammar );6;8;21
+SoftGrammarReference.SoftGrammarReference( Entry entry , Grammar grammar , ReferenceQueue queue );1;0;4
+SoftReferenceGrammarPool.retrieveGrammar( XMLGrammarDescription desc );1;0;3
+SoftReferenceGrammarPool.retrieveInitialGrammarSet( String grammarType );1;0;6
+SoftReferenceGrammarPool.containsGrammar( XMLGrammarDescription desc );5;6;17
+Entry.Entry( int hash , int bucket , XMLGrammarDescription desc , Grammar grammar , Entry next , ReferenceQueue queue );2;1;11
+Entry.clear( );2;1;8
+SoftReferenceGrammarPool.hashCode( XMLGrammarDescription desc );4;3;11
+SoftReferenceGrammarPool.removeGrammar( XMLGrammarDescription desc );4;5;13
+SoftReferenceGrammarPool.clean( );3;2;10
+SoftReferenceGrammarPool.cacheGrammars( String grammarType , Grammar [ ] grammars );3;3;7
+SoftReferenceGrammarPool.lockPool( );1;0;3
+SoftReferenceGrammarPool.getGrammar( XMLGrammarDescription desc );5;6;17
+SoftReferenceGrammarPool.SoftReferenceGrammarPool( );1;0;4
+SoftReferenceGrammarPool.SoftReferenceGrammarPool( int initialCapacity );1;0;4

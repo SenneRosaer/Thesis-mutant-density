@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractMapBag.containsAll( Bag other );3;2;10
+AbstractMapBag.removeAll( Collection coll );4;2;11
+AbstractMapBag.retainAll( Bag other );5;5;19
+AbstractMapBag.clear( );1;1;5
+AbstractMapBag.isEmpty( );1;0;3
+AbstractMapBag.uniqueSet( );2;1;6
+AbstractMapBag.contains( Object object );1;0;3
+AbstractMapBag.doWriteObject( ObjectOutputStream out );2;0;8
+BagIterator.remove( );4;5;16
+MutableInteger.hashCode( );1;0;3
+AbstractMapBag.getMap( );1;0;3
+AbstractMapBag.remove( Object object , int nCopies );4;7;18
+AbstractMapBag.retainAll( Collection coll );2;0;6
+AbstractMapBag.add( Object object );1;0;3
+AbstractMapBag.toString( );4;1;20
+AbstractMapBag.containsAll( Collection coll );2;0;6
+MutableInteger.MutableInteger( int value );1;0;3
+AbstractMapBag.hashCode( );3;3;10
+AbstractMapBag.toArray( );3;3;12
+AbstractMapBag.AbstractMapBag( );1;0;3
+AbstractMapBag.toArray( Object [ ] array );5;5;18
+AbstractMapBag.size( );1;0;3
+BagIterator.next( );3;3;12
+AbstractMapBag.equals( Object object );6;4;19
+AbstractMapBag.getCount( Object object );2;1;7
+AbstractMapBag.add( Object object , int nCopies );3;5;16
+AbstractMapBag.addAll( Collection coll );3;1;9
+AbstractMapBag.iterator( );1;0;3
+AbstractMapBag.AbstractMapBag( Map map );1;0;4
+BagIterator.hasNext( );2;2;3
+AbstractMapBag.remove( Object object );2;3;10
+MutableInteger.equals( Object obj );2;2;6
+AbstractMapBag.doReadObject( Map map , ObjectInputStream in );2;3;10
+BagIterator.BagIterator( AbstractMapBag parent );1;0;7

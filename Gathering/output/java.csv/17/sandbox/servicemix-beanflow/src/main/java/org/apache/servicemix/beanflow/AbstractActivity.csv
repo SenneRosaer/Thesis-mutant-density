@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractActivity.removeListeners( Runnable listener );3;1;8
+AbstractActivity.getIntrospector( );1;0;3
+AbstractActivity.join( int time , TimeUnit unit );3;1;17
+AbstractActivity.doStop( );1;0;3
+AbstractActivity.doStart( );1;0;3
+AbstractActivity.isFailed( );1;0;3
+AbstractActivity.onFailure( final Runnable runnable );2;0;9
+AbstractActivity.getFailedReason( );1;0;3
+AbstractActivity.onStop( final Runnable runnable );2;0;9
+AbstractActivity.fail( String message , Throwable e );1;0;4
+AbstractActivity.addListeners( Runnable listener );3;1;8
+AbstractActivity.isStopped( );1;0;3
+AbstractActivity.start( );2;0;6
+AbstractActivity.stop( );2;1;6
+AbstractActivity.getFailedException( );1;0;3
+AbstractActivity.getState( );1;0;3
+AbstractActivity.run( );2;0;5
+AbstractActivity.join( );3;1;16
+AbstractActivity.fail( String reason );1;0;5
+AbstractActivity.setIntrospector( Introspector introspector );1;0;3

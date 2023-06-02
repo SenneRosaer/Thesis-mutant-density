@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StompDecoderTests.decodeFrameWithHeaderWithEmptyValue( );1;0;11
+StompDecoderTests.decodeFrame( );1;0;9
+StompDecoderTests.decodeFrameWithoutNullOctetTerminator( );1;0;5
+StompDecoderTests.decodeFrameWithIncompleteContentType( );1;0;3
+StompDecoderTests.decode( ByteBuffer buffer );2;0;9
+StompDecoderTests.decodeFrameWithHeaderWithBackslashValue( );1;0;11
+StompDecoderTests.decodeFrameBodyNotAllowed( );1;0;4
+StompDecoderTests.decodeFrameWithIncompleteCommand( );1;0;3
+StompDecoderTests.decodeFrameWithInvalidContentType( );1;0;4
+StompDecoderTests.decodeFrameWithCrLfEols( );1;0;7
+StompDecoderTests.decode( String stompFrame );1;0;4
+StompDecoderTests.decodeFrameWithIncorrectTerminator( );1;0;4
+StompDecoderTests.decodeFrameWithInsufficientContent( );1;0;3
+StompDecoderTests.decodeFrameWithContentLengthZero( );1;0;9
+StompDecoderTests.assertIncompleteDecode( String partialFrame );1;0;5
+StompDecoderTests.decodeFrameWithInvalidContentLength( );1;1;9
+StompDecoderTests.decodeFrameWithIncompleteHeader( );1;0;5
+StompDecoderTests.decodeHeartbeat( );1;0;7
+StompDecoderTests.decodeFrameWithNoBody( );1;0;11
+StompDecoderTests.decodeFrameWithNullOctectsInTheBody( );1;0;9
+StompDecoderTests.decodeFramesWithExtraNewLines( );1;0;7
+StompDecoderTests.decodeFrameWithContentLength( );1;0;9
+StompDecoderTests.decodeMultipleFramesFromSameBuffer( );1;1;9
+StompDecoderTests.decodeFrameWithNoHeadersAndNoBody( );1;0;7
+StompDecoderTests.decodeFrameWithEscapedHeaders( );1;0;7

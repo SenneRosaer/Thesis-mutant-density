@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LdapHauskeysUserDao.getEntryObject( Object extra , Attributes attrs );2;0;73
+LdapHauskeysUserDao.load( String id );3;0;81
+LdapHauskeysUserDao.add( String id , String description , String firstName , String lastName , String password , String mobile , String email , String notifyBy , String mobileCarrier , String tokenPin , String midletName , String failuresInEpoch , String activationKey , String realm , String secret , String label , String movingFactor , String address1 , String address2 , String city , String stateProvRegion , String zipPostalCode , String country , String company , boolean disabled );25;20;169
+LdapHauskeysUserDao.LdapHauskeysUserDao( DirContext ctx );1;0;3
+LdapHauskeysUserDao.delete( String id );4;1;26
+LdapHauskeysUserDao.modify( String creatorsName , Date createTimestamp , String id , String description , String firstName , String lastName , String password , String mobile , String email , String notifyBy , String mobileCarrier , String tokenPin , String midletName , String failuresInEpoch , String activationKey , String realm , String secret , String label , String movingFactor , String address1 , String address2 , String city , String stateProvRegion , String zipPostalCode , String country , String company , boolean disabled , ModificationItem [ ] mods );8;6;57
+LdapHauskeysUserDao.getRandomSecret( );2;2;11
+LdapHauskeysUserDao.iterator( );2;0;17
+LdapHauskeysUserDao.getRandomFactor( );1;0;3
+LdapHauskeysUserDao.rename( String newId , HauskeysUser archetype );7;0;68
+LdapHauskeysUserDao.getRelativeDn( String uid );1;0;6

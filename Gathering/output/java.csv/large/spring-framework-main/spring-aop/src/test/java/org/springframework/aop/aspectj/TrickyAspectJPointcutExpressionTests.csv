@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleThrowawayClassLoader.SimpleThrowawayClassLoader( ClassLoader parent );1;0;3
+TestException.TestException( String string );1;0;3
+LogUserAdvice.reset( );1;0;4
+TrickyAspectJPointcutExpressionTests.testAdvice( Advisor advisor , LogUserAdvice logAdvice , TestService target , String message , boolean proxyTargetClass );1;0;11
+LogUserAdvice.before( Method method , Object [ ] objects , @ Nullable Object o );1;1;3
+TrickyAspectJPointcutExpressionTests.testManualProxyJavaWithUnconditionalPointcut( );1;0;5
+TrickyAspectJPointcutExpressionTests.testManualProxyJavaWithStaticPointcut( );1;0;7
+TrickyAspectJPointcutExpressionTests.testManualProxyJavaWithDynamicPointcutAndProxyTargetClass( );1;0;7
+TrickyAspectJPointcutExpressionTests.testAdvice( Advisor advisor , LogUserAdvice logAdvice , TestService target , String message );1;0;3
+TrickyAspectJPointcutExpressionTests.testManualProxyJavaWithDynamicPointcut( );1;0;7
+LogUserAdvice.getCountBefore( );1;0;3
+LogUserAdvice.getCountThrows( );1;0;3
+TestServiceImpl.sayHello( );1;0;3
+LogUserAdvice.afterThrowing( Exception ex );1;1;4
+TrickyAspectJPointcutExpressionTests.testManualProxyJavaWithStaticPointcutAndTwoClassLoaders( );1;0;11

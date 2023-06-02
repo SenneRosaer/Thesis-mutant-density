@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RSocketMessageHandler.responder( RSocketStrategies strategies , Object ... candidateHandlers );4;0;12
+RSocketMessageHandler.getCardinality( MethodParameter parameter );6;1;13
+RSocketMessageHandler.setRSocketStrategies( RSocketStrategies rsocketStrategies );1;0;8
+RSocketMessageHandler.initReturnValueHandlers( );1;0;6
+RSocketMessageHandler.getCondition( AnnotatedElement element );4;4;16
+RSocketMessageHandler.isDataMimeTypeSupported( MimeType dataMimeType );5;0;10
+RSocketMessageHandler.afterPropertiesSet( );3;1;14
+RSocketMessageHandler.setDecoders( List < ? extends Decoder < ? > > decoders );1;0;9
+RSocketMessageHandler.getEncoders( );1;0;3
+RSocketMessageHandler.RSocketMessageHandler( );1;0;3
+RSocketMessageHandler.createResponder( ConnectionSetupPayload setupPayload , RSocket rsocket );3;0;12
+RSocketMessageHandler.handleNoMatch( @ Nullable RouteMatcher . Route destination , Message < ? > message );5;5;20
+RSocketMessageHandler.setDefaultDataMimeType( @ Nullable MimeType mimeType );1;0;3
+RSocketMessageHandler.extendMapping( CompositeMessageCondition composite , HandlerMethod handler );7;4;20
+RSocketMessageHandler.getMetadataExtractor( );1;0;3
+RSocketMessageHandler.getDefaultDataMimeType( );1;0;3
+RSocketMessageHandler.responder( );2;0;12
+RSocketMessageHandler.setDefaultMetadataMimeType( MimeType mimeType );1;0;4
+RSocketMessageHandler.setMetadataExtractor( MetadataExtractor extractor );1;0;3
+RSocketMessageHandler.getRSocketStrategies( );1;0;3
+RSocketMessageHandler.setEncoders( List < ? extends Encoder < ? > > encoders );1;0;10
+RSocketMessageHandler.getDefaultMetadataMimeType( );1;0;3
+RSocketMessageHandler.setRouteMatcher( @ Nullable RouteMatcher routeMatcher );1;0;4
+RSocketMessageHandler.setReactiveAdapterRegistry( ReactiveAdapterRegistry registry );1;0;4

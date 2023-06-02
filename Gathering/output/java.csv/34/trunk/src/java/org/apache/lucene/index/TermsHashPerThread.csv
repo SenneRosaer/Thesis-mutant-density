@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TermsHashPerThread.morePostings( );1;1;6
+TermsHashPerThread.TermsHashPerThread( DocInverterPerThread docInverterPerThread , final TermsHash termsHash , final TermsHash nextTermsHash , final TermsHashPerThread primaryPerThread );3;2;18
+TermsHashPerThread.abort( );2;1;6
+TermsHashPerThread.reset( boolean recyclePostings );3;0;10
+TermsHashPerThread.startDocument( );2;1;5
+TermsHashPerThread.addField( DocInverterPerField docInverterPerField , final FieldInfo fieldInfo );1;0;3
+TermsHashPerThread.finishDocument( );3;2;14
+TermsHashPerThread.noNullPostings( RawPostingList [ ] postings , int count , String details );2;3;5

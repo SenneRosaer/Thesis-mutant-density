@@ -34,13 +34,14 @@ if __name__ == '__main__':
             sloc = row['Source Lines of Code']
             md = row["Mutant Density"]
             average = md/sloc
-            if sloc > (mean+std) or sloc < (mean-std):
+            if sloc > (mean+std*2) or sloc < (mean-std*2):
                 current_outliers.append(f"{row['File']};{row['Method Name']}")
         outliers[file.replace('.csv','')] = current_outliers
         # sns.displot(all_averages, kde=True).set(title='opencv distribution plot of average MD : ' + file.replace('.csv',''))
         # plt.xlim(-50, 50)
         # plt.show()
-        print(f"Mutations: {file.replace('.csv','')}, Methods: {total_methods}, Total Mutants: {total_mutants}")
+        # print(f"Mutations: {file.replace('.csv','')}, Methods: {total_methods}, Total Mutants: {total_mutants}")
+        print(f"Mutations: {file.replace('.csv','')}, Mean: {mean}, Standard deviation: {std}")
 
     temp = []
     keys = []
@@ -50,7 +51,7 @@ if __name__ == '__main__':
 
     results = set.intersection(*map(set, temp))
     print("------- Outliers over all sets ---------")
-    print(results)
+    print(len(results))
     print("------ Single mutation outliers --------")
     for index, list in enumerate(temp):
 

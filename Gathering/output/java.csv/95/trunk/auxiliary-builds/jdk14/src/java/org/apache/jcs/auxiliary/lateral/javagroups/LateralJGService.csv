@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LateralJGService.release( );1;0;2
+LateralJGService.addCacheListener( ICacheListener obj );1;0;2
+LateralJGService.dispose( String cache );1;0;3
+LateralJGService.get( String cacheName , Serializable key );1;0;6
+LateralJGService.removeCacheListener( ICacheListener obj );1;0;2
+LateralJGService.update( ICacheElement item , long requesterId );1;0;6
+LateralJGService.update( ICacheElement item );1;0;3
+LateralJGService.addCacheListener( String cacheName , ICacheListener obj );1;0;2
+LateralJGService.removeAll( String cacheName , long requesterId );1;0;7
+LateralJGService.removeAll( String cacheName );1;0;3
+LateralJGService.remove( String cacheName , Serializable key , long requesterId );1;0;7
+LateralJGService.remove( String cacheName , Serializable key );1;0;3
+LateralJGService.removeCacheListener( String cacheName , ICacheListener obj );1;0;2
+LateralJGService.LateralJGService( ILateralCacheAttributes lca );2;0;14
+LateralJGService.main( String args [ ] );3;0;21
+LateralJGService.getGroupKeys( String cacheName , String group );2;0;7

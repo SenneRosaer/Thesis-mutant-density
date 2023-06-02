@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BaseWebRequest.getCookies( );1;0;3
+BaseWebRequest.setContentType( String theContentType );1;0;3
+BaseWebRequest.getParameterValues( String theName , Hashtable theParameters );3;2;15
+BaseWebRequest.getParameterValuesPost( String theName );1;0;3
+BaseWebRequest.getAuthentication( );1;0;3
+BaseWebRequest.getParameterNamesGet( );1;0;3
+BaseWebRequest.getHeader( String theName );2;1;8
+BaseWebRequest.toStringAppendParametersPost( );1;0;3
+BaseWebRequest.getParameterNames( Hashtable theParameters );1;0;3
+BaseWebRequest.getParameterPost( String theName );2;1;8
+BaseWebRequest.setAuthentication( Authentication theAuthentication );1;0;3
+BaseWebRequest.addParameter( String theName , String theValue );1;0;3
+BaseWebRequest.getParameterGet( String theName );2;1;8
+BaseWebRequest.addParameter( String theName , String theValue , String theMethod );4;0;27
+BaseWebRequest.addCookie( String theDomain , String theName , String theValue );1;0;3
+BaseWebRequest.addCookie( Cookie theCookie );2;1;7
+BaseWebRequest.toString( );1;0;16
+BaseWebRequest.toStringAppendParameters( Hashtable theParameters );3;4;20
+BaseWebRequest.toStringAppendCookies( );2;0;10
+BaseWebRequest.getContentType( );1;0;3
+BaseWebRequest.getParameterNamesPost( );1;0;3
+BaseWebRequest.toStringAppendHeaders( );3;4;18
+BaseWebRequest.getHeaderNames( );1;0;3
+BaseWebRequest.setConfiguration( Configuration theConfiguration );1;0;3
+BaseWebRequest.getHeaderValues( String theName );3;2;15
+BaseWebRequest.addCookie( String theName , String theValue );1;0;3
+BaseWebRequest.toStringAppendParametersGet( );1;0;3
+BaseWebRequest.BaseWebRequest( );1;0;2
+BaseWebRequest.getUserData( );1;0;3
+BaseWebRequest.setUserData( InputStream theDataStream );1;0;3
+BaseWebRequest.getParameterValuesGet( String theName );1;0;3
+BaseWebRequest.getConfiguration( );1;0;3
+BaseWebRequest.addHeader( String theName , String theValue );3;0;18
+BaseWebRequest.BaseWebRequest( Configuration theConfiguration );1;0;3

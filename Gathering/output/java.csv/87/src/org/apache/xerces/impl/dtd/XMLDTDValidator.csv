@@ -1,0 +1,51 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLDTDValidator.validate( );7;8;6
+XMLDTDValidator.endElement( QName element , Augmentations augs );1;0;3
+XMLDTDValidator.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );5;5;14
+XMLDTDValidator.XMLDTDValidator( );2;2;6
+XMLDTDValidator.normalizeAttrValue( XMLAttributes attributes , int index );10;16;42
+***not in a method***;0;15;0
+XMLDTDValidator.getGrammarBucket( );1;0;3
+XMLDTDValidator.ensureStackCapacity( int newElementDepth );4;7;19
+XMLDTDValidator.endDocument( Augmentations augs );2;1;5
+XMLDTDValidator.rootElementSpecified( QName rootElement );4;3;12
+XMLDTDValidator.getRecognizedFeatures( );1;0;3
+XMLDTDValidator.reset( XMLComponentManager componentManager );11;10;80
+XMLDTDValidator.getDocumentHandler( );1;0;3
+XMLDTDValidator.checkContent( int elementIndex , QName [ ] children , int childOffset , int childCount );8;10;26
+XMLDTDValidator.ignorableWhitespace( XMLString text , Augmentations augs );2;1;5
+XMLDTDValidator.setProperty( String propertyId , Object value );1;0;2
+XMLDTDValidator.getExternalEntityRefInAttrValue( String nonNormalizedValue );7;14;22
+XMLDTDValidator.hasGrammar( );1;1;3
+XMLDTDValidator.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );3;2;9
+XMLDTDValidator.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );9;9;30
+XMLDTDValidator.getPropertyDefault( String propertyId );3;2;8
+XMLDTDValidator.charDataInContent( );5;6;19
+XMLDTDValidator.textDecl( String version , String encoding , Augmentations augs );2;1;5
+XMLDTDValidator.isSpace( int c );1;0;3
+XMLDTDValidator.getContentSpecType( int elementIndex );3;3;9
+XMLDTDValidator.setDocumentSource( XMLDocumentSource source );1;0;3
+XMLDTDValidator.init( );4;1;17
+XMLDTDValidator.getRecognizedProperties( );1;0;3
+XMLDTDValidator.endCDATA( Augmentations augs );2;1;6
+XMLDTDValidator.handleStartElement( QName element , XMLAttributes attributes , Augmentations augs );14;20;70
+XMLDTDValidator.getDocumentSource( );1;0;3
+XMLDTDValidator.startGeneralEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );7;6;18
+XMLDTDValidator.characters( XMLString text , Augmentations augs );18;16;45
+XMLDTDValidator.getFeatureDefault( String featureId );3;2;8
+XMLDTDValidator.setFeature( String featureId , boolean state );1;0;2
+XMLDTDValidator.startNamespaceScope( QName element , XMLAttributes attributes , Augmentations augs );1;0;2
+XMLDTDValidator.endNamespaceScope( QName element , Augmentations augs , boolean isEmpty );3;3;5
+XMLDTDValidator.characterData( String data , Augmentations augs );1;0;4
+XMLDTDValidator.validateDTDattribute( QName element , String attValue , XMLAttributeDecl attributeDecl );23;9;113
+XMLDTDValidator.invalidStandaloneAttDef( QName element , QName attribute );1;0;4
+XMLDTDValidator.comment( XMLString text , Augmentations augs );6;6;16
+XMLDTDValidator.getAttributeTypeName( XMLAttributeDecl attrDecl );12;3;32
+XMLDTDValidator.addDTDDefaultAttrsAndValidate( QName elementName , int elementIndex , XMLAttributes attributes );45;51;160
+XMLDTDValidator.setDocumentHandler( XMLDocumentHandler documentHandler );1;0;3
+XMLDTDValidator.startElement( QName element , XMLAttributes attributes , Augmentations augs );2;1;6
+XMLDTDValidator.xmlDecl( String version , String encoding , String standalone , Augmentations augs );3;3;6
+XMLDTDValidator.processingInstruction( String target , XMLString data , Augmentations augs );6;6;16
+XMLDTDValidator.handleEndElement( QName element , Augmentations augs , boolean isEmpty );11;22;56
+XMLDTDValidator.endGeneralEntity( String name , Augmentations augs );2;1;5
+XMLDTDValidator.startCDATA( Augmentations augs );4;2;9

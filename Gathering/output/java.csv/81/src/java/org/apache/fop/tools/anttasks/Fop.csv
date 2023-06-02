@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Fop.getUserconfig( );1;0;3
+Fop.getMessageType( );1;0;3
+Fop.setThrowexceptions( boolean throwExceptions );1;0;3
+Fop.getOutdir( );1;0;3
+Fop.setRelativebase( boolean relbase );1;0;3
+Fop.getBasedir( );2;1;3
+Fop.getThrowexceptions( );1;0;3
+Fop.execute( );9;0;24
+FOPTaskStarter.normalizeOutputFormat( String format );4;3;11
+FOPTaskStarter.run( );29;32;90
+Fop.getFormat( );1;0;3
+Fop.getLogFiles( );1;0;3
+Fop.getOutfile( );1;0;3
+Fop.getFofile( );1;0;3
+FOPTaskStarter.determineExtension( String outputFormat );4;3;14
+Fop.setUserconfig( File userConfig );1;0;3
+Fop.setFormat( String format );1;0;3
+FOPTaskStarter.render( File foFile , File outFile , String outputFormat );7;2;34
+Fop.setMessagelevel( String messageLevel );7;1;18
+Fop.setOutdir( File outDir );1;0;3
+Fop.getFilesets( );1;0;3
+FOPTaskStarter.replaceExtension( File file , String expectedExt , String newExt );2;1;8
+Fop.setOutfile( File outFile );1;0;3
+Fop.getForce( );1;0;3
+Fop.getRelativebase( );1;0;3
+Fop.setForce( boolean force );1;0;3
+Fop.setFofile( File foFile );1;0;3
+Fop.setLogFiles( boolean logFiles );1;0;3
+FOPTaskStarter.FOPTaskStarter( Fop task );2;1;6
+Fop.addFileset( FileSet set );1;0;3
+FOPTaskStarter.setLogger( Log logger );1;0;3
+Fop.setBasedir( File baseDir );1;0;3
+FOPTaskStarter.getLogger( );1;0;3

@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlValidationError.setOffendingQName( QName _offendingQName );1;0;3
+XmlValidationError.XmlValidationError( String code , Object [ ] args , int severity , XmlCursor cursor , QName fieldQName , QName offendingQname , SchemaType expectedSchemaType , List expectedQNames , int errorType , SchemaType badSchemaType );1;0;9
+XmlValidationError.forCursorWithDetails( String message , String code , Object [ ] args , int severity , XmlCursor cursor , QName fieldQName , QName offendingQname , SchemaType expectedSchemaType , List expectedQNames , int errorType , SchemaType badSchemaType );2;1;8
+XmlValidationError.setFieldQName( QName _fieldQName );1;0;3
+XmlValidationError.getFieldQName( );1;0;3
+XmlValidationError.setErrorType( int _errorType );1;0;3
+XmlValidationError.XmlValidationError( String code , Object [ ] args , int severity , Location loc , QName fieldQName , QName offendingQname , SchemaType expectedSchemaType , List expectedQNames , int errorType , SchemaType badSchemaType );1;0;9
+XmlValidationError.getErrorType( );1;0;3
+XmlValidationError.forLocationWithDetails( String message , String code , Object [ ] args , int severity , Location location , QName fieldQName , QName offendingQname , SchemaType expectedSchemaType , List expectedQNames , int errorType , SchemaType badSchemaType );2;1;8
+XmlValidationError.getOffendingQName( );1;0;3
+XmlValidationError.getMessage( );4;5;15
+XmlValidationError.setExpectedQNames( List _expectedQNames );1;0;3
+XmlValidationError.XmlValidationError( String message , int severity , XmlCursor cursor , QName fieldQName , QName offendingQname , SchemaType expectedSchemaType , List expectedQNames , int errorType , SchemaType badSchemaType );1;0;9
+XmlValidationError.XmlValidationError( String message , int severity , Location loc , QName fieldQName , QName offendingQname , SchemaType expectedSchemaType , List expectedQNames , int errorType , SchemaType badSchemaType );1;0;9
+XmlValidationError.getBadSchemaType( );1;0;3
+XmlValidationError.getExpectedQNames( );1;0;3
+XmlValidationError.setBadSchemaType( SchemaType _badSchemaType );1;0;3
+XmlValidationError.getExpectedSchemaType( );1;0;3
+XmlValidationError.setExpectedSchemaType( SchemaType _expectedSchemaType );1;0;3

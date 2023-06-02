@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BeanSupport.getEndpoint( );2;1;7
+BeanSupport.forwardToExchange( MessageExchange exchange , InOnly outExchange , NormalizedMessage in );1;0;6
+BeanSupport.forwardToExchange( MessageExchange exchange , InOnly outExchange , NormalizedMessage in , QName operationName );2;1;6
+BeanSupport.createRobustInOnlyExchange( MessageExchange srcExchange );1;0;6
+BeanSupport.getExchangeFactory( );3;3;6
+BeanSupport.sendSync( MessageExchange exchange );1;0;3
+BeanSupport.createInOutExchange( QName service , QName interfaceName , QName operation );6;5;21
+BeanSupport.propagateCorrelationId( MessageExchange source , MessageExchange dest );4;4;11
+BeanSupport.setServiceEndpoint( ServiceEndpoint serviceEndpoint );1;0;3
+BeanSupport.getServiceEndpoint( );1;0;3
+BeanSupport.getDeliveryChannel( );2;1;6
+BeanSupport.createInOptionalOutExchange( MessageExchange srcExchange );1;0;6
+BeanSupport.setExtensionMBeanName( ObjectName extensionMBeanName );1;0;3
+BeanSupport.createInOutExchange( MessageExchange srcExchange );1;0;6
+BeanSupport.setContext( ComponentContext context );1;0;3
+BeanSupport.done( MessageExchange exchange );1;0;4
+BeanSupport.send( MessageExchange exchange );1;0;3
+BeanSupport.getBody( NormalizedMessage message );1;0;3
+BeanSupport.getService( );2;1;7
+BeanSupport.createInOutExchange( QName service , QName interfaceName , QName operation , MessageExchange srcExchange );1;0;5
+BeanSupport.isInAndOut( MessageExchange exchange );2;1;3
+BeanSupport.getExtensionMBeanName( );1;0;3
+BeanSupport.createInOnlyExchange( MessageExchange srcExchange );1;0;6
+BeanSupport.getContext( );1;0;3
+BeanSupport.answer( MessageExchange exchange , NormalizedMessage answer );1;0;4
+BeanSupport.BeanSupport( );1;0;2
+BeanSupport.setMessageTransformer( MessageTransformer transformer );1;0;3
+BeanSupport.fail( MessageExchange exchange , Fault fault );3;2;8
+BeanSupport.setBody( NormalizedMessage message , Object body );1;0;3
+BeanSupport.createInOnlyExchange( QName service , QName interfaceName , QName operation , MessageExchange beforeExchange );1;0;5
+BeanSupport.sendSync( MessageExchange exchange , long timeMillis );1;0;3
+BeanSupport.invoke( MessageExchange exchange , NormalizedMessage in , QName service , QName interfaceName , QName operation );1;0;4
+BeanSupport.getInMessage( MessageExchange exchange );2;1;7
+BeanSupport.fail( MessageExchange exchange , Exception error );3;2;9
+BeanSupport.getMessageTransformer( );1;0;3
+BeanSupport.createInOnlyExchange( QName service , QName interfaceName , QName operation );6;5;21

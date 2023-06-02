@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ElementEventQueue.toString( );1;0;3
+ElementEventRunner.ElementEventRunner( IElementEventHandler hand , IElementEvent event );2;0;8
+AbstractElementEventRunner.run( );3;1;18
+ElementEventQueue.destroy( );2;1;12
+QProcessor.QProcessor( );1;1;4
+ElementEventQueue.put( AbstractElementEventRunner event );1;0;10
+ElementEventQueue.take( );5;1;27
+ElementEventRunner.doRun( );1;0;3
+ElementEventQueue.isAlive( );1;1;3
+ElementEventQueue.addElementEvent( IElementEventHandler hand , IElementEvent event );4;2;15
+QProcessor.run( );6;4;23
+ElementEventQueue.ElementEventQueue( String cacheName );2;0;9

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Message.convert( Text [ ] textParams );2;2;7
+Message.Message( String subject , String [ ] subjectParams , String body , String [ ] bodyParams , Identifiable sender , Identifiable [ ] recipients );1;0;3
+Message.getSubjectText( );1;0;3
+Message.getRecipients( );1;0;4
+Message.getSubject( );1;0;3
+Message.hasBodyParameters( );2;3;4
+Message.getSubjectParameters( );1;0;3
+Message.Message( Text subject , Text body , Identifiable sender , Identifiable [ ] recipients );1;0;11
+Message.getTime( );1;0;3
+Message.getBody( );1;0;3
+Message.getSender( );1;0;3
+Message.hasSubjectParameters( );2;3;4
+Message.getBodyParameters( );1;0;3
+Message.getBodyText( );1;0;3

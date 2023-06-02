@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SingleByteFont.getEncoding( );1;0;3
+SingleByteFont.setEncoding( String encoding );1;0;3
+SingleByteFont.mapChar( char c );3;2;13
+SingleByteFont.getWidths( );1;1;5
+SingleByteFont.getEncodingName( );1;0;3
+SingleByteFont.setWidth( int index , int w );2;4;6
+SingleByteFont.isEmbeddable( );2;4;4
+SingleByteFont.addUnencodedCharacter( NamedCharacter ch , int width );3;1;10
+UnencodedCharacter.toString( );1;0;3
+UnencodedCharacter.getWidth( );1;0;3
+SingleByteFont.hasChar( char c );3;2;11
+UnencodedCharacter.getCharacter( );1;0;3
+SingleByteFont.getAdditionalWidths( int index );2;5;11
+SingleByteFont.getAdditionalEncodingCount( );2;0;7
+UnencodedCharacter.UnencodedCharacter( NamedCharacter character , int width );1;0;4
+SingleByteFont.mapUnencodedChar( char ch );9;15;33
+SingleByteFont.setEncoding( CodePointMapping encoding );1;0;3
+SingleByteFont.hasAdditionalEncodings( );2;3;3
+SingleByteFont.getWidth( int i , int size );5;12;18
+SingleByteFont.updateMapping( String encoding );2;0;7
+SingleByteFont.getAdditionalEncoding( int index );2;0;7
+SingleByteFont.SingleByteFont( );1;0;3

@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SMTP.vrfy( String user );1;0;3
+SMTP.sendCommand( String command );1;0;3
+SMTP.help( String command );1;0;3
+SMTP.removeProtocolCommandistener( ProtocolCommandListener listener );1;0;3
+SMTP.expn( String name );1;0;3
+SMTP.getReply( );1;0;4
+SMTP.__getReply( );12;13;42
+SMTP.soml( String reversePath );1;0;3
+SMTP.helo( String hostname );1;0;3
+SMTP.saml( String reversePath );1;0;3
+SMTP.rset( );1;0;3
+SMTP.__sendCommand( int command , String args , boolean includeSpace );1;0;3
+SMTP._connectAction_( );1;0;10
+SMTP.send( String reversePath );1;0;3
+SMTP.__sendCommand( String command , String args , boolean includeSpace );4;2;18
+SMTP.addProtocolCommandListener( ProtocolCommandListener listener );1;0;3
+SMTP.help( );1;0;3
+SMTP.disconnect( );1;0;8
+SMTP.data( );1;0;3
+SMTP.getReplyStrings( );1;0;6
+SMTP.getReplyCode( );1;0;3
+SMTP.rcpt( String forwardPath );1;0;3
+SMTP.getReplyString( );3;1;15
+SMTP.quit( );1;0;3
+SMTP.turn( );1;0;3
+SMTP.noop( );1;0;3
+SMTP.mail( String reversePath );1;0;3
+SMTP.sendCommand( int command );1;0;3
+SMTP.sendCommand( int command , String args );1;0;3
+SMTP.SMTP( );1;0;8
+SMTP.sendCommand( String command , String args );1;0;3

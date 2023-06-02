@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DeploymentWebService.DeploymentWebService( );1;0;3
+DeploymentMessageReceiver.buildUnusedDir( File deployPath , String dirName );2;3;5
+DeploymentMessageReceiver.invokeBusinessLogic( MessageContext messageContext );23;15;104
+DeploymentMessageReceiver.unzip( File dest , DataHandler dataHandler );5;2;21
+DeploymentMessageReceiver.sendResponse( SOAPFactory factory , MessageContext messageContext , String op , OMElement response );1;0;10
+DeploymentWebService.enableService( AxisConfiguration axisConfig , BpelServer server , ProcessStore store , DeploymentPoller poller , String rootpath , String workPath );3;0;20
+DeploymentWebService.copyInputStream( InputStream in , OutputStream out );2;1;7

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FastByteArrayInputStream.read( byte [ ] b );1;0;3
+FastByteArrayOutputStream.FastByteArrayOutputStream( );1;0;3
+FastByteArrayOutputStream.toString( );1;0;3
+FastByteArrayInputStream.updateMessageDigest( MessageDigest messageDigest );1;0;3
+FastByteArrayInputStream.read( byte [ ] b , int off , int len );8;16;34
+FastByteArrayOutputStream.addBuffer( int minCapacity );3;4;11
+FastByteArrayInputStream.read( );4;6;22
+FastByteArrayOutputStream.toByteArrayUnsafe( );2;1;8
+FastByteArrayInputStream.updateCurrentBufferLength( );3;2;8
+FastByteArrayOutputStream.reset( );1;0;7
+FastByteArrayOutputStream.resize( int targetCapacity );6;7;28
+FastByteArrayInputStream.skip( long n );7;10;34
+FastByteArrayOutputStream.FastByteArrayOutputStream( int initialBlockSize );1;1;5
+FastByteArrayOutputStream.write( int datum );4;4;11
+FastByteArrayInputStream.updateMessageDigest( MessageDigest messageDigest , int len );6;7;30
+FastByteArrayOutputStream.write( byte [ ] data , int offset , int length );11;19;34
+FastByteArrayInputStream.FastByteArrayInputStream( FastByteArrayOutputStream fastByteArrayOutputStream );4;2;13
+FastByteArrayOutputStream.close( );1;0;3
+FastByteArrayOutputStream.getInputStream( );1;0;3
+FastByteArrayOutputStream.toByteArray( );1;0;4
+FastByteArrayOutputStream.nextPowerOf2( int val );1;12;10
+FastByteArrayInputStream.available( );1;1;3
+FastByteArrayOutputStream.writeTo( OutputStream out );3;0;12
+FastByteArrayOutputStream.size( );1;1;3

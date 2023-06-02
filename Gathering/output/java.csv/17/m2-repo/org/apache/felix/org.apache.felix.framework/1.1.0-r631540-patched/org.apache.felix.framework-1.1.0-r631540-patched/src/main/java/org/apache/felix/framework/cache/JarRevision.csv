@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JarRevision.JarRevision( Logger logger , File revisionRootDir , String location , boolean byReference , InputStream is );2;1;14
+JarRevision.getManifestHeader( );4;3;22
+JarRevision.extractEmbeddedJar( String jarPath );11;13;43
+JarRevision.findLibrary( String libName );8;8;39
+JarRevision.getContentPath( );11;8;54
+JarRevision.dispose( );1;0;2
+JarRevision.JarRevision( Logger logger , File revisionRootDir , String location , boolean byReference );1;0;3
+JarRevision.initialize( boolean byReference , InputStream is );10;8;43
+JarRevision.preprocessBundleJar( );10;9;41
+JarRevision.getContent( );1;0;3

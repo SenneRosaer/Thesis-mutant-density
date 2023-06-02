@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChangeLogItemStateManager.getNodeReferences( NodeReferencesId id );1;0;3
+AtticItemStateManager.hasNodeReferences( NodeReferencesId id );1;0;3
+ChangeLogBasedHierarchyMgr.getZombiePath( ItemId id );1;0;3
+AtticItemStateManager.getNodeReferences( NodeReferencesId id );1;0;3
+ChangeLogItemStateManager.getItemState( ItemId id );3;1;10
+ChangeLogItemStateManager.hasItemState( ItemId id );3;1;10
+AtticItemStateManager.hasItemState( ItemId id );1;0;3
+ChangeLogItemStateManager.hasNodeReferences( NodeReferencesId id );1;0;3
+AtticItemStateManager.getItemState( ItemId id );2;1;8
+AtticItemStateManager.AtticItemStateManager( ChangeLog changes );2;0;6
+ChangeLogItemStateManager.ChangeLogItemStateManager( ItemStateManager base , ChangeLog changes );1;0;4
+ChangeLogBasedHierarchyMgr.ChangeLogBasedHierarchyMgr( NodeId rootNodeId , ItemStateManager manager , ChangeLog changes );1;0;5

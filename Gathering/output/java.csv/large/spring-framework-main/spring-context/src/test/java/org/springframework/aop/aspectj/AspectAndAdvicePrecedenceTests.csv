@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PrecedenceTestAspect.beforeAdviceTwo( );1;0;3
+PrecedenceVerifyingCollaborator.afterAdviceTwo( String beanName );1;0;3
+PrecedenceTestAspect.aroundAdviceOne( ProceedingJoinPoint pjp );2;1;12
+PrecedenceVerifyingCollaborator.checkAdvice( String whatJustHappened );3;4;11
+PrecedenceTestAspect.setCollaborator( Collaborator collaborator );1;0;3
+PrecedenceTestAspect.getOrder( );1;0;3
+PrecedenceVerifyingCollaborator.aroundAdviceTwo( String beanName );1;0;3
+PrecedenceTestAspect.setBeanName( String name );1;0;3
+PrecedenceTestAspect.aroundAdviceTwo( ProceedingJoinPoint pjp );2;1;12
+SimpleSpringBeforeAdvice.setCollaborator( PrecedenceTestAspect . Collaborator collaborator );1;0;3
+PrecedenceTestAspect.setOrder( int order );1;0;3
+SimpleSpringBeforeAdvice.setBeanName( String name );1;0;3
+AspectAndAdvicePrecedenceTests.testAdviceOrder( );1;0;8
+PrecedenceVerifyingCollaborator.beforeAdviceTwo( String beanName );1;0;3
+AspectAndAdvicePrecedenceTests.tearDown( );1;0;3
+SimpleSpringBeforeAdvice.before( Method method , Object [ ] args , @ Nullable Object target );1;0;3
+PrecedenceVerifyingCollaborator.afterAdviceOne( String beanName );1;0;3
+AspectAndAdvicePrecedenceTests.setup( );1;0;8
+PrecedenceTestAspect.beforeAdviceOne( );1;0;3
+PrecedenceTestAspect.afterAdviceTwo( );1;0;3
+PrecedenceVerifyingCollaborator.aroundAdviceOne( String beanName );1;0;3
+PrecedenceVerifyingCollaborator.beforeAdviceOne( String beanName );1;0;3
+PrecedenceTestAspect.afterAdviceOne( );1;0;3

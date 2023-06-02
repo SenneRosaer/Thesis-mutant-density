@@ -1,0 +1,44 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlError.getColumn( );1;0;1
+XmlError.forSource( String code , Object [ ] args , int severity , String sourceName );1;3;3
+XmlError.getSeverity( );1;0;1
+XmlError.getLine( );1;0;1
+***not in a method***;0;3;0
+XmlError.toString( URI base );9;5;33
+XmlError.forObject( String message , XmlObject xobj );1;0;3
+XmlError.forMessage( String message , int severity );1;0;3
+XmlError.forCursor( String code , Object [ ] args , int severity , XmlCursor cursor );1;0;3
+XmlError.toString( );1;0;3
+XmlError.getOffset( );1;0;1
+XmlError.forMessage( String code , Object [ ] args , int severity );1;0;3
+XmlError.forCursor( String message , int severity , XmlCursor cursor );1;0;3
+XmlError.forCursor( String code , Object [ ] args , XmlCursor cursor );1;0;3
+XmlError.XmlError( String message , String code , int severity , XmlCursor cursor );4;6;30
+XmlError.forCursor( String message , XmlCursor cursor );1;0;3
+XmlError.forObject( String message , int severity , XmlObject xobj );2;1;7
+XmlError.formattedFileName( String rawString , URI base );11;9;29
+XmlError.forMessage( String message );1;0;3
+XmlError.formattedMessage( String code , Object [ ] args );4;1;20
+XmlError.forObject( String code , Object [ ] args , int severity , XmlObject xobj );2;1;7
+XmlError.forSource( String message , String sourceName );1;3;3
+XmlError.getObjectLocation( );1;0;3
+XmlError.forLocation( String code , Object [ ] args , int severity , String sourceName , int line , int column , int offset );1;0;3
+XmlError.XmlError( XmlError src );1;0;10
+XmlError.XmlError( String message , String code , int severity , Location loc );3;4;19
+XmlError.XmlError( String code , Object [ ] args , int severity , String source , int line , int column , int offset , XmlCursor cursor );1;0;3
+XmlError.severityAsString( int severity );4;0;12
+XmlError.getCursorLocation( );1;0;3
+XmlError.getErrorCode( );1;0;1
+XmlError.getMessage( );1;0;1
+XmlError.XmlError( String code , Object [ ] args , int severity , Location loc );1;0;3
+XmlError.XmlError( String code , Object [ ] args , int severity , XmlCursor cursor );1;0;3
+XmlError.forLocationAndCursor( String message , int severity , String sourceName , int line , int column , int offset , XmlCursor cursor );1;0;3
+XmlError.forLocation( String message , String sourceName , Location location );1;1;4
+XmlError.forSource( String message , int severity , String sourceName );1;3;3
+XmlError.getSourceName( );1;0;1
+XmlError.getLocation( Object type );4;4;7
+XmlError.XmlError( String message , String code , int severity , String source , int line , int column , int offset , XmlCursor cursor );1;0;10
+XmlError.forLocation( String message , int severity , String sourceName , int line , int column , int offset );1;0;3
+XmlError.forLocation( String message , String sourceName , int line , int column , int offset );1;0;3
+XmlError.forObject( String code , Object [ ] args , XmlObject xobj );1;0;3
+XmlError.forMessage( String code , Object [ ] args );1;0;3

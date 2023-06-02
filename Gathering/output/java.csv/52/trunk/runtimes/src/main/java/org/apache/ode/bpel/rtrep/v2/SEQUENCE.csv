@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ACTIVE.completed( FaultData faultData , Set < CompensationHandler > compensations );4;4;12
+SEQUENCE.run( );1;0;7
+SEQUENCE.toString( );1;0;10
+SEQUENCE.SEQUENCE( ActivityInfo self , ScopeFrame scopeFrame , LinkFrame linkFrame );1;0;3
+ACTIVE.deadPathRemaining( List < OActivity > remaining );2;0;4
+ACTIVE.terminate( );1;0;8
+ACTIVE.run( );4;1;33
+ACTIVE.failure( String reason , Element data );1;0;1
+ACTIVE.cancelled( );1;0;1
+ACTIVE.ACTIVE( ScopeFrame scopeFrame , ActivityInfo child );1;0;4
+***not in a method***;0;1;0
+SEQUENCE.SEQUENCE( ActivityInfo self , ScopeFrame scopeFrame , LinkFrame linkFrame , List < OActivity > remaining , Set < CompensationHandler > compensations );1;0;5
+ACTIVE.compensate( OScope scope , SynchChannel ret );1;0;4

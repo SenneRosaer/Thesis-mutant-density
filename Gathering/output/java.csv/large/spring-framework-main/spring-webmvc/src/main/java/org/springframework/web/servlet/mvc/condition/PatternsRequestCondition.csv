@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PatternsRequestCondition.combine( PatternsRequestCondition other );9;4;20
+PatternsRequestCondition.getMatchingCondition( HttpServletRequest request );2;1;5
+PatternsRequestCondition.hasPattern( String [ ] patterns );4;1;10
+PatternsRequestCondition.PatternsRequestCondition( String [ ] patterns , @ Nullable UrlPathHelper urlPathHelper , @ Nullable PathMatcher pathMatcher , boolean useSuffixPatternMatch , boolean useTrailingSlashMatch , @ Nullable List < String > fileExtensions );5;3;14
+PatternsRequestCondition.initPatterns( String [ ] patterns );5;3;13
+PatternsRequestCondition.getMatchingPatterns( String lookupPath );6;4;17
+PatternsRequestCondition.getToStringInfix( );1;0;3
+PatternsRequestCondition.getDirectPaths( );5;1;13
+PatternsRequestCondition.compareTo( PatternsRequestCondition other , HttpServletRequest request );6;3;21
+PatternsRequestCondition.PatternsRequestCondition( Set < String > patterns , PatternsRequestCondition other );1;0;7
+PatternsRequestCondition.PatternsRequestCondition( String [ ] patterns , boolean useTrailingSlashMatch , @ Nullable PathMatcher pathMatcher );1;0;3
+PatternsRequestCondition.isEmptyPathMapping( );1;1;3
+PatternsRequestCondition.PatternsRequestCondition( String [ ] patterns , @ Nullable UrlPathHelper urlPathHelper , @ Nullable PathMatcher pathMatcher , boolean useSuffixPatternMatch , boolean useTrailingSlashMatch );1;0;3
+PatternsRequestCondition.getMatchingPattern( String pattern , String lookupPath );13;12;29
+PatternsRequestCondition.PatternsRequestCondition( String ... patterns );1;0;3
+PatternsRequestCondition.PatternsRequestCondition( String [ ] patterns , @ Nullable UrlPathHelper urlPathHelper , @ Nullable PathMatcher pathMatcher , boolean useTrailingSlashMatch );1;0;3
+PatternsRequestCondition.getPatterns( );1;0;3
+PatternsRequestCondition.getContent( );1;0;3

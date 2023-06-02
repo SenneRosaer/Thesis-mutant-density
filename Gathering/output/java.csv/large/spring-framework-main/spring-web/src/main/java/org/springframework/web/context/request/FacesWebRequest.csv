@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FacesWebRequest.FacesWebRequest( FacesContext facesContext );1;0;3
+FacesWebRequest.getHeaderValues( String headerName );1;0;3
+FacesWebRequest.getHeader( String headerName );1;0;3
+FacesWebRequest.getNativeRequest( );1;0;3
+FacesWebRequest.toString( );1;0;3
+FacesWebRequest.getLocale( );1;0;3
+FacesWebRequest.getHeaderNames( );1;0;3
+FacesWebRequest.checkNotModified( long lastModifiedTimestamp );1;0;3
+FacesWebRequest.getUserPrincipal( );1;0;3
+FacesWebRequest.checkNotModified( @ Nullable String eTag );1;0;3
+FacesWebRequest.getNativeRequest( @ Nullable Class < T > requiredType );3;1;9
+FacesWebRequest.getRemoteUser( );1;0;3
+FacesWebRequest.getParameterValues( String paramName );1;0;3
+FacesWebRequest.getParameter( String paramName );1;0;3
+FacesWebRequest.getContextPath( );1;0;3
+FacesWebRequest.checkNotModified( @ Nullable String etag , long lastModifiedTimestamp );1;0;3
+FacesWebRequest.getDescription( boolean includeClientInfo );4;1;16
+FacesWebRequest.isUserInRole( String role );1;0;3
+FacesWebRequest.getParameterMap( );1;0;3
+FacesWebRequest.getNativeResponse( @ Nullable Class < T > requiredType );3;1;9
+FacesWebRequest.isSecure( );1;0;3
+FacesWebRequest.getParameterNames( );1;0;3
+FacesWebRequest.getNativeResponse( );1;0;3

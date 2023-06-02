@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CocoonPortlet.initLogger( );10;8;67
+CocoonPortlet.getEnvironment( String servletPath , String pathInfo , String uri , RenderRequest req , RenderResponse res );2;1;20
+CocoonPortlet.render( RenderRequest req , RenderResponse res );32;13;131
+CocoonPortlet.getExtraClassPath( );12;11;48
+CocoonPortlet.getParentComponentManager( );9;3;27
+CocoonPortlet.forceProperty( );8;6;26
+***not in a method***;0;2;0
+CocoonPortlet.getPathInfo( PortletRequest request );6;4;19
+CocoonPortlet.getInitParameter( String name , String defaultValue );4;4;11
+CocoonPortlet.getLogger( );1;0;3
+CocoonPortlet.getInitParameterAsInteger( String name , int defaultValue );4;4;11
+CocoonPortlet.init( PortletConfig conf );44;23;203
+CocoonPortlet.getLoggerManager( );1;0;3
+CocoonPortlet.getInstrumentManager( );3;1;20
+CocoonPortlet.newLoggerManager( String loggerManagerClass , Hierarchy hierarchy );5;1;15
+CocoonPortlet.createCocoon( );8;1;38
+CocoonPortlet.processTime( long time );4;6;17
+CocoonPortlet.manageException( ActionRequest req , ActionResponse res , Environment env , String uri , String title , String message , String description , Exception e );1;0;3
+CocoonPortlet.destroy( );8;3;20
+CocoonPortlet.getCocoon( final String reloadParam );10;3;27
+CocoonPortlet.addClassLoaderDirectory( String dir );1;0;2
+CocoonPortlet.extractLibraries( );16;14;70
+CocoonPortlet.getInitParameterAsBoolean( String name , boolean defaultValue );4;4;10
+CocoonPortlet.forceLoad( );6;1;18
+CocoonPortlet.getEnvironment( String servletPath , String pathInfo , String uri , ActionRequest req , ActionResponse res );2;1;20
+CocoonPortlet.updateEnvironment( );1;0;4
+CocoonPortlet.disposeCocoon( );2;1;6
+CocoonPortlet.getInitParameter( String name );3;2;10
+CocoonPortlet.getClassPath( );15;11;56
+CocoonPortlet.addClassLoaderURL( URL URL );1;0;2
+CocoonPortlet.getCocoonLogger( );2;1;8
+CocoonPortlet.manageException( RenderRequest req , RenderResponse res , Environment env , String uri , String title , String message , String description , Exception e );6;4;34
+CocoonPortlet.processAction( ActionRequest req , ActionResponse res );29;8;128
+CocoonPortlet.getConfigFile( final String configFileName );10;5;44

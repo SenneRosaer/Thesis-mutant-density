@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TermWeight.explain( IndexReader reader , int doc );4;8;43
+TermWeight.toString( );1;0;1
+TermWeight.normalize( float queryNorm );1;2;5
+TermWeight.sumOfSquaredWeights( );1;2;4
+TermWeight.getValue( );1;0;1
+TermQuery.getTerm( );1;0;1
+TermQuery.hashCode( );1;1;3
+TermQuery.toString( String field );2;1;10
+TermWeight.getQuery( );1;0;1
+TermWeight.TermWeight( Searcher searcher );1;0;4
+TermQuery.createWeight( Searcher searcher );1;0;3
+TermQuery.extractTerms( Set terms );1;0;3
+TermQuery.TermQuery( Term t );1;0;3
+TermQuery.equals( Object o );3;3;7
+TermWeight.scorer( IndexReader reader );2;1;7

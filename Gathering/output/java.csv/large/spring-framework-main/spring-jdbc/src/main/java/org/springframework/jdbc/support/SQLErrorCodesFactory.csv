@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SQLErrorCodesFactory.identify( DataSource dataSource );1;2;3
+SQLErrorCodesFactory.getErrorCodes( DataSource dataSource );2;1;4
+SQLErrorCodesFactory.loadResource( String path );1;0;3
+SQLErrorCodesFactory.resolveErrorCodes( DataSource dataSource );7;2;29
+SQLErrorCodesFactory.registerDatabase( DataSource dataSource , String databaseName );2;0;9
+SQLErrorCodesFactory.getErrorCodes( String databaseName );7;2;23
+SQLErrorCodesFactory.getInstance( );2;1;6
+SQLErrorCodesFactory.checkCustomTranslatorRegistry( String databaseName , SQLErrorCodes errorCodes );5;3;17
+SQLErrorCodesFactory.unregisterDatabase( DataSource dataSource );1;0;3
+SQLErrorCodesFactory.SQLErrorCodesFactory( );7;4;29

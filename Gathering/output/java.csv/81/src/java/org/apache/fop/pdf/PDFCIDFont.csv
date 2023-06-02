@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PDFCIDFont.setW2( PDFWArray w2 );1;0;3
+PDFCIDFont.toPDFString( );7;6;44
+PDFCIDFont.setDW2( int [ ] dw2 );1;0;3
+PDFCIDFont.setCMAP( PDFCMap cmap );1;0;3
+PDFCIDFont.setDW2( int posY , int displacementY );1;0;5
+PDFCIDFont.setDW( int dw );1;0;3
+PDFCIDFont.setW( PDFWArray w );1;0;3
+PDFCIDFont.getPDFNameForCIDFontType( CIDFontType cidFontType );3;2;10
+PDFCIDFont.PDFCIDFont( String basefont , CIDFontType cidtype , int dw , PDFWArray w , PDFCIDSystemInfo systemInfo , PDFCIDFontDescriptor descriptor );1;0;13
+PDFCIDFont.PDFCIDFont( String basefont , CIDFontType cidtype , int dw , int [ ] w , PDFCIDSystemInfo systemInfo , PDFCIDFontDescriptor descriptor );1;0;6
+PDFCIDFont.PDFCIDFont( String basefont , CIDFontType cidtype , int dw , int [ ] w , String registry , String ordering , int supplement , PDFCIDFontDescriptor descriptor );1;0;6
+PDFCIDFont.setCIDMap( PDFStream map );1;0;3
+PDFCIDFont.setCIDMapIdentity( );1;0;3

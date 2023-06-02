@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockitoCore.getLastInvocation( );1;1;6
+MockitoCore.verify( T mock , VerificationMode mode );3;2;22
+MockitoCore.verifyNoMoreInteractionsInOrder( List < Object > mocks , InOrderContext inOrderContext );1;0;7
+MockitoCore.checkDoNotMockAnnotationForType( Class < ? > type );6;2;17
+MockitoCore.when( T methodCall );2;1;11
+MockitoCore.checkDoNotMockAnnotation( Class < ? > typeToMock , MockCreationSettings < ? > creationSettings );3;0;6
+MockitoCore.assertNotStubOnlyMock( Object mock );2;0;5
+MockitoCore.mockConstruction( Class < T > typeToMock , Function < MockedConstruction . Context , ? extends MockSettings > settingsFactory , MockedConstruction . MockInitializer < T > mockInitializer );3;2;27
+MockitoCore.clearAllCaches( );1;0;3
+MockitoCore.verifyNoInteractions( Object ... mocks );4;1;17
+MockitoCore.mock( Class < T > typeToMock , MockSettings settings );2;1;15
+MockitoCore.mockingDetails( Object toInspect );1;0;3
+MockitoCore.stubber( Strictness strictness );1;0;6
+MockitoCore.assertMocksNotEmpty( Object [ ] mocks );3;3;5
+MockitoCore.reset( T ... mocks );2;0;9
+MockitoCore.lenient( );1;0;3
+MockitoCore.inOrder( Object ... mocks );6;5;15
+MockitoCore.clearInvocations( T ... mocks );2;0;9
+MockitoCore.stubber( );1;0;3
+MockitoCore.ignoreStubs( Object ... mocks );4;1;12
+MockitoCore.mockStatic( Class < T > classToMock , MockSettings settings );2;1;15
+MockitoCore.verifyNoMoreInteractions( Object ... mocks );4;1;17
+MockitoCore.validateMockitoUsage( );1;0;3

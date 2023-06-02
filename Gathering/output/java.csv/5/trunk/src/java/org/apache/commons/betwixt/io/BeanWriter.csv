@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BeanWriter.BeanWriter( OutputStream out , String enc );1;0;4
+BeanWriter.getMixedContentEncodingStrategy( );1;0;3
+BeanWriter.printLine( );2;1;5
+BeanWriter.setLog( Log log );1;0;3
+BeanWriter.flush( );1;0;3
+BeanWriter.expressTagClose( );1;0;3
+BeanWriter.expressElementEnd( );1;0;3
+BeanWriter.getInitialIndentLevel( );1;0;3
+BeanWriter.close( );1;0;3
+BeanWriter.setMixedContentEncodingStrategy( MixedContentEncodingStrategy strategy );1;0;3
+BeanWriter.writePrintln( );2;1;5
+BeanWriter.expressElementEnd( String qualifiedName );2;1;9
+BeanWriter.escapeAttributeValue( Object value );1;0;3
+BeanWriter.getLog( );1;0;3
+BeanWriter.writeIndent( );3;3;7
+BeanWriter.setEndTagForEmptyElement( boolean addEndTagForEmptyElement );1;0;3
+BeanWriter.getEndOfLine( );1;0;3
+BeanWriter.setInitialIndentLevel( int initialIndentLevel );1;0;3
+BeanWriter.BeanWriter( Writer writer );1;0;3
+BeanWriter.enablePrettyPrint( );1;0;4
+BeanWriter.indent( );3;4;7
+BeanWriter.expressBodyText( String text );2;1;7
+BeanWriter.BeanWriter( OutputStream out );1;0;4
+BeanWriter.writeXmlDeclaration( String xmlDeclaration );1;0;4
+BeanWriter.escapeBodyValue( Object value );1;0;3
+BeanWriter.startElement( WriteContext context , String uri , String localName , String qualifiedName , Attributes attr );3;4;20
+BeanWriter.getIndent( );1;0;3
+BeanWriter.expressElementStart( String qualifiedName );2;1;10
+BeanWriter.isEndTagForEmptyElement( );1;0;3
+BeanWriter.setEndOfLine( String endOfLine );3;3;9
+BeanWriter.getEOL( );2;0;11
+BeanWriter.endElement( WriteContext context , String uri , String localName , String qualifiedName );7;8;25
+BeanWriter.setIndent( String indent );1;0;3
+BeanWriter.BeanWriter( );1;0;3
+BeanWriter.bodyText( WriteContext context , String text );3;2;16
+BeanWriter.write( Object bean );2;0;6
+BeanWriter.expressAttribute( String qualifiedName , String value );3;2;15

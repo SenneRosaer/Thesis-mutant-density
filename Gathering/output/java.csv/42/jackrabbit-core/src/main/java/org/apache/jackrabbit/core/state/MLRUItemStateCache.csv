@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MLRUItemStateCache.cache( ItemState state );4;8;17
+***not in a method***;0;2;0
+MLRUItemStateCache.getMaxMemorySize( );1;0;3
+MLRUItemStateCache.isEmpty( );1;0;5
+MLRUItemStateCache.evict( ItemId id );2;2;9
+MLRUItemStateCache.getAccessCount( );1;0;3
+MLRUItemStateCache.MLRUItemStateCache( int maxMem );1;0;3
+MLRUItemStateCache.evictAll( );1;0;6
+Entry.Entry( ItemState state );1;1;4
+MLRUItemStateCache.setMaxMemorySize( long size );1;0;6
+MLRUItemStateCache.resetAccessCount( );1;0;5
+MLRUItemStateCache.isCached( ItemId id );1;0;5
+Entry.recalc( );1;1;3
+MLRUItemStateCache.setAccessListener( CacheAccessListener listener );1;0;3
+MLRUItemStateCache.MLRUItemStateCache( );1;0;3
+MLRUItemStateCache.update( ItemId id );2;3;11
+MLRUItemStateCache.shrinkIfRequired( );2;2;9
+MLRUItemStateCache.touch( );3;4;8
+MLRUItemStateCache.getMemoryUsed( );2;1;12
+MLRUItemStateCache.retrieveAll( );1;0;5
+MLRUItemStateCache.dispose( );2;1;7
+MLRUItemStateCache.retrieve( ItemId id );2;1;12

@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CollectionUtils.unmodifiableMultiValueMap( MultiValueMap < ? extends K , ? extends V > targetMap );2;0;7
+CollectionUtils.containsAny( Collection < ? > source , Collection < ? > candidates );1;1;3
+CollectionUtils.isEmpty( @ Nullable Collection < ? > collection );2;2;3
+CollectionUtils.firstElement( @ Nullable Set < T > set );4;0;14
+CollectionUtils.toArray( Enumeration < E > enumeration , A [ ] array );2;0;7
+CollectionUtils.mergePropertiesIntoMap( @ Nullable Properties props , Map < K , V > map );5;2;12
+CollectionUtils.contains( @ Nullable Enumeration < ? > enumeration , Object element );4;1;11
+CollectionUtils.findValueOfType( Collection < ? > collection , Class < ? > [ ] types );6;2;12
+CollectionUtils.findValueOfType( Collection < ? > collection , @ Nullable Class < T > type );6;3;15
+CollectionUtils.newLinkedHashMap( int expectedSize );1;0;3
+CollectionUtils.contains( @ Nullable Iterator < ? > iterator , Object element );4;1;11
+CollectionUtils.findCommonElementType( Collection < ? > collection );7;3;17
+CollectionUtils.mergeArrayIntoCollection( @ Nullable Object array , Collection < E > collection );1;0;4
+CollectionUtils.hasUniqueObject( Collection < ? > collection );5;2;17
+CollectionUtils.toIterator( @ Nullable Enumeration < E > enumeration );2;1;3
+CollectionUtils.lastElement( @ Nullable Set < T > set );4;0;14
+CollectionUtils.arrayToList( @ Nullable Object source );1;0;3
+CollectionUtils.computeMapInitialCapacity( int expectedSize );1;1;3
+CollectionUtils.newHashMap( int expectedSize );1;0;3
+CollectionUtils.isEmpty( @ Nullable Map < ? , ? > map );2;2;3
+CollectionUtils.lastElement( @ Nullable List < T > list );2;1;6
+CollectionUtils.toMultiValueMap( Map < K , List < V > > targetMap );1;0;3
+CollectionUtils.findFirstMatch( Collection < ? > source , Collection < E > candidates );5;1;11
+CollectionUtils.firstElement( @ Nullable List < T > list );2;0;6
+CollectionUtils.containsInstance( @ Nullable Collection < ? > collection , Object element );4;2;10

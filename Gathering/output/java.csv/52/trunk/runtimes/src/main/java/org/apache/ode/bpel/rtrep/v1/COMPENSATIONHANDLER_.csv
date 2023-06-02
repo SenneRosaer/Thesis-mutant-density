@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+COMPENSATIONHANDLER_.COMPENSATIONHANDLER_( CompensationHandler self , Set < CompensationHandler > visibleCompensations );1;0;4
+COMPENSATIONHANDLER_.sendEvent( ScopeEvent event );1;0;4
+COMPENSATIONHANDLER_.failure( String reason , Element data );1;0;1
+COMPENSATIONHANDLER_.forget( );2;0;4
+COMPENSATIONHANDLER_.compensate( final SynchChannel ret );2;1;26
+COMPENSATIONHANDLER_.toString( );1;0;7
+COMPENSATIONHANDLER_.run( );3;1;36
+COMPENSATIONHANDLER_.compensate( OScope scope , SynchChannel ret );1;0;3
+COMPENSATIONHANDLER_.cancelled( );1;0;1
+COMPENSATIONHANDLER_.completed( FaultData faultData , Set < CompensationHandler > compensations );2;0;6

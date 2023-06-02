@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractFileSystem.closeCommunicationLink( );1;0;6
+AbstractFileSystem.close( );1;0;4
+AbstractFileSystem.streamOpened( );1;1;6
+AbstractFileSystem.fireFileDeleted( final FileObject file );1;0;3
+AbstractFileSystem.setAttribute( final String attrName , final Object value );1;0;3
+AbstractFileSystem.resolveFile( final String nameStr );1;0;4
+AbstractFileSystem.freeResources( );1;0;2
+AbstractFileSystem.removeJunction( final String junctionPoint );1;0;3
+AbstractFileSystem.getRoot( );1;0;3
+AbstractFileSystem.fireFileCreated( final FileObject file );1;0;3
+AbstractFileSystem.getFileSystemOptions( );1;0;3
+AbstractFileSystem.setCacheKey( FileSystemKey cacheKey );1;0;3
+AbstractFileSystem.streamClosed( );3;3;13
+AbstractFileSystem.resolveFile( final FileName name );1;0;3
+AbstractFileSystem.getLastModTimeAccuracy( );1;0;3
+AbstractFileSystem.getParentLayer( );1;0;3
+AbstractFileSystem.resolveFile( final FileName name , final boolean useCache );7;2;41
+AbstractFileSystem.addListener( final FileObject file , final FileListener listener );2;1;12
+AbstractFileSystem.fileObjectDestroyed( FileObject fileObject );1;1;3
+AbstractFileSystem.doReplicateFile( final FileObject file , final FileSelector selector );1;0;3
+AbstractFileSystem.doCloseCommunicationLink( );1;0;2
+AbstractFileSystem.replicateFile( final FileObject file , final FileSelector selector );3;1;14
+AbstractFileSystem.getCacheKey( );1;0;3
+AbstractFileSystem.addJunction( final String junctionPoint , final FileObject targetFile );1;0;3
+AbstractFileSystem.decorateFileObject( FileObject file );6;1;26
+AbstractFileSystem.isOpen( );1;1;6
+AbstractFileSystem.notifyAllStreamsClosed( );1;0;2
+AbstractFileSystem.hasCapability( final Capability capability );1;0;3
+AbstractFileSystem.removeFileFromCache( final FileName name );1;0;3
+AbstractFileSystem.putFileToCache( final FileObject file );1;0;3
+AbstractFileSystem.getFileFromCache( final FileName name );1;0;3
+AbstractFileSystem.fileObjectHanded( FileObject fileObject );1;1;3
+AbstractFileSystem.isReleaseable( );1;1;3
+AbstractFileSystem.getCache( );2;1;11
+AbstractFileSystem.init( );1;0;3
+AbstractFileSystem.AbstractFileSystem( final FileName rootName , final FileObject parentLayer , final FileSystemOptions fileSystemOptions );1;0;5
+AbstractFileSystem.fireFileChanged( final FileObject file );1;0;3
+AbstractFileSystem.getAttribute( final String attrName );1;0;3
+AbstractFileSystem.getRootName( );1;0;3
+AbstractFileSystem.removeListener( final FileObject file , final FileListener listener );2;1;10
+AbstractFileSystem.getFileSystemManager( );1;0;3
+AbstractFileSystem.fireEvent( final AbstractFileChangeEvent event );5;4;28

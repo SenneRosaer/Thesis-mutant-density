@@ -1,0 +1,85 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QueryParser.getAnalyzer( );1;0;3
+QueryParser.jj_2_1( int xla );2;1;6
+QueryParser.getLocale( );1;0;3
+QueryParser.jj_ntk( );2;1;6
+QueryParser.ReInit( CharStream stream );3;6;8
+QueryParser.jj_add_error_token( int kind , int pos );10;13;24
+QueryParser.getConstantScoreRewrite( );1;0;3
+QueryParser.setDateResolution( String fieldName , DateTools . Resolution dateResolution );3;2;9
+QueryParser.getNextToken( );2;3;7
+QueryParser.Modifiers( );10;5;32
+QueryParser.getPrefixQuery( String field , String termStr );4;2;9
+QueryParser.getLowercaseExpandedTerms( );1;0;3
+QueryParser.newMultiPhraseQuery( );1;0;3
+QueryParser.getFuzzyMinSim( );1;0;3
+QueryParser.newBooleanQuery( boolean disableCoord );1;0;3
+QueryParser.disable_tracing( );1;0;2
+QueryParser.getUseOldRangeQuery( );1;1;3
+QueryParser.getDefaultOperator( );1;0;3
+QueryParser.getFuzzyPrefixLength( );1;0;3
+QueryParser.QueryParser( QueryParserTokenManager tm );3;6;8
+QueryParser.hexToInt( char c );7;14;11
+QueryParser.QueryParser( CharStream stream );3;6;8
+QueryParser.newRangeQuery( String field , String part1 , String part2 , boolean inclusive );2;0;10
+QueryParser.newFuzzyQuery( Term term , float minimumSimilarity , int prefixLength );1;0;3
+QueryParser.addClause( List clauses , int conj , int mods , Query q );19;30;33
+QueryParser.setDefaultOperator( Operator op );1;0;3
+QueryParser.getAllowLeadingWildcard( );1;0;3
+QueryParser.jj_la1_init_0( );1;0;3
+QueryParser.TopLevelQuery( String field );2;0;7
+QueryParser.generateParseException( );10;18;35
+QueryParser.enable_tracing( );1;0;2
+QueryParser.setEnablePositionIncrements( boolean enable );1;0;3
+QueryParser.escape( String s );20;37;13
+QueryParser.discardEscapeChar( String input );9;15;40
+QueryParser.newTermQuery( Term term );1;0;3
+QueryParser.getRangeCollator( );1;0;3
+QueryParser.getBooleanQuery( List clauses , boolean disableCoord );3;3;10
+QueryParser.getToken( int index );3;3;8
+QueryParser.newBooleanClause( Query q , BooleanClause . Occur occur );1;0;3
+QueryParser.getFieldQuery( String field , String queryText , int slop );3;0;10
+QueryParser.jj_la1_init_1( );1;0;3
+QueryParser.getEnablePositionIncrements( );1;0;3
+***not in a method***;0;1;0
+QueryParser.jj_scan_token( int kind );10;12;20
+QueryParser.jj_save( int index , int xla );3;4;8
+QueryParser.Conjunction( );8;5;27
+QueryParser.newWildcardQuery( Term t );1;0;5
+QueryParser.newMatchAllDocsQuery( );1;0;3
+QueryParser.setUseOldRangeQuery( boolean useOldRangeQuery );1;1;3
+QueryParser.getBooleanQuery( Vector clauses , boolean disableCoord );1;0;3
+QueryParser.newPrefixQuery( Term prefix );1;0;5
+QueryParser.Query( String field );22;6;44
+QueryParser.getRangeQuery( String field , String part1 , String part2 , boolean inclusive );5;1;31
+Operator.Operator( String name );1;0;3
+QueryParser.setLowercaseExpandedTerms( boolean lowercaseExpandedTerms );1;0;3
+QueryParser.jj_3_1( );3;0;9
+QueryParser.addClause( Vector clauses , int conj , int mods , Query q );1;0;3
+QueryParser.main( String [ ] args );2;1;10
+QueryParser.getFuzzyQuery( String field , String termStr , float minSimilarity );2;0;7
+QueryParser.getFieldQuery( String field , String queryText );39;35;185
+QueryParser.setLocale( Locale locale );1;0;3
+QueryParser.getDateResolution( String fieldName );4;3;13
+QueryParser.setConstantScoreRewrite( boolean v );1;0;3
+QueryParser.Term( String field );63;52;234
+QueryParser.setFuzzyPrefixLength( int fuzzyPrefixLength );1;0;3
+QueryParser.setRangeCollator( Collator rc );1;0;3
+QueryParser.ReInit( QueryParserTokenManager tm );3;6;8
+QueryParser.jj_3R_2( );3;0;5
+QueryParser.jj_3R_3( );3;0;5
+QueryParser.getField( );1;0;3
+QueryParser.getWildcardQuery( String field , String termStr );7;3;12
+QueryParser.newPhraseQuery( );1;0;3
+QueryParser.QueryParser( String f , Analyzer a );1;0;5
+QueryParser.getBooleanQuery( Vector clauses );1;0;3
+QueryParser.setPhraseSlop( int phraseSlop );1;0;3
+QueryParser.getBooleanQuery( List clauses );1;0;3
+QueryParser.getPhraseSlop( );1;0;3
+QueryParser.setAllowLeadingWildcard( boolean allowLeadingWildcard );1;0;3
+QueryParser.jj_consume_token( int kind );7;10;23
+QueryParser.parse( String query );5;1;16
+QueryParser.Clause( String field );20;9;63
+QueryParser.jj_rescan_token( );6;4;18
+QueryParser.setDateResolution( DateTools . Resolution dateResolution );1;0;3
+QueryParser.setFuzzyMinSim( float fuzzyMinSim );1;0;3

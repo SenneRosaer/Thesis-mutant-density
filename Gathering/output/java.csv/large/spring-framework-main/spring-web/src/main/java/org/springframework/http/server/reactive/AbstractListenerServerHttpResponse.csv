@@ -1,0 +1,5 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractListenerServerHttpResponse.AbstractListenerServerHttpResponse( DataBufferFactory bufferFactory , HttpHeaders headers );1;0;3
+AbstractListenerServerHttpResponse.writeWithInternal( Publisher < ? extends DataBuffer > body );1;0;3
+AbstractListenerServerHttpResponse.AbstractListenerServerHttpResponse( DataBufferFactory bufferFactory );1;0;3
+AbstractListenerServerHttpResponse.writeAndFlushWithInternal( Publisher < ? extends Publisher < ? extends DataBuffer > > body );4;1;11

@@ -1,0 +1,77 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpringScrollView.performAccessibilityAction( int action , Bundle arguments );7;9;27
+SpringScrollView.addView( View child );2;1;6
+SpringScrollView.onLayout( boolean changed , int l , int t , int r , int b );8;11;23
+SpringScrollView.getScrollRange( );2;4;9
+SpringScrollView.recycleVelocityTracker( );2;1;6
+SpringScrollView.initVelocityTrackerIfNotExists( );2;1;5
+SpringScrollView.computeScrollDeltaToGetChildRectOnScreen( Rect rect );10;24;32
+SpringScrollView.addView( View child , ViewGroup . LayoutParams params );2;1;6
+SpringScrollView.draw( Canvas canvas );1;0;3
+SpringScrollView.requestLayout( );1;0;4
+SpringScrollView.getMaxScrollAmount( );1;2;3
+SpringScrollView.isSmoothScrollingEnabled( );1;0;3
+SpringScrollView.computeVerticalScrollOffset( );1;0;3
+SpringScrollView.isWithinDeltaOfScreen( View descendant , int delta , int height );2;6;6
+SpringScrollView.SpringScrollView( Context context );1;0;3
+SpringScrollView.requestChildFocus( View child , View focused );2;1;8
+SpringScrollView.canScroll( );2;4;8
+SpringScrollView.isOffScreen( View descendant );1;1;3
+SpringScrollView.arrowScroll( int direction );14;19;38
+SpringScrollView.pageScroll( int direction );5;10;21
+SavedState.toString( );1;0;5
+SpringScrollView.findFocusableViewInBounds( boolean topFocus , int top , int bottom );14;16;37
+SpringScrollView.addView( View child , int index , ViewGroup . LayoutParams params );2;1;6
+SpringScrollView.onInterceptTouchEvent( MotionEvent ev );16;14;63
+SpringScrollView.dispatchKeyEvent( KeyEvent event );2;1;3
+SpringScrollView.endDrag( );1;0;4
+SpringScrollView.overScrollBy( int deltaX , int deltaY , int scrollX , int scrollY , int scrollRangeX , int scrollRangeY , int maxOverScrollX , int maxOverScrollY , boolean isTouchEvent );15;32;41
+SpringScrollView.onSaveInstanceState( );2;1;9
+SpringScrollView.onOverScrolled( int scrollX , int scrollY , boolean clampedX , boolean clampedY );3;1;16
+SpringScrollView.onMeasure( int widthMeasureSpec , int heightMeasureSpec );5;7;24
+SpringScrollView.isFillViewport( );1;0;3
+SavedState.writeToParcel( Parcel dest , int flags );1;0;4
+SpringScrollView.computeVerticalScrollRange( );4;9;16
+SpringScrollView.getBottomFadingEdgeStrength( );1;0;3
+SpringScrollView.onInitializeAccessibilityEvent( AccessibilityEvent event );1;1;10
+SpringScrollView.scrollToChildRect( Rect rect , boolean immediate );3;1;12
+SpringScrollView.requestDisallowInterceptTouchEvent( boolean disallowIntercept );2;0;6
+SpringScrollView.doScrollY( int delta );3;1;9
+SpringScrollView.getTopFadingEdgeStrength( );1;0;3
+SpringScrollView.measureChildWithMargins( View child , int parentWidthMeasureSpec , int widthUsed , int parentHeightMeasureSpec , int heightUsed );1;5;9
+SpringScrollView.requestChildRectangleOnScreen( View child , Rect rectangle , boolean immediate );1;2;5
+SavedState.newArray( int size );1;0;3
+SpringScrollView.fling( int velocityY );2;5;9
+SpringScrollView.scrollToChild( View child );2;1;8
+SpringScrollView.executeKeyEvent( KeyEvent event );14;11;38
+SpringScrollView.initOrResetVelocityTracker( );2;1;7
+SpringScrollView.scrollTo( int x , int y );4;4;7
+SpringScrollView.shouldDelayChildPressedState( );1;0;3
+SavedState.createFromParcel( Parcel in );1;0;3
+SpringScrollView.getOverScrollMode( );1;0;3
+SpringScrollView.computeScroll( );7;11;20
+SpringScrollView.onRestoreInstanceState( Parcelable state );2;1;10
+***not in a method***;0;1;0
+SpringScrollView.setOverScrollMode( int mode );1;0;2
+SpringScrollView.onTouchEvent( MotionEvent ev );27;25;97
+SpringScrollView.SpringScrollView( Context context , AttributeSet attrs );1;0;3
+SpringScrollView.fullScroll( int direction );3;5;15
+SpringScrollView.onDetachedFromWindow( );1;0;3
+SpringScrollView.initScrollView( );1;0;12
+SpringScrollView.setSmoothScrollingEnabled( boolean smoothScrollingEnabled );1;0;3
+SpringScrollView.onInitializeAccessibilityNodeInfo( AccessibilityNodeInfo info );5;3;16
+SpringScrollView.onSecondaryPointerUp( MotionEvent ev );4;5;13
+SpringScrollView.SpringScrollView( Context context , AttributeSet attrs , int defStyle );1;0;4
+SpringScrollView.measureChild( View child , int parentWidthMeasureSpec , int parentHeightMeasureSpec );1;1;9
+SpringScrollView.isViewDescendantOf( View child , View parent );3;2;7
+SpringScrollView.smoothScrollTo( int x , int y );1;2;3
+SpringScrollView.smoothScrollBy( int dx , int dy );4;9;21
+SpringScrollView.scrollAndFocus( int direction , int top , int bottom );6;9;19
+SpringScrollView.inChild( int x , int y );5;11;11
+SavedState.SavedState( Parcel source );1;0;4
+SavedState.SavedState( Parcelable superState );1;0;3
+SpringScrollView.setFillViewport( boolean fillViewport );2;1;6
+SpringScrollView.onSizeChanged( int w , int h , int oldw , int oldh );4;3;12
+SpringScrollView.addView( View child , int index );2;1;6
+SpringScrollView.onRequestFocusInDescendants( int direction , Rect previouslyFocusedRect );6;4;18
+SpringScrollView.invalidateParentIfNeeded( );3;1;5

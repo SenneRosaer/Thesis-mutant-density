@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractAFPObject.copySF( byte [ ] data , byte clazz , byte type , byte category );1;0;6
+AbstractAFPObject.writeObjects( Collection objects , OutputStream os );5;3;12
+AbstractAFPObject.copySF( byte [ ] data , byte type , byte category );1;0;3
+AbstractAFPObject.copyChunks( byte [ ] dataHeader , int lengthOffset , int maxChunkLength , InputStream inputStream , OutputStream outputStream );3;5;15
+AbstractAFPObject.writeChunksToStream( byte [ ] data , byte [ ] dataHeader , int lengthOffset , int maxChunkLength , OutputStream os );5;13;27

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ManagedConnection.getDelegate( );2;0;7
+ManagedConnection.checkOpen( );1;0;4
+ManagedConnection.isAccessToUnderlyingConnectionAllowed( );1;0;3
+ManagedConnection.updateTransactionStatus( );13;8;48
+ManagedConnection.setReadOnly( boolean readOnly );2;1;6
+ManagedConnection.rollback( );2;1;6
+ManagedConnection.setAutoCommit( boolean autoCommit );2;1;6
+ManagedConnection.commit( );2;1;6
+ManagedConnection.transactionComplete( );6;3;19
+CompletionListener.afterCompletion( TransactionContext completedContext , boolean commited );2;1;5
+ManagedConnection.close( );3;2;11
+ManagedConnection.ManagedConnection( ObjectPool pool , TransactionRegistry transactionRegistry , boolean accessToUnderlyingConnectionAllowed );1;0;7
+ManagedConnection.getInnermostDelegate( );2;0;7
+ManagedConnection.getDelegateInternal( );1;0;3

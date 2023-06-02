@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EffectiveNodeTypeImpl.getAllNodeTypes( );1;0;3
+EffectiveNodeTypeImpl.getNamedQPropertyDefinitions( Name name );6;5;18
+EffectiveNodeTypeImpl.getMergedNodeTypes( );1;0;3
+EffectiveNodeTypeImpl.getNamedItemDefs( );4;2;14
+EffectiveNodeTypeImpl.getMandatoryQNodeDefinitions( );7;3;21
+EffectiveNodeTypeImpl.getAllQNodeDefinitions( );9;5;28
+EffectiveNodeTypeImpl.getAllQPropertyDefinitions( );9;7;28
+EffectiveNodeTypeImpl.internalMerge( EffectiveNodeTypeImpl other , boolean supertype );32;38;137
+EffectiveNodeTypeImpl.EffectiveNodeTypeImpl( TreeSet mergedNodeTypes , TreeSet inheritedNodeTypes , TreeSet allNodeTypes , Map namedItemDefs , List unnamedItemDefs , Set supportedMixins );3;1;16
+EffectiveNodeTypeImpl.supportsMixin( Name mixin );2;1;8
+EffectiveNodeTypeImpl.getUnnamedItemDefs( );2;1;6
+EffectiveNodeTypeImpl.getUnnamedQPropertyDefinitions( );5;3;17
+EffectiveNodeTypeImpl.includesNodeTypes( Name [ ] nodeTypeNames );1;0;3
+EffectiveNodeTypeImpl.getAutoCreateQNodeDefinitions( );7;3;21
+EffectiveNodeTypeImpl.includesNodeType( Name nodeTypeName );1;0;3
+EffectiveNodeTypeImpl.getMandatoryQPropertyDefinitions( );7;4;21
+EffectiveNodeTypeImpl.checkAddNodeConstraints( Name name , Name nodeTypeName , ItemDefinitionProvider definitionProvider );3;0;9
+EffectiveNodeTypeImpl.getNamedItemDefs( Name name );3;3;7
+EffectiveNodeTypeImpl.getAutoCreateQPropertyDefinitions( );7;4;21
+EffectiveNodeTypeImpl.getInheritedNodeTypes( );1;0;3
+EffectiveNodeTypeImpl.getNamedQNodeDefinitions( Name name );6;4;18
+EffectiveNodeTypeImpl.getUnnamedQNodeDefinitions( );5;2;17
+EffectiveNodeTypeImpl.checkRemoveItemConstraints( Name name );5;3;13
+EffectiveNodeTypeImpl.checkAddNodeConstraints( Name name , ItemDefinitionProvider definitionProvider );2;0;9
+EffectiveNodeTypeImpl.clone( );1;0;6
+EffectiveNodeTypeImpl.merge( EffectiveNodeTypeImpl other );1;0;5

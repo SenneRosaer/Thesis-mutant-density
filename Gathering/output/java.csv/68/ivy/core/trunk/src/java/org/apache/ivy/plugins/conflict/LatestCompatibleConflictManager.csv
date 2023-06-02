@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LatestCompatibleConflictManager.blackListIncompatibleCallerAndRestartResolveIfPossible( IvySettings settings , IvyNode parent , IvyNode selected , IvyNode evicted );5;1;28
+LatestCompatibleConflictManager.resolveConflicts( IvyNode parent , Collection conflicts );11;6;39
+LatestCompatibleConflictManager.handleIncompatibleConflict( IvyNode parent , Collection conflicts , IvyNode node , IvyNode other );4;2;21
+LatestCompatibleConflictManager.LatestCompatibleConflictManager( );1;0;2
+LatestCompatibleConflictManager.blackListIncompatibleCaller( VersionMatcher versionMatcher , IvyNode conflictParent , IvyNode selectedNode , IvyNode evictedNode , Stack callerStack );9;8;37
+LatestCompatibleConflictManager.handleAllBlacklistedRevisions( DependencyDescriptor dd , Collection foundBlacklisted );3;0;19
+LatestCompatibleConflictManager.handleUnsolvableConflict( IvyNode parent , Collection conflicts , IvyNode node1 , IvyNode node2 );1;0;3
+LatestCompatibleConflictManager.toString( );1;0;3
+LatestCompatibleConflictManager.LatestCompatibleConflictManager( String name , LatestStrategy strategy );1;0;3

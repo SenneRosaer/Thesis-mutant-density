@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DummyMacroRequestContext.getBindStatus( String path );1;0;3
+DummyMacroRequestContext.getContextPath( );1;0;3
+DummyMacroRequestContext.setMessageMap( Map < String , String > messageMap );1;0;3
+DummyMacroRequestContext.getMessage( String code , List < ? > args , String defaultMsg );2;2;4
+DummyMacroRequestContext.getMessage( String code , String defaultMsg );2;1;4
+DummyMacroRequestContext.getBindStatus( String path , boolean htmlEscape );1;0;3
+DummyMacroRequestContext.setContextPath( String contextPath );1;0;3
+DummyMacroRequestContext.getMessage( String code );1;0;3
+DummyMacroRequestContext.DummyMacroRequestContext( ServerWebExchange exchange , ModelMap model , GenericApplicationContext context );1;0;5
+DummyMacroRequestContext.getContextUrl( String relativeUrl , Map < String , String > params );1;1;4
+DummyMacroRequestContext.getMessage( String code , List < ? > args );1;1;3
+DummyMacroRequestContext.getContextUrl( String relativeUrl );1;1;3

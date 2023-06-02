@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FieldInfo.getInheritGenericType( Class < ? > clazz , Type type , TypeVariable < ? > tv );16;11;36
+FieldInfo.getArgument( Type [ ] typeArgs , TypeVariable [ ] typeVariables , Type [ ] arguments );9;7;28
+FieldInfo.getDeclaredClass( );3;2;9
+FieldInfo.nameHashCode64( String name , JSONField annotation );3;3;6
+FieldInfo.getAnnotation( );2;1;6
+FieldInfo.getFieldType( final Class < ? > clazz , final Type type , Type fieldType , Map < TypeVariable , Type > genericInfo );19;8;58
+FieldInfo.getMember( );2;1;7
+FieldInfo.getArgument( Type [ ] typeArgs , Map < TypeVariable , Type > genericInfo );8;5;26
+FieldInfo.getFormat( );1;0;3
+FieldInfo.setAccessible( );2;1;7
+FieldInfo.compareTo( FieldInfo o );30;38;48
+FieldInfo.FieldInfo( String name , Method method , Field field , Class < ? > clazz , Type type , int ordinal , int serialzeFeatures , int parserFeatures , JSONField fieldAnnotation , JSONField methodAnnotation , String label , Map < TypeVariable , Type > genericInfo );32;32;106
+FieldInfo.set( Object javaObject , Object value );2;1;7
+FieldInfo.get( Object javaObject );2;1;5
+FieldInfo.toString( );1;0;3
+FieldInfo.FieldInfo( String name , Class < ? > declaringClass , Class < ? > fieldClass , Type fieldType , Field field , int ordinal , int serialzeFeatures , int parserFeatures );6;8;36
+FieldInfo.getFieldType( final Class < ? > clazz , final Type type , Type fieldType );1;0;3
+FieldInfo.genFieldNameChars( );1;3;9
+FieldInfo.FieldInfo( String name , Method method , Field field , Class < ? > clazz , Type type , int ordinal , int serialzeFeatures , int parserFeatures , JSONField fieldAnnotation , JSONField methodAnnotation , String label );1;0;4
+FieldInfo.getAnnation( Class < T > annotationClass );5;5;13

@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Comparison.getMonths( );1;0;3
+ComparisonDateTool.whenIs( Object then );1;0;3
+Comparison.locale( Locale loc );1;0;4
+Comparison.getSeconds( );1;0;3
+ComparisonDateTool.difference( Object now , Object then );1;0;3
+***not in a method***;0;6;0
+ComparisonDateTool.toString( long ms , int type , int depth , boolean abbr , Locale loc );15;19;53
+Comparison.getMinutes( );1;0;3
+ComparisonDateTool.toWeeks( long ms );1;1;3
+ComparisonDateTool.toYears( long ms );1;1;3
+Comparison.getHours( );1;0;3
+ComparisonDateTool.toHours( long ms );1;1;3
+Comparison.abbr( boolean abbr );1;0;4
+Comparison.getDifference( );1;0;4
+Comparison.depth( int depth );1;0;4
+ComparisonDateTool.configure( ValueParser values );4;4;18
+Comparison.toString( );1;0;7
+Comparison.getAbbr( );1;0;3
+Comparison.getMilliseconds( );1;0;3
+Comparison.getRelative( );1;0;4
+ComparisonDateTool.toMonths( long ms );1;1;3
+ComparisonDateTool.whenIs( Object now , Object then );1;0;3
+Comparison.getDays( );1;0;3
+ComparisonDateTool.toSeconds( long ms );1;1;3
+Comparison.getFull( );1;0;3
+Comparison.getWeeks( );1;0;3
+ComparisonDateTool.toMinutes( long ms );1;1;3
+Comparison.Comparison( long ms , int type , int depth , boolean abbr , Locale loc );1;0;7
+ComparisonDateTool.toString( long diff , int maxUnitDepth , boolean abbreviate , Locale locale );10;18;48
+Comparison.getYears( );1;0;3
+ComparisonDateTool.compare( Object now , Object then , int type );3;4;10
+ComparisonDateTool.toDays( long ms );1;1;3
+ComparisonDateTool.getText( String key , Locale locale );8;4;34

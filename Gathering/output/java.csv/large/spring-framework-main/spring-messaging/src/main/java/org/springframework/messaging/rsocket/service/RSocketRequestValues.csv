@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Builder.addMimeType( MimeType mimeType );2;1;5
+MetadataHelper.addMetadata( Object metadata );1;1;4
+Builder.build( );1;0;5
+Builder.setPayloadValue( Object payloadValue );1;0;6
+RSocketRequestValues.getPayload( );1;0;3
+RSocketRequestValues.getRoute( );1;0;3
+RSocketRequestValues.RSocketRequestValues( @ Nullable String route , @ Nullable List < Object > routeVariables , @ Nullable MetadataHelper metadataHelper , @ Nullable Object payloadValue , @ Nullable Publisher < ? > payload , @ Nullable ParameterizedTypeReference < ? > payloadElementType );3;2;8
+Builder.setRoute( String route );1;0;5
+Builder.addMetadata( Object metadata );2;1;5
+RSocketRequestValues.getMetadata( );1;0;3
+RSocketRequestValues.getPayloadElementType( );1;0;3
+MetadataHelper.addMimeType( MimeType mimeType );1;2;4
+Builder.setPayload( P payload , ParameterizedTypeReference < T > elementTye );1;0;6
+RSocketRequestValues.getRouteVariables( );1;0;3
+MetadataHelper.toMap( );2;2;7
+MetadataHelper.toString( );1;0;3
+RSocketRequestValues.builder( @ Nullable String route );1;0;3
+Builder.Builder( @ Nullable String route );2;0;3
+Builder.addRouteVariable( Object variable );2;1;5
+RSocketRequestValues.getPayloadValue( );1;0;3

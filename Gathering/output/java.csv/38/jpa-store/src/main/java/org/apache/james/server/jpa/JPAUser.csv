@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JPAUser.JPAUser( final String userName , String password );1;0;5
+JPAUser.hashPassword( String username , String password );1;2;4
+JPAUser.JPAUser( );1;0;1
+JPAUser.verifyPassword( String pass );3;3;11
+JPAUser.getUserName( );1;0;3
+JPAUser.toString( );1;0;3
+JPAUser.hashCode( );2;3;6
+JPAUser.getHashedSaltedPassword( );1;0;3
+JPAUser.setPassword( String newPass );2;1;10
+JPAUser.equals( Object obj );7;6;15

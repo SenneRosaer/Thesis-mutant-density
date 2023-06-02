@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLGrammarPoolImplExtension.XMLGrammarPoolImplExtension( );1;0;3
+XMLGrammarPoolWrapper.getGrammarPool( );1;0;3
+XMLSchemaFactory.isSchemaLanguageSupported( String schemaLanguage );3;2;11
+XMLGrammarPoolWrapper.lockPool( );1;0;3
+XMLGrammarPoolWrapper.setGrammarPool( XMLGrammarPool grammarPool );1;0;3
+***not in a method***;0;4;0
+XMLSchemaFactory.newSchema( Source [ ] schemas );15;8;87
+XMLGrammarPoolWrapper.retrieveGrammar( XMLGrammarDescription desc );1;0;3
+XMLSchemaFactory.getFeature( String name );11;6;36
+XMLSchemaFactory.setFeature( String name , boolean value );12;5;41
+XMLGrammarPoolWrapper.unlockPool( );1;0;3
+XMLGrammarPoolWrapper.clear( );1;0;3
+XMLSchemaFactory.setProperty( String name , Object object );6;2;32
+XMLSchemaFactory.propagateFeatures( AbstractXMLSchema schema );2;3;8
+XMLSchemaFactory.getResourceResolver( );1;0;3
+XMLGrammarPoolWrapper.retrieveInitialGrammarSet( String grammarType );1;0;3
+XMLGrammarPoolWrapper.cacheGrammars( String grammarType , Grammar [ ] grammars );1;0;3
+XMLSchemaFactory.getProperty( String name );6;2;30
+XMLGrammarPoolImplExtension.XMLGrammarPoolImplExtension( int initialCapacity );1;0;3
+XMLSchemaFactory.setResourceResolver( LSResourceResolver resourceResolver );1;0;5
+XMLSchemaFactory.newSchema( XMLGrammarPool pool );2;0;7
+XMLGrammarPoolImplExtension.getGrammarCount( );1;0;3
+XMLSchemaFactory.XMLSchemaFactory( );1;0;10
+XMLSchemaFactory.getErrorHandler( );1;0;3
+XMLSchemaFactory.setErrorHandler( ErrorHandler errorHandler );2;1;5
+XMLSchemaFactory.newSchema( );1;0;5

@@ -1,0 +1,41 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CharOp.CharOp( int type , int data );1;0;4
+ModifierOp.ModifierOp( int type , int v1 , int v2 );1;0;5
+StringOp.getString( );1;0;3
+Op.createUnion( int size );2;1;4
+ConditionOp.ConditionOp( int type , int refno , Op conditionflow , Op yesflow , Op noflow );1;0;7
+StringOp.StringOp( int type , String literal );1;0;4
+Op.getToken( );1;0;3
+RangeOp.getToken( );1;0;3
+ChildOp.getChild( );1;0;3
+Op.getData2( );1;0;3
+Op.getChild( );1;0;3
+Op.createString( String literal );2;1;4
+Op.createDot( );2;1;4
+ChildOp.ChildOp( int type );1;0;3
+Op.createIndependent( Op next , Op branch );2;1;7
+Op.createClosure( int id );2;2;4
+Op.createQuestion( boolean nongreedy );3;1;4
+Op.createModifier( Op next , Op branch , int add , int mask );2;1;7
+Op.createNonGreedyClosure( );2;1;4
+UnionOp.UnionOp( int type , int size );1;0;4
+Op.getData( );1;0;3
+Op.Op( int type );1;0;3
+Op.createLook( int type , Op next , Op branch );2;1;7
+Op.createRange( Token tok );2;1;4
+Op.size( );1;0;3
+Op.createBackReference( int refno );2;1;4
+UnionOp.size( );1;0;3
+Op.createCapture( int number , Op next );2;1;6
+CharOp.getData( );1;0;3
+RangeOp.RangeOp( int type , Token tok );1;0;4
+UnionOp.elementAt( int index );1;0;3
+ModifierOp.getData( );1;0;3
+Op.createAnchor( int data );2;1;4
+UnionOp.addElement( Op op );1;0;3
+Op.getString( );1;0;3
+Op.createChar( int data );2;1;4
+ModifierOp.getData2( );1;0;3
+Op.elementAt( int index );1;0;3
+ChildOp.setChild( Op child );1;0;3
+Op.createCondition( Op next , int ref , Op conditionflow , Op yesflow , Op noflow );2;1;6

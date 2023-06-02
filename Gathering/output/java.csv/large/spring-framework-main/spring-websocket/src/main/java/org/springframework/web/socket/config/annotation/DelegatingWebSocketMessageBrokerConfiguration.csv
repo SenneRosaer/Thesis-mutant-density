@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DelegatingWebSocketMessageBrokerConfiguration.configureClientOutboundChannel( ChannelRegistration registration );2;0;5
+DelegatingWebSocketMessageBrokerConfiguration.configureWebSocketTransport( WebSocketTransportRegistration registration );2;0;5
+DelegatingWebSocketMessageBrokerConfiguration.setConfigurers( List < WebSocketMessageBrokerConfigurer > configurers );2;1;5
+DelegatingWebSocketMessageBrokerConfiguration.configureClientInboundChannel( ChannelRegistration registration );2;0;5
+DelegatingWebSocketMessageBrokerConfiguration.addReturnValueHandlers( List < HandlerMethodReturnValueHandler > returnValueHandlers );2;0;5
+DelegatingWebSocketMessageBrokerConfiguration.addArgumentResolvers( List < HandlerMethodArgumentResolver > argumentResolvers );2;0;5
+DelegatingWebSocketMessageBrokerConfiguration.configureMessageConverters( List < MessageConverter > messageConverters );3;1;9
+DelegatingWebSocketMessageBrokerConfiguration.configureMessageBroker( MessageBrokerRegistry registry );2;0;5
+DelegatingWebSocketMessageBrokerConfiguration.registerStompEndpoints( StompEndpointRegistry registry );2;0;5

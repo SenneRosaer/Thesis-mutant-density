@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSConstraints.addElementToParticleVector( Vector v , XSElementDecl d );1;0;6
+XSConstraints.overlapUPA( Object decl1 , Object decl2 , SubstitutionGroupHandler sgHandler );4;0;25
+XSConstraints.gatherChildren( int parentType , XSParticleDecl p , Vector children );9;12;23
+***not in a method***;0;1;0
+XSConstraints.checkSimpleDerivation( XSSimpleType derived , XSSimpleType base , short block );13;17;30
+XSConstraints.checkSimpleDerivationOk( XSSimpleType derived , XSTypeDefinition base , short block );5;6;14
+XSConstraints.checkNSSubset( XSWildcardDecl dWildcard , int min1 , int max1 , XSWildcardDecl bWildcard , int min2 , int max2 );6;4;17
+XSConstraints.overlapUPA( XSElementDecl element1 , XSElementDecl element2 , SubstitutionGroupHandler sgHandler );9;15;21
+XSConstraints.checkMapAndSum( Vector dChildren , int min1 , int max1 , SubstitutionGroupHandler dSGHandler , Vector bChildren , int min2 , int max2 , SubstitutionGroupHandler bSGHandler );7;7;24
+XSConstraints.overlapUPA( XSWildcardDecl wildcard1 , XSWildcardDecl wildcard2 );4;5;9
+XSConstraints.checkRecurseUnordered( Vector dChildren , int min1 , int max1 , SubstitutionGroupHandler dSGHandler , Vector bChildren , int min2 , int max2 , SubstitutionGroupHandler bSGHandler );11;12;35
+XSConstraints.fullSchemaChecking( XSGrammarBucket grammarBucket , SubstitutionGroupHandler SGHandler , CMBuilder cmBuilder , XMLErrorReporter errorReporter );26;40;120
+XSConstraints.checkElementDeclsConsistent( XSComplexTypeDecl type , XSParticleDecl particle , SymbolHash elemDeclHash , SubstitutionGroupHandler sgHandler );6;7;19
+XSConstraints.checkOccurrenceRange( int min1 , int max1 , int min2 , int max2 );5;7;8
+XSConstraints.reportSchemaError( XMLErrorReporter errorReporter , SimpleLocator loc , String key , Object [ ] args );2;1;10
+XSConstraints.checkNameAndTypeOK( XSElementDecl dElement , int dMin , int dMax , XSElementDecl bElement , int bMin , int bMax );20;28;51
+XSConstraints.checkIDConstraintRestriction( XSElementDecl derivedElemDecl , XSElementDecl baseElemDecl );1;0;2
+XSConstraints.particleValidRestriction( XSParticleDecl dParticle , SubstitutionGroupHandler dSGHandler , XSParticleDecl bParticle , SubstitutionGroupHandler bSGHandler );1;0;3
+XSConstraints.checkTypeDerivationOk( XSTypeDefinition derived , XSTypeDefinition base , short block );7;9;21
+XSConstraints.checkNSCompat( XSElementDecl elem , int min1 , int max1 , XSWildcardDecl wildcard , int min2 , int max2 , boolean checkWCOccurrence );6;5;15
+XSConstraints.checkComplexDerivation( XSComplexTypeDecl derived , XSTypeDefinition base , short block );10;11;26
+XSConstraints.removePointlessChildren( XSParticleDecl p );4;5;10
+XSConstraints.particleValidRestriction( XSParticleDecl dParticle , SubstitutionGroupHandler dSGHandler , XSParticleDecl bParticle , SubstitutionGroupHandler bSGHandler , boolean checkWCOccurrence );58;35;264
+XSConstraints.checkRecurse( Vector dChildren , int min1 , int max1 , SubstitutionGroupHandler dSGHandler , Vector bChildren , int min2 , int max2 , SubstitutionGroupHandler bSGHandler );10;12;34
+XSConstraints.checkNSRecurseCheckCardinality( Vector children , int min1 , int max1 , SubstitutionGroupHandler dSGHandler , XSParticleDecl wildcard , int min2 , int max2 , boolean checkWCOccurrence );7;6;19
+XSConstraints.checkComplexDerivationOk( XSComplexTypeDecl derived , XSTypeDefinition base , short block );2;2;5
+XSConstraints.findElemInTable( XSComplexTypeDecl type , XSElementDecl elem , SymbolHash elemDeclHash );4;4;15
+XSConstraints.getNonUnaryGroup( XSParticleDecl p );7;10;10
+XSConstraints.ElementDefaultValidImmediate( XSTypeDefinition type , String value , ValidationContext context , ValidatedInfo vinfo );8;6;31
+XSConstraints.compare( Object o1 , Object o2 );5;6;26
+XSConstraints.checkRecurseLax( Vector dChildren , int min1 , int max1 , SubstitutionGroupHandler dSGHandler , Vector bChildren , int min2 , int max2 , SubstitutionGroupHandler bSGHandler );8;9;27
+XSConstraints.overlapUPA( XSElementDecl element , XSWildcardDecl wildcard , SubstitutionGroupHandler sgHandler );4;3;10

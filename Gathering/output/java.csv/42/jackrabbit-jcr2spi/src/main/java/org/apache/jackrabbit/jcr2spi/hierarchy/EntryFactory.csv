@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EntryFactory.createNodeEntry( NodeEntry parent , Name qName , String uniqueId );2;1;6
+EntryFactory.notifyEntryCreated( NodeEntry entry );1;0;3
+EntryFactory.EntryFactory( TransientItemStateFactory isf , IdFactory idFactory , NodeEntryListener listener , PathFactory pathFactory );1;0;7
+EntryFactory.getItemStateFactory( );1;0;3
+EntryFactory.getIdFactory( );1;0;3
+EntryFactory.notifyIdChange( NodeEntry entry , String previousUniqueID );1;0;3
+EntryFactory.setResolver( NamePathResolver resolver );1;0;3
+EntryFactory.saveGetJCRPath( Path path );2;1;7
+EntryFactory.getPathFactory( );1;0;3
+EntryFactory.createRootEntry( );1;0;3
+EntryFactory.createPropertyEntry( NodeEntry parent , Name qName );2;1;6

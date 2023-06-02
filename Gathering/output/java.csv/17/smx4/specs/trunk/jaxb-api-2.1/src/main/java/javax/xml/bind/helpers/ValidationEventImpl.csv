@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ValidationEventImpl.getLocator( );1;0;3
+ValidationEventImpl.toString( );4;0;18
+ValidationEventImpl.setSeverity( int severity );4;5;6
+ValidationEventImpl.setMessage( String message );1;0;3
+ValidationEventImpl.setLocator( ValidationEventLocator locator );1;0;3
+ValidationEventImpl.getMessage( );1;0;3
+ValidationEventImpl.ValidationEventImpl( int severity , String message , ValidationEventLocator locator );1;0;3
+ValidationEventImpl.getLinkedException( );1;0;3
+ValidationEventImpl.setLinkedException( Throwable linkedException );1;0;3
+ValidationEventImpl.getSeverity( );1;0;3
+ValidationEventImpl.ValidationEventImpl( int severity , String message , ValidationEventLocator locator , Throwable linkedException );1;0;6

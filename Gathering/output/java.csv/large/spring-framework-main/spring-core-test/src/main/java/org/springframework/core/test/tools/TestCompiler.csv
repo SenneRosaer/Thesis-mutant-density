@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestCompiler.with( UnaryOperator < TestCompiler > customizer );1;0;3
+Errors.hasReportedErrors( );1;1;3
+TestCompiler.compile( SourceFile sourceFile , Consumer < Compiled > compiled );1;0;3
+TestCompiler.compile( WritableContent content , Consumer < Compiled > compiled );1;0;3
+TestCompiler.forCompiler( JavaCompiler javaCompiler );1;0;4
+TestCompiler.withResources( ResourceFile ... resourceFiles );1;0;4
+TestCompiler.withSources( SourceFiles sourceFiles );1;0;5
+TestCompiler.withResources( ResourceFiles resourceFiles );1;0;4
+Errors.toString( );1;0;3
+TestCompiler.withSources( Iterable < SourceFile > sourceFiles );1;0;5
+TestCompiler.withProcessors( Processor ... processors );1;0;6
+TestCompiler.compile( SourceFiles sourceFiles , Consumer < Compiled > compiled );1;0;3
+TestCompiler.withSources( SourceFile ... sourceFiles );1;0;5
+TestCompiler.compile( SourceFiles sourceFiles , ResourceFiles resourceFiles , Consumer < Compiled > compiled );1;0;3
+TestCompiler.withResources( Iterable < ResourceFile > resourceFiles );1;0;4
+TestCompiler.compile( Consumer < Compiled > compiled );2;0;15
+TestCompiler.TestCompiler( @ Nullable ClassLoader classLoader , JavaCompiler compiler , SourceFiles sourceFiles , ResourceFiles resourceFiles , ClassFiles classFiles , List < Processor > processors );1;0;8
+Errors.report( Diagnostic < ? extends JavaFileObject > diagnostic );3;2;13
+TestCompiler.printFiles( PrintStream printStream );3;0;13
+TestCompiler.withClasses( Iterable < ClassFile > classFiles );1;0;4
+TestCompiler.compile( );6;5;24
+TestCompiler.withProcessors( Iterable < Processor > processors );1;0;6
+TestCompiler.forSystem( );1;0;3

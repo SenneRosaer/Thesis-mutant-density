@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CactusPlugin.getPluginId( );1;0;3
+CactusPlugin.initializeDefaultPreferences( IPreferenceStore theStore );1;0;21
+CactusPlugin.getContainerIds( );4;3;26
+CactusPlugin.run( );3;2;6
+CactusPlugin.log( Throwable theThrowable );1;0;9
+BuildFilenameFilter.accept( File theDir , String theFilename );1;0;3
+CactusPlugin.getDisplay( );3;2;13
+CactusPlugin.createCoreException( String theMessageKey , String theString , Throwable theException );1;1;11
+CactusPlugin.displayErrorMessage( final String theTitle , final String theMessage , IStatus theStatus );4;1;26
+CactusPlugin.getActiveWorkbenchShell( );2;1;8
+CactusPlugin.createCoreException( String theMessageKey , Throwable theException );1;0;3
+CactusPlugin.getDefault( );1;0;3
+CactusPlugin.getContainerManager( boolean theInitializeFlag );4;3;19
+CactusPlugin.log( IStatus theStatus );1;0;3
+CactusPlugin.log( String theMessage );1;0;9
+CactusPlugin.CactusPlugin( IPluginDescriptor theDescription );1;0;4
+CactusPlugin.getActiveWorkbenchWindow( );3;2;12
+CactusPlugin.createImageRegistry( );2;0;11

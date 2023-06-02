@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ContentHandlerWrapper.setContentHandler( ContentHandler contentHandler );2;1;4
+ContentHandlerWrapper.ignorableWhitespace( char ch [ ] , int start , int len );1;0;3
+ContentHandlerWrapper.processingInstruction( String target , String data );1;0;3
+ContentHandlerWrapper.endDocument( );1;0;3
+ContentHandlerWrapper.ContentHandlerWrapper( ContentHandler contentHandler , LexicalHandler lexicalHandler );1;0;5
+ContentHandlerWrapper.startEntity( String name );2;1;4
+ContentHandlerWrapper.setLexicalHandler( LexicalHandler lexicalHandler );2;1;4
+ContentHandlerWrapper.ContentHandlerWrapper( );1;0;3
+ContentHandlerWrapper.endElement( String uri , String loc , String raw );1;0;3
+ContentHandlerWrapper.setDocumentLocator( Locator locator );2;1;4
+ContentHandlerWrapper.endPrefixMapping( String prefix );1;0;3
+ContentHandlerWrapper.endCDATA( );2;1;4
+ContentHandlerWrapper.startCDATA( );2;1;4
+ContentHandlerWrapper.characters( char ch [ ] , int start , int len );1;0;3
+ContentHandlerWrapper.comment( char ch [ ] , int start , int len );2;1;4
+ContentHandlerWrapper.startDocument( );2;1;5
+ContentHandlerWrapper.endEntity( String name );2;1;4
+ContentHandlerWrapper.skippedEntity( String name );1;0;3
+ContentHandlerWrapper.ContentHandlerWrapper( ContentHandler contentHandler );1;0;4
+ContentHandlerWrapper.startPrefixMapping( String prefix , String uri );2;1;5
+ContentHandlerWrapper.recycle( );1;0;4
+ContentHandlerWrapper.startElement( String uri , String loc , String raw , Attributes a );1;0;3
+ContentHandlerWrapper.startDTD( String name , String publicId , String systemId );2;1;4
+ContentHandlerWrapper.endDTD( );2;1;4

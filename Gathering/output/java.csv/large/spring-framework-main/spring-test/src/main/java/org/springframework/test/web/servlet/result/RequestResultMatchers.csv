@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestResultMatchers.attribute( String name , @ Nullable Object expectedValue );1;0;4
+RequestResultMatchers.assertAsyncStarted( HttpServletRequest request );1;0;3
+RequestResultMatchers.sessionAttributeDoesNotExist( String ... names );2;1;9
+RequestResultMatchers.sessionAttribute( String name , @ Nullable Object value );1;1;7
+RequestResultMatchers.asyncStarted( );1;0;3
+RequestResultMatchers.asyncResult( Matcher < ? super T > matcher );1;0;7
+RequestResultMatchers.attribute( String name , Matcher < ? super T > matcher );1;0;6
+RequestResultMatchers.asyncResult( @ Nullable Object expectedResult );1;0;7
+RequestResultMatchers.asyncNotStarted( );1;0;3
+RequestResultMatchers.RequestResultMatchers( );1;0;2
+RequestResultMatchers.sessionAttribute( String name , Matcher < ? super T > matcher );1;1;8

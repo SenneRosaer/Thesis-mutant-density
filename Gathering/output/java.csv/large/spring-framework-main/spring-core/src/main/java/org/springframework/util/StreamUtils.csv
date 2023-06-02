@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StreamUtils.copy( byte [ ] in , OutputStream out );1;0;6
+StreamUtils.copyRange( InputStream in , OutputStream out , long start , long end );5;11;25
+StreamUtils.copy( InputStream in , OutputStream out );1;0;7
+StreamUtils.copyToString( ByteArrayOutputStream baos , Charset charset );1;0;5
+StreamUtils.copy( String in , Charset charset , OutputStream out );1;0;8
+StreamUtils.copyToString( @ Nullable InputStream in , Charset charset );3;3;13
+NonClosingOutputStream.close( );1;0;2
+NonClosingOutputStream.write( byte [ ] b , int off , int let );1;0;3
+NonClosingOutputStream.NonClosingOutputStream( OutputStream out );1;0;3
+NonClosingInputStream.NonClosingInputStream( InputStream in );1;0;3
+StreamUtils.nonClosing( OutputStream out );1;0;4
+StreamUtils.nonClosing( InputStream in );1;0;4
+StreamUtils.drain( InputStream in );1;0;4
+NonClosingInputStream.close( );1;0;2
+StreamUtils.emptyInput( );1;0;3
+StreamUtils.copyToByteArray( @ Nullable InputStream in );2;1;6

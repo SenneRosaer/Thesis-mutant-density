@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TarEntry.setMode( int mode );1;0;3
+TarEntry.setGroupName( String groupName );1;0;3
+TarEntry.TarEntry( String name , byte linkFlag );1;0;4
+TarEntry.getGroupId( );1;0;3
+TarEntry.isDescendent( TarEntry desc );1;0;3
+TarEntry.TarEntry( );2;1;14
+TarEntry.setIds( int userId , int groupId );1;0;4
+TarEntry.getLinkName( );1;0;3
+TarEntry.setModTime( long time );1;1;3
+TarEntry.setModTime( Date time );1;1;3
+TarEntry.getUserName( );1;0;3
+TarEntry.writeEntryHeader( byte [ ] outbuf );3;6;25
+TarEntry.hashCode( );1;0;3
+TarEntry.equals( TarEntry it );1;0;3
+TarEntry.getSize( );1;0;3
+TarEntry.getModTime( );1;1;3
+TarEntry.getMode( );1;0;3
+TarEntry.getUserId( );1;0;3
+TarEntry.TarEntry( String name );3;1;18
+TarEntry.setUserId( int userId );1;0;3
+TarEntry.setGroupId( int groupId );1;0;3
+TarEntry.getGroupName( );1;0;3
+TarEntry.getDirectoryEntries( );4;5;11
+TarEntry.isDirectory( );4;2;12
+TarEntry.isGNULongNameEntry( );2;2;4
+TarEntry.equals( Object it );3;3;6
+TarEntry.setNames( String userName , String groupName );1;0;4
+TarEntry.TarEntry( File file );14;19;44
+TarEntry.getFile( );1;0;3
+TarEntry.getName( );1;0;3
+TarEntry.setUserName( String userName );1;0;3
+TarEntry.setSize( long size );1;0;3
+TarEntry.setName( String name );1;0;3
+TarEntry.parseTarHeader( byte [ ] header );1;13;28
+TarEntry.TarEntry( byte [ ] headerBuf );1;0;4

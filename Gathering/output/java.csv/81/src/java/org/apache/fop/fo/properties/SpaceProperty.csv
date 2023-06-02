@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Maker.Maker( int propId );1;0;3
+SpaceProperty.isDiscard( );1;1;3
+SpaceProperty.getConditionality( );1;0;3
+SpaceProperty.getPrecedence( );1;0;3
+Maker.makeNewProperty( );1;0;3
+SpaceProperty.getComponent( int cmpId );3;2;9
+SpaceProperty.getSpace( );1;0;3
+SpaceProperty.getLengthRange( );1;0;3
+SpaceProperty.setComponent( int cmpId , Property cmpnValue , boolean bIsDefault );3;2;9
+SpaceProperty.setConditionality( Property conditionality , boolean bIsDefault );1;0;3
+SpaceProperty.setPrecedence( Property precedence , boolean bIsDefault );1;0;3
+SpaceProperty.getObject( );1;0;3
+Maker.convertProperty( Property p , PropertyList propertyList , FObj fo );2;0;6
+SpaceProperty.toString( );1;0;8

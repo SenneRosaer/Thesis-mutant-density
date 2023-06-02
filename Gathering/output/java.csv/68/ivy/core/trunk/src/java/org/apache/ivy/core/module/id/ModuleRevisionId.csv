@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ModuleRevisionId.intern( ModuleRevisionId moduleRevisionId );3;2;14
+ModuleRevisionId.ModuleRevisionId( ModuleId moduleId , String branch , String revision );1;0;3
+ModuleRevisionId.ModuleRevisionId( ModuleId moduleId , String branch , String revision , Map extraAttributes );4;3;13
+ModuleRevisionId.newInstance( ModuleRevisionId mrid , String rev );1;0;5
+ModuleRevisionId.toString( );4;6;5
+ModuleRevisionId.getRevision( );1;0;3
+ModuleRevisionId.newInstance( String organisation , String name , String revision , Map extraAttributes );1;0;5
+ModuleRevisionId.encodeToString( );3;1;12
+ModuleRevisionId.decode( String encoded );9;10;45
+ModuleRevisionId.parse( String mrid );2;1;9
+ModuleRevisionId.newInstance( String organisation , String name , String branch , String revision , Map extraAttributes );1;0;5
+ModuleRevisionId.newInstance( ModuleRevisionId mrid , String branch , String rev );1;0;5
+ModuleRevisionId.hashCode( );3;10;10
+ModuleRevisionId.ModuleRevisionId( ModuleId moduleId , String revision );1;0;3
+ModuleRevisionId.getOrganisation( );1;0;3
+ModuleRevisionId.getBranch( );1;0;3
+ModuleRevisionId.getName( );1;0;3
+ModuleRevisionId.newInstance( String organisation , String name , String branch , String revision );1;0;5
+ModuleRevisionId.newInstance( String organisation , String name , String revision );1;0;4
+ModuleRevisionId.ModuleRevisionId( ModuleId moduleId , String revision , Map extraAttributes );1;0;3
+ModuleRevisionId.getModuleId( );1;0;3
+ModuleRevisionId.equals( Object obj );8;9;17

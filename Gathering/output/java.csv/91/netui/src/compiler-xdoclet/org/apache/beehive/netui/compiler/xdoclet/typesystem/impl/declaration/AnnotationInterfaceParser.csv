@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnnotationInterfaceParser.assertWord( StreamTokenizer tok );1;1;5
+AnnotationInterfaceParser.addMemberArrayAnnotation( String tagName , String parentAttribute );1;1;3
+AnnotationInterfaceParser.getAllAnnotations( );1;0;3
+AnnotationInterfaceParser.ignoreAnnotation( StreamTokenizer tok );2;3;7
+AnnotationInterfaceParser.readDefaultEnumVal( String defaultString , String memberType , HashSet enumVals );1;4;12
+AnnotationInterfaceParser.AnnotationInterfaceParser( String annotationInterfacePrefix );1;0;6
+AnnotationInterfaceParser.addMemberOrTopLevelAnnotation( String tagName );1;1;3
+AnnotationInterfaceParser.assertChar( StreamTokenizer tok , char c );1;1;4
+AnnotationInterfaceParser.parseAnnotations( );16;10;87
+AnnotationInterfaceParser.getParentMemberArrayName( String tagName );1;0;3
+AnnotationInterfaceParser.readAnnotation( StreamTokenizer tok , String interfaceQualifier , String packageName , HashMap enums );14;22;82
+AnnotationInterfaceParser.addMemberAnnotation( String tagName , String parentAttribute );1;1;3
+AnnotationInterfaceParser.getNumericDefaultVal( String expectedType , double defaultNumber );5;0;20
+AnnotationInterfaceParser.getParentMemberName( String tagName );1;0;3
+AnnotationInterfaceParser.readEnum( StreamTokenizer tok , HashMap enums );3;2;13
+AnnotationInterfaceParser.getJavaTokenizer( Reader reader );1;0;16
+AnnotationInterfaceParser.getAnnotationTypeDecl( String tagName );1;0;3
+AnnotationInterfaceParser.isMemberOrTopLevelAnnotation( String tagName );1;0;3

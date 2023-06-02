@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XsltEndpoint.createTransformer( MessageExchange exchange , NormalizedMessage in );4;2;18
+XsltEndpoint.getTransformerFactory( );2;1;6
+XsltEndpoint.transformContent( Transformer transformer , MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );8;5;27
+XsltEndpoint.configureTransformer( Transformer transformer , MessageExchange exchange , NormalizedMessage in );5;1;23
+XsltEndpoint.createTemplates( );1;0;4
+XsltEndpoint.getXsltSource( );2;1;6
+XsltEndpoint.setUseDomSourceForXslt( boolean useDomSourceForXslt );1;0;3
+XsltEndpoint.getTemplates( );2;1;6
+XsltEndpoint.getUseDomSourceForContent( );1;0;3
+XsltEndpoint.setReload( boolean reload );1;0;3
+XsltEndpoint.setUseDomSourceForContent( Boolean useDomSourceForContent );1;0;3
+XsltEndpoint.isUseDomSourceForXslt( );1;0;3
+XsltEndpoint.setTransformerFactory( TransformerFactory transformerFactory );1;0;3
+XsltEndpoint.transform( MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );1;0;5
+XsltEndpoint.validate( );4;5;5
+XsltEndpoint.isReload( );1;0;3
+XsltEndpoint.createXsltSource( Resource res );3;0;12
+XsltEndpoint.createTransformerFactory( );2;1;7

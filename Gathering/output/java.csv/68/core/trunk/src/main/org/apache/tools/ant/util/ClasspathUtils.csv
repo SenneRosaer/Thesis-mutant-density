@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Delegate.setClasspath( Path classpath );2;1;7
+ClasspathUtils.getClassLoaderForPath( Project p , Path path , String loaderId , boolean reverseLoader );1;0;3
+Delegate.setClasspathref( Reference r );1;0;4
+ClasspathUtils.getClassLoaderForPath( Project p , Reference ref , boolean reverseLoader );2;2;10
+ClasspathUtils.newInstance( String className , ClassLoader userDefinedLoader );1;0;3
+ClasspathUtils.getDelegate( ProjectComponent component );1;0;3
+ClasspathUtils.isMagicPropertySet( Project p );1;1;3
+ClasspathUtils.getClassLoaderForPath( Project p , Path path , String loaderId , boolean reverseLoader , boolean reuseLoader );8;8;18
+Delegate.isReverseLoader( );1;0;3
+ClasspathUtils.getClassLoaderForPath( Project p , Path path , String loaderId );1;0;3
+Delegate.getClassLoadId( );3;4;7
+Delegate.setLoaderRef( Reference r );1;0;3
+Delegate.Delegate( ProjectComponent component );1;0;3
+Delegate.newInstance( );1;0;3
+Delegate.createClasspath( );2;1;6
+Delegate.setReverseLoader( boolean reverseLoader );1;0;3
+Delegate.getContextProject( );1;0;3
+ClasspathUtils.getUniqueClassLoaderForPath( Project p , Path path , boolean reverseLoader );2;0;8
+Delegate.setClassname( String fcqn );1;0;3
+Delegate.getClassLoader( );2;2;4
+ClasspathUtils.newInstance( String className , ClassLoader userDefinedLoader , Class expectedType );6;1;22
+ClasspathUtils.getClassLoaderForPath( Project p , Reference ref );1;0;3
+Delegate.getClasspath( );1;0;3

@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClassWriter.visitAttribute( final Attribute attribute );1;0;4
+ClassWriter.visitOuterClass( final String owner , final String name , final String descriptor );3;3;6
+ClassWriter.visitTypeAnnotation( final int typeRef , final TypePath typePath , final String descriptor , final boolean visible );2;0;11
+ClassWriter.getCommonSuperClass( final String type1 , final String type2 );10;2;29
+ClassWriter.hasFlags( final int flags );1;2;3
+ClassWriter.newHandle( final int tag , final String owner , final String name , final String descriptor );1;1;3
+ClassWriter.visitNestHost( final String nestHost );1;0;3
+ClassWriter.newHandle( final int tag , final String owner , final String name , final String descriptor , final boolean isInterface );1;0;3
+ClassWriter.visitPermittedSubclass( final String permittedSubclass );2;2;7
+ClassWriter.visitInnerClass( final String name , final String outerName , final String innerName , final int access );5;5;14
+ClassWriter.newUTF8( final String value );1;0;3
+ClassWriter.visit( final int version , final int access , final String name , final String signature , final String superName , final String [ ] interfaces );8;12;19
+ClassWriter.newConstantDynamic( final String name , final String descriptor , final Handle bootstrapMethodHandle , final Object ... bootstrapMethodArguments );1;0;5
+ClassWriter.newMethod( final String owner , final String name , final String descriptor , final boolean isInterface );1;0;3
+ClassWriter.getClassLoader( );3;1;8
+ClassWriter.toByteArray( );46;115;237
+ClassWriter.ClassWriter( final int flags );1;0;3
+ClassWriter.visitNestMember( final String nestMember );2;2;7
+ClassWriter.newInvokeDynamic( final String name , final String descriptor , final Handle bootstrapMethodHandle , final Object ... bootstrapMethodArguments );1;0;5
+ClassWriter.newField( final String owner , final String name , final String descriptor );1;0;3
+ClassWriter.newMethodType( final String methodDescriptor );1;0;3
+ClassWriter.visitModule( final String name , final int access , final String version );2;1;8
+ClassWriter.newPackage( final String packageName );1;0;3
+ClassWriter.visitMethod( final int access , final String name , final String descriptor , final String signature , final String [ ] exceptions );2;1;10
+ClassWriter.visitSource( final String file , final String debug );3;2;8
+ClassWriter.getAttributePrototypes( );4;3;20
+ClassWriter.ClassWriter( final ClassReader classReader , final int flags );4;5;12
+ClassWriter.visitField( final int access , final String name , final String descriptor , final String signature , final Object value );2;1;10
+ClassWriter.visitRecordComponent( final String name , final String descriptor , final String signature );2;1;10
+ClassWriter.visitAnnotation( final String descriptor , final boolean visible );2;0;9
+ClassWriter.newNameType( final String name , final String descriptor );1;0;3
+ClassWriter.newConst( final Object value );1;0;3
+ClassWriter.replaceAsmInstructions( final byte [ ] classFile , final boolean hasFrames );3;1;27
+ClassWriter.newModule( final String moduleName );1;0;3
+ClassWriter.visitEnd( );1;0;2
+ClassWriter.newClass( final String value );1;0;3

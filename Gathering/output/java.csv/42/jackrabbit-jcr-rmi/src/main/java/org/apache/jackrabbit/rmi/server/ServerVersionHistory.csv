@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServerVersionHistory.getVersionByLabel( String label );2;0;8
+ServerVersionHistory.getVersion( String versionName );2;0;8
+ServerVersionHistory.hasVersionLabel( String versionUUID , String label );2;0;8
+ServerVersionHistory.ServerVersionHistory( VersionHistory versionHistory , RemoteAdapterFactory factory );1;0;4
+ServerVersionHistory.getAllVersions( );2;0;8
+ServerVersionHistory.removeVersionLabel( String label );2;0;7
+ServerVersionHistory.hasVersionLabel( String label );1;0;3
+ServerVersionHistory.getVersionLabels( String versionUUID );3;0;10
+ServerVersionHistory.removeVersion( String versionName );2;0;7
+ServerVersionHistory.getRootVersion( );2;0;7
+ServerVersionHistory.addVersionLabel( String versionName , String label , boolean moveLabel );2;0;7
+ServerVersionHistory.getVersionLabels( );1;0;3
+ServerVersionHistory.getVersionableUUID( );1;0;3

@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SourceUtil.toSAX( Source source , ContentHandler handler );1;0;4
+SourceUtil.toDOM( ServiceManager manager , String mimeTypeHint , Source source );2;1;10
+SourceUtil.toDOM( ServiceManager manager , Source source );2;1;10
+SourceUtil.toDOM( Source source );2;1;10
+SourceUtil.parse( ServiceManager manager , Source source , ContentHandler handler );4;0;17
+SourceUtil.readDOM( String location , Parameters typeParameters , SourceParameters parameters , SourceResolver resolver );4;0;18
+SourceUtil.handleSAXException( String source , SAXException e );6;1;20
+SourceUtil.parse( ComponentManager manager , Source source , ContentHandler handler );4;0;17
+SourceUtil.writeDOM( String location , Parameters typeParameters , SourceParameters parameters , DocumentFragment frag , SourceResolver resolver , String serializerName );15;6;100
+SourceUtil.toCharacters( Source source , String encoding , ContentHandler handler );4;2;18
+SourceUtil.toSAX( ComponentManager manager , Source source , String mimeTypeHint , ContentHandler handler );5;1;24
+SourceUtil.getInputSource( Source source );2;0;9
+SourceUtil.toSAX( Source source , String mimeTypeHint , ContentHandler handler );1;0;4
+SourceUtil.toSAX( XMLizable source , ContentHandler handler );7;1;22
+SourceUtil.getSource( String uri , Parameters typeParameters , SourceParameters resourceParameters , SourceResolver resolver );17;19;57
+SourceUtil.getPath( String uri );2;0;9
+SourceUtil.getFragment( String uri );2;0;9
+SourceUtil.handle( String message , SourceException se );2;0;6
+SourceUtil.getPathWithoutAuthority( String uri );2;1;9
+SourceUtil.SourceUtil( );1;0;2
+SourceUtil.toSAX( Source source , ContentHandler handler , Parameters typeParameters , boolean filterDocumentEvent );5;4;16
+SourceUtil.getAuthority( String uri );2;0;9
+SourceUtil.handle( SourceException se );2;0;7
+SourceUtil.getQuery( String uri );2;0;9
+SourceUtil.toSAX( ServiceManager manager , Source source , String mimeTypeHint , ContentHandler handler );5;1;24
+SourceUtil.getScheme( String uri );2;0;9

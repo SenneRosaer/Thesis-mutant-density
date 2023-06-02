@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConfigurationResolveReport.getArtifactsReports( DownloadStatus downloadStatus , boolean withEvicted );8;6;21
+ConfigurationResolveReport.addDependency( IvyNode node );1;0;5
+ConfigurationResolveReport.getDownloadedArtifactsReports( );1;0;3
+ConfigurationResolveReport.getSearchedNodes( );4;2;10
+ConfigurationResolveReport.updateDependency( ModuleRevisionId mrid , IvyNode node );1;0;3
+ConfigurationResolveReport.getModuleRevisionIds( );4;3;10
+ConfigurationResolveReport.getDependencies( );1;0;3
+ConfigurationResolveReport.hasError( );2;3;3
+ConfigurationResolveReport.getUnresolvedDependencies( );3;0;10
+ConfigurationResolveReport.getEvictedNodes( );3;0;10
+ConfigurationResolveReport.getDate( );1;0;3
+ConfigurationResolveReport.getDownloadedNodes( );4;2;10
+ConfigurationResolveReport.getNodes( ModuleId mid );2;1;6
+ConfigurationResolveReport.getDependency( ModuleRevisionId mrid );1;0;3
+ConfigurationResolveReport.getArtifactsNumber( );3;2;8
+ConfigurationResolveReport.filterOutMergedArtifacts( ArtifactDownloadReport [ ] allFailedReports );3;1;10
+ConfigurationResolveReport.getFailedArtifactsReports( );1;0;5
+ConfigurationResolveReport.getNodesNumber( );1;0;3
+ConfigurationResolveReport.getResolveEngine( );1;0;3
+ConfigurationResolveReport.getConfiguration( );1;0;3
+ConfigurationResolveReport.ConfigurationResolveReport( ResolveEngine resolveEngine , ModuleDescriptor md , String conf , Date date , ResolveOptions options );1;0;7
+ConfigurationResolveReport.getModuleDescriptor( );1;0;3
+ConfigurationResolveReport.addDependency( IvyNode node , DownloadReport report );3;3;15
+ConfigurationResolveReport.hasChanged( );1;0;3
+ConfigurationResolveReport.getAllArtifactsReports( );1;0;3
+ConfigurationResolveReport.getModuleIds( );4;2;19
+ConfigurationResolveReport.checkIfChanged( );3;1;21
+ConfigurationResolveReport.getDownloadReports( ModuleRevisionId mrid );2;1;7
+ConfigurationResolveReport.getEvictedMrids( );2;2;8

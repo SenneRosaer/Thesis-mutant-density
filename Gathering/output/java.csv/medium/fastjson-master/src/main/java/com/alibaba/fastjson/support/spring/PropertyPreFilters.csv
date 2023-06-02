@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropertyPreFilters.getFilters( );1;0;3
+PropertyPreFilters.setFilters( List < MySimplePropertyPreFilter > filters );1;0;3
+MySimplePropertyPreFilter.addExcludes( String ... filters );2;2;6
+PropertyPreFilters.addFilter( String ... properties );1;0;5
+MySimplePropertyPreFilter.addIncludes( String ... filters );2;2;6
+PropertyPreFilters.toFilters( );1;0;3
+MySimplePropertyPreFilter.MySimplePropertyPreFilter( Class < ? > clazz , String ... properties );1;0;3
+PropertyPreFilters.addFilter( Class < ? > clazz , String ... properties );1;0;5
+PropertyPreFilters.addFilter( );1;0;5
+MySimplePropertyPreFilter.MySimplePropertyPreFilter( String ... properties );1;0;3
+MySimplePropertyPreFilter.MySimplePropertyPreFilter( );1;0;1

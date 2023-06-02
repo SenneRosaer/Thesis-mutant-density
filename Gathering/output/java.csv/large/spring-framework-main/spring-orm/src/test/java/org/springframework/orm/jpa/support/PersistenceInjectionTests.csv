@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PersistenceInjectionTests.testPrivateVendorSpecificPersistenceContextField( );1;0;12
+PublicPersistenceContextSetterOnNonPublicClass.setEntityManager( EntityManager em );1;0;3
+PersistenceInjectionTests.testPublicPersistenceUnitSetterWithMultipleUnitsIdentifiedThroughUnitName( );1;0;21
+MockPersistenceAnnotationBeanPostProcessor.findEntityManagerFactory( @ Nullable String emfName , String requestingBeanName );1;0;3
+DefaultPublicPersistenceUnitSetterNamedPerson.getEntityManagerFactory( );1;0;3
+DefaultPublicPersistenceUnitSetter.getEmf( );1;0;3
+PersistenceInjectionTests.testPropertiesForSharedEntityManager2( );1;0;25
+PersistenceInjectionTests.testInjectionIntoExistingObjects( );1;0;15
+PersistenceInjectionTests.testPersistenceUnitsFromJndi( );1;0;36
+PersistenceInjectionTests.testFieldOfWrongTypeAnnotatedWithPersistenceUnit( );1;0;5
+SetterWithNoArgs.setSomething( );1;0;2
+PersistenceInjectionTests.testPublicExtendedPersistenceContextSetterWithSerialization( );2;0;23
+SetterOfWrongTypeAnnotatedWithPersistenceUnit.setSomething( Comparable c );1;0;2
+FactoryBeanWithPersistenceContextField.getObject( );1;0;3
+PersistenceInjectionTests.testPublicExtendedPersistenceContextSetterWithEntityManagerInfoAndSerialization( );1;0;20
+PersistenceInjectionTests.testPropertiesForTransactionalEntityManager( );1;0;15
+PersistenceInjectionTests.testNoPropertiesPassedIn( );1;0;8
+DefaultPublicPersistenceContextSetter.getEntityManager( );1;0;3
+PersistenceInjectionTests.testPublicSpecificExtendedPersistenceContextSetter( );1;0;19
+DefaultPublicPersistenceUnitSetterNamedPerson.setEmf( EntityManagerFactory emf );1;0;3
+PersistenceInjectionTests.testPrivatePersistenceContextField( );1;0;20
+DefaultPublicPersistenceUnitSetter.setEmf( EntityManagerFactory emf );2;1;6
+PersistenceInjectionTests.testPublicPersistenceUnitSetter( );1;0;12
+FactoryBeanWithPersistenceContextField.getObjectType( );1;0;3
+PersistenceInjectionTests.testPublicPersistenceUnitSetterWithOverriding( );1;0;14
+DefaultPublicPersistenceContextSetter.setEntityManager( EntityManager em );2;1;6
+PersistenceInjectionTests.testSetterOfWrongTypeAnnotatedWithPersistenceUnit( );1;0;5
+FactoryBeanWithPersistenceContextField.isSingleton( );1;0;3
+PersistenceInjectionTests.testPublicPersistenceUnitSetterWithUnitIdentifiedThroughBeanName( );1;0;21
+DummyInvocationHandler.invoke( Object proxy , Method method , Object [ ] args );4;0;13
+PersistenceInjectionTests.testPersistenceUnitsFromJndiWithDefaultUnit( );1;0;25
+PersistenceInjectionTests.testPropertiesForSharedEntityManager1( );1;0;25
+PersistenceInjectionTests.testSinglePersistenceUnitFromJndi( );1;0;21
+PersistenceInjectionTests.testPersistenceContextsFromJndiWithDefaultUnit( );1;0;36
+PersistenceInjectionTests.testPersistenceContextsFromJndi( );1;0;35
+PersistenceInjectionTests.testPublicExtendedPersistenceContextSetterWithOverriding( );1;0;14
+PersistenceInjectionTests.testSetterWithNoArgs( );1;0;5
+PersistenceInjectionTests.testPublicExtendedPersistenceContextSetter( );1;0;14
+PersistenceInjectionTests.testPrivatePersistenceUnitField( );1;0;12
+PersistenceInjectionTests.testPropertiesPassedIn( );1;0;11
+PersistenceInjectionTests.testSinglePersistenceContextFromJndi( );1;0;27

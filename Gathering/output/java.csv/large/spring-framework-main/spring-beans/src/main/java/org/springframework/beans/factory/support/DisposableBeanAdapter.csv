@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DisposableBeanAdapter.findDestroyMethod( String name );2;0;5
+DisposableBeanAdapter.DisposableBeanAdapter( Object bean , List < DestructionAwareBeanPostProcessor > postProcessors );1;0;8
+DisposableBeanAdapter.writeReplace( );4;1;14
+DisposableBeanAdapter.inferDestroyMethodsIfNecessary( Class < ? > target , RootBeanDefinition beanDefinition );13;9;34
+DisposableBeanAdapter.run( );1;0;3
+DisposableBeanAdapter.DisposableBeanAdapter( Object bean , String beanName , boolean nonPublicAccessAllowed , boolean invokeDisposableBean , boolean invokeAutoCloseable , @ Nullable String [ ] destroyMethodNames , @ Nullable List < DestructionAwareBeanPostProcessor > postProcessors );1;0;9
+DisposableBeanAdapter.hasApplicableProcessors( Object bean , List < DestructionAwareBeanPostProcessor > postProcessors );4;1;10
+DisposableBeanAdapter.determineDestroyMethod( String name );2;0;9
+DisposableBeanAdapter.DisposableBeanAdapter( Object bean , String beanName , RootBeanDefinition beanDefinition , List < DestructionAwareBeanPostProcessor > postProcessors );16;18;46
+DisposableBeanAdapter.filterPostProcessors( List < DestructionAwareBeanPostProcessor > processors , Object bean );4;1;12
+DisposableBeanAdapter.invokeCustomDestroyMethod( Method destroyMethod );6;2;29
+DisposableBeanAdapter.destroy( );17;6;57
+DisposableBeanAdapter.hasDestroyMethod( Object bean , RootBeanDefinition beanDefinition );2;2;4

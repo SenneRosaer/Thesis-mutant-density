@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Workflow.fork( TimeoutActivity ... activities );2;0;5
+Workflow.Workflow( Executor executor , Interpreter interpreter , T firstStep );2;0;8
+Workflow.validateStepsExist( Class enumType );3;1;12
+Workflow.Workflow( Executor executor , T firstStep );1;0;3
+Workflow.suspend( );1;0;3
+Workflow.isNextStepAvailable( );1;1;3
+Workflow.join( JoinSupport joinFlow , T joinedStep , long timeout );1;0;4
+Workflow.onChildStateChange( int childCount , int stoppedCount , int failedCount );1;0;2
+Workflow.Workflow( T firstStep );1;0;3
+Workflow.isSuspended( );1;0;3
+Workflow.addStep( T stepName );1;0;5
+Workflow.onStepException( String stepName , Exception e );1;0;5
+Workflow.joinAll( T joinedStep , long timeout , Activity ... activities );1;0;4
+Workflow.run( );5;2;19
+Workflow.getNextStep( );1;0;3
+Workflow.getFirstStep( Class enumType );2;0;9
+Workflow.createGoToStepTask( final T joinedStep );1;0;7
+Workflow.fork( long timeout , TimeoutActivity ... activities );2;0;6
+Workflow.Workflow( Class < T > enumType );1;0;3

@@ -1,0 +1,62 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MethodJmsListenerEndpointTests.validatePayloadInvalid( );1;0;9
+MethodJmsListenerEndpointTests.createMessageListener( );1;0;7
+MethodJmsListenerEndpointTests.getListenerMethod( String methodName , Class < ? > ... parameterTypes );1;0;5
+MethodJmsListenerEndpointTests.resolveGenericMessage( );1;0;6
+MethodJmsListenerEndpointTests.resolveJmsMessageHeaderAccessor( );1;0;9
+MethodJmsListenerEndpointTests.processAndReplyWithSendToQueue( );1;0;8
+JmsEndpointSampleBean.emptySendTo( String content );1;0;4
+JmsEndpointSampleBean.resolveMessageHeaders( MessageHeaders headers );1;0;6
+MethodJmsListenerEndpointTests.createDefaultInstance( Class < ? > ... parameterTypes );1;0;3
+MethodJmsListenerEndpointTests.resolveMessageHeaders( );1;0;9
+MethodJmsListenerEndpointTests.resolveHeaderAndPayload( );1;0;8
+MethodJmsListenerEndpointTests.setExtraCollaborators( );1;0;11
+MethodJmsListenerEndpointTests.getDefaultListenerMethod( Class < ? > ... parameterTypes );1;0;3
+MethodJmsListenerEndpointTests.processAndReply( );1;0;19
+JmsEndpointSampleBean.processAndReplyWithDefaultSendTo( String content );1;0;4
+MethodJmsListenerEndpointTests.getTestMethod( );1;0;3
+MethodJmsListenerEndpointTests.createSimpleJmsTextMessage( String body );1;0;3
+JmsEndpointSampleBean.invalidPayloadType( @ Payload Integer payload );1;0;3
+MethodJmsListenerEndpointTests.processFromTopicAndReplyWithSendToQueue( );1;0;10
+MethodJmsListenerEndpointTests.createMessageListenerNoFactory( );1;0;7
+MethodJmsListenerEndpointTests.setup( TestInfo testInfo );1;0;4
+JmsEndpointSampleBean.resolveHeaders( String content , @ Headers Map < String , Object > headers );1;0;7
+JmsEndpointSampleBean.resolveMessageAndSession( jakarta . jms . Message message , Session session );1;0;5
+JmsEndpointSampleBean.resolveHeaderAndPayload( @ Payload String content , @ Header int myCounter );1;0;5
+MethodJmsListenerEndpointTests.invalidPayloadType( );1;0;8
+MethodJmsListenerEndpointTests.resolveObjectPayload( );1;0;10
+MethodJmsListenerEndpointTests.createInstance( DefaultMessageHandlerMethodFactory factory , Method method );1;0;3
+MethodJmsListenerEndpointTests.createInstance( DefaultMessageHandlerMethodFactory factory , Method method , MessageListenerContainer container );1;0;7
+MethodJmsListenerEndpointTests.processAndReplyWithSendTo( MessagingMessageListenerAdapter listener , String replyDestinationName , boolean pubSubDomain );1;0;3
+MethodJmsListenerEndpointTests.invalidSendTo( );1;0;6
+MethodJmsListenerEndpointTests.processAndReplyWithSendToTopic( );1;0;9
+JmsEndpointSampleBean.resolveObjectPayload( MyBean bean );1;0;5
+MethodJmsListenerEndpointTests.processAndReplyWithSendTo( MessagingMessageListenerAdapter listener , String replyDestinationName , boolean pubSubDomain , QosSettings replyQosSettings );2;1;27
+JmsEndpointSampleBean.resolveGenericMessage( Message < String > message );1;0;5
+MethodJmsListenerEndpointTests.processAndReplyWithDefaultSendTo( );1;0;5
+MethodJmsListenerEndpointTests.resolveConvertedPayload( );1;0;6
+JmsEndpointSampleBean.validatePayload( @ Validated String payload );1;0;3
+MethodJmsListenerEndpointTests.emptySendTo( );1;0;9
+JmsEndpointSampleBean.resolveCustomHeaderNameAndPayloadWithHeaderNameSet( @ Payload String content , @ Header ( name = "myCounter" ) int counter );1;0;5
+MethodJmsListenerEndpointTests.invalidMessagePayloadType( );1;0;7
+JmsEndpointSampleBean.invalidMessagePayloadType( Message < Integer > message );1;0;3
+JmsEndpointSampleBean.processAndReply( @ Payload String content );1;0;4
+MethodJmsListenerEndpointTests.supports( Class < ? > clazz );1;0;3
+MethodJmsListenerEndpointTests.initializeFactory( DefaultMessageHandlerMethodFactory factory );1;0;4
+MethodJmsListenerEndpointTests.processAndReplyWithNullReplyQosSettings( );1;0;9
+MethodJmsListenerEndpointTests.processFromQueueAndReplyWithSendToTopic( );1;0;9
+MethodJmsListenerEndpointTests.assertDefaultListenerMethodInvocation( );1;0;3
+MethodJmsListenerEndpointTests.resolveCustomHeaderNameAndPayloadWithHeaderNameSet( );1;0;8
+MethodJmsListenerEndpointTests.validate( @ Nullable Object target , Errors errors );2;0;6
+MethodJmsListenerEndpointTests.resolveMessageAndSession( );1;0;6
+JmsEndpointSampleBean.resolveConvertedPayload( Integer counter );1;0;5
+MethodJmsListenerEndpointTests.assertListenerMethodInvocation( JmsEndpointSampleBean bean , String methodName );1;0;3
+MethodJmsListenerEndpointTests.resolveHeaders( );1;0;9
+JmsEndpointSampleBean.resolveJmsMessageHeaderAccessor( JmsMessageHeaderAccessor headers );1;0;6
+MethodJmsListenerEndpointTests.processAndReplyWithCustomReplyQosSettings( );1;0;10
+JmsEndpointSampleBean.processAndReplyWithSendTo( String content );1;0;4
+MethodJmsListenerEndpointTests.testValidator( final String invalidValue );3;0;15
+MethodJmsListenerEndpointTests.resolveCustomHeaderNameAndPayload( );1;0;8
+MethodJmsListenerEndpointTests.validatePayloadValid( );1;0;11
+JmsEndpointSampleBean.invalidSendTo( String content );1;0;4
+JmsEndpointSampleBean.resolveCustomHeaderNameAndPayload( @ Payload String content , @ Header ( "myCounter" ) int counter );1;0;5

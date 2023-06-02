@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnnotationJCacheOperationSource.getExceptionCacheResolver( @ Nullable CacheResolverFactory factory , CacheMethodDetails < CacheResult > details );2;1;9
+AnnotationJCacheOperationSource.determineCacheName( Method method , @ Nullable CacheDefaults defaults , String candidate );4;2;9
+AnnotationJCacheOperationSource.determineCacheResolverFactory( @ Nullable CacheDefaults defaults , Class < ? extends CacheResolverFactory > candidate );4;4;11
+AnnotationJCacheOperationSource.getCacheResolver( @ Nullable CacheResolverFactory factory , CacheMethodDetails < ? > details );2;1;9
+AnnotationJCacheOperationSource.createCacheResultOperation( Method method , @ Nullable CacheDefaults defaults , CacheResult ann );2;0;14
+AnnotationJCacheOperationSource.createCacheRemoveAllOperation( Method method , @ Nullable CacheDefaults defaults , CacheRemoveAll ann );1;0;8
+AnnotationJCacheOperationSource.generateDefaultCacheName( Method method );4;5;10
+AnnotationJCacheOperationSource.getCacheDefaults( Method method , @ Nullable Class < ? > targetType );3;2;7
+AnnotationJCacheOperationSource.createCachePutOperation( Method method , @ Nullable CacheDefaults defaults , CachePut ann );1;0;9
+AnnotationJCacheOperationSource.countNonNull( Object ... instances );3;2;9
+AnnotationJCacheOperationSource.createCacheRemoveOperation( Method method , @ Nullable CacheDefaults defaults , CacheRemove ann );1;0;9
+AnnotationJCacheOperationSource.determineKeyGenerator( @ Nullable CacheDefaults defaults , Class < ? extends CacheKeyGenerator > candidate );4;4;11
+AnnotationJCacheOperationSource.createMethodDetails( Method method , A annotation , String cacheName );1;0;3
+AnnotationJCacheOperationSource.findCacheOperation( Method method , @ Nullable Class < ? > targetType );6;5;26

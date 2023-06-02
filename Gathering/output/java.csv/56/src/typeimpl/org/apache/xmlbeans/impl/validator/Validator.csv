@@ -1,0 +1,54 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Validator.validateListType( SchemaType type , String value , Event event );12;11;70
+State.visit( QName name );2;1;3
+Validator.findDetailedErrorBegin( Event event , State state , QName qName );8;5;37
+Validator.textEvent( Event event );2;0;12
+Validator.emitError( Event event , String message , String code , Object [ ] args , int severity , QName fieldName , QName offendingQName , SchemaType expectedSchemaType , List expectedQNames , int errorType , SchemaType badSchemaType );5;6;27
+Validator.isValid( );2;2;3
+Validator.resetValues( );1;0;17
+Validator.topState( );1;0;3
+Validator.pushState( State state );1;0;4
+Validator.beginEvent( Event event );59;59;261
+Validator.Validator( SchemaType type , SchemaField field , SchemaTypeLoader globalLoader , XmlOptions options , Collection defaultErrorListener );2;1;12
+Validator.getListTypes( );1;0;3
+Validator.emitError( Event event , String message , QName offendingQName , SchemaType expectedSchemaType , List expectedQNames , int errorType , SchemaType badSchemaType );1;0;4
+ValidatorVC.invalid( String message );1;0;4
+Validator.newState( SchemaType type , SchemaField field , boolean isNil );7;1;35
+Validator.getCurrentElement( );5;4;9
+Validator.attrEvent( Event event );14;14;77
+Validator.getGDateValue( );1;0;3
+Validator.getDecimalValue( );1;0;3
+State.currentParticle( );1;1;4
+State.end( );2;2;3
+Validator.endAttrsEvent( Event event );8;8;25
+Validator.getCurrentAttribute( );1;0;3
+Validator.getFloatValue( );1;0;3
+Validator.getListValue( );1;0;3
+Validator.getCurrentWildcardElement( );1;0;3
+Validator.popState( Event e );2;1;8
+Validator.validateSimpleType( SchemaType type , SchemaField field , Event event , boolean emptyContent , boolean canApplyDefault );22;17;75
+Validator.getGDurationValue( );1;0;3
+Validator.emitFieldError( Event event , String message , QName offendingQName , SchemaType expectedSchemaType , List expectedQNames , int errorType , SchemaType badSchemaType );1;0;4
+Validator.addToList( SchemaType type );27;7;104
+Validator.initVisitor( SchemaParticle particle );2;0;8
+Validator.getUnionType( );1;0;3
+Validator.poolVisitor( SchemaTypeVisitorImpl visitor );1;0;3
+Validator.handleText( Event event , boolean emptyContent , SchemaField field );13;13;49
+Validator.getByteArrayValue( );1;0;3
+ValidatorVC.invalid( String code , Object [ ] args );1;0;4
+Validator.getDoubleValue( );1;0;3
+State.test( QName name );2;1;3
+Validator.nextEvent( int kind , Event event );13;12;25
+Validator.getStringValue( );1;0;3
+Validator.validateSimpleType( SchemaType type , String value , Event event );6;4;17
+Validator.emitFieldError( Event event , String code , Object [ ] args , QName offendingQName , SchemaType expectedSchemaType , List expectedQNames , int errorType , SchemaType badSchemaType );1;0;4
+Validator.validateAtomicType( SchemaType type , String value , Event event );29;9;114
+Validator.getCurrentElementSchemaType( );2;1;6
+Validator.getQNameValue( );1;0;3
+Validator.emitFieldError( Event event , String message , String code , Object [ ] args , int severity , QName offendingQName , SchemaType expectedSchemaType , List expectedQNames , int errorType , SchemaType badSchemaType );3;3;9
+Validator.emitError( Event event , String code , Object [ ] args , QName offendingQName , SchemaType expectedSchemaType , List expectedQNames , int errorType , SchemaType badSchemaType );1;0;4
+Validator.findDetailedErrorEnd( Event event , State state );8;5;36
+Validator.validateUnionType( SchemaType type , String value , Event event );12;13;79
+Validator.getBooleanValue( );1;0;3
+Validator.getCurrentWildcardAttribute( );1;0;3
+Validator.endEvent( Event event );4;2;16

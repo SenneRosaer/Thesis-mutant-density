@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ErrorMessage.ErrorMessage( Throwable payload , Map < String , Object > headers );1;0;4
+ErrorMessage.ErrorMessage( Throwable payload , MessageHeaders headers );1;0;4
+ErrorMessage.ErrorMessage( Throwable payload , Message < ? > originalMessage );1;0;4
+ErrorMessage.ErrorMessage( Throwable payload );1;0;4
+***not in a method***;0;1;0
+ErrorMessage.ErrorMessage( Throwable payload , Map < String , Object > headers , Message < ? > originalMessage );1;0;4
+ErrorMessage.toString( );2;2;6
+ErrorMessage.getOriginalMessage( );1;0;3
+ErrorMessage.ErrorMessage( Throwable payload , MessageHeaders headers , Message < ? > originalMessage );1;0;4

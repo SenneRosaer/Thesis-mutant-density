@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PollingEndpoint.setDelay( long delay );1;0;3
+PollingEndpoint.setScheduler( Scheduler scheduler );1;0;3
+PollingEndpoint.getExecutor( );1;0;3
+PollingEndpoint.handlePollException( Exception e );1;0;3
+PollingEndpoint.getDelay( );1;0;3
+PollScheduleIterator.nextExecution( );4;3;14
+PollingEndpoint.stop( );2;1;13
+PollingEndpoint.setFirstTime( Date firstTime );1;0;3
+PollingEndpoint.PollingEndpoint( ServiceUnit serviceUnit , QName service , String endpoint );1;0;3
+PollingEndpoint.getScheduler( );1;0;3
+PollingEndpoint.getFirstTime( );1;0;3
+PollingEndpoint.setPeriod( long period );1;0;3
+PollingEndpoint.PollingEndpoint( DefaultComponent component , ServiceEndpoint endpoint );1;0;3
+PollSchedulerTask.run( );2;2;11
+PollingEndpoint.start( );6;5;20
+PollingEndpoint.PollingEndpoint( );1;0;2
+PollingEndpoint.setConcurrentPolling( boolean concurrentPolling );1;0;3
+PollingEndpoint.isConcurrentPolling( );1;0;3
+PollingEndpoint.getPeriod( );1;0;3

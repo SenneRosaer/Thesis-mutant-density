@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Resolver.resolveBordersLastRowInPart( List row , boolean withNormal , boolean withLeadingTrailing , boolean withRest );2;2;6
+Resolver.resolveBordersFirstRowInTable( List row , boolean withNormal , boolean withLeadingTrailing , boolean withRest );2;2;10
+ResolverInFooter.endTable( );2;0;9
+ResolverInBody.endTable( );3;1;11
+ResolverInHeader.endRow( List row , TableCellContainer container );3;1;14
+ResolverInBody.endRow( List row , TableCellContainer container );4;0;18
+ResolverInFooter.endRow( List row , TableCellContainer container );2;1;9
+Resolver.endRow( List row , TableCellContainer container );7;3;46
+Resolver.resolveBordersBetweenRows( List rowBefore , List rowAfter );4;6;10
+CollapsingBorderResolver.startPart( TablePart part );9;4;27
+CollapsingBorderResolver.CollapsingBorderResolver( Table table );2;2;14
+Resolver.integrateTrailingBorders( List row );2;2;8
+Resolver.startPart( TablePart part );1;0;8
+Resolver.resolveBordersLastRowInTable( List row , boolean withNormal , boolean withLeadingTrailing , boolean withRest );2;2;7
+CollapsingBorderResolver.endRow( List row , TableCellContainer container );1;0;3
+ResolverInHeader.endPart( );2;0;11
+Resolver.endPart( );1;0;3
+Resolver.integrateLeadingBorders( List row );2;2;8
+CollapsingBorderResolver.endTable( );5;2;16
+CollapsingBorderResolver.endPart( );1;0;3
+ResolverInFooter.endPart( );2;0;10
+ResolverInHeader.endTable( );1;0;3

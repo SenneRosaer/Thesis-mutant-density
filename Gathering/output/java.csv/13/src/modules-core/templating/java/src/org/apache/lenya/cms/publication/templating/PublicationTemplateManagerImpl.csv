@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PublicationTemplateManagerImpl.PublicationTemplateManagerImpl( );1;0;2
+PublicationTemplateManagerImpl.getSelectableHint( Publication publication , ServiceSelector selector , final String originalHint );3;1;17
+PublicationTemplateManagerImpl.getBaseURI( Publication publication );1;0;3
+ExistingServiceVisitor.ExistingServiceVisitor( ServiceSelector selector , Object hint , Logger logger );1;0;5
+PublicationTemplateManagerImpl.getBaseURIs( Publication publication );2;2;10
+ExistingServiceVisitor.getSelectableHint( );1;0;3
+PublicationTemplateManagerImpl.visit( Publication publication , PublicationVisitor visitor );5;3;19
+PublicationTemplateManagerImpl.service( ServiceManager _manager );1;0;3
+ExistingServiceVisitor.visit( Publication publication );3;1;11
+PublicationTemplateManagerImpl.visit( Publication publication , String path , SourceVisitor visitor );5;4;20
+PublicationTemplateManagerImpl.getPublications( Publication publication );3;1;15

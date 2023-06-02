@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OrderSourceProviderTests.assertOrder( Object [ ] actual , Object ... expected );2;2;6
+OrderSourceProviderTests.assertOrder( List < ? > actual , Object ... expected );2;2;6
+OrderSourceProviderTests.listFactoryMethod( );4;2;16
+OrderSourceProviderTests.plainComparator( );1;1;9
+C.getOrder( );1;0;3
+OrderSourceProviderTests.arrayFactoryMethod( );3;2;16
+OrderSourceProviderTests.listNoFactoryMethod( );2;1;8
+C.C( int order );1;0;3
+OrderSourceProviderTests.arrayNoFactoryMethod( );1;1;8
+OrderSourceProviderTests.arrayFactoryMethodOverridesStaticOrder( );3;3;16
+OrderSourceProviderTests.listFactoryMethodOverridesStaticOrder( );4;3;16

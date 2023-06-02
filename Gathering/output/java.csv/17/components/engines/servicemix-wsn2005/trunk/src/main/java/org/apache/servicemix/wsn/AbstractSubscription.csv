@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractSubscription.renew( @ WebParam ( name = "Renew" , targetNamespace = "http://docs.oasis-open.org/wsn/b-2" , partName = "RenewRequest" ) Renew renewRequest );1;0;8
+AbstractSubscription.AbstractSubscription( String name );2;0;8
+AbstractSubscription.getCurrentTime( );1;0;3
+AbstractSubscription.validateTerminationTime( String value );4;4;15
+AbstractSubscription.validateInitialTerminationTime( String value );4;4;16
+AbstractSubscription.resumeSubscription( @ WebParam ( name = "ResumeSubscription" , targetNamespace = "http://docs.oasis-open.org/wsn/b-2" , partName = "ResumeSubscriptionRequest" ) ResumeSubscription resumeSubscriptionRequest );1;0;4
+AbstractSubscription.getBroker( );1;0;3
+AbstractSubscription.getTerminationTime( );1;0;3
+AbstractSubscription.setBroker( AbstractNotificationBroker broker );1;0;3
+AbstractSubscription.unsubscribe( @ WebParam ( name = "Unsubscribe" , targetNamespace = "http://docs.oasis-open.org/wsn/b-2" , partName = "UnsubscribeRequest" ) Unsubscribe unsubscribeRequest );1;0;4
+AbstractSubscription.unsubscribe( );2;0;8
+AbstractSubscription.createAddress( );1;0;3
+AbstractSubscription.pauseSubscription( @ WebParam ( name = "PauseSubscription" , targetNamespace = "http://docs.oasis-open.org/wsn/b-2" , partName = "PauseSubscriptionRequest" ) PauseSubscription pauseSubscriptionRequest );1;0;4
+AbstractSubscription.create( Subscribe subscribeRequest );1;0;4
+AbstractSubscription.parseTerminationTime( String value );5;0;28
+AbstractSubscription.setTerminationTime( XMLGregorianCalendar terminationTime );1;0;3
+AbstractSubscription.validateSubscription( Subscribe subscribeRequest );27;22;81

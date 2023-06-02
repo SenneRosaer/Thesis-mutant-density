@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpRequestHdr.getSampler( );1;0;3
+***not in a method***;0;1;0
+HttpRequestHdr.getContentType( );2;1;7
+HttpRequestHdr.populateSampler( Map pageEncodings , Map formEncodings );29;18;122
+HttpRequestHdr.HttpRequestHdr( );1;0;3
+HttpRequestHdr.getPath( );3;3;12
+HttpRequestHdr.getUrl( );1;0;3
+HttpRequestHdr.serverName( );4;4;16
+HttpRequestHdr.createHeaderManager( );4;3;14
+HttpRequestHdr.parseLine( String nextLine );3;2;16
+HttpRequestHdr.getRemainder( StringTokenizer tk );3;0;11
+HttpRequestHdr.getToken( StringTokenizer tk );2;0;6
+HttpRequestHdr.serverPort( );4;5;16
+HttpRequestHdr.HttpRequestHdr( HTTPSamplerBase sampler );1;0;3
+HttpRequestHdr.parse( InputStream in );14;13;43
+HttpRequestHdr.getMultipartConfig( String contentType );2;0;7
+HttpRequestHdr.getUrlWithoutQuery( URL _url );2;3;9
+HttpRequestHdr.isMultipart( String contentType );3;2;6
+HttpRequestHdr.getSampler( Map pageEncodings , Map formEncodings );3;0;19
+HttpRequestHdr.getHeaderManager( );2;1;6
+HttpRequestHdr.isBinaryContent( String contentType );2;1;4
+HttpRequestHdr.parseFirstLine( String firstLine );6;1;24

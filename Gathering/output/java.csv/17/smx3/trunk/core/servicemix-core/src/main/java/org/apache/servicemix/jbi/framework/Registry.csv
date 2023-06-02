@@ -1,0 +1,79 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Registry.getBindingComponents( );5;4;12
+Registry.registerServiceAssembly( ServiceAssembly sa , String [ ] suKeys , ServiceAssemblyEnvironment env );1;0;3
+Registry.getMatchingSubscriptionEndpoints( MessageExchangeImpl exchange );1;0;3
+Registry.getEndpoint( QName service , String name );1;0;3
+Registry.getServiceAssembly( String saName );1;0;3
+Registry.unregisterEndpointConnection( QName fromSvc , String fromEp );1;0;3
+Registry.getServiceAssemblies( );1;0;3
+Registry.getDeployedServiceAssemblies( );1;0;3
+Registry.registerInterfaceConnection( QName fromItf , QName toSvc , String toEp );1;0;3
+Registry.getComponentsForDeployedServiceAssembly( String saName );1;0;3
+Registry.start( );1;0;5
+Registry.startPendingAssemblies( );7;5;21
+Registry.deregisterSubscription( ComponentContextImpl context , SubscriptionSpec subscription );1;0;4
+Registry.registerServiceUnit( ServiceUnit su , String saName , File suDir );2;0;15
+Registry.addPendingAssembly( ServiceAssemblyLifeCycle sa );2;1;5
+Registry.getComponent( String name );1;0;4
+Registry.getSharedLibraryNames( );2;0;7
+Registry.getEndpointsForService( QName serviceName );1;0;3
+Registry.Registry( );1;0;10
+Registry.getPojoComponents( );4;2;12
+Registry.getComponents( );1;0;3
+Registry.unregisterSharedLibrary( String name );3;1;11
+Registry.unregisterServiceAssembly( String saName );1;0;3
+Registry.isContainerEmbedded( );1;0;3
+Registry.deregisterComponent( ComponentMBeanImpl component );1;0;3
+Registry.getExternalEndpoints( QName interfaceName );1;0;3
+Registry.resolveEndpointReference( DocumentFragment epr );4;2;13
+Registry.getComponentNames( );2;0;7
+Registry.getEndpointsForComponent( ComponentNameSpace cns );1;0;3
+Registry.getEnvironmentContext( );1;0;3
+Registry.getEngineComponents( );5;4;12
+Registry.registerSubscriptions( ComponentContextImpl context , ActivationSpec as );3;3;11
+Registry.getComponentRegistry( );1;0;3
+Registry.getServiceUnitNames( );2;0;7
+Registry.getServiceUnits( );1;0;3
+Registry.registerExternalEndpoint( ComponentNameSpace cns , ServiceEndpoint externalEndpoint );2;1;5
+Registry.getEndpointRegistry( );1;0;3
+Registry.getDeployedServiceAssembliesForComponent( String componentName );1;0;3
+Registry.cancelPendingExchanges( );3;1;8
+Registry.matchEndpointByName( ServiceEndpoint [ ] endpoints , String endpointName );6;7;12
+Registry.getSharedLibraries( );1;0;3
+Registry.getExternalEndpointsForService( QName serviceName );1;0;3
+Registry.getEndpointDescriptor( ServiceEndpoint endpoint );2;1;8
+Registry.unregisterServiceUnit( String suKey );3;1;10
+Registry.getServiceUnit( String suKey );1;0;3
+Registry.isSADeployedServiceUnit( String componentName , String suName );1;0;3
+Registry.unregisterRemoteEndpoint( ServiceEndpoint endpoint );1;0;3
+Registry.startPendingComponents( );2;0;4
+Registry.deactivateEndpoint( ComponentContext provider , InternalEndpoint serviceEndpoint );1;0;3
+Registry.getDescription( );1;0;3
+Registry.registerServiceAssembly( ServiceAssembly sa , ServiceAssemblyEnvironment env );1;0;3
+Registry.getServiceMBean( );1;0;3
+Registry.deregisterExternalEndpoint( ComponentNameSpace cns , ServiceEndpoint externalEndpoint );1;0;3
+Registry.resolveInternalEPR( DocumentFragment epr );8;10;26
+Registry.resolveStandardEPR( DocumentFragment epr );10;8;43
+Registry.getServiceAssemblyNames( );2;0;7
+Registry.registerSharedLibrary( org . apache . servicemix . jbi . deployment . SharedLibrary sl , File installationDir );2;0;11
+Registry.getInternalEndpoint( QName service , String name );1;0;3
+Registry.unregisterInterfaceConnection( QName fromItf );1;0;3
+Registry.getComponent( ComponentNameSpace cns );1;0;3
+Registry.getEndpointNames( );2;0;7
+Registry.registerComponent( ComponentNameSpace name , String description , Component component , boolean binding , boolean service , String [ ] sharedLibs );1;0;3
+Registry.getAttributeInfos( );1;0;9
+Registry.init( JBIContainer container );1;0;4
+Registry.getSharedLibrary( String name );1;0;3
+Registry.registerRemoteEndpoint( ServiceEndpoint endpoint );1;0;3
+Registry.getDeployedServiceUnits( String componentName );3;0;11
+Registry.stop( );1;0;5
+Registry.checkPendingAssemblies( );1;0;7
+Registry.getEndpointsForInterface( QName interfaceName );1;0;3
+Registry.run( );1;0;3
+Registry.addPendingComponent( ComponentMBeanImpl comp );2;1;5
+Registry.activateEndpoint( ComponentContextImpl context , QName serviceName , String endpointName );1;0;3
+Registry.checkPendingComponents( );1;0;7
+Registry.shutDown( );1;0;7
+Registry.registerSubscription( ComponentContextImpl context , SubscriptionSpec subscription , ServiceEndpoint endpoint );1;0;5
+Registry.deregisterSubscriptions( ComponentContextImpl context , ActivationSpec as );3;3;8
+Registry.registerEndpointConnection( QName fromSvc , String fromEp , QName toSvc , String toEp , String link );1;0;3

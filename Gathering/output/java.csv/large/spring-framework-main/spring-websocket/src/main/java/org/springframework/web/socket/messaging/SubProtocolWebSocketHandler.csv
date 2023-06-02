@@ -1,0 +1,54 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SubProtocolWebSocketHandler.setSendTimeLimit( int sendTimeLimit );1;0;3
+SubProtocolWebSocketHandler.getProtocolHandlerMap( );1;0;3
+SubProtocolWebSocketHandler.afterConnectionClosed( WebSocketSession session , CloseStatus closeStatus );1;0;3
+SubProtocolWebSocketHandler.decorateSession( WebSocketSession session );1;0;3
+SubProtocolWebSocketHandler.handleMessage( Message < ? > message );11;2;41
+WebSocketSessionHolder.hasHandledMessages( );1;0;3
+SubProtocolWebSocketHandler.resolveSessionId( Message < ? > message );5;3;15
+SubProtocolWebSocketHandler.getStats( );1;0;3
+SubProtocolWebSocketHandler.toString( );1;0;3
+DefaultStats.getCountFor( WebSocketSession session );3;0;11
+SubProtocolWebSocketHandler.getSendBufferSizeLimit( );1;0;3
+SubProtocolWebSocketHandler.stop( );4;0;16
+SubProtocolWebSocketHandler.SubProtocolWebSocketHandler( MessageChannel clientInboundChannel , SubscribableChannel clientOutboundChannel );1;0;6
+DefaultStats.getNoMessagesReceivedSessions( );1;0;3
+SubProtocolWebSocketHandler.afterConnectionEstablished( WebSocketSession session );2;1;9
+SubProtocolWebSocketHandler.getSendTimeLimit( );1;0;3
+WebSocketSessionHolder.WebSocketSessionHolder( WebSocketSession session );1;0;4
+SubProtocolWebSocketHandler.getSubProtocols( );1;0;3
+DefaultStats.toString( );1;9;11
+DefaultStats.getWebSocketSessions( );1;0;3
+WebSocketSessionHolder.setHasHandledMessages( );1;0;3
+SubProtocolWebSocketHandler.getProtocolHandlers( );1;0;3
+DefaultStats.incrementSessionCount( WebSocketSession session );1;0;4
+SubProtocolWebSocketHandler.clearSession( WebSocketSession session , CloseStatus closeStatus );3;1;9
+SubProtocolWebSocketHandler.stop( Runnable callback );1;0;6
+SubProtocolWebSocketHandler.supportsPartialMessages( );1;0;3
+DefaultStats.getTotalSessions( );1;0;3
+SubProtocolWebSocketHandler.isRunning( );1;0;3
+DefaultStats.getLimitExceededSessions( );1;0;3
+DefaultStats.incrementLimitExceededCount( );1;0;3
+DefaultStats.decrementSessionCount( WebSocketSession session );1;0;3
+SubProtocolWebSocketHandler.getDefaultProtocolHandler( );1;0;3
+SubProtocolWebSocketHandler.setSendBufferSizeLimit( int sendBufferSizeLimit );1;0;3
+SubProtocolWebSocketHandler.setTimeToFirstMessage( int timeToFirstMessage );1;0;3
+SubProtocolWebSocketHandler.checkSessions( );10;6;37
+SubProtocolWebSocketHandler.addProtocolHandler( SubProtocolHandler handler );6;3;17
+SubProtocolWebSocketHandler.handleMessage( WebSocketSession session , WebSocketMessage < ? > message );3;2;12
+***not in a method***;0;3;0
+SubProtocolWebSocketHandler.getStatsInfo( );1;0;3
+SubProtocolWebSocketHandler.setProtocolHandlers( List < SubProtocolHandler > protocolHandlers );2;0;7
+SubProtocolWebSocketHandler.getTimeToFirstMessage( );1;0;3
+DefaultStats.incrementTransportError( );1;0;3
+DefaultStats.getTransportErrorSessions( );1;0;3
+WebSocketSessionHolder.getCreateTime( );1;0;3
+SubProtocolWebSocketHandler.start( );2;3;7
+WebSocketSessionHolder.getSession( );1;0;3
+DefaultStats.incrementNoMessagesReceivedCount( );1;0;3
+SubProtocolWebSocketHandler.findProtocolHandler( WebSocketSession session );6;3;31
+DefaultStats.getHttpStreamingSessions( );1;0;3
+DefaultStats.getHttpPollingSessions( );1;0;3
+SubProtocolWebSocketHandler.handleTransportError( WebSocketSession session , Throwable exception );1;0;3
+SubProtocolWebSocketHandler.setDefaultProtocolHandler( @ Nullable SubProtocolHandler defaultProtocolHandler );2;0;6
+WebSocketSessionHolder.toString( );1;0;4

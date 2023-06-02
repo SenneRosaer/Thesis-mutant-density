@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NonexistantModuleConfig.NonexistantModuleConfig( );1;0;3
+AutoRegisterActionServlet.processUnhandledAction( HttpServletRequest request , HttpServletResponse response , String uri );1;0;3
+AutoRegisterActionServlet.destroy( );1;0;4
+AutoRegisterActionServlet.initModuleConfig( String prefix , String paths );17;12;113
+AutoRegisterActionServlet.defaultMessageResourcesConfig( ModuleConfig config );7;5;27
+AutoRegisterActionServlet.addModuleConfigLocator( String locatorClassName , ArrayList locators );4;1;19
+AutoRegisterActionServlet.getInitParameterNames( );2;2;8
+AutoRegisterActionServlet.getConfigResourceAsStream( String path );3;1;6
+AutoRegisterActionServlet.getConfigResource( String path );3;1;6
+MissingRootModuleControllerConfig.MissingRootModuleControllerConfig( );1;0;3
+AutoRegisterActionServlet.setupModuleConfigLocators( );8;9;36
+AutoRegisterActionServlet.isAutoLoadModulePath( String modulePath , String prefix );4;3;11
+AutoRegisterActionServlet.getModuleConfig( String modulePath , ServletRequest request , ServletResponse response );1;0;3
+AutoRegisterActionServlet.getModuleConfPath( String modulePath );5;4;20
+AutoRegisterActionServlet.writeObject( ObjectOutputStream stream );4;2;22
+AutoRegisterActionServlet.clearRegisteredModules( );2;2;10
+AutoRegisterActionServlet.initConfigDigester( );1;0;4
+AutoRegisterActionServlet.getDefaultModuleConfigLocators( );1;0;3
+AutoRegisterActionServlet.ensureModuleRegistered( String modulePath );6;7;34
+AutoRegisterActionServlet.readObject( ObjectInputStream stream );2;0;4
+AutoRegisterActionServlet.getModuleConfigLocators( );1;0;3
+AutoRegisterActionServlet.registerModule( String modulePath , String configFilePath );6;1;35
+AutoRegisterActionServlet.getInitParameter( String s );2;2;8
+AutoRegisterActionServlet.ensureModuleRegistered( String modulePath , ServletRequest request );1;0;3
+AutoRegisterActionServlet.init( );1;0;5
+AutoRegisterActionServlet.moduleCanHandlePath( ModuleConfig moduleConfig , RequestProcessor rp , String servletPath );1;0;3
+AutoRegisterActionServlet.process( HttpServletRequest request , HttpServletResponse response );12;8;57
+AutoRegisterActionServlet.defaultControllerConfig( ModuleConfig config );12;9;40

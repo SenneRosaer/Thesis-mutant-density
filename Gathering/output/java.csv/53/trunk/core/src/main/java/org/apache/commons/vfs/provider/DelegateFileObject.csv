@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DelegateFileObject.fileDeleted( final FileChangeEvent event );3;2;10
+DelegateFileObject.doGetLastModifiedTime( );1;0;3
+DelegateFileObject.attachChild( final FileName baseName , final FileType type );2;0;8
+DelegateFileObject.doListChildren( );4;3;24
+DelegateFileObject.doGetCertificates( );1;0;3
+DelegateFileObject.setFile( final FileObject file );2;1;9
+DelegateFileObject.doSetAttribute( final String atttrName , final Object value );1;0;3
+DelegateFileObject.doGetOutputStream( boolean bAppend );1;0;3
+DelegateFileObject.doIsHidden( );2;1;10
+DelegateFileObject.doIsWriteable( );2;1;10
+DelegateFileObject.doGetInputStream( );1;0;3
+DelegateFileObject.doGetContentInfo( );1;0;3
+DelegateFileObject.doGetAttributes( );1;0;3
+DelegateFileObject.fileChanged( FileChangeEvent event );3;2;10
+DelegateFileObject.fileCreated( final FileChangeEvent event );3;2;10
+DelegateFileObject.refresh( );2;1;7
+DelegateFileObject.getDelegateFile( );1;0;3
+DelegateFileObject.doIsReadable( );2;1;10
+DelegateFileObject.maybeTypeChanged( final FileType oldType );5;6;11
+DelegateFileObject.close( );2;1;7
+DelegateFileObject.doRename( FileObject newFile );1;0;3
+DelegateFileObject.doGetType( );3;2;14
+DelegateFileObject.doGetRandomAccessContent( final RandomAccessMode mode );1;0;3
+DelegateFileObject.doSetLastModTime( final long modtime );1;0;4
+DelegateFileObject.doDelete( );1;0;11
+DelegateFileObject.doRemoveAttribute( final String atttrName );1;0;3
+DelegateFileObject.DelegateFileObject( final FileName name , final AbstractFileSystem fileSystem , final FileObject file );2;1;8
+DelegateFileObject.doCreateFolder( );1;0;11
+DelegateFileObject.doGetContentSize( );1;0;3

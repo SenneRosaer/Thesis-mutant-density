@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResolverImpl.add( Resource resource );1;0;4
+ResolverImpl.ResolverImpl( BundleContext context , RepositoryAdmin admin );1;0;4
+ResolverImpl.isResourceUpdatable( Resource oldVersion , Resource newVersion , Resource [ ] resources );8;9;28
+ResolverImpl.getRequiredResources( );2;0;9
+ResolverImpl.searchLocalResources( Requirement req );6;8;16
+ResolverImpl.searchRemoteResources( Requirement req );8;12;20
+ResolverImpl.deploy( boolean start );21;24;93
+ResolverImpl.getResources( Requirement requirement );2;0;7
+ResolverImpl.getOptionalResources( );2;0;9
+ResolverImpl.getBestResource( List resources );15;20;41
+ResolverImpl.searchResolvingResources( Requirement req );6;8;16
+ResolverImpl.resolve( Resource resource );16;16;76
+ResolverImpl.getAddedResources( );1;0;3
+ResolverImpl.findLocalResources( String symName );4;4;13
+ResolverImpl.resolve( );4;2;28
+ResolverImpl.getResolvableRequirements( Resource resource , Resource [ ] resources );9;13;28
+ResolverImpl.addReason( Resource resource , Requirement req );2;2;15
+ResolverImpl.getReason( Resource resource );2;0;7
+ResolverImpl.findUpdatableLocalResource( Resource resource );4;3;14
+ResolverImpl.getUnsatisfiedRequirements( );2;0;9
+ResolverImpl.searchAddedResources( Requirement req );5;4;15

@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSDFACM.isFinalState( int state );2;1;4
+XSDFACM.buildDFA( CMNode syntaxTree );27;48;134
+XSDFACM.postTreeBuildInit( CMNode nodeCur );8;10;30
+XSDFACM.findMatchingDecl( QName curElem , int [ ] state , SubstitutionGroupHandler subGroupHandler , int elemIndex );10;10;34
+XSDFACM.checkUniqueParticleAttribution( SubstitutionGroupHandler subGroupHandler );20;36;49
+XSDFACM.calcFollowList( CMNode nodeCur );10;10;29
+XSDFACM.findMatchingDecl( QName curElem , SubstitutionGroupHandler subGroupHandler );6;5;17
+Occurence.Occurence( XSCMRepeatingLeaf leaf , int elemIndex );1;0;5
+XSDFACM.isCompactedForUPA( );1;0;3
+XSDFACM.makeDefStateList( );2;3;6
+XSDFACM.startContentModel( );1;0;3
+XSDFACM.whatCanGoHere( int [ ] state );10;12;27
+XSDFACM.XSDFACM( CMNode syntaxTree , int leafCount );3;2;12
+XSDFACM.endContentModel( int [ ] state );5;4;13
+XSDFACM.oneTransition( QName curElem , int [ ] state , SubstitutionGroupHandler subGroupHandler );21;24;64
+Occurence.toString( );2;1;6
+XSDFACM.dumpTree( CMNode nodeCur , int level );13;6;64

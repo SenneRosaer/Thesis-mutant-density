@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ThreadLocalHttpConnectionManager.getConnectionWithTimeout( HostConfiguration hostConfiguration , long timeout );5;4;33
+ThreadLocalHttpConnectionManager.isConnectionStaleCheckingEnabled( );1;0;3
+ThreadLocalHttpConnectionManager.getIdleStartTime( );1;0;3
+ThreadLocalHttpConnectionManager.setLocalHttpConnection( HttpConnection conn );1;0;3
+ThreadLocalHttpConnectionManager.setIdleStartTime( long idleStartTime );1;0;3
+ConnectionParameters.populateParameters( HttpConnection connection );1;0;3
+ConnectionParameters.setStaleCheckingEnabled( boolean b );1;0;3
+ConnectionParameters.isStaleCheckingEnabled( );1;0;3
+ThreadLocalHttpConnectionManager.ThreadLocalHttpConnectionManager( );1;0;2
+ThreadLocalHttpConnectionManager.getLocalHttpConnection( );1;0;3
+ThreadLocalHttpConnectionManager.getConnection( HostConfiguration hostConfiguration , long timeout );1;0;3
+ThreadLocalHttpConnectionManager.initialValue( );1;0;3
+ThreadLocalHttpConnectionManager.releaseLocalConnection( );2;1;6
+ThreadLocalHttpConnectionManager.finishLastResponse( HttpConnection conn );3;1;15
+ThreadLocalHttpConnectionManager.releaseConnection( HttpConnection conn );2;1;8
+ThreadLocalHttpConnectionManager.getConnection( HostConfiguration hostConfiguration );1;0;3
+ThreadLocalHttpConnectionManager.setConnectionStaleCheckingEnabled( boolean connectionStaleCheckingEnabled );1;0;3
+ThreadLocalHttpConnectionManager.closeIdleConnections( long idleTimeout );2;2;7

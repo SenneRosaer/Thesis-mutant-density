@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SQLStateSQLExceptionTranslatorTests.doTest( @ Nullable String sqlState , @ Nullable Class < ? > dataAccessExceptionType );1;0;3
+SQLStateSQLExceptionTranslatorTests.translateDataAccessResourceFailure( );1;0;3
+SQLStateSQLExceptionTranslatorTests.translateDataIntegrityViolation( );1;0;3
+SQLStateSQLExceptionTranslatorTests.translateTransientDataAccessResourceFailure( );1;0;3
+SQLStateSQLExceptionTranslatorTests.translateNullException( );1;0;4
+SQLStateSQLExceptionTranslatorTests.translateDuplicateKey( );1;0;3
+SQLStateSQLExceptionTranslatorTests.translateCannotAcquireLock( );1;0;3
+SQLStateSQLExceptionTranslatorTests.translateDuplicateKeyMySQL( );1;0;3
+SQLStateSQLExceptionTranslatorTests.invalidSqlStateCode( );1;0;3
+SQLStateSQLExceptionTranslatorTests.translateBadSqlGrammar( );1;0;3
+SQLStateSQLExceptionTranslatorTests.translateUncategorized( );1;0;3
+SQLStateSQLExceptionTranslatorTests.malformedSqlStateCodes( );1;0;5
+SQLStateSQLExceptionTranslatorTests.translateDuplicateKeyMSSQL( );1;0;3
+SQLStateSQLExceptionTranslatorTests.translatePessimisticLockingFailure( );1;0;3
+SQLStateSQLExceptionTranslatorTests.doTest( @ Nullable String sqlState , int errorCode , @ Nullable Class < ? > dataAccessExceptionType );2;1;12
+SQLStateSQLExceptionTranslatorTests.translateDuplicateKeyOracle( );1;0;3

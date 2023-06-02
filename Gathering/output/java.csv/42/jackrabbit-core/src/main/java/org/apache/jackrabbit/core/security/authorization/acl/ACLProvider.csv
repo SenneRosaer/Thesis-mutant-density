@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ACLProvider.getEditor( Session session );1;0;4
+ACLProvider.init( Session systemSession , Map configuration );3;3;10
+ACLProvider.getEffectivePolicies( Path absPath );2;0;12
+AclPermissions.grants( Path absPath , int permissions );4;4;7
+AclPermissions.AclPermissions( Set principals );1;0;3
+ACLProvider.getNode( NodeImpl targetNode );3;0;13
+AclPermissions.AclPermissions( Set principals , boolean listenToEvents );3;2;16
+AclPermissions.isReadAllowed( Collection principalnames );5;3;30
+AclPermissions.onEvent( EventIterator events );21;8;55
+AclPermissions.close( );2;0;8
+ACLProvider.isAccessControlled( NodeImpl node );2;1;3
+ACLProvider.isAcItem( Path absPath );3;2;9
+ACLProvider.collectAcls( NodeImpl node , List acls );3;1;11
+Entries.iterator( );2;0;9
+AclPermissions.buildResult( Path absPath );12;12;58
+Entries.collectEntries( NodeImpl node );3;1;10
+ACLProvider.initRootACL( SessionImpl session , AccessControlEditor editor );3;0;32
+Entries.Entries( NodeImpl node , Collection principalNames );2;0;7
+ACLProvider.canAccessRoot( Set principals );2;0;9
+ACLProvider.isAcItem( ItemImpl item );3;1;4
+ACLProvider.compilePermissions( Set principals );3;0;10

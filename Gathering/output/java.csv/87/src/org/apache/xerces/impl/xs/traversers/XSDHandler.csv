@@ -1,0 +1,60 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSDHandler.traverseLocalElements( );6;5;22
+XSDHandler.setDeclPool( XSDeclarationPool declPool );1;0;3
+XSDHandler.needReportTNSError( String uri );3;1;8
+XSDHandler.resolveKeyRefs( );2;2;10
+XSDHandler.constructTrees( Element schemaRoot , String locationHint , XSDDescription desc );55;49;235
+***not in a method***;0;20;0
+XSDKey.XSDKey( String systemId , short referType , String referNS );1;0;5
+XSDHandler.doc2SystemId( Element ele );3;1;7
+XSDHandler.getSchemaDocument( String schemaNamespace , DOMInputSource schemaSource , boolean mustResolve , short referType , Element referElement );11;11;47
+XSDHandler.traverseSchemas( ArrayList annotationInfo );23;9;95
+XSDHandler.findGrammar( XSDDescription desc );5;4;15
+XSDHandler.reportSchemaWarning( String key , Object [ ] args , Element ele );2;0;10
+XSAnnotationGrammarPool.lockPool( );1;0;1
+XSDHandler.prepareForParse( );1;0;6
+XSAnnotationGrammarPool.refreshGrammars( XSGrammarBucket gBucket );1;0;4
+XSDHandler.element2Locator( Element e );3;1;6
+XSDHandler.createTraversers( );1;0;13
+XSDHandler.getSchemaDocument1( boolean mustResolve , boolean hasInput , XMLInputSource schemaSource , Element referElement );5;1;21
+XSDHandler.getSchemaDocument0( XSDKey key , String schemaId , Element schemaElement );3;2;10
+XSDHandler.getGrpOrAttrGrpRedefinedByRestriction( int type , QName name , XSDocumentInfo currSchema , Element elmNode );9;6;32
+XSAnnotationGrammarPool.cacheGrammars( String grammarType , Grammar [ ] grammars );1;0;2
+XSAnnotationGrammarPool.retrieveGrammar( XMLGrammarDescription desc );5;3;15
+XSDHandler.findXSDocumentForDecl( XSDocumentInfo currSchema , Element decl , XSDocumentInfo decl_Doc );3;1;11
+XSDHandler.validateAnnotations( ArrayList annotationInfo );5;5;20
+XSDHandler.storeKeyRef( Element keyrefToStore , XSDocumentInfo schemaDoc , XSElementDecl currElemDecl );4;9;26
+XSDHandler.fillInLocalElemInfo( Element elmDecl , XSDocumentInfo schemaDoc , int allContextFlags , XSObject parent , XSParticleDecl particle );2;8;28
+XSDHandler.renameRedefiningComponents( XSDocumentInfo currSchema , Element child , String componentType , String oldName , String newName );37;44;135
+XSAnnotationGrammarPool.retrieveInitialGrammarSet( String grammarType );6;7;24
+XSDHandler.getSchemaDocument( String schemaNamespace , StAXInputSource schemaSource , boolean mustResolve , short referType , Element referElement );15;8;57
+XSDHandler.changeRedefineGroup( String originalQName , String elementSought , String newName , Element curr , XSDocumentInfo schemaDoc );11;13;35
+XSDHandler.setGenerateSyntheticAnnotations( boolean state );1;0;3
+XSDHandler.createAnnotationValidator( );2;1;11
+XSAnnotationGrammarPool.unlockPool( );1;0;1
+XSDHandler.element2Locator( Element e , SimpleLocator l );3;1;14
+XSDHandler.findQName( String name , XSDocumentInfo schemaDoc );7;9;14
+XSDHandler.getIDRegistry( );1;0;3
+XSDHandler.removeParticle( XSModelGroupImpl group , XSParticleDecl particle );6;9;17
+XSDHandler.getSchemaDocument( String schemaNamespace , XMLInputSource schemaSource , boolean mustResolve , short referType , Element referElement );9;10;31
+XSDHandler.getIDRegistry_sub( );1;0;3
+XSDHandler.getGlobalDecl( XSDocumentInfo currSchema , int declType , QName declToTraverse , Element elmNode );42;16;141
+XSDHandler.checkForDuplicateNames( String qName , Hashtable registry , Hashtable registry_sub , Element currComp , XSDocumentInfo currSchema );12;14;58
+XSDHandler.getGrammar( String tns );1;0;3
+XSDHandler.prepareForTraverse( );4;5;55
+XSDHandler.buildGlobalNameRegistries( );28;19;104
+XSAnnotationGrammarPool.clear( );1;0;1
+XSDHandler.resolveSchema( XSDDescription desc , boolean mustResolve , Element referElement , boolean usePairs );7;0;29
+XSDHandler.null2EmptyString( String ns );2;1;3
+XSDHandler.nonAnnotationContent( Element elem );3;2;6
+XSDHandler.XSDHandler( XSGrammarBucket gBucket );1;0;5
+XSDHandler.getSchemaDocument( String schemaNamespace , SAXInputSource schemaSource , boolean mustResolve , short referType , Element referElement );17;12;73
+XSDHandler.XSDHandler( );1;0;4
+XSDHandler.reset( XMLComponentManager componentManager );18;8;72
+XSDHandler.parseSchema( XMLInputSource is , XSDDescription desc , Hashtable locationPairs );24;28;96
+XSDKey.equals( Object obj );5;5;12
+XSDHandler.isExistingGrammar( XSDDescription desc );4;2;17
+XSDKey.hashCode( );2;1;3
+XSDHandler.emptyString2Null( String ns );2;1;3
+XSDHandler.reportSchemaError( String key , Object [ ] args , Element ele );2;0;10
+XSDHandler.setSchemasVisible( XSDocumentInfo startSchema );3;2;9

@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UserRegistryMessageHandler.getRegistryExpirationPeriod( );1;0;3
+UserRegistryMessageHandler.onApplicationEvent( BrokerAvailabilityEvent event );4;2;13
+UserRegistryMessageHandler.getBroadcastDestination( );1;0;3
+UserRegistryMessageHandler.setRegistryExpirationPeriod( long milliseconds );1;0;3
+UserRegistryMessageHandler.handleMessage( Message < ? > message );1;0;4
+UserRegistryTask.run( );1;0;12
+UserRegistryMessageHandler.UserRegistryMessageHandler( MultiServerUserRegistry userRegistry , SimpMessagingTemplate brokerTemplate , String broadcastDestination , TaskScheduler scheduler );1;0;10

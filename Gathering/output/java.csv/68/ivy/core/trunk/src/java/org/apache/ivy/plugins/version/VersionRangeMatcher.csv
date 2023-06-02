@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VersionRangeMatcher.compare( ModuleRevisionId askedMrid , ModuleRevisionId foundMrid , Comparator staticComparator );5;2;23
+VersionRangeMatcher.accept( ModuleRevisionId askedMrid , ModuleRevisionId foundMrid );5;1;22
+MRIDArtifactInfo.getLastModified( );1;0;3
+VersionRangeMatcher.isUpper( ModuleRevisionId askedMrid , String revision , ModuleRevisionId foundMrid , boolean inclusive );2;1;5
+MRIDArtifactInfo.getRevision( );1;0;3
+VersionRangeMatcher.setLatest( String latestStrategyName );1;0;3
+VersionRangeMatcher.getLatestStrategy( );5;4;19
+VersionRangeMatcher.VersionRangeMatcher( );1;0;3
+MRIDArtifactInfo.MRIDArtifactInfo( ModuleRevisionId id );1;0;3
+***not in a method***;0;12;0
+VersionRangeMatcher.setLatestStrategy( LatestStrategy latestStrategy );1;0;3
+VersionRangeMatcher.isDynamic( ModuleRevisionId askedMrid );1;0;4
+VersionRangeMatcher.VersionRangeMatcher( String name , LatestStrategy strategy );1;0;4
+VersionRangeMatcher.isLower( ModuleRevisionId askedMrid , String revision , ModuleRevisionId foundMrid , boolean inclusive );2;2;5
+VersionRangeMatcher.compare( Object o1 , Object o2 );3;2;10
+VersionRangeMatcher.VersionRangeMatcher( String name );1;0;3

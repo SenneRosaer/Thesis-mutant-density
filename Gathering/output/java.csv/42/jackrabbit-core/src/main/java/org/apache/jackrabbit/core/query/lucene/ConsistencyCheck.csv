@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodeDeleted.repairable( );1;0;3
+MissingAncestor.repairable( );1;0;3
+MultipleEntries.repairable( );1;0;3
+ConsistencyCheck.run( );16;25;60
+ConsistencyCheck.getErrors( );1;0;3
+ConsistencyCheck.run( MultiIndex index , ItemStateManager mgr );1;0;5
+ConsistencyCheck.ConsistencyCheck( MultiIndex index , ItemStateManager mgr );1;0;4
+UnknownParent.UnknownParent( UUID uuid , UUID parentUUID );1;0;3
+MultipleEntries.repair( );3;0;14
+NodeDeleted.repair( );1;0;4
+ConsistencyCheck.getPath( NodeState node );6;7;27
+MultipleEntries.MultipleEntries( UUID uuid );1;0;3
+MissingAncestor.MissingAncestor( UUID uuid , UUID parentUUID );1;0;4
+UnknownParent.repair( );1;0;3
+NodeDeleted.NodeDeleted( UUID uuid );1;0;3
+UnknownParent.repairable( );1;0;3
+MissingAncestor.repair( );5;3;17
+ConsistencyCheck.repair( boolean ignoreFailure );8;5;31

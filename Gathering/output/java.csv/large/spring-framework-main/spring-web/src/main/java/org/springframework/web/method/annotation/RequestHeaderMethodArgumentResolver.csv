@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestHeaderMethodArgumentResolver.supportsParameter( MethodParameter parameter );2;2;4
+RequestHeaderMethodArgumentResolver.createNamedValueInfo( MethodParameter parameter );1;1;5
+RequestHeaderMethodArgumentResolver.handleMissingValueAfterConversion( String name , MethodParameter parameter , NativeWebRequest request );1;0;3
+RequestHeaderNamedValueInfo.RequestHeaderNamedValueInfo( RequestHeader annotation );1;0;3
+RequestHeaderMethodArgumentResolver.resolveName( String name , MethodParameter parameter , NativeWebRequest request );3;2;9
+RequestHeaderMethodArgumentResolver.RequestHeaderMethodArgumentResolver( @ Nullable ConfigurableBeanFactory beanFactory );1;0;3
+RequestHeaderMethodArgumentResolver.handleMissingValue( String name , MethodParameter parameter );1;0;3

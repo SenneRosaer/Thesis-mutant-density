@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Manifest.getNative( );1;0;3
+Manifest.getCategories( );2;1;7
+Manifest.word( StreamTokenizer st );3;0;10
+Manifest.getValue( String key , String deflt );2;1;7
+***not in a method***;0;1;0
+Manifest.getRequiredExecutionEnvironments( );2;1;7
+Manifest.get( Object key );2;0;6
+Manifest.getHost( );1;0;3
+Manifest.getActivator( );1;0;3
+Manifest.getManifestVersion( );1;0;3
+Manifest.getDuplicates( );1;0;3
+Manifest.getLocation( );1;0;3
+Manifest.setDuplicates( Vector duplicates );1;0;3
+Manifest.put( Object header , Object value );3;2;7
+Manifest.getImports( );1;0;3
+Manifest.getBsn( );1;0;3
+Manifest.getParameter( StreamTokenizer st );5;6;19
+Manifest.getValue( String key );1;0;3
+Manifest.setHost( ManifestEntry host );1;0;3
+Manifest.getCopyright( );1;0;3
+Manifest.getClasspath( String line );2;2;7
+Manifest.set_native( Native [ ] _native );1;0;3
+Manifest.getStreamTokenizer( String line );2;2;12
+Manifest.getExports( );1;0;3
+Manifest.getNative( String line );9;3;31
+Manifest.getClasspath( );1;0;3
+Manifest.getRequire( );1;0;3
+Manifest.getDocumentation( );1;0;3
+Manifest.warning( String msg );1;0;3
+Manifest.get_native( );1;0;3
+Manifest.parse( Reader in );7;10;23
+Manifest.Manifest( Reader in );1;0;3
+Manifest.getSymbolicName( );3;2;11
+Manifest.setBsn( ManifestEntry bsn );1;0;3
+Manifest.getVersion( );2;1;5
+Manifest.Manifest( InputStream in );1;0;3
+Manifest.entry( String line );19;10;58
+Manifest.error( String msg );1;0;3
+Manifest.getEntries( String line );6;4;26

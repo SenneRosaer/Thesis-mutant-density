@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScopedServletUtils.removeScopedSessionAttr( String attrName , HttpServletRequest request );2;1;7
+ScopedServletUtils.renameScope( Object oldScopeKey , Object newScopeKey , HttpServletRequest request );3;3;24
+ScopedServletUtils.setScopedSessionAttr( String attrName , Object val , HttpServletRequest request );1;0;3
+ScopedServletUtils.normalizeURI( String uri );3;2;14
+ScopedServletUtils.getRelativeURI( HttpServletRequest request , String uri );1;0;3
+ScopedServletUtils.getScopedRequest( HttpServletRequest realRequest , String overrideURI , ServletContext servletContext , Object scopeKey , boolean seeOuterRequestAttributes );4;6;13
+ScopedServletUtils.getRelativeURI( String contextPath , String uri );1;4;6
+ScopedServletUtils.unwrapResponse( ServletResponse response );3;0;14
+ScopedServletUtils.getScopedRequestAttribute( String attrName , ServletRequest request );2;0;7
+ScopedServletUtils.getScopedName( String baseName , Object scopeKey );1;1;3
+ScopedServletUtils.updateScopedResponse( HttpServletResponse realResponse , ScopedRequest scopedRequest );3;4;12
+ScopedServletUtils.getRelativeURI( HttpServletRequest request );1;0;3
+ScopedServletUtils.getScopedRequest( HttpServletRequest realRequest , String overrideURI , ServletContext servletContext , Object scopeKey );1;0;3
+ScopedServletUtils.decodeURI( HttpServletRequest request );1;1;3
+ScopedServletUtils.filterParamValue( String value );6;3;23
+ScopedServletUtils.getScopedSessionAttrName( String attrName , HttpServletRequest request );3;2;9
+ScopedServletUtils.unwrapRequest( ServletRequest request );4;0;18
+ScopedServletUtils.getScopeIdParamValue( ServletRequest request );1;0;5
+ScopedServletUtils.getOuterRequest( HttpServletRequest request );2;1;4
+ScopedServletUtils.getOuterServletRequest( ServletRequest request );2;1;4
+ScopedServletUtils.getScopedSessionAttr( String attrName , HttpServletRequest request );2;1;11
+ScopedServletUtils.getScopedResponse( HttpServletResponse realResponse , ScopedRequest scopedRequest );2;2;13

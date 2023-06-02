@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PSTextPainter.PSTextPainter( NativeTextHandler nativeTextHandler );1;0;4
+PSTextPainter.makeFont( AttributedCharacterIterator aci );5;4;27
+PSTextPainter.getBounds2D( TextNode node );1;0;3
+PSTextPainter.hasUnsupportedGlyphs( String str , Font font );7;11;12
+PSTextPainter.getHighlightShape( Mark beginMark , Mark endMark );1;0;3
+PSTextPainter.selectAt( double x , double y , TextNode node );1;0;3
+PSTextPainter.hasUnsupportedAttributes( AttributedCharacterIterator aci );18;19;70
+PSTextPainter.selectLast( TextNode node );1;0;3
+PSTextPainter.getSelected( Mark start , Mark finish );1;0;3
+PSTextPainter.getText( AttributedCharacterIterator aci );2;2;7
+PSTextPainter.makeAWTFont( AttributedCharacterIterator aci , Font font );3;4;13
+PSTextPainter.getGeometryBounds( TextNode node );1;0;3
+PSTextPainter.getStyle( AttributedCharacterIterator aci );3;3;6
+PSTextPainter.getStringWidth( String str , Font font );7;13;18
+PSTextPainter.paintTextRuns( List textRuns , Graphics2D g2d , Point2D loc );2;0;9
+PSTextPainter.paintACI( AttributedCharacterIterator aci , Graphics2D g2d , Point2D loc );7;7;48
+PSTextPainter.getMark( TextNode node , int pos , boolean all );1;0;3
+PSTextPainter.updateLocationFromACI( AttributedCharacterIterator aci , Point2D loc );5;6;22
+PSTextPainter.selectFirst( TextNode node );1;0;3
+PSTextPainter.getWeight( AttributedCharacterIterator aci );3;3;6
+PSTextPainter.selectTo( double x , double y , Mark beginMark );1;0;3
+PSTextPainter.drawPrimitiveString( Graphics2D g2d , Point2D loc , Font font , String txt , float tx );3;1;14
+PSTextPainter.hasUnsupportedAttributes( TextNode node );3;0;13
+PSTextPainter.paint( TextNode node , Graphics2D g2d );2;0;9
+PSTextPainter.paintTextRun( StrokingTextPainter . TextRun run , Graphics2D g2d , Point2D loc );1;0;4
+PSTextPainter.getOutline( TextNode node );1;0;3

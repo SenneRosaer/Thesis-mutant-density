@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XML11Serializer.XML11Serializer( OutputFormat format );1;0;4
+XML11Serializer.printXMLChar( int ch );9;9;20
+XML11Serializer.printEscaped( String source );14;19;33
+XML11Serializer.characters( char [ ] chars , int start , int length );15;20;59
+XML11Serializer.printText( char [ ] chars , int start , int length , boolean preserveSpace , boolean unescaped );12;16;40
+XML11Serializer.reset( );1;0;4
+XML11Serializer.XML11Serializer( OutputStream output , OutputFormat format );2;1;4
+XML11Serializer.surrogates( int high , int low , boolean inContent );6;3;26
+XML11Serializer.XML11Serializer( Writer writer , OutputFormat format );1;0;4
+XML11Serializer.printText( String text , boolean preserveSpace , boolean unescaped );12;12;43
+XML11Serializer.printCDATAText( String text );14;24;63
+XML11Serializer.XML11Serializer( );1;0;4

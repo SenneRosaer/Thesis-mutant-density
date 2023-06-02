@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BigIntegerValidator.validate( String value );1;0;3
+BigIntegerValidator.maxValue( BigInteger value , long max );1;1;3
+BigIntegerValidator.validate( String value , Locale locale );1;0;3
+BigIntegerValidator.getInstance( );1;0;3
+BigIntegerValidator.processParsedValue( Object value , Format formatter );1;0;3
+BigIntegerValidator.BigIntegerValidator( boolean strict , int formatType );1;0;3
+BigIntegerValidator.isInRange( BigInteger value , long min , long max );2;3;3
+BigIntegerValidator.BigIntegerValidator( );1;0;3
+BigIntegerValidator.validate( String value , String pattern , Locale locale );1;0;3
+BigIntegerValidator.minValue( BigInteger value , long min );1;1;3
+BigIntegerValidator.validate( String value , String pattern );1;0;3

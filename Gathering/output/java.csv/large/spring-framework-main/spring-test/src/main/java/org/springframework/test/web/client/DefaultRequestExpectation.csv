@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestCount.isSatisfied( );1;1;3
+RequestCount.getMatchedRequestCount( );1;0;3
+RequestCount.hasRemainingCount( );1;1;3
+RequestCount.incrementAndValidate( );2;2;6
+DefaultRequestExpectation.getRequestMatchers( );1;0;3
+RequestCount.RequestCount( ExpectedCount expectedCount );1;0;3
+DefaultRequestExpectation.isSatisfied( );1;0;3
+RequestCount.getExpectedCount( );1;0;3
+DefaultRequestExpectation.DefaultRequestExpectation( ExpectedCount expectedCount , RequestMatcher requestMatcher );1;0;6
+DefaultRequestExpectation.andRespond( ResponseCreator responseCreator );1;0;4
+DefaultRequestExpectation.andExpect( RequestMatcher requestMatcher );1;0;5
+DefaultRequestExpectation.getResponseCreator( );1;0;3
+DefaultRequestExpectation.hasRemainingCount( );1;0;3
+DefaultRequestExpectation.getRequestCount( );1;0;3
+DefaultRequestExpectation.match( ClientHttpRequest request );2;0;5
+DefaultRequestExpectation.incrementAndValidate( );1;0;3
+DefaultRequestExpectation.createResponse( @ Nullable ClientHttpRequest request );1;1;5

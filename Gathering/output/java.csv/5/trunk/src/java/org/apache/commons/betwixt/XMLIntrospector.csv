@@ -1,0 +1,83 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLIntrospector.getMatchForAdder( String propertyName , Map elementsByPropertyName );4;1;17
+XMLIntrospector.introspect( Object bean );4;1;16
+XMLIntrospector.loadMultiMapping( InputSource mapping );2;1;8
+XMLIntrospector.findByXMLDescriptor( Class aClass );6;4;25
+XMLIntrospector.setAttributeNameMapper( NameMapper nameMapper );1;0;3
+JavaBeanType.isPrimitiveType( );1;0;3
+XMLIntrospector.getClassNormalizer( );1;0;3
+XMLIntrospector.defaultAddMethods( ElementDescriptor rootDescriptor , Class beanClass , boolean preservePropertyName );10;4;40
+XMLIntrospector.getRegistry( );1;0;3
+XMLIntrospector.createXMLBeanInfo( BeanInfo beanInfo );1;0;4
+XMLIntrospector.isLoopType( Class type );1;0;3
+BeanType.toString( );1;0;3
+XMLIntrospector.XMLIntrospector( IntrospectionConfiguration configuration );1;0;7
+XMLIntrospector.isPrimitiveType( Class type );1;0;6
+JavaBeanType.addAllSuperinterfaces( Class clazz , ArrayList propertyDescriptors );7;5;29
+XMLIntrospector.useBeanInfoSearchPath( );1;0;3
+DynaClassBeanType.DynaClassBeanType( DynaClass dynaClass );2;2;8
+XMLIntrospector.setWrapCollectionsInElement( boolean wrapCollectionsInElement );1;0;3
+XMLIntrospector.addProperty( PropertyDescriptor propertyDescriptor , List elements , List attributes , List contents );1;0;3
+XMLIntrospector.setLog( Log log );1;0;3
+JavaBeanType.isLoopType( );1;0;3
+XMLIntrospector.defaultAddMethods( ElementDescriptor rootDescriptor , Class beanClass );1;0;3
+XMLIntrospector.getConfiguration( );1;0;3
+XMLIntrospector.assignAdder( Method twinParameterAdderMethod , ElementDescriptor matchingDescriptor );4;3;15
+XMLIntrospector.setCachingEnabled( boolean cachingEnabled );1;0;2
+XMLIntrospector.getAttributeNameMapper( );1;0;3
+XMLIntrospector.register( InputSource source );3;2;15
+XMLIntrospector.setAttributesForPrimitives( boolean attributesForPrimitives );1;0;3
+XMLIntrospector.setRegistry( XMLBeanInfoRegistry registry );1;0;3
+XMLIntrospector.configureMappingDerivation( ElementDescriptor descriptor );2;2;9
+XMLIntrospector.setPolymorphicReferenceResolver( PolymorphicReferenceResolver polymorphicReferenceResolver );1;0;3
+XMLIntrospector.setPluralStemmer( PluralStemmer pluralStemmer );1;0;3
+XMLIntrospector.configureDigester( Class aClass );3;1;12
+XMLIntrospector.addProperty( BeanInfo beanInfo , PropertyDescriptor propertyDescriptor , List elements , List attributes , List contents );1;0;3
+XMLIntrospector.createXMLBeanInfo( DynaClass dynaClass );1;0;4
+XMLIntrospector.setClassNormalizer( ClassNormalizer classNormalizer );1;0;3
+XMLIntrospector.introspect( Class aClass );12;7;47
+XMLIntrospector.getPluralStemmer( );1;0;3
+XMLIntrospector.setConfiguration( IntrospectionConfiguration configuration );1;0;3
+XMLIntrospector.isWrapCollectionsInElement( );1;0;3
+DynaClassBeanType.getElementType( );1;0;3
+XMLIntrospector.introspect( BeanInfo beanInfo );1;0;5
+XMLIntrospector.makeElementDescriptorMap( ElementDescriptor rootDescriptor , Map map );4;4;13
+XMLIntrospector.addProperties( BeanProperty [ ] beanProperties , List elements , List attributes , List contents );5;3;16
+XMLIntrospector.getPolymorphicReferenceResolver( );1;0;3
+JavaBeanType.isMapType( );1;0;3
+DynaClassBeanType.isPrimitiveType( );1;0;3
+XMLIntrospector.flushCache( );1;0;1
+XMLIntrospector.makeElementDescriptorMap( ElementDescriptor rootDescriptor );2;1;9
+XMLIntrospector.getElementNameMapper( );1;0;3
+XMLIntrospector.register( Class aClass , InputSource source );1;0;4
+XMLIntrospector.addProperty( BeanProperty beanProperty , List elements , List attributes , List contents );4;1;13
+XMLIntrospector.setIteratorAdder( Map elementsByPropertyName , Method singleParameterAdderMethod , boolean preserveNullPropertyName );7;8;25
+XMLIntrospector.introspect( Class aClass , InputSource source );1;0;5
+XMLIntrospector.createXMLDescriptor( BeanProperty beanProperty );1;0;3
+XMLIntrospector.addProperty( BeanInfo beanInfo , PropertyDescriptor propertyDescriptor , List elements , List attributes );3;1;14
+XMLIntrospector.XMLIntrospector( );1;0;3
+XMLIntrospector.setUseBeanInfoSearchPath( boolean useBeanInfoSearchPath );1;0;3
+JavaBeanType.getBeanName( );1;0;3
+XMLIntrospector.populate( XMLBeanInfo xmlBeanInfo , BeanType bean );12;6;65
+XMLIntrospector.isAttributesForPrimitives( );1;0;3
+XMLIntrospector.createDescriptor( PropertyDescriptor propertyDescriptor , boolean useAttributesForPrimitives );1;0;3
+XMLIntrospector.introspect( DynaClass dynaClass );1;0;6
+XMLIntrospector.createNameMapper( );1;0;3
+JavaBeanType.getElementType( );1;0;3
+DynaClassBeanType.getProperties( );1;0;3
+XMLIntrospector.addProperties( BeanInfo beanInfo , List elements , List attributes , List contents );4;3;13
+XMLIntrospector.isBasicCollection( Class type );1;0;3
+DynaClassBeanType.isLoopType( );1;0;3
+XMLIntrospector.setNameMapper( NameMapper nameMapper );1;0;3
+XMLIntrospector.setMapAdder( Map elementsByPropertyName , Method twinParameterAdderMethod );1;0;6
+XMLIntrospector.setElementNameMapper( NameMapper nameMapper );1;0;3
+DynaClassBeanType.isMapType( );1;0;3
+JavaBeanType.getProperties( );11;13;43
+XMLIntrospector.createPluralStemmer( );1;0;3
+XMLIntrospector.assignAdder( Method twinParameterAdderMethod , ElementDescriptor [ ] children );11;4;45
+JavaBeanType.JavaBeanType( BeanInfo beanInfo );2;0;9
+XMLIntrospector.getLog( );1;0;3
+XMLIntrospector.getNameMapper( );1;0;3
+DynaClassBeanType.getBeanName( );1;0;3
+XMLIntrospector.addProperties( BeanInfo beanInfo , List elements , List attributes );4;3;12
+XMLIntrospector.isCachingEnabled( );1;0;3

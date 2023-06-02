@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestTransactionManager.doCommit( DefaultTransactionStatus status );2;1;6
+TestTransactionManager.doRollback( DefaultTransactionStatus status );2;1;6
+TestTransactionManager.doBegin( Object transaction , TransactionDefinition definition );3;2;9
+TestTransactionManager.doSetRollbackOnly( DefaultTransactionStatus status );2;1;6
+TestTransactionManager.TestTransactionManager( boolean existingTransaction , boolean canCreateTransaction );1;0;5
+TestTransactionManager.doGetTransaction( );1;0;3
+TestTransactionManager.isExistingTransaction( Object transaction );1;0;3

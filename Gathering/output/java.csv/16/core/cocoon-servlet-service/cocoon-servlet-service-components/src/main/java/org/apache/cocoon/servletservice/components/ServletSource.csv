@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletValidity.getResponseCode( );1;0;3
+ServletValidity.ServletValidity( int responseCode );1;0;3
+ServletSource.getValidity( );4;1;10
+ServletSource.getLastModified( );4;1;10
+ServletSource.connect( );3;1;12
+ServletSource.exists( );5;5;11
+ServletSource.createServletConnection( String location );9;6;40
+ServletSource.getInputStream( );4;2;15
+ServletSource.getOutputStream( );1;0;3
+ServletSource.ServletSource( String location , Store store );1;0;6
+ServletSource.calculateInternalKey( );1;1;3
+ServletSource.setStoredLastModified( long lastModified );2;1;8
+ServletSource.getMimeType( );3;0;10
+ServletValidity.isValid( SourceValidity newValidity );4;0;14
+ServletValidity.setResponseCode( int responseCode );1;0;3
+ServletValidity.isValid( );1;0;3
+ServletSource.getStoredLastModified( );2;1;4

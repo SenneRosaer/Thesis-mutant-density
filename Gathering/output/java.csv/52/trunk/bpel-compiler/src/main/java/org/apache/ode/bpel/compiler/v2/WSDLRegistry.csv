@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WSDLRegistry.getSchemaDocuments( );1;0;3
+WSDLRegistry.getProperty( QName name );5;4;9
+WSDLRegistry.addSchemas( Map < URI , byte [ ] > capture );1;0;3
+WSDLRegistry.getSchemaModel( );2;2;7
+WSDLRegistry.getDefinitions( );3;0;9
+WSDLRegistry.WSDLRegistry( CompilerContext cc );2;0;15
+WSDLRegistry.getPortType( QName portType );5;4;9
+WSDLRegistry.addDefinition( Definition4BPEL def , ResourceFinder rf , URI defuri );13;4;45
+WSDLRegistry.getPartnerLinkType( QName partnerLinkType );5;4;9
+WSDLRegistry.getPropertyAlias( QName propertyName , QName messageType );5;4;9
+WSDLRegistry.getMessage( QName msgType );5;4;9
+WSDLRegistry.captureSchemas( Definition def , ResourceFinder rf , URI defuri );12;7;44

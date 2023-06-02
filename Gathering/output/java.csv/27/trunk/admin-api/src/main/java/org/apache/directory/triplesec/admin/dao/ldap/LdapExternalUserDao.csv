@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LdapExternalUserDao.iterator( );2;0;17
+LdapExternalUserDao.LdapExternalUserDao( DirContext ctx );1;0;3
+LdapExternalUserDao.getEntryObject( Object extra , Attributes attrs );2;0;28
+LdapExternalUserDao.rename( String newId , ExternalUser archetype );6;0;41
+LdapExternalUserDao.delete( String id );4;1;26
+LdapExternalUserDao.load( String id );3;0;36
+LdapExternalUserDao.modify( String creatorsName , Date createTimestamp , String id , String description , String referral , boolean disabled , ModificationItem [ ] mods );5;1;34
+LdapExternalUserDao.getRelativeDn( String uid );1;0;6
+LdapExternalUserDao.add( String id , String description , String referral );4;1;30

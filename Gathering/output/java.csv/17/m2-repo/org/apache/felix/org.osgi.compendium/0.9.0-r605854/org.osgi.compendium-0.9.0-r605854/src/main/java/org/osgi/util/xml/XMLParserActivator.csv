@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLParserActivator.setDefaultDOMProperties( DocumentBuilderFactory factory , Hashtable props , int index );1;2;6
+XMLParserActivator.setSAXProperties( SAXParserFactory factory , Hashtable properties );3;0;24
+XMLParserActivator.getFactory( String parserFactoryClassName );4;0;16
+XMLParserActivator.getParserFactoryClassNames( URL parserUrl );7;5;33
+XMLParserActivator.setDefaultSAXProperties( SAXParserFactory factory , Hashtable props , int index );1;2;6
+XMLParserActivator.start( BundleContext context );2;0;14
+XMLParserActivator.ungetService( Bundle bundle , ServiceRegistration registration , Object service );1;0;2
+***not in a method***;0;2;0
+XMLParserActivator.registerSAXParsers( Vector parserFactoryClassNames );3;2;16
+XMLParserActivator.registerDOMParsers( Vector parserFactoryClassNames );3;2;16
+XMLParserActivator.stop( BundleContext context );1;0;2
+XMLParserActivator.setDOMProperties( DocumentBuilderFactory factory , Hashtable props );3;0;24
+XMLParserActivator.getService( Bundle bundle , ServiceRegistration registration );4;0;30

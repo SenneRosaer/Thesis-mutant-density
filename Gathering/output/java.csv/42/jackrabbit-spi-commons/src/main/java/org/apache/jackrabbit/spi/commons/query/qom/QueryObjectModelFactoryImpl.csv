@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QueryObjectModelFactoryImpl.nodeName( );1;0;3
+QueryObjectModelFactoryImpl.checkSelectorName( String selectorName );3;1;10
+QueryObjectModelFactoryImpl.equiJoinCondition( String selector1Name , String property1Name , String selector2Name , String property2Name );1;0;7
+QueryObjectModelFactoryImpl.nodeLocalName( String selectorName );1;0;3
+QueryObjectModelFactoryImpl.upperCase( DynamicOperand operand );2;1;6
+QueryObjectModelFactoryImpl.selector( String nodeTypeName );1;0;4
+QueryObjectModelFactoryImpl.column( String propertyName );3;1;11
+QueryObjectModelFactoryImpl.nodeName( String selectorName );1;0;3
+QueryObjectModelFactoryImpl.fullTextSearchScore( String selectorName );1;0;4
+QueryObjectModelFactoryImpl.bindVariable( String bindVariableName );3;1;11
+QueryObjectModelFactoryImpl.QueryObjectModelFactoryImpl( NamePathResolver resolver );1;0;3
+QueryObjectModelFactoryImpl.comparison( DynamicOperand operand1 , int operator , StaticOperand operand2 );6;5;17
+QueryObjectModelFactoryImpl.propertyExistence( String propertyName );1;0;4
+QueryObjectModelFactoryImpl.join( Source left , Source right , int joinType , JoinCondition joinCondition );5;5;13
+QueryObjectModelFactoryImpl.checkPropertyName( String propertyName );3;1;10
+QueryObjectModelFactoryImpl.selector( String nodeTypeName , String selectorName );1;0;4
+QueryObjectModelFactoryImpl.nodeLocalName( );1;0;3
+QueryObjectModelFactoryImpl.sameNode( String path );1;0;3
+QueryObjectModelFactoryImpl.fullTextSearch( String propertyName , String fullTextSearchExpression );2;1;8
+QueryObjectModelFactoryImpl.childNode( String selectorName , String path );1;0;4
+QueryObjectModelFactoryImpl.createQuery( Selector selector , Constraint constraint , Ordering [ ] orderings , Column [ ] columns );1;0;3
+QueryObjectModelFactoryImpl.descendantNode( String selectorName , String path );1;0;4
+QueryObjectModelFactoryImpl.lowerCase( DynamicOperand operand );2;1;6
+QueryObjectModelFactoryImpl.sameNodeJoinCondition( String selector1Name , String selector2Name , String selector2Path );1;0;6
+QueryObjectModelFactoryImpl.createQuery( Source source , Constraint constraint , Ordering [ ] orderings , Column [ ] columns );11;13;39
+QueryObjectModelFactoryImpl.checkPath( String path );3;1;10
+QueryObjectModelFactoryImpl.descending( DynamicOperand operand );2;1;7
+QueryObjectModelFactoryImpl.checkNodeTypeName( String nodeTypeName );3;1;10
+QueryObjectModelFactoryImpl.childNodeJoinCondition( String childSelectorName , String parentSelectorName );1;0;5
+QueryObjectModelFactoryImpl.literal( Value value );2;1;6
+QueryObjectModelFactoryImpl.or( Constraint constraint1 , Constraint constraint2 );5;4;13
+QueryObjectModelFactoryImpl.checkFullTextSearchExpression( String fullTextSearchExpression );2;1;7
+QueryObjectModelFactoryImpl.length( PropertyValue propertyValue );2;1;6
+QueryObjectModelFactoryImpl.and( Constraint constraint1 , Constraint constraint2 );5;4;13
+QueryObjectModelFactoryImpl.column( String propertyName , String columnName );7;5;23
+QueryObjectModelFactoryImpl.sameNode( String selectorName , String path );1;0;4
+QueryObjectModelFactoryImpl.fullTextSearch( String selectorName , String propertyName , String fullTextSearchExpression );2;1;9
+QueryObjectModelFactoryImpl.sameNodeJoinCondition( String selector1Name , String selector2Name );1;0;6
+QueryObjectModelFactoryImpl.descendantNodeJoinCondition( String descendantSelectorName , String ancestorSelectorName );1;0;5
+QueryObjectModelFactoryImpl.fullTextSearchScore( );1;0;3
+QueryObjectModelFactoryImpl.propertyExistence( String selectorName , String propertyName );1;0;5
+QueryObjectModelFactoryImpl.column( String selectorName , String propertyName , String columnName );7;5;24
+QueryObjectModelFactoryImpl.descendantNode( String path );1;0;3
+QueryObjectModelFactoryImpl.childNode( String path );1;0;3
+QueryObjectModelFactoryImpl.not( Constraint constraint );2;1;6
+QueryObjectModelFactoryImpl.ascending( DynamicOperand operand );2;1;7
+QueryObjectModelFactoryImpl.propertyValue( String selectorName , String propertyName );1;0;5
+QueryObjectModelFactoryImpl.propertyValue( String propertyName );1;0;3

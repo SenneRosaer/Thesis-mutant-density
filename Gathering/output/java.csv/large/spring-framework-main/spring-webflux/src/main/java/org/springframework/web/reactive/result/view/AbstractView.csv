@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractView.getRequestDataValueProcessor( );3;2;7
+AbstractView.setRequestContextAttribute( @ Nullable String requestContextAttribute );1;0;3
+AbstractView.getRequestContextAttribute( );1;0;3
+AbstractView.AbstractView( );1;0;3
+AbstractView.getModelAttributes( @ Nullable Map < String , ? > model , ServerWebExchange exchange );5;2;17
+AbstractView.AbstractView( ReactiveAdapterRegistry reactiveAdapterRegistry );1;0;4
+AbstractView.setSupportedMediaTypes( List < MediaType > supportedMediaTypes );1;0;5
+AbstractView.setBeanName( @ Nullable String beanName );1;0;3
+AbstractView.getSupportedMediaTypes( );1;0;3
+AbstractView.createRequestContext( ServerWebExchange exchange , Map < String , Object > model );1;0;3
+AbstractView.render( @ Nullable Map < String , ? > model , @ Nullable MediaType contentType , ServerWebExchange exchange );5;5;15
+AbstractView.getApplicationContext( );1;0;3
+AbstractView.resolveAsyncAttributes( Map < String , Object > model , ServerWebExchange exchange );10;5;36
+AbstractView.toString( );1;1;3
+AbstractView.formatViewName( );2;1;4
+AbstractView.setApplicationContext( @ Nullable ApplicationContext applicationContext );1;0;3
+AbstractView.setDefaultCharset( Charset defaultCharset );1;0;4
+AbstractView.addBindingResult( String name , Object value , Map < String , Object > model , ServerWebExchange exchange );6;6;9
+AbstractView.getDefaultCharset( );1;0;3
+AbstractView.getBeanName( );1;0;3
+AbstractView.obtainApplicationContext( );1;1;5

@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CocoonWrapper.getPage( String deparameterizedURI , long lastModified , Map parameters , Map headers , Map links , List gatheredLinks , ContentHandler handler );2;2;20
+CocoonWrapper.addLoadedClass( String className );1;0;3
+CocoonWrapper.getConfigurationFile( File dir , String configFile );7;13;33
+NullOutputStream.write( byte b [ ] );1;0;2
+CocoonWrapper.setConfigFile( String configFile );1;0;3
+CocoonWrapper.getCocoon( );1;0;3
+CocoonWrapper.addLoadedClasses( List classList );1;0;3
+CocoonWrapper.setLogger( String logger );1;0;3
+CocoonWrapper.setAcceptOptions( String accept );1;0;3
+CocoonWrapper.loadClasses( List classList );6;1;17
+CocoonWrapper.processURI( String uri , OutputStream outputStream );3;2;17
+CocoonWrapper.setAgentOptions( String userAgent );1;0;3
+CocoonInstance.instance( );1;0;3
+CocoonWrapper.setLogKit( String logKit );1;0;3
+CocoonWrapper.getDir( String dir , String type );8;6;24
+CocoonWrapper.getClassPath( final String context );5;2;21
+CocoonWrapper.initialize( );6;4;57
+CocoonWrapper.getPage( String deparameterizedURI , long lastModified , Map parameters , Map headers , Map links , List gatheredLinks , OutputStream stream );2;2;14
+CocoonWrapper.processLenient( Environment env );2;0;8
+CocoonWrapper.finalize( );1;0;4
+CocoonWrapper.getComponentManager( );1;0;3
+CocoonWrapper.getLinks( String deparameterizedURI , Map parameters );1;0;10
+CocoonWrapper.dispose( );3;0;11
+CocoonWrapper.setLogLevel( String logLevel );1;0;3
+NullOutputStream.write( int b );1;0;2
+CocoonWrapper.setContextDir( String contextDir );1;0;3
+CocoonWrapper.getLoggerName( );1;0;3
+CocoonWrapper.setWorkDir( String workDir );1;0;3
+CocoonWrapper.tryConfigurationFile( String filename );3;0;11
+CocoonWrapper.processURI( String uri , ContentHandler handler );3;2;17
+CocoonWrapper.getType( String deparameterizedURI , Map parameters );1;0;11
+CocoonWrapper.setUseExistingCocoon( boolean useExistingCocoon );1;0;3
+NullOutputStream.write( byte b [ ] , int off , int len );1;0;2

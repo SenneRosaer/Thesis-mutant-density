@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JXPathBindingBase.getEnclosingLibrary( );2;1;7
+JXPathBindingBase.setEnclosingLibrary( Library lib );1;0;3
+JXPathBindingBase.saveFormToModel( Widget frmModel , JXPathContext jxpc );2;0;9
+JXPathBindingBase.JXPathBindingBase( JXPathBindingBuilderBase . CommonAttributes commonAtts );1;0;3
+JXPathBindingBase.setParent( Binding binding );1;0;3
+BindingJXPathFactory.createObject( JXPathContext context , Pointer pointer , Object parent , String name , int index );3;0;9
+JXPathBindingBase.applyLeniency( JXPathContext jxpc );2;1;5
+JXPathBindingBase.applyNSDeclarations( JXPathContext jxpc );3;1;10
+JXPathBindingBase.getCommonAtts( );1;0;3
+JXPathBindingBase.loadFormFromModel( Widget frmModel , Object objModel );2;1;9
+JXPathBindingBase.selectWidget( Widget parent , String id );5;8;18
+JXPathBindingBase.isValid( );4;3;14
+JXPathBindingBase.getId( );1;0;3
+JXPathBindingBase.getLocation( );1;0;3
+JXPathBindingBase.saveFormToModel( Widget frmModel , Object objModel );2;1;9
+JXPathBindingBase.loadFormFromModel( Widget frmModel , JXPathContext jxpc );2;0;9
+JXPathBindingBase.getClass( String id );7;6;19
+BindingJXPathFactory.createBeanField( JXPathContext context , Pointer pointer , Object parent , String name , int index );6;2;23
+JXPathBindingBase.makeJXPathContext( Object objModel );3;2;16
+BindingJXPathFactory.createCollectionItem( JXPathContext context , Pointer pointer , Object parent , String name , int index );4;1;14

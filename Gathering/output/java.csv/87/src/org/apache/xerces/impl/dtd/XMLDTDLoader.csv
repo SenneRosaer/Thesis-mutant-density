@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLDTDLoader.getErrorHandler( );1;0;3
+XMLDTDLoader.getEntityResolver( );1;0;3
+XMLDTDLoader.getLocale( );1;0;3
+XMLDTDLoader.loadGrammarWithContext( XMLDTDValidator validator , String rootName , String publicId , String systemId , String baseSystemId , String internalSubset );6;7;30
+XMLDTDLoader.XMLDTDLoader( );1;0;3
+***not in a method***;0;5;0
+XMLDTDLoader.setErrorHandler( XMLErrorHandler errorHandler );1;0;3
+XMLDTDLoader.getRecognizedFeatures( );1;0;3
+XMLDTDLoader.setProperty( String propertyId , Object value );8;1;33
+XMLDTDLoader.XMLDTDLoader( SymbolTable symbolTable );1;0;3
+XMLDTDLoader.getScannerVersion( );1;0;3
+XMLDTDLoader.reset( );1;0;6
+XMLDTDLoader.getProperty( String propertyId );8;0;24
+XMLDTDLoader.createDTDScanner( SymbolTable symbolTable , XMLErrorReporter errorReporter , XMLEntityManager entityManager );1;0;3
+XMLDTDLoader.setLocale( Locale locale );1;0;4
+XMLDTDLoader.getFeature( String featureId );7;0;21
+XMLDTDLoader.XMLDTDLoader( SymbolTable symbolTable , XMLGrammarPool grammarPool , XMLErrorReporter errorReporter , XMLEntityResolver entityResolver );4;3;25
+XMLDTDLoader.loadGrammar( XMLInputSource source );5;4;26
+XMLDTDLoader.setEntityResolver( XMLEntityResolver entityResolver );1;0;4
+XMLDTDLoader.setFeature( String featureId , boolean state );7;0;23
+XMLDTDLoader.getRecognizedProperties( );1;0;3
+XMLDTDLoader.XMLDTDLoader( SymbolTable symbolTable , XMLGrammarPool grammarPool );1;0;3

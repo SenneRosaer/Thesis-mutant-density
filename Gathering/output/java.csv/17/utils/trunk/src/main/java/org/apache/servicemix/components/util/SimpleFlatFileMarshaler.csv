@@ -1,0 +1,71 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleFlatFileMarshaler.setColumnSeparatorCode( int columnSeparatorCode );1;0;3
+InputStreamWrapper.read( );2;3;7
+SimpleFlatFileMarshaler.setXmlDeclaration( boolean xmlDeclaration );1;0;3
+CustomEndOfLineIterator.readNext( );6;3;24
+SimpleFlatFileMarshaler.setColumnNames( String [ ] columnNames );1;0;3
+SimpleFlatFileMarshaler.getDocElementname( );1;0;3
+InputStreamWrapper.fillBody( );8;9;33
+InputStreamWrapper.fillInitial( );4;3;24
+SimpleFlatFileMarshaler.isSkipKnownEmptyCols( );1;0;3
+CustomEndOfLineIterator.CustomEndOfLineIterator( InputStream in , String encoding , String lineSeparator );3;1;14
+***not in a method***;0;1;0
+SimpleFlatFileMarshaler.setLineFormat( int lineFormat );1;0;3
+SimpleFlatFileMarshaler.convertColumnContents( int index , String contents );6;5;17
+SimpleFlatFileMarshaler.isInsertColNumbers( );1;0;3
+InputStreamWrapper.fillFooter( );1;2;4
+SimpleFlatFileMarshaler.setColumnExtractor( ColumnExtractor columnExtractor );1;0;3
+SimpleFlatFileMarshaler.setInsertColNumbers( boolean insertColNumbers );1;0;3
+SimpleFlatFileMarshaler.convertLines( NormalizedMessage message , InputStream in , String path );1;0;3
+SimpleFlatFileMarshaler.setInsertColContentInAttribut( boolean insertColContentInAttribut );1;0;3
+SimpleFlatFileMarshaler.setSkipAnyEmptyCols( boolean skipAnyEmptyCols );1;0;3
+SimpleFlatFileMarshaler.setEncoding( String encoding );1;0;3
+SimpleFlatFileMarshaler.findColumnname( int index );4;5;8
+SimpleFlatFileMarshaler.convertLinesToString( NormalizedMessage message , InputStream in , String path );1;0;3
+SimpleFlatFileMarshaler.setInsertLineNumbers( boolean insertLineNumbers );1;0;3
+SimpleFlatFileMarshaler.setLineSeparatorCode( int lineSeparatorCode );1;0;3
+InputStreamWrapper.close( );1;0;3
+SimpleFlatFileMarshaler.readMessage( MessageExchange exchange , NormalizedMessage message , InputStream in , String path );1;0;5
+SimpleFlatFileMarshaler.setLineSeparator( String lineSeparator );3;3;6
+SimpleFlatFileMarshaler.getColumnElementname( );1;0;3
+SimpleFlatFileMarshaler.isSkipAnyEmptyCols( );1;0;3
+SimpleFlatFileMarshaler.getEncoding( );1;0;3
+SimpleFlatFileMarshaler.getLineElementname( );1;0;3
+SimpleFlatFileMarshaler.isInsertColContentInAttribut( );1;0;3
+SimpleFlatFileMarshaler.setHeaderlinesCount( int headerlinesCount );1;0;3
+SimpleFlatFileMarshaler.processHeaderLines( StringBuffer buffer , Iterator lines );1;0;2
+SimpleFlatFileMarshaler.setDocElementNamespace( String docElementNamespace );1;0;3
+InputStreamWrapper.fill( String string );3;0;14
+SimpleFlatFileMarshaler.setAlwaysEscapeColContents( boolean alwaysEscapeColContents );1;0;3
+SimpleFlatFileMarshaler.setDocElementname( String docElementname );1;0;3
+SimpleFlatFileMarshaler.getColumnSeparator( );1;0;3
+SimpleFlatFileMarshaler.closeQuietly( Reader input );3;1;8
+SimpleFlatFileMarshaler.setColumnElementname( String columnElementname );1;0;3
+SimpleFlatFileMarshaler.extractColumns( StringBuffer buffer , String lineText , Iterator lines );12;21;38
+InputStreamWrapper.fillHeader( );2;2;9
+SimpleFlatFileMarshaler.setLineElementname( String lineElementname );1;0;3
+SimpleFlatFileMarshaler.getHeaderlinesCount( );1;0;3
+SimpleFlatFileMarshaler.setColumnNamesInLineNumber( int columnNamesInLineNumber );1;0;3
+SimpleFlatFileMarshaler.setColumnSeparator( String columnSeparator );1;0;3
+CustomEndOfLineIterator.close( );1;0;5
+InputStreamWrapper.available( );1;2;3
+SimpleFlatFileMarshaler.getDocElementNamespace( );1;0;3
+SimpleFlatFileMarshaler.setColumnLengths( String [ ] columnLengths );2;2;6
+InputStreamWrapper.InputStreamWrapper( InputStream in , String path , String outEncoding );3;2;20
+CustomEndOfLineIterator.hasNext( );3;4;6
+SimpleFlatFileMarshaler.getLineSeparator( );1;0;3
+CustomEndOfLineIterator.next( );2;1;8
+SimpleFlatFileMarshaler.setInsertRawData( boolean insertRawData );1;0;3
+SimpleFlatFileMarshaler.convertHeaderline( StringBuffer buffer , String headerLine );1;0;6
+CustomEndOfLineIterator.remove( );1;0;3
+SimpleFlatFileMarshaler.isAlwaysEscapeColContents( );1;0;3
+SimpleFlatFileMarshaler.getLineFormat( );1;0;3
+SimpleFlatFileMarshaler.setAlwaysStripColContents( boolean alwaysStripColContents );1;0;3
+SimpleFlatFileMarshaler.convertLinesToStream( NormalizedMessage message , InputStream in , String path );2;1;8
+SimpleFlatFileMarshaler.getColumnNamesInLineNumber( );1;0;3
+InputStreamWrapper.fillCache( );7;6;26
+SimpleFlatFileMarshaler.isXmlDeclaration( );1;0;3
+SimpleFlatFileMarshaler.setSkipKnownEmptyCols( boolean skipKnownEmptyCols );1;0;3
+SimpleFlatFileMarshaler.extractColumnContents( String lineText , Iterator lines );11;15;31
+SimpleFlatFileMarshaler.isAlwaysStripColContents( );1;0;3
+SimpleFlatFileMarshaler.setColumnConverters( List columnConverters );1;0;3

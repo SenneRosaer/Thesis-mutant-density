@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScpFromMessageBySftp.getFile( ChannelSftp channel , ChannelSftp . LsEntry le , File localFile );8;7;35
+ScpFromMessageBySftp.getDir( ChannelSftp channel , String remoteFile , File localFile );8;8;28
+ScpFromMessageBySftp.ScpFromMessageBySftp( boolean verbose , Session session , String aRemoteFile , File aLocalFile , boolean recursive , boolean preserveLastModified );1;0;8
+ScpFromMessageBySftp.ScpFromMessageBySftp( boolean verbose , Session session , String aRemoteFile , File aLocalFile , boolean recursive );1;0;3
+ScpFromMessageBySftp.ScpFromMessageBySftp( Session session , String aRemoteFile , File aLocalFile , boolean recursive );1;0;3
+ScpFromMessageBySftp.execute( );6;3;25

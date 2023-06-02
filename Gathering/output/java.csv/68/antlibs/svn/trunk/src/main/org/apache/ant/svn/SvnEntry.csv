@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Path.getAction( );1;0;3
+SvnEntry.getMessage( );1;0;3
+SvnEntry.getPaths( );1;0;3
+SvnEntry.addPath( final String name , final char action );1;0;3
+Path.Path( final String name , final char actionChar );4;0;17
+SvnEntry.setAuthor( final String author );1;0;3
+SvnEntry.getAuthor( );1;0;3
+SvnEntry.SvnEntry( final Date date , final String revision , final String author , final String message );1;0;3
+Path.getName( );1;0;3
+Path.Path( final String name , final int action );4;5;7
+SvnEntry.getDate( );1;0;3
+SvnEntry.SvnEntry( final Date date , final String revision , final String author , final String message , final Collection paths );1;0;7
+Path.getActionDescription( );1;0;3
+SvnEntry.getRevision( );1;0;3

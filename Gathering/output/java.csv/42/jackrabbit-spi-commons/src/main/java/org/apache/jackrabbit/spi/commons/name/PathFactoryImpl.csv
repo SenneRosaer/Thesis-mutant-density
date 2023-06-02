@@ -1,0 +1,60 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Element.denotesRoot( );1;0;3
+PathImpl.isEquivalentTo( Path other );7;7;20
+Element.toString( );2;1;10
+PathFactoryImpl.create( Path . Element [ ] elements );1;0;3
+Element.denotesName( );1;0;3
+PathImpl.getAncestorCount( );2;1;3
+PathFactoryImpl.getInstance( );1;0;3
+PathImpl.isCanonical( );2;1;3
+PathImpl.toString( );4;4;15
+PathFactoryImpl.getCurrentElement( );1;0;3
+Element.equals( Object obj );4;3;11
+Element.Element( Name name , int index );1;0;4
+PathImpl.denotesRoot( );2;2;3
+Builder.Builder( List elemList );1;0;3
+PathFactoryImpl.getParentElement( );1;0;3
+SpecialElement.denotesName( );1;0;3
+PathImpl.isNormalized( );1;0;3
+PathImpl.hashCode( );3;5;11
+PathFactoryImpl.create( Name name , int index );2;1;7
+PathFactoryImpl.getCachedElement( Element element );1;1;4
+PathImpl.getCanonicalPath( );3;1;9
+Element.denotesParent( );1;0;3
+Element.getIndex( );1;0;3
+Element.denotesCurrent( );1;0;3
+PathImpl.computeRelativePath( Path other );11;16;33
+PathImpl.isAbsolute( );1;0;3
+PathFactoryImpl.create( Path parent , Path relPath , boolean normalize );3;0;15
+Element.getNormalizedIndex( );2;1;7
+SpecialElement.denotesCurrent( );1;1;3
+SpecialElement.SpecialElement( Name name );4;0;12
+Builder.getPath( );5;1;14
+PathImpl.isDescendantOf( Path other );2;1;6
+PathFactoryImpl.create( Path parent , Name name , boolean normalize );2;0;12
+PathImpl.getElements( );1;0;3
+Element.hashCode( );1;4;6
+PathImpl.getString( );1;0;3
+PathImpl.isAncestorOf( Path other );4;4;12
+PathImpl.getDepth( );4;4;11
+PathImpl.getNormalizedPath( );8;5;26
+PathFactoryImpl.createElement( Name name , int index );6;4;14
+PathImpl.PathImpl( Path . Element [ ] elements , boolean isNormalized );3;3;8
+PathImpl.equals( Object obj );3;1;10
+PathFactoryImpl.getRootElement( );1;0;3
+PathImpl.subPath( int from , int to );5;7;12
+PathFactoryImpl.createElement( Name name );5;1;13
+PathFactoryImpl.PathFactoryImpl( );1;0;1
+PathFactoryImpl.create( String pathString );5;6;21
+PathFactoryImpl.create( Name name );1;0;4
+Element.getName( );1;0;3
+PathImpl.getAncestor( int degree );6;7;24
+PathFactoryImpl.create( Path parent , Name name , int index , boolean normalize );2;0;12
+PathImpl.getNameElement( );1;1;3
+Element.getString( );1;0;3
+SpecialElement.denotesParent( );1;1;3
+PathImpl.getLength( );1;0;3
+PathFactoryImpl.getRootPath( );1;0;3
+Builder.Builder( Path . Element [ ] elements );13;13;34
+PathFactoryImpl.createElement( String elementString );9;7;31
+SpecialElement.denotesRoot( );1;1;3

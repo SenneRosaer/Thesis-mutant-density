@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WSIFMarshaler.shouldIncludeHeader( NormalizedMessage normalizedMessage , String name , Object value );1;0;3
+WSIFMarshaler.fromNMS( WSIFOperationInfo operationInfo , WSIFMessage wsifMessage , NormalizedMessage nmsMessage , Object body );6;0;26
+WSIFMarshaler.addPartValue( Element element , String name , Object value );3;1;12
+WSIFMarshaler.addWSIFProperties( WSIFMessage wsifMessage , NormalizedMessage nmsMessage );3;0;9
+WSIFMarshaler.toNMS( final MessageExchange exchange , final NormalizedMessage nmsMessage , final WSIFOperationInfo operationInfo , final WSIFMessage wsifMessage );2;0;13
+WSIFMarshaler.addNmsProperties( NormalizedMessage nmsMessage , WSIFMessage wsifMessage );2;0;8
+WSIFMarshaler.setTransformer( SourceTransformer transformer );1;0;3
+WSIFMarshaler.createResultDocument( MessageExchange exchange , NormalizedMessage normalizedMessage , WSIFOperationInfo operationInfo , WSIFMessage wsifMessage );6;4;31
+WSIFMarshaler.getTransformer( );1;0;3
+WSIFMarshaler.isSimpleType( Part part );2;1;7
+WSIFMarshaler.loadNode( );1;0;3
+WSIFMarshaler.getPartValue( String name , Part part , NormalizedMessage nmsMessage , Element body );2;0;6

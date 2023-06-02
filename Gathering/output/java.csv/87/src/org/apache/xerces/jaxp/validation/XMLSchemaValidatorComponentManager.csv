@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLSchemaValidatorComponentManager.getResourceResolver( );1;0;3
+XMLSchemaValidatorComponentManager.getErrorHandler( );1;0;3
+XMLSchemaValidatorComponentManager.getProperty( String propertyId );4;1;13
+XMLSchemaValidatorComponentManager.setPropertyDefaults( final XMLComponent component , final String [ ] recognizedProperties );5;5;14
+XMLSchemaValidatorComponentManager.setLocale( Locale locale );1;0;4
+XMLSchemaValidatorComponentManager.setFeature( String featureId , boolean value );11;6;24
+XMLSchemaValidatorComponentManager.setFeatureDefaults( final XMLComponent component , final String [ ] recognizedFeatures , XSGrammarPoolContainer grammarContainer );6;6;17
+XMLSchemaValidatorComponentManager.setProperty( String propertyId , Object value );13;9;26
+XMLSchemaValidatorComponentManager.getFeature( String featureId );6;2;15
+***not in a method***;0;18;0
+XMLSchemaValidatorComponentManager.reset( );1;0;8
+XMLSchemaValidatorComponentManager.addRecognizedParamsAndSetDefaults( XMLComponent component , XSGrammarPoolContainer grammarContainer );1;0;8
+XMLSchemaValidatorComponentManager.getLocale( );1;0;3
+XMLSchemaValidatorComponentManager.setResourceResolver( LSResourceResolver resourceResolver );1;0;4
+XMLSchemaValidatorComponentManager.restoreInitialState( );5;2;28
+XMLSchemaValidatorComponentManager.XMLSchemaValidatorComponentManager( XSGrammarPoolContainer grammarContainer );2;0;34
+XMLSchemaValidatorComponentManager.setErrorHandler( ErrorHandler errorHandler );2;1;5

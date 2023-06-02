@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConsumerProcessor.processResponse( MessageExchange exchange , HttpServletRequest request , HttpServletResponse response );2;1;10
+ConsumerProcessor.stop( );1;0;3
+ConsumerProcessor.processGetRequest( HttpServletRequest request , HttpServletResponse response );5;6;24
+ConsumerProcessor.processFault( MessageExchange exchange , HttpServletRequest request , HttpServletResponse response );1;0;10
+ConsumerProcessor.process( MessageExchange exchange );6;3;23
+ConsumerProcessor.start( );1;0;3
+ConsumerProcessor.sendFault( SoapFault fault , HttpServletRequest request , HttpServletResponse response );2;0;12
+ConsumerProcessor.getServerManager( );1;0;4
+ConsumerProcessor.generateDocument( HttpServletResponse response , Node node );2;1;9
+ConsumerProcessor.getHeaders( HttpServletRequest request );3;0;10
+ConsumerProcessor.init( );1;0;6
+ConsumerProcessor.getAuthMethod( );1;0;3
+ConsumerProcessor.ConsumerProcessor( HttpEndpoint endpoint );2;1;10
+ConsumerProcessor.shutdown( );1;0;3
+ConsumerProcessor.createContext( HttpServletRequest request );3;1;15
+ConsumerProcessor.process( HttpServletRequest request , HttpServletResponse response );19;11;89
+ConsumerProcessor.getSsl( );1;0;3

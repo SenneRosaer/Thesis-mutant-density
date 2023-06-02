@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConfigurableFallbackEntityResolver.resolveSchemaEntity( String publicId , String systemId );2;0;7
+ResourceEntityResolverTests.resolveEntityCallsFallbackThatReturnsInputSource( String systemId );1;0;6
+NoOpResourceLoader.getClassLoader( );1;0;3
+ResourceEntityResolverTests.resolveEntityCallsFallbackThatReturnsNull( String systemId );1;0;5
+ResourceEntityResolverTests.resolveEntityDoesNotCallFallbackIfNotSchema( String systemId );1;0;5
+ConfigurableFallbackEntityResolver.ConfigurableFallbackEntityResolver( @ Nullable InputSource returnValue );1;0;5
+ConfigurableFallbackEntityResolver.ConfigurableFallbackEntityResolver( boolean shouldThrow );1;0;5
+ResourceEntityResolverTests.resolveEntityCallsFallbackThatThrowsException( String systemId );1;0;6
+NoOpResourceLoader.getResource( String location );1;0;3

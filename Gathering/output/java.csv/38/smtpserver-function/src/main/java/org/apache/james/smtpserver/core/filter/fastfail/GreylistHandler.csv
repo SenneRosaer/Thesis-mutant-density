@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GreylistHandler.setUnseenLifeTime( String unseenLifeTime );1;0;3
+GreylistHandler.initSqlQueries( Connection conn , String sqlFileUrl );2;0;20
+GreylistHandler.setTempBlockTime( String tempBlockTime );1;0;3
+GreylistHandler.createTable( Connection conn , String tableNameSqlStringName , String createSqlStringName );2;0;20
+GreylistHandler.setSqlFileUrl( String sqlFileUrl );1;0;3
+GreylistHandler.doGreyListCheck( SMTPSession session , String argument );9;10;46
+GreylistHandler.setDataSources( DataSourceSelector datasources );1;0;3
+GreylistHandler.updateTriplet( Connection conn , String ipAddress , String sender , String recip , int count , long time );1;1;15
+GreylistHandler.initialize( );1;0;5
+GreylistHandler.getImplCommands( );1;0;5
+GreylistHandler.insertTriplet( Connection conn , String ipAddress , String sender , String recip , int count , long createTime );1;0;15
+GreylistHandler.configure( Configuration handlerConfiguration );12;8;50
+GreylistHandler.service( ServiceManager serviceMan );1;0;5
+GreylistHandler.setDnsServer( DNSService dnsServer );1;0;3
+GreylistHandler.whitelistedNetworks( String networks );2;0;8
+GreylistHandler.setFileSystem( FileSystem system );1;0;3
+GreylistHandler.cleanupAutoWhiteListGreyList( Connection conn , long time );1;0;11
+GreylistHandler.setAutoWhiteListLifeTime( String autoWhiteListLifeTime );1;0;3
+GreylistHandler.onCommand( SMTPSession session );6;8;11
+GreylistHandler.delegatedLog( String logString );1;0;3
+GreylistHandler.setDataSource( DataSourceComponent datasource );1;0;3
+GreylistHandler.setRepositoryPath( String repositoryPath );1;0;3
+GreylistHandler.initDataSource( String repositoryPath );1;1;5
+GreylistHandler.cleanupGreyList( Connection conn , long time );1;0;11
+GreylistHandler.getGreyListData( Connection conn , String ipAddress , String sender , String recip );2;0;24

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GenericCall.processArgs( Object [ ] args );6;2;26
+GenericCall.setOperationName( QName opName );1;0;3
+GenericCall.setOperationStyle( WsdlOperation . SOAPBindingStyle style , WsdlOperation . SOAPParameterStyle parameterStyle , WsdlOperation . SOAPBindingUse use );4;3;16
+GenericCall.setCallParameters( Method method );3;3;12
+GenericCall.setOneWay( boolean isOneWay );1;0;3
+GenericCall.registerType( Class typeClass , QName xmlName , WsdlOperation . SOAPBindingStyle style , WsdlOperation . SOAPBindingUse use );2;1;6
+GenericCall.setHolderValues( Object [ ] args );8;5;26
+GenericCall.setCallParameter( WsdlOpParameter opParam , Class javaType , Type genericType );4;3;13
+GenericCall.setSOAPAction( String actionURIString );3;3;6
+GenericCall.setFaults( );3;1;11
+GenericCall.configure( WsdlOperation op , Method method , QName portType );1;0;10
+GenericCall.setCallReturnType( Class returnType );4;4;9
+GenericCall.setReturnType( Class returnType , QName xmlReturnType );1;0;3
+GenericCall.invoke( Object [ ] args );2;0;10
+GenericCall.setUserDefinedProperties( QName wsdlPort , String serviceEndpoint , String username , String password );3;2;16

@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FacesUtils12.getValueFromBindingOrExpression( Object valueBindingOrExpression );2;0;7
+FacesUtils12.setValueOfBindingOrExpression( FacesContext context , Object value , UIComponent component , String bindingName );2;1;6
+FacesUtils12.hasValueBindingOrValueExpression( UIComponent component , String name );1;1;3
+FacesUtils12.getBindingOrExpressionComparator( FacesContext facesContext , UIComponent child , String var , boolean descending , Comparator comparator );1;0;4
+FacesUtils12.setValidator( EditableValueHolder editableValueHolder , Object validator );3;1;7
+FacesUtils12.setConverter( ValueHolder valueHolder , Object converterExpression );3;1;11
+FacesUtils12.getExpressionString( UIComponent component , String name );1;0;3
+FacesUtils12.isReadonlyValueBindingOrValueExpression( FacesContext context , UIComponent component , String name );1;0;3
+FacesUtils12.getValueFromValueBindingOrValueExpression( FacesContext context , UIComponent component , String name );1;0;3
+FacesUtils12.setValueOfBindingOrExpression( FacesContext context , Object value , Object bindingOrExpression );2;0;6
+FacesUtils12.setBindingOrExpression( UIComponent component , String name , Object valueBindingOrExpression );1;0;3
+FacesUtils12.addBindingOrExpressionTabChangeListener( TabChangeSource source , String type , Object bindingOrExpression );2;0;5
+FacesUtils12.copyValueBindingOrValueExpression( UIComponent fromComponent , String fromName , UIComponent toComponent , String toName );2;1;6

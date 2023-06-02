@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebServiceLoader.generateClientBindings( String wsdlURL );1;0;4
+WebServiceLoader.getClassLoader( );1;0;3
+WebServiceLoader.bindingsAreGenerated( String namespace , String serviceName );2;0;12
+WebServiceLoader.getServiceEndPoint( String serviceName , String portName , String namespaceURI );2;0;16
+WebServiceLoader.getServiceLocatorClassName( String targetNamespace , String serviceName );2;2;11
+WebServiceLoader.load( String wsdlURL );1;0;3
+WebServiceLoader.getPortAccessorName( Class serviceLocatorClass , String portName );1;0;5
+WebServiceLoader.makeEndpointKey( String wsdlURL , String serviceName , String portName );3;4;10
+WebServiceLoader.dispose( );2;1;9
+WebServiceLoader.contextualize( final Context context );1;1;4
+WebServiceLoader.load( String wsdlURL , String serviceName , String portName );8;3;35
+WebServiceLoader.service( ServiceManager serviceManager );2;0;9

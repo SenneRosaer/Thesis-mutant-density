@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BasedFileSystem.isFile( String path );1;0;3
+BasedFileSystem.close( );1;0;2
+BasedFileSystem.length( String filePath );1;0;3
+BasedFileSystem.listFiles( String folderPath );1;0;3
+BasedFileSystem.move( String srcPath , String destPath );1;0;3
+BasedFileSystem.lastModified( String path );1;0;3
+BasedFileSystem.copy( String srcPath , String destPath );1;0;3
+BasedFileSystem.buildBasePath( String path );3;4;11
+BasedFileSystem.getRandomAccessOutputStream( String filePath );1;0;3
+BasedFileSystem.deleteFolder( String folderPath );1;0;3
+BasedFileSystem.touch( String filePath );1;0;3
+BasedFileSystem.isFolder( String path );1;0;3
+BasedFileSystem.init( );2;1;5
+BasedFileSystem.hasChildren( String path );1;0;3
+BasedFileSystem.deleteFile( String filePath );1;0;3
+BasedFileSystem.getInputStream( String filePath );1;0;3
+BasedFileSystem.createFolder( String folderPath );1;0;3
+BasedFileSystem.BasedFileSystem( FileSystem fsBase , String relRootPath );6;5;19
+BasedFileSystem.listFolders( String folderPath );1;0;3
+BasedFileSystem.exists( String path );1;0;3
+BasedFileSystem.getOutputStream( String filePath );1;0;3
+BasedFileSystem.list( String folderPath );1;0;3

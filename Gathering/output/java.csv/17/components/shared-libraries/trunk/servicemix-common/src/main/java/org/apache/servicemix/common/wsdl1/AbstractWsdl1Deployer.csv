@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractWsdl1Deployer.createServiceUnit( String name , String rootPath );1;0;7
+AbstractWsdl1Deployer.canDeploy( String serviceUnitName , String serviceUnitRootPath );2;3;4
+AbstractWsdl1Deployer.registerExtensions( ExtensionRegistry registry );1;0;3
+WsdlFilter.accept( File dir , String name );1;0;3
+AbstractWsdl1Deployer.deploy( String serviceUnitName , String serviceUnitRootPath );5;6;14
+AbstractWsdl1Deployer.initFromWsdl( ServiceUnit su , File wsdl );15;6;64
+AbstractWsdl1Deployer.AbstractWsdl1Deployer( ServiceMixComponent component );1;0;4
+AbstractWsdl1Deployer.createWsdlReader( );1;0;9

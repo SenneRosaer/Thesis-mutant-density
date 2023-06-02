@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CharacterDataImpl.insertData( int offset , String data );1;0;3
+CharacterDataImpl.deleteData( int offset , int count );1;0;3
+CharacterDataImpl.getData( );2;0;6
+CharacterDataImpl.getNodeValue( );2;0;6
+CharacterDataImpl.getLength( );1;0;1
+CharacterDataImpl.CharacterDataImpl( CoreDocumentImpl ownerDocument , String data );1;0;4
+CharacterDataImpl.internalDeleteData( int offset , int count , boolean replace );7;8;27
+CharacterDataImpl.appendData( String data );4;2;13
+CharacterDataImpl.setNodeValueInternal( String value );1;0;3
+CharacterDataImpl.setNodeValue( String value );1;0;4
+CharacterDataImpl.CharacterDataImpl( );1;0;1
+CharacterDataImpl.item( int index );1;0;1
+CharacterDataImpl.replaceData( int offset , int count , String data );4;1;15
+CharacterDataImpl.getChildNodes( );1;0;3
+CharacterDataImpl.setNodeValueInternal( String value , boolean replace );4;1;14
+CharacterDataImpl.substringData( int offset , int count );5;7;12
+CharacterDataImpl.setData( String value );1;0;3
+CharacterDataImpl.internalInsertData( int offset , String data , boolean replace );5;1;20

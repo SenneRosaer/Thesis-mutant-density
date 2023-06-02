@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StreamingRequestEntity.StreamingRequestEntity( SoapWriter writer );1;0;3
+StreamingRequestEntity.isRepeatable( );1;0;3
+ProviderProcessor.init( );1;0;3
+StreamingRequestEntity.getContentType( );1;0;3
+ProviderProcessor.copyHeaderInformation( NormalizedMessage nm , PostMethod method );3;1;9
+ProviderProcessor.shutdown( );1;0;2
+ProviderProcessor.stop( );1;0;2
+ProviderProcessor.writeMessage( SoapWriter writer );2;0;9
+ProviderProcessor.processInOut( MessageExchange exchange , PostMethod method , Context context , boolean txSync , boolean close );4;1;21
+StreamingRequestEntity.writeRequest( OutputStream out );2;0;8
+ProviderProcessor.ProviderProcessor( HttpEndpoint endpoint );1;0;5
+ProviderProcessor.getHeaders( HttpMethod method );2;2;8
+StreamingRequestEntity.getContentLength( );1;1;3
+ProviderProcessor.processInOptionalOut( PostMethod method , MessageExchange exchange , Context context , boolean txSync , boolean close );4;1;26
+ProviderProcessor.getHeaders( HttpServletRequest request );3;0;10
+ProviderProcessor.getRelUri( String locationUri );4;5;14
+ProviderProcessor.getClient( );1;0;6
+ProviderProcessor.start( );1;0;2
+ProviderProcessor.process( MessageExchange exchange );22;19;91
+ProviderProcessor.getHostConfiguration( String locationURI , MessageExchange exchange , NormalizedMessage message );9;9;31

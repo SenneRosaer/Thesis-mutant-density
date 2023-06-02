@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CSVReader.read( );5;7;10
+CSVReader.read( char b [ ] , int o , int l );12;21;21
+***not in a method***;0;2;0
+CSVGeneratorBean.endElement( String name );1;2;4
+CSVGeneratorBean.dumpRecord( );3;1;12
+CSVReader.getPublicId( );1;0;3
+CSVGeneratorBean.dumpField( );7;8;38
+CSVGeneratorBean.getKey( );2;1;8
+CSVReader.getSystemId( );1;0;3
+CSVGeneratorBean.startElement( String name , Attributes atts );3;4;5
+CSVReader.close( );1;0;3
+CSVGeneratorBean.generate( );15;23;47
+CSVReader.getColumnNumber( );1;0;3
+CSVGeneratorBean.dispose( );1;0;12
+CSVGeneratorBean.CSVGeneratorBean( );1;0;3
+CSVGeneratorBean.setup( SourceResolver resolver , Map object_model , String source , Parameters parameters );3;0;14
+CSVGeneratorBean.indent( int level );1;1;3
+CSVReader.CSVReader( Source source , String encoding , int buffer );1;0;6
+CSVGeneratorBean.startElement( String name );1;0;3
+CSVReader.getLineNumber( );1;0;3

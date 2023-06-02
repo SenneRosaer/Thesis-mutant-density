@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PageRenderer.getMethod( UIPage page );2;1;4
+PageRenderer.decode( FacesContext facesContext , UIComponent component );2;2;9
+PageRenderer.addScripts( TobagoResponseWriter writer , FacesContext facesContext , String script );6;3;19
+PageRenderer.writeEventFunction( TobagoResponseWriter writer , Set < String > eventFunctions , String event , boolean returnBoolean );7;2;29
+PageRenderer.errorMessageForDebugging( String id , FacesMessage message );4;3;12
+PageRenderer.encodeEnd( FacesContext facesContextOrg , UIComponent component );46;34;281
+PageRenderer.generateDoctype( UIPage page );5;2;14
+PageRenderer.encodeChildren( FacesContext facesContext , UIComponent component );1;0;2
+PageRenderer.errorMessageForDebugging( String id , FacesMessage message , ResponseWriter writer );4;3;15
+PageRenderer.getRendersChildren( );1;0;3

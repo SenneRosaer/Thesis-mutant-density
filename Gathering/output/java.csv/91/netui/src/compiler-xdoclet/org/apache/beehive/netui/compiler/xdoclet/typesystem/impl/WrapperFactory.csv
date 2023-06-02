@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WrapperFactory.WrapperFactory( );1;0;2
+WrapperFactory.getVoidType( XClass delegate );2;1;4
+WrapperFactory.getMethodDeclaration( XMethod delegate );2;1;4
+WrapperFactory.getTypeInstance( XClass delegate );4;1;16
+SynthesizedXJavaDocArrayType.getDimension( );1;0;3
+WrapperFactory.getTypeInstance( XClass delegate , int dimension );3;2;11
+WrapperFactory.isInterface( XClass xClass );2;2;4
+WrapperFactory.getInterfaceDeclaration( XClass delegate );2;1;4
+WrapperFactory.getDeclaration( XProgramElement delegate );3;1;12
+WrapperFactory.getConstructorDeclaration( XConstructor delegate );2;1;4
+WrapperFactory.getClassDeclaration( XClass delegate );2;1;5
+WrapperFactory.getArrayType( Type delegate );1;0;3
+WrapperFactory.getDeclaredType( XClass delegate );3;1;4
+WrapperFactory.getClassType( XClass delegate );2;1;4
+WrapperFactory.getPrimitiveType( XClass delegate );2;1;4
+WrapperFactory.getTypeDeclaration( XType delegate );3;1;6
+WrapperFactory.getParameterDeclaration( XParameter delegate );2;1;4
+WrapperFactory.getExecutableDeclaration( XExecutableMember delegate );3;1;9
+SynthesizedXJavaDocArrayType.SynthesizedXJavaDocArrayType( XClass type , int dimension );1;0;4
+WrapperFactory.getFieldDeclaration( XField delegate );2;1;4
+WrapperFactory.getTypeInstance( Type delegate );3;2;11
+WrapperFactory.getPackageDeclaration( XPackage delegate );2;1;4
+WrapperFactory.getInterfaceType( XClass delegate );2;1;4
+SynthesizedXJavaDocArrayType.getType( );1;0;3
+SynthesizedXJavaDocArrayType.getDimensionAsString( );2;2;8
+WrapperFactory.get( );1;0;3
+WrapperFactory.getMemberDeclaration( XMember delegate );3;1;12

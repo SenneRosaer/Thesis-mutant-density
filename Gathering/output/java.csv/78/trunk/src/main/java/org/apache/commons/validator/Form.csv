@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Form.getField( String fieldName );1;0;3
+Form.getFields( );1;0;3
+Form.addField( Field f );1;0;4
+Form.containsField( String fieldName );1;0;3
+Form.isProcessed( );1;0;3
+Form.process( Map globalConstants , Map constants , Map forms );8;4;28
+Form.isExtending( );1;1;3
+Form.setExtends( String inherit );1;0;3
+Form.toString( );2;0;12
+Form.setName( String name );1;0;3
+Form.validate( Map params , Map actions , int page );1;0;3
+Form.getName( );1;0;3
+Form.getExtends( );1;0;3
+Form.getFieldMap( );1;0;3
+Form.merge( Form depends );4;2;24
+Form.validate( Map params , Map actions , int page , String fieldName );6;4;24

@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+of( ThrowingConsumer < T > consumer );1;0;3
+accept( T t );1;0;3
+accept( T t , BiFunction < String , Exception , RuntimeException > exceptionWrapper );3;0;11
+throwing( BiFunction < String , Exception , RuntimeException > exceptionWrapper );1;0;12
+of( ThrowingConsumer < T > consumer , BiFunction < String , Exception , RuntimeException > exceptionWrapper );1;0;3
+acceptWithException( T t );1;0;3

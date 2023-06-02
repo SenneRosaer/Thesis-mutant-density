@@ -1,0 +1,60 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BasicResolver.checkForcedResolvedModuleRevision( ResolvedModuleRevision rmr );4;3;11
+BasicResolver.getAndCheckIsDynamic( ModuleRevisionId systemMrid );3;2;9
+BasicResolver.reportFailure( );5;1;18
+BasicResolver.isAllownomd( );1;0;3
+BasicResolver.logArtifactAttempt( Artifact art , String attempt );2;1;9
+BasicResolver.checkDescriptorConsistency( ModuleRevisionId mrid , ModuleDescriptor md , ResolvedResource ivyRef );13;14;63
+BasicResolver.parse( final ResolvedResource mdRef , DependencyDescriptor dd , ResolveData data );7;6;35
+BasicResolver.download( Artifact [ ] artifacts , DownloadOptions options );6;5;24
+UnresolvedDependencyException.UnresolvedDependencyException( String message , boolean error );1;0;4
+BasicResolver.findFirstArtifactRef( ModuleDescriptor md , DependencyDescriptor dd , ResolveData data );4;5;14
+BasicResolver.isForce( );1;0;3
+BasicResolver.getRevision( ResolvedResource ivyRef , ModuleRevisionId askedMrid , ModuleDescriptor md );4;2;22
+BasicResolver.cacheModuleDescriptor( ModuleDescriptor systemMd , ModuleRevisionId systemMrid , ResolvedResource ivyRef , ResolvedModuleRevision rmr );4;1;29
+BasicResolver.setEnvDependent( boolean envDependent );1;0;3
+UnresolvedDependencyException.UnresolvedDependencyException( );1;0;3
+BasicResolver.check( Resource resource , File dest , String algorithm );4;4;25
+BasicResolver.logAttempt( String attempt );2;1;8
+BasicResolver.resolveAndCheckPublicationDate( DependencyDescriptor systemDd , ModuleDescriptor systemMd , ModuleRevisionId systemMrid , ResolveData data );4;4;15
+BasicResolver.setAllownomd( boolean b );2;0;6
+BasicResolver.getChecksumAlgorithms( );6;7;15
+BasicResolver.logIvyAttempt( String attempt );1;0;4
+BasicResolver.setCheckconsistency( boolean checkConsitency );1;0;3
+BasicResolver.setWorkspaceName( String workspaceName );1;0;3
+BasicResolver.listModules( OrganisationEntry org );2;1;12
+BasicResolver.setDescriptor( String descriptorRule );3;0;12
+BasicResolver.listOrganisations( );2;1;10
+BasicResolver.resolve( Artifact artifact );3;1;12
+BasicResolver.getPublicationDate( ModuleDescriptor md , DependencyDescriptor dd , ResolveData data );3;3;10
+BasicResolver.getRMDParser( final DependencyDescriptor dd , final ResolveData data );3;0;19
+BasicResolver.getArtifactRef( Artifact artifact , Date date );4;3;22
+BasicResolver.resolveAndCheckRevision( ModuleDescriptor systemMd , ModuleRevisionId dependencyConstraint , ResolvedResource ivyRef , boolean isDynamic );9;9;25
+BasicResolver.checkNotConvertedExclusionRule( ModuleDescriptor systemMd , ResolvedResource ivyRef , ResolveData data );5;3;16
+BasicResolver.isEnvDependent( );1;0;3
+UnresolvedDependencyException.UnresolvedDependencyException( String message );1;0;3
+BasicResolver.locate( Artifact artifact );4;3;14
+BasicResolver.clearArtifactAttempts( );1;0;3
+BasicResolver.setForce( boolean force );1;0;3
+BasicResolver.write( ResolvedResource originalMdResource , ModuleDescriptor md , File src , File dest );3;2;14
+BasicResolver.listRevisions( ModuleEntry mod );2;1;13
+BasicResolver.download( Artifact artifact , Resource resource , File dest );5;2;20
+BasicResolver.acceptLatest( );1;0;3
+BasicResolver.checkModuleDescriptorRevision( ModuleDescriptor systemMd , ModuleRevisionId systemMrid );2;1;8
+BasicResolver.shouldReturnResolvedModule( DependencyDescriptor dd , ResolvedModuleRevision mr );2;6;8
+BasicResolver.getWorkspaceName( );1;0;3
+UnresolvedDependencyException.isError( );1;0;3
+BasicResolver.reportFailure( Artifact art );3;1;10
+BasicResolver.checkRevision( ModuleRevisionId systemMrid );3;5;8
+BasicResolver.setChecksums( String checksums );1;0;3
+BasicResolver.getAndCheck( Resource resource , File dest );3;4;9
+BasicResolver.exists( Artifact artifact );2;1;7
+BasicResolver.download( final ArtifactOrigin origin , DownloadOptions options );3;0;21
+BasicResolver.isCheckconsistency( );1;0;3
+BasicResolver.clearIvyAttempts( );1;0;4
+BasicResolver.toString( );1;0;3
+BasicResolver.getDependency( DependencyDescriptor dd , ResolveData data );25;17;131
+BasicResolver.parse( Resource resource , String rev );3;1;15
+BasicResolver.getDefaultRMDParser( final ModuleId mid );1;0;14
+BasicResolver.BasicResolver( );1;0;3
+BasicResolver.listTokenValues( String token , Map otherTokenValues );1;0;4

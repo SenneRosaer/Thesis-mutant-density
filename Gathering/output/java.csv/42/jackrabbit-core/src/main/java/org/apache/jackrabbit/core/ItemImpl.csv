@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ItemImpl.getId( );1;0;3
+ItemImpl.remove( );1;0;3
+ItemImpl.getTransientStates( );14;0;60
+ItemImpl.sanityCheck( );3;3;7
+ItemImpl.processShareableNodes( Iterator iter );8;4;23
+ItemImpl.getAncestor( int degree );5;4;20
+ItemImpl.isTransient( );1;0;3
+ItemImpl.setRemoved( );4;4;15
+ItemImpl.getRemovedStates( );5;2;24
+ItemImpl.getPath( );1;0;4
+ItemImpl.restoreTransientItems( Iterator iter );7;1;33
+ItemImpl.validateTransientItems( Iterator dirtyIter , Iterator removedIter );35;38;151
+ItemImpl.getPrimaryPath( );1;0;3
+ItemImpl.getItemState( );1;0;3
+ItemImpl.isModified( );2;2;4
+ItemImpl.getEffectiveNodeType( NodeState state );2;0;12
+ItemImpl.internalRemove( boolean noChecks );8;3;34
+ItemImpl.toString( );1;0;3
+ItemImpl.initVersionHistories( Iterator iter );5;1;34
+ItemImpl.removeTransientItems( Iterator iter );2;0;7
+ItemImpl.persistTransientItems( Iterator iter );2;0;7
+ItemImpl.save( );28;10;127
+ItemImpl.ItemImpl( ItemManager itemMgr , SessionImpl session , ItemData data );1;0;8
+ItemImpl.isTransactionalNew( );1;1;4
+ItemImpl.getSession( );1;0;3
+ItemImpl.refresh( boolean keepChanges );18;1;60
+ItemImpl.isNew( );2;2;4
+ItemImpl.isSame( Item otherItem );4;2;13
+ItemImpl.getDepth( );2;1;8
+ItemImpl.safeGetJCRPath( );1;0;3

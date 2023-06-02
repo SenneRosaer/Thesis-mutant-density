@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IndexSearcher.doc( int i , FieldSelector fieldSelector );1;0;3
+IndexSearcher.IndexSearcher( String path );1;0;3
+IndexSearcher.rewrite( Query original );2;1;8
+IndexSearcher.search( Weight weight , Filter filter , final HitCollector results );8;7;25
+IndexSearcher.maxDoc( );1;0;3
+IndexSearcher.IndexSearcher( IndexReader r );1;0;3
+IndexSearcher.explain( Weight weight , int doc );1;0;3
+IndexSearcher.docFreq( Term term );1;0;3
+IndexSearcher.IndexSearcher( IndexReader r , boolean closeReader );1;0;4
+IndexSearcher.getIndexReader( );1;0;3
+IndexSearcher.search( Weight weight , Filter filter , final int nDocs , Sort sort );1;0;6
+IndexSearcher.IndexSearcher( Directory directory );1;0;3
+IndexSearcher.doc( int i );1;0;3
+IndexSearcher.close( );2;0;4
+IndexSearcher.search( Weight weight , Filter filter , final int nDocs );2;1;7

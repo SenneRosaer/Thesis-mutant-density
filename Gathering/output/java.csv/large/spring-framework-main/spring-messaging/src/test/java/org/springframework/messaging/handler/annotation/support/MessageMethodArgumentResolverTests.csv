@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageMethodArgumentResolverTests.setup( );1;0;4
+MessageMethodArgumentResolverTests.resolveMessageSubclassMatch( );1;0;6
+MessageMethodArgumentResolverTests.resolveWithPayloadTypeOutOfBound( );1;0;9
+MessageMethodArgumentResolverTests.resolveWithMessageSubclassAndPayloadWildcard( );1;0;6
+MessageMethodArgumentResolverTests.resolveWithMatchingPayloadType( );1;0;6
+MessageMethodArgumentResolverTests.handle( Message < ? > wildcardPayload , Message < Integer > integerPayload , Message < Number > numberPayload , Message < ? extends Number > anyNumberPayload , ErrorMessage subClass , Message < Foo > fooPayload );1;0;2
+Foo.setFoo( String foo );1;0;3
+MessageMethodArgumentResolverTests.resolveWithConversionNoMatchingConverter( );1;0;9
+MessageMethodArgumentResolverTests.resolveWithConversionNeededButNoConverter( );1;0;10
+MessageMethodArgumentResolverTests.resolveWithJacksonConverter( );3;0;12
+MessageMethodArgumentResolverTests.resolveWithWrongMessageType( );2;0;10
+MessageMethodArgumentResolverTests.resolveWithPayloadTypeAsWildcard( );1;0;6
+MessageMethodArgumentResolverTests.resolveWithConversionEmptyPayloadButNoConverter( );1;0;11
+MessageMethodArgumentResolverTests.resolveWithPayloadTypeAsWildcardAndNoConverter( );1;0;7
+MessageMethodArgumentResolverTests.resolveWithPayloadTypeSubclass( );1;0;6
+MessageMethodArgumentResolverTests.resolveWithConversion( );1;0;10
+MessageMethodArgumentResolverTests.resolveWithConversionEmptyPayload( );1;0;10
+Foo.getFoo( );1;0;3
+MessageMethodArgumentResolverTests.resolveWithPayloadTypeUpperBound( );1;0;6

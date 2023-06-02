@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DependencyFilter.filter( Collection dependencies );3;1;9
+DependencyEmbedder.getEmbeddedArtifacts( );1;0;3
+DependencyEmbedder.processEmbedInstructions( Map embedInstructions );13;0;117
+DependencyFilter.matches( String text );3;2;8
+DependencyFilter.DependencyFilter( String expression , String defaultValue );1;0;4
+DependencyEmbedder.processHeaders( Properties properties );5;3;18
+DependencyEmbedder.embedDependency( Properties properties , Artifact dependency );13;16;61
+DependencyEmbedder.matches( Artifact dependency );1;0;3
+DependencyEmbedder.getInlinedArtifacts( );1;0;3
+DependencyEmbedder.DependencyEmbedder( Collection dependencyArtifacts );1;0;5
+DependencyEmbedder.inlineDependency( Properties properties , Artifact dependency );5;6;17
+DependencyFilter.DependencyFilter( String expression );1;0;3

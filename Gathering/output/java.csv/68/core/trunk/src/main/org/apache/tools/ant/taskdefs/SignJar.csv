@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SignJar.setSectionsonly( final boolean sectionsonly );1;0;3
+SignJar.isSigned( File file );3;1;8
+SignJar.getMapper( );1;0;3
+SignJar.setSignedjar( final File signedjar );1;0;3
+SignJar.setTsaurl( String tsaurl );1;0;3
+SignJar.getTsacert( );1;0;3
+SignJar.addTimestampAuthorityCommands( final ExecTask cmd );3;2;10
+SignJar.getTsaurl( );1;0;3
+SignJar.setTsacert( String tsacert );1;0;3
+SignJar.setLazy( final boolean lazy );1;0;3
+SignJar.setInternalsf( final boolean internalsf );1;0;3
+SignJar.setSigfile( final String sigfile );1;0;3
+SignJar.setDestDir( File destDir );1;0;3
+SignJar.isUpToDate( File jarFile , File signedjarFile );6;4;16
+SignJar.execute( );18;18;53
+SignJar.setPreserveLastModified( boolean preserveLastModified );1;0;3
+SignJar.signOneJar( File jarSource , File jarTarget );8;3;40
+SignJar.add( FileNameMapper newMapper );2;1;6

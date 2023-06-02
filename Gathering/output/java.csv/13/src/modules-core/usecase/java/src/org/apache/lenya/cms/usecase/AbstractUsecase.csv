@@ -1,0 +1,69 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractUsecase.getNodesToLock( );1;0;3
+AbstractUsecase.getStateMachine( );1;0;4
+AbstractUsecase.getParameterAsString( String name );2;1;8
+AbstractUsecase.initializeParametersIfNotDone( );2;1;6
+AbstractUsecase.initialize( );1;0;6
+AbstractUsecase.prepareView( );1;0;2
+AbstractUsecase.getSession( );1;0;3
+AbstractUsecase.doCheckExecutionConditions( );1;0;2
+AbstractUsecase.getSourceURL( );1;0;3
+AbstractUsecase.configure( Configuration config );10;9;40
+AbstractUsecase.checkoutRestrictedToSession( );1;0;3
+AbstractUsecase.isOptimistic( );1;0;3
+AbstractUsecase.addInfoMessage( String message );1;0;3
+AbstractUsecase.setSourceURL( String url );1;0;3
+AbstractUsecase.getParameterAsInteger( String name , int defaultValue );2;1;8
+AbstractUsecase.doExecute( );1;0;2
+AbstractUsecase.deleteParameter( String name );1;0;3
+AbstractUsecase.clearErrorMessages( );1;0;3
+AbstractUsecase.setName( String name );1;0;3
+AbstractUsecase.addErrorMessage( String message , String [ ] _params );1;0;3
+AbstractUsecase.setSession( org . apache . lenya . cms . repository . Session session );1;0;3
+AbstractUsecase.service( ServiceManager manager );1;0;3
+AbstractUsecase.setView( UsecaseView view );1;0;3
+AbstractUsecase.getTargetURL( boolean success );3;3;10
+AbstractUsecase.advance( );1;0;2
+AbstractUsecase.getParameter( String name );2;1;6
+AbstractUsecase.setParameter( String name , Object value );4;2;10
+AbstractUsecase.getInfoMessages( );1;0;3
+AbstractUsecase.hasErrors( );3;2;8
+AbstractUsecase.getContext( );1;0;3
+AbstractUsecase.execute( );9;4;37
+AbstractUsecase.getExitQueryString( );5;4;17
+AbstractUsecase.getErrorMessages( );1;0;3
+AbstractUsecase.startTransaction( );2;0;5
+AbstractUsecase.getParameterNames( );1;0;5
+AbstractUsecase.setDefaultTargetURL( String url );1;0;3
+AbstractUsecase.cancel( );3;0;9
+AbstractUsecase.canCheckOut( Node [ ] objects );5;4;14
+AbstractUsecase.addErrorMessages( String [ ] messages );2;2;5
+AbstractUsecase.getParameterAsString( String name , String defaultValue );2;1;8
+AbstractUsecase.setTestSession( Session session );1;0;4
+AbstractUsecase.getParameters( );1;0;4
+AbstractUsecase.getName( );1;0;3
+AbstractUsecase.doCheckPostconditions( );1;0;2
+AbstractUsecase.checkPreconditions( );6;4;25
+AbstractUsecase.getPart( String name );1;0;3
+AbstractUsecase.checkExecutionConditions( );4;1;18
+AbstractUsecase.addInfoMessage( String message , String [ ] _params );1;0;3
+AbstractUsecase.addErrorMessage( String message );1;0;3
+AbstractUsecase.doCheckPreconditions( );1;0;2
+AbstractUsecase.doInitialize( );1;0;2
+AbstractUsecase.getDocumentFactory( );3;3;9
+AbstractUsecase.clearInfoMessages( );1;0;3
+AbstractUsecase.initParameters( );1;0;2
+AbstractUsecase.checkEvent( String event );1;0;3
+AbstractUsecase.dumpErrorMessages( );2;2;6
+AbstractUsecase.contextualize( Context context );1;0;3
+AbstractUsecase.setExitParameter( String name , String value );1;0;3
+AbstractUsecase.getParameter( String name , Object defaultValue );2;1;7
+AbstractUsecase.lockInvolvedObjects( Node [ ] objects );6;6;14
+AbstractUsecase.hasInfoMessages( );2;2;6
+AbstractUsecase.advanceState( String event );1;0;3
+AbstractUsecase.setPart( String name , Part value );3;2;11
+AbstractUsecase.lockInvolvedObjects( );2;0;11
+AbstractUsecase.getBooleanCheckboxParameter( String name );3;2;7
+AbstractUsecase.checkPostconditions( );4;1;18
+AbstractUsecase.getParameterAsBoolean( String name , boolean defaultValue );4;1;15
+AbstractUsecase.getView( );2;0;9

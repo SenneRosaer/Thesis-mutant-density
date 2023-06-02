@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultiHashMap.containsValue( Object key , Object value );2;1;7
+MultiHashMap.MultiHashMap( int initialCapacity );1;0;3
+ValueIterator.ValueIterator( );1;0;3
+Values.clear( );1;0;3
+ValueIterator.searchNextIterator( );4;4;9
+MultiHashMap.containsValue( Object value );4;1;15
+MultiHashMap.clone( );2;0;10
+MultiHashMap.clear( );2;0;10
+MultiHashMap.putAll( Map map );4;0;14
+MultiHashMap.readObject( ObjectInputStream s );5;1;14
+MultiHashMap.MultiHashMap( int initialCapacity , float loadFactor );1;0;3
+ValueIterator.remove( );2;1;6
+MultiHashMap.getCollection( Object key );1;0;3
+MultiHashMap.remove( Object key , Object item );4;2;14
+MultiHashMap.putAll( Object key , Collection values );5;5;16
+MultiHashMap.MultiHashMap( );1;0;3
+MultiHashMap.MultiHashMap( Map mapToCopy );1;1;4
+MultiHashMap.put( Object key , Object value );3;1;9
+MultiHashMap.createCollection( Collection coll );2;1;7
+MultiHashMap.superValuesIterator( );1;0;3
+MultiHashMap.size( Object key );2;1;7
+ValueIterator.next( );2;1;6
+Values.iterator( );1;0;3
+Values.size( );2;1;9
+MultiHashMap.values( );2;1;4
+MultiHashMap.totalSize( );2;1;9
+MultiHashMap.iterator( Object key );2;1;7
+ValueIterator.hasNext( );1;0;3

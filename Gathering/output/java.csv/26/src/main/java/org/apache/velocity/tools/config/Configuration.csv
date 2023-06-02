@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Configuration.getProperties( );1;0;3
+Configuration.setPropertyMap( Map < String , Object > props );2;0;6
+Configuration.getPropertyMap( );2;0;8
+Configuration.getProperty( String name );3;0;10
+Configuration.setProperty( String name , Object value );2;1;10
+Configuration.equals( Object obj );3;2;15
+Configuration.addConfiguration( Configuration config );1;0;3
+Configuration.validate( );2;0;6
+Configuration.removeProperty( Property property );1;0;3
+Configuration.compareTo( Configuration config );1;0;3
+Configuration.addProperty( Property property );2;1;8
+Configuration.hasProperties( );1;1;3
+Configuration.setProperties( Collection < Property > props );2;0;6
+Configuration.hashCode( );1;0;3
+Configuration.removeProperty( String name );1;0;4
+Configuration.appendProperties( StringBuilder out );3;0;18

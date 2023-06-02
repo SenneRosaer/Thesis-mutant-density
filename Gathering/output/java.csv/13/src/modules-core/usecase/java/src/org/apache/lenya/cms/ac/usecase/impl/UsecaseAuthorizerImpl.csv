@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UsecaseAuthorizerImpl.setPermission( String usecase , Publication publication , Role role , boolean granted );6;1;24
+UsecaseAuthorizerImpl.authorizeUsecase( String usecase , Role [ ] roles , Publication pub );1;0;3
+UsecaseAuthorizerImpl.getConfigurationUri( String pubId );1;0;3
+UsecaseAuthorizerImpl.authorize( Request request );4;3;14
+UsecaseAuthorizerImpl.getUsecaseRoles( String _configurationUri );2;0;10
+UsecaseAuthorizerImpl.getCache( );1;0;3
+UsecaseAuthorizerImpl.service( ServiceManager _manager );1;0;5
+UsecaseAuthorizerImpl.isPermitted( String usecase , Publication publication , Role role );1;0;6
+UsecaseAuthorizerImpl.parameterize( Parameters parameters );2;0;5
+UsecaseAuthorizerImpl.authorizeUsecase( String usecase , Role [ ] roles , String _configurationUri );5;5;25
+UsecaseAuthorizerImpl.dispose( );2;1;5
+UsecaseAuthorizerImpl.getConfigurationURI( );1;0;3

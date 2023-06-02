@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PomPluginElement.getVersion( );1;0;3
+PomModuleDescriptorBuilder.getModuleDescriptor( );1;0;3
+PomModuleDescriptorBuilder.getSourceArtifact( );1;0;5
+PomModuleDescriptorBuilder.addExtraInfo( String key , String value );2;1;5
+PomModuleDescriptorBuilder.getPropertyExtraInfoKey( String propertyName );1;2;3
+PomModuleDescriptorBuilder.getJavadocArtifact( );1;0;5
+PomPluginElement.PomPluginElement( String groupId , String artifactId , String version );1;0;5
+PomModuleDescriptorBuilder.getDefaultVersion( PomDependencyData dep );1;0;4
+PomModuleDescriptorBuilder.addMappingConfs( DefaultDependencyDescriptor dd , boolean isOptional );2;0;10
+PomModuleDescriptorBuilder.setModuleRevId( String groupId , String artifactId , String version );3;2;9
+PomModuleDescriptorBuilder.setDescription( String description );1;0;3
+PomModuleDescriptorBuilder.setLicenses( License [ ] licenses );2;2;5
+PomModuleDescriptorBuilder.addDependency( Resource res , PomDependencyData dep );15;18;45
+PomModuleDescriptorBuilder.addPlugin( PomDependencyMgt plugin );2;6;11
+PomModuleDescriptorBuilder.addExtraInfos( Map extraAttributes );2;0;8
+PomPluginElement.getArtifactId( );1;0;3
+PomModuleDescriptorBuilder.addDependency( DependencyDescriptor descriptor );1;0;3
+PomPluginElement.getGroupId( );1;0;3
+PomModuleDescriptorBuilder.getDependencyMgtExtraInfoKeyForVersion( String groupId , String artifaceId );1;5;4
+PomModuleDescriptorBuilder.setHomePage( String homePage );1;0;3
+PomModuleDescriptorBuilder.getDependencyMgtExtraInfoKeyForScope( String groupId , String artifaceId );1;5;4
+PomModuleDescriptorBuilder.addJavadocArtifact( );1;0;3
+PomModuleDescriptorBuilder.extractPomProperties( Map extraInfo );3;1;12
+PomModuleDescriptorBuilder.addDependencyMgt( PomDependencyMgt dep );2;1;13
+PomModuleDescriptorBuilder.getDependencyManagementMap( ModuleDescriptor md );4;1;17
+PomPluginElement.getScope( );1;0;3
+PomModuleDescriptorBuilder.getPlugins( ModuleDescriptor md );3;3;13
+PomModuleDescriptorBuilder.getMainArtifact( );1;0;3
+PomModuleDescriptorBuilder.getDependencyManagements( ModuleDescriptor md );4;11;25
+PomModuleDescriptorBuilder.PomModuleDescriptorBuilder( ModuleDescriptorParser parser , Resource res , ParserSettings ivySettings );2;2;10
+PomModuleDescriptorBuilder.addProperty( String propertyName , String value );1;0;3
+PomModuleDescriptorBuilder.addMainArtifact( String artifactId , String packaging );5;2;22
+PomModuleDescriptorBuilder.getDefaultScope( PomDependencyData dep );2;1;8
+PomModuleDescriptorBuilder.addSourceArtifact( );1;0;3

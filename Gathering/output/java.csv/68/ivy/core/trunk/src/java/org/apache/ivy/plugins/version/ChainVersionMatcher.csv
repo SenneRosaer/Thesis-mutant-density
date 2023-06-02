@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChainVersionMatcher.getMatchers( );1;0;3
+ChainVersionMatcher.setSettings( IvySettings settings );3;0;9
+ChainVersionMatcher.add( VersionMatcher matcher );3;2;7
+ChainVersionMatcher.ChainVersionMatcher( );1;0;3
+ChainVersionMatcher.accept( ModuleRevisionId askedMrid , ModuleDescriptor foundMD );4;2;11
+ChainVersionMatcher.compare( ModuleRevisionId askedMrid , ModuleRevisionId foundMrid , Comparator staticComparator );3;0;13
+ChainVersionMatcher.accept( ModuleRevisionId askedMrid , ModuleRevisionId foundMrid );4;2;11
+ChainVersionMatcher.isDynamic( ModuleRevisionId askedMrid );3;0;10
+ChainVersionMatcher.needModuleDescriptor( ModuleRevisionId askedMrid , ModuleRevisionId foundMrid );4;2;11

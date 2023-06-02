@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+User.getUserName( );1;0;3
+AuthenticationProfileManager.getRequestState( );2;0;11
+User.User( RequestState state );1;0;3
+AuthenticationProfileManager.getUser( );1;0;4
+ReadWriteLock.readLock( );3;3;8
+AuthenticationProfileManager.getProfile( String layoutKey , Map parameters , Object factory , boolean forcedLoad , PortalService service );9;7;36
+ReadWriteLock.releaseLocks( );5;4;17
+AuthenticationProfileManager.loadProfile( Object key , Map map , Object factory );1;0;11
+AuthenticationProfileManager.isSourceNotFoundException( Throwable t );3;1;9
+AuthenticationProfileManager.getOrCreateProfile( String layoutKey , Map parameters , PortalService service , Object factory );5;2;32
+AuthenticationProfileManager.saveUserLayout( String layoutKey );3;1;26
+User.isUserInRole( String role );1;0;3
+ReadWriteLock.releaseReadLock( );3;3;9
+ReadWriteLock.writeLock( );4;6;13
+AuthenticationProfileManager.checkValidity( Object key , Map parameters , boolean forcedLoad , ProfileLS adapter );7;8;17
+User.getGroup( );1;0;3
+AuthenticationProfileManager.buildKey( PortalService service , Map parameters , String layoutKey , boolean load );10;7;32
+AuthenticationProfileManager.getDeltaProfile( String layoutKey , Map parameters , PortalService service , Object factory , boolean forcedLoad );8;5;32
+AuthenticationProfileManager.saveUserCopletInstanceDatas( String layoutKey );3;1;27
+AuthenticationProfileManager.loadProfile( String layoutKey , PortalService service , CopletFactory copletFactory , LayoutFactory layoutFactory , ServiceSelector adapterSelector );4;2;50

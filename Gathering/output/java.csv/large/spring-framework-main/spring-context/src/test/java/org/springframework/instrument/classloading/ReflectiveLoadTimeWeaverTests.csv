@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JustAddTransformerClassLoader.addTransformer( ClassFileTransformer transformer );1;1;3
+ReflectiveLoadTimeWeaverTests.testGetThrowawayClassLoaderWithTotallyCompliantClassLoader( );1;0;7
+ReflectiveLoadTimeWeaverTests.testAddTransformerWithNullTransformer( );1;0;4
+ReflectiveLoadTimeWeaverTests.transform( ClassLoader loader , String className , Class < ? > classBeingRedefined , ProtectionDomain protectionDomain , byte [ ] classfileBuffer );1;0;3
+JustAddTransformerClassLoader.getNumTimesGetThrowawayClassLoaderCalled( );1;0;3
+ReflectiveLoadTimeWeaverTests.testCtorWithClassLoaderThatDoesNotExposeAnAddTransformerMethod( );1;0;4
+ReflectiveLoadTimeWeaverTests.testCtorWithClassLoaderThatDoesNotExposeAGetThrowawayClassLoaderMethodIsOkay( );2;0;11
+ReflectiveLoadTimeWeaverTests.testGetThrowawayClassLoaderWithClassLoaderThatDoesNotExposeAGetThrowawayClassLoaderMethodYieldsFallbackClassLoader( );1;0;5
+TotallyCompliantClassLoader.getNumTimesGetThrowawayClassLoaderCalled( );1;0;3
+ReflectiveLoadTimeWeaverTests.testCtorWithNullClassLoader( );1;0;4
+TotallyCompliantClassLoader.getThrowawayClassLoader( );1;1;4

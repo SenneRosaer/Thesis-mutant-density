@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReactorNettyRequestUpgradeStrategy.ReactorNettyRequestUpgradeStrategy( );1;0;3
+ReactorNettyRequestUpgradeStrategy.ReactorNettyRequestUpgradeStrategy( Supplier < WebsocketServerSpec . Builder > builderSupplier );1;0;4
+ReactorNettyRequestUpgradeStrategy.setMaxFramePayloadLength( Integer maxFramePayloadLength );1;0;3
+ReactorNettyRequestUpgradeStrategy.setHandlePing( boolean handlePing );1;0;3
+ReactorNettyRequestUpgradeStrategy.upgrade( ServerWebExchange exchange , WebSocketHandler handler , @ Nullable String subProtocol , Supplier < HandshakeInfo > handshakeInfoFactory );1;0;17
+ReactorNettyRequestUpgradeStrategy.getWebsocketServerSpec( );1;0;3
+ReactorNettyRequestUpgradeStrategy.buildSpec( @ Nullable String subProtocol );4;3;13
+ReactorNettyRequestUpgradeStrategy.getHandlePing( );1;0;3
+ReactorNettyRequestUpgradeStrategy.getMaxFramePayloadLength( );1;0;3

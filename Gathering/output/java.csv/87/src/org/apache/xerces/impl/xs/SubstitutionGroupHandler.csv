@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SubstitutionGroupHandler.getSubstitutionGroup( XSElementDecl element );6;9;23
+SubstitutionGroupHandler.inSubstitutionGroup( XSElementDecl element , XSElementDecl exemplar );1;0;3
+SubstitutionGroupHandler.addSubstitutionGroup( XSElementDecl [ ] elements );3;4;14
+SubstitutionGroupHandler.reset( );1;0;4
+OneSubGroup.OneSubGroup( XSElementDecl sub , short dMethod , short bMethod );1;0;5
+SubstitutionGroupHandler.getDBMethods( XSTypeDefinition typed , XSTypeDefinition typeb , OneSubGroup methods );8;13;19
+SubstitutionGroupHandler.substitutionGroupOK( XSElementDecl element , XSElementDecl exemplar , short blockingConstraint );6;7;16
+SubstitutionGroupHandler.getMatchingElemDecl( QName element , XSElementDecl exemplar );8;8;24
+SubstitutionGroupHandler.typeDerivationOK( XSTypeDefinition derived , XSTypeDefinition base , short blockingConstraint );12;16;38
+OneSubGroup.OneSubGroup( );1;0;1
+SubstitutionGroupHandler.getSubGroupB( XSElementDecl element , OneSubGroup methods );8;15;34
+SubstitutionGroupHandler.SubstitutionGroupHandler( XSGrammarBucket grammarBucket );1;0;3

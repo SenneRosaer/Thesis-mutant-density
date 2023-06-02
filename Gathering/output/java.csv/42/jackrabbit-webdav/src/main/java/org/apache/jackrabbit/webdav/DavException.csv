@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DavException.getStatusPhrase( );1;0;3
+DavException.hasErrorCondition( );1;1;3
+DavException.getStatusPhrase( int errorCode );1;0;3
+DavException.DavException( int errorCode , String message , Throwable cause , Element errorCondition );1;0;6
+DavException.DavException( int errorCode , String message );1;0;3
+DavException.getErrorCode( );1;0;3
+DavException.DavException( int errorCode );1;0;3
+DavException.toXml( Document document );3;0;14
+DavException.DavException( int errorCode , Throwable cause );1;0;3

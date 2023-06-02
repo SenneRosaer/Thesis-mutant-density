@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebDataBinder.adaptEmptyArrayIndices( MutablePropertyValues mpvs );5;3;12
+WebDataBinder.doBind( MutablePropertyValues mpvs );1;0;6
+WebDataBinder.checkFieldMarkers( MutablePropertyValues mpvs );7;3;16
+WebDataBinder.checkFieldDefaults( MutablePropertyValues mpvs );6;3;15
+WebDataBinder.bindMultipart( Map < String , List < MultipartFile > > multipartFiles , MutablePropertyValues mpvs );4;3;13
+WebDataBinder.isBindEmptyMultipartFiles( );1;0;3
+WebDataBinder.setBindEmptyMultipartFiles( boolean bindEmptyMultipartFiles );1;0;3
+WebDataBinder.getFieldMarkerPrefix( );1;0;3
+WebDataBinder.getFieldDefaultPrefix( );1;0;3
+WebDataBinder.setFieldMarkerPrefix( @ Nullable String fieldMarkerPrefix );1;0;3
+WebDataBinder.WebDataBinder( @ Nullable Object target , String objectName );1;0;3
+WebDataBinder.WebDataBinder( @ Nullable Object target );1;0;3
+WebDataBinder.getEmptyValue( String field , @ Nullable Class < ? > fieldType );2;1;3
+WebDataBinder.setFieldDefaultPrefix( @ Nullable String fieldDefaultPrefix );1;0;3
+WebDataBinder.getEmptyValue( Class < ? > fieldType );8;3;22

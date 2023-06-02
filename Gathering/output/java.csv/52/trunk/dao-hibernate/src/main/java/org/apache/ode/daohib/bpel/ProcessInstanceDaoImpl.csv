@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProcessInstanceDaoImpl.insertBpelEvent( ProcessInstanceEvent event );1;0;4
+ProcessInstanceDaoImpl.finishCompletion( );1;0;5
+ProcessInstanceDaoImpl.getScopes( );1;0;3
+ProcessInstanceDaoImpl.getPreviousState( );1;0;3
+ProcessInstanceDaoImpl.getScope( Long scopeInstanceId );2;1;6
+ProcessInstanceDaoImpl.setFault( FaultDAO fault );1;0;5
+ProcessInstanceDaoImpl.getActivityFailureDateTime( );1;0;3
+ProcessInstanceDaoImpl.getExecutionStateCounter( );1;0;3
+ProcessInstanceDaoImpl.getScopes( String scopeName );2;1;17
+ProcessInstanceDaoImpl.setLastActiveTime( Date dt );1;0;4
+ProcessInstanceDaoImpl.getActivityFailureCount( );1;0;3
+ProcessInstanceDaoImpl.getInstantiatingCorrelator( );1;0;4
+ProcessInstanceDaoImpl.getProcess( );1;0;4
+ProcessInstanceDaoImpl.getRootScope( );3;2;10
+ProcessInstanceDaoImpl.createActivityRecovery( String channel , long activityId , String reason , Date dateTime , Element data , String [ ] actions , int retries );3;5;23
+ProcessInstanceDaoImpl.setFault( QName name , String explanation , int lineNo , int activityId , Element faultData );3;2;18
+ProcessInstanceDaoImpl.setExecutionStateCounter( int stateCounter );1;0;3
+ProcessInstanceDaoImpl.delete( );1;0;4
+ProcessInstanceDaoImpl.clearSelectors( );1;0;6
+ProcessInstanceDaoImpl.createScope( ScopeDAO parentScope , String name , int scopeModelId );2;1;12
+ProcessInstanceDaoImpl.getFault( );2;1;7
+ProcessInstanceDaoImpl.setExecutionState( byte [ ] bytes );3;2;11
+ProcessInstanceDaoImpl.genMonotonic( );1;1;6
+ProcessInstanceDaoImpl.ProcessInstanceDaoImpl( SessionManager sm , HProcessInstance instance );1;0;5
+ProcessInstanceDaoImpl.deleteActivityRecovery( String channel );3;1;11
+ProcessInstanceDaoImpl.getEventsFirstLastCount( );1;0;13
+ProcessInstanceDaoImpl.getVariables( String variableName , int scopeModelId );2;0;15
+ProcessInstanceDaoImpl.getConnection( );1;0;4
+ProcessInstanceDaoImpl.getActivityRecoveries( );2;0;11
+ProcessInstanceDaoImpl.getCorrelationSet( String name );3;0;8
+ProcessInstanceDaoImpl.apply( HScope x );1;0;3
+ProcessInstanceDaoImpl.getCreateTime( );1;0;3
+ProcessInstanceDaoImpl.getCorrelationSets( );2;0;8
+ProcessInstanceDaoImpl.setState( short state );2;1;9
+ProcessInstanceDaoImpl.getExecutionState( );2;1;6
+ProcessInstanceDaoImpl.getInstanceId( );1;0;3
+ProcessInstanceDaoImpl.getState( );1;0;3
+ProcessInstanceDaoImpl.getLastActiveTime( );1;0;3

@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractModuleDescriptorParser.getType( );1;0;3
+AbstractParser.checkErrors( );2;1;5
+AbstractParser.getResource( );1;0;3
+AbstractParser.setDefaultConf( String defaultConf );1;0;3
+AbstractParser.fatalError( SAXParseException ex );1;0;3
+AbstractParser.warning( SAXParseException ex );1;0;3
+AbstractParser.addExtendingConfigurations( String [ ] confs , DefaultDependencyDescriptor dd , boolean useDefaultMappingToGuessRightOperande );2;2;5
+AbstractParser.getDefaultConfMapping( );1;0;3
+AbstractParser.setDefaultConfMapping( String defaultConf );1;0;3
+AbstractParser.getModuleDescriptor( );1;0;4
+AbstractParser.getModuleDescriptorParser( );1;0;3
+AbstractParser.replaceConfigurationWildcards( ModuleDescriptor md );2;2;6
+AbstractParser.parseDepsConfs( String [ ] conf , DefaultDependencyDescriptor dd , boolean useDefaultMappingToGuessRightOperande , boolean evaluateConditions );16;18;50
+AbstractParser.parseDepsConfs( String [ ] conf , DefaultDependencyDescriptor dd , boolean useDefaultMappingToGuessRightOperande );1;0;3
+AbstractParser.error( SAXParseException ex );1;0;3
+AbstractParser.getDefaultConfMappingDescriptor( );2;1;8
+AbstractParser.getMd( );1;0;3
+AbstractParser.addError( String msg );2;2;7
+AbstractParser.AbstractParser( ModuleDescriptorParser parser );1;0;3
+AbstractParser.parseDepsConfs( String confs , DefaultDependencyDescriptor dd , boolean useDefaultMappingToGuessRightOperande , boolean evaluateConditions );2;1;7
+AbstractModuleDescriptorParser.getMetadataArtifact( ModuleRevisionId mrid , Resource res );1;0;3
+AbstractParser.setMd( DefaultModuleDescriptor md );1;0;3
+AbstractParser.getDefaultConf( );3;2;4
+AbstractParser.parseDepsConfs( String confs , DefaultDependencyDescriptor dd , boolean useDefaultMappingToGuessRightOperande );1;0;3
+AbstractParser.setResource( Resource res );1;0;5
+AbstractParser.getLocationString( SAXParseException ex );4;5;18
+AbstractParser.evaluateCondition( String conf , DefaultDependencyDescriptor dd );11;13;39
+AbstractParser.parseDepsConfs( String confs , DefaultDependencyDescriptor dd );1;1;3
+AbstractParser.getDefaultPubDate( );1;0;3
+AbstractParser.addExtendingConfigurations( String conf , DefaultDependencyDescriptor dd , boolean useDefaultMappingToGuessRightOperande );4;4;17
+AbstractModuleDescriptorParser.parseDescriptor( ParserSettings ivySettings , URL descriptorURL , boolean validate );1;0;4

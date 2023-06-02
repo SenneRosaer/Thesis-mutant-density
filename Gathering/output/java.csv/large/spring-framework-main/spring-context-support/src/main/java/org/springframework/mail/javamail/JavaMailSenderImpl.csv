@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JavaMailSenderImpl.createMimeMessage( );1;0;3
+JavaMailSenderImpl.getPassword( );1;0;3
+JavaMailSenderImpl.createMimeMessage( InputStream contentStream );2;0;8
+JavaMailSenderImpl.setDefaultFileTypeMap( @ Nullable FileTypeMap defaultFileTypeMap );1;0;3
+JavaMailSenderImpl.setPort( int port );1;0;3
+JavaMailSenderImpl.getDefaultFileTypeMap( );1;0;3
+JavaMailSenderImpl.testConnection( );2;1;11
+JavaMailSenderImpl.setProtocol( @ Nullable String protocol );1;0;3
+JavaMailSenderImpl.getSession( );2;1;6
+JavaMailSenderImpl.send( SimpleMailMessage simpleMessage );1;0;3
+JavaMailSenderImpl.getPort( );1;0;3
+JavaMailSenderImpl.setSession( Session session );1;0;4
+JavaMailSenderImpl.setUsername( @ Nullable String username );1;0;3
+JavaMailSenderImpl.setPassword( @ Nullable String password );1;0;3
+JavaMailSenderImpl.setDefaultEncoding( @ Nullable String defaultEncoding );1;0;3
+JavaMailSenderImpl.getJavaMailProperties( );1;0;3
+JavaMailSenderImpl.getUsername( );1;0;3
+JavaMailSenderImpl.send( MimeMessage mimeMessage );1;0;3
+JavaMailSenderImpl.send( MimeMessagePreparator mimeMessagePreparator );1;0;3
+JavaMailSenderImpl.getDefaultEncoding( );1;0;3
+JavaMailSenderImpl.send( MimeMessagePreparator ... mimeMessagePreparators );5;0;20
+***not in a method***;0;1;0
+JavaMailSenderImpl.send( SimpleMailMessage ... simpleMessages );2;0;9
+JavaMailSenderImpl.JavaMailSenderImpl( );1;0;5
+JavaMailSenderImpl.setHost( @ Nullable String host );1;0;3
+JavaMailSenderImpl.setJavaMailProperties( Properties javaMailProperties );1;0;6
+JavaMailSenderImpl.connectTransport( );3;0;13
+JavaMailSenderImpl.doSend( MimeMessage [ ] mimeMessages , @ Nullable Object [ ] originalMessages );19;16;67
+JavaMailSenderImpl.getHost( );1;0;3
+JavaMailSenderImpl.getTransport( Session session );3;2;10
+JavaMailSenderImpl.getProtocol( );1;0;3
+JavaMailSenderImpl.send( MimeMessage ... mimeMessages );1;0;3

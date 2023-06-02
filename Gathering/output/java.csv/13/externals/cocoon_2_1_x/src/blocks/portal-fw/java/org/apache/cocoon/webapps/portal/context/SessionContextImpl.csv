@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SessionContextImpl.SessionContextImpl( String name , Map objectModel , PortalManager portal , XPathProcessor xpathProcessor );9;13;32
+SessionContextImpl.getConfigurationDOM( PortalManager portal );6;6;21
+SessionContextImpl.getSingleNode( String path );1;0;3
+SessionContextImpl.getXML( String path );34;32;83
+SessionContextImpl.setXML( String path , DocumentFragment fragment );15;13;34
+SessionContextImpl.setNode( String path , Node node );1;0;3
+SessionContextImpl.getValueOfNode( String path );1;0;3
+SessionContextImpl.getLayoutDOM( );4;3;15
+SessionContextImpl.removeXML( String path );1;0;3
+SessionContextImpl.getAttribute( String key );1;0;3
+SessionContextImpl.setAttribute( String key , Object value );2;1;7
+SessionContextImpl.streamXML( String path , ContentHandler contentHandler , LexicalHandler lexicalHandler );2;1;9
+SessionContextImpl.appendXML( String path , DocumentFragment fragment );1;0;3
+SessionContextImpl.saveXML( String path , SourceParameters parameters );1;0;3
+SessionContextImpl.setup( String value , String load , String save );1;0;3
+SessionContextImpl.setValueOfNode( String path , String value );1;0;3
+SessionContextImpl.loadXML( String path , SourceParameters parameters );1;0;3
+SessionContextImpl.getNodeList( String path );1;0;3
+SessionContextImpl.getAttribute( String key , Object defaultObject );2;1;5
+SessionContextImpl.getName( );1;0;3
+SessionContextImpl.getRequest( );1;0;3

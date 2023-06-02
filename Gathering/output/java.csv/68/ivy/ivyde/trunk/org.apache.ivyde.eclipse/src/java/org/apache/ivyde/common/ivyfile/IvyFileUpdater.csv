@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IvyFileUpdater.getDependencyToAdd( ModuleRevisionId depId , String confMapping );2;5;10
+IvyFileUpdater.findEndOfBlock( String content , int index );6;10;12
+IvyFileUpdater.findStartOfBlock( String content , int index );4;7;9
+IvyFileUpdater.getLastMatchIndex( Pattern pattern , String content , int end );3;3;12
+IvyFileUpdater.update( File ivyFile , String content , UpdateInfo info );1;0;13
+IvyFileUpdater.getDependencyToExclude( ModuleId depId );1;2;6
+IvyFileUpdater.findUpdateInfoToAddDependency( String content , ModuleRevisionId depId , String confMapping );6;5;41
+IvyFileUpdater.findUpdateInfoToRemoveDependency( String content , ModuleId depId );9;4;40
+IvyFileUpdater.addDependency( File ivyFile , ModuleRevisionId depId , String confMapping );1;0;5
+IvyFileUpdater.findLastDependencyEnd( String content , int end );1;0;7
+IvyFileUpdater.removeOrExcludeDependency( File ivyFile , ModuleId depId );2;1;7
+IvyFileUpdater.addDependency( File ivyFile , String org , String name , String revision , String confMapping );1;0;4

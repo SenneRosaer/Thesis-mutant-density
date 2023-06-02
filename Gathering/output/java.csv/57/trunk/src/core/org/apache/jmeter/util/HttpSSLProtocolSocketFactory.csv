@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpSSLProtocolSocketFactory.createSocket( String host , int port , InetAddress clientHost , int clientPort );1;0;11
+HttpSSLProtocolSocketFactory.getSupportedCipherSuites( );2;0;8
+HttpSSLProtocolSocketFactory.HttpSSLProtocolSocketFactory( JsseSSLManager sslManager , int cps );1;0;5
+HttpSSLProtocolSocketFactory.wrapSocket( Socket sock );2;1;6
+HttpSSLProtocolSocketFactory.createSocket( InetAddress address , int port , InetAddress localAddress , int localPort );1;0;6
+HttpSSLProtocolSocketFactory.getDefaultCipherSuites( );2;0;8
+HttpSSLProtocolSocketFactory.createSocket( InetAddress host , int port );1;0;6
+HttpSSLProtocolSocketFactory.createSocket( final String host , final int port , final InetAddress localAddress , final int localPort , final HttpConnectionParams params );3;2;19
+HttpSSLProtocolSocketFactory.HttpSSLProtocolSocketFactory( JsseSSLManager sslManager );1;0;5
+HttpSSLProtocolSocketFactory.join( String [ ] strings );3;3;10
+***not in a method***;0;1;0
+HttpSSLProtocolSocketFactory.setSocket( Socket socket );4;2;14
+HttpSSLProtocolSocketFactory.HttpSSLProtocolSocketFactory( );1;0;3
+HttpSSLProtocolSocketFactory.createSocket( String host , int port );1;0;9
+HttpSSLProtocolSocketFactory.createSocket( Socket socket , String host , int port , boolean autoClose );1;0;11
+HttpSSLProtocolSocketFactory.getSSLSocketFactory( );2;0;8

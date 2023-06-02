@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ComponentScanBeanDefinitionParser.configureScanner( ParserContext parserContext , Element element );5;0;26
+ComponentScanBeanDefinitionParser.registerComponents( XmlReaderContext readerContext , Set < BeanDefinitionHolder > beanDefinitions , Element element );5;0;19
+ComponentScanBeanDefinitionParser.instantiateUserDefinedStrategy( String className , Class < ? > strategyType , @ Nullable ClassLoader classLoader );4;1;18
+ComponentScanBeanDefinitionParser.parseTypeFilters( Element element , ClassPathBeanDefinitionScanner scanner , ParserContext parserContext );7;3;28
+ComponentScanBeanDefinitionParser.parse( Element element , ParserContext parserContext );1;0;10
+ComponentScanBeanDefinitionParser.createTypeFilter( Element element , @ Nullable ClassLoader classLoader , ParserContext parserContext );8;1;28
+ComponentScanBeanDefinitionParser.parseScope( Element element , ClassPathBeanDefinitionScanner scanner );7;0;27
+ComponentScanBeanDefinitionParser.parseBeanNameGenerator( Element element , ClassPathBeanDefinitionScanner scanner );2;0;8
+ComponentScanBeanDefinitionParser.createScanner( XmlReaderContext readerContext , boolean useDefaultFilters );1;0;4

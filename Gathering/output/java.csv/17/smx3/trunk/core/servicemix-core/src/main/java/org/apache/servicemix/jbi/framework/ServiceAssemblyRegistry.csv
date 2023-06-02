@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServiceAssemblyRegistry.stop( );1;0;2
+ServiceAssemblyRegistry.getComponentsForDeployedServiceAssembly( String saName );4;4;16
+ServiceAssemblyRegistry.isDeployedServiceUnit( String componentName , String suName );6;4;16
+ServiceAssemblyRegistry.getDeployedServiceAssembliesForComponent( String componentName );5;3;17
+ServiceAssemblyRegistry.ServiceAssemblyRegistry( Registry registry );1;0;3
+ServiceAssemblyRegistry.getServiceAssembly( String saName );1;0;3
+ServiceAssemblyRegistry.unregister( String name );5;4;19
+ServiceAssemblyRegistry.start( );1;0;2
+ServiceAssemblyRegistry.shutDown( );1;0;2
+ServiceAssemblyRegistry.getServiceAssemblies( );1;0;3
+ServiceAssemblyRegistry.register( ServiceAssembly sa , String [ ] suKeys , ServiceAssemblyEnvironment env );4;3;20
+ServiceAssemblyRegistry.register( ServiceAssembly sa , ServiceAssemblyEnvironment env );3;3;12
+ServiceAssemblyRegistry.getDeployedServiceAssemblies( );1;0;7

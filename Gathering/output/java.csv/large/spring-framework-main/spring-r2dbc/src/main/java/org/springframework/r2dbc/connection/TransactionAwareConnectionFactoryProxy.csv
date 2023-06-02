@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionAwareConnectionFactoryProxy.getTransactionAwareConnectionProxy( ConnectionFactory targetConnectionFactory );1;0;4
+TransactionAwareInvocationHandler.invoke( Object proxy , Method method , Object [ ] args );10;1;31
+TransactionAwareInvocationHandler.TransactionAwareInvocationHandler( Connection connection , ConnectionFactory targetConnectionFactory );1;0;4
+TransactionAwareInvocationHandler.proxyToString( @ Nullable Object proxy );1;0;3
+TransactionAwareConnectionFactoryProxy.proxyConnection( Connection connection , ConnectionFactory targetConnectionFactory );2;0;5
+TransactionAwareConnectionFactoryProxy.create( );1;0;3
+TransactionAwareConnectionFactoryProxy.TransactionAwareConnectionFactoryProxy( ConnectionFactory targetConnectionFactory );1;0;3

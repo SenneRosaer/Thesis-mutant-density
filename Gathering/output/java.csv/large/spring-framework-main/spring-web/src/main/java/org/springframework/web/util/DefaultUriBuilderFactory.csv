@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultUriBuilder.host( @ Nullable String host );1;0;4
+DefaultUriBuilder.pathSegment( String ... pathSegments );1;0;4
+DefaultUriBuilder.initUriComponentsBuilder( String uriTemplate );6;4;19
+DefaultUriBuilder.port( int port );1;0;4
+DefaultUriBuilderFactory.expand( String uriTemplate , Map < String , ? > uriVars );1;0;3
+DefaultUriBuilder.build( Object ... uriVars );4;2;10
+DefaultUriBuilder.createUri( UriComponents uric );2;0;6
+DefaultUriBuilder.queryParamIfPresent( String name , Optional < ? > value );1;0;4
+DefaultUriBuilderFactory.setDefaultUriVariables( @ Nullable Map < String , ? > defaultUriVariables );2;1;6
+DefaultUriBuilderFactory.shouldParsePath( );1;0;3
+DefaultUriBuilder.replacePath( @ Nullable String path );1;0;4
+DefaultUriBuilder.queryParam( String name , @ Nullable Collection < ? > values );1;0;4
+DefaultUriBuilderFactory.setParsePath( boolean parsePath );1;0;3
+DefaultUriBuilder.DefaultUriBuilder( String uriTemplate );1;0;3
+DefaultUriBuilderFactory.getDefaultUriVariables( );1;0;3
+DefaultUriBuilderFactory.setEncodingMode( EncodingMode encodingMode );1;0;3
+DefaultUriBuilder.replaceQuery( @ Nullable String query );1;0;4
+DefaultUriBuilderFactory.builder( );1;0;3
+DefaultUriBuilder.replaceQueryParams( MultiValueMap < String , String > params );1;0;4
+DefaultUriBuilder.queryParams( MultiValueMap < String , String > params );1;0;4
+DefaultUriBuilder.scheme( @ Nullable String scheme );1;0;4
+DefaultUriBuilderFactory.uriString( String uriTemplate );1;0;3
+DefaultUriBuilder.replaceQueryParam( String name , Object ... values );1;0;4
+DefaultUriBuilderFactory.getEncodingMode( );1;0;3
+DefaultUriBuilderFactory.DefaultUriBuilderFactory( String baseUriTemplate );1;0;3
+DefaultUriBuilder.replaceQueryParam( String name , @ Nullable Collection < ? > values );1;0;4
+DefaultUriBuilder.port( @ Nullable String port );1;0;4
+DefaultUriBuilderFactory.expand( String uriTemplate , Object ... uriVars );1;0;3
+DefaultUriBuilder.parsePathIfNecessary( UriComponentsBuilder result );6;3;13
+DefaultUriBuilder.queryParam( String name , Object ... values );1;0;4
+DefaultUriBuilder.query( String query );1;0;4
+DefaultUriBuilderFactory.DefaultUriBuilderFactory( UriComponentsBuilder baseUri );1;0;3
+DefaultUriBuilder.fragment( @ Nullable String fragment );1;0;4
+DefaultUriBuilderFactory.DefaultUriBuilderFactory( );1;0;3
+DefaultUriBuilder.path( String path );1;0;4
+DefaultUriBuilder.build( Map < String , ? > uriVars );3;1;13
+DefaultUriBuilder.userInfo( @ Nullable String userInfo );1;0;4

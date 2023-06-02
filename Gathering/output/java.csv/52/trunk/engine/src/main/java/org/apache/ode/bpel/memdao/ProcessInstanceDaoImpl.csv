@@ -1,0 +1,53 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProcessInstanceDaoImpl.insertBpelEvent( ProcessInstanceEvent event );1;0;3
+ProcessInstanceDaoImpl.finishCompletion( );1;0;4
+ProcessInstanceDaoImpl.ProcessInstanceDaoImpl( BpelDAOConnection conn , ProcessDaoImpl processDao , CorrelatorDAO correlator );1;0;8
+ProcessInstanceDaoImpl.getScopes( );1;0;3
+ActivityRecoveryDAOImpl.getActions( );1;0;3
+ProcessInstanceDaoImpl.getPreviousState( );1;0;3
+ProcessInstanceDaoImpl.getScope( Long scopeInstanceId );1;0;3
+ProcessInstanceDaoImpl.setFault( FaultDAO fault );1;0;3
+ProcessInstanceDaoImpl.getActivityFailureDateTime( );1;0;3
+ProcessInstanceDaoImpl.getEvents( int idx , int count );1;2;6
+ProcessInstanceDaoImpl.getExecutionStateCounter( );1;0;3
+ProcessInstanceDaoImpl.getMessageExchange( String identifier );1;1;5
+ProcessInstanceDaoImpl.getScopes( String scopeName );2;1;4
+ProcessInstanceDaoImpl.setLastActiveTime( Date dt );1;0;3
+ProcessInstanceDaoImpl.getActivityFailureCount( );1;0;3
+ActivityRecoveryDAOImpl.getActionsList( );1;0;3
+ProcessInstanceDaoImpl.addMessageExchange( String identifier , byte [ ] data );1;1;4
+ActivityRecoveryDAOImpl.getActivityId( );1;0;3
+ActivityRecoveryDAOImpl.getReason( );1;0;3
+ProcessInstanceDaoImpl.toString( );1;0;3
+ProcessInstanceDaoImpl.getInstantiatingCorrelator( );1;0;3
+ProcessInstanceDaoImpl.getEventCount( );1;0;3
+ProcessInstanceDaoImpl.getProcess( );1;0;3
+ProcessInstanceDaoImpl.getRootScope( );1;0;3
+ProcessInstanceDaoImpl.createActivityRecovery( String channel , long activityId , String reason , Date dateTime , Element data , String [ ] actions , int retries );1;0;6
+ProcessInstanceDaoImpl.getSoup( );1;0;3
+ProcessInstanceDaoImpl.setFault( QName name , String explanation , int lineNo , int activityId , Element faultData );1;0;3
+ProcessInstanceDaoImpl.setExecutionStateCounter( int stateCounter );1;0;3
+ProcessInstanceDaoImpl.delete( );1;0;3
+ProcessInstanceDaoImpl.getFault( );1;0;3
+ProcessInstanceDaoImpl.setExecutionState( byte [ ] bytes );1;0;3
+ProcessInstanceDaoImpl.genMonotonic( );1;1;3
+ProcessInstanceDaoImpl.deleteActivityRecovery( String channel );1;0;4
+ProcessInstanceDaoImpl.getEventsFirstLastCount( );4;0;15
+ProcessInstanceDaoImpl.getVariables( String variableName , int scopeModelId );4;2;11
+ProcessInstanceDaoImpl.getConnection( );1;0;3
+ActivityRecoveryDAOImpl.ActivityRecoveryDAOImpl( String channel , long activityId , String reason , Date dateTime , Element details , String [ ] actions , int retries );2;3;11
+ProcessInstanceDaoImpl.removeRoutes( String routeGroupId );2;0;4
+ProcessInstanceDaoImpl.getActivityRecoveries( );1;0;3
+ProcessInstanceDaoImpl.getCorrelationSet( String name );3;1;7
+ActivityRecoveryDAOImpl.getDateTime( );1;0;3
+ProcessInstanceDaoImpl.setSoup( Object soup );1;0;3
+ProcessInstanceDaoImpl.getCorrelationSets( );2;0;7
+ProcessInstanceDaoImpl.setState( short state );3;1;9
+ProcessInstanceDaoImpl.getExecutionState( );1;0;3
+ActivityRecoveryDAOImpl.getDetails( );1;0;3
+ProcessInstanceDaoImpl.createScope( ScopeDAO parentScope , String scopeType , int scopeModelId );3;3;15
+ActivityRecoveryDAOImpl.getRetries( );1;0;3
+ProcessInstanceDaoImpl.getInstanceId( );1;0;3
+ProcessInstanceDaoImpl.getState( );1;0;3
+ProcessInstanceDaoImpl.getLastActiveTime( );1;0;3
+ActivityRecoveryDAOImpl.getChannel( );1;0;3

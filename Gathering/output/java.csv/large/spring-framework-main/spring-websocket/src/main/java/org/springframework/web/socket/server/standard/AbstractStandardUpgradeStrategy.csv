@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractStandardUpgradeStrategy.upgrade( ServerHttpRequest request , ServerHttpResponse response , @ Nullable String selectedProtocol , List < WebSocketExtension > selectedExtensions , @ Nullable Principal user , WebSocketHandler wsHandler , Map < String , Object > attrs );4;0;22
+AbstractStandardUpgradeStrategy.getHttpServletRequest( ServerHttpRequest request );1;0;4
+AbstractStandardUpgradeStrategy.getSupportedExtensions( ServerHttpRequest request );2;1;9
+AbstractStandardUpgradeStrategy.getHttpServletResponse( ServerHttpResponse response );1;0;4
+AbstractStandardUpgradeStrategy.getContainer( HttpServletRequest request );1;0;8
+AbstractStandardUpgradeStrategy.getInstalledExtensions( WebSocketContainer container );2;0;7

@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChildAxisScorer.indexIsValid( int i );16;21;56
+ChildAxisScorer.collect( int doc , float score );1;2;3
+ChildAxisWeight.getValue( );1;0;3
+ChildAxisQuery.extractTerms( Set terms );1;0;3
+ChildAxisQuery.createWeight( Searcher searcher );1;0;3
+ChildAxisQuery.getPosition( );1;0;3
+***not in a method***;0;1;0
+ChildAxisScorer.skipTo( int target );3;6;8
+ChildAxisQuery.matchesAnyChildNode( );2;3;3
+ChildAxisWeight.getQuery( );1;0;3
+SimpleChildrenCalculator.SimpleChildrenCalculator( IndexReader reader , HierarchyResolver hResolver );1;0;3
+ChildAxisQuery.ChildAxisQuery( ItemStateManager itemMgr , Query context , Name nameTest , IndexFormatVersion version , NamespaceMappings nsMappings );1;0;3
+ChildAxisQuery.execute( JackrabbitIndexSearcher searcher , SessionImpl session , Sort sort );3;2;8
+ChildAxisQuery.getContextQuery( );1;0;3
+ChildAxisScorer.score( );1;0;3
+SimpleChildrenCalculator.collectContextHit( int doc );1;0;3
+ChildAxisWeight.explain( IndexReader reader , int doc );1;0;3
+ChildAxisWeight.normalize( float norm );1;0;2
+HierarchyResolvingChildrenCalculator.collectContextHit( int doc );1;0;3
+ChildAxisQuery.rewrite( IndexReader reader );6;4;24
+HierarchyResolvingChildrenCalculator.HierarchyResolvingChildrenCalculator( IndexReader reader , HierarchyResolver hResolver );1;0;3
+ChildAxisQuery.toString( String field );2;1;13
+ChildAxisWeight.ChildAxisWeight( Searcher searcher );1;0;3
+ChildAxisScorer.ChildAxisScorer( Similarity similarity , IndexReader reader , HierarchyResolver hResolver );1;0;5
+ChildAxisScorer.doc( );1;0;3
+ChildAxisScorer.calculateChildren( );6;2;33
+ChildAxisScorer.next( );3;6;7
+HierarchyResolvingChildrenCalculator.getHits( );3;3;13
+ChildAxisQuery.getNameTest( );1;0;3
+ChildAxisWeight.scorer( IndexReader reader );2;1;8
+SimpleChildrenCalculator.getHits( );7;4;38
+ChildrenCalculator.ChildrenCalculator( IndexReader reader , HierarchyResolver hResolver );1;0;4
+ChildAxisQuery.ChildAxisQuery( ItemStateManager itemMgr , Query context , Name nameTest , int position , IndexFormatVersion version , NamespaceMappings nsMapping );1;0;8
+ChildAxisWeight.sumOfSquaredWeights( );1;0;3
+ChildAxisScorer.explain( int doc );1;0;3

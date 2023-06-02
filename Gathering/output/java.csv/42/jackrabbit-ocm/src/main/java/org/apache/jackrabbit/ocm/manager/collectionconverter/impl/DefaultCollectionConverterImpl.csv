@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultCollectionConverterImpl.updateManagableCollection( Session session , Node parentNode , CollectionDescriptor collectionDescriptor , ManageableObjects objects , String jcrName );19;11;76
+DefaultCollectionConverterImpl.insertManageableCollection( Session session , ManageableObjects objects , Node collectionNode , ClassDescriptor elementClassDescriptor , CollectionDescriptor collectionDescriptor );4;1;19
+DefaultCollectionConverterImpl.doGetCollection( Session session , Node parentNode , CollectionDescriptor collectionDescriptor , Class collectionFieldClass );5;3;19
+DefaultCollectionConverterImpl.updateManagableMap( Session session , Node parentNode , CollectionDescriptor collectionDescriptor , ManageableObjects objects , String jcrName );6;3;28
+DefaultCollectionConverterImpl.doIsNull( Session session , Node parentNode , CollectionDescriptor collectionDescriptor , Class collectionFieldClass );3;3;7
+DefaultCollectionConverterImpl.doUpdateCollection( Session session , Node parentNode , CollectionDescriptor collectionDescriptor , ManageableObjects objects );5;2;21
+DefaultCollectionConverterImpl.insertManageableMap( Session session , ManageableObjects objects , Node collectionNode );2;0;8
+DefaultCollectionConverterImpl.doInsertCollection( Session session , Node parentNode , CollectionDescriptor collectionDescriptor , ManageableObjects objects );4;2;17
+DefaultCollectionConverterImpl.DefaultCollectionConverterImpl( Map atomicTypeConverters , ObjectConverter objectConverter , Mapper mapper );1;0;3

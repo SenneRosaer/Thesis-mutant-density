@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PSFontUtils.getTypeFace( FontInfo fontInfo , Map fonts , String key );3;1;11
+PSFontUtils.reencodeFonts( PSGenerator gen , Map fonts );9;3;27
+PSFontUtils.determineSuppliedFonts( ResourceTracker resTracker , FontInfo fontInfo , Map fonts );7;5;31
+PSFontUtils.isEmbeddable( CustomFont font );1;0;3
+PSFontUtils.writeFontDict( PSGenerator gen , FontInfo fontInfo , Map fonts );4;5;26
+PSFontUtils.writeFontDict( PSGenerator gen , FontInfo fontInfo );1;0;3
+PSFontUtils.defineDerivedFont( PSGenerator gen , String baseFontName , String fontName , String encoding );1;0;16
+PSFontUtils.embedFont( PSGenerator gen , Typeface tf , PSResource fontRes );6;3;26
+PSFontUtils.defineEncoding( PSGenerator gen , SingleByteEncoding encoding );7;8;29
+PSFontUtils.getInputStreamOnFont( PSGenerator gen , CustomFont font );11;9;34

@@ -1,0 +1,314 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Cursor.isText( );2;0;7
+Cursor.newInputStream( );2;0;17
+Cursor.twoLocaleOp( Cursor other , int op , int arg );11;0;25
+Cursor.twoLocaleOp( XmlCursor xOther , int op , int arg );8;1;44
+Cursor._toNextSibling( QName name );3;0;11
+Cursor.newXMLStreamReader( );2;0;17
+Cursor.moveChars( int cch , XmlCursor xTo );1;0;3
+Cursor.getNextChangeListener( );1;0;3
+Cursor.insertElement( String localName , String uri );2;0;17
+Cursor._monitor( );1;0;3
+Cursor.toNextToken( );2;0;17
+Cursor._insertAttribute( QName name );1;0;3
+Cursor.toChild( QName name );2;0;17
+Cursor.isStart( );2;0;7
+Cursor._moveXmlContents( Cursor to );4;3;11
+Cursor._save( File file );1;0;3
+Cursor.getBookmark( Object key , Cur c );4;3;6
+Cursor._newDomNode( XmlOptions options );2;0;7
+DomSaver.emitProcinst( SaveCur c );1;0;6
+Cursor.dispose( );3;1;20
+Cursor._toBookmark( XmlBookmark bookmark );5;6;9
+Cursor.getAttributeText( QName attrName );2;0;17
+Cursor.selectPath( String path , XmlOptions options );2;0;17
+DomSaver.emitEndDoc( SaveCur c );1;0;2
+Cursor._comparePosition( Cursor other );3;5;7
+Cursor.moveXml( XmlCursor xTo );1;1;3
+Cursor.getName( );2;0;17
+Cursor.isStartdoc( );2;0;7
+Cursor._removeAttribute( QName attrName );3;2;7
+Cursor._prevTokenType( );1;0;6
+Cursor.setTextValue( String text );2;0;17
+Cursor.checkCursors( XmlCursor xOther );4;3;11
+Cursor._getDocChangeStamp( );1;0;3
+Cursor._setBookmark( XmlBookmark bookmark );3;2;7
+Cursor.insertElementWithText( String localName , String uri , String text );2;0;17
+Cursor.addToSelection( );2;0;17
+Cursor._isEnd( );1;0;4
+Cursor.validateLocalName( QName name );2;1;5
+Cursor.toSelection( int i );2;0;17
+Cursor.toStartDoc( );2;0;7
+Cursor.insertComment( String text );2;0;17
+Cursor.removeXmlContents( );2;0;17
+Cursor.save( Writer w , XmlOptions options );2;0;17
+Cursor._insertProcInst( String target , String text );3;2;9
+Cursor.insertChars( String text );2;0;17
+Cursor.prevTokenType( );2;0;17
+Cursor.dump( );2;0;17
+Cursor.toChild( QName name , int index );2;0;17
+Cursor._newXMLStreamReader( );1;0;3
+Cursor._addToSelection( );1;0;4
+Cursor.documentProperties( );2;0;17
+Cursor.insertAttribute( String localName , String uri );2;0;17
+Cursor.insertElement( String localName );2;0;17
+Cursor.insertNode( Cur that , String text );3;4;15
+Cursor.isAnyAttr( );2;0;7
+DomSaver.emitTextValue( SaveCur c );2;0;10
+Cursor._newInputStream( XmlOptions options );1;0;3
+Cursor._isComment( );1;0;4
+Cursor._isFinish( );1;0;4
+Cursor.toNextBookmark( Object key );2;0;17
+ChangeStampImpl.hasChanged( );1;1;3
+Cursor.getDocChangeStamp( );2;0;17
+Cursor.isRightOf( XmlCursor xOther );2;0;18
+Cursor._getSelectionCount( );1;0;4
+ChangeStampImpl.ChangeStampImpl( Locale l );1;0;4
+Cursor.newXMLInputStream( XmlOptions options );2;0;17
+Cursor._insertElementWithText( QName name , String text );1;0;7
+Cursor.toEndToken( );2;0;17
+Cursor.xmlText( XmlOptions options );2;0;17
+Cursor._insertElement( String localName , String uri );1;0;3
+Cursor.save( OutputStream os );2;0;17
+Cursor.Cursor( Xobj x , int p );1;1;5
+Cursor.toChild( String namespace , String name );2;0;17
+Cursor._toPrevSibling( );1;0;3
+DomSaver.saveDom( );4;2;19
+Cursor.newXMLInputStream( );2;0;17
+Cursor._toNextSibling( String uri , String local );1;0;4
+Cursor.preCheck( );1;0;4
+Cursor._insertAttributeWithValue( String localName , String uri , String value );1;0;4
+Cursor._toNextSelection( );1;1;3
+Cursor.dump( PrintStream o );1;0;3
+Cursor.insertProcInst( String target , String text );2;0;17
+Cursor._xmlText( );1;0;3
+Cursor.namespaceForPrefix( String prefix );2;0;17
+Cursor._isRightOf( Cursor other );1;1;3
+Cursor.toParent( );2;0;17
+Cursor.comparePosition( XmlCursor xOther );2;0;18
+Cursor.setTextValue( Object src , int off , int cch );2;1;9
+Cursor._insertAttribute( String localName );1;0;3
+Cursor.setBookmark( XmlBookmark bookmark );2;0;17
+Cursor._setTextValue( char [ ] sourceChars , int offset , int length );7;9;16
+Cursor.insertElement( QName name );2;0;17
+Cursor.copyXml( XmlCursor xTo );1;1;3
+Cursor.setNextChangeListener( ChangeListener listener );1;0;3
+Cursor.validatePrefix( String name );5;3;10
+Cursor.newXMLStreamReader( XmlOptions options );2;0;17
+Cursor.toPrevChar( int cch );2;0;17
+Cursor._newXMLInputStream( );1;0;3
+Cursor.toNextChar( int cch );2;0;17
+Cursor._save( ContentHandler ch , LexicalHandler lh );1;0;3
+Cursor._namespaceForPrefix( String prefix );2;1;5
+Cursor.beginElement( QName name );2;0;17
+Cursor._insertAttributeWithValue( String localName , String value );1;0;3
+Cursor.validateLocalName( String name );4;3;8
+Cursor._beginElement( QName name );1;0;4
+DomSaver.emitElement( SaveCur c , ArrayList attrNames , ArrayList attrValues );4;2;22
+Cursor.beginElement( String localName );2;0;17
+Cursor.insertElementWithText( QName name , String text );2;0;17
+Cursor.toFirstChild( );2;0;7
+Cursor.getTextValue( );2;0;17
+Cursor.toPrevToken( );2;0;17
+Cursor._insertNamespace( String prefix , String namespace );1;0;3
+Cursor._clearBookmark( Object key );2;1;4
+Cursor.___toNextSibling( );3;2;16
+Cursor.insertNamespace( String prefix , String namespace );2;0;17
+Cursor.toPrevAttribute( );2;0;17
+Cursor._copyXml( Cursor to );3;2;12
+DomSaver.emitStartDoc( SaveCur c );1;0;3
+Cursor.insertAttribute( String localName );2;0;17
+Cursor._toPrevAttribute( );2;1;3
+Cursor._dump( );1;0;3
+Cursor._selectPath( String path );1;0;3
+Cursor._save( File file , XmlOptions options );2;1;10
+Cursor.checkContentInsertionValidity( Cursor to );3;0;16
+Cursor.toLastChild( );2;0;17
+Cursor._toChild( int index );1;0;3
+Cursor.save( ContentHandler ch , LexicalHandler lh );2;0;17
+Cursor._toNextToken( );9;3;33
+Cursor._moveChars( int cch , Cursor to );5;6;11
+Cursor._isContainer( );1;0;4
+DomSaver.ensureDoc( );3;1;9
+Cursor.toCursor( XmlCursor xOther );3;1;22
+Cursor.isEnd( );2;0;7
+DomSaver.getQualifiedName( SaveCur c , QName name );3;1;7
+Cursor._toStartDoc( );1;0;3
+Cursor.removeChars( int cch );2;0;17
+Cursor.monitor( );2;0;17
+Cursor._hasPrevToken( );1;1;3
+Cursor.getObject( );2;0;17
+Cursor.isAtSamePositionAs( XmlCursor xOther );2;0;18
+Cursor.toChild( String name );2;0;17
+Cursor._pop( );1;0;3
+Cursor.xmlText( );2;0;17
+Cursor._toChild( QName name );1;0;3
+DomSaver.DomSaver( Cur c , boolean isFrag , XmlOptions options );2;0;8
+Cursor.toEndDoc( );2;0;7
+Cursor.toNextSibling( String namespace , String name );2;0;17
+Cursor.locale( );1;0;3
+Cursor._moveXml( Cursor to );4;1;19
+Cursor.execQuery( String query , XmlOptions options );2;0;17
+Cursor.complain( String msg );1;0;3
+Cursor._isAtSamePositionAs( Cursor other );1;0;3
+Cursor._toFirstAttribute( );2;1;3
+Cursor._getTextValue( );4;1;8
+Cursor.isInSameDocument( XmlCursor xOther );2;1;3
+Cursor.newReader( );2;0;17
+Cursor._execQuery( String query );1;0;3
+Cursor.isDomFragment( );15;3;41
+Cursor.newCursor( );2;0;17
+Cursor._getAllBookmarkRefs( Collection listToFill );4;2;7
+Cursor.selectPath( String path );2;0;17
+Cursor._copyChars( int cch , Cursor to );5;6;11
+Cursor.hasNextToken( );2;0;7
+Cursor.getBookmark( Object key );2;0;17
+Cursor._newXMLInputStream( XmlOptions options );1;0;3
+Cursor.toPrevBookmark( Object key );2;0;17
+Cursor._toEndToken( );2;1;6
+Cursor._isEnddoc( );1;0;4
+Cursor._getChars( char [ ] buf , int off , int cch );6;9;12
+Cursor.getChars( char [ ] chars , int offset , int cch );2;0;17
+Cursor._insertChars( String text );5;3;11
+Cursor._prefixForNamespace( String ns );3;3;5
+Cursor.clearSelections( );2;0;17
+Cursor._toChild( String uri , String local );1;0;4
+Cursor.hasPrevToken( );2;0;17
+Cursor.insertAttributeWithValue( String name , String uri , String value );2;0;17
+Cursor.copyXmlContents( XmlCursor xTo );1;1;3
+Cursor._insertElement( String localName );1;0;3
+Cursor.toNextSibling( String name );2;0;17
+Cursor.toChild( int index );2;0;17
+Cursor._toParent( );2;1;8
+Cursor._toNextAttribute( );2;1;3
+Cursor._isStartdoc( );1;0;4
+Cursor._save( OutputStream os , XmlOptions options );4;2;16
+Cursor.insertAttributeWithValue( String Name , String value );2;0;17
+Cursor.toFirstContentToken( );2;0;17
+Cursor._getBookmark( Object key );2;1;3
+Cursor._isProcinst( );1;0;4
+Cursor._newInputStream( );1;0;3
+Cursor.newDomNode( );2;0;17
+Cursor._insertElementWithText( String localName , String uri , String text );1;0;4
+Cursor._newCursor( );1;0;3
+Cursor.insertAttributeWithValue( QName name , String value );2;0;17
+Cursor.execQuery( String query );2;0;17
+Cursor._isLeftOf( Cursor other );1;1;3
+Cursor._toLastChild( );1;0;3
+Cursor._toCursor( Cursor other );1;1;5
+Cursor.newCursor( Xobj x , int p );2;0;18
+Cursor.toNextSibling( QName name );2;0;17
+Cursor.isFinish( );2;0;7
+Cursor._save( Writer w , XmlOptions options );6;4;21
+Cursor.toBookmark( XmlBookmark bookmark );2;0;17
+Cursor._removeXmlContents( );2;1;6
+Cursor.notifyChange( );2;1;4
+Cursor._insertAttributeWithValue( QName name , String text );1;0;7
+Cursor.isValid( );1;0;3
+Cursor.copyChars( int cch , XmlCursor xTo );1;0;3
+Cursor._toNextSibling( String name );1;0;3
+Cursor.beginElement( String localName , String uri );2;0;17
+Cursor._toLastAttribute( );5;0;21
+Cursor._save( ContentHandler ch , LexicalHandler lh , XmlOptions options );1;0;3
+Cursor.setName( QName name );2;0;17
+Cursor.push( );2;0;17
+Cursor._setAttributeText( QName attrName , String value );3;2;9
+Cursor._getObject( );1;0;3
+Cursor.tempCur( );1;0;3
+Cursor._hasNextToken( );2;3;3
+Cursor.currentTokenType( );2;0;7
+Cursor._setName( QName name );7;3;25
+Cursor.pop( );2;0;17
+Cursor._documentProperties( );1;0;3
+Cursor.clearBookmark( Object key );2;0;17
+Cursor._insertAttribute( String localName , String uri );1;0;3
+Cursor.getAllNamespaces( Map addToThis );2;0;17
+Cursor.isContainer( );2;0;7
+Cursor._push( );1;0;3
+DomSaver.emitText( SaveCur c );2;1;8
+Cursor.insertElementWithText( String localName , String text );2;0;17
+Cursor.removeAttribute( QName attrName );2;0;17
+Cursor._toChild( String local );1;0;3
+Cursor.toLastAttribute( );2;0;17
+Cursor.hasNextSelection( );2;0;17
+Cursor._toPrevChar( int maxCharacterCount );1;0;3
+Cursor._save( Writer w );1;0;3
+Cursor.isValid( Cur c );6;6;12
+Cursor.prefixForNamespace( String namespaceURI );2;0;17
+Cursor.save( File file , XmlOptions options );2;0;17
+Cursor.save( ContentHandler ch , LexicalHandler lh , XmlOptions options );2;0;17
+Cursor._getDomNode( );1;0;3
+Cursor._insertElement( QName name );1;0;3
+Cursor._copyXmlContents( Cursor to );4;3;14
+Cursor._newXMLStreamReader( XmlOptions options );1;0;3
+Cursor._toChild( QName name , int index );1;0;3
+Cursor._newReader( XmlOptions options );1;0;3
+Cursor.save( Writer w );2;0;17
+DomSaver.emitFinish( SaveCur c );2;1;6
+Cursor.toFirstAttribute( );2;0;7
+Cursor._beginElement( String localName );1;0;4
+Cursor._getChars( );1;1;3
+Cursor._currentTokenType( );10;2;23
+Cursor._clearSelections( );2;2;8
+DomSaver.emitDocType( String docTypeName , String publicId , String systemId );1;0;7
+Cursor._toSelection( int i );5;4;15
+Cursor._hasNextSelection( );1;0;10
+Cursor.checkThisCursor( );2;1;4
+Cursor.getChars( );2;0;17
+Cursor._insertElementWithText( String localName , String text );1;0;3
+Cursor.toNextAttribute( );2;0;17
+Cursor._selectPath( String pathExpr , XmlOptions options );1;1;6
+Cursor.getAllBookmarkRefs( Collection listToFill );2;0;17
+Cursor.preCheck( XmlCursor xOther );2;1;6
+Cursor._removeXml( );5;2;12
+Cursor._getAttributeText( QName attrName );3;2;7
+Cursor._isAttr( );1;0;4
+DomSaver.emitComment( SaveCur c );1;0;6
+Cursor._newReader( );1;0;3
+Cursor._toFirstChild( );1;0;3
+Cursor.toPrevSibling( );2;0;17
+Cursor._getTextValue( char [ ] chars , int offset , int max );11;10;26
+Cursor.getTextValue( char [ ] chars , int offset , int cch );2;0;17
+Cursor.checkInsertionValidity( Cur that );10;13;21
+Cursor.moveXmlContents( XmlCursor xTo );1;1;3
+Cursor.getSelectionCount( );2;0;17
+Cursor._removeChars( int cch );5;6;9
+Cursor.isNamespace( );2;0;7
+Cursor.toNextSelection( );2;0;17
+Cursor.isProcinst( );2;0;7
+Cursor._isText( );1;0;4
+Cursor._dispose( );1;0;4
+Cursor._setTextValue( String text );2;1;5
+Cursor._getName( );5;0;13
+Cursor._xmlText( XmlOptions options );1;0;4
+Cursor.Cursor( Cur c );1;0;3
+Cursor.toNextSibling( );2;0;7
+Cursor.setAttributeText( QName attrName , String value );2;0;17
+Cursor._getAllNamespaces( Map addToThis );3;2;6
+Cursor._toNextBookmark( Object key );8;8;24
+Cursor._toNextChar( int maxCharacterCount );1;0;3
+Cursor.getDomNode( );2;0;17
+Cursor._save( OutputStream os );1;0;3
+Cursor._beginElement( String localName , String uri );1;0;4
+Cursor._toEndDoc( );1;0;4
+Cursor._isAnyAttr( );1;0;4
+Cursor.setTextValue( char [ ] sourceChars , int offset , int length );2;0;17
+Cursor.isLeftOf( XmlCursor xOther );2;0;18
+Cursor._insertComment( String text );1;0;6
+Cursor._toPrevBookmark( Object key );9;8;26
+Cursor.newReader( XmlOptions options );2;0;17
+Cursor.newDomNode( XmlOptions options );2;0;17
+Cursor._newDomNode( );1;0;3
+Cursor.removeXml( );2;0;17
+Cursor.newInputStream( XmlOptions options );2;0;17
+Cursor._toFirstContentToken( );2;1;6
+Cursor._toPrevToken( );11;13;19
+Cursor._execQuery( String query , XmlOptions options );1;0;4
+Cursor.isAttr( );2;0;7
+Cursor.isEnddoc( );2;0;7
+Cursor._isNamespace( );1;0;4
+Cursor.save( File file );2;0;17
+Cursor._isStart( );1;0;4
+Cursor.insertAttribute( QName name );2;0;17
+Cursor.save( OutputStream os , XmlOptions options );2;0;17
+Cursor.isComment( );2;0;7

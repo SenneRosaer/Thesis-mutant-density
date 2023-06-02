@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConnectionHolder.supportsSavepoints( );2;1;6
+ConnectionHolder.released( );4;4;9
+ConnectionHolder.ConnectionHolder( Connection connection , boolean transactionActive );1;0;4
+ConnectionHolder.ConnectionHolder( ConnectionHandle connectionHandle );1;0;4
+ConnectionHolder.getConnection( );2;2;7
+ConnectionHolder.getConnectionHandle( );1;0;3
+ConnectionHolder.createSavepoint( );1;2;4
+ConnectionHolder.setConnection( @ Nullable Connection connection );4;3;14
+ConnectionHolder.isTransactionActive( );1;0;3
+ConnectionHolder.setTransactionActive( boolean transactionActive );1;0;3
+ConnectionHolder.hasConnection( );1;1;3
+ConnectionHolder.clear( );1;0;6
+ConnectionHolder.ConnectionHolder( Connection connection );1;0;3

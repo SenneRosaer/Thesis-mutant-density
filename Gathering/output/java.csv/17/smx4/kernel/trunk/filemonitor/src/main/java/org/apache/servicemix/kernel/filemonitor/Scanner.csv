@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Scanner.scanFiles( );5;3;14
+Scanner.reportChange( String filename );5;0;17
+Scanner.getScanDirs( );1;0;3
+Scanner.removeListener( Listener listener );2;1;6
+Scanner.reportDifferences( Map < String , Long > currentScan , Map < String , Long > oldScan );7;4;34
+Scanner.scanFile( File f , Map < String , Long > scanInfoMap );9;7;23
+Scanner.getFilenameFilter( );1;0;3
+Scanner.run( );1;0;3
+Scanner.setReportExistingFilesOnStartup( boolean reportExisting );1;0;3
+Scanner.setScanInterval( long scanInterval );2;0;10
+Scanner.stop( );2;0;9
+Scanner.start( );3;0;15
+Scanner.getScanInterval( );1;0;3
+Scanner.addListener( Listener listener );2;1;6
+Scanner.Scanner( );1;0;2
+Scanner.newTimer( );1;0;3
+Scanner.schedule( Timer timer , TimerTask task );4;3;11
+Scanner.scan( );1;0;5
+Scanner.reportAddition( String filename );5;0;17
+Scanner.setScanDir( File dir );1;0;4
+Scanner.setScanDirs( List < File > dirs );1;0;3
+Scanner.newTimerTask( );1;0;7
+Scanner.getScanDir( );2;1;3
+Scanner.setFilenameFilter( FilenameFilter filter );1;0;3
+Scanner.reportRemoval( String filename );5;0;17
+Scanner.reportBulkChanges( List < String > filenames );5;0;17

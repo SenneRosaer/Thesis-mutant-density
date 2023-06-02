@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCRStoreBean.setProperty( Node node , String name , String value );2;1;5
+JCRStoreBean.getOrAddNode( Node parent , String name , String type );2;0;7
+JCRStoreBean.setProperty( Node node , String name , String [ ] values );3;3;5
+JCRStoreBean.createNode( Node parent , String name , String type );2;2;8
+JCRStoreBean.getMessageName( Message message );3;2;12
+JCRStoreBean.setProperty( Node node , String name , Date value );2;1;7
+JCRStoreBean.setParentNode( Node parent );1;0;3
+JCRStoreBean.setProperty( Node node , String name , Address [ ] values );4;5;9
+JCRStoreBean.storeMessage( Message message );2;0;13
+JCRStoreBean.importEntity( Part entity , Node parent );7;3;48
+JCRStoreBean.setProperty( Node node , String name , Address value );2;1;5
+JCRStoreBean.getContentType( Part entity );3;1;15
+JCRStoreBean.format( String format , Date date );1;0;3

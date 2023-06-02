@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UnitOfWorkImpl.createLock( Lockable lockable , int version );2;0;9
+UnitOfWorkImpl.registerNew( Transactionable object );1;0;3
+UnitOfWorkImpl.registerRemoved( Transactionable object );1;0;3
+UnitOfWorkImpl.registerDirty( Transactionable object );1;0;3
+UnitOfWorkImpl.removeLock( Lockable lockable );2;1;6
+UnitOfWorkImpl.getIdentity( );1;0;3
+UnitOfWorkImpl.resetTransaction( );1;0;5
+UnitOfWorkImpl.UnitOfWorkImpl( IdentityMap map , Identity identity , Logger logger );1;0;7
+UnitOfWorkImpl.isDirty( Transactionable transactionable );3;2;5
+UnitOfWorkImpl.getIdentityMap( );1;0;3
+UnitOfWorkImpl.commit( );15;5;54
+UnitOfWorkImpl.rollback( );7;3;20

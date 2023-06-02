@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AggregatesSpliterator.trySplit( );1;0;3
+AggregatesSpliterator.tryAdvance( Consumer < ? super MergedAnnotation < A > > action );3;2;11
+MergedAnnotationFinder.updateLastResult( MergedAnnotation < A > candidate );2;1;4
+AggregatesCollector.doWithAnnotations( Object criteria , int aggregateIndex , @ Nullable Object source , Annotation [ ] annotations );1;0;4
+MergedAnnotationFinder.doWithAnnotations( Object type , int aggregateIndex , @ Nullable Object source , Annotation [ ] annotations );5;4;11
+TypeMappedAnnotations.get( String annotationType , @ Nullable Predicate < ? super MergedAnnotation < A > > predicate );1;0;3
+TypeMappedAnnotations.iterator( );2;1;6
+TypeMappedAnnotations.isPresent( Class < A > annotationType );2;0;7
+MergedAnnotationFinder.finish( @ Nullable MergedAnnotation < A > result );2;1;3
+AggregatesSpliterator.estimateSize( );5;9;16
+TypeMappedAnnotations.stream( Class < A > annotationType );2;1;6
+TypeMappedAnnotations.get( Class < A > annotationType , @ Nullable Predicate < ? super MergedAnnotation < A > > predicate );1;0;3
+IsPresent.get( RepeatableContainers repeatableContainers , AnnotationFilter annotationFilter , boolean directOnly );6;3;11
+TypeMappedAnnotations.from( @ Nullable Object source , Annotation [ ] annotations , RepeatableContainers repeatableContainers , AnnotationFilter annotationFilter );2;1;6
+AggregatesCollector.finish( @ Nullable List < Aggregate > processResult );1;0;3
+Aggregate.getMappings( int annotationIndex );1;0;3
+TypeMappedAnnotations.spliterator( @ Nullable Object annotationType );1;0;3
+TypeMappedAnnotations.TypeMappedAnnotations( @ Nullable Object source , Annotation [ ] annotations , RepeatableContainers repeatableContainers , AnnotationFilter annotationFilter );1;0;9
+TypeMappedAnnotations.from( AnnotatedElement element , SearchStrategy searchStrategy , Predicate < Class < ? > > searchEnclosingClass , RepeatableContainers repeatableContainers , AnnotationFilter annotationFilter );2;0;6
+TypeMappedAnnotations.spliterator( );2;1;6
+TypeMappedAnnotations.get( String annotationType );1;0;3
+TypeMappedAnnotations.stream( String annotationType );2;1;6
+AggregatesCollector.addAggregateAnnotations( List < Annotation > aggregateAnnotations , Annotation [ ] annotations );5;4;13
+TypeMappedAnnotations.get( Class < A > annotationType );1;0;3
+TypeMappedAnnotations.TypeMappedAnnotations( AnnotatedElement element , SearchStrategy searchStrategy , Predicate < Class < ? > > searchEnclosingClass , RepeatableContainers repeatableContainers , AnnotationFilter annotationFilter );1;0;9
+AggregatesSpliterator.tryAdvance( Aggregate aggregate , Consumer < ? super MergedAnnotation < A > > action );9;13;29
+TypeMappedAnnotations.isMappingForType( AnnotationTypeMapping mapping , AnnotationFilter annotationFilter , @ Nullable Object requiredType );5;6;5
+TypeMappedAnnotations.get( Class < A > annotationType , @ Nullable Predicate < ? super MergedAnnotation < A > > predicate , @ Nullable MergedAnnotationSelector < A > selector );3;1;8
+AggregatesCollector.getAggregateAnnotations( Annotation [ ] annotations );1;0;5
+Aggregate.Aggregate( int aggregateIndex , @ Nullable Object source , List < Annotation > annotations );2;2;9
+TypeMappedAnnotations.scan( C criteria , AnnotationsProcessor < C , R > processor );4;4;11
+Aggregate.createMergedAnnotationIfPossible( int annotationIndex , int mappingIndex , IntrospectionFailureLogger logger );1;0;5
+TypeMappedAnnotations.getAggregates( );4;3;11
+TypeMappedAnnotations.get( String annotationType , @ Nullable Predicate < ? super MergedAnnotation < A > > predicate , @ Nullable MergedAnnotationSelector < A > selector );3;1;8
+TypeMappedAnnotations.isDirectlyPresent( String annotationType );2;0;7
+IsPresent.IsPresent( RepeatableContainers repeatableContainers , AnnotationFilter annotationFilter , boolean directOnly );1;0;5
+AggregatesCollector.createAggregate( int aggregateIndex , @ Nullable Object source , Annotation [ ] annotations );1;0;4
+MergedAnnotationFinder.process( Object type , int aggregateIndex , @ Nullable Object source , Annotation annotation );8;7;22
+TypeMappedAnnotations.stream( );2;1;6
+TypeMappedAnnotations.isPresent( String annotationType );2;0;7
+AggregatesSpliterator.characteristics( );1;1;3
+IsPresent.doWithAnnotations( Object requiredType , int aggregateIndex , @ Nullable Object source , Annotation [ ] annotations );13;11;31
+Aggregate.size( );1;0;3
+AggregatesSpliterator.AggregatesSpliterator( @ Nullable Object requiredType , List < Aggregate > aggregates );1;0;5
+TypeMappedAnnotations.isDirectlyPresent( Class < A > annotationType );2;0;7
+MergedAnnotationFinder.MergedAnnotationFinder( Object requiredType , @ Nullable Predicate < ? super MergedAnnotation < A > > predicate , @ Nullable MergedAnnotationSelector < A > selector );2;1;5
+MergedAnnotationFinder.doWithAggregate( Object context , int aggregateIndex );1;0;3
+AggregatesSpliterator.getNextSuitableMapping( Aggregate aggregate , int annotationIndex );5;5;15
+Aggregate.getMapping( int annotationIndex , int mappingIndex );2;1;4

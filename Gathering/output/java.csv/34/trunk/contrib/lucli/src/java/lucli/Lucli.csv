@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Lucli.exit( );1;0;3
+Lucli.usage( );1;0;4
+Lucli.Lucli( String [ ] args );7;3;40
+Lucli.parseArgs( String [ ] args );2;1;6
+Lucli.handleCommand( String line , ConsoleReader cr );21;15;66
+Lucli.addCommand( String name , int id , String help , int params );1;0;4
+Lucli.getCommandId( String name , int params );3;3;14
+Lucli.tokenizeCommand( String line );2;1;9
+Lucli.main( String [ ] args );1;0;3
+Lucli.getCommandsAsArray( );2;1;10
+***not in a method***;0;2;0
+Lucli.error( String message );1;0;3
+Command.Command( String name , int id , String help , int params );1;0;6
+Lucli.message( String text );1;0;3
+Lucli.help( );2;0;7
+Command.commandUsage( );1;2;3
+Lucli.addCommand( String name , int id , String help );1;0;3

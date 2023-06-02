@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractWidgetDefinitionBuilder.buildWidgetDefinition( Element widgetElement );1;0;3
+AbstractWidgetDefinitionBuilder.buildAnotherWidgetDefinition( Element widgetElement , WidgetDefinitionBuilderContext context );3;1;13
+AbstractWidgetDefinitionBuilder.setupDefinition( Element widgetElement , AbstractWidgetDefinition definition , WidgetDefinitionBuilderContext context );2;1;9
+AbstractWidgetDefinitionBuilder.setDatatypeManager( DatatypeManager datatypeManager );1;0;3
+AbstractWidgetDefinitionBuilder.setDisplayData( Element widgetElement , AbstractWidgetDefinition widgetDefinition );3;3;13
+AbstractWidgetDefinitionBuilder.setExpressionManager( ExpressionManager expressionManager );1;0;3
+AbstractWidgetDefinitionBuilder.setWidgetListenerBuilders( Map widgetListenerBuilders );1;0;3
+AbstractWidgetDefinitionBuilder.setCommonProperties( Element widgetElement , AbstractWidgetDefinition widgetDefinition );12;17;36
+AbstractWidgetDefinitionBuilder.setValidators( Element widgetElement , AbstractWidgetDefinition widgetDefinition );5;5;18
+AbstractWidgetDefinitionBuilder.setCreateListeners( Element widgetElement , AbstractWidgetDefinition widgetDefinition );2;0;6
+AbstractWidgetDefinitionBuilder.buildEventListeners( Element widgetElement , String elementName , Class listenerClass );7;7;23
+AbstractWidgetDefinitionBuilder.setWidgetDefinitionBuilders( Map widgetDefinitionBuilders );1;0;3
+AbstractWidgetDefinitionBuilder.setWidgetValidatorBuilders( Map widgetValidatorBuilders );1;0;3

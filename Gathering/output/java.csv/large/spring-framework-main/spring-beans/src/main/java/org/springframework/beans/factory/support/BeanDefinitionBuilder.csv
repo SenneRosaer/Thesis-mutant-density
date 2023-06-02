@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BeanDefinitionBuilder.setFactoryMethod( String factoryMethod );1;0;4
+BeanDefinitionBuilder.setPrimary( boolean primary );1;0;4
+BeanDefinitionBuilder.genericBeanDefinition( String beanClassName );1;0;5
+BeanDefinitionBuilder.BeanDefinitionBuilder( AbstractBeanDefinition beanDefinition );1;0;3
+BeanDefinitionBuilder.getBeanDefinition( );1;0;4
+BeanDefinitionBuilder.rootBeanDefinition( String beanClassName , @ Nullable String factoryMethodName );1;0;6
+BeanDefinitionBuilder.genericBeanDefinition( );1;0;3
+BeanDefinitionBuilder.addConstructorArgValue( @ Nullable Object value );1;1;5
+BeanDefinitionBuilder.rootBeanDefinition( String beanClassName );1;0;3
+BeanDefinitionBuilder.setParentName( String parentName );1;0;4
+BeanDefinitionBuilder.addPropertyValue( String name , @ Nullable Object value );1;0;4
+BeanDefinitionBuilder.getRawBeanDefinition( );1;0;3
+BeanDefinitionBuilder.addPropertyReference( String name , String beanName );1;0;4
+BeanDefinitionBuilder.setInitMethodName( @ Nullable String methodName );1;0;4
+BeanDefinitionBuilder.childBeanDefinition( String parentName );1;0;3
+BeanDefinitionBuilder.setAutowireMode( int autowireMode );1;0;4
+BeanDefinitionBuilder.setScope( @ Nullable String scope );1;0;4
+BeanDefinitionBuilder.setLazyInit( boolean lazy );1;0;4
+BeanDefinitionBuilder.addDependsOn( String beanName );2;1;10
+BeanDefinitionBuilder.setDependencyCheck( int dependencyCheck );1;0;4
+BeanDefinitionBuilder.setFactoryMethodOnBean( String factoryMethod , String factoryBean );1;0;5
+BeanDefinitionBuilder.addAutowiredProperty( String name );1;0;4
+BeanDefinitionBuilder.setAbstract( boolean flag );1;0;4
+BeanDefinitionBuilder.applyCustomizers( BeanDefinitionCustomizer ... customizers );2;0;6
+BeanDefinitionBuilder.rootBeanDefinition( Class < ? > beanClass , @ Nullable String factoryMethodName );1;0;6
+BeanDefinitionBuilder.setSynthetic( boolean synthetic );1;0;4
+BeanDefinitionBuilder.rootBeanDefinition( Class < T > beanClass , Supplier < T > instanceSupplier );1;0;3
+BeanDefinitionBuilder.setRole( int role );1;0;4
+BeanDefinitionBuilder.rootBeanDefinition( ResolvableType beanType , Supplier < T > instanceSupplier );1;0;5
+BeanDefinitionBuilder.setDestroyMethodName( @ Nullable String methodName );1;0;4
+BeanDefinitionBuilder.rootBeanDefinition( Class < ? > beanClass );1;0;3
+BeanDefinitionBuilder.addConstructorArgReference( String beanName );1;1;5
+BeanDefinitionBuilder.genericBeanDefinition( Class < T > beanClass , Supplier < T > instanceSupplier );1;0;6
+BeanDefinitionBuilder.genericBeanDefinition( Class < ? > beanClass );1;0;5

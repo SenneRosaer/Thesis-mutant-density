@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TarInputStream.TarInputStream( InputStream is , int blockSize , int recordSize );1;0;8
+TarInputStream.available( );2;3;6
+TarInputStream.skip( long numToSkip );4;6;13
+TarInputStream.TarInputStream( InputStream is );1;0;3
+TarInputStream.markSupported( );1;0;3
+TarInputStream.getRecordSize( );1;0;3
+TarInputStream.close( );1;0;3
+TarInputStream.setDebug( boolean debug );1;0;4
+TarInputStream.read( );2;4;4
+TarInputStream.read( byte [ ] buf , int offset , int numToRead );9;21;47
+TarInputStream.reset( );1;0;2
+TarInputStream.TarInputStream( InputStream is , int blockSize );1;0;3
+TarInputStream.getNextEntry( );17;13;62
+***not in a method***;0;2;0
+TarInputStream.copyEntryContents( OutputStream out );3;2;10
+TarInputStream.mark( int markLimit );1;0;2

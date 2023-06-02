@@ -1,0 +1,74 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PSRenderer.getLanguageLevel( );1;0;3
+PSRenderer.clip( );1;0;3
+PSRenderer.useColor( Color col );1;0;3
+PSRenderer.isImageInlined( ImageInfo info );6;6;22
+PSRenderer.endVParea( );1;0;3
+PSRenderer.writeHeader( );4;2;33
+PSRenderer.isOptimizeResources( );1;0;3
+PSRenderer.concatMatrix( double [ ] matrix );2;0;7
+PSRenderer.drawBorderLine( float x1 , float y1 , float x2 , float y2 , boolean horz , boolean startOrBefore , int style , Color col );26;83;151
+PSRenderer.concatenateTransformationMatrix( AffineTransform at );2;0;7
+PSRenderer.intValueOf( Object obj );3;0;9
+PSRenderer.writeText( AbstractTextArea area , String text , int start , int len , int [ ] letterAdjust , int fontsize , Typeface tf );13;32;49
+PSRenderer.concatMatrix( double a , double b , double c , double d , double e , double f );2;0;7
+PSRenderer.getGraphics2DAdapter( );1;0;3
+PSRenderer.getFormFlavors( );2;1;9
+PSRenderer.writeEnclosedExtensionAttachments( Collection attachmentCollection );3;1;11
+PSRenderer.writeEnclosedExtensionAttachment( PSExtensionAttachment attachment );5;4;22
+PSRenderer.breakOutOfStateStack( );5;2;21
+PSRenderer.saveGraphicsState( );2;0;8
+PSRenderer.renderSpace( SpaceArea space );2;4;12
+PSRenderer.setLanguageLevel( int level );3;3;7
+PSRenderer.startVParea( CTM ctm , Rectangle2D clippingRect );2;7;13
+PSRenderer.getMimeType( );1;0;3
+PSRenderer.renderBlockViewport( BlockViewport bv , List children );1;0;5
+PSRenderer.getTypeface( String fontName );2;0;7
+PSRenderer.fillRect( float x , float y , float width , float height );4;3;10
+PSRenderer.setUserAgent( FOUserAgent agent );4;3;16
+PSRenderer.drawLine( float startx , float starty , float endx , float endy );1;3;6
+PSRenderer.renderImage( Image image , Rectangle2D pos );1;0;3
+PSRenderer.moveTo( float x , float y );1;1;3
+PSRenderer.renderPage( PageViewport page );25;16;126
+PSRenderer.renderInlineParent( InlineParent ip );1;0;3
+PSRenderer.endTextObject( );2;0;7
+PSRenderer.updateColor( Color col , boolean fill );2;0;7
+PSRenderer.clipRect( float x , float y , float width , float height );2;0;8
+PSRenderer.comment( String comment );3;0;9
+PSRenderer.getImageAdapter( );1;0;3
+PSRenderer.startRenderer( OutputStream outputStream );2;1;22
+PSRenderer.lineTo( float x , float y );1;1;3
+PSRenderer.writeSetupCodeList( List setupCodeList , String type );6;4;22
+PSRenderer.getPostScriptNameForFontKey( String key );5;4;21
+PSRenderer.rmoveTo( float x , float y );1;1;3
+PSRenderer.drawBackAndBorders( Area area , float startx , float starty , float width , float height );6;4;12
+PSRenderer.setDSCCompliant( boolean dscCompliant );1;0;3
+PSRenderer.restoreGraphicsState( );2;0;8
+PSRenderer.isImageInlined( String uri );3;4;3
+PSRenderer.movetoCurrPosition( );1;0;3
+PSRenderer.createRendererContext( int x , int y , int width , int height , Map foreignAttributes );1;0;7
+PSRenderer.isAutoRotateLandscape( );1;0;3
+PSRenderer.booleanValueOf( Object obj );3;0;9
+PSRenderer.setOptimizeResources( boolean value );1;0;3
+PSRenderer.drawImage( String uri , Rectangle2D pos , Map foreignAttributes );18;9;98
+PSRenderer.renderLeader( Leader area );9;30;61
+PSRenderer.processOffDocumentItem( OffDocumentItem oDI );15;6;43
+PSRenderer.rewritePostScriptFile( );4;2;27
+PSRenderer.stopRenderer( );6;3;27
+PSRenderer.getPSResourceForFontKey( String key );3;2;13
+PSRenderer.getFormForImage( String uri );5;5;14
+PSRenderer.renderWord( WordArea word );1;0;4
+PSRenderer.handleIOTrouble( IOException ioe );2;1;8
+PSRenderer.renderText( TextArea area );3;6;21
+PSRenderer.useFont( String key , int size );2;1;9
+PSRenderer.closePath( );1;0;3
+PSRenderer.getInlineFlavors( );2;1;9
+PSRenderer.setSafeSetPageDevice( boolean safeSetPageDevice );1;0;3
+PSRenderer.renderText( AbstractTextArea area , String text , int [ ] letterAdjust );8;12;36
+PSRenderer.writeln( String cmd );2;0;7
+PSRenderer.restoreStateStackAfterBreakOut( List breakOutList );3;0;15
+PSRenderer.paintImage( RenderedImage image , RendererContext context , int x , int y , int width , int height );1;8;9
+PSRenderer.renderRegionViewport( RegionViewport port );2;1;7
+PSRenderer.beginTextObject( );2;1;7
+PSRenderer.resolveURI( String uri );1;0;3
+PSRenderer.setAutoRotateLandscape( boolean value );1;0;3

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InvocationsFinder.findAllMatchingUnverifiedChunks( List < Invocation > invocations , MatchableInvocation wanted , InOrderContext orderingContext );1;0;4
+InvocationsFinder.findFirstUnverifiedInOrder( InOrderContext context , List < Invocation > orderedInvocations );4;2;11
+InvocationsFinder.getAllLocations( List < Invocation > invocations );2;0;7
+InvocationsFinder.findFirstUnverified( List < Invocation > invocations );1;0;3
+InvocationsFinder.findFirstMatchingUnverifiedInvocation( List < Invocation > invocations , MatchableInvocation wanted , InOrderContext context );3;0;8
+InvocationsFinder.findSimilarInvocation( List < Invocation > invocations , MatchableInvocation wanted );5;2;15
+InvocationsFinder.findFirstUnverified( List < Invocation > invocations , Object mock );5;5;9
+InvocationsFinder.removeVerifiedInOrder( List < Invocation > invocations , InOrderContext orderingContext );3;0;11
+InvocationsFinder.findMatchingChunk( List < Invocation > invocations , MatchableInvocation wanted , int wantedCount , InOrderContext context );2;1;9
+InvocationsFinder.InvocationsFinder( );1;0;1
+InvocationsFinder.findPreviousVerifiedInOrder( List < Invocation > invocations , InOrderContext context );2;1;9
+InvocationsFinder.getLastLocation( List < Invocation > invocations );2;1;8
+InvocationsFinder.findInvocations( List < Invocation > invocations , MatchableInvocation wanted );1;0;3
+InvocationsFinder.getFirstMatchingChunk( MatchableInvocation wanted , List < Invocation > unverified );4;1;11

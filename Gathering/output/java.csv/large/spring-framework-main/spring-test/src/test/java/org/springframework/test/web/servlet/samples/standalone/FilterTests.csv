@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AsyncContextWrapper.getTimeout( );1;0;3
+AsyncContextWrapper.hasOriginalRequestAndResponse( );1;0;3
+FilterTests.filterMappedBySuffix( );1;0;6
+PersonController.save( @ Valid Person person , Errors errors , RedirectAttributes redirectAttrs );2;0;8
+AsyncContextWrapper.dispatch( );1;0;3
+FilterTests.filterWrapsRequestResponse( );1;0;6
+FilterTests.filterWithExactMapping( );1;0;6
+PersonController.getPerson( );1;0;3
+WrappingRequestResponseFilter.doFilterInternal( HttpServletRequest request , HttpServletResponse response , FilterChain filterChain );2;0;13
+AsyncContextWrapper.createListener( Class < T > clazz );1;0;3
+AsyncContextWrapper.addListener( AsyncListener listener );1;0;3
+FilterTests.filtersProcessRequest( );1;0;6
+FilterTests.filterSkipped( );1;0;11
+FilterTests.filterWrapsRequestResponseAndPerformsAsyncDispatch( );1;0;14
+RedirectFilter.doFilterInternal( HttpServletRequest request , HttpServletResponse response , FilterChain filterChain );1;0;3
+PersonController.user( Principal principal );1;0;3
+AsyncContextWrapper.addListener( AsyncListener listener , ServletRequest req , ServletResponse res );1;0;3
+WrappingRequestResponseFilter.getUserPrincipal( );1;0;3
+AsyncContextWrapper.dispatch( String path );1;0;3
+AsyncContextWrapper.getResponse( );1;0;3
+AsyncContextWrapper.AsyncContextWrapper( AsyncContext delegate );1;0;3
+AsyncContextWrapper.dispatch( ServletContext context , String path );1;0;3
+FilterTests.whenFiltersCompleteMvcProcessesRequest( );1;0;11
+AsyncContextWrapper.getRequest( );1;0;3
+AsyncContextWrapper.setTimeout( long timeout );1;0;3
+ContinueFilter.doFilterInternal( HttpServletRequest request , HttpServletResponse response , FilterChain filterChain );1;0;3
+WrappingRequestResponseFilter.getAsyncContext( );2;1;4
+AsyncContextWrapper.start( Runnable run );1;0;3
+AsyncContextWrapper.complete( );1;0;3
+PersonController.forward( );1;0;3

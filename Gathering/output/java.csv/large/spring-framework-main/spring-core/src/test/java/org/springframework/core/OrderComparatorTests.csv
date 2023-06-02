@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StubOrdered.getOrder( );1;0;3
+StubOrdered.StubOrdered( int order );1;0;3
+OrderComparatorTests.compareWithSourceProviderEmpty( );1;0;5
+OrderComparatorTests.compareWithSimpleSourceProvider( );1;1;5
+OrderComparatorTests.comparePriorityOrderedInstancesAfter( );1;0;3
+StubPriorityOrdered.StubPriorityOrdered( int order );1;0;3
+OrderComparatorTests.compareWithSourceProviderArrayNoMatch( );1;0;5
+OrderComparatorTests.comparePriorityOrderedInstancesSame( );1;0;3
+OrderComparatorTests.compareWithSourceProviderArray( );1;2;5
+OrderComparatorTests.comparePriorityOrderedInstanceToStandardOrderedInstanceWithHigherPriority( );1;0;3
+OrderComparatorTests.compareOrderedInstancesSame( );1;0;3
+OrderComparatorTests.comparePriorityOrderedInstanceToStandardOrderedInstanceWithLowerPriority( );1;0;3
+TestSourceProvider.getOrderSource( Object obj );2;0;6
+OrderComparatorTests.compareOrderedInstancesAfter( );1;0;3
+TestSourceProvider.TestSourceProvider( Object target , Object orderSource );1;0;4
+OrderComparatorTests.compareOrderedInstancesDoubleNull( );1;0;3
+OrderComparatorTests.compareOrderedInstancesNullLast( );1;1;3
+OrderComparatorTests.compareOrderedInstancesBefore( );1;1;3
+StubPriorityOrdered.getOrder( );1;0;3
+OrderComparatorTests.comparePriorityOrderedInstancesBefore( );1;1;3
+OrderComparatorTests.comparePriorityOrderedInstanceToStandardOrderedInstanceWithSamePriority( );1;0;3
+OrderComparatorTests.compareOrderedInstancesNullFirst( );1;0;3
+OrderComparatorTests.assertThatPriorityOrderedAlwaysWins( StubPriorityOrdered priority , StubOrdered standard );1;1;4
+OrderComparatorTests.compareTwoNonOrderedInstancesEndsUpAsSame( );1;0;3

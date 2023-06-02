@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BPELDAOConnectionImpl.bpelEventTimelineQuery( InstanceFilter ifilter , BpelEventFilter efilter );1;0;3
+BPELDAOConnectionImpl.createMessageExchange( String mexId , char dir );1;0;5
+BPELDAOConnectionImpl.getInstance( Long iid );1;0;4
+BPELDAOConnectionImpl.bpelEventQuery( InstanceFilter ifilter , BpelEventFilter efilter );1;0;3
+BPELDAOConnectionImpl.dateFilter( String filter );2;1;12
+BPELDAOConnectionImpl.getMessageExchange( String mexid );2;1;7
+BPELDAOConnectionImpl.getScope( Long siidl );1;0;3
+BPELDAOConnectionImpl.releaseMessageExchange( String mexid );1;0;2
+BPELDAOConnectionImpl.BPELDAOConnectionImpl( EntityManager em );1;0;3
+BPELDAOConnectionImpl.createProcess( QName pid , QName type , String guid , long version );1;0;5
+BPELDAOConnectionImpl.close( );1;0;3
+BPELDAOConnectionImpl.instanceQuery( InstanceFilter criteria );32;29;108
+BPELDAOConnectionImpl.getEntityManager( );1;0;3
+BPELDAOConnectionImpl.insertBpelEvent( BpelEvent event , ProcessDAO process , ProcessInstanceDAO instance );4;2;15
+BPELDAOConnectionImpl.getProcess( QName processId );2;1;7
+BPELDAOConnectionImpl.instanceQuery( String expression );1;0;3
+BPELDAOConnectionImpl.setEntityManger( EntityManager em );1;0;3

@@ -1,0 +1,53 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ObjectContentManagerImpl.lock( final String absPath , final boolean isDeep , final boolean isSessionScoped );3;0;12
+ObjectContentManagerImpl.getObject( Class objectClass , String path , String versionName );3;1;15
+ObjectContentManagerImpl.getQueryManager( );1;0;3
+ObjectContentManagerImpl.getObjects( Query query );1;0;4
+ObjectContentManagerImpl.logout( );5;0;16
+ObjectContentManagerImpl.isLocked( final String absPath );2;0;8
+ObjectContentManagerImpl.getVersionLabels( String path , String versionName );7;1;21
+ObjectContentManagerImpl.refresh( boolean keepChanges );2;0;7
+ObjectContentManagerImpl.setQueryManager( QueryManager queryManager );1;0;3
+ObjectContentManagerImpl.remove( String path );3;1;13
+ObjectContentManagerImpl.getVersion( String path , String versionName );7;1;20
+ObjectContentManagerImpl.getAllVersions( String path );6;1;18
+ObjectContentManagerImpl.getSession( );1;0;3
+ObjectContentManagerImpl.getAllVersionLabels( String path );6;1;18
+ObjectContentManagerImpl.getNodeIterator( String query , String language );4;0;16
+ObjectContentManagerImpl.objectExists( String path );2;0;7
+ObjectContentManagerImpl.copy( String srcPath , String destPath );8;0;22
+ObjectContentManagerImpl.setRequestObjectCache( ObjectCache requestObjectCache );1;0;3
+ObjectContentManagerImpl.ObjectContentManagerImpl( Session session , InputStream [ ] xmlMappingFiles );2;0;13
+ObjectContentManagerImpl.retrieveMappedAttribute( Object object , String attributeName );1;0;3
+ObjectContentManagerImpl.getObjectIterator( String query , String language );1;0;5
+ObjectContentManagerImpl.getBaseVersion( String path );6;1;17
+ObjectContentManagerImpl.isPersistent( final Class clazz );3;1;10
+ObjectContentManagerImpl.remove( Query query );6;2;26
+ObjectContentManagerImpl.setMapper( Mapper mapper );1;0;3
+ObjectContentManagerImpl.maybeAddLockToken( final String lockToken );5;4;14
+ObjectContentManagerImpl.unlock( final String absPath , final String lockToken );4;1;18
+ObjectContentManagerImpl.checkin( String path , String [ ] versionLabels );11;4;30
+ObjectContentManagerImpl.checkout( String path );7;1;20
+ObjectContentManagerImpl.getObjects( Class objectClass , String path );6;5;22
+ObjectContentManagerImpl.move( String srcPath , String destPath );8;0;22
+ObjectContentManagerImpl.getObject( String path );3;1;12
+ObjectContentManagerImpl.setObjectConverter( ObjectConverter objectConverter );1;0;3
+ObjectContentManagerImpl.save( );5;0;13
+ObjectContentManagerImpl.getObject( String path , String versionName );3;1;15
+ObjectContentManagerImpl.getRootVersion( String path );6;1;18
+ObjectContentManagerImpl.getNode( final String absPath );3;2;10
+ObjectContentManagerImpl.checkIfNodeLocked( final String absPath );3;1;11
+ObjectContentManagerImpl.getObjects( String query , String language );4;0;18
+ObjectContentManagerImpl.ObjectContentManagerImpl( Session session , Mapper mapper );2;0;13
+ObjectContentManagerImpl.getObjectByUuid( String uuid );2;0;10
+ObjectContentManagerImpl.insert( Object object );5;1;18
+ObjectContentManagerImpl.ObjectContentManagerImpl( Session session , String [ ] xmlMappingFiles );2;0;13
+ObjectContentManagerImpl.getObjectIterator( Query query );1;0;6
+ObjectContentManagerImpl.remove( Object object );1;0;3
+ObjectContentManagerImpl.getObject( Class objectClass , String path );3;1;12
+ObjectContentManagerImpl.checkin( String path );1;0;3
+ObjectContentManagerImpl.getObject( Query query );3;1;8
+ObjectContentManagerImpl.addVersionLabel( String path , String versionName , String versionLabel );7;1;21
+ObjectContentManagerImpl.retrieveAllMappedAttributes( Object object );1;0;3
+ObjectContentManagerImpl.update( Object object );3;1;13
+ObjectContentManagerImpl.ObjectContentManagerImpl( Mapper mapper , ObjectConverter converter , QueryManager queryManager , ObjectCache requestObjectCache , Session session );1;0;7

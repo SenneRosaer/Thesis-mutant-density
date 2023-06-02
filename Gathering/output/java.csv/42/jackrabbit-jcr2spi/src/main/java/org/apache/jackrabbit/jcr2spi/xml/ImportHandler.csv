@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ImportHandler.getUniquePrefix( String uriHint );1;1;3
+ImportHandler.endDocument( );1;0;4
+ImportHandler.startElement( String namespaceURI , String localName , String qName , Attributes atts );4;2;18
+ImportHandler.endPrefixMapping( String prefix );1;0;2
+NamespaceContext.NamespaceContext( );1;0;3
+NamespaceContext.getURI( String prefix );3;1;10
+NamespaceContext.reset( );1;0;3
+ImportHandler.endElement( String namespaceURI , String localName , String qName );1;0;4
+ImportHandler.warning( SAXParseException e );1;0;5
+ImportHandler.ImportHandler( Importer importer , NamespaceResolver nsResolver , NamespaceRegistry nsReg , NameFactory nameFactory , PathFactory pathFactory );1;0;9
+ImportHandler.characters( char [ ] ch , int start , int length );1;0;3
+ImportHandler.startDocument( );3;2;16
+NamespaceContext.getPrefix( String uri );4;1;13
+ImportHandler.error( SAXParseException e );1;0;5
+NamespaceContext.popContext( );1;0;3
+NamespaceContext.pushContext( );1;0;3
+ImportHandler.startPrefixMapping( String prefix , String uri );5;1;22
+ImportHandler.fatalError( SAXParseException e );1;0;6
+NamespaceContext.declarePrefix( String prefix , String uri );2;0;6

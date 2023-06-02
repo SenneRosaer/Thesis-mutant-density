@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ItemState.getOverlayedState( );1;0;3
+ItemState.isStale( );4;6;9
+ItemState.setModCount( short modCount );1;0;3
+ItemState.touch( );1;1;3
+ItemState.notifyStateDiscarded( );2;1;5
+ItemState.ItemState( int initialStatus , boolean isTransient );3;0;15
+ItemState.hasOverlayedState( );1;1;3
+ItemState.connect( ItemState overlayedState );3;2;8
+ItemState.setContainer( ItemStateListener container );2;1;6
+ItemState.pull( );2;1;6
+ItemState.getContainer( );1;0;3
+ItemState.getStatus( );1;0;3
+ItemState.notifyStateCreated( );2;1;5
+ItemState.setStatus( int newStatus );8;0;17
+ItemState.notifyStateDestroyed( );2;1;5
+ItemState.push( );2;1;6
+ItemState.getModCount( );1;0;3
+ItemState.disconnect( );2;1;5
+ItemState.isTransient( );1;0;3
+ItemState.notifyStateUpdated( );2;1;5
+ItemState.isConnected( );1;1;3
+ItemState.reconnect( );2;1;7
+ItemState.onDisposed( );1;0;5
+ItemState.discard( );2;1;6
+ItemState.ItemState( ItemState overlayedState , int initialStatus , boolean isTransient );5;0;19

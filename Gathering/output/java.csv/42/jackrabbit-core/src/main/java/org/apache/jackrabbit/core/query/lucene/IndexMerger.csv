@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IndexMerger.setMergeFactor( int mergeFactor );1;0;3
+Index.toString( );1;1;3
+Merge.Merge( Index [ ] indexes );1;0;4
+IndexMerger.setMinMergeDocs( int minMergeDocs );1;0;3
+IndexMerger.IndexMerger( MultiIndex multiIndex );2;0;10
+IndexMerger.setMaxMergeDocs( int maxMergeDocs );1;0;3
+IndexMerger.dispose( );4;0;22
+IndexMerger.run( );13;13;78
+IndexMerger.documentDeleted( Term id );1;0;4
+IndexBucket.allowsMerge( );1;0;3
+IndexMerger.indexAdded( String name , int numDocs );13;15;50
+IndexBucket.IndexBucket( long lower , long upper , boolean allowMerge );1;0;5
+Index.Index( String name , int numDocs );1;0;4
+IndexBucket.fits( long numDocs );2;3;3
+Index.compareTo( Object o );4;4;9
+IndexMerger.waitUntilIdle( );1;0;4

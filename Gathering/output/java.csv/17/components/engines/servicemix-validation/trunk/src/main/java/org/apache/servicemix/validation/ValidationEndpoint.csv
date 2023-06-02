@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ValidationEndpoint.getErrorHandlerFactory( );1;0;3
+ValidationEndpoint.setSchemaResource( Resource schemaResource );1;0;3
+ValidationEndpoint.getSchema( );1;0;3
+ValidationEndpoint.getSchemaResource( );1;0;3
+ValidationEndpoint.processInOut( MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );2;1;7
+ValidationEndpoint.getSchemaLanguage( );1;0;3
+ValidationEndpoint.getHandlingErrorMethod( );1;0;3
+ValidationEndpoint.doValidation( Validator validator , DOMSource src , DOMResult result );1;0;3
+ValidationEndpoint.setHandlingErrorMethod( String handlingErrorMethod );1;0;3
+ValidationEndpoint.setSchemaSource( Source schemaSource );1;0;3
+ValidationEndpoint.done( MessageExchange messageExchange );1;0;3
+ValidationEndpoint.start( );7;4;28
+ValidationEndpoint.setSchema( Schema schema );1;0;3
+ValidationEndpoint.startValidation( MessageExchange exchange , NormalizedMessage in , NormalizedMessage out , Fault fault );11;1;70
+ValidationEndpoint.setErrorHandlerFactory( MessageAwareErrorHandlerFactory errorHandlerFactory );1;0;3
+ValidationEndpoint.stop( );1;0;3
+ValidationEndpoint.fail( MessageExchange messageExchange , Exception e );1;0;3
+ValidationEndpoint.sendSync( MessageExchange messageExchange );1;0;3
+ValidationEndpoint.setSchemaLanguage( String schemaLanguage );1;0;3
+ValidationEndpoint.send( MessageExchange messageExchange );1;0;3
+ValidationEndpoint.getSchemaSource( );1;0;3
+ValidationEndpoint.processInOnly( MessageExchange exchange , NormalizedMessage in );2;1;8

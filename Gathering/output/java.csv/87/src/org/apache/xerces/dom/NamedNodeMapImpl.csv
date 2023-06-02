@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NamedNodeMapImpl.isReadOnly( );1;2;3
+NamedNodeMapImpl.findNamePoint( String namespaceURI , String name );11;14;24
+NamedNodeMapImpl.getLength( );2;1;3
+NamedNodeMapImpl.getNamedItem( String name );2;1;4
+***not in a method***;0;4;0
+NamedNodeMapImpl.addItem( Node arg );4;5;20
+NamedNodeMapImpl.getItem( int index );2;1;6
+NamedNodeMapImpl.cloneContent( NamedNodeMapImpl srcmap );5;5;20
+NamedNodeMapImpl.getNamedItemNS( String namespaceURI , String localName );2;1;4
+NamedNodeMapImpl.hasDefaults( );1;2;3
+NamedNodeMapImpl.removeNamedItemNS( String namespaceURI , String name );3;1;16
+NamedNodeMapImpl.cloneMap( ArrayList list );4;4;13
+NamedNodeMapImpl.hasDefaults( boolean value );2;2;3
+NamedNodeMapImpl.removeItem( int index );3;3;5
+NamedNodeMapImpl.readObject( ObjectInputStream in );2;1;6
+NamedNodeMapImpl.changed( boolean value );2;2;3
+NamedNodeMapImpl.changed( );1;2;3
+NamedNodeMapImpl.removeNamedItem( String name );3;1;16
+NamedNodeMapImpl.NamedNodeMapImpl( NodeImpl ownerNode );1;0;3
+NamedNodeMapImpl.setNamedItemNS( Node arg );7;6;32
+NamedNodeMapImpl.setNamedItem( Node arg );6;5;26
+NamedNodeMapImpl.findNamePoint( String name , int start );6;12;24
+NamedNodeMapImpl.getNamedItemIndex( String namespaceURI , String localName );1;0;3
+NamedNodeMapImpl.item( int index );3;3;4
+NamedNodeMapImpl.precedes( Node a , Node b );5;5;11
+NamedNodeMapImpl.removeAll( );2;1;5
+NamedNodeMapImpl.isReadOnly( boolean value );2;2;3
+NamedNodeMapImpl.setReadOnly( boolean readOnly , boolean deep );4;5;8
+NamedNodeMapImpl.writeObject( ObjectOutputStream out );2;1;12
+NamedNodeMapImpl.setOwnerDocument( CoreDocumentImpl doc );3;3;8
+NamedNodeMapImpl.cloneMap( NodeImpl ownerNode );1;0;5
+NamedNodeMapImpl.getReadOnly( );1;0;3

@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AspectProxyFactoryTests.testWithNonSingletonAspectInstance( );1;0;4
+AspectProxyFactoryTests.testSerializable( );1;0;8
+AspectProxyFactoryTests.testUnproxiedVarargsWithEnumArray( );1;0;6
+AspectProxyFactoryTests.testWithNonAspect( );1;0;5
+AspectProxyFactoryTests.testWithInstanceWithNonAspect( );1;0;5
+AspectProxyFactoryTests.testWithSimpleAspect( );1;1;8
+MultiplyReturnValue.doubleReturnValue( ProceedingJoinPoint pjp );1;2;5
+LoggingAspectOnSetter.doLog( ProceedingJoinPoint pjp );1;0;4
+AspectProxyFactoryTests.testWithInstance( );1;2;13
+LoggingAspectOnVarargs.doLog( ProceedingJoinPoint pjp );1;0;4
+TestBean.getAge( );1;0;3
+TestBean.doWithVarargs( V ... args );1;0;3
+AspectProxyFactoryTests.testWithPerThisAspect( );1;0;14
+AspectProxyFactoryTests.testProxiedVarargsWithEnumArray( );1;0;6
+MultiplyReturnValue.getMultiple( );1;0;3
+MultiplyReturnValue.setMultiple( int multiple );1;0;3
+TestBean.setAge( int age );1;0;3

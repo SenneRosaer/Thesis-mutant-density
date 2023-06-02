@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScopeFrame.resolve( OPartnerLink partnerLink );1;0;3
+ScopeFrame.resolve( OScope . CorrelationSet cset );1;0;3
+ScopeFrame.resolve( OScope . Variable variable );2;1;5
+ScopeFrame.find( OScope scope );3;1;8
+ScopeFrame.getFault( );3;2;7
+ScopeFrame.fillEventInfo( ScopeEvent event );5;6;16
+ScopeFrame.toString( );3;2;16
+ScopeFrame.ScopeFrame( OScope scopeDef , Long scopeInstanceId , ScopeFrame parent , Set < CompensationHandler > visibleCompensationHandlers );1;0;6
+ScopeFrame.ScopeFrame( OScope scopeDef , Long scopeInstanceId , ScopeFrame parent , Set < CompensationHandler > visibleCompensationHandlers , FaultData fault );1;0;4

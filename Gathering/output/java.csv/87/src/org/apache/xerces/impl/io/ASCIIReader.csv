@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ASCIIReader.read( );2;1;9
+ASCIIReader.close( );1;0;3
+ASCIIReader.skip( long n );1;0;3
+ASCIIReader.ASCIIReader( InputStream inputStream , byte [ ] buffer , MessageFormatter messageFormatter , Locale locale );1;0;6
+ASCIIReader.read( char ch [ ] , int offset , int length );4;6;16
+ASCIIReader.ASCIIReader( InputStream inputStream , int size , MessageFormatter messageFormatter , Locale locale );1;0;3
+ASCIIReader.mark( int readAheadLimit );1;0;3
+ASCIIReader.ASCIIReader( InputStream inputStream , MessageFormatter messageFormatter , Locale locale );1;0;3
+ASCIIReader.ready( );1;0;3
+ASCIIReader.markSupported( );1;0;3
+ASCIIReader.reset( );1;0;3

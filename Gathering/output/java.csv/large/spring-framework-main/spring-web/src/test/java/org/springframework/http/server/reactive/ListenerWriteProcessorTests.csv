@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestResultSubscriber.onNext( Void aVoid );1;0;2
+TestResultSubscriber.onComplete( );1;0;2
+TestListenerWriteProcessor.setWritePossible( boolean writePossible );1;0;3
+TestSubscription.cancel( );1;0;2
+TestResultSubscriber.getError( );1;0;3
+TestListenerWriteProcessor.setFailOnWrite( boolean failOnWrite );1;0;3
+TestListenerWriteProcessor.discardData( DataBuffer dataBuffer );1;0;3
+TestResultSubscriber.onError( Throwable ex );1;0;3
+TestListenerWriteProcessor.isWritePossible( );1;0;3
+TestListenerWriteProcessor.write( DataBuffer dataBuffer );2;0;6
+TestSubscription.request( long n );2;2;3
+TestListenerWriteProcessor.writingFailed( Throwable ex );1;0;4
+TestSubscription.getDemand( );1;0;3
+ListenerWriteProcessorTests.onNextWithoutDemand( );1;0;11
+ListenerWriteProcessorTests.ioExceptionDuringWrite( );1;0;9
+TestResultSubscriber.onSubscribe( Subscription subscription );1;0;2
+TestListenerWriteProcessor.getDiscardedBuffers( );1;0;3
+TestListenerWriteProcessor.isDataEmpty( DataBuffer dataBuffer );1;0;3
+ListenerWriteProcessorTests.setup( );1;0;5
+ListenerWriteProcessorTests.writePublisherError( );1;0;9

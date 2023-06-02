@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CachingHierarchyManager.stateDiscarded( ItemState discarded );5;4;10
+CachingHierarchyManager.CachingHierarchyManager( NodeId rootNodeId , ItemStateManager provider );1;0;4
+CachingHierarchyManager.evict( PathMap . Element element , boolean shift );2;0;12
+CachingHierarchyManager.getDepth( ItemId id );3;1;9
+CachingHierarchyManager.stateModified( ItemState modified );2;0;5
+CachingHierarchyManager.resolvePath( Path path , int typesAllowed );5;4;25
+CachingHierarchyManager.checkConsistency( );8;3;48
+CachingHierarchyManager.nodesReplaced( NodeState state );8;6;38
+CachingHierarchyManager.map( Path path );3;2;14
+CachingHierarchyManager.getName( ItemId id );3;1;9
+LRUEntry.addElement( PathMap . Element element );1;1;6
+LRUEntry.removeElement( PathMap . Element element );5;5;16
+CachingHierarchyManager.get( ItemId id );2;1;10
+LRUEntry.getElements( );1;0;3
+CachingHierarchyManager.isAncestor( NodeId nodeId , ItemId itemId );4;2;12
+CachingHierarchyManager.nodeModified( NodeState modified );7;7;26
+CachingHierarchyManager.nodeAdded( NodeState state , Path path , NodeId id );8;8;24
+CachingHierarchyManager.evictAll( ItemId id , boolean shift );3;3;12
+CachingHierarchyManager.nodeRemoved( NodeState state , Name name , int index , NodeId id );7;0;22
+LRUEntry.append( );2;1;10
+LRUEntry.toString( );1;0;3
+CachingHierarchyManager.isCached( NodeId id , Path path );5;4;18
+CachingHierarchyManager.stateCreated( ItemState created );1;0;2
+CachingHierarchyManager.enableConsistencyChecks( boolean enable );1;0;3
+CachingHierarchyManager.nodeAdded( NodeState state , Name name , int index , NodeId id );7;0;22
+LRUEntry.remove( );5;4;16
+LRUEntry.getId( );1;0;3
+CachingHierarchyManager.buildPath( PathBuilder builder , ItemState state );7;4;26
+CachingHierarchyManager.getPath( ItemId id );4;1;15
+LRUEntry.getPrevious( );1;0;3
+CachingHierarchyManager.cache( NodeId id , Path path );9;9;37
+LRUEntry.getNext( );1;0;3
+PathMapElementCounter.elementVisited( PathMap . Element element );5;6;27
+CachingHierarchyManager.elementVisited( PathMap . Element element );2;6;7
+LRUEntry.LRUEntry( NodeId id , PathMap . Element element );1;0;5
+CachingHierarchyManager.isCached( Path path );2;2;9
+CachingHierarchyManager.pathResolved( ItemId id , PathBuilder builder );2;0;5
+LRUEntry.touch( );1;0;4
+CachingHierarchyManager.dump( final PrintStream ps );4;0;22
+CachingHierarchyManager.nodeRemoved( NodeState state , Path path , NodeId id );8;8;25
+CachingHierarchyManager.stateDestroyed( ItemState destroyed );1;0;3

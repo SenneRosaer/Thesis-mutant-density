@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Logger.getInstance( Class loggerClient );1;0;3
+Logger.warn( Object message );2;0;4
+Logger.trace( Object message );2;0;4
+Logger.debug( Object message , Throwable t );2;0;4
+Logger.warn( Object message , Throwable t );2;0;4
+Logger.fatal( Object message , Throwable t );2;0;4
+Logger.fatal( Object message );2;0;4
+Logger.info( Object message );2;0;4
+Logger.isFatalEnabled( );1;0;3
+Logger.isWarnEnabled( );1;0;3
+Logger.isErrorEnabled( );1;0;3
+Logger.debug( Object message );2;0;4
+Logger.Logger( Log logDelegate );1;0;3
+Logger.isInfoEnabled( );1;0;3
+Logger.info( Object message , Throwable t );2;0;4
+Logger.error( Object message , Throwable t );2;0;4
+Logger.error( Object message );2;0;4
+Logger.trace( Object message , Throwable t );2;0;4
+Logger.isTraceEnabled( );1;0;3
+Logger.format( Object m , Throwable t );2;3;7
+Logger.isDebugEnabled( );1;0;3

@@ -1,0 +1,66 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SymbolTable.addConstantFloat( final float value );1;0;3
+SymbolTable.addConstantUtf8Reference( final int index , final int tag , final String value );1;0;3
+SymbolTable.addConstantClass( final String value );1;0;3
+SymbolTable.addConstantUtf8( final String value );5;6;14
+SymbolTable.hash( final int tag , final String value1 , final String value2 , final String value3 , final int value4 );1;5;3
+SymbolTable.addConstant( final Object value );16;2;48
+SymbolTable.computeBootstrapMethodsSize( );2;2;8
+SymbolTable.addConstantNameAndType( final int index , final String name , final String descriptor );1;0;4
+SymbolTable.addUninitializedType( final String value , final int bytecodeOffset );6;7;15
+SymbolTable.addConstantMemberReference( final int index , final int tag , final String owner , final String name , final String descriptor );1;0;3
+SymbolTable.addConstantPackage( final String packageName );1;0;3
+SymbolTable.addConstantMethodHandle( final int index , final int referenceKind , final String owner , final String name , final String descriptor );1;0;5
+SymbolTable.hash( final int tag , final String value1 , final int value2 );1;3;3
+SymbolTable.get( final int hashCode );1;1;3
+SymbolTable.getMajorVersion( );1;0;3
+SymbolTable.hash( final int tag , final int value );1;2;3
+SymbolTable.addConstantIntegerOrFloat( final int index , final int tag , final int value );1;0;3
+SymbolTable.getSource( );1;0;3
+SymbolTable.SymbolTable( final ClassWriter classWriter , final ClassReader classReader );22;17;89
+SymbolTable.addConstantUtf8( final int index , final String value );1;0;3
+SymbolTable.hash( final int tag , final String value );1;2;3
+SymbolTable.addBootstrapMethod( final int offset , final int length , final int hashCode );7;10;22
+SymbolTable.addMergedType( final int typeTableIndex1 , final int typeTableIndex2 );6;12;19
+SymbolTable.addConstantModule( final String moduleName );1;0;3
+Entry.Entry( final int index , final int tag , final String name , final String value , final int hashCode );1;0;4
+SymbolTable.addConstantMethodHandle( final int referenceKind , final String owner , final String name , final String descriptor , final boolean isInterface );9;11;24
+SymbolTable.addConstantUtf8Reference( final int tag , final String value );5;6;12
+Entry.Entry( final int index , final int tag , final String value , final long data , final int hashCode );1;0;4
+SymbolTable.addConstantDynamic( final String name , final String descriptor , final Handle bootstrapMethodHandle , final Object ... bootstrapMethodArguments );1;0;5
+SymbolTable.addConstantFieldref( final String owner , final String name , final String descriptor );1;0;3
+SymbolTable.getConstantPoolLength( );1;0;3
+SymbolTable.getClassName( );1;0;3
+Entry.Entry( final int index , final int tag , final long data , final int hashCode );1;0;4
+SymbolTable.addType( final String value );5;5;11
+SymbolTable.addConstantDouble( final double value );1;0;3
+SymbolTable.putConstantPool( final ByteVector output );1;0;3
+SymbolTable.addConstantIntegerOrFloat( final int tag , final int value );5;7;12
+SymbolTable.hash( final int tag , final String value1 , final String value2 , final String value3 );1;4;3
+SymbolTable.addConstantInteger( final int value );1;0;3
+SymbolTable.hash( final int tag , final String value1 , final String value2 );1;3;3
+SymbolTable.hash( final int tag , final String value1 , final String value2 , final int value3 );1;5;3
+SymbolTable.addConstantMethodref( final String owner , final String name , final String descriptor , final boolean isInterface );2;0;4
+Entry.Entry( final int index , final int tag , final String owner , final String name , final String value , final long data , final int hashCode );1;0;4
+SymbolTable.putBootstrapMethods( final ByteVector output );2;2;9
+SymbolTable.addConstantMethodType( final String methodDescriptor );1;0;3
+SymbolTable.add( final Entry entry );1;2;6
+SymbolTable.addConstantLongOrDouble( final int tag , final long value );5;7;14
+SymbolTable.SymbolTable( final ClassWriter classWriter );1;0;7
+SymbolTable.addConstantDynamicOrInvokeDynamicReference( final int tag , final String name , final String descriptor , final int bootstrapMethodIndex );7;9;18
+SymbolTable.addBootstrapMethod( final Handle bootstrapMethodHandle , final Object ... bootstrapMethodArguments );5;8;31
+SymbolTable.addConstantNameAndType( final String name , final String descriptor );6;7;16
+SymbolTable.addConstantLong( final long value );1;0;3
+SymbolTable.setMajorVersionAndClassName( final int majorVersion , final String className );1;0;5
+Entry.Entry( final int index , final int tag , final String value , final int hashCode );1;0;4
+SymbolTable.addConstantLongOrDouble( final int index , final int tag , final long value );1;0;3
+SymbolTable.addTypeInternal( final Entry entry );3;4;12
+SymbolTable.copyBootstrapMethods( final ClassReader classReader , final char [ ] charBuffer );6;21;33
+SymbolTable.getType( final int typeIndex );1;0;3
+SymbolTable.addConstantInvokeDynamic( final String name , final String descriptor , final Handle bootstrapMethodHandle , final Object ... bootstrapMethodArguments );1;0;5
+SymbolTable.put( final Entry entry );4;12;22
+SymbolTable.hash( final int tag , final long value );1;4;3
+SymbolTable.addConstantString( final String value );1;0;3
+SymbolTable.addConstantMemberReference( final int tag , final String owner , final String name , final String descriptor );7;8;17
+SymbolTable.addConstantDynamicOrInvokeDynamicReference( final int tag , final int index , final String name , final String descriptor , final int bootstrapMethodIndex );1;0;4
+SymbolTable.getConstantPoolCount( );1;0;3

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GroupImpl.getDeclaredMembers( );1;0;3
+GroupImpl.getPrincipal( );2;1;6
+GroupImpl.GroupImpl( NodeImpl node , UserManagerImpl userManager );1;0;3
+GroupImpl.getMembers( boolean includeIndirect );6;1;17
+GroupImpl.isGroup( );1;0;3
+NodeBasedGroup.getMembers( );4;1;14
+GroupImpl.addMember( Authorizable authorizable );6;4;18
+NodeBasedGroup.NodeBasedGroup( String name );1;0;3
+MemberIterator.next( );2;1;8
+MemberIterator.MemberIterator( Iterator ids );1;0;4
+GroupImpl.getID( );1;0;3
+MemberIterator.hasNext( );1;1;3
+MemberIterator.remove( );1;0;3
+GroupImpl.isCyclicMembership( Authorizable newMember );2;0;8
+GroupImpl.getMembers( );1;0;3
+NodeBasedGroup.removeMember( Principal user );1;0;3
+GroupImpl.removeMember( Authorizable authorizable );3;3;6
+NodeBasedGroup.members( );1;0;3
+MemberIterator.seekNext( );5;2;17
+GroupImpl.create( NodeImpl node , UserManagerImpl userManager );4;4;9
+NodeBasedGroup.addMember( Principal user );1;0;3
+GroupImpl.isMember( Authorizable authorizable );5;3;14
+NodeBasedGroup.writeObject( ObjectOutputStream stream );1;0;4
+NodeBasedGroup.isMember( Principal member );5;1;14

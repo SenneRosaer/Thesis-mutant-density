@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractFOPTextPainter.paint( TextNode node , Graphics2D g2d );2;0;11
+AbstractFOPTextPainter.getBounds2D( TextNode node );1;0;3
+AbstractFOPTextPainter.getSelected( Mark start , Mark finish );1;0;3
+AbstractFOPTextPainter.hasUnsupportedAttributes( AttributedCharacterIterator aci );19;21;70
+AbstractFOPTextPainter.getStringWidth( String str , Font font );7;13;18
+AbstractFOPTextPainter.getOutline( TextNode node );1;0;3
+AbstractFOPTextPainter.selectAt( double x , double y , TextNode node );1;0;3
+AbstractFOPTextPainter.getHighlightShape( Mark beginMark , Mark endMark );1;0;3
+AbstractFOPTextPainter.AbstractFOPTextPainter( FOPTextHandler nativeTextHandler );1;0;3
+AbstractFOPTextPainter.selectLast( TextNode node );1;0;3
+AbstractFOPTextPainter.paintTextRuns( List textRuns , Graphics2D g2d , Point2D loc );2;0;9
+AbstractFOPTextPainter.hasUnsupportedAttributes( TextNode node );3;0;13
+AbstractFOPTextPainter.updateLocationFromACI( AttributedCharacterIterator aci , Point2D loc );5;6;22
+AbstractFOPTextPainter.getWeight( AttributedCharacterIterator aci );3;3;6
+AbstractFOPTextPainter.getMark( TextNode node , int pos , boolean all );1;0;3
+AbstractFOPTextPainter.getFont( AttributedCharacterIterator aci );4;3;25
+AbstractFOPTextPainter.selectFirst( TextNode node );1;0;3
+AbstractFOPTextPainter.getGeometryBounds( TextNode node );1;0;3
+AbstractFOPTextPainter.getStyle( AttributedCharacterIterator aci );3;3;6
+AbstractFOPTextPainter.hasUnsupportedGlyphs( String str , Font font );7;11;11
+AbstractFOPTextPainter.getText( AttributedCharacterIterator aci );2;2;7
+AbstractFOPTextPainter.selectTo( double x , double y , Mark beginMark );1;0;3
+AbstractFOPTextPainter.paintTextRun( StrokingTextPainter . TextRun run , Graphics2D g2d , Point2D loc );9;8;53

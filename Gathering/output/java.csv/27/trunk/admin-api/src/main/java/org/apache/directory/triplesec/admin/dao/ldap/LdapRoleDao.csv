@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LdapRoleDao.rename( String newRoleName , Role role );5;0;35
+LdapRoleDao.roleIterator( String appName );2;0;17
+LdapRoleDao.getEntryObject( Object extra , Attributes attrs );4;1;33
+LdapRoleDao.getRelativeDn( String appName , String roleName );1;0;7
+LdapRoleDao.LdapRoleDao( DirContext ctx );3;0;29
+LdapRoleDao.deleteEntry( String rdn );2;0;10
+LdapRoleDao.getRelativeDn( String appName );1;0;6
+LdapRoleDao.add( String appName , String roleName , String description , Set grants );6;2;36
+LdapRoleDao.modify( String creatorsName , Date createTimestamp , String appName , String roleName , String description , Set grants , ModificationItem [ ] mods );4;1;28
+LdapRoleDao.delete( String appName , String roleName );3;1;20
+LdapRoleDao.load( String appName , String roleName );5;1;41

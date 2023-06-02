@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BreakingAlgorithm.createNode( int position , int line , int fitness , int totalWidth , int totalStretch , int totalShrink );1;0;7
+KnuthNode.KnuthNode( int position , int line , int fitness , int totalWidth , int totalStretch , int totalShrink , double adjustRatio , int availableShrink , int availableStretch , int difference , double totalDemerits , KnuthNode previous );1;0;14
+BreakingAlgorithm.computeDemerits( KnuthNode activeNode , KnuthElement element , int fitnessClass , double r );16;31;40
+BreakingAlgorithm.findContextFO( KnuthSequence seq , int position );9;11;20
+***not in a method***;0;2;0
+BreakingAlgorithm.createNode( int position , int line , int fitness , int totalWidth , int totalStretch , int totalShrink , double adjustRatio , int availableShrink , int availableStretch , int difference , double totalDemerits , KnuthNode previous );1;0;6
+BreakingAlgorithm.finish( );1;0;2
+BreakingAlgorithm.findBreakingPoints( KnuthSequence par , int startIndex , double threshold , boolean force , int allowedBreaks );32;46;120
+BreakingAlgorithm.getAlignment( );1;0;3
+BestRecords.BestRecords( );1;0;3
+BreakingAlgorithm.getElement( int idx );1;0;3
+BreakingAlgorithm.computeDifference( KnuthNode activeNode , KnuthElement element , int elementIndex );2;3;7
+BreakingAlgorithm.isPartOverflowRecoveryActivated( );1;0;3
+BestRecords.getAvailableShrink( int fitness );1;0;3
+BestRecords.notInfiniteDemerits( int fitness );1;1;3
+BreakingAlgorithm.initialize( );1;0;5
+BestRecords.hasRecords( );1;2;3
+BreakingAlgorithm.getAlignmentLast( );1;0;3
+BreakingAlgorithm.calculateBreakPoints( KnuthNode node , KnuthSequence par , int total );2;2;7
+BestRecords.addRecord( double demerits , KnuthNode node , double adjust , int availableShrink , int availableStretch , int difference , int fitness );4;5;14
+BreakingAlgorithm.getNode( int line );1;1;3
+BestRecords.getAvailableStretch( int fitness );1;0;3
+BestRecords.getDifference( int fitness );1;0;3
+BreakingAlgorithm.computeFitness( double r );4;4;11
+BreakingAlgorithm.restartFrom( KnuthNode restartingNode , int currentIndex );3;7;17
+BreakingAlgorithm.toString( String prepend );3;4;11
+BreakingAlgorithm.BreakingAlgorithm( int align , int alignLast , boolean first , boolean partOverflowRecovery , int maxFlagCount );1;0;8
+BestRecords.reset( );2;3;6
+BreakingAlgorithm.computeAdjustmentRatio( KnuthNode activeNode , int difference );5;9;19
+BestRecords.getDemerits( int fitness );1;0;3
+BreakingAlgorithm.removeNode( int line , KnuthNode node );7;12;24
+BreakingAlgorithm.getLineWidth( );1;0;3
+BreakingAlgorithm.addBreaks( int line , int elementIdx );11;15;33
+BreakingAlgorithm.getLineWidth( int line );3;2;8
+BreakingAlgorithm.getMaxRecoveryAttempts( );1;0;3
+KnuthNode.toString( );2;2;6
+BestRecords.getMinDemerits( );2;2;7
+BreakingAlgorithm.compareNodes( KnuthNode node1 , KnuthNode node2 );5;5;11
+BreakingAlgorithm.handleBox( KnuthBox box );1;0;2
+BestRecords.getAdjust( int fitness );1;0;3
+BestRecords.getNode( int fitness );1;0;3
+BreakingAlgorithm.considerLegalBreak( KnuthElement element , int elementIdx );29;36;91
+BreakingAlgorithm.setConstantLineWidth( int lineWidth );1;0;3
+BreakingAlgorithm.addNode( int line , KnuthNode node );3;9;17
+BreakingAlgorithm.findBreakingPoints( KnuthSequence par , double threshold , boolean force , int allowedBreaks );1;0;3

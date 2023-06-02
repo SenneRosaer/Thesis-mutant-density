@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnalyzingQueryParser.AnalyzingQueryParser( String field , Analyzer analyzer );1;0;3
+AnalyzingQueryParser.getRangeQuery( String field , String part1 , String part2 , boolean inclusive );9;4;43
+AnalyzingQueryParser.getWildcardQuery( String field , String termStr );22;25;77
+AnalyzingQueryParser.getPrefixQuery( String field , String termStr );7;3;28
+AnalyzingQueryParser.getFuzzyQuery( String field , String termStr , float minSimilarity );5;2;21

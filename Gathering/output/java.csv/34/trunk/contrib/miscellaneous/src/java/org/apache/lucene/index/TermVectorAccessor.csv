@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TermVectorAccessor.TermVectorAccessor( );1;0;2
+TermVectorMapperDecorator.isIgnoringOffsets( );1;0;3
+TermVectorMapperDecorator.map( String term , int frequency , TermVectorOffsetInfo [ ] offsets , int [ ] positions );1;0;3
+TermVectorAccessor.accept( IndexReader indexReader , int documentNumber , String fieldName , TermVectorMapper mapper );2;1;10
+TermVectorMapperDecorator.isIgnoringPositions( );1;0;3
+TermVectorMapperDecorator.setDocumentNumber( int documentNumber );1;0;3
+TermVectorAccessor.build( IndexReader indexReader , String field , TermVectorMapper mapper , int documentNumber );9;9;40
+TermVectorMapperDecorator.setExpectations( String field , int numTerms , boolean storeOffsets , boolean storePositions );1;0;4

@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RepositoryConfig.getAccessManagerConfig( );1;0;3
+RepositoryConfig.create( InputSource xml , String home );1;0;10
+RepositoryConfig.getDefaultWorkspaceName( );1;0;3
+RepositoryConfig.addWorkspaceConfig( WorkspaceConfig wc );2;1;9
+RepositoryConfig.getDataStore( );1;0;3
+RepositoryConfig.create( InputStream input , String home );1;0;3
+RepositoryConfig.RepositoryConfig( String home , SecurityConfig sec , FileSystemFactory fsf , String workspaceDirectory , String workspaceConfigDirectory , String defaultWorkspace , int workspaceMaxIdleTime , Element template , VersioningConfig vc , SearchConfig sc , ClusterConfig cc , DataStoreFactory dsf , RepositoryConfigurationParser parser );1;0;16
+RepositoryConfig.getSearchConfig( );1;0;3
+RepositoryConfig.getWorkspaceMaxIdleTime( );1;0;3
+RepositoryConfig.getAppName( );1;0;3
+RepositoryConfig.create( String file , String home );1;0;4
+RepositoryConfig.createWorkspaceConfig( String name , InputSource template );1;0;5
+RepositoryConfig.getClusterConfig( );1;0;3
+RepositoryConfig.getWorkspaceConfigs( );1;0;3
+RepositoryConfig.getLoginModuleConfig( );1;0;3
+RepositoryConfig.loadWorkspaceConfig( FileSystem fs , String configDir );4;4;28
+RepositoryConfig.getWorkspaceConfig( String name );1;0;3
+RepositoryConfig.getSecurityConfig( );1;0;3
+RepositoryConfig.loadWorkspaceConfig( File directory );2;0;16
+RepositoryConfig.internalCreateWorkspaceConfig( String name , Element template , StringBuffer configContent );16;13;102
+RepositoryConfig.getFileSystem( );1;0;3
+RepositoryConfig.init( );13;15;55
+RepositoryConfig.getWorkspacesConfigRootDir( );1;0;3
+RepositoryConfig.getHomeDir( );1;0;3
+RepositoryConfig.getVersioningConfig( );1;0;3
+RepositoryConfig.create( URI uri , String home );1;0;3
+RepositoryConfig.createWorkspaceConfig( String name , StringBuffer configContent );1;0;3

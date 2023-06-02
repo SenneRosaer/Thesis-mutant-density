@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EOLchecker.EOLchecker( CharIterator charIter );1;0;3
+EOLchecker.reset( );1;0;3
+PendingInline.PendingInline( FObjMixed fo , CharIterator firstTrailingWhiteSpace );1;0;4
+XMLWhiteSpaceHandler.handleWhiteSpace( FObjMixed fo , FONode firstTextNode , FONode nextChild );45;63;114
+XMLWhiteSpaceHandler.handleWhiteSpace( );21;9;77
+XMLWhiteSpaceHandler.addPendingInline( FObjMixed fo );2;1;6
+EOLchecker.beforeLinefeed( );7;5;18
+XMLWhiteSpaceHandler.handlePendingInlines( );5;6;15
+XMLWhiteSpaceHandler.handleWhiteSpace( FObjMixed fo , FONode firstTextNode );1;0;3

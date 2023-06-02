@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HeaderWebSessionIdResolverTests.resolveSessionIdsWhenMultipleIdsThenIdsFound( );1;0;8
+HeaderWebSessionIdResolverTests.expireWhenAfterSetSessionIdThenSetsEmptyHeader( );1;0;5
+HeaderWebSessionIdResolverTests.resolveSessionIdsWhenIdThenIdFound( );1;0;6
+HeaderWebSessionIdResolverTests.expireWhenMultipleInvocationThenSetsSingleEmptyHeader( );1;0;5
+HeaderWebSessionIdResolverTests.setSessionIdWhenCustomHeaderNameThenSetsHeader( );1;0;7
+HeaderWebSessionIdResolverTests.expireWhenValidThenSetsEmptyHeader( );1;0;4
+HeaderWebSessionIdResolverTests.setSessionIdWhenValidThenSetsHeader( );1;0;5
+HeaderWebSessionIdResolverTests.setSessionIdWhenNullIdThenIllegalArgumentException( );1;0;4
+HeaderWebSessionIdResolverTests.resolveSessionIdsWhenNoIdsThenEmpty( );1;0;3
+HeaderWebSessionIdResolverTests.setSessionIdWhenMultipleThenSetsSingleHeader( );1;0;6

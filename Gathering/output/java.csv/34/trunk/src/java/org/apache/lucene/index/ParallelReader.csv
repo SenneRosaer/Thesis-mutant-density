@@ -1,0 +1,58 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParallelReader.terms( Term term );1;0;4
+ParallelReader.norms( String field );2;1;5
+ParallelTermDocs.close( );2;1;4
+ParallelTermDocs.ParallelTermDocs( Term term );1;0;1
+ParallelTermPositions.seek( Term term );2;1;4
+ParallelTermPositions.isPayloadAvailable( );1;0;3
+ParallelReader.getTermFreqVector( int n , String field );2;1;5
+ParallelTermDocs.next( );2;1;5
+ParallelTermDocs.skipTo( int target );2;1;5
+ParallelReader.document( int n , FieldSelector fieldSelector );7;5;23
+ParallelReader.isCurrent( );3;3;8
+ParallelReader.numDocs( );1;0;3
+ParallelReader.hasNorms( String field );2;1;5
+ParallelReader.maxDoc( );1;0;3
+ParallelTermDocs.read( final int [ ] docs , final int [ ] freqs );2;1;5
+ParallelTermEnum.docFreq( );2;1;5
+ParallelReader.getFieldNames( IndexReader . FieldOption fieldNames );2;2;10
+ParallelTermDocs.freq( );1;0;1
+ParallelTermPositions.getPayload( byte [ ] data , int offset );1;0;3
+ParallelReader.doSetNorm( int n , String field , byte value );2;1;5
+ParallelReader.isDeleted( int n );2;1;5
+ParallelReader.getVersion( );1;0;3
+ParallelReader.add( IndexReader reader , boolean ignoreStoredFields );8;5;29
+ParallelReader.termPositions( Term term );1;0;4
+ParallelTermDocs.seek( Term term );2;1;4
+ParallelReader.getSubReaders( );1;0;3
+ParallelReader.getTermFreqVector( int docNumber , String field , TermVectorMapper mapper );2;1;7
+ParallelReader.ParallelReader( boolean closeSubReaders );1;1;4
+ParallelReader.getTermFreqVectors( int n );3;1;15
+ParallelReader.termPositions( );1;0;4
+ParallelReader.reopen( );12;12;54
+ParallelTermPositions.getPayloadLength( );1;0;3
+ParallelReader.doClose( );3;2;9
+ParallelTermDocs.doc( );1;0;1
+ParallelTermPositions.nextPosition( );1;0;3
+ParallelReader.norms( String field , byte [ ] result , int offset );2;1;6
+ParallelTermEnum.close( );2;1;4
+ParallelReader.doCommit( );2;2;4
+ParallelReader.doDelete( int n );2;2;6
+ParallelReader.add( IndexReader reader );1;0;4
+ParallelTermEnum.term( );2;1;5
+ParallelReader.isOptimized( );3;3;8
+ParallelTermPositions.ParallelTermPositions( Term term );1;0;1
+ParallelTermEnum.next( );8;7;21
+ParallelTermPositions.ParallelTermPositions( );1;0;1
+ParallelReader.termDocs( );1;0;4
+ParallelReader.terms( );1;0;4
+ParallelReader.docFreq( Term term );2;1;5
+ParallelReader.ParallelReader( );1;0;1
+ParallelReader.getTermFreqVector( int docNumber , TermVectorMapper mapper );2;0;11
+ParallelReader.hasDeletions( );1;0;3
+ParallelTermEnum.ParallelTermEnum( Term term );2;1;6
+ParallelTermDocs.ParallelTermDocs( );1;0;1
+ParallelReader.termDocs( Term term );1;0;4
+ParallelTermEnum.ParallelTermEnum( );2;1;5
+ParallelReader.doUndeleteAll( );2;2;6
+ParallelTermDocs.seek( TermEnum termEnum );1;0;3

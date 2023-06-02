@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultSkipListWriter.setProxOutput( IndexOutput proxOutput );1;0;3
+DefaultSkipListWriter.setSkipData( int doc , boolean storePayloads , int payloadLength );2;1;8
+DefaultSkipListWriter.resetSkip( );2;2;8
+DefaultSkipListWriter.DefaultSkipListWriter( int skipInterval , int numberOfSkipLevels , int docCount , IndexOutput freqOutput , IndexOutput proxOutput );1;0;9
+DefaultSkipListWriter.setFreqOutput( IndexOutput freqOutput );1;0;3
+DefaultSkipListWriter.writeSkipData( int level , IndexOutput skipBuffer );3;8;19

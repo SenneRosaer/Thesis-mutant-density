@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DelegatingContentHandler.setDelegateLexicalHandler( LexicalHandler handler );1;0;3
+DelegatingContentHandler.endElement( String uri , String localName , String qName );1;0;3
+DelegatingContentHandler.startEntity( String name );2;1;5
+DelegatingContentHandler.setDocumentLocator( Locator locator );1;0;3
+DelegatingContentHandler.startDTD( String name , String publicId , String systemId );2;1;5
+DelegatingContentHandler.setDelegateContentHandler( ContentHandler handler );1;0;3
+DelegatingContentHandler.endDTD( );2;1;5
+DelegatingContentHandler.endDocument( );1;0;3
+DelegatingContentHandler.setDelegateErrorHandler( ErrorHandler handler );1;0;3
+DelegatingContentHandler.resolveEntity( String publicId , String systemId );2;1;7
+DelegatingContentHandler.unparsedEntityDecl( String name , String publicId , String systemId , String notationName );2;1;5
+DelegatingContentHandler.setDelegateEntityResolver( EntityResolver resolver );1;0;3
+DelegatingContentHandler.getDelegateContentHandler( );1;0;3
+DelegatingContentHandler.endEntity( String name );2;1;5
+DelegatingContentHandler.characters( char [ ] ch , int start , int length );1;0;3
+DelegatingContentHandler.fatalError( SAXParseException exception );2;1;5
+DelegatingContentHandler.setDelegateDTDHandler( DTDHandler handler );1;0;3
+DelegatingContentHandler.startDocument( );1;0;3
+DelegatingContentHandler.endPrefixMapping( String prefix );1;0;3
+DelegatingContentHandler.comment( char [ ] ch , int start , int length );2;1;5
+DelegatingContentHandler.endCDATA( );2;1;5
+DelegatingContentHandler.skippedEntity( String name );1;0;3
+DelegatingContentHandler.startCDATA( );2;1;5
+DelegatingContentHandler.processingInstruction( String target , String data );1;0;3
+DelegatingContentHandler.startElement( String uri , String localName , String qName , Attributes atts );1;0;3
+DelegatingContentHandler.ignorableWhitespace( char [ ] ch , int start , int length );1;0;3
+DelegatingContentHandler.warning( SAXParseException exception );2;1;5
+DelegatingContentHandler.error( SAXParseException exception );2;1;5
+DelegatingContentHandler.DelegatingContentHandler( );1;0;2
+DelegatingContentHandler.notationDecl( String name , String publicId , String systemId );2;1;5
+DelegatingContentHandler.startPrefixMapping( String prefix , String uri );1;0;3

@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProcessAndInstanceManagementMBean.getAttribute( String attribute );1;0;3
+ProcessAndInstanceManagementMBean.setAttribute( Attribute attribute );1;0;3
+ProcessAndInstanceManagementMBean.getMBeanInfo( );1;0;3
+ProcessAndInstanceManagementMBean.findTypes( ClassLoader loader , String [ ] signature );5;4;16
+ProcessAndInstanceManagementMBean.ProcessAndInstanceManagementMBean( ProcessAndInstanceManagementImpl pm );3;1;16
+ProcessAndInstanceManagementMBean.ProcessAndInstanceManagementMBean( BpelServer server , ProcessStore store );1;0;3
+ProcessAndInstanceManagementMBean.setAttributes( AttributeList attributes );1;0;3
+ProcessAndInstanceManagementMBean.getAttributes( String [ ] attributes );1;0;3
+ProcessAndInstanceManagementMBean.invoke( String actionName , Object [ ] params , String [ ] signature );3;1;11

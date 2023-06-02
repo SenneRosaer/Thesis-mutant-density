@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TemplateAwareExpressionParser.parseExpression( String expressionString );1;0;3
+Bracket.compatibleWithCloseBracket( char closeBracket );3;5;9
+TemplateAwareExpressionParser.parseTemplate( String expressionString , ParserContext context );3;1;12
+TemplateAwareExpressionParser.skipToCorrectEndSuffix( String suffix , String expressionString , int afterPrefixIndex );18;13;56
+TemplateAwareExpressionParser.isSuffixHere( String expressionString , int pos , String suffix );5;8;12
+TemplateAwareExpressionParser.parseExpressions( String expressionString , ParserContext context );7;9;40
+TemplateAwareExpressionParser.parseExpression( String expressionString , @ Nullable ParserContext context );3;2;8
+Bracket.Bracket( char bracket , int pos );1;0;4
+Bracket.theCloseBracketFor( char openBracket );3;2;9
+Bracket.theOpenBracketFor( char closeBracket );3;2;9

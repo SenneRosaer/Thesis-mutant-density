@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JSONScanner.indexOf( char ch , int startIndex );1;0;3
+JSONScanner.checkTime( char h0 , char h1 , char m0 , char m1 , char s0 , char s1 );22;28;40
+JSONScanner.checkDate( char y0 , char y1 , char y2 , char y3 , char M0 , char M1 , int d0 , int d1 );26;36;41
+JSONScanner.JSONScanner( char [ ] input , int inputLength );1;0;3
+JSONScanner.scanFieldStringArray( char [ ] fieldName , Class < ? > type );31;52;129
+JSONScanner.setTimeZone( char timeZoneFlag , char t0 , char t1 , char t3 , char t4 );3;16;10
+JSONScanner.scanFieldString( char [ ] fieldName );24;46;105
+JSONScanner.stringVal( );2;2;7
+JSONScanner.scanFieldSymbol( char [ ] fieldName );19;23;80
+JSONScanner.skipObject( );1;0;3
+JSONScanner.seekArrayToItem( int index );17;22;64
+JSONScanner.scanDouble( char seperator );37;74;129
+JSONScanner.subString( int offset , int count );3;4;14
+JSONScanner.charArrayCompare( String src , int offset , char [ ] dest );4;6;12
+JSONScanner.skipArray( boolean valid );15;21;53
+JSONScanner.decimalValue( );8;16;19
+JSONScanner.setCalendar( char y0 , char y1 , char y2 , char y3 , char M0 , char M1 , char d0 , char d1 );1;19;9
+JSONScanner.JSONScanner( char [ ] input , int inputLength , int features );1;0;3
+JSONScanner.isEOF( );3;6;3
+JSONScanner.scanInt( char expectNext );29;44;99
+JSONScanner.seekObjectToField( long fieldNameHash , boolean deepScan );97;135;240
+JSONScanner.copyTo( int offset , int count , char [ ] dest );1;1;3
+JSONScanner.charAt( int index );2;1;6
+JSONScanner.info( );4;6;21
+JSONScanner.arrayCopy( int srcPos , char [ ] dest , int destPos , int length );1;1;3
+JSONScanner.charArrayCompare( char [ ] chars );1;0;3
+JSONScanner.sub_chars( int offset , int count );3;4;10
+JSONScanner.numberString( );6;12;8
+JSONScanner.skipObject( boolean valid );19;28;67
+JSONScanner.setTime( char h0 , char h1 , char m0 , char m1 , char s0 , char s1 );1;12;8
+JSONScanner.scanFieldInt( char [ ] fieldName );28;43;104
+JSONScanner.scanISO8601DateIfMatch( boolean strict );1;1;4
+JSONScanner.matchField2( char [ ] fieldName );5;5;22
+JSONScanner.scanISO8601DateIfMatch( boolean strict , int rest );145;376;413
+JSONScanner.next( );2;2;6
+JSONScanner.skipString( );6;10;19
+JSONScanner.scanFieldDate( char [ ] fieldName );27;48;102
+JSONScanner.scanLong( char seperator );28;45;91
+JSONScanner.JSONScanner( String input , int features );2;2;10
+JSONScanner.skipArray( );1;0;3
+JSONScanner.scanFieldBoolean( char [ ] fieldName );32;48;120
+JSONScanner.seekObjectToField( long [ ] fieldNameHash );70;111;175
+JSONScanner.scanFieldStringArray( char [ ] fieldName , int argTypesCount , SymbolTable typeSymbolTable );20;24;90
+JSONScanner.addSymbol( int offset , int len , int hash , final SymbolTable symbolTable );1;0;3
+JSONScanner.scanISO8601DateIfMatch( );1;0;3
+JSONScanner.scanFieldLong( char [ ] fieldName );29;46;103
+JSONScanner.bytesValue( );7;20;23
+JSONScanner.JSONScanner( String input );1;0;3
+JSONScanner.scanTypeName( SymbolTable symbolTable );6;14;21
+JSONScanner.setTimeZone( char timeZoneFlag , char t0 , char t1 );1;0;3
+JSONScanner.scanDate( char seperator );30;56;112

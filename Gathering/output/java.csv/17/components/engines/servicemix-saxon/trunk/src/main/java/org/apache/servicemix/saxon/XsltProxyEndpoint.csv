@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XsltProxyEndpoint.getStore( );1;0;3
+XsltProxyEndpoint.createTransformerFactory( );2;1;7
+XsltProxyEndpoint.validate( );2;1;6
+XsltProxyEndpoint.setOutResource( Resource outResource );1;0;3
+XsltProxyEndpoint.setStore( Store store );1;0;3
+XsltProxyEndpoint.setUseDomSourceForContent( Boolean useDomSourceForContent );1;0;3
+XsltProxyEndpoint.setFaultResource( Resource faultResource );1;0;3
+XsltProxyEndpoint.start( );3;3;9
+XsltProxyEndpoint.process( MessageExchange exchange );13;13;50
+XsltProxyEndpoint.getTransformerFactory( );2;1;6
+XsltProxyEndpoint.getResource( int type );4;0;8
+XsltProxyEndpoint.setStoreFactory( StoreFactory storeFactory );1;0;3
+XsltProxyEndpoint.setTarget( ExchangeTarget target );1;0;3
+XsltProxyEndpoint.setUseDomSourceForXslt( boolean useDomSourceForXslt );1;0;3
+XsltProxyEndpoint.isUseDomSourceForXslt( );1;0;3
+XsltProxyEndpoint.getTarget( );1;0;3
+XsltProxyEndpoint.createTemplates( int type );1;0;4
+XsltProxyEndpoint.getTemplates( int type );2;1;6
+XsltProxyEndpoint.getFaultResource( );1;0;3
+XsltProxyEndpoint.configureTransformer( Transformer transformer , MessageExchange inExchange , NormalizedMessage inMessage , MessageExchange outExchange , NormalizedMessage outMessage );5;1;25
+XsltProxyEndpoint.getUseDomSourceForContent( );1;0;3
+XsltProxyEndpoint.transformContent( Transformer transformer , MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );8;5;27
+XsltProxyEndpoint.setTransformerFactory( TransformerFactory transformerFactory );1;0;3
+XsltProxyEndpoint.createXsltSource( Resource res );3;0;12
+XsltProxyEndpoint.getStoreFactory( );1;0;3
+XsltProxyEndpoint.transform( MessageExchange inExchange , NormalizedMessage inMessage , MessageExchange outExchange , NormalizedMessage outMessage , int type );2;1;10
+XsltProxyEndpoint.createTransformer( MessageExchange exchange , NormalizedMessage msg , int type );5;3;20
+XsltProxyEndpoint.transform( MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );1;0;3
+XsltProxyEndpoint.getXsltSource( int type );2;1;6
+XsltProxyEndpoint.getOutResource( );1;0;3

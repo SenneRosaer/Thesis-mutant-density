@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FTPPoller.getPath( );1;0;3
+FTPPoller.pollFile( final FTPFile aFile );3;0;16
+FTPPoller.getClientPool( );1;0;3
+FTPPoller.borrowClient( );2;0;8
+FTPPoller.returnClient( SocketClient client );3;1;10
+FTPPoller.run( );1;0;7
+FTPPoller.getWorkingSet( );1;0;3
+FTPPoller.init( );2;1;6
+FTPPoller.processFile( FTPClient client , FTPFile file );1;1;11
+FTPPoller.setMarshaler( FileMarshaler marshaler );1;0;3
+FTPPoller.getMarshaler( );1;0;3
+FTPPoller.setClientPool( FTPClientPool clientPool );1;0;3
+FTPPoller.poll( );2;2;12
+FTPPoller.getWorkingPath( );2;1;3
+FTPPoller.setPath( String path );1;0;3
+FTPPoller.processFile( FTPFile file );6;4;21

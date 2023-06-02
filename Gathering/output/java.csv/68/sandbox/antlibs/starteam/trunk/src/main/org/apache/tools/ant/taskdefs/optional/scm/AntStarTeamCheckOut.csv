@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AntStarTeamCheckOut.setProjectName( String projectName );1;0;3
+AntStarTeamCheckOut.setServerName( String serverName );1;0;3
+***not in a method***;0;1;0
+AntStarTeamCheckOut.setUsername( String username );1;0;3
+AntStarTeamCheckOut.matchPatterns( String patterns , String pName );4;1;12
+AntStarTeamCheckOut.shouldCheckout( String pName );2;2;5
+AntStarTeamCheckOut.getExcludes( );1;0;3
+AntStarTeamCheckOut.setTargetFolder( String targetFolder );1;0;3
+AntStarTeamCheckOut.runType( Server s , com . starbase . starteam . Project p , View v , Type t );8;13;34
+AntStarTeamCheckOut.setFolderName( String folderName );1;0;3
+AntStarTeamCheckOut.getVerbose( );1;0;3
+AntStarTeamCheckOut.setVerbose( boolean verbose );1;0;3
+AntStarTeamCheckOut.getUsername( );1;0;3
+AntStarTeamCheckOut.runFolder( Server s , com . starbase . starteam . Project p , View v , Type t , Folder f , java . io . File tgt );4;4;13
+AntStarTeamCheckOut.runProject( Server s , com . starbase . starteam . Project p );4;2;13
+AntStarTeamCheckOut.setExcludes( String excludes );1;0;3
+AntStarTeamCheckOut.setTargetFolderAbsolute( boolean targetFolderAbsolute );1;0;3
+AntStarTeamCheckOut.getServer( );1;0;6
+AntStarTeamCheckOut.getFolderName( );1;0;3
+AntStarTeamCheckOut.setViewName( String viewName );1;0;3
+AntStarTeamCheckOut.execute( );1;0;11
+AntStarTeamCheckOut.getRecursion( );1;0;3
+AntStarTeamCheckOut.getPrimaryDescriptor( Type t );3;2;10
+AntStarTeamCheckOut.getServerName( );1;0;3
+AntStarTeamCheckOut.runItem( Server s , com . starbase . starteam . Project p , View v , Type t , Folder f , Item item , java . io . File tgt );9;9;47
+AntStarTeamCheckOut.runServer( Server s );4;2;13
+AntStarTeamCheckOut.getProjectName( );1;0;3
+AntStarTeamCheckOut.getIncludes( );1;0;3
+AntStarTeamCheckOut.getTargetFolder( );1;0;3
+AntStarTeamCheckOut.setForce( boolean force );1;0;3
+AntStarTeamCheckOut.setServerPort( int serverPort );1;0;3
+AntStarTeamCheckOut.checkParameters( );6;14;19
+AntStarTeamCheckOut.getServerPort( );1;0;3
+AntStarTeamCheckOut.getTargetFolderAbsolute( );1;0;3
+AntStarTeamCheckOut.assertTrue( boolean value , String msg );2;1;5
+AntStarTeamCheckOut.getPassword( );1;0;3
+AntStarTeamCheckOut.getViewName( );1;0;3
+AntStarTeamCheckOut.getForce( );1;0;3
+AntStarTeamCheckOut.calcTargetFolder( View v , Folder rootSourceFolder );6;4;26
+AntStarTeamCheckOut.setRecursion( boolean recursion );1;0;3
+AntStarTeamCheckOut.setIncludes( String includes );1;0;3
+AntStarTeamCheckOut.formatForDisplay( Property p , Object value );4;3;15
+AntStarTeamCheckOut.getSecondaryDescriptor( Type t );4;4;10
+AntStarTeamCheckOut.setPassword( String password );1;0;3

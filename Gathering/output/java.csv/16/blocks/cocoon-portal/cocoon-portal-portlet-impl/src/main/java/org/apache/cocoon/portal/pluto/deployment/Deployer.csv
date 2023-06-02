@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WrapperInputStream.markSupported( );1;0;3
+WrapperInputStream.close( );1;0;2
+Deployer.addFile( String path , InputStream source , JarOutputStream jos );2;1;12
+WrapperInputStream.read( );1;0;3
+Deployer.resolveEntity( String publicId , String systemId );2;0;6
+WrapperInputStream.read( byte [ ] b );1;0;3
+Deployer.addFile( String path , Document source , JarOutputStream jos );2;1;11
+WrapperInputStream.skip( long n );1;0;3
+Deployer.deploy( InputStream inputStream , String outputName , boolean stripLoggers , Log logger , ServiceManager manager );26;15;116
+WrapperInputStream.available( );1;0;3
+Deployer.getPortletApplicationName( String path );2;2;10
+Deployer.parseXml( InputStream source );3;0;20
+WrapperInputStream.read( byte [ ] b , int off , int len );1;0;3
+WrapperInputStream.WrapperInputStream( InputStream is );1;0;3
+WrapperInputStream.reset( );1;0;3
+WrapperInputStream.mark( int readlimit );1;0;3

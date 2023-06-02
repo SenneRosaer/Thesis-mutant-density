@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RecordComponentWriter.visitEnd( );1;0;2
+RecordComponentWriter.computeRecordComponentInfoSize( );2;4;14
+RecordComponentWriter.visitAttribute( final Attribute attribute );1;0;4
+RecordComponentWriter.visitAnnotation( final String descriptor , final boolean visible );2;0;9
+RecordComponentWriter.visitTypeAnnotation( final int typeRef , final TypePath typePath , final String descriptor , final boolean visible );2;0;11
+RecordComponentWriter.RecordComponentWriter( final SymbolTable symbolTable , final String name , final String descriptor , final String signature );2;1;9
+RecordComponentWriter.putRecordComponentInfo( final ByteVector output );8;13;34
+RecordComponentWriter.collectAttributePrototypes( final Attribute . Set attributePrototypes );1;0;3

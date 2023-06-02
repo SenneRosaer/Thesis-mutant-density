@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExecutorSubscribableChannel.ExecutorSubscribableChannel( @ Nullable Executor executor );1;0;3
+SendTask.applyBeforeHandle( Message < ? > message );5;2;16
+ExecutorSubscribableChannel.ExecutorSubscribableChannel( );1;0;3
+ExecutorSubscribableChannel.addInterceptor( ChannelInterceptor interceptor );1;0;4
+ExecutorSubscribableChannel.getExecutor( );1;0;3
+SendTask.getMessage( );1;0;3
+ExecutorSubscribableChannel.addInterceptor( int index , ChannelInterceptor interceptor );1;0;4
+SendTask.SendTask( Message < ? > message , MessageHandler messageHandler );1;0;4
+SendTask.run( );6;1;25
+ExecutorSubscribableChannel.sendInternal( Message < ? > message , long timeout );3;1;12
+ExecutorSubscribableChannel.setInterceptors( List < ChannelInterceptor > interceptors );1;0;5
+ExecutorSubscribableChannel.updateExecutorInterceptorsFor( ChannelInterceptor interceptor );2;0;5
+***not in a method***;0;1;0
+SendTask.triggerAfterMessageHandled( Message < ? > message , @ Nullable Exception ex );3;2;11
+SendTask.getMessageHandler( );1;0;3

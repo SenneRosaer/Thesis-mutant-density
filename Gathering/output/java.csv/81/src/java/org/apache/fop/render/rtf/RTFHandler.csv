@@ -1,0 +1,63 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RTFHandler.startList( ListBlock lb );5;0;21
+RTFHandler.endPageNumber( PageNumber pagenum );2;0;5
+RTFHandler.endHeader( TableHeader header );1;0;3
+RTFHandler.startFootnote( Footnote footnote );4;0;19
+RTFHandler.endLink( );2;0;6
+RTFHandler.startColumn( TableColumn tc );3;0;17
+RTFHandler.endTable( Table tbl );2;1;8
+RTFHandler.endMarkup( );1;0;2
+RTFHandler.startBlockContainer( BlockContainer blc );4;0;21
+RTFHandler.pageRef( );1;0;2
+RTFHandler.startListBody( );1;0;2
+RTFHandler.endListLabel( );2;0;6
+RTFHandler.startLink( BasicLink basicLink );5;0;23
+RTFHandler.startPageNumber( PageNumber pagenum );4;0;20
+RTFHandler.startMarkup( );1;0;2
+RTFHandler.recurseFONode( FONode foNode );18;9;65
+RTFHandler.endFootnoteBody( FootnoteBody body );4;0;17
+RTFHandler.startListLabel( );4;0;16
+RTFHandler.putGraphic( AbstractGraphics abstractGraphic , Image image );8;18;65
+RTFHandler.startCell( TableCell tc );11;12;59
+RTFHandler.endPart( TablePart tb );4;0;14
+RTFHandler.endInline( Inline inl );4;0;17
+RTFHandler.startHeader( TableHeader header );1;0;3
+RTFHandler.endFootnote( Footnote footnote );2;0;6
+RTFHandler.leader( Leader l );3;0;18
+RTFHandler.endBlockContainer( BlockContainer bl );4;0;19
+RTFHandler.startPart( TablePart part );4;0;15
+RTFHandler.startInline( Inline inl );5;0;23
+RTFHandler.endRow( TableRow tr );7;4;27
+RTFHandler.startRow( TableRow tr );5;0;21
+RTFHandler.endBlock( Block bl );4;0;19
+RTFHandler.startDocument( );2;0;8
+RTFHandler.endListItem( ListItem li );2;0;6
+RTFHandler.foreignObject( InstreamForeignObject ifo );5;5;41
+RTFHandler.startFooter( TableFooter footer );1;0;3
+RTFHandler.endCell( TableCell tc );2;0;7
+RTFHandler.startBody( TableBody body );1;0;3
+RTFHandler.endListBody( );1;0;2
+RTFHandler.endFlow( Flow fl );8;4;21
+RTFHandler.startFootnoteBody( FootnoteBody body );4;0;17
+RTFHandler.endBody( TableBody body );1;0;3
+RTFHandler.startPageNumberCitation( PageNumberCitation l );3;0;15
+RTFHandler.getBaseLength( int lengthBase , FObj fobj );3;0;10
+RTFHandler.image( ExternalGraphic eg );8;3;25
+RTFHandler.startListItem( ListItem li );5;1;23
+RTFHandler.endFooter( TableFooter footer );1;0;3
+RTFHandler.startStatic( );1;0;2
+RTFHandler.endPageSequence( PageSequence pageSeq );2;0;12
+RTFHandler.endList( ListBlock lb );2;0;6
+RTFHandler.prepareTable( Table tab );2;5;19
+RTFHandler.RTFHandler( FOUserAgent userAgent , OutputStream os );1;0;6
+RTFHandler.putGraphic( AbstractGraphics abstractGraphic , ImageInfo info );2;0;14
+RTFHandler.endStatic( );1;0;2
+RTFHandler.startBlock( Block bl );4;0;22
+RTFHandler.endDocument( );2;0;7
+RTFHandler.endColumn( TableColumn tc );2;0;5
+RTFHandler.startTable( Table tbl );4;1;34
+RTFHandler.text( FOText text , char [ ] data , int start , int length );4;1;21
+RTFHandler.startPageSequence( PageSequence pageSeq );6;7;42
+RTFHandler.invokeDeferredEvent( FONode foNode , boolean bStart );55;0;161
+RTFHandler.startFlow( Flow fl );16;11;71
+RTFHandler.handleIOTrouble( IOException ioe );1;0;5

@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ThreadScope.importClass( Context ctx , Scriptable thisObj , Object [ ] args , Function funObj );3;4;12
+ThreadScope.setupPackages( ClassLoader cl );3;3;17
+ThreadScope.put( int index , Scriptable start , Object value );3;2;7
+***not in a method***;0;1;0
+ThreadScope.ThreadScope( Global scope );1;1;17
+FOM_JavaScriptInterpreter.compileScript( Context cx , Scriptable scope , Source src );2;1;11
+FOM_JavaScriptInterpreter.setupView( Scriptable scope , FOM_Cocoon cocoon , FOM_WebContinuation kont );3;2;22
+FOM_JavaScriptInterpreter.compileScript( Context cx , String fileName );5;6;18
+FOM_JavaScriptInterpreter.getSessionScope( );3;3;16
+FOM_JavaScriptInterpreter.run( );1;0;3
+FOM_JavaScriptInterpreter.setupContext( Redirector redirector , Context context , ThreadScope thrScope );15;16;63
+ThreadScope.getClassLoader( );1;0;3
+FOM_JavaScriptInterpreter.configure( Configuration config );2;1;9
+FOM_JavaScriptInterpreter.callFunction( String funName , List params , Redirector redirector );12;7;62
+FOM_JavaScriptInterpreter.createThreadScope( );1;0;3
+FOM_JavaScriptInterpreter.getScriptExtension( );1;0;3
+FOM_JavaScriptInterpreter.initialize( );4;0;22
+ThreadScope.setLock( boolean lock );1;0;3
+FOM_JavaScriptInterpreter.findEncoding( PushbackInputStream is );2;0;11
+FOM_JavaScriptInterpreter.setSessionScope( ThreadScope scope );4;1;14
+FOM_JavaScriptInterpreter.process( Scriptable scope , FOM_Cocoon cocoon , String uri , Object bizData , OutputStream out );1;0;5
+FOM_JavaScriptInterpreter.handleContinuation( String id , List params , Redirector redirector );10;6;62
+ThreadScope.put( String name , Scriptable start , Object value );5;6;8
+ThreadScope.getClassName( );1;0;3
+FOM_JavaScriptInterpreter.forwardTo( Scriptable scope , FOM_Cocoon cocoon , String uri , Object bizData , FOM_WebContinuation fom_wk , Redirector redirector );2;1;6
+FOM_JavaScriptInterpreter.getDebugger( );2;3;19
+ThreadScope.onExec( );1;0;4

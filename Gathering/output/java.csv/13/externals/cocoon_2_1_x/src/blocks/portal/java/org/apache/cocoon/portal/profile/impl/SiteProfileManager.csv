@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SiteProfileManager.initialize( );1;0;10
+SiteProfileManager.service( ServiceManager manager );1;0;4
+SiteProfileManager.getCopletInstanceData( String copletID );2;1;7
+SiteProfileManager.getUserProfile( String layoutKey );5;6;21
+SiteProfileManager.prepareObject( Object object , PortalService service );10;2;39
+SiteProfileManager.parameterize( Parameters params );1;0;4
+SiteProfileManager.getCopletInstanceDatas( );2;1;7
+SiteProfileManager.isSourceNotFoundException( Throwable t );3;1;9
+SiteProfileManager.buildKey( String category , String profileType , UserInfo info , boolean load );2;0;20
+SiteProfileManager.getCopletDatas( );2;1;7
+SiteProfileManager.register( Layout layout );3;3;6
+SiteProfileManager.getGlobalDatas( final ProfileLS loader , final UserInfo info , final PortalService service , final UserProfile profile );6;8;27
+SiteProfileManager.getUser( );2;0;13
+SiteProfileManager.getPortalLayout( String layoutKey , String layoutId );6;4;24
+SiteProfileManager.storeProfile( Layout rootLayout , String layoutKey );1;0;2
+SiteProfileManager.getSiteName( );2;0;7
+SiteProfileManager.getGlobalBaseDatas( final ProfileLS loader , final UserInfo info , final PortalService service );6;8;27
+SiteProfileManager.register( CopletInstanceData coplet );1;0;4
+SiteProfileManager.dispose( );3;2;13
+SiteProfileManager.unregister( Layout layout );3;3;6
+SiteProfileManager.contextualize( Context context );1;0;3
+SiteProfileManager.getCopletInstanceData( CopletData data );4;1;14
+SiteProfileManager.login( );2;0;8
+SiteProfileManager.getSiteProfile( final ProfileLS loader , final UserInfo info , final PortalService service , final UserProfileInfo storedProfile );21;24;88
+SiteProfileManager.getCopletData( String copletDataId );2;1;7
+SiteProfileManager.loadProfile( final String layoutKey );6;5;32
+SiteProfileManager.unregister( CopletInstanceData coplet );1;0;4

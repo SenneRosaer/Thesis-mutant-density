@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractJsonHttpMessageConverter.AbstractJsonHttpMessageConverter( );1;0;4
+AbstractJsonHttpMessageConverter.getWriter( HttpOutputMessage outputMessage );1;0;3
+AbstractJsonHttpMessageConverter.readInternal( Class < ? > clazz , HttpInputMessage inputMessage );1;0;3
+AbstractJsonHttpMessageConverter.setJsonPrefix( String jsonPrefix );1;0;3
+AbstractJsonHttpMessageConverter.writeInternal( Object object , @ Nullable Type type , HttpOutputMessage outputMessage );3;1;13
+AbstractJsonHttpMessageConverter.setPrefixJson( boolean prefixJson );2;0;3
+AbstractJsonHttpMessageConverter.getReader( HttpInputMessage inputMessage );1;0;3
+AbstractJsonHttpMessageConverter.read( Type type , @ Nullable Class < ? > contextClass , HttpInputMessage inputMessage );1;0;3
+AbstractJsonHttpMessageConverter.readResolved( Type resolvedType , HttpInputMessage inputMessage );2;0;9
+AbstractJsonHttpMessageConverter.getCharset( HttpHeaders headers );3;2;4

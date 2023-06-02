@@ -1,0 +1,83 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DelegatingCallableStatement.getURL( String parameterName );2;0;1
+DelegatingCallableStatement.getObject( String parameterName , Map map );2;0;1
+DelegatingCallableStatement.setDouble( String parameterName , double x );2;0;1
+DelegatingCallableStatement.setBigDecimal( String parameterName , BigDecimal x );2;0;1
+DelegatingCallableStatement.getDate( int parameterIndex , Calendar cal );2;0;1
+DelegatingCallableStatement.wasNull( );2;0;1
+DelegatingCallableStatement.getBoolean( String parameterName );2;0;1
+DelegatingCallableStatement.registerOutParameter( int paramIndex , int sqlType , String typeName );2;0;1
+DelegatingCallableStatement.getObject( int parameterIndex );2;0;1
+DelegatingCallableStatement.getDate( int parameterIndex );2;0;1
+DelegatingCallableStatement.registerOutParameter( int parameterIndex , int sqlType );2;0;1
+DelegatingCallableStatement.setObject( String parameterName , Object x );2;0;1
+DelegatingCallableStatement.setTime( String parameterName , Time x , Calendar cal );2;0;1
+DelegatingCallableStatement.registerOutParameter( String parameterName , int sqlType , int scale );2;0;1
+DelegatingCallableStatement.getDouble( String parameterName );2;0;1
+DelegatingCallableStatement.setDelegate( CallableStatement s );1;0;4
+DelegatingCallableStatement.getFloat( String parameterName );2;0;1
+DelegatingCallableStatement.getBigDecimal( int parameterIndex , int scale );2;0;1
+DelegatingCallableStatement.getString( int parameterIndex );2;0;1
+DelegatingCallableStatement.getLong( int parameterIndex );2;0;1
+DelegatingCallableStatement.DelegatingCallableStatement( DelegatingConnection c , CallableStatement s );1;0;4
+DelegatingCallableStatement.getDate( String parameterName , Calendar cal );2;0;1
+DelegatingCallableStatement.getString( String parameterName );2;0;1
+DelegatingCallableStatement.setBinaryStream( String parameterName , InputStream x , int length );2;0;1
+DelegatingCallableStatement.getInt( String parameterName );2;0;1
+DelegatingCallableStatement.setURL( String parameterName , URL val );2;0;1
+DelegatingCallableStatement.setAsciiStream( String parameterName , InputStream x , int length );2;0;1
+DelegatingCallableStatement.getLong( String parameterName );2;0;1
+DelegatingCallableStatement.getShort( int parameterIndex );2;0;1
+DelegatingCallableStatement.getRef( String parameterName );2;0;1
+DelegatingCallableStatement.getBytes( String parameterName );2;0;1
+DelegatingCallableStatement.getBigDecimal( String parameterName );2;0;1
+DelegatingCallableStatement.getBoolean( int parameterIndex );2;0;1
+DelegatingCallableStatement.setTimestamp( String parameterName , Timestamp x , Calendar cal );2;0;1
+DelegatingCallableStatement.getTimestamp( int parameterIndex , Calendar cal );2;0;1
+DelegatingCallableStatement.getURL( int parameterIndex );2;0;1
+DelegatingCallableStatement.getInt( int parameterIndex );2;0;1
+DelegatingCallableStatement.getClob( int i );2;0;1
+DelegatingCallableStatement.getBlob( String parameterName );2;0;1
+DelegatingCallableStatement.getTime( String parameterName , Calendar cal );2;0;1
+DelegatingCallableStatement.setInt( String parameterName , int x );2;0;1
+DelegatingCallableStatement.getByte( String parameterName );2;0;1
+DelegatingCallableStatement.getDouble( int parameterIndex );2;0;1
+DelegatingCallableStatement.equals( Object obj );3;1;13
+DelegatingCallableStatement.getObject( int i , Map map );2;0;1
+DelegatingCallableStatement.setCharacterStream( String parameterName , Reader reader , int length );1;0;1
+DelegatingCallableStatement.getDate( String parameterName );2;0;1
+DelegatingCallableStatement.getBlob( int i );2;0;1
+DelegatingCallableStatement.setFloat( String parameterName , float x );2;0;1
+DelegatingCallableStatement.getFloat( int parameterIndex );2;0;1
+DelegatingCallableStatement.setObject( String parameterName , Object x , int targetSqlType , int scale );2;0;1
+DelegatingCallableStatement.getObject( String parameterName );2;0;1
+DelegatingCallableStatement.setNull( String parameterName , int sqlType );2;0;1
+DelegatingCallableStatement.getTimestamp( String parameterName , Calendar cal );2;0;1
+DelegatingCallableStatement.setByte( String parameterName , byte x );2;0;1
+DelegatingCallableStatement.getShort( String parameterName );2;0;1
+DelegatingCallableStatement.registerOutParameter( int parameterIndex , int sqlType , int scale );2;0;1
+DelegatingCallableStatement.registerOutParameter( String parameterName , int sqlType );2;0;1
+DelegatingCallableStatement.setBoolean( String parameterName , boolean x );2;0;1
+DelegatingCallableStatement.getArray( String parameterName );2;0;1
+DelegatingCallableStatement.getTimestamp( String parameterName );2;0;1
+DelegatingCallableStatement.getTime( String parameterName );2;0;1
+DelegatingCallableStatement.getArray( int i );2;0;1
+DelegatingCallableStatement.getByte( int parameterIndex );2;0;1
+DelegatingCallableStatement.getTime( int parameterIndex , Calendar cal );2;0;1
+DelegatingCallableStatement.setDate( String parameterName , Date x );2;0;1
+DelegatingCallableStatement.getTimestamp( int parameterIndex );2;0;1
+DelegatingCallableStatement.setObject( String parameterName , Object x , int targetSqlType );2;0;1
+DelegatingCallableStatement.setDate( String parameterName , Date x , Calendar cal );2;0;1
+DelegatingCallableStatement.setTimestamp( String parameterName , Timestamp x );2;0;1
+DelegatingCallableStatement.setNull( String parameterName , int sqlType , String typeName );2;0;1
+DelegatingCallableStatement.getBigDecimal( int parameterIndex );2;0;1
+DelegatingCallableStatement.setLong( String parameterName , long x );2;0;1
+DelegatingCallableStatement.getRef( int i );2;0;1
+DelegatingCallableStatement.getTime( int parameterIndex );2;0;1
+DelegatingCallableStatement.getBytes( int parameterIndex );2;0;1
+DelegatingCallableStatement.setBytes( String parameterName , byte [ ] x );2;0;1
+DelegatingCallableStatement.setTime( String parameterName , Time x );2;0;1
+DelegatingCallableStatement.setShort( String parameterName , short x );2;0;1
+DelegatingCallableStatement.setString( String parameterName , String x );2;0;1
+DelegatingCallableStatement.getClob( String parameterName );2;0;1
+DelegatingCallableStatement.registerOutParameter( String parameterName , int sqlType , String typeName );2;0;1

@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConnectionFactoryUtils.indicatesDuplicateKey( @ Nullable String sqlState , int errorCode );5;7;5
+ConnectionFactoryUtils.getTargetConnection( Connection con );3;0;7
+ConnectionFactoryUtils.currentConnectionFactory( ConnectionFactory connectionFactory );3;3;8
+ConnectionFactoryUtils.doReleaseConnection( Connection connection , ConnectionFactory connectionFactory );3;2;10
+ConnectionFactoryUtils.releaseConnection( Connection con , ConnectionFactory connectionFactory );1;0;4
+ConnectionFactoryUtils.buildMessage( String task , @ Nullable String sql , R2dbcException ex );2;3;3
+ConnectionSynchronization.suspend( );4;2;13
+ConnectionFactoryUtils.getConnection( ConnectionFactory connectionFactory );1;0;4
+ConnectionSynchronization.beforeCompletion( );3;1;13
+ConnectionSynchronization.afterCompletion( int status );3;0;15
+ConnectionFactoryUtils.connectionEquals( ConnectionHolder conHolder , Connection passedInCon );4;4;7
+ConnectionSynchronization.resume( );2;0;9
+ConnectionFactoryUtils.doGetConnection( ConnectionFactory connectionFactory );8;6;34
+ConnectionSynchronization.getOrder( );1;0;3
+ConnectionFactoryUtils.getConnectionSynchronizationOrder( ConnectionFactory connectionFactory );2;1;9
+ConnectionSynchronization.ConnectionSynchronization( ConnectionHolder connectionHolder , ConnectionFactory connectionFactory );1;0;5
+ConnectionFactoryUtils.fetchConnection( ConnectionFactory connectionFactory );1;0;3
+ConnectionFactoryUtils.convertR2dbcException( String task , @ Nullable String sql , R2dbcException ex );13;1;34

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+from( AnnotatedElement element , SearchStrategy searchStrategy , RepeatableContainers repeatableContainers );1;0;3
+from( Annotation ... annotations );1;0;3
+from( Object source , Annotation [ ] annotations , RepeatableContainers repeatableContainers );1;0;3
+Search.withRepeatableContainers( RepeatableContainers repeatableContainers );1;0;5
+search( SearchStrategy searchStrategy );1;0;4
+from( AnnotatedElement element , SearchStrategy searchStrategy , Predicate < Class < ? > > searchEnclosingClass , RepeatableContainers repeatableContainers , AnnotationFilter annotationFilter );1;0;9
+from( AnnotatedElement element , SearchStrategy searchStrategy );1;0;3
+Search.withAnnotationFilter( AnnotationFilter annotationFilter );1;0;5
+from( AnnotatedElement element , SearchStrategy searchStrategy , RepeatableContainers repeatableContainers , AnnotationFilter annotationFilter );1;0;3
+Search.withEnclosingClasses( Predicate < Class < ? > > searchEnclosingClass );1;1;7
+Search.Search( SearchStrategy searchStrategy );1;0;3
+Search.from( AnnotatedElement element );1;0;4
+of( Collection < MergedAnnotation < ? > > annotations );1;0;3
+from( Object source , Annotation [ ] annotations , RepeatableContainers repeatableContainers , AnnotationFilter annotationFilter );1;0;5
+from( AnnotatedElement element );1;0;3
+from( Object source , Annotation ... annotations );1;0;3

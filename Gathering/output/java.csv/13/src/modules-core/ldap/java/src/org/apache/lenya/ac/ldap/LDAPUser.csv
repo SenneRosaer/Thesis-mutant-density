@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LDAPUser.setLdapId( String string );1;0;3
+LDAPUser.existsUser( String _ldapId );6;1;19
+LDAPUser.bind( String principal , String credentials , String authMethod );7;7;30
+LDAPUser.constructPrincipal( String userId );6;5;22
+LDAPUser.LDAPUser( ItemManager itemManager , Logger logger );1;0;3
+LDAPUser.createConfiguration( );1;0;7
+LDAPUser.setName( String string );1;0;2
+LDAPUser.isSubtreeSearch( );3;2;8
+LDAPUser.initialize( );9;3;30
+LDAPUser.readProperties( );3;2;15
+LDAPUser.getDirectoryEntry( String userId );9;3;47
+LDAPUser.setPassword( String plainTextPassword );1;0;3
+LDAPUser.canChangePassword( );1;0;3
+LDAPUser.getLdapId( );1;0;3
+LDAPUser.LDAPUser( ItemManager itemManager , Logger logger , String id , String email , String _ldapId , Logger _logger );1;0;5
+LDAPUser.configure( Configuration config );1;0;5
+LDAPUser.authenticate( String password );7;0;25
+LDAPUser.close( Context ctx );2;1;4
+LDAPUser.getName( );1;0;3
+LDAPUser.getPrincipal( );6;6;21
+LDAPUser.setEncryptedPassword( String encryptedPassword );1;0;3

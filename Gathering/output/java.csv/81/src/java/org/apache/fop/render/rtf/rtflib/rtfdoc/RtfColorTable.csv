@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RtfColorTable.writeColors( RtfHeader header );4;5;18
+RtfColorTable.getColorNumber( int red , int green , int blue );2;2;12
+RtfColorTable.getColorNumber( String name );1;0;3
+RtfColorTable.getInstance( );2;1;6
+RtfColorTable.addColor( Integer i );1;0;4
+RtfColorTable.determineIdentifier( int red , int green , int blue );1;5;6
+RtfColorTable.addNamedColor( String name , int colorNumber );1;0;3
+RtfColorTable.RtfColorTable( );1;0;6
+RtfColorTable.init( );1;0;19
+RtfColorTable.determineColorLevel( int identifier , int color );2;3;4

@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DatatypeFactory.newDuration( final boolean isPositive , final int years , final int months , final int days , final int hours , final int minutes , final int seconds );7;6;17
+DatatypeFactory.newInstance( );2;0;10
+DatatypeFactory.newDurationDayTime( final boolean isPositive , final int day , final int hour , final int minute , final int second );1;0;9
+DatatypeFactory.newXMLGregorianCalendarDate( final int year , final int month , final int day , final int timezone );1;0;11
+DatatypeFactory.newDurationDayTime( final boolean isPositive , final BigInteger day , final BigInteger hour , final BigInteger minute , final BigInteger second );2;1;11
+DatatypeFactory.newInstance( String factoryClassName , ClassLoader classLoader );4;2;14
+DatatypeFactory.newDurationYearMonth( final boolean isPositive , final int year , final int month );1;0;6
+DatatypeFactory.newXMLGregorianCalendarTime( final int hours , final int minutes , final int seconds , final int timezone );1;0;11
+DatatypeFactory.newDurationYearMonth( final String lexicalRepresentation );1;0;3
+DatatypeFactory.newXMLGregorianCalendar( final int year , final int month , final int day , final int hour , final int minute , final int second , final int millisecond , final int timezone );5;5;24
+DatatypeFactory.newDurationYearMonth( final boolean isPositive , final BigInteger year , final BigInteger month );1;0;11
+DatatypeFactory.newDurationDayTime( final String lexicalRepresentation );1;0;3
+DatatypeFactory.DatatypeFactory( );1;0;1
+DatatypeFactory.newDurationDayTime( final long durationInMilliseconds );7;22;50
+DatatypeFactory.newXMLGregorianCalendarTime( final int hours , final int minutes , final int seconds , final BigDecimal fractionalSecond , final int timezone );1;0;11
+DatatypeFactory.newXMLGregorianCalendarTime( final int hours , final int minutes , final int seconds , final int milliseconds , final int timezone );4;4;20
+DatatypeFactory.newDurationYearMonth( final long durationInMilliseconds );1;0;3

@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IfListEntry.IfListEntry( String value , boolean positive );1;0;4
+IfHeader.parseUntagged( StringReader reader );6;3;22
+IfHeader.IfHeader( HttpServletRequest req );1;0;4
+IfHeaderMap.matches( String resource , String token , String etag );2;1;10
+IfListEntry.getValue( );1;0;3
+IfList.add( int index , IfListEntry entry );1;0;3
+IfHeader.parseTagged( StringReader reader );6;3;23
+IfHeader.hasValue( );1;1;3
+IfHeader.getHeaderName( );1;0;3
+IfHeader.readWord( Reader reader , char end );4;4;12
+IfHeader.parseIfList( StringReader reader );15;9;54
+IfHeader.getAllTokens( );1;0;3
+IfListEntryToken.getType( );1;0;3
+IfList.add( IfListEntry entry );1;0;3
+IfListEntryToken.IfListEntryToken( String token , boolean positive );1;0;3
+IfHeader.parse( );7;6;32
+IfListEntry.match( String value );1;1;3
+IfListEntry.toString( );3;3;6
+IfHeader.IfHeader( String [ ] tokens );2;2;11
+IfHeader.getAllNotTokens( );1;0;3
+IfList.add( Object o );1;0;3
+IfHeader.logIllegalState( String state , int effChar , String expChar , StringReader reader );8;8;18
+IfHeader.getHeaderValue( );1;0;3
+IfListEntryEtag.match( String token , String etag );1;0;3
+IfList.add( int index , Object element );1;0;3
+IfHeader.readWhiteSpace( Reader reader );3;2;7
+IfList.match( String token , String etag );3;3;11
+IfHeader.matches( String tag , String token , String etag );2;1;8
+IfListEntryEtag.IfListEntryEtag( String etag , boolean positive );1;0;3
+IfHeaderList.matches( String resource , String token , String etag );3;2;11
+IfListEntryToken.match( String token , String etag );1;0;3
+IfListEntryEtag.getType( );1;0;3

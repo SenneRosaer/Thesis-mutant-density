@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SymbolHash.clear( );2;2;6
+SymbolHash.SymbolHash( );1;0;3
+SymbolHash.put( Object key , Object value );2;4;12
+SymbolHash.get( Object key );2;3;8
+Entry.Entry( Object key , Object value , Entry next );1;0;5
+Entry.makeClone( );2;1;8
+SymbolHash.makeClone( );3;3;9
+SymbolHash.search( Object key , int bucket );3;1;7
+SymbolHash.SymbolHash( int size );1;0;4
+SymbolHash.getLength( );1;0;3
+Entry.Entry( );1;0;5
+SymbolHash.getValues( Object [ ] elements , int from );4;7;9

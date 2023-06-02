@@ -1,0 +1,55 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FObjIterator.hasPrevious( );3;5;5
+FObj.findNearestAncestorFObj( );3;3;7
+FObjIterator.next( );5;8;17
+FObjIterator.set( Object o );5;6;16
+FObj.getMarkers( );1;0;3
+FObjIterator.hasNext( );4;7;6
+FObj.hasChildren( );1;1;3
+FObjIterator.firstNode( );1;0;5
+FObj.getForeignAttributes( );2;1;7
+FObj.isBlockItem( String nsURI , String lName );8;7;10
+FObj.gatherContextInfo( );7;5;22
+FObj.addChildNode( FONode child );6;6;21
+FObj.FObj( FONode parent );7;7;14
+FObj.startOfNode( );2;1;5
+FObj.toString( );1;1;3
+FObj.addMarker( Marker marker );9;5;27
+FObj.notifyChildRemoval( FONode node );1;0;2
+FObj.clone( FONode parent , boolean removeChildren );2;0;7
+FObj.addChildTo( FONode child , FObj parent );1;0;3
+FObj.hasMarkers( );2;3;3
+FObjIterator.add( Object o );5;7;18
+FObj.isBlockOrInlineItem( String nsURI , String lName );2;1;3
+FObj.getChildNodes( FONode childNode );6;4;18
+FObjIterator.remove( );5;8;17
+FObj.isInlineItem( String nsURI , String lName );18;20;20
+FObj.processNode( String elementName , Locator locator , Attributes attlist , PropertyList pList );3;2;9
+FObjIterator.previousIndex( );1;1;3
+FObj.addForeignAttribute( QName attributeName , String value );3;2;9
+FObj.removeChild( FONode child );5;4;18
+FObj.bind( PropertyList pList );1;0;3
+FObj.getIsOutOfLineFODescendant( );1;0;3
+FObj.getPropertyMakerFor( int propId );1;0;3
+FObjIterator.parentNode( );1;0;3
+FObj.getNamespaceURI( );1;0;3
+FObj.getNormalNamespacePrefix( );1;0;3
+FObj.clearChildNodes( );1;0;3
+FObj.findAncestor( int ancestorID );3;4;12
+FObj.addExtensionAttachment( ExtensionAttachment attachment );4;2;15
+FObjIterator.previousNode( );1;0;3
+FObj.getExtensionAttachments( );2;1;7
+FObjIterator.FObjIterator( FObj parent );1;0;6
+FObj.isNeutralItem( String nsURI , String lName );8;8;9
+FObjIterator.lastNode( );4;6;9
+FObj.hasExtensionAttachments( );1;1;3
+FObj.getChildNodes( );2;0;6
+FObj.getId( );1;0;3
+FObj.checkId( String id );4;4;10
+FObjIterator.nextNode( );1;0;3
+FObjIterator.previous( );3;6;11
+FObj.createPropertyList( PropertyList parent , FOEventHandler foEventHandler );1;0;3
+FObjIterator.nextIndex( );1;1;3
+FObj.generatesReferenceAreas( );1;0;3
+FObj.hasId( );2;3;3
+FObj.getContextInfoAlt( );5;3;25

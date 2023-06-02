@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Config.getRoundNumber( );1;0;3
+Config.getColsValuesForValsByRound( int roundNum );6;5;32
+Config.get( String name , String dflt );1;0;3
+Config.get( String name , boolean dflt );3;5;17
+Config.newRound( );5;12;32
+Config.getColsNamesForValsByRound( );3;1;12
+Config.Config( Reader algReader );7;7;31
+Config.set( String name , String value );2;1;6
+Config.printProps( );2;1;10
+Config.propToBooleanArray( String s );4;3;16
+Config.propToIntArray( String s );4;3;16
+Config.get( String name , double dflt );3;5;17
+Config.getAlgorithmText( );1;0;3
+Config.propToDoubleArray( String s );4;3;16
+Config.Config( Properties props );2;0;6
+Config.get( String name , int dflt );3;5;17

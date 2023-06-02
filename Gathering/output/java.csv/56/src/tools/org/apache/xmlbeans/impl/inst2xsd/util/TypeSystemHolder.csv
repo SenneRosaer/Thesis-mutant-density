@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TypeSystemHolder.fillUpAttributesInComplexTypesSimpleContent( Type elemType , org . apache . xmlbeans . impl . xb . xsdschema . SimpleExtensionType sExtension , String tns );2;2;8
+TypeSystemHolder.fillUpLocalElement( Element element , org . apache . xmlbeans . impl . xb . xsdschema . LocalElement localSElement , String tns );6;6;25
+TypeSystemHolder.getGlobalAttributes( );1;0;4
+TypeSystemHolder.getSchemaDocuments( );4;0;26
+TypeSystemHolder.getGlobalAttribute( QName name );1;0;3
+TypeSystemHolder.getTopLevelSchemaElement( SchemaDocument schDoc , String tns );3;2;12
+TypeSystemHolder.addGlobalType( Type type );2;2;4
+TypeSystemHolder.addGlobalElement( Element element );2;2;4
+TypeSystemHolder.getGlobalElement( QName name );1;0;3
+TypeSystemHolder.fillUpContentForComplexType( Type type , org . apache . xmlbeans . impl . xb . xsdschema . ComplexType sComplexType , String tns );8;11;39
+TypeSystemHolder.getGlobalElements( );1;0;4
+TypeSystemHolder.addGlobalAttribute( Attribute attribute );2;2;4
+TypeSystemHolder.fillUpGlobalElement( Element globalElement , SchemaDocument schDoc , String tns );2;0;11
+TypeSystemHolder.toString( );1;0;7
+TypeSystemHolder.fillUpAttributesInComplexTypesComplexContent( Type elemType , org . apache . xmlbeans . impl . xb . xsdschema . ComplexType localSComplexType , String tns );2;2;8
+TypeSystemHolder.fillUpGlobalType( Type globalType , SchemaDocument schDoc , String tns );1;0;7
+TypeSystemHolder.fillUpGlobalAttribute( Attribute globalAttribute , SchemaDocument schDoc , String tns );2;1;15
+TypeSystemHolder.getGlobalTypes( );1;0;4
+TypeSystemHolder.fillUpElementDocumentation( org . apache . xmlbeans . impl . xb . xsdschema . Element element , String comment );3;3;7
+TypeSystemHolder.TypeSystemHolder( );1;0;5
+TypeSystemHolder.getGlobalType( QName name );1;0;3
+TypeSystemHolder.fillUpEnumeration( Type type , org . apache . xmlbeans . impl . xb . xsdschema . Element parentSElement );5;6;27
+TypeSystemHolder.fillUpLocalAttribute( Attribute att , org . apache . xmlbeans . impl . xb . xsdschema . Attribute sAttribute , String tns );4;2;14
+TypeSystemHolder.fillUpTypeOnElement( Type elemType , org . apache . xmlbeans . impl . xb . xsdschema . Element parentSElement , String tns );4;2;19
+TypeSystemHolder.getSchemaDocumentForTNS( Map nsToSchemaDocs , String tns );2;1;9

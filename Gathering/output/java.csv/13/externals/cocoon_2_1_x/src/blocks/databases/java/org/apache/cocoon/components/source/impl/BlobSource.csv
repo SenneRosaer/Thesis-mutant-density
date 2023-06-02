@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JDBCInputStream.read( byte [ ] b );3;2;12
+BlobSource.getParameter( String name );1;0;3
+BlobSource.getParameterAsLong( String name );1;0;3
+BlobSource.getURI( );1;0;3
+BlobSource.exists( );1;0;3
+EmptyIterator.hasNext( );1;0;1
+BlobSource.getValidity( );1;0;3
+EmptyIterator.remove( );1;0;1
+JDBCInputStream.closeCnx( );3;2;13
+JDBCInputStream.JDBCInputStream( InputStream stream , Connection cnx );1;0;4
+BlobSource.BlobSource( String url );5;11;29
+BlobSource.getParameterNames( );1;0;3
+JDBCInputStream.close( );1;0;4
+JDBCInputStream.read( byte [ ] b , int off , int len );3;2;12
+BlobSource.refresh( );1;0;2
+BlobSource.getConnection( );4;1;25
+JDBCInputStream.read( );3;2;12
+BlobSource.getMimeType( );1;0;3
+EmptyIterator.next( );1;0;1
+BlobSource.getLastModified( );1;0;3
+BlobSource.getScheme( );1;0;3
+BlobSource.getInputStream( );16;8;63
+BlobSource.service( ServiceManager manager );1;0;3
+BlobSource.getContentLength( );1;1;3

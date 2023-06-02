@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractCocoonRunnable.run( );1;0;9
+EnvironmentDescription.addToAutoRelease( final ComponentManager manager , final Component component );1;0;3
+CocoonComponentManager.release( final Source source );1;0;3
+CocoonComponentManager.CocoonComponentManager( final ComponentManager manager , final ClassLoader loader );1;0;4
+CocoonComponentManager.CocoonComponentManager( );1;0;3
+CocoonComponentManager.getCurrentProcessor( );3;3;7
+EnvironmentDescription.addToAutoRelease( final ComponentSelector selector , final Component component , final ComponentManager manager );1;0;3
+CocoonComponentManager.dispose( );3;1;11
+CocoonComponentManager.getSitemapComponentManager( );3;3;8
+CocoonComponentManager.endProcessing( Environment env , Object key );1;0;6
+EnvironmentDescription.removeFromAutoRelease( final Component component );7;7;24
+EnvironmentDescription.EnvironmentDescription( Environment env );1;0;4
+AbstractCocoonRunnable.AbstractCocoonRunnable( );2;1;6
+CocoonComponentManager.addComponentForAutomaticRelease( final ComponentManager manager , final Component component );4;4;13
+CocoonComponentManager.CocoonComponentManager( final ComponentManager manager );1;0;4
+EnvironmentDescription.containsGlobalRequestLifecycleComponent( final String role );1;0;3
+EnvironmentDescription.addRequestLifecycleComponent( final String role , final Component co , final ComponentManager manager );2;1;6
+CocoonComponentManager.getActiveProcessor( Environment env );1;0;3
+CocoonComponentManager.lookup( final String role );30;23;89
+EnvironmentDescription.release( );6;4;26
+CocoonComponentManager.setInstrumentManager( InstrumentManager iManager );1;0;4
+CocoonComponentManager.releaseRLComponent( final Component component );1;0;3
+EnvironmentDescription.getGlobalRequestLifecycleComponent( final String role );2;1;7
+EnvironmentDescription.containsRequestLifecycleComponent( final String role );2;1;6
+CocoonComponentManager.addComponent( String role , Class clazz , Configuration conf );2;0;6
+CocoonComponentManager.addComponentForAutomaticRelease( final ComponentSelector selector , final Component component , final ComponentManager manager );4;4;13
+EnvironmentDescription.getRequestLifecycleComponent( final String role );3;2;10
+CocoonComponentManager.CocoonComponentManager( final ClassLoader loader );1;0;3
+EnvironmentDescription.addGlobalRequestLifecycleComponent( final String role , final Component co , final ComponentManager manager );1;0;3
+CocoonComponentManager.initialize( );6;3;22
+CocoonComponentManager.leaveEnvironment( );1;0;3
+CocoonComponentManager.setParentManager( final ComponentManager manager );2;0;6
+CocoonComponentManager.getCurrentEnvironment( );3;3;7
+CocoonComponentManager.enterEnvironment( Environment env , ComponentManager manager , Processor processor );5;7;14
+CocoonComponentManager.resolveURI( final String location );1;0;3
+CocoonComponentManager.startProcessing( Environment env );2;1;9
+CocoonComponentManager.removeFromAutomaticRelease( final Component component );4;4;13
+CocoonComponentManager.resolveURI( final String location , String baseURI , final Map parameters );4;4;10
+CocoonComponentManager.markEnvironment( );2;1;7
+CocoonComponentManager.release( final Component component );5;3;13
+EnvironmentDescription.getGlobalRequestLifcecycleComponents( );2;1;8
+CocoonComponentManager.leaveEnvironment( boolean success );5;2;23
+CocoonComponentManager.checkEnvironment( int depth , Logger logger );3;2;10
+CocoonComponentManager.createEnvironmentAwareConsumer( XMLConsumer consumer );1;0;5

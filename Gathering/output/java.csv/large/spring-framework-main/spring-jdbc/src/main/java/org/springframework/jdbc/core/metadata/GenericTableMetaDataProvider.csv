@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GenericTableMetaDataProvider.isGetGeneratedKeysSimulated( );1;0;3
+GenericTableMetaDataProvider.initializeWithTableColumnMetaData( DatabaseMetaData databaseMetaData , @ Nullable String catalogName , @ Nullable String schemaName , @ Nullable String tableName );1;0;4
+GenericTableMetaDataProvider.initializeWithMetaData( DatabaseMetaData databaseMetaData );16;0;66
+GenericTableMetaDataProvider.setGetGeneratedKeysSupported( boolean getGeneratedKeysSupported );1;0;3
+TableMetaData.getCatalogName( );1;0;3
+TableMetaData.getTableName( );1;0;3
+GenericTableMetaDataProvider.isStoresUpperCaseIdentifiers( );1;0;3
+GenericTableMetaDataProvider.getDatabaseVersion( );1;0;3
+GenericTableMetaDataProvider.isTableColumnMetaDataUsed( );1;0;3
+GenericTableMetaDataProvider.isGeneratedKeysColumnNameArraySupported( );1;0;3
+GenericTableMetaDataProvider.tableNameToUse( @ Nullable String tableName );4;1;14
+GenericTableMetaDataProvider.setStoresLowerCaseIdentifiers( boolean storesLowerCaseIdentifiers );1;0;3
+GenericTableMetaDataProvider.processTableColumns( DatabaseMetaData databaseMetaData , TableMetaData tmd );10;3;46
+TableMetaData.setSchemaName( String schemaName );1;0;3
+GenericTableMetaDataProvider.getSimpleQueryForGetGeneratedKey( String tableName , String keyColumnName );1;0;3
+TableMetaData.getSchemaName( );1;0;3
+GenericTableMetaDataProvider.metaDataCatalogNameToUse( @ Nullable String catalogName );1;0;3
+GenericTableMetaDataProvider.setGeneratedKeysColumnNameArraySupported( boolean generatedKeysColumnNameArraySupported );1;0;3
+GenericTableMetaDataProvider.metaDataSchemaNameToUse( @ Nullable String schemaName );2;1;6
+GenericTableMetaDataProvider.isGetGeneratedKeysSupported( );1;0;3
+GenericTableMetaDataProvider.findTableMetaData( @ Nullable String schemaName , @ Nullable String tableName , Map < String , TableMetaData > tableMeta );9;8;30
+GenericTableMetaDataProvider.setStoresUpperCaseIdentifiers( boolean storesUpperCaseIdentifiers );1;0;3
+GenericTableMetaDataProvider.GenericTableMetaDataProvider( DatabaseMetaData databaseMetaData );1;0;3
+GenericTableMetaDataProvider.locateTableAndProcessMetaData( DatabaseMetaData databaseMetaData , @ Nullable String catalogName , @ Nullable String schemaName , @ Nullable String tableName );9;4;36
+GenericTableMetaDataProvider.getDefaultSchema( );1;0;3
+TableMetaData.setTableName( String tableName );1;0;3
+GenericTableMetaDataProvider.schemaNameToUse( @ Nullable String schemaName );4;1;14
+GenericTableMetaDataProvider.getTableParameterMetaData( );1;0;3
+GenericTableMetaDataProvider.catalogNameToUse( @ Nullable String catalogName );4;1;14
+GenericTableMetaDataProvider.isStoresLowerCaseIdentifiers( );1;0;3
+TableMetaData.setCatalogName( String catalogName );1;0;3

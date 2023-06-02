@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CastorTransformer.characters( char [ ] ch , int start , int len );2;1;5
+CastorTransformer.storeBean( Map objectModel , String name , String scope , Object bean );4;0;10
+CastorTransformer.marshal( Map objectModel , String name , String scope , String mappingpath );6;1;27
+CastorTransformer.recycle( );1;0;13
+CastorTransformer.loadMapping( String file );3;2;21
+CastorTransformer.setup( SourceResolver resolver , Map objectModel , String src , Parameters params );3;1;13
+CastorTransformer.process( String command , Attributes attr );11;4;51
+CastorTransformer.endElement( String uri , String name , String raw );7;2;22
+CastorTransformer.findBean( Map objectModel , String name , String scope );13;8;37
+CastorTransformer.configure( Configuration conf );1;0;3
+CastorTransformer.startElement( String uri , String name , String raw , Attributes attr );2;0;8

@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JspTagLifecycle.fireSkipBody( );3;1;9
+JspTagLifecycle.addNestedText( String theNestedText );2;1;7
+ExpectBodyEvaluatedInterceptor.ExpectBodyEvaluatedInterceptor( int theNumIterations );1;0;3
+Interceptor.evalBody( int theIteration , BodyContent theBody );1;0;2
+JspTagLifecycle.expectBodyEvaluated( );1;0;3
+NestedTagInterceptor.NestedTagInterceptor( JspTagLifecycle theLifecycle );1;0;3
+ExpectScopedVariableExposedInterceptor.evalBody( int theIteration , BodyContent theBody );1;0;4
+JspTagLifecycle.addInterceptor( Interceptor theInterceptor );3;2;11
+JspTagLifecycle.expectScopedVariableExposed( String theName , Object [ ] theExpectedValues );1;0;4
+JspTagLifecycle.invoke( );4;0;29
+JspTagLifecycle.fireEvalBody( int theIteration , BodyContent theBody );3;1;9
+Interceptor.skipBody( );1;0;2
+ExpectBodySkippedInterceptor.evalBody( int theIteration , BodyContent theBody );1;0;3
+NestedTagInterceptor.evalBody( int theIteration , BodyContent theBody );1;0;3
+ExpectBodyEvaluatedInterceptor.skipBody( );2;1;7
+JspTagLifecycle.invokeInternal( );12;6;66
+NestedTextInterceptor.NestedTextInterceptor( String theText );1;0;3
+ExpectBodyEvaluatedInterceptor.evalBody( int theIteration , BodyContent theBody );2;2;8
+JspTagLifecycle.JspTagLifecycle( PageContext thePageContext , Tag theTag );3;3;9
+JspTagLifecycle.expectBodySkipped( );1;0;3
+ExpectScopedVariableExposedInterceptor.ExpectScopedVariableExposedInterceptor( String theName , Object [ ] theExpectedValues , int theScope );1;0;5
+JspTagLifecycle.expectBodyEvaluated( int theNumIterations );1;0;3
+NestedTextInterceptor.evalBody( int theIteration , BodyContent theBody );2;1;10
+JspTagLifecycle.addNestedTag( Tag theNestedTag );2;1;11
+JspTagLifecycle.expectScopedVariableExposed( String theName , Object [ ] theExpectedValues , int theScope );8;11;20

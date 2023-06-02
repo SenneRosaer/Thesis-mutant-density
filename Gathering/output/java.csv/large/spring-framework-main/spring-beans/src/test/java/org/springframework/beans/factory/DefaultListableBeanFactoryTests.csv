@@ -1,0 +1,240 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConstructorDependency.setBeanName( String name );1;0;3
+DefaultListableBeanFactoryTests.customTypeConverterWithBeanReference( );1;1;15
+DefaultListableBeanFactoryTests.staticFactoryMethodFoundByNonEagerTypeMatching( );1;0;19
+ConstructorDependencyWithClassResolution.ConstructorDependencyWithClassResolution( );1;0;2
+DefaultListableBeanFactoryTests.autowireExistingBeanByType( );1;0;8
+DefaultListableBeanFactoryTests.autowireWithNoDependencies( );1;0;8
+DefaultListableBeanFactoryTests.getBeanByTypeInstanceDefinedInParent( );1;0;25
+DefaultListableBeanFactoryTests.concurrentBeanDefinitionRemoval( );1;0;7
+EagerInitFactory.getObjectType( );1;0;3
+DefaultListableBeanFactoryTests.autowireWithUnsatisfiedConstructorDependency( );1;0;10
+DefaultListableBeanFactoryTests.autowireBeanByTypeWithTwoMatchesAndOnePrimary( );1;0;10
+BeanWithInitAndDestroyMethods.afterPropertiesSet( );1;0;3
+DefaultListableBeanFactoryTests.getBeanByTypeInstanceWithMultiplePrimary( );1;0;11
+DefaultListableBeanFactoryTests.aliasChaining( );1;0;10
+DefaultListableBeanFactoryTests.autowireBeanByNameWithNoDependencyCheck( );1;0;7
+BeanWithFactoryMethod.create( );1;0;5
+DefaultListableBeanFactoryTests.getBeanByTypePrimaryHasPrecedenceOverPriority( );1;0;10
+DefaultListableBeanFactoryTests.findTypeOfPrototypeFactoryMethodOnBeanInstance( boolean singleton );7;3;62
+DefaultListableBeanFactoryTests.prototypeExtendsPrototype( );1;5;37
+DefaultListableBeanFactoryTests.referenceByType( );1;0;10
+DefaultListableBeanFactoryTests.circularReferenceThroughFactoryBeanAutowiring( );1;0;6
+DefaultListableBeanFactoryTests.emptyPropertiesPopulation( );1;1;5
+BeanWithFactoryMethod.setName( String name );1;0;3
+DefaultListableBeanFactoryTests.lazyInitFlag( );1;0;17
+DefaultListableBeanFactoryTests.registerTestBean( int i );1;0;4
+ConstructorDependency.ConstructorDependency( int spouseAge );1;0;3
+TestBeanFactory.createTestBean( );1;0;3
+DefaultListableBeanFactoryTests.getBeanByTypeWithLateRegistration( );1;0;9
+DefaultListableBeanFactoryTests.lazyInitialization( );1;3;13
+DefaultListableBeanFactoryTests.applyBeanPropertyValuesWithIncompleteDefinition( );1;0;13
+DefaultListableBeanFactoryTests.circularReferenceThroughFactoryBeanTypeCheck( );1;0;6
+DefaultListableBeanFactoryTests.resolveEmbeddedValue( );1;0;15
+DefaultListableBeanFactoryTests.getBeanByTypeWithPrimary( );1;0;11
+DefaultListableBeanFactoryTests.beanDefinitionOverridingWithAlias( );1;0;8
+DefaultListableBeanFactoryTests.getTypeWorksAfterParentChildMerging( );1;0;10
+CustomTypeConverter.CustomTypeConverter( NumberFormat numberFormat );1;0;3
+DefaultListableBeanFactoryTests.multipleInitAndDestroyMethods( );1;0;11
+DefaultListableBeanFactoryTests.getBeanNamesForTypeWithPrototypeScopedFactoryBean( );1;0;12
+DefaultListableBeanFactoryTests.prototypeStringCreatedRepeatedly( );1;0;11
+DefaultListableBeanFactoryTests.getBeanByTypeWithLateRegistrationAgainstFrozen( );1;0;10
+ArrayBean.getResourceArray( );1;0;3
+ConstructorDependency.hashCode( );1;0;3
+DefaultListableBeanFactoryTests.containsBeanReturnsTrueEvenForAbstractBeanDefinition( );1;0;6
+DefaultListableBeanFactoryTests.createConstructorDependencyBeanDefinition( int age );1;0;6
+KnowsIfInstantiated.KnowsIfInstantiated( );1;0;3
+ConstructorDependencyFactoryBean.ConstructorDependencyFactoryBean( String dependency );1;0;2
+DefaultListableBeanFactoryTests.customTypeConverter( );1;1;14
+DefaultListableBeanFactoryTests.autowireExistingBeanByNameWithDependencyCheck( );1;0;7
+ConstructorDependencyFactoryBean.isSingleton( );1;0;3
+DefaultListableBeanFactoryTests.canReferenceParentBeanFromChildViaAlias( );1;0;19
+DefaultListableBeanFactoryTests.propertiesPopulationWithPrefix( );1;1;10
+DefaultListableBeanFactoryTests.getBeanByTypeInstanceWithNoneFound( );1;0;13
+DefaultListableBeanFactoryTests.autowireBeanByNameWithDependencyCheck( );1;0;6
+DefaultListableBeanFactoryTests.getBeanByTypeInstanceFiltersOutNonAutowireCandidates( );1;0;13
+DefaultListableBeanFactoryTests.removeTestBean( int i );1;0;4
+BeanWithInitAndDestroyMethods.init1( );1;0;3
+DefaultListableBeanFactoryTests.simpleReference( );1;2;17
+DefaultListableBeanFactoryTests.populatedJavaUtilOptionalBean( );2;0;7
+ArrayBean.ArrayBean( Integer [ ] integerArray );1;0;3
+DefaultListableBeanFactoryTests.mergedBeanDefinitionChangesRetainedAfterFreezeConfiguration( );1;0;16
+KnowsIfInstantiated.clearInstantiationRecord( );1;0;3
+DefaultListableBeanFactoryTests.findTypeOfSingletonFactoryMethodOnBeanInstance( );1;0;3
+DefaultListableBeanFactoryTests.prototypeFactoryBeanNotEagerlyCalled( );1;0;4
+DefaultListableBeanFactoryTests.smartInitFactory( );1;0;6
+DefaultListableBeanFactoryTests.getBeanByTypeInstanceWithPrimary( );2;0;42
+DefaultListableBeanFactoryTests.beanDefinitionOverridingNotAllowed( );1;0;21
+DefaultListableBeanFactoryTests.circularReferenceThroughAutowiring( );1;0;6
+DefaultListableBeanFactoryTests.autowireBeanWithFactoryBeanByTypeWithPrimary( );1;0;16
+DefaultListableBeanFactoryTests.prototypeWithArrayConversionForFactoryMethod( );1;1;15
+DefaultListableBeanFactoryTests.registerExistingSingletonWithReference( );3;0;29
+BeanWithInitAndDestroyMethods.init2( );1;0;3
+EagerInitFactory.isSingleton( );1;0;3
+TestBeanFactory.TestBeanFactory( );1;0;3
+DefaultListableBeanFactoryTests.arrayPropertyWithAutowiring( );1;0;10
+DefaultListableBeanFactoryTests.autowireBeanWithFactoryBeanByType( );1;0;9
+DefaultListableBeanFactoryTests.getBeanWithArgsNotCreatedForFactoryBeanChecking( );1;0;17
+DefaultListableBeanFactoryTests.getTypeForAbstractFactoryBean( );1;0;6
+DefaultListableBeanFactoryTests.registerExistingSingletonWithAutowire( );1;0;19
+DefaultListableBeanFactoryTests.nonStaticFactoryMethodFoundByNonEagerTypeMatching( );1;0;22
+DefaultListableBeanFactoryTests.getBeanNamesForTypeBeforeFactoryBeanCreation( );1;0;10
+DefaultListableBeanFactoryTests.implicitDependsOnCycle( );1;0;16
+DefaultListableBeanFactoryTests.referenceByAutowire( );1;0;10
+DefaultListableBeanFactoryTests.beanDefinitionWithInterface( );1;0;7
+DefaultListableBeanFactoryTests.harmlessIgnorableRubbish( );1;1;7
+DefaultListableBeanFactoryTests.getBeanByTypeWithAmbiguity( );1;0;8
+DefaultListableBeanFactoryTests.arrayPropertyWithOptionalAutowiring( );1;0;7
+ArrayBean.setResourceArray( Resource [ ] resourceArray );1;0;3
+DefaultListableBeanFactoryTests.mapInjectionWithPriority( );1;0;14
+DefaultListableBeanFactoryTests.getBeanProviderByTypeWithNullRequiredType( );2;0;3
+LazyInitFactory.getObject( );1;0;4
+DefaultListableBeanFactoryTests.beanPostProcessorWithWrappedObjectAndCloseable( );1;0;14
+FactoryBeanDependentBean.getFactoryBean( );1;0;3
+DefaultListableBeanFactoryTests.nonStaticPrototypeFactoryMethodFoundByNonEagerTypeMatching( );1;0;46
+DefaultListableBeanFactoryTests.autowireBeanByName( );1;1;9
+DefaultListableBeanFactoryTests.autowireBeanByType( );1;0;8
+DefaultListableBeanFactoryTests.selfReference( );1;0;9
+DefaultListableBeanFactoryTests.empty( );1;3;6
+DefaultListableBeanFactoryTests.prototypeFactoryBeanIgnoredByNonEagerTypeMatching( );1;2;27
+NonPublicEnumHolder.NonPublicEnumHolder( NonPublicEnum nonPublicEnum );1;0;3
+DefaultListableBeanFactoryTests.doubleArrayConstructorWithAutowiring( );1;0;14
+DefaultListableBeanFactoryTests.lazyInitFactory( );1;0;6
+DefaultListableBeanFactoryTests.arrayReferenceByName( );1;0;10
+TestBeanRecipient.TestBeanRecipient( TestBean testBean );1;0;3
+ConstructorDependencyFactoryBean.getObjectType( );1;0;3
+DefaultListableBeanFactoryTests.prototypeWithArrayConversionForConstructor( );1;1;14
+FactoryBeanThatShouldntBeCalled.call( );1;0;3
+DefaultListableBeanFactoryTests.beanDefinitionOverridingWithConstructorArgumentMismatch( );1;0;10
+BeanWithInitAndDestroyMethods.destroy2( );1;0;3
+DefaultListableBeanFactoryTests.registerBeanDefinitions( Properties p );1;0;3
+DefaultListableBeanFactoryTests.getBeanByTypeWithMultiplePrimary( );1;0;11
+DefaultListableBeanFactoryTests.nameAlreadyBound( );2;0;12
+DefaultListableBeanFactoryTests.registerExistingSingletonWithNameOverriding( );3;0;31
+DefaultListableBeanFactoryTests.arrayConstructorWithAutowiring( );1;0;10
+ConstructorDependency.equals( Object o );6;7;12
+NullTestBeanFactoryBean.getObjectType( );1;0;3
+DefaultListableBeanFactoryTests.createBean( );1;0;5
+DefaultListableBeanFactoryTests.customEditor( );1;1;13
+EagerInitFactory.isPrototype( );1;0;3
+DefaultListableBeanFactoryTests.beanDefinitionRemoval( );1;0;14
+DefaultListableBeanFactoryTests.constructorDependencyWithClassResolution( );1;0;6
+DefaultListableBeanFactoryTests.arrayReferenceByType( );1;0;10
+DefaultListableBeanFactoryTests.unresolvedReference( );1;0;11
+FactoryBeanThatShouldntBeCalled.run( );1;0;3
+CustomTypeConverter.convertIfNecessary( Object value , @ Nullable Class requiredType );6;2;16
+DefaultListableBeanFactoryTests.beanPostProcessorWithWrappedObjectAndDisposableBean( );1;0;14
+DefaultListableBeanFactoryTests.emptyJavaUtilOptionalBean( );2;0;6
+FactoryBeanThatShouldntBeCalled.isSingleton( );1;0;3
+DefaultListableBeanFactoryTests.beanReferenceWithNewSyntax( );1;1;12
+DefaultListableBeanFactoryTests.autowireWithSatisfiedJavaBeanDependency( );1;0;13
+EagerInitFactory.isEagerInit( );1;0;3
+DefaultListableBeanFactoryTests.destroyMethodOnInnerBeanAsPrototype( );1;0;13
+ArrayBean.getIntegerArray( );1;0;3
+DefaultListableBeanFactoryTests.autowireBeanByTypePrimaryTakesPrecedenceOverPriority( );1;0;11
+DefaultListableBeanFactoryTests.dependsOnCycle( );1;0;13
+ConstructorDependency.ConstructorDependency( TestBean spouse , TestBean otherSpouse );1;0;3
+DefaultListableBeanFactoryTests.nonInitializedFactoryBeanIgnoredByNonEagerTypeMatching( );1;2;26
+DefaultListableBeanFactoryTests.constructorDependencyWithUnresolvableClass( );1;0;6
+DefaultListableBeanFactoryTests.getBeanByTypeInstanceWithAmbiguity( );2;0;36
+DefaultListableBeanFactoryTests.getBeanByTypeDefinedInParent( );1;0;8
+DefaultListableBeanFactoryTests.scopeInheritanceForChildBeanDefinitions( );1;0;12
+DefaultListableBeanFactoryTests.singleTestBean( ListableBeanFactory lbf );1;5;11
+NullTestBeanFactoryBean.getObject( );1;0;3
+DefaultListableBeanFactoryTests.invalidAutowireMode( );1;0;4
+TestBeanFactory.createTestBeanNonStatic( );1;0;3
+DefaultListableBeanFactoryTests.referenceByName( );1;0;10
+DefaultListableBeanFactoryTests.beanPostProcessorWithWrappedObjectAndDestroyMethod( );1;0;15
+DefaultListableBeanFactoryTests.autowireBeanByTypeWithTwoMatches( );1;0;10
+DefaultListableBeanFactoryTests.getBeanByTypeWithNoneFound( );1;0;5
+DefaultListableBeanFactoryTests.customEditorWithBeanReference( );1;1;14
+LazyInitFactory.isSingleton( );1;0;3
+LazyInitFactory.getObjectType( );1;0;3
+DefaultListableBeanFactoryTests.autowireWithSatisfiedConstructorDependency( );1;0;13
+DefaultListableBeanFactoryTests.autowireExistingBeanByTypeWithNoDependencyCheck( );1;0;5
+DefaultListableBeanFactoryTests.configureBean( );1;0;13
+BeanWithInitAndDestroyMethods.destroy( );1;0;3
+DefaultListableBeanFactoryTests.expressionInStringArray( );1;0;13
+DefaultListableBeanFactoryTests.assertBeanNamesForType( Class < ? > type , boolean includeNonSingletons , boolean allowEagerInit , String ... names );2;1;12
+DefaultListableBeanFactoryTests.prototypeCircleLeadsToException( );1;0;15
+DefaultListableBeanFactoryTests.beanProviderWithParentBeanFactoryReuseOrder( );2;0;11
+DefaultListableBeanFactoryTests.autowireBeanWithFactoryBeanByName( );1;0;8
+DefaultListableBeanFactoryTests.destroyMethodOnInnerBean( );1;0;12
+CustomTypeConverter.convertIfNecessary( Object value , @ Nullable Class requiredType , @ Nullable MethodParameter methodParam );1;0;3
+UnsatisfiedConstructorDependency.UnsatisfiedConstructorDependency( TestBean t , SideEffectBean b );1;0;2
+DefaultListableBeanFactoryTests.autowireBeanByTypeWithNoDependencyCheck( );1;0;5
+BeanWithFactoryMethod.createWithArgs( String arg );1;0;5
+DefaultListableBeanFactoryTests.propertiesWithDotsInKey( );1;1;10
+DefaultListableBeanFactoryTests.beanDefinitionWithAbstractClass( );1;0;7
+DefaultListableBeanFactoryTests.autowireBeanByTypeWithTwoPrimaryCandidates( );1;0;11
+FactoryBeanThatShouldntBeCalled.getObject( );1;0;3
+DefaultListableBeanFactoryTests.autowireExistingBeanByName( );1;0;9
+DefaultListableBeanFactoryTests.getFactoryBeanByTypeWithPrimary( );1;0;16
+DefaultListableBeanFactoryTests.reregisterBeanDefinition( );1;0;10
+NonPublicEnumHolder.getNonPublicEnum( );1;0;3
+FactoryBeanThatShouldntBeCalled.getObjectType( );1;0;3
+DefaultListableBeanFactoryTests.scopingBeanToUnregisteredScopeResultsInAnException( );1;0;9
+DefaultListableBeanFactoryTests.possibleMatches( );1;0;14
+DefaultListableBeanFactoryTests.fieldSettingWithInstantiationAwarePostProcessorWithShortCircuit( );1;0;3
+DefaultListableBeanFactoryTests.propertiesPopulationWithNullPrefix( );1;1;9
+DefaultListableBeanFactoryTests.doubleArrayConstructorWithOptionalAutowiring( );1;0;10
+DefaultListableBeanFactoryTests.aliasCircle( );1;0;9
+DefaultListableBeanFactoryTests.prototypeFactoryBeanNotEagerlyCalledInCaseOfBeanClassName( );1;0;4
+DefaultListableBeanFactoryTests.beanDefinitionOverriding( );1;0;11
+NullTestBeanFactoryBean.isSingleton( );1;0;3
+DefaultListableBeanFactoryTests.nonPublicEnum( );1;0;7
+DefaultListableBeanFactoryTests.prototype( );1;6;30
+BeanWithFactoryMethod.createGeneric( );1;0;3
+ConstructorDependencyWithClassResolution.ConstructorDependencyWithClassResolution( Class < ? > clazz );1;0;2
+DefaultListableBeanFactoryTests.autowireBeanByTypeWithDependencyCheck( );1;0;4
+DefaultListableBeanFactoryTests.autowireExistingBeanByNameWithNoDependencyCheck( );1;0;7
+DefaultListableBeanFactoryTests.factoryBeanDidNotCreatePrototype( );1;3;17
+BeanWithInitAndDestroyMethods.destroy1( );1;0;3
+DefaultListableBeanFactoryTests.autowireConstructor( );1;2;9
+DefaultListableBeanFactoryTests.resolveNamedBeanByTypeWithNullRequiredType( );2;0;3
+DefaultListableBeanFactoryTests.autowireWithTwoMatchesForConstructorDependency( );1;0;10
+DefaultListableBeanFactoryTests.getBeanByTypeWithPriority( );1;0;12
+ConstructorDependency.ConstructorDependency( TestBean spouse );1;0;3
+ArrayBean.ArrayBean( );1;0;2
+KnowsIfInstantiated.wasInstantiated( );1;0;3
+BeanWithDestroyMethod.setInner( BeanWithDestroyMethod inner );1;0;3
+BeanWithCloseable.close( );1;0;3
+ArrayBean.ArrayBean( Integer [ ] integerArray , Resource [ ] resourceArray );1;0;4
+FactoryBeanDependentBean.setFactoryBean( final FactoryBean < ? > factoryBean );1;0;3
+DefaultListableBeanFactoryTests.autowireBeanByTypeWithTwoMatchesAndPriority( );1;0;10
+DefaultListableBeanFactoryTests.unreferencedSingletonWasInstantiated( );1;1;9
+DefaultListableBeanFactoryTests.staticPrototypeFactoryMethodFoundByNonEagerTypeMatching( );1;0;20
+DefaultListableBeanFactoryTests.fieldSettingWithInstantiationAwarePostProcessorNoShortCircuit( );1;0;3
+DefaultListableBeanFactoryTests.createBeanWithDisposableBean( );1;0;6
+CustomTypeConverter.convertIfNecessary( Object value , @ Nullable Class requiredType , @ Nullable Field field );1;0;3
+DefaultListableBeanFactoryTests.postProcessBeforeInitialization( Object bean , String beanName );1;0;3
+DefaultListableBeanFactoryTests.postProcessAfterInstantiation( Object bean , String beanName );2;1;12
+NoDependencies.NoDependencies( );1;0;2
+DefaultListableBeanFactoryTests.getBeanByTypeWithNullRequiredType( );2;0;3
+DefaultListableBeanFactoryTests.registerExistingSingletonWithAlreadyBound( );1;0;6
+DefaultListableBeanFactoryTests.getBeanByTypeFiltersOutNonAutowireCandidates( );1;0;13
+DefaultListableBeanFactoryTests.getBeanByTypeWithMultiplePriority( );1;0;11
+DefaultListableBeanFactoryTests.configureBeanWithAutowiring( );1;0;14
+DefaultListableBeanFactoryTests.autowireExistingBeanByTypeWithDependencyCheck( );1;0;5
+DefaultListableBeanFactoryTests.beanProviderSerialization( );1;0;11
+DefaultListableBeanFactoryTests.avoidCircularReferenceThroughAutowiring( );1;0;9
+BeanWithDestroyMethod.close( );1;1;4
+DefaultListableBeanFactoryTests.explicitScopeInheritanceForChildBeanDefinitions( );1;0;13
+DefaultListableBeanFactoryTests.registerBeanDefinitions( Properties p , String prefix );1;0;3
+DefaultListableBeanFactoryTests.extensiveCircularReference( );5;9;15
+DefaultListableBeanFactoryTests.doTestFieldSettingWithInstantiationAwarePostProcessor( final boolean skipPropertyPopulation );3;1;31
+DefaultListableBeanFactoryTests.initializedFactoryBeanFoundByNonEagerTypeMatching( );1;1;47
+DefaultListableBeanFactoryTests.arrayReferenceByAutowire( );1;0;13
+DefaultListableBeanFactoryTests.findTypeOfPrototypeFactoryMethodOnBeanInstance( );1;0;3
+DefaultListableBeanFactoryTests.applyBeanPropertyValues( );1;0;11
+DefaultListableBeanFactoryTests.getBeanNamesForTypeAfterFactoryBeanCreation( );1;0;11
+DefaultListableBeanFactoryTests.arrayConstructorWithOptionalAutowiring( );1;0;7
+ConstructorDependencyBean.ConstructorDependencyBean( ConstructorDependencyBean dependency );1;0;2
+DefaultListableBeanFactoryTests.singletonFactoryBeanIgnoredByNonEagerTypeMatching( );1;2;27
+EagerInitFactory.getObject( );1;0;4
+ConstructorDependencyFactoryBean.getObject( );1;0;3
+DefaultListableBeanFactoryTests.customConverter( );2;1;20
+BeanWithDisposableBean.destroy( );1;0;3
+DefaultListableBeanFactoryTests.canEscapeBeanReferenceSyntax( );1;0;9
+DefaultListableBeanFactoryTests.autowireBeanByTypeWithIdenticalPriorityCandidates( );1;0;11
+DefaultListableBeanFactoryTests.getBeanByTypeWithPriorityAndNullInstance( );1;0;9

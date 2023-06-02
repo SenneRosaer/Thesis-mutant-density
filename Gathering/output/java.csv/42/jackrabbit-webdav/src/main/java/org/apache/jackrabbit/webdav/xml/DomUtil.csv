@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DomUtil.setNamespaceAttribute( Element element , String prefix , String uri );2;0;7
+DomUtil.getQualifiedName( String localName , Namespace namespace );3;2;9
+DomUtil.depthToXml( boolean isDeep , Document factory );2;0;3
+DomUtil.addChildElement( Element parent , String localName , Namespace namespace , String text );1;0;5
+DomUtil.getContent( Node parent );4;3;13
+DomUtil.getText( Element element , String defaultValue );2;1;4
+DomUtil.getChildText( Element parent , String childLocalName , Namespace childNamespace );2;1;4
+DomUtil.setAttribute( Element element , String attrLocalName , Namespace attrNamespace , String attrValue );2;1;11
+DomUtil.addChildElement( Node parent , String localName , Namespace namespace );2;0;9
+DomUtil.hasChildElement( Node parent , String childLocalName , Namespace childNamespace );1;1;3
+DomUtil.matches( Node node , String requiredLocalName , Namespace requiredNamespace );3;2;7
+DomUtil.depthToXml( String depth , Document factory );1;0;4
+DomUtil.getChildren( Element parent );1;0;3
+DomUtil.getChildElement( Node parent , String childLocalName , Namespace childNamespace );5;4;12
+DomUtil.matchingLocalName( Node node , String requiredLocalName );2;1;8
+DomUtil.matchingNamespace( Node node , Namespace requiredNamespace );2;1;7
+DomUtil.getChildren( Element parent , String childLocalName , Namespace childNamespace );1;0;3
+DomUtil.getNamespaceAttributes( Element element );3;2;11
+DomUtil.createElement( Document factory , String localName , Namespace namespace );2;1;7
+DomUtil.timeoutToXml( long timeout , Document factory );1;1;5
+DomUtil.hrefToXml( String href , Document factory );1;0;3
+DomUtil.getChildTextTrim( Element parent , String childLocalName , Namespace childNamespace );2;1;4
+DomUtil.addChildElement( Element parent , String localName , Namespace namespace );1;0;5
+DomUtil.getAttribute( Element parent , String localName , Namespace namespace );4;3;16
+DomUtil.isAcceptedNode( Node node );2;1;3
+DomUtil.createElement( Document factory , String localName , Namespace namespace , String text );1;0;5
+DomUtil.getNamespace( Element element );2;1;9
+DomUtil.isElement( Node node );1;1;3
+DomUtil.hasContent( Node parent );4;3;12
+DomUtil.isText( Node node );2;3;4
+DomUtil.getFirstChildElement( Node parent );4;3;12
+DomUtil.getText( Element element );5;4;13
+DomUtil.getTextTrim( Element element );2;1;4
+DomUtil.setText( Element element , String text );3;2;7
+DomUtil.getPrefixedName( String localName , Namespace namespace );4;3;11

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMParser.getFeature( String featureId );4;1;21
+DOMParser.setEntityResolver( EntityResolver resolver );6;1;27
+DOMParser.setProperty( String propertyId , Object value );3;1;18
+DOMParser.getErrorHandler( );4;2;14
+DOMParser.getEntityResolver( );5;1;20
+DOMParser.getProperty( String propertyId );8;4;34
+DOMParser.setErrorHandler( ErrorHandler errorHandler );3;0;15
+DOMParser.DOMParser( SymbolTable symbolTable , XMLGrammarPool grammarPool );3;2;13
+DOMParser.DOMParser( SymbolTable symbolTable );1;0;3
+***not in a method***;0;3;0
+DOMParser.DOMParser( XMLParserConfiguration config );1;0;3
+DOMParser.DOMParser( );1;0;3
+DOMParser.setFeature( String featureId , boolean state );5;2;25
+DOMParser.parse( String systemId );11;4;40
+DOMParser.parse( InputSource inputSource );11;4;45
+DOMParser.getXMLParserConfiguration( );1;0;3

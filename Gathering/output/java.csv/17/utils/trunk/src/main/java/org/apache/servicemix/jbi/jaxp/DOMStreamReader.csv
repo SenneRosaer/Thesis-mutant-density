@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMStreamReader.getLineNumber( );1;0;3
+DOMStreamReader.isStartElement( );1;1;3
+DOMStreamReader.standaloneSet( );1;0;3
+***not in a method***;0;3;0
+FastStack.push( T o );1;0;3
+DOMStreamReader.getCharacterOffset( );1;0;3
+DOMStreamReader.getVersion( );1;0;3
+DOMStreamReader.getCurrentFrame( );1;0;3
+DOMStreamReader.init( ElementFrame f );1;0;5
+DOMStreamReader.getTextCharacters( int sourceStart , char [ ] target , int targetStart , int length );3;7;10
+DOMStreamReader.next( );7;9;34
+DOMStreamReader.hasText( );5;9;5
+DOMStreamReader.getEventType( );1;0;3
+DOMStreamReader.isCharacters( );1;1;3
+DOMStreamReader.require( int arg0 , String arg1 , String arg2 );1;0;3
+DOMStreamReader.getProperty( String key );1;0;3
+FastStack.pop( );1;1;3
+DOMStreamReader.close( );1;0;2
+DOMStreamReader.hasName( );2;3;3
+ElementFrame.ElementFrame( Object element , ElementFrame parent );1;0;4
+DOMStreamReader.hasNext( );2;3;3
+DOMStreamReader.newFrame( ElementFrame newFrame );1;0;2
+DOMStreamReader.isWhiteSpace( );1;1;3
+DOMStreamReader.isEndElement( );1;1;3
+DOMStreamReader.getColumnNumber( );1;0;3
+DOMStreamReader.getSystemId( );1;0;3
+FastStack.peek( );1;1;3
+FastStack.empty( );1;1;3
+DOMStreamReader.nextTag( );3;1;8
+DOMStreamReader.isStandalone( );1;0;3
+DOMStreamReader.getPublicId( );1;0;3
+DOMStreamReader.getCharacterEncodingScheme( );1;0;3
+DOMStreamReader.getLocation( );1;0;19
+DOMStreamReader.DOMStreamReader( ElementFrame frame );1;0;3
+DOMStreamReader.endElement( );1;0;2

@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+apply( HandlerFunction < T > handler );1;0;4
+ofErrorHandler( Predicate < Throwable > predicate , BiFunction < Throwable , ServerRequest , T > errorHandler );4;0;21
+andThen( HandlerFilterFunction < T , T > after );1;0;7
+ofResponseProcessor( BiFunction < ServerRequest , T , R > responseProcessor );1;0;4
+ofRequestProcessor( Function < ServerRequest , ServerRequest > requestProcessor );1;0;4

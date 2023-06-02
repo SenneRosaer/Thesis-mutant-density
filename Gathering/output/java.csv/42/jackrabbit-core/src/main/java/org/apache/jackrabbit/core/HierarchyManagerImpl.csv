@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HierarchyManagerImpl.buildPath( PathBuilder builder , ItemState state );6;3;36
+HierarchyManagerImpl.getChildNodeEntry( NodeState parent , Name name , int index );1;0;3
+HierarchyManagerImpl.getParentIds( ItemState state , boolean useOverlayed );7;4;19
+HierarchyManagerImpl.resolvePropertyPath( Path path );1;0;3
+HierarchyManagerImpl.resolvePath( Path . Element [ ] elements , int next , ItemId id , int typesAllowed );12;17;39
+HierarchyManagerImpl.getRootNodeId( );1;0;3
+***not in a method***;0;1;0
+HierarchyManagerImpl.isShareAncestor( NodeId ancestor , NodeId descendant );7;1;32
+HierarchyManagerImpl.getParentId( ItemState state );1;0;3
+HierarchyManagerImpl.getChildNodeEntry( NodeState parent , NodeId id );1;0;3
+HierarchyManagerImpl.HierarchyManagerImpl( NodeId rootNodeId , ItemStateManager provider );1;0;4
+HierarchyManagerImpl.pathResolved( ItemId id , PathBuilder builder );1;0;2
+HierarchyManagerImpl.getRelativeDepth( NodeId ancestorId , ItemId descendantId );6;3;29
+HierarchyManagerImpl.getPath( ItemId id );5;0;22
+HierarchyManagerImpl.resolveNodePath( Path path );1;0;3
+HierarchyManagerImpl.resolvePath( Path path );3;1;11
+HierarchyManagerImpl.getShareRelativeDepth( NodeId ancestor , ItemId descendant );7;3;35
+HierarchyManagerImpl.hasItemState( ItemId id );1;0;3
+HierarchyManagerImpl.isAncestor( NodeId nodeId , ItemId itemId );6;1;27
+HierarchyManagerImpl.getName( ItemId itemId );5;1;23
+HierarchyManagerImpl.getDepth( ItemId id );5;2;24
+HierarchyManagerImpl.resolvePath( Path path , int typesAllowed );2;0;11
+HierarchyManagerImpl.getName( NodeId id , NodeId parentId );4;1;22
+HierarchyManagerImpl.getItemState( ItemId id );1;0;3

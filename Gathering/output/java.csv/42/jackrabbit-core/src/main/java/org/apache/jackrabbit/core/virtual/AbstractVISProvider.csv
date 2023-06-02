@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractVISProvider.hasNodeReferences( NodeReferencesId id );1;0;3
+AbstractVISProvider.stateCreated( ItemState created );3;3;11
+AbstractVISProvider.removeListener( ItemStateListener listener );1;0;5
+AbstractVISProvider.getApplicableChildNodeDef( NodeState parent , Name nodeName , Name nodeTypeName );1;0;4
+AbstractVISProvider.hasItemState( ItemId id );4;0;13
+AbstractVISProvider.createNodeState( VirtualNodeState parent , Name name , NodeId id , Name nodeTypeName );3;1;20
+AbstractVISProvider.getApplicablePropertyDef( NodeState parent , Name propertyName , int type , boolean multiValued );1;0;3
+AbstractVISProvider.getNodeReferences( NodeReferencesId id );1;0;3
+AbstractVISProvider.stateDestroyed( ItemState destroyed );6;4;18
+AbstractVISProvider.cache( NodeState state );2;1;7
+AbstractVISProvider.stateDiscarded( ItemState discarded );6;4;18
+AbstractVISProvider.invalidateItem( ItemId id , boolean recursive );6;3;17
+AbstractVISProvider.getVirtualRootId( );1;0;3
+AbstractVISProvider.createPropertyState( VirtualNodeState parent , Name name , int type , boolean multiValued );1;0;9
+AbstractVISProvider.getRootState( );3;1;10
+AbstractVISProvider.getNodeTypeRegistry( );1;0;3
+AbstractVISProvider.isVirtualRoot( ItemId id );1;0;3
+AbstractVISProvider.getEffectiveNodeType( NodeState parent );2;0;10
+AbstractVISProvider.internalHasPropertyState( PropertyId id );3;0;10
+AbstractVISProvider.getItemState( ItemId id );4;0;15
+AbstractVISProvider.AbstractVISProvider( NodeTypeRegistry ntReg , NodeId rootNodeId );1;0;4
+AbstractVISProvider.addListener( ItemStateListener listener );1;1;6
+AbstractVISProvider.stateModified( ItemState modified );3;3;11
+AbstractVISProvider.internalGetPropertyState( PropertyId id );2;0;7
+AbstractVISProvider.evict( NodeId id );1;0;3

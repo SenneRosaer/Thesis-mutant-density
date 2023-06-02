@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ModelMethod.checkDependencies( ModelAndViewContainer mavContainer );3;1;8
+ModelFactory.isBindingCandidate( String attributeName , Object value );6;7;10
+ModelFactory.getNextModelMethod( ModelAndViewContainer container );3;0;11
+ModelMethod.getHandlerMethod( );1;0;3
+ModelFactory.updateModel( NativeWebRequest request , ModelAndViewContainer container );4;3;12
+ModelFactory.ModelFactory( @ Nullable List < InvocableHandlerMethod > handlerMethods , WebDataBinderFactory binderFactory , SessionAttributesHandler attributeHandler );3;1;9
+ModelFactory.findSessionAttributeArguments( HandlerMethod handlerMethod );5;0;13
+ModelFactory.updateBindingResult( NativeWebRequest request , ModelMap model );5;4;13
+ModelMethod.toString( );1;0;3
+ModelFactory.getNameForParameter( MethodParameter parameter );3;1;5
+ModelFactory.initModel( NativeWebRequest request , ModelAndViewContainer container , HandlerMethod handlerMethod );5;2;14
+ModelFactory.invokeModelAttributeMethods( NativeWebRequest request , ModelAndViewContainer container );9;5;30
+ModelFactory.getNameForReturnValue( @ Nullable Object returnValue , MethodParameter returnType );5;3;13
+ModelMethod.ModelMethod( InvocableHandlerMethod handlerMethod );3;0;8

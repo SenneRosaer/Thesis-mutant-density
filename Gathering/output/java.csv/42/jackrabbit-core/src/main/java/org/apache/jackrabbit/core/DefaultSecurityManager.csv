@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultSecurityManager.getAccessControlProvider( String workspaceName );3;2;14
+WorkspaceAccessManagerImpl.init( Session securitySession );1;0;2
+DefaultSecurityManager.getAccessManager( Session session , AMContext amContext );4;1;23
+DefaultSecurityManager.init( Repository repository , Session systemSession );14;11;62
+DefaultSecurityManager.checkInitialized( );2;1;5
+WorkspaceAccessManagerImpl.grants( Set principals , String workspaceName );2;0;8
+DefaultSecurityManager.getAuthContext( Credentials creds , Subject subject );1;0;5
+DefaultSecurityManager.getPrincipalManager( Session session );3;1;11
+DefaultSecurityManager.close( );2;0;10
+DefaultSecurityManager.getUserID( Subject subject );7;5;24
+DefaultSecurityManager.getUserManager( Session session );4;1;17
+WorkspaceAccessManagerImpl.close( );1;0;2
+DefaultSecurityManager.createSystemUsers( UserManager userManager , String adminId , String anonymousId );6;5;24
+DefaultSecurityManager.dispose( String workspaceName );2;1;9

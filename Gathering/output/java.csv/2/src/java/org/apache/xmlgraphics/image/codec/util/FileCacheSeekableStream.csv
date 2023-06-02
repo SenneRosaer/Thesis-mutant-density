@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileCacheSeekableStream.FileCacheSeekableStream( InputStream stream );1;0;6
+FileCacheSeekableStream.read( );2;4;10
+FileCacheSeekableStream.close( );1;0;5
+FileCacheSeekableStream.read( byte [ ] b , int off , int len );7;13;21
+FileCacheSeekableStream.getFilePointer( );1;0;3
+FileCacheSeekableStream.seek( long pos );2;1;6
+FileCacheSeekableStream.canSeekBackwards( );1;0;3
+FileCacheSeekableStream.readUntil( long pos );5;8;22

@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleCache.store( File file , byte [ ] content );4;1;25
+SimpleCache.get( File file );4;1;25
+SimpleCache.store( Serializable key , CachedResponse response );4;2;15
+SimpleCache.containsKey( Serializable key );3;2;12
+SimpleCache.getFile( Serializable key );3;0;11
+SimpleCache.get( Serializable key );8;7;24
+SimpleCache.parameterize( Parameters parameters );1;0;5
+SimpleCache.remove( Serializable key );2;0;7
+SimpleCache.clear( );1;0;7

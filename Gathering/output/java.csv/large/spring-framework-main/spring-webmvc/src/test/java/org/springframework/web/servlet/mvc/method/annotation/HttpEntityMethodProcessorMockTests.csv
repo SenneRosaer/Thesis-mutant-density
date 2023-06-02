@@ -1,0 +1,55 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpEntityMethodProcessorMockTests.shouldHandleConditionalRequestIfNoneMatchWildcard( );1;1;10
+HttpEntityMethodProcessorMockTests.varyHeaderWithExistingWildcard( );1;0;6
+HttpEntityMethodProcessorMockTests.shouldHandleResponseHeaderAndBody( );1;0;11
+HttpEntityMethodProcessorMockTests.handle1( HttpEntity < String > httpEntity , ResponseEntity < String > entity , int i , RequestEntity < String > requestEntity );1;0;3
+HttpEntityMethodProcessorMockTests.shouldFailHandlingWhenAcceptHeaderIllegal( );1;0;6
+HttpEntityMethodProcessorMockTests.shouldFailHandlingWhenConverterCannotWrite( );1;0;12
+HttpEntityMethodProcessorMockTests.shouldHandleReturnValueWithResponseBodyAdvice( );1;0;15
+HttpEntityMethodProcessorMockTests.shouldHandleChangedETagAndLastModified( );1;2;14
+HttpEntityMethodProcessorMockTests.shouldFailWithServerErrorIfContentTypeFromResponseEntity( );1;0;12
+HttpEntityMethodProcessorMockTests.varyHeaderWithExistingCommaSeparatedValues( );1;0;6
+HttpEntityMethodProcessorMockTests.handle4( );1;0;3
+HttpEntityMethodProcessorMockTests.shouldFailHandlingWhenContentTypeNotSupported( );1;0;11
+HttpEntityMethodProcessorMockTests.shouldFailResolvingWhenConverterCannotRead( );1;0;9
+HttpEntityMethodProcessorMockTests.setup( );1;8;25
+HttpEntityMethodProcessorMockTests.shouldFailResolvingWhenContentTypeNotSupported( );1;0;6
+HttpEntityMethodProcessorMockTests.handle2x( HttpEntity < ? > entity );1;0;3
+HttpEntityMethodProcessorMockTests.testVaryHeader( String [ ] entityValues , String [ ] existingValues , String [ ] expected );2;0;11
+HttpEntityMethodProcessorMockTests.assertResponseBody( String body );1;0;4
+HttpEntityMethodProcessorMockTests.shouldHandleValidatorHeadersInputResponses( );1;1;8
+HttpEntityMethodProcessorMockTests.handleEtagWithHttp304AndEtagFilterHasNoImpact( );2;1;16
+HttpEntityMethodProcessorMockTests.shouldFailWithServerErrorIfContentTypeFromProducibleAttribute( );1;0;12
+HttpEntityMethodProcessorMockTests.supportsParameter( );1;0;6
+HttpEntityMethodProcessorMockTests.handleReturnValueVaryHeader( );1;0;6
+HttpEntityMethodProcessorMockTests.shouldResolveHttpEntityArgument( );2;0;12
+HttpEntityMethodProcessorMockTests.shouldHandleGetIfNoneMatchWildcard( );1;1;9
+HttpEntityMethodProcessorMockTests.shouldHandleIfNoneMatchIfUnmodifiedSince( );1;1;10
+HttpEntityMethodProcessorMockTests.shouldHandleResourceByteRange( );1;0;12
+HttpEntityMethodProcessorMockTests.shouldHandleLastModifiedWithHttp304( );1;2;10
+HttpEntityMethodProcessorMockTests.handle7( );1;0;3
+HttpEntityMethodProcessorMockTests.assertConditionalResponse( HttpStatus status , String body , String etag , long lastModified );4;6;18
+HttpEntityMethodProcessorMockTests.shouldHandleResponseHeaderNoBody( );1;0;8
+HttpEntityMethodProcessorMockTests.shouldHandleReturnValue( );1;0;10
+HttpEntityMethodProcessorMockTests.handleEtagWithHttp304( );1;1;8
+HttpEntityMethodProcessorMockTests.disableRangeSupportForStreamingResponses( );1;0;13
+HttpEntityMethodProcessorMockTests.handle5( );1;0;3
+HttpEntityMethodProcessorMockTests.supportsReturnType( );1;0;9
+HttpEntityMethodProcessorMockTests.shouldHandleResource( );1;0;11
+HttpEntityMethodProcessorMockTests.shouldHandleIfNoneMatchIfMatch( );1;1;9
+HttpEntityMethodProcessorMockTests.handle3( );1;0;3
+HttpEntityMethodProcessorMockTests.varyHeaderWithExistingCommaValues( );1;0;6
+HttpEntityMethodProcessorMockTests.shouldHandleNotModifiedResponse( );1;2;10
+HttpEntityMethodProcessorMockTests.shouldResolveRequestEntityArgument( );3;1;20
+HttpEntityMethodProcessorMockTests.shouldHandleReturnValueWithProducibleMediaType( );1;0;10
+HttpEntityMethodProcessorMockTests.handle6( );1;0;3
+HttpEntityMethodProcessorMockTests.handle2( HttpEntity < ? > entity );1;0;3
+HttpEntityMethodProcessorMockTests.initStringMessageConversion( MediaType accepted );1;0;6
+HttpEntityMethodProcessorMockTests.varyHeader( );1;0;6
+HttpEntityMethodProcessorMockTests.shouldHandleETagAndLastModifiedWithHttp304( );1;2;13
+HttpEntityMethodProcessorMockTests.handleReturnTypeResourceIllegalByteRange( );1;0;11
+HttpEntityMethodProcessorMockTests.shouldHandleProblemDetail( );1;0;21
+HttpEntityMethodProcessorMockTests.shouldNotFailPreconditionForPutRequests( );1;1;11
+HttpEntityMethodProcessorMockTests.shouldHandleErrorResponse( );1;0;22
+HttpEntityMethodProcessorMockTests.shouldHandleInvalidIfNoneMatchWithHttp200( );1;1;8
+HttpEntityMethodProcessorMockTests.disableRangeSupportIfContentRangePresent( );1;0;11

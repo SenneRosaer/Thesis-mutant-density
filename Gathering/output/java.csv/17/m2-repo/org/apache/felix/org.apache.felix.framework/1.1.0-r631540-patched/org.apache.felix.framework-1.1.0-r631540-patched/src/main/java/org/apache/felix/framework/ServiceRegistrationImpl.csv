@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServiceRegistrationImpl.getFactoryUnchecked( Bundle bundle );1;0;3
+ServiceRegistrationImpl.ungetFactoryUnchecked( Bundle bundle , Object svcObj );1;0;3
+ServiceRegistrationImpl.isClassAccessible( Class clazz );3;2;13
+ServiceRegistrationImpl.ungetService( Bundle relBundle , Object svcObj );4;2;22
+ServiceRegistrationImpl.getReference( );1;0;3
+ServiceRegistrationImpl.setProperties( Dictionary dict );2;1;9
+ServiceRegistrationImpl.getService( Bundle acqBundle );4;2;27
+ServiceFactoryPrivileged.ServiceFactoryPrivileged( Bundle bundle , Object svcObj );1;0;4
+ServiceRegistrationImpl.getUsingBundles( );1;0;3
+ServiceRegistrationImpl.ServiceRegistrationImpl( ServiceRegistry registry , Bundle bundle , String [ ] classes , Long serviceId , Object svcObj , Dictionary dict );2;0;11
+ServiceRegistrationImpl.unregister( );3;2;16
+ServiceRegistrationImpl.isValid( );1;1;3
+ServiceFactoryPrivileged.run( );2;1;11
+ServiceRegistrationImpl.initializeProperties( Dictionary dict );3;1;17
+ServiceRegistrationImpl.getPropertyKeys( );2;0;13
+ServiceRegistrationImpl.invalidate( );1;0;3
+ServiceRegistrationImpl.getProperty( String key );1;0;3

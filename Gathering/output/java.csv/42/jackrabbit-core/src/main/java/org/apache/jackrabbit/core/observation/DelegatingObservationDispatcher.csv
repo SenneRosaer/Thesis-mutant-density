@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DelegatingObservationDispatcher.addDispatcher( ObservationDispatcher dispatcher );1;0;5
+DelegatingObservationDispatcher.removeDispatcher( ObservationDispatcher dispatcher );1;0;5
+DelegatingObservationDispatcher.dispatchEvents( EventStateCollection events );1;0;3
+DelegatingObservationDispatcher.createEventStateCollection( SessionImpl session , Path pathPrefix );1;0;3
+DelegatingObservationDispatcher.prepareDeleted( EventStateCollection events , ChangeLog changes );1;0;2
+DelegatingObservationDispatcher.prepareEvents( EventStateCollection events );1;0;2
+DelegatingObservationDispatcher.dispatch( List eventList , SessionImpl session , Path pathPrefix );3;2;18

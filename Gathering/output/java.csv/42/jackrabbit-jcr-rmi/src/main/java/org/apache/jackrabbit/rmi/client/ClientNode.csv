@@ -1,0 +1,61 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClientNode.setProperty( String name , Value [ ] values );3;1;14
+ClientNode.hasNodes( );2;0;7
+ClientNode.doneMerge( Version version );2;0;7
+ClientNode.setProperty( String name , InputStream value );2;1;7
+ClientNode.setProperty( String name , Value [ ] values , int type );2;0;9
+ClientNode.hasProperties( );2;0;7
+ClientNode.accept( ItemVisitor visitor );1;0;3
+ClientNode.orderBefore( String src , String dst );2;0;7
+ClientNode.getMixinNodeTypes( );2;0;7
+ClientNode.getCorrespondingNodePath( String workspace );2;0;7
+ClientNode.restore( Version version , String path , boolean removeExisting );2;0;7
+ClientNode.isLocked( );2;0;7
+ClientNode.getPrimaryItem( );2;0;7
+ClientNode.hasProperty( String path );2;0;7
+ClientNode.checkin( );2;0;7
+ClientNode.getProperty( String path );2;0;8
+ClientNode.hasNode( String path );2;0;7
+ClientNode.holdsLock( );2;0;7
+ClientNode.addNode( String path , String type );2;0;8
+ClientNode.getPrimaryNodeType( );2;0;7
+ClientNode.restoreByLabel( String label , boolean removeExisting );2;0;7
+ClientNode.getLock( );2;0;7
+ClientNode.setProperty( String name , long value );1;0;3
+ClientNode.getVersionHistory( );2;0;7
+ClientNode.isNodeType( String type );2;0;7
+ClientNode.getDefinition( );2;0;7
+ClientNode.setProperty( String name , Value value , int type );2;0;9
+ClientNode.canAddMixin( String name );2;0;7
+ClientNode.getNodes( String pattern );2;0;7
+ClientNode.getNode( String path );2;0;7
+ClientNode.setProperty( String name , Calendar value );2;1;7
+ClientNode.cancelMerge( Version version );2;0;7
+ClientNode.getNodes( );2;0;7
+ClientNode.setProperty( String name , String value );2;1;7
+ClientNode.setProperty( String name , String value , int type );1;0;3
+ClientNode.getProperties( );2;0;7
+ClientNode.getReferences( );2;0;7
+ClientNode.addMixin( String name );2;0;7
+ClientNode.merge( String workspace , boolean bestEffort );2;0;7
+ClientNode.isNode( );1;0;3
+ClientNode.getIndex( );2;0;7
+ClientNode.restore( Version version , boolean removeExisting );2;0;7
+ClientNode.getProperties( String pattern );2;0;7
+ClientNode.setProperty( String name , boolean value );1;0;3
+ClientNode.setProperty( String name , String [ ] strings );3;3;11
+ClientNode.getBaseVersion( );2;0;7
+ClientNode.update( String workspace );2;0;7
+ClientNode.setProperty( String name , Node value );2;1;7
+ClientNode.setProperty( String name , String [ ] strings , int type );2;2;7
+ClientNode.lock( boolean isDeep , boolean isSessionScoped );2;0;8
+ClientNode.restore( String version , boolean removeExisting );2;0;7
+ClientNode.checkout( );2;0;7
+ClientNode.unlock( );2;0;7
+ClientNode.setProperty( String name , Value value );3;1;14
+ClientNode.setProperty( String name , double value );1;0;3
+ClientNode.ClientNode( Session session , RemoteNode remote , LocalAdapterFactory factory );1;0;4
+ClientNode.getUUID( );2;0;7
+ClientNode.addNode( String path );2;0;7
+ClientNode.isCheckedOut( );2;0;7
+ClientNode.removeMixin( String name );2;0;7

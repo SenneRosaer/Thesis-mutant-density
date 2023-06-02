@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EsqlHelper.getStringOrClob( ResultSet set , String column , String defaultString );2;0;7
+EsqlHelper.getStringFromByteArray( byte [ ] bytes , String encoding , String defaultString );5;4;15
+EsqlHelper.getBlob( ResultSet set , int column );4;2;15
+EsqlHelper.getAscii( ResultSet set , String column , String defaultString );2;0;8
+EsqlHelper.readAscii( Clob clob , String defaultValue );5;3;23
+EsqlHelper.readBytes( Blob blob , byte [ ] defaultValue );5;3;23
+EsqlHelper.getBlob( ResultSet set , String column );2;0;7
+EsqlHelper.read( Clob clob , String defaultValue );5;3;23
+EsqlHelper.close( Object lob );8;2;17
+EsqlHelper.getBlob( CallableStatement cs , int column , String defaultString );6;5;19
+EsqlHelper.getAscii( ResultSet set , int column , String defaultString );6;4;18
+EsqlHelper.getStringOrClob( ResultSet set , int column , String defaultString );6;4;18
+EsqlHelper.getAscii( CallableStatement cs , int column , String defaultString );2;0;7
+EsqlHelper.getStringOrClob( CallableStatement cs , int column , String defaultString );4;2;10

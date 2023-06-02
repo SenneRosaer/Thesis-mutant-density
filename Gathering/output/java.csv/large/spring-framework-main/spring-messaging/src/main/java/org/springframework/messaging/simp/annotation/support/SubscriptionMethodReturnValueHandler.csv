@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SubscriptionMethodReturnValueHandler.setHeaderInitializer( @ Nullable MessageHeaderInitializer headerInitializer );1;0;3
+SubscriptionMethodReturnValueHandler.supportsReturnType( MethodParameter returnType );3;4;5
+SubscriptionMethodReturnValueHandler.getHeaderInitializer( );1;0;3
+SubscriptionMethodReturnValueHandler.handleReturnValue( @ Nullable Object returnValue , MethodParameter returnType , Message < ? > message );5;3;22
+SubscriptionMethodReturnValueHandler.createHeaders( @ Nullable String sessionId , String subscriptionId , MethodParameter returnType );3;2;13
+SubscriptionMethodReturnValueHandler.SubscriptionMethodReturnValueHandler( MessageSendingOperations < String > template );1;0;4

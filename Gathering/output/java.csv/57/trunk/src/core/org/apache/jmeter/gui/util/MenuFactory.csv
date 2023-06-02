@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MenuFactory.configElements_size( );1;0;3
+MenuFactory.MenuFactory( );1;0;2
+MenuFactory.timers_size( );1;0;3
+***not in a method***;0;2;0
+MenuFactory.getDefaultTimerMenu( );1;0;6
+MenuFactory.nonTestElements_size( );1;0;3
+MenuFactory.listeners_size( );1;0;3
+MenuFactory.initializeMenus( );20;3;70
+MenuFactory.getDefaultSamplerMenu( );1;0;12
+MenuFactory.makeMenus( String [ ] categories , String label , String actionCommand );2;2;7
+MenuFactory.makeMenu( String category , String actionCommand );1;0;3
+MenuFactory.canAddTo( JMeterTreeNode parentNode , TestElement element );1;0;4
+MenuFactory.samplers_size( );1;0;3
+MenuFactory.makeMenuItem( MenuInfo info , String actionCommand );2;1;9
+MenuFactory.assertions_size( );1;0;3
+MenuFactory.foundClass( JMeterTreeNode nodes [ ] , Class classes [ ] , Class except );5;5;14
+MenuFactory.canAddTo( JMeterTreeNode parentNode , JMeterTreeNode nodes [ ] );11;1;37
+MenuFactory.makeMenuItem( String label , String name , String actionCommand );2;1;9
+MenuFactory.controllers_size( );1;0;3
+MenuFactory.elementsToSkip_size( );1;0;3
+MenuFactory.postProcessors_size( );1;0;3
+MenuFactory.getDefaultAssertionMenu( );1;0;6
+MenuFactory.makeMenuItemRes( String resource , String actionCommand );2;1;9
+MenuFactory.addSeparator( JPopupMenu menu );3;4;6
+MenuFactory.getDefaultConfigElementMenu( );1;0;6
+MenuFactory.setEnabled( JMenu menu );2;1;5
+MenuFactory.menuMap_size( );1;0;3
+MenuFactory.addFileMenu( JPopupMenu menu );3;1;33
+MenuFactory.preProcessors_size( );1;0;3
+MenuFactory.getDefaultExtractorMenu( );1;0;6
+MenuFactory.getDefaultVisualizerMenu( );1;0;6
+MenuFactory.addEditMenu( JPopupMenu menu , boolean removable );3;0;12
+MenuFactory.makeMenuItem( String label , String name , String actionCommand , KeyStroke accel );1;0;5
+MenuFactory.addPasteResetMenu( JPopupMenu menu );1;0;5
+MenuFactory.makeMenu( Collection menuInfo , String actionCommand , String menuName );2;0;9
+MenuFactory.getDefaultControllerMenu( );1;0;12
+MenuFactory.foundClass( JMeterTreeNode nodes [ ] , Class classes [ ] );4;4;11
+MenuFactory.makeMenuItemRes( String resource , String actionCommand , KeyStroke accel );1;0;5

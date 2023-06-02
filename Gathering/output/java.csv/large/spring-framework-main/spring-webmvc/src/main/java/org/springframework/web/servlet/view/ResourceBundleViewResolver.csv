@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceBundleViewResolver.getOrder( );1;0;3
+ResourceBundleViewResolver.getBundle( String basename , Locale locale );1;0;3
+ResourceBundleViewResolver.loadView( String viewName , Locale locale );2;0;9
+ResourceBundleViewResolver.getBundleClassLoader( );1;0;3
+ResourceBundleViewResolver.setDefaultParentView( String defaultParentView );1;0;3
+ResourceBundleViewResolver.setBundleClassLoader( ClassLoader classLoader );1;0;3
+ResourceBundleViewResolver.setBasename( String basename );1;0;3
+ResourceBundleViewResolver.setOrder( int order );1;0;3
+ResourceBundleViewResolver.initFactory( Locale locale );8;2;34
+ResourceBundleViewResolver.setLocalesToInitialize( Locale ... localesToInitialize );1;0;3
+ResourceBundleViewResolver.afterPropertiesSet( );3;1;7
+ResourceBundleViewResolver.destroy( );2;0;7
+ResourceBundleViewResolver.setBasenames( String ... basenames );1;0;3

@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReferenceConstraint.ReferenceConstraint( String definition , NamePathResolver resolver );3;0;16
+StringConstraint.check( InternalValue value );3;1;16
+DateConstraint.DateConstraint( String definition );13;12;54
+StringConstraint.check( String text );3;2;11
+NumericConstraint.NumericConstraint( String definition );12;13;49
+NameConstraint.check( InternalValue value );4;3;21
+BooleanConstraint.check( boolean bool );2;1;6
+NameConstraint.NameConstraint( String definition , NamePathResolver resolver );3;0;16
+ReferenceConstraint.getDefinition( NamePathResolver resolver );2;0;7
+PathConstraint.getDefinition( NamePathResolver resolver );4;1;14
+ValueConstraint.hashCode( );1;0;3
+NumericConstraint.check( InternalValue value );6;3;28
+NameConstraint.getDefinition( NamePathResolver resolver );2;0;7
+ValueConstraint.create( int type , String definition , NamePathResolver resolver );11;1;27
+DateConstraint.check( Calendar cal );10;11;36
+NumericConstraint.check( double number );9;10;32
+StringConstraint.StringConstraint( String definition );2;0;10
+DateConstraint.check( InternalValue value );3;1;16
+ValueConstraint.getDefinition( );1;0;3
+ValueConstraint.equals( Object other );3;1;9
+ValueConstraint.getDefinition( NamePathResolver resolver );1;0;3
+BooleanConstraint.BooleanConstraint( String definition );3;0;13
+ValueConstraint.ValueConstraint( String definition );1;0;3
+ReferenceConstraint.getNodeTypeName( );1;0;3
+BooleanConstraint.check( InternalValue value );3;1;16
+PathConstraint.PathConstraint( String definition , NamePathResolver resolver );4;1;20
+PathConstraint.check( InternalValue value );8;6;42
+ReferenceConstraint.check( InternalValue value );3;1;16

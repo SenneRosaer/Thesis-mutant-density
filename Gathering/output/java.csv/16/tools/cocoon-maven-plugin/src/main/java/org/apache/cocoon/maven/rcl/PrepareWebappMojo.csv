@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PrepareWebappMojo.rewriteWebXml( File webAppBaseDir );6;0;25
+PrepareWebappMojo.writeInputStreamToFile( final InputStream is , final File f );2;0;11
+PrepareWebappMojo.writeStringTemplateToFile( final File basedir , final String fileName , final String customFile , final Map templateObjects );8;2;36
+PrepareWebappMojo.copyCustomWebappDirectory( File webAppBaseDir );5;3;18
+PrepareWebappMojo.readResourceFromClassloader( String fileName );1;2;5
+PrepareWebappMojo.copyRclWrapperLibs( File webAppBaseDir );3;0;13
+PrepareWebappMojo.createProperties( File webAppBaseDir );2;0;11
+PrepareWebappMojo.createSpringProperties( File webAppBaseDir , RwmProperties props );2;0;10
+PrepareWebappMojo.getDependencies( final String groupId , final String artifactId , final String version , final String packaging );6;0;34
+PrepareWebappMojo.writeLog4jXml( File webAppBaseDir );1;0;6
+PrepareWebappMojo.createReloadingClassLoaderConf( File webAppBaseDir , RwmProperties props );3;0;14
+PrepareWebappMojo.createUrlClassLoaderConf( File webAppBaseDir , RwmProperties props );7;5;30
+PrepareWebappMojo.applyXpatchFiles( File webAppBaseDir , RwmProperties props );4;2;24
+PrepareWebappMojo.execute( );5;3;31
+PrepareWebappMojo.createCocoonProperties( File webAppBaseDir , RwmProperties props );2;0;10
+PrepareWebappMojo.createPath( File file );3;3;6
+PrepareWebappMojo.readProperties( );2;0;9
+PrepareWebappMojo.accept( File d , String name );1;0;3

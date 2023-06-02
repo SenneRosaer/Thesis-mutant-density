@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultArtifact.cloneWithAnotherName( Artifact artifact , String name );1;0;9
+DefaultArtifact.newPomArtifact( ModuleRevisionId mrid , Date pubDate );1;0;3
+DefaultArtifact.getExt( );1;0;3
+DefaultArtifact.isMetadata( );1;0;3
+DefaultArtifact.DefaultArtifact( ModuleRevisionId mrid , Date publicationDate , String name , String type , String ext , URL url , Map extraAttributes );1;0;4
+DefaultArtifact.DefaultArtifact( ModuleRevisionId mrid , Date publicationDate , String name , String type , String ext );1;0;3
+DefaultArtifact.cloneWithAnotherType( Artifact artifact , String newType );1;0;3
+DefaultArtifact.getModuleRevisionId( );1;0;3
+DefaultArtifact.getType( );1;0;3
+DefaultArtifact.cloneWithAnotherMrid( Artifact artifact , ModuleRevisionId mrid );1;0;9
+DefaultArtifact.DefaultArtifact( ModuleRevisionId mrid , Date publicationDate , String name , String type , String ext , boolean isMetadata );1;0;4
+DefaultArtifact.getConfigurations( );1;0;3
+DefaultArtifact.getName( );1;0;3
+DefaultArtifact.cloneWithAnotherExt( Artifact artifact , String newExt );1;0;3
+DefaultArtifact.DefaultArtifact( ArtifactRevisionId arid , Date publicationDate , URL url , boolean isMetadata );3;2;12
+DefaultArtifact.newIvyArtifact( ModuleRevisionId mrid , Date pubDate );1;0;3
+DefaultArtifact.getId( );1;0;3
+DefaultArtifact.getPublicationDate( );1;0;3
+DefaultArtifact.getUrl( );1;0;3
+DefaultArtifact.cloneWithAnotherTypeAndExt( Artifact artifact , String newType , String newExt );1;0;9
+DefaultArtifact.DefaultArtifact( ModuleRevisionId mrid , Date publicationDate , String name , String type , String ext , Map extraAttributes );1;0;3

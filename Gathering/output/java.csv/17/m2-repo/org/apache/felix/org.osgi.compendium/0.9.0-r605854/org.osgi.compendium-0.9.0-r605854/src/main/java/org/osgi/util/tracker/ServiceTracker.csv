@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServiceTracker.ServiceTracker( BundleContext context , String clazz , ServiceTrackerCustomizer customizer );3;1;14
+***not in a method***;0;2;0
+Tracked.track( ServiceReference reference );5;1;29
+ServiceTracker.remove( ServiceReference reference );2;1;7
+ServiceTracker.size( );2;1;7
+ServiceTracker.getServiceReferences( );4;4;18
+ServiceTracker.getServices( );5;5;18
+Tracked.setInitialServices( ServiceReference [ ] references );4;3;13
+Tracked.trackAdding( ServiceReference reference );6;1;32
+ServiceTracker.getService( );5;2;18
+Tracked.untrack( ServiceReference reference );7;1;29
+ServiceTracker.modifiedService( ServiceReference reference , Object service );1;0;2
+ServiceTracker.open( );1;0;3
+Tracked.close( );1;0;3
+ServiceTracker.getInitialReferences( boolean trackAllServices , String trackClass , String filterString );2;0;8
+ServiceTracker.addingService( ServiceReference reference );1;0;3
+ServiceTracker.close( );9;8;29
+ServiceTracker.open( boolean trackAllServices );7;3;35
+Tracked.trackInitialServices( );8;2;31
+ServiceTracker.modified( );2;1;8
+ServiceTracker.finalize( );1;0;2
+ServiceTracker.removedService( ServiceReference reference , Object service );1;0;3
+ServiceTracker.ServiceTracker( BundleContext context , Filter filter , ServiceTrackerCustomizer customizer );4;4;11
+AllTracked.AllTracked( );1;0;3
+ServiceTracker.waitForService( long timeout );6;5;22
+ServiceTracker.getService( ServiceReference reference );2;1;9
+Tracked.Tracked( );1;0;6
+ServiceTracker.getServiceReference( );15;14;60
+Tracked.serviceChanged( ServiceEvent event );8;1;29
+ServiceTracker.getTrackingCount( );1;0;3
+ServiceTracker.ServiceTracker( BundleContext context , ServiceReference reference , ServiceTrackerCustomizer customizer );3;1;14

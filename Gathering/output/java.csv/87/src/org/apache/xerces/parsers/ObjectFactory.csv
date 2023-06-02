@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ObjectFactory.createObject( String factoryId , String fallbackClassName );1;0;3
+ObjectFactory.newInstance( String className , ClassLoader cl , boolean doFallback );4;0;16
+ObjectFactory.findClassLoader( );7;4;26
+ObjectFactory.findJarServiceProvider( String factoryId );11;6;43
+ConfigurationError.ConfigurationError( String msg , Exception x );1;0;4
+***not in a method***;0;2;0
+ObjectFactory.findProviderClass( String className , ClassLoader cl , boolean doFallback );8;6;32
+ConfigurationError.getException( );1;0;3
+ObjectFactory.debugPrintln( String msg );2;0;5
+ObjectFactory.createObject( String factoryId , String propertiesFilename , String fallbackClassName );26;20;99

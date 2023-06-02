@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletRequestAttributes.obtainSession( );1;1;5
+ServletRequestAttributes.ServletRequestAttributes( HttpServletRequest request );1;0;4
+ServletRequestAttributes.getSessionId( );1;0;3
+ServletRequestAttributes.getSession( boolean allowCreate );4;1;21
+ServletRequestAttributes.getAttributeNames( int scope );5;3;20
+ServletRequestAttributes.getSessionMutex( );1;0;3
+ServletRequestAttributes.resolveReference( String key );3;0;11
+ServletRequestAttributes.removeAttribute( String name , int scope );5;3;20
+ServletRequestAttributes.getRequest( );1;0;3
+ServletRequestAttributes.getResponse( );1;0;3
+ServletRequestAttributes.setAttribute( String name , Object value , int scope );3;2;14
+ServletRequestAttributes.isImmutableSessionAttribute( String name , @ Nullable Object value );2;2;3
+ServletRequestAttributes.updateAccessedSessionAttributes( );7;5;20
+ServletRequestAttributes.toString( );1;0;3
+ServletRequestAttributes.registerSessionDestructionCallback( String name , Runnable callback );1;1;5
+ServletRequestAttributes.getAttribute( String name , int scope );6;4;24
+ServletRequestAttributes.registerDestructionCallback( String name , Runnable callback , int scope );2;1;8
+ServletRequestAttributes.ServletRequestAttributes( HttpServletRequest request , @ Nullable HttpServletResponse response );1;0;4

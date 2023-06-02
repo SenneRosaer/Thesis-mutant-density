@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReactiveResourceSynchronization.releaseResource( O resourceHolder , K resourceKey );1;0;3
+ReactiveResourceSynchronization.suspend( );2;0;6
+ReactiveResourceSynchronization.cleanupResource( O resourceHolder , K resourceKey , boolean committed );1;0;3
+ReactiveResourceSynchronization.processResourceAfterCommit( O resourceHolder );1;0;3
+ReactiveResourceSynchronization.beforeCompletion( );3;0;10
+ReactiveResourceSynchronization.shouldReleaseAfterCompletion( O resourceHolder );1;1;3
+ReactiveResourceSynchronization.beforeCommit( boolean readOnly );1;0;3
+ReactiveResourceSynchronization.afterCompletion( int status );4;1;23
+ReactiveResourceSynchronization.ReactiveResourceSynchronization( O resourceObject , K resourceKey , TransactionSynchronizationManager synchronizationManager );1;0;5
+ReactiveResourceSynchronization.shouldReleaseBeforeCompletion( );1;0;3
+ReactiveResourceSynchronization.resume( );2;0;6
+ReactiveResourceSynchronization.afterCommit( );2;1;6
+ReactiveResourceSynchronization.shouldUnbindAtCompletion( );1;0;3

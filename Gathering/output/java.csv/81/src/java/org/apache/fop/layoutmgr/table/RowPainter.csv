@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RowPainter.startBody( );1;0;3
+RowPainter.handleTableContentPosition( TableContentPosition tcpos );9;8;37
+RowPainter.startTablePart( TablePart tablePart );3;1;10
+RowPainter.RowPainter( TableContentLayoutManager tclm , LayoutContext layoutContext );1;2;11
+RowPainter.getRowOffset( int rowIndex );1;1;3
+RowPainter.getAccumulatedBPD( );1;0;3
+RowPainter.recordRowOffset( int rowIndex , int offset );2;3;5
+RowPainter.addAreaForEmptyGridUnit( EmptyGridUnit gu , int rowIndex , int colIndex , int actualRowHeight , int borderBeforeWhich , int borderAfterWhich , boolean lastOnPage );5;22;39
+RowPainter.computeContentLength( PrimaryGridUnit pgu , int startIndex , int endIndex );8;8;22
+RowPainter.addAreasAndFlushRow( boolean lastInPart , boolean lastOnPage );28;30;103
+RowPainter.addAreasForCell( PrimaryGridUnit pgu , int startPos , int endPos , int rowHeight , int borderBeforeWhich , int borderAfterWhich , boolean lastOnPage );8;22;49
+RowPainter.registerPartBackgroundArea( Block backgroundArea );1;0;4
+RowPainter.endTablePart( boolean lastInBody , boolean lastOnPage );3;4;14
+RowPainter.endBody( );1;0;3

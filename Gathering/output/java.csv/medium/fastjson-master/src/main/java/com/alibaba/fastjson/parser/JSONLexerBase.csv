@@ -1,0 +1,98 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JSONLexerBase.scanFieldStringArray( char [ ] fieldName , int argTypesCount , SymbolTable typeSymbolTable );1;0;3
+JSONLexerBase.scanFieldInt( char [ ] fieldName );22;45;75
+JSONLexerBase.nextTokenWithChar( char expect );9;12;15
+JSONLexerBase.scanFieldUUID( char [ ] fieldName );65;189;188
+JSONLexerBase.nextTokenWithColon( int expect );1;0;3
+JSONLexerBase.skipComment( );9;7;30
+JSONLexerBase.scanBoolean( char expectNext );15;44;51
+JSONLexerBase.scanFieldDouble( char [ ] fieldName );43;110;159
+JSONLexerBase.newCollectionByType( Class < ? > type );5;0;15
+JSONLexerBase.lexError( String key , Object ... args );1;0;3
+JSONLexerBase.skipObject( boolean valid );1;0;3
+JSONLexerBase.getCurrent( );1;0;3
+JSONLexerBase.scanSymbol( final SymbolTable symbolTable , final char quote );33;60;154
+JSONLexerBase.scanUUID( char seperator );64;184;184
+JSONLexerBase.isBlankInput( );4;3;13
+JSONLexerBase.isEnabled( int feature );1;2;3
+***not in a method***;0;14;0
+JSONLexerBase.tokenName( );1;0;3
+JSONLexerBase.scanStringSingleQuote( );43;39;119
+JSONLexerBase.integerValue( );20;35;79
+JSONLexerBase.seekObjectToField( long fieldNameHash , boolean deepScan );1;0;3
+JSONLexerBase.seekArrayToItem( int index );1;0;3
+JSONLexerBase.scanDate( char seperator );30;78;120
+JSONLexerBase.isEnabled( int features , int feature );2;5;3
+JSONLexerBase.intValue( );12;26;46
+JSONLexerBase.isRef( );5;12;9
+JSONLexerBase.nextTokenWithColon( );1;0;3
+JSONLexerBase.matchStat( );1;0;3
+JSONLexerBase.isWhitespace( char ch );7;13;9
+JSONLexerBase.getCalendar( );1;0;3
+JSONLexerBase.scanFieldFloatArray2( char [ ] fieldName );42;107;162
+JSONLexerBase.scanSymbolWithSeperator( final SymbolTable symbolTable , char serperator );13;36;59
+JSONLexerBase.info( );1;0;3
+JSONLexerBase.seekObjectToField( long [ ] fieldNameHash );1;0;3
+JSONLexerBase.readString( char [ ] chars , int chars_len );24;33;82
+JSONLexerBase.doubleValue( );1;0;3
+JSONLexerBase.setLocale( Locale locale );1;0;3
+JSONLexerBase.scanEnumSymbol( char [ ] fieldName );14;30;61
+JSONLexerBase.scanFieldBoolean( char [ ] fieldName );17;42;82
+JSONLexerBase.token( );1;0;3
+JSONLexerBase.scanFieldFloatArray( char [ ] fieldName );36;93;137
+JSONLexerBase.skipArray( );1;0;3
+JSONLexerBase.stringDefaultValue( );1;0;3
+JSONLexerBase.skipWhitespace( );10;13;22
+JSONLexerBase.scanInt( char expectNext );25;53;80
+JSONLexerBase.scanLong( char expectNextChar );28;61;89
+JSONLexerBase.scanFloat( char seperator );37;95;127
+JSONLexerBase.scanString( char expectNextChar );19;49;82
+JSONLexerBase.scanFieldIntArray( char [ ] fieldName );22;54;93
+JSONLexerBase.getLocale( );1;0;3
+JSONLexerBase.scanIdent( );10;2;30
+JSONLexerBase.scanDecimal( char seperator );40;92;141
+JSONLexerBase.scanFieldStringArray( char [ ] fieldName , Class < ? > type );25;71;104
+JSONLexerBase.nextIdent( );5;4;10
+JSONLexerBase.scanFalse( );18;28;38
+JSONLexerBase.matchField2( char [ ] fieldName );1;0;3
+JSONLexerBase.scanDouble( char seperator );37;95;127
+JSONLexerBase.getTimeZone( );1;0;3
+JSONLexerBase.scanStringArray( Collection < String > list , char seperator );24;74;85
+JSONLexerBase.seekObjectToFieldDeepScan( long fieldNameHash );1;0;3
+JSONLexerBase.scanFieldFloat( char [ ] fieldName );43;110;156
+JSONLexerBase.scanSymbol( final SymbolTable symbolTable );8;7;30
+JSONLexerBase.nextToken( );38;12;117
+JSONLexerBase.isEnabled( Feature feature );1;0;3
+JSONLexerBase.nextToken( int expect );37;34;123
+JSONLexerBase.scanFieldDate( char [ ] fieldName );27;69;115
+JSONLexerBase.matchField( char [ ] fieldName );10;15;29
+JSONLexerBase.setFeatures( int features );1;0;3
+JSONLexerBase.scanTrue( );17;27;34
+JSONLexerBase.scanSymbolUnQuoted( final SymbolTable symbolTable );16;28;39
+JSONLexerBase.scanNullOrNew( boolean acceptColon );29;47;55
+JSONLexerBase.scanFieldDecimal( char [ ] fieldName );41;95;148
+JSONLexerBase.skipObject( );1;0;3
+JSONLexerBase.resetStringPosition( );1;0;3
+JSONLexerBase.config( Feature feature , boolean state );2;2;6
+JSONLexerBase.decimalValue( boolean decimal );5;5;18
+JSONLexerBase.setTimeZone( TimeZone timeZone );1;0;3
+JSONLexerBase.scanString( );44;40;129
+JSONLexerBase.scanEnum( Class < ? > enumClass , final SymbolTable symbolTable , char serperator );3;1;7
+JSONLexerBase.close( );2;2;6
+JSONLexerBase.scanNullOrNew( );1;0;3
+JSONLexerBase.putChar( char ch );3;5;12
+JSONLexerBase.scanFieldBigInteger( char [ ] fieldName );34;81;130
+JSONLexerBase.floatValue( );5;6;11
+JSONLexerBase.pos( );1;0;3
+JSONLexerBase.scanFieldSymbol( char [ ] fieldName );12;26;61
+JSONLexerBase.scanType( String type );11;20;43
+JSONLexerBase.scanHex( );10;14;30
+JSONLexerBase.getFeatures( );1;0;3
+JSONLexerBase.matchField( long fieldNameHash );1;0;3
+JSONLexerBase.scanFieldLong( char [ ] fieldName );21;44;73
+JSONLexerBase.scanNumber( );25;39;75
+JSONLexerBase.scanFieldString( char [ ] fieldName );15;47;79
+JSONLexerBase.longValue( );12;26;46
+JSONLexerBase.setToken( int token );1;0;3
+JSONLexerBase.scanTypeName( SymbolTable symbolTable );1;0;3
+JSONLexerBase.JSONLexerBase( int features );3;3;10

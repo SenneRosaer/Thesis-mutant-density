@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CxfBcProvider.setUseSOAPEnvelope( boolean useSOAPEnvelope );1;0;3
+CxfBcProvider.setWsdl( Resource wsdl );1;0;3
+CxfBcProvider.isSynchronous( );1;0;3
+CxfBcProvider.setInInterceptors( List < Interceptor > interceptors );1;0;3
+CxfBcProvider.isUseSOAPEnvelope( );1;0;3
+CxfBcProvider.getWsdl( );1;0;3
+CxfBcProvider.getInFaultInterceptors( );1;0;3
+CxfBcProvider.getInInterceptors( );1;0;3
+CxfBcProvider.validate( );18;12;89
+CxfBcProvider.start( );1;0;3
+CxfBcProvider.handleJBIFault( Message message , String detail );1;0;10
+CxfBcProvider.getLocationURI( );1;0;3
+CxfBcProvider.isMtomEnabled( );1;0;3
+CxfBcProvider.setLocationURI( URI locationURI );1;0;3
+CxfBcProvider.getOutInterceptors( );1;0;3
+CxfBcProvider.setOutInterceptors( List < Interceptor > interceptors );1;0;3
+CxfBcProvider.setBusCfg( String busCfg );1;0;3
+CxfBcProvider.processExchange( MessageExchange exchange );1;0;2
+CxfBcProvider.setMtomEnabled( boolean mtomEnabled );1;0;3
+CxfBcProvider.getCxfEndpoint( );1;0;3
+CxfBcProvider.getBusCfg( );1;0;3
+CxfBcProvider.getEndpointInfo( );1;0;3
+CxfBcProvider.setUseJBIWrapper( boolean useJBIWrapper );1;0;3
+CxfBcProvider.convertMessageToInputStream( Source src );1;0;7
+CxfBcProvider.setSynchronous( boolean synchronous );1;0;3
+CxfBcProvider.setInFaultInterceptors( List < Interceptor > interceptors );1;0;3
+CxfBcProvider.process( MessageExchange exchange );9;6;84
+CxfBcProvider.isUseJBIWrapper( );1;0;3
+CxfBcProvider.getBus( );3;2;11
+CxfBcProvider.getOutFaultInterceptors( );1;0;3
+CxfBcProvider.setOutFaultInterceptors( List < Interceptor > interceptors );1;0;3
+CxfBcProvider.faultProcess( MessageExchange exchange , Message message , Exception e );5;4;19

@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultVersionManager.checkIsCheckedOut( NodeState nodeState );1;0;2
+DefaultVersionManager.removeVersion( NodeState versionHistoryState , NodeState versionState );1;0;3
+DefaultVersionManager.checkin( NodeState nodeState );1;0;3
+DefaultVersionManager.resolveMergeConflict( NodeState nodeState , NodeState versionState , boolean done );1;0;3
+DefaultVersionManager.checkout( NodeState nodeState );1;0;3
+DefaultVersionManager.restore( NodeState [ ] versionStates , boolean removeExisting );1;0;3
+DefaultVersionManager.restore( NodeState nodeState , Path relativePath , NodeState versionState , boolean removeExisting );1;0;3
+DefaultVersionManager.merge( NodeState nodeState , String workspaceName , boolean bestEffort );1;0;3
+DefaultVersionManager.getVersionHistoryEntry( NodeState versionableState );1;0;3
+DefaultVersionManager.isCheckedOut( NodeState nodeState );1;0;4
+DefaultVersionManager.addVersionLabel( NodeState versionHistoryState , NodeState versionState , Name qLabel , boolean moveLabel );1;0;3
+DefaultVersionManager.removeVersionLabel( NodeState versionHistoryState , NodeState versionState , Name qLabel );1;0;3
+DefaultVersionManager.getVersionableNodeEntry( NodeState versionState );1;0;3

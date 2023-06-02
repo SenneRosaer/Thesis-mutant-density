@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DeferredResult.handleTimeout( NativeWebRequest request , DeferredResult < S > deferredResult );4;2;21
+DeferredResult.DeferredResult( Long timeoutValue );1;0;3
+DeferredResult.getTimeoutValue( );1;0;3
+DeferredResult.DeferredResult( @ Nullable Long timeoutValue , Supplier < ? > timeoutResult );1;0;4
+DeferredResult.setResultHandler( DeferredResultHandler resultHandler );5;1;23
+DeferredResult.onCompletion( Runnable callback );1;0;3
+DeferredResult.handleError( NativeWebRequest request , DeferredResult < S > deferredResult , Throwable t );3;1;16
+DeferredResult.setErrorResult( Object result );1;0;3
+DeferredResult.DeferredResult( @ Nullable Long timeoutValue , Object timeoutResult );1;0;4
+DeferredResult.hasResult( );1;1;3
+DeferredResult.DeferredResult( );1;0;3
+DeferredResult.isSetOrExpired( );2;2;3
+DeferredResult.getInterceptor( );7;0;50
+DeferredResult.onTimeout( Runnable callback );1;0;3
+DeferredResult.afterCompletion( NativeWebRequest request , DeferredResult < S > deferredResult );2;1;6
+DeferredResult.getResult( );2;1;4
+DeferredResult.setResultInternal( Object result );4;1;19
+DeferredResult.setResult( T result );1;0;3
+DeferredResult.onError( Consumer < Throwable > callback );1;0;3

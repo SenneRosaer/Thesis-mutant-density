@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DelegatingPreparedStatement.clearParameters( );2;0;1
+DelegatingPreparedStatement.setObject( int parameterIndex , Object x );2;0;1
+DelegatingPreparedStatement.setFloat( int parameterIndex , float x );2;0;1
+DelegatingPreparedStatement.setDate( int parameterIndex , java . sql . Date x , Calendar cal );2;0;1
+DelegatingPreparedStatement.setBoolean( int parameterIndex , boolean x );2;0;1
+DelegatingPreparedStatement.setRef( int i , Ref x );2;0;1
+DelegatingPreparedStatement.setObject( int parameterIndex , Object x , int targetSqlType , int scale );2;0;1
+DelegatingPreparedStatement.setDate( int parameterIndex , java . sql . Date x );2;0;1
+DelegatingPreparedStatement.setShort( int parameterIndex , short x );2;0;1
+DelegatingPreparedStatement.setURL( int parameterIndex , java . net . URL x );2;0;1
+DelegatingPreparedStatement.equals( Object obj );3;1;13
+DelegatingPreparedStatement.setClob( int i , Clob x );2;0;1
+DelegatingPreparedStatement.executeQuery( );2;0;10
+DelegatingPreparedStatement.setNull( int parameterIndex , int sqlType );2;0;1
+DelegatingPreparedStatement.setArray( int i , Array x );2;0;1
+DelegatingPreparedStatement.execute( );2;0;1
+DelegatingPreparedStatement.setDouble( int parameterIndex , double x );2;0;1
+DelegatingPreparedStatement.setBinaryStream( int parameterIndex , java . io . InputStream x , int length );2;0;1
+DelegatingPreparedStatement.setTime( int parameterIndex , java . sql . Time x );2;0;1
+DelegatingPreparedStatement.setString( int parameterIndex , String x );2;0;1
+DelegatingPreparedStatement.setLong( int parameterIndex , long x );2;0;1
+DelegatingPreparedStatement.setTimestamp( int parameterIndex , java . sql . Timestamp x , Calendar cal );2;0;1
+DelegatingPreparedStatement.addBatch( );2;0;1
+DelegatingPreparedStatement.executeUpdate( );2;0;1
+DelegatingPreparedStatement.setNull( int paramIndex , int sqlType , String typeName );2;0;1
+DelegatingPreparedStatement.setTime( int parameterIndex , java . sql . Time x , Calendar cal );2;0;1
+DelegatingPreparedStatement.setBlob( int i , Blob x );2;0;1
+DelegatingPreparedStatement.setDelegate( PreparedStatement s );1;0;4
+DelegatingPreparedStatement.getMetaData( );2;0;1
+DelegatingPreparedStatement.setBigDecimal( int parameterIndex , BigDecimal x );2;0;1
+DelegatingPreparedStatement.setUnicodeStream( int parameterIndex , java . io . InputStream x , int length );2;0;1
+DelegatingPreparedStatement.setInt( int parameterIndex , int x );2;0;1
+DelegatingPreparedStatement.setObject( int parameterIndex , Object x , int targetSqlType );2;0;1
+DelegatingPreparedStatement.setBytes( int parameterIndex , byte [ ] x );2;0;1
+DelegatingPreparedStatement.setAsciiStream( int parameterIndex , java . io . InputStream x , int length );2;0;1
+DelegatingPreparedStatement.setCharacterStream( int parameterIndex , java . io . Reader reader , int length );2;0;1
+DelegatingPreparedStatement.setByte( int parameterIndex , byte x );2;0;1
+DelegatingPreparedStatement.getParameterMetaData( );2;0;1
+DelegatingPreparedStatement.toString( );1;0;3
+DelegatingPreparedStatement.DelegatingPreparedStatement( DelegatingConnection c , PreparedStatement s );1;0;4
+DelegatingPreparedStatement.setTimestamp( int parameterIndex , java . sql . Timestamp x );2;0;1

@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QNameSet.QNameSet( Set excludedURIs , Set includedURIs , Set excludedQNamesInIncludedURIs , Set includedQNamesInExcludedURIs );5;6;18
+QNameSet.excludedURIs( );2;0;4
+QNameSet.forSpecification( QNameSetSpecification spec );2;0;5
+QNameSet.excludedQNamesInIncludedURIs( );2;0;3
+QNameSet.forSets( Set excludedURIs , Set includedURIs , Set excludedQNamesInIncludedURIs , Set includedQNamesInExcludedURIs );18;21;19
+QNameSet.toString( );6;1;28
+QNameSet.singleton( QName name );1;0;3
+QNameSet.isDisjoint( QNameSetSpecification set );4;2;8
+QNameSet.union( QNameSetSpecification set );1;0;5
+QNameSet.intersect( QNameSetSpecification set );1;0;5
+QNameSet.contains( QName name );2;2;6
+QNameSet.includedURIs( );2;1;4
+QNameSet.isDisjointImpl( QNameSetSpecification set1 , QNameSetSpecification set2 );11;3;33
+QNameSet.isAll( );3;2;3
+QNameSet.inverse( );5;4;11
+QNameSet.prettyQName( QName name );2;2;5
+QNameSet.isEmpty( );3;3;3
+QNameSet.includedQNamesInExcludedURIs( );2;0;3
+QNameSet.nsFromName( QName xmlName );2;1;4
+QNameSet.minSetCopy( Set original );4;2;9
+QNameSet.forWildcardNamespaceString( String wildcard , String targetURI );1;0;3
+QNameSet.forArray( QName [ ] includedQNames );2;1;5
+QNameSet.containsAll( QNameSetSpecification set );3;3;5

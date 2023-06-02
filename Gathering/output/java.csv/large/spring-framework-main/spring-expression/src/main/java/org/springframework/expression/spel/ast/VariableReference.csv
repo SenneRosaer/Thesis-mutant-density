@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VariableReference.VariableReference( String variableName , int startPos , int endPos );1;0;4
+VariableRef.getValue( );1;0;3
+VariableReference.generateCode( MethodVisitor mv , CodeFlow cf );2;0;12
+VariableReference.toStringAST( );1;0;3
+VariableReference.getValueRef( ExpressionState state );3;0;10
+VariableRef.VariableRef( String name , TypedValue value , EvaluationContext evaluationContext );1;0;5
+VariableRef.setValue( @ Nullable Object newValue );1;0;3
+VariableReference.getValueInternal( ExpressionState state );5;3;19
+VariableReference.isWritable( ExpressionState expressionState );2;2;3
+VariableReference.isCompilable( );1;1;3
+VariableReference.setValue( ExpressionState state , @ Nullable Object value );1;0;3
+VariableRef.isWritable( );1;0;3

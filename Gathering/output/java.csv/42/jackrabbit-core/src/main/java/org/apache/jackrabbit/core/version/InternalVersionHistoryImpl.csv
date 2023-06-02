@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InternalVersionHistoryImpl.getId( );1;0;3
+InternalVersionHistoryImpl.getNumVersions( );1;0;3
+InternalVersionHistoryImpl.getVersion( Name versionName );3;2;11
+InternalVersionHistoryImpl.createVersionInstance( NodeStateEx child );2;1;9
+InternalVersionHistoryImpl.getVersionLabels( );1;0;3
+InternalVersionHistoryImpl.checkin( Name name , NodeImpl src );3;3;24
+InternalVersionHistoryImpl.setVersionLabel( Name versionName , Name label , boolean move );12;10;40
+InternalVersionHistoryImpl.create( AbstractVersionManager vMgr , NodeStateEx parent , Name name , NodeState nodeState );3;3;27
+InternalVersionHistoryImpl.getVersionableUUID( );1;0;3
+InternalVersionHistoryImpl.removeVersion( Name versionName );5;4;25
+InternalVersionHistoryImpl.getVersionLabelsId( );1;0;3
+InternalVersionHistoryImpl.InternalVersionHistoryImpl( AbstractVersionManager vMgr , NodeStateEx node );1;0;4
+InternalVersionHistoryImpl.hasVersion( Name versionName );1;0;3
+InternalVersionHistoryImpl.reload( );2;0;10
+InternalVersionHistoryImpl.getVersionByLabel( Name label );3;2;12
+InternalVersionHistoryImpl.getRootVersion( );1;0;3
+InternalVersionHistoryImpl.createVersionInstance( Name name );4;0;19
+InternalVersionHistoryImpl.init( );9;6;44
+InternalVersionHistoryImpl.getParent( );1;0;3
+InternalVersionHistoryImpl.getCurrentTime( );2;1;11
+InternalVersionHistoryImpl.getVersion( NodeId id );4;1;14

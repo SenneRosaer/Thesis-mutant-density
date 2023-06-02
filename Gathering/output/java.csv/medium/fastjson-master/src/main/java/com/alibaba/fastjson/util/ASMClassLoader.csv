@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ASMClassLoader.ASMClassLoader( ClassLoader parent );1;0;3
+ASMClassLoader.defineClassPublic( String name , byte [ ] b , int off , int len );2;0;4
+ASMClassLoader.ASMClassLoader( );1;0;3
+ASMClassLoader.getParentClassLoader( );3;1;11
+ASMClassLoader.loadClass( String name , boolean resolve );4;1;11
+ASMClassLoader.run( );1;0;3
+ASMClassLoader.isExternalClass( Class < ? > clazz );4;3;14

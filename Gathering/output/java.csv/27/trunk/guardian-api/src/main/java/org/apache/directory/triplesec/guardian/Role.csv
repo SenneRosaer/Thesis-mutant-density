@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Role.toString( );1;0;3
+Role.checkPermission( String permissionName , String message );3;2;10
+Role.hasPermission( Permission permission );1;0;3
+Role.equals( Object that );4;2;13
+Role.checkPermission( Permission permission );1;0;7
+Role.hasPermission( String permissionName );1;1;3
+Role.getName( );1;0;3
+Role.checkPermission( Permission permission , String message );3;2;10
+Role.Role( ApplicationPolicy store , String name , Permissions permissions , String description );7;6;35
+Role.clone( );2;0;10
+Role.getDescription( );1;0;3
+Role.getApplicationName( );1;0;3
+Role.checkPermission( String permissionName );1;0;7
+Role.Role( ApplicationPolicy store , String name , Permissions permissions );1;0;3
+Role.compareTo( Object that );2;1;12
+Role.hashCode( );1;1;3
+Role.getGrants( );1;0;3

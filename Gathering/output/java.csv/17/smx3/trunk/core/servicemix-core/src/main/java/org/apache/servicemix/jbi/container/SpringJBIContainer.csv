@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpringJBIContainer.getDeployArchives( );1;0;3
+SpringJBIContainer.setBeanFactory( BeanFactory beanFactory );1;0;3
+SpringJBIContainer.setActivationSpecs( ActivationSpec [ ] activationSpecs );1;0;3
+SpringJBIContainer.getDeployments( );1;0;3
+SpringJBIContainer.setEndpoints( Map endpoints );1;0;3
+SpringJBIContainer.getApplicationContext( );1;0;3
+SpringJBIContainer.afterPropertiesSet( );14;14;44
+SpringJBIContainer.setComponentNames( String [ ] componentNames );1;0;3
+SpringJBIContainer.initEndpoints( );10;5;43
+SpringJBIContainer.shutDown( );2;1;7
+SpringJBIContainer.isKnownEndpoint( Object endpoint , Class [ ] knownClasses );4;3;10
+SpringJBIContainer.getComponents( );1;0;3
+SpringJBIContainer.destroy( );1;0;3
+SpringJBIContainer.stop( );3;0;11
+SpringJBIContainer.getBean( String id );3;1;8
+SpringJBIContainer.setDeployArchives( String [ ] deployArchives );1;0;3
+SpringJBIContainer.setComponents( Map components );1;0;3
+SpringJBIContainer.setDeployments( DeploySupport [ ] deployments );1;0;3
+SpringJBIContainer.getActivationSpecs( );1;0;3
+SpringJBIContainer.getEndpoints( );1;0;3
+SpringJBIContainer.getBeanFactory( );1;0;3
+SpringJBIContainer.getComponentForEndpoint( Method getEndpointClassesMethod , Object endpoint );4;1;21
+SpringJBIContainer.setApplicationContext( ApplicationContext applicationContext );1;0;3
+SpringJBIContainer.chooseComponentName( Object c );3;3;12
+SpringJBIContainer.onShutDown( Runnable runnable );1;0;3
+SpringJBIContainer.getComponentNames( );1;0;3
+SpringJBIContainer.lookupBean( String componentName );2;1;7

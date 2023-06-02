@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnnotationsToXDoclet.translateRecursive( File inputDir , File outputDir , String [ ] extensions );6;4;24
+AnnotationsToXDoclet.translate( File input , File output );22;21;91
+AnnotationsToXDoclet.count( String s , char c );4;6;10
+AnnotationsToXDoclet.getToken( StreamTokenizer tok );1;0;3
+AnnotationsToXDoclet.usage( );1;0;6
+AnnotationsToXDoclet.ignoreUntil( StreamTokenizer tok , String str );2;1;5
+AnnotationsToXDoclet.translateAnnotation( StreamTokenizer tok , PrintWriter out , String firstToken , String indent , ArrayList tags );26;45;98
+AnnotationsToXDoclet.main( String [ ] args );12;12;48
+AnnotationsToXDoclet.filterImport( StreamTokenizer tok , PrintWriter out );3;3;13
+AnnotationsToXDoclet.getToken( StreamTokenizer tok , boolean includeSpace , String prepend );6;7;20
+AnnotationsToXDoclet.isNumber( String str );7;10;10
+AnnotationsToXDoclet.expectToken( StreamTokenizer tok , String expected );1;0;5
+AnnotationsToXDoclet.getJavaTokenizer( Reader reader );1;0;24

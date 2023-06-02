@@ -1,0 +1,56 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodePropBundle.NodePropBundle( BundleBinding binding , NodeState state );1;0;4
+PropertyEntry.setType( int type );1;0;3
+ChildNodeEntry.getName( );1;0;3
+NodePropBundle.getMixinTypeNames( );1;0;3
+PropertyEntry.setValues( InternalValue [ ] values );1;0;3
+NodePropBundle.setMixinTypeNames( Set mixinTypeNames );1;0;3
+NodePropBundle.removeProperty( Name name );2;1;6
+NodePropBundle.getId( );1;0;3
+NodePropBundle.markOld( );1;0;3
+NodePropBundle.NodePropBundle( BundleBinding binding , NodeId id );1;0;4
+PropertyEntry.PropertyEntry( PropertyId id );1;0;3
+NodePropBundle.setNodeDefId( NodeDefId nodeDefId );1;0;3
+NodePropBundle.getNodeDefId( );1;0;3
+NodePropBundle.setParentId( NodeId parentId );1;0;3
+NodePropBundle.getPropertyEntries( );1;0;3
+NodePropBundle.isReferenceable( );1;0;3
+NodePropBundle.setNodeTypeName( Name nodeTypeName );1;0;3
+NodePropBundle.getSize( );1;5;3
+NodePropBundle.createPropertyState( PersistenceManager pMgr , Name name );2;1;13
+PropertyEntry.isMultiValued( );1;0;3
+PropertyEntry.setPropDefId( PropDefId propDefId );1;0;3
+NodePropBundle.addChildNodeEntry( Name name , NodeId id );1;0;3
+PropertyEntry.setBlobId( String blobId , int n );1;0;3
+NodePropBundle.update( NodeState state );3;1;19
+NodePropBundle.getPropertyNames( );1;0;3
+NodePropBundle.addProperty( PropertyState state );2;1;6
+PropertyEntry.getType( );1;0;3
+ChildNodeEntry.ChildNodeEntry( Name name , NodeId id );1;0;4
+NodePropBundle.getParentId( );1;0;3
+PropertyEntry.PropertyEntry( PropertyState state );2;1;11
+PropertyEntry.getValues( );1;0;3
+PropertyEntry.getId( );1;0;3
+NodePropBundle.getChildNodeEntries( );1;0;3
+PropertyEntry.getName( );1;0;3
+NodePropBundle.setSharedSet( Set sharedSet );1;0;3
+PropertyEntry.setBlobIds( String [ ] blobIds );1;0;3
+PropertyEntry.destroy( BLOBStore blobStore );5;4;14
+NodePropBundle.addProperty( PropertyEntry entry );1;0;3
+PropertyEntry.setModCount( short modCount );1;0;3
+NodePropBundle.getModCount( );1;0;3
+PropertyEntry.getPropDefId( );1;0;3
+PropertyEntry.setMultiValued( boolean multiValued );1;0;3
+PropertyEntry.getBlobId( int n );1;0;3
+NodePropBundle.setReferenceable( boolean referenceable );1;0;3
+NodePropBundle.isNew( );1;0;3
+NodePropBundle.createNodeState( PersistenceManager pMgr );5;1;26
+PropertyEntry.getModCount( );1;0;3
+NodePropBundle.getSharedSet( );1;0;3
+NodePropBundle.setSize( long size );1;0;3
+ChildNodeEntry.getId( );1;0;3
+NodePropBundle.removeAllProperties( );2;0;8
+NodePropBundle.getPropertyEntry( Name name );1;0;3
+NodePropBundle.hasProperty( Name name );6;6;6
+NodePropBundle.getNodeTypeName( );1;0;3
+NodePropBundle.setModCount( short modCount );1;0;3

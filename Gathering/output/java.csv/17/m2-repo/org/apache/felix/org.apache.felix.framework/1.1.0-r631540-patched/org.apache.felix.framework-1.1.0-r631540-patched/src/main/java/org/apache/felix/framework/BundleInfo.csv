@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BundleInfo.getLastModified( );2;0;14
+BundleInfo.setPersistentStateUninstalled( );2;0;13
+BundleInfo.setStartLevel( int i );2;0;13
+BundleInfo.getBundleContext( );1;0;3
+BundleInfo.BundleInfo( Logger logger , BundleArchive archive , IModule module );2;1;9
+BundleInfo.lock( );3;4;8
+BundleInfo.getArchive( );1;0;3
+BundleInfo.setExtension( boolean extension );1;0;3
+BundleInfo.getCurrentHeader( );2;1;14
+BundleInfo.setLastModified( long l );2;0;13
+BundleInfo.getLocation( );2;0;14
+BundleInfo.setState( int i );1;0;3
+BundleInfo.updateHeaderCache( String locale , Map localizedHeaders );1;0;7
+BundleInfo.setStale( );1;0;3
+BundleInfo.getActivator( );1;0;3
+BundleInfo.setPersistentStateActive( );2;0;13
+BundleInfo.addModule( IModule module );1;1;6
+BundleInfo.unlock( );5;6;15
+BundleInfo.isLockable( );2;3;3
+BundleInfo.getBundleId( );2;1;14
+BundleInfo.setBundleContext( BundleContext context );1;0;3
+BundleInfo.setProtectionDomain( ProtectionDomain pd );1;0;3
+BundleInfo.hasModule( IModule module );3;3;10
+BundleInfo.getPersistentState( );2;0;14
+BundleInfo.setPersistentStateInactive( );2;0;12
+BundleInfo.setActivator( BundleActivator activator );1;0;3
+BundleInfo.getStartLevel( int defaultLevel );2;0;14
+BundleInfo.getCurrentLocalizedHeader( String locale );14;7;86
+BundleInfo.isStale( );1;0;3
+BundleInfo.syncLock( BundleInfo info );1;0;4
+BundleInfo.createResourceList( String basename , String locale );3;1;16
+BundleInfo.getModules( );1;0;3
+BundleInfo.getCurrentModule( );1;1;3
+BundleInfo.isExtension( );1;0;3
+BundleInfo.getProtectionDomain( );3;5;9
+BundleInfo.getState( );1;0;3

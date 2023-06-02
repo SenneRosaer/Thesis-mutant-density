@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodeTypeDefinitionMap.keySet( );2;0;9
+NodeTypeDefinitionMap.size( );1;0;3
+NodeTypeDefinitionMap.containsKey( Object key );2;2;6
+NodeTypeRegistryImpl.create( NodeTypeStorage storage , NamespaceRegistry nsRegistry );1;0;4
+NodeTypeRegistryImpl.internalRegister( Map defMap );2;0;7
+NodeTypeRegistryImpl.isRegistered( Name nodeTypeName );1;0;3
+NodeTypeRegistryImpl.registerNodeType( QNodeTypeDefinition ntDef );1;0;7
+NodeTypeDefinitionMap.clear( );1;0;3
+NodeTypeDefinitionMap.putAll( Map t );1;0;3
+NodeTypeRegistryImpl.internalUnregister( Collection ntNames );2;0;6
+NodeTypeRegistryImpl.notifyReRegistered( Name ntName );4;4;13
+NodeTypeRegistryImpl.removeListener( NodeTypeRegistryListener listener );1;0;3
+NodeTypeDefinitionMap.isEmpty( );1;0;3
+NodeTypeDefinitionMap.getDependentNodeTypes( Name nodeTypeName );4;1;14
+NodeTypeRegistryImpl.internalUnregister( Name name );4;5;18
+NodeTypeDefinitionMap.entrySet( );1;0;4
+NodeTypeRegistryImpl.getRegisteredNodeTypes( );1;0;4
+NodeTypeDefinitionMap.updateInternalMap( Iterator definitions );2;0;5
+NodeTypeRegistryImpl.getEffectiveNodeType( Name ntName );1;0;3
+NodeTypeRegistryImpl.notifyUnregistered( Name ntName );4;4;13
+NodeTypeDefinitionMap.values( );1;0;4
+NodeTypeRegistryImpl.dispose( );1;0;7
+NodeTypeRegistryImpl.notifyRegistered( Name ntName );4;4;14
+NodeTypeRegistryImpl.addListener( NodeTypeRegistryListener listener );2;1;5
+NodeTypeRegistryImpl.unregisterNodeType( Name nodeTypeName );1;0;5
+NodeTypeRegistryImpl.internalRegister( QNodeTypeDefinition ntd , EffectiveNodeType ent );4;5;20
+NodeTypeRegistryImpl.getNodeTypeDefinition( Name nodeTypeName );2;1;7
+NodeTypeRegistryImpl.getEffectiveNodeType( Name [ ] ntNames , Map ntdMap );1;0;3
+NodeTypeRegistryImpl.getEffectiveNodeType( Name [ ] ntNames );1;0;3
+NodeTypeRegistryImpl.reregisterNodeType( QNodeTypeDefinition ntd );2;1;12
+NodeTypeRegistryImpl.getEffectiveNodeType( Name ntName , EffectiveNodeTypeCache entCache , Map ntdCache );4;2;22
+NodeTypeDefinitionMap.containsValue( Object value );2;2;6
+NodeTypeRegistryImpl.dump( PrintStream ps );1;0;9
+NodeTypeRegistryImpl.getEffectiveNodeType( QNodeTypeDefinition ntd , Map ntdMap );22;20;104
+NodeTypeRegistryImpl.registerNodeTypes( Collection ntDefs );2;0;9
+NodeTypeRegistryImpl.getEffectiveNodeType( Name [ ] ntNames , EffectiveNodeTypeCache entCache , Map ntdCache );10;10;46
+NodeTypeDefinitionMap.remove( Object key );1;0;3
+NodeTypeDefinitionMap.put( Object key , Object value );1;0;3
+NodeTypeRegistryImpl.NodeTypeRegistryImpl( NodeTypeStorage storage , NamespaceRegistry nsRegistry );1;0;8
+NodeTypeRegistryImpl.unregisterNodeTypes( Collection nodeTypeNames );5;1;22
+NodeTypeDefinitionMap.get( Object key );4;2;16
+NodeTypeDefinitionMap.dump( PrintStream ps );20;22;79

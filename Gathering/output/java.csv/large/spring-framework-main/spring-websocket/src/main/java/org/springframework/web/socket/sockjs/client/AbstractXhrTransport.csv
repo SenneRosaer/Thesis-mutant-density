@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractXhrTransport.connectAsync( TransportRequest request , WebSocketHandler handler );3;0;14
+AbstractXhrTransport.isXhrStreamingDisabled( );1;0;3
+AbstractXhrTransport.executeSendRequest( URI url , HttpHeaders headers , TextMessage message );5;1;15
+AbstractXhrTransport.executeInfoRequest( URI infoUrl , @ Nullable HttpHeaders headers );7;3;21
+AbstractXhrTransport.connectInternal( TransportRequest request , WebSocketHandler handler , URI receiveUrl , HttpHeaders handshakeHeaders , XhrClientSockJsSession session , org . springframework . util . concurrent . SettableListenableFuture < WebSocketSession > connectFuture );1;0;3
+AbstractXhrTransport.setXhrStreamingDisabled( boolean disabled );1;0;3
+AbstractXhrTransport.getTransportTypes( );2;0;4

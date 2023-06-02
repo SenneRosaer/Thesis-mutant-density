@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DavResourceLocatorImpl.isSameWorkspace( DavResourceLocator locator );2;1;3
+DavResourceLocatorImpl.isRootLocation( );1;1;3
+DavResourceLocatorImpl.hashCode( );1;0;3
+DavResourceLocatorImpl.getWorkspaceName( );3;3;6
+DavResourceLocatorImpl.getFactory( );1;0;3
+DavResourceLocatorImpl.getResourcePath( );1;0;3
+DavResourceLocatorImpl.DavResourceLocatorImpl( String prefix , String workspacePath , String resourcePath , AbstractLocatorFactory factory );6;8;18
+DavResourceLocatorImpl.getRepositoryPath( );1;0;3
+DavResourceLocatorImpl.equals( Object obj );3;2;10
+DavResourceLocatorImpl.getWorkspacePath( );1;0;3
+AbstractLocatorFactory.createResourceLocator( String prefix , String href );12;11;38
+AbstractLocatorFactory.AbstractLocatorFactory( String pathPrefix );1;0;3
+AbstractLocatorFactory.createResourceLocator( String prefix , String workspacePath , String path , boolean isResourcePath );2;0;4
+AbstractLocatorFactory.createResourceLocator( String prefix , String workspacePath , String resourcePath );1;0;3
+DavResourceLocatorImpl.getHref( boolean isCollection );2;1;3
+DavResourceLocatorImpl.isSameWorkspace( String workspaceName );2;2;4
+DavResourceLocatorImpl.getPrefix( );1;0;3

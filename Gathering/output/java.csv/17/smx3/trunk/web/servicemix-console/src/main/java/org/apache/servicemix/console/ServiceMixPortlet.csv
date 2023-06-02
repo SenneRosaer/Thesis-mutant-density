@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServiceMixPortlet.fillViewRequest( RenderRequest request );1;0;2
+ServiceMixPortlet.getProxy( ObjectName name , Class type );1;0;3
+ServiceMixPortlet.getManagementContext( );1;0;4
+ServiceMixPortlet.renderView( RenderRequest renderRequest , RenderResponse renderResponse );1;0;4
+ServiceMixPortlet.getContainerName( );1;0;3
+ServiceMixPortlet.setPassword( String password );1;0;3
+ServiceMixPortlet.getServerConnection( );1;0;3
+ServiceMixPortlet.getDeploymentService( );1;0;4
+ServiceMixPortlet.doView( RenderRequest renderRequest , RenderResponse renderResponse );6;1;28
+ServiceMixPortlet.getPassword( );1;0;3
+ServiceMixPortlet.setContainerName( String containerName );1;0;3
+ServiceMixPortlet.getConfigString( String name , String defValue );3;2;10
+ServiceMixPortlet.setUsername( String username );1;0;3
+ServiceMixPortlet.getJdbcAuditor( );1;0;4
+ServiceMixPortlet.doProcessAction( ActionRequest actionRequest , ActionResponse actionResponse );1;0;2
+ServiceMixPortlet.getServiceURL( );4;2;16
+ServiceMixPortlet.getInstallationService( );1;0;4
+ServiceMixPortlet.getUsername( );1;0;3
+ServiceMixPortlet.getJBIContainer( );1;0;4
+ServiceMixPortlet.closeConnector( );3;1;11
+ServiceMixPortlet.destroy( );1;0;4
+ServiceMixPortlet.getObjectName( Class systemClass );1;0;3
+ServiceMixPortlet.processAction( ActionRequest actionRequest , ActionResponse actionResponse );5;1;21
+ServiceMixPortlet.doHelp( RenderRequest renderRequest , RenderResponse renderResponse );1;0;4
+ServiceMixPortlet.init( PortletConfig portletConfig );1;0;12
+ServiceMixPortlet.getJMXConnector( JMXServiceURL url );1;0;7

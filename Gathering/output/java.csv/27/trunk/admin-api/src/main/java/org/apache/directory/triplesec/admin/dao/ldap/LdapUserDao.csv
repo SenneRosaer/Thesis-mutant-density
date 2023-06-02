@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LdapUserDao.LdapUserDao( DirContext ctx , LdapExternalUserDao externalUserDao , LdapLocalUserDao localUserDao , LdapHauskeysUserDao hauskeysUserDao );1;0;6
+LdapUserDao.iterator( );2;0;17
+LdapUserDao.hasUser( String id );4;1;25
+LdapUserDao.getEntryObject( Object extra , Attributes attrs );4;0;18
+LdapUserDao.getRelativeDn( String uid );1;0;6
+LdapUserDao.load( String id );4;0;27
+LdapUserDao.getRandomUniqueActivationKey( );6;6;26
+LdapUserDao.isExternalUser( Attributes attrs );5;1;20
+LdapUserDao.isHauskeysUser( Attributes attrs );3;2;15

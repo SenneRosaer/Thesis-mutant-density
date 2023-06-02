@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OpenSessionInViewFilter.shouldNotFilterErrorDispatch( );1;0;3
+OpenSessionInViewFilter.getSessionFactoryBeanName( );1;0;3
+OpenSessionInViewFilter.lookupSessionFactory( );2;0;7
+OpenSessionInViewFilter.shouldNotFilterAsyncDispatch( );1;0;3
+OpenSessionInViewFilter.doFilterInternal( HttpServletRequest request , HttpServletResponse response , FilterChain filterChain );6;5;34
+OpenSessionInViewFilter.applySessionBindingInterceptor( WebAsyncManager asyncManager , String key );2;1;8
+OpenSessionInViewFilter.openSession( SessionFactory sessionFactory );2;0;10
+OpenSessionInViewFilter.setSessionFactoryBeanName( String sessionFactoryBeanName );1;0;3
+OpenSessionInViewFilter.lookupSessionFactory( HttpServletRequest request );1;0;3

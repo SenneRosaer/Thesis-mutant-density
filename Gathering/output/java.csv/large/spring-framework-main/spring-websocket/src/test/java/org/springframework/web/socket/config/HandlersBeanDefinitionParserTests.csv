@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestWebSocketHandler.handleMessage( WebSocketSession session , WebSocketMessage < ? > message );1;0;2
+FooTestInterceptor.beforeHandshake( ServerHttpRequest request , ServerHttpResponse response , WebSocketHandler wsHandler , Map < String , Object > attributes );1;0;3
+TestWebSocketHandler.supportsPartialMessages( );1;0;3
+TestWebSocketHandler.afterConnectionClosed( WebSocketSession session , CloseStatus closeStatus );1;0;2
+FooTestInterceptor.afterHandshake( ServerHttpRequest request , ServerHttpResponse response , WebSocketHandler wsHandler , Exception exception );1;0;2
+TestMessageCodec.decode( String content );1;0;3
+HandlersBeanDefinitionParserTests.loadBeanDefinitions( String fileName );1;0;6
+TestMessageCodec.encode( String ... messages );1;0;3
+TestTaskScheduler.schedule( Runnable task , Trigger trigger );1;0;3
+HandlersBeanDefinitionParserTests.sockJs( );1;0;33
+HandlersBeanDefinitionParserTests.unwrapAndCheckDecoratedHandlerType( WebSocketHandler handler , Class < ? > handlerClass );2;0;6
+TestWebSocketHandler.afterConnectionEstablished( WebSocketSession session );1;0;2
+TestTaskScheduler.scheduleWithFixedDelay( Runnable task , Instant startTime , Duration delay );1;0;3
+TestTaskScheduler.scheduleWithFixedDelay( Runnable task , Duration delay );1;0;3
+TestTaskScheduler.scheduleAtFixedRate( Runnable task , Instant startTime , Duration period );1;0;3
+TestHandshakeHandler.doHandshake( ServerHttpRequest request , ServerHttpResponse response , WebSocketHandler wsHandler , Map < String , Object > attributes );1;0;3
+TestMessageCodec.decodeInputStream( InputStream content );1;0;3
+HandlersBeanDefinitionParserTests.webSocketHandlersAttributes( );1;0;29
+TestWebSocketHandler.handleTransportError( WebSocketSession session , Throwable exception );1;0;2
+TestTaskScheduler.schedule( Runnable task , Instant startTime );1;0;3
+HandlersBeanDefinitionParserTests.sockJsAttributes( );1;0;29
+TestTaskScheduler.scheduleAtFixedRate( Runnable task , Duration period );1;0;3
+HandlersBeanDefinitionParserTests.webSocketHandlers( );3;0;37

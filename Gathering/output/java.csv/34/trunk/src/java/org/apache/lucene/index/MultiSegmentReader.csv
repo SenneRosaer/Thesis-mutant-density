@@ -1,0 +1,61 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultiSegmentReader.startCommit( );2;2;6
+MultiSegmentReader.norms( String field , byte [ ] result , int offset );5;7;9
+MultiSegmentReader.commitChanges( );2;2;4
+MultiSegmentReader.numDocs( );3;5;9
+MultiSegmentReader.doUndeleteAll( );2;3;6
+MultiSegmentReader.isOptimized( );1;0;3
+MultiSegmentReader.readerIndex( int n , int [ ] starts , int numSubReaders );6;14;19
+MultiSegmentReader.getSubReaders( );1;0;3
+MultiSegmentReader.getTermFreqVector( int n , String field );1;1;5
+MultiSegmentReader.MultiSegmentReader( Directory directory , SegmentInfos infos , boolean closeDirectory , SegmentReader [ ] oldReaders , int [ ] oldStarts , Map oldNormsCache , boolean readOnly );20;28;75
+***not in a method***;0;1;0
+MultiTermPositions.nextPosition( );1;0;3
+MultiTermEnum.term( );1;0;3
+MultiTermDocs.next( );5;4;13
+MultiSegmentReader.hasDeletions( );1;0;3
+MultiSegmentReader.setTermInfosIndexDivisor( int indexDivisor );2;2;4
+MultiSegmentReader.getFieldNames( IndexReader . FieldOption fieldNames , IndexReader [ ] subReaders );2;2;9
+MultiSegmentReader.terms( );1;0;4
+MultiTermPositions.termDocs( IndexReader reader );1;0;3
+MultiSegmentReader.termPositions( );1;0;4
+MultiSegmentReader.norms( String field );4;4;13
+MultiSegmentReader.isDeleted( int n );1;1;4
+MultiSegmentReader.getTermFreqVectors( int n );1;1;5
+MultiSegmentReader.doReopen( SegmentInfos infos );3;1;9
+MultiSegmentReader.fakeNorms( );2;1;4
+MultiSegmentReader.document( int n , FieldSelector fieldSelector );1;1;5
+MultiTermPositions.MultiTermPositions( IndexReader [ ] r , int [ ] s );1;0;3
+MultiSegmentReader.termDocs( );1;0;4
+MultiTermEnum.next( );5;5;19
+MultiSegmentReader.MultiSegmentReader( Directory directory , SegmentInfos sis , boolean closeDirectory , boolean readOnly );5;6;18
+MultiSegmentReader.docFreq( Term t );2;3;7
+MultiTermDocs.seek( TermEnum termEnum );1;0;3
+MultiSegmentReader.rollbackCommit( );2;2;6
+MultiTermPositions.isPayloadAvailable( );1;0;3
+MultiSegmentReader.doClose( );2;2;5
+MultiTermDocs.read( final int [ ] docs , final int [ ] freqs );6;7;21
+MultiSegmentReader.terms( Term term );1;0;4
+MultiSegmentReader.doDelete( int n );1;2;6
+MultiSegmentReader.getTermInfosIndexDivisor( );2;1;6
+MultiSegmentReader.initialize( SegmentReader [ ] subReaders );3;4;11
+MultiTermDocs.MultiTermDocs( IndexReader [ ] r , int [ ] s );1;0;5
+MultiTermDocs.termDocs( IndexReader reader );1;0;3
+MultiTermPositions.getPayloadLength( );1;0;3
+MultiTermEnum.docFreq( );1;0;3
+MultiTermDocs.seek( Term term );1;0;6
+MultiTermDocs.doc( );1;1;3
+MultiTermDocs.close( );3;3;6
+MultiTermEnum.MultiTermEnum( IndexReader [ ] readers , int [ ] starts , Term t );7;8;19
+MultiSegmentReader.hasNorms( String field );3;2;7
+MultiTermDocs.skipTo( int target );5;5;11
+MultiTermDocs.freq( );1;0;3
+MultiSegmentReader.doSetNorm( int n , String field , byte value );1;1;7
+MultiTermPositions.getPayload( byte [ ] data , int offset );1;0;3
+MultiTermDocs.termDocs( int i );3;2;9
+MultiSegmentReader.getTermFreqVector( int docNumber , TermVectorMapper mapper );1;1;5
+MultiSegmentReader.getFieldNames( IndexReader . FieldOption fieldNames );1;0;4
+MultiSegmentReader.getTermFreqVector( int docNumber , String field , TermVectorMapper mapper );1;1;5
+MultiSegmentReader.maxDoc( );1;0;3
+MultiSegmentReader.readerIndex( int n );1;0;3
+MultiTermEnum.close( );1;0;3

@@ -1,0 +1,59 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StompHeaders.getAck( );1;0;3
+StompHeaders.clear( );1;0;3
+StompHeaders.setLogin( @ Nullable String login );1;0;3
+StompHeaders.isEmpty( );1;0;3
+StompHeaders.put( String key , List < String > value );1;0;3
+StompHeaders.isHeartbeatEnabled( );3;5;4
+StompHeaders.setPasscode( @ Nullable String passcode );1;0;3
+StompHeaders.addAll( String headerName , List < ? extends String > headerValues );1;0;4
+StompHeaders.entrySet( );1;0;3
+StompHeaders.getReceiptId( );1;0;3
+StompHeaders.add( String headerName , @ Nullable String headerValue );1;0;4
+StompHeaders.remove( Object key );1;0;3
+StompHeaders.size( );1;0;3
+StompHeaders.readOnlyStompHeaders( @ Nullable Map < String , List < String > > headers );2;1;3
+StompHeaders.setContentLength( long contentLength );1;0;3
+StompHeaders.getId( );1;0;3
+StompHeaders.values( );1;0;3
+StompHeaders.setAll( Map < String , String > values );1;0;3
+StompHeaders.getMessageId( );1;0;3
+StompHeaders.setMessageId( @ Nullable String messageId );1;0;3
+StompHeaders.setHeartbeat( @ Nullable long [ ] heartbeat );6;8;11
+StompHeaders.getPasscode( );1;0;3
+StompHeaders.containsValue( Object value );1;0;3
+StompHeaders.addAll( MultiValueMap < String , String > values );1;0;3
+StompHeaders.getDestination( );1;0;3
+StompHeaders.StompHeaders( );1;0;3
+StompHeaders.setSession( @ Nullable String session );1;0;3
+StompHeaders.StompHeaders( Map < String , List < String > > headers , boolean readOnly );2;0;11
+StompHeaders.get( Object key );1;0;3
+StompHeaders.setAck( @ Nullable String ack );1;0;3
+StompHeaders.toString( );1;0;3
+StompHeaders.containsKey( Object key );1;0;3
+StompHeaders.setReceiptId( @ Nullable String receiptId );1;0;3
+StompHeaders.keySet( );1;0;3
+StompHeaders.getAcceptVersion( );2;1;4
+StompHeaders.setId( @ Nullable String id );1;0;3
+StompHeaders.getHeartbeat( );2;1;8
+StompHeaders.setDestination( @ Nullable String destination );1;0;3
+StompHeaders.setContentType( @ Nullable MimeType mimeType );2;3;10
+StompHeaders.toSingleValueMap( );1;0;5
+StompHeaders.getSubscription( );1;0;3
+StompHeaders.getHost( );1;0;3
+StompHeaders.setAcceptVersion( @ Nullable String ... acceptVersions );4;3;10
+StompHeaders.hashCode( );1;0;3
+StompHeaders.getFirst( String headerName );2;1;4
+StompHeaders.getServer( );1;0;3
+StompHeaders.getContentLength( );2;2;4
+StompHeaders.set( String headerName , @ Nullable String headerValue );1;0;5
+StompHeaders.getContentType( );2;0;4
+StompHeaders.equals( @ Nullable Object other );3;3;4
+StompHeaders.putAll( Map < ? extends String , ? extends List < String > > map );1;0;3
+StompHeaders.getSession( );1;0;3
+StompHeaders.getReceipt( );1;0;3
+StompHeaders.setSubscription( @ Nullable String subscription );1;0;3
+StompHeaders.setHost( @ Nullable String host );1;0;3
+StompHeaders.getLogin( );1;0;3
+StompHeaders.setServer( @ Nullable String server );1;0;3
+StompHeaders.setReceipt( @ Nullable String receipt );1;0;3

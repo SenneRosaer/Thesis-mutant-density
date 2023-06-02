@@ -1,0 +1,63 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Java.handleFlush( String output );2;1;7
+Java.setArgs( String s );1;0;5
+Java.addConfiguredRedirector( RedirectorElement redirectorElement );2;1;7
+Java.Java( Task owner );1;0;3
+Java.setClasspathRef( Reference r );1;0;3
+Java.setSpawn( boolean spawn );1;0;3
+Java.setClassname( String s );2;1;7
+Java.run( String classname , Vector args );2;2;8
+Java.setJvmargs( String s );1;0;5
+Java.setupExecutable( Execute exe , String [ ] command );1;0;6
+Java.setupWorkingDir( Execute exe );4;4;10
+Java.handleErrorFlush( String output );2;1;7
+Java.handleInput( byte [ ] buffer , int offset , int length );1;0;3
+Java.addAssertions( Assertions asserts );2;1;6
+Java.spawn( String [ ] command );2;0;9
+Java.run( CommandlineJava command );3;0;18
+Java.setAppend( boolean append );1;0;4
+Java.setJVMVersion( String value );1;0;3
+Java.setClasspath( Path s );1;0;3
+Java.setError( File error );1;0;4
+Java.execute( );3;2;22
+Java.Java( );1;0;2
+Java.checkConfiguration( );21;22;62
+Java.setJvm( String s );1;0;3
+Java.addSysproperty( Environment . Variable sysp );1;0;3
+Java.createJvmarg( );1;0;3
+Java.createBootclasspath( );1;0;3
+Java.setResultProperty( String resultProperty );1;0;4
+Java.createPermissions( );2;1;4
+Java.addSyspropertyset( PropertySet sysp );1;0;3
+Java.setMaxmemory( String max );1;0;3
+Java.setTimeout( Long value );1;2;4
+Java.log( Throwable t );1;0;7
+Java.setInput( File input );2;1;8
+Java.createWatchdog( );2;1;6
+Java.setErrorProperty( String errorProperty );1;0;4
+Java.createClasspath( );1;0;3
+Java.setJar( File jarfile );2;1;7
+Java.setCloneVm( boolean cloneVm );1;0;3
+Java.executeJava( );1;0;3
+Java.setDir( File d );1;0;3
+Java.handleErrorOutput( String output );2;1;7
+Java.setNewenvironment( boolean newenv );1;0;3
+Java.getSysProperties( );1;0;3
+Java.fork( String [ ] command );3;0;15
+Java.setLogError( boolean logError );1;1;4
+Java.getCommandLine( );1;0;3
+Java.maybeSetResultPropertyValue( int result );2;1;6
+Java.clearArgs( );1;0;3
+Java.setupCommandLineForVMS( Execute exe , String [ ] command );1;0;3
+Java.setOutputproperty( String outputProp );1;0;4
+Java.setOutput( File out );1;0;4
+Java.setFork( boolean s );1;0;3
+Java.createArg( );1;0;3
+Java.setupRedirector( );5;6;13
+Java.executeJava( CommandlineJava commandLine );12;6;42
+Java.setupCommandLine( Execute exe , String [ ] command );2;0;7
+Java.handleOutput( String output );2;1;7
+Java.addEnv( Environment . Variable var );1;0;3
+Java.setupEnvironment( Execute exe );3;3;11
+Java.setInputString( String inputString );2;1;8
+Java.setFailonerror( boolean fail );1;1;4

@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Location.equals( Object obj );7;9;16
+RemoteCacheManager.RemoteCacheManager( String host , int port , String service , ICompositeCacheManager cacheMgr , ICacheEventLogger cacheEventLogger , IElementSerializer elementSerializer );6;0;40
+RemoteCacheManager.logApplicationEvent( String source , String eventName , String optionalDetails );2;1;6
+RemoteCacheManager.fixCaches( IRemoteCacheService remoteService , IRemoteCacheObserver remoteWatch );2;0;12
+RemoteCacheManager.shutdown( );2;0;7
+RemoteCacheManager.removeRemoteCacheListener( IRemoteCacheAttributes cattr );5;1;32
+RemoteCacheManager.freeCache( String name );3;1;16
+RemoteCacheManager.getDefaultCattr( );1;0;3
+RemoteCacheManager.getStats( );3;1;13
+Location.hashCode( );2;2;3
+RemoteCacheManager.getCache( IRemoteCacheAttributes cattr );4;1;32
+RemoteCacheManager.getInstance( IRemoteCacheAttributes cattr , ICompositeCacheManager cacheMgr , ICacheEventLogger cacheEventLogger , IElementSerializer elementSerializer );6;6;37
+Location.Location( String host , int port );1;0;4
+RemoteCacheManager.release( );5;3;25
+RemoteCacheManager.removeRemoteCacheListener( IRemoteCacheAttributes cattr , IRemoteCacheListener listener );1;0;7
+RemoteCacheManager.getCache( String cacheName );1;0;5
+RemoteCacheManager.addRemoteCacheListener( IRemoteCacheAttributes cattr , IRemoteCacheListener listener );4;0;23
+RemoteCacheManager.removeRemoteCacheListener( String cacheName );3;1;17
+RemoteCacheManager.getCacheType( );1;0;3

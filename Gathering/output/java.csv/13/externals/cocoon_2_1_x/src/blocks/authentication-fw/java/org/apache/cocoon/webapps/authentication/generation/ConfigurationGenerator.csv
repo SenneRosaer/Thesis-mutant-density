@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UserManagementHandler.getLoadUsersResourceParameters( );1;0;1
+UserManagementHandler.getNewRoleResource( );1;0;1
+ConfigurationGenerator.deleteRole( String name , SourceParameters parameters , UserManagementHandler handler );6;5;19
+ConfigurationGenerator.showConfiguration( XMLConsumer consumer , String src , UserManagementHandler handler , AuthenticationContext context );62;69;235
+ConfigurationGenerator.invokeResource( String resource , SourceParameters parameters );2;0;14
+ConfigurationGenerator.addUser( String role , String ID , SourceParameters parameters , UserManagementHandler handler );12;13;36
+UserManagementHandler.UserManagementHandler( Configuration conf , String appName );8;7;39
+UserManagementHandler.getDeleteRoleResourceParameters( );1;0;1
+UserManagementHandler.getNewUserResourceParameters( );1;0;1
+ConfigurationGenerator.addRole( String name , SourceParameters parameters , UserManagementHandler handler );6;5;19
+ConfigurationGenerator.dispose( );2;1;7
+ConfigurationGenerator.deleteUser( String role , String name , SourceParameters parameters , UserManagementHandler handler );6;5;20
+UserManagementHandler.getNewRoleResourceParameters( );1;0;1
+UserManagementHandler.getDeleteUserResource( );1;0;1
+UserManagementHandler.getChangeUserResource( );1;0;1
+UserManagementHandler.getChangeUserResourceParameters( );1;0;1
+UserManagementHandler.getLoadUsersResource( );1;0;1
+ConfigurationGenerator.generate( );5;2;25
+ConfigurationGenerator.getRoles( UserManagementHandler handler );6;5;20
+ConfigurationGenerator.service( ServiceManager manager );1;0;4
+UserManagementHandler.getNewUserResource( );1;0;1
+ConfigurationGenerator.getUsers( String role , String ID , UserManagementHandler handler );9;8;27
+UserManagementHandler.getLoadRolesResourceParameters( );1;0;1
+ConfigurationGenerator.changeUser( String role , String name , SourceParameters parameters , UserManagementHandler handler );6;5;20
+UserManagementHandler.getApplicationName( );1;0;1
+UserManagementHandler.getLoadRolesResource( );1;0;1
+UserManagementHandler.getDeleteUserResourceParameters( );1;0;1
+ConfigurationGenerator.loadResource( String resource , SourceParameters parameters );2;0;14
+UserManagementHandler.getDeleteRoleResource( );1;0;1

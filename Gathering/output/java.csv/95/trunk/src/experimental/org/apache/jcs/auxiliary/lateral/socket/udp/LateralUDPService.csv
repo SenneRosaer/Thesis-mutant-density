@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LateralUDPService.removeAll( String cacheName , long requesterId );1;0;7
+LateralUDPService.main( String args [ ] );3;0;21
+LateralUDPService.get( String cache , Serializable att );1;0;3
+LateralUDPService.get( String cache );1;0;3
+LateralUDPService.addCacheListener( ICacheListener obj );1;0;1
+LateralUDPService.release( );1;0;2
+LateralUDPService.getGroupKeys( String cacheName , String group );2;0;7
+LateralUDPService.removeAll( String cacheName );1;0;3
+LateralUDPService.remove( String cacheName , Serializable key , long requesterId );1;0;7
+LateralUDPService.remove( String cacheName , Serializable key );1;0;3
+LateralUDPService.LateralUDPService( ILateralCacheAttributes lca );2;0;12
+LateralUDPService.update( ICacheElement item , long requesterId );1;0;6
+LateralUDPService.get( String cache , Serializable att , boolean container );1;0;3
+LateralUDPService.update( ICacheElement item );1;0;3
+LateralUDPService.dispose( String cache );1;0;2
+LateralUDPService.addCacheListener( String cacheName , ICacheListener obj );1;0;1
+LateralUDPService.removeCacheListener( String cacheName , ICacheListener obj );1;0;1
+LateralUDPService.removeCacheListener( ICacheListener obj );1;0;1

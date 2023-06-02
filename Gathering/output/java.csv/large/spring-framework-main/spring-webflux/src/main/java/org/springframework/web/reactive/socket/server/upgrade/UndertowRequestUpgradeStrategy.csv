@@ -1,0 +1,5 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultCallback.createSession( WebSocketChannel channel );1;0;3
+DefaultCallback.DefaultCallback( HandshakeInfo handshakeInfo , WebSocketHandler handler , DataBufferFactory bufferFactory );1;0;5
+UndertowRequestUpgradeStrategy.upgrade( ServerWebExchange exchange , WebSocketHandler handler , @ Nullable String subProtocol , Supplier < HandshakeInfo > handshakeInfoFactory );3;1;22
+DefaultCallback.onConnect( WebSocketHttpExchange exchange , WebSocketChannel channel );1;0;9

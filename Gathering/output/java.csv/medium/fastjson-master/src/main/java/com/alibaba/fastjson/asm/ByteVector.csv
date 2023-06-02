@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ByteVector.ByteVector( final int initialSize );1;0;3
+ByteVector.putUTF8( final String s );7;17;20
+ByteVector.putShort( final int s );2;5;11
+ByteVector.putByteArray( final byte [ ] b , final int off , final int len );3;4;10
+ByteVector.putInt( final int i );2;9;13
+ByteVector.ByteVector( );1;0;3
+ByteVector.putByte( final int b );2;3;9
+ByteVector.put12( final int b , final int s );2;6;12
+ByteVector.put11( final int b1 , final int b2 );2;4;11
+ByteVector.enlarge( final int size );2;3;7

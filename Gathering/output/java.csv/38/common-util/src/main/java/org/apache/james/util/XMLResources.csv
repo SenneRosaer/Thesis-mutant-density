@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLResources.getString( String name );1;0;3
+XMLResources.getString( String name , boolean required );3;2;12
+XMLResources.replaceParameters( String str , Map parameters );5;3;14
+XMLResources.getString( String name , Map parameters );1;0;3
+XMLResources.match( String select , Element matchersElement );3;2;17
+XMLResources.init( File xmlFile , String group , String select , Map configParameters );14;13;88
+XMLResources.getString( String name , Map parameters , boolean required );1;0;3
+XMLResources.substituteSubString( String input , String find , String replace );2;8;14

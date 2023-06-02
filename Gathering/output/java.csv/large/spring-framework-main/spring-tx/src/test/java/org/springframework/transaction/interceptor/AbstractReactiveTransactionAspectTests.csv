@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractReactiveTransactionAspectTests.getName( );1;0;4
+AbstractReactiveTransactionAspectTests.advised( Object target , ReactiveTransactionManager rtm , TransactionAttributeSource [ ] tas );1;0;3
+AbstractReactiveTransactionAspectTests.checkReactiveTransaction( boolean expected );2;1;10
+AbstractReactiveTransactionAspectTests.noRollbackOnCheckedException( );1;0;3
+AbstractReactiveTransactionAspectTests.rollbackOn( Throwable t );1;0;4
+AbstractReactiveTransactionAspectTests.noRollbackOnUncheckedException( );1;0;3
+AbstractReactiveTransactionAspectTests.transactionShouldSucceedWithNotNew( );1;0;15
+AbstractReactiveTransactionAspectTests.noRollbackOnUncheckedExceptionWithRollbackException( );1;0;3
+AbstractReactiveTransactionAspectTests.rollbackOnCheckedExceptionWithRollbackException( );1;0;3
+DefaultTestBean.exceptional( Throwable t );2;1;6
+AbstractReactiveTransactionAspectTests.twoTransactionsShouldSucceed( );1;0;20
+AbstractReactiveTransactionAspectTests.transactionShouldSucceed( );1;0;15
+AbstractReactiveTransactionAspectTests.cannotCommitTransaction( );1;0;26
+AbstractReactiveTransactionAspectTests.rollbackOnUncheckedExceptionWithRollbackException( );1;0;3
+AbstractReactiveTransactionAspectTests.rollbackOnCheckedException( );1;0;3
+AbstractReactiveTransactionAspectTests.cannotCreateTransaction( );1;0;21
+AbstractReactiveTransactionAspectTests.doTestRollbackOnException( final Exception ex , final boolean shouldRollback , boolean rollbackException );6;1;48
+DefaultTestBean.getName( );1;0;3
+DefaultTestBean.setName( String name );1;0;3
+AbstractReactiveTransactionAspectTests.rollbackOnUncheckedException( );1;0;3
+AbstractReactiveTransactionAspectTests.noTransaction( );1;0;10
+AbstractReactiveTransactionAspectTests.noRollbackOnCheckedExceptionWithRollbackException( );1;0;3
+AbstractReactiveTransactionAspectTests.setup( );1;0;5

@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractWebdavServlet.doUncheckout( WebdavRequest request , WebdavResponse response , DavResource resource );2;1;7
+AbstractWebdavServlet.doLock( WebdavRequest request , WebdavResponse response , DavResource resource );6;3;24
+AbstractWebdavServlet.doCopy( WebdavRequest request , WebdavResponse response , DavResource resource );4;6;15
+AbstractWebdavServlet.doRebind( WebdavRequest request , WebdavResponse response , DavResource resource );4;3;19
+AbstractWebdavServlet.spoolResource( WebdavRequest request , WebdavResponse response , DavResource resource , boolean sendContent );6;7;17
+AbstractWebdavServlet.doPut( WebdavRequest request , WebdavResponse response , DavResource resource );4;3;15
+AbstractWebdavServlet.doUnlock( WebdavRequest request , WebdavResponse response , DavResource resource );2;1;10
+AbstractWebdavServlet.doSearch( WebdavRequest request , WebdavResponse response , DavResource resource );3;2;13
+AbstractWebdavServlet.doBind( WebdavRequest request , WebdavResponse response , DavResource resource );4;3;19
+AbstractWebdavServlet.doUpdate( WebdavRequest request , WebdavResponse response , DavResource resource );2;1;9
+AbstractWebdavServlet.doAcl( WebdavRequest request , WebdavResponse response , DavResource resource );3;2;12
+AbstractWebdavServlet.doVersionControl( WebdavRequest request , WebdavResponse response , DavResource resource );2;1;7
+AbstractWebdavServlet.doHead( WebdavRequest request , WebdavResponse response , DavResource resource );1;0;3
+AbstractWebdavServlet.doOptions( WebdavRequest request , WebdavResponse response , DavResource resource );6;5;21
+AbstractWebdavServlet.service( HttpServletRequest request , HttpServletResponse response );8;9;28
+AbstractWebdavServlet.doDelete( WebdavRequest request , WebdavResponse response , DavResource resource );2;1;9
+AbstractWebdavServlet.doCheckout( WebdavRequest request , WebdavResponse response , DavResource resource );2;1;7
+AbstractWebdavServlet.doLabel( WebdavRequest request , WebdavResponse response , DavResource resource );3;0;10
+AbstractWebdavServlet.doMkActivity( WebdavRequest request , WebdavResponse response , DavResource resource );7;7;23
+AbstractWebdavServlet.getInputContext( DavServletRequest request , InputStream in );1;0;3
+AbstractWebdavServlet.doMove( WebdavRequest request , WebdavResponse response , DavResource resource );2;1;10
+AbstractWebdavServlet.execute( WebdavRequest request , WebdavResponse response , int method , DavResource resource );34;0;106
+AbstractWebdavServlet.doCheckin( WebdavRequest request , WebdavResponse response , DavResource resource );2;1;9
+AbstractWebdavServlet.getOutputContext( DavServletResponse response , OutputStream out );1;0;3
+AbstractWebdavServlet.doPost( WebdavRequest request , WebdavResponse response , DavResource resource );1;0;3
+AbstractWebdavServlet.doMerge( WebdavRequest request , WebdavResponse response , DavResource resource );2;1;9
+AbstractWebdavServlet.doUnsubscribe( WebdavRequest request , WebdavResponse response , DavResource resource );2;1;8
+AbstractWebdavServlet.doGet( WebdavRequest request , WebdavResponse response , DavResource resource );1;0;3
+AbstractWebdavServlet.doBaselineControl( WebdavRequest request , WebdavResponse response , DavResource resource );4;4;13
+AbstractWebdavServlet.doSubscribe( WebdavRequest request , WebdavResponse response , DavResource resource );3;2;13
+AbstractWebdavServlet.doMkCol( WebdavRequest request , WebdavResponse response , DavResource resource );7;8;16
+AbstractWebdavServlet.doMkWorkspace( WebdavRequest request , WebdavResponse response , DavResource resource );6;6;18
+AbstractWebdavServlet.validateDestination( DavResource destResource , WebdavRequest request , boolean checkHeader );8;3;27
+AbstractWebdavServlet.doPoll( WebdavRequest request , WebdavResponse response , DavResource resource );2;1;9
+AbstractWebdavServlet.doOrderPatch( WebdavRequest request , WebdavResponse response , DavResource resource );3;2;13
+AbstractWebdavServlet.doPropPatch( WebdavRequest request , WebdavResponse response , DavResource resource );2;0;11
+AbstractWebdavServlet.doReport( WebdavRequest request , WebdavResponse response , DavResource resource );4;0;14
+AbstractWebdavServlet.doPropFind( WebdavRequest request , WebdavResponse response , DavResource resource );2;1;12
+AbstractWebdavServlet.doUnbind( WebdavRequest request , WebdavResponse response , DavResource resource );1;0;5

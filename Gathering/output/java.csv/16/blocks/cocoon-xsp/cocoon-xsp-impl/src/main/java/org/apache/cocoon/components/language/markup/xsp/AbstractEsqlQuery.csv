@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractEsqlQuery.getResultSet( );1;0;3
+AbstractEsqlQuery.setPreparedStatement( final PreparedStatement ps );1;0;4
+AbstractEsqlQuery.groupLevelExists( );3;6;3
+AbstractEsqlQuery.execute( );3;5;19
+AbstractEsqlQuery.hasResultSet( );1;0;3
+***not in a method***;0;6;0
+AbstractEsqlQuery.prepareStatement( );1;0;4
+AbstractEsqlQuery.hasGroupingVarChanged( );7;11;24
+AbstractEsqlQuery.getCurrentRow( );1;0;3
+AbstractEsqlQuery.getRowCount( );6;3;28
+AbstractEsqlQuery.incGroupLevel( );1;1;3
+AbstractEsqlQuery.getQueryResultsCount( );1;0;3
+AbstractEsqlQuery.prepareCall( );1;0;4
+AbstractEsqlQuery.setKeepGoing( boolean still );1;0;3
+AbstractEsqlQuery.getResultRows( );4;3;10
+AbstractEsqlQuery.getResultSetMetaData( );1;0;3
+AbstractEsqlQuery.getCallableStatement( );1;0;3
+AbstractEsqlQuery.executeQuery( );3;3;17
+AbstractEsqlQuery.getMoreResults( );3;5;19
+AbstractEsqlQuery.setMaxRows( int i );1;0;3
+AbstractEsqlQuery.getMaxRows( );1;0;3
+AbstractEsqlQuery.keepGoing( );1;0;3
+AbstractEsqlQuery.setPosition( int p );1;0;3
+AbstractEsqlQuery.decGroupLevel( );1;1;3
+AbstractEsqlQuery.getPreparedStatement( );1;0;3
+AbstractEsqlQuery.getConnection( );1;0;3
+AbstractEsqlQuery.AbstractEsqlQuery( Connection connection , String query );1;0;4
+AbstractEsqlQuery.getQueryString( );1;0;3
+AbstractEsqlQuery.setSkipRows( int i );1;0;3
+AbstractEsqlQuery.execute( int resultSetFromObject );3;5;18
+EsqlGroup.EsqlGroup( String var , Object value );1;0;4
+AbstractEsqlQuery.AbstractEsqlQuery( final ResultSet resultSet );1;1;6
+AbstractEsqlQuery.getUpdateResultsCount( );1;0;3
+AbstractEsqlQuery.getSkipRows( );1;0;3
+AbstractEsqlQuery.getUpdateCount( );1;0;3
+AbstractEsqlQuery.cleanUp( );5;2;17
+AbstractEsqlQuery.nextRow( );1;1;4
+AbstractEsqlQuery.setGroupingVar( String key );2;1;6

@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpAnnotationMethodMessageHandler.handleMatch( SimpMessageMappingInfo mapping , HandlerMethod handlerMethod , String lookupDestination , Message < ? > message );4;4;19
+SimpAnnotationMethodMessageHandler.getValidator( );1;0;3
+SimpAnnotationMethodMessageHandler.getHeaderInitializer( );1;0;3
+SimpAnnotationMethodMessageHandler.getMappingComparator( final Message < ? > message );1;0;3
+SimpAnnotationMethodMessageHandler.setEmbeddedValueResolver( StringValueResolver resolver );1;0;3
+SimpAnnotationMethodMessageHandler.isHandler( Class < ? > beanType );1;0;3
+SimpAnnotationMethodMessageHandler.getReturnValueHandlerLogger( );1;0;3
+SimpAnnotationMethodMessageHandler.setHeaderInitializer( @ Nullable MessageHeaderInitializer headerInitializer );1;0;3
+SimpAnnotationMethodMessageHandler.initArgumentResolvers( );2;0;14
+SimpAnnotationMethodMessageHandler.stop( );1;0;6
+SimpAnnotationMethodMessageHandler.start( );1;0;6
+SimpAnnotationMethodMessageHandler.setMessageConverter( MessageConverter converter );2;0;4
+SimpAnnotationMethodMessageHandler.getMessageConverter( );1;0;3
+SimpAnnotationMethodMessageHandler.getMappingForMethod( Method method , Class < ? > handlerType );11;14;25
+SimpAnnotationMethodMessageHandler.getDirectLookupDestinations( SimpMessageMappingInfo mapping );3;1;9
+SimpAnnotationMethodMessageHandler.createSubscribeMappingCondition( String [ ] destinations );1;0;5
+SimpAnnotationMethodMessageHandler.getPathMatcher( );1;0;3
+SimpAnnotationMethodMessageHandler.SimpAnnotationMethodMessageHandler( SubscribableChannel clientInboundChannel , MessageChannel clientOutboundChannel , SimpMessageSendingOperations brokerTemplate );1;0;12
+SimpAnnotationMethodMessageHandler.createExceptionHandlerMethodResolverFor( Class < ? > beanType );1;0;3
+SimpAnnotationMethodMessageHandler.setValidator( @ Nullable Validator validator );1;0;3
+SimpAnnotationMethodMessageHandler.setPathMatcher( PathMatcher pathMatcher );1;0;5
+SimpAnnotationMethodMessageHandler.setConversionService( ConversionService conversionService );1;0;3
+SimpAnnotationMethodMessageHandler.getHandlerMethodLogger( );1;0;3
+SimpAnnotationMethodMessageHandler.appendSlashes( @ Nullable Collection < String > prefixes );4;1;13
+SimpAnnotationMethodMessageHandler.setDestinationPrefixes( @ Nullable Collection < String > prefixes );1;0;3
+SimpAnnotationMethodMessageHandler.stop( Runnable callback );1;0;6
+SimpAnnotationMethodMessageHandler.getConversionService( );1;0;3
+SimpAnnotationMethodMessageHandler.createMessageMappingCondition( String [ ] destinations );1;0;5
+SimpAnnotationMethodMessageHandler.getLookupDestination( @ Nullable String destination );6;2;19
+SimpAnnotationMethodMessageHandler.getMatchingMapping( SimpMessageMappingInfo mapping , Message < ? > message );1;0;3
+SimpAnnotationMethodMessageHandler.getDestination( Message < ? > message );1;0;3
+SimpAnnotationMethodMessageHandler.resolveEmbeddedValuesInDestinations( String [ ] destinations );3;3;10
+SimpAnnotationMethodMessageHandler.initReturnValueHandlers( );2;0;21
+SimpAnnotationMethodMessageHandler.isRunning( );1;0;3

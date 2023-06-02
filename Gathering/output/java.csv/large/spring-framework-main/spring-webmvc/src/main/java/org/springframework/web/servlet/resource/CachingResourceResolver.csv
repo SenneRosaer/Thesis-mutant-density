@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CachingResourceResolver.getContentCodings( );1;0;3
+CachingResourceResolver.setContentCodings( List < String > codings );1;0;5
+CachingResourceResolver.CachingResourceResolver( CacheManager cacheManager , String cacheName );2;1;7
+CachingResourceResolver.resolveResourceInternal( @ Nullable HttpServletRequest request , String requestPath , List < ? extends Resource > locations , ResourceResolverChain chain );4;2;15
+CachingResourceResolver.getCache( );1;0;3
+CachingResourceResolver.getContentCodingKey( HttpServletRequest request );3;2;14
+CachingResourceResolver.computeKey( @ Nullable HttpServletRequest request , String requestPath );3;4;9
+CachingResourceResolver.CachingResourceResolver( Cache cache );1;0;4
+CachingResourceResolver.resolveUrlPathInternal( String resourceUrlPath , List < ? extends Resource > locations , ResourceResolverChain chain );4;3;15

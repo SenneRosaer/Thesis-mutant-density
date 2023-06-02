@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BlockStackingLayoutManager.addBlockSpacing( double adjust , MinOptMax minoptmax );2;1;8
+MappingPosition.MappingPosition( LayoutManager lm , int first , int last );1;0;5
+BlockStackingLayoutManager.addKnuthElementsForBreakBefore( List returnList , LayoutContext context );5;8;13
+BlockStackingLayoutManager.getNextKnuthElements( LayoutContext context , int alignment );29;25;115
+BlockStackingLayoutManager.addKnuthElementsForBorderPaddingAfter( List returnList , boolean isLast );4;3;19
+StackingIter.getLM( Object nextObj );1;0;3
+BlockStackingLayoutManager.wrapPositionElement( ListElement el , List targetList , boolean force );3;2;7
+BlockStackingLayoutManager.addKnuthElementsForBorderPaddingBefore( List returnList , boolean isFirst );4;3;19
+BlockStackingLayoutManager.createUnitElements( List oldList );40;95;215
+BlockStackingLayoutManager.getBreakBefore( );4;0;15
+BlockStackingLayoutManager.addKnuthElementsForBreakAfter( List returnList , LayoutContext context );6;9;16
+BlockStackingLayoutManager.getChangedKnuthElements( List oldList , int alignment );34;31;139
+BlockStackingLayoutManager.getBorderPaddingBackground( );6;0;20
+BlockStackingLayoutManager.addKnuthElementsForSpaceAfter( List returnList , int alignment );4;6;10
+BlockStackingLayoutManager.getContentAreaBPD( );1;1;3
+BlockStackingLayoutManager.getSpaceBeforeProperty( );6;0;20
+BlockStackingLayoutManager.getParentKeepTogetherStrength( );4;0;11
+BlockStackingLayoutManager.updateContentAreaIPDwithOverconstrainedAdjust( );2;4;14
+BlockStackingLayoutManager.discardSpace( KnuthGlue spaceGlue );4;4;17
+BlockStackingLayoutManager.flush( );2;1;5
+BlockStackingLayoutManager.mustKeepWithNext( );1;1;3
+BlockStackingLayoutManager.getIPIndents( );1;1;3
+StackingIter.getPos( Object nextObj );1;0;3
+BlockStackingLayoutManager.mustKeepTogether( );1;1;3
+BlockStackingLayoutManager.negotiateBPDAdjustment( int adj , KnuthElement lastElement );11;15;49
+BlockStackingLayoutManager.mustKeepWithPrevious( );1;1;3
+BlockStackingLayoutManager.neededUnits( int len );1;1;3
+BlockStackingLayoutManager.setContentAreaIPD( int contentAreaIPD );1;0;3
+BlockStackingLayoutManager.addInBetweenBreak( List contentList , LayoutContext context , LayoutContext childLC );6;3;22
+BlockStackingLayoutManager.wrapPositionElements( List sourceList , List targetList );1;0;3
+BlockStackingLayoutManager.addKnuthElementsForSpaceBefore( List returnList , int alignment );4;6;10
+MappingPosition.getLastIndex( );1;0;3
+BlockStackingLayoutManager.getContentAreaIPD( );1;0;3
+BlockStackingLayoutManager.updateContentAreaIPDwithOverconstrainedAdjust( int contentIPD );2;5;13
+BlockStackingLayoutManager.addChildToArea( Area childArea , BlockParent parentArea );2;1;6
+BlockStackingLayoutManager.getSpaceAfterProperty( );6;0;20
+StackingIter.StackingIter( Iterator parentIter );1;0;3
+BlockStackingLayoutManager.setCurrentArea( BlockParent parentArea );1;0;3
+BlockStackingLayoutManager.getAuxiliaryPosition( );2;1;6
+BlockStackingLayoutManager.addPendingMarks( LayoutContext context );6;5;37
+BlockStackingLayoutManager.BlockStackingLayoutManager( FObj node );1;0;4
+BlockStackingLayoutManager.wrapPositionElements( List sourceList , List targetList , boolean force );4;0;18
+BlockStackingLayoutManager.addChildArea( Area childArea );1;0;3
+BlockStackingLayoutManager.getCurrentArea( );1;0;3
+MappingPosition.getFirstIndex( );1;0;3

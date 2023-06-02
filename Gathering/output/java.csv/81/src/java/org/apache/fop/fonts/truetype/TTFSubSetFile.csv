@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TTFSubSetFile.hasCvt( );1;0;3
+TTFSubSetFile.createMaxp( FontFileReader in , int size );2;6;18
+TTFSubSetFile.writeULong( int pos , int s );1;10;10
+TTFSubSetFile.createPrep( FontFileReader in );2;5;18
+TTFSubSetFile.log2( int num );1;1;3
+TTFSubSetFile.remapComposite( FontFileReader in , Map glyphs , int glyphOffset , Integer glyphIdx );8;21;35
+TTFSubSetFile.getIncludedGlyphs( FontFileReader in , int glyphOffset , Integer glyphIdx );7;19;32
+TTFSubSetFile.createHead( FontFileReader in );2;12;24
+TTFSubSetFile.createLoca( int size );1;10;8
+TTFSubSetFile.createCvt( FontFileReader in );2;5;18
+TTFSubSetFile.createHhea( FontFileReader in , int size );2;7;18
+TTFSubSetFile.writeByte( byte b );1;1;3
+TTFSubSetFile.createCheckSumAdjustment( );1;1;5
+TTFSubSetFile.getLongCheckSum( int start , int size );4;22;18
+TTFSubSetFile.determineTableCount( );5;4;19
+TTFSubSetFile.pad4( );2;5;7
+TTFSubSetFile.createGlyf( FontFileReader in , Map glyphs );6;27;51
+TTFSubSetFile.hasFpgm( );1;0;3
+TTFSubSetFile.readFont( FontFileReader in , String name , Map glyphs );5;4;39
+TTFSubSetFile.createHmtx( FontFileReader in , Map glyphs );3;13;26
+TTFSubSetFile.writeString( String str );2;1;11
+TTFSubSetFile.maxPow2( int max );2;3;7
+TTFSubSetFile.createFpgm( FontFileReader in );2;5;18
+TTFSubSetFile.writeUShort( int s );1;3;6
+TTFSubSetFile.writeUShort( int pos , int s );1;4;6
+TTFSubSetFile.writeULong( int s );1;7;10
+TTFSubSetFile.scanGlyphs( FontFileReader in , Map glyphs );11;10;44
+TTFSubSetFile.hasPrep( );1;0;3
+TTFSubSetFile.createDirectory( );4;26;60
+TTFSubSetFile.getCheckSum( int start , int size );1;0;3
+TTFSubSetFile.readUShort( int pos );3;10;13
+TTFSubSetFile.readShort( int pos );1;0;4
+TTFSubSetFile.init( int size );1;0;5

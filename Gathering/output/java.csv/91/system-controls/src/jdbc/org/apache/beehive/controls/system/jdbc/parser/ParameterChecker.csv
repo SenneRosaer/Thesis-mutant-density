@@ -1,0 +1,5 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParameterChecker.doCheck( SqlFragmentContainer statement , HashMap < String , ParameterDeclaration > paramMap , final MethodDeclaration method );4;0;10
+ParameterChecker.buildMessage( String parameterName , String methodName );1;0;5
+ParameterChecker.checkReflectionParameters( SqlFragmentContainer statement , MethodDeclaration methodDecl );4;4;12
+ParameterChecker.checkReflectionFragment( ReflectionFragment fragment , HashMap < String , ParameterDeclaration > paramMap , MethodDeclaration method );20;14;62

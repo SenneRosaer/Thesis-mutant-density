@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ToolInfo.restrictTo( String path );6;6;21
+ToolInfo.getClassname( );1;0;3
+***not in a method***;0;1;0
+ToolInfo.addProperties( Map < String , Object > parentProps );3;1;10
+ToolInfo.setSkipSetters( boolean cfgOnly );1;0;3
+ToolInfo.getConfigure( );3;1;20
+ToolInfo.getProps( );2;1;7
+ToolInfo.hasPermission( String path );4;2;15
+ToolInfo.isSkipSetters( );2;2;7
+ToolInfo.getToolClass( );1;0;3
+ToolInfo.setClass( Class clazz );2;1;7
+ToolInfo.putProperty( String name , Object value );1;0;3
+ToolInfo.invoke( Method method , Object tool , Object param );3;0;16
+ToolInfo.getProperties( );1;0;3
+ToolInfo.configure( Object tool , Map < String , Object > configuration );7;3;24
+ToolInfo.combine( Map < String , Object > ... maps );3;1;11
+ToolInfo.newInstance( );3;0;18
+ToolInfo.setProperty( Object tool , String name , Object value );2;0;6
+ToolInfo.setKey( String key );2;1;7
+ToolInfo.create( Map < String , Object > dynamicProperties );2;1;14
+ToolInfo.getKey( );1;0;3
+ToolInfo.ToolInfo( String key , Class clazz );1;0;4
+ToolInfo.hasConfigure( );1;1;3

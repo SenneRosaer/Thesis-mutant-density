@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultConsumerMarshaler.createFault( MessageExchange exchange , Fault fault , Session session , JmsContext context );3;0;22
+DefaultConsumerMarshaler.createExchange( JmsContext jmsContext , ComponentContext jbiContext );2;0;11
+DefaultConsumerMarshaler.DefaultConsumerMarshaler( );1;0;3
+Context.readObject( ObjectInputStream in );1;0;3
+Context.writeObject( ObjectOutputStream out );1;0;3
+DefaultConsumerMarshaler.populateMessage( Message message , NormalizedMessage normalizedMessage );4;1;21
+Context.getMessage( );1;0;3
+DefaultConsumerMarshaler.createError( MessageExchange exchange , Exception error , Session session , JmsContext context );1;0;5
+DefaultConsumerMarshaler.createContext( Message message );1;0;3
+Context.Context( Message message );1;0;3
+DefaultConsumerMarshaler.DefaultConsumerMarshaler( URI mep );1;0;3
+DefaultConsumerMarshaler.getMep( );1;0;3
+DefaultConsumerMarshaler.createOut( MessageExchange exchange , NormalizedMessage outMsg , Session session , JmsContext context );3;0;21
+DefaultConsumerMarshaler.setMep( URI mep );1;0;3

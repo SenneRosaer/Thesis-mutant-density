@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HeaderMethodArgumentResolver.createNamedValueInfo( MethodParameter parameter );1;1;5
+HeaderMethodArgumentResolver.resolveArgumentInternal( MethodParameter parameter , Message < ? > message , String name );5;4;12
+HeaderMethodArgumentResolver.HeaderMethodArgumentResolver( ConversionService conversionService , @ Nullable ConfigurableBeanFactory beanFactory );1;0;3
+HeaderMethodArgumentResolver.handleMissingValue( String headerName , MethodParameter parameter , Message < ? > message );1;0;4
+HeaderMethodArgumentResolver.getNativeHeaders( Message < ? > message );1;0;3
+HeaderMethodArgumentResolver.supportsParameter( MethodParameter parameter );1;0;3
+HeaderNamedValueInfo.HeaderNamedValueInfo( Header annotation );1;0;3
+HeaderMethodArgumentResolver.getNativeHeaderValue( Message < ? > message , String name );6;4;11

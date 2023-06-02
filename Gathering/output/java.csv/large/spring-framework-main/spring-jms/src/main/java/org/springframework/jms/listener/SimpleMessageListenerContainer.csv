@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleMessageListenerContainer.processMessage( Message message , Session session );4;2;16
+SimpleMessageListenerContainer.setConcurrency( String concurrency );3;3;17
+SimpleMessageListenerContainer.setRecoverOnException( boolean recoverOnException );1;0;3
+SimpleMessageListenerContainer.sharedConnectionEnabled( );1;0;3
+SimpleMessageListenerContainer.doStart( );1;0;4
+SimpleMessageListenerContainer.validateConfiguration( );3;2;6
+SimpleMessageListenerContainer.setTaskExecutor( Executor taskExecutor );1;0;3
+SimpleMessageListenerContainer.onException( JMSException ex );4;0;21
+SimpleMessageListenerContainer.createListenerConsumer( final Session session );3;3;16
+SimpleMessageListenerContainer.doInitialize( );3;1;12
+SimpleMessageListenerContainer.setConcurrentConsumers( int concurrentConsumers );1;1;4
+SimpleMessageListenerContainer.setConnectLazily( boolean connectLazily );1;0;3
+SimpleMessageListenerContainer.doShutdown( );5;2;16
+SimpleMessageListenerContainer.initializeConsumers( );3;3;15
+SimpleMessageListenerContainer.prepareSharedConnection( Connection connection );1;0;4

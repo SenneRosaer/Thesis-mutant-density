@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SaajMarshaler.shouldIncludeProperty( NormalizedMessage normalizedMessage , String name , Object value );1;0;3
+SaajMarshaler.addSoapAttachments( SOAPMessage soapMessage , NormalizedMessage normalizedMessage );2;0;10
+SaajMarshaler.toNMS( NormalizedMessage normalizedMessage , SOAPMessage soapMessage );15;10;51
+SaajMarshaler.createSOAPMessage( NormalizedMessage normalizedMessage );1;0;11
+SaajMarshaler.createMessageFactory( );1;0;3
+SaajMarshaler.asDataHandler( AttachmentPart attachment );1;0;3
+SaajMarshaler.setMessageFactory( MessageFactory messageFactory );1;0;3
+SaajMarshaler.shouldIncludeHeader( NormalizedMessage normalizedMessage , String name , Object value );1;0;3
+SaajMarshaler.addSoapProperties( SOAPMessage soapMessage , NormalizedMessage normalizedMessage );4;0;12
+SaajMarshaler.addNmsAttachments( NormalizedMessage normalizedMessage , SOAPMessage soapMessage );2;0;7
+SaajMarshaler.getMessageFactory( );2;1;6
+SaajMarshaler.addNmsProperties( NormalizedMessage normalizedMessage , SOAPMessage soapMessage );2;0;7

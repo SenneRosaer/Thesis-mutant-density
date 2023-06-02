@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LocalContainerEntityManagerFactoryBean.determinePersistenceUnitInfo( PersistenceUnitManager persistenceUnitManager );2;1;8
+LocalContainerEntityManagerFactoryBean.getPersistenceUnitInfo( );1;0;3
+LocalContainerEntityManagerFactoryBean.setPersistenceXmlLocation( String persistenceXmlLocation );1;0;3
+LocalContainerEntityManagerFactoryBean.setPersistenceUnitPostProcessors( PersistenceUnitPostProcessor ... postProcessors );1;0;3
+LocalContainerEntityManagerFactoryBean.setJtaDataSource( DataSource jtaDataSource );1;0;4
+LocalContainerEntityManagerFactoryBean.setPersistenceUnitRootLocation( String defaultPersistenceUnitRootLocation );1;0;3
+LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory( );5;3;22
+LocalContainerEntityManagerFactoryBean.afterPropertiesSet( );5;4;16
+LocalContainerEntityManagerFactoryBean.setPersistenceUnitName( @ Nullable String persistenceUnitName );2;1;6
+LocalContainerEntityManagerFactoryBean.setValidationMode( ValidationMode validationMode );1;0;3
+LocalContainerEntityManagerFactoryBean.setSharedCacheMode( SharedCacheMode sharedCacheMode );1;0;3
+LocalContainerEntityManagerFactoryBean.setDataSource( DataSource dataSource );1;0;4
+LocalContainerEntityManagerFactoryBean.setPersistenceUnitManager( PersistenceUnitManager persistenceUnitManager );1;0;3
+LocalContainerEntityManagerFactoryBean.getPersistenceUnitName( );2;1;6
+LocalContainerEntityManagerFactoryBean.postProcessEntityManagerFactory( EntityManagerFactory emf , PersistenceUnitInfo pui );1;0;2
+LocalContainerEntityManagerFactoryBean.setResourceLoader( ResourceLoader resourceLoader );1;0;3
+LocalContainerEntityManagerFactoryBean.getDataSource( );4;3;10
+LocalContainerEntityManagerFactoryBean.setMappingResources( String ... mappingResources );1;0;3
+LocalContainerEntityManagerFactoryBean.setManagedTypes( PersistenceManagedTypes managedTypes );1;0;3
+LocalContainerEntityManagerFactoryBean.setLoadTimeWeaver( LoadTimeWeaver loadTimeWeaver );1;0;3
+LocalContainerEntityManagerFactoryBean.setPackagesToScan( String ... packagesToScan );1;0;3

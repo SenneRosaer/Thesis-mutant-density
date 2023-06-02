@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AxisGraph.setMaxLength( int maxLength );1;0;3
+AxisGraph.setXAxisLabels( String [ ] labels );1;0;3
+AxisGraph.setData( double [ ] [ ] data );1;0;3
+AxisGraph.drawSample( String _title , int _maxLength , String [ ] _xAxisLabels , String _xAxisTitle , String _yAxisTitle , double [ ] [ ] _data , int _width , int _height , Graphics g );7;8;53
+AxisGraph.setYAxisLabels( String label );1;0;3
+AxisGraph.setHeight( int h );1;0;3
+AxisGraph.AxisGraph( LayoutManager layout );1;0;3
+AxisGraph.paintComponent( Graphics g );7;11;8
+AxisGraph.setYAxisTitle( String title );1;0;3
+AxisGraph.squeeze( String input , int _maxLength );2;3;7
+AxisGraph.setXAxisTitle( String title );1;0;3
+AxisGraph.setWidth( int w );1;0;3
+AxisGraph.AxisGraph( LayoutManager layout , boolean isDoubleBuffered );1;0;3
+AxisGraph.findMax( double _data [ ] [ ] );4;5;12
+AxisGraph.AxisGraph( );1;0;3
+AxisGraph.setTitle( String title );1;0;3

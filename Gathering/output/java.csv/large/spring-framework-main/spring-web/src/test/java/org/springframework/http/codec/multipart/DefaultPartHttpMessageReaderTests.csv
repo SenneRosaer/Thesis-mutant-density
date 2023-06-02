@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultPartHttpMessageReaderTests.cancelBody( DefaultPartHttpMessageReader reader );1;0;13
+DefaultPartHttpMessageReaderTests.exceedHeaderLimit( );1;0;17
+DefaultPartHttpMessageReaderTests.verifyContents( Path tempFile , String contents );2;0;9
+DefaultPartHttpMessageReaderTests.createRequest( Resource resource , String boundary );1;0;8
+DefaultPartHttpMessageReaderTests.utf8Headers( DefaultPartHttpMessageReader reader );1;0;13
+DefaultPartHttpMessageReaderTests.noEndHeader( DefaultPartHttpMessageReader reader );1;0;8
+DefaultPartHttpMessageReaderTests.chrome( DefaultPartHttpMessageReader reader );1;0;4
+DefaultPartHttpMessageReaderTests.canRead( DefaultPartHttpMessageReader reader );1;0;3
+DefaultPartHttpMessageReaderTests.testBrowserFile( Part part , String name , String filename , String contents , CountDownLatch latch );2;0;25
+DefaultPartHttpMessageReaderTests.tooManyParts( );1;0;14
+DefaultPartHttpMessageReaderTests.noEndBoundary( DefaultPartHttpMessageReader reader );1;0;12
+DefaultPartHttpMessageReaderTests.messageReaders( );1;0;12
+DefaultPartHttpMessageReaderTests.cancelBodyThenPart( DefaultPartHttpMessageReader reader );1;0;9
+DefaultPartHttpMessageReaderTests.testPart( Part part , @ Nullable String expectedName , String expectedContents , CountDownLatch latch );2;1;17
+DefaultPartHttpMessageReaderTests.cancelPart( DefaultPartHttpMessageReader reader );1;0;9
+DefaultPartHttpMessageReaderTests.simple( DefaultPartHttpMessageReader reader );1;0;13
+DefaultPartHttpMessageReaderTests.noHeaders( DefaultPartHttpMessageReader reader );1;0;11
+CancelSubscriber.hookOnSubscribe( Subscription subscription );1;0;3
+DefaultPartHttpMessageReaderTests.noEndBody( DefaultPartHttpMessageReader reader );1;0;8
+DefaultPartHttpMessageReaderTests.testBrowserFormField( Part part , String name , String value );1;0;6
+DefaultPartHttpMessageReaderTests.garbage( DefaultPartHttpMessageReader reader );1;0;8
+CancelSubscriber.hookOnNext( DataBuffer buffer );1;0;4
+DefaultPartHttpMessageReaderTests.safari( DefaultPartHttpMessageReader reader );1;0;4
+DefaultPartHttpMessageReaderTests.firefox( DefaultPartHttpMessageReader reader );1;0;4
+DefaultPartHttpMessageReaderTests.quotedBoundary( DefaultPartHttpMessageReader reader );1;0;13
+DefaultPartHttpMessageReaderTests.testBrowser( DefaultPartHttpMessageReader reader , Resource resource , String boundary );1;0;13

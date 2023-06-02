@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LineLayoutManager.addInlineArea( LayoutContext context , Position pos , boolean isLastPosition );30;52;106
+LineLayoutManager.addBlockArea( LayoutContext context , Position pos , boolean isLastPosition );4;3;31
+LineLayoutManager.hasLeadingFence( boolean isNotFirst );1;0;3
+LineBreakPosition.LineBreakPosition( LayoutManager lm , int index , int iStartIndex , int iBreakIndex , int shrink , int stretch , int diff , double ipdA , double adjust , int ind , int lh , int lw , int sb , int sa , int bl );1;0;16
+Update.Update( InlineLevelLayoutManager lm , int index );1;0;4
+Paragraph.startSequence( );7;11;20
+LineLayoutManager.createElements( List list , LineLayoutPossibilities llPoss , Position elementPosition );18;60;92
+LineLayoutManager.mustKeepWithPrevious( );1;1;3
+LineLayoutManager.initialize( );1;1;12
+Paragraph.containsBox( );3;2;9
+LineLayoutManager.mustKeepWithNext( );1;1;3
+Paragraph.Paragraph( LineLayoutManager llm , int alignment , int alignmentLast , int indent , int endIndent );1;0;8
+LineLayoutManager.discardSpace( KnuthGlue spaceGlue );1;0;2
+LineLayoutManager.getHyphenContext( StringBuffer sbChars );2;1;14
+LineBreakingAlgorithm.resetAlgorithm( );1;1;3
+LineLayoutManager.addAreas( PositionIterator parentIter , LayoutContext context );5;2;13
+Paragraph.endSequence( );5;11;29
+LineLayoutManager.hasTrailingFence( boolean isNotLast );1;0;3
+LineLayoutManager.negotiateBPDAdjustment( int adj , KnuthElement lastElement );2;5;10
+Paragraph.endParagraph( );2;1;6
+LineLayoutManager.postProcessLineBreaks( int alignment , LayoutContext context );19;24;71
+LineLayoutManager.getChangedKnuthElements( List oldList , int alignment );10;25;34
+LineLayoutManager.getKeepWithNextStrength( );1;0;3
+LineLayoutManager.getNextKnuthElements( LayoutContext context , int alignment );3;2;19
+LineBreakingAlgorithm.findBreakingPoints( Paragraph par , double threshold , boolean force , int allowedBreaks );1;0;4
+LineLayoutManager.getEffectiveAlignment( int alignment , int alignmentLast );3;3;7
+LineLayoutManager.mustKeepTogether( );1;0;3
+LineLayoutManager.addChildArea( Area childArea );3;0;11
+LineBreakingAlgorithm.updateData1( int lineCount , double demerits );2;0;7
+LineBreakingAlgorithm.makeLineBreakPosition( KnuthSequence par , int firstElementIndex , int lastElementIndex , int availableShrink , int availableStretch , int difference , double ratio , int indent );20;39;67
+LineLayoutManager.LineLayoutManager( Block block , Length lh , int l , int f );1;0;8
+LineBreakingAlgorithm.LineBreakingAlgorithm( int pageAlign , int textAlign , int textAlignLast , int indent , int fillerWidth , int lh , int ld , int fl , boolean first , int maxFlagCount , LineLayoutManager llm );2;2;14
+LineBreakingAlgorithm.filterActiveNodes( );11;14;29
+LineBreakingAlgorithm.updateData2( KnuthNode bestActiveNode , KnuthSequence par , int total );16;28;37
+LineLayoutManager.collectInlineKnuthElements( LayoutContext context );27;21;96
+LineLayoutManager.getGeneratesLineArea( );1;0;3
+LineLayoutManager.getGeneratesBlockArea( );1;0;3
+LineLayoutManager.findHyphenationPoints( Paragraph currPar );22;33;100
+LineLayoutManager.findOptimalBreakingPoints( int alignment , Paragraph currPar );18;25;80
+LineLayoutManager.getKeepTogetherStrength( );1;0;3
+LineLayoutManager.getKeepWithPreviousStrength( );1;0;3
+LineLayoutManager.createLineBreaks( int alignment , LayoutContext context );3;1;17

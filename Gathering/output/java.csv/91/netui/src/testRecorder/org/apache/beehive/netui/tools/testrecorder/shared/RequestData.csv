@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestData.getParamCount( );2;1;6
+RequestData.getUri( String host , int port );1;0;3
+RequestData.setProtocol( String protocol );1;0;3
+RequestData.getParameters( );1;0;3
+RequestData.populate( HttpServletRequest request , RequestData data );3;6;16
+RequestData.RequestData( );1;0;2
+RequestData.getHeaders( HttpServletRequest request );3;2;16
+RequestData.setParameters( NVPair [ ] parameters );1;0;3
+RequestData.setProtocolVersion( String protocolVersion );1;0;3
+RequestData.getMethod( );1;0;3
+RequestData.getHeaderValue( int index );1;0;3
+RequestData.getPath( );1;0;3
+RequestData.setHost( String host );1;0;3
+RequestData.getCookieName( int index );1;0;3
+RequestData.setMethod( String method );1;0;3
+RequestData.genUri( String protocol , String host , int port , String path );1;3;3
+RequestData.setPath( String path );1;0;3
+RequestData.setHeaders( NVPair [ ] headers );1;0;3
+RequestData.getUri( );1;0;3
+RequestData.getPort( );1;0;3
+RequestData.setPort( int port );1;0;3
+RequestData.getHeaderName( int index );1;0;3
+RequestData.getProtocolVersion( );1;0;3
+RequestData.getParamName( int index );1;0;3
+RequestData.getCookieValue( int index );1;0;3
+RequestData.getCookies( );1;0;3
+RequestData.getHeaders( );1;0;3
+RequestData.getParams( HttpServletRequest request );5;4;24
+RequestData.setCookies( Cookie [ ] cookies );1;0;3
+RequestData.getParamValue( int index );1;0;3
+RequestData.getCookieCount( );2;1;6
+RequestData.getHost( );1;0;3
+RequestData.toString( );1;0;15
+RequestData.getProtocol( );1;0;3
+RequestData.getHeaderCount( );2;1;6

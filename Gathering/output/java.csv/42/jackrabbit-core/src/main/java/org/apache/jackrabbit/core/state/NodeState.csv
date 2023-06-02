@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodeState.getChildNodeEntries( Name nodeName );1;0;3
+NodeState.hasChildNodeEntry( Name name , int index );1;1;3
+NodeState.setSharedSet( Set set );2;1;9
+NodeState.notifyNodesReplaced( );2;1;5
+NodeState.setMixinTypeNames( Set names );1;0;3
+NodeState.notifyNodeAdded( ChildNodeEntry added );2;1;5
+NodeState.getChildNodeEntry( NodeId id );1;0;3
+NodeState.getDefinitionId( );1;0;3
+NodeState.getSharedSet( );2;1;6
+NodeState.getRemovedChildNodeEntries( );2;1;7
+NodeState.getPropertyNames( );1;0;3
+NodeState.setContainer( ItemStateListener listener );3;1;9
+NodeState.getMixinTypeNames( );1;0;3
+NodeState.removePropertyName( Name propName );1;0;3
+NodeState.removeShare( NodeId parentId );5;2;17
+NodeState.copy( ItemState state , boolean syncModCount );2;0;17
+NodeState.setPropertyNames( Set propNames );1;0;3
+NodeState.NodeState( NodeId id , Name nodeTypeName , NodeId parentId , int initialStatus , boolean isTransient );1;0;6
+NodeState.removeChildNodeEntry( Name nodeName , int index );2;2;7
+NodeState.isShareable( );1;1;3
+NodeState.getAddedPropertyNames( );2;1;9
+NodeState.addChildNodeEntry( Name nodeName , NodeId id );1;0;5
+NodeState.getParentId( );1;0;3
+NodeState.getAddedChildNodeEntries( );2;1;7
+NodeState.NodeState( NodeState overlayedState , int initialStatus , boolean isTransient );1;0;4
+NodeState.isNode( );1;0;3
+NodeState.getChildNodeEntry( Name nodeName , int index );1;0;3
+NodeState.renameChildNodeEntry( Name oldName , int index , Name newName );2;1;11
+NodeState.removeAllChildNodeEntries( );1;0;4
+NodeState.getChildNodeEntries( );1;0;3
+NodeState.hasChildNodeEntry( NodeId id );1;1;3
+NodeState.addPropertyName( Name propName );1;0;3
+NodeState.getRemovedPropertyNames( );2;1;9
+NodeState.containsShare( NodeId parentId );1;0;3
+NodeState.getId( );1;0;3
+NodeState.setNodeTypeName( Name nodeTypeName );1;0;3
+NodeState.notifyNodeRemoved( ChildNodeEntry removed );2;1;5
+NodeState.calculateMemoryFootprint( );1;6;4
+NodeState.addShare( NodeId parentId );3;1;10
+NodeState.hasPropertyName( Name propName );1;0;3
+NodeState.hasChildNodeEntry( Name name );1;1;3
+NodeState.getRenamedChildNodeEntries( );7;6;23
+NodeState.removeAllPropertyNames( );1;0;3
+NodeState.setDefinitionId( NodeDefId defId );1;0;3
+NodeState.getReorderedChildNodeEntries( );17;17;51
+NodeState.setChildNodeEntries( List nodeEntries );2;0;10
+NodeState.hasChildNodeEntries( );1;1;3
+NodeState.removeChildNodeEntry( NodeId id );2;2;7
+NodeState.setParentId( NodeId parentId );1;0;3
+NodeState.getNodeId( );1;0;3
+NodeState.getNodeTypeName( );1;0;3

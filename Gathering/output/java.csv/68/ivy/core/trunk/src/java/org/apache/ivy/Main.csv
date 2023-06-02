@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Main.main( String [ ] args );2;0;10
+Main.run( CommandLineParser parser , String [ ] args );23;12;112
+Main.initSettings( CommandLine line , Ivy ivy );7;2;28
+Main.getExtraClasspathFileList( CommandLine line );5;2;22
+Main.outputCachePath( Ivy ivy , File cache , ModuleDescriptor md , String [ ] confs , String outFile );6;5;31
+Main.initMessage( CommandLine line , Ivy ivy );5;0;13
+Main.invoke( Ivy ivy , File cache , ModuleDescriptor md , String [ ] confs , List fileList , String mainclass , String [ ] args );15;7;51
+Main.error( String msg );1;0;3
+Main.getParser( );1;0;80
+Main.usage( CommandLineParser parser , boolean showDeprecated );1;0;5
+Main.configureURLHandler( String realm , String host , String username , String passwd );1;0;8
+Main.Main( );1;0;2

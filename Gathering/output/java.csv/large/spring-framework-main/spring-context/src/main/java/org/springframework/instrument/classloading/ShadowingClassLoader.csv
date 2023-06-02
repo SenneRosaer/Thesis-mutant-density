@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ShadowingClassLoader.copyTransformers( ShadowingClassLoader other );1;0;4
+ShadowingClassLoader.applyTransformers( String name , byte [ ] bytes );4;1;13
+ShadowingClassLoader.getResourceAsStream( String name );1;0;3
+ShadowingClassLoader.loadClass( String name );4;1;12
+ShadowingClassLoader.addTransformer( ClassFileTransformer transformer );1;0;4
+ShadowingClassLoader.ShadowingClassLoader( ClassLoader enclosingClassLoader );1;0;3
+ShadowingClassLoader.ShadowingClassLoader( ClassLoader enclosingClassLoader , boolean defaultExcludes );3;0;9
+ShadowingClassLoader.getResource( String name );1;0;3
+ShadowingClassLoader.doLoadClass( String name );6;4;24
+ShadowingClassLoader.shouldShadow( String className );3;4;4
+ShadowingClassLoader.isEligibleForShadowing( String className );1;1;3
+ShadowingClassLoader.getResources( String name );1;0;3

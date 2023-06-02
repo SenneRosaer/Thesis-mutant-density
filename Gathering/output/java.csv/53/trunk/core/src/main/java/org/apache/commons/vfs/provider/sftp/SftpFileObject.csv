@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SftpFileObject.SftpFileObject( final FileName name , final SftpFileSystem fileSystem );1;0;6
+SftpFileObject.doGetRandomAccessContent( final RandomAccessMode mode );1;0;3
+SftpFileObject.statSelf( );4;1;31
+SftpFileObject.doListChildren( );1;0;3
+SftpFileObject.doListChildrenResolved( );14;9;70
+SftpFileObject.getInputStream( long filePointer );2;0;22
+SftpInputStream.onClose( );1;0;3
+SftpFileObject.doCreateFolder( );1;0;11
+SftpFileObject.doDetach( );1;0;3
+SftpFileObject.setStat( SftpATTRS attrs );1;0;3
+SftpFileObject.doGetOutputStream( boolean bAppend );1;0;4
+SftpFileObject.doGetType( );5;4;23
+SftpFileObject.doGetLastModifiedTime( );3;5;9
+SftpFileObject.doGetInputStream( );4;2;30
+SftpFileObject.doSetLastModifiedTime( final long modtime );1;1;13
+SftpFileObject.doDelete( );2;1;18
+SftpOutputStream.SftpOutputStream( final ChannelSftp channel , OutputStream out );1;0;4
+SftpFileObject.doRename( FileObject newfile );1;0;11
+SftpFileObject.onChange( );1;0;3
+SftpFileObject.doGetContentSize( );3;4;9
+SftpOutputStream.onClose( );1;0;5
+SftpFileObject.refresh( );3;1;23
+SftpInputStream.SftpInputStream( final ChannelSftp channel , final InputStream in );1;0;4

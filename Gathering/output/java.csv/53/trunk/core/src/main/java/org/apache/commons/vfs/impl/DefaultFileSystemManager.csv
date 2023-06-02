@@ -1,0 +1,55 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultFileSystemManager.setBaseFile( final File baseFile );1;0;3
+DefaultFileSystemManager.setCacheStrategy( final CacheStrategy fileCacheStrategy );2;0;7
+DefaultFileSystemManager.addExtensionMap( final String extension , final String scheme );1;0;3
+DefaultFileSystemManager.getSchemes( );1;0;5
+DefaultFileSystemManager.getFileContentInfoFactory( );1;0;3
+DefaultFileSystemManager.addOperationProvider( final String [ ] schemes , final FileOperationProvider operationProvider );4;3;20
+DefaultFileSystemManager.canCreateFileSystem( final FileObject file );1;1;3
+DefaultFileSystemManager.resolveName( final FileName root , final String path );1;0;3
+DefaultFileSystemManager.closeFileSystem( FileSystem filesystem );1;0;4
+DefaultFileSystemManager.setTemporaryFileStore( final TemporaryFileStore tempFileStore );1;0;4
+DefaultFileSystemManager.getProviderCapabilities( final String scheme );2;1;10
+DefaultFileSystemManager.getLocalFileProvider( );2;1;8
+DefaultFileSystemManager.freeUnusedResources( );3;1;13
+DefaultFileSystemManager.closeComponent( final Object component );4;2;11
+DefaultFileSystemManager.addProvider( final String [ ] urlSchemes , final FileProvider provider );6;6;21
+DefaultFileSystemManager.getURLStreamHandlerFactory( );1;0;3
+DefaultFileSystemManager.createFileSystem( final FileObject file );2;1;9
+DefaultFileSystemManager.getFileObjectDecorator( );1;0;3
+DefaultFileSystemManager.setReplicator( final FileReplicator replicator );1;0;4
+DefaultFileSystemManager.createVirtualFileSystem( final FileObject rootFile );1;0;3
+DefaultFileSystemManager.resolveFile( final File baseFile , final String uri );1;0;5
+DefaultFileSystemManager.resolveFile( final FileObject baseFile , final String uri );2;1;4
+DefaultFileSystemManager.toFileObject( final File file );1;0;3
+DefaultFileSystemManager.addProvider( final String urlScheme , final FileProvider provider );1;0;4
+DefaultFileSystemManager.getOperationProviders( final String scheme );3;3;9
+DefaultFileSystemManager.setFilesCache( final FilesCache filesCache );2;0;7
+DefaultFileSystemManager.getTemporaryFileStore( );2;1;7
+DefaultFileSystemManager.hasProvider( final String scheme );1;0;3
+DefaultFileSystemManager.addMimeTypeMap( final String mimeType , final String scheme );1;0;3
+DefaultFileSystemManager.addOperationProvider( final String scheme , final FileOperationProvider operationProvider );1;0;4
+DefaultFileSystemManager.createVirtualFileSystem( final String rootUri );1;0;3
+DefaultFileSystemManager.setFileObjectDecorator( Class fileObjectDecorator );4;1;19
+DefaultFileSystemManager.setBaseFile( final FileObject baseFile );1;0;3
+DefaultFileSystemManager.close( );3;1;23
+DefaultFileSystemManager.init( );4;3;17
+DefaultFileSystemManager.setFileContentInfoFactory( FileContentInfoFactory fileContentInfoFactory );2;0;7
+DefaultFileSystemManager.resolveName( final FileName base , final String name , final NameScope scope );11;13;44
+DefaultFileSystemManager.setLogger( final Log log );1;0;3
+DefaultFileSystemManager.getFileSystemConfigBuilder( final String scheme );2;1;10
+DefaultFileSystemManager.setupComponent( final Object component );3;1;13
+DefaultFileSystemManager.getFilesCache( );1;0;3
+DefaultFileSystemManager.resolveURI( String uri );9;8;36
+DefaultFileSystemManager.getFileObjectDecoratorConst( );1;0;3
+DefaultFileSystemManager.getCacheStrategy( );1;0;3
+VfsStreamHandlerFactory.createURLStreamHandler( final String protocol );2;1;8
+DefaultFileSystemManager.setDefaultProvider( final FileProvider provider );1;0;4
+DefaultFileSystemManager.getLogger( );1;0;3
+DefaultFileSystemManager.getReplicator( );2;1;7
+DefaultFileSystemManager.resolveFile( final FileObject baseFile , final String uri , final FileSystemOptions fileSystemOptions );12;12;47
+DefaultFileSystemManager.getBaseFile( );1;0;3
+DefaultFileSystemManager.resolveFile( final String uri , final FileSystemOptions fileSystemOptions );1;0;3
+DefaultFileSystemManager.resolveFile( final String uri );1;0;3
+DefaultFileSystemManager.createFileSystem( final String scheme , final FileObject file );2;1;11
+DefaultFileSystemManager._closeFileSystem( FileSystem filesystem );2;1;8

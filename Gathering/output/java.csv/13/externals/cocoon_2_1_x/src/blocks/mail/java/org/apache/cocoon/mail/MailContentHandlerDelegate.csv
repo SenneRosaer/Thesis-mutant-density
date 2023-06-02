@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MailContentHandlerDelegate.emitAddress( String nodeName , Address address );4;2;18
+MailContentHandlerDelegate.startElement( String nodeName , Attributes attributes );1;1;3
+MailContentHandlerDelegate.marshalFolderToSAX( Folder folder );2;0;7
+MailContentHandlerDelegate.marshalMessageToSAX( Message message );2;0;8
+MailContentHandlerDelegate.startDocumentXMLizer( );1;0;3
+MailContentHandlerDelegate.contentToSAX( ContentHandler contentHandler , Part part );10;7;32
+MessageXMLizer.MessageXMLizer( Message message );1;0;3
+FolderXMLizer.FolderXMLizer( Folder [ ] folders );1;0;3
+MessageXMLizer.getSimpleDateFormat( SimpleDateFormat sdf );1;0;3
+MailContentHandlerDelegate.addAttribute( String nodeName , String nodeValue );1;0;3
+MessageXMLizer.setSimpleDateFormat( SimpleDateFormat sdf );1;0;3
+MailContentHandlerDelegate.MailContentHandlerDelegate( ContentHandler contentHandler );1;0;3
+MailContentHandlerDelegate.endElement( String nodeName );1;1;3
+MessageEnvelopeXMLizer.MessageEnvelopeXMLizer( Message message );1;0;4
+MailContentHandlerDelegate.marshalPartToSAX( Part part );2;0;7
+MessageEnvelopeXMLizer.getSimpleDateFormat( SimpleDateFormat sdf );1;0;3
+MailContentHandlerDelegate.endDocumentXMLizer( );1;0;3
+MessageXMLizer.toSAX( ContentHandler handler );1;0;8
+MailContentHandlerDelegate.marshalFolderToSAX( Folder [ ] folders );3;2;9
+MailContentHandlerDelegate.getSimpleDateFormat( );1;0;3
+MailContentHandlerDelegate.startDocumentInternal( boolean emitStartDocument );2;0;9
+MailContentHandlerDelegate.setSimpleDateFormat( SimpleDateFormat sdf );1;0;3
+FolderXMLizer.FolderXMLizer( Folder folder );1;0;3
+MailContentHandlerDelegate.partToSAX( ContentHandler contentHandler , Part part , int i );13;9;59
+MessageEnvelopeXMLizer.MessageEnvelopeXMLizer( Message [ ] messages );1;0;3
+MailContentHandlerDelegate.marshalMessageEnvelopeToSAX( Message message );2;0;7
+FolderXMLizer.toSAX( ContentHandler handler );2;2;9
+MailContentHandlerDelegate.emitDate( String nodeName , Date d );3;2;13
+MessageEnvelopeXMLizer.toSAX( ContentHandler handler );2;2;10
+MessageEnvelopeXMLizer.setSimpleDateFormat( SimpleDateFormat sdf );1;0;3
+MailContentHandlerDelegate.endDocument( );1;0;3
+MailContentHandlerDelegate.startDocument( );1;0;3
+MailContentHandlerDelegate.endDocumentInternal( boolean emitEndDocument );2;0;7
+MailContentHandlerDelegate.folderToSAX( ContentHandler contentHandler , Folder folder );5;4;18
+MailContentHandlerDelegate.characters( String s );4;4;13
+MailContentHandlerDelegate.messageEnvelopeToSAX( ContentHandler contentHandler , Message message );21;26;87

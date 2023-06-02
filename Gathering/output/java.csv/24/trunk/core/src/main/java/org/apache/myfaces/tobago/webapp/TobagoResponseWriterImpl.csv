@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TobagoResponseWriterImpl.writeAttribute( final String name , final Object value , final String property );1;0;4
+TobagoResponseWriterImpl.TobagoResponseWriterImpl( final Writer writer , final String contentType , final String characterEncoding );5;3;14
+TobagoResponseWriterImpl.startElementInternal( Writer writer , String name , UIComponent currentComponent );2;0;10
+TobagoResponseWriterImpl.write( int i );1;0;4
+TobagoResponseWriterImpl.endElementInternal( Writer writer , String name );7;1;33
+TobagoResponseWriterImpl.startDocument( );1;0;2
+TobagoResponseWriterImpl.endElement( final String name );1;0;3
+TobagoResponseWriterImpl.endDocument( );1;0;2
+TobagoResponseWriterImpl.getStack( );1;0;3
+TobagoResponseWriterImpl.isXml( );1;0;3
+TobagoResponseWriterImpl.getCharacterEncoding( );1;0;3
+TobagoResponseWriterImpl.writeStyleAttribute( );2;1;6
+TobagoResponseWriterImpl.write( char [ ] chars );1;0;4
+TobagoResponseWriterImpl.getContentType( );1;0;3
+TobagoResponseWriterImpl.writeInternal( Writer writer , String string );1;0;4
+TobagoResponseWriterImpl.writeClassAttribute( );2;1;6
+TobagoResponseWriterImpl.getCallingClassStackTraceElementString( );2;1;8
+TobagoResponseWriterImpl.writeText( final char [ ] text , final int offset , final int length );2;0;8
+TobagoResponseWriterImpl.writeAttributeInternal( Writer writer , String name , String value , boolean escape );5;2;26
+TobagoResponseWriterImpl.writeComment( final Object obj );2;1;15
+TobagoResponseWriterImpl.writeURIAttribute( final String s , final Object obj , final String s1 );1;0;3
+TobagoResponseWriterImpl.getWriter( );1;0;3
+TobagoResponseWriterImpl.cloneWithWriter( final Writer originalWriter );1;0;4
+TobagoResponseWriterImpl.setComponent( UIComponent component );1;0;3
+TobagoResponseWriterImpl.writeText( final Object text , final String property );2;0;9
+TobagoResponseWriterImpl.getComponent( );1;0;3
+TobagoResponseWriterImpl.startElement( final String name , final UIComponent currentComponent );1;0;3
+TobagoResponseWriterImpl.writeAttribute( final String name , final String value , final boolean escape );1;0;3
+TobagoResponseWriterImpl.closeOpenTag( );2;0;6
+TobagoResponseWriterImpl.write( String string );1;0;3
+TobagoResponseWriterImpl.write( String string , int i , int i1 );1;0;4
+TobagoResponseWriterImpl.flush( );1;0;3
+TobagoResponseWriterImpl.close( );1;0;4
+TobagoResponseWriterImpl.write( final char [ ] cbuf , final int off , final int len );1;0;3
+TobagoResponseWriterImpl.findValue( final Object value , final String property );7;4;30
+TobagoResponseWriterImpl.getHelper( );1;0;3
+TobagoResponseWriterImpl.isStartStillOpen( );1;0;3
+TobagoResponseWriterImpl.setStartStillOpen( boolean startStillOpen );1;0;3

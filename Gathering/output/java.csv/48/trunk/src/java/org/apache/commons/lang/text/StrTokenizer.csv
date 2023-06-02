@@ -1,0 +1,65 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StrTokenizer.previous( );2;1;6
+StrTokenizer.getTrimmerMatcher( );1;0;3
+StrTokenizer.isQuote( char [ ] chars , int pos , int len , int quoteStart , int quoteLen );4;8;8
+StrTokenizer.hasPrevious( );1;1;4
+StrTokenizer.readWithQuotes( char [ ] chars , int start , int len , StrBuilder workArea , List tokens , int quoteStart , int quoteLen );10;17;51
+StrTokenizer.StrTokenizer( char [ ] input );1;0;4
+StrTokenizer.getCSVInstance( String input );1;0;5
+StrTokenizer.setQuoteMatcher( StrMatcher quote );2;1;6
+StrTokenizer.addToken( List list , String tok );5;3;11
+StrTokenizer.next( );2;1;6
+StrTokenizer.getTSVInstance( );1;0;3
+StrTokenizer.StrTokenizer( char [ ] input , char delim );1;0;4
+StrTokenizer.getTSVClone( );1;0;3
+StrTokenizer.StrTokenizer( char [ ] input , StrMatcher delim , StrMatcher quote );1;0;4
+StrTokenizer.nextIndex( );1;0;3
+StrTokenizer.getCSVInstance( char [ ] input );1;0;5
+StrTokenizer.hasNext( );1;1;4
+StrTokenizer.tokenize( char [ ] chars , int offset , int count );6;7;15
+StrTokenizer.reset( );1;0;5
+StrTokenizer.StrTokenizer( char [ ] input , char delim , char quote );1;0;4
+StrTokenizer.reset( char [ ] input );1;0;5
+StrTokenizer.StrTokenizer( String input , char delim , char quote );1;0;4
+StrTokenizer.getCSVClone( );1;0;3
+StrTokenizer.getCSVInstance( );1;0;3
+StrTokenizer.getTSVInstance( String input );1;0;5
+StrTokenizer.StrTokenizer( String input , char delim );1;0;4
+StrTokenizer.clone( );2;0;7
+StrTokenizer.checkTokenized( );3;2;11
+StrTokenizer.getTokenArray( );1;0;4
+StrTokenizer.previousToken( );2;1;6
+StrTokenizer.setQuoteChar( char quote );1;0;3
+StrTokenizer.nextToken( );2;1;6
+StrTokenizer.StrTokenizer( String input , StrMatcher delim , StrMatcher quote );1;0;4
+StrTokenizer.setDelimiterChar( char delim );1;0;3
+StrTokenizer.setDelimiterMatcher( StrMatcher delim );2;1;8
+StrTokenizer.StrTokenizer( String input , StrMatcher delim );1;0;4
+StrTokenizer.reset( String input );2;1;9
+StrTokenizer.StrTokenizer( char [ ] input , String delim );1;0;4
+StrTokenizer.StrTokenizer( char [ ] input , StrMatcher delim );1;0;4
+StrTokenizer.setIgnoredMatcher( StrMatcher ignored );2;1;6
+StrTokenizer.getTokenList( );2;2;8
+StrTokenizer.setIgnoredChar( char ignored );1;0;3
+StrTokenizer.setIgnoreEmptyTokens( boolean ignoreEmptyTokens );1;0;4
+StrTokenizer.getIgnoredMatcher( );1;0;3
+StrTokenizer.getContent( );2;1;6
+StrTokenizer.setEmptyTokenAsNull( boolean emptyAsNull );1;0;4
+StrTokenizer.isIgnoreEmptyTokens( );1;0;3
+StrTokenizer.size( );1;0;4
+StrTokenizer.isEmptyTokenAsNull( );1;0;3
+StrTokenizer.toString( );2;1;6
+StrTokenizer.add( Object obj );1;0;3
+StrTokenizer.set( Object obj );1;0;3
+StrTokenizer.getTSVInstance( char [ ] input );1;0;5
+StrTokenizer.StrTokenizer( String input );2;1;8
+StrTokenizer.cloneReset( );2;1;8
+StrTokenizer.getDelimiterMatcher( );1;0;3
+StrTokenizer.getQuoteMatcher( );1;0;3
+StrTokenizer.remove( );1;0;3
+StrTokenizer.setTrimmerMatcher( StrMatcher trimmer );2;1;6
+StrTokenizer.readNextToken( char [ ] chars , int start , int len , StrBuilder workArea , List tokens );8;13;27
+StrTokenizer.StrTokenizer( String input , String delim );1;0;4
+StrTokenizer.StrTokenizer( );1;0;4
+StrTokenizer.previousIndex( );1;1;3
+StrTokenizer.setDelimiterString( String delim );1;0;3

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConfigurationParser.ConfigurationParser( Properties variables );1;0;3
+ConfigurationParser.parseXML( InputSource xml , boolean validate );6;0;26
+ConfigurationParser.getAttribute( Element element , String name , String def );2;1;8
+ConfigurationParser.getElement( Element parent , String name , boolean required );7;7;22
+ConfigurationParser.parseBeanConfig( Element parent , String name );1;0;6
+ConfigurationParser.getElement( Element parent , String name );1;0;3
+ConfigurationParser.parseParameters( Element element );6;6;23
+ConfigurationParser.parseBeanConfig( Element element );1;0;5
+ConfigurationParser.parseXML( InputSource xml );1;0;3
+ConfigurationParser.getAttribute( Element element , String name );2;1;10
+ConfigurationParser.getVariables( );1;0;3
+ConfigurationParser.replaceVariables( String value );2;0;7

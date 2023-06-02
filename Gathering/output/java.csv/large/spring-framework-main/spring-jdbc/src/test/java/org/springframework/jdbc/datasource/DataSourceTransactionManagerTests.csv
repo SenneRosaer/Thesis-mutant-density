@@ -1,0 +1,67 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DataSourceTransactionManagerTests.testTransactionRollbackWithAutoCommitFalseAndLazyConnectionAndCreateStatement( );1;0;3
+DataSourceTransactionManagerTests.doTestTransactionRollbackRestoringAutoCommit( boolean autoCommit , boolean lazyConnection , final boolean createStatement );11;9;53
+DataSourceTransactionManagerTests.testTransactionCommitWithAutoCommitTrue( );1;0;3
+TestTransactionSynchronization.suspend( );1;0;2
+DataSourceTransactionManagerTests.doTestTransactionCommitRestoringAutoCommit( boolean autoCommit , boolean lazyConnection , final boolean createStatement );11;9;56
+DataSourceTransactionManagerTests.testTransactionAwareDataSourceProxyWithSuspensionAndReobtaining( );4;2;49
+DataSourceTransactionManagerTests.testTransactionWithIsolationAndReadOnly( );1;2;28
+DataSourceTransactionManagerTests.testPropagationRequiresNewWithExistingTransaction( );1;3;36
+DataSourceTransactionManagerTests.testTransactionRollbackWithAutoCommitTrueAndLazyConnectionAndCreateStatement( );1;0;3
+DataSourceTransactionManagerTests.testTransactionRollbackWithAutoCommitTrue( );1;0;3
+TestTransactionSynchronization.beforeCompletion( );1;0;4
+DataSourceTransactionManagerTests.testTransactionWithPropagationNotSupported( );1;2;17
+DataSourceTransactionManagerTests.doInTransactionWithoutResult( TransactionStatus status );3;34;20
+DataSourceTransactionManagerTests.testTransactionRollbackWithAutoCommitTrueAndLazyConnection( );1;0;3
+DataSourceTransactionManagerTests.testParticipatingTransactionWithRollbackOnlyAndFailEarly( );1;0;3
+DataSourceTransactionManagerTests.doAfterCompletion( int status );1;0;9
+DataSourceTransactionManagerTests.testTransactionRollbackOnly( );2;4;35
+DataSourceTransactionManagerTests.testExistingTransactionWithManualSavepoint( );1;3;28
+DataSourceTransactionManagerTests.testTransactionRollbackWithAutoCommitFalse( );1;0;3
+DataSourceTransactionManagerTests.testPropagationRequiresNewWithExistingTransactionAndUnrelatedFailingDataSource( );1;5;39
+TestTransactionSynchronization.afterCommit( );2;1;7
+DataSourceTransactionManagerTests.testParticipatingTransactionWithTransactionStartedFromSynch( );1;3;37
+DataSourceTransactionManagerTests.doTestExistingTransactionWithPropagationNested( final int count );3;6;43
+TestTransactionSynchronization.flush( );1;0;2
+DataSourceTransactionManagerTests.testTransactionWithPropagationNestedAndRollback( );1;3;19
+DataSourceTransactionManagerTests.testTransactionWithExceptionOnCommit( );1;1;13
+DataSourceTransactionManagerTests.testTransactionCommitWithAutoCommitFalse( );1;0;3
+DataSourceTransactionManagerTests.testTransactionWithExceptionOnRollback( );1;1;19
+DataSourceTransactionManagerTests.testTransactionWithPropagationNever( );1;2;17
+DataSourceTransactionManagerTests.transactionWithTimeout( int timeout );7;6;52
+DataSourceTransactionManagerTests.testPropagationNeverWithExistingTransaction( );1;3;27
+DataSourceTransactionManagerTests.setup( );1;0;3
+DataSourceTransactionManagerTests.verifyTransactionSynchronizationManagerState( );1;0;6
+DataSourceTransactionManagerTests.testPropagationNotSupportedWithExistingTransaction( );1;3;37
+TestTransactionSynchronization.beforeCommit( boolean readOnly );2;1;7
+DataSourceTransactionManagerTests.testTransactionRollbackWithAutoCommitFalseAndLazyConnection( );1;0;3
+DataSourceTransactionManagerTests.testExistingTransactionWithManualSavepointAndRollback( );1;3;27
+TestTransactionSynchronization.afterCompletion( int status );2;0;8
+DataSourceTransactionManagerTests.testExistingTransactionWithPropagationNestedAndRollback( );1;3;41
+DataSourceTransactionManagerTests.testTransactionWithPropagationNested( );1;3;18
+DataSourceTransactionManagerTests.testTransactionWithExceptionOnCommitAndRollbackOnCommitFailure( );1;1;15
+DataSourceTransactionManagerTests.testTransactionAwareDataSourceProxy( );2;2;31
+DataSourceTransactionManagerTests.testParticipatingTransactionWithIncompatibleReadOnly( );1;3;31
+DataSourceTransactionManagerTests.testTransactionWithExceptionOnBegin( );1;1;13
+DataSourceTransactionManagerTests.testParticipatingTransactionWithIncompatibleIsolationLevel( );1;3;29
+DataSourceTransactionManagerTests.testTransactionCommitWithAutoCommitTrueAndLazyConnectionAndStatementCreated( );1;0;3
+DataSourceTransactionManagerTests.testTransactionCommitWithAutoCommitTrueAndLazyConnection( );1;0;3
+TestTransactionSynchronization.TestTransactionSynchronization( DataSource dataSource , int status );1;0;4
+TestTransactionSynchronization.doAfterCompletion( int status );1;1;6
+DataSourceTransactionManagerTests.testPropagationSupportsAndRequiresNewWithEarlyAccess( );1;3;38
+DataSourceTransactionManagerTests.testExistingTransactionWithPropagationNested( );1;0;3
+DataSourceTransactionManagerTests.testParticipatingTransactionWithRollbackOnlyAndInnerSynch( );1;3;46
+DataSourceTransactionManagerTests.testExistingTransactionWithPropagationNestedAndRequiredRollbackOnly( );1;3;54
+DataSourceTransactionManagerTests.testTransactionWithEnforceReadOnly( );1;2;29
+DataSourceTransactionManagerTests.testExistingTransactionWithPropagationNestedTwice( );1;0;3
+DataSourceTransactionManagerTests.testTransactionWithPropagationSupports( );1;2;19
+TestTransactionSynchronization.resume( );1;0;2
+DataSourceTransactionManagerTests.testParticipatingTransactionWithDifferentConnectionObtainedFromSynch( );1;3;35
+DataSourceTransactionManagerTests.testTransactionAwareDataSourceProxyWithSuspension( );4;2;48
+DataSourceTransactionManagerTests.testPropagationSupportsAndRequiresNew( );1;3;30
+DataSourceTransactionManagerTests.doTestParticipatingTransactionWithRollbackOnly( boolean failEarly );5;4;62
+DataSourceTransactionManagerTests.testTransactionCommitWithAutoCommitFalseAndLazyConnectionAndStatementCreated( );1;0;3
+DataSourceTransactionManagerTests.testTransactionCommitWithAutoCommitFalseAndLazyConnection( );1;0;3
+DataSourceTransactionManagerTests.testPropagationRequiresNewWithExistingTransactionAndUnrelatedDataSource( );1;5;47
+DataSourceTransactionManagerTests.testParticipatingTransactionWithRollbackOnly( );1;0;3
+DataSourceTransactionManagerTests.testExistingTransactionWithPropagationNestedAndRequiredRollback( );1;3;54

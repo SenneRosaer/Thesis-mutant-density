@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageCopier.copySubject( NormalizedMessage from , NormalizedMessage to );1;0;3
+MessageCopier.isCopyAttachments( );1;0;3
+MessageCopier.copy( NormalizedMessage message );5;0;16
+MessageCopier.MessageCopier( );1;0;3
+MessageCopier.copyAttachments( NormalizedMessage from , NormalizedMessage to );3;1;11
+MessageCopier.MessageCopier( boolean copySubject , boolean copyContent , boolean copyProperties , boolean copyAttachments );1;0;7
+MessageCopier.isCopyContent( );1;0;3
+MessageCopier.copyDataSource( DataSource source );2;0;11
+MessageCopier.isCopySubject( );1;0;3
+MessageCopier.isCopyProperties( );1;0;3
+MessageCopier.copyContent( NormalizedMessage from , NormalizedMessage to );3;1;11
+MessageCopier.copyProperties( NormalizedMessage from , NormalizedMessage to );2;0;5

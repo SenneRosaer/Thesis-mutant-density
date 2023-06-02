@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketHandlerDecorator.afterConnectionClosed( WebSocketSession session , CloseStatus closeStatus );1;0;3
+WebSocketHandlerDecorator.WebSocketHandlerDecorator( WebSocketHandler delegate );1;0;4
+WebSocketHandlerDecorator.unwrap( WebSocketHandler handler );2;0;8
+WebSocketHandlerDecorator.getLastHandler( );2;0;7
+WebSocketHandlerDecorator.getDelegate( );1;0;3
+WebSocketHandlerDecorator.toString( );1;1;3
+WebSocketHandlerDecorator.afterConnectionEstablished( WebSocketSession session );1;0;3
+WebSocketHandlerDecorator.supportsPartialMessages( );1;0;3
+WebSocketHandlerDecorator.handleTransportError( WebSocketSession session , Throwable exception );1;0;3
+WebSocketHandlerDecorator.handleMessage( WebSocketSession session , WebSocketMessage < ? > message );1;0;3

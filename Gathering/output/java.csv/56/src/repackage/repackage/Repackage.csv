@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Repackage.Repackage( String [ ] args );13;23;24
+Repackage.fileIsUnchanged( String name );1;1;5
+Repackage.moveAlongWithJavaFiles( String name );1;0;3
+Repackage.readFile( File f );1;0;10
+Repackage.readInputStream( InputStream is );1;0;8
+Repackage.repackageNonJavaFile( String name );2;2;8
+Repackage.copyFile( File from , File to );1;0;8
+Repackage.repackageJavaFile( String name );22;48;95
+Repackage.copy( InputStream in , OutputStream out );3;2;10
+Repackage.writeFile( File f , StringBuffer chars );1;0;10
+Repackage.repackageFile( String name );6;2;12
+Repackage.recursiveDelete( File file );4;3;11
+Repackage.fillFiles( ArrayList files , File file );5;3;14
+Repackage.finishMovingFiles( );4;1;15
+Repackage.repackage( );5;7;27
+Repackage.justMoveNonJavaFile( String sourceName , String targetName );2;2;8
+Repackage.main( String [ ] args );1;0;3
+Repackage.copy( Reader r , Writer w );3;2;10
+Repackage.repackageNonJavaFile( String sourceName , String targetName );2;2;8

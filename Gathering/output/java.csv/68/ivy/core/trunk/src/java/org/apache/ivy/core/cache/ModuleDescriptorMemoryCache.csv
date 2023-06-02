@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ModuleDescriptorMemoryCache.get( File ivyFile , ParserSettings ivySettings , boolean validated , ModuleDescriptorProvider mdProvider );2;1;7
+CacheEntry.isStale( boolean validated , ParserSettings newParserSettings );3;3;4
+ModuleDescriptorMemoryCache.ModuleDescriptorMemoryCache( int size );1;0;4
+ModuleDescriptorMemoryCache.getStale( File ivyFile , ParserSettings ivySettings , boolean validated , ModuleDescriptorProvider mdProvider );1;0;7
+ModuleDescriptorMemoryCache.putInCache( File url , ParserSettingsMonitor ivySettingsMonitor , boolean validated , ModuleDescriptor descriptor );3;2;12
+CacheEntry.CacheEntry( ModuleDescriptor md , boolean validated , ParserSettingsMonitor parserSettingsMonitor );1;0;5
+ModuleDescriptorMemoryCache.getFromCache( File ivyFile , ParserSettings ivySettings , boolean validated );4;2;22

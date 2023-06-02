@@ -1,0 +1,47 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultRouterFunction.accept( Visitor visitor );1;0;3
+RouterFunctionWebHandler.handle( ServerWebExchange exchange );1;0;11
+ResourcesRouterFunction.route( ServerRequest request );1;0;3
+RouterFunctionWebHandler.wrapException( Supplier < Mono < T > > supplier );2;0;8
+DifferentComposedRouterFunction.DifferentComposedRouterFunction( RouterFunction < ? > first , RouterFunction < ? > second );1;0;4
+SameComposedRouterFunction.accept( Visitor visitor );1;0;4
+SameComposedRouterFunction.SameComposedRouterFunction( RouterFunction < T > first , RouterFunction < T > second );1;0;4
+RouterFunctions.resourceLookupFunction( String pattern , Resource location );1;0;3
+DefaultNestedRouterFunction.accept( Visitor visitor );1;0;5
+RouterFunctions.route( );1;0;3
+DefaultNestedRouterFunction.route( ServerRequest serverRequest );3;2;18
+RouterFunctionWebHandler.addAttributes( ServerWebExchange exchange , ServerRequest request );1;0;4
+AttributesRouterFunction.withAttribute( String name , Object value );1;0;7
+AttributesRouterFunction.accept( Visitor visitor );1;0;4
+AbstractRouterFunction.toString( );1;0;5
+RouterFunctionWebHandler.RouterFunctionWebHandler( HandlerStrategies strategies , RouterFunction < ? > routerFunction );1;0;4
+RouterFunctions.nest( RequestPredicate predicate , RouterFunction < T > routerFunction );1;0;3
+ResourcesRouterFunction.ResourcesRouterFunction( Function < ServerRequest , Mono < Resource > > lookupFunction );1;0;4
+ResourcesRouterFunction.accept( Visitor visitor );1;0;3
+DefaultRouterFunction.route( ServerRequest request );3;1;12
+DefaultRouterFunction.DefaultRouterFunction( RequestPredicate predicate , HandlerFunction < T > handlerFunction );1;0;6
+RouterFunctions.resources( Function < ServerRequest , Mono < Resource > > lookupFunction );1;0;3
+AttributesRouterFunction.AttributesRouterFunction( RouterFunction < T > delegate , Map < String , Object > attributes );1;0;4
+DifferentComposedRouterFunction.accept( Visitor visitor );1;0;4
+AttributesRouterFunction.withAttributes( Consumer < Map < String , Object > > attributesConsumer );1;0;6
+AttributesRouterFunction.route( ServerRequest request );1;0;3
+FilteredRouterFunction.toString( );1;0;3
+FilteredRouterFunction.route( ServerRequest request );1;0;3
+FilteredRouterFunction.accept( Visitor visitor );1;0;3
+AttributesRouterFunction.initAttributes( Map < String , Object > attributes );2;0;8
+DifferentComposedRouterFunction.route( ServerRequest request );1;0;5
+RouterFunctionWebHandler.createNotFoundError( );1;0;3
+RouterFunctions.toHttpHandler( RouterFunction < ? > routerFunction , HandlerStrategies strategies );1;0;8
+SameComposedRouterFunction.route( ServerRequest request );1;0;4
+RouterFunctions.toWebHandler( RouterFunction < ? > routerFunction , HandlerStrategies strategies );1;0;5
+RouterFunctions.toWebHandler( RouterFunction < ? > routerFunction );1;0;3
+FilteredRouterFunction.FilteredRouterFunction( RouterFunction < T > routerFunction , HandlerFilterFunction < T , S > filterFunction );1;0;4
+RouterFunctions.changeParser( RouterFunction < T > routerFunction , PathPatternParser parser );1;0;7
+HandlerStrategiesResponseContext.HandlerStrategiesResponseContext( HandlerStrategies strategies );1;0;3
+DifferentComposedRouterFunction.cast( HandlerFunction < ? > handlerFunction );1;0;3
+RouterFunctions.resources( String pattern , Resource location );1;0;3
+HandlerStrategiesResponseContext.viewResolvers( );1;0;3
+RouterFunctions.route( RequestPredicate predicate , HandlerFunction < T > handlerFunction );1;0;3
+RouterFunctions.toHttpHandler( RouterFunction < ? > routerFunction );1;0;3
+HandlerStrategiesResponseContext.messageWriters( );1;0;3
+DefaultNestedRouterFunction.DefaultNestedRouterFunction( RequestPredicate predicate , RouterFunction < T > routerFunction );1;0;6

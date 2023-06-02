@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AntContainerManager.setEclipseRunner( EclipseRunTests theRunner );1;0;3
+AntContainerManager.run( );2;0;19
+AntContainerManager.preparationDone( );1;0;3
+AntContainerManager.prepareCactusTests( IJavaProject theJavaProject , IProgressMonitor thePM , IContainerProvider theProvider );2;0;22
+AntContainerManager.getAllAntArguments( String [ ] theProviderArguments );1;1;19
+AntContainerManager.teardownCactusTests( IProgressMonitor thePM , IContainerProvider theProvider );3;0;15
+AntContainerManager.getContainerProviders( );2;2;15
+AntContainerManager.tearDown( );2;0;15
+AntContainerManager.createAntLaunchConfiguration( String [ ] theProviderArguments , String theTarget );2;1;29
+AntContainerManager.createWar( IJavaProject theJavaProject , IProgressMonitor thePM );1;0;5
+AntContainerManager.getShell( );1;0;3
+AntContainerManager.prepare( final IJavaProject theJavaProject );4;1;38
+AntContainerManager.getString( String [ ] theStringArray );2;3;8
+AntContainerManager.init( int thePort , String theTargetDir , Hashtable theHomes , String theContextURLPath );6;2;35
+AntContainerManager.AntContainerManager( String theBuildFilePath , int thePort , String theTargetDir , Hashtable theHomes , String theContextURLPath );1;0;4
+AntContainerManager.cancelPreparation( final IContainerProvider theProvider );4;0;35
+AntContainerManager.run( IProgressMonitor thePM );2;0;10

@@ -1,0 +1,85 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ControlBeanContext.getClassLoader( );1;0;3
+ControlBeanContext.retainAll( Collection c );1;0;3
+ControlBeanContext.getControlPropertySet( Class < T > propertySet );3;1;10
+ControlBeanContext.needsGui( );1;0;3
+ControlBeanContext.getResource( String name , BeanContextChild bcc );1;0;3
+ControlBeanContext.getControlBean( );1;0;3
+ControlBeanContext.isSingleThreadedContainer( );3;3;3
+ControlBeanContext.serviceAvailable( BeanContextServiceAvailableEvent bcsae );1;0;3
+ControlBeanContext.removeBeanContextServicesListener( BeanContextServicesListener bcsl );1;0;3
+ControlBeanContext.vetoableChange( PropertyChangeEvent pce );3;1;8
+ControlBeanContext.getControlHandle( );4;4;8
+ControlBeanContext.addLifeCycleListener( LifeCycle listener );2;1;9
+ControlBeanContext.getMethodPropertySet( Method m , Class < T > propertySet );3;1;10
+NameGenerator.NameGenerator( String namePrefix );1;0;3
+ControlBeanContext.remove( Object targetChild );2;1;11
+ControlBeanContext.hasSingleThreadedParent( );1;0;3
+ControlBeanContext.addService( Class serviceClass , BeanContextServiceProvider serviceProvider );1;0;3
+ControlBeanContext.addPropertyChangeListener( String name , PropertyChangeListener pcl );1;0;3
+ControlBeanContext.ControlBeanContext( ControlBean bean , BeanContextServicesFactory beanContextServicesFactory );2;1;8
+ControlBeanContext.getDefaultControlBinding( Class controlIntf );1;0;3
+ControlBeanContext.getControlID( );6;8;18
+ControlBeanContext.readObject( ObjectInputStream ois );3;0;10
+ControlBeanContext.setDelegateMap( PropertyMap map , ControlBean bean , AnnotatedElement annotElem );4;1;16
+ControlBeanContext.getControlPropertyMap( );1;0;3
+ControlBeanContext.addVetoableChangeListener( String name , VetoableChangeListener vcl );1;0;3
+ControlBeanContext.getBeanContext( );1;0;3
+ControlBeanContext.getParameterPropertySet( Method m , int i , Class < T > propertySet );4;1;9
+ControlBeanContext.removeLifeCycleListener( LifeCycle listener );2;1;4
+ControlBeanContext.getResourceAsStream( String name , BeanContextChild bcc );1;0;3
+ControlBeanContext.removeBeanContextMembershipListener( BeanContextMembershipListener bcml );1;0;3
+ControlBeanContext.releaseService( BeanContextChild child , Object requestor , Object service );1;0;3
+ControlBeanContext.addAll( Collection c );1;0;3
+ControlBeanContext.dontUseGui( );1;0;3
+ControlBeanContext.removeAll( Collection c );1;0;3
+ControlBeanContext.size( );1;0;3
+ControlBeanContext.getParameterNames( Method m );1;0;3
+ControlBeanContext.writeObject( ObjectOutputStream oos );3;0;9
+ControlBeanContext.resolveDefaultBinding( String implBinding , String controlClass );1;0;3
+ControlBeanContext.add( Object targetChild );7;6;23
+ControlBeanContext.getBean( String id );3;3;9
+ControlBeanContext.removeVetoableChangeListener( String name , VetoableChangeListener vcl );1;0;3
+ControlBeanContext.getService( BeanContextChild child , Object requestor , Class serviceClass , Object serviceSelector , BeanContextServiceRevokedListener bcsrl );1;0;3
+ControlBeanContext.initializeControl( );3;1;8
+ControlBeanContext.isDesignTime( );1;0;3
+ControlBeanContext.getBeanContextServicesFactory( );1;0;3
+ControlBeanContextProvider.releaseService( BeanContextServices bcs , Object requestor , Object service );1;0;2
+ControlBeanContext.resetControlID( );3;0;7
+ControlBeanContext.hasService( Class serviceClass );1;0;3
+ControlBeanContext.isEmpty( );1;0;3
+ControlBeanContext.clear( );1;0;3
+ControlBeanContext.ControlBeanContext( ControlBean bean );1;0;3
+ControlBeanContext.getCurrentServiceClasses( );5;3;16
+ControlBeanContext.toArray( Object [ ] a );1;0;3
+ControlBeanContext.addBeanContextMembershipListener( BeanContextMembershipListener bcml );1;0;3
+ControlBeanContext.removePropertyChangeListener( String name , PropertyChangeListener pcl );1;0;3
+ControlBeanContextProvider.getService( BeanContextServices bcs , Object requestor , Class serviceClass , Object serviceSelector );2;0;5
+ControlBeanContext.iterator( );1;0;3
+ControlBeanContextProvider.getCurrentServiceSelectors( BeanContextServices bcs , Class serviceClass );1;0;3
+ControlBeanContext.revokeService( Class serviceClass , BeanContextServiceProvider serviceProvider , boolean revokeCurrentServicesNow );1;0;3
+ControlBeanContext.getBeanAnnotationMap( ControlBean bean , AnnotatedElement annotElem );2;1;6
+ControlBeanContext.equals( Object o );4;3;8
+NameGenerator.next( );1;2;3
+ControlBeanContext.contains( Object o );1;0;3
+ControlBeanContext.prioritizeInterceptors( String [ ] interceptors );1;0;3
+DefaultBeanContextServicesFactory.instantiate( ControlBeanContext controlBeanContext );1;0;3
+ControlBeanContext.getParameterValue( Method m , String parameterName , Object [ ] parameters );5;4;16
+ControlBeanContext.serviceRevoked( BeanContextServiceRevokedEvent bcsre );1;0;2
+ControlBeanContext.toArray( );1;0;3
+ControlBeanContext.generateUniqueID( Class clazz );2;2;8
+ControlBeanContext.getControlInterface( );1;0;3
+ControlBeanContext.getCurrentServiceSelectors( Class serviceClass );3;0;8
+ControlBeanContext.initialize( );1;0;3
+ControlBeanContext.hashCode( );3;4;6
+ControlBeanContext.avoidingGui( );1;0;3
+ControlBeanContext.okToUseGui( );1;0;3
+ControlBeanContext.setBeanContext( BeanContext beanContext );5;4;18
+ControlBeanContext.getAnnotationMap( AnnotatedElement annotElem );3;1;10
+ControlBeanContext.addBeanContextServicesListener( BeanContextServicesListener bcsl );1;0;3
+ControlBeanContext.instantiateChild( String beanName );1;0;3
+ControlBeanContext.containsAll( Collection c );1;0;3
+ControlBeanContext.getService( Class < T > serviceClass , Object selector );5;3;15
+ControlBeanContext.getNameGenerator( String namePrefix );3;2;14
+ControlBeanContext.setDesignTime( boolean designTime );1;0;3
+ControlBeanContext.propertyChange( PropertyChangeEvent pce );3;1;8

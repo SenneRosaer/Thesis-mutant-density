@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OneTimeLookupJndiDestinationResolver.lookup( String jndiName , Class < T > requiredType );1;0;6
+JndiDestinationResolverTests.testHitsCacheSecondTimeThrough( );1;0;7
+JndiDestinationResolverTests.testDoesNotDelegateToFallbackIfNotResolvedInJndi( );1;0;13
+JndiDestinationResolverTests.lookup( String jndiName , Class < T > requiredClass );1;0;3
+JndiDestinationResolverTests.testDelegatesToFallbackIfNotResolvedInJndi( );1;0;17
+CountingCannedJndiDestinationResolver.getCallCount( );1;0;3
+CountingCannedJndiDestinationResolver.lookup( String jndiName , Class < T > requiredType );1;1;4
+JndiDestinationResolverTests.testDoesNotUseCacheIfCachingIsTurnedOff( );1;0;14

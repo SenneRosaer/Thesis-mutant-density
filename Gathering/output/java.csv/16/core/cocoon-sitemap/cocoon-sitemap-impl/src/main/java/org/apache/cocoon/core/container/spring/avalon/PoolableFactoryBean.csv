@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PoolableFactoryBean.enteringPool( final Object component );4;1;12
+PoolableFactoryBean.initialize( );3;2;12
+PoolableFactoryBean.setBeanFactory( BeanFactory beanFactory );1;0;3
+PoolableFactoryBean.PoolableFactoryBean( String name , String className );1;0;3
+PoolableFactoryBean.addInterfaces( final Class [ ] classInterfaces , final Set workInterfaces );2;2;6
+PoolableFactoryBean.PoolableFactoryBean( String name , String className , String poolMaxString , Settings settings );3;2;15
+PoolableFactoryBean.dispose( );2;1;10
+PoolableFactoryBean.getObjectType( );1;0;3
+PoolableFactoryBean.guessWorkInterfaces( final Class clazz , final Set workInterfaces );2;1;6
+PoolableFactoryBean.getFromPool( );3;4;15
+PoolableFactoryBean.setPoolOutMethodName( String poolOutMethodName );1;0;3
+PoolableFactoryBean.exitingPool( final Object component );2;1;5
+PoolableFactoryBean.putIntoPool( final Object poolable );2;2;11
+PoolableFactoryBean.setPoolInMethodName( String poolInMethodName );1;0;3
+PoolableFactoryBean.getObject( );1;0;5
+PoolableFactoryBean.permanentlyRemovePoolable( Object poolable );1;1;3
+PoolableFactoryBean.isSingleton( );1;0;3

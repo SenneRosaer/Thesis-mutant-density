@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Library.setSourceURI( String uri );1;0;3
+Library.getDefinition( String key );6;8;26
+Library.Library( LibraryManager lm , ServiceSelector builderSelector );1;0;4
+Library.includeAs( String key , String sourceURI );3;4;8
+Library.addDefinition( WidgetDefinition definition );4;2;13
+Library.buildWidgetDefinition( Element widgetDefinition , WidgetDefinitionBuilderContext context );3;1;17
+Dependency.Dependency( String dependencySourceURI );1;0;5
+Library.getSourceURI( );1;0;3
+Dependency.isValid( );2;3;4
+Library.dependenciesHaveChanged( );3;1;10
+Library.buildLibrary( Element libraryElement );2;2;10

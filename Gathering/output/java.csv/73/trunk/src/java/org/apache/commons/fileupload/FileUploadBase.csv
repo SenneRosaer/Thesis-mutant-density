@@ -1,0 +1,60 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UnknownSizeException.UnknownSizeException( String message );1;0;3
+FileUploadBase.getHeader( Map headers , String name );1;0;3
+FileUploadBase.getParsedHeaders( String headerPart );8;11;31
+FileUploadBase.createItem( Map headers , boolean isFormField );1;0;6
+FileUploadBase.getFileName( Map headers );1;0;3
+FileUploadBase.parseHeaders( String headerPart );3;1;14
+FileUploadBase.setHeaderEncoding( String encoding );1;0;3
+FileUploadBase.getFieldName( String pContentDisposition );4;3;14
+***not in a method***;0;5;0
+FileUploadBase.setProgressListener( ProgressListener pListener );1;0;3
+FileUploadBase.getProgressListener( );1;0;3
+IOFileUploadException.IOFileUploadException( String pMsg , IOException pException );1;0;4
+FileUploadBase.getItemIterator( RequestContext ctx );1;0;3
+SizeException.getPermittedSize( );1;0;3
+FileUploadBase.getFileName( FileItemHeaders headers );1;0;3
+FileUploadBase.setFileSizeMax( long fileSizeMax );1;0;3
+FileUploadBase.getSizeMax( );1;0;3
+FileUploadBase.getFieldName( FileItemHeaders headers );1;0;3
+InvalidContentTypeException.InvalidContentTypeException( String message );1;0;3
+InvalidContentTypeException.InvalidContentTypeException( );1;0;2
+FileItemIteratorImpl.hasNext( );3;0;9
+FileItemStreamImpl.setHeaders( FileItemHeaders pHeaders );1;0;3
+FileItemStreamImpl.isFormField( );1;0;3
+FileUploadBase.parseHeaderLine( FileItemHeadersImpl headers , String header );2;3;10
+FileItemStreamImpl.getContentType( );1;0;3
+FileUploadIOException.FileUploadIOException( FileUploadException pCause );1;0;3
+FileUploadBase.parseEndOfLine( String headerPart , int end );5;8;14
+FileUploadBase.isMultipartContent( HttpServletRequest req );1;0;3
+FileItemStreamImpl.getName( );1;0;3
+FileItemIteratorImpl.next( );4;4;7
+FileItemStreamImpl.openStream( );3;0;10
+UnknownSizeException.UnknownSizeException( );1;0;3
+SizeLimitExceededException.SizeLimitExceededException( );1;0;3
+FileItemStreamImpl.FileItemStreamImpl( String pName , String pFieldName , String pContentType , boolean pFormField , long pContentLength );4;6;36
+SizeLimitExceededException.SizeLimitExceededException( String message );1;0;3
+FileUploadBase.getBoundary( String contentType );3;1;16
+FileUploadBase.getFieldName( Map headers );1;0;3
+FileUploadBase.getFileSizeMax( );1;0;3
+FileItemStreamImpl.getHeaders( );1;0;3
+FileUploadBase.getFileName( String pContentDisposition );6;3;20
+IOFileUploadException.getCause( );1;0;3
+FileUploadBase.parseRequest( RequestContext ctx );8;1;37
+FileUploadBase.setSizeMax( long sizeMax );1;0;3
+SizeLimitExceededException.SizeLimitExceededException( String message , long actual , long permitted );1;0;3
+FileItemStreamImpl.close( );1;0;3
+FileUploadIOException.getCause( );1;0;3
+FileSizeLimitExceededException.FileSizeLimitExceededException( String message , long actual , long permitted );1;0;3
+SizeException.SizeException( String message , long actual , long permitted );1;0;5
+SizeException.getActualSize( );1;0;3
+FileUploadBase.getHeaderEncoding( );1;0;3
+FileItemIteratorImpl.raiseError( long pSizeMax , long pCount );1;0;10
+FileItemStreamImpl.getFieldName( );1;0;3
+FileItemIteratorImpl.getContentLength( FileItemHeaders pHeaders );2;1;7
+FileUploadBase.parseRequest( HttpServletRequest req );1;0;3
+FileItemIteratorImpl.findNextItem( );12;9;61
+FileItemStreamImpl.raiseError( long pSizeMax , long pCount );1;0;11
+FileItemIteratorImpl.FileItemIteratorImpl( RequestContext ctx );10;12;60
+FileUploadBase.isMultipartContent( RequestContext ctx );3;1;10
+FileUploadBase.newFileItemHeaders( );1;0;3

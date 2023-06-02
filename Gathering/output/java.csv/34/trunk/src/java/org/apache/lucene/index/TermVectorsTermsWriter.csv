@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TermVectorsTermsWriter.freeRAM( );1;0;3
+TermVectorsTermsWriter.initTermVectorsWriter( );3;9;18
+TermVectorsTermsWriter.fill( int docID );3;4;13
+TermVectorsTermsWriter.addThread( TermsHashPerThread termsHashPerThread );1;0;3
+TermVectorsTermsWriter.bytesPerPosting( );1;2;3
+TermVectorsTermsWriter.createPostings( RawPostingList [ ] postings , int start , int count );2;3;5
+PerDoc.sizeInBytes( );1;0;3
+PerDoc.reset( );1;0;4
+TermVectorsTermsWriter.getPerDoc( );3;6;11
+PerDoc.abort( );1;0;4
+TermVectorsTermsWriter.closeDocStore( final SegmentWriteState state );3;14;19
+TermVectorsTermsWriter.free( PerDoc doc );1;2;4
+TermVectorsTermsWriter.flush( Map threadsAndFields , final SegmentWriteState state );5;3;21
+TermVectorsTermsWriter.TermVectorsTermsWriter( DocumentsWriter docWriter );1;0;3
+TermVectorsTermsWriter.abort( );7;3;24
+TermVectorsTermsWriter.finishDocument( PerDoc perDoc );4;10;26
+PerDoc.addField( final int fieldNumber );2;2;9
+PerDoc.finish( );1;0;3

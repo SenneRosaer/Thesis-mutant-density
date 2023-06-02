@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RowImpl.isExcerptFunction( Name name );2;1;4
+RowIteratorImpl.remove( );1;0;3
+RowIteratorImpl.getSize( );1;0;3
+RowImpl.isSpellCheckFunction( Name name );2;1;4
+RowImpl.getValue( String propertyName );12;4;43
+RowImpl.highlight( String text );3;2;16
+RowImpl.getScore( );1;0;4
+RowImpl.getSpellCheckedStatement( );4;2;15
+RowIteratorImpl.RowIteratorImpl( ScoreNodeIterator nodes , Name [ ] properties , Name [ ] selectorNames , ItemManager itemMgr , NamePathResolver resolver , ExcerptProvider exProvider , SpellSuggestion spellSuggestion );1;0;9
+RowImpl.getScore( String selectorName );2;1;7
+RowImpl.getNode( String selectorName );2;1;7
+RowImpl.createExcerpt( NodeId id );4;3;18
+RowImpl.getExcerpt( );1;0;3
+RowIteratorImpl.getPosition( );1;0;3
+RowImpl.checkSingleSelector( String useInstead );2;1;6
+RowIteratorImpl.skip( long skipNum );1;0;3
+RowIteratorImpl.next( );1;0;3
+RowIteratorImpl.hasNext( );1;0;3
+RowIteratorImpl.nextRow( );1;0;4
+RowImpl.getExcerpt( String excerptCall );4;3;21
+RowImpl.getValues( );10;6;35
+RowImpl.isExcerptFunction( String name );2;0;8
+RowImpl.RowImpl( float score , ScoreNode [ ] sn , NodeImpl node );1;0;5
+RowImpl.getPath( String selectorName );2;1;8
+RowImpl.getSelectorIndex( String selectorName );2;2;7
+RowImpl.getPath( );1;0;4
+RowImpl.getNode( );1;0;4

@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BSFManager.setClassPath( String classPath );1;0;5
+BSFManager.loadScriptingEngine( String lang );6;2;44
+BSFManager.getLangFromFilename( String fileName );9;12;40
+BSFManager.getObjectRegistry( );1;0;3
+BSFManager.registerBean( String beanName , Object bean );2;1;10
+***not in a method***;0;3;0
+BSFManager.terminate( );2;0;10
+BSFManager.undeclareBean( String beanName );5;0;21
+BSFManager.compileScript( String lang , String source , int lineNo , int columnNo , Object script , CodeBuffer cb );2;0;20
+BSFManager.compileApply( String lang , String source , int lineNo , int columnNo , Object funcBody , Vector paramNames , Vector arguments , CodeBuffer cb );2;0;23
+BSFManager.BSFManager( );1;0;4
+BSFManager.compileExpr( String lang , String source , int lineNo , int columnNo , Object expr , CodeBuffer cb );2;0;19
+BSFManager.getTempDir( );1;0;3
+BSFManager.isLanguageRegistered( String lang );1;1;3
+BSFManager.lookupBean( String beanName );2;0;9
+BSFManager.declareBean( String beanName , Object bean , Class type );2;0;12
+BSFManager.unregisterBean( String beanName );1;0;4
+BSFManager.eval( String lang , String source , int lineNo , int columnNo , Object expr );2;0;21
+BSFManager.exec( String lang , String source , int lineNo , int columnNo , Object script );2;0;18
+BSFManager.setClassLoader( ClassLoader classLoader );1;0;5
+BSFManager.setObjectRegistry( ObjectRegistry objectRegistry );1;0;4
+BSFManager.setTempDir( String tempDir );1;0;5
+BSFManager.iexec( String lang , String source , int lineNo , int columnNo , Object script );2;0;18
+BSFManager.run( );1;0;4
+BSFManager.apply( String lang , String source , int lineNo , int columnNo , Object funcBody , Vector paramNames , Vector arguments );2;0;24
+BSFManager.getVersion( );1;0;3
+BSFManager.getClassLoader( );1;0;4
+BSFManager.getClassPath( );3;1;11
+BSFManager.registerScriptingEngine( String lang , String engineClassName , String [ ] extensions );4;5;10
+BSFManager.getDefinedClassLoader( );1;0;3

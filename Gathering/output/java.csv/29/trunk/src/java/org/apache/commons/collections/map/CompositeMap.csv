@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompositeMap.size( );2;4;7
+CompositeMap.keySet( );2;3;7
+CompositeMap.putAll( Map map );2;1;6
+CompositeMap.values( );2;3;7
+CompositeMap.entrySet( );2;3;7
+CompositeMap.CompositeMap( );1;0;3
+CompositeMap.put( Object key , Object value );2;1;6
+CompositeMap.containsValue( Object value );3;3;8
+CompositeMap.setMutator( MapMutator mutator );1;0;3
+CompositeMap.equals( Object obj );2;0;7
+CompositeMap.isEmpty( );3;4;8
+CompositeMap.get( Object key );3;3;8
+CompositeMap.CompositeMap( Map [ ] composite );1;0;3
+CompositeMap.CompositeMap( Map [ ] composite , MapMutator mutator );2;3;7
+CompositeMap.addComposited( Map map );4;7;17
+CompositeMap.removeComposited( Map map );3;6;13
+CompositeMap.containsKey( Object key );3;3;8
+CompositeMap.CompositeMap( Map one , Map two );1;0;3
+CompositeMap.remove( Object key );3;3;8
+CompositeMap.clear( );2;3;5
+CompositeMap.hashCode( );2;1;7
+CompositeMap.CompositeMap( Map one , Map two , MapMutator mutator );1;0;3

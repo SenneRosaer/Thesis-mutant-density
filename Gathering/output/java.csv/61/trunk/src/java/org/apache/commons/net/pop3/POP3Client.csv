@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+POP3Client.retrieveMessage( int messageId );3;2;8
+POP3Client.deleteMessage( int messageId );2;2;6
+POP3Client.login( String username , String password );4;3;10
+POP3Client.__parseStatus( String line );4;2;20
+POP3Client.listMessages( );4;5;16
+POP3Client.status( );3;2;7
+POP3Client.logout( );2;2;6
+POP3Client.listUniqueIdentifier( int messageId );3;2;8
+POP3Client.listMessage( int messageId );3;2;8
+POP3Client.reset( );2;2;5
+POP3Client.retrieveMessageTop( int messageId , int numLines );4;5;8
+POP3Client.login( String username , String timestamp , String secret );4;6;22
+POP3Client.listUniqueIdentifiers( );4;5;16
+POP3Client.__parseUID( String line );4;2;20
+POP3Client.noop( );2;2;5

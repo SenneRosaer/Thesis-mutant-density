@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InjectAnnotationAutowireContextTests.testAutowiredFieldDoesNotResolveCandidateWithDefaultValueAndConflictingValueOnBeanDefinition( );1;0;21
+InjectAnnotationAutowireContextTests.testAutowiredFieldWithSingleQualifiedCandidate( );1;0;13
+InjectAnnotationAutowireContextTests.testAutowiredFieldResolvesQualifiedCandidateWithDefaultValueAndNoValueOnBeanDefinition( );1;0;19
+InjectAnnotationAutowireContextTests.testAutowiredMethodParameterWithMultipleNonQualifiedCandidates( );1;0;20
+QualifiedConstructorArgumentWithBaseQualifierNonDefaultValueTestBean.QualifiedConstructorArgumentWithBaseQualifierNonDefaultValueTestBean( @ Named ( "juergen" ) Person person );1;0;3
+QualifiedMethodParameterTestBean.getPerson( );1;0;3
+InjectAnnotationAutowireContextTests.testAutowiredConstructorArgumentWithMultipleNonQualifiedCandidates( );1;0;17
+QualifiedFieldWithDefaultValueTestBean.getPerson( );1;0;3
+InjectAnnotationAutowireContextTests.testAutowiredFieldDoesNotResolveWithBaseQualifierAndNonDefaultValueAndMultipleMatchingCandidates( );1;0;19
+QualifiedFieldWithBaseQualifierDefaultValueTestBean.getPerson( );1;0;3
+InjectAnnotationAutowireContextTests.testAutowiredFieldDoesNotResolveWithMultipleQualifierValuesAndMultipleMatchingCandidates( );1;0;27
+InjectAnnotationAutowireContextTests.testAutowiredFieldDoesNotResolveWithMultipleQualifierValuesAndConflictingDefaultValue( );1;0;27
+InjectAnnotationAutowireContextTests.testAutowiredConstructorArgumentResolvesQualifiedCandidate( );1;0;19
+InjectAnnotationAutowireContextTests.testAutowiredMethodParameterWithStaticallyQualifiedCandidate( );1;0;15
+QualifiedConstructorArgumentTestBean.QualifiedConstructorArgumentTestBean( @ TestQualifier Person person );1;0;3
+InjectAnnotationAutowireContextTests.testAutowiredFieldResolvesWithMultipleQualifierValuesAndExplicitDefaultValue( );1;0;25
+InjectAnnotationAutowireContextTests.testAutowiredMethodParameterWithSingleNonQualifiedCandidate( );1;0;16
+InjectAnnotationAutowireContextTests.testAutowiredMethodParameterWithSingleQualifiedCandidate( );1;0;15
+InjectAnnotationAutowireContextTests.testAutowiredFieldWithMultipleNonQualifiedCandidates( );1;0;20
+InjectAnnotationAutowireContextTests.testAutowiredFieldResolvesWithDefaultValueAndExplicitDefaultValueOnBeanDefinition( );1;0;19
+QualifiedPerson.QualifiedPerson( );1;0;3
+InjectAnnotationAutowireContextTests.testAutowiredFieldResolvesQualifiedCandidate( );1;0;18
+InjectAnnotationAutowireContextTests.testAutowiredMethodParameterWithStaticallyQualifiedCandidateAmongOthers( );1;0;18
+QualifiedConstructorArgumentWithBaseQualifierNonDefaultValueTestBean.getPerson( );1;0;3
+QualifiedConstructorArgumentTestBean.getPerson( );1;0;3
+QualifiedFieldWithMultipleAttributesTestBean.getPerson( );1;0;3
+InjectAnnotationAutowireContextTests.testAutowiredMethodParameterResolvesQualifiedCandidate( );1;0;19
+Person.getName( );1;0;3
+InjectAnnotationAutowireContextTests.testAutowiredConstructorArgumentWithSingleNonQualifiedCandidate( );1;0;13
+InjectAnnotationAutowireContextTests.testAutowiredFieldResolvesWithMultipleQualifierValues( );1;0;24
+InjectAnnotationAutowireContextTests.testAutowiredConstructorArgumentWithSingleQualifiedCandidate( );1;0;15
+Person.Person( String name );1;0;3
+QualifiedFieldTestBean.getPerson( );1;0;3
+InjectAnnotationAutowireContextTests.testAutowiredFieldWithSingleNonQualifiedCandidate( );1;0;16
+QualifiedPerson.QualifiedPerson( String name );1;0;3
+QualifiedMethodParameterTestBean.setPerson( @ TestQualifier Person person );1;0;3

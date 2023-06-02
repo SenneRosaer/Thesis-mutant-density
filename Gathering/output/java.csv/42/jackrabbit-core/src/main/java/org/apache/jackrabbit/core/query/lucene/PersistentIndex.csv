@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PersistentIndex.copyIndex( AbstractIndex index );3;4;26
+PersistentIndex.PersistentIndex( String name , Analyzer analyzer , Similarity similarity , DocNumberCache cache , IndexingQueue indexingQueue , DirectoryManager directoryManager );2;0;8
+PersistentIndex.mergeIndex( AbstractIndex index );1;0;7
+PersistentIndex.addIndexes( IndexReader [ ] readers );1;0;4
+PersistentIndex.getNumDocuments( );1;0;3
+PersistentIndex.getName( );1;0;3
+PersistentIndex.removeDocument( Term idTerm );3;3;7
+PersistentIndex.getReadOnlyIndexReader( IndexListener listener );1;0;5
+PersistentIndex.resetListener( );1;0;3

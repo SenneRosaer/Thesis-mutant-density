@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MasterTestRecorderJUnitTest.MasterTestRecorderJUnitTest( );1;0;3
+MasterTestRecorderJUnitTest.getTestDefinitions( WebappDefinition webapp );3;0;16
+MasterTestRecorderJUnitTest.getTestList( String testList , TestDefinitions testDefs );6;3;27
+MasterTestRecorderJUnitTest.initialize( );16;11;80
+MasterTestRecorderJUnitTest.addWebapp( Map map , WebappConfig webapp );2;1;5
+MasterTestRecorderJUnitTest.getTestsProperty( );1;0;3
+MasterTestRecorderJUnitTest.getCategoriesProperty( );1;0;3
+MasterTestRecorderJUnitTest.retrieveTestDefinitions( ServerDefinition server , WebappDefinition webapp );10;3;57
+MasterTestRecorderJUnitTest.getDeleteResultsProperty( );1;0;3
+MasterTestRecorderJUnitTest.getWebappsProperty( );1;0;3
+MasterTestRecorderJUnitTest.executeXMLRequest( HttpMethod method , String uri , String resourceIdentifier );4;1;14
+MasterTestRecorderJUnitTest.getTestsByCategory( String categoryList , TestDefinitions testDefs );7;3;32
+MasterTestRecorderJUnitTest.getProperty( String prop );2;1;13
+MasterTestRecorderJUnitTest.buildSuite( TestSuite suite );9;6;44
+MasterTestRecorderJUnitTest.genUri( String protocol , String host , int port , String path );1;3;3
+MasterTestRecorderJUnitTest.addList( List list , TestSuite suite , HashMap webappMap , boolean includeWebappInName );3;3;14
+MasterTestRecorderJUnitTest.suite( );3;0;17
+MasterTestRecorderJUnitTest.executeHttpRequest( HttpClient client , HttpMethod method );6;8;24

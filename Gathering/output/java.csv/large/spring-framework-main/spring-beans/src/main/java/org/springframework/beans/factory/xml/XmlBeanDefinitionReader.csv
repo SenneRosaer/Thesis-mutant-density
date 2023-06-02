@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlBeanDefinitionReader.XmlBeanDefinitionReader( BeanDefinitionRegistry registry );1;0;3
+XmlBeanDefinitionReader.setErrorHandler( ErrorHandler errorHandler );1;0;3
+XmlBeanDefinitionReader.setDocumentReaderClass( Class < ? extends BeanDefinitionDocumentReader > documentReaderClass );1;0;3
+XmlBeanDefinitionReader.createDefaultNamespaceHandlerResolver( );2;1;4
+XmlBeanDefinitionReader.doLoadBeanDefinitions( InputSource inputSource , Resource resource );8;0;33
+XmlBeanDefinitionReader.setValidating( boolean validating );2;1;4
+XmlBeanDefinitionReader.createBeanDefinitionDocumentReader( );1;0;3
+XmlBeanDefinitionReader.setDocumentLoader( @ Nullable DocumentLoader documentLoader );2;1;3
+XmlBeanDefinitionReader.setProblemReporter( @ Nullable ProblemReporter problemReporter );2;1;3
+XmlBeanDefinitionReader.createReaderContext( Resource resource );1;0;4
+XmlBeanDefinitionReader.detectValidationMode( Resource resource );4;0;26
+XmlBeanDefinitionReader.registerBeanDefinitions( Document doc , Resource resource );1;1;6
+XmlBeanDefinitionReader.isNamespaceAware( );1;0;3
+XmlBeanDefinitionReader.loadBeanDefinitions( InputSource inputSource );1;0;3
+XmlBeanDefinitionReader.setEntityResolver( @ Nullable EntityResolver entityResolver );1;0;3
+XmlBeanDefinitionReader.getValidationModeForResource( Resource resource );3;2;11
+XmlBeanDefinitionReader.setValidationMode( int validationMode );1;0;3
+XmlBeanDefinitionReader.getNamespaceHandlerResolver( );2;1;6
+XmlBeanDefinitionReader.loadBeanDefinitions( Resource resource );1;0;3
+XmlBeanDefinitionReader.initialValue( );1;0;3
+XmlBeanDefinitionReader.setEventListener( @ Nullable ReaderEventListener eventListener );2;1;3
+XmlBeanDefinitionReader.setSourceExtractor( @ Nullable SourceExtractor sourceExtractor );2;1;3
+XmlBeanDefinitionReader.getValidationMode( );1;0;3
+XmlBeanDefinitionReader.setNamespaceAware( boolean namespaceAware );1;0;3
+XmlBeanDefinitionReader.getEntityResolver( );3;2;12
+XmlBeanDefinitionReader.doLoadDocument( InputSource inputSource , Resource resource );1;0;4
+XmlBeanDefinitionReader.loadBeanDefinitions( InputSource inputSource , @ Nullable String resourceDescription );1;0;3
+XmlBeanDefinitionReader.loadBeanDefinitions( EncodedResource encodedResource );6;2;28
+XmlBeanDefinitionReader.setValidationModeName( String validationModeName );1;0;3
+XmlBeanDefinitionReader.setNamespaceHandlerResolver( @ Nullable NamespaceHandlerResolver namespaceHandlerResolver );1;0;3

@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HandlerMethodArgumentResolverComposite.supportsParameter( MethodParameter parameter );1;1;3
+HandlerMethodArgumentResolverComposite.resolveArgument( MethodParameter parameter , @ Nullable ModelAndViewContainer mavContainer , NativeWebRequest webRequest , @ Nullable WebDataBinderFactory binderFactory );2;1;8
+HandlerMethodArgumentResolverComposite.clear( );1;0;4
+HandlerMethodArgumentResolverComposite.getResolvers( );1;0;3
+HandlerMethodArgumentResolverComposite.addResolvers( @ Nullable List < ? extends HandlerMethodArgumentResolver > resolvers );2;1;6
+HandlerMethodArgumentResolverComposite.getArgumentResolver( MethodParameter parameter );4;1;13
+HandlerMethodArgumentResolverComposite.addResolvers( @ Nullable HandlerMethodArgumentResolver ... resolvers );2;1;6
+HandlerMethodArgumentResolverComposite.addResolver( HandlerMethodArgumentResolver resolver );1;0;4

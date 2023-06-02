@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScriptingEndpoint.getExtension( String filename );3;4;11
+ScriptingEndpoint.setCopyAttachments( boolean copyAttachments );1;0;3
+ScriptingEndpoint.setCopyProperties( boolean copyProperties );1;0;3
+ScriptingEndpoint.getMarshaler( );1;0;3
+ScriptingEndpoint.getScript( );1;0;3
+ScriptingEndpoint.indexOfExtension( String filename );3;4;8
+ScriptingEndpoint.getLanguage( );1;0;3
+ScriptingEndpoint.isDisableOutput( );1;0;3
+ScriptingEndpoint.setTargetOperation( QName targetOperation );1;0;3
+ScriptingEndpoint.setMarshaler( ScriptingMarshalerSupport marshaler );1;0;3
+ScriptingEndpoint.setLogResourceBundle( String logResourceBundle );1;0;3
+ScriptingEndpoint.setDisableOutput( boolean disableOutput );1;0;3
+ScriptingEndpoint.start( );6;3;25
+ScriptingEndpoint.getScriptLogger( );2;1;6
+ScriptingEndpoint.done( MessageExchange messageExchange );1;0;3
+ScriptingEndpoint.indexOfLastSeparator( String filename );2;2;8
+ScriptingEndpoint.getTargetUri( );1;0;3
+ScriptingEndpoint.isCopyAttachments( );1;0;3
+ScriptingEndpoint.getBindings( );1;0;3
+ScriptingEndpoint.setTargetInterface( QName targetInterface );1;0;3
+ScriptingEndpoint.getTargetOperation( );1;0;3
+ScriptingEndpoint.stop( );2;0;8
+ScriptingEndpoint.createScriptLogger( );3;1;11
+ScriptingEndpoint.isCopyProperties( );1;0;3
+ScriptingEndpoint.getTargetService( );1;0;3
+ScriptingEndpoint.setTargetService( QName targetService );1;0;3
+ScriptingEndpoint.sendSync( MessageExchange messageExchange );1;0;3
+ScriptingEndpoint.setBindings( Map < String , Object > bindings );1;0;3
+ScriptingEndpoint.getLogResourceBundle( );1;0;3
+ScriptingEndpoint.process( MessageExchange exchange );27;15;116
+ScriptingEndpoint.setTargetUri( String targetUri );1;0;3
+ScriptingEndpoint.getTargetEndpoint( );1;0;3
+ScriptingEndpoint.setScriptLogger( Logger scriptLogger );1;0;3
+ScriptingEndpoint.setScript( Resource script );1;0;3
+ScriptingEndpoint.configureTarget( MessageExchange exchange );9;10;21
+ScriptingEndpoint.copyAttachments( NormalizedMessage from , NormalizedMessage to );3;1;8
+ScriptingEndpoint.fail( MessageExchange messageExchange , Exception e );1;0;3
+ScriptingEndpoint.send( MessageExchange messageExchange );1;0;3
+ScriptingEndpoint.setLanguage( String language );1;0;3
+ScriptingEndpoint.getTargetInterface( );1;0;3
+ScriptingEndpoint.copyProperties( NormalizedMessage from , NormalizedMessage to );4;3;8
+ScriptingEndpoint.setTargetEndpoint( String targetEndpoint );1;0;3

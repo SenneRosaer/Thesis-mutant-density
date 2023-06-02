@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReactorNettyWebSocketClient.getMaxFramePayloadLength( );1;0;3
+ReactorNettyWebSocketClient.setHandlePing( boolean handlePing );1;0;3
+ReactorNettyWebSocketClient.getHandlePing( );1;0;3
+ReactorNettyWebSocketClient.execute( URI url , WebSocketHandler handler );1;0;3
+ReactorNettyWebSocketClient.buildSpec( @ Nullable String protocols );4;2;13
+ReactorNettyWebSocketClient.getWebsocketClientSpec( );1;0;3
+ReactorNettyWebSocketClient.ReactorNettyWebSocketClient( HttpClient httpClient );1;0;3
+ReactorNettyWebSocketClient.ReactorNettyWebSocketClient( );1;0;3
+ReactorNettyWebSocketClient.setNettyHeaders( HttpHeaders httpHeaders , io . netty . handler . codec . http . HttpHeaders nettyHeaders );1;0;3
+ReactorNettyWebSocketClient.toHttpHeaders( WebsocketInbound inbound );1;0;9
+ReactorNettyWebSocketClient.execute( URI url , HttpHeaders requestHeaders , WebSocketHandler handler );3;0;25
+ReactorNettyWebSocketClient.setMaxFramePayloadLength( int maxFramePayloadLength );1;0;3
+ReactorNettyWebSocketClient.getHttpClient( );1;0;3
+ReactorNettyWebSocketClient.ReactorNettyWebSocketClient( HttpClient httpClient , Supplier < WebsocketClientSpec . Builder > builderSupplier );1;0;6

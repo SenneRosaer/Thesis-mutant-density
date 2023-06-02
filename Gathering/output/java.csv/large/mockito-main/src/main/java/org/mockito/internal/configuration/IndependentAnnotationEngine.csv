@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IndependentAnnotationEngine.IndependentAnnotationEngine( );1;0;4
+IndependentAnnotationEngine.forAnnotation( A annotation );2;0;12
+IndependentAnnotationEngine.process( A annotation , Field field );1;0;3
+IndependentAnnotationEngine.process( Class < ? > clazz , Object testInstance );8;1;36
+IndependentAnnotationEngine.registerAnnotationProcessor( Class < A > annotationClass , FieldAnnotationProcessor < A > fieldAnnotationProcessor );1;0;3
+IndependentAnnotationEngine.createMockFor( Annotation annotation , Field field );1;0;3
+IndependentAnnotationEngine.throwIfAlreadyAssigned( Field field , boolean alreadyAssigned );2;0;5

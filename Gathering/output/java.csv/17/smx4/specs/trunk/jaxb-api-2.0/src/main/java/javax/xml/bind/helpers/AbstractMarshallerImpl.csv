@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractMarshallerImpl.setProperty( String name , Object value );7;1;23
+AbstractMarshallerImpl.getJavaEncoding( String encoding );4;4;15
+AbstractMarshallerImpl.getNoNSSchemaLocation( );1;0;3
+AbstractMarshallerImpl.setAdapter( Class < A > type , A adapter );1;0;3
+AbstractMarshallerImpl.marshal( Object obj , XMLEventWriter writer );1;0;3
+AbstractMarshallerImpl.marshal( Object obj , XMLStreamWriter writer );1;0;3
+AbstractMarshallerImpl.setListener( javax . xml . bind . Marshaller . Listener listener );1;0;3
+AbstractMarshallerImpl.setFormattedOutput( boolean v );1;0;3
+AbstractMarshallerImpl.marshal( Object obj , Writer w );1;0;4
+AbstractMarshallerImpl.getEncoding( );1;0;3
+AbstractMarshallerImpl.checkNotNull( Object o1 , String o1Name , Object o2 , String o2Name );3;2;8
+AbstractMarshallerImpl.isFragment( );1;0;3
+AbstractMarshallerImpl.getAdapter( Class < A > type );1;0;3
+AbstractMarshallerImpl.setAttachmentMarshaller( AttachmentMarshaller am );1;0;3
+AbstractMarshallerImpl.setSchemaLocation( String location );1;0;3
+AbstractMarshallerImpl.getAttachmentMarshaller( );1;0;3
+AbstractMarshallerImpl.getEventHandler( );1;0;3
+AbstractMarshallerImpl.getSchemaLocation( );1;0;3
+AbstractMarshallerImpl.checkString( String name , Object value );2;1;5
+AbstractMarshallerImpl.getProperty( String name );9;1;18
+AbstractMarshallerImpl.setNoNSSchemaLocation( String location );1;0;3
+AbstractMarshallerImpl.setAdapter( XmlAdapter adapter );2;1;6
+AbstractMarshallerImpl.setSchema( Schema schema );1;0;3
+AbstractMarshallerImpl.marshal( Object obj , OutputStream os );1;0;4
+AbstractMarshallerImpl.setEventHandler( ValidationEventHandler handler );2;1;7
+AbstractMarshallerImpl.setFragment( boolean v );1;0;3
+AbstractMarshallerImpl.getSchema( );1;0;3
+AbstractMarshallerImpl.setEncoding( String encoding );1;0;3
+AbstractMarshallerImpl.marshal( Object obj , ContentHandler handler );1;0;4
+AbstractMarshallerImpl.getListener( );1;0;3
+AbstractMarshallerImpl.getNode( Object obj );1;0;4
+AbstractMarshallerImpl.checkBoolean( String name , Object value );2;1;5
+AbstractMarshallerImpl.isFormattedOutput( );1;0;3
+AbstractMarshallerImpl.marshal( Object obj , Node node );1;0;4

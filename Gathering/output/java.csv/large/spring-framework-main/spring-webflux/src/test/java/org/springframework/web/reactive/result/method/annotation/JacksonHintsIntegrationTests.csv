@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JacksonViewBean.setWithView2( String withView2 );1;0;3
+JacksonHintsIntegrationTests.jsonViewWithMonoResponseEntity( HttpServer httpServer );1;0;5
+JsonViewRestController.fluxResponse( );1;0;3
+JsonViewRestController.fluxRequest( @ JsonView ( MyJacksonView1 . class ) @ RequestBody Flux < JacksonViewBean > flux );1;0;3
+JacksonHintsIntegrationTests.jsonViewWithMonoResponse( HttpServer httpServer );1;0;5
+JsonViewRestController.rawResponse( );1;0;3
+JacksonViewBean.setWithoutView( String withoutView );1;0;3
+JacksonHintsIntegrationTests.jsonViewWithRequest( HttpServer httpServer );1;0;6
+JsonViewRestController.rawRequest( @ JsonView ( MyJacksonView1 . class ) @ RequestBody JacksonViewBean bean );1;0;3
+JacksonHintsIntegrationTests.jsonViewWithEntityFluxRequest( HttpServer httpServer );1;0;10
+JacksonHintsIntegrationTests.jsonViewWithFluxResponse( HttpServer httpServer );1;0;5
+JacksonViewBean.getWithoutView( );1;0;3
+JsonViewRestController.entityMonoRequest( @ JsonView ( MyJacksonView1 . class ) HttpEntity < Mono < JacksonViewBean > > entityMono );1;0;3
+JsonViewRestController.entityFluxRequest( @ JsonView ( MyJacksonView1 . class ) HttpEntity < Flux < JacksonViewBean > > entityFlux );1;0;3
+JsonViewRestController.monoResponse( );1;0;3
+JacksonViewBean.JacksonViewBean( String withView1 , String withView2 , String withoutView );1;0;5
+JacksonViewBean.JacksonViewBean( );1;0;2
+JacksonHintsIntegrationTests.initApplicationContext( );1;0;6
+JsonViewRestController.monoRequest( @ JsonView ( MyJacksonView1 . class ) @ RequestBody Mono < JacksonViewBean > mono );1;0;3
+JacksonHintsIntegrationTests.jsonViewWithMonoRequest( HttpServer httpServer );1;0;6
+JacksonViewBean.getWithView2( );1;0;3
+JacksonViewBean.setWithView1( String withView1 );1;0;3
+JsonViewRestController.monoResponseEntity( );1;0;3
+JacksonHintsIntegrationTests.jsonViewWithFluxRequest( HttpServer httpServer );1;0;11
+JacksonHintsIntegrationTests.jsonViewWithEntityMonoRequest( HttpServer httpServer );1;0;7
+JacksonHintsIntegrationTests.jsonViewResponse( HttpServer httpServer );1;0;5
+JacksonViewBean.getWithView1( );1;0;3

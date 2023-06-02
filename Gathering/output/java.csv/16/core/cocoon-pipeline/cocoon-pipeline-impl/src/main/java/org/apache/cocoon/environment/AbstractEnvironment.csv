@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractEnvironment.extractAction( Request req );6;3;16
+AbstractEnvironment.setStatus( int statusCode );1;0;2
+AbstractEnvironment.extractView( Request request );1;0;3
+AbstractEnvironment.getURI( );1;0;3
+AbstractEnvironment.tryResetResponse( );3;2;7
+AbstractEnvironment.AbstractEnvironment( String uri , String view , String action );1;0;5
+AbstractEnvironment.finishingProcessing( );1;0;2
+AbstractEnvironment.setView( String view );2;1;6
+AbstractEnvironment.getAttribute( String name );1;0;3
+AbstractEnvironment.isInternalRedirect( );1;0;3
+AbstractEnvironment.setURI( String prefix , String value );1;0;4
+AbstractEnvironment.getObjectModel( );1;0;3
+AbstractEnvironment.getAction( );1;0;3
+AbstractEnvironment.setAction( String action );2;1;6
+AbstractEnvironment.commitResponse( );4;2;10
+AbstractEnvironment.isResponseModified( long lastModified );1;0;3
+AbstractEnvironment.AbstractEnvironment( String uri , String view );1;0;3
+AbstractEnvironment.setAttribute( String name , Object value );1;0;3
+AbstractEnvironment.setResponseIsNotModified( );1;0;2
+AbstractEnvironment.getView( );1;0;3
+AbstractEnvironment.getURIPrefix( );1;0;3
+AbstractEnvironment.startingProcessing( );1;0;2
+AbstractEnvironment.getAttributeNames( );1;0;3
+AbstractEnvironment.getOutputStream( int bufferSize );4;3;13
+AbstractEnvironment.removeAttribute( String name );1;0;3

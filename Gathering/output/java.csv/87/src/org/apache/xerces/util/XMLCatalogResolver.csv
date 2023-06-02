@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLCatalogResolver.getExternalSubset( String name , String baseURI );1;0;3
+XMLCatalogResolver.resolveURI( String uri );3;1;8
+XMLCatalogResolver.parseCatalogs( );5;6;15
+XMLCatalogResolver.resolveSystem( String systemId );3;1;8
+XMLCatalogResolver.setCatalogList( String [ ] catalogs );2;1;5
+XMLCatalogResolver.XMLCatalogResolver( String [ ] catalogs , boolean preferPublic );1;0;3
+XMLCatalogResolver.resolveEntity( String publicId , String systemId );5;5;15
+XMLCatalogResolver.getCatalogList( );2;1;4
+XMLCatalogResolver.init( String [ ] catalogs , boolean preferPublic );2;1;13
+XMLCatalogResolver.attachReaderToCatalog( Catalog catalog );1;0;9
+XMLCatalogResolver.getPreferPublic( );1;0;3
+XMLCatalogResolver.resolveIdentifier( XMLResourceIdentifier resourceIdentifier );7;6;20
+XMLCatalogResolver.clear( );1;0;3
+XMLCatalogResolver.XMLCatalogResolver( String [ ] catalogs );1;0;3
+XMLCatalogResolver.XMLCatalogResolver( );1;0;3
+XMLCatalogResolver.resolveResource( String type , String namespaceURI , String publicId , String systemId , String baseURI );11;10;28
+XMLCatalogResolver.setUseLiteralSystemId( boolean useLiteralSystemId );1;0;3
+XMLCatalogResolver.resolveEntity( String name , String publicId , String baseURI , String systemId );8;8;22
+XMLCatalogResolver.getUseLiteralSystemId( );1;0;3
+XMLCatalogResolver.resolvePublic( String publicId , String systemId );3;1;8
+XMLCatalogResolver.setPreferPublic( boolean preferPublic );1;0;4
+XMLCatalogResolver.resolveEntity( XMLResourceIdentifier resourceIdentifier );2;1;9

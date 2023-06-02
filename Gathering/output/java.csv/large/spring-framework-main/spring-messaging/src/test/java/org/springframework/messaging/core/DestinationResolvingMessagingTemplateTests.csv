@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DestinationResolvingMessagingTemplateTests.receiveAndConvert( );2;0;7
+DestinationResolvingMessagingTemplateTests.sendNoDestinationResolver( );1;0;5
+DestinationResolvingMessagingTemplateTests.send( );2;0;6
+DestinationResolvingMessagingTemplateTests.receive( );3;0;7
+DestinationResolvingMessagingTemplateTests.sendAndReceive( );4;0;9
+DestinationResolvingMessagingTemplateTests.convertSendAndReceiveWithPostProcessor( );2;0;9
+DestinationResolvingMessagingTemplateTests.convertAndSendPayloadWithPostProcessor( );1;0;8
+TestDestinationResolvingMessagingTemplate.doSendAndReceive( MessageChannel channel , Message < ? > requestMessage );1;0;5
+DestinationResolvingMessagingTemplateTests.convertSendAndReceive( );2;0;8
+DestinationResolvingMessagingTemplateTests.convertSendAndReceiveWithHeadersAndPostProcessor( );2;0;11
+DestinationResolvingMessagingTemplateTests.convertAndSendPayloadAndHeaders( );1;0;7
+TestDestinationResolvingMessagingTemplate.setReceiveMessage( Message < ? > receiveMessage );1;0;3
+TestDestinationResolvingMessagingTemplate.doReceive( MessageChannel channel );1;0;4
+TestDestinationResolvingMessagingTemplate.doSend( MessageChannel channel , Message < ? > message );1;0;4
+DestinationResolvingMessagingTemplateTests.convertAndSendPayload( );1;0;6
+DestinationResolvingMessagingTemplateTests.setup( );1;0;9
+DestinationResolvingMessagingTemplateTests.convertAndSendPayloadAndHeadersWithPostProcessor( );1;0;9
+TestMessageChannelDestinationResolver.registerMessageChannel( String name , MessageChannel channel );1;0;3
+TestMessageChannelDestinationResolver.resolveDestination( String name );1;0;3
+DestinationResolvingMessagingTemplateTests.convertSendAndReceiveWithHeaders( );2;0;9

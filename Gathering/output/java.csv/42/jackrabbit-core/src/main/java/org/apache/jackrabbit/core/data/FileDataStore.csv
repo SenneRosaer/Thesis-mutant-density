@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileDataStore.setMinRecordLength( int minRecordLength );1;0;3
+FileDataStore.close( );1;0;2
+FileDataStore.getMinRecordLength( );1;0;3
+FileDataStore.setPath( String directoryName );1;0;3
+FileDataStore.clearInUse( );1;0;3
+FileDataStore.updateModifiedDateOnAccess( long before );1;0;3
+FileDataStore.getAllIdentifiers( );3;3;14
+FileDataStore.init( String homeDir );2;1;7
+FileDataStore.usesIdentifier( DataIdentifier identifier );1;0;3
+FileDataStore.getFile( DataIdentifier identifier );1;0;9
+FileDataStore.getPath( );1;0;3
+FileDataStore.deleteAllOlderThan( long min );1;0;3
+FileDataStore.listRecursive( List list , File file );4;4;11
+FileDataStore.addRecord( InputStream input );10;8;54
+FileDataStore.FileDataStore( );1;0;2
+FileDataStore.newTemporaryFile( );2;1;6
+FileDataStore.getRecord( DataIdentifier identifier );5;4;12
+FileDataStore.deleteOlderRecursive( File file , long min );10;11;25

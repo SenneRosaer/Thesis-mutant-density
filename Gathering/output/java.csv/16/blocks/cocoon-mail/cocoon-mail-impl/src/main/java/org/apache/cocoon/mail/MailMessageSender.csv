@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MailMessageSender.setBcc( String bcc );2;1;5
+MailMessageSender.MailMessageSender( String smtpHost );1;0;5
+MailMessageSender.send( org . apache . cocoon . environment . SourceResolver resolver );1;0;3
+MailMessageSender.setSmtpHost( String hostname , String username , String password );1;0;5
+MailMessageSender.getException( );1;0;3
+Attachment.isURL( );1;0;3
+Attachment.Attachment( Object obj , String type , String name , boolean isURI );3;0;12
+Body.Body( Object obj , String type );1;0;3
+MailMessageSender.setBodyURL( String url );1;0;3
+MailMessageSender.setBody( Object body , String type );2;1;5
+Body.Body( Object obj );1;0;3
+Attachment.Attachment( Object obj );1;0;3
+Body.Body( Object obj , String type , boolean isURI );1;0;3
+Attachment.getDataSource( SourceResolver resolver , List sources );6;0;23
+MailMessageSender.addAttachmentURL( String url , String type , String name );2;1;5
+MailMessageSender.setSubject( String subject );2;1;5
+MailMessageSender.setBodyURL( String url , String type );2;1;5
+MailMessageSender.setSmtpHost( String hostname );1;0;4
+Attachment.getObject( );1;0;3
+Attachment.getBodyPart( SourceResolver resolver , List sources );1;0;5
+Attachment.setContentTo( SourceResolver resolver , List sources , MimePart part );5;3;19
+MailMessageSender.sendIt( );2;1;9
+Attachment.isText( );2;2;3
+MailMessageSender.addAttachment( Object attachment , String type , String name );2;1;5
+MailMessageSender.setBody( Object body );1;0;3
+MailMessageSender.configure( Configuration config );1;0;5
+MailMessageSender.setTo( String to );2;1;5
+MailMessageSender.isNullOrEmpty( String str );3;3;3
+MailMessageSender.initialize( );1;0;4
+Attachment.getName( );1;0;3
+MailMessageSender.send( );2;0;11
+MailMessageSender.getPasswordAuthentication( );1;0;3
+Attachment.getType( );1;0;3
+MailMessageSender.setBody( String body );2;1;5
+MailMessageSender.addAttachmentURL( String url );2;1;5
+MailMessageSender.doSend( SourceResolver resolver );20;9;91
+MailMessageSender.setCharset( String charset );5;5;8
+MailMessageSender.addAttachment( Object attachment );2;1;5
+MailMessageSender.service( ServiceManager manager );1;0;3
+MailMessageSender.setFrom( String from );2;1;5
+Attachment.getText( );1;0;3
+MailMessageSender.MailMessageSender( );1;0;2
+Body.getDataSource( SourceResolver resolver , List sources );1;0;5
+Attachment.Attachment( Object obj , String type , String name );1;0;3
+MailMessageSender.sendIt( org . apache . cocoon . environment . SourceResolver resolver );2;1;9
+MailMessageSender.initSession( );7;6;18
+MailMessageSender.setBodyFromSrc( String src );2;1;5
+MailMessageSender.setReplyTo( String replyTo );2;1;5
+MailMessageSender.setSubject( String subject , String charset );2;1;6
+MailMessageSender.setBodyFromSrcMimeType( String srcMimeType );5;5;8
+MailMessageSender.setCc( String cc );2;1;5

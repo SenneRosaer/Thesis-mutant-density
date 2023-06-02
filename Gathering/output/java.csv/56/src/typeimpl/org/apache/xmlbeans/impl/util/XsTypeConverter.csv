@@ -1,0 +1,58 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XsTypeConverter.parseIntXsdNumber( CharSequence ch , int min_value , int max_value );9;29;35
+XsTypeConverter.printShort( short value );1;0;3
+XsTypeConverter.parseInt( CharSequence cs );1;0;3
+XsTypeConverter.printLong( long value );1;0;3
+XsTypeConverter.lexLong( CharSequence cs );1;0;4
+XsTypeConverter.printTime( Calendar c );1;0;3
+XsTypeConverter.printString( String value );1;0;3
+XsTypeConverter.printBoolean( boolean value );2;0;3
+XsTypeConverter.parseByte( CharSequence cs );1;0;3
+XsTypeConverter.getGDateValue( CharSequence v , int builtin_type_code );1;0;6
+XsTypeConverter.lexHexBinary( CharSequence lexical_value );2;1;7
+XsTypeConverter.getGDateValue( Date d , int builtin_type_code );1;0;6
+XsTypeConverter.printDecimal( BigDecimal value );10;20;40
+XsTypeConverter.lexDouble( CharSequence cs , Collection errors );2;0;10
+XsTypeConverter.lexDecimal( CharSequence cs , Collection errors );2;0;10
+XsTypeConverter.printBase64Binary( byte [ ] val );1;0;4
+XsTypeConverter.printFloat( float value );4;2;10
+XsTypeConverter.printDouble( double value );4;2;10
+XsTypeConverter.lexString( CharSequence cs , Collection errors );1;0;4
+XsTypeConverter.lexBoolean( CharSequence v );15;18;28
+XsTypeConverter.getQNameString( String uri , String localpart , String prefix );5;9;10
+XsTypeConverter.lexInt( CharSequence cs , Collection errors );2;0;10
+XsTypeConverter.printGDate( GDate gdate , Collection errors );1;0;3
+XsTypeConverter.lexBase64Binary( CharSequence lexical_value );2;1;7
+XsTypeConverter.parseShort( CharSequence cs );1;0;3
+XsTypeConverter.lexByte( CharSequence cs );1;0;3
+XsTypeConverter.lexDouble( CharSequence cs );8;5;17
+XsTypeConverter.lexFloat( CharSequence cs );9;7;19
+XsTypeConverter.printHexBinary( byte [ ] val );1;0;3
+XsTypeConverter.lexQName( CharSequence charSeq , NamespaceContext nscontext );8;9;27
+XsTypeConverter.lexByte( CharSequence cs , Collection errors );2;0;10
+XsTypeConverter.printQName( QName qname , NamespaceContext nsContext , Collection errors );3;3;16
+XsTypeConverter.printInt( int value );1;0;3
+XsTypeConverter.trimInitialPlus( String xml );3;3;7
+XsTypeConverter.lexDecimal( CharSequence cs );1;0;4
+XsTypeConverter.lexDateTime( CharSequence v );1;0;4
+XsTypeConverter.printInteger( BigInteger value );1;0;3
+XsTypeConverter.getGDateValue( Calendar c , int builtin_type_code );1;0;6
+XsTypeConverter.printDateTime( Calendar c , int type_code );1;0;4
+XsTypeConverter.lexString( CharSequence lexical_value );1;0;3
+XsTypeConverter.printDateTime( Calendar c );1;0;3
+XsTypeConverter.lexQName( String xsd_qname , Collection errors , NamespaceContext nscontext );2;0;10
+XsTypeConverter.printByte( byte value );1;0;3
+XsTypeConverter.lexShort( CharSequence cs , Collection errors );2;0;10
+XsTypeConverter.lexLong( CharSequence cs , Collection errors );2;0;10
+XsTypeConverter.lexInteger( CharSequence cs , Collection errors );2;0;10
+XsTypeConverter.lexFloat( CharSequence cs , Collection errors );2;0;10
+XsTypeConverter.printDateTime( Date c );1;0;4
+XsTypeConverter.lexInt( CharSequence cs );1;0;3
+XsTypeConverter.lexGDate( CharSequence charSeq );1;0;3
+XsTypeConverter.lexGDate( String xsd_gdate , Collection errors );2;0;9
+XsTypeConverter.lexInteger( CharSequence cs );4;4;8
+XsTypeConverter.lexShort( CharSequence cs );1;0;3
+XsTypeConverter.printDate( Calendar c );1;0;3
+XsTypeConverter.printDate( Date d );1;0;4
+XsTypeConverter.lexBoolean( CharSequence value , Collection errors );2;0;9
+XsTypeConverter.trimTrailingZeros( String xsd_decimal );5;7;16

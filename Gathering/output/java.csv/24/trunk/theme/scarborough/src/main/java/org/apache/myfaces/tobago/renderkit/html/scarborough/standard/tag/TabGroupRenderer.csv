@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TabGroupRenderer.encodeContent( TobagoResponseWriter writer , FacesContext facesContext , UITab activeTab );1;0;15
+TabGroupRenderer.getFixedHeight( FacesContext facesContext , UIComponent uiComponent );5;6;21
+TabList.isLast( int index );1;1;3
+TabGroupRenderer.decode( FacesContext facesContext , UIComponent component );4;2;18
+TabList.isFirst( int index );1;1;3
+TabGroupRenderer.renderTabGroupView( FacesContext facesContext , TobagoResponseWriter writer , UITabGroup component , int virtualTab , HtmlStyleMap oStyle , String switchType , String image1x1 , int toolbarWidth , int currentWidth , TabList tabList );23;26;178
+TabGroupRenderer.encodeEnd( FacesContext facesContext , UIComponent uiComponent );10;7;61
+TabGroupRenderer.prepareRender( FacesContext facesContext , UIComponent component );2;0;7
+TabGroupRenderer.encodeAjax( FacesContext context , UIComponent component );1;0;11
+TabGroupRenderer.renderToolbar( FacesContext facesContext , TobagoResponseWriter writer , UIPanel toolbar , int width , int navigationBarWidth );1;0;11
+TabGroupRenderer.getCurrentWidth( TabList tabs , int tabIndex );2;3;7
+TabGroupRenderer.ensureRenderedActiveIndex( FacesContext context , UITabGroup tabGroup );10;9;32
+TabGroupRenderer.getTabList( FacesContext facesContext , UITabGroup component );6;5;30
+TabGroupRenderer.layoutTabs( FacesContext facesContext , UITabGroup component );6;3;16
+TabList.getWidthList( );1;0;3

@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReactorNettyTcpClient.connectAsync( TcpConnectionHandler < P > handler );2;0;11
+ReactorNettyTcpClient.stopScheduler( );4;2;16
+ReactorNettyTcpClient.reconnect( Integer attempt , ReconnectStrategy reconnectStrategy );2;1;4
+ReactorNettyTcpClient.connectAsync( TcpConnectionHandler < P > handler , ReconnectStrategy strategy );2;1;23
+ReactorNettyTcpClient.shutdownAsync( );5;3;21
+ReactorNettyTcpClient.handleShuttingDownConnectFailure( TcpConnectionHandler < P > handler );1;0;5
+ReactorNettyTcpClient.ReactorNettyTcpClient( Function < TcpClient , TcpClient > clientConfigurer , ReactorNettyCodec < P > codec );1;0;11
+ReactorNettyTcpClient.toString( );1;0;3
+ReactorNettyTcpClient.ReactorNettyTcpClient( TcpClient tcpClient , ReactorNettyCodec < P > codec );1;0;9
+ReactorNettyHandler.ReactorNettyHandler( TcpConnectionHandler < P > handler );1;0;3
+ReactorNettyTcpClient.ReactorNettyTcpClient( String host , int port , ReactorNettyCodec < P > codec );1;0;12
+ReactorNettyTcpClient.extendTcpClient( TcpClient tcpClient , TcpConnectionHandler < P > handler );1;0;3
+StompMessageDecoder.decode( ChannelHandlerContext ctx , ByteBuf in , List < Object > out );1;0;4
+ReactorNettyTcpClient.getLogger( );1;0;3
+ReactorNettyHandler.apply( NettyInbound inbound , NettyOutbound outbound );2;0;19
+ReactorNettyTcpClient.setLogger( Log logger );1;0;3
+StompMessageDecoder.StompMessageDecoder( ReactorNettyCodec < P > codec );1;0;3

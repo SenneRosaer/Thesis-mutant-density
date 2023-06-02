@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LocalSessionFactoryBuilder.setMultiTenantConnectionProvider( MultiTenantConnectionProvider multiTenantConnectionProvider );1;0;4
+LocalSessionFactoryBuilder.setEntityTypeFilters( TypeFilter ... entityTypeFilters );1;0;4
+BootstrapSessionFactoryInvocationHandler.BootstrapSessionFactoryInvocationHandler( AsyncTaskExecutor bootstrapExecutor );1;0;4
+LocalSessionFactoryBuilder.LocalSessionFactoryBuilder( @ Nullable DataSource dataSource );1;0;3
+LocalSessionFactoryBuilder.scanPackages( String ... packagesToScan );15;3;49
+BootstrapSessionFactoryInvocationHandler.invoke( Object proxy , Method method , Object [ ] args );6;1;18
+LocalSessionFactoryBuilder.LocalSessionFactoryBuilder( @ Nullable DataSource dataSource , ClassLoader classLoader );1;0;3
+LocalSessionFactoryBuilder.setCacheRegionFactory( RegionFactory cacheRegionFactory );1;0;4
+LocalSessionFactoryBuilder.setJtaTransactionManager( Object jtaTransactionManager );5;1;32
+LocalSessionFactoryBuilder.matchesEntityTypeFilter( MetadataReader reader , MetadataReaderFactory readerFactory );4;1;10
+LocalSessionFactoryBuilder.buildSessionFactory( AsyncTaskExecutor bootstrapExecutor );2;0;6
+LocalSessionFactoryBuilder.LocalSessionFactoryBuilder( @ Nullable DataSource dataSource , ResourceLoader resourceLoader );1;0;4
+BootstrapSessionFactoryInvocationHandler.getSessionFactory( );4;0;17
+LocalSessionFactoryBuilder.addAnnotatedClasses( Class < ? > ... annotatedClasses );3;0;6
+LocalSessionFactoryBuilder.addPackages( String ... annotatedPackages );2;0;6
+LocalSessionFactoryBuilder.setCurrentTenantIdentifierResolver( CurrentTenantIdentifierResolver currentTenantIdentifierResolver );1;0;4
+LocalSessionFactoryBuilder.LocalSessionFactoryBuilder( @ Nullable DataSource dataSource , ResourceLoader resourceLoader , MetadataSources metadataSources );2;1;11
+LocalSessionFactoryBuilder.setBeanContainer( ConfigurableListableBeanFactory beanFactory );1;0;4

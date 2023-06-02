@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JSONReaderScanner.copyTo( int offset , int count , char [ ] dest );1;0;3
+JSONReaderScanner.JSONReaderScanner( Reader reader , int features );5;5;21
+JSONReaderScanner.addSymbol( int offset , int len , int hash , final SymbolTable symbolTable );1;0;3
+JSONReaderScanner.indexOf( char ch , int startIndex );4;7;13
+JSONReaderScanner.bytesValue( );2;2;6
+JSONReaderScanner.next( );10;19;39
+JSONReaderScanner.JSONReaderScanner( String input , int features );1;0;3
+JSONReaderScanner.arrayCopy( int srcPos , char [ ] dest , int destPos , int length );1;0;3
+JSONReaderScanner.numberString( );7;14;13
+JSONReaderScanner.close( );2;2;8
+JSONReaderScanner.charAt( int index );10;18;43
+JSONReaderScanner.JSONReaderScanner( char [ ] input , int inputLength , int features );1;0;3
+JSONReaderScanner.sub_chars( int offset , int count );3;2;11
+JSONReaderScanner.subString( int offset , int count );2;1;6
+JSONReaderScanner.isEOF( );4;9;3
+JSONReaderScanner.charArrayCompare( char [ ] chars );3;4;8
+JSONReaderScanner.JSONReaderScanner( Reader reader );1;0;3
+JSONReaderScanner.JSONReaderScanner( String input );1;0;3
+JSONReaderScanner.isBlankInput( );4;3;13
+JSONReaderScanner.stringVal( );4;5;14
+JSONReaderScanner.decimalValue( );8;15;15
+JSONReaderScanner.JSONReaderScanner( char [ ] input , int inputLength );1;0;3

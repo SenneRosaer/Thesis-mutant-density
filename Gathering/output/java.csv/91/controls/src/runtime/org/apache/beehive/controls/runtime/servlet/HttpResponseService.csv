@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpResponseService.setStatus( int sc );1;0;3
+HttpResponseService.setStatus( int sc , java . lang . String sm );1;0;3
+HttpResponseService.setDateHeader( java . lang . String name , long date );1;0;3
+HttpResponseService.getHttpResponseWrapper( );1;0;3
+Wrapper.Wrapper( HttpResponseService responseService );1;0;4
+HttpResponseService.sendError( int sc , java . lang . String msg );1;0;3
+Wrapper.getResponse( );1;0;3
+HttpResponseService.encodeURL( java . lang . String url );1;0;3
+HttpResponseService.addHeader( java . lang . String name , java . lang . String value );1;0;3
+HttpResponseService.sendError( int sc );1;0;3
+HttpResponseService.HttpResponseService( ServletBeanContext beanContext );1;0;3
+HttpResponseService.setHeader( java . lang . String name , java . lang . String value );1;0;3
+HttpResponseService.containsHeader( java . lang . String name );1;0;3
+HttpResponseService.addDateHeader( java . lang . String name , long date );1;0;3
+HttpResponseService.setIntHeader( java . lang . String name , int value );1;0;3
+HttpResponseService.encodeUrl( java . lang . String url );1;0;3
+HttpResponseService.addIntHeader( java . lang . String name , int value );1;0;3
+HttpResponseService.getHttpServletResponse( );2;1;6
+HttpResponseService.encodeRedirectURL( java . lang . String url );1;0;3
+HttpResponseService.sendRedirect( java . lang . String location );1;0;3
+HttpResponseService.encodeRedirectUrl( java . lang . String url );1;0;3
+HttpResponseService.addCookie( javax . servlet . http . Cookie cookie );1;0;3

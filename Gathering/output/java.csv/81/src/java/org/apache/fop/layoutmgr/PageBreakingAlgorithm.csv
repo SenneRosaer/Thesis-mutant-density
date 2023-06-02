@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BestPageRecords.addRecord( double demerits , KnuthNode node , double adjust , int availableShrink , int availableStretch , int difference , int fitness );1;0;8
+BestPageRecords.getFootnotesLength( int fitness );1;0;3
+PageBreakingAlgorithm.PageBreakingAlgorithm( LayoutManager topLevelLM , PageProvider pageProvider , PageBreakingLayoutListener layoutListener , int alignment , int alignmentLast , MinOptMax footnoteSeparatorLength , boolean partOverflowRecovery , boolean autoHeight , boolean favorSinglePart );2;2;13
+PageBreakingAlgorithm.removeAllPageBreaks( );3;2;8
+PageBreakingAlgorithm.getFootnoteSplit( int prevListIndex , int prevElementIndex , int prevLength , int availableLength , boolean canDeferOldFootnotes );20;34;78
+***not in a method***;0;3;0
+PageBreakingAlgorithm.noBreakBetween( int prevBreakIndex , int breakIndex );14;24;29
+PageBreakingAlgorithm.handleFootnotes( List elementLists );8;8;31
+BestPageRecords.getFootnoteListIndex( int fitness );1;0;3
+PageBreakingAlgorithm.checkCanDeferOldFootnotes( KnuthPageNode node , int contentElementIndex );2;1;5
+PageBreakingAlgorithm.getPageBreaks( );1;0;3
+PageBreakingAlgorithm.getFObj( );1;0;3
+PageBreakingAlgorithm.getLineWidth( int line );3;1;12
+PageBreakingAlgorithm.getFootnoteSplit( KnuthPageNode activeNode , int availableLength , boolean canDeferOldFootnotes );1;0;6
+PageBreakingAlgorithm.getFootnoteList( int index );1;0;3
+PageBreakingAlgorithm.insertPageBreakAsFirst( PageBreakPosition pageBreak );2;1;6
+PageBreakingAlgorithm.resetFootnotes( List elementLists );4;7;14
+PageBreakingAlgorithm.computeDemerits( KnuthNode activeNode , KnuthElement element , int fitnessClass , double r );14;32;37
+KnuthPageNode.KnuthPageNode( int position , int line , int fitness , int totalWidth , int totalStretch , int totalShrink , int totalFootnotes , int footnoteListIndex , int footnoteElementIndex , double adjustRatio , int availableShrink , int availableStretch , int difference , double totalDemerits , KnuthNode previous );1;0;9
+PageBreakingAlgorithm.filterActiveNodes( );8;10;18
+PageBreakingAlgorithm.finish( );4;4;11
+PageBreakingAlgorithm.createNode( int position , int line , int fitness , int totalWidth , int totalStretch , int totalShrink );1;0;10
+PageBreakingAlgorithm.updateData2( KnuthNode bestActiveNode , KnuthSequence sequence , int total );13;19;46
+PageBreakingAlgorithm.createFootnotePages( KnuthPageNode lastNode );4;13;41
+PageBreakingAlgorithm.computeDifference( KnuthNode activeNode , KnuthElement element , int elementIndex );10;24;43
+PageBreakingAlgorithm.createNode( int position , int line , int fitness , int totalWidth , int totalStretch , int totalShrink , double adjustRatio , int availableShrink , int availableStretch , int difference , double totalDemerits , KnuthNode previous );1;0;7
+PageBreakingAlgorithm.computeAdjustmentRatio( KnuthNode activeNode , int difference );7;15;25
+PageBreakingAlgorithm.handleBox( KnuthBox box );4;3;10
+BestPageRecords.getFootnoteElementIndex( int fitness );1;0;3
+PageBreakingAlgorithm.deferredFootnotes( int listIndex , int elementIndex , int length );5;10;7
+PageBreakingAlgorithm.initialize( );1;1;6
+PageBreakingAlgorithm.considerLegalBreak( KnuthElement element , int elementIdx );1;0;4
+PageBreakingAlgorithm.updateData1( int total , double demerits );1;0;2
+PageBreakingAlgorithm.restartFrom( KnuthNode restartingNode , int currentIndex );5;3;14

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JdbcTransactionObjectSupport.setConnectionHolder( @ Nullable ConnectionHolder connectionHolder );1;0;3
+JdbcTransactionObjectSupport.setPreviousIsolationLevel( @ Nullable Integer previousIsolationLevel );1;0;3
+JdbcTransactionObjectSupport.getConnectionHolderForSavepoint( );3;2;11
+JdbcTransactionObjectSupport.setSavepointAllowed( boolean savepointAllowed );1;0;3
+JdbcTransactionObjectSupport.createSavepoint( );4;1;17
+JdbcTransactionObjectSupport.getPreviousIsolationLevel( );1;0;3
+JdbcTransactionObjectSupport.releaseSavepoint( Object savepoint );2;0;9
+JdbcTransactionObjectSupport.hasConnectionHolder( );1;1;3
+JdbcTransactionObjectSupport.flush( );1;0;2
+JdbcTransactionObjectSupport.setReadOnly( boolean readOnly );1;0;3
+JdbcTransactionObjectSupport.getConnectionHolder( );1;1;4
+JdbcTransactionObjectSupport.rollbackToSavepoint( Object savepoint );2;0;10
+JdbcTransactionObjectSupport.isReadOnly( );1;0;3
+JdbcTransactionObjectSupport.isSavepointAllowed( );1;0;3

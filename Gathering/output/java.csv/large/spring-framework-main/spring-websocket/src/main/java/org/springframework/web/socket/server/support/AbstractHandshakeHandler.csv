@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractHandshakeHandler.isRunning( );1;0;3
+AbstractHandshakeHandler.doHandshake( ServerHttpRequest request , ServerHttpResponse response , WebSocketHandler wsHandler , Map < String , Object > attributes );13;8;54
+AbstractHandshakeHandler.getRequestUpgradeStrategy( );1;0;3
+AbstractHandshakeHandler.setSupportedProtocols( String ... protocols );2;0;6
+AbstractHandshakeHandler.start( );2;1;6
+AbstractHandshakeHandler.getSupportedVersions( );1;0;3
+AbstractHandshakeHandler.isValidOrigin( ServerHttpRequest request );1;0;3
+AbstractHandshakeHandler.AbstractHandshakeHandler( );1;0;3
+AbstractHandshakeHandler.doStart( );2;0;5
+AbstractHandshakeHandler.determineUser( ServerHttpRequest request , WebSocketHandler wsHandler , Map < String , Object > attributes );1;0;3
+AbstractHandshakeHandler.handleInvalidUpgradeHeader( ServerHttpRequest request , ServerHttpResponse response );2;1;8
+AbstractHandshakeHandler.handleWebSocketVersionNotSupported( ServerHttpRequest request , ServerHttpResponse response );2;1;11
+AbstractHandshakeHandler.filterRequestedExtensions( ServerHttpRequest request , List < WebSocketExtension > requestedExtensions , List < WebSocketExtension > supportedExtensions );3;0;9
+AbstractHandshakeHandler.isWebSocketVersionSupported( WebSocketHttpHeaders httpHeaders );3;0;10
+AbstractHandshakeHandler.handleInvalidConnectHeader( ServerHttpRequest request , ServerHttpResponse response );2;1;8
+AbstractHandshakeHandler.doStop( );2;0;5
+AbstractHandshakeHandler.stop( );2;0;6
+AbstractHandshakeHandler.initRequestUpgradeStrategy( );7;0;23
+AbstractHandshakeHandler.selectProtocol( List < String > requestedProtocols , WebSocketHandler webSocketHandler );4;0;12
+TyrusStrategyDelegate.forGlassFish( );1;0;3
+TyrusStrategyDelegate.forWebLogic( );1;0;3
+AbstractHandshakeHandler.getSupportedProtocols( );1;0;3
+AbstractHandshakeHandler.determineHandlerSupportedProtocols( WebSocketHandler handler );3;1;8
+AbstractHandshakeHandler.AbstractHandshakeHandler( RequestUpgradeStrategy requestUpgradeStrategy );1;0;4

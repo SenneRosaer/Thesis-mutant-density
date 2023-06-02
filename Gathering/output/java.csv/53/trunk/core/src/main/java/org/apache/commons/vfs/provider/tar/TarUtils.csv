@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TarUtils.getCheckSumOctalBytes( final long value , final byte [ ] buf , final int offset , final int length );1;5;6
+TarUtils.getLongOctalBytes( final long value , final byte [ ] buf , final int offset , final int length );1;3;6
+TarUtils.getNameBytes( final StringBuffer name , final byte [ ] buffer , final int offset , final int length );4;9;12
+TarUtils.computeCheckSum( final byte [ ] buffer );2;4;8
+TarUtils.getOctalBytes( final long value , final byte [ ] buffer , final int offset , final int length );5;20;28
+TarUtils.parseName( final byte [ ] header , final int offset , final int length );3;4;13
+TarUtils.parseOctal( final byte [ ] header , final int offset , final int length );7;11;26

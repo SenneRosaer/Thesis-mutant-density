@@ -1,0 +1,59 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Mockito.mockConstruction( Class < T > classToMock , Function < MockedConstruction . Context , MockSettings > mockSettingsFactory , MockedConstruction . MockInitializer < T > mockInitializer );1;0;3
+Mockito.validateMockitoUsage( );1;0;3
+Mockito.atLeastOnce( );1;0;3
+Mockito.never( );1;0;3
+Mockito.times( int wantedNumberOfInvocations );1;0;3
+Mockito.atLeast( int minNumberOfInvocations );1;0;3
+Mockito.mock( T ... reified );1;0;3
+Mockito.withSettings( );1;0;3
+Mockito.mockConstruction( Class < T > classToMock , MockedConstruction . MockInitializer < T > mockInitializer );1;0;3
+Mockito.mock( Class < T > classToMock , Answer defaultAnswer );1;0;3
+Mockito.mock( @ SuppressWarnings ( "rawtypes" ) Answer defaultAnswer , T ... reified );1;0;3
+Mockito.mock( String name , T ... reified );1;0;3
+Mockito.mockConstruction( Class < T > classToMock , MockSettings mockSettings , MockedConstruction . MockInitializer < T > mockInitializer );1;0;3
+Mockito.description( String description );1;0;3
+Mockito.mock( Class < T > classToMock );1;0;3
+Mockito.when( T methodCall );1;0;3
+Mockito.mockConstruction( Class < T > classToMock , Function < MockedConstruction . Context , MockSettings > mockSettingsFactory );1;0;3
+Mockito.spy( T object );1;0;5
+Mockito.verifyNoInteractions( Object ... mocks );1;0;3
+Mockito.mockStatic( Class < T > classToMock );1;0;3
+Mockito.lenient( );1;0;3
+Mockito.getClassOf( T [ ] array );1;0;3
+Mockito.doReturn( Object toBeReturned );1;0;3
+Mockito.mockStatic( Class < T > classToMock , String name );1;0;3
+Mockito.framework( );1;0;3
+Mockito.mock( MockSettings settings , T ... reified );3;3;7
+Mockito.doCallRealMethod( );1;0;3
+Mockito.timeout( long millis );1;0;3
+Mockito.doThrow( Class < ? extends Throwable > toBeThrown );1;0;3
+Mockito.atMost( int maxNumberOfInvocations );1;0;3
+Mockito.clearInvocations( T ... mocks );1;0;3
+Mockito.ignoreStubs( Object ... mocks );1;0;3
+Mockito.doAnswer( Answer answer );1;0;3
+Mockito.doThrow( Class < ? extends Throwable > toBeThrown , Class < ? extends Throwable > ... toBeThrownNext );1;0;3
+Mockito.spy( Class < T > classToSpy );1;0;4
+Mockito.reset( T ... mocks );1;0;3
+Mockito.mockingDetails( Object toInspect );1;0;3
+Mockito.mockConstructionWithAnswer( Class < T > classToMock , Answer defaultAnswer , Answer ... additionalAnswers );4;6;16
+Mockito.doThrow( Throwable ... toBeThrown );1;0;3
+Mockito.clearAllCaches( );1;0;3
+Mockito.mockStatic( Class < T > classToMock , MockSettings mockSettings );1;0;3
+Mockito.atMostOnce( );1;0;3
+Mockito.verify( T mock );1;0;3
+Mockito.verifyNoMoreInteractions( Object ... mocks );1;0;3
+Mockito.calls( int wantedNumberOfInvocations );1;0;3
+Mockito.mockStatic( Class < T > classToMock , Answer defaultAnswer );1;0;3
+Mockito.mockConstruction( Class < T > classToMock );1;0;3
+Mockito.mockConstruction( Class < T > classToMock , MockSettings mockSettings );1;0;3
+Mockito.mock( Class < T > classToMock , MockSettings mockSettings );1;0;3
+Mockito.mockitoSession( );1;0;3
+Mockito.verify( T mock , VerificationMode mode );1;0;3
+Mockito.only( );1;0;3
+Mockito.doNothing( );1;0;3
+Mockito.spy( T ... reified );2;1;7
+Mockito.inOrder( Object ... mocks );1;0;3
+Mockito.doReturn( Object toBeReturned , Object ... toBeReturnedNext );1;0;3
+Mockito.mock( Class < T > classToMock , String name );1;0;3
+Mockito.after( long millis );1;0;3

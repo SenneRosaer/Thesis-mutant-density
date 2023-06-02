@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReflectiveRuntimeHintsRegistrar.instantiateClass( Class < ? extends ReflectiveProcessor > type );3;0;10
+ReflectiveRuntimeHintsRegistrar.createEntry( AnnotatedElement element );3;1;13
+ReflectiveRuntimeHintsRegistrar.isReflective( AnnotatedElement element );1;0;3
+ReflectiveRuntimeHintsRegistrar.doWithReflectiveConstructors( Class < ? > typeToProcess , Consumer < Constructor < ? > > consumer );4;0;7
+ReflectiveRuntimeHintsRegistrar.processType( Set < Entry > entries , Class < ? > typeToProcess );2;0;11
+DelegatingReflectiveProcessor.registerReflectionHints( ReflectionHints hints , AnnotatedElement element );1;0;3
+ReflectiveRuntimeHintsRegistrar.registerRuntimeHints( RuntimeHints runtimeHints , Class < ? > ... types );5;0;13
+ReflectiveRuntimeHintsRegistrar.Entry( AnnotatedElement element , ReflectiveProcessor processor );1;0;1
+DelegatingReflectiveProcessor.DelegatingReflectiveProcessor( Iterable < ReflectiveProcessor > processors );1;0;3

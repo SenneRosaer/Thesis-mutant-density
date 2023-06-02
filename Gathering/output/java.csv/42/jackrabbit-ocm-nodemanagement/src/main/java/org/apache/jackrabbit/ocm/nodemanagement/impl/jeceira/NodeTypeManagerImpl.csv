@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodeTypeManagerImpl.createNodeTypes( Session session , MappingDescriptor mappingDescriptor );1;0;2
+NodeTypeManagerImpl.createNodeTypes( Session session , ClassDescriptor [ ] classDescriptors );1;0;2
+NodeTypeManagerImpl.createNodeTypesFromMappingFiles( Session session , InputStream [ ] mappingXmlFiles );1;0;2
+NodeTypeManagerImpl.getAllPrimaryNodeTypeNames( Session session );1;0;3
+NodeTypeManagerImpl.removeSingleNodeType( Session session , String jcrNodeType );1;0;2
+NodeTypeManagerImpl.removeNodeTypes( Session session , InputStream [ ] mappingXmlFiles );1;0;2
+NodeTypeManagerImpl.createNodeTypesFromConfiguration( Session session , InputStream jcrRepositoryConfigurationFile );1;0;2
+NodeTypeManagerImpl.createNamespace( Session session , String namespace , String namespaceUri );1;0;2
+NodeTypeManagerImpl.createSingleNodeTypeFromMappingFile( Session session , InputStream mappingXmlFile , String jcrNodeType );1;0;2
+NodeTypeManagerImpl.createNodeTypeFromClass( Session session , Class clazz , String jcrNodeType , boolean reflectSuperClasses );1;0;2
+NodeTypeManagerImpl.createSingleNodeType( Session session , ClassDescriptor classDescriptor );1;0;2
+NodeTypeManagerImpl.removeNodeTypesFromMappingFile( Session session , InputStream [ ] mappingXmlFiles );1;0;2
+NodeTypeManagerImpl.removeNodeTypesFromConfiguration( Session session , InputStream jcrRepositoryConfigurationFile );1;0;2
+NodeTypeManagerImpl.NodeTypeManagerImpl( );1;0;2
+NodeTypeManagerImpl.getPrimaryNodeTypeNames( Session session , String namespace );1;0;3

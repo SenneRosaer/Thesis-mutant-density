@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultLogger.printMessage( final String message , final PrintStream stream , final int priority );1;0;3
+DefaultLogger.formatTime( final long millis );1;0;3
+DefaultLogger.buildFinished( BuildEvent event );8;8;36
+DefaultLogger.getTimestamp( );1;0;6
+DefaultLogger.buildStarted( BuildEvent event );1;0;3
+DefaultLogger.taskStarted( BuildEvent event );1;0;2
+DefaultLogger.targetStarted( BuildEvent event );3;4;9
+DefaultLogger.taskFinished( BuildEvent event );1;0;2
+DefaultLogger.setEmacsMode( boolean emacsMode );1;0;3
+DefaultLogger.log( String message );1;0;2
+DefaultLogger.targetFinished( BuildEvent event );1;0;2
+DefaultLogger.getBuildFailedMessage( );1;0;3
+DefaultLogger.getBuildSuccessfulMessage( );1;0;3
+DefaultLogger.setOutputPrintStream( PrintStream output );1;0;3
+DefaultLogger.extractProjectName( BuildEvent event );2;1;4
+DefaultLogger.DefaultLogger( );1;0;2
+DefaultLogger.setMessageOutputLevel( int level );1;0;3
+DefaultLogger.setErrorPrintStream( PrintStream err );1;0;3
+DefaultLogger.messageLogged( BuildEvent event );13;14;56

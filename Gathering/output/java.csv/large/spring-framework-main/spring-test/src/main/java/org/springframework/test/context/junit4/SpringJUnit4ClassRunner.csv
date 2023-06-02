@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpringJUnit4ClassRunner.withAfters( FrameworkMethod frameworkMethod , Object testInstance , Statement statement );1;0;4
+SpringJUnit4ClassRunner.withBefores( FrameworkMethod frameworkMethod , Object testInstance , Statement statement );1;0;4
+SpringJUnit4ClassRunner.getDescription( );2;1;6
+SpringJUnit4ClassRunner.withBeforeClasses( Statement statement );1;0;4
+SpringJUnit4ClassRunner.runChild( FrameworkMethod frameworkMethod , RunNotifier notifier );3;0;16
+SpringJUnit4ClassRunner.withPotentialTimeout( FrameworkMethod frameworkMethod , Object testInstance , Statement next );5;5;22
+SpringJUnit4ClassRunner.createTestContextManager( Class < ? > clazz );1;0;3
+SpringJUnit4ClassRunner.ensureSpringRulesAreNotPresent( Class < ? > testClass );2;2;10
+SpringJUnit4ClassRunner.run( RunNotifier notifier );2;1;7
+SpringJUnit4ClassRunner.withAfterClasses( Statement statement );1;0;4
+SpringJUnit4ClassRunner.withPotentialRepeat( FrameworkMethod frameworkMethod , Object testInstance , Statement next );1;0;3
+SpringJUnit4ClassRunner.methodBlock( FrameworkMethod frameworkMethod );2;0;24
+SpringJUnit4ClassRunner.getExpectedException( FrameworkMethod frameworkMethod );3;3;4
+SpringJUnit4ClassRunner.getSpringTimeout( FrameworkMethod frameworkMethod );1;0;3
+SpringJUnit4ClassRunner.SpringJUnit4ClassRunner( Class < ? > clazz );3;1;9
+SpringJUnit4ClassRunner.withBeforeTestExecutionCallbacks( FrameworkMethod frameworkMethod , Object testInstance , Statement statement );1;0;3
+SpringJUnit4ClassRunner.createTest( );1;0;5
+SpringJUnit4ClassRunner.isTestMethodIgnored( FrameworkMethod frameworkMethod );2;2;5
+SpringJUnit4ClassRunner.withRulesReflectively( FrameworkMethod frameworkMethod , Object testInstance , Statement statement );1;0;5
+***not in a method***;0;1;0
+SpringJUnit4ClassRunner.getTestContextManager( );1;0;3
+SpringJUnit4ClassRunner.getJUnitTimeout( FrameworkMethod frameworkMethod );2;1;4
+SpringJUnit4ClassRunner.runReflectiveCall( );1;0;3
+SpringJUnit4ClassRunner.possiblyExpectingExceptions( FrameworkMethod frameworkMethod , Object testInstance , Statement next );3;1;4
+SpringJUnit4ClassRunner.withAfterTestExecutionCallbacks( FrameworkMethod frameworkMethod , Object testInstance , Statement statement );1;0;3

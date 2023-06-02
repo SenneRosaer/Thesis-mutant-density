@@ -1,0 +1,41 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletServiceContext.getServiceName( );1;0;3
+PathDispatcher.PathDispatcher( String path );1;0;2
+NamedDispatcher.exists( );1;1;3
+ServletServiceContext.getResource( String path );4;4;12
+PathDispatcher.forward( ServletRequest request , ServletResponse response );1;0;3
+ServletServiceContext.getServletContextName( );1;0;3
+ServletServiceContext.getResourcePaths( String path );4;3;19
+ServletServiceContext.setContextPath( String contextPath );3;1;10
+ServletServiceContext.getServiceName( String connectionName );1;0;3
+NamedDispatcher.include( ServletRequest request , ServletResponse response );1;0;3
+ServletServiceContext.getMajorVersion( );1;0;3
+ServletServiceContext.setConnections( Map connections );1;0;3
+ServletServiceContext.getRealPath( String path );1;0;3
+ServletServiceContext.getServerInfo( );1;0;3
+ServletServiceContext.getAttribute( String name );2;1;4
+PathDispatcher.exists( );1;1;3
+ServletServiceContext.getMinorVersion( );1;0;3
+PathDispatcher.include( ServletRequest request , ServletResponse response );1;0;3
+ServletServiceContext.absolutizeURI( URI uri );6;5;24
+PathDispatcher.forward( ServletRequest request , ServletResponse response , boolean superCall );4;4;25
+ServletServiceContext.setServlet( Servlet servlet );1;0;3
+ServletServiceContext.getDirectoryList( File file , String pathPrefix );3;4;13
+ServletServiceContext.getInitParameter( String name );5;4;16
+ServletServiceContext.getMountPath( );1;0;3
+ServletServiceContext.setConnectionServiceNames( Map connectionServletServiceNames );1;0;3
+ServletServiceContext.getResourceAsStream( String path );2;0;8
+ServletServiceContext.setServiceName( String serviceName );1;0;3
+ServletServiceContext.getNamedContext( String name );7;6;17
+NamedDispatcher.forward( ServletRequest request , ServletResponse response );5;2;17
+NamedDispatcher.NamedDispatcher( String servletServiceName );1;0;5
+ServletServiceContext.getInitParameterNames( );5;2;18
+ServletServiceContext.getContext( String uripath );1;0;3
+ServletServiceContext.setInitParams( Map properties );1;0;3
+ServletServiceContext.setAttribute( String name , Object value );1;0;3
+ServletServiceContext.removeAttribute( String name );1;0;3
+ServletServiceContext.getNamedDispatcher( String name );2;0;4
+ServletServiceContext.getAttributeNames( );1;0;3
+ServletServiceContext.getRequestDispatcher( String path );2;0;4
+ServletServiceContext.setMountPath( String mountPath );1;0;3
+ServletServiceContext.setAttributes( Map map );2;1;5

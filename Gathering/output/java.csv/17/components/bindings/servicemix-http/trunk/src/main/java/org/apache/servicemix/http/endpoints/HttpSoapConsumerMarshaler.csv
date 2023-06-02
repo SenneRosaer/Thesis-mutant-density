@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpSoapConsumerMarshaler.setUseJbiWrapper( boolean useJbiWrapper );1;0;3
+HttpSoapConsumerMarshaler.sendAccepted( MessageExchange exchange , HttpServletRequest request , HttpServletResponse response );1;0;3
+HttpSoapConsumerMarshaler.sendError( MessageExchange exchange , Exception error , HttpServletRequest request , HttpServletResponse response );2;0;21
+HttpSoapConsumerMarshaler.setPolicies( Policy [ ] policies );1;0;3
+HttpSoapConsumerMarshaler.getBinding( );1;0;3
+HttpSoapConsumerMarshaler.sendFault( MessageExchange exchange , Fault fault , HttpServletRequest request , HttpServletResponse response );1;0;19
+HttpSoapConsumerMarshaler.sendOut( MessageExchange exchange , NormalizedMessage outMsg , HttpServletRequest request , HttpServletResponse response );1;0;14
+HttpSoapConsumerMarshaler.setBinding( Binding < ? > binding );1;0;3
+HttpSoapConsumerMarshaler.createExchange( HttpServletRequest request , ComponentContext context );5;1;23
+HttpSoapConsumerMarshaler.isUseJbiWrapper( );1;0;3
+HttpSoapConsumerMarshaler.getPolicies( );1;0;3
+HttpSoapConsumerMarshaler.getChain( Phase phase );4;4;13

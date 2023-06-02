@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HTMLSerializer.HTMLSerializer( OutputStream output , OutputFormat format );2;1;4
+HTMLSerializer.startElement( String namespaceURI , String localName , String rawName , Attributes attrs );45;41;131
+HTMLSerializer.characters( String text );1;0;4
+HTMLSerializer.endElementIO( String namespaceURI , String localName , String rawName );20;17;45
+HTMLSerializer.setXHTMLNamespace( String newNamespace );1;0;3
+HTMLSerializer.startElement( String tagName , AttributeList attrs );26;16;86
+HTMLSerializer.HTMLSerializer( );1;0;3
+HTMLSerializer.HTMLSerializer( Writer writer , OutputFormat format );2;1;4
+HTMLSerializer.escapeURI( String uri );2;1;8
+HTMLSerializer.endElement( String tagName );1;0;3
+HTMLSerializer.characters( char [ ] chars , int start , int length );2;0;10
+HTMLSerializer.setOutputFormat( OutputFormat format );2;1;3
+HTMLSerializer.HTMLSerializer( boolean xhtml , OutputFormat format );1;0;4
+HTMLSerializer.endElement( String namespaceURI , String localName , String rawName );2;0;7
+HTMLSerializer.serializeElement( Element elem );30;18;104
+HTMLSerializer.getEntityRef( int ch );1;0;3
+HTMLSerializer.startDocument( String rootTagName );14;12;47
+HTMLSerializer.HTMLSerializer( OutputFormat format );2;1;3

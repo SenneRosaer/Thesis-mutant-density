@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractVersionManager.getName( String name );1;0;3
+AbstractVersionManager.calculateCheckinVersionName( InternalVersionHistoryImpl history , NodeImpl node );6;12;24
+WriteOperation.close( );2;1;9
+AbstractVersionManager.AbstractVersionManager( NodeTypeRegistry ntReg );1;0;3
+AbstractVersionManager.itemDiscarded( InternalVersionItem item );1;0;2
+AbstractVersionManager.createVersionHistory( NodeState node );3;0;22
+AbstractVersionManager.checkin( InternalVersionHistoryImpl history , NodeImpl node );2;0;13
+AbstractVersionManager.createInternalVersionItem( NodeId id );7;0;26
+AbstractVersionManager.versionCreated( InternalVersion version );1;0;2
+AbstractVersionManager.getVersion( NodeId id );2;1;7
+AbstractVersionManager.getVersionHistory( Session session , NodeState node );4;3;22
+AbstractVersionManager.releaseWriteLock( );1;0;3
+AbstractVersionManager.setVersionLabel( InternalVersionHistoryImpl history , Name version , Name label , boolean move );2;0;13
+AbstractVersionManager.getParentNode( String uuid , boolean create );4;5;16
+AbstractVersionManager.releaseReadLock( );1;0;3
+AbstractVersionManager.versionDestroyed( InternalVersion version );1;0;2
+AbstractVersionManager.getVersionHistory( NodeId id );1;0;3
+AbstractVersionManager.removeVersion( InternalVersionHistoryImpl history , Name name );2;0;11
+AbstractVersionManager.allowReader( );2;3;4
+AbstractVersionManager.startWriteOperation( );3;1;15
+AbstractVersionManager.acquireReadLock( );3;0;9
+AbstractVersionManager.acquireWriteLock( );3;0;9
+WriteOperation.save( );1;0;4

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockMethodInterceptor.doIntercept( Object mock , Method invokedMethod , Object [ ] arguments , RealMethod realMethod );1;0;3
+MockMethodInterceptor.readObject( ObjectInputStream stream );1;0;4
+DispatcherDefaultingToRealMethod.interceptSuperCallable( @ This Object mock , @ FieldValue ( "mockitoInterceptor" ) MockMethodInterceptor interceptor , @ Origin Method invokedMethod , @ AllArguments Object [ ] arguments , @ SuperCall ( serializableProxy = true ) Callable < ? > superCall );2;1;7
+MockMethodInterceptor.getSerializationSupport( );1;0;3
+MockMethodInterceptor.getMockHandler( );1;0;3
+ForHashCode.doIdentityHashCode( @ This Object thiz );1;0;3
+DispatcherDefaultingToRealMethod.interceptAbstract( @ This Object mock , @ FieldValue ( "mockitoInterceptor" ) MockMethodInterceptor interceptor , @ StubValue Object stubValue , @ Origin Method invokedMethod , @ AllArguments Object [ ] arguments );2;1;7
+MockMethodInterceptor.MockMethodInterceptor( MockHandler handler , MockCreationSettings mockCreationSettings );1;0;5
+***not in a method***;0;1;0
+ForEquals.doIdentityEquals( @ This Object thiz , @ Argument ( 0 ) Object other );1;1;3
+MockMethodInterceptor.doIntercept( Object mock , Method invokedMethod , Object [ ] arguments , RealMethod realMethod , Location location );1;0;15
+ForHashCode.ForHashCode( );1;0;1
+ForWriteReplace.doWriteReplace( @ This MockAccess thiz );1;0;3
+ForWriteReplace.ForWriteReplace( );1;0;1

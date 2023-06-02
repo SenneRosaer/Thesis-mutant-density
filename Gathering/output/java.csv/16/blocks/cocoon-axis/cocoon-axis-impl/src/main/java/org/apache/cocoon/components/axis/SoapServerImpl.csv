@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SoapServerImpl.invoke( MessageContext message );1;0;3
+SoapServerImpl.setSecurityProvider( final Configuration config );4;1;14
+SoapServerImpl.dispose( );2;1;8
+SoapServerImpl.doStart( );4;2;15
+SoapServerImpl.initialize( );2;0;7
+SoapServerImpl.setTransportName( final Configuration config );1;0;5
+SoapServerImpl.setServerConfig( final Configuration config );1;0;13
+SoapServerImpl.getEngineEnvironment( );1;0;7
+SoapServerImpl.service( ServiceManager manager );1;0;4
+SoapServerImpl.debugMessageContext( final MessageContext context );2;0;8
+SoapServerImpl.setJWSDir( final Configuration config );3;1;13
+SoapServerImpl.configure( final Configuration config );3;0;15
+SoapServerImpl.doStop( );4;2;13
+SoapServerImpl.setManagedServices( final Configuration config );3;3;28
+SoapServerImpl.createMessageContext( HttpServletRequest req , HttpServletResponse res , ServletContext con );4;2;34
+SoapServerImpl.createEngine( );2;0;7
+SoapServerImpl.setAttachmentDir( final Configuration config );3;1;13

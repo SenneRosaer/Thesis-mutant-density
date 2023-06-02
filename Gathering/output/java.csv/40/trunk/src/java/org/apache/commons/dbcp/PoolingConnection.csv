@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PoolingConnection.toString( );2;1;7
+PStmtKey.equals( Object that );14;19;14
+PoolingConnection.activateObject( Object key , Object obj );1;0;3
+PStmtKey.hashCode( );4;4;6
+PoolingConnection.PoolingConnection( Connection c , KeyedObjectPool pool );1;0;4
+PoolingConnection.validateObject( Object key , Object obj );1;0;3
+PoolingConnection.makeObject( Object obj );5;6;12
+PoolingConnection.passivateObject( Object key , Object obj );1;0;4
+PoolingConnection.PoolingConnection( Connection c );1;0;3
+PStmtKey.toString( );1;0;12
+PoolingConnection.normalizeSQL( String sql );1;0;3
+PoolingConnection.prepareStatement( String sql );5;1;15
+PStmtKey.PStmtKey( String sql , String catalog , int resultSetType , int resultSetConcurrency );1;0;6
+PoolingConnection.createKey( String sql , int resultSetType , int resultSetConcurrency );2;0;7
+PoolingConnection.destroyObject( Object key , Object obj );2;0;7
+PStmtKey.PStmtKey( String sql );1;0;3
+PoolingConnection.createKey( String sql );2;0;7
+PoolingConnection.close( );5;1;16
+PStmtKey.PStmtKey( String sql , int resultSetType , int resultSetConcurrency );1;0;5
+PoolingConnection.prepareStatement( String sql , int resultSetType , int resultSetConcurrency );5;1;15
+PStmtKey.PStmtKey( String sql , String catalog );1;0;4

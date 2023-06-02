@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourcesBeanDefinitionParser.registerResourceHandler( ParserContext context , Element element , RuntimeBeanReference pathHelperRef , @ Nullable Object source );6;4;34
+ResourcesBeanDefinitionParser.parse( Element element , ParserContext context );4;3;32
+ResourcesBeanDefinitionParser.parseCacheControl( Element element );12;0;42
+ResourcesBeanDefinitionParser.registerUrlProvider( ParserContext context , @ Nullable Object source );2;1;19
+ResourcesBeanDefinitionParser.parseVersionResolver( ParserContext context , Element element , @ Nullable Object source );6;0;35
+ResourcesBeanDefinitionParser.parseResourceChain( RootBeanDefinition resourceHandlerDef , ParserContext context , Element element , @ Nullable Object source );4;4;17
+ResourcesBeanDefinitionParser.parseResourceResolversTransformers( boolean isAutoRegistration , ManagedList < Object > resourceResolvers , ManagedList < Object > resourceTransformers , ParserContext context , Element element , @ Nullable Object source );9;2;41
+ResourcesBeanDefinitionParser.parseResourceCache( ManagedList < Object > resourceResolvers , ManagedList < Object > resourceTransformers , Element element , @ Nullable Object source );4;1;32

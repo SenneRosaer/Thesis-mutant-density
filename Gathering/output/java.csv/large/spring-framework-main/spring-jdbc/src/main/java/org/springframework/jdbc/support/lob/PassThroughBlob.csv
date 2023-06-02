@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PassThroughBlob.getBinaryStream( long pos , long length );1;0;3
+PassThroughBlob.setBytes( long pos , byte [ ] bytes );1;0;3
+PassThroughBlob.PassThroughBlob( InputStream binaryStream , long contentLength );1;0;4
+PassThroughBlob.setBinaryStream( long pos );1;0;3
+PassThroughBlob.getBytes( long pos , int length );1;0;3
+PassThroughBlob.length( );1;0;3
+PassThroughBlob.PassThroughBlob( byte [ ] content );1;0;4
+PassThroughBlob.getBinaryStream( );3;2;8
+PassThroughBlob.position( byte [ ] pattern , long start );1;0;3
+PassThroughBlob.free( );1;0;2
+PassThroughBlob.truncate( long len );1;0;3
+PassThroughBlob.position( Blob pattern , long start );1;0;3
+PassThroughBlob.setBytes( long pos , byte [ ] bytes , int offset , int len );1;0;3

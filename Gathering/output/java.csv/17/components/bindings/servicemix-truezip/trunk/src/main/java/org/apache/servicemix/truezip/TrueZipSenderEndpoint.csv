@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TrueZipSenderEndpoint.TrueZipSenderEndpoint( TrueZipComponent component , ServiceEndpoint endpoint );1;0;3
+TrueZipSenderEndpoint.getMarshaler( );1;0;3
+TrueZipSenderEndpoint.isAutoCreateDirectory( );1;0;3
+TrueZipSenderEndpoint.validate( );4;2;12
+TrueZipSenderEndpoint.getDirectory( );1;0;3
+TrueZipSenderEndpoint.processInOut( MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );1;0;3
+TrueZipSenderEndpoint.setAutoCreateDirectory( boolean autoCreateDirectory );1;0;3
+TrueZipSenderEndpoint.getNewTempName( );2;2;6
+TrueZipSenderEndpoint.processInOnly( MessageExchange exchange , NormalizedMessage in );5;2;25
+TrueZipSenderEndpoint.setDirectory( java . io . File directory );1;0;3
+TrueZipSenderEndpoint.getTempFilePrefix( );1;0;3
+TrueZipSenderEndpoint.setTempFilePrefix( String tempFilePrefix );1;0;3
+TrueZipSenderEndpoint.TrueZipSenderEndpoint( );1;0;2
+TrueZipSenderEndpoint.setMarshaler( FileMarshaler marshaler );1;0;3
+TrueZipSenderEndpoint.getTempFileSuffix( );1;0;3
+TrueZipSenderEndpoint.setTempFileSuffix( String tempFileSuffix );1;0;3

@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BundleInfo.build( );2;0;29
+BundleInfo.doExecutionEnvironment( ResourceImpl resource );3;3;18
+BundleInfo.toURL( URL location , String source );2;0;10
+BundleInfo.doSize( ResourceImpl resource );2;1;5
+BundleInfo.doBundle( ResourceImpl resource );4;3;18
+BundleInfo.createServiceCapability( ManifestEntry pack );1;0;5
+BundleInfo.getZipFile( );1;0;3
+BundleInfo.BundleInfo( Manifest manifest );1;0;3
+BundleInfo.createCapability( String name , ManifestEntry pack );5;2;18
+BundleInfo.createServiceFilter( ManifestEntry pack );1;0;7
+BundleInfo.translated( String key );1;0;3
+BundleInfo.doImportPackageAttributes( RequirementImpl req , StringBuffer filter , Map attributes );7;2;25
+BundleInfo.BundleInfo( RepositoryImpl repository , File bundleJar );3;2;12
+BundleInfo.translate( String s );6;5;24
+BundleInfo.doImportExportServices( ResourceImpl resource );5;2;24
+BundleInfo.doCategories( ResourceImpl resource );2;2;6
+BundleInfo.doImports( ResourceImpl resource );4;1;15
+BundleInfo.doExports( ResourceImpl resource );4;1;13
+BundleInfo.doRequires( ResourceImpl resource );5;3;25
+BundleInfo.doFragment( ResourceImpl resource );2;1;25
+BundleInfo.createImportFilter( RequirementImpl req , String name , ManifestEntry pack );7;2;44
+BundleInfo.doReferences( ResourceImpl resource , URL location );8;7;22
+BundleInfo.doDeclarativeServices( ResourceImpl resource );5;6;18

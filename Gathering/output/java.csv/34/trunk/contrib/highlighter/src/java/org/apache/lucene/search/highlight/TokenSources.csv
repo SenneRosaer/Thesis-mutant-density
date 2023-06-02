@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TokenSources.getTokenStream( IndexReader reader , int docId , String field , Analyzer analyzer );1;0;4
+TokenSources.getTokenStream( TermPositionVector tpv );1;0;3
+StoredTokenStream.next( final Token reusableToken );2;3;8
+TokenSources.getTokenStream( TermPositionVector tpv , boolean tokenPositionsGuaranteedContiguous );13;13;79
+TokenSources.getTokenStream( String field , String contents , Analyzer analyzer );1;0;3
+StoredTokenStream.getTokenStream( TermPositionVector tpv , boolean tokenPositionsGuaranteedContiguous );1;0;3
+TokenSources.compare( Object o1 , Object o2 );3;3;9
+TokenSources.getTokenStream( Document doc , String field , Analyzer analyzer );2;1;8
+TokenSources.getTokenStream( IndexReader reader , int docId , String field );3;3;15
+TokenSources.getAnyTokenStream( IndexReader reader , int docId , String field , Analyzer analyzer );4;2;16
+TokenSources.getAnyTokenStream( IndexReader reader , int docId , String field , Document doc , Analyzer analyzer );4;2;16

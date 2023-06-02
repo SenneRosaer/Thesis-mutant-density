@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletWebRequestHttpMethodsTests.ifNoneMatchShouldMatchIdenticalETagValue( String method );1;0;7
+ServletWebRequestHttpMethodsTests.ifUnModifiedSinceShouldNotMatchValueWhenEarlier( );1;0;8
+ServletWebRequestHttpMethodsTests.ifMatchValueShouldMatchWhenETagMatches( );1;0;6
+ServletWebRequestHttpMethodsTests.ifMatchShouldOnlyBeConsideredForUnsafeMethods( String method );1;0;5
+ServletWebRequestHttpMethodsTests.ifNoneMatchValueShouldUseWeakComparison( String method );1;0;7
+ServletWebRequestHttpMethodsTests.ifModifiedSinceShouldMatchIfDatesEqual( String method );1;0;6
+ServletWebRequestHttpMethodsTests.ifNoneMatchShouldRejectWildcardForUnsafeMethods( );1;0;6
+ServletWebRequestHttpMethodsTests.ifNoneMatchShouldNotFailForUnquotedETag( String method );1;0;7
+ServletWebRequestHttpMethodsTests.ifModifiedSinceShouldNotFailForTimestampWithLengthPart( String method );1;0;7
+ServletWebRequestHttpMethodsTests.ifNoneMatchShouldMatchETagWithSeparatorChar( String method );1;0;7
+ServletWebRequestHttpMethodsTests.ifMatchValueShouldRejectWhenETagDoesNotMatch( );1;0;6
+ServletWebRequestHttpMethodsTests.ifModifiedSinceShouldNotMatchIfDateAfter( String method );1;0;7
+ServletWebRequestHttpMethodsTests.ifMatchValueShouldUseStrongComparison( );1;0;7
+ServletWebRequestHttpMethodsTests.ifModifiedSinceShouldNotOverrideResponseStatus( String method );1;0;7
+ServletWebRequestHttpMethodsTests.ifMatchWildcardShouldMatchWhenETagPresent( );1;0;5
+ServletWebRequestHttpMethodsTests.setUpRequest( String method );1;0;4
+ServletWebRequestHttpMethodsTests.ifUnModifiedSinceShouldMatchValueWhenLater( );1;0;9
+ServletWebRequestHttpMethodsTests.IfNoneMatchAndIfNotModifiedSinceShouldNotMatchWhenDifferentETag( String method );1;0;10
+ServletWebRequestHttpMethodsTests.assertOkWithETag( String eTag );1;0;4
+ServletWebRequestHttpMethodsTests.ifNoneMatchShouldIgnoreWildcard( String method );1;0;7
+ServletWebRequestHttpMethodsTests.ifNoneMatchShouldMatchPaddedETag( String method );1;0;8
+ServletWebRequestHttpMethodsTests.IfNoneMatchAndIfNotModifiedSinceShouldMatchWhenSameETagAndDate( String method );1;0;8
+ServletWebRequestHttpMethodsTests.assertOkWithLastModified( Instant lastModified );1;2;5
+ServletWebRequestHttpMethodsTests.assertPreconditionFailed( );1;0;3
+ServletWebRequestHttpMethodsTests.ifModifiedSinceShouldNotFailForInvalidResponseStatus( String method );1;0;6
+ServletWebRequestHttpMethodsTests.ifUnModifiedSinceShouldSetHeadersWithSafeMethod( String method );1;0;8
+ServletWebRequestHttpMethodsTests.ifMatchWildcardShouldMatchETagMissing( );1;0;6
+ServletWebRequestHttpMethodsTests.ifNoneMatchShouldNotMatchDifferentETag( String method );1;0;7
+ServletWebRequestHttpMethodsTests.IfNoneMatchAndIfNotModifiedSinceShouldMatchWhenSameETagAndLaterDate( String method );1;0;9
+ServletWebRequestHttpMethodsTests.assertNotModified( @ Nullable String eTag , @ Nullable Instant lastModified );3;4;10

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChangeLog.toString( );1;0;10
+ChangeLog.deleted( ItemId id );1;0;3
+ChangeLog.deleted( ItemState state );2;1;7
+ChangeLog.merge( ChangeLog other );7;3;33
+ChangeLog.added( ItemState state );1;0;3
+ChangeLog.get( ItemId id );4;2;12
+ChangeLog.modifiedRefs( );1;0;3
+ChangeLog.modified( NodeReferences refs );1;0;3
+ChangeLog.push( );4;0;14
+ChangeLog.disconnect( );4;0;14
+ChangeLog.addedStates( );1;0;3
+ChangeLog.reset( );1;0;6
+ChangeLog.hasUpdates( );4;4;4
+ChangeLog.persisted( );4;0;21
+ChangeLog.modifiedStates( );1;0;3
+ChangeLog.get( NodeReferencesId id );1;0;3
+ChangeLog.modified( ItemState state );2;1;6
+ChangeLog.deletedStates( );1;0;3
+ChangeLog.undo( ItemStateManager parent );6;0;27
+ChangeLog.has( ItemId id );2;1;3

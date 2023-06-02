@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ItemManagerImpl.getChildNodes( NodeEntry parentEntry );1;0;5
+ItemManagerImpl.getChildProperties( NodeEntry parentEntry );1;0;5
+ItemManagerImpl.dump( PrintStream ps );2;0;11
+ItemManagerImpl.created( ItemState state );3;0;11
+ItemManagerImpl.dispose( );2;0;7
+ItemManagerImpl.createPropertyInstance( PropertyState state );1;0;5
+ItemManagerImpl.statusChanged( ItemState state , int previousStatus );2;1;5
+ItemManagerImpl.hasChildProperties( NodeEntry parentEntry );3;0;14
+ItemManagerImpl.itemExists( ItemState itemState );3;0;10
+ItemManagerImpl.getItem( HierarchyEntry hierarchyEntry );4;2;16
+ItemManagerImpl.itemExists( HierarchyEntry hierarchyEntry );3;0;10
+ItemManagerImpl.createNodeInstance( NodeState state );3;0;11
+ItemManagerImpl.getNode( Path path );2;0;8
+ItemManagerImpl.nodeExists( Path path );4;0;12
+ItemManagerImpl.propertyExists( Path path );4;0;12
+ItemManagerImpl.getProperty( Path path );2;0;8
+ItemManagerImpl.ItemManagerImpl( HierarchyManager hierMgr , SessionImpl session , ItemCache cache );2;0;9
+ItemManagerImpl.hasChildNodes( NodeEntry parentEntry );3;0;14

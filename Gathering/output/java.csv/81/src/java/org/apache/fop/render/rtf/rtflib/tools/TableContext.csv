@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TableContext.TableContext( BuilderContext ctx );1;0;3
+TableContext.setNextFirstSpanningCol( boolean bFirstSpanningCol );1;0;3
+TableContext.getColumnRowSpanningAttrs( );1;0;3
+TableContext.getColumnIndex( );1;0;3
+TableContext.getColumnWidth( );4;4;12
+TableContext.getFirstSpanningCol( );1;0;4
+TableContext.setNextColumnWidth( Float width );1;0;3
+TableContext.getNextRowBelongsToHeader( );1;0;3
+TableContext.setColumnIndex( int index );1;0;3
+TableContext.selectNextColumn( );1;1;3
+TableContext.getColumnRowSpanningNumber( );1;0;3
+TableContext.selectFirstColumn( );1;0;3
+TableContext.getNumberOfColumns( );1;0;3
+TableContext.decreaseRowSpannings( );4;5;13
+TableContext.setNextRowBelongsToHeader( boolean value );1;0;3
+TableContext.setCurrentColumnRowSpanning( Integer iRowSpanning , RtfAttributes attrs );2;1;9
+TableContext.setCurrentFirstSpanningCol( boolean bFirstSpanningCol );3;2;10
+TableContext.setNextColumnRowSpanning( Integer iRowSpanning , RtfAttributes attrs );1;0;4

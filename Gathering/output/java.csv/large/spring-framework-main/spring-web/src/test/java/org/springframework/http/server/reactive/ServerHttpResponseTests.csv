@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestServerHttpResponse.getNativeResponse( );1;0;3
+ServerHttpResponseTests.writeWithMonoError( );1;0;4
+ServerHttpResponseTests.setComplete( );1;0;8
+ServerHttpResponseTests.beforeCommitActionWithSetComplete( );1;0;14
+ServerHttpResponseTests.beforeCommitErrorShouldLeaveResponseNotCommitted( );1;0;26
+ServerHttpResponseTests.wrap( String a );1;0;3
+ServerHttpResponseTests.writeWith( );1;0;11
+TestServerHttpResponse.writeWithInternal( Publisher < ? extends DataBuffer > body );1;0;6
+TestServerHttpResponse.applyHeaders( );1;0;4
+TestServerHttpResponse.writeAndFlushWithInternal( Publisher < ? extends Publisher < ? extends DataBuffer > > bodyWithFlush );1;0;8
+ServerHttpResponseTests.monoResponseShouldNotLeakIfCancelled( );1;0;14
+ServerHttpResponseTests.beforeCommitWithComplete( );1;0;14
+ServerHttpResponseTests.writeWithError( Publisher < DataBuffer > body );1;0;14
+TestServerHttpResponse.applyCookies( );1;0;4
+ServerHttpResponseTests.writeWithFluxError( );1;0;4
+ServerHttpResponseTests.writeAndFlushWithFluxOfDefaultDataBuffer( );1;0;10
+TestServerHttpResponse.TestServerHttpResponse( );1;0;3
+TestServerHttpResponse.applyStatusCode( );1;0;4

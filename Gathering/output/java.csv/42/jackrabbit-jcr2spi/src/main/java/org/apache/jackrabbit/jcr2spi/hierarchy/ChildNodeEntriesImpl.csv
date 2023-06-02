@@ -1,0 +1,54 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LinkedEntries.add( NodeEntry cne , int index );1;0;5
+LinkNodeIterator.checkModCount( );2;1;5
+ChildNodeEntriesImpl.ChildNodeEntriesImpl( NodeEntry parent , EntryFactory factory , Iterator childNodeInfos );3;1;14
+LinkedEntries.reorderNode( LinkedEntries . LinkNode insert , LinkedEntries . LinkNode before );2;1;8
+ChildNodeEntriesImpl.get( Name nodeName , int index );2;1;6
+ChildNodeEntriesImpl.get( Name nodeName , String uniqueID );5;3;13
+NameMap.getLinkNode( Name qName , int index , String uniqueID );7;3;21
+NameMap.put( Name qName , int index , LinkedEntries . LinkNode value );5;6;21
+NameMap.findMatchingEntry( List siblings , int index );2;2;7
+ChildNodeEntriesImpl.reorderAfter( NodeEntry insertEntry , NodeEntry afterEntry );6;6;14
+ChildNodeEntriesImpl.get( Name nodeName );1;0;3
+NameMap.reorder( Name qName , LinkedEntries . LinkNode insertValue , int position );4;4;12
+LinkedEntries.createNode( Object value );1;0;3
+ChildNodeEntriesImpl.isComplete( );4;5;5
+ChildNodeEntriesImpl.reorder( NodeEntry insertEntry , NodeEntry beforeEntry );6;6;15
+LinkedEntries.getLinkNode( NodeEntry nodeEntry );3;1;9
+ChildNodeEntriesImpl.invalidate( );1;0;3
+NameMap.remove( Name qName , LinkedEntries . LinkNode value );4;3;10
+LinkNode.remove( );1;0;3
+ChildNodeEntriesImpl.internalAddAfter( NodeEntry newEntry , int index , LinkedEntries . LinkNode insertAfter );1;0;5
+ChildNodeEntriesImpl.remove( NodeEntry childEntry );2;1;9
+LinkNode.LinkNode( );1;0;4
+LinkNodeIterator.next( );2;1;9
+ChildNodeEntriesImpl.update( Iterator childNodeInfos );5;3;20
+ChildNodeEntriesImpl.reorderAfter( LinkedEntries . LinkNode insertLN , LinkedEntries . LinkNode afterLN );10;9;37
+ChildNodeEntriesImpl.internalAdd( NodeEntry entry , int index );5;5;20
+ChildNodeEntriesImpl.reorder( Name insertName , LinkedEntries . LinkNode insertLN , LinkedEntries . LinkNode beforeLN );7;6;20
+LinkNode.getNodeEntry( );1;0;3
+NameMap.getList( Name qName );3;1;11
+ChildNodeEntriesImpl.add( NodeEntry cne , int index );2;1;6
+LinkNodeIterator.hasNext( );1;1;4
+ChildNodeEntriesImpl.getNext( NodeEntry childEntry );3;2;5
+LinkNode.getValue( );5;4;16
+ChildNodeEntriesImpl.add( NodeEntry entry , int index , NodeEntry beforeEntry );3;2;12
+ChildNodeEntriesImpl.getPrevious( NodeEntry childEntry );3;2;5
+LinkNode.LinkNode( Object value , int index );2;1;4
+LinkedEntries.removeNodeEntry( NodeEntry cne );2;1;7
+LinkedEntries.LinkedEntries( );1;0;4
+LinkedEntries.addAfter( NodeEntry cne , int index , LinkedEntries . LinkNode insertAfter );3;2;13
+LinkedEntries.linkNodeIterator( );1;0;3
+ChildNodeEntriesImpl.add( NodeEntry cne );1;0;3
+LinkedEntries.getHeader( );1;0;3
+NameMap.getNodeEntry( Name qName , int index );4;2;14
+ChildNodeEntriesImpl.reload( );2;0;8
+NameMap.get( Name qName );4;2;17
+ChildNodeEntriesImpl.iterator( );2;0;7
+LinkedEntries.createHeaderNode( );1;0;3
+LinkNode.getPreviousLinkNode( );1;0;3
+NameMap.containsSiblings( Name qName );1;0;3
+LinkNodeIterator.remove( );1;0;3
+LinkNode.setValue( Object value );1;0;3
+LinkNode.getNextLinkNode( );1;0;3
+NameMap.getLinkNode( Name qName , int index );6;7;13

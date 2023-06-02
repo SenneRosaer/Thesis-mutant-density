@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestPropertySourceUtils.mergeLocations( List < TestPropertySourceAttributes > attributesList );4;1;15
+TestPropertySourceUtils.addPropertiesFilesToEnvironment( ConfigurableEnvironment environment , ResourceLoader resourceLoader , String ... locations );3;0;15
+TestPropertySourceUtils.buildMergedTestPropertySources( Class < ? > testClass );5;2;20
+TestPropertySourceUtils.addPropertiesFilesToEnvironment( ConfigurableApplicationContext context , String ... locations );1;0;5
+TestPropertySourceUtils.mergeTestPropertySourceAttributes( List < TestPropertySourceAttributes > aggregatedAttributesList );4;2;14
+TestPropertySourceUtils.duplicationDetected( TestPropertySourceAttributes currentAttributes , @ Nullable TestPropertySourceAttributes previousAttributes );4;3;10
+TestPropertySourceUtils.addInlinedPropertiesToEnvironment( ConfigurableApplicationContext context , String ... inlinedProperties );1;0;5
+TestPropertySourceUtils.findRepeatableAnnotations( Class < ? > clazz , Class < T > annotationType , List < List < MergedAnnotation < T > > > listOfLists , int [ ] aggregateIndex );7;6;20
+TestPropertySourceUtils.convertInlinedPropertiesToMap( String ... inlinedProperties );5;2;22
+TestPropertySourceUtils.addInlinedPropertiesToEnvironment( ConfigurableEnvironment environment , String ... inlinedProperties );4;2;17
+TestPropertySourceUtils.findRepeatableAnnotations( Class < ? > clazz , Class < T > annotationType );1;0;5
+TestPropertySourceUtils.highMetaDistancesFirst( );1;0;3
+TestPropertySourceUtils.mergeProperties( List < TestPropertySourceAttributes > attributesList );4;1;14

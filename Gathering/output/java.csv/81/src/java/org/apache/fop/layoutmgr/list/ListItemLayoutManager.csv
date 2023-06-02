@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ListItemPosition.getBodyFirstIndex( );1;0;3
+ListItemLayoutManager.notifyPadding( RelSide side , MinOptMax effectiveLength );4;4;12
+ListItemLayoutManager.addChildArea( Area childArea );2;1;5
+ListItemLayoutManager.resetSpaces( );1;0;8
+ListItemLayoutManager.getKeepWithPreviousStrength( );1;0;3
+ListItemLayoutManager.getMaxRemainingHeight( int [ ] fullHeights , int [ ] partialHeights );1;2;4
+ListItemLayoutManager.notifySpace( RelSide side , MinOptMax effectiveLength );4;7;15
+ListItemLayoutManager.getChangedKnuthElements( List oldList , int alignment );4;1;25
+ListItemLayoutManager.getKeepTogetherStrength( );1;0;6
+ListItemLayoutManager.getKeepWithNextStrength( );1;0;3
+ListItemPosition.generatesAreas( );1;0;3
+ListItemLayoutManager.getNextStep( List [ ] elementLists , int [ ] start , int [ ] end , int [ ] partialHeights );18;26;50
+ListItemLayoutManager.getNextKnuthElements( LayoutContext context , int alignment );4;3;45
+ListItemLayoutManager.getListItemHeight( );1;0;3
+ListItemPosition.getLabelFirstIndex( );1;0;3
+ListItemLayoutManager.setBody( ListItemBody node );1;0;4
+ListItemLayoutManager.notifyBorder( RelSide side , MinOptMax effectiveLength );4;4;12
+ListItemLayoutManager.setLabel( ListItemLabel node );1;0;4
+ListItemLayoutManager.ListItemLayoutManager( ListItem node );1;0;5
+ListItemPosition.ListItemPosition( LayoutManager lm , int labelFirst , int labelLast , int bodyFirst , int bodyLast );1;0;7
+ListItemLayoutManager.getParentArea( Area childArea );2;2;23
+ListItemPosition.getBodyLastIndex( );1;0;3
+ListItemPosition.toString( );1;0;8
+ListItemLayoutManager.addAreas( PositionIterator parentIter , LayoutContext layoutContext );10;12;67
+ListItemLayoutManager.initialize( );1;0;8
+ListItemPosition.getLabelLastIndex( );1;0;3
+ListItemLayoutManager.getCombinedKnuthElementsForListItem( List labelElements , List bodyElements , LayoutContext context );14;26;72
+ListItemLayoutManager.getListItemFO( );1;0;3

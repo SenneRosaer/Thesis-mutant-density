@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLSerializer.head( );2;1;9
+XMLSerializer.charactersImpl( char data [ ] , int start , int length );2;0;5
+PrologWriter.writeTo( XMLSerializer serializer );1;0;3
+XMLSerializer.processingInstruction( String target , String data );5;2;22
+XMLSerializer.body( String uri , String local , String qual );3;2;15
+XMLSerializer.closeElement( boolean end_element );3;1;7
+XMLSerializer.recycle( );2;1;8
+XMLSerializer.XMLSerializer( );1;0;3
+XMLSerializer.comment( char data [ ] , int start , int length );3;0;14
+XMLSerializer.endDTD( );1;0;3
+PrologWriter.write( String str );1;0;3
+XMLSerializer.endElementImpl( String uri , String local , String qual );3;0;11
+XMLSerializer.getMimeType( );2;1;4
+XMLSerializer.XMLSerializer( XMLEncoder encoder );1;0;3
+XMLSerializer.startElementImpl( String uri , String local , String qual , String namespaces [ ] [ ] , String attributes [ ] [ ] );6;5;33
+PrologWriter.write( char c [ ] );1;0;3
+XMLSerializer.endEntity( String name );1;0;2
+XMLSerializer.ignorableWhitespace( char data [ ] , int start , int length );1;0;3
+XMLSerializer.startCDATA( );2;0;5
+XMLSerializer.endCDATA( );2;0;5
+XMLSerializer.skippedEntity( String name );1;0;2
+PrologWriter.PrologWriter( );1;0;3
+XMLSerializer.startEntity( String name );1;0;2
+XMLSerializer.startDTD( String name , String public_id , String system_id );1;0;4
+XMLSerializer.endDocument( );1;0;4
+XMLSerializer.startDocument( );1;0;4

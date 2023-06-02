@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReflectionHints.registerMethod( Method method , ExecutableMode mode );1;0;4
+ReflectionHints.registerConstructor( Constructor < ? > constructor , ExecutableMode mode );1;0;4
+ReflectionHints.registerTypes( Iterable < TypeReference > types , Consumer < TypeHint . Builder > typeHint );1;0;4
+ReflectionHints.registerType( TypeReference type , Consumer < TypeHint . Builder > typeHint );1;0;5
+ReflectionHints.registerField( Field field );1;0;4
+ReflectionHints.getTypeHint( Class < ? > type );1;0;3
+ReflectionHints.typeHints( );1;0;3
+ReflectionHints.registerTypeIfPresent( @ Nullable ClassLoader classLoader , String typeName , Consumer < TypeHint . Builder > typeHint );2;0;6
+ReflectionHints.registerType( TypeReference type , MemberCategory ... memberCategories );1;0;3
+ReflectionHints.getTypeHint( TypeReference type );2;1;4
+ReflectionHints.registerTypeIfPresent( @ Nullable ClassLoader classLoader , String typeName , MemberCategory ... memberCategories );1;0;3
+ReflectionHints.registerType( Class < ? > type , Consumer < TypeHint . Builder > typeHint );1;0;3
+ReflectionHints.registerType( Class < ? > type , MemberCategory ... memberCategories );1;0;3
+ReflectionHints.mapParameters( Executable executable );1;0;3

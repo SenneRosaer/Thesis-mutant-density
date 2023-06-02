@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ImageRawStream.writeTo( OutputStream out );1;0;8
+ImageRawStream.isCacheable( );1;1;3
+ImageRawStream.createInputStream( );1;0;3
+ImageRawStream.ImageRawStream( ImageInfo info , ImageFlavor flavor , InputStreamFactory streamFactory );1;0;5
+ImageRawStream.getMimeType( );2;0;7
+SingleStreamFactory.SingleStreamFactory( InputStream in );1;0;3
+SingleStreamFactory.isUsedOnceOnly( );1;0;3
+SingleStreamFactory.close( );1;0;4
+ImageRawStream.writeTo( File target );1;0;8
+ImageRawStream.setInputStreamFactory( InputStreamFactory factory );2;1;6
+ImageRawStream.ImageRawStream( ImageInfo info , ImageFlavor flavor , InputStream in );1;0;3
+SingleStreamFactory.createInputStream( );2;1;9
+ImageRawStream.getFlavor( );1;0;3
+ByteArrayStreamFactory.isUsedOnceOnly( );1;0;3
+ByteArrayStreamFactory.ByteArrayStreamFactory( byte [ ] data );1;0;3
+ByteArrayStreamFactory.close( );1;0;2
+SingleStreamFactory.finalize( );1;0;3
+ByteArrayStreamFactory.createInputStream( );1;0;3

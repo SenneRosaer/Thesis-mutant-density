@@ -1,0 +1,5 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebXmlRewriter.WebXmlRewriter( String servletClass , String listenerClass , String filterClass , boolean useShieldingRepository );1;0;6
+WebXmlRewriter.removeContextParameter( Element root , String name );4;2;13
+WebXmlRewriter.addContextParameter( Element root , String name , String value );4;3;21
+WebXmlRewriter.rewrite( Document webAppDoc );17;8;95

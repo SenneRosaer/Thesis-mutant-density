@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LengthRangeProperty.getObject( );1;0;3
+Maker.isNegativeLength( Length len );4;5;5
+Maker.Maker( int propId );1;0;3
+LengthRangeProperty.setComponent( int cmpId , Property cmpnValue , boolean bIsDefault );4;3;9
+LengthRangeProperty.toString( );1;0;6
+Maker.convertProperty( Property p , PropertyList propertyList , FObj fo );6;4;18
+Maker.makeNewProperty( );1;0;3
+Maker.setSubprop( Property baseProperty , int subpropertyId , Property subproperty );5;4;18
+LengthRangeProperty.getMinimum( PercentBaseContext context );1;0;4
+LengthRangeProperty.setMinimum( Property minimum , boolean bIsDefault );2;2;7
+LengthRangeProperty.setMaximum( Property max , boolean bIsDefault );2;2;7
+LengthRangeProperty.getOptimum( PercentBaseContext context );1;0;4
+LengthRangeProperty.setOptimum( Property opt , boolean bIsDefault );2;2;7
+LengthRangeProperty.getComponent( int cmpId );4;3;11
+LengthRangeProperty.getMaximum( PercentBaseContext context );1;0;4
+LengthRangeProperty.getLengthRange( );1;0;3
+LengthRangeProperty.checkConsistency( PercentBaseContext context );18;28;44

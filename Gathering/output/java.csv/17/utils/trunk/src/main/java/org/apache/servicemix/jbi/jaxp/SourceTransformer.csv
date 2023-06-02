@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SourceTransformer.toDOMNode( Source source );2;1;4
+SourceTransformer.toDOMDocument( Source source );1;0;4
+SourceTransformer.toStreamSource( Source source );4;0;11
+SourceTransformer.toReaderFromSource( Source src );2;1;8
+SourceTransformer.toStreamSourceFromSAX( SAXSource source );4;3;13
+SourceTransformer.SourceTransformer( DocumentBuilderFactory documentBuilderFactory );1;0;3
+SourceTransformer.setTransformerFactory( TransformerFactory transformerFactory );1;0;3
+SourceTransformer.toSAXSource( Source source );4;0;11
+SourceTransformer.toDOMDocument( Node node );4;1;16
+SourceTransformer.setDefaultCharset( String defaultCharset );1;0;3
+SourceTransformer.getDefaultCharset( );1;0;3
+SourceTransformer.toDOMElement( NormalizedMessage message );1;0;4
+SourceTransformer.toString( Source source );4;1;13
+SourceTransformer.createTransfomer( );1;0;4
+SourceTransformer.toResult( Source source , Result result );1;0;3
+SourceTransformer.createDocumentBuilder( );1;0;4
+SourceTransformer.toSAXSourceFromStream( StreamSource source );2;1;11
+SourceTransformer.toDOMDocument( NormalizedMessage message );1;0;4
+SourceTransformer.createTransformerFactory( );1;0;3
+SourceTransformer.toSAXSourceFromDOM( DOMSource source );3;1;15
+SourceTransformer.toDOMSourceFromStream( StreamSource source );3;2;19
+SourceTransformer.contentToString( NormalizedMessage message );1;0;3
+SourceTransformer.getDocumentBuilderFactory( );2;1;6
+SourceTransformer.toDOMSourceFromSAX( SAXSource source );1;0;3
+SourceTransformer.toDOMElement( Node node );3;0;9
+SourceTransformer.SourceTransformer( );1;0;2
+SourceTransformer.toDOMSource( Source source );4;0;11
+SourceTransformer.toDOMNodeFromSAX( SAXSource source );1;0;5
+SourceTransformer.setDocumentBuilderFactory( DocumentBuilderFactory documentBuilderFactory );1;0;3
+SourceTransformer.getTransformerFactory( );2;1;6
+SourceTransformer.createDocument( );1;0;4
+SourceTransformer.toStreamSourceFromDOM( DOMSource source );1;0;4
+SourceTransformer.toString( Node node );1;0;3
+SourceTransformer.toDOMElement( Source source );1;0;4
+SourceTransformer.toResult( Source source , Result result , String charset );4;3;14
+SourceTransformer.toDOMNode( NormalizedMessage message );1;0;4
+SourceTransformer.createDocumentBuilderFactory( );1;0;7
+SourceTransformer.toDOMSource( NormalizedMessage message );1;0;4

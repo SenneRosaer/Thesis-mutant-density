@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IvyBuildList.setLeaf( String leaf );1;0;3
+IvyBuildList.addBuildFile( Path path , File buildFile );1;0;5
+IvyBuildList.getReference( );1;0;3
+IvyBuildList.isSkipbuildwithoutivy( );1;1;3
+IvyBuildList.setExcludeRoot( boolean root );1;0;3
+IvyBuildList.getOnlydirectdep( );1;0;3
+IvyBuildList.isReverse( );1;0;3
+IvyBuildList.setReverse( boolean reverse );1;0;3
+IvyBuildList.getLeaf( );1;0;3
+IvyBuildList.setSkipbuildwithoutivy( boolean skipBuildFilesWithoutIvy );2;0;6
+IvyBuildList.getRestartFrom( );1;0;3
+IvyBuildList.getIvyfilepath( );1;0;3
+IvyBuildList.setReference( String reference );1;0;3
+IvyBuildList.setOnlydirectdep( boolean onlydirectdep );1;0;3
+OnMissingDescriptor.OnMissingDescriptor( );1;0;2
+IvyBuildList.setIvyfilepath( String ivyFilePath );1;0;3
+IvyBuildList.setRoot( String root );1;0;3
+IvyBuildList.filterModulesFromLeaf( Collection mds , List leafmds );5;0;24
+IvyBuildList.getOnMissingDescriptor( );1;0;3
+IvyBuildList.isExcludeLeaf( );1;0;3
+IvyBuildList.onMissingDescriptor( File buildFile , File ivyFile , List noDescriptor );5;0;23
+IvyBuildList.getDelimiter( );1;0;3
+IvyBuildList.addFileset( FileSet buildFiles );1;0;3
+IvyBuildList.setExcludeLeaf( boolean excludeLeaf );1;0;3
+IvyBuildList.processFilterNodeFromRoot( ModuleDescriptor node , Set toKeep , Map moduleIdMap );5;6;14
+IvyBuildList.setOnMissingDescriptor( String onMissingDescriptor );1;0;3
+IvyBuildList.processFilterNodeFromLeaf( ModuleDescriptor node , Set toKeep , Map moduleIdMap );6;5;15
+IvyBuildList.setDelimiter( String delimiter );1;0;3
+IvyBuildList.isHaltonerror( );1;0;3
+IvyBuildList.filterModulesFromRoot( Collection mds , List rootmds );5;0;24
+IvyBuildList.isExcludeRoot( );1;0;3
+IvyBuildList.setHaltonerror( boolean haltOnError );1;0;3
+IvyBuildList.getIvyFileFor( File buildFile );1;0;3
+IvyBuildList.doExecute( );27;11;129
+IvyBuildList.getRoot( );1;0;3
+IvyBuildList.convertModuleNamesToModuleDescriptors( Collection mds , Set moduleNames , String kind );5;1;26
+IvyBuildList.setRestartFrom( String restartFrom );1;0;3

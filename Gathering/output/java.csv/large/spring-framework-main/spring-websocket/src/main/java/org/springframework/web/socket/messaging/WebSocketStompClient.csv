@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketStompClient.connect( URI url , @ Nullable WebSocketHttpHeaders handshakeHeaders , @ Nullable StompHeaders connectHeaders , StompSessionHandler sessionHandler );1;0;4
+StompWebSocketMessageCodec.decode( WebSocketMessage < ? > webSocketMessage );5;0;22
+WebSocketTcpConnectionHandlerAdapter.cancelInactivityTasks( );4;2;12
+WebSocketStompClient.getWebSocketClient( );1;0;3
+WebSocketStompClient.WebSocketStompClient( WebSocketClient webSocketClient );1;0;5
+WebSocketTcpConnectionHandlerAdapter.sendAsync( Message < byte [ ] > message );2;1;17
+WebSocketTcpConnectionHandlerAdapter.afterConnectionEstablished( WebSocketSession session );1;0;4
+WebSocketStompClient.start( );3;1;8
+WebSocketStompClient.processConnectHeaders( @ Nullable StompHeaders connectHeaders );2;1;7
+WebSocketStompClient.connectAsync( String url , @ Nullable WebSocketHttpHeaders handshakeHeaders , StompSessionHandler handler , Object ... uriVariables );1;0;3
+WebSocketTcpConnectionHandlerAdapter.supportsPartialMessages( );1;0;3
+WebSocketTcpConnectionHandlerAdapter.afterConnectionClosed( WebSocketSession session , CloseStatus closeStatus );1;0;4
+WebSocketTcpConnectionHandlerAdapter.close( );4;1;13
+WebSocketStompClient.isRunning( );1;0;3
+WebSocketStompClient.setInboundMessageSizeLimit( int inboundMessageSizeLimit );1;0;3
+WebSocketTcpConnectionHandlerAdapter.WebSocketTcpConnectionHandlerAdapter( TcpConnectionHandler < byte [ ] > connectionHandler );1;0;4
+StompWebSocketMessageCodec.encode( Message < byte [ ] > message , Class < ? extends WebSocketSession > sessionType );4;4;10
+WebSocketStompClient.setPhase( int phase );1;0;3
+WebSocketTcpConnectionHandlerAdapter.updateLastWriteTime( );2;2;6
+WebSocketStompClient.setAutoStartup( boolean autoStartup );1;0;3
+WebSocketTcpConnectionHandlerAdapter.onReadInactivity( final Runnable runnable , final long duration );4;4;17
+WebSocketStompClient.connect( String url , @ Nullable WebSocketHttpHeaders handshakeHeaders , @ Nullable StompHeaders connectHeaders , StompSessionHandler handler , Object ... uriVariables );1;0;4
+WebSocketStompClient.stop( );3;0;8
+WebSocketStompClient.connectAsync( URI url , @ Nullable WebSocketHttpHeaders handshakeHeaders , @ Nullable StompHeaders connectHeaders , StompSessionHandler sessionHandler );1;0;9
+StompWebSocketMessageCodec.StompWebSocketMessageCodec( int messageSizeLimit );1;0;3
+WebSocketTcpConnectionHandlerAdapter.onWriteInactivity( final Runnable runnable , final long duration );4;4;17
+WebSocketStompClient.connectAsync( String url , @ Nullable WebSocketHttpHeaders handshakeHeaders , @ Nullable StompHeaders connectHeaders , StompSessionHandler handler , Object ... uriVariables );1;0;5
+***not in a method***;0;3;0
+WebSocketStompClient.getInboundMessageSizeLimit( );1;0;3
+WebSocketTcpConnectionHandlerAdapter.handleMessage( WebSocketSession session , WebSocketMessage < ? > webSocketMessage );4;3;14
+WebSocketTcpConnectionHandlerAdapter.handleTransportError( WebSocketSession session , Throwable ex );1;0;3
+WebSocketStompClient.getPhase( );1;0;3
+WebSocketStompClient.setTaskScheduler( @ Nullable TaskScheduler taskScheduler );2;1;6
+WebSocketStompClient.connectAsync( String url , StompSessionHandler handler , Object ... uriVars );1;0;3
+WebSocketStompClient.connect( String url , StompSessionHandler handler , Object ... uriVars );1;0;4
+WebSocketTcpConnectionHandlerAdapter.accept( @ Nullable WebSocketSession webSocketSession , @ Nullable Throwable throwable );2;1;5
+WebSocketStompClient.isAutoStartup( );1;0;3
+WebSocketStompClient.connect( String url , @ Nullable WebSocketHttpHeaders handshakeHeaders , StompSessionHandler handler , Object ... uriVariables );1;0;4

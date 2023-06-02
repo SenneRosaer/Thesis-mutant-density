@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DatabaseUpdateAction.processRow( Map objectModel , Connection conn , PreparedStatement statement , String outputMode , Configuration table , CacheHelper queryData , Object [ ] [ ] columnValues , int rowIndex , Map results );7;7;21
+DatabaseUpdateAction.getColumnValues( Configuration tableConf , CacheHelper queryData , Map objectModel );2;2;7
+DatabaseUpdateAction.selectMode( boolean isAutoIncrement , Map modes );1;0;3
+DatabaseUpdateAction.honourAutoIncrement( );1;0;1
+DatabaseUpdateAction.getQuery( Configuration table , Map modeTypes , Map defaultModeNames );9;11;45

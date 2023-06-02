@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BufferingStompDecoder.getStompDecoder( );1;0;3
+BufferingStompDecoder.assembleChunksAndReset( );3;1;16
+BufferingStompDecoder.decode( ByteBuffer newBuffer );4;3;16
+BufferingStompDecoder.getExpectedContentLength( );1;0;3
+BufferingStompDecoder.checkBufferLimits( );4;4;12
+BufferingStompDecoder.BufferingStompDecoder( StompDecoder stompDecoder , int bufferSizeLimit );1;1;6
+BufferingStompDecoder.getBufferSizeLimit( );1;0;3
+BufferingStompDecoder.getBufferSize( );2;1;7

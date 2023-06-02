@@ -1,0 +1,59 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IndexReader.main( String [ ] args );12;11;59
+IndexReader.IndexReader( Directory directory );1;0;4
+IndexReader.getTermInfosIndexDivisor( );1;0;3
+IndexReader.termPositions( Term term );1;0;6
+IndexReader.hasNorms( String field );1;1;4
+IndexReader.getCurrentVersion( String directory );1;0;3
+IndexReader.getRefCount( );1;0;3
+IndexReader.open( final IndexCommit commit , IndexDeletionPolicy deletionPolicy , boolean readOnly );1;0;3
+IndexReader.IndexReader( );1;0;3
+IndexReader.commit( );2;0;6
+IndexReader.open( final IndexCommit commit );1;0;3
+IndexReader.directory( );2;1;8
+FieldOption.FieldOption( String option );1;0;3
+IndexReader.acquireWriteLock( );1;0;2
+IndexReader.open( final Directory directory , IndexDeletionPolicy deletionPolicy );1;0;3
+IndexReader.isLocked( Directory directory );1;0;4
+IndexReader.setNorm( int doc , String field , byte value );1;0;6
+IndexReader.getCommitUserData( );1;0;3
+IndexReader.open( final Directory directory , final boolean closeDirectory , final IndexDeletionPolicy deletionPolicy , final IndexCommit commit , final boolean readOnly );1;0;3
+IndexReader.indexExists( File directory );1;2;3
+IndexReader.getCommitUserData( Directory directory );1;0;3
+IndexReader.open( final Directory directory , IndexDeletionPolicy deletionPolicy , boolean readOnly );1;0;3
+IndexReader.lastModified( File fileDirectory );1;0;7
+IndexReader.lastModified( String directory );1;0;3
+IndexReader.getIndexCommit( );1;0;3
+IndexReader.open( final IndexCommit commit , IndexDeletionPolicy deletionPolicy );1;0;3
+IndexReader.ensureOpen( );2;1;5
+IndexReader.setTermInfosIndexDivisor( int indexDivisor );1;0;3
+IndexReader.indexExists( String directory );1;0;3
+FieldOption.FieldOption( );1;0;1
+IndexReader.undeleteAll( );1;0;6
+IndexReader.doBody( String segmentFileName );1;0;3
+IndexReader.setNorm( int doc , String field , float value );1;0;4
+IndexReader.flush( );1;0;4
+IndexReader.deleteDocument( int docNum );1;0;6
+IndexReader.unlock( Directory directory );1;0;3
+IndexReader.termDocs( Term term );1;0;6
+IndexReader.indexExists( Directory directory );1;2;3
+IndexReader.isLocked( String directory );1;0;6
+IndexReader.decRef( );2;3;9
+IndexReader.numDeletedDocs( );1;1;3
+IndexReader.getCurrentVersion( Directory directory );1;0;3
+IndexReader.reopen( );1;0;3
+IndexReader.open( final Directory directory , boolean readOnly );1;0;3
+IndexReader.open( final Directory directory );1;0;3
+IndexReader.document( int n );1;0;4
+IndexReader.close( );2;1;6
+FieldOption.toString( );1;0;3
+IndexReader.getVersion( );1;0;3
+IndexReader.isOptimized( );1;0;3
+IndexReader.open( File path );1;0;3
+IndexReader.lastModified( final Directory directory2 );1;0;7
+IndexReader.incRef( );1;2;5
+IndexReader.getCurrentVersion( File directory );1;0;6
+IndexReader.deleteDocuments( Term term );3;2;15
+IndexReader.open( String path );1;0;3
+IndexReader.isCurrent( );1;0;3
+IndexReader.listCommits( Directory dir );1;0;3

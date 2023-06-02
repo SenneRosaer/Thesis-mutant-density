@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QueryAutoStopWordAnalyzer.addStopWords( IndexReader reader , String fieldName , int maxDocFreq );5;4;20
+QueryAutoStopWordAnalyzer.addStopWords( IndexReader reader , int maxDocFreq );2;1;9
+QueryAutoStopWordAnalyzer.getStopWords( String fieldName );2;1;10
+QueryAutoStopWordAnalyzer.addStopWords( IndexReader reader , float maxPercentDocs );2;1;9
+QueryAutoStopWordAnalyzer.tokenStream( String fieldName , Reader reader );2;1;8
+QueryAutoStopWordAnalyzer.addStopWords( IndexReader reader );1;0;3
+QueryAutoStopWordAnalyzer.QueryAutoStopWordAnalyzer( Analyzer delegate );1;0;3
+QueryAutoStopWordAnalyzer.addStopWords( IndexReader reader , String fieldName , float maxPercentDocs );1;1;3
+QueryAutoStopWordAnalyzer.getStopWords( );3;0;12

@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FieldSerializer.getPropertyValue( Object object );5;6;11
+FieldSerializer.getPropertyValueDirect( Object object );3;2;7
+RuntimeSerializerInfo.RuntimeSerializerInfo( ObjectSerializer fieldSerializer , Class < ? > runtimeFieldClass );1;0;4
+FieldSerializer.FieldSerializer( Class < ? > beanType , FieldInfo fieldInfo );19;20;54
+FieldSerializer.compareTo( FieldSerializer o );1;0;3
+FieldSerializer.writePrefix( JSONSerializer serializer );5;3;19
+FieldSerializer.writeValue( JSONSerializer serializer , Object propertyValue );54;48;130

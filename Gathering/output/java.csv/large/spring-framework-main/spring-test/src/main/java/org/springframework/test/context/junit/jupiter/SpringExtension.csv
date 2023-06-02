@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpringExtension.resolveParameter( ParameterContext parameterContext , ExtensionContext extensionContext );2;0;8
+SpringExtension.supportsParameter( ParameterContext parameterContext , ExtensionContext extensionContext );5;3;11
+SpringExtension.getTestContextManager( ExtensionContext context );2;0;6
+SpringExtension.isAutowiredTestOrLifecycleMethod( Method method );5;1;13
+SpringExtension.validateAutowiredConfig( ExtensionContext context );3;2;16
+SpringExtension.getApplicationContext( ExtensionContext context );1;0;3
+SpringExtension.beforeTestExecution( ExtensionContext context );1;0;5
+SpringExtension.getStore( ExtensionContext context );1;0;3
+SpringExtension.afterTestExecution( ExtensionContext context );1;0;6
+SpringExtension.postProcessTestInstance( Object testInstance , ExtensionContext context );1;0;4
+SpringExtension.beforeEach( ExtensionContext context );1;0;5
+***not in a method***;0;1;0
+SpringExtension.afterAll( ExtensionContext context );1;0;8
+SpringExtension.supportsApplicationEvents( ParameterContext parameterContext );2;0;8
+SpringExtension.afterEach( ExtensionContext context );1;0;6
+SpringExtension.beforeAll( ExtensionContext context );1;0;3

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResettableFileInputStream.skip( final long count );1;1;4
+ResettableFileInputStream.mark( final int readLimit );1;0;5
+ResettableFileInputStream.read( );1;1;4
+ResettableFileInputStream.ResettableFileInputStream( final String filename , final int bufferSize );1;0;6
+ResettableFileInputStream.ResettableFileInputStream( final String filename );1;0;3
+ResettableFileInputStream.reset( );4;1;24
+ResettableFileInputStream.ResettableFileInputStream( final File file );1;0;3
+ResettableFileInputStream.available( );1;0;3
+ResettableFileInputStream.read( final byte [ ] bytes , final int offset , final int length );1;1;5
+ResettableFileInputStream.close( );1;0;3
+ResettableFileInputStream.newStream( );1;0;3
+ResettableFileInputStream.markSupported( );1;0;3

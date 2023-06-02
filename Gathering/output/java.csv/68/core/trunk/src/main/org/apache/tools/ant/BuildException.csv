@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BuildException.BuildException( String message );1;0;3
+BuildException.getCause( );1;0;3
+BuildException.toString( );1;1;3
+BuildException.BuildException( Throwable cause );1;0;4
+BuildException.getException( );1;0;3
+BuildException.BuildException( );1;0;3
+BuildException.BuildException( String message , Throwable cause );1;0;4
+***not in a method***;0;1;0
+BuildException.printStackTrace( PrintStream ps );2;1;9
+BuildException.printStackTrace( PrintWriter pw );2;1;9
+BuildException.BuildException( String msg , Throwable cause , Location location );1;0;4
+BuildException.BuildException( String message , Location location );1;0;4
+BuildException.setLocation( Location location );1;0;3
+BuildException.getLocation( );1;0;3
+BuildException.BuildException( Throwable cause , Location location );1;0;4
+BuildException.printStackTrace( );1;0;3

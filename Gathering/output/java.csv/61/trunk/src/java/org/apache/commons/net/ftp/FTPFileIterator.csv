@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FTPFileIterator.hasNext( );3;4;12
+FTPFileIterator.previous( );2;1;11
+FTPFileIterator.getNext( int quantityRequested );6;12;23
+FTPFileIterator.getFiles( );2;1;7
+FTPFileIterator.getFirstGoodEntry( );3;3;13
+FTPFileIterator.next( );2;1;11
+FTPFileIterator.getPrevious( int quantityRequested );3;6;14
+FTPFileIterator.FTPFileIterator( FTPFileList rawlist );1;0;3
+***not in a method***;0;2;0
+FTPFileIterator.parseFTPEntry( String entry );1;0;3
+FTPFileIterator.hasPrevious( );3;3;12
+FTPFileIterator.FTPFileIterator( FTPFileList rawlist , FTPFileEntryParser parser );1;0;4
+FTPFileIterator.init( );1;0;4

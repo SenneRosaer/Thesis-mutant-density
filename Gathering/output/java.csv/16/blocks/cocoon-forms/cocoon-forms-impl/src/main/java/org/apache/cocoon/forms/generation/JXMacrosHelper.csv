@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JXMacrosHelper.pushWidget( String path );1;0;3
+JXMacrosHelper.JXMacrosHelper( XMLConsumer consumer , Request request , String locale );1;1;6
+JXMacrosHelper.getForm( Form form , String attributeName );3;2;10
+RootBufferingPipe.startElement( String uri , String loc , String raw , Attributes a );6;6;14
+JXMacrosHelper.isSelectedCase( Widget unionWidget , String caseValue );2;1;4
+JXMacrosHelper.generateRepeaterSize( Widget widget , String id );1;0;3
+JXMacrosHelper.pushWidget( String path , boolean unused );14;5;52
+JXMacrosHelper.startBuReplace( String id );1;0;5
+JXMacrosHelper.createHelper( XMLConsumer consumer , Request request , String locale );1;0;3
+JXMacrosHelper.popWidget( );2;0;7
+JXMacrosHelper.getWidget( Widget currentWidget , String path );2;2;7
+JXMacrosHelper.generateStyling( ContentHandler handler , Map attributes );6;5;20
+JXMacrosHelper.generateWidget( Widget widget , Map arguments );1;0;5
+JXMacrosHelper.getRepeater( Widget currentWidget , String id );2;0;7
+JXMacrosHelper.flushRootAndPop( );1;0;4
+JXMacrosHelper.pushContainer( String path );1;0;3
+JXMacrosHelper.endBuReplace( String id );1;0;3
+JXMacrosHelper.isModified( Widget widget );1;0;3
+JXMacrosHelper.isVisible( Widget widget );2;1;13
+JXMacrosHelper.isValidationError( Object object );1;0;3
+JXMacrosHelper.getClassBody( String id );3;2;7
+JXMacrosHelper.defineClassBody( Form form , String id , Object body );2;1;6
+JXMacrosHelper.peekWidget( );1;0;3
+JXMacrosHelper.createWalker( );1;0;3
+RootBufferingPipe.RootBufferingPipe( XMLConsumer next );1;0;3
+RootBufferingPipe.endElement( String uri , String loc , String raw );2;2;6
+JXMacrosHelper.generateRepeaterWidgetLabel( Widget widget , String id , String widgetId );2;0;4
+RootBufferingPipe.flushRoot( );2;1;6
+JXMacrosHelper.flushRoot( );1;0;3
+JXMacrosHelper.pushRepeater( String path , boolean ajaxAware );5;4;10
+JXMacrosHelper.generateWidgetLabel( Widget widget , String id );1;0;3
+JXMacrosHelper.generateValidationError( ValidationError error );1;2;7
+JXMacrosHelper.endForm( );1;0;10
+JXMacrosHelper.startForm( Form form , Map attributes );6;3;31
+RootBufferingPipe.RootBufferingPipe( XMLConsumer next , Map arguments );1;0;4
+JXMacrosHelper.generateStyling( Map attributes );1;0;3

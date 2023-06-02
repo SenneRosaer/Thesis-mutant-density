@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultipartControllerTests.multipartRequestWithSingleFile( );1;0;17
+MultipartControllerTests.multipartRequestWithOptionalFileArrayNotPresent( );1;0;10
+MultipartController.processMultipartFile( @ RequestParam ( required = false ) MultipartFile file , @ RequestPart ( required = false ) Map < String , String > json );1;0;3
+MultipartControllerTests.multipartRequestWithServletParts( );1;0;12
+MultipartController.processOptionalFileArray( @ RequestParam Optional < MultipartFile [ ] > file , @ RequestPart Map < String , String > json );2;0;7
+MultipartController.processOptionalFileList( @ RequestParam Optional < List < MultipartFile > > file , @ RequestPart Map < String , String > json );2;0;7
+MultipartControllerTests.multipartRequestWithOptionalFileArray( );1;0;13
+MultipartControllerTests.multipartRequestWithOptionalFile( );1;0;12
+RequestWrappingFilter.doFilterInternal( HttpServletRequest request , HttpServletResponse response , FilterChain filterChain );1;0;4
+MultipartControllerTests.multipartRequestWithOptionalFileList( );1;0;13
+MultipartController.processMultipartFileArray( @ RequestParam ( required = false ) MultipartFile [ ] file , @ RequestPart ( required = false ) Map < String , String > json );3;3;7
+MultipartControllerTests.multipartRequestWrapped( );1;0;13
+MultipartController.processMultipartFileList( @ RequestParam ( required = false ) List < MultipartFile > file , @ RequestPart ( required = false ) Map < String , String > json );3;3;7
+MultipartController.processOptionalFile( @ RequestParam Optional < MultipartFile > file , @ RequestPart Map < String , String > json );1;0;3
+MultipartController.processMultipartFileViaHttpPut( @ RequestParam ( required = false ) MultipartFile file , @ RequestPart ( required = false ) Map < String , String > json );1;0;3
+MultipartController.processMultipart( @ RequestPart Map < String , String > json );1;0;3
+MultipartControllerTests.multipartRequestWithOptionalFileListNotPresent( );1;0;10
+MultipartControllerTests.multipartRequestWithFileArrayNoMultipart( );1;0;5
+MultipartController.processPart( @ RequestParam Part part , @ RequestPart Map < String , String > json );1;0;3
+MultipartControllerTests.multipartRequestWithOptionalFileNotPresent( );1;0;10
+MultipartControllerTests.multipartRequestWithFileArray( );1;0;13
+MultipartControllerTests.multipartRequestWithSingleFileNotPresent( );1;0;5

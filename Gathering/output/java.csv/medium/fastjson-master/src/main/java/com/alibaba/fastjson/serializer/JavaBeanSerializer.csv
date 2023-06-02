@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JavaBeanSerializer.writeReference( JSONSerializer serializer , Object object , int fieldFeatures );6;9;13
+JavaBeanSerializer.isWriteAsArray( JSONSerializer serializer , int fieldFeatrues );3;6;6
+JavaBeanSerializer.getFieldValues( Object object );2;0;7
+JavaBeanSerializer.JavaBeanSerializer( Class < ? > beanType );1;0;3
+JavaBeanSerializer.JavaBeanSerializer( Class < ? > beanType , String ... aliasList );1;0;3
+JavaBeanSerializer.getFieldType( int ordinal );1;0;3
+JavaBeanSerializer.getType( );1;0;3
+JavaBeanSerializer.write( JSONSerializer serializer , Object object , Object fieldName , Type fieldType , int features );1;0;3
+JavaBeanSerializer.getFieldSerializer( long hash );14;20;58
+JavaBeanSerializer.getObjectFieldValues( Object object );4;0;14
+JavaBeanSerializer.writeDirectNonContext( JSONSerializer serializer , Object object , Object fieldName , Type fieldType , int features );1;0;3
+JavaBeanSerializer.getJSONType( );1;0;3
+JavaBeanSerializer.getFieldSerializer( String key );5;9;20
+JavaBeanSerializer.writeBefore( JSONSerializer jsonBeanDeser , Object object , char seperator );5;2;13
+JavaBeanSerializer.isWriteAsArray( JSONSerializer serializer );1;0;3
+JavaBeanSerializer.writeAsArrayNonContext( JSONSerializer serializer , Object object , Object fieldName , Type fieldType , int features );1;0;3
+JavaBeanSerializer.getSize( Object object );3;2;10
+JavaBeanSerializer.JavaBeanSerializer( SerializeBeanInfo beanInfo );10;7;33
+JavaBeanSerializer.write( JSONSerializer serializer , Object object , Object fieldName , Type fieldType , int features , boolean unwrapped );150;199;330
+JavaBeanSerializer.writeAsArray( JSONSerializer serializer , Object object , Object fieldName , Type fieldType , int features );1;0;3
+JavaBeanSerializer.createAliasMap( String ... aliasList );2;0;7
+JavaBeanSerializer.getFieldValue( Object object , String key , long keyHash , boolean throwFieldNotFoundException );5;1;16
+JavaBeanSerializer.JavaBeanSerializer( Class < ? > beanType , Map < String , String > aliasMap );1;0;3
+JavaBeanSerializer.applyLabel( JSONSerializer jsonBeanDeser , String label );7;4;17
+JavaBeanSerializer.writeClassName( JSONSerializer serializer , String typeKey , Object object );5;2;15
+JavaBeanSerializer.getFieldValue( Object object , String key );4;1;13
+JavaBeanSerializer.writeAfter( JSONSerializer jsonBeanDeser , Object object , char seperator );5;2;13
+JavaBeanSerializer.getFieldValuesMap( Object object );7;3;24
+JavaBeanSerializer.getBeanContext( int orinal );1;0;3
+JavaBeanSerializer.getFieldNames( Object object );3;1;10
+JavaBeanSerializer.writeNoneASM( JSONSerializer serializer , Object object , Object fieldName , Type fieldType , int features );1;0;3

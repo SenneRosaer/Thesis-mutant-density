@@ -1,0 +1,62 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DotnetCompile.getUtf8OutputParameter( );2;0;3
+DotnetCompile.getDefinitionsDelimiter( );1;0;3
+DotnetCompile.createNetCommand( );1;0;4
+DotnetCompile.getWin32ResParameter( );2;1;7
+DotnetCompile.getTargetType( );1;0;3
+DotnetCompile.setWarnLevel( int warnLevel );1;0;3
+DotnetCompile.setIncludeDefaultReferences( boolean f );1;0;3
+DotnetCompile.addReference( FileSet reference );1;0;3
+DotnetCompile.setWin32Res( File fileName );1;0;3
+DotnetCompile.setUtf8Output( boolean enabled );1;0;3
+TargetTypes.getValues( );1;0;8
+DotnetCompile.setTargetType( String ttype );5;3;10
+DotnetCompile.getExtraOptionsParameter( );3;3;7
+DotnetCompile.getFilePattern( );1;0;3
+DotnetCompile.getIncludeDefaultReferences( );1;0;3
+DotnetCompile.setExtraOptions( String extraOptions );1;0;3
+DotnetCompile.getReferenceFilesParameter( );5;2;17
+DotnetCompile.getWarnLevel( );1;0;3
+DotnetCompile.getDestFileParameter( );2;1;7
+DotnetCompile.getExtraOptionsParameters( );2;1;4
+DotnetCompile.setAdditionalModules( String params );1;0;3
+DotnetCompile.getOptimize( );1;0;3
+DotnetCompile.setOptimize( boolean f );1;0;3
+DotnetCompile.setMainClass( String mainClass );1;0;3
+DotnetCompile.setDestDir( File dirName );1;0;3
+DotnetCompile.DotnetCompile( );1;0;4
+DotnetCompile.getMainClass( );1;0;3
+DotnetCompile.getDefinitionsParameter( );5;2;20
+DotnetCompile.getDebugParameter( );2;0;3
+DotnetCompile.fillInSharedParameters( NetCommand command );1;0;16
+DotnetCompile.setExecutable( String executable );1;0;3
+DotnetCompile.getAdditionalModulesParameter( );2;0;7
+DotnetCompile.getDebug( );1;0;3
+DotnetCompile.setWin32Icon( File fileName );1;0;3
+DotnetCompile.setFailOnError( boolean b );1;0;3
+DotnetCompile.clear( );1;0;14
+DotnetCompile.getMainClassParameter( );3;3;7
+DotnetCompile.getTargetTypeParameter( );2;0;7
+DotnetCompile.addResource( DotnetResource resource );1;0;3
+DotnetCompile.getIncludeDefaultReferencesParameter( );2;0;3
+DotnetCompile.addResources( NetCommand command );2;0;7
+DotnetCompile.getWin32Res( );1;0;3
+DotnetCompile.setUseResponseFile( boolean useResponseFile );1;0;3
+DotnetCompile.execute( );1;1;13
+DotnetCompile.setDebug( boolean f );1;0;3
+DotnetCompile.setTargetType( TargetTypes targetType );1;0;3
+DotnetCompile.isFileManagedBinary( File file );3;2;5
+DotnetCompile.setReferenceFiles( Path path );2;1;6
+DotnetCompile.addDefine( DotnetDefine define );1;0;3
+DotnetCompile.getExtraOptions( );1;0;3
+DotnetCompile.setReferences( String s );1;0;3
+DotnetCompile.addReferenceFilesets( NetCommand command , long outputTimestamp );6;8;26
+DotnetCompile.getReferencesParameter( );3;4;11
+DotnetCompile.getWin32IconParameter( );2;1;7
+DotnetCompile.isUseResponseFile( );1;0;3
+DotnetCompile.getExecutable( );1;0;3
+DotnetCompile.validate( );4;3;8
+DotnetCompile.notEmpty( String s );2;3;3
+DotnetCompile.getOptimizeParameter( );2;0;3
+DotnetCompile.getWarnLevelParameter( );1;0;3
+DotnetCompile.getFailOnError( );1;0;3

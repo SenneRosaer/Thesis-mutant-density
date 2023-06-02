@@ -1,0 +1,5 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ByteBufferEncoder.encode( Publisher < ? extends ByteBuffer > inputStream , DataBufferFactory bufferFactory , ResolvableType elementType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );1;0;4
+ByteBufferEncoder.ByteBufferEncoder( );1;0;3
+ByteBufferEncoder.canEncode( ResolvableType elementType , @ Nullable MimeType mimeType );3;1;4
+ByteBufferEncoder.encodeValue( ByteBuffer byteBuffer , DataBufferFactory bufferFactory , ResolvableType valueType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );3;3;8

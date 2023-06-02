@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LoggingWebSocketHandlerDecorator.LoggingWebSocketHandlerDecorator( WebSocketHandler delegate );1;0;3
+LoggingWebSocketHandlerDecorator.afterConnectionClosed( WebSocketSession session , CloseStatus closeStatus );2;1;6
+LoggingWebSocketHandlerDecorator.afterConnectionEstablished( WebSocketSession session );2;0;6
+LoggingWebSocketHandlerDecorator.handleMessage( WebSocketSession session , WebSocketMessage < ? > message );2;0;6
+LoggingWebSocketHandlerDecorator.handleTransportError( WebSocketSession session , Throwable exception );2;0;6

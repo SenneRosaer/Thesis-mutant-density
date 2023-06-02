@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConstantException.ConstantException( String className , String field , String message );1;0;3
+Constants.propertyToConstantNamePrefix( String propertyName );3;2;14
+Constants.toCodeForProperty( Object value , String propertyName );1;0;3
+Constants.asNumber( String code );2;1;7
+Constants.getNames( @ Nullable String namePrefix );4;1;10
+Constants.toCode( Object value , @ Nullable String namePrefix );5;2;9
+Constants.getClassName( );1;0;3
+Constants.getSize( );1;0;3
+Constants.getNamesForProperty( String propertyName );1;0;3
+Constants.Constants( Class < ? > clazz );4;0;16
+Constants.getNamesForSuffix( @ Nullable String nameSuffix );4;1;10
+Constants.getFieldCache( );1;0;3
+ConstantException.ConstantException( String className , String namePrefix , Object value );1;0;3
+Constants.getValuesForSuffix( @ Nullable String nameSuffix );3;1;10
+Constants.getValues( @ Nullable String namePrefix );3;1;10
+Constants.toCodeForSuffix( Object value , @ Nullable String nameSuffix );5;2;9
+Constants.asString( String code );1;0;3
+Constants.getValuesForProperty( String propertyName );1;0;3
+Constants.asObject( String code );2;1;9

@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MvcNamespaceTests.testCustomConversionService( );1;0;20
+MvcNamespaceTests.testPathMatchingHandlerMappings( );2;0;16
+TestPathMatcher.getPatternComparator( String path );1;0;3
+MvcNamespaceTests.testContentNegotiationManager( );1;0;19
+MvcNamespaceTests.setup( );1;0;11
+TestController.testBind( @ RequestParam @ IsoDate Date date , @ RequestParam ( required = false ) @ PercentNumber Double percent , @ MyValid TestBean bean , BindingResult result );1;1;5
+TestValidator.supports( Class < ? > clazz );1;0;3
+TestPathMatcher.extractUriTemplateVariables( String pattern , String path );1;0;3
+TestMockServletContext.getNamedDispatcher( String path );3;1;8
+MvcNamespaceTests.testResourcesWithOptionalAttributes( );1;0;11
+MvcNamespaceTests.testResources( );3;1;36
+MvcNamespaceTests.testDefaultServletHandler( );1;0;18
+MvcNamespaceTests.testAsyncSupportOptions( );1;0;14
+TestMockServletContext.getVirtualServerName( );1;0;3
+TestPathMatcher.combine( String pattern1 , String pattern2 );1;0;3
+TestCacheManager.getCacheNames( );1;0;3
+TestBean.getField( );1;0;3
+TestValidator.validate( @ Nullable Object target , Errors errors );1;0;3
+MvcNamespaceTests.testResourcesWithResolversTransformers( );1;0;35
+MvcNamespaceTests.testInterceptors( );1;0;25
+MvcNamespaceTests.testViewResolutionWithContentNegotiation( );1;0;19
+MvcNamespaceTests.testBeanDecoration( );1;0;16
+MvcNamespaceTests.testDefaultServletHandlerWithOptionalAttributes( );1;0;18
+MvcNamespaceTests.testDefaultConfigWithBeansInParentContext( );1;0;14
+TestPathMatcher.matchStart( String pattern , String path );1;0;3
+MvcNamespaceTests.doTestCustomValidator( String xml );1;0;15
+MvcNamespaceTests.testResourcesWithResolversTransformersCustom( );1;0;25
+MvcNamespaceTests.testViewControllersOnWebSphere( );1;0;39
+MvcNamespaceTests.testDefaultConfig( );6;1;63
+TestCacheManager.getCache( String name );1;0;3
+MvcNamespaceTests.testViewControllers( );1;0;67
+MvcNamespaceTests.testCustomValidator( );1;0;3
+TestPathMatcher.isPattern( String path );1;0;3
+MvcNamespaceTests.loadBeanDefinitions( String fileName );1;0;4
+TestPathMatcher.match( String pattern , String path );1;0;3
+TestPathMatcher.extractPathWithinPattern( String pattern , String path );1;0;3
+MvcNamespaceTests.testCors( );2;0;30
+MvcNamespaceTests.testViewControllersDefaultConfig( );1;0;17
+TestBean.setField( String field );1;0;3
+MvcNamespaceTests.testCorsMinimal( );2;0;22
+MvcNamespaceTests.testViewResolution( );1;0;53
+MvcNamespaceTests.testViewResolutionWithOrderSet( );1;0;7

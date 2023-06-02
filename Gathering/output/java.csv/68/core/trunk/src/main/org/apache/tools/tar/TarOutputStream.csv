@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TarOutputStream.closeEntry( );4;5;16
+TarOutputStream.putNextEntry( TarEntry entry );5;4;26
+TarOutputStream.setDebug( boolean debugF );1;0;3
+TarOutputStream.finish( );1;0;4
+TarOutputStream.TarOutputStream( OutputStream os , int blockSize , int recordSize );1;0;9
+TarOutputStream.write( int b );1;0;4
+TarOutputStream.getRecordSize( );1;0;3
+TarOutputStream.setBufferDebug( boolean debug );1;0;3
+TarOutputStream.setLongFileMode( int longFileMode );1;0;3
+TarOutputStream.TarOutputStream( OutputStream os );1;0;3
+TarOutputStream.write( byte [ ] wBuf , int wOffset , int numToWrite );6;18;41
+TarOutputStream.writeEOFRecord( );2;2;6
+TarOutputStream.close( );2;1;8
+TarOutputStream.write( byte [ ] wBuf );1;0;3
+TarOutputStream.TarOutputStream( OutputStream os , int blockSize );1;0;3

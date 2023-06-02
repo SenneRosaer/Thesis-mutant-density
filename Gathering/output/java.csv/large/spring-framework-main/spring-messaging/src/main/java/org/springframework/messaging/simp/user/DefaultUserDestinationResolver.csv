@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultUserDestinationResolver.isRemoveLeadingSlash( );1;0;3
+ParseResult.ParseResult( String sourceDest , String actualDest , String subscribeDest , Set < String > sessionIds , @ Nullable String user );1;0;7
+ParseResult.getActualDestination( );1;0;3
+ParseResult.getSessionIds( );1;0;3
+DefaultUserDestinationResolver.checkDestination( String destination , String requiredPrefix );1;0;3
+ParseResult.getSourceDestination( );1;0;3
+DefaultUserDestinationResolver.getSessionIdsByUser( String userName , @ Nullable String sessionId );5;4;20
+DefaultUserDestinationResolver.resolveDestination( Message < ? > message );4;2;19
+DefaultUserDestinationResolver.getTargetDestination( String sourceDestination , String actualDestination , String sessionId , @ Nullable String user );1;1;3
+DefaultUserDestinationResolver.setRemoveLeadingSlash( boolean remove );1;0;3
+DefaultUserDestinationResolver.DefaultUserDestinationResolver( SimpUserRegistry userRegistry );1;0;4
+DefaultUserDestinationResolver.setUserDestinationPrefix( String prefix );2;0;4
+DefaultUserDestinationResolver.parseMessage( MessageHeaders headers , String sourceDest );3;3;22
+DefaultUserDestinationResolver.getDestinationPrefix( );1;0;3
+DefaultUserDestinationResolver.parse( Message < ? > message );7;4;18
+DefaultUserDestinationResolver.parseSubscriptionMessage( Message < ? > message , String sourceDestination );5;6;18
+DefaultUserDestinationResolver.getSimpUserRegistry( );1;0;3
+DefaultUserDestinationResolver.toString( );1;0;3
+ParseResult.getSubscribeDestination( );1;0;3
+ParseResult.getUser( );1;0;3

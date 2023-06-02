@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StubWebHandler.StubWebHandler( RuntimeException exception );1;0;3
+UnresolvedExceptionHandler.handle( ServerWebExchange exchange , Throwable ex );1;0;3
+ExceptionHandlingWebHandlerTests.handleErrorSignal( );1;0;4
+ExceptionHandlingWebHandlerTests.handleErrorSignalWithMultipleHttpErrorHandlers( );1;0;8
+StubWebHandler.StubWebHandler( RuntimeException exception , boolean raise );1;0;4
+ExceptionHandlingWebHandlerTests.thrownExceptionBecomesErrorSignal( );1;0;4
+BadRequestExceptionHandler.handle( ServerWebExchange exchange , Throwable ex );1;0;4
+ExceptionHandlingWebHandlerTests.createWebHandler( WebExceptionHandler ... handlers );1;0;3
+StubWebHandler.handle( ServerWebExchange exchange );2;0;6
+ExceptionHandlingWebHandlerTests.unresolvedExceptionWithWebHttpHandlerAdapter( );1;0;5
+ExceptionHandlingWebHandlerTests.unresolvedException( );1;0;5

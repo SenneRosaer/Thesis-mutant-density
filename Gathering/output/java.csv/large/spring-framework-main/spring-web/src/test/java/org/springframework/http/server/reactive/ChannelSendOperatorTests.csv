@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChannelSendOperatorTests.errorAfterMultipleItems( );2;2;20
+WriteSubscriber.onComplete( );1;0;4
+ChannelSendOperatorTests.errorFromWriteSourceWhileItemCached( );2;0;24
+OneByOneAsyncWriter.send( Publisher < String > publisher );1;0;4
+ChannelSendOperatorTests.errorInWriteFunction( );1;0;14
+ChannelSendOperatorTests.writeMultipleItems( );1;0;12
+ZeroDemandSubscriber.hookOnSubscribe( Subscription subscription );1;0;2
+WriteSubscriber.onSubscribe( Subscription subscription );1;0;4
+ZeroDemandSubscriber.signalDemand( long demand );1;0;3
+WriteSubscriber.onNext( String item );1;0;4
+ChannelSendOperatorTests.errorFromWriteFunctionWhileItemCached( );1;0;15
+ChannelSendOperatorTests.cancelWhileItemCached( );1;0;18
+WriteSubscriber.onError( Throwable ex );1;0;4
+ChannelSendOperatorTests.writeOneItem( );1;0;9
+ChannelSendOperatorTests.completionBeforeFirstItem( );1;0;8
+ChannelSendOperatorTests.sendOperator( Publisher < String > source );1;0;3
+ChannelSendOperatorTests.errorBeforeFirstItem( );1;0;7
+WriteSubscriber.WriteSubscriber( Subscriber < ? super Void > subscriber );1;0;3

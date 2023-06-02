@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClientConnectionRunnerFactory.decommission( Object object );1;0;3
+ClientConnectionRunner.getConnectionString( );2;1;16
+ClientConnectionRunner.setSocket( Socket socket );1;0;3
+ClientConnectionRunnerFactory.getCreatedClass( );1;0;3
+ServerConnection.dispose( );7;3;38
+ClientConnectionRunner.ClientConnectionRunner( );1;0;2
+ClientConnectionRunner.run( );7;2;40
+***not in a method***;0;1;0
+ClientConnectionRunnerFactory.newInstance( );1;0;3
+ServerConnection.run( );27;15;98
+ClientConnectionRunner.toString( );1;2;3
+ServerConnection.addClientConnectionRunner( );2;0;10
+ServerConnection.initialize( );1;0;6
+ServerConnection.ServerConnection( ServerSocket serverSocket , ConnectionHandlerFactory handlerFactory , ThreadPool threadPool , int timeout , int maxOpenConn , int maxOpenConnPerIP );1;0;8
+ServerConnection.removeClientConnectionRunner( ClientConnectionRunner clientConnectionRunner );4;1;15
+ClientConnectionRunner.dispose( );3;1;12

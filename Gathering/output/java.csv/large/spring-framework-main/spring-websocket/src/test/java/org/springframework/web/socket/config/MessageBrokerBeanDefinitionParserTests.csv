@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestWebSocketHandlerDecoratorFactory.decorate( WebSocketHandler handler );1;0;3
+MessageBrokerBeanDefinitionParserTests.testChannel( String channelName , List < Class < ? extends MessageHandler > > subscriberTypes , int interceptorCount );3;1;11
+MessageBrokerBeanDefinitionParserTests.customChannels( );2;0;19
+TestValidator.supports( Class < ? > clazz );1;0;3
+CustomArgumentResolver.supportsParameter( MethodParameter parameter );1;0;3
+CustomReturnValueHandler.handleReturnValue( Object returnValue , MethodParameter returnType , Message < ? > message );1;0;2
+MessageBrokerBeanDefinitionParserTests.messageConvertersDefaultsOff( );1;0;7
+MessageBrokerBeanDefinitionParserTests.customChannelsWithDefaultExecutor( );1;2;6
+MessageBrokerBeanDefinitionParserTests.customArgumentAndReturnValueTypes( );1;0;12
+CustomArgumentResolver.resolveArgument( MethodParameter parameter , Message < ? > message );1;0;3
+MessageBrokerBeanDefinitionParserTests.stompBrokerRelay( );2;2;73
+CustomReturnValueHandler.supportsReturnType( MethodParameter returnType );1;0;3
+TestValidator.validate( @ Nullable Object target , Errors errors );1;0;2
+MessageBrokerBeanDefinitionParserTests.loadBeanDefinitions( String fileName );1;0;7
+MessageBrokerBeanDefinitionParserTests.annotationMethodMessageHandler( );1;0;27
+MessageBrokerBeanDefinitionParserTests.simpleBroker( );2;6;100
+TestWebSocketHandlerDecorator.TestWebSocketHandlerDecorator( WebSocketHandler delegate );1;0;3
+MessageBrokerBeanDefinitionParserTests.testExecutor( String channelName , int corePoolSize , int maxPoolSize , int keepAliveSeconds );1;0;7
+MessageBrokerBeanDefinitionParserTests.messageConverters( );1;0;7
+MessageBrokerBeanDefinitionParserTests.unwrapWebSocketHandler( WebSocketHandler handler );2;0;4
+TestWebSocketHandlerDecorator.afterConnectionEstablished( WebSocketSession session );1;0;4

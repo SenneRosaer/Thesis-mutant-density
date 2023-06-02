@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlElementSupport.findChildElement( XmlModelWriter xw , Element parent , String childName , boolean createIfNotPresent , String [ ] createOrder );1;0;3
+XmlElementSupport.setComment( String comment );1;0;3
+XmlElementSupport.getElementAttribute( Element element , String attrName );2;1;4
+XmlElementSupport.setElementAttribute( Element element , String attrName , String value );5;6;8
+XmlElementSupport.getChildElements( Element element , String nameFilter );5;4;16
+XmlElementSupport.writeXML( XmlModelWriter xw , Element element );2;3;6
+XmlElementSupport.findChildElementWithChildText( XmlModelWriter xw , Element parent , String childName , String childSubElementName , String textValue , boolean createIfNotPresent , String [ ] createOrder );5;3;18
+XmlElementSupport.findChildElement( XmlModelWriter xw , Element parent , String childName );1;0;3
+XmlElementSupport.findChildElement( XmlModelWriter xw , Element parent , String childName , String keyAttributeName , String keyAttributeValue , boolean createIfNotPresent , String [ ] createOrder );18;19;52
+XmlElementSupport.setElementAttribute( Element element , String attrName , boolean value );3;1;8
+XmlElementSupport.setElementAttribute( Element element , String attrName , Boolean value );4;4;8
+XmlElementSupport.isWhiteSpace( String s );3;3;8
+XmlElementSupport.findChildElement( XmlModelWriter xw , Element parent , String childName , String keyAttributeName , String keyAttributeValue );1;0;3
+XmlElementSupport.getTextContent( Element element );5;5;18
+XmlElementSupport.setElementAttributeMayBeEmpty( Element element , String attrName , String value );4;4;8

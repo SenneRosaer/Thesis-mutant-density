@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PDFToUnicodeCMap.PDFToUnicodeCMap( char [ ] unicodeCharMap , String name , PDFCIDSystemInfo sysInfo );1;0;4
+ToUnicodeCMapBuilder.writeCMap( );1;0;9
+ToUnicodeCMapBuilder.writeBFCharEntries( char [ ] charArray );7;11;28
+ToUnicodeCMapBuilder.endOfRange( char [ ] charArray , int startOfRange );3;4;7
+ToUnicodeCMapBuilder.writeBFEntries( );2;1;6
+ToUnicodeCMapBuilder.padHexString( String input , int numChars );3;4;12
+ToUnicodeCMapBuilder.sameRangeEntryAsNext( char [ ] charArray , int firstItem );3;7;9
+ToUnicodeCMapBuilder.ToUnicodeCMapBuilder( Writer writer );1;0;3
+ToUnicodeCMapBuilder.startOfRange( char [ ] charArray , int arrayIndex );5;5;15
+PDFToUnicodeCMap.createCMapBuilder( Writer writer );1;0;3
+ToUnicodeCMapBuilder.partOfRange( char [ ] charArray , int arrayIndex );6;6;18
+ToUnicodeCMapBuilder.writeBFRangeEntries( char [ ] charArray );7;11;31

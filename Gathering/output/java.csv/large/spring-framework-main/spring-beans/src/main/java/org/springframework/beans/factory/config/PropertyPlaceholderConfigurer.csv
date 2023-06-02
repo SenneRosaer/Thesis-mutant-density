@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropertyPlaceholderConfigurer.setSearchSystemEnvironment( boolean searchSystemEnvironment );1;0;3
+PropertyPlaceholderConfigurerResolver.resolvePlaceholder( String placeholderName );1;0;4
+PlaceholderResolvingStringValueResolver.resolveStringValue( String strVal );3;0;7
+PropertyPlaceholderConfigurer.resolvePlaceholder( String placeholder , Properties props , int systemPropertiesMode );5;5;13
+PlaceholderResolvingStringValueResolver.PlaceholderResolvingStringValueResolver( Properties props );1;0;5
+PropertyPlaceholderConfigurer.setSystemPropertiesModeName( String constantName );1;0;3
+***not in a method***;0;1;0
+PropertyPlaceholderConfigurer.resolveSystemProperty( String key );5;2;15
+PropertyPlaceholderConfigurerResolver.PropertyPlaceholderConfigurerResolver( Properties props );1;0;3
+PropertyPlaceholderConfigurer.processProperties( ConfigurableListableBeanFactory beanFactoryToProcess , Properties props );1;0;4
+PropertyPlaceholderConfigurer.resolvePlaceholder( String placeholder , Properties props );1;0;3
+PropertyPlaceholderConfigurer.setSystemPropertiesMode( int systemPropertiesMode );1;0;3

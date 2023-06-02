@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CookieGenerator.getCookieName( );1;0;3
+CookieGenerator.isCookieHttpOnly( );1;0;3
+CookieGenerator.getCookiePath( );1;0;3
+CookieGenerator.setCookieDomain( @ Nullable String cookieDomain );1;0;3
+CookieGenerator.addCookie( HttpServletResponse response , String cookieValue );5;1;18
+CookieGenerator.getCookieMaxAge( );1;0;3
+CookieGenerator.getCookieDomain( );1;0;3
+CookieGenerator.setCookieName( @ Nullable String cookieName );1;0;3
+CookieGenerator.isCookieSecure( );1;0;3
+CookieGenerator.createCookie( String cookieValue );2;1;8
+CookieGenerator.setCookieSecure( boolean cookieSecure );1;0;3
+CookieGenerator.setCookieMaxAge( @ Nullable Integer cookieMaxAge );1;0;3
+CookieGenerator.setCookieHttpOnly( boolean cookieHttpOnly );1;0;3
+CookieGenerator.setCookiePath( String cookiePath );1;0;3
+CookieGenerator.removeCookie( HttpServletResponse response );4;0;15

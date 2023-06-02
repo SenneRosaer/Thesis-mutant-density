@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SQLErrorCodesFactoryTests.testDB2RecognizedFromMetadata( );1;0;8
+SQLErrorCodesFactoryTests.testFindCustomCodes( );2;0;17
+SQLErrorCodesFactoryTests.assertIsSQLServer( SQLErrorCodes sec );1;22;25
+SQLErrorCodesFactoryTests.assertIsHana( SQLErrorCodes sec );1;11;13
+SQLErrorCodesFactoryTests.testDataSourceWithNullMetadata( );1;0;12
+SQLErrorCodesFactoryTests.assertIsDB2( SQLErrorCodes sec );1;4;6
+TestSQLErrorCodesFactory.loadResource( String path );2;2;12
+SQLErrorCodesFactoryTests.getErrorCodesFromDataSource( String productName , SQLErrorCodesFactory factory );2;1;14
+SQLErrorCodesFactoryTests.testDefaultInstanceWithOracle( );1;0;4
+SQLErrorCodesFactoryTests.testGetFromDataSourceWithSQLException( );1;0;9
+SQLErrorCodesFactoryTests.testSQLServerRecognizedFromMetadata( );1;0;4
+SQLErrorCodesFactoryTests.assertIsHsql( SQLErrorCodes sec );1;4;6
+WildcardSQLErrorCodesFactory.loadResource( String path );2;0;6
+SQLErrorCodesFactoryTests.testOracleRecognizedFromMetadata( );1;0;4
+SQLErrorCodesFactoryTests.testLookupOrder( );2;2;21
+SQLErrorCodesFactoryTests.testHanaIsRecognizedFromMetadata( );1;0;4
+SQLErrorCodesFactoryTests.testInvalidUserDefinedCodeFormat( );2;1;14
+SQLErrorCodesFactoryTests.assertIsOracle( SQLErrorCodes sec );1;5;7
+SQLErrorCodesFactoryTests.assertIsEmpty( SQLErrorCodes sec );1;0;4
+SQLErrorCodesFactoryTests.testFindUserDefinedCodes( );2;1;16
+SQLErrorCodesFactoryTests.testHsqlRecognizedFromMetadata( );1;0;4
+SQLErrorCodesFactoryTests.testDefaultInstanceWithNoSuchDatabase( );1;2;5
+SQLErrorCodesFactoryTests.testWildCardNameRecognized( );2;0;44

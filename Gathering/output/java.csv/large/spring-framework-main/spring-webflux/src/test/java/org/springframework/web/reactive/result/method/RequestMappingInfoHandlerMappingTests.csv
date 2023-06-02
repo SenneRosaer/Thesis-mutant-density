@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestMappingInfoHandlerMappingTests.getHandlerRequestMethodNotAllowed( );1;0;6
+RequestMappingInfoHandlerMappingTests.getHandlerDirectMatch( );1;0;6
+RequestMappingInfoHandlerMappingTests.testHttpOptions( String requestURI , Set < HttpMethod > allowedMethods , @ Nullable MediaType acceptPatch );3;2;17
+TestController.empty( );1;0;2
+RequestMappingInfoHandlerMappingTests.handlePatchUnsupportedMediaType( );1;0;16
+TestController.param2( );1;0;3
+RequestMappingInfoHandlerMappingTests.testMediaTypeNotAcceptable( String url );1;0;7
+TestController.bar( );1;0;2
+RequestMappingInfoHandlerMappingTests.handleMatchMatrixVariablesDecoding( );1;0;10
+TestController.foo( );1;0;2
+TestController.fooParam( );1;0;2
+RequestMappingInfoHandlerMappingTests.assertError( Mono < Object > mono , final Class < T > exceptionClass , final Consumer < T > consumer );1;0;8
+RequestMappingInfoHandlerMappingTests.getHandlerTestInvalidContentType( );1;0;8
+UserController.getUser( );1;0;2
+TestController.consumes( @ RequestBody String text );1;0;2
+UserController.saveUser( );1;0;2
+RequestMappingInfoHandlerMappingTests.handleMatchMatrixVariables( );1;0;20
+RequestMappingInfoHandlerMappingTests.getMatrixVariables( ServerWebExchange exchange , String uriVarName );1;0;4
+RequestMappingInfoHandlerMappingTests.handleMatchBestMatchingPatternAttributeNoPatternsDefined( );1;0;6
+TestRequestMappingInfoHandlerMapping.registerHandler( Object handler );1;0;3
+RequestMappingInfoHandlerMappingTests.getHandlerRequestMethodMatchFalsePositive( );1;0;8
+TestController.dummy( );1;0;1
+TestController.fooOptions( );1;0;5
+RequestMappingInfoHandlerMappingTests.getHandlerTestRequestParamMismatch( );1;0;8
+RequestMappingInfoHandlerMappingTests.handleMatchUriTemplateVariables( );1;0;10
+RequestMappingInfoHandlerMappingTests.getHandlerMediaTypeNotSupported( );1;0;4
+RequestMappingInfoHandlerMappingTests.setup( );1;0;4
+RequestMappingInfoHandlerMappingTests.testHttpMediaTypeNotSupportedException( String url );1;0;8
+RequestMappingInfoHandlerMappingTests.getHandlerEmptyPathMatch( );1;0;6
+RequestMappingInfoHandlerMappingTests.getHandlerGlobMatch( );1;0;6
+RequestMappingInfoHandlerMappingTests.handleMatch( ServerWebExchange exchange , String pattern );1;0;4
+TestController.xmlContent( );1;0;3
+RequestMappingInfoHandlerMappingTests.getHandlerBestMatch( );1;0;6
+RequestMappingInfoHandlerMappingTests.getHandlerTestMediaTypeNotAcceptable( );1;0;3
+RequestMappingInfoHandlerMappingTests.handleMatchUriTemplateVariablesDecode( );1;0;12
+TestRequestMappingInfoHandlerMapping.getMappingForMethod( Method method , Class < ? > handlerType );2;1;14
+RequestMappingInfoHandlerMappingTests.getHandlerHttpOptions( );1;0;10
+RequestMappingInfoHandlerMappingTests.getUriTemplateVariables( ServerWebExchange exchange );1;0;4
+TestRequestMappingInfoHandlerMapping.isHandler( Class < ? > beanType );1;1;3
+RequestMappingInfoHandlerMappingTests.handleMatchBestMatchingPatternAttributeInObservationContext( );1;0;8
+TestController.getBaz( );1;0;3
+TestController.patchBaz( String value );1;0;2
+RequestMappingInfoHandlerMappingTests.getHandlerProducibleMediaTypesAttribute( );1;0;11
+RequestMappingInfoHandlerMappingTests.handleMatchBestMatchingPatternAttribute( );1;0;9
+TestController.nonXmlContent( );1;0;3
+TestController.produces( );1;0;3
+RequestMappingInfoHandlerMappingTests.handleNoMatchWithoutPartialMatches( );1;0;7
+TestController.param( );1;0;3

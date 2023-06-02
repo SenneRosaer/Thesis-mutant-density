@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DispatcherHandlerIntegrationTests.mono( HttpServer httpServer );1;0;7
+DispatcherHandlerIntegrationTests.nested( HttpServer httpServer );1;0;6
+AttributesHandler.attributes( ServerRequest request );1;0;23
+Person.Person( );1;0;2
+PersonHandler.mono( ServerRequest request );1;0;4
+PersonHandler.flux( ServerRequest request );1;0;6
+TestConfiguration.attributesHandler( );1;0;3
+Person.hashCode( );2;1;3
+Person.equals( Object o );5;8;10
+Person.toString( );1;0;3
+TestConfiguration.personHandler( );1;0;3
+DispatcherHandlerIntegrationTests.controller( HttpServer httpServer );1;0;7
+Person.getName( );1;0;3
+Person.setName( String name );1;0;3
+TestConfiguration.attributesRouterFunction( AttributesHandler attributesHandler );1;0;4
+DispatcherHandlerIntegrationTests.attributes( HttpServer httpServer );1;0;7
+TestConfiguration.monoRouterFunction( PersonHandler personHandler );1;0;3
+TestConfiguration.personController( );1;0;3
+Person.Person( String name );1;0;3
+DispatcherHandlerIntegrationTests.createHttpHandler( );1;0;8
+TestConfiguration.nested( );1;0;8
+DispatcherHandlerIntegrationTests.flux( HttpServer httpServer );1;0;12
+TestConfiguration.fluxRouterFunction( PersonHandler personHandler );1;0;3
+PersonController.controller( );1;0;3

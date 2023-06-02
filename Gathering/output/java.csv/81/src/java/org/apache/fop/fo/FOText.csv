@@ -1,0 +1,41 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FOText.length( );1;0;3
+FOText.bind( PropertyList pList );1;0;15
+FOText.getCharArray( );3;1;12
+FOText.createBlockPointers( Block ancestorBlock );3;2;12
+FOText.getAncestorBlock( );1;0;3
+FOText.getPrevFOTextThisBlock( );1;0;3
+FOText.charAt( int position );1;0;3
+TextCharIterator.replaceChar( char c );2;1;7
+FOText.toString( );2;1;3
+FOText.getColor( );1;0;3
+FOText.FOText( FONode parent );1;0;3
+FOText.getWhitespaceTreatment( );1;0;3
+FOText.getRelativeCharInBlock( int i , int offset );7;13;27
+FOText.clone( FONode parent , boolean removeChildren );3;1;15
+TextCharIterator.nextChar( );2;2;9
+FOText.gatherContextInfo( );2;1;7
+FOText.getWordSpacing( );1;0;3
+FOText.isWordChar( char inputChar );32;3;71
+FOText.getLetterSpacing( );1;0;3
+FOText.willCreateArea( );8;11;19
+FOText.getLineHeight( );1;0;3
+FOText.textTransform( );8;5;31
+FOText.subSequence( int start , int end );1;0;3
+FOText.charIterator( );1;0;3
+TextCharIterator.remove( );3;2;16
+FOText.getCommonFont( );1;0;3
+FOText.finalizeNode( );1;0;3
+FOText.isStartOfWord( int i );7;2;23
+FOText.getLocalName( );1;0;3
+FOText.getTextDecoration( );1;0;3
+TextCharIterator.hasNext( );1;1;3
+FOText.getNextFOTextThisBlock( );1;0;3
+FOText.getCommonHyphenation( );1;0;3
+FOText.resetBuffer( );2;1;5
+FOText.characters( char [ ] data , int start , int length , PropertyList list , Locator locator );2;2;12
+FOText.getNormalNamespacePrefix( );1;0;3
+FOText.endOfNode( );1;0;5
+FOText.getBaseLineShift( );1;0;3
+FOText.getWrapOption( );1;0;3
+FOText.getKeepTogether( );1;0;3

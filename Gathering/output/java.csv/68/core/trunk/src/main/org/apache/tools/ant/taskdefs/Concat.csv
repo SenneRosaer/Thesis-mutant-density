@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Concat.setDest( Resource dest );1;0;3
+TextElement.addText( String value );1;1;3
+MultiReader.read( );7;7;24
+Concat.iterator( );1;0;4
+Concat.getFilteredReader( Reader r );2;1;11
+Concat.setFixLastLine( boolean fixLastLine );1;0;3
+MultiReader.getReader( );3;2;7
+Concat.isUpToDate( ResourceCollection c );5;2;12
+Concat.getReader( Object o );2;1;6
+Concat.addHeader( TextElement headerToAdd );1;0;3
+Concat.setDestfile( File destinationFile );1;0;3
+MultiReader.isMissingEndOfLine( );3;3;8
+TextElement.setFile( File file );4;2;20
+Concat.reset( );1;0;17
+TextElement.setTrimLeading( boolean strip );1;0;3
+TextElement.getValue( );11;10;32
+Concat.addFooter( TextElement footerToAdd );1;0;3
+Concat.addFileset( FileSet set );1;0;3
+Concat.setOutputEncoding( String outputEncoding );1;0;3
+Concat.addText( String text );2;1;6
+TextElement.setTrim( boolean trim );1;0;3
+ConcatResource.ConcatResource( ResourceCollection c );1;0;3
+Concat.setWriter( Writer outputWriter );1;0;3
+TextElement.getFiltering( );1;0;3
+MultiReader.MultiReader( Iterator readerSources , ReaderFactory factory );1;0;4
+Concat.setBinary( boolean binary );1;0;3
+ConcatResource.getInputStream( );11;12;41
+MultiReader.close( );2;1;5
+Concat.Concat( );1;0;3
+Concat.createPath( );1;0;5
+MultiReader.addLastChar( char ch );2;5;6
+Concat.sanitizeText( );3;2;5
+ConcatResource.getName( );1;0;3
+MultiReader.isFixLastLine( );2;2;3
+Concat.isFilesystemOnly( );1;0;3
+Concat.setAppend( boolean append );1;0;3
+Concat.setEncoding( String encoding );2;1;6
+MultiReader.read( char [ ] cbuf , int off , int len );15;25;49
+Concat.execute( );8;5;22
+Concat.size( );1;0;3
+Concat.setIgnoreEmpty( boolean ignoreEmpty );1;0;3
+MultiReader.nextReader( );1;0;4
+Concat.getResources( );5;3;25
+Concat.validate( );15;17;38
+Concat.addFilelist( FileList list );1;0;3
+Concat.setForce( boolean force );1;0;3
+Concat.addFilterChain( FilterChain filterChain );2;1;6
+Concat.add( ResourceCollection c );3;2;13
+Concat.setEol( FixCRLF . CrLf crlf );7;3;10
+TextElement.setEncoding( String encoding );1;0;3
+TextElement.setFiltering( boolean filtering );1;0;3

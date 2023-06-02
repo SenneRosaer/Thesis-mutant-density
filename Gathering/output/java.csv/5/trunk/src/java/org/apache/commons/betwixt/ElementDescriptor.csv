@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ElementDescriptor.getContentList( );4;4;15
+ElementDescriptor.setHollow( boolean isHollow );1;0;3
+ElementDescriptor.getContextExpression( );1;0;3
+ElementDescriptor.setContentDescriptors( Descriptor [ ] contentDescriptors );1;0;4
+ElementDescriptor.removeElementDescriptor( ElementDescriptor descriptor );1;0;4
+ElementDescriptor.getPrimaryBodyTextDescriptor( );3;2;9
+ElementDescriptor.getAttributeDescriptor( final String name );3;2;9
+ElementDescriptor.getAttributeList( );4;4;15
+ElementDescriptor.addContentDescriptor( Descriptor descriptor );2;1;7
+ElementDescriptor.setWrapCollectionsInElement( boolean wrapCollectionsInElement );1;0;3
+ElementDescriptor.getElementDescriptor( String name );9;9;26
+ElementDescriptor.hasAttributes( );1;1;3
+ElementDescriptor.addElementDescriptor( ElementDescriptor descriptor );2;1;8
+ElementDescriptor.setUseBindTimeTypeForMapping( boolean useBindTimeTypeForMapping );2;1;5
+ElementDescriptor.setPrimitiveType( boolean primitiveType );1;0;3
+ElementDescriptor.isPrimitiveType( );1;0;3
+ElementDescriptor.findParent( ElementDescriptor elementDescriptor );4;3;18
+ElementDescriptor.ElementDescriptor( String localName , String qualifiedName , String uri );1;0;3
+ElementDescriptor.getElementDescriptors( );3;2;12
+ElementDescriptor.isHollow( );1;0;3
+ElementDescriptor.getAttributeDescriptors( );3;2;12
+ElementDescriptor.hasContent( );1;1;3
+ElementDescriptor.getElementList( );4;4;15
+ElementDescriptor.setContextExpression( Expression contextExpression );1;0;3
+ElementDescriptor.hasChildren( );1;1;3
+ElementDescriptor.ElementDescriptor( String localName );1;0;3
+ElementDescriptor.removeAttributeDescriptor( AttributeDescriptor descriptor );1;0;3
+ElementDescriptor.toString( );1;0;6
+ElementDescriptor.setElementDescriptors( ElementDescriptor [ ] elementDescriptors );1;0;5
+ElementDescriptor.ElementDescriptor( );1;0;2
+ElementDescriptor.getContentDescriptors( );3;2;12
+ElementDescriptor.getImplementationClass( );1;0;3
+ElementDescriptor.setImplementationClass( Class implementationClass );1;0;3
+ElementDescriptor.addAttributeDescriptor( AttributeDescriptor descriptor );2;1;7
+ElementDescriptor.setAttributeDescriptors( AttributeDescriptor [ ] attributeDescriptors );1;0;4
+ElementDescriptor.isSimple( );2;3;3
+ElementDescriptor.isPolymorphic( );1;1;3
+ElementDescriptor.isWrapCollectionsInElement( );1;0;3
+ElementDescriptor.ElementDescriptor( boolean primitiveType );1;0;3
+ElementDescriptor.setCollective( boolean isCollectiveType );1;0;3
+ElementDescriptor.isCollective( );1;0;3
+ElementDescriptor.isUseBindTimeTypeForMapping( );2;1;7

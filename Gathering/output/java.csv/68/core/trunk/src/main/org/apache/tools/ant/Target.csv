@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Target.setIf( String property );2;1;3
+Target.getProject( );1;0;3
+Target.getName( );1;0;3
+Target.setLocation( Location location );1;0;3
+Target.getTasks( );3;0;11
+Target.testIfAllows( );3;1;11
+Target.Target( );1;0;2
+Target.replaceChild( Task el , Task o );2;1;6
+Target.setDepends( String depS );2;0;6
+Target.performTasks( );2;0;12
+Target.dependsOn( String other );3;3;5
+Target.addDataType( RuntimeConfigurable r );1;0;3
+Target.getDescription( );1;0;3
+Target.setProject( Project project );1;0;3
+Target.getDependencies( );2;1;4
+Target.addDependency( String dependency );2;1;6
+Target.Target( Target other );1;0;10
+Target.testUnlessAllows( );3;2;11
+Target.setUnless( String property );2;1;3
+Target.replaceChild( Task el , RuntimeConfigurable o );2;1;6
+Target.toString( );1;0;3
+Target.addTask( Task task );1;0;3
+Target.parseDepends( String depends , String targetName , String attributeName );8;5;30
+Target.execute( );5;4;27
+Target.getLocation( );1;0;3
+Target.setName( String name );1;0;3
+Target.getIf( );2;0;3
+Target.getUnless( );2;0;3
+Target.setDescription( String description );1;0;3

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultServerResponseBuilder.body( T body , ParameterizedTypeReference < T > bodyType );1;0;7
+DefaultServerResponseBuilder.render( String name , Map < String , ? > model );1;0;8
+DefaultServerResponseBuilder.DefaultServerResponseBuilder( ServerResponse other );1;0;6
+WriterFunctionResponse.writeToInternal( HttpServletRequest request , HttpServletResponse response , Context context );1;0;3
+DefaultServerResponseBuilder.DefaultServerResponseBuilder( HttpStatusCode status );1;0;4
+DefaultServerResponseBuilder.headers( Consumer < HttpHeaders > headersConsumer );1;0;4
+DefaultServerResponseBuilder.lastModified( ZonedDateTime lastModified );1;0;4
+DefaultServerResponseBuilder.contentLength( long contentLength );1;0;4
+DefaultServerResponseBuilder.allow( HttpMethod ... allowedMethods );1;0;4
+DefaultServerResponseBuilder.header( String headerName , String ... headerValues );2;0;6
+DefaultServerResponseBuilder.cookie( Cookie cookie );1;0;5
+DefaultServerResponseBuilder.build( BiFunction < HttpServletRequest , HttpServletResponse , ModelAndView > writeFunction );1;0;3
+DefaultServerResponseBuilder.body( Object body );1;0;7
+DefaultServerResponseBuilder.varyBy( String ... requestHeaders );1;0;4
+DefaultServerResponseBuilder.contentType( MediaType contentType );1;0;4
+DefaultServerResponseBuilder.allow( Set < HttpMethod > allowedMethods );1;0;4
+DefaultServerResponseBuilder.render( String name , Object ... modelAttributes );1;0;8
+DefaultServerResponseBuilder.cacheControl( CacheControl cacheControl );1;0;4
+DefaultServerResponseBuilder.build( );1;0;3
+DefaultServerResponseBuilder.lastModified( Instant lastModified );1;0;4
+DefaultServerResponseBuilder.location( URI location );1;0;4
+DefaultServerResponseBuilder.eTag( String etag );4;4;10
+WriterFunctionResponse.WriterFunctionResponse( HttpStatusCode statusCode , HttpHeaders headers , MultiValueMap < String , Cookie > cookies , BiFunction < HttpServletRequest , HttpServletResponse , ModelAndView > writeFunction );1;0;5
+DefaultServerResponseBuilder.cookies( Consumer < MultiValueMap < String , Cookie > > cookiesConsumer );1;0;4

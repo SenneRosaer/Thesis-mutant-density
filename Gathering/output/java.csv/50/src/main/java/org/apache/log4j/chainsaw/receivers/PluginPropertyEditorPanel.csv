@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PluginPropertyEditorPanel.PluginPropertyEditorPanel( );1;0;5
+PluginPropertyTableModel.isCellEditable( int rowIndex , int columnIndex );2;2;6
+PluginPropertyEditorPanel.propertyChange( PropertyChangeEvent evt );3;1;18
+PluginPropertyEditorPanel.setPlugin( Plugin plugin );1;0;5
+PluginPropertyTableModel.compare( Object o1 , Object o2 );1;0;6
+PluginPropertyEditorPanel.initComponents( );1;0;9
+PluginPropertyTableModel.PluginPropertyTableModel( Plugin p );1;0;17
+PluginPropertyTableModel.setValueAt( Object aValue , int rowIndex , int columnIndex );4;1;19
+PluginPropertyEditorPanel.setupListeners( );3;0;22
+PluginPropertyEditorPanel.windowClosed( WindowEvent e );1;0;3
+PluginPropertyEditorPanel.getPlugin( );1;0;3
+PluginPropertyTableModel.getValueAt( int row , int col );5;1;20
+PluginPropertyTableModel.translateValueIfNeeded( int row , Object value );4;3;11
+PluginPropertyTableModel.getRowCount( );1;0;3
+PluginTableCellEditor.PluginTableCellEditor( );1;0;7
+PluginPropertyEditorPanel.main( String [ ] args );2;0;19
+PluginTableCellEditor.getCellEditorValue( );1;0;3
+PluginPropertyTableModel.getColumnName( int column );2;1;3
+PluginPropertyTableModel.getColumnCount( );1;0;3
+PluginPropertyTableModel.getDescriptors( );1;0;3
+PluginTableCellEditor.getTableCellEditorComponent( JTable table , Object value , boolean isSelected , int row , int column );2;0;18

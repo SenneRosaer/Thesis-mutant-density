@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ItemState.setStatus( int newStatus );7;6;26
+ItemState.getListeners( );1;0;3
+ItemState.getInitialStatus( NodeEntry parent );3;2;11
+ItemState.getHierarchyEntry( );1;0;3
+ItemState.isValid( );2;1;3
+ItemState.getParent( );1;0;3
+ItemState.ItemState( HierarchyEntry entry , ItemStateFactory isf , ItemDefinitionProvider definitionProvider );1;0;3
+ItemState.getStatus( );1;0;3
+ItemState.getName( );1;0;3
+ItemState.getQPath( );1;0;3
+ItemState.addListener( ItemStateLifeCycleListener listener );1;0;5
+ItemState.ItemState( int initialStatus , HierarchyEntry entry , ItemStateFactory isf , ItemDefinitionProvider definitionProvider );5;1;19
+ItemState.markModified( );7;0;18
+ItemState.removeListener( ItemStateLifeCycleListener listener );1;0;5

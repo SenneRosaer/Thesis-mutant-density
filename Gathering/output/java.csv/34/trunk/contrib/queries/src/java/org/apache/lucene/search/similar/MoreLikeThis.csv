@@ -1,0 +1,44 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MoreLikeThis.getFieldNames( );1;0;3
+MoreLikeThis.getMinDocFreq( );1;0;3
+MoreLikeThis.like( URL u );1;0;3
+MoreLikeThis.getSimilarity( );1;0;3
+MoreLikeThis.setAnalyzer( Analyzer analyzer );1;0;3
+MoreLikeThis.createQueue( Map words );10;12;35
+MoreLikeThis.getMaxQueryTerms( );1;0;3
+MoreLikeThis.retrieveInterestingTerms( Reader r );3;4;12
+MoreLikeThis.like( java . io . InputStream is );1;0;3
+MoreLikeThis.isNoiseWord( String term );7;8;13
+MoreLikeThis.addTermFrequencies( Map termFreqMap , TermFreqVector vector );4;4;19
+MoreLikeThis.setStopWords( Set stopWords );1;0;3
+FreqQ.FreqQ( int s );1;0;3
+MoreLikeThis.getAnalyzer( );1;0;3
+MoreLikeThis.like( int docNum );2;1;7
+FreqQ.lessThan( Object a , Object b );1;1;7
+MoreLikeThis.setBoost( boolean boost );1;0;3
+MoreLikeThis.retrieveInterestingTerms( int docNum );3;4;12
+MoreLikeThis.like( File f );2;1;7
+MoreLikeThis.setMinDocFreq( int minDocFreq );1;0;3
+MoreLikeThis.getMaxWordLen( );1;0;3
+MoreLikeThis.setMinTermFreq( int minTermFreq );1;0;3
+MoreLikeThis.setMaxWordLen( int maxWordLen );1;0;3
+MoreLikeThis.isBoost( );1;0;3
+MoreLikeThis.setSimilarity( Similarity similarity );1;0;3
+MoreLikeThis.getMinWordLen( );1;0;3
+MoreLikeThis.setMaxQueryTerms( int maxQueryTerms );1;0;3
+MoreLikeThis.MoreLikeThis( IndexReader ir );1;0;3
+MoreLikeThis.createQuery( PriorityQueue q );7;7;28
+MoreLikeThis.setMaxNumTokensParsed( int i );1;0;3
+MoreLikeThis.getStopWords( );1;0;3
+MoreLikeThis.setMinWordLen( int minWordLen );1;0;3
+MoreLikeThis.retrieveTerms( Reader r );2;2;8
+MoreLikeThis.retrieveTerms( int docNum );5;6;21
+MoreLikeThis.getMaxNumTokensParsed( );1;0;3
+MoreLikeThis.setFieldNames( String [ ] fieldNames );1;0;3
+MoreLikeThis.describeParams( );2;2;18
+MoreLikeThis.main( String [ ] a );9;10;49
+Int.Int( );1;0;3
+MoreLikeThis.addTermFrequencies( Reader r , Map termFreqMap , String fieldName );5;5;23
+MoreLikeThis.MoreLikeThis( IndexReader ir , Similarity sim );1;0;4
+MoreLikeThis.like( Reader r );1;0;3
+MoreLikeThis.getMinTermFreq( );1;0;3

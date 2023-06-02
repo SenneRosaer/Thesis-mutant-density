@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultSseBuilder.field( String name , String value );1;0;4
+DefaultSseBuilder.onComplete( Runnable onCompletion );1;0;4
+DefaultSseBuilder.send( Object object );1;0;3
+DefaultSseBuilder.complete( );3;0;12
+SseServerResponse.createHeaders( );1;0;6
+DefaultSseBuilder.retry( Duration duration );1;0;5
+DefaultSseBuilder.writeObject( Object data );6;0;24
+DefaultSseBuilder.data( Object object );2;0;9
+SseServerResponse.SseServerResponse( Consumer < SseBuilder > sseConsumer , @ Nullable Duration timeout );1;0;5
+DefaultSseBuilder.event( String eventName );1;0;4
+DefaultSseBuilder.error( Throwable t );2;0;6
+DefaultSseBuilder.id( String id );1;0;4
+DefaultSseBuilder.builderBytes( );1;0;3
+DefaultSseBuilder.writeString( String string );3;0;19
+DefaultSseBuilder.comment( String comment );2;0;8
+DefaultSseBuilder.onError( Consumer < Throwable > onError );1;0;4
+DefaultSseBuilder.onTimeout( Runnable onTimeout );1;0;4
+DefaultSseBuilder.DefaultSseBuilder( HttpServletResponse response , Context context , DeferredResult < ? > deferredResult );1;0;5
+MutableHeadersServerHttpResponse.MutableHeadersServerHttpResponse( ServerHttpResponse delegate );1;0;4
+SseServerResponse.writeToInternal( HttpServletRequest request , HttpServletResponse response , Context context );3;1;12
+SseServerResponse.create( Consumer < SseBuilder > sseConsumer , @ Nullable Duration timeout );1;0;4
+MutableHeadersServerHttpResponse.getHeaders( );1;0;3
+SseServerResponse.emptyCookies( );1;0;3

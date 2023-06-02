@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Similarity.scorePayload( String fieldName , byte [ ] payload , int offset , int length );1;0;3
+Similarity.tf( int freq );1;0;3
+Similarity.encodeNorm( float f );1;0;3
+Similarity.decodeNorm( byte b );1;1;3
+Similarity.setDefault( Similarity similarity );1;0;3
+***not in a method***;0;2;0
+Similarity.idf( Term term , Searcher searcher );1;0;3
+Similarity.computeNorm( String field , FieldInvertState state );1;1;3
+Similarity.getDefault( );1;0;3
+Similarity.getNormDecoder( );1;0;3
+Similarity.idf( Collection terms , Searcher searcher );2;1;8

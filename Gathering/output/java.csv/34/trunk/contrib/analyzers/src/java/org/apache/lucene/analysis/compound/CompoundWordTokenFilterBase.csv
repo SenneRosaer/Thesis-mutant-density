@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompoundWordTokenFilterBase.CompoundWordTokenFilterBase( TokenStream input , String [ ] dictionary , boolean onlyLongestMatch );1;0;3
+CompoundWordTokenFilterBase.decompose( final Token token );2;1;7
+CompoundWordTokenFilterBase.makeDictionary( final String [ ] dictionary );1;0;5
+CompoundWordTokenFilterBase.CompoundWordTokenFilterBase( TokenStream input , String [ ] dictionary );1;0;3
+CompoundWordTokenFilterBase.CompoundWordTokenFilterBase( TokenStream input , Set dictionary );1;0;3
+CompoundWordTokenFilterBase.CompoundWordTokenFilterBase( TokenStream input , Set dictionary , int minWordSize , int minSubwordSize , int maxSubwordSize , boolean onlyLongestMatch );2;0;14
+CompoundWordTokenFilterBase.makeLowerCaseCopy( final char [ ] buffer );2;2;8
+CompoundWordTokenFilterBase.next( final Token reusableToken );4;4;16
+CompoundWordTokenFilterBase.createToken( final int offset , final int length , final Token prototype );1;2;6
+CompoundWordTokenFilterBase.addAllLowerCase( Set target , Collection col );2;0;6
+CompoundWordTokenFilterBase.CompoundWordTokenFilterBase( TokenStream input , String [ ] dictionary , int minWordSize , int minSubwordSize , int maxSubwordSize , boolean onlyLongestMatch );1;0;3
+CompoundWordTokenFilterBase.CompoundWordTokenFilterBase( TokenStream input , Set dictionary , boolean onlyLongestMatch );1;0;3

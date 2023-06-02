@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCRWebdavServerServlet.setLocatorFactory( DavLocatorFactory locatorFactory );1;0;3
+JCRWebdavServerServlet.setResourceFactory( DavResourceFactory resourceFactory );1;0;3
+JCRWebdavServerServlet.getDavSessionProvider( );2;1;10
+JCRWebdavServerServlet.setDavSessionProvider( DavSessionProvider davSessionProvider );1;0;3
+JCRWebdavServerServlet.getLocatorFactory( );2;1;6
+JCRWebdavServerServlet.getResourceFactory( );2;1;6
+JCRWebdavServerServlet.init( );2;3;16
+JCRWebdavServerServlet.getPathPrefix( ServletContext ctx );1;0;3
+JCRWebdavServerServlet.isPreconditionValid( WebdavRequest request , DavResource resource );6;6;18
+JCRWebdavServerServlet.getAuthenticateHeaderValue( );1;0;3

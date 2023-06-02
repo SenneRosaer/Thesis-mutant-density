@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropertyOverrideConfigurer.hasPropertyOverridesFor( String beanName );1;0;3
+PropertyOverrideConfigurer.setBeanNameSeparator( String beanNameSeparator );1;0;3
+PropertyOverrideConfigurer.setIgnoreInvalidKeys( boolean ignoreInvalidKeys );1;0;3
+PropertyOverrideConfigurer.applyPropertyValue( ConfigurableListableBeanFactory factory , String beanName , String property , String value );2;1;11
+PropertyOverrideConfigurer.processProperties( ConfigurableListableBeanFactory beanFactory , Properties props );6;1;17
+PropertyOverrideConfigurer.processKey( ConfigurableListableBeanFactory factory , String key , String value );3;3;14

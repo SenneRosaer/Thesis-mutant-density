@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UserManagement.getUserRepositoryNames( );3;1;10
+UserManagement.setUsersStore( UsersStore usersStore );1;0;3
+UserManagement.addUser( String userName , String password , String repositoryName );1;0;3
+UserManagement.getAlias( String userName , String repositoryName );2;1;5
+UserManagement.unsetAlias( String userName , String repositoryName );2;1;7
+UserManagement.verifyExists( String userName , String repositoryName );1;0;4
+UserManagement.listAllUsers( String repositoryName );2;0;8
+UserManagement.setAlias( String userName , String aliasUserName , String repositoryName );2;1;9
+UserManagement.setPassword( String userName , String password , String repositoryName );2;1;6
+UserManagement.getJamesUser( String userName , String repositoryName );3;2;6
+UserManagement.unsetForwardAddress( String userName , String repositoryName );2;1;7
+UserManagement.setLocalUsers( UsersRepository localUsers );1;0;3
+UserManagement.deleteUser( String userName , String repositoryName );2;1;6
+UserManagement.getUserRepository( String repositoryName );4;3;7
+UserManagement.countUsers( String repositoryName );1;0;4
+UserManagement.setForwardAddress( String userName , String forwardEmailAddress , String repositoryName );3;1;14
+UserManagement.service( final ServiceManager componentManager );3;2;12
+UserManagement.getForwardAddress( String userName , String repositoryName );2;1;5

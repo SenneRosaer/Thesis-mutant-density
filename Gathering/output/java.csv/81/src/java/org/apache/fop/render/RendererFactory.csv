@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RendererFactory.listSupportedMimeTypes( );3;0;13
+RendererFactory.getRendererMaker( String mime );1;0;5
+RendererFactory.RendererFactory( );1;0;4
+RendererFactory.getFOEventHandlerMaker( String mime );1;0;5
+RendererFactory.discoverFOEventHandlers( );5;1;18
+RendererFactory.addRendererMaker( AbstractRendererMaker maker );3;3;10
+RendererFactory.addFOEventHandlerMaker( AbstractFOEventHandlerMaker maker );3;3;10
+RendererFactory.addRendererMaker( String className );5;1;20
+RendererFactory.createRenderer( FOUserAgent userAgent , String outputFormat );4;3;18
+RendererFactory.addFOEventHandlerMaker( String className );5;1;20
+RendererFactory.discoverRenderers( );5;1;18
+RendererFactory.createFOEventHandler( FOUserAgent userAgent , String outputFormat , OutputStream out );8;9;26

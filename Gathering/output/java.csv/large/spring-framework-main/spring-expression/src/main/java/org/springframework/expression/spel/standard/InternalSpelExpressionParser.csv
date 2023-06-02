@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InternalSpelExpressionParser.peekToken( TokenKind desiredTokenKind );1;0;3
+InternalSpelExpressionParser.eatExpression( );9;16;36
+InternalSpelExpressionParser.maybeEatNullReference( );3;2;13
+InternalSpelExpressionParser.maybeEatMethodArgs( );2;1;9
+InternalSpelExpressionParser.eatProductExpression( );4;3;19
+InternalSpelExpressionParser.maybeEatTypeReference( );5;3;25
+InternalSpelExpressionParser.InternalSpelExpressionParser( SpelParserConfiguration configuration );1;0;3
+InternalSpelExpressionParser.maybeEatFunctionOrVar( );3;2;16
+InternalSpelExpressionParser.eatStartNode( );13;6;24
+InternalSpelExpressionParser.checkRightOperand( Token token , @ Nullable SpelNodeImpl operandExpression );2;1;5
+InternalSpelExpressionParser.peekToken( TokenKind desiredTokenKind , boolean consumeIfMatched );8;9;19
+InternalSpelExpressionParser.maybeEatParenExpression( );2;1;13
+InternalSpelExpressionParser.pop( );1;0;3
+InternalSpelExpressionParser.maybeEatInlineListOrMap( );9;3;53
+InternalSpelExpressionParser.consumeArguments( List < SpelNodeImpl > accumulatedArguments );6;7;21
+InternalSpelExpressionParser.peekSelectToken( );4;6;7
+InternalSpelExpressionParser.push( SpelNodeImpl newNode );1;0;3
+InternalSpelExpressionParser.eatPowerIncDecExpression( );5;3;17
+InternalSpelExpressionParser.peekToken( );2;1;6
+InternalSpelExpressionParser.eatSumExpression( );4;2;15
+InternalSpelExpressionParser.takeToken( );2;2;6
+InternalSpelExpressionParser.peekToken( TokenKind possible1 , TokenKind possible2 );3;4;7
+InternalSpelExpressionParser.eatPossiblyQualifiedId( );5;2;20
+InternalSpelExpressionParser.peekToken( TokenKind possible1 , TokenKind possible2 , TokenKind possible3 );4;6;7
+InternalSpelExpressionParser.maybeEatLiteral( );11;8;38
+InternalSpelExpressionParser.positionOf( @ Nullable Token t );2;1;6
+InternalSpelExpressionParser.eatPrimaryExpression( );5;6;18
+InternalSpelExpressionParser.eatRelationalExpression( );10;10;38
+InternalSpelExpressionParser.eatUnaryExpression( );6;5;24
+InternalSpelExpressionParser.maybeEatConstructorReference( );7;1;35
+InternalSpelExpressionParser.maybeEatIndexer( );2;3;12
+InternalSpelExpressionParser.peekIdentifierToken( String identifierString );3;3;7
+InternalSpelExpressionParser.eatNode( );2;0;3
+InternalSpelExpressionParser.maybeEatMethodOrProperty( boolean nullSafeNavigation );3;1;15
+InternalSpelExpressionParser.eatLogicalOrExpression( );3;1;10
+InternalSpelExpressionParser.maybeEatProjection( boolean nullSafeNavigation );2;3;12
+InternalSpelExpressionParser.eatDottedNode( );6;5;14
+InternalSpelExpressionParser.nextToken( );2;2;6
+InternalSpelExpressionParser.maybeEatSelection( boolean nullSafeNavigation );5;5;23
+InternalSpelExpressionParser.eatNonDottedNode( );3;0;8
+InternalSpelExpressionParser.maybeEatRelationalOperator( );7;1;22
+InternalSpelExpressionParser.eatToken( TokenKind expectedKind );3;2;12
+InternalSpelExpressionParser.maybeEatBeanReference( );6;4;30
+InternalSpelExpressionParser.eatConstructorArgs( List < SpelNodeImpl > accumulatedArguments );2;1;8
+InternalSpelExpressionParser.toString( @ Nullable Token t );3;1;9
+InternalSpelExpressionParser.checkLeftOperand( Token token , @ Nullable SpelNodeImpl operandExpression );2;1;5
+InternalSpelExpressionParser.doParseExpression( String expressionString , @ Nullable ParserContext context );3;2;21
+InternalSpelExpressionParser.eatLogicalAndExpression( );3;1;10
+InternalSpelExpressionParser.internalException( int startPos , SpelMessage message , Object ... inserts );1;0;3
+InternalSpelExpressionParser.isValidQualifiedId( @ Nullable Token node );6;7;10
+InternalSpelExpressionParser.checkOperands( Token token , @ Nullable SpelNodeImpl left , @ Nullable SpelNodeImpl right );1;0;4

@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SMTPHandler.setUser( String userID );1;0;3
+SMTPHandler.getResponseBuffer( );1;0;3
+SMTPHandler.setMail( Mail mail );1;0;4
+SMTPHandler.getCommandName( );1;0;3
+SMTPHandler.resetState( );2;1;7
+SMTPHandler.setConfigurationData( Object theData );2;0;7
+SMTPHandler.getSessionID( );1;0;3
+SMTPHandler.getCommandArgument( );1;0;3
+SMTPHandler.writeResponse( String respString );2;1;6
+SMTPHandler.getStopHandlerProcessing( );1;0;3
+SMTPHandler.resetHandler( );1;0;7
+SMTPHandler.handleProtocol( );17;19;90
+SMTPHandler.getState( );1;0;3
+SMTPHandler.getConnectionState( );1;0;3
+SMTPHandler.resetConnectionState( );1;0;3
+SMTPHandler.getRcptCount( );2;1;7
+SMTPHandler.useHeloEhloEnforcement( );1;0;3
+SMTPHandler.setRelayingAllowed( boolean relayingAllowed );1;0;3
+SMTPHandler.isRelayingAllowed( );1;0;3
+SMTPHandler.getInputStream( );1;0;3
+SMTPHandler.abortMessage( );1;0;3
+SMTPHandler.errorHandler( RuntimeException e );1;0;3
+SMTPHandler.readCommandLine( );5;1;13
+SMTPHandler.clearResponseBuffer( );1;0;5
+SMTPHandler.setHandlerChain( SMTPHandlerChain handlerChain );1;0;3
+SMTPHandler.getUser( );1;0;3
+SMTPHandler.getRemoteIPAddress( );1;0;3
+SMTPHandler.getMail( );1;0;3
+SMTPHandler.getWatchdog( );1;0;3
+SMTPHandler.isAuthRequired( );1;0;3
+SMTPHandler.setStopHandlerProcessing( boolean stopHandlerProcessing );1;0;3
+SMTPHandler.getConfigurationData( );1;0;3
+SMTPHandler.isSessionEnded( );1;0;3
+SMTPHandler.endSession( );1;0;3
+SMTPHandler.getRemoteHost( );1;0;3
+SMTPHandler.setProtocolHandlerHelper( ProtocolHandlerHelper phh );1;0;3

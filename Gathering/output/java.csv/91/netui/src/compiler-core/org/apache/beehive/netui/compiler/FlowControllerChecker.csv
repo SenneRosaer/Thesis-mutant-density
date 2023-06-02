@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FlowControllerChecker.checkExceptionHandlerArgType( MethodDeclaration method , ParameterDeclaration [ ] parameters , int index , String className );2;2;7
+FlowControllerChecker.checkRelativePath( AnnotationInstance ann , String memberName , TypeDeclaration jclass , TypeDeclaration baseType , boolean isError );7;8;26
+FlowControllerChecker.checkInheritedRelativePaths( ClassDeclaration jclass );19;13;80
+FlowControllerChecker.checkRelativePath( String methodName , AnnotationInstance ann , String memberName , TypeDeclaration jclass , TypeDeclaration baseType , boolean isError );7;8;27
+FlowControllerChecker.enableNavigateTo( TypeDeclaration flowControllerClass , MergedControllerAnnotation controllerAnn , FlowControllerInfo fcInfo );5;5;16
+FlowControllerChecker.checkField( FieldDeclaration field , TypeDeclaration jclass );6;6;12
+FlowControllerChecker.onCheckInternal( ClassDeclaration jclass );11;8;49
+FlowControllerChecker.checkForOverlappingClasses( ClassDeclaration jpfClass , String baseClass , String fileExtension , String errorKey );16;18;65
+FlowControllerChecker.FlowControllerChecker( CoreAnnotationProcessorEnv env , FlowControllerInfo fcInfo , Diagnostics diags );1;0;3
+FlowControllerChecker.checkExceptionHandlerMethod( MethodDeclaration method );5;3;28
+ExtensionFileFilter.ExtensionFileFilter( String extension );1;0;3
+FlowControllerChecker.enableNavigateTo( Collection childAnnotations , FlowControllerInfo fcInfo );3;1;10
+FlowControllerChecker.startCheckClass( ClassDeclaration jclass );8;7;29
+FlowControllerChecker.getFCSourceFileInfo( );1;0;3
+FlowControllerChecker.getCheckResultMap( );1;0;3
+ExtensionFileFilter.accept( File dir , String name );1;0;3
+FlowControllerChecker.enableNavigateTo( AnnotationInstance ann , FlowControllerInfo fcInfo );7;4;16
+FlowControllerChecker.onCheck( ClassDeclaration jclass );1;0;22
+FlowControllerChecker.endCheckClass( ClassDeclaration jclass );1;0;2
+FlowControllerChecker.checkInnerClass( ClassDeclaration jclass );6;5;18
+FlowControllerChecker.checkConditionalForwardsExpressions( ClassDeclaration jclass );6;3;26
+FlowControllerChecker.checkMethod( MethodDeclaration method , ClassDeclaration jclass , AnnotationGrammar actionGrammar , AnnotationGrammar exceptionHandlerGrammar );5;3;21
+FlowControllerChecker.doAdditionalClassChecks( ClassDeclaration jpfClass );1;0;2

@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AuthenticationContext.setup( String value , String load , String save );1;0;2
+AuthenticationContext.appendXML( String path , DocumentFragment fragment );9;5;27
+AuthenticationContext.readDOM( String location , Parameters typeParameters , SourceParameters parameters , SourceResolver resolver );4;0;18
+AuthenticationContext.saveXML( String path , SourceParameters parameters );9;7;28
+AuthenticationContext.getNodeList( String path );1;0;3
+AuthenticationContext.getValueOfNode( String path );1;0;3
+AuthenticationContext.isUserInRole( String role );5;1;18
+AuthenticationContext.init( UserHandler handler );2;0;10
+AuthenticationContext.setXML( String path , DocumentFragment fragment );9;5;27
+AuthenticationContext.streamXML( String path , ContentHandler contentHandler , LexicalHandler lexicalHandler );10;6;33
+AuthenticationContext.loadApplicationXML( ApplicationConfiguration appConf , SourceResolver resolver );4;4;21
+AuthenticationContext.cleanParametersCache( );1;0;4
+AuthenticationContext.setAttribute( String key , Object value );1;0;3
+AuthenticationContext.setNode( String path , Node node );1;0;3
+AuthenticationContext.getContextInfo( );5;5;19
+AuthenticationContext.getSingleNode( String path );1;0;3
+AuthenticationContext.getAttribute( String key , Object defaultObject );1;0;3
+AuthenticationContext.init( Document doc );2;0;6
+AuthenticationContext.addParametersFromAuthenticationXML( String path , SourceParameters parameters );11;14;32
+AuthenticationContext.loadAuthenticationXML( String path , SourceParameters parameters , SourceResolver resolver );4;3;21
+AuthenticationContext.loadApplicationXML( String path , SourceParameters parameters , SourceResolver resolver );4;3;23
+AuthenticationContext.setValueOfNode( String path , String value );1;0;3
+AuthenticationContext.getContextInfoAsParameters( );2;1;8
+AuthenticationContext.getState( );1;0;3
+AuthenticationContext.saveApplicationXML( String path , SourceParameters parameters , SourceResolver resolver );5;4;30
+AuthenticationContext.getName( );1;0;3
+AuthenticationContext.createParameters( SourceParameters parameters , String path , boolean appendAppInfo );5;3;14
+AuthenticationContext.saveAuthenticationXML( String path , SourceParameters parameters , SourceResolver resolver );5;4;28
+AuthenticationContext.removeXML( String path );9;5;28
+AuthenticationContext.loadXML( String path , SourceParameters parameters );9;7;28
+AuthenticationContext.getXML( String path );16;9;59
+AuthenticationContext.getAttribute( String key );1;0;3
+AuthenticationContext.AuthenticationContext( Context context , XPathProcessor processor , SourceResolver resolver );1;0;5

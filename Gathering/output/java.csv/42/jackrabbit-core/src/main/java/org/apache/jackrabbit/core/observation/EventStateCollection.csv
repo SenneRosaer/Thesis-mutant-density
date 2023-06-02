@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EventStateCollection.iterator( );1;0;3
+EventStateCollection.getTimestamp( );1;0;3
+EventStateCollection.getPathPrefix( );1;0;3
+EventStateCollection.setTimestamp( long timestamp );1;0;3
+EventStateCollection.getPath( ItemId itemId , HierarchyManager hmgr );2;0;9
+EventStateCollection.dispatch( );1;0;3
+EventStateCollection.createEventStates( NodeId rootNodeId , ChangeLog changes , ItemStateManager stateMgr );26;13;201
+EventStateCollection.getEvents( );1;0;3
+EventStateCollection.getParent( Path p );2;0;9
+EventStateCollection.getSession( );1;0;3
+EventStateCollection.prefixPath( Path p );4;3;14
+EventStateCollection.EventStateCollection( EventDispatcher dispatcher , SessionImpl session , Path pathPrefix );1;0;5
+EventStateCollection.addAll( Collection c );1;0;3
+EventStateCollection.getZombiePath( ItemId itemId , ChangeLogBasedHierarchyMgr hmgr );2;0;9
+EventStateCollection.prepare( );1;0;3
+EventStateCollection.prepareDeleted( ChangeLog changes );1;0;3
+EventStateCollection.getNodeType( NodeState node , SessionImpl session );2;0;9

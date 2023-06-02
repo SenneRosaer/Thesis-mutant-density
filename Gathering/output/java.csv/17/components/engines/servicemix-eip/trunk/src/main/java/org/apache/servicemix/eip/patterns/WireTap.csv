@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WireTap.sendSyncToListenerAndTarget( MessageExchange source , MessageExchange dest , ExchangeTarget listener , String message , boolean copy );5;1;23
+WireTap.sendToListenerAndTarget( MessageExchange source , MessageExchange dest , ExchangeTarget listener , String message , boolean copy );5;1;23
+WireTap.setTarget( ExchangeTarget target );1;0;4
+WireTap.getOutListener( );1;0;3
+WireTap.processSync( MessageExchange exchange );6;5;23
+WireTap.getInListener( );1;0;3
+WireTap.setFaultListener( ExchangeTarget faultListener );1;0;3
+WireTap.getTarget( );1;0;3
+WireTap.isCopyProperties( );1;0;3
+WireTap.setInListener( ExchangeTarget inListener );1;0;3
+WireTap.getFaultListener( );1;0;3
+WireTap.setCopyProperties( boolean copyProperties );1;0;3
+WireTap.processAsync( MessageExchange exchange );13;13;45
+WireTap.validate( );2;1;7
+WireTap.setOutListener( ExchangeTarget outListener );1;0;3
+WireTap.copyExchangeProperties( MessageExchange exchange , String srcMessage , String dstMessage );3;1;11

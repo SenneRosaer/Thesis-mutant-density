@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JettyWebSocketHandlerAdapter.onWebSocketClose( int statusCode , String reason );2;1;5
+JettyWebSocketHandlerAdapter.onWebSocketBinary( byte [ ] message , int offset , int length );2;1;7
+JettyWebSocketHandlerAdapter.onWebSocketError( Throwable cause );2;1;5
+JettyWebSocketHandlerAdapter.onWebSocketConnect( Session session );1;0;6
+JettyWebSocketHandlerAdapter.JettyWebSocketHandlerAdapter( WebSocketHandler handler , Function < Session , JettyWebSocketSession > sessionFactory );1;0;6
+JettyWebSocketHandlerAdapter.onWebSocketText( String message );2;1;6
+JettyWebSocketHandlerAdapter.toMessage( Type type , T message );4;1;20
+JettyWebSocketHandlerAdapter.onWebSocketFrame( Frame frame );4;3;9

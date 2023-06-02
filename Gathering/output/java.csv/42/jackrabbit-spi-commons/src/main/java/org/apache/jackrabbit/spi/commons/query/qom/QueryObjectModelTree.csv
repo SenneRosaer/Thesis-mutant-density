@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QueryObjectModelTree.getSource( );1;0;3
+QueryObjectModelTree.visit( PropertyExistenceImpl node , Object data );1;0;3
+QueryObjectModelTree.visit( NodeLocalNameImpl node , Object data );1;0;3
+QueryObjectModelTree.visit( NodeNameImpl node , Object data );1;0;3
+QueryObjectModelTree.checkSelector( Name selectorName );3;4;12
+QueryObjectModelTree.visit( SameNodeImpl node , Object data );1;0;3
+QueryObjectModelTree.getOrderings( );1;0;5
+QueryObjectModelTree.visit( FullTextSearchScoreImpl node , Object data );1;0;3
+QueryObjectModelTree.visit( FullTextSearchImpl node , Object data );1;0;3
+QueryObjectModelTree.accept( QOMTreeVisitor visitor , Object data );1;0;3
+QueryObjectModelTree.visit( DescendantNodeImpl node , Object data );1;0;3
+QueryObjectModelTree.getSelector( Name name );1;0;3
+QueryObjectModelTree.visit( SameNodeJoinConditionImpl node , Object data );1;0;4
+QueryObjectModelTree.getColumns( );1;0;5
+QueryObjectModelTree.visit( PropertyValueImpl node , Object data );1;0;3
+QueryObjectModelTree.visit( ChildNodeImpl node , Object data );1;0;3
+QueryObjectModelTree.getConstraint( );1;0;3
+QueryObjectModelTree.checkQuery( );4;0;63
+QueryObjectModelTree.QueryObjectModelTree( NamePathResolver resolver , SourceImpl source , ConstraintImpl constraint , OrderingImpl [ ] orderings , ColumnImpl [ ] columns );4;2;18
+QueryObjectModelTree.visit( EquiJoinConditionImpl node , Object data );1;0;4
+QueryObjectModelTree.visit( ColumnImpl node , Object data );1;0;3

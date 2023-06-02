@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JDBCVirtualUserTable.setFileSystem( FileSystem fileSystem );1;0;3
+JDBCVirtualUserTable.mapAddressInternal( String user , String domain );3;0;26
+JDBCVirtualUserTable.getDomainString( String domain );4;3;11
+JDBCVirtualUserTable.updateMapping( String user , String domain , String mapping );3;1;26
+JDBCVirtualUserTable.service( ServiceManager arg0 );1;0;5
+JDBCVirtualUserTable.getDomainsInternal( );6;4;31
+JDBCVirtualUserTable.delegatedLog( String logString );1;0;3
+JDBCVirtualUserTable.configure( Configuration arg0 );10;11;49
+JDBCVirtualUserTable.getAllMappingsInternal( );4;2;28
+JDBCVirtualUserTable.getUserDomainMappingsInternal( String user , String domain );3;0;25
+JDBCVirtualUserTable.addRawMapping( String user , String domain , String mapping );3;1;26
+JDBCVirtualUserTable.setDataSourceComponent( DataSourceComponent dataSourceComponent );1;0;3
+JDBCVirtualUserTable.removeRawMapping( String user , String domain , String mapping );3;1;26
+JDBCVirtualUserTable.initialize( );7;2;52
+JDBCVirtualUserTable.getUserString( String user );4;3;11
+JDBCVirtualUserTable.removeMappingInternal( String user , String domain , String mapping );3;3;11
+JDBCVirtualUserTable.containsDomain( String domain );3;0;24
+JDBCVirtualUserTable.addMappingInternal( String user , String domain , String regex );3;3;10

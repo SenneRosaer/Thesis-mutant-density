@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TraversableGenerator.getAncestors( TraversableSource source );4;4;13
+TraversableGenerator.isExcluded( TraversableSource source );2;1;3
+TraversableGenerator.setup( SourceResolver resolver , Map objectModel , String src , Parameters par );13;8;66
+TraversableGenerator.isIncluded( TraversableSource source );2;1;3
+TraversableGenerator.setNodeAttributes( TraversableSource source );2;0;21
+TraversableGenerator.addContent( TraversableSource source );1;0;2
+TraversableGenerator.addPath( TraversableSource source , int depth );27;9;80
+TraversableGenerator.addAncestorPath( TraversableSource source , Stack ancestors );2;0;10
+TraversableGenerator.isRoot( TraversableSource source );2;1;3
+TraversableGenerator.getKey( );2;2;9
+TraversableGenerator.endNode( String nodeName );1;2;3
+TraversableGenerator.startNode( String nodeName , TraversableSource source );2;3;7
+TraversableGenerator.getValidity( );2;1;6
+TraversableGenerator.compare( Object o1 , Object o2 );2;10;6
+TraversableGenerator.recycle( );1;0;10
+TraversableGenerator.generate( );9;5;38

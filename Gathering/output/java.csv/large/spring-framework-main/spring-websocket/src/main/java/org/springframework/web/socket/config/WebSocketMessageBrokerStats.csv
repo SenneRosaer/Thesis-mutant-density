@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketMessageBrokerStats.getStompBrokerRelayStatsInfo( );2;1;3
+WebSocketMessageBrokerStats.getLoggingPeriod( );1;0;3
+WebSocketMessageBrokerStats.getSockJsTaskSchedulerStatsInfo( );3;1;10
+WebSocketMessageBrokerStats.toString( );1;0;8
+WebSocketMessageBrokerStats.getClientInboundExecutorStatsInfo( );1;0;3
+WebSocketMessageBrokerStats.getWebSocketSessionStatsInfo( );2;1;3
+WebSocketMessageBrokerStats.setSockJsTaskScheduler( TaskScheduler sockJsTaskScheduler );1;0;4
+WebSocketMessageBrokerStats.setSubProtocolWebSocketHandler( SubProtocolWebSocketHandler webSocketHandler );1;0;4
+WebSocketMessageBrokerStats.getExecutorStatsInfo( @ Nullable Executor executor );5;4;16
+WebSocketMessageBrokerStats.getClientOutboundExecutorStatsInfo( );1;0;3
+WebSocketMessageBrokerStats.setInboundChannelExecutor( TaskExecutor inboundChannelExecutor );1;0;3
+WebSocketMessageBrokerStats.setStompBrokerRelay( StompBrokerRelayMessageHandler stompBrokerRelay );1;0;3
+WebSocketMessageBrokerStats.setLoggingPeriod( long period );2;1;7
+WebSocketMessageBrokerStats.initStompSubProtocolHandler( );5;1;15
+WebSocketMessageBrokerStats.setOutboundChannelExecutor( TaskExecutor outboundChannelExecutor );1;0;3
+WebSocketMessageBrokerStats.getStompSubProtocolStatsInfo( );2;1;3
+WebSocketMessageBrokerStats.initLoggingTask( long initialDelay );4;4;8

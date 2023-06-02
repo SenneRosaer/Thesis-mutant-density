@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AdminCommandsService.shutdownServiceAssembly( String name );1;0;3
+AdminCommandsService.installArchive( String location );2;0;8
+AdminCommandsService.startServiceAssembly( String name );1;0;3
+AdminCommandsService.shutdownComponent( String name );3;1;12
+AdminCommandsService.undeployServiceAssembly( String name );1;0;3
+AdminCommandsService.listServiceAssemblies( String state , String componentName , String serviceAssemblyName );12;16;42
+AdminCommandsService.getOperationInfos( );1;0;46
+AdminCommandsService.stopComponent( String name );3;1;12
+AdminCommandsService.deployServiceAssembly( String file , boolean deferException );2;0;8
+AdminCommandsService.listComponents( boolean excludeSEs , boolean excludeBCs , boolean excludePojos , String requiredState , String sharedLibraryName , String serviceAssemblyName );31;35;66
+AdminCommandsService.listSharedLibraries( String componentName , String sharedLibraryName );6;4;30
+AdminCommandsService.startComponent( String name );3;1;12
+AdminCommandsService.installSharedLibrary( String file , boolean deferException );2;0;8
+AdminCommandsService.getDescription( );1;0;3
+AdminCommandsService.uninstallComponent( String name );4;2;15
+AdminCommandsService.getServiceMBean( );1;0;3
+AdminCommandsService.uninstallSharedLibrary( String name );8;5;27
+AdminCommandsService.stopServiceAssembly( String name );1;0;3
+AdminCommandsService.installComponent( String file , Properties props , boolean deferException );3;0;12

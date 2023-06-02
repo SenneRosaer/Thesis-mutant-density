@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TFTPDataPacket.getBlockNumber( );1;0;3
+TFTPDataPacket.getDataOffset( );1;0;3
+TFTPDataPacket.TFTPDataPacket( InetAddress destination , int port , int blockNumber , byte [ ] data , int offset , int length );2;1;10
+TFTPDataPacket.newDatagram( );1;5;10
+TFTPDataPacket.getData( );1;0;3
+TFTPDataPacket._newDatagram( DatagramPacket datagram , byte [ ] data );2;5;13
+TFTPDataPacket.getDataLength( );1;0;3
+TFTPDataPacket.TFTPDataPacket( InetAddress destination , int port , int blockNumber , byte [ ] data );1;0;3
+TFTPDataPacket.setData( byte [ ] data , int offset , int length );2;1;9
+TFTPDataPacket.TFTPDataPacket( DatagramPacket datagram );3;7;11
+TFTPDataPacket.setBlockNumber( int blockNumber );1;0;3

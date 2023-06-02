@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractReflectiveMBeanInfoAssembler.getOperationDescription( Method method , String beanKey );1;0;3
+AbstractReflectiveMBeanInfoAssembler.populateMBeanDescriptor( Descriptor descriptor , Object managedBean , String beanKey );1;0;3
+AbstractReflectiveMBeanInfoAssembler.isUseStrictCasing( );1;0;3
+AbstractReflectiveMBeanInfoAssembler.getClassForDescriptor( Object managedBean );2;0;6
+AbstractReflectiveMBeanInfoAssembler.applyDefaultCurrencyTimeLimit( Descriptor desc );2;1;5
+AbstractReflectiveMBeanInfoAssembler.getParameterNameDiscoverer( );1;0;3
+AbstractReflectiveMBeanInfoAssembler.setParameterNameDiscoverer( @ Nullable ParameterNameDiscoverer parameterNameDiscoverer );1;0;3
+AbstractReflectiveMBeanInfoAssembler.populateOperationDescriptor( Descriptor desc , Method method , String beanKey );1;0;3
+AbstractReflectiveMBeanInfoAssembler.getAttributeDescription( PropertyDescriptor propertyDescriptor , String beanKey );1;0;3
+AbstractReflectiveMBeanInfoAssembler.createModelMBeanOperationInfo( Method method , String name , String beanKey );2;1;13
+AbstractReflectiveMBeanInfoAssembler.getAttributeInfo( Object managedBean , String beanKey );12;14;33
+AbstractReflectiveMBeanInfoAssembler.setDefaultCurrencyTimeLimit( @ Nullable Integer defaultCurrencyTimeLimit );1;0;3
+AbstractReflectiveMBeanInfoAssembler.populateAttributeDescriptor( Descriptor desc , @ Nullable Method getter , @ Nullable Method setter , String beanKey );1;0;3
+AbstractReflectiveMBeanInfoAssembler.applyCurrencyTimeLimit( Descriptor desc , int currencyTimeLimit );3;2;11
+AbstractReflectiveMBeanInfoAssembler.getOperationParameters( Method method , String beanKey );5;4;13
+AbstractReflectiveMBeanInfoAssembler.getOperationInfo( Object managedBean , String beanKey );15;9;44
+AbstractReflectiveMBeanInfoAssembler.getDefaultCurrencyTimeLimit( );1;0;3
+AbstractReflectiveMBeanInfoAssembler.isExposeClassDescriptor( );1;0;3
+AbstractReflectiveMBeanInfoAssembler.setExposeClassDescriptor( boolean exposeClassDescriptor );1;0;3
+AbstractReflectiveMBeanInfoAssembler.setUseStrictCasing( boolean useStrictCasing );1;0;3

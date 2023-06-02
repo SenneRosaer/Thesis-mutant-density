@@ -1,0 +1,58 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FTP.allo( int bytes );1;0;3
+FTP.pwd( );1;0;3
+FTP.type( int fileType );1;1;4
+FTP.nlst( String pathname );1;0;3
+FTP.sendCommand( int command , String args );1;0;3
+FTP.sendCommand( int command );1;0;3
+FTP.rmd( String pathname );1;0;3
+FTP.help( );1;0;3
+FTP.site( String parameters );1;0;3
+FTP.rnto( String pathname );1;0;3
+FTP.mkd( String pathname );1;0;3
+FTP.getReplyString( );3;1;15
+FTP.retr( String pathname );1;0;3
+FTP.pasv( );1;0;3
+FTP.FTP( );1;0;9
+FTP.type( int fileType , int formatOrByteSize );2;1;10
+FTP.noop( );1;0;3
+FTP.stru( int structure );1;1;4
+FTP.getControlEncoding( );1;0;3
+FTP.user( String username );1;0;3
+FTP.sendCommand( String command );1;0;3
+FTP.__getReply( );12;13;42
+FTP.removeProtocolCommandListener( ProtocolCommandListener listener );1;0;3
+FTP.cwd( String directory );1;0;3
+FTP.abor( );1;0;3
+FTP.getReplyStrings( );1;0;6
+FTP.cdup( );1;0;3
+FTP.smnt( String dir );1;0;3
+FTP.syst( );1;0;3
+FTP.sendCommand( String command , String args );6;5;30
+FTP.allo( int bytes , int recordSize );1;1;4
+FTP.appe( String pathname );1;0;3
+FTP.addProtocolCommandListener( ProtocolCommandListener listener );1;0;3
+FTP.stat( );1;0;3
+FTP.acct( String account );1;0;3
+FTP.rnfr( String pathname );1;0;3
+FTP.stor( String pathname );1;0;3
+FTP.pass( String password );1;0;3
+FTP.stou( String pathname );1;0;3
+FTP.nlst( );1;0;3
+FTP.list( String pathname );1;0;3
+FTP.socketIsConnected( Socket socket );5;1;23
+FTP.help( String command );1;0;3
+FTP._connectAction_( );2;0;12
+FTP.rein( );1;0;3
+FTP.port( InetAddress host , int port );1;2;12
+FTP.setControlEncoding( String encoding );1;0;3
+FTP.stou( );1;0;3
+FTP.list( );1;0;3
+FTP.getReply( );1;0;4
+FTP.disconnect( );1;0;8
+FTP.dele( String pathname );1;0;3
+FTP.rest( String marker );1;0;3
+FTP.quit( );1;0;3
+FTP.mode( int mode );1;1;4
+FTP.getReplyCode( );1;0;3
+FTP.stat( String pathname );1;0;3

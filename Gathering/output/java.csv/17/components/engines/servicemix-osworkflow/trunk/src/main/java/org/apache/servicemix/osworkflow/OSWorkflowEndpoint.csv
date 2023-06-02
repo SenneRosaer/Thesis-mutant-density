@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OSWorkflowEndpoint.send( MessageExchange ex , boolean sync );2;0;7
+OSWorkflowEndpoint.getWorkflowName( );1;0;3
+OSWorkflowEndpoint.getCaller( );1;0;3
+OSWorkflowEndpoint.sendRawInOutRequest( QName service , Source source );2;0;11
+OSWorkflowEndpoint.setAction( int action );1;0;3
+OSWorkflowEndpoint.stop( );1;0;4
+OSWorkflowEndpoint.process( MessageExchange exchange );4;3;13
+OSWorkflowEndpoint.sendRequest( QName service , Source source );3;0;18
+OSWorkflowEndpoint.sendMessage( QName service , Source source );2;1;11
+OSWorkflowEndpoint.getNewExchange( QName qname , boolean inOut );2;0;9
+OSWorkflowEndpoint.preWorkflow( );1;0;2
+OSWorkflowEndpoint.setWorkflowName( String workflowName );1;0;3
+OSWorkflowEndpoint.start( );1;0;5
+OSWorkflowEndpoint.postWorkflow( );1;0;2
+OSWorkflowEndpoint.onConsumerExchange( MessageExchange exchange );3;2;10
+OSWorkflowEndpoint.setCaller( String caller );1;0;3
+OSWorkflowEndpoint.onProviderExchange( MessageExchange exchange );5;4;19
+OSWorkflowEndpoint.fail( MessageExchange ex );1;0;3
+OSWorkflowEndpoint.done( MessageExchange ex );1;0;3
+OSWorkflowEndpoint.getAction( );1;0;3

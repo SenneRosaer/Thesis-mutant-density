@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Money.Money( double amount );1;0;3
+Money.equals( Money other );2;2;3
+Money.Money( );1;0;3
+Money.equals( Object other );2;1;3
+Money.assertSameCurrencyAs( Money other );2;1;5
+Money.compareTo( Money other );3;3;10
+Money.getCentFactor( );1;0;3
+Money.getCurrency( );1;0;3
+Money.hashCode( );1;2;3
+Money.getCurrencyCode( );1;0;4
+Money.setCurrencyCode( String currencyCode );3;3;6
+Money.compareTo( Object other );1;0;3
+Bug_for_money.test_for_issue( );1;0;8
+Money.Money( double amount , Currency currency );1;1;4
+Money.getAmount( );1;0;3
+Money.toString( );1;0;3
+Money.getCent( );1;0;3
+Money.setCent( long l );1;0;3

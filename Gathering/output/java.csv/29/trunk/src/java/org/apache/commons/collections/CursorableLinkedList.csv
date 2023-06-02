@@ -1,0 +1,109 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CursorableSubList.toArray( Object a [ ] );1;0;4
+Cursor.invalidate( );1;0;3
+CursorableLinkedList.removeLast( );2;1;9
+Listable.value( );1;0;3
+CursorableLinkedList.isEmpty( );1;1;3
+Cursor.listableInserted( Listable elt );6;6;13
+CursorableLinkedList.insertListable( Listable before , Listable after , Object value );3;4;17
+CursorableSubList.removeListable( Listable elt );5;7;16
+CursorableLinkedList.contains( Object o );7;9;9
+Listable.setValue( Object val );1;0;5
+CursorableSubList.listIterator( );1;0;4
+CursorableSubList.addAll( Collection c );1;0;4
+CursorableSubList.clear( );2;0;8
+CursorableLinkedList.unregisterCursor( Cursor cur );4;2;13
+CursorableSubList.lastIndexOf( Object o );1;0;4
+CursorableLinkedList.addAll( Collection c );3;0;10
+ListIter.nextIndex( );2;1;7
+ListIter.hasNext( );2;3;4
+CursorableSubList.equals( Object o );1;0;4
+CursorableLinkedList.toArray( Object a [ ] );5;6;13
+CursorableLinkedList.toString( );4;4;12
+CursorableLinkedList.broadcastListableRemoved( Listable elt );3;1;12
+CursorableSubList.set( int index , Object element );1;0;4
+CursorableSubList.contains( Object o );1;0;4
+CursorableSubList.remove( int index );1;0;4
+CursorableLinkedList.getLast( );2;0;7
+CursorableSubList.isEmpty( );1;0;4
+CursorableLinkedList.listIterator( );1;0;3
+CursorableSubList.add( int index , Object element );1;0;4
+ListIter.add( Object o );1;2;7
+CursorableSubList.add( Object o );1;0;4
+Cursor.listableRemoved( Listable elt );6;5;15
+ListIter.checkForComod( );2;1;5
+CursorableLinkedList.registerCursor( Cursor cur );3;1;9
+ListIter.ListIter( int index );3;2;13
+CursorableLinkedList.cursor( int i );1;0;3
+CursorableLinkedList.remove( Object o );7;8;12
+CursorableSubList.checkForComod( );2;1;5
+Cursor.add( Object o );1;2;9
+CursorableLinkedList.set( int index , Object element );1;0;6
+CursorableLinkedList.size( );1;0;3
+CursorableLinkedList.listIterator( int index );3;4;6
+Listable.setNext( Listable next );1;0;3
+CursorableLinkedList.addFirst( Object o );1;0;4
+CursorableLinkedList.writeObject( ObjectOutputStream out );2;1;9
+CursorableLinkedList.hashCode( );4;6;7
+CursorableSubList.containsAll( Collection c );1;0;4
+CursorableLinkedList.indexOf( Object o );8;11;19
+CursorableLinkedList.readObject( ObjectInputStream in );2;2;11
+CursorableLinkedList.containsAll( Collection c );3;1;9
+Cursor.checkForComod( );2;1;5
+Listable.prev( );1;0;3
+ListIter.hasPrevious( );2;3;4
+CursorableLinkedList.toArray( );3;4;8
+CursorableSubList.removeFirst( );1;0;4
+CursorableLinkedList.remove( int index );1;0;6
+CursorableSubList.iterator( );1;0;4
+CursorableLinkedList.invalidateCursors( );3;1;12
+CursorableLinkedList.iterator( );1;0;3
+CursorableSubList.retainAll( Collection c );1;0;4
+CursorableLinkedList.broadcastListableChanged( Listable elt );3;1;12
+Cursor.previousIndex( );1;0;3
+CursorableLinkedList.getListableAt( int index );6;12;18
+CursorableLinkedList.cursor( );1;0;3
+CursorableSubList.addAll( int index , Collection c );1;0;4
+CursorableSubList.toArray( );1;0;4
+CursorableSubList.insertListable( Listable before , Listable after , Object value );6;7;17
+CursorableLinkedList.add( int index , Object element );6;7;12
+CursorableSubList.addLast( Object o );1;0;4
+CursorableLinkedList.subList( int i , int j );6;8;9
+CursorableSubList.getLast( );1;0;4
+CursorableSubList.get( int index );1;0;4
+Cursor.listableChanged( Listable elt );2;1;5
+Listable.setPrev( Listable prev );1;0;3
+CursorableSubList.addFirst( Object o );1;0;4
+CursorableLinkedList.clear( );2;0;7
+Cursor.Cursor( int index );1;0;5
+CursorableSubList.removeAll( Collection c );1;0;4
+Listable.Listable( Listable prev , Listable next , Object val );1;0;5
+Cursor.nextIndex( );1;0;3
+CursorableLinkedList.add( Object o );1;0;4
+CursorableSubList.indexOf( Object o );1;0;4
+CursorableSubList.remove( Object o );1;0;4
+CursorableLinkedList.removeListable( Listable elt );5;6;17
+CursorableSubList.hashCode( );1;0;4
+CursorableSubList.subList( int fromIndex , int toIndex );1;0;4
+CursorableSubList.removeLast( );1;0;4
+CursorableLinkedList.get( int index );1;0;3
+CursorableLinkedList.getFirst( );2;0;7
+ListIter.remove( );4;5;13
+ListIter.previous( );2;2;13
+CursorableLinkedList.addAll( int index , Collection c );6;4;15
+CursorableSubList.size( );1;0;4
+CursorableLinkedList.retainAll( Collection c );3;1;11
+Cursor.close( );2;0;6
+ListIter.previousIndex( );2;3;7
+CursorableLinkedList.removeAll( Collection c );5;3;15
+Listable.next( );1;0;3
+CursorableLinkedList.broadcastListableInserted( Listable elt );3;1;12
+CursorableLinkedList.lastIndexOf( Object o );8;12;19
+ListIter.set( Object o );2;0;8
+CursorableLinkedList.removeFirst( );2;1;9
+CursorableSubList.getFirst( );1;0;4
+CursorableSubList.CursorableSubList( CursorableLinkedList list , int from , int to );8;11;28
+CursorableLinkedList.addLast( Object o );1;0;4
+CursorableSubList.listIterator( int index );1;0;4
+CursorableLinkedList.equals( Object o );8;11;14
+ListIter.next( );2;2;13

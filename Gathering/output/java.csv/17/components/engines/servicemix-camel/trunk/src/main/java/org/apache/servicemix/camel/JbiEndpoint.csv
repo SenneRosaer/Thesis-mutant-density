@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JbiEndpoint.getOperation( );1;0;3
+JbiEndpoint.JbiEndpoint( CamelJbiComponent jbiComponent , String uri );1;0;5
+JbiEndpoint.doStop( );2;1;6
+JbiProducer.JbiProducer( Endpoint < Exchange > exchangeEndpoint );1;0;3
+JbiEndpoint.doStart( );1;0;4
+JbiEndpoint.setDestionationUri( String str );1;0;3
+JbiEndpoint.setMep( String str );1;0;3
+JbiEndpoint.getDestinationUri( );1;0;3
+JbiProducer.process( Exchange exchange );1;0;3
+JbiEndpoint.getMep( );1;0;3
+JbiEndpoint.createExchange( );1;0;3
+JbiEndpoint.getBinding( );1;0;3
+JbiEndpoint.isSingleton( );1;0;3
+JbiEndpoint.createProducer( );2;1;6
+JbiEndpoint.setOperation( String str );1;0;3
+JbiEndpoint.parseUri( String uri );5;5;17
+JbiProducer.process( Exchange exchange , AsyncCallback asyncCallback );1;0;3
+JbiProducer.stop( );2;0;9
+JbiProducer.start( );1;0;5
+JbiEndpoint.createConsumer( final Processor processor );2;0;17

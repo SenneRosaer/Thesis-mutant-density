@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ValidationState.reset( );1;0;10
+ValidationState.needToNormalize( );1;0;3
+ValidationState.setUsingNamespaces( boolean newValue );1;0;3
+ValidationState.setFacetChecking( boolean newValue );1;0;3
+ValidationState.setSymbolTable( SymbolTable sTable );1;0;3
+ValidationState.addIdRef( String name );1;0;3
+ValidationState.resetIDTables( );1;0;4
+ValidationState.addId( String name );1;0;3
+ValidationState.needExtraChecking( );1;0;3
+ValidationState.getLocale( );1;0;3
+ValidationState.setExtraChecking( boolean newValue );1;0;3
+ValidationState.isIdDeclared( String name );1;0;3
+ValidationState.isEntityDeclared( String name );2;1;6
+ValidationState.setNamespaceSupport( NamespaceContext namespace );1;0;3
+ValidationState.checkIDRefID( );3;1;11
+ValidationState.needFacetChecking( );1;0;3
+ValidationState.setNormalizationRequired( boolean newValue );1;0;3
+ValidationState.setLocale( Locale locale );1;0;3
+ValidationState.setEntityState( EntityState state );1;0;3
+ValidationState.getURI( String prefix );2;1;6
+ValidationState.getSymbol( String symbol );2;1;5
+ValidationState.useNamespaces( );1;0;3
+ValidationState.isEntityUnparsed( String name );2;1;6

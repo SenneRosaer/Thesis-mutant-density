@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EqualsBuilder.append( char lhs , char rhs );2;2;7
+EqualsBuilder.append( short [ ] lhs , short [ ] rhs );8;9;20
+EqualsBuilder.append( Object [ ] lhs , Object [ ] rhs );8;9;20
+EqualsBuilder.append( boolean lhs , boolean rhs );2;2;7
+EqualsBuilder.append( int lhs , int rhs );2;2;7
+EqualsBuilder.reflectionEquals( Object lhs , Object rhs , boolean testTransients , Class reflectUpToClass , String [ ] excludeFields );11;9;35
+EqualsBuilder.append( double lhs , double rhs );2;1;6
+EqualsBuilder.reflectionAppend( Object lhs , Object rhs , Class clazz , EqualsBuilder builder , boolean useTransients , String [ ] excludeFields );10;13;18
+EqualsBuilder.append( boolean [ ] lhs , boolean [ ] rhs );8;9;20
+EqualsBuilder.EqualsBuilder( );1;0;2
+EqualsBuilder.append( float [ ] lhs , float [ ] rhs );8;9;20
+EqualsBuilder.append( byte lhs , byte rhs );2;2;7
+EqualsBuilder.reflectionEquals( Object lhs , Object rhs , boolean testTransients );1;0;3
+EqualsBuilder.append( long [ ] lhs , long [ ] rhs );8;9;20
+EqualsBuilder.append( short lhs , short rhs );2;2;7
+EqualsBuilder.append( long lhs , long rhs );2;2;7
+EqualsBuilder.reflectionEquals( Object lhs , Object rhs , Collection excludeFields );1;0;3
+EqualsBuilder.append( char [ ] lhs , char [ ] rhs );8;9;20
+EqualsBuilder.reflectionEquals( Object lhs , Object rhs , boolean testTransients , Class reflectUpToClass );1;0;3
+EqualsBuilder.append( int [ ] lhs , int [ ] rhs );8;9;20
+EqualsBuilder.isEquals( );1;0;3
+EqualsBuilder.append( Object lhs , Object rhs );17;9;42
+EqualsBuilder.appendSuper( boolean superEquals );2;1;7
+EqualsBuilder.append( float lhs , float rhs );2;1;6
+EqualsBuilder.reflectionEquals( Object lhs , Object rhs , String [ ] excludeFields );1;0;3
+EqualsBuilder.setEquals( boolean isEquals );1;0;3
+EqualsBuilder.append( byte [ ] lhs , byte [ ] rhs );8;9;20
+EqualsBuilder.reflectionEquals( Object lhs , Object rhs );1;0;3
+EqualsBuilder.append( double [ ] lhs , double [ ] rhs );8;9;20

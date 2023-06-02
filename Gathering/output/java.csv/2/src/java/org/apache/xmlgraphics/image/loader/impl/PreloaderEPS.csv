@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EPSBinaryFileHeader.getPSLength( );1;0;3
+EPSBinaryFileHeader.getTIFFStart( );1;0;3
+EPSBinaryFileHeader.getWMFLength( );1;0;3
+PreloaderEPS.preloadImage( String uri , Source src , ImageContext context );8;7;47
+PreloaderEPS.determineSize( ImageInputStream in , ImageContext context , ImageInfo info );11;5;49
+EPSBinaryFileHeader.getWMFStart( );1;0;3
+EPSBinaryFileHeader.getPSStart( );1;0;3
+PreloaderEPS.readBinaryFileHeader( ImageInputStream in );1;0;10
+EPSBinaryFileHeader.getTIFFLength( );1;0;3
+EPSBinaryFileHeader.hasTIFFPreview( );1;1;3
+EPSBinaryFileHeader.hasWMFPreview( );1;1;3

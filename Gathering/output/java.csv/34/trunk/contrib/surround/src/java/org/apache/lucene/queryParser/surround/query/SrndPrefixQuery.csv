@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SrndPrefixQuery.getSuffixOperator( );1;0;1
+SrndPrefixQuery.getPrefix( );1;0;1
+SrndPrefixQuery.suffixToString( StringBuffer r );1;0;1
+SrndPrefixQuery.toStringUnquoted( );1;0;1
+SrndPrefixQuery.getLucenePrefixTerm( String fieldName );1;0;3
+SrndPrefixQuery.visitMatchingTerms( IndexReader reader , String fieldName , MatchingTermVisitor mtv );6;4;22
+SrndPrefixQuery.SrndPrefixQuery( String prefix , boolean quoted , char truncator );1;0;5

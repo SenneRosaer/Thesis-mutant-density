@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChangelogService.run( );5;2;30
+ChangelogService.getPrincipalName( );1;0;4
+ChangelogService.modifyRn( NextInterceptor next , LdapDN name , String newRn , boolean deleteOldRn );2;1;19
+ChangelogService.move( NextInterceptor next , LdapDN oldName , LdapDN newParentName );2;2;20
+ChangelogService.writeChangeEventToDb( ChangeEvent changeEvent );4;1;31
+ChangelogService.modify( NextInterceptor next , LdapDN nDn , int modOp , Attributes mods );2;1;15
+ChangelogService.delete( NextInterceptor next , LdapDN nDn );2;1;13
+ChangelogService.destroy( );5;2;35
+ChangelogService.init( DirectoryServiceConfiguration dsConfig , InterceptorConfiguration iConfig );1;0;11
+ChangelogService.move( NextInterceptor next , LdapDN oldName , LdapDN newParentName , String newRn , boolean deleteOldRn );2;2;20
+ChangelogService.initDb( );2;1;15
+ChangelogService.shutdownDb( );3;1;15
+ChangelogService.add( NextInterceptor next , LdapDN nDn , Attributes entry );2;1;14
+ChangelogService.modify( NextInterceptor next , LdapDN nDn , ModificationItemImpl [ ] mods );3;3;18

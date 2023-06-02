@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SitemapTagsToDaisyMojo.execute( );17;23;99
+SitemapTagsToDaisyMojo.getComponentDocs( Document daisyDoc );8;0;25
+SitemapTagsToDaisyMojo.getJavaDocBuilder( String rootPath );2;0;17
+SitemapTagsToDaisyMojo.collectJavaDirs( List javaDirs , File currentDir );4;2;12
+SitemapTagsToDaisyMojo.limitLength( String value );2;1;6
+SitemapTagsToDaisyMojo.updateDocument( Document daisyDoc , ComponentDocs docs );7;3;27
+SitemapTagsToDaisyMojo.getComponentDocs( JavaClass javaClass , String componentType , String blockName );14;10;48
+SitemapTagsToDaisyMojo.createDocument( ComponentDocs docs , String name );1;0;5
+SitemapTagsToDaisyMojo.setupHtmlCleanerTemplate( );2;1;12
+SitemapTagsToDaisyMojo.updateField( Document daisyDoc , String fieldName , String value );3;1;6
+SitemapTagsToDaisyMojo.getDaisyDoc( ComponentDocs docs );3;2;19
+SitemapTagsToDaisyMojo.getComponentTypeName( JavaClass javaClass );9;0;21
+SitemapTagsToDaisyMojo.setupDaisyRepositoryClient( String url , String username , String password );1;0;6
+SitemapTagsToDaisyMojo.determineBlock( String rootPath , JavaClass javaClass );8;4;23
+SitemapTagsToDaisyMojo.cleanupDocumentation( String documentation );1;0;7
+ComponentDocs.equals( Object obj );8;7;18
+SitemapTagsToDaisyMojo.updateCollections( Document daisyDoc , String blockName );11;8;49
+SitemapTagsToDaisyMojo.getTagValue( JavaClass javaClass , String tagName , String defaultValue );2;1;7
+ComponentDocs.safeComp( String value1 , String value2 );5;6;8

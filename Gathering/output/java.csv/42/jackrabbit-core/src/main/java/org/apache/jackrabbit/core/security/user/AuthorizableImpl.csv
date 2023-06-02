@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AuthorizableImpl.remove( );3;2;6
+AuthorizableImpl.getPrincipals( );5;1;21
+AuthorizableImpl.removeFromGroup( GroupImpl group );5;1;28
+AuthorizableImpl.setProperty( String name , Value [ ] values );2;0;11
+AuthorizableImpl.getRefereeValues( );4;2;13
+AuthorizableImpl.removeProperty( String name );4;0;21
+AuthorizableImpl.hasProperty( String name );1;0;3
+NodeBasedPrincipal.getPath( );1;0;3
+AuthorizableImpl.checkProtectedProperty( String propertyName );2;0;5
+AuthorizableImpl.removeReferee( Principal principal );3;0;14
+AuthorizableImpl.AuthorizableImpl( NodeImpl node , UserManagerImpl userManager );2;1;7
+AuthorizableImpl.setProperty( String name , Value value );2;0;11
+AuthorizableImpl.getPrincipalName( );1;0;3
+AuthorizableImpl.collectMembership( List groups , boolean includedIndirect );5;4;14
+AuthorizableImpl.declaredMemberOf( );1;0;5
+AuthorizableImpl.getNode( );1;0;3
+AuthorizableImpl.isProtectedProperty( String propertyName );7;5;10
+AuthorizableImpl.getProperty( String name );3;0;11
+NodeBasedPrincipal.NodeBasedPrincipal( String name );1;0;3
+AuthorizableImpl.getSession( );1;0;3
+AuthorizableImpl.memberOf( );1;0;5
+AuthorizableImpl.addReferee( Principal principal );4;1;14
+AuthorizableImpl.getPropertyNames( );2;0;8
+AuthorizableImpl.addToGroup( GroupImpl group );3;2;21

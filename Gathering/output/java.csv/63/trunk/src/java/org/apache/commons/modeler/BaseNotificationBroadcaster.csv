@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BaseNotificationBroadcaster.getNotificationInfo( );1;0;3
+BaseNotificationBroadcaster.sendNotification( Notification notification );4;3;13
+BaseNotificationBroadcasterEntry.BaseNotificationBroadcasterEntry( NotificationListener listener , NotificationFilter filter , Object handback );1;0;5
+BaseNotificationBroadcaster.removeNotificationListener( NotificationListener listener , NotificationFilter filter , Object handback );1;0;3
+BaseNotificationBroadcaster.removeNotificationListener( NotificationListener listener , Object handback );1;0;3
+BaseNotificationBroadcaster.removeNotificationListener( NotificationListener listener );3;1;11
+BaseNotificationBroadcaster.addNotificationListener( NotificationListener listener , NotificationFilter filter , Object handback );10;10;32
+BaseNotificationBroadcaster.registerNotifications( FixedNotificationFilter filter );4;4;13

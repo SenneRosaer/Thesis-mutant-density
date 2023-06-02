@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProcessorManagement.getMatcherParameters( String processorName , int matcherIndex );3;3;6
+ProcessorManagement.getMatcherNames( String processorName );3;3;14
+ProcessorManagement.getMailetParameters( String processorName , int mailetIndex );3;3;6
+ProcessorManagement.service( ServiceManager serviceManager );1;0;5
+ProcessorManagement.createProcessorMBean( String baseObjectName , String processorName , MBeanServer mBeanServer );3;13;19
+ProcessorManagement.getProcessorNames( );1;0;3
+ProcessorManagement.setProcessorManager( SpoolManager processorManager );1;0;3
+ProcessorManagement.getMailetNames( String processorName );3;3;14
+ProcessorManagement.registerMBeans( );4;5;12
+ProcessorManagement.registerMBean( MBeanServer mBeanServer , String mBeanName , Object object );3;0;13

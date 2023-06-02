@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpellChecker.formGrams( String text , int ng );2;7;8
+SpellChecker.SpellChecker( Directory spellIndex );1;0;3
+SpellChecker.suggestSimilar( String word , int numSug , IndexReader ir , String field , boolean morePopular );23;33;58
+SpellChecker.indexDictionary( Dictionary dict , int mergeFactor , int ramMB );4;1;22
+SpellChecker.getMax( int l );3;2;9
+SpellChecker.getStringDistance( );1;0;3
+SpellChecker.setAccuracy( float minScore );1;0;3
+SpellChecker.indexDictionary( Dictionary dict );1;0;3
+SpellChecker.setSpellIndex( Directory spellIndex );3;2;11
+SpellChecker.add( BooleanQuery q , String name , String value );1;0;3
+SpellChecker.clearIndex( );1;0;6
+SpellChecker.SpellChecker( Directory spellIndex , StringDistance sd );1;0;4
+SpellChecker.addGram( String text , Document doc , int ng1 , int ng2 );5;9;18
+SpellChecker.exist( String word );1;1;3
+SpellChecker.setStringDistance( StringDistance sd );1;0;3
+SpellChecker.getMin( int l );3;2;9
+SpellChecker.suggestSimilar( String word , int numSug );1;0;3
+SpellChecker.add( BooleanQuery q , String name , String value , float boost );1;0;5
+SpellChecker.createDocument( String text , int ng1 , int ng2 );1;0;6

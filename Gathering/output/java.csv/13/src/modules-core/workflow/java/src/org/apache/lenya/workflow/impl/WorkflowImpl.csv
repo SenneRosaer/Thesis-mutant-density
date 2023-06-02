@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WorkflowImpl.getVariable( String _name );2;1;6
+WorkflowImpl.getInitialValue( String variableName );3;2;9
+WorkflowImpl.getLeavingTransitions( String state );3;2;10
+WorkflowImpl.getTransitions( );1;0;3
+WorkflowImpl.addTransition( TransitionImpl transition );1;0;5
+WorkflowImpl.getStates( );1;0;3
+WorkflowImpl.WorkflowImpl( String _name , String _initialState );1;0;5
+WorkflowImpl.containsState( String state );1;0;3
+WorkflowImpl.getVariableNames( );2;2;8
+WorkflowImpl.getInitialState( );1;0;3
+WorkflowImpl.addState( String state );1;0;3
+WorkflowImpl.addEvent( String event );1;0;3
+WorkflowImpl.getEvents( );1;0;3
+WorkflowImpl.getName( );1;0;3
+WorkflowImpl.addVariable( BooleanVariableImpl variable );1;0;3
+WorkflowImpl.getVariables( );1;0;4

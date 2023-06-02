@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CorsUtilsTests.isCorsRequest( );1;0;4
+CorsUtilsTests.isNotCorsRequest( );1;0;4
+CorsUtilsTests.isPreFlightRequest( );1;0;7
+CorsUtilsTests.isSameOriginWithDifferentSchemes( );1;0;7
+CorsUtilsTests.isSameOriginWithForwardedHeader( );1;3;9
+CorsUtilsTests.isNotPreFlightRequest( );1;0;6
+CorsUtilsTests.testWithForwardedHeader( String serverName , int port , String forwardedHeader , String originHeader );3;3;11
+CorsUtilsTests.isSameOriginWithXForwardedHeaders( );1;7;9
+CorsUtilsTests.testWithXForwardedHeaders( String serverName , int port , String forwardedProto , String forwardedHost , int forwardedPort , String originHeader );6;7;18
+CorsUtilsTests.adaptFromForwardedHeaders( MockServerHttpRequest . BaseBuilder < ? > builder );1;0;4

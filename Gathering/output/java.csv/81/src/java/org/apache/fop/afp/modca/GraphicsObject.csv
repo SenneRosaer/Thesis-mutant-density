@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GraphicsObject.setViewport( AFPDataObjectInfo dataObjectInfo );1;0;13
+GraphicsObject.setCharacterSet( int characterSet );2;1;6
+GraphicsObject.setArcParams( int xmaj , int ymin , int xmin , int ymaj );1;0;3
+GraphicsObject.setFill( boolean fill );2;0;5
+GraphicsObject.addObject( StructuredData object );3;3;12
+GraphicsObject.beginArea( );1;0;3
+GraphicsObject.addLine( int [ ] coords );1;0;3
+GraphicsObject.addFullArc( int x , int y , int mh , int mhr );1;0;3
+GraphicsObject.addString( String str , int x , int y );1;0;3
+GraphicsObject.getData( );2;1;6
+GraphicsObject.toString( );1;0;3
+GraphicsObject.addLine( int [ ] coords , boolean relative );1;0;3
+GraphicsObject.setColor( Color color );2;1;6
+GraphicsObject.endArea( );1;0;3
+GraphicsObject.newSegment( );1;0;3
+GraphicsObject.setCurrentPosition( int [ ] coords );1;0;3
+GraphicsObject.writeEnd( OutputStream os );1;0;5
+GraphicsObject.addFillet( int [ ] coords , boolean relative );1;0;3
+GraphicsObject.setLineWidth( int lineWidth );2;1;6
+GraphicsObject.writeContent( OutputStream os );1;0;4
+GraphicsObject.setComplete( boolean complete );2;0;8
+GraphicsObject.addBox( int [ ] coords );1;0;3
+GraphicsObject.addImage( int x , int y , int width , int height , byte [ ] imgData );1;0;3
+GraphicsObject.writeStart( OutputStream os );1;0;6
+GraphicsObject.setPatternSymbol( byte patternSymbol );2;1;6
+GraphicsObject.setLineType( byte lineType );2;1;6
+GraphicsObject.addFillet( int [ ] coords );1;0;3
+GraphicsObject.newData( );2;1;8
+GraphicsObject.GraphicsObject( Factory factory , String name );1;0;3

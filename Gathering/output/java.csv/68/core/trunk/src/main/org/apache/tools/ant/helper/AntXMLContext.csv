@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AntXMLContext.AntXMLContext( Project project );1;0;6
+AntXMLContext.getCurrentProjectName( );1;0;3
+AntXMLContext.popWrapper( );2;2;5
+AntXMLContext.setIgnoreProjectTag( boolean flag );1;0;3
+AntXMLContext.currentWrapper( );2;2;6
+AntXMLContext.getCurrentTarget( );1;0;3
+AntXMLContext.addTarget( Target target );1;0;4
+AntXMLContext.setCurrentTarget( Target target );1;0;3
+AntXMLContext.setCurrentTargets( Map currentTargets );1;0;3
+AntXMLContext.endPrefixMapping( String prefix );3;4;7
+AntXMLContext.getTargets( );1;0;3
+AntXMLContext.configureId( Object element , Attributes attr );2;1;6
+AntXMLContext.setCurrentProjectName( String name );1;0;3
+AntXMLContext.getBuildFileParent( );1;0;3
+AntXMLContext.parentWrapper( );2;2;6
+AntXMLContext.startPrefixMapping( String prefix , String uri );2;1;8
+AntXMLContext.setBuildFile( File buildFile );1;0;5
+AntXMLContext.getBuildFile( );1;0;3
+AntXMLContext.getWrapperStack( );1;0;3
+AntXMLContext.isIgnoringProjectTag( );1;0;3
+AntXMLContext.setImplicitTarget( Target target );1;0;3
+AntXMLContext.getProject( );1;0;3
+AntXMLContext.getLocator( );1;0;3
+AntXMLContext.setLocator( Locator locator );1;0;3
+AntXMLContext.getPrefixMapping( String prefix );3;4;7
+AntXMLContext.pushWrapper( RuntimeConfigurable wrapper );1;0;3
+AntXMLContext.getCurrentTargets( );1;0;3
+AntXMLContext.getImplicitTarget( );1;0;3

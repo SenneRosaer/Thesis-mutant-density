@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GridUnit.integrateCompetingBorder( int side , ConditionalBorder competitor , boolean withNormal , boolean withLeadingTrailing , boolean withRest );3;0;13
+GridUnit.getBorderAfter( int which );4;0;13
+GridUnit.GridUnit( TableCell cell , int colSpanIndex , int rowSpanIndex );1;0;5
+GridUnit.isPrimary( );1;0;3
+GridUnit.setBorders( Table table );2;1;7
+GridUnit.setRow( TableRow row );1;0;3
+GridUnit.setBordersFromCell( );5;3;20
+GridUnit.isEmpty( );1;1;3
+GridUnit.integrateBorderSegment( int side , BorderSpecification segment );3;0;11
+GridUnit.setFlag( int which , boolean value );2;4;7
+GridUnit.getBorderBefore( int which );4;0;13
+GridUnit.GridUnit( Table table , int colSpanIndex , int rowSpanIndex );1;0;4
+GridUnit.getRow( );1;0;3
+GridUnit.integrateBorderSegment( int side , TableFObj parent , boolean withNormal , boolean withLeadingTrailing , boolean withRest );3;0;13
+GridUnit.isLastGridUnitColSpan( );1;2;3
+GridUnit.GridUnit( PrimaryGridUnit primary , int colSpanIndex , int rowSpanIndex );1;0;4
+GridUnit.getColSpanIndex( );1;0;3
+GridUnit.getRowSpanIndex( );1;0;3
+GridUnit.resolveBorder( GridUnit other , int side );7;2;27
+GridUnit.getFlag( int which );1;3;3
+GridUnit.getBorderStart( );1;0;3
+GridUnit.isLastGridUnitRowSpan( );1;2;3
+GridUnit.getBorderEnd( );1;0;3
+GridUnit.toString( );10;6;30
+GridUnit.setFlag( int which );1;0;3
+GridUnit.integrateBorderSegment( int side , TableFObj parent );5;0;17
+GridUnit.getPrimary( );1;0;3
+GridUnit.getCell( );1;0;3
+GridUnit.GridUnit( int colSpanIndex , int rowSpanIndex );1;0;4

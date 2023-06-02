@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ImageEncodingHelper.determineEncodedColorModel( );15;16;41
+RenderedImageEncoder.RenderedImageEncoder( RenderedImage img );1;0;3
+ImageEncodingHelper.encodeRGBAsGrayScale( byte [ ] raw , int width , int height , int bitsPerPixel , OutputStream out );10;43;41
+RenderedImageEncoder.getImplicitFilter( );1;0;3
+ImageEncodingHelper.encodePackedColorComponents( RenderedImage image , OutputStream out );1;0;4
+ImageEncodingHelper.isMultiTile( );2;3;5
+ImageEncodingHelper.isConverted( );1;1;3
+ImageEncodingHelper.getNativeColorModel( );1;0;3
+ImageEncodingHelper.ImageEncodingHelper( RenderedImage image );1;0;4
+ImageEncodingHelper.createRenderedImageEncoder( RenderedImage img );1;0;3
+ImageEncodingHelper.writeRGBTo( OutputStream out );1;0;3
+ImageEncodingHelper.encodeAlpha( OutputStream out );3;1;13
+ImageEncodingHelper.encodeRenderedImageAsRGB( RenderedImage image , OutputStream out );8;11;40
+RenderedImageEncoder.writeTo( OutputStream out );1;0;3
+ImageEncodingHelper.hasAlpha( );1;0;3
+ImageEncodingHelper.encode( OutputStream out );3;1;8
+ImageEncodingHelper.getImage( );1;0;3
+ImageEncodingHelper.getEncodedColorModel( );1;0;3
+ImageEncodingHelper.optimizedWriteTo( OutputStream out );3;0;11

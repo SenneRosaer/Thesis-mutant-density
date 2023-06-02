@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractConfiguration.getLocale( );1;0;3
+AbstractConfiguration.setFeature( String featureId , boolean state );4;3;12
+AbstractConfiguration.setLocale( Locale locale );1;0;3
+AbstractConfiguration.addRecognizedFeatures( String [ ] featureIds );4;4;9
+AbstractConfiguration.getDTDHandler( );1;0;3
+AbstractConfiguration.getFeature( String featureId );3;2;8
+AbstractConfiguration.resetComponents( );2;2;7
+AbstractConfiguration.setDocumentHandler( XMLDocumentHandler handler );1;0;3
+AbstractConfiguration.getErrorHandler( );1;0;3
+AbstractConfiguration.openInputSourceStream( XMLInputSource source );4;2;17
+AbstractConfiguration.addComponent( XMLComponent component );2;1;7
+AbstractConfiguration.setProperty( String propertyId , Object value );4;4;17
+AbstractConfiguration.getDocumentHandler( );1;0;3
+AbstractConfiguration.setEntityResolver( XMLEntityResolver resolver );1;0;3
+AbstractConfiguration.setDTDHandler( XMLDTDHandler handler );1;0;3
+AbstractConfiguration.getEntityResolver( );1;0;3
+AbstractConfiguration.setErrorHandler( XMLErrorHandler handler );1;0;3
+AbstractConfiguration.getProperty( String propertyId );2;1;8
+AbstractConfiguration.addRecognizedProperties( String [ ] propertyIds );4;4;9
+AbstractConfiguration.getDTDContentModelHandler( );1;0;3
+AbstractConfiguration.setDTDContentModelHandler( XMLDTDContentModelHandler handler );1;0;3

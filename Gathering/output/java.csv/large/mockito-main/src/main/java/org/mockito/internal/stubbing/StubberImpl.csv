@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StubberImpl.doThrow( Throwable ... toBeThrown );3;1;10
+StubberImpl.doNothing( );1;0;4
+StubberImpl.doCallRealMethod( );1;0;4
+StubberImpl.doReturnValues( Object ... toBeReturned );3;1;10
+StubberImpl.doThrow( Class < ? extends Throwable > toBeThrown , Class < ? extends Throwable > ... nextToBeThrown );4;1;11
+StubberImpl.doReturn( Object toBeReturned , Object ... nextToBeReturned );1;0;3
+StubberImpl.doThrow( Class < ? extends Throwable > toBeThrown );2;1;7
+StubberImpl.StubberImpl( Strictness strictness );1;0;3
+StubberImpl.when( T mock );3;2;12
+StubberImpl.doAnswer( Answer answer );1;0;4
+StubberImpl.doReturn( Object toBeReturned );1;0;3

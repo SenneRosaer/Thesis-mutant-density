@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NNTPRepositoryImpl.getOverviewFormat( );1;0;3
+NNTPRepositoryImpl.getGroups( File [ ] f );3;3;9
+NNTPRepositoryImpl.createArticle( InputStream in );6;3;33
+NNTPRepositoryImpl.service( ServiceManager serviceManager );1;0;4
+NNTPRepositoryImpl.getMatchedGroups( String wildmat );1;0;5
+NNTPRepositoryImpl.getGroup( String groupName );8;5;25
+NNTPRepositoryImpl.createSpooler( );4;0;28
+NNTPRepositoryImpl.getArticleFromID( String id );2;0;8
+NNTPRepositoryImpl.hasNext( );4;1;17
+GroupFilter.accept( java . io . File dir , String name );5;1;6
+NNTPRepositoryImpl.getGroupsSince( Date dt );1;0;5
+NNTPRepositoryImpl.isReadOnly( );1;0;3
+NNTPRepositoryImpl.initialize( );11;7;63
+NNTPRepositoryImpl.next( );1;0;3
+NNTPRepositoryImpl.remove( );1;0;3
+NNTPRepositoryImpl.configure( Configuration aConfiguration );9;7;41
+NNTPRepositoryImpl.getArticlesSince( final Date dt );4;0;29
+NNTPRepositoryImpl.setFileSystem( FileSystem system );1;0;3

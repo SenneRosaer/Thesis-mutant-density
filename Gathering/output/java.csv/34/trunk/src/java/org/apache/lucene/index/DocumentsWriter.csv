@@ -1,0 +1,89 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocumentsWriter.close( );1;0;4
+DocumentsWriter.finishDocument( DocumentsWriterThreadState perThread , DocWriter docWriter );10;7;32
+DocumentsWriter.setMaxBufferedDocs( int count );1;0;3
+DocumentsWriter.closeDocStore( );3;3;22
+DocumentsWriter.addDeleteQuery( Query query , int docID );1;1;3
+DocumentsWriter.toMB( long v );1;2;3
+DocumentsWriter.recycleCharBlocks( char [ ] [ ] blocks , int numBlocks );2;2;4
+DocumentsWriter.getDocStoreSegment( );1;0;3
+DocumentsWriter.setRAMBufferSizeMB( double mb );2;11;13
+DocumentsWriter.hasDeletes( );1;0;3
+DocumentsWriter.updateDocument( Term t , Document doc , Analyzer analyzer );1;0;3
+WaitQueue.add( DocWriter doc );6;18;36
+DocumentsWriter.waitForWaitQueue( );3;1;9
+DocumentsWriter.createCompoundFile( String segment );2;1;7
+DocumentsWriter.recycleIntBlocks( int [ ] [ ] blocks , int start , int end );2;2;4
+SkipDocWriter.abort( );1;0;2
+WaitQueue.doPause( );1;1;3
+DocumentsWriter.getMaxBufferedDocs( );1;0;3
+DocumentsWriter.getRAMUsed( );1;0;3
+DocumentsWriter.applyDeletes( SegmentInfos infos );6;8;32
+DocumentsWriter.getIntBlock( boolean trackAllocations );3;7;13
+DocumentsWriter.bufferDeleteQueries( Query [ ] queries );2;2;6
+DocWriter.setNext( DocWriter next );1;0;3
+DocumentsWriter.setFlushPending( );2;0;8
+DocumentsWriter.getNumBufferedDeleteTerms( );1;0;3
+DocumentsWriter.clearFlushPending( );1;0;3
+DocumentsWriter.bufferDeleteQuery( Query query );1;0;5
+DocumentsWriter.doBalanceRAM( );4;7;3
+DocumentsWriter.doAfterFlush( );2;2;13
+DocumentsWriter.DocumentsWriter( Directory directory , IndexWriter writer , IndexingChain indexingChain );2;0;10
+DocumentsWriter.abort( );5;3;36
+DocumentsWriter.bufferDeleteTerm( Term term );1;0;5
+DocumentsWriter.updateDocument( Document doc , Analyzer analyzer , Term delTerm );6;3;45
+DocumentsWriter.getRAMBufferSizeMB( );2;3;7
+SkipDocWriter.sizeInBytes( );1;0;3
+DocumentsWriter.applyDeletes( IndexReader reader , int docIDStart );11;10;50
+WaitQueue.abort( );3;5;14
+DocumentsWriter.getMaxBufferedDeleteTerms( );1;0;3
+WaitQueue.WaitQueue( );1;0;3
+DocumentsWriter.initFlushState( boolean onlyDocStore );1;0;4
+WaitQueue.writeDocument( DocWriter doc );4;9;17
+DocumentsWriter.deletesFull( );2;5;4
+DocumentsWriter.updateFlushedDocCount( int n );1;1;3
+DocumentsWriter.initSegmentName( boolean onlyDocStore );5;8;10
+DocumentsWriter.setAborting( );1;0;3
+DocumentsWriter.setFlushedDocCount( int n );1;0;3
+DocumentsWriter.getSegment( );1;0;3
+DocumentsWriter.pauseAllThreads( );3;2;11
+WaitQueue.reset( );1;2;5
+DocumentsWriter.abortedFiles( );1;0;3
+DocumentsWriter.getDocStoreOffset( );1;0;3
+DocumentsWriter.remapDeletes( SegmentInfos infos , int [ ] [ ] docMaps , int [ ] delCounts , MergePolicy . OneMerge merge , int mergeDocCount );2;2;8
+***not in a method***;0;17;0
+WaitQueue.doResume( );1;1;3
+DocumentsWriter.setInfoStream( PrintStream infoStream );2;2;5
+DocumentsWriter.closedFiles( );1;0;3
+DocumentsWriter.setMaxBufferedDeleteTerms( int maxBufferedDeleteTerms );1;0;3
+DocumentsWriter.bytesUsed( long numBytes );1;2;4
+DocumentsWriter.getFlushedDocCount( );1;0;3
+DocumentsWriter.getThreadState( Document doc , Term delTerm );15;23;54
+ByteBlockAllocator.recycleByteBlocks( byte [ ] [ ] blocks , int start , int end );2;2;6
+DocumentsWriter.pushDeletes( );1;0;3
+DocumentsWriter.bytesAllocated( long numBytes );1;2;4
+DocumentsWriter.allThreadsIdle( );3;3;6
+DocumentsWriter.getBufferedDeleteTerms( );1;0;3
+DocumentsWriter.getCharBlock( );2;7;12
+DocumentsWriter.hasProx( );2;1;4
+DocumentsWriter.openFiles( );1;0;3
+DocumentsWriter.waitReady( DocumentsWriterThreadState state );9;9;11
+DocumentsWriter.balanceRAM( );21;57;57
+DocumentsWriter.flush( boolean closeDocStore );6;17;41
+DocumentsWriter.segmentSize( String segmentName );2;5;11
+SkipDocWriter.finish( );1;0;2
+DocumentsWriter.addDocument( Document doc , Analyzer analyzer );1;0;3
+DocumentsWriter.resumeAllThreads( );2;3;6
+ByteBlockAllocator.getByteBlock( boolean trackAllocations );3;5;15
+DocumentsWriter.addOpenFile( String name );1;1;4
+DocumentsWriter.message( String message );1;0;3
+DocumentsWriter.getChain( DocumentsWriter documentsWriter );1;0;11
+DocState.testPoint( String name );1;0;3
+DocumentsWriter.removeOpenFile( String name );1;0;5
+DocumentsWriter.addDeleteDocID( int docID );1;1;3
+DocumentsWriter.setMaxFieldLength( int maxFieldLength );2;2;5
+DocumentsWriter.addDeleteTerm( Term term , int docCount );2;3;9
+DocumentsWriter.getNumDocsInRAM( );1;0;3
+DocumentsWriter.timeToFlushDeletes( );3;2;3
+DocumentsWriter.setSimilarity( Similarity similarity );2;2;5
+DocumentsWriter.bufferDeleteTerms( Term [ ] terms );2;2;6

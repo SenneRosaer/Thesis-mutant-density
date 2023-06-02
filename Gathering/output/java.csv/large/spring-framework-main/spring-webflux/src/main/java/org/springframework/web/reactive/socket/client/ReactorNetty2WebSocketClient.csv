@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReactorNetty2WebSocketClient.execute( URI url , HttpHeaders requestHeaders , WebSocketHandler handler );3;0;26
+ReactorNetty2WebSocketClient.ReactorNetty2WebSocketClient( );1;0;3
+ReactorNetty2WebSocketClient.ReactorNetty2WebSocketClient( HttpClient httpClient );1;0;3
+ReactorNetty2WebSocketClient.getHttpClient( );1;0;3
+ReactorNetty2WebSocketClient.ReactorNetty2WebSocketClient( HttpClient httpClient , Supplier < WebsocketClientSpec . Builder > builderSupplier );1;0;6
+ReactorNetty2WebSocketClient.toHttpHeaders( WebsocketInbound inbound );1;0;6
+ReactorNetty2WebSocketClient.buildSpec( @ Nullable String protocols );2;0;7
+ReactorNetty2WebSocketClient.getWebsocketClientSpec( );1;0;3
+ReactorNetty2WebSocketClient.setNettyHeaders( HttpHeaders httpHeaders , io . netty5 . handler . codec . http . headers . HttpHeaders nettyHeaders );1;0;3
+ReactorNetty2WebSocketClient.execute( URI url , WebSocketHandler handler );1;0;3

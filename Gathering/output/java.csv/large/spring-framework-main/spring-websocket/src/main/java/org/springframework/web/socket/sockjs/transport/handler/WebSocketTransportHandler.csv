@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketTransportHandler.createSession( String id , WebSocketHandler handler , Map < String , Object > attrs );1;0;3
+WebSocketTransportHandler.getHandshakeHandler( );1;0;3
+WebSocketTransportHandler.WebSocketTransportHandler( HandshakeHandler handshakeHandler );1;0;4
+WebSocketTransportHandler.start( );3;1;8
+WebSocketTransportHandler.handleRequest( ServerHttpRequest request , ServerHttpResponse response , WebSocketHandler wsHandler , SockJsSession wsSession );2;0;11
+WebSocketTransportHandler.stop( );3;0;8
+WebSocketTransportHandler.doHandshake( ServerHttpRequest request , ServerHttpResponse response , WebSocketHandler handler , Map < String , Object > attributes );1;0;3
+WebSocketTransportHandler.setServletContext( ServletContext servletContext );2;0;5
+WebSocketTransportHandler.isRunning( );1;0;3
+WebSocketTransportHandler.checkSessionType( SockJsSession session );1;0;3
+WebSocketTransportHandler.getTransportType( );1;0;3

@@ -1,0 +1,56 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FolderAdapter.expunge( );1;0;3
+FolderAdapter.getNewMessageCount( );1;0;3
+FolderAdapter.close( boolean expunge );1;0;3
+FolderAdapter.getMessageCount( );1;0;3
+FolderAdapter.appendMessages( Message [ ] msgs );1;0;3
+FolderAdapter.removeMessageCountListener( MessageCountListener l );1;0;3
+FolderAdapter.wrapFolders( Folder [ ] folders );2;2;7
+FolderAdapter.FolderAdapter( Folder folder );1;0;3
+FolderAdapter.toString( );1;0;3
+FolderAdapter.search( SearchTerm term , Message [ ] msgs );1;0;3
+FolderAdapter.listSubscribed( );1;0;3
+FolderAdapter.isSubscribed( );1;0;3
+FolderAdapter.getMessages( );1;0;3
+FolderAdapter.getFullName( );3;2;9
+FolderAdapter.getPermanentFlags( );1;0;3
+FolderAdapter.renameTo( Folder f );1;0;3
+FolderAdapter.open( int mode );1;0;3
+FolderAdapter.addFolderListener( FolderListener l );1;0;3
+FolderAdapter.copyMessages( Message [ ] msgs , Folder folder );1;0;3
+FolderAdapter.setFlags( int start , int end , Flags flag , boolean value );1;0;3
+FolderAdapter.setSubscribed( boolean subscribe );1;0;3
+FolderAdapter.getStore( );1;0;3
+FolderAdapter.getName( );1;0;3
+FolderAdapter.getParent( );1;0;3
+FolderAdapter.addMessageChangedListener( MessageChangedListener l );1;0;3
+FolderAdapter.list( );1;0;3
+FolderAdapter.getMessages( int start , int end );1;0;3
+FolderAdapter.isOpen( );1;0;3
+FolderAdapter.getFolder( String name );1;0;3
+FolderAdapter.list( String pattern );1;0;3
+FolderAdapter.addConnectionListener( ConnectionListener l );1;0;3
+FolderAdapter.getURLName( );1;0;3
+FolderAdapter.getMessage( int msgnum );1;0;3
+FolderAdapter.getMode( );1;0;3
+FolderAdapter.hasNewMessages( );1;0;3
+FolderAdapter.exists( );1;0;3
+FolderAdapter.create( int type );1;0;3
+FolderAdapter.removeFolderListener( FolderListener l );1;0;3
+FolderAdapter.setFlags( int [ ] msgnums , Flags flag , boolean value );1;0;3
+FolderAdapter.listSubscribed( String pattern );1;0;3
+FolderAdapter.getDeletedMessageCount( );1;0;3
+FolderAdapter.search( SearchTerm term );1;0;3
+FolderAdapter.equals( Object obj );1;0;3
+FolderAdapter.delete( boolean recurse );1;0;3
+FolderAdapter.fetch( Message [ ] msgs , FetchProfile fp );1;0;3
+FolderAdapter.setFlags( Message [ ] msgs , Flags flag , boolean value );1;0;3
+FolderAdapter.getSeparator( );1;0;3
+FolderAdapter.removeMessageChangedListener( MessageChangedListener l );1;0;3
+FolderAdapter.getUnreadMessageCount( );1;0;3
+FolderAdapter.hashCode( );1;0;3
+FolderAdapter.removeConnectionListener( ConnectionListener l );1;0;3
+FolderAdapter.addMessageCountListener( MessageCountListener l );1;0;3
+FolderAdapter.getMessages( int [ ] msgnums );1;0;3
+FolderAdapter.wrapFolder( Folder folder );1;0;3
+FolderAdapter.getType( );1;0;3

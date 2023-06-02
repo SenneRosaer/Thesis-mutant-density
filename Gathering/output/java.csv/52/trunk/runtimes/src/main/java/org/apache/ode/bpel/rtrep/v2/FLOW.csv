@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FLOW.FLOW( ActivityInfo self , ScopeFrame frame , LinkFrame linkFrame );1;0;4
+FLOW.isMember( ChildInfo childInfo );1;1;3
+ACTIVE.completed( FaultData faultData , Set < CompensationHandler > compensations );4;3;10
+ACTIVE.terminate( );2;0;5
+ACTIVE.run( );7;1;39
+ACTIVE.failure( String reason , Element data );1;0;1
+ACTIVE.cancelled( );1;0;1
+FLOW.run( );3;0;14
+***not in a method***;0;1;0
+FLOW.toString( );1;0;3
+FLOW.active( );1;0;7
+ACTIVE.compensate( OScope scope , SynchChannel ret );1;0;4

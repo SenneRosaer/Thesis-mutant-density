@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketHttpRequestHandler.getHandshakeHandler( );1;0;3
+WebSocketHttpRequestHandler.stop( );3;0;8
+WebSocketHttpRequestHandler.WebSocketHttpRequestHandler( WebSocketHandler wsHandler );1;0;3
+WebSocketHttpRequestHandler.handleRequest( HttpServletRequest servletRequest , HttpServletResponse servletResponse );6;3;32
+WebSocketHttpRequestHandler.getHandshakeInterceptors( );1;0;3
+WebSocketHttpRequestHandler.decorate( WebSocketHandler handler );1;0;3
+WebSocketHttpRequestHandler.WebSocketHttpRequestHandler( WebSocketHandler wsHandler , HandshakeHandler handshakeHandler );1;0;6
+WebSocketHttpRequestHandler.setHandshakeInterceptors( @ Nullable List < HandshakeInterceptor > interceptors );2;1;6
+WebSocketHttpRequestHandler.setServletContext( ServletContext servletContext );2;0;5
+WebSocketHttpRequestHandler.start( );3;1;8
+WebSocketHttpRequestHandler.getWebSocketHandler( );1;0;3
+WebSocketHttpRequestHandler.isRunning( );1;0;3

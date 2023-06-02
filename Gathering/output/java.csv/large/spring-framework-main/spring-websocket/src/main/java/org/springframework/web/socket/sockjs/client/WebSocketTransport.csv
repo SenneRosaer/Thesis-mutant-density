@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketTransport.stop( );3;0;10
+WebSocketTransport.connectAsync( TransportRequest request , WebSocketHandler handler );3;1;17
+WebSocketTransport.getTransportTypes( );1;0;3
+ClientSockJsWebSocketHandler.handleTransportError( WebSocketSession webSocketSession , Throwable ex );1;0;3
+WebSocketTransport.toString( );1;0;3
+WebSocketTransport.getWebSocketClient( );1;0;3
+ClientSockJsWebSocketHandler.afterConnectionClosed( WebSocketSession webSocketSession , CloseStatus status );1;0;3
+WebSocketTransport.start( );3;1;10
+WebSocketTransport.isRunning( );2;0;8
+ClientSockJsWebSocketHandler.handleTextMessage( WebSocketSession webSocketSession , TextMessage message );1;0;3
+WebSocketTransport.WebSocketTransport( WebSocketClient webSocketClient );1;0;4
+ClientSockJsWebSocketHandler.afterConnectionEstablished( WebSocketSession webSocketSession );1;0;4
+ClientSockJsWebSocketHandler.ClientSockJsWebSocketHandler( WebSocketClientSockJsSession session );1;0;4

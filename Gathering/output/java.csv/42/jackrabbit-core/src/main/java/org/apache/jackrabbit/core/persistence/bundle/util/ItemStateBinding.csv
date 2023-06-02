@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ItemStateBinding.readState( DataInputStream in , NodeId id , PersistenceManager pMgr );8;14;38
+ItemStateBinding.writeID( DataOutputStream out , NodeId id );2;1;8
+ItemStateBinding.readID( DataInputStream in );3;3;12
+ItemStateBinding.writeUUID( DataOutputStream out , UUID uuid );2;1;8
+ItemStateBinding.ItemStateBinding( ErrorHandling errorHandling , BLOBStore blobStore , StringIndex nsIndex , StringIndex nameIndex , DataStore dataStore );1;0;7
+ItemStateBinding.readQName( DataInputStream in );1;0;5
+ItemStateBinding.getBlobStore( );1;0;3
+ItemStateBinding.setMinBlobSize( long minBlobSize );1;0;3
+ItemStateBinding.readState( DataInputStream in , NodeReferencesId id , PersistenceManager pMgr );2;3;9
+ItemStateBinding.getMinBlobSize( );1;0;3
+ItemStateBinding.writeModCount( DataOutputStream out , short modCount );1;0;3
+ItemStateBinding.writeIndexedQName( DataOutputStream out , Name name );2;2;8
+ItemStateBinding.readModCount( DataInputStream in );1;0;3
+ItemStateBinding.readIndexedQName( DataInputStream in );2;1;10
+ItemStateBinding.readPropertyId( DataInputStream in );1;0;5
+ItemStateBinding.writePropertyId( DataOutputStream out , PropertyId id );1;0;4
+ItemStateBinding.writeQName( DataOutputStream out , Name name );1;0;4
+ItemStateBinding.writeUUID( DataOutputStream out , String uuid );2;1;8
+ItemStateBinding.readUUID( DataInputStream in );2;0;9
+ItemStateBinding.writeState( DataOutputStream out , NodeState state );5;2;30
+ItemStateBinding.writeState( DataOutputStream out , NodeReferences state );2;2;8

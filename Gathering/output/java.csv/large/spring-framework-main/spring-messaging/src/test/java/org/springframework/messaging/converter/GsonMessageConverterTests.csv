@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GsonMessageConverterTests.fromMessageToMessageWithPojo( );2;0;10
+MyBean.getNumber( );1;0;3
+MyBean.setString( String string );1;0;3
+MyBean.isBool( );1;0;3
+MyBean.getFraction( );1;0;3
+GsonMessageConverterTests.fromMessageToList( );2;0;10
+GsonMessageConverterTests.fromMessage( );2;0;12
+GsonMessageConverterTests.fromMessageUntyped( );2;0;13
+MyBean.setArray( String [ ] array );1;0;3
+GsonMessageConverterTests.toMessageUtf16String( );2;0;12
+MyBean.setFraction( float fraction );1;0;3
+GsonMessageConverterTests.handleList( List < Long > payload );1;0;2
+MyBean.setNumber( int number );1;0;3
+MyBean.getArray( );1;0;3
+MyBean.getString( );1;0;3
+GsonMessageConverterTests.handleMessage( Message < MyBean > message );1;0;2
+GsonMessageConverterTests.fromMessageInvalidJson( );2;0;7
+GsonMessageConverterTests.toMessage( );2;0;17
+GsonMessageConverterTests.toMessageUtf16( );2;0;11
+GsonMessageConverterTests.fromMessageMatchingInstance( );2;0;6
+GsonMessageConverterTests.defaultConstructor( );1;0;4
+MyBean.setBool( boolean bool );1;0;3
+GsonMessageConverterTests.fromMessageValidJsonWithUnknownProperty( );2;0;7

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JAXB.marshal( Object object , Writer writer );2;1;6
+JAXB.unmarshal( Reader reader , Class < T > type );2;1;6
+JAXB.unmarshal( URI uri , Class < T > type );3;1;10
+JAXB.marshal( Object object , URL url );3;1;14
+JAXB.marshal( Object object , File file );2;1;6
+JAXB.unmarshal( InputStream is , Class < T > type );2;1;6
+JAXB.unmarshal( String str , Class < T > type );3;1;10
+JAXB.unmarshal( Source source , Class < T > type );2;0;8
+JAXB.unmarshal( File file , Class < T > type );2;1;6
+JAXB.marshal( Object object , OutputStream os );2;1;6
+JAXB.unmarshal( URL url , Class < T > type );2;1;6
+JAXB.JAXB( );1;0;2
+JAXB.marshal( Object object , URI uri );3;1;10
+JAXB.marshal( Object object , Result result );6;1;21
+JAXB.marshal( Object object , String str );3;1;10
+JAXB.getContext( Class < T > type );1;0;3

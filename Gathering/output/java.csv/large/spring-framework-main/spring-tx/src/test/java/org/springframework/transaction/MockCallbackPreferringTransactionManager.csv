@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockCallbackPreferringTransactionManager.getDefinition( );1;0;3
+MockCallbackPreferringTransactionManager.commit( TransactionStatus status );1;0;3
+MockCallbackPreferringTransactionManager.rollback( TransactionStatus status );1;0;3
+MockCallbackPreferringTransactionManager.getTransaction( @ Nullable TransactionDefinition definition );1;0;3
+MockCallbackPreferringTransactionManager.getStatus( );1;0;3
+MockCallbackPreferringTransactionManager.execute( TransactionDefinition definition , TransactionCallback < T > callback );1;0;5

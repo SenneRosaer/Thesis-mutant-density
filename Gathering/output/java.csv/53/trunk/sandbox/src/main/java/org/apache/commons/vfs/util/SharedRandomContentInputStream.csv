@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SharedRandomContentInputStream.calcFilePosition( long nadd );1;1;3
+SharedRandomContentInputStream.skip( long n );4;8;14
+SharedRandomContentInputStream.getPosition( );1;0;3
+SharedRandomContentInputStream.close( );1;0;7
+SharedRandomContentInputStream.mark( int readlimit );1;0;4
+SharedRandomContentInputStream.SharedRandomContentInputStream( final FileObject fo );1;1;3
+SharedRandomContentInputStream.checkEnd( );2;4;3
+SharedRandomContentInputStream.read( );2;3;10
+SharedRandomContentInputStream.SharedRandomContentInputStream( final Set createdStreams , final FileObject fo , final long fileStart , final long fileEnd , final InputStream is );2;1;15
+SharedRandomContentInputStream.getFilePosition( );1;1;3
+SharedRandomContentInputStream.newStream( long start , long end );3;3;19
+SharedRandomContentInputStream.read( byte b [ ] , int off , int len );4;8;14
+SharedRandomContentInputStream.closeAll( );2;2;11
+SharedRandomContentInputStream.reset( );1;1;5

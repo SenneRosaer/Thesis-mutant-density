@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BeanRegistrationsCodeGenerator.BeanRegistrationsCodeGenerator( GeneratedClass generatedClass );1;0;3
+BeanRegistrationsCodeGenerator.getMethods( );1;0;3
+BeanRegistrationsAotContribution.Registration( BeanDefinitionMethodGenerator methodGenerator , String [ ] aliases );1;0;1
+BeanRegistrationsAotContribution.applyTo( GenerationContext generationContext , BeanFactoryInitializationCode beanFactoryInitializationCode );1;0;14
+BeanRegistrationsAotContribution.generateRegisterAliasesMethod( MethodSpec . Builder method );2;0;14
+BeanRegistrationsCodeGenerator.getClassName( );1;0;3
+BeanRegistrationsAotContribution.generateRegisterBeanDefinitionsMethod( MethodSpec . Builder method , GenerationContext generationContext , BeanRegistrationsCode beanRegistrationsCode );1;0;18
+BeanRegistrationsAotContribution.BeanRegistrationsAotContribution( Map < String , Registration > registrations );1;0;3

@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JavaBeanInfo.computeFields( Class < ? > clazz , Type type , PropertyNamingStrategy propertyNamingStrategy , List < FieldInfo > fieldList , Field [ ] fields );17;13;49
+JavaBeanInfo.getField( List < FieldInfo > fieldList , String propertyName );6;4;12
+JavaBeanInfo.getBuilderClass( Class < ? > clazz , JSONType type );6;4;13
+JavaBeanInfo.getDefaultConstructor( Class < ? > clazz , final Constructor < ? > [ ] constructors );14;6;25
+JavaBeanInfo.add( List < FieldInfo > fieldList , FieldInfo field );7;6;23
+JavaBeanInfo.buildGenericInfo( Class < ? > clazz );10;7;26
+JavaBeanInfo.JavaBeanInfo( Class < ? > clazz , Class < ? > builderClass , Constructor < ? > defaultConstructor , Constructor < ? > creatorConstructor , Method factoryMethod , Method buildMethod , JSONType jsonType , List < FieldInfo > fieldList );26;22;104
+JavaBeanInfo.getFactoryMethod( Class < ? > clazz , Method [ ] methods , boolean jacksonCompatible );10;6;27
+JavaBeanInfo.build( Class < ? > clazz , Type type , PropertyNamingStrategy propertyNamingStrategy );1;0;3
+JavaBeanInfo.getBuilderClass( JSONType type );1;0;3
+JavaBeanInfo.getCreatorConstructor( Constructor [ ] constructors );15;6;42
+JavaBeanInfo.build( Class < ? > clazz , Type type , PropertyNamingStrategy propertyNamingStrategy , boolean fieldBased , boolean compatibleWithJavaBean , boolean jacksonCompatible );198;185;555
+JavaBeanInfo.build( Class < ? > clazz , Type type , PropertyNamingStrategy propertyNamingStrategy , boolean fieldBased , boolean compatibleWithJavaBean );1;0;3

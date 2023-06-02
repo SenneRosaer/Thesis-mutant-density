@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ManagementAgent.register( Object obj , ObjectName name , boolean forceRegistration );3;0;15
+ManagementAgent.register( Object obj , ObjectName name );1;0;3
+ManagementAgent.setMbeanServer( MBeanServer mbeanServer );1;0;3
+ManagementAgent.unregister( ObjectName name );1;0;3
+ManagementAgent.registerMBeanWithServer( Object obj , ObjectName name , boolean forceRegistration );4;1;16
+ManagementAgent.getMbeanServer( );1;0;3
+ManagementAgent.destroy( );4;2;18
+ManagementAgent.ManagementAgent( );1;0;4

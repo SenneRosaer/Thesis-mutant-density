@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NNTPClient.completePendingCommand( );1;0;3
+NNTPClient.listNewsgroups( String wildmat );2;1;5
+NNTPClient.logout( );1;0;3
+NNTPClient.retrieveHeader( String header , int articleNumber );1;0;3
+NNTPClient.selectArticle( int articleNumber , ArticlePointer pointer );3;2;7
+NNTPClient.selectPreviousArticle( );1;0;3
+NNTPClient.selectArticle( String articleId , ArticlePointer pointer );5;4;15
+NNTPClient.__retrieveArticleInfo( String articleRange );2;1;5
+NNTPClient.retrieveArticleInfo( int articleNumber );1;0;3
+NNTPClient.retrieveArticleHeader( int articleNumber , ArticlePointer pointer );1;0;3
+NNTPClient.retrieveArticleHeader( int articleNumber );1;0;3
+NNTPClient.listNewNewsgroups( NewGroupsOrNewsQuery query );2;1;7
+NNTPClient.__retrieve( int command , String articleId , ArticlePointer pointer );5;4;17
+NNTPClient.selectNewsgroup( String newsgroup );1;0;3
+NNTPClient.retrieveArticleBody( String articleId );1;0;3
+NNTPClient.selectNewsgroup( String newsgroup , NewsgroupInfo info );3;2;7
+NNTPClient.retrieveArticle( String articleId , ArticlePointer pointer );1;0;3
+NNTPClient.authenticate( String username , String password );3;2;13
+NNTPClient.selectArticle( int articleNumber );1;0;3
+NNTPClient.retrieveArticleBody( );1;0;3
+NNTPClient.retrieveArticle( String articleId );1;0;3
+NNTPClient.selectPreviousArticle( ArticlePointer pointer );3;2;7
+NNTPClient.__retrieve( int command , int articleNumber , ArticlePointer pointer );3;2;10
+NNTPClient.retrieveHeader( String header , int lowArticleNumber , int highArticleNumber );1;1;4
+NNTPClient.retrieveArticleHeader( String articleId , ArticlePointer pointer );1;0;3
+NNTPClient.selectNextArticle( ArticlePointer pointer );3;2;7
+NNTPClient.retrieveArticleBody( int articleNumber );1;0;3
+NNTPClient.__readNewsgroupListing( );4;3;22
+NNTPClient.__parseGroupReply( String reply , NewsgroupInfo info );4;1;30
+NNTPClient.retrieveArticleHeader( String articleId );1;0;3
+NNTPClient.postArticle( );2;1;5
+NNTPClient.selectArticle( ArticlePointer pointer );1;0;3
+NNTPClient.retrieveArticleInfo( int lowArticleNumber , int highArticleNumber );1;1;4
+NNTPClient.retrieveArticle( int articleNumber , ArticlePointer pointer );1;0;3
+NNTPClient.retrieveArticleBody( String articleId , ArticlePointer pointer );1;0;3
+NNTPClient.retrieveArticle( );1;0;3
+NNTPClient.selectArticle( String articleId );1;0;3
+NNTPClient.selectNextArticle( );1;0;3
+NNTPClient.__parseArticlePointer( String reply , ArticlePointer pointer );4;1;23
+NNTPClient.retrieveArticleHeader( );1;0;3
+NNTPClient.__parseNewsgroupListEntry( String entry );11;6;52
+NNTPClient.listNewNews( NewGroupsOrNewsQuery query );4;3;21
+NNTPClient.retrieveArticleBody( int articleNumber , ArticlePointer pointer );1;0;3
+NNTPClient.__retrieveHeader( String header , String articleRange );2;1;5
+NNTPClient.retrieveArticle( int articleNumber );1;0;3
+NNTPClient.listHelp( );2;1;12
+NNTPClient.forwardArticle( String articleId );2;1;5
+NNTPClient.listNewsgroups( );2;1;5

@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExampleBeanPostProcessor.postProcessAfterInitialization( Object bean , String beanName );2;0;6
+ExampleFactoryBean.getObject( );1;0;3
+ExampleBeanPostProcessor.setApplicationContext( ApplicationContext applicationContext );1;0;3
+Config.exampleFactory( );1;0;3
+ExampleBeanPostProcessor.postProcessBeforeInitialization( Object bean , String beanName );1;0;3
+ExampleApplicationEvent.ExampleApplicationEvent( Object source );1;0;3
+Config.exampleBeanPostProcessor( );1;0;3
+ExampleFactoryBean.getObjectType( );1;0;3
+DuplicatePostProcessingTests.withFactoryBeanAndEventListener( );1;0;3
+ExampleApplicationEventListener.onApplicationEvent( ExampleApplicationEvent event );1;0;3
+ExampleApplicationEventListener.setBeanFactory( BeanFactory beanFactory );1;0;3
+Config.exampleApplicationEventListener( );1;0;3
+ExampleFactoryBean.isSingleton( );1;0;3

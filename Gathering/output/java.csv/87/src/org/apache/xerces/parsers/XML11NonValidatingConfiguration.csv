@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XML11NonValidatingConfiguration.addRecognizedParamsAndSetDefaults( XMLComponent component );9;10;30
+XML11NonValidatingConfiguration.setDTDHandler( XMLDTDHandler dtdHandler );1;0;3
+XML11NonValidatingConfiguration.addCommonComponent( XMLComponent component );2;0;7
+***not in a method***;0;18;0
+XML11NonValidatingConfiguration.XML11NonValidatingConfiguration( SymbolTable symbolTable );1;0;3
+XML11NonValidatingConfiguration.XML11NonValidatingConfiguration( SymbolTable symbolTable , XMLGrammarPool grammarPool , XMLComponentManager parentSettings );5;3;79
+XML11NonValidatingConfiguration.parse( boolean complete );20;3;60
+XML11NonValidatingConfiguration.setErrorHandler( XMLErrorHandler errorHandler );1;0;3
+XML11NonValidatingConfiguration.configureXML11Pipeline( );9;8;38
+XML11NonValidatingConfiguration.setFeature( String featureId , boolean state );5;6;23
+XML11NonValidatingConfiguration.setEntityResolver( XMLEntityResolver resolver );1;0;3
+XML11NonValidatingConfiguration.getDocumentHandler( );1;0;3
+XML11NonValidatingConfiguration.setLocale( Locale locale );1;0;4
+XML11NonValidatingConfiguration.cleanup( );1;0;3
+XML11NonValidatingConfiguration.setProperty( String propertyId , Object value );5;6;23
+XML11NonValidatingConfiguration.getDTDHandler( );1;0;3
+XML11NonValidatingConfiguration.parse( XMLInputSource source );10;0;29
+XML11NonValidatingConfiguration.setDocumentHandler( XMLDocumentHandler documentHandler );3;2;9
+XML11NonValidatingConfiguration.getErrorHandler( );1;0;3
+XML11NonValidatingConfiguration.checkFeature( String featureId );16;15;38
+XML11NonValidatingConfiguration.getLocale( );1;0;3
+XML11NonValidatingConfiguration.setDTDContentModelHandler( XMLDTDContentModelHandler handler );1;0;3
+XML11NonValidatingConfiguration.XML11NonValidatingConfiguration( );1;0;3
+XML11NonValidatingConfiguration.addXML11Component( XMLComponent component );2;0;7
+XML11NonValidatingConfiguration.initXML11Components( );2;1;10
+XML11NonValidatingConfiguration.setInputSource( XMLInputSource inputSource );1;0;3
+XML11NonValidatingConfiguration.resetCommon( );2;2;7
+XML11NonValidatingConfiguration.getDTDContentModelHandler( );1;0;3
+XML11NonValidatingConfiguration.addComponent( XMLComponent component );2;0;7
+XML11NonValidatingConfiguration.XML11NonValidatingConfiguration( SymbolTable symbolTable , XMLGrammarPool grammarPool );1;0;3
+XML11NonValidatingConfiguration.getEntityResolver( );1;0;3
+XML11NonValidatingConfiguration.getFeature( String featureId );2;0;6
+XML11NonValidatingConfiguration.reset( );2;2;7
+XML11NonValidatingConfiguration.resetXML11( );2;2;7
+XML11NonValidatingConfiguration.configurePipeline( );9;8;38
+XML11NonValidatingConfiguration.checkProperty( String propertyId );10;9;25

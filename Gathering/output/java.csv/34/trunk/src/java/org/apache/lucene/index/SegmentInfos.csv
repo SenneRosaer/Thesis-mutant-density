@@ -1,0 +1,42 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SegmentInfos.segString( Directory directory );4;4;14
+SegmentInfos.read( Directory directory );1;1;9
+SegmentInfos.setDefaultGenLookaheadCount( int count );1;0;3
+SegmentInfos.getCurrentSegmentFileName( String [ ] files );1;0;5
+SegmentInfos.rollbackCommit( Directory dir );4;1;16
+SegmentInfos.readCurrentVersion( Directory directory );4;0;25
+***not in a method***;0;8;0
+SegmentInfos.readCurrentUserData( Directory directory );1;0;5
+SegmentInfos.getDefaultGenFileRetryCount( );1;0;3
+SegmentInfos.getGeneration( );1;0;3
+SegmentInfos.getLastGeneration( );1;0;3
+FindSegmentsFile.FindSegmentsFile( File directory );1;0;3
+SegmentInfos.getCurrentSegmentFileName( );1;0;5
+SegmentInfos.setUserData( String data );1;0;3
+SegmentInfos.setInfoStream( PrintStream infoStream );1;0;3
+SegmentInfos.getCurrentSegmentGeneration( Directory directory );1;0;4
+SegmentInfos.setDefaultGenFileRetryPauseMsec( int msec );1;0;3
+SegmentInfos.getNextSegmentFileName( );2;3;11
+SegmentInfos.getUserData( );1;0;3
+SegmentInfos.getInfoStream( );1;0;3
+SegmentInfos.clone( );2;2;7
+SegmentInfos.generationFromSegmentsFileName( String fileName );3;1;10
+SegmentInfos.commit( Directory dir );1;0;4
+SegmentInfos.range( int first , int last );1;0;5
+SegmentInfos.doBody( String segmentFileName );1;3;4
+SegmentInfos.prepareCommit( Directory dir );2;1;5
+SegmentInfos.write( Directory directory );7;8;39
+SegmentInfos.replace( SegmentInfos other );1;0;5
+SegmentInfos.getDefaultGenLookahedCount( );1;0;3
+SegmentInfos.finishCommit( Directory dir );6;3;41
+SegmentInfos.read( Directory directory , String segmentFileName );11;11;47
+SegmentInfos.getCurrentSegmentFileName( Directory directory );1;0;5
+SegmentInfos.getCurrentSegmentGeneration( String [ ] files );6;8;16
+FindSegmentsFile.FindSegmentsFile( Directory directory );1;0;3
+SegmentInfos.message( String message );2;1;5
+SegmentInfos.info( int i );1;0;3
+SegmentInfos.getDefaultGenFileRetryPauseMsec( );1;0;3
+SegmentInfos.updateGeneration( SegmentInfos other );1;0;5
+SegmentInfos.setDefaultGenFileRetryCount( int count );1;0;3
+FindSegmentsFile.run( );35;39;127
+SegmentInfos.getVersion( );1;0;3

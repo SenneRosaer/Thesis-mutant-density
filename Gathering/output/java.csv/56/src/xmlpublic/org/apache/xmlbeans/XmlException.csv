@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlException.XmlException( String m , Throwable t );1;0;1
+XmlException.XmlException( XmlRuntimeException xmlRuntimeException );2;1;7
+XmlException.getErrors( );1;0;3
+XmlException.XmlException( String m , Throwable t , XmlError error );1;0;3
+XmlException.XmlException( String m , Throwable t , Collection errors );2;1;5
+XmlException.XmlException( Throwable t );1;0;1
+XmlException.XmlException( String m );1;0;1
+XmlException.getError( );3;3;5
+XmlException.XmlException( XmlError error );1;0;3

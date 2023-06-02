@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LinkTool.addRequestParamsExcept( String ... ignoreThese );1;0;3
+LinkTool.getContextPath( );5;4;16
+LinkTool.addMissingRequestParams( String ... ignoreThese );5;7;22
+LinkTool.getContextURL( );1;0;7
+LinkTool.getRequestPath( );5;4;16
+LinkTool.isPathChanged( );3;3;11
+LinkTool.addRequestParams( boolean ignore , String ... special );9;11;16
+LinkTool.addRequestParams( String ... butOnlyThese );1;0;3
+LinkTool.configure( ValueParser props );2;1;13
+LinkTool.LinkTool( );1;0;4
+LinkTool.setIncludeRequestParams( boolean includeRequestParams );1;0;3
+LinkTool.setFromRequest( HttpServletRequest request );2;0;12
+LinkTool.contains( String [ ] set , String name );3;0;10

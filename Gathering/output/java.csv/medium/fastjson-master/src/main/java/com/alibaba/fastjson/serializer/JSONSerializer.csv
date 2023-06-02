@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JSONSerializer.toString( );1;0;3
+JSONSerializer.JSONSerializer( SerializeWriter out );1;0;3
+JSONSerializer.writeKeyValue( char seperator , String key , Object value );2;1;7
+JSONSerializer.generateDateFormat( String dateFormatPattern );1;0;5
+JSONSerializer.hasNameFilters( SerializeFilterable filterable );4;7;4
+JSONSerializer.getDateFormat( );3;2;8
+JSONSerializer.writeWithFieldName( Object object , Object fieldName );1;0;3
+JSONSerializer.containsReference( Object value );6;6;14
+JSONSerializer.writeNull( );1;0;3
+JSONSerializer.getWriter( );1;0;3
+JSONSerializer.hasPropertyFilters( SerializeFilterable filterable );4;7;4
+JSONSerializer.getDateFormatPattern( );2;0;6
+JSONSerializer.decrementIdent( );1;1;3
+JSONSerializer.writeWithFieldName( Object object , Object fieldName , Type fieldType , int fieldFeatures );4;1;13
+JSONSerializer.getIndentCount( );1;0;3
+JSONSerializer.writeReference( Object object );7;5;30
+JSONSerializer.getMapping( );1;0;3
+JSONSerializer.writeAs( Object object , Class type );3;1;12
+JSONSerializer.checkValue( SerializeFilterable filterable );9;16;7
+JSONSerializer.isWriteClassName( Type fieldType , Object obj );5;8;6
+JSONSerializer.setDateFormat( DateFormat dateFormat );2;1;6
+JSONSerializer.popContext( );2;1;5
+JSONSerializer.setDateFormat( String dateFormat );2;1;6
+JSONSerializer.write( SerializeWriter out , Object object );1;0;4
+JSONSerializer.getContext( );1;0;3
+JSONSerializer.write( String text );1;0;3
+JSONSerializer.JSONSerializer( SerializeWriter out , SerializeConfig config );1;0;4
+JSONSerializer.setContext( SerialContext context );1;0;3
+JSONSerializer.setContext( SerialContext parent , Object object , Object fieldName , int features , int fieldFeatures );3;1;10
+JSONSerializer.setContext( SerialContext parent , Object object , Object fieldName , int features );1;0;3
+JSONSerializer.JSONSerializer( );1;0;3
+JSONSerializer.getObjectWriter( Class < ? > clazz );1;0;3
+JSONSerializer.write( Object object );4;1;13
+JSONSerializer.write( Writer out , Object object );2;0;12
+JSONSerializer.isEnabled( SerializerFeature feature );1;0;3
+JSONSerializer.println( );2;2;6
+JSONSerializer.setFastJsonConfigDateFormatPattern( String dateFormatPattern );1;0;3
+JSONSerializer.setContext( Object object , Object fieldName );1;0;3
+JSONSerializer.getFastJsonConfigDateFormatPattern( );1;0;3
+JSONSerializer.close( );1;0;3
+JSONSerializer.incrementIndent( );1;1;3
+JSONSerializer.JSONSerializer( SerializeConfig config );1;0;3
+JSONSerializer.config( SerializerFeature feature , boolean state );1;0;3
+JSONSerializer.writeWithFormat( Object object , String format );17;9;72

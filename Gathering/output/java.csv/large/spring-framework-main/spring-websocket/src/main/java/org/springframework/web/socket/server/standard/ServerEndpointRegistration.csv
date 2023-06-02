@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServerEndpointRegistration.getSubprotocols( );1;0;3
+ServerEndpointRegistration.setSubprotocols( List < String > subprotocols );1;0;3
+ServerEndpointRegistration.ServerEndpointRegistration( String path , Endpoint endpoint );1;0;7
+ServerEndpointRegistration.getUserProperties( );1;0;3
+ServerEndpointRegistration.setUserProperties( Map < String , Object > userProperties );1;0;4
+ServerEndpointRegistration.getPath( );1;0;3
+ServerEndpointRegistration.setDecoders( List < Class < ? extends Decoder > > decoders );1;0;3
+ServerEndpointRegistration.setExtensions( List < Extension > extensions );1;0;3
+ServerEndpointRegistration.toString( );1;0;3
+ServerEndpointRegistration.getEndpointClass( );2;2;9
+ServerEndpointRegistration.getDecoders( );1;0;3
+ServerEndpointRegistration.modifyHandshake( ServerEndpointConfig sec , HandshakeRequest request , HandshakeResponse response );1;0;3
+ServerEndpointRegistration.getConfigurator( );1;0;3
+ServerEndpointRegistration.setBeanFactory( BeanFactory beanFactory );2;1;5
+ServerEndpointRegistration.getEndpointInstance( Class < T > clazz );1;0;3
+ServerEndpointRegistration.setEncoders( List < Class < ? extends Encoder > > encoders );1;0;3
+ServerEndpointRegistration.getEncoders( );1;0;3
+ServerEndpointRegistration.getExtensions( );1;0;3
+ServerEndpointRegistration.ServerEndpointRegistration( String path , Class < ? extends Endpoint > endpointClass );1;0;7
+ServerEndpointRegistration.getEndpoint( );2;2;9

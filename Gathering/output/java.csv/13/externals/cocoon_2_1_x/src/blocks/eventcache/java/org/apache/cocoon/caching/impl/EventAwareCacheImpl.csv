@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EventAwareCacheImpl.dispose( );1;0;6
+EventAwareCacheImpl.parameterize( Parameters parameters );3;3;13
+EventAwareCacheImpl.processEvent( Event e );6;5;13
+EventAwareCacheImpl.run( );1;0;1
+EventAwareCacheImpl.handleEventValidity( EventValidity val , Serializable key );2;0;6
+EventAwareCacheImpl.clear( );1;0;4
+EventAwareCacheImpl.remove( Serializable key );1;0;4
+EventAwareCacheImpl.store( Serializable key , CachedResponse response );2;2;8
+EventAwareCacheImpl.stop( );1;0;3
+EventAwareCacheImpl.handleAggregatedValidity( AbstractAggregatedValidity val , Serializable key );2;0;7
+EventAwareCacheImpl.initialize( );2;1;7
+EventAwareCacheImpl.service( ServiceManager manager );1;0;4
+EventAwareCacheImpl.start( );1;0;5
+EventAwareCacheImpl.verifyEventCache( );5;4;13
+EventAwareCacheImpl.examineValidity( SourceValidity val , Serializable key );4;0;9

@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LateralCache.getStatus( );2;0;3
+LateralCache.processRemoveAll( );2;0;10
+LateralCache.fixCache( ILateralCacheService lateral );2;1;11
+LateralCache.getEventLoggingExtraInfo( );1;0;3
+LateralCache.processGet( Serializable key );3;0;17
+LateralCache.processUpdate( ICacheElement ce );4;0;21
+LateralCache.handleException( Exception ex , String msg );2;0;10
+LateralCache.LateralCache( ILateralCacheAttributes cattr );1;0;4
+LateralCache.toString( );1;0;7
+LateralCache.LateralCache( ILateralCacheAttributes cattr , ILateralCacheService lateral , LateralCacheMonitor monitor );1;0;6
+LateralCache.getStatistics( );1;0;5
+LateralCache.getStats( );1;0;3
+LateralCache.processGetMatching( String pattern );3;0;17
+LateralCache.processDispose( );2;0;12
+LateralCache.getGroupKeys( String groupName );1;0;3
+LateralCache.getCacheType( );1;0;3
+LateralCache.getAuxiliaryCacheAttributes( );1;0;3
+LateralCache.processGetMultiple( Set keys );5;4;17
+LateralCache.getCacheName( );1;0;3
+LateralCache.processRemove( Serializable key );3;0;15
+LateralCache.getSize( );1;0;3

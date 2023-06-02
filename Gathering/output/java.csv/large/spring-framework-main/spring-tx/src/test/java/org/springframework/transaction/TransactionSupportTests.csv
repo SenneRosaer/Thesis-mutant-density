@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionSupportTests.existingTransaction( );1;6;15
+TransactionSupportTests.doInTransactionWithoutResult( TransactionStatus status );1;0;2
+TransactionSupportTests.transactionTemplateWithRollbackException( );1;0;19
+TransactionSupportTests.transactionTemplateInitialization( );1;5;18
+TransactionSupportTests.rollbackOnlyWithExistingTransaction( );1;0;10
+TransactionSupportTests.rollbackOnlyWithoutExistingTransaction( );1;0;10
+TransactionSupportTests.rollbackWithExistingTransaction( );1;0;9
+TransactionSupportTests.transactionTemplateEquality( );1;0;10
+TransactionSupportTests.rollbackWithoutExistingTransaction( );1;0;9
+TransactionSupportTests.noExistingTransaction( );1;0;12
+TransactionSupportTests.transactionTemplateWithError( );1;0;10
+TransactionSupportTests.commitWithExistingTransaction( );1;0;9
+TransactionSupportTests.commitWithoutExistingTransaction( );1;0;9
+TransactionSupportTests.doRollback( DefaultTransactionStatus status );1;0;4
+TransactionSupportTests.transactionTemplateWithCallbackPreference( );1;0;11
+TransactionSupportTests.transactionTemplate( );1;0;13
+TransactionSupportTests.transactionTemplateWithException( );1;0;17
+TransactionSupportTests.clear( );1;0;4

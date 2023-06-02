@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageList.waitForMessagesToArrive( int messageCount );1;0;3
+MessageList.addMessage( String message );1;0;6
+MessageList.hasReceivedMessages( int messageCount );1;1;3
+MessageList.getMessageCount( );1;0;5
+MessageList.getMessages( );1;0;5
+MessageList.MessageList( );1;0;3
+MessageList.onMessage( MessageExchange exchange , Message message );1;0;3
+MessageList.flushMessages( );1;0;7
+MessageList.addMessage( NormalizedMessage message );1;0;6
+MessageList.waitForMessagesToArrive( int messageCount , long baseTimeout );4;5;18
+MessageList.MessageList( Object semaphore );1;0;3
+MessageList.assertMessagesReceived( int messageCount );1;0;4
+MessageList.hasReceivedMessage( );1;1;3

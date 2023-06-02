@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServerSession.addLockToken( String token );1;0;3
+ServerSession.getUserID( );1;0;3
+ServerSession.getItem( String path );2;0;7
+ServerSession.importXML( String path , byte [ ] xml , int mode );2;0;7
+ServerSession.removeLockToken( String token );1;0;3
+ServerSession.itemExists( String path );1;0;3
+ServerSession.getNamespacePrefixes( );2;0;7
+ServerSession.getAttributeNames( );1;0;3
+ServerSession.refresh( boolean keepChanges );2;0;7
+ServerSession.getAttribute( String name );1;0;3
+ServerSession.logout( );1;0;3
+ServerSession.getNamespaceURI( String prefix );2;0;7
+ServerSession.getLockTokens( );1;0;3
+ServerSession.getRootNode( );2;0;7
+ServerSession.setNamespacePrefix( String prefix , String uri );2;0;7
+ServerSession.impersonate( Credentials credentials );2;0;8
+ServerSession.checkPermission( String path , String actions );1;0;3
+ServerSession.move( String from , String to );2;0;7
+ServerSession.getNamespacePrefix( String uri );2;0;7
+ServerSession.hasPendingChanges( );2;0;7
+ServerSession.exportSystemView( String path , boolean binaryAsLink , boolean noRecurse );2;0;9
+ServerSession.getNodeByUUID( String uuid );2;0;7
+ServerSession.isLive( );1;0;3
+ServerSession.ServerSession( Session session , RemoteAdapterFactory factory );1;0;4
+ServerSession.getWorkspace( );2;1;7
+ServerSession.save( );2;0;7
+ServerSession.exportDocumentView( String path , boolean binaryAsLink , boolean noRecurse );2;0;9

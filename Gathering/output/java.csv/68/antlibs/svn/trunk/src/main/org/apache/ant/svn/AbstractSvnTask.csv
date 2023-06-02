@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractSvnTask.setDest( File dest );1;0;3
+AbstractSvnTask.setSvnURL( String url );3;1;8
+AbstractSvnTask.setOutput( File output );1;0;3
+AbstractSvnTask.getFile( );1;0;3
+AbstractSvnTask.setOutputStream( OutputStream outputStream );1;0;3
+AbstractSvnTask.execute( );11;10;38
+AbstractSvnTask.setVerbose( boolean v );1;0;3
+AbstractSvnTask.setRevision( String p );3;3;7
+AbstractSvnTask.getForce( );1;0;3
+AbstractSvnTask.getErrorStream( );4;2;17
+AbstractSvnTask.getOutputStream( );4;2;18
+AbstractSvnTask.setForce( boolean force );1;0;3
+AbstractSvnTask.addConfiguredCommandline( Commandline c , boolean insertAtStart );3;1;11
+AbstractSvnTask.removeCommandline( Commandline c );1;0;3
+AbstractSvnTask.addSubCommandArgument( Commandline c , String arg );1;0;3
+AbstractSvnTask.setErrorStream( OutputStream errorStream );1;0;3
+AbstractSvnTask.executeToString( Execute execute );3;3;19
+AbstractSvnTask.runCommand( Commandline toExecute );12;4;49
+AbstractSvnTask.getTargets( );1;0;3
+AbstractSvnTask.getDest( );1;0;3
+AbstractSvnTask.AbstractSvnTask( );1;0;3
+AbstractSvnTask.getRevision( );1;0;3
+AbstractSvnTask.setAppend( boolean value );1;0;3
+AbstractSvnTask.getExecuteStreamHandler( );2;1;7
+AbstractSvnTask.setQuiet( boolean q );1;0;3
+AbstractSvnTask.setSubCommand( String c );1;0;3
+AbstractSvnTask.addConfiguredCommandline( Commandline c );1;0;3
+AbstractSvnTask.addSubCommandArgument( String arg );1;0;3
+AbstractSvnTask.getSubCommand( );1;0;3
+AbstractSvnTask.setExecuteStreamHandler( ExecuteStreamHandler handler );1;0;3
+AbstractSvnTask.setFile( File file );1;0;3
+AbstractSvnTask.getRecursive( );1;0;3
+AbstractSvnTask.setError( File error );1;0;3
+AbstractSvnTask.setRecursive( Boolean recursive );1;0;3
+AbstractSvnTask.getSvnURL( );1;0;3
+AbstractSvnTask.setDryrun( boolean ne );1;0;3
+AbstractSvnTask.configureCommandline( Commandline c );10;4;33
+AbstractSvnTask.setTargets( File targets );1;0;3
+AbstractSvnTask.setFailOnError( boolean failOnError );1;0;3

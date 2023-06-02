@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WeakConcurrentMap.defaultValue( K key );1;0;3
+WeakConcurrentMap.expungeStaleEntries( );3;1;6
+WeakConcurrentMap.run( );3;0;9
+WithInlinedExpunction.remove( K key );1;0;4
+WeakConcurrentMap.iterator( );1;0;3
+WithInlinedExpunction.containsKey( K key );1;0;4
+EntryIterator.hasNext( );1;1;3
+SimpleEntry.getValue( );1;0;3
+WeakConcurrentMap.WeakConcurrentMap( boolean cleanerThread );2;0;12
+EntryIterator.remove( );1;0;3
+WeakConcurrentMap.approximateSize( );1;0;3
+WeakConcurrentMap.put( K key , V value );3;3;6
+WeakKey.equals( Object other );5;2;7
+WithInlinedExpunction.iterator( );1;0;4
+WithInlinedExpunction.WithInlinedExpunction( );1;0;3
+EntryIterator.findNext( );3;1;11
+LatentKey.LatentKey( T key );1;0;4
+EntryIterator.next( );2;1;10
+WeakKey.hashCode( );1;0;3
+WeakConcurrentMap.get( K key );5;4;16
+EntryIterator.EntryIterator( Iterator < Map . Entry < WeakKey < K > , V > > iterator );1;0;4
+WeakConcurrentMap.containsKey( K key );2;1;6
+SimpleEntry.SimpleEntry( K key , Map . Entry < WeakKey < K > , V > entry );1;0;4
+LatentKey.hashCode( );1;0;3
+LatentKey.equals( Object other );5;2;7
+SimpleEntry.setValue( V value );2;1;6
+SimpleEntry.getKey( );1;0;3
+WithInlinedExpunction.get( K key );1;0;4
+WeakConcurrentMap.getCleanerThread( );1;0;3
+WeakConcurrentMap.clear( );1;0;3
+WithInlinedExpunction.approximateSize( );1;0;4
+WeakKey.WeakKey( T key , ReferenceQueue < ? super T > queue );1;0;4
+WeakConcurrentMap.remove( K key );2;1;6
+WithInlinedExpunction.put( K key , V value );1;0;4

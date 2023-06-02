@@ -1,0 +1,55 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StrutsApp.setReturnToActionDisabled( boolean disabled );1;0;3
+StrutsApp.getMessageResourcesList( );1;0;3
+StrutsApp.writeControllerElement( XmlModelWriter xw , Element element );13;5;41
+***not in a method***;0;2;0
+StrutsApp.setAbstract( boolean anAbstract );1;0;3
+StrutsApp.setTilesDefinitionsConfigs( List tilesDefinitionsConfigs );1;0;3
+StrutsApp.writeActionMappings( XmlModelWriter xw , Element element );2;2;10
+StrutsApp.getStrutsConfigURI( String containingPackage , boolean isSharedFlow );1;0;3
+StrutsApp.getDefaultMessageResources( );3;1;8
+StrutsApp.getActionPath( );1;0;3
+StrutsApp.addException( ExceptionModel c );1;0;3
+StrutsApp.getFormBeansAsList( );3;1;9
+StrutsApp.getBeanType( ActionModel actionMapping );2;2;10
+StrutsApp.getFormBean( String formBeanName );1;0;3
+StrutsApp.StrutsApp( String controllerClassName );1;0;10
+StrutsApp.getFormBeans( );1;0;3
+StrutsApp.getFormQualifiedActionPath( ActionModel action );1;3;5
+StrutsApp.deleteFormBean( FormBeanModel formBean );1;0;3
+StrutsApp.setMultipartHandlerClassName( String multipartHandlerClassName );1;0;3
+StrutsApp.isReturnToPageDisabled( );1;0;3
+StrutsApp.isSharedFlow( );1;0;3
+StrutsApp.addDisambiguatedActionMapping( ActionModel mapping );2;1;10
+StrutsApp.addFormBean( FormBeanModel newFormBean );1;0;3
+StrutsApp.isAbstract( );1;0;3
+StrutsApp.setAdditionalValidatorConfigs( List additionalValidatorConfigs );3;3;6
+StrutsApp.addActionMapping( ActionModel mapping );5;6;28
+StrutsApp.writeTilesInit( XmlModelWriter xw , Element element );5;3;22
+StrutsApp.getSortedActionMappings( );1;0;6
+StrutsApp.writeValidatorInit( XmlModelWriter xw , Element element );8;9;26
+ActionMappingComparator.compare( Object o1 , Object o2 );2;2;7
+StrutsApp.writeMessageResources( XmlModelWriter xw , Element element );3;1;11
+StrutsApp.writeToElement( XmlModelWriter xw , Element element );1;0;11
+StrutsApp.makeFullyQualifiedBeanName( String formType );1;0;3
+StrutsApp.isReturnToActionDisabled( );1;0;3
+StrutsApp.setValidationModel( ValidationModel validationModel );2;1;6
+StrutsApp.getMultipartHandlerClassName( );1;0;3
+StrutsApp.setSharedFlow( boolean sharedFlow );1;0;3
+StrutsApp.setNestedPageFlow( boolean nestedPageFlow );1;0;3
+StrutsApp.getFormBeansMap( );1;0;3
+StrutsApp.getMemFileSize( );1;0;3
+StrutsApp.writeFormBeans( XmlModelWriter xw , Element element );3;1;11
+StrutsApp.writeXml( PrintWriter writer , File mergeFile );1;0;8
+StrutsApp.addSetProperty( XmlModelWriter xw , Element element , String propName , String propValue );1;0;3
+StrutsApp.getFormNameForType( String formType , boolean isPageFlowScoped );10;12;34
+StrutsApp.getOutputFileURI( String filePrefix , String containingPackage , boolean isSharedFlow );7;7;14
+StrutsApp.getFormBeansByActualType( String actualTypeName , Boolean usesPageFlowScopedBean );7;7;14
+StrutsApp.addMessageResources( MessageResourcesModel mr );1;0;3
+StrutsApp.getExceptionCatchesList( );1;0;3
+StrutsApp.setReturnToPageDisabled( boolean disabled );1;0;3
+StrutsApp.setSharedFlows( Map sharedFlows );1;0;3
+StrutsApp.getHeaderComment( File mergeFile );1;0;3
+StrutsApp.setLongLivedPageFlow( boolean longLivedPageFlow );1;0;3
+StrutsApp.writeExceptions( XmlModelWriter xw , Element element );4;5;13
+StrutsApp.setMemFileSize( String memFileSize );1;0;3

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestMessageBrokerConfigurer.scopedBean( );1;0;3
+TestMessageBrokerConfigurer.configureMessageBroker( MessageBrokerRegistry configurer );1;0;4
+SimpleController.handleException( IllegalArgumentException ex );1;0;3
+StompWebSocketIntegrationTests.webSocketScope( WebSocketTestServer server , WebSocketClient webSocketClient , TestInfo testInfo );1;0;17
+IncrementController.handle( int i );1;1;3
+TestMessageBrokerConfiguration.clientOutboundChannel( TaskExecutor clientOutboundChannelExecutor );1;0;3
+SimpleController.handle( );1;0;3
+StompWebSocketIntegrationTests.sendMessageToController( WebSocketTestServer server , WebSocketClient webSocketClient , TestInfo testInfo );1;0;9
+ScopedBeanController.getValue( );1;0;3
+TestMessageBrokerConfigurer.registerStompEndpoints( StompEndpointRegistry registry );1;0;3
+TestClientWebSocketHandler.TestClientWebSocketHandler( int expectedNumberOfMessages , TextMessage ... messagesToSend );1;0;5
+SimpleController.handleWithError( );1;0;3
+StompWebSocketIntegrationTests.handleExceptionAndSendToUser( WebSocketTestServer server , WebSocketClient webSocketClient , TestInfo testInfo );1;0;16
+TestClientWebSocketHandler.afterConnectionEstablished( WebSocketSession session );2;0;5
+StompWebSocketIntegrationTests.sendMessageToControllerAndReceiveReplyViaTopic( WebSocketTestServer server , WebSocketClient webSocketClient , TestInfo testInfo );1;0;13
+StompWebSocketIntegrationTests.sendMessageToBrokerAndReceiveReplyViaTopic( WebSocketTestServer server , WebSocketClient webSocketClient , TestInfo testInfo );1;0;13
+IncrementController.number( );1;0;3
+TestClientWebSocketHandler.handleTextMessage( WebSocketSession session , TextMessage message );1;0;4
+StompWebSocketIntegrationTests.getAnnotatedConfigClasses( );2;0;3
+TestMessageBrokerConfiguration.clientInboundChannel( TaskExecutor clientInboundChannelExecutor );1;0;3
+StompWebSocketIntegrationTests.sendSubscribeToControllerAndReceiveReply( WebSocketTestServer server , WebSocketClient webSocketClient , TestInfo testInfo );1;0;14
+ScopedBeanController.ScopedBeanController( ScopedBean scopedBean );1;0;3
+ScopedBeanImpl.ScopedBeanImpl( String value );1;0;3
+ScopedBeanImpl.getValue( );1;0;3

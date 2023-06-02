@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Log4JLogger.isTraceEnabled( );1;0;3
+Log4JLogger.warn( Object message );2;0;4
+Log4JLogger.Log4JLogger( String className );1;0;3
+***not in a method***;0;1;0
+Log4JLogger.trace( Object message , Throwable t );2;0;4
+Log4JLogger.error( Object message , Throwable t );2;0;4
+Log4JLogger.getInstance( Class clazz );1;0;3
+Log4JLogger.trace( Object message );2;0;4
+Log4JLogger.format( Object m , Throwable t );2;3;7
+Log4JLogger.debug( Object message , Throwable t );2;0;4
+Log4JLogger.error( Object message );2;0;4
+Log4JLogger.fatal( Object message );2;0;4
+Log4JLogger.warn( Object message , Throwable t );2;0;4
+Log4JLogger.isInfoEnabled( );1;0;3
+Log4JLogger.Log4JLogger( Class clazz );1;0;3
+Log4JLogger.fatal( Object message , Throwable t );2;0;4
+Log4JLogger.isFatalEnabled( );1;0;3
+Log4JLogger.isErrorEnabled( );1;0;3
+Log4JLogger.debug( Object message );2;0;4
+Log4JLogger.info( Object message , Throwable t );2;0;4
+Log4JLogger.info( Object message );2;0;4
+Log4JLogger.isDebugEnabled( );1;0;3
+Log4JLogger.isWarnEnabled( );1;0;3

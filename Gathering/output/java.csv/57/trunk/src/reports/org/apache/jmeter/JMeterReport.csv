@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JMeterReport.startNonGui( CLOption testFile , CLOption logFile );1;0;6
+JMeterReport.getResourceBundles( );1;0;3
+ListenToTest.testStarted( );1;0;3
+ListenToTest.testIterationStart( LoopIterationEvent event );1;0;2
+ListenToTest.testStarted( String host );1;1;4
+ListenToTest.ListenToTest( JMeterReport parent );1;0;3
+JMeterReport.JMeterReport( );1;0;3
+ListenToTest.testEnded( );1;0;4
+JMeterReport.convertSubTree( HashTree tree );4;0;16
+JMeterReport.start( String [ ] args );6;5;29
+JMeterReport.initializeProperties( CLArgsParser parser );13;9;60
+JMeterReport.startGui( CLOption testFile );3;1;30
+***not in a method***;0;4;0
+ListenToTest.testEnded( String host );2;2;7
+JMeterReport.run( String testFile , String logFile , boolean remoteStart );6;5;36
+ListenToTest.run( );2;0;9
+JMeterReport.getIconMappings( );4;3;23

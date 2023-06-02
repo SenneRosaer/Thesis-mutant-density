@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DelegateWebConnection.DelegateWebConnection( WebRequestMatcher matcher , WebConnection delegate );1;0;4
+DelegatingWebConnection.DelegatingWebConnection( WebConnection defaultConnection , DelegateWebConnection ... connections );1;0;3
+DelegatingWebConnection.DelegatingWebConnection( WebConnection defaultConnection , List < DelegateWebConnection > connections );1;0;6
+DelegateWebConnection.getMatcher( );1;0;3
+DelegateWebConnection.getDelegate( );1;0;3
+DelegatingWebConnection.close( );1;0;2
+DelegatingWebConnection.getResponse( WebRequest request );3;0;8

@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DataSize.toString( );1;0;3
+DataSize.ofTerabytes( long terabytes );1;0;3
+DataSize.ofBytes( long bytes );1;0;3
+DataSize.equals( @ Nullable Object other );4;5;10
+DataSize.hashCode( );1;0;3
+DataSize.ofKilobytes( long kilobytes );1;0;3
+DataSize.ofGigabytes( long gigabytes );1;0;3
+DataSize.isNegative( );1;1;3
+DataSize.toGigabytes( );1;1;3
+DataSizeUtils.determineDataUnit( String suffix , @ Nullable DataUnit defaultUnit );3;1;4
+***not in a method***;0;3;0
+DataSize.of( long amount , DataUnit unit );1;0;4
+DataSize.toKilobytes( );1;1;3
+DataSize.parse( CharSequence text );1;0;3
+DataSize.DataSize( long bytes );1;0;3
+DataSize.toTerabytes( );1;1;3
+DataSize.ofMegabytes( long megabytes );1;0;3
+DataSize.compareTo( DataSize other );1;0;3
+DataSize.parse( CharSequence text , @ Nullable DataUnit defaultUnit );2;0;13
+DataSize.toMegabytes( );1;1;3
+DataSize.toBytes( );1;0;3

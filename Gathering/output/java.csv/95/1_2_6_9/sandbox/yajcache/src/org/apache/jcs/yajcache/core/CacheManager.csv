@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+removeCache( @ NonNullable String name );8;1;30
+getSafeCache( @ NonNullable String name , @ NonNullable Class < V > valueType , @ NonNullable CacheType cacheType );3;0;10
+testCreateFileCacheRaceCondition( @ NonNullable String name , @ NonNullable Class < V > valueType , @ NonNullable CacheType cacheType );1;0;3
+getSafeCache( @ NonNullable String name , @ NonNullable Class < V > valueType );3;1;6
+tryCreateFileCache( @ NonNullable String name , @ NonNullable Class < V > valueType , @ NonNullable CacheType cacheType );4;1;21
+readLock( SoftRefFileCache < ? > cache );1;0;3
+testCreateCacheRaceCondition( @ NonNullable String name , @ NonNullable Class < V > valueType , @ NonNullable CacheType cacheType );1;0;3
+tryCreateCache( @ NonNullable String name , @ NonNullable Class < V > valueType , @ NonNullable CacheType cacheType );4;1;13
+getSafeCache( @ NonNullable String name );3;3;6
+checkValueType( @ NonNullable ICache c , @ NonNullable Class < ? > valueType );2;0;4
+getCache( @ NonNullable String name , @ NonNullable Class < V > valueType , @ NonNullable CacheType cacheType );6;1;21
+getCache( @ NonNullable String name );1;0;3
+checkTypes( ICache c , @ NonNullable CacheType cacheType , @ NonNullable Class < V > valueType );4;3;13
+getCache( @ NonNullable String name , @ NonNullable Class < V > valueType );4;2;6
+toString( );1;0;18

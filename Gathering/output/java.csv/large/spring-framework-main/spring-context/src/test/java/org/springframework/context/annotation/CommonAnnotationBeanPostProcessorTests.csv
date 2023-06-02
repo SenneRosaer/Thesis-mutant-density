@@ -1,0 +1,56 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CommonAnnotationBeanPostProcessorTests.testSerializationWithManualConfiguration( );1;0;9
+ResourceInjectionBean.init( );2;0;6
+ResourceInjectionBean.getTestBean( );1;0;3
+ResourceInjectionBean.destroy2( );3;0;9
+AnnotatedInitDestroyBean.destroy( );2;0;6
+CommonAnnotationBeanPostProcessorTests.testPostConstructAndPreDestroyWithPostProcessor( );1;0;10
+CommonAnnotationBeanPostProcessorTests.testResourceInjectionWithPrototypes( );1;0;31
+ExtendedEjbInjectionBean.setTestBean2( TestBean testBean2 );1;0;3
+InitDestroyBeanPostProcessor.requiresDestruction( Object bean );1;0;3
+NonPublicResourceInjectionBean.getTestBean3( );1;0;3
+ResourceInjectionBean.setTestBean2( TestBean testBean2 );2;1;6
+CommonAnnotationBeanPostProcessorTests.testLazyResolutionWithResourceField( );1;0;14
+CommonAnnotationBeanPostProcessorTests.testExtendedResourceInjectionWithOverriding( );2;0;50
+CommonAnnotationBeanPostProcessorTests.setTestBean7( INestedTestBean testBean7 );1;0;3
+ResourceInjectionBean.init2( );5;4;12
+LazyResourceCglibInjectionBean.setTestBean( TestBean testBean );1;0;3
+ExtendedEjbInjectionBean.getTestBean3( );1;0;3
+LazyResourceMethodInjectionBean.setTestBean( ITestBean testBean );1;0;3
+ExtendedEjbInjectionBean.init2( );3;3;6
+CommonAnnotationBeanPostProcessorTests.destroyDefault( );1;0;3
+ExtendedEjbInjectionBean.setTestBean6( INestedTestBean testBean6 );2;1;6
+CommonAnnotationBeanPostProcessorTests.initDefault( );1;0;3
+NonPublicResourceInjectionBean.setTestBean4( B testBean4 );2;1;6
+ExtendedEjbInjectionBean.setTestBean4( ITestBean testBean4 );2;1;6
+ResourceInjectionBean.getTestBean2( );1;0;3
+NonPublicResourceInjectionBean.getTestBean5( );1;0;3
+CommonAnnotationBeanPostProcessorTests.testExtendedResourceInjection( );1;0;45
+CommonAnnotationBeanPostProcessorTests.testResourceInjectionWithResolvableDependencyType( );1;0;29
+ExtendedEjbInjectionBean.getTestBean4( );1;0;3
+CommonAnnotationBeanPostProcessorTests.testExtendedEjbInjection( );1;0;32
+CommonAnnotationBeanPostProcessorTests.testResourceInjectionFromJndi( );1;0;22
+CommonAnnotationBeanPostProcessorTests.testResourceInjectionWithDefaultMethod( );1;0;16
+CommonAnnotationBeanPostProcessorTests.testLazyResolutionWithResourceMethod( );1;0;14
+CommonAnnotationBeanPostProcessorTests.testPostConstructAndPreDestroyWithApplicationContextAndPostProcessor( );1;0;11
+CommonAnnotationBeanPostProcessorTests.testPostConstructAndPreDestroyWithManualConfiguration( );1;0;12
+CommonAnnotationBeanPostProcessorTests.testResourceInjectionWithTwoProcessors( );1;0;22
+CommonAnnotationBeanPostProcessorTests.testPostProcessorWithNullBean( );1;0;9
+NonPublicResourceInjectionBean.getTestBean6( );1;0;3
+InitDestroyBeanPostProcessor.postProcessBeforeInitialization( Object bean , String beanName );2;0;6
+CommonAnnotationBeanPostProcessorTests.testPostConstructAndPreDestroy( );1;0;9
+CommonAnnotationBeanPostProcessorTests.testResourceInjection( );1;0;21
+CommonAnnotationBeanPostProcessorTests.testSerialization( );1;0;7
+DefaultMethodResourceInjectionBean.increaseCounter( );1;1;3
+CommonAnnotationBeanPostProcessorTests.testLazyResolutionWithCglibProxy( );1;0;14
+InitDestroyBeanPostProcessor.postProcessBeforeDestruction( Object bean , String beanName );2;0;5
+ExtendedEjbInjectionBean.destroy2( );1;0;3
+NonPublicResourceInjectionBean.getTestBean4( );1;0;3
+NonPublicResourceInjectionBean.destroy2( );1;0;3
+NonPublicResourceInjectionBean.setTestBean2( TestBean testBean2 );1;0;3
+InitDestroyBeanPostProcessor.postProcessAfterInitialization( Object bean , String beanName );2;0;6
+NonPublicResourceInjectionBean.init2( );3;3;6
+ResourceInjectionBean.destroy( );3;0;9
+NonPublicResourceInjectionBean.setTestBean6( INestedTestBean testBean6 );2;1;6
+NullFactory.create( );1;0;3
+AnnotatedInitDestroyBean.init( );2;0;6

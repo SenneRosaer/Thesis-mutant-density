@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMConfigurationImpl.getLocale( );1;0;3
+DOMConfigurationImpl.setProperty( String propertyId , Object value );1;0;3
+DOMConfigurationImpl.setDocumentHandler( XMLDocumentHandler documentHandler );1;0;3
+DOMConfigurationImpl.newFeatureNotFoundError( String name );1;0;8
+DOMConfigurationImpl.DOMConfigurationImpl( );1;0;3
+DOMConfigurationImpl.setLocale( Locale locale );1;0;4
+***not in a method***;0;46;0
+DOMConfigurationImpl.setFeature( String featureId , boolean state );1;0;3
+DOMConfigurationImpl.createValidationManager( );1;0;3
+DOMConfigurationImpl.parse( XMLInputSource inputSource );1;0;2
+DOMConfigurationImpl.getDocumentHandler( );1;0;3
+DOMConfigurationImpl.checkProperty( String propertyId );4;3;11
+DOMConfigurationImpl.DOMConfigurationImpl( SymbolTable symbolTable );1;0;3
+DOMConfigurationImpl.setDTDHandler( XMLDTDHandler dtdHandler );1;0;2
+DOMConfigurationImpl.newFeatureNotSupportedError( String name );1;0;8
+DOMConfigurationImpl.setErrorHandler( XMLErrorHandler errorHandler );2;1;5
+DOMConfigurationImpl.getDTDContentModelHandler( );1;0;3
+DOMConfigurationImpl.reset( );3;3;9
+DOMConfigurationImpl.getFeature( String featureId );2;0;6
+DOMConfigurationImpl.getDTDHandler( );1;0;3
+DOMConfigurationImpl.addComponent( XMLComponent component );2;0;10
+DOMConfigurationImpl.getParameterNames( );2;1;31
+DOMConfigurationImpl.canSetParameter( String name , Object value );39;16;64
+DOMConfigurationImpl.getParameter( String name );39;28;79
+DOMConfigurationImpl.newTypeMismatchError( String name );1;0;8
+DOMConfigurationImpl.setDTDValidatorFactory( String version );4;2;12
+DOMConfigurationImpl.getErrorHandler( );1;0;3
+DOMConfigurationImpl.DOMConfigurationImpl( SymbolTable symbolTable , XMLComponentManager parentSettings );7;11;107
+DOMConfigurationImpl.setEntityResolver( XMLEntityResolver resolver );1;0;3
+DOMConfigurationImpl.setDTDContentModelHandler( XMLDTDContentModelHandler handler );1;0;2
+DOMConfigurationImpl.setParameter( String name , Object value );69;53;190
+DOMConfigurationImpl.getEntityResolver( );1;0;3

@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SchemaContentHandler.convertToSAXException( XNIException e );3;1;10
+SchemaContentHandler.addNamespaceDeclarations( final int prefixCount );3;3;27
+SchemaContentHandler.processingInstruction( String target , String data );3;0;12
+SchemaContentHandler.ignorableWhitespace( char [ ] ch , int start , int length );3;0;12
+SchemaContentHandler.fillQName( QName toFill , String uri , String localpart , String rawname );13;16;30
+SchemaContentHandler.reset( SchemaDOMParser schemaDOMParser , SymbolTable symbolTable , boolean namespacePrefixes , boolean stringsInternalized );1;0;6
+SchemaContentHandler.skippedEntity( String arg );1;0;2
+SchemaContentHandler.endElement( String uri , String localName , String qName );3;0;15
+SchemaContentHandler.getDocument( );1;0;3
+SchemaContentHandler.endDocument( );3;0;12
+SchemaContentHandler.fillXMLAttributes( Attributes atts );3;3;10
+SchemaContentHandler.SchemaContentHandler( );1;0;1
+SchemaContentHandler.endPrefixMapping( String prefix );1;0;2
+SchemaContentHandler.startDocument( );3;0;13
+SchemaContentHandler.convertToSAXParseException( XMLParseException e );3;1;15
+SchemaContentHandler.setDocumentLocator( Locator locator );1;0;3
+SchemaContentHandler.startPrefixMapping( String prefix , String uri );9;9;19
+SchemaContentHandler.characters( char [ ] ch , int start , int length );3;0;12
+SchemaContentHandler.startElement( String uri , String localName , String qName , Attributes atts );6;2;23

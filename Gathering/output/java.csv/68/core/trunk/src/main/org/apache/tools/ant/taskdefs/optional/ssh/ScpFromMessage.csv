@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScpFromMessage.setLastModified( File localFile );2;2;16
+ScpFromMessage.parseAndCreateDirectory( String serverResponse , File localFile );2;2;12
+ScpFromMessage.ScpFromMessage( boolean verbose , Session session , String aRemoteFile , File aLocalFile , boolean recursive );1;0;3
+ScpFromMessage.ScpFromMessage( Session session );1;0;3
+ScpFromMessage.ScpFromMessage( Session session , String aRemoteFile , File aLocalFile , boolean recursive );1;0;3
+ScpFromMessage.ScpFromMessage( boolean verbose , Session session );1;0;3
+ScpFromMessage.parseAndFetchFile( String serverResponse , File localFile , OutputStream out , InputStream in );2;4;15
+ScpFromMessage.remoteDir( String remoteFile );3;4;7
+ScpFromMessage.execute( );3;3;20
+ScpFromMessage.ScpFromMessage( boolean verbose , Session session , String aRemoteFile , File aLocalFile , boolean recursive , boolean preserveLastModified );1;0;7
+ScpFromMessage.getPreserveLastModified( );1;0;3
+ScpFromMessage.startRemoteCpProtocol( InputStream in , OutputStream out , File localFile );10;8;30
+ScpFromMessage.fetchFile( File localFile , long filesize , OutputStream out , InputStream in );8;7;40

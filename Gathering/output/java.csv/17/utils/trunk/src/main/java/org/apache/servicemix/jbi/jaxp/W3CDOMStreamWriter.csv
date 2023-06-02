@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+W3CDOMStreamWriter.writeEmptyElement( String prefix , String namespace , String local );1;0;3
+W3CDOMStreamWriter.writeStartDocument( String encoding , String version );1;0;3
+W3CDOMStreamWriter.writeProcessingInstruction( String target , String data );1;0;3
+W3CDOMStreamWriter.writeComment( String value );1;0;3
+W3CDOMStreamWriter.getNamespaceContext( );1;0;3
+W3CDOMStreamWriter.getDocument( );1;0;3
+W3CDOMStreamWriter.writeCharacters( char [ ] text , int start , int len );1;0;3
+W3CDOMStreamWriter.writeAttribute( String local , String value );1;0;5
+W3CDOMStreamWriter.setPrefix( String arg0 , String arg1 );1;0;2
+W3CDOMStreamWriter.writeAttribute( String prefix , String namespace , String local , String value );2;2;8
+W3CDOMStreamWriter.writeDefaultNamespace( String namespace );1;0;3
+W3CDOMStreamWriter.writeEndDocument( );1;0;2
+W3CDOMStreamWriter.writeEmptyElement( String namespace , String local );1;0;3
+W3CDOMStreamWriter.writeStartElement( String local );1;0;3
+W3CDOMStreamWriter.getProperty( String prop );1;0;3
+W3CDOMStreamWriter.writeStartElement( String prefix , String local , String namespace );3;3;7
+W3CDOMStreamWriter.W3CDOMStreamWriter( DocumentBuilder builder );1;0;3
+W3CDOMStreamWriter.writeCData( String data );1;0;3
+W3CDOMStreamWriter.writeStartElement( String namespace , String local );1;0;3
+W3CDOMStreamWriter.getPrefix( String uri );1;0;3
+W3CDOMStreamWriter.writeAttribute( String namespace , String local , String value );1;0;5
+W3CDOMStreamWriter.W3CDOMStreamWriter( );1;0;3
+W3CDOMStreamWriter.writeProcessingInstruction( String target );1;0;3
+W3CDOMStreamWriter.W3CDOMStreamWriter( Document document );1;0;3
+W3CDOMStreamWriter.setDefaultNamespace( String arg0 );1;0;2
+W3CDOMStreamWriter.writeDTD( String arg0 );1;0;3
+W3CDOMStreamWriter.newChild( Element element );2;1;12
+W3CDOMStreamWriter.writeEntityRef( String ref );1;0;3
+W3CDOMStreamWriter.writeStartDocument( String version );1;0;3
+W3CDOMStreamWriter.writeEmptyElement( String local );1;0;3
+W3CDOMStreamWriter.writeCharacters( String text );1;0;3
+W3CDOMStreamWriter.setNamespaceContext( NamespaceContext ctx );1;0;3
+W3CDOMStreamWriter.writeNamespace( String prefix , String namespace );2;1;7
+W3CDOMStreamWriter.writeEndElement( );2;1;7
+W3CDOMStreamWriter.writeStartDocument( );1;0;2

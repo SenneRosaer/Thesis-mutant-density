@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RemoteCache.processGetMatching( String pattern );6;2;37
+RemoteCache.call( );1;0;3
+***not in a method***;0;1;0
+RemoteCache.setListenerId( long id );3;0;14
+RemoteCache.setCacheEventLogger( ICacheEventLogger cacheEventLogger );1;0;3
+RemoteCache.getListener( );1;0;3
+RemoteCache.getGroupKeys( String groupName );1;0;3
+RemoteCache.setElementAttributes( IElementAttributes attr );1;0;3
+RemoteCache.setElementSerializer( IElementSerializer elementSerializer );2;1;6
+RemoteCache.processDispose( );4;1;18
+RemoteCache.getCacheType( );1;0;3
+RemoteCache.getStats( );1;0;3
+RemoteCache.fixCache( IRemoteCacheService restoredRemote );5;2;27
+RemoteCache.toString( );1;0;3
+RemoteCache.processRemove( Serializable key );4;1;19
+RemoteCache.getSize( );1;0;3
+RemoteCache.getCacheName( );1;0;3
+RemoteCache.processGet( Serializable key );6;3;27
+RemoteCache.processGetMultiple( Set keys );5;4;17
+RemoteCache.getEventLoggingExtraInfo( );1;0;3
+RemoteCache.getElementAttributes( );1;0;3
+RemoteCache.getListenerId( );4;2;18
+RemoteCache.handleException( Exception ex , String msg , String eventName );8;6;29
+RemoteCache.processRemoveAll( );3;1;13
+RemoteCache.getElementSerializer( );1;0;3
+RemoteCache.getStatistics( );4;2;42
+RemoteCache.processUpdate( ICacheElement ce );6;1;31
+RemoteCache.getIPAddressForService( );1;1;4
+RemoteCache.getUsingPool( final Serializable key );6;1;44
+RemoteCache.RemoteCache( IRemoteCacheAttributes cattr , IRemoteCacheService remote , IRemoteCacheListener listener );6;2;30
+RemoteCache.getAuxiliaryCacheAttributes( );1;0;3
+RemoteCache.getStatus( );2;0;3

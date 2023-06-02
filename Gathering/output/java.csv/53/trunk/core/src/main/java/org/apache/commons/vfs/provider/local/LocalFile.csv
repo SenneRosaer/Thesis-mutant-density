@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LocalFile.doGetRandomAccessContent( final RandomAccessMode mode );1;0;3
+LocalFile.doIsReadable( );1;0;3
+LocalFile.doCreateFolder( );2;1;6
+LocalFile.doRename( final FileObject newfile );2;1;8
+LocalFile.doDelete( );2;1;6
+LocalFile.doGetInputStream( );1;0;3
+LocalFile.doIsHidden( );1;0;3
+LocalFile.LocalFile( final LocalFileSystem fileSystem , final String rootFile , final FileName name );1;0;4
+LocalFile.doGetOutputStream( boolean bAppend );1;0;3
+LocalFile.doAttach( );2;2;7
+LocalFile.getLocalFile( );1;0;3
+LocalFile.doGetContentSize( );1;0;3
+LocalFile.doListChildren( );1;0;3
+LocalFile.doSetLastModTime( final long modtime );1;0;3
+LocalFile.doGetLastModifiedTime( );1;0;3
+LocalFile.doIsWriteable( );1;0;3
+LocalFile.doIsSameFile( FileObject destFile );5;4;19
+LocalFile.doGetType( );4;3;11

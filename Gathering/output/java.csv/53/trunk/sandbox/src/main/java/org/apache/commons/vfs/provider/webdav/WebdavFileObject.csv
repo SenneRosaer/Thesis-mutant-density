@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebdavFileObject.doListChildren( );1;0;3
+WebdavFileObject.resolveRedirection( );4;3;23
+WebdavFileObject.doAttach( );2;1;6
+WebdavFileObject.doListChildrenResolved( );11;12;50
+WebdavFileObject.WebdavFileObject( final GenericFileName name , final WebDavFileSystem fileSystem );1;0;5
+WebdavRandomAccesContent.close( );2;1;8
+WebdavFileObject.processParentDavResource( );2;0;11
+WebdavFileObject.reattach( );2;0;11
+WebdavFileObject.hasAllowedMethods( String method );2;1;7
+WebdavFileObject.setDavResource( WebdavResource resource );11;8;78
+WebdavFileObject.doRename( FileObject newfile );2;1;8
+WebdavFileObject.doGetContentSize( );1;0;3
+WebdavRandomAccesContent.read( );2;3;8
+WebdavFileObject.handleCreate( final FileType newType );1;0;4
+WebdavFileObject.doGetLastModifiedTime( );1;0;3
+WebdavFileObject.doGetRandomAccessContent( final RandomAccessMode mode );1;0;3
+WebdavRandomAccesContent.WebdavRandomAccesContent( final WebdavFileObject fileObject , final RandomAccessMode mode );1;0;4
+WebdavRandomAccesContent.read( byte b [ ] );2;3;8
+WebdavOutputStream.WebdavOutputStream( FileObject webdavTmp );1;0;4
+WebdavRandomAccesContent.getDataInputStream( );6;2;49
+WebdavFileObject.setAllowedMethods( Enumeration allowedMethods );3;1;11
+WebdavFileObject.doCreateFolder( );2;2;9
+WebdavFileObject.doGetInputStream( );3;1;14
+WebdavRandomAccesContent.length( );1;0;3
+WebdavRandomAccesContent.read( byte b [ ] , int off , int len );2;3;8
+WebdavFileObject.doDelete( );2;1;9
+WebdavFileObject.doIsReadable( );1;0;3
+WebdavOutputStream.onClose( );2;1;16
+WebdavFileObject.configureMethod( HttpMethodBase httpMethod );1;0;3
+WebdavFileObject.doDetach( );2;1;9
+WebdavFileObject.doGetOutputStream( boolean bAppend );1;1;11
+WebdavRandomAccesContent.seek( long pos );4;3;17
+WebdavFileObject.doGetAttributes( );3;0;15
+WebdavRandomAccesContent.getFilePointer( );1;0;3
+WebdavFileObject.getAllowedMethods( );6;7;27
+WebdavFileObject.doIsWriteable( );1;0;3
+WebdavFileObject.doGetType( );1;0;3

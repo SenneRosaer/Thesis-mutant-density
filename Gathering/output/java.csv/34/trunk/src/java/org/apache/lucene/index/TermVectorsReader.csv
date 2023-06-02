@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TermVectorsReader.checkValidFormat( IndexInput in );2;1;8
+TermVectorsReader.seekTvx( final int docNum );2;7;6
+TermVectorsReader.getTvfStream( );1;0;3
+ParallelArrayTermVectorMapper.materializeVector( );5;4;11
+TermVectorsReader.readFields( int fieldCount );3;4;12
+TermVectorsReader.clone( );4;5;9
+TermVectorsReader.readTermVectors( String fields [ ] , long tvfPointers [ ] , TermVectorMapper mapper );2;2;5
+TermVectorsReader.getTvdStream( );1;0;3
+TermVectorsReader.readTermVector( String field , long tvfPointer , TermVectorMapper mapper );16;27;92
+TermVectorsReader.get( int docNum , String field , TermVectorMapper mapper );8;13;32
+ParallelArrayTermVectorMapper.setExpectations( String field , int numTerms , boolean storeOffsets , boolean storePositions );3;0;11
+TermVectorsReader.TermVectorsReader( Directory d , String segment , FieldInfos fieldInfos , int readBufferSize , int docStoreOffset , int size );6;23;38
+TermVectorsReader.close( );11;7;7
+TermVectorsReader.get( int docNum , String field );1;0;5
+TermVectorsReader.readTermVectors( int docNum , String fields [ ] , long tvfPointers [ ] );2;2;10
+TermVectorsReader.size( );1;0;3
+TermVectorsReader.get( int docNumber , TermVectorMapper mapper );3;2;15
+TermVectorsReader.TermVectorsReader( Directory d , String segment , FieldInfos fieldInfos );1;0;3
+ParallelArrayTermVectorMapper.map( String term , int frequency , TermVectorOffsetInfo [ ] offsets , int [ ] positions );3;1;13
+TermVectorsReader.TermVectorsReader( Directory d , String segment , FieldInfos fieldInfos , int readBufferSize );1;1;3
+TermVectorsReader.get( int docNum );3;2;16
+TermVectorsReader.rawDocs( int [ ] tvdLengths , int [ ] tvfLengths , int startDocID , int numDocs );5;13;34
+TermVectorsReader.readTvfPointers( int fieldCount );3;4;14
+TermVectorsReader.canReadRawDocs( );1;1;3

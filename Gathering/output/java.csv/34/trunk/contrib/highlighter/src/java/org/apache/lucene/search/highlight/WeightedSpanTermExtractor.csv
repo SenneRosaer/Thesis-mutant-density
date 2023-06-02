@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WeightedSpanTermExtractor.getWeightedSpanTerms( Query query , CachingTokenFilter cachingTokenFilter , String fieldName );2;1;13
+WeightedSpanTermExtractor.isHighlightCnstScrRngQuery( );1;0;3
+WeightedSpanTermExtractor.WeightedSpanTermExtractor( String defaultField );2;1;5
+PositionCheckingMap.put( Object key , Object value );3;2;10
+WeightedSpanTermExtractor.extractWeightedTerms( Map terms , Query query );3;0;11
+WeightedSpanTermExtractor.setHighlightCnstScrRngQuery( boolean highlightCnstScrRngQuery );1;0;3
+WeightedSpanTermExtractor.getWeightedSpanTerms( Query query , CachingTokenFilter cachingTokenFilter );1;0;11
+PositionCheckingMap.putAll( Map m );2;0;8
+WeightedSpanTermExtractor.fieldNameComparator( String fieldNameToCheck );3;5;5
+WeightedSpanTermExtractor.getWeightedSpanTermsWithScores( Query query , TokenStream tokenStream , String fieldName , IndexReader reader );3;5;23
+WeightedSpanTermExtractor.getReaderForField( String field );2;1;11
+WeightedSpanTermExtractor.WeightedSpanTermExtractor( );1;0;2
+WeightedSpanTermExtractor.closeReaders( );3;0;11
+WeightedSpanTermExtractor.extractWeightedSpanTerms( Map terms , SpanQuery spanQuery );11;6;48
+WeightedSpanTermExtractor.extract( Query query , Map terms );26;30;100

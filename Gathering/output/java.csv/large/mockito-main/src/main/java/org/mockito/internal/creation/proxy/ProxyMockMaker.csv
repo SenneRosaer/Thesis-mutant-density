@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockInvocationHandler.invoke( Object proxy , Method method , Object [ ] args );7;3;40
+CommonClassLoader.loadClass( String name );2;0;7
+CommonClassLoader.CommonClassLoader( ClassLoader left , ClassLoader right );1;0;5
+ProxyMockMaker.getHandler( Object mock );3;2;10
+ProxyMockMaker.mockable( );2;2;3
+ProxyMockMaker.nonMockableReason( );2;0;3
+ProxyMockMaker.resolveCommonClassLoader( ClassLoader mostSpecific , Class < ? > type );8;8;23
+ProxyMockMaker.createMock( MockCreationSettings < T > settings , MockHandler handler );7;5;18
+MockInvocationHandler.MockInvocationHandler( MockHandler < ? > handler , MockCreationSettings < ? > settings );1;0;4
+ProxyMockMaker.resetMock( Object mock , MockHandler newHandler , MockCreationSettings settings );1;0;3
+ProxyMockMaker.isTypeMockable( Class < ? > type );3;0;12

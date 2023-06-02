@@ -1,0 +1,58 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PrecedenceQueryParser.parse( String expression );6;4;16
+PrecedenceQueryParser.jj_rescan_token( );5;4;16
+PrecedenceQueryParser.getBooleanQuery( List clauses );1;0;3
+PrecedenceQueryParser.getField( );1;0;3
+PrecedenceQueryParser.setLocale( Locale locale );1;0;3
+PrecedenceQueryParser.disable_tracing( );1;0;2
+PrecedenceQueryParser.PrecedenceQueryParser( CharStream stream );3;6;8
+PrecedenceQueryParser.Conjunction( );8;5;27
+PrecedenceQueryParser.addClause( List clauses , int conj , int modifier , Query q );19;30;33
+***not in a method***;0;1;0
+PrecedenceQueryParser.getToken( int index );4;3;8
+PrecedenceQueryParser.getFieldQuery( String field , String queryText );15;15;70
+PrecedenceQueryParser.getBooleanQuery( Vector clauses , boolean disableCoord );1;0;3
+PrecedenceQueryParser.addClause( Vector clauses , int conj , int modifier , Query q );1;0;3
+PrecedenceQueryParser.setDefaultOperator( Operator op );1;0;3
+PrecedenceQueryParser.jj_la1_0( );1;0;3
+PrecedenceQueryParser.getFieldQuery( String field , String queryText , int slop );3;0;10
+PrecedenceQueryParser.escape( String s );18;33;13
+PrecedenceQueryParser.getFuzzyQuery( String field , String termStr , float minSimilarity );2;0;7
+PrecedenceQueryParser.jj_add_error_token( int kind , int pos );12;14;27
+PrecedenceQueryParser.setLowercaseExpandedTerms( boolean lowercaseExpandedTerms );1;0;3
+Operator.Operator( String name );1;0;3
+PrecedenceQueryParser.setFuzzyPrefixLength( int fuzzyPrefixLength );1;0;3
+PrecedenceQueryParser.getFuzzyMinSim( );1;0;3
+PrecedenceQueryParser.Query( String field );23;8;51
+PrecedenceQueryParser.getPhraseSlop( );1;0;3
+PrecedenceQueryParser.getWildcardQuery( String field , String termStr );2;0;7
+PrecedenceQueryParser.setPhraseSlop( int phraseSlop );1;0;3
+PrecedenceQueryParser.getBooleanQuery( List clauses , boolean disableCoord );4;5;9
+PrecedenceQueryParser.jj_3_1( );3;0;5
+PrecedenceQueryParser.setFuzzyMinSim( float fuzzyMinSim );1;0;3
+PrecedenceQueryParser.getBooleanQuery( Vector clauses );1;0;3
+PrecedenceQueryParser.generateParseException( );10;16;35
+PrecedenceQueryParser.getNextToken( );2;3;7
+PrecedenceQueryParser.jj_consume_token( int kind );7;10;23
+PrecedenceQueryParser.jj_2_1( int xla );2;1;6
+PrecedenceQueryParser.getLowercaseExpandedTerms( );1;0;3
+PrecedenceQueryParser.PrecedenceQueryParser( PrecedenceQueryParserTokenManager tm );3;6;8
+PrecedenceQueryParser.ReInit( CharStream stream );3;6;8
+PrecedenceQueryParser.PrecedenceQueryParser( String f , Analyzer a );1;0;5
+PrecedenceQueryParser.getFuzzyPrefixLength( );1;0;3
+PrecedenceQueryParser.jj_ntk( );2;1;6
+PrecedenceQueryParser.getPrefixQuery( String field , String termStr );2;0;7
+PrecedenceQueryParser.getRangeQuery( String field , String part1 , String part2 , boolean inclusive );3;0;18
+PrecedenceQueryParser.jj_save( int index , int xla );3;4;8
+PrecedenceQueryParser.getLocale( );1;0;3
+PrecedenceQueryParser.getDefaultOperator( );1;0;3
+PrecedenceQueryParser.andExpression( String field );8;5;29
+PrecedenceQueryParser.ReInit( PrecedenceQueryParserTokenManager tm );3;6;8
+PrecedenceQueryParser.Term( String field );61;52;237
+PrecedenceQueryParser.getAnalyzer( );1;0;3
+PrecedenceQueryParser.discardEscapeChar( String input );5;9;11
+PrecedenceQueryParser.Modifier( );10;5;32
+PrecedenceQueryParser.main( String [ ] args );2;1;10
+PrecedenceQueryParser.jj_scan_token( int kind );10;12;20
+PrecedenceQueryParser.Clause( String field );16;6;49
+PrecedenceQueryParser.enable_tracing( );1;0;2

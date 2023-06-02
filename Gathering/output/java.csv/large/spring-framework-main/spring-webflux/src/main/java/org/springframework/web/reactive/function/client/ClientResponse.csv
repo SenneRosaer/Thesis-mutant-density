@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+create( int statusCode , ExchangeStrategies strategies );1;0;3
+mutate( );1;0;3
+messageReaders( );1;0;3
+from( ClientResponse other );1;0;3
+create( HttpStatusCode statusCode , List < HttpMessageReader < ? > > messageReaders );3;0;12
+messageWriters( );1;0;3
+rawStatusCode( );1;0;3
+create( HttpStatusCode statusCode , ExchangeStrategies strategies );1;0;3
+create( HttpStatusCode statusCode );1;0;3

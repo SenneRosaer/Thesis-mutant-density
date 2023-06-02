@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JbiBinding.addJbiHeaders( MessageExchange jbiExchange , NormalizedMessage normalizedMessage , Exchange camelExchange );5;4;11
+JbiBinding.createJbiMessageExchange( Exchange camelExchange , MessageExchangeFactory exchangeFactory , String defaultMep );12;12;37
+JbiBinding.makeJbiMessageExchange( Exchange camelExchange , MessageExchangeFactory exchangeFactory , String defaultMep );2;1;12
+JbiBinding.setMessageExchangePattern( String messageExchangePattern );1;0;3
+JbiBinding.convertBodyToJbi( Exchange exchange , Object body );3;0;12
+JbiBinding.getJbiInContent( Exchange camelExchange );3;3;8
+JbiBinding.addJbiAttachments( MessageExchange jbiExchange , NormalizedMessage normalizedMessage , Exchange camelExchange );2;0;6
+JbiBinding.extractBodyFromJbi( JbiExchange exchange , NormalizedMessage normalizedMessage );1;0;3
+JbiBinding.getMessageExchangePattern( );1;0;3

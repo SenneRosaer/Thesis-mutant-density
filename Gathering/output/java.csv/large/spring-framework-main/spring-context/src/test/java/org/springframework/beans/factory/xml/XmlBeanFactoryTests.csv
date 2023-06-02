@@ -1,0 +1,142 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlBeanFactoryTests.lenientDependencyMatchingFactoryMethod( );1;0;6
+XmlBeanFactoryTests.lookupOverrideOneMethodWithConstructorInjection( );1;0;14
+ConstructorArrayTestBean.ConstructorArrayTestBean( float [ ] array );1;0;3
+LenientDependencyTestBean.create( ITestBean tb );1;0;3
+DoSomethingReplacer.reimplement( Object obj , Method method , Object [ ] args );1;0;6
+XmlBeanFactoryTests.autowireByConstructorWithSimpleValues( );1;1;23
+XmlBeanFactoryTests.circularReferencesWithWrappingAndRawInjectionAllowed( );1;1;18
+XmlBeanFactoryTests.doubleBooleanAutowireWithIndex( );1;0;7
+DoubleInitializer.getNum( );1;0;3
+XmlBeanFactoryTests.inheritanceFromParentFactoryPrototype( );1;2;12
+XmlBeanFactoryTests.constructorArgResolution( );1;0;38
+XmlBeanFactoryTests.initMethodIsInvoked( );1;0;6
+XmlBeanFactoryTests.doTestAutowire( DefaultListableBeanFactory xbf );1;0;27
+DoubleInitializer.init( );1;1;3
+LenientDependencyTestBean.LenientDependencyTestBean( Map [ ] m );1;0;3
+XmlBeanFactoryTests.dependsOnInInnerBean( );1;0;3
+DependingBean.setBean2( PreparingBean2 bean2 );1;0;2
+XmlBeanFactoryTests.recursiveImport( );1;0;5
+XmlBeanFactoryTests.autowire( );1;0;7
+LenientDependencyTestBean.LenientDependencyTestBean( DerivedTestBean tb );1;0;3
+PreparingBean2.destroy( );1;0;3
+XmlBeanFactoryTests.circularReferencesWithNotAllowed( );1;0;10
+XmlBeanFactoryTests.autowireModeNotInherited( );1;0;9
+XmlBeanFactoryTests.noSuchInitMethod( );1;0;9
+XmlBeanFactoryTests.throwsExceptionOnTooManyArguments( );1;0;6
+WrappingPostProcessor.postProcessBeforeInitialization( Object bean , String beanName );1;0;3
+XmlBeanFactoryTests.noSuchXmlFile( );1;0;5
+DependingBean.afterPropertiesSet( );3;2;5
+XmlBeanFactoryTests.circularReferencesWithWrapping( );1;0;10
+XmlBeanFactoryTests.abstractParentBeans( );3;0;13
+XmlBeanFactoryTests.noSuchFactoryBeanMethod( );1;0;6
+XmlBeanFactoryTests.innerBeansWithoutDestroy( );1;0;26
+XmlBeanFactoryTests.dependenciesThroughConstructorArguments( );1;0;3
+ConstructorArrayTestBean.ConstructorArrayTestBean( int [ ] array );1;0;3
+XmlBeanFactoryTests.fileSystemResourceWithImport( );1;0;6
+InitAndIB.afterPropertiesSet( );2;0;7
+InTheMiddleBean.setBean1( PreparingBean1 bean1 );1;0;2
+XmlBeanFactoryTests.resourceAndInputStream( );1;0;19
+XmlBeanFactoryTests.stringConstructorArrayNoType( );1;0;7
+XmlBeanFactoryTests.rejectsOverrideOfBogusMethodName( );1;0;8
+DependingBean.setBean1( PreparingBean1 bean1 );1;0;2
+XmlBeanFactoryTests.bogusParentageFromParentFactory( );1;0;10
+ConstructorArrayTestBean.ConstructorArrayTestBean( short [ ] array );1;0;3
+StringConstructorTestBean.StringConstructorTestBean( String name );1;0;3
+XmlBeanFactoryTests.autowireWithDefault( );1;0;10
+XmlBeanFactoryTests.inheritanceWithDifferentClass( );1;1;11
+XmlBeanFactoryTests.factoryReferenceWithDoublePrefix( );1;0;5
+XmlBeanFactoryTests.dependenciesThroughConstructorArgumentsInInnerBean( );1;0;3
+XmlBeanFactoryTests.dependenciesThroughPropertyAutowiringByName( );1;0;3
+XmlBeanFactoryTests.complexFactoryReferenceCircle( );1;0;8
+XmlBeanFactoryTests.factoryReferenceCircle( );1;1;7
+InitAndIB.customInit( );2;0;7
+XmlBeanFactoryTests.invalidXmlFile( );1;0;5
+XmlBeanFactoryTests.circularReferenceWithFactoryBeanFirst( );1;1;9
+XmlBeanFactoryTests.innerBeans( );1;1;60
+XmlBeanFactoryTests.refToSeparatePrototypeInstances( );1;2;16
+LenientDependencyTestBean.create( TestBean tb );1;0;3
+XmlBeanFactoryTests.dependenciesThroughPropertyAutowiringByType( );1;0;3
+DoubleBooleanConstructorBean.DoubleBooleanConstructorBean( Boolean b1 , Boolean b2 );1;0;4
+XmlBeanFactoryTests.nonLenientDependencyMatching( );1;0;9
+XmlBeanFactoryTests.defaultLazyInit( );2;0;14
+LenientDependencyTestBean.LenientDependencyTestBean( ITestBean tb );1;0;3
+XmlBeanFactoryTests.classPathResourceWithImport( );1;0;6
+BadInitializer.init2( );1;0;3
+XmlBeanFactoryTests.inheritanceWithClass( );1;1;11
+XmlBeanFactoryTests.circularReferenceWithTwoFactoryBeans( );1;2;10
+XmlBeanFactoryTests.indexedPrimitiveConstructorArray( );1;0;8
+LenientDependencyTestBean.LenientDependencyTestBean( TestBean tb );1;0;3
+XmlBeanFactoryTests.autowireByConstructor( );1;0;29
+DoubleBooleanConstructorBean.create( Boolean b1 , Boolean b2 );1;0;3
+XmlBeanFactoryTests.nonLenientDependencyMatchingFactoryMethod( );1;0;9
+PreparingBean1.PreparingBean1( );1;0;3
+XmlBeanFactoryTests.initializingBeanAndInitMethod( );5;6;16
+LenientDependencyTestBean.create( DerivedTestBean tb );1;0;3
+PreparingBean1.destroy( );1;0;3
+XmlBeanFactoryTests.customStringConstructor( );1;0;8
+XmlBeanFactoryTests.constructorArgWithDoubleSimpleTypeMatch( );1;0;10
+XmlBeanFactoryTests.serializableMethodReplacerAndSuperclass( );1;0;10
+XmlBeanFactoryTests.prototypeWithExplicitArguments( );1;0;14
+XmlBeanFactoryTests.collectionsReferredToAsRefLocals( );1;0;5
+XmlBeanFactoryTests.circularReferences( );1;5;16
+InitAndIB.InitAndIB( );1;0;3
+XmlBeanFactoryTests.doubleBooleanAutowire( );1;0;7
+DoubleInitializer.setNum( int i );1;0;3
+XmlBeanFactoryTests.prototypeInheritanceFromParentFactoryPrototype( );1;4;15
+XmlBeanFactoryTests.circularReferencesWithPrototype( );1;0;12
+XmlBeanFactoryTests.autowireWithParent( );1;0;12
+XmlBeanFactoryTests.singletonInheritsFromParentFactoryPrototype( );1;2;11
+XmlBeanFactoryTests.replaceMethodOverrideWithSetterInjection( );1;1;33
+XmlBeanFactoryTests.dependenciesMaterializeThis( );1;1;15
+XmlBeanFactoryTests.withDuplicateName( );1;0;6
+XmlBeanFactoryTests.initMethodThrowsException( );1;0;11
+ConstructorArrayTestBean.ConstructorArrayTestBean( String [ ] array );1;0;3
+DoubleBooleanConstructorBean.DoubleBooleanConstructorBean( String s1 , String s2 );1;0;3
+DependingBean.DependingBean( PreparingBean1 bean1 , PreparingBean2 bean2 );1;0;2
+XmlBeanFactoryTests.lookupOverrideMethodsWithSetterInjection( );3;4;22
+WrappingPostProcessor.postProcessAfterInitialization( Object bean , String beanName );1;0;4
+PreparingBean2.PreparingBean2( );1;0;3
+XmlBeanFactoryTests.constructorWithUnresolvableParameterName( );1;0;8
+DependingBean.setInTheMiddleBean( InTheMiddleBean bean );1;0;2
+XmlBeanFactoryTests.relatedCausesFromConstructorResolution( );2;0;12
+XmlBeanFactoryTests.constructorArgWithSingleMatch( );1;0;6
+XmlBeanFactoryTests.initializingBeanAndSameInitMethod( );5;9;16
+XmlBeanFactoryTests.dependenciesThroughConstructorArgumentAutowiring( );1;0;3
+DependingBean.DependingBean( );1;0;2
+XmlBeanFactoryTests.circularReferencesWithConstructor( );1;0;12
+XmlBeanFactoryTests.innerBeanInheritsScopeFromConcreteChildDefinition( );1;0;15
+HoldingBean.setDependingBean( DependingBean dependingBean );1;0;3
+InitAndIB.destroy( );2;0;7
+XmlBeanFactoryTests.failsOnInnerBean( );3;0;22
+XmlBeanFactoryTests.primitiveConstructorArray( );1;0;8
+XmlBeanFactoryTests.classNotFoundWithNoBeanClassLoader( );1;0;7
+XmlBeanFactoryTests.overrideMethodByArgTypeElement( );1;0;8
+XmlBeanFactoryTests.withDuplicateNameInAlias( );1;0;6
+XmlBeanFactoryTests.overrideMethodByArgTypeAttribute( );1;0;8
+XmlBeanFactoryTests.childOverridesParentBean( );1;2;11
+XmlBeanFactoryTests.circularReferencesWithDependOn( );1;0;10
+XmlBeanFactoryTests.refToSingleton( );1;2;13
+XmlBeanFactoryTests.lenientDependencyMatching( );1;0;6
+XmlBeanFactoryTests.dependenciesThroughPropertiesInInnerBean( );1;0;3
+XmlBeanFactoryTests.classPathResource( String suffix );1;1;3
+HoldingBean.destroy( );2;1;7
+XmlBeanFactoryTests.dependsOn( );1;0;3
+XmlBeanFactoryTests.nestedPropertyValue( );1;0;8
+DoubleBooleanConstructorBean.create( String s1 , String s2 );1;0;3
+XmlBeanFactoryTests.singletonFromParent( );1;1;9
+XmlBeanFactoryTests.stringConstructorArrayNoTypeNonLenient( );1;0;9
+XmlBeanFactoryTests.urlResourceWithImport( );1;0;6
+XmlBeanFactoryTests.classNotFoundWithDefaultBeanClassLoader( );1;0;8
+XmlBeanFactoryTests.javaLangStringConstructor( );1;0;8
+DependingBean.destroy( );3;2;7
+XmlBeanFactoryTests.dependenciesThroughPropertiesWithInTheMiddle( );1;0;3
+XmlBeanFactoryTests.lookupOverrideMethodsWithSetterInjection( BeanFactory xbf , String beanName , boolean singleton );2;0;22
+XmlBeanFactoryTests.throwsExceptionOnAmbiguousResolution( );1;0;6
+XmlBeanFactoryTests.prototypeInheritanceFromParentFactorySingleton( );1;4;14
+XmlBeanFactoryTests.constructorArgWithSingleSimpleTypeMatch( );1;0;8
+InTheMiddleBean.setBean2( PreparingBean2 bean2 );1;0;2
+XmlBeanFactoryTests.doTestDependencies( ClassPathResource resource , int nrOfHoldingBeans );2;1;20
+XmlBeanFactoryTests.methodInjectedBeanMustBeOfSameEnhancedCglibSubclassTypeAcrossBeanFactories( );5;3;15
+XmlBeanFactoryTests.dependenciesThroughProperties( );1;0;3
+InitAndIB.customDestroy( );2;0;7

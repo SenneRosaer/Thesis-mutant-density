@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChannelImpl.ChannelImpl( InternalEndpoint endpoint , Executor executor , NMR nmr );4;2;12
+ChannelImpl.run( );1;0;3
+ChannelImpl.dispatch( InternalExchange exchange );5;1;14
+ChannelImpl.process( InternalExchange exchange );5;2;13
+ChannelImpl.close( );2;0;4
+ChannelImpl.getNMR( );1;0;3
+ChannelImpl.sendSync( Exchange exchange );1;0;3
+ChannelImpl.createExchange( Pattern pattern );1;0;3
+ChannelImpl.sendSync( Exchange exchange , long timeout );7;4;25
+ChannelImpl.getEndpoint( );1;0;3
+ChannelImpl.deliver( final InternalExchange exchange );5;2;18
+ChannelImpl.send( Exchange exchange );1;0;4

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractPageSequenceLayoutManager.notifyEndOfLayout( String id );1;0;3
+AbstractPageSequenceLayoutManager.finishPage( );3;0;12
+AbstractPageSequenceLayoutManager.addUnresolvedArea( String id , Resolvable res );1;0;4
+AbstractPageSequenceLayoutManager.getCurrentPageNum( );1;0;3
+AbstractPageSequenceLayoutManager.resolveRetrieveMarker( RetrieveMarker rm );12;21;35
+AbstractPageSequenceLayoutManager.initialize( );1;1;4
+AbstractPageSequenceLayoutManager.setCurrentPage( Page currentPage );1;0;3
+AbstractPageSequenceLayoutManager.getFirstPVWithID( String idref );3;3;7
+AbstractPageSequenceLayoutManager.getCurrentPage( );1;0;3
+AbstractPageSequenceLayoutManager.associateLayoutManagerID( String id );3;1;11
+AbstractPageSequenceLayoutManager.getLayoutManagerMaker( );1;0;3
+AbstractPageSequenceLayoutManager.makeNewPage( boolean isBlank , boolean isLast );4;2;13
+AbstractPageSequenceLayoutManager.getLastPVWithID( String idref );3;4;7
+AbstractPageSequenceLayoutManager.AbstractPageSequenceLayoutManager( AreaTreeHandler ath , AbstractPageSequence pseq );1;0;6
+AbstractPageSequenceLayoutManager.doForcePageCount( Numeric nextPageSeqInitialPageNumber );18;27;44
+AbstractPageSequenceLayoutManager.addIDToPage( String id );3;3;5

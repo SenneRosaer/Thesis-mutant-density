@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompiledPermissionImpl.reload( );4;2;16
+Entries.Entries( List entries );1;0;3
+ACLProvider.init( Session systemSession , Map configuration );8;2;61
+ACLProvider.getEffectivePolicies( Path absPath );2;2;8
+CompiledPermissionImpl.CompiledPermissionImpl( Set principals , boolean listenToEvents );2;4;13
+CompiledPermissionImpl.close( );2;0;8
+CompiledPermissionImpl.onEvent( EventIterator events );10;2;28
+ACLProvider.getEditor( Session editingSession );3;0;12
+Entries.getResult( Item target , String targetPath , boolean isAcItem );9;11;33
+CompiledPermissionImpl.buildResult( Path absPath );3;1;15
+ACLProvider.isAcItem( Path absPath );3;2;9
+ACLProvider.canAccessRoot( Set principals );2;0;9
+ACLProvider.isAcItem( ItemImpl item );3;1;4
+ACLProvider.compilePermissions( Set principals );3;0;10
+CompiledPermissionImpl.CompiledPermissionImpl( Set principals );1;0;3

@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NativeFSLockFactory.NativeFSLockFactory( );1;0;3
+NativeFSLock.isLocked( );1;1;3
+NativeFSLock.NativeFSLock( File lockDir , String lockFileName );1;0;4
+NativeFSLockFactory.NativeFSLockFactory( File lockDir );1;0;3
+NativeFSLockFactory.acquireTestLock( );2;0;12
+NativeFSLock.obtain( );14;8;66
+NativeFSLockFactory.makeLock( String lockName );2;2;5
+NativeFSLockFactory.setLockDir( File lockDir );5;4;14
+NativeFSLockFactory.NativeFSLockFactory( String lockDirName );1;0;3
+NativeFSLockFactory.clearLock( String lockName );5;4;11
+NativeFSLock.release( );3;1;24
+NativeFSLock.finalize( );2;0;9
+NativeFSLock.toString( );1;0;3

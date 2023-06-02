@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OneMerge.setException( Throwable error );1;0;3
+MergeAbortedException.MergeAbortedException( );1;0;3
+MergeException.getDirectory( );1;0;3
+OneMerge.OneMerge( SegmentInfos segments , boolean useCompoundFile );2;1;6
+OneMerge.getException( );1;0;3
+MergeSpecification.segString( Directory dir );2;3;8
+OneMerge.isAborted( );1;0;3
+MergeException.MergeException( String message );1;0;3
+OneMerge.abort( );1;0;3
+OneMerge.segString( Directory dir );5;4;13
+OneMerge.checkAborted( Directory dir );2;0;4
+MergePolicy.findMergesToExpungeDeletes( SegmentInfos segmentInfos , IndexWriter writer );1;0;3
+MergeException.MergeException( String message , Directory dir );1;0;4
+MergeException.MergeException( Throwable exc );1;0;3
+MergeException.MergeException( Throwable exc , Directory dir );1;0;4
+MergeAbortedException.MergeAbortedException( String message );1;0;3
+MergeSpecification.add( OneMerge merge );1;0;3

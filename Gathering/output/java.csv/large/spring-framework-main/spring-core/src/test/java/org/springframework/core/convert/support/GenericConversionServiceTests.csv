@@ -1,0 +1,103 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MyConditionalColorConverter.matches( TypeDescriptor sourceType , TypeDescriptor targetType );2;2;4
+GenericConversionServiceTests.enumToStringConversion( );1;0;4
+GenericConversionServiceTests.canConvertIllegalArgumentNullTargetTypeFromClass( );1;0;4
+GenericConversionServiceTests.addConverterNoSourceTargetClassInfoAvailable( );1;0;4
+GenericConversionServiceTests.rawCollectionAsSource( );1;0;7
+GenericConversionServiceTests.canConvert( );1;0;5
+MyConditionalConverter.matches( TypeDescriptor sourceType , TypeDescriptor targetType );1;1;4
+MyStringArrayToIntegerArrayConverter.convert( String [ ] source );1;0;3
+GenericConversionServiceTests.convertToNullTargetTypeDescriptor( );1;0;4
+ColorConverter.convert( String source );1;0;3
+GenericConversionServiceTests.canConvertNullSourceType( );1;0;4
+NonConditionalGenericConverter.getConvertibleTypes( );1;0;3
+GenericConversionServiceTests.emptyListToObject( );1;0;9
+MyStringToStringCollectionConverter.convert( String source );1;0;3
+GenericConversionServiceTests.convertOptimizeArray( );1;0;5
+GenericConversionServiceTests.stringArrayToResourceArray( );1;0;6
+GenericConversionServiceTests.adaptedCollectionTypesFromSameSourceType( );1;0;11
+MyConditionalColorConverter.convert( String source );1;0;3
+GenericConversionServiceTests.stringToArrayCanConvert( );1;0;6
+GenericConversionServiceTests.stringToCollectionCanConvert( );1;0;8
+GenericConversionServiceTests.removeConvertible( );1;0;6
+MyStringToRawCollectionConverter.convert( String source );1;0;3
+GenericConversionServiceTests.enumWithInterfaceToStringConversion( );1;0;5
+GenericConversionServiceTests.convertObjectToPrimitive( );1;0;10
+MyStringToIntegerArrayConverter.convert( String source );1;0;4
+GenericConversionServiceTests.convertNullSourcePrimitiveTargetTypeDescriptor( );1;0;4
+GenericConversionServiceTests.shouldNotSupportNullConvertibleTypesFromNonConditionalGenericConverter( );1;0;6
+GenericConversionServiceTests.conditionalConverterFactory( );1;2;8
+MyConditionalGenericConverter.convert( @ Nullable Object source , TypeDescriptor sourceType , TypeDescriptor targetType );1;0;3
+GenericConversionServiceTests.canConvertAssignable( );1;0;6
+StringToMyEnumBaseInterfaceConverterFactory.getConverter( Class < T > targetType );1;0;3
+MyEnumInterfaceToStringConverter.convert( T source );1;0;3
+StringToMyEnumInterfaceConverter.StringToMyEnumInterfaceConverter( Class < T > enumType );1;0;3
+GenericConversionServiceTests.conditionalConverterCachingForDifferentAnnotationAttributes( );1;0;12
+GenericConversionServiceTests.convertiblePairsInSet( );1;0;5
+GenericConversionServiceTests.convertiblePairEqualsAndHash( );1;0;6
+MyStringArrayToResourceArrayConverter.convert( String [ ] source );1;0;3
+GenericConversionServiceTests.multipleCollectionTypesFromSameSourceType( );1;0;12
+GenericConversionServiceTests.canConvertIllegalArgumentNullTargetTypeFromTypeDescriptor( );1;0;4
+GenericConversionServiceTests.convert( );1;0;4
+GenericConversionServiceTests.stringArrayToIntegerArray( );1;0;5
+GenericConversionServiceTests.stringToEnumWithBaseInterfaceConversion( );1;0;5
+GenericConversionServiceTests.convertWrongTypeArgument( );1;0;5
+GenericConversionServiceTests.stringToString( );1;0;5
+GenericConversionServiceTests.convertWrongSourceTypeDescriptor( );1;0;4
+GenericConversionServiceTests.convertToNullTargetClass( );2;0;4
+StringToMyEnumInterfaceConverterFactory.getConverter( Class < T > targetType );1;0;3
+GenericConversionServiceTests.getBaseCode( );1;0;3
+GenericConversionServiceTests.convertSuperSourceType( );1;0;5
+GenericConversionServiceTests.getCode( );1;0;3
+GenericConversionServiceTests.genericCollectionAsSource( );1;0;7
+GenericConversionServiceTests.convertNullAnnotatedStringToString( );1;0;6
+GenericConversionServiceTests.genericConverterDelegatingBackToConversionServiceConverterNotFound( );1;0;6
+GenericConversionServiceTests.convertNotNullSourceNullSourceTypeDescriptor( );1;0;4
+GenericConversionServiceTests.convertAssignableSource( );1;0;4
+GenericConversionServiceTests.conditionalConverter( );1;1;7
+GenericConversionServiceTests.convertNullSource( );1;0;3
+GenericConversionServiceTests.stringToIntegerArray( );1;0;5
+GenericConversionServiceTests.convertObjectToPrimitiveViaConverterFactory( );1;0;7
+StringToMyEnumInterfaceConverter.convert( String source );3;0;8
+MyConditionalConverterFactory.getNestedMatchAttempts( );1;0;3
+GenericConversionServiceTests.convertNullSourcePrimitiveTarget( );1;0;4
+GenericConversionServiceTests.listToIterableConversion( );1;0;5
+GenericConversionServiceTests.stringToEnumWithInterfaceConversion( );1;0;5
+MyStringToIntegerCollectionConverter.convert( String source );1;0;3
+MyConditionalConverterFactory.getConverter( Class < T > targetType );1;0;3
+MyConditionalConverter.getMatchAttempts( );1;0;3
+MyStringToGenericCollectionConverter.convert( String source );1;0;3
+MyBaseInterfaceToStringConverter.convert( MyBaseInterface source );1;0;3
+WithCopyConstructor.WithCopyConstructor( );1;0;1
+GenericConversionServiceTests.conditionalConversionForAllTypes( );1;0;7
+StringToMyEnumBaseInterfaceConverter.StringToMyEnumBaseInterfaceConverter( Class < T > enumType );1;0;3
+MyConditionalGenericConverter.matches( TypeDescriptor sourceType , TypeDescriptor targetType );1;0;4
+GenericConversionServiceTests.stringToObject( );1;0;5
+GenericConversionServiceTests.subclassOfEnumToString( );1;0;4
+MyConditionalConverter.convert( String source );1;0;3
+MyConditionalConverterFactory.matches( TypeDescriptor sourceType , TypeDescriptor targetType );1;1;4
+GenericConversionServiceTests.listToObjectConversion( );1;0;5
+WithCopyConstructor.WithCopyConstructor( WithCopyConstructor value );1;0;1
+GenericConversionServiceTests.sourceTypeIsVoid( );1;0;3
+GenericConversionServiceTests.objectArrayToStringArray( );1;0;6
+StringToMyEnumBaseInterfaceConverter.convert( String source );3;0;8
+GenericConversionServiceTests.converterNotFound( );1;0;4
+MyConditionalConverterFactory.getMatchAttempts( );1;0;3
+GenericConversionServiceTests.interfaceArrayToStringArray( );1;0;6
+MyConditionalGenericConverter.getSourceTypes( );1;0;3
+GenericConversionServiceTests.emptyListToArray( );1;0;9
+GenericConversionServiceTests.ignoreCopyConstructor( );1;0;5
+MyConditionalGenericConverter.getConvertibleTypes( );1;0;3
+GenericConversionServiceTests.interfaceToString( );1;0;6
+GenericConversionServiceTests.mapToObjectConversion( );1;0;5
+GenericConversionServiceTests.MyEnum( String code );1;0;3
+GenericConversionServiceTests.canConvertFromClassSourceTypeToNullTargetType( );1;0;4
+GenericConversionServiceTests.targetTypeIsVoid( );1;0;3
+UntypedConverter.convert( Object source );1;0;3
+GenericConversionServiceTests.convertiblePairDifferentEqualsAndHash( );1;1;6
+GenericConversionServiceTests.convertSuperTarget( );1;0;5
+GenericConversionServiceTests.canConvertFromTypeDescriptorSourceTypeToNullTargetType( );1;0;4
+GenericConversionServiceTests.toString( );1;0;3
+NonConditionalGenericConverter.convert( @ Nullable Object source , TypeDescriptor sourceType , TypeDescriptor targetType );1;0;3
+GenericConversionServiceTests.wildcardMap( );1;0;6
+GenericConversionServiceTests.convertNull( );1;0;3

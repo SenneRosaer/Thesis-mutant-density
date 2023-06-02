@@ -1,0 +1,170 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithLateGenericsMatchingOnJdkProxyAndRawInstance( );1;0;18
+WildcardMatchingConfiguration.genericRepo( );1;0;3
+ConfigurationClassPostProcessorTests.configurationClassesWithInvalidOverridingForProgrammaticCall( );1;0;13
+ConfigurationClassPostProcessorTests.testBeanLookupFromSameConfigurationClass( );1;0;7
+ConfigurationClassPostProcessorTests.testPrototypeArgumentThroughBeanMethodCall( );1;0;5
+RawMatchingConfiguration.rawRepo( );1;0;3
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithEarlyGenericsMatchingOnCglibProxy( );1;0;18
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithLateGenericsMatchingAndRawFactoryMethod( );1;0;13
+RepositoryFactoryBeanConfiguration.repoFactoryBean( );1;0;3
+WildcardWithExtendsConfiguration.repoConsumer( Repository < ? extends String > repo );1;0;3
+BeanArgumentConfigWithSingleton.foo( BarArgument bar );1;0;3
+ConfigurationClassPostProcessorTests.testNullArgumentThroughBeanMethodCall( );1;0;5
+ServiceBean.ServiceBean( String parameter );1;0;3
+ConfigurationClassPostProcessorTests.setup( );1;0;5
+MapArgumentConfiguration.testBean( boolean param );1;0;3
+ConfigurationClassPostProcessorTests.configurationClassesProcessedInCorrectOrder( );1;0;11
+BeanArgumentConfigWithPrototype.fooFactory( );1;0;8
+ScopedRepositoryConfiguration.toString( );1;0;3
+AStrich.z( );1;0;3
+ConfigurationClassPostProcessorTests.testBeanDefinitionRegistryPostProcessorConfig( );1;0;5
+ConfigurationClassPostProcessorTests.testSelfReferenceExclusionForFactoryMethodOnSameBean( );1;0;11
+UnloadedConfig.foo( );1;0;3
+RepositoryConfiguration.integerRepo( );1;0;8
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithEarlyGenericsMatchingOnJdkProxy( );1;0;17
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithLateGenericsMatchingOnJdkProxyAndRawFactoryMethod( );1;0;18
+ScopedRepositoryConfiguration.integerRepo( );1;0;8
+ConfigurationClassPostProcessorTests.testNameClashBetweenConfigurationClassAndBean( );1;0;4
+LoadedConfig.bar( );1;0;3
+ConfigurationClassPostProcessorTests.postProcessorWorksWithExtendedConfigurationWithAttributeOverrideForExcludesFilterUsingAsm( );1;0;5
+B.B( Z z );1;0;2
+BeanArgumentConfigWithNull.foo( BarArgument bar );1;0;3
+BeanArgumentConfigWithSingleton.createFoo( BarArgument bar );1;0;3
+CollectionInjectionConfiguration.thing( );1;0;3
+ServiceBean.getParameter( );1;0;3
+ConfigurationClassPostProcessorTests.enhancementIsNotPresentForProxyBeanMethodsFlagSetToFalseUsingAsm( );1;0;9
+WildcardMatchingConfiguration.repoConsumer( Repository < String > repo );1;0;3
+ConfigurationClassPostProcessorTests.postProcessorWorksWithComposedConfigurationWithAttributeOverrideForBasePackageUsingReflection( );1;0;5
+SingletonBeanConfig.foo( );1;0;3
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithRawMatch( );1;0;6
+ConfigurationClassPostProcessorTests.genericsBasedInjection( );1;0;14
+ConfigurationClassPostProcessorTests.innerConfigurationClassesProcessedInCorrectOrder( );1;0;11
+ScopedProxyRepositoryConfiguration.integerRepo( );1;0;8
+BeanDefinitionRegistryPostProcessorConfig.postProcessBeanFactory( ConfigurableListableBeanFactory beanFactory );1;0;2
+NonEnhancedSingletonBeanConfig.bar( );1;0;3
+RawFactoryMethodRepositoryConfiguration.toString( );1;0;3
+ConcreteConfig.provider( );1;0;3
+ConfigurationClassPostProcessorTests.postProcessorWorksWithComposedConfigurationWithAttributeOverrideForExcludeFilterUsingReflection( );1;0;5
+A.b( );2;1;6
+ConfigurationClassPostProcessorTests.postProcessorWorksWithMetaComponentScanConfigurationWithAttributeOverridesSubclassUsingAsm( );1;0;5
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithLateGenericsMatchingOnJdkProxy( );1;0;18
+ConfigurationClassPostProcessorTests.assertSupportForComposedAnnotationWithExclude( RootBeanDefinition beanDefinition );1;0;8
+ConfigurationClassPostProcessorTests.postProcessorWorksWithExtendedConfigurationWithAttributeOverrideForExcludesFilterUsingReflection( );1;0;5
+ConfigurationClassPostProcessorTests.postProcessorWorksWithComposedConfigurationWithAttributeOverrideForExcludeFilterUsingAsm( );1;0;5
+ConfigurationClassPostProcessorTests.postProcessorFailsOnImplicitOverrideIfOverridingIsNotAllowed( );1;0;13
+ScopedProxyRepositoryConfiguration.toString( );1;0;3
+WildcardWithExtendsConfiguration.stringRepo( );1;0;3
+ConfigurationClassPostProcessorTests.testSingletonArgumentThroughBeanMethodCall( );1;0;5
+BeanLookupConfiguration.thing( );1;0;3
+ConfigurationClassPostProcessorTests.postProcessorWorksWithComposedConfigurationUsingAsm( );1;0;4
+DependingFoo.DependingFoo( BarArgument bar );1;0;3
+RepositoryFactoryBean.getObject( );1;0;3
+ConfigurationClassPostProcessorTests.testCollectionArgumentOnBeanMethod( );1;0;8
+ConfigurationClassPostProcessorTests.testCircularDependency( );1;0;11
+ConfigurationClassPostProcessorTests.postProcessorOverridesNonApplicationBeanDefinitions( );1;0;11
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithLateGenericsMatchingOnCglibProxyAndRawFactoryMethod( );1;0;19
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithEarlyGenericsMatchingAndRawInstance( );1;0;12
+ScopedProxyRepositoryConfiguration.stringRepo( );1;0;8
+ConfigurationClassPostProcessorTests.serviceBean( );1;0;3
+DummyRunnable.run( );1;0;2
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithFactoryBean( );1;0;16
+RepositoryConfiguration.stringRepo( );1;0;8
+ServiceBeanProvider.getServiceBean( );1;0;3
+ConcreteConfig.validate( );1;0;3
+ConfigurationClassPostProcessorTests.testCircularDependencyWithApplicationContext( );1;0;5
+ConfigurationClassPostProcessorTests.postProcessorWorksWithComposedConfigurationWithAttributeOverrideForBasePackageUsingAsm( );1;0;5
+ConfigurationClassPostProcessorTests.testCollectionInjectionFromSameConfigurationClass( );1;0;8
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithImplTypeAtInjectionPoint( );1;0;14
+ConfigurationClassPostProcessorTests.testConfigWithDefaultMethodsUsingAsm( );1;0;11
+ConfigurationClassPostProcessorTests.testEmptyVarargOnBeanMethod( );1;0;7
+ConfigurationClassPostProcessorTests.postProcessorWorksWithComposedComposedConfigurationWithAttributeOverridesUsingAsm( );1;0;5
+NonEnhancedSingletonBeanConfig.foo( );1;0;3
+OverridingAgainSingletonBeanConfig.foo( );1;0;3
+RawFactoryMethodRepositoryConfiguration.stringRepo( );1;0;8
+ConfigurationClassPostProcessorTests.enhancementIsNotPresentForProxyBeanMethodsFlagSetToFalse( );1;0;9
+RepositoryFactoryBean.getObjectType( );1;0;3
+ConfigurationClassPostProcessorTests.enhancementIsPresentBecauseSingletonSemanticsAreRespectedUsingAsm( );1;0;12
+SpecificRepositoryConfiguration.genericRepo( );1;0;3
+ConfigurationClassPostProcessorTests.testVarargOnBeanMethod( );1;0;8
+RawInstanceRepositoryConfiguration.toString( );1;0;3
+WildcardWithExtendsConfiguration.numberRepo( );1;0;3
+WildcardWithGenericExtendsConfiguration.numberRepo( );1;0;3
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithScoped( );1;0;14
+ConfigurationClassPostProcessorTests.postProcessorIntrospectsInheritedDefinitionsCorrectly( );1;0;10
+ConfigurationClassPostProcessorTests.scopedProxyTargetMarkedAsNonAutowireCandidate( );1;0;14
+OverridingSingletonBeanConfig.bar( );1;0;3
+ConfigurationClassPostProcessorTests.postProcessorDoesNotOverrideRegularBeanDefinitions( );1;0;10
+SecondConfiguration.simpleAsyncTaskExecutor( );1;0;3
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithLateGenericsMatchingAndRawInstance( );1;0;13
+InvalidOverridingSingletonBeanConfig.foo( );1;0;3
+BeanArgumentConfigWithPrototype.createFoo( BarArgument bar );1;0;3
+ConfigurationClassPostProcessorTests.configurationClassesWithValidOverridingForProgrammaticCall( );1;0;12
+ScopedRepositoryConfiguration.stringRepo( );1;0;8
+ConfigurationClassPostProcessorTests.postProcessorDoesNotOverrideRegularBeanDefinitionsEvenWithScopedProxy( );1;0;12
+FooBarConfiguration.foo( );1;0;3
+MapInjectionConfiguration.testBean( );1;0;3
+CollectionArgumentConfiguration.thing( List < TestBean > testBeans );1;0;4
+BeanDefinitionRegistryPostProcessorConfig.bdrpp( );1;0;11
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithScopedProxyUsingAsm( );1;0;17
+WildcardWithGenericExtendsConfiguration.repoConsumer( Repository < String > repo );1;0;3
+StaticSingletonBeanConfig.bar( );1;0;3
+ConfigurationClassPostProcessorTests.detectAliasOverride( );1;0;11
+RepositoryConfiguration.toString( );1;0;3
+ConfigurationClassPostProcessorTests.enhancementIsPresentBecauseSingletonSemanticsAreRespected( );1;0;12
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithLateGenericsMatchingOnCglibProxy( );1;0;19
+ConfigurationClassPostProcessorTests.enhancementIsNotPresentForStaticMethods( );1;0;11
+ConfigurationClassPostProcessorTests.testMapArgumentOnBeanMethod( );1;0;8
+ConfigurationClassPostProcessorTests.testInjectionPointMatchForNarrowTargetReturnType( );1;0;5
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithEarlyGenericsMatchingAndRawFactoryMethod( );1;0;10
+ConfigurationClassPostProcessorTests.testMapInjectionFromSameConfigurationClass( );1;0;8
+ConfigurationClassPostProcessorTests.provider( );1;0;3
+BeanArgumentConfigWithPrototype.foo( BarArgument bar );1;0;3
+ConfigurationClassPostProcessorTests.postProcessorWorksWithMetaComponentScanConfigurationWithAttributeOverridesUsingAsm( );1;0;5
+OverridingSingletonBeanConfig.foo( );1;0;3
+WildcardWithGenericExtendsConfiguration.genericRepo( );1;0;3
+RepositoryFactoryBean.isSingleton( );1;0;3
+StaticSingletonBeanConfig.foo( );1;0;3
+Bar.Bar( Foo foo );1;0;3
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithWildcardMatch( );1;0;6
+SingletonBeanConfig.SingletonBeanConfig( ConfigWithOrderedInnerClasses other );1;0;2
+ConfigurationClassPostProcessorTests.configurationIntrospectionOfInnerClassesWorksWithDotNameSyntax( );1;0;8
+MapArgumentConfiguration.testBean( Map < String , Runnable > testBeans , @ Qualifier ( "systemProperties" ) Map < String , String > sysprops , @ Qualifier ( "systemEnvironment" ) Map < String , String > sysenv );1;0;6
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithLateGenericsMatchingOnCglibProxyAndRawInstance( );1;0;19
+RepositoryConfiguration.genericRepo( );1;0;8
+SingletonBeanConfig.bar( );1;0;3
+BeanArgumentConfigWithSingleton.fooFactory( );1;0;8
+FirstConfiguration.taskExecutor( );1;0;3
+ConfigurationClassPostProcessorTests.postProcessorWorksWithMetaComponentScanConfigurationWithAttributeOverridesSubclassUsingReflection( );1;0;5
+ConfigurationClassPostProcessorTests.postProcessorWorksWithComposedConfigurationUsingReflection( );1;0;4
+ConcreteConfigWithDefaultMethods.validate( );1;0;3
+ConfigurationClassPostProcessorTests.alreadyLoadedConfigurationClasses( );1;0;8
+VarargConfiguration.thing( TestBean ... testBeans );1;0;4
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithWildcardWithGenericExtendsMatch( );1;0;5
+MapInjectionConfiguration.testBean( boolean param );1;0;3
+ConfigurationClassPostProcessorTests.nestedConfigurationClassesProcessedInCorrectOrder( );1;0;10
+ConfigurationClassPostProcessorTests.testEmptyMapArgumentOnBeanMethod( );1;0;7
+ScopedProxyConfigurationClass.scopedClass( );1;0;3
+ConcreteConfigWithDefaultMethods.provider( );1;0;3
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithEarlyGenericsMatching( );1;0;12
+ConfigurationClassPostProcessorTests.postProcessorWorksWithMetaComponentScanConfigurationWithAttributeOverridesUsingReflection( );1;0;5
+ConfigurationClassPostProcessorTests.assertSupportForComposedAnnotation( RootBeanDefinition beanDefinition );1;0;8
+ConfigurationClassPostProcessorTests.processingAllowedOnlyOncePerProcessorRegistryPair( );1;0;11
+ConfigurationClassPostProcessorTests.postProcessorWorksWithComposedComposedConfigurationWithAttributeOverridesUsingReflection( );1;0;5
+FooBarConfiguration.bar( );1;0;3
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithWildcardWithExtendsMatch( );1;0;5
+AbstractConfig.provider( );1;0;3
+RawMatchingConfiguration.repoConsumer( Repository < String > repo );1;0;3
+RepositoryFactoryBeanConfiguration.nullFactoryBean( );1;0;3
+ConfigurationClassPostProcessorTests.testEmptyCollectionArgumentOnBeanMethod( );1;0;7
+BeanArgumentConfigWithNull.bar( );1;0;3
+OverridingSingletonBeanConfig.OverridingSingletonBeanConfig( ObjectProvider < SingletonBeanConfig > other );1;0;3
+BeanArgumentConfigWithNull.aFoo( );1;0;3
+ConfigurationClassPostProcessorTests.enhancementIsNotPresentForStaticMethodsUsingAsm( );1;0;11
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithLateGenericsMatching( );1;0;13
+ConfigurationClassPostProcessorTests.genericsBasedInjectionWithScopedProxy( );1;0;17
+AbstractConfig.serviceBean( );1;0;3
+RawInstanceRepositoryConfiguration.stringRepo( );1;0;8
+ScopedRepositoryConfiguration.genericRepo( );1;0;8
+ConfigurationClassPostProcessorTests.testConfigWithDefaultMethods( );1;0;11
+BeanDefinitionRegistryPostProcessorConfig.postProcessBeanDefinitionRegistry( BeanDefinitionRegistry registry );1;0;3

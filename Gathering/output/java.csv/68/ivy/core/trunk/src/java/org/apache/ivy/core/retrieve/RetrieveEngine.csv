@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RetrieveEngine.retrieve( ModuleRevisionId mrid , String destFilePattern , RetrieveOptions options );22;14;110
+RetrieveEngine.RetrieveEngine( RetrieveEngineSettings settings , EventManager eventManager );1;0;4
+RetrieveEngine.compare( Object o1 , Object o2 );3;2;11
+RetrieveEngine.determineArtifactsToCopy( ModuleRevisionId mrid , String destFilePattern , RetrieveOptions options );18;18;92
+RetrieveEngine.sync( Collection target , Collection existing );5;0;18
+RetrieveEngine.getConflictResolvingPolicy( );3;0;15
+RetrieveEngine.getConfs( ModuleRevisionId mrid , RetrieveOptions options );6;4;24
+RetrieveEngine.upToDate( File source , File target );2;2;6
+RetrieveEngine.getCache( );1;0;3

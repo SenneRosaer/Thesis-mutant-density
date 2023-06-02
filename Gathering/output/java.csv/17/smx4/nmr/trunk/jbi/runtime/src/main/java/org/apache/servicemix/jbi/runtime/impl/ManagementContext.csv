@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ManagementContext.getJmxDomainName( );1;0;3
+ManagementContext.sanitizeString( String in );2;1;12
+ManagementContext.unregisterMBean( Object object );1;0;2
+ManagementContext.createCustomComponentMBeanName( String type , String name );1;0;7
+ManagementContext.setEnvironment( Environment environment );1;0;3
+ManagementContext.createObjectName( Map < String , String > props );1;0;3
+ManagementContext.setJmxDomainName( String jmxDomainName );1;0;3
+ManagementContext.registerMBean( ObjectName objectName , Object object , Class interfaceMBean , String description );1;0;2
+ManagementContext.createObjectName( String domain , Map < String , String > props );4;2;21
+ManagementContext.getEnvironment( );1;0;3

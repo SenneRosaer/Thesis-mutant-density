@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RemoteCacheServer.removeAll( String cacheName );1;0;3
+RemoteCacheServer.print( String s );1;0;3
+RemoteCacheServer.update( ICacheElement item );1;0;3
+RemoteCacheServer.unreferenced( );1;0;3
+***not in a method***;0;1;0
+RemoteCacheServer.getCacheListeners( String cacheName );3;2;16
+RemoteCacheServer.removeCacheListener( String cacheName , ICacheListener listener );1;0;3
+RemoteCacheServer.dispose( String cacheName , long requesterId );3;3;16
+RemoteCacheServer.nextListenerId( );2;2;19
+RemoteCacheServer.shutdown( String host , int port );1;0;4
+RemoteCacheServer.dispose( String cacheName );1;0;3
+RemoteCacheServer.update( ICacheElement item , long requesterId );22;11;100
+RemoteCacheServer.removeAll( String cacheName , long requesterId );10;7;41
+RemoteCacheServer.removeCacheListener( String cacheName , long listenerId );7;1;40
+RemoteCacheServer.getGroupKeys( String cacheName , String group );3;1;17
+RemoteCacheServer.removeCacheListener( ICacheListener listener );3;0;12
+RemoteCacheServer.put( ICacheElement item );1;0;3
+RemoteCacheServer.createCacheManager( String prop );2;1;12
+RemoteCacheServer.getStats( );1;0;3
+RemoteCacheServer.init( String prop );2;2;9
+RemoteCacheServer.cleanupEventQMap( Map eventQMap );3;1;15
+RemoteCacheServer.get( String cacheName , Serializable key );4;1;21
+RemoteCacheServer.getEventQList( CacheListeners cacheListeners , long requesterId );7;10;34
+RemoteCacheServer.RemoteCacheServer( IRemoteCacheServerAttributes rcsa );1;0;5
+RemoteCacheServer.getClusterListeners( String cacheName );3;2;16
+RemoteCacheServer.remove( String cacheName , Serializable key , long requesterId );12;7;51
+RemoteCacheServer.shutdown( );1;0;3
+RemoteCacheServer.release( );3;2;16
+RemoteCacheServer.addCacheListener( String cacheName , ICacheListener listener );9;6;67
+RemoteCacheServer.remove( String cacheName , Serializable key );1;0;3
+RemoteCacheServer.addCacheListener( ICacheListener listener );3;0;12

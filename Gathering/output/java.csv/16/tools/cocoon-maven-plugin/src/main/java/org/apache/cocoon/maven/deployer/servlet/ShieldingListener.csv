@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ShieldingListener.valueUnbound( HttpSessionBindingEvent event );1;0;3
+ShieldingListener.sessionDestroyed( HttpSessionEvent event );1;0;3
+ShieldingListener.attributeRemoved( ServletContextAttributeEvent event );1;0;3
+ShieldingListener.attributeAdded( ServletContextAttributeEvent event );1;0;3
+ShieldingListener.attributeReplaced( ServletContextAttributeEvent event );1;0;3
+ShieldingListener.sessionDidActivate( HttpSessionEvent event );1;0;3
+ShieldingListener.sessionCreated( HttpSessionEvent event );1;0;3
+ShieldingListener.requestInitialized( ServletRequestEvent event );1;0;3
+ShieldingListener.contextInitialized( ServletContextEvent contextEvent );1;0;5
+ShieldingListener.attributeRemoved( HttpSessionBindingEvent event );1;0;3
+ShieldingListener.invoke( List listeners , String identifier , Object event );20;1;51
+ShieldingListener.init( ServletContext context );12;1;48
+ShieldingListener.contextDestroyed( ServletContextEvent contextEvent );1;0;3
+ShieldingListener.sessionWillPassivate( HttpSessionEvent event );1;0;3
+ShieldingListener.attributeReplaced( HttpSessionBindingEvent event );1;0;3
+ShieldingListener.valueBound( HttpSessionBindingEvent event );1;0;3
+ShieldingListener.attributeAdded( HttpSessionBindingEvent event );1;0;3
+ShieldingListener.requestDestroyed( ServletRequestEvent event );1;0;3

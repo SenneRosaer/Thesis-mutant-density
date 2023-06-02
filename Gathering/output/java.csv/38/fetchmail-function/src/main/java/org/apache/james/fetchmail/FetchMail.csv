@@ -1,0 +1,64 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParsedDynamicAccountParameters.setIgnoreRecipientHeader( boolean ignoreRecipientHeader );1;0;3
+ParsedDynamicAccountParameters.getRecipientSuffix( );1;0;3
+ParsedDynamicAccountParameters.setUserPrefix( String userprefix );1;0;3
+ParsedDynamicAccountParameters.setPassword( String password );1;0;3
+DynamicAccountKey.setUserName( String userName );1;0;3
+FetchMail.updateParsedDynamicAccountParameters( );1;0;3
+FetchMail.setFetching( boolean fetching );1;0;3
+DynamicAccountKey.getSequenceNumber( );1;0;3
+ParsedDynamicAccountParameters.ParsedDynamicAccountParameters( );1;0;3
+FetchMail.setSession( Session session );1;0;3
+FetchMail.updateDynamicAccounts( );1;0;3
+DynamicAccountKey.DynamicAccountKey( String userName , int sequenceNumber );1;0;5
+FetchMail.resetDynamicAccounts( );1;0;3
+FetchMail.setParsedDynamicAccountParameters( List parsedDynamicAccountParameters );1;0;3
+FetchMail.setServer( MailServer server );1;0;3
+ParsedDynamicAccountParameters.getCustomRecipientHeader( );1;0;3
+DynamicAccountKey.DynamicAccountKey( );1;0;3
+FetchMail.getSession( );2;1;9
+FetchMail.computeStaticAccounts( );1;0;3
+FetchMail.getConfiguration( );1;0;3
+FetchMail.getSessionBasic( );1;0;3
+FetchMail.getDynamicAccountsBasic( );1;0;3
+FetchMail.setDNSServer( DNSService dnsServer );1;0;3
+ParsedDynamicAccountParameters.setRecipientSuffix( String recipientsuffix );1;0;3
+ParsedDynamicAccountParameters.setCustomRecipientHeader( String customRecipientHeader );1;0;3
+ParsedDynamicAccountParameters.getRecipientPrefix( );1;0;3
+ParsedDynamicAccountParameters.isIgnoreRecipientHeader( );1;0;3
+FetchMail.getDNSServer( );1;0;3
+DynamicAccountKey.getUserName( );1;0;3
+FetchMail.getServer( );1;0;3
+FetchMail.updateSession( );1;0;3
+FetchMail.computeDynamicAccounts( Map oldAccounts , ParsedDynamicAccountParameters parameters );3;1;29
+FetchMail.getStaticAccountsBasic( );1;0;3
+FetchMail.isFetching( );1;0;3
+ParsedDynamicAccountParameters.getSequenceNumber( );1;0;3
+FetchMail.targetTriggered( String arg0 );8;3;66
+FetchMail.setSessionParameters( Configuration configuration );4;3;26
+FetchMail.getLocalUsers( );1;0;3
+FetchMail.setConfiguration( ParsedConfiguration configuration );1;0;3
+FetchMail.configure( Configuration configuration );7;5;49
+ParsedDynamicAccountParameters.getUserPrefix( );1;0;3
+FetchMail.getDynamicAccounts( );2;1;8
+ParsedDynamicAccountParameters.setSequenceNumber( int sequenceNumber );1;0;3
+DynamicAccountKey.equals( Object obj );4;5;10
+DynamicAccountKey.hashCode( );1;1;3
+FetchMail.computeDynamicAccounts( );5;2;26
+ParsedDynamicAccountParameters.getPassword( );1;0;3
+FetchMail.FetchMail( );1;0;3
+FetchMail.getParsedDynamicAccountParameters( );2;1;8
+FetchMail.computeSession( );1;0;3
+DynamicAccountKey.setSequenceNumber( int sequenceNumber );1;0;3
+FetchMail.setDynamicAccounts( Map dynamicAccounts );1;0;3
+ParsedDynamicAccountParameters.ParsedDynamicAccountParameters( int sequenceNumber , Configuration configuration );1;0;12
+FetchMail.setLocalUsers( UsersRepository localUsers );1;0;3
+FetchMail.setStaticAccounts( List accounts );1;0;3
+ParsedDynamicAccountParameters.getUserSuffix( );1;0;3
+ParsedDynamicAccountParameters.setRecipientPrefix( String recipientprefix );1;0;3
+FetchMail.getParsedDynamicAccountParametersBasic( );1;0;3
+FetchMail.computeParsedDynamicAccountParameters( );1;0;3
+FetchMail.getStaticAccounts( );2;1;8
+ParsedDynamicAccountParameters.setUserSuffix( String userSuffix );1;0;3
+FetchMail.updateStaticAccounts( );1;0;3
+FetchMail.service( final ServiceManager manager );2;0;19

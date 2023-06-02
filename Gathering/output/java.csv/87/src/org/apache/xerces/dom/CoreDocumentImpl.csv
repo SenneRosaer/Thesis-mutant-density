@@ -1,0 +1,129 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CoreDocumentImpl.insertingNode( NodeImpl node , boolean replace );1;0;2
+CoreDocumentImpl.getNodeName( );1;0;3
+CoreDocumentImpl.renameNode( Node n , String namespaceURI , String name );21;17;114
+CoreDocumentImpl.checkQName( String prefix , String local );8;9;22
+CoreDocumentImpl.adoptNode( Node source );30;20;105
+CoreDocumentImpl.createDocumentType( String qualifiedName , String publicID , String systemID );1;0;3
+CoreDocumentImpl.getAsync( );1;0;3
+CoreDocumentImpl.createAttributeNS( String namespaceURI , String qualifiedName , String localpart );1;0;3
+CoreDocumentImpl.getErrorChecking( );1;0;3
+CoreDocumentImpl.getVersion( );1;0;3
+CoreDocumentImpl.getEncoding( );1;0;3
+CoreDocumentImpl.getTextContent( );1;0;3
+CoreDocumentImpl.CoreDocumentImpl( boolean grammarAccess );1;0;5
+CoreDocumentImpl.getDoctype( );2;0;6
+CoreDocumentImpl.clone( );1;0;6
+CoreDocumentImpl.addEventListener( NodeImpl node , String type , EventListener listener , boolean useCapture );1;0;2
+CoreDocumentImpl.getNodeNumber( Node node );3;4;18
+CoreDocumentImpl.undeferChildren( Node node );10;8;30
+CoreDocumentImpl.setTextContent( String textContent );1;0;2
+CoreDocumentImpl.setDocumentURI( String documentURI );1;0;3
+CoreDocumentImpl.replacedCharacterData( NodeImpl node , String oldvalue , String value );1;0;2
+CoreDocumentImpl.getElementsByTagName( String tagname );1;0;3
+CoreDocumentImpl.setStrictErrorChecking( boolean check );1;0;3
+CoreDocumentImpl.createEntityReference( String name );3;2;7
+CoreDocumentImpl.getDomConfig( );2;1;6
+CoreDocumentImpl.replacingData( NodeImpl node );1;0;2
+CoreDocumentImpl.saveXML( Node node );5;5;13
+CoreDocumentImpl.setXmlEncoding( String value );1;0;3
+CoreDocumentImpl.normalizeDocument( );6;4;20
+CoreDocumentImpl.setVersion( String value );1;0;3
+CoreDocumentImpl.insertBefore( Node newChild , Node refChild );11;11;25
+CoreDocumentImpl.getUserDataRecord( Node n );3;2;10
+CoreDocumentImpl.getDocumentElement( );2;0;6
+CoreDocumentImpl.setXmlStandalone( boolean value );1;0;3
+CoreDocumentImpl.getElementsByTagNameNS( String namespaceURI , String localName );1;0;3
+CoreDocumentImpl.writeObject( ObjectOutputStream out );2;1;12
+CoreDocumentImpl.getNodeType( );1;0;3
+CoreDocumentImpl.getUserData( NodeImpl n );1;0;3
+CoreDocumentImpl.CoreDocumentImpl( );1;0;3
+CoreDocumentImpl.createEntity( String name );3;2;7
+CoreDocumentImpl.getDocumentURI( );1;0;3
+CoreDocumentImpl.getFeature( String feature , String version );9;8;28
+CoreDocumentImpl.changed( );1;1;3
+CoreDocumentImpl.setUserData( Node n , String key , Object data , UserDataHandler handler );8;7;36
+CoreDocumentImpl.checkDOMNSErr( String prefix , String namespace );9;8;33
+CoreDocumentImpl.callUserDataHandlers( Node n , Node c , short operation , Hashtable userData );5;3;14
+CoreDocumentImpl.copyEventListeners( NodeImpl src , NodeImpl tgt );1;0;2
+CoreDocumentImpl.changes( );1;0;3
+CoreDocumentImpl.modifyingCharacterData( NodeImpl node , boolean replace );1;0;2
+CoreDocumentImpl.CoreDocumentImpl( DocumentType doctype , boolean grammarAccess );3;1;14
+CoreDocumentImpl.replacedText( CharacterDataImpl node );1;0;2
+CoreDocumentImpl.createElementNS( String namespaceURI , String qualifiedName , String localpart );1;0;3
+CoreDocumentImpl.createAttributeNS( String namespaceURI , String qualifiedName );1;0;3
+CoreDocumentImpl.removeChild( Node oldChild );3;2;11
+CoreDocumentImpl.getStrictErrorChecking( );1;0;3
+CoreDocumentImpl.setAsync( boolean async );2;0;6
+CoreDocumentImpl.createComment( String data );1;0;3
+CoreDocumentImpl.dispatchEvent( NodeImpl node , Event event );1;0;3
+CoreDocumentImpl.getXmlEncoding( );1;0;3
+CoreDocumentImpl.CoreDocumentImpl( DocumentType doctype );1;0;3
+CoreDocumentImpl.getXmlVersion( );2;1;3
+CoreDocumentImpl.putIdentifier( String idName , Element element );4;2;13
+CoreDocumentImpl.clearIdentifiers( );2;1;5
+CoreDocumentImpl.setXmlVersion( String value );5;2;19
+CoreDocumentImpl.isNormalizeDocRequired( );1;0;3
+CoreDocumentImpl.replacingNode( NodeImpl node );1;0;2
+CoreDocumentImpl.removeIdentifier( String idName );3;1;9
+CoreDocumentImpl.createElement( String tagName );3;2;7
+CoreDocumentImpl.deletedText( CharacterDataImpl node , int offset , int count );1;0;2
+CoreDocumentImpl.isXMLVersionChanged( );1;0;3
+CoreDocumentImpl.getOwnerDocument( );1;0;3
+CoreDocumentImpl.checkNamespaceWF( String qname , int colon1 , int colon2 );5;7;13
+CoreDocumentImpl.getMutationEvents( );1;0;3
+CoreDocumentImpl.getBaseURI( );4;3;11
+CoreDocumentImpl.getNodeNumber( );2;1;7
+CoreDocumentImpl.createNotation( String name );3;2;7
+***not in a method***;0;21;0
+CoreDocumentImpl.insertedText( CharacterDataImpl node , int offset , int count );1;0;2
+CoreDocumentImpl.freeNodeListCache( NodeListCache c );1;0;4
+CoreDocumentImpl.callUserDataHandlers( Node n , Node c , short operation );5;3;12
+CoreDocumentImpl.removeEventListener( NodeImpl node , String type , EventListener listener , boolean useCapture );1;0;2
+CoreDocumentImpl.setErrorChecking( boolean check );1;0;3
+CoreDocumentImpl.setUserData( NodeImpl n , Object data );1;0;3
+CoreDocumentImpl.modifiedCharacterData( NodeImpl node , String oldvalue , String value , boolean replace );1;0;2
+CoreDocumentImpl.setAttrNode( AttrImpl attr , AttrImpl previous );1;0;2
+CoreDocumentImpl.getImplementation( );1;0;3
+CoreDocumentImpl.removeUserDataTable( Node n );2;1;6
+CoreDocumentImpl.createElementNS( String namespaceURI , String qualifiedName );1;0;3
+CoreDocumentImpl.getUserData( Node n , String key );4;3;15
+CoreDocumentImpl.createProcessingInstruction( String target , String data );3;2;7
+CoreDocumentImpl.cloneNode( CoreDocumentImpl newdoc , boolean deep );6;2;25
+CoreDocumentImpl.setUserDataTable( Node n , Hashtable data );3;2;8
+CoreDocumentImpl.renamedAttrNode( Attr oldAt , Attr newAt );1;0;2
+CoreDocumentImpl.modifiedAttrValue( AttrImpl attr , String oldvalue );1;0;2
+CoreDocumentImpl.getIdentifier( String idName );6;4;19
+CoreDocumentImpl.getInputEncoding( );1;0;3
+CoreDocumentImpl.abort( );1;0;2
+CoreDocumentImpl.load( String uri );1;0;3
+CoreDocumentImpl.setMutationEvents( boolean set );1;0;2
+CoreDocumentImpl.replacedNode( NodeImpl node );1;0;2
+CoreDocumentImpl.replaceChild( Node newChild , Node oldChild );12;16;25
+CoreDocumentImpl.setStandalone( boolean value );1;0;3
+CoreDocumentImpl.isKidOK( Node parent , Node child );3;6;7
+CoreDocumentImpl.createAttribute( String name );3;2;11
+CoreDocumentImpl.setEncoding( String value );1;0;3
+CoreDocumentImpl.isXML11Version( );1;0;3
+CoreDocumentImpl.removedNode( NodeImpl node , boolean replace );1;0;2
+CoreDocumentImpl.createDocumentFragment( );1;0;3
+CoreDocumentImpl.createCDATASection( String data );1;0;3
+CoreDocumentImpl.getElementById( String elementId );1;0;3
+CoreDocumentImpl.cloneNode( boolean deep );1;0;6
+CoreDocumentImpl.removedAttrNode( AttrImpl attr , NodeImpl oldOwner , String name );1;0;2
+CoreDocumentImpl.removingNode( NodeImpl node , NodeImpl oldChild , boolean replace );1;0;2
+CoreDocumentImpl.getNodeListCache( ParentNode owner );3;4;15
+CoreDocumentImpl.getXmlStandalone( );1;0;3
+CoreDocumentImpl.insertedNode( NodeImpl node , NodeImpl newInternal , boolean replace );1;0;2
+CoreDocumentImpl.isValidQName( String prefix , String local , boolean xml11Version );7;8;13
+CoreDocumentImpl.loadXML( String source );1;0;3
+CoreDocumentImpl.createElementDefinition( String name );3;2;7
+CoreDocumentImpl.isXMLName( String s , boolean xml11Version );3;2;9
+CoreDocumentImpl.getStandalone( );1;0;3
+CoreDocumentImpl.importNode( Node source , boolean deep );1;0;3
+CoreDocumentImpl.readObject( ObjectInputStream in );2;1;6
+CoreDocumentImpl.importNode( Node source , boolean deep , boolean cloningDoc , HashMap reversedIdentifiers );39;25;172
+CoreDocumentImpl.renamedElement( Element oldEl , Element newEl );1;0;2
+CoreDocumentImpl.setInputEncoding( String value );1;0;3
+CoreDocumentImpl.createTextNode( String data );1;0;3
+CoreDocumentImpl.getIdentifiers( );3;1;9

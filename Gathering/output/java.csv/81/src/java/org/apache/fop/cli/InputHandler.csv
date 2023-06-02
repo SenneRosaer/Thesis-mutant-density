@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InputHandler.renderTo( FOUserAgent userAgent , String outputFormat );1;0;3
+InputHandler.createMainSource( );7;3;38
+InputHandler.transformTo( OutputStream out );1;0;4
+InputHandler.renderTo( FOUserAgent userAgent , String outputFormat , OutputStream out );5;4;21
+InputHandler.createXSLTSource( );2;1;7
+InputHandler.InputHandler( File xmlfile , File xsltfile , Vector params );1;0;5
+InputHandler.fatalError( TransformerException exc );1;0;3
+InputHandler.transformTo( Result result );5;5;23
+InputHandler.error( TransformerException exc );1;0;3
+InputHandler.InputHandler( File fofile );1;0;3
+InputHandler.warning( TransformerException exc );1;0;3

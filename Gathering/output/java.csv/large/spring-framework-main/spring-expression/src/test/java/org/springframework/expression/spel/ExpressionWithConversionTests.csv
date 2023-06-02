@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TypeConvertorUsingConversionService.convertValue( Object value , TypeDescriptor sourceType , TypeDescriptor targetType );1;0;3
+ExpressionWithConversionTests.testCoercionToCollectionOfPrimitive( );2;0;21
+ExpressionWithConversionTests.testSetParameterizedList( );2;0;10
+TestTarget.sum( Collection < Integer > numbers );2;1;7
+ExpressionWithConversionTests.testConversionsAvailable( );5;0;11
+TypeConvertorUsingConversionService.canConvert( TypeDescriptor sourceType , TypeDescriptor targetType );1;0;3
+Foo.Foo( String value );1;0;3
+Foo.getFoosAsObjects( );1;0;3
+Foo.getFoosAsStrings( );1;0;3
+Foo.setFoos( Collection < Foo > foos );1;0;3
+Foo.getFoos( );1;0;3
+ExpressionWithConversionTests.setUp( );1;0;4
+ExpressionWithConversionTests.testConvert( );1;0;22

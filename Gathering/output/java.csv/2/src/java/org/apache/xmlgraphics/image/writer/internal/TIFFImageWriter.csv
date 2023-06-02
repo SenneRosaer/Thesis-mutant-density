@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TIFFMultiImageWriter.TIFFMultiImageWriter( OutputStream out );1;0;3
+TIFFImageWriter.createMultiImageWriter( OutputStream out );1;0;3
+TIFFImageWriter.supportsMultiImageWriter( );1;0;3
+TIFFImageWriter.getMIMEType( );1;0;3
+TIFFImageWriter.writeImage( RenderedImage image , OutputStream out , ImageWriterParams params );1;0;6
+TIFFImageWriter.writeImage( RenderedImage image , OutputStream out );1;0;3
+TIFFImageWriter.updateParams( TIFFEncodeParam encodeParams , ImageWriterParams params , RenderedImage image );12;6;41
+TIFFImageWriter.createTIFFEncodeParams( ImageWriterParams params );8;8;40
+TIFFMultiImageWriter.writeImage( RenderedImage image , ImageWriterParams params );2;1;8
+TIFFMultiImageWriter.close( );2;1;8

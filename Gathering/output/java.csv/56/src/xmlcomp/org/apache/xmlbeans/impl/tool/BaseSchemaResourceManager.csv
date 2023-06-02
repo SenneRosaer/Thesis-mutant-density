@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BaseSchemaResourceManager.updateResource( DownloadedSchemaEntry entry );9;9;28
+BaseSchemaResourceManager.syncCacheWithLocalXsdFiles( String [ ] filenames , boolean deleteOnlyMentioned );11;7;51
+SchemaResource.getSchema( );3;1;12
+BaseSchemaResourceManager.getDefaultSchemaDir( );1;0;3
+BaseSchemaResourceManager.addNewEntry( );1;0;3
+SchemaResource.setNamespace( String namespace );1;0;3
+BaseSchemaResourceManager.redownloadEntries( SchemaResource [ ] resources );2;2;6
+BaseSchemaResourceManager.processAll( boolean sync , boolean refresh , boolean imports );5;0;20
+BaseSchemaResourceManager.redownloadResource( SchemaResource resource );9;5;45
+BaseSchemaResourceManager.deleteResourcesInSet( Set seenResources , boolean setToDelete );10;11;36
+BaseSchemaResourceManager.digestInputStream( InputStream input );2;0;13
+SchemaResource.SchemaResource( DownloadedSchemaEntry entry );1;0;3
+BaseSchemaResourceManager.copyOrIdentifyDuplicateURL( String schemaLocation , String namespace );7;3;48
+BaseSchemaResourceManager.shaDigestForFile( String filename );2;1;7
+BaseSchemaResourceManager.process( String [ ] uris , String [ ] filenames , boolean sync , boolean refresh , boolean imports );10;7;34
+BaseSchemaResourceManager.uniqueFilenameForURI( String schemaLocation );6;9;21
+BaseSchemaResourceManager.lookupResource( String nsURI , String schemaLocation );5;4;20
+SchemaResource.getSchemaLocation( );2;1;5
+SchemaResource.hashCode( );1;0;3
+SchemaResource.getNamespace( );1;0;3
+SchemaResource.equals( Object obj );2;2;3
+SchemaResource.getSha1( );1;0;3
+SchemaResource.setFilename( String filename );1;0;3
+BaseSchemaResourceManager.init( );8;4;39
+BaseSchemaResourceManager.BaseSchemaResourceManager( );1;0;2
+SchemaResource.addSchemaLocation( String schemaLocation );1;0;3
+BaseSchemaResourceManager.reportActualNamespace( SchemaImportResolver . SchemaResource rresource , String actualNamespace );4;4;9
+BaseSchemaResourceManager.getIndexFilename( );1;0;3
+BaseSchemaResourceManager.fetchFromCache( String nsURI , String schemaLocation );5;4;16
+SchemaResource.getFilename( );1;0;3
+BaseSchemaResourceManager.writeCache( );1;0;4
+SchemaResource.getSchemaLocationArray( );1;0;3

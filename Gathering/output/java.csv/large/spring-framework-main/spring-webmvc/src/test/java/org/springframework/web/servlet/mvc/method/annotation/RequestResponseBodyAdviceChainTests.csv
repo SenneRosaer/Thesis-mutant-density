@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestResponseBodyAdviceChainTests.responseBodyAdvice( );1;0;13
+TargetedControllerAdvice.beforeBodyWrite( String body , MethodParameter returnType , MediaType contentType , Class < ? extends HttpMessageConverter < ? > > converterType , ServerHttpRequest request , ServerHttpResponse response );1;0;3
+MyControllerAdvice.supports( MethodParameter returnType , Class < ? extends HttpMessageConverter < ? > > converterType );1;0;3
+TargetedControllerAdvice.supports( MethodParameter returnType , Class < ? extends HttpMessageConverter < ? > > converterType );1;0;3
+RequestResponseBodyAdviceChainTests.controllerAdviceNotApplicable( );1;0;7
+***not in a method***;0;1;0
+RequestResponseBodyAdviceChainTests.controllerAdvice( );1;0;7
+MyControllerAdvice.beforeBodyWrite( String body , MethodParameter returnType , MediaType contentType , Class < ? extends HttpMessageConverter < ? > > converterType , ServerHttpRequest request , ServerHttpResponse response );1;0;3
+RequestResponseBodyAdviceChainTests.requestBodyAdvice( );1;0;16
+RequestResponseBodyAdviceChainTests.handle( String body );1;0;3

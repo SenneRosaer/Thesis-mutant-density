@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractLayoutManager.isFirst( Position pos );5;5;13
+AbstractLayoutManager.initialize( );1;0;2
+***not in a method***;0;1;0
+AbstractLayoutManager.isFinished( );1;0;3
+AbstractLayoutManager.hasNextChildLM( );1;0;3
+AbstractLayoutManager.getNextKnuthElements( LayoutContext context , int alignment );1;0;5
+AbstractLayoutManager.getChildLMs( );2;1;6
+AbstractLayoutManager.notifyEndOfLayout( );2;1;5
+AbstractLayoutManager.getChildLM( );4;3;11
+AbstractLayoutManager.addMarkersToPage( boolean isStarting , boolean isFirst , boolean isLast );2;1;9
+AbstractLayoutManager.addId( );2;1;5
+AbstractLayoutManager.setFinished( boolean fin );1;0;3
+AbstractLayoutManager.getPSLM( );1;0;3
+AbstractLayoutManager.isLast( Position pos );4;5;7
+AbstractLayoutManager.AbstractLayoutManager( FObj fo );2;1;9
+AbstractLayoutManager.setParent( LayoutManager lm );1;0;3
+AbstractLayoutManager.notifyPos( Position pos );2;2;8
+AbstractLayoutManager.createNextChildLMs( int pos );1;3;5
+AbstractLayoutManager.getCurrentPage( );1;0;3
+AbstractLayoutManager.addChildLM( LayoutManager lm );3;3;12
+AbstractLayoutManager.addChildArea( Area childArea );1;0;2
+AbstractLayoutManager.addChildLMs( List newLMs );4;3;10
+AbstractLayoutManager.getParentArea( Area childArea );1;0;3
+AbstractLayoutManager.getCurrentPV( );1;0;3
+AbstractLayoutManager.toString( );2;2;3
+AbstractLayoutManager.AbstractLayoutManager( );1;0;2
+AbstractLayoutManager.transferForeignAttributes( Area targetArea );1;0;4
+AbstractLayoutManager.addAreas( PositionIterator posIter , LayoutContext context );1;0;2
+AbstractLayoutManager.getChangedKnuthElements( List oldList , int alignment );1;0;4
+AbstractLayoutManager.checkEndOfLayout( Position pos );7;6;20
+AbstractLayoutManager.getParent( );1;0;3
+AbstractLayoutManager.createChildLMs( int size );7;4;21

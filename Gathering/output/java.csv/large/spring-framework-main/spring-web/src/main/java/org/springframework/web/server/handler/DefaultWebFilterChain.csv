@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultWebFilterChain.getHandler( );1;0;3
+DefaultWebFilterChain.filter( ServerWebExchange exchange );3;3;6
+DefaultWebFilterChain.DefaultWebFilterChain( List < WebFilter > allFilters , WebHandler handler , @ Nullable WebFilter currentFilter , @ Nullable DefaultWebFilterChain chain );1;0;6
+DefaultWebFilterChain.invokeFilter( WebFilter current , DefaultWebFilterChain chain , ServerWebExchange exchange );1;0;4
+DefaultWebFilterChain.DefaultWebFilterChain( WebHandler handler , List < WebFilter > filters );1;0;8
+DefaultWebFilterChain.getFilters( );1;0;3
+DefaultWebFilterChain.initChain( List < WebFilter > filters , WebHandler handler );3;0;8

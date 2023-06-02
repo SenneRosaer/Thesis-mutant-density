@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GenericMetadataSupport.extraInterfaces( );1;0;3
+TypeVarBoundedType.hashCode( );1;0;3
+GenericMetadataSupport.boundsOf( WildcardType wildCard );3;0;7
+FromParameterizedTypeGenericMetadataSupport.readActualTypeParameters( );1;0;3
+WildCardBoundedType.interfaceBounds( );1;0;3
+GenericMetadataSupport.registerTypeParametersOn( TypeVariable < ? > [ ] typeParameters );3;0;5
+GenericMetadataSupport.extractRawTypeOf( Type type );7;0;15
+GenericMetadataSupport.resolveGenericType( Type type , Method method );5;0;20
+GenericArrayReturnType.rawType( );4;2;19
+TypeVariableReturnType.readTypeParameters( );1;0;3
+ParameterizedReturnType.rawType( );2;0;3
+GenericArrayReturnType.GenericArrayReturnType( GenericMetadataSupport genericArrayType , int arity );1;0;4
+TypeVariableReturnType.extractActualBoundedTypeOf( Type type );4;1;14
+FromParameterizedTypeGenericMetadataSupport.rawType( );2;0;3
+GenericMetadataSupport.boundsOf( TypeVariable < ? > typeParameter );3;0;6
+TypeVariableReturnType.TypeVariableReturnType( GenericMetadataSupport source , TypeVariable < ? > [ ] typeParameters , TypeVariable < ? > typeVariable );1;0;7
+WildCardBoundedType.wildCard( );1;0;3
+GenericMetadataSupport.hasRawExtraInterfaces( );1;1;3
+ParameterizedReturnType.ParameterizedReturnType( GenericMetadataSupport source , TypeVariable < ? > [ ] typeParameters , ParameterizedType parameterizedType );1;0;7
+GenericMetadataSupport.registerAllTypeVariables( Type classType );5;3;16
+ParameterizedReturnType.readTypeVariables( );1;0;3
+GenericMetadataSupport.resolveGenericReturnType( Method method );3;2;15
+GenericMetadataSupport.rawExtraInterfaces( );1;0;3
+GenericMetadataSupport.registerTypeVariablesOn( Type classType );11;4;25
+TypeVarBoundedType.TypeVarBoundedType( TypeVariable < ? > typeVariable );1;0;3
+FromClassGenericMetadataSupport.rawType( );1;0;3
+WildCardBoundedType.WildCardBoundedType( WildcardType wildcard );1;0;3
+TypeVarBoundedType.toString( );1;0;7
+WildCardBoundedType.equals( Object o );4;4;9
+NotGenericReturnTypeSupport.rawType( );1;0;3
+TypeVarBoundedType.equals( Object o );4;4;9
+TypeVarBoundedType.typeVariable( );1;0;3
+NotGenericReturnTypeSupport.NotGenericReturnTypeSupport( GenericMetadataSupport source , Type genericReturnType );2;0;5
+FromParameterizedTypeGenericMetadataSupport.FromParameterizedTypeGenericMetadataSupport( ParameterizedType parameterizedType );1;0;4
+WildCardBoundedType.firstBound( );2;1;5
+GenericMetadataSupport.registerTypeVariableIfNotPresent( TypeVariable < ? > typeVariable );2;1;5
+TypeVarBoundedType.interfaceBounds( );1;2;10
+WildCardBoundedType.hashCode( );1;0;3
+FromClassGenericMetadataSupport.FromClassGenericMetadataSupport( Class < ? > clazz );1;0;5
+TypeVariableReturnType.rawType( );2;1;6
+TypeVariableReturnType.rawExtraInterfaces( );5;1;11
+ParameterizedReturnType.readTypeParameters( );1;0;3
+GenericMetadataSupport.inferFrom( Type type );4;0;14
+WildCardBoundedType.toString( );1;0;3
+TypeVariableReturnType.readTypeVariables( );2;0;7
+TypeVarBoundedType.firstBound( );1;0;3
+GenericMetadataSupport.getActualTypeArgumentFor( TypeVariable < ? > typeParameter );4;0;8
+TypeVariableReturnType.extraInterfaces( );5;1;17
+GenericMetadataSupport.actualTypeArguments( );5;0;9

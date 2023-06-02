@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BrokeredUnreliableMyRoleMessageExchangeImpl.setRequest( Message request );2;0;5
+CompletedFuture.get( );1;0;3
+BrokeredUnreliableMyRoleMessageExchangeImpl.getResponse( );1;0;3
+CompletedFuture.isDone( );1;0;3
+BrokeredUnreliableMyRoleMessageExchangeImpl.getAckType( );1;0;3
+CompletedFuture.get( long timeout , TimeUnit unit );1;0;3
+BrokeredUnreliableMyRoleMessageExchangeImpl.setTimeout( long timeout );2;0;5
+BrokeredUnreliableMyRoleMessageExchangeImpl.BrokeredUnreliableMyRoleMessageExchangeImpl( ODEProcess process , List < MyRoleMessageExchange > subscribers , String mexId , MyRoleMessageExchange template );1;0;5
+BrokeredUnreliableMyRoleMessageExchangeImpl.getStatus( );1;0;3
+BrokeredUnreliableMyRoleMessageExchangeImpl.getEndpointReference( );1;0;3
+BrokeredUnreliableMyRoleMessageExchangeImpl.invokeAsync( );2;0;6
+CompletedFuture.cancel( boolean mayInterruptIfRunning );1;0;3
+CompletedFuture.isCancelled( );1;0;3
+BrokeredUnreliableMyRoleMessageExchangeImpl.invokeBlocking( );2;0;6

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SchemaResourceManager.inputStreamForFile( String filename );1;0;3
+SchemaResourceManager.getAllXSDFilenames( );1;0;4
+SchemaResourceManager.writeInputStreamToFile( InputStream input , String filename );2;1;8
+SchemaResourceManager.looksLikeURL( String str );4;3;3
+SchemaResourceManager.collectXSDFiles( File [ ] dirs );5;3;24
+SchemaResourceManager.printUsage( );1;0;12
+SchemaResourceManager.SchemaResourceManager( File directory );1;0;4
+SchemaResourceManager.warning( String msg );1;0;3
+SchemaResourceManager.relativeFilenames( File [ ] files , File directory );2;2;8
+SchemaResourceManager.main( String [ ] args );17;21;105
+SchemaResourceManager.accept( File file );3;2;3
+SchemaResourceManager.isInDirectory( File file , File dir );3;1;7
+SchemaResourceManager.relativeFilename( File file , File directory );3;3;5
+SchemaResourceManager.fileExists( String filename );1;0;3
+SchemaResourceManager.deleteFile( String filename );1;0;3

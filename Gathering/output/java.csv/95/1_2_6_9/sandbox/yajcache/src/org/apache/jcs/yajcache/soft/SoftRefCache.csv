@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SoftRefCache.getValueType( );1;0;3
+SoftRefCache.remove( @ NonNullable Object key );2;1;3
+SoftRefCache.setConfig( @ NonNullable PerCacheConfig config );1;0;3
+SoftRefCache.keySet( );1;0;4
+SoftRefCache.putAll( @ NonNullable Map < ? extends String , ? extends V > map );4;0;4
+SoftRefCache.size( );1;0;4
+SoftRefCache.values( );3;1;12
+SoftRefCache.toString( );1;0;13
+SoftRefCache.SoftRefCache( @ NonNullable String name , @ NonNullable Class < V > valueType , int initialCapacity );1;0;6
+SoftRefCache.get( @ NonNullable String key );7;2;20
+SoftRefCache.get( @ NonNullable Object key );2;1;3
+SoftRefCache.clear( );1;0;4
+SoftRefCache.entrySet( );3;1;14
+SoftRefCache.getName( );1;0;3
+SoftRefCache.publishFlushKey( @ NonNullable String key );1;0;2
+SoftRefCache.put( @ NonNullable String key , @ NonNullable V value );4;2;15
+SoftRefCache.getCollectorCount( );1;0;3
+SoftRefCache.isEmpty( );1;0;4
+SoftRefCache.getConfig( );1;0;3
+SoftRefCache.SoftRefCache( @ NonNullable String name , @ NonNullable Class < V > valueType );1;0;6
+SoftRefCache.containsKey( @ NonNullable Object key );2;2;5
+SoftRefCache.remove( @ NonNullable String key );3;1;12
+SoftRefCache.SoftRefCache( @ NonNullable String name , @ NonNullable Class < V > valueType , int initialCapacity , float loadFactor , int concurrencyLevel );1;0;6
+SoftRefCache.getCacheType( );1;0;3
+SoftRefCache.containsValue( @ NonNullable Object value );3;0;10

@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultAccessManager.internalHasPrivileges( String absPath , int privileges );1;3;4
+WorkspaceAccess.canAccess( String workspaceName );6;3;14
+DefaultAccessManager.canAccess( String workspaceName );1;0;4
+DefaultAccessManager.canReadAll( );1;0;3
+DefaultAccessManager.isGranted( ItemId id , int actions );8;13;24
+DefaultAccessManager.checkValidNodePath( String absPath );3;2;9
+DefaultAccessManager.getApplicablePolicies( String absPath );3;1;13
+DefaultAccessManager.getApplicablePolicies( Principal principal );2;1;7
+DefaultAccessManager.canRead( Path itemPath );2;0;7
+DefaultAccessManager.getPrivileges( Path absPath );1;0;3
+DefaultAccessManager.init( AMContext amContext , AccessControlProvider acProvider , WorkspaceAccessManager wspAccessManager );5;3;24
+DefaultAccessManager.getPrivilegeRegistry( );1;0;4
+DefaultAccessManager.getEffectivePolicies( String absPath );1;0;5
+DefaultAccessManager.getPath( String absPath );1;0;3
+DefaultAccessManager.close( );1;1;2
+DefaultAccessManager.checkInitialized( );2;1;5
+DefaultAccessManager.checkPermission( ItemId id , int permissions );2;1;5
+DefaultAccessManager.hasPrivileges( String absPath , Privilege [ ] privileges );3;3;11
+DefaultAccessManager.checkPrivileges( String absPath , int privileges );2;1;6
+DefaultAccessManager.isGranted( Path parentPath , Name childName , int permissions );1;0;4
+DefaultAccessManager.getPrivileges( String absPath );2;1;8
+DefaultAccessManager.isSystemOrAdmin( Subject subject );3;3;8
+WorkspaceAccess.WorkspaceAccess( WorkspaceAccessManager wspAccessManager , boolean isAdmin );2;1;10
+DefaultAccessManager.setPolicy( String absPath , AccessControlPolicy policy );2;1;8
+DefaultAccessManager.removePolicy( String absPath , AccessControlPolicy policy );2;1;8
+DefaultAccessManager.getPolicies( String absPath );2;1;11
+DefaultAccessManager.init( AMContext amContext );1;0;3
+DefaultAccessManager.grants( Path absPath , int permissions );1;0;3
+DefaultAccessManager.isGranted( Path absPath , int permissions );2;1;7

@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FontCache.saveTo( File cacheFile );4;0;23
+FontCache.removeFont( String embedUrl );3;0;11
+***not in a method***;0;1;0
+FontCache.getFontFileMap( );2;1;6
+FontCache.containsFont( String embedUrl );2;2;4
+FontCache.getFontInfos( String embedUrl , long lastModified );2;1;9
+FontCache.containsFont( EmbedFontInfo fontInfo );2;2;4
+FontCache.getUserHome( );3;1;10
+CachedFontFile.CachedFontFile( long lastModified );1;0;3
+CachedFontFile.put( EmbedFontInfo efi );1;0;3
+FontCache.save( );1;0;3
+FontCache.FontCache( );1;0;2
+FontCache.getFontFile( String embedUrl );2;0;3
+CachedFontFile.getEmbedFontInfos( );1;0;4
+CachedFontFile.toString( );1;1;3
+FontCache.getCacheKey( EmbedFontInfo fontInfo );3;2;8
+FontCache.hasChanged( );1;0;3
+FontCache.addFont( EmbedFontInfo fontInfo );5;3;23
+CachedFontFile.getFileFontsMap( );2;1;6
+FontCache.clear( );2;0;10
+FontCache.loadFrom( File cacheFile );6;0;29
+FontCache.isFailedFont( String embedUrl , long lastModified );3;1;14
+CachedFontFile.lastModified( );1;0;3
+FontCache.getLastModified( URL url );2;0;13
+FontCache.load( );1;0;3
+FontCache.getDefaultCacheFile( boolean forWriting );3;1;11
+CachedFontFile.containsFont( EmbedFontInfo efi );2;2;4
+CachedFontFile.setLastModified( long lastModified );1;0;3
+FontCache.getFileFromUrls( String [ ] urls );8;5;22
+FontCache.registerFailedFont( String embedUrl , long lastModified );2;1;8
+FontCache.getFailedFontMap( );2;1;6

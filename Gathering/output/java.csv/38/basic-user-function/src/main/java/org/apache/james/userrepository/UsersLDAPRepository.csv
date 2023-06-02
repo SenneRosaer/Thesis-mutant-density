@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UsersLDAPRepository.getUserByNameCaseInsensitive( String name );1;0;3
+UsersLDAPRepository.list( );1;0;3
+UsersLDAPRepository.countUsers( );1;0;3
+UsersLDAPRepository.addGroupToUser( String userName );5;2;45
+UsersLDAPRepository.getUsers( );7;4;22
+UsersLDAPRepository.getUserByName( String name );1;0;3
+UsersLDAPRepository.doUpdateUser( User user );1;0;2
+UsersLDAPRepository.removeUser( String userName );6;2;29
+UsersLDAPRepository.getChildDestination( String childName );3;0;42
+UsersLDAPRepository.updateUser( User user );1;0;3
+UsersLDAPRepository.dispose( );1;0;4
+UsersLDAPRepository.containsCaseInsensitive( String name );1;0;3
+UsersLDAPRepository.removeGroupFromUser( String userName );5;2;55
+UsersLDAPRepository.setBase( String base );1;0;3
+UsersLDAPRepository.setServerRoot( );1;0;8
+UsersLDAPRepository.getRealName( String name );1;0;3
+UsersLDAPRepository.initialize( );1;1;19
+UsersLDAPRepository.getRealName( String name , boolean ignoreCase );5;0;16
+UsersLDAPRepository.configure( Configuration conf );3;1;22
+UsersLDAPRepository.doAddUser( User user );5;2;37
+UsersLDAPRepository.closeDirContext( DirContext ctx );3;1;9
+UsersLDAPRepository.addUser( User user );1;0;3
+UsersLDAPRepository.test( String name , String testPassword );6;0;81
+UsersLDAPRepository.contains( String name );6;0;25
+UsersLDAPRepository.addUser( String username , String password );2;1;8

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XALockManager.unlock( NodeImpl node );2;0;7
+XALockManager.isLockHolder( Session session , NodeImpl node );4;4;10
+XALockManager.lockTokenAdded( SessionImpl session , String lt );2;0;7
+XALockManager.getLock( NodeImpl node );3;1;14
+XALockManager.afterOperation( TransactionContext tx );1;0;2
+XALockManager.XALockManager( LockManagerImpl lockMgr );1;0;3
+XALockManager.associate( TransactionContext tx );3;2;11
+XALockManager.lock( NodeImpl node , boolean isDeep , boolean isSessionScoped );2;0;9
+XALockManager.commit( TransactionContext tx );2;1;6
+XALockManager.lockTokenRemoved( SessionImpl session , String lt );2;0;7
+XALockManager.beforeOperation( TransactionContext tx );1;0;2
+XALockManager.isInXA( );1;1;3
+XALockManager.isLocked( NodeImpl node );2;1;9
+XALockManager.holdsLock( NodeImpl node );3;2;9
+XALockManager.getLocks( SessionImpl session );3;2;15
+XALockManager.differentXAEnv( AbstractLockInfo info );2;0;7
+XALockManager.checkLock( Path path , Session session );1;0;4
+XALockManager.prepare( TransactionContext tx );2;1;6
+XALockManager.checkLock( NodeImpl node );4;3;11
+XALockManager.rollback( TransactionContext tx );2;1;6

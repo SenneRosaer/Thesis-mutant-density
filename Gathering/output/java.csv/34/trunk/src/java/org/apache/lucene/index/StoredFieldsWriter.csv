@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StoredFieldsWriter.abort( );3;1;10
+StoredFieldsWriter.StoredFieldsWriter( DocumentsWriter docWriter );1;0;3
+StoredFieldsWriter.fill( int docID );2;3;8
+PerDoc.sizeInBytes( );1;0;3
+StoredFieldsWriter.getPerDoc( );3;6;11
+StoredFieldsWriter.addThread( DocFieldProcessorPerThread docFieldProcessorPerThread );1;0;3
+StoredFieldsWriter.free( PerDoc perDoc );1;5;7
+PerDoc.abort( );1;0;4
+StoredFieldsWriter.freeRAM( );1;0;3
+StoredFieldsWriter.initFieldsWriter( );3;5;14
+StoredFieldsWriter.closeDocStore( SegmentWriteState state );4;14;19
+StoredFieldsWriter.flush( Map threadsAndFields , SegmentWriteState state );3;3;8
+StoredFieldsWriter.finishDocument( PerDoc perDoc );1;1;10
+PerDoc.finish( );1;0;3
+PerDoc.reset( );1;0;4

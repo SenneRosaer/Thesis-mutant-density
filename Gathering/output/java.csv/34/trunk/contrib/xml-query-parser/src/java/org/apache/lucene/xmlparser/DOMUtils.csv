@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMUtils.loadXML( Reader is );3;0;22
+DOMUtils.getFirstChildOrFail( Element e );2;1;9
+DOMUtils.getChildByTagName( Element e , String name );4;3;10
+DOMUtils.getAttribute( Element element , String attributeName , float deflt );3;2;8
+DOMUtils.getAttributeWithInheritance( Element element , String attributeName );6;5;18
+DOMUtils.getAttributeWithInheritanceOrFail( Element e , String name );2;2;9
+DOMUtils.getFirstChildElement( Element element );3;2;11
+DOMUtils.insertChild( Element parent , String tagName , String text );2;1;9
+DOMUtils.getChildByTagOrFail( Element e , String name );2;2;9
+DOMUtils.getTextBuffer( Node e , StringBuffer sb );5;1;23
+DOMUtils.getText( Node e );1;0;5
+DOMUtils.getAttribute( Element element , String attributeName , boolean deflt );3;2;8
+DOMUtils.getAttribute( Element element , String attributeName , int deflt );3;2;8
+DOMUtils.getAttribute( Element element , String attributeName , String deflt );3;2;8
+DOMUtils.getChildTextByTagName( Element e , String tagName );2;1;8
+DOMUtils.getAttributeOrFail( Element e , String name );2;2;9
+DOMUtils.getNonBlankTextOrFail( Element e );4;4;10

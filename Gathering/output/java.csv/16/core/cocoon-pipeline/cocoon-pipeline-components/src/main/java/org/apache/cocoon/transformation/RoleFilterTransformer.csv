@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RoleFilterTransformer.recycle( );1;0;4
+RoleFilterTransformer.characters( char [ ] c , int start , int len );2;1;5
+RoleFilterTransformer.endCDATA( );2;1;5
+RoleFilterTransformer.getKey( );1;0;3
+RoleFilterTransformer.comment( char [ ] ch , int start , int len );2;1;5
+RoleFilterTransformer.processingInstruction( String target , String data );2;1;5
+RoleFilterTransformer.endEntity( String name );2;1;5
+RoleFilterTransformer.startCDATA( );2;1;5
+RoleFilterTransformer.startEntity( String name );2;1;5
+RoleFilterTransformer.copyAttributes( final Attributes a , final int role , final int view , boolean readOnly );6;5;18
+RoleFilterTransformer.startElement( String uri , String loc , String raw , Attributes a );11;8;35
+RoleFilterTransformer.endElement( String uri , String loc , String raw );2;2;7
+RoleFilterTransformer.getValidity( );1;0;3
+RoleFilterTransformer.setup( SourceResolver resolver , Map objectModel , String src , Parameters params );1;0;4

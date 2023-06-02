@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HTTPSampler2.threadFinished( );3;2;13
+HTTPSampler2.getResponseHeaders( HttpMethod method );2;2;14
+ViewableFilePart.ViewableFilePart( String name , File file , String contentType , String charset );1;0;4
+HTTPSampler2.setDefaultRequestHeaders( HttpMethod httpMethod );1;0;2
+HTTPSampler2.saveConnectionCookies( HttpMethod method , URL u , CookieManager cookieManager );3;3;8
+***not in a method***;0;10;0
+HTTPSampler2.getConnectionHeaders( HttpMethod method );3;3;13
+HTTPSampler2.isPartialMatch( String host );3;2;8
+HTTPSampler2.isNonProxy( String host );2;1;3
+HTTPSampler2.sample( URL url , String method , boolean areFollowingRedirect , int frameDepth );21;7;102
+HTTPSampler2.setupConnection( URL u , HttpMethodBase httpMethod , HTTPSampleResult res );15;9;63
+ViewableFilePart.setHideFileData( boolean hideFileData );1;0;3
+HTTPSampler2.threadStarted( );1;0;4
+ViewableFilePart.sendData( OutputStream out );2;0;8
+HTTPSampler2.HTTPSampler2( );1;0;2
+HTTPSampler2.setConnectionCookie( HttpMethod method , URL u , CookieManager cookieManager );3;2;10
+HTTPSampler2.setConnectionAuthorization( HttpClient client , URL u , AuthManager authManager );7;6;39
+HTTPSampler2.sendPostData( PostMethod post );39;39;143
+HTTPSampler2.sendPutData( PutMethod put );18;17;61
+HTTPSampler2.setConnectionHeaders( HttpMethod method , URL u , HeaderManager headerManager , CacheManager cacheManager );6;4;21

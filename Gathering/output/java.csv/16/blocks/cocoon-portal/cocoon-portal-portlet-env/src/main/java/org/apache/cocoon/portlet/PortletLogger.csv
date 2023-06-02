@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PortletLogger.isErrorEnabled( );1;1;3
+PortletLogger.error( final String message , final Throwable throwable );2;1;5
+PortletLogger.isWarnEnabled( );1;1;3
+PortletLogger.info( final String message , final Throwable throwable );2;1;5
+PortletLogger.info( final String message );1;0;3
+PortletLogger.isDebugEnabled( );1;1;3
+PortletLogger.warn( final String message );1;0;3
+PortletLogger.PortletLogger( final PortletContext servletConfig );1;0;3
+PortletLogger.getChildLogger( final String name );1;0;3
+PortletLogger.error( final String message );1;0;3
+PortletLogger.fatalError( final String message , final Throwable throwable );2;1;5
+PortletLogger.debug( final String message );1;0;3
+PortletLogger.isFatalErrorEnabled( );1;1;3
+PortletLogger.PortletLogger( final PortletContext portletContext , final int logLevel );4;4;10
+PortletLogger.warn( final String message , final Throwable throwable );2;1;5
+PortletLogger.isInfoEnabled( );1;1;3
+PortletLogger.fatalError( final String message );1;0;3
+PortletLogger.debug( final String message , final Throwable throwable );2;1;5

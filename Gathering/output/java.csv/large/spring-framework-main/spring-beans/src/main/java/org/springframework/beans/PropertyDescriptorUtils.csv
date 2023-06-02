@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropertyDescriptorUtils.determineBasicProperties( Class < ? > beanClass );20;18;50
+BasicPropertyDescriptor.getWriteMethod( );6;4;16
+PropertyDescriptorUtils.copyNonMethodProperties( PropertyDescriptor source , PropertyDescriptor target );2;0;16
+BasicPropertyDescriptor.getReadMethod( );1;0;3
+BasicPropertyDescriptor.BasicPropertyDescriptor( String propertyName , @ Nullable Method readMethod , @ Nullable Method writeMethod );1;0;3
+PropertyDescriptorUtils.findPropertyType( @ Nullable Method readMethod , @ Nullable Method writeMethod );11;6;33
+BasicPropertyDescriptor.setWriteMethod( @ Nullable Method writeMethod );1;0;3
+BasicPropertyDescriptor.addWriteMethod( Method writeMethod );2;1;7
+BasicPropertyDescriptor.setReadMethod( @ Nullable Method readMethod );1;0;3
+PropertyDescriptorUtils.findIndexedPropertyType( String name , @ Nullable Class < ? > propertyType , @ Nullable Method indexedReadMethod , @ Nullable Method indexedWriteMethod );17;13;45
+PropertyDescriptorUtils.equals( PropertyDescriptor pd , PropertyDescriptor otherPd );6;7;7

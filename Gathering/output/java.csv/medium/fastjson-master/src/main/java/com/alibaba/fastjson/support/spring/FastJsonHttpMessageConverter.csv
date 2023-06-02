@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FastJsonHttpMessageConverter.setFilters( SerializeFilter ... filters );1;0;3
+FastJsonHttpMessageConverter.getCharset( );1;0;3
+FastJsonHttpMessageConverter.getType( Type type , Class < ? > contextClass );4;2;9
+FastJsonHttpMessageConverter.strangeCodeForJackson( Object obj );3;1;9
+FastJsonHttpMessageConverter.addSerializeFilter( SerializeFilter filter );2;3;10
+FastJsonHttpMessageConverter.read( Type type , Class < ? > contextClass , HttpInputMessage inputMessage );1;0;3
+FastJsonHttpMessageConverter.getFastJsonConfig( );1;0;3
+FastJsonHttpMessageConverter.getDateFormat( );1;0;3
+Spring4TypeResolvableHelper.isSupport( );1;0;3
+FastJsonHttpMessageConverter.canRead( Type type , Class < ? > contextClass , MediaType mediaType );1;0;3
+FastJsonHttpMessageConverter.readType( Type type , HttpInputMessage inputMessage );3;0;16
+FastJsonHttpMessageConverter.canWrite( Type type , Class < ? > clazz , MediaType mediaType );1;0;3
+FastJsonHttpMessageConverter.supports( Class < ? > clazz );1;0;3
+FastJsonHttpMessageConverter.writeInternal( Object object , HttpOutputMessage outputMessage );10;3;46
+FastJsonHttpMessageConverter.setFastJsonConfig( FastJsonConfig fastJsonConfig );1;0;3
+FastJsonHttpMessageConverter.getFilters( );1;0;3
+FastJsonHttpMessageConverter.setDateFormat( String dateFormat );1;0;3
+FastJsonHttpMessageConverter.FastJsonHttpMessageConverter( );1;0;3
+FastJsonHttpMessageConverter.write( Object o , Type type , MediaType contentType , HttpOutputMessage outputMessage );1;0;3
+FastJsonHttpMessageConverter.getFeatures( );1;0;3
+FastJsonHttpMessageConverter.setCharset( Charset charset );1;0;3
+FastJsonHttpMessageConverter.readInternal( Class < ? > clazz , HttpInputMessage inputMessage );1;0;3
+Spring4TypeResolvableHelper.getType( Type type , Class < ? > contextClass );10;6;30
+FastJsonHttpMessageConverter.setFeatures( SerializerFeature ... features );1;0;3
+FastJsonHttpMessageConverter.handlerParameterizedType( ParameterizedType type );3;2;12
+Spring4TypeResolvableHelper.resolveVariable( TypeVariable < ? > typeVariable , ResolvableType contextType );7;4;23

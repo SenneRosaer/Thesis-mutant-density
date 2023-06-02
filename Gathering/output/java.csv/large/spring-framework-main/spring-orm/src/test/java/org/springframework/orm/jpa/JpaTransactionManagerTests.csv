@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JpaTransactionManagerTests.testTransactionRollbackWithAlreadyRolledBack( );1;4;16
+JpaTransactionManagerTests.testParticipatingTransactionWithRollbackOnly( );1;4;25
+JpaTransactionManagerTests.testParticipatingTransactionWithCommit( );1;4;19
+JpaTransactionManagerTests.testInvalidIsolation( );1;0;11
+JpaTransactionManagerTests.testTransactionRollbackOnly( );1;4;19
+JpaTransactionManagerTests.testParticipatingTransactionWithRequiresNew( );1;4;23
+JpaTransactionManagerTests.testTransactionWithRequiresNewInAfterCompletion( );1;4;33
+JpaTransactionManagerTests.testParticipatingTransactionWithRequiresNewAndPrebound( );1;4;29
+JpaTransactionManagerTests.testTransactionRollbackWithPrebound( );1;3;24
+JpaTransactionManagerTests.testTransactionRollbackWithPropagationSupports( );1;6;18
+JpaTransactionManagerTests.testPropagationSupportsAndRequiresNew( );1;4;23
+JpaTransactionManagerTests.doInTransactionWithoutResult( TransactionStatus status );1;0;2
+JpaTransactionManagerTests.afterCompletion( int status );1;0;6
+JpaTransactionManagerTests.testTransactionFlush( );1;4;17
+JpaTransactionManagerTests.testParticipatingTransactionWithRollback( );1;4;21
+JpaTransactionManagerTests.testTransactionRollbackWithPreboundAndPropagationSupports( );1;4;23
+JpaTransactionManagerTests.testTransactionCommitWithPrebound( );1;3;24
+JpaTransactionManagerTests.testTransactionCommit( );1;4;18
+JpaTransactionManagerTests.testPropagationSupportsAndRequiresNewAndEarlyAccess( );1;4;26
+JpaTransactionManagerTests.testTransactionCommitWithRollbackException( );2;4;24
+JpaTransactionManagerTests.verifyTransactionSynchronizationManagerState( );1;0;6
+JpaTransactionManagerTests.testTransactionRollback( );1;4;18
+JpaTransactionManagerTests.setup( );1;0;5
+JpaTransactionManagerTests.testTransactionCommitWithPropagationSupports( );1;6;20
+JpaTransactionManagerTests.testTransactionCommitWithPreboundAndPropagationSupports( );1;4;24

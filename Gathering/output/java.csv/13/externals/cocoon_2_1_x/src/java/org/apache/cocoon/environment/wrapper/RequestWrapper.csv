@@ -1,0 +1,56 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestWrapper.getAttributeNames( );1;0;3
+RequestWrapper.getSitemapURIPrefix( );1;0;3
+RequestWrapper.getCookies( );1;0;3
+RequestWrapper.getRemoteAddr( );1;0;3
+RequestWrapper.getRequestURI( );1;0;3
+RequestWrapper.getLocales( );1;0;3
+RequestWrapper.getServerName( );1;0;3
+RequestWrapper.getDateHeader( String name );1;0;3
+RequestWrapper.isSecure( );1;0;3
+RequestWrapper.getContextPath( );1;0;3
+RequestWrapper.getParameterNames( );4;1;16
+RequestWrapper.get( String name );1;0;3
+RequestWrapper.getCocoonSession( boolean create );1;0;3
+RequestWrapper.getPathInfo( );1;0;3
+RequestWrapper.isRequestedSessionIdFromCookie( );1;0;3
+RequestWrapper.getServletPath( );1;0;3
+RequestWrapper.getCocoonSession( );1;0;3
+RequestWrapper.getSession( );1;0;3
+RequestWrapper.getParameter( String name );3;3;7
+RequestWrapper.RequestWrapper( Request request , String requestURI , String queryString , Environment env );1;0;3
+RequestWrapper.getContentType( );1;0;3
+RequestWrapper.getSession( boolean create );1;0;3
+RequestWrapper.getRequestedSessionId( );1;0;3
+RequestWrapper.getLocale( );1;0;3
+EnumerationFromIterator.nextElement( );1;0;1
+EnumerationFromIterator.hasMoreElements( );1;0;3
+RequestWrapper.getAuthType( );1;0;3
+RequestWrapper.getRemoteUser( );1;0;3
+RequestWrapper.removeAttribute( String name );1;0;3
+EnumerationFromIterator.EnumerationFromIterator( Iterator iter );1;0;3
+RequestWrapper.getHeader( String name );1;0;3
+RequestWrapper.getProtocol( );1;0;3
+RequestWrapper.getCookieMap( );1;0;3
+RequestWrapper.isRequestedSessionIdValid( );1;0;3
+RequestWrapper.getContentLength( );1;0;3
+RequestWrapper.isUserInRole( String role );1;0;3
+RequestWrapper.getUserPrincipal( );1;0;3
+RequestWrapper.getPathTranslated( );1;0;3
+RequestWrapper.getCharacterEncoding( );1;0;3
+RequestWrapper.getHeaderNames( );1;0;3
+RequestWrapper.getQueryString( );1;0;3
+RequestWrapper.getServerPort( );1;0;3
+RequestWrapper.isRequestedSessionIdFromURL( );1;0;3
+RequestWrapper.getSitemapURI( );1;0;3
+RequestWrapper.getMethod( );1;0;3
+RequestWrapper.getRemoteHost( );1;0;3
+RequestWrapper.getParameterValues( String name );4;4;14
+RequestWrapper.getScheme( );1;0;3
+RequestWrapper.getHeaders( String name );1;0;3
+RequestWrapper.setCharacterEncoding( String enc );1;0;3
+RequestWrapper.setRequestURI( String prefix , String uri );1;0;7
+RequestWrapper.getAttribute( String name );1;0;3
+RequestWrapper.isRequestedSessionIdFromUrl( );1;0;3
+RequestWrapper.setAttribute( String name , Object o );1;0;3
+RequestWrapper.RequestWrapper( Request request , String requestURI , String queryString , Environment env , boolean rawMode );4;6;14

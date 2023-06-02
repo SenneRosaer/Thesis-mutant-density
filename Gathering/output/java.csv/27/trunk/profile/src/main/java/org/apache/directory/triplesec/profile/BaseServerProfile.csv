@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BaseServerProfile.getPassword( );1;0;3
+***not in a method***;0;1;0
+BaseServerProfile.getUserId( );1;0;3
+BaseServerProfile.setPassword( byte [ ] password );1;0;3
+BaseServerProfile.getRealm( );1;0;3
+BaseServerProfile.BaseServerProfile( String id , String realm , String label , long factor , byte [ ] secret , String pin , byte [ ] password );1;0;9
+BaseServerProfile.setRealm( String domain );1;0;3
+BaseServerProfile.setActivationKey( String activationKey );1;0;3
+BaseServerProfile.getActivationKey( );1;0;3
+BaseServerProfile.setFailuresInEpoch( int failuresInEpoch );1;0;3
+BaseServerProfile.toString( );1;0;15
+BaseServerProfile.getNotifyBy( );1;0;3
+BaseServerProfile.getFailuresInEpoch( );1;0;3
+BaseServerProfile.setTokenPin( String tokenPin );1;0;3
+BaseServerProfile.setUserId( String id );1;0;3
+BaseServerProfile.isActive( );2;3;3
+BaseServerProfile.getTokenPin( );1;0;3
+BaseServerProfile.setResynchCount( int resynchCount );1;0;3
+BaseServerProfile.BaseServerProfile( String id , String realm , String label , long factor , byte [ ] secret , String pin , byte [ ] password , String info , String activationKey );1;0;11
+BaseServerProfile.getResynchCount( );1;0;3

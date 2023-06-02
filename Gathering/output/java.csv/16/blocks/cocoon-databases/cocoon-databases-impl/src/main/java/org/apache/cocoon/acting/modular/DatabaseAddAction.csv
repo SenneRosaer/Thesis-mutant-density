@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DatabaseAddAction.getColumnValues( Configuration tableConf , CacheHelper queryData , Map objectModel );2;2;7
+DatabaseAddAction.selectMode( boolean isAutoIncrement , Map modes );2;0;6
+DatabaseAddAction.setKeyAuto( Configuration table , Column column , int currentIndex , int rowIndex , Connection conn , PreparedStatement statement , Map objectModel , String outputMode , Map results );9;6;28
+DatabaseAddAction.storeKeyValue( Configuration tableConf , Column key , int rowIndex , Connection conn , Statement statement , Map objectModel , String outputMode , Map results );7;7;20
+DatabaseAddAction.getQuery( Configuration table , Map modeTypes , Map defaultModeNames );15;14;71
+DatabaseAddAction.processRow( Map objectModel , Connection conn , PreparedStatement statement , String outputMode , Configuration table , CacheHelper queryData , Object [ ] [ ] columnValues , int rowIndex , Map results );9;8;24
+DatabaseAddAction.honourAutoIncrement( );1;0;1

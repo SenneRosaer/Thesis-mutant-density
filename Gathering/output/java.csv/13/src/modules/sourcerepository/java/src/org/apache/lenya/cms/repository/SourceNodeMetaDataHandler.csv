@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SourceNodeMetaDataHandler.SourceNodeMetaDataHandler( ServiceManager manager , String sourceUri , ContentHolder content );1;0;5
+SourceNodeMetaDataHandler.loadLegacyMetaData( Document xml );10;6;50
+SourceNodeMetaDataHandler.getMetaDataMap( String namespaceUri );3;2;11
+SourceNodeMetaDataHandler.getMetaDataNamespaceUris( );3;1;13
+SourceNodeMetaDataHandler.getMetaData( String namespaceUri );5;3;24
+SourceNodeMetaDataHandler.loadMetaData( );8;8;39
+SourceNodeMetaDataHandler.getLastModified( );1;0;3
+SourceNodeMetaDataHandler.getValues( String namespaceUri , String key );1;0;4
+SourceNodeMetaDataHandler.removeAllValues( String namespaceUri , String key );1;0;3
+SourceNodeMetaDataHandler.setValue( String namespaceUri , String key , String value );1;0;3
+SourceNodeMetaDataHandler.getValues( String namespaceUri , String key , int revisionNumber );1;0;4
+SourceNodeMetaDataHandler.getValueList( String namespaceUri , String key );2;1;11
+SourceNodeMetaDataHandler.addValue( String namespaceUri , String key , String value );1;0;3

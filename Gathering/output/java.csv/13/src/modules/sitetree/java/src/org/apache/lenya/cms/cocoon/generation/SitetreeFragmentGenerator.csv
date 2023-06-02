@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SitetreeFragmentGenerator.addNodeRecursive( SiteNode node , String nodeid , String childid );2;0;8
+SitetreeFragmentGenerator.addNodes( SiteNode [ ] children );2;2;7
+SitetreeFragmentGenerator.generateFragmentRecursive( SiteNode [ ] nodes , String path );5;6;18
+SitetreeFragmentGenerator.startNode( String nodeName );1;2;3
+SitetreeFragmentGenerator.generateFragment( );3;0;14
+SitetreeFragmentGenerator.generateFragmentInitial( String siteArea );8;1;27
+SitetreeFragmentGenerator.getValidity( );2;1;6
+SitetreeFragmentGenerator.getKey( );2;1;6
+SitetreeFragmentGenerator.isFolder( SiteNode node );2;1;5
+SitetreeFragmentGenerator.endNode( String nodeName );1;2;3
+SitetreeFragmentGenerator.setNodeAttributes( SiteNode node );9;5;38
+SitetreeFragmentGenerator.addLabels( SiteNode node );3;2;12
+SitetreeFragmentGenerator.startNode( String nodeName , SiteNode node );1;2;4
+SitetreeFragmentGenerator.addLabel( String label , String language );1;5;10
+SitetreeFragmentGenerator.generate( );6;7;30
+SitetreeFragmentGenerator.setup( org . apache . cocoon . environment . SourceResolver _resolver , Map _objectModel , String src , Parameters par );13;6;76

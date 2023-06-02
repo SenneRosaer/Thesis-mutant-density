@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpMessagingTemplate.getUserDestinationPrefix( );1;0;3
+SimpMessagingTemplate.send( Message < ? > message );2;1;9
+SimpMessagingTemplate.setHeaderInitializer( @ Nullable MessageHeaderInitializer headerInitializer );1;0;3
+SimpMessagingTemplate.convertAndSendToUser( String user , String destination , Object payload , @ Nullable Map < String , Object > headers , @ Nullable MessagePostProcessor postProcessor );2;3;8
+SimpMessagingTemplate.convertAndSendToUser( String user , String destination , Object payload );1;0;3
+SimpMessagingTemplate.convertAndSendToUser( String user , String destination , Object payload , @ Nullable MessagePostProcessor postProcessor );1;0;3
+SimpMessagingTemplate.setUserDestinationPrefix( String prefix );2;0;4
+SimpMessagingTemplate.getHeaderInitializer( );1;0;3
+SimpMessagingTemplate.sendInternal( Message < ? > message );3;2;10
+SimpMessagingTemplate.doSend( String destination , Message < ? > message );3;1;26
+SimpMessagingTemplate.setSendTimeout( long sendTimeout );1;0;3
+***not in a method***;0;1;0
+SimpMessagingTemplate.convertAndSendToUser( String user , String destination , Object payload , @ Nullable Map < String , Object > headers );1;0;3
+SimpMessagingTemplate.initHeaders( SimpMessageHeaderAccessor simpAccessor );2;1;5
+SimpMessagingTemplate.getSendTimeout( );1;0;3
+SimpMessagingTemplate.processHeadersToSend( @ Nullable Map < String , Object > headers );6;3;22
+SimpMessagingTemplate.getMessageChannel( );1;0;3
+SimpMessagingTemplate.SimpMessagingTemplate( MessageChannel messageChannel );1;0;4

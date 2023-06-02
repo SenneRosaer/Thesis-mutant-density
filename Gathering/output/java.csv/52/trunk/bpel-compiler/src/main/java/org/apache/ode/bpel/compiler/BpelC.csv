@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BpelC.compile( File bpelFile );4;2;25
+BpelC.onCompilationMessage( CompilationMessage compilationMessage );2;1;7
+BpelC.setProcessWSDL( URI wsdl );2;0;6
+BpelC.invalidate( );1;0;5
+BpelC.setExtensionValidators( Map < QName , ExtensionValidator > extensionValidators );1;0;3
+BpelC.newBpelCompiler( );1;0;3
+BpelC.BpelC( );1;0;2
+BpelC.setResourceFinder( ResourceFinder finder );1;0;3
+BpelC.setDryRun( boolean dryRun );1;0;3
+BpelC.setCompileProperties( Map < String , Object > compileProperties );1;0;3
+BpelC.finalize( );1;0;4
+BpelC.compile( final Process process , String outputPath );22;12;99
+BpelC.setBaseDirectory( File baseDir );3;2;5
+BpelC.setCompileListener( CompileListener cl );1;0;3
+BpelC.setOutputStream( OutputStream os );4;1;13
+BpelC.logCompilationMessage( CompilationMessage cmsg );8;1;19

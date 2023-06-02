@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PCLPageDefinition.PCLPageDefinition( String name , int selector , Dimension physicalPageSize , Rectangle logicalPageRect , boolean landscape );1;0;7
+PCLPageDefinition.createPhysicalPageSizeMm( float width , float height );1;0;5
+PCLPageDefinition.createPhysicalPageSizeInch( float width , float height );1;0;5
+PCLPageDefinition.matches( long width , long height , int errorMargin );2;5;4
+PCLPageDefinition.convert300dpiDotsToMpt( int offset );1;2;3
+PCLPageDefinition.getPhysicalPageSize( );1;0;3
+PCLPageDefinition.getLogicalPageRect( );1;0;3
+PCLPageDefinition.createLogicalPageRect( int x , int y , int width , int height );1;0;4
+PCLPageDefinition.toString( );1;0;3
+PCLPageDefinition.getName( );1;0;3
+PCLPageDefinition.getPageDefinition( long width , long height , int errorMargin );3;0;10
+PCLPageDefinition.isLandscapeFormat( );1;0;3
+PCLPageDefinition.createPageDefinitions( );1;0;40
+PCLPageDefinition.getDefaultPageDefinition( );1;0;3
+PCLPageDefinition.getSelector( );1;0;3

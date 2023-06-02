@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EventState.propertyRemoved( NodeId parentId , Path parentPath , Path . Element childPath , Name nodeType , Set mixins , Session session );1;0;4
+EventState.equals( Object obj );6;5;13
+EventState.getUserId( );1;0;3
+EventState.propertyAdded( NodeId parentId , Path parentPath , Path . Element childPath , Name nodeType , Set mixins , Session session , boolean external );1;0;4
+EventState.getParentId( );1;0;3
+EventState.propertyChanged( NodeId parentId , Path parentPath , Path . Element childPath , Name nodeType , Set mixins , Session session );1;0;4
+EventState.getTargetId( );2;1;7
+EventState.getNodeTypes( NodeTypeManagerImpl ntMgr );5;1;21
+EventState.propertyRemoved( NodeId parentId , Path parentPath , Path . Element childPath , Name nodeType , Set mixins , Session session , boolean external );1;0;4
+EventState.getType( );1;0;3
+EventState.EventState( int type , NodeId parentId , Path parentPath , NodeId childId , Path . Element childPath , Name nodeType , Set mixins , Session session , boolean external );4;6;21
+EventState.getNodeType( );1;0;3
+EventState.getChildRelPath( );1;0;3
+EventState.getChildId( );1;0;3
+EventState.childNodeRemoved( NodeId parentId , Path parentPath , NodeId childId , Path . Element childPath , Name nodeType , Set mixins , Session session , boolean external );1;0;4
+EventState.propertyAdded( NodeId parentId , Path parentPath , Path . Element childPath , Name nodeType , Set mixins , Session session );1;0;4
+EventState.getSession( );1;0;3
+EventState.valueOf( int eventType );6;5;15
+EventState.getMixinNames( );1;0;3
+EventState.childNodeRemoved( NodeId parentId , Path parentPath , NodeId childId , Path . Element childPath , Name nodeType , Set mixins , Session session );1;0;4
+EventState.hashCode( );2;9;12
+EventState.toString( );2;1;11
+EventState.getParentPath( );1;0;3
+EventState.childNodeAdded( NodeId parentId , Path parentPath , NodeId childId , Path . Element childPath , Name nodeType , Set mixins , Session session );1;0;4
+EventState.childNodeAdded( NodeId parentId , Path parentPath , NodeId childId , Path . Element childPath , Name nodeType , Set mixins , Session session , boolean external );1;0;4
+EventState.isExternal( );1;0;3
+EventState.propertyChanged( NodeId parentId , Path parentPath , Path . Element childPath , Name nodeType , Set mixins , Session session , boolean external );1;0;4

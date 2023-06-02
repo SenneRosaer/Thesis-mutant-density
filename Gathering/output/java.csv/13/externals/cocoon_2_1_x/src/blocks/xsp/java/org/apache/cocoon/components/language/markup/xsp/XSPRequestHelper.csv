@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSPRequestHelper.getParameterNames( Map objectModel );2;0;9
+XSPRequestHelper.getParameter( Map objectModel , String name , String defaultValue );1;0;3
+XSPRequestHelper.getParameter( Map objectModel , ContentHandler contentHandler , String name , String defaultValue , String form_encoding , String container_encoding );1;0;7
+XSPRequestHelper.getHeaderNames( Map objectModel , ContentHandler contentHandler );2;0;10
+XSPRequestHelper.getHeaders( Map objectModel , String name , ContentHandler contentHandler );2;0;12
+XSPRequestHelper.getParameter( Map objectModel , String name , String defaultValue , String form_encoding , String container_encoding );7;7;17
+XSPRequestHelper.getSessionAttribute( Map objectModel , ContentHandler contentHandler , String name , Object defaultValue );1;0;6
+XSPRequestHelper.getDateHeader( Map objectModel , String name , String format );5;6;12
+XSPRequestHelper.getAttributeNames( Map objectModel );2;0;9
+XSPRequestHelper.getParameterValues( Map objectModel , ContentHandler contentHandler , String name , String form_encoding , String container_encoding );7;8;24
+XSPRequestHelper.getLocale( Map objectModel , ContentHandler handler );1;0;4
+XSPRequestHelper.getAttributeNames( Map objectModel , ContentHandler contentHandler );2;0;10
+XSPRequestHelper.getLocale( Locale locale , ContentHandler handler );1;0;10
+XSPRequestHelper.getParameter( Map objectModel , ContentHandler contentHandler , String name , String defaultValue );1;0;6
+XSPRequestHelper.getDateHeader( Map objectModel , String name );4;5;11
+XSPRequestHelper.getLocales( Map objectModel , ContentHandler contentHandler );2;0;9
+XSPRequestHelper.getParameterValues( Map objectModel , String name , String form_encoding , String container_encoding );7;8;18
+XSPRequestHelper.getParameterNames( Map objectModel , ContentHandler contentHandler );2;0;10
+XSPRequestHelper.getParameterValues( Map objectModel , ContentHandler contentHandler , String name );3;3;15
+XSPRequestHelper.getRequestedURL( Map objectModel );5;2;23
+XSPRequestHelper.getHeaderNames( Map objectModel );2;0;9
+XSPRequestHelper.getSessionAttribute( Map objectModel , String name , Object defaultValue );2;1;5
+XSPRequestHelper.getHeaders( Map objectModel , String name );2;0;9
+XSPRequestHelper.getLocales( Map objectModel );2;0;9

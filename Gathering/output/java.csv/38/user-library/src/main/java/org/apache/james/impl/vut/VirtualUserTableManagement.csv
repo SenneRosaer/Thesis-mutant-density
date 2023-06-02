@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VirtualUserTableManagement.getAllMappings( String virtualUserTable );1;0;3
+VirtualUserTableManagement.addAddressMapping( String virtualUserTable , String user , String domain , String address );2;0;7
+VirtualUserTableManagement.removeRegexMapping( String virtualUserTable , String user , String domain , String regex );2;0;7
+VirtualUserTableManagement.addAliasDomainMapping( String virtualUserTable , String aliasDomain , String realDomain );2;0;7
+VirtualUserTableManagement.setDefaultVirtualUserTable( org . apache . james . api . vut . management . VirtualUserTableManagement defaultVUT );1;0;3
+VirtualUserTableManagement.getUserDomainMappings( String virtualUserTable , String user , String domain );2;0;7
+VirtualUserTableManagement.addErrorMapping( String virtualUserTable , String user , String domain , String error );2;0;7
+VirtualUserTableManagement.removeAliasDomainMapping( String virtualUserTable , String aliasDomain , String realDomain );2;0;7
+VirtualUserTableManagement.removeMapping( String virtualUserTable , String user , String domain , String mapping );2;0;7
+VirtualUserTableManagement.getTable( String tableName );4;3;14
+VirtualUserTableManagement.addMapping( String virtualUserTable , String user , String domain , String mapping );2;0;7
+VirtualUserTableManagement.service( ServiceManager arg0 );1;0;4
+VirtualUserTableManagement.removeAddressMapping( String virtualUserTable , String user , String domain , String address );2;0;7
+VirtualUserTableManagement.setVirtualUserTableStore( VirtualUserTableStore store );1;0;3
+VirtualUserTableManagement.removeErrorMapping( String virtualUserTable , String user , String domain , String error );2;0;7
+VirtualUserTableManagement.addRegexMapping( String virtualUserTable , String user , String domain , String regex );2;0;7

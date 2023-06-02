@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+valueOf( int statusCode );2;2;7
+is1xxInformational( );1;1;3
+getReasonPhrase( );1;0;3
+is4xxClientError( );1;1;3
+series( );1;0;3
+HttpStatus( int value , Series series , String reasonPhrase );1;0;5
+resolve( int statusCode );3;3;8
+is3xxRedirection( );1;1;3
+is2xxSuccessful( );1;1;3
+is5xxServerError( );1;1;3
+toString( );1;1;3
+value( );1;0;3
+valueOf( HttpStatus status );1;0;3
+Series( int value );1;0;3
+isError( );2;1;3

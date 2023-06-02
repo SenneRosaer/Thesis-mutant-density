@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StscComplexTypeResolver.translateAttributeModel( XmlObject parseTree , String targetNamespace , boolean chameleon , String formDefault , List anonymousTypes , SchemaType outerType , Set seenAttributes , SchemaAttributeModelImpl result , SchemaType baseType , boolean extension , SchemaAttributeGroupImpl redefinitionFor );45;35;196
+StscComplexTypeResolver.extractMaxOccurs( AllNNI allNNI );3;2;8
+StscComplexTypeResolver.extractElementModel( SchemaType sType );4;3;15
+StscComplexTypeResolver.buildParticleCodeMap( );2;2;6
+StscComplexTypeResolver.getContentModel( ExtensionType parseExt );5;4;11
+RedefinitionForGroup.RedefinitionForGroup( SchemaModelGroupImpl group );1;0;3
+StscComplexTypeResolver.buildContentPropertyModelByQName( SchemaParticle part , SchemaType owner );18;12;64
+StscComplexTypeResolver.resolveScExtension( SchemaTypeImpl sImpl , SimpleExtensionType parseTree );10;11;51
+StscComplexTypeResolver.resolveBasicComplexType( SchemaTypeImpl sImpl );8;10;45
+StscComplexTypeResolver.resolveCcRestriction( SchemaTypeImpl sImpl , ComplexRestrictionType parseTree , boolean mixed );18;21;81
+StscComplexTypeResolver.makeRefArray( Collection typeList );2;1;7
+RedefinitionForGroup.getGroup( );1;0;3
+StscComplexTypeResolver.extendContentModel( SchemaParticle baseContentModel , SchemaParticle extendedContentModel , XmlObject parseTree );3;2;16
+StscComplexTypeResolver.afterMapSubsumedByStartMap( Map startMap , Map afterMap );8;3;24
+StscComplexTypeResolver.resolveCcExtension( SchemaTypeImpl sImpl , ExtensionType parseTree , boolean mixed );36;49;123
+StscComplexTypeResolver.buildStateMachine( SchemaParticle contentModel );47;54;118
+StscComplexTypeResolver.summarizeAttrWildcards( SchemaAttributeModel attrModel );3;2;7
+StscComplexTypeResolver.translateContentModel( SchemaType outerType , XmlObject parseTree , String targetNamespace , boolean chameleon , String elemFormDefault , String attFormDefault , int particleCode , List anonymousTypes , Map elementModel , boolean allowElt , RedefinitionForGroup redefinitionFor );43;39;179
+StscComplexTypeResolver.filterPointlessParticlesAndVerifyAllParticles( SchemaParticle part , XmlObject parseTree );24;24;48
+StscComplexTypeResolver.particlesMatchingStart( SchemaParticle part , QNameSetSpecification suspectSet , Map result , QNameSetBuilder eliminate );14;8;50
+StscComplexTypeResolver.particlesMatchingAfter( SchemaParticle part , QNameSetSpecification suspectSet , Map result , QNameSetBuilder eliminate , boolean top );13;13;48
+StscComplexTypeResolver.getContentModel( ComplexType parseCt );5;4;11
+WildcardResult.WildcardResult( QNameSet typedWildcards , boolean hasWildcards );1;0;4
+StscComplexTypeResolver.mergeProperties( SchemaPropertyImpl into , SchemaProperty from , boolean asSequence );12;11;32
+StscComplexTypeResolver.addMinusPointlessParticles( List list , SchemaParticle part , int parentParticleType );9;5;24
+StscComplexTypeResolver.summarizeEltWildcards( SchemaParticle contentModel );8;5;27
+StscComplexTypeResolver.resolveScRestriction( SchemaTypeImpl sImpl , SimpleRestrictionType parseTree );17;16;100
+StscComplexTypeResolver.ensureStateMachine( SchemaParticle [ ] children );2;2;7
+StscComplexTypeResolver.getContentModel( ComplexRestrictionType parseRest );5;4;11
+CodeForNameEntry.CodeForNameEntry( QName name , int code );1;0;1
+StscComplexTypeResolver.translateParticleCode( QName name );2;1;6
+StscComplexTypeResolver.buildUseProperty( SchemaField use , SchemaType owner );5;0;19
+RedefinitionForGroup.setSeenRedefinition( boolean seenRedefinition );1;0;3
+StscComplexTypeResolver.resolveComplexType( SchemaTypeImpl sImpl );37;29;106
+StscComplexTypeResolver.translateAttributeCode( QName currentName );2;1;6
+StscComplexTypeResolver.buildElementPropertyModel( SchemaLocalElement epart , SchemaType owner );1;0;6
+RedefinitionForGroup.isSeenRedefinition( );1;0;3
+StscComplexTypeResolver.resolveErrorType( SchemaTypeImpl sImpl );1;0;3
+StscComplexTypeResolver.extractMinOccurs( XmlNonNegativeInteger nni );3;2;8
+StscComplexTypeResolver.getSchema( XmlObject o );3;0;17
+StscComplexTypeResolver.translateWildcardProcess( Any . ProcessContents process );4;1;10
+StscComplexTypeResolver.resolveScExtensionPart2( SchemaTypeImpl sImpl , SchemaType baseType , ExtensionType parseTree , String targetNamespace , boolean chameleon );4;2;29
+StscComplexTypeResolver.translateParticleCode( Group parseEg );2;1;5
+StscComplexTypeResolver.buildAttributePropertyModelByQName( SchemaAttributeModel attrModel , SchemaType owner );2;2;7
+StscComplexTypeResolver.buildAttributeCodeMap( );2;2;6

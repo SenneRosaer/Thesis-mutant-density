@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LockMethod.LockMethod( String uri , long timeout , String [ ] lockTokens );1;0;8
+LockMethod.getLockToken( );2;1;10
+LockMethod.succeeded( );3;3;6
+LockMethod.LockMethod( String uri , LockInfo lockInfo );3;3;13
+LockMethod.processResponseBody( HttpState httpState , HttpConnection httpConnection );3;0;10
+LockMethod.buildDiscoveryFromRoot( Element root );4;1;14
+LockMethod.isSuccess( int statusCode );1;1;3
+LockMethod.getResponseAsLockDiscovery( );3;3;13
+LockMethod.getName( );1;0;3
+LockMethod.LockMethod( String uri , Scope lockScope , Type lockType , String owner , long timeout , boolean isDeep );1;0;3

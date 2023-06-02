@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CMBuilder.buildSyntaxTree( XSParticleDecl particle , boolean forUPA );16;21;57
+CMBuilder.expandContentModel( CMNode node , int minOccurs , int maxOccurs );13;19;36
+CMBuilder.multiNodes( CMNode node , int num , boolean copyFirst );4;4;12
+CMBuilder.CMBuilder( CMNodeFactory nodeFactory );1;0;4
+CMBuilder.copyNode( CMNode node );8;12;21
+CMBuilder.createDFACM( XSParticleDecl particle , boolean forUPA );3;1;8
+CMBuilder.createAllCM( XSParticleDecl particle );3;5;11
+CMBuilder.getContentModel( XSComplexTypeDecl typeDecl , boolean forUPA );7;8;22
+CMBuilder.useRepeatingLeafNodes( XSParticleDecl particle );10;16;25
+CMBuilder.buildCompactSyntaxTree( XSParticleDecl particle );13;18;38
+CMBuilder.setDeclPool( XSDeclarationPool declPool );1;0;3
+CMBuilder.buildCompactSyntaxTree2( XSParticleDecl particle , int minOccurs , int maxOccurs );10;23;28

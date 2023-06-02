@@ -1,0 +1,56 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ComponentMBeanImpl.isPojo( );1;0;3
+ComponentMBeanImpl.getThrottlingTimeout( );1;0;3
+ComponentMBeanImpl.getName( );1;0;3
+ComponentMBeanImpl.getExtensionMBeanName( );4;2;7
+ComponentMBeanImpl.setContext( ComponentContextImpl ctx );1;0;4
+ComponentMBeanImpl.setExchangeThrottling( boolean value );1;0;3
+ComponentMBeanImpl.registerMBeans( ManagementContext ctx );2;0;11
+ComponentMBeanImpl.doStop( );3;1;14
+ComponentMBeanImpl.getThrottlingInterval( );1;0;3
+ComponentMBeanImpl.getDeliveryChannel( );1;0;3
+ComponentMBeanImpl.doStart( );3;1;18
+ComponentMBeanImpl.dispose( );2;0;10
+ComponentMBeanImpl.firePropertyChanged( String name , Object oldValue , Object newValue );1;0;3
+ComponentMBeanImpl.getMBeanName( );1;0;3
+ComponentMBeanImpl.isExchangeThrottling( );1;0;3
+ComponentMBeanImpl.getType( );1;0;3
+ComponentMBeanImpl.setThrottlingInterval( int value );1;0;3
+ComponentMBeanImpl.setPojo( boolean pojo );1;0;3
+ComponentMBeanImpl.getSharedLibraries( );1;0;3
+ComponentMBeanImpl.isBinding( );1;0;3
+ComponentMBeanImpl.start( );4;0;17
+ComponentMBeanImpl.fireEvent( int type );7;2;25
+ComponentMBeanImpl.shutDown( );4;0;16
+ComponentMBeanImpl.getInboundQueueCapacity( );1;0;3
+ComponentMBeanImpl.getLifeCycle( );2;1;6
+ComponentMBeanImpl.stop( );4;0;16
+ComponentMBeanImpl.getDescription( );1;0;3
+ComponentMBeanImpl.getContainer( );1;0;3
+ComponentMBeanImpl.getRunningStateFromStore( );2;0;11
+ComponentMBeanImpl.shutDownServiceAssemblies( );4;2;15
+ComponentMBeanImpl.setInitialRunningState( );6;2;17
+ComponentMBeanImpl.setThrottlingTimeout( long value );1;0;3
+ComponentMBeanImpl.startServiceAssemblies( );1;0;2
+ComponentMBeanImpl.getOperationInfos( );1;0;4
+ComponentMBeanImpl.init( );3;3;17
+ComponentMBeanImpl.getActivationSpec( );1;0;3
+ComponentMBeanImpl.getComponentType( );3;0;3
+ComponentMBeanImpl.setShutdownStateAfterInstall( );1;0;3
+ComponentMBeanImpl.setDeliveryChannel( DeliveryChannelImpl deliveryChannel );1;0;3
+ComponentMBeanImpl.stopServiceAssemblies( );4;2;15
+ComponentMBeanImpl.getComponent( );1;0;3
+ComponentMBeanImpl.getSubType( );1;0;3
+ComponentMBeanImpl.isEngine( );1;0;3
+ComponentMBeanImpl.isService( );1;0;3
+ComponentMBeanImpl.persistRunningState( );3;1;13
+ComponentMBeanImpl.getContext( );1;0;3
+ComponentMBeanImpl.getComponentNameSpace( );1;0;3
+ComponentMBeanImpl.ComponentMBeanImpl( JBIContainer container , ComponentNameSpace name , String description , Component component , boolean binding , boolean service , String [ ] sharedLibraries );1;0;9
+ComponentMBeanImpl.initServiceAssemblies( );1;0;2
+ComponentMBeanImpl.unregisterMbeans( ManagementContext ctx );1;0;3
+ComponentMBeanImpl.setInboundQueueCapacity( int value );2;1;6
+ComponentMBeanImpl.getAttributeInfos( );1;0;10
+ComponentMBeanImpl.getServiceUnitManager( );2;1;6
+ComponentMBeanImpl.doShutDown( );4;4;21
+ComponentMBeanImpl.setActivationSpec( ActivationSpec activationSpec );1;0;3

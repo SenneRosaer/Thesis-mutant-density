@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Task.getOwningTarget( );1;0;3
+Task.log( String msg , Throwable t , int msgLevel );2;1;7
+Task.init( );1;0;2
+Task.maybeConfigure( );3;2;9
+Task.bindToOwner( Task owner );1;0;8
+Task.setRuntimeConfigurableWrapper( RuntimeConfigurable wrapper );1;0;3
+Task.setTaskName( String name );1;0;3
+Task.Task( );1;0;2
+Task.replaceChildren( RuntimeConfigurable wrapper , UnknownElement parentElement );2;0;14
+Task.markInvalid( );1;0;3
+Task.isInvalid( );1;0;3
+Task.log( Throwable t , int msgLevel );2;1;5
+Task.getReplacement( );2;1;16
+Task.reconfigure( );2;1;5
+Task.handleErrorFlush( String output );1;0;3
+Task.getRuntimeConfigurableWrapper( );2;1;6
+Task.perform( );6;2;30
+Task.getTaskName( );1;0;3
+Task.log( String msg , int msgLevel );2;1;7
+Task.handleOutput( String output );1;0;3
+Task.handleErrorOutput( String output );1;0;3
+Task.log( String msg );1;0;3
+Task.getTaskType( );1;0;3
+Task.handleFlush( String output );1;0;3
+Task.getWrapper( );1;0;3
+Task.setOwningTarget( Target target );1;0;3
+Task.setTaskType( String type );1;0;3
+Task.handleInput( byte [ ] buffer , int offset , int length );1;0;3
+Task.execute( );1;0;2

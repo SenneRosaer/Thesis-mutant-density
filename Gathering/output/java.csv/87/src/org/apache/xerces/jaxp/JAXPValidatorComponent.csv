@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XNI2SAX.startElement( QName element , XMLAttributes attributes , Augmentations augs );6;5;20
+DraconianErrorHandler.error( SAXParseException e );1;0;3
+DraconianErrorHandler.getInstance( );1;0;3
+XNI2SAX.ignorableWhitespace( XMLString text , Augmentations augs );2;0;7
+XNI2SAX.getContentHandler( );1;0;3
+JAXPValidatorComponent.getFeatureDefault( String featureId );1;0;3
+***not in a method***;0;3;0
+JAXPValidatorComponent.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );1;0;4
+DraconianErrorHandler.fatalError( SAXParseException e );1;0;3
+JAXPValidatorComponent.ignorableWhitespace( XMLString text , Augmentations augs );1;0;4
+JAXPValidatorComponent.reset( XMLComponentManager componentManager );2;0;10
+JAXPValidatorComponent.startElement( QName element , XMLAttributes attributes , Augmentations augs );1;0;6
+JAXPValidatorComponent.getAttributeTypeInfo( String attributeUri , String attributeLocalName );1;0;3
+DraconianErrorHandler.warning( SAXParseException e );1;0;2
+JAXPValidatorComponent.getElementTypeInfo( );1;0;3
+JAXPValidatorComponent.characters( XMLString text , Augmentations augs );1;0;4
+DraconianErrorHandler.DraconianErrorHandler( );1;0;1
+JAXPValidatorComponent.isIdAttribute( int index );1;0;3
+XNI2SAX.setContentHandler( ContentHandler handler );1;0;3
+JAXPValidatorComponent.symbolize( String s );1;0;3
+SAX2XNI.ignorableWhitespace( char [ ] ch , int start , int len );2;0;7
+JAXPValidatorComponent.getRecognizedProperties( );1;0;3
+JAXPValidatorComponent.getRecognizedFeatures( );1;0;3
+SAX2XNI.characters( char [ ] ch , int start , int len );2;0;7
+JAXPValidatorComponent.setFeature( String featureId , boolean state );1;0;2
+XNI2SAX.processingInstruction( String target , XMLString data , Augmentations augs );2;0;7
+JAXPValidatorComponent.endElement( QName element , Augmentations augs );1;0;4
+XNI2SAX.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );1;0;4
+XNI2SAX.endElement( QName element , Augmentations augs );5;4;15
+XNI2SAX.xmlDecl( String version , String encoding , String standalone , Augmentations augs );1;0;3
+XNI2SAX.characters( XMLString text , Augmentations augs );2;0;7
+JAXPValidatorComponent.getErrorHandler( );2;1;5
+JAXPValidatorComponent.getPropertyDefault( String propertyId );1;0;3
+XNI2SAX.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );2;0;9
+JAXPValidatorComponent.JAXPValidatorComponent( ValidatorHandler validatorHandler );6;1;36
+SAX2XNI.toQName( String uri , String localName , String qname );2;1;11
+SAX2XNI.endElement( String uri , String localName , String qname );2;0;7
+JAXPValidatorComponent.updateAttributes( Attributes atts );5;6;28
+SAX2XNI.aug( );2;1;9
+XNI2SAX.endDocument( Augmentations augs );2;0;7
+JAXPValidatorComponent.resolveResource( String type , String ns , String publicId , String systemId , String baseUri );4;2;18
+JAXPValidatorComponent.setProperty( String propertyId , Object value );1;0;2
+SAX2XNI.handler( );1;0;3
+SAX2XNI.startElement( String uri , String localName , String qname , Attributes atts );2;0;8
+JAXPValidatorComponent.isSpecified( int index );1;0;3
+JAXPValidatorComponent.getAttributeTypeInfo( String attributeQName );1;0;3
+SAX2XNI.toSAXException( XNIException xe );3;1;6
+SAX2XNI.elementAug( );1;0;4
+JAXPValidatorComponent.getAttributeTypeInfo( int index );1;0;3

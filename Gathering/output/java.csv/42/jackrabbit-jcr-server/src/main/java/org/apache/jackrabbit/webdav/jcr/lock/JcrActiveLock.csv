@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JcrActiveLock.JcrActiveLock( Lock lock );1;0;3
+JcrActiveLock.isDeep( );4;1;11
+JcrActiveLock.getToken( );1;0;3
+JcrActiveLock.getOwner( );1;0;3
+JcrActiveLock.getType( );1;0;3
+JcrActiveLock.isLockedByToken( String lockToken );3;2;6
+JcrActiveLock.setTimeout( long timeout );1;0;3
+JcrActiveLock.getScope( );2;0;3
+JcrActiveLock.setOwner( String owner );1;0;3
+JcrActiveLock.isExpired( );2;1;8
+JcrActiveLock.getTimeout( );1;0;3
+JcrActiveLock.setIsDeep( boolean isDeep );1;0;3
+JcrActiveLock.JcrActiveLock( Lock lock , boolean sessionScoped );2;1;7

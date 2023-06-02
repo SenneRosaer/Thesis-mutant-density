@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CheckedLock.release( );2;0;6
+CheckedLock.verify( byte message );3;1;17
+CheckedLock.obtain( );1;0;3
+CheckedLock.isLocked( );1;0;3
+CheckedLock.obtain( long lockWaitTimeout );2;0;6
+VerifyingLockFactory.makeLock( String lockName );1;0;3
+VerifyingLockFactory.clearLock( String lockName );1;0;3
+CheckedLock.CheckedLock( Lock lock );1;0;3
+VerifyingLockFactory.VerifyingLockFactory( byte id , LockFactory lf , String host , int port );1;0;6

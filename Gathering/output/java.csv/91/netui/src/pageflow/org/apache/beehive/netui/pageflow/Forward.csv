@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Forward.getPageInputs( );1;0;3
+Forward.reinitialize( FlowController fc );3;4;10
+Forward.Forward( Forward init );1;0;17
+Forward.setQueryString( String queryString );4;4;14
+***not in a method***;0;2;0
+Forward.getPath( );1;0;4
+Forward.isExternalRedirect( );1;0;3
+Forward.isReturnToAction( );2;3;4
+Forward.setPath( String contextRelativePath );1;0;4
+Forward.findForward( String forwardName );4;3;12
+Forward.getFirstOutputForm( HttpServletRequest request );6;4;30
+Forward.hasExplicitRedirectValue( );2;1;3
+Forward.Forward( ActionForward initFwd , ServletContext servletContext );1;0;5
+Forward.Forward( String forwardName );1;0;3
+Forward.Forward( HttpServletRequest request );1;0;5
+Forward.doesRestoreQueryString( );1;0;4
+Forward.Forward( URI uri );2;0;6
+Forward.addPageInput( String paramName , Object value );1;0;3
+Forward.Forward( String forwardName , Object outputFormBean );2;1;7
+Forward.setRedirect( boolean doRedirect );1;0;4
+Forward.getReturnToType( );1;0;3
+Forward.setRestoreQueryString( boolean doesRestoreQueryString );1;0;3
+Forward.initFrom( ActionForward fwd );24;15;107
+Forward.Forward( URI uri , boolean doRedirect );3;2;10
+Forward.initialize( ActionMapping mapping , FlowController flowController );2;1;6
+Forward.getOutputForms( );2;1;4
+Forward.initializeRelativePath( ServletRequest request , String relativeTo );6;7;18
+Forward.getActionOutputs( );1;0;3
+Forward.isReturnToPage( );3;5;5
+Forward.init( );10;11;33
+Forward.getReturnToTypeAsString( );6;0;16
+Forward.getQueryString( );2;1;3
+Forward.addQueryParam( String paramName );1;0;3
+Forward.doesResolve( );3;4;8
+Forward.hasRelativeToPath( );1;1;3
+Forward.Forward( String forwardName , String actionOutputName , Object actionOutputValue );1;0;4
+Forward.isNestedReturn( );1;0;4
+Forward.initialize( ActionMapping mapping , FlowController flowController , ServletRequest request );2;1;6
+Forward.isRedirect( );1;0;3
+Forward.Forward( URL url );1;0;5
+Forward.isExplicitPath( );1;0;3
+Forward.Forward( String path , boolean doRedirect );1;0;6
+Forward.setExternalRedirect( boolean externalRedirect );2;0;4
+Forward.checkActionOutputs( PageFlowActionForward fc );16;21;74
+Forward.setAlternateModuleConfig( ModuleConfig mc );1;0;3
+Forward.addOutputForm( Object formBean );7;6;14
+Forward.forwardsToPageFlow( );1;0;3
+Forward.addQueryParam( String paramName , String value );3;2;15
+Forward.addActionOutput( String paramName , Object value );8;7;18

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpEntityMethodArgumentResolverTests.supports( );1;0;11
+HttpEntityMethodArgumentResolverTests.resolveValueWithEmptyBody( ResolvableType type );1;0;8
+HttpEntityMethodArgumentResolverTests.emptyBodyWithObservable( );1;0;8
+HttpEntityMethodArgumentResolverTests.emptyBodyWithCompletableFuture( );1;0;8
+HttpEntityMethodArgumentResolverTests.emptyBodyWithFlux( );1;0;5
+HttpEntityMethodArgumentResolverTests.httpEntityWithFluxBody( );1;0;12
+HttpEntityMethodArgumentResolverTests.httpEntityWithCompletableFutureBody( );1;0;7
+HttpEntityMethodArgumentResolverTests.testSupports( MethodParameter parameter );1;0;3
+HttpEntityMethodArgumentResolverTests.emptyBodyWithSingle( );1;0;8
+HttpEntityMethodArgumentResolverTests.emptyBodyWithMono( );1;0;5
+HttpEntityMethodArgumentResolverTests.doesNotSupport( );1;0;7
+HttpEntityMethodArgumentResolverTests.httpEntityWithSingleBody( );1;0;7
+HttpEntityMethodArgumentResolverTests.emptyBodyWithFlowable( );1;0;8
+HttpEntityMethodArgumentResolverTests.emptyBodyWithString( );1;0;5
+HttpEntityMethodArgumentResolverTests.httpEntityWithMaybeBody( );1;0;7
+HttpEntityMethodArgumentResolverTests.emptyBodyWithMaybe( );1;0;8
+HttpEntityMethodArgumentResolverTests.httpEntityWithMonoBody( );1;0;7
+HttpEntityMethodArgumentResolverTests.requestEntity( );1;0;9
+HttpEntityMethodArgumentResolverTests.httpEntityWithStringBody( );1;0;7
+HttpEntityMethodArgumentResolverTests.createResolver( );2;0;5
+HttpEntityMethodArgumentResolverTests.postExchange( String body );1;0;3
+HttpEntityMethodArgumentResolverTests.handle( String string , Mono < String > monoString , HttpEntity < String > httpEntity , HttpEntity < Mono < String > > monoBody , HttpEntity < Flux < String > > fluxBody , HttpEntity < Single < String > > singleBody , HttpEntity < Maybe < String > > maybeBody , HttpEntity < Observable < String > > observableBody , HttpEntity < Flowable < String > > flowableBody , HttpEntity < CompletableFuture < String > > completableFutureBody , RequestEntity < String > requestEntity , Mono < HttpEntity < String > > httpEntityMono );1;0;1
+HttpEntityMethodArgumentResolverTests.httpEntityType( Class < ? > bodyType , Class < ? > ... generics );2;0;6
+HttpEntityMethodArgumentResolverTests.resolveValue( ServerWebExchange exchange , ResolvableType type );1;0;8

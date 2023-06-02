@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DelegatingDataSource.getTargetDataSource( );1;0;3
+DelegatingDataSource.setLogWriter( PrintWriter out );1;0;3
+DelegatingDataSource.getLogWriter( );1;0;3
+DelegatingDataSource.setLoginTimeout( int seconds );1;0;3
+DelegatingDataSource.unwrap( Class < T > iface );2;0;6
+DelegatingDataSource.DelegatingDataSource( );1;0;2
+DelegatingDataSource.getConnection( );1;0;3
+DelegatingDataSource.isWrapperFor( Class < ? > iface );2;1;3
+DelegatingDataSource.obtainTargetDataSource( );1;1;5
+DelegatingDataSource.DelegatingDataSource( DataSource targetDataSource );1;0;3
+DelegatingDataSource.getLoginTimeout( );1;0;3
+DelegatingDataSource.getParentLogger( );1;0;3
+DelegatingDataSource.setTargetDataSource( @ Nullable DataSource targetDataSource );1;0;3
+DelegatingDataSource.getConnection( String username , String password );1;0;3
+DelegatingDataSource.afterPropertiesSet( );2;1;5

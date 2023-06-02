@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LuceneQueryBuilder.getStringValues( Name propertyName , String literal );25;10;102
+LuceneQueryBuilder.visit( NotQueryNode node , Object data );3;3;11
+LuceneQueryBuilder.createLuceneQuery( );1;0;3
+LuceneQueryBuilder.visit( PropertyFunctionQueryNode node , Object data );3;0;8
+LuceneQueryBuilder.visit( NodeTypeQueryNode node , Object data );10;2;53
+LuceneQueryBuilder.visit( LocationStepQueryNode node , Object data );14;14;64
+LuceneQueryBuilder.visit( QueryRootNode node , Object data );2;1;8
+LuceneQueryBuilder.visit( OrderQueryNode node , Object data );1;0;3
+LuceneQueryBuilder.visit( DerefQueryNode node , Object data );6;4;27
+LuceneQueryBuilder.visit( PathQueryNode node , Object data );9;10;37
+LuceneQueryBuilder.visit( ExactQueryNode node , Object data );2;0;10
+LuceneQueryBuilder.visit( OrQueryNode node , Object data );2;2;9
+LuceneQueryBuilder.visit( AndQueryNode node , Object data );3;3;12
+LuceneQueryBuilder.createSingleValueConstraint( Query q , String propName );1;0;8
+LuceneQueryBuilder.visit( TextsearchQueryNode node , Object data );25;34;76
+LuceneQueryBuilder.visit( RelationQueryNode node , Object data );71;53;272
+LuceneQueryBuilder.LuceneQueryBuilder( QueryRootNode root , SessionImpl session , ItemStateManager sharedItemMgr , HierarchyManager hmgr , NamespaceMappings nsMappings , Analyzer analyzer , PropertyTypeRegistry propReg , SynonymProvider synonymProvider , IndexFormatVersion indexFormatVersion );1;0;12
+LuceneQueryBuilder.createQuery( QueryRootNode root , SessionImpl session , ItemStateManager sharedItemMgr , NamespaceMappings nsMappings , Analyzer analyzer , PropertyTypeRegistry propReg , SynonymProvider synonymProvider , IndexFormatVersion indexFormatVersion );3;1;16

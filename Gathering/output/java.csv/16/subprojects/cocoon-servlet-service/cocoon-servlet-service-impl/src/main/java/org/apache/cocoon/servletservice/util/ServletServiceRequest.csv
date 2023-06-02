@@ -1,0 +1,113 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Session.setRequest( ServletServiceRequest request );1;0;3
+ServletServiceRequest.removeAttribute( String name );1;0;3
+ServletServiceRequest.getContentType( );1;0;3
+ServletServiceRequest.isRequestedSessionIdFromCookie( );1;0;3
+ServletServiceRequest.getRemoteAddr( );1;0;3
+ServletServiceRequest.getSession( boolean create );7;7;25
+ServletServiceRequest.getUserPrincipal( );1;0;3
+ServletServiceRequest.isUserInRole( String role );1;0;3
+Headers.namesOf( HttpServletRequest request );1;0;3
+ServletServiceRequest.setAttribute( String name , Object value );2;1;7
+ServletServiceRequest.getContentLength( );1;0;3
+Session.getCreationTime( );1;0;3
+ServletServiceRequest.getParameterValues( String name );1;0;3
+ServletServiceRequest.getAttributeNames( );1;0;3
+Session.Session( ServletServiceContext context );1;0;3
+Attributes.remove( String name );2;0;7
+Session.setMaxInactiveInterval( int interval );1;0;3
+Session.removeAttribute( String name );1;0;3
+ServletServiceRequest.getServerName( );1;0;3
+ServletServiceRequest.getLocales( );1;0;3
+ServletServiceRequest.getPathInfo( );1;0;3
+ServletServiceRequest.ServletServiceRequest( URI uri , HttpServletRequest parentRequest );1;1;10
+Parameters.Parameters( );4;4;13
+Parameters.getValues( String name );3;3;11
+ServletServiceRequest.getRemoteUser( );1;0;3
+Session.isNew( );1;0;3
+Session.getValueOfCaller( String name );1;0;3
+ServletServiceRequest.getReader( );2;1;10
+ServletServiceRequest.getRequestURL( );1;0;3
+ServletServiceRequest.isRequestedSessionIdValid( );1;0;3
+Parameters.getValueOfCaller( String name );1;0;3
+Session.getAttributeNames( );1;0;3
+Values.Values( );1;0;2
+Attributes.getValueOfCaller( String name );1;0;3
+Session.getSessionContext( );1;0;3
+Headers.nextElement( );1;0;3
+Session.getMaxInactiveInterval( );1;0;3
+ServletServiceRequest.getPathTranslated( );1;0;3
+Headers.getValues( String name );2;1;14
+ServletServiceRequest.getSession( );1;0;5
+ServletServiceRequest.setIntHeader( String name , int value );1;0;3
+ServletServiceRequest.getAttribute( String name );1;0;3
+ServletServiceRequest.getProtocol( );1;0;3
+ServletServiceRequest.getIntHeader( String name );2;2;7
+ServletServiceRequest.getRequestedSessionId( );1;0;3
+ServletServiceRequest.getParameterMap( );1;0;3
+Session.putValue( String name , Object value );1;0;3
+ServletServiceRequest.getCharacterEncoding( );1;0;3
+ServletServiceRequest.getRequestURI( );1;2;3
+ServletServiceRequest.getServerPort( );1;0;3
+ServletServiceRequest.setMethod( String method );1;0;3
+Session.getId( );1;0;3
+ServletServiceRequest.getRemoteHost( );1;0;3
+ServletServiceRequest.setInputStream( final InputStream inputStream );2;1;12
+Parameters.namesOf( HttpServletRequest request );1;0;3
+Attributes.namesOf( HttpServletRequest request );1;0;3
+ServletServiceRequest.getInputStream( );1;0;3
+ServletServiceRequest.getLocalName( );1;0;3
+ServletServiceRequest.getParameter( String name );1;0;3
+EnumerationFromIterator.nextElement( );1;0;3
+EnumerationFromIterator.hasMoreElements( );1;0;3
+ServletServiceRequest.getServletPath( );1;0;3
+Session.getRequest( );1;0;3
+ServletServiceRequest.getScheme( );1;0;3
+Session.setAttribute( String name , Object value );1;0;3
+ServletServiceRequest.isSecure( );1;0;3
+Session.setValue( String name , Object value );1;0;3
+Session.removeValue( String name );1;0;3
+Values.setValue( String name , Object value );2;0;10
+Attributes.getRequest( );1;0;3
+ServletServiceRequest.getDateHeader( String name );3;2;11
+Session.getAttribute( String name );2;0;6
+ServletServiceRequest.getHeaderNames( );1;0;3
+ServletServiceRequest.read( );1;0;3
+ServletServiceRequest.getRequestDispatcher( String path );1;0;3
+ServletServiceRequest.getMethod( );1;0;3
+Headers.hasMoreElements( );1;0;3
+ServletServiceRequest.isRequestedSessionIdFromURL( );1;0;3
+Attributes.getValue( String name );2;0;6
+ServletServiceRequest.getContextPath( );1;0;3
+ServletServiceRequest.setCharacterEncoding( String encoding );1;0;3
+ServletServiceRequest.setContentLength( int contentLength );1;0;3
+ServletServiceRequest.getHeaders( String name );1;0;3
+Session.getValueNames( );1;0;3
+ServletServiceRequest.getLocalAddr( );1;0;3
+ServletServiceRequest.getLocalPort( );1;0;3
+ServletServiceRequest.getCookies( );1;0;3
+ServletServiceRequest.setContext( ServletContext context );1;0;3
+Session.getServletContext( );1;0;3
+Session.namesOf( HttpServletRequest request );1;0;3
+ServletServiceRequest.getQueryString( );1;0;3
+ServletServiceRequest.getHeader( String name );1;0;3
+Attributes.setValue( String name , Object value );1;0;3
+Parameters.parseName( String s );8;12;36
+Values.getNames( );5;2;18
+ServletServiceRequest.isRequestedSessionIdFromUrl( );1;0;3
+ServletServiceRequest.getRemotePort( );1;0;3
+EnumerationFromIterator.EnumerationFromIterator( Iterator iter );1;0;3
+Session.invalidate( );1;0;3
+Values.getValue( String name );2;0;6
+ServletServiceRequest.setDateHeader( String name , long date );1;0;3
+Parameters.getRequest( );1;0;3
+Session.getLastAccessedTime( );1;0;3
+ServletServiceRequest.setHeader( String name , String value );1;0;3
+ServletServiceRequest.getParameterNames( );1;0;3
+Headers.getValueOfCaller( String name );1;0;3
+Headers.getRequest( );1;0;3
+ServletServiceRequest.getAuthType( );1;0;3
+ServletServiceRequest.getLocale( );1;0;3
+ServletServiceRequest.getRealPath( String path );1;0;3
+Session.getValue( String name );1;0;3
+Parameters.getValues( );4;2;16

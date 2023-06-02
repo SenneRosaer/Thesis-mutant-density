@@ -1,0 +1,58 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DatabaseJournal.buildSQLStatements( );1;0;28
+DatabaseJournal.getJanitorSleep( );1;0;3
+DatabaseJournal.getUrl( );1;0;3
+DatabaseJournal.getPassword( );1;0;3
+DatabaseRevision.close( );1;0;2
+DatabaseRevision.init( long revision );4;1;29
+DatabaseJournal.prepareStatements( );1;0;11
+DatabaseJournal.close( ResultSet rs );3;1;10
+DatabaseJournal.rollback( Connection connection );3;1;10
+***not in a method***;0;3;0
+DatabaseJournal.close( Statement stmt );3;1;10
+DatabaseJournal.setPassword( String password );1;0;3
+DatabaseJournal.setUrl( String url );1;0;3
+DatabaseJournal.getInstanceRevision( );1;0;3
+DatabaseJournal.checkLocalRevisionSchema( );8;11;32
+DatabaseJournal.init( String id , NamespaceResolver resolver );4;2;22
+DatabaseJournal.setJanitorFirstRunHourOfDay( int hourOfDay );2;1;10
+DatabaseJournal.setReconnectDelayMs( long reconnectDelayMs );1;0;3
+DatabaseJournal.setSchema( String databaseType );1;0;3
+DatabaseJournal.close( Connection connection );3;1;10
+DatabaseJournal.getDatabaseType( );1;0;3
+DatabaseJournal.getDatabaseTypeFromURL( String url );3;6;10
+DatabaseJournal.setJanitorEnabled( boolean enabled );1;0;3
+DatabaseJournal.getReconnectDelayMs( );1;0;3
+DatabaseJournal.setDatabaseType( String databaseType );1;0;3
+DatabaseJournal.close( boolean failure );2;1;25
+DatabaseJournal.setSchemaObjectPrefix( String schemaObjectPrefix );1;0;3
+DatabaseJournal.setDriver( String driver );1;0;3
+DatabaseJournal.getSchema( );1;0;3
+DatabaseJournal.getDriver( );1;0;3
+DatabaseJournal.doLock( );6;4;37
+DatabaseJournal.append( AppendRecord record , InputStream in , int length );2;0;16
+DatabaseJournal.checkSchema( );7;8;30
+DatabaseJournal.setAutoCommit( Connection connection , boolean autoCommit );4;2;12
+DatabaseJournal.initInstanceRevisionAndJanitor( );3;1;20
+DatabaseJournal.getRecords( );2;0;15
+DatabaseJournal.checkConnection( );4;3;13
+DatabaseJournal.getJanitorEnabled( );1;0;3
+DatabaseJournal.getSchemaObjectPrefix( );1;0;3
+DatabaseJournal.tableExists( DatabaseMetaData metaData , String tableName );3;0;13
+DatabaseJournal.getConnection( );2;0;8
+DatabaseJournal.doUnlock( boolean successful );3;2;10
+DatabaseJournal.setJanitorSleep( int sleep );1;0;3
+DatabaseJournal.createSchemaSQL( String sql );1;0;3
+DatabaseRevision.get( );2;1;6
+DatabaseJournal.getJanitorFirstRunHourOfDay( );1;0;3
+RevisionTableJanitor.cleanUpOldRevisions( );4;0;25
+DatabaseJournal.setUser( String user );1;0;3
+DatabaseJournal.close( InputStream in );3;1;10
+DatabaseJournal.appending( AppendRecord record );1;0;3
+DatabaseJournal.getUser( );1;0;3
+DatabaseRevision.set( long localRevision );3;1;17
+DatabaseJournal.commit( Connection connection );3;1;10
+RevisionTableJanitor.run( );4;3;16
+DatabaseJournal.init( );6;3;24
+DatabaseJournal.getRecords( long startRevision );2;0;15
+DatabaseJournal.close( );1;0;3

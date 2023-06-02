@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Assistant.getBindingForConfigurationElement( Element configElm );7;5;25
+JXPathBindingManager.createBinding( Element bindingElement );4;0;14
+JXPathBindingManager.setCacheManager( CacheManager cacheManager );1;0;3
+JXPathBindingManager.setDatatypeManager( DatatypeManager datatypeManager );1;0;3
+JXPathBindingManager.createBinding( String bindingURI );3;1;15
+JXPathBindingManager.createBinding( Source source );6;4;20
+Assistant.getContext( );1;0;3
+Assistant.popContext( );2;1;7
+JXPathBindingManager.setSourceResolver( SourceResolver sourceResolver );1;0;3
+Assistant.getDatatypeManager( );1;0;3
+Assistant.makeChildBindings( Element parentElement , JXPathBindingBase [ ] existingBindings );9;9;32
+JXPathBindingManager.getBuilderAssistant( );1;0;3
+Assistant.getBindingBuilder( String bindingType );2;1;7
+JXPathBindingManager.setBindingBuilders( Map bindingBuilders );1;0;3
+JXPathBindingManager.setLibraryManager( LibraryManagerImpl libraryManager );1;0;3
+Assistant.pushContext( );1;0;5
+JXPathBindingManager.setParser( SAXParser parser );1;0;3
+Assistant.getBindingByIdOrPath( String id , String path , JXPathBindingBase [ ] bindings );4;3;12
+Assistant.getLibraryManager( );1;0;3
+Assistant.mergeBindings( JXPathBindingBase [ ] existing , JXPathBindingBase [ ] extra );11;14;30
+Assistant.makeChildBindings( Element parentElement );1;0;3

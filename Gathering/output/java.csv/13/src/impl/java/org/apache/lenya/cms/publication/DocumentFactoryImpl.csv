@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocumentFactoryImpl.getPublications( );1;0;3
+DocumentFactoryImpl.getPubManager( );3;1;10
+DocumentFactoryImpl.get( DocumentLocator locator );2;0;10
+DocumentFactoryImpl.buildDocument( DocumentFactory map , DocumentIdentifier identifier , int revision , DocumentBuilder builder );1;0;5
+DocumentFactoryImpl.createDocument( DocumentFactory map , DocumentIdentifier identifier , int revision , DocumentBuilder builder );1;0;3
+DocumentFactoryImpl.buildItem( Session session , String key );4;0;24
+DocumentFactoryImpl.get( Publication publication , String area , String uuid , String language , int revision );4;0;16
+DocumentFactoryImpl.DocumentFactoryImpl( Session session , ServiceManager manager , Logger logger );1;0;5
+DocumentFactoryImpl.getKey( String webappUrl );3;2;15
+DocumentFactoryImpl.isValidDocumentId( String id );5;5;15
+DocumentFactoryImpl.getLanguageVersion( Document document , String language );1;0;3
+DocumentFactoryImpl.getItemType( );1;0;3
+DocumentFactoryImpl.isDocument( String webappUrl );4;2;17
+DocumentFactoryImpl.getKey( Publication publication , String area , String uuid , String language , int revision );1;4;7
+DocumentFactoryImpl.get( Publication publication , String area , String uuid , String language );1;1;3
+DocumentFactoryImpl.getPublication( String id );1;0;3
+DocumentFactoryImpl.getSession( );1;0;3
+DocumentFactoryImpl.get( DocumentIdentifier identifier );2;0;8
+DocumentFactoryImpl.existsPublication( String id );1;0;3
+DocumentFactoryImpl.get( Publication publication , String area , String documentId );1;0;3
+DocumentFactoryImpl.getAreaVersion( Document document , String area );1;0;3
+DocumentFactoryImpl.getLocator( String webappUrl );2;0;12
+DocumentFactoryImpl.getFromURL( String webappUrl );2;0;8

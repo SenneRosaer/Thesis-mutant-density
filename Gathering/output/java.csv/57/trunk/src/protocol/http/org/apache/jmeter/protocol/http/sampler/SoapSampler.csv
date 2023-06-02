@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SoapSampler.writeRequest( OutputStream out );1;0;10
+SoapSampler.setXmlData( String data );1;0;3
+SoapSampler.setSOAPAction( String action );1;0;3
+SoapSampler.getUrl( );1;0;3
+SoapSampler.getXmlFile( );1;0;3
+SoapSampler.getContentType( );1;1;3
+SoapSampler.getContentLength( );3;3;10
+SoapSampler.getSOAPAction( );1;0;3
+SoapSampler.setURLData( String url );1;0;3
+SoapSampler.sample( URL url , String method , boolean areFollowingRedirect , int frameDepth );12;7;86
+SoapSampler.isRepeatable( );1;0;3
+SoapSampler.getXmlData( );1;0;3
+SoapSampler.setPostHeaders( PostMethod post );5;3;19
+SoapSampler.sendPostData( PostMethod post , final int length );6;3;59
+SoapSampler.getSendSOAPAction( );1;0;3
+SoapSampler.getSOAPActionQuoted( );1;1;8
+SoapSampler.getURLData( );1;0;3
+SoapSampler.setSendSOAPAction( boolean action );1;0;3
+SoapSampler.setXmlFile( String filename );1;0;3

@@ -1,0 +1,74 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BasicDataSource.removeConnectionProperty( String name );1;0;4
+BasicDataSource.getLogWriter( );1;0;3
+BasicDataSource.setAccessToUnderlyingConnectionAllowed( boolean allow );1;0;4
+BasicDataSource.setDefaultAutoCommit( boolean defaultAutoCommit );1;0;4
+BasicDataSource.getMaxWait( );1;0;3
+BasicDataSource.setMinEvictableIdleTimeMillis( long minEvictableIdleTimeMillis );2;1;6
+BasicDataSource.validateConnectionFactory( PoolableConnectionFactory connectionFactory );1;0;12
+BasicDataSource.getConnection( );1;0;3
+BasicDataSource.setDefaultReadOnly( boolean defaultReadOnly );2;0;4
+BasicDataSource.getNumTestsPerEvictionRun( );1;0;3
+BasicDataSource.isClosed( );1;0;3
+BasicDataSource.getTestWhileIdle( );1;0;3
+BasicDataSource.setMaxWait( long maxWait );2;1;6
+BasicDataSource.getMaxActive( );1;0;3
+BasicDataSource.getConnection( String username , String password );1;0;3
+BasicDataSource.getTestOnBorrow( );1;0;3
+BasicDataSource.setTestOnReturn( boolean testOnReturn );2;1;6
+BasicDataSource.getLoginTimeout( );1;0;3
+BasicDataSource.getLogAbandoned( );2;1;6
+BasicDataSource.log( String message );2;1;5
+BasicDataSource.getRemoveAbandonedTimeout( );2;1;6
+BasicDataSource.getTestOnReturn( );1;0;3
+BasicDataSource.setLogAbandoned( boolean logAbandoned );2;1;7
+BasicDataSource.setUsername( String username );1;0;4
+BasicDataSource.setLoginTimeout( int loginTimeout );1;0;3
+BasicDataSource.getNumIdle( );2;1;7
+BasicDataSource.setRemoveAbandonedTimeout( int removeAbandonedTimeout );2;1;7
+BasicDataSource.setNumTestsPerEvictionRun( int numTestsPerEvictionRun );2;1;6
+BasicDataSource.createDataSourceInstance( );1;0;5
+BasicDataSource.getUsername( );1;0;3
+BasicDataSource.isAccessToUnderlyingConnectionAllowed( );1;0;3
+BasicDataSource.getRemoveAbandoned( );2;1;6
+BasicDataSource.setValidationQuery( String validationQuery );3;3;8
+BasicDataSource.setUrl( String url );1;0;4
+BasicDataSource.getTimeBetweenEvictionRunsMillis( );1;0;3
+BasicDataSource.setTimeBetweenEvictionRunsMillis( long timeBetweenEvictionRunsMillis );2;1;6
+BasicDataSource.getMaxOpenPreparedStatements( );1;0;3
+BasicDataSource.setMinIdle( int minIdle );2;1;6
+BasicDataSource.getMaxIdle( );1;0;3
+BasicDataSource.setConnectionProperties( String connectionProperties );5;6;20
+BasicDataSource.restart( );2;0;7
+BasicDataSource.createDataSource( );9;5;49
+BasicDataSource.createConnectionFactory( );8;5;41
+BasicDataSource.setMaxIdle( int maxIdle );2;1;6
+BasicDataSource.close( );5;1;17
+BasicDataSource.getValidationQuery( );1;0;3
+BasicDataSource.setRemoveAbandoned( boolean removeAbandoned );2;1;7
+BasicDataSource.getUrl( );1;0;3
+BasicDataSource.setDriverClassName( String driverClassName );3;3;9
+BasicDataSource.setDefaultCatalog( String defaultCatalog );3;3;9
+BasicDataSource.getDefaultReadOnly( );2;1;6
+BasicDataSource.getInitialSize( );1;0;3
+BasicDataSource.setLogWriter( PrintWriter logWriter );1;0;4
+BasicDataSource.getPassword( );1;0;3
+BasicDataSource.setInitialSize( int initialSize );1;0;4
+BasicDataSource.setDefaultTransactionIsolation( int defaultTransactionIsolation );1;0;4
+BasicDataSource.isRestartNeeded( );1;0;3
+BasicDataSource.addConnectionProperty( String name , String value );1;0;4
+BasicDataSource.setPoolPreparedStatements( boolean poolingStatements );1;0;4
+BasicDataSource.getMinIdle( );1;0;3
+BasicDataSource.setTestOnBorrow( boolean testOnBorrow );2;1;6
+BasicDataSource.getDefaultTransactionIsolation( );1;0;3
+BasicDataSource.getMinEvictableIdleTimeMillis( );1;0;3
+BasicDataSource.isPoolPreparedStatements( );1;0;3
+BasicDataSource.setPassword( String password );1;0;4
+BasicDataSource.setMaxOpenPreparedStatements( int maxOpenStatements );1;0;4
+BasicDataSource.getDriverClassName( );1;0;3
+BasicDataSource.getDefaultCatalog( );1;0;3
+BasicDataSource.createConnectionPool( );3;2;18
+BasicDataSource.getNumActive( );2;1;7
+BasicDataSource.getDefaultAutoCommit( );1;0;3
+BasicDataSource.setTestWhileIdle( boolean testWhileIdle );2;1;6
+BasicDataSource.setMaxActive( int maxActive );2;1;6

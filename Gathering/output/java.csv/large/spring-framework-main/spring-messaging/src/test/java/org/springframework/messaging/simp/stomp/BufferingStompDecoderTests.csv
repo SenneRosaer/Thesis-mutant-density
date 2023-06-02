@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BufferingStompDecoderTests.toByteBuffer( String chunk );1;0;3
+BufferingStompDecoderTests.invalidEscapeSequence( );1;0;6
+BufferingStompDecoderTests.incompleteCommand( );1;0;6
+BufferingStompDecoderTests.oneFullAndOneSplitWithContentLengthExceedingBufferSize( );1;0;12
+BufferingStompDecoderTests.oneMessageInTwoChunks( );1;0;12
+BufferingStompDecoderTests.incompleteHeaderWithPartialEscapeSequence( );1;0;6
+BufferingStompDecoderTests.bufferSizeLimit( );1;0;6
+BufferingStompDecoderTests.basic( );1;0;9
+BufferingStompDecoderTests.oneFullAndOneSplitMessageContentLength( );1;0;21
+BufferingStompDecoderTests.oneFullAndOneSplitMessageNoContentLength( );1;0;20
+BufferingStompDecoderTests.invalidEscapeSequenceWithSingleSlashAtEndOfHeaderValue( );1;0;6
+BufferingStompDecoderTests.twoMessagesInOneChunk( );1;0;10

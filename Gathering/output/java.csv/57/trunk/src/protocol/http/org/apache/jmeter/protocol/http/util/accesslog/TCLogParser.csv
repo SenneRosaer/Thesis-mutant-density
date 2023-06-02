@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TCLogParser.checkParamFormat( String text );3;5;6
+TCLogParser.close( );2;0;8
+TCLogParser.convertStringtoNVPair( String stringparams );2;2;8
+TCLogParser.stripFile( String url , TestElement el );3;2;10
+TCLogParser.convertStringToJMRequest( String text , TestElement el );1;0;3
+TCLogParser.parse( TestElement el , int parseCount );4;3;14
+TCLogParser.tokenize( String line , String delim );1;0;3
+TCLogParser.createUrl( String line , TestElement el );2;1;8
+TCLogParser.setDecodeParameterValues( boolean decodeparams );1;0;3
+TCLogParser.setFilter( Filter filter );1;0;3
+TCLogParser.parseParameters( String parameters );2;0;8
+TCLogParser.checkMethod( String text );3;4;11
+TCLogParser.isGZIP( File file );2;5;9
+TCLogParser.TCLogParser( String source );1;0;3
+TCLogParser.parseOneParameter( String parameter );5;1;22
+TCLogParser.parse( BufferedReader breader , TestElement el , int parseCount );7;8;24
+TCLogParser.decodeParameterValue( );1;0;3
+TCLogParser.parseLine( String line , TestElement el );4;5;24
+TCLogParser.setSourceFile( String source );1;0;3
+TCLogParser.getReader( File file );2;1;7
+TCLogParser.TCLogParser( );1;0;3
+TCLogParser.setUseParsedFile( boolean file );1;0;3
+TCLogParser.cleanURL( String entry );9;3;28
+TCLogParser.parseAndConfigure( int count , TestElement el );1;0;3
+TCLogParser.checkURL( String url );2;2;6

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FieldsWriter.writeField( FieldInfo fi , Fieldable field );8;4;49
+FieldsWriter.compress( byte [ ] input , int offset , int length );2;1;20
+FieldsWriter.close( );7;3;33
+FieldsWriter.flushDocument( int numStoredFields , RAMOutputStream buffer );1;0;5
+FieldsWriter.skipDocument( );1;0;4
+FieldsWriter.addDocument( Document doc );5;1;17
+FieldsWriter.flush( );1;0;4
+FieldsWriter.FieldsWriter( Directory d , String segment , FieldInfos fn );8;4;44
+FieldsWriter.FieldsWriter( IndexOutput fdx , IndexOutput fdt , FieldInfos fn );1;0;6
+FieldsWriter.setFieldsStream( IndexOutput stream );1;0;3
+FieldsWriter.addRawDocuments( IndexInput stream , int [ ] lengths , int numDocs );2;5;10

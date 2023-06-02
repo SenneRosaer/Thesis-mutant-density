@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocFieldConsumers.getPerDoc( );3;6;11
+DocFieldConsumers.setFieldInfos( FieldInfos fieldInfos );1;0;5
+DocFieldConsumers.closeDocStore( SegmentWriteState state );1;0;7
+PerDoc.sizeInBytes( );1;1;3
+DocFieldConsumers.flush( Map threadsAndFields , SegmentWriteState state );3;0;22
+DocFieldConsumers.addThread( DocFieldProcessorPerThread docFieldProcessorPerThread );1;0;3
+PerDoc.abort( );1;0;11
+DocFieldConsumers.abort( );1;0;7
+DocFieldConsumers.freeRAM( );1;1;5
+DocFieldConsumers.DocFieldConsumers( DocFieldConsumer one , DocFieldConsumer two );1;0;4
+DocFieldConsumers.freePerDoc( PerDoc perDoc );1;2;4
+PerDoc.finish( );1;0;11

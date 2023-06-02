@@ -1,0 +1,74 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ListOrderedMapEntry.getValue( );1;0;3
+EntrySetView.remove( Object obj );3;1;11
+ValuesView.remove( int index );1;0;3
+ListOrderedMapEntry.setValue( Object value );1;0;3
+ListOrderedMapIterator.reset( );1;0;5
+EntrySetView.getEntrySet( );2;1;6
+ListOrderedMapIterator.getKey( );2;1;6
+ListOrderedMapIterator.previous( );1;0;5
+ValuesView.iterator( );1;0;7
+EntrySetView.containsAll( Collection coll );1;0;3
+ListOrderedMap.keySet( );1;0;3
+ListOrderedMap.asList( );1;0;3
+EntrySetView.contains( Object obj );1;0;3
+ListOrderedMapIterator.getValue( );2;1;6
+ListOrderedMap.decorate( Map map );1;0;3
+ListOrderedMap.put( Object key , Object value );2;0;9
+KeySetView.clear( );1;0;3
+ValuesView.ValuesView( ListOrderedMap parent );1;0;4
+ValuesView.clear( );1;0;3
+ListOrderedMap.indexOf( Object key );1;0;3
+KeySetView.KeySetView( ListOrderedMap parent );1;0;4
+EntrySetView.iterator( );1;0;3
+ListOrderedMap.putAll( int index , Map map );2;1;7
+ListOrderedIterator.ListOrderedIterator( ListOrderedMap parent , List insertOrder );1;0;4
+EntrySetView.EntrySetView( ListOrderedMap parent , List insertOrder );1;0;5
+ListOrderedIterator.remove( );1;0;4
+ListOrderedMap.getValue( int index );1;0;3
+ValuesView.get( int index );1;0;3
+ValuesView.next( );1;0;3
+ListOrderedMap.get( int index );1;0;3
+ListOrderedMap.keyList( );1;0;3
+KeySetView.iterator( );1;0;7
+EntrySetView.hashCode( );1;0;3
+KeySetView.next( );1;0;3
+ListOrderedIterator.next( );1;0;4
+EntrySetView.equals( Object obj );2;1;6
+KeySetView.size( );1;0;3
+ValuesView.set( int index , Object value );1;0;3
+ListOrderedMap.ListOrderedMap( Map map );1;0;4
+ListOrderedMap.values( );1;0;3
+EntrySetView.isEmpty( );1;0;3
+ListOrderedMapIterator.remove( );2;1;8
+ListOrderedMap.orderedMapIterator( );1;0;3
+ListOrderedMapIterator.ListOrderedMapIterator( ListOrderedMap parent );1;0;5
+ListOrderedMapEntry.ListOrderedMapEntry( ListOrderedMap parent , Object key );1;0;4
+ListOrderedMap.nextKey( Object key );3;5;7
+ListOrderedMap.valueList( );1;0;3
+ListOrderedMapIterator.setValue( Object value );2;1;6
+ListOrderedMapIterator.toString( );2;1;7
+ListOrderedMapIterator.hasNext( );1;0;3
+KeySetView.contains( Object value );1;0;3
+ValuesView.contains( Object value );1;0;3
+ListOrderedMap.previousKey( Object key );2;2;7
+ListOrderedMap.clear( );1;0;4
+EntrySetView.size( );1;0;3
+ListOrderedMap.entrySet( );1;0;3
+ListOrderedMap.put( int index , Object key , Object value );3;2;18
+ListOrderedMap.lastKey( );2;2;6
+ListOrderedMap.remove( int index );1;0;3
+ListOrderedMap.writeObject( ObjectOutputStream out );1;0;4
+ListOrderedMapIterator.next( );1;0;5
+EntrySetView.clear( );1;0;3
+ListOrderedMap.setValue( int index , Object value );1;0;4
+ListOrderedMap.putAll( Map map );2;0;6
+ListOrderedMap.toString( );6;2;24
+ListOrderedMap.mapIterator( );1;0;3
+EntrySetView.toString( );1;0;3
+ListOrderedMap.ListOrderedMap( );1;0;3
+ListOrderedMap.readObject( ObjectInputStream in );1;0;4
+ListOrderedMap.firstKey( );2;1;6
+ListOrderedMap.remove( Object key );1;0;5
+ValuesView.size( );1;0;3
+ListOrderedMapIterator.hasPrevious( );1;0;3

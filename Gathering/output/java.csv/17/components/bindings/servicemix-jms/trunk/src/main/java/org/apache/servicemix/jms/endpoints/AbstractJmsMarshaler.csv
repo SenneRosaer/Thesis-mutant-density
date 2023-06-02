@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractJmsMarshaler.getPropertyBlackList( );1;0;3
+AbstractJmsMarshaler.setCopyProperties( boolean copyProperties );1;0;3
+AbstractJmsMarshaler.shouldIncludeHeader( String name , Object value );10;10;6
+AbstractJmsMarshaler.isCopyProperties( );1;0;3
+AbstractJmsMarshaler.copyPropertiesFromNM( NormalizedMessage outMessage , Message message );4;1;11
+AbstractJmsMarshaler.isNeedJavaIdentifiers( );1;0;3
+AbstractJmsMarshaler.isJavaIdentifier( String s );5;5;15
+AbstractJmsMarshaler.isBlackListed( String name );2;2;3
+AbstractJmsMarshaler.setNeedJavaIdentifiers( boolean needJavaIdentifiers );1;0;3
+AbstractJmsMarshaler.setPropertyBlackList( List < String > propertyBlackList );1;0;3
+AbstractJmsMarshaler.copyPropertiesFromJMS( Message message , NormalizedMessage inMessage );3;1;10

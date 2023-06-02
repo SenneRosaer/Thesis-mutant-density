@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileJournal.getRecords( long startRevision );3;3;13
+FileJournal.doUnlock( boolean successful );1;0;3
+FileJournal.rotateLogs( );2;2;6
+FileJournal.getRecords( );4;3;21
+FileJournal.init( String id , NamespaceResolver resolver );8;9;33
+FileJournal.setMaximumSize( int maximumSize );1;0;3
+FileJournal.getBasename( );1;0;3
+FileJournal.append( AppendRecord record , InputStream in , int length );4;0;19
+FileJournal.doLock( );1;0;3
+FileJournal.getGlobalRevision( );1;0;3
+FileJournal.getMaximumSize( );1;0;3
+FileJournal.getInstanceRevision( );1;0;3
+FileJournal.close( );1;0;2
+FileJournal.setDirectory( String directory );1;0;3
+FileJournal.setBasename( String basename );1;0;3
+FileJournal.getDirectory( );1;0;3

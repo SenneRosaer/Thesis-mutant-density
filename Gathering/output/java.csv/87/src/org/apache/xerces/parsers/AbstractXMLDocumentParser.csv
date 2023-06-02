@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractXMLDocumentParser.startGroup( Augmentations augs );1;0;2
+AbstractXMLDocumentParser.endElement( QName element , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.comment( XMLString text , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.setDTDContentModelSource( XMLDTDContentModelSource source );1;0;3
+AbstractXMLDocumentParser.getDocumentSource( );1;0;3
+AbstractXMLDocumentParser.xmlDecl( String version , String encoding , String standalone , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.endCDATA( Augmentations augs );1;0;2
+AbstractXMLDocumentParser.processingInstruction( String target , XMLString data , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.characters( XMLString text , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.ignoredCharacters( XMLString text , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.AbstractXMLDocumentParser( XMLParserConfiguration config );1;0;6
+AbstractXMLDocumentParser.startContentModel( String elementName , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.attributeDecl( String elementName , String attributeName , String type , String [ ] enumeration , String defaultType , XMLString defaultValue , XMLString nonNormalizedDefaultValue , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.internalEntityDecl( String name , XMLString text , XMLString nonNormalizedText , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.reset( );1;0;4
+AbstractXMLDocumentParser.setDocumentSource( XMLDocumentSource source );1;0;3
+AbstractXMLDocumentParser.getDTDSource( );1;0;3
+AbstractXMLDocumentParser.occurrence( short occurrence , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.startAttlist( String elementName , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.endParameterEntity( String name , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.endDocument( Augmentations augs );1;0;2
+AbstractXMLDocumentParser.endAttlist( Augmentations augs );1;0;2
+AbstractXMLDocumentParser.startParameterEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.startConditional( short type , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.startDTD( XMLLocator locator , Augmentations augs );1;0;3
+AbstractXMLDocumentParser.endGeneralEntity( String name , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.ignorableWhitespace( XMLString text , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.endContentModel( Augmentations augs );1;0;2
+AbstractXMLDocumentParser.textDecl( String version , String encoding , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.endGroup( Augmentations augs );1;0;2
+AbstractXMLDocumentParser.setDTDSource( XMLDTDSource source );1;0;3
+AbstractXMLDocumentParser.startCDATA( Augmentations augs );1;0;2
+AbstractXMLDocumentParser.getDTDContentModelSource( );1;0;3
+AbstractXMLDocumentParser.separator( short separator , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.endDTD( Augmentations augs );1;0;3
+AbstractXMLDocumentParser.elementDecl( String name , String contentModel , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.endConditional( Augmentations augs );1;0;2
+AbstractXMLDocumentParser.startGeneralEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.empty( Augmentations augs );1;0;2
+AbstractXMLDocumentParser.notationDecl( String name , XMLResourceIdentifier identifier , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.startExternalSubset( XMLResourceIdentifier identifier , Augmentations augmentations );1;0;2
+AbstractXMLDocumentParser.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );1;0;4
+AbstractXMLDocumentParser.endExternalSubset( Augmentations augmentations );1;0;2
+AbstractXMLDocumentParser.startElement( QName element , XMLAttributes attributes , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.any( Augmentations augs );1;0;2
+AbstractXMLDocumentParser.element( String elementName , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.pcdata( Augmentations augs );1;0;2
+AbstractXMLDocumentParser.unparsedEntityDecl( String name , XMLResourceIdentifier identifier , String notation , Augmentations augs );1;0;2
+AbstractXMLDocumentParser.externalEntityDecl( String name , XMLResourceIdentifier identifier , Augmentations augs );1;0;2

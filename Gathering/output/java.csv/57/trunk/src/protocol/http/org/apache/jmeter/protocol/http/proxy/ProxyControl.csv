@@ -1,0 +1,67 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProxyControl.clearIncludedPatterns( );1;0;3
+ProxyControl.getAssertions( );1;0;3
+ProxyControl.addConfigElement( ConfigElement config );1;0;2
+ProxyControl.addDivider( JMeterTreeModel model , JMeterTreeNode node );1;0;6
+ProxyControl.notifyTestListenersOfEnd( );4;0;14
+ProxyControl.findTargetControllerNode( );5;4;20
+ProxyControl.filterContentType( SampleResult result );19;19;49
+ProxyControl.addAssertion( JMeterTreeModel model , JMeterTreeNode node );1;0;7
+ProxyControl.startProxy( );1;0;5
+ProxyControl.getHttpsSpoofMatch( );1;0;3
+ProxyControl.getCaptureHttpHeaders( );1;0;3
+ProxyControl.setExcludeList( Collection list );1;0;3
+ProxyControl.notifySampleListeners( SampleEvent event );4;0;14
+ProxyControl.setUseKeepAlive( boolean b );1;0;4
+ProxyControl.filterUrl( HTTPSamplerBase sampler );7;6;20
+ProxyControl.getExcludePatterns( );1;0;3
+ProxyControl.setSamplerDownloadImages( boolean b );1;0;4
+ProxyControl.notifyTestListenersOfStart( );4;0;14
+ProxyControl.getSamplerRedirectAutomatically( );1;0;3
+ProxyControl.setSamplerFollowRedirects( boolean b );1;0;4
+ProxyControl.setContentTypeInclude( String contentTypeInclude );1;0;3
+ProxyControl.removeValuesFromSampler( HTTPSamplerBase sampler , Collection configurations );10;6;21
+ProxyControl.setTarget( JMeterTreeNode target );1;0;3
+ProxyControl.setIncludeList( Collection list );1;0;3
+ProxyControl.getPort( );1;0;3
+ProxyControl.setCaptureHttpHeaders( boolean capture );1;0;3
+ProxyControl.getSamplerFollowRedirects( );1;0;3
+ProxyControl.findFirstNodeOfType( Class type );3;0;12
+ProxyControl.getPortString( );1;0;3
+ProxyControl.getGroupingMode( );1;0;3
+ProxyControl.getIncludePatterns( );1;0;3
+ProxyControl.getDefaultPort( );1;0;3
+ProxyControl.findApplicableElements( JMeterTreeNode myTarget , Class myClass , boolean ascending );13;1;48
+ProxyControl.addExcludedPattern( String pattern );1;0;3
+ProxyControl.setHttpsSpoofMatch( String s );1;0;3
+ProxyControl.setHttpsSpoof( boolean b );1;0;3
+ProxyControl.setPort( int port );1;0;3
+ProxyControl.getTarget( );1;0;3
+ProxyControl.ProxyControl( );1;0;6
+ProxyControl.getRegexMatch( );1;0;3
+ProxyControl.clearExcludedPatterns( );1;0;3
+ProxyControl.getSamplerDownloadImages( );1;0;3
+ProxyControl.setAssertions( boolean b );1;0;4
+ProxyControl.setSamplerTypeName( int samplerTypeName );1;0;3
+ProxyControl.setSamplerRedirectAutomatically( boolean b );1;0;4
+ProxyControl.setPort( String port );1;0;3
+ProxyControl.setGroupingMode( int grouping );1;0;4
+ProxyControl.setContentTypeExclude( String contentTypeExclude );1;0;3
+ProxyControl.stopProxy( );3;1;11
+ProxyControl.matchesPatterns( String url , CollectionProperty patterns );4;1;16
+ProxyControl.getContentTypeExclude( );1;0;3
+ProxyControl.getHttpsSpoof( );1;0;3
+ProxyControl.addTimers( JMeterTreeModel model , JMeterTreeNode node , long deltaT );6;0;26
+ProxyControl.getUseKeepalive( );1;0;3
+ProxyControl.addSimpleController( JMeterTreeModel model , JMeterTreeNode node , String name );1;0;6
+ProxyControl.replaceValues( TestElement sampler , TestElement [ ] configs , Collection variables );7;3;23
+ProxyControl.generateMatchUrl( HTTPSamplerBase sampler );2;1;11
+ProxyControl.placeSampler( HTTPSamplerBase sampler , TestElement [ ] subConfigs , JMeterTreeNode myTarget );17;17;53
+ProxyControl.deliverSampler( HTTPSamplerBase sampler , TestElement [ ] subConfigs , SampleResult result );4;1;21
+ProxyControl.addIncludedPattern( String pattern );1;0;3
+ProxyControl.getGuiClass( );1;0;3
+ProxyControl.getSamplerTypeName( );1;0;3
+ProxyControl.canRemove( );1;1;3
+ProxyControl.getClassLabel( );1;0;3
+ProxyControl.setRegexMatch( boolean b );1;0;4
+ProxyControl.getContentTypeInclude( );1;0;3

@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SecureAction.openURLConnection( URL url );4;1;24
+SecureAction.renameFile( File oldFile , File newFile );3;1;20
+Actions.set( int action , Object arg1 , Object arg2 , Object arg3 , Object arg4 , Object arg5 );1;0;8
+Actions.unset( );1;1;8
+SecureAction.forName( String name );4;1;23
+***not in a method***;0;1;0
+Actions.run( );33;26;125
+SecureAction.createContentClassLoader( ContentLoaderImpl impl , ProtectionDomain protectionDomain );3;1;19
+SecureAction.getSystemProperty( String name , String def );3;1;19
+Actions.set( int action , Object arg1 );1;0;4
+SecureAction.startActivator( BundleActivator activator , BundleContext context );3;1;19
+SecureAction.mkdirs( File file );3;1;20
+SecureAction.fileExists( File file );3;1;20
+SecureAction.getAbsolutePath( File file );3;1;19
+SecureAction.createURL( URL context , String spec , URLStreamHandler handler );4;1;24
+Actions.set( int action , Object arg1 , Object arg2 , Object arg3 );1;0;6
+SecureAction.openJAR( File file );4;1;23
+SecureAction.addURLToURLClassLoader( URL extension , ClassLoader loader );3;1;23
+SecureAction.getPolicy( );3;1;19
+Actions.set( int action , Object arg1 , Object arg2 , Object arg3 , Object arg4 );1;0;7
+SecureAction.listDirectory( File file );3;1;19
+SecureAction.stopActivator( BundleActivator activator , BundleContext context );3;1;19
+SecureAction.getURLConnectionInputStream( URLConnection conn );4;1;23
+SecureAction.isFileDirectory( File file );3;1;20
+Actions.set( int action , Object arg1 , Object arg2 );1;0;5
+SecureAction.createTempFile( String prefix , String suffix , File dir );4;1;23
+SecureAction.getFileOutputStream( File file );4;1;23
+SecureAction.initialValue( );1;0;3
+SecureAction.exit( int code );3;1;18
+SecureAction.getFileInputStream( File file );4;1;23
+SecureAction.getJarURLConnectionJAR( JarURLConnection connection );4;1;24
+SecureAction.deleteFile( File target );3;1;20
+SecureAction.SecureAction( );1;0;3
+SecureAction.createURL( String protocol , String host , int port , String path , URLStreamHandler handler );4;1;24
+SecureAction.createContentClassLoader( ContentLoaderImpl impl );1;0;3
+SecureAction.mkdir( File file );3;1;20
+SecureAction.openJAR( File file , boolean verify );5;1;23

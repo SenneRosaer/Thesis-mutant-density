@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ApplicationModifier.isValid( );1;1;3
+ApplicationModifier.add( );3;0;13
+ApplicationModifier.roleIterator( );1;0;3
+ApplicationModifier.isNewEntry( );1;1;3
+ApplicationModifier.profileIterator( );1;0;3
+ApplicationModifier.delete( );3;0;12
+ApplicationModifier.setDescription( String description );2;0;8
+ApplicationModifier.rename( String newName );4;0;19
+ApplicationModifier.isUpdateNeeded( );3;1;7
+ApplicationModifier.newPermission( String permName );2;0;7
+ApplicationModifier.newRole( String roleName );2;0;7
+ApplicationModifier.setPassword( String userPassword );2;0;8
+ApplicationModifier.ApplicationModifier( ApplicationDao dao , String name , PermissionDao permissionDao , RoleDao roleDao , ProfileDao profileDao );1;0;10
+ApplicationModifier.ApplicationModifier( ApplicationDao dao , Application archetype );1;0;10
+ApplicationModifier.isUpdatableEntry( );1;1;3
+ApplicationModifier.getArchetype( );1;0;3
+ApplicationModifier.newProfile( String profileId , String user );2;0;7
+ApplicationModifier.getModificationItems( );4;1;16
+ApplicationModifier.modify( );3;0;13
+ApplicationModifier.permissionIterator( );1;0;3

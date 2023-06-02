@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IOUtils.getChars( int i , int index , char [ ] buf );6;23;25
+IOUtils.getStringProperty( String name );3;1;8
+IOUtils.decodeBase64( String s );16;61;36
+IOUtils.readAll( Reader reader );4;1;16
+IOUtils.run( );2;1;8
+IOUtils.stringSize( int x );3;3;7
+IOUtils.getChars( long i , int index , char [ ] buf );7;33;36
+IOUtils.stringSize( long x );3;4;8
+IOUtils.isIdent( char ch );2;2;3
+IOUtils.decode( CharsetDecoder charsetDecoder , ByteBuffer byteBuf , CharBuffer charByte );4;2;14
+IOUtils.decodeUTF8( byte [ ] sa , int sp , int len , char [ ] da );24;111;79
+IOUtils.close( Closeable x );3;1;8
+IOUtils.encodeUTF8( char [ ] chars , int offset , int len , byte [ ] bytes );16;74;54
+IOUtils.isValidJsonpQueryParam( String value );6;8;12
+IOUtils.decodeBase64( char [ ] chars , int offset , int charsLen );16;60;34
+IOUtils.getChars( byte b , int index , char [ ] buf );5;13;20
+***not in a method***;0;34;0
+IOUtils.loadPropertiesFromFile( );4;1;19
+IOUtils.decodeBase64( String chars , int offset , int charsLen );16;60;37
+IOUtils.firstIdentifier( char ch );2;2;3

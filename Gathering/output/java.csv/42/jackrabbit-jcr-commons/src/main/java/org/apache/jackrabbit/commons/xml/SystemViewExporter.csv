@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SystemViewExporter.write( char [ ] cbuf , int off , int len );2;0;9
+SystemViewExporter.exportNode( String uri , String local , Node node );1;0;7
+SystemViewExporter.flush( );1;0;2
+SystemViewExporter.exportProperty( String uri , String local , Value value );1;0;3
+SystemViewExporter.SystemViewExporter( Session session , ContentHandler handler , boolean recurse , boolean binary );1;0;4
+SystemViewExporter.mustSendBinary( Value value );8;12;12
+SystemViewExporter.exportValue( Value value );5;0;34
+SystemViewExporter.close( );1;0;2
+SystemViewExporter.exportProperty( String uri , String local , int type , Value [ ] values );2;2;9

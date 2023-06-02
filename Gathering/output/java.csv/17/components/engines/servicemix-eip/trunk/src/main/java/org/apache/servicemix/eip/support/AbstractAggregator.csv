@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractAggregator.start( );4;4;11
+AbstractAggregator.onTimeout( String processCorrelationId , String correlationId , Timer timer );11;6;41
+AbstractAggregator.processAsync( MessageExchange exchange );1;0;3
+AbstractAggregator.setClosedAggregatesStoreFactory( StoreFactory closedAggregatesStoreFactory );1;0;3
+AbstractAggregator.setCopyProperties( boolean copyProperties );1;0;3
+AbstractAggregator.isSynchronous( MessageExchange exchange );3;2;4
+AbstractAggregator.closeAggregation( String correlationId );1;0;3
+AbstractAggregator.process( MessageExchange exchange );10;9;30
+AbstractAggregator.setSynchronous( boolean synchronous );1;0;3
+AbstractAggregator.setTarget( ExchangeTarget target );1;0;3
+AbstractAggregator.isReportErrors( );1;0;3
+AbstractAggregator.isReportTimeoutAsErrors( );1;0;3
+AbstractAggregator.processProvider( MessageExchange exchange );14;8;60
+AbstractAggregator.isAggregationClosed( String correlationId );2;2;7
+AbstractAggregator.isCopyAttachments( );1;0;3
+AbstractAggregator.setReportErrors( boolean reportErrors );1;0;3
+AbstractAggregator.isRescheduleTimeouts( );1;0;3
+AbstractAggregator.timerExpired( Timer timer );1;0;3
+AbstractAggregator.setRescheduleTimeouts( boolean rescheduleTimeouts );1;0;3
+AbstractAggregator.isCopyProperties( );1;0;3
+AbstractAggregator.getTarget( );1;0;3
+AbstractAggregator.isSynchronous( );1;0;3
+AbstractAggregator.sendAggregate( String processCorrelationId , String correlationId , Object aggregation , boolean timeout , boolean sync );3;2;17
+AbstractAggregator.processSync( MessageExchange exchange );1;0;3
+AbstractAggregator.isReportClosedAggregatesAsErrors( );1;0;3
+AbstractAggregator.setReportTimeoutAsErrors( boolean reportTimeoutAsErrors );1;0;3
+AbstractAggregator.setReportClosedAggregatesAsErrors( boolean reportClosedAggregatesAsErrors );1;0;3
+AbstractAggregator.getClosedAggregatesStoreFactory( );1;0;3
+AbstractAggregator.setCopyAttachments( boolean copyAttachments );1;0;3

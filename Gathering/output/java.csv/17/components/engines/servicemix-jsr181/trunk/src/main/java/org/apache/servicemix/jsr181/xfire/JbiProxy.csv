@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JbiProxy.getProxy( );6;4;28
+JbiProxy.chooseEndpoint( ServiceEndpoint [ ] endpoints );3;3;8
+JBIClient.JBIClient( XFire xfire , Service service );1;0;6
+JbiProxy.create( XFire xfire , ComponentContext context , QName interfaceName , QName serviceName , String endpointName , Class serviceClass , boolean propagateSecurityContext );1;0;5
+JbiProxy.getEndpoints( );6;6;19
+JAXWSJBIClient.invoke( OperationInfo op , Object [ ] params );2;0;7
+JbiProxy.getDescription( );7;8;21
+JAXWSJBIClient.translateException( Method method , Exception t );14;6;55
+JAXWSJBIClient.JAXWSJBIClient( XFire xfire , Service service );1;0;3
+JbiProxy.create( XFire xfire , ComponentContext context , QName interfaceName , QName serviceName , String endpointName , Class serviceClass );1;0;4
+JbiProxy.JbiProxy( XFire xfire , ComponentContext context , Class serviceClass , QName interfaceName , QName serviceName , String endpointName , boolean propagateSecurityContext );1;0;9
+JbiProxy.JbiProxy( XFire xfire , ComponentContext context , Class serviceClass , Definition description );1;0;6
+JbiProxy.JbiProxy( XFire xfire , ComponentContext context , Class serviceClass , QName interfaceName , QName serviceName , String endpointName );1;0;8

@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageBrokerRegistry.getUserDestinationPrefix( );1;0;3
+MessageBrokerRegistry.getPathMatcher( );1;0;3
+MessageBrokerRegistry.MessageBrokerRegistry( SubscribableChannel clientInboundChannel , MessageChannel clientOutboundChannel );1;0;6
+MessageBrokerRegistry.enableStompBrokerRelay( String ... destinationPrefixes );1;0;5
+MessageBrokerRegistry.getUserDestinationBroadcast( );2;1;4
+MessageBrokerRegistry.setCacheLimit( int cacheLimit );1;0;4
+MessageBrokerRegistry.setPreservePublishOrder( boolean preservePublishOrder );1;0;4
+MessageBrokerRegistry.setPathMatcher( PathMatcher pathMatcher );1;0;4
+MessageBrokerRegistry.getSimpleBroker( SubscribableChannel brokerChannel );4;4;13
+MessageBrokerRegistry.getApplicationDestinationPrefixes( );2;1;4
+MessageBrokerRegistry.enableSimpleBroker( String ... destinationPrefixes );1;0;5
+MessageBrokerRegistry.getStompBrokerRelay( SubscribableChannel brokerChannel );2;1;8
+MessageBrokerRegistry.setUserDestinationPrefix( String destinationPrefix );1;0;4
+MessageBrokerRegistry.getUserRegistryBroadcast( );2;1;4
+MessageBrokerRegistry.getBrokerChannelRegistration( );1;0;3
+MessageBrokerRegistry.configureBrokerChannel( );1;0;3
+MessageBrokerRegistry.setApplicationDestinationPrefixes( String ... prefixes );1;0;4
+MessageBrokerRegistry.setUserRegistryOrder( int order );1;0;3
+MessageBrokerRegistry.getUserRegistryOrder( );1;0;3

@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StubbingReturnsSelfTest.should_not_fail_when_calling_primitive_returning_method( );1;0;4
+Builder.returnNothing( );1;0;1
+BuilderSubClass.returnSuperClass( );1;0;3
+StubbingReturnsSelfTest.should_stub_builder_method( );1;0;4
+StubbingReturnsSelfTest.should_return_self_when_call_on_method_in_subclass( );1;0;4
+HttpBuilder.HttpBuilder( );1;0;3
+StubbingReturnsSelfTest.use_full_builder_with_terminating_method( );1;0;7
+StubbingReturnsSelfTest.should_not_fail_when_calling_void_returning_method( );1;0;4
+StubbingReturnsSelfTest.should_return_self_when_call_on_method_in_superclass( );1;0;4
+HttpBuilder.withHeader( String header );1;0;4
+Builder.returnGeneric( T result );1;0;3
+StubbingReturnsSelfTest.should_not_fail_when_calling_method_with_generic_return_type( );1;0;4
+Builder.returnInt( );1;0;3
+HttpRequesterWithHeaders.request( String uri );1;0;6
+StubbingReturnsSelfTest.should_return_stubbed_answer_when_call_on_method_returns_self( );1;0;6
+HttpBuilder.request( );1;1;3
+StubbingReturnsSelfTest.should_return_self_when_call_on_method_in_subclass_returns_superclass( );1;0;4
+Builder.returnSelf( );1;0;3
+BuilderSubClass.returnsSubClass( );1;0;3
+HttpRequesterWithHeaders.HttpRequesterWithHeaders( HttpBuilder builder );1;0;3
+HttpBuilder.withUrl( String uri );1;0;4
+StubbingReturnsSelfTest.should_return_default_return_when_not_a_builder( );1;0;4
+Builder.returnString( );1;0;3

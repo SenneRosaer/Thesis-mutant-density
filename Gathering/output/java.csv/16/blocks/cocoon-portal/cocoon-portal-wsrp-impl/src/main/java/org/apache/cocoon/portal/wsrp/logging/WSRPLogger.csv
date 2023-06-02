@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WSRPLogger.text( int logLevel , String loggingMethod , Throwable t , String text , Object [ ] parms );12;12;32
+WSRPLogger.text( int logLevel , String loggingMethod , Throwable t , String text );1;0;3
+WSRPLogger.exit( int logLevel , String loggingMethod , int retValue );1;0;3
+WSRPLogger.entry( int logLevel , String loggingMethod , Object [ ] parms );1;0;3
+WSRPLogger.text( int logLevel , String loggingMethod , String text , Object parm1 );1;0;3
+WSRPLogger.exit( int logLevel , String loggingMethod , byte retValue );1;0;3
+WSRPLogger.isLogging( int logLevel );7;6;16
+WSRPLogger.text( int logLevel , String loggingMethod , String text );1;0;3
+WSRPLogger.exit( int logLevel , String loggingMethod );1;0;3
+WSRPLogger.exit( int logLevel , String loggingMethod , Object retValue );1;0;3
+WSRPLogger.exit( int logLevel , String loggingMethod , char retValue );1;0;3
+WSRPLogger.exit( int logLevel , String loggingMethod , short retValue );1;0;3
+WSRPLogger.text( int logLevel , String loggingMethod , String text , Object [ ] parms );1;0;3
+WSRPLogger.entry( int logLevel , String loggingMethod );1;0;3
+WSRPLogger.stackTrace( int logLevel , String loggingMethod , String text );1;0;3
+WSRPLogger.exit( int logLevel , String loggingMethod , long retValue );1;0;3
+WSRPLogger.exit( int logLevel , String loggingMethod , boolean retValue );1;0;3
+WSRPLogger.exit( int logLevel , String loggingMethod , double retValue );1;0;3
+WSRPLogger.entry( int logLevel , String loggingMethod , Object parm1 );1;0;3
+WSRPLogger.WSRPLogger( Log logger );1;0;3
+WSRPLogger.exit( int logLevel , String loggingMethod , float retValue );1;0;3

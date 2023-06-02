@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ComparatorUtils.min( Object o1 , Object o2 , Comparator comparator );3;2;7
+ComparatorUtils.chainedComparator( Collection comparators );1;0;5
+ComparatorUtils.reversedComparator( Comparator comparator );2;1;6
+ComparatorUtils.nullHighComparator( Comparator comparator );2;1;6
+ComparatorUtils.chainedComparator( Comparator [ ] comparators );3;3;10
+ComparatorUtils.chainedComparator( Comparator comparator1 , Comparator comparator2 );1;0;3
+ComparatorUtils.ComparatorUtils( );1;0;2
+ComparatorUtils.nullLowComparator( Comparator comparator );2;1;6
+ComparatorUtils.transformedComparator( Comparator comparator , Transformer transformer );2;1;6
+ComparatorUtils.naturalComparator( );1;0;3
+ComparatorUtils.booleanComparator( boolean trueFirst );1;0;3
+ComparatorUtils.max( Object o1 , Object o2 , Comparator comparator );3;2;7

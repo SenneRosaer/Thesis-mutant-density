@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Printer.indent( );1;0;2
+Printer.breakLine( );4;3;14
+Printer.leaveDTD( );2;1;8
+Printer.getNextIndent( );1;0;3
+Printer.setNextIndent( int indent );1;0;2
+Printer.printSpace( );4;3;14
+Printer.flush( );3;1;11
+Printer.flushLine( boolean preserveSpace );3;1;9
+Printer.printText( char ch );4;3;14
+Printer.breakLine( boolean preserveSpace );1;0;3
+Printer.printText( char [ ] chars , int start , int length );5;6;17
+Printer.unindent( );1;0;2
+Printer.printText( String text );5;5;17
+Printer.enterDTD( );2;1;8
+Printer.printText( StringBuffer text );5;5;17
+Printer.setThisIndent( int indent );1;0;2
+Printer.Printer( Writer writer , OutputFormat format );1;0;8
+Printer.getException( );1;0;3

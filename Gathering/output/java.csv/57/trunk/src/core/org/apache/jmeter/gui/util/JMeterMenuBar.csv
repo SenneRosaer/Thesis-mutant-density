@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JMeterMenuBar.localeChanged( LocaleChangeEvent event );1;0;7
+JMeterMenuBar.setEditAddEnabled( boolean enabled );4;2;12
+JMeterMenuBar.setFileLoadEnabled( boolean enabled );3;2;8
+JMeterMenuBar.setFileSaveEnabled( boolean enabled );2;1;5
+JMeterMenuBar.updateMenuElement( MenuElement menu );7;3;23
+JMeterMenuBar.makeMenuItemRes( String resource , String actionCommand , KeyStroke keyStroke );1;0;3
+JMeterMenuBar.setFileRevertEnabled( boolean enabled );2;1;5
+JMeterMenuBar.setEditAddMenu( JMenu menu );2;1;7
+JMeterMenuBar.setRunning( boolean running , String host );7;3;23
+JMeterMenuBar.makeMenuItemRes( String resource , String actionCommand );1;0;3
+JMeterMenuBar.isResource( String actionCommand );9;2;24
+JMeterMenuBar.setEditEnabled( boolean enabled );2;1;5
+JMeterMenuBar.makeFileMenu( );2;0;31
+JMeterMenuBar.setProjectFileLoaded( String file );3;3;5
+JMeterMenuBar.setEditRemoveEnabled( boolean enabled );3;1;10
+JMeterMenuBar.makeMenuItemNoRes( String label , String actionCommand );1;0;7
+JMeterMenuBar.JMeterMenuBar( );3;2;13
+JMeterMenuBar.getRemoteItems( );3;3;21
+JMeterMenuBar.createMenuBar( );1;0;12
+LangMenuHelper.LangMenuHelper( JMenu _languageMenu );1;0;3
+JMeterMenuBar.makeMenuRes( String resource );1;0;5
+JMeterMenuBar.makeEditMenu( );1;0;4
+JMeterMenuBar.makeMenuItemRes( String resource , int mnemonic , String actionCommand );1;0;3
+LangMenuHelper.addLang( String locale );1;0;8
+JMeterMenuBar.makeMenuItemRes( String resource , int mnemonic , String actionCommand , KeyStroke keyStroke );1;0;8
+JMeterMenuBar.makeMenuRes( String resource , int mnemonic );1;0;5
+JMeterMenuBar.makeRunMenu( );4;3;31
+JMeterMenuBar.makeLanguageMenu( );2;2;19
+JMeterMenuBar.makeHelpMenu( );1;0;15
+JMeterMenuBar.makeOptionsMenu( );3;3;23
+JMeterMenuBar.setEnabled( boolean enable );1;1;5
+JMeterMenuBar.setEditMenu( JPopupMenu menu );3;3;12

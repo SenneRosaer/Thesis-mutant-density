@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PassThroughClob.PassThroughClob( Reader characterStream , long contentLength );1;0;4
+PassThroughClob.free( );1;0;2
+PassThroughClob.position( String searchstr , long start );1;0;3
+PassThroughClob.getSubString( long pos , int length );1;0;3
+PassThroughClob.setAsciiStream( long pos );1;0;3
+PassThroughClob.truncate( long len );1;0;3
+PassThroughClob.setString( long pos , String str , int offset , int len );1;0;3
+PassThroughClob.getCharacterStream( long pos , long length );1;0;3
+PassThroughClob.getCharacterStream( );4;3;13
+PassThroughClob.setString( long pos , String str );1;0;3
+PassThroughClob.getAsciiStream( );5;3;17
+PassThroughClob.length( );1;0;3
+PassThroughClob.setCharacterStream( long pos );1;0;3
+PassThroughClob.PassThroughClob( InputStream asciiStream , long contentLength );1;0;4
+PassThroughClob.PassThroughClob( String content );1;0;4
+PassThroughClob.position( Clob searchstr , long start );1;0;3

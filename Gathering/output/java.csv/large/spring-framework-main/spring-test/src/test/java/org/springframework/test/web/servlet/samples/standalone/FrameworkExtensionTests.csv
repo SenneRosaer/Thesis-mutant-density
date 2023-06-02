@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestMockMvcConfigurer.afterConfigurerAdded( ConfigurableMockMvcBuilder < ? > builder );1;0;3
+FrameworkExtensionTests.defaultSetup( );1;0;3
+SampleController.handleBar( Principal principal );1;0;4
+TestRequestPostProcessor.bar( String value );1;0;4
+FrameworkExtensionTests.headers( );1;0;3
+FrameworkExtensionTests.setup( );1;0;3
+TestRequestPostProcessor.postProcessRequest( MockHttpServletRequest request );2;0;6
+FrameworkExtensionTests.barHeader( );1;0;3
+SampleController.handleFoo( Principal principal );1;0;4
+FrameworkExtensionTests.fooHeader( );1;0;3
+TestRequestPostProcessor.foo( String value );1;0;4
+TestMockMvcConfigurer.beforeMockMvcCreated( ConfigurableMockMvcBuilder < ? > builder , WebApplicationContext context );1;0;6

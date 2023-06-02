@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProcessConfImpl.getFiles( );1;0;3
+ProcessConfImpl.getDeployDate( );1;0;3
+ProcessConfImpl.isSharedService( QName serviceName );1;0;3
+ProcessConfImpl.getType( );2;1;3
+ProcessConfImpl.getVersion( );1;0;3
+ProcessConfImpl.getDeploymentUnit( );1;0;3
+ProcessConfImpl.getPackage( );1;0;3
+PropertiesMutable.lastModified( );2;2;6
+PropertiesMutable.exists( );1;0;3
+ProcessConfImpl.getMexInterceptors( QName processId );1;0;3
+ProcessConfImpl.getEndpointProperties( EndpointReference epr );2;1;16
+ProcessConfImpl.setTransient( boolean t );1;0;4
+ProcessConfImpl.setState( ProcessState state );1;0;3
+ProcessConfImpl.getProcessId( );1;0;3
+ProcessConfImpl.isEventEnabled( List < String > scopeNames , BpelEvent . TYPE type );7;3;15
+ProcessConfImpl.isTransient( );1;0;3
+ProcessConfImpl.initLinks( );8;4;31
+ProcessConfImpl.getBaseURI( );1;0;3
+ProcessConfImpl.collectEndpointConfigFiles( );8;2;22
+ProcessConfImpl.ProcessConfImpl( QName pid , QName type , long version , DeploymentUnitDir du , TDeployment . Process pinfo , Date deployDate , Map < QName , Node > props , ProcessState pstate , EndpointReferenceContext eprContext , File configDir );2;1;17
+ProcessConfImpl.getRelativePath( File base , File path );3;1;9
+PropertiesObserver.init( );2;0;12
+ProcessConfImpl.getDefinitionForService( QName serviceName );1;0;3
+ProcessConfImpl.accept( File path );2;1;3
+ProcessConfImpl.getInvokeEndpoints( );1;0;3
+ProcessConfImpl.getExtensionElement( QName qname );2;0;7
+ProcessConfImpl.initEventList( );12;6;35
+PropertiesObserver.isInitialized( );1;1;3
+PropertiesMutable.hasChangedSince( Map < File , Long > since );1;1;3
+ProcessConfImpl.getState( );1;0;3
+ProcessConfImpl.getProvideEndpoints( );1;0;3
+ProcessConfImpl.getBpelDocument( );5;3;16
+ProcessConfImpl.getProcessProperties( );1;0;3
+ProcessConfImpl.initMexInterceptors( );3;1;7
+ProcessConfImpl.getCBPInputStream( );3;1;10
+PropertiesObserver.onDelete( );1;0;3
+PropertiesObserver.onUpdate( );2;0;13

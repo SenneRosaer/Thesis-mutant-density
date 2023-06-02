@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UsersFileRepository.configure( final Configuration configuration );2;2;7
+UsersFileRepository.contains( String name );2;0;7
+UsersFileRepository.getUserByNameCaseInsensitive( String name );2;1;7
+UsersFileRepository.list( );1;0;3
+UsersFileRepository.doUpdateUser( User user );2;0;8
+UsersFileRepository.initialize( );4;0;24
+UsersFileRepository.containsCaseInsensitive( String name );3;0;9
+UsersFileRepository.test( String name , String password );3;1;10
+UsersFileRepository.getRealName( String name , boolean ignoreCase );5;0;14
+UsersFileRepository.doAddUser( User user );2;0;7
+UsersFileRepository.service( final ServiceManager componentManager );2;0;9
+UsersFileRepository.countUsers( );2;1;7
+UsersFileRepository.setStore( Store store );1;0;3
+UsersFileRepository.removeUser( String name );1;0;3
+UsersFileRepository.addUser( String username , String password );1;0;5
+UsersFileRepository.getUserByName( String name );5;1;18
+UsersFileRepository.getRealName( String name );1;0;3

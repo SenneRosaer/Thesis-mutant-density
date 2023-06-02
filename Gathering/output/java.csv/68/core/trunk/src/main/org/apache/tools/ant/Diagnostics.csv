@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Diagnostics.doReportParserInfo( PrintStream out );1;0;7
+Diagnostics.getXMLParserLocation( );2;1;8
+Diagnostics.doReportSystemProperties( PrintStream out );3;1;15
+Diagnostics.getSAXParser( );3;1;13
+Diagnostics.doReportProxy( PrintStream out );6;1;32
+Diagnostics.doReportTasksAvailability( PrintStream out );8;3;36
+Diagnostics.listJarFiles( File libDir );1;0;9
+Diagnostics.doReportLocale( PrintStream out );1;6;13
+Diagnostics.printParserInfo( PrintStream out , String parserType , String parserName , String parserLocation );3;4;10
+Diagnostics.printLibraries( File [ ] libs , PrintStream out );3;4;9
+Diagnostics.getClassLocation( Class clazz );2;1;4
+Diagnostics.doReportWhich( PrintStream out );6;2;20
+Diagnostics.ignoreThrowable( Throwable thrown );1;0;2
+Diagnostics.getNamespaceParserLocation( );2;0;9
+Diagnostics.Diagnostics( );1;0;2
+Diagnostics.validateVersion( );4;3;14
+Diagnostics.doReport( PrintStream out );1;0;3
+Diagnostics.main( String [ ] args );1;0;3
+Diagnostics.listLibraries( );2;1;8
+Diagnostics.isOptionalAvailable( );2;0;8
+Diagnostics.getImplementationVersion( Class clazz );1;0;3
+Diagnostics.getXmlParserName( );2;1;8
+Diagnostics.doReport( PrintStream out , int logLevel );2;0;35
+Diagnostics.doReportTempDir( PrintStream out );8;8;43
+Diagnostics.header( PrintStream out , String section );1;0;7
+Diagnostics.getNamespaceParserName( );2;0;9
+Diagnostics.doReportUserHomeLibraries( PrintStream out );1;0;7
+Diagnostics.accept( File dir , String name );1;0;3
+Diagnostics.getProperty( String key );2;0;9
+Diagnostics.doReportAntHomeLibraries( PrintStream out );1;1;5
+Diagnostics.printProperty( PrintStream out , String key );2;1;10
+Diagnostics.doReportAntProperties( PrintStream out );1;4;9

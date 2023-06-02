@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileRecordLog.getPreviousRevision( );1;0;3
+FileRecordLog.seek( long revision );2;4;10
+FileRecordLog.close( OutputStream out );2;0;8
+***not in a method***;0;3;0
+FileRecordLog.skip( long n );4;4;14
+FileRecordLog.read( NamespaceResolver resolver , NamePathResolver npResolver );1;7;9
+FileRecordLog.writeHeader( DataOutputStream out );1;0;5
+FileRecordLog.readHeader( DataInputStream in );4;4;18
+FileRecordLog.exceeds( long size );1;2;3
+FileRecordLog.close( InputStream in );2;0;8
+FileRecordLog.init( long previousRevision );2;0;15
+FileRecordLog.close( );3;1;10
+DataBuffer.DataBuffer( );1;0;3
+FileRecordLog.getLastRevision( );1;0;3
+DataBuffer.copy( OutputStream out );1;0;4
+FileRecordLog.utfLength( String s );5;9;15
+FileRecordLog.append( String journalId , String producerId , InputStream in , int length );1;6;18
+FileRecordLog.FileRecordLog( File logFile );2;2;16
+FileRecordLog.isNew( );1;0;3
+FileRecordLog.toHexString( byte [ ] b );3;4;11
+FileRecordLog.contains( long revision );2;3;3

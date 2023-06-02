@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ShellServiceImpl.setNextLineIn( String sessionId , String in );2;0;14
+ShellServiceImpl.run( );1;0;3
+ShellServiceImpl.processTimeouts( );3;2;9
+Session.Session( );1;0;12
+***not in a method***;0;2;0
+ShellServiceImpl.handleException( String sessionId , Exception e );1;0;4
+Session.updateLastUsed( );1;0;3
+ShellServiceImpl.useSession( String sessionId );2;1;8
+ShellServiceImpl.getNextLineErr( String sessionId );2;0;10
+ShellServiceImpl.getNextLineOut( String sessionId );2;0;10
+ShellServiceImpl.init( );1;0;8
+Session.getLastUsed( );1;0;3
+ShellServiceImpl.login( String username , String password );2;0;10
+ShellServiceImpl.logout( String sessionId );1;0;3

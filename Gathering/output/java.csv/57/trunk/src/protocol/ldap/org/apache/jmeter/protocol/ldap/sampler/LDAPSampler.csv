@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LDAPSampler.setBaseEntryDN( String newbaseentry );1;0;3
+LDAPSampler.LDAPSampler( );1;0;2
+LDAPSampler.addTest( LdapClient ldap , SampleResult res );2;0;12
+LDAPSampler.getBaseEntryDN( );1;0;3
+LDAPSampler.getLabel( );1;0;3
+LDAPSampler.setUserDefinedTest( boolean value );1;0;3
+LDAPSampler.sample( Entry e );8;2;39
+LDAPSampler.searchTest( LdapClient ldap , SampleResult res );3;2;13
+LDAPSampler.setArguments( Arguments value );1;0;3
+LDAPSampler.deleteTest( LdapClient ldap , SampleResult res );2;1;9
+LDAPSampler.getArguments( );1;0;3
+LDAPSampler.getBasicAttributes( );1;1;21
+LDAPSampler.getServername( );1;0;3
+LDAPSampler.setRootdn( String newRootdn );1;0;3
+LDAPSampler.getUserDefinedTest( );1;0;3
+LDAPSampler.getBasicAttribute( String name , String value );1;0;4
+LDAPSampler.getRootdn( );1;0;3
+LDAPSampler.setTest( String newTest );1;0;3
+LDAPSampler.getUserModAttributes( );2;1;13
+LDAPSampler.getUsername( );1;0;3
+LDAPSampler.getUserAttributes( );2;0;17
+LDAPSampler.getPort( );1;0;3
+LDAPSampler.setPort( String port );1;0;3
+LDAPSampler.getTest( );1;0;3
+LDAPSampler.getPassword( );1;0;3
+LDAPSampler.modifyTest( LdapClient ldap , SampleResult res );2;0;14
+LDAPSampler.getModificationItem( );1;0;8
+LDAPSampler.setServername( String servername );1;0;3

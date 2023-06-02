@@ -1,0 +1,66 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebMvcConfigurationSupport.handlerExceptionResolver( @ Qualifier ( "mvcContentNegotiationManager" ) ContentNegotiationManager contentNegotiationManager );2;0;12
+NoOpValidator.validate( @ Nullable Object target , Errors errors );1;0;2
+WebMvcConfigurationSupport.addReturnValueHandlers( List < HandlerMethodReturnValueHandler > returnValueHandlers );1;0;2
+WebMvcConfigurationSupport.mvcConversionService( );1;0;5
+WebMvcConfigurationSupport.getReturnValueHandlers( );2;1;7
+WebMvcConfigurationSupport.setServletContext( @ Nullable ServletContext servletContext );1;0;3
+WebMvcConfigurationSupport.mvcPatternParser( );1;0;3
+WebMvcConfigurationSupport.getPathMatchConfigurer( );2;1;7
+WebMvcConfigurationSupport.getCorsConfigurations( );2;1;8
+WebMvcConfigurationSupport.getAsyncSupportConfigurer( );2;1;7
+WebMvcConfigurationSupport.mvcViewResolver( @ Qualifier ( "mvcContentNegotiationManager" ) ContentNegotiationManager contentNegotiationManager );6;5;22
+WebMvcConfigurationSupport.addArgumentResolvers( List < HandlerMethodArgumentResolver > argumentResolvers );1;0;2
+WebMvcConfigurationSupport.extendHandlerExceptionResolvers( List < HandlerExceptionResolver > exceptionResolvers );1;0;2
+WebMvcConfigurationSupport.routerFunctionMapping( @ Qualifier ( "mvcConversionService" ) FormattingConversionService conversionService , @ Qualifier ( "mvcResourceUrlProvider" ) ResourceUrlProvider resourceUrlProvider );2;1;12
+WebMvcConfigurationSupport.getInterceptors( FormattingConversionService mvcConversionService , ResourceUrlProvider mvcResourceUrlProvider );2;1;10
+NoOpValidator.supports( Class < ? > clazz );1;0;3
+WebMvcConfigurationSupport.requestMappingHandlerAdapter( @ Qualifier ( "mvcContentNegotiationManager" ) ContentNegotiationManager contentNegotiationManager , @ Qualifier ( "mvcConversionService" ) FormattingConversionService conversionService , @ Qualifier ( "mvcValidator" ) Validator validator );4;2;22
+WebMvcConfigurationSupport.getMessageConverters( );3;1;11
+WebMvcConfigurationSupport.mvcValidator( );4;1;17
+WebMvcConfigurationSupport.createExceptionHandlerExceptionResolver( );1;0;3
+WebMvcConfigurationSupport.mvcContentNegotiationManager( );2;1;9
+WebMvcConfigurationSupport.resourceHandlerMapping( @ Qualifier ( "mvcContentNegotiationManager" ) ContentNegotiationManager contentNegotiationManager , @ Qualifier ( "mvcConversionService" ) FormattingConversionService conversionService , @ Qualifier ( "mvcResourceUrlProvider" ) ResourceUrlProvider resourceUrlProvider );1;2;11
+WebMvcConfigurationSupport.requestMappingHandlerMapping( @ Qualifier ( "mvcContentNegotiationManager" ) ContentNegotiationManager contentNegotiationManager , @ Qualifier ( "mvcConversionService" ) FormattingConversionService conversionService , @ Qualifier ( "mvcResourceUrlProvider" ) ResourceUrlProvider resourceUrlProvider );6;4;25
+WebMvcConfigurationSupport.mvcPathMatcher( );1;0;3
+WebMvcConfigurationSupport.addCorsMappings( CorsRegistry registry );1;0;2
+WebMvcConfigurationSupport.addDefaultHttpMessageConverters( List < HttpMessageConverter < ? > > messageConverters );16;4;57
+WebMvcConfigurationSupport.getServletContext( );1;0;3
+WebMvcConfigurationSupport.createRequestMappingHandlerAdapter( );1;0;3
+WebMvcConfigurationSupport.setApplicationContext( @ Nullable ApplicationContext applicationContext );1;0;3
+WebMvcConfigurationSupport.configureHandlerExceptionResolvers( List < HandlerExceptionResolver > exceptionResolvers );1;0;2
+WebMvcConfigurationSupport.configureDefaultServletHandling( DefaultServletHandlerConfigurer configurer );1;0;2
+WebMvcConfigurationSupport.addFormatters( FormatterRegistry registry );1;0;2
+WebMvcConfigurationSupport.configureContentNegotiation( ContentNegotiationConfigurer configurer );1;0;2
+WebMvcConfigurationSupport.mvcUriComponentsContributor( @ Qualifier ( "mvcConversionService" ) FormattingConversionService conversionService , @ Qualifier ( "requestMappingHandlerAdapter" ) RequestMappingHandlerAdapter requestMappingHandlerAdapter );1;0;4
+WebMvcConfigurationSupport.configureMessageConverters( List < HttpMessageConverter < ? > > converters );1;0;2
+WebMvcConfigurationSupport.configurePathMatch( PathMatchConfigurer configurer );1;0;2
+WebMvcConfigurationSupport.mvcHandlerMappingIntrospector( );1;0;3
+WebMvcConfigurationSupport.getDefaultMediaTypes( );11;5;20
+WebMvcConfigurationSupport.getConfigurableWebBindingInitializer( FormattingConversionService mvcConversionService , Validator mvcValidator );2;1;10
+WebMvcConfigurationSupport.mvcUrlPathHelper( );1;0;3
+WebMvcConfigurationSupport.getValidator( );1;0;3
+WebMvcConfigurationSupport.beanNameHandlerMapping( @ Qualifier ( "mvcConversionService" ) FormattingConversionService conversionService , @ Qualifier ( "mvcResourceUrlProvider" ) ResourceUrlProvider resourceUrlProvider );1;0;6
+WebMvcConfigurationSupport.getArgumentResolvers( );2;1;7
+***not in a method***;0;1;0
+WebMvcConfigurationSupport.addViewControllers( ViewControllerRegistry registry );1;0;2
+WebMvcConfigurationSupport.httpRequestHandlerAdapter( );1;0;3
+WebMvcConfigurationSupport.themeResolver( );1;0;3
+WebMvcConfigurationSupport.addResourceHandlers( ResourceHandlerRegistry registry );1;0;2
+WebMvcConfigurationSupport.addInterceptors( InterceptorRegistry registry );1;0;2
+WebMvcConfigurationSupport.getApplicationContext( );1;0;3
+WebMvcConfigurationSupport.initHandlerMapping( @ Nullable AbstractHandlerMapping mapping , FormattingConversionService conversionService , ResourceUrlProvider resourceUrlProvider );4;2;16
+WebMvcConfigurationSupport.viewNameTranslator( );1;0;3
+WebMvcConfigurationSupport.simpleControllerHandlerAdapter( );1;0;3
+WebMvcConfigurationSupport.configureAsyncSupport( AsyncSupportConfigurer configurer );1;0;2
+WebMvcConfigurationSupport.defaultServletHandlerMapping( );1;1;6
+WebMvcConfigurationSupport.flashMapManager( );1;0;3
+WebMvcConfigurationSupport.handlerFunctionAdapter( );2;1;8
+WebMvcConfigurationSupport.mvcResourceUrlProvider( );1;0;6
+WebMvcConfigurationSupport.extendMessageConverters( List < HttpMessageConverter < ? > > converters );1;0;2
+WebMvcConfigurationSupport.viewControllerHandlerMapping( @ Qualifier ( "mvcConversionService" ) FormattingConversionService conversionService , @ Qualifier ( "mvcResourceUrlProvider" ) ResourceUrlProvider resourceUrlProvider );1;0;7
+WebMvcConfigurationSupport.localeResolver( );1;0;3
+WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers( List < HandlerExceptionResolver > exceptionResolvers , ContentNegotiationManager mvcContentNegotiationManager );3;1;20
+WebMvcConfigurationSupport.createRequestMappingHandlerMapping( );1;0;3
+WebMvcConfigurationSupport.configureViewResolvers( ViewResolverRegistry registry );1;0;2
+WebMvcConfigurationSupport.getMessageCodesResolver( );1;0;3

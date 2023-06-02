@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLSerializer.reset( );2;1;8
+XMLSerializer.printAttribute( String name , String value , boolean isSpecified , Attr attr );9;7;27
+XMLSerializer.getEntityRef( int ch );6;0;15
+XMLSerializer.printEscaped( String source );12;15;27
+XMLSerializer.printXMLChar( int ch );9;10;16
+XMLSerializer.XMLSerializer( );1;0;3
+XMLSerializer.startElement( String tagName , AttributeList attrs );18;11;59
+XMLSerializer.startElement( String namespaceURI , String localName , String rawName , Attributes attrs );41;47;115
+XMLSerializer.printText( String text , boolean preserveSpace , boolean unescaped );10;10;38
+XMLSerializer.startDocument( String rootTagName );17;20;64
+XMLSerializer.serializeElement( Element elem );78;78;274
+XMLSerializer.printNamespaceAttr( String prefix , String uri );4;1;17
+XMLSerializer.setNamespaces( boolean namespaces );2;1;8
+XMLSerializer.printText( char [ ] chars , int start , int length , boolean preserveSpace , boolean unescaped );10;14;41
+XMLSerializer.XMLSerializer( Writer writer , OutputFormat format );2;1;5
+XMLSerializer.endElement( String tagName );1;0;3
+XMLSerializer.extractNamespaces( Attributes attrs );6;6;24
+XMLSerializer.endElement( String namespaceURI , String localName , String rawName );2;0;7
+XMLSerializer.checkUnboundNamespacePrefixedNode( Node node );16;16;52
+XMLSerializer.endElementIO( String namespaceURI , String localName , String rawName );9;4;25
+XMLSerializer.XMLSerializer( OutputStream output , OutputFormat format );2;1;5
+XMLSerializer.setOutputFormat( OutputFormat format );2;1;3
+XMLSerializer.XMLSerializer( OutputFormat format );2;1;4

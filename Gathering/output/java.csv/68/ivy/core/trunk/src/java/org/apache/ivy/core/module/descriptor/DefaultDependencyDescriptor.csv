@@ -1,0 +1,55 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultDependencyDescriptor.getExtraAttribute( String attName );1;0;3
+DefaultDependencyDescriptor.canExclude( );2;3;3
+DefaultDependencyDescriptor.getDependencyConfigurations( String moduleConfiguration , String requestedConfiguration );10;5;38
+DefaultDependencyDescriptor.getParentRevisionId( );2;1;3
+DefaultDependencyDescriptor.transformInstance( DependencyDescriptor dd , Namespace ns );2;0;9
+DefaultDependencyDescriptor.getQualifiedExtraAttributes( );1;0;3
+DefaultDependencyDescriptor.replaceSelfFallbackPattern( final String conf , final String moduleConfiguration );1;0;4
+DefaultDependencyDescriptor.isTransitive( );1;0;3
+DefaultDependencyDescriptor.doesExclude( String [ ] moduleConfigurations , ArtifactId artifactId );4;3;13
+DefaultDependencyDescriptor.mergeAll( Map artifactsMap );2;0;8
+DefaultDependencyDescriptor.setExcludeRules( Map excludeRules );1;0;3
+DefaultDependencyDescriptor.setIncludeRules( Map includeRules );1;0;3
+DefaultDependencyDescriptor.addObjectToConfiguration( String callerConf , Object toAdd , Map confsMap );2;1;8
+DefaultDependencyDescriptor.getIncludeRules( String [ ] moduleConfigurations );2;2;7
+DefaultDependencyDescriptor.getModuleConfigurations( );1;0;3
+DefaultDependencyDescriptor.addExcludeRule( String masterConf , ExcludeRule rule );1;0;3
+DefaultDependencyDescriptor.getAttributes( );1;0;3
+DefaultDependencyDescriptor.getExcludeRules( );2;1;6
+DefaultDependencyDescriptor.isForce( );1;0;3
+DefaultDependencyDescriptor.DefaultDependencyDescriptor( ModuleRevisionId mrid , boolean force , boolean changing );1;0;3
+DefaultDependencyDescriptor.asSystem( );1;0;3
+DefaultDependencyDescriptor.getAllDependencyArtifacts( );2;1;8
+DefaultDependencyDescriptor.replaceThisFallbackPattern( final String conf , final String requestedConfiguration );1;0;4
+DefaultDependencyDescriptor.clone( ModuleRevisionId revision );1;0;3
+DefaultDependencyDescriptor.getAttribute( String attName );1;0;3
+DefaultDependencyDescriptor.setDependencyArtifacts( Map dependencyArtifacts );1;0;3
+DefaultDependencyDescriptor.getDependencyArtifacts( );2;1;6
+DefaultDependencyDescriptor.addDependencyArtifact( String masterConf , DependencyArtifactDescriptor dad );1;0;3
+DefaultDependencyDescriptor.getExcludeRules( String moduleConfiguration );1;0;4
+DefaultDependencyDescriptor.DefaultDependencyDescriptor( ModuleRevisionId mrid , boolean force );1;0;3
+DefaultDependencyDescriptor.getDependencyRevisionId( );1;0;3
+DefaultDependencyDescriptor.DefaultDependencyDescriptor( ModuleDescriptor md , ModuleRevisionId mrid , ModuleRevisionId dynamicConstraint , boolean force , boolean changing , boolean transitive );1;0;10
+DefaultDependencyDescriptor.transformInstance( DependencyDescriptor dd , NamespaceTransformer t , boolean fromSystem );6;4;39
+DefaultDependencyDescriptor.getDependencyArtifacts( String [ ] moduleConfigurations );2;2;8
+DefaultDependencyDescriptor.getNamespace( );1;0;3
+DefaultDependencyDescriptor.getExtraAttributes( );1;0;3
+DefaultDependencyDescriptor.getAllExcludeRules( );2;1;7
+DefaultDependencyDescriptor.getDependencyConfigurations( String moduleConfiguration );1;0;3
+DefaultDependencyDescriptor.addDependencyConfiguration( String masterConf , String depConf );7;8;17
+DefaultDependencyDescriptor.isChanging( );1;0;3
+DefaultDependencyDescriptor.getAllIncludeRules( );2;1;7
+DefaultDependencyDescriptor.getDependencyConfigurations( String [ ] moduleConfigurations );3;2;10
+DefaultDependencyDescriptor.getDependencyArtifacts( String moduleConfiguration );1;0;6
+DefaultDependencyDescriptor.DefaultDependencyDescriptor( DefaultDependencyDescriptor dd , ModuleRevisionId revision );5;4;23
+DefaultDependencyDescriptor.getCollectionForConfiguration( String moduleConfiguration , Map collectionMap );5;4;15
+DefaultDependencyDescriptor.getDynamicConstraintDependencyRevisionId( );1;0;3
+DefaultDependencyDescriptor.toString( );1;0;3
+DefaultDependencyDescriptor.DefaultDependencyDescriptor( ModuleDescriptor md , ModuleRevisionId mrid , boolean force , boolean changing , boolean transitive );1;0;3
+DefaultDependencyDescriptor.replaceFallbackConfigurationPattern( final Pattern pattern , final String conf , final String moduleConfiguration );3;2;11
+DefaultDependencyDescriptor.getIncludeRules( String moduleConfiguration );1;0;4
+DefaultDependencyDescriptor.addIncludeRule( String masterConf , IncludeRule rule );1;0;3
+DefaultDependencyDescriptor.getDependencyId( );1;0;3
+DefaultDependencyDescriptor.getIncludeRules( );2;1;6
+DefaultDependencyDescriptor.getExcludeRules( String [ ] moduleConfigurations );2;2;7

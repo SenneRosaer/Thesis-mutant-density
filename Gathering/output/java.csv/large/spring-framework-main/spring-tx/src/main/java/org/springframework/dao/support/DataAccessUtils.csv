@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DataAccessUtils.singleResult( @ Nullable Collection < T > results );3;1;9
+DataAccessUtils.translateIfNecessary( RuntimeException rawException , PersistenceExceptionTranslator pet );2;1;5
+DataAccessUtils.objectResult( @ Nullable Collection < ? > results , @ Nullable Class < T > requiredType );8;5;22
+DataAccessUtils.intResult( @ Nullable Collection < ? > results );1;0;3
+DataAccessUtils.requiredUniqueResult( @ Nullable Collection < T > results );3;1;9
+DataAccessUtils.longResult( @ Nullable Collection < ? > results );1;0;3
+DataAccessUtils.nullableSingleResult( @ Nullable Collection < T > results );3;1;9
+DataAccessUtils.uniqueResult( @ Nullable Collection < T > results );3;1;9
+DataAccessUtils.requiredSingleResult( @ Nullable Collection < T > results );3;1;9

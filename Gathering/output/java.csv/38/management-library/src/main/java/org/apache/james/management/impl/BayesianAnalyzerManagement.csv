@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BayesianAnalyzerManagement.setDataSourceComponent( DataSourceComponent component );1;0;3
+BayesianAnalyzerManagement.updateTokens( String type );4;0;12
+BayesianAnalyzerManagement.addHamFromMbox( String file );2;1;4
+BayesianAnalyzerManagement.addSpamFromMbox( String file );2;1;4
+BayesianAnalyzerManagement.initialize( );2;1;7
+BayesianAnalyzerManagement.resetData( );2;0;9
+BayesianAnalyzerManagement.configure( Configuration arg0 );3;2;8
+BayesianAnalyzerManagement.service( ServiceManager arg0 );1;0;5
+BayesianAnalyzerManagement.feedBayesianAnalyzerFromMbox( String mboxFile , String type );5;3;31
+BayesianAnalyzerManagement.addSpamFromDir( String dir );2;1;4
+BayesianAnalyzerManagement.addMailToCorpus( String type , BufferedReader stream );4;0;11
+BayesianAnalyzerManagement.delegatedLog( String logString );1;0;2
+BayesianAnalyzerManagement.exportData( String file );4;1;25
+BayesianAnalyzerManagement.addHamFromDir( String dir );2;1;4
+BayesianAnalyzerXml.getSpamTokenCounts( );1;0;3
+BayesianAnalyzerManagement.importData( String file );3;1;21
+BayesianAnalyzerManagement.setDataSourceSelector( DataSourceSelector selector );1;0;3
+BayesianAnalyzerXml.getSpamMessageCount( );1;0;3
+BayesianAnalyzerXml.getHamMessageCount( );1;0;3
+BayesianAnalyzerXml.getHamTokenCounts( );1;0;3
+BayesianAnalyzerManagement.setFileSystem( FileSystem system );1;0;3
+BayesianAnalyzerManagement.feedBayesianAnalyzerFromDir( String dir , String type );4;3;24
+BayesianAnalyzerManagement.setRepositoryPath( String repositoryPath );1;0;3
+BayesianAnalyzerXml.BayesianAnalyzerXml( int hamMessageCount , int spamMessageCount , Map hamTokenCounts , Map spamTokenCounts );1;0;6

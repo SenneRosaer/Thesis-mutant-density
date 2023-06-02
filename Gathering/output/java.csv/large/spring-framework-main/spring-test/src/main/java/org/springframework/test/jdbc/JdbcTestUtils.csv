@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JdbcTestUtils.deleteFromTables( JdbcTemplate jdbcTemplate , String ... tableNames );3;1;11
+JdbcTestUtils.deleteFromTableWhere( JdbcTemplate jdbcTemplate , String tableName , String whereClause , Object ... args );4;2;11
+JdbcTestUtils.dropTables( JdbcTemplate jdbcTemplate , String ... tableNames );3;0;8
+JdbcTestUtils.countRowsInTable( JdbcTemplate jdbcTemplate , String tableName );2;1;4
+JdbcTestUtils.countRowsInTableWhere( JdbcTemplate jdbcTemplate , String tableName , String whereClause );3;2;8

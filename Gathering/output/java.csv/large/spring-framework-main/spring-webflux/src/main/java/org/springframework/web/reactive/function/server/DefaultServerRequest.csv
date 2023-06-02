@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultServerRequest.uriBuilder( );1;0;3
+DefaultServerRequest.request( );1;0;3
+DefaultServerRequest.method( );1;0;3
+DefaultServerRequest.bodyToFlux( Class < ? extends T > elementClass );2;0;6
+DefaultServerRequest.formData( );1;0;3
+DefaultHeaders.acceptCharset( );1;0;3
+DefaultServerRequest.DefaultServerRequest( ServerWebExchange exchange , List < HttpMessageReader < ? > > messageReaders );1;0;5
+DefaultServerRequest.uri( );1;0;3
+DefaultHeaders.contentLength( );2;2;4
+DefaultHeaders.asHttpHeaders( );1;0;3
+DefaultServerRequest.exchange( );1;0;3
+DefaultServerRequest.hints( );1;0;3
+DefaultServerRequest.multipartData( );1;0;3
+DefaultServerRequest.messageReaders( );1;0;3
+DefaultServerRequest.bodyToFlux( ParameterizedTypeReference < T > typeReference );1;0;5
+DefaultHeaders.toString( );1;0;3
+DefaultServerRequest.session( );1;0;3
+DefaultServerRequest.headers( );1;0;3
+DefaultServerRequest.attributes( );1;0;3
+DefaultServerRequest.body( BodyExtractor < T , ? super ServerHttpRequest > extractor , Map < String , Object > hints );1;0;4
+DefaultServerRequest.serverResponse( );1;0;3
+DefaultServerRequest.checkNotModified( ServerWebExchange exchange , @ Nullable Instant lastModified , @ Nullable String etag );4;2;14
+DefaultServerRequest.localAddress( );1;0;3
+DefaultHeaders.range( );1;0;3
+DefaultHeaders.accept( );1;0;3
+DefaultServerRequest.pathVariables( );1;0;4
+***not in a method***;0;1;0
+DefaultServerRequest.methodName( );1;0;3
+DefaultServerRequest.queryParams( );1;0;3
+DefaultServerRequest.cookies( );1;0;3
+DefaultServerRequest.bodyToMono( ParameterizedTypeReference < T > typeReference );1;0;5
+DefaultServerRequest.body( BodyExtractor < T , ? super ServerHttpRequest > extractor );1;0;3
+DefaultServerRequest.principal( );1;0;3
+DefaultHeaders.host( );1;0;3
+DefaultHeaders.acceptLanguage( );1;0;3
+DefaultHeaders.header( String headerName );2;1;4
+DefaultHeaders.contentType( );1;0;3
+DefaultServerRequest.requestPath( );1;0;3
+DefaultServerRequest.toString( );1;0;3
+DefaultServerRequest.remoteAddress( );1;0;3
+DefaultServerRequest.bodyInternal( BodyExtractor < T , ? super ServerHttpRequest > extractor , Map < String , Object > hints );2;0;17
+DefaultServerRequest.bodyToMono( Class < ? extends T > elementClass );1;0;5

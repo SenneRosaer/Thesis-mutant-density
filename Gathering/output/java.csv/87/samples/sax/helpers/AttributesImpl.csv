@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ListNode.toString( );2;1;3
+AttributesImpl.insertAttributeAt( int index , String uri , String local , String raw , String type , String value );4;6;17
+AttributesImpl.getListNode( String raw );5;4;10
+AttributesImpl.getType( int index );2;1;4
+AttributesImpl.getListNodeAt( int i );3;4;8
+AttributesImpl.addAttribute( String uri , String local , String raw , String type , String value );2;2;11
+AttributesImpl.toString( );3;2;15
+AttributesImpl.getListNode( String uri , String local );8;9;13
+AttributesImpl.getValue( int index );2;1;4
+AttributesImpl.getQName( int index );2;1;4
+AttributesImpl.removeAttribute( String raw );1;0;3
+AttributesImpl.removeAttribute( String uri , String local );1;0;3
+AttributesImpl.getValue( String uri , String local );2;1;4
+AttributesImpl.getType( String uri , String local );2;1;4
+AttributesImpl.getLocalName( int index );2;1;4
+AttributesImpl.getType( String raw );2;1;4
+AttributesImpl.addAttribute( String raw , String type , String value );1;0;3
+AttributesImpl.getURI( int index );2;1;4
+AttributesImpl.getIndex( String uri , String local );4;4;12
+AttributesImpl.getValue( String raw );2;1;4
+AttributesImpl.removeAttributeAt( int index );6;8;23
+AttributesImpl.insertAttributeAt( int index , String raw , String type , String value );1;0;3
+AttributesImpl.getIndex( String raw );3;3;12
+AttributesImpl.getLength( );1;0;3
+ListNode.ListNode( String uri , String local , String raw , String type , String value );1;0;7

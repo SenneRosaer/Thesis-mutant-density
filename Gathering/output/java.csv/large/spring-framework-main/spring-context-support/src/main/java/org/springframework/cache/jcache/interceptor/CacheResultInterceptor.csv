@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CacheResultInterceptor.resolveExceptionCache( CacheOperationInvocationContext < CacheResultOperation > context );2;1;7
+CacheResultInterceptor.invoke( CacheOperationInvocationContext < CacheResultOperation > context , CacheOperationInvoker invoker );4;2;23
+CacheResultInterceptor.findCommonAncestorIndex( StackTraceElement [ ] callStack , String className , String methodName );4;4;9
+CacheResultInterceptor.CacheResultInterceptor( CacheErrorHandler errorHandler );1;0;3
+CacheResultInterceptor.cloneException( T exception );2;0;8
+CacheResultInterceptor.rewriteCallStack( Throwable exception , String className , String methodName );4;9;18
+CacheResultInterceptor.checkForCachedException( @ Nullable Cache exceptionCache , Object cacheKey );3;3;11
+CacheResultInterceptor.cacheException( @ Nullable Cache exceptionCache , ExceptionTypeFilter filter , Object cacheKey , Throwable ex );3;1;8

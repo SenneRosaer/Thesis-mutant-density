@@ -1,0 +1,58 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PDFDocument.output( OutputStream stream );2;3;7
+PDFDocument.setLocation( int objidx , int position );2;1;6
+PDFDocument.isEncodingOnTheFly( );1;0;3
+PDFDocument.applyEncryption( AbstractPDFStream stream );2;0;5
+PDFDocument.hasDestinations( );2;3;3
+PDFDocument.addTrailerObject( PDFObject obj );2;0;6
+PDFDocument.getInfo( );1;0;3
+PDFDocument.getRoot( );1;0;3
+PDFDocument.setFilterMap( Map map );1;0;3
+PDFDocument.registerObject( PDFObject obj );1;0;5
+PDFDocument.findPattern( PDFPattern compare );1;0;3
+PDFDocument.outputHeader( OutputStream stream );1;2;16
+PDFDocument.resolveURI( String uri );2;0;8
+PDFDocument.getXObject( String key );1;0;3
+PDFDocument.findLaunch( PDFLaunch compare );1;0;3
+PDFDocument.addObject( PDFObject obj );13;4;46
+PDFDocument.findDestination( PDFDestination compare );2;1;8
+PDFDocument.getProfile( );1;0;3
+PDFDocument.getPDFColorSpace( );1;0;3
+PDFDocument.getFontMap( );1;0;3
+PDFDocument.findGState( PDFGState wanted , PDFGState current );3;0;14
+PDFDocument.addDestination( PDFDestination destination );2;1;6
+PDFDocument.findLink( PDFLink compare );1;0;3
+PDFDocument.PDFDocument( String prod );1;0;7
+PDFDocument.getWriterFor( OutputStream out );2;0;7
+PDFDocument.getDests( );1;0;3
+PDFDocument.outputTrailer( OutputStream stream );5;7;36
+PDFDocument.findShading( PDFShading compare );1;0;3
+PDFDocument.findFileSpec( PDFFileSpec compare );1;0;3
+PDFDocument.getPages( );1;0;3
+PDFDocument.findGoTo( PDFGoTo compare );1;0;3
+PDFDocument.setCreationDate( Date date );1;0;3
+PDFDocument.findFont( String fontname );1;0;3
+PDFDocument.setProducer( String producer );1;0;3
+PDFDocument.getPDFVersionString( );3;0;10
+PDFDocument.assignObjectNumber( PDFObject obj );6;6;20
+PDFDocument.getPDFVersion( );1;0;3
+PDFDocument.outputXref( OutputStream stream );2;4;17
+PDFDocument.getOutlineRoot( );2;1;10
+PDFDocument.getIDEntry( );3;0;18
+PDFDocument.getFilterMap( );1;0;3
+PDFDocument.getEncryption( );1;0;3
+PDFDocument.getFactory( );1;0;3
+PDFDocument.getDestinationList( );2;0;7
+PDFDocument.findPDFObject( List list , PDFObject compare );3;0;9
+PDFDocument.setCreator( String creator );1;0;3
+PDFDocument.addFormXObject( PDFResourceContext res , PDFStream cont , PDFReference formres , String key );4;4;20
+PDFDocument.encode( String text );2;0;7
+PDFDocument.isEncryptionActive( );1;1;3
+PDFDocument.setColorSpace( int theColorspace );1;0;3
+PDFDocument.findFunction( PDFFunction compare );1;0;3
+PDFDocument.getResources( );1;0;3
+PDFDocument.getColorSpace( );1;0;3
+PDFDocument.findGoToRemote( PDFGoToRemote compare );1;0;3
+PDFDocument.addImage( PDFResourceContext res , PDFImage img );4;4;19
+PDFDocument.getImage( String key );1;0;3
+PDFDocument.setEncryption( PDFEncryptionParams params );2;2;13

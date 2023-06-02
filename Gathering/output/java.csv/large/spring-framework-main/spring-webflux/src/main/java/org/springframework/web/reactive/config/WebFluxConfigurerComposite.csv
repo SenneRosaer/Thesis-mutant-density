@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebFluxConfigurerComposite.configureViewResolvers( ViewResolverRegistry registry );1;0;3
+WebFluxConfigurerComposite.addFormatters( FormatterRegistry registry );1;0;3
+WebFluxConfigurerComposite.configureContentTypeResolver( RequestedContentTypeResolverBuilder builder );1;0;3
+WebFluxConfigurerComposite.getMessageCodesResolver( );1;0;3
+WebFluxConfigurerComposite.addResourceHandlers( ResourceHandlerRegistry registry );1;0;3
+WebFluxConfigurerComposite.addCorsMappings( CorsRegistry registry );1;0;3
+WebFluxConfigurerComposite.configurePathMatching( PathMatchConfigurer configurer );1;0;3
+WebFluxConfigurerComposite.getValidator( );1;0;3
+WebFluxConfigurerComposite.getWebSocketService( );1;0;3
+WebFluxConfigurerComposite.addWebFluxConfigurers( List < WebFluxConfigurer > configurers );2;1;5
+WebFluxConfigurerComposite.createSingleBean( Function < WebFluxConfigurer , T > factory , Class < T > beanType );3;1;13
+WebFluxConfigurerComposite.configureArgumentResolvers( ArgumentResolverConfigurer configurer );1;0;3
+WebFluxConfigurerComposite.configureHttpMessageCodecs( ServerCodecConfigurer configurer );1;0;3

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NonValidatingConfiguration.setProperty( String propertyId , Object value );2;0;7
+NonValidatingConfiguration.reset( );2;1;6
+***not in a method***;0;21;0
+NonValidatingConfiguration.parse( XMLInputSource source );10;0;34
+NonValidatingConfiguration.setFeature( String featureId , boolean state );1;0;4
+NonValidatingConfiguration.checkFeature( String featureId );14;13;33
+NonValidatingConfiguration.setLocale( Locale locale );1;0;4
+NonValidatingConfiguration.NonValidatingConfiguration( SymbolTable symbolTable , XMLGrammarPool grammarPool , XMLComponentManager parentSettings );8;5;63
+NonValidatingConfiguration.createDocumentScanner( );1;0;3
+NonValidatingConfiguration.configurePipeline( );5;4;25
+NonValidatingConfiguration.NonValidatingConfiguration( SymbolTable symbolTable , XMLGrammarPool grammarPool );1;0;3
+NonValidatingConfiguration.setInputSource( XMLInputSource inputSource );1;0;3
+NonValidatingConfiguration.NonValidatingConfiguration( );1;0;3
+NonValidatingConfiguration.createDatatypeValidatorFactory( );1;0;3
+NonValidatingConfiguration.createErrorReporter( );1;0;3
+NonValidatingConfiguration.parse( boolean complete );18;1;52
+NonValidatingConfiguration.getFeature( String featureId );2;0;6
+NonValidatingConfiguration.createDTDScanner( );1;0;3
+NonValidatingConfiguration.cleanup( );1;0;3
+NonValidatingConfiguration.NonValidatingConfiguration( SymbolTable symbolTable );1;0;3
+NonValidatingConfiguration.createEntityManager( );1;0;3
+NonValidatingConfiguration.checkProperty( String propertyId );7;6;17
+NonValidatingConfiguration.createValidationManager( );1;0;3
+NonValidatingConfiguration.getProperty( String propertyId );2;0;6

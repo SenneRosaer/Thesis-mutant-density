@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CLArgsParser.parse( );15;14;50
+CLArgsParser.buildOptionIndex( );4;6;12
+CLArgsParser.subArray( final String [ ] array , final int index , final int charIndex );2;5;9
+CLArgsParser.isSeparator( final char ch , final char [ ] separators );3;3;8
+CLArgsParser.checkIncompatibilities( final Vector arguments );3;3;13
+CLArgsParser.readChar( );4;5;16
+CLArgsParser.getChar( );2;1;9
+CLArgsParser.getOptionDescription( final CLOptionDescriptor descriptor );2;0;7
+CLArgsParser.getUnparsedArgs( );1;0;3
+CLArgsParser.getArgumentByName( final String name );1;0;3
+CLArgsParser.getArguments( );1;0;3
+CLArgsParser.getStateFor( final CLOptionDescriptor descriptor );4;6;12
+CLArgsParser.getDescriptorFor( final String name );3;2;8
+CLArgsParser.parseShortOption( );2;1;9
+CLArgsParser.nextToken( final char [ ] separators );3;1;15
+CLArgsParser.CLArgsParser( final String [ ] args , final CLOptionDescriptor [ ] optionDescriptors , final ParserControl control );2;0;13
+CLArgsParser.parseOption( final CLOptionDescriptor descriptor , final String optionString );3;2;10
+CLArgsParser.getDescriptorFor( final int id );3;3;8
+CLArgsParser.CLArgsParser( final String [ ] args , final CLOptionDescriptor [ ] optionDescriptors );1;0;3
+CLArgsParser.peekAtChar( );2;1;6
+CLArgsParser.getErrorString( );1;0;3
+CLArgsParser.checkIncompatible( final Vector arguments , final int [ ] incompatible , final int original );6;7;24
+CLArgsParser.addOption( final CLOption option );1;0;5
+CLArgsParser.describeDualOption( final int id );5;2;23
+CLArgsParser.parseNormal( );5;4;28
+CLArgsParser.parseArguments( );18;20;65
+CLArgsParser.getArgumentById( final int id );1;0;3

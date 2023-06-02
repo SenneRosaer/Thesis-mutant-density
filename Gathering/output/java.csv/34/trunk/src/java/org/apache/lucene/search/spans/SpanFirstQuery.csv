@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpanFirstQuery.toString( String field );1;0;10
+SpanFirstQuery.doc( );1;0;1
+SpanFirstQuery.getTerms( );1;0;1
+SpanFirstQuery.getField( );1;0;1
+SpanFirstQuery.toString( );1;0;3
+SpanFirstQuery.start( );1;0;1
+SpanFirstQuery.getSpans( final IndexReader reader );6;0;33
+SpanFirstQuery.skipTo( int target );3;3;5
+SpanFirstQuery.SpanFirstQuery( SpanQuery match , int end );1;0;4
+SpanFirstQuery.equals( Object o );5;6;8
+SpanFirstQuery.next( );3;1;7
+SpanFirstQuery.getMatch( );1;0;1
+SpanFirstQuery.rewrite( IndexReader reader );3;2;13
+SpanFirstQuery.extractTerms( Set terms );1;0;3
+SpanFirstQuery.getPayloadSpans( IndexReader reader );1;0;3
+SpanFirstQuery.getEnd( );1;0;1
+SpanFirstQuery.isPayloadAvailable( );1;0;3
+SpanFirstQuery.hashCode( );1;6;6
+SpanFirstQuery.end( );1;0;1
+SpanFirstQuery.getPayload( );2;0;7

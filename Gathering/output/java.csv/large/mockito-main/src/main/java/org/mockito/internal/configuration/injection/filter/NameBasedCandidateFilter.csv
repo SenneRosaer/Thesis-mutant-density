@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NameBasedCandidateFilter.tooMany( Collection < Object > mocks );1;1;3
+NameBasedCandidateFilter.NameBasedCandidateFilter( MockCandidateFilter next );1;0;3
+NameBasedCandidateFilter.anotherCandidateMatchesMockName( final Collection < Object > mocks , final Field candidateFieldToBeInjected , final List < Field > allRemainingCandidateFields );5;3;11
+NameBasedCandidateFilter.filterCandidate( final Collection < Object > mocks , final Field candidateFieldToBeInjected , final List < Field > allRemainingCandidateFields , final Object injectee );4;2;12
+NameBasedCandidateFilter.selectMatchingName( Collection < Object > mocks , Field candidateFieldToBeInjected );3;0;9

@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ForwardedHeaderFilter.setRelativeRedirects( boolean relativeRedirects );1;0;3
+ForwardedHeaderExtractingRequest.getRemotePort( );2;1;3
+ForwardedHeaderFilter.shouldNotFilter( HttpServletRequest request );3;1;8
+ForwardedPrefixExtractor.initRequestUrl( );2;2;3
+ForwardedPrefixExtractor.initRequestUri( );2;2;7
+ForwardedHeaderRemovingRequest.getHeader( String name );2;0;6
+ForwardedHeaderExtractingRequest.getRequestURI( );1;0;3
+ForwardedHeaderRemovingRequest.getHeaders( String name );2;0;6
+ForwardedHeaderFilter.shouldNotFilterAsyncDispatch( );1;0;3
+ForwardedHeaderFilter.shouldNotFilterErrorDispatch( );1;0;3
+ForwardedHeaderRemovingRequest.ForwardedHeaderRemovingRequest( HttpServletRequest request );1;0;4
+ForwardedHeaderRemovingRequest.getHeaderNames( );1;0;3
+ForwardedHeaderFilter.doFilterNestedErrorDispatch( HttpServletRequest request , HttpServletResponse response , FilterChain filterChain );1;0;3
+ForwardedHeaderExtractingResponse.sendRedirect( String location );5;2;25
+ForwardedHeaderFilter.doFilterInternal( HttpServletRequest request , HttpServletResponse response , FilterChain filterChain );3;0;14
+ForwardedHeaderExtractingRequest.getScheme( );1;0;3
+ForwardedHeaderExtractingRequest.ForwardedHeaderExtractingRequest( HttpServletRequest servletRequest );5;7;14
+ForwardedHeaderExtractingRequest.getServerPort( );1;0;3
+ForwardedPrefixExtractor.ForwardedPrefixExtractor( Supplier < HttpServletRequest > delegateRequest , String baseUrl );1;0;8
+ForwardedHeaderExtractingRequest.getRemoteHost( );2;1;3
+ForwardedHeaderExtractingRequest.getServerName( );1;0;3
+ForwardedPrefixExtractor.getRequestUrl( );1;0;4
+ForwardedHeaderFilter.setRemoveOnly( boolean removeOnly );1;0;3
+ForwardedHeaderExtractingRequest.getRequestURL( );1;0;3
+ForwardedHeaderExtractingResponse.ForwardedHeaderExtractingResponse( HttpServletResponse response , HttpServletRequest request );1;0;4
+ForwardedPrefixExtractor.recalculatePathsIfNecessary( );2;1;7
+ForwardedPrefixExtractor.getContextPath( );2;1;3
+ForwardedHeaderExtractingRequest.getRemoteAddr( );2;1;3
+ForwardedPrefixExtractor.initForwardedPrefix( HttpServletRequest request );8;7;23
+ForwardedHeaderRemovingRequest.headerNames( HttpServletRequest request );3;1;11
+ForwardedPrefixExtractor.getRequestUri( );2;1;7
+ForwardedHeaderExtractingRequest.isSecure( );1;0;3
+ForwardedHeaderExtractingRequest.getContextPath( );1;0;3

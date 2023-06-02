@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FormatMessage1.FormatMessage1( String format , Object arg1 );1;0;4
+LogMessage.format( String format , Object arg1 , Object arg2 , Object arg3 , Object arg4 );1;0;3
+FormatMessage3.buildString( );1;0;3
+FormatMessage4.buildString( );1;0;3
+FormatMessage1.buildString( );1;0;3
+FormatMessageX.FormatMessageX( String format , Object ... args );1;0;4
+FormatMessageX.buildString( );1;0;3
+SupplierMessage.SupplierMessage( Supplier < ? extends CharSequence > supplier );1;0;4
+FormatMessage2.buildString( );1;0;3
+LogMessage.toString( );2;1;6
+LogMessage.format( String format , Object arg1 , Object arg2 , Object arg3 );1;0;3
+SupplierMessage.buildString( );1;0;3
+LogMessage.of( Supplier < ? extends CharSequence > supplier );1;0;3
+FormatMessage4.FormatMessage4( String format , Object arg1 , Object arg2 , Object arg3 , Object arg4 );1;0;7
+FormatMessage3.FormatMessage3( String format , Object arg1 , Object arg2 , Object arg3 );1;0;6
+FormatMessage2.FormatMessage2( String format , Object arg1 , Object arg2 );1;0;5
+LogMessage.format( String format , Object ... args );1;0;3
+LogMessage.charAt( int index );1;0;3
+FormatMessage.FormatMessage( String format );1;0;4
+LogMessage.length( );1;0;3
+LogMessage.subSequence( int start , int end );1;0;3
+LogMessage.format( String format , Object arg1 , Object arg2 );1;0;3
+LogMessage.format( String format , Object arg1 );1;0;3

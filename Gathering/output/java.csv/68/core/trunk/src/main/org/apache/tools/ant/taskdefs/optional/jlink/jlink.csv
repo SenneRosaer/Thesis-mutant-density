@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+jlink.addAddFile( String fileToAdd );2;1;6
+jlink.link( );7;2;30
+jlink.processEntry( ZipFile zip , ZipEntry inputEntry );6;3;27
+jlink.calcChecksum( File f );1;0;4
+jlink.main( String [ ] args );4;3;16
+jlink.addMergeFiles( String [ ] filesToMerge );3;3;8
+jlink.mergeZipJarContents( ZipOutputStream output , File f );7;5;33
+jlink.addMergeFile( String fileToMerge );2;1;6
+jlink.addDirContents( ZipOutputStream output , File dir , String prefix , boolean compress );3;4;12
+jlink.calcChecksum( InputStream in );2;3;12
+jlink.addToOutputStream( ZipOutputStream output , InputStream input , ZipEntry ze );3;2;14
+jlink.getEntryName( File file , String prefix );6;4;24
+jlink.addAddFiles( String [ ] filesToAdd );3;3;8
+jlink.setOutfile( String outfile );2;1;6
+jlink.setCompression( boolean compress );1;0;3
+jlink.addFile( ZipOutputStream output , File file , String prefix , boolean compress );3;2;13

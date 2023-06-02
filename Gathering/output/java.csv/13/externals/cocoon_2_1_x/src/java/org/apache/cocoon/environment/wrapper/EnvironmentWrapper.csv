@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EnvironmentWrapper.getRedirectURL( );1;0;3
+EnvironmentWrapper.EnvironmentWrapper( Environment env , String requestURI , String queryString , Logger logger , ComponentManager manager , boolean rawMode , String view , boolean wrapResponse );1;0;4
+EnvironmentWrapper.setStatus( int statusCode );1;0;2
+EnvironmentWrapper.getContentType( );1;0;3
+EnvironmentWrapper.tryResetResponse( );3;2;8
+EnvironmentWrapper.globalRedirect( boolean sessionmode , String newURL );3;0;9
+EnvironmentWrapper.EnvironmentWrapper( Environment env , String requestURI , String queryString , Logger logger );1;0;3
+EnvironmentWrapper.setContentType( String contentType );1;0;3
+EnvironmentWrapper.EnvironmentWrapper( Environment env , String requestURI , String queryString , Logger logger , boolean rawMode );1;0;3
+EnvironmentWrapper.EnvironmentWrapper( Environment env , ComponentManager manager , String uri , Logger logger , boolean wrapResponse );15;29;54
+EnvironmentWrapper.EnvironmentWrapper( Environment env , String requestURI , String queryString , Logger logger , ComponentManager manager , boolean rawMode , String view );1;0;3
+EnvironmentWrapper.redirect( boolean sessionmode , String newURL );2;0;6
+EnvironmentWrapper.setURI( String prefix , String uris );4;2;13
+EnvironmentWrapper.getObjectModel( );1;0;3
+EnvironmentWrapper.setOutputStream( OutputStream stream );1;0;3
+EnvironmentWrapper.getAttribute( String name );3;3;7
+EnvironmentWrapper.EnvironmentWrapper( Environment env , String requestURI , String queryString , Logger logger , ComponentManager manager , boolean rawMode );1;0;3
+EnvironmentWrapper.commitResponse( );2;2;8
+EnvironmentWrapper.isExternal( );1;0;3
+EnvironmentWrapper.reset( );1;0;3
+EnvironmentWrapper.setInternalRedirect( boolean flag );2;0;6
+EnvironmentWrapper.getOutputStream( int bufferSize );2;1;5
+EnvironmentWrapper.isInternalRedirect( );1;0;3
+EnvironmentWrapper.init( Environment env , String requestURI , String queryString , Logger logger , ComponentManager manager , boolean rawMode , String view , boolean wrapResponse );4;1;29
+EnvironmentWrapper.setContentLength( int length );1;0;2

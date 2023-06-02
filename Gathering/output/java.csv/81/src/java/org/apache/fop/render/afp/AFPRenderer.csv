@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AFPRenderer.setDefaultResourceGroupFilePath( String filePath );1;0;3
+AFPRenderer.setPortraitRotation( int rotation );1;0;3
+AFPRenderer.updateColor( Color col , boolean fill );2;0;5
+AFPRenderer.createRendererContext( int x , int y , int width , int height , Map foreignAttributes );1;0;11
+AFPRenderer.setupFontInfo( FontInfo inFontInfo );1;0;8
+AFPRenderer.instantiateRendererContext( );1;0;3
+AFPRenderer.renderImage( Image image , Rectangle2D pos );1;0;3
+AFPRenderer.drawImage( String uri , Rectangle2D pos , Map foreignAttributes );12;8;71
+AFPRenderer.fillRect( float x , float y , float width , float height );1;0;4
+AFPRenderer.restoreStateStackAfterBreakOut( List breakOutList );1;0;4
+AFPRenderer.moveTo( float x , float y );1;0;2
+AFPRenderer.establishTransformationMatrix( AffineTransform at );1;0;4
+AFPRenderer.drawBorderLine( float x1 , float y1 , float x2 , float y2 , boolean horz , boolean startOrBefore , int style , Color col );1;0;4
+AFPRenderer.beginTextObject( );1;0;2
+AFPRenderer.clip( );1;0;2
+AFPRenderer.setBitsPerPixel( int bitsPerPixel );1;0;3
+AFPRenderer.concatenateTransformationMatrix( AffineTransform at );2;1;5
+AFPRenderer.restoreGraphicsState( );1;0;3
+AFPRenderer.lineTo( float x , float y );1;0;2
+AFPRenderer.AFPRenderer( );1;0;7
+AFPRenderer.clipRect( float x , float y , float width , float height );1;0;2
+AFPRenderer.setUserAgent( FOUserAgent agent );1;0;3
+AFPRenderer.preparePage( PageViewport page );1;0;11
+AFPRenderer.endVParea( );1;0;3
+AFPRenderer.endTextObject( );1;0;2
+AFPRenderer.renderText( TextArea text );2;6;45
+AFPRenderer.startVParea( CTM ctm , Rectangle2D clippingRect );3;6;13
+AFPRenderer.supportsOutOfOrder( );1;0;3
+AFPRenderer.setColorImages( boolean colorImages );1;0;3
+AFPRenderer.getMimeType( );1;0;3
+AFPRenderer.stopRenderer( );1;0;5
+AFPRenderer.closePath( );1;0;2
+AFPRenderer.startRenderer( OutputStream outputStream );1;0;7
+AFPRenderer.renderPageObjectExtensions( PageViewport pageViewport );11;5;35
+AFPRenderer.setResolution( int resolution );1;0;3
+AFPRenderer.renderLeader( Leader area );7;9;25
+AFPRenderer.getBaseTransform( );1;0;6
+AFPRenderer.writeImage( RenderedImage image , OutputStream out );1;0;3
+AFPRenderer.startPageSequence( LineArea seqTitle );2;0;7
+AFPRenderer.breakOutOfStateStack( );1;0;4
+AFPRenderer.processOffDocumentItem( OffDocumentItem odi );1;0;3
+AFPRenderer.renderPage( PageViewport pageViewport );4;3;28
+AFPRenderer.setNativeImagesSupported( boolean nativeImages );1;0;3
+AFPRenderer.setLandscapeRotation( int rotation );1;0;3
+AFPRenderer.saveGraphicsState( );1;0;3
+AFPRenderer.getGraphics2DAdapter( );1;0;3
+AFPRenderer.getResolution( );1;0;3

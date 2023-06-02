@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HTMLBuilder.characters( char [ ] text , int start , int length );2;1;5
+HTMLBuilder.endDocument( );3;2;8
+HTMLBuilder.endElement( String tagName );4;3;10
+HTMLBuilder.startDocument( );2;1;6
+HTMLBuilder.getHTMLDocument( );1;0;3
+HTMLBuilder.startElement( String tagName , AttributeList attrList );9;10;33
+HTMLBuilder.setDocumentLocator( Locator locator );1;0;2
+HTMLBuilder.processingInstruction( String target , String instruction );6;7;13
+HTMLBuilder.characters( String text );2;1;5
+HTMLBuilder.ignorableWhitespace( char [ ] text , int start , int length );2;1;4

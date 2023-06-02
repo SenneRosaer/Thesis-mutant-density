@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ODEAxisService.isJmsEndpoint( ProcessConf pconf , QName wsdlServiceName , String portName );1;0;4
+ODEAxisService.declarePartsElements( Definition wsdlDefinition , QName wsdlServiceName , String axisServiceName , String portName );4;2;14
+WSDL11ToAxisPatchedBuilder.WSDL11ToAxisPatchedBuilder( InputStream in , QName serviceName , String portName );1;0;3
+WSDL11ToAxisPatchedBuilder.WSDL11ToAxisPatchedBuilder( InputStream in , AxisService service );1;0;3
+WSDL11ToAxisPatchedBuilder.WSDL11ToAxisPatchedBuilder( Definition def , QName serviceName , String portName , boolean isAllPorts );1;0;3
+ODEAxisService.extractServiceName( ProcessConf pconf , QName wsdlServiceName , String portName );2;1;8
+ODEAxisService.extractEndpointUri( ProcessConf pconf , QName wsdlServiceName , String portName );6;3;22
+ODEAxisService.extractJMSDestinationName( String serviceName , String baseUri );4;6;15
+ODEAxisService.parseURLForService( String path , String baseUri );8;9;24
+WSDL11ToAxisPatchedBuilder.WSDL11ToAxisPatchedBuilder( InputStream in );1;0;3
+WSDL11ToAxisPatchedBuilder.getXMLSchema( Element element , String baseUri );2;1;7
+ODEAxisService.createService( AxisConfiguration axisConfig , ProcessConf pconf , QName wsdlServiceName , String portName , String axisServiceName );12;4;58
+ODEAxisService.deriveBaseServiceUri( ProcessConf pconf );7;6;23
+ODEAxisService.createService( AxisConfiguration axisConfig , QName serviceQName , String port , String axisName , Definition wsdlDef , MessageReceiver receiver );3;1;15
+WSDL11ToAxisPatchedBuilder.WSDL11ToAxisPatchedBuilder( Definition def , QName serviceName , String portName );1;0;3

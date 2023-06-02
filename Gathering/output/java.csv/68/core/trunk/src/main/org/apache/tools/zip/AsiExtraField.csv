@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AsiExtraField.getGroupId( );1;0;3
+AsiExtraField.setMode( int mode );1;0;3
+AsiExtraField.getCentralDirectoryData( );1;0;3
+AsiExtraField.getLinkedFile( );1;0;3
+AsiExtraField.isLink( );1;1;3
+AsiExtraField.isDirectory( );2;2;3
+AsiExtraField.getLocalFileDataData( );1;2;19
+AsiExtraField.AsiExtraField( );1;0;2
+AsiExtraField.getCentralDirectoryLength( );1;0;3
+AsiExtraField.getLocalFileDataLength( );1;5;8
+AsiExtraField.setDirectory( boolean dirFlag );1;0;4
+AsiExtraField.parseFromLocalFileData( byte [ ] data , int offset , int length );3;7;26
+AsiExtraField.getHeaderId( );1;0;3
+AsiExtraField.setUserId( int uid );1;0;3
+AsiExtraField.getUserId( );1;0;3
+AsiExtraField.getMode( );1;0;3
+AsiExtraField.getMode( int mode );3;2;9
+AsiExtraField.setGroupId( int gid );1;0;3
+AsiExtraField.setLinkedFile( String name );1;0;4

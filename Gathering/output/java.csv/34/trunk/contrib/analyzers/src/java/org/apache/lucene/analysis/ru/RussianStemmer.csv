@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RussianStemmer.perfectiveGerund( StringBuffer stemmingZone );2;1;7
+RussianStemmer.adjectival( StringBuffer stemmingZone );3;2;9
+RussianStemmer.setCharset( char [ ] newCharset );1;0;3
+RussianStemmer.stem( String theWord , char [ ] charset );1;0;5
+RussianStemmer.markPositions( String word );13;26;33
+RussianStemmer.superlative( StringBuffer stemmingZone );1;0;3
+RussianStemmer.RussianStemmer( char [ ] charset );1;0;4
+RussianStemmer.derivational( StringBuffer stemmingZone );3;5;17
+RussianStemmer.RussianStemmer( );1;0;3
+RussianStemmer.noun( StringBuffer stemmingZone );1;0;3
+RussianStemmer.findAndRemoveEnding( StringBuffer stemmingZone , char [ ] [ ] theEndingClass , char [ ] [ ] thePredessors );3;5;18
+RussianStemmer.removeSoft( StringBuffer stemmingZone );3;5;12
+RussianStemmer.reflexive( StringBuffer stemmingZone );1;0;3
+RussianStemmer.findAndRemoveEnding( StringBuffer stemmingZone , char [ ] [ ] theEndingClass );2;2;9
+RussianStemmer.findEnding( StringBuffer stemmingZone , int startIndex , char [ ] [ ] theEndingClass );6;10;27
+RussianStemmer.findEnding( StringBuffer stemmingZone , char [ ] [ ] theEndingClass );1;1;3
+RussianStemmer.undoubleN( StringBuffer stemmingZone );2;2;14
+RussianStemmer.isVowel( char letter );3;3;8
+RussianStemmer.removeI( StringBuffer stemmingZone );3;5;12
+RussianStemmer.verb( StringBuffer stemmingZone );2;1;7
+RussianStemmer.stem( String input );5;5;20

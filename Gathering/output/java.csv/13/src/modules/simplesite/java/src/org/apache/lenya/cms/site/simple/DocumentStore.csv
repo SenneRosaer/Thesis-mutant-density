@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocumentStore.exists( );2;0;7
+DocumentStore.contains( String path , String language );3;0;12
+DocumentStore.getUuid( String key );1;0;3
+DocumentStore.containsByUuid( String uuid , String language );1;0;3
+DocumentStore.getKey( String uuid , String language );1;1;3
+DocumentStore.getSession( );1;0;3
+DocumentStore.getPath( String uuid , String language );1;0;5
+DocumentStore.setPath( Document document , String path );1;0;7
+DocumentStore.loadDocument( Element documentElement );2;1;12
+DocumentStore.contains( String path );1;0;3
+DocumentStore.containsInAnyLanguage( String uuid );1;0;3
+DocumentStore.createDocumentElement( Document document , NamespaceHelper helper );1;0;7
+DocumentStore.getPublication( );1;0;3
+DocumentStore.doc2path( );1;0;4
+DocumentStore.DocumentStore( Document doc , Logger logger );1;0;4
+DocumentStore.remove( Document document );1;0;5
+DocumentStore.getRepositoryNode( );1;0;3
+DocumentStore.add( String path , String followingSiblingPath );1;0;3
+DocumentStore.getTopLevelNodes( );3;2;10
+DocumentStore.add( String path );1;0;4
+DocumentStore.add( String path , Document document );3;2;16
+DocumentStore.getByUuid( String uuid , String language );1;0;5
+DocumentStore.getNodes( );4;2;17
+DocumentStore.getNode( String path );5;2;19
+DocumentStore.getLanguage( String key );1;0;3
+DocumentStore.getArea( );1;0;3
+DocumentStore.getDocument( String uuid );4;2;14
+DocumentStore.toString( );1;1;3

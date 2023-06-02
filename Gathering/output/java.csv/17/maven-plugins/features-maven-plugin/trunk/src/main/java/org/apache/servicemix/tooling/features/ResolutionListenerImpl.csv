@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResolutionListenerImpl.includeArtifact( Artifact artifact );4;3;15
+ResolutionListenerImpl.setLog( Log log );1;0;3
+ResolutionListenerImpl.getArtifacts( );1;0;3
+ResolutionListenerImpl.selectVersionFromRange( Artifact artifact );1;0;3
+ResolutionListenerImpl.restrictRange( Artifact artifact , Artifact artifact1 , VersionRange versionRange );1;0;3
+ResolutionListenerImpl.omitForCycle( Artifact artifact );1;0;2
+ResolutionListenerImpl.getNode( Artifact artifact );1;0;3
+ResolutionListenerImpl.updateScopeCurrentPom( Artifact artifact , String key );1;0;3
+ResolutionListenerImpl.updateScope( Artifact artifact , String scope );1;0;4
+ResolutionListenerImpl.getLog( );1;0;3
+ResolutionListenerImpl.getRootNode( );1;0;3
+ResolutionListenerImpl.manageArtifact( Artifact artifact , Artifact replacement );4;3;11
+ResolutionListenerImpl.testArtifact( Artifact artifact );1;0;2
+ResolutionListenerImpl.endProcessChildren( Artifact artifact );1;0;4
+ResolutionListenerImpl.startProcessChildren( Artifact artifact );2;0;7
+ResolutionListenerImpl.print( Node node , String string );2;0;6
+ResolutionListenerImpl.omitForNearer( Artifact omitted , Artifact kept );1;1;7

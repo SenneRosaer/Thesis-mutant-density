@@ -1,0 +1,51 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ItemManager.createPropertyInstance( PropertyData data );1;0;3
+ItemManager.itemExists( ItemId id );1;0;3
+ItemManager.hasChildProperties( NodeId parentId );4;1;17
+ItemManager.getProperty( Path path );3;1;11
+ItemManager.getDefinition( NodeState state );2;1;14
+ItemManager.retrieveItem( ItemId id );3;2;9
+ItemManager.getChildProperties( NodeId parentId );3;1;17
+ItemManager.itemInvalidated( ItemId id , ItemData data );2;0;6
+ItemManager.createItemInstance( ItemData data );2;0;7
+ItemManager.getItemData( ItemId itemId );1;0;3
+ItemManager.getChildNodes( NodeId parentId );3;1;16
+ItemManager.createNodeInstance( AbstractNodeData data );3;0;10
+ShareableNodesCache.evict( AbstractNodeData data );2;1;6
+ShareableNodesCache.retrieve( NodeId id , NodeId parentId );2;1;7
+ItemManager.getNode( NodeId id , NodeId parentId );5;4;19
+ItemManager.getItem( ItemId itemId , Path path );1;0;6
+ItemManager.itemExists( Path path );3;2;9
+ShareableNodesCache.clear( );1;0;3
+ItemManager.getItem( ItemId id );1;0;3
+ItemManager.stateDiscarded( ItemState discarded );9;3;29
+ItemManager.evictItem( ItemData data );4;1;14
+ItemManager.createItemInstance( ItemState state );1;0;4
+ItemManager.stateDestroyed( ItemState destroyed );3;3;8
+ShareableNodesCache.cache( AbstractNodeData data );3;2;12
+ItemManager.cacheItem( ItemData data );5;1;19
+ItemManager.canRead( ItemData data , Path path );5;5;14
+ItemManager.canRead( ItemId id );1;0;3
+ItemManager.getNode( Path path );3;1;11
+ItemManager.propertyExists( Path path );3;2;9
+ItemManager.hasChildNodes( NodeId parentId );4;1;17
+ItemManager.evictItems( ItemId id );3;0;11
+ItemManager.stateModified( ItemState modified );3;3;6
+ItemManager.dispose( );1;0;6
+ShareableNodesCache.ShareableNodesCache( );1;0;3
+ItemManager.nodeExists( Path path );3;2;9
+ItemManager.stateCreated( ItemState created );2;1;6
+ItemManager.retrieveItem( NodeId id , NodeId parentId );2;1;9
+ItemManager.getItem( Path path );3;1;11
+ItemManager.safeGetJCRPath( Path path );2;0;8
+ItemManager.ItemManager( SessionItemStateManager itemStateProvider , HierarchyManager hierMgr , SessionImpl session , NodeDefinition rootNodeDef , NodeId rootNodeId );1;0;10
+ItemManager.safeGetJCRPath( ItemId id );2;0;8
+ItemManager.dump( PrintStream ps );4;2;24
+ItemManager.itemExists( ItemId itemId , Path path );3;1;12
+ItemManager.getDefinition( PropertyState state );2;1;13
+ShareableNodesCache.retrieveFirst( NodeId id );4;2;17
+ShareableNodesCache.evictAll( NodeId id );1;0;3
+ItemManager.createItemData( ItemState state , Path path , boolean permissionCheck );5;2;18
+ItemManager.getItemData( ItemId itemId , Path path , boolean permissionCheck );6;3;22
+ItemManager.itemDestroyed( ItemId id , ItemData data );2;0;8
+ItemManager.getRootNode( );1;0;3

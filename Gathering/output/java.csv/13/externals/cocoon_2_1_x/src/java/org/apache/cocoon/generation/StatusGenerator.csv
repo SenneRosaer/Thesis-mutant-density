@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StatusGenerator.service( ServiceManager manager );4;0;18
+StatusGenerator.configure( Configuration configuration );1;0;4
+StatusGenerator.addValue( String name , String value , Attributes atts );3;2;11
+StatusGenerator.genProperties( );2;0;11
+StatusGenerator.addMultilineValue( String name , List values , Attributes atts );4;4;14
+StatusGenerator.endGroup( );1;0;3
+StatusGenerator.addMultilineValue( String name , List values );1;0;3
+StatusGenerator.genLibrarylist( );6;1;27
+StatusGenerator.contextualize( Context context );1;0;3
+StatusGenerator.setup( SourceResolver resolver , Map objectModel , String src , Parameters par );3;0;10
+StatusGenerator.displayContinuation( WebContinuationDataBean wc );2;2;14
+StatusGenerator.startGroup( String name );1;0;3
+StatusGenerator.startGroup( String name , Attributes atts );2;1;5
+StatusGenerator.genStatus( );5;0;27
+StatusGenerator.addValue( String name , String value );1;0;3
+StatusGenerator.genVMStatus( );15;19;118
+StatusGenerator.dispose( );3;2;13
+StatusGenerator.generate( );1;0;9
+StatusGenerator.genContinuationsTree( );2;0;8

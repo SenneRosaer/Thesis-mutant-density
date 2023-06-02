@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FormHttpMessageReader.getDefaultCharset( );1;0;3
+FormHttpMessageReader.canRead( ResolvableType elementType , @ Nullable MediaType mediaType );5;5;7
+FormHttpMessageReader.setDefaultCharset( Charset charset );1;0;4
+FormHttpMessageReader.getMaxInMemorySize( );1;0;3
+FormHttpMessageReader.getReadableMediaTypes( );1;0;3
+FormHttpMessageReader.read( ResolvableType elementType , ReactiveHttpInputMessage message , Map < String , Object > hints );1;0;3
+FormHttpMessageReader.getMediaTypeCharset( @ Nullable MediaType mediaType );3;3;8
+***not in a method***;0;1;0
+FormHttpMessageReader.parseFormData( Charset charset , String body );3;3;16
+FormHttpMessageReader.setMaxInMemorySize( int byteCount );1;0;3
+FormHttpMessageReader.readMono( ResolvableType elementType , ReactiveHttpInputMessage message , Map < String , Object > hints );1;0;12
+FormHttpMessageReader.logFormData( MultiValueMap < String , String > formData , Map < String , Object > hints );2;2;6

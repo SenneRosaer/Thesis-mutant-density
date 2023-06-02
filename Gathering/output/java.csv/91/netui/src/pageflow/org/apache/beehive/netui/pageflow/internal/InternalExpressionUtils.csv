@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleActionVariableResolver.getValue( Object key );2;0;3
+SimpleActionVariableResolver.buildRequestScopeMap( HttpServletRequest servletRequest );2;0;15
+InternalExpressionUtils.evaluateCondition( String expression , Object actionForm , HttpServletRequest request , ServletContext servletContext );1;0;3
+SimpleActionVariableResolver.buildInitParamMap( ServletContext servletContext );2;0;15
+SimpleActionVariableResolver.enumerateKeys( );1;0;3
+SimpleActionVariableResolver.buildParamsMap( HttpServletRequest servletRequest );2;0;15
+SimpleActionVariableResolver.resolveVariable( String name );14;4;27
+SimpleActionVariableResolver.buildSessionScopeMap( HttpServletRequest servletRequest );3;1;17
+SimpleActionVariableResolver.buildCookieMap( HttpServletRequest httpServletRequest );3;3;11
+InternalExpressionUtils.evaluate( String expression , Class expectedType , Object actionForm , HttpServletRequest request , ServletContext servletContext );1;0;4
+InternalExpressionUtils.evaluateMessage( String expression , Object actionForm , HttpServletRequest request , ServletContext servletContext );1;0;3
+InternalExpressionUtils.getVariableResolver( Object actionForm , HttpServletRequest request , ServletContext servletContext );1;0;3
+SimpleActionVariableResolver.SimpleActionVariableResolver( Object actionForm , HttpServletRequest request , ServletContext servletContext );1;0;5
+SimpleActionVariableResolver.buildServletContextMap( ServletContext servletContext );2;0;15
+InternalExpressionUtils.getExpressionEvaluator( );1;0;3
+SimpleActionVariableResolver.isMutable( );1;0;1
+SimpleActionVariableResolver.buildHeaderMap( HttpServletRequest httpServletRequest );2;0;15
+SimpleActionVariableResolver.buildParamMap( HttpServletRequest servletRequest );2;0;15
+InternalExpressionUtils.InternalExpressionUtils( );1;0;1
+SimpleActionVariableResolver.buildHeadersMap( HttpServletRequest httpServletRequest );2;0;15

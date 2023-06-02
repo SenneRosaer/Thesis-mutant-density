@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JSONPResponseBodyAdvice.getContentType( MediaType contentType , ServerHttpRequest request , ServerHttpResponse response );1;0;3
+JSONPResponseBodyAdvice.JSONPResponseBodyAdvice( );1;0;2
+JSONPResponseBodyAdvice.beforeBodyWriteInternal( JSONPObject jsonpObject , MediaType contentType , MethodParameter returnType , ServerHttpRequest request , ServerHttpResponse response );1;0;2
+JSONPResponseBodyAdvice.beforeBodyWrite( Object body , MethodParameter returnType , MediaType selectedContentType , Class < ? extends HttpMessageConverter < ? > > selectedConverterType , ServerHttpRequest request , ServerHttpResponse response );4;2;18
+JSONPResponseBodyAdvice.supports( MethodParameter returnType , Class < ? extends HttpMessageConverter < ? > > converterType );3;2;5

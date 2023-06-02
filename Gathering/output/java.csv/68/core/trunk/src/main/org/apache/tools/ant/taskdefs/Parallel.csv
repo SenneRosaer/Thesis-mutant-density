@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Parallel.addDaemons( TaskList daemonTasks );2;1;6
+Parallel.killAll( TaskRunnable [ ] running );7;8;18
+Parallel.setThreadCount( int numThreads );1;0;3
+Parallel.spinThreads( );25;26;102
+Parallel.updateThreadCounts( );3;3;8
+Parallel.setPollInterval( int pollInterval );1;0;2
+Parallel.setTimeout( long timeout );1;0;3
+TaskRunnable.getException( );1;0;3
+Parallel.setThreadsPerProcessor( int numThreadsPerProcessor );1;0;3
+TaskList.addTask( Task nestedTask );1;0;3
+Parallel.getNumProcessors( );2;0;12
+Parallel.setFailOnAny( boolean failOnAny );1;0;3
+TaskRunnable.interrupt( );1;0;3
+Parallel.run( );2;0;11
+Parallel.processExceptions( TaskRunnable [ ] runnables );7;8;20
+TaskRunnable.isFinished( );1;0;3
+Parallel.execute( );2;1;7
+TaskRunnable.run( );3;0;17
+Parallel.addTask( Task nestedTask );1;0;3
+TaskRunnable.TaskRunnable( Task task );1;0;3

@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractWidgetDefinition.checkMutable( );2;1;5
+AbstractWidgetDefinition.getFormDefinition( );4;2;12
+AbstractWidgetDefinition.addValidator( WidgetValidator validator );2;1;7
+AbstractWidgetDefinition.makeImmutable( );1;0;3
+AbstractWidgetDefinition.setParent( WidgetDefinition definition );1;0;3
+AbstractWidgetDefinition.getLocation( );1;0;3
+AbstractWidgetDefinition.getId( );1;0;3
+AbstractWidgetDefinition.getAttribute( String name );2;1;6
+AbstractWidgetDefinition.generateDisplayData( String name , ContentHandler contentHandler );3;2;8
+AbstractWidgetDefinition.getState( );1;0;3
+AbstractWidgetDefinition.generateDisplayData( ContentHandler contentHandler );3;3;12
+AbstractWidgetDefinition.getParent( );1;0;3
+AbstractWidgetDefinition.initializeFrom( WidgetDefinition definition );8;8;27
+AbstractWidgetDefinition.addCreateListener( CreateListener listener );1;0;4
+AbstractWidgetDefinition.checkCompleteness( );4;4;5
+AbstractWidgetDefinition.setDisplayData( Map displayData );6;5;19
+AbstractWidgetDefinition.generateLabel( ContentHandler contentHandler );1;0;3
+AbstractWidgetDefinition.widgetCreated( Widget widget );2;1;5
+AbstractWidgetDefinition.fireCreateEvent( CreateEvent event );3;2;8
+AbstractWidgetDefinition.setEnclosingLibrary( Library library );1;0;3
+AbstractWidgetDefinition.setAttributes( Map attributes );3;2;8
+AbstractWidgetDefinition.setLocation( Location location );1;0;4
+AbstractWidgetDefinition.validate( Widget widget );4;2;13
+AbstractWidgetDefinition.setId( String id );1;0;4
+AbstractWidgetDefinition.setState( WidgetState state );1;0;4
+AbstractWidgetDefinition.getEnclosingLibrary( );2;1;6

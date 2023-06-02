@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSAttributeChecker.checkAttributes( Element element , boolean isGlobal , XSDocumentInfo schemaDoc , boolean enumAsQName );39;39;127
+SmallContainer.get( String key );3;2;8
+LargeContainer.put( String key , OneAttr value );1;1;4
+XSAttributeChecker.XSAttributeChecker( XSDHandler schemaHandler );1;0;3
+***not in a method***;0;106;0
+LargeContainer.get( String key );1;0;4
+Container.getContainer( int size );2;1;6
+XSAttributeChecker.resolveNamespace( Element element , Attr [ ] attrs , SchemaNamespaceSupport nsSupport );6;4;19
+XSAttributeChecker.checkAttributes( Element element , boolean isGlobal , XSDocumentInfo schemaDoc );1;0;3
+XSAttributeChecker.reset( SymbolTable symbolTable );1;0;4
+XSAttributeChecker.returnAttrArray( Object [ ] attrArray , XSDocumentInfo schemaDoc );7;9;14
+OneAttr.OneAttr( String name , int dvIndex , int valueIndex , Object dfltValue );1;0;6
+XSAttributeChecker.getAvailableArray( );3;6;12
+XSAttributeChecker.checkNonSchemaAttributes( XSGrammarBucket grammarBucket );7;7;36
+SmallContainer.put( String key , OneAttr value );1;1;4
+LargeContainer.LargeContainer( int size );1;2;4
+XSAttributeChecker.normalize( String content , short ws );21;36;37
+XSAttributeChecker.validate( Object [ ] attrValues , String attr , String ivalue , int dvIndex , XSDocumentInfo schemaDoc );79;44;278
+SmallContainer.SmallContainer( int size );1;0;4
+XSAttributeChecker.reportSchemaError( String key , Object [ ] args , Element ele );1;0;3

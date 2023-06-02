@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MarshallingMessageConverter.canConvertFrom( Message < ? > message , Class < ? > targetClass );3;3;4
+MarshallingMessageConverter.getUnmarshaller( );1;0;3
+MarshallingMessageConverter.getMarshaller( );1;0;3
+MarshallingMessageConverter.setMarshaller( @ Nullable Marshaller marshaller );1;0;3
+MarshallingMessageConverter.MarshallingMessageConverter( Marshaller marshaller );2;0;8
+MarshallingMessageConverter.canConvertTo( Object payload , @ Nullable MessageHeaders headers );3;3;4
+MarshallingMessageConverter.MarshallingMessageConverter( MimeType ... supportedMimeTypes );1;0;3
+MarshallingMessageConverter.MarshallingMessageConverter( );1;0;4
+MarshallingMessageConverter.setUnmarshaller( @ Nullable Unmarshaller unmarshaller );1;0;3
+MarshallingMessageConverter.convertToInternal( Object payload , @ Nullable MessageHeaders headers , @ Nullable Object conversionHint );3;2;21
+MarshallingMessageConverter.getSource( Object payload );2;0;8
+MarshallingMessageConverter.supports( Class < ? > clazz );1;0;3
+MarshallingMessageConverter.convertFromInternal( Message < ? > message , Class < ? > targetClass , @ Nullable Object conversionHint );3;2;14

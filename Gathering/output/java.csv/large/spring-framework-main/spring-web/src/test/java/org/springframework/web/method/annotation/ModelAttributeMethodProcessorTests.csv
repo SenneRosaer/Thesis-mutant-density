@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ModelAttributeMethodProcessorTests.resolveArgumentBindingDisabled( );1;0;11
+StubRequestDataBinder.StubRequestDataBinder( Object target , String objectName );1;0;3
+ModelAttributeMethodProcessorTests.notAnnotatedReturnValue( );1;0;3
+StubRequestDataBinder.validate( Object ... validationHints );1;0;3
+ModelAttributeMethodProcessorTests.supportedParametersInDefaultResolutionMode( );1;0;8
+ModelAttributeMethodProcessorTests.resolveArgumentFromModel( );1;0;5
+StubRequestDataBinder.bind( WebRequest request );1;0;3
+ModelAttributeMethodProcessorTests.resolveArgumentBindingDisabledPreviously( );1;0;12
+ModelAttributeMethodProcessorTests.resolveArgumentValidation( );1;0;11
+ModelAttributeMethodProcessorTests.resolveConstructorListArgumentFromCommaSeparatedRequestParameter( );1;0;15
+StubRequestDataBinder.isValidateInvoked( );1;0;3
+ModelAttributeMethodProcessorTests.handleAnnotatedReturnValue( );1;0;4
+ModelAttributeMethodProcessorTests.bindExceptionRequired( );1;0;4
+TestBeanWithConstructorArgs.TestBeanWithConstructorArgs( List < String > listOfStrings );1;0;3
+StubRequestDataBinder.validate( );1;0;3
+ModelAttributeMethodProcessorTests.supportedReturnTypesInDefaultResolutionMode( );1;0;5
+ModelAttributeMethodProcessorTests.resolveArgumentOrdering( );1;1;15
+ModelAttributeMethodProcessorTests.annotatedReturnValue( );1;0;3
+ModelAttributeMethodProcessorTests.supportedParameters( );1;0;7
+ModelAttributeMethodProcessorTests.handleNotAnnotatedReturnValue( );1;0;5
+ModelAttributeMethodProcessorTests.setup( );1;2;19
+ModelAttributeMethodProcessorTests.testGetAttributeFromModel( String expectedAttrName , MethodParameter param );1;0;9
+ModelAttributeMethodProcessorTests.supportedReturnTypes( );1;0;5
+ModelAttributeMethodProcessorTests.resolveArgumentViaDefaultConstructor( );1;0;7
+ModelAttributeHandler.modelAttribute( @ ModelAttribute ( "attrName" ) @ Valid TestBean annotatedAttr , Errors errors , int intArg , @ ModelAttribute TestBean defaultNameAttr , @ ModelAttribute ( name = "noBindAttr" , binding = false ) @ Valid TestBean noBindAttr , TestBean notAnnotatedAttr , TestBeanWithConstructorArgs beanWithConstructorArgs );1;0;2
+ModelAttributeMethodProcessorTests.resolveArgumentBindException( );1;0;12
+StubRequestDataBinder.isBindInvoked( );1;0;3

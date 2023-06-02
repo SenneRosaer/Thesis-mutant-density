@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AxisTypeRegistrar.registerAsXMLBean( Class cls , QName xmlType );1;0;6
+AxisTypeRegistrar.AxisTypeRegistrar( TypeMapping tm , BindingLookupStrategy lookupStrategy , WsdlComplexTypes complexTypes );1;0;3
+AxisTypeRegistrar.registerAs( Class cls , QName xmlType , Object serializer );2;0;11
+AxisTypeRegistrar.registerAsBean( Class cls , QName xmlType , WsdlOperation . SOAPBindingStyle style , WsdlOperation . SOAPBindingUse use );5;4;16
+AxisTypeRegistrar.registerAsArray( Class cls , QName xmlType , QName componentType , WsdlOperation . SOAPBindingStyle style , WsdlOperation . SOAPBindingUse use );7;8;29

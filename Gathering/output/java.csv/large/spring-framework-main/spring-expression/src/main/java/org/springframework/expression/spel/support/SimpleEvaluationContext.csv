@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleEvaluationContext.forPropertyAccessors( PropertyAccessor ... accessors );3;1;9
+SimpleEvaluationContext.getBeanResolver( );1;0;3
+Builder.build( );1;0;3
+SimpleEvaluationContext.getOperatorOverloader( );1;0;3
+SimpleEvaluationContext.SimpleEvaluationContext( List < PropertyAccessor > accessors , List < MethodResolver > resolvers , @ Nullable TypeConverter converter , @ Nullable TypedValue rootObject );3;2;6
+Builder.Builder( PropertyAccessor ... accessors );1;0;3
+Builder.withTypedRootObject( Object rootObject , TypeDescriptor typeDescriptor );1;0;4
+SimpleEvaluationContext.lookupVariable( String name );1;0;3
+SimpleEvaluationContext.getTypeConverter( );1;0;3
+Builder.withRootObject( Object rootObject );1;0;4
+Builder.withConversionService( ConversionService conversionService );1;0;4
+Builder.withTypeConverter( TypeConverter converter );1;0;4
+SimpleEvaluationContext.getTypeLocator( );1;0;3
+SimpleEvaluationContext.forReadWriteDataBinding( );1;0;3
+SimpleEvaluationContext.forReadOnlyDataBinding( );1;0;3
+SimpleEvaluationContext.getTypeComparator( );1;0;3
+SimpleEvaluationContext.getRootObject( );1;0;3
+SimpleEvaluationContext.getMethodResolvers( );1;0;3
+SimpleEvaluationContext.setVariable( String name , @ Nullable Object value );1;0;3
+Builder.withInstanceMethods( );1;0;4
+Builder.withMethodResolvers( MethodResolver ... resolvers );3;1;10
+SimpleEvaluationContext.getConstructorResolvers( );1;0;3
+SimpleEvaluationContext.getPropertyAccessors( );1;0;3

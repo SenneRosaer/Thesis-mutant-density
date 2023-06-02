@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BaseValidationRuleGrammar.BaseValidationRuleGrammar( CoreAnnotationProcessorEnv env , Diagnostics diags , RuntimeVersionChecker rvc , String [ ] [ ] requiredAttrs );1;0;4
+BaseValidationRuleGrammar.BaseValidationRuleGrammar( CoreAnnotationProcessorEnv env , Diagnostics diags , RuntimeVersionChecker rvc );1;0;6
+BaseValidationRuleGrammar.getMutuallyExclusiveAttrs( );1;0;3
+BaseValidationRuleGrammar.getRequiredAttrs( );1;0;3
+BaseValidationRuleGrammar.getAttrDependencies( );1;0;3
+BaseValidationRuleGrammar.onBeginCheck( AnnotationInstance annotation , AnnotationInstance [ ] parentAnnotations , MemberDeclaration classMember );12;16;34

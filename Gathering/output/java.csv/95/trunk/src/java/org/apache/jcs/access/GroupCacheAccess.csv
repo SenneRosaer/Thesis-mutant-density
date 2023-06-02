@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GroupCacheAccess.putInGroup( Object name , String groupName , Object value );1;0;3
+GroupCacheAccess.getGroupKeys( String group );1;0;3
+GroupCacheAccess.getGroupAccess( String region );2;1;10
+GroupCacheAccess.getGroupAttrName( String group , Object name );1;0;4
+GroupCacheAccess.getGroupAccess( String region , ICompositeCacheAttributes icca );2;1;10
+GroupCacheAccess.putInGroup( Object name , String groupName , Object value , IElementAttributes attr );2;1;11
+GroupCacheAccess.remove( Object name , String group );1;0;4
+GroupCacheAccess.getFromGroup( Object name , String group );2;1;4
+GroupCacheAccess.GroupCacheAccess( CompositeCache cacheControl );1;0;3
+GroupCacheAccess.invalidateGroup( String group );1;0;3

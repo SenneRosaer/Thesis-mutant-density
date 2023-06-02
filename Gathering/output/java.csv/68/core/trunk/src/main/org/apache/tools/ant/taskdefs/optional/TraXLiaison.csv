@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TraXLiaison.TraXLiaison( );1;0;2
+TraXLiaison.setFactory( String name );1;0;3
+TraXLiaison.setEntityResolver( EntityResolver aResolver );1;0;3
+TraXLiaison.setAttribute( String name , Object value );1;0;4
+TraXLiaison.getSource( InputStream is , File infile );3;1;19
+TraXLiaison.setStylesheet( Resource stylesheet );4;4;10
+TraXLiaison.getFactory( );10;8;44
+TraXLiaison.setLogger( XSLTLogger l );1;0;3
+TraXLiaison.setURIResolver( URIResolver aResolver );1;0;3
+TraXLiaison.transform( File infile , File outfile );2;1;19
+TraXLiaison.readTemplates( );2;1;14
+TraXLiaison.warning( TransformerException e );2;1;5
+TraXLiaison.createTransformer( );9;7;44
+TraXLiaison.logError( TransformerException e , String type );8;8;38
+TraXLiaison.getSystemId( File file );1;0;3
+TraXLiaison.setTransformationParameters( );2;0;8
+TraXLiaison.resourceToURI( Resource resource );3;1;12
+TraXLiaison.getSource( InputStream is , Resource resource );3;1;19
+TraXLiaison.error( TransformerException e );1;0;3
+TraXLiaison.addParam( String name , String value );1;0;3
+TraXLiaison.configure( XSLTProcess xsltTask );5;2;26
+TraXLiaison.setOutputProperty( String name , String value );1;0;4
+TraXLiaison.fatalError( TransformerException e );1;0;4
+TraXLiaison.setStylesheet( File stylesheet );1;0;6

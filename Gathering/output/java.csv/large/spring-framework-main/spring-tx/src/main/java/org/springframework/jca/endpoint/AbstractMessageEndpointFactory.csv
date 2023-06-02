@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractMessageEndpointFactory.setBeanName( String beanName );1;0;3
+AbstractMessageEndpointFactory.createEndpoint( XAResource xaResource , long timeout );1;0;5
+TransactionDelegate.TransactionDelegate( @ Nullable XAResource xaResource );4;5;8
+AbstractMessageEndpointFactory.setTransactionManager( Object transactionManager );3;0;13
+AbstractMessageEndpoint.beforeDelivery( @ Nullable Method method );2;1;13
+AbstractMessageEndpointFactory.createEndpoint( XAResource xaResource );1;0;5
+AbstractMessageEndpointFactory.getEndpointClass( );1;0;3
+AbstractMessageEndpoint.release( );3;1;11
+TransactionDelegate.setRollbackOnly( );2;1;5
+AbstractMessageEndpointFactory.isDeliveryTransacted( Method method );1;1;3
+AbstractMessageEndpointFactory.setTransactionTimeout( int transactionTimeout );1;0;3
+AbstractMessageEndpointFactory.setTransactionName( String transactionName );1;0;3
+AbstractMessageEndpoint.onEndpointException( Throwable ex );1;1;5
+AbstractMessageEndpointFactory.setTransactionFactory( TransactionFactory transactionFactory );1;0;3
+AbstractMessageEndpoint.initXAResource( XAResource xaResource );1;0;3
+TransactionDelegate.endTransaction( );3;1;16
+AbstractMessageEndpointFactory.getActivationName( );1;0;3
+***not in a method***;0;1;0
+TransactionDelegate.beginTransaction( );3;3;6
+AbstractMessageEndpoint.hasBeforeDeliveryBeenCalled( );1;0;3
+AbstractMessageEndpoint.afterDelivery( );2;1;13

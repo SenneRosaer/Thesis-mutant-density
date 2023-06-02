@@ -1,0 +1,5 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractHttpReceivingTransportHandler.handleReadError( ServerHttpResponse response , String error , String sessionId );2;0;9
+AbstractHttpReceivingTransportHandler.checkSessionType( SockJsSession session );1;0;3
+AbstractHttpReceivingTransportHandler.handleRequest( ServerHttpRequest request , ServerHttpResponse response , WebSocketHandler wsHandler , SockJsSession wsSession );1;0;5
+AbstractHttpReceivingTransportHandler.handleRequestInternal( ServerHttpRequest request , ServerHttpResponse response , WebSocketHandler wsHandler , AbstractHttpSockJsSession sockJsSession );6;1;31

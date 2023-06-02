@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JbiServiceAssemblyDescriptorWriter.buildNamespaceMap( List connections );2;0;11
+JbiServiceAssemblyDescriptorWriter.JbiServiceAssemblyDescriptorWriter( String encoding );1;0;3
+JbiServiceAssemblyDescriptorWriter.writeServiceUnit( XMLWriter writer , DependencyInformation serviceUnitInfo );2;1;24
+JbiServiceAssemblyDescriptorWriter.close( Writer closeable );3;1;8
+JbiServiceAssemblyDescriptorWriter.write( File descriptor , String name , String description , List uris , List connections );5;1;40
+JbiServiceAssemblyDescriptorWriter.writeConnection( Map namespaceMap , XMLWriter writer , Connection connection );3;2;24

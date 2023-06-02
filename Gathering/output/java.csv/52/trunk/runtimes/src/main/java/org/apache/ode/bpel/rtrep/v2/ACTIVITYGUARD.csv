@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TCONDINTERCEPT.fault( FaultData faultData );3;1;9
+TCONDINTERCEPT.onCancel( );1;0;3
+TCONDINTERCEPT.run( );19;0;117
+ACTIVITYGUARD.run( );7;0;45
+ACTIVITYGUARD.linkStatus( boolean value );1;0;4
+TCONDINTERCEPT.terminate( );2;0;6
+TCONDINTERCEPT.TCONDINTERCEPT( ParentScopeChannel in );1;0;3
+ACTIVITYGUARD.createActivity( ActivityInfo activity , ScopeFrame scopeFrame , LinkFrame linkFrame );1;0;3
+TCONDINTERCEPT.cancelled( );1;0;6
+TCONDINTERCEPT.cancel( );2;0;7
+ACTIVITYGUARD.createActivity( ActivityInfo activity );1;0;3
+ACTIVITYGUARD.startGuardedActivity( );1;0;5
+TCONDINTERCEPT.requireRecovery( );7;0;44
+ACTIVITYGUARD.terminate( );1;0;4
+ACTIVITYGUARD.ACTIVITYGUARD( ActivityInfo self , ScopeFrame scopeFrame , LinkFrame linkFrame );1;0;4
+ACTIVITYGUARD.evaluateJoinCondition( );4;2;14
+TCONDINTERCEPT.failure( String reason , Element data );9;10;35
+TCONDINTERCEPT.onTimeout( );1;1;4
+TCONDINTERCEPT.retry( );2;1;8
+ACTIVITYGUARD.evaluateTransitionCondition( OExpression transitionCondition );2;1;5
+TCONDINTERCEPT.compensate( OScope scope , SynchChannel ret );1;0;4
+TCONDINTERCEPT.completed( FaultData faultData , Set < CompensationHandler > compensations );5;2;23

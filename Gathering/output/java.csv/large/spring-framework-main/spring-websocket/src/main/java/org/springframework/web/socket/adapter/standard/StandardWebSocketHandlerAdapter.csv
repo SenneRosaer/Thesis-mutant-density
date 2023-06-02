@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandardWebSocketHandlerAdapter.onError( jakarta . websocket . Session session , Throwable exception );2;0;8
+StandardWebSocketHandlerAdapter.onMessage( ByteBuffer message );1;0;3
+StandardWebSocketHandlerAdapter.StandardWebSocketHandlerAdapter( WebSocketHandler handler , StandardWebSocketSession wsSession );1;0;6
+StandardWebSocketHandlerAdapter.onOpen( final jakarta . websocket . Session session , EndpointConfig config );3;0;43
+StandardWebSocketHandlerAdapter.onMessage( jakarta . websocket . PongMessage message );1;0;3
+StandardWebSocketHandlerAdapter.onMessage( String message );1;0;3
+StandardWebSocketHandlerAdapter.handlePongMessage( jakarta . websocket . Session session , ByteBuffer payload );2;0;9
+StandardWebSocketHandlerAdapter.handleBinaryMessage( jakarta . websocket . Session session , ByteBuffer payload , boolean isLast );2;0;9
+StandardWebSocketHandlerAdapter.onMessage( String message , boolean isLast );1;0;3
+StandardWebSocketHandlerAdapter.onClose( jakarta . websocket . Session session , CloseReason reason );3;0;11
+StandardWebSocketHandlerAdapter.onMessage( ByteBuffer message , boolean isLast );1;0;3
+StandardWebSocketHandlerAdapter.handleTextMessage( jakarta . websocket . Session session , String payload , boolean isLast );2;0;9

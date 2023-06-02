@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransformerUtils.asTransformer( Closure closure );1;0;3
+TransformerUtils.mapTransformer( Map map );1;0;3
+TransformerUtils.TransformerUtils( );1;0;3
+TransformerUtils.chainedTransformer( Transformer transformer1 , Transformer transformer2 );1;0;3
+TransformerUtils.switchTransformer( Predicate [ ] predicates , Transformer [ ] transformers );1;0;3
+TransformerUtils.switchMapTransformer( Map objectsAndTransformers );3;2;19
+TransformerUtils.asTransformer( Predicate predicate );1;0;3
+TransformerUtils.switchTransformer( Map predicatesAndTransformers );1;0;3
+TransformerUtils.instantiateTransformer( Class [ ] paramTypes , Object [ ] args );1;0;3
+TransformerUtils.switchTransformer( Predicate [ ] predicates , Transformer [ ] transformers , Transformer defaultTransformer );1;0;3
+TransformerUtils.switchTransformer( Predicate predicate , Transformer trueTransformer , Transformer falseTransformer );1;0;3
+TransformerUtils.nopTransformer( );1;0;3
+TransformerUtils.asTransformer( Factory factory );1;0;3
+TransformerUtils.invokerTransformer( String methodName );1;0;3
+TransformerUtils.exceptionTransformer( );1;0;3
+TransformerUtils.stringValueTransformer( );1;0;3
+TransformerUtils.chainedTransformer( Collection transformers );1;0;3
+TransformerUtils.chainedTransformer( Transformer [ ] transformers );1;0;3
+TransformerUtils.instantiateTransformer( );1;0;3
+TransformerUtils.invokerTransformer( String methodName , Class [ ] paramTypes , Object [ ] args );1;0;3
+TransformerUtils.constantTransformer( Object constantToReturn );1;0;3
+TransformerUtils.nullTransformer( );1;0;3
+TransformerUtils.cloneTransformer( );1;0;3

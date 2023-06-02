@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestAttributeMethodArgumentResolverTests.handleWithRequestAttribute( @ RequestAttribute Foo foo , @ RequestAttribute ( "specialFoo" ) Foo namedFoo , @ RequestAttribute ( name = "foo" , required = false ) Foo notRequiredFoo , @ RequestAttribute ( name = "foo" ) Optional < Foo > optionalFoo , @ RequestAttribute Mono < Foo > fooMono , String notSupported );1;0;2
+RequestAttributeMethodArgumentResolverTests.resolveOptional( );4;0;18
+RequestAttributeMethodArgumentResolverTests.supportsParameter( );1;0;8
+RequestAttributeMethodArgumentResolverTests.resolve( );1;0;12
+RequestAttributeMethodArgumentResolverTests.resolveNotRequired( );1;0;9
+RequestAttributeMethodArgumentResolverTests.setup( );1;0;6
+RequestAttributeMethodArgumentResolverTests.resolveMonoParameter( );2;0;19
+RequestAttributeMethodArgumentResolverTests.resolveWithName( );1;0;7

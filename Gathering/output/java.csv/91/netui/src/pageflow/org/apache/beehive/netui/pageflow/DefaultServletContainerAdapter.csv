@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultServletContainerAdapter.createControlBeanContext( HttpServletRequest request , HttpServletResponse response );1;0;3
+***not in a method***;0;2;0
+DefaultServletContainerAdapter.ensureFailover( String attrName , Object attrVal , HttpServletRequest request );1;0;2
+DefaultServletContainerAdapter.logout( boolean invalidateSessions , HttpServletRequest request , HttpServletResponse response );1;0;4
+DefaultServletContainerAdapter.createEventReporter( );1;0;3
+DefaultServletContainerAdapter.endRequest( HttpServletRequest request , HttpServletResponse response );1;0;2
+DefaultServletContainerAdapter.getFullContextPath( HttpServletRequest request );1;0;3
+DefaultServletContainerAdapter.getPlatformName( );1;0;3
+DefaultServletContainerAdapter.getEventReporter( );1;0;3
+DefaultServletContainerAdapter.doSecurityRedirect( String path , HttpServletRequest request , HttpServletResponse response );1;0;3
+DefaultServletContainerAdapter.getFactory( Class factoryType , String id , FactoryConfig config );1;0;3
+DefaultServletContainerAdapter.login( String username , String password , HttpServletRequest request , HttpServletResponse response );1;0;4
+DefaultServletContainerAdapter.getSecureListenPort( HttpServletRequest request );1;1;3
+DefaultServletContainerAdapter.beginRequest( HttpServletRequest request , HttpServletResponse response );1;0;2
+DefaultServletContainerAdapter.isInProductionMode( );1;0;3
+DefaultServletContainerAdapter.getSecurityProtocol( String path , HttpServletRequest request );1;0;3
+DefaultServletContainerAdapter.DefaultServletContainerAdapter( );1;0;2
+DefaultServletContainerAdapter.getListenPort( HttpServletRequest request );1;1;3
+DefaultServletContainerAdapter.setContext( AdapterContext context );1;0;6
+DefaultServletContainerAdapter.getServletContext( );1;0;3

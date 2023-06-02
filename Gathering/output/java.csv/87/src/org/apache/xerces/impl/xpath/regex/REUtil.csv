@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+REUtil.quoteMeta( String literal );7;10;17
+REUtil.createRegex( String pattern , String options );6;7;29
+REUtil.decomposeToSurrogates( int ch );1;5;7
+REUtil.stripExtendedComment( String regex );19;33;33
+REUtil.isHighSurrogate( int ch );1;2;3
+REUtil.composeFromSurrogates( int high , int low );1;5;3
+REUtil.REUtil( );1;0;2
+REUtil.matches( String regex , String target );1;0;3
+REUtil.matches( String regex , String options , String target );1;0;3
+REUtil.main( String [ ] argv );21;24;65
+REUtil.parseOptions( String opts );4;6;11
+REUtil.createOptionString( int options );11;20;24
+REUtil.getOptionValue( int ch );11;0;37
+REUtil.isLowSurrogate( int ch );1;2;3
+REUtil.dumpString( String v );2;2;7
+REUtil.substring( CharacterIterator iterator , int begin , int end );2;4;6

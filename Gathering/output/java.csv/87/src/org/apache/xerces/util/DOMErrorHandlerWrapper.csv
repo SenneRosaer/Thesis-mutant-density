@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMErrorHandlerWrapper.setErrorHandler( DOMErrorHandler errorHandler );1;0;3
+DOMErrorHandlerWrapper.warning( String domain , String key , XMLParseException exception );3;2;17
+DOMErrorHandlerWrapper.error( String domain , String key , XMLParseException exception );3;2;17
+DOMErrorHandlerWrapper.DOMErrorHandlerWrapper( );1;0;3
+DOMErrorHandlerWrapper.printError( DOMError error );7;8;41
+DOMErrorTypeMap.getDOMErrorType( XMLErrorCode error );1;0;3
+DOMErrorTypeMap.DOMErrorTypeMap( );1;0;1
+DOMErrorHandlerWrapper.DOMErrorHandlerWrapper( DOMErrorHandler domErrorHandler );1;0;3
+DOMErrorHandlerWrapper.handleError( DOMError error );1;0;4
+DOMErrorHandlerWrapper.fatalError( String domain , String key , XMLParseException exception );4;3;19
+DOMErrorHandlerWrapper.getErrorHandler( );1;0;3

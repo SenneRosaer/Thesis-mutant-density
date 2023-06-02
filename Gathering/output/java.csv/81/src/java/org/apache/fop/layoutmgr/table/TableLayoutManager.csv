@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TableLayoutManager.addAreas( PositionIterator parentIter , LayoutContext layoutContext );5;4;48
+TableLayoutManager.getParentArea( Area childArea );2;1;10
+TableLayoutManager.getBaseLength( int lengthBase , FObj fobj );6;2;20
+TableLayoutManager.notifyPadding( RelSide side , MinOptMax effectiveLength );4;4;12
+TableLayoutManager.resetSpaces( );1;0;8
+TableLayoutManager.getKeepTogetherStrength( );1;0;5
+TableLayoutManager.getHalfBorderSeparationBPD( );1;0;3
+TableLayoutManager.addChildArea( Area childArea );2;1;5
+TableLayoutManager.getColumns( );1;0;3
+TableLayoutManager.getKeepWithNextStrength( );1;0;3
+TableLayoutManager.notifyBorder( RelSide side , MinOptMax effectiveLength );4;4;12
+TableLayoutManager.getHalfBorderSeparationIPD( );1;0;3
+ColumnBackgroundInfo.ColumnBackgroundInfo( TableColumn column , Block backgroundArea , int xShift );1;0;5
+TableLayoutManager.getNextKnuthElements( LayoutContext context , int alignment );14;15;80
+TableLayoutManager.TableLayoutManager( Table node );1;0;4
+TableLayoutManager.getKeepWithPreviousStrength( );1;0;3
+TableLayoutManager.negotiateBPDAdjustment( int adj , KnuthElement lastElement );1;0;3
+TableLayoutManager.addBackgroundArea( Block background );1;0;3
+TableLayoutManager.initialize( );4;5;22
+TableLayoutManager.discardSpace( KnuthGlue spaceGlue );1;0;2
+TableLayoutManager.notifySpace( RelSide side , MinOptMax effectiveLength );4;7;15
+TableLayoutManager.registerColumnBackgroundArea( TableColumn column , Block backgroundArea , int xShift );2;1;7
+TableLayoutManager.getTable( );1;0;3

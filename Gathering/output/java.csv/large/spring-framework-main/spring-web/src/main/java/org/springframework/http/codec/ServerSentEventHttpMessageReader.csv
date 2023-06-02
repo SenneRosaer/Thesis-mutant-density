@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServerSentEventHttpMessageReader.read( ResolvableType elementType , ReactiveHttpInputMessage message , Map < String , Object > hints );3;1;12
+ServerSentEventHttpMessageReader.getReadableMediaTypes( );1;0;3
+ServerSentEventHttpMessageReader.isServerSentEvent( ResolvableType elementType );1;0;3
+ServerSentEventHttpMessageReader.ServerSentEventHttpMessageReader( @ Nullable Decoder < ? > decoder );1;0;3
+ServerSentEventHttpMessageReader.setMaxInMemorySize( int byteCount );1;0;3
+ServerSentEventHttpMessageReader.getDecoder( );1;0;3
+ServerSentEventHttpMessageReader.getMaxInMemorySize( );1;0;3
+ServerSentEventHttpMessageReader.readMono( ResolvableType elementType , ReactiveHttpInputMessage message , Map < String , Object > hints );2;1;8
+ServerSentEventHttpMessageReader.buildEvent( List < String > lines , ResolvableType valueType , boolean shouldWrap , Map < String , Object > hints );18;9;46
+ServerSentEventHttpMessageReader.ServerSentEventHttpMessageReader( );1;0;3
+LimitTracker.afterLineParsed( String line );5;5;17
+ServerSentEventHttpMessageReader.canRead( ResolvableType elementType , @ Nullable MediaType mediaType );2;1;3
+ServerSentEventHttpMessageReader.decodeData( StringBuilder data , ResolvableType dataType , Map < String , Object > hints );3;3;11
+LimitTracker.raiseLimitException( );1;0;3

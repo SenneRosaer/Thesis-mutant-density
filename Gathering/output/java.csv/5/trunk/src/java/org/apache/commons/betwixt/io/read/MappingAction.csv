@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Base.body( String text , ReadContext context );1;0;2
+Ignore.body( String text , ReadContext context );1;0;2
+Ignore.next( String namespace , String name , Attributes attributes , ReadContext context );1;0;3
+Ignore.begin( String namespace , String name , Attributes attributes , ReadContext context );1;0;3
+Base.next( String namespace , String name , Attributes attributes , ReadContext context );1;0;3
+Base.end( ReadContext context );1;0;3
+Base.begin( String namespace , String name , Attributes attributes , ReadContext context );2;1;9
+Ignore.end( ReadContext context );1;0;2

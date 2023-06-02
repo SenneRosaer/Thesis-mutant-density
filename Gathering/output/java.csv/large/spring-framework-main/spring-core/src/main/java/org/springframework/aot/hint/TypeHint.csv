@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Builder.withMethod( String name , List < TypeReference > parameterTypes , ExecutableMode mode );1;0;3
+ExecutableKey.ExecutableKey( String name , List < TypeReference > parameterTypes );1;0;4
+TypeHint.getType( );1;0;3
+TypeHint.builtWith( MemberCategory ... memberCategories );1;0;3
+Builder.build( );1;0;3
+TypeHint.getReachableType( );1;0;3
+TypeHint.fields( );1;0;3
+TypeHint.of( TypeReference type );1;0;4
+TypeHint.constructors( );1;0;3
+Builder.withMethod( String name , List < TypeReference > parameterTypes , Consumer < ExecutableHint . Builder > methodHint );1;0;7
+Builder.onReachableType( Class < ? > reachableType );1;0;4
+ExecutableKey.hashCode( );1;0;3
+Builder.withField( String name );1;0;4
+Builder.Builder( TypeReference type );1;0;3
+ExecutableKey.equals( Object o );5;5;10
+Builder.withConstructor( List < TypeReference > parameterTypes , ExecutableMode mode );1;0;3
+Builder.withMembers( MemberCategory ... memberCategories );1;0;4
+TypeHint.toString( );1;0;5
+Builder.withConstructor( List < TypeReference > parameterTypes , Consumer < ExecutableHint . Builder > constructorHint );1;0;7
+Builder.onReachableType( TypeReference reachableType );1;0;4
+TypeHint.methods( );1;0;3
+TypeHint.TypeHint( Builder builder );1;0;8
+TypeHint.getMemberCategories( );1;0;3

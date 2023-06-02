@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Tag.getName( );1;0;3
+Tag.getStringContent( );3;1;9
+Tag.getNameSpace( String name );2;1;9
+Tag.Tag( String name , String content );1;0;4
+Tag.spaces( PrintWriter pw , int n );2;2;4
+Tag.addContent( Tag tag );1;0;4
+Tag.escape( String s );6;3;23
+Tag.rename( String string );1;0;3
+Tag.addAttribute( String key , int value );1;0;3
+Tag.getLocalName( );2;2;6
+Tag.getContents( String tag );4;1;9
+Tag.addAttribute( String key , Object value );2;1;5
+Tag.select( String path );1;0;3
+Tag.addAttribute( String key , String value );1;0;3
+Tag.getAttributes( );1;0;3
+Tag.convert( Collection c , String type , Tag parent );2;0;6
+Tag.select( String path , Vector results , Tag mapping );12;5;36
+Tag.match( String search , Tag child , Tag mapping );13;18;30
+Tag.getAttribute( String key , String deflt );2;1;4
+Tag.getContents( );1;0;3
+Tag.Tag( String name , Map attributes );1;0;4
+Tag.addContent( String string );1;0;3
+Tag.getContentsAsString( StringBuffer sb );3;0;9
+Tag.findRecursiveAttribute( String name );3;2;8
+Tag.toString( );1;0;5
+Tag.Tag( String name );1;0;3
+Tag.print( int indent , PrintWriter pw );7;4;39
+Tag.getNameSpace( );1;0;3
+Tag.getContentsAsString( );1;0;5
+Tag.addAttribute( String key , Date value );1;0;3
+Tag.formatted( PrintWriter pw , int left , int width , String s );8;12;30
+Tag.getString( String path );5;7;21
+Tag.Tag( String name , String [ ] attributes );2;3;5
+Tag.getAttribute( String key );1;0;3
+Tag.select( String path , Tag mapping );1;0;7

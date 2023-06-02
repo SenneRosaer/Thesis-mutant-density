@@ -1,0 +1,61 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CommandLineOptions.isSystemInOutFile( String filename );1;0;3
+CommandLineOptions.parsePDFProfile( String [ ] args , int i );9;13;26
+CommandLineOptions.isCoarseAreaXml( );1;0;3
+CommandLineOptions.parseAFPOutputOption( String [ ] args , int i );3;5;10
+CommandLineOptions.CommandLineOptions( );2;1;9
+CommandLineOptions.parseConfigurationOption( String [ ] args , int i );3;5;10
+CommandLineOptions.parseXSLInputOption( String [ ] args , int i );3;5;11
+***not in a method***;0;1;0
+CommandLineOptions.setOutputMode( String mime );2;1;7
+CommandLineOptions.printUsage( PrintStream out );1;0;73
+CommandLineOptions.parseCustomOutputOption( String [ ] args , int i );8;15;24
+CommandLineOptions.parseFOInputOption( String [ ] args , int i );4;5;15
+CommandLineOptions.parseUnknownOption( String [ ] args , int i );4;2;18
+CommandLineOptions.parsePNGOutputOption( String [ ] args , int i );3;5;10
+CommandLineOptions.parsePDFUserPassword( String [ ] args , int i );3;5;10
+CommandLineOptions.addXSLTParameter( String name , String value );2;1;7
+CommandLineOptions.getInputFile( );3;0;10
+CommandLineOptions.parseTextOutputOption( String [ ] args , int i );3;5;10
+CommandLineOptions.printUsagePrintOutput( );1;0;9
+CommandLineOptions.getXSLFile( );1;0;3
+CommandLineOptions.setOutputFile( String filename );2;0;7
+CommandLineOptions.parseImageInputOption( String [ ] args , int i );4;5;15
+CommandLineOptions.parseAreaTreeOption( String [ ] args , int i );5;11;15
+CommandLineOptions.parseSVGOutputOption( String [ ] args , int i );3;5;10
+CommandLineOptions.parsePDFOwnerPassword( String [ ] args , int i );3;5;10
+CommandLineOptions.parseXMLInputOption( String [ ] args , int i );4;5;16
+CommandLineOptions.getOutputFormat( );3;1;9
+CommandLineOptions.getPDFEncryptionParams( );3;2;13
+CommandLineOptions.parseAreaTreeInputOption( String [ ] args , int i );4;5;15
+CommandLineOptions.parsePrintOutputOption( String [ ] args , int i );6;8;24
+CommandLineOptions.parsePDFOutputOption( String [ ] args , int i , String pdfAMode );5;7;16
+CommandLineOptions.parseCopiesOption( String [ ] args , int i );3;5;9
+CommandLineOptions.setLogOption( String option , String level );4;3;11
+CommandLineOptions.setUserConfig( );3;1;10
+CommandLineOptions.parseOptions( String [ ] args );48;42;108
+CommandLineOptions.parseMIFOutputOption( String [ ] args , int i );3;5;10
+CommandLineOptions.parsePCLOutputOption( String [ ] args , int i );3;5;10
+CommandLineOptions.getFOFile( );1;0;3
+CommandLineOptions.checkSettings( );32;34;88
+CommandLineOptions.setLogLevel( String level );2;0;6
+CommandLineOptions.getFOUserAgent( );1;0;3
+CommandLineOptions.getInputHandler( );1;0;3
+CommandLineOptions.parseRTFOutputOption( String [ ] args , int i );3;5;10
+CommandLineOptions.isOutputToStdOut( );1;0;3
+CommandLineOptions.printVersion( );1;0;3
+CommandLineOptions.parseFOOutputOption( String [ ] args , int i );3;5;10
+CommandLineOptions.dumpConfiguration( );16;5;67
+CommandLineOptions.parseResolution( String [ ] args , int i );3;5;10
+CommandLineOptions.getUserConfigFile( );1;0;3
+CommandLineOptions.parseLanguageOption( String [ ] args , int i );3;5;9
+CommandLineOptions.isOption( String arg );2;2;3
+CommandLineOptions.isInputFromStdIn( );1;0;3
+CommandLineOptions.parseAWTOutputOption( String [ ] args , int i );1;0;4
+CommandLineOptions.getLogger( );1;0;3
+CommandLineOptions.createInputHandler( );5;0;14
+CommandLineOptions.parse( String [ ] args );10;4;50
+CommandLineOptions.getOutputFile( );1;0;3
+CommandLineOptions.parsePostscriptOutputOption( String [ ] args , int i );3;5;10
+CommandLineOptions.getXMLFile( );1;0;3
+CommandLineOptions.parseTIFFOutputOption( String [ ] args , int i );3;5;10

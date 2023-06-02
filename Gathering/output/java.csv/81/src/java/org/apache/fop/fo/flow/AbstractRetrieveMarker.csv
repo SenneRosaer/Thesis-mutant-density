@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractRetrieveMarker.cloneFromMarker( Marker marker );2;1;9
+AbstractRetrieveMarker.bind( PropertyList pList );3;2;8
+AbstractRetrieveMarker.bindMarker( Marker marker );4;1;12
+AbstractRetrieveMarker.createPropertyListFor( FObj fo , PropertyList parent );1;0;3
+AbstractRetrieveMarker.AbstractRetrieveMarker( FONode parent );1;0;3
+AbstractRetrieveMarker.cloneSingleNode( FONode child , FONode newParent , Marker marker , PropertyList parentPropertyList );5;2;33
+AbstractRetrieveMarker.cloneSubtree( Iterator parentIter , FONode newParent , Marker marker , PropertyList parentPropertyList );3;1;10
+AbstractRetrieveMarker.getRetrieveClassName( );1;0;3
+AbstractRetrieveMarker.validateChildNode( Locator loc , String nsURI , String localName );2;0;5

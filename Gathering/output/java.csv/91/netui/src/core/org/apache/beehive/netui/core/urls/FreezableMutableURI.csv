@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FreezableMutableURI.isFrozen( );1;0;3
+FreezableMutableURI.FreezableMutableURI( String scheme , String userInfo , String host , int port , String path , String query , String fragment );1;0;3
+FreezableMutableURI.setPort( int port );1;0;4
+FreezableMutableURI.testFrozen( );2;0;6
+FreezableMutableURI.setFrozen( boolean frozen );1;0;3
+FreezableMutableURI.setPath( String path );1;0;4
+FreezableMutableURI.setURI( String uriString , boolean encoded );1;0;4
+FreezableMutableURI.FreezableMutableURI( );1;0;2
+FreezableMutableURI.removeParameter( String name );1;0;4
+FreezableMutableURI.setEncoding( String encoding );1;0;4
+FreezableMutableURI.setScheme( String scheme );1;0;4
+FreezableMutableURI.equals( Object o );5;4;20
+FreezableMutableURI.FreezableMutableURI( URL url );1;0;3
+FreezableMutableURI.addParameters( Map newParams , boolean encoded );1;0;4
+FreezableMutableURI.hashCode( );2;2;5
+FreezableMutableURI.setQuery( String query );1;0;4
+FreezableMutableURI.addParameter( String name , String value , boolean encoded );1;0;4
+FreezableMutableURI.setUserInfo( String userInfo );1;0;4
+FreezableMutableURI.FreezableMutableURI( URI uri );1;0;3
+FreezableMutableURI.setFragment( String fragment );1;0;4
+FreezableMutableURI.FreezableMutableURI( String uriString , boolean encoded );1;0;3
+FreezableMutableURI.setOpaque( String scheme , String schemeSpecificPart );1;0;4
+FreezableMutableURI.setHost( String host );1;0;4

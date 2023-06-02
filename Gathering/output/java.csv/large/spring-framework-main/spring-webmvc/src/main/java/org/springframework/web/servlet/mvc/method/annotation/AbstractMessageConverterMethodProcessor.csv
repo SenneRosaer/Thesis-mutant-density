@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractMessageConverterMethodProcessor.getProducibleMediaTypes( HttpServletRequest request , Class < ? > valueClass , @ Nullable Type targetType );10;3;19
+AbstractMessageConverterMethodProcessor.addContentDispositionHeader( ServletServerHttpRequest request , ServletServerHttpResponse response );9;11;31
+AbstractMessageConverterMethodProcessor.getProducibleMediaTypes( HttpServletRequest request , Class < ? > valueClass );1;0;3
+AbstractMessageConverterMethodProcessor.safeExtension( HttpServletRequest request , @ Nullable String extension );9;7;22
+AbstractMessageConverterMethodProcessor.determineCompatibleMediaTypes( List < MediaType > acceptableTypes , List < MediaType > producibleTypes , List < MediaType > mediaTypesToUse );4;0;9
+AbstractMessageConverterMethodProcessor.getReturnValueType( @ Nullable Object value , MethodParameter returnType );2;1;3
+AbstractMessageConverterMethodProcessor.createOutputMessage( NativeWebRequest webRequest );1;1;5
+AbstractMessageConverterMethodProcessor.AbstractMessageConverterMethodProcessor( List < HttpMessageConverter < ? > > converters );1;0;3
+AbstractMessageConverterMethodProcessor.getAcceptableMediaTypes( HttpServletRequest request );1;0;3
+AbstractMessageConverterMethodProcessor.writeWithMessageConverters( @ Nullable T value , MethodParameter returnType , ServletServerHttpRequest inputMessage , ServletServerHttpResponse outputMessage );42;25;135
+AbstractMessageConverterMethodProcessor.safeMediaType( MediaType mediaType );2;1;4
+AbstractMessageConverterMethodProcessor.getGenericType( MethodParameter returnType );2;0;8
+AbstractMessageConverterMethodProcessor.writeWithMessageConverters( T value , MethodParameter returnType , NativeWebRequest webRequest );1;0;5
+AbstractMessageConverterMethodProcessor.getMostSpecificMediaType( MediaType acceptType , MediaType produceType );2;0;9
+AbstractMessageConverterMethodProcessor.AbstractMessageConverterMethodProcessor( List < HttpMessageConverter < ? > > converters , @ Nullable ContentNegotiationManager contentNegotiationManager );1;0;3
+AbstractMessageConverterMethodProcessor.AbstractMessageConverterMethodProcessor( List < HttpMessageConverter < ? > > converters , @ Nullable ContentNegotiationManager manager , @ Nullable List < Object > requestResponseBodyAdvice );2;1;6
+AbstractMessageConverterMethodProcessor.isResourceType( @ Nullable Object value , MethodParameter returnType );3;2;4
+AbstractMessageConverterMethodProcessor.resolveMediaType( ServletRequest request , String extension );4;2;11

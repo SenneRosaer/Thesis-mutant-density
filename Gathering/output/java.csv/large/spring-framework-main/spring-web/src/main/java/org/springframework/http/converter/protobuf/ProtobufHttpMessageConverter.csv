@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProtobufJavaFormatSupport.supportedMediaTypes( );1;0;3
+ProtobufHttpMessageConverter.ProtobufHttpMessageConverter( ExtensionRegistry extensionRegistry );1;0;3
+ProtobufHttpMessageConverter.getMessageBuilder( Class < ? extends Message > clazz );3;1;14
+ProtobufJavaUtilSupport.print( Message message , OutputStream output , MediaType contentType , Charset charset );2;0;11
+ProtobufJavaFormatSupport.merge( InputStream input , Charset charset , MediaType contentType , ExtensionRegistry extensionRegistry , Message . Builder builder );3;0;12
+ProtobufJavaFormatSupport.ProtobufJavaFormatSupport( );1;0;6
+ProtobufJavaUtilSupport.supportsWriteOnly( @ Nullable MediaType mediaType );1;0;3
+ProtobufHttpMessageConverter.getDefaultContentType( Message message );1;0;3
+ProtobufJavaUtilSupport.ProtobufJavaUtilSupport( @ Nullable JsonFormat . Parser parser , @ Nullable JsonFormat . Printer printer );3;2;4
+ProtobufHttpMessageConverter.writeInternal( Message message , HttpOutputMessage outputMessage );6;4;27
+ProtobufHttpMessageConverter.setProtoHeader( HttpOutputMessage response , Message message );1;0;4
+ProtobufHttpMessageConverter.ProtobufHttpMessageConverter( @ Nullable ProtobufFormatSupport formatSupport , @ Nullable ExtensionRegistry extensionRegistry );6;3;17
+ProtobufHttpMessageConverter.ProtobufHttpMessageConverter( );1;0;3
+ProtobufJavaUtilSupport.supportedMediaTypes( );1;0;3
+ProtobufJavaFormatSupport.print( Message message , OutputStream output , MediaType contentType , Charset charset );4;0;15
+ProtobufJavaUtilSupport.merge( InputStream input , Charset charset , MediaType contentType , ExtensionRegistry extensionRegistry , Message . Builder builder );2;0;10
+ProtobufHttpMessageConverter.supports( Class < ? > clazz );1;0;3
+ProtobufHttpMessageConverter.canWrite( @ Nullable MediaType mediaType );3;3;4
+ProtobufJavaFormatSupport.supportsWriteOnly( @ Nullable MediaType mediaType );1;0;3
+ProtobufHttpMessageConverter.readInternal( Class < ? extends Message > clazz , HttpInputMessage inputMessage );6;3;23

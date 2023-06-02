@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CommandListservProcessor.getCommandListservManager( );3;3;9
+CommandListservProcessor.checkAnnouncements( Mail mail );3;2;10
+CommandListservProcessor.getBoolean( String attrName , boolean defValue );2;0;8
+CommandListservProcessor.initUsersRepository( );2;1;7
+CommandListservProcessor.checkMembers( Collection members , Mail mail );3;2;10
+CommandListservProcessor.getField( Object instance , String name );4;3;16
+CommandListservProcessor.service( Mail mail );6;3;23
+CommandListservProcessor.init( );2;0;19
+CommandListservProcessor.getString( String attrName , String defValue );2;0;8
+CommandListservProcessor.getMembers( );3;0;18
+CommandListservProcessor.prepareListMessage( Mail mail , MailAddress listservAddr );2;0;9
+CommandListservProcessor.checkBeenThere( MailAddress listservAddr , Mail mail );2;0;6
+CommandListservProcessor.setSubject( MimeMessage message );4;2;19
+CommandListservProcessor.addFooter( Mail mail );1;0;3
+CommandListservProcessor.initAllowedPosters( Configuration configuration );3;3;12
+CommandListservProcessor.getCommandListservFooter( );2;1;7
+CommandListservProcessor.initializeResources( );1;0;3
+CommandListservProcessor.checkAllowedPoster( Mail mail , Collection members );5;5;11

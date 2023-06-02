@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TreeSiteManager.contains( Document resource );1;0;4
+TreeSiteManager.add( String path , Document document );4;2;16
+TreeSiteManager.getDocuments( DocumentFactory map , Publication publication , String area );4;4;18
+TreeSiteManager.contains( DocumentFactory factory , DocumentLocator locator );3;0;15
+TreeSiteManager.getTree( DocumentFactory map , Publication publication , String area );2;0;11
+TreeSiteManager.getAncestors( SiteNode node );3;1;14
+TreeSiteManager.getRequiredResources( DocumentFactory map , final DocumentLocator loc );2;1;10
+TreeSiteManager.getRequiringResources( DocumentFactory map , SiteNode resource );5;3;22
+TreeSiteManager.set( String path , Document document );2;0;9
+TreeSiteManager.getSiteStructure( DocumentFactory map , Publication publiation , String area );1;0;3
+TreeSiteManager.setVisibleInNav( Document document , boolean visibleInNav );2;0;8
+TreeSiteManager.TreeSiteManager( );1;0;2
+TreeSiteManager.computeUniquePath( DocumentFactory factory , DocumentLocator locator );8;11;36
+TreeSiteManager.containsInAnyLanguage( Document resource );1;0;4
+TreeSiteManager.requires( DocumentFactory map , SiteNode dependingResource , SiteNode requiredResource );1;0;3
+TreeSiteManager.isVisibleInNav( Document document );2;0;8
+TreeSiteManager.getLabelObject( Document document );4;3;16
+TreeSiteManager.copy( Document sourceDocument , Document destinationDocument );9;8;58
+TreeSiteManager.getPath( DocumentFactory factory , Publication pub , String area , String uuid , String language );2;1;9
+TreeSiteManager.getTree( Document document );1;0;3
+TreeSiteManager.getAvailableLocator( DocumentFactory factory , DocumentLocator locator );1;0;6
+TreeSiteManager.getKey( Publication publication , String area );1;1;3
+TreeSiteManager.getUUID( DocumentFactory factory , Publication pub , String area , String path );2;1;9

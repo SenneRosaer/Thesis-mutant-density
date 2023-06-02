@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MapAccessTests.testGetValueFromRootMap( );1;0;7
+TestBean.getDescription( );1;0;3
+TestBean.setPriority( Integer priority );1;0;3
+TestBean.getProperties( );1;0;3
+TestBean.setDescription( String description );1;0;3
+MapAccessTests.testCustomMapAccessor( );1;0;8
+TestBean.getTestBean( );1;0;3
+MapAccessor.canRead( EvaluationContext context , Object target , String name );3;0;3
+TestBean.setProperties( Map < String , String > properties );1;0;3
+TestBean.getPriority( );1;0;3
+MapAccessor.canWrite( EvaluationContext context , Object target , String name );1;0;3
+TestBean.TestBean( String name , TestBean testBean , String description , Integer priority , Map < String , String > props );1;0;7
+MapAccessTests.testGetValue( );1;0;10
+TestBean.getName( );1;0;3
+TestBean.setName( String name );1;0;3
+MapAccessTests.testMapAccessThroughIndexer( );1;0;3
+MapAccessTests.testSimpleMapAccess01( );1;0;3
+TestBean.setTestBean( TestBean testBean );1;0;3
+MapAccessor.read( EvaluationContext context , Object target , String name );3;0;3
+MapAccessor.write( EvaluationContext context , Object target , String name , Object newValue );1;0;3
+MapAccessor.getSpecificTargetClasses( );2;0;3
+MapAccessTests.testVariableMapAccess( );1;0;8

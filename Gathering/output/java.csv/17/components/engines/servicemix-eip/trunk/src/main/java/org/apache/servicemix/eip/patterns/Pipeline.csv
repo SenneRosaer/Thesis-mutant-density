@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Pipeline.getDefinitionFromWsdlExchangeTarget( );2;1;6
+Pipeline.processFault( MessageExchange exchange , InOut tme );9;6;40
+Pipeline.setSendFaultsToTarget( boolean sendFaultsToTarget );1;0;3
+Pipeline.setCopyAttachments( boolean copyAttachments );1;0;3
+Pipeline.isSendFaultsToTarget( );1;0;3
+Pipeline.getTarget( );1;0;3
+Pipeline.setFaultsTarget( ExchangeTarget faultsTarget );1;0;3
+Pipeline.validate( );3;2;12
+Pipeline.processAsync( MessageExchange exchange );3;1;9
+Pipeline.setTransformer( ExchangeTarget transformer );1;0;3
+Pipeline.setTarget( ExchangeTarget target );1;0;3
+Pipeline.processSync( MessageExchange exchange );11;10;47
+Pipeline.processAsyncTransformerResponse( MessageExchange exchange );15;12;62
+Pipeline.processAsyncTargetResponse( MessageExchange exchange );6;5;32
+Pipeline.getTransformer( );1;0;3
+Pipeline.isCopyProperties( );1;0;3
+Pipeline.processAsyncProvider( MessageExchange exchange );12;14;38
+Pipeline.isCopyAttachments( );1;0;3
+Pipeline.copyPropertiesAndAttachments( NormalizedMessage from , NormalizedMessage to );3;0;8
+Pipeline.getFaultsTarget( );1;0;3
+Pipeline.setCopyProperties( boolean copyProperties );1;0;3

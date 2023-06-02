@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RepeaterDefinition.getInitialPage( );1;0;3
+RepeaterDefinition.RepeaterDefinition( int initialSize , int minSize , int maxSize , boolean selectable , boolean orderable );1;0;7
+RepeaterDefinition.addRepeaterListener( RepeaterListener listener );1;0;4
+RepeaterDefinition.getRepeaterListener( );1;0;3
+RepeaterDefinition.hasRepeaterListeners( );1;1;3
+RepeaterDefinition.getPageSize( );1;0;3
+RepeaterDefinition.createInstance( );2;0;7
+RepeaterDefinition.getMinSize( );1;0;3
+RepeaterDefinition.initializeFrom( WidgetDefinition definition );2;1;15
+RepeaterDefinition.RepeaterDefinition( int initialSize , int minSize , int maxSize , boolean selectable , boolean orderable , boolean enhanced , int initialPage , int pageSize , String customPageId );1;0;11
+RepeaterDefinition.getOrderable( );1;0;3
+RepeaterDefinition.getMaxSize( );1;0;3
+RepeaterDefinition.getInitialSize( );1;0;3
+RepeaterDefinition.getCustomPageId( );1;0;3
+RepeaterDefinition.fireRepeaterEvent( RepeaterEvent event );2;1;5
+RepeaterDefinition.isEnhanced( );1;0;3

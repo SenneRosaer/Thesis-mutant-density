@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StAXSchemaParser.fillDeclaredPrefixes( StartElement event );1;0;3
+StAXSchemaParser.getDocument( );1;0;3
+StAXSchemaParser.fillXMLAttributes( XMLStreamReader input );3;3;12
+StAXSchemaParser.parse( XMLStreamReader input );18;8;82
+StAXSchemaParser.fillDeclaredPrefixes( EndElement event );1;0;3
+StAXSchemaParser.fillDeclaredPrefixes( Iterator namespaces );3;1;8
+StAXSchemaParser.reset( SchemaDOMParser schemaDOMParser , SymbolTable symbolTable );1;0;6
+StAXSchemaParser.StAXSchemaParser( );1;0;3
+***not in a method***;0;2;0
+StAXSchemaParser.parse( XMLEventReader input );17;8;72
+StAXSchemaParser.fillXMLAttributes( StartElement event );3;1;13
+StAXSchemaParser.fillProcessingInstruction( String data );2;1;11
+StAXSchemaParser.fillQName( QName toFill , String uri , String localpart , String prefix );7;8;14
+StAXSchemaParser.fillDeclaredPrefixes( XMLStreamReader reader );3;3;8
+StAXSchemaParser.fillQName( QName toFill , javax . xml . namespace . QName toCopy );1;0;3
+StAXSchemaParser.sendCharactersToSchemaParser( String str , boolean whitespace );6;5;27
+StAXSchemaParser.addNamespaceDeclarations( );4;2;29

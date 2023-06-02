@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LocalSessionFactoryBean.setJtaTransactionManager( Object jtaTransactionManager );1;0;3
+LocalSessionFactoryBean.setConfigLocation( Resource configLocation );1;0;3
+LocalSessionFactoryBean.setImplicitNamingStrategy( ImplicitNamingStrategy implicitNamingStrategy );1;0;3
+LocalSessionFactoryBean.setPackagesToScan( String ... packagesToScan );1;0;3
+LocalSessionFactoryBean.setMetadataSources( MetadataSources metadataSources );1;0;4
+LocalSessionFactoryBean.getObjectType( );2;1;3
+LocalSessionFactoryBean.getHibernateProperties( );2;1;6
+LocalSessionFactoryBean.setBeanFactory( BeanFactory beanFactory );2;0;5
+LocalSessionFactoryBean.setMultiTenantConnectionProvider( MultiTenantConnectionProvider multiTenantConnectionProvider );1;0;3
+LocalSessionFactoryBean.setMappingJarLocations( Resource ... mappingJarLocations );1;0;3
+LocalSessionFactoryBean.setDataSource( DataSource dataSource );1;0;3
+LocalSessionFactoryBean.destroy( );2;1;5
+LocalSessionFactoryBean.getObject( );1;0;3
+LocalSessionFactoryBean.setMappingDirectoryLocations( Resource ... mappingDirectoryLocations );1;0;3
+LocalSessionFactoryBean.setHibernateProperties( Properties hibernateProperties );1;0;3
+LocalSessionFactoryBean.setConfigLocations( Resource ... configLocations );1;0;3
+LocalSessionFactoryBean.isSingleton( );1;0;3
+LocalSessionFactoryBean.setEntityTypeFilters( TypeFilter ... entityTypeFilters );1;0;3
+LocalSessionFactoryBean.setAnnotatedClasses( Class < ? > ... annotatedClasses );1;0;3
+LocalSessionFactoryBean.setResourceLoader( ResourceLoader resourceLoader );1;0;3
+LocalSessionFactoryBean.getResourceLoader( );2;1;6
+LocalSessionFactoryBean.setMappingLocations( Resource ... mappingLocations );1;0;3
+LocalSessionFactoryBean.afterPropertiesSet( );29;23;84
+LocalSessionFactoryBean.setCacheRegionFactory( RegionFactory cacheRegionFactory );1;0;3
+LocalSessionFactoryBean.setEntityInterceptor( Interceptor entityInterceptor );1;0;3
+LocalSessionFactoryBean.setCacheableMappingLocations( Resource ... cacheableMappingLocations );1;0;3
+LocalSessionFactoryBean.getConfiguration( );2;1;6
+LocalSessionFactoryBean.setPhysicalNamingStrategy( PhysicalNamingStrategy physicalNamingStrategy );1;0;3
+LocalSessionFactoryBean.setMappingResources( String ... mappingResources );1;0;3
+LocalSessionFactoryBean.getMetadataSources( );5;3;16
+LocalSessionFactoryBean.setAnnotatedPackages( String ... annotatedPackages );1;0;3
+LocalSessionFactoryBean.buildSessionFactory( LocalSessionFactoryBuilder sfb );2;1;4
+LocalSessionFactoryBean.setCurrentTenantIdentifierResolver( CurrentTenantIdentifierResolver currentTenantIdentifierResolver );1;0;3
+LocalSessionFactoryBean.setBootstrapExecutor( AsyncTaskExecutor bootstrapExecutor );1;0;3
+LocalSessionFactoryBean.setHibernateIntegrators( Integrator ... hibernateIntegrators );1;0;3

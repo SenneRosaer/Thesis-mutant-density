@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ItemImpl.isSupportedOption( String option );1;0;3
+ItemImpl.remove( );1;0;6
+ItemImpl.ItemImpl( SessionImpl session , ItemState state , ItemLifeCycleListener [ ] listeners );3;3;11
+ItemImpl.getPath( );1;0;4
+ItemImpl.notifyDestroyed( );3;3;8
+ItemImpl.getAncestor( int depth );5;4;22
+ItemImpl.isModified( );1;1;3
+ItemImpl.notifyUpdated( boolean modified );3;3;8
+ItemImpl.getParent( );3;1;10
+ItemImpl.removeLifeCycleListener( ItemLifeCycleListener listener );1;0;3
+ItemImpl.checkIsWritable( );1;0;4
+ItemImpl.checkStatus( );3;2;9
+ItemImpl.save( );1;0;4
+ItemImpl.updateId( ItemState state );3;2;10
+ItemImpl.notifyCreated( );2;2;6
+ItemImpl.getSession( );1;0;4
+ItemImpl.addLifeCycleListener( ItemLifeCycleListener listener );2;1;5
+ItemImpl.refresh( boolean keepChanges );8;7;23
+ItemImpl.isNew( );1;1;3
+ItemImpl.isSame( Item otherItem );8;6;25
+ItemImpl.isWritable( );1;0;4
+ItemImpl.safeGetJCRPath( );1;0;3
+ItemImpl.getItemManager( );1;0;3
+ItemImpl.statusChanged( ItemState state , int previousStatus );12;5;25
+ItemImpl.getDepth( );3;1;7
+ItemImpl.getItemState( );1;0;3
+ItemImpl.checkSupportedOption( String option );1;0;3
+ItemImpl.getQPath( );1;0;3

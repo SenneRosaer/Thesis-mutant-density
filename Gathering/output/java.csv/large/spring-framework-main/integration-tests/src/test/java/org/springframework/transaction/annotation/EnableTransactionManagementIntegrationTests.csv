@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExplicitTxManagerConfig.fooRepository( );1;0;3
+EnableTxAndCachingConfig.cacheManager( );1;0;7
+DefaultTxManagerNameConfig.transactionManager( DataSource dataSource );1;0;3
+Config.dataSource( );1;0;5
+AspectJTxConfig.transactionManager( DataSource dataSource );1;0;3
+ImplicitTxManagerConfig.txManager( );1;0;3
+ImplicitTxManagerConfig.fooRepository( );1;0;3
+EnableTransactionManagementIntegrationTests.repositoryIsTxProxy_withCustomTxManagerName( );1;0;4
+JdbcFooRepository.setDataSource( DataSource dataSource );1;0;2
+EnableTransactionManagementIntegrationTests.repositoryIsTxProxy_withNonConventionalTxManagerName_fallsBackToByTypeLookup( );1;0;3
+ExplicitTxManagerConfig.txManager1( );1;0;3
+EnableTransactionManagementIntegrationTests.implicitTxManager( );1;0;9
+EnableTransactionManagementIntegrationTests.isTxProxy( FooRepository repo );2;1;7
+JdbcFooRepository.findAll( );1;0;3
+EnableTransactionManagementIntegrationTests.assertTxProxying( AnnotationConfigApplicationContext ctx );1;0;5
+EnableTransactionManagementIntegrationTests.repositoryIsNotTxProxy( );1;0;4
+ProxyTargetClassTxConfig.transactionManager( DataSource dataSource );1;0;3
+Config.fooRepository( );1;0;5
+EnableTransactionManagementIntegrationTests.repositoryUsesAspectJAdviceMode( );1;0;7
+ExplicitTxManagerConfig.annotationDrivenTransactionManager( );1;0;3
+EnableTransactionManagementIntegrationTests.repositoryIsTxProxy_withDefaultTxManagerName( );1;0;4
+EnableTransactionManagementIntegrationTests.explicitTxManager( );1;0;13
+DummyFooRepository.findAll( );1;0;3
+NonConventionalTxManagerNameConfig.txManager( DataSource dataSource );1;0;3
+EnableTransactionManagementIntegrationTests.apcEscalation( );1;0;3
+ExplicitTxManagerConfig.txManager2( );1;0;3
+CustomTxManagerNameConfig.txManager( DataSource dataSource );1;0;3
+EnableTxAndCachingConfig.txManager( );1;0;3
+EnableTransactionManagementIntegrationTests.repositoryIsClassBasedTxProxy( );1;0;5
+EnableTxAndCachingConfig.fooRepository( );1;0;3

@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JavaEngine.eval( String source , int lineNo , int columnNo , Object oscript );11;12;74
+JavaEngine.call( Object object , String method , Object [ ] args );1;0;4
+JavaEngine.internalCall( Object object , String method , Object [ ] args );4;3;17
+JavaEngine.accept( File dir , String name );2;4;6
+JavaEngine.openUniqueFile( String directory , String prefix , String suffix );8;15;28
+***not in a method***;0;1;0
+GeneratedFile.GeneratedFile( File file , FileOutputStream fos , String className );1;0;5
+JavaEngine.compileScript( String source , int lineNo , int columnNo , Object script , CodeBuffer cb );3;2;8
+JavaEngine.JavaEngine( );1;0;3
+JavaEngine.initialize( BSFManager mgr , String lang , Vector declaredBeans );1;0;3

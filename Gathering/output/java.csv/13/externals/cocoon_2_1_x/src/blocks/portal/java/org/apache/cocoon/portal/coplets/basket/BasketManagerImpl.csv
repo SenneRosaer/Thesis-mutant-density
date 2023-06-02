@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BasketManagerImpl.getBasketAction( String name );3;0;10
+BasketManagerImpl.getBriefcaseActions( );1;0;3
+BasketManagerImpl.addBatch( ContentItem item , int frequencyInDays , ActionInfo action );5;7;27
+BasketManagerImpl.getBriefcaseDescriptions( );3;2;12
+BasketManagerImpl.contextualize( Context context );1;0;4
+BasketManagerImpl.processShowBasketEvent( ShowBasketEvent event , Session session );1;0;4
+BasketManagerImpl.initialize( );1;0;9
+BasketManagerImpl.processShowItemEvent( ShowItemEvent event );11;2;62
+BasketManagerImpl.getUser( );2;0;11
+BasketManagerImpl.saveContentStore( String type , ContentStore store );5;4;22
+BasketManagerImpl.processAddItemEvent( AddItemEvent event );14;3;77
+BasketManagerImpl.getFolder( );2;1;9
+BasketManagerImpl.processRemoveItemEvent( RemoveItemEvent event );1;0;6
+BasketManagerImpl.loadBriefcases( );6;6;25
+Job.Job( String url , ContentItem item );7;4;38
+BasketManagerImpl.loadContentStore( String type );7;4;27
+BasketManagerImpl.loadContentStore( String type , String userId );5;2;21
+BasketManagerImpl.getBasket( );3;1;16
+BasketManagerImpl.processUploadItemEvent( UploadItemEvent event );6;2;23
+BasketManagerImpl.deleteContentStore( String type , String userId );4;2;14
+BasketManagerImpl.getBriefcase( );2;1;9
+BasketManagerImpl.searchBatchInfo( ContentItem item , ActionInfo info );4;0;12
+BasketManagerImpl.update( ContentStore store );1;0;3
+BasketManagerImpl.saveContentStore( ContentStore store );3;0;7
+BasketManagerImpl.inform( ContentStoreEvent event , PortalService service );9;0;26
+BasketManagerImpl.processCleanBriefcaseEvent( CleanBriefcaseEvent event , Session session );8;5;27
+BasketManagerImpl.service( ServiceManager manager );1;0;4
+Job.execute( String jobname );4;2;23
+BasketManagerImpl.getBriefcaseAction( String name );3;0;10
+BasketManagerImpl.dispose( );2;1;7
+BasketManagerImpl.getBasketActions( );1;0;3
+BasketManagerImpl.parameterize( Parameters parameters );5;3;21

@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ValueParser.putAll( Map < ? extends String , ? extends Object > m );1;0;3
+ValueParser.containsKey( Object key );1;0;3
+ValueParser.getNumber( String key );1;0;3
+ValueParser.size( );1;0;3
+ValueParser.getValue( String key );4;3;11
+ValueParser.put( String key , Object value );1;0;3
+ValueParser.getSubkey( String subkey );9;9;28
+ValueParser.getLocale( String key );1;0;3
+ValueParser.hasSubkeys( );7;6;23
+ValueParser.ValueParser( Map < String , Object > source );1;0;3
+ValueParser.toString( );3;1;18
+ValueParser.ValueParser( );1;0;1
+ValueParser.getNumbers( String key );1;0;3
+ValueParser.getDoubles( String key );1;0;3
+ValueParser.values( );1;0;3
+ValueParser.getAllowSubkeys( );1;0;3
+ValueParser.containsValue( Object value );1;0;3
+ValueParser.getDouble( String key , Double alternate );2;1;8
+ValueParser.getInteger( String key );1;0;3
+ValueParser.getInts( String key );1;0;3
+ValueParser.remove( Object key );1;0;3
+ValueParser.getString( String key , String alternate );2;1;4
+ValueParser.exists( String key );1;1;3
+ValueParser.getDouble( String key );1;0;3
+ValueParser.clear( );1;0;3
+ValueParser.getLocale( String key , Locale alternate );2;1;4
+ValueParser.getNumber( String key , Number alternate );2;1;4
+ValueParser.getSource( );1;0;3
+ValueParser.getBooleans( String key );1;0;3
+ValueParser.getBoolean( String key , Boolean alternate );2;1;4
+ValueParser.setAllowSubkeys( boolean allow );1;0;3
+ValueParser.getLocales( String key );1;0;3
+ValueParser.getBoolean( String key );1;0;3
+ValueParser.getDouble( String key , double alternate );2;1;4
+ValueParser.isEmpty( );1;0;3
+ValueParser.keySet( );1;0;3
+ValueParser.getInt( String key , int alternate );2;1;4
+ValueParser.getStrings( String key );1;0;3
+ValueParser.get( String key );1;0;3
+ValueParser.getInteger( String key , Integer alternate );2;1;8
+ValueParser.getString( String key );1;0;3
+ValueParser.configure( ValueParser values );4;3;13
+ValueParser.entrySet( );1;0;3
+ValueParser.getValue( String key , Object alternate );2;1;8
+ValueParser.setSource( Map < String , Object > source );1;0;3
+ValueParser.get( Object key );1;0;3
+ValueParser.getValues( String key );4;1;16
+ValueParser.getBoolean( String key , boolean alternate );2;1;4

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TIFFFaxDecoder.nextLesserThan8Bits( int bitsToGet );7;26;41
+TIFFFaxDecoder.decodeT6( byte [ ] buffer , byte [ ] compData , int startX , int height , long tiffT6Options );22;62;129
+TIFFFaxDecoder.nextNBits( int bitsToGet );10;40;60
+TIFFFaxDecoder.decodeWhiteCodeWord( );6;21;32
+TIFFFaxDecoder.decode1D( byte [ ] buffer , byte [ ] compData , int startX , int height );2;5;11
+TIFFFaxDecoder.TIFFFaxDecoder( int fillOrder , int w , int h );1;0;9
+TIFFFaxDecoder.decodeNextScanline( byte [ ] buffer , int lineOffset , int bitOffset );17;62;98
+***not in a method***;0;178;0
+TIFFFaxDecoder.readEOL( );10;10;28
+TIFFFaxDecoder.updatePointer( int bitsToMoveBack );2;4;9
+TIFFFaxDecoder.decodeBlackCodeWord( );7;33;49
+TIFFFaxDecoder.setToBlack( byte [ ] buffer , int lineOffset , int bitOffset , int numBits );6;26;26
+TIFFFaxDecoder.advancePointer( );2;2;7
+TIFFFaxDecoder.decode2D( byte [ ] buffer , byte [ ] compData , int startX , int height , long tiffT4Options );11;42;90
+TIFFFaxDecoder.getNextChangingElement( int a0 , boolean isWhite , int [ ] ret );6;10;22

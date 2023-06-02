@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultResponseErrorHandler.getResponseBody( ClientHttpResponse response );2;0;8
+DefaultResponseErrorHandler.hasError( int statusCode );2;3;4
+DefaultResponseErrorHandler.getErrorMessage( int rawStatusCode , String statusText , @ Nullable byte [ ] responseBody , @ Nullable Charset charset );3;4;10
+DefaultResponseErrorHandler.initBodyConvertFunction( ClientHttpResponse response , byte [ ] body );3;1;19
+DefaultResponseErrorHandler.handleError( ClientHttpResponse response );1;0;4
+DefaultResponseErrorHandler.hasError( ClientHttpResponse response );1;0;4
+DefaultResponseErrorHandler.getCharset( ClientHttpResponse response );2;1;5
+DefaultResponseErrorHandler.handleError( ClientHttpResponse response , HttpStatusCode statusCode );4;1;21
+DefaultResponseErrorHandler.hasError( HttpStatusCode statusCode );1;0;3
+DefaultResponseErrorHandler.getBody( );1;0;3
+DefaultResponseErrorHandler.setMessageConverters( List < HttpMessageConverter < ? > > converters );1;0;3

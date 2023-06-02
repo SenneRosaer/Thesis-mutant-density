@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestTransaction.TestTransaction( );1;0;2
+TestTransaction.setFlaggedForRollback( boolean flag );1;0;3
+TestTransaction.start( );1;0;3
+TestTransaction.isActive( );3;4;8
+TestTransaction.flagForCommit( );1;0;3
+TestTransaction.isFlaggedForRollback( );1;0;3
+TestTransaction.end( );1;0;3
+TestTransaction.requireCurrentTransactionContext( );1;1;5
+TestTransaction.flagForRollback( );1;0;3

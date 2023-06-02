@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FairImpl.tryLock( long nanos );4;3;17
+NonfairImpl.isFair( );1;0;3
+NonfairImpl.NonfairImpl( );1;0;1
+NonfairImpl.unlock( );3;3;8
+ReentrantLock.isFair( );1;0;3
+ReentrantLock.tryLock( );1;0;3
+ReentrantLock.getQueuedThreads( );1;0;3
+NonfairImpl.tryLock( long nanos );10;10;43
+Impl.getQueueLength( );1;0;3
+ReentrantLock.lock( );4;0;15
+Impl.tryLock( );3;3;15
+ReentrantLock.getHoldCount( );1;0;3
+Impl.hasQueuedThreads( );1;0;3
+Impl.getHoldCount( );2;0;3
+Impl.Impl( );1;0;1
+FairImpl.isFair( );1;0;3
+FairImpl.getQueueLength( );1;0;3
+FairImpl.takeOver( WaitQueue . WaitNode node );1;0;3
+Impl.getOwner( );1;0;3
+FairImpl.getQueuedThreads( );1;0;3
+ReentrantLock.getOwner( );1;0;3
+ReentrantLock.hasQueuedThreads( );1;0;3
+Impl.isLocked( );1;1;3
+ReentrantLock.ReentrantLock( );1;0;3
+FairImpl.FairImpl( );1;0;1
+ReentrantLock.getQueueLength( );1;0;3
+FairImpl.lockInterruptibly( );4;3;17
+ReentrantLock.hasQueuedThread( Thread thread );1;0;3
+FairImpl.unlock( );4;1;8
+FairImpl.recheck( WaitQueue . WaitNode node );3;3;14
+Impl.isQueued( Thread thread );1;0;3
+ReentrantLock.unlock( );1;0;3
+ReentrantLock.toString( );2;2;6
+ReentrantLock.newCondition( );1;0;3
+ReentrantLock.tryLock( long timeout , TimeUnit unit );1;0;3
+ReentrantLock.lockInterruptibly( );1;0;3
+ReentrantLock.isHeldByCurrentThread( );1;0;3
+ReentrantLock.ReentrantLock( boolean fair );2;0;3
+Impl.isHeldByCurrentThread( );1;1;3
+ReentrantLock.isLocked( );1;0;3
+FairImpl.isQueued( Thread thread );1;0;3
+FairImpl.getSignallee( Thread caller );4;4;14
+NonfairImpl.lockInterruptibly( );6;4;27
+Impl.getQueuedThreads( );1;0;3
+FairImpl.hasQueuedThreads( );1;0;3

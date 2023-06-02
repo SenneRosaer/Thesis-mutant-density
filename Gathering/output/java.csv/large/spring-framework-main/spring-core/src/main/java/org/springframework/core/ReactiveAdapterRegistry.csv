@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReactiveAdapterRegistry.getAdapter( @ Nullable Class < ? > reactiveType , @ Nullable Object source );11;3;21
+EmptyCompletableFuture.EmptyCompletableFuture( );1;0;3
+ReactiveAdapterRegistry.getSharedInstance( );3;2;13
+ReactiveAdapterRegistry.getAdapter( Class < ? > reactiveType );1;0;3
+ReactorAdapter.ReactorAdapter( ReactiveTypeDescriptor descriptor , Function < Object , Publisher < ? > > toPublisherFunction , Function < Publisher < ? > , Object > fromPublisherFunction );1;0;3
+RxJava3Registrar.registerAdapters( ReactiveAdapterRegistry registry );5;0;31
+ReactiveAdapterRegistry.ReactiveAdapterRegistry( );6;1;14
+ReactiveAdapterRegistry.hasAdapters( );1;1;3
+MutinyRegistrar.registerAdapters( ReactiveAdapterRegistry registry );3;0;14
+CoroutinesRegistrar.registerAdapters( ReactiveAdapterRegistry registry );3;0;11
+SpringCoreBlockHoundIntegration.applyTo( BlockHound . Builder builder );1;0;6
+ReactorRegistrar.registerAdapters( ReactiveAdapterRegistry registry );6;0;22
+ReactorAdapter.toPublisher( @ Nullable Object source );2;0;4
+ReactiveAdapterRegistry.registerReactiveType( ReactiveTypeDescriptor descriptor , Function < Object , Publisher < ? > > toAdapter , Function < Publisher < ? > , Object > fromAdapter );2;0;8

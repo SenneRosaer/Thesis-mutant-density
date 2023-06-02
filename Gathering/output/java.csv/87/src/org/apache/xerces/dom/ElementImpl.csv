@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ElementImpl.setIdAttributeNS( String namespaceURI , String localName , boolean makeId );7;3;31
+ElementImpl.cloneNode( boolean deep );2;1;7
+ElementImpl.moveSpecifiedAttributes( ElementImpl el );4;1;11
+ElementImpl.setAttributeNS( String namespaceURI , String qualifiedName , String value );9;7;46
+ElementImpl.setOwnerDocument( CoreDocumentImpl doc );2;1;6
+ElementImpl.getAttributes( );3;1;9
+ElementImpl.getDefaultAttributes( );3;2;14
+ElementImpl.removeAttributeNode( Attr oldAttr );5;2;14
+ElementImpl.setIdAttribute( String name , boolean makeId );7;3;31
+ElementImpl.getTagName( );2;0;6
+ElementImpl.getAttributeNodeNS( String namespaceURI , String localName );3;1;9
+ElementImpl.getAttributeNS( String namespaceURI , String localName );4;2;10
+ElementImpl.getTypeName( );1;0;3
+ElementImpl.getNodeName( );2;0;6
+ElementImpl.synchronizeData( );1;0;7
+ElementImpl.rename( String name );2;0;7
+ElementImpl.getXercesAttribute( String namespaceURI , String localName );3;2;9
+ElementImpl.hasAttributes( );3;3;6
+ElementImpl.setAttributeNodeNS( Attr newAttr );6;2;21
+ElementImpl.removeAttributeNS( String namespaceURI , String localName );5;2;13
+ElementImpl.hasAttribute( String name );1;1;3
+ElementImpl.getAttribute( String name );4;2;10
+ElementImpl.setIdAttributeNode( Attr at , boolean makeId );6;2;24
+ElementImpl.ElementImpl( CoreDocumentImpl ownerDoc , String name );1;0;5
+ElementImpl.setReadOnly( boolean readOnly , boolean deep );2;1;6
+ElementImpl.getElementsByTagName( String tagname );1;0;3
+ElementImpl.normalize( );12;12;39
+ElementImpl.ElementImpl( );1;0;1
+ElementImpl.getElementsByTagNameNS( String namespaceURI , String localName );1;0;3
+ElementImpl.setAttributeNode( Attr newAttr );6;2;21
+ElementImpl.getSchemaTypeInfo( );2;0;6
+ElementImpl.setupDefaultAttributes( );2;1;6
+ElementImpl.getTypeNamespace( );1;0;3
+ElementImpl.removeAttribute( String name );5;2;13
+ElementImpl.setAttribute( String name , String value );6;3;25
+ElementImpl.reconcileDefaultAttributes( );2;1;6
+ElementImpl.getAttributeNode( String name );3;1;9
+ElementImpl.getXMLBaseAttribute( );1;0;3
+ElementImpl.getBaseURI( );13;7;44
+ElementImpl.setXercesAttributeNode( Attr attr );3;1;9
+ElementImpl.isDerivedFrom( String typeNamespaceArg , String typeNameArg , int derivationMethod );1;0;3
+ElementImpl.isEqualNode( Node arg );11;12;34
+ElementImpl.hasAttributeNS( String namespaceURI , String localName );1;1;3
+ElementImpl.getNodeType( );1;0;3

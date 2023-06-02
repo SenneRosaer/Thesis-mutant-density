@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockMvcWebConnection.close( );1;0;2
+MockMvcWebConnection.createCookie( jakarta . servlet . http . Cookie cookie );3;4;16
+MockMvcWebConnection.getResponse( WebRequest webRequest );2;1;14
+MockMvcWebConnection.validateContextPath( @ Nullable String contextPath );3;3;7
+MockMvcWebConnection.MockMvcWebConnection( MockMvc mockMvc , WebClient webClient );1;0;3
+MockMvcWebConnection.MockMvcWebConnection( MockMvc mockMvc , WebClient webClient , @ Nullable String contextPath );1;0;8
+MockMvcWebConnection.getResponse( RequestBuilder requestBuilder );2;0;10
+MockMvcWebConnection.setWebClient( WebClient webClient );1;0;4
+MockMvcWebConnection.storeCookies( WebRequest webRequest , jakarta . servlet . http . Cookie [ ] cookies );5;3;17

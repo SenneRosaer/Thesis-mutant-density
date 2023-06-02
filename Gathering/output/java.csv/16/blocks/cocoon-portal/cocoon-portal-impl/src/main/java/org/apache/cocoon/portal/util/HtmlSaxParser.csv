@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ContentFilter.processingInstruction( String target , String data );1;0;3
+HtmlSaxParser.parseString( String content , ContentHandler ch );3;0;13
+ExtendedContentFilter.endEntity( String arg0 );1;0;3
+ExtendedContentFilter.startEntity( String arg0 );1;0;3
+ExtendedContentFilter.ExtendedContentFilter( final ContentHandler ch );1;0;4
+ContentFilter.startDocument( );1;0;3
+ExtendedContentFilter.endCDATA( );1;0;3
+HtmlSaxParser.HtmlSaxParser( Properties properties );1;0;3
+ContentFilter.skippedEntity( String name );1;0;3
+HtmlSaxParser.getContentFilter( ContentHandler ch );2;0;6
+ContentFilter.setDocumentLocator( Locator locator );1;0;3
+ContentFilter.endElement( String uri , String loc , String raw );3;3;5
+ContentFilter.startElement( String uri , String loc , String raw , Attributes a );3;3;5
+ContentFilter.startPrefixMapping( String prefix , String uri );1;0;3
+ExtendedContentFilter.startDTD( String arg0 , String arg1 , String arg2 );1;0;3
+ContentFilter.ContentFilter( ContentHandler ch );1;0;3
+ExtendedContentFilter.startCDATA( );1;0;3
+ExtendedContentFilter.comment( char [ ] arg0 , int arg1 , int arg2 );1;0;3
+HtmlSaxParser.getConfig( Properties properties );3;1;11
+ExtendedContentFilter.endDTD( );1;0;3
+ContentFilter.endPrefixMapping( String prefix );1;0;3
+ContentFilter.characters( char [ ] ch , int start , int length );1;0;3
+ContentFilter.ignorableWhitespace( char [ ] ch , int start , int length );1;0;3
+ContentFilter.endDocument( );1;0;3

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ImageSegment.setEncoding( byte encoding );1;0;3
+ImageSegment.setIDEColorModel( byte colorModel );1;0;3
+ImageSegment.setCompression( byte compression );1;0;3
+ImageSegment.getNameLength( );1;0;3
+ImageSegment.writeContent( OutputStream os );2;1;5
+ImageSegment.setData( byte [ ] imageData );1;0;3
+ImageSegment.getImageContent( );2;1;6
+ImageSegment.ImageSegment( Factory factory , String name );1;0;4
+ImageSegment.setIDESize( byte size );1;0;3
+ImageSegment.writeEnd( OutputStream os );1;0;7
+ImageSegment.setImageSize( int hsize , int vsize , int hresol , int vresol );1;0;5
+ImageSegment.writeStart( OutputStream os );1;0;12

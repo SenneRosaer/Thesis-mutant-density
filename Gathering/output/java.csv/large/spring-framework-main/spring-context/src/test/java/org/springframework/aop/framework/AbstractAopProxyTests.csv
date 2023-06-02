@@ -1,0 +1,120 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractAopProxyTests.testTargetCantGetProxyByDefault( );1;0;8
+MapAwareMethodInterceptor.invoke( MethodInvocation invocation );2;0;9
+AbstractAopProxyTests.testUndeclaredCheckedException( );1;0;14
+NeedsToSeeProxy.getCount( );1;0;3
+Overloads.overload( String s );1;0;3
+MockTargetSource.getTarget( );1;1;4
+CheckMethodInvocationViaThreadLocalIsSameInAndOutInterceptor.invoke( MethodInvocation mi );2;1;16
+AbstractAopProxyTests.testMixinWithIntroductionInfo( );1;0;8
+AbstractAopProxyTests.testSerializationAdviceNotSerializable( );1;0;10
+StringSetterNullReplacementAdvice.StringSetterNullReplacementAdvice( );5;0;15
+AbstractAopProxyTests.testContext( );1;0;3
+AbstractAopProxyTests.testAdviceImplementsIntroductionInfo( );1;0;14
+CountingAdvisorListener.activated( AdvisedSupport advised );1;1;4
+AbstractAopProxyTests.invoke( MethodInvocation invocation );1;0;4
+CountingMultiAdvice.afterThrowing( UncheckedException ex );1;0;3
+AbstractAopProxyTests.testTargetCanGetProxy( );1;0;18
+AbstractAopProxyTests.assertNoInvocationContext( );1;0;4
+AbstractAopProxyTests.testMultiAdvice( );3;0;30
+AbstractAopProxyTests.testUndeclaredUncheckedException( );1;0;15
+CheckMethodInvocationIsSameInAndOutInterceptor.invoke( MethodInvocation mi );1;0;6
+MapAwareMethodInterceptor.testUserAttributes( );1;0;4
+AbstractAopProxyTests.isStatic( );1;0;3
+AbstractAopProxyTests.testMixinWithIntroductionAdvisor( );1;0;8
+AbstractAopProxyTests.testCanPreventCastToAdvisedUsingOpaque( );1;0;18
+AbstractAopProxyTests.before( Method m , Object [ ] args , Object target );2;0;6
+AbstractAopProxyTests.testIntroductionThrowsUncheckedException( );1;0;15
+AbstractAopProxyTests.testAdviceSupportListeners( );1;0;33
+AbstractAopProxyTests.testTargetCanGetInvocation( );1;0;17
+AbstractAopProxyTests.testCannotAddIntroductionAdviceToIntroduceClass( );1;0;10
+Overloads.overload( );1;0;2
+AbstractAopProxyTests.testCannotRemoveAdvisorWhenFrozen( );1;0;19
+SpecializedUncheckedException.SpecializedUncheckedException( String string , SQLException exception );1;0;2
+Overloads.noAdvice( );1;0;2
+TestStaticPointcutAdvice.matches( Method m , @ Nullable Class < ? > targetClass );1;0;3
+CountingThrowsAdvice.afterThrowing( IOException ex );1;0;3
+NameSaver.invoke( MethodInvocation mi );1;0;4
+TrapTargetInterceptor.invoke( MethodInvocation invocation );1;0;4
+AbstractAopProxyTests.testBeforeAdvisorIsInvoked( );2;0;26
+AbstractAopProxyTests.testOverloadedMethodsWithDifferentAdvice( );6;0;31
+AbstractAopProxyTests.testTestBeanIntroduction( ProxyFactory pc );1;0;16
+NeedsToSeeProxy.increment( );1;1;3
+AllInstancesAreEqual.hashCode( );1;0;3
+AbstractAopProxyTests.testSerializationAdviceAndTargetNotSerializable( );1;0;8
+AbstractAopProxyTests.testStaticMethodPointcut( );1;0;16
+TestDynamicPointcutForSettersOnly.TestDynamicPointcutForSettersOnly( MethodInterceptor mi , final String pattern );4;0;17
+MockTargetSource.reset( );1;0;4
+AbstractAopProxyTests.testAddThrowsAdviceWithoutAdvisor( );1;0;19
+AbstractAopProxyTests.verify( );1;0;3
+AbstractAopProxyTests.testBeforeAdviceThrowsException( );2;0;34
+AbstractAopProxyTests.testCannotAddDynamicIntroductionAdviceExceptInIntroductionAdvice( );1;0;10
+TestStaticPointcutAdvice.TestStaticPointcutAdvice( MethodInterceptor mi , String pattern );1;0;4
+CountingMultiAdvice.afterThrowing( IOException ex );1;0;3
+AbstractAopProxyTests.testCanCastProxyToProxyConfig( );1;0;29
+InvocationCheckExposedInvocationTestBean.assertions( MethodInvocation invocation );1;0;4
+AbstractAopProxyTests.testReentrance( );1;0;15
+ExposedInvocationTestBean.absquatulate( );1;0;5
+MockTargetSource.getTargetClass( );1;0;3
+AbstractAopProxyTests.testContext( final boolean context );4;1;25
+AbstractAopProxyTests.testValuesStick( );1;0;17
+AbstractAopProxyTests.releaseTarget( Object target );1;0;2
+NeedsToSeeProxy.incrementViaProxy( );1;0;6
+Overloads.overload( int i );1;0;3
+TestDynamicPointcutForSettersOnly.matches( Method m , @ Nullable Class < ? > targetClass , Object ... args );2;1;7
+AbstractAopProxyTests.testProxyIsBoundBeforeTargetSourceInvoked( );2;0;27
+AbstractAopProxyTests.testUserAttributes( );2;0;46
+AbstractAopProxyTests.testDynamicMethodPointcutThatAlwaysAppliesStatically( );1;0;15
+AbstractAopProxyTests.requiresTarget( );1;0;3
+AbstractAopProxyTests.getTargetClass( );1;0;3
+AbstractAopProxyTests.testRejectsBogusDynamicIntroductionAdviceWithNoAdapter( );1;0;10
+AbstractAopProxyTests.matches( Method m , @ Nullable Class < ? > targetClass );1;9;3
+OwnSpouse.getSpouse( );1;0;3
+AllInstancesAreEqual.equals( Object other );1;0;3
+AbstractAopProxyTests.testCannotAddIntroductionAdviceWithUnimplementedInterface( );1;0;9
+TestDynamicPointcutAdvice.matches( Method m , @ Nullable Class < ? > targetClass , Object ... args );2;1;7
+MockTargetSource.releaseTarget( Object pTarget );2;2;6
+MockTargetSource.setTarget( Object target );1;0;3
+MyDi.getTimeStamp( );1;0;3
+AbstractAopProxyTests.testOneAdvisedObjectCallsAnother( );1;0;32
+AbstractAopProxyTests.testCannotAddInterceptorWhenFrozen( );1;0;14
+AbstractAopProxyTests.testProxyConfigString( );1;0;13
+AbstractAopProxyTests.testCloneInvocationToProceedThreeTimes( );2;2;26
+AbstractAopProxyTests.testTargetReturnsThis( );1;0;8
+AbstractAopProxyTests.testDeclaredException( );1;0;16
+AbstractAopProxyTests.testAfterReturningAdvisorIsInvoked( );2;1;33
+CountingAdvisorListener.CountingAdvisorListener( AdvisedSupport expectedSource );1;0;3
+StringSetterNullReplacementAdvice.matches( Method m , @ Nullable Class < ? > targetClass , Object ... args );1;1;3
+AbstractAopProxyTests.testThrowsAdvisorIsInvoked( );2;0;28
+AbstractAopProxyTests.testSerializableTargetAndAdvice( );3;0;46
+AbstractAopProxyTests.testTargetCanGetInvocationEvenIfNoAdviceChain( );1;0;9
+DummyIntroductionAdviceImpl.implementsInterface( Class < ? > intf );1;0;3
+ProxyMatcherInterceptor.invoke( MethodInvocation mi );1;0;6
+TestDynamicPointcutAdvice.TestDynamicPointcutAdvice( MethodInterceptor mi , final String pattern );3;0;13
+MockTargetSource.verify( );2;1;5
+AbstractAopProxyTests.testCannotAddAdvisorWhenFrozenUsingCast( );1;0;16
+TestDynamicPointcutForSettersOnly.matches( Method m , @ Nullable Class < ? > clazz );1;0;3
+MockTargetSource.isStatic( );1;0;3
+AbstractAopProxyTests.testAfterReturningAdvisorIsNotInvokedOnException( );1;0;18
+CountingMultiAdvice.afterReturning( @ Nullable Object o , Method m , Object [ ] args , @ Nullable Object target );1;0;3
+AbstractAopProxyTests.getTarget( );1;0;4
+AbstractAopProxyTests.testNoContext( );1;0;3
+RefreshCountingAdvisorChainFactory.adviceChanged( AdvisedSupport advised );1;1;3
+AbstractAopProxyTests.testDynamicMethodPointcutThatAppliesStaticallyOnlyToSetters( );1;0;18
+AbstractAopProxyTests.testCanChangeArgumentsIndependentlyOnClonedInvocation( );1;0;33
+AbstractAopProxyTests.testReplaceArgument( );1;0;16
+CountingMultiAdvice.before( Method m , Object [ ] args , @ Nullable Object target );1;0;3
+CountingThrowsAdvice.afterThrowing( UncheckedException ex );1;0;3
+NeedsToSeeProxy.checkAdvised( Advised advised );1;0;2
+RefreshCountingAdvisorChainFactory.activated( AdvisedSupport advised );1;1;3
+AbstractAopProxyTests.reset( );1;0;3
+SummingAfterAdvice.afterReturning( @ Nullable Object returnValue , Method m , Object [ ] args , @ Nullable Object target );1;1;3
+CountingAdvisorListener.adviceChanged( AdvisedSupport advised );1;1;4
+StringSetterNullReplacementAdvice.matches( Method m , @ Nullable Class < ? > targetClass );3;3;5
+ExposedInvocationTestBean.getName( );1;0;5
+AbstractAopProxyTests.testUseAsHashKey( );1;0;18
+AbstractAopProxyTests.testExistingProxyChangesTarget( );1;0;35
+AllInstancesAreEqual.absquatulate( );1;0;2
+AbstractAopProxyTests.testEquals( );1;0;22
+TargetChecker.checkAdvised( Advised advised );1;0;2
+NeedsToSeeProxy.incrementViaThis( );1;0;3

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultipartParser.getBoundary( String hdr );2;3;7
+MultipartParser.parseParts( int contentLength , String contentType , InputStream requestStream );2;1;10
+MultipartParser.parsePart( TokenStream ts );8;4;31
+MultipartParser.MultipartParser( boolean saveUploadedFilesToDisk , File uploadDirectory , boolean allowOverwrite , boolean silentlyRename , int maxUploadSize , String characterEncoding );1;0;8
+MultipartParser.parseMultiPart( TokenStream ts , String boundary );3;2;12
+MultipartParser.getParts( HttpServletRequest request );5;3;31
+MultipartParser.readln( TokenStream in );4;5;12
+MultipartParser.readHeaders( TokenStream in );4;1;15
+MultipartParser.getParts( int contentLength , String contentType , InputStream requestStream );1;0;5
+MultipartParser.parseInlinePart( TokenStream in , Hashtable headers );4;4;14
+MultipartParser.parseFilePart( TokenStream in , Hashtable headers );19;19;81

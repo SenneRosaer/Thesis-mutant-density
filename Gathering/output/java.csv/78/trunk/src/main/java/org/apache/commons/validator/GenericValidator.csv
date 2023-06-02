@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GenericValidator.isInRange( short value , short min , short max );2;3;3
+GenericValidator.isDate( String value , Locale locale );1;0;3
+GenericValidator.isLong( String value );1;1;3
+GenericValidator.matchRegexp( String value , String regexp );3;3;6
+GenericValidator.maxValue( double value , double max );1;1;3
+GenericValidator.minValue( long value , long min );1;1;3
+GenericValidator.isShort( String value );1;1;3
+GenericValidator.maxValue( int value , int max );1;1;3
+GenericValidator.isCreditCard( String value );1;0;3
+GenericValidator.minValue( float value , float min );1;1;3
+GenericValidator.minLength( String value , int min , int lineEndLength );1;2;4
+GenericValidator.isDouble( String value );1;1;3
+GenericValidator.isFloat( String value );1;1;3
+GenericValidator.isDate( String value , String datePattern , boolean strict );1;0;3
+GenericValidator.maxLength( String value , int max , int lineEndLength );1;2;4
+GenericValidator.isInRange( int value , int min , int max );2;3;3
+GenericValidator.minValue( int value , int min );1;1;3
+GenericValidator.isInRange( double value , double min , double max );2;3;3
+GenericValidator.isUrl( String value );1;0;3
+GenericValidator.isBlankOrNull( String value );2;3;3
+GenericValidator.isInt( String value );1;1;3
+GenericValidator.isInRange( float value , float min , float max );2;3;3
+GenericValidator.minValue( double value , double min );1;1;3
+GenericValidator.adjustForLineEnding( String value , int lineEndLength );4;9;13
+GenericValidator.isInRange( byte value , byte min , byte max );2;3;3
+GenericValidator.maxLength( String value , int max );1;1;3
+GenericValidator.isByte( String value );1;1;3
+GenericValidator.maxValue( long value , long max );1;1;3
+GenericValidator.isEmail( String value );1;0;3
+GenericValidator.minLength( String value , int min );1;1;3
+GenericValidator.maxValue( float value , float max );1;1;3
+GenericValidator.isInRange( long value , long min , long max );2;3;3

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractTraceInterceptor.setLogExceptionStackTrace( boolean logExceptionStackTrace );1;0;3
+AbstractTraceInterceptor.setLoggerName( String loggerName );1;0;3
+AbstractTraceInterceptor.isInterceptorEnabled( MethodInvocation invocation , Log logger );1;0;3
+AbstractTraceInterceptor.isLogEnabled( Log logger );1;0;3
+AbstractTraceInterceptor.setUseDynamicLogger( boolean useDynamicLogger );2;0;3
+AbstractTraceInterceptor.getLoggerForInvocation( MethodInvocation invocation );2;2;10
+AbstractTraceInterceptor.invoke( MethodInvocation invocation );2;0;9
+AbstractTraceInterceptor.writeToLog( Log logger , String message , @ Nullable Throwable ex );3;2;8
+AbstractTraceInterceptor.getClassForLogging( Object target );2;0;3
+AbstractTraceInterceptor.writeToLog( Log logger , String message );1;0;3
+AbstractTraceInterceptor.setHideProxyClassNames( boolean hideProxyClassNames );1;0;3

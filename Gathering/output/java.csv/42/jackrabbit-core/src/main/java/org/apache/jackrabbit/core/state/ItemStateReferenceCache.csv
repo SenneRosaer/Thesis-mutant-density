@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ItemStateReferenceCache.ItemStateReferenceCache( ItemStateCacheFactory cacheFactory );1;0;3
+ItemStateReferenceCache.dispose( );1;0;3
+ItemStateReferenceCache.cache( ItemState state );2;0;8
+ItemStateReferenceCache.retrieveAll( );1;0;3
+ItemStateReferenceCache.evict( ItemId id );1;0;4
+ItemStateReferenceCache.ItemStateReferenceCache( ItemStateCache cache );1;0;4
+ItemStateReferenceCache.evictAll( );1;0;4
+ItemStateReferenceCache.retrieve( ItemId id );1;0;4
+ItemStateReferenceCache.isEmpty( );1;0;3
+ItemStateReferenceCache.isCached( ItemId id );1;0;3
+ItemStateReferenceCache.update( ItemId id );1;0;3
+ItemStateReferenceCache.dump( PrintStream ps );1;0;6

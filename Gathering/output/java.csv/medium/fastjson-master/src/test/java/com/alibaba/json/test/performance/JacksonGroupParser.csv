@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JacksonGroupParser.getNextTextValue( String fieldName , JsonParser parser );3;3;8
+JacksonGroupParser.acceptBigDecimal( JsonToken token );2;1;9
+JacksonGroupParser.acceptLong( JsonToken token );2;1;9
+JacksonGroupParser.acceptString( );2;1;9
+JacksonGroupParser.parseCompany( );9;7;29
+JacksonGroupParser.acceptInteger( JsonToken token );2;1;9
+JacksonGroupParser.acceptString( JsonToken token );2;1;9
+JacksonGroupParser.parseCompany( List < Company > list );3;1;11
+JacksonGroupParser.parseEmployee( );12;10;35
+JacksonGroupParser.reportParseError( String errorMsg , JsonLocation jsonLoc );1;0;3
+JacksonGroupParser.JacksonGroupParser( JsonParser parser );1;0;4
+JacksonGroupParser.acceptBoolean( JsonToken token );3;2;11
+JacksonGroupParser.parseDepartment( );9;7;29
+JacksonGroupParser.parseGroup( );7;5;25
+JacksonGroupParser.accept( JsonToken token );2;1;7
+JacksonGroupParser.parseDepartment( List < Department > list );3;1;11
+JacksonGroupParser.parseEmployee( List < Employee > list );3;1;11

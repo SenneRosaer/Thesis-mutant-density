@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ObjectType.ObjectType( byte componentId , byte [ ] oid , String name , boolean includable , String mimeType );1;0;7
+Registry.Registry( );1;0;3
+ObjectType.isIncludable( );1;0;3
+ObjectType.getMimeType( );1;0;3
+ObjectType.toString( );1;0;3
+Registry.getInstance( );2;1;8
+ObjectType.getName( );1;0;3
+ObjectType.getOID( );1;0;3
+ObjectType.getComponentId( );1;0;3
+Registry.getObjectType( String mimeType );1;0;3
+Registry.init( );1;0;91

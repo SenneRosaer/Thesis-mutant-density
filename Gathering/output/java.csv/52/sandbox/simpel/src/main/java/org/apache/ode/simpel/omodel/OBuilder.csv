@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OBuilder.booleanExpr( boolean value );2;0;5
+OBuilder.resolveVariable( OScope oscope , String name , String operation , boolean request );5;5;26
+OBuilder.buildSwitch( final OSwitch oswitch , OScope parentScope , SimPELExpr condExpr );2;0;17
+OBuilder.resolveVariable( OScope oscope , String name );1;0;3
+OBuilder.buildScope( final OScope oscope , OScope parentScope );3;0;13
+OBuilder.buildReply( OReply oreply , OScope oscope , OComm ocomm , String var , String plinkOrRes , String operation );6;4;25
+OBuilder.buildEvent( final OEventHandler . OEvent oevent , OScope oscope , String resource , String method );1;0;11
+OBuilder.run( OActivity child );3;2;9
+ResourceDesc.setInstantiating( boolean i );2;0;6
+StructuredActivity.getOActivity( );1;0;3
+StructuredActivity.StructuredActivity( T oact );1;0;3
+OBuilder.addVariableDecl( String varName , String modifiers );4;3;21
+OBuilder.setBlockParam( OScope oscope , OSequence blockActivity , String varName );8;4;23
+OBuilder.OBuilder( Descriptor desc );1;0;7
+OBuilder.getProcess( );1;0;3
+SimpleActivity.SimpleActivity( T oact );1;0;3
+OBuilder.buildProcess( String prefix , String name );4;3;25
+OBuilder.buildAssign( OAssign oassign , OScope oscope , SimPELExpr rexpr );2;0;14
+OBuilder.buildSequence( final OSequence seq , OScope oscope );1;0;7
+SimpleActivity.run( OActivity child );1;0;1
+OBuilder.buildPartnerLink( OScope oscope , String name , String operation , boolean myRole , Boolean input );8;5;38
+OBuilder.addResourceDecl( OScope scope , String resourceName , SimPELExpr pathExpr , String resourceRef );4;3;24
+OBuilder.addExprVariable( OScope oscope , SimPELExpr expr , String varName );3;2;8
+OBuilder.buildPickReceive( OPickReceive receive , OScope oscope , String partnerLinkOrResource , String operation , SimPELExpr expr );8;7;28
+OBuilder.copyResource( ResourceDesc res , String method );3;2;15
+OBuilder.getBpwsNamespace( );1;0;3
+OBuilder.buildWait( OWait owait , OScope oscope , SimPELExpr rexpr );1;0;5
+OBuilder.buildInvoke( OInvoke invoke , OScope oscope , String partnerLink , String operation , String incomingMsg );2;2;6
+OBuilder.build( Class oclass , OScope oscope , StructuredActivity parent , Object ... params );6;3;19
+OBuilder.buildWhile( final OWhile owhile , OScope parentScope , SimPELExpr whileExpr );1;0;9
+OBuilder.addCorrelationMatch( OActivity receive , List match );1;1;14

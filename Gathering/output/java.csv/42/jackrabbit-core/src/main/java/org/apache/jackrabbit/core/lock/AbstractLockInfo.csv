@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractLockInfo.AbstractLockInfo( LockToken lockToken , boolean sessionScoped , boolean deep , String lockOwner );1;0;6
+AbstractLockInfo.getLockToken( Session session );2;0;6
+AbstractLockInfo.getId( );1;0;3
+AbstractLockInfo.isSessionScoped( );1;0;3
+AbstractLockInfo.setLive( boolean live );1;0;3
+AbstractLockInfo.isLive( );1;0;3
+AbstractLockInfo.setLockHolder( SessionImpl lockHolder );1;0;3
+AbstractLockInfo.mayChange( );1;0;3
+AbstractLockInfo.getLockHolder( );1;0;3
+AbstractLockInfo.toString( );4;1;18

@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompactNodeTypeDefWriter.write( List l , NamespaceResolver r , NamePathResolver npResolver , Writer out );2;0;9
+CompactNodeTypeDefWriter.CompactNodeTypeDefWriter( Writer out , NamespaceResolver r , NamePathResolver npResolver , boolean includeNS );2;0;11
+CompactNodeTypeDefWriter.writeRequiredTypes( Name [ ] reqTypes );4;5;11
+CompactNodeTypeDefWriter.writeSupertypes( NodeTypeDef ntd );2;2;9
+CompactNodeTypeDefWriter.writePropDefs( NodeTypeDef ntd );2;2;7
+CompactNodeTypeDefWriter.writeNodeDef( NodeTypeDef ntd , NodeDef nd );8;3;24
+CompactNodeTypeDefWriter.writeDefaultValues( InternalValue [ ] dva );5;5;15
+CompactNodeTypeDefWriter.writeOptions( NodeTypeDef ntd );4;0;12
+CompactNodeTypeDefWriter.writeDefaultType( Name defType );3;3;6
+CompactNodeTypeDefWriter.CompactNodeTypeDefWriter( Writer out , NamespaceResolver r , NamePathResolver npResolver );1;0;3
+CompactNodeTypeDefWriter.resolve( Name qname );8;9;30
+CompactNodeTypeDefWriter.writeName( NodeTypeDef ntd );1;0;5
+CompactNodeTypeDefWriter.close( );2;1;11
+CompactNodeTypeDefWriter.escape( String s );4;6;13
+CompactNodeTypeDefWriter.writeItemDefName( Name name );2;0;7
+CompactNodeTypeDefWriter.writePropDef( NodeTypeDef ntd , PropDef pd );9;3;31
+CompactNodeTypeDefWriter.writeNodeDefs( NodeTypeDef ntd );2;2;7
+CompactNodeTypeDefWriter.writeValueConstraints( ValueConstraint [ ] vca );4;5;14
+CompactNodeTypeDefWriter.write( NodeTypeDef d );1;0;8

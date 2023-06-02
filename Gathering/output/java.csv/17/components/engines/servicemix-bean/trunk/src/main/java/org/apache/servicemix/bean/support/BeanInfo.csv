@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BeanInfo.introspect( Class clazz , Method method );7;7;27
+BeanInfo.createInvocation( Object pojo , MessageExchange messageExchange );3;2;13
+BeanInfo.introspect( Class clazz );4;3;10
+BeanInfo.evaluate( MessageExchange exchange , NormalizedMessage message );1;0;3
+BeanInfo.newInstance( Content content );3;0;9
+BeanInfo.createParameterUnmarshalExpressionForAnnotation( Class clazz , Method method , Class parameterType , Annotation annotation );6;3;20
+BeanInfo.getType( );1;0;3
+BeanInfo.introspect( );3;1;9
+BeanInfo.BeanInfo( Class type , MethodInvocationStrategy strategy );1;0;4
+BeanInfo.createMethodParametersExpression( final Expression [ ] parameterExpressions );2;0;13
+BeanInfo.evaluate( MessageExchange messageExchange , NormalizedMessage normalizedMessage );2;2;8
+BeanInfo.createContentExpression( final PojoMarshaler marshaller );1;0;7
+BeanInfo.createParameterUnmarshalExpression( Class clazz , Method method , Class parameterType , Annotation [ ] parameterAnnotation );3;1;10

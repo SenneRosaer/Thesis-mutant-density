@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ValueHelper.serialize( Value value , boolean encodeBlanks , Writer writer );1;0;3
+ValueHelper.deserialize( Reader reader , int type , boolean decodeBlanks , ValueFactory factory );4;3;30
+ValueHelper.convert( String [ ] srcValues , int targetType );1;0;3
+ValueHelper.convert( String [ ] srcValues , int targetType , ValueFactory factory );3;3;10
+ValueHelper.deserialize( Reader reader , int type , boolean decodeBlanks );1;0;3
+ValueHelper.convert( String srcValue , int targetType , ValueFactory factory );2;1;7
+ValueHelper.serialize( Value value , boolean encodeBlanks , boolean enforceBase64 , Writer writer );5;1;25
+ValueHelper.ValueHelper( );1;0;2
+ValueHelper.deserialize( String value , int type , boolean decodeBlanks );1;0;3
+ValueHelper.convert( Value srcValue , int targetType , ValueFactory factory );48;2;152
+ValueHelper.convert( InputStream srcValue , int targetType , ValueFactory factory );2;1;7
+ValueHelper.convert( Value [ ] srcValues , int targetType );1;0;3
+ValueHelper.convert( String srcValue , int targetType );1;0;3
+ValueHelper.close( );1;0;4
+ValueHelper.copy( Value srcValue , ValueFactory factory );12;1;35
+ValueHelper.copy( Value srcValue );1;0;3
+ValueHelper.serialize( Value value , boolean encodeBlanks );2;0;10
+ValueHelper.convert( Value srcValue , int targetType );1;0;3
+ValueHelper.convert( InputStream [ ] srcValues , int targetType , ValueFactory factory );3;3;10
+ValueHelper.copy( Value [ ] srcValues );1;0;3
+ValueHelper.convert( InputStream srcValue , int targetType );1;0;3
+ValueHelper.deserialize( String value , int type , boolean decodeBlanks , ValueFactory factory );4;1;17
+ValueHelper.copy( Value [ ] srcValues , ValueFactory factory );3;3;10
+ValueHelper.convert( Value [ ] srcValues , int targetType , ValueFactory factory );6;6;21

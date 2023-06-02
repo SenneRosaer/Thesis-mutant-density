@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropertyAccessTests.simpleAccess01( );1;0;3
+PropertyAccessTests.standardGetClassAccess( );1;0;3
+PropertyAccessTests.simpleAccess02( );1;0;3
+PropertyAccessTests.propertyAccessWithInstanceMethodResolverAndTypedRootObject( );1;0;8
+PropertyAccessTests.propertyAccessWithInstanceMethodResolver( );1;0;5
+ConfigurablePropertyAccessor.getSpecificTargetClasses( );1;0;3
+PropertyAccessTests.shouldAlwaysUsePropertyAccessorFromEvaluationContext( );1;0;10
+ConfigurablePropertyAccessor.canRead( EvaluationContext context , Object target , String name );1;0;3
+StringyPropertyAccessor.canWrite( EvaluationContext context , Object target , String name );2;1;6
+StringyPropertyAccessor.write( EvaluationContext context , Object target , String name , Object newValue );3;1;12
+PropertyAccessTests.simpleAccess03( );1;0;3
+StringyPropertyAccessor.getSpecificTargetClasses( );2;0;3
+PropertyAccessTests.propertyAccessWithoutMethodResolver( );1;0;6
+PropertyAccessTests.accessingOnNullObject( );1;0;11
+StringyPropertyAccessor.read( EvaluationContext context , Object target , String name );2;1;6
+PropertyAccessTests.propertyReadOnlyWithRecordStyle( );1;0;10
+PropertyAccessTests.propertyReadWrite( );1;0;14
+PropertyAccessTests.noGetClassAccess( );1;0;5
+PropertyAccessTests.propertyReadWriteWithRootObject( );1;0;15
+StringyPropertyAccessor.canRead( EvaluationContext context , Object target , String name );2;1;6
+PropertyAccessTests.propertyReadOnly( );1;0;10
+ConfigurablePropertyAccessor.canWrite( EvaluationContext context , Object target , String name );1;0;3
+ConfigurablePropertyAccessor.read( EvaluationContext context , Object target , String name );1;0;3
+PropertyAccessTests.addingAndRemovingAccessors( );1;0;13
+ConfigurablePropertyAccessor.write( EvaluationContext context , Object target , String name , Object newValue );1;0;2
+PropertyAccessTests.accessingPropertyOfClass( );1;0;5
+PropertyAccessTests.addingSpecificPropertyAccessor( );1;0;17
+PropertyAccessTests.propertyAccessWithArrayIndexOutOfBounds( );1;0;7
+ConfigurablePropertyAccessor.ConfigurablePropertyAccessor( Map < String , Object > values );1;0;3
+PropertyAccessTests.nonExistentPropertiesAndMethods( );1;0;4

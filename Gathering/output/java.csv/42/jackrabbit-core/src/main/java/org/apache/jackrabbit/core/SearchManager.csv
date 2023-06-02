@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SearchManager.createQueryInstance( );3;1;13
+SearchManager.shutdownQueryHandler( );2;1;6
+SearchManager.close( );4;1;12
+SearchManager.SearchManager( SearchConfig config , final NamespaceRegistryImpl nsReg , NodeTypeRegistry ntReg , ItemStateManager itemMgr , PersistenceManager pm , NodeId rootNodeId , SearchManager parentMgr , NodeId excludedNodeId );8;4;41
+SearchManager.isExcluded( EventImpl event );4;2;12
+SearchManager.nextNodeId( );1;0;3
+SearchManager.nextNodeState( );4;3;15
+SearchManager.createQuery( SessionImpl session , ItemManager itemMgr , Node node );1;0;5
+SearchManager.safeRegisterNamespace( String prefixHint , String uri );4;2;15
+SearchManager.hasNext( );1;0;3
+SearchManager.createQuery( SessionImpl session , ItemManager itemMgr , String statement , String language );1;0;5
+SearchManager.getQueryHandler( );1;0;3
+SearchManager.initializeQueryHandler( );2;0;11
+SearchManager.remove( );1;0;3
+SearchManager.createQueryObjectModel( SessionImpl session , QueryObjectModelTree qomTree , String langugage );1;0;5
+SearchManager.next( );1;0;3
+SearchManager.onEvent( EventIterator events );18;12;95

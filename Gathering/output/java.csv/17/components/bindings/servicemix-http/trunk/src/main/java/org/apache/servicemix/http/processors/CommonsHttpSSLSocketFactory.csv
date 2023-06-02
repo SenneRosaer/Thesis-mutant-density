@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CommonsHttpSSLSocketFactory.CommonsHttpSSLSocketFactory( SslParameters ssl , KeystoreManager keystoreManager );2;0;7
+CommonsHttpSSLSocketFactory.createSocket( Socket socket , String host , int port , boolean autoClose );1;0;3
+CommonsHttpSSLSocketFactory.createSocket( String host , int port , InetAddress localAddress , int localPort );1;0;3
+CommonsHttpSSLSocketFactory.createUnmanagedFactory( SslParameters ssl );16;11;73
+CommonsHttpSSLSocketFactory.createManagedFactory( SslParameters ssl , KeystoreManager keystoreManager );1;0;4
+CommonsHttpSSLSocketFactory.createSocket( String host , int port , InetAddress localAddress , int localPort , HttpConnectionParams params );3;2;16
+CommonsHttpSSLSocketFactory.createSocket( String host , int port );1;0;3

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UTF16Reader.close( );1;0;3
+UTF16Reader.expectedTwoBytes( );1;0;7
+UTF16Reader.ready( );1;0;3
+UTF16Reader.processBE( final char ch [ ] , int offset , final int count );2;9;8
+UTF16Reader.read( );4;9;14
+UTF16Reader.UTF16Reader( InputStream inputStream , byte [ ] buffer , boolean isBigEndian , MessageFormatter messageFormatter , Locale locale );1;0;7
+UTF16Reader.mark( int readAheadLimit );1;0;3
+UTF16Reader.markSupported( );1;0;3
+UTF16Reader.processLE( final char ch [ ] , int offset , final int count );2;9;8
+UTF16Reader.UTF16Reader( InputStream inputStream , boolean isBigEndian , MessageFormatter messageFormatter , Locale locale );1;0;3
+UTF16Reader.reset( );1;0;2
+UTF16Reader.UTF16Reader( InputStream inputStream , boolean isBigEndian );1;0;4
+UTF16Reader.read( char ch [ ] , int offset , int length );6;11;25
+UTF16Reader.skip( long n );3;7;11
+UTF16Reader.UTF16Reader( InputStream inputStream , int size , boolean isBigEndian , MessageFormatter messageFormatter , Locale locale );1;0;3

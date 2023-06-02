@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MvcUriComponentsBuilder.MvcUriComponentsBuilder( UriComponentsBuilder baseUrl );1;0;4
+MethodArgumentBuilder.getPath( );2;1;5
+MvcUriComponentsBuilder.on( Class < T > controllerType );1;0;3
+MvcUriComponentsBuilder.getWebApplicationContext( );3;2;13
+MethodArgumentBuilder.buildAndExpand( Object ... uriVars );1;0;4
+MethodArgumentBuilder.encode( );1;0;4
+MvcUriComponentsBuilder.fromMethodName( UriComponentsBuilder builder , Class < ? > controllerType , String methodName , Object ... args );1;0;4
+MethodArgumentBuilder.MethodArgumentBuilder( @ Nullable UriComponentsBuilder baseUrl , Class < ? > controllerType , Method method );2;1;8
+MvcUriComponentsBuilder.getMethod( Class < ? > controllerType , final String methodName , final Object ... args );4;4;20
+MvcUriComponentsBuilder.fromMappingName( String mappingName );1;0;3
+ControllerMethodInvocationInterceptor.getControllerMethod( );1;1;4
+MvcUriComponentsBuilder.relativeTo( UriComponentsBuilder baseUrl );1;0;3
+MvcUriComponentsBuilder.fromMethod( Class < ? > controllerType , Method method , Object ... args );1;0;3
+MethodArgumentBuilder.MethodArgumentBuilder( Class < ? > controllerType , Method method );1;0;3
+MvcUriComponentsBuilder.applyContributors( UriComponentsBuilder builder , Method method , Object ... args );3;3;16
+MvcUriComponentsBuilder.withMappingName( String mappingName );1;0;3
+MvcUriComponentsBuilder.controller( Class < T > controllerType );1;0;4
+ControllerMethodInvocationInterceptor.ControllerMethodInvocationInterceptor( Class < ? > controllerType );1;0;3
+MvcUriComponentsBuilder.fromController( Class < ? > controllerType );1;0;3
+MvcUriComponentsBuilder.getBaseUrlToUse( @ Nullable UriComponentsBuilder baseUrl );2;1;5
+MvcUriComponentsBuilder.fromMappingName( @ Nullable UriComponentsBuilder builder , String name );6;4;24
+MvcUriComponentsBuilder.withMethodCall( Object invocationInfo );1;0;3
+MvcUriComponentsBuilder.withController( Class < ? > controllerType );1;0;3
+MvcUriComponentsBuilder.fromMethodCall( UriComponentsBuilder builder , Object info );2;0;8
+ControllerMethodInvocationInterceptor.initProxy( Class < ? > controllerType , @ Nullable ControllerMethodInvocationInterceptor interceptor );11;3;41
+MvcUriComponentsBuilder.fromMethodName( Class < ? > controllerType , String methodName , Object ... args );1;0;4
+MvcUriComponentsBuilder.getPathPrefix( Class < ? > controllerType );5;2;15
+MvcUriComponentsBuilder.withMethod( Class < ? > controllerType , Method method , Object ... args );1;0;3
+MvcUriComponentsBuilder.fromMethodInternal( @ Nullable UriComponentsBuilder builder , Class < ? > controllerType , Method method , Object ... args );3;2;13
+MethodArgumentBuilder.arg( int index , Object value );1;0;4
+MvcUriComponentsBuilder.fromMethodCall( Object info );2;0;8
+MvcUriComponentsBuilder.getClassMapping( Class < ? > controllerType );6;5;15
+MethodArgumentBuilder.build( );1;0;4
+ControllerMethodInvocationInterceptor.invoke( Object proxy , Method method , Object [ ] args );1;0;3
+MvcUriComponentsBuilder.fromController( @ Nullable UriComponentsBuilder builder , Class < ? > controllerType );1;0;8
+ControllerMethodInvocationInterceptor.getControllerType( );1;0;3
+ControllerMethodInvocationInterceptor.intercept( @ Nullable Object obj , Method method , Object [ ] args , @ Nullable MethodProxy proxy );8;1;22
+MvcUriComponentsBuilder.getMethodMapping( Method method );6;5;15
+MvcUriComponentsBuilder.fromMethod( UriComponentsBuilder baseUrl , @ Nullable Class < ? > controllerType , Method method , Object ... args );2;1;4
+ControllerMethodInvocationInterceptor.getArgumentValues( );1;1;4
+MvcUriComponentsBuilder.withMethodName( Class < ? > controllerType , String methodName , Object ... args );1;0;3
+MvcUriComponentsBuilder.getUriComponentsContributor( );3;1;11

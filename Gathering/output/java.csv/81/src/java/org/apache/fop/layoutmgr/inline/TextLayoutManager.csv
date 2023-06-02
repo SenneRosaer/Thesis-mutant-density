@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TextLayoutManager.addElementsForASpace( final List baseList , final int alignment , final AreaInfo ai , final int leafValue );5;7;25
+TextLayoutManager.processLinebreak( final List returnList , KnuthSequence sequence );2;1;11
+***not in a method***;0;1;0
+TextLayoutManager.addElementsForBreakingSpace( final List baseList , final int alignment , final AreaInfo ai , final Position pos2 , final int p2WidthOffset , final Position pos3 , final int p3WidthOffset , final boolean skipZeroCheck );14;40;77
+TextLayoutManager.TextLayoutManager( final FOText node );1;1;6
+TextLayoutManager.applyChanges( final List oldList );5;12;27
+TextLayoutManager.initialize( );1;1;12
+TextLayoutManager.getChangedKnuthElements( final List oldList , final int alignment );4;3;18
+TextLayoutManager.processLeftoverAi( final int alignment , final KnuthSequence sequence , AreaInfo ai , final char ch , final boolean breakOpportunityAfter );1;1;7
+TextLayoutManager.createTextArea( final MinOptMax width , final int adjust , final LayoutContext context , final int spaceDiff , final int firstIndex , final int lastIndex , final boolean isLastArea , final Font font );22;41;79
+PendingChange.PendingChange( final AreaInfo ai , final int index );1;0;4
+TextLayoutManager.makeZeroWidthPenalty( final int penaltyValue );1;0;8
+TextLayoutManager.addAreaInfoAreas( final AreaInfo ai , final int wordSpaceCount , int letterSpaceCount , final int firstAreaInfoIndex , final int lastAreaInfoIndex , final MinOptMax realWidth , final LayoutContext context );14;46;60
+TextLayoutManager.addToLetterAdjust( final int index , final int width );2;1;7
+TextLayoutManager.isSpace( final char ch );3;3;5
+TextLayoutManager.hyphenate( final Position pos , final HyphContext hc );17;31;56
+TextLayoutManager.processWord( final int alignment , final KnuthSequence sequence , AreaInfo prevAi , final char ch , final boolean breakOpportunity , final boolean checkEndsWithHyphen );19;38;64
+AreaInfo.AreaInfo( final int startIndex , final int breakIndex , final int wordSpaceCount , final int letterSpaceCount , final MinOptMax areaIPD , final boolean isHyphenated , final boolean isSpace , final boolean breakOppAfter , final Font font );1;0;11
+TextLayoutManager.addElementsForAWordFragment( final List baseList , final int alignment , final AreaInfo ai , final int leafValue , final MinOptMax letterSpaceWidth );9;14;37
+AreaInfo.toString( );1;0;11
+TextLayoutManager.getNextKnuthElements( final LayoutContext context , final int alignment );33;29;99
+TextLayoutManager.addAreas( final PositionIterator posIter , final LayoutContext context );8;11;38
+TextLayoutManager.getWordChars( final StringBuffer sbChars , final Position pos );3;4;9
+TextLayoutManager.addALetterSpaceTo( final List oldList );4;13;35
+TextLayoutManager.processWhitespace( final int alignment , final KnuthSequence sequence , final boolean breakOpportunity );1;3;11
+TextLayoutManager.addElementsForAHyphen( final List baseList , final int alignment , final int widthIfBreakOccurs , MinOptMax widthIfNoBreakOccurs , final boolean unflagged );18;40;97
+TextLayoutManager.makeAuxiliaryZeroWidthBox( );1;1;7
+TextLayoutManager.removeWordSpace( final List oldList );4;3;17

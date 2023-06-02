@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TIFFLZWDecoder.addStringToTable( byte [ ] string );4;4;10
+TIFFLZWDecoder.getNextCode( );3;16;16
+TIFFLZWDecoder.decode( byte [ ] data , byte [ ] uncompData , int h );11;21;52
+TIFFLZWDecoder.writeString( byte [ ] string );2;3;5
+TIFFLZWDecoder.composeString( byte [ ] oldString , byte newString );1;1;7
+TIFFLZWDecoder.addStringToTable( byte [ ] oldString , byte newString );4;5;14
+TIFFLZWDecoder.TIFFLZWDecoder( int w , int predictor , int samplesPerPixel );1;0;5
+TIFFLZWDecoder.initializeStringTable( );2;2;9

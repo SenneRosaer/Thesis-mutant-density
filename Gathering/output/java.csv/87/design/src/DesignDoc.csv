@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DesignDoc.printReturnsComment( Element returns );3;2;14
+DesignDoc.printParamComment( Element param );3;2;16
+DesignDoc.readDesign( String systemId );4;1;19
+IndentingWriter.print( String s );2;0;4
+DesignDoc.printConstantComment( Element constant );1;0;6
+DesignDoc.printFieldComment( Element field );1;0;6
+DesignDoc.printField( Element field );1;0;10
+DesignDoc.getPreviousSiblingElement( Node node );3;2;10
+DesignDoc.printInterfaceFooter( Element inter );1;0;4
+DesignDoc.generateDesign( String filename , Element design );3;1;13
+DesignDoc.generateClass( Element cls );1;0;15
+DesignDoc.printClassFooter( Element cls );1;0;4
+DesignDoc.printConstant( Element constant );1;0;12
+DesignDoc.generateCategory( Element category );4;1;13
+DesignDoc.generateInterface( Element inter );1;0;12
+DesignDoc.getLastChildElement( Node parent );3;2;10
+DesignDoc.printMethods( Element object , boolean body );3;2;13
+DesignDoc.getNextSiblingElement( Node node , String name );4;3;10
+DesignDoc.printConstants( Element object );3;2;13
+DesignDoc.printType( IndentingWriter out , Element type );12;5;43
+IndentingWriter.print( char ch );2;0;4
+DesignDoc.printObjectProlog( Element object );7;6;36
+DesignDoc.collectImports( Element object , String objectPackageName , Vector references );11;14;35
+IndentingWriter.printIndent( );2;2;6
+DesignDoc.getPreviousSiblingElement( Node node , String name );4;3;10
+IndentingWriter.println( String s );1;0;4
+IndentingWriter.indent( );1;1;3
+DesignDoc.printConstructor( Element constructor );7;6;41
+DesignDoc.printMethodComment( Element method );10;10;37
+DesignDoc.main( String argv [ ] );6;5;26
+DesignDoc.printConstructors( Element cls );3;2;13
+DesignDoc.getParentNodeElement( Node node , String name );4;3;10
+DesignDoc.printInterfaceHeader( Element inter );2;1;19
+DesignDoc.getFirstChildElement( Node parent );3;2;10
+DesignDoc.getParentNodeElement( Node node );3;2;10
+IndentingWriter.println( char ch );1;0;4
+IndentingWriter.IndentingWriter( PrintWriter out );1;0;4
+DesignDoc.printFields( Element object );3;2;13
+DesignDoc.printClassHeader( Element cls );7;7;38
+DesignDoc.printMethod( Element method , boolean body );10;8;63
+DesignDoc.printImplementedMethods( Element cls );4;3;22
+DesignDoc.getElementText( Element element );4;3;14
+DesignDoc.printObjectComment( Element object );4;3;21
+DesignDoc.printCopyright( );1;0;59
+IndentingWriter.outdent( );1;1;3
+DesignDoc.getFirstChildElement( Node parent , String name );4;3;10
+DesignDoc.getLastChildElement( Node parent , String name );4;3;10
+IndentingWriter.println( );1;0;4
+DesignDoc.getNextSiblingElement( Node node );3;2;10
+DesignDoc.makeFilename( Element object );3;5;14
+DesignDoc.printConstructorComment( Element constructor );7;6;30

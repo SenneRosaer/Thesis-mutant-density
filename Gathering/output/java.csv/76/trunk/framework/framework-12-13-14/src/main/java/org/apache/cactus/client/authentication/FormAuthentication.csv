@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FormAuthentication.getSessionCookieName( );1;0;3
+FormAuthentication.authenticate( WebRequest theRequest , Configuration theConfiguration );2;0;27
+FormAuthentication.getCookie( HttpURLConnection theConnection , String theTarget );4;3;23
+FormAuthentication.checkPreAuthResponse( HttpURLConnection theConnection );2;1;8
+FormAuthentication.getSecurityCheckURL( Configuration theConfiguration );3;1;21
+FormAuthentication.getExpectedAuthResponse( );1;0;3
+FormAuthentication.FormAuthentication( String theName , String thePassword );1;0;3
+FormAuthentication.checkAuthResponse( HttpURLConnection theConnection );2;1;9
+FormAuthentication.setExpectedAuthResponse( int theExpectedCode );1;0;3
+FormAuthentication.getSecureSessionIdCookie( WebRequest theRequest , Configuration theConfiguration );2;0;20
+FormAuthentication.getDummyRequest( WebConfiguration theWebConfiguration );1;0;6
+FormAuthentication.setSecurityCheckURL( URL theUrl );1;0;3
+FormAuthentication.configure( HttpState theState , HttpMethod theMethod , WebRequest theRequest , Configuration theConfiguration );3;2;10
+FormAuthentication.checkPostAuthRequest( WebRequest theRequest , Configuration theConfiguration );3;1;25
+FormAuthentication.setSessionCookieName( String theName );2;1;6
+FormAuthentication.getSecurityRequest( );1;0;3

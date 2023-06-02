@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockSpringFactoriesLoader.add( Class < T > factoryType , Class < ? extends T > ... factoryImplementations );3;0;5
+MockSpringFactoriesLoader.addInstance( Class < T > factoryType , T ... factoryInstances );1;0;3
+MockSpringFactoriesLoader.instantiateFactory( String implementationName , Class < T > type , @ Nullable ArgumentResolver argumentResolver , FailureHandler failureHandler );3;1;9
+MockSpringFactoriesLoader.MockSpringFactoriesLoader( @ Nullable ClassLoader classLoader , Map < String , List < String > > factories );1;0;4
+MockSpringFactoriesLoader.MockSpringFactoriesLoader( @ Nullable ClassLoader classLoader );1;0;3
+MockSpringFactoriesLoader.MockSpringFactoriesLoader( );1;0;3
+MockSpringFactoriesLoader.add( String factoryType , String ... factoryImplementations );1;0;5
+MockSpringFactoriesLoader.addInstance( String factoryType , T ... factoryInstance );2;0;9

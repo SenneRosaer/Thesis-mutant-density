@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultUserManager.isAuthentic( String userid , String passwd );1;0;3
+UserSubscription.UserSubscription( final String user , final UserMetaDataRespository repository , Log log );1;0;5
+DefaultUserManager.subscriptions( String user );2;0;9
+DefaultUserManager.getUserSubscription( final String user );2;1;7
+UserSubscription.subscriptions( );3;1;16
+UserSubscription.subscribe( String mailbox );3;2;13
+DefaultUserManager.unsubscribe( String user , String mailbox );2;0;8
+UserSubscription.unsubscribe( String mailbox );2;0;6
+DefaultUserManager.DefaultUserManager( final UserMetaDataRespository repository , final UsersRepository usersRepository );1;0;6
+DefaultUserManager.subscribe( String user , String mailbox );2;0;8

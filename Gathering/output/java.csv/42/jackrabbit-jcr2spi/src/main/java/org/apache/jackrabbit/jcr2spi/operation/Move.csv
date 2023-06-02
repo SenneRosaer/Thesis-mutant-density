@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Move.getDestinationParentState( );1;0;3
+Move.create( Path srcPath , Path destPath , HierarchyManager hierMgr , PathResolver resolver , boolean sessionMove );12;5;44
+Move.persisted( );3;1;16
+Move.getSourceState( );1;0;3
+Move.accept( OperationVisitor visitor );1;1;4
+Move.getSourceId( );1;0;3
+Move.getSourceParentState( );1;0;3
+Move.undo( );2;1;9
+Move.getDestinationParentId( );1;0;3
+Move.getDestinationName( );1;0;3
+Move.Move( NodeState srcNodeState , NodeState srcParentState , NodeState destParentState , Name destName , boolean sessionMove );1;0;12

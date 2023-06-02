@@ -1,0 +1,60 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AntClassLoader.forceLoadSystemClass( String classname );2;1;8
+AntClassLoader.getResourceAsStream( String name );7;5;31
+AntClassLoader.targetStarted( BuildEvent event );1;0;2
+AntClassLoader.addSystemPackageRoot( String packageRoot );2;1;3
+AntClassLoader.addPathElement( String pathElement );3;1;9
+AntClassLoader.isInPath( File component );1;0;3
+ResourceEnumeration.nextElement( );1;0;5
+AntClassLoader.definePackage( File container , String className );4;4;16
+AntClassLoader.taskStarted( BuildEvent event );1;0;2
+AntClassLoader.loadClass( String classname , boolean resolve );7;1;32
+AntClassLoader.taskFinished( BuildEvent event );1;0;2
+AntClassLoader.getClassFilename( String classname );1;0;3
+AntClassLoader.getResource( String name );14;12;32
+AntClassLoader.isParentFirst( String resourceName );5;0;18
+AntClassLoader.getClassFromStream( InputStream stream , String classname , File container );2;3;10
+AntClassLoader.getClasspath( );3;1;14
+AntClassLoader.cleanup( );4;1;14
+AntClassLoader.AntClassLoader( Project project , Path classpath , boolean parentFirst );1;0;3
+AntClassLoader.buildFinished( BuildEvent event );1;0;3
+AntClassLoader.buildStarted( BuildEvent event );1;0;2
+AntClassLoader.findClassInComponents( String name );5;1;26
+AntClassLoader.subBuildStarted( BuildEvent event );1;0;2
+ResourceEnumeration.findNextResource( );4;4;12
+AntClassLoader.AntClassLoader( );1;0;3
+AntClassLoader.defineClassFromData( File container , byte [ ] classData , String classname );1;0;5
+AntClassLoader.toString( );1;0;3
+AntClassLoader.loadBaseResource( String name );2;1;3
+AntClassLoader.setProject( Project project );2;1;6
+AntClassLoader.initializeClass( Class theClass );5;4;12
+AntClassLoader.getJarManifest( File container );3;1;14
+AntClassLoader.messageLogged( BuildEvent event );1;0;2
+AntClassLoader.findClass( String name );1;0;4
+AntClassLoader.loadResource( String name );3;2;9
+AntClassLoader.forceLoadClass( String classname );2;1;8
+AntClassLoader.addLoaderPackageRoot( String packageRoot );2;1;3
+AntClassLoader.setParentFirst( boolean parentFirst );1;0;3
+AntClassLoader.setIsolated( boolean isolated );1;0;3
+AntClassLoader.getResourceURL( File file , String resourceName );10;4;36
+AntClassLoader.definePackage( File container , String packageName , Manifest manifest );13;11;53
+AntClassLoader.setThreadContextLoader( );5;2;14
+AntClassLoader.log( String message , int priority );2;1;5
+AntClassLoader.findResources( String name );6;4;17
+AntClassLoader.findBaseClass( String name );2;1;3
+AntClassLoader.setParent( ClassLoader parent );2;1;3
+AntClassLoader.AntClassLoader( ClassLoader parent , Project project , Path classpath , boolean parentFirst );2;1;8
+AntClassLoader.AntClassLoader( ClassLoader parent , Project project , Path classpath );1;0;5
+AntClassLoader.resetThreadContextLoader( );3;1;7
+AntClassLoader.setClassPath( Path classpath );4;3;13
+ResourceEnumeration.ResourceEnumeration( String name );1;0;5
+AntClassLoader.getRootLoader( );3;3;7
+AntClassLoader.subBuildFinished( BuildEvent event );2;1;5
+AntClassLoader.getResourceStream( File file , String resourceName );8;4;29
+AntClassLoader.addJavaLibraries( );2;0;8
+AntClassLoader.AntClassLoader( ClassLoader parent , boolean parentFirst );1;0;5
+AntClassLoader.AntClassLoader( Project project , Path classpath );1;0;5
+AntClassLoader.addPathComponent( File file );2;0;6
+AntClassLoader.addPathFile( File pathComponent );13;11;55
+ResourceEnumeration.hasMoreElements( );1;1;3
+AntClassLoader.targetFinished( BuildEvent event );1;0;2

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Result.setFullGC( long fullGC );1;0;3
+BenchmarkExecutor.setExecuteCount( int executeCount );1;0;3
+Result.setName( String name );1;0;3
+BenchmarkExecutor.handleResult( Codec codec , Result result );2;5;9
+BenchmarkExecutor.getCodecList( );1;0;3
+BenchmarkExecutor.getCaseList( );1;0;3
+BenchmarkExecutor.execute( );5;3;18
+BenchmarkExecutor.getFullGC( );5;0;18
+BenchmarkExecutor.getYoungGCTime( );5;0;18
+Result.setYoungGC( long youngGC );1;0;3
+Result.getFullGC( );1;0;3
+Result.setMillis( long millis );1;0;3
+BenchmarkExecutor.getLoopCount( );1;0;3
+Result.setError( Throwable error );1;0;3
+BenchmarkExecutor.getYoungGC( );5;0;18
+Result.getError( );1;0;3
+BenchmarkExecutor.executeLoop( Codec codec , BenchmarkCase benchmarkCase );3;6;26
+Result.getMillis( );1;0;3
+Result.setYoungGCTime( long youngGCTime );1;0;3
+Result.getYoungGC( );1;0;3
+BenchmarkExecutor.getExecuteCount( );1;0;3
+Result.getName( );1;0;3
+BenchmarkExecutor.setLoopCount( int loopCount );1;0;3
+Result.getYoungGCTime( );1;0;3

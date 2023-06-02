@@ -1,0 +1,72 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+R4SearchPolicyCore.calculateExportedPackages( IModule targetModule );5;5;17
+R4SearchPolicyCore.calculateCandidateImplicitImportedPackages( IModule module , PackageSource psTarget , Map candidatesMap );2;1;10
+R4SearchPolicyCore.calculateRequiredPackagesResolved( IModule targetModule );6;5;30
+PackageSource.hashCode( );3;6;7
+R4SearchPolicyCore.calculateRequiredPackages( IModule targetModule , Map candidatesMap );2;1;5
+R4SearchPolicyCore.removeModuleFromArray( IModule [ ] modules , IModule m );8;14;38
+R4SearchPolicyCore.resolveDynamicImportCandidate( IModule provider , IModule importer );9;5;52
+R4SearchPolicyCore.calculateUsesConstraints( IModule targetModule , Map moduleMap , Map candidatesMap );3;2;17
+R4SearchPolicyCore.R4SearchPolicyCore( Logger logger , Map configMap );4;4;19
+ResolvedPackage.isSubset( ResolvedPackage rp );3;2;11
+R4SearchPolicyCore.calculateImplicitImportedPackagesUnresolved( IModule targetModule , ICapability targetCapability , Map candidatesMap , Map cycleMap );5;5;24
+ResolvedPackage.merge( ResolvedPackage rp );3;3;9
+R4SearchPolicyCore.getModuleFactory( );1;0;3
+ResolvedPackage.toString( );1;0;3
+PackageSource.compareTo( Object o );6;7;35
+R4SearchPolicyCore.populateWireMap( Map candidatesMap , IModule importer , Map wireMap );7;5;52
+R4SearchPolicyCore.createWires( Map candidatesMap , IModule rootModule );14;16;75
+R4SearchPolicyCore.moduleAdded( ModuleEvent event );4;4;14
+R4SearchPolicyCore.findConsistentClassSpace( Map candidatesMap , IModule rootModule );4;2;20
+R4SearchPolicyCore.addResolverListener( ResolveListener l );3;3;20
+ResolvedPackage.toString( String padding , StringBuffer sb );3;4;16
+R4SearchPolicyCore.calculateRequiredPackagesUnresolved( IModule targetModule , Map candidatesMap );6;5;32
+R4SearchPolicyCore.searchImports( IModule module , String name , boolean isClass );5;5;14
+R4SearchPolicyCore.definePackage( IModule module , String pkgName );3;1;22
+R4SearchPolicyCore.addCapabilityToArray( ICapability [ ] caps , ICapability cap );5;6;21
+R4SearchPolicyCore.fireModuleUnresolved( IModule module );3;3;12
+R4SearchPolicyCore.moduleRefreshed( ModuleEvent event );5;4;31
+R4SearchPolicyCore.calculateImportedPackagesUnresolved( IModule targetModule , Map candidatesMap );9;9;43
+ResolvedPackage.clone( );1;0;5
+R4SearchPolicyCore.calculateExportedAndReexportedPackagesResolved( IModule targetModule , Map cycleMap );18;18;67
+R4SearchPolicyCore.calculateImplicitImportedPackages( IModule targetModule , ICapability targetCapability , Map candidatesMap , Map cycleMap );2;1;7
+R4SearchPolicyCore.incrementCandidateConfiguration( List resolverList );4;7;21
+R4SearchPolicyCore.indexPackageCapability( Map map , IModule module , ICapability capability );9;19;59
+R4SearchPolicyCore.findLibrary( IModule module , String name );5;5;16
+R4SearchPolicyCore.calculateModulePackages( IModule module , Map candidatesMap );4;1;25
+R4SearchPolicyCore.calculateImportedPackagesResolved( IModule targetModule );7;6;27
+R4SearchPolicyCore.shrinkCandidateArray( PackageSource [ ] candidates );5;6;21
+CandidateSet.CandidateSet( IModule module , IRequirement requirement , PackageSource [ ] candidates );2;0;9
+R4SearchPolicyCore.findResource( IModule module , String name );3;0;14
+R4SearchPolicyCore.dumpPackageSources( Map pkgMap );2;0;8
+R4SearchPolicyCore.attemptDynamicImport( IModule importer , String pkgName );17;20;83
+R4SearchPolicyCore.calculateCandidateRequiredPackages( IModule module , PackageSource psTarget , Map candidatesMap );1;0;5
+R4SearchPolicyCore.populateCandidatesMap( Map candidatesMap , IModule module );12;15;54
+R4SearchPolicyCore.resolve( IModule rootModule );4;1;22
+R4SearchPolicyCore.dumpUsedPackages( );5;5;19
+R4SearchPolicyCore.findResources( IModule module , String name );23;23;88
+R4SearchPolicyCore.setResolved( IModule module , boolean resolved );2;1;9
+R4SearchPolicyCore.removeResolverListener( ResolveListener l );7;10;36
+R4SearchPolicyCore.fireModuleResolved( IModule module );3;3;12
+R4SearchPolicyCore.getExportPackageCapability( IModule m , String pkgName );5;5;12
+R4SearchPolicyCore.isResolved( IModule module );2;1;4
+PackageSource.equals( Object o );5;5;16
+R4SearchPolicyCore.diagnoseClassLoadError( IModule module , String name );20;15;172
+R4SearchPolicyCore.getModulePackages( Map moduleMap , IModule module , Map candidatesMap );2;1;9
+R4SearchPolicyCore.calculateUsesConstraints( PackageSource psTarget , Map moduleMap , Map usesMap , Map cycleMap , Map candidatesMap );6;7;30
+R4SearchPolicyCore.isCapabilityInUse( IModule module , ICapability cap );4;4;11
+R4SearchPolicyCore.findClassOrResource( IModule module , String name , boolean isClass );22;16;86
+R4SearchPolicyCore.getInUseCandidates( IRequirement req );14;18;74
+PackageSource.PackageSource( IModule module , ICapability capability );1;0;4
+ModuleData.ModuleData( IModule module );1;0;3
+R4SearchPolicyCore.calculateImplicitImportedPackagesResolved( IModule targetModule , ICapability targetCapability , Map cycleMap );5;5;24
+R4SearchPolicyCore.calculateImportedPackages( IModule targetModule , Map candidatesMap );2;1;5
+R4SearchPolicyCore.getUnusedCandidates( IRequirement req );7;10;29
+R4SearchPolicyCore.calculateExportedAndReexportedPackages( PackageSource psTarget , Map candidatesMap , Map cycleMap );2;1;5
+R4SearchPolicyCore.calculateExportedAndReexportedPackagesUnresolved( PackageSource psTarget , Map candidatesMap , Map cycleMap );17;16;69
+R4SearchPolicyCore.moduleRemoved( ModuleEvent event );6;6;29
+R4SearchPolicyCore.searchDynamicImports( IModule module , String name , String pkgName , boolean isClass );12;11;38
+R4SearchPolicyCore.findClass( IModule module , String name );4;1;19
+R4SearchPolicyCore.isClassSpaceConsistent( IModule targetModule , Map moduleMap , Map cycleMap , Map candidatesMap );12;7;78
+ResolvedPackage.ResolvedPackage( String name );1;0;3
+R4SearchPolicyCore.setModuleFactory( IModuleFactory factory );2;1;12

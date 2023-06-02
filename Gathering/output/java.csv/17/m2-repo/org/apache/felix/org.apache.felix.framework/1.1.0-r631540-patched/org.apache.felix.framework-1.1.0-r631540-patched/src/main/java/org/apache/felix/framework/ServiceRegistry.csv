@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServiceRegistry.unregisterService( Bundle bundle , ServiceRegistration reg );4;4;18
+ServiceRegistry.registerService( Bundle bundle , String [ ] classNames , Object svcObj , Dictionary dict );1;1;12
+ServiceRegistry.ServiceRegistry( Logger logger );1;0;3
+ServiceRegistry.getRegisteredServices( Bundle bundle );3;3;13
+ServiceRegistry.flushUsageCount( Bundle bundle , ServiceReference ref );7;11;32
+ServiceRegistry.getUsingBundles( ServiceReference ref );5;4;27
+ServiceRegistry.removeServiceListener( ServiceListener l );1;0;3
+ServiceRegistry.getServiceReferences( String className , Filter filter );13;14;40
+ServiceRegistry.fireServiceChanged( ServiceEvent event );2;1;11
+ServiceRegistry.getUsageCount( Bundle bundle , ServiceReference ref );4;4;11
+ServiceRegistry.ungetServices( Bundle bundle );4;3;17
+ServiceRegistry.getService( Bundle bundle , ServiceReference ref );10;7;67
+ServiceListenerMulticaster.remove( ServiceListener a , ServiceListener b );4;3;16
+ServiceRegistry.removeServiceRegistration( ServiceRegistration [ ] regs , ServiceRegistration reg );6;10;24
+ServiceListenerMulticaster.add( ServiceListener a , ServiceListener b );3;2;14
+ServiceRegistry.servicePropertiesModified( ServiceRegistration reg );1;0;3
+ServiceRegistry.addServiceListener( ServiceListener l );1;0;3
+ServiceRegistry.getServicesInUse( Bundle bundle );3;3;13
+ServiceRegistry.unregisterServices( Bundle bundle );3;4;15
+ServiceRegistry.addServiceRegistration( ServiceRegistration [ ] regs , ServiceRegistration reg );2;2;14
+ServiceRegistry.addUsageCount( Bundle bundle , ServiceReference ref , Object svcObj );2;3;19
+ServiceRegistry.ungetService( Bundle bundle , ServiceReference ref );9;7;58
+ServiceListenerMulticaster.serviceChanged( ServiceEvent e );1;0;4
+ServiceRegistry.getLogger( );1;0;3
+ServiceListenerMulticaster.ServiceListenerMulticaster( ServiceListener a , ServiceListener b );1;0;4

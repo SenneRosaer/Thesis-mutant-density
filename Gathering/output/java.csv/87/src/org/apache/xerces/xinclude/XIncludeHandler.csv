@@ -1,0 +1,123 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XIncludeHandler.setDocumentHandler( XMLDocumentHandler handler );4;3;11
+XIncludeHandler.checkAndSendNotation( Notation not );6;5;28
+XIncludeHandler.getDocumentSource( );1;0;3
+UnparsedEntity.equals( Object obj );3;1;10
+XIncludeHandler.setXIncludeLocator( XMLLocatorWrapper locator );1;0;3
+XIncludeHandler.isRootDocument( );1;1;3
+XIncludeHandler.getRootElementProcessed( );2;0;3
+XIncludeHandler.copyFeatures1( Enumeration features , String featurePrefix , XMLComponentManager from , ParserConfigurationSettings to );3;1;11
+XIncludeHandler.notationDecl( String name , XMLResourceIdentifier identifier , Augmentations augmentations );2;1;6
+XIncludeHandler.setSawInclude( int depth , boolean val );2;2;8
+XIncludeHandler.processXMLLangAttributes( XMLAttributes attributes );2;1;7
+XIncludeHandler.copyFeatures( XMLComponentManager from , ParserConfigurationSettings to );1;0;6
+XIncludeHandler.getDTDSource( );1;0;3
+XIncludeHandler.addUnparsedEntity( String name , XMLResourceIdentifier identifier , String notation , Augmentations augmentations );1;0;11
+XIncludeHandler.isTopLevelIncludedItemViaInclude( );2;3;3
+XIncludeHandler.endElement( QName element , Augmentations augs );12;16;28
+XIncludeHandler.getState( int depth );1;0;3
+XIncludeHandler.getBaseURI( int depth );1;0;4
+XIncludeHandler.attributeDecl( String elementName , String attributeName , String type , String [ ] enumeration , String defaultType , XMLString defaultValue , XMLString nonNormalizedDefaultValue , Augmentations augmentations );2;1;13
+XIncludeHandler.endConditional( Augmentations augmentations );2;1;5
+XIncludeHandler.endGeneralEntity( String name , Augmentations augs );4;5;7
+XIncludeHandler.getResultDepth( );1;0;3
+XIncludeHandler.checkMultipleRootElements( );2;0;6
+XIncludeHandler.checkAndSendUnparsedEntity( UnparsedEntity ent );6;5;37
+XIncludeHandler.isFallbackElement( QName element );2;1;4
+XIncludeHandler.endAttlist( Augmentations augmentations );2;1;5
+XIncludeHandler.sameLanguageAsIncludeParent( );2;2;4
+XIncludeHandler.setParent( XIncludeHandler parent );1;0;3
+Notation.equals( Object obj );3;1;10
+XIncludeHandler.getState( );1;0;3
+XIncludeHandler.restoreBaseURI( );1;0;9
+XIncludeHandler.getSawFallback( int depth );2;1;6
+XIncludeHandler.comment( XMLString text , Augmentations augs );5;7;14
+XIncludeHandler.restoreLanguage( );1;0;5
+XIncludeHandler.setDTDHandler( XMLDTDHandler handler );1;0;3
+XIncludeHandler.XIncludeHandler( );1;0;16
+XIncludeHandler.isTopLevelIncludedItem( );2;1;4
+XIncludeHandler.processXMLBaseAttributes( XMLAttributes attributes );3;1;20
+XIncludeHandler.getIncludeParentBaseURI( );3;3;9
+XIncludeHandler.startAttlist( String elementName , Augmentations augmentations );2;1;5
+XIncludeHandler.getRecognizedFeatures( );1;0;3
+XIncludeHandler.endDocument( Augmentations augs );4;2;10
+XIncludeHandler.externalEntityDecl( String name , XMLResourceIdentifier identifier , Augmentations augmentations );2;1;5
+UnparsedEntity.isDuplicate( Object obj );6;5;10
+XIncludeHandler.isValidInHTTPHeader( String value );4;6;10
+XIncludeHandler.getPropertyDefault( String propertyId );3;2;8
+XIncludeHandler.startDTD( XMLLocator locator , Augmentations augmentations );2;1;6
+XIncludeHandler.elementDecl( String name , String contentModel , Augmentations augmentations );2;1;5
+XIncludeHandler.isEqual( String one , String two );3;4;3
+XIncludeHandler.getDocumentHandler( );1;0;3
+XIncludeHandler.getDTDHandler( );1;0;3
+XIncludeHandler.ignoredCharacters( XMLString text , Augmentations augmentations );2;1;5
+XIncludeHandler.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );18;19;64
+XIncludeHandler.scopeOfLanguage( int depth );3;5;7
+XIncludeHandler.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );3;2;5
+XIncludeHandler.checkUnparsedEntity( String entName );2;2;10
+XIncludeHandler.internalEntityDecl( String name , XMLString text , XMLString nonNormalizedText , Augmentations augmentations );2;1;9
+XIncludeHandler.characters( XMLString text , Augmentations augs );4;5;13
+XIncludeHandler.ignorableWhitespace( XMLString text , Augmentations augs );4;5;7
+XIncludeHandler.setHref( String href );1;0;3
+XIncludeHandler.reportResourceError( String key );1;0;3
+XIncludeHandler.setErrorReporter( XMLErrorReporter reporter );3;2;10
+XIncludeHandler.textDecl( String version , String encoding , Augmentations augs );3;3;6
+XIncludeHandler.startCDATA( Augmentations augs );4;5;7
+XIncludeHandler.processingInstruction( String target , XMLString data , Augmentations augs );5;7;14
+XIncludeHandler.copyFeatures( XMLComponentManager from , XMLParserConfiguration to );1;0;6
+XIncludeHandler.reportError( String key , Object [ ] args , short severity );2;1;9
+XIncludeHandler.getFeatureDefault( String featureId );3;2;8
+XIncludeHandler.setDTDSource( XMLDTDSource source );1;0;3
+XIncludeHandler.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );7;5;33
+XIncludeHandler.reset( XMLComponentManager componentManager );35;24;159
+XIncludeHandler.startGeneralEntity( String name , XMLResourceIdentifier resId , String encoding , Augmentations augs );6;5;12
+XIncludeHandler.handleFallbackElement( );5;4;19
+***not in a method***;0;19;0
+XIncludeHandler.endCDATA( Augmentations augs );4;5;7
+XIncludeHandler.reportFatalError( String key );1;0;3
+XIncludeHandler.isTopLevelIncludedItemViaFallback( );1;1;3
+XIncludeHandler.createInputSource( String publicId , String systemId , String baseSystemId , String accept , String acceptLanguage );5;6;10
+Notation.isDuplicate( Object obj );5;4;9
+XIncludeHandler.searchForRecursiveIncludes( String includedSysId );3;1;11
+XIncludeHandler.endParameterEntity( String name , Augmentations augmentations );2;1;5
+XIncludeHandler.getLanguage( int depth );1;0;4
+XIncludeHandler.hasXIncludeNamespace( QName element );2;3;4
+XIncludeHandler.scopeOfBaseURI( int depth );3;5;7
+XIncludeHandler.getSawInclude( int depth );2;1;6
+XIncludeHandler.getRelativeURI( int depth );3;5;11
+XIncludeHandler.setProperty( String propertyId , Object value );15;10;46
+XIncludeHandler.reportResourceError( String key , Object [ ] args );1;0;3
+XIncludeHandler.modifyAugmentations( Augmentations augs );1;0;3
+XIncludeHandler.setState( int state );2;2;8
+XIncludeHandler.startParameterEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augmentations );2;1;9
+XIncludeHandler.getIncludeParentDepth( );4;6;8
+XIncludeHandler.isIncludeElement( QName element );2;1;4
+XIncludeHandler.getRelativeBaseURI( );13;10;55
+XIncludeHandler.getRecognizedProperties( );1;0;3
+Notation.isEqual( String one , String two );3;4;3
+XIncludeHandler.reportFatalError( String key , Object [ ] args );1;0;3
+XIncludeHandler.saveLanguage( String language );1;0;4
+XIncludeHandler.setSawFallback( int depth , boolean val );2;2;8
+XIncludeHandler.setupCurrentBaseURI( XMLLocator locator );5;3;26
+XIncludeHandler.sameBaseURIAsIncludeParent( );2;2;5
+XIncludeHandler.saveBaseURI( );1;0;6
+XIncludeHandler.setFeature( String featureId , boolean state );3;1;9
+XIncludeHandler.checkWhitespace( XMLString value );3;4;9
+XIncludeHandler.setRootElementProcessed( boolean seenRoot );2;0;7
+XIncludeHandler.copyFeatures1( Enumeration features , String featurePrefix , XMLComponentManager from , XMLParserConfiguration to );3;1;11
+XIncludeHandler.startExternalSubset( XMLResourceIdentifier identifier , Augmentations augmentations );2;1;5
+XIncludeHandler.processAttributes( XMLAttributes attributes );26;24;105
+XIncludeHandler.modifyAugmentations( Augmentations augs , boolean force );4;2;9
+UnparsedEntity.isEqual( String one , String two );3;4;3
+XIncludeHandler.startElement( QName element , XMLAttributes attributes , Augmentations augs );16;16;58
+XIncludeHandler.endDTD( Augmentations augmentations );2;1;6
+XIncludeHandler.getIncludeParentLanguage( );3;3;9
+XIncludeHandler.escapeHref( String href );25;37;75
+XIncludeHandler.unparsedEntityDecl( String name , XMLResourceIdentifier identifier , String notation , Augmentations augmentations );2;1;10
+XIncludeHandler.addNotation( String name , XMLResourceIdentifier identifier , Augmentations augmentations );1;0;10
+XIncludeHandler.endExternalSubset( Augmentations augmentations );2;1;5
+XIncludeHandler.startConditional( short type , Augmentations augmentations );2;1;5
+XIncludeHandler.xmlDecl( String version , String encoding , String standalone , Augmentations augs );3;2;6
+XIncludeHandler.checkNotation( String notName );2;2;9
+XIncludeHandler.handleIncludeElement( XMLAttributes attributes );64;61;284
+XIncludeHandler.setDocumentSource( XMLDocumentSource source );1;0;3

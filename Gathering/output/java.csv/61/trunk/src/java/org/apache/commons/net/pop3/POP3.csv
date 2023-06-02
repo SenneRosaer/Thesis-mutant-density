@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+POP3.getReplyStrings( );1;0;6
+POP3.POP3( );1;0;9
+POP3.sendCommand( String command , String args );3;2;17
+POP3.removeProtocolCommandistener( ProtocolCommandListener listener );1;0;3
+POP3.getReplyString( );2;0;11
+POP3.getAdditionalReply( );3;1;11
+POP3.sendCommand( String command );1;0;3
+POP3.addProtocolCommandListener( ProtocolCommandListener listener );1;0;3
+***not in a method***;0;1;0
+POP3.sendCommand( int command );1;0;3
+POP3.disconnect( );1;0;8
+POP3.sendCommand( int command , String args );1;0;3
+POP3.setState( int state );1;0;3
+POP3.__getReply( );5;2;19
+POP3._connectAction_( );1;0;11
+POP3.getState( );1;0;3

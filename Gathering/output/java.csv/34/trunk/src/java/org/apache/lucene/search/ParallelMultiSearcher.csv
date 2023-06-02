@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultiSearcherThread.MultiSearcherThread( Searchable searchable , Weight weight , Filter filter , int nDocs , FieldDocSortedHitQueue hq , Sort sort , int i , int [ ] starts , String name );1;0;11
+ParallelMultiSearcher.ParallelMultiSearcher( Searchable [ ] searchables );1;0;5
+MultiSearcherThread.run( );7;7;25
+ParallelMultiSearcher.search( Weight weight , Filter filter , int nDocs , Sort sort );6;10;38
+ParallelMultiSearcher.search( Weight weight , Filter filter , final HitCollector results );2;2;10
+ParallelMultiSearcher.rewrite( Query original );1;0;3
+MultiSearcherThread.hits( );1;0;3
+ParallelMultiSearcher.docFreq( Term term );1;0;3
+MultiSearcherThread.MultiSearcherThread( Searchable searchable , Weight weight , Filter filter , int nDocs , HitQueue hq , int i , int [ ] starts , String name );1;0;10
+MultiSearcherThread.getMaxScore( );1;0;3
+ParallelMultiSearcher.search( Weight weight , Filter filter , int nDocs );7;11;37
+ParallelMultiSearcher.collect( int doc , float score );1;1;3
+MultiSearcherThread.getIOException( );1;0;3

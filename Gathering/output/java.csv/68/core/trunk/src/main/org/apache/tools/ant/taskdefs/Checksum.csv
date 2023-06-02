@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Checksum.addFileset( FileSet set );1;0;3
+Checksum.setPattern( String p );1;0;3
+FileUnion.FileUnion( );1;0;5
+Checksum.getChecksumFile( File file );3;3;19
+Checksum.createDigestString( byte [ ] fileDigest );3;4;11
+Checksum.decodeHex( char [ ] data );3;10;13
+***not in a method***;0;1;0
+FormatElement.getDefault( );1;0;5
+Checksum.setAlgorithm( String algorithm );1;0;3
+FileUnion.add( ResourceCollection rc );1;0;3
+Checksum.execute( );3;1;9
+Checksum.generateChecksums( );16;9;85
+Checksum.add( ResourceCollection rc );3;2;7
+Checksum.validateAndExecute( );37;39;94
+Checksum.setProvider( String provider );1;0;3
+Checksum.setTodir( File todir );1;0;3
+FormatElement.getValues( );1;0;3
+FormatElement.getFormat( );1;0;3
+Checksum.addToIncludeFileMap( File file );7;6;27
+Checksum.setFile( File file );1;0;3
+Checksum.readChecksum( File f );6;5;17
+Checksum.setForceOverwrite( boolean forceOverwrite );1;0;3
+Checksum.setProperty( String property );1;0;3
+Checksum.setFileext( String fileext );1;0;3
+Checksum.eval( );1;0;4
+FormatElement.FormatElement( );1;0;3
+Checksum.setTotalproperty( String totalproperty );1;0;3
+Checksum.setVerifyproperty( String verifyProperty );1;0;3
+Checksum.setFormat( FormatElement e );1;0;3
+Checksum.setReadBufferSize( int size );1;0;3

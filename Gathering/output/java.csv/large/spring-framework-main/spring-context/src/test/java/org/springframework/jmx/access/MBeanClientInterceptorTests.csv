@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MBeanClientInterceptorTests.setReadOnlyAttribute( );1;0;5
+MBeanClientInterceptorTests.setAttributeValue( );1;0;6
+MBeanClientInterceptorTests.mxBeanAttributeAccess( );1;0;8
+MBeanClientInterceptorTests.setAttributeValueWithIOException( );1;0;5
+MBeanClientInterceptorTests.getProxy( );1;0;8
+MBeanClientInterceptorTests.getServerConnection( );1;0;3
+ProxyTestAssembler.getOperationDescription( Method method );1;0;3
+ProxyTestAssembler.includeReadAttribute( Method method , String beanKey );1;0;3
+MBeanClientInterceptorTests.setAttributeValueWithRuntimeException( );1;0;5
+MBeanClientInterceptorTests.mxBeanOperationAccess( );1;0;7
+MBeanClientInterceptorTests.invokeArgs( );1;0;6
+MBeanClientInterceptorTests.proxyClassIsDifferent( );1;0;5
+MBeanClientInterceptorTests.lazyConnectionToRemote( );2;0;30
+ProxyTestAssembler.populateOperationDescriptor( Descriptor descriptor , Method method );1;0;2
+MBeanClientInterceptorTests.invokeUnexposedMethodWithException( );1;0;5
+MBeanClientInterceptorTests.differentProxiesSameClass( );1;0;7
+ProxyTestAssembler.getAttributeDescription( PropertyDescriptor propertyDescriptor );1;0;3
+MBeanClientInterceptorTests.onSetUp( );1;0;12
+ProxyTestAssembler.populateAttributeDescriptor( Descriptor descriptor , Method getter , Method setter );1;0;2
+ProxyTestAssembler.includeWriteAttribute( Method method , String beanKey );2;0;6
+MBeanClientInterceptorTests.setAttributeValueWithCheckedException( );1;0;5
+ProxyTestAssembler.getDescription( String beanKey , Class beanClass );1;0;3
+ProxyTestAssembler.populateMBeanDescriptor( Descriptor mbeanDescriptor , String beanKey , Class beanClass );1;0;2
+ProxyTestAssembler.includeOperation( Method method , String beanKey );2;0;6
+MBeanClientInterceptorTests.invokeNoArgs( );1;0;6
+MBeanClientInterceptorTests.getAttributeValue( );1;0;6

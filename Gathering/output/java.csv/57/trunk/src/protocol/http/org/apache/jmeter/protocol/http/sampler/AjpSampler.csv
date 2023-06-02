@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AjpSampler.peekInt( );1;5;5
+AjpSampler.getInt( );1;6;5
+***not in a method***;0;6;0
+AjpSampler.execute( String method , HTTPSampleResult res );2;0;7
+AjpSampler.encode( String value );3;3;16
+AjpSampler.getHeaderSize( String method , URL url );8;12;27
+AjpSampler.setByte( byte b );1;1;3
+AjpSampler.setupConnection( URL url , String method , HTTPSampleResult res );11;10;47
+AjpSampler.getMessage( );3;4;20
+AjpSampler.threadFinished( );3;1;11
+AjpSampler.AjpSampler( );1;0;2
+AjpSampler.setInt( int n );1;5;4
+AjpSampler.send( );1;1;8
+AjpSampler.sample( URL url , String method , boolean frd , int fd );2;1;19
+AjpSampler.setString( String s );3;3;12
+AjpSampler.setConnectionHeaders( URL url , String host , String method );11;9;72
+AjpSampler.setConnectionCookies( URL url , CookieManager cookies );3;2;11
+AjpSampler.handshake( HTTPSampleResult res );5;4;16
+AjpSampler.translateHeader( String n );3;4;8
+AjpSampler.parseHeaders( HTTPSampleResult res );7;10;31
+AjpSampler.setNextBodyChunk( );4;5;15
+AjpSampler.getByte( );1;1;3
+AjpSampler.sendPostBody( );1;0;4
+AjpSampler.getString( );1;2;6

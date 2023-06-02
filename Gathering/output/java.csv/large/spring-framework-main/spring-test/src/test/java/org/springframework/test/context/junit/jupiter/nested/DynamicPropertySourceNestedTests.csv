@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OverriddenConfigTests.serviceHasDefaultInjectedValues( @ Autowired Service service );1;1;4
+DynamicPropertySourceFromSuperclassTests.serviceHasInjectedValues( @ Autowired Service service );1;0;3
+DynamicPropertySourceNestedTests.assertServiceHasInjectedValues( Service service );1;0;4
+DoubleNestedDynamicPropertySourceFromEnclosingClassTests.serviceHasInjectedValues( @ Autowired Service service );1;0;3
+Service.getPort( );1;0;3
+DynamicPropertySourceSuperclass.containerProperties( DynamicPropertyRegistry registry );1;0;4
+DynamicPropertySourceNestedTests.containerProperties( DynamicPropertyRegistry registry );1;0;4
+Service.getIp( );1;0;3
+DemoContainer.getPort( );1;0;3
+DynamicPropertySourceNestedTests.serviceHasInjectedValues( @ Autowired Service service );1;0;3
+DynamicPropertySourceFromEnclosingClassTests.serviceHasInjectedValues( @ Autowired Service service );1;0;3
+Service.Service( @ Value ( "${" + TEST_CONTAINER_IP + ":10.0.0.1}" ) String ip , @ Value ( "${" + TEST_CONTAINER_PORT + ":-999}" ) int port );1;0;4
+DemoContainer.getIpAddress( );1;0;3
+DynamicPropertySourceFromInterfaceTests.serviceHasInjectedValues( @ Autowired Service service );1;0;3

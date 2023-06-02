@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParentConfig.foo( );1;0;3
+DirtiesContextWithContextHierarchyTests.assertDirtyParentContext( );1;0;3
+DirtiesContextWithContextHierarchyTests.assertDirtyChildContext( );1;0;3
+DirtiesContextWithContextHierarchyTests.verifyParentContextIsStillDirtyButChildContextHasBeenReinstated( );1;0;4
+DirtiesContextWithContextHierarchyTests.verifyContextsWereDirtiedAndTriggerExhaustiveCacheClearing( );1;0;4
+DirtiesContextWithContextHierarchyTests.verifyOriginalStateWasReinstatedAndDirtyContextsAndTriggerCurrentLevelCacheClearing( );1;0;4
+DirtiesContextWithContextHierarchyTests.reverseStringBuilders( );1;0;4
+DirtiesContextWithContextHierarchyTests.verifyOriginalStateAndDirtyContexts( );1;0;4
+DirtiesContextWithContextHierarchyTests.assertOriginalState( );1;0;4
+ChildConfig.baz( );1;0;3
+DirtiesContextWithContextHierarchyTests.assertCleanChildContext( );1;0;3
+ParentConfig.baz( );1;0;3
+DirtiesContextWithContextHierarchyTests.verifyContextHierarchy( );1;0;5
+DirtiesContextWithContextHierarchyTests.assertCleanParentContext( );1;0;3

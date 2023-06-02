@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VelocityView.VelocityView( JeeConfig config );1;0;4
+VelocityView.getConfiguration( String path );1;0;3
+VelocityView.VelocityView( FilterConfig config );1;0;3
+VelocityView.getProperties( String path , boolean required );7;2;40
+VelocityView.render( HttpServletRequest request , HttpServletResponse response );1;0;6
+VelocityView.configure( final JeeConfig config , final VelocityEngine velocity );1;0;8
+VelocityView.setEncoding( JeeConfig config );3;3;21
+VelocityView.performMerge( Template template , Context context , Writer writer );1;0;3
+VelocityView.render( HttpServletRequest request , Writer out );1;0;6
+VelocityView.init( JeeConfig config , final VelocityEngine velocity );2;1;16
+VelocityView.createContext( HttpServletRequest request , HttpServletResponse response );2;0;13
+VelocityView.init( JeeConfig config );4;3;14
+VelocityView.setDeprecationSupportMode( boolean support );3;1;7
+VelocityView.getTemplate( HttpServletRequest request );1;0;3
+VelocityView.getProperty( String key , String alternate );3;3;8
+VelocityView.getTemplate( String name , String encoding );3;1;17
+VelocityView.setConfig( FactoryConfiguration factory , String path , boolean require );3;2;14
+VelocityView.getInputStream( String path , boolean required );3;1;15
+VelocityView.getTemplate( String name );1;0;3
+VelocityView.setProps( VelocityEngine velocity , String path , boolean require );3;2;14
+VelocityView.setVelocityEngine( VelocityEngine engine );2;1;7
+VelocityView.getDefaultContentType( );1;0;3
+VelocityView.getProperties( String path );1;0;3
+VelocityView.configure( final JeeConfig config , final ToolboxFactory factory );9;6;49
+VelocityView.getTemplate( HttpServletRequest request , HttpServletResponse response );2;1;11
+VelocityView.VelocityView( ServletConfig config );1;0;3
+VelocityView.getDeprecatedConfig( JeeConfig config );3;2;21
+VelocityView.setDefaultContentType( String type );2;1;7
+VelocityView.getConfiguration( String path , boolean required );7;1;40
+VelocityView.merge( Template template , Context context , Writer writer );4;3;33
+VelocityView.VelocityView( ServletContext context );1;0;3

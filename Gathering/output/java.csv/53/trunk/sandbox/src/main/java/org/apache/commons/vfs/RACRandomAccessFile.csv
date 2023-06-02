@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RACRandomAccessFile.read( byte [ ] b );1;0;3
+RACRandomAccessFile.write( byte [ ] b );1;0;3
+RACRandomAccessFile.write( int b );1;0;5
+RACRandomAccessFile.RACRandomAccessFile( File tempFile );1;0;4
+RACRandomAccessFile.close( );1;0;3
+RACRandomAccessFile.RACRandomAccessFile( RandomAccessContent rac );1;0;4
+RACRandomAccessFile.getInputStream( );1;0;3
+RACRandomAccessFile.skipBytes( int n );1;0;3
+RACRandomAccessFile.seek( long pos );1;0;3
+RACRandomAccessFile.read( );2;3;5
+RACRandomAccessFile.write( byte [ ] b , int off , int len );1;0;3
+RACRandomAccessFile.read( byte [ ] b , int off , int len );1;0;4
+RACRandomAccessFile.getFilePointer( );1;0;3
+RACRandomAccessFile.deleteTempFile( File tempFile );2;0;14
+RACRandomAccessFile.setLength( long newLength );1;0;3
+RACRandomAccessFile.createTempFile( );1;0;3
+RACRandomAccessFile.length( );1;0;3

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClientEventPoll.getListeners( );1;0;4
+ClientEventPoll.addListener( EventListener listener );1;1;6
+JCREvent.getType( );1;0;3
+JCREvent.getPath( );1;0;3
+ClientEventPoll.toEvents( RemoteEventCollection . RemoteEvent [ ] remoteEvents );2;2;7
+ClientEventPoll.ClientEventPoll( RemoteObservationManager remote , Session session );3;2;11
+ClientEventPoll.terminate( );1;0;3
+JCREvent.getUserID( );1;0;3
+ClientEventPoll.removeListener( EventListener listener );2;2;8
+JCREvent.JCREvent( RemoteEventCollection . RemoteEvent remoteEvent );1;0;5
+ClientEventPoll.run( );7;3;24

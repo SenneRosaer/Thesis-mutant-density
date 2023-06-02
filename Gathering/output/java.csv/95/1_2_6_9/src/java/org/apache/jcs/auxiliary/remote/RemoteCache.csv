@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RemoteCache.call( );3;0;14
+RemoteCache.remove( Serializable key );5;1;21
+RemoteCache.fixCache( IRemoteCacheService remote );1;0;4
+***not in a method***;0;1;0
+RemoteCache.get( Serializable key );6;2;29
+RemoteCache.dispose( );2;0;12
+MyThreadFactory.newThread( Runnable runner );1;0;5
+RemoteCache.setListenerId( long id );3;0;14
+RemoteCache.getListener( );1;0;3
+RemoteCache.getGroupKeys( String groupName );1;0;3
+RemoteCache.update( ICacheElement ce );7;1;33
+RemoteCache.setElementSerializer( IElementSerializer elementSerializer );1;0;3
+RemoteCache.setElementAttributes( IElementAttributes attr );1;0;3
+RemoteCache.removeAll( );4;1;16
+RemoteCache.getCacheType( );1;0;3
+RemoteCache.getStats( );1;0;3
+RemoteCache.toString( );1;0;3
+RemoteCache.handleException( Exception ex , String msg );4;3;19
+RemoteCache.getSize( );1;0;3
+RemoteCache.getCacheName( );1;0;3
+RemoteCache.getElementAttributes( );1;0;3
+RemoteCache.getListenerId( );3;1;15
+RemoteCache.sanitized( Serializable s );1;0;3
+RemoteCache.getElementSerializer( );1;0;3
+RemoteCache.getStatistics( );2;1;24
+RemoteCache.RemoteCache( IRemoteCacheAttributes cattr , IRemoteCacheService remote , IRemoteCacheListener listener );6;2;30
+RemoteCache.getUsingPool( final Serializable key );7;1;50
+RemoteCache.getAuxiliaryCacheAttributes( );1;0;3
+RemoteCache.getStatus( );2;0;3

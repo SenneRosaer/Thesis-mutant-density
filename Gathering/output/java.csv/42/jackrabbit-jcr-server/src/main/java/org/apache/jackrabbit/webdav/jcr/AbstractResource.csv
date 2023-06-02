@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractResource.getHref( );1;0;3
+AbstractResource.search( SearchInfo sInfo );1;0;3
+AbstractResource.refreshLock( LockInfo info , String lockToken );1;0;3
+AbstractResource.getOptionResponse( OptionsInfo optionsInfo );4;1;16
+AbstractResource.getTransactionId( );1;0;3
+AbstractResource.getLocks( );5;4;21
+AbstractResource.unlock( String lockToken , TransactionInfo tInfo );1;0;3
+AbstractResource.alterProperties( List changeList );1;0;3
+***not in a method***;0;4;0
+EListener.onEvent( EventIterator events );4;0;14
+AbstractResource.getReport( ReportInfo reportInfo );4;2;14
+AbstractResource.unlock( String lockToken );1;0;3
+AbstractResource.alterProperties( DavPropertySet setProperties , DavPropertyNameSet removePropertyNames );5;2;16
+AbstractResource.getComplianceClass( );1;0;3
+AbstractResource.initSupportedReports( );2;0;11
+AbstractResource.getLocatorFromItemPath( String itemPath );1;0;4
+AbstractResource.addWorkspace( DavResource workspace );1;0;3
+AbstractResource.move( DavResource destination );1;0;3
+AbstractResource.addLockManager( LockManager lockMgr );2;0;5
+AbstractResource.getReferenceResources( DavPropertyName hrefPropertyName );4;4;15
+AbstractResource.getLocatorFromItem( Item repositoryItem );3;1;11
+EListener.EListener( DavPropertyNameSet propNameSet , MultiStatus ms );1;0;4
+AbstractResource.setProperty( DavProperty property );1;0;3
+AbstractResource.getProperties( );2;1;6
+AbstractResource.getLock( Type type , Scope scope );2;0;7
+AbstractResource.getLocator( );1;0;3
+AbstractResource.initProperties( );4;2;27
+AbstractResource.getProperty( DavPropertyName name );1;0;3
+AbstractResource.getSession( );1;0;3
+AbstractResource.isLockable( Type type , Scope scope );1;0;3
+AbstractResource.AbstractResource( DavResourceLocator locator , JcrDavSession session , DavResourceFactory factory );2;1;8
+AbstractResource.unregisterEventListener( EventListener listener );1;0;3
+AbstractResource.init( TxLockManager txMgr , String transactionId );1;0;4
+AbstractResource.getRepositorySession( );1;0;3
+AbstractResource.getPropertyNames( );1;0;3
+AbstractResource.getQueryGrammerSet( );1;0;3
+AbstractResource.removeProperty( DavPropertyName propertyName );1;0;3
+AbstractResource.hasLock( Type type , Scope scope );1;1;3
+AbstractResource.registerEventListener( EventListener listener , String nodePath );1;0;3
+AbstractResource.getResourceFromHref( String href );3;0;16
+AbstractResource.lock( LockInfo reqLockInfo );2;0;7
+AbstractResource.getFactory( );1;0;3
+AbstractResource.createResourceFromLocator( DavResourceLocator loc );2;0;7
+AbstractResource.copy( DavResource destination , boolean shallow );1;0;3
+AbstractResource.getResourcePath( );1;0;3

@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SegmentMerger.appendPostings( final FormatPostingsTermsConsumer termsConsumer , SegmentMergeInfo [ ] smis , int n );9;13;36
+SegmentMerger.mergeNorms( );13;17;38
+***not in a method***;0;1;0
+SegmentMerger.accept( String fieldName );1;0;3
+CheckAbort.CheckAbort( MergePolicy . OneMerge merge , Directory dir );1;0;4
+SegmentMerger.addIndexed( IndexReader reader , FieldInfos fieldInfos , Collection names , boolean storeTermVectors , boolean storePositionWithTermVector , boolean storeOffsetWithTermVector , boolean storePayloads , boolean omitTf );2;1;7
+SegmentMerger.getDelCounts( );1;0;3
+SegmentMerger.getDocMaps( );1;0;3
+SegmentMerger.add( IndexReader reader );1;0;3
+SegmentMerger.setMatchingSegmentReaders( );6;5;17
+SegmentMerger.createCompoundFile( String fileName );14;19;32
+SegmentMerger.closeReaders( );2;2;6
+SegmentMerger.mergeVectors( );16;26;59
+SegmentMerger.hasProx( );1;0;3
+SegmentMerger.mergeTerms( );2;1;11
+SegmentMerger.SegmentMerger( IndexWriter writer , String name , MergePolicy . OneMerge merge );2;1;7
+SegmentMerger.merge( boolean mergeDocStores );3;1;9
+SegmentMerger.SegmentMerger( Directory dir , String name );1;0;4
+CheckAbort.work( double units );2;2;7
+SegmentMerger.mergeFields( );22;37;100
+SegmentMerger.segmentReader( int i );1;0;3
+SegmentMerger.mergeTermInfos( final FormatPostingsFieldsConsumer consumer );13;18;54
+SegmentMerger.merge( );1;0;3

@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Perl5Matcher.contains( String input , Pattern pattern );1;0;3
+Perl5Matcher.__findFirst( char [ ] input , int current , int endOffset , char [ ] mustString );8;11;24
+Perl5Matcher.matchesPrefix( char [ ] input , Pattern pattern , int offset );2;0;11
+Perl5Matcher.getMatch( );3;2;7
+Perl5Matcher.isMultiline( );1;0;1
+Perl5Matcher.__tryExpression( int offset );4;3;18
+Perl5Matcher.__initInterpreterGlobals( Perl5Pattern expression , char [ ] input , int beginOffset , int endOffset , int currentOffset );8;12;28
+***not in a method***;0;1;0
+Perl5Matcher.setMultiline( boolean multiline );1;0;1
+Perl5Matcher.matchesPrefix( String input , Pattern pattern );1;0;3
+Perl5Matcher._toLower( char [ ] input );3;2;11
+Perl5Matcher.__repeat( int offset , int max );39;52;75
+Perl5Matcher.__match( int offset );164;189;365
+Perl5Matcher.__pushState( int parenFloor );3;9;18
+Perl5Matcher.contains( PatternMatcherInput input , Pattern pattern );5;3;28
+Perl5Matcher.__interpret( Perl5Pattern expression , char [ ] input , int beginOffset , int endOffset , int currentOffset );100;129;285
+Perl5Matcher.matches( char [ ] input , Pattern pattern );3;2;12
+Perl5Matcher.matches( String input , Pattern pattern );1;0;3
+Perl5Matcher.__popState( );5;9;19
+Perl5Matcher.matchesPrefix( char [ ] input , Pattern pattern );1;0;3
+Perl5Matcher.__setLastMatchResult( );7;12;30
+Perl5Matcher.contains( char [ ] input , Pattern pattern );2;0;8
+Perl5Matcher.__matchUnicodeClass( char code , char __program [ ] , int offset , char opcode );58;35;89
+Perl5Matcher.matchesPrefix( PatternMatcherInput input , Pattern pattern );3;1;17
+Perl5Matcher.matches( PatternMatcherInput input , Pattern pattern );7;6;24
+Perl5Matcher.__compare( char [ ] s1 , int s1Offs , char [ ] s2 , int s2Offs , int n );5;7;12

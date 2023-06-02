@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CglibProxyTests.testAddAdviceAtRuntime( );1;0;16
+PrivateCglibTestBean.toString( );1;0;3
+MyBean.getName( );1;0;3
+CglibProxyTests.testNoTarget( );1;0;6
+CglibProxyTests.getAdvisedProxy( TestBean target );2;0;28
+CglibProxyTests.testExceptionHandling( );2;0;17
+CglibProxyTests.testWithDependencyChecking( );1;0;4
+CglibProxyTests.testProxyTargetClassInCaseOfNoInterfaces( );1;0;5
+PrivateCglibTestBean.setName( String name );1;0;3
+NoArgCtorTestBean.NoArgCtorTestBean( String x , int y );1;0;3
+CglibTestBean.setName( String name );1;0;3
+CglibProxyTests.testNullConfig( );1;0;4
+CglibProxyTests.createProxy( ProxyCreatorSupport as );1;0;6
+CglibProxyTests.testVarargsWithEnumArray( );1;0;5
+CglibProxyTests.testMultipleProxiesForIntroductionAdvisor( );1;0;9
+NoArgCtorTestBean.reset( );1;0;3
+CglibProxyTests.testProxyCanBeClassNotInterface( );1;0;14
+CglibProxyTests.testMethodInvocationDuringConstructor( );1;0;10
+CglibProxyTests.getClassFilter( );1;0;3
+CglibProxyTests.testWithNoArgConstructor( );2;0;11
+PrivateCglibTestBean.PrivateCglibTestBean( );1;0;3
+CglibTestBean.getName( );1;0;3
+CglibProxyTests.testMultipleProxies( );1;0;11
+CglibProxyTests.equals( Object obj );1;0;3
+MyBean.setName( String name );1;0;3
+UnsupportedInterceptor.invoke( MethodInvocation mi );1;0;3
+PackageMethodTestBean.getString( );1;0;3
+ExceptionThrower.isCatchInvoked( );1;0;3
+CglibProxyTests.testProxyAProxy( );2;0;15
+ExceptionThrower.doTest( );2;0;12
+CglibProxyTests.testToStringInvocation( );1;0;10
+CglibProxyTests.requiresTarget( );1;0;3
+CglibTestBean.CglibTestBean( );1;0;3
+CglibProxyTests.getIntroductionAdvisorProxy( TestBean target );1;0;9
+MyBean.doWithVarargs( V ... args );1;0;3
+ProtectedMethodTestBean.getString( );1;0;3
+CglibProxyTests.testProtectedMethodInvocation( );1;0;13
+ExceptionThrower.isFinallyInvoked( );1;0;3
+MyBean.add( int x , int y );1;1;3
+CglibProxyTests.testProxyProtectedMethod( );1;0;9
+CglibProxyTests.getMethodMatcher( );1;0;3
+CglibProxyTests.testProxyAProxyWithAdditionalInterface( );2;0;17
+CglibProxyTests.testUnadvisedProxyCreationWithCallDuringConstructor( );1;0;11
+CglibTestBean.toString( );1;0;3
+CglibProxyTests.createAopProxy( AdvisedSupport as );1;0;4
+CglibProxyTests.testPackageMethodInvocation( );1;0;13
+NoArgCtorTestBean.wasCalled( );1;0;3
+PrivateCglibTestBean.getName( );1;0;3
+CglibProxyTests.hashCode( );1;0;3

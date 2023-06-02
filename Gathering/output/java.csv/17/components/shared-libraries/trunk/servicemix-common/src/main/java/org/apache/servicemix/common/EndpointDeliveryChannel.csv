@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EndpointDeliveryChannel.createExchangeFactory( QName interfaceName );1;0;3
+EndpointDeliveryChannel.send( MessageExchange exchange );1;1;5
+EndpointDeliveryChannel.sendSync( MessageExchange exchange , long timeout );3;3;18
+EndpointDeliveryChannel.resumeTx( MessageExchange exchange );5;2;15
+EndpointDeliveryChannel.EndpointDeliveryChannel( ComponentContext context );1;0;4
+EndpointDeliveryChannel.getEndpoint( );2;1;6
+EndpointDeliveryChannel.sendSync( MessageExchange exchange );3;3;18
+EndpointDeliveryChannel.createExchangeFactory( ServiceEndpoint endpoint );1;0;3
+EndpointDeliveryChannel.handleExchange( MessageExchange exchange , boolean add );1;0;4
+EndpointDeliveryChannel.createExchangeFactoryForService( QName serviceName );1;0;3
+EndpointDeliveryChannel.prepareExchange( MessageExchange exchange );1;0;4
+EndpointDeliveryChannel.accept( long timeout );1;0;3
+EndpointDeliveryChannel.setEndpoint( Endpoint endpoint );1;0;3
+EndpointDeliveryChannel.accept( );1;0;3
+EndpointDeliveryChannel.createExchangeFactory( );1;0;3
+EndpointDeliveryChannel.EndpointDeliveryChannel( Endpoint endpoint );1;0;4
+EndpointDeliveryChannel.close( );1;0;3

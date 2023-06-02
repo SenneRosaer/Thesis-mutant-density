@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProfileModifier.addRole( String role );3;1;12
+ProfileModifier.isUpdatableEntry( );1;1;3
+ProfileModifier.removeDenial( String denial );3;1;12
+ProfileModifier.add( );2;0;10
+ProfileModifier.addGrant( String grant );3;1;12
+ProfileModifier.setDescription( String description );2;0;8
+ProfileModifier.isNewEntry( );1;1;3
+ProfileModifier.getModificationItems( );8;1;32
+ProfileModifier.setUser( String user );2;0;8
+ProfileModifier.isValid( );1;1;3
+ProfileModifier.addDenial( String denial );3;1;12
+ProfileModifier.rename( String newProfileId );3;0;14
+ProfileModifier.parseBoolean( String bool );2;0;7
+ProfileModifier.isUpdateNeeded( );6;5;4
+ProfileModifier.setDisable( boolean disabled );2;0;8
+ProfileModifier.delete( );2;0;8
+ProfileModifier.ProfileModifier( ProfileDao dao , String applicationName , String id , String user );1;0;12
+ProfileModifier.ProfileModifier( ProfileDao dao , Profile archetype );1;0;12
+ProfileModifier.removeGrant( String grant );3;1;12
+ProfileModifier.removeRole( String role );3;1;12
+ProfileModifier.modify( );2;0;12

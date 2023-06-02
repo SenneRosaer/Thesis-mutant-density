@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NetUtils.encode( String s , String enc );1;0;3
+NetUtils.getExtension( String uri );5;8;24
+NetUtils.encodePath( String path );6;7;37
+NetUtils.decodePath( String path );8;15;38
+NetUtils.absolutize( String path , String resource );5;6;17
+NetUtils.decode( String s , String enc );1;0;3
+NetUtils.parameterize( String uri , Map parameters );8;6;33
+***not in a method***;0;6;0
+NetUtils.getPath( String uri );3;5;8
+NetUtils.deparameterize( String uri , Map parameters );5;10;28
+NetUtils.relativize( String path , String absoluteResource );7;12;26
+NetUtils.normalize( String uri );17;20;40
+NetUtils.removeAuthorisation( String uri );4;7;6

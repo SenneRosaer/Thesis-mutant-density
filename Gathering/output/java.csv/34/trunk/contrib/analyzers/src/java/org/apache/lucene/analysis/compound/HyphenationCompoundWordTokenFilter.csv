@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HyphenationCompoundWordTokenFilter.getHyphenationTree( Reader hyphenationReader );1;0;5
+HyphenationCompoundWordTokenFilter.HyphenationCompoundWordTokenFilter( TokenStream input , HyphenationTree hyphenator , String [ ] dictionary );1;0;4
+HyphenationCompoundWordTokenFilter.HyphenationCompoundWordTokenFilter( TokenStream input , HyphenationTree hyphenator , String [ ] dictionary , int minWordSize , int minSubwordSize , int maxSubwordSize , boolean onlyLongestMatch );1;0;4
+HyphenationCompoundWordTokenFilter.HyphenationCompoundWordTokenFilter( TokenStream input , HyphenationTree hyphenator , Set dictionary );1;0;4
+HyphenationCompoundWordTokenFilter.decomposeInternal( final Token token );16;21;52
+HyphenationCompoundWordTokenFilter.getHyphenationTree( String hyphenationFilename );1;0;3
+HyphenationCompoundWordTokenFilter.getHyphenationTree( File hyphenationFile );1;0;4
+HyphenationCompoundWordTokenFilter.HyphenationCompoundWordTokenFilter( TokenStream input , HyphenationTree hyphenator , Set dictionary , int minWordSize , int minSubwordSize , int maxSubwordSize , boolean onlyLongestMatch );1;0;5

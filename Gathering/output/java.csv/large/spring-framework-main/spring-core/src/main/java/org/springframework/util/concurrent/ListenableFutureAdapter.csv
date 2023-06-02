@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ListenableFutureAdapter.addCallback( final SuccessCallback < ? super T > successCallback , final FailureCallback failureCallback );5;0;28
+ListenableFutureAdapter.ListenableFutureAdapter( ListenableFuture < S > adaptee );1;0;3
+ListenableFutureAdapter.onFailure( Throwable ex );1;0;3
+ListenableFutureAdapter.addCallback( final ListenableFutureCallback < ? super T > callback );1;0;3
+ListenableFutureAdapter.onSuccess( @ Nullable S result );5;2;18

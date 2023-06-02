@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CBZip2OutputStream.bsSetStream( OutputStream f );1;0;5
+CBZip2OutputStream.hbAssignCodes( int [ ] code , char [ ] length , int minLen , int maxLen , int alphaSize );4;7;19
+CBZip2OutputStream.generateMTFValues( );16;37;105
+CBZip2OutputStream.bsW( int n , int v );3;9;18
+CBZip2OutputStream.endCompression( );1;0;10
+***not in a method***;0;2;0
+CBZip2OutputStream.bsPutIntVS( int numBits , int c );1;0;3
+CBZip2OutputStream.writeRun( );6;27;50
+CBZip2OutputStream.allocateCompressStructures( );5;12;12
+CBZip2OutputStream.flush( );1;0;4
+CBZip2OutputStream.bsPutUChar( int c );1;0;3
+CBZip2OutputStream.initialize( );1;1;5
+CBZip2OutputStream.bsFinishedWithStream( );3;4;16
+CBZip2OutputStream.calculateWeight( final int v1 , final int v2 );2;8;7
+CBZip2OutputStream.CBZip2OutputStream( final OutputStream output , final int blockSize );3;2;17
+CBZip2OutputStream.CBZip2OutputStream( final OutputStream output );1;0;3
+CBZip2OutputStream.sendMTFValues( );66;140;342
+CBZip2OutputStream.initBlock( );2;5;9
+CBZip2OutputStream.simpleSort( int lo , int hi , int d );16;41;82
+CBZip2OutputStream.hbMakeCodeLengths( char [ ] len , int [ ] freq , int alphaSize , int maxLen );25;62;162
+CBZip2OutputStream.close( );3;2;16
+CBZip2OutputStream.fullGtU( int i1 , int i2 );18;78;130
+CBZip2OutputStream.med3( char a , char b , char c );4;3;20
+CBZip2OutputStream.panic( );1;0;3
+CBZip2OutputStream.qSort3( int loSt , int hiSt , int dSt );21;69;137
+CBZip2OutputStream.makeMaps( );3;3;13
+CBZip2OutputStream.randomiseBlock( );6;14;25
+CBZip2OutputStream.doReversibleTransformation( );6;9;31
+CBZip2OutputStream.finalize( );1;0;3
+CBZip2OutputStream.bsPutint( int u );1;7;6
+CBZip2OutputStream.write( int bv );4;9;27
+CBZip2OutputStream.moveToFrontCodeAndSend( );1;0;5
+CBZip2OutputStream.endBlock( );2;4;22
+CBZip2OutputStream.vswap( int p1 , int p2 , int n );2;4;12
+CBZip2OutputStream.mainSort( );32;121;163

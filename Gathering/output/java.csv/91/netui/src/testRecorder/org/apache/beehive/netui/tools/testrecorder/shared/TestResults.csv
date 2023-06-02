@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestResults.getTestNumber( );1;0;3
+TestResults.getStatus( );3;0;9
+TestResults.getDiffResults( );2;1;5
+TestResults.TestResults( int testNumber , final String uri );1;0;3
+TestResults.TestResults( int testNumber , String uri , boolean error , boolean testPassed );1;0;6
+TestResults.addDiffResult( String result );1;0;3
+TestResults.addDiffResult( String result , final boolean error );3;1;8
+TestResults.toString( );2;1;10
+TestResults.isTestPassed( );2;0;6
+TestResults.isError( );1;0;3
+TestResults.getUri( );1;0;3

@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StAXEventResultBuilder.setStAXResult( StAXResult result );2;1;5
+StAXEventResultBuilder.endGeneralEntity( String name , Augmentations augs );1;0;1
+StAXEventResultBuilder.xmlDecl( String version , String encoding , String standalone , Augmentations augs );1;0;1
+NamespaceIterator.remove( );1;0;3
+StAXEventResultBuilder.comment( XMLString text , Augmentations augs );1;0;1
+StAXEventResultBuilder.endDocument( Augmentations augs );1;0;1
+StAXEventResultBuilder.characters( Characters event );1;0;3
+StAXEventResultBuilder.entityReference( EntityReference event );1;0;3
+StAXEventResultBuilder.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );1;0;1
+StAXEventResultBuilder.remove( );1;0;3
+StAXEventResultBuilder.setIgnoringCharacters( boolean ignore );1;0;3
+StAXEventResultBuilder.startDocument( XMLStreamReader reader );3;2;7
+StAXEventResultBuilder.characters( XMLString text , Augmentations augs );4;2;15
+AttributeIterator.AttributeIterator( XMLAttributes attributes , int length );1;0;5
+StAXEventResultBuilder.startElement( QName element , XMLAttributes attributes , Augmentations augs );5;3;19
+NamespaceIterator.next( );5;5;13
+StAXEventResultBuilder.processingInstruction( ProcessingInstruction event );1;0;3
+StAXEventResultBuilder.getAttributeIterator( XMLAttributes attributes , int length );2;1;3
+StAXEventResultBuilder.hasNext( );1;0;3
+StAXEventResultBuilder.endDocument( EndDocument event );1;0;4
+StAXEventResultBuilder.processingInstruction( XMLStreamReader reader );2;1;5
+StAXEventResultBuilder.endDocument( XMLStreamReader reader );1;0;4
+StAXEventResultBuilder.startCDATA( Augmentations augs );1;0;3
+StAXEventResultBuilder.getDocumentSource( );1;0;3
+StAXEventResultBuilder.processingInstruction( String target , XMLString data , Augmentations augs );1;0;1
+AttributeIterator.next( );3;3;9
+StAXEventResultBuilder.comment( XMLStreamReader reader );1;0;3
+AttributeIterator.hasNext( );2;1;7
+StAXEventResultBuilder.getNamespaceIterator( );2;1;4
+StAXEventResultBuilder.textDecl( String version , String encoding , Augmentations augs );1;0;1
+NamespaceIterator.hasNext( );2;1;7
+StAXEventResultBuilder.endCDATA( Augmentations augs );1;0;3
+StAXEventResultBuilder.endElement( QName element , Augmentations augs );3;1;15
+StAXEventResultBuilder.cdata( Characters event );1;0;3
+StAXEventResultBuilder.startDocument( StartDocument event );1;0;3
+StAXEventResultBuilder.doctypeDecl( DTD event );1;0;3
+StAXEventResultBuilder.entityReference( XMLStreamReader reader );1;0;5
+StAXEventResultBuilder.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );1;0;4
+StAXEventResultBuilder.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );1;0;1
+StAXEventResultBuilder.comment( Comment event );1;0;3
+StAXEventResultBuilder.ignorableWhitespace( XMLString text , Augmentations augs );1;0;3
+AttributeIterator.remove( );1;0;3
+StAXEventResultBuilder.setDocumentSource( XMLDocumentSource source );1;0;1
+StAXEventResultBuilder.startGeneralEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );1;0;1
+StAXEventResultBuilder.next( );1;0;3
+StAXEventResultBuilder.StAXEventResultBuilder( StAXValidatorHelper helper , JAXPNamespaceContextWrapper context );1;0;5
+NamespaceIterator.NamespaceIterator( int length );1;0;5

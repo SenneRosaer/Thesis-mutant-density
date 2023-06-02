@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EventCollector.assertTotalEventsCount( int number );2;1;8
+EventCollector.assertNoEventReceived( Identifiable listener );1;0;3
+EventCollector.addEvent( Identifiable listener , Object event );1;0;3
+EventCollector.getEvents( Identifiable listener );1;0;3
+EventCollector.clear( );1;0;3
+EventCollector.assertNoEventReceived( String listenerId );1;0;4
+EventCollector.assertEvent( String listenerId , Object ... events );2;2;7
+EventCollector.assertEvent( Identifiable listener , Object ... events );1;0;3

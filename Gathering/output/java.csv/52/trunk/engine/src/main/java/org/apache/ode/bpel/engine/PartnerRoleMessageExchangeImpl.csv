@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PartnerRoleMessageExchangeImpl.checkReplyContextOk( );6;5;12
+PartnerRoleMessageExchangeImpl.replyOneWayOk( );2;0;12
+PartnerRoleMessageExchangeImpl.getPartnerRoleChannel( );1;0;3
+PartnerRoleMessageExchangeImpl.getMyRoleEndpointReference( );1;0;3
+PartnerRoleMessageExchangeImpl.replyWithFailure( FailureType type , String description , Element details );3;1;16
+PartnerRoleMessageExchangeImpl.reply( Message response );3;1;15
+PartnerRoleMessageExchangeImpl.ack( AckType acktype );1;0;10
+PartnerRoleMessageExchangeImpl.load( MessageExchangeDAO dao );1;0;4
+PartnerRoleMessageExchangeImpl.replyWithFault( QName faultType , Message outputFaultMessage );3;1;17
+PartnerRoleMessageExchangeImpl.setState( State newstate );1;0;9
+PartnerRoleMessageExchangeImpl.PartnerRoleMessageExchangeImpl( ODEProcess process , Long iid , String mexId , PartnerLinkModel oplink , Operation operation , EndpointReference epr , EndpointReference myRoleEPR , PartnerRoleChannel channel );1;0;5
+PartnerRoleMessageExchangeImpl.toString( );2;0;7
+PartnerRoleMessageExchangeImpl.replyAsync( String foreignKey );1;0;3
+PartnerRoleMessageExchangeImpl.getCaller( );1;0;3
+PartnerRoleMessageExchangeImpl.save( MessageExchangeDAO dao );3;1;13
+PartnerRoleMessageExchangeImpl.waitForAck( long timeout );2;1;11

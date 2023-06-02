@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AutowiredConfigurationTests.testCustomPropertiesWithGenericContext( );1;0;10
+ValueConfig.testBean2( );1;0;3
+ObjectFactoryConstructorConfig.ObjectFactoryConstructorConfig( ObjectFactory < Colour > colourFactory );1;0;3
+ValueConfig.testBean( );1;0;3
+ValueConfigWithProviderMethodArguments.testBean2( @ Value ( "#{systemProperties[myProp]}" ) Provider < String > name2 );1;0;3
+ValueConfigWithProviderFields.testBean2( );1;0;3
+ColorConfig.colour( );1;0;3
+AutowiredConfigurationTests.testValueInjectionWithMetaAnnotation( );1;0;6
+PropertiesConfig.setHostname( String hostname );1;0;3
+ValueConfigWithAliasedMetaAnnotation.testBean( );1;0;3
+AutowiredConfigurationTests.testCustomPropertiesWithClassPathContext( );1;0;8
+ValueConfigWithAliasedMetaAnnotation.testBean2( );1;0;3
+AutowiredConfigurationTests.testValueInjectionWithProviderFields( );1;0;6
+MultipleConstructorConfig.MultipleConstructorConfig( String test );1;0;3
+AutowiredConfig.testBean( );1;0;3
+AutowiredConfigurationTests.testAutowiredConfigurationMethodDependencies( );1;0;7
+MultipleConstructorConfig.MultipleConstructorConfig( Colour colour );1;0;3
+AutowiredConfigurationTests.testValueInjectionWithProviderMethodArguments( );1;0;6
+PropertiesConfig.setResource( Resource resource );1;0;3
+AutowiredConfigurationTests.contentLength( );1;0;3
+OptionalAutowiredMethodConfig.testBean( Optional < Colour > colour , Optional < List < Colour > > colours );3;4;8
+AutowiredConfigurationTests.testAutowiredConfigurationMethodDependenciesWithOptionalAndAvailable( );1;0;7
+ValueConfigWithMetaAnnotation.testBean2( );1;0;3
+ValueConfigWithProviderConstructorArguments.testBean2( );1;0;3
+AutowiredConstructorConfig.AutowiredConstructorConfig( Colour colour );1;0;3
+AutowiredConfigurationTests.testValueInjectionWithAliasedMetaAnnotation( );1;0;6
+PropertiesConfig.testBean( );1;0;3
+AutowiredConfigurationTests.testAutowiredSingleConstructorSupported( );1;0;11
+AutowiredConfigurationTests.testObjectFactoryConstructorWithTypeVariable( );1;0;11
+ValueConfigWithProviderMethodArguments.testBean( @ Value ( "#{systemProperties[myProp]}" ) Provider < String > name );1;0;3
+ValueConfigWithMetaAnnotation.testBean( );1;0;3
+AutowiredConfigurationTests.doTestValueInjection( BeanFactory context );1;0;17
+ValueConfigWithAliasedMetaAnnotation.setName2( String name );1;0;3
+AutowiredMethodConfig.testBean( Colour colour , List < Colour > colours );1;1;3
+AutowiredConfigurationTests.testAutowiredConfigurationDependencies( );1;0;7
+AutowiredConfigurationTests.testValueInjectionWithProviderConstructorArguments( );1;0;6
+AutowiredConfigurationTests.testAutowiredAnnotatedConstructorSupported( );1;0;11
+ValueConfigWithMetaAnnotation.setName2( String name );1;0;3
+AutowiredConfigurationTests.testValueInjection( );1;0;6
+ValueConfigWithProviderConstructorArguments.ValueConfigWithProviderConstructorArguments( @ Value ( "#{systemProperties[myProp]}" ) Provider < String > name , @ Value ( "#{systemProperties[myProp]}" ) Provider < String > name2 );1;0;4
+AutowiredConfigurationTests.testAutowiredConfigurationMethodDependenciesWithOptionalAndNotAvailable( );1;0;7
+ValueConfigWithProviderConstructorArguments.testBean( );1;0;3
+ValueConfig.setName2( String name );1;0;3
+ValueConfigWithProviderFields.setName2( Provider < String > name );1;0;3
+ValueConfigWithProviderFields.testBean( );1;0;3

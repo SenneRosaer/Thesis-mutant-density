@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TagScript.configureTag( Tag tag , JellyContext context );5;1;19
+TagScript.getNamespaceContext( );6;7;20
+TagScript.handleException( Error e );3;0;9
+TagScript.getLineNumber( );1;0;3
+***not in a method***;0;2;0
+TagScript.getTagFactory( );1;0;3
+TagScript.setSaxAttributes( Attributes saxAttributes );1;0;3
+ExpressionAttribute.ExpressionAttribute( String name , Expression exp );1;0;3
+TagScript.setTagFactory( TagFactory tagFactory );1;0;3
+TagScript.createTag( );2;1;6
+TagScript.setFileName( String fileName );2;0;9
+TagScript.getTagLibrary( );1;0;3
+TagScript.run( JellyContext context , XMLOutput output );18;10;72
+TagScript.createJellyException( String reason );1;0;5
+TagScript.TagScript( TagFactory tagFactory );1;0;3
+TagScript.getTag( JellyContext context );3;2;12
+TagScript.handleException( Exception e );5;0;19
+TagScript.setTag( Tag tag , JellyContext context );1;0;4
+TagScript.setColumnNumber( int columnNumber );1;0;3
+TagScript.getFileName( );1;0;3
+TagScript.addAttribute( String name , String prefix , String nsURI , Expression expression );3;4;8
+TagScript.setElementName( String elementName );1;0;3
+TagScript.startNamespacePrefixes( XMLOutput output );3;1;10
+TagScript.getLocalName( );1;0;3
+TagScript.getTagBody( );1;0;3
+TagScript.setContextURLs( JellyContext context );6;7;7
+TagScript.TagScript( );1;0;2
+TagScript.setLineNumber( int lineNumber );1;0;3
+ExpressionAttribute.ExpressionAttribute( String name , String prefix , String nsURI , Expression exp );1;0;6
+TagScript.getElementName( );1;0;3
+TagScript.setTagLibrary( TagLibrary tagLibrary );1;0;3
+TagScript.getJellyContextURL( URL url );1;1;6
+TagScript.handleException( JellyException e );2;0;7
+TagScript.applyLocation( LocationAware locationAware );4;4;12
+TagScript.clearTag( );1;0;4
+TagScript.getSaxAttributes( );1;0;3
+TagScript.createJellyException( String reason , Exception cause );3;0;17
+TagScript.setTagNamespacesMap( Map tagNamespacesMap );2;1;6
+TagScript.setParent( TagScript parent );1;0;3
+TagScript.newInstance( Class tagClass );1;0;4
+TagScript.handleException( JellyTagException e );2;0;7
+TagScript.setLocalName( String localName );1;0;3
+TagScript.convertType( Object value , Class requiredType );3;0;9
+TagScript.setTagBody( Script tagBody );1;0;3
+TagScript.addAttribute( String name , Expression expression );2;0;6
+TagScript.endNamespacePrefixes( XMLOutput output );3;1;8
+TagScript.getParent( );1;0;3
+TagScript.toString( );1;3;3
+TagScript.compile( );2;1;6
+TagScript.setLocator( Locator locator );1;0;4
+TagScript.getColumnNumber( );1;0;3

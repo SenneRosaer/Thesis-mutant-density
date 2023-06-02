@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JmsMarshaler.setNeedJavaIdentifiers( boolean needJavaIdentifiers );1;0;3
+JmsMarshaler.isJavaIdentifier( String s );5;5;10
+JmsMarshaler.addNmsProperties( NormalizedMessage message , Message jmsMessage );2;0;8
+JmsMarshaler.getSourceMarshaller( );1;0;3
+JmsMarshaler.isNeedJavaIdentifiers( );1;0;3
+JmsMarshaler.shouldIncludeHeader( NormalizedMessage normalizedMessage , String name , Object value );5;5;4
+JmsMarshaler.toNMS( NormalizedMessage normalizedMessage , Message message );2;0;8
+JmsMarshaler.setSourceMarshaller( SourceMarshaler sourceMarshaler );1;0;3
+JmsMarshaler.createMessage( NormalizedMessage normalizedMessage , Session session );1;0;6
+JmsMarshaler.addJmsProperties( Message message , NormalizedMessage normalizedMessage );3;0;9
+JmsMarshaler.JmsMarshaler( SourceMarshaler sourceMarshaler );1;0;3
+JmsMarshaler.JmsMarshaler( );1;0;3
+JmsMarshaler.messageAsString( NormalizedMessage normalizedMessage );1;0;3

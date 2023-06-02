@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParentAxisQuery.toString( String field );1;0;3
+ParentAxisQuery.createWeight( Searcher searcher );1;0;3
+***not in a method***;0;1;0
+ParentAxisScorer.collect( int doc , float score );4;3;13
+ParentAxisScorer.score( );2;1;7
+ParentAxisScorer.next( );1;3;5
+ParentAxisQuery.extractTerms( Set terms );1;0;3
+ParentAxisScorer.calculateParent( );10;8;39
+ParentAxisScorer.explain( int doc );1;0;3
+ParentAxisScorer.ParentAxisScorer( Similarity similarity , IndexReader reader , Searcher searcher , HierarchyResolver resolver );1;0;6
+ParentAxisScorer.doc( );1;0;3
+ParentAxisWeight.explain( IndexReader reader , int doc );1;0;3
+ParentAxisScorer.skipTo( int target );1;2;5
+ParentAxisQuery.rewrite( IndexReader reader );2;1;8
+ParentAxisWeight.getQuery( );1;0;3
+ParentAxisWeight.normalize( float norm );1;0;2
+ParentAxisWeight.getValue( );1;0;3
+ParentAxisWeight.ParentAxisWeight( Searcher searcher );1;0;3
+ParentAxisWeight.scorer( IndexReader reader );1;0;6
+ParentAxisWeight.sumOfSquaredWeights( );1;0;3
+ParentAxisQuery.ParentAxisQuery( Query context , Name nameTest , IndexFormatVersion version , NamespaceMappings nsMappings );1;0;6

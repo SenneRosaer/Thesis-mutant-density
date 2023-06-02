@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Wsdl.getComplexTypes( );1;0;3
+Wsdl.getTargetNamespace( );1;0;3
+Wsdl.getServiceEndpoint( );1;0;3
+Wsdl.getOperation( String operationName );3;1;14
+Wsdl.parse( URI wsdlURI );1;0;4
+Wsdl.parse( WSDLLocator wsdlLocator );1;0;4
+Wsdl.getServiceName( );1;0;3
+Wsdl.getPortName( );1;0;3
+Wsdl.Wsdl( WSDLLocator wsdlLocator , QName serviceQName , String portName );4;2;19
+Wsdl.getOperations( );2;0;9
+Wsdl.Wsdl( URI wsdlURI , QName serviceQName , String portName );6;4;30
+Wsdl.getReader( );1;0;7
+Wsdl.getPortTypeQName( );1;0;4
+Wsdl.setPort( QName portName );2;1;8

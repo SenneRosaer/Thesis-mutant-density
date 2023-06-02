@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceHttpMessageConverter.ResourceHttpMessageConverter( );1;0;4
+ResourceHttpMessageConverter.getDefaultContentType( Resource resource );1;0;3
+ResourceHttpMessageConverter.addDefaultHeaders( HttpOutputMessage message , Resource resource , @ Nullable MediaType contentType );1;0;3
+ResourceHttpMessageConverter.supports( Class < ? > clazz );1;0;3
+ResourceHttpMessageConverter.readInternal( Class < ? extends Resource > clazz , HttpInputMessage inputMessage );6;4;28
+ResourceHttpMessageConverter.contentLength( );2;2;4
+ResourceHttpMessageConverter.getContentLength( Resource resource , @ Nullable MediaType contentType );3;2;7
+ResourceHttpMessageConverter.ResourceHttpMessageConverter( boolean supportsReadStreaming );1;0;4
+ResourceHttpMessageConverter.writeInternal( Resource resource , HttpOutputMessage outputMessage );1;0;3
+ResourceHttpMessageConverter.writeContent( Resource resource , HttpOutputMessage outputMessage );4;0;21
+ResourceHttpMessageConverter.getFilename( );1;0;3

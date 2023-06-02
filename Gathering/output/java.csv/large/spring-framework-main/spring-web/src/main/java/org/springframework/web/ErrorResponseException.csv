@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ErrorResponseException.setTitle( @ Nullable String title );1;0;3
+ErrorResponseException.setInstance( @ Nullable URI instance );1;0;3
+ErrorResponseException.getBody( );1;0;3
+ErrorResponseException.setType( URI type );1;0;3
+ErrorResponseException.ErrorResponseException( HttpStatusCode status );1;0;3
+ErrorResponseException.getHeaders( );1;0;3
+ErrorResponseException.getMessage( );2;3;3
+ErrorResponseException.getStatusCode( );1;0;3
+ErrorResponseException.setDetail( @ Nullable String detail );1;0;3
+ErrorResponseException.initMessageDetailCode( @ Nullable String messageDetailCode );2;1;4
+ErrorResponseException.ErrorResponseException( HttpStatusCode status , @ Nullable Throwable cause );1;0;3
+ErrorResponseException.ErrorResponseException( HttpStatusCode status , ProblemDetail body , @ Nullable Throwable cause , @ Nullable String messageDetailCode , @ Nullable Object [ ] messageDetailArguments );1;0;7
+ErrorResponseException.ErrorResponseException( HttpStatusCode status , ProblemDetail body , @ Nullable Throwable cause );1;0;3
+ErrorResponseException.getDetailMessageArguments( );1;0;3
+ErrorResponseException.getDetailMessageCode( );1;0;3

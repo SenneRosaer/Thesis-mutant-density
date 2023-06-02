@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ControlBeanContextServicesSupport.revokeService( Class serviceClass , BeanContextServiceProvider serviceProvider , boolean revokeCurrentServicesNow );7;4;22
+ControlBeanContextServicesSupport.addBeanContextServicesListener( BeanContextServicesListener bcsl );2;1;5
+ServiceProvider.hasRequestors( );1;1;3
+ControlBeanContextServicesSupport.releaseBeanContextResources( );3;0;8
+ServiceProvider.revoke( BeanContextServiceRevokedEvent bcsre );2;0;6
+ControlBeanContextServicesSupport.getService( BeanContextChild child , Object requestor , Class serviceClass , Object serviceSelector , BeanContextServiceRevokedListener bcsrl );8;4;33
+ServiceProvider.isDelegated( );1;1;3
+ControlBeanContextServicesSupport.writeObject( ObjectOutputStream oos );11;4;33
+ControlBeanContextServicesSupport.findServiceClass( Object service );3;0;8
+ControlBeanContextServicesSupport.addService( Class serviceClass , BeanContextServiceProvider serviceProvider );2;1;9
+ServiceProvider.removeChildReference( Object requestor );3;2;8
+ChildServiceReference.incrementRefCount( );1;1;3
+ControlBeanContextServicesSupport.releaseService( BeanContextChild child , Object requestor , Object service );4;2;18
+ChildServiceReference.getListener( );1;0;3
+ServiceProvider.getBCServiceProvider( );1;0;3
+ServiceProvider.ServiceProvider( BeanContextServiceProvider bcss );1;0;4
+ControlBeanContextServicesSupport.fireServiceAvailableEvent( BeanContextServiceAvailableEvent bcsae );2;0;5
+ControlBeanContextServicesSupport.readObject( ObjectInputStream ois );3;4;11
+ControlBeanContextServicesSupport.ControlBeanContextServicesSupport( BeanContextServices peer );1;0;3
+ControlBeanContextServicesSupport.ControlBeanContextServicesSupport( );1;0;3
+ServiceProvider.isRevoked( );1;0;3
+ControlBeanContextServicesSupport.fireServiceRevokedEvent( BeanContextServiceRevokedEvent bcsre );2;0;5
+ControlBeanContextServicesSupport.hasService( Class serviceClass );4;3;11
+ChildServiceReference.ChildServiceReference( BeanContextServiceRevokedListener bcsrl );1;0;4
+ServiceProvider.addChildReference( Object requestor , BeanContextServiceRevokedListener bcsrl );4;4;12
+ControlBeanContextServicesSupport.initialize( );1;0;5
+ControlBeanContextServicesSupport.getCurrentServiceSelectors( Class serviceClass );4;3;9
+ServiceProvider.isSerializable( );3;4;3
+ServiceProvider.getRequestors( );2;1;6
+ServiceProvider.ServiceProvider( );1;0;4
+ChildServiceReference.decrementRefCount( );1;1;3
+ControlBeanContextServicesSupport.removeBeanContextServicesListener( BeanContextServicesListener bcsl );1;0;3
+ControlBeanContextServicesSupport.getCurrentServiceClasses( );4;3;10

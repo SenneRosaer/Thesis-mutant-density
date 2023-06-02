@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LogAccessor.error( Throwable cause , CharSequence message );1;0;3
+LogAccessor.isInfoEnabled( );1;0;3
+LogAccessor.isTraceEnabled( );1;0;3
+LogAccessor.fatal( Supplier < ? extends CharSequence > messageSupplier );2;0;5
+LogAccessor.getLog( );1;0;3
+LogAccessor.fatal( Throwable cause , Supplier < ? extends CharSequence > messageSupplier );2;0;5
+LogAccessor.info( Throwable cause , Supplier < ? extends CharSequence > messageSupplier );2;0;5
+LogAccessor.warn( CharSequence message );1;0;3
+LogAccessor.debug( CharSequence message );1;0;3
+LogAccessor.info( CharSequence message );1;0;3
+LogAccessor.trace( CharSequence message );1;0;3
+LogAccessor.info( Throwable cause , CharSequence message );1;0;3
+LogAccessor.trace( Supplier < ? extends CharSequence > messageSupplier );2;0;5
+LogAccessor.error( Throwable cause , Supplier < ? extends CharSequence > messageSupplier );2;0;5
+LogAccessor.debug( Throwable cause , CharSequence message );1;0;3
+LogAccessor.isFatalEnabled( );1;0;3
+LogAccessor.fatal( CharSequence message );1;0;3
+LogAccessor.warn( Supplier < ? extends CharSequence > messageSupplier );2;0;5
+LogAccessor.LogAccessor( Class < ? > logCategory );1;0;3
+LogAccessor.isWarnEnabled( );1;0;3
+LogAccessor.info( Supplier < ? extends CharSequence > messageSupplier );2;0;5
+LogAccessor.LogAccessor( String logCategory );1;0;3
+LogAccessor.error( CharSequence message );1;0;3
+LogAccessor.debug( Supplier < ? extends CharSequence > messageSupplier );2;0;5
+LogAccessor.isDebugEnabled( );1;0;3
+LogAccessor.fatal( Throwable cause , CharSequence message );1;0;3
+LogAccessor.trace( Throwable cause , Supplier < ? extends CharSequence > messageSupplier );2;0;5
+LogAccessor.warn( Throwable cause , Supplier < ? extends CharSequence > messageSupplier );2;0;5
+LogAccessor.warn( Throwable cause , CharSequence message );1;0;3
+LogAccessor.LogAccessor( Log log );1;0;3
+LogAccessor.debug( Throwable cause , Supplier < ? extends CharSequence > messageSupplier );2;0;5
+LogAccessor.isErrorEnabled( );1;0;3
+LogAccessor.trace( Throwable cause , CharSequence message );1;0;3
+LogAccessor.error( Supplier < ? extends CharSequence > messageSupplier );2;0;5

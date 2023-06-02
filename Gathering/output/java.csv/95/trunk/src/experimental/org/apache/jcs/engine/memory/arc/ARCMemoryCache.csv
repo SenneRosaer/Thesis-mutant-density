@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ARCMemoryCache.freeElements( int numberToFree );1;0;3
+ARCMemoryCache.remove( Serializable key );6;5;24
+ARCMemoryCache.handleFoundInB1( ICacheElement ce , boolean isGet , ElementDescriptor temp );5;5;30
+***not in a method***;0;1;0
+ElementDescriptor.ElementDescriptor( ICacheElement ce );1;0;4
+ARCMemoryCache.get( Serializable key );2;0;13
+ARCMemoryCache.handleFoundInT2( ElementDescriptor temp );2;0;8
+ARCMemoryCache.getStats( );1;0;3
+ARCMemoryCache.getTarget_T1( );1;0;3
+ARCMemoryCache.getStatistics( );1;0;45
+ARCMemoryCache.getQuiet( Serializable key );1;0;3
+ARCMemoryCache.removeAll( );1;0;7
+ARCMemoryCache.initialize( CompositeCache hub );1;1;6
+ARCMemoryCache.replace( ElementDescriptor orig );14;9;73
+ARCMemoryCache.ARC( ICacheElement ce , boolean isGet );21;27;99
+ARCMemoryCache.getKeyArray( );1;0;6
+ARCMemoryCache.getListSize( int listNumber );5;1;14
+ARCMemoryCache.logStatsOccassionally( ICacheElement ce , boolean isGet );3;2;13
+ARCMemoryCache.handleFoundInT1( ElementDescriptor temp );4;0;17
+ARCMemoryCache.handleFoundInB2( ICacheElement ce , boolean isGet , ElementDescriptor temp );5;5;31
+ARCMemoryCache.update( ICacheElement ce );2;0;10
+ARCMemoryCache.ARCMemoryCache( );2;0;6

@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractServerResponse.writeCookies( HttpServletResponse servletResponse );1;0;5
+AbstractServerResponse.headers( );1;0;3
+AbstractServerResponse.statusCode( );1;0;3
+AbstractServerResponse.cookies( );1;0;3
+AbstractServerResponse.AbstractServerResponse( HttpStatusCode statusCode , HttpHeaders headers , MultiValueMap < String , Cookie > cookies );1;0;6
+AbstractServerResponse.writeTo( HttpServletRequest request , HttpServletResponse response , Context context );4;1;18
+AbstractServerResponse.rawStatusCode( );1;0;3
+AbstractServerResponse.writeHeaders( HttpServletResponse servletResponse );7;8;15
+AbstractServerResponse.writeStatusAndHeaders( HttpServletResponse response );1;0;5

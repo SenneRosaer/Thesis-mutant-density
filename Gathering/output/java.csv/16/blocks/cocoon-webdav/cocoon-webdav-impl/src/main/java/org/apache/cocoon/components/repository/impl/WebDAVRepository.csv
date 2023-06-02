@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebDAVRepository.getVersioningHelper( );1;0;3
+WebDAVRepository.initialize( );1;0;5
+WebDAVRepository.exists( String uri );4;0;13
+WebDAVRepository.getCredentials( );1;0;3
+WebDAVRepository.saveContent( String uri , Source source );2;0;9
+WebDAVRepository.saveContent( String uri , String content );4;0;13
+WebDAVRepository.remove( String uri );3;0;10
+WebDAVRepository.service( ServiceManager manager );1;0;3
+WebDAVRepository.configure( Configuration configuration );2;0;6
+WebDAVRepository.createResource( String uri , String content );4;0;14
+WebDAVRepository.getPropertyHelper( );1;0;3
+WebDAVRepository.move( String uri , String dest , boolean recurse , boolean overwrite );3;0;11
+WebDAVRepository.setCredentials( CredentialsToken credentials );1;0;3
+WebDAVRepository.saveContent( String uri , Node node );2;0;11
+WebDAVRepository.getContentDOM( String uri );4;0;15
+WebDAVRepository.getAbsoluteURI( String uri );1;0;5
+WebDAVRepository.getContentStream( String uri );5;1;16
+WebDAVRepository.makeCollection( String uri , boolean recursive );5;2;19
+WebDAVRepository.copy( String uri , String dest , boolean recurse , boolean overwrite );3;0;11
+WebDAVRepository.getTransactionHelper( );1;0;3
+WebDAVRepository.dispose( );1;0;6
+WebDAVRepository.getContentString( String uri );2;0;7

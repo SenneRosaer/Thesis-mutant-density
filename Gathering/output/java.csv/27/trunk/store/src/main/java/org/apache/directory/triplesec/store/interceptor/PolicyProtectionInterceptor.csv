@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PolicyProtectionInterceptor.move( NextInterceptor next , LdapDN name , LdapDN newParentName , String newRN , boolean deleteOldRN );8;3;43
+PolicyProtectionInterceptor.modifyRn( NextInterceptor next , LdapDN name , String newRN , boolean deleteOldRN );8;5;45
+PolicyProtectionInterceptor.modify( NextInterceptor next , LdapDN name , ModificationItemImpl [ ] modItems );6;4;22
+PolicyProtectionInterceptor.init( DirectoryServiceConfiguration factoryCfg , InterceptorConfiguration cfg );1;0;4
+PolicyProtectionInterceptor.move( NextInterceptor next , LdapDN name , LdapDN newParentName );8;4;40
+PolicyProtectionInterceptor.checkNewNonPolicyEntry( NextInterceptor next , LdapDN name );8;3;43
+PolicyProtectionInterceptor.PolicyProtectionInterceptor( );1;0;2
+PolicyProtectionInterceptor.checkAttributeRemoval( Attribute attr );6;3;24
+PolicyProtectionInterceptor.getBaseName( NextInterceptor next , LdapDN name );11;7;62
+PolicyProtectionInterceptor.isPolicyApplication( LdapDN dn );3;0;20
+PolicyProtectionInterceptor.isEntityGroup( LdapDN name );4;4;11
+PolicyProtectionInterceptor.delete( NextInterceptor next , LdapDN name );4;1;19
+PolicyProtectionInterceptor.checkNotInUse( NextInterceptor next , LdapDN baseName , LdapDN name );7;3;54
+PolicyProtectionInterceptor.checkAttributeAddition( NextInterceptor next , LdapDN baseName , Attribute attr );8;3;42
+PolicyProtectionInterceptor.add( NextInterceptor next , LdapDN name , Attributes attrs );9;3;64
+PolicyProtectionInterceptor.checkNewPolicyEntry( NextInterceptor next , LdapDN name , String parentName );4;5;18
+PolicyProtectionInterceptor.checkModification( NextInterceptor next , LdapDN baseName , LdapDN name );2;0;7
+PolicyProtectionInterceptor.getObjectClass( Attributes attrs );3;0;19
+PolicyProtectionInterceptor.modify( NextInterceptor next , LdapDN name , int modOp , Attributes attrs );7;2;34

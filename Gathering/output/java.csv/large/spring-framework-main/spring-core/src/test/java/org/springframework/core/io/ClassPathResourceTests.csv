@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GetInputStream.withStringConstructorRaisesExceptionForNonexistentResource( );1;0;3
+GetPath.dropsLeadingSlashForClassLoaderAccess( );1;0;4
+GetDescription.withClassLoaderConstructorAndLeadingSlash( );1;0;3
+EqualsAndHashCode.equalsAndHashCode( );1;0;13
+GetInputStream.assertExceptionContainsAbsolutePath( ClassPathResource resource );1;0;5
+EqualsAndHashCode.resourcesWithDifferentInputPathsAreEqual( );1;0;5
+EqualsAndHashCode.relativeResourcesAreEqual( );1;0;5
+GetDescription.withClassLiteralConstructorAndLeadingSlash( );1;0;3
+EqualsAndHashCode.resourcesWithEquivalentAbsolutePathsFromTheSameClassLoaderAreEqual( );1;0;7
+SimpleThrowawayClassLoader.resourcesWithEquivalentAbsolutePathsFromDifferentClassLoadersAreNotEqual( );1;0;3
+GetInputStream.withClassLiteralConstructorRaisesExceptionForNonexistentRelativeResource( );1;0;3
+GetDescription.withStringConstructor( );1;0;3
+GetDescription.withClassLiteralConstructor( );1;0;3
+ClassPathResourceTests.directoryNotReadable( );1;0;10
+GetDescription.assertDescription( ClassPathResource resource );1;0;3
+***not in a method***;0;3;0
+GetPath.convertsToAbsolutePathForClassRelativeAccess( );1;0;6
+ClassPathResourceTests.emptyFileReadable( @ TempDir ( cleanup = NEVER ) File tempDir );1;0;26
+GetInputStream.withClassLiteralConstructorRaisesExceptionForNonexistentAbsoluteResource( );1;0;3
+GetDescription.withClassLoaderConstructor( );1;0;3
+EqualsAndHashCode.resourcesWithEquivalentAbsolutePathsFromDifferentClassLoadersAreNotEqual( );1;0;13
+GetDescription.withStringConstructorAndLeadingSlash( );1;0;3
+GetInputStream.withClassLoaderConstructorRaisesExceptionForNonexistentResource( );1;0;3
+EqualsAndHashCode.resourcesWithEquivalentAbsolutePathsHaveSameHashCode( );1;0;6

@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Expand.setSrc( File s );1;0;3
+Expand.setEncoding( String encoding );2;0;6
+Expand.setDest( File d );1;0;3
+Expand.execute( );14;11;42
+Expand.expandFile( FileUtils fileUtils , File srcF , File dir );6;2;34
+Expand.setStripAbsolutePathSpec( boolean b );1;0;3
+Expand.add( FileNameMapper fileNameMapper );1;0;3
+Expand.setOverwrite( boolean b );1;0;3
+Expand.extractFile( FileUtils fileUtils , File srcF , File dir , InputStream compressedInputStream , String entryName , Date entryDate , boolean isDirectory , FileNameMapper mapper );30;37;99
+Expand.getMapper( );2;1;9
+Expand.getFailOnEmptyArchive( );1;0;3
+Expand.setFailOnEmptyArchive( boolean b );1;0;3
+Expand.addPatternset( PatternSet set );1;0;3
+Expand.add( ResourceCollection rc );1;0;4
+Expand.addFileset( FileSet set );1;0;3
+Expand.createMapper( );2;1;8
+Expand.expandResource( Resource srcR , File dir );1;0;4

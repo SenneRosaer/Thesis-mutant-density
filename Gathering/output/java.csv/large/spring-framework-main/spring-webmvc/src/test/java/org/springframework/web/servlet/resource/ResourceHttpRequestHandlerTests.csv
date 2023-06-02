@@ -1,0 +1,51 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceHttpRequestHandlerTests.getResourceWithRegisteredMediaType( );1;0;16
+ResourceHttpRequestHandlerTests.partialContentByteRange( );1;0;12
+ResourceHttpRequestHandlerTests.processPath( );1;1;23
+ResourceHttpRequestHandlerTests.resourceNotFound( );2;0;7
+ResourceHttpRequestHandlerTests.testInvalidPath( );1;0;27
+ResourceHttpRequestHandlerTests.getResourceHttp10BehaviorCache( );1;6;14
+ResourceHttpRequestHandlerTests.resourceLastModified( String resourceName );1;0;3
+ResourceHttpRequestHandlerTests.getResourceWithMediaTypeResolvedThroughServletContext( );1;0;18
+ResourceHttpRequestHandlerTests.directoryInJarFile( );1;0;5
+ResourceHttpRequestHandlerTests.setup( );1;0;14
+ResourceHttpRequestHandlerTests.notModified( );1;0;6
+ResourceHttpRequestHandlerTests.getResourceHttpHeader( );1;2;14
+ResourceHttpRequestHandlerTests.getMediaTypeWithFavorPathExtensionOff( );1;0;16
+ResourceHttpRequestHandlerTests.filterNonExistingLocations( );1;0;15
+ResourceHttpRequestHandlerTests.getMimeType( String filePath );1;0;3
+ResourceHttpRequestHandlerTests.getResourceFromSubDirectoryOfAlternatePath( );1;0;6
+ResourceHttpRequestHandlerTests.servletContextRootValidation( );1;0;15
+ResourceHttpRequestHandlerTests.partialContentInvalidRangeHeader( );1;0;9
+ResourceHttpRequestHandlerTests.testResolvePathWithTraversal( HttpMethod httpMethod );1;0;21
+ResourceHttpRequestHandlerTests.unsupportedHttpMethod( );1;0;6
+ResourceHttpRequestHandlerTests.testInvalidPath( String requestPath , ResourceHttpRequestHandler handler );1;0;6
+ResourceHttpRequestHandlerTests.noPathWithinHandlerMappingAttribute( );1;0;4
+ResourceHttpRequestHandlerTests.getResourceHttp10BehaviorNoCache( );1;3;16
+ResourceHttpRequestHandlerTests.ignoreLastModified( );1;0;9
+TestServletContext.getMimeType( String filePath );3;0;11
+ResourceHttpRequestHandlerTests.getVersionedResource( );1;0;11
+ResourceHttpRequestHandlerTests.ignoreInvalidEscapeSequence( );1;0;6
+ResourceHttpRequestHandlerTests.testResolvePathWithTraversal( Resource location , String requestPath );3;3;9
+ResourceHttpRequestHandlerTests.doOverwriteExistingCacheControlHeaders( );1;0;6
+ResourceHttpRequestHandlerTests.getResourceFromSubDirectory( );1;0;6
+ResourceHttpRequestHandlerTests.partialContentSuffixRangeLargeSuffix( );1;0;12
+ResourceHttpRequestHandlerTests.getResourceFromAlternatePath( );1;2;12
+ResourceHttpRequestHandlerTests.getResource( );1;2;12
+ResourceHttpRequestHandlerTests.initAllowedLocations( );1;0;5
+ResourceHttpRequestHandlerTests.partialContentByteRangeNoEnd( );1;0;12
+ResourceHttpRequestHandlerTests.modified( );1;3;7
+ResourceHttpRequestHandlerTests.resourceNotFound( HttpMethod httpMethod );1;0;6
+ResourceHttpRequestHandlerTests.partialContentMultipleByteRanges( );1;0;22
+ResourceHttpRequestHandlerTests.directory( );1;0;5
+ResourceHttpRequestHandlerTests.initAllowedLocationsWithExplicitConfiguration( );1;0;12
+ResourceHttpRequestHandlerTests.partialContentWithHttpHead( );1;0;11
+ResourceHttpRequestHandlerTests.partialContentSuffixRange( );1;0;12
+ResourceHttpRequestHandlerTests.getResource( String location );1;0;3
+ResourceHttpRequestHandlerTests.missingResourcePath( );1;0;5
+ResourceHttpRequestHandlerTests.getResourceHttpOptions( );1;0;7
+ResourceHttpRequestHandlerTests.partialContentByteRangeLargeEnd( );1;0;12
+ResourceHttpRequestHandlerTests.resolvePathWithTraversal( );2;0;7
+ResourceHttpRequestHandlerTests.getResourceWithHtmlMediaType( );1;2;10
+ResourceHttpRequestHandlerTests.partialContentByteRangeWithEncodedResource( GzipSupport . GzippedFiles gzippedFiles );1;0;23
+ResourceHttpRequestHandlerTests.getResourceNoCache( );1;2;10

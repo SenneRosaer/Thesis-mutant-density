@@ -1,0 +1,63 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RuntimeInstanceImpl.extractProperty( Element msgData , OProcess . OPropertyAlias alias , String target );7;6;25
+RuntimeInstanceImpl.fetchVariableData( VariableInstance variable , ScopeFrame scopeFrame , boolean forWriting );8;4;37
+RuntimeInstanceImpl.completedFault( FaultData faultData );1;0;4
+RuntimeInstanceImpl.getPartnerResponse( String mexId );1;0;3
+RuntimeInstanceImpl.cancel( PickResponseChannel responseChannel );1;0;12
+RuntimeInstanceImpl.execute( );1;0;3
+RuntimeInstanceImpl.terminate( );1;0;4
+RuntimeInstanceImpl.reply( PartnerLinkInstance plink , String opName , String bpelmex , Element element , QName fault );3;1;11
+RuntimeInstanceImpl.forceFlush( );1;0;3
+RuntimeInstanceImpl.registerTimer( TimerResponseChannel timerChannel , Date future );1;0;3
+RuntimeInstanceImpl.getExpLangRuntime( );1;0;3
+RuntimeInstanceImpl.fetchMyRoleEndpointReferenceData( PartnerLinkInstance link );1;0;3
+RuntimeInstanceImpl.fetchVariableData( VariableInstance var , ScopeFrame scopeFrame , OMessageVarType . Part part , boolean forWriting );2;1;5
+RuntimeInstanceImpl.cancelOutstandingRequests( String channelId );1;0;3
+RuntimeInstanceImpl.cleanupOutstandingMyRoleExchanges( FaultInfo optionalFaultData );2;0;6
+RuntimeInstanceImpl.RuntimeInstanceImpl( RuntimeImpl runtime , ExecutionQueueImpl soup );2;1;13
+RuntimeInstanceImpl.getPartnerFault( String mexId );1;0;3
+RuntimeInstanceImpl.run( );1;1;4
+RuntimeInstanceImpl.getORM( );1;0;3
+RuntimeInstanceImpl.onTimerEvent( final String timerId );1;1;10
+RuntimeInstanceImpl.getPartData( Element message , OMessageVarType . Part part );8;9;18
+RuntimeInstanceImpl.readCorrelation( CorrelationSetInstance cset );1;0;3
+RuntimeInstanceImpl.getProcessModel( );1;0;3
+RuntimeInstanceImpl.createExtensionActivityImplementation( QName name );4;2;13
+RuntimeInstanceImpl.getPid( );1;0;3
+RuntimeInstanceImpl.fetchMySessionId( PartnerLinkInstance linkInstance );1;0;3
+RuntimeInstanceImpl.saveState( OutputStream bos );1;0;4
+RuntimeInstanceImpl.convertEndpointReference( Element epr , Node lvaluePtr );1;0;3
+RuntimeInstanceImpl.initializeVariable( VariableInstance var , ScopeFrame scopeFrame , Node val );6;2;21
+RuntimeInstanceImpl.isPartnerRoleEndpointInitialized( PartnerLinkInstance pLink );1;0;3
+RuntimeInstanceImpl.getPartnerFaultExplanation( String mexId );1;0;3
+RuntimeInstanceImpl.getPartnerResponseType( String mexId );1;0;3
+RuntimeInstanceImpl.fetchPartnerRoleEndpointReferenceData( PartnerLinkInstance link );2;1;7
+RuntimeInstanceImpl.setContext( OdeRTInstanceContext ctx );1;0;3
+RuntimeInstanceImpl.registerActivityForRecovery( ActivityRecoveryChannel recoveryChannel , long id , String reason , Date dateTime , Element details , String [ ] actions , int retryCount );1;0;3
+RuntimeInstanceImpl.initializePartnersSessionId( PartnerLinkInstance instance , String partnersSessionId );1;0;3
+RuntimeInstanceImpl.onSelectEvent( final String selectId , final String messageExchangeId , final int selectorIdx );1;0;10
+RuntimeInstanceImpl.onInvokeResponse( final String invokeId , InvokeResponseType irt , final String mexid );4;3;28
+RuntimeInstanceImpl.readProperty( VariableInstance variable , OProcess . OProperty property );2;0;7
+RuntimeInstanceImpl.unregisterActivityForRecovery( ActivityRecoveryChannel recoveryChannel );1;0;3
+RuntimeInstanceImpl.releasePartnerMex( String mexId );1;0;3
+RuntimeInstanceImpl.getSourceSessionId( String mexId );1;0;3
+RuntimeInstanceImpl.getSourceEPR( String mexId );1;0;3
+RuntimeInstanceImpl.recoverActivity( final String channel , final long activityId , final String action , FaultInfo fault );6;1;16
+RuntimeInstanceImpl.select( PickResponseChannel pickResponseChannel , Date timeout , boolean createInstance , Selector [ ] selectors );2;2;8
+RuntimeInstanceImpl.commitChanges( VariableInstance var , ScopeFrame scopeFrame , Node value );5;1;19
+RuntimeInstanceImpl.onCreateInstance( String messageExchangeId );1;0;3
+RuntimeInstanceImpl.sendEvent( ProcessInstanceStartedEvent evt );1;0;3
+RuntimeInstanceImpl.initializePartnerLinks( Long parentScopeId , Collection < OPartnerLink > partnerLinks );1;0;3
+RuntimeInstanceImpl.createScopeInstance( Long parentScopeId , String name , int modelId );1;0;3
+RuntimeInstanceImpl.writeProperties( VariableInstance variable , Node value );8;2;21
+RuntimeInstanceImpl.writeEndpointReference( PartnerLinkInstance plval , Element element );1;0;3
+RuntimeInstanceImpl.getBaseResourceURI( );1;0;3
+RuntimeInstanceImpl.sendEvent( ScopeEvent event );1;0;3
+RuntimeInstanceImpl.isVariableInitialized( VariableInstance var );1;0;3
+RuntimeInstanceImpl.completedOk( );1;0;4
+RuntimeInstanceImpl.getMyRequest( String mexId );1;0;3
+RuntimeInstanceImpl.invoke( String invokeId , PartnerLinkInstance instance , Operation operation , Element outboundMsg , Object object );2;0;7
+RuntimeInstanceImpl.genId( );1;0;3
+RuntimeInstanceImpl.writeCorrelation( CorrelationSetInstance cset , CorrelationKey ckeyVal );2;2;9
+RuntimeInstanceImpl.createScopeInstance( Long scopeInstanceId , OScope scopedef );1;0;3
+RuntimeInstanceImpl.isCorrelationInitialized( CorrelationSetInstance correlationSet );1;0;3

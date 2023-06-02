@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JaasUserRealm.isUserInRole( Principal user , String role );1;0;3
+JaasUserRealm.authenticate( final String username , final Object credentials , Request request );5;4;22
+JaasUserRealm.reauthenticate( Principal user );1;1;3
+JaasUserRealm.setAuthenticationService( AuthenticationService authenticationService );1;0;3
+JaasUserRealm.disassociate( Principal user );1;0;2
+JaasUserRealm.getAuthenticationService( );1;0;3
+JaasUserRealm.popRole( Principal user );1;0;3
+JaasUserRealm.setName( String name );1;0;3
+JaasUserRealm.logout( Principal user );1;0;4
+JaasUserRealm.pushRole( Principal user , String role );1;0;3
+JaasUserRealm.getPrincipal( String username );1;0;3
+JaasUserRealm.setDomain( String domain );1;0;3
+JaasUserRealm.getDomain( );1;0;3
+JaasUserRealm.getName( );1;0;3

@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LateralTCPListener.handleRemove( String cacheName , Serializable key );4;3;15
+LateralTCPListener.handleGetMatching( String cacheName , String pattern );4;3;16
+ConnectionHandler.handle( LateralElementDescriptor led );14;11;63
+LateralTCPListener.handleRemoveAll( String cacheName );2;0;7
+LateralTCPListener.setListenerId( long id );2;0;7
+***not in a method***;0;1;0
+LateralTCPListener.handleGet( String cacheName , Serializable key );4;3;16
+MyThreadFactory.newThread( Runnable runner );1;0;6
+LateralTCPListener.handlePut( ICacheElement element );4;3;16
+LateralTCPListener.setCacheManager( ICompositeCacheManager cacheMgr );1;0;3
+ConnectionHandler.run( );10;2;58
+LateralTCPListener.getPutCnt( );1;0;3
+LateralTCPListener.LateralTCPListener( ITCPLateralCacheAttributes ilca );1;0;3
+LateralTCPListener.getCacheManager( );1;0;3
+LateralTCPListener.getRemoveCnt( );1;0;3
+LateralTCPListener.getCache( String name );3;1;11
+LateralTCPListener.getGetCnt( );1;0;3
+LateralTCPListener.getInstance( ITCPLateralCacheAttributes ilca , ICompositeCacheManager cacheMgr );3;1;15
+LateralTCPListener.init( );2;0;16
+LateralTCPListener.getListenerId( );1;0;3
+LateralTCPListener.setTcpLateralCacheAttributes( ITCPLateralCacheAttributes tcpLateralCacheAttributes );1;0;3
+ConnectionHandler.ConnectionHandler( Socket socket );1;0;3
+ListenerThread.run( );5;0;28
+LateralTCPListener.handleDispose( String cacheName );2;0;6
+LateralTCPListener.getTcpLateralCacheAttributes( );1;0;3

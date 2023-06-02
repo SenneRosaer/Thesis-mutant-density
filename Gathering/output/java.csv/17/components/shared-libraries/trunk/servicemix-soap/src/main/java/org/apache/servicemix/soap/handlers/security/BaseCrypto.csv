@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BaseCrypto.getDefaultX509Alias( );1;0;3
+BaseCrypto.getAliasForX509Cert( Certificate cert );5;3;18
+BaseCrypto.loadCertificate( InputStream in );2;0;10
+BaseCrypto.getCertificateData( boolean reverse , X509Certificate [ ] certs );5;2;20
+BaseCrypto.setProvider( String provider );1;0;3
+BaseCrypto.validateCertPath( X509Certificate [ ] certs );11;5;48
+BaseCrypto.getAliasForX509Cert( String issuer , BigInteger serialNumber , boolean useSerialNumber );8;6;27
+BaseCrypto.getProvider( );1;0;3
+BaseCrypto.getCertificates( String alias );7;5;21
+BaseCrypto.getX509Certificates( byte [ ] data , boolean reverse );4;4;17
+BaseCrypto.getAliasForX509Cert( byte [ ] skiBytes );5;2;19
+BaseCrypto.getAliasesForDN( String subjectDN );5;2;21
+BaseCrypto.setDefaultX509Alias( String defaultX509Alias );1;0;3
+BaseCrypto.getCertificateFactory( );6;4;18
+BaseCrypto.getKeyStore( );1;0;3
+BaseCrypto.getSKIBytesFromCert( X509Certificate cert );5;6;24
+BaseCrypto.getAliasForX509Cert( String issuer , BigInteger serialNumber );1;0;3
+BaseCrypto.getAliasForX509Cert( String issuer );1;0;3
+BaseCrypto.getCertificateChainOrCertificate( String alias );4;4;13
+BaseCrypto.getAliasForX509CertThumb( byte [ ] thumb );7;2;34
+BaseCrypto.splitAndTrim( String inString );2;0;9

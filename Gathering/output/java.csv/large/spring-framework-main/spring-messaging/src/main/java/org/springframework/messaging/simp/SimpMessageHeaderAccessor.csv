@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpMessageHeaderAccessor.setSubscriptionId( @ Nullable String subscriptionId );1;0;3
+SimpMessageHeaderAccessor.getMessageType( );1;0;3
+SimpMessageHeaderAccessor.setMessageTypeIfNotSet( SimpMessageType messageType );2;1;5
+SimpMessageHeaderAccessor.createAccessor( Message < ? > message );1;0;3
+SimpMessageHeaderAccessor.getBaseLogMessage( );5;4;19
+SimpMessageHeaderAccessor.getSubscriptionId( );1;0;3
+SimpMessageHeaderAccessor.getMessageType( Map < String , Object > headers );1;0;3
+SimpMessageHeaderAccessor.getHeartbeat( Map < String , Object > headers );1;0;3
+SimpMessageHeaderAccessor.SimpMessageHeaderAccessor( SimpMessageType messageType , @ Nullable Map < String , List < String > > externalSourceHeaders );1;0;6
+SimpMessageHeaderAccessor.getShortLogMessage( Object payload );3;2;11
+SimpMessageHeaderAccessor.setUserChangeCallback( Consumer < Principal > callback );2;1;4
+SimpMessageHeaderAccessor.setDestination( @ Nullable String destination );1;0;3
+SimpMessageHeaderAccessor.SimpMessageHeaderAccessor( Message < ? > message );1;0;4
+SimpMessageHeaderAccessor.getSessionAttributes( Map < String , Object > headers );1;0;3
+SimpMessageHeaderAccessor.setSessionId( @ Nullable String sessionId );1;0;3
+SimpMessageHeaderAccessor.getDestination( Map < String , Object > headers );1;0;3
+SimpMessageHeaderAccessor.getSubscriptionId( Map < String , Object > headers );1;0;3
+SimpMessageHeaderAccessor.setSessionAttributes( @ Nullable Map < String , Object > attributes );1;0;3
+SimpMessageHeaderAccessor.getUser( );1;0;3
+SimpMessageHeaderAccessor.setUser( @ Nullable Principal principal );2;1;6
+SimpMessageHeaderAccessor.wrap( Message < ? > message );1;0;3
+SimpMessageHeaderAccessor.getUser( Map < String , Object > headers );1;0;3
+SimpMessageHeaderAccessor.create( SimpMessageType messageType );1;0;3
+SimpMessageHeaderAccessor.getSessionAttributes( );1;0;3
+SimpMessageHeaderAccessor.getDestination( );1;0;3
+SimpMessageHeaderAccessor.getSessionId( Map < String , Object > headers );1;0;3
+SimpMessageHeaderAccessor.getDetailedLogMessage( @ Nullable Object payload );4;3;14
+SimpMessageHeaderAccessor.getSessionId( );1;0;3
+SimpMessageHeaderAccessor.create( );1;0;3

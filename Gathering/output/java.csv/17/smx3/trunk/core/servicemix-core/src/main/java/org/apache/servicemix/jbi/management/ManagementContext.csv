@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ManagementContext.getJmxDomainName( );1;0;3
+ManagementContext.isEngine( String componentName );2;1;4
+ManagementContext.registerSystemService( BaseSystemService service , Class interfaceType );5;0;18
+ManagementContext.getContainerObjectName( String domainName , String containerName );3;1;12
+ManagementContext.setCreateJmxConnector( boolean createJmxConnector );1;0;3
+ManagementContext.getPojoComponents( );1;0;3
+ManagementContext.stop( );1;0;3
+ManagementContext.isUseMBeanServer( );1;0;3
+ManagementContext.isBinding( String componentName );2;1;4
+ManagementContext.getAttributeInfos( );1;0;9
+ManagementContext.shutDown( );4;2;17
+ManagementContext.getServiceMBean( );1;0;3
+ManagementContext.isCreateJmxConnector( );1;0;3
+ManagementContext.ManagementContext( );1;0;3
+ManagementContext.getSystemService( String serviceName );1;0;3
+ManagementContext.setCreateMBeanServer( boolean enableJMX );1;0;3
+ManagementContext.sanitizeString( String in );2;1;12
+ManagementContext.setUseMBeanServer( boolean useMBeanServer );1;0;3
+ManagementContext.startComponent( String componentName );3;2;12
+ManagementContext.unregisterSystemService( BaseSystemService service );3;1;11
+ManagementContext.getSystemObjectName( String domainName , String containerName , Class interfaceType );3;2;12
+ManagementContext.unregisterMBean( ObjectName name );2;0;9
+ManagementContext.shutDownComponent( String componentName );3;2;12
+ManagementContext.getDescription( );1;0;3
+ManagementContext.registerMBean( ObjectName name , Object resource , Class interfaceMBean , String description );3;1;10
+ManagementContext.createObjectName( String domain , Map < String , String > props );4;2;21
+ManagementContext.getComponentByName( String componentName );2;1;4
+ManagementContext.getOperationInfos( );1;0;12
+ManagementContext.getSystemInfo( );1;0;3
+ManagementContext.registerMBean( ObjectName name , MBeanInfoProvider resource , Class interfaceMBean );1;0;3
+ManagementContext.createObjectNameProps( MBeanInfoProvider provider );1;0;3
+ManagementContext.getMBeanServer( );1;0;3
+ManagementContext.unregisterMBean( Object bean );3;1;10
+ManagementContext.createObjectName( Map < String , String > props );1;0;3
+ManagementContext.getSystemServiceName( Class interfaceType );2;2;8
+ManagementContext.setNamingPort( int portNum );1;0;3
+ManagementContext.init( JBIContainer container , MBeanServer server );4;2;15
+ManagementContext.stopComponent( String componentName );3;2;12
+ManagementContext.createCustomComponentMBeanName( String type , String name );1;0;8
+ManagementContext.getSystemServices( );1;0;7
+ManagementContext.createObjectName( MBeanInfoProvider provider );1;0;4
+ManagementContext.createObjectNameProps( MBeanInfoProvider provider , boolean subTypeBeforeName );5;5;13
+ManagementContext.getBindingComponents( );1;0;3
+ManagementContext.start( );1;0;3
+ManagementContext.getNamingPort( );1;0;3
+ManagementContext.getEngineComponents( );1;0;3
+ManagementContext.createObjectName( String name );2;0;11
+ManagementContext.isCreateMBeanServer( );1;0;3

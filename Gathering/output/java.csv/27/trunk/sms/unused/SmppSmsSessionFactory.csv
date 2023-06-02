@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SmppSmsSession.getConnection( );1;0;3
+SmppSmsSessionFactory.getSmsSession( String user , String password , String applicationId , SmsTransportType transport , boolean enableKeepAlive );1;0;3
+SmppSmsSessionFactory.getSmsSession( String user , String password , String applicationId , boolean enableKeepAlive );1;0;3
+SmppSmsSessionFactory.getSmsSession( String user , String password , String applicationId );1;0;9
+SmppSmsSessionFactory.getSmsSession( String sessionId );1;0;3
+SmppSmsSession.setKeepAliveEnabled( boolean isKeepAliveEnabled );1;0;3
+SmppSmsSessionFactory.getSmsSession( String user , String password , String applicationId , SmsTransportType transport );1;0;3
+SmppSmsSession.SmppSmsSession( Connection conn );1;0;3
+SmppSmsSession.invalidate( );1;0;3
+SmppSmsSession.setApplicationId( String applicationId );1;0;3
+SmppSmsSessionFactory.connect( String username , String password );7;3;46
+SmppSmsSessionFactory.disconnect( SmppSmsSession session );7;6;24
+SmppSmsSession.setTransport( SmsTransportType transport );1;0;3
+SmppSmsSession.setSessionId( String sessionId );1;0;3
+SmppSmsSession.setUser( String user );1;0;3
+SmppSmsSession.sendMessage( SmsMessage msg );3;1;21

@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnnotationGrammar.getEnv( );1;0;3
+AnnotationGrammar.addMemberArrayGrammar( String memberName , AnnotationGrammar grammar );1;0;3
+AnnotationGrammar.addError( AnnotationInstance element , String key , Object [ ] args );1;0;3
+AnnotationGrammar.addWarning( Declaration element , String key , Object arg1 , Object arg2 );1;0;3
+AnnotationGrammar.AnnotationGrammar( CoreAnnotationProcessorEnv env , Diagnostics diags , String requiredRuntimeVersion , RuntimeVersionChecker runtimeVersionChecker );1;0;6
+AnnotationGrammar.addWarning( AnnotationInstance element , String key , Object [ ] args );1;0;3
+AnnotationGrammar.addWarning( AnnotationInstance element , String key );1;0;3
+AnnotationGrammar.addError( AnnotationValue element , String key , Object [ ] args );1;0;3
+AnnotationGrammar.addError( AnnotationInstance element , String key , Object arg1 , Object arg2 , Object arg3 );1;0;3
+AnnotationGrammar.check( AnnotationInstance annotation , AnnotationInstance [ ] parentAnnotations , MemberDeclaration classMember );1;1;3
+AnnotationGrammar.onBeginCheck( AnnotationInstance annotation , AnnotationInstance [ ] parentAnnotations , MemberDeclaration classMember );1;0;3
+AnnotationGrammar.getRequiredAttrs( );1;0;3
+AnnotationGrammar.addError( AnnotationInstance element , String key , Object arg1 );1;0;3
+AnnotationGrammar.addError( Declaration element , String key , Object [ ] args );1;0;3
+AnnotationGrammar.onEndCheck( AnnotationInstance annotation , AnnotationInstance [ ] parentAnnotations , MemberDeclaration classMember , Map checkResults );1;0;3
+AnnotationGrammar.addError( AnnotationValue element , String key , Object arg1 , Object arg2 , Object arg3 );1;0;3
+AnnotationGrammar.addWarning( Declaration element , String key , Object [ ] args );1;0;3
+AnnotationGrammar.getAttrDependencies( );1;0;3
+AnnotationGrammar.addError( AnnotationValue element , String key , Object arg1 , Object arg2 );1;0;3
+AnnotationGrammar.addMemberGrammar( String memberName , AnnotationGrammar grammar );1;0;3
+AnnotationGrammar.getRuntimeVersionChecker( );1;0;3
+AnnotationGrammar.addWarning( AnnotationValue element , String key , Object arg1 , Object arg2 , Object arg3 );1;0;3
+AnnotationGrammar.addError( Declaration element , String key , Object arg );1;0;3
+AnnotationGrammar.addWarning( AnnotationInstance element , String key , Object arg1 , Object arg2 );1;0;3
+AnnotationGrammar.addWarning( Declaration element , String key , Object arg1 , Object arg2 , Object arg3 );1;0;3
+AnnotationGrammar.addError( AnnotationInstance element , String key , Object arg1 , Object arg2 );1;0;3
+AnnotationGrammar.addError( AnnotationInstance element , String key );1;0;3
+AnnotationGrammar.onCheckMember( AnnotationTypeElementDeclaration memberDecl , AnnotationValue member , AnnotationInstance annotation , AnnotationInstance [ ] parentAnnotations , MemberDeclaration classMember );1;0;2
+AnnotationGrammar.addError( Declaration element , String key , Object arg1 , Object arg2 );1;0;3
+AnnotationGrammar.addMemberType( String memberName , AnnotationMemberType type );1;0;3
+AnnotationGrammar.addWarning( Declaration element , String key );1;0;3
+AnnotationGrammar.addWarning( AnnotationValue element , String key , Object arg1 , Object arg2 );1;0;3
+AnnotationGrammar.addWarning( AnnotationValue element , String key , Object [ ] args );1;0;3
+AnnotationGrammar.addError( Declaration element , String key );1;0;3
+AnnotationGrammar.getDiagnostics( );1;0;3
+AnnotationGrammar.beginCheck( AnnotationInstance annotation , AnnotationInstance [ ] parentAnnotations , MemberDeclaration classMember );2;1;9
+AnnotationGrammar.getRequiredRuntimeVersion( );1;0;3
+AnnotationGrammar.getMutuallyExclusiveAttrs( );1;0;3
+AnnotationGrammar.addWarning( Declaration element , String key , Object arg );1;0;3
+AnnotationGrammar.addError( Declaration element , String key , Object arg1 , Object arg2 , Object arg3 );1;0;3
+AnnotationGrammar.endCheck( AnnotationInstance annotation , AnnotationInstance [ ] parentAnnotations , MemberDeclaration classMember , Set wasPresent , Map checkResults );17;22;65
+AnnotationGrammar.addWarning( AnnotationValue element , String key , Object arg1 );1;0;3
+AnnotationGrammar.addWarning( AnnotationInstance element , String key , Object arg1 );1;0;3
+AnnotationGrammar.addWarning( AnnotationInstance element , String key , Object arg1 , Object arg2 , Object arg3 );1;0;3
+AnnotationGrammar.addError( AnnotationValue element , String key , Object arg1 );1;0;3
+AnnotationGrammar.addError( AnnotationValue element , String key );1;0;3
+AnnotationGrammar.check( AnnotationInstance annotation , AnnotationInstance [ ] parentAnnotations , MemberDeclaration classMember , int annotationArrayIndex );13;12;61
+AnnotationGrammar.addWarning( AnnotationValue element , String key );1;0;3

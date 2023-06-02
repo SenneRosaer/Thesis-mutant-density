@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DbDataStore.updateModifiedDateOnAccess( long before );1;0;4
+DbDataStore.getDigest( );2;0;7
+DbDataStore.getRecord( DataIdentifier identifier );3;1;22
+DbDataStore.deleteAllOlderThan( long min );4;1;18
+DbDataStore.setMaxConnections( int maxConnections );1;0;3
+DbDataStore.getUser( );1;0;3
+DbDataStore.getConnection( );3;0;11
+DbDataStore.setDatabaseType( String databaseType );1;0;3
+DbDataStore.setDriver( String driver );1;0;3
+DbDataStore.setTablePrefix( String tablePrefix );1;0;3
+DbDataStore.initDatabaseType( );10;4;65
+DbDataStore.setMinRecordLength( int minRecordLength );1;0;3
+DbDataStore.setCopyWhenReading( boolean copyWhenReading );1;0;3
+DbDataStore.getProperty( Properties prop , String key , String defaultValue );1;0;6
+DbDataStore.setUser( String user );1;0;3
+DbDataStore.getDatabaseType( );1;0;3
+DbDataStore.getAllIdentifiers( );4;1;22
+DbDataStore.close( );2;2;8
+DbDataStore.putBack( ConnectionRecoveryManager conn );2;0;7
+DbDataStore.touch( DataIdentifier identifier , long lastModified );3;1;19
+DbDataStore.getUrl( );1;0;3
+DbDataStore.moveToTempFile( InputStream in );1;0;5
+DbDataStore.getDriver( );1;0;3
+DbDataStore.getCopyWhenReading( );1;0;3
+DbDataStore.clearInUse( );1;0;3
+DbDataStore.getMinRecordLength( );1;0;3
+DbDataStore.createNewConnection( );1;0;4
+DbDataStore.setPassword( String password );1;0;3
+DbDataStore.addRecord( InputStream stream );14;12;89
+DbDataStore.usesIdentifier( DataIdentifier identifier );1;0;3
+DbDataStore.openStream( DbInputStream inputStream , DataIdentifier identifier );5;2;32
+DbDataStore.getTablePrefix( );1;0;3
+DbDataStore.setUrl( String url );1;0;3
+DbDataStore.getMaxConnections( );1;0;3
+DbDataStore.init( String homeDir );3;1;20
+DbDataStore.convert( String cause , Exception e );2;0;8
+DbDataStore.getPassword( );1;0;3

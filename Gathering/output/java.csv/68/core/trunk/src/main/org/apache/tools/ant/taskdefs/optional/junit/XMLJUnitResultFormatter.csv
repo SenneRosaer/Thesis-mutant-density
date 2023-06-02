@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLJUnitResultFormatter.startTestSuite( JUnitTest suite );4;2;23
+XMLJUnitResultFormatter.getDocumentBuilder( );2;0;7
+XMLJUnitResultFormatter.addFailure( Test test , Throwable t );1;0;3
+XMLJUnitResultFormatter.endTest( Test test );4;5;22
+XMLJUnitResultFormatter.endTestSuite( JUnitTest suite );5;5;22
+XMLJUnitResultFormatter.setSystemOutput( String out );1;0;3
+XMLJUnitResultFormatter.addError( Test test , Throwable t );1;0;3
+XMLJUnitResultFormatter.XMLJUnitResultFormatter( );1;0;2
+XMLJUnitResultFormatter.addFailure( Test test , AssertionFailedError t );1;0;3
+XMLJUnitResultFormatter.formatOutput( String type , String output );1;0;5
+XMLJUnitResultFormatter.startTest( Test t );1;0;3
+XMLJUnitResultFormatter.getHostname( );2;0;7
+XMLJUnitResultFormatter.formatError( String type , Test test , Throwable t );5;5;22
+XMLJUnitResultFormatter.setOutput( OutputStream out );1;0;3
+XMLJUnitResultFormatter.setSystemError( String out );1;0;3

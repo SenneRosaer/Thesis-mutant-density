@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MailerModel.getSuccessSubject( );1;0;3
+MailerModel.toString( );1;0;3
+MailerModel.notifyChangeListeners( );2;1;5
+MailerModel.MailerModel( );1;0;5
+MailerModel.setFromAddress( String str );1;0;3
+MailerModel.getFailureSubject( );1;0;3
+MailerModel.sendMail( String from , Vector vEmails , String subject , String attText , String smtpHost );3;3;22
+MailerModel.getFromAddress( );1;0;3
+MailerModel.setSuccessSubject( String str );1;0;3
+MailerModel.getFailureLimit( );1;0;3
+MailerModel.setSuccessLimit( String limit );1;0;3
+MailerModel.clear( );1;0;8
+MailerModel.clone( );1;0;5
+MailerModel.setFailureLimit( String limit );1;0;3
+MailerModel.getSuccessCount( );1;0;3
+MailerModel.getSmtpHost( );1;0;3
+MailerModel.getSuccessLimit( );1;0;3
+MailerModel.add( SampleResult sample );14;16;42
+MailerModel.getToAddress( );1;0;3
+MailerModel.setSmtpHost( String str );1;0;3
+MailerModel.setToAddress( String str );1;0;3
+MailerModel.getAddressVector( );4;2;17
+MailerModel.setFailureSubject( String str );1;0;3
+MailerModel.addChangeListener( ChangeListener list );1;0;3
+MailerModel.getFailureCount( );1;0;3
+MailerModel.sendTestMail( );1;0;13

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChangeLogRecord.ChangeLogRecord( ChangeLog changes , List events , Record record , String workspace , long timestamp );1;0;6
+ChangeLogRecord.getEvents( );1;0;3
+ChangeLogRecord.createEventState( int type , NodeId parentId , Path parentPath , NodeId childId , Path . Element childRelPath , Name ntName , Set mixins , String userId );6;0;22
+ChangeLogRecord.process( ClusterRecordProcessor processor );1;0;3
+ChangeLogRecord.apply( int operation , ItemState state );4;0;19
+ChangeLogRecord.ChangeLogRecord( int identifier , Record record , String workspace );1;0;6
+ChangeLogRecord.readTimestampRecord( );1;0;3
+ChangeLogRecord.readEndMarker( );1;0;2
+ChangeLogRecord.getTimestamp( );1;0;3
+ChangeLogRecord.doWrite( );8;0;35
+ChangeLogRecord.readEventRecord( );2;2;16
+ChangeLogRecord.writeEventRecord( EventState event );2;0;16
+ChangeLogRecord.readPropertyRecord( );1;0;6
+ChangeLogRecord.writePropertyRecord( int operation , PropertyState state );1;0;5
+ChangeLogRecord.readNodeRecord( );1;0;6
+ChangeLogRecord.getChanges( );1;0;3
+ChangeLogRecord.doRead( );6;1;23
+ChangeLogRecord.writeNodeRecord( int operation , NodeState state );1;0;5
+ChangeLogRecord.getOrCreateSession( String userId );3;3;6
+ChangeLogRecord.writeTimestampRecord( );1;0;4

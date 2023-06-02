@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DSNBounce.createTextMsg( Mail originalMail );4;3;32
+DSNBounce.createAttachedOriginal( Mail originalMail , int attachmentType );4;4;18
+DSNBounce.service( Mail originalMail );9;5;65
+DSNBounce.init( );1;0;4
+DSNBounce.getRecipients( );1;0;5
+DSNBounce.getAttachmentType( );1;0;3
+DSNBounce.getReversePath( Mail originalMail );1;0;3
+DSNBounce.getErrorMsg( MessagingException me );2;1;8
+DSNBounce.getTo( );1;0;5
+DSNBounce.getMailetInfo( );1;0;3
+DSNBounce.createDSN( Mail originalMail );4;0;45
+DSNBounce.getAllowedInitParameters( );1;0;11
+DSNBounce.getStatus( MessagingException me );26;1;60

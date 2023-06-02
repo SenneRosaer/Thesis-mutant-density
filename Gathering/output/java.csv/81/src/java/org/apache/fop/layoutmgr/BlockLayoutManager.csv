@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BlockLayoutManager.addChildArea( Area childArea );3;1;9
+ProxyLMiter.createNextChildLMs( int pos );2;4;7
+BlockLayoutManager.getParentArea( Area childArea );2;1;22
+BlockLayoutManager.flush( );2;1;8
+BlockLayoutManager.addAreas( PositionIterator parentIter , LayoutContext layoutContext );19;33;102
+BlockLayoutManager.createNextChildLMs( int pos );4;1;15
+BlockLayoutManager.getKeepWithNextStrength( );1;0;3
+BlockLayoutManager.notifyBorder( RelSide side , MinOptMax effectiveLength );4;4;12
+BlockLayoutManager.BlockLayoutManager( org . apache . fop . fo . flow . Block inBlock );1;0;4
+BlockLayoutManager.createLineManager( LayoutManager firstlm );3;0;17
+BlockLayoutManager.getContentAreaIPD( );2;1;6
+BlockLayoutManager.getGeneratesBlockArea( );1;0;3
+ProxyLMiter.ProxyLMiter( );1;0;4
+BlockLayoutManager.getKeepWithPreviousStrength( );1;0;3
+ProxyLMiter.hasNext( );2;2;3
+BlockLayoutManager.getBlockFO( );1;0;3
+BlockLayoutManager.notifyPadding( RelSide side , MinOptMax effectiveLength );4;4;12
+BlockLayoutManager.getContentAreaBPD( );2;2;6
+BlockLayoutManager.notifySpace( RelSide side , MinOptMax effectiveLength );4;7;15
+BlockLayoutManager.getNextKnuthElements( LayoutContext context , int alignment );1;0;4
+BlockLayoutManager.getKeepTogetherStrength( );1;0;6
+BlockLayoutManager.resetSpaces( );1;0;8
+BlockLayoutManager.initialize( );2;2;28

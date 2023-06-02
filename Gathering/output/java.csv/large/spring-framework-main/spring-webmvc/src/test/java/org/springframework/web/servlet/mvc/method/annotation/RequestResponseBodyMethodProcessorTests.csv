@@ -1,0 +1,83 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleBean.getName( );1;0;3
+RequestResponseBodyMethodProcessorTests.handleReturnValueImage( );2;1;11
+JacksonController.handleResponseEntity( );1;0;9
+RequestResponseBodyMethodProcessorTests.resolveArgumentTypeVariableWithNonGenericConverter( );3;0;16
+SubControllerImplementingInterface.handle( String arg );1;0;3
+MyParameterizedControllerWithList.handleDto( @ RequestBody List < DTO > dto );1;0;2
+RequestResponseBodyMethodProcessorTests.jacksonJsonViewWithResponseBodyAndXmlMessageConverter( );2;0;15
+RequestResponseBodyMethodProcessorTests.jacksonJsonViewWithResponseEntityAndJsonMessageConverter( );2;0;15
+RequestResponseBodyMethodProcessorTests.setup( );1;1;15
+RequestResponseBodyMethodProcessorTests.handleAndReturnProblemDetail( );1;0;3
+BaseController.handleTypeInfoList( );1;0;6
+JacksonController.handleHttpEntity( @ JsonView ( MyJacksonView1 . class ) HttpEntity < JacksonViewBean > entity );1;0;3
+RequestResponseBodyMethodProcessorTests.resolveArgumentWithJacksonJsonViewAndXmlMessageConverter( );2;0;21
+TestRestController.handle( );1;0;3
+Foo.Foo( );1;0;2
+RequestResponseBodyMethodProcessorTests.addContentDispositionHeaderToErrorResponse( );1;0;13
+RequestResponseBodyMethodProcessorTests.resolveArgumentWithJacksonJsonView( );2;0;18
+ParentClass.getParentProperty( );1;0;3
+RequestResponseBodyMethodProcessorTests.resolveArgumentTypeVariableWithGenericInterfaceAndSubclass( );2;0;14
+RequestResponseBodyMethodProcessorTests.supportsReturnTypeRestController( );2;1;8
+RequestResponseBodyMethodProcessorTests.resolveParameterizedWithTypeVariableArgument( );2;0;17
+RequestResponseBodyMethodProcessorTests.getSimpleBean( );1;0;3
+JacksonController.handleSubTypeList( );1;0;9
+ResponseBodyController.handleWithCharSequence( );1;0;3
+ParentClass.ParentClass( );1;0;2
+JacksonController.handleSubType( );1;0;6
+RequestResponseBodyMethodProcessorTests.supportsReturnTypeResponseBodyOnType( );2;1;8
+RequestResponseBodyMethodProcessorTests.problemDetailDefaultMediaType( );1;0;3
+RequestResponseBodyMethodProcessorTests.resolveArgumentRequiredNoContentDefaultValue( );2;0;10
+EmptyRequestBodyAdvice.supports( MethodParameter methodParameter , Type targetType , Class < ? extends HttpMessageConverter < ? > > converterType );1;0;3
+Bar.Bar( String parentProperty );1;0;3
+RequestResponseBodyMethodProcessorTests.jacksonSubType( );2;0;13
+RequestResponseBodyMethodProcessorTests.jacksonJsonViewWithResponseBodyAndJsonMessageConverter( );2;0;15
+RequestResponseBodyMethodProcessorTests.resolveArgumentParameterizedType( );2;0;14
+JacksonViewBean.getWithoutView( );1;0;3
+RequestResponseBodyMethodProcessorTests.resolveArgumentClassJson( );2;0;12
+ResponseBodyController.handle( );1;0;3
+RequestResponseBodyMethodProcessorTests.handleReturnValueString( );2;0;9
+RequestResponseBodyMethodProcessorTests.resolveHttpEntityArgumentWithJacksonJsonViewAndXmlMessageConverter( );2;0;23
+JacksonController.handleRequestBody( @ JsonView ( MyJacksonView1 . class ) @ RequestBody JacksonViewBean bean );1;0;3
+JacksonViewBean.setWithView1( String withView1 );1;0;3
+RequestResponseBodyMethodProcessorTests.handleReturnValueWithInvalidReturnType( );1;1;8
+MyParameterizedController.handleDto( @ RequestBody DTO dto );1;0;1
+RequestResponseBodyMethodProcessorTests.resolveArgumentRequiredNoContent( );2;0;9
+RequestResponseBodyMethodProcessorTests.testProblemDetailMediaType( String expectedContentType );1;1;17
+EmptyRequestBodyAdvice.afterBodyRead( Object body , HttpInputMessage inputMessage , MethodParameter parameter , Type targetType , Class < ? extends HttpMessageConverter < ? > > converterType );1;0;3
+RequestResponseBodyMethodProcessorTests.jacksonSubTypeList( );2;0;15
+SimpleBean.getId( );1;0;3
+ParentClass.ParentClass( String parentProperty );1;0;3
+SimpleBean.setId( Long id );1;0;3
+RequestResponseBodyMethodProcessorTests.resolveArgumentClassString( );2;0;12
+RequestResponseBodyMethodProcessorTests.handleReturnValueWithObjectMapperByTypeRegistration( );1;2;22
+RequestResponseBodyMethodProcessorTests.handleAndReturnOutputStream( );1;0;3
+RequestResponseBodyMethodProcessorTests.resolveArgumentRawTypeFromParameterizedType( );2;0;15
+ParentClass.setParentProperty( String parentProperty );1;0;3
+ValidatingBinderFactory.createBinder( NativeWebRequest request , @ Nullable Object target , String objectName );1;0;7
+Bar.Bar( );1;0;2
+JacksonViewBean.getWithView2( );1;0;3
+RequestResponseBodyMethodProcessorTests.getImage( );1;0;3
+RequestResponseBodyMethodProcessorTests.jacksonTypeInfoList( );2;0;13
+RequestResponseBodyMethodProcessorTests.resolveArgumentTypeVariableWithGenericInterface( );2;0;14
+RequestResponseBodyMethodProcessorTests.assertContentDisposition( RequestResponseBodyMethodProcessor processor , boolean expectContentDisposition , String requestURI , String comment );2;0;18
+JacksonViewBean.setWithView2( String withView2 );1;0;3
+RequestResponseBodyMethodProcessorTests.problemDetailWhenNoMatchingMediaTypeRequested( );1;0;4
+RequestResponseBodyMethodProcessorTests.resolveArgumentTypeVariable( );2;0;14
+RequestResponseBodyMethodProcessorTests.problemDetailWhenJsonRequested( );1;0;4
+JacksonController.handleResponseBody( );1;0;7
+RequestResponseBodyMethodProcessorTests.resolveHttpEntityArgumentWithJacksonJsonView( );2;0;20
+RequestResponseBodyMethodProcessorTests.handle( @ RequestBody List < SimpleBean > list , @ RequestBody SimpleBean simpleBean , @ RequestBody MultiValueMap < String , String > multiValueMap , @ RequestBody String string );1;0;3
+RequestResponseBodyMethodProcessorTests.handleReturnValueSortByQuality( );2;0;9
+RequestResponseBodyMethodProcessorTests.jacksonJsonViewWithResponseEntityAndXmlMessageConverter( );2;0;15
+EmptyRequestBodyAdvice.beforeBodyRead( HttpInputMessage inputMessage , MethodParameter parameter , Type targetType , Class < ? extends HttpMessageConverter < ? > > converterType );1;0;3
+JacksonViewBean.setWithoutView( String withoutView );1;0;3
+RequestResponseBodyMethodProcessorTests.addContentDispositionHeader( );1;0;22
+Foo.Foo( String parentProperty );1;0;3
+RequestResponseBodyMethodProcessorTests.handleReturnValueCharSequence( );2;1;11
+JacksonController.defaultCharset( );1;0;3
+RequestResponseBodyMethodProcessorTests.handleReturnValueStringAcceptCharset( );2;0;9
+EmptyRequestBodyAdvice.handleEmptyBody( @ Nullable Object body , HttpInputMessage inputMessage , MethodParameter parameter , Type targetType , Class < ? extends HttpMessageConverter < ? > > converterType );1;0;3
+RequestResponseBodyMethodProcessorTests.handle( @ RequestBody A arg );1;0;3
+JacksonViewBean.getWithView1( );1;0;3
+SimpleBean.setName( String name );1;0;3

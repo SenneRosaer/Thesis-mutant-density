@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultipartWriterSupport.generateMultipartBoundary( );1;0;3
+MultipartWriterSupport.generateLastLine( byte [ ] boundary , DataBufferFactory bufferFactory );1;1;13
+MultipartWriterSupport.generatePartHeaders( HttpHeaders headers , DataBufferFactory bufferFactory );3;0;22
+MultipartWriterSupport.getWritableMediaTypes( );1;0;3
+MultipartWriterSupport.getCharset( );1;0;3
+MultipartWriterSupport.generateBoundaryLine( byte [ ] boundary , DataBufferFactory bufferFactory );1;1;11
+MultipartWriterSupport.generateNewLine( DataBufferFactory bufferFactory );1;0;8
+MultipartWriterSupport.MultipartWriterSupport( List < MediaType > supportedMediaTypes );1;0;3
+MultipartWriterSupport.getMultipartMediaType( @ Nullable MediaType mediaType , byte [ ] boundary );5;5;15
+MultipartWriterSupport.setCharset( Charset charset );1;0;4

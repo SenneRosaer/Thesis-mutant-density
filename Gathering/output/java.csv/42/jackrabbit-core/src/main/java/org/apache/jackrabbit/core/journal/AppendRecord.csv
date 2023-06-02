@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AppendRecord.update( );2;0;22
+AppendRecord.readByte( );1;0;3
+AppendRecord.writeInt( int n );2;0;9
+AppendRecord.closeOutput( );4;2;16
+AppendRecord.setRevision( long revision );1;0;3
+AppendRecord.AppendRecord( AbstractJournal journal , String producerId );1;0;8
+AppendRecord.dispose( );4;2;16
+AppendRecord.writeLong( long n );2;0;9
+AppendRecord.writeBoolean( boolean b );2;0;9
+AppendRecord.getProducerId( );1;0;3
+AppendRecord.getJournalId( );1;0;3
+AppendRecord.checkOutput( );7;3;26
+AppendRecord.writeString( String s );3;1;14
+AppendRecord.readString( );1;0;3
+AppendRecord.readFully( byte [ ] b );1;0;3
+AppendRecord.readLong( );1;0;3
+AppendRecord.unsupported( );1;0;4
+AppendRecord.openInput( );3;1;12
+AppendRecord.getRevision( );1;0;3
+AppendRecord.writeChar( char c );2;0;9
+AppendRecord.cancelUpdate( );2;1;6
+AppendRecord.readChar( );1;0;3
+AppendRecord.writeByte( int n );2;0;9
+AppendRecord.write( byte [ ] b );2;0;9
+AppendRecord.readInt( );1;0;3
+AppendRecord.readBoolean( );1;0;3

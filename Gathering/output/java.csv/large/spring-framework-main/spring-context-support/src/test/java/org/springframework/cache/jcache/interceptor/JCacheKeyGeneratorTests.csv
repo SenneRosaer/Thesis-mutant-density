@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCacheKeyGeneratorTests.setup( );1;0;7
+TestKeyGenerator.generate( Object target , Method method , Object ... params );1;0;5
+JCacheKeyGeneratorTests.getSimple( );1;0;8
+SimpleService.get( long id );1;0;3
+SimpleService.getFiltered( @ CacheKey long id , String ... items );1;0;3
+TestKeyGenerator.expect( Object ... params );1;0;3
+JCacheKeyGeneratorTests.getFiltered( );1;0;8
+Config.keyGenerator( );1;0;3
+Config.cacheManager( );1;0;3
+Config.simpleService( );1;0;3
+JCacheKeyGeneratorTests.getFlattenVararg( );1;0;8
+SimpleService.get( long id , String ... items );1;0;3

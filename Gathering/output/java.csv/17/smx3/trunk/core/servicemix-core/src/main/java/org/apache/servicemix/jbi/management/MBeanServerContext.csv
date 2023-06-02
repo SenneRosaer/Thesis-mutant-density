@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MBeanServerContext.setConnectorPath( String connectorPath );1;0;3
+MBeanServerContext.createCustomComponentMBeanName( String type , String name );2;2;10
+MBeanServerContext.MBeanServerContext( MBeanServer server );1;0;3
+MBeanServerContext.getConnectorPort( );1;0;3
+MBeanServerContext.setConnectorPort( int connectorPort );1;0;3
+MBeanServerContext.isCreateConnector( );1;0;3
+MBeanServerContext.setUseMBeanServer( boolean useMBeanServer );1;0;3
+MBeanServerContext.setCreateConnector( boolean createConnector );1;0;3
+MBeanServerContext.start( );7;0;30
+MBeanServerContext.unregisterMBean( ObjectName name );3;2;5
+MBeanServerContext.setJmxDomainName( String jmxDomainName );1;0;3
+MBeanServerContext.getConnectorPath( );1;0;3
+MBeanServerContext.getSystemObjectName( String domainName , String containerName , Class theClass );1;2;4
+MBeanServerContext.sanitizeString( String in );2;1;9
+MBeanServerContext.setMBeanServer( MBeanServer mbs );1;0;3
+MBeanServerContext.setFindTigerMbeanServer( boolean findTigerMbeanServer );1;0;3
+MBeanServerContext.loadClass( String name , ClassLoader loader );3;0;11
+MBeanServerContext.stop( );13;8;34
+MBeanServerContext.createMBeanServer( );1;0;5
+MBeanServerContext.getRelativeName( String containerName , Class theClass );3;6;8
+MBeanServerContext.findTigerMBeanServer( );5;2;24
+MBeanServerContext.setCreateMBeanServer( boolean enableJMX );1;0;3
+MBeanServerContext.isFindTigerMbeanServer( );1;0;3
+MBeanServerContext.findMBeanServer( );10;6;24
+MBeanServerContext.getJmxDomainName( );1;0;3
+MBeanServerContext.isUseMBeanServer( );1;0;3
+MBeanServerContext.getMBeanServer( );2;1;6
+MBeanServerContext.MBeanServerContext( );1;0;3
+MBeanServerContext.isCreateMBeanServer( );1;0;3

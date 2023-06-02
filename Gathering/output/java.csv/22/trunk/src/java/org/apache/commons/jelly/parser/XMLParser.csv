@@ -1,0 +1,63 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLParser.setValidating( boolean validating );1;0;3
+XMLParser.createSAXException( Exception e );1;0;3
+XMLParser.XMLParser( );1;0;2
+XMLParser.createTag( String name , Attributes attributes );1;0;3
+XMLParser.getParser( );4;2;20
+XMLParser.setDocumentLocator( Locator locator );1;0;3
+XMLParser.setErrorHandler( ErrorHandler errorHandler );1;0;3
+XMLParser.endElement( String namespaceURI , String localName , String qName );5;4;26
+XMLParser.XMLParser( SAXParser parser );1;0;3
+XMLParser.createSAXException( String message , Exception e );5;4;28
+XMLParser.ignorableWhitespace( char buffer [ ] , int start , int len );1;0;3
+XMLParser.error( SAXParseException exception );2;1;15
+XMLParser.characters( char buffer [ ] , int start , int length );1;0;3
+XMLParser.startPrefixMapping( String prefix , String namespaceURI );3;2;12
+XMLParser.endDocument( );1;0;3
+XMLParser.parse( Reader reader );1;0;6
+XMLParser.configure( );3;1;12
+XMLParser.setLogger( Log log );1;0;3
+XMLParser.XMLParser( XMLReader reader );1;0;3
+XMLParser.createExpression( TagScript script , String attributeName , String value );2;1;7
+XMLParser.getErrorHandler( );1;0;3
+XMLParser.addExpressionScript( ScriptBlock script , Expression expression );5;1;24
+XMLParser.configureTagScript( TagLibrary tagLibrary , TagScript aTagScript );1;0;4
+XMLParser.getValidating( );1;0;3
+XMLParser.getLogger( );1;0;3
+XMLParser.getClassLoader( );1;0;3
+XMLParser.getJellyProperties( );6;2;27
+XMLParser.endPrefixMapping( String prefix );4;1;15
+XMLParser.warning( SAXParseException exception );2;1;13
+XMLParser.getScript( );1;0;3
+XMLParser.parse( InputStream input );1;0;6
+XMLParser.setUseContextClassLoader( boolean use );1;0;3
+XMLParser.getContext( );1;0;3
+XMLParser.getXMLReader( );3;2;12
+XMLParser.parse( File file );1;0;3
+XMLParser.fatalError( SAXParseException exception );2;1;15
+XMLParser.createConstantExpression( String tagName , String attributeName , String attributeValue );1;0;3
+XMLParser.notationDecl( String name , String publicId , String systemId );1;0;2
+XMLParser.setContext( JellyContext context );1;0;3
+XMLParser.setExpressionFactory( ExpressionFactory expressionFactory );1;0;3
+XMLParser.parse( String uri );1;0;6
+XMLParser.getExpressionFactory( TagScript tagScript );10;12;23
+XMLParser.createStaticTag( final String namespaceURI , final String localName , final String qName , Attributes list );4;3;34
+XMLParser.configureTagScript( TagScript aTagScript );2;1;7
+XMLParser.findNamespaceURI( String prefix );3;1;12
+XMLParser.parse( URL url );1;0;7
+XMLParser.unparsedEntityDecl( String name , String publicId , String systemId , String notation );1;0;2
+XMLParser.createTag( String namespaceURI , String localName , Attributes list );15;10;58
+XMLParser.skippedEntity( String name );1;0;3
+XMLParser.startElement( String namespaceURI , String localName , String qName , Attributes list );10;8;51
+XMLParser.createSAXException( String message );1;0;3
+XMLParser.createExpressionFactory( );1;0;3
+XMLParser.getUseContextClassLoader( );1;0;3
+XMLParser.getReader( );2;0;9
+XMLParser.setDefaultNamespaceURI( String namespace );1;0;3
+XMLParser.ensureConfigured( );2;1;6
+XMLParser.setClassLoader( ClassLoader classLoader );1;0;3
+XMLParser.startDocument( );1;0;7
+XMLParser.parse( InputSource input );1;0;6
+XMLParser.processingInstruction( String target , String data );1;0;3
+XMLParser.getCurrentURI( );2;1;4
+XMLParser.addTextScript( String text );1;0;4

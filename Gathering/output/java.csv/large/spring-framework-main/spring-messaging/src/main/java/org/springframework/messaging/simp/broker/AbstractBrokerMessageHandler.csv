@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractBrokerMessageHandler.stop( );2;0;13
+AbstractBrokerMessageHandler.setAutoStartup( boolean autoStartup );1;0;3
+AbstractBrokerMessageHandler.checkDestinationPrefix( @ Nullable String destination );5;2;14
+AbstractBrokerMessageHandler.getClientInboundChannel( );1;0;3
+AbstractBrokerMessageHandler.getBrokerChannel( );1;0;3
+AbstractBrokerMessageHandler.handleMessage( Message < ? > message );3;2;9
+AbstractBrokerMessageHandler.setApplicationEventPublisher( @ Nullable ApplicationEventPublisher publisher );1;0;3
+AbstractBrokerMessageHandler.stopInternal( );1;0;2
+AbstractBrokerMessageHandler.getClientOutboundChannel( );1;0;3
+AbstractBrokerMessageHandler.isAutoStartup( );1;0;3
+AbstractBrokerMessageHandler.getDestinationPrefixes( );1;0;3
+AbstractBrokerMessageHandler.AbstractBrokerMessageHandler( SubscribableChannel inboundChannel , MessageChannel outboundChannel , SubscribableChannel brokerChannel , @ Nullable Collection < String > destinationPrefixes );2;1;10
+AbstractBrokerMessageHandler.isRunning( );1;0;3
+AbstractBrokerMessageHandler.isUserDestination( String destination );2;2;3
+AbstractBrokerMessageHandler.setUserDestinationPredicate( @ Nullable Predicate < String > predicate );1;0;3
+AbstractBrokerMessageHandler.getClientOutboundChannelForSession( String sessionId );2;0;4
+AbstractBrokerMessageHandler.isBrokerAvailable( );1;0;3
+UnsentDisconnectChannelInterceptor.afterSendCompletion( Message < ? > message , MessageChannel channel , boolean sent , @ Nullable Exception ex );3;1;9
+AbstractBrokerMessageHandler.publishBrokerUnavailableEvent( );4;2;9
+AbstractBrokerMessageHandler.start( );2;0;13
+AbstractBrokerMessageHandler.AbstractBrokerMessageHandler( SubscribableChannel inboundChannel , MessageChannel outboundChannel , SubscribableChannel brokerChannel );1;0;3
+AbstractBrokerMessageHandler.isPreservePublishOrder( );1;0;3
+AbstractBrokerMessageHandler.getApplicationEventPublisher( );1;0;3
+AbstractBrokerMessageHandler.startInternal( );1;0;2
+AbstractBrokerMessageHandler.setPreservePublishOrder( boolean preservePublishOrder );1;0;4
+AbstractBrokerMessageHandler.stop( Runnable callback );1;0;6
+AbstractBrokerMessageHandler.publishBrokerAvailableEvent( );4;2;9

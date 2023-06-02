@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProceedTests.testProceedWithArgsInSameAspect( );1;2;5
+SimpleBeanImpl.getMyFloat( );1;0;3
+ProceedTests.tearDown( );1;0;3
+SimpleBeanImpl.getSex( );1;0;3
+ProceedTestingAspect.getOrder( );1;0;1
+ProceedTestingAspect.captureStringArgumentInAround( ProceedingJoinPoint pjp , String arg );2;1;9
+ProceedTestingAspect.getLastBeforeStringValue( );1;0;3
+ProceedTestingAspect.capitalize( ProceedingJoinPoint pjp , String value );1;0;3
+SimpleBeanImpl.setSex( String sex );1;0;3
+ProceedTestingAspect.addOne( ProceedingJoinPoint pjp , Float value );1;1;4
+ProceedTestingAspect.captureStringArgument( JoinPoint tjp , String arg );2;1;9
+ProceedTestingAspect.setOrder( int order );1;0;1
+SimpleBeanImpl.getAge( );1;0;3
+ProceedTestingAspect.getLastBeforeFloatValue( );1;0;3
+ProceedTestingAspect.doubleOrQuits( ProceedingJoinPoint pjp );1;1;5
+SimpleBeanImpl.setMyFloat( float f );1;0;3
+SimpleBeanImpl.setAge( int age );1;0;3
+ProceedTests.testSimpleProceedWithChangedArgs( );1;0;4
+SimpleBeanImpl.setName( String name );1;0;3
+SimpleBeanImpl.getName( );1;0;3
+ProceedTests.setup( );1;0;6
+ProceedTests.testProceedWithArgsAcrossAspects( );1;0;6
+ProceedTests.testGetArgsIsDefensive( );1;0;4
+ProceedTestingAspect.getLastAroundStringValue( );1;0;3
+ProceedTestingAspect.captureFloatArgument( JoinPoint tjp , float arg );2;2;10

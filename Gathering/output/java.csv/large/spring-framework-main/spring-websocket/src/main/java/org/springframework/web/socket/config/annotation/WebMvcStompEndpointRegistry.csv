@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebMvcStompEndpointRegistry.getUrlPathHelper( );1;0;3
+WebMvcStompEndpointRegistry.setOrder( int order );1;0;3
+WebMvcStompEndpointRegistry.setApplicationContext( ApplicationContext applicationContext );1;0;3
+WebMvcStompEndpointRegistry.getHandlerMapping( );4;1;18
+WebMvcStompEndpointRegistry.setUrlPathHelper( @ Nullable UrlPathHelper urlPathHelper );1;0;3
+WebMvcStompEndpointRegistry.getOrder( );1;0;3
+WebMvcStompEndpointRegistry.unwrapSubProtocolWebSocketHandler( WebSocketHandler handler );2;1;7
+WebMvcStompEndpointRegistry.setErrorHandler( StompSubProtocolErrorHandler errorHandler );1;0;4
+WebMvcStompEndpointRegistry.WebMvcStompEndpointRegistry( WebSocketHandler webSocketHandler , WebSocketTransportRegistration transportRegistration , TaskScheduler defaultSockJsTaskScheduler );5;4;20
+WebMvcStompEndpointRegistry.addEndpoint( String ... paths );1;0;7

@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SubCursor.nextIndex( );1;1;3
+SubCursor.hasNext( );1;1;3
+CursorableLinkedList.listIterator( int fromIndex );1;0;3
+SubCursor.hasPrevious( );1;1;3
+CursorableLinkedList.iterator( );1;0;3
+Cursor.Cursor( CursorableLinkedList parent , int index );1;0;4
+CursorableLinkedList.CursorableLinkedList( Collection coll );1;0;3
+SubCursor.add( Object obj );1;1;5
+CursorableLinkedList.listIterator( );1;0;3
+Cursor.nextIndex( );4;4;17
+CursorableLinkedList.cursor( );1;0;3
+Cursor.nodeChanged( Node node );1;0;2
+CursorableLinkedList.addNode( Node nodeToInsert , Node insertBeforeNode );1;0;4
+CursorableLinkedList.registerCursor( Cursor cursor );3;1;9
+Cursor.nodeInserted( Node node );3;2;9
+Cursor.close( );2;0;6
+CursorableLinkedList.broadcastNodeRemoved( Node node );3;1;12
+CursorableLinkedList.writeObject( ObjectOutputStream out );1;0;4
+CursorableLinkedList.unregisterCursor( Cursor cursor );4;2;13
+CursorableLinkedList.removeNode( Node node );1;0;4
+CursorableLinkedList.CursorableLinkedList( );1;0;4
+SubCursor.remove( );1;1;5
+CursorableLinkedList.cursor( int fromIndex );1;0;5
+CursorableLinkedList.broadcastNodeInserted( Node node );3;1;12
+CursorableLinkedList.createSubListListIterator( LinkedSubList subList , int fromIndex );1;0;5
+Cursor.nodeRemoved( Node node );5;6;17
+CursorableLinkedList.readObject( ObjectInputStream in );1;0;4
+Cursor.remove( );3;2;8
+SubCursor.SubCursor( LinkedSubList sub , int index );1;1;4
+Cursor.add( Object obj );1;0;4
+CursorableLinkedList.init( );1;0;4
+CursorableLinkedList.broadcastNodeChanged( Node node );3;1;12
+Cursor.checkModCount( );2;1;5
+CursorableLinkedList.removeAllNodes( );3;1;9
+CursorableLinkedList.updateNode( Node node , Object value );1;0;4

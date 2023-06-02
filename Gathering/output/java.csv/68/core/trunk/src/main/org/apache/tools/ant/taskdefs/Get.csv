@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VerboseProgress.beginDownload( );1;0;3
+GetThread.GetThread( boolean h , long t , DownloadProgress p , int l );1;0;6
+GetThread.get( );22;21;86
+Get.doGet( int logLevel , DownloadProgress progress );9;4;42
+***not in a method***;0;1;0
+Get.setPassword( String p );1;0;3
+Get.setVerbose( boolean v );1;0;3
+NullProgress.endDownload( );1;0;2
+Get.setUsername( String u );1;0;3
+VerboseProgress.endDownload( );1;0;4
+NullProgress.onTick( );1;0;2
+Get.setUseTimestamp( boolean v );1;0;3
+GetThread.run( );3;0;9
+GetThread.closeStreams( );3;2;8
+Get.checkAttributes( );7;5;16
+NullProgress.beginDownload( );1;0;2
+Get.setSrc( URL u );1;0;3
+GetThread.wasSuccessful( );3;2;9
+VerboseProgress.onTick( );2;2;7
+Get.setIgnoreErrors( boolean v );1;0;3
+VerboseProgress.VerboseProgress( PrintStream out );1;0;3
+Get.setMaxTime( long maxTime );1;0;3
+Get.execute( );4;1;15
+Get.setDest( File dest );1;0;3

@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceImpl.getRepository( );1;0;3
+ResourceImpl.getCapabilities( );1;0;4
+ResourceImpl.addCategory( String category );1;0;3
+ResourceImpl.getPresentationName( );1;0;3
+***not in a method***;0;1;0
+ResourceImpl.equals( Object o );3;1;10
+ResourceImpl.ResourceImpl( RepositoryImpl repository , String name , VersionRange version );2;1;7
+ResourceImpl.getCopyright( );1;0;3
+ResourceImpl.setDescription( String description );2;1;4
+ResourceImpl.toString( );1;1;3
+ResourceImpl.getSymbolicName( );1;0;3
+ResourceImpl.getDocumentation( );1;0;3
+ResourceImpl.setVersion( VersionRange version );2;1;6
+ResourceImpl.hashCode( );1;1;3
+ResourceImpl.toXML( Resource resource );1;0;3
+ResourceImpl.setName( String value );1;0;3
+ResourceImpl.toXML( Resource resource , boolean relative );13;14;43
+ResourceImpl.getSource( );1;0;3
+ResourceImpl.setURL( URL url );2;1;5
+ResourceImpl.addCapability( CapabilityImpl capability );2;1;4
+ResourceImpl.toXML( );1;0;3
+ResourceImpl.getCapabilityList( );1;0;3
+ResourceImpl.setSize( long size );1;0;4
+ResourceImpl.getURL( );1;0;3
+ResourceImpl.setDocumentation( URL documentation );2;1;4
+ResourceImpl.getVersion( );2;1;5
+ResourceImpl.ResourceImpl( RepositoryImpl repository , XmlPullParser parser );9;5;34
+ResourceImpl.getRequirements( );1;0;4
+ResourceImpl.makeRelative( URL repository , URL url );5;3;16
+ResourceImpl.setCopyright( String copyright );2;1;4
+ResourceImpl.ResourceImpl( RepositoryImpl impl );1;0;3
+ResourceImpl.setPresentationName( String name );2;1;5
+ResourceImpl.addRequirement( RequirementImpl requirement );2;1;4
+ResourceImpl.getExtendList( );3;0;9
+ResourceImpl.getCategories( );1;0;3
+ResourceImpl.setFile( File zipFile );1;0;3
+ResourceImpl.toURL( String attributeValue );2;1;5
+ResourceImpl.getProperties( );1;0;3
+ResourceImpl.put( String name , Object value );1;0;3
+ResourceImpl.getSize( );1;0;3
+ResourceImpl.getRequirementList( );1;0;3
+ResourceImpl.setSource( URL source );2;1;4
+ResourceImpl.getId( );2;2;5
+ResourceImpl.getLicense( );1;0;3
+ResourceImpl.getDescription( );1;0;3
+ResourceImpl.satisfies( RequirementImpl requirement );3;0;8
+ResourceImpl.setLicense( URL license );2;1;4

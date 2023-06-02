@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SharedFieldSortComparator.SharedFieldSortComparator( String fieldname );1;0;3
+SharedFieldSortComparator.readerIndex( int n );6;14;19
+SharedFieldSortComparator.SharedFieldSortComparator( String fieldname , boolean createComparatorValues );1;0;4
+SharedFieldSortComparator.newComparator( final IndexReader reader , final String propertyName );11;4;63
+SharedFieldSortComparator.getIndexReaders( List readers , IndexReader reader );3;2;10
+SharedFieldSortComparator.compare( final ScoreDoc i , final ScoreDoc j );4;6;15
+SharedFieldSortComparator.getComparable( String termtext );1;0;3
+SharedFieldSortComparator.sortValue( final ScoreDoc i );2;0;8
+SharedFieldSortComparator.sortType( );1;0;3

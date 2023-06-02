@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnonymousConnection.setTransactionTimeout( int timeout );1;0;4
+AnonymousConnection.getXAResource( );1;0;3
+AnonymousConnection.recover( int flags );1;0;3
+AnonymousConnection.forget( Xid xid );1;0;3
+AnonymousConnection.commit( Xid xid , boolean arg1 );1;0;3
+AnonymousConnection.destroy( );1;0;2
+AnonymousConnection.getConnection( Subject subject , ConnectionRequestInfo cri );1;0;4
+AnonymousConnection.start( Xid xid , int flags );1;0;3
+AnonymousConnection.setLogWriter( PrintWriter logWriter );1;0;3
+AnonymousConnection.getLogWriter( );1;0;3
+AnonymousConnection.addConnectionEventListener( ConnectionEventListener listener );1;0;2
+AnonymousConnection.isSameRM( XAResource xares );1;0;3
+AnonymousConnection.getMetaData( );1;0;4
+AnonymousConnection.getLocalTransaction( );1;0;4
+AnonymousConnection.end( Xid xid , int flags );1;0;3
+AnonymousConnection.removeConnectionEventListener( ConnectionEventListener listener );1;0;2
+AnonymousConnection.getTransactionTimeout( );2;1;3
+AnonymousConnection.associateConnection( Object o );1;0;4
+AnonymousConnection.prepare( Xid xid );1;0;3
+AnonymousConnection.cleanup( );1;0;2
+AnonymousConnection.rollback( Xid xid );1;0;3

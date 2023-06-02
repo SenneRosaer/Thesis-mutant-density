@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultInvocationFactory.createInvocation( Object target , MockCreationSettings settings , Method method , RealMethodBehavior realMethod , Object ... args );1;0;4
+DefaultInvocationFactory.createInvocation( Object target , MockCreationSettings settings , Method method , final Callable realMethod , Object ... args );1;0;4
+DefaultInvocationFactory.createInvocation( Object mock , Method invokedMethod , Object [ ] arguments , RealMethod realMethod , MockCreationSettings settings );1;0;4
+DefaultInvocationFactory.createInvocation( Object mock , Method invokedMethod , Object [ ] arguments , RealMethod realMethod , MockCreationSettings settings , Location location );1;0;9
+DefaultInvocationFactory.createInvocation( Object target , MockCreationSettings settings , Method method , RealMethod superMethod , Object [ ] args );1;0;3
+DefaultInvocationFactory.createMockitoMethod( Method method , MockCreationSettings settings );2;0;7

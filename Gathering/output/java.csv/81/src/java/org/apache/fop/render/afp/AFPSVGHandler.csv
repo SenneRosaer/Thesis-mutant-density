@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AFPSVGHandler.handleXML( RendererContext context , Document doc , String ns );2;0;5
+AFPSVGHandler.paintAsBitmap( );1;0;3
+AFPSVGHandler.createGrapics2DImagePainter( BridgeContext ctx , GraphicsNode root , Dimension imageSize );2;0;9
+AFPSVGHandler.createGraphicsObjectInfo( AFPPaintingState paintingState , Graphics2DImagePainter painter , FOUserAgent userAgent , AFPResourceInfo resourceInfo , AFPGraphics2D g2d );1;0;10
+AFPSVGHandler.renderSVGDocument( final RendererContext rendererContext , final Document doc );3;0;44
+AFPSVGHandler.createObjectAreaInfo( AFPPaintingState paintingState , int x , int y , int width , int height , int resolution );1;0;15
+AFPSVGHandler.updateRendererContext( RendererContext context );1;0;3
+AFPSVGHandler.createBridgeContext( FOUserAgent userAgent , AFPGraphics2D g2d );1;0;9
+AFPSVGHandler.supportsRenderer( Renderer renderer );1;0;3

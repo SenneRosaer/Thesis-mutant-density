@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SessionImporter.loggingOut( Session session );1;0;3
+SessionImporter.SessionImporter( Path parentPath , SessionImpl session , SessionItemStateManager stateManager , int uuidBehavior );2;2;15
+SessionImporter.endNode( NodeInfo nodeInfo );2;0;6
+SessionImporter.isClosed( );1;0;3
+SessionImporter.buildQValue( TextValue tv , int targetType , NamePathResolver resolver );4;1;35
+SessionImporter.checkIncludesMixReferenceable( Importer . NodeInfo nodeInfo );5;4;16
+SessionImporter.importNode( NodeInfo nodeInfo , NodeState parent );10;6;45
+SessionImporter.setClosed( boolean isClosed );2;0;8
+SessionImporter.resolveUUIDConflict( NodeState parent , NodeEntry conflicting , NodeInfo nodeInfo );10;2;49
+SessionImporter.importProperty( PropInfo pi , NodeState parentState , NamePathResolver resolver );15;13;59
+SessionImporter.loggedOut( Session session );1;0;2
+SessionImporter.startNode( NodeInfo nodeInfo , List propInfos , NamePathResolver resolver );15;7;60
+SessionImporter.start( );1;0;3
+SessionImporter.checkSession( );2;0;5
+SessionImporter.end( );2;0;11
+SessionImporter.getPropertyValues( PropInfo propertyInfo , int targetType , boolean isMultiple , NamePathResolver resolver );5;7;11

@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LexicalAutomatonEntry.readObject( java . io . ObjectInputStream in );1;0;4
+LexicalAutomatonEntry.getValidity( );1;0;3
+PatternTransformer.dispose( );3;3;8
+PatternTransformer.endElement( String uri , String loc , String raw );2;1;5
+LexicalAutomatonEntry.writeObject( java . io . ObjectOutputStream out );1;0;4
+PatternTransformer.processingInstruction( String target , String data );2;1;5
+PatternTransformer.characters( char [ ] c , int start , int len );1;0;3
+PatternTransformer.getKey( );1;0;3
+PatternTransformer.search( );18;23;69
+PatternTransformer.parameterize( Parameters parameters );1;0;3
+PatternTransformer.ignorableWhitespace( char [ ] c , int start , int len );1;0;3
+PatternTransformer.setup( SourceResolver resolver , Map objectmodel , String src , Parameters parameters );8;7;45
+PatternTransformer.recycle( );3;3;9
+PatternTransformer.startElement( String uri , String loc , String raw , Attributes a );2;1;5
+PatternTransformer.service( ServiceManager manager );1;0;3
+PatternTransformer.getValidity( );1;0;3
+PatternTransformer.comment( char [ ] ch , int start , int len );2;1;5
+LexicalAutomatonEntry.LexicalAutomatonEntry( LexicalAutomaton automaton , SourceValidity validity );1;0;4
+LexicalAutomatonEntry.getLexicalAutomaton( );1;0;3

@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChannelFactory.createChannel( CommChannel backend , Class type );1;0;6
+ChannelFactory.getBackend( Channel channel );1;0;4
+ChannelInvocationHandler.ChannelInvocationHandler( CommChannel backend );1;0;3
+ChannelInvocationHandler.invoke( Object proxy , Method method , Object [ ] args );4;1;12
+ChannelInvocationHandler.equals( Object other );1;0;3
+ChannelInvocationHandler.toString( );1;0;3
+ChannelInvocationHandler.hashCode( );1;0;3

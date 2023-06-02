@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EmbeddedStore.unregisterListener( ProcessStoreListener psl );1;0;3
+EmbeddedProcessConf.getBpelDocument( );1;0;3
+EmbeddedProcessConf.getBaseURI( );1;0;3
+EmbeddedProcessConf.getInvokeEndpoints( );1;0;3
+EmbeddedProcessConf.getProcessProperties( );1;0;3
+EmbeddedProcessConf.getType( );1;0;3
+EmbeddedProcessConf.isTransient( );1;0;3
+EmbeddedProcessConf.isEventEnabled( List < String > strings , BpelEvent . TYPE type );1;0;3
+EmbeddedProcessConf.getVersion( );1;0;3
+EmbeddedProcessConf.getFiles( );1;0;3
+EmbeddedProcessConf.getProcessModel( );1;0;3
+EmbeddedStore.deploy( File bpelFile );1;0;3
+EmbeddedProcessConf.getPackage( );1;0;3
+EmbeddedStore.deploy( String processStr , Descriptor desc );1;0;9
+EmbeddedStore.setProperty( QName pid , QName propName , String value );1;0;3
+EmbeddedProcessConf.getExtensionElement( QName qName );1;0;3
+EmbeddedStore.fireEvent( ProcessStoreEvent pse );2;0;3
+EmbeddedProcessConf.getEndpointProperties( EndpointReference endpointReference );1;0;3
+EmbeddedStore.getCurrentVersion( );1;0;3
+EmbeddedStore.getProcessConfiguration( QName processId );1;0;3
+EmbeddedStore.setState( QName pid , ProcessState state );1;0;3
+EmbeddedStore.getProcesses( );1;0;3
+EmbeddedProcessConf.getProcessId( );1;1;4
+EmbeddedProcessConf.defaultEndpoints( boolean myrole );6;4;9
+EmbeddedProcessConf.getState( );1;0;3
+EmbeddedStore.setRetiredPackage( String packageName , boolean retired );1;0;3
+EmbeddedProcessConf.getCBPInputStream( );2;0;10
+EmbeddedStore.setProperty( QName pid , QName propName , Node value );1;0;3
+EmbeddedStore.getPackages( );1;0;3
+EmbeddedProcessConf.EmbeddedProcessConf( OProcess _oprocess );1;0;3
+EmbeddedProcessConf.getRuntimeVersion( );1;0;3
+EmbeddedProcessConf.getDeployDate( );1;0;3
+EmbeddedProcessConf.getDefinitionForService( QName qName );1;0;3
+EmbeddedProcessConf.isSharedService( QName qName );1;0;3
+EmbeddedStore.registerListener( ProcessStoreListener psl );1;0;3
+EmbeddedProcessConf.isRestful( );1;1;3
+EmbeddedStore.undeploy( File file );1;0;3
+EmbeddedProcessConf.getProvideEndpoints( );1;0;3
+EmbeddedStore.listProcesses( String packageName );1;0;3

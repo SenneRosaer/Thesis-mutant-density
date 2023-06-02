@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestSupport.assertMessageBody( MessageList messageList , int index , String expectedXml );1;0;8
+TestSupport.assertSendAndReceiveMessages( QName service );1;0;4
+TestSupport.sendServiceWithFileRequest( QName serviceName , String fileOnClassPath );1;0;5
+TestSupport.createMessageXmlText( int index );1;0;3
+TestSupport.requestServiceWithFileRequest( QName serviceName , String fileOnClassPath );2;0;9
+TestSupport.assertMessagesReceived( String receiverName , int messageCount );1;0;7
+TestSupport.sendMessages( QName service , int messageCount , String message );1;0;3
+TestSupport.setUp( );1;0;6
+TestSupport.sendMessages( QName service , int messageCount );1;0;3
+TestSupport.assertMessageXPath( MessageList messageList , int index , String xpath , String expectedValue );2;0;13
+TestSupport.sendMessages( QName service , int messageCount , boolean sync , String msg );6;6;26
+TestSupport.assertMessagesReceived( );1;0;3
+TestSupport.assertMessagesReceived( int messageCount );1;0;5
+TestSupport.assertMessageHeader( MessageList messageList , int index , String propertyName , Object expectedValue );1;0;6

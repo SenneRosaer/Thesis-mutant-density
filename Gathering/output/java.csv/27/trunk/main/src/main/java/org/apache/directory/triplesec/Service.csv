@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Service.setEnableShutdownHook( boolean enableShutdownHook );1;0;3
+Service.start( );3;2;16
+***not in a method***;0;1;0
+Service.stop( String [ ] args );5;2;27
+Service.accept( File dir );1;0;1
+Service.setNtpPortOverride( int ntpPortOverride );1;0;3
+SynchWorker.run( );4;1;24
+Service.addDemoProfiles( ServerProfileStore store , String realm );3;4;25
+Service.setupHttpService( int port );5;3;42
+Service.synch( );1;0;4
+Service.setChangepwPortOverride( int changepwPortOverride );1;0;3
+Service.isEnableHttpService( );1;0;3
+Service.setLdapsPortOverride( int ldapsPortOverride );1;0;3
+Service.setKrb5PortOverride( int krb5PortOverride );1;0;3
+Service.configure( TriplesecInstallationLayout layout );6;2;33
+Service.printBanner( );1;0;3
+Service.destroy( );1;0;3
+Service.setHttpPortOverride( int httpPortOverride );1;0;3
+Service.setLdapPortOverride( int ldapPortOverride );1;0;3
+Service.init( InstallationLayout installationLayout , String [ ] args );18;16;119
+Service.setEnableHttpService( boolean enableHttpService );1;0;3
+Service.isEnableShutdownHook( );1;0;3

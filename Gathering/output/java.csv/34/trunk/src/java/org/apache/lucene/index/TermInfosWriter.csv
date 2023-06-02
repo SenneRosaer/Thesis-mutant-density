@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TermInfosWriter.writeTerm( int fieldNumber , byte [ ] termBytes , int termBytesLength );5;7;21
+TermInfosWriter.compareToLastTerm( int fieldNumber , byte [ ] termBytes , int termBytesLength );7;11;21
+TermInfosWriter.add( int fieldNumber , byte [ ] termBytes , int termBytesLength , TermInfo ti );8;17;25
+TermInfosWriter.initialize( Directory directory , String segment , FieldInfos fis , int interval , boolean isi );2;1;12
+TermInfosWriter.add( Term term , TermInfo ti );1;0;4
+***not in a method***;0;3;0
+TermInfosWriter.initUTF16Results( );1;0;5
+TermInfosWriter.close( );2;1;7
+TermInfosWriter.TermInfosWriter( Directory directory , String segment , FieldInfos fis , int interval );1;0;5
+TermInfosWriter.TermInfosWriter( Directory directory , String segment , FieldInfos fis , int interval , boolean isIndex );1;0;3

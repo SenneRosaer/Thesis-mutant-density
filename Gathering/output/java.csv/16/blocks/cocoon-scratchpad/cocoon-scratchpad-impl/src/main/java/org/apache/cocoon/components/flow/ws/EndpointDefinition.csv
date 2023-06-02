@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EndpointDefinition.getServiceNamed( String serviceName );1;0;3
+EndpointDefinition.getNamespaceURI( );1;0;3
+EndpointDefinition.loadWSDLDefinition( String wsdlURL );1;0;8
+EndpointDefinition.getDefaultService( );3;1;15
+EndpointDefinition.getDefaultPort( Service service );3;0;13
+EndpointDefinition.initialize( String serviceName , String portName );4;3;14
+EndpointDefinition.hasSoapBinding( Port port );3;0;10
+EndpointDefinition.getPortNamed( String portName );4;0;16
+EndpointDefinition.getServiceName( );1;0;3
+EndpointDefinition.EndpointDefinition( String wsdlURL , String serviceName , String portName );1;0;5
+EndpointDefinition.getPortName( );1;0;3

@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PSImageUtils.writeImage( final byte [ ] img , Dimension imgDim , String imgDescription , Rectangle2D targetRect , final boolean isJPEG , ColorSpace colorSpace , PSGenerator gen );2;0;15
+PSImageUtils.writeImageCommand( PSDictionary imageDict , Dimension imgDim , ColorSpace colorSpace , boolean invertImage , PSGenerator gen );1;0;11
+PSImageUtils.paintReusableImage( String formName , Rectangle2D targetRect , PSGenerator gen );1;0;4
+PSImageUtils.compressAndWriteBitmap( ImageEncoder encoder , PSGenerator gen );4;2;20
+PSImageUtils.prepareColorspace( PSGenerator gen , ColorSpace colorSpace );1;0;3
+PSImageUtils.writeImageCommand( RenderedImage img , PSDictionary imageDict , PSGenerator gen );1;0;6
+PSImageUtils.populateImageDictionary( ImageEncodingHelper helper , PSDictionary imageDict );3;2;26
+PSImageUtils.renderBitmapImage( RenderedImage img , float x , float y , float w , float h , PSGenerator gen );1;0;4
+PSImageUtils.renderEPS( InputStream in , String name , Rectangle2D viewport , Rectangle2D bbox , PSGenerator gen );5;16;31
+PSImageUtils.getRGB( RenderedImage img , int startX , int startY , int w , int h , int [ ] rgbArray , int offset , int scansize );9;11;39
+PSImageUtils.writeReusableImage( ImageEncoder encoder , Dimension imgDim , String formName , String imageDescription , ColorSpace colorSpace , boolean invertImage , PSGenerator gen );8;7;61
+PSImageUtils.writeImageCommand( PSDictionary imageDict , ColorModel cm , PSGenerator gen );1;0;5
+PSImageUtils.paintForm( PSResource form , Dimension2D formDimensions , Rectangle2D targetRect , PSGenerator gen );1;0;7
+PSImageUtils.writeTo( OutputStream out );1;0;3
+PSImageUtils.getImplicitFilter( );2;0;7
+PSImageUtils.getDecodeArray( int numComponents , boolean invertColors );4;3;17
+PSImageUtils.writeReusableImage( final byte [ ] img , Dimension imgDim , String formName , String imageDescription , final boolean isJPEG , ColorSpace colorSpace , PSGenerator gen );2;0;16
+PSImageUtils.renderEPS( byte [ ] rawEPS , String name , float x , float y , float w , float h , float bboxx , float bboxy , float bboxw , float bboxh , PSGenerator gen );1;0;6
+PSImageUtils.paintForm( PSResource form , Rectangle2D targetRect , PSGenerator gen );1;0;3
+PSImageUtils.prepareColorSpace( PSGenerator gen , ColorModel cm );6;7;31
+PSImageUtils.writeImage( ImageEncoder encoder , Dimension imgDim , String imgDescription , Rectangle2D targetRect , ColorSpace colorSpace , int bitsPerComponent , boolean invertImage , PSGenerator gen );3;2;30
+PSImageUtils.translateAndScale( PSGenerator gen , Dimension2D formDimensions , Rectangle2D targetRect );4;8;13
+PSImageUtils.getColorSpaceName( ColorSpace colorSpace );3;2;9
+PSImageUtils.writeImage( RenderedImage img , Rectangle2D targetRect , PSGenerator gen );3;2;31
+PSImageUtils.rgb2Hex( int rgb );2;7;9

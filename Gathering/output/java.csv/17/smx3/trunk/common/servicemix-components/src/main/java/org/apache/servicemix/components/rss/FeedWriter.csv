@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FeedWriter.setEntryValue( Expression entryValue );1;0;3
+FeedWriter.getEntryValue( );1;0;3
+FeedWriter.getLink( );1;0;3
+FeedWriter.createEntryContent( MessageExchange exchange , NormalizedMessage message );4;4;14
+FeedWriter.getMaximumEntryCount( );1;0;3
+FeedWriter.init( );3;1;7
+FeedWriter.getCachedFeed( );2;1;6
+FeedWriter.setContentType( String contentType );1;0;3
+FeedWriter.setSourceTransformer( SourceTransformer sourceTransformer );1;0;3
+FeedWriter.writeFeed( SyndFeed feed , MessageExchange messageExchange , NormalizedMessage message );1;0;6
+FeedWriter.setLoadOnStartup( boolean loadOnStartup );1;0;3
+FeedWriter.getEntryTitle( );1;0;3
+FeedWriter.setFeedType( String feedType );1;0;3
+FeedWriter.setCachedFeed( SyndFeed feed );1;0;3
+FeedWriter.setEntryTitle( Expression title );1;0;3
+FeedWriter.createEntry( MessageExchange exchange , NormalizedMessage message );1;0;7
+FeedWriter.setLink( String link );1;0;3
+FeedWriter.setFeedFile( File feedFile );1;0;3
+FeedWriter.isLoadOnStartup( );1;0;3
+FeedWriter.setFeedDescription( String feedDescription );1;0;3
+FeedWriter.getSourceTransformer( );1;0;3
+FeedWriter.createFeed( );1;0;8
+FeedWriter.addMessageToFeed( SyndFeed feed , MessageExchange exchange , NormalizedMessage message );1;0;10
+FeedWriter.removeExpiredEntries( SyndFeed feed );3;2;9
+FeedWriter.getTitle( );2;1;6
+FeedWriter.process( MessageExchange exchange , NormalizedMessage message );1;0;9
+FeedWriter.getFeedFile( );2;1;6
+FeedWriter.loadOrCreateFeed( );4;1;11
+FeedWriter.getFeedDescription( );1;0;3
+FeedWriter.encodeContent( String value );1;0;3
+FeedWriter.getContentType( );1;0;3
+FeedWriter.getFeedType( );1;0;3
+FeedWriter.setTitle( String title );1;0;3
+FeedWriter.setMaximumEntryCount( int maximumEntryCount );1;0;3

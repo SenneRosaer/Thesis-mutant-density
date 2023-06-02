@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletScope.getConversationId( );1;0;3
+ServletScope.get( String name , ObjectFactory objectFactory );2;1;8
+ServletScope.executeDestructionCallbacks( ServletContext servletContext );2;0;7
+ServletScope.setServletContext( ServletContext servletContext );1;0;3
+ServletScope.remove( String name );2;1;7
+ServletScope.getDestructionCallbacks( ServletContext servletContext );2;1;8
+ServletScope.registerDestructionCallback( String name , Runnable callback );1;0;4

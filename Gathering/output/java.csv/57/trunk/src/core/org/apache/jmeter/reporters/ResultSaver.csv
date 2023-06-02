@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResultSaver.sampleStarted( SampleEvent e );1;0;2
+ResultSaver.saveSample( SampleResult s , int num );8;2;35
+ResultSaver.ResultSaver( String name );1;0;4
+ResultSaver.processSample( SampleResult s , Counter c );2;3;7
+ResultSaver.getErrorsOnly( );1;0;3
+ResultSaver.makeFileName( String contentType , boolean skipAutoNumber );5;10;20
+ResultSaver.sampleOccurred( SampleEvent e );1;0;3
+ResultSaver.ResultSaver( );1;0;3
+ResultSaver.getSkipAutoNumber( );1;0;3
+ResultSaver.clear( );1;0;6
+ResultSaver.getSuccessOnly( );1;0;3
+ResultSaver.getFilename( );1;0;3
+ResultSaver.getVariableName( );1;0;3
+ResultSaver.nextNumber( );1;1;3
+ResultSaver.sampleStopped( SampleEvent e );1;0;2

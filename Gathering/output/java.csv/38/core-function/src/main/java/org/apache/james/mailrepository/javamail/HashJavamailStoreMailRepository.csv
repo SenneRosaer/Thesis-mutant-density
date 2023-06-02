@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HashJavamailStoreMailRepository.generateKey( String hash );1;0;5
+KeyToMsgMap.getStat( );1;0;5
+KeyToMsgMap.KeyToMsgMap( );1;0;5
+HashJavamailStoreMailRepository.getMessageCount( );4;4;18
+KeyToMsgMap.getMsgObj( String key );1;0;3
+KeyToMsgMap.getByKey( String key );1;0;3
+***not in a method***;0;1;0
+KeyToMsgMap.removeByKey( String key , boolean decrement );4;4;18
+KeyToMsgMap.getKeys( );1;0;3
+HashJavamailStoreMailRepository.createAdapter( Folder folder );1;0;3
+HashJavamailStoreMailRepository.getMessageFromInbox( String key );9;7;43
+HashJavamailStoreMailRepository.getKeyToMsgMap( );2;1;6
+HashJavamailStoreMailRepository.remove( String key );4;1;21
+HashJavamailStoreMailRepository.rehash( String filterkey );6;3;23
+HashJavamailStoreMailRepository.calcMessageHash( MimeMessage mm );2;0;10
+HasherOutputStream.write( int b );1;2;3
+HashJavamailStoreMailRepository.store( Mail mc );9;9;58
+HashJavamailStoreMailRepository.retrieve( String key );3;1;20
+KeyToMsgMap.retainAllListedAndAddedByKeys( String [ ] keysBefore , String [ ] listed );4;0;15
+HasherOutputStream.getHash( );1;0;3
+HashJavamailStoreMailRepository.list( );2;0;14
+KeyToMsgMap.contains( String key );1;0;3
+KeyToMsgMap.put( final MimeMessage mm , String key , final int no );9;8;35

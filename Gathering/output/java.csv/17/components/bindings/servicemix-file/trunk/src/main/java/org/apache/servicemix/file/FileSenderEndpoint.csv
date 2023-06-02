@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileSenderEndpoint.getTempFilePrefix( );1;0;3
+FileSenderEndpoint.setDirectory( File directory );1;0;3
+FileSenderEndpoint.getMarshaler( );1;0;3
+FileSenderEndpoint.setTempFileSuffix( String tempFileSuffix );1;0;3
+FileSenderEndpoint.processInOut( MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );1;0;3
+FileSenderEndpoint.isAppend( );1;0;3
+FileSenderEndpoint.setTempFilePrefix( String tempFilePrefix );1;0;3
+FileSenderEndpoint.processInOnly( MessageExchange exchange , NormalizedMessage in );9;6;36
+FileSenderEndpoint.FileSenderEndpoint( );1;0;3
+FileSenderEndpoint.setAppend( boolean append );1;0;3
+FileSenderEndpoint.setMarshaler( FileMarshaler marshaler );1;0;3
+FileSenderEndpoint.validate( );4;2;12
+FileSenderEndpoint.setAutoCreateDirectory( boolean autoCreateDirectory );1;0;3
+FileSenderEndpoint.FileSenderEndpoint( FileComponent component , ServiceEndpoint endpoint );1;0;4
+FileSenderEndpoint.getDirectory( );1;0;3
+FileSenderEndpoint.getTempFileSuffix( );1;0;3
+FileSenderEndpoint.isAutoCreateDirectory( );1;0;3

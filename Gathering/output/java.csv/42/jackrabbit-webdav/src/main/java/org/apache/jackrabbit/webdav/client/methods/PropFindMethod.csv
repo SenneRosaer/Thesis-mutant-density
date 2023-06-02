@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropFindMethod.PropFindMethod( String uri , DavPropertyNameSet propNameSet , int depth );1;0;3
+PropFindMethod.getName( );1;0;3
+PropFindMethod.PropFindMethod( String uri );1;0;3
+PropFindMethod.isSuccess( int statusCode );1;1;3
+PropFindMethod.PropFindMethod( String uri , int propfindType , int depth );1;0;3
+PropFindMethod.PropFindMethod( String uri , int propfindType , DavPropertyNameSet propNameSet , int depth );10;5;44

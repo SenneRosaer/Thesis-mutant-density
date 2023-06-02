@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractTripletStructuredObject.addTriplet( AbstractTriplet triplet );1;0;3
+AbstractTripletStructuredObject.getTriplet( byte tripletId );3;1;10
+AbstractTripletStructuredObject.setFullyQualifiedName( byte fqnType , byte fqnFormat , String fqName );1;0;3
+AbstractTripletStructuredObject.hasTriplets( );1;1;3
+AbstractTripletStructuredObject.setObjectClassification( byte objectClass , ObjectType objectType , boolean dataInContainer , boolean containerHasOEG , boolean dataInOCD );1;0;5
+AbstractTripletStructuredObject.hasTriplet( byte tripletId );1;1;3
+AbstractTripletStructuredObject.writeTriplets( OutputStream os );2;0;6
+AbstractTripletStructuredObject.setComment( String commentString );1;0;3
+AbstractTripletStructuredObject.getFullyQualifiedName( );2;1;9
+AbstractTripletStructuredObject.addTriplets( Collection tripletCollection );2;1;5
+AbstractTripletStructuredObject.getTriplets( );1;0;3
+AbstractTripletStructuredObject.getTripletDataLength( );3;1;11

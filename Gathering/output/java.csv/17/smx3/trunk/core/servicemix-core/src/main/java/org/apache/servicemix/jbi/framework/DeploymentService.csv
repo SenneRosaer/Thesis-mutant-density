@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DeploymentService.isSaDeployed( String serviceAssemblyName );1;1;3
+DeploymentService.checkSus( File saDirectory , ServiceUnit [ ] sus );7;6;28
+DeploymentService.deployServiceAssembly( File tmpDir , ServiceAssembly sa );14;9;83
+DeploymentService.getServiceMBean( );1;0;3
+DeploymentService.stop( String serviceAssemblyName );2;0;9
+DeploymentService.getDeployedServiceUnitList( String componentName );3;2;13
+DeploymentService.getComponentTaskResult( String resultMsg , String component , List < Element > results , boolean success );6;2;33
+DeploymentService.getAttributeInfos( );1;0;5
+DeploymentService.isDeployedServiceUnit( String componentName , String suName );2;0;8
+DeploymentService.start( String serviceAssemblyName );2;0;9
+DeploymentService.buildState( );11;12;28
+DeploymentService.getOperationInfos( );1;0;33
+DeploymentService.parse( String result );1;0;8
+DeploymentService.getState( String serviceAssemblyName );2;0;9
+DeploymentService.getDescription( );1;0;3
+DeploymentService.undeploy( String saName );8;6;33
+DeploymentService.undeployServiceUnit( ServiceUnitLifeCycle su );3;2;23
+DeploymentService.getDeployedServiceAssembliesForComponent( String componentName );2;0;8
+DeploymentService.getServiceAssemblyDescriptor( String saName );2;1;8
+DeploymentService.deploy( String saZipURL );8;4;33
+DeploymentService.start( );3;2;12
+DeploymentService.getDeployedServiceAssemblies( );2;0;8
+DeploymentService.getComponentTaskError( Exception exception , String component , List < Element > results );3;1;14
+DeploymentService.shutDown( String serviceAssemblyName );2;0;9
+DeploymentService.canDeployToComponent( String componentName );3;4;4
+DeploymentService.getComponentsForDeployedServiceAssembly( String saName );2;0;8
+DeploymentService.init( JBIContainer container );1;0;6
+DeploymentService.getElement( Document doc , String name );1;0;4
+DeploymentService.getChildElement( Element element , String name );1;0;4

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CustomizableThreadCreator.setDaemon( boolean daemon );1;0;3
+CustomizableThreadCreator.getThreadNamePrefix( );1;0;3
+CustomizableThreadCreator.getThreadPriority( );1;0;3
+CustomizableThreadCreator.setThreadPriority( int threadPriority );1;0;3
+CustomizableThreadCreator.setThreadNamePrefix( @ Nullable String threadNamePrefix );2;1;3
+CustomizableThreadCreator.CustomizableThreadCreator( @ Nullable String threadNamePrefix );2;1;3
+CustomizableThreadCreator.setThreadGroupName( String name );1;0;3
+CustomizableThreadCreator.createThread( Runnable runnable );1;0;6
+CustomizableThreadCreator.isDaemon( );1;0;3
+CustomizableThreadCreator.getThreadGroup( );1;0;3
+CustomizableThreadCreator.CustomizableThreadCreator( );1;0;3
+CustomizableThreadCreator.nextThreadName( );1;1;3
+CustomizableThreadCreator.setThreadGroup( @ Nullable ThreadGroup threadGroup );1;0;3
+CustomizableThreadCreator.getDefaultThreadNamePrefix( );1;0;3

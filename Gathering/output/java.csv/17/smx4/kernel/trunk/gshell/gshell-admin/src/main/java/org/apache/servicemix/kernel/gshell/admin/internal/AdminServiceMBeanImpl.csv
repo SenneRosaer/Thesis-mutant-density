@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AdminServiceMBeanImpl.getAdminService( );1;0;3
+AdminServiceMBeanImpl.getState( String name );1;0;3
+AdminServiceMBeanImpl.getExistingInstance( String name );2;1;7
+AdminServiceMBeanImpl.createInstance( String name , int port , String location );1;0;3
+AdminServiceMBeanImpl.changePort( String name , int port );1;0;3
+AdminServiceMBeanImpl.start( String name , String javaOpts );1;0;3
+AdminServiceMBeanImpl.getPort( String name );1;0;3
+AdminServiceMBeanImpl.setAdminService( AdminService adminService );1;0;3
+AdminServiceMBeanImpl.stop( String name );1;0;3
+AdminServiceMBeanImpl.destroy( String name );1;0;3
+AdminServiceMBeanImpl.getInstances( );2;2;8

@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CMNodeFactory.getCMUniOpNode( int type , CMNode childNode );1;0;4
+CMNodeFactory.getCMBinOpNode( int type , CMNode leftNode , CMNode rightNode );1;0;4
+CMNodeFactory.setProperty( String propertyId , Object value );7;7;16
+***not in a method***;0;2;0
+CMNodeFactory.getCMLeafNode( int type , Object leaf , int id , int position );1;0;4
+CMNodeFactory.resetNodeCount( );1;0;3
+CMNodeFactory.CMNodeFactory( );1;0;2
+CMNodeFactory.reset( XMLComponentManager componentManager );3;2;12
+CMNodeFactory.nodeCountCheck( );4;4;10
+CMNodeFactory.getCMRepeatingLeafNode( int type , Object leaf , int minOccurs , int maxOccurs , int id , int position );1;0;4

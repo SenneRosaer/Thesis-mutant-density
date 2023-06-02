@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TraxProcessor.getTransformerHandler( final Source stylesheet , final XMLFilter filter );1;0;4
+TraxProcessor.getTransformerHandler( final Source stylesheet );1;0;3
+TraxProcessor.service( final ServiceManager manager );2;0;8
+TraxProcessor.recycle( );2;1;6
+TraxProcessor.dispose( );2;1;11
+TraxProcessor.getTransformerHandlerAndValidity( final Source stylesheet );1;0;3
+TraxProcessor.putTemplates( Templates templates , Source stylesheet , String id );4;2;15
+MyTransformerHandlerAndValidity.MyTransformerHandlerAndValidity( TransformerHandler handler , SourceValidity validity );1;0;3
+TraxProcessor.resolve( String href , String base );17;10;59
+TraxProcessor.sourceToSAX( Source source , ContentHandler handler );2;0;10
+TraxProcessor.initialize( );1;0;4
+TraxProcessor.getTransformerHandlerAndValidity( Source stylesheet , XMLFilter filter );21;13;77
+TraxProcessor.getTemplates( Source stylesheet , String id );13;16;70
+TraxProcessor.getInputSource( final Source source );1;0;5
+TraxProcessor.parameterize( final Parameters params );3;2;13
+TraxProcessor.setTransformerFactory( final String classname );1;0;3
+TraxProcessor.getTransformerFactory( String factoryName );11;5;42
+TraxProcessor.transform( final Source source , final Source stylesheet , final Parameters params , final Result result );7;4;28

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EventManager.addIvyListener( IvyListener listener , Filter filter );1;0;3
+EventManager.hasTransferListener( TransferListener listener );1;0;3
+EventManager.transferProgress( TransferEvent evt );1;0;4
+EventManager.hasIvyListener( IvyListener listener );1;0;3
+EventManager.addTransferListener( TransferListener listener );1;0;3
+EventManager.fireIvyEvent( IvyEvent evt );3;5;8
+EventManager.fireTransferEvent( TransferEvent evt );3;5;8
+EventManager.addIvyListener( IvyListener listener , String eventName );1;0;3
+EventManager.removeIvyListener( IvyListener listener );4;2;11
+EventManager.removeTransferListener( TransferListener listener );1;0;3
+EventManager.addIvyListener( IvyListener listener );1;0;3

@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IndexedDisk.close( );1;0;3
+IndexedDisk.IndexedDisk( File file , IElementSerializer elementSerializer );1;0;5
+IndexedDisk.readObject( IndexedDiskElementDescriptor ded );5;4;36
+IndexedDisk.move( final IndexedDiskElementDescriptor ded , final long newPosition );3;6;26
+IndexedDisk.reset( );6;5;27
+IndexedDisk.getFilePath( );1;0;3
+IndexedDisk.length( );1;0;6
+IndexedDisk.truncate( long length );2;0;7
+IndexedDisk.writeObject( Serializable obj , long pos );1;0;5
+IndexedDisk.write( IndexedDiskElementDescriptor ded , byte [ ] data );3;2;19

@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileSystemResolver.isTransactionStarted( );1;1;3
+FileSystemResolver.initTransaction( ModuleRevisionId module );1;1;9
+FileSystemResolver.getTypeName( );1;0;3
+FileSystemResolver.setLocal( boolean local );1;0;3
+FileSystemResolver.getFileRepository( );1;0;3
+FileSystemResolver.closeTransaction( );1;0;4
+FileSystemResolver.getTransactional( );1;0;3
+FileSystemResolver.abortPublishTransaction( );3;1;13
+FileSystemResolver.supportTransaction( );2;0;7
+FileSystemResolver.addArtifactPattern( String pattern );1;0;4
+FileSystemResolver.FileSystemResolver( );1;0;3
+FileSystemResolver.filterNames( Collection values );4;0;14
+FileSystemResolver.commitPublishTransaction( );6;1;35
+FileSystemResolver.getDestination( String pattern , Artifact artifact , ModuleRevisionId mrid );4;2;16
+FileSystemResolver.addConfiguredArtifact( IvyPattern p );1;0;4
+FileSystemResolver.checkSupportTransaction( );8;13;41
+FileSystemResolver.beginPublishTransaction( ModuleRevisionId module , boolean overwrite );5;0;23
+FileSystemResolver.addIvyPattern( String pattern );1;0;4
+FileSystemResolver.unsupportedTransaction( String msg );2;1;10
+FileSystemResolver.setTransactional( String transactional );1;0;3
+FileSystemResolver.isLocal( );1;0;3
+FileSystemResolver.addConfiguredIvy( IvyPattern p );1;0;4

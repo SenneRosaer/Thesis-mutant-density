@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AspectJPrecedenceComparatorTests.createAspectJAfterThrowingAdvice( int advisorOrder , int adviceDeclarationOrder , String aspectName );1;0;4
+AspectJPrecedenceComparatorTests.createSpringAOPBeforeAdvice( int order );1;0;7
+AspectJPrecedenceComparatorTests.createAspectJAroundAdvice( int advisorOrder , int adviceDeclarationOrder , String aspectName );1;0;4
+AspectJPrecedenceComparatorTests.testSameAdvisorPrecedenceDifferentAspectNoAfterAdvice( );1;0;8
+AspectJPrecedenceComparatorTests.testLowerAdvisorPrecedenceAfterAdvice( );1;0;8
+AspectJPrecedenceComparatorTests.createAspectJAfterReturningAdvice( int advisorOrder , int adviceDeclarationOrder , String aspectName );1;0;4
+AspectJPrecedenceComparatorTests.testLowerAdvisorPrecedenceNoAfterAdvice( );1;0;8
+AspectJPrecedenceComparatorTests.createAspectJAfterAdvice( int advisorOrder , int adviceDeclarationOrder , String aspectName );1;0;4
+AspectJPrecedenceComparatorTests.createAspectJAdvice( int advisorOrder , int adviceDeclarationOrder , String aspectName , AbstractAspectJAdvice advice );1;0;7
+AspectJPrecedenceComparatorTests.testHigherAdvisorPrecedenceNoAfterAdvice( );1;2;8
+AspectJPrecedenceComparatorTests.createAspectJBeforeAdvice( int advisorOrder , int adviceDeclarationOrder , String aspectName );1;0;4
+AspectJPrecedenceComparatorTests.createSpringAOPAfterAdvice( int order );1;0;7
+AspectJPrecedenceComparatorTests.testSameAdvisorPrecedenceDifferentAspectAfterAdvice( );1;0;8
+AspectJPrecedenceComparatorTests.testSameAspectNoAfterAdvice( );1;1;8
+AspectJPrecedenceComparatorTests.testHigherAdvisorPrecedenceAfterAdvice( );1;2;8
+AspectJPrecedenceComparatorTests.setUp( );1;0;6
+AspectJPrecedenceComparatorTests.testSameAspectAfterAdvice( );1;1;8
+AspectJPrecedenceComparatorTests.testSameAspectOneOfEach( );1;0;5

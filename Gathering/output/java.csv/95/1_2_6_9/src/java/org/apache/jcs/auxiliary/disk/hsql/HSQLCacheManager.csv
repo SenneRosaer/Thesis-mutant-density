@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HSQLCacheManager.HSQLCacheManager( HSQLCacheAttributes cattr );1;0;3
+HSQLCacheManager.getCache( String cacheName );1;0;5
+HSQLCacheManager.getCache( HSQLCacheAttributes cattr );3;1;18
+HSQLCacheManager.getInstance( HSQLCacheAttributes cattr );2;2;11
+HSQLCacheManager.getDefaultCattr( );1;0;3
+***not in a method***;0;1;0
+HSQLCacheManager.getCacheType( );1;0;3
+HSQLCacheManager.release( );4;3;18
+HSQLCacheManager.freeCache( String name );2;1;7

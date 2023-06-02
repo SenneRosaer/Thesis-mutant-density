@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLResourceBundleFactory._create( String sourceURI , Locale locale , XMLResourceBundle parent );2;0;9
+XMLResourceBundleFactory.getCacheKey( String [ ] directories , int index , String name , Locale locale );4;5;12
+XMLResourceBundleFactory.select( String directory , String name , String localeName );1;0;3
+XMLResourceBundleFactory._select( String [ ] directories , int index , String name , Locale locale );8;10;27
+XMLResourceBundleFactory.getParentLocale( Locale locale );3;2;13
+XMLResourceBundleFactory.select( String directory , String name , Locale locale );1;0;3
+XMLResourceBundleFactory.select( String name , Locale locale );1;0;3
+XMLResourceBundleFactory.getDirectory( );1;0;3
+XMLResourceBundleFactory.service( ServiceManager manager );1;0;4
+XMLResourceBundleFactory.selectCached( String cacheKey );4;5;9
+XMLResourceBundleFactory.release( Bundle bundle );1;0;2
+XMLResourceBundleFactory.getSourceURI( String base , String name , Locale locale );9;6;43
+XMLResourceBundleFactory.select( String [ ] directories , String name , Locale locale );2;1;7
+XMLResourceBundleFactory.select( String name , String locale );1;0;3
+XMLResourceBundleFactory.updateCache( String cacheKey , XMLResourceBundle bundle );2;0;7
+XMLResourceBundleFactory.configure( Configuration configuration );3;0;14
+XMLResourceBundleFactory.dispose( );1;0;7

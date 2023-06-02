@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultExchangeFunction.getURI( );1;0;3
+DefaultExchangeFunction.createRequest( ClientRequest request );1;0;16
+DefaultExchangeFunction.wrapException( Throwable t , ClientRequest r );1;0;3
+DefaultExchangeFunction.formatHeaders( HttpHeaders headers );3;0;3
+DefaultExchangeFunction.DefaultExchangeFunction( ClientHttpConnector connector , ExchangeStrategies strategies );2;0;13
+DefaultExchangeFunction.exchange( ClientRequest clientRequest );1;1;17
+DefaultExchangeFunction.logResponse( ClientHttpResponse response , String logPrefix );2;2;4
+DefaultExchangeFunction.logRequest( ClientRequest request );2;3;6
+DefaultExchangeFunction.getLogPrefix( ClientRequest request , ClientHttpResponse response );1;1;3
+DefaultExchangeFunction.getMethod( );1;0;3
+DefaultExchangeFunction.getHeaders( );1;0;3
+ExchangeFunctions.create( ClientHttpConnector connector );1;0;3
+ExchangeFunctions.create( ClientHttpConnector connector , ExchangeStrategies strategies );1;0;3

@@ -1,0 +1,176 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XsbReader.fileTypeFromComponentType( int componentType );7;0;19
+XsbReader.finishLoadingAttributeGroup( );6;2;29
+XsbReader.writeModelGroupData( SchemaModelGroup grp );3;1;12
+SchemaTypeSystemImpl.redefinedModelGroups( );4;3;9
+XsbReader.writeInt( int i );3;1;13
+XsbReader.writeHandlePool( HandlePool pool );2;0;11
+SchemaTypeSystemImpl.findModelGroupRef( QName name );1;0;3
+XsbReader.writeDocumentTypeMap( SchemaType [ ] doctypes );2;2;8
+XsbReader.writeParticleArray( SchemaParticle [ ] spa );2;2;5
+SchemaTypeSystemImpl.findDocumentTypeRef( QName name );1;0;3
+SchemaTypeSystemImpl.saveModelGroups( SchemaModelGroup [ ] groups );3;2;8
+StringPool.codeForString( String str );3;2;12
+XsbReader.loadAttribute( SchemaLocalAttributeImpl result , QName name , SchemaContainer container );2;1;3
+XsbReader.getLoaderStream( String resourcename );1;0;3
+SchemaTypeSystemImpl.makeClassStrings( String classname );1;0;8
+XsbReader.readQNameRefMapAsList( List names );2;2;12
+XsbReader.XsbReader( String handle );1;0;4
+XsbReader.readQNameSet( );5;7;19
+XsbReader.loadParticle( SchemaParticleImpl result , int particleType );8;16;40
+SchemaTypeSystemImpl.crackPointer( InputStream stream );11;10;33
+SchemaTypeSystemImpl.nextBytes( byte [ ] result );7;13;41
+XsbReader.readBigInteger( );6;7;10
+XsbReader.readPropertyData( );6;12;34
+XsbReader.atMost( int majorver , int minorver , int releaseno );5;5;11
+SchemaTypeSystemImpl.saveGlobalAttributes( SchemaGlobalAttribute [ ] attrs );3;2;8
+XsbReader.readHandlePool( HandlePool pool );10;4;35
+XsbReader.readQNameRefMap( );2;2;11
+SchemaTypeSystemImpl.buildComponentRefMap( SchemaComponent [ ] components );2;2;6
+SchemaTypeSystemImpl.globalTypes( );3;1;9
+XsbReader.readExtensionsList( );2;3;10
+XsbReader.readNamespaces( );2;2;10
+SchemaTypeSystemImpl.getContainerNonNull( String namespace );2;1;9
+XsbReader.checkContainerNotNull( SchemaContainer container , QName name );2;1;8
+StringPool.stringForCode( int code );2;1;5
+XsbReader.writeQNameSet( QNameSet set );8;1;16
+XsbReader.writeIdConstraintData( SchemaIdentityConstraint idc );4;3;22
+SchemaTypeSystemImpl.saveType( SchemaType type );1;0;8
+StringPool.StringPool( String handle , String name );1;0;5
+HandlePool.handleForModelGroup( SchemaModelGroup group );4;3;10
+HandlePool.handleForAttributeGroup( SchemaAttributeGroup group );4;3;10
+XsbReader.writeIndexData( );1;0;17
+SchemaTypeSystemImpl.getDependencies( );1;0;1
+SchemaTypeSystemImpl.fixupContainers( );2;0;8
+SchemaTypeSystemImpl.saveTypesRecursively( SchemaType [ ] types );3;3;9
+SchemaTypeSystemImpl.buildTypeRefsByClassname( Map typesByClassname );2;0;9
+XsbReader.atLeast( int majorver , int minorver , int releaseno );5;5;11
+SchemaTypeSystemImpl.saveGlobalAttribute( SchemaGlobalAttribute attr );2;0;12
+XsbReader.readAnnotation( SchemaContainer c );7;9;32
+XsbReader.readByteArray( );2;0;13
+SchemaTypeSystemImpl.saveModelGroup( SchemaModelGroup grp );2;0;10
+XsbReader.writeHandle( SchemaComponent comp );12;4;48
+SchemaTypeSystemImpl.buildComponentRefList( SchemaComponent [ ] components );2;2;6
+SchemaTypeSystemImpl.saveGlobalElement( SchemaGlobalElement elt );2;0;12
+SchemaTypeSystemImpl.getTypeSystem( );1;0;3
+XsbReader.getSaverStream( String name );2;0;10
+SchemaTypeSystemImpl.modelGroups( );3;1;9
+XsbReader.finishLoadingType( );37;80;204
+XsbReader.finishLoadingAttribute( );3;0;24
+SchemaTypeSystemImpl.buildContainers( List redefTypeNames , List redefModelGroupNames , List redefAttributeGroupNames );18;7;80
+SchemaTypeSystemImpl.savePointers( );1;0;13
+SchemaTypeSystemImpl.identityConstraints( );3;1;9
+XsbReader.writeTypeData( SchemaType type );47;50;161
+HandlePool.handleForIdentityConstraint( SchemaIdentityConstraint idc );4;3;10
+SchemaTypeSystemImpl.saveIndex( );1;0;8
+XsbReader.writeSOAPArrayType( SOAPArrayType arrayType );2;1;12
+SchemaTypeSystemImpl.setIncomplete( boolean incomplete );1;0;1
+SchemaTypeSystemImpl.addContainer( String namespace );1;0;5
+XsbReader.readSOAPArrayType( );2;1;7
+HandlePool.getAllHandles( );1;0;3
+HandlePool.refForHandle( String handle );2;1;5
+XsbReader.XsbReader( String handle , int filetype );9;9;27
+XsbReader.readHandle( );17;5;43
+XsbReader.writeNamespaces( Set namespaces );2;0;8
+XsbReader.writeShort( int s );5;5;15
+SchemaTypeSystemImpl.globalElements( );3;1;9
+SchemaTypeSystemImpl.findIdentityConstraintRef( QName name );1;0;3
+SchemaTypeSystemImpl.redefinedAttributeGroups( );4;3;9
+XsbReader.readXmlValueObject( );25;3;48
+XsbReader.writeAttributeGroupData( SchemaAttributeGroup grp );3;1;11
+SchemaTypeSystemImpl.forName( String name , ClassLoader loader );2;1;11
+SchemaTypeSystemImpl.nameToPathString( String nameForSystem );3;3;6
+SchemaTypeSystemImpl.findElementRef( QName name );1;0;3
+SchemaTypeSystemImpl.typeForClassname( String classname );2;1;4
+XsbReader.writeByteArray( byte [ ] ba );3;1;12
+XsbReader.writePropertyData( SchemaProperty prop );7;6;26
+XsbReader.readAnnotations( );2;2;8
+SchemaTypeSystemImpl.documentTypes( );3;1;9
+XsbReader.writeParticleData( SchemaParticle part );20;14;70
+SchemaTypeSystemImpl.savePointersForClassnames( Set classnames , String dir );2;1;7
+XsbReader.readShort( );2;0;10
+SchemaTypeSystemImpl.setDependencies( SchemaDependencies deps );1;0;1
+SchemaTypeSystemImpl.fileContainsTypeSystem( File file , String name );6;4;28
+***not in a method***;0;4;0
+XsbReader.readDouble( );2;0;10
+XsbReader.readEnd( );3;1;13
+SchemaTypeSystemImpl.resolveHandle( String handle );9;2;49
+SchemaTypeSystemImpl.saveIdentityConstraint( SchemaIdentityConstraint idc );2;0;10
+SchemaTypeSystemImpl.getContainer( String namespace );1;0;3
+XsbReader.writeString( String str );1;0;4
+SchemaTypeSystemImpl.assertContainersSynchronized( );15;1;58
+SchemaTypeSystemImpl.typeSystemForName( String name );3;2;5
+SchemaTypeSystemImpl.attributeGroups( );3;1;9
+SchemaTypeSystemImpl.buildDocumentMap( SchemaType [ ] types );2;2;6
+SchemaTypeSystemImpl.handleForType( SchemaType type );1;0;3
+SchemaTypeSystemImpl.saveIdentityConstraints( SchemaIdentityConstraint [ ] idcs );3;2;8
+SchemaTypeSystemImpl.save( Filer filer );3;1;22
+XsbReader.finishLoadingIdentityConstraint( );7;5;42
+SchemaTypeSystemImpl.buildAttributeTypeMap( SchemaType [ ] types );2;2;6
+SchemaTypeSystemImpl.containers( );2;1;7
+SchemaTypeSystemImpl.repackageConstant( String value , String [ ] replace , Repackager repackager );4;3;8
+SchemaTypeSystemImpl.typeForHandle( String handle );1;0;6
+XsbReader.readInt( );2;0;10
+SchemaTypeSystemImpl.isIncomplete( );1;0;1
+HandlePool.handleForComponent( SchemaComponent comp );9;2;19
+HandlePool.handleForType( SchemaType type );10;9;38
+XsbReader.getActualFiletype( );1;0;3
+SchemaTypeSystemImpl.findAttributeRef( QName name );1;0;3
+SchemaTypeSystemImpl.loadFromBuilder( SchemaGlobalElement [ ] globalElements , SchemaGlobalAttribute [ ] globalAttributes , SchemaType [ ] globalTypes , SchemaType [ ] documentTypes , SchemaType [ ] attributeTypes );1;1;13
+SchemaTypeSystemImpl.redefinedGlobalTypes( );4;3;9
+XsbReader.writeAnnotations( SchemaAnnotation [ ] anns );2;2;5
+XsbReader.writeQName( QName qname );2;1;10
+SchemaTypeSystemImpl.saveToDirectory( File classDir );1;0;3
+XsbReader.writeDouble( double d );3;1;13
+XsbReader.writeAttributeData( SchemaLocalAttribute attr );2;0;10
+SchemaTypeSystemImpl.saveAttributeGroups( SchemaAttributeGroup [ ] groups );3;2;8
+SchemaTypeSystemImpl.findAttributeTypeRef( QName name );1;0;3
+SchemaTypeSystemImpl.isNamespaceDefined( String namespace );1;0;3
+SchemaTypeSystemImpl.attributeTypes( );3;1;9
+XsbReader.writeAttributeTypeMap( SchemaType [ ] attrtypes );2;2;8
+XsbReader.writeRealHeader( String handle , int filetype );3;3;18
+SchemaTypeSystemImpl.getSourceAsStream( String sourceName );2;1;5
+XsbReader.writeAnnotation( SchemaAnnotation a );5;8;34
+HandlePool.HandlePool( );1;0;2
+XsbReader.finishLoadingModelGroup( );7;2;29
+HandlePool.handleForAttribute( SchemaGlobalAttribute attribute );4;3;10
+SchemaTypeSystemImpl.savePointersForNamespaces( Set namespaces , String dir );2;1;7
+SchemaTypeSystemImpl.saveLoader( );22;6;76
+XsbReader.readTypeRef( );1;0;3
+SchemaTypeSystemImpl.buildTypeRefsByClassname( );3;3;18
+SchemaTypeSystemImpl.SchemaTypeSystemImpl( ResourceLoader resourceLoader , String name , SchemaTypeLoader linker );3;0;20
+HandlePool.handleForElement( SchemaGlobalElement element );4;3;10
+SchemaTypeSystemImpl.getClassLoader( );1;0;3
+SchemaTypeSystemImpl.resolve( );3;1;20
+SchemaTypeSystemImpl.savePointerFile( String filename , String name );1;0;7
+XsbReader.writeQNameMap( SchemaComponent [ ] components );2;2;8
+SchemaTypeSystemImpl.SchemaTypeSystemImpl( Class indexclass );3;1;24
+SchemaTypeSystemImpl.getName( );1;0;3
+XsbReader.writeClassnameMap( Map typesByClass );2;0;9
+SchemaTypeSystemImpl.SchemaTypeSystemImpl( String nameForSystem );2;2;11
+SchemaTypeSystemImpl.loadFromStscState( StscState state );1;1;22
+XsbReader.readQName( );2;1;7
+SchemaTypeSystemImpl.globalAttributes( );3;1;9
+XsbReader.readParticleData( );2;1;10
+SchemaTypeSystemImpl.findAttributeGroupRef( QName name );1;0;3
+SchemaTypeSystemImpl.annotations( );3;2;7
+XsbReader.readAttributeData( );1;0;5
+SchemaTypeSystemImpl.saveAttributeGroup( SchemaAttributeGroup grp );2;0;10
+SchemaTypeSystemImpl.saveGlobalElements( SchemaGlobalElement [ ] elts );3;2;8
+XsbReader.writeTypeArray( SchemaType [ ] array );2;2;7
+XsbReader.readClassnameRefMap( );2;2;11
+XsbReader.writeBigInteger( BigInteger bi );3;2;14
+XsbReader.finishLoadingElement( );8;23;61
+StringPool.writeTo( DataOutputStream output );4;1;18
+HandlePool.startWriteMode( );2;0;10
+XsbReader.readString( );1;0;3
+SchemaTypeSystemImpl.initFromHeader( );4;1;39
+SchemaTypeSystemImpl.savePointersForComponents( SchemaComponent [ ] components , String dir );2;3;6
+XsbReader.writeType( SchemaType type );1;0;3
+SchemaTypeSystemImpl.findTypeRef( QName name );1;0;3
+XsbReader.readTypeRefArray( );2;2;9
+XsbReader.writeEnd( );3;1;17
+XsbReader.writeXmlValueObject( XmlAnySimpleType value );26;5;59
+XsbReader.readParticleArray( );2;2;6
+StringPool.readFrom( DataInputStream input );7;7;19
+HandlePool.addUniqueHandle( SchemaComponent obj , String base );2;2;11

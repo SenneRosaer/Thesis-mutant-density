@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NamespaceRegistryImpl.stringToIndex( String uri );2;1;7
+NamespaceRegistryImpl.externalRemap( String oldPrefix , String newPrefix , String uri );3;2;11
+NamespaceRegistryImpl.store( );5;0;46
+NamespaceRegistryImpl.getPrefixes( );1;0;3
+NamespaceRegistryImpl.load( );7;3;55
+NamespaceRegistryImpl.map( String prefix , String uri , Integer idx );4;4;15
+NamespaceRegistryImpl.getURIs( );1;0;3
+NamespaceRegistryImpl.setEventChannel( NamespaceEventChannel eventChannel );1;0;4
+NamespaceRegistryImpl.getURI( String prefix );2;1;8
+NamespaceRegistryImpl.indexToString( int idx );2;1;7
+NamespaceRegistryImpl.registerNamespace( String prefix , String uri );13;7;43
+NamespaceRegistryImpl.clear( );1;0;6
+NamespaceRegistryImpl.map( String prefix , String uri );1;0;3
+NamespaceRegistryImpl.getPrefix( String uri );2;1;8
+NamespaceRegistryImpl.unregisterNamespace( String prefix );3;1;9
+NamespaceRegistryImpl.NamespaceRegistryImpl( FileSystem nsRegStore );1;0;4

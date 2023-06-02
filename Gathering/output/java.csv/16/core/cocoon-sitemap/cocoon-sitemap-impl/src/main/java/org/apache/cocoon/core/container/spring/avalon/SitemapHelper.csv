@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SitemapHelper.createDefinition( String uriPrefix , String sitemapLocation , List beanIncludes , List propertyIncludes , Properties props );7;3;42
+SitemapHelper.addAttribute( StringBuffer buffer , String name , String value );2;1;9
+SitemapHelper.addHeader( StringBuffer buffer );1;0;11
+SitemapHelper.createSitemapConfiguration( Configuration config );6;4;35
+SitemapHelper.createContainer( Configuration config , String sitemapLocation , Monitor fam , ServletContext servletContext );3;4;25
+SitemapHelper.getPropertiesIncludes( WebApplicationContext webAppContext , String contextUrl , Configuration sitemap );4;3;15
+SitemapHelper.isUsingDefaultIncludes( Configuration config );1;0;3
+SitemapHelper.addFooter( StringBuffer buffer );1;0;3
+SitemapHelper.getGlobalSitemapVariables( Configuration sitemap );3;3;13
+SitemapHelper.getBeanIncludes( WebApplicationContext webAppContext , String contextUrl , Configuration sitemap );4;3;15

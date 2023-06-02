@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultipleTermPositions.close( );2;1;4
+MultipleTermPositions.nextPosition( );1;0;3
+MultipleTermPositions.getPayload( byte [ ] data , int offset );1;0;3
+TermPositionsQueue.lessThan( Object a , Object b );1;1;3
+IntQueue.sort( );1;0;3
+MultipleTermPositions.read( int [ ] arg0 , int [ ] arg1 );1;0;3
+MultipleTermPositions.seek( Term arg0 );1;0;3
+MultipleTermPositions.isPayloadAvailable( );1;0;3
+IntQueue.growArray( );1;2;6
+TermPositionsQueue.peek( );1;0;3
+MultipleTermPositions.MultipleTermPositions( IndexReader indexReader , Term [ ] terms );2;2;7
+MultipleTermPositions.getPayloadLength( );1;0;3
+TermPositionsQueue.TermPositionsQueue( List termPositions );3;0;9
+MultipleTermPositions.next( );6;6;21
+IntQueue.add( int i );2;2;5
+MultipleTermPositions.seek( TermEnum termEnum );1;0;3
+MultipleTermPositions.freq( );1;0;3
+IntQueue.size( );1;1;3
+MultipleTermPositions.doc( );1;0;3
+IntQueue.clear( );1;0;4
+MultipleTermPositions.skipTo( int target );4;3;10
+IntQueue.next( );1;1;3

@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MarshallingView.MarshallingView( Marshaller marshaller );1;0;5
+MarshallingView.locateToBeMarshalled( Map < String , Object > model );9;9;21
+MarshallingView.renderMergedOutputModel( Map < String , Object > model , HttpServletRequest request , HttpServletResponse response );2;2;12
+MarshallingView.setModelKey( String modelKey );1;0;3
+MarshallingView.isEligibleForMarshalling( String modelKey , Object value );4;1;8
+MarshallingView.MarshallingView( );1;0;4
+MarshallingView.setMarshaller( Marshaller marshaller );1;0;3
+MarshallingView.initApplicationContext( );1;1;3

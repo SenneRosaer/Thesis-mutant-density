@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RangeQueryWeight.normalize( float norm );1;0;2
+RangeQuery.toString( String field );7;4;17
+RangeQuery.extractTerms( Set terms );2;1;5
+***not in a method***;0;1;0
+RangeQuery.setTransformation( int transformation );1;0;3
+RangeQueryWeight.sumOfSquaredWeights( );1;0;3
+RangeQuery.rewrite( IndexReader reader );3;1;15
+RangeQueryScorer.score( );1;0;3
+RangeQueryWeight.explain( IndexReader reader , int doc );1;0;3
+RangeQuery.getField( );2;1;3
+RangeQuery.RangeQuery( Term lowerTerm , Term upperTerm , boolean inclusive );1;0;3
+RangeQueryScorer.doc( );1;0;3
+RangeQueryWeight.getValue( );1;0;3
+RangeQueryWeight.createScorer( IndexReader reader );1;0;3
+RangeQueryWeight.getQuery( );1;0;3
+RangeQueryWeight.RangeQueryWeight( Searcher searcher );1;0;3
+RangeQueryScorer.skipTo( int target );1;2;5
+RangeQuery.createWeight( Searcher searcher );1;0;3
+RangeQueryScorer.RangeQueryScorer( Similarity similarity , IndexReader reader );6;5;29
+RangeQuery.RangeQuery( Term lowerTerm , Term upperTerm , boolean inclusive , int transform );7;9;16
+RangeQueryScorer.explain( int doc );1;0;3
+RangeQueryScorer.next( );1;3;5
+RangeQueryScorer.calculateHits( );24;25;78
+RangeQueryScorer.termCompare( String text , String other , int offset );1;0;5

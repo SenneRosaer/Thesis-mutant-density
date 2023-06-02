@@ -1,0 +1,62 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+URI.URI( String p_uriSpec , boolean allowNonAbsoluteURI );1;0;3
+URI.isWellFormedIPv6Reference( String address );15;31;40
+URI.initializePath( String p_uriSpec , int p_nStartIndex );36;68;104
+URI.isAbsoluteURI( );1;1;3
+URI.setPort( int p_port );5;6;12
+URI.getSchemeSpecificPart( );9;10;32
+URI.isUnreservedCharacter( char p_char );2;4;3
+URI.isAlphanum( char p_char );2;4;3
+URI.setQueryString( String p_queryString );5;4;20
+URI.initialize( URI p_other );1;0;10
+URI.getPath( boolean p_includeQueryString , boolean p_includeFragment );5;4;12
+URI.getPath( );1;0;3
+URI.URI( URI p_base , String p_uriSpec );1;0;3
+***not in a method***;0;64;0
+URI.isURIString( String p_uric );8;13;28
+URI.isWellFormedAddress( String address );19;24;50
+URI.setScheme( String p_scheme );3;2;10
+URI.URI( String p_uriSpec );1;0;3
+URI.getFragment( );1;0;3
+URI.getScheme( );1;0;3
+URI.getAuthority( );6;7;21
+URI.isHex( char p_char );2;4;3
+URI.URI( URI p_base , String p_uriSpec , boolean allowNonAbsoluteURI );1;0;3
+URI.setRegBasedAuthority( String authority );5;8;15
+MalformedURIException.MalformedURIException( );1;0;3
+URI.URI( );1;0;2
+URI.isAlpha( char p_char );4;7;3
+URI.absolutize( URI p_base );23;41;83
+URI.equals( Object p_test );33;55;27
+URI.URI( String p_scheme , String p_userinfo , String p_host , int p_port , String p_path , String p_queryString , String p_fragment );11;16;32
+URI.getUserinfo( );1;0;3
+URI.isValidServerBasedAuthority( String host , int port , String userinfo );11;19;29
+URI.URI( URI p_other );1;0;3
+URI.appendPath( String p_addToPath );10;7;33
+URI.scanHexSequence( String address , int index , int end , int [ ] counter );17;36;28
+MalformedURIException.MalformedURIException( String p_msg );1;0;3
+URI.URI( String p_scheme , String p_schemeSpecificPart );5;6;13
+URI.initializeAuthority( String p_uriSpec );18;28;71
+URI.initializeScheme( String p_uriSpec );7;10;21
+URI.initialize( URI p_base , String p_uriSpec , boolean allowNonAbsoluteURI );30;55;64
+URI.isUserinfoCharacter( char p_char );2;4;3
+URI.setHost( String p_host );5;6;16
+URI.getRegBasedAuthority( );1;0;3
+URI.initialize( URI p_base , String p_uriSpec );27;51;61
+URI.URI( String p_scheme , String p_host , String p_path , String p_queryString , String p_fragment );1;1;3
+URI.isSchemeCharacter( char p_char );2;4;3
+URI.isValidRegistryBasedAuthority( String authority );7;13;21
+URI.setUserinfo( String p_userinfo );9;14;32
+URI.isWellFormedIPv4Address( String address );16;32;36
+URI.toString( );2;1;9
+URI.setFragment( String p_fragment );5;4;20
+URI.getQueryString( );1;0;3
+URI.isConformantSchemeName( String p_scheme );6;7;17
+URI.getPort( );1;0;3
+URI.getHost( );1;0;3
+URI.isReservedCharacter( char p_char );2;4;3
+URI.isDigit( char p_char );2;3;3
+URI.isGenericURI( );1;1;3
+URI.setPath( String p_path );2;1;10
+URI.isPathCharacter( char p_char );2;4;3
+URI.isURICharacter( char p_char );2;4;3

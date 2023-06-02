@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompactNodeTypeDefWriter.writeRequiredTypes( Name [ ] reqTypes );4;5;11
+CompactNodeTypeDefWriter.writeNodeDefs( QNodeTypeDefinition ntd );2;2;7
+CompactNodeTypeDefWriter.writeDefaultValues( QValue [ ] dva );5;5;16
+CompactNodeTypeDefWriter.write( List l , NamespaceResolver r , NamePathResolver npResolver , ValueFactory valueFactory , Writer out );2;0;9
+CompactNodeTypeDefWriter.CompactNodeTypeDefWriter( Writer out , NamespaceResolver r , NamePathResolver npResolver , ValueFactory valueFactory );1;0;3
+CompactNodeTypeDefWriter.write( QNodeTypeDefinition ntd );1;0;8
+CompactNodeTypeDefWriter.writeDefaultType( Name defType );3;3;6
+CompactNodeTypeDefWriter.resolve( Name name );9;11;30
+CompactNodeTypeDefWriter.writeNodeDef( QNodeTypeDefinition ntd , QNodeDefinition nd );9;3;28
+CompactNodeTypeDefWriter.writePropDefs( QNodeTypeDefinition ntd );2;2;7
+CompactNodeTypeDefWriter.writeValueConstraints( String [ ] vca , int type );4;5;14
+CompactNodeTypeDefWriter.close( );2;1;11
+CompactNodeTypeDefWriter.escape( String s );4;6;13
+CompactNodeTypeDefWriter.writeItemDefName( Name name );1;0;3
+CompactNodeTypeDefWriter.writePropDef( QNodeTypeDefinition ntd , QPropertyDefinition pd );9;3;31
+CompactNodeTypeDefWriter.convertConstraint( String vc , int type );6;6;13
+CompactNodeTypeDefWriter.writeOptions( QNodeTypeDefinition ntd );4;0;12
+CompactNodeTypeDefWriter.writeName( QNodeTypeDefinition ntd );1;0;5
+CompactNodeTypeDefWriter.writeSupertypes( QNodeTypeDefinition ntd );2;2;9
+CompactNodeTypeDefWriter.CompactNodeTypeDefWriter( Writer out , NamespaceResolver r , NamePathResolver npResolver , ValueFactory valueFactory , boolean includeNS );2;0;12

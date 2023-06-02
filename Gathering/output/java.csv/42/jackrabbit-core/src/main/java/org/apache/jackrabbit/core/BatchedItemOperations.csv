@@ -1,0 +1,41 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BatchedItemOperations.findApplicableNodeDefinition( Name name , Name nodeTypeName , NodeState parentState );1;0;4
+BatchedItemOperations.checkAddNode( NodeState parentState , Name nodeName , Name nodeTypeName , int options );12;13;55
+BatchedItemOperations.move( Path srcPath , Path destPath );10;9;80
+BatchedItemOperations.createPropertyState( NodeState parent , Name propName , int type , PropDef def );6;4;26
+BatchedItemOperations.getNodeState( Path nodePath );1;0;3
+BatchedItemOperations.getNodeState( NodeId id );1;0;3
+BatchedItemOperations.copy( Path srcPath , Path destPath , int flag );1;0;3
+BatchedItemOperations.verifyUnlocked( Path nodePath );1;0;3
+BatchedItemOperations.findApplicablePropertyDefinition( Name name , int type , boolean multiValued , NodeState parentState );1;0;4
+BatchedItemOperations.createPropertyState( NodeState parent , Name propName , int type , int numValues );4;2;21
+BatchedItemOperations.clone( NodeState srcState , NodeState destParentState , Name destName );5;6;35
+BatchedItemOperations.verifyCanRead( Path nodePath );2;1;6
+BatchedItemOperations.removeNodeState( NodeState target );2;1;12
+BatchedItemOperations.copyPropertyState( PropertyState srcState , NodeId parentId , Name propName );5;4;22
+BatchedItemOperations.recursiveRemoveNodeState( NodeState targetState );6;5;42
+BatchedItemOperations.copy( Path srcPath , ItemStateManager srcStateMgr , HierarchyManager srcHierMgr , AccessManager srcAccessMgr , Path destPath , int flag );9;9;66
+BatchedItemOperations.edit( );1;0;3
+BatchedItemOperations.verifyCheckedOut( Path nodePath );5;2;25
+BatchedItemOperations.checkRemoveNode( NodeState targetState , NodeId parentId , int options );17;13;67
+BatchedItemOperations.destroy( ItemState state );1;0;3
+BatchedItemOperations.verifyNotProtected( Path nodePath );2;0;8
+BatchedItemOperations.checkRemoveNode( NodeState targetState , int options );1;0;3
+BatchedItemOperations.getPropertyState( PropertyId id );1;0;3
+BatchedItemOperations.clone( Path srcPath , Path destPath );2;1;16
+BatchedItemOperations.verifyCanWrite( Path nodePath );2;1;10
+BatchedItemOperations.copyNodeState( NodeState srcState , Path srcPath , ItemStateManager srcStateMgr , AccessManager srcAccessMgr , NodeId destParentId , int flag , ReferenceChangeTracker refTracker );30;15;144
+BatchedItemOperations.removeNode( Path nodePath );2;5;13
+BatchedItemOperations.update( );2;0;9
+BatchedItemOperations.isShareable( NodeState state );3;0;16
+BatchedItemOperations.checkInEditMode( );2;1;5
+BatchedItemOperations.cancel( );1;0;3
+BatchedItemOperations.getItemState( ItemId id );1;0;3
+BatchedItemOperations.createNodeState( NodeState parent , Name nodeName , Name nodeTypeName , Name [ ] mixinNames , NodeId id );2;1;9
+BatchedItemOperations.findApplicablePropertyDefinition( Name name , int type , NodeState parentState );1;0;4
+BatchedItemOperations.store( ItemState state );1;0;3
+BatchedItemOperations.BatchedItemOperations( UpdatableItemStateManager stateMgr , NodeTypeRegistry ntReg , LockManager lockMgr , SessionImpl session , HierarchyManager hierMgr );1;0;6
+BatchedItemOperations.createNodeState( NodeState parent , Name nodeName , Name nodeTypeName , Name [ ] mixinNames , NodeId id , NodeDef def );12;13;48
+BatchedItemOperations.getNodeState( ItemStateManager srcStateMgr , HierarchyManager srcHierMgr , Path nodePath );3;1;11
+BatchedItemOperations.computeSystemGeneratedPropertyValues( NodeState parent , PropDef def );13;0;36
+BatchedItemOperations.getItemState( ItemStateManager srcStateMgr , ItemId id );3;0;12

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RExecTask.createRead( );1;0;5
+AntRExecClient.sendString( String s , boolean echoString );3;0;12
+RExecRead.execute( AntRExecClient rexec );1;0;3
+RExecTask.setCommand( String c );1;0;3
+RExecTask.createWrite( );1;0;5
+RExecTask.setInitialCR( boolean b );1;0;3
+RExecWrite.setEcho( boolean b );1;0;3
+AntRExecClient.waitForString( String s , Integer timeout );12;15;34
+AntRExecClient.waitForEOF( Integer timeout );14;15;48
+RExecTask.handleMultipleTasks( AntRExecClient rexec );7;7;13
+RExecTask.setPassword( String p );1;0;3
+RExecTask.setTimeout( Integer i );1;0;3
+AntRExecClient.waitForString( String s );1;0;3
+RExecRead.setDefaultTimeout( Integer defaultTimeout );2;1;5
+RExecRead.setTimeout( Integer i );1;0;3
+RExecTask.setUserid( String u );1;0;3
+RExecWrite.execute( AntRExecClient rexec );1;0;3
+RExecSubTask.setString( String s );1;1;3
+RExecTask.setPort( int p );1;0;3
+RExecSubTask.execute( AntRExecClient rexec );1;0;3
+RExecTask.login( AntRExecClient rexec );2;0;9
+RExecTask.setServer( String m );1;0;3
+RExecSubTask.addText( String s );1;0;3
+RExecTask.execute( );15;16;38

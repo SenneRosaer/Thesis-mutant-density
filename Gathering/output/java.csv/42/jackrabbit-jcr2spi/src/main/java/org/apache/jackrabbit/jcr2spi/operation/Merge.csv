@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Merge.Merge( NodeState nodeState , String srcWorkspaceName , boolean bestEffort , VersionManager mgr );1;0;6
+Merge.create( NodeState nodeState , String srcWorkspaceName , boolean bestEffort , VersionManager mgr );1;0;3
+Merge.bestEffort( );1;0;3
+Merge.setFailedIds( Iterator failedIds );3;2;9
+Merge.getNodeId( );1;0;3
+Merge.getFailedIds( );2;1;6
+Merge.persisted( );3;2;13
+Merge.accept( OperationVisitor visitor );1;1;4
+Merge.getSourceWorkspaceName( );1;0;3

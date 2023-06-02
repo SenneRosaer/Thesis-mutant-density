@@ -1,0 +1,54 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestMappingInfoHandlerMappingTests.getHandlerRequestMethodNotAllowed( TestRequestMappingInfoHandlerMapping mapping );1;0;6
+RequestMappingInfoHandlerMappingTests.pathPatternsArguments( );1;0;13
+TestRequestMappingInfoHandlerMapping.createInfo( String ... patterns );1;0;3
+TestController.empty( );1;0;2
+TestRequestMappingInfoHandlerMapping.getBuilderConfig( );2;1;12
+TestController.param2( );1;0;3
+RequestMappingInfoHandlerMappingTests.getHandlerUnsatisfiedServletRequestParameterException( TestRequestMappingInfoHandlerMapping mapping );1;0;7
+RequestMappingInfoHandlerMappingTests.handleMatchMatrixVariables( TestRequestMappingInfoHandlerMapping mapping );3;2;47
+RequestMappingInfoHandlerMappingTests.testHttpMediaTypeNotSupportedException( TestRequestMappingInfoHandlerMapping mapping , String url );1;0;7
+TestController.bar( );1;0;2
+TestRequestMappingInfoHandlerMapping.initLookupPath( HttpServletRequest request );2;1;7
+RequestMappingInfoHandlerMappingTests.handleMatch( TestRequestMappingInfoHandlerMapping mapping , MockHttpServletRequest request , String pattern , String lookupPath );2;1;6
+RequestMappingInfoHandlerMappingTests.handleMatchMatrixVariablesDecoding( TestRequestMappingInfoHandlerMapping mapping );2;1;15
+TestController.foo( );1;0;2
+TestController.fooParam( );1;0;2
+RequestMappingInfoHandlerMappingTests.getHandlerDirectMatch( TestRequestMappingInfoHandlerMapping mapping );1;0;5
+RequestMappingInfoHandlerMappingTests.getMappingPathPatterns( TestRequestMappingInfoHandlerMapping mapping );1;0;6
+UserController.getUser( );1;0;2
+RequestMappingInfoHandlerMappingTests.handleMatchBestMatchingPatternAttributeInObservationContext( TestRequestMappingInfoHandlerMapping mapping );1;0;9
+TestController.consumes( @ RequestBody String text );1;0;2
+UserController.saveUser( );1;0;2
+RequestMappingInfoHandlerMappingTests.handleMatchBestMatchingPatternAttributeNoPatternsDefined( TestRequestMappingInfoHandlerMapping mapping );1;0;6
+RequestMappingInfoHandlerMappingTests.getHandler( TestRequestMappingInfoHandlerMapping mapping , MockHttpServletRequest request );1;0;5
+TestRequestMappingInfoHandlerMapping.registerHandler( Object handler );1;0;3
+RequestMappingInfoHandlerMappingTests.testHttpMediaTypeNotAcceptableException( TestRequestMappingInfoHandlerMapping mapping , String url );1;0;7
+RequestMappingInfoHandlerMappingTests.getHandlerMediaTypeNotAccepted( TestRequestMappingInfoHandlerMapping mapping );2;1;6
+RequestMappingInfoHandlerMappingTests.getMatrixVariables( HttpServletRequest request , String uriVarName );1;0;4
+RequestMappingInfoHandlerMappingTests.handleMatchUriTemplateVariablesDecode( TestRequestMappingInfoHandlerMapping mapping );1;0;14
+TestController.fooOptions( );1;0;5
+RequestMappingInfoHandlerMappingTests.testHttpOptions( TestRequestMappingInfoHandlerMapping mapping , String requestURI , String allowHeader , @ Nullable MediaType acceptPatch );3;2;17
+RequestMappingInfoHandlerMappingTests.handleNoMatchWithoutPartialMatches( TestRequestMappingInfoHandlerMapping mapping );1;0;8
+RequestMappingInfoHandlerMappingTests.setup( );1;0;7
+RequestMappingInfoHandlerMappingTests.getHandlerHttpOptions( TestRequestMappingInfoHandlerMapping mapping );1;0;7
+TestController.xmlContent( );1;0;3
+RequestMappingInfoHandlerMappingTests.getHandlerRequestMethodMatchFalsePositive( TestRequestMappingInfoHandlerMapping mapping );1;0;7
+RequestMappingInfoHandlerMappingTests.getHandlerEmptyPathMatch( TestRequestMappingInfoHandlerMapping mapping );1;0;5
+RequestMappingInfoHandlerMappingTests.getHandlerGlobMatch( TestRequestMappingInfoHandlerMapping mapping );1;0;5
+RequestMappingInfoHandlerMappingTests.getHandlerBestMatch( TestRequestMappingInfoHandlerMapping mapping );1;0;6
+RequestMappingInfoHandlerMappingTests.handleMatchUriTemplateVariables( TestRequestMappingInfoHandlerMapping mapping );1;0;11
+TestRequestMappingInfoHandlerMapping.getMappingForMethod( Method method , Class < ? > handlerType );2;1;16
+RequestMappingInfoHandlerMappingTests.getUriTemplateVariables( HttpServletRequest request );1;0;4
+RequestMappingInfoHandlerMappingTests.getHandlerMethodTypeNotSupportedWithParseError( TestRequestMappingInfoHandlerMapping mapping );1;0;7
+RequestMappingInfoHandlerMappingTests.getHandlerProducibleMediaTypesAttribute( TestRequestMappingInfoHandlerMapping mapping );1;0;11
+RequestMappingInfoHandlerMappingTests.getHandlerMappedInterceptors( );1;0;14
+TestRequestMappingInfoHandlerMapping.isHandler( Class < ? > beanType );1;1;3
+RequestMappingInfoHandlerMappingTests.getHandlerTestInvalidContentType( TestRequestMappingInfoHandlerMapping mapping );1;0;7
+TestController.getBaz( );1;0;3
+RequestMappingInfoHandlerMappingTests.getHandlerMediaTypeNotSupported( TestRequestMappingInfoHandlerMapping mapping );1;0;4
+TestController.patchBaz( String value );1;0;2
+RequestMappingInfoHandlerMappingTests.handleMatchBestMatchingPatternAttribute( TestRequestMappingInfoHandlerMapping mapping );1;0;6
+TestController.nonXmlContent( );1;0;3
+TestController.produces( );1;0;3
+TestController.param( );1;0;3

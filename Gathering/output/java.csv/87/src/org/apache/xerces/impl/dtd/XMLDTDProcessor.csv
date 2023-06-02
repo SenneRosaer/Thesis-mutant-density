@@ -1,0 +1,55 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLDTDProcessor.endGroup( Augmentations augs );3;2;7
+XMLDTDProcessor.any( Augmentations augs );3;2;7
+XMLDTDProcessor.unparsedEntityDecl( String name , XMLResourceIdentifier identifier , String notation , Augmentations augs );4;2;10
+XMLDTDProcessor.setDTDContentModelHandler( XMLDTDContentModelHandler dtdContentModelHandler );1;0;3
+XMLDTDProcessor.isValidName( String name );1;0;3
+XMLDTDProcessor.pcdata( Augmentations augs );3;2;8
+XMLDTDProcessor.startParameterEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );6;5;11
+***not in a method***;0;10;0
+XMLDTDProcessor.startDTD( XMLLocator locator , Augmentations augs );4;3;12
+XMLDTDProcessor.comment( XMLString text , Augmentations augs );3;2;7
+XMLDTDProcessor.reset( );3;1;13
+XMLDTDProcessor.setFeature( String featureId , boolean state );1;0;2
+XMLDTDProcessor.checkStandaloneEntityRef( String name , DTDGrammar grammar , XMLEntityDecl tempEntityDecl , XMLErrorReporter errorReporter );3;2;11
+XMLDTDProcessor.getFeatureDefault( String featureId );3;2;8
+XMLDTDProcessor.internalEntityDecl( String name , XMLString text , XMLString nonNormalizedText , Augmentations augs );5;5;11
+XMLDTDProcessor.getPropertyDefault( String propertyId );3;2;8
+XMLDTDProcessor.getRecognizedProperties( );1;0;3
+XMLDTDProcessor.getDTDSource( );1;0;3
+XMLDTDProcessor.setDTDContentModelSource( XMLDTDContentModelSource source );1;0;3
+XMLDTDProcessor.attributeDecl( String elementName , String attributeName , String type , String [ ] enumeration , String defaultType , XMLString defaultValue , XMLString nonNormalizedDefaultValue , Augmentations augs );55;71;148
+XMLDTDProcessor.setDTDSource( XMLDTDSource source );1;0;3
+XMLDTDProcessor.startExternalSubset( XMLResourceIdentifier identifier , Augmentations augs );3;2;7
+XMLDTDProcessor.getDTDContentModelSource( );1;0;3
+XMLDTDProcessor.setProperty( String propertyId , Object value );1;0;2
+XMLDTDProcessor.endParameterEntity( String name , Augmentations augs );3;2;7
+XMLDTDProcessor.checkDeclaredElements( DTDGrammar grammar );4;4;14
+XMLDTDProcessor.element( String elementName , Augmentations augs );6;3;18
+XMLDTDProcessor.endAttlist( Augmentations augs );3;2;7
+XMLDTDProcessor.ignoredCharacters( XMLString text , Augmentations augs );3;2;7
+XMLDTDProcessor.occurrence( short occurrence , Augmentations augs );3;2;7
+XMLDTDProcessor.getRecognizedFeatures( );1;0;3
+XMLDTDProcessor.startConditional( short type , Augmentations augs );3;3;8
+XMLDTDProcessor.reset( XMLComponentManager componentManager );11;6;61
+XMLDTDProcessor.startGroup( Augmentations augs );3;2;8
+XMLDTDProcessor.separator( short separator , Augmentations augs );3;2;7
+XMLDTDProcessor.endContentModel( Augmentations augs );3;2;7
+XMLDTDProcessor.getDTDContentModelHandler( );1;0;3
+XMLDTDProcessor.checkDeclaredElements( DTDGrammar grammar , int elementIndex , int contentSpecIndex , XMLContentSpec contentSpec );9;13;25
+XMLDTDProcessor.endDTD( Augmentations augs );13;9;55
+XMLDTDProcessor.notationDecl( String name , XMLResourceIdentifier identifier , Augmentations augs );6;5;16
+XMLDTDProcessor.externalEntityDecl( String name , XMLResourceIdentifier identifier , Augmentations augs );5;5;11
+XMLDTDProcessor.elementDecl( String name , String contentModel , Augmentations augs );5;2;18
+XMLDTDProcessor.textDecl( String version , String encoding , Augmentations augs );3;2;7
+XMLDTDProcessor.setDTDHandler( XMLDTDHandler dtdHandler );1;0;3
+XMLDTDProcessor.XMLDTDProcessor( );1;0;2
+XMLDTDProcessor.endConditional( Augmentations augs );3;2;8
+XMLDTDProcessor.endExternalSubset( Augmentations augs );3;2;7
+XMLDTDProcessor.empty( Augmentations augs );3;2;7
+XMLDTDProcessor.startAttlist( String elementName , Augmentations augs );3;2;7
+XMLDTDProcessor.processingInstruction( String target , XMLString data , Augmentations augs );3;2;7
+XMLDTDProcessor.normalizeDefaultAttrValue( XMLString value );7;11;30
+XMLDTDProcessor.getDTDHandler( );1;0;3
+XMLDTDProcessor.startContentModel( String elementName , Augmentations augs );4;2;11
+XMLDTDProcessor.isValidNmtoken( String nmtoken );1;0;3

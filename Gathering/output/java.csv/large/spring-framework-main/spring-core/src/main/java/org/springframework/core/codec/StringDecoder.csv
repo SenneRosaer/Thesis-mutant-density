@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StringDecoder.getDelimiterBytes( @ Nullable MimeType mimeType );2;2;9
+StringDecoder.getCharset( @ Nullable MimeType mimeType );3;3;8
+StringDecoder.textPlainOnly( );1;0;3
+StringDecoder.decode( Publisher < DataBuffer > input , ResolvableType elementType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );2;0;18
+StringDecoder.allMimeTypes( );1;0;3
+StringDecoder.textPlainOnly( List < String > delimiters , boolean stripDelimiter );1;0;3
+StringDecoder.canDecode( ResolvableType elementType , @ Nullable MimeType mimeType );2;2;3
+StringDecoder.allMimeTypes( List < String > delimiters , boolean stripDelimiter );1;0;4
+StringDecoder.decode( DataBuffer dataBuffer , ResolvableType elementType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );1;2;10
+StringDecoder.getDefaultCharset( );1;0;3
+StringDecoder.setDefaultCharset( Charset defaultCharset );1;0;3
+StringDecoder.processDataBuffer( DataBuffer buffer , DataBufferUtils . Matcher matcher , LimitedDataBufferList chunks );9;8;41
+StringDecoder.StringDecoder( List < String > delimiters , boolean stripDelimiter , MimeType ... mimeTypes );1;0;6

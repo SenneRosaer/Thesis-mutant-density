@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScopeDaoImpl.setState( org . apache . ode . bpel . dao . ScopeStateEnum state );1;0;3
+ScopeDaoImpl.getPartnerLink( int modelId );1;0;3
+ScopeDaoImpl.getCorrelationSet( String corrSetName );2;1;8
+ScopeDaoImpl.createPartnerLink( int plinkModelId , String pLinkName , String myRole , String partnerRole );1;0;9
+ScopeDaoImpl.listEvents( );1;0;3
+ScopeDaoImpl.getVariable( String varName );2;1;8
+ScopeDaoImpl.getName( );1;0;3
+ScopeDaoImpl.getParentScope( );1;0;3
+ScopeDaoImpl.getVariables( );1;0;3
+ScopeDaoImpl.getState( );1;0;3
+ScopeDaoImpl.ScopeDaoImpl( ProcessInstanceDaoImpl owner , ScopeDAO parent , String type , int scopeModelId );1;0;7
+ScopeDaoImpl.getScopeInstanceId( );1;0;3
+ScopeDaoImpl.getModelId( );1;0;3
+ScopeDaoImpl.getCorrelationSets( );1;0;3
+ScopeDaoImpl.getPartnerLinks( );1;0;3
+ScopeDaoImpl.getProcessInstance( );1;0;3
+ScopeDaoImpl.getChildScopes( );1;0;3

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebRequestImpl.WebRequestImpl( );1;0;2
+WebRequestImpl.WebRequestImpl( WebConfiguration theConfiguration );1;0;3
+WebRequestImpl.setAutomaticSession( boolean isAutomaticSession );1;0;3
+WebRequestImpl.setURL( String theServerName , String theContextPath , String theServletPath , String thePathInfo , String theQueryString );1;0;5
+WebRequestImpl.getSessionCookie( );5;2;53
+WebRequestImpl.toString( );1;0;7
+WebRequestImpl.addQueryStringParameters( String theQueryString );4;5;24
+WebRequestImpl.getAutomaticSession( );1;0;3
+WebRequestImpl.getRedirectorName( );1;0;3
+WebRequestImpl.setRedirectorName( String theRedirectorName );1;0;3
+WebRequestImpl.getURL( );1;0;3

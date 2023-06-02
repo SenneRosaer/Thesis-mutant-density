@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QNameSetBuilder.restrict( QNameSetSpecification set );2;0;6
+QNameSetBuilder.clear( );1;0;6
+QNameSetBuilder.isAll( );3;4;3
+QNameSetBuilder.nsFromName( QName QName );2;1;4
+QNameSetBuilder.includedURIs( );2;1;4
+QNameSetBuilder.isEmpty( );3;5;3
+QNameSetBuilder.QNameSetBuilder( Set excludedURIs , Set includedURIs , Set excludedQNamesInIncludedURIs , Set includedQNamesInExcludedURIs );5;6;18
+QNameSetBuilder.removeAllMatchingNeither( Set setFirst , Set setSecond , Set qnameset );4;3;8
+QNameSetBuilder.removeAllMatchingFirstOnly( Set setFirst , Set setSecond , Set qnameset );4;2;8
+QNameSetBuilder.splitList( String s );8;9;18
+QNameSetBuilder.excludedURIs( );2;0;4
+QNameSetBuilder.isDisjoint( QNameSetSpecification set );4;2;8
+QNameSetBuilder.remove( QName qname );2;0;6
+QNameSetBuilder.prettyQName( QName name );2;2;5
+QNameSetBuilder.removeAllMatchingBoth( Set setFirst , Set setSecond , Set qnameset );4;1;8
+QNameSetBuilder.containsAll( QNameSetSpecification set );3;3;5
+QNameSetBuilder.removeAllImpl( Set includedURIs , Set excludedURIs , Set includedQNames , Set excludedQNames );14;6;46
+QNameSetBuilder.invert( );1;1;3
+QNameSetBuilder.intersect( QNameSetSpecification set );1;0;5
+QNameSetBuilder.toString( );6;1;28
+QNameSetBuilder.isDisjointImpl( QNameSetSpecification set1 , QNameSetSpecification set2 );11;3;33
+QNameSetBuilder.QNameSetBuilder( QNameSetSpecification set );2;1;17
+QNameSetBuilder.contains( QName name );2;2;6
+QNameSetBuilder.isSpace( char ch );5;0;12
+QNameSetBuilder.addAll( QNameSetSpecification set );2;0;6
+QNameSetBuilder.QNameSetBuilder( String str , String targetURI );10;5;41
+QNameSetBuilder.removeAll( QNameSetSpecification set );2;0;6
+QNameSetBuilder.removeImpl( QName qname );2;0;6
+QNameSetBuilder.addNamespace( String uri );2;1;6
+QNameSetBuilder.removeNamespaceImpl( String uri );2;0;11
+QNameSetBuilder.union( QNameSetSpecification set );1;0;5
+QNameSetBuilder.excludedQNamesInIncludedURIs( );2;0;3
+QNameSetBuilder.removeAllMatchingNs( String uri , Set qnameset );3;0;7
+QNameSetBuilder.QNameSetBuilder( );1;0;6
+QNameSetBuilder.toQNameSet( );1;0;3
+QNameSetBuilder.addImpl( QName qname );2;0;6
+QNameSetBuilder.removeNamespace( String uri );2;0;6
+QNameSetBuilder.addNamespaceImpl( String uri );2;0;11
+QNameSetBuilder.inverse( );1;0;3
+QNameSetBuilder.includedQNamesInExcludedURIs( );2;0;3
+QNameSetBuilder.addAllImpl( Set includedURIs , Set excludedURIs , Set includedQNames , Set excludedQNames );15;12;54
+QNameSetBuilder.add( QName qname );2;1;6

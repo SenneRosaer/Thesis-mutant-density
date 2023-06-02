@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScheduledExecutorFactoryBeanTests.shutdownNowIsPropagatedToTheExecutorOnDestroy( );1;0;13
+ScheduledExecutorFactoryBeanTests.shutdownIsPropagatedToTheExecutorOnDestroy( );1;0;14
+ScheduledExecutorFactoryBeanTests.objectTypeReportsCorrectType( );1;0;4
+ScheduledExecutorFactoryBeanTests.pauseToLetTaskStart( int seconds );2;1;7
+ScheduledExecutorFactoryBeanTests.throwsExceptionIfPoolSizeIsLessThanZero( );1;1;4
+ScheduledExecutorFactoryBeanTests.createExecutor( int poolSize , ThreadFactory threadFactory , RejectedExecutionHandler rejectedExecutionHandler );1;0;3
+ScheduledExecutorFactoryBeanTests.settingRejectedExecutionHandlerToNullForcesUseOfDefaultButIsOtherwiseCool( );1;0;13
+ScheduledExecutorFactoryBeanTests.oneTimeExecutionIsSetUpAndFiresCorrectly( );1;0;9
+ScheduledExecutorFactoryBeanTests.withInitialDelayRepeatedExecutionIsSetUpAndFiresCorrectlyAfterException( );1;0;14
+ScheduledExecutorFactoryBeanTests.fixedRepeatedExecutionIsSetUpAndFiresCorrectlyAfterException( );1;0;14
+ScheduledExecutorFactoryBeanTests.settingThreadFactoryToNullForcesUseOfDefaultButIsOtherwiseCool( );1;0;13
+ScheduledExecutorFactoryBeanTests.withInitialDelayRepeatedExecutionIsSetUpAndFiresCorrectly( );1;0;12
+ScheduledExecutorFactoryBeanTests.fixedRepeatedExecutionIsSetUpAndFiresCorrectly( );1;0;12
+NoOpScheduledExecutorTask.NoOpScheduledExecutorTask( );1;0;3

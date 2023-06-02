@@ -1,0 +1,85 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PageFlowUtils.getCurrentActionResolver( HttpServletRequest request );1;0;4
+PageFlowUtils.getJpfClassName( String uri );1;0;3
+PageFlowUtils.getRewrittenResourceURI( ServletContext servletContext , HttpServletRequest request , HttpServletResponse response , String path , Map params , String fragment , boolean forXML );1;0;3
+PageFlowUtils.getSharedFlow( String sharedFlowClassName , HttpServletRequest request , ServletContext servletContext );2;2;12
+PageFlowUtils.getURLTemplateKey( URLType urlType , boolean needsToBeSecure );5;0;26
+PageFlowUtils.removeLongLivedPageFlow( String modulePath , HttpServletRequest request );1;0;4
+PageFlowUtils.ensureAppDeployment( HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );1;0;3
+PageFlowUtils.isPreventCache( ServletRequest request );1;2;4
+PageFlowUtils.getPageFlowClassName( String modulePath , ServletRequest request , ServletContext context );1;0;3
+PageFlowUtils.rewriteResourceOrHrefURL( ServletContext servletContext , HttpServletRequest request , HttpServletResponse response , String path , Map params , String fragment , boolean forXML , URLType urlType );7;9;33
+PageFlowUtils.getModuleConfPath( String modulePath );1;0;3
+PageFlowUtils.getSecurityProtocol( String uri , ServletContext servletContext , HttpServletRequest request );1;0;3
+PageFlowUtils.getCurrentActionResolver( HttpServletRequest request , ServletContext servletContext );2;1;17
+PageFlowUtils.removeSharedFlow( String sharedFlowClassName , HttpServletRequest request );1;0;4
+PageFlowUtils.getGlobalApp( HttpServletRequest request );2;0;4
+PageFlowUtils.addActionError( ServletRequest request , String propertyName , String messageKey , Object [ ] messageArgs );1;0;3
+PageFlowUtils.getCurrentPageFlow( HttpServletRequest request , ServletContext servletContext );3;2;9
+PageFlowUtils.getRewrittenActionURI( ServletContext servletContext , HttpServletRequest request , HttpServletResponse response , String actionName , Map params , String fragment , boolean forXML );3;2;10
+PageFlowUtils.ensureCurrentPageFlow( HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );3;0;16
+PageFlowUtils.setOutputForms( ActionMapping mapping , Forward fwd , HttpServletRequest request );3;2;11
+PageFlowUtils.destroyPageFlowStack( HttpServletRequest request );1;0;4
+PageFlowUtils.isAbsoluteURI( String uri );1;0;3
+PageFlowUtils.getLongLivedPageFlow( String modulePath , HttpServletRequest request , ServletContext servletContext );1;0;9
+PageFlowUtils.getModuleConfig( String modulePath , ServletContext context );1;0;3
+PageFlowUtils.addValidationError( String propertyName , String messageKey , Object messageArg , ServletRequest request );1;0;3
+PageFlowUtils.addActionOutput( String name , Object value , ServletRequest request );3;0;11
+PageFlowUtils.getModulePath( HttpServletRequest request , String requestURI );1;0;3
+PageFlowUtils.ensureGlobalApp( HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );2;1;12
+PageFlowUtils.addBindingUpdateError( ServletRequest request , String expression , String message , Throwable e );1;0;3
+PageFlowUtils.addActionError( ServletRequest request , String propertyName , String messageKey );1;0;3
+PageFlowUtils.getCurrentPageFlow( HttpServletRequest request );3;2;4
+PageFlowUtils.addActionError( ServletRequest request , String propertyName , String messageKey , Object messageArg1 , Object messageArg2 , Object messageArg3 );1;0;4
+PageFlowUtils.addPageInput( String name , Object value , ServletRequest request );1;0;3
+PageFlowUtils.getModulePath( HttpServletRequest request );1;0;3
+PageFlowUtils.getFormBeanName( ActionForm formInstance , HttpServletRequest request );1;0;3
+PageFlowUtils.getPageFlowClassName( String uri );3;4;11
+PageFlowUtils.getFormNamesFromModuleConfig( String formBeanClassName , ModuleConfig moduleConfig );4;5;23
+PageFlowUtils.ensureGlobalApp( HttpServletRequest request , HttpServletResponse response );1;0;4
+PageFlowUtils.setOutputForms( ActionMapping mapping , Forward fwd , HttpServletRequest request , boolean overwrite );3;2;5
+PageFlowUtils.ensureModuleConfig( String modulePath , ServletRequest request , ServletContext context );1;0;3
+PageFlowUtils.setOutputForms( ActionMapping mapping , ActionForm [ ] outputForms , HttpServletRequest request );1;0;3
+PageFlowUtils.setOutputForm( ActionMapping mapping , ActionForm form , HttpServletRequest request , boolean overwrite );14;13;52
+PageFlowUtils.getBeginActionURI( String requestURI );2;2;10
+PageFlowUtils.getSharedFlows( HttpServletRequest request );2;1;4
+PageFlowUtils.ensureCurrentPageFlow( HttpServletRequest request , HttpServletResponse response );3;2;8
+PageFlowUtils.removeSharedFlow( String sharedFlowClassName , HttpServletRequest request , ServletContext servletContext );1;1;8
+PageFlowUtils.getPageInput( String name , ServletRequest request );1;0;3
+PageFlowUtils.strutsLookup( ServletContext context , ServletRequest request , HttpServletResponse response , String actionOverride , String [ ] autoResolveExtensions , boolean processPopulateAlreadyCalled );12;13;78
+PageFlowUtils.getSharedFlow( String sharedFlowClassName , HttpServletRequest request );1;0;4
+PageFlowUtils.getRelativeURI( HttpServletRequest request , String uri , PageFlowController relativeTo );3;6;7
+PageFlowUtils.getRelativeURI( HttpServletRequest request , PageFlowController relativeTo );2;1;4
+PageFlowUtils.generateFormBeanName( Class formBeanClass , HttpServletRequest request );3;6;18
+PageFlowUtils.getFormBeanName( Class formBeanClass , HttpServletRequest request );2;2;10
+PageFlowUtils.getGlobalAppConfig( ServletContext servletContext );1;0;3
+PageFlowUtils.setCurrentActionResolver( ActionResolver resolver , HttpServletRequest request );1;0;4
+PageFlowUtils.addValidationError( String propertyName , String messageKey , Object [ ] messageArgs , ServletRequest request );1;0;3
+PageFlowUtils.addActionError( ServletRequest request , String propertyName , String messageKey , Object messageArg1 , Object messageArg2 );1;0;4
+PageFlowUtils.dumpRequest( HttpServletRequest request , PrintStream output );1;0;3
+PageFlowUtils.addActionError( ServletRequest request , String propertyName , String messageKey , Object messageArg );1;0;4
+PageFlowUtils.getActionOutput( String name , ServletRequest request );2;1;4
+PageFlowUtils.getActionURI( ServletRequest request );1;0;3
+PageFlowUtils.getPageFlowURI( String className );1;2;3
+PageFlowUtils.unwrapMultipart( HttpServletRequest request );2;0;7
+PageFlowUtils.getActionURI( ServletContext servletContext , HttpServletRequest request , HttpServletResponse response , String actionName );5;5;19
+PageFlowUtils.getRewrittenHrefURI( ServletContext servletContext , HttpServletRequest request , HttpServletResponse response , String path , Map params , String fragment , boolean forXML );1;0;3
+PageFlowUtils.getNestingPageFlow( HttpServletRequest request );1;0;4
+PageFlowUtils.setOutputForms( ActionMapping mapping , ActionForm [ ] outputForms , HttpServletRequest request , boolean overwrite );5;5;17
+PageFlowUtils.needsToBeSecure( ServletContext context , ServletRequest request , String uri , boolean stripContextPath );5;2;21
+PageFlowUtils.isSecureResource( String uri , ServletContext context );1;0;3
+PageFlowUtils.getFileExtension( String filename );1;0;3
+PageFlowUtils.addActionErrorExpression( HttpServletRequest request , String propertyName , String expression , Object [ ] messageArgs );1;0;4
+PageFlowUtils.preventCache( HttpServletResponse response );1;0;3
+PageFlowUtils.getModulePathForRelativeURI( String uri );2;3;8
+PageFlowUtils.getNestingPageFlow( HttpServletRequest request , ServletContext servletContext );3;3;9
+PageFlowUtils.strutsLookup( ServletContext context , ServletRequest request , HttpServletResponse response , String actionOverride , String [ ] autoResolveExtensions );1;0;3
+PageFlowUtils.setPreventCache( ServletRequest request );1;1;4
+PageFlowUtils.dumpServletContext( ServletContext context , PrintStream output );1;0;3
+PageFlowUtils.getBindingUpdateErrors( ServletRequest request );1;0;3
+PageFlowUtils.createURLTemplatesFactory( ServletContext servletContext );2;1;9
+PageFlowUtils.getLongLivedPageFlow( String modulePath , HttpServletRequest request );1;0;4
+PageFlowUtils.getPageFlowStack( HttpServletRequest request );1;0;4
+PageFlowUtils.addValidationError( String propertyName , String messageKey , ServletRequest request );1;0;3
+PageFlowUtils.setActionURI( HttpServletRequest request );1;0;3
+PageFlowUtils.removeLongLivedPageFlow( String modulePath , HttpServletRequest request , ServletContext servletContext );2;0;16

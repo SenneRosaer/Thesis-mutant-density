@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EqualsBuilder.append( char [ ] lhs , char [ ] rhs );8;9;20
+EqualsBuilder.append( boolean [ ] lhs , boolean [ ] rhs );8;9;20
+EqualsBuilder.append( char lhs , char rhs );1;2;4
+EqualsBuilder.append( short [ ] lhs , short [ ] rhs );8;9;20
+EqualsBuilder.isEquals( );1;0;3
+EqualsBuilder.append( long [ ] lhs , long [ ] rhs );8;9;20
+EqualsBuilder.append( boolean lhs , boolean rhs );1;2;4
+EqualsBuilder.reflectionEquals( Object lhs , Object rhs , String [ ] excludeFields );1;0;3
+EqualsBuilder.reflectionEquals( Object lhs , Object rhs );1;0;3
+EqualsBuilder.reflectionEquals( Object lhs , Object rhs , boolean testTransients , Class < ? > reflectUpToClass );1;0;3
+EqualsBuilder.append( short lhs , short rhs );1;2;4
+EqualsBuilder.append( int [ ] lhs , int [ ] rhs );8;9;20
+EqualsBuilder.EqualsBuilder( );1;0;2
+EqualsBuilder.append( long lhs , long rhs );1;2;4
+EqualsBuilder.append( Object lhs , Object rhs );18;9;41
+EqualsBuilder.append( byte [ ] lhs , byte [ ] rhs );8;9;20
+EqualsBuilder.append( double lhs , double rhs );2;1;6
+EqualsBuilder.reflectionEquals( Object lhs , Object rhs , boolean testTransients );1;0;3
+EqualsBuilder.reflectionAppend( Object lhs , Object rhs , Class < ? > clazz , EqualsBuilder builder , boolean useTransients , String [ ] excludeFields );10;13;22
+EqualsBuilder.append( float lhs , float rhs );2;1;6
+EqualsBuilder.setEquals( boolean isEquals );1;0;3
+EqualsBuilder.append( int lhs , int rhs );1;2;4
+EqualsBuilder.append( Object [ ] lhs , Object [ ] rhs );8;9;20
+EqualsBuilder.appendSuper( boolean superEquals );1;1;4
+EqualsBuilder.reflectionEquals( Object lhs , Object rhs , boolean testTransients , Class < ? > reflectUpToClass , String [ ] excludeFields );15;9;36
+EqualsBuilder.append( byte lhs , byte rhs );1;2;4
+EqualsBuilder.append( double [ ] lhs , double [ ] rhs );8;9;20
+EqualsBuilder.append( float [ ] lhs , float [ ] rhs );8;9;20

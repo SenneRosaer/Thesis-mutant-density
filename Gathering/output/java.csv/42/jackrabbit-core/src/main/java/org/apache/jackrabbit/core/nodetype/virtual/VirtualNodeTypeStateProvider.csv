@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VirtualNodeTypeStateProvider.onNodeTypeModified( Name ntName );2;0;7
+VirtualNodeTypeStateProvider.onNodeTypeAdded( Name ntName );2;0;12
+VirtualNodeTypeStateProvider.createNodeTypeState( VirtualNodeState parent , NodeTypeDef ntDef );4;5;24
+VirtualNodeTypeStateProvider.internalHasNodeState( NodeId id );1;0;3
+VirtualNodeTypeStateProvider.createRootNodeState( );2;2;14
+VirtualNodeTypeStateProvider.internalGetNodeState( NodeId id );1;0;3
+VirtualNodeTypeStateProvider.calculateStableUUID( String name );3;0;11
+VirtualNodeTypeStateProvider.setNodeReferences( ChangeLog references );1;0;3
+VirtualNodeTypeStateProvider.VirtualNodeTypeStateProvider( NodeTypeRegistry ntReg , NodeId rootNodeId , NodeId parentId );2;0;8
+VirtualNodeTypeStateProvider.onNodeTypeRemoved( Name ntName );2;0;7
+VirtualNodeTypeStateProvider.createPropertyDefState( VirtualNodeState parent , PropDef propDef , NodeTypeDef ntDef , int n );3;5;27
+VirtualNodeTypeStateProvider.createChildNodeDefState( VirtualNodeState parent , NodeDef cnDef , NodeTypeDef ntDef , int n );3;4;21

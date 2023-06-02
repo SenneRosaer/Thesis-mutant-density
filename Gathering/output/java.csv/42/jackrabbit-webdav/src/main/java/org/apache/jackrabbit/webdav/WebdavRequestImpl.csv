@@ -1,0 +1,93 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebdavRequestImpl.getCharacterEncoding( );1;0;3
+WebdavRequestImpl.getReader( );1;0;3
+WebdavRequestImpl.removeAttribute( String s );1;0;3
+WebdavRequestImpl.getHeader( String s );1;0;3
+WebdavRequestImpl.isRequestedSessionIdFromURL( );1;0;3
+WebdavRequestImpl.getUpdateInfo( );2;1;8
+WebdavRequestImpl.isRequestedSessionIdValid( );1;0;3
+WebdavRequestImpl.matchesIfHeader( DavResource resource );5;6;11
+WebdavRequestImpl.getLockToken( );1;0;3
+WebdavRequestImpl.isStrongETag( String eTag );3;5;3
+WebdavRequestImpl.getDateHeader( String s );1;0;3
+WebdavRequestImpl.getLabelInfo( );2;1;10
+WebdavRequestImpl.getServerName( );1;0;3
+WebdavRequestImpl.getRequestDocument( );10;5;35
+WebdavRequestImpl.getRequestedSessionId( );1;0;3
+WebdavRequestImpl.getContentType( );1;0;3
+WebdavRequestImpl.getTransactionInfo( );2;1;7
+WebdavRequestImpl.getRebindInfo( );2;1;8
+WebdavRequestImpl.getIntHeader( String s );1;0;3
+WebdavRequestImpl.getUnbindInfo( );2;1;8
+WebdavRequestImpl.getOrderingType( );1;0;3
+WebdavRequestImpl.getDepth( );1;0;3
+WebdavRequestImpl.getRemoteHost( );1;0;3
+WebdavRequestImpl.getInputStream( );1;0;3
+WebdavRequestImpl.setAttribute( String s , Object o );1;0;3
+WebdavRequestImpl.getLockInfo( );3;2;17
+WebdavRequestImpl.parsePropFindRequest( );13;8;54
+WebdavRequestImpl.getRequestDispatcher( String s );1;0;3
+WebdavRequestImpl.getServerPort( );1;0;3
+WebdavRequestImpl.getAuthType( );1;0;3
+WebdavRequestImpl.getSession( );1;0;3
+WebdavRequestImpl.getTimeout( );1;0;3
+WebdavRequestImpl.getRemoteAddr( );1;0;3
+WebdavRequestImpl.getPropFindProperties( );2;1;6
+WebdavRequestImpl.getContextPath( );1;0;3
+WebdavRequestImpl.WebdavRequestImpl( HttpServletRequest httpRequest , DavLocatorFactory factory );1;2;8
+WebdavRequestImpl.getScheme( );1;0;3
+WebdavRequestImpl.getPropFindType( );2;1;6
+WebdavRequestImpl.getHeaderNames( );1;0;3
+WebdavRequestImpl.setDavSession( DavSession session );4;2;14
+WebdavRequestImpl.getAttributeNames( );1;0;3
+WebdavRequestImpl.isRequestedSessionIdFromUrl( );1;0;3
+WebdavRequestImpl.getPathInfo( );1;0;3
+WebdavRequestImpl.getRemoteUser( );1;0;3
+WebdavRequestImpl.parsePropPatchRequest( );10;4;41
+WebdavRequestImpl.getPropPatchSetProperties( );2;1;6
+WebdavRequestImpl.getUserPrincipal( );1;0;3
+WebdavRequestImpl.setCharacterEncoding( String s );1;0;3
+WebdavRequestImpl.getDepth( int defaultValue );1;0;3
+WebdavRequestImpl.getLabel( );2;1;7
+WebdavRequestImpl.getQueryString( );1;0;3
+WebdavRequestImpl.getOptionsInfo( );2;1;8
+WebdavRequestImpl.getMethod( );1;0;3
+WebdavRequestImpl.getLocale( );1;0;3
+WebdavRequestImpl.getPropPatchRemoveProperties( );2;1;6
+WebdavRequestImpl.matchesIfHeader( String href , String token , String eTag );2;0;3
+WebdavRequestImpl.getContentLength( );1;0;3
+WebdavRequestImpl.getAttribute( String s );1;0;3
+WebdavRequestImpl.getSession( boolean b );1;0;3
+WebdavRequestImpl.getParameterValues( String s );1;0;3
+WebdavRequestImpl.getDestinationLocator( );1;0;3
+WebdavRequestImpl.getPosition( );4;2;15
+WebdavRequestImpl.getHrefLocator( String href );8;5;28
+WebdavRequestImpl.getRealPath( String s );1;0;3
+WebdavRequestImpl.getDavSession( );1;0;3
+WebdavRequestImpl.getTransactionId( );1;0;3
+WebdavRequestImpl.isOverwrite( );1;0;3
+WebdavRequestImpl.getPathTranslated( );1;0;3
+WebdavRequestImpl.getOrderPatch( );2;1;11
+WebdavRequestImpl.getParameterMap( );1;0;3
+WebdavRequestImpl.getParameterNames( );1;0;3
+WebdavRequestImpl.getMemberLocator( String segment );1;1;4
+WebdavRequestImpl.getLocales( );1;0;3
+WebdavRequestImpl.isSecure( );1;0;3
+WebdavRequestImpl.getProtocol( );1;0;3
+WebdavRequestImpl.getRequestURL( );1;0;3
+WebdavRequestImpl.isUserInRole( String s );1;0;3
+WebdavRequestImpl.isRequestedSessionIdFromCookie( );1;0;3
+WebdavRequestImpl.getStrongETag( DavResource resource );4;3;10
+WebdavRequestImpl.getSubscriptionInfo( );3;2;11
+WebdavRequestImpl.getRequestLocator( );2;0;8
+WebdavRequestImpl.getServletPath( );1;0;3
+WebdavRequestImpl.getPollTimeout( );1;0;3
+WebdavRequestImpl.getMergeInfo( );2;1;8
+WebdavRequestImpl.getCookies( );1;0;3
+WebdavRequestImpl.getReportInfo( );2;1;8
+WebdavRequestImpl.getSubscriptionId( );1;0;3
+WebdavRequestImpl.getPropPatchChangeList( );2;1;6
+WebdavRequestImpl.getBindInfo( );2;1;8
+WebdavRequestImpl.getRequestURI( );1;0;3
+WebdavRequestImpl.getHeaders( String s );1;0;3
+WebdavRequestImpl.getParameter( String s );1;0;3

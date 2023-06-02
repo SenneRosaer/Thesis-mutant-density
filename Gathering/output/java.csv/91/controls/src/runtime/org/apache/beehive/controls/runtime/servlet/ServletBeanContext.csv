@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletBeanContext.ServletBeanContext( );1;0;3
+ServletBeanContext.beginContext( ServletContext context , ServletRequest req , ServletResponse resp );1;0;4
+ServletBeanContext.popRequestContext( );1;0;3
+ServletBeanContext.useWrappers( );1;0;3
+ServletBeanContext.peekRequestContext( );2;0;6
+ServletBeanContext.getServletContext( );2;1;6
+ServletBeanContext.pushRequestContext( ServletContext context , ServletRequest req , ServletResponse resp );1;0;3
+ServletBeanContext.getServletResponse( );2;1;6
+ServletBeanContext.endContext( );1;0;4
+ServletBeanContext.getServletRequest( );2;1;6
+ServletBeanContext.getResource( String name , BeanContextChild bcc );3;1;15
+ServletBeanContext.getResourceAsStream( String name , BeanContextChild bcc );2;1;6
+ServletBeanContext.getService( Class < T > serviceClass , Object selector );3;2;7
+RequestContext.RequestContext( ServletContext context , ServletRequest req , ServletResponse resp );1;0;5
+ServletBeanContext.initialize( );1;0;11
+ServletBeanContext.getRequestStack( );2;1;5
+ServletBeanContext.setWrappers( boolean useWrappers );1;0;3

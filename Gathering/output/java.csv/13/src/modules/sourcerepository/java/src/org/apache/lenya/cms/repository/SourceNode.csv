@@ -1,0 +1,47 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SourceNode.setPersistable( Persistable item );1;0;3
+SourceNode.getContentLength( );1;0;3
+SourceNode.SourceNode( Session session , String sourceUri , ServiceManager manager , Logger logger );1;0;7
+SourceNode.checkin( );3;1;14
+SourceNode.getUserId( );3;2;11
+SourceNode.lock( );5;4;16
+SourceNode.getChildren( );3;1;19
+SourceNode.createTransactionable( );1;0;2
+SourceNode.getInputStream( );1;0;3
+SourceNode.getLastModified( );3;1;13
+SourceNode.unlock( );2;0;8
+SourceNode.isCheckedOutBySession( Session session );2;0;7
+SourceNode.isCheckedOutBySession( );1;0;3
+SourceNode.getCacheKey( );1;0;3
+SourceNode.forceCheckIn( );3;1;14
+SourceNode.getDocumentNode( );3;1;20
+SourceNode.getHistory( );1;0;3
+SourceNode.getSourceURI( );1;0;3
+SourceNode.getMetaData( String namespaceUri );1;0;3
+SourceNode.getMetaSource( );1;0;3
+SourceNode.hasChanged( );2;1;9
+SourceNode.copyRevisionsFrom( Node source );5;0;16
+SourceNode.registerDirty( );3;1;10
+SourceNode.getRcml( );2;1;7
+SourceNode.checkout( boolean restrictedToSession );6;3;18
+SourceNode.isCheckedOut( );2;0;7
+SourceNode.toString( );1;0;3
+SourceNode.isCollection( );2;0;11
+SourceNode.getContentSource( );1;0;3
+SourceNode.getPersistable( );1;0;3
+SourceNode.getMetaDataNamespaceUris( );1;0;3
+SourceNode.checkout( );1;0;3
+SourceNode.getOutputStream( );1;0;3
+SourceNode.saveTransactionable( );2;1;8
+SourceNode.registerRemoved( );2;0;8
+SourceNode.rollback( int revisionNumber );2;0;8
+SourceNode.exists( );1;0;3
+SourceNode.getSession( );1;0;3
+SourceNode.deleteTransactionable( );1;0;5
+SourceNode.isLocked( );1;1;3
+SourceNode.getCurrentRevisionNumber( );3;1;13
+SourceNode.enqueueEvent( Object descriptor );1;0;5
+SourceNode.getCheckoutUserId( );3;1;13
+SourceNode.getLock( );1;0;3
+SourceNode.delete( );1;0;5
+SourceNode.getMimeType( );1;0;3

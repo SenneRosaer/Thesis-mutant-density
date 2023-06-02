@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompileWithForkedClassLoaderExtension.runTestWithModifiedClassPath( ReflectiveInvocationContext < Method > invocationContext , ExtensionContext extensionContext );2;0;14
+CompileWithForkedClassLoaderExtension.intercept( Invocation < Void > invocation , ExtensionContext extensionContext , Action action );2;0;8
+CompileWithForkedClassLoaderExtension.interceptBeforeEachMethod( Invocation < Void > invocation , ReflectiveInvocationContext < Method > invocationContext , ExtensionContext extensionContext );1;0;3
+CompileWithForkedClassLoaderExtension.intercept( Invocation < Void > invocation , ExtensionContext extensionContext );1;0;3
+CompileWithForkedClassLoaderExtension.isUsingForkedClassPathLoader( ExtensionContext extensionContext );2;0;6
+CompileWithForkedClassLoaderExtension.interceptAfterEachMethod( Invocation < Void > invocation , ReflectiveInvocationContext < Method > invocationContext , ExtensionContext extensionContext );1;0;3
+CompileWithForkedClassLoaderExtension.interceptBeforeAllMethod( Invocation < Void > invocation , ReflectiveInvocationContext < Method > invocationContext , ExtensionContext extensionContext );1;0;3
+CompileWithForkedClassLoaderExtension.interceptTestMethod( Invocation < Void > invocation , ReflectiveInvocationContext < Method > invocationContext , ExtensionContext extensionContext );1;0;4
+CompileWithForkedClassLoaderExtension.runTest( Class < ? > testClass , Method testMethod );2;1;13
+CompileWithForkedClassLoaderExtension.interceptAfterAllMethod( Invocation < Void > invocation , ReflectiveInvocationContext < Method > invocationContext , ExtensionContext extensionContext );1;0;3

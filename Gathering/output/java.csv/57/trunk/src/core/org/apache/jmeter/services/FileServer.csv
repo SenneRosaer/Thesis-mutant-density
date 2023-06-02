@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileServer.reserveFile( String filename , String charsetName );1;0;3
+FileServer.resetBase( );1;0;3
+FileServer.setBasedir( String basedir );4;2;13
+FileServer.createBufferedWriter( FileEntry fileEntry , String filename );3;3;11
+FileServer.getFileServer( );1;0;3
+FileServer.reserveFile( String filename , String charsetName , String alias );6;3;19
+FileServer.write( String filename , String value );5;3;15
+FileServer.getRandomFile( String basedir , String [ ] extensions );4;3;12
+FileServer.reserveFile( String filename );1;0;3
+FileEntry.FileEntry( File f , Object o , String e );1;0;5
+FileServer.readLine( String filename , boolean recycle );7;5;21
+FileServer.createBufferedReader( FileEntry fileEntry , String filename );3;3;11
+FileServer.filesOpen( );3;1;10
+FileServer.readLine( String filename );1;0;3
+FileServer.closeFile( String name );1;0;4
+FileServer.closeFile( String name , FileEntry fileEntry );5;3;13
+FileServer.getBaseDir( );1;0;3
+FileServer.FileServer( );1;0;4
+FileServer.closeFiles( );2;0;8

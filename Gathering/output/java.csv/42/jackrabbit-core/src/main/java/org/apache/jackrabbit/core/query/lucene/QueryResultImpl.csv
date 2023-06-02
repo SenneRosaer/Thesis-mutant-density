@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LazyScoreNodeIterator.getScoreNodes( );2;1;7
+QueryResultImpl.getColumnNames( );3;2;13
+QueryResultImpl.isAccessGranted( ScoreNode [ ] nodes );5;5;11
+***not in a method***;0;2;0
+LazyScoreNodeIterator.fetchNext( );9;13;35
+QueryResultImpl.getResults( long size );9;9;40
+LazyScoreNodeIterator.next( );1;0;3
+LazyScoreNodeIterator.getSize( );4;7;12
+LazyScoreNodeIterator.skip( long skipNum );5;8;20
+LazyScoreNodeIterator.remove( );1;0;3
+QueryResultImpl.executeQuery( );1;0;4
+QueryResultImpl.getNodeIterator( );2;0;7
+LazyScoreNodeIterator.initialize( );2;1;6
+QueryResultImpl.QueryResultImpl( SearchIndex index , ItemManager itemMgr , SessionImpl session , AccessManager accessMgr , AbstractQueryImpl queryImpl , Query query , SpellSuggestion spellSuggestion , Name [ ] selectProps , Name [ ] orderProps , boolean [ ] orderSpecs , boolean documentOrder , long offset , long limit );3;2;16
+QueryResultImpl.getTotalSize( );2;4;7
+LazyScoreNodeIterator.nextNodeImpl( );2;1;9
+LazyScoreNodeIterator.LazyScoreNodeIterator( int selectorIndex );1;0;3
+LazyScoreNodeIterator.nextNode( );1;0;3
+QueryResultImpl.getRows( );3;1;12
+QueryResultImpl.getNodes( );1;0;3
+LazyScoreNodeIterator.getPosition( );1;0;4
+QueryResultImpl.collectScoreNodes( MultiColumnQueryHits hits , List collector , long maxResults );4;3;13
+LazyScoreNodeIterator.hasNext( );1;1;4
+LazyScoreNodeIterator.getScore( );2;1;7

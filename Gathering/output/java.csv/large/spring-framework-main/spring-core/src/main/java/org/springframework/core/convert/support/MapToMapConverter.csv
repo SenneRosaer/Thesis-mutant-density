@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MapToMapConverter.convertKey( Object sourceKey , TypeDescriptor sourceType , @ Nullable TypeDescriptor targetType );2;1;6
+MapToMapConverter.convert( @ Nullable Object source , TypeDescriptor sourceType , TypeDescriptor targetType );10;9;33
+MapToMapConverter.canConvertKey( TypeDescriptor sourceType , TypeDescriptor targetType );1;0;4
+MapEntry.MapEntry( @ Nullable Object key , @ Nullable Object value );1;0;4
+MapToMapConverter.matches( TypeDescriptor sourceType , TypeDescriptor targetType );2;1;3
+MapToMapConverter.getConvertibleTypes( );1;0;3
+MapToMapConverter.MapToMapConverter( ConversionService conversionService );1;0;3
+MapToMapConverter.canConvertValue( TypeDescriptor sourceType , TypeDescriptor targetType );1;0;4
+MapEntry.addToMap( Map < Object , Object > map );1;0;3
+MapToMapConverter.convertValue( Object sourceValue , TypeDescriptor sourceType , @ Nullable TypeDescriptor targetType );2;1;6

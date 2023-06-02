@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SAXParserImpl.getSchema( );1;0;3
+SAXParserImpl.setProperty( String name , Object value );1;0;3
+SAXParserImpl.getElementPSVI( );1;0;3
+***not in a method***;0;6;0
+SAXParserImpl.getXMLReader( );1;0;3
+SAXParserImpl.SAXParserImpl( SAXParserFactoryImpl spf , Hashtable features , boolean secureProcessing );6;2;54
+JAXPSAXParser.setFeature0( String name , boolean value );1;0;3
+JAXPSAXParser.resetSchemaValidator( );2;0;8
+JAXPSAXParser.parse( String systemId );4;4;10
+JAXPSAXParser.setProperty( String name , Object value );17;13;59
+JAXPSAXParser.setFeature( String name , boolean value );12;5;29
+SAXParserImpl.isValidating( );2;0;8
+JAXPSAXParser.getFeature( String name );4;2;14
+JAXPSAXParser.getProperty0( String name );1;0;3
+JAXPSAXParser.setSchemaValidatorFeature( String name , boolean value );3;1;18
+JAXPSAXParser.JAXPSAXParser( SAXParserImpl saxParser );1;0;4
+SAXParserImpl.getAttributePSVI( int index );1;0;3
+JAXPSAXParser.setSchemaValidatorProperty( String name , Object value );3;1;18
+JAXPSAXParser.getFeature0( String name );1;0;3
+JAXPSAXParser.restoreInitState( );5;2;23
+SAXParserImpl.getProperty( String name );1;0;3
+SAXParserImpl.getAttributePSVIByName( String uri , String localname );1;0;3
+JAXPSAXParser.JAXPSAXParser( );1;0;3
+JAXPSAXParser.parse( InputSource inputSource );4;4;10
+SAXParserImpl.SAXParserImpl( SAXParserFactoryImpl spf , Hashtable features );1;0;3
+SAXParserImpl.isNamespaceAware( );2;0;8
+JAXPSAXParser.getProperty( String name );4;3;9
+JAXPSAXParser.setProperty0( String name , Object value );1;0;3
+SAXParserImpl.setFeatures( Hashtable features );3;1;11
+JAXPSAXParser.getXMLParserConfiguration( );1;0;3
+SAXParserImpl.isXIncludeAware( );2;0;8
+SAXParserImpl.parse( InputSource is , DefaultHandler dh );3;2;13
+SAXParserImpl.parse( InputSource is , HandlerBase hb );3;2;13
+SAXParserImpl.reset( );4;2;15
+SAXParserImpl.getParser( );1;0;3

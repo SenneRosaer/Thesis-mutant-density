@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpHandlerConnector.adaptResponse( MockServerHttpResponse response , Flux < DataBuffer > body );2;1;8
+HttpHandlerConnector.doConnect( HttpMethod httpMethod , URI uri , Function < ? super ClientHttpRequest , Mono < Void > > requestCallback );3;2;34
+HttpHandlerConnector.connect( HttpMethod httpMethod , URI uri , Function < ? super ClientHttpRequest , Mono < Void > > requestCallback );1;0;4
+HttpHandlerConnector.log( String message , HttpMethod httpMethod , URI uri );2;0;5
+FailureAfterResponseCompletedException.FailureAfterResponseCompletedException( ClientHttpResponse response , Throwable cause );1;0;4
+HttpHandlerConnector.prepareResponse( ServerHttpResponse response , ServerHttpRequest request );2;1;3
+FailureAfterResponseCompletedException.getCompletedResponse( );1;0;3
+HttpHandlerConnector.HttpHandlerConnector( HttpHandler handler );1;0;4
+HttpHandlerConnector.adaptRequest( MockClientHttpRequest request , Publisher < DataBuffer > body );1;0;7

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSDComplexTypeTraverser.XSDComplexTypeTraverser( XSDHandler handler , XSAttributeChecker gAttrCheck );1;0;3
+XSDComplexTypeTraverser.traverseGlobal( Element complexTypeNode , XSDocumentInfo schemaDoc , SchemaGrammar grammar );2;1;17
+XSDComplexTypeTraverser.genAnonTypeName( Element complexTypeDecl );3;3;9
+XSDComplexTypeTraverser.traverseLocal( Element complexTypeNode , XSDocumentInfo schemaDoc , SchemaGrammar grammar );1;0;13
+XSDComplexTypeTraverser.addAnnotation( XSAnnotationImpl annotation );3;4;12
+XSDComplexTypeTraverser.getErrorWildcard( );1;0;5
+XSDComplexTypeTraverser.processComplexContent( Element complexContentChild , boolean isMixed , boolean isDerivation , XSDocumentInfo schemaDoc , SchemaGrammar grammar );26;19;94
+XSDComplexTypeTraverser.getErrorContent( );1;0;16
+ComplexTypeRecoverableError.ComplexTypeRecoverableError( String msgKey , Object [ ] args , Element e );1;0;5
+XSDComplexTypeTraverser.contentBackup( );4;18;22
+XSDComplexTypeTraverser.traverseComplexTypeDecl( Element complexTypeDecl , String complexTypeName , Object [ ] attrValues , XSDocumentInfo schemaDoc , SchemaGrammar grammar );18;17;91
+XSDComplexTypeTraverser.contentRestore( );1;13;17
+XSDComplexTypeTraverser.traverseSimpleContentDecl( Element simpleContentDecl );1;0;2
+XSDComplexTypeTraverser.traverseComplexContentDecl( Element complexContentDecl , boolean mixedOnComplexTypeDecl );1;0;2
+ComplexTypeRecoverableError.ComplexTypeRecoverableError( );1;0;3
+XSDComplexTypeTraverser.handleComplexTypeError( String messageId , Object [ ] args , Element e );2;1;10
+XSDComplexTypeTraverser.traverseComplexContent( Element complexContentElement , boolean mixedOnType , XSDocumentInfo schemaDoc , SchemaGrammar grammar );38;39;196
+XSDComplexTypeTraverser.isAttrOrAttrGroup( Element e );4;2;9
+XSDComplexTypeTraverser.traverseSimpleContent( Element simpleContentElement , XSDocumentInfo schemaDoc , SchemaGrammar grammar );44;40;244
+XSDComplexTypeTraverser.mergeAttributes( XSAttributeGroupDecl fromAttrGrp , XSAttributeGroupDecl toAttrGrp , String typeName , boolean extension , Element elem );9;7;36

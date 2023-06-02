@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SMTPClient.sendSimpleMessage( String sender , String recipient , String message );3;2;7
+SMTPClient.setSender( RelayPath path );1;0;3
+SMTPClient.login( String hostname );1;0;3
+SMTPClient.logout( );1;0;3
+SMTPClient.sendSimpleMessage( String sender , String [ ] recipients , String message );5;4;14
+SMTPClient.login( );2;1;9
+SMTPClient.sendMessageData( );2;1;5
+SMTPClient.reset( );1;0;3
+SMTPClient.sendShortMessageData( String message );2;1;9
+SMTPClient.listHelp( );2;0;5
+SMTPClient.completePendingCommand( );1;0;3
+SMTPClient.addRecipient( RelayPath path );1;0;3
+SMTPClient.verify( String username );2;3;6
+SMTPClient.sendNoOp( );1;0;3
+SMTPClient.listHelp( String command );2;0;5
+SMTPClient.setSender( String address );1;0;3
+SMTPClient.addRecipient( String address );1;0;3

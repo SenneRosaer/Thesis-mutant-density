@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ODEService.genEPRfromWSDL( Definition wsdlDef , QName name , String portName );6;2;33
+ODEService.onResponse( MyRoleMessageExchange mex , MessageContext msgContext );8;0;23
+ODEService.getAxisService( );1;0;3
+ODEService.writeHeader( MessageContext msgContext , MyRoleMessageExchange odeMex );3;2;9
+ODEService.resolveTimeout( );4;1;11
+ODEService.getMyServiceRef( );1;0;3
+ODEService.respondsTo( QName serviceName , QName portTypeName );2;1;7
+ODEService.readHeader( MessageContext msgContext , MyRoleMessageExchange odeMex );3;2;17
+ODEService.ODEService( AxisService axisService , ProcessConf pconf , QName serviceName , String portName , BpelServer server );1;0;10
+ODEService.onAxisMessageExchange( MessageContext msgContext , MessageContext outMsgContext , SOAPFactory soapFactory );9;5;47
+ODEService.createServiceRef( Element elmt );2;1;13

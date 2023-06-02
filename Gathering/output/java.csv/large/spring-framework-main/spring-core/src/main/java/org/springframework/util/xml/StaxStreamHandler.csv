@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StaxStreamHandler.dtdInternal( String dtd );1;0;3
+StaxStreamHandler.cDataInternal( String data );1;0;3
+StaxStreamHandler.charactersInternal( String data );1;0;3
+StaxStreamHandler.startDocumentInternal( );1;0;3
+StaxStreamHandler.endDocumentInternal( );1;0;3
+StaxStreamHandler.startElementInternal( QName name , Attributes attributes , Map < String , String > namespaceMapping );5;3;21
+StaxStreamHandler.startEntity( String name );1;0;2
+StaxStreamHandler.StaxStreamHandler( XMLStreamWriter streamWriter );1;0;3
+StaxStreamHandler.processingInstructionInternal( String target , String data );1;0;3
+StaxStreamHandler.skippedEntityInternal( String name );1;0;2
+StaxStreamHandler.endElementInternal( QName name , Map < String , String > namespaceMapping );1;0;3
+StaxStreamHandler.ignorableWhitespaceInternal( String data );1;0;3
+StaxStreamHandler.commentInternal( String comment );1;0;3
+StaxStreamHandler.setDocumentLocator( Locator locator );1;0;2
+StaxStreamHandler.endEntity( String name );1;0;2

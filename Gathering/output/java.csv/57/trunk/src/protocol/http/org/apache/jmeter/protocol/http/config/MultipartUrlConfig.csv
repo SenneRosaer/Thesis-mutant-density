@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultipartUrlConfig.getArguments( );1;0;3
+MultipartUrlConfig.addArgument( String name , String value , String metadata );1;0;4
+MultipartUrlConfig.getHeaderValue( String headerName , String multiPart );2;2;11
+MultipartUrlConfig.MultipartUrlConfig( );1;0;3
+MultipartUrlConfig.getHTTPFileArgs( );1;0;3
+MultipartUrlConfig.getBoundary( );1;0;3
+MultipartUrlConfig.MultipartUrlConfig( String boundary );1;0;5
+MultipartUrlConfig.parseArguments( String queryString );9;17;32
+MultipartUrlConfig.addNonEncodedArgument( String name , String value );1;0;6
+MultipartUrlConfig.addArgument( String name , String value );1;0;4

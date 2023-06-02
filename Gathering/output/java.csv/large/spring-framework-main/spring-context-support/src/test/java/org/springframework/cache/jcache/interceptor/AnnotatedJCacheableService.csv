@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnnotatedJCacheableService.AnnotatedJCacheableService( Cache defaultCache );1;0;3
+AnnotatedJCacheableService.cache( String id );1;0;3
+AnnotatedJCacheableService.earlyPut( String id , @ CacheValue Object value );3;2;12
+AnnotatedJCacheableService.cacheWithCustomCacheResolver( String id );1;0;3
+AnnotatedJCacheableService.throwCheckedException( boolean matchFilter );2;0;9
+AnnotatedJCacheableService.put( String id , @ CacheValue Object value );1;0;2
+AnnotatedJCacheableService.cacheNull( String id );1;0;3
+AnnotatedJCacheableService.cacheWithException( @ CacheKey String id , boolean matchFilter );1;0;4
+AnnotatedJCacheableService.earlyRemoveAllWithException( boolean matchFilter );1;0;3
+AnnotatedJCacheableService.cacheAlwaysInvoke( String id );1;0;3
+AnnotatedJCacheableService.earlyRemoveWithException( @ CacheKey String id , boolean matchFilter );1;0;3
+AnnotatedJCacheableService.removeAllWithException( boolean matchFilter );1;0;3
+AnnotatedJCacheableService.removeAll( );1;0;2
+AnnotatedJCacheableService.putWithException( @ CacheKey String id , @ CacheValue Object value , boolean matchFilter );1;0;3
+AnnotatedJCacheableService.cacheWithCheckedException( @ CacheKey String id , boolean matchFilter );1;0;4
+AnnotatedJCacheableService.noAnnotation( );1;0;2
+AnnotatedJCacheableService.earlyPutWithException( @ CacheKey String id , @ CacheValue Object value , boolean matchFilter );1;0;3
+AnnotatedJCacheableService.cacheWithPartialKey( @ CacheKey String id , boolean notUsed );1;0;3
+AnnotatedJCacheableService.removeWithException( @ CacheKey String id , boolean matchFilter );1;0;3
+AnnotatedJCacheableService.cacheWithCustomKeyGenerator( String id , String anotherId );1;0;3
+AnnotatedJCacheableService.exceptionInvocations( );1;0;3
+AnnotatedJCacheableService.earlyRemove( String id );2;1;7
+AnnotatedJCacheableService.earlyRemoveAll( );6;1;6
+AnnotatedJCacheableService.throwException( boolean matchFilter );2;0;9
+AnnotatedJCacheableService.remove( String id );1;0;2

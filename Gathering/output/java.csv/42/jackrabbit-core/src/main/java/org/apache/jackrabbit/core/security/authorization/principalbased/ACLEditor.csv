@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ACLEditor.getPrincipal( String pathToACNode );2;1;8
+ACLEditor.removePolicy( String nodePath , AccessControlPolicy policy );4;1;15
+ACLEditor.createTemplate( NodeImpl acNode );5;2;19
+ACLEditor.setPolicy( String nodePath , AccessControlPolicy policy );7;7;36
+ACLEditor.getPathToAcNode( Principal principal );2;0;10
+ACLEditor.getACL( Principal principal );3;1;12
+ACLEditor.editAccessControlPolicies( Principal principal );3;2;10
+ACLEditor.getUniqueNodeName( Node node , String name );4;3;19
+ACLEditor.ACLEditor( SessionImpl session , Path acRootPath );1;0;4
+ACLEditor.checkValidPolicy( String nodePath , AccessControlPolicy policy );4;4;9
+ACLEditor.getPolicies( String nodePath );2;1;9
+ACLEditor.editAccessControlPolicies( String nodePath );3;1;13
+ACLEditor.getAcNode( String nodePath );2;0;7
+ACLEditor.createAcNode( String acPath );4;3;16
+ACLEditor.isAccessControlled( NodeImpl node );2;1;3
+ACLEditor.checkProtectsNode( String nodePath );4;1;8

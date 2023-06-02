@@ -1,0 +1,61 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FixCrLfFilter.chain( final Reader rdr );2;0;15
+CrLf.hashCode( );1;0;3
+SimpleFilterReader.push( char c );1;0;3
+AddAsisRemove.newInstance( );1;0;3
+FixCrLfFilter.getEof( );1;0;3
+SimpleFilterReader.close( );1;0;3
+NormalizeEolFilter.read( );18;19;58
+FixCrLfFilter.setTablength( int tabLength );3;3;9
+***not in a method***;0;4;0
+SimpleFilterReader.read( char [ ] buf , int start , int length );5;12;9
+FixCrLfFilter.read( );2;1;6
+SimpleFilterReader.markSupported( );1;0;3
+RemoveTabFilter.read( );6;7;22
+FixCrLfFilter.setFixlast( boolean fixlast );1;0;3
+FixCrLfFilter.getTablength( );1;0;3
+SimpleFilterReader.push( char [ ] cs );1;0;3
+FixCrLfFilter.getJavafiles( );1;0;3
+AddTabFilter.AddTabFilter( Reader in , int tabLength );1;0;4
+CrLf.equals( Object other );2;2;3
+CrLf.resolve( );8;3;15
+FixCrLfFilter.setEol( CrLf attr );1;0;3
+NormalizeEolFilter.NormalizeEolFilter( Reader in , String eolString , boolean fixLast );1;0;5
+SimpleFilterReader.SimpleFilterReader( Reader in );1;0;3
+SimpleFilterReader.ready( );1;0;3
+CrLf.newInstance( String value );1;0;5
+AddTabFilter.read( );14;28;63
+SimpleFilterReader.editsBlocked( );2;1;3
+AddEofFilter.AddEofFilter( Reader in );1;0;3
+MaskJavaTabLiteralsFilter.editsBlocked( );2;1;3
+SimpleFilterReader.push( String s );1;0;3
+FixCrLfFilter.FixCrLfFilter( final Reader in );1;0;3
+FixCrLfFilter.calculateEolString( CrLf eol );6;7;12
+AddAsisRemove.equals( Object other );2;2;4
+RemoveEofFilter.read( );3;5;9
+CrLf.newInstance( );1;0;3
+SimpleFilterReader.read( char [ ] buf );1;0;3
+RemoveTabFilter.RemoveTabFilter( Reader in , int tabLength );1;0;4
+FixCrLfFilter.FixCrLfFilter( );1;0;3
+SimpleFilterReader.skip( long i );1;0;3
+RemoveEofFilter.RemoveEofFilter( Reader in );2;1;8
+AddAsisRemove.resolve( );4;0;12
+FixCrLfFilter.setTab( AddAsisRemove attr );1;0;3
+FixCrLfFilter.setEof( AddAsisRemove attr );1;0;3
+CrLf.getValues( );1;0;3
+AddAsisRemove.getValues( );1;0;3
+SimpleFilterReader.read( );2;2;3
+FixCrLfFilter.getFixlast( );1;0;3
+SimpleFilterReader.reset( );1;0;3
+AddAsisRemove.hashCode( );1;0;3
+FixCrLfFilter.getEol( );1;0;3
+MaskJavaTabLiteralsFilter.MaskJavaTabLiteralsFilter( Reader in );1;0;4
+MaskJavaTabLiteralsFilter.read( );22;3;81
+FixCrLfFilter.setJavafiles( boolean javafiles );1;0;3
+SimpleFilterReader.push( char [ ] cs , int start , int length );2;4;5
+AddAsisRemove.newInstance( String value );1;0;5
+FixCrLfFilter.getTab( );1;0;3
+SimpleFilterReader.push( int c );2;2;10
+SimpleFilterReader.mark( int i );1;0;3
+AddEofFilter.read( );3;3;12
+FixCrLfFilter.initInternalFilters( );6;4;13

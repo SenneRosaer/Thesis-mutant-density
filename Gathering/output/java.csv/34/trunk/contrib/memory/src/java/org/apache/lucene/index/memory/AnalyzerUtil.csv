@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnalyzerUtil.next( final Token reusableToken );1;6;6
+AnalyzerUtil.tokenStream( String fieldName , Reader reader );2;1;9
+AnalyzerUtil.getPorterStemmerAnalyzer( final Analyzer child );2;1;10
+AnalyzerUtil.next( Token token );2;2;5
+AnalyzerUtil.getTokenCachingAnalyzer( final Analyzer child );5;1;32
+AnalyzerUtil.getLoggingAnalyzer( final Analyzer child , final PrintStream log , final String logName );4;2;27
+AnalyzerUtil.isSentenceSeparator( char c );6;0;10
+MutableInteger.intValue( );1;0;1
+MutableInteger.setValue( int value );1;0;1
+MutableInteger.toString( );1;0;1
+AnalyzerUtil.getSynonymAnalyzer( final Analyzer child , final SynonymMap synonyms , final int maxSynonyms );5;4;16
+MutableInteger.MutableInteger( int value );1;0;1
+AnalyzerUtil.AnalyzerUtil( );1;0;1
+AnalyzerUtil.toString( Token token );2;2;8
+AnalyzerUtil.tokenize( Pattern pattern , String text , int limit );2;2;5
+AnalyzerUtil.getMaxTokenAnalyzer( final Analyzer child , final int maxTokens );5;3;19
+AnalyzerUtil.compare( Object o1 , Object o2 );2;3;10
+AnalyzerUtil.getParagraphs( String text , int limit );1;0;3
+AnalyzerUtil.getSentences( String text , int limit );11;18;23
+AnalyzerUtil.getMostFrequentTerms( Analyzer analyzer , String text , int limit );10;9;49
+AnalyzerUtil.tokenStream( final String fieldName , Reader reader );2;1;19

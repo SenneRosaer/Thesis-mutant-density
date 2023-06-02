@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Jetty6xTestSetup.run( final TestResult theResult );1;0;18
+Jetty6xTestSetup.getConfigFile( );3;2;12
+Jetty6xTestSetup.isRunning( );1;0;3
+Jetty6xTestSetup.setConfigFile( File theConfigFile );1;0;3
+Jetty6xTestSetup.createServer( Configuration theConfiguration );1;0;22
+Jetty6xTestSetup.tearDown( );5;3;17
+Jetty6xTestSetup.getResourceDir( );3;2;12
+Jetty6xTestSetup.testConnectivity( URL theUrl );2;1;18
+Jetty6xTestSetup.addJspRedirector( Object theContext );2;1;17
+Jetty6xTestSetup.readFully( HttpURLConnection theConnection );4;3;18
+Jetty6xTestSetup.createContext( Object theServer , Configuration theConfiguration );1;0;13
+Jetty6xTestSetup.isAvailable( int theCode );4;6;12
+Jetty6xTestSetup.addFilterRedirector( Object theContext , FilterConfiguration theConfiguration );2;1;11
+Jetty6xTestSetup.addServletRedirector( Object theContext , ServletConfiguration theConfiguration );1;0;8
+Jetty6xTestSetup.Jetty6xTestSetup( Test theTest );1;0;6
+Jetty6xTestSetup.protect( );1;0;11
+Jetty6xTestSetup.setUp( );3;2;30
+Jetty6xTestSetup.setForceShutdown( boolean isForcedShutdown );1;0;3
+Jetty6xTestSetup.setResourceDir( File theResourceDir );1;0;3
+Jetty6xTestSetup.Jetty6xTestSetup( Test theTest , Configuration theBaseConfiguration , ServletConfiguration theServletConfiguration , FilterConfiguration theFilterConfiguration );1;0;6

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransformedMap.readObject( ObjectInputStream in );1;0;4
+TransformedMap.writeObject( ObjectOutputStream out );1;0;4
+TransformedMap.put( Object key , Object value );1;0;5
+TransformedMap.decorateTransform( Map map , Transformer keyTransformer , Transformer valueTransformer );2;1;9
+TransformedMap.decorate( Map map , Transformer keyTransformer , Transformer valueTransformer );1;0;3
+TransformedMap.transformValue( Object object );2;1;6
+TransformedMap.transformKey( Object object );2;1;6
+TransformedMap.checkSetValue( Object value );1;0;3
+TransformedMap.transformMap( Map map );3;0;11
+TransformedMap.putAll( Map mapToCopy );1;0;4
+TransformedMap.TransformedMap( Map map , Transformer keyTransformer , Transformer valueTransformer );1;0;5
+TransformedMap.isSetValueChecking( );1;1;3

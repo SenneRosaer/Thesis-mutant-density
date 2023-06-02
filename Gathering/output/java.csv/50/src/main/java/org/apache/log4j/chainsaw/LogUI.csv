@@ -1,0 +1,85 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LogUI.uncaughtException( Thread t , Throwable e );1;0;3
+LogUI.loadSettings( LoadSettingsEvent event );1;2;8
+LogUI.getTableModelMap( );1;0;3
+TabIconHandler.TabIconHandler( String identifier );8;0;32
+LogUI.applyLookAndFeel( String lookAndFeelClassName );5;2;15
+LogUI.getFilterableColumns( );1;0;3
+LogUI.append( LoggingEvent event );1;0;3
+LogUI.setTabbedPane( ChainsawTabbedPane tabbedPane );1;0;3
+LogUI.setupHelpSystem( );2;0;36
+LogUI.fireShutdownEvent( );2;2;8
+LogUI.getCurrentLogPanel( );2;0;8
+LogUI.setupTutorial( );1;0;20
+LogUI.isStatusBarVisible( );1;0;3
+LogUI.loadConfigurationUsingPluginClassLoader( final URL url );2;1;13
+LogUI.setToolBarAndMenus( ChainsawToolBarAndMenus tbms );1;0;3
+LogUI.removeSplash( );2;1;6
+LogUI.propertyChange( PropertyChangeEvent evt );4;6;13
+LogUI.checkForNewerVersion( );4;4;14
+LogUI.getApplicationPreferenceModel( );1;0;3
+LogUI.run( );3;18;16
+LogUI.addShutdownListener( ShutdownListener l );1;0;3
+LogUI.performShutdownAction( );1;0;6
+LogUI.actionPerformed( ActionEvent e );1;19;3
+LogUI.showHelp( URL url );1;0;4
+LogUI.propertyChange( final PropertyChangeEvent evt );3;0;16
+LogUI.getSettingsManager( );1;0;3
+LogUI.mouseClicked( MouseEvent e );6;9;16
+LogUI.getToolBarAndMenus( );1;0;3
+LogUI.removeWelcomePanel( );2;0;6
+LogUI.pluginStarted( PluginEvent e );2;1;6
+LogUI.exit( );1;0;4
+LogUI.hyperlinkUpdate( HyperlinkEvent e );5;1;16
+LogUI.activateViewer( ChainsawAppender appender );2;0;28
+TabIconHandler.run( );8;8;26
+LogUI.refresh( );1;0;2
+LogUI.showAboutBox( );2;1;6
+LogUI.getPermissions( CodeSource codesource );1;0;5
+LogUI.getLoggerRepository( );1;0;3
+LogUI.removeShutdownListener( ShutdownListener l );1;0;3
+NewTabEventBatchReceiver.receiveEventBatch( final String ident , final List events );7;4;27
+TabIconHandler.eventCountChanged( int currentCount , int totalCount );1;0;3
+LogUI.activateViewer( );39;11;355
+LogUI.main( String [ ] args );2;0;13
+LogUI.LogUI( );2;1;7
+LogUI.socketOpened( String remoteInfo );1;0;3
+LogUI.showNoReceiversWarningPanel( );10;0;94
+LogUI.getActiveTabName( );2;2;8
+LogUI.getWelcomePanel( );1;0;3
+LogUI.getPanels( );3;0;17
+LogUI.initSocketConnectionListener( );7;0;60
+NewTabEventBatchReceiver.getInterestedIdentifier( );1;0;3
+LogUI.ensureWelcomePanelVisible( );2;1;6
+LogUI.requiresLayout( );1;0;3
+LogUI.addWelcomePanel( );1;0;7
+LogUI.displayPanel( String panelName , boolean display );9;7;22
+LogUI.getPanelMap( );1;0;3
+LogUI.saveSettings( SaveSettingsEvent event );1;2;6
+LogUI.getRemoveListenerMethod( Plugin p );2;0;9
+LogUI.buildLogPanel( boolean customExpression , final String ident , final List events );4;0;53
+LogUI.getTabbedPane( );1;0;3
+LogUI.pluginStopped( PluginEvent e );1;2;2
+LogUI.showSplash( Frame owner );1;0;5
+LogUI.getTableMap( );1;0;3
+LogUI.addDragDropPanel( );2;0;15
+LogUI.socketClosedEvent( Exception e );1;0;4
+LogUI.initPlugins( PluginRegistry pluginRegistry );3;0;22
+LogUI.setShutdownAction( Action shutdownAction );1;0;3
+LogUI.hideReceiverPanel( );4;10;13
+LogUI.createCustomExpressionLogPanel( String ident );4;0;20
+LogUI.isLogTreePanelVisible( );2;1;6
+LogUI.showApplicationPreferences( );1;0;4
+LogUI.setStatusBarVisible( final boolean visible );1;0;10
+LogUI.showReceiverPanel( );1;0;6
+LogUI.createChainsawGUI( ApplicationPreferenceModel model , Action newShutdownAction );13;6;93
+LogUI.initGUI( );3;0;44
+LogUI.close( );1;0;2
+LogUI.shutdown( );5;3;47
+LogUI.getStatusBar( );1;0;3
+LogUI.getAddListenerMethod( Plugin p );2;0;9
+LogUI.windowClosing( WindowEvent event );1;0;3
+LogUI.initPrefModelListeners( );4;2;79
+TabIconHandler.stateChanged( ChangeEvent event );3;4;6
+LogUI.setupReceiverPanel( );1;0;13
+LogUI.ensureChainsawAppenderHandlerAdded( );2;1;5

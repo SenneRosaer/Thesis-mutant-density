@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSPExpressionParser.consume( char [ ] chars , int start , int length );2;3;7
+XSPExpressionParser.setState( State state );1;0;3
+XSPExpressionParser.getExpression( );1;0;3
+XSPExpressionParser.initExpression( );1;0;4
+XSPExpressionParser.append( char ch );2;4;9
+XSPExpressionParser.setEscaped( boolean escaped );1;0;3
+XSPExpressionParser.done( XSPExpressionParser parser );1;0;3
+XSPExpressionParser.consume( XSPExpressionParser parser , char ch );2;1;9
+XSPExpressionParser.flush( Locator locator , String description );2;0;11
+QuotedState.consume( XSPExpressionParser parser , char ch );4;5;9
+XSPExpressionParser.handleExpression( );2;1;7
+XSPExpressionParser.getState( );1;0;3
+QuotedState.QuotedState( char quote );1;0;3
+XSPExpressionParser.handleText( );2;1;6
+XSPExpressionParser.decrNesting( );1;1;3
+State.done( XSPExpressionParser parser );1;0;3
+XSPExpressionParser.isEscaped( );1;0;3
+XSPExpressionParser.XSPExpressionParser( Handler handler );1;0;3
+XSPExpressionParser.incrNesting( );1;1;3
+XSPExpressionParser.consume( String chars );2;2;7

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionContext.setAttribute( String name , Object value );2;1;6
+TransactionContext.getAttribute( String name );1;0;3
+TransactionContext.commit( );7;5;32
+TransactionContext.run( );3;1;12
+TransactionContext.prepare( );5;4;25
+TransactionContext.TransactionContext( InternalXAResource [ ] resources , int timeout );1;0;4
+TransactionContext.removeAttribute( String name );1;0;3
+TransactionContext.isSuspended( );1;0;3
+TransactionContext.rollback( );5;5;23
+TransactionContext.afterOperation( );2;2;5
+TransactionContext.beforeOperation( );2;2;5
+TransactionContext.setSuspended( boolean suspended );1;0;3

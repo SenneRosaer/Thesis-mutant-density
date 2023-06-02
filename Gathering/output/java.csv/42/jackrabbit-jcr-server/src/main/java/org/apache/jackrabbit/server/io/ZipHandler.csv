@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ZipEntryExportContext.getOutputStream( );1;0;3
+ZipEntryExportContext.setContentLength( long contentLength );2;1;5
+ZipEntryImportContext.getContentLength( );1;0;3
+ZipHandler.setIntermediateSave( boolean intermediateSave );1;0;3
+ZipHandler.ZipHandler( IOManager ioManager );1;0;3
+ZipEntryImportContext.getImportRoot( );1;0;3
+ZipHandler.ZipHandler( IOManager ioManager , String collectionNodetype , String defaultNodetype , String contentNodetype );2;1;6
+ZipEntryImportContext.ZipEntryImportContext( ImportContext context , ZipEntry entry , BoundedInputStream bin , Node contentNode );1;0;6
+ZipHandler.exportData( ExportContext context , boolean isCollection , Node contentNode );2;2;10
+ZipHandler.makeValidJCRPath( String label , boolean appendLeadingSlash );9;11;18
+ZipEntryImportContext.getModificationTime( );1;0;3
+ZipEntryExportContext.setETag( String etag );1;0;2
+ZipHandler.exportZipEntry( ExportContext context , ZipOutputStream zout , Node node , int pos );4;0;16
+ZipHandler.canExport( ExportContext context , boolean isCollection );5;2;18
+ZipHandler.ZipHandler( );1;0;2
+ZipHandler.canImport( ImportContext context , boolean isCollection );5;4;7
+ZipHandler.importData( ImportContext context , boolean isCollection , Node contentNode );3;2;16
+ZipEntryExportContext.setProperty( Object propertyName , Object propertyValue );1;0;2
+ZipHandler.importZipEntry( ZipInputStream zin , ZipEntry entry , ImportContext context , Node node );4;1;18
+ZipEntryExportContext.setContentType( String mimeType , String encoding );2;1;5
+ZipEntryExportContext.ZipEntryExportContext( Item exportRoot , OutputStream out , ExportContext context , int pos );3;2;9
+ZipEntryExportContext.setModificationTime( long modificationTime );2;1;5
+ZipEntryExportContext.setContentLanguage( String contentLanguage );1;0;2
+ZipEntryExportContext.setCreationTime( long creationTime );1;0;2

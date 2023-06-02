@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpsInvoker.getTrustStoreType( );1;0;3
+HttpsInvoker.getKeyStore( );1;0;3
+HttpsInvoker.transform( MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );7;4;31
+HttpsInvoker.getHttpClient( );1;0;3
+HttpsInvoker.setHttpClient( HttpClient httpClient );1;0;3
+CommonsHttpSSLSocketFactory.CommonsHttpSSLSocketFactory( );15;11;56
+HttpsInvoker.setTrustStorePassword( String trustStorePassword );1;0;3
+HttpsInvoker.stop( );1;0;4
+HttpsInvoker.isDefaultInOut( );1;0;3
+HttpsInvoker.init( );2;0;12
+HttpsInvoker.getAlgorithm( );1;0;3
+HttpsInvoker.setKeyStore( String keyStore );1;0;3
+HttpsInvoker.setKeyStoreType( String keyStoreType );1;0;3
+HttpsInvoker.getKeyPassword( );1;0;3
+HttpsInvoker.setUrl( String url );1;0;3
+CommonsHttpSSLSocketFactory.createSocket( Socket socket , String host , int port , boolean autoClose );1;0;3
+HttpsInvoker.setProtocol( String protocol );1;0;3
+HttpsInvoker.setDefaultInOut( boolean defaultInOut );1;0;3
+HttpsInvoker.setAlgorithm( String algorithm );1;0;3
+HttpsInvoker.getUrl( );1;0;3
+HttpsInvoker.getMarshaler( );1;0;3
+HttpsInvoker.setMarshaler( HttpClientMarshaler marshaler );1;0;3
+CommonsHttpSSLSocketFactory.createSocket( String host , int port , InetAddress localAddress , int localPort );1;0;3
+HttpsInvoker.setTrustStore( String trustStore );1;0;3
+CommonsHttpSSLSocketFactory.createSocket( String host , int port , InetAddress localAddress , int localPort , HttpConnectionParams params );3;2;16
+CommonsHttpSSLSocketFactory.createSocket( String host , int port );1;0;3
+HttpsInvoker.setTrustStoreType( String trustStoreType );1;0;3
+HttpsInvoker.setKeyPassword( String keyPassword );1;0;3
+HttpsInvoker.getKeyStoreType( );1;0;3
+HttpsInvoker.getTrustStorePassword( );1;0;3
+HttpsInvoker.setKeyStorePassword( String keyStorePassword );1;0;3
+HttpsInvoker.getTrustStore( );1;0;3
+HttpsInvoker.getProtocol( );1;0;3
+HttpsInvoker.getKeyStorePassword( );1;0;3

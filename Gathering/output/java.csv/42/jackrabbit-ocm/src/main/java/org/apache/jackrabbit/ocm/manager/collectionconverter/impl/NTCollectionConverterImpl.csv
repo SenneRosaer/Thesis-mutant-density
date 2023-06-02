@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NTCollectionConverterImpl.doUpdateCollection( Session session , Node parentNode , CollectionDescriptor collectionDescriptor , ManageableObjects objects );12;8;46
+NTCollectionConverterImpl.doInsertCollection( Session session , Node parentNode , CollectionDescriptor collectionDescriptor , ManageableObjects objects );5;2;22
+NTCollectionConverterImpl.deleteCollectionItems( Session session , Node parentNode , String itemNodeType );4;3;8
+NTCollectionConverterImpl.getCollectionNodes( Session session , Node parentNode , String itemNodeType );1;0;5
+NTCollectionConverterImpl.doGetCollection( Session session , Node parentNode , CollectionDescriptor collectionDescriptor , Class collectionFieldClass );6;4;30
+NTCollectionConverterImpl.doIsNull( Session session , Node parentNode , CollectionDescriptor collectionDescriptor , Class collectionFieldClass );1;1;6
+NTCollectionConverterImpl.NTCollectionConverterImpl( Map atomicTypeConverters , ObjectConverter objectConverter , Mapper mapper );1;0;3
+NTCollectionConverterImpl.getQuery( Session session , Node parentNode , String jcrNodeType );2;1;17

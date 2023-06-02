@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WidgetEventMulticaster.add( TreeSelectionListener a , TreeSelectionListener b );1;0;3
+WidgetEventMulticaster.add( ActionListener a , ActionListener b );1;0;3
+WidgetEventMulticaster.remove( ValueChangedListener l , ValueChangedListener oldl );1;0;3
+WidgetEventMulticaster.widgetCreated( CreateEvent e );1;0;4
+WidgetEventMulticaster.remove( CreateListener l , CreateListener oldl );1;0;3
+WidgetEventMulticaster.add( RepeaterListener a , RepeaterListener b );1;0;3
+WidgetEventMulticaster.remove( RepeaterListener l , RepeaterListener oldl );1;0;3
+WidgetEventMulticaster.add( ProcessingPhaseListener a , ProcessingPhaseListener b );1;0;3
+WidgetEventMulticaster.WidgetEventMulticaster( EventListener a , EventListener b );1;0;3
+WidgetEventMulticaster.remove( ActionListener l , ActionListener oldl );1;0;3
+WidgetEventMulticaster.repeaterModified( RepeaterEvent e );1;0;4
+WidgetEventMulticaster.selectionChanged( TreeSelectionEvent e );1;0;4
+WidgetEventMulticaster.remove( TreeSelectionListener l , TreeSelectionListener oldl );1;0;3
+WidgetEventMulticaster.actionPerformed( ActionEvent e );1;0;4
+WidgetEventMulticaster.remove( EventListener oldl );5;5;10
+WidgetEventMulticaster.remove( ProcessingPhaseListener l , ProcessingPhaseListener oldl );1;0;3
+WidgetEventMulticaster.add( ValueChangedListener a , ValueChangedListener b );1;0;3
+WidgetEventMulticaster.addInternal( EventListener a , EventListener b );3;2;5
+WidgetEventMulticaster.add( CreateListener a , CreateListener b );1;0;3
+WidgetEventMulticaster.valueChanged( ValueChangedEvent e );1;0;4
+WidgetEventMulticaster.phaseEnded( ProcessingPhaseEvent e );1;0;4

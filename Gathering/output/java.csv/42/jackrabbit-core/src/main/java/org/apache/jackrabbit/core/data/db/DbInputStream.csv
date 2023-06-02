@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DbInputStream.read( byte [ ] b );1;0;3
+DbInputStream.close( );5;3;17
+DbInputStream.setResultSet( ResultSet rs );1;0;3
+DbInputStream.available( );2;0;7
+DbInputStream.markSupported( );3;0;12
+DbInputStream.mark( int readlimit );3;0;11
+DbInputStream.setConnection( ConnectionRecoveryManager conn );1;0;3
+DbInputStream.DbInputStream( DbDataStore store , DataIdentifier identifier );1;0;4
+DbInputStream.skip( long n );2;1;7
+DbInputStream.read( byte [ ] b , int off , int len );3;3;12
+DbInputStream.read( );3;3;12
+DbInputStream.openStream( );4;1;14
+DbInputStream.reset( );2;0;7

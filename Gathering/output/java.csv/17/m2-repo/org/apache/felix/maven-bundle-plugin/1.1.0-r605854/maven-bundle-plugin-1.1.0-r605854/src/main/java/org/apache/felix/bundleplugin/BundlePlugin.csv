@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BundlePlugin.getProject( );1;0;3
+BundlePlugin.setMaven2OsgiConverter( Maven2OsgiConverter maven2OsgiConverter );1;0;3
+BundlePlugin.getMavenResourcePaths( MavenProject project );16;21;71
+BundlePlugin.getMaven2OsgiConverter( );1;0;3
+BundlePlugin.setOutputDirectory( File outputDirectory );1;0;3
+BundlePlugin.getProperies( Model projectModel , String prefix , Object model );6;5;27
+BundlePlugin.getBuildDirectory( );1;0;3
+BundlePlugin.execute( MavenProject project , Map instructions , Properties properties );2;0;10
+BundlePlugin.convertVersionToOsgi( String version );1;0;3
+BundlePlugin.setBasedir( File basedir );1;0;3
+BundlePlugin.removeMavenResourcesTag( String includeResource );4;4;17
+BundlePlugin.execute( );2;1;10
+BundlePlugin.getDefaultProperties( MavenProject project );5;4;41
+BundlePlugin.doMavenMetadata( MavenProject project , Jar jar );1;0;14
+BundlePlugin.transformDirectives( Map instructions );4;1;23
+BundlePlugin.getClasspath( MavenProject project );9;5;31
+BundlePlugin.getOutputDirectory( );1;0;3
+BundlePlugin.getFile( Artifact artifact );1;0;3
+BundlePlugin.getEmbeddableArtifacts( MavenProject project , Properties properties );2;0;11
+BundlePlugin.printLicenses( List licenses );6;5;17
+BundlePlugin.execute( MavenProject project , Map instructions , Properties properties , Jar [ ] classpath );22;18;132
+BundlePlugin.setBuildDirectory( String buildirectory );1;0;3
+BundlePlugin.header( Properties properties , String key , Object value );4;2;7
+BundlePlugin.getBundleName( MavenProject project );1;0;3

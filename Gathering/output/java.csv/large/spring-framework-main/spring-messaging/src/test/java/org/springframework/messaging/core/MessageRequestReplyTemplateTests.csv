@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestMessagingTemplate.doReceive( String destination );1;0;4
+TestMessagingTemplate.doSend( String destination , Message < ? > message );1;0;2
+TestMessagingTemplate.setReceiveMessage( Message < ? > receiveMessage );1;0;3
+MessageRequestReplyTemplateTests.convertAndSend( );2;0;9
+MessageRequestReplyTemplateTests.setup( );1;0;5
+MessageRequestReplyTemplateTests.convertAndSendToDestinationWithHeadersAndPostProcessor( );2;0;11
+MessageRequestReplyTemplateTests.sendAndReceiveMissingDestination( );1;0;4
+MessageRequestReplyTemplateTests.sendAndReceiveToDestination( );4;0;9
+MessageRequestReplyTemplateTests.convertAndSendWithPostProcessor( );2;0;10
+TestMessagingTemplate.doSendAndReceive( String destination , Message < ? > requestMessage );1;0;5
+MessageRequestReplyTemplateTests.convertAndSendToDestinationWithHeaders( );2;0;9
+MessageRequestReplyTemplateTests.sendAndReceive( );4;0;10
+MessageRequestReplyTemplateTests.convertAndSendToDestinationWithPostProcessor( );2;0;9
+MessageRequestReplyTemplateTests.convertAndSendToDestination( );2;0;8

@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClassPathBeanDefinitionScannerTests.testSimpleScanWithDefaultFiltersAndDefaultBeanNameClash( );1;0;10
+ClassPathBeanDefinitionScannerTests.postProcessBeanDefinition( AbstractBeanDefinition beanDefinition , String beanName );1;0;4
+ClassPathBeanDefinitionScannerTests.testSimpleScanWithDefaultFiltersAndSpecifiedBeanNameClash( );1;0;11
+ClassPathBeanDefinitionScannerTests.testSimpleScanWithDefaultFiltersAndPostProcessors( );1;0;23
+ClassPathBeanDefinitionScannerTests.testCustomAnnotationExcludeFilterAndDefaults( );1;0;15
+ClassPathBeanDefinitionScannerTests.testMultipleCustomExcludeFiltersAndDefaults( );1;0;17
+ClassPathBeanDefinitionScannerTests.testWithIndex( );1;0;15
+ClassPathBeanDefinitionScannerTests.testCustomIncludeFilterWithoutDefaultsAndNoPostProcessors( );1;0;17
+ClassPathBeanDefinitionScannerTests.testCustomIncludeFilterWithoutDefaultsButIncludingPostProcessors( );1;0;12
+ClassPathBeanDefinitionScannerTests.testCustomBeanNameGenerator( );1;0;17
+ClassPathBeanDefinitionScannerTests.testBeanAutowiredWithAnnotationConfigEnabled( );1;0;27
+ClassPathBeanDefinitionScannerTests.testCustomIncludeFilterAndDefaults( );1;0;17
+ClassPathBeanDefinitionScannerTests.testSimpleScanWithDefaultFiltersAndOverriddenCompatibleNamedBean( );1;1;17
+ClassPathBeanDefinitionScannerTests.testAutowireCandidatePatternDoesNotMatch( );1;0;12
+ClassPathBeanDefinitionScannerTests.testCustomAssignableTypeExcludeFilterAndDefaults( );1;0;16
+ClassPathBeanDefinitionScannerTests.testSimpleScanWithDefaultFiltersAndNoPostProcessors( );1;0;12
+TestBeanNameGenerator.generateBeanName( BeanDefinition definition , BeanDefinitionRegistry registry );1;0;4
+ClassPathBeanDefinitionScannerTests.testDoubleScan( );1;0;20
+ClassPathBeanDefinitionScannerTests.testCustomAssignableTypeExcludeFilterAndDefaultsWithoutPostProcessors( );1;0;15
+ClassPathBeanDefinitionScannerTests.testDoubleScanWithIndex( );1;0;23
+ClassPathBeanDefinitionScannerTests.testMultipleBasePackagesWithDefaultsOnly( );1;0;9
+ClassPathBeanDefinitionScannerTests.testSimpleScanWithDefaultFiltersAndOverridingBean( );1;0;7
+ClassPathBeanDefinitionScannerTests.testSimpleScanWithDefaultFiltersAndPrimaryLazyBean( );1;0;19
+ClassPathBeanDefinitionScannerTests.testAutowireCandidatePatternMatches( );1;0;12
+ClassPathBeanDefinitionScannerTests.testSimpleScanWithDefaultFiltersAndSameBeanTwice( );1;0;7
+ClassPathBeanDefinitionScannerTests.testBeanNotAutowiredWithAnnotationConfigDisabled( );2;0;15
+ClassPathBeanDefinitionScannerTests.testMultipleScanCalls( );1;3;10
+ClassPathBeanDefinitionScannerTests.testSimpleScanWithDefaultFiltersAndOverriddenEqualNamedBean( );1;1;15

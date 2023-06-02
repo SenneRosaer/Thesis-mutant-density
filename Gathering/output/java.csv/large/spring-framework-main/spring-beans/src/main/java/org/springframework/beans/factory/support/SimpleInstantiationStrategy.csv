@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleInstantiationStrategy.instantiateWithMethodInjection( RootBeanDefinition bd , @ Nullable String beanName , BeanFactory owner , @ Nullable Constructor < ? > ctor , Object ... args );1;0;3
+SimpleInstantiationStrategy.instantiate( RootBeanDefinition bd , @ Nullable String beanName , BeanFactory owner , final Constructor < ? > ctor , Object ... args );2;1;8
+SimpleInstantiationStrategy.instantiateWithMethodInjection( RootBeanDefinition bd , @ Nullable String beanName , BeanFactory owner );1;0;3
+SimpleInstantiationStrategy.instantiate( RootBeanDefinition bd , @ Nullable String beanName , BeanFactory owner , @ Nullable Object factoryBean , final Method factoryMethod , Object ... args );9;5;41
+SimpleInstantiationStrategy.instantiate( RootBeanDefinition bd , @ Nullable String beanName , BeanFactory owner );8;2;25
+SimpleInstantiationStrategy.getCurrentlyInvokedFactoryMethod( );1;0;3
+SimpleInstantiationStrategy.setCurrentlyInvokedFactoryMethod( @ Nullable Method method );1;0;3

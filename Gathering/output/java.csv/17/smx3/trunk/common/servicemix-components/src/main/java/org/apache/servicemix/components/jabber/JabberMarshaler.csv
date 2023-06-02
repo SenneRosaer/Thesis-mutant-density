@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JabberMarshaler.messageAsString( NormalizedMessage normalizedMessage );1;0;3
+JabberMarshaler.toNMS( NormalizedMessage normalizedMessage , Packet packet );2;0;9
+JabberMarshaler.setSourceMarshaler( SourceMarshaler sourceMarshaler );1;0;3
+JabberMarshaler.setSourceMarshaller( SourceMarshaler sourceMarshaler );1;0;3
+JabberMarshaler.shouldIncludeHeader( NormalizedMessage normalizedMessage , String name , Object value );3;2;3
+JabberMarshaler.JabberMarshaler( SourceMarshaler sourceMarshaler );1;0;3
+JabberMarshaler.getSourceMarshaller( );1;0;3
+JabberMarshaler.addNmsProperties( NormalizedMessage normalizedMessage , Packet message );2;0;8
+JabberMarshaler.getSourceMarshaler( );1;0;3
+JabberMarshaler.fromNMS( Message message , NormalizedMessage normalizedMessage );1;0;5
+JabberMarshaler.JabberMarshaler( );1;0;3
+JabberMarshaler.addJabberProperties( Message message , NormalizedMessage normalizedMessage );3;0;9

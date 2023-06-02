@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PrioSubscriberSticky.handleEvent( int prio , Object event );2;1;8
+PrioSubscriber.onEventM100( String event );1;1;3
+PrioSubscriberSticky.onEventBackgroundThreadP0( Integer event );1;0;3
+PrioSubscriber.onEventP10( String event );1;0;3
+PrioSubscriberSticky.onEventM1( String event );1;1;3
+PrioSubscriberSticky.onEventBackgroundThreadP1( Integer event );1;0;3
+PrioSubscriberSticky.onEventBackgroundThreadM1( Integer event );1;1;3
+PrioSubscriber.onEventP0( String event );1;0;3
+EventBusOrderedSubscriptionsTest.testOrderedBackgroundThread( );1;0;3
+PrioSubscriber.handleEvent( int prio , Object event );2;1;8
+PrioSubscriber.onEventMainThreadP0( IntTestEvent event );1;0;3
+EventBusOrderedSubscriptionsTest.testOrderedSticky( );1;0;3
+PrioSubscriberSticky.onEventMainThreadP1( IntTestEvent event );1;0;3
+PrioSubscriber.onEventBackgroundThreadP1( Integer event );1;0;3
+PrioSubscriberSticky.onEventP10( String event );1;0;3
+PrioSubscriber.onEventMainThreadP1( IntTestEvent event );1;0;3
+EventBusOrderedSubscriptionsTest.testOrdered( );1;0;3
+PrioSubscriber.onEventM1( String event );1;1;3
+EventBusOrderedSubscriptionsTest.testOrderedBackgroundThreadSticky( );1;0;3
+PrioSubscriberSticky.onEventMainThreadM1( IntTestEvent event );1;1;3
+EventBusOrderedSubscriptionsTest.testOrderedMainThread( );1;0;3
+PrioSubscriberSticky.onEventM100( String event );1;1;3
+PrioSubscriber.onEventBackgroundThreadP0( Integer event );1;0;3
+PrioSubscriber.onEventP1( String event );1;0;3
+***not in a method***;0;8;0
+PrioSubscriberSticky.onEventMainThreadP0( IntTestEvent event );1;0;3
+PrioSubscriber.onEventMainThreadM1( IntTestEvent event );1;1;3
+PrioSubscriberSticky.onEventP0( String event );1;0;3
+EventBusOrderedSubscriptionsTest.testOrderedMainThreadSticky( );1;0;3
+PrioSubscriberSticky.onEventP1( String event );1;0;3
+EventBusOrderedSubscriptionsTest.runTestOrdered( Object event , boolean sticky , int expectedEventCount );2;0;8
+PrioSubscriber.onEventBackgroundThreadM1( Integer event );1;1;3

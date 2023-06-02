@@ -1,0 +1,107 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DTDGrammar.getNextElementDeclIndex( int elementDeclIndex );2;4;4
+DTDGrammar.getEntityDeclIndex( String entityDeclName );2;2;6
+DTDGrammar.addUniqueLeafNode( String elementName );1;0;7
+DTDGrammar.createContentSpec( );1;4;9
+DTDGrammar.textDecl( String version , String encoding , Augmentations augs );1;0;1
+DTDGrammar.resize( String array [ ] [ ] [ ] , int newsize );1;0;5
+DTDGrammar.resize( int array [ ] [ ] , int newsize );1;0;5
+DTDGrammar.externalEntityDecl( String name , XMLResourceIdentifier identifier , Augmentations augs );3;4;13
+DTDGrammar.pcdata( Augmentations augs );1;0;3
+DTDGrammar.setDTDContentModelSource( XMLDTDContentModelSource source );1;0;3
+DTDGrammar.any( Augmentations augs );1;0;1
+DTDGrammar.getFirstAttributeDeclIndex( int elementDeclIndex );1;2;5
+DTDGrammar.endConditional( Augmentations augs );1;0;1
+DTDGrammar.getGrammarDescription( );1;0;3
+DTDGrammar.printAttributes( int elementDeclIndex );3;4;15
+DTDGrammar.getContentSpec( int contentSpecIndex , XMLContentSpec contentSpec );3;5;10
+ChildrenList.ChildrenList( );1;0;1
+DTDGrammar.putElementNameMapping( QName name , int scope , int elementDeclIndex );1;0;2
+DTDGrammar.setFirstAttributeDeclIndex( int elementDeclIndex , int newFirstAttrIndex );3;5;8
+DTDGrammar.getDTDSource( );1;0;3
+DTDGrammar.getElementDeclIsExternal( int elementDeclIndex );2;4;8
+DTDGrammar.startGroup( Augmentations augs );1;1;5
+DTDGrammar.endParameterEntity( String name , Augmentations augs );1;1;4
+DTDGrammar.endAttlist( Augmentations augs );1;0;1
+DTDGrammar.getDTDContentModelSource( );1;0;3
+DTDGrammar.endGroup( Augmentations augs );3;4;9
+DTDGrammar.setElementDecl( int elementDeclIndex , XMLElementDecl elementDecl );4;7;14
+DTDGrammar.createAttributeDecl( );1;5;14
+DTDGrammar.appendContentSpec( XMLContentSpec contentSpec , StringBuffer str , boolean parens , int parentContentSpecType );28;26;111
+DTDGrammar.setEntityDecl( int entityDeclIndex , XMLEntityDecl entityDecl );3;2;13
+DTDGrammar.startDTD( XMLLocator locator , Augmentations augs );1;0;5
+DTDGrammar.setContentSpec( int contentSpecIndex , XMLContentSpec contentSpec );1;2;7
+DTDGrammar.getContentSpecIndex( int elementDeclIndex );3;6;8
+DTDGrammar.setAttributeDecl( int elementDeclIndex , int attributeDeclIndex , XMLAttributeDecl attributeDecl );6;16;36
+DTDGrammar.ensureElementDeclCapacity( int chunk );3;9;23
+DTDGrammar.startExternalSubset( XMLResourceIdentifier identifier , Augmentations augs );1;0;3
+DTDGrammar.resize( short array [ ] [ ] , int newsize );1;0;5
+QNameHashtable.put( String key , int value );6;19;36
+DTDGrammar.isImmutable( );1;0;3
+DTDGrammar.printAttribute( int attributeDeclIndex );2;0;8
+DTDGrammar.resize( DatatypeValidator array [ ] [ ] , int newsize );1;0;5
+DTDGrammar.addContentSpecNode( short nodeType , int leftNodeIndex , int rightNodeIndex );1;0;10
+DTDGrammar.processingInstruction( String target , XMLString data , Augmentations augs );1;0;1
+DTDGrammar.getAttributeDeclIndex( int elementDeclIndex , String attributeDeclName );5;8;15
+DTDGrammar.getNotationDecl( int notationDeclIndex , XMLNotationDecl notationDecl );3;5;12
+DTDGrammar.endDTD( Augmentations augs );3;5;16
+DTDGrammar.setContentSpecIndex( int elementDeclIndex , int contentSpecIndex );3;5;8
+DTDGrammar.contentSpecTree( int contentSpecIndex , XMLContentSpec contentSpec , ChildrenList children );13;26;42
+DTDGrammar.resize( byte array [ ] [ ] , int newsize );1;0;5
+DTDGrammar.startParameterEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );2;3;9
+DTDGrammar.setNotationDecl( int notationDeclIndex , XMLNotationDecl notationDecl );1;2;9
+DTDGrammar.isNamespaceAware( );1;0;3
+DTDGrammar.element( String elementName , Augmentations augs );3;2;15
+QNameHashtable.get( String key );4;10;16
+***not in a method***;0;9;0
+DTDGrammar.ignoredCharacters( XMLString text , Augmentations augs );1;0;1
+DTDGrammar.getContentSpecType( int elementIndex );4;10;13
+DTDGrammar.attributeDecl( String elementName , String attributeName , String type , String [ ] enumeration , String defaultType , XMLString defaultValue , XMLString nonNormalizedDefaultValue , Augmentations augs );22;11;75
+DTDGrammar.internalEntityDecl( String name , XMLString text , XMLString nonNormalizedText , Augmentations augs );3;4;12
+DTDGrammar.notationDecl( String name , XMLResourceIdentifier identifier , Augmentations augs );2;2;10
+DTDGrammar.getNotationDeclIndex( String notationDeclName );2;2;6
+DTDGrammar.resize( ContentModelValidator array [ ] [ ] , int newsize );1;0;5
+DTDGrammar.addContentSpecToElement( XMLElementDecl elementDecl );7;10;16
+DTDGrammar.isEntityUnparsed( String name );3;5;9
+DTDGrammar.startAttlist( String elementName , Augmentations augs );1;0;1
+DTDGrammar.occurrence( short occurrence , Augmentations augs );5;7;11
+DTDGrammar.resize( Object array [ ] [ ] , int newsize );1;0;5
+DTDGrammar.resize( String array [ ] [ ] , int newsize );1;0;5
+DTDGrammar.isCDATAAttribute( QName elName , QName atName );3;2;8
+DTDGrammar.createElementDecl( );1;6;11
+DTDGrammar.elementDecl( String name , String contentModel , Augmentations augs );10;9;45
+DTDGrammar.ensureEntityDeclCapacity( int chunk );3;10;24
+DTDGrammar.getNextAttributeDeclIndex( int attributeDeclIndex );1;2;5
+DTDGrammar.createChildModel( int contentSpecIndex );15;24;45
+DTDGrammar.initializeContentModelStack( );3;8;20
+DTDGrammar.comment( XMLString text , Augmentations augs );1;0;1
+DTDGrammar.getElementDeclName( int elementDeclIndex );3;5;8
+DTDGrammar.isEntityDeclared( String name );2;2;3
+DTDGrammar.createEntityDecl( );1;3;8
+DTDGrammar.addContentSpecNode( short nodeType , String nodeValue );1;0;6
+DTDGrammar.getContentSpecAsString( int elementDeclIndex );36;38;141
+DTDGrammar.ensureContentSpecCapacity( int chunk );3;5;14
+DTDGrammar.startConditional( short type , Augmentations augs );1;0;1
+DTDGrammar.getAttributeDecl( int attributeDeclIndex , XMLAttributeDecl attributeDecl );4;11;24
+DTDGrammar.ensureAttributeDeclCapacity( int chunk );3;11;27
+DTDGrammar.getEntityDecl( int entityDeclIndex , XMLEntityDecl entityDecl );5;7;16
+DTDGrammar.startContentModel( String elementName , Augmentations augs );2;1;8
+DTDGrammar.printElements( );2;1;8
+DTDGrammar.ensureNotationDeclCapacity( int chunk );3;6;16
+DTDGrammar.getElementDeclIndex( String elementDeclName );1;0;4
+DTDGrammar.unparsedEntityDecl( String name , XMLResourceIdentifier identifier , String notation , Augmentations augs );3;4;13
+DTDGrammar.separator( short separator , Augmentations augs );8;11;17
+DTDGrammar.endExternalSubset( Augmentations augs );1;0;3
+DTDGrammar.getElementContentModelValidator( int elementDeclIndex );5;6;30
+DTDGrammar.getElementDeclIndex( QName elementDeclQName );1;0;3
+DTDGrammar.getElementDecl( int elementDeclIndex , XMLElementDecl elementDecl );6;15;22
+DTDGrammar.setDTDSource( XMLDTDSource source );1;0;3
+DTDGrammar.createNotationDecl( );1;2;5
+DTDGrammar.getSymbolTable( );1;0;3
+DTDGrammar.DTDGrammar( SymbolTable symbolTable , XMLDTDDescription desc );1;0;4
+DTDGrammar.getAttributeDeclIsExternal( int attributeDeclIndex );2;4;8
+DTDGrammar.buildSyntaxTree( int startNode , XMLContentSpec contentSpec );11;20;39
+DTDGrammar.endContentModel( Augmentations augs );1;0;1
+DTDGrammar.empty( Augmentations augs );1;0;1
+DTDGrammar.getFirstElementDeclIndex( );2;2;3
+DTDGrammar.resize( QName array [ ] [ ] , int newsize );1;0;5

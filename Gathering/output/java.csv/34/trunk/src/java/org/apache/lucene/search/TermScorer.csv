@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TermScorer.score( );2;3;8
+TermScorer.toString( );1;0;1
+TermScorer.score( HitCollector hc );1;0;4
+TermScorer.TermScorer( Weight weight , TermDocs td , Similarity similarity , byte [ ] norms );2;3;9
+TermScorer.doc( );1;0;1
+TermScorer.skipTo( int target );4;4;18
+TermScorer.next( );3;3;15
+TermScorer.explain( int doc );6;5;23
+TermScorer.score( HitCollector c , int end );5;8;25

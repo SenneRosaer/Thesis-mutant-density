@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Locator.isSameWorkspace( DavResourceLocator locator );1;0;3
+Locator.getPrefix( );1;0;3
+Locator.getResourcePath( );1;0;3
+Locator.equals( Object obj );2;1;7
+LocatorFactoryImpl.createResourceLocator( String prefix , String href );10;10;19
+Locator.hashCode( );1;0;3
+Locator.getFactory( );1;0;3
+Locator.getWorkspacePath( );1;0;3
+LocatorFactoryImpl.createResourceLocator( String prefix , String workspacePath , String path , boolean isResourcePath );1;0;3
+LocatorFactoryImpl.createResourceLocator( String prefix , String workspacePath , String resourcePath );1;0;3
+Locator.getRepositoryPath( );1;0;3
+Locator.isRootLocation( );1;0;3
+Locator.Locator( String prefix , String resourcePath , DavLocatorFactory factory );3;4;9
+Locator.isSameWorkspace( String workspaceName );1;0;3
+Locator.getHref( boolean isCollection );3;3;4
+LocatorFactoryImpl.LocatorFactoryImpl( String repositoryPrefix );1;0;3
+Locator.getWorkspaceName( );1;0;3

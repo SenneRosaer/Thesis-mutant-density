@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RouterFunctionBuilder.HEAD( RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.DELETE( HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.before( Function < ServerRequest , ServerRequest > requestProcessor );1;0;4
+RouterFunctionBuilder.GET( HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.DELETE( RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.OPTIONS( String pattern , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.OPTIONS( RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.POST( String pattern , RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.POST( HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.onError( Class < ? extends Throwable > exceptionType , BiFunction < Throwable , ServerRequest , ServerResponse > responseProvider );1;0;5
+RouterFunctionBuilder.resources( String pattern , Resource location );1;0;3
+RouterFunctionBuilder.PATCH( String pattern , RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.DELETE( String pattern , RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.PUT( String pattern , RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.filter( HandlerFilterFunction < ServerResponse , ServerResponse > filterFunction );1;0;5
+RouterFunctionBuilder.GET( String pattern , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.path( String pattern , Consumer < RouterFunctions . Builder > builderConsumer );1;0;3
+RouterFunctionBuilder.withAttribute( String name , Object value );2;1;12
+BuiltRouterFunction.route( ServerRequest request );3;0;9
+RouterFunctionBuilder.OPTIONS( String pattern , RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.PATCH( String pattern , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.PUT( String pattern , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.path( String pattern , Supplier < RouterFunction < ServerResponse > > routerFunctionSupplier );1;0;3
+RouterFunctionBuilder.POST( RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.HEAD( HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.resources( Function < ServerRequest , Optional < Resource > > lookupFunction );1;0;3
+RouterFunctionBuilder.nest( RequestPredicate predicate , Supplier < RouterFunction < ServerResponse > > routerFunctionSupplier );1;0;6
+RouterFunctionBuilder.GET( RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+BuiltRouterFunction.BuiltRouterFunction( List < RouterFunction < ServerResponse > > routerFunctions );1;0;4
+RouterFunctionBuilder.DELETE( String pattern , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.add( RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;4
+RouterFunctionBuilder.add( RouterFunction < ServerResponse > routerFunction );1;0;5
+RouterFunctionBuilder.PUT( RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.POST( String pattern , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.nest( RequestPredicate predicate , Consumer < RouterFunctions . Builder > builderConsumer );1;0;8
+RouterFunctionBuilder.route( RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.PATCH( HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.PUT( HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.GET( String pattern , RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+BuiltRouterFunction.accept( RouterFunctions . Visitor visitor );1;0;3
+RouterFunctionBuilder.PATCH( RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.build( );4;1;16
+RouterFunctionBuilder.OPTIONS( HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.onError( Predicate < Throwable > predicate , BiFunction < Throwable , ServerRequest , ServerResponse > responseProvider );1;0;6
+RouterFunctionBuilder.withAttributes( Consumer < Map < String , Object > > attributesConsumer );2;1;11
+RouterFunctionBuilder.HEAD( String pattern , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.HEAD( String pattern , RequestPredicate predicate , HandlerFunction < ServerResponse > handlerFunction );1;0;3
+RouterFunctionBuilder.after( BiFunction < ServerRequest , ServerResponse , ServerResponse > responseProcessor );1;0;4

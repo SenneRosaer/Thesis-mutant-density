@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConcurrentMapCacheManager.setBeanClassLoader( ClassLoader classLoader );2;0;6
+ConcurrentMapCacheManager.createConcurrentMapCache( String name );2;0;4
+ConcurrentMapCacheManager.getCache( String name );4;3;13
+ConcurrentMapCacheManager.recreateCaches( );2;0;5
+ConcurrentMapCacheManager.getCacheNames( );1;0;3
+ConcurrentMapCacheManager.isAllowNullValues( );1;0;3
+ConcurrentMapCacheManager.setCacheNames( @ Nullable Collection < String > cacheNames );3;1;11
+ConcurrentMapCacheManager.setAllowNullValues( boolean allowNullValues );2;1;6
+ConcurrentMapCacheManager.ConcurrentMapCacheManager( );1;0;2
+ConcurrentMapCacheManager.isStoreByValue( );1;0;3
+ConcurrentMapCacheManager.setStoreByValue( boolean storeByValue );2;1;6
+ConcurrentMapCacheManager.ConcurrentMapCacheManager( String ... cacheNames );1;0;3

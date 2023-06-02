@@ -1,0 +1,296 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SingleConstructorOptionalCollectionBean.SingleConstructorOptionalCollectionBean( ITestBean testBean , @ Autowired ( required = false ) List < NestedTestBean > nestedTestBeans );1;0;4
+RepositoryMethodInjectionBeanWithVariables.setIntegerRepositoryArray( Repository < I > [ ] integerRepositoryArray );1;0;3
+SecondCallable.call( );1;0;3
+RepositoryMethodInjectionBeanWithVariables.setIntegerRepositoryMap( Map < String , Repository < I > > integerRepositoryMap );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.bridgeMethodHandling( );1;0;6
+ConstructorResourceInjectionBean.getNestedTestBean( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedMethodInjectionWithSubstitutedVariables( );1;0;42
+AutowiredAnnotationBeanPostProcessorTests.methodInjectionWithMapAndNoMatches( );1;0;6
+AutowiredAnnotationBeanPostProcessorTests.constructorResourceInjectionWithMultipleCandidates( );1;0;15
+AnnotatedDefaultConstructorBean.AnnotatedDefaultConstructorBean( );1;0;2
+MapConstructorInjectionBean.getTestBeanMap( );1;0;3
+GenericInterface2Bean.doSomethingMoreGeneric( K o );1;1;3
+RepositoryMethodInjectionBean.setStringArray( String [ ] stringArray );1;0;3
+CustomAnnotationRequiredMethodResourceInjectionBean.getTestBean( );1;0;3
+ConstructorsResourceInjectionBean.getTestBean3( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.testBeanQualifierProvider( );1;0;1
+AutowiredAnnotationBeanPostProcessorTests.constructorResourceInjectionWithSingletonRemoval( );1;0;32
+AutowiredAnnotationBeanPostProcessorTests.constructorResourceInjectionWithBeanDefinitionRemoval( );1;0;31
+AutowiredAnnotationBeanPostProcessorTests.customAnnotationRequiredMethodResourceInjectionFailsWhenNoDependencyFound( );1;0;10
+AutowiredAnnotationBeanPostProcessorTests.constructorInjectionWithPlainSetAsBean( );1;0;13
+RepositoryMethodInjectionBean.setIntegerList( List < Integer > integerList );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.customAnnotationOptionalFieldResourceInjectionWhenNoDependencyFound( );1;0;12
+ObjectProviderInjectionBean.consumeOptionalTestBean( );1;0;4
+AutowiredAnnotationBeanPostProcessorTests.constructorResourceInjectionWithMultipleCandidatesAndFallback( );1;0;8
+AutowiredAnnotationBeanPostProcessorTests.constructorResourceInjectionWithNullFromFactoryBean( );1;0;23
+RepositoryMethodInjectionBeanWithVariables.setStringRepositoryList( List < Repository < S > > stringRepositoryList );1;0;3
+MapMethodInjectionBean.getTestBean( );1;0;3
+RepositoryMethodInjectionBeanWithVariables.setIntegerList( List < I > integerList );1;0;3
+ResourceInjectionBean.getTestBean2( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedFieldInjectionWithSubstitutedVariables( );1;0;42
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedConstructorInjectionWithNonGenericTarget( );1;0;22
+AutowiredAnnotationBeanPostProcessorTests.customAnnotationRequiredFieldResourceInjectionFailsWhenNoDependencyFound( );1;0;10
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedFieldInjectionWithQualifiers( );1;0;24
+ObjectFactoryConstructorInjectionBean.ObjectFactoryConstructorInjectionBean( ObjectFactory < TestBean > testBeanFactory );1;0;3
+ConstructorsCollectionResourceInjectionBean.getTestBean3( );1;0;3
+SelfInjectingFactoryBean.getObjectType( );1;0;3
+OrderedNestedTestBean.getOrder( );1;0;3
+ObjectProviderInjectionBean.getTestBean( String name );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.beanAutowiredWithFactoryBean( );1;0;9
+AutowiredAnnotationBeanPostProcessorTests.customAnnotationRequiredFieldResourceInjectionFailsWhenMultipleDependenciesFound( );1;0;14
+AutowiredAnnotationBeanPostProcessorTests.objectProviderInjectionWithSingletonTarget( );2;0;24
+RepositoryMethodInjectionBean.setIntegerRepositoryMap( Map < String , Repository < Integer > > integerRepositoryMap );1;0;3
+ConstructorResourceInjectionBean.ConstructorResourceInjectionBean( @ Autowired ( required = false ) ITestBean testBean4 , @ Autowired ( required = false ) NestedTestBean nestedTestBean , ConfigurableListableBeanFactory beanFactory );1;0;5
+StringFactoryBean.getObjectType( );1;0;3
+GenericInterface1Impl.createErased( );1;0;3
+ObjectProviderInjectionBean.streamTestBeans( );1;0;3
+ConstructorWithoutFallbackBean.getTestBean3( );1;0;3
+StringFactoryBean.isSingleton( );1;0;3
+ConstructorResourceInjectionBean.getTestBean3( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.objectProviderInjectionWithTargetPrimary( );2;0;34
+AutowiredAnnotationBeanPostProcessorTests.singleConstructorInjectionWithMultipleCandidatesAsRequiredVararg( );1;0;14
+RepositoryMethodInjectionBeanWithVariables.setStringRepository( Repository < S > stringRepository );1;0;3
+RepositoryMethodInjectionBean.setIntegerMap( Map < String , Integer > integerMap );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.resourceInjection( );1;0;13
+AutowiredAnnotationBeanPostProcessorTests.objectProviderInjectionWithPrototype( );2;0;27
+FooBar.setObj( MyCallable obj );1;0;3
+ObjectProviderInjectionBean.iterateTestBeans( );2;0;7
+AutowiredAnnotationBeanPostProcessorTests.annotationOrderedResourceInjection( );1;0;23
+SelfInjectingFactoryBean.getObject( );1;0;3
+ObjectProviderInjectionBean.getOptionalTestBeanWithDefault( );1;0;3
+SingleConstructorVarargBean.getTestBean( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedConstructorInjectionWithNonTypedTarget( );1;0;22
+ObjectProviderInjectionBean.getUniqueTestBean( );1;0;3
+ConstructorsResourceInjectionBean.ConstructorsResourceInjectionBean( ITestBean testBean3 );1;0;3
+MapConstructorInjectionBean.MapConstructorInjectionBean( Map < String , TestBean > testBeanMap );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.injectDefault( ITestBean testBean4 );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedConstructorInjectionWithMixedTargets( );1;0;24
+ConstructorsResourceInjectionBean.ConstructorsResourceInjectionBean( );1;0;2
+RepositoryMethodInjectionBean.setStringRepositoryArray( Repository < String > [ ] stringRepositoryArray );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.constructorResourceInjectionWithMultipleCandidatesAndDefaultFallback( );1;0;6
+RepositoryMethodInjectionBean.setIntegerRepositoryArray( Repository < Integer > [ ] integerRepositoryArray );1;0;3
+MocksControl.createMock( Class < T > toMock );2;0;6
+SelfInjectingFactoryBean.create( );1;0;3
+CustomAnnotationOptionalFieldResourceInjectionBean.getTestBean3( );1;0;3
+ConstructorResourceInjectionBean.ConstructorResourceInjectionBean( ITestBean testBean3 );1;0;3
+RepositoryMethodInjectionBean.setInteger( Integer integer );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedMethodInjection( );1;0;42
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedFieldInjectionWithSimpleMatchAndMockito( );2;0;26
+RepositoryMethodInjectionBean.setStringMap( Map < String , String > stringMap );1;0;3
+OverriddenExtendedResourceInjectionBean.setTestBean2( TestBean testBean2 );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedFieldInjectionWithMocks( );3;0;35
+AutowiredAnnotationBeanPostProcessorTests.objectFactoryFieldInjection( );1;0;6
+ConstructorsCollectionResourceInjectionBean.getNestedTestBeans( );1;0;3
+ConstructorResourceInjectionBean.getTestBean4( );1;0;3
+RepositoryMethodInjectionBeanWithVariables.setIntegerRepository( Repository < I > integerRepository );1;0;3
+NullFactoryMethods.createTestBean( );1;0;3
+ConstructorsCollectionResourceInjectionBean.ConstructorsCollectionResourceInjectionBean( );1;0;2
+CollectionFactoryMethods.testBeanSet( );1;0;6
+ReallyGenericInterface2Impl.doSomethingMoreGeneric( Object o );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.objectProviderInjectionWithTargetNotUnique( );2;0;27
+AutowiredAnnotationBeanPostProcessorTests.orderedCollectionResourceInjection( );1;0;31
+RepositoryFactoryBean.getObject( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.objectProviderInjectionWithTargetNotAvailable( );2;0;20
+AutowiredAnnotationBeanPostProcessorTests.singleConstructorInjectionWithEmptyCollection( );1;0;9
+FactoryBeanDependentBean.getFactoryBean( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.singleConstructorInjectionWithMultipleCandidatesAsRequiredCollection( );1;0;14
+OptionalCollectionResourceInjectionBean.getNestedTestBeans( );1;0;3
+RepositoryMethodInjectionBean.setIntegerRepository( Repository < Integer > integerRepository );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.selfReference( );1;0;6
+AutowiredAnnotationBeanPostProcessorTests.incompleteBeanDefinition( );1;0;6
+ConstructorsResourceInjectionBean.ConstructorsResourceInjectionBean( ITestBean testBean4 , NestedTestBean [ ] nestedTestBeans );1;0;4
+AutowiredAnnotationBeanPostProcessorTests.constructorResourceInjection( );1;0;23
+SingleConstructorOptionalCollectionBean.getNestedTestBeans( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.singleConstructorInjectionWithMultipleCandidatesAsOrderedCollection( );1;0;14
+NonPublicResourceInjectionBean.NonPublicResourceInjectionBean( );1;0;2
+OptionalCollectionResourceInjectionBean.getTestBean4( );1;0;3
+OptionalResourceInjectionBean.getTestBean4( );1;0;3
+RepositoryMethodInjectionBean.setStringRepository( Repository < String > stringRepository );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.constructorInjectionWithPlainHashMapAsBean( );1;0;10
+AutowiredAnnotationBeanPostProcessorTests.optionalCollectionResourceInjection( );1;0;29
+RepositoryMethodInjectionBean.setStringRepositoryMap( Map < String , Repository < String > > stringRepositoryMap );1;0;3
+NullNestedTestBeanFactoryBean.getObject( );1;0;3
+GenericInterface2Impl.doSomethingMoreGeneric( String o );1;0;3
+StringFactoryBean.getObject( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.optionalResourceInjectionWithSingletonRemoval( );1;0;51
+SetConstructorInjectionBean.getTestBeanSet( );1;0;3
+ObjectFactoryConstructorInjectionBean.getTestBean( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedFactoryBeanInjectionWithSingletonBean( );2;0;9
+AutowiredAnnotationBeanPostProcessorTests.customAnnotationOptionalMethodResourceInjection( );1;0;14
+RepositoryMethodInjectionBeanWithVariables.setIntegerRepositoryList( List < Repository < I > > integerRepositoryList );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.objectFactoryQualifierInjection( );1;0;9
+AutowiredAnnotationBeanPostProcessorTests.annotatedDefaultConstructor( );1;0;4
+AutowiredAnnotationBeanPostProcessorTests.close( );1;0;3
+CollectionFactoryMethods.testBeanMap( );1;0;6
+CustomAnnotationOptionalMethodResourceInjectionBean.setTestBean3( TestBean testBean3 );1;0;3
+ConstructorsCollectionResourceInjectionBean.ConstructorsCollectionResourceInjectionBean( ITestBean testBean3 , ITestBean testBean4 , NestedTestBean nestedTestBean );1;0;3
+PlainGenericInterface2Impl.doSomethingMoreGeneric( Object o );1;0;3
+NonPublicResourceInjectionBean.inject( ITestBean testBean4 , T nestedTestBean );1;0;4
+AutowiredAnnotationBeanPostProcessorTests.constructorInjectionWithCustomSetAsBean( );1;0;12
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedInjectionIntoUnresolvedTypeVariable( );1;0;10
+AutowiredAnnotationBeanPostProcessorTests.objectFactoryInjectionIntoPrototypeBean( );1;0;11
+AutowiredAnnotationBeanPostProcessorTests.constructorInjectionWithTypedMapAsBean( );1;0;14
+SingleConstructorRequiredCollectionBean.getTestBean( );1;0;3
+OptionalResourceInjectionBean.setTestBean2( TestBean testBean2 );1;0;3
+RepositoryMethodInjectionBeanWithVariables.setIntegerMap( Map < String , I > integerMap );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.declaredOn( Function < InjectionPoint , Class < ? > > declaringClassExtractor , Class < ? > expected );2;0;7
+RepositoryFactoryBean.getObjectType( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedFieldInjection( );1;0;42
+AutowiredAnnotationBeanPostProcessorTests.customAnnotationOptionalMethodResourceInjectionWhenNoDependencyFound( );1;0;12
+AutowiredAnnotationBeanPostProcessorTests.fieldInjectionWithMap( );1;0;21
+AutowiredAnnotationBeanPostProcessorTests.optionalResourceInjection( );1;0;23
+AutowiredAnnotationBeanPostProcessorTests.objectFactoryQualifierProviderInjection( );1;0;9
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedFactoryBeanInjectionWithBeanDefinition( );2;0;9
+MapFieldInjectionBean.getTestBeanMap( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.singleConstructorInjectionWithNullDependency( );1;0;8
+ConstructorsResourceInjectionBean.getTestBean4( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.singleConstructorInjectionWithMissingDependency( );1;0;5
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedInjectionIntoTypeVariableSelectingBestMatchAgainstFactoryMethodSignature( );1;0;11
+AutowiredAnnotationBeanPostProcessorTests.singleConstructorWithProvidedArgument( );1;0;6
+AutowiredAnnotationBeanPostProcessorTests.setup( );1;0;7
+ObjectProviderInjectionBean.forEachTestBeans( );1;0;5
+AutowiredAnnotationBeanPostProcessorTests.constructorResourceInjectionWithMultipleCandidatesAsOrderedCollection( );1;0;15
+RepositoryMethodInjectionBean.setStringRepositoryList( List < Repository < String > > stringRepositoryList );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.customAnnotationRequiredMethodResourceInjectionFailsWhenMultipleDependenciesFound( );1;0;14
+GenericInterface1Impl.createPlain( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.methodInjectionWithMapAndMultipleMatches( );1;0;8
+ObjectProviderInjectionBean.sortedTestBeans( );1;0;3
+CustomMapConstructorInjectionBean.getTestBeanMap( );1;0;3
+ConstructorsResourceInjectionBean.ConstructorsResourceInjectionBean( NestedTestBean nestedTestBean );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.selfReferenceCollectionWithOther( );1;0;9
+NonPublicResourceInjectionBean.getTestBean3( );1;0;3
+MapMethodInjectionBean.setTestBeanMap( TestBean testBean , Map < String , TestBean > testBeanMap );1;0;4
+AutowiredAnnotationBeanPostProcessorTests.constructorResourceInjectionWithNullFromFactoryMethod( );1;0;26
+QualifiedMapConstructorInjectionBean.getTestBeanMap( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.methodInjectionWithMap( );1;0;17
+GenericInterface1Impl.create( );1;0;3
+ObjectFactoryFieldInjectionBean.getTestBean( );1;0;3
+ConstructorResourceInjectionBean.ConstructorResourceInjectionBean( );1;0;3
+ConstructorResourceInjectionBean.setTestBean2( TestBean testBean2 );1;0;3
+OptionalCollectionResourceInjectionBean.inject( ITestBean testBean4 , List < NestedTestBean > nestedTestBeans , IndexedTestBean indexedTestBean );1;0;5
+OptionalResourceInjectionBean.getTestBean3( );1;0;3
+GenericInterface2Bean.setBeanName( String name );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedInjectionIntoMatchingTypeVariable( );1;0;10
+AutowiredAnnotationBeanPostProcessorTests.createMockitoMock( Class < T > classToMock );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.customAnnotationOptionalFieldResourceInjection( );1;0;14
+RepositoryMethodInjectionBean.setIntegerRepositoryList( List < Repository < Integer > > integerRepositoryList );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedConstructorInjection( );1;0;24
+AutowiredAnnotationBeanPostProcessorTests.selfReferenceWithOther( );1;0;9
+AutowiredAnnotationBeanPostProcessorTests.extendedResourceInjectionWithSkippedOverriddenMethods( );1;0;17
+MultiGenericFieldInjection.toString( );1;1;3
+RepositoryMethodInjectionBean.setString( String string );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.constructorInjectionWithPlainMapAsBean( );1;0;13
+AutowiredAnnotationBeanPostProcessorTests.optionalResourceInjectionWithBeanDefinitionRemoval( );1;0;50
+ConstructorsCollectionResourceInjectionBean.getTestBean4( );1;0;3
+ConstructorResourceInjectionBean.ConstructorResourceInjectionBean( ITestBean testBean3 , ITestBean testBean4 , NestedTestBean nestedTestBean );1;0;3
+ConstructorsCollectionResourceInjectionBean.ConstructorsCollectionResourceInjectionBean( NestedTestBean nestedTestBean );1;0;3
+RepositoryMethodInjectionBean.setIntegerArray( Integer [ ] integerArray );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.constructorInjectionWithTypedSetAsBean( );1;0;14
+SingleConstructorVarargBean.SingleConstructorVarargBean( ITestBean testBean , NestedTestBean ... nestedTestBeans );1;0;4
+AutowiredAnnotationBeanPostProcessorTests.objectProviderInjectionWithUnresolvedOrderedStream( );2;0;16
+RepositoryMethodInjectionBeanWithVariables.setIntegerArray( I [ ] integerArray );1;0;3
+DefaultMethodResourceInjectionBean.markSubInjected( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.optionalCollectionResourceInjectionWithSingleElement( );1;0;24
+RepositoryMethodInjectionBeanWithVariables.setStringArray( S [ ] stringArray );1;0;3
+OptionalResourceInjectionBean.inject( ITestBean testBean4 , NestedTestBean [ ] nestedTestBeans , IndexedTestBean indexedTestBean );1;0;5
+AutowiredAnnotationBeanPostProcessorTests.objectFactorySerialization( );1;0;9
+AutowiredAnnotationBeanPostProcessorTests.extendedResourceInjectionWithDestruction( );1;0;20
+RepositoryFactoryBean.isSingleton( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.extendedResourceInjectionWithOverriding( );1;0;17
+NonPublicResourceInjectionBean.setTestBean2( TestBean testBean2 );1;0;3
+OptionalCollectionResourceInjectionBean.getIndexedTestBean( );1;0;3
+Foo.setObj( RT obj );2;1;6
+AutowiredAnnotationBeanPostProcessorTests.singleConstructorInjectionWithEmptyCollectionAsNull( );1;0;8
+OptionalCollectionResourceInjectionBean.getTestBean3( );1;0;3
+ProvidedArgumentBean.ProvidedArgumentBean( String [ ] args );1;0;2
+RepositoryMethodInjectionBeanWithVariables.setString( S string );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.circularTypeReference( );1;0;8
+AutowiredAnnotationBeanPostProcessorTests.constructorInjectionWithMap( );1;0;18
+NullNestedTestBeanFactoryBean.getObjectType( );1;0;3
+ObjectProviderInjectionBean.getOptionalTestBean( );1;0;3
+RepositoryMethodInjectionBeanWithVariables.setStringList( List < S > stringList );1;0;3
+NonPublicResourceInjectionBean.initBeanFactory( BeanFactory beanFactory );1;0;3
+ConstructorsCollectionResourceInjectionBean.ConstructorsCollectionResourceInjectionBean( ITestBean testBean4 , List < NestedTestBean > nestedTestBeans );1;0;4
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedConstructorInjectionWithMixedTargetsIncludingNonGeneric( );1;0;24
+ConstructorsCollectionResourceInjectionBean.ConstructorsCollectionResourceInjectionBean( ITestBean testBean3 );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.extendedResourceInjectionWithDefaultMethod( );1;0;17
+AutowiredAnnotationBeanPostProcessorTests.customAnnotationRequiredFieldResourceInjection( );1;0;12
+NullFactoryMethods.createNestedTestBean( );1;0;3
+CustomAnnotationOptionalMethodResourceInjectionBean.getTestBean3( );1;0;3
+SingleConstructorRequiredCollectionBean.SingleConstructorRequiredCollectionBean( ITestBean testBean , List < NestedTestBean > nestedTestBeans );1;0;4
+AutowiredAnnotationBeanPostProcessorTests.objectFactoryConstructorInjection( );1;0;6
+NonPublicResourceInjectionBean.inject( ITestBean testBean4 );1;0;3
+OptionalResourceInjectionBean.getIndexedTestBean( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.methodParameterDeclaredOn( Class < ? > expected );1;0;5
+AutowiredAnnotationBeanPostProcessorTests.methodInjectionWithMapAndMultipleMatchesButOnlyOneAutowireCandidate( );1;0;13
+CustomSetConstructorInjectionBean.getTestBeanSet( );1;0;3
+ResourceInjectionBean.getTestBean( );1;0;3
+ObjectFactoryQualifierInjectionBean.getTestBean( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.customAnnotationRequiredMethodResourceInjection( );1;0;12
+ConstructorResourceInjectionBean.ConstructorResourceInjectionBean( NestedTestBean nestedTestBean );1;0;3
+QualifiedMapConstructorInjectionBean.QualifiedMapConstructorInjectionBean( @ Qualifier ( "myTestBeanMap" ) Map < String , TestBean > testBeanMap );1;0;3
+OptionalCollectionResourceInjectionBean.setTestBean2( TestBean testBean2 );1;0;3
+NonPublicResourceInjectionBean.getBeanFactory( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.customAnnotationOptionalMethodResourceInjectionWhenMultipleDependenciesFound( );1;0;14
+AutowiredAnnotationBeanPostProcessorTests.optionalResourceInjectionWithIncompleteDependencies( );1;0;11
+RepositoryMethodInjectionBeanWithVariables.setStringMap( Map < String , S > stringMap );1;0;3
+ResourceInjectionBean.setTestBean2( TestBean testBean2 );2;1;6
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedFieldInjectionWithSimpleMatch( );2;0;23
+ConstructorsResourceInjectionBean.ConstructorsResourceInjectionBean( ITestBean testBean3 , ITestBean testBean4 , NestedTestBean nestedTestBean );1;0;3
+DefaultMethodResourceInjectionBean.initBeanFactory( BeanFactory beanFactory );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.orderedResourceInjection( );1;0;25
+AutowiredAnnotationBeanPostProcessorTests.selfReferenceCollection( );1;0;6
+MyCallable.call( );1;0;3
+RepositoryConstructorInjectionBean.RepositoryConstructorInjectionBean( Repository < String > stringRepository , Repository < Integer > integerRepository , Repository < String > [ ] stringRepositoryArray , Repository < Integer > [ ] integerRepositoryArray , List < Repository < String > > stringRepositoryList , List < Repository < Integer > > integerRepositoryList , Map < String , Repository < String > > stringRepositoryMap , Map < String , Repository < Integer > > integerRepositoryMap );1;0;10
+RepositoryMethodInjectionBeanWithVariables.setStringRepositoryArray( Repository < S > [ ] stringRepositoryArray );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.constructorResourceInjectionWithNoCandidatesAndNoFallback( );1;0;6
+RepositoryMethodInjectionBeanWithVariables.setStringRepositoryMap( Map < String , Repository < S > > stringRepositoryMap );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.constructorResourceInjectionWithMultipleOrderedCandidates( );1;0;15
+TestBeanFactory.newTestBean2( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedInjectionWithBeanDefinitionTargetResolvableType( );1;0;12
+GenericInterface1Impl.doSomethingGeneric( T o );1;1;3
+SingleConstructorOptionalCollectionBean.getTestBean( );1;0;3
+DefaultMethodResourceInjectionBean.setTestBean2( TestBean testBean2 );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.singleConstructorInjectionWithEmptyVararg( );1;0;9
+CustomCollectionFactoryMethods.testBeanMap( );1;0;6
+NonPublicResourceInjectionBean.getNestedTestBean( );1;0;3
+ObjectProviderInjectionBean.getTestBean( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedInjectionIntoTypeVariableSelectingBestMatch( );1;0;13
+CustomAnnotationRequiredMethodResourceInjectionBean.setTestBean( TestBean testBean );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.constructorResourceInjectionWithMultipleCandidatesAsCollection( );1;0;16
+ConstructorResourceInjectionBean.getBeanFactory( );1;0;3
+OptionalCollectionResourceInjectionBean.setNestedTestBeans( List < NestedTestBean > nestedTestBeans );1;0;3
+OverriddenExtendedResourceInjectionBean.inject( ITestBean testBean4 );1;0;3
+OptionalResourceInjectionBean.getNestedTestBeans( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.constructorInjectionWithCustomMapAsBean( );1;0;14
+AutowiredAnnotationBeanPostProcessorTests.constructorResourceInjectionWithCollectionAndNullFromFactoryBean( );1;0;17
+ObjectProviderInjectionBean.getUniqueTestBeanWithDefault( );1;0;3
+ObjectProviderInjectionBean.consumeUniqueTestBean( );1;0;4
+MapMethodInjectionBean.getTestBeanMap( );1;0;3
+CustomAnnotationRequiredFieldResourceInjectionBean.getTestBean( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.optionalResourceInjectionWithNoDependencies( );1;0;9
+TestBeanFactory.newTestBean1( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.customAnnotationOptionalFieldResourceInjectionWhenMultipleDependenciesFound( );1;0;14
+ConstructorsResourceInjectionBean.getNestedTestBeans( );1;0;3
+NonPublicResourceInjectionBean.getTestBean4( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.genericsBasedFieldInjectionWithSimpleMatchAndMock( );2;0;28
+RepositoryMethodInjectionBeanWithVariables.setInteger( I integer );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.annotationOrderedCollectionResourceInjection( );1;0;29
+ConstructorWithoutFallbackBean.ConstructorWithoutFallbackBean( ITestBean testBean3 );1;0;3
+CustomCollectionFactoryMethods.testBeanSet( );1;0;6
+SingleConstructorVarargBean.getNestedTestBeans( );1;0;3
+OverriddenExtendedResourceInjectionBean.initBeanFactory( BeanFactory beanFactory );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.extendedResourceInjection( );1;0;27
+RepositoryMethodInjectionBean.setStringList( List < String > stringList );1;0;3
+NullNestedTestBeanFactoryBean.isSingleton( );1;0;3
+OrderedNestedTestBean.setOrder( int order );1;0;3
+CustomMapConstructorInjectionBean.CustomMapConstructorInjectionBean( CustomMap < String , TestBean > testBeanMap );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.factoryBeanSelfInjectionViaFactoryMethod( );1;0;7
+CustomSetConstructorInjectionBean.CustomSetConstructorInjectionBean( CustomSet < TestBean > testBeanSet );1;0;3
+SetConstructorInjectionBean.SetConstructorInjectionBean( Set < TestBean > testBeanSet );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.factoryBeanSelfInjection( );1;0;5
+SelfInjectingFactoryBean.isSingleton( );1;0;3
+AutowiredAnnotationBeanPostProcessorTests.fieldDeclaredOn( Class < ? > expected );1;0;5
+SingleConstructorRequiredCollectionBean.getNestedTestBeans( );1;0;3
+TypedExtendedResourceInjectionBean.destroy( );1;0;3

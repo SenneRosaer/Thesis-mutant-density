@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultRequestToViewNameTranslatorTests.getViewNameWithDefaultConfiguration( Function < String , MockHttpServletRequest > requestFactory );1;1;4
+DefaultRequestToViewNameTranslatorTests.getViewNameWithSemicolonContent( Function < String , MockHttpServletRequest > requestFactory );1;0;4
+DefaultRequestToViewNameTranslatorTests.getViewNameLeavesLeadingSlashIfSoConfigured( Function < String , MockHttpServletRequest > requestFactory );1;0;5
+DefaultRequestToViewNameTranslatorTests.assertViewName( MockHttpServletRequest request , String expectedViewName );1;0;7
+DefaultRequestToViewNameTranslatorTests.getViewNameWithCustomSeparator( Function < String , MockHttpServletRequest > requestFactory );1;1;5
+DefaultRequestToViewNameTranslatorTests.getViewNameWithNullSuffix( Function < String , MockHttpServletRequest > requestFactory );1;0;5
+DefaultRequestToViewNameTranslatorTests.getViewNameLeavesTrailingSlashIfSoConfigured( Function < String , MockHttpServletRequest > requestFactory );1;0;5
+DefaultRequestToViewNameTranslatorTests.getViewNameLeavesExtensionIfSoConfigured( Function < String , MockHttpServletRequest > requestFactory );1;2;5
+DefaultRequestToViewNameTranslatorTests.pathPatternsArguments( );1;0;3
+DefaultRequestToViewNameTranslatorTests.getViewNameWithNullPrefix( Function < String , MockHttpServletRequest > requestFactory );1;0;5
+DefaultRequestToViewNameTranslatorTests.getViewNameWithNoExtension( Function < String , MockHttpServletRequest > requestFactory );1;0;4
+DefaultRequestToViewNameTranslatorTests.getViewNameWithSuffix( Function < String , MockHttpServletRequest > requestFactory );1;1;6
+DefaultRequestToViewNameTranslatorTests.getViewNameWithPrefix( Function < String , MockHttpServletRequest > requestFactory );1;1;6

@@ -1,0 +1,126 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSIErrorReporter.mergeContext( );4;7;14
+ShortVector.contains( short value );3;3;8
+XMLSchemaValidator.activateSelectorFor( IdentityConstraint ic );2;1;9
+ValueStoreCache.toString( );3;6;12
+ValueStoreCache.transplant( IdentityConstraint id , int initialDepth );3;2;14
+KeyRefValueStore.KeyRefValueStore( KeyRef keyRef , KeyValueStore keyValueStore );1;0;4
+XPathMatcherStack.ensureMatcherCapacity( );2;2;7
+ValueStoreBase.addItemValueType( ShortList itemValueType );8;11;19
+XMLSchemaValidator.setDocumentHandler( XMLDocumentHandler documentHandler );1;0;3
+XMLSchemaValidator.processOneAttribute( QName element , XMLAttributes attributes , int index , XSAttributeDecl currDecl , XSAttributeUseImpl currUse , AttributePSVImpl attrPSVI );21;20;76
+ShortVector.add( short value );1;2;4
+XMLSchemaValidator.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );2;1;5
+XMLSchemaValidator.reset( XMLComponentManager componentManager );29;10;186
+XSIErrorReporter.pushContext( );3;4;12
+XMLSchemaValidator.startValueScopeFor( IdentityConstraint identityConstraint , int initialDepth );1;0;5
+XMLSchemaValidator.handleCharacters( XMLString text );12;17;24
+XMLSchemaValidator.normalizeWhitespace( XMLString value , boolean collapse );18;22;52
+ValueStoreBase.clear( );3;2;16
+XMLSchemaValidator.handleStartElement( QName element , XMLAttributes attributes , Augmentations augs );69;71;248
+XPathMatcherStack.size( );1;0;3
+ValueStoreBase.reportError( String key , Object [ ] args );1;0;3
+XMLSchemaValidator.getXsiNil( QName element , String xsiNil );7;9;25
+XMLSchemaValidator.addDefaultAttributes( QName element , XMLAttributes attributes , XSAttributeGroupDecl attrGrp );13;13;66
+ValueStoreBase.toString( );3;9;12
+UniqueValueStore.UniqueValueStore( UniqueOrKey unique );1;0;3
+LocalIDKey.equals( Object localIDKey );3;3;7
+XMLSchemaValidator.endGeneralEntity( String name , Augmentations augs );2;1;6
+ValueStoreBase.addValue( Field field , boolean mayMatch , Object actualValue , short valueType , ShortList itemValueType );7;12;34
+XMLSchemaValidator.XMLSchemaValidator( );1;0;4
+XMLSchemaValidator.activateField( Field field , int initialDepth );1;0;8
+XMLSchemaValidator.characterData( String data , Augmentations augs );11;15;25
+ValueStoreBase.toString( Vector values , int start , int length );5;6;16
+ValueStoreCache.ValueStoreCache( );1;0;2
+XMLSchemaValidator.handleIgnorableWhitespace( XMLString text );2;1;4
+ValueStoreCache.startDocument( );1;0;6
+XMLSchemaValidator.processRootTypeQName( );7;5;22
+XMLSchemaValidator.getDocumentHandler( );1;0;3
+XMLSchemaValidator.normalizeWhitespace( String value , boolean collapse );8;10;26
+LocalIDKey.LocalIDKey( IdentityConstraint id , int depth );1;0;4
+XMLSchemaValidator.ignorableWhitespace( XMLString text , Augmentations augs );2;1;6
+XMLSchemaValidator.processAttributes( QName element , XMLAttributes attributes , XSAttributeGroupDecl attrGrp );35;38;123
+ValueStoreBase.startValueScope( );2;2;8
+ValueStoreBase.endValueScope( );5;4;21
+XMLSchemaValidator.getEmptyAugs( Augmentations augs );2;1;9
+XMLSchemaValidator.startCDATA( Augmentations augs );2;1;6
+XSIErrorReporter.popContext( );4;7;15
+XMLSchemaValidator.elementDefault( String data );1;0;2
+XPathMatcherStack.addMatcher( XPathMatcher matcher );1;1;4
+KeyRefValueStore.endDocumentFragment( );3;3;20
+XMLSchemaValidator.ensureStackCapacity( );2;2;35
+XMLSchemaValidator.getPropertyDefault( String propertyId );3;2;8
+ValueStoreBase.valueTypeContains( short value );2;1;6
+XMLSchemaValidator.setDocumentSource( XMLDocumentSource source );1;0;3
+XMLSchemaValidator.getDocumentSource( );1;0;3
+XPathMatcherStack.pushContext( );1;0;3
+ShortVector.ShortVector( );1;0;1
+ValueStoreCache.initValueStoresFor( XSElementDecl eDecl , FieldActivator activator );8;5;50
+ValueStoreBase.endDocument( );1;0;2
+XMLSchemaValidator.textDecl( String version , String encoding , Augmentations augs );2;1;5
+***not in a method***;0;33;0
+ValueStoreCache.endElement( );7;4;24
+ValueStoreCache.getGlobalValueStoreFor( IdentityConstraint id );1;0;3
+XSIErrorReporter.reportError( String domain , String key , Object [ ] arguments , short severity );2;0;7
+ValueStoreBase.contains( );12;20;25
+ShortVector.ensureCapacity( int size );3;3;10
+KeyRefValueStore.endDocument( );1;0;3
+ShortVector.valueAt( int position );1;0;3
+XPathMatcherStack.popContext( );1;0;3
+ValueStoreBase.contains( ValueStoreBase vsb );20;38;44
+XMLSchemaValidator.endDocument( Augmentations augs );2;1;7
+XMLSchemaValidator.getAndCheckXsiType( QName element , String xsiType , XMLAttributes attributes );10;10;49
+XMLSchemaValidator.getRecognizedProperties( );1;0;3
+XMLSchemaValidator.handleStartDocument( XMLLocator locator , String encoding );3;0;9
+XMLSchemaValidator.setProperty( String propertyId , Object value );7;2;30
+ValueStoreBase.append( ValueStoreBase newVal );2;2;5
+XPathMatcherStack.getMatcherCount( );1;0;3
+XMLSchemaValidator.comment( XMLString text , Augmentations augs );2;1;5
+XPathMatcherStack.getMatcherAt( int index );1;0;3
+ShortVector.clear( );1;0;3
+XMLSchemaValidator.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );2;1;10
+KeyValueStore.KeyValueStore( UniqueOrKey key );1;0;3
+XMLSchemaValidator.xmlDecl( String version , String encoding , String standalone , Augmentations augs );2;1;5
+XMLSchemaValidator.storeLocations( String sLocation , String nsLocation );5;4;20
+LocalIDKey.LocalIDKey( );1;0;2
+ValueStoreBase.itemValueTypeContains( ShortList value );4;4;7
+XMLSchemaValidator.handleEndElement( QName element , Augmentations augs );31;43;130
+XMLSchemaValidator.getRecognizedFeatures( );1;0;3
+XMLSchemaValidator.findSchemaGrammar( short contextType , String namespace , QName enclosingElement , QName triggeringComponet , XMLAttributes attributes );14;14;55
+ValueStoreBase.toString( Object [ ] values );4;4;14
+XMLSchemaValidator.processElementContent( QName element );40;54;105
+ValueStoreBase.endDocumentFragment( );1;0;2
+ValueStoreBase.getValueTypeAt( int index );2;0;6
+ValueStoreBase.addValueType( short type );6;7;18
+ShortVector.length( );1;0;3
+XMLSchemaValidator.endValueScopeFor( IdentityConstraint identityConstraint , int initialDepth );1;0;5
+XPathMatcherStack.clear( );2;2;7
+XMLSchemaValidator.getFeatureDefault( String featureId );3;2;8
+XMLSchemaValidator.endCDATA( Augmentations augs );2;1;6
+XPathMatcherStack.XPathMatcherStack( );1;0;2
+XMLSchemaValidator.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );5;6;15
+LocalIDKey.hashCode( );1;1;3
+XMLSchemaValidator.handleEndDocument( );2;0;5
+XMLSchemaValidator.reportSchemaError( String key , Object [ ] arguments );2;0;8
+XMLSchemaValidator.startGeneralEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );2;1;6
+ValueStoreBase.getItemValueTypeAt( int index );2;0;6
+ValueStoreBase.checkDuplicateValues( );1;0;2
+XMLSchemaValidator.elementLocallyValidType( QName element , Object textContent );8;5;26
+KeyValueStore.checkDuplicateValues( );2;0;9
+XMLSchemaValidator.expectedStr( Vector expected );3;3;11
+ValueStoreCache.startElement( );2;1;7
+XMLSchemaValidator.endElementPSVI( boolean root , SchemaGrammar [ ] grammars , Augmentations augs );10;8;46
+XMLSchemaValidator.processRootElementDeclQName( );6;5;17
+XMLSchemaValidator.characters( XMLString text , Augmentations augs );5;3;11
+XSIErrorReporter.reset( XMLErrorReporter errorReporter );1;0;5
+XMLSchemaValidator.processingInstruction( String target , XMLString data , Augmentations augs );2;1;5
+XMLSchemaValidator.startElement( QName element , XMLAttributes attributes , Augmentations augs );2;1;6
+XMLSchemaValidator.endElement( QName element , Augmentations augs );4;4;12
+ValueStoreCache.getValueStoreFor( IdentityConstraint id , int initialDepth );1;0;5
+ValueStoreBase.ValueStoreBase( IdentityConstraint identityConstraint );2;2;11
+ValueStoreCache.endDocument( );2;2;7
+UniqueValueStore.checkDuplicateValues( );2;0;9
+XMLSchemaValidator.setFeature( String featureId , boolean state );1;0;2
+XMLSchemaValidator.elementLocallyValidComplexType( QName element , Object textContent );17;14;42
+ShortVector.ShortVector( int initialCapacity );1;0;3
+XSIErrorReporter.reportError( XMLLocator location , String domain , String key , Object [ ] arguments , short severity );2;0;7

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TxMgrProvider.getTransactionKey( );1;0;3
+BPELDAOConnectionFactoryImpl.setDBDictionary( String dbd );1;0;3
+BPELDAOConnectionFactoryImpl.setUnmanagedDataSource( DataSource ds );1;0;2
+BPELDAOConnectionFactoryImpl.getConnection( );5;1;26
+BPELDAOConnectionFactoryImpl.afterCompletion( int i );2;1;5
+BPELDAOConnectionFactoryImpl.setDataSource( DataSource datasource );1;0;3
+BPELDAOConnectionFactoryImpl.setTransactionManager( TransactionManager tm );1;0;3
+BPELDAOConnectionFactoryImpl.beforeCompletion( );1;0;1
+TxMgrProvider.TxMgrProvider( );1;0;2
+BPELDAOConnectionFactoryImpl.shutdown( );1;0;3
+BPELDAOConnectionFactoryImpl.setTransactionManager( Object tm );1;0;3
+BPELDAOConnectionFactoryImpl.BPELDAOConnectionFactoryImpl( );1;0;2
+TxMgrProvider.getTransactionManager( );1;0;3
+TxMgrProvider.getRollbackCause( );1;0;3
+BPELDAOConnectionFactoryImpl.init( Properties properties );4;2;14
+TxMgrProvider.setRollbackOnly( Throwable cause );1;0;3

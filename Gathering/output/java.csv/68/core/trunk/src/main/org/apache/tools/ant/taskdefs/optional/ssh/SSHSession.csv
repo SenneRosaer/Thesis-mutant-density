@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SSHSession.createLocalTunnel( );1;0;5
+NestedSequential.getNested( );1;0;3
+LocalTunnel.getRPort( );2;1;5
+SSHSession.createRemoteTunnel( );1;0;5
+NestedSequential.addTask( Task task );1;0;3
+LocalTunnel.LocalTunnel( );1;0;1
+RemoteTunnel.getRPort( );2;1;5
+RemoteTunnel.RemoteTunnel( );1;0;1
+SSHSession.createSequential( );2;1;7
+SSHSession.setLocaltunnels( String tunnels );3;3;15
+LocalTunnel.getLPort( );2;1;5
+SSHSession.setTimeout( long timeout );1;0;3
+SSHSession.execute( );18;9;64
+SSHSession.addTask( Task nestedTask );1;0;3
+RemoteTunnel.getLPort( );2;1;5
+RemoteTunnel.getLHost( );2;1;5
+RemoteTunnel.setLPort( int lport );1;0;1
+LocalTunnel.setRHost( String rhost );1;0;1
+RemoteTunnel.setRPort( int rport );2;0;8
+LocalTunnel.setRPort( int rport );1;0;1
+RemoteTunnel.setLHost( String lhost );1;0;1
+LocalTunnel.setLPort( int lport );2;0;8
+LocalTunnel.getRHost( );2;1;5
+SSHSession.setRemotetunnels( String tunnels );3;3;15

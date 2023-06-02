@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EndpointRegistryImpl.lookup( final String filter );4;0;22
+EndpointRegistryImpl.getNmr( );1;0;3
+EndpointRegistryImpl.getRegistry( );1;0;3
+EndpointRegistryImpl.init( );3;2;8
+EndpointRegistryImpl.toString( );1;0;3
+EndpointRegistryImpl.setNmr( NMR nmr );1;0;3
+EndpointRegistryImpl.EndpointRegistryImpl( NMR nmr );1;0;3
+EndpointRegistryImpl.match( InternalEndpoint endpoint );5;1;9
+EndpointRegistryImpl.getProperties( Endpoint endpoint );2;0;9
+EndpointRegistryImpl.unregister( Endpoint endpoint , Map < String , ? > properties );8;4;26
+EndpointRegistryImpl.query( Map < String , ? > properties );1;0;3
+EndpointRegistryImpl.lookup( Document xml );1;0;3
+EndpointRegistryImpl.lookup( final Map < String , ? > properties );5;0;18
+EndpointRegistryImpl.setRegistry( ServiceRegistry < InternalEndpoint > registry );1;0;3
+EndpointRegistryImpl.EndpointRegistryImpl( );1;0;2
+EndpointRegistryImpl.internalQuery( Map < String , ? > properties );6;2;20
+EndpointRegistryImpl.getServices( );1;0;3
+EndpointRegistryImpl.register( Endpoint endpoint , Map < String , ? > properties );4;1;16

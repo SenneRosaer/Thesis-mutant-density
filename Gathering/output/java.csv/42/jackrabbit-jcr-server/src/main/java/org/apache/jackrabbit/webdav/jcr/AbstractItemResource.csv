@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractItemResource.subscribe( SubscriptionInfo info , String subscriptionId );1;0;3
+AbstractItemResource.getWorkspaceHref( );3;3;11
+AbstractItemResource.spool( OutputContext outputContext );8;6;29
+AbstractItemResource.getDisplayName( );2;1;4
+AbstractItemResource.getCollection( );2;0;11
+AbstractItemResource.initLockSupport( );2;0;6
+AbstractItemResource.initProperties( );10;3;46
+AbstractItemResource.move( DavResource destination );6;3;22
+AbstractItemResource.AbstractItemResource( DavResourceLocator locator , JcrDavSession session , DavResourceFactory factory , Item item );1;0;6
+AbstractItemResource.getComplianceClass( );1;0;8
+AbstractItemResource.exists( );1;1;3
+AbstractItemResource.complete( );6;2;17
+AbstractItemResource.poll( String subscriptionId , long timeout );1;0;3
+AbstractItemResource.getSupportedMethods( );1;0;3
+AbstractItemResource.copy( DavResource destination , boolean shallow );6;1;23
+AbstractItemResource.init( SubscriptionManager subsMgr );1;0;3
+AbstractItemResource.getItemName( String itemPath );3;1;10
+AbstractItemResource.unsubscribe( String subscriptionId );1;0;3

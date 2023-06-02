@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DownloadTable.nullableStringsMatch( String s1 , String s2 );5;6;7
+SchemaToProcess.getRedefineObjects( );1;0;3
+NsLocPair.getNamespaceURI( );1;0;3
+SchemaToProcess.addRedefine( SchemaToProcess redefine , Redefine object );3;3;9
+DigestKey.DigestKey( byte [ ] digest );3;6;8
+SchemaToProcess.getSourceName( );1;0;3
+StscImporter.resolve( URI base , String child );13;14;40
+NsLocPair.equals( Object o );7;8;8
+SchemaToProcess.getSchema( );1;0;3
+DownloadTable.downloadSchema( XmlObject referencedBy , String targetNamespace , String locationURL );25;21;100
+DownloadTable.copySchemaSource( String urlLoc , StscState state , boolean forceCopy );9;5;37
+NsLocPair.hashCode( );3;4;6
+DownloadTable.usedEmptyNamespaceSchema( Schema s );1;0;3
+DownloadTable.copy( InputStream is );2;1;8
+SchemaToProcess.SchemaToProcess( Schema schema , String chameleonNamespace );1;0;4
+DigestKey.equals( Object o );3;2;5
+SchemaToProcess.hashCode( );2;3;6
+SchemaToProcess.addIndirectIncludesHelper( SchemaToProcess including , SchemaToProcess schemaToProcess );3;1;9
+SchemaToProcess.addIndirectIncludes( SchemaToProcess schemaToProcess );5;3;17
+DownloadTable.copySchemaSource( String url , Reader reader , StscState state );4;1;24
+DownloadTable.addSuccessfulDownload( NsLocPair key , Schema schema );5;4;23
+DownloadTable.DownloadTable( Schema [ ] startWith );3;3;12
+SchemaToProcess.equals( Object o );6;7;8
+DownloadTable.findMatchByDigest( XmlObject original );2;1;6
+DownloadTable.hasNextToScan( );1;1;3
+DownloadTable.addFailedDownload( String locationURL );1;0;3
+DigestKey.hashCode( );1;0;3
+DownloadTable.emptyStringIfNull( String s );2;1;5
+DownloadTable.fetchRemainingEmptyNamespaceSchemas( );3;0;11
+StscImporter.resolveImportsAndIncludes( Schema [ ] startWith , boolean forceSrcSave );1;0;4
+StscImporter.baseURLForDoc( XmlObject obj );5;5;11
+DownloadTable.copy( Reader is );2;1;8
+DownloadTable.copySchemaSource( String url , InputStream bytes , StscState state );4;1;23
+DownloadTable.resolveImportsAndIncludes( boolean forceSave );19;17;98
+SchemaToProcess.indirectIncludes( SchemaToProcess schemaToProcess );2;2;3
+SchemaToProcess.buildIndirectReferences( );5;6;14
+SchemaToProcess.getChameleonNamespace( );1;0;3
+NsLocPair.NsLocPair( String namespaceURI , String locationURL );1;0;4
+DownloadTable.addScanNeeded( SchemaToProcess stp );2;1;10
+NsLocPair.getLocationURL( );1;0;3
+SchemaToProcess.addInclude( SchemaToProcess include );2;1;5
+DownloadTable.nextToScan( );1;0;4
+DownloadTable.previouslyFailedToDownload( String locationURL );1;0;3
+SchemaToProcess.getRedefines( );1;0;3
+StscImporter.parseURI( String s );3;1;12
+DownloadTable.downloadDocument( SchemaTypeLoader loader , String namespace , String absoluteURL );8;6;59
+DownloadTable.addEmptyNamespaceSchema( Schema s );1;0;3

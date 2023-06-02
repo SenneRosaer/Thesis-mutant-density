@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CharacterEncodingFilter.CharacterEncodingFilter( String encoding , boolean forceRequestEncoding , boolean forceResponseEncoding );1;0;6
+CharacterEncodingFilter.CharacterEncodingFilter( String encoding );1;0;3
+CharacterEncodingFilter.isForceRequestEncoding( );1;0;3
+CharacterEncodingFilter.CharacterEncodingFilter( String encoding , boolean forceEncoding );1;0;3
+CharacterEncodingFilter.setForceResponseEncoding( boolean forceResponseEncoding );1;0;3
+CharacterEncodingFilter.isForceResponseEncoding( );1;0;3
+CharacterEncodingFilter.doFilterInternal( HttpServletRequest request , HttpServletResponse response , FilterChain filterChain );5;3;12
+CharacterEncodingFilter.setForceRequestEncoding( boolean forceRequestEncoding );1;0;3
+CharacterEncodingFilter.CharacterEncodingFilter( );1;0;2
+CharacterEncodingFilter.getEncoding( );1;0;3
+CharacterEncodingFilter.setEncoding( @ Nullable String encoding );1;0;3
+CharacterEncodingFilter.setForceEncoding( boolean forceEncoding );1;0;4

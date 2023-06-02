@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Sax2Dom.skippedEntity( String name );1;0;2
+Sax2Dom.startDTD( String name , String publicId , String systemId );1;0;2
+Sax2Dom.startElement( String namespace , String localName , String qName , Attributes attrs );7;10;38
+Sax2Dom.setDocumentLocator( Locator locator );1;0;2
+Sax2Dom.characters( char [ ] ch , int start , int length );2;1;8
+Sax2Dom.processingInstruction( String target , String data );2;1;6
+Sax2Dom.endCDATA( );1;0;2
+Sax2Dom.ignorableWhitespace( char [ ] ch , int start , int length );1;0;2
+Sax2Dom.endPrefixMapping( String prefix );1;0;2
+Sax2Dom.endEntity( String name );1;0;2
+Sax2Dom.comment( char [ ] ch , int start , int length );2;1;5
+Sax2Dom.startEntity( java . lang . String name );1;0;2
+Sax2Dom.startPrefixMapping( String prefix , String uri );2;1;8
+Sax2Dom.startDocument( );1;0;3
+Sax2Dom.endDTD( );1;0;2
+Sax2Dom.startCDATA( );1;0;2
+Sax2Dom.endElement( String namespace , String localName , String qName );1;0;3
+Sax2Dom.Sax2Dom( );1;0;6
+Sax2Dom.Sax2Dom( Node root );3;1;18
+Sax2Dom.endDocument( );1;0;3
+Sax2Dom.getDOM( );1;0;3

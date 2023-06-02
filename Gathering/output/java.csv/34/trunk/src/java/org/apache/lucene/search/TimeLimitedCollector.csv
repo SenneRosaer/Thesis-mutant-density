@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TimeLimitedCollector.isGreedy( );1;0;3
+TimeExceededException.getLastDocCollected( );1;0;3
+TimeExceededException.getTimeAllowed( );1;0;3
+TimerThread.getMilliseconds( );1;0;3
+TimeExceededException.TimeExceededException( long timeAllowed , long timeElapsed , int lastDocCollected );1;0;6
+TimeLimitedCollector.collect( final int doc , final float score );3;3;10
+TimeLimitedCollector.setResolution( long newResolution );1;0;3
+TimeLimitedCollector.setGreedy( boolean greedy );1;0;3
+TimerThread.TimerThread( );1;0;4
+TimeExceededException.getTimeElapsed( );1;0;3
+TimeLimitedCollector.getResolution( );1;0;3
+TimeLimitedCollector.TimeLimitedCollector( final HitCollector hc , final long timeAllowed );1;1;5
+TimerThread.run( );4;1;18

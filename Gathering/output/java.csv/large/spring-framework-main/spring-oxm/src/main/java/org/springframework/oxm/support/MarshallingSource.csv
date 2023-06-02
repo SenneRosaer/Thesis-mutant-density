@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MarshallingSource.setInputSource( InputSource inputSource );1;0;3
+MarshallingXMLReader.parse( InputSource input );1;0;3
+MarshallingXMLReader.setProperty( String name , Object value );2;0;8
+MarshallingXMLReader.getProperty( String name );2;0;8
+MarshallingSource.setXMLReader( XMLReader reader );1;0;3
+MarshallingXMLReader.setContentHandler( @ Nullable ContentHandler contentHandler );1;0;3
+MarshallingXMLReader.getEntityResolver( );1;0;3
+MarshallingXMLReader.parse( String systemId );1;0;3
+MarshallingXMLReader.getContentHandler( );1;0;3
+MarshallingSource.MarshallingSource( Marshaller marshaller , Object content );1;0;7
+MarshallingXMLReader.setEntityResolver( @ Nullable EntityResolver entityResolver );1;0;3
+MarshallingXMLReader.setDTDHandler( @ Nullable DTDHandler dtdHandler );1;0;3
+MarshallingXMLReader.MarshallingXMLReader( Marshaller marshaller , Object content );1;0;6
+MarshallingXMLReader.setFeature( String name , boolean value );1;0;3
+MarshallingXMLReader.getErrorHandler( );1;0;3
+MarshallingXMLReader.parse( );3;3;17
+MarshallingSource.getContent( );1;0;3
+MarshallingXMLReader.getFeature( String name );1;0;3
+MarshallingXMLReader.setErrorHandler( @ Nullable ErrorHandler errorHandler );1;0;3
+MarshallingXMLReader.getLexicalHandler( );1;0;3
+MarshallingXMLReader.getDTDHandler( );1;0;3
+MarshallingSource.getMarshaller( );1;0;3

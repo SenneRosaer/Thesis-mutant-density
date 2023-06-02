@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PrintRenderer.instantiateRendererContext( );1;0;3
+PrintRenderer.getInternalFontNameForArea( Area area );1;0;4
+PrintRenderer.getFontList( );1;0;3
+PrintRenderer.createRendererContext( int x , int y , int width , int height , Map foreignAttributes );2;1;18
+PrintRenderer.addFontList( List fontList );2;1;7
+PrintRenderer.getFontResolver( );2;1;6
+PrintRenderer.setFontList( List embedFontInfoList );1;0;3
+PrintRenderer.getFontFromArea( Area area );1;0;5
+PrintRenderer.setupFontInfo( FontInfo inFontInfo );1;0;9
+PrintRenderer.getFontInfo( );1;0;3
+PrintRenderer.renderDocument( Document doc , String ns , Rectangle2D pos , Map foreignAttributes );1;2;8

@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Messages.msgProcessDeployed( QName processId );1;0;3
+Messages.msgDeployFailed( QName name , File deploymentUnitDirectory );1;0;3
+Messages.msgScheduledJobFailed( Map < String , Object > jobDetail );1;0;3
+Messages.msgDeployStarting( File deploymentUnitDirectory );1;0;3
+Messages.msgDbError( );1;0;3
+Messages.msgProcessNotActive( QName processId );1;0;3
+Messages.msgProcessUnregisterFailed( QName process );1;0;3
+Messages.msgProcessRegistered( QName pid );1;0;3
+Messages.msgBarProcessLoadErr( );1;0;3
+Messages.msgMyRoleRoutingFailure( String messageExchangeId );1;0;4
+Messages.msgDeployRollback( File deploymentUnitDirectory );1;0;3
+Messages.msgDDMyRoleNotFound( String partnerLinkName );1;0;4
+Messages.msgProcessNotFound( QName pid );1;0;3
+Messages.msgDDPartnerLinkNotFound( String partnerLinkName );1;0;4
+Messages.msgProcessActivationError( QName pid );1;0;3
+Messages.msgPropertyAliasDerefFailedOnMessage( String aliasDescription , String reason );1;0;3
+Messages.msgProcessUnregistered( QName pid );1;0;3
+Messages.msgProcessLoadError( QName processId );1;0;3
+Messages.msgServerStarted( );1;0;3
+Messages.msgOperationInterrupted( );1;0;3
+Messages.msgExpLangRegistrationError( String expressionLanguageUri , Map < String , String > properties );1;0;3
+Messages.msgDDNoInitiliazePartnerRole( String partnerLinkName );1;0;4
+Messages.msgInstanceNotFound( Long pid );1;0;3
+Messages.msgDDPartnerRoleNotFound( String partnerLinkName );1;0;4
+Messages.msgDeployFailDescriptorInvalid( URI dduri );1;0;3
+Messages.msgPropertyAliasReturnedNullSet( String alias , String variable );1;0;3
+Messages.msgUnknownEPR( String epr );1;0;3
+Messages.msgInterceptorAborted( String mexId , String interceptor , String msg );1;0;3
+Messages.msgReschedulingJobForInactiveProcess( QName processId , String jobId , Date rescheduled );1;0;4
+Messages.msgServerStopped( );1;0;3
+Messages.msgScheduledJobReferencesUnknownInstance( Long iid );1;0;3
+Messages.msgDeployFailDescriptorIOError( URI dduri );1;0;3
+Messages.msgUnknownOperation( String operationName , QName portType );1;0;3
+Messages.msgExtensionMustUnderstandError( QName name , String extensionUri );1;0;5
+Messages.msgDbConsistencyError( String detail );1;0;3
+Messages.msgDeployFailDescriptorURIInvalid( URI dduri );1;0;3
+Messages.msgUndefinedServicePort( QName service , String port );1;0;4
+Messages.msgProcessDeployErrAlreadyDeployed( QName processId );1;0;3

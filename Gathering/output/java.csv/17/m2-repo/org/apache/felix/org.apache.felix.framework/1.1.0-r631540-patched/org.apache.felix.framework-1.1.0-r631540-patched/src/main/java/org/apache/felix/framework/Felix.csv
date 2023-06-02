@@ -1,0 +1,127 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Felix.getBundleHeaders( FelixBundle bundle , String locale );1;0;3
+Felix.updateBundle( FelixBundle bundle , InputStream is );1;0;11
+Felix.setFrameworkStartLevel( int requestedLevel );17;11;112
+Felix.uninstall( );1;0;3
+Felix.startBundle( FelixBundle bundle , boolean record );1;0;11
+Felix.findBundleEntries( FelixBundle bundle , String path , String filePattern , boolean recurse );2;1;6
+Felix.getBundleResource( FelixBundle bundle , String name );2;1;7
+Felix.getRegisteredServices( );8;7;43
+Felix.createUnmodifiableMap( Map mutableMap );2;0;12
+Felix.getExportedPackages( FelixBundle bundle , List list );9;12;30
+Felix.updateFrameworkExecutionEnvironment( String frameworkEnvironment );2;0;13
+Felix.acquireBundleRefreshLocks( Bundle [ ] targets );16;17;82
+Felix.stop( );2;1;9
+Felix.registerService( FelixBundle bundle , String [ ] classNames , Object svcObj , Dictionary dict );9;12;45
+Felix.acquireBundleLockOrFail( FelixBundle bundle );2;1;11
+Felix.acquireInstallLock( String location );3;1;17
+Felix.moduleResolved( ModuleEvent event );5;3;37
+Felix.uninstallBundle( FelixBundle bundle );1;0;11
+Felix.getBundleStartLevel( Bundle bundle );2;1;7
+Felix.getBundleId( );1;0;3
+Felix.serviceChanged( ServiceEvent event );1;0;3
+Felix.getSymbolicName( );1;0;3
+Felix.garbageCollectBundle( FelixBundle bundle );2;2;8
+Felix.setSecurityProvider( SecurityProvider securityProvider );1;0;3
+Felix.removeServiceListener( Bundle bundle , ServiceListener l );1;0;3
+Felix.getBundleServicesInUse( Bundle bundle );1;0;4
+Felix.fireServiceEvent( ServiceEvent event );1;0;3
+RefreshHelper.restart( );3;1;13
+Felix.fireFrameworkEvent( int type , Bundle bundle , Throwable throwable );1;0;3
+Felix.refreshPackages( Bundle [ ] targets );20;27;67
+SystemBundleActivator.start( BundleContext context );2;2;10
+Felix.getEntry( String name );3;1;16
+Felix.getBundleEntryPaths( FelixBundle bundle , String path );3;2;8
+Felix.getDependentBundles( FelixBundle exporter );5;7;21
+Felix.getNextId( );5;3;40
+Felix.setInitialBundleStartLevel( int startLevel );2;1;9
+Felix.getResource( String name );1;0;3
+Felix.installBundle( String location , InputStream is );1;1;3
+Felix.start( );19;9;184
+Felix.ungetService( Bundle bundle , ServiceReference ref );1;0;3
+Felix._resolveBundle( FelixBundle bundle );7;5;44
+Felix.impliesBundlePermission( BundleProtectionDomain bundleProtectionDomain , Permission permission , boolean direct );2;1;7
+Felix.hasPermission( Object obj );1;0;3
+Felix._startBundle( FelixBundle bundle , boolean record );17;6;66
+Felix.getState( );1;0;3
+Felix.addFrameworkListener( Bundle bundle , FrameworkListener l );1;0;3
+RefreshHelper.RefreshHelper( Bundle bundle );1;0;3
+Felix.addSecurity( final FelixBundle bundle );1;0;3
+Felix.loadBundleClass( FelixBundle bundle , String name );5;3;24
+Felix._uninstallBundle( FelixBundle bundle );13;14;66
+Felix.getBundleLocation( FelixBundle bundle );1;0;3
+Felix.update( );1;0;3
+Felix.getSignerMatcher( );1;0;3
+SystemBundleActivator.stop( BundleContext context );2;1;7
+Felix.addServiceListener( Bundle bundle , ServiceListener l , String f );2;1;4
+Felix.getBundleEntry( FelixBundle bundle , String name );2;1;8
+Felix.getService( Bundle bundle , ServiceReference ref );2;1;9
+RefreshHelper.reinitialize( );3;1;19
+Felix.getBundleResources( FelixBundle bundle , String name );2;1;7
+Felix.getInfo( );1;0;3
+Felix.fireBundleEvent( int type , Bundle bundle );1;0;3
+Felix.getServicesInUse( );8;7;40
+Felix.loadClass( String name );3;1;16
+Felix.createBundleActivator( BundleInfo info );7;6;36
+Felix.addRequirement( FelixBundle bundle , String s );2;2;21
+Felix.getBundleContext( );2;1;7
+Felix.removeBundleListener( Bundle bundle , BundleListener l );1;0;3
+Felix.installBundle( long id , String location , InputStream is );22;14;148
+Felix.releaseBundleLock( FelixBundle bundle );1;0;7
+Felix.getExportedPackages( Bundle b );5;7;31
+Felix.bundleHasPermission( FelixBundle bundle , Object obj );5;2;27
+Felix.toString( );1;1;3
+Felix.createModule( long targetId , int revision , Map headerMap , boolean isExtensionBundle );9;9;40
+Felix.getBundleRegisteredServices( FelixBundle bundle );2;1;8
+Felix.setBundleStartLevel( Bundle bundle , int startLevel );8;7;47
+Felix.populateImportGraph( FelixBundle exporter , Map map );4;5;14
+Felix.releaseBundleLocks( FelixBundle [ ] bundles );3;4;10
+RefreshHelper.stop( );3;1;13
+Felix.Felix( Map configMutableMap , List activatorList );1;0;3
+Felix.getServiceReferences( FelixBundle bundle , String className , String expr , boolean checkAssignable );7;8;25
+Felix.getStartLevel( );1;0;3
+Felix.Felix( Logger logger , Map configMutableMap , List activatorList );8;6;45
+Felix.initializeFrameworkProperties( );1;0;21
+Felix.forgetUninstalledBundle( FelixBundle bundle );7;12;38
+Felix.getHeaders( );1;0;3
+Felix.getAllowedServiceReferences( FelixBundle bundle , String className , String expr , boolean checkAssignable );8;8;35
+Felix._updateBundle( FelixBundle bundle , InputStream is );26;26;132
+Felix.getFrameworkVersion( );4;2;24
+Felix.resolveBundles( Bundle [ ] targets );4;3;30
+Felix.getBundle( long id );6;6;27
+Felix.rememberUninstalledBundle( FelixBundle bundle );5;7;27
+Felix.loadNextId( );6;3;40
+Felix.addBundleListener( Bundle bundle , BundleListener l );1;0;3
+Felix.getProperty( String key );2;1;4
+Felix.update( InputStream is );2;1;9
+Felix.acquireBundleLock( FelixBundle bundle );3;1;16
+Felix.getBundle( String location );1;0;6
+Felix.moduleUnresolved( ModuleEvent event );1;0;2
+Felix.compare( Object o1 , Object o2 );4;13;19
+RefreshHelper.purgeOrRemove( );3;1;20
+Felix.getHeaders( String locale );2;1;9
+Felix.getLocation( );2;1;9
+Felix.getResources( String name );3;1;16
+Felix.getLastModified( );2;2;7
+Felix.getBundleSymbolicName( FelixBundle bundle );1;0;3
+Felix.isBundlePersistentlyStarted( Bundle bundle );2;2;7
+SystemBundleActivator.run( );18;18;105
+Felix.verifyExecutionEnvironment( FelixBundle bundle );4;3;15
+Felix.getExportedPackages( String pkgName );9;10;37
+Felix.releaseInstallLock( String location );1;0;7
+Felix._stopBundle( FelixBundle bundle , boolean record );19;7;75
+Felix.purgeBundle( FelixBundle bundle );2;2;17
+Felix.acquireBundleResolveLocks( Bundle [ ] targets );14;13;69
+Felix.stopBundle( FelixBundle bundle , boolean record );1;0;11
+Felix.getBundles( );6;3;33
+Felix.isMatchingExecutionEnvironment( String bundleEnvironment );6;2;25
+Felix.createBundleInfo( BundleArchive archive , boolean isExtension );3;3;21
+Felix.getDataFile( FelixBundle bundle , String s );3;1;16
+Felix.removeFrameworkListener( Bundle bundle , FrameworkListener l );1;0;3
+Felix.getInitialBundleStartLevel( );4;2;15
+Felix.findEntries( String path , String filePattern , boolean recurse );3;1;16
+Felix.getEntryPaths( String path );3;1;16
+Felix.getBundle( Class clazz );5;4;17
+Felix.stopAndWait( );5;2;30
+Felix.getSignerMatcher( FelixBundle bundle );2;1;7
+Felix.getImportingBundles( ExportedPackage ep );10;13;31

@@ -1,0 +1,54 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Email.setMailSession( Session aSession );2;0;15
+Email.buildMimeMessage( );17;13;92
+Email.setContent( MimeMultipart aMimeMultipart );1;0;3
+Email.addTo( String email );1;0;3
+Email.addCc( String email , String name , String charset );1;0;4
+Email.setPopBeforeSmtp( boolean newPopBeforeSmtp , String newPopHost , String newPopUsername , String newPopPassword );1;0;6
+Email.setSentDate( Date date );1;0;3
+Email.setBcc( Collection aCollection );3;2;8
+Email.getSentDate( );2;1;7
+Email.getMailSession( );8;3;38
+Email.addBcc( String email );1;0;3
+Email.getSubject( );1;0;3
+Email.addHeader( String name , String value );3;0;11
+Email.setTLS( boolean withTLS );1;0;3
+Email.setCc( Collection aCollection );3;2;8
+Email.toInternetAddressArray( List list );1;0;5
+Email.getFromAddress( );1;0;3
+Email.setBounceAddress( String email );1;0;4
+Email.getSmtpPort( );2;0;10
+Email.getHostName( );2;0;10
+Email.setDebug( boolean d );1;0;3
+Email.setAuthentication( String userName , String password );1;0;4
+Email.isSSL( );1;0;3
+Email.setSubject( String aSubject );1;0;4
+Email.setMailSessionFromJNDI( String jndiName );3;0;16
+Email.setContent( Object aObject , String aContentType );6;6;38
+Email.setHostName( String aHostName );1;0;3
+Email.setCharset( String newCharset );1;0;4
+Email.addReplyTo( String email );1;0;3
+Email.isTLS( );1;0;3
+Email.setAuthenticator( Authenticator newAuthenticator );1;0;3
+Email.addBcc( String email , String name , String charset );1;0;4
+Email.addTo( String email , String name , String charset );1;0;4
+Email.setFrom( String email , String name , String charset );1;0;4
+Email.sendMimeMessage( );2;0;16
+Email.addCc( String email , String name );1;0;3
+Email.addReplyTo( String email , String name , String charset );1;0;4
+Email.setTo( Collection aCollection );3;2;8
+Email.addBcc( String email , String name );1;0;3
+Email.setSslSmtpPort( String sslSmtpPort );1;0;3
+Email.setFrom( String email , String name );1;0;3
+Email.createInternetAddress( String email , String name , String charsetName );5;0;30
+Email.setReplyTo( Collection aCollection );3;2;8
+Email.setFrom( String email );1;0;3
+Email.setSSL( boolean ssl );1;0;3
+Email.send( );1;0;4
+Email.getSslSmtpPort( );2;0;10
+Email.addReplyTo( String email , String name );1;0;3
+Email.addCc( String email );1;0;3
+Email.getMimeMessage( );1;0;3
+Email.setHeaders( Map map );4;0;18
+Email.setSmtpPort( int aPortNumber );2;1;10
+Email.addTo( String email , String name );1;0;3

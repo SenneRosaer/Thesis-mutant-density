@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractBundlePersistenceManager.buildNodeReferencesFilePath( StringBuffer buf , NodeReferencesId id );2;1;9
+AbstractBundlePersistenceManager.buildNodeFolderPath( StringBuffer buf , NodeId id );6;8;18
+AbstractBundlePersistenceManager.load( PropertyId id );6;2;33
+AbstractBundlePersistenceManager.getBundle( NodeId id );4;2;16
+AbstractBundlePersistenceManager.evictBundle( NodeId id );1;0;3
+***not in a method***;0;2;0
+AbstractBundlePersistenceManager.buildPropFilePath( StringBuffer buf , PropertyId id );2;1;11
+AbstractBundlePersistenceManager.getNsIndex( );4;1;15
+AbstractBundlePersistenceManager.onExternalUpdate( ChangeLog changes );7;0;29
+AbstractBundlePersistenceManager.deleteBundle( NodePropBundle bundle );1;0;6
+AbstractBundlePersistenceManager.buildBlobFilePath( StringBuffer buf , PropertyId id , int i );2;1;9
+AbstractBundlePersistenceManager.putBundle( NodePropBundle bundle );2;0;9
+AbstractBundlePersistenceManager.checkConsistency( String [ ] uuids , boolean recursive , boolean fix );1;0;2
+AbstractBundlePersistenceManager.store( ChangeLog changeLog );32;18;119
+AbstractBundlePersistenceManager.createNew( PropertyId id );1;0;3
+AbstractBundlePersistenceManager.exists( PropertyId id );2;2;4
+AbstractBundlePersistenceManager.buildNodeFilePath( StringBuffer buf , NodeId id );2;1;9
+AbstractBundlePersistenceManager.createNew( NodeId id );1;0;3
+AbstractBundlePersistenceManager.getBundleCacheSize( );1;2;3
+AbstractBundlePersistenceManager.exists( NodeId id );1;1;3
+AbstractBundlePersistenceManager.setBundleCacheSize( String bundleCacheSize );1;2;3
+AbstractBundlePersistenceManager.load( NodeId id );2;1;7
+AbstractBundlePersistenceManager.init( PMContext context );2;1;15
+AbstractBundlePersistenceManager.getNameIndex( );3;1;10

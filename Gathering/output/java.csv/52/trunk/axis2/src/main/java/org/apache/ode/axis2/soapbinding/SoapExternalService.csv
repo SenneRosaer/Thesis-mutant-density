@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServiceFileObserver.ServiceFileObserver( File file );1;0;3
+SoapExternalService.writeHeader( MessageContext ctxt , PartnerRoleMessageExchange odeMex );7;4;33
+SoapExternalService.SoapExternalService( Definition definition , QName serviceName , String portName , AxisConfiguration axisConfig , ProcessConf pconf );2;1;16
+SoapExternalService.getPortName( );1;0;3
+SoapExternalService.getServiceName( );1;0;3
+SoapExternalService.invoke( final PartnerRoleMessageExchange odeMex );9;4;46
+EndpointPropertiesMutable.hasChangedSince( Map since );1;1;4
+SoapExternalService.getInitialEndpointReference( );1;0;3
+SoapExternalService.reply( final PartnerRoleMessageExchange odeMex , final Operation operation , final MessageContext reply , final boolean isFault );9;2;35
+OptionsObserver.isInitialized( );1;1;3
+SoapExternalService.getServiceClient( );4;2;18
+ServiceFileObserver.onUpdate( );7;4;24
+EndpointPropertiesMutable.toString( );1;0;3
+OptionsObserver.init( );1;0;5
+SoapExternalService.replyWithFailure( final PartnerRoleMessageExchange odeMex , final FailureType error , final String errmsg , final Element details );2;0;8
+SoapExternalService.close( );1;0;2
+SoapExternalService.getAction( String operation );3;2;5
+OptionsObserver.onUpdate( );1;0;5
+EndpointPropertiesMutable.lastModified( );1;0;3
+EndpointPropertiesMutable.exists( );1;0;3
+ServiceFileObserver.init( );1;0;8
+ServiceFileObserver.isInitialized( );1;1;3
+SoapExternalService.applySecuritySettings( ServiceClient serviceClient );8;7;31

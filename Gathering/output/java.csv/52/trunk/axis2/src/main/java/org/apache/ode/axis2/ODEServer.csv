@@ -1,0 +1,47 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProcessStoreListenerImpl.onProcessStoreEvent( ProcessStoreEvent event );1;0;3
+ODEServer.init( String contextPath , AxisConfiguration axisConf );12;7;71
+ODEServer.createExternalService( ProcessConf pconf , QName serviceName , String portName );8;2;22
+ODEServer.initConnector( );3;1;17
+DebugTxMgr.suspend( );1;0;4
+DebugTx.enlistResource( XAResource xaResource );1;0;3
+ODEServer.destroyService( QName serviceName , String portName );3;1;13
+ODEServer.registerExternalVariableModules( );1;0;6
+ODEServer.getProcessStore( );1;0;3
+ODEServer.init( ServletConfig config , AxisConfiguration axisConf );1;0;3
+ODEServer.getService( QName serviceName , QName portTypeName );3;0;8
+DebugTxMgr.commit( );2;0;7
+ODEServer.handleEvent( ProcessStoreEvent pse );6;1;18
+ODEServer.shutDown( );17;8;74
+ODEServer.registerMexInterceptors( );4;1;15
+ODEServer.createService( ProcessConf pconf , QName serviceName , String portName );1;0;14
+ODEServer.initProcessStore( EndpointReferenceContext eprContext );1;0;6
+ODEServer.getService( QName serviceName , String portName );1;0;3
+DebugTxMgr.setTransactionTimeout( int i );1;0;4
+DebugTx.setRollbackOnly( );1;0;4
+ODEServer.createScheduler( );1;0;5
+ODEServer.getExternalService( QName serviceName , String portName );1;0;3
+DebugTx.rollback( );1;0;4
+ODEServer.initDAO( );2;0;10
+ODEServer.initDataSource( );2;0;12
+DebugTxMgr.getTransaction( );2;1;5
+DebugTxMgr.resume( Transaction transaction );1;0;4
+ODEServer.registerExtensionActivityBundles( );7;2;30
+ODEServer.getAppRoot( );1;0;3
+ODEServer.getBpelServer( );1;0;3
+DebugTxMgr.rollback( );1;0;4
+DebugTxMgr.begin( );1;0;4
+DebugTx.delistResource( XAResource xaResource , int i );1;0;3
+DebugTxMgr.getStatus( );1;0;4
+ODEServer.createProcessStore( EndpointReferenceContext eprContext , DataSource ds );1;0;3
+ODEServer.getProcessManagement( );1;0;3
+DebugTxMgr.DebugTxMgr( TransactionManager tm );1;0;3
+DebugTx.DebugTx( Transaction tx );1;0;3
+ODEServer.initTxMgr( );4;2;15
+DebugTx.registerSynchronization( Synchronization synchronization );1;0;4
+DebugTx.getStatus( );1;0;3
+DebugTx.commit( );1;0;4
+ODEServer.registerEventListeners( );4;1;16
+ODEServer.initBpelServer( EndpointReferenceContextImpl eprContext );3;0;20
+DebugTxMgr.setRollbackOnly( );1;0;4
+ODEServer.getInstanceManagement( );1;0;3

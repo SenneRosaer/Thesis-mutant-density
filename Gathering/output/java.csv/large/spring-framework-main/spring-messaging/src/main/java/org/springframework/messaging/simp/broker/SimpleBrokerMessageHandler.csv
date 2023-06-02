@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SessionInfo.SessionInfo( String sessionId , @ Nullable Principal user , MessageChannel outboundChannel , @ Nullable long [ ] clientHeartbeat , @ Nullable long [ ] serverHeartbeat );7;10;16
+SimpleBrokerMessageHandler.initHeaders( SimpMessageHeaderAccessor accessor );2;1;5
+SimpleBrokerMessageHandler.setTaskScheduler( @ Nullable TaskScheduler taskScheduler );3;3;6
+SessionInfo.getUser( );1;0;3
+SimpleBrokerMessageHandler.handleDisconnect( String sessionId , @ Nullable Principal user , @ Nullable Message < ? > origMessage );3;2;15
+SimpleBrokerMessageHandler.sendMessageToSubscribers( @ Nullable String destination , Message < ? > message );8;3;33
+SessionInfo.getWriteInterval( );1;0;3
+SimpleBrokerMessageHandler.updateSessionReadTime( @ Nullable String sessionId );3;2;8
+SessionInfo.setLastReadTime( long lastReadTime );1;0;3
+SessionInfo.getSessionId( );1;0;3
+SimpleBrokerMessageHandler.startInternal( );5;7;14
+SimpleBrokerMessageHandler.setHeaderInitializer( @ Nullable MessageHeaderInitializer headerInitializer );1;0;3
+SimpleBrokerMessageHandler.SimpleBrokerMessageHandler( SubscribableChannel clientInboundChannel , MessageChannel clientOutboundChannel , SubscribableChannel brokerChannel , Collection < String > destinationPrefixes );1;0;4
+SimpleBrokerMessageHandler.initHeartbeatTaskDelay( );5;5;11
+SimpleBrokerMessageHandler.getHeartbeatValue( );1;0;3
+SessionInfo.setLastWriteTime( long lastWriteTime );1;0;3
+SessionInfo.getReadInterval( );1;0;3
+SimpleBrokerMessageHandler.initPathMatcherToUse( );3;2;5
+SimpleBrokerMessageHandler.setHeartbeatValue( @ Nullable long [ ] heartbeat );5;7;6
+SimpleBrokerMessageHandler.toString( );1;0;3
+SessionInfo.getClientOutboundChannel( );1;0;3
+SimpleBrokerMessageHandler.setCacheLimit( @ Nullable Integer cacheLimit );1;0;4
+SimpleBrokerMessageHandler.getTaskScheduler( );1;0;3
+SimpleBrokerMessageHandler.logMessage( Message < ? > message );3;1;7
+SimpleBrokerMessageHandler.getSubscriptionRegistry( );1;0;3
+SimpleBrokerMessageHandler.initCacheLimitToUse( );3;2;5
+SimpleBrokerMessageHandler.setSubscriptionRegistry( SubscriptionRegistry subscriptionRegistry );1;0;7
+SimpleBrokerMessageHandler.handleMessageInternal( Message < ? > message );12;5;55
+SimpleBrokerMessageHandler.setPathMatcher( @ Nullable PathMatcher pathMatcher );1;0;4
+SimpleBrokerMessageHandler.initSelectorHeaderNameToUse( );2;0;5
+SessionInfo.getLastWriteTime( );1;0;3
+SessionInfo.getLastReadTime( );1;0;3
+HeartbeatTask.run( );7;9;20
+SimpleBrokerMessageHandler.getHeaderInitializer( );1;0;3
+SimpleBrokerMessageHandler.setSelectorHeaderName( @ Nullable String selectorHeaderName );1;0;4
+SimpleBrokerMessageHandler.stopInternal( );2;1;6

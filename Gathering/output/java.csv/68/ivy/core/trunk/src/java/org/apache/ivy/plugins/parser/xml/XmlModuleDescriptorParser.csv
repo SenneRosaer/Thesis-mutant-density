@@ -1,0 +1,63 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlModuleDescriptorParser.accept( Resource res );1;0;3
+Parser.setValidate( boolean validate );1;0;3
+Parser.getConfAware( );1;0;3
+Parser.publicationsStarted( Attributes attributes );2;1;9
+Parser.setState( int state );1;0;3
+State.State( );1;0;2
+Parser.infoStarted( Attributes attributes );7;6;38
+Parser.getState( );1;0;3
+Parser.confStarted( Attributes attributes );15;8;55
+XmlModuleDescriptorParser.getInstance( );1;0;3
+Parser.addExcludeRule( String tag , Attributes attributes );1;0;4
+Parser.getDescriptorInput( );1;0;3
+Parser.Parser( ModuleDescriptorParser parser , ParserSettings ivySettings );1;0;4
+Parser.setBuffer( StringBuffer buffer );1;0;3
+Parser.isValidate( );1;0;3
+Parser.getConf( );1;0;3
+Parser.getArtifact( );1;0;3
+Parser.parse( );7;6;34
+Parser.getSettings( );1;0;3
+Parser.mediationOverrideStarted( Attributes attributes );5;4;18
+Parser.dependenciesStarted( Attributes attributes );4;3;17
+Parser.addIncludeRule( String tag , Attributes attributes );1;0;4
+XmlModuleDescriptorParser.parseDescriptor( ParserSettings ivySettings , InputStream descriptor , Resource res , boolean validate );1;0;8
+Parser.getBuffer( );1;0;3
+Parser.characters( char [ ] ch , int start , int length );2;1;5
+XmlModuleDescriptorParser.parseDescriptor( ParserSettings ivySettings , URL xmlURL , Resource res , boolean validate );1;0;8
+Parser.dependencyStarted( Attributes attributes );6;6;33
+Parser.isOtherNamespace( String qName );1;2;3
+Parser.setArtifact( MDArtifact artifact );1;0;3
+Parser.setConfAware( ConfigurationAware confAware );1;0;3
+Parser.artifactStarted( String qName , Attributes attributes );12;11;31
+Parser.isArtifactsDeclared( );1;0;3
+Parser.ivyModuleStarted( Attributes attributes );5;5;24
+Parser.getSchemaURL( );1;0;3
+Parser.includeConfStarted( Attributes attributes );5;4;27
+Parser.setDescriptorVersion( String descriptorVersion );1;0;3
+Parser.addConfiguration( String c );5;1;13
+Parser.parseRule( String tag , Attributes attributes );18;16;55
+Parser.setInput( InputStream descriptorInput );1;0;3
+Parser.getPublicationsDefaultConf( );1;0;3
+Parser.setInput( URL descriptorURL );1;0;3
+Parser.getPatternMatcher( String m );3;2;9
+Parser.addDependencyArtifacts( String tag , Attributes attributes );1;0;4
+Parser.setPublicationsDefaultConf( String defaultConf );2;1;3
+Parser.getDescriptorVersion( );1;0;3
+Parser.setConf( String conf );1;0;3
+Parser.configurationStarted( Attributes attributes );1;0;9
+XmlModuleDescriptorParser.newParser( ParserSettings ivySettings );1;0;3
+Parser.managerStarted( Attributes attributes , String managerAtt );9;9;33
+Parser.replaceConfigurationWildcards( );2;2;6
+XmlModuleDescriptorParser.toIvyFile( InputStream is , Resource res , File destFile , ModuleDescriptor md );4;1;25
+Parser.endElement( String uri , String localName , String qName );33;37;58
+Parser.setDd( DefaultDependencyDescriptor dd );1;0;3
+Parser.startElement( String uri , String localName , String qName , Attributes attributes );43;32;71
+Parser.getDd( );1;0;3
+Parser.getDefaultMatcher( );1;0;3
+XmlModuleDescriptorParser.XmlModuleDescriptorParser( );1;0;2
+Parser.setPublicationsDefaultConf( String [ ] publicationsDefaultConf );1;0;3
+Parser.getDescriptorURL( );1;0;3
+Parser.setArtifactsDeclared( boolean artifactsDeclared );1;0;3
+Parser.checkConfigurations( );2;1;5
+XmlModuleDescriptorParser.toString( );1;0;3

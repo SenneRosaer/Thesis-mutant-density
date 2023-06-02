@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Hyphenator.getResourceStream( String key );4;2;20
+Hyphenator.resolve( String href );1;0;4
+Hyphenator.getHyphenationTreeCache( );2;1;6
+Hyphenator.setMinRemainCharCount( int min );1;0;3
+Hyphenator.getFopHyphenationTree( String key );7;3;39
+Hyphenator.getHyphenationTree( String lang , String country );1;0;3
+Hyphenator.getHyphenationTree( String lang , String country , HyphenationTreeResolver resolver );6;4;25
+Hyphenator.readHyphenationTree( InputStream in );3;0;12
+Hyphenator.setLanguage( String lang , String country );1;0;3
+Hyphenator.hyphenate( String lang , String country , HyphenationTreeResolver resolver , String word , int leftMin , int rightMin );2;1;7
+Hyphenator.setMinPushCharCount( int min );1;0;3
+Hyphenator.hyphenate( String lang , String country , HyphenationTreeResolver resolver , char [ ] word , int offset , int len , int leftMin , int rightMin );2;1;7
+Hyphenator.getUserHyphenationTree( String key , HyphenationTreeResolver resolver );17;7;81
+Hyphenator.hyphenate( String lang , String country , String word , int leftMin , int rightMin );1;0;3
+Hyphenator.hyphenate( String lang , String country , char [ ] word , int offset , int len , int leftMin , int rightMin );1;0;3
+Hyphenator.Hyphenator( String lang , String country , int leftMin , int rightMin );1;0;5
+Hyphenator.hyphenate( String word );2;1;6
+Hyphenator.getUserHyphenationTree( String key , String hyphenDir );1;0;10
+Hyphenator.hyphenate( char [ ] word , int offset , int len );2;1;7

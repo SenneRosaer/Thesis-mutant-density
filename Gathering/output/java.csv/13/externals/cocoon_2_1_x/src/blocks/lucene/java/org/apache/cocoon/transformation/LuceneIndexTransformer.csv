@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IndexHelperField.append( char [ ] str , int offset , int length );1;0;3
+LuceneIndexTransformer.getOptimizeFrequency( );1;0;3
+LuceneIndexTransformer.getMaxFieldLength( );1;0;3
+LuceneIndexTransformer.setMaxFieldLength( int maxFieldLength );1;0;3
+IndexerConfiguration.IndexerConfiguration( String analyzerClassname , String indexDirectory , int indexerMergeFactor , int indexerMaxFieldLength , int indexerOptimizeFrequency );1;0;7
+LuceneIndexTransformer.startPrefixMapping( String prefix , String uri );2;1;5
+LuceneIndexTransformer.endDocument( );1;0;3
+LuceneIndexTransformer.startDocument( );1;0;3
+LuceneIndexTransformer.reindexDocument( );4;1;20
+LuceneIndexTransformer.needToOptimize( );4;5;15
+LuceneIndexTransformer.characters( char [ ] ch , int start , int length );7;10;10
+LuceneIndexTransformer.getKey( );1;0;3
+IndexHelperField.IndexHelperField( String localName , Attributes atts );1;0;5
+LuceneIndexTransformer.contextualize( Context context );1;0;3
+LuceneIndexTransformer.configure( Configuration conf );1;0;8
+LuceneIndexTransformer.setDirectory( String directory );1;0;3
+LuceneIndexTransformer.getAnalyzer( );1;0;3
+LuceneIndexTransformer.startElement( String namespaceURI , String localName , String qName , Attributes atts );16;12;48
+IndexHelperField.getText( );1;0;3
+LuceneIndexTransformer.setOptimizeFrequency( int optimizeFrequency );1;0;3
+LuceneIndexTransformer.setup( SourceResolver resolver , Map objectModel , String src , Parameters parameters );1;0;8
+LuceneIndexTransformer.getMergeFactor( );1;0;3
+LuceneIndexTransformer.uid( String url );1;0;3
+LuceneIndexTransformer.getDirectory( );1;0;3
+IndexHelperField.append( String text );1;0;3
+LuceneIndexTransformer.setMergeFactor( int mergeFactor );1;0;3
+LuceneIndexTransformer.getValidity( );1;0;3
+LuceneIndexTransformer.openWriter( );3;2;15
+LuceneIndexTransformer.openReader( );2;1;9
+LuceneIndexTransformer.recycle( );3;1;15
+LuceneIndexTransformer.endPrefixMapping( String prefix );2;1;5
+LuceneIndexTransformer.setAnalyzer( String analyzer );1;0;3
+LuceneIndexTransformer.endElement( String namespaceURI , String localName , String qName );17;16;73
+IndexHelperField.getAttributes( );1;0;3

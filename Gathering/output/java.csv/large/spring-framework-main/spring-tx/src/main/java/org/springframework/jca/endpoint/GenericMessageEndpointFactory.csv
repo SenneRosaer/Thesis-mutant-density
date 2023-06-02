@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GenericMessageEndpointFactory.createEndpoint( XAResource xaResource );1;0;9
+GenericMessageEndpoint.getEndpointClassLoader( );1;0;3
+GenericMessageEndpointFactory.createEndpointInternal( );1;0;3
+GenericMessageEndpointFactory.setMessageListener( Object messageListener );1;0;3
+GenericMessageEndpoint.invoke( MethodInvocation methodInvocation );7;2;32
+GenericMessageEndpoint.adaptExceptionIfNecessary( MethodInvocation methodInvocation , ResourceException ex );2;0;8
+InternalResourceException.InternalResourceException( ResourceException cause );1;0;3
+GenericMessageEndpointFactory.getMessageListener( );1;1;4

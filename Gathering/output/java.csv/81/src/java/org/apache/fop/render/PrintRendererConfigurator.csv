@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PrintRendererConfigurator.updateReferencedFonts( List fontInfoList , FontTriplet . Matcher matcher );5;1;17
+PrintRendererConfigurator.getFontInfoFromConfiguration( Configuration fontCfg , FontResolver fontResolver , boolean strict , FontCache fontCache , FontEventListener listener );17;16;77
+PrintRendererConfigurator.addFontInfoListFromFileList( List fontFileList , List embedFontInfoList , FontResolver resolver , FontCache fontCache , FontEventListener listener );5;4;17
+PrintRendererConfigurator.getFontTripletFromConfiguration( Configuration tripletCfg , boolean strict );5;3;26
+PrintRendererConfigurator.configure( Renderer renderer );5;4;24
+PrintRendererConfigurator.closeSource( Source src );2;0;7
+PrintRendererConfigurator.buildFontListFromConfiguration( Configuration cfg , FontResolver fontResolver , boolean strict , FontManager fontManager , FontEventListener listener );16;12;95
+PrintRendererConfigurator.PrintRendererConfigurator( FOUserAgent userAgent );1;0;3

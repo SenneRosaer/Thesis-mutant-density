@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceRegionEncoder.contentLength( Resource resource );3;1;10
+ResourceRegionEncoder.ResourceRegionEncoder( );1;0;3
+ResourceRegionEncoder.encode( Publisher < ? extends ResourceRegion > input , DataBufferFactory bufferFactory , ResolvableType elementType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );5;3;33
+ResourceRegionEncoder.canEncode( ResolvableType elementType , @ Nullable MimeType mimeType );2;1;4
+ResourceRegionEncoder.getRegionSuffix( DataBufferFactory bufferFactory , String boundaryString );1;0;4
+ResourceRegionEncoder.ResourceRegionEncoder( int bufferSize );1;1;5
+ResourceRegionEncoder.toAsciiBytes( String in );1;0;3
+ResourceRegionEncoder.writeResourceRegion( ResourceRegion region , DataBufferFactory bufferFactory , @ Nullable Map < String , Object > hints );4;6;14
+ResourceRegionEncoder.getContentRangeHeader( ResourceRegion region );2;2;12

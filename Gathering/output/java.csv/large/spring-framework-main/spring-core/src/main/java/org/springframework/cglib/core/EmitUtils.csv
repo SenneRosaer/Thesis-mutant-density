@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EmitUtils.begin_method( ClassEmitter e , MethodInfo method );1;0;3
+EmitUtils.load_class_helper( CodeEmitter e , final Type type );3;1;18
+EmitUtils.member_switch_helper( final CodeEmitter e , List members , final ObjectSwitchCallback callback , boolean useName );5;1;39
+EmitUtils.processElement( Type type );1;0;3
+EmitUtils.append_string( final CodeEmitter e , Type type , final ArrayDelimiters delims , final CustomizerRegistry registry );2;1;12
+EmitUtils.load_class_this( CodeEmitter e );1;0;3
+EmitUtils.append_string( final CodeEmitter e , Type type , final ArrayDelimiters delims , final Customizer customizer );1;0;3
+EmitUtils.hash_long( CodeEmitter e );1;0;7
+EmitUtils.string_switch( CodeEmitter e , String [ ] strings , int switchStyle , ObjectSwitchCallback callback );6;0;21
+EmitUtils.not_equals( CodeEmitter e , Type type , final Label notEquals , final Customizer customizer );1;0;3
+EmitUtils.push_array( CodeEmitter e , Object [ ] array );2;2;10
+EmitUtils.add_properties( ClassEmitter ce , String [ ] names , Type [ ] types );2;2;7
+EmitUtils.wrap_throwable( Block block , Type wrapper );1;0;9
+EmitUtils.processCase( int key , Label ignore_end );1;6;4
+EmitUtils.getSwitchKeys( Map buckets );2;1;9
+EmitUtils.load_class( CodeEmitter e , Type type );3;1;10
+EmitUtils.stringSwitchHelper( final CodeEmitter e , List strings , final ObjectSwitchCallback callback , final Label def , final Label end , final int index );2;0;23
+EmitUtils.hash_code( CodeEmitter e , Type type , int multiplier , final CustomizerRegistry registry );3;0;16
+EmitUtils.process_array( CodeEmitter e , Type type , ProcessArrayCallback callback );1;0;22
+EmitUtils.hash_code( CodeEmitter e , Type type , int multiplier , final Customizer customizer );1;0;3
+EmitUtils.wrap_undeclared_throwable( CodeEmitter e , Block handler , Type [ ] exceptions , Type wrapper );8;5;29
+EmitUtils.constructor_switch( CodeEmitter e , List constructors , ObjectSwitchCallback callback );1;0;3
+EmitUtils.method_switch( CodeEmitter e , List methods , ObjectSwitchCallback callback );1;0;3
+EmitUtils.push_object( CodeEmitter e , Object obj );8;1;28
+EmitUtils.string_switch_trie( final CodeEmitter e , String [ ] strings , final ObjectSwitchCallback callback );1;0;22
+EmitUtils.member_helper_size( final CodeEmitter e , List members , final ObjectSwitchCallback callback , final ParameterTyper typer , final Label def , final Label end );1;0;16
+EmitUtils.factory_method( ClassEmitter ce , Signature sig );1;0;9
+EmitUtils.EmitUtils( );1;0;2
+EmitUtils.not_equals_helper( CodeEmitter e , Type type , Label notEquals , CustomizerRegistry registry , ProcessArrayCallback callback );6;1;34
+EmitUtils.add_property( ClassEmitter ce , String name , Type type , String fieldName );1;0;23
+EmitUtils.nullcmp( CodeEmitter e , Label oneNull , Label bothNull );1;0;17
+EmitUtils.process_arrays( CodeEmitter e , Type type , ProcessArrayCallback callback );1;0;27
+ArrayDelimiters.ArrayDelimiters( String before , String inside , String after );1;0;5
+EmitUtils.processDefault( );1;0;3
+EmitUtils.load_method( CodeEmitter e , MethodInfo method );1;0;6
+EmitUtils.hash_object( CodeEmitter e , Type type , CustomizerRegistry registry );5;1;24
+EmitUtils.hash_array( final CodeEmitter e , Type type , final int multiplier , final CustomizerRegistry registry );1;0;11
+EmitUtils.append_string_helper( CodeEmitter e , Type type , ArrayDelimiters delims , CustomizerRegistry registry , ProcessArrayCallback callback );18;10;57
+EmitUtils.string_switch_hash( final CodeEmitter e , final String [ ] strings , final ObjectSwitchCallback callback , final boolean skipEquals );8;0;46
+EmitUtils.hash_primitive( CodeEmitter e , Type type );5;0;15
+EmitUtils.null_constructor( ClassEmitter ce );1;0;7
+EmitUtils.shrinkStringBuffer( CodeEmitter e , int amt );1;0;8
+EmitUtils.processCase( int key , Label dontUseEnd );1;0;4
+EmitUtils.begin_method( ClassEmitter e , MethodInfo method , int access );1;0;5
+EmitUtils.not_equals( final CodeEmitter e , Type type , final Label notEquals , final CustomizerRegistry registry );1;0;8
+EmitUtils.remapComponentType( Class componentType );2;0;6
+EmitUtils.member_helper_type( final CodeEmitter e , List members , final ObjectSwitchCallback callback , final ParameterTyper typer , final Label def , final Label end , final BitSet checked );10;15;51
+EmitUtils.processCase( Object key , Label dontUseEnd );1;0;3

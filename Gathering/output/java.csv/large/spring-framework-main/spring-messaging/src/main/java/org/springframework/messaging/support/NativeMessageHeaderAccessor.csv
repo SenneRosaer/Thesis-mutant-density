@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NativeMessageHeaderAccessor.setNativeHeaderValues( String name , @ Nullable List < String > values );6;6;19
+NativeMessageHeaderAccessor.getFirstNativeHeader( String headerName , Map < String , Object > headers );3;2;10
+NativeMessageHeaderAccessor.getFirstNativeHeader( String headerName );3;2;10
+NativeMessageHeaderAccessor.addNativeHeader( String name , @ Nullable String value );3;2;14
+NativeMessageHeaderAccessor.setImmutable( );3;1;10
+NativeMessageHeaderAccessor.addNativeHeaders( @ Nullable MultiValueMap < String , String > headers );2;1;6
+NativeMessageHeaderAccessor.getNativeHeaders( );1;0;3
+NativeMessageHeaderAccessor.NativeMessageHeaderAccessor( @ Nullable Message < ? > message );3;2;11
+NativeMessageHeaderAccessor.toNativeHeaderMap( );2;1;4
+NativeMessageHeaderAccessor.setNativeHeader( String name , @ Nullable String value );6;6;21
+NativeMessageHeaderAccessor.copyHeaders( @ Nullable Map < String , ? > headersToCopy );4;4;11
+NativeMessageHeaderAccessor.getNativeHeader( String headerName );2;1;4
+NativeMessageHeaderAccessor.containsNativeHeader( String headerName );2;2;4
+NativeMessageHeaderAccessor.NativeMessageHeaderAccessor( );1;0;3
+NativeMessageHeaderAccessor.removeNativeHeader( String headerName );2;0;8
+NativeMessageHeaderAccessor.copyHeadersIfAbsent( @ Nullable Map < String , ? > headersToCopy );4;4;11
+NativeMessageHeaderAccessor.NativeMessageHeaderAccessor( @ Nullable Map < String , List < String > > nativeHeaders );2;1;5

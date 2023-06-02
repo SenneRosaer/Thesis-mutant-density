@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BalancedDTDGrammar.addToCurrentGroup( int contentSpec );3;4;15
+BalancedDTDGrammar.element( String elementName , Augmentations augs );1;0;3
+BalancedDTDGrammar.startGroup( Augmentations augs );1;1;5
+BalancedDTDGrammar.startContentModel( String elementName , Augmentations augs );1;0;5
+BalancedDTDGrammar.addContentSpecNodes( int begin , int end );2;4;9
+BalancedDTDGrammar.occurrence( short occurrence , Augmentations augs );5;8;14
+BalancedDTDGrammar.separator( short separator , Augmentations augs );3;2;8
+BalancedDTDGrammar.pcdata( Augmentations augs );1;0;3
+BalancedDTDGrammar.endGroup( Augmentations augs );2;3;6
+BalancedDTDGrammar.endDTD( Augmentations augs );1;0;6
+BalancedDTDGrammar.initializeContentModelStacks( );3;6;20
+BalancedDTDGrammar.addContentSpecToElement( XMLElementDecl elementDecl );2;2;4
+BalancedDTDGrammar.BalancedDTDGrammar( SymbolTable symbolTable , XMLDTDDescription desc );1;0;3

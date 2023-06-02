@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpringLocalizationContext.getLocale( );3;1;10
+JstlUtils.exposeLocalizationContext( HttpServletRequest request , @ Nullable MessageSource messageSource );3;2;12
+JstlUtils.exposeLocalizationContext( RequestContext requestContext );2;1;11
+JstlUtils.getJstlAwareMessageSource( @ Nullable ServletContext servletContext , MessageSource messageSource );3;2;12
+SpringLocalizationContext.SpringLocalizationContext( MessageSource messageSource , HttpServletRequest request );1;0;4
+SpringLocalizationContext.getResourceBundle( );3;1;11

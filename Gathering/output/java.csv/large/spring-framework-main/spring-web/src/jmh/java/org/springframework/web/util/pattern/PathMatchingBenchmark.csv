@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AntPathMatcherData.parseRoutes( List < Route > routes );1;0;6
+AllRoutesAntPathMatcher.registerPatterns( );1;0;3
+PatternParserData.parseRoutes( List < Route > routes );1;0;7
+RouteGenerator.captureRoutes( );1;0;25
+RouteGenerator.allRoutes( );1;0;9
+PathMatchingBenchmark.matchAndSortAllRoutesWithPathPatternParser( AllRoutesPatternParser data , Blackhole bh );4;0;12
+PathMatchingBenchmark.matchAllRoutesWithPathPatternParser( AllRoutesPatternParser data , Blackhole bh );3;0;7
+PathMatchingBenchmark.matchStaticRoutesWithPathPatternParser( StaticRoutesPatternParser data , Blackhole bh );3;0;7
+Route.Route( String pattern , String ... matchingPaths );2;1;9
+StaticRoutesPatternParser.registerPatterns( );1;0;3
+PathMatchingBenchmark.matchStaticRoutesWithAntPathMatcher( StaticRoutesAntPathMatcher data , Blackhole bh );3;0;7
+Route.matchingPaths( );1;0;3
+RouteGenerator.regexRoute( );1;0;10
+RouteGenerator.staticRoutes( );1;0;19
+PathMatchingBenchmark.matchAllRoutesWithAntPathMatcher( AllRoutesAntPathMatcher data , Blackhole bh );3;0;7
+StaticRoutesAntPathMatcher.registerPatterns( );1;0;3
+Route.pattern( );1;0;3
+PathMatchingBenchmark.matchAndSortAllRoutesWithAntPathMatcher( AllRoutesAntPathMatcher data , Blackhole bh );4;0;12
+AllRoutesPatternParser.registerPatterns( );1;0;3

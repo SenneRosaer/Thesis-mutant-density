@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConditionalContentCachingResponseWrapper.getWriter( );3;1;4
+ShallowEtagHeaderFilter.updateResponse( HttpServletRequest request , HttpServletResponse response );4;1;17
+ConditionalContentCachingResponseWrapper.hasETag( );1;0;3
+ConditionalContentCachingResponseWrapper.getOutputStream( );3;1;4
+ShallowEtagHeaderFilter.generateETagHeaderValue( InputStream inputStream , boolean isWeak );2;0;10
+ShallowEtagHeaderFilter.doFilterInternal( HttpServletRequest request , HttpServletResponse response , FilterChain filterChain );5;6;10
+ShallowEtagHeaderFilter.setWriteWeakETag( boolean writeWeakETag );1;0;3
+ShallowEtagHeaderFilter.isEligibleForEtag( HttpServletRequest request , HttpServletResponse response , int responseStatusCode , InputStream inputStream );6;9;9
+ShallowEtagHeaderFilter.isWriteWeakETag( );1;0;3
+ShallowEtagHeaderFilter.disableContentCaching( ServletRequest request );1;0;4
+ShallowEtagHeaderFilter.shouldNotFilterAsyncDispatch( );1;0;3
+ShallowEtagHeaderFilter.isContentCachingDisabled( HttpServletRequest request );1;1;3
+ConditionalContentCachingResponseWrapper.ConditionalContentCachingResponseWrapper( HttpServletResponse response , HttpServletRequest request );1;0;4

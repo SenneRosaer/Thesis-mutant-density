@@ -1,0 +1,60 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocumentImpl.mutationEventsRemovingNode( NodeImpl node , NodeImpl oldChild , boolean replace );8;7;35
+DocumentImpl.notifyRangesInsertedText( CharacterDataImpl node , int offset , int count );2;2;6
+DocumentImpl.DocumentImpl( boolean grammarAccess );1;0;3
+DocumentImpl.createRange( );2;1;8
+DocumentImpl.setEventListeners( NodeImpl n , Vector listeners );4;2;14
+DocumentImpl.notifyRangesReplacedText( CharacterDataImpl node );2;2;6
+DocumentImpl.removingNode( NodeImpl node , NodeImpl oldChild , boolean replace );4;2;11
+DocumentImpl.mutationEventsModifiedCharacterData( NodeImpl node , String oldvalue , String value , boolean replace );3;2;15
+DocumentImpl.notifyRangesRemovingNode( NodeImpl oldChild );2;2;6
+DocumentImpl.renamedAttrNode( Attr oldAt , Attr newAt );1;0;2
+DocumentImpl.removedAttrNode( AttrImpl attr , NodeImpl oldOwner , String name );2;0;5
+DocumentImpl.saveEnclosingAttr( NodeImpl node );7;5;25
+DocumentImpl.DocumentImpl( DocumentType doctype );1;0;3
+DocumentImpl.dispatchAggregateEvents( NodeImpl node , EnclosingAttr ea );2;1;7
+DocumentImpl.createEvent( String type );9;4;22
+***not in a method***;0;1;0
+DocumentImpl.removedNode( NodeImpl node , boolean replace );3;1;7
+DocumentImpl.replacingData( NodeImpl node );2;0;5
+DocumentImpl.getEventListeners( NodeImpl n );2;1;6
+DocumentImpl.notifyRangesSplitData( Node node , Node newNode , int offset );2;2;6
+DocumentImpl.DocumentImpl( DocumentType doctype , boolean grammarAccess );1;0;3
+DocumentImpl.notifyRangesDeletedText( CharacterDataImpl node , int offset , int count );2;2;6
+DocumentImpl.replacedCharacterData( NodeImpl node , String oldvalue , String value );1;0;3
+DocumentImpl.replacingNode( NodeImpl node );2;0;5
+DocumentImpl.dispatchEvent( NodeImpl node , Event event );36;38;96
+DocumentImpl.insertedText( CharacterDataImpl node , int offset , int count );2;1;5
+DocumentImpl.notifyRangesInsertedNode( NodeImpl newInternal );2;2;6
+DocumentImpl.insertedNode( NodeImpl node , NodeImpl newInternal , boolean replace );3;1;8
+DocumentImpl.modifiedCharacterData( NodeImpl node , String oldvalue , String value , boolean replace );2;0;5
+DocumentImpl.addEventListener( NodeImpl node , String type , EventListener listener , boolean useCapture );6;9;20
+DocumentImpl.removeNodeIterator( NodeIterator nodeIterator );3;2;5
+DocumentImpl.copyEventListeners( NodeImpl src , NodeImpl tgt );2;1;7
+DocumentImpl.getImplementation( );1;0;3
+DocumentImpl.mutationEventsInsertedNode( NodeImpl node , NodeImpl newInternal , boolean replace );9;8;41
+DocumentImpl.createTreeWalker( Node root , short whatToShow , NodeFilter filter );1;0;3
+LEntry.LEntry( String type , EventListener listener , boolean useCapture );1;0;5
+DocumentImpl.modifiedAttrValue( AttrImpl attr , String oldvalue );2;0;6
+DocumentImpl.mutationEventsRemovedAttrNode( AttrImpl attr , NodeImpl oldOwner , String name );2;1;12
+DocumentImpl.setMutationEvents( boolean set );1;0;3
+DocumentImpl.dispatchingEventToSubtree( Node n , Event e );4;5;12
+DocumentImpl.renamedElement( Element oldEl , Element newEl );1;0;2
+DocumentImpl.getMutationEvents( );1;0;3
+DocumentImpl.createNodeIterator( Node root , int whatToShow , NodeFilter filter , boolean entityReferenceExpansion );3;2;16
+DocumentImpl.dispatchEventToSubtree( Node n , Event e );3;4;9
+DocumentImpl.dispatchAggregateEvents( NodeImpl node , AttrImpl enclosingAttr , String oldvalue , short change );7;6;33
+DocumentImpl.createNodeIterator( Node root , short whatToShow , NodeFilter filter );1;0;3
+DocumentImpl.splitData( Node node , Node newNode , int offset );2;1;5
+DocumentImpl.removeRange( Range range );3;2;5
+DocumentImpl.deletedText( CharacterDataImpl node , int offset , int count );2;1;5
+DocumentImpl.cloneNode( boolean deep );1;0;7
+DocumentImpl.createTreeWalker( Node root , int whatToShow , NodeFilter filter , boolean entityReferenceExpansion );2;1;8
+DocumentImpl.DocumentImpl( );1;0;3
+DocumentImpl.removeEventListener( NodeImpl node , String type , EventListener listener , boolean useCapture );11;17;26
+DocumentImpl.modifyingCharacterData( NodeImpl node , boolean replace );3;1;7
+DocumentImpl.insertingNode( NodeImpl node , boolean replace );3;1;7
+DocumentImpl.setAttrNode( AttrImpl attr , AttrImpl previous );3;1;13
+DocumentImpl.notifyIteratorsRemovingNode( NodeImpl oldChild );2;2;6
+DocumentImpl.replacedNode( NodeImpl node );2;0;5
+DocumentImpl.replacedText( CharacterDataImpl node );2;1;5

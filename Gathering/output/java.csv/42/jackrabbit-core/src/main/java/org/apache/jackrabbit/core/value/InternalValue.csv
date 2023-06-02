@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InternalValue.getBoolean( );2;3;4
+InternalValue.equals( Object obj );3;1;10
+InternalValue.create( double value );1;0;3
+InternalValue.InternalValue( UUID value );1;0;4
+InternalValue.create( File value );1;1;4
+InternalValue.getDate( );2;3;4
+InternalValue.createTemporary( InputStream value , DataStore store );3;0;10
+InternalValue.getPath( );2;3;4
+InternalValue.getQName( );2;3;4
+InternalValue.create( InputStream value );3;0;10
+InternalValue.InternalValue( Calendar value );1;0;4
+InternalValue.create( Name [ ] values );2;2;7
+InternalValue.toJCRValue( NamePathResolver resolver );10;0;24
+InternalValue.create( FileSystemResource value );2;0;6
+InternalValue.InternalValue( long value );1;0;4
+InternalValue.getLong( );2;3;4
+InternalValue.create( Calendar value );1;0;3
+InternalValue.getBLOBFileValue( DataStore store , InputStream in , boolean temporary );7;8;35
+InternalValue.toString( );2;1;7
+InternalValue.getBLOBFileValue( DataStore store , String id );3;0;9
+InternalValue.createCopy( );5;1;20
+InternalValue.getType( );1;0;3
+InternalValue.hashCode( );1;0;3
+InternalValue.create( DataStore store , String id );2;2;4
+InternalValue.create( UUID value );1;0;3
+InternalValue.internalValue( );1;0;3
+InternalValue.createTemporary( InputStream value );3;0;10
+InternalValue.getBLOBFileValue( );2;3;4
+InternalValue.create( Path value );1;0;3
+InternalValue.InternalValue( BLOBFileValue value );1;0;4
+InternalValue.getString( );2;3;4
+InternalValue.getUUID( );2;3;4
+InternalValue.store( DataStore dataStore );4;3;14
+InternalValue.create( String [ ] values );2;2;7
+InternalValue.create( boolean value );2;0;3
+InternalValue.InternalValue( String value );1;0;4
+InternalValue.getDouble( );2;3;4
+InternalValue.create( byte [ ] value );2;0;6
+InternalValue.create( Value value , NamePathResolver resolver );1;0;3
+InternalValue.create( long value );1;0;3
+InternalValue.create( String value );1;0;3
+InternalValue.create( Name value );1;0;3
+InternalValue.InternalValue( Path value );1;0;4
+InternalValue.InternalValue( double value );1;0;4
+InternalValue.valueOf( String s , int type );10;0;25
+InternalValue.InternalValue( boolean value );1;0;4
+InternalValue.create( Value value , NamePathResolver resolver , DataStore store );15;1;47
+InternalValue.InternalValue( Name value );1;0;4

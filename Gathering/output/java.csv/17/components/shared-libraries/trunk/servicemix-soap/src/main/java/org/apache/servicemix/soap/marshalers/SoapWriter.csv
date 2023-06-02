@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SoapWriter.getContentType( );1;0;3
+SoapWriter.write( OutputStream out );2;0;7
+SoapWriter.writeSoap12Fault( XMLStreamWriter writer );9;9;56
+SoapWriter.writeContents( XMLStreamWriter writer );1;0;4
+SoapWriter.prepare( );2;0;8
+SoapWriter.writeMultipartMessage( OutputStream out );5;0;43
+SoapWriter.writeFault( XMLStreamWriter writer );3;0;11
+SoapWriter.write( int b );2;2;5
+SoapWriter.writeSoapEnvelope( XMLStreamWriter writer );7;6;27
+SoapWriter.writeSimpleMessage( OutputStream out );7;4;28
+SoapWriter.SoapWriter( SoapMarshaler marshaler , SoapMessage message );1;0;5
+SoapWriter.writeDetails( XMLStreamWriter writer , Source details );4;3;18
+SoapWriter.writeSoap11Fault( XMLStreamWriter writer );7;7;37
+SoapWriter.getEnvelopeName( );3;2;9

@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TemplateItem.getValue( );1;0;3
+URLTemplate.getName( );1;0;3
+TemplateItem.equals( Object o );5;4;20
+URLTemplate.format( );1;0;3
+URLTemplate.verify( Collection knownTokens , Collection requiredTokens );11;14;40
+URLTemplate.appendToResult( InternalStringBuilder result , String value );6;10;12
+URLTemplate.URLTemplate( String template );1;0;3
+URLTemplate.getTemplate( );1;0;3
+URLTemplate.URLTemplate( String template , String name );1;0;4
+URLTemplate.setName( String name );1;0;3
+TemplateItem.isToken( );1;0;3
+URLTemplate.setTemplate( String template );4;3;13
+URLTemplate.substitute( String token , int value );1;0;4
+URLTemplate.substitute( Map tokensAndValues );2;1;6
+URLTemplate.toString( );1;0;3
+URLTemplate.format( boolean removeUnsetTokens );8;8;34
+TemplateItem.TemplateItem( String value , boolean isToken );1;1;5
+TemplateItem.hashCode( );2;2;6
+URLTemplate.substitute( String token , String value );1;0;3
+URLTemplate.URLTemplate( URLTemplate template );1;0;6
+URLTemplate.parseTemplate( );4;0;20

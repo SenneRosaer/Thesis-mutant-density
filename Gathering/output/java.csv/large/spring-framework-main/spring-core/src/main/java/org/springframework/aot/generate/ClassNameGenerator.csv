@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClassNameGenerator.generateSequencedClassName( String name );2;2;9
+ClassNameGenerator.clean( String name );5;2;13
+ClassNameGenerator.toName( ClassName className );1;0;3
+ClassNameGenerator.ClassNameGenerator( ClassName defaultTarget , String featureNamePrefix , Map < String , AtomicInteger > sequenceGenerator );2;1;6
+ClassNameGenerator.getRootName( String featureName , @ Nullable ClassName target );2;4;7
+ClassNameGenerator.generateClassName( String featureName , @ Nullable ClassName target );1;0;3
+ClassNameGenerator.withFeatureNamePrefix( String featureNamePrefix );1;0;4
+ClassNameGenerator.ClassNameGenerator( ClassName defaultTarget , String featureNamePrefix );1;0;3
+ClassNameGenerator.ClassNameGenerator( ClassName defaultTarget );1;0;3
+ClassNameGenerator.getFeatureNamePrefix( );1;0;3

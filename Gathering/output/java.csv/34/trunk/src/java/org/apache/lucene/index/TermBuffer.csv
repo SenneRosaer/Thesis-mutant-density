@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TermBuffer.set( TermBuffer other );1;0;6
+TermBuffer.compareTo( TermBuffer other );2;1;6
+TermBuffer.read( IndexInput input , FieldInfos fieldInfos );3;1;23
+TermBuffer.setPreUTF8Strings( );1;0;3
+TermBuffer.clone( );2;0;11
+TermBuffer.reset( );1;0;6
+TermBuffer.compareChars( char [ ] chars1 , int len1 , char [ ] chars2 , int len2 );4;6;11
+TermBuffer.set( Term term );2;1;13
+TermBuffer.toTerm( );3;2;7

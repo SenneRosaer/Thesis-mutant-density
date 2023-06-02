@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestBodyMethodArgumentResolverTests.supports( );1;0;7
+RequestBodyMethodArgumentResolverTests.stringBody( );1;0;6
+RequestBodyMethodArgumentResolverTests.setup( );2;0;5
+RequestBodyMethodArgumentResolverTests.handle( @ RequestBody String string , @ RequestBody Mono < String > mono , @ RequestBody Flux < String > flux , @ RequestBody Single < String > single , @ RequestBody Maybe < String > maybe , @ RequestBody Observable < String > observable , @ RequestBody CompletableFuture < String > future , @ RequestBody ( required = false ) String stringNotRequired , @ RequestBody ( required = false ) Mono < String > monoNotRequired , @ RequestBody ( required = false ) Flux < String > fluxNotRequired , @ RequestBody ( required = false ) Single < String > singleNotRequired , @ RequestBody ( required = false ) Maybe < String > maybeNotRequired , @ RequestBody ( required = false ) Observable < String > observableNotRequired , @ RequestBody ( required = false ) CompletableFuture < String > futureNotRequired , @ RequestBody ( required = false ) Map < ? , ? > mapNotRequired , String notAnnotated );1;0;1
+RequestBodyMethodArgumentResolverTests.invalidContentType( );1;0;7
+RequestBodyMethodArgumentResolverTests.emptyBodyWithCompletableFuture( );1;0;14
+RequestBodyMethodArgumentResolverTests.emptyBodyWithoutContentType( );1;0;5
+RequestBodyMethodArgumentResolverTests.emptyBodyWithSingle( );1;0;14
+RequestBodyMethodArgumentResolverTests.emptyBodyWithFlux( );1;0;12
+RequestBodyMethodArgumentResolverTests.emptyBodyWithObservable( );1;0;14
+RequestBodyMethodArgumentResolverTests.emptyBodyWithStringNotRequired( );1;0;5
+RequestBodyMethodArgumentResolverTests.emptyBodyWithMono( );1;0;12
+RequestBodyMethodArgumentResolverTests.resolveValue( MethodParameter param , String body );1;0;9
+RequestBodyMethodArgumentResolverTests.resolveValueWithEmptyBody( MethodParameter param );2;1;10
+RequestBodyMethodArgumentResolverTests.emptyBodyWithMaybe( );1;0;14
+RequestBodyMethodArgumentResolverTests.emptyBodyWithString( );1;0;5

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NNTPSpooler.configure( Configuration configuration );1;1;6
+SpoolerRunnable.SpoolerRunnable( int threadIdleTime , File spoolPath );1;0;4
+SpoolerRunnable.process( File spoolFile );17;20;79
+NNTPSpooler.setArticleIDRepository( ArticleIDRepository articleIDRepo );2;2;5
+SpoolerRunnable.setArticleIDRepository( ArticleIDRepository articleIDRepo );1;0;3
+NNTPSpooler.setFileSystem( FileSystem fileSystem );1;0;3
+NNTPSpooler.initialize( );6;6;25
+SpoolerRunnable.run( );7;4;31
+NNTPSpooler.getSpoolPath( );1;0;3
+NNTPSpooler.service( final ServiceManager serviceManager );1;0;3
+NNTPSpooler.setRepository( NNTPRepository repo );2;2;5
+SpoolerRunnable.setRepository( NNTPRepository repo );1;0;3

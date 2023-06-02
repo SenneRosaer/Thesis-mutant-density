@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMResultBuilder.endCDATA( Augmentations augs );1;0;1
+***not in a method***;0;21;0
+DOMResultBuilder.processingInstruction( ProcessingInstruction node );1;0;3
+DOMResultBuilder.characters( Text node );1;0;3
+DOMResultBuilder.startGeneralEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );1;0;1
+DOMResultBuilder.xmlDecl( String version , String encoding , String standalone , Augmentations augs );1;0;1
+DOMResultBuilder.comment( XMLString text , Augmentations augs );1;0;1
+DOMResultBuilder.setIgnoringCharacters( boolean ignore );1;0;3
+DOMResultBuilder.textDecl( String version , String encoding , Augmentations augs );1;0;1
+DOMResultBuilder.doctypeDecl( DocumentType node );5;6;31
+DOMResultBuilder.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );1;0;1
+DOMResultBuilder.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );1;0;1
+DOMResultBuilder.comment( Comment node );1;0;3
+DOMResultBuilder.endElement( QName element , Augmentations augs );7;6;21
+DOMResultBuilder.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );1;0;4
+DOMResultBuilder.cdata( CDATASection node );1;0;3
+DOMResultBuilder.startElement( QName element , XMLAttributes attributes , Augmentations augs );11;9;49
+DOMResultBuilder.ignorableWhitespace( XMLString text , Augmentations augs );1;0;3
+DOMResultBuilder.startCDATA( Augmentations augs );1;0;1
+DOMResultBuilder.setDocumentSource( XMLDocumentSource source );1;0;1
+DOMResultBuilder.processingInstruction( String target , XMLString data , Augmentations augs );1;0;1
+DOMResultBuilder.setDOMResult( DOMResult result );4;2;19
+DOMResultBuilder.getDocumentSource( );1;0;3
+DOMResultBuilder.endGeneralEntity( String name , Augmentations augs );1;0;1
+DOMResultBuilder.append( Node node );3;4;12
+DOMResultBuilder.characters( XMLString text , Augmentations augs );2;1;5
+DOMResultBuilder.endDocument( Augmentations augs );4;5;13
+DOMResultBuilder.DOMResultBuilder( );1;0;1

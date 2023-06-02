@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpsConnector.getKeyStore( );1;0;3
+HttpsConnector.setKeyPassword( String keyPassword );1;0;3
+HttpsConnector.getPort( );1;0;3
+HttpsConnector.setKeyStorePassword( String keyStorePassword );1;0;3
+***not in a method***;0;2;0
+HttpsConnector.isNeedClientAuth( );1;0;3
+HttpsConnector.getServer( );1;0;3
+HttpsConnector.setMaxThreads( int maxThreads );1;0;3
+HttpsConnector.init( ComponentContext cc );9;6;43
+HttpsConnector.getKeyStorePassword( );1;0;3
+HttpsConnector.setNeedClientAuth( boolean needClientAuth );1;0;3
+HttpsConnector.setServer( Server server );1;0;3
+HttpsConnector.HttpsConnector( );1;0;2
+HttpsConnector.setProtocol( String protocol );1;0;3
+HttpsConnector.HttpsConnector( String host , int port , String keyPassword , String keyStorePassword , String keyStore , boolean needClientAuth , boolean wantClientAuth );1;0;9
+HttpsConnector.setTrustManagerFactoryAlgorithm( String algorithm );1;0;3
+HttpsConnector.setWantClientAuth( boolean wantClientAuth );1;0;3
+HttpsConnector.HttpsConnector( SslSocketConnector listener );1;0;3
+HttpsConnector.setHost( String host );1;0;3
+HttpsConnector.isWantClientAuth( );1;0;3
+HttpsConnector.getMaxThreads( );1;0;3
+HttpsConnector.getKeyPassword( );1;0;3
+HttpsConnector.start( );2;0;24
+HttpsConnector.getTrustManagerFactoryAlgorithm( );1;0;3
+HttpsConnector.stop( );3;1;11
+HttpsConnector.setPort( int port );1;0;3
+HttpsConnector.getKeyManagerFactoryAlgorithm( );1;0;3
+HttpsConnector.getKeyStoreType( );1;0;3
+HttpsConnector.getProtocol( );1;0;3
+HttpsConnector.getHost( );1;0;3
+HttpsConnector.setKeyManagerFactoryAlgorithm( String algorithm );1;0;3
+HttpsConnector.shutDown( );1;0;3
+HttpsConnector.setKeyStore( String keyStore );1;0;3
+HttpsConnector.setKeyStoreType( String keyStoreType );1;0;3

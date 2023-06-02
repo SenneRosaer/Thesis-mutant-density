@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ACLTemplate.getAccessControlEntries( );1;0;3
+ACLTemplate.hashCode( );1;0;3
+ACLTemplate.equals( Object obj );5;3;11
+ACLTemplate.addEntry( Principal principal , Privilege [ ] privileges , boolean isAllow );1;0;3
+ACLTemplate.isEmpty( );1;0;3
+ACLTemplate.size( );1;0;3
+ACLTemplate.getPath( );1;0;3
+Entry.matches( Item item );1;0;3
+Entry.matchesNodePath( String jcrPath );1;0;3
+ACLTemplate.addEntry( Principal principal , Privilege [ ] privileges , boolean isAllow , Map restrictions );4;2;15
+ACLTemplate.ACLTemplate( Principal principal , NodeImpl acNode );1;0;3
+ACLTemplate.removeAccessControlEntry( AccessControlEntry ace );3;2;8
+ACLTemplate.ACLTemplate( Principal principal , String path , NodeImpl acNode , NamePathResolver resolver );7;4;32
+ACLTemplate.ACLTemplate( Principal principal , String path , NamePathResolver resolver );1;0;3
+Entry.checkValidEntry( );5;4;12
+Entry.Entry( Principal principal , Privilege [ ] privileges , boolean allow , Map restrictions );2;1;13
+ACLTemplate.addAccessControlEntry( Principal principal , Privilege [ ] privileges );1;0;3
+Entry.matches( String jcrPath );1;0;3

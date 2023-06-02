@@ -1,0 +1,51 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IdentityConstraint.hasSimpleContent( SchemaType st );2;2;3
+IdentityConstraint.newState( );2;1;8
+FieldState.attr( Event e , QName name , SchemaType st , String value );6;5;13
+KeyrefState.hasKeyValue( Object key );2;3;4
+IdentityConstraint.text( Event e , SchemaType st , String value , boolean emptyContent );2;1;4
+IdRefState.attr( Event e , QName name , SchemaType st , String value );1;0;3
+IdRefState.remove( Event e );3;1;10
+IdentityConstraint.errorForEvent( String msg , int severity , Event event );3;2;21
+FieldState.remove( Event e );3;3;11
+SelectorState.SelectorState( SchemaIdentityConstraint constraint , Event e , SchemaType st );2;2;7
+SelectorState.createFieldState( Event e , SchemaType st );1;0;3
+FieldState.FieldState( SelectorState selector , Event e , SchemaType st );4;5;20
+IdentityConstraint.errorForEvent( String code , Object [ ] args , int severity , Event event );3;2;21
+IdState.text( Event e , SchemaType st , String value , boolean emptyContent );2;0;5
+KeyrefState.addKeyValues( final Set values , boolean child );8;4;21
+IdState.element( Event e , SchemaType st );1;0;1
+FieldState.element( Event e , SchemaType st );6;7;18
+IdentityConstraint.buildIdStates( );2;0;5
+SelectorState.addFields( XmlObjectList fields , Event e );4;2;15
+SelectorState.remove( Event e );4;2;11
+IdRefState.handleValue( Event e , SchemaType st , String value );9;7;28
+FieldState.endElement( Event e );2;2;7
+IdRefState.element( Event e , SchemaType st );1;0;1
+IdState.handleValue( Event e , SchemaType st , String value );7;4;18
+SelectorState.element( Event e , SchemaType st );2;2;4
+IdentityConstraint.emitError( Event event , String code , Object [ ] args );2;2;8
+IdentityConstraint.endElement( Event e );5;4;11
+IdentityConstraint.attr( Event e , QName name , SchemaType st , String value );2;1;4
+IdentityConstraint.element( Event e , SchemaType st , SchemaIdentityConstraint [ ] ics );4;5;7
+IdentityConstraint.newConstraintState( SchemaIdentityConstraint ic , Event e , SchemaType st );2;1;6
+IdState.attr( Event e , QName name , SchemaType st , String value );1;0;3
+IdentityConstraint.emitError( Event event , String msg );2;2;8
+SelectorState.attr( Event e , QName name , SchemaType st , String value );1;0;1
+IdState.IdState( );1;0;1
+IdentityConstraint.setSavePoint( ConstraintState cs );2;1;5
+IdRefState.endElement( Event e );1;0;1
+IdState.remove( Event e );1;0;1
+SelectorState.endElement( Event e );1;0;3
+IdRefState.text( Event e , SchemaType st , String value , boolean emptyContent );2;0;5
+KeyrefState.remove( Event e );8;7;21
+SelectorState.text( Event e , SchemaType st , String value , boolean emptyContent );1;0;1
+FieldState.text( Event e , SchemaType st , String value , boolean emptyContent );9;9;19
+IdState.endElement( Event e );1;0;1
+IdentityConstraint.getSimpleType( SchemaType st );3;3;7
+IdentityConstraint.isValid( );1;1;3
+IdentityConstraint.IdentityConstraint( Collection errorListener , boolean trackIdrefs );1;0;4
+IdRefState.IdRefState( IdState ids );1;0;4
+IdentityConstraint.newValue( SchemaType st , String value );2;0;8
+ConstraintState.ConstraintState( );1;0;5
+KeyrefState.KeyrefState( SchemaIdentityConstraint constraint , Event e , SchemaType st );1;0;3

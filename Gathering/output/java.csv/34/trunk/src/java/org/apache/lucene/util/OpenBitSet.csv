@@ -1,0 +1,57 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OpenBitSet.flipAndGet( long index );1;6;7
+OpenBitSet.getBits( );1;0;1
+OpenBitSet.getBit( int index );1;4;5
+OpenBitSet.remove( OpenBitSet other );2;3;8
+OpenBitSet.isEmpty( );1;1;1
+OpenBitSet.flip( long startIndex , long endIndex );4;16;17
+OpenBitSet.setBits( long [ ] bits );1;0;1
+OpenBitSet.OpenBitSet( );1;0;3
+OpenBitSet.and( OpenBitSet other );1;0;3
+OpenBitSet.bits2words( long numBits );1;3;3
+OpenBitSet.andNotCount( OpenBitSet a , OpenBitSet b );2;3;7
+OpenBitSet.intersectionCount( OpenBitSet a , OpenBitSet b );1;0;3
+OpenBitSet.clear( long startIndex , long endIndex );5;17;20
+OpenBitSet.fastSet( int index );1;4;6
+OpenBitSet.intersect( OpenBitSet other );3;4;13
+OpenBitSet.clear( long index );2;5;7
+OpenBitSet.fastGet( long index );1;5;6
+OpenBitSet.getNumWords( );1;0;1
+OpenBitSet.ensureCapacity( long numBits );1;0;3
+OpenBitSet.iterator( );1;0;3
+OpenBitSet.nextSetBit( int index );5;15;14
+OpenBitSet.fastFlip( int index );1;4;6
+OpenBitSet.clone( );2;0;9
+OpenBitSet.fastClear( long index );1;4;6
+OpenBitSet.andNot( OpenBitSet other );1;0;3
+OpenBitSet.set( long startIndex , long endIndex );3;15;14
+OpenBitSet.equals( Object o );8;11;18
+OpenBitSet.xor( OpenBitSet other );3;5;14
+OpenBitSet.expandingWordNum( long index );2;4;8
+OpenBitSet.capacity( );1;1;1
+OpenBitSet.trimTrailingZeros( );3;6;5
+OpenBitSet.getAndSet( long index );1;6;8
+OpenBitSet.setNumWords( int nWords );1;0;1
+OpenBitSet.set( long index );1;3;6
+OpenBitSet.fastClear( int index );1;4;6
+OpenBitSet.fastGet( int index );1;5;6
+OpenBitSet.union( OpenBitSet other );3;5;14
+OpenBitSet.or( OpenBitSet other );1;0;3
+OpenBitSet.unionCount( OpenBitSet a , OpenBitSet b );3;6;9
+OpenBitSet.intersects( OpenBitSet other );3;4;9
+OpenBitSet.flip( long index );1;3;6
+OpenBitSet.hashCode( );2;8;8
+OpenBitSet.fastFlip( long index );1;4;6
+OpenBitSet.get( int index );2;6;7
+OpenBitSet.fastSet( long index );1;4;6
+OpenBitSet.ensureCapacityWords( int numWords );2;1;7
+OpenBitSet.clear( int startIndex , int endIndex );5;17;20
+OpenBitSet.size( );1;0;3
+OpenBitSet.cardinality( );1;0;3
+OpenBitSet.OpenBitSet( long numBits );1;0;4
+OpenBitSet.xorCount( OpenBitSet a , OpenBitSet b );3;6;9
+OpenBitSet.nextSetBit( long index );5;15;14
+OpenBitSet.flipAndGet( int index );1;6;7
+OpenBitSet.OpenBitSet( long [ ] bits , int numWords );1;0;4
+OpenBitSet.get( long index );2;6;7
+OpenBitSet.getAndSet( int index );1;6;8

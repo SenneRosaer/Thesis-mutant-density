@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EncodingSerializer.writeln( );2;0;7
+EncodingSerializer.endDocument( );1;0;4
+EncodingSerializer.setDocumentLocator( Locator locator );1;0;3
+EncodingSerializer.startElement( String nsuri , String local , String qual , Attributes attributes );7;7;36
+EncodingSerializer.EncodingSerializer( Encoder encoder );1;0;4
+EncodingSerializer.setIndentPerLevel( int i );2;2;6
+EncodingSerializer.getColumnNumber( );2;2;3
+EncodingSerializer.setEncoding( String encoding );1;0;3
+EncodingSerializer.getLineNumber( );2;2;3
+EncodingSerializer.setOutputStream( OutputStream out );2;1;4
+EncodingSerializer.recycle( );2;0;7
+EncodingSerializer.flush( );2;0;7
+EncodingSerializer.endElement( String nsuri , String local , String qual );3;3;11
+EncodingSerializer.encode( char data [ ] );1;0;3
+EncodingSerializer.write( char data [ ] , int start , int length );2;0;7
+EncodingSerializer.encode( String data );1;0;4
+EncodingSerializer.getLocation( );3;2;12
+EncodingSerializer.write( char data [ ] );2;0;7
+EncodingSerializer.writeIndent( int indent );2;1;6
+EncodingSerializer.write( String data );2;0;7
+EncodingSerializer.endPrefixMapping( String prefix );1;0;3
+EncodingSerializer.encode( char data [ ] , int start , int length );13;20;19
+EncodingSerializer.assureIndentBuffer( int size );3;3;7
+EncodingSerializer.include( String content , HttpServletRequest request , ContentHandler handler );3;3;16
+EncodingSerializer.write( String data , int start , int length );2;0;7
+EncodingSerializer.startDocument( );1;0;4
+EncodingSerializer.characters( char ch [ ] , int start , int length );2;3;6
+EncodingSerializer.writeln( String data );2;0;8
+EncodingSerializer.setup( HttpServletRequest request );1;0;3
+EncodingSerializer.getPublicId( );2;1;3
+EncodingSerializer.startPrefixMapping( String prefix , String uri );1;0;3
+EncodingSerializer.getSystemId( );2;1;3
+EncodingSerializer.write( int c );2;0;7

@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractEventBusTest.AbstractEventBusTest( boolean collectEventsReceived );2;0;7
+AbstractEventBusTest.countDownAndAwaitLatch( CountDownLatch latch , long seconds );1;0;4
+AbstractEventBusTest.log( String msg , Throwable e );1;0;3
+AbstractEventBusTest.awaitLatch( CountDownLatch latch , long seconds );2;0;7
+AbstractEventBusTest.waitForEventCount( int expectedCount , int maxMillis );5;4;18
+AbstractEventBusTest.AbstractEventBusTest( );1;0;3
+AbstractEventBusTest.assertEventCount( int expectedEventCount );1;0;3
+AbstractEventBusTest.setUpBase( );1;0;4
+AbstractEventBusTest.trackEvent( Object event );2;1;8
+AbstractEventBusTest.log( String msg );1;0;3

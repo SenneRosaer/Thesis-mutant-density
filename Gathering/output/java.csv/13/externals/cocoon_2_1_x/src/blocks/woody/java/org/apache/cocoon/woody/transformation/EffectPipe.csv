@@ -1,0 +1,56 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EffectPipe.setLexicalHandler( LexicalHandler handler );1;0;4
+EffectPipe.comment( char c [ ] , int start , int len );1;0;4
+EffectPipe.setConsumer( XMLConsumer consumer );1;0;4
+Element.addAttribute( String uri , String loc , String raw , String type , String value );3;3;7
+Output.attribute( String name , String value );1;0;3
+Output.endElement( );1;0;5
+Element.claimAttributes( );2;1;6
+Output.bufferInit( );3;2;9
+EffectPipe.processingInstruction( String target , String data );1;0;4
+EffectPipe.endEntity( String name );1;0;4
+Output.attribute( String prefix , String uri , String name , String value );1;0;3
+Element.addAttribute( String loc , String value );3;3;7
+EffectPipe.endPrefixMapping( String prefix );1;0;5
+EffectPipe.startPrefixMapping( String prefix , String uri );1;0;5
+Output.attributes( );1;0;3
+Output.attributes( Attributes attrs );1;0;3
+Output.copy( );19;0;22
+EffectPipe.startCDATA( );1;0;3
+Element.addAttribute( String prefix , String uri , String loc , String value );3;4;7
+Output.buffer( );19;0;22
+Output.endPrefixMapping( );1;0;3
+EffectPipe.endCDATA( );1;0;3
+Element.Element( );1;0;3
+Output.Output( );1;0;1
+Output.startPrefixMapping( );1;0;3
+Element.addAttributes( Attributes attrs );4;3;16
+Output.bufferFini( );3;3;7
+Output.element( );1;0;3
+Output.element( String loc );1;0;3
+Element.Element( String uri , String loc , String raw , Attributes attrs );2;1;13
+BufferHandler.process( );2;0;9
+EffectPipe.endDocument( );1;0;1
+Output.element( String loc , Attributes attrs );1;0;3
+EffectPipe.endElement( String uri , String loc , String raw );1;0;6
+EffectPipe.recycle( );1;0;6
+EffectPipe.setContentHandler( ContentHandler handler );1;0;4
+EffectPipe.startDTD( String name , String publicId , String systemId );1;0;4
+Output.element( String prefix , String uri , String loc , Attributes attrs );1;1;3
+EffectPipe.startDocument( );1;0;1
+EffectPipe.init( );1;0;5
+Output.endElement( String uri , String loc , String raw );1;0;3
+EffectPipe.ignorableWhitespace( char c [ ] , int start , int len );1;0;4
+Output.element( String prefix , String uri , String loc );1;0;3
+NullHandler.process( );1;0;3
+Output.startElement( );2;1;8
+EffectPipe.characters( char c [ ] , int start , int len );1;0;4
+Output.copyAttribute( String prefix , String uri , String name );3;3;8
+EffectPipe.endDTD( );1;0;1
+Output.startElement( String uri , String loc , String raw , Attributes attrs );1;0;3
+Output.getBuffer( );1;0;3
+EffectPipe.startEntity( String name );1;0;4
+EffectPipe.setDocumentLocator( Locator locator );2;0;8
+EffectPipe.skippedEntity( String name );1;0;4
+EffectPipe.startElement( String uri , String loc , String raw , Attributes attrs );1;0;7
+Element.Element( String prefix , String uri );1;0;4

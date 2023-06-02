@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Registry.setServer( MBeanServer mbeanServer );1;0;3
+Registry.unregisterComponent( String oname );2;0;7
+Registry.setMBeanServer( MBeanServer server );1;0;3
+Registry.loadMetaInfDescriptors( ClassLoader cl );4;0;13
+Registry.findManagedBeans( String group );5;2;17
+Registry.preDeregister( );1;0;2
+Registry.Registry( );1;0;3
+Registry.unregisterComponent( String domain , String name );2;1;8
+Registry.findDescriptor( Class beanClass , String type );8;7;25
+Registry.getMBeanServer( );5;4;17
+Registry.setGuard( Object guard );2;1;6
+Registry.getType( ObjectName oname , String attName );4;2;18
+Registry.loadMBeans( Object source , ClassLoader cl );1;0;3
+Registry.invoke( List mbeans , String operation , boolean failFirst );9;3;29
+Registry.registerComponent( Object bean , String domain , String type , String name );1;0;8
+Registry.loadCachedDescriptors( Object source );1;0;3
+Registry.findManagedBeans( );1;0;5
+Registry.loadDescriptors( String packageName , ClassLoader classLoader );7;3;28
+Registry.stop( );1;0;7
+Registry.resetMetadata( );1;0;3
+Registry.removeManagedBean( ManagedBean bean );1;0;6
+Registry.loadDescriptors( String sourceType , Object source , String param );4;1;11
+Registry.postDeregister( );1;0;2
+Registry.getModelerSource( String type );3;2;9
+Registry.findManagedBean( Object bean , Class beanClass , String type );11;7;39
+Registry.getMethodInfo( ObjectName oname , String opName );4;2;17
+Registry.loadMBeans( Object source );1;0;3
+Registry.findManagedBean( Class beanClass , String type );1;0;3
+Registry.registerComponent( Object bean , String oname , String type );1;0;3
+Registry.loadMetadata( Object source );2;0;7
+Registry.postRegister( Boolean registrationDone );1;0;2
+Registry.getId( String domain , String name );6;6;25
+Registry.unregisterComponent( ObjectName oname );3;0;9
+Registry.setUseContextClassLoader( boolean enable );2;0;5
+Registry.convertValue( String type , String value );12;6;23
+Registry.findManagedBean( String name );2;1;8
+Registry.getRegistry( Object key , Object guard );10;11;29
+Registry.unregisterRegistry( ClassLoader loader );1;0;3
+Registry.getServer( );1;0;3
+Registry.loadRegistry( InputStream stream );1;0;4
+Registry.registerComponent( Object bean , ObjectName oname , String type );7;2;26
+Registry.addManagedBean( ManagedBean bean );2;1;8
+Registry.preRegister( MBeanServer server , ObjectName name );1;0;4
+Registry.loadDescriptors( Object source );1;0;3
+Registry.sourceTypeFromExt( String s );3;0;9
+Registry.getRegistry( );1;0;3
+Registry.load( String sourceType , Object source , String param );11;4;43

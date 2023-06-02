@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ThreadPoolTaskSchedulerTests.await( TestTask task );1;0;3
+ThreadPoolTaskSchedulerTests.buildExecutor( );1;0;5
+ThreadPoolTaskSchedulerTests.executeFailingRunnableWithErrorHandler( );1;0;8
+TestErrorHandler.TestErrorHandler( int expectedErrorCount );1;0;3
+TestErrorHandler.handleError( Throwable t );1;0;4
+ThreadPoolTaskSchedulerTests.submitFailingRunnableWithErrorHandler( );2;0;10
+TestTrigger.nextExecution( TriggerContext triggerContext );2;1;6
+TestTrigger.TestTrigger( int maxRunCount );1;0;3
+ThreadPoolTaskSchedulerTests.await( TestErrorHandler errorHandler );1;0;3
+ThreadPoolTaskSchedulerTests.await( CountDownLatch latch );2;0;9
+ThreadPoolTaskSchedulerTests.scheduleMultipleTriggerTasks( );2;0;8
+ThreadPoolTaskSchedulerTests.scheduleOneTimeFailingTaskWithoutErrorHandler( );2;0;6
+ThreadPoolTaskSchedulerTests.scheduleOneTimeTask( );2;0;8
+ThreadPoolTaskSchedulerTests.scheduleOneTimeFailingTaskWithErrorHandler( );2;0;10
+ThreadPoolTaskSchedulerTests.submitFailingCallableWithErrorHandler( );1;0;10

@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JbiOutWsdl1Interceptor.JbiOutWsdl1Interceptor( boolean useJBIWrapper );1;0;4
+JbiOutWsdl1Interceptor.handleMessage( SoapMessage message );18;12;74
+JbiOutWsdl1Interceptor.addOperationNode( Message message , XMLStreamWriter xmlWriter );2;2;14
+JbiOutWsdl1Interceptor.getRPCPartWrapper( BindingMessageInfo msg , Element element , SoapMessage message , XMLStreamWriter xmlWriter );6;3;27
+JbiOutWsdl1Interceptor.getPartsContent( SoapMessage message , Element element , Element partWrapper , BindingMessageInfo msg );7;5;29
+JbiOutWsdl1Interceptor.saveLaterUsedNS( Element element );6;5;15

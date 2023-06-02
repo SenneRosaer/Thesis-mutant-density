@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScriptRunnerBase.getLanguage( );1;0;3
+ScriptRunnerBase.setProject( Project project );1;0;3
+ScriptRunnerBase.getProject( );1;0;3
+ScriptRunnerBase.checkLanguage( );2;1;6
+ScriptRunnerBase.addBeans( Map dictionary );3;0;10
+ScriptRunnerBase.loadResources( ResourceCollection collection );2;0;7
+ScriptRunnerBase.getScriptClassLoader( );1;0;3
+ScriptRunnerBase.bindToComponentMinimum( ProjectComponent component );1;0;5
+ScriptRunnerBase.getKeepEngine( );1;0;3
+ScriptRunnerBase.addText( String text );1;1;3
+ScriptRunnerBase.getScript( );1;0;3
+ScriptRunnerBase.setScriptClassLoader( ClassLoader classLoader );1;0;3
+ScriptRunnerBase.setSrc( File file );3;1;11
+ScriptRunnerBase.addBean( String key , Object bean );5;5;10
+ScriptRunnerBase.clearScript( );1;0;3
+ScriptRunnerBase.readSource( Reader reader , String name );2;1;11
+ScriptRunnerBase.loadResource( Resource sourceResource );3;0;13
+ScriptRunnerBase.setLanguage( String language );1;0;3
+ScriptRunnerBase.setKeepEngine( boolean keepEngine );1;0;3
+ScriptRunnerBase.restoreContextLoader( ClassLoader origLoader );1;0;4
+ScriptRunnerBase.bindToComponent( ProjectComponent component );1;0;9
+ScriptRunnerBase.replaceContextLoader( );2;1;9
+ScriptRunnerBase.getBeans( );1;0;3

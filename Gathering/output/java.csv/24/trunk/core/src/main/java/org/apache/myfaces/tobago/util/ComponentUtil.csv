@@ -1,0 +1,65 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ComponentUtil.isError( javax . faces . component . UIInput uiInput );2;2;5
+ComponentUtil.getComponentId( FacesContext facesContext , UIComponent component );1;0;4
+ComponentUtil.findFor( UIComponent component );2;1;7
+ComponentUtil.getBooleanAttribute( UIComponent component , String name );5;1;22
+ComponentUtil.getIntAttribute( UIComponent component , String name );1;0;3
+ComponentUtil.findPage( FacesContext context , UIComponent component );4;3;14
+ComponentUtil.findPage( UIComponent component );3;1;9
+ComponentUtil.getCharakterAttribute( UIComponent component , String name );1;0;3
+ComponentUtil.getLayoutRenderer( FacesContext facesContext , String family , String rendererType );5;2;22
+ComponentUtil.mayUpdateModel( UIComponent component );1;0;3
+ComponentUtil.provideLabel( FacesContext facesContext , UIComponent component );5;4;25
+ComponentUtil.removePx( String value );3;3;6
+ComponentUtil.getAsInt( Object value );3;0;11
+ComponentUtil.getCharacterAttribute( UIComponent component , String name );5;2;15
+ComponentUtil.getIntAttribute( UIComponent component , String name , int defaultValue );5;1;19
+ComponentUtil.isError( UIComponent component );2;0;6
+ComponentUtil.findClientIdFor( UIComponent component , FacesContext facesContext );4;1;14
+ComponentUtil.isInPopup( UIComponent component );3;1;9
+ComponentUtil.getIntValue( ValueBinding valueBinding );1;0;3
+ComponentUtil.setStyleClasses( UIComponent component , String styleClasses );5;2;15
+ComponentUtil.setValueBinding( UIComponent component , String name , String state );3;2;6
+ComponentUtil.setValueChangeListener( EditableValueHolder valueHolder , String valueChangeListener );3;1;14
+ComponentUtil.createValueBinding( String value );1;0;3
+ComponentUtil.getFirstGraphicChild( UIComponent component );3;0;11
+ComponentUtil.containsPopupActionListener( UICommand command );3;0;9
+ComponentUtil.splitList( String renderers );1;0;3
+ComponentUtil.getStringAttribute( UIComponent component , String name );1;0;3
+ComponentUtil.findSubForms( UIComponent component );1;0;5
+ComponentUtil.getFacesMessageAsString( FacesContext facesContext , UIComponent component );3;1;14
+ComponentUtil.hasSelectedValue( List < SelectItem > items , Object value );3;0;8
+ComponentUtil.setMarkup( UIComponent markupComponent , String markup );4;1;14
+ComponentUtil.getFirstNonGraphicChild( UIComponent component );4;2;12
+ComponentUtil.isHoverEnabled( UIComponent component );1;0;3
+ComponentUtil.getRenderer( FacesContext facesContext , UIComponent component );1;0;3
+ComponentUtil.setConverter( ValueHolder valueHolder , String converterId );5;3;15
+ComponentUtil.mayValidate( UIComponent component );2;2;4
+ComponentUtil.setIntegerSizeProperty( UIComponent component , String name , String value );3;1;10
+ComponentUtil.setValidator( EditableValueHolder editableValueHolder , String validator );4;3;9
+ComponentUtil.findSubForms( List < AbstractUIForm > collect , UIComponent component );3;0;11
+ComponentUtil.setConverter( UIComponent component , String converterId );2;0;5
+ComponentUtil.getMarkupBinding( FacesContext facesContext , SupportsMarkup component );7;3;23
+ComponentUtil.findPageBreadthFirst( UIComponent component );5;1;16
+ComponentUtil.createActionListener( String type );4;1;15
+ComponentUtil.isInActiveForm( UIComponent component );4;1;12
+ComponentUtil.createPickerId( FacesContext facesContext , UIComponent component , String postfix );1;1;4
+ComponentUtil.findForm( UIComponent component );3;1;9
+ComponentUtil.findPage( FacesContext facesContext );1;0;3
+ComponentUtil.isFacetOf( UIComponent component , UIComponent parent );3;0;9
+ComponentUtil.hasErrorMessages( FacesContext context );3;1;9
+ComponentUtil.setValueForValueBinding( String name , Object value );1;0;5
+ComponentUtil.getRenderer( FacesContext facesContext , String family , String rendererType );5;2;22
+ComponentUtil.getAttribute( UIComponent component , String name );2;0;7
+ComponentUtil.setActionListener( ActionSource command , String actionListener );3;1;14
+ComponentUtil.setAction( ActionSource component , String action );3;1;12
+ComponentUtil.getRendererBase( FacesContext facesContext , UIComponent component );1;0;3
+ComponentUtil.getObjectAttribute( UIComponent component , String name );1;0;3
+ComponentUtil.getRendererBase( FacesContext facesContext , String family , String rendererType );4;2;19
+ComponentUtil.setStringProperty( UIComponent component , String name , String value );3;1;9
+ComponentUtil.findParameter( UIComponent component , String name );5;0;16
+ComponentUtil.isOutputOnly( UIComponent component );2;1;4
+ComponentUtil.ComponentUtil( );1;0;2
+ComponentUtil.resetPage( FacesContext context );2;1;6
+ComponentUtil.getRendererInternal( FacesContext facesContext , String family , String rendererType );1;0;6
+ComponentUtil.findComponent( UIComponent from , String relativeId );7;7;22

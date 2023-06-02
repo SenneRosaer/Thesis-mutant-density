@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DisjunctionMaxScorer.doc( );1;0;3
+DisjunctionMaxScorer.score( );1;3;8
+DisjunctionMaxScorer.heapAdjust( int root );6;11;31
+DisjunctionMaxScorer.explain( int doc );1;0;3
+DisjunctionMaxScorer.next( );6;2;18
+DisjunctionMaxScorer.DisjunctionMaxScorer( float tieBreakerMultiplier , Similarity similarity );1;0;4
+DisjunctionMaxScorer.add( Scorer scorer );2;0;6
+DisjunctionMaxScorer.skipTo( int target );7;5;16
+DisjunctionMaxScorer.heapRemoveRoot( );2;3;10
+DisjunctionMaxScorer.scoreAll( int root , int size , int doc , float [ ] sum , float [ ] max );3;8;9
+DisjunctionMaxScorer.heapify( );2;4;5

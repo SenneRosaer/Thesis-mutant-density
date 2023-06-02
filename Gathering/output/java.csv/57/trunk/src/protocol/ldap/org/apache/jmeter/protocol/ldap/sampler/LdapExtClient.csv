@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LdapExtClient.searchTest( DirContext dirContext , String searchBase , String searchFilter , int scope , long countlim , int timelim , String [ ] attrs , boolean retobj , boolean deref );3;1;20
+LdapExtClient.connect( String host , String port , String rootdn , String username , String password , String connTimeOut , boolean secure );4;2;29
+LdapExtClient.compare( DirContext dirContext , String filter , String entrydn );2;1;7
+LdapExtClient.disconnect( DirContext dirContext );3;1;11
+LdapExtClient.createTest( DirContext dirContext , Attributes attributes , String string );2;1;6
+LdapExtClient.moddnOp( DirContext dirContext , String ddn , String newdn );2;1;7
+LdapExtClient.modifyTest( DirContext dirContext , ModificationItem [ ] mods , String string );2;1;6
+LdapExtClient.LdapExtClient( );1;0;2
+LdapExtClient.deleteTest( DirContext dirContext , String string );2;1;6

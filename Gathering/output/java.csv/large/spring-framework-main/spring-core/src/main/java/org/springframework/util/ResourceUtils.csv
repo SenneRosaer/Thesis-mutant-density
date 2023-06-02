@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceUtils.getFile( URL resourceUrl );1;0;3
+ResourceUtils.toURI( URL url );1;0;3
+ResourceUtils.isFileURL( URL url );3;2;5
+ResourceUtils.getFile( URI resourceUri );1;0;3
+ResourceUtils.getURL( String resourceLocation );6;2;26
+ResourceUtils.getFile( URI resourceUri , String description );2;2;9
+ResourceUtils.useCachesIfNecessary( URLConnection con );1;0;3
+ResourceUtils.isJarURL( URL url );5;4;6
+ResourceUtils.toURI( String location );1;0;3
+ResourceUtils.extractArchiveURL( URL jarUrl );4;5;15
+ResourceUtils.isUrl( @ Nullable String resourceLocation );4;1;15
+ResourceUtils.toURL( String location );1;0;3
+ResourceUtils.toRelativeURL( URL root , String relativePath );1;0;4
+ResourceUtils.getFile( String resourceLocation );5;2;20
+ResourceUtils.getFile( URL resourceUrl , String description );3;2;14
+ResourceUtils.isJarFileURL( URL url );2;1;4
+ResourceUtils.extractJarFileURL( URL jarUrl );4;4;19

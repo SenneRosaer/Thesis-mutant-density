@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TreeNodeRenderer.encodeExpandedHidden( TobagoResponseWriter writer , AbstractUITreeNode node , String clientId , boolean expanded );1;0;8
+TreeNodeRenderer.encodeTreeJunction( FacesContext facesContext , TobagoResponseWriter writer , String id , String treeId , boolean showJunctions , boolean showRootJunction , boolean showRoot , boolean expanded , boolean folder , int depth , boolean hasNextSibling , String openSource , String closedSource );16;15;26
+TreeNodeRenderer.encodeIndent( FacesContext facesContext , TobagoResponseWriter writer , boolean menuMode , List < Boolean > junctions );4;2;14
+TreeNodeRenderer.encodeBegin( FacesContext facesContext , UIComponent component );24;18;114
+TreeNodeRenderer.encodeTreeIcons( TobagoResponseWriter writer , String id , String treeId , boolean showIcons , boolean folder , String source , String openSource , String closedSource );3;0;13
+TreeNodeRenderer.encodeLabel( TobagoResponseWriter writer , CommandRendererHelper helper , UITreeNode node , boolean marked , String treeId );6;2;31
+TreeNodeRenderer.encodeMenuIcon( FacesContext facesContext , TobagoResponseWriter writer , String treeId , String id , boolean expanded , UIComponent node );3;2;18
+TreeNodeRenderer.createOnclickForToggle( String treeId , String openSouce , String closedSource );2;1;7
+TreeNodeRenderer.decode( FacesContext facesContext , UIComponent component );5;5;28
+TreeNodeRenderer.encodeEnd( FacesContext facesContext , UIComponent component );4;3;22

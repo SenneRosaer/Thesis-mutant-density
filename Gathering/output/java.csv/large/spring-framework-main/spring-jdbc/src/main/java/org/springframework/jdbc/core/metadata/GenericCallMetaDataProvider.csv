@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GenericCallMetaDataProvider.getCallParameterMetaData( );1;0;3
+GenericCallMetaDataProvider.isInOrOutColumn( int columnType , boolean function );6;10;12
+GenericCallMetaDataProvider.isReturnResultSetSupported( );1;0;3
+GenericCallMetaDataProvider.isRefCursorSupported( );1;0;3
+GenericCallMetaDataProvider.isSupportsSchemasInProcedureCalls( );1;0;3
+GenericCallMetaDataProvider.createDefaultInParameter( String parameterName , CallParameterMetaData meta );1;0;3
+GenericCallMetaDataProvider.processProcedureColumns( DatabaseMetaData databaseMetaData , @ Nullable String catalogName , @ Nullable String schemaName , @ Nullable String procedureName );24;16;94
+GenericCallMetaDataProvider.createDefaultOutParameter( String parameterName , CallParameterMetaData meta );1;0;3
+GenericCallMetaDataProvider.initializeWithMetaData( DatabaseMetaData databaseMetaData );9;0;34
+GenericCallMetaDataProvider.getRefCursorSqlType( );1;0;3
+GenericCallMetaDataProvider.isProcedureColumnMetaDataUsed( );1;0;3
+GenericCallMetaDataProvider.byPassReturnParameter( String parameterName );1;0;3
+GenericCallMetaDataProvider.createDefaultInOutParameter( String parameterName , CallParameterMetaData meta );1;0;3
+GenericCallMetaDataProvider.setSupportsSchemasInProcedureCalls( boolean supportsSchemasInProcedureCalls );1;0;3
+GenericCallMetaDataProvider.procedureNameToUse( @ Nullable String procedureName );4;1;14
+GenericCallMetaDataProvider.metaDataSchemaNameToUse( @ Nullable String schemaName );2;0;8
+GenericCallMetaDataProvider.catalogNameToUse( @ Nullable String catalogName );4;1;14
+GenericCallMetaDataProvider.GenericCallMetaDataProvider( DatabaseMetaData databaseMetaData );1;0;3
+GenericCallMetaDataProvider.isStoresUpperCaseIdentifiers( );1;0;3
+GenericCallMetaDataProvider.isStoresLowerCaseIdentifiers( );1;0;3
+GenericCallMetaDataProvider.schemaNameToUse( @ Nullable String schemaName );4;1;14
+GenericCallMetaDataProvider.getUserName( );1;0;3
+GenericCallMetaDataProvider.setStoresUpperCaseIdentifiers( boolean storesUpperCaseIdentifiers );1;0;3
+GenericCallMetaDataProvider.parameterNameToUse( @ Nullable String parameterName );4;1;14
+GenericCallMetaDataProvider.metaDataCatalogNameToUse( @ Nullable String catalogName );2;0;8
+GenericCallMetaDataProvider.initializeWithProcedureColumnMetaData( DatabaseMetaData databaseMetaData , @ Nullable String catalogName , @ Nullable String schemaName , @ Nullable String procedureName );1;0;4
+GenericCallMetaDataProvider.isSupportsCatalogsInProcedureCalls( );1;0;3
+GenericCallMetaDataProvider.setStoresLowerCaseIdentifiers( boolean storesLowerCaseIdentifiers );1;0;3
+GenericCallMetaDataProvider.setSupportsCatalogsInProcedureCalls( boolean supportsCatalogsInProcedureCalls );1;0;3

@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScanResult.toJpaManagedTypes( );1;0;4
+PersistenceManagedTypesScanner.PersistenceManagedTypesScanner( ResourceLoader resourceLoader );1;0;4
+PersistenceManagedTypesScanner.scan( String ... packagesToScan );2;0;7
+PersistenceManagedTypesScanner.scanPackage( String pkg , ScanResult scanResult );10;5;41
+PersistenceManagedTypesScanner.matchesFilter( MetadataReader reader , MetadataReaderFactory readerFactory );3;0;8

@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSLTProcessorImpl.setTransformerFactory( final String classname );1;0;3
+XSLTProcessorImpl.putTemplates( Templates templates , Source stylesheet , String id );4;2;16
+XSLTProcessorImpl.setCheckIncludes( boolean checkIncludes );1;0;3
+XSLTProcessorImpl.resolve( String href , String base );17;10;59
+XSLTProcessorImpl.getTransformerHandlerAndValidity( Source stylesheet , XMLFilter filter );21;13;77
+XSLTProcessorImpl.init( );1;0;3
+XSLTProcessorImpl.setIncrementalProcessing( boolean incrementalProcessing );1;0;3
+XSLTProcessorImpl.setSaxParser( SAXParser saxParser );1;0;3
+XSLTProcessorImpl.getTransformerHandlerAndValidity( final Source stylesheet );1;0;3
+XSLTProcessorImpl.getTransformerFactory( String factoryName );11;5;42
+XSLTProcessorImpl.sourceToSAX( Source source , ContentHandler handler );2;0;7
+XSLTProcessorImpl.getTransformerHandler( final Source stylesheet , final XMLFilter filter );1;0;4
+XSLTProcessorImpl.getTemplates( Source stylesheet , String id );13;16;70
+XSLTProcessorImpl.getInputSource( final Source source );1;0;5
+XSLTProcessorImpl.setStore( Store store );1;0;3
+XSLTProcessorImpl.getTransformerHandler( final Source stylesheet );1;0;3
+MyTransformerHandlerAndValidity.MyTransformerHandlerAndValidity( TransformerHandler handler , SourceValidity validity );1;0;3
+XSLTProcessorImpl.setResolver( SourceResolver resolver );1;0;3
+XSLTProcessorImpl.transform( final Source source , final Source stylesheet , final Map params , final Result result );7;1;29

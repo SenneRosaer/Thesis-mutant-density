@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClassVisitor.ClassVisitor( final int api , final ClassVisitor classVisitor );8;13;13
+ClassVisitor.visitMethod( final int access , final String name , final String descriptor , final String signature , final String [ ] exceptions );2;1;6
+ClassVisitor.visitAnnotation( final String descriptor , final boolean visible );2;1;6
+ClassVisitor.visitModule( final String name , final int access , final String version );3;2;9
+ClassVisitor.visitTypeAnnotation( final int typeRef , final TypePath typePath , final String descriptor , final boolean visible );3;2;9
+ClassVisitor.visitEnd( );2;1;5
+ClassVisitor.visitSource( final String source , final String debug );2;1;5
+ClassVisitor.visit( final int version , final int access , final String name , final String signature , final String superName , final String [ ] interfaces );4;5;8
+ClassVisitor.getDelegate( );1;0;3
+ClassVisitor.ClassVisitor( final int api );1;0;3
+ClassVisitor.visitField( final int access , final String name , final String descriptor , final String signature , final Object value );2;1;6
+ClassVisitor.visitNestMember( final String nestMember );3;2;8
+ClassVisitor.visitRecordComponent( final String name , final String descriptor , final String signature );3;2;9
+ClassVisitor.visitAttribute( final Attribute attribute );2;1;5
+ClassVisitor.visitPermittedSubclass( final String permittedSubclass );3;2;8
+ClassVisitor.visitInnerClass( final String name , final String outerName , final String innerName , final int access );2;1;5
+ClassVisitor.visitOuterClass( final String owner , final String name , final String descriptor );2;1;5
+ClassVisitor.visitNestHost( final String nestHost );3;2;8

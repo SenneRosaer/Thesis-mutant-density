@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Index.setID( String id );1;0;3
+Index.setIndexer( String indexer );1;0;3
+Index.getID( );1;0;3
+Index.createField( String fieldname , Date value );2;1;9
+Index.createField( String fieldname , String value );2;1;8
+Index.createDocument( String uid );2;0;8
+Index.setStructure( IndexStructure structure );1;0;3
+Index.setDirectory( Directory dir );3;1;12
+Index.releaseIndexer( Indexer indexer );2;1;7
+Index.getDirectory( );1;0;3
+Index.getIndexer( );9;6;35
+Index.setManager( ServiceManager manager );1;0;3
+Index.getDefaultAnalyzerID( );1;0;3
+Index.setDefaultAnalyzerID( String defaultAnalyzerID );1;0;3
+Index.setDirectory( String path );1;1;5
+Index.getStructure( );1;0;3

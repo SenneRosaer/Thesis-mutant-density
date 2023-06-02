@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GeneratedClasses.getOrAddForFeatureComponent( String featureName , ClassName targetComponent , Consumer < TypeSpec . Builder > type );1;0;10
+GeneratedClasses.GeneratedClasses( ClassNameGenerator classNameGenerator );1;0;3
+GeneratedClasses.Owner( String featureNamePrefix , String featureName , @ Nullable ClassName target );1;0;2
+GeneratedClasses.addForFeatureComponent( String featureName , Class < ? > targetComponent , Consumer < TypeSpec . Builder > type );1;0;3
+GeneratedClasses.createAndAddGeneratedClass( String featureName , @ Nullable ClassName targetComponent , Consumer < TypeSpec . Builder > type );1;0;6
+GeneratedClasses.writeTo( GeneratedFiles generatedFiles );2;0;8
+GeneratedClasses.withFeatureNamePrefix( String name );1;0;4
+GeneratedClasses.getOrAddForFeatureComponent( String featureName , Class < ? > targetComponent , Consumer < TypeSpec . Builder > type );1;0;3
+GeneratedClasses.getOrAddForFeature( String featureName , Consumer < TypeSpec . Builder > type );1;0;8
+GeneratedClasses.GeneratedClasses( ClassNameGenerator classNameGenerator , List < GeneratedClass > classes , Map < Owner , GeneratedClass > classesByOwner );1;0;6
+GeneratedClasses.addForFeature( String featureName , Consumer < TypeSpec . Builder > type );1;0;5
+GeneratedClasses.addForFeatureComponent( String featureName , ClassName targetComponent , Consumer < TypeSpec . Builder > type );1;0;6

@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StompReceiptFrameMessageMatcher.matchInternal( StompHeaderAccessor headers , Object payload );1;0;3
+MessageExchange.toString( );1;0;5
+AbstractStompBrokerRelayIntegrationTests.stopActiveMqBrokerAndAwait( );2;1;12
+MessageExchangeBuilder.andExpectError( );1;1;5
+TestEventPublisher.expectBrokerAvailabilityEvent( boolean isBrokerAvailable );1;0;5
+MessageExchangeBuilder.subscribeWithReceipt( String sessionId , String subscriptionId , String destination , String receiptId );2;0;11
+TestMessageHandler.handleMessage( Message < ? > message );2;1;6
+StompMessageFrameMessageMatcher.getPayloadAsText( );2;0;4
+StompReceiptFrameMessageMatcher.toString( );1;1;3
+MessageExchangeBuilder.connectWithError( String sessionId );2;0;8
+MessageExchange.matchMessage( Message < ? > message );3;2;9
+AbstractStompBrokerRelayIntegrationTests.stop( );1;0;9
+MessageExchangeBuilder.connect( String sessionId );2;0;10
+StompReceiptFrameMessageMatcher.StompReceiptFrameMessageMatcher( String sessionId , String receipt );1;0;4
+StompFrameMessageMatcher.StompFrameMessageMatcher( StompCommand command , String sessionId );1;0;4
+AbstractStompBrokerRelayIntegrationTests.setup( TestInfo testInfo );1;0;9
+MessageExchangeBuilder.andExpectMessage( String sessionId , String subscriptionId );1;0;7
+TestMessageHandler.expectMessages( MessageExchange ... messageExchanges );3;1;10
+StompMessageFrameMessageMatcher.StompMessageFrameMessageMatcher( String sessionId , String subscriptionId , String destination , Object payload );1;0;6
+AbstractStompBrokerRelayIntegrationTests.publishSubscribe( );1;0;18
+StompMessageFrameMessageMatcher.toString( );1;3;4
+StompMessageFrameMessageMatcher.matchInternal( StompHeaderAccessor headers , Object payload );5;4;12
+AbstractStompBrokerRelayIntegrationTests.disconnectWithReceipt( );1;0;9
+AbstractStompBrokerRelayIntegrationTests.startActiveMQBroker( );2;5;12
+TestMessageHandler.findMatch( List < MessageExchange > expectedMessages , Message < ? > message );3;0;8
+MessageExchange.MessageExchange( Message < ? > message , MessageMatcher ... expected );2;0;5
+AbstractStompBrokerRelayIntegrationTests.relayReconnectsIfBrokerComesBackUp( );1;0;18
+StompFrameMessageMatcher.match( Message < ? > message );3;3;7
+MessageExchangeBuilder.MessageExchangeBuilder( Message < ? > message );1;0;4
+MessageExchangeBuilder.andExpectError( String sessionId );1;0;4
+StompConnectedFrameMessageMatcher.StompConnectedFrameMessageMatcher( String sessionId );1;0;3
+MessageExchangeBuilder.send( String destination , String payload );2;0;7
+MessageExchangeBuilder.error( String sessionId );1;0;3
+TestEventPublisher.publishEvent( ApplicationEvent event );1;0;3
+AbstractStompBrokerRelayIntegrationTests.brokerBecomingUnavailableTriggersErrorFrame( );1;0;11
+MessageExchangeBuilder.build( );1;0;3
+AbstractStompBrokerRelayIntegrationTests.messageDeliveryExceptionIfSystemSessionForwardFails( );1;0;8
+AbstractStompBrokerRelayIntegrationTests.createAndStartRelay( );1;0;14
+MessageExchangeBuilder.disconnectWithReceipt( String sessionId , String receiptId );2;0;9
+AbstractStompBrokerRelayIntegrationTests.createStompConnector( int port );1;0;5
+StompFrameMessageMatcher.matchInternal( StompHeaderAccessor headers , Object payload );1;0;3
+TestEventPublisher.publishEvent( Object event );2;0;6
+StompFrameMessageMatcher.toString( );1;0;3
+AbstractStompBrokerRelayIntegrationTests.brokerAvailabilityEventWhenStopped( );1;0;5

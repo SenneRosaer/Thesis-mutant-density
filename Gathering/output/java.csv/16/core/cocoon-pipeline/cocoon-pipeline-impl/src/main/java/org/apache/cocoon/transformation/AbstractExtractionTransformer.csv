@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractExtractionTransformer.endEntity( String name );2;1;7
+AbstractExtractionTransformer.endExtractingDocument( String uri , String loc , String raw );1;0;3
+AbstractExtractionTransformer.startEntity( String name );2;1;7
+AbstractExtractionTransformer.startCDATA( );2;1;7
+AbstractExtractionTransformer.characters( char c [ ] , int start , int len );2;1;7
+AbstractExtractionTransformer.ignorableWhitespace( char c [ ] , int start , int len );2;1;7
+AbstractExtractionTransformer.startDTD( String name , String publicId , String systemId );2;1;9
+AbstractExtractionTransformer.setup( SourceResolver resolver , Map objectModel , String src , Parameters parameters );1;0;4
+AbstractExtractionTransformer.processingInstruction( String target , String data );2;1;7
+AbstractExtractionTransformer.skippedEntity( String name );2;1;7
+AbstractExtractionTransformer.recycle( );1;0;6
+AbstractExtractionTransformer.endElement( String uri , String loc , String raw );7;3;31
+AbstractExtractionTransformer.startExtractingDocument( String uri , String loc , String raw , Attributes a );1;0;3
+AbstractExtractionTransformer.endPrefixMapping( String prefix );2;1;8
+AbstractExtractionTransformer.endCDATA( );2;1;7
+AbstractExtractionTransformer.comment( char ch [ ] , int start , int len );2;1;7
+AbstractExtractionTransformer.endDTD( );2;1;9
+AbstractExtractionTransformer.startPrefixMapping( String prefix , String uri );2;1;8
+AbstractExtractionTransformer.startElement( String uri , String loc , String raw , Attributes a );6;4;29

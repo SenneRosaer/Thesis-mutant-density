@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InstrumentedBridgeMethods.resourcebundlegetBundle( String baseName , Locale locale );1;0;11
+InstrumentedBridgeMethods.classforName( String className , boolean initialize , ClassLoader loader );2;0;11
+InstrumentedBridgeMethods.classforName( String className );2;0;11
+InstrumentedBridgeMethods.classgetDeclaredFields( Class < ? > clazz );1;0;7
+InstrumentedBridgeMethods.resourcebundlegetBundle( String baseName );1;0;11
+InstrumentedBridgeMethods.classgetConstructor( Class < ? > clazz , Class < ? > [ ] parameterTypes );2;0;12
+InstrumentedBridgeMethods.classgetResourceAsStream( Class < ? > clazz , String name );1;0;7
+InstrumentedBridgeMethods.proxynewProxyInstance( ClassLoader loader , Class < ? > [ ] interfaces , InvocationHandler h );1;0;12
+InstrumentedBridgeMethods.classloaderresources( ClassLoader classLoader , String name );1;0;7
+InstrumentedBridgeMethods.classloadergetResourceAsStream( ClassLoader classLoader , String name );1;0;7
+InstrumentedBridgeMethods.classgetDeclaredClasses( Class < ? > clazz );2;0;7
+InstrumentedBridgeMethods.classgetMethod( Class < ? > clazz , String name , Class < ? > ... parameterTypes );1;0;12
+InstrumentedBridgeMethods.InstrumentedBridgeMethods( );1;0;2
+InstrumentedBridgeMethods.resourcebundlegetBundle( String baseName , Locale targetLocale , ClassLoader loader , ResourceBundle . Control control );1;0;11
+InstrumentedBridgeMethods.resourcebundlegetBundle( String baseName , Module module );1;0;11
+InstrumentedBridgeMethods.resourcebundlegetBundle( String baseName , Locale targetLocale , Module module );1;0;11
+InstrumentedBridgeMethods.classgetFields( Class < ? > clazz );1;0;7
+InstrumentedBridgeMethods.classloadergetResource( ClassLoader classLoader , String name );1;0;7
+InstrumentedBridgeMethods.classgetConstructors( Class < ? > clazz );2;0;10
+InstrumentedBridgeMethods.classgetClasses( Class < ? > clazz );2;0;7
+InstrumentedBridgeMethods.classloadergetResources( ClassLoader classLoader , String name );1;0;11
+InstrumentedBridgeMethods.classgetResource( Class < ? > clazz , String name );1;0;7
+InstrumentedBridgeMethods.classgetDeclaredField( Class < ? > clazz , String name );1;0;12
+InstrumentedBridgeMethods.resourcebundlegetBundle( String baseName , ResourceBundle . Control control );1;0;11
+InstrumentedBridgeMethods.classgetDeclaredMethods( Class < ? > clazz );1;0;7
+InstrumentedBridgeMethods.fieldget( Field field , Object object );5;5;21
+InstrumentedBridgeMethods.classgetDeclaredConstructors( Class < ? > clazz );2;0;10
+InstrumentedBridgeMethods.resourcebundlegetBundle( String baseName , Locale targetLocale , ResourceBundle . Control control );1;0;11
+InstrumentedBridgeMethods.classgetDeclaredMethod( Class < ? > clazz , String name , Class < ? > ... params );1;0;12
+InstrumentedBridgeMethods.classgetMethods( Class < ? > clazz );1;0;11
+InstrumentedBridgeMethods.modulegetResourceAsStream( Module module , String name );1;0;7
+InstrumentedBridgeMethods.methodinvoke( Method method , Object object , Object ... arguments );4;3;21
+InstrumentedBridgeMethods.classgetField( Class < ? > clazz , String name );1;0;12
+InstrumentedBridgeMethods.fieldset( Field field , Object object , Object value );5;5;19
+InstrumentedBridgeMethods.constructornewInstance( Constructor < ? > constructor , Object ... arguments );4;3;21
+InstrumentedBridgeMethods.resourcebundlegetBundle( String baseName , Locale locale , ClassLoader loader );1;0;11
+InstrumentedBridgeMethods.classgetDeclaredConstructor( Class < ? > clazz , Class < ? > [ ] parameterTypes );2;0;12
+InstrumentedBridgeMethods.classloaderloadClass( ClassLoader classLoader , String name );2;0;12

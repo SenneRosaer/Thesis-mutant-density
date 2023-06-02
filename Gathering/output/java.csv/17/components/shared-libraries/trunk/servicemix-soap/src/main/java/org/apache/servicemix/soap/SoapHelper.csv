@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SoapHelper.findOperationFor( PortType portType , QName bodyName );7;7;19
+SoapHelper.createContext( );1;0;6
+SoapHelper.createContext( SoapMessage message );1;0;5
+SoapHelper.onReceive( Context context );15;16;55
+SoapHelper.onReply( Context context , NormalizedMessage outMsg );4;2;15
+SoapHelper.onFault( Context context , SoapFault fault );5;3;18
+SoapHelper.getSoapMarshaler( );1;0;3
+SoapHelper.SoapHelper( SoapEndpoint endpoint );5;3;19
+SoapHelper.createExchange( URI mep );1;0;7
+SoapHelper.getJBIMarshaler( );1;0;3
+SoapHelper.findOperation( Context context );21;23;59
+SoapHelper.onAnswer( Context context );3;1;8
+SoapHelper.getDefinition( ServiceEndpoint se );5;3;26
+SoapHelper.onSend( Context context );4;1;14
+SoapHelper.getMep( Operation oper );6;7;16

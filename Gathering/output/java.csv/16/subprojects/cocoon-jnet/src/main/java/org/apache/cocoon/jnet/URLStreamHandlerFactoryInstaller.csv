@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParentableURLStreamHandlerFactory.createURLStreamHandler( String protocol );3;3;7
+URLStreamHandlerFactoryInstaller.setCurrentFactory( ParentableURLStreamHandlerFactory parentableURLStreamHandlerFactory );1;0;4
+URLStreamHandlerFactoryInstaller.getCurrentFactory( );2;0;8
+ParentableURLStreamHandlerFactory.ParentableURLStreamHandlerFactory( URLStreamHandlerFactory factory , ParentableURLStreamHandlerFactory parent );1;0;5
+URLStreamHandlerFactoryInstaller.setURLStreamHandlerFactory( URLStreamHandlerFactory factory );2;0;8
+URLStreamHandlerFactoryInstaller.getFactoryField( );4;3;12

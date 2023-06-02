@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServiceMixConfigBuilder.buildComponent( Descriptor descriptor , DeploymentContext context , JarFile module );7;7;37
+ServiceMixConfigBuilder.getGBeanInfo( );1;0;3
+ServiceMixConfigBuilder.unzip( DeploymentContext context , JarFile module , URI targetUri );2;0;8
+ServiceMixConfigBuilder.getAssociatedJbiServiceUnit( String compName , Artifact artifactName );1;0;6
+ServiceMixConfigBuilder.buildSharedLibrary( Descriptor descriptor , DeploymentContext context , JarFile module );6;5;41
+ServiceMixConfigBuilder.getDeploymentPlan( File planFile , JarFile module , ModuleIDBuilder idBuilder );9;4;38
+ServiceMixConfigBuilder.getComponentGBean( String compName , Artifact artifactName );1;0;8
+ServiceMixConfigBuilder.buildServiceAssembly( Descriptor descriptor , DeploymentContext context , JarFile module );4;4;42
+ServiceMixConfigBuilder.getComponentName( String name );1;0;4
+ServiceMixConfigBuilder.ServiceMixConfigBuilder( Environment defaultEnvironment , AbstractNameQuery containerName , Collection repositories , Kernel kernel );1;0;6
+ServiceMixConfigBuilder.buildConfiguration( boolean inPlaceDeployment , Artifact configId , Object plan , JarFile jarFile , Collection configurationStores , ArtifactResolver artifactResolver , ConfigurationStore targetConfigurationStore );14;10;63
+ServiceMixConfigBuilder.getConfigurationID( Object plan , JarFile module , ModuleIDBuilder idBuilder );4;3;17

@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScriptComponent.transform( MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );2;1;11
+ScriptComponent.setLogResourceBundle( String logResourceBundle );1;0;3
+ScriptComponent.getCompiledScript( );1;0;3
+ScriptComponent.setScript( Resource script );1;0;3
+ScriptComponent.getLogResourceBundle( );1;0;3
+ScriptComponent.getBindings( );1;0;3
+ScriptComponent.ScriptComponent( QName service , String endpoint );1;0;3
+ScriptComponent.evaluteScript( Bindings bindings );1;0;3
+ScriptComponent.getScriptText( );1;0;3
+ScriptComponent.getScriptEngineName( );1;0;3
+ScriptComponent.setScriptText( String scriptText );1;0;3
+ScriptComponent.setScriptEngineName( String scriptEngineName );1;0;3
+ScriptComponent.getEngine( );1;0;3
+ScriptComponent.compileScript( Compilable compilable );5;2;16
+ScriptComponent.createScriptEngine( );1;0;4
+ScriptComponent.runScript( Bindings bindings );2;1;8
+ScriptComponent.isDisableOutput( );1;0;3
+ScriptComponent.populateBindings( Bindings bindings , MessageExchange exchange , NormalizedMessage in , NormalizedMessage out );4;1;20
+ScriptComponent.setScriptLogger( Logger scriptLogger );1;0;3
+ScriptComponent.createScriptLogger( );3;1;13
+ScriptComponent.setDisableOutput( boolean disableOutput );1;0;3
+ScriptComponent.setCompiledScript( CompiledScript compiledScript );1;0;3
+ScriptComponent.setEngine( ScriptEngine engine );1;0;3
+ScriptComponent.getScript( );1;0;3
+ScriptComponent.setBindings( Map bindings );1;0;3
+ScriptComponent.getScriptLogger( );2;1;6
+ScriptComponent.start( );8;6;24
+ScriptComponent.checkScriptTextAvailable( );3;3;5
+ScriptComponent.ScriptComponent( );1;0;3

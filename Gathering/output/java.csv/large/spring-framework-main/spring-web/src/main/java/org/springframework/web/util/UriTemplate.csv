@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UriTemplate.toString( );1;0;3
+TemplateInfo.getMatchPattern( );1;0;3
+TemplateInfo.TemplateInfo( List < String > vars , Pattern pattern );1;0;4
+UriTemplate.UriTemplate( String uriTemplate );1;0;8
+UriTemplate.expand( Object ... uriVariableValues );1;0;5
+TemplateInfo.quote( StringBuilder builder );2;1;3
+UriTemplate.matches( @ Nullable String uri );2;1;7
+TemplateInfo.getVariableNames( );1;0;3
+UriTemplate.getVariableNames( );1;0;3
+TemplateInfo.parse( String uriTemplate );9;14;46
+UriTemplate.match( String uri );3;3;13
+UriTemplate.expand( Map < String , ? > uriVariables );1;0;5

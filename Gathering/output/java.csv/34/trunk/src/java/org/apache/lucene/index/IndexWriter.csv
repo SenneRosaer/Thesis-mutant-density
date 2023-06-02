@@ -1,0 +1,174 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IndexWriter.IndexWriter( Directory d , boolean autoCommit , Analyzer a );1;0;3
+IndexWriter.doFlush( boolean flushDocStores , boolean flushDeletes );23;29;101
+IndexWriter.getMergePolicy( );1;0;4
+MaxFieldLength.MaxFieldLength( String name , int limit );1;0;4
+IndexWriter.finishMerges( boolean waitForMerges );11;11;39
+IndexWriter.maxDoc( );3;4;10
+IndexWriter.getNumBufferedDocuments( );1;0;3
+IndexWriter.blockAddIndexes( boolean includePendingClose );2;1;11
+IndexWriter.ensureOpen( );1;0;3
+IndexWriter.setWriteLockTimeout( long writeLockTimeout );1;0;4
+IndexWriter.flush( boolean triggerMerge , boolean flushDocStores , boolean flushDeletes );3;1;5
+IndexWriter.rollbackInternal( );5;4;40
+IndexWriter.startCommit( long sizeInBytes , String commitUserData );23;24;102
+IndexWriter.IndexWriter( Directory d , Analyzer a , boolean create , MaxFieldLength mfl );1;0;3
+IndexWriter.merge( MergePolicy . OneMerge merge );12;12;35
+IndexWriter.maybeMerge( int maxNumSegmentsOptimize , boolean optimize );1;0;4
+IndexWriter.setMergePolicy( MergePolicy mp );4;3;11
+IndexWriter.doCommitBeforeMergeCFS( MergePolicy . OneMerge merge );6;10;21
+IndexWriter.IndexWriter( String path , Analyzer a , MaxFieldLength mfl );1;0;3
+IndexWriter.abort( );1;0;3
+IndexWriter.acquireWrite( );3;3;6
+IndexWriter.getNextExternalMerge( );4;1;16
+IndexWriter.IndexWriter( File path , Analyzer a , boolean create );1;0;3
+IndexWriter.setSimilarity( Similarity similarity );1;0;5
+IndexWriter.waitForAllSynced( Collection syncing );5;2;19
+IndexWriter.finishAddIndexes( );1;0;3
+IndexWriter.setMessageID( PrintStream infoStream );3;5;8
+IndexWriter.getUseCompoundFile( );1;0;3
+IndexWriter.ensureOpen( boolean includePendingClose );4;2;5
+IndexWriter.optimize( );1;0;3
+IndexWriter.flushDocStores( );12;14;43
+IndexWriter.IndexWriter( Directory d , Analyzer a , boolean create );1;0;3
+IndexWriter.IndexWriter( File path , Analyzer a , boolean create , MaxFieldLength mfl );1;0;3
+IndexWriter.unlock( Directory directory );1;0;3
+IndexWriter.getMaxMergeDocs( );1;0;3
+IndexWriter.getSimilarity( );1;0;4
+IndexWriter.numRamDocs( );1;0;4
+IndexWriter.segString( );1;0;3
+IndexWriter.rollback( );3;0;7
+IndexWriter.numDocs( );3;5;12
+IndexWriter.testPoint( String name );1;0;3
+IndexWriter.setTermIndexInterval( int interval );1;0;4
+IndexWriter.finishCommit( );2;1;20
+IndexWriter.hasExternalSegments( SegmentInfos infos );3;3;7
+IndexWriter.setDefaultWriteLockTimeout( long writeLockTimeout );1;0;3
+IndexWriter.getSegmentCount( );1;0;3
+IndexWriter.mergeFinish( MergePolicy . OneMerge merge );3;2;12
+IndexWriter.setMaxBufferedDeleteTerms( int maxBufferedDeleteTerms );4;4;10
+IndexWriter.flush( );2;0;5
+IndexWriter.getFlushDeletesCount( );1;0;3
+IndexWriter.getDefaultWriteLockTimeout( );1;0;3
+IndexWriter.deleteDocuments( Query [ ] queries );2;0;6
+IndexWriter.syncPause( long sizeInBytes );8;12;20
+IndexWriter.ensureContiguousMerge( MergePolicy . OneMerge merge );6;11;18
+IndexWriter.getFlushCount( );1;0;3
+IndexWriter.optimizeMergesPending( );5;0;11
+IndexWriter.getRAMBufferSizeMB( );1;0;3
+IndexWriter.setRollbackSegmentInfos( SegmentInfos infos );2;3;8
+MaxFieldLength.getLimit( );1;0;3
+IndexWriter.updatePendingMerges( int maxNumSegmentsOptimize , boolean optimize );8;9;23
+IndexWriter.newSegmentName( );1;2;6
+IndexWriter.checkpoint( );1;1;4
+IndexWriter.IndexWriter( String path , Analyzer a );1;0;3
+IndexWriter.setDefaultInfoStream( PrintStream infoStream );1;0;3
+IndexWriter.ramSizeInBytes( );1;0;4
+IndexWriter.prepareCommit( );1;0;4
+IndexWriter.messageState( );1;0;11
+IndexWriter.commitTransaction( );5;4;23
+IndexWriter.newestSegment( );1;1;3
+IndexWriter.setMergeFactor( int mergeFactor );1;0;3
+IndexWriter.IndexWriter( Directory d , Analyzer a , IndexDeletionPolicy deletionPolicy , MaxFieldLength mfl );1;0;3
+IndexWriter.IndexWriter( File path , Analyzer a , MaxFieldLength mfl );1;0;3
+IndexWriter.addIndexes( Directory [ ] dirs );6;7;42
+IndexWriter.setMaxMergeDocs( int maxMergeDocs );1;0;3
+IndexWriter.IndexWriter( Directory d , Analyzer a , IndexDeletionPolicy deletionPolicy , MaxFieldLength mfl , IndexCommit commit );1;0;3
+IndexWriter.commit( long sizeInBytes );1;0;4
+IndexWriter.applyDeletes( );7;7;27
+IndexWriter.getLogMergePolicy( );2;0;6
+MaxFieldLength.toString( );1;1;3
+IndexWriter.isLocked( String directory );1;0;8
+IndexWriter.isLocked( Directory directory );1;0;3
+IndexWriter.IndexWriter( Directory d , boolean autoCommit , Analyzer a , IndexDeletionPolicy deletionPolicy );1;0;3
+MaxFieldLength.MaxFieldLength( int limit );1;0;3
+IndexWriter.startTransaction( boolean haveWriteLock );9;9;40
+IndexWriter.init( Directory d , Analyzer a , boolean closeDir , IndexDeletionPolicy deletionPolicy , boolean autoCommit , int maxFieldLength , IndexingChain indexingChain , IndexCommit commit );2;0;7
+IndexWriter.setMaxFieldLength( int maxFieldLength );2;1;7
+IndexWriter.waitForCommit( );2;0;5
+IndexWriter.getMergeScheduler( );1;0;4
+IndexWriter.doWait( );2;0;7
+***not in a method***;0;2;0
+IndexWriter.updateDocument( Term term , Document doc , Analyzer analyzer );6;3;26
+IndexWriter.startSync( String fileName , Collection pending );3;2;14
+IndexWriter.releaseWrite( );1;1;5
+IndexWriter.addIndexes( IndexReader [ ] readers );16;14;95
+IndexWriter.pushMaxBufferedDocs( );5;3;14
+IndexWriter.IndexWriter( Directory d , Analyzer a );1;0;3
+IndexWriter.rollbackTransaction( );3;3;17
+IndexWriter.finalize( );2;1;10
+IndexWriter.getTermIndexInterval( );1;0;4
+IndexWriter.deleteDocuments( Query query );2;0;6
+IndexWriter.getNumBufferedDeleteTerms( );1;0;3
+IndexWriter.setInfoStream( PrintStream infoStream );2;1;8
+IndexWriter.deleteDocuments( Term [ ] terms );3;0;11
+IndexWriter.IndexWriter( Directory d , boolean autoCommit , Analyzer a , boolean create );1;0;3
+IndexWriter.addDocument( Document doc );1;0;3
+IndexWriter.IndexWriter( File path , Analyzer a );1;0;3
+IndexWriter.setMaxBufferedDocs( int maxBufferedDocs );6;7;14
+IndexWriter.resumeAddIndexes( );1;0;3
+IndexWriter.getDocCount( int i );3;4;7
+IndexWriter.decrefMergeSegments( MergePolicy . OneMerge merge );3;3;11
+IndexWriter.segString( SegmentInfos infos );4;4;14
+IndexWriter.docCount( );1;0;4
+IndexWriter._mergeInit( MergePolicy . OneMerge merge );23;32;77
+IndexWriter.handleMergeException( Throwable t , MergePolicy . OneMerge merge );6;0;15
+IndexWriter.getDefaultInfoStream( );1;0;3
+IndexWriter.getNextMerge( );2;1;9
+IndexWriter.shouldClose( );4;2;13
+IndexWriter.getMaxSyncPauseSeconds( );1;0;3
+IndexWriter.registerMerge( MergePolicy . OneMerge merge );9;8;29
+IndexWriter.optimize( boolean doWait );1;0;3
+IndexWriter.finishSync( String fileName , boolean success );2;0;9
+IndexWriter.IndexWriter( Directory d , Analyzer a , MaxFieldLength mfl );1;0;3
+IndexWriter.mergeInit( MergePolicy . OneMerge merge );2;1;12
+IndexWriter.mergeMiddle( MergePolicy . OneMerge merge );19;16;89
+IndexWriter.addIndexesNoOptimize( Directory [ ] dirs );7;8;48
+IndexWriter.expungeDeletes( );1;0;3
+IndexWriter.getMaxFieldLength( );1;0;4
+IndexWriter.addDocument( Document doc , Analyzer analyzer );7;4;28
+IndexWriter.commitMergedDeletes( MergePolicy . OneMerge merge );14;20;57
+IndexWriter.hasDeletions( );4;2;9
+IndexWriter.deleteDocuments( Term term );3;0;11
+IndexWriter.message( String message );2;1;4
+IndexWriter.getInfoStream( );1;0;4
+IndexWriter.noDupDirs( Directory [ ] dirs );4;3;10
+IndexWriter.IndexWriter( Directory d , Analyzer a , boolean create , IndexDeletionPolicy deletionPolicy , MaxFieldLength mfl );1;0;3
+IndexWriter.prepareCommit( String commitUserData , boolean internal );6;5;11
+IndexWriter.getDirectory( );1;0;4
+IndexWriter.doneCommit( );1;0;4
+IndexWriter.addMergeException( MergePolicy . OneMerge merge );3;4;5
+IndexWriter.optimize( int maxNumSegments , boolean doWait );13;8;52
+IndexWriter.prepareCommit( String commitUserData );1;0;3
+IndexWriter.close( boolean waitForMerges );3;0;8
+IndexWriter.resetMergeExceptions( );1;1;4
+IndexWriter.getAnalyzer( );1;0;4
+IndexWriter.getWriteLockTimeout( );1;0;4
+IndexWriter.setRAMBufferSizeMB( double mb );6;7;11
+IndexWriter.closeInternal( boolean waitForMerges );11;7;46
+IndexWriter.getMergeFactor( );1;0;3
+IndexWriter.getBufferedDeleteTermsSize( );1;0;3
+IndexWriter.init( Directory d , Analyzer a , final boolean create , boolean closeDir , IndexDeletionPolicy deletionPolicy , boolean autoCommit , int maxFieldLength , IndexingChain indexingChain , IndexCommit commit );14;12;62
+IndexWriter.setUseCompoundFile( boolean value );1;0;4
+IndexWriter.updateDocument( Term term , Document doc );1;0;4
+IndexWriter.getMaxBufferedDocs( );1;0;4
+IndexWriter.setMergeScheduler( MergeScheduler mergeScheduler );4;3;12
+IndexWriter.close( );1;0;3
+IndexWriter.commitMerge( MergePolicy . OneMerge merge , SegmentMerger merger , int mergedDocCount );12;12;40
+IndexWriter.doAfterFlush( );1;0;2
+IndexWriter.releaseRead( );2;3;6
+IndexWriter.setMaxSyncPauseSeconds( double seconds );1;0;3
+IndexWriter.IndexWriter( String path , Analyzer a , boolean create );1;0;3
+IndexWriter.resolveExternalSegments( );12;12;37
+IndexWriter.commit( );1;0;3
+IndexWriter.maybeMerge( boolean optimize );1;0;3
+IndexWriter.maybeMerge( );1;0;3
+IndexWriter.hasExternalSegments( );1;0;3
+IndexWriter.optimize( int maxNumSegments );1;0;3
+IndexWriter.getMaxBufferedDeleteTerms( );1;0;4
+IndexWriter.acquireRead( );3;4;6
+IndexWriter.IndexWriter( Directory d , boolean autoCommit , Analyzer a , boolean create , IndexDeletionPolicy deletionPolicy );1;0;3
+IndexWriter.IndexWriter( String path , Analyzer a , boolean create , MaxFieldLength mfl );1;0;3
+IndexWriter.expungeDeletes( boolean doWait );12;10;37
+IndexWriter.commit( String commitUserData );3;2;15
+IndexWriter.IndexWriter( Directory d , Analyzer a , boolean create , IndexDeletionPolicy deletionPolicy , MaxFieldLength mfl , IndexingChain indexingChain , IndexCommit commit );1;0;3

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestMappingDataBindingIntegrationTests.handleForm( HttpServer httpServer );1;0;8
+Foo.getAge( );1;0;3
+RequestMappingDataBindingIntegrationTests.handleDateParam( HttpServer httpServer );1;0;5
+RequestMappingDataBindingIntegrationTests.initApplicationContext( );1;0;6
+Foo.setAge( int age );1;0;3
+TestController.handleForm( @ ModelAttribute Foo foo , Errors errors );2;0;4
+TestController.addFooAttribute( @ PathVariable ( "id" ) Optional < Long > optionalId );1;0;3
+Foo.getName( );1;0;3
+Foo.Foo( Long id );1;0;3
+TestController.initBinder( WebDataBinder binder , @ RequestParam ( "date-pattern" ) Optional < String > optionalPattern );1;0;6
+Foo.toString( );1;0;3
+TestController.handleDateParam( @ RequestParam Date date );1;0;3
+Foo.setName( String name );1;0;3
+Foo.getId( );1;0;3

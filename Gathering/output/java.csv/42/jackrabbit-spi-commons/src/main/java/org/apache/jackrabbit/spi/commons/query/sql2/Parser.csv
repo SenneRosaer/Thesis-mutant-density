@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Parser.parseConditionFuntionIf( String functionName );10;0;45
+Parser.checkRunOver( int i , int len , int startLoop );2;1;6
+Parser.readIf( String token );2;0;7
+Parser.parseCondition( );7;2;25
+Parser.parseExpressionFunction( String functionName );10;0;32
+Parser.parseAnd( );2;0;7
+Parser.getSyntaxError( String expected );2;4;8
+***not in a method***;0;1;0
+Parser.parseColumns( );7;0;28
+Parser.parseDynamicOperand( );3;2;9
+Parser.readString( );2;1;8
+Parser.readAny( );3;2;13
+Parser.read( String expected );3;2;6
+Parser.parseCondition( DynamicOperand left );14;3;64
+Parser.getPropertyExistence( PropertyValue p );2;1;7
+Parser.readDecimal( int start , int i );10;13;33
+Parser.initialize( String query );39;21;94
+Parser.addExpected( String token );2;1;5
+Parser.parseJoinCondition( );7;2;37
+Parser.parseSource( );5;0;26
+Parser.createQueryObjectModel( String query );3;0;22
+Parser.read( );38;40;153
+Parser.isToken( String token );3;2;8
+Parser.parseOrder( );3;0;17
+Parser.parseConstraint( );2;0;7
+Parser.resolveColumns( ArrayList list );8;9;31
+Parser.Parser( QueryObjectModelFactory factory , ValueFactory valueFactory );1;0;4
+Parser.parseSelector( );2;0;9
+Parser.getSyntaxError( );5;6;14
+Parser.parseStaticOperand( );11;10;39
+Parser.readName( );7;4;26
+Parser.readPath( );1;0;3
+Parser.parsePropertyValue( String name );2;0;7
+Parser.checkLiterals( boolean text );5;6;5

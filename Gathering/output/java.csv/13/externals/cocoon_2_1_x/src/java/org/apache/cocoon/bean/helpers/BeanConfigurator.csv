@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BeanConfigurator.parseIncludeExcludeNode( CocoonBean cocoon , Node node , final String NODE_TYPE );3;1;11
+BeanConfigurator.configure( Document xconf , CocoonBean cocoon , String destDir , String uriGroup , OutputStreamListener listener );41;7;114
+BeanConfigurator.getNodeValue( Node root , String name );4;3;13
+BeanConfigurator.getAttributeValue( Node node , String attr );4;4;10
+BeanConfigurator.processURIFile( String filename );6;4;22
+BeanConfigurator.hasAttribute( Node node , String attr );2;2;8
+BeanConfigurator.parseBrokenLinkNode( CocoonBean cocoon , Node node , OutputStreamListener listener );6;1;18
+BeanConfigurator.parseLoggingNode( CocoonBean cocoon , Node node );5;1;15
+BeanConfigurator.parseIncludeLinksNode( CocoonBean cocoon , Node node );2;0;5
+BeanConfigurator.parseURIsNode( CocoonBean cocoon , Node node , String destDir , String uriGroup );18;9;63
+BeanConfigurator.parseURINode( CocoonBean cocoon , Node node , String destDir );16;18;33
+BeanConfigurator.getNodeValue( Node node );4;4;18
+BeanConfigurator.getBooleanAttributeValue( Node node , String attr );3;2;11

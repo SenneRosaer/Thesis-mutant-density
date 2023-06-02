@@ -1,0 +1,70 @@
+File;Method Name;Z-score
+spring-aop/src/main/java/org/springframework/aop/framework/ProxyProcessorSupport.java;ProxyProcessorSupport.isConfigurationCallbackInterface( Class < ? > ifc );8.273797894562353
+spring-beans/src/main/java/org/springframework/beans/support/PagedListHolder.java;PagedListHolder.getPageCount( );4.726744601856245
+spring-beans/src/test/java/org/springframework/beans/AbstractPropertyAccessorTests.java;AbstractPropertyAccessorTests.setAsText( String text );5.120861634379145
+spring-context/src/main/java/org/springframework/jmx/support/JmxUtils.java;JmxUtils.isMBean( @ Nullable Class < ? > clazz );4.490274382342504
+spring-context/src/test/java/org/springframework/aop/framework/AbstractAopProxyTests.java;AbstractAopProxyTests.matches( Method m , @ Nullable Class < ? > targetClass );13.003202284837164
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.getFirstAttributeOffset( );4.189312284779562
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.readInt( final int offset );7.598168695951665
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.readShort( final int offset );4.726744601856245
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.readUnsignedShort( final int offset );4.726744601856245
+spring-core/src/main/java/org/springframework/asm/ClassReader.java;ClassReader.readUtf( final int utfOffset , final int utfLength , final char [ ] charBuffer );4.189312284779562
+spring-core/src/main/java/org/springframework/asm/Handle.java;Handle.toString( );8.273797894562353
+spring-core/src/main/java/org/springframework/asm/ModuleWriter.java;ModuleWriter.getAttributeCount( );5.120861634379145
+spring-core/src/main/java/org/springframework/asm/SymbolTable.java;SymbolTable.hash( final int tag , final String value1 , final String value2 , final String value3 );5.120861634379145
+spring-core/src/main/java/org/springframework/asm/SymbolTable.java;SymbolTable.hash( final int tag , final String value1 , final String value2 , final String value3 , final int value4 );6.69732976447075
+spring-core/src/main/java/org/springframework/asm/SymbolTable.java;SymbolTable.hash( final int tag , final String value1 , final String value2 , final int value3 );6.69732976447075
+spring-core/src/main/java/org/springframework/asm/SymbolTable.java;SymbolTable.hash( final int tag , final long value );5.120861634379145
+spring-core/src/main/java/org/springframework/asm/TypeReference.java;TypeReference.newSuperTypeReference( final int itfIndex );5.120861634379145
+spring-core/src/main/java/org/springframework/asm/TypeReference.java;TypeReference.newTypeParameterBoundReference( final int sort , final int paramIndex , final int boundIndex );6.69732976447075
+spring-core/src/main/java/org/springframework/cglib/core/EmitUtils.java;EmitUtils.processCase( int key , Label ignore_end );5.909095699424947
+spring-core/src/main/java/org/springframework/core/LocalVariableTableParameterNameDiscoverer.java;ParameterNameDiscoveringVisitor.isSyntheticOrBridged( int access );5.120861634379145
+spring-core/src/main/java/org/springframework/core/annotation/AnnotationTypeMappings.java;AnnotationTypeMappings.isMappable( AnnotationTypeMapping source , @ Nullable Annotation metaAnnotation );5.436155260397466
+spring-core/src/main/java/org/springframework/core/annotation/TypeMappedAnnotations.java;TypeMappedAnnotations.isMappingForType( AnnotationTypeMapping mapping , AnnotationFilter annotationFilter , @ Nullable Object requiredType );4.490274382342504
+spring-core/src/main/java/org/springframework/core/io/support/LocalizedResourceHelper.java;LocalizedResourceHelper.findLocalizedResource( String name , String extension , @ Nullable Locale locale );4.051115403245558
+spring-core/src/main/java/org/springframework/core/type/StandardMethodMetadata.java;StandardMethodMetadata.isOverridable( );6.69732976447075
+spring-core/src/main/java/org/springframework/core/type/classreading/SimpleMethodMetadata.java;SimpleMethodMetadata.isOverridable( );6.69732976447075
+spring-core/src/main/java/org/springframework/util/ClassUtils.java;ClassUtils.isLambdaClass( Class < ? > clazz );4.726744601856245
+spring-core/src/main/java/org/springframework/util/FastByteArrayOutputStream.java;FastByteArrayOutputStream.nextPowerOf2( int val );4.490274382342504
+spring-core/src/main/java/org/springframework/util/StringUtils.java;StringUtils.endsWithIgnoreCase( @ Nullable String str , @ Nullable String suffix );7.09144679699365
+spring-core/src/main/java/org/springframework/util/StringUtils.java;StringUtils.hasText( @ Nullable CharSequence str );5.120861634379145
+spring-core/src/main/java/org/springframework/util/StringUtils.java;StringUtils.hasText( @ Nullable String str );5.120861634379145
+spring-core/src/main/java/org/springframework/util/StringUtils.java;StringUtils.matchesCharacter( @ Nullable String str , char singleCharacter );6.69732976447075
+spring-core/src/main/java/org/springframework/util/StringUtils.java;StringUtils.startsWithIgnoreCase( @ Nullable String str , @ Nullable String prefix );5.909095699424947
+spring-core/src/main/java/org/springframework/util/StringUtils.java;StringUtils.validateLocalePart( String localePart );4.595372257681945
+spring-core/src/main/java/org/springframework/util/xml/AbstractXMLStreamReader.java;AbstractXMLStreamReader.hasText( );5.909095699424947
+spring-core/src/main/java/org/springframework/util/xml/AbstractXMLStreamReader.java;AbstractXMLStreamReader.nextTag( );4.3326275693333445
+spring-core/src/test/java/org/springframework/util/DigestUtilsTests.java;DigestUtilsTests.md5( );4.135569053071894
+spring-expression/src/main/java/org/springframework/expression/spel/standard/Token.java;Token.isNumericRelationalOperator( );11.820851187268461
+spring-expression/src/main/java/org/springframework/expression/spel/standard/Tokenizer.java;Tokenizer.isIdentifier( char ch );6.69732976447075
+spring-expression/src/main/java/org/springframework/expression/spel/standard/Tokenizer.java;Tokenizer.isTwoCharToken( TokenKind kind );4.490274382342504
+spring-expression/src/main/java/org/springframework/expression/spel/support/DataBindingPropertyAccessor.java;DataBindingPropertyAccessor.isCandidateForProperty( Method method , Class < ? > targetClass );4.726744601856245
+spring-jdbc/src/main/java/org/springframework/jdbc/core/ResultSetSupportingSqlParameter.java;ResultSetSupportingSqlParameter.isResultSetSupported( );6.69732976447075
+spring-jdbc/src/main/java/org/springframework/jdbc/support/SQLStateSQLExceptionTranslator.java;SQLStateSQLExceptionTranslator.indicatesDuplicateKey( @ Nullable String sqlState , int errorCode );5.436155260397466
+spring-jdbc/src/test/java/org/springframework/jdbc/datasource/DataSourceTransactionManagerTests.java;DataSourceTransactionManagerTests.doInTransactionWithoutResult( TransactionStatus status );6.854976577479909
+spring-jdbc/src/test/java/org/springframework/jdbc/support/JdbcTransactionManagerTests.java;JdbcTransactionManagerTests.doInTransactionWithoutResult( TransactionStatus status );6.854976577479909
+spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/ReactiveReturnValueHandler.java;ReactiveReturnValueHandler.isAsyncReturnValue( Object returnValue , MethodParameter returnType );4.726744601856245
+spring-messaging/src/main/java/org/springframework/messaging/simp/annotation/support/SendToMethodReturnValueHandler.java;SendToMethodReturnValueHandler.getDestinationHelper( MessageHeaders headers , MethodParameter returnType );4.5578373022035725
+spring-messaging/src/main/java/org/springframework/messaging/simp/broker/SimpleBrokerMessageHandler.java;SimpleBrokerMessageHandler.setHeartbeatValue( @ Nullable long [ ] heartbeat );4.3326275693333445
+spring-messaging/src/main/java/org/springframework/messaging/simp/stomp/StompHeaders.java;StompHeaders.isHeartbeatEnabled( );4.726744601856245
+spring-messaging/src/test/java/org/springframework/messaging/handler/annotation/MessagingPredicates.java;HeaderPredicate.test( MethodParameter parameter );6.246910298730291
+spring-orm/src/test/java/org/springframework/orm/jpa/domain/Person.java;Person.toString( );4.726744601856245
+spring-r2dbc/src/main/java/org/springframework/r2dbc/connection/ConnectionFactoryUtils.java;ConnectionFactoryUtils.indicatesDuplicateKey( @ Nullable String sqlState , int errorCode );5.436155260397466
+spring-test/src/main/java/org/springframework/test/context/MergedContextConfiguration.java;MergedContextConfiguration.hashCode( );5.514978666902047
+spring-tx/src/main/java/org/springframework/transaction/reactive/TransactionalOperatorImpl.java;TransactionalOperatorImpl.equals( @ Nullable Object other );5.909095699424947
+spring-tx/src/main/java/org/springframework/transaction/support/TransactionTemplate.java;TransactionTemplate.equals( @ Nullable Object other );5.909095699424947
+spring-tx/src/test/java/org/springframework/transaction/JtaTransactionManagerTests.java;JtaTransactionManagerTests.afterCompletion( int status );9.850266024653957
+spring-web/src/main/java/org/springframework/http/codec/multipart/MultipartParser.java;HeadersState.isLastBoundary( DataBuffer buf );5.694122772594274
+spring-web/src/main/java/org/springframework/web/method/HandlerTypePredicate.java;HandlerTypePredicate.hasSelectors( );6.69732976447075
+spring-web/src/main/java/org/springframework/web/multipart/support/MultipartResolutionDelegate.java;MultipartResolutionDelegate.isMultipartArgument( MethodParameter parameter );4.3326275693333445
+spring-web/src/testFixtures/java/org/springframework/web/testfixture/method/MvcAnnotationPredicates.java;MatrixVariablePredicate.test( MethodParameter parameter );4.3326275693333445
+spring-webflux/src/main/java/org/springframework/web/reactive/resource/DefaultResourceResolverChain.java;DefaultResourceResolverChain.DefaultResourceResolverChain( @ Nullable ResourceResolver resolver , @ Nullable ResourceResolverChain chain );4.3326275693333445
+spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/ModelInitializer.java;ModelInitializer.isAsyncVoidType( ResolvableType type , @ Nullable ReactiveAdapter adapter );5.120861634379145
+spring-webmvc/src/main/java/org/springframework/web/servlet/config/ScriptTemplateConfigurerBeanDefinitionParser.java;ScriptTemplateConfigurerBeanDefinitionParser.isEligibleAttribute( String name );4.490274382342504
+spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/annotation/ServletRequestMethodArgumentResolver.java;ServletRequestMethodArgumentResolver.supportsParameter( MethodParameter parameter );4.805568008360825
+spring-webmvc/src/main/java/org/springframework/web/servlet/resource/DefaultResourceResolverChain.java;DefaultResourceResolverChain.DefaultResourceResolverChain( @ Nullable ResourceResolver resolver , @ Nullable ResourceResolverChain chain );4.3326275693333445
+spring-webmvc/src/main/java/org/springframework/web/servlet/tags/EvalTag.java;JspPropertyAccessor.canRead( EvaluationContext context , @ Nullable Object target , String name );4.726744601856245
+spring-webmvc/src/test/java/org/springframework/web/servlet/mvc/method/annotation/ServletAnnotationControllerHandlerMethodTests.java;ArticlePredicate.accept( Article entity );5.120861634379145
+spring-webmvc/src/test/java/org/springframework/web/servlet/mvc/method/annotation/ServletAnnotationControllerHandlerMethodTests.java;EntityPredicate.accept( E entity );8.273797894562353
+spring-websocket/src/main/java/org/springframework/web/socket/sockjs/frame/AbstractSockJsMessageCodec.java;AbstractSockJsMessageCodec.isSockJsSpecialChar( char ch );16.78672579705701
+spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/session/WebSocketServerSockJsSession.java;WebSocketServerSockJsSession.isActive( );5.120861634379145

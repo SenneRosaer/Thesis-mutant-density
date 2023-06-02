@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Sync.init( );1;0;7
+Sync.addFileset( FileSet set );1;0;3
+Sync.execute( );4;4;21
+Sync.removeOrphanFiles( Set nonOrphans , File toDir );7;14;48
+MyCopy.scan( File fromDir , File toDir , String [ ] files , String [ ] dirs );3;5;10
+Sync.logRemovedCount( int count , String prefix , String singularSuffix , String pluralSuffix );4;4;12
+Sync.configureTask( Task helper );1;0;6
+MyCopy.getToDir( );1;0;3
+Sync.setTodir( File destDir );1;0;3
+SyncTarget.SyncTarget( );1;0;3
+Sync.assertTrue( String message , boolean condition );2;1;5
+Sync.setIncludeEmptyDirs( boolean includeEmpty );1;0;3
+Sync.addPreserveInTarget( SyncTarget s );2;1;7
+Sync.removeEmptyDirectories( File dir , boolean removeIfEmpty );7;7;21
+Sync.add( ResourceCollection rc );1;0;3
+Sync.setGranularity( long granularity );1;0;3
+MyCopy.scan( Resource [ ] resources , File toDir );2;1;9
+MyCopy.supportsNonFileResources( );1;0;3
+SyncTarget.setDir( File dir );1;0;4
+MyCopy.MyCopy( );1;0;2
+Sync.setFailOnError( boolean failonerror );1;0;3
+Sync.setOverwrite( boolean overwrite );1;0;3
+MyCopy.getIncludeEmptyDirs( );1;0;3
+Sync.setVerbose( boolean verbose );1;0;3

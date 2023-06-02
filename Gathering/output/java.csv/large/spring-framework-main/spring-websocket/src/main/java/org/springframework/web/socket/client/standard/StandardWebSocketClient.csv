@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandardWebSocketClient.adaptExtensions( List < WebSocketExtension > extensions );2;0;7
+StandardWebSocketClient.getPort( URI uri );3;2;7
+StandardWebSocketClient.StandardWebSocketClient( WebSocketContainer webSocketContainer );1;0;4
+StandardWebSocketClient.StandardWebSocketClient( );1;0;3
+StandardWebSocketClient.setUserProperties( @ Nullable Map < String , Object > userProperties );2;1;5
+StandardWebSocketClientConfigurator.afterResponse( HandshakeResponse response );2;0;5
+StandardWebSocketClient.getTaskExecutor( );1;0;3
+StandardWebSocketClientConfigurator.beforeRequest( Map < String , List < String > > requestHeaders );2;0;6
+StandardWebSocketClient.getLocalHost( );2;0;8
+StandardWebSocketClient.setTaskExecutor( @ Nullable AsyncTaskExecutor taskExecutor );1;0;3
+StandardWebSocketClient.getUserProperties( );1;0;3
+StandardWebSocketClientConfigurator.StandardWebSocketClientConfigurator( HttpHeaders headers );1;0;3
+StandardWebSocketClient.executeInternal( WebSocketHandler webSocketHandler , HttpHeaders headers , final URI uri , List < String > protocols , List < WebSocketExtension > extensions , Map < String , Object > attributes );2;1;23

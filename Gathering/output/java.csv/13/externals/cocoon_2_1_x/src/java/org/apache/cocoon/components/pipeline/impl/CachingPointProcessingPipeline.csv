@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CachingPointProcessingPipeline.newComponentCacheKey( int type , String role , Serializable key );3;2;10
+CachingPointProcessingPipeline.informBranchPoint( );4;2;8
+CachingPointProcessingPipeline.addTransformer( String role , String source , Parameters param , Parameters hintParam );4;0;16
+CachingPointProcessingPipeline.parameterize( Parameters config );3;1;12
+CachingPointProcessingPipeline.setupFromCacheKey( );3;3;12
+CachingPointProcessingPipeline.cacheResults( Environment environment , OutputStream os );9;4;39
+CachingPointProcessingPipeline.connectCachingPipeline( Environment environment );27;31;98
+CachingPointProcessingPipeline.setGenerator( String role , String source , Parameters param , Parameters hintParam );4;0;15
+CachingPointProcessingPipeline.recycle( );2;0;11

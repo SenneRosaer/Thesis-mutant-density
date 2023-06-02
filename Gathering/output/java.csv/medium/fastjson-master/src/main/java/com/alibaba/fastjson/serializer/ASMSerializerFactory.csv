@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ASMSerializerFactory._if_write_null( MethodVisitor mw , FieldInfo fieldInfo , Context context );15;16;62
+ASMSerializerFactory._before( MethodVisitor mw , Context context );1;0;9
+ASMSerializerFactory._notWriteDefault( MethodVisitor mw , FieldInfo property , Context context , Label _end );10;7;38
+ASMSerializerFactory._filters( MethodVisitor mw , FieldInfo property , Context context , Label _end );3;0;16
+ASMSerializerFactory._apply( MethodVisitor mw , FieldInfo property , Context context );14;10;45
+ASMSerializerFactory._processValue( MethodVisitor mw , FieldInfo fieldInfo , Context context , Label _end );15;10;96
+ASMSerializerFactory._long( Class < ? > clazz , MethodVisitor mw , FieldInfo property , Context context );1;0;14
+Context.var( String name , int increment );2;2;9
+ASMSerializerFactory.createJavaBeanSerializer( SerializeBeanInfo beanInfo );37;39;244
+ASMSerializerFactory._double( Class < ? > clazz , MethodVisitor mw , FieldInfo property , Context context );1;0;14
+Context.var( String name );2;2;8
+ASMSerializerFactory._getListFieldItemSer( Context context , MethodVisitor mw , FieldInfo fieldInfo , Class < ? > itemType );1;0;18
+Context.Context( FieldInfo [ ] getters , SerializeBeanInfo beanInfo , String className , boolean writeDirect , boolean nonContext );2;1;7
+ASMSerializerFactory._float( Class < ? > clazz , MethodVisitor mw , FieldInfo property , Context context );1;0;14
+ASMSerializerFactory._getFieldSer( Context context , MethodVisitor mw , FieldInfo fieldInfo );1;0;15
+ASMSerializerFactory._int( Class < ? > clazz , MethodVisitor mw , FieldInfo property , Context context , int var , char type );1;0;14
+ASMSerializerFactory._string( Class < ? > clazz , MethodVisitor mw , FieldInfo property , Context context );4;0;45
+ASMSerializerFactory._labelApply( MethodVisitor mw , FieldInfo property , Context context , Label _end );1;0;8
+ASMSerializerFactory._after( MethodVisitor mw , Context context );1;0;9
+ASMSerializerFactory._object( Class < ? > clazz , MethodVisitor mw , FieldInfo property , Context context );1;0;9
+ASMSerializerFactory._list( Class < ? > clazz , MethodVisitor mw , FieldInfo fieldInfo , Context context );21;11;163
+Context.getFieldOrinal( String name );3;3;11
+ASMSerializerFactory._get( MethodVisitor mw , Context context , FieldInfo fieldInfo );6;3;19
+ASMSerializerFactory._enum( Class < ? > clazz , MethodVisitor mw , FieldInfo fieldInfo , Context context );3;0;42
+ASMSerializerFactory._nameApply( MethodVisitor mw , FieldInfo property , Context context , Label _end );3;2;18
+ASMSerializerFactory._writeObject( MethodVisitor mw , FieldInfo fieldInfo , Context context , Label _end );17;11;100
+ASMSerializerFactory.generateWriteMethod( Class < ? > clazz , MethodVisitor mw , FieldInfo [ ] getters , Context context );32;30;212
+ASMSerializerFactory._seperator( MethodVisitor mw , Context context );1;0;4
+ASMSerializerFactory._processKey( MethodVisitor mw , FieldInfo property , Context context );14;10;50
+ASMSerializerFactory._writeFieldName( MethodVisitor mw , Context context );2;0;12
+ASMSerializerFactory.generateWriteAsArray( Class < ? > clazz , MethodVisitor mw , FieldInfo [ ] getters , Context context );40;26;304
+ASMSerializerFactory._decimal( Class < ? > clazz , MethodVisitor mw , FieldInfo property , Context context );1;0;26

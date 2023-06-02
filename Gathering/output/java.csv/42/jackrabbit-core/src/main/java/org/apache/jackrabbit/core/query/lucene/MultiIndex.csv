@@ -1,0 +1,78 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Start.fromString( long transactionId , String arguments );1;0;3
+MultiIndex.checkIndexingQueue( );5;3;21
+Action.Action( long transactionId , int type );1;0;4
+Start.Start( long transactionId );1;0;3
+MultiIndex.getNamespaceMappings( );1;0;3
+MultiIndex.enqueueUnusedSegments( );4;4;8
+CreateIndex.execute( MultiIndex index );1;0;4
+AddIndex.toString( );1;0;9
+VolatileCommit.execute( MultiIndex index );1;0;6
+MultiIndex.executeAndLog( Action a );3;3;8
+DeleteNode.fromString( long transactionId , String arguments );2;1;6
+Commit.fromString( long transactionId , String arguments );1;0;3
+MultiIndex.checkFlush( );5;5;26
+AddIndex.fromString( long transactionId , String arguments );1;0;3
+MultiIndex.scheduleFlushTask( );1;0;4
+MultiIndex.checkVolatileCommit( );2;1;7
+Action.getTransactionId( );1;0;3
+DeleteIndex.DeleteIndex( long transactionId , String indexName );1;0;4
+MultiIndex.getVolatileIndex( );1;0;3
+MultiIndex.getTransactionId( );1;0;3
+CreateIndex.fromString( long transactionId , String arguments );1;0;3
+AddNode.AddNode( long transactionId , Document doc );1;0;4
+Start.execute( MultiIndex index );1;0;3
+MultiIndex.attemptDelete( );3;0;12
+MultiIndex.hasIndex( String indexName );3;0;9
+MultiIndex.getIndexReader( );7;4;30
+MultiIndex.createInitialIndex( ItemStateManager stateMgr , NodeId rootId , Path rootPath );3;1;21
+MultiIndex.createDocument( NodeState node );1;0;3
+VolatileCommit.toString( );1;0;9
+MultiIndex.getIndexingQueue( );1;0;3
+MultiIndex.getRedoLogApplied( );1;0;3
+AddNode.AddNode( long transactionId , UUID uuid );1;0;4
+MultiIndex.removeAllDocuments( UUID uuid );5;5;32
+MultiIndex.getIndexReaders( String [ ] indexNames , IndexListener listener );6;0;25
+MultiIndex.numDocs( );2;1;12
+Commit.execute( MultiIndex index );1;0;3
+DeleteNode.execute( MultiIndex index );6;6;20
+MultiIndex.flush( );4;4;20
+MultiIndex.replaceIndexes( String [ ] obsoleteIndexes , PersistentIndex index , Collection deleted );7;2;38
+DeleteIndex.execute( MultiIndex index );3;0;10
+MultiIndex.commitVolatileIndex( );2;2;13
+***not in a method***;0;9;0
+MultiIndex.deleteIndex( PersistentIndex index );1;0;8
+AddIndex.execute( MultiIndex index );2;1;7
+MultiIndex.run( );1;0;4
+CreateIndex.CreateIndex( long transactionId , String indexName );1;0;4
+Commit.toString( );1;2;3
+VolatileCommit.fromString( long transactionId , String arguments );1;0;3
+MultiIndex.removeDeletable( );3;0;10
+MultiIndex.getIndexFormatVersion( );1;0;3
+CreateIndex.undo( MultiIndex index );2;0;7
+VolatileCommit.VolatileCommit( long transactionId , String targetIndex );1;0;4
+CreateIndex.toString( );1;0;9
+MultiIndex.createDocument( NodeId id );3;0;10
+MultiIndex.createIndex( NodeState node , Path path , ItemStateManager stateMgr );5;1;24
+AddIndex.AddIndex( long transactionId , String indexName );1;0;4
+MultiIndex.removeDocument( UUID uuid );1;0;3
+MultiIndex.update( Collection remove , Collection add );6;4;33
+AddNode.execute( MultiIndex index );4;2;12
+Start.toString( );1;2;3
+AddNode.toString( );1;0;9
+Commit.Commit( long transactionId );1;0;3
+Action.getType( );1;0;3
+MultiIndex.close( );5;2;26
+AddNode.fromString( long transactionId , String arguments );2;1;6
+Action.undo( MultiIndex index );1;0;2
+DeleteNode.DeleteNode( long transactionId , UUID uuid );1;0;4
+MultiIndex.addDocument( Document doc );1;0;3
+DeleteIndex.toString( );1;0;9
+DeleteNode.toString( );1;0;9
+DeleteIndex.fromString( long transactionId , String arguments );1;0;3
+MultiIndex.resetVolatileIndex( );1;0;7
+MultiIndex.getOrCreateIndex( String indexName );5;1;24
+CreateIndex.getIndexName( );1;0;3
+Action.fromString( String line );13;9;42
+MultiIndex.releaseMultiReader( );2;1;9
+MultiIndex.MultiIndex( SearchIndex handler , Set excludedIDs );7;4;66

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Registry.getServiceUnits( );2;2;9
+Registry.getComponent( String name );3;0;8
+Registry.getEndpoints( Component component );3;0;9
+Registry.getServiceUnits( ServiceAssembly assembly );3;0;9
+Registry.getServiceAssembly( String name );3;0;9
+Registry.getSharedLibrary( String name );3;0;8
+Registry.getServiceAssemblies( );2;2;9
+Registry.getServiceUnits( Component component );3;0;9
+Registry.getServiceUnit( String name );3;0;8
+Registry.getComponents( );3;3;11
+Registry.getEndpoint( ObjectName objectName );3;0;8
+Registry.Registry( RegistryMBean mbean , ProxyManager proxyManager );1;0;4
+Registry.getSharedLibraries( );2;2;9
+Registry.getEndpoints( );2;2;9
+Registry.getComponent( SharedLibrary library );2;0;6

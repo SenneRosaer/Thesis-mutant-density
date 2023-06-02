@@ -1,0 +1,53 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionalEventListenerTests.afterCommitWithTransactionalComponentListenerProxiedViaDynamicProxy( );1;0;9
+FallbackExecutionTestListener.handleAfterCommit( String data );1;0;3
+TransactionalEventListenerTests.afterCommit( );1;0;10
+FallbackExecutionTestListener.handleAfterRollback( String data );1;0;3
+TestBean.supports( );1;0;3
+TestBean.TestBean( ApplicationEventPublisher eventPublisher );1;0;3
+BeforeCommitTestListener.handleBeforeCommit( String data );1;0;3
+TransactionalEventListenerTests.doLoad( Class < ? > ... classes );1;0;5
+TransactionalEventListenerTests.noTransaction( );1;0;6
+TransactionalEventListenerTests.beforeCommit( boolean readOnly );1;0;3
+TransactionalEventListenerTests.conditionFoundOnMetaAnnotation( );1;0;9
+TransactionalComponentTestListener.handleAfterCommit( String data );1;0;3
+ImmediateTestListener.handleImmediately( String data );1;0;3
+TransactionalEventListenerTests.closeContext( );2;1;5
+TestBean.required( );1;0;3
+AfterCommitMetaAnnotationTestListener.handleAfterCommit( String data );1;0;3
+TransactionalEventListenerTests.load( Class < ? > ... classes );3;0;6
+TransactionalEventListenerTests.transactionDemarcationWithRequiredPropagation( );1;0;5
+EventCollector.assertTotalEventsCount( int number );2;1;8
+FallbackExecutionTestListener.handleBeforeCommit( String data );1;0;3
+EventCollector.getEvents( String phase );1;0;3
+TransactionalEventListenerTests.transactionDemarcationWithSupportsPropagationAndExistingTransaction( );1;0;9
+TransactionalEventListenerTests.beforeCommitWithException( );1;0;16
+TransactionalEventListenerTests.afterCompletionRollback( );1;0;11
+EventCollector.assertNoEventReceived( String ... phases );3;1;10
+TransactionalEventListenerTests.beforeCommit( );1;0;23
+EventCollector.assertEvents( String phase , Object ... expected );2;2;7
+BasicConfiguration.eventCollector( );1;0;3
+BaseTransactionalTestListener.handleEvent( String phase , String data );2;0;6
+TransactionalEventListenerTests.regularTransaction( );1;0;24
+AfterCompletionTestListener.handleAfterCompletion( String data );1;0;3
+TransactionalEventListenerTests.immediatelyImpactsCurrentTransaction( );1;0;12
+TransactionalEventListenerTests.noTransactionWithFallbackExecution( );1;0;9
+EventCollector.addEvent( String phase , Object event );1;0;3
+AfterCompletionExplicitTestListener.handleAfterRollback( String data );1;0;3
+EventTransactionSynchronization.getOrder( );1;0;3
+TransactionalEventListenerTests.conditionFoundOnTransactionalEventListener( );1;0;9
+TransactionalEventListenerTests.immediately( );1;0;11
+TransactionalEventListenerTests.afterCommitMetaAnnotation( );1;0;10
+TransactionalEventListenerTests.transactionDemarcationWithNotSupportedPropagation( );1;0;5
+AfterCompletionExplicitTestListener.handleAfterCommit( String data );1;0;3
+FallbackExecutionTestListener.handleAfterCompletion( String data );1;0;3
+EventTransactionSynchronization.EventTransactionSynchronization( int order );1;0;3
+BasicConfiguration.transactionManager( );1;0;3
+BasicConfiguration.transactionTemplate( );1;0;3
+TransactionalEventListenerTests.getContext( );1;0;3
+TransactionalEventListenerTests.transactionDemarcationWithSupportsPropagationAndNoTransaction( );1;0;5
+TransactionalEventListenerTests.afterRollback( );1;0;11
+BasicConfiguration.testBean( ApplicationEventPublisher eventPublisher );1;0;3
+TransactionalEventListenerTests.afterCompletionCommit( );1;0;10
+TransactionalEventListenerTests.getEventCollector( );1;0;3
+TestBean.notSupported( );1;0;3

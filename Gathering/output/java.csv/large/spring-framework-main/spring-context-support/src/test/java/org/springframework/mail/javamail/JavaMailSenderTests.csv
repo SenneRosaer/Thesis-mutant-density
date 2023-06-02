@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JavaMailSenderTests.failedSimpleMessage( );2;0;29
+JavaMailSenderTests.javaMailSenderWithMimeMessagePreparator( );1;0;18
+JavaMailSenderTests.failedMimeMessage( );2;0;29
+MockTransport.isCloseCalled( );1;0;3
+JavaMailSenderTests.javaMailSenderWithMimeMessage( );1;0;15
+JavaMailSenderTests.javaMailSenderWithMimeMessageHelper( );1;0;18
+MockTransport.getSentMessages( );1;0;3
+JavaMailSenderTests.javaMailSenderWithParseExceptionOnMimeMessagePreparator( );2;0;11
+MockTransport.getConnectedHost( );1;0;3
+JavaMailSenderTests.testConnectionWithFailure( );1;0;6
+MockTransport.getConnectedPort( );1;0;3
+JavaMailSenderTests.javaMailSenderWithMimeMessagePreparators( );1;0;23
+MockTransport.getConnectedPassword( );1;0;3
+JavaMailSenderTests.javaMailSenderWithParseExceptionOnSimpleMessage( );2;0;12
+JavaMailSenderTests.failedMailServerConnect( );1;0;10
+JavaMailSenderTests.javaMailSenderWithMimeMessageHelperAndSpecificEncoding( );1;0;19
+JavaMailSenderTests.failedMailServerClose( );1;0;10
+JavaMailSenderTests.javaMailSenderWithSimpleMessages( );1;0;24
+MockTransport.connect( String host , int port , String username , String password );2;1;10
+MockTransport.sendMessage( Message message , Address [ ] addresses );8;8;16
+***not in a method***;0;1;0
+MockTransport.close( );2;0;6
+JavaMailSenderTests.javaMailSenderWithCustomSession( );1;0;25
+MockTransport.getSentMessage( int index );1;0;3
+JavaMailSenderTests.javaMailProperties( );1;0;24
+MockJavaMailSender.getTransport( Session session );1;0;4
+JavaMailSenderTests.getTransport( Session sess );1;0;4
+JavaMailSenderTests.javaMailSenderWithMimeMessages( );1;0;18
+MockTransport.getConnectedUsername( );1;0;3
+JavaMailSenderTests.testConnection( );1;0;5
+JavaMailSenderTests.javaMailSenderWithSimpleMessage( );1;0;44
+JavaMailSenderTests.javaMailSenderWithMimeMessageHelperAndDefaultEncoding( );1;0;20
+MockTransport.MockTransport( Session session , URLName urlName );1;0;3

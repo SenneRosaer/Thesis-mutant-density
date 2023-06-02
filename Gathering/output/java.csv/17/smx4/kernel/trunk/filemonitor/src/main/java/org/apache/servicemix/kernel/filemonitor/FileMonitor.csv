@@ -1,0 +1,47 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileMonitor.FileMonitor( );1;0;6
+FileMonitor.isBundleFragment( Bundle bundle );2;2;7
+FileMonitor.updateConfiguration( File file );5;4;32
+FileMonitor.stop( );1;0;3
+FileMonitor.getDeployDir( );1;0;3
+FileMonitor.FileMonitor( FileMonitorActivator activator , Dictionary properties );5;4;20
+FileMonitor.getPackageAdmin( );3;1;11
+FileMonitor.getConfiguration( String pid , String factoryPid );4;4;15
+FileMonitor.setActivator( FileMonitorActivator activator );1;0;3
+FileMonitor.getActivator( );1;0;3
+FileMonitor.setDeployDir( File deployDir );1;0;3
+FileMonitor.isValidBundleSourceDirectory( File dir );3;3;10
+FileMonitor.getFileValue( Dictionary properties , String key );3;1;10
+FileMonitor.getGenerateDir( );1;0;3
+FileMonitor.filesChanged( List < String > filenames );1;0;3
+FileMonitor.setScanInterval( long scanInterval );1;0;3
+FileMonitor.serviceChanged( ServiceEvent event );1;0;12
+FileMonitor.deployBundle( File file );3;2;19
+FileMonitor.getScanInterval( );1;0;3
+FileMonitor.containsManifest( File dir );4;3;8
+FileMonitor.closeQuietly( Closeable in );2;0;8
+FileMonitor.isValidConfigFile( File file );3;2;10
+FileMonitor.start( );4;3;30
+FileMonitor.interpolation( Properties properties );4;1;15
+FileMonitor.normalizeFilePath( String path );2;1;7
+FileMonitor.parsePid( File file );2;3;13
+FileMonitor.setGenerateDir( File generateDir );1;0;3
+FileMonitor.retryPendingStartBundles( );5;1;25
+FileMonitor.isValidArtifactFile( File file );3;2;11
+FileMonitor.refreshPackagesAndStartOrUpdateBundles( );6;1;25
+FileMonitor.getConfigDir( );1;0;3
+FileMonitor.deleteConfiguration( File file );1;0;5
+FileMonitor.getContext( );1;0;3
+FileMonitor.bundleChanged( BundleEvent event );2;1;9
+FileMonitor.run( );1;0;3
+FileMonitor.rescheduleStart( Bundle bundle );3;1;19
+FileMonitor.undeployBundle( File file );2;1;11
+FileMonitor.onFilesChanged( Collection < String > filenames );17;5;67
+FileMonitor.getExpandedBundleRootDirectory( File file );5;0;16
+FileMonitor.getBundleForJarFile( File file );3;0;11
+FileMonitor.transformArtifact( File file );11;7;37
+FileMonitor.getLongValue( Dictionary properties , String key );3;1;10
+FileMonitor.createBundleJar( File dir );2;0;9
+FileMonitor.setConfigDir( File configDir );1;0;3
+FileMonitor.filePathsMatch( String p1 , String p2 );2;2;5
+FileMonitor.rescheduleTransformation( File file );3;1;26

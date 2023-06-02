@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultLinkService.processEvent( Event event , StringBuffer value );7;3;26
+DefaultLinkService.getLinkURI( Event event , Boolean secure );7;4;28
+DefaultLinkService.getRefreshLinkURI( );1;0;3
+DefaultLinkService.dispose( );2;1;7
+DefaultLinkService.isSecure( );1;0;3
+DefaultLinkService.initBuffer( LinkInfo info , List events , Boolean secure );1;0;3
+DefaultLinkService.getRefreshLinkURI( Boolean secure );4;0;20
+DefaultLinkService.addEvent( StringBuffer buffer , Event event , boolean hasParams );3;0;14
+DefaultLinkService.getLinkURI( List events );1;0;3
+DefaultLinkService.getInfo( );3;2;14
+DefaultLinkService.addParameterToLink( String name , String value );1;0;4
+DefaultLinkService.contextualize( Context context );1;0;3
+DefaultLinkService.service( ServiceManager manager );1;0;4
+DefaultLinkService.addEventToLink( Event event );6;3;22
+DefaultLinkService.getEventsMarshalled( );2;1;6
+DefaultLinkService.addUniqueParameterToLink( String name , String value );1;0;5
+DefaultLinkService.initBuffer( LinkInfo info , Event event , Boolean secure );1;0;3
+DefaultLinkService.getLinkURI( List events , Boolean secure );15;7;50
+DefaultLinkService.encodeURL( String url );1;0;3
+DefaultLinkService.parameterize( Parameters params );1;0;4
+DefaultLinkService.getLinkURI( Event event );1;0;3

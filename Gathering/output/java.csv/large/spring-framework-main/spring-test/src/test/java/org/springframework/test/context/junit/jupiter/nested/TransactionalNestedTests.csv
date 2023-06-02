@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionalNestedTests.assertCommit( );1;0;3
+ConfigOverriddenByDefaultTests.notTransactional( @ Autowired DataSource dataSource );1;0;4
+Config.transactionManager( DataSource dataSource );1;0;3
+TripleNestedWithInheritedConfigTests.transactional( @ Autowired DataSource dataSource );1;0;5
+TransactionalNestedTests.transactional( @ Autowired DataSource dataSource );1;0;5
+TripleNestedWithInheritedConfigAndTestInterfaceTests.notTransactional( @ Autowired DataSource dataSource );1;0;4
+DoubleNestedWithOverriddenConfigTests.transactional( @ Autowired DataSource dataSource );1;0;5
+Config.dataSource( );1;0;3
+TransactionalNestedTests.assertRollback( );1;0;3
+TripleNestedWithImplicitlyInheritedConfigTests.transactional( @ Autowired DataSource dataSource );1;0;5
+InheritedConfigTests.transactional( @ Autowired DataSource dataSource );1;0;5
+DoubleNestedWithImplicitlyInheritedConfigTests.transactional( @ Autowired DataSource dataSource );1;0;5

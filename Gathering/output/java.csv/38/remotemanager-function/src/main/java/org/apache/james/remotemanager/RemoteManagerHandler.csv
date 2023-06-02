@@ -1,0 +1,51 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RemoteManagerHandler.doLISTPROCESSORS( String argument );2;2;8
+RemoteManagerHandler.doUNSETALIAS( String argument );5;3;26
+RemoteManagerHandler.doDELUSER( String argument );5;2;40
+RemoteManagerHandler.doSHOWALIAS( String username );9;8;32
+RemoteManagerHandler.doLISTUSERS( String argument );5;4;23
+RemoteManagerHandler.doRESETBAYESIANDATA( String argument );2;0;16
+RemoteManagerHandler.doSHOWFORWARDING( String username );8;7;32
+RemoteManagerHandler.doADDDOMAIN( String argument );4;1;20
+RemoteManagerHandler.doUSER( String argument );4;3;20
+RemoteManagerHandler.doVERIFY( String argument );4;2;26
+RemoteManagerHandler.doUNSETFORWARDING( String argument );5;3;26
+RemoteManagerHandler.errorHandler( RuntimeException e );2;0;15
+RemoteManagerHandler.doSHUTDOWN( String argument );1;0;5
+RemoteManagerHandler.doIMPORTBAYESIANDATA( String argument );4;2;20
+RemoteManagerHandler.doREMOVEDOMAIN( String argument );4;1;20
+RemoteManagerHandler.doADDHAM( String argument );9;7;32
+RemoteManagerHandler.doADDUSER( String argument );11;11;55
+RemoteManagerHandler.handleProtocol( );8;4;52
+RemoteManagerHandler.doHELP( String argument );1;0;43
+RemoteManagerHandler.doMOVEMAILS( String argument );17;17;50
+RemoteManagerHandler.parseCommand( String rawCommand );7;4;31
+RemoteManagerHandler.mappingAction( String [ ] args , String action );6;2;31
+RemoteManagerHandler.doLISTALLMAPPINGS( String argument );10;8;37
+RemoteManagerHandler.doLISTDOMAINS( String argument );3;1;15
+RemoteManagerHandler.doREMOVEMAPPING( String argument );8;7;22
+RemoteManagerHandler.doADDSPAM( String argument );9;7;32
+RemoteManagerHandler.doQUIT( String argument );1;0;4
+RemoteManagerHandler.doADDMAPPING( String argument );8;7;22
+RemoteManagerHandler.doSETFORWARDING( String argument );10;9;51
+RemoteManagerHandler.getMappingValue( String raw );2;0;7
+RemoteManagerHandler.doLISTMATCHERS( String argument );4;7;14
+RemoteManagerHandler.doFLUSHSPOOL( String argument );14;18;39
+RemoteManagerHandler.doSHOWMATCHERINFO( String argument );5;4;22
+RemoteManagerHandler.doSETPASSWORD( String argument );8;8;37
+RemoteManagerHandler.setProtocolHandlerHelper( ProtocolHandlerHelper phh );1;0;3
+RemoteManagerHandler.doMEMSTAT( String argument );2;0;14
+RemoteManagerHandler.resetHandler( );1;0;4
+RemoteManagerHandler.doLISTMAILETS( String argument );4;7;14
+RemoteManagerHandler.doSHOWMAILETINFO( String argument );5;4;22
+RemoteManagerHandler.extractMailetInfoParameters( String argument , String commandHelp );7;10;23
+RemoteManagerHandler.doLISTSPOOL( String argument );16;20;39
+RemoteManagerHandler.processorExists( String name );1;0;5
+RemoteManagerHandler.doCOUNTUSERS( String argument );3;2;14
+RemoteManagerHandler.doSETALIAS( String argument );10;10;49
+RemoteManagerHandler.doLISTMAPPING( String argument );13;10;53
+RemoteManagerHandler.doEXPORTBAYESIANDATA( String argument );4;2;20
+RemoteManagerHandler.doDELETESPOOL( String argument );15;18;42
+RemoteManagerHandler.setConfigurationData( Object theData );2;0;10
+RemoteManagerHandler.doUnknownCommand( String argument );1;0;4
+RemoteManagerHandler.getDomainUserList( String domain );3;0;10

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EvaluationContextProxy.isLinkActive( OLink olink );1;0;3
+EvaluationContextProxy.getRootNode( );1;0;3
+ASSIGN.run( );16;8;43
+ASSIGN.copy( OAssign . Copy ocopy );32;18;102
+ASSIGN.fetchVariableData( VariableInstance variable , boolean forWriting );3;0;10
+EvaluationContextProxy.narrowTypes( );1;0;3
+ASSIGN.replaceEndpointRefence( PartnerLinkInstance plval , Node rvalue );6;8;18
+ASSIGN.getOAsssign( );1;0;3
+ASSIGN.log( );1;0;3
+EvaluationContextProxy.EvaluationContextProxy( OScope . Variable var , Node varNode );1;0;5
+EvaluationContextProxy.getPartData( Element message , OMessageVarType . Part part );1;0;3
+EvaluationContextProxy.readMessageProperty( OScope . Variable variable , OProcess . OProperty property );1;0;3
+ASSIGN.replaceContent( Node lvalue , Node lvaluePtr , String rvalue );13;6;43
+ASSIGN.invokeExtensionAssignOperation( OAssign . ExtensionAssignOperation eao );5;1;21
+ASSIGN.evalRValue( OAssign . RValue from );38;27;121
+EvaluationContextProxy.getProcessId( );1;0;3
+ASSIGN.replaceElement( Element lval , Element ptr , Element src , boolean keepSrcElement );9;9;30
+ASSIGN.evalLValue( OAssign . LValue to );5;4;21
+EvaluationContextProxy.evaluateQuery( Node root , OExpression expr );1;0;4
+EvaluationContextProxy.getBaseResourceURI( );1;0;3
+ASSIGN.evalQuery( Node data , OMessageVarType . Part part , OExpression expression , EvaluationContext ec );10;12;26
+EvaluationContextProxy.readVariable( OScope . Variable variable , OMessageVarType . Part part );3;1;7
+ASSIGN.copyInto( Element lval , Element ptr , Element src );1;0;4
+ASSIGN.ASSIGN( ActivityInfo self , ScopeFrame scopeFrame , LinkFrame linkFrame );1;0;3

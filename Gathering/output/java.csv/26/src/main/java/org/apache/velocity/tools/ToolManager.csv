@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ToolManager.findConfig( String path );1;0;3
+ToolManager.getToolboxFactory( );1;0;3
+ToolManager.autoConfigure( boolean includeDefaults );2;1;10
+ToolManager.getApplicationToolbox( );3;2;7
+ToolManager.setVelocityEngine( VelocityEngine engine );2;1;7
+ToolManager.createContext( );1;0;3
+ToolManager.configure( String path );2;1;11
+ToolManager.ToolManager( );1;0;3
+ToolManager.setToolboxFactory( ToolboxFactory factory );3;2;11
+ToolManager.prepareContext( ToolContext context );2;1;7
+ToolManager.addToolboxes( ToolContext context );3;0;10
+ToolManager.hasTools( String scope );1;0;3
+ToolManager.hasRequestTools( );1;0;3
+ToolManager.getVelocityEngine( );1;0;3
+ToolManager.createToolbox( String scope );1;0;3
+ToolManager.getRequestToolbox( );1;0;3
+ToolManager.ToolManager( boolean autoConfig , boolean includeDefaults );2;0;7
+ToolManager.getLog( );2;1;7
+ToolManager.hasApplicationTools( );1;0;3
+ToolManager.configure( FactoryConfiguration config );1;0;4
+ToolManager.ToolManager( boolean includeDefaults );1;0;3
+ToolManager.createContext( Map < String , Object > toolProps );1;0;5
+ToolManager.debug( String msg , Object ... args );3;2;7

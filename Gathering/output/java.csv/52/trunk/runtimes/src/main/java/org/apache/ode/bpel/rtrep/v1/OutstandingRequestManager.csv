@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OutstandingRequestManager.findConflict( Selector selectors [ ] );5;3;17
+RequestIdTuple.RequestIdTuple( PartnerLinkInstance partnerLink , String opName , String mexId );2;1;5
+RequestIdTuple.hashCode( );1;2;3
+OutstandingRequestManager.release( PartnerLinkInstance plinkInstnace , String opName , String mexId );6;1;19
+OutstandingRequestManager.releaseAll( );4;1;12
+OutstandingRequestManager.cancel( String pickResponseChannel );3;1;10
+OutstandingRequestManager.register( String pickResponseChannel , Selector selectors [ ] );6;0;27
+Entry.Entry( String pickResponseChannel , Selector [ ] selectors );1;0;4
+Entry.toString( );1;0;7
+***not in a method***;0;3;0
+RequestIdTuple.equals( Object obj );3;2;6
+OutstandingRequestManager.associate( String pickResponseChannel , String mexRef );4;2;19
+OutstandingRequestManager.toString( );1;0;6
+RequestIdTuple.toString( );1;0;7

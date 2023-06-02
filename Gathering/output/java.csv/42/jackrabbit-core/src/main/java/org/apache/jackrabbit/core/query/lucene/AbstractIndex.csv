@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractIndex.getTermVectorParameter( Fieldable f );6;1;13
+AbstractIndex.setTermInfosIndexDivisor( int termInfosIndexDivisor );1;0;3
+LoggingPrintStream.LoggingPrintStream( );1;0;6
+AbstractIndex.setMinMergeDocs( int minMergeDocs );2;1;6
+AbstractIndex.setUseCompoundFile( boolean b );2;1;6
+AbstractIndex.isExisting( );1;0;3
+AbstractIndex.commit( );1;0;3
+AbstractIndex.getReadOnlyIndexReader( );1;0;3
+LoggingPrintStream.write( int b );1;0;2
+AbstractIndex.getIndexWriter( );3;2;21
+AbstractIndex.addDocuments( Document [ ] docs );7;7;37
+AbstractIndex.AbstractIndex( Analyzer analyzer , Similarity similarity , Directory directory , DocNumberCache cache , IndexingQueue indexingQueue );2;1;13
+LoggingPrintStream.println( String s );1;0;5
+AbstractIndex.close( );3;1;10
+AbstractIndex.getReadOnlyIndexReader( boolean initCache );7;6;35
+AbstractIndex.commit( boolean optimize );4;2;16
+AbstractIndex.getStoreParameter( Fieldable f );3;0;9
+AbstractIndex.getDirectory( );1;0;3
+AbstractIndex.getRamSizeInBytes( );2;1;7
+AbstractIndex.getIndexParameter( Fieldable f );3;1;9
+AbstractIndex.getIndexReader( );3;2;13
+AbstractIndex.getFinishedDocument( Document doc );9;6;33
+AbstractIndex.setMaxFieldLength( int maxFieldLength );2;1;6
+AbstractIndex.releaseWriterAndReaders( );9;4;34
+AbstractIndex.removeDocument( Term idTerm );1;0;3
+AbstractIndex.call( );1;1;5
+AbstractIndex.getTermInfosIndexDivisor( );1;0;3
+AbstractIndex.setMaxMergeDocs( int maxMergeDocs );2;1;6
+LoggingPrintStream.print( String s );1;0;3
+AbstractIndex.invalidateSharedReader( );3;2;10
+AbstractIndex.setMergeFactor( int mergeFactor );2;1;6

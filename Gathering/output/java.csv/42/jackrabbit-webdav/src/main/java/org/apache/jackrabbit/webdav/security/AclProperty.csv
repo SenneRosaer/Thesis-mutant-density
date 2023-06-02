@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Ace.isDeny( );1;1;3
+AclProperty.createFromXml( Element aclElement );3;1;12
+AclProperty.AclProperty( Ace [ ] accessControlElements );2;1;3
+Ace.getPrivileges( );1;0;3
+Ace.toXml( Document document );6;3;21
+Ace.getInheritedHref( );1;0;3
+Ace.Ace( Principal principal , boolean invert , Privilege [ ] privileges , boolean grant , boolean isProtected , String inheritedHref );4;4;14
+AclProperty.AclProperty( List aces );1;0;4
+Ace.isProtected( );1;0;3
+AclProperty.getValue( );1;0;3
+Ace.createFromXml( Element aceElement );5;0;33
+Ace.Ace( Principal principal , boolean invert , Privilege [ ] privileges , boolean grant , boolean isProtected , AclResource inherited );2;1;4
+Ace.isInvert( );1;0;3
+Ace.isGrant( );1;0;3
+AclProperty.createDenyAce( Principal principal , Privilege [ ] privileges , boolean invert , boolean isProtected , AclResource inheritedFrom );1;0;4
+AclProperty.createGrantAce( Principal principal , Privilege [ ] privileges , boolean invert , boolean isProtected , AclResource inheritedFrom );1;0;4
+Ace.getPrincipal( );1;0;3

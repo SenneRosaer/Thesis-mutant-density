@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServerNode.setProperty( String name , Value value );2;0;7
+ServerNode.getNodes( );2;0;7
+ServerNode.hasNodes( );2;0;7
+ServerNode.getPrimaryItem( );2;0;7
+ServerNode.setProperty( String name , Value value , int type );3;1;12
+ServerNode.restore( String versionUUID , String path , boolean removeExisting );2;0;7
+ServerNode.removeMixin( String name );2;0;7
+ServerNode.hasProperties( );2;0;7
+ServerNode.getNode( String path );2;0;7
+ServerNode.holdsLock( );2;0;7
+ServerNode.update( String workspace );2;0;7
+ServerNode.getIndex( );2;0;7
+ServerNode.getCorrespondingNodePath( String workspace );2;0;7
+ServerNode.doneMerge( String versionUUID );2;0;7
+ServerNode.isLocked( );2;0;7
+ServerNode.canAddMixin( String name );2;0;7
+ServerNode.isNodeType( String type );2;0;7
+ServerNode.getDefinition( );2;0;7
+ServerNode.getPrimaryNodeType( );2;0;7
+ServerNode.getUUID( );2;0;7
+ServerNode.getProperties( );2;0;7
+ServerNode.lock( boolean isDeep , boolean isSessionScoped );2;0;8
+ServerNode.addNode( String path );2;0;7
+ServerNode.getLock( );2;0;7
+ServerNode.setProperty( String name , Value [ ] values , int type );2;0;8
+ServerNode.getProperty( String path );2;0;7
+ServerNode.getBaseVersion( );2;0;7
+ServerNode.orderBefore( String src , String dst );2;0;7
+ServerNode.getNodes( String pattern );2;0;7
+ServerNode.hasProperty( String path );2;0;7
+ServerNode.isCheckedOut( );2;0;7
+ServerNode.cancelMerge( String versionUUID );2;0;7
+ServerNode.checkout( );2;0;7
+ServerNode.addNode( String path , String type );2;0;7
+ServerNode.unlock( );2;0;7
+ServerNode.hasNode( String path );2;0;7
+ServerNode.merge( String workspace , boolean bestEffort );2;0;7
+ServerNode.getVersionHistory( );2;0;7
+ServerNode.getReferences( );2;0;7
+ServerNode.checkin( );2;0;7
+ServerNode.setProperty( String name , Value [ ] values );3;1;12
+ServerNode.restoreByUUID( String versionUUID , boolean removeExisting );2;0;7
+ServerNode.addMixin( String name );2;0;7
+ServerNode.getMixinNodeTypes( );2;0;7
+ServerNode.ServerNode( Node node , RemoteAdapterFactory factory );1;0;4
+ServerNode.getVersionByUUID( String versionUUID );2;0;8
+ServerNode.restoreByLabel( String label , boolean removeExisting );2;0;7
+ServerNode.restore( String version , boolean removeExisting );2;0;7
+ServerNode.getProperties( String pattern );2;0;7

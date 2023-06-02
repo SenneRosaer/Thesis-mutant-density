@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractJMSFlow.canHandle( MessageExchange me );2;0;6
+AbstractJMSFlow.onMessage( Message message );6;3;19
+AbstractJMSFlow.stop( );4;0;16
+AbstractJMSFlow.getPassword( );1;0;3
+AbstractJMSFlow.getJmsURL( );1;0;3
+AbstractJMSFlow.setJmsURL( String jmsURL );1;0;3
+AbstractJMSFlow.onInternalEndpointUnregistered( EndpointEvent event , boolean broadcast );4;1;14
+AbstractJMSFlow.onComponentStopped( ComponentEvent event );3;1;11
+AbstractJMSFlow.getUserName( );1;0;3
+AbstractJMSFlow.onRemoteEndpointRegistered( EndpointEvent event );1;1;4
+AbstractJMSFlow.start( );13;3;48
+AbstractJMSFlow.doSend( MessageExchangeImpl me );1;0;3
+AbstractJMSFlow.setUserName( String userName );1;0;3
+AbstractJMSFlow.doRouting( MessageExchangeImpl me );11;15;42
+AbstractJMSFlow.shutDown( );3;1;13
+AbstractJMSFlow.removeAllPackets( String containerName );1;0;2
+AbstractJMSFlow.numberInNetwork( );1;0;3
+AbstractJMSFlow.stopConsumerMonitor( );1;0;3
+AbstractJMSFlow.removeClusterNode( String connectionId );1;0;4
+AbstractJMSFlow.broadcast( EndpointEvent event );2;1;15
+AbstractJMSFlow.run( );3;1;14
+AbstractJMSFlow.addClusterNode( String connectionId );4;3;10
+AbstractJMSFlow.setPassword( String password );1;0;3
+AbstractJMSFlow.getConnectionFactory( );1;0;3
+AbstractJMSFlow.onComponentStarted( ComponentEvent event );4;3;17
+AbstractJMSFlow.init( Broker broker );4;3;42
+AbstractJMSFlow.onRemoteEndpointUnregistered( EndpointEvent event );1;1;4
+AbstractJMSFlow.internalEndpointRegistered( EndpointEvent event );1;0;3
+AbstractJMSFlow.internalEndpointUnregistered( EndpointEvent event );1;0;3
+AbstractJMSFlow.getDescription( );1;0;3
+AbstractJMSFlow.onMessage( final Message message );6;2;26
+AbstractJMSFlow.setConnectionFactory( ConnectionFactory connectionFactory );1;0;3
+AbstractJMSFlow.setBroadcastDestinationName( String broadcastDestinationName );1;0;3
+AbstractJMSFlow.componentStarted( ComponentEvent event );1;0;3
+AbstractJMSFlow.getBroadcastDestinationName( );1;0;3
+AbstractJMSFlow.onInternalEndpointRegistered( EndpointEvent event , boolean broadcast );5;3;20
+AbstractJMSFlow.componentStopped( ComponentEvent event );1;0;3

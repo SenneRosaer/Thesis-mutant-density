@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JMXWriter.outputNames( ObjectName name );2;0;17
+JMXWriter.outputHtmlNamesSortedByShortName( Collection names );3;0;14
+JMXWriter.outputDetail( Set names );2;0;5
+JMXWriter.getAttributeValue( ObjectName name , String attributeName );4;0;17
+JMXWriter.outputNames( Collection names );2;0;5
+JMXWriter.outputDetail( ObjectName name );4;3;27
+JMXWriter.outputHtmlAttributes( Set names );3;1;10
+JMXWriter.JMXWriter( PrintWriter writer , ManagementContext context );1;0;4
+JMXWriter.outputHtmlNamesByDomain( Collection names );4;1;24
+JMXWriter.printEncodedObjectName( ObjectName name );1;0;3
+JMXWriter.outputHtmlNamesByProperty( Collection names , String property );7;4;35
+JMXWriter.outputMBeans( Collection names );2;0;5
+JMXWriter.outputHtmlProperties( ObjectName name );4;2;26
+JMXWriter.getMBeanServer( );1;0;3
+JMXWriter.getShortName( ObjectName name );2;2;8
+JMXWriter.outputMBeans( ObjectName name );3;1;14
+JMXWriter.outputHtmlNames( ObjectName name );1;0;3
+JMXWriter.setManagementContext( ManagementContext managementContext );1;0;3
+JMXWriter.outputHtmlAttributes( ObjectName name );4;3;26
+JMXWriter.getManagementContext( );1;0;3
+JMXWriter.printDetailURL( String propertyName , String propertyValue );1;0;4
+JMXWriter.outputHtmlProperties( Set names );3;1;9
+JMXWriter.printEncodedValue( Object value );9;3;30
+JMXWriter.outputHtmlAttributeGrid( Set names );9;5;54
+JMXWriter.outputFooter( );1;0;3
+JMXWriter.printDetailURL( ObjectName name );1;0;4
+JMXWriter.outputHtmlNames( Collection names );2;0;5
+JMXWriter.outputHtmlName( ObjectName name , String shortName );1;0;7
+JMXWriter.outputHtmlPropertiesGrid( Set names );7;3;44
+JMXWriter.outputHeader( );1;0;4

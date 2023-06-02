@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletResponseImpl.isCommitted( );1;0;3
+MyOutputStream.write( int b );1;0;3
+ServletResponseImpl.reset( );2;1;5
+MyOutputStream.flush( );1;0;4
+MyOutputStream.MyOutputStream( );1;0;2
+ServletResponseImpl.setContentType( String typeInfo );3;4;8
+ServletResponseImpl.setLocale( Locale locale );1;0;2
+ServletResponseImpl.setStatus( int arg0 );1;0;2
+ServletResponseImpl.resetBuffer( );1;0;2
+ServletResponseImpl.sendError( int arg0 );1;0;2
+ServletResponseImpl.sendRedirect( String arg0 );1;0;3
+ServletResponseImpl.getContent( );4;1;18
+ServletResponseImpl.setCharacterEncoding( String enc );1;0;3
+ServletResponseImpl.toString( );1;0;3
+ServletResponseImpl.getWriter( );2;1;6
+ServletResponseImpl.getBufferSize( );1;0;3
+ServletResponseImpl.getOutputStream( );1;0;3
+ServletResponseImpl.setStatus( int arg0 , String arg1 );1;0;2
+ServletResponseImpl.flushBuffer( );1;0;3
+ServletResponseImpl.setContentLength( int arg0 );1;0;2
+ServletResponseImpl.setBufferSize( int arg0 );1;0;3
+ServletResponseImpl.sendError( int arg0 , String arg1 );1;0;2
+ServletResponseImpl.ServletResponseImpl( HttpServletResponse response );1;0;4
+ServletResponseImpl.getRedirectURL( );1;0;3

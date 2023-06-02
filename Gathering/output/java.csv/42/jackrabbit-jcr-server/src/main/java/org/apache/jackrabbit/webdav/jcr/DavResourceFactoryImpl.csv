@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DavResourceFactoryImpl.DavResourceFactoryImpl( TxLockManagerImpl txMgr , SubscriptionManager subsMgr );1;0;4
+DavResourceFactoryImpl.createResource( DavResourceLocator locator , DavSession session );5;0;22
+DavResourceFactoryImpl.createResourceForItem( DavResourceLocator locator , JcrDavSession sessionImpl );4;0;16
+DavResourceFactoryImpl.createResource( DavResourceLocator locator , DavServletRequest request , DavServletResponse response );13;5;39
+DavResourceFactoryImpl.getItem( JcrDavSession sessionImpl , DavResourceLocator locator );1;0;3
+DavResourceFactoryImpl.isVersionControlled( DavResource resource );3;1;11

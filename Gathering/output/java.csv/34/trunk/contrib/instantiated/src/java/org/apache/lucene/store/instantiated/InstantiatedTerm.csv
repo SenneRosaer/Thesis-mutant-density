@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InstantiatedTerm.getTermIndex( );1;0;3
+InstantiatedTerm.getAssociatedDocuments( );1;0;3
+InstantiatedTerm.binarySearchAssociatedDocuments( int target , int offset );1;1;3
+InstantiatedTerm.seekCeilingDocumentInformationIndex( int target , int startOffset );1;0;3
+InstantiatedTerm.binarySearchAssociatedDocuments( int target );1;0;3
+InstantiatedTerm.setTermIndex( int termIndex );1;0;3
+InstantiatedTerm.seekCeilingDocumentInformationIndex( int target );1;0;3
+InstantiatedTerm.compare( Object o , Object o1 );1;0;3
+InstantiatedTerm.binarySearchAssociatedDocuments( int target , int offset , int length );10;30;33
+InstantiatedTerm.setAssociatedDocuments( InstantiatedTermDocumentInformation [ ] associatedDocuments );1;0;3
+InstantiatedTerm.InstantiatedTerm( String field , String text );1;0;3
+InstantiatedTerm.toString( );1;0;3
+InstantiatedTerm.getTerm( );1;0;3
+InstantiatedTerm.getAssociatedDocument( int documentNumber );2;1;4
+InstantiatedTerm.compare( InstantiatedTerm instantiatedTerm , InstantiatedTerm instantiatedTerm1 );1;0;3
+InstantiatedTerm.text( );1;0;3
+InstantiatedTerm.seekCeilingDocumentInformationIndex( int target , int startOffset , int endPosition );3;6;11
+InstantiatedTerm.field( );1;0;3

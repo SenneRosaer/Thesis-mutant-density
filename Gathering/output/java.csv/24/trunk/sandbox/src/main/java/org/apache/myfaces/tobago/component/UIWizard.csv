@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UIWizard.setOutcome( String outcome );1;0;3
+UIWizard.encodeEnd( FacesContext facesContext );2;1;6
+UIWizard.setController( Wizard controller );1;0;3
+UIWizard.encodeBegin( FacesContext facesContext );2;1;6
+UIWizard.setVar( String var );1;0;3
+UIWizard.onComponentCreated( FacesContext context , UIComponent component );3;2;10
+UIWizard.decode( FacesContext facesContext );2;1;6
+UIWizard.saveState( FacesContext facesContext );1;0;7
+UIWizard.queueEvent( FacesEvent event );1;0;3
+UIWizard.getVar( );1;0;3
+UIWizard.restoreState( FacesContext facesContext , Object state );1;0;6
+UIWizard.getController( );3;2;11
+UIWizard.getTitle( );3;2;10
+UIWizard.getOutcome( );3;2;10
+UIWizard.setAllowJumpForward( Boolean allowJumpForward );1;0;3
+UIWizard.isAllowJumpForward( );4;3;13
+UIWizard.broadcast( FacesEvent event );4;2;15
+UIWizard.processDecodes( FacesContext facesContext );2;1;6
+UIWizard.setTitle( String title );1;0;3

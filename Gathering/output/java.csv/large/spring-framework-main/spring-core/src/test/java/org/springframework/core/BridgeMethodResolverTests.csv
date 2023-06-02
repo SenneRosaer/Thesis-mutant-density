@@ -1,0 +1,130 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StringList.size( );1;0;3
+ExternalMessageProvider.findBy( T conditions );1;0;3
+BusinessDao.get( Long id );1;0;3
+MyBar.someMethod( Integer theArg , Object otherArg );1;0;2
+BridgeMethodResolverTests.findBridgedMethodFromMultipleBridges( );1;0;10
+MyBoo.foo( Integer t );1;0;3
+AbstractDaoImpl.AbstractDaoImpl( T object , S otherObject );1;0;4
+MyBar.someMethod( String theArg , Object otherArg );1;0;2
+Bar.someMethod( T theArg , Map < ? , ? > m );1;0;2
+MyBoo.foo( String e );1;0;3
+StringList.add( int index , String element );1;0;3
+StringList.add( String o );1;0;3
+GenericHibernateRepository.saveOrUpdate( T entity );1;0;3
+BridgeMethodResolverTests.spr3357( );1;0;9
+ExtendsReallyDeepNow.someMethod( Integer s , String t , Long r );1;0;3
+SettableRepositoryRegistry.setRepos( R ... reps );1;0;2
+StringList.set( int index , String element );1;0;3
+StringList.subList( int fromIndex , int toIndex );1;0;3
+StringList.isEmpty( );1;0;3
+AbstractImplementsInterface.doSomething( D domainObject , T value );1;0;2
+Bar.someMethod( Map < ? , ? > m , Object otherArg );1;0;2
+BridgeMethodResolverTests.findMethodWithReturnType( String name , Class < ? > returnType , Class < SettingsDaoImpl > targetType );4;1;9
+GenericHibernateRepository.setPersistentClass( Class < T > c );1;0;2
+BridgeMethodResolverTests.onAllMethods( );2;0;6
+StringList.addAll( int index , Collection < ? extends String > c );1;0;3
+MessageBroadcasterImpl.receive( ModifiedMessageEvent event );1;0;2
+BusinessDao.save( Business < ? > business );1;0;2
+SettableRepositoryRegistry.injectInto( R rep );1;0;2
+StringList.remove( Object o );1;0;3
+StringList.clear( );1;0;3
+DomainObject.method1( ParameterType p );1;0;3
+GenericHibernateRepository.findById( ID id , boolean lock );1;0;3
+SettableRepositoryRegistry.getFor( Class < T > entityType );1;0;3
+SettingsDaoImpl.load( );1;0;3
+StringList.contains( Object o );1;0;3
+GenericEvent.GenericEvent( int priority );1;0;3
+StringList.lastIndexOf( Object o );1;0;3
+StringList.addAll( Collection < ? extends String > c );1;0;3
+SerializableBounded.boundedOperation( E myE );1;0;3
+MegaMessageProducerImpl.receive( MegaMessageEvent event );1;0;3
+StringList.get( int index );1;0;3
+GenericSqlMapIntegerDao.saveOrUpdate( T t );1;0;2
+MyFoo.someVarargMethod( String theArg , Object ... otherArgs );1;0;2
+BridgeMethodResolverTests.findBridgedMethodFromParent( );1;0;7
+GenericEventBroadcasterImpl.setChannel( Channel channel );1;0;3
+MegaMessageProducerImpl.receive( ModifiedMegaMessageEvent event );1;0;3
+TestEmailProvider.findBy( EmailSearchConditions conditions );1;0;3
+MegaMessageProducerImpl.receive( NewMegaMessageEvent event );1;0;3
+SettableRepositoryRegistry.afterPropertiesSet( );1;0;2
+BaseClass.test( S T );1;0;3
+AbstractDomainObject.method1( P p );1;0;3
+AbstractDao.saveVararg( T t , Object ... args );1;0;2
+StringList.retainAll( Collection < ? > c );1;0;3
+GenericEventBroadcasterImpl.GenericEventBroadcasterImpl( Class < ? extends T > ... events );1;0;2
+BridgeMethodResolverTests.spr3534( );2;2;7
+BridgeMethodResolverTests.spr3304( );1;0;7
+AbstractImplementsInterface.anotherBaseMethod( );1;0;2
+MessageBroadcasterImpl.getInstance( );1;0;3
+MessageBroadcasterImpl.MessageBroadcasterImpl( );1;0;3
+GenericHibernateRepository.findByExample( T exampleInstance );1;0;3
+AbstractDomainObject.method2( P p , R r );1;0;2
+StringList.toArray( );1;0;3
+HibernateRepositoryRegistry.getFor( Class < T > entityType );1;0;3
+MyHomer.foo( L t );1;0;3
+StringGenericParameter.getFor( Integer integer );1;0;3
+BusinessGenericDao.save( T object );1;0;2
+AbstractDaoImpl.loadFromParent( );1;0;3
+BridgeMethodResolverTests.findBridgedMethodInHierarchy( );1;0;9
+GenericHibernateRepository.findAll( );1;0;3
+BridgeMethodResolverTests.testClassHierarchy( );1;0;3
+BridgeMethodResolverTests.doTestHierarchyResolution( Class < ? > clazz );2;0;7
+StringList.indexOf( Object o );1;0;3
+GenericSqlMapDao.saveOrUpdate( T t );1;0;3
+BridgeMethodResolverTests.withDoubleBoundParameterizedOnInstantiate( );1;0;7
+StringList.listIterator( int index );1;0;3
+GenericEventBroadcasterImpl.setBeanName( String name );1;0;3
+BridgeMethodResolverTests.spr2583( );1;0;11
+BridgeMethodResolverTests.findBridgedVarargMethod( );1;0;8
+GenericHibernateRepository.delete( Collection < T > entities );1;0;2
+DateAdder.add( Date date );1;0;2
+BridgeMethodResolverTests.spr2648( );2;2;7
+GenericEvent.getPriority( );1;0;3
+MessageBroadcasterImpl.receive( RemovedMessageEvent event );1;0;2
+HibernateRepositoryRegistry.injectInto( GenericHibernateRepository < ? , ? > rep );1;0;2
+MyFoo.someMethod( Integer theArg , Object otherArg );1;0;2
+BridgeMethodResolverTests.testInterfaceHierarchy( );1;0;3
+GenericEventBroadcasterImpl.unsubscribe( );1;0;2
+SettableRepositoryRegistry.register( R ... reps );1;0;2
+FooClass.test( S T );1;0;3
+BridgeMethodResolverTests.spr2763( );1;0;7
+GenericHibernateRepository.findByQuery( );1;0;3
+MyFoo.someMethod( String theArg , Object otherArg );1;0;2
+MessageBroadcasterImpl.receive( MessageEvent event );1;0;3
+BridgeMethodResolverTests.isBridgeMethodFor( );1;0;7
+BridgeMethodResolverTests.spr3041( );1;0;7
+UserDaoImpl.save( Permission perm );1;0;2
+UserDaoImpl.saveVararg( User user , Object ... args );1;0;2
+AbstractDao.save( T t );1;0;2
+BridgeMethodResolverTests.spr3173( );1;0;7
+BridgeMethodResolverTests.spr3485( );1;0;9
+GenericHibernateRepository.getPersistentClass( );1;0;3
+StringList.removeAll( Collection < ? > c );1;0;3
+DomainObject.method2( ParameterType p , byte [ ] r );1;0;3
+BridgeMethodResolverTests.withSingleBoundParameterizedOnInstantiate( );1;0;7
+SettableRepositoryRegistry.register( R rep );1;0;2
+SettingsDaoImpl.SettingsDaoImpl( ConcreteSettings object );1;0;3
+StringList.iterator( );1;0;3
+GenericHibernateRepository.delete( ID id );1;0;2
+GenericHibernateRepository.refresh( T entity );1;0;3
+BridgeMethodResolverTests.spr3324( );1;0;7
+StringList.containsAll( Collection < ? > c );1;0;3
+ExtendsAbstractImplementsInterface.doSomething( DomainObjectExtendsSuper domainObject , T value );1;0;3
+AbstractBounded.boundedOperation( E myE );1;0;3
+ReallyDeepNow.someMethod( S s , T t , R r );1;0;2
+StringList.remove( int index );1;0;3
+BusinessDao.get( String code );1;0;3
+StringList.toArray( T [ ] a );1;0;3
+GenericEvent.GenericEvent( );1;0;2
+BridgeMethodResolverTests.doubleParameterization( );1;0;8
+StringGenericParameter.getFor( Class < String > cls );1;0;3
+YourHomer.foo( L t );1;0;3
+MessageBroadcasterImpl.receive( NewMessageEvent event );1;0;2
+GenericEventBroadcasterImpl.subscribe( );1;0;2
+EntityClass.test( S T );1;0;3
+BridgeMethodResolverTests.withGenericParameter( );7;7;19
+BridgeMethodResolverTests.spr2603( );1;0;6
+GenericHibernateRepository.delete( T entity );1;0;2
+StringList.listIterator( );1;0;3
+BridgeMethodResolverTests.findBridgedMethod( );1;0;8

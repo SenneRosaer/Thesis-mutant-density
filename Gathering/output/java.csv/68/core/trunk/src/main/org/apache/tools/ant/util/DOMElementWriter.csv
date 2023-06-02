@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMElementWriter.encode( String value );10;6;36
+DOMElementWriter.addNSDefinition( Element element , String uri );2;1;8
+DOMElementWriter.write( Element root , OutputStream out );1;0;6
+XmlNamespacePolicy.XmlNamespacePolicy( boolean qualifyElements , boolean qualifyAttributes );1;0;4
+DOMElementWriter.writeXMLDeclaration( Writer wri );2;0;5
+DOMElementWriter.openElement( Element element , Writer out , int indent , String indentWith , boolean hasChildren );13;13;68
+DOMElementWriter.isReference( String ent );9;11;29
+DOMElementWriter.closeElement( Element element , Writer out , int indent , String indentWith , boolean hasChildren );6;5;21
+DOMElementWriter.removeNSDefinitions( Element element );3;1;10
+DOMElementWriter.openElement( Element element , Writer out , int indent , String indentWith );1;0;3
+DOMElementWriter.DOMElementWriter( boolean xmlDeclaration , XmlNamespacePolicy namespacePolicy );1;0;4
+DOMElementWriter.DOMElementWriter( boolean xmlDeclaration );1;0;3
+DOMElementWriter.write( Element element , Writer out , int indent , String indentWith );12;8;50
+DOMElementWriter.getNamespaceURI( Node n );2;1;7
+DOMElementWriter.DOMElementWriter( );1;0;2
+DOMElementWriter.isLegalCharacter( char c );8;9;14
+DOMElementWriter.encodedata( final String value );4;5;20

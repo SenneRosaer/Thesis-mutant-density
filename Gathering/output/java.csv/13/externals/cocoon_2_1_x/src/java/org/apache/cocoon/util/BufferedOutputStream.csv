@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BufferedOutputStream.BufferedOutputStream( final OutputStream out , final int flushBufferSize );1;0;3
+BufferedOutputStream.isResettable( );1;1;3
+BufferedOutputStream.BufferedOutputStream( final OutputStream out , final int flushBufferSize , final int initialBufferSize );6;8;14
+BufferedOutputStream.reset( );1;0;3
+BufferedOutputStream.BufferedOutputStream( final OutputStream out );1;0;3
+BufferedOutputStream.write( final int b );2;3;8
+BufferedOutputStream.increaseBuffer( final int increase );6;9;23
+BufferedOutputStream.flush( );2;1;7
+BufferedOutputStream.getCount( );1;0;3
+BufferedOutputStream.checkForFlush( );2;1;5
+BufferedOutputStream.write( final byte [ ] b , final int off , final int len );4;10;20
+BufferedOutputStream.writeToBuffer( final byte [ ] b , final int off , final int len );1;2;6
+BufferedOutputStream.clearBuffer( );1;1;4
+BufferedOutputStream.close( );1;0;4

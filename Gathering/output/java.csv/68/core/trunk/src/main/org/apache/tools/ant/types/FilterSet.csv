@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OnMissing.OnMissing( String value );1;0;3
+FilterSet.getRef( );1;0;3
+FilterSet.addConfiguredFilterSet( FilterSet filterSet );3;0;8
+Filter.setToken( String token );1;0;3
+FilterSet.isRecurse( );1;0;3
+FilterSet.replaceTokens( String line , String parent );11;19;36
+FilterSet.createFiltersfile( );2;0;6
+FilterSet.addFilter( Filter filter );2;0;7
+FilterSet.getBeginToken( );2;0;6
+FilterSet.setOnMissingFiltersFile( OnMissing onMissingFiltersFile );1;0;3
+Filter.getToken( );1;0;3
+FilterSet.getFilters( );4;3;15
+FilterSet.iReplaceTokens( String line );8;15;45
+FilterSet.FilterSet( FilterSet filterset );1;0;4
+Filter.getValue( );1;0;3
+FilterSet.clone( );3;0;13
+FilterSet.replaceTokens( String line );1;0;3
+FilterSet.handleMissingFile( String message );4;0;13
+FilterSet.setBeginToken( String startOfToken );4;2;9
+Filter.setValue( String value );1;0;3
+FilterSet.FilterSet( );1;0;2
+FiltersFile.FiltersFile( );1;0;2
+FilterSet.getFilterHash( );4;1;14
+FilterSet.getOnMissingFiltersFile( );1;0;3
+OnMissing.OnMissing( );1;0;2
+FilterSet.hasFilters( );1;1;3
+FilterSet.setRecurse( boolean recurse );1;0;3
+Filter.Filter( );1;0;2
+OnMissing.getValues( );1;0;3
+Filter.Filter( String token , String value );1;0;4
+FilterSet.setEndToken( String endOfToken );4;2;9
+FilterSet.addFilter( String token , String value );2;0;6
+FilterSet.readFiltersFromFile( File filtersFile );6;1;35
+FiltersFile.setFile( File file );1;0;3
+FilterSet.setFiltersfile( File filtersFile );2;0;6
+FilterSet.getEndToken( );2;0;6

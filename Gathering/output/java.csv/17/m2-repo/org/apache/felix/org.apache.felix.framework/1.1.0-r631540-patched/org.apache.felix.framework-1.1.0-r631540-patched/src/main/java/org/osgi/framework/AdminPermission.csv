@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+***not in a method***;0;8;0
+AdminPermission.createActionString( int mask );11;20;53
+AdminPermission.createName( Bundle bundle );1;0;7
+AdminPermission.AdminPermission( Bundle bundle , String actions );1;0;4
+AdminPermission.parseActions( String actions );13;10;54
+AdminPermission.newPermissionCollection( );1;0;3
+AdminPermissionCollection.implies( Permission permission );4;1;14
+AdminPermission.getBundleDictionary( );4;3;30
+AdminPermission.AdminPermission( );1;0;3
+AdminPermission.run( );1;0;5
+AdminPermission.implies( Permission p );9;7;36
+AdminPermissionCollection.add( Permission permission );5;4;26
+AdminPermission.getActions( );2;1;7
+AdminPermission.createSigner( Bundle bundle , Dictionary dict );3;1;17
+AdminPermission.AdminPermission( String filter , String actions );3;2;4
+AdminPermissionCollection.elements( );1;0;3
+AdminPermission.AdminPermission( String filter , int actionMask );3;2;4
+AdminPermission.equals( Object obj );4;4;12
+AdminPermission.hashCode( );1;1;3

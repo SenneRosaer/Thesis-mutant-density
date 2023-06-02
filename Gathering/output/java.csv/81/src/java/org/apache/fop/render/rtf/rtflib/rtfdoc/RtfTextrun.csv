@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RtfOpenGroupMark.RtfOpenGroupMark( RtfContainer parent , Writer w , RtfAttributes attr );1;0;3
+RtfTextrun.addHyperlink( RtfAttributes attr );1;0;3
+RtfTextrun.addLeader( RtfAttributes attrs );1;0;3
+RtfTextrun.popInlineAttributes( );1;0;4
+RtfTextrun.setRtfListItem( RtfListItem listItem );1;0;3
+RtfTextrun.addParagraphBreak( );5;5;17
+RtfOpenGroupMark.writeRtfContent( );1;0;4
+RtfParagraphBreak.isEmpty( );1;0;3
+RtfTextrun.addOpenGroupMark( RtfAttributes attrs );1;0;3
+RtfTextrun.getRtfListItem( );1;0;3
+RtfCloseGroupMark.RtfCloseGroupMark( RtfContainer parent , Writer w );1;0;3
+RtfTextrun.addFootnote( );1;0;3
+RtfTextrun.getTextrun( RtfContainer container , Writer writer , RtfAttributes attrs );3;2;15
+RtfTextrun.writeRtfContent( );27;21;65
+RtfTextrun.addString( String s );2;0;10
+RtfTextrun.addPageNumberCitation( String refId );1;0;3
+RtfTextrun.pushInlineAttributes( RtfAttributes attrs );1;0;4
+RtfTextrun.addBookmark( String id );2;1;5
+RtfTextrun.pushBlockAttributes( RtfAttributes attrs );1;0;5
+RtfTextrun.addCloseGroupMark( );1;0;3
+RtfCloseGroupMark.isEmpty( );1;0;3
+RtfParagraphBreak.RtfParagraphBreak( RtfContainer parent , Writer w );1;0;3
+RtfOpenGroupMark.isEmpty( );1;0;3
+RtfTextrun.popBlockAttributes( );1;0;5
+RtfCloseGroupMark.writeRtfContent( );1;0;3
+RtfTextrun.RtfTextrun( RtfContainer parent , Writer w , RtfAttributes attrs );1;0;3
+RtfParagraphBreak.writeRtfContent( );1;0;3
+RtfTextrun.addPageNumber( RtfAttributes attr );1;0;3
+RtfTextrun.setSuppressLastPar( boolean bSuppress );1;0;3
+RtfTextrun.newImage( );1;0;3

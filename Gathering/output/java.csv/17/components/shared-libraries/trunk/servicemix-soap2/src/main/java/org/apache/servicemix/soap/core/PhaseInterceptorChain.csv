@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PhaseInterceptorChain.getInterceptors( );1;0;3
+PhaseInterceptorChain.getState( Message message );1;0;4
+PhaseInterceptorChain.add( Interceptor i );2;0;6
+PhaseInterceptorChain.doIntercept( Message message );8;1;29
+PhaseInterceptorChain.PhaseInterceptorChain( );1;0;2
+PhaseInterceptorChain.add( Iterable < ? extends Interceptor > newhandlers );3;1;8
+PhaseInterceptorChain.insertInterceptor( Interceptor interc );13;15;32
+PhaseInterceptorChain.setState( Message message , ListIterator < Interceptor > state );1;0;4

@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MailReaderSampler.MailReaderSampler( );1;0;6
+***not in a method***;0;1;0
+MailReaderSampler.getFolder( );1;0;3
+MailReaderSampler.setUserName( String username );1;0;3
+MailReaderSampler.isStoreMimeMessage( );1;0;3
+MailReaderSampler.setNumMessages( String num_messages );1;0;3
+MailReaderSampler.setStoreMimeMessage( boolean storeMimeMessage );1;0;3
+MailReaderSampler.getUserName( );1;0;3
+MailReaderSampler.getServer( );1;0;3
+MailReaderSampler.appendMessageAsMime( StringBuffer cdata , Message message );1;0;5
+MailReaderSampler.setServerType( String serverType );1;0;3
+MailReaderSampler.setDeleteMessages( boolean delete );1;0;3
+MailReaderSampler.getPassword( );1;0;3
+MailReaderSampler.appendMessageData( StringBuffer cdata , Message message );8;10;48
+MailReaderSampler.getServerType( );1;0;3
+MailReaderSampler.getDeleteMessages( );1;0;3
+MailReaderSampler.getNumMessagesString( );1;0;3
+MailReaderSampler.setPassword( String password );1;0;3
+MailReaderSampler.setNumMessages( int num_messages );1;0;3
+MailReaderSampler.getNumMessages( );1;0;3
+MailReaderSampler.sample( Entry e );11;8;83
+MailReaderSampler.setServer( String server );1;0;3
+MailReaderSampler.setFolder( String folder );1;0;3

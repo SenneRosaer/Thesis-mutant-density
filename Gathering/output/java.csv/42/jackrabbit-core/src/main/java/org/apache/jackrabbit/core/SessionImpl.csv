@@ -1,0 +1,75 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SessionImpl.getProperty( String absPath );4;1;16
+SessionImpl.createItemManager( SessionItemStateManager itemStateMgr , HierarchyManager hierMgr );1;0;4
+SessionImpl.getAccessControlManager( );2;0;7
+SessionImpl.SessionImpl( RepositoryImpl rep , Subject subject , WorkspaceConfig wspConfig );1;0;16
+SessionImpl.createAccessManager( Subject subject , HierarchyManager hierarchyManager );1;0;11
+SessionImpl.checkPermission( String absPath , String actions );2;1;5
+SessionImpl.getQName( String name );1;0;3
+SessionImpl.createSessionItemStateManager( LocalItemStateManager manager );1;0;4
+SessionImpl.getAttributeNames( );1;0;3
+SessionImpl.getAttribute( String name );1;0;3
+SessionImpl.getValueFactory( );2;1;6
+SessionImpl.getPrincipalManager( );2;1;6
+SessionImpl.setNamespacePrefix( String prefix , String uri );1;0;4
+SessionImpl.getRootNode( );1;0;4
+SessionImpl.getJCRName( Name name );1;0;3
+SessionImpl.getLocks( );3;1;12
+SessionImpl.SessionImpl( RepositoryImpl rep , AuthContext loginContext , WorkspaceConfig wspConfig );1;0;4
+SessionImpl.getRetentionManager( );2;1;6
+SessionImpl.getImportContentHandler( String parentAbsPath , int uuidBehavior );6;2;30
+SessionImpl.getItemManager( );1;0;3
+SessionImpl.refresh( boolean keepChanges );2;1;8
+SessionImpl.notifyLoggingOut( );3;3;10
+SessionImpl.createVersionManager( RepositoryImpl rep );1;0;3
+SessionImpl.impersonate( Credentials otherCredentials );3;1;19
+SessionImpl.getRepository( );1;0;3
+SessionImpl.removeListener( SessionListener listener );1;0;3
+SessionImpl.notifyLoggedOut( );3;3;10
+SessionImpl.removeLockToken( String lt , boolean notify );4;1;11
+SessionImpl.getItem( String absPath );4;1;16
+SessionImpl.getItemStateManager( );1;0;3
+SessionImpl.move( String srcAbsPath , String destAbsPath );25;12;136
+SessionImpl.getHierarchyManager( );1;0;3
+SessionImpl.getLockTokens( );1;0;7
+SessionImpl.addListener( SessionListener listener );2;1;5
+SessionImpl.propertyExists( String absPath );3;1;14
+SessionImpl.isLive( );1;0;3
+SessionImpl.getUserID( );1;0;3
+SessionImpl.getNodeByUUID( String uuid );2;0;7
+SessionImpl.getWorkspace( );1;0;3
+SessionImpl.getURI( String prefix );3;0;9
+SessionImpl.getPrefix( String uri );3;0;9
+SessionImpl.getWorkspaceNames( );4;2;13
+SessionImpl.sanityCheck( );2;1;5
+SessionImpl.getNodeByUUID( UUID uuid );1;0;4
+SessionImpl.checkCapability( String methodType , Object target , Map arguments );1;0;3
+SessionImpl.getUserManager( );2;1;6
+SessionImpl.createSession( String workspaceName );3;2;10
+SessionImpl.getLockManager( );1;0;3
+SessionImpl.removeLockToken( String lt );1;0;3
+SessionImpl.save( );1;0;4
+SessionImpl.createWorkspace( String workspaceName , InputSource configTemplate );1;0;3
+SessionImpl.addLockToken( String lt );1;0;3
+SessionImpl.removeRegisteredEventListeners( );4;0;18
+SessionImpl.itemExists( String absPath );3;1;14
+SessionImpl.createWorkspace( String workspaceName );1;0;3
+SessionImpl.getAccessManager( );1;0;3
+SessionImpl.getNode( String absPath );4;1;16
+SessionImpl.logout( );5;2;26
+SessionImpl.getQPath( String path );1;0;3
+SessionImpl.removeItem( String absPath );4;1;18
+SessionImpl.nodeExists( String absPath );3;1;14
+SessionImpl.addLockToken( String lt , boolean notify );4;1;11
+SessionImpl.getJCRPath( Path path );1;0;3
+SessionImpl.getNodeByIdentifier( String id );2;0;9
+SessionImpl.createDataStoreGarbageCollector( );4;5;26
+SessionImpl.hasPendingChanges( );1;0;4
+SessionImpl.getNodeById( NodeId id );2;0;8
+SessionImpl.getSubject( );1;0;3
+SessionImpl.getVersionManager( );1;0;3
+SessionImpl.dump( PrintStream ps );2;1;13
+SessionImpl.hasPermission( String absPath , String actions );12;9;41
+SessionImpl.createWorkspaceInstance( WorkspaceConfig wspConfig , SharedItemStateManager stateMgr , RepositoryImpl rep , SessionImpl session );1;0;3
+SessionImpl.getNodeTypeManager( );1;0;3
+SessionImpl.retrieveUserId( Subject subject );1;0;3

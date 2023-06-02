@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ActivateAccountFilter.destroy( );3;0;18
+ActivateAccountFilter.run( );10;4;58
+ActivateAccountFilter.initSmsConfiguration( FilterConfig config );1;0;7
+ActivateAccountFilter.initLdapContext( FilterConfig config );2;0;24
+ActivateAccountFilter.sendResponse( String msg , HttpServletRequest req , HttpServletResponse resp );4;0;31
+ActivateAccountFilter.processDownload( String activationKey , HttpServletRequest req , HttpServletResponse resp , FilterChain chain );13;9;117
+ActivateAccountFilter.processActivation( String activationKey , HttpServletRequest req , HttpServletResponse resp , FilterChain chain );6;0;57
+ActivateAccountFilter.doFilter( ServletRequest sreq , ServletResponse sresp , FilterChain chain );4;2;15
+ActivateAccountFilter.initSmtpConfiguration( FilterConfig config );2;1;16
+ActivateAccountFilter.initActivationConfiguration( FilterConfig config );7;7;21
+ActivateAccountFilter.init( FilterConfig config );2;0;17

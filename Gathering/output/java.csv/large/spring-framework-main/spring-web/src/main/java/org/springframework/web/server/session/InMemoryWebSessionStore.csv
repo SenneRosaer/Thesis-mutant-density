@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InMemoryWebSessionStore.removeSession( String id );1;0;4
+ExpiredSessionChecker.checkIfNecessary( Instant now );2;0;5
+InMemoryWebSession.checkMaxSessionsLimit( );3;2;8
+InMemoryWebSessionStore.setClock( Clock clock );1;0;5
+InMemoryWebSession.start( );1;0;3
+InMemoryWebSessionStore.getSessions( );1;0;3
+InMemoryWebSessionStore.createWebSession( );1;0;7
+InMemoryWebSession.save( );4;1;14
+InMemoryWebSession.getCreationTime( );1;0;3
+InMemoryWebSessionStore.retrieveSession( String id );3;1;16
+InMemoryWebSession.getId( );1;0;3
+InMemoryWebSessionStore.getClock( );1;0;3
+InMemoryWebSession.checkExpired( Instant currentTime );3;3;4
+InMemoryWebSessionStore.getMaxSessions( );1;0;3
+InMemoryWebSession.isExpired( );1;0;3
+InMemoryWebSession.isStarted( );2;2;3
+InMemoryWebSession.invalidate( );1;0;6
+InMemoryWebSession.getAttributes( );1;0;3
+InMemoryWebSession.isExpired( Instant now );3;0;10
+InMemoryWebSessionStore.updateLastAccessTime( WebSession session );1;0;7
+InMemoryWebSession.getMaxIdleTime( );1;0;3
+InMemoryWebSessionStore.removeExpiredSessions( );1;0;3
+InMemoryWebSessionStore.setMaxSessions( int maxSessions );1;0;3
+***not in a method***;0;1;0
+InMemoryWebSession.updateLastAccessTime( Instant currentTime );1;0;3
+InMemoryWebSession.changeSessionId( );1;0;8
+InMemoryWebSession.InMemoryWebSession( Instant creationTime );1;0;4
+InMemoryWebSession.getLastAccessTime( );1;0;3
+InMemoryWebSession.setMaxIdleTime( Duration maxIdleTime );1;0;3
+ExpiredSessionChecker.removeExpiredSessions( Instant now );5;0;21

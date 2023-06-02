@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InetNetwork.maskIP( final byte [ ] ip , final byte [ ] mask );2;4;12
+InetNetwork.InetNetwork( DNSService dnsServer );1;0;3
+InetNetwork.hashCode( );1;0;3
+InetNetwork.normalizeFromAsterisk( final String netspec );4;6;9
+InetNetwork.InetNetwork( InetAddress ip , InetAddress netmask );1;0;4
+InetNetwork.getByAddress( byte [ ] ip );5;9;18
+InetNetwork.normalizeFromCIDR( final String netspec );2;19;9
+InetNetwork.equals( Object obj );4;4;4
+InetNetwork.contains( final InetAddress ip );1;0;3
+InetNetwork.getFromString( String netspec );4;6;11
+InetNetwork.maskIP( final InetAddress ip , final InetAddress mask );1;0;3
+InetNetwork.toString( );1;1;3
+InetNetwork.contains( final String name );1;0;3

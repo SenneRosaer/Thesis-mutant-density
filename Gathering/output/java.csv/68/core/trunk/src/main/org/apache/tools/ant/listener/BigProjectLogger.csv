@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BigProjectLogger.getBuildFailedMessage( );1;2;3
+BigProjectLogger.subBuildFinished( BuildEvent event );2;7;10
+BigProjectLogger.getBuildSuccessfulMessage( );1;2;3
+BigProjectLogger.getHeader( );1;0;3
+BigProjectLogger.getFooter( );1;0;3
+BigProjectLogger.taskStarted( BuildEvent event );1;0;4
+BigProjectLogger.targetStarted( BuildEvent event );1;0;4
+BigProjectLogger.extractTargetName( BuildEvent event );3;5;9
+BigProjectLogger.maybeRaiseSubBuildStarted( BuildEvent event );3;2;10
+BigProjectLogger.messageLogged( BuildEvent event );1;0;4
+BigProjectLogger.subBuildStarted( BuildEvent event );3;9;15
+BigProjectLogger.extractNameOrDefault( BuildEvent event );2;3;9
+BigProjectLogger.buildFinished( BuildEvent event );1;0;5

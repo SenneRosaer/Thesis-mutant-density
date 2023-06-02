@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodeTypeManagerImpl.getNodeType( Name name );2;1;12
+NodeTypeManagerImpl.nodeTypeReRegistered( Name ntName );5;0;21
+NodeTypeManagerImpl.getNodeTypeRegistry( );1;0;3
+NodeTypeManagerImpl.getPropertyDefinition( PropDefId id );3;2;13
+NodeTypeManagerImpl.registerNodeTypes( InputStream in , String contentType );1;0;3
+NodeTypeManagerImpl.registerNodeTypes( Collection definitions , boolean allowUpdate );6;0;29
+NodeTypeManagerImpl.nodeTypeUnregistered( Name ntName );5;0;21
+NodeTypeManagerImpl.registerNodeTypes( InputStream in , String contentType , boolean reregisterExisting );13;2;64
+NodeTypeManagerImpl.registerNodeTypes( List defs );3;0;13
+NodeTypeManagerImpl.NodeTypeManagerImpl( NodeTypeRegistry ntReg , SessionImpl session , DataStore store );1;0;12
+NodeTypeManagerImpl.createNodeDefinitionTemplate( );1;0;3
+NodeTypeManagerImpl.getMixinNodeTypes( );3;2;11
+NodeTypeManagerImpl.getRootNodeDefinition( );1;0;3
+NodeTypeManagerImpl.registerNodeTypes( InputSource in );2;0;7
+NodeTypeManagerImpl.createNodeTypeTemplate( );1;0;3
+NodeTypeManagerImpl.unregisterNodeTypes( String [ ] names );4;2;13
+NodeTypeManagerImpl.getPrimaryNodeTypes( );3;3;11
+NodeTypeManagerImpl.createPropertyDefinitionTemplate( );1;0;3
+NodeTypeManagerImpl.toNodeTypeDef( NodeTypeDefinition definition );34;21;148
+NodeTypeManagerImpl.registerNodeType( NodeTypeDefinition ntd , boolean allowUpdate );1;0;5
+NodeTypeManagerImpl.getAllNodeTypes( );2;2;8
+NodeTypeManagerImpl.hasNodeType( String name );3;0;10
+NodeTypeManagerImpl.getNodeDefinition( NodeDefId id );3;2;13
+NodeTypeManagerImpl.unregisterNodeType( String name );1;0;3
+NodeTypeManagerImpl.dump( PrintStream ps );1;0;5
+NodeTypeManagerImpl.createNodeTypeTemplate( NodeTypeDefinition ntd );1;0;3
+NodeTypeManagerImpl.getNodeType( String nodeTypeName );3;0;9
+NodeTypeManagerImpl.nodeTypeRegistered( Name ntName );1;0;2

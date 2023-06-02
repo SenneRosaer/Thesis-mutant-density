@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpClientMarshaler.addNmsProperties( NormalizedMessage message , HttpMethod method );2;2;9
+HttpClientMarshaler.shouldIncludeHeader( NormalizedMessage normalizedMessage , String name , Object value );3;4;5
+HttpClientMarshaler.HttpClientMarshaler( );1;0;3
+HttpClientMarshaler.fromNMS( PostMethod method , MessageExchange exchange , NormalizedMessage normalizedMessage );4;3;17
+HttpClientMarshaler.HttpClientMarshaler( boolean streaming );1;0;4
+HttpClientMarshaler.toNMS( NormalizedMessage normalizedMessage , HttpMethod method );2;0;8
+HttpClientMarshaler.isStreaming( );1;0;3
+HttpClientMarshaler.setContentType( String contentType );1;0;3
+HttpClientMarshaler.setStreaming( boolean streaming );1;0;3
+HttpClientMarshaler.addHttpHeaders( HttpMethod method , NormalizedMessage message );4;1;12
+HttpClientMarshaler.getContentType( );1;0;3

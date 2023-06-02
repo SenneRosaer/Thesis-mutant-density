@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConcreteTreeProcessor.dispose( );6;6;20
+ConcreteTreeProcessor.process( Environment environment , InvokeContext context );7;6;52
+ConcreteTreeProcessor.getParent( );1;0;3
+ConcreteTreeProcessor.getWrappingProcessor( );1;0;3
+ConcreteTreeProcessor.process( Environment environment );1;0;8
+ConcreteTreeProcessor.setAttribute( String name , Object value );1;0;3
+ConcreteTreeProcessor.handleServletRedirect( String uri , Environment environment );2;0;12
+ConcreteTreeProcessor.getType( );1;0;3
+ConcreteTreeProcessor.buildPipeline( Environment environment );2;0;11
+ConcreteTreeProcessor.getServiceManager( );1;0;3
+TreeProcessorRedirector.servletRedirect( String uri );1;0;3
+ConcreteTreeProcessor.getRootProcessor( );1;0;3
+ConcreteTreeProcessor.getContext( );1;0;3
+TreeProcessorRedirector.cocoonRedirect( String uri );5;0;13
+ConcreteTreeProcessor.setProcessorData( WebApplicationContext webAppContext , ProcessingNode rootNode , List disposableNodes , List enterSitemapEventListeners , List leaveSitemapEventListeners );2;1;12
+ConcreteTreeProcessor.getSitemapExecutor( );1;0;3
+ConcreteTreeProcessor.ConcreteTreeProcessor( TreeProcessor wrappingProcessor , SitemapExecutor sitemapExecutor );1;0;4
+ConcreteTreeProcessor.getAttribute( String name );1;0;3
+ConcreteTreeProcessor.removeAttribute( String name );1;0;3
+ConcreteTreeProcessor.handleCocoonRedirect( String uri , Environment env , InvokeContext context );8;5;32
+ConcreteTreeProcessor.markForDisposal( );2;2;8
+ConcreteTreeProcessor.getLocation( );1;0;3
+ConcreteTreeProcessor.getSourceResolver( );1;0;3
+TreeProcessorRedirector.TreeProcessorRedirector( Environment env , InvokeContext context );1;0;4

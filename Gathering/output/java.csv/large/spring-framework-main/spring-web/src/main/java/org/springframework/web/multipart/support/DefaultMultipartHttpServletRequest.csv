@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultMultipartHttpServletRequest.getMultipartHeaders( String paramOrFileName );2;1;11
+DefaultMultipartHttpServletRequest.getParameterValues( String name );4;5;16
+DefaultMultipartHttpServletRequest.getParameterNames( );2;0;10
+DefaultMultipartHttpServletRequest.setMultipartParameterContentTypes( Map < String , String > multipartParameterContentTypes );1;0;3
+DefaultMultipartHttpServletRequest.DefaultMultipartHttpServletRequest( HttpServletRequest request , MultiValueMap < String , MultipartFile > mpFiles , Map < String , String [ ] > mpParams , Map < String , String > mpParamContentTypes );1;0;6
+DefaultMultipartHttpServletRequest.getParameter( String name );3;2;7
+DefaultMultipartHttpServletRequest.DefaultMultipartHttpServletRequest( HttpServletRequest request );1;0;3
+DefaultMultipartHttpServletRequest.getMultipartParameters( );2;1;6
+DefaultMultipartHttpServletRequest.getParameterMap( );2;0;9
+DefaultMultipartHttpServletRequest.getMultipartContentType( String paramOrFileName );2;1;9
+DefaultMultipartHttpServletRequest.setMultipartParameters( Map < String , String [ ] > multipartParameters );1;0;3
+DefaultMultipartHttpServletRequest.getMultipartParameterContentTypes( );2;1;6

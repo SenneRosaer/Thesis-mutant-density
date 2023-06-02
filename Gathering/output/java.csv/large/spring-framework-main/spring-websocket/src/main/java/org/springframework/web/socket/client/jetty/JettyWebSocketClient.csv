@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JettyWebSocketClient.getTaskExecutor( );1;0;3
+JettyWebSocketClient.stop( );2;0;8
+JettyWebSocketClient.isRunning( );1;0;3
+JettyWebSocketClient.start( );2;0;8
+JettyWebSocketClient.executeInternal( WebSocketHandler wsHandler , HttpHeaders headers , final URI uri , List < String > protocols , List < WebSocketExtension > extensions , Map < String , Object > attributes );3;2;22
+JettyWebSocketClient.setTaskExecutor( @ Nullable AsyncTaskExecutor taskExecutor );1;0;3
+JettyWebSocketClient.JettyWebSocketClient( );1;0;3
+JettyWebSocketClient.getUser( );1;0;3
+JettyWebSocketClient.JettyWebSocketClient( WebSocketClient client );1;0;3

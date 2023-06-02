@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultRequestSpec.getAdapter( Class < ? > aClass );1;0;3
+DefaultRequestSpec.retrieveFlux( ResolvableType elementType );4;1;11
+DefaultRSocketRequester.metadata( Object metadata , @ Nullable MimeType mimeType );1;0;3
+DefaultRequestSpec.retrieveMono( ParameterizedTypeReference < T > dataTypeRef );1;0;3
+DefaultRSocketRequester.rsocketClient( );1;0;3
+DefaultRSocketRequester.strategies( );1;0;3
+DefaultRSocketRequester.rsocket( );1;0;3
+DefaultRequestSpec.data( Object data );1;0;5
+DefaultRequestSpec.encodeData( T value , ResolvableType elementType , @ Nullable Encoder < ? > encoder );2;1;8
+DefaultRSocketRequester.dataMimeType( );1;0;3
+DefaultRequestSpec.send( );1;0;3
+DefaultRequestSpec.retrieveMono( ResolvableType elementType );3;0;9
+DefaultRequestSpec.DefaultRequestSpec( Object metadata , @ Nullable MimeType mimeType );1;0;3
+DefaultRequestSpec.getPayloadMono( );2;2;4
+DefaultRSocketRequester.route( String route , Object ... vars );1;0;3
+DefaultRSocketRequester.metadataMimeType( );1;0;3
+DefaultRequestSpec.DefaultRequestSpec( String route , Object ... vars );1;0;3
+DefaultRequestSpec.retrieveMono( Class < T > dataType );1;0;3
+DefaultRequestSpec.retainDataAndReleasePayload( Payload payload );1;0;3
+DefaultRequestSpec.retrieveFlux( Class < T > dataType );1;0;3
+DefaultRSocketRequester.DefaultRSocketRequester( @ Nullable RSocketClient rsocketClient , @ Nullable RSocket rsocket , MimeType dataMimeType , MimeType metadataMimeType , RSocketStrategies strategies );3;4;12
+DefaultRequestSpec.data( Object producer , ParameterizedTypeReference < ? > elementTypeRef );1;0;9
+DefaultRequestSpec.data( Object producer , Class < ? > elementClass );1;0;9
+DefaultRequestSpec.metadata( Object metadata , MimeType mimeType );1;0;4
+DefaultRequestSpec.firstPayload( Mono < DataBuffer > encodedData );1;0;6
+DefaultRequestSpec.sendMetadata( );1;0;3
+DefaultRequestSpec.metadata( Consumer < MetadataSpec < ? > > configurer );1;0;4
+DefaultRequestSpec.createPayload( Object input , ResolvableType elementType );14;11;46
+DefaultRSocketRequester.isVoid( ResolvableType elementType );2;1;3
+DefaultRequestSpec.retrieveFlux( ParameterizedTypeReference < T > dataTypeRef );1;0;3
+DefaultRSocketRequester.bufferFactory( );1;0;3

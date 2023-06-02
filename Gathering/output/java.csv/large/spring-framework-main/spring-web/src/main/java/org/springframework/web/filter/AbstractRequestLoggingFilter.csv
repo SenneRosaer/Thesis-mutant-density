@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractRequestLoggingFilter.doFilterInternal( HttpServletRequest request , HttpServletResponse response , FilterChain filterChain );8;7;19
+AbstractRequestLoggingFilter.setAfterMessageSuffix( String afterMessageSuffix );1;0;3
+AbstractRequestLoggingFilter.createMessage( HttpServletRequest request , String prefix , String suffix );13;6;47
+AbstractRequestLoggingFilter.getAfterMessage( HttpServletRequest request );1;0;3
+AbstractRequestLoggingFilter.getBeforeMessage( HttpServletRequest request );1;0;3
+AbstractRequestLoggingFilter.isIncludeClientInfo( );1;0;3
+AbstractRequestLoggingFilter.getMaxPayloadLength( );1;0;3
+AbstractRequestLoggingFilter.getHeaderPredicate( );1;0;3
+AbstractRequestLoggingFilter.setBeforeMessageSuffix( String beforeMessageSuffix );1;0;3
+AbstractRequestLoggingFilter.setHeaderPredicate( @ Nullable Predicate < String > headerPredicate );1;0;3
+AbstractRequestLoggingFilter.isIncludePayload( );1;0;3
+AbstractRequestLoggingFilter.setIncludeHeaders( boolean includeHeaders );1;0;3
+AbstractRequestLoggingFilter.isIncludeQueryString( );1;0;3
+AbstractRequestLoggingFilter.setIncludeClientInfo( boolean includeClientInfo );1;0;3
+AbstractRequestLoggingFilter.shouldNotFilterAsyncDispatch( );1;0;3
+AbstractRequestLoggingFilter.setIncludePayload( boolean includePayload );1;0;3
+AbstractRequestLoggingFilter.getMessagePayload( HttpServletRequest request );4;2;17
+AbstractRequestLoggingFilter.setIncludeQueryString( boolean includeQueryString );1;0;3
+AbstractRequestLoggingFilter.setAfterMessagePrefix( String afterMessagePrefix );1;0;3
+AbstractRequestLoggingFilter.isIncludeHeaders( );1;0;3
+AbstractRequestLoggingFilter.shouldLog( HttpServletRequest request );1;0;3
+AbstractRequestLoggingFilter.setBeforeMessagePrefix( String beforeMessagePrefix );1;0;3
+AbstractRequestLoggingFilter.setMaxPayloadLength( int maxPayloadLength );1;1;4

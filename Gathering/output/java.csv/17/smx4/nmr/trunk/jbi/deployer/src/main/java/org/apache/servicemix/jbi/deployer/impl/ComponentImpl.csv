@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ComponentImpl.getServiceAssemblies( );2;0;7
+ComponentImpl.start( );1;0;3
+ComponentImpl.getName( );1;0;3
+ComponentImpl.getCurrentState( );5;0;13
+ComponentImpl.getComponent( );1;0;3
+ComponentImpl.getDescription( );1;0;3
+ComponentWrapper.isExchangeWithProviderOkay( ServiceEndpoint endpoint , MessageExchange exchange );1;0;3
+ComponentImpl.getServiceUnits( );1;0;3
+ComponentImpl.shutDown( );1;0;3
+ComponentWrapper.getServiceUnitManager( );1;0;3
+ComponentWrapper.shutDown( );1;0;9
+ComponentImpl.removeServiceUnit( ServiceUnitImpl serviceUnit );1;0;3
+ComponentWrapper.init( ComponentContext context );4;3;23
+ComponentWrapper.ComponentWrapper( javax . jbi . component . Component component );1;0;3
+ComponentImpl.saveState( );2;0;8
+ComponentWrapper.stop( );1;0;9
+ComponentImpl.start( boolean saveState );2;0;8
+ComponentImpl.shutDown( boolean saveState );7;5;19
+ComponentImpl.addServiceUnit( ServiceUnitImpl serviceUnit );1;0;3
+ComponentWrapper.isExchangeWithConsumerOkay( ServiceEndpoint endpoint , MessageExchange exchange );1;0;3
+ComponentWrapper.getExtensionMBeanName( );1;0;3
+ComponentImpl.getExtensionMBeanName( );1;0;3
+ComponentWrapper.getServiceDescription( ServiceEndpoint endpoint );1;0;3
+ComponentImpl.stop( );1;0;3
+ComponentWrapper.start( );1;0;9
+ComponentWrapper.getLifeCycle( );2;1;6
+ComponentImpl.getState( );1;0;3
+ComponentWrapper.resolveEndpointReference( DocumentFragment epr );1;0;3
+ComponentImpl.stop( boolean saveState );5;2;15
+ComponentImpl.ComponentImpl( ComponentDesc componentDesc , javax . jbi . component . Component component , Preferences prefs , boolean autoStart , Deployer deployer );2;0;8

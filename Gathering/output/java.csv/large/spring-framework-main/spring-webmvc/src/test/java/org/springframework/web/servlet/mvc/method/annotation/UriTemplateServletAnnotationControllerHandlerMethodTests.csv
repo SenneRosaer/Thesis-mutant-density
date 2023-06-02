@@ -1,0 +1,59 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultipleUriTemplateController.handleWithLiteralMapping( Writer writer );1;0;3
+ModelValidatingViewResolver.getContentType( );1;0;3
+CrudController.show( @ PathVariable String hotel , Writer writer );1;0;3
+CrudController.list( Writer writer );1;0;3
+NonBindingUriTemplateController.handle( @ PathVariable ( "hotel" ) String hotel , @ PathVariable Date date , Writer writer );1;0;2
+UriTemplateServletAnnotationControllerHandlerMethodTests.customRegex( boolean usePathPatterns );2;1;9
+UriTemplateServletAnnotationControllerHandlerMethodTests.explicitSubPath( boolean usePathPatterns );1;0;7
+MultiPathController.category( @ PathVariable int page , Writer writer );1;0;4
+ExplicitSubPathController.handleHotel( @ PathVariable String hotel , Writer writer );1;0;3
+Spr6978Controller.loadEntity( @ PathVariable final String type , @ PathVariable final long id , Writer writer );1;0;3
+AmbiguousUriTemplateController.handleSpecific( Writer writer );1;0;3
+VariableNamesController.bar( @ PathVariable String bar , Writer writer );1;0;3
+Spr6978Controller.publish( @ PathVariable final String type , @ PathVariable final long id , Writer writer );1;0;3
+MultiPathController.category( Writer writer );1;0;3
+BindingUriTemplateController.initBinder( WebDataBinder binder , @ PathVariable ( "hotel" ) String hotel );1;0;7
+UriTemplateServletAnnotationControllerHandlerMethodTests.relative( boolean usePathPatterns );1;0;7
+UriTemplateServletAnnotationControllerHandlerMethodTests.variableNamesWithUrlExtension( boolean usePathPatterns );3;2;13
+ModelValidatingViewResolver.ModelValidatingViewResolver( Map < String , Object > attrsToValidate );1;0;3
+UriTemplateServletAnnotationControllerHandlerMethodTests.multiPaths( boolean usePathPatterns );1;0;7
+ModelValidatingViewResolver.resolveViewName( final String viewName , Locale locale );2;0;17
+BindingUriTemplateController.handle( @ PathVariable ( "hotel" ) String hotel , @ PathVariable Date date , Writer writer );1;0;5
+UriTemplateServletAnnotationControllerHandlerMethodTests.pathPatternsArguments( );1;0;3
+AmbiguousUriTemplateController.handleVars( @ PathVariable ( "hotel" ) String hotel , Writer writer );1;0;4
+UriTemplateServletAnnotationControllerHandlerMethodTests.simple( boolean usePathPatterns );1;0;7
+CrudController.createOrUpdate( @ PathVariable String hotel , Writer writer );1;0;3
+UriTemplateServletAnnotationControllerHandlerMethodTests.methodNotSupported( boolean usePathPatterns );1;0;19
+MultiPathController.category( @ PathVariable String category , Writer writer );1;0;4
+Spr6978Controller.loadModule( @ PathVariable final long id , Writer writer );1;0;3
+ImplicitSubPathController.handleHotel( @ PathVariable String hotel , Writer writer );1;0;3
+MethodNotAllowedController.list( Writer writer );1;0;2
+ViewRenderingController.handle( @ PathVariable ( "hotel" ) String hotel , @ PathVariable int booking , @ PathVariable String other , @ MatrixVariable MultiValueMap < String , String > params );1;0;6
+UriTemplateServletAnnotationControllerHandlerMethodTests.variableNames( boolean usePathPatterns );1;0;11
+RelativePathUriTemplateController.handle( @ PathVariable ( "hotel" ) String hotel , @ PathVariable int booking , Writer writer );1;0;5
+MethodNotAllowedController.show( @ PathVariable long hotelId , Writer writer );1;0;2
+MenuTreeController.getFirstLevelFunctionNodes( @ PathVariable ( "var" ) String var , Writer writer );1;0;3
+MethodNotAllowedController.createOrUpdate( @ PathVariable long hotelId , Writer writer );1;0;2
+MultipleUriTemplateController.handle( @ PathVariable ( "hotel" ) String hotel , @ PathVariable int booking , @ PathVariable String other , @ MatrixVariable ( name = "q" , pathVar = "hotel" ) int qHotel , @ MatrixVariable ( name = "q" , pathVar = "other" ) int qOther , Writer writer );1;0;5
+UriTemplateServletAnnotationControllerHandlerMethodTests.menuTree( boolean usePathPatterns );1;0;7
+UriTemplateServletAnnotationControllerHandlerMethodTests.crud( boolean usePathPatterns );1;0;23
+UriTemplateServletAnnotationControllerHandlerMethodTests.typeConversionError( boolean usePathPatterns );1;0;7
+MultiPathController.category( @ PathVariable String category , @ PathVariable int page , Writer writer );1;0;5
+DoubleController.testLatLong( @ PathVariable Double latitude , @ PathVariable Double longitude , Writer writer );1;0;3
+ModelValidatingViewResolver.renderMergedOutputModel( Map < String , Object > model , HttpServletRequest request , HttpServletResponse response );2;1;7
+CrudController.create( Writer writer );1;0;3
+CrudController.remove( @ PathVariable String hotel , Writer writer );1;0;3
+AmbiguousUriTemplateController.handleWildCard( Writer writer );1;0;3
+SimpleUriTemplateController.handle( @ PathVariable ( "root" ) int root , @ MatrixVariable ( required = false , defaultValue = "7" ) String q , Writer writer );1;0;4
+UriTemplateServletAnnotationControllerHandlerMethodTests.pathVarsInModel( boolean usePathPatterns );1;0;15
+UriTemplateServletAnnotationControllerHandlerMethodTests.multiple( boolean usePathPatterns );1;0;8
+UriTemplateServletAnnotationControllerHandlerMethodTests.binding( boolean usePathPatterns );1;0;16
+UriTemplateServletAnnotationControllerHandlerMethodTests.literalMappingWithPathParams( boolean usePathPatterns );2;1;19
+UriTemplateServletAnnotationControllerHandlerMethodTests.implicitSubPath( boolean usePathPatterns );1;0;7
+VariableNamesController.foo( @ PathVariable String foo , Writer writer );1;0;3
+UriTemplateServletAnnotationControllerHandlerMethodTests.ambiguous( boolean usePathPatterns );1;0;7
+MethodNotAllowedController.remove( @ PathVariable long hotelId , Writer writer );1;0;2
+CustomRegexController.handle( @ PathVariable ( "root" ) int root , @ PathVariable ( "params" ) String paramString , @ MatrixVariable List < Integer > q , Writer writer );1;0;4
+UriTemplateServletAnnotationControllerHandlerMethodTests.extension( boolean usePathPatterns );3;2;15
+UriTemplateServletAnnotationControllerHandlerMethodTests.doIt( boolean usePathPatterns );1;0;19

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MonitorAccumModel.updateArray( MonitorModel model , List list );2;1;9
+MonitorAccumModel.getAllSamples( String url );2;1;7
+MonitorAccumModel.getSample( String url );2;0;8
+MonitorAccumModel.noResponse( URL url );1;0;3
+MonitorAccumModel.addListener( MonitorListener listener );1;0;3
+MonitorAccumModel.addSample( MonitorModel model );2;0;11
+MonitorAccumModel.MonitorAccumModel( );1;0;4
+MonitorAccumModel.createNewMonitorModel( URL url );1;0;6
+MonitorAccumModel.getBufferSize( );1;0;3
+MonitorAccumModel.addSample( SampleResult sample );7;4;22
+MonitorAccumModel.setBufferSize( int buffer );1;0;3
+MonitorAccumModel.getLastSample( );1;0;3
+MonitorAccumModel.notifyListeners( MonitorModel model );2;2;6
+MonitorAccumModel.clearData( );2;0;8

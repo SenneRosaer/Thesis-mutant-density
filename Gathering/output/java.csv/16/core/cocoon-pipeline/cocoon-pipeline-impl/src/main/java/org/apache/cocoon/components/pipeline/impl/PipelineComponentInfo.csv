@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PipelineComponentInfo.componentAdded( String role , String clazz , Configuration config );5;0;12
+PipelineComponentInfo.lock( );1;0;3
+PipelineComponentInfo.addData( Map map );2;1;6
+PipelineComponentInfo.setPipelineHint( String role , String hint );1;0;3
+PipelineComponentInfo.setLabels( String role , String [ ] labels );1;0;3
+PipelineComponentInfo.getMimeType( String role , String type );1;0;3
+PipelineComponentInfo.hasLabel( String role , String type , String label );4;3;10
+PipelineComponentInfo.getPipelineHint( String role , String type );1;0;3
+PipelineComponentInfo.setupMimeType( String role , Configuration config );1;0;3
+PipelineComponentInfo.PipelineComponentInfo( PipelineComponentInfo parent );1;0;3
+PipelineComponentInfo.setupLabelAndPipelineHint( String role , Configuration config );3;3;15
+PipelineComponentInfo.getDefaultType( String role );1;0;3
+PipelineComponentInfo.getData( String key );4;3;9
+PipelineComponentInfo.getData( );1;0;3
+PipelineComponentInfo.setMimeType( String role , String mimeType );1;0;3
+PipelineComponentInfo.getLabels( String role , String type );1;0;3
+PipelineComponentInfo.setData( Map map );1;0;3
+PipelineComponentInfo.setData( String key , Object value );3;1;5
+PipelineComponentInfo.setDefaultType( String role , String hint );1;0;3

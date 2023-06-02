@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ItemComparator.compare( Item item1 , Item item2 );1;1;3
+Item.getClientId( );1;0;3
+Item.getFacesMessage( );1;0;3
+Item.setClientId( String clientId );1;0;3
+Item.setFacesMessage( FacesMessage facesMessage );1;0;3
+Item.Item( String clientId , FacesMessage facesMessage );1;0;4
+AbstractUIMessages.collectMessageList( FacesContext facesContext , Iterator clientIds );7;5;21
+AbstractUIMessages.createMessageList( FacesContext facesContext );4;1;15
+AbstractUIMessages.parse( String key );1;0;3

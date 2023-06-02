@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IvyPatternHelper.substituteParams( String pattern , IvyVariableContainer params , Stack substituting );5;4;29
+IvyPatternHelper.substituteToken( String pattern , String token , String value );1;0;5
+IvyPatternHelper.substitute( String pattern , String org , String module , String branch , String revision , String artifact , String type , String ext , String conf , ArtifactOrigin origin , Map extraAttributes );12;11;16
+IvyPatternHelper.substituteVariables( String pattern , IvyVariableContainer variables );1;0;3
+IvyPatternHelper.substituteVariable( StringBuffer buf , String variable , String value );2;3;7
+IvyPatternHelper.substituteVariable( String pattern , String variable , String value );1;0;5
+IvyPatternHelper.substitute( String pattern , Artifact artifact , ArtifactOrigin origin );1;0;3
+IvyPatternHelper.substitute( String pattern , ModuleRevisionId moduleRevision );1;0;5
+IvyPatternHelper.substitute( String pattern , ModuleRevisionId mrid , Artifact artifact , String conf );1;0;3
+IvyPatternHelper.IvyPatternHelper( );1;0;2
+IvyPatternHelper.substituteParams( String pattern , Map params );1;0;3
+IvyPatternHelper.substituteTokens( String pattern , Map tokens );21;11;84
+OriginalArtifactNameValue.toString( );5;4;26
+IvyPatternHelper.substitute( String pattern , ModuleRevisionId moduleRevision , String artifact , String type , String ext );1;0;4
+IvyPatternHelper.substitute( String pattern , String org , String module , String revision , String artifact , String type , String ext , String conf , ArtifactOrigin origin , Map extraAttributes );1;0;4
+IvyPatternHelper.substitute( String pattern , ModuleRevisionId mrid , Artifact artifact , String conf , ArtifactOrigin origin );1;0;8
+IvyPatternHelper.getTokenString( String token );1;0;3
+IvyPatternHelper.substitute( String pattern , ModuleRevisionId mrid , Artifact artifact );1;0;3
+IvyPatternHelper.substituteToken( StringBuffer buf , String token , String value );2;3;7
+IvyPatternHelper.substitute( String pattern , Artifact artifact , String conf );1;0;3
+IvyPatternHelper.substitute( String pattern , String org , String module , String revision , String artifact , String type , String ext );1;0;3
+OriginalArtifactNameValue.OriginalArtifactNameValue( String org , String moduleName , String branch , String revision , String artifactName , String artifactType , String artifactExt );1;0;9
+OriginalArtifactNameValue.OriginalArtifactNameValue( ArtifactOrigin origin );1;0;3
+IvyPatternHelper.substitute( String pattern , String org , String module , String revision , String artifact , String type , String ext , String conf , Map extraAttributes );1;0;4
+IvyPatternHelper.getFirstToken( String pattern );4;6;14
+IvyPatternHelper.substituteVariables( String pattern , IvyVariableContainer variables , Stack substituting );7;5;38
+IvyPatternHelper.substituteVariables( String pattern , Map variables );1;0;3
+IvyPatternHelper.substitute( String pattern , Artifact artifact );1;0;3
+IvyPatternHelper.getTokenRoot( String pattern );2;2;8
+IvyPatternHelper.substitute( String pattern , String org , String module , String revision , String artifact , String type , String ext , String conf );1;0;3

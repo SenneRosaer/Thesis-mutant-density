@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StompDecoder.readCommand( ByteBuffer byteBuffer );3;3;7
+StompDecoder.decodeMessage( ByteBuffer byteBuffer , @ Nullable MultiValueMap < String , String > headers );12;13;54
+StompDecoder.setHeaderInitializer( @ Nullable MessageHeaderInitializer headerInitializer );1;0;3
+StompDecoder.unescape( String inString );8;11;34
+StompDecoder.getHeaderInitializer( );1;0;3
+StompDecoder.skipEol( ByteBuffer byteBuffer );3;1;7
+StompDecoder.readPayload( ByteBuffer byteBuffer , StompHeaderAccessor headerAccessor );9;7;38
+StompDecoder.readHeaders( ByteBuffer byteBuffer , StompHeaderAccessor headerAccessor , StompCommand command );14;12;41
+StompDecoder.decode( ByteBuffer byteBuffer );1;0;3
+StompDecoder.tryConsumeEndOfLine( ByteBuffer byteBuffer );6;7;18
+StompDecoder.decode( ByteBuffer byteBuffer , @ Nullable MultiValueMap < String , String > partialMessageHeaders );4;2;17
+StompDecoder.initHeaders( StompHeaderAccessor headerAccessor );2;1;6

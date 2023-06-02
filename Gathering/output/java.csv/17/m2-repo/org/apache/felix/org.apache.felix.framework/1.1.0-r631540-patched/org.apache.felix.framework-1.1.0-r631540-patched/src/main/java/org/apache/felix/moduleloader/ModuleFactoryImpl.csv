@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ModuleFactoryImpl.addModuleListener( ModuleListener l );3;3;20
+ModuleFactoryImpl.getModule( String id );1;0;3
+ModuleFactoryImpl.getModules( );1;0;3
+ModuleFactoryImpl.fireModuleRemoved( IModule module );3;3;12
+ModuleFactoryImpl.removeModule( IModule module );2;1;15
+ModuleFactoryImpl.ModuleFactoryImpl( Logger logger );1;0;4
+ModuleFactoryImpl.setContentLoader( IModule module , IContentLoader contentLoader );1;0;7
+ModuleFactoryImpl.fireModuleRefreshed( IModule module );3;3;12
+ModuleFactoryImpl.removeModuleListener( ModuleListener l );7;10;36
+ModuleFactoryImpl.createModule( String id , IModuleDefinition md );2;1;17
+ModuleFactoryImpl.refreshModule( IModule module );2;1;11
+ModuleFactoryImpl.fireModuleAdded( IModule module );3;3;12

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConnectionRecoveryManager.reestablishConnection( );8;4;28
+ConnectionRecoveryManager.executeStmt( String sql , Object [ ] params );1;0;3
+ConnectionRecoveryManager.executeQuery( String sql );5;4;13
+ConnectionRecoveryManager.getConnection( );3;0;10
+ConnectionRecoveryManager.executeStmtInternal( Object [ ] params , PreparedStatement stmt );5;8;17
+ConnectionRecoveryManager.executeStmt( String sql , Object [ ] params , boolean returnGeneratedKeys , int maxRows );5;4;13
+ConnectionRecoveryManager.logException( String message , SQLException se );2;4;6
+ConnectionRecoveryManager.setupConnection( );4;1;18
+ConnectionRecoveryManager.ConnectionRecoveryManager( boolean block , String driver , String url , String user , String password );2;0;14
+StreamWrapper.StreamWrapper( InputStream in , long size );1;0;4
+ConnectionRecoveryManager.executeQueryInternal( String sql );3;1;17
+ConnectionRecoveryManager.resetStatement( PreparedStatement stmt );3;1;10
+ConnectionRecoveryManager.executeStmtInternal( String sql , Object [ ] params , boolean returnGeneratedKeys , int maxRows );5;2;23
+ConnectionRecoveryManager.close( );4;2;15
+ConnectionRecoveryManager.setAutoReconnect( boolean autoReconnect );1;0;3

@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MultiPhraseQuery.hashCode( );1;4;7
+MultiPhraseQuery.arraysHashCode( Term [ ] termArray );4;6;10
+MultiPhraseQuery.extractTerms( Set terms );3;2;8
+MultiPhraseQuery.getSlop( );1;0;1
+MultiPhraseQuery.add( Term [ ] terms );2;3;6
+MultiPhraseWeight.MultiPhraseWeight( Searcher searcher );3;3;10
+MultiPhraseQuery.termArraysEquals( List termArrays1 , List termArrays2 );5;4;16
+MultiPhraseQuery.setSlop( int s );1;0;1
+MultiPhraseWeight.explain( IndexReader reader , int doc );4;8;40
+MultiPhraseQuery.getTermArrays( );1;0;3
+MultiPhraseQuery.add( Term term );1;0;1
+MultiPhraseWeight.getValue( );1;0;1
+MultiPhraseQuery.toString( String f );8;7;32
+MultiPhraseQuery.equals( Object o );5;6;8
+MultiPhraseQuery.add( Term [ ] terms , int position );4;4;13
+MultiPhraseWeight.normalize( float queryNorm );1;2;5
+MultiPhraseQuery.getPositions( );2;2;6
+MultiPhraseQuery.rewrite( IndexReader reader );3;3;13
+MultiPhraseWeight.getQuery( );1;0;1
+MultiPhraseQuery.termArraysHashCode( );3;3;10
+MultiPhraseWeight.sumOfSquaredWeights( );1;2;4
+MultiPhraseWeight.scorer( IndexReader reader );6;6;22
+MultiPhraseQuery.createWeight( Searcher searcher );1;0;3

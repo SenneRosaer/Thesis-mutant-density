@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TFTPClient.TFTPClient( );1;0;3
+TFTPClient.receiveFile( String filename , int mode , OutputStream output , String hostname , int port );1;0;4
+TFTPClient.sendFile( String filename , int mode , InputStream input , String hostname , int port );1;0;3
+TFTPClient.receiveFile( String filename , int mode , OutputStream output , InetAddress host );1;0;3
+TFTPClient.sendFile( String filename , int mode , InputStream input , InetAddress host );1;0;3
+TFTPClient.sendFile( String filename , int mode , InputStream input , InetAddress host , int port );25;24;136
+TFTPClient.receiveFile( String filename , int mode , OutputStream output , InetAddress host , int port );21;18;131
+TFTPClient.getMaxTimeouts( );1;0;3
+TFTPClient.receiveFile( String filename , int mode , OutputStream output , String hostname );1;0;4
+TFTPClient.setMaxTimeouts( int numTimeouts );2;1;6
+TFTPClient.sendFile( String filename , int mode , InputStream input , String hostname );1;0;4

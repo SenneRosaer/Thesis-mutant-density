@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Util.copyReader( Reader source , Writer dest , int bufferSize );1;0;4
+Util.copyReader( Reader source , Writer dest );1;0;3
+Util.copyStream( InputStream source , OutputStream dest );1;0;3
+Util.Util( );1;0;1
+Util.copyStream( InputStream source , OutputStream dest , int bufferSize );1;0;4
+Util.copyReader( Reader source , Writer dest , int bufferSize , long streamSize , CopyStreamListener listener );7;8;36
+Util.copyStream( InputStream source , OutputStream dest , int bufferSize , long streamSize , CopyStreamListener listener );1;0;4
+Util.copyStream( InputStream source , OutputStream dest , int bufferSize , long streamSize , CopyStreamListener listener , boolean flush );9;8;38

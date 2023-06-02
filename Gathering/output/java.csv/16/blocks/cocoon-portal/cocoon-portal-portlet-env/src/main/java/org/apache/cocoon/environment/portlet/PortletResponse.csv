@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PortletResponse.reset( );1;0;3
+PortletResponse.getCharacterEncoding( );1;0;3
+PortletResponse.sendRedirect( String location );1;0;3
+PortletResponse.PortletResponse( javax . portlet . PortletResponse response , PortletPreferences preferences );1;0;4
+PortletResponse.setHeader( String name , String value );1;0;4
+PortletResponse.setLocale( Locale locale );1;0;2
+PortletResponse.isCommitted( );1;0;3
+PortletResponse.setContentType( String type );1;0;3
+PortletResponse.addDateHeader( String name , long date );1;0;3
+PortletResponse.addCookie( Cookie cookie );3;0;10
+PortletResponse.setIntHeader( String name , int value );1;0;3
+PortletResponse.addIntHeader( String name , int value );1;0;3
+PortletResponse.getPortletResponse( );1;0;3
+PortletResponse.encodeURL( String url );3;4;6
+PortletResponse.addProperty( String key , String value );1;0;3
+PortletResponse.getLocale( );1;0;3
+PortletResponse.setProperty( String key , String value );1;0;3
+PortletResponse.setDateHeader( String name , long date );1;0;3
+PortletResponse.createCookie( String name , String value );1;0;3
+PortletResponse.getOutputStream( );1;0;3
+PortletResponse.addHeader( String name , String value );1;0;4
+PortletResponse.containsHeader( String name );1;0;3

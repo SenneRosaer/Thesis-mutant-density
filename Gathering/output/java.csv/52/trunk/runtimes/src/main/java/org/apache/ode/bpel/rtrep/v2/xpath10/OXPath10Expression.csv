@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OXPath10Expression.toString( );1;0;3
+OXPath10Expression.getVariable( );4;1;10
+***not in a method***;0;3;0
+SigGetVariableData.equals( Object obj );9;16;8
+SigGetVariableData.SigGetVariableData( String varname , String partname , String location );1;0;5
+OSigGetVariableData.OSigGetVariableData( OProcess owner , OScope . Variable variable , OMessageVarType . Part part , OExpression location );1;0;6
+SigGetVariableData.hashCode( );4;6;7
+OXPath10Expression.OXPath10Expression( OProcess owner , QName qname_getVariableData , QName qname_getVariableProperty , QName qname_getLinkStatus );1;0;6
+OXPath10Expression.addGetVariableDataSig( String varname , String partname , String location , OSigGetVariableData compiled );1;0;3
+OXPath10Expression.resolveGetVariableDataSig( String varname , String partname , String location );1;0;4

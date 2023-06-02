@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandardApplicationManager.service( final ServiceManager aManager );1;0;3
+StandardApplicationManager.getApplication( final String appName );2;3;12
+StandardApplicationManager.isLoggedIn( final String appName );6;9;26
+StandardApplicationManager.login( final String appName , final Map loginContext );10;11;49
+StandardApplicationManager.dispose( );1;0;3
+StandardApplicationManager.logout( final String appName , final Map logoutContext );11;10;48
+StandardApplicationManager.contextualize( final Context aContext );2;0;10

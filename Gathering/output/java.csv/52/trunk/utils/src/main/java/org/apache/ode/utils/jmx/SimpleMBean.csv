@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleMBean.send( Notification notification );2;0;7
+SimpleMBean.removeNotificationListener( NotificationListener notificationListener );2;0;7
+SimpleMBean.postDeregister( );2;0;5
+SimpleMBean.addNotificationListener( NotificationListener notificationListener , NotificationFilter notificationFilter , Object o );2;0;9
+SimpleMBean.getObjectName( );2;1;3
+SimpleMBean.unregister( MBeanServer server );3;0;11
+SimpleMBean.preRegister( MBeanServer mBeanServer , ObjectName objectName );2;0;10
+SimpleMBean.preDeregister( );2;0;5
+SimpleMBean.createMetaData( Class intfClass );1;0;2
+SimpleMBean.nextNotificationSequence( );1;0;3
+SimpleMBean.addNotificationInfo( MBeanNotificationInfo notInfo );2;2;10
+SimpleMBean.createObjectName( String domain , String [ ] names );4;7;18
+SimpleMBean.unregister( );1;0;3
+SimpleMBean.register( MBeanServer server );5;0;18
+SimpleMBean.SimpleMBean( Class intfClass );1;0;4
+SimpleMBean.removeNotificationListener( NotificationListener notificationListener , NotificationFilter notificationFilter , Object o );2;0;9
+SimpleMBean.getNotificationInfo( );1;0;3
+SimpleMBean.postRegister( Boolean done );2;0;6

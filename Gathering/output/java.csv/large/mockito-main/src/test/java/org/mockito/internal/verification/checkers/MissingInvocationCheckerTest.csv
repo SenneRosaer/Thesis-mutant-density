@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MissingInvocationCheckerTest.buildIntArgMethod( InvocationBuilder invocationBuilder );1;0;3
+MissingInvocationCheckerTest.shouldReportUsingInvocationDescription( );1;0;16
+MissingInvocationCheckerTest.buildMultiArgsMethod( );1;0;6
+MissingInvocationCheckerTest.shouldPassBecauseActualInvocationFound( );1;0;5
+MissingInvocationCheckerTest.shouldSpecifyPosition1WhenWantedInvocationDiffersFromActual( );1;0;14
+MissingInvocationCheckerTest.shouldReportWantedButNotInvoked( );1;0;14
+CustomInvocationBuilder.toString( );1;0;3
+MissingInvocationCheckerTest.buildSimpleMethod( );1;0;3
+CustomInvocationBuilder.matches( Object a );1;1;3
+MissingInvocationCheckerTest.buildDifferentMethod( );1;0;3
+MissingInvocationCheckerTest.shouldSpecifyPosition0WhenWantedInvocationDiffersFromActual( );1;0;14
+CustomInvocationBuilder.getArgumentsAsMatchers( );2;0;17
+MissingInvocationCheckerTest.shouldReportWantedInvocationDiffersFromActual( );1;0;14
+MissingInvocationCheckerTest.shouldNotSpecifyPositionWhenWantedSingleArgInvocationSiffersFromActual( );1;0;16
+MissingInvocationCheckerTest.shouldSpecifyPosition0And1WhenWantedInvocationDiffersFromActual( );1;0;14
+CustomInvocationBuilder.createInvocation( MockReference < Object > mockRef , MockitoMethod mockitoMethod , final Object [ ] arguments , RealMethod realMethod , Location location , int sequenceNumber );2;0;23

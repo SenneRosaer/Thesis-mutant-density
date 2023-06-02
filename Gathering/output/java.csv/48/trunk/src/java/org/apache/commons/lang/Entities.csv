@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ArrayEntityMap.ArrayEntityMap( int growBy );1;0;5
+BinaryEntityMap.binarySearch( int key );4;10;16
+Entities.escape( Writer writer , String str );4;4;20
+Entities.unescape( String str );3;1;14
+ArrayEntityMap.add( String name , int value );1;2;6
+LookupEntityMap.createLookupTable( );2;2;6
+PrimitiveEntityMap.name( int value );1;0;3
+ArrayEntityMap.ArrayEntityMap( );1;0;4
+MapIntMap.value( String name );2;2;7
+HashEntityMap.HashEntityMap( );1;0;4
+Entities.fillWithHtml40Entities( Entities entities );1;0;5
+Entities.createStringWriter( String str );1;2;3
+TreeEntityMap.TreeEntityMap( );1;0;4
+MapIntMap.name( int value );1;0;3
+PrimitiveEntityMap.add( String name , int value );1;0;4
+ArrayEntityMap.name( int value );3;3;8
+Entities.entityName( int value );1;0;3
+ArrayEntityMap.ensureCapacity( int capacity );2;2;11
+LookupEntityMap.lookupTable( );2;1;6
+LookupEntityMap.name( int value );2;1;6
+PrimitiveEntityMap.value( String name );2;2;7
+Entities.addEntities( String [ ] [ ] entityArray );2;2;5
+BinaryEntityMap.add( String name , int value );2;9;13
+BinaryEntityMap.BinaryEntityMap( int growBy );1;0;3
+BinaryEntityMap.name( int value );2;1;7
+Entities.escape( String str );2;0;9
+Entities.addEntity( String name , int value );1;0;3
+MapIntMap.add( String name , int value );1;0;4
+Entities.entityValue( String name );1;0;3
+ArrayEntityMap.value( String name );3;3;8
+BinaryEntityMap.BinaryEntityMap( );1;0;3
+Entities.unescape( Writer writer , String str );2;1;9
+Entities.doUnescape( Writer writer , String str , int firstAmp );14;20;59

@@ -1,0 +1,60 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionAspectSupport.afterPropertiesSet( );4;4;12
+VavrDelegate.evaluateTryFailure( Object retVal , TransactionAttribute txAttr , TransactionStatus status );3;0;7
+TransactionInfo.hasTransaction( );1;1;3
+TransactionAspectSupport.setTransactionManagerBeanName( @ Nullable String transactionManagerBeanName );1;0;3
+ThrowableHolderException.toString( );1;0;3
+ReactiveTransactionSupport.rollbackTransactionOnCancel( @ Nullable ReactiveTransactionInfo txInfo );4;3;9
+ReactiveTransactionInfo.getTransactionManager( );1;1;4
+TransactionInfo.getTransactionStatus( );1;0;3
+TransactionAspectSupport.cleanupTransactionInfo( @ Nullable TransactionInfo txInfo );2;1;5
+TransactionAspectSupport.setBeanFactory( @ Nullable BeanFactory beanFactory );1;0;3
+ReactiveTransactionSupport.prepareTransactionInfo( @ Nullable ReactiveTransactionManager tm , @ Nullable TransactionAttribute txAttr , String joinpointIdentification , @ Nullable ReactiveTransaction transaction );4;1;16
+TransactionAspectSupport.currentTransactionStatus( );3;3;7
+TransactionInfo.getTransactionAttribute( );1;0;3
+TransactionAspectSupport.currentTransactionInfo( );1;0;3
+TransactionAspectSupport.invokeWithinTransaction( Method method , @ Nullable Class < ? > targetClass , final InvocationCallback invocation );37;25;112
+ReactiveTransactionInfo.toString( );2;1;3
+ReactiveTransactionSupport.getName( );1;0;3
+TransactionInfo.toString( );2;1;3
+TransactionAspectSupport.methodIdentification( Method method , @ Nullable Class < ? > targetClass , @ Nullable TransactionAttribute txAttr );4;2;12
+TransactionAspectSupport.getTransactionManager( );1;0;3
+KotlinDelegate.awaitSingleOrNull( Publisher < ? > publisher , Object continuation );1;0;3
+TransactionAspectSupport.clearTransactionManagerCache( );1;0;4
+TransactionAspectSupport.completeTransactionAfterThrowing( @ Nullable TransactionInfo txInfo , Throwable ex );10;5;36
+ReactiveTransactionSupport.ReactiveTransactionSupport( ReactiveAdapter adapter );1;0;3
+TransactionAspectSupport.TransactionAspectSupport( );2;0;8
+TransactionAspectSupport.setTransactionManager( @ Nullable TransactionManager transactionManager );1;0;3
+TransactionInfo.bindToThread( );1;0;4
+ReactiveTransactionSupport.commitTransactionAfterReturning( @ Nullable ReactiveTransactionInfo txInfo );4;3;9
+TransactionInfo.getJoinpointIdentification( );1;0;3
+TransactionAspectSupport.prepareTransactionInfo( @ Nullable PlatformTransactionManager tm , @ Nullable TransactionAttribute txAttr , String joinpointIdentification , @ Nullable TransactionStatus status );4;1;17
+ReactiveTransactionInfo.getTransactionAttribute( );1;0;3
+TransactionAspectSupport.commitTransactionAfterReturning( @ Nullable TransactionInfo txInfo );4;3;8
+TransactionAspectSupport.getName( );1;0;3
+VavrDelegate.isVavrTry( Object retVal );1;0;3
+TransactionAspectSupport.setTransactionAttributes( Properties transactionAttributes );1;0;5
+TransactionAspectSupport.setTransactionAttributeSource( @ Nullable TransactionAttributeSource transactionAttributeSource );1;0;3
+TransactionAspectSupport.getBeanFactory( );1;0;3
+ReactiveTransactionInfo.newReactiveTransaction( @ Nullable ReactiveTransaction transaction );1;0;3
+TransactionAspectSupport.determineQualifiedTransactionManager( BeanFactory beanFactory , String qualifier );2;1;9
+TransactionAspectSupport.setTransactionAttributeSources( TransactionAttributeSource ... transactionAttributeSources );1;0;3
+TransactionAspectSupport.getTransactionManagerBeanName( );1;0;3
+ReactiveTransactionInfo.getReactiveTransaction( );1;0;3
+TransactionAspectSupport.getTransactionAttributeSource( );1;0;3
+TransactionInfo.TransactionInfo( @ Nullable PlatformTransactionManager transactionManager , @ Nullable TransactionAttribute transactionAttribute , String joinpointIdentification );1;0;5
+TransactionInfo.restoreThreadLocalStatus( );1;0;3
+ThrowableHolderException.ThrowableHolderException( Throwable throwable );1;0;3
+ReactiveTransactionInfo.ReactiveTransactionInfo( @ Nullable ReactiveTransactionManager transactionManager , @ Nullable TransactionAttribute transactionAttribute , String joinpointIdentification );1;0;5
+ReactiveTransactionSupport.completeTransactionAfterThrowing( @ Nullable ReactiveTransactionInfo txInfo , Throwable ex );8;5;29
+TransactionInfo.getTransactionManager( );1;1;4
+ReactiveTransactionSupport.createTransactionIfNecessary( ReactiveTransactionManager tm , @ Nullable TransactionAttribute txAttr , final String joinpointIdentification );4;4;14
+TransactionAspectSupport.asPlatformTransactionManager( @ Nullable Object transactionManager );3;2;9
+KotlinDelegate.asFlow( Publisher < ? > publisher );1;0;3
+ReactiveTransactionInfo.getJoinpointIdentification( );1;0;3
+TransactionAspectSupport.determineTransactionManager( @ Nullable TransactionAttribute txAttr );7;5;24
+TransactionAspectSupport.getContinuation( );1;1;4
+ReactiveTransactionSupport.invokeWithinTransaction( Method method , @ Nullable Class < ? > targetClass , InvocationCallback invocation , @ Nullable TransactionAttribute txAttr , ReactiveTransactionManager rtm );9;4;55
+TransactionInfo.newTransactionStatus( @ Nullable TransactionStatus status );1;0;3
+TransactionAspectSupport.createTransactionIfNecessary( @ Nullable PlatformTransactionManager tm , @ Nullable TransactionAttribute txAttr , final String joinpointIdentification );6;5;23
+TransactionAspectSupport.methodIdentification( Method method , @ Nullable Class < ? > targetClass );1;0;3

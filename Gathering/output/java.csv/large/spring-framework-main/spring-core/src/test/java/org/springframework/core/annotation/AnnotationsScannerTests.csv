@@ -1,0 +1,89 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnnotationsScannerTests.typeHierarchyStrategyOnClassWhenNotAnnotatedScansNone( );2;0;4
+AnnotationsScannerTests.superclassStrategyOnClassWhenHasInterfaceDoesNotIncludeInterfaces( );2;0;4
+AnnotationsScannerTests.trackIndexedAnnotations( int aggregateIndex , Annotation [ ] annotations , List < String > results );1;0;6
+AnnotationsScannerTests.typeHierarchyStrategyOnClassWhenHasSuperclassScansSuperclass( );2;0;5
+Ignorable.method( );1;0;2
+AnnotationsScannerTests.inheritedAnnotationsStrategyOnClassHierarchyScansInCorrectOrder( );2;0;5
+AnnotationsScannerTests.directStrategyOnClassWhenHasSuperclassScansOnlyDirect( );2;0;4
+AnnotationsScannerTests.typeHierarchyStrategyOnMethodWhenHasInterfaceDoesNotIncludeInterfaces( );1;0;5
+AnnotationsScannerTests.directStrategyOnMethodWhenHasInterfaceScansOnlyDirect( );1;0;4
+AnnotationsScannerTests.superclassStrategyOnClassWhenNotAnnotatedScansNone( );2;0;4
+AnnotationsScannerTests.inheritedAnnotationsStrategyOnClassWhenHasInterfaceDoesNotIncludeInterfaces( );2;0;4
+AnnotationsScannerTests.typeHierarchyStrategyOnMethodWithGenericParameterOverrideScansAnnotations( );1;0;5
+AnnotationsScannerTests.directStrategyOnBridgeMethodScansAnnotations( );1;0;5
+WithNoAnnotations.method( );1;0;2
+AnnotationsScannerTests.typeHierarchyStrategyOnMethodWithIgnorablesScansAnnotations( );1;0;4
+WithSingleAnnotation.method( );1;0;2
+AnnotationsScannerTests.scanWhenProcessorHasFinishMethodUsesFinishResult( );1;0;17
+AnnotationsScannerTests.scanWhenProcessorReturnsFromDoWithAnnotationsExitsEarly( );1;0;10
+AnnotationsScannerTests.typeHierarchyStrategyOnClassWhenHasInterfaceDoesNotIncludeInterfaces( );2;0;5
+AnnotationsScannerTests.methodFrom( Class < ? > type );1;0;3
+AnnotationsScannerTests.directStrategyOnClassWhenMultipleAnnotationsScansAnnotations( );2;0;4
+AnnotationsScannerTests.superclassStrategyOnMethodWhenMultipleAnnotationsScansAnnotations( );1;0;5
+AnnotationsScannerTests.superclassStrategyOnMethodWhenHasSuperclassScansSuperclass( );1;0;5
+AnnotationsScannerTests.doWithAggregate( Object context , int aggregateIndex );1;0;3
+AnnotationsScannerTests.superclassStrategyOnClassWhenHasSuperclassScansSuperclass( );2;0;5
+AnnotationsScannerTests.superclassStrategyOnMethodWhenNotAnnotatedScansNone( );1;0;4
+SingleSuperclass.method( );1;0;2
+GenericNonOverride.method( StringBuilder argument );1;0;2
+AnnotationsScannerTests.typeHierarchyStrategyOnClassScansAnnotations( );2;0;4
+AnnotationsScannerTests.typeHierarchyStrategyOnMethodHierarchyScansInCorrectOrder( );1;0;7
+AnnotationsScannerTests.inheritedAnnotationsStrategyOnClassScansAnnotations( );2;0;4
+AnnotationsScannerTests.directStrategyOnMethodWhenMultipleAnnotationsScansAnnotations( );1;0;5
+AnnotationsScannerTests.inheritedAnnotationsStrategyOnMethodScansAnnotations( );1;0;4
+GenericOverride.method( String argument );1;0;2
+WithHierarchy.method( );1;0;2
+AnnotationsScannerTests.typeHierarchyStrategyOnMethodWithMultipleCandidatesScansAnnotations( );1;0;4
+AnnotationsScannerTests.directStrategyOnMethodWhenHasSuperclassScansOnlyDirect( );1;0;4
+AnnotationsScannerTests.typeHierarchyStrategyWithEnclosingClassPredicatesOnMethodHierarchyUsesTypeHierarchyScan( );1;0;9
+AnnotationsScannerTests.typeHierarchyStrategyOnClassWhenMultipleAnnotationsScansAnnotations( );2;0;5
+AnnotationsScannerTests.superclassStrategyOnClassScansAnnotations( );2;0;4
+AnnotationsScannerTests.typeHierarchyStrategyOnMethodWhenNotAnnotatedScansNone( );1;0;4
+WithSingleSuperclass.method( );1;0;2
+AnnotationsScannerTests.typeHierarchyStrategyOnMethodWhenHasSuperclassScansSuperclass( );1;0;5
+HierarchySuperSuperclass.method( );1;0;2
+AnnotationsScannerTests.scan( C context , AnnotatedElement source , SearchStrategy searchStrategy , AnnotationsProcessor < C , R > processor );1;0;3
+AnnotationsScannerTests.inheritedAnnotationsMethodOnMethodWhenHasSuperclassIgnoresInherited( );1;0;4
+AnnotationsScannerTests.scan( AnnotatedElement element , SearchStrategy searchStrategy , Predicate < Class < ? > > searchEnclosingClass );1;0;9
+AnnotationsScannerTests.directStrategyOnClassScansAnnotations( );2;0;4
+WithMultipleAnnotations.method( );1;0;2
+AnnotationsScannerTests.typeHierarchyStrategyOnMethodWhenMultipleAnnotationsScansAnnotations( );1;0;5
+AnnotationsScannerTests.scanWhenProcessorReturnsFromDoWithAggregateExitsEarly( );1;0;17
+AnnotationsScannerTests.typeHierarchyStrategyOnBridgedMethodScansAnnotations( );1;0;6
+AnnotationsScannerTests.inheritedAnnotationsStrategyOnClassWhenHasAnnotationOnBothClassesIncludesOnlyOne( );2;0;7
+AnnotationsScannerTests.typeHierarchyStrategyOnBridgeMethodScansAnnotations( );1;0;6
+AnnotationsScannerTests.inheritedAnnotationsStrategyOnClassWhenHasSuperclassScansOnlyInherited( );2;0;5
+AnnotationsScannerTests.typeHierarchyStrategyWithEnclosingClassPredicatesOnEnclosedInnerClassScansAnnotations( );2;0;8
+MultipleMethods.method( );1;0;2
+AnnotationsScannerTests.directStrategyOnClassWhenNotAnnotatedScansNone( );2;0;4
+AnnotationsScannerTests.superclassStrategyOnClassHierarchyScansInCorrectOrder( );2;0;6
+AnnotationsScannerTests.finish( String result );1;0;3
+BridgedMethod.method( String arg );1;0;2
+HierarchySuperclass.method( );1;0;2
+AnnotationsScannerTests.directStrategyOnBridgedMethodScansAnnotations( );1;0;5
+AnnotationsScannerTests.inheritedAnnotationsStrategyOnMethodWhenNotAnnotatedScansNone( );1;0;4
+AnnotationsScannerTests.typeHierarchyStrategyOnMethodScansAnnotations( );1;0;4
+AnnotationsScannerTests.superclassStrategyOnClassWhenMultipleAnnotationsScansAnnotations( );2;0;4
+AnnotationsScannerTests.directStrategyOnClassWhenHasInterfaceScansOnlyDirect( );2;0;4
+WithSingleSuperclassAndDoubleInherited.method( );1;0;2
+AnnotationsScannerTests.inheritedAnnotationsStrategyOnMethodHierarchyScansInCorrectOrder( );1;0;4
+AnnotationsScannerTests.directStrategyOnMethodHierarchyScansInCorrectOrder( );1;0;4
+AnnotationsScannerTests.inheritedAnnotationsStrategyOnMethodWhenHasInterfaceDoesNotIncludeInterfaces( );1;0;4
+AnnotationsScannerTests.inheritedAnnotationsStrategyOnClassWhenMultipleAnnotationsScansAnnotations( );2;0;5
+AnnotationsScannerTests.typeHierarchyStrategyOnClassHierarchyScansInCorrectOrder( );2;0;7
+AnnotationsScannerTests.scan( C context , AnnotatedElement source , SearchStrategy searchStrategy , Predicate < Class < ? > > searchEnclosingClass , AnnotationsProcessor < C , R > processor );1;0;3
+AnnotationsScannerTests.superclassStrategyOnMethodHierarchyScansInCorrectOrder( );1;0;6
+AnnotationsScannerTests.directStrategyOnClassHierarchyScansInCorrectOrder( );2;0;4
+AnnotationsScannerTests.inheritedAnnotationsStrategyOnClassWhenNotAnnotatedScansNone( );2;0;4
+AnnotationsScannerTests.directStrategyOnMethodScansAnnotations( );1;0;4
+WithSingleInterface.method( );1;0;2
+AnnotationsScannerTests.inheritedAnnotationsStrategyOnMethodWhenMultipleAnnotationsScansAnnotations( );1;0;5
+AnnotationsScannerTests.typeHierarchyStrategyOnMethodWithGenericParameterNonOverrideScansAnnotations( );1;0;4
+AnnotationsScannerTests.doWithAnnotations( Object context , int aggregateIndex , Object source , Annotation [ ] annotations );1;0;3
+AnnotationsScannerTests.superclassStrategyOnMethodScansAnnotations( );1;0;4
+AnnotationsScannerTests.superclassStrategyOnMethodWhenHasInterfaceDoesNotIncludeInterfaces( );1;0;4
+AnnotationsScannerTests.scan( AnnotatedElement element , SearchStrategy searchStrategy );1;0;3
+AnnotationsScannerTests.typeHierarchyStrategyWithEnclosingClassPredicatesOnEnclosedStaticClassScansAnnotations( );2;0;8
+AnnotationsScannerTests.indexedName( int aggregateIndex , Annotation annotation );1;1;3
+AnnotationsScannerTests.directStrategyOnMethodWhenNotAnnotatedScansNone( );1;0;4

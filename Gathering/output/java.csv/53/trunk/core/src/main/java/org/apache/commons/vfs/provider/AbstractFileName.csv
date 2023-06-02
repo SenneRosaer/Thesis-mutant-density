@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractFileName.getRootURI( );2;1;10
+AbstractFileName.getType( );1;0;3
+AbstractFileName.getScheme( );1;0;3
+AbstractFileName.isAncestor( final FileName ancestor );2;1;7
+AbstractFileName.equals( final Object obj );3;2;8
+AbstractFileName.hashCode( );2;1;8
+AbstractFileName.getBaseName( );3;4;15
+AbstractFileName.isDescendent( final FileName descendent , final NameScope scope );2;1;7
+AbstractFileName.getParent( );4;6;17
+AbstractFileName.checkName( final String basePath , final String path , final NameScope scope );18;26;46
+AbstractFileName.getRoot( );2;1;8
+AbstractFileName.getPathDecoded( );2;1;7
+AbstractFileName.getPath( );2;1;7
+AbstractFileName.compareTo( Object obj );3;1;16
+AbstractFileName.getRelativeName( final FileName name );15;26;40
+AbstractFileName.getURI( );2;1;7
+AbstractFileName.setType( FileType type );4;5;7
+AbstractFileName.AbstractFileName( final String scheme , final String absPath , FileType type );5;6;20
+AbstractFileName.isDescendent( final FileName descendent );1;0;3
+AbstractFileName.getExtension( );4;6;16
+AbstractFileName.getFriendlyURI( );1;0;6
+AbstractFileName.getDepth( );6;11;13
+AbstractFileName.createURI( );1;0;6
+AbstractFileName.toString( );1;0;3
+AbstractFileName.getUriTrailer( );2;0;3

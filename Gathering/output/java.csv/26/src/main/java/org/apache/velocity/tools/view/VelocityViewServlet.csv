@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VelocityViewServlet.doPost( HttpServletRequest request , HttpServletResponse response );1;0;3
+VelocityViewServlet.init( ServletConfig config );3;2;10
+VelocityViewServlet.error( HttpServletRequest request , HttpServletResponse response , Throwable e );5;3;37
+VelocityViewServlet.handleRequest( HttpServletRequest request , HttpServletResponse response , Context ctx );1;0;3
+VelocityViewServlet.mergeTemplate( Template template , Context context , HttpServletResponse response );3;0;16
+VelocityViewServlet.setContentType( HttpServletRequest request , HttpServletResponse response );1;0;3
+VelocityViewServlet.doGet( HttpServletRequest request , HttpServletResponse response );1;0;3
+VelocityViewServlet.doRequest( HttpServletRequest request , HttpServletResponse response );2;0;19
+VelocityViewServlet.getLog( );1;0;3
+VelocityViewServlet.getVelocityProperty( String name , String alternate );1;0;3
+VelocityViewServlet.getVelocityView( );2;2;8
+VelocityViewServlet.findInitParameter( ServletConfig config , String key );3;3;9
+VelocityViewServlet.getTemplate( String name );1;0;3
+***not in a method***;0;1;0
+VelocityViewServlet.getTemplate( HttpServletRequest request , HttpServletResponse response );1;0;3
+VelocityViewServlet.fillContext( Context context , HttpServletRequest request );1;0;2
+VelocityViewServlet.requestCleanup( HttpServletRequest request , HttpServletResponse response , Context context );1;0;2
+VelocityViewServlet.createContext( HttpServletRequest request , HttpServletResponse response );1;0;3

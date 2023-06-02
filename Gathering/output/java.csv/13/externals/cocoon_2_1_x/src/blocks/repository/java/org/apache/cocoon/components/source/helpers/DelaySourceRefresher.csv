@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RefresherTask.RefresherTask( String key , String uri , long interval );1;0;5
+DelaySourceRefresher.stopConfigurationTask( );2;1;7
+DelaySourceRefresher.configure( Configuration configuration );8;6;26
+RefresherTask.run( );9;3;44
+RefresherTask.update( String uri , long interval );1;0;4
+DelaySourceRefresher.setupRefreshJobs( final Configuration conf );6;4;16
+DelaySourceRefresher.contextualize( Context context );1;0;4
+DelaySourceRefresher.service( ServiceManager manager );1;0;5
+DelaySourceRefresher.startConfigurationTask( long interval );1;0;5
+DelaySourceRefresher.addRefreshSource( String key , String uri , long delay , long interval );3;2;16
+DelaySourceRefresher.setupSingleRefreshJob( final Configuration conf );2;0;9
+DelaySourceRefresher.removeRefreshSource( String key );2;1;8
+RefresherTask.toXML( );2;0;15
+ConfigurationTask.run( );9;2;35
+DelaySourceRefresher.refresh( String name , String uri , Parameters parameters );3;4;8
+DelaySourceRefresher.readRefreshJobConfiguration( );4;1;17
+DelaySourceRefresher.dispose( );3;2;12

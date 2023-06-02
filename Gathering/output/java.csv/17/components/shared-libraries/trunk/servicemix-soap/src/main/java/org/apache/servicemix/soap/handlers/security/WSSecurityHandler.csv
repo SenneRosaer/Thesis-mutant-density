@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WSSecurityHandler.setDomain( String domain );1;0;3
+WSSecurityHandler.setKeystore( String keystore );1;0;3
+WSSecurityHandler.getReceiveAction( );1;0;3
+WSSecurityHandler.setCrypto( Crypto crypto );1;0;3
+WSSecurityHandler.getCurrentHandler( );1;0;3
+DefaultHandler.processSignature( WSPasswordCallback callback );1;0;3
+WSSecurityHandler.init( Context context );5;6;11
+WSSecurityHandler.loadEncryptionCrypto( RequestData reqData );1;0;3
+WSSecurityHandler.setUsername( String username );1;0;3
+WSSecurityHandler.setSendAction( String action );1;0;3
+SignatureProcessor.handleToken( Element elem , Crypto crypto , Crypto decCrypto , CallbackHandler cb , WSDocInfo wsDocInfo , Vector returnResults , WSSConfig wsc );4;0;32
+ServiceMixWssConfig.getProcessor( QName el );2;0;7
+WSSecurityHandler.getAuthenticationService( );1;0;3
+WSSecurityHandler.onFault( Context context );1;0;2
+WSSecurityHandler.requireDOM( );1;0;3
+WSSecurityHandler.getProperty( Object msgContext , String key );2;0;6
+WSSecurityHandler.getDomain( );1;0;3
+WSSecurityHandler.setRequired( boolean required );1;0;3
+WSSecurityHandler.setActor( String actor );1;0;3
+WSSecurityHandler.loadSignatureCrypto( RequestData reqData );1;0;3
+WSSecurityHandler.getKeystore( );1;0;3
+WSSecurityHandler.getOption( String key );1;0;3
+WSSecurityHandler.onReceive( Context context );20;14;90
+SignatureProcessor.getId( );1;0;3
+WSSecurityHandler.setOption( String key , Object value );1;0;3
+WSSecurityHandler.isRequired( );1;0;3
+WSSecurityHandler.getActor( );1;0;3
+WSSecurityHandler.setProperty( Object msgContext , String key , Object value );1;0;3
+WSSecurityHandler.setReceiveAction( String receiveAction );1;0;3
+WSSecurityHandler.setPassword( Object msgContext , String password );1;0;3
+WSSecurityHandler.getCrypto( );1;0;3
+WSSecurityHandler.loadDecryptionCrypto( RequestData reqData );1;0;3
+DefaultHandler.processUsernameTokenUnkown( WSPasswordCallback callback );2;0;7
+WSSecurityHandler.onAnswer( Context context );1;0;2
+WSSecurityHandler.WSSecurityHandler( );1;0;3
+WSSecurityHandler.checkUser( String user , Object credentials );3;2;11
+WSSecurityHandler.onSend( Context context );11;12;43
+WSSecurityHandler.onReply( Context context );1;0;2
+WSSecurityHandler.getPassword( Object msgContext );1;0;3
+WSSecurityHandler.getSendAction( );1;0;3
+WSSecurityHandler.getUsername( );1;0;3
+WSSecurityHandler.setAuthenticationService( AuthenticationService authenticationService );1;0;3

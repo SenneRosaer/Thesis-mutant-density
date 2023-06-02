@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandardWebSocketUpgradeStrategy.getContainer( HttpServletRequest request );2;1;10
+StandardWebSocketUpgradeStrategy.setAsyncSendTimeout( Long timeoutInMillis );1;0;3
+StandardWebSocketUpgradeStrategy.getMaxSessionIdleTimeout( );1;0;3
+StandardWebSocketUpgradeStrategy.setMaxTextMessageBufferSize( Integer bufferSize );1;0;3
+StandardWebSocketUpgradeStrategy.setMaxBinaryMessageBufferSize( Integer bufferSize );1;0;3
+StandardWebSocketUpgradeStrategy.getAsyncSendTimeout( );1;0;3
+StandardWebSocketUpgradeStrategy.getMaxTextMessageBufferSize( );1;0;3
+StandardWebSocketUpgradeStrategy.upgrade( ServerWebExchange exchange , WebSocketHandler handler , @ Nullable String subProtocol , Supplier < HandshakeInfo > handshakeInfoFactory );3;1;25
+StandardWebSocketUpgradeStrategy.setMaxSessionIdleTimeout( Long timeoutInMillis );1;0;3
+StandardWebSocketUpgradeStrategy.getMaxBinaryMessageBufferSize( );1;0;3
+StandardWebSocketUpgradeStrategy.initServerContainer( ServerContainer serverContainer );5;4;14
+StandardWebSocketUpgradeStrategy.upgradeHttpToWebSocket( HttpServletRequest request , HttpServletResponse response , ServerEndpointConfig endpointConfig , Map < String , String > pathParams );1;0;3

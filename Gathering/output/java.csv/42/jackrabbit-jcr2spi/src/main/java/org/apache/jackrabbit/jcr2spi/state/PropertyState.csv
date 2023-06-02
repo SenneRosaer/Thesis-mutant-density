@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropertyState.PropertyState( PropertyEntry entry , ItemStateFactory isf , QPropertyDefinition definition , ItemDefinitionProvider definitionProvider , QValue [ ] values , int propertyType );1;0;6
+PropertyData.PropertyData( int type , QValue [ ] values );1;0;3
+PropertyState.setValues( QValue [ ] values , int type );4;3;16
+PropertyState.getId( );1;0;3
+PropertyState.getValue( );4;3;11
+PropertyState.isMultiValued( );1;0;3
+PropertyState.validate( QValue [ ] values , int propertyType , QPropertyDefinition definition );7;9;14
+PropertyState.revert( );3;2;12
+PropertyState.diff( PropertyData p1 , PropertyData p2 );6;7;18
+PropertyState.isNode( );1;0;3
+PropertyState.getValues( );2;1;3
+PropertyState.PropertyState( PropertyEntry entry , PropertyInfo pInfo , ItemStateFactory isf , ItemDefinitionProvider definitionProvider );1;0;6
+PropertyData.setValues( int type , QValue [ ] values );2;1;6
+PropertyState.getWorkspaceId( );1;0;3
+PropertyState.getDefinition( );2;1;6
+PropertyState.getType( );2;1;3
+PropertyData.discardValues( );4;4;9
+PropertyState.merge( ItemState another , boolean keepChanges );6;5;17
+PropertyData.PropertyData( PropertyInfo pInfo );1;0;4

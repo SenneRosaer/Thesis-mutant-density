@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PageProvider.getAvailableBPD( int index );6;6;29
+PageProvider.getStartingPartIndexForLastPage( int partCount );3;5;20
+PageProvider.PageProvider( AreaTreeHandler ath , PageSequence ps );1;0;5
+***not in a method***;0;4;0
+PageProvider.getPage( boolean isBlank , int index );17;13;39
+PageProvider.cacheNextPage( int index , boolean isBlank , boolean isLastPage );2;2;18
+PageProvider.getPage( boolean isBlank , int index , int relativeTo );3;5;12
+PageProvider.discardCacheStartingWith( int index );3;3;8
+PageProvider.setStartOfNextElementList( int startPage , int startColumn );1;4;8
+PageProvider.setLastPageIndex( int index );1;0;3

@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DistanceQuery.toString( String fn );1;2;3
+DistanceQuery.subQueriesOrdered( );1;0;1
+DistanceQuery.DistanceQuery( List queries , boolean infix , int opDistance , String opName , boolean ordered );1;0;5
+DistanceQuery.rewrite( IndexReader reader );1;0;3
+DistanceQuery.getSpanNearQuery( IndexReader reader , String fieldName , float boost , BasicQueryFactory qf );4;3;21
+DistanceQuery.makeLuceneQueryFieldNoBoost( final String fieldName , final BasicQueryFactory qf );1;0;10
+DistanceQuery.getOpDistance( );1;0;1
+DistanceQuery.distanceSubQueryNotAllowed( );4;1;16
+DistanceQuery.addSpanQueries( SpanNearClauseFactory sncf );1;0;7

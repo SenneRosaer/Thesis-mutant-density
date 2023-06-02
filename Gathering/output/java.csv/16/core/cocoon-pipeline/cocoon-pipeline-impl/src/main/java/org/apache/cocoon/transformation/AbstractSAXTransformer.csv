@@ -1,0 +1,53 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractSAXTransformer.characters( char [ ] p0 , int p1 , int p2 );4;2;12
+AbstractSAXTransformer.setupTransforming( );2;0;9
+AbstractSAXTransformer.sendEvents( Node node );1;0;3
+AbstractSAXTransformer.removeRecorder( );2;0;14
+AbstractSAXTransformer.service( ServiceManager aManager );1;0;3
+AbstractSAXTransformer.sendEndPrefixMapping( );2;2;7
+AbstractSAXTransformer.endRecording( );8;5;31
+AbstractSAXTransformer.ignorableWhitespace( char [ ] p0 , int p1 , int p2 );3;3;5
+AbstractSAXTransformer.setDocumentLocator( Locator locator );2;1;5
+AbstractSAXTransformer.endElement( String uri , String name , String raw );6;3;15
+AbstractSAXTransformer.sendStartPrefixMapping( );2;2;7
+AbstractSAXTransformer.endEntity( String name );2;1;5
+AbstractSAXTransformer.endParametersRecording( SourceParameters additionalParameters );2;0;9
+AbstractSAXTransformer.endTextRecording( );2;0;9
+AbstractSAXTransformer.startSAXRecording( );1;0;4
+AbstractSAXTransformer.sendParametersEvents( SourceParameters pars );4;1;15
+AbstractSAXTransformer.sendEndElementEventNS( String localname );1;2;4
+AbstractSAXTransformer.endSerializedXMLRecording( );2;0;8
+AbstractSAXTransformer.dispose( );1;0;3
+AbstractSAXTransformer.findPrefixMapping( String uri );3;2;10
+AbstractSAXTransformer.addRecorder( XMLConsumer recorder );2;0;9
+AbstractSAXTransformer.sendStartElementEvent( String localname );1;0;3
+AbstractSAXTransformer.startCDATA( );2;1;5
+AbstractSAXTransformer.endParametersRecording( Parameters additionalParameters );2;0;9
+AbstractSAXTransformer.endPrefixMapping( String prefix );11;12;33
+AbstractSAXTransformer.processingInstruction( String target , String data );2;1;5
+AbstractSAXTransformer.endCDATA( );2;1;5
+AbstractSAXTransformer.sendStartElementEvent( String localname , Attributes attr );1;0;3
+AbstractSAXTransformer.startDTD( String name , String public_id , String system_id );2;1;5
+AbstractSAXTransformer.startParametersRecording( );2;0;7
+AbstractSAXTransformer.comment( char ary [ ] , int start , int length );2;1;5
+AbstractSAXTransformer.startPrefixMapping( String prefix , String uri );6;5;15
+AbstractSAXTransformer.endTransformingElement( String uri , String name , String raw );2;1;5
+AbstractSAXTransformer.startRecording( );2;0;10
+AbstractSAXTransformer.sendEndElementEvent( String localname );1;0;3
+AbstractSAXTransformer.startTransformingElement( String uri , String name , String raw , Attributes attr );2;1;5
+AbstractSAXTransformer.endSAXRecording( );1;0;4
+AbstractSAXTransformer.skippedEntity( String name );2;1;5
+AbstractSAXTransformer.configure( Configuration configuration );4;1;16
+AbstractSAXTransformer.setup( SourceResolver resolver , Map objectModel , String src , Parameters params );3;1;25
+AbstractSAXTransformer.sendStartElementEventNS( String localname );1;2;4
+AbstractSAXTransformer.startElement( String uri , String name , String raw , Attributes attr );6;3;15
+AbstractSAXTransformer.startTextRecording( );2;0;7
+AbstractSAXTransformer.sendTextEvent( String text );1;0;3
+AbstractSAXTransformer.endDTD( );2;1;5
+AbstractSAXTransformer.startSerializedXMLRecording( Properties format );3;1;7
+AbstractSAXTransformer.startEntity( String name );2;1;5
+AbstractSAXTransformer.getMutableAttributes( Attributes a );3;2;6
+AbstractSAXTransformer.sendStartElementEventNS( String localname , Attributes attr );1;2;4
+AbstractSAXTransformer.endDocument( );2;1;5
+AbstractSAXTransformer.startDocument( );5;2;15
+AbstractSAXTransformer.recycle( );1;0;15

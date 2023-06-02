@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IvyConsole.dump( );2;2;11
+IvyConsole.clearProblems( );1;0;5
+IvyConsole.getProblems( );1;0;3
+IvyConsole.info( String msg );1;0;3
+MyLifecycle.consolesRemoved( IConsole [ ] consoles );3;3;9
+IvyConsole.rawlog( String msg , int level );1;0;3
+IvyConsole.getErrors( );1;0;3
+IvyConsole.initializeStreams( );3;3;21
+IvyConsole.run( );1;0;4
+IvyConsole.appendLine( int level , String line );2;0;10
+IvyConsole.error( String msg );1;0;5
+IvyConsole.deprecated( String msg );1;0;3
+IvyConsole.endProgress( );1;0;3
+IvyConsole.createColor( Display display , String preference );6;1;16
+IvyConsole.getWarns( );1;0;3
+IvyConsole.setShowProgress( boolean progress );1;0;3
+IvyConsole.progress( );1;0;2
+IvyConsole.endProgress( String msg );1;0;2
+MyLifecycle.consolesAdded( IConsole [ ] consoles );3;3;8
+IvyConsole.rawinfo( String msg );1;0;3
+IvyConsole.warn( String msg );1;0;5
+IvyConsole.show( boolean showNoMatterWhat );4;2;9
+IvyConsole.IvyConsole( );1;0;6
+IvyConsole.log( String msg , int level );1;0;3
+IvyConsole.verbose( String msg );1;0;3
+IvyConsole.isShowProgress( );1;0;3
+IvyConsole.showConsole( );1;0;3
+IvyConsole.debug( String msg );1;0;3
+IvyConsole.sumupProblems( );1;0;4
+IvyConsole.init( );1;0;9

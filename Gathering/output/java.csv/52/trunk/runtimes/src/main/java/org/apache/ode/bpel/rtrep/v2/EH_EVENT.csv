@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EH_EVENT.terminateActive( );3;1;8
+SELECT.SELECT( ScopeFrame scopeFrame );1;0;3
+WAITING.onCancel( );1;0;3
+WAITING.cancelled( );1;0;1
+WAITING.compensate( OScope scope , SynchChannel ret );1;0;4
+SELECT.run( );5;6;28
+EH_EVENT.EH_EVENT( ParentScopeChannel psc , TerminationChannel tc , EventHandlerControlChannel ehc , OEventHandler . OEvent o , ScopeFrame scopeFrame );1;0;7
+WAITING.onTimeout( );1;0;3
+WAITING.failure( String reason , Element data );1;0;1
+WAITING.stop( );2;1;6
+WAITING.terminate( );2;1;7
+WAITING.onRequestRcvd( int selectorIdx , String mexId );17;12;64
+EH_EVENT.run( );1;0;3
+WAITING.run( );27;8;126
+WAITING.WAITING( PickResponseChannel pickResponseChannel , ScopeFrame scopeFrame );1;0;4
+WAITING.completed( FaultData faultData , Set < CompensationHandler > compensations );3;3;10

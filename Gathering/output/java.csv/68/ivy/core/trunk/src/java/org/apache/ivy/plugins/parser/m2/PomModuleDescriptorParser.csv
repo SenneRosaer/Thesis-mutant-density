@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PomModuleDescriptorParser.parseOtherPom( ParserSettings ivySettings , ModuleRevisionId parentModRevID );3;2;17
+PomModuleDescriptorParser.toString( );1;0;3
+PomModuleDescriptorParser.PomModuleDescriptorParser( );1;0;2
+PomModuleDescriptorParser.parseDescriptor( ParserSettings ivySettings , URL descriptorURL , boolean validate );1;0;4
+PomModuleDescriptorParser.accept( Resource res );3;2;4
+PomModuleDescriptorParser.toIvyFile( InputStream is , Resource res , File destFile , ModuleDescriptor md );2;1;9
+PomModuleDescriptorParser.addSourcesAndJavadocArtifactsIfPresent( PomModuleDescriptorBuilder mdBuilder , ParserSettings ivySettings );8;9;34
+PomModuleDescriptorParser.getInstance( );1;0;3
+PomModuleDescriptorParser.parseDescriptor( ParserSettings ivySettings , URL descriptorURL , Resource res , boolean validate );22;16;127
+PomModuleDescriptorParser.getType( );1;0;3
+PomModuleDescriptorParser.newParserException( Exception e );1;0;6
+PomModuleDescriptorParser.getMetadataArtifact( ModuleRevisionId mrid , Resource res );1;0;3

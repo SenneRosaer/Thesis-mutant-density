@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TermVector.TermVector( String name );1;0;3
+Field.Field( String name , TokenStream tokenStream , TermVector termVector );3;2;14
+Field.Field( String name , TokenStream tokenStream );1;0;3
+Index.Index( String name );1;0;3
+Field.Field( String name , Reader reader );1;0;3
+Field.setValue( TokenStream value );1;0;3
+Field.setValue( Reader value );1;0;3
+Field.tokenStreamValue( );2;0;1
+Field.Field( String name , byte [ ] value , int offset , int length , Store store );6;5;26
+Field.stringValue( );2;0;1
+Field.Field( String name , String value , Store store , Index index , TermVector termVector );17;19;52
+Field.Field( String name , String value , Store store , Index index );1;0;3
+Store.Store( String name );1;0;3
+Field.setValue( String value );1;0;3
+Field.binaryValue( );4;4;10
+Field.readerValue( );2;0;1
+Field.Field( String name , byte [ ] value , Store store );1;0;3
+Field.setValue( byte [ ] value , int offset , int length );1;0;5
+Field.setValue( byte [ ] value );1;0;5
+Field.Field( String name , Reader reader , TermVector termVector );3;2;14

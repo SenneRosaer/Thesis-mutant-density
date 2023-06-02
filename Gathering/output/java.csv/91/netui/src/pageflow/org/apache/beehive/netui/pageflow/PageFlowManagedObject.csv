@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PageFlowManagedObject.PageFlowManagedObject( );1;0;3
+PageFlowManagedObject.onDestroy( HttpSession session );1;0;2
+PageFlowManagedObject.create( HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );1;0;5
+PageFlowManagedObject.fieldIsUninitialized( Field field );3;3;11
+PageFlowManagedObject.reinitializeIfNecessary( HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );2;1;5
+PageFlowManagedObject.onCreate( );1;0;2
+PageFlowManagedObject.initializeField( Field field , Object instance );5;1;23
+PageFlowManagedObject.valueUnbound( HttpSessionBindingEvent event );7;6;21
+PageFlowManagedObject.destroy( RequestContext requestContext , HttpSession session );2;1;18
+PageFlowManagedObject.reinitialize( HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );1;0;3
+PageFlowManagedObject.getCreateTime( );1;0;3
+PageFlowManagedObject.valueBound( HttpSessionBindingEvent event );1;0;2
+PageFlowManagedObject.getServletContext( );1;0;3
+PageFlowManagedObject.destroy( HttpSession session );1;0;3
+PageFlowManagedObject.isDestroyed( );1;0;3

@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Generator.getCustomizers( Class < T > klass );1;0;3
+KeyFactory.customize( CodeEmitter e , int index , Type type );2;0;5
+Generator.Generator( );1;0;3
+Generator.setHashMultiplier( int multiplier );1;0;3
+Generator.setHashConstant( int constant );1;0;3
+Generator.nextInstance( Object instance );1;0;3
+KeyFactory.getOutType( int index , Type type );2;0;6
+KeyFactory.KeyFactory( );1;0;2
+Generator.getFieldName( int arg );1;0;3
+Generator.setInterface( Class keyInterface );1;0;3
+Generator.generateClass( ClassVisitor v );11;17;91
+Generator.getDefaultClassLoader( );1;0;3
+KeyFactory.create( ClassLoader loader , Class keyInterface , KeyFactoryCustomizer customizer , List < KeyFactoryCustomizer > next );5;4;15
+Generator.addCustomizer( KeyFactoryCustomizer customizer );1;0;3
+Generator.firstInstance( Class type );1;0;3
+KeyFactory.create( Class keyInterface , KeyFactoryCustomizer first , List < KeyFactoryCustomizer > next );1;0;3
+KeyFactory.create( ClassLoader loader , Class keyInterface , Customizer customizer );1;0;3
+Generator.create( );1;0;4
+Generator.setCustomizer( Customizer customizer );1;0;3
+Generator.getProtectionDomain( );1;0;3
+KeyFactory.create( Class keyInterface , Customizer customizer );1;0;3
+KeyFactory.create( Class keyInterface );1;0;3

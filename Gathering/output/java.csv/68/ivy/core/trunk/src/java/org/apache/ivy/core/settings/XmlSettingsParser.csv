@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlSettingsParser.classpathStarted( Map attributes );3;2;16
+IvyVariableContainerWrapper.IvyVariableContainerWrapper( IvyVariableContainer variables );1;0;3
+XmlSettingsParser.startElement( String uri , String localName , String qName , Attributes att );20;4;51
+XmlSettingsParser.propertiesStarted( Map attributes );4;3;18
+XmlSettingsParser.typedefStarted( Map attributes );1;0;6
+XmlSettingsParser.versionMatchersStarted( String qName , Map attributes );2;0;6
+XmlSettingsParser.propertyStarted( Map attributes );4;3;13
+XmlSettingsParser.inConfiguratorStarted( String qName , Map attributes );16;12;53
+XmlSettingsParser.resolveFile( String path , String filename );1;0;3
+XmlSettingsParser.anyConfiguratorStarted( String qName );1;0;4
+XmlSettingsParser.credentialsStarted( Map attributes );1;0;7
+XmlSettingsParser.moduleStarted( Map attributes );2;1;11
+XmlSettingsParser.includeStarted( Map attributes );5;2;36
+XmlSettingsParser.doParse( URL settingsUrl );5;1;25
+IvyVariableContainerWrapper.getVariable( String name );2;0;6
+XmlSettingsParser.macrodefStarted( String qName , Map attributes );1;0;6
+XmlSettingsParser.settingsStarted( String qName , Map attributes );15;13;62
+XmlSettingsParser.parse( Configurator configurator , URL configuration );1;0;4
+IvyVariableContainerWrapper.setVariable( String varName , String value , boolean overwrite );4;2;9
+XmlSettingsParser.XmlSettingsParser( IvySettings ivy );1;0;3
+XmlSettingsParser.cachesStarted( String qName , Map attributes );8;7;33
+IvyVariableContainerWrapper.clone( );1;0;3
+IvyVariableContainerWrapper.setEnvironmentPrefix( String prefix );1;0;3
+XmlSettingsParser.urlFromFileAttribute( String filePath );5;0;19
+XmlSettingsParser.endElement( String uri , String localName , String qName );6;5;13
+XmlSettingsParser.statusesStarted( String qName , Map attributes );2;1;10
+XmlSettingsParser.parse( URL settings );2;0;14
+XmlSettingsParser.endDocument( );12;11;47

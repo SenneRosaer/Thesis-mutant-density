@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransformerChainBuilderFilter.setLanguageDescriptor( LanguageDescriptor language );1;0;3
+LanguageDescriptor.getLogicsheet( );1;0;3
+AbstractMarkupLanguage.service( ServiceManager manager );1;0;5
+AbstractMarkupLanguage.AbstractMarkupLanguage( );1;0;3
+LanguageDescriptor.setLogicsheet( String logicsheet );1;0;3
+LanguageDescriptor.getName( );1;0;3
+AbstractMarkupLanguage.configure( Configuration conf );4;4;33
+AbstractMarkupLanguage.getEncoding( );1;0;3
+AbstractMarkupLanguage.hasAttrInterpolation( );1;0;3
+TransformerChainBuilderFilter.startElement( String namespaceURI , String localName , String qName , Attributes atts );7;5;28
+TransformerChainBuilderFilter.TransformerChainBuilderFilter( LogicsheetCodeGenerator logicsheetMarkupGenerator );1;0;3
+AbstractMarkupLanguage.getPrefix( );1;0;3
+AbstractMarkupLanguage.createLogicsheet( Configuration configuration , boolean named );2;1;22
+AbstractMarkupLanguage.hasTextInterpolation( );1;0;3
+AbstractMarkupLanguage.dispose( );1;0;8
+AbstractMarkupLanguage.getURI( );1;0;3
+LanguageDescriptor.LanguageDescriptor( );1;0;3
+AbstractMarkupLanguage.getPreprocessFilter( String filename , AbstractXMLPipe filter , ProgrammingLanguage language );1;0;3
+LanguageDescriptor.addNamedLogicsheet( String uri , String prefix , String namedLogicsheet );1;0;3
+AbstractMarkupLanguage.addLogicsheetsToGenerator( LogicsheetCodeGenerator codeGenerator );5;6;17
+AbstractMarkupLanguage.generateCode( Source source , String filename , ProgrammingLanguage programmingLanguage );2;1;14
+AbstractMarkupLanguage.getName( );1;0;3
+AbstractMarkupLanguage.getTransformerChainBuilder( LogicsheetCodeGenerator logicsheetMarkupGenerator );1;0;3
+TransformerChainBuilderFilter.startPrefixMapping( String prefix , String uri );2;1;10
+TransformerChainBuilderFilter.startDocument( );1;0;4
+AbstractMarkupLanguage.getLogicsheetFilter( );1;0;3
+AbstractMarkupLanguage.recycle( );1;0;3
+AbstractMarkupLanguage.addLogicsheetToList( LanguageDescriptor language , String logicsheetLocation );11;8;56
+LanguageDescriptor.setName( String name );1;0;3
+LanguageDescriptor.getNamedLogicsheetByURI( String uri );1;0;3

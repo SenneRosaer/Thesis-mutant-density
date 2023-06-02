@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleLock.lockInterruptibly( );1;0;3
+SimpleLock.isLocked( );1;0;3
+SimpleLock.lock( );1;0;3
+Sync.newCondition( );1;0;3
+Sync.tryRelease( int releases );2;2;8
+Sync.tryAcquire( int acquires );1;1;4
+SimpleLock.newCondition( );1;0;3
+SimpleLock.hasQueuedThreads( );1;0;3
+SimpleLock.unlock( );1;0;3
+Sync.isHeldExclusively( );1;1;3
+SimpleLock.tryLock( long timeout , TimeUnit unit );1;0;3
+Sync.readObject( ObjectInputStream s );1;0;4
+SimpleLock.tryLock( );1;0;3

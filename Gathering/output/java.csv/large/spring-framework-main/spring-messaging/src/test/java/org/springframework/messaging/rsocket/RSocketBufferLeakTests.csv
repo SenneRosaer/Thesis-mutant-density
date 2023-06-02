@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RSocketBufferLeakTests.setUp( );1;0;4
+ServerConfig.rsocketStrategies( );1;0;5
+PayloadLeakInfo.PayloadLeakInfo( io . rsocket . Payload payload );1;0;4
+ServerController.errorSignal( String payload );1;0;5
+PayloadSavingDecorator.metadataPush( io . rsocket . Payload payload );1;0;3
+ServerConfig.messageHandler( );1;0;5
+ServerConfig.controller( );1;0;3
+ServerController.handleIllegalArgument( IllegalArgumentException ex );1;0;3
+RSocketBufferLeakTests.subscriptionTimeErrorForHandleAndReply( );1;0;7
+ServerController.echoChannel( Flux < String > payloads );1;0;3
+RSocketBufferLeakTests.errorSignalWithExceptionHandler( );1;0;4
+PayloadInterceptor.reset( );1;0;3
+PayloadSavingDecorator.reset( );1;0;3
+PayloadSavingDecorator.getPayloads( );1;0;3
+ServerController.notDecodable( @ Payload Resource resource );1;0;3
+RSocketBufferLeakTests.setupOnce( );1;0;14
+RSocketBufferLeakTests.ignoreInput( );1;0;4
+PayloadSavingDecorator.PayloadSavingDecorator( RSocket delegate );1;0;3
+PayloadLeakInfo.toString( );1;0;3
+RSocketBufferLeakTests.assemblyTimeErrorForHandleAndReply( );1;0;7
+PayloadInterceptor.checkForLeak( PayloadLeakInfo info );5;1;20
+PayloadSavingDecorator.addPayload( io . rsocket . Payload payload );1;0;4
+PayloadSavingDecorator.fireAndForget( io . rsocket . Payload payload );1;0;3
+ServerController.ambiguousMatchB( String payload );1;0;3
+RSocketBufferLeakTests.echoChannel( );1;0;9
+PayloadSavingDecorator.requestResponse( io . rsocket . Payload payload );1;0;3
+PayloadInterceptor.apply( RSocket rsocket );1;0;5
+PayloadSavingDecorator.requestStream( io . rsocket . Payload payload );1;0;3
+RSocketBufferLeakTests.tearDown( );1;0;4
+PayloadLeakInfo.getReferenceCount( );1;0;3
+PayloadSavingDecorator.requestChannel( Publisher < io . rsocket . Payload > payloads );1;0;5
+RSocketBufferLeakTests.getLeakAwareNettyDataBufferFactory( );1;0;3
+ServerController.ignoreInput( );1;0;3
+RSocketBufferLeakTests.tearDownOnce( );1;0;5
+ServerController.ambiguousMatchA( String payload );1;0;3
+RSocketBufferLeakTests.noSuchRouteOnChannelInteraction( );1;0;5
+PayloadInterceptor.checkForLeaks( );1;0;9

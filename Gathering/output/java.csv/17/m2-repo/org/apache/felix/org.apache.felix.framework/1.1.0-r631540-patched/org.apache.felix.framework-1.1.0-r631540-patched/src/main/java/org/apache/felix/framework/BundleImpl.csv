@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BundleImpl.getState( );1;0;3
+BundleImpl.loadClass( String name );3;1;16
+BundleImpl.getLastModified( );1;0;3
+BundleImpl.getBundleId( );1;0;3
+BundleImpl.setInfo( BundleInfo info );1;0;3
+BundleImpl.toString( );1;1;3
+BundleImpl.getEntryPaths( String path );3;1;16
+BundleImpl.getResources( String name );3;1;16
+BundleImpl.getHeaders( );1;0;3
+BundleImpl.getResource( String name );1;0;3
+BundleImpl.start( );2;1;9
+BundleImpl.uninstall( );2;1;9
+BundleImpl.getBundleContext( );1;0;3
+BundleImpl.getServicesInUse( );8;7;40
+BundleImpl.getRegisteredServices( );8;7;43
+BundleImpl.getInfo( );1;0;3
+BundleImpl.getSymbolicName( );1;0;3
+BundleImpl.hasPermission( Object obj );1;0;3
+BundleImpl.getHeaders( String locale );3;2;13
+BundleImpl.findEntries( String path , String filePattern , boolean recurse );3;1;16
+BundleImpl.update( );1;0;3
+BundleImpl.stop( );2;1;9
+BundleImpl.getSignerMatcher( );1;0;3
+BundleImpl.update( InputStream is );2;1;9
+BundleImpl.BundleImpl( Felix felix , BundleInfo info );1;0;4
+BundleImpl.getLocation( );2;1;9
+BundleImpl.getEntry( String name );3;1;16

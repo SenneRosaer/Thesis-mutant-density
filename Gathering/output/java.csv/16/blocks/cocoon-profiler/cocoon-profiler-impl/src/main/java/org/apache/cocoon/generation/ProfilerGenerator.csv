@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProfilerGenerator.generateProfilerInfo( );4;4;16
+ProfilerGenerator.generateComponent( int componentIndex , String role , String source , long setupTime , long processingTime , Object fragment );4;8;30
+ProfilerGenerator.generateResults( Long key , ProfilerResult result );12;31;73
+***not in a method***;0;2;0
+ProfilerGenerator.dispose( );2;1;7
+ProfilerGenerator.generateSAXFragment( Object fragment , boolean embed );4;1;15
+ProfilerGenerator.generateEnvironmentInfo( EnvironmentInfo environmentInfo );4;11;64
+ProfilerGenerator.generateResult( int resultIndex , String [ ] roles , String [ ] sources , EnvironmentInfo environmentInfo , long totalTime , long [ ] setupTimes , long [ ] processingTimes , Object [ ] fragments );3;6;19
+ProfilerGenerator.service( ServiceManager manager );1;0;4
+ProfilerGenerator.generate( );7;9;28
+ProfilerGenerator.setup( SourceResolver resolver , Map objectModel , String soure , Parameters parameters );8;12;25

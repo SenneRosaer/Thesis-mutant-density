@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MappingJackson2JsonViewTests.renderWithPrettyPrint( );1;0;8
+TestBeanSimple.getNow( );1;0;3
+MappingJackson2JsonViewTests.validateResult( );2;1;12
+MappingJackson2JsonViewTests.renderWithSelectedContentType( );1;0;11
+MappingJackson2JsonViewTests.renderCaching( );1;0;8
+TestChildBean.setParent( TestBeanSimple parent );1;0;3
+MappingJackson2JsonViewTests.renderOnlyIncludedAttributes( );1;1;17
+TestSimpleBeanFiltered.setProperty2( String property2 );1;0;3
+MappingJackson2JsonViewTests.renderSimpleBeanNotPrefixed( );1;0;5
+TestSimpleBeanFiltered.setProperty1( String property1 );1;0;3
+DelegatingSerializerFactory.createSerializer( SerializerProvider prov , JavaType type );2;1;8
+TestChildBean.getParent( );1;0;3
+TestSimpleBeanFiltered.getProperty2( );1;0;3
+MappingJackson2JsonViewTests.filterSingleKeyModel( );1;0;8
+MappingJackson2JsonViewTests.renderSimpleMapPrefixed( );1;0;4
+TestChildBean.getBaz( );1;0;3
+TestChildBean.getValue( );1;0;3
+TestSimpleBeanFiltered.getProperty1( );1;0;3
+MappingJackson2JsonViewTests.renderSimpleBeanPrefixed( );1;0;5
+DelegatingSerializerFactory.DelegatingSerializerFactory( SerializerFactoryConfig config );1;0;3
+TestBeanSimpleSerializer.serialize( Object value , JsonGenerator jgen , SerializerProvider provider );1;0;6
+MappingJackson2JsonViewTests.filterTwoKeyModel( );1;0;12
+MappingJackson2JsonViewTests.renderWithCustomSerializerLocatedByFactory( );1;1;15
+MappingJackson2JsonViewTests.renderWithCustomSerializerLocatedByAnnotation( );1;1;9
+TestBeanSimple.getChild( );1;0;3
+TestBeanSimple.getTest( );1;0;3
+MappingJackson2JsonViewTests.renderSimpleMap( );1;1;14
+MappingJackson2JsonViewTests.renderSimpleBeanWithJsonView( );1;1;15
+MappingJackson2JsonViewTests.isExposePathVars( );1;0;3
+TestBeanSimple.getProperty1( );1;0;3
+MappingJackson2JsonViewTests.renderSimpleBeanWithFilters( );1;1;19
+MappingJackson2JsonViewTests.renderSimpleBean( );1;1;11
+TestBeanSimple.getProperty2( );1;0;3

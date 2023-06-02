@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleTriggerContext.lastCompletion( );1;0;3
+SimpleTriggerContext.lastScheduledExecution( );1;0;3
+SimpleTriggerContext.SimpleTriggerContext( Clock clock );1;0;3
+SimpleTriggerContext.SimpleTriggerContext( );1;0;3
+SimpleTriggerContext.lastActualExecution( );1;0;3
+SimpleTriggerContext.update( @ Nullable Instant lastScheduledExecution , @ Nullable Instant lastActualExecution , @ Nullable Instant lastCompletion );1;0;5
+SimpleTriggerContext.SimpleTriggerContext( @ Nullable Instant lastScheduledExecution , @ Nullable Instant lastActualExecution , @ Nullable Instant lastCompletion );1;0;6
+SimpleTriggerContext.update( @ Nullable Date lastScheduledExecutionTime , @ Nullable Date lastActualExecutionTime , @ Nullable Date lastCompletionTime );1;0;3
+SimpleTriggerContext.getClock( );1;0;3
+SimpleTriggerContext.toInstant( @ Nullable Date date );2;1;3
+SimpleTriggerContext.SimpleTriggerContext( @ Nullable Date lastScheduledExecutionTime , @ Nullable Date lastActualExecutionTime , @ Nullable Date lastCompletionTime );1;0;3

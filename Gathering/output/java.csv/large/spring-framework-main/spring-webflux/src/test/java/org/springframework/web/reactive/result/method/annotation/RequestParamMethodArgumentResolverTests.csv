@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestParamMethodArgumentResolverTests.resolveWithQueryString( );1;0;5
+RequestParamMethodArgumentResolverTests.resolveSimpleTypeParam( );1;0;7
+RequestParamMethodArgumentResolverTests.missingRequestParam( );1;0;9
+RequestParamMethodArgumentResolverTests.resolveAndConvertNullValue( );1;0;6
+RequestParamMethodArgumentResolverTests.supportsParameter( );1;0;16
+RequestParamMethodArgumentResolverTests.resolveEmptyValueWithoutDefault( );1;0;5
+RequestParamMethodArgumentResolverTests.resolveEmptyValueToDefault( );1;0;6
+RequestParamMethodArgumentResolverTests.resolveStringArray( );1;0;8
+RequestParamMethodArgumentResolverTests.setup( );1;0;7
+RequestParamMethodArgumentResolverTests.resolveDefaultValue( );1;0;4
+RequestParamMethodArgumentResolverTests.handle( @ RequestParam ( name = "name" , defaultValue = "bar" ) String param1 , @ RequestParam ( "name" ) String [ ] param2 , @ RequestParam ( "name" ) Map < ? , ? > param3 , @ RequestParam Map < ? , ? > param4 , String stringNotAnnot , Mono < String > monoStringNotAnnot , @ RequestParam ( "name" ) String paramRequired , @ RequestParam ( name = "name" , required = false ) String paramNotRequired , @ RequestParam ( "name" ) Optional < Integer > paramOptional , @ RequestParam Mono < String > paramMono , @ RequestParam ( required = false ) Integer nullParam );1;0;2
+RequestParamMethodArgumentResolverTests.resolveSimpleTypeParamToNull( );1;0;4
+RequestParamMethodArgumentResolverTests.resolve( MethodParameter parameter , ServerWebExchange exchange );1;0;3
+RequestParamMethodArgumentResolverTests.resolveOptionalParamValue( );3;0;12
+RequestParamMethodArgumentResolverTests.doesNotSupportParameterWithDefaultResolutionTurnedOff( );1;0;6
+RequestParamMethodArgumentResolverTests.resolveEmptyValueRequiredWithoutDefault( );1;0;5
+RequestParamMethodArgumentResolverTests.doesNotSupportReactiveWrapper( );1;0;8

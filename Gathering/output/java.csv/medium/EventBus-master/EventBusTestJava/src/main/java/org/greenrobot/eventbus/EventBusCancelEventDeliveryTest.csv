@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Subscriber.Subscriber( int prio , boolean cancel );1;0;4
+SubscriberCancelOtherEvent.onEvent( String event );2;0;7
+EventBusCancelEventDeliveryTest.testCancel( );1;1;11
+EventBusCancelEventDeliveryTest.testCancelWrongEvent( );1;0;6
+Subscriber.onEvent2( String event );1;0;3
+Subscriber.handleEvent( String event , int prio );3;1;8
+Subscriber.onEvent3( String event );1;0;3
+Subscriber.onEvent( String event );1;0;3
+SubscriberMainThread.onEventMainThread( String event );2;0;8
+EventBusCancelEventDeliveryTest.testCancelInBetween( );1;0;7
+Subscriber.onEvent1( String event );1;0;3
+EventBusCancelEventDeliveryTest.testCancelOutsideEventHandler( );2;0;7

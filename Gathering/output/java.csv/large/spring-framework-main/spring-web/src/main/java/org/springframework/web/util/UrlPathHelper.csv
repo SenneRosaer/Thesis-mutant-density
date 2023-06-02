@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UrlPathHelper.getLookupPathForRequest( HttpServletRequest request );4;1;13
+UrlPathHelper.decodeInternal( HttpServletRequest request , String source );3;0;13
+UrlPathHelper.getOriginatingRequestUri( HttpServletRequest request );3;2;10
+UrlPathHelper.setReadOnly( );1;0;3
+UrlPathHelper.getPathWithinServletMapping( HttpServletRequest request , String pathWithinApp );6;4;27
+UrlPathHelper.getOriginatingServletPath( HttpServletRequest request );2;1;7
+UrlPathHelper.getRemainingPath( String requestUri , String mapping , boolean ignoreCase );12;17;29
+UrlPathHelper.getOriginatingContextPath( HttpServletRequest request );2;1;7
+UrlPathHelper.getDefaultEncoding( );1;0;3
+UrlPathHelper.isUrlDecode( );1;0;3
+UrlPathHelper.getContextPath( HttpServletRequest request );3;1;10
+UrlPathHelper.ignoreServletPath( HttpServletRequest request );4;5;6
+UrlPathHelper.getSanitizedPath( final String path );5;10;14
+UrlPathHelper.setUrlDecode( boolean urlDecode );1;0;4
+UrlPathHelper.checkReadOnly( );1;1;3
+UrlPathHelper.getOriginatingQueryString( HttpServletRequest request );3;3;9
+UrlPathHelper.getResolvedLookupPath( ServletRequest request );1;0;5
+UrlPathHelper.getServletPath( HttpServletRequest request );5;5;10
+UrlPathHelper.setDefaultEncoding( String defaultEncoding );1;0;4
+UrlPathHelper.removeSemicolonContent( String requestUri );2;0;4
+UrlPathHelper.removeJsessionid( String requestUri );5;9;15
+UrlPathHelper.decodeAndCleanUriString( HttpServletRequest request , String uri );1;0;6
+UrlPathHelper.decodePathVariables( HttpServletRequest request , Map < String , String > vars );2;0;10
+UrlPathHelper.setAlwaysUseFullPath( boolean alwaysUseFullPath );1;0;4
+UrlPathHelper.getRequestUri( HttpServletRequest request );2;1;7
+UrlPathHelper.shouldRemoveSemicolonContent( );1;0;3
+UrlPathHelper.shouldRemoveTrailingServletPathSlash( HttpServletRequest request );6;3;26
+UrlPathHelper.resolveAndCacheLookupPath( HttpServletRequest request );1;0;5
+UrlPathHelper.setRemoveSemicolonContent( boolean removeSemicolonContent );1;0;4
+UrlPathHelper.decodeMatrixVariables( HttpServletRequest request , MultiValueMap < String , String > vars );3;0;14
+UrlPathHelper.determineEncoding( HttpServletRequest request );2;1;7
+UrlPathHelper.removeSemicolonContentInternal( String requestUri );4;7;16
+UrlPathHelper.decodeRequestString( HttpServletRequest request , String source );2;0;6
+UrlPathHelper.getPathWithinServletMapping( HttpServletRequest request );1;0;3
+UrlPathHelper.getPathWithinApplication( HttpServletRequest request );3;1;11
+UrlPathHelper.getLookupPathForRequest( HttpServletRequest request , @ Nullable String name );3;2;7

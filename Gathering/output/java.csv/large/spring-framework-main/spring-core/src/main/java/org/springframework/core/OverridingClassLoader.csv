@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OverridingClassLoader.isEligibleForOverriding( String className );1;1;3
+OverridingClassLoader.openStreamForClass( String name );1;1;4
+OverridingClassLoader.loadClassForOverriding( String name );4;2;10
+OverridingClassLoader.loadClass( String name );3;2;6
+OverridingClassLoader.OverridingClassLoader( @ Nullable ClassLoader parent , @ Nullable ClassLoader overrideDelegate );2;0;7
+OverridingClassLoader.loadClass( String name , boolean resolve );5;1;12
+OverridingClassLoader.OverridingClassLoader( @ Nullable ClassLoader parent );1;0;3
+OverridingClassLoader.loadBytesForClass( String name );3;1;13
+OverridingClassLoader.transformIfNecessary( String name , byte [ ] bytes );1;0;3

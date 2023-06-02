@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FlowControllerFactory.reinit( ServletContext servletContext );2;1;5
+FlowControllerFactory.createPageFlow( RequestContext context , String pageFlowClassName );1;0;4
+FlowControllerFactory.createPageFlow( RequestContext context , Class pageFlowClass );27;17;113
+FlowControllerFactory.getSharedFlowsForPath( RequestContext context , String path );8;6;37
+FlowControllerFactory.getPageFlowForRequest( RequestContext context );1;0;4
+FlowControllerFactory.getSharedFlowsForRequest( RequestContext context );1;0;4
+FlowControllerFactory.getFlowControllerInstance( Class flowControllerClass );1;0;5
+FlowControllerFactory.createSharedFlow( RequestContext context , Class sharedFlowClass );3;0;17
+FlowControllerFactory.init( ServletContext servletContext );3;2;13
+FlowControllerFactory.createSharedFlow( RequestContext context , String sharedFlowClassName );1;0;4
+FlowControllerFactory.getPageFlow( String pageFlowClassName , HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );4;0;21
+FlowControllerFactory.getDefaultSharedFlows( RequestContext context );5;4;22
+FlowControllerFactory.getPageFlowForURI( HttpServletRequest request , HttpServletResponse response , String uri , ServletContext servletContext );1;0;4
+FlowControllerFactory.getPageFlowForRequest( HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );1;0;3
+FlowControllerFactory.FlowControllerFactory( );1;0;2
+FlowControllerFactory.getPageFlowForPath( RequestContext context , String path );7;5;25
+FlowControllerFactory.get( ServletContext servletContext );1;2;7
+FlowControllerFactory.getGlobalApp( HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );9;5;48
+FlowControllerFactory.getPageFlowForRelativeURI( HttpServletRequest request , HttpServletResponse response , String path , ServletContext servletContext );3;0;16
+FlowControllerFactory.getPageFlow( Class pageFlowClass , HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );3;0;17
+FlowControllerFactory.addSharedFlow( RequestContext context , String name , String type , LinkedHashMap sharedFlows );3;2;14
+FlowControllerFactory.getFlowControllerClass( String className );1;0;3

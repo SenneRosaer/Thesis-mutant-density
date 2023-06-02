@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletServerHttpRequest.getX509Certificates( );1;0;3
+RequestBodyPublisher.readingPaused( );1;0;2
+ServletServerHttpRequest.ServletServerHttpRequest( HttpServletRequest request , AsyncContext asyncContext , String servletPath , DataBufferFactory bufferFactory , int bufferSize );1;0;3
+RequestAsyncListener.onError( AsyncEvent event );1;0;3
+RequestBodyPublisher.RequestBodyPublisher( ServletInputStream inputStream );1;0;4
+ServletServerHttpRequest.getInputStream( );1;0;3
+RequestBodyPublisher.read( );3;1;11
+ServletServerHttpRequest.createDefaultHttpHeaders( HttpServletRequest request );5;0;11
+RequestBodyPublisher.registerReadListener( );1;0;3
+RequestBodyPublisherReadListener.onAllDataRead( );1;0;3
+RequestBodyPublisherReadListener.onDataAvailable( );1;0;3
+ServletServerHttpRequest.getLocalAddress( );1;0;3
+RequestBodyPublisherReadListener.onError( Throwable throwable );1;0;3
+ServletServerHttpRequest.readFromInputStream( );3;3;13
+ServletServerHttpRequest.getSslSessionId( );1;0;3
+RequestAsyncListener.onStartAsync( AsyncEvent event );1;0;2
+ServletServerHttpRequest.initUri( HttpServletRequest request );2;0;9
+RequestAsyncListener.onComplete( AsyncEvent event );1;0;3
+ServletServerHttpRequest.getBody( );1;0;3
+RequestAsyncListener.onTimeout( AsyncEvent event );2;1;5
+RequestBodyPublisher.checkOnDataAvailable( );3;2;5
+ServletServerHttpRequest.initSslInfo( );2;1;4
+ServletServerHttpRequest.logBytesRead( int read );3;4;6
+ServletServerHttpRequest.ServletServerHttpRequest( MultiValueMap < String , String > headers , HttpServletRequest request , AsyncContext asyncContext , String servletPath , DataBufferFactory bufferFactory , int bufferSize );1;2;12
+RequestBodyPublisher.discardData( );1;0;2
+ServletServerHttpRequest.getRemoteAddress( );1;0;3
+ServletServerHttpRequest.getAsyncListener( );1;0;3
+ServletServerHttpRequest.initCookies( );3;1;15
+ServletServerHttpRequest.initHeaders( MultiValueMap < String , String > headerValues , HttpServletRequest request );10;9;29
+ServletServerHttpRequest.getMethod( );1;0;3
+ServletServerHttpRequest.getNativeRequest( );1;0;3

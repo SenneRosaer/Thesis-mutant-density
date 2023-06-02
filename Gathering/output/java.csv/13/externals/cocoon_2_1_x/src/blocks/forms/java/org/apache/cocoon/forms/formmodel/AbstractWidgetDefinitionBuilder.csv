@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractWidgetDefinitionBuilder.buildWidgetDefinition( Element widgetElement );1;0;3
+AbstractWidgetDefinitionBuilder.buildAnotherWidgetDefinition( Element widgetElement , WidgetDefinitionBuilderContext context );3;0;15
+AbstractWidgetDefinitionBuilder.setupDefinition( Element widgetElement , AbstractWidgetDefinition definition , WidgetDefinitionBuilderContext context );2;1;9
+AbstractWidgetDefinitionBuilder.setDisplayData( Element widgetElement , AbstractWidgetDefinition widgetDefinition );3;3;13
+AbstractWidgetDefinitionBuilder.dispose( );1;0;11
+AbstractWidgetDefinitionBuilder.setValidators( Element widgetElement , AbstractWidgetDefinition widgetDefinition );5;4;21
+AbstractWidgetDefinitionBuilder.setCreateListeners( Element widgetElement , AbstractWidgetDefinition widgetDefinition );2;0;6
+AbstractWidgetDefinitionBuilder.service( ServiceManager serviceManager );1;0;8
+AbstractWidgetDefinitionBuilder.buildEventListeners( Element widgetElement , String elementName , Class listenerClass );7;6;26
+AbstractWidgetDefinitionBuilder.setCommonProperties( Element widgetElement , AbstractWidgetDefinition widgetDefinition );12;17;36

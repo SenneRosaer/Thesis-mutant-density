@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebFluxConfigurationSupport.createRouterFunctionMapping( );1;0;3
+NoOpValidator.validate( @ Nullable Object target , Errors errors );1;0;2
+WebFluxConfigurationSupport.configureViewResolvers( ViewResolverRegistry registry );1;0;2
+WebFluxConfigurationSupport.webFluxContentTypeResolver( );1;0;5
+WebFluxConfigurationSupport.configurePathMatching( PathMatchConfigurer configurer );1;0;2
+WebFluxConfigurationSupport.requestMappingHandlerMapping( @ Qualifier ( "webFluxContentTypeResolver" ) RequestedContentTypeResolver contentTypeResolver );3;1;12
+WebFluxConfigurationSupport.responseEntityResultHandler( @ Qualifier ( "webFluxAdapterRegistry" ) ReactiveAdapterRegistry reactiveAdapterRegistry , ServerCodecConfigurer serverCodecConfigurer , @ Qualifier ( "webFluxContentTypeResolver" ) RequestedContentTypeResolver contentTypeResolver );1;0;4
+WebFluxConfigurationSupport.setApplicationContext( @ Nullable ApplicationContext applicationContext );2;2;8
+WebFluxConfigurationSupport.routerFunctionMapping( ServerCodecConfigurer serverCodecConfigurer );1;1;7
+WebFluxConfigurationSupport.webFluxAdapterRegistry( );1;0;3
+WebFluxConfigurationSupport.getApplicationContext( );1;0;3
+NoUpgradeStrategyWebSocketService.handleRequest( ServerWebExchange exchange , WebSocketHandler webSocketHandler );1;0;3
+WebFluxConfigurationSupport.addFormatters( FormatterRegistry registry );1;0;2
+WebFluxConfigurationSupport.getWebSocketService( );1;0;3
+WebFluxConfigurationSupport.createRequestMappingHandlerAdapter( );1;0;3
+NoOpValidator.supports( Class < ? > clazz );1;0;3
+WebFluxConfigurationSupport.configureContentTypeResolver( RequestedContentTypeResolverBuilder builder );1;0;2
+WebFluxConfigurationSupport.simpleHandlerAdapter( );1;0;3
+WebFluxConfigurationSupport.webFluxConversionService( );1;0;5
+WebFluxConfigurationSupport.serverResponseResultHandler( ServerCodecConfigurer serverCodecConfigurer );1;0;7
+WebFluxConfigurationSupport.createLocaleContextResolver( );1;0;3
+WebFluxConfigurationSupport.viewResolutionResultHandler( @ Qualifier ( "webFluxAdapterRegistry" ) ReactiveAdapterRegistry reactiveAdapterRegistry , @ Qualifier ( "webFluxContentTypeResolver" ) RequestedContentTypeResolver contentTypeResolver );1;0;9
+WebFluxConfigurationSupport.configureAbstractHandlerMapping( AbstractHandlerMapping mapping , PathMatchConfigurer configurer );3;2;11
+WebFluxConfigurationSupport.addResourceHandlers( ResourceHandlerRegistry registry );1;0;2
+WebFluxConfigurationSupport.serverCodecConfigurer( );1;0;5
+WebFluxConfigurationSupport.webFluxValidator( );4;1;17
+WebFluxConfigurationSupport.responseStatusExceptionHandler( );1;0;3
+WebFluxConfigurationSupport.webHandler( );1;0;3
+WebFluxConfigurationSupport.responseBodyResultHandler( @ Qualifier ( "webFluxAdapterRegistry" ) ReactiveAdapterRegistry reactiveAdapterRegistry , ServerCodecConfigurer serverCodecConfigurer , @ Qualifier ( "webFluxContentTypeResolver" ) RequestedContentTypeResolver contentTypeResolver );1;0;4
+WebFluxConfigurationSupport.configureHttpMessageCodecs( ServerCodecConfigurer configurer );1;0;2
+WebFluxConfigurationSupport.getPathMatchConfigurer( );2;1;7
+WebFluxConfigurationSupport.getConfigurableWebBindingInitializer( FormattingConversionService webFluxConversionService , Validator webFluxValidator );2;1;10
+WebFluxConfigurationSupport.requestMappingHandlerAdapter( @ Qualifier ( "webFluxAdapterRegistry" ) ReactiveAdapterRegistry reactiveAdapterRegistry , ServerCodecConfigurer serverCodecConfigurer , @ Qualifier ( "webFluxConversionService" ) FormattingConversionService conversionService , @ Qualifier ( "webFluxValidator" ) Validator validator );1;0;10
+WebFluxConfigurationSupport.webFluxWebSocketHandlerAdapter( );1;1;6
+WebFluxConfigurationSupport.getMessageCodesResolver( );1;0;3
+WebFluxConfigurationSupport.addCorsMappings( CorsRegistry registry );1;0;2
+EmptyHandlerMapping.getHandlerInternal( ServerWebExchange exchange );1;0;3
+WebFluxConfigurationSupport.localeContextResolver( );1;0;3
+WebFluxConfigurationSupport.resourceHandlerMapping( ResourceUrlProvider resourceUrlProvider );3;2;17
+WebFluxConfigurationSupport.handlerFunctionAdapter( );1;0;3
+WebFluxConfigurationSupport.getViewResolverRegistry( );2;1;7
+WebFluxConfigurationSupport.initWebSocketService( );3;1;12
+WebFluxConfigurationSupport.getCorsConfigurations( );2;1;8
+WebFluxConfigurationSupport.configureArgumentResolvers( ArgumentResolverConfigurer configurer );1;0;2
+WebFluxConfigurationSupport.getValidator( );1;0;3
+WebFluxConfigurationSupport.createRequestMappingHandlerMapping( );1;0;3
+WebFluxConfigurationSupport.resourceUrlProvider( );1;0;3

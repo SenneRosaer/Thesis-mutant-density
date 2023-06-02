@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Contexts.afterCompletion( int status );2;1;4
+Contexts.call( );1;0;4
+Contexts.isTransacted( );2;1;7
+Contexts.setRollbackOnly( );2;0;7
+Contexts.execTransaction( Callable < T > transaction );6;1;30
+Contexts.registerCommitSynchronizer( final Runnable runnable );3;0;14
+Contexts.execTransaction( final Runnable transaction );2;0;12
+Contexts.beforeCompletion( );1;0;2

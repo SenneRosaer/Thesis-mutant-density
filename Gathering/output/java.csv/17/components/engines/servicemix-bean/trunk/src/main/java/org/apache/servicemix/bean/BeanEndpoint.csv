@@ -1,0 +1,65 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BeanEndpoint.getCorrelationExpression( );6;5;21
+PojoChannel.accept( );1;0;3
+PojoContext.getWorkspaceRoot( );1;0;3
+BeanEndpoint.onConsumerExchange( MessageExchange exchange );4;2;20
+PojoContext.resolveEndpointReference( DocumentFragment documentFragment );1;0;3
+PojoChannel.close( );1;0;2
+PojoContext.getNamingContext( );1;0;3
+PojoContext.getLogger( String s , String s1 );1;0;3
+PojoContext.getMBeanServer( );1;0;3
+BeanEndpoint.setBean( Object bean );1;0;3
+BeanEndpoint.BeanEndpoint( BeanComponent component , ServiceEndpoint serviceEndpoint );1;0;5
+PojoContext.activateEndpoint( QName qName , String s );1;0;3
+BeanEndpoint.getBeanClassName( );1;0;3
+BeanEndpoint.setMethodInvocationStrategy( MethodInvocationStrategy methodInvocationStrategy );1;0;3
+BeanEndpoint.onProviderExchange( MessageExchange exchange );11;8;39
+BeanEndpoint.setBeanType( Class < ? > beanType );1;0;3
+BeanEndpoint.injectBean( final Object target );6;0;21
+BeanEndpoint.checkEndOfRequest( Request request , Object corId );3;2;9
+PojoContext.getEndpoint( QName qName , String s );1;0;3
+BeanEndpoint.setCorrelationExpression( org . apache . servicemix . expression . Expression correlationExpression );1;0;3
+BeanEndpoint.createMethodInvocationStrategy( );1;0;5
+BeanEndpoint.getBeanInfo( );2;1;7
+PojoContext.getComponentName( );1;0;3
+BeanEndpoint.BeanEndpoint( );1;0;2
+PojoContext.getTransactionManager( );1;0;3
+BeanEndpoint.getCorrelation( MessageExchange exchange );1;0;3
+BeanEndpoint.getBeanType( );1;0;3
+PojoContext.getExternalEndpointsForService( QName qName );1;0;3
+BeanEndpoint.evaluate( MessageExchange exchange , NormalizedMessage message );1;0;3
+PojoChannel.accept( long l );1;0;3
+PojoChannel.sendSync( MessageExchange messageExchange , long l );1;0;3
+BeanEndpoint.process( MessageExchange exchange );3;2;9
+PojoContext.registerExternalEndpoint( ServiceEndpoint serviceEndpoint );1;0;3
+PojoContext.deregisterExternalEndpoint( ServiceEndpoint serviceEndpoint );1;0;3
+PojoContext.getEndpoints( QName qName );1;0;3
+BeanEndpoint.getBean( );1;0;3
+BeanEndpoint.createBean( );9;10;21
+PojoContext.getDeliveryChannel( );1;0;3
+BeanEndpoint.evaluateCallbacks( final Request req );7;0;28
+PojoContext.deactivateEndpoint( ServiceEndpoint serviceEndpoint );1;0;3
+BeanEndpoint.getMethodInvocationStrategy( );2;1;6
+BeanEndpoint.start( );4;3;17
+PojoContext.getEndpointDescriptor( ServiceEndpoint serviceEndpoint );1;0;3
+BeanEndpoint.stop( );2;1;7
+BeanEndpoint.setApplicationContext( ApplicationContext applicationContext );1;0;3
+PojoChannel.createExchangeFactory( ServiceEndpoint serviceEndpoint );1;0;3
+BeanEndpoint.doWith( Method method );7;6;22
+BeanEndpoint.getApplicationContext( );1;0;3
+BeanEndpoint.setBeanClassName( String beanClassName );1;0;3
+BeanEndpoint.setBeanName( String beanName );1;0;3
+BeanEndpoint.setBeanInfo( BeanInfo beanInfo );1;0;3
+BeanEndpoint.doWith( Field f );6;2;15
+PojoChannel.createExchangeFactoryForService( QName qName );1;0;3
+BeanEndpoint.getBeanName( );1;0;3
+PojoChannel.sendSync( MessageExchange messageExchange );1;0;3
+PojoContext.getEndpointsForService( QName qName );1;0;3
+BeanEndpoint.getOrCreateCurrentRequest( MessageExchange exchange );3;2;15
+PojoChannel.send( MessageExchange messageExchange );6;4;16
+PojoChannel.createExchangeFactory( QName qName );1;0;3
+PojoContext.getMBeanNames( );1;0;3
+PojoContext.getExternalEndpoints( QName qName );1;0;3
+PojoContext.getInstallRoot( );1;0;3
+BeanEndpoint.send( String uri , NormalizedMessage message );2;0;14
+PojoChannel.createExchangeFactory( );1;0;3

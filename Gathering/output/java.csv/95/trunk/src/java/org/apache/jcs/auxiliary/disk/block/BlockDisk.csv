@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BlockDisk.write( long position , byte [ ] data );1;0;9
+BlockDisk.calculateTheNumberOfBlocksNeeded( byte [ ] data );3;6;14
+BlockDisk.BlockDisk( File file , int blockSizeBytes );2;0;9
+BlockDisk.toString( );2;0;19
+BlockDisk.BlockDisk( File file , IElementSerializer elementSerializer );2;0;8
+***not in a method***;0;1;0
+BlockDisk.getAveragePutSizeBytes( );2;2;7
+BlockDisk.getFilePath( );1;0;3
+BlockDisk.getNumberOfBlocks( );1;0;3
+BlockDisk.readBlock( int block );4;3;33
+BlockDisk.read( int [ ] blockNumbers );3;4;20
+BlockDisk.getEmptyBlocks( );1;0;3
+BlockDisk.calculateByteOffsetForBlock( int block );1;1;3
+BlockDisk.length( );1;0;6
+BlockDisk.freeBlocks( int [ ] blocksToFree );3;3;9
+BlockDisk.incrementPutCount( );1;1;3
+BlockDisk.getBlockChunks( byte [ ] complete , int numBlocksNeeded );3;7;22
+BlockDisk.close( );1;0;3
+BlockDisk.getBlockSizeBytes( );1;0;3
+BlockDisk.write( Serializable object );4;5;26
+BlockDisk.takeNextBlock( );1;1;3
+BlockDisk.addToPutBytes( long length );1;1;3

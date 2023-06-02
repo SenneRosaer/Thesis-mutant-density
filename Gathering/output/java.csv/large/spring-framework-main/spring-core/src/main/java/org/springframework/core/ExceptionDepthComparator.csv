@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExceptionDepthComparator.ExceptionDepthComparator( Throwable exception );1;0;4
+ExceptionDepthComparator.compare( Class < ? extends Throwable > o1 , Class < ? extends Throwable > o2 );1;1;5
+ExceptionDepthComparator.findClosestMatch( Collection < Class < ? extends Throwable > > exceptionTypes , Throwable targetException );3;1;9
+ExceptionDepthComparator.ExceptionDepthComparator( Class < ? extends Throwable > exceptionType );1;0;4
+ExceptionDepthComparator.getDepth( Class < ? > declaredException , Class < ? > exceptionToMatch , int depth );3;2;9

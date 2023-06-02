@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BasicURLHandler.getURLInfo( URL url );1;0;3
+BasicURLHandler.download( URL src , File dest , CopyProgressListener l );6;6;30
+BasicURLHandler.openStream( URL url );5;3;30
+BasicURLHandler.getURLInfo( URL url , int timeout );7;2;33
+BasicURLHandler.BasicURLHandler( );1;0;3
+HttpStatus.HttpStatus( );1;0;2
+***not in a method***;0;1;0
+BasicURLHandler.checkStatusCode( URL url , HttpURLConnection con );5;2;15
+BasicURLHandler.upload( File source , URL dest , CopyProgressListener l );4;3;30
+BasicURLHandler.disconnect( URLConnection con );5;2;11

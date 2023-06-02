@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExpressionTerm.read( NetUIVariableResolver vr );1;1;4
+ExpressionTerm._evaluate( int index , NetUIVariableResolver vr );4;5;12
+ExpressionTerm.seal( );2;2;9
+ExpressionTerm.getToken( int index );1;3;6
+ExpressionTerm.getTokenCount( );1;1;4
+ExpressionTerm.ExpressionTerm( );1;0;3
+ExpressionTerm.update( Object newValue , NetUIVariableResolver vr );2;2;7
+ExpressionTerm.changeContext( String previousImplicitObject , String newImplicitObject , Object lookupKey );7;5;27
+ExpressionTerm.getExpression( int start );8;5;30
+ExpressionTerm.getContext( );1;1;4
+ExpressionTerm.getExpressionString( );1;0;3
+ExpressionTerm.getTokens( );3;3;9
+ExpressionTerm.qualify( String contextName );1;0;5
+ExpressionTerm.toString( );1;0;3
+ExpressionTerm.addToken( ExpressionToken token );2;2;9

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionAwareCacheDecorator.getNativeCache( );1;0;3
+TransactionAwareCacheDecorator.get( Object key , @ Nullable Class < T > type );1;0;3
+TransactionAwareCacheDecorator.getTargetCache( );1;0;3
+TransactionAwareCacheDecorator.clear( );2;0;13
+TransactionAwareCacheDecorator.invalidate( );1;0;3
+TransactionAwareCacheDecorator.afterCommit( );1;0;3
+TransactionAwareCacheDecorator.putIfAbsent( Object key , @ Nullable Object value );1;0;3
+TransactionAwareCacheDecorator.get( Object key , Callable < T > valueLoader );1;0;3
+TransactionAwareCacheDecorator.get( Object key );1;0;3
+TransactionAwareCacheDecorator.getName( );1;0;3
+TransactionAwareCacheDecorator.evictIfPresent( Object key );1;0;3
+TransactionAwareCacheDecorator.TransactionAwareCacheDecorator( Cache targetCache );1;0;4
+TransactionAwareCacheDecorator.put( final Object key , @ Nullable final Object value );2;0;13
+TransactionAwareCacheDecorator.evict( final Object key );2;0;13

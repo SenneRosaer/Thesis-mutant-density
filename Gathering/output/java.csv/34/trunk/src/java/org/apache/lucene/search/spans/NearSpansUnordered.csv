@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpansCell.doc( );1;0;1
+NearSpansUnordered.skipTo( int target );10;6;21
+NearSpansUnordered.getPayload( );3;1;9
+***not in a method***;0;1;0
+NearSpansUnordered.firstToLast( );1;0;6
+NearSpansUnordered.next( );12;4;38
+NearSpansUnordered.end( );1;0;1
+NearSpansUnordered.start( );1;0;1
+SpansCell.start( );1;0;1
+NearSpansUnordered.min( );1;0;1
+SpansCell.getPayload( );1;0;3
+SpansCell.adjust( boolean condition );7;12;15
+NearSpansUnordered.NearSpansUnordered( SpanNearQuery query , IndexReader reader );2;2;11
+CellQueue.CellQueue( int size );1;0;3
+NearSpansUnordered.queueToList( );2;1;6
+SpansCell.SpansCell( PayloadSpans spans , int index );1;0;4
+NearSpansUnordered.toString( );3;4;4
+SpansCell.toString( );1;1;1
+SpansCell.isPayloadAvailable( );1;0;3
+SpansCell.end( );1;0;1
+NearSpansUnordered.doc( );1;0;1
+SpansCell.next( );1;0;3
+NearSpansUnordered.addToList( SpansCell cell );2;1;8
+NearSpansUnordered.initList( boolean next );5;3;10
+NearSpansUnordered.listToQueue( );2;1;6
+NearSpansUnordered.isPayloadAvailable( );3;1;10
+CellQueue.lessThan( Object o1 , Object o2 );2;2;9
+SpansCell.skipTo( int target );1;0;3
+NearSpansUnordered.atMatch( );2;5;4

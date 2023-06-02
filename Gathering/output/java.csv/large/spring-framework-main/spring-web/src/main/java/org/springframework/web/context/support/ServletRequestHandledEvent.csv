@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletRequestHandledEvent.getClientAddress( );1;0;3
+ServletRequestHandledEvent.getStatusCode( );1;0;3
+ServletRequestHandledEvent.getMethod( );1;0;3
+ServletRequestHandledEvent.getRequestUrl( );1;0;3
+ServletRequestHandledEvent.ServletRequestHandledEvent( Object source , String requestUrl , String clientAddress , String method , String servletName , @ Nullable String sessionId , @ Nullable String userName , long processingTimeMillis , @ Nullable Throwable failureCause , int statusCode );1;0;8
+ServletRequestHandledEvent.ServletRequestHandledEvent( Object source , String requestUrl , String clientAddress , String method , String servletName , @ Nullable String sessionId , @ Nullable String userName , long processingTimeMillis );1;1;8
+ServletRequestHandledEvent.ServletRequestHandledEvent( Object source , String requestUrl , String clientAddress , String method , String servletName , @ Nullable String sessionId , @ Nullable String userName , long processingTimeMillis , @ Nullable Throwable failureCause );1;1;8
+ServletRequestHandledEvent.getDescription( );1;0;9
+ServletRequestHandledEvent.toString( );1;0;3
+ServletRequestHandledEvent.getServletName( );1;0;3
+ServletRequestHandledEvent.getShortDescription( );1;0;7

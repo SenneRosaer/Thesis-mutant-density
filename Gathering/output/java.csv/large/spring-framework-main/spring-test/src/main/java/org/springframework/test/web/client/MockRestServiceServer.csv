@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockRestServiceServer.createServer( RestTemplate restTemplate );1;0;3
+MockRestServiceServer.bindTo( RestTemplate restTemplate );1;0;3
+MockRestServiceServer.expect( ExpectedCount count , RequestMatcher matcher );1;0;3
+MockClientHttpRequestFactory.executeInternal( );1;0;5
+MockRestServiceServer.MockRestServiceServer( RequestExpectationManager expectationManager );1;0;3
+MockClientHttpRequestFactory.createRequest( URI uri , HttpMethod httpMethod );1;0;3
+DefaultBuilder.build( RequestExpectationManager manager );2;0;11
+MockRestServiceServer.reset( );1;0;3
+DefaultBuilder.DefaultBuilder( RestTemplate restTemplate );1;0;4
+MockRestServiceServer.verify( );1;0;3
+DefaultBuilder.build( );2;0;8
+MockRestServiceServer.verify( Duration timeout );1;0;3
+MockRestServiceServer.createServer( RestGatewaySupport restGateway );1;0;3
+MockRestServiceServer.expect( RequestMatcher matcher );1;0;3
+DefaultBuilder.ignoreExpectOrder( boolean ignoreExpectOrder );1;0;4
+DefaultBuilder.bufferContent( );1;0;4
+MockRestServiceServer.bindTo( RestGatewaySupport restGatewaySupport );1;0;4
+MockClientHttpRequestFactory.createRequestInternal( URI uri , HttpMethod httpMethod );1;0;12

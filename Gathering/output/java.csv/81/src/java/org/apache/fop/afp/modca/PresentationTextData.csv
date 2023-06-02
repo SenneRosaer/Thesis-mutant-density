@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PresentationTextData.PresentationTextData( );1;0;3
+PresentationTextData.setInterCharacterAdjustment( int incr , ByteArrayOutputStream os );2;1;8
+PresentationTextData.setExtendedTextColor( Color col , ByteArrayOutputStream os );1;0;20
+PresentationTextData.endControlSequence( );2;2;9
+PresentationTextData.drawIaxisRule( int length , int width , ByteArrayOutputStream afpdata );1;0;11
+PresentationTextData.setTextOrientation( int orientation , ByteArrayOutputStream os );4;0;29
+PresentationTextData.createTextData( AFPTextDataInfo textDataInfo );10;20;66
+PresentationTextData.absoluteMoveInline( int coordinate , ByteArrayOutputStream afpdata );1;0;5
+PresentationTextData.writeToStream( OutputStream os );1;1;7
+PresentationTextData.absoluteMoveBaseline( int coordinate , ByteArrayOutputStream afpdata );1;0;5
+***not in a method***;0;2;0
+PresentationTextData.setCodedFont( byte font , ByteArrayOutputStream afpdata );2;0;8
+PresentationTextData.ensurePositive( int value );2;1;6
+PresentationTextData.addTransparentData( byte [ ] data , ByteArrayOutputStream afpdata );2;2;10
+PresentationTextData.PresentationTextData( boolean controlInd );2;0;17
+PresentationTextData.createLineData( AFPLineDataInfo lineDataInfo );8;12;40
+PresentationTextData.setVariableSpaceCharacterIncrement( int incr , ByteArrayOutputStream os );1;0;8
+PresentationTextData.drawBaxisRule( int length , int width , ByteArrayOutputStream afpdata );1;0;11

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WSDLUtils.getExtensions( List < ElementExtensible > elements , Class < T > format );2;0;7
+WSDLUtils.getParts( SOAPBody body );1;0;3
+WSDLUtils.getParts( Message msg );1;0;3
+WSDLUtils.getParts( SOAP12Body body );1;0;3
+WSDLUtils.getSOAPHeaderFaults( SOAP12Header sh );1;0;3
+WSDLUtils.getSOAPHeaderFaults( SOAPHeader sh );1;0;3
+WSDLUtils.getExtensions( ElementExtensible element , Class < T > format );4;1;12
+WSDLUtils.getWSDL11Factory( );3;1;10
+WSDLUtils.createWSDL11Reader( );1;0;5
+WSDLUtils.getBindingFaults( BindingOperation bop );1;0;3
+WSDLUtils.getExtension( ElementExtensible element , Class < T > format );4;1;11
+WSDLUtils.getElements( BindingOperation bop );1;0;8

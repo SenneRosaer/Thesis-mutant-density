@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ImportSupport.setRequest( HttpServletRequest request );2;1;7
+ImportResponseWrapper.getString( );3;0;14
+ImportResponseWrapper.getWriter( );3;1;13
+ImportResponseWrapper.setStatus( int status );1;0;3
+ImportSupport.setLog( Log log );2;1;7
+ImportSupport.stripSession( String url );4;8;18
+ImportResponseWrapper.getStatus( );1;0;3
+ImportResponseWrapper.write( int b );1;0;3
+SafeClosingHttpURLConnectionReader.SafeClosingHttpURLConnectionReader( Reader r , HttpURLConnection huc );1;0;4
+SafeClosingHttpURLConnectionReader.read( char [ ] buf , int off , int len );1;0;3
+ImportSupport.acquireString( String url );13;12;73
+SafeClosingHttpURLConnectionReader.ready( );1;0;3
+ImportResponseWrapper.ImportResponseWrapper( HttpServletResponse response );1;0;3
+SafeClosingHttpURLConnectionReader.reset( );1;0;3
+SafeClosingHttpURLConnectionReader.skip( long n );1;0;3
+ImportSupport.setServletContext( ServletContext application );2;1;7
+SafeClosingHttpURLConnectionReader.close( );2;1;7
+ImportSupport.isAbsoluteUrl( String url );5;7;19
+ImportSupport.getContentTypeAttribute( String input , String name );7;13;40
+SafeClosingHttpURLConnectionReader.read( );1;0;3
+SafeClosingHttpURLConnectionReader.markSupported( );1;0;3
+ImportSupport.setResponse( HttpServletResponse response );2;1;7
+ImportResponseWrapper.setContentType( String x );1;0;2
+ImportResponseWrapper.setLocale( Locale x );1;0;2
+ImportResponseWrapper.getOutputStream( );3;1;20
+SafeClosingHttpURLConnectionReader.mark( int readAheadLimit );1;0;3
+SafeClosingHttpURLConnectionReader.read( char [ ] buf );1;0;3
+ImportSupport.acquireReader( String url );17;12;98

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompactNodeTypeDefReader.doItemDefs( QNodeTypeDefinitionBuilder ntd );5;1;37
+CompactNodeTypeDefReader.doSuperTypes( QNodeTypeDefinitionBuilder ntd );3;0;10
+CompactNodeTypeDefReader.doChildNodeAttributes( QNodeDefinitionBuilder nd , QNodeTypeDefinitionBuilder ntd );15;1;36
+CompactNodeTypeDefReader.doChildNodeRequiredTypes( QNodeDefinitionBuilder nd );3;1;13
+CompactNodeTypeDefReader.doPropertyType( QPropertyDefinitionBuilder pd );13;2;34
+CompactNodeTypeDefReader.CompactNodeTypeDefReader( Reader r , String systemId , QNodeTypeDefinitionsBuilder builder );1;0;3
+CompactNodeTypeDefReader.doPropertyDefaultValue( QPropertyDefinitionBuilder pd );5;1;20
+CompactNodeTypeDefReader.doPropertyValueConstraints( QPropertyDefinitionBuilder pd );4;1;18
+CompactNodeTypeDefReader.currentTokenEquals( char c );2;3;3
+CompactNodeTypeDefReader.parse( );4;3;18
+CompactNodeTypeDefReader.getNodeTypeDefs( );1;0;3
+CompactNodeTypeDefReader.doPropertyAttributes( QPropertyDefinitionBuilder pd , QNodeTypeDefinitionBuilder ntd );15;1;36
+CompactNodeTypeDefReader.doNodeTypeName( QNodeTypeDefinitionBuilder ntd );3;2;12
+CompactNodeTypeDefReader.doPropertyDefinition( QPropertyDefinitionBuilder pd , QNodeTypeDefinitionBuilder ntd );2;0;12
+CompactNodeTypeDefReader.toName( String stringName );3;0;13
+CompactNodeTypeDefReader.doChildNodeDefinition( QNodeDefinitionBuilder nd , QNodeTypeDefinitionBuilder ntd );2;0;11
+CompactNodeTypeDefReader.CompactNodeTypeDefReader( Reader r , String systemId , NamespaceMapping mapping , QNodeTypeDefinitionsBuilder builder );1;0;8
+CompactNodeTypeDefReader.nextToken( );1;0;3
+CompactNodeTypeDefReader.getNamespaceMapping( );1;0;3
+CompactNodeTypeDefReader.doChildNodeDefaultType( QNodeDefinitionBuilder nd );2;1;8
+CompactNodeTypeDefReader.currentTokenEquals( String s );1;0;3
+CompactNodeTypeDefReader.currentTokenEquals( String [ ] s );3;2;8
+CompactNodeTypeDefReader.doOptions( QNodeTypeDefinitionBuilder ntd );5;0;17
+CompactNodeTypeDefReader.doNameSpace( );5;3;23

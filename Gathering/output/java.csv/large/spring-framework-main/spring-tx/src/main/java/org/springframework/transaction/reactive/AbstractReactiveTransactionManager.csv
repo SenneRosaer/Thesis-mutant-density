@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractReactiveTransactionManager.doSuspend( TransactionSynchronizationManager synchronizationManager , Object transaction );1;0;4
+AbstractReactiveTransactionManager.commit( ReactiveTransaction transaction );4;0;16
+AbstractReactiveTransactionManager.doCleanupAfterCompletion( TransactionSynchronizationManager synchronizationManager , Object transaction );1;0;3
+AbstractReactiveTransactionManager.doResume( TransactionSynchronizationManager synchronizationManager , @ Nullable Object transaction , Object suspendedResources );1;0;4
+AbstractReactiveTransactionManager.newReactiveTransaction( TransactionSynchronizationManager synchronizationManager , TransactionDefinition definition , @ Nullable Object transaction , boolean newTransaction , boolean debug , @ Nullable Object suspendedResources );1;1;5
+AbstractReactiveTransactionManager.prepareForCommit( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status );1;0;3
+AbstractReactiveTransactionManager.processCommit( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status );7;1;44
+AbstractReactiveTransactionManager.triggerAfterCommit( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status );2;0;6
+AbstractReactiveTransactionManager.invokeAfterCompletion( TransactionSynchronizationManager synchronizationManager , List < TransactionSynchronization > synchronizations , int completionStatus );1;0;3
+AbstractReactiveTransactionManager.resume( TransactionSynchronizationManager synchronizationManager , @ Nullable Object transaction , @ Nullable SuspendedResourcesHolder resourcesHolder );4;3;18
+AbstractReactiveTransactionManager.test( Throwable throwable );2;1;3
+AbstractReactiveTransactionManager.rollback( ReactiveTransaction transaction );2;0;10
+AbstractReactiveTransactionManager.doResumeSynchronization( TransactionSynchronizationManager synchronizationManager , List < TransactionSynchronization > suspendedSynchronizations );1;0;6
+AbstractReactiveTransactionManager.processRollback( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status );5;0;28
+AbstractReactiveTransactionManager.isExistingTransaction( Object transaction );1;0;3
+AbstractReactiveTransactionManager.getReactiveTransaction( @ Nullable TransactionDefinition definition );11;10;50
+AbstractReactiveTransactionManager.triggerBeforeCommit( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status );2;0;7
+SuspendedResourcesHolder.SuspendedResourcesHolder( @ Nullable Object suspendedResources );1;0;3
+AbstractReactiveTransactionManager.triggerAfterCompletion( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status , int completionStatus );5;3;14
+AbstractReactiveTransactionManager.doRollbackOnCommitException( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status , Throwable ex );5;0;21
+AbstractReactiveTransactionManager.suspend( TransactionSynchronizationManager synchronizationManager , @ Nullable Object transaction );4;2;32
+AbstractReactiveTransactionManager.cleanupAfterCompletion( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status );6;1;21
+AbstractReactiveTransactionManager.readObject( ObjectInputStream ois );1;0;4
+SuspendedResourcesHolder.SuspendedResourcesHolder( @ Nullable Object suspendedResources , List < TransactionSynchronization > suspendedSynchronizations , @ Nullable String name , boolean readOnly , @ Nullable Integer isolationLevel , boolean wasActive );1;0;8
+AbstractReactiveTransactionManager.triggerBeforeCompletion( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status );2;0;6
+AbstractReactiveTransactionManager.resumeAfterBeginException( TransactionSynchronizationManager synchronizationManager , Object transaction , @ Nullable SuspendedResourcesHolder suspendedResources , Throwable beginEx );1;0;5
+AbstractReactiveTransactionManager.handleExistingTransaction( TransactionSynchronizationManager synchronizationManager , TransactionDefinition definition , Object transaction , boolean debugEnabled );9;4;46
+AbstractReactiveTransactionManager.doSuspendSynchronization( TransactionSynchronizationManager synchronizationManager );1;0;9
+AbstractReactiveTransactionManager.prepareSynchronization( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status , TransactionDefinition definition );3;1;11
+AbstractReactiveTransactionManager.prepareReactiveTransaction( TransactionSynchronizationManager synchronizationManager , TransactionDefinition definition , @ Nullable Object transaction , boolean newTransaction , boolean debug , @ Nullable Object suspendedResources );1;0;6
+AbstractReactiveTransactionManager.doSetRollbackOnly( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status );1;0;5
+AbstractReactiveTransactionManager.registerAfterCompletionWithExistingTransaction( TransactionSynchronizationManager synchronizationManager , Object transaction , List < TransactionSynchronization > synchronizations );1;0;5

@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractListenerReadPublisher.AbstractListenerReadPublisher( );1;0;3
+AbstractListenerReadPublisher.cancel( AbstractListenerReadPublisher < T > publisher );1;0;2
+AbstractListenerReadPublisher.onDataAvailable( );1;0;4
+AbstractListenerReadPublisher.createSubscription( );1;0;3
+AbstractListenerReadPublisher.request( AbstractListenerReadPublisher < T > publisher , long n );2;0;6
+AbstractListenerReadPublisher.onAllDataRead( );2;1;7
+AbstractListenerReadPublisher.onAllDataRead( AbstractListenerReadPublisher < T > publisher );1;1;4
+AbstractListenerReadPublisher.changeState( State oldState , State newState );3;3;7
+AbstractListenerReadPublisher.AbstractListenerReadPublisher( String logPrefix );1;0;3
+ReadSubscription.request( long n );3;2;6
+AbstractListenerReadPublisher.readAndPublish( );10;9;29
+AbstractListenerReadPublisher.onError( Throwable ex );2;2;7
+ReadSubscription.cancel( );2;1;7
+AbstractListenerReadPublisher.onDataAvailable( AbstractListenerReadPublisher < T > publisher );7;2;25
+AbstractListenerReadPublisher.onError( AbstractListenerReadPublisher < T > publisher , Throwable t );1;1;2
+AbstractListenerReadPublisher.subscribe( Subscriber < ? super T > subscriber );1;0;3
+AbstractListenerReadPublisher.getLogPrefix( );1;0;3
+AbstractListenerReadPublisher.subscribe( AbstractListenerReadPublisher < T > publisher , Subscriber < ? super T > subscriber );2;0;15
+AbstractListenerReadPublisher.handlePendingCompletionOrError( );6;5;19
+AbstractListenerReadPublisher.onError( AbstractListenerReadPublisher < T > publisher , Throwable ex );1;0;4
+AbstractListenerReadPublisher.changeToDemandState( State oldState );3;1;7

@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LocalEntityManagerFactoryBeanTests.testValidUsageWithDefaultProperties( );1;0;3
+DummyPersistenceProvider.generateSchema( String persistenceUnitName , Map map );1;0;3
+DummyPersistenceProvider.createEntityManagerFactory( String emfName , Map properties );1;0;5
+LocalEntityManagerFactoryBeanTests.testValidUsageWithExplicitProperties( );1;0;3
+LocalEntityManagerFactoryBeanTests.verifyClosed( );1;0;3
+DummyPersistenceProvider.createContainerEntityManagerFactory( PersistenceUnitInfo pui , Map map );1;0;3
+DummyPersistenceProvider.generateSchema( PersistenceUnitInfo persistenceUnitInfo , Map map );1;0;3
+DummyPersistenceProvider.getProviderUtil( );1;0;3
+LocalEntityManagerFactoryBeanTests.testValidUsage( Properties props );3;2;18

@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XslTransformHandler.setTransformerFactory( TransformerFactory transformerFactory );1;0;3
+XslTransformHandler.setErrorListener( ErrorListener l );1;0;3
+XslTransformHandler.parseXSLSheet( URI uri , String body , URIResolver resolver );2;0;12
+XslTransformHandler.getInstance( );2;1;6
+XslTransformHandler.XslTransformHandler( );1;0;1
+XslTransformHandler.transform( URI uri , Source source , Map < QName , Object > parameters , URIResolver resolver );9;4;36
+XslTransformHandler.cacheXSLSheet( URI uri , String body , URIResolver resolver );2;1;7

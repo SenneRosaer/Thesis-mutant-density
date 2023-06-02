@@ -1,0 +1,107 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HTTPSamplerBase.setMonitor( boolean truth );1;0;3
+HTTPSamplerBase.getUseKeepAlive( );1;0;3
+HTTPSamplerBase.setImplementation( String value );1;0;3
+HTTPSamplerBase.resultProcessing( boolean areFollowingRedirect , int frameDepth , HTTPSampleResult res );11;6;26
+HTTPSamplerBase.setHeaderManager( HeaderManager value );4;3;14
+HTTPSamplerBase.followRedirects( HTTPSampleResult res , int frameDepth );9;11;46
+HTTPSamplerBase.threadFinished( );1;0;2
+HTTPSamplerBase.setMimetype( String value );1;0;4
+HTTPSamplerBase.setCacheManager( CacheManager value );2;1;7
+HTTPSamplerBase.clearHTTPFileArgs( );1;0;3
+HTTPSamplerBase.parseArguments( String queryString , String contentEncoding );5;7;27
+HTTPSamplerBase.setContentEncoding( String value );1;0;3
+HTTPSamplerBase.addEncodedArgument( String name , String value , String metaData );1;0;3
+HTTPSamplerBase.setPath( String path , String contentEncoding );4;4;13
+HTTPSamplerBase.setFileFieldProperty( String value );2;1;6
+HTTPSamplerBase.getImplementation( );1;0;3
+HTTPSamplerBase.threadStarted( );1;0;2
+HTTPSamplerBase.fileSample( URI uri );2;1;34
+HTTPSamplerBase.getEmbeddedUrlRE( );1;0;3
+HTTPSamplerBase.getPort( );4;2;14
+HTTPSamplerBase.setHTTPFiles( HTTPFileArg [ ] files );9;9;39
+HTTPSamplerBase.setPort( int value );1;0;3
+HTTPSamplerBase.encodeSpaces( String path );1;0;3
+HTTPSamplerBase.setPath( String path );1;0;3
+HTTPSamplerBase.getUseMultipartForPost( );5;5;7
+HTTPSamplerBase.getMimetype( );1;0;4
+HTTPSamplerBase.setAuthManager( AuthManager value );2;1;7
+HTTPSamplerBase.isSecure( URL url );1;0;3
+HTTPSamplerBase.getArguments( );1;0;3
+HTTPSamplerBase.isImageParser( );1;0;3
+HTTPSamplerBase.setDomain( String value );1;0;3
+HTTPSamplerBase.getClient( );1;0;3
+HTTPSamplerBase.isSecure( String protocol );1;0;3
+HTTPSamplerBase.getMethod( );1;0;3
+HTTPSamplerBase.getFileField( );1;0;4
+HTTPSamplerBase.getFilename( );1;0;4
+HTTPSamplerBase.setFilenameProperty( String value );2;1;6
+HTTPSamplerBase.addEncodedArgument( String name , String value , String metaData , String contentEncoding );7;3;29
+HTTPSamplerBase.setImageParser( boolean parseImages );1;0;3
+HTTPSamplerBase.getProtocol( );3;3;7
+HTTPSamplerBase.isMonitor( );1;0;3
+HTTPSamplerBase.getPortIfSpecified( );2;0;8
+HTTPSamplerBase.setMD5( boolean truth );1;0;3
+HTTPSamplerBase.setClient( String client );1;0;3
+HTTPSamplerBase.getSendFileAsPostBody( );3;5;6
+HTTPSamplerBase.hasArguments( );1;1;3
+HTTPSamplerBase.sample( Entry e );1;0;3
+HTTPSamplerBase.setDoMultipartPost( boolean value );1;0;3
+HTTPSamplerBase.testEnded( String host );1;0;3
+HTTPSamplerBase.addArgument( String name , String value );1;0;3
+HTTPSamplerBase.getMonitor( );1;0;3
+HTTPSamplerBase.getSendParameterValuesAsPostBody( );4;3;12
+HTTPSamplerBase.setMimetypeProperty( String value );2;1;6
+HTTPSamplerBase.HTTPSamplerBase( );1;0;3
+HTTPSamplerBase.setFileField( String value );1;0;4
+HTTPSamplerBase.toString( );4;1;13
+HTTPSamplerBase.setFilename( String value );1;0;4
+HTTPSamplerBase.setProtocol( String value );1;0;3
+HTTPSamplerBase.setArguments( Arguments value );1;0;3
+HTTPSamplerBase.isSuccessCode( int code );2;3;3
+HTTPSamplerBase.checkCount( String method );2;1;5
+***not in a method***;0;8;0
+HTTPSamplerBase.useMD5( );1;0;3
+HTTPSamplerBase.getParserClass( HTTPSampleResult res );1;0;4
+HTTPSamplerBase.addTestElement( TestElement el );5;0;13
+HTTPSamplerBase.getHTTPFileArgs( );1;0;3
+HTTPSamplerBase.setUseKeepAlive( boolean value );1;0;3
+HTTPSamplerBase.testStarted( String host );1;0;3
+HTTPSamplerBase.addArgument( String name , String value , String metadata );1;0;3
+HTTPSamplerBase.getHeaderManager( );1;0;3
+HTTPSamplerBase.getQueryString( String contentEncoding );9;6;40
+HTTPSamplerBase.getDefaultPort( String protocol , int port );4;1;9
+HTTPSamplerBase.setAutoRedirects( boolean value );1;0;3
+HTTPSamplerBase.setFollowRedirects( boolean value );1;0;3
+HTTPSamplerBase.getCacheManager( );1;0;3
+HTTPSamplerBase.errorResult( Throwable e , HTTPSampleResult res );1;2;12
+HTTPSamplerBase.setMonitor( String value );1;0;3
+HTTPSamplerBase.setCookieManager( CookieManager value );2;1;7
+HTTPSamplerBase.readResponse( SampleResult sampleResult , InputStream in , int length );10;9;45
+HTTPSamplerBase.parseArguments( String queryString );1;0;3
+HTTPSamplerBase.getAutoRedirects( );1;0;3
+HTTPSamplerBase.getCookieManager( );1;0;3
+HTTPSamplerBase.sample( );5;0;18
+HTTPSamplerBase.downloadPageResources( HTTPSampleResult res , HTTPSampleResult container , int frameDepth );19;16;71
+HTTPSamplerBase.setEmbeddedUrlRE( String regex );1;0;3
+HTTPSamplerBase.testStarted( );3;2;14
+HTTPSamplerBase.getAuthManager( );1;0;3
+HTTPSamplerBase.encodeBackSlashes( String value );3;3;12
+HTTPSamplerBase.getDoMultipartPost( );1;0;3
+HTTPSamplerBase.getHTTPFileCount( );1;0;3
+HTTPSamplerBase.getValidMethodsAsArray( );1;0;3
+HTTPSamplerBase.addNonEncodedArgument( String name , String value , String metadata );1;0;5
+HTTPSamplerBase.setHTTPFileArgs( HTTPFileArgs value );1;0;3
+HTTPSamplerBase.addEncodedArgument( String name , String value );1;0;3
+HTTPSamplerBase.getPath( );2;0;7
+HTTPSamplerBase.testEnded( );1;0;3
+HTTPSamplerBase.getQueryString( );1;0;3
+HTTPSamplerBase.isProtocolDefaultPort( );6;7;10
+HTTPSamplerBase.getDomain( );1;0;3
+HTTPSamplerBase.testIterationStart( LoopIterationEvent event );1;0;2
+HTTPSamplerBase.getHTTPFiles( );5;6;27
+HTTPSamplerBase.getContentEncoding( );1;0;3
+HTTPSamplerBase.setMethod( String value );1;0;3
+HTTPSamplerBase.getFollowRedirects( );1;0;3
+HTTPSamplerBase.getUrl( );9;6;27
+HTTPSamplerBase.clone( );1;0;6

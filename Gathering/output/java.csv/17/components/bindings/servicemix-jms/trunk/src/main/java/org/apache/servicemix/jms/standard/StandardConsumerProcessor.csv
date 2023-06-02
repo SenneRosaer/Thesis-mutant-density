@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandardConsumerProcessor.doStart( );1;0;10
+StandardConsumerProcessor.StandardConsumerProcessor( JmsEndpoint endpoint );1;0;3
+StandardConsumerProcessor.doInit( InitialContext ctx );4;3;10
+StandardConsumerProcessor.process( MessageExchange exchange );1;0;3
+StandardConsumerProcessor.onMessage( final Message message );8;4;36
+StandardConsumerProcessor.run( );1;0;3
+StandardConsumerProcessor.doStop( );2;0;8
+StandardConsumerProcessor.doShutdown( );2;1;7
+StandardConsumerProcessor.poll( );6;2;29

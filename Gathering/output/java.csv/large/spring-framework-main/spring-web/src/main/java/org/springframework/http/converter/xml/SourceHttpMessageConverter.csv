@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SourceHttpMessageConverter.setSupportDtd( boolean supportDtd );1;0;3
+SourceHttpMessageConverter.transform( Source source , Result result );1;0;3
+CountingOutputStream.write( byte [ ] b );1;1;3
+SourceHttpMessageConverter.readDOMSource( InputStream body , HttpInputMessage inputMessage );6;3;31
+SourceHttpMessageConverter.supports( Class < ? > clazz );1;0;3
+SourceHttpMessageConverter.writeInternal( T t , HttpOutputMessage outputMessage );2;0;9
+SourceHttpMessageConverter.isProcessExternalEntities( );1;0;3
+SourceHttpMessageConverter.readSAXSource( InputStream body , HttpInputMessage inputMessage );3;2;19
+SourceHttpMessageConverter.setProcessExternalEntities( boolean processExternalEntities );2;0;6
+SourceHttpMessageConverter.getContentLength( T t , @ Nullable MediaType contentType );3;0;12
+SourceHttpMessageConverter.SourceHttpMessageConverter( );1;0;3
+SourceHttpMessageConverter.isSupportDtd( );1;0;3
+SourceHttpMessageConverter.readStAXSource( InputStream body , HttpInputMessage inputMessage );3;1;16
+CountingOutputStream.write( byte [ ] b , int off , int len );1;1;3
+SourceHttpMessageConverter.readInternal( Class < ? extends T > clazz , HttpInputMessage inputMessage );6;6;19
+CountingOutputStream.write( int b );1;1;3
+SourceHttpMessageConverter.readStreamSource( InputStream body );1;0;4

@@ -1,0 +1,114 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CodeEmitter.super_invoke_constructor( );1;0;3
+CodeEmitter.push( long value );3;3;7
+CodeEmitter.iinc( Local local , int amount );1;0;3
+CodeEmitter.invoke_constructor_this( Signature sig );1;0;3
+CodeEmitter.mark( Label label );1;0;3
+CodeEmitter.push( float value );4;5;7
+CodeEmitter.instance_of( Type type );1;0;3
+CodeEmitter.aaload( );1;0;1
+CodeEmitter.array_store( Type type );1;0;1
+CodeEmitter.putfield( String name );2;0;5
+CodeEmitter.aastore( );1;0;1
+CodeEmitter.push( String value );1;0;3
+CodeEmitter.return_value( );1;0;3
+CodeEmitter.store_local( Local local );1;0;3
+CodeEmitter.math( int op , Type type );1;0;1
+CodeEmitter.invoke_static( Type owner , Signature sig , boolean isInterface );1;0;3
+CodeEmitter.super_putstatic( String name , Type type );1;0;3
+CodeEmitter.ifnull( Label label );1;0;1
+CodeEmitter.pop( );1;0;1
+CodeEmitter.isSorted( int [ ] keys );3;4;8
+CodeEmitter.invoke( MethodInfo method , Type virtualType );4;0;14
+CodeEmitter.swap( Type prev , Type type );4;3;18
+CodeEmitter.getMethodInfo( );1;0;3
+CodeEmitter.pop2( );1;0;1
+CodeEmitter.aaload( int index );1;0;4
+CodeEmitter.dup2_x1( );1;0;1
+CodeEmitter.athrow( );1;0;1
+CodeEmitter.if_icmp( int mode , Label label );1;0;3
+CodeEmitter.arraylength( );1;0;3
+CodeEmitter.ifnonnull( Label label );1;0;1
+CodeEmitter.load_local( Local local );1;0;3
+CodeEmitter.checkcast_this( );1;0;3
+State.getSignature( );1;0;3
+CodeEmitter.new_instance_this( );1;0;3
+CodeEmitter.newarray( Type type );2;0;7
+CodeEmitter.super_invoke( Signature sig );1;0;3
+CodeEmitter.invoke_static_this( Signature sig );1;0;3
+CodeEmitter.make_label( );1;0;3
+State.getExceptionTypes( );1;0;3
+CodeEmitter.invoke_constructor_this( );1;0;3
+CodeEmitter.super_getstatic( String name , Type type );1;0;3
+CodeEmitter.dup( );1;0;1
+CodeEmitter.dup2_x2( );1;0;1
+CodeEmitter.getSignature( );1;0;3
+CodeEmitter.invoke_virtual( Type owner , Signature sig );1;0;3
+CodeEmitter.CodeEmitter( CodeEmitter wrap );1;0;5
+CodeEmitter.end_method( );1;0;3
+CodeEmitter.box( Type type );4;2;19
+CodeEmitter.load_args( int fromArg , int count );2;5;8
+State.getModifiers( );1;0;3
+CodeEmitter.putstatic( Type owner , String name , Type type );1;0;3
+CodeEmitter.invoke( MethodInfo method );1;0;3
+CodeEmitter.invoke_interface( Type owner , Signature sig );1;0;3
+CodeEmitter.newarray( );1;0;3
+CodeEmitter.checkcast( Type type );2;1;5
+CodeEmitter.putfield( Type owner , String name , Type type );1;0;3
+CodeEmitter.emit_type( int opcode , Type type );2;0;9
+CodeEmitter.super_putfield( String name , Type type );1;0;3
+CodeEmitter.catch_exception( Block block , Type exception );2;1;9
+State.State( ClassInfo classInfo , int access , Signature sig , Type [ ] exceptionTypes );2;0;8
+CodeEmitter.aconst_null( );1;0;1
+CodeEmitter.CodeEmitter( ClassEmitter ce , MethodVisitor mv , int access , Signature sig , Type [ ] exceptionTypes );1;0;5
+CodeEmitter.getfield( String name );2;0;5
+CodeEmitter.getstatic( Type owner , String name , Type type );1;0;3
+CodeEmitter.create_arg_array( );2;2;11
+CodeEmitter.dup_x1( );1;0;1
+CodeEmitter.getClassEmitter( );1;0;3
+CodeEmitter.load_arg( int index );1;1;4
+CodeEmitter.instance_of_this( );1;0;3
+CodeEmitter.process_switch( int [ ] keys , ProcessSwitchCallback callback , boolean useTable );11;16;47
+CodeEmitter.super_invoke_constructor( Signature sig );1;0;3
+CodeEmitter.begin_block( );1;0;3
+CodeEmitter.store_local( Type t , int pos );1;0;3
+CodeEmitter.make_local( Type type );1;0;3
+CodeEmitter.load_args( );1;0;3
+CodeEmitter.dup_x2( );1;0;1
+CodeEmitter.invoke_virtual_this( Signature sig );1;0;3
+CodeEmitter.zero_or_null( Type type );6;0;21
+CodeEmitter.invoke_constructor( Type type );1;0;3
+CodeEmitter.array_load( Type type );1;0;1
+CodeEmitter.getReturnType( );1;0;3
+CodeEmitter.isStaticHook( );1;0;3
+CodeEmitter.monitorenter( );1;0;1
+CodeEmitter.goTo( Label label );1;0;1
+CodeEmitter.not( );1;0;4
+CodeEmitter.if_jump( int mode , Label label );1;0;3
+CodeEmitter.process_switch( int [ ] keys , ProcessSwitchCallback callback );2;6;9
+CodeEmitter.invoke_constructor( Type type , Signature sig );1;0;3
+CodeEmitter.dup2( );1;0;1
+CodeEmitter.invoke_static( Type owner , Signature sig );1;0;3
+CodeEmitter.if_cmp( Type type , int mode , Label label );16;1;42
+CodeEmitter.throw_exception( Type type , String msg );1;0;7
+CodeEmitter.new_instance( Type type );1;0;3
+CodeEmitter.push( boolean value );2;0;3
+CodeEmitter.cast_numeric( Type from , Type to );17;16;46
+CodeEmitter.getfield( Type owner , String name , Type type );1;0;3
+CodeEmitter.push( double value );3;3;7
+CodeEmitter.super_invoke( );1;0;3
+CodeEmitter.swap( );1;0;1
+CodeEmitter.visitMaxs( int maxStack , int maxLocals );2;1;5
+CodeEmitter.unbox_or_zero( Type type );3;1;18
+CodeEmitter.make_local( );1;0;3
+CodeEmitter.monitorexit( );1;0;1
+CodeEmitter.unbox( Type type );11;1;35
+CodeEmitter.load_local( Type t , int pos );1;0;3
+CodeEmitter.push( int i );5;5;13
+CodeEmitter.super_getfield( String name , Type type );1;0;3
+CodeEmitter.skipArgs( int numArgs );2;3;7
+CodeEmitter.mark( );1;0;5
+CodeEmitter.load_this( );2;0;6
+CodeEmitter.emit_field( int opcode , Type ctype , String name , Type ftype );1;0;6
+State.getClassInfo( );1;0;3
+CodeEmitter.emit_invoke( int opcode , Type type , Signature sig , boolean isInterface );4;4;11

@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClassLoadersTest.excluding_class_loader_cannot_load_class_when_excluded_prefix_match_class_to_load( );2;0;14
+ClassLoadersTest.cannot_load_a_class_file_not_in_parent( );2;0;10
+ClassLoadersTest.run( );2;0;27
+ClassLoadersTest.isolated_class_loader_can_load_classes_when_dependent_classes_are_matching_the_prefixes( );2;0;12
+ClassLoadersTest.isolated_class_loader_cannot_load_classes_when_no_given_prefix( );1;0;9
+ClassLoadersTest.can_load_a_class_in_memory_from_bytes( );2;0;11
+ClassLoadersTest.can_list_all_classes_reachable_in_a_classloader( );1;0;14
+ClassLoadersTest.can_not_load_a_class_not_previously_registered_in_builder( );2;0;13
+ClassLoadersTest.return_current_classloader( );1;0;3
+ClassLoadersTest.isolated_class_loader_has_no_parent( );1;0;9
+ClassLoadersTest.isolated_class_loader_cannot_load_classes_if_prefix_excluded( );2;0;16
+ClassLoadersTest.isolated_class_loader_can_load_classes_isolated_classes_in_isolation( );2;0;11
+ClassLoadersTest.isolated_class_loader_cannot_load_classes_if_no_code_source_path( );2;0;10
+ClassLoadersTest.can_run_in_given_classloader( );2;0;44
+ClassLoadersTest.excluding_class_loader_cannot_load_classes_when_no_correct_source_url_set( );1;0;9
+ClassLoadersTest.cannot_load_runnable_in_given_classloader_if_some_type_cant_be_loaded( );2;0;23
+ClassLoadersTest.excluding_class_loader_can_load_classes_when_correct_source_url_set( );1;0;4
+ClassLoadersTest.isolated_class_loader_cannot_load_classes_if_dependent_classes_do_not_match_the_prefixes( );2;0;13
+ClassLoadersTest.return_bootstrap_classloader( );1;0;6

@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractPatternsBasedResolver.dumpSettings( );3;0;14
+AbstractPatternsBasedResolver.listTokenValues( String [ ] tokens , Map criteria );6;0;28
+AbstractPatternsBasedResolver.setIvyPatterns( List patterns );1;0;3
+AbstractPatternsBasedResolver.setM2compatible( boolean compatible );1;0;3
+AbstractPatternsBasedResolver.AbstractPatternsBasedResolver( );1;0;2
+AbstractPatternsBasedResolver.getIvyPatterns( );1;0;3
+AbstractPatternsBasedResolver.filterNames( Collection names );1;0;4
+AbstractPatternsBasedResolver.findResourceUsingPatterns( ModuleRevisionId moduleRevision , List patternList , Artifact artifact , ResourceMDParser rmdparser , Date date );7;8;25
+AbstractPatternsBasedResolver.findArtifactNames( Map tokenValues , String token );2;0;14
+AbstractPatternsBasedResolver.isM2compatible( );1;0;3
+AbstractPatternsBasedResolver.findResource( ResolvedResource [ ] rress , ResourceMDParser rmdparser , ModuleRevisionId mrid , Date date );19;19;80
+AbstractPatternsBasedResolver.convertM2OrganizationForResourceSearch( String org );1;0;3
+AbstractPatternsBasedResolver.findIvyFileRef( DependencyDescriptor dd , ResolveData data );2;0;8
+AbstractPatternsBasedResolver.getModuleDescriptorExtension( );1;0;3
+AbstractPatternsBasedResolver.findArtifactRef( Artifact artifact , Date date );2;0;8
+AbstractPatternsBasedResolver.convertM2IdForResourceSearch( ModuleRevisionId mrid );3;4;8
+AbstractPatternsBasedResolver.getArtifactPatterns( );1;0;3
+AbstractPatternsBasedResolver.addIvyPattern( String pattern );1;0;3
+AbstractPatternsBasedResolver.addConfiguredArtifact( IvyPattern p );1;0;3
+AbstractPatternsBasedResolver.convertM2TokenValuesForResourceSearch( Map tokenValues );2;0;7
+AbstractPatternsBasedResolver.findNames( Map tokenValues , String token );2;0;8
+AbstractPatternsBasedResolver.findTokenValues( Collection names , List patterns , Map tokenValues , String token );1;0;2
+AbstractPatternsBasedResolver.resolveTokenValues( String [ ] tokens , String pattern , Map criteria , boolean noMd );15;8;55
+AbstractPatternsBasedResolver.addConfiguredIvy( IvyPattern p );1;0;3
+AbstractPatternsBasedResolver.setArtifactPatterns( List patterns );1;0;3
+AbstractPatternsBasedResolver.addArtifactPattern( String pattern );1;0;3
+AbstractPatternsBasedResolver.findIvyNames( Map tokenValues , String token );2;0;13

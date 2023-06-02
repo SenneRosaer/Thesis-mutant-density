@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FilePolicyManager.getCache( );1;0;3
+FilePolicyManager.removeAccreditable( AccreditableManager manager , Accreditable accreditable , File policyDirectory );5;4;25
+FilePolicyManager.setPoliciesDirectory( File directory );2;1;8
+SubtreeFileFilter.SubtreeFileFilter( String _subtree );1;0;4
+FilePolicyManager.getGrantedRoles( AccreditableManager accreditableManager , Identity identity , String url );3;3;11
+FilePolicyManager.getPolicyFile( String url , String policyFilename );4;2;20
+FilePolicyManager.getPoliciesDirectory( );5;3;26
+FilePolicyManager.buildSubtreePolicy( AccreditableManager controller , String url );1;0;3
+FilePolicyManager.getPolicies( AccreditableManager controller , String url );4;7;22
+FilePolicyManager.buildPolicy( AccreditableManager controller , String url , String policyFilename );6;2;23
+SubtreeFileFilter.accept( File file );1;0;3
+FilePolicyManager.accreditableRemoved( AccreditableManager manager , Accreditable accreditable );2;0;6
+FilePolicyManager.getPolicySourceURI( String url , String policyFilename );4;5;16
+IsDirectoryFileFilter.accept( File file );1;0;3
+FilePolicyManager.service( ServiceManager manager );1;0;4
+FilePolicyManager.getCredentials( AccreditableManager controller , String url );5;11;27
+FilePolicyManager.dispose( );3;1;8
+FilePolicyManager.savePolicy( String url , Policy policy , String filename );1;0;4
+FilePolicyManager.savePolicy( Policy policy , File file );5;2;16
+FilePolicyManager.accreditableAdded( AccreditableManager manager , Accreditable accreditable );1;0;2
+FilePolicyManager.getServiceManager( );1;0;3
+FilePolicyManager.FilePolicyManager( );1;0;2
+FilePolicyManager.parameterize( Parameters parameters );3;0;8
+FilePolicyManager.saveSubtreePolicy( String url , Policy policy );1;0;4
+FilePolicyManager.getPolicy( AccreditableManager controller , String url );1;0;3

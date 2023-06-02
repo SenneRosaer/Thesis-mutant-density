@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MySQLDiskCache.MySQLDiskCache( MySQLDiskCacheAttributes attributes , TableState tableState , ICompositeCacheManager compositeCacheManager );2;0;8
+MySQLDiskCache.processGet( Serializable key );3;1;10
+MySQLDiskCache.processGetMatching( String pattern );3;1;10
+MySQLDiskCache.constructLikeParameterFromPattern( String pattern );2;0;9
+***not in a method***;0;1;0
+MySQLDiskCache.processUpdate( ICacheElement element );3;1;10
+MySQLDiskCache.deleteExpired( );3;2;10

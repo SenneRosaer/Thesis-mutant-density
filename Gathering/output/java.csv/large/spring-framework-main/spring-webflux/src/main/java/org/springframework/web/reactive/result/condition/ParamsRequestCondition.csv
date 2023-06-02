@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ParamExpression.matchValue( ServerWebExchange exchange );2;2;4
+ParamsRequestCondition.compareTo( ParamsRequestCondition other , ServerWebExchange exchange );2;3;7
+ParamsRequestCondition.getExpressions( );1;0;3
+ParamsRequestCondition.combine( ParamsRequestCondition other );5;1;14
+ParamsRequestCondition.getMatchingCondition( ServerWebExchange exchange );3;1;8
+ParamsRequestCondition.getContent( );1;0;3
+ParamExpression.parseValue( String valueExpression );1;0;3
+ParamsRequestCondition.getValueMatchCount( Set < ParamExpression > expressions );4;4;9
+ParamsRequestCondition.ParamsRequestCondition( String ... params );1;0;3
+ParamsRequestCondition.getToStringInfix( );1;0;3
+ParamExpression.ParamExpression( String expression );1;0;3
+ParamExpression.isCaseSensitiveName( );1;0;3
+ParamsRequestCondition.parseExpressions( String ... params );3;0;10
+ParamsRequestCondition.ParamsRequestCondition( Set < ParamExpression > conditions );1;0;3
+ParamExpression.matchName( ServerWebExchange exchange );1;0;3

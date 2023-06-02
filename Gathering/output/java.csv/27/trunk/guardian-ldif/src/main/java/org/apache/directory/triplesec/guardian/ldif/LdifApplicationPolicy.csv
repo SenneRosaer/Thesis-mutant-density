@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LdifApplicationPolicy.close( );1;0;3
+LdifApplicationPolicy.getApplicationName( String principalDN );2;1;10
+LdifApplicationPolicy.parseBoolean( String bool );2;0;7
+LdifApplicationPolicy.LdifApplicationPolicy( File ldifFile , Properties info );1;0;10
+LdifApplicationPolicy.addPolicyListener( PolicyChangeListener listener );1;0;3
+LdifApplicationPolicy.getDependentProfileNames( Permission permission );1;0;3
+LdifApplicationPolicy.getAdminProfile( );1;0;3
+LdifApplicationPolicy.load( );8;2;47
+LdifApplicationPolicy.loadPermissions( Map permissionMap );4;1;34
+LdifApplicationPolicy.loadProfiles( Map profileEntryMap );20;10;146
+LdifApplicationPolicy.getDescription( );1;0;3
+LdifApplicationPolicy.getApplicationName( );1;0;3
+LdifApplicationPolicy.getRoles( );1;0;3
+LdifApplicationPolicy.getProfileIdIterator( );1;0;3
+LdifApplicationPolicy.loadRoles( Map roleMap );7;4;49
+LdifApplicationPolicy.getPermissions( );1;0;3
+LdifApplicationPolicy.getProfile( String userName );3;0;11
+LdifApplicationPolicy.removePolicyListener( PolicyChangeListener listener );1;0;3
+LdifApplicationPolicy.getUserProfileIds( String userName );2;1;8
+LdifApplicationPolicy.getDependentProfileNames( Role role );1;0;3

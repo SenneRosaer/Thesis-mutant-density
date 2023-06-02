@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PersonController.getPerson( @ PathVariable String name , Model model );1;0;4
+PersonController.save( @ Valid Person person , Errors errors , RedirectAttributes redirectAttrs );2;0;8
+RedirectTests.saveSpecial( );1;0;13
+RedirectTests.saveWithErrors( );1;0;9
+RedirectTests.save( );1;0;13
+PersonController.saveSpecial( @ Valid Person person , Errors errors , RedirectAttributes redirectAttrs );2;0;8
+RedirectTests.getPerson( );1;0;17
+RedirectTests.saveSpecialWithErrors( );1;0;9

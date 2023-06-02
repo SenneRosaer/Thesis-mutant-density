@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ComposedQuery.getPrefixSeparator( );1;0;1
+ComposedQuery.prefixToString( StringBuffer r );3;0;13
+ComposedQuery.isFieldsSubQueryAcceptable( );3;0;9
+ComposedQuery.getSubQueriesIterator( );1;0;1
+ComposedQuery.recompose( List queries );2;1;4
+ComposedQuery.getNrSubQueries( );1;0;1
+ComposedQuery.isOperatorInfix( );1;0;1
+ComposedQuery.getBracketClose( );1;0;1
+ComposedQuery.getBracketOpen( );1;0;1
+ComposedQuery.getOperatorName( );1;0;1
+ComposedQuery.infixToString( StringBuffer r );3;0;14
+ComposedQuery.makeLuceneSubQueriesField( String fn , BasicQueryFactory qf );2;0;8
+ComposedQuery.toString( );2;0;10
+ComposedQuery.getSubQuery( int qn );1;0;1
+ComposedQuery.ComposedQuery( List qs , boolean operatorInfix , String opName );1;0;5

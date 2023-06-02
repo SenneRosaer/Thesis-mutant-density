@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReactiveTestTransactionManager.doSetRollbackOnly( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status );2;1;6
+ReactiveTestTransactionManager.doRollback( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status );2;1;6
+ReactiveTestTransactionManager.doCommit( TransactionSynchronizationManager synchronizationManager , GenericReactiveTransaction status );2;1;6
+ReactiveTestTransactionManager.doCleanupAfterCompletion( TransactionSynchronizationManager synchronizationManager , Object transaction );1;0;3
+ReactiveTestTransactionManager.ReactiveTestTransactionManager( boolean existingTransaction , boolean canCreateTransaction );1;0;4
+ReactiveTestTransactionManager.isExistingTransaction( Object transaction );1;0;3
+ReactiveTestTransactionManager.doGetTransaction( TransactionSynchronizationManager synchronizationManager );1;0;3
+ReactiveTestTransactionManager.doBegin( TransactionSynchronizationManager synchronizationManager , Object transaction , TransactionDefinition definition );3;2;9

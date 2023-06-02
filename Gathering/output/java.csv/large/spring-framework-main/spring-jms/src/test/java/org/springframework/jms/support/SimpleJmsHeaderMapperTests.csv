@@ -1,0 +1,60 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleJmsHeaderMapperTests.setJMSReplyTo( Destination replyTo );1;0;3
+SimpleJmsHeaderMapperTests.attemptToWriteDisallowedCorrelationIdNumberPropertyIsNotFatal( );1;0;16
+SimpleJmsHeaderMapperTests.assertInboundHeader( jakarta . jms . Message jmsMessage , String headerId , Object value );2;1;12
+SimpleJmsHeaderMapperTests.attemptToWriteDisallowedReplyToPropertyIsNotFatal( );1;0;16
+SimpleJmsHeaderMapperTests.propertyMappingExceptionIsNotFatal( );2;0;23
+SimpleJmsHeaderMapperTests.jmsTypeMappedToHeader( );1;0;6
+SimpleJmsHeaderMapperTests.getJMSRedelivered( );1;0;3
+SimpleJmsHeaderMapperTests.getObjectProperty( String name );2;0;8
+SimpleJmsHeaderMapperTests.jmsReadOnlyPropertiesNotMapped( );1;0;20
+SimpleJmsHeaderMapperTests.setObjectProperty( String name , Object value );2;0;6
+SimpleJmsHeaderMapperTests.userDefinedPropertyMappedToHeader( );1;0;5
+SimpleJmsHeaderMapperTests.attemptToReadDisallowedTypePropertyIsNotFatal( );1;0;9
+SimpleJmsHeaderMapperTests.attemptToReadDisallowedExpirationPropertyIsNotFatal( );1;0;9
+SimpleJmsHeaderMapperTests.userDefinedPropertyMappedFromHeaderWithCustomPrefix( );1;0;12
+SimpleJmsHeaderMapperTests.jmsExpirationMappedToHeader( );1;0;6
+SimpleJmsHeaderMapperTests.destinationMappedToHeader( );1;0;6
+SimpleJmsHeaderMapperTests.getJMSCorrelationID( );1;0;3
+SimpleJmsHeaderMapperTests.contentTypePropertyMappedToHeader( );1;0;5
+SimpleJmsHeaderMapperTests.contentTypePropertyMappedFromHeader( );1;0;10
+SimpleJmsHeaderMapperTests.illegalArgumentExceptionIsNotFatal( );2;0;23
+SimpleJmsHeaderMapperTests.getJMSReplyTo( );1;0;3
+SimpleJmsHeaderMapperTests.setJMSCorrelationID( String correlationId );1;0;3
+SimpleJmsHeaderMapperTests.getJMSDeliveryMode( );1;0;3
+SimpleJmsHeaderMapperTests.JmsReplyToIgnoredIfIncorrectType( );1;0;7
+SimpleJmsHeaderMapperTests.attemptToReadDisallowedDeliveryModePropertyIsNotFatal( );1;0;9
+SimpleJmsHeaderMapperTests.assertAttemptReadDisallowedPropertyIsNotFatal( jakarta . jms . Message jmsMessage , String headerId );1;0;7
+SimpleJmsHeaderMapperTests.attemptToReadDisallowedPriorityPropertyIsNotFatal( );1;0;9
+SimpleJmsHeaderMapperTests.attemptToWriteDisallowedCorrelationIdStringPropertyIsNotFatal( );1;0;16
+SimpleJmsHeaderMapperTests.attemptToReadDisallowedReplyToPropertyIsNotFatal( );1;0;9
+SimpleJmsHeaderMapperTests.getJMSMessageID( );1;0;3
+SimpleJmsHeaderMapperTests.jmsTypeIgnoredIfIncorrectType( );1;0;7
+SimpleJmsHeaderMapperTests.userDefinedPropertyMappedToHeaderWithCustomPrefix( );1;0;6
+SimpleJmsHeaderMapperTests.getJMSPriority( );1;0;3
+SimpleJmsHeaderMapperTests.jmsTypeMappedFromHeader( );1;0;9
+SimpleJmsHeaderMapperTests.attemptToReadDisallowedRedeliveredPropertyIsNotFatal( );1;0;9
+SimpleJmsHeaderMapperTests.jmsCorrelationIdNumberConvertsToString( );1;0;7
+SimpleJmsHeaderMapperTests.attemptToReadDisallowedCorrelationIdPropertyIsNotFatal( );1;0;9
+SimpleJmsHeaderMapperTests.jmsCorrelationIdMappedToHeader( );1;0;6
+SimpleJmsHeaderMapperTests.jmsMessageIdMappedToHeader( );1;0;6
+SimpleJmsHeaderMapperTests.setJMSType( String type );1;0;3
+SimpleJmsHeaderMapperTests.attemptToReadDisallowedMessageIdPropertyIsNotFatal( );1;0;9
+SimpleJmsHeaderMapperTests.attemptToReadDisallowedTimestampPropertyIsNotFatal( );1;0;9
+SimpleJmsHeaderMapperTests.getJMSTimestamp( );1;0;3
+SimpleJmsHeaderMapperTests.jmsReplyToMappedToHeader( );1;0;6
+SimpleJmsHeaderMapperTests.jmsPriorityMappedToHeader( );1;0;6
+SimpleJmsHeaderMapperTests.jmsDeliveryModeMappedToHeader( );1;0;6
+SimpleJmsHeaderMapperTests.attemptToReadDisallowedUserPropertyIsNotFatal( );2;0;15
+SimpleJmsHeaderMapperTests.getJMSDestination( );1;0;3
+SimpleJmsHeaderMapperTests.attemptToWriteDisallowedTypePropertyIsNotFatal( );1;0;16
+SimpleJmsHeaderMapperTests.jmsCorrelationIdMappedFromHeader( );1;0;9
+SimpleJmsHeaderMapperTests.attemptToReadDisallowedDestinationPropertyIsNotFatal( );1;0;9
+SimpleJmsHeaderMapperTests.getJMSType( );1;0;3
+SimpleJmsHeaderMapperTests.userDefinedPropertyMappedFromHeader( );1;0;11
+SimpleJmsHeaderMapperTests.jmsTimestampMappedToHeader( );1;0;6
+SimpleJmsHeaderMapperTests.userDefinedPropertyWithUnsupportedType( );1;0;10
+SimpleJmsHeaderMapperTests.jmsReplyToMappedFromHeader( );1;0;9
+SimpleJmsHeaderMapperTests.initBuilder( );1;0;3
+SimpleJmsHeaderMapperTests.getJMSExpiration( );1;0;3
+SimpleJmsHeaderMapperTests.jmsCorrelationIdIgnoredIfIncorrectType( );1;0;7

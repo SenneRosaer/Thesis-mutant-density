@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JndiTemplate.releaseContext( @ Nullable Context ctx );3;1;10
+JndiTemplate.lookup( String name , @ Nullable Class < T > requiredType );3;3;7
+JndiTemplate.rebind( final String name , final Object object );2;0;9
+JndiTemplate.getContext( );1;0;3
+JndiTemplate.execute( JndiCallback < T > contextCallback );1;0;9
+JndiTemplate.bind( final String name , final Object object );2;0;9
+JndiTemplate.createInitialContext( );4;1;9
+JndiTemplate.JndiTemplate( );1;0;2
+JndiTemplate.JndiTemplate( @ Nullable Properties environment );1;0;3
+JndiTemplate.getEnvironment( );1;0;3
+JndiTemplate.lookup( final String name );3;1;11
+JndiTemplate.unbind( final String name );2;0;9
+JndiTemplate.setEnvironment( @ Nullable Properties environment );1;0;3

@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+***not in a method***;0;1;0
+TaskSequence.setRepetitions( int repetitions );4;1;12
+TaskSequence.setNoChildReport( );3;0;9
+TaskSequence.doSerialTasksWithRate( );9;13;24
+TaskSequence.TaskSequence( PerfRunData runData , String name , TaskSequence parent , boolean parallel );3;2;10
+TaskSequence.getTasks( );1;0;3
+TaskSequence.initTasksArray( );3;5;11
+TaskSequence.getRepetitions( );1;0;3
+TaskSequence.run( );4;1;14
+TaskSequence.startlThreadsWithRate( Thread [ ] t );4;6;12
+TaskSequence.setSequenceName( );7;9;14
+TaskSequence.isParallel( );1;0;3
+TaskSequence.getName( );1;0;3
+TaskSequence.getParent( );1;0;3
+TaskSequence.updateExhausted( PerfTask task );4;1;15
+TaskSequence.doSerialTasks( );8;10;19
+TaskSequence.getRate( );2;1;3
+TaskSequence.doParallelTasks( );7;8;32
+TaskSequence.doLogic( );2;0;4
+TaskSequence.toString( );9;4;23
+TaskSequence.clone( );2;2;8
+TaskSequence.startThreads( Thread [ ] t );3;3;9
+TaskSequence.addTask( PerfTask task );1;1;4
+TaskSequence.setRate( int rate , boolean perMin );1;0;5
+TaskSequence.isCollapsable( );1;0;3

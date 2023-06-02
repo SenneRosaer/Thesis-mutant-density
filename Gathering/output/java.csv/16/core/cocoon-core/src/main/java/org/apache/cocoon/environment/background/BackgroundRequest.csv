@@ -1,0 +1,68 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BackgroundRequest.getCookieMap( );1;0;3
+BackgroundRequest.getMethod( );1;0;1
+BackgroundRequest.getRemoteAddr( );1;0;1
+BackgroundRequest.getCocoonCookies( );1;0;1
+BackgroundRequest.getCocoonCookieMap( );1;0;3
+BackgroundRequest.getParameterValues( String name );2;0;7
+BackgroundRequest.getLocales( );1;0;3
+BackgroundRequest.getSitemapPath( );1;0;3
+BackgroundRequest.getCocoonSession( boolean create );1;0;3
+BackgroundRequest.getProtocol( );1;0;1
+EmptyEnumeration.EmptyEnumeration( );1;0;2
+BackgroundRequest.isRequestedSessionIdFromURL( );1;0;3
+BackgroundRequest.getAttributeNames( );1;0;3
+BackgroundRequest.getRequestURI( );4;3;7
+BackgroundRequest.BackgroundRequest( Environment env , String contextPath , String servletPath , String pathInfo , Map attributes , Map parameters );1;0;3
+BackgroundRequest.getParameterMap( );1;0;1
+BackgroundRequest.isRequestedSessionIdValid( );1;1;3
+BackgroundRequest.isSecure( );1;0;1
+BackgroundRequest.getAuthType( );1;0;1
+BackgroundRequest.isUserInRole( String role );1;0;1
+BackgroundRequest.get( String name );5;6;14
+BackgroundRequest.getSession( );1;0;3
+BackgroundRequest.getAttribute( String name );1;0;3
+EmptyEnumeration.hasMoreElements( );1;0;3
+BackgroundRequest.getCookies( );1;0;1
+BackgroundRequest.removeAttribute( String name );1;0;3
+BackgroundRequest.setAttribute( String name , Object value );1;0;3
+BackgroundRequest.getQueryString( );1;0;1
+BackgroundRequest.getRequestedSessionId( );2;1;4
+BackgroundRequest.isRequestedSessionIdFromCookie( );1;0;3
+BackgroundRequest.setLocalAttribute( String name , Object value );1;0;3
+BackgroundRequest.getCocoonSession( );1;0;3
+BackgroundRequest.getParameter( String name );5;3;17
+BackgroundRequest.getContextPath( );1;0;1
+BackgroundRequest.getContentType( );1;0;1
+EmptyEnumeration.nextElement( );1;0;3
+BackgroundRequest.getHeaders( String name );1;0;3
+BackgroundRequest.getDateHeader( String name );1;0;3
+BackgroundRequest.getLocalAttribute( String name );1;0;3
+BackgroundRequest.searchAttribute( String name );2;1;7
+BackgroundRequest.getHeaderNames( );2;1;6
+BackgroundRequest.getLocalAttributeNames( );1;0;3
+BackgroundRequest.getPathTranslated( );1;0;1
+BackgroundRequest.getPathInfo( );1;0;1
+BackgroundRequest.getServletPath( );1;0;1
+BackgroundRequest.removeLocalAttribute( String name );1;0;3
+BackgroundRequest.getScheme( );1;0;1
+BackgroundRequest.BackgroundRequest( Environment env , String contextPath , String servletPath , String pathInfo , Map attributes , Map parameters , Map headers );2;1;10
+BackgroundRequest.getRequestURL( );1;0;1
+BackgroundRequest.getRemoteUser( );1;0;1
+BackgroundRequest.getRemoteHost( );1;0;1
+BackgroundRequest.getContentLength( );1;1;1
+BackgroundRequest.getCharacterEncoding( );1;0;1
+BackgroundRequest.getSitemapURIPrefix( );1;0;3
+BackgroundRequest.setCharacterEncoding( java . lang . String env );1;0;1
+BackgroundRequest.getSitemapURI( );1;0;3
+BackgroundRequest.getServerPort( );1;1;1
+BackgroundRequest.getIntHeader( String name );3;3;4
+BackgroundRequest.getInputStream( );1;0;3
+BackgroundRequest.getSession( boolean create );1;0;3
+BackgroundRequest.getParameterNames( );2;1;3
+BackgroundRequest.getHeader( String name );2;1;3
+BackgroundRequest.getServerName( );1;0;1
+BackgroundRequest.getUserPrincipal( );1;0;1
+BackgroundRequest.getLocale( );1;0;1
+BackgroundRequest.BackgroundRequest( Environment env , String contextPath , String servletPath , String pathInfo );1;0;3
+BackgroundRequest.BackgroundRequest( Environment env , String contextPath , String servletPath , String pathInfo , Map attributes );1;0;3

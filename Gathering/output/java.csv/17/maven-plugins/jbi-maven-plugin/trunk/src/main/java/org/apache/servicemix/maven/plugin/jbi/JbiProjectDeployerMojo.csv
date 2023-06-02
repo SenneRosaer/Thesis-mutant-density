@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JbiProjectDeployerMojo.undeployDependency( JbiDeployableArtifact jbiDeployable );4;0;20
+JbiDeployableArtifact.getName( );1;0;3
+JbiDeployableArtifact.toString( );1;1;3
+JbiProjectDeployerMojo.getExtension( MavenProject project2 );2;0;7
+JbiProjectDeployerMojo.isDeployed( JbiDeployableArtifact jbiDeployable );2;0;14
+JbiProjectDeployerMojo.stopDependency( JbiDeployableArtifact jbiDeployable );3;0;23
+JbiProjectDeployerMojo.getDeployablePackagingTypes( );2;1;9
+JbiDeployableArtifact.JbiDeployableArtifact( String name , String type , String file );1;0;5
+JbiProjectDeployerMojo.execute( );1;0;3
+JbiProjectDeployerMojo.resolveDeploymentPackage( MavenProject project , Artifact artifact );1;0;8
+JbiDeployableArtifact.hashCode( );1;0;3
+JbiProjectDeployerMojo.deployDependency( JbiDeployableArtifact jbiDeployable , boolean doDeferExceptions );4;0;25
+JbiDeployableArtifact.equals( Object obj );2;0;7
+JbiProjectDeployerMojo.deployProject( );17;11;73
+JbiProjectDeployerMojo.startDependency( JbiDeployableArtifact jbiDeployable );3;0;15
+JbiProjectDeployerMojo.resolveArtifact( Artifact artifact , Stack dependencies );6;2;38
+ArtifactDepthComparator.compare( Object arg0 , Object arg1 );3;3;12
+JbiDeployableArtifact.getType( );1;0;3
+JbiDeployableArtifact.getFile( );1;0;3

@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CacheAccess.getStatistics( );1;0;3
+CacheAccess.dispose( );1;0;3
+CacheAccess.ensureCacheManager( );2;1;9
+CacheAccess.defineRegion( String name , CompositeCacheAttributes cattr , IElementAttributes attr );1;0;4
+CacheAccess.getAccess( String region );1;0;4
+CacheAccess.remove( Object name );1;0;3
+CacheAccess.getAccess( String region , ICompositeCacheAttributes icca );1;0;4
+CacheAccess.resetElementAttributes( IElementAttributes attr );1;0;3
+CacheAccess.remove( );1;0;3
+CacheAccess.defineRegion( String name , CompositeCacheAttributes cattr );1;0;4
+CacheAccess.defineRegion( String name );1;0;4
+CacheAccess.putSafe( Object key , Object value );2;1;7
+CacheAccess.getCacheAttributes( );1;0;3
+CacheAccess.get( Object name );2;1;4
+CacheAccess.destroy( );2;0;10
+CacheAccess.resetElementAttributes( Object name , IElementAttributes attr );2;1;8
+CacheAccess.CacheAccess( CompositeCache cacheControl );1;0;3
+CacheAccess.getStats( );1;0;3
+CacheAccess.put( Object name , Object obj );1;0;3
+CacheAccess.put( Object key , Object val , IElementAttributes attr );4;2;21
+CacheAccess.clear( );2;0;10
+CacheAccess.getCacheElement( Object name );1;0;3
+CacheAccess.getElementAttributes( Object name );2;0;12
+CacheAccess.setCacheAttributes( ICompositeCacheAttributes cattr );1;0;3
+CacheAccess.destroy( Object name );1;0;3
+CacheAccess.getElementAttributes( );1;0;3

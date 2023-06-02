@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CopyTransformer.isCopySecuritySubject( );1;0;3
+CopyTransformer.copySecuritySubject( NormalizedMessage from , NormalizedMessage to );1;0;3
+CopyTransformer.transform( MessageExchange exchange , NormalizedMessage in );1;0;5
+CopyTransformer.copyProperties( NormalizedMessage from , NormalizedMessage to );3;1;9
+CopyTransformer.setCopySecuritySubject( boolean copySecuritySubject );1;0;3
+CopyTransformer.setCopyAttachments( boolean copyAttachments );1;0;3
+CopyTransformer.copyAttachments( NormalizedMessage from , NormalizedMessage to );2;0;8
+CopyTransformer.isCopyAttachments( );1;0;3
+CopyTransformer.transform( MessageExchange exchange , NormalizedMessage from , NormalizedMessage to );13;7;30
+CopyTransformer.isCopyProperties( );1;0;3
+CopyTransformer.setCopyProperties( boolean copyProperties );1;0;3
+CopyTransformer.getInstance( );1;0;3

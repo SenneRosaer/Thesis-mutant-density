@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResolveData.getNodeIds( );1;0;3
+ResolveData.getCurrentResolvedModuleRevision( );1;0;3
+ResolveData.isTransitive( );1;0;3
+ResolveData.getReport( );1;0;3
+ResolveData.blacklist( IvyNode node );4;3;9
+ResolveData.getOptions( );1;0;3
+ResolveData.setCurrentResolvedModuleRevision( ResolvedModuleRevision mr );1;0;3
+ResolveData.setReport( ConfigurationResolveReport report );1;0;3
+ResolveData.getVisitData( ModuleRevisionId mrid );1;0;3
+ResolveData.getEventManager( );1;0;3
+ResolveData.getCurrentVisitNode( );1;0;3
+ResolveData.ResolveData( ResolveEngine engine , ResolveOptions options , ConfigurationResolveReport report );1;0;3
+ResolveData.getDate( );1;0;3
+ResolveData.ResolveData( ResolveData data , boolean validate );1;0;6
+ResolveData.getNode( ModuleRevisionId mrid );2;1;4
+ResolveData.getEngine( );1;0;3
+ResolveData.register( VisitNode node );1;0;3
+ResolveData.ResolveData( ResolveEngine engine , ResolveOptions options , ConfigurationResolveReport report , Map visitData );1;0;6
+ResolveData.mediate( DependencyDescriptor dd );5;4;21
+ResolveData.register( ModuleRevisionId mrid , VisitNode node );2;1;11
+ResolveData.replaceNode( ModuleRevisionId mrid , IvyNode node , String rootModuleConf );3;2;15
+ResolveData.getNodes( );2;0;8
+ResolveData.ResolveData( ResolveEngine engine , ResolveOptions options );1;0;3
+ResolveData.setCurrentVisitNode( VisitNode currentVisitNode );1;0;3
+ResolveData.getSettings( );1;0;3
+ResolveData.isValidate( );1;0;3
+ResolveData.isBlacklisted( String rootModuleConf , ModuleRevisionId mrid );2;2;4

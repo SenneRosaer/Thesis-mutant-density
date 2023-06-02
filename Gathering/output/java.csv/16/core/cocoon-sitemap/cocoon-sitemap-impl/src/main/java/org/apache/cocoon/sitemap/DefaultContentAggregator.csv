@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultContentAggregator.startDocument( );1;0;2
+DefaultContentAggregator.generate( );6;5;24
+DefaultContentAggregator.endElem( Element element );3;3;7
+Element.Element( String name , String namespace , String prefix );1;0;5
+DefaultContentAggregator.startElement( String namespaceURI , String localName , String raw , Attributes atts );5;6;13
+DefaultContentAggregator.setup( SourceResolver resolver , Map objectModel , String src , Parameters par );3;2;11
+DefaultContentAggregator.recycle( );4;3;16
+DefaultContentAggregator.getKey( );4;3;29
+DefaultContentAggregator.getValidity( );4;3;18
+Part.Part( String uri , Element element , String stripRoot );1;0;5
+DefaultContentAggregator.endDocument( );1;0;2
+DefaultContentAggregator.setConsumer( XMLConsumer consumer );1;0;4
+DefaultContentAggregator.endElement( String namespaceURI , String localName , String raw );5;7;13
+DefaultContentAggregator.startElem( Element element );3;3;7
+DefaultContentAggregator.setRootElement( String element , String namespace , String prefix );2;0;9
+DefaultContentAggregator.service( ServiceManager manager );1;0;3
+DefaultContentAggregator.addPart( String uri , String element , String namespace , String stripRootElement , String prefix );4;1;22

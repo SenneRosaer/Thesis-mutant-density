@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RemoteCacheServerFactory.configureCacheEventLogger( Properties props );2;1;10
+RemoteCacheServerFactory.startTheRegistry( int registryPort , RemoteCacheServerAttributes rcsa );4;0;17
+RemoteCacheServerFactory.startup( String host , int port , String propFile );9;5;56
+RemoteCacheServerFactory.configureManuallyIfValuesArePresent( Properties prop , RemoteCacheServerAttributes rcsa );9;6;53
+RemoteCacheServerFactory.registerServer( String host , int port , String serviceName );4;3;20
+RemoteCacheServerFactory.getRemoteCacheServer( );1;0;3
+RemoteCacheServerFactory.main( String [ ] args );16;14;75
+RemoteCacheServerFactory.RemoteCacheServerFactory( );1;0;3
+RemoteCacheServerFactory.configureObjectSpecificCustomFactory( Properties props );4;1;21
+RemoteCacheServerFactory.setServiceName( String serviceName );1;0;3
+MyThreadFactory.newThread( Runnable runner );1;0;8
+RemoteCacheServerFactory.configureRemoteCacheServerAttributes( Properties prop );1;0;6
+RemoteCacheServerFactory.getServiceName( );1;0;3
+RemoteCacheServerFactory.configureServerAttributes( String propFile );1;0;6
+RemoteCacheServerFactory.shutdownImpl( String host , int port );6;5;36

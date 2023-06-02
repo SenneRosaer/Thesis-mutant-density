@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLAdapter.attribute( AttributesImpl attr , String name , String value );1;0;3
+XMLAdapter.handleText( );13;9;43
+XMLAdapter.endElement( String uri , String loc , String raw );8;2;22
+XMLAdapter.toSAX( ContentHandler handler );1;0;8
+XMLAdapter.end( String name );2;2;4
+XMLAdapter.generateSAX( Widget widget );1;0;3
+XMLAdapter.XMLAdapter( Widget widget );1;0;4
+XMLAdapter.getLocale( );1;0;3
+XMLAdapter.data( String data );1;0;3
+XMLAdapter.startElement( String uri , String loc , String raw , Attributes a );8;4;26
+XMLAdapter.start( String name , AttributesImpl attr );2;2;5
+XMLAdapter.setLocale( Locale locale );1;0;3
+XMLAdapter.generateSAX( Widget widget , String id );16;9;37
+XMLAdapter.characters( char ch [ ] , int start , int len );2;1;6

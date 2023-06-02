@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultServerWebExchange.getRequest( );1;0;3
+DefaultServerWebExchange.validateIfModifiedSince( Instant lastModified );3;3;9
+DefaultServerWebExchange.getLogPrefix( );3;2;8
+DefaultServerWebExchange.getRequestHeaders( );1;0;3
+DefaultServerWebExchange.getFormData( );1;0;3
+DefaultServerWebExchange.transformUrl( String url );1;0;3
+DefaultServerWebExchange.getAttributes( );1;0;3
+DefaultServerWebExchange.getResponseHeaders( );1;0;3
+DefaultServerWebExchange.checkNotModified( @ Nullable String eTag , Instant lastModified );7;5;19
+DefaultServerWebExchange.validateIfNoneMatch( @ Nullable String eTag );3;1;12
+DefaultServerWebExchange.getPrincipal( );1;0;3
+DefaultServerWebExchange.checkNotModified( String etag );1;0;3
+DefaultServerWebExchange.DefaultServerWebExchange( ServerHttpRequest request , ServerHttpResponse response , WebSessionManager sessionManager , ServerCodecConfigurer codecConfigurer , LocaleContextResolver localeContextResolver , @ Nullable ApplicationContext applicationContext );1;0;15
+DefaultServerWebExchange.padEtagIfNecessary( @ Nullable String etag );5;3;9
+DefaultServerWebExchange.eTagStrongMatch( @ Nullable String first , @ Nullable String second );3;2;6
+DefaultServerWebExchange.isNotModified( );1;0;3
+DefaultServerWebExchange.DefaultServerWebExchange( ServerHttpRequest request , ServerHttpResponse response , WebSessionManager sessionManager , ServerCodecConfigurer codecConfigurer , LocaleContextResolver localeContextResolver );1;0;3
+DefaultServerWebExchange.validateIfUnmodifiedSince( Instant lastModified );3;2;12
+DefaultServerWebExchange.validateIfMatch( @ Nullable String eTag );4;0;15
+DefaultServerWebExchange.updateResponseIdempotent( @ Nullable String eTag , Instant lastModified );3;0;8
+DefaultServerWebExchange.addUrlTransformer( Function < String , String > transformer );1;0;4
+DefaultServerWebExchange.matchRequestedETags( List < String > requestedETags , @ Nullable String eTag , boolean weakCompare );8;3;20
+DefaultServerWebExchange.updateResponseStateChanging( @ Nullable String eTag , Instant lastModified );2;0;8
+DefaultServerWebExchange.checkNotModified( Instant lastModified );1;0;3
+DefaultServerWebExchange.eTagWeakMatch( @ Nullable String first , @ Nullable String second );5;3;12
+DefaultServerWebExchange.getResponse( );1;0;3
+DefaultServerWebExchange.initMultipartData( ServerHttpRequest request , ServerCodecConfigurer configurer , String logPrefix );3;0;17
+DefaultServerWebExchange.getMultipartData( );1;0;3
+DefaultServerWebExchange.getSession( );1;0;3
+DefaultServerWebExchange.addCachingResponseHeaders( @ Nullable String eTag , Instant lastModified );6;5;10
+DefaultServerWebExchange.getLocaleContext( );1;0;3
+DefaultServerWebExchange.initFormData( ServerHttpRequest request , ServerCodecConfigurer configurer , String logPrefix );3;0;17
+DefaultServerWebExchange.getApplicationContext( );1;0;3

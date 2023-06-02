@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JmsConsumerEndpoint.onMessage( Message message , Session session );1;0;3
+JmsConsumerEndpoint.createServerSessionMessageListenerContainer( );4;1;14
+JmsConsumerEndpoint.setListenerType( String listenerType );1;0;3
+JmsConsumerEndpoint.isPubSubNoLocal( );1;0;3
+JmsConsumerEndpoint.JmsConsumerEndpoint( );1;0;3
+JmsConsumerEndpoint.deactivate( );2;1;8
+JmsConsumerEndpoint.setDestination( Destination destination );1;0;3
+JmsConsumerEndpoint.setServerSessionFactory( ServerSessionFactory serverSessionFactory );1;0;3
+JmsConsumerEndpoint.setClientId( String clientId );1;0;3
+JmsConsumerEndpoint.stop( );1;0;3
+JmsConsumerEndpoint.createListenerContainer( );9;5;35
+JmsConsumerEndpoint.getDestinationName( );1;0;3
+JmsConsumerEndpoint.getCacheLevel( );1;0;3
+JmsConsumerEndpoint.setRecoveryInterval( long recoveryInterval );1;0;3
+JmsConsumerEndpoint.getClientId( );1;0;3
+JmsConsumerEndpoint.getDestination( );1;0;3
+JmsConsumerEndpoint.getServerSessionFactory( );1;0;3
+JmsConsumerEndpoint.getExceptionListener( );1;0;3
+JmsConsumerEndpoint.setCacheLevel( int cacheLevel );1;0;3
+JmsConsumerEndpoint.getMaxMessagesPerTask( );1;0;3
+JmsConsumerEndpoint.getReceiveTimeout( );1;0;3
+JmsConsumerEndpoint.setDurableSubscriptionName( String durableSubscriptionName );1;0;3
+JmsConsumerEndpoint.setExceptionListener( ExceptionListener exceptionListener );1;0;3
+JmsConsumerEndpoint.getSessionAcknowledgeMode( );1;0;3
+JmsConsumerEndpoint.setReceiveTimeout( long receiveTimeout );1;0;3
+JmsConsumerEndpoint.setPubSubNoLocal( boolean pubSubNoLocal );1;0;3
+JmsConsumerEndpoint.getConcurrentConsumers( );1;0;3
+JmsConsumerEndpoint.JmsConsumerEndpoint( ServiceUnit serviceUnit , QName service , String endpoint );1;0;3
+JmsConsumerEndpoint.activate( );1;0;11
+JmsConsumerEndpoint.createDefaultMessageListenerContainer( );7;1;33
+JmsConsumerEndpoint.getLocationURI( );1;1;3
+JmsConsumerEndpoint.validate( );12;16;23
+JmsConsumerEndpoint.setDestinationName( String destinationName );1;0;3
+JmsConsumerEndpoint.setConcurrentConsumers( int concurrentConsumers );1;0;3
+JmsConsumerEndpoint.setSessionAcknowledgeMode( int sessionAcknowledgeMode );1;0;3
+JmsConsumerEndpoint.getListenerType( );1;0;3
+JmsConsumerEndpoint.getTransacted( );1;0;3
+JmsConsumerEndpoint.JmsConsumerEndpoint( DefaultComponent component , ServiceEndpoint endpoint );1;0;3
+JmsConsumerEndpoint.getRecoveryInterval( );1;0;3
+JmsConsumerEndpoint.setMaxMessagesPerTask( int maxMessagesPerTask );1;0;3
+JmsConsumerEndpoint.setSubscriptionDurable( boolean subscriptionDurable );1;0;3
+JmsConsumerEndpoint.isSubscriptionDurable( );1;0;3
+JmsConsumerEndpoint.setTransacted( String transacted );1;0;3
+JmsConsumerEndpoint.createSimpleMessageListenerContainer( );3;0;15
+JmsConsumerEndpoint.getDurableSubscriptionName( );1;0;3
+JmsConsumerEndpoint.setMessageSelector( String messageSelector );1;0;3
+JmsConsumerEndpoint.start( );1;0;3
+JmsConsumerEndpoint.getMessageSelector( );1;0;3

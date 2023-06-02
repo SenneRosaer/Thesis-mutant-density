@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileBasedLockStrategy.hasLock( File file );2;3;4
+NIOFileLocker.NIOFileLocker( boolean debugLocking );1;0;3
+FileBasedLockStrategy.FileBasedLockStrategy( );1;0;3
+CreateFileLocker.CreateFileLocker( boolean debugLocking );1;0;3
+CreateFileLocker.tryLock( File file );6;1;17
+FileBasedLockStrategy.debugLocking( String msg );1;2;3
+FileBasedLockStrategy.decrementLock( File file );2;2;6
+FileBasedLockStrategy.FileBasedLockStrategy( boolean debugLocking );1;0;3
+NIOFileLocker.tryLock( File file );6;2;28
+FileBasedLockStrategy.releaseLock( File file );4;1;16
+***not in a method***;0;2;0
+CreateFileLocker.unlock( File file );1;0;3
+FileBasedLockStrategy.incrementLock( File file );2;2;6
+FileBasedLockStrategy.acquireLock( File file );7;4;29
+NIOFileLocker.unlock( File file );3;1;14
+FileBasedLockStrategy.FileBasedLockStrategy( FileLocker locker , boolean debugLocking );1;0;4

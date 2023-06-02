@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TagLibrary.getTagClasses( );1;0;3
+TagLibrary.createTagScript( String name , Attributes attributes );3;0;11
+TagLibrary.TagLibrary( );1;0;2
+TagLibrary.isAllowUnknownTags( );1;0;3
+TagLibrary.createExpression( ExpressionFactory factory , TagScript tagScript , String attributeName , String attributeValue );3;2;10
+TagLibrary.convert( Class type , Object value );3;1;10
+TagLibrary.setAllowUnknownTags( boolean allowUnknownTags );1;0;3
+TagLibrary.getExpressionFactory( );1;0;3
+TagLibrary.TagLibrary( boolean allowUnknownTags );1;0;4
+TagLibrary.createTag( String name , Attributes attributes );5;0;18
+TagLibrary.registerTagFactory( String name , TagFactory tagFactory );1;0;3
+TagLibrary.registerTag( String name , Class type );1;0;3

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DomHelper.getAttribute( Element element , String attributeName );2;1;8
+DomHelper.addLocalNSDeclarations( Element elm , Map nsDeclarations );4;3;15
+DomHelper.getElementText( Element element );4;3;11
+DomHelper.getSystemIdLocation( Element element );1;0;3
+DomHelper.getLocalNSDeclarations( Element elm );1;0;3
+DomHelper.getChildElement( Element element , String namespace , String localName , boolean required );6;4;16
+DomHelper.compileElementContent( Element element );3;2;16
+DomHelper.getLocation( Element element );1;0;3
+DomHelper.getLineLocation( Element element );1;0;3
+DomHelper.parse( InputSource inputSource , SAXParser parser );1;0;6
+DomHelper.getAttributeAsInteger( Element element , String attributeName , int defaultValue );3;1;13
+DomHelper.getAttribute( Element element , String attributeName , String defaultValue );2;1;7
+DomHelper.getInheritedNSDeclarations( Element elm );4;2;19
+DomHelper.getColumnLocation( Element element );1;0;3
+DomHelper.getChildElements( Element element , String namespace );4;3;11
+DomHelper.getLocationObject( Element element );1;0;3
+DomHelper.getAttributeAsInteger( Element element , String attributeName );2;0;10
+DomHelper.getChildElement( Element element , String namespace , String localName );2;0;9
+DomHelper.getChildElements( Element element , String namespace , String localName );5;4;13
+DomHelper.getAttributeAsBoolean( Element element , String attributeName , boolean defaultValue );5;2;20

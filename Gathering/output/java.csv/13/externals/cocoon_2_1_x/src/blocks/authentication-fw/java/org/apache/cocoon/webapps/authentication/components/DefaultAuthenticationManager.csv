@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultAuthenticationManager.updateUserState( );1;0;5
+DefaultAuthenticationManager.getRequestState( Context context );1;0;4
+DefaultAuthenticationManager.getUserHandler( String name );2;1;7
+DefaultAuthenticationManager.getForwardingURI( String handlerName );3;4;13
+DefaultAuthenticationManager.getRequest( );1;0;3
+DefaultAuthenticationManager.isAuthenticated( String handlerName );1;0;3
+DefaultAuthenticationManager.configure( SitemapConfigurationHolder holder );1;0;4
+DefaultAuthenticationManager.createApplicationContext( String name , String loadURI , String saveURI );5;1;24
+DefaultAuthenticationManager.login( String handlerName , String applicationName , SourceParameters parameters );13;9;65
+DefaultAuthenticationManager.checkAuthentication( Redirector redirector , String handlerName , String applicationName );6;8;27
+DefaultAuthenticationManager.getSession( boolean create );1;0;3
+DefaultAuthenticationManager.releaseAuthenticator( Authenticator authenticator , HandlerConfiguration config );1;0;2
+DefaultAuthenticationManager.service( ServiceManager manager );1;0;5
+DefaultAuthenticationManager.getUserState( );2;1;8
+DefaultAuthenticationManager.getHandlerConfiguration( String name );2;1;8
+DefaultAuthenticationManager.contextualize( Context context );1;0;3
+DefaultAuthenticationManager.getHandlerConfigurations( );3;1;12
+DefaultAuthenticationManager.lookupAuthenticator( HandlerConfiguration config );4;2;22
+DefaultAuthenticationManager.getState( );1;0;3
+DefaultAuthenticationManager.setState( RequestState status );2;1;8
+DefaultAuthenticationManager.logout( String handlerName , int mode );13;8;53
+DefaultAuthenticationManager.dispose( );3;1;14
+DefaultAuthenticationManager.createUserState( );2;1;9

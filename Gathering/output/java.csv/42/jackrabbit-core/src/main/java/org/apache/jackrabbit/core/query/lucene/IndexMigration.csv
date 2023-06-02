@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MigrationTermPositions.MigrationTermPositions( TermPositions in );1;0;3
+MigrationIndexReader.MigrationIndexReader( IndexReader in );1;0;3
+MigrationTermEnum.MigrationTermEnum( TermEnum in );1;0;3
+MigrationIndexReader.terms( );1;0;3
+MigrationTermPositions.seek( Term term );2;0;9
+MigrationIndexReader.document( int n , FieldSelector fieldSelector );3;3;14
+MigrationTermEnum.term( );3;1;12
+MigrationTermEnum.unwrap( );1;0;3
+MigrationIndexReader.termPositions( );1;0;3
+MigrationTermPositions.seek( TermEnum termEnum );2;0;7
+IndexMigration.migrate( PersistentIndex index , DirectoryManager directoryManager );5;4;54

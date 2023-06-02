@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FreeMarkerView.buildTemplateModel( Map < String , Object > model , HttpServletRequest request , HttpServletResponse response );1;0;5
+FreeMarkerView.setEncoding( @ Nullable String encoding );1;0;3
+FreeMarkerView.getConfiguration( );1;0;3
+FreeMarkerView.doRender( Map < String , Object > model , HttpServletRequest request , HttpServletResponse response );1;0;6
+FreeMarkerView.getTemplate( Locale locale );1;1;5
+FreeMarkerView.checkResource( Locale locale );4;1;17
+FreeMarkerView.setConfiguration( @ Nullable Configuration configuration );1;0;3
+FreeMarkerView.getTemplate( String name , Locale locale );2;1;5
+FreeMarkerView.renderMergedTemplateModel( Map < String , Object > model , HttpServletRequest request , HttpServletResponse response );1;0;4
+FreeMarkerView.exposeHelpers( Map < String , Object > model , HttpServletRequest request );1;0;2
+FreeMarkerView.getObjectWrapper( );2;1;5
+FreeMarkerView.autodetectConfiguration( );2;0;12
+FreeMarkerView.initServletContext( ServletContext servletContext );2;1;6
+FreeMarkerView.getEncoding( );1;0;3
+FreeMarkerView.processTemplate( Template template , SimpleHash model , HttpServletResponse response );1;0;3
+FreeMarkerView.obtainConfiguration( );1;1;5

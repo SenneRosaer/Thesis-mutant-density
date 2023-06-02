@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractEnvironment.validateRequiredProperties( );1;0;3
+AbstractEnvironment.toString( );1;3;4
+AbstractEnvironment.setIgnoreUnresolvableNestedPlaceholders( boolean ignoreUnresolvableNestedPlaceholders );1;0;3
+AbstractEnvironment.setActiveProfiles( String ... profiles );3;0;13
+AbstractEnvironment.doGetActiveProfilesProperty( );1;0;3
+AbstractEnvironment.setValueSeparator( @ Nullable String valueSeparator );1;0;3
+AbstractEnvironment.getProperty( String key );1;0;3
+AbstractEnvironment.getSystemEnvironment( );2;0;6
+AbstractEnvironment.validateProfile( String profile );3;2;8
+AbstractEnvironment.addActiveProfile( String profile );2;0;10
+AbstractEnvironment.acceptsProfiles( Profiles profiles );1;0;4
+AbstractEnvironment.getActiveProfiles( );1;0;3
+AbstractEnvironment.doGetDefaultProfiles( );3;0;12
+AbstractEnvironment.customizePropertySources( MutablePropertySources propertySources );1;0;2
+AbstractEnvironment.containsProperty( String key );1;0;3
+AbstractEnvironment.getProperty( String key , String defaultValue );1;0;3
+AbstractEnvironment.getReservedDefaultProfiles( );1;0;3
+AbstractEnvironment.getConversionService( );1;0;3
+AbstractEnvironment.getRequiredProperty( String key );1;0;3
+AbstractEnvironment.AbstractEnvironment( MutablePropertySources propertySources );1;0;5
+AbstractEnvironment.isProfileActive( String profile );3;2;6
+AbstractEnvironment.setPlaceholderPrefix( String placeholderPrefix );1;0;3
+AbstractEnvironment.createPropertyResolver( MutablePropertySources propertySources );1;0;3
+AbstractEnvironment.resolvePlaceholders( String text );1;0;3
+AbstractEnvironment.setRequiredProperties( String ... requiredProperties );1;0;3
+AbstractEnvironment.getPropertySources( );1;0;3
+AbstractEnvironment.merge( ConfigurableEnvironment parent );6;3;20
+AbstractEnvironment.acceptsProfiles( String ... profiles );6;3;14
+AbstractEnvironment.getSystemProperties( );1;0;3
+AbstractEnvironment.getPropertyResolver( );1;0;3
+AbstractEnvironment.doGetActiveProfiles( );3;0;12
+AbstractEnvironment.getProperty( String key , Class < T > targetType , T defaultValue );1;0;3
+AbstractEnvironment.resolveRequiredPlaceholders( String text );1;0;3
+AbstractEnvironment.getProperty( String key , Class < T > targetType );1;0;3
+AbstractEnvironment.getRequiredProperty( String key , Class < T > targetType );1;0;3
+AbstractEnvironment.setPlaceholderSuffix( String placeholderSuffix );1;0;3
+AbstractEnvironment.getDefaultProfiles( );1;0;3
+AbstractEnvironment.suppressGetenvAccess( );1;0;3
+AbstractEnvironment.setDefaultProfiles( String ... profiles );2;0;10
+AbstractEnvironment.doGetDefaultProfilesProperty( );1;0;3
+AbstractEnvironment.AbstractEnvironment( );1;0;3
+AbstractEnvironment.setConversionService( ConfigurableConversionService conversionService );1;0;3

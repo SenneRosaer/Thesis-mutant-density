@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LocalContainerEntityManagerFactoryBeanTests.testApplicationManagedEntityManagerWithTransactionAndCommitException( );1;0;26
+LocalContainerEntityManagerFactoryBeanTests.testApplicationManagedEntityManagerWithTransaction( );1;0;25
+NoOpEntityTransaction.begin( );1;0;2
+LocalContainerEntityManagerFactoryBeanTests.createEntityManagerFactoryBean( String persistenceXml , Properties props , String entityManagerName );3;2;18
+LocalContainerEntityManagerFactoryBeanTests.testInvalidPersistenceUnitName( );1;0;4
+LocalContainerEntityManagerFactoryBeanTests.testApplicationManagedEntityManagerWithJtaTransaction( );1;0;24
+DummyContainerPersistenceProvider.generateSchema( PersistenceUnitInfo persistenceUnitInfo , Map map );1;0;3
+NoOpEntityTransaction.rollback( );1;0;2
+LocalContainerEntityManagerFactoryBeanTests.testApplicationManagedEntityManagerWithoutTransaction( );1;0;13
+DummyContainerPersistenceProvider.createEntityManagerFactory( String emfName , Map properties );1;0;3
+LocalContainerEntityManagerFactoryBeanTests.testRejectsMissingPersistenceUnitInfo( );1;0;8
+NoOpEntityTransaction.isActive( );1;0;3
+NoOpEntityTransaction.setRollbackOnly( );1;0;3
+LocalContainerEntityManagerFactoryBeanTests.parseValidPersistenceUnit( );1;0;6
+DummyContainerPersistenceProvider.getProviderUtil( );1;0;3
+LocalContainerEntityManagerFactoryBeanTests.testExceptionTranslationWithNoDialect( );1;0;11
+DummyContainerPersistenceProvider.generateSchema( String persistenceUnitName , Map map );1;0;3
+NoOpEntityTransaction.commit( );1;0;2
+LocalContainerEntityManagerFactoryBeanTests.testValidPersistenceUnit( );1;0;3
+NoOpEntityTransaction.getRollbackOnly( );1;0;3
+LocalContainerEntityManagerFactoryBeanTests.testEntityManagerFactoryIsProxied( );1;0;13
+DummyContainerPersistenceProvider.createContainerEntityManagerFactory( PersistenceUnitInfo pui , Map map );1;0;5

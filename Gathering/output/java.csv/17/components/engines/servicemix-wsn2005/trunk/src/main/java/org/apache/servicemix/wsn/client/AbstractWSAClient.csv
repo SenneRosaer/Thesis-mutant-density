@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractWSAClient.getJAXBContext( );2;1;6
+AbstractWSAClient.setServiceEndpoint( ServiceEndpoint serviceEndpoint );1;0;3
+AbstractWSAClient.request( Object request );1;0;3
+AbstractWSAClient.send( QName operation , Object request );3;1;16
+AbstractWSAClient.getEndpoint( );1;0;3
+AbstractWSAClient.send( Object request );1;0;3
+AbstractWSAClient.getServiceEndpoint( );3;3;6
+AbstractWSAClient.request( QName operation , Object request );7;3;41
+AbstractWSAClient.resolveWSA( W3CEndpointReference ref , ComponentContext context );1;0;4
+AbstractWSAClient.getWSAAddress( W3CEndpointReference ref );4;3;13
+AbstractWSAClient.setEndpoint( W3CEndpointReference endpoint );1;0;3
+AbstractWSAClient.isJbiWrapped( );1;0;3
+AbstractWSAClient.setJbiWrapped( boolean jbiWrapped );1;0;3
+AbstractWSAClient.AbstractWSAClient( ComponentContext context , W3CEndpointReference endpoint );1;0;4
+AbstractWSAClient.createWSA( String address );1;0;5
+AbstractWSAClient.setContext( ComponentContext context );1;0;3
+AbstractWSAClient.getContext( );1;0;3
+AbstractWSAClient.AbstractWSAClient( );1;0;2

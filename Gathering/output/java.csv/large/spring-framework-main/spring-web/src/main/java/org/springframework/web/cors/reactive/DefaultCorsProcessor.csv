@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultCorsProcessor.getMethodToUse( ServerHttpRequest request , boolean isPreFlight );2;0;3
+DefaultCorsProcessor.checkHeaders( CorsConfiguration config , List < String > requestHeaders );1;0;3
+DefaultCorsProcessor.checkMethods( CorsConfiguration config , @ Nullable HttpMethod requestMethod );1;0;3
+DefaultCorsProcessor.checkOrigin( CorsConfiguration config , @ Nullable String requestOrigin );1;0;3
+DefaultCorsProcessor.process( @ Nullable CorsConfiguration config , ServerWebExchange exchange );8;5;34
+DefaultCorsProcessor.rejectRequest( ServerHttpResponse response );1;0;3
+DefaultCorsProcessor.getHeadersToUse( ServerHttpRequest request , boolean isPreFlight );2;0;4
+DefaultCorsProcessor.handleInternal( ServerWebExchange exchange , CorsConfiguration config , boolean preFlightRequest );12;9;43

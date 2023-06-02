@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SymbolTable.SymbolTable( int tableSize );1;1;6
+SymbolTable.addSymbol( String buffer , int offset , int len , int hash , boolean replace );7;7;22
+SymbolTable.addSymbol( char [ ] buffer , int offset , int len , int hash );7;9;26
+SymbolTable.addSymbol( char [ ] buffer , int offset , int len );1;0;4
+SymbolTable.hash( char [ ] buffer , int offset , int len );2;5;8
+SymbolTable.addSymbol( String buffer , int offset , int len , int hash );1;0;3
+SymbolTable.subString( String src , int offset , int len );1;1;5

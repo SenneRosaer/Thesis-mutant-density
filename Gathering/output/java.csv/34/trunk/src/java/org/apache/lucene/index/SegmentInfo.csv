@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SegmentInfo.advanceDelGen( );2;2;8
+SegmentInfo.clearDelGen( );1;0;4
+SegmentInfo.write( IndexOutput output );7;5;22
+SegmentInfo.setDocStoreOffset( int offset );1;0;4
+SegmentInfo.clone( );2;1;15
+***not in a method***;0;2;0
+SegmentInfo.getDocStoreOffset( );1;0;3
+SegmentInfo.setNumFields( int numFields );4;3;11
+SegmentInfo.setDelCount( int delCount );1;1;4
+SegmentInfo.getUseCompoundFile( );3;3;9
+SegmentInfo.files( );33;50;74
+SegmentInfo.hashCode( );1;1;3
+SegmentInfo.clearFiles( );1;1;4
+SegmentInfo.reset( SegmentInfo src );2;1;19
+SegmentInfo.SegmentInfo( String name , int docCount , Directory dir );1;1;14
+SegmentInfo.hasDeletions( );3;2;9
+SegmentInfo.sizeInBytes( );5;9;13
+SegmentInfo.getDocStoreSegment( );1;0;3
+SegmentInfo.hasSeparateNorms( );12;12;33
+SegmentInfo.getDocStoreIsCompoundFile( );1;0;3
+SegmentInfo.setHasProx( boolean hasProx );1;0;4
+SegmentInfo.advanceNormGen( int fieldIndex );2;2;8
+SegmentInfo.getHasProx( );1;0;3
+SegmentInfo.SegmentInfo( String name , int docCount , Directory dir , boolean isCompoundFile , boolean hasSingleNormFile , int docStoreOffset , String docStoreSegment , boolean docStoreIsCompoundFile , boolean hasProx );3;4;12
+SegmentInfo.SegmentInfo( String name , int docCount , Directory dir , boolean isCompoundFile , boolean hasSingleNormFile );1;1;3
+SegmentInfo.equals( Object obj );3;2;9
+SegmentInfo.setUseCompoundFile( boolean isCompoundFile );2;0;8
+SegmentInfo.getDelFileName( );2;1;7
+SegmentInfo.getNormFileName( int number );4;3;19
+SegmentInfo.hasSeparateNorms( int fieldNumber );7;10;10
+SegmentInfo.getDelCount( );3;3;11
+SegmentInfo.SegmentInfo( Directory dir , int format , IndexInput input );9;19;58
+SegmentInfo.segString( Directory dir );5;7;20
+SegmentInfo.addIfExists( List files , String fileName );2;0;4
+SegmentInfo.setDocStoreIsCompoundFile( boolean v );1;0;4

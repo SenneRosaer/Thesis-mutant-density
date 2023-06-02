@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpSoapConnector.HttpSoapConnector( Connector listener );1;0;3
+HttpSoapConnector.getHost( );1;0;3
+HttpSoapConnector.getPort( );1;0;3
+HttpSoapConnector.shutDown( );1;0;3
+HttpSoapConnector.stop( );3;1;9
+HttpSoapConnector.setPort( int port );1;0;3
+HttpSoapConnector.HttpSoapConnector( String host , int port , boolean defaultInOut );1;0;5
+HttpSoapConnector.HttpSoapConnector( );1;0;2
+HttpSoapConnector.getServer( );1;0;3
+HttpSoapConnector.setHost( String host );1;0;3
+HttpSoapConnector.getMaxThreads( );1;0;3
+HttpSoapConnector.setMaxThreads( int maxThreads );1;0;3
+HttpSoapConnector.init( ComponentContext cc );2;1;12
+HttpSoapConnector.setServer( Server server );1;0;3
+HttpSoapConnector.start( );2;0;23

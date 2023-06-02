@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Token.reinit( Token prototype );1;0;10
+Token.termLength( );1;0;4
+Token.setPayload( Payload payload );1;0;3
+Token.reinit( String newTerm , int newTermOffset , int newTermLength , int newStartOffset , int newEndOffset , String newType );1;0;8
+Token.setTermBuffer( String buffer , int offset , int length );2;5;11
+Token.reinit( String newTerm , int newStartOffset , int newEndOffset );1;0;8
+Token.setFlags( int flags );1;0;3
+Token.setType( String type );1;0;3
+Token.setEndOffset( int offset );1;0;3
+Token.growTermBuffer( int newSize );6;5;19
+Token.reinit( Token prototype , String newTerm );1;0;9
+Token.reinit( char [ ] newTermBuffer , int newTermOffset , int newTermLength , int newStartOffset , int newEndOffset , String newType );1;0;10
+Token.clear( );1;0;7
+Token.toString( );4;3;16
+Token.reinit( String newTerm , int newStartOffset , int newEndOffset , String newType );1;0;8
+Token.getFlags( );1;0;3
+Token.term( );2;1;6
+Token.setTermText( String text );1;0;4
+Token.initTermBuffer( );5;4;16
+Token.clone( );4;2;14
+Token.reinit( String newTerm , int newTermOffset , int newTermLength , int newStartOffset , int newEndOffset );1;0;8
+Token.setPositionIncrement( int positionIncrement );2;1;6
+Token.Token( );1;0;2
+Token.setTermBuffer( char [ ] buffer , int offset , int length );2;1;9
+Token.setTermBuffer( String buffer );2;1;10
+Token.Token( String text , int start , int end , int flags );1;0;6
+Token.getPositionIncrement( );1;0;3
+Token.termText( );3;3;5
+Token.subEqual( Object o1 , Object o2 );2;2;6
+Token.Token( String text , int start , int end , String typ );1;0;6
+Token.Token( int start , int end , int flags );1;0;5
+Token.reinit( Token prototype , char [ ] newTermBuffer , int offset , int length );1;0;9
+Token.getPayload( );1;0;3
+Token.startOffset( );1;0;3
+Token.clearNoTermBuffer( );1;0;5
+Token.Token( String text , int start , int end );1;0;5
+Token.reinit( char [ ] newTermBuffer , int newTermOffset , int newTermLength , int newStartOffset , int newEndOffset );1;0;8
+Token.endOffset( );1;0;3
+Token.termBuffer( );1;0;4
+Token.resizeTermBuffer( int newSize );4;4;15
+Token.setTermLength( int length );2;1;6
+Token.clone( char [ ] newTermBuffer , int newTermOffset , int newTermLength , int newStartOffset , int newEndOffset );2;1;9
+Token.Token( int start , int end );1;0;4
+Token.type( );1;0;3
+Token.equals( Object obj );12;15;23
+Token.setStartOffset( int offset );1;0;3
+Token.hashCode( );2;15;12
+Token.Token( char [ ] startTermBuffer , int termBufferOffset , int termBufferLength , int start , int end );1;0;5
+Token.Token( int start , int end , String typ );1;0;5

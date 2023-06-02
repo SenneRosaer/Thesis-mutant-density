@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ToStringVisitor.startNegate( );1;0;3
+ToStringVisitor.indent( );2;2;5
+ToStringVisitor.header( String name , String value );1;0;3
+ToStringVisitor.endNegate( );1;0;3
+ToStringVisitor.startAnd( );1;0;3
+ToStringVisitor.startOr( );1;0;3
+ToStringVisitor.unknown( RequestPredicate predicate );1;0;3
+ToStringVisitor.attributes( Map < String , Object > attributes );1;0;2
+ToStringVisitor.pathExtension( String extension );1;0;3
+ToStringVisitor.toString( );2;1;7
+ToStringVisitor.or( );1;0;3
+ToStringVisitor.method( Set < HttpMethod > methods );2;1;8
+ToStringVisitor.route( RequestPredicate predicate , HandlerFunction < ? > handlerFunction );1;0;6
+ToStringVisitor.path( String pattern );1;0;3
+ToStringVisitor.endAnd( );1;0;3
+ToStringVisitor.startNested( RequestPredicate predicate );1;1;6
+ToStringVisitor.resources( Function < ServerRequest , Mono < Resource > > lookupFunction );1;0;4
+ToStringVisitor.unknown( RouterFunction < ? > routerFunction );1;0;4
+ToStringVisitor.endOr( );1;0;3
+ToStringVisitor.queryParam( String name , String value );1;0;3
+ToStringVisitor.and( );1;0;3
+ToStringVisitor.endNested( RequestPredicate predicate );1;1;5

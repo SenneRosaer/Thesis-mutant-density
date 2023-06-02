@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XIncludeTextReader.consumeBOM( InputStream stream , String encoding );12;18;34
+XIncludeTextReader.getReader( XMLInputSource source );28;25;112
+XIncludeTextReader.getEncodingName( InputStream stream );2;1;11
+XIncludeTextReader.createUTF16Reader( InputStream stream , boolean isBigEndian );1;1;7
+XIncludeTextReader.setInputSource( XMLInputSource source );1;0;3
+XIncludeTextReader.getEncodingName( byte [ ] b4 );36;64;37
+XIncludeTextReader.close( );2;1;6
+XIncludeTextReader.createUTF8Reader( InputStream stream );1;0;6
+XIncludeTextReader.createLatin1Reader( InputStream stream );1;0;3
+XIncludeTextReader.XIncludeTextReader( XMLInputSource source , XIncludeHandler handler , int bufferSize );1;1;5
+XIncludeTextReader.isValid( int ch );1;0;3
+XIncludeTextReader.createASCIIReader( InputStream stream );1;0;6
+XIncludeTextReader.setBufferSize( int bufferSize );2;2;5
+XIncludeTextReader.setErrorReporter( XMLErrorReporter errorReporter );1;0;3
+XIncludeTextReader.parse( );11;16;54

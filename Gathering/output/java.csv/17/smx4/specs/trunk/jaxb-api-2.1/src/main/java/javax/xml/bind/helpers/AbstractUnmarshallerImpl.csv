@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractUnmarshallerImpl.unmarshal( Source source , Class < T > declaredType );1;0;3
+AbstractUnmarshallerImpl.unmarshal( Reader reader );2;1;6
+AbstractUnmarshallerImpl.unmarshal( XMLStreamReader reader );1;0;3
+AbstractUnmarshallerImpl.unmarshal( XMLEventReader reader , Class < T > declaredType );1;0;3
+AbstractUnmarshallerImpl.setValidating( boolean validating );1;0;3
+AbstractUnmarshallerImpl.setListener( Listener listener );1;0;3
+AbstractUnmarshallerImpl.getListener( );1;0;3
+AbstractUnmarshallerImpl.setSchema( Schema schema );1;0;3
+AbstractUnmarshallerImpl.isValidating( );1;0;3
+AbstractUnmarshallerImpl.getEventHandler( );1;0;3
+AbstractUnmarshallerImpl.unmarshal( InputSource source );2;1;6
+AbstractUnmarshallerImpl.getXMLReader( );4;1;15
+AbstractUnmarshallerImpl.unmarshal( URL url );2;1;6
+AbstractUnmarshallerImpl.getAttachmentUnmarshaller( );1;0;3
+AbstractUnmarshallerImpl.setProperty( String name , Object value );2;1;6
+AbstractUnmarshallerImpl.setAdapter( Class < A > type , A adapter );1;0;3
+AbstractUnmarshallerImpl.getProperty( String name );2;1;6
+AbstractUnmarshallerImpl.unmarshal( XMLEventReader reader );1;0;3
+AbstractUnmarshallerImpl.unmarshal( File file );7;5;22
+AbstractUnmarshallerImpl.unmarshal( Node node , Class < T > declaredType );1;0;3
+AbstractUnmarshallerImpl.setAdapter( XmlAdapter adapter );2;1;6
+AbstractUnmarshallerImpl.unmarshal( Source source );6;2;22
+AbstractUnmarshallerImpl.setEventHandler( ValidationEventHandler handler );2;1;6
+AbstractUnmarshallerImpl.getAdapter( Class < A > type );1;0;3
+AbstractUnmarshallerImpl.unmarshal( InputStream is );2;1;6
+AbstractUnmarshallerImpl.getSchema( );1;0;3
+AbstractUnmarshallerImpl.createUnmarshalException( SAXException e );4;1;12
+AbstractUnmarshallerImpl.unmarshal( XMLStreamReader reader , Class < T > declaredType );1;0;3
+AbstractUnmarshallerImpl.setAttachmentUnmarshaller( AttachmentUnmarshaller au );1;0;3

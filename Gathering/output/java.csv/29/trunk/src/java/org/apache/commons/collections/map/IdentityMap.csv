@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IdentityMap.readObject( ObjectInputStream in );1;0;4
+IdentityMap.isEqualValue( Object value1 , Object value2 );1;1;3
+IdentityMap.createEntry( HashEntry next , int hashCode , Object key , Object value );1;0;3
+IdentityMap.clone( );1;0;3
+IdentityEntry.hashCode( );1;1;4
+IdentityMap.IdentityMap( );1;0;3
+IdentityMap.IdentityMap( int initialCapacity , float loadFactor );1;0;3
+IdentityMap.isEqualKey( Object key1 , Object key2 );1;1;3
+IdentityEntry.equals( Object obj );4;5;12
+IdentityMap.IdentityMap( Map map );1;0;3
+IdentityMap.writeObject( ObjectOutputStream out );1;0;4
+IdentityEntry.IdentityEntry( HashEntry next , int hashCode , Object key , Object value );1;0;3
+IdentityMap.hash( Object key );1;0;3
+IdentityMap.IdentityMap( int initialCapacity );1;0;3

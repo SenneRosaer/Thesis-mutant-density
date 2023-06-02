@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestScopedService.process( );1;0;3
+RequestContextHolderTests.assertRequestAttributes( ServletRequest request );1;0;3
+WebConfig.filterWithSessionScopedService( );1;0;3
+WebConfig.controllerWithSessionScopedService( );1;0;3
+WebConfig.controllerWithRequestScopedService( );1;0;3
+WebConfig.requestScopedController( );1;0;3
+WebConfig.requestScopedService( );1;0;3
+RequestContextHolderTests.setup( );1;0;8
+FilterWithSessionScopedService.doFilter( ServletRequest request , ServletResponse response , FilterChain chain );1;0;6
+RequestContextHolderTests.assertRequestAttributes( );1;0;3
+RequestFilter.doFilter( ServletRequest request , ServletResponse response , FilterChain chain );1;0;4
+RequestContextHolderTests.verifyRestoredRequestAttributes( );1;0;3
+SessionScopedService.process( );1;0;3
+RequestContextHolderTests.assertRequestAttributes( boolean withinMockMvc );1;0;5
+RequestContextHolderTests.requestScopedController( );1;0;4
+RequestContextHolderTests.requestScopedService( );1;0;4
+RequestContextHolderTests.assertRequestAttributes( ServletRequest request , boolean withinMockMvc );2;0;16
+WebConfig.singletonController( );1;0;3
+SingletonController.handle( );1;0;3
+ControllerWithRequestScopedService.handle( );1;0;4
+ControllerWithSessionScopedService.handle( );1;0;4
+WebConfig.sessionScopedService( );1;0;3
+RequestScopedController.handle( );1;0;4
+RequestAttributesFilter.doFilter( ServletRequest request , ServletResponse response , FilterChain chain );1;0;4
+RequestContextHolderTests.sessionScopedService( );1;0;4
+RequestContextHolderTests.singletonController( );1;0;3

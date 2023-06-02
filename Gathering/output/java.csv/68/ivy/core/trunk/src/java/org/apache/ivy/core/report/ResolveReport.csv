@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResolveReport.getResolveId( );1;0;3
+ResolveReport.getModuleIds( );3;1;12
+ResolveReport.checkIfChanged( );2;0;6
+ResolveReport.getUnresolvedDependencies( );2;0;8
+ResolveReport.getArtifactsReports( ModuleRevisionId mrid );2;0;8
+ResolveReport.getEvictedNodes( );2;0;8
+ResolveReport.ResolveReport( ModuleDescriptor md );1;0;3
+ResolveReport.getDependencies( );1;0;3
+ResolveReport.getAllArtifactsReports( );1;0;3
+ResolveReport.setProblemMessages( List problems );1;0;3
+ResolveReport.getArtifactsReports( DownloadStatus downloadStatus , boolean withEvicted );2;0;10
+ResolveReport.output( ReportOutputter [ ] outputters , ResolutionCacheManager cacheMgr , ResolveOptions options );2;2;5
+ResolveReport.setDownloadTime( long elapsedTime );1;0;3
+ResolveReport.hasError( );3;3;8
+ResolveReport.getProblemMessages( );1;0;3
+ResolveReport.setDependencies( List dependencies , Filter artifactFilter );6;6;17
+ResolveReport.hasChanged( );3;0;9
+ResolveReport.getDownloadTime( );1;0;3
+ResolveReport.setResolveTime( long elapsedTime );1;0;3
+ResolveReport.getArtifacts( );1;0;3
+ResolveReport.getModuleDescriptor( );1;0;3
+ResolveReport.setDownloadSize( long size );1;0;3
+ResolveReport.getAllProblemMessages( );5;5;20
+ResolveReport.getFailedArtifactsReports( );1;0;4
+ResolveReport.addReport( String conf , ConfigurationResolveReport report );1;0;3
+ResolveReport.getConfigurationReport( String conf );1;0;3
+ResolveReport.getResolveTime( );1;0;3
+ResolveReport.getDownloadSize( );1;0;3
+ResolveReport.ResolveReport( ModuleDescriptor md , String resolveId );1;0;4
+ResolveReport.getConfigurations( );1;0;3

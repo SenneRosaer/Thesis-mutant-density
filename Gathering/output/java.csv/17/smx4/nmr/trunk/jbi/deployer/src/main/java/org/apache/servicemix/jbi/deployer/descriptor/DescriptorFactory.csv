@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DescriptorFactory.warning( SAXParseException exception );1;0;2
+DescriptorFactory.createQName( Element element , String qualifiedName );3;3;16
+DescriptorFactory.getFirstChildElement( Node parent );3;2;10
+DescriptorFactory.error( SAXParseException exception );1;0;2
+DescriptorFactory.getAttribute( Element e , String name );2;0;7
+DescriptorFactory.isBlank( String str );5;6;12
+DescriptorFactory.checkComponent( List < String > violations , ComponentDesc component );6;5;15
+DescriptorFactory.checkServiceUnit( List < String > violations , Services services );1;0;2
+DescriptorFactory.buildDescriptor( final byte [ ] bytes );42;13;181
+DescriptorFactory.getText( Element e );1;0;3
+DescriptorFactory.getElementText( Element element );4;5;11
+DescriptorFactory.getDescriptorAsText( File descriptorFile );4;0;15
+DescriptorFactory.checkDescriptor( Descriptor descriptor );7;6;21
+DescriptorFactory.getNextSiblingElement( Element el );3;1;8
+DescriptorFactory.buildDescriptor( File descriptorFile );4;0;13
+DescriptorFactory.buildDescriptor( final URL url );2;0;7
+DescriptorFactory.recursiveGetAttributeValue( Element element , String attributeName );5;3;15
+DescriptorFactory.readAttributeQName( Element e , String name );2;1;8
+DescriptorFactory.copyInputStream( InputStream in , OutputStream out );2;1;9
+DescriptorFactory.checkSharedLibrary( List < String > violations , SharedLibraryDesc sharedLibrary );3;1;9
+DescriptorFactory.checkServiceAssembly( List < String > violations , ServiceAssemblyDesc serviceAssembly );3;1;9
+DescriptorFactory.fatalError( SAXParseException exception );1;0;3
+DescriptorFactory.buildDescriptor( final InputStream stream );2;0;9
+DescriptorFactory.readIdentification( Element e );4;1;11

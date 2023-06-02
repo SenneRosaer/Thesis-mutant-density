@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EvictionData.getParent( );1;0;3
+IvyNodeEviction.getEvictedNodes( ModuleId mid , String rootModuleConf );3;1;11
+EvictionData.getRootModuleConf( );1;0;3
+IvyNodeEviction.getAllEvictingNodesDetails( );8;8;20
+IvyNodeEviction.setPendingConflicts( ModuleId moduleId , String rootModuleConf , Collection conflicts );1;0;4
+IvyNodeEviction.getAllEvictingConflictManagers( );2;0;8
+IvyNodeEviction.getEvictedConfs( );1;0;4
+EvictionData.isTransitivelyEvicted( );1;1;3
+IvyNodeEviction.IvyNodeEviction( IvyNode node );2;1;6
+IvyNodeEviction.getEvictedRevisions( ModuleId mid , String rootModuleConf );2;1;8
+IvyNodeEviction.getResolvedNodes( ModuleId mid , String rootModuleConf );3;1;11
+ModuleIdConf.equals( Object obj );3;2;7
+IvyNodeEviction.isCompletelyEvicted( );4;3;13
+IvyNodeEviction.setEvictedNodes( ModuleId moduleId , String rootModuleConf , Collection evicted );2;0;11
+IvyNodeEviction.getEvictedData( String rootModuleConf );1;0;4
+IvyNodeEviction.cleanEvicted( );5;1;15
+IvyNodeEviction.getEvictionDataInRoot( String rootModuleConf , IvyNode ancestor );3;0;12
+IvyNodeEviction.markEvicted( EvictionData evictionData );1;0;3
+IvyNodeEviction.isEvicted( String rootModuleConf );4;6;11
+IvyNodeEviction.getPendingConflicts( String rootModuleConf , ModuleId mid );3;1;12
+IvyNodeEviction.getResolvedRevisions( ModuleId mid , String rootModuleConf );3;1;14
+EvictionData.toString( );3;6;9
+ModuleIdConf.ModuleIdConf( ModuleId mid , String conf );3;2;10
+ModuleIdConf.getConf( );1;0;3
+EvictionData.getDetail( );1;0;3
+ModuleIdConf.getModuleId( );1;0;3
+EvictionData.getConflictManager( );1;0;3
+EvictionData.EvictionData( String rootModuleConf , IvyNode parent , ConflictManager conflictManager , Collection selected , String detail );1;0;7
+IvyNodeEviction.setResolvedNodes( ModuleId moduleId , String rootModuleConf , Collection resolved );1;0;4
+ModuleIdConf.hashCode( );1;4;6
+EvictionData.EvictionData( String rootModuleConf , IvyNode parent , ConflictManager conflictManager , Collection selected );1;0;3
+EvictionData.getSelected( );1;0;3
+IvyNodeEviction.getAllEvictingNodes( );4;2;14

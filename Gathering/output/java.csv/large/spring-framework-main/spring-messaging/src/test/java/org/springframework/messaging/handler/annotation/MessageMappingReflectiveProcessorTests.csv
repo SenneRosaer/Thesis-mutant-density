@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SampleController.implicitPayloadWithIgnoredAnnotations( IncomingMessage incomingMessage , @ DestinationVariable Ignored destinationVariable , @ Header Ignored header , @ Headers Ignored headers , MessageHeaders messageHeaders , MessageHeaderAccessor messageHeaderAccessor , Principal principal );1;0;2
+OutgoingMessage.getMessage( );1;0;3
+SampleController.returnValue( );1;0;3
+MessageMappingReflectiveProcessorTests.registerReflectiveHintsForMethodWithImplicitPayload( );1;0;8
+MessageMappingReflectiveProcessorTests.registerReflectiveHintsForClass( );1;0;5
+IncomingMessage.setMessage( String message );1;0;3
+MessageMappingReflectiveProcessorTests.registerReflectiveHintsForMethodWithReturnValue( );1;0;16
+OutgoingMessage.setMessage( String message );1;0;3
+SampleController.implicitPayload( IncomingMessage incomingMessage );1;0;2
+SampleController.message( Message < IncomingMessage > message );1;0;2
+MessageMappingReflectiveProcessorTests.registerReflectiveHintsForMethodWithImplicitPayloadAndIgnoredAnnotations( );1;0;10
+MessageMappingReflectiveProcessorTests.registerReflectiveHintsForMethodWithMessage( );1;0;8
+MessageMappingReflectiveProcessorTests.registerReflectiveHintsForMethodWithExplicitPayload( );1;0;16
+SampleController.explicitPayload( @ Payload IncomingMessage incomingMessage );1;0;2
+OutgoingMessage.OutgoingMessage( String message );1;0;3
+IncomingMessage.getMessage( );1;0;3

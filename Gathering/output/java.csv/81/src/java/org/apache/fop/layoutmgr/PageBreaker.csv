@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PageBreaker.finishPart( PageBreakingAlgorithm alg , PageBreakPosition pbp );7;13;26
+PageBreaker.doPhase3WithColumnBalancing( PageBreakingAlgorithm alg , int partCount , BlockSequence originalList , BlockSequence effectiveList );4;4;40
+PageBreaker.getCurrentChildLM( );1;0;3
+PageBreaker.doPhase3( PageBreakingAlgorithm alg , int partCount , BlockSequence originalList , BlockSequence effectiveList );4;2;11
+PageBreaker.PageBreaker( PageSequenceLayoutManager pslm );1;0;6
+PageBreaker.observeElementList( List elementList );1;0;4
+PageBreaker.handleBreakTrait( int breakVal );13;12;39
+PageBreaker.getNextKnuthElements( LayoutContext context , int alignment );10;6;46
+PageBreaker.updateLayoutContext( LayoutContext context );1;0;4
+PageBreaker.handleEmptyContent( );1;0;3
+PageBreaker.doPhase3WithLastPage( PageBreakingAlgorithm alg , int partCount , BlockSequence originalList , BlockSequence effectiveList );4;6;48
+PageBreaker.getCurrentDisplayAlign( );1;0;4
+PageBreaker.handleSpanChange( LayoutContext childLC , int nextSequenceStartsOn );3;2;12
+PageBreaker.notifyOverflow( int part , int amount , FObj obj );2;4;15
+PageBreaker.getTopLevelLM( );1;0;3
+PageBreaker.getPageProvider( );1;0;3
+PageBreaker.needNewPage( int breakVal );4;5;13
+PageBreaker.startPart( BlockSequence list , int breakClass );4;3;15
+PageBreaker.getNextBlockList( LayoutContext childLC , int nextSequenceStartsOn );2;1;10
+PageBreaker.addAreas( PositionIterator posIter , LayoutContext context );2;1;14
+PageBreaker.hasMoreContent( );1;1;3
+PageBreaker.createLayoutListener( );2;0;19
+PageBreaker.needBlankPageBeforeNew( int breakVal );4;6;11

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MMapDirectory.openInput( String name , int bufferSize );1;0;3
+MMapIndexInput.MMapIndexInput( RandomAccessFile raf );1;0;4
+MMapDirectory.MMapDirectory( );1;0;2
+MMapDirectory.openInput( String name );2;1;11
+MMapIndexInput.readBytes( byte [ ] b , int offset , int len );1;0;3
+MultiMMapIndexInput.readByte( );2;3;10
+MMapIndexInput.close( );1;0;1
+MultiMMapIndexInput.clone( );3;2;15
+MultiMMapIndexInput.MultiMMapIndexInput( RandomAccessFile raf , int maxBufSize );6;13;26
+MMapIndexInput.clone( );1;0;5
+MMapIndexInput.readByte( );1;0;3
+MMapIndexInput.getFilePointer( );1;0;3
+MultiMMapIndexInput.seek( long pos );1;4;7
+MMapIndexInput.length( );1;0;3
+MMapIndexInput.seek( long pos );1;0;3
+MultiMMapIndexInput.length( );1;0;3
+MultiMMapIndexInput.getFilePointer( );1;2;3
+MultiMMapIndexInput.readBytes( byte [ ] b , int offset , int len );2;5;13
+MultiMMapIndexInput.close( );1;0;1
+MMapDirectory.MMapDirectory( File path , LockFactory lockFactory );1;0;3

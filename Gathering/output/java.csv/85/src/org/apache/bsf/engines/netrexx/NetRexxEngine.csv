@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NetRexxEngine.declareBean( BSFDeclaredBean bean );1;0;1
+NetRexxEngine.accept( File dir , String name );2;4;7
+NetRexxEngine.exec( String source , int lineNo , int columnNo , Object script );1;0;3
+NetRexxEngine.openUniqueFile( String directory , String prefix , String suffix );8;21;33
+NetRexxEngine.execEvalShared( String source , int lineNo , int columnNo , Object oscript , boolean returnsObject );25;27;146
+NetRexxEngine.eval( String source , int lineNo , int columnNo , Object script );1;0;3
+NetRexxEngine.call( Object object , String method , Object [ ] args );1;0;5
+NetRexxEngine.callStatic( Class rexxclass , String method , Object [ ] args );5;3;31
+NetRexxEngine.undeclareBean( BSFDeclaredBean bean );1;0;1
+NetRexxEngine.initialize( BSFManager mgr , String lang , Vector declaredBeans );1;0;4
+GeneratedFile.GeneratedFile( File file , FileOutputStream fos , String className );1;0;5
+NetRexxEngine.NetRexxEngine( );1;0;4

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CTM.CTM( AffineTransform at );1;0;10
+CTM.getCTMandRelDims( int absRefOrient , int writingMode , Rectangle2D absVPrect , FODimension reldims );11;9;38
+CTM.translate( double x , double y );1;0;4
+CTM.toArray( );1;0;3
+CTM.CTM( double a , double b , double c , double d , double e , double f );1;0;8
+CTM.getWMctm( int wm , int ipd , int bpd );4;0;17
+CTM.toAffineTransform( );1;0;3
+CTM.scale( double x , double y );1;0;4
+***not in a method***;0;2;0
+CTM.CTM( CTM ctm );1;0;8
+CTM.toString( );1;0;4
+CTM.CTM( );1;0;8
+CTM.transform( Rectangle2D inRect );3;24;19
+CTM.CTM( double x , double y );1;0;8
+CTM.rotate( double angle );7;15;19
+CTM.multiply( CTM premult );1;20;9

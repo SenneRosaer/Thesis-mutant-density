@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractCopletAdapter.login( CopletInstanceData coplet );3;0;10
+AbstractCopletAdapter.toSAX( CopletInstanceData coplet , ContentHandler contentHandler );13;9;60
+AbstractCopletAdapter.service( ServiceManager manager );1;0;3
+LoaderThread.join( final long milis );1;0;3
+AbstractCopletAdapter.init( CopletInstanceData coplet );1;0;2
+AbstractCopletAdapter.destroy( CopletInstanceData coplet );1;0;2
+LoaderThread.LoaderThread( AbstractCopletAdapter adapter , CopletInstanceData coplet , ContentHandler handler );1;0;6
+AbstractCopletAdapter.getConfiguration( CopletInstanceData coplet , String key , Object defaultValue );2;1;7
+LoaderThread.run( );2;0;9
+AbstractCopletAdapter.getConfiguration( CopletInstanceData coplet , String key );2;1;8
+AbstractCopletAdapter.renderErrorContent( CopletInstanceData coplet , ContentHandler handler , Exception error );1;0;3
+AbstractCopletAdapter.logout( CopletInstanceData coplet );1;0;2

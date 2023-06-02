@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ContentEnricher.getEnricherElementName( );1;0;3
+ContentEnricher.processAsync( MessageExchange exchange );1;0;3
+ContentEnricher.isCopyProperties( );1;0;3
+ContentEnricher.getRequestElementName( );1;0;3
+ContentEnricher.processSync( MessageExchange exchange );1;0;3
+ContentEnricher.setEnricherElementName( QName enricherElementName );1;0;3
+ContentEnricher.copyPropertiesAndAttachments( NormalizedMessage from , NormalizedMessage to );3;0;8
+ContentEnricher.setRequestElementName( QName requestElementName );1;0;3
+ContentEnricher.setCopyProperties( boolean copyProperties );1;0;3
+ContentEnricher.setEnricherTarget( ExchangeTarget enricherTarget );1;0;3
+ContentEnricher.getResultElementName( );1;0;3
+ContentEnricher.setResultElementName( QName resultElementName );1;0;3
+ContentEnricher.setCopyAttachments( boolean copyAttachments );1;0;3
+ContentEnricher.setTarget( ExchangeTarget target );1;0;3
+ContentEnricher.combineToDOMDocument( NormalizedMessage requestMessage , NormalizedMessage targetResultMessage );1;0;16
+ContentEnricher.createChildElement( QName name , Document document );2;1;9
+ContentEnricher.process( MessageExchange exchange );8;7;31
+ContentEnricher.getDOMNode( Source source );2;1;8
+ContentEnricher.isCopyAttachments( );1;0;3

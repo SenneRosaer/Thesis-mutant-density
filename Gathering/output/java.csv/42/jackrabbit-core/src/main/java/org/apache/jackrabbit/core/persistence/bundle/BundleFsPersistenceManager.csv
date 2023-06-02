@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileNodeIdIterator.FileNodeIdIterator( ArrayList list );1;0;3
+FileNodeIdIterator.remove( );1;0;3
+FSBlobStore.createId( PropertyId id , int index );1;0;3
+BundleFsPersistenceManager.buildNodeFilePath( StringBuffer buf , NodeId id );2;1;9
+BundleFsPersistenceManager.getUUIDFromFileName( String fileName );9;12;21
+BundleFsPersistenceManager.setBlobFSBlockSize( String size );1;0;3
+BundleFsPersistenceManager.getBlobFSBlockSize( );1;0;3
+FileNodeIdIterator.hasNext( );1;1;3
+FileNodeIdIterator.next( );1;0;3
+BundleFsPersistenceManager.getBinding( );1;0;3
+BundleFsPersistenceManager.storeBundle( NodePropBundle bundle );3;1;20
+BundleFsPersistenceManager.init( PMContext context );3;0;19
+BundleFsPersistenceManager.close( );2;1;13
+BundleFsPersistenceManager.logException( String message , SQLException se );2;1;9
+BundleFsPersistenceManager.exists( NodeReferencesId targetId );3;1;13
+BundleFsPersistenceManager.getAllNodeIds( NodeId bigger , int maxCount );3;1;11
+BundleFsPersistenceManager.setErrorHandling( String errorHandling );1;0;3
+BundleFsPersistenceManager.getErrorHandling( );1;0;3
+BundleFsPersistenceManager.getListRecursive( ArrayList list , String path , UUID bigger , int maxCount );10;18;28
+BundleFsPersistenceManager.load( NodeReferencesId targetId );5;2;24
+FSBlobStore.close( );2;0;7
+BundleFsPersistenceManager.buildNodeReferencesFilePath( StringBuffer buf , NodeReferencesId id );2;1;9
+BundleFsPersistenceManager.toString( );1;0;3
+BundleFsPersistenceManager.destroyBundle( NodePropBundle bundle );3;0;13
+FileNodeIdIterator.nextNodeId( );2;2;6
+FSBlobStore.FSBlobStore( FileSystem fs );1;0;4
+BundleFsPersistenceManager.getMinBlobSize( );1;0;3
+BundleFsPersistenceManager.store( NodeReferences refs );4;2;22
+BundleFsPersistenceManager.setMinBlobSize( String minBlobSize );1;0;3
+BundleFsPersistenceManager.existsBundle( NodeId id );2;0;10
+BundleFsPersistenceManager.useLocalFsBlobStore( );1;1;3
+BundleFsPersistenceManager.loadBundle( NodeId id );3;1;21
+BundleFsPersistenceManager.destroy( NodeReferences refs );4;1;16

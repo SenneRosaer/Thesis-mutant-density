@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MethodVisitor.visitTypeInsn( final int opcode , final String type );2;1;5
+MethodVisitor.visitCode( );2;1;5
+MethodVisitor.visitAnnotation( final String descriptor , final boolean visible );2;1;6
+MethodVisitor.visitAnnotableParameterCount( final int parameterCount , final boolean visible );2;1;5
+MethodVisitor.visitLocalVariable( final String name , final String descriptor , final String signature , final Label start , final Label end , final int index );2;1;5
+MethodVisitor.visitMaxs( final int maxStack , final int maxLocals );2;1;5
+MethodVisitor.visitInsn( final int opcode );2;1;5
+MethodVisitor.MethodVisitor( final int api );1;0;3
+MethodVisitor.MethodVisitor( final int api , final MethodVisitor methodVisitor );8;13;13
+MethodVisitor.visitMultiANewArrayInsn( final String descriptor , final int numDimensions );2;1;5
+MethodVisitor.visitInvokeDynamicInsn( final String name , final String descriptor , final Handle bootstrapMethodHandle , final Object ... bootstrapMethodArguments );3;2;8
+MethodVisitor.getDelegate( );1;0;3
+MethodVisitor.visitTypeAnnotation( final int typeRef , final TypePath typePath , final String descriptor , final boolean visible );3;2;9
+MethodVisitor.visitTableSwitchInsn( final int min , final int max , final Label dflt , final Label ... labels );2;1;5
+MethodVisitor.visitLookupSwitchInsn( final Label dflt , final int [ ] keys , final Label [ ] labels );2;1;5
+MethodVisitor.visitAttribute( final Attribute attribute );2;1;5
+MethodVisitor.visitFrame( final int type , final int numLocal , final Object [ ] local , final int numStack , final Object [ ] stack );2;1;5
+MethodVisitor.visitMethodInsn( final int opcode , final String owner , final String name , final String descriptor , final boolean isInterface );5;8;12
+MethodVisitor.visitJumpInsn( final int opcode , final Label label );2;1;5
+MethodVisitor.visitTryCatchBlock( final Label start , final Label end , final Label handler , final String type );2;1;5
+MethodVisitor.visitTryCatchAnnotation( final int typeRef , final TypePath typePath , final String descriptor , final boolean visible );3;2;9
+MethodVisitor.visitLdcInsn( final Object value );8;8;13
+MethodVisitor.visitVarInsn( final int opcode , final int varIndex );2;1;5
+MethodVisitor.visitParameterAnnotation( final int parameter , final String descriptor , final boolean visible );2;1;6
+MethodVisitor.visitIincInsn( final int varIndex , final int increment );2;1;5
+MethodVisitor.visitLabel( final Label label );2;1;5
+MethodVisitor.visitEnd( );2;1;5
+MethodVisitor.visitInsnAnnotation( final int typeRef , final TypePath typePath , final String descriptor , final boolean visible );3;2;9
+MethodVisitor.visitParameter( final String name , final int access );3;2;8
+MethodVisitor.visitAnnotationDefault( );2;1;6
+MethodVisitor.visitMethodInsn( final int opcode , final String owner , final String name , final String descriptor );2;3;4
+MethodVisitor.visitFieldInsn( final int opcode , final String owner , final String name , final String descriptor );2;1;5
+MethodVisitor.visitIntInsn( final int opcode , final int operand );2;1;5
+MethodVisitor.visitLineNumber( final int line , final Label start );2;1;5
+MethodVisitor.visitLocalVariableAnnotation( final int typeRef , final TypePath typePath , final Label [ ] start , final Label [ ] end , final int [ ] index , final String descriptor , final boolean visible );3;2;10

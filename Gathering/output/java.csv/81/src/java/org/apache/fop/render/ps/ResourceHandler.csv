@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceHandler.process( FOUserAgent userAgent , InputStream in , OutputStream out , FontInfo fontInfo , ResourceTracker resTracker , Map formResources , int pageCount , Rectangle2D documentBoundingBox );13;5;81
+ResourceHandler.createMissingForm( String formName , final Dimension2D dimensions );1;0;21
+ResourceHandler.reportInvalidDSC( );1;0;3
+ResourceHandler.generateForms( ResourceTracker resTracker , FOUserAgent userAgent , Map formResources , PSGenerator gen );13;4;95
+ResourceHandler.generatePaintProc( PSGenerator gen );1;1;12
+ResourceHandler.registerSuppliedForms( ResourceTracker resTracker , Map formResources );3;1;10
+ResourceHandler.accept( DSCEvent event );2;1;7

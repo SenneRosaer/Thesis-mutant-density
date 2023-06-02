@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AntUnit.addPropertySet( PropertySet ps );1;0;3
+AntUnit.setErrorProperty( String s );1;0;3
+BuildToAntUnitListener.buildFinished( BuildEvent event );1;0;3
+AntUnit.doFile( File f );35;15;127
+AntUnit.handleFlush( String toFlush );2;1;7
+AntUnit.add( ResourceCollection rc );2;1;6
+AntUnit.fireError( String targetName , Throwable t );2;1;8
+AntUnit.execute( );8;11;19
+AntUnit.handleErrorOutput( String errorOutputToHandle );2;1;7
+BuildToAntUnitListener.messageLogged( BuildEvent event );1;0;1
+AntUnit.add( AntUnitListener al );1;0;4
+AntUnit.fireStartTest( String targetName );2;0;7
+AntUnit.handleInput( byte [ ] buffer , int offset , int length );2;1;6
+BuildToAntUnitListener.taskFinished( BuildEvent event );1;0;1
+AntUnit.fireEndTest( String targetName );2;0;7
+BuildToAntUnitListener.buildStarted( BuildEvent event );1;0;3
+AntUnit.createProjectForFile( File f );8;5;28
+AntUnit.attachListeners( File buildFile , Project p );2;0;10
+AntUnit.setFailOnError( boolean failOnError );1;0;3
+BuildToAntUnitListener.taskStarted( BuildEvent event );1;0;1
+BuildToAntUnitListener.BuildToAntUnitListener( String buildFile , AntUnitListener a );1;0;4
+AntUnit.handleOutput( String outputToHandle );2;1;7
+BuildToAntUnitListener.targetStarted( BuildEvent event );1;0;2
+AntUnit.handleErrorFlush( String errorOutputToFlush );2;1;7
+AntUnit.fireFail( String targetName , AssertionFailedException ae );2;1;8
+BuildToAntUnitListener.targetFinished( BuildEvent event );1;0;2
+AntUnit.doResourceCollection( ResourceCollection rc );4;1;15

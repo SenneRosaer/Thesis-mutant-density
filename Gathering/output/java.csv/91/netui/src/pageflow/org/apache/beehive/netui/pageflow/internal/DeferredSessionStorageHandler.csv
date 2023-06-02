@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DeferredSessionStorageHandler.getFailoverAttributesMap( ServletRequest request , boolean create , boolean remove );5;4;10
+DeferredSessionStorageHandler.removeAttribute( RequestContext context , String attrName );5;3;16
+DeferredSessionStorageHandler.initialValue( );1;0;3
+DeferredSessionStorageHandler.getAttributeNames( RequestContext context );6;3;22
+DeferredSessionStorageHandler.DeferredSessionStorageHandler( ServletContext servletContext );1;0;3
+DeferredSessionStorageHandler.setAttribute( RequestContext context , String attrName , Object value );6;5;18
+DeferredSessionStorageHandler.ensureFailover( RequestContext context , String attributeName , Object value );1;0;4
+DeferredSessionStorageHandler.applyChanges( RequestContext context );18;11;90
+DeferredSessionStorageHandler.getAttribute( RequestContext context , String attributeName );7;5;17
+DeferredSessionStorageHandler.getChangedAttributesList( ServletRequest request , boolean create , boolean remove );5;4;11
+DeferredSessionStorageHandler.dropChanges( RequestContext context );2;0;8
+DeferredSessionStorageHandler.allowBindingEvent( Object event );1;1;3

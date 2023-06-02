@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WrapperEditor.isExpression( Object text );2;1;3
+WrapperEditor.fixGetAsTextBug( String asText );4;1;14
+WrapperEditor.WrapperEditor( PropertyEditor typeEditor , PropertyEditor guiEditor , boolean acceptsNull , boolean acceptsExpressions , boolean acceptsOther , Object defaultValue );1;0;4
+WrapperEditor.WrapperEditor( Object source , PropertyEditor typeEditor , PropertyEditor guiEditor , boolean acceptsNull , boolean acceptsExpressions , boolean acceptsOther , Object defaultValue );1;0;4
+WrapperEditor.setValue( Object value );9;7;21
+WrapperEditor.isExpression( String text );1;2;3
+WrapperEditor.getValue( );12;8;37
+WrapperEditor.shouldNeverHappen( Exception e );1;0;3
+WrapperEditor.propertyChange( PropertyChangeEvent event );3;1;17
+WrapperEditor.shouldNeverHappen( String msg );1;0;3
+WrapperEditor.setAsText( String text );9;7;23
+WrapperEditor.isValidValue( String text );7;3;20
+WrapperEditor.isATag( String text );4;3;12
+WrapperEditor.supportsCustomEditor( );1;0;3
+WrapperEditor.getTags( );1;0;3
+WrapperEditor.initialize( PropertyEditor _typeEditor , PropertyEditor _guiEditor , boolean _acceptsNull , boolean _acceptsExpressions , boolean _acceptsOther , Object defaultValue );7;4;26
+WrapperEditor.getCustomEditor( );1;0;3
+WrapperEditor.getAsText( );9;8;22

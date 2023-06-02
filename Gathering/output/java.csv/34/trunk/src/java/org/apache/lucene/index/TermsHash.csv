@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TermsHash.setFieldInfos( FieldInfos fieldInfos );1;0;4
+TermsHash.closeDocStore( SegmentWriteState state );2;1;5
+TermsHash.addThread( DocInverterPerThread docInverterPerThread );1;0;3
+TermsHash.TermsHash( final DocumentsWriter docWriter , boolean trackAllocations , final TermsHashConsumer consumer , final TermsHash nextTermsHash );1;3;8
+TermsHash.abort( );2;1;5
+TermsHash.flush( Map threadsAndFields , final SegmentWriteState state );8;5;34
+TermsHash.recyclePostings( final RawPostingList [ ] postings , final int numPostings );1;4;6
+TermsHash.getPostings( final RawPostingList [ ] postings );6;16;30
+TermsHash.addThread( DocInverterPerThread docInverterPerThread , TermsHashPerThread primaryPerThread );1;0;3
+TermsHash.shrinkFreePostings( Map threadsAndFields , SegmentWriteState state );2;5;9
+TermsHash.freeRAM( );5;10;21

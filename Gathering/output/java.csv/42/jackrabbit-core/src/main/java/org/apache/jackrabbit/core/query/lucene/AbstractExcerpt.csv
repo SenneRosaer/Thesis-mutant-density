@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractExcerpt.createTermPositionVector( String text );9;4;64
+AbstractExcerpt.checkRewritten( IndexReader reader );4;3;16
+AbstractExcerpt.getField( );1;0;3
+AbstractExcerpt.size( );1;0;3
+AbstractExcerpt.getTermFrequencies( );2;2;7
+AbstractExcerpt.getTermPositions( int index );1;0;3
+AbstractExcerpt.init( Query query , SearchIndex index );1;0;4
+AbstractExcerpt.indexesOf( String [ ] terms , int start , int len );2;2;7
+AbstractExcerpt.getExcerpt( NodeId id , int maxFragments , int maxFragmentSize );9;9;58
+AbstractExcerpt.getQueryTerms( );4;2;18
+AbstractExcerpt.getTerms( );1;0;3
+AbstractExcerpt.highlight( String text );1;2;5
+AbstractExcerpt.indexOf( String term );2;2;4
+AbstractExcerpt.getOffsets( int index );3;3;7

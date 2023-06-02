@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestWrapper.getSitemapURIPrefix( );1;0;3
+RequestWrapper.getRequestURI( );1;0;3
+RequestWrapper.getSitemapPath( );1;0;3
+RequestWrapper.getParameter( String name );3;3;7
+RequestWrapper.RequestWrapper( Request request , String requestURI , String queryString , Environment env );1;0;3
+RequestWrapper.setRequestURI( String prefix , String uri );1;0;7
+RequestWrapper.getParameterNames( );4;1;15
+RequestWrapper.getQueryString( );1;0;3
+RequestWrapper.RequestWrapper( Request request , String requestURI , String queryString , Environment env , boolean rawMode );4;6;14
+RequestWrapper.getSitemapURI( );1;0;3
+RequestWrapper.getParameterValues( String name );4;4;13

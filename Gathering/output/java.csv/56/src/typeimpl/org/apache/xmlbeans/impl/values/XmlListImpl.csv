@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlListImpl.equal_to( XmlObject obj );1;0;3
+XmlListImpl.set_text( String s );5;2;11
+XmlListImpl.compute_text( NamespaceManager nsm );1;0;3
+XmlListImpl.validate_simpleval( String lexical , ValidationContext ctx );1;0;3
+XmlListImpl.is_defaultable_ws( String v );2;0;11
+XmlListImpl.XmlListImpl( SchemaType type , boolean complex );1;0;1
+XmlListImpl.validateValue( XmlSimpleList items , SchemaType sType , ValidationContext context );10;9;39
+XmlListImpl.permits_inner_space( XmlObject obj );5;0;12
+XmlListImpl.lex( String s , SchemaType itemType , ValidationContext ctx , PrefixResolver resolver );5;3;31
+XmlListImpl.schemaType( );1;0;1
+XmlListImpl.equal_xmlLists( List a , List b );4;4;10
+XmlListImpl.set_list( List list );8;3;37
+XmlListImpl.getListValue( );4;4;12
+XmlListImpl.set_nil( );1;0;3
+XmlListImpl.contains_white_space( String s );4;7;6
+XmlListImpl.value_hash_code( );5;10;20
+XmlListImpl.split_list( String s );8;9;18
+XmlListImpl.nullAsEmpty( String s );2;1;5
+XmlListImpl.xgetListValue( );1;0;4
+XmlListImpl.compute_list_text( List xList );3;3;12

@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AssertionErrors.fail( String message , @ Nullable Object expected , @ Nullable Object actual );1;2;3
+AssertionErrors.assertNotNull( String message , @ Nullable Object object );1;1;3
+AssertionErrors.fail( String message );1;0;3
+AssertionErrors.assertTrue( String message , boolean condition );2;1;5
+AssertionErrors.assertFalse( String message , boolean condition );2;0;5
+AssertionErrors.assertEquals( String message , @ Nullable Object expected , @ Nullable Object actual );2;1;5
+AssertionErrors.assertNotEquals( String message , @ Nullable Object expected , @ Nullable Object actual );2;1;6
+AssertionErrors.assertNull( String message , @ Nullable Object object );1;1;3

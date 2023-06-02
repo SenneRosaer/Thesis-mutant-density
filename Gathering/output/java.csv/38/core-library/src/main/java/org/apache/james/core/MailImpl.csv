@@ -1,0 +1,44 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MailImpl.getAttributesRaw( );1;0;3
+MailImpl.getState( );1;0;3
+MailImpl.newName( Mail mail );4;5;23
+MailImpl.getRemoteHost( );1;0;3
+MailImpl.MailImpl( String name , MailAddress sender , Collection recipients );3;1;13
+***not in a method***;0;1;0
+MailImpl.MailImpl( Mail mail );1;0;3
+MailImpl.setName( String name );1;0;3
+MailImpl.writeObject( java . io . ObjectOutputStream out );1;0;11
+MailImpl.setAttributesRaw( HashMap attr );2;1;3
+MailImpl.duplicate( String newName );2;0;7
+MailImpl.getName( );1;0;3
+MailImpl.getReturnPath( MimeMessage message );5;3;19
+MailImpl.setAttribute( String key , Serializable object );1;0;3
+MailImpl.setErrorMessage( String msg );1;0;3
+MailImpl.setState( String state );1;0;3
+MailImpl.dispose( );1;0;4
+MailImpl.removeAllAttributes( );1;0;3
+MailImpl.getRemoteAddr( );1;0;3
+MailImpl.setMessage( MimeMessage message );3;2;8
+MailImpl.getSender( );1;0;3
+MailImpl.MailImpl( Mail mail , String newName );5;0;22
+MailImpl.MailImpl( String name , MailAddress sender , Collection recipients , MimeMessage message );1;0;4
+MailImpl.MailImpl( String name , MailAddress sender , Collection recipients , InputStream messageIn );2;0;10
+MailImpl.setRemoteAddr( String remoteAddr );1;0;3
+MailImpl.cloneSerializableObject( Object o );1;0;11
+MailImpl.setSender( MailAddress sender );1;0;3
+MailImpl.setLastUpdated( Date lastUpdated );2;1;6
+MailImpl.getLastUpdated( );1;0;3
+MailImpl.duplicate( );1;0;3
+MailImpl.MailImpl( );1;0;4
+MailImpl.setRemoteHost( String remoteHost );1;0;3
+MailImpl.hasAttributes( );1;1;3
+MailImpl.writeMessageTo( OutputStream out );2;1;7
+MailImpl.readObject( java . io . ObjectInputStream in );7;1;30
+MailImpl.setRecipients( Collection recipients );1;0;3
+MailImpl.getMessageSize( );1;0;3
+MailImpl.getRecipients( );1;0;3
+MailImpl.getErrorMessage( );1;0;3
+MailImpl.getAttribute( String key );1;0;3
+MailImpl.getMessage( );1;0;3
+MailImpl.getAttributeNames( );1;0;3
+MailImpl.removeAttribute( String key );1;0;3

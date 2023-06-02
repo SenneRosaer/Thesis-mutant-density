@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SingleConnectionFactory.destroy( );1;0;3
+SingleConnectionFactory.getCloseSuppressingConnectionProxy( Connection target );2;0;4
+SingleConnectionFactory.SingleConnectionFactory( ConnectionFactory targetConnectionFactory );1;0;4
+SingleConnectionFactory.resetConnection( );3;1;13
+SingleConnectionFactory.create( );1;1;3
+SingleConnectionFactory.prepareConnection( Connection connection );2;1;7
+CloseSuppressingInvocationHandler.invoke( Object proxy , Method method , Object [ ] args );6;1;18
+SingleConnectionFactory.isSuppressClose( );1;0;3
+SingleConnectionFactory.setSuppressClose( boolean suppressClose );1;0;3
+SingleConnectionFactory.SingleConnectionFactory( Connection target , ConnectionFactoryMetadata metadata , boolean suppressClose );3;0;18
+SingleConnectionFactory.getAutoCommitValue( );1;0;3
+SingleConnectionFactory.getMetadata( );1;0;3
+SingleConnectionFactory.SingleConnectionFactory( String url , boolean suppressClose );1;0;5
+CloseSuppressingInvocationHandler.CloseSuppressingInvocationHandler( Connection target );1;0;3
+SingleConnectionFactory.setAutoCommit( boolean autoCommit );1;0;3

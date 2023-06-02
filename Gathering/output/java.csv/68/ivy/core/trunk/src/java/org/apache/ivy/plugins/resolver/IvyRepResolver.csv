@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IvyRepResolver.getIvyPatterns( );1;0;4
+IvyRepResolver.setArtpattern( String pattern );2;1;8
+IvyRepResolver.updateWholeIvyPattern( );1;0;3
+IvyRepResolver.getWholeArtPattern( );1;1;3
+IvyRepResolver.getArtroot( );1;0;3
+IvyRepResolver.getIvypattern( );1;0;3
+IvyRepResolver.ensureIvyConfigured( ResolverSettings settings );8;9;25
+IvyRepResolver.exists( Artifact artifact );1;0;4
+IvyRepResolver.getArtpattern( );1;0;3
+IvyRepResolver.getTypeName( );1;0;3
+IvyRepResolver.setArtroot( String root );3;2;12
+IvyRepResolver.IvyRepResolver( );1;0;2
+IvyRepResolver.download( Artifact [ ] artifacts , DownloadOptions options );1;0;4
+IvyRepResolver.ensureArtifactConfigured( ResolverSettings settings );8;9;23
+IvyRepResolver.getArtifactPatterns( );1;0;4
+IvyRepResolver.listRevisions( ModuleEntry mod );1;0;5
+IvyRepResolver.locate( Artifact artifact );1;0;4
+IvyRepResolver.setIvypattern( String pattern );2;1;8
+IvyRepResolver.listOrganisations( );5;0;23
+IvyRepResolver.getWholeIvyPattern( );3;4;6
+IvyRepResolver.updateWholeArtPattern( );1;0;3
+IvyRepResolver.getDependency( DependencyDescriptor dd , ResolveData data );1;0;4
+IvyRepResolver.setM2compatible( boolean m2compatible );2;0;7
+IvyRepResolver.findArtifactRef( Artifact artifact , Date date );1;0;4
+IvyRepResolver.setIvyroot( String root );3;2;12
+IvyRepResolver.startElement( String uri , String localName , String qName , org . xml . sax . Attributes attributes );3;1;8
+IvyRepResolver.listModules( OrganisationEntry org );2;1;13
+IvyRepResolver.getIvyroot( );1;0;3
+IvyRepResolver.publish( Artifact artifact , File src );1;0;3

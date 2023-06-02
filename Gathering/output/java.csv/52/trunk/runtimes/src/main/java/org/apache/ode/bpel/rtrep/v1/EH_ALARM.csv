@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WAIT.onCancel( );1;0;3
+ACTIVE.completed( FaultData faultData , Set < CompensationHandler > compensations );4;3;16
+WAIT.terminate( );1;0;3
+***not in a method***;0;3;0
+EH_ALARM.run( );5;2;20
+ACTIVE.stop( );1;0;4
+WAIT.stop( );1;0;3
+EH_ALARM.getEvaluationContext( );1;0;3
+WAIT.onTimeout( );1;0;3
+ACTIVE.compensate( OScope scope , SynchChannel ret );1;0;4
+WAIT.WAIT( Calendar alarm );1;0;3
+FIRE.run( );1;0;7
+ACTIVE.ACTIVE( ActivityInfo activity );1;0;3
+ACTIVE.failure( String reason , Element data );1;0;1
+WAIT.run( );2;1;32
+EH_ALARM.EH_ALARM( ParentScopeChannel psc , TerminationChannel tc , EventHandlerControlChannel cc , OEventHandler . OAlarm o , ScopeFrame scopeFrame );1;0;7
+ACTIVE.terminate( );1;0;5
+ACTIVE.run( );4;3;40
+ACTIVE.cancelled( );1;0;1

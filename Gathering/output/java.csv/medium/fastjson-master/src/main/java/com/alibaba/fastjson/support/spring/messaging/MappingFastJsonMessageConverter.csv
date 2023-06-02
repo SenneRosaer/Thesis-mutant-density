@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MappingFastJsonMessageConverter.canConvertFrom( Message < ? > message , Class < ? > targetClass );1;0;3
+MappingFastJsonMessageConverter.MappingFastJsonMessageConverter( );1;0;3
+MappingFastJsonMessageConverter.supports( Class < ? > clazz );1;0;3
+MappingFastJsonMessageConverter.convertToInternal( Object payload , MessageHeaders headers , Object conversionHint );6;3;19
+MappingFastJsonMessageConverter.setFastJsonConfig( FastJsonConfig fastJsonConfig );1;0;3
+MappingFastJsonMessageConverter.getFastJsonConfig( );1;0;3
+MappingFastJsonMessageConverter.convertFromInternal( Message < ? > message , Class < ? > targetClass , Object conversionHint );3;0;12
+MappingFastJsonMessageConverter.canConvertTo( Object payload , MessageHeaders headers );1;0;3

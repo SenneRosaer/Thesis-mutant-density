@@ -1,0 +1,73 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Client.setThroughput( JCO . Throughput throughput );1;0;2
+Client.getSystemNumber( );1;0;3
+Client.setSapGui( int use_sapgui );1;0;2
+Repository.getFunctionTemplate( String name );1;0;3
+JCO.removeClientPool( String key );1;0;2
+Record.getStructure( String name );1;0;3
+Record.getStructure( int index );1;0;3
+JCO.setTraceLevel( int level );1;0;2
+Record.getString( int index );1;0;3
+Record.getField( int index );1;0;3
+Client.clone( );1;0;3
+Client.getState( );1;0;3
+Client.createTID( );1;0;3
+Client.execute( String name , JCO . ParameterList input , JCO . ParameterList tables , String tid , String queue );1;0;2
+Record.getName( int index );1;0;3
+Function.getImportParameterList( );1;0;3
+Client.ping( );1;0;2
+Client.getAttributes( );1;0;3
+Client.getTPName( );1;0;3
+Client.getSystemID( );1;0;3
+Client.setAbapDebug( boolean debug );1;0;2
+Client.getASHost( );1;0;3
+Client.execute( String name , JCO . ParameterList input , JCO . ParameterList tables , String tid , String queue , int pos );1;0;2
+Function.getName( );1;0;3
+Client.getProperty( String key );1;0;3
+Client.execute( JCO . Function function , java . lang . String tid );1;0;2
+Client.execute( String name , JCO . ParameterList input , JCO . ParameterList output );1;0;2
+Client.getPropertyInfo( );1;0;3
+Client.getGroup( );1;0;3
+JCO.getClientPoolManager( );1;0;3
+Field.isStructure( );1;0;3
+Table.getNumRows( );1;1;3
+Client.confirmTID( String tid );1;0;2
+Client.setTrace( boolean trace );1;0;2
+Client.getUser( );1;0;3
+Client.disconnect( );1;0;2
+Client.getURL( );1;0;3
+Record.getTable( String name );1;0;3
+Client.execute( String name , JCO . ParameterList input , JCO . ParameterList tables , String tid );1;0;2
+Record.getField( String name );1;0;3
+Pool.setTrace( boolean trace );1;0;2
+Record.getFieldCount( );1;1;3
+Client.getClient( );1;0;3
+Client.getGWServ( );1;0;3
+AbapException.getKey( );1;0;3
+Client.isValid( );1;0;3
+Field.setValue( String value );1;0;2
+Client.execute( String name , JCO . ParameterList input , JCO . ParameterList output , JCO . ParameterList tables );1;0;2
+Client.setProperty( String key , String value );1;0;2
+Table.appendRow( );1;0;2
+Table.setRow( int pos );1;0;2
+JCO.getClient( String key );1;0;3
+Client.execute( JCO . Function function );1;0;2
+Repository.Repository( String s , JCO . Client client );1;0;2
+Client.getMSHost( );1;0;3
+Client.getSapGui( );1;1;3
+Client.abort( String message );1;0;2
+Client.isAlive( );1;0;3
+Function.getExportParameterList( );1;0;3
+JCO.releaseClient( JCO . Client client );1;0;2
+Client.getProperties( );1;0;3
+Client.getTrace( );1;0;3
+Client.getGWHost( );1;0;3
+Client.getLanguage( );1;0;3
+Client.execute( JCO . Function function , String tid , String queue , int pos );1;0;2
+Client.connect( );1;0;2
+JCO.addClientPool( String SID , int poolsize , Properties properties );1;0;2
+Function.getTableParameterList( );1;0;3
+Record.getTable( int index );1;0;3
+PoolManager.getPool( String name );1;0;3
+Client.execute( JCO . Function function , String tid , String queue );1;0;2
+Client.getAbapDebug( );1;0;3

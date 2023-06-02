@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Update.checkReferentialIntegrity( );12;7;36
+SharedItemStateManager.createInstance( Name propName , NodeId parentId );1;0;6
+SharedItemStateManager.SharedItemStateManager( PersistenceManager persistMgr , NodeId rootNodeId , NodeTypeRegistry ntReg , boolean usesReferences , ItemStateCacheFactory cacheFactory , ISMLocking locking );2;1;11
+SharedItemStateManager.dump( PrintStream ps );2;0;8
+SharedItemStateManager.setISMLocking( ISMLocking ismLocking );2;1;6
+Update.removeReference( PropertyId id , UUID uuid );6;6;14
+Update.cancel( );8;2;33
+SharedItemStateManager.dispose( );1;0;3
+SharedItemStateManager.stateDestroyed( ItemState destroyed );2;1;6
+Update.getChanges( );1;0;3
+SharedItemStateManager.externalUpdate( ChangeLog external , EventStateCollection events );7;3;33
+SharedItemStateManager.stateCreated( ItemState created );2;1;6
+SharedItemStateManager.addVirtualItemStateProvider( VirtualItemStateProvider prov );1;1;8
+Update.addReference( PropertyId id , UUID uuid );5;4;16
+SharedItemStateManager.getNodeReferences( NodeReferencesId id );4;2;18
+SharedItemStateManager.acquireReadLock( ItemId id );2;0;7
+SharedItemStateManager.beginUpdate( ChangeLog local , EventStateCollectionFactory factory , VirtualItemStateProvider virtualProvider );1;0;5
+Update.getEvents( );1;0;3
+Update.isAdded( ItemId id );3;3;9
+SharedItemStateManager.stateModified( ItemState modified );1;0;3
+SharedItemStateManager.setEventChannel( UpdateEventChannel eventChannel );1;0;3
+SharedItemStateManager.setCheckReferences( boolean checkReferences );1;0;3
+SharedItemStateManager.doExternalUpdate( ChangeLog external );8;2;35
+Update.addReferences( ItemState state );5;6;12
+SharedItemStateManager.acquireWriteLock( ChangeLog changeLog );2;0;7
+Update.isDeleted( ItemId id );1;0;3
+SharedItemStateManager.hasItemState( ItemId id );8;4;29
+SharedItemStateManager.loadItemState( ItemId id );2;0;9
+SharedItemStateManager.getNonVirtualItemState( ItemId id );2;1;12
+Update.getTimestamp( );1;0;3
+SharedItemStateManager.hasNonVirtualItemState( ItemId id );4;0;14
+SharedItemStateManager.stateDiscarded( ItemState discarded );2;1;6
+SharedItemStateManager.addListener( ItemStateListener listener );1;0;3
+Update.Update( ChangeLog local , EventStateCollectionFactory factory , VirtualItemStateProvider virtualProvider );1;0;5
+Update.setAttribute( String name , Object value );2;1;6
+Update.begin( );26;11;121
+SharedItemStateManager.getItemState( ItemId id );6;4;21
+SharedItemStateManager.removeListener( ItemStateListener listener );1;0;3
+Update.updateReferences( );5;1;15
+SharedItemStateManager.update( ChangeLog local , EventStateCollectionFactory factory );1;0;3
+SharedItemStateManager.createInstance( NodeId id , Name nodeTypeName , NodeId parentId );1;0;8
+Update.isReferenceable( NodeState state );6;2;23
+SharedItemStateManager.createInstance( ItemState other );2;0;9
+Update.getAttribute( String name );2;1;6
+SharedItemStateManager.createRootNodeState( NodeId rootNodeId , NodeTypeRegistry ntReg );3;0;47
+Update.end( );9;8;41
+Update.allowsSameNameSiblings( NodeId id );4;1;14
+SharedItemStateManager.hasNodeReferences( NodeReferencesId id );6;2;24
+Update.removeReferences( ItemState state );5;6;12

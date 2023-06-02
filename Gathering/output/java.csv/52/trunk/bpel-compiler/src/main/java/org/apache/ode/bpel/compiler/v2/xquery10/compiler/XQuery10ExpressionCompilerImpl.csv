@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XQuery10ExpressionCompilerImpl.getVariableDeclaredName( String variableReference );2;1;4
+XQueryDeclarations.toString( );1;0;3
+XQuery10ExpressionCompilerImpl.getVariablePartName( String variableReference );2;2;4
+XQuery10ExpressionCompilerImpl.getVariable( List < OScope . Variable > variables , String variableName );3;0;9
+XQuery10ExpressionCompilerImpl.XQuery10ExpressionCompilerImpl( String bpelNS );1;0;10
+XQuery10ExpressionCompilerImpl.getVariableNames( String xquery );3;4;14
+XQuery10ExpressionCompilerImpl.compileLValue( Object source );1;0;3
+XQueryDeclarations.declareDefaultElementNamespace( String uri );1;0;5
+XQuery10ExpressionCompilerImpl.getNameQName( String variableName );2;2;12
+XQuery10ExpressionCompilerImpl.getQName( NSContext nsContext , String uri , String localPart );2;2;4
+XQueryDeclarations.XQueryDeclarations( );1;0;1
+XQuery10ExpressionCompilerImpl.getPrefixForUri( NSContext nsContext , String uri );4;2;10
+XQuery10ExpressionCompilerImpl.getProperties( );1;0;3
+XQuery10ExpressionCompilerImpl.getTypeQName( String variableName , OVarType type );6;1;16
+XQuery10ExpressionCompilerImpl.compile( Object source );1;0;3
+XQuery10ExpressionCompilerImpl.doJaxpCompile( OXQuery10ExpressionBPEL20 out , Expression source );24;15;106
+XQueryDeclarations.declareNamespace( String prefix , String uri );1;0;7
+XQueryDeclarations.declareVariable( String name , String type );1;0;9
+XQueryDeclarations.declareVariable( String name );1;0;7
+XQuery10ExpressionCompilerImpl.compileJoinCondition( Object source );1;0;3
+XQuery10ExpressionCompilerImpl._compile( org . apache . ode . bpel . compiler . bom . Expression xquery , boolean isJoinCondition );1;0;7
+XQueryDeclarations.declareVariable( String name , QName type );1;1;3
+XQuery10ExpressionCompilerImpl.setCompilerContext( CompilerContext compilerContext );1;0;5

@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Perl5Compiler.compile( char [ ] pattern );1;0;3
+Perl5Compiler.__parseHex( char [ ] str , int offset , int maxLength , int [ ] scanned );4;12;12
+Perl5Compiler.quotemeta( char [ ] expression );3;4;11
+Perl5Compiler.__emitCode( char code );2;2;5
+Perl5Compiler.__emitArgNode( char operator , char arg );2;5;12
+Perl5Compiler.__parseRepetition( char [ ] str , int offset );12;18;16
+Perl5Compiler.__setModifierFlag( char [ ] flags , char ch );7;6;10
+Perl5Compiler.__isSimpleRepetitionOp( char ch );3;5;3
+Perl5Compiler.__programInsertOperator( char operator , int operand );5;14;20
+Perl5Compiler.__isComplexRepetitionOp( char [ ] ch , int offset );7;11;6
+Perl5Compiler.__parseAtom( int [ ] retFlags );134;105;334
+Perl5Compiler.__parseUnicodeClass( );55;41;161
+Perl5Compiler.compile( char [ ] pattern , int options );54;93;196
+Perl5Compiler.__parseBranch( int [ ] retFlags );43;66;144
+Perl5Compiler.__getNextChar( );12;14;26
+Perl5Compiler.__programAddOperatorTail( int current , int value );4;5;6
+Perl5Compiler.__parseAlternation( int [ ] retFlags );9;18;40
+Perl5Compiler.__parseExpression( boolean isParenthesized , int [ ] hintFlags );34;40;113
+Perl5Compiler.compile( String pattern , int options );1;0;3
+Perl5Compiler.compile( String pattern );1;0;3
+Perl5Compiler.quotemeta( String expression );1;0;3
+Perl5Compiler.__parsePOSIX( boolean negFlag [ ] );8;11;31
+Perl5Compiler.__parseOctal( char [ ] str , int offset , int maxLength , int [ ] scanned );5;13;13
+Perl5Compiler.__programAddTail( int current , int value );6;8;17
+Perl5Compiler.__emitNode( char operator );2;4;11

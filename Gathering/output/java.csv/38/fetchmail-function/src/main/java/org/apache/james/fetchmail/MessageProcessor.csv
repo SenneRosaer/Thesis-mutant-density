@@ -1,0 +1,78 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageProcessor.handleMarkSeenNotPermanent( );1;0;4
+MessageProcessor.computeRemoteReceivedHeaderInvalid( );2;0;12
+MessageProcessor.isRemoteReceivedHeaderInvalidBasic( );1;0;3
+MessageProcessor.setMessageIn( MimeMessage messageIn );1;0;3
+MessageProcessor.logStatusError( String detailMsg );1;0;3
+MessageProcessor.MessageProcessor( MimeMessage messageIn , Account account );1;0;4
+MessageProcessor.isDefaultSenderDomainPart( );1;0;3
+MessageProcessor.isLocalRecipient( MailAddress recipient );2;1;3
+MessageProcessor.isUserUndefined( );1;0;3
+MessageProcessor.setBlacklistedRecipient( boolean blacklisted );1;0;3
+MessageProcessor.isBouncing( );3;2;13
+MessageProcessor.getRemoteDomain( );2;1;9
+MessageProcessor.setMaxMessageSizeExceeded( Boolean maxMessageSizeExceeded );1;0;3
+MessageProcessor.rejectRemoteRecipient( MailAddress recipient );3;1;12
+MessageProcessor.isLocalServer( MailAddress recipient );1;0;3
+MessageProcessor.updateRemoteReceivedHeaderInvalid( );1;0;3
+MessageProcessor.isMaxMessageSizeExceeded( );2;1;10
+MessageProcessor.setRemoteDomain( String remoteDomain );1;0;3
+MessageProcessor.setRemoteRecipient( boolean localRecipient );1;0;3
+MessageProcessor.handleBouncing( Mail mail );1;0;9
+MessageProcessor.createMail( MimeMessage message , MailAddress recipient );5;3;41
+MessageProcessor.rejectRecipientNotFound( );4;3;18
+MessageProcessor.isRemoteReceivedHeaderInvalid( );2;1;9
+MessageProcessor.logStatusInfo( String detailMsg );1;0;3
+MessageProcessor.setMessageSeen( );2;1;9
+MessageProcessor.setRemoteReceivedHeaderInvalid( Boolean remoteReceivedHeaderInvalid );1;0;3
+MessageProcessor.isMessageSeen( );1;0;3
+MessageProcessor.updateMaxMessageSizeExceeded( );1;0;3
+MessageProcessor.rejectBlacklistedRecipient( MailAddress recipient );3;1;12
+MessageProcessor.setRemoteHostName( String remoteHostName );1;0;3
+MessageProcessor.isPreviouslyUnprocessed( );1;0;3
+MessageProcessor.MessageProcessor( Account account );1;0;3
+MessageProcessor.computeRemoteAddress( );4;8;20
+MessageProcessor.setUserUndefined( boolean userUndefined );1;0;3
+MessageProcessor.getStatusReport( String detailMsg );2;1;13
+MessageProcessor.getRFC2822RECEIVEDHeaderFields( );1;0;3
+MessageProcessor.process( );21;9;106
+MessageProcessor.sendMail( Mail mail );4;1;17
+MessageProcessor.createEmptyMessage( );2;0;10
+MessageProcessor.updateRemoteAddress( );1;0;3
+MessageProcessor.computeRemoteHostName( );1;0;3
+MessageProcessor.isRecipientNotFound( );1;0;3
+MessageProcessor.setDefaultRemoteAddress( boolean defaultRemoteAddress );1;0;3
+MessageProcessor.getIntendedRecipient( );4;2;35
+MessageProcessor.isBlacklistedRecipient( );1;0;3
+MessageProcessor.setRemoteAddress( String remoteAddress );1;0;3
+MessageProcessor.getRemoteAddress( );2;1;9
+MessageProcessor.isMaxMessageSizeExceededBasic( );1;0;3
+MessageProcessor.isBlacklistedRecipient( MailAddress recipient );1;0;3
+MessageProcessor.setRecipientNotFound( boolean recipientNotFound );1;0;3
+MessageProcessor.updateRemoteHostName( );1;0;3
+MessageProcessor.updateRemoteDomain( );1;0;3
+MessageProcessor.computeRemoteDomain( );14;16;46
+MessageProcessor.getEnvelopeRecipient( MimeMessage msg );20;17;72
+MessageProcessor.addErrorMessages( Mail mail );2;4;12
+MessageProcessor.getRemoteAddressBasic( );1;0;3
+MessageProcessor.logStatusWarn( String detailMsg );1;0;3
+MessageProcessor.setMessageDeleted( );1;0;3
+MessageProcessor.addMailAttributes( Mail aMail );10;0;42
+MessageProcessor.rejectRemoteReceivedHeaderInvalid( );3;1;12
+MessageProcessor.getRemoteHostName( );2;1;9
+MessageProcessor.getMessageIn( );1;0;3
+MessageProcessor.isDefaultSenderLocalPart( );1;0;3
+MessageProcessor.handleParseException( ParseException ex );4;1;14
+MessageProcessor.isMessageDeleted( );1;0;3
+MessageProcessor.getRemoteHostNameBasic( );1;0;3
+MessageProcessor.handleUnknownHostException( UnknownHostException ex );4;1;14
+MessageProcessor.rejectMaxMessageSizeExceeded( int messageSize );3;2;12
+MessageProcessor.isDefaultRemoteAddress( );1;0;3
+MessageProcessor.createMessage( );2;0;9
+MessageProcessor.computeMaxMessageSizeExceeded( );2;2;5
+MessageProcessor.getSender( );3;1;36
+MessageProcessor.setDefaultSenderLocalPart( boolean defaultSenderLocalPart );1;0;3
+MessageProcessor.rejectUserUndefined( MailAddress recipient );3;1;12
+MessageProcessor.getRemoteDomainBasic( );1;0;3
+MessageProcessor.isRemoteRecipient( );1;0;3
+MessageProcessor.setDefaultSenderDomainPart( boolean defaultSenderDomainPart );1;0;3

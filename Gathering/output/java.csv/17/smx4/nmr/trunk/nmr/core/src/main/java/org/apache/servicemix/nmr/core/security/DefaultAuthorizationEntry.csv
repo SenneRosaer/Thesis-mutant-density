@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultAuthorizationEntry.setRank( int rank );1;0;3
+DefaultAuthorizationEntry.getType( );1;0;3
+DefaultAuthorizationEntry.setOperation( QName operation );1;0;3
+DefaultAuthorizationEntry.getEndpoint( );1;0;3
+DefaultAuthorizationEntry.buildRoles( String roles );2;0;9
+DefaultAuthorizationEntry.getOperation( );1;0;3
+DefaultAuthorizationEntry.DefaultAuthorizationEntry( String endpoint , QName operation , String roles , Type type );1;0;6
+DefaultAuthorizationEntry.getRank( );1;0;3
+DefaultAuthorizationEntry.setEndpoint( String endpoint );1;0;3
+DefaultAuthorizationEntry.getAcls( );1;0;3
+DefaultAuthorizationEntry.toString( );1;0;3
+DefaultAuthorizationEntry.setType( Type type );1;0;3
+DefaultAuthorizationEntry.DefaultAuthorizationEntry( String endpoint , QName operation , String roles , Type type , int rank );1;0;7
+DefaultAuthorizationEntry.DefaultAuthorizationEntry( String endpoint , QName operation , String roles );1;0;5
+DefaultAuthorizationEntry.getRoles( );4;1;13
+DefaultAuthorizationEntry.setRoles( String roles );1;0;3
+DefaultAuthorizationEntry.setAcls( Set < GroupPrincipal > acls );1;0;3
+DefaultAuthorizationEntry.DefaultAuthorizationEntry( );1;0;2

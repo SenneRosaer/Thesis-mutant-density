@@ -1,0 +1,49 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CollectionUtils.intersection( final Collection a , final Collection b );3;2;15
+CollectionUtils.exists( Collection collection , Predicate predicate );5;3;10
+CollectionUtils.get( Object object , int index );14;8;47
+CollectionUtils.disjunction( final Collection a , final Collection b );3;3;15
+CollectionUtils.predicatedCollection( Collection collection , Predicate predicate );1;0;3
+CollectionUtils.removeAll( Collection collection , Collection remove );1;0;3
+CollectionUtils.filter( Collection collection , Predicate predicate );5;4;9
+CollectionUtils.selectRejected( Collection inputCollection , Predicate predicate );1;0;5
+CollectionUtils.isProperSubCollection( final Collection a , final Collection b );2;2;3
+CollectionUtils.typedCollection( Collection collection , Class type );1;0;3
+CollectionUtils.index( Iterator iterator , int idx );3;3;11
+CollectionUtils.select( Collection inputCollection , Predicate predicate , Collection outputCollection );5;3;10
+CollectionUtils.isEqualCollection( final Collection a , final Collection b );5;3;20
+CollectionUtils.retainAll( Collection collection , Collection retain );1;0;3
+CollectionUtils.transform( Collection collection , Transformer transformer );5;3;14
+CollectionUtils.addAll( Collection collection , Object [ ] elements );2;2;5
+CollectionUtils.collect( Iterator inputIterator , Transformer transformer );1;0;5
+CollectionUtils.reverseArray( Object [ ] array );2;4;12
+CollectionUtils.isNotEmpty( Collection coll );1;1;3
+CollectionUtils.sizeIsEmpty( Object object );8;5;21
+CollectionUtils.find( Collection collection , Predicate predicate );5;3;11
+CollectionUtils.addAll( Collection collection , Enumeration enumeration );2;0;5
+CollectionUtils.index( Object obj , int idx );1;0;3
+CollectionUtils.index( Object obj , Object index );13;5;45
+CollectionUtils.isEmpty( Collection coll );2;2;3
+CollectionUtils.countMatches( Collection inputCollection , Predicate predicate );5;4;11
+CollectionUtils.synchronizedCollection( Collection collection );1;0;3
+CollectionUtils.size( Object object );11;4;34
+CollectionUtils.union( final Collection a , final Collection b );3;2;15
+CollectionUtils.select( Collection inputCollection , Predicate predicate );1;0;5
+CollectionUtils.isSubCollection( final Collection a , final Collection b );3;1;12
+CollectionUtils.unmodifiableCollection( Collection collection );1;0;3
+CollectionUtils.getFreq( final Object obj , final Map freqMap );2;1;7
+CollectionUtils.collect( Collection inputCollection , Transformer transformer );1;0;5
+CollectionUtils.transformedCollection( Collection collection , Transformer transformer );1;0;3
+CollectionUtils.addAll( Collection collection , Iterator iterator );2;0;5
+CollectionUtils.selectRejected( Collection inputCollection , Predicate predicate , Collection outputCollection );5;4;10
+CollectionUtils.getCardinalityMap( final Collection coll );3;2;13
+CollectionUtils.CollectionUtils( );1;0;2
+CollectionUtils.addIgnoreNull( Collection collection , Object object );2;1;3
+CollectionUtils.forAllDo( Collection collection , Closure closure );4;3;7
+CollectionUtils.cardinality( Object obj , final Collection coll );9;4;23
+CollectionUtils.maxSize( Collection coll );4;2;14
+CollectionUtils.isFull( Collection coll );4;1;14
+CollectionUtils.collect( Iterator inputIterator , final Transformer transformer , final Collection outputCollection );4;3;10
+CollectionUtils.containsAny( final Collection coll1 , final Collection coll2 );6;1;16
+CollectionUtils.collect( Collection inputCollection , final Transformer transformer , final Collection outputCollection );2;1;6
+CollectionUtils.subtract( final Collection a , final Collection b );2;0;7

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FilterContentPackage.getItems( Session session );1;0;3
+Content.Content( String [ ] paths , Predicate filterList );1;0;4
+FilterContentPackage.addContent( String [ ] paths , Predicate filterList );1;0;3
+FilteringIterator.FilteringIterator( final Session session , final List contentList , final boolean includeProperties );1;0;5
+FilterContentPackage.isIncludeProperties( );1;0;3
+FilteringIterator.next( );2;0;8
+FilteringIterator.remove( );1;0;3
+FilterContentPackage.addContent( String path , Predicate filterList );1;0;3
+FilteringIterator.hasNext( );3;1;10
+FilterContentPackage.setIncludeProperties( boolean includeProperties );1;0;3
+FilteringIterator.checkForNextNode( );15;11;55

@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QueryTermExtractor.getTerms( Query query , boolean prohibited , String fieldName );2;1;9
+QueryTermExtractor.getTerms( Query query , HashSet terms , boolean prohibited , String fieldName );7;3;26
+QueryTermExtractor.getIdfWeightedTerms( Query query , IndexReader reader , String fieldName );4;7;20
+QueryTermExtractor.getTerms( Query query , boolean prohibited );1;0;3
+QueryTermExtractor.getTermsFromFilteredQuery( FilteredQuery query , HashSet terms , boolean prohibited , String fieldName );1;0;3
+QueryTermExtractor.getTermsFromBooleanQuery( BooleanQuery query , HashSet terms , boolean prohibited , String fieldName );4;4;8
+QueryTermExtractor.getTerms( Query query );1;0;3

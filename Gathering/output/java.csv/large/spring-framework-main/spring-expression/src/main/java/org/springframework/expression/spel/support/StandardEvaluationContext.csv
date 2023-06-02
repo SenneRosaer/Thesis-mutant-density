@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandardEvaluationContext.getTypeLocator( );2;1;6
+StandardEvaluationContext.removeMethodResolver( MethodResolver methodResolver );1;0;3
+StandardEvaluationContext.getOperatorOverloader( );1;0;3
+StandardEvaluationContext.getBeanResolver( );1;0;3
+StandardEvaluationContext.addMethodResolver( MethodResolver resolver );1;0;3
+StandardEvaluationContext.setConstructorResolvers( List < ConstructorResolver > constructorResolvers );1;0;3
+StandardEvaluationContext.registerFunction( String name , Method method );1;0;3
+StandardEvaluationContext.setMethodResolvers( List < MethodResolver > methodResolvers );1;0;3
+StandardEvaluationContext.setOperatorOverloader( OperatorOverloader operatorOverloader );1;0;4
+StandardEvaluationContext.removePropertyAccessor( PropertyAccessor accessor );1;0;3
+StandardEvaluationContext.getMethodResolvers( );1;0;3
+StandardEvaluationContext.addConstructorResolver( ConstructorResolver resolver );1;0;3
+StandardEvaluationContext.initMethodResolvers( );2;1;10
+StandardEvaluationContext.setVariable( @ Nullable String name , @ Nullable Object value );3;2;10
+StandardEvaluationContext.getConstructorResolvers( );1;0;3
+StandardEvaluationContext.setTypeComparator( TypeComparator typeComparator );1;0;4
+StandardEvaluationContext.StandardEvaluationContext( );1;0;3
+StandardEvaluationContext.setPropertyAccessors( List < PropertyAccessor > propertyAccessors );1;0;3
+StandardEvaluationContext.setRootObject( @ Nullable Object rootObject , TypeDescriptor typeDescriptor );1;0;3
+StandardEvaluationContext.removeConstructorResolver( ConstructorResolver resolver );1;0;3
+StandardEvaluationContext.initConstructorResolvers( );2;1;9
+StandardEvaluationContext.setVariables( Map < String , Object > variables );1;0;3
+StandardEvaluationContext.addBeforeDefault( List < T > resolvers , T resolver );1;1;3
+StandardEvaluationContext.setBeanResolver( BeanResolver beanResolver );1;0;3
+StandardEvaluationContext.StandardEvaluationContext( @ Nullable Object rootObject );1;0;3
+StandardEvaluationContext.registerMethodFilter( Class < ? > type , MethodFilter filter );2;1;9
+StandardEvaluationContext.getTypeConverter( );2;1;6
+StandardEvaluationContext.getRootObject( );1;0;3
+StandardEvaluationContext.getTypeComparator( );1;0;3
+StandardEvaluationContext.setRootObject( @ Nullable Object rootObject );2;1;3
+StandardEvaluationContext.initPropertyAccessors( );2;1;9
+StandardEvaluationContext.addPropertyAccessor( PropertyAccessor accessor );1;0;3
+StandardEvaluationContext.getPropertyAccessors( );1;0;3
+StandardEvaluationContext.setTypeConverter( TypeConverter typeConverter );1;0;4
+StandardEvaluationContext.lookupVariable( String name );1;0;3
+StandardEvaluationContext.setTypeLocator( TypeLocator typeLocator );1;0;4

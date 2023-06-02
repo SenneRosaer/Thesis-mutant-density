@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLEventStreamWriter.XMLEventStreamWriter( XMLEventWriter eventWriter , XMLEventFactory eventFactory );1;0;4
+XMLEventStreamWriter.writeStartDocument( );1;0;4
+XMLEventStreamWriter.writeEntityRef( String name );1;0;4
+XMLEventStreamWriter.writeDefaultNamespace( String namespaceURI );1;0;3
+XMLEventStreamWriter.writeEmptyElement( String localName );1;0;5
+XMLEventStreamWriter.writeAttribute( String prefix , String namespaceURI , String localName , String value );1;0;3
+XMLEventStreamWriter.writeCharacters( char [ ] text , int start , int len );1;0;4
+XMLEventStreamWriter.writeEndElement( );1;1;6
+XMLEventStreamWriter.close( );1;0;4
+XMLEventStreamWriter.doWriteStartElement( StartElement startElement );1;0;4
+XMLEventStreamWriter.writeStartElement( String prefix , String localName , String namespaceURI );1;0;4
+XMLEventStreamWriter.writeEndDocument( );1;0;4
+XMLEventStreamWriter.writeCharacters( String text );1;0;4
+XMLEventStreamWriter.closeEmptyElementIfNecessary( );2;0;6
+XMLEventStreamWriter.doWriteNamespace( Namespace namespace );2;1;14
+XMLEventStreamWriter.writeStartDocument( String encoding , String version );1;0;4
+XMLEventStreamWriter.writeNamespace( String prefix , String namespaceURI );1;0;3
+XMLEventStreamWriter.writeDTD( String dtd );1;0;4
+XMLEventStreamWriter.writeEmptyElement( String prefix , String localName , String namespaceURI );1;0;5
+XMLEventStreamWriter.setNamespaceContext( NamespaceContext context );1;0;3
+XMLEventStreamWriter.flush( );1;0;3
+XMLEventStreamWriter.writeProcessingInstruction( String target , String data );1;0;4
+XMLEventStreamWriter.writeStartElement( String localName );1;0;4
+XMLEventStreamWriter.writeAttribute( String namespaceURI , String localName , String value );1;0;3
+XMLEventStreamWriter.writeProcessingInstruction( String target );1;0;4
+XMLEventStreamWriter.writeAttribute( String localName , String value );1;0;3
+XMLEventStreamWriter.getPrefix( String uri );1;0;3
+XMLEventStreamWriter.writeEmptyElement( String namespaceURI , String localName );1;0;5
+XMLEventStreamWriter.writeCData( String data );1;0;4
+XMLEventStreamWriter.writeComment( String data );1;0;4
+XMLEventStreamWriter.getProperty( String name );1;0;3
+XMLEventStreamWriter.setPrefix( String prefix , String uri );1;0;3
+XMLEventStreamWriter.writeStartDocument( String version );1;0;4
+XMLEventStreamWriter.setDefaultNamespace( String uri );1;0;3
+XMLEventStreamWriter.getNamespaceContext( );1;0;3
+XMLEventStreamWriter.writeStartElement( String namespaceURI , String localName );1;0;4

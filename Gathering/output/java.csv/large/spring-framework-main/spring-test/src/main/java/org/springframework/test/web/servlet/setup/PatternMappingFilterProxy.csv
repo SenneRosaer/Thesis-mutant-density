@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PatternMappingFilterProxy.destroy( );1;0;3
+PatternMappingFilterProxy.addUrlPattern( String urlPattern );5;2;19
+PatternMappingFilterProxy.init( FilterConfig filterConfig );1;0;3
+PatternMappingFilterProxy.PatternMappingFilterProxy( Filter delegate , String ... urlPatterns );2;0;7
+PatternMappingFilterProxy.doFilter( ServletRequest request , ServletResponse response , FilterChain filterChain );2;0;10
+PatternMappingFilterProxy.matches( String requestPath );8;1;21

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ImageIOImageWriter.getChildNode( Node n , String name );3;2;10
+ImageIOImageWriter.writeImage( RenderedImage image , OutputStream out , ImageWriterParams params );4;4;25
+IIOMultiImageWriter.close( );1;0;6
+ImageIOImageWriter.warningOccurred( javax . imageio . ImageWriter source , int imageIndex , String warning );1;0;4
+ImageIOImageWriter.writeImage( RenderedImage image , OutputStream out );1;0;3
+ImageIOImageWriter.isFunctional( );1;0;4
+ImageIOImageWriter.createMultiImageWriter( OutputStream out );1;0;3
+IIOMultiImageWriter.writeImage( RenderedImage image , ImageWriterParams params );5;5;19
+ImageIOImageWriter.getIIOImageWriter( );3;1;12
+ImageIOImageWriter.getMIMEType( );1;0;3
+IIOMultiImageWriter.IIOMultiImageWriter( OutputStream out );2;1;11
+ImageIOImageWriter.ImageIOImageWriter( String mime );1;0;3
+ImageIOImageWriter.updateMetadata( IIOMetadata meta , ImageWriterParams params );6;5;30
+ImageIOImageWriter.supportsMultiImageWriter( );1;0;8
+ImageIOImageWriter.getDefaultWriteParam( javax . imageio . ImageWriter iiowriter , RenderedImage image , ImageWriterParams params );3;3;8

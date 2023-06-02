@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DependencyDescriptor.hashCode( );1;2;3
+DependencyDescriptor.readObject( ObjectInputStream ois );5;4;24
+DependencyDescriptor.getResolvableType( );3;2;10
+DependencyDescriptor.DependencyDescriptor( Field field , boolean required , boolean eager );1;0;7
+DependencyDescriptor.increaseNestingLevel( );2;2;7
+DependencyDescriptor.resolveShortcut( BeanFactory beanFactory );1;0;3
+DependencyDescriptor.resolveCandidate( String beanName , Class < ? > requiredType , BeanFactory beanFactory );1;0;3
+DependencyDescriptor.getTypeDescriptor( );3;2;10
+DependencyDescriptor.DependencyDescriptor( MethodParameter methodParameter , boolean required , boolean eager );2;1;12
+DependencyDescriptor.getDependencyType( );5;3;14
+DependencyDescriptor.DependencyDescriptor( Field field , boolean required );1;0;3
+DependencyDescriptor.resolveNotUnique( ResolvableType type , Map < String , Object > matchingBeans );1;0;3
+DependencyDescriptor.initParameterNameDiscovery( @ Nullable ParameterNameDiscoverer parameterNameDiscoverer );2;1;5
+DependencyDescriptor.forFallbackMatch( );1;0;8
+DependencyDescriptor.hasNullableAnnotation( );3;0;8
+DependencyDescriptor.DependencyDescriptor( DependencyDescriptor original );1;0;12
+DependencyDescriptor.equals( @ Nullable Object other );6;9;11
+DependencyDescriptor.DependencyDescriptor( MethodParameter methodParameter , boolean required );1;0;3
+DependencyDescriptor.setContainingClass( Class < ? > containingClass );2;1;7
+DependencyDescriptor.fallbackMatchAllowed( );1;0;3
+DependencyDescriptor.getDependencyName( );2;1;3
+DependencyDescriptor.isEager( );1;0;3
+DependencyDescriptor.isRequired( );7;9;14
+KotlinDelegate.isNullable( Field field );3;2;4

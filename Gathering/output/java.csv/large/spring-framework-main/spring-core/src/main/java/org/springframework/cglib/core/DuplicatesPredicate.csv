@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DuplicatesPredicate.evaluate( Object arg );2;2;3
+UnnecessaryBridgeFinder.UnnecessaryBridgeFinder( Set rejected );1;0;4
+UnnecessaryBridgeFinder.visitMethodInsn( int opcode , String owner , String name , String desc , boolean itf );4;3;9
+UnnecessaryBridgeFinder.visitMethod( int access , String name , String desc , String signature , String [ ] exceptions );5;1;22
+UnnecessaryBridgeFinder.addSuspectMethod( Method m );1;0;3
+DuplicatesPredicate.DuplicatesPredicate( );1;0;4
+DuplicatesPredicate.getClassLoader( Class c );3;2;10
+UnnecessaryBridgeFinder.visit( int version , int access , String name , String signature , String superName , String [ ] interfaces );1;0;1
+DuplicatesPredicate.DuplicatesPredicate( List allMethods );12;9;44

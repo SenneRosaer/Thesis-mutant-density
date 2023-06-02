@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConnectionTest.call( Object ... args );1;8;3
+ConnectionTest.stopReconnectingOnASocketAndKeepToReconnectOnAnother( );1;0;40
+ConnectionTest.notReconnectWhenForceClosed( );1;0;27
+ConnectionTest.connectToLocalhost( );1;0;19
+ConnectionTest.reconnectByDefault( );1;0;19
+ConnectionTest.receiveBinaryDataWithAck( );1;0;19
+ConnectionTest.sendEventsWithByteArraysInTheCorrectOrder( );1;0;22
+ConnectionTest.fireReconnectEventsOnSocket( );1;0;30
+ConnectionTest.sendBinaryDataMixedWithJson( );2;0;31
+ConnectionTest.startTwoConnectionsWithSamePathAndDifferentQuerystrings( );1;0;7
+ConnectionTest.sendBinaryAck( );1;0;28
+ConnectionTest.call( Object ... objects );1;2;9
+ConnectionTest.emitDateAsString( );1;0;19
+ConnectionTest.sendAndGetBinaryData( );1;0;20
+ConnectionTest.emitDateInObject( );2;0;27
+ConnectionTest.fireReconnectingWithAttemptsNumberWhenReconnectingTwice( );1;0;30
+ConnectionTest.run( );1;0;3
+ConnectionTest.attemptReconnectsAfterAFailedReconnect( );1;0;34
+ConnectionTest.reconnectManually( );1;0;24
+ConnectionTest.reconnectAfterStoppingReconnection( );1;0;24
+ConnectionTest.connectToNamespaceAfterConnectionGetsClosed( );1;0;27
+ConnectionTest.connectWhileDisconnectingAnotherSocket( );1;0;23
+ConnectionTest.startTwoConnectionsWithSamePath( );1;0;7
+ConnectionTest.tryToReconnectTwiceAndFailWithIncorrectAddress( );1;0;27
+ConnectionTest.stopReconnectingWhenForceClosed( );1;0;27
+ConnectionTest.reconnectAutomaticallyAfterReconnectingManually( );1;0;30
+ConnectionTest.receiveUTF8MultibyteCharacters( );3;0;30
+ConnectionTest.connectToNamespaceAfterConnectionEstablished( );1;0;23
+ConnectionTest.workWithAcks( );5;0;39
+ConnectionTest.workWithFalse( );1;0;19
+ConnectionTest.reconnectDelayShouldIncreaseEveryTime( );2;0;45
+ConnectionTest.notTryToReconnectWithIncorrectPortWhenReconnectionDisabled( );1;0;31
+ConnectionTest.receiveDateWithAck( );2;0;22
+ConnectionTest.tryToReconnectTwiceAndFailWithImmediateTimeout( );1;0;28

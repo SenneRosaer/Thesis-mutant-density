@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NodeStateEx.getNodeId( );1;0;3
+NodeStateEx.reload( NodeState state );5;4;20
+NodeStateEx.createChildNode( Name name , Name nodeTypeName , NodeId id );3;2;17
+NodeStateEx.getOrCreatePropertyState( Name name , int type , boolean multiValued );6;3;28
+NodeStateEx.removeNode( Name name , int index );3;1;15
+NodeStateEx.getParentId( );1;0;3
+NodeStateEx.reload( );2;0;8
+NodeStateEx.removeProperty( Name name );3;1;16
+NodeStateEx.getNode( Name name , int index );3;1;12
+NodeStateEx.removeNode( NodeId id );3;0;18
+NodeStateEx.getPropertyValues( Name name );2;0;9
+NodeStateEx.getName( );3;1;12
+NodeStateEx.store( );2;0;7
+NodeStateEx.getState( );1;0;3
+NodeStateEx.hasNode( Name name );1;0;3
+NodeStateEx.NodeStateEx( UpdatableItemStateManager stateMgr , NodeTypeRegistry ntReg , NodeState nodeState , Name name );1;0;6
+NodeStateEx.setPropertyValues( Name name , int type , InternalValue [ ] values , boolean multiple );1;0;4
+NodeStateEx.setPropertyValue( Name name , InternalValue value );1;0;3
+NodeStateEx.store( NodeState state );5;4;20
+NodeStateEx.hasProperty( Name name );1;0;4
+NodeStateEx.getEffectiveNodeType( );2;0;9
+NodeStateEx.addNode( Name nodeName , Name nodeTypeName , NodeId id , boolean referenceable );2;0;7
+NodeStateEx.removeNode( Name name );1;0;3
+NodeStateEx.getChildNodes( );3;2;14
+NodeStateEx.getProperties( );2;1;11
+NodeStateEx.setPropertyValues( Name name , int type , InternalValue [ ] values );1;0;3
+NodeStateEx.getPropertyValue( Name name );2;0;9
+NodeStateEx.copyFrom( PropertyImpl prop );3;2;12

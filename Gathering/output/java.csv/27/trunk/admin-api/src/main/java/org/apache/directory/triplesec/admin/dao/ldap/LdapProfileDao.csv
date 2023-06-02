@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LdapProfileDao.rename( String newProfileId , Profile profile );5;0;36
+LdapProfileDao.profileIterator( String appName );2;0;17
+LdapProfileDao.modify( String creatorsName , Date createTimestamp , String appName , String profileId , String user , String description , Set grants , Set denials , Set roles , boolean disabled , ModificationItem [ ] mods );4;1;28
+LdapProfileDao.addMultiValued( String id , Attributes attrs , Set values );4;2;15
+LdapProfileDao.deleteEntry( String rdn );2;0;10
+LdapProfileDao.load( String appName , String profileId );3;0;42
+LdapProfileDao.add( String appName , String profileId , String user , String description , Set grants , Set denials , Set roles );4;1;31
+LdapProfileDao.getRelativeDn( String appName );1;0;6
+LdapProfileDao.getEntryObject( Object extra , Attributes attrs );2;0;34
+LdapProfileDao.delete( String appName , String profileId );3;1;20
+LdapProfileDao.LdapProfileDao( DirContext ctx );3;0;29
+LdapProfileDao.getSingleValued( String id , Attributes attrs );4;1;23
+LdapProfileDao.getRelativeDn( String appName , String profileId );1;0;7
+LdapProfileDao.getMultiValued( String id , Attributes attrs );3;1;13
+LdapProfileDao.profileIterator( String applicationName , String user );2;0;17

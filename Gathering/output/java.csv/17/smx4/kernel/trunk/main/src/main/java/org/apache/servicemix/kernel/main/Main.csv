@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Main.getServiceMixHome( );10;9;37
+Main.findJars( File dir , ArrayList < File > jars );4;0;11
+Main.convertToMavenUrlsIfNeeded( String location , boolean convertToMavenUrls );11;26;45
+Main.start( BundleContext context );1;0;3
+Main.destroy( boolean await );2;0;10
+Main.getServiceMixBase( File defaultValue );5;4;17
+Main.findFile( ArrayList < File > bundleDirs , String name );3;1;9
+Main.processConfigurationProperties( Properties props , Properties startupProps , ArrayList < File > bundleDirs );13;4;52
+Main.getServicemixBase( );1;0;3
+Main.getServicemixHome( );1;0;3
+Main.loadPropertiesFile( URL configPropURL );5;1;23
+Main.validateDirectoryExists( String path , String errPrefix );4;6;15
+Main.main( String [ ] args );2;0;13
+Main.nextLocation( StringTokenizer st );10;6;36
+Main.unlock( );2;1;5
+Main.processSecurityProperties( Properties m_configProps );4;1;13
+Main.getArgs( );1;0;3
+Main.lock( Properties props );6;1;19
+Main.loadSystemProperties( );7;1;36
+Main.processAutoProperties( BundleContext context );24;16;96
+Main.findFile( File dir , String name );5;2;12
+Main.stop( BundleContext context );1;0;4
+Main.copySystemProperties( Properties configProps );6;3;12
+Main.launch( );5;7;38
+Main.getExitCode( );1;0;3
+Main.setExitCode( int exitCode );1;0;3
+Main.substVars( String val , String currentKey , Map < String , String > cycleMap , Properties configProps );14;22;43
+Main.Main( String [ ] args );1;0;3
+Main.loadConfigProperties( );10;5;50

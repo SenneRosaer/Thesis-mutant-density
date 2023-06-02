@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletInvocableHandlerMethod.ServletInvocableHandlerMethod( HandlerMethod handlerMethod );1;0;3
+ServletInvocableHandlerMethod.setResponseStatus( ServletWebRequest webRequest );4;2;17
+ServletInvocableHandlerMethod.ServletInvocableHandlerMethod( Object handler , Method method , @ Nullable MessageSource messageSource );1;0;3
+ServletInvocableHandlerMethod.disableContentCachingIfNecessary( ServletWebRequest webRequest );3;0;10
+ConcurrentResultHandlerMethod.hasMethodAnnotation( Class < A > annotationType );1;0;3
+ServletInvocableHandlerMethod.wrapConcurrentResult( Object result );1;0;3
+ServletInvocableHandlerMethod.invokeAndHandle( ServletWebRequest webRequest , ModelAndViewContainer mavContainer , Object ... providedArgs );8;5;27
+ConcurrentResultMethodParameter.ConcurrentResultMethodParameter( Object returnValue );3;1;9
+ConcurrentResultMethodParameter.getParameterType( );3;2;9
+ConcurrentResultHandlerMethod.getMethodAnnotation( Class < A > annotationType );1;0;3
+ServletInvocableHandlerMethod.formatErrorForReturnValue( @ Nullable Object returnValue );2;1;5
+ConcurrentResultHandlerMethod.ConcurrentResultHandlerMethod( final Object result , ConcurrentResultMethodParameter returnType );4;1;15
+ServletInvocableHandlerMethod.isRequestNotModified( ServletWebRequest webRequest );1;0;3
+ConcurrentResultMethodParameter.ConcurrentResultMethodParameter( ConcurrentResultMethodParameter original );1;0;5
+ConcurrentResultMethodParameter.hasMethodAnnotation( Class < T > annotationType );3;3;5
+ConcurrentResultMethodParameter.getGenericParameterType( );1;0;3
+ConcurrentResultHandlerMethod.getReturnValueType( @ Nullable Object returnValue );1;0;3
+ConcurrentResultHandlerMethod.getBeanType( );1;0;3
+ServletInvocableHandlerMethod.setHandlerMethodReturnValueHandlers( HandlerMethodReturnValueHandlerComposite returnValueHandlers );1;0;3
+ServletInvocableHandlerMethod.ServletInvocableHandlerMethod( Object handler , Method method );1;0;3
+ConcurrentResultMethodParameter.clone( );1;0;3

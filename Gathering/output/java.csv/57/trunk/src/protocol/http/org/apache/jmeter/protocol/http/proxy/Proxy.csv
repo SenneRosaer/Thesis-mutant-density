@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Proxy.configure( Socket _clientSocket , ProxyControl _target );1;0;3
+Proxy.Proxy( Socket clientSocket , ProxyControl target );1;0;3
+Proxy.configure( Socket _clientSocket , ProxyControl _target , Map _pageEncodings , Map _formEncodings );1;0;9
+Proxy.getUrlWithoutQuery( URL url );2;3;9
+Proxy.addPageEncoding( SampleResult result );2;1;10
+Proxy.massageResponseHeaders( SampleResult res , boolean forcedHTTP );14;13;45
+Proxy.writeToClient( SampleResult res , OutputStream out , boolean forcedHTTP );3;0;19
+Proxy.generateErrorResult( SampleResult result , Exception e );2;1;8
+Proxy.writeErrorToClient( String message );2;0;10
+Proxy.Proxy( );1;0;2
+Proxy.addFormEncodings( SampleResult result , String pageEncoding );3;1;12
+Proxy.run( );16;7;76

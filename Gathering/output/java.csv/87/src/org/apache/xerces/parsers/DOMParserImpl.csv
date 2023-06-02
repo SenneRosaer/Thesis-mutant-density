@@ -1,0 +1,80 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbortHandler.endCDATA( Augmentations augs );1;0;3
+AbortHandler.startAttlist( String elementName , Augmentations augmentations );1;0;3
+AbortHandler.elementDecl( String name , String contentModel , Augmentations augmentations );1;0;3
+DOMParserImpl.getBusy( );1;0;3
+AbortHandler.processingInstruction( String target , XMLString data , Augmentations augs );1;0;3
+DOMParserImpl.DOMParserImpl( XMLParserConfiguration config );2;0;35
+DOMParserImpl.parseWithContext( LSInput is , Node cnode , short action );1;0;3
+DOMParserImpl.getAsync( );1;0;3
+NullLSParserFilter.acceptNode( Node nodeArg );1;0;3
+AbortHandler.notationDecl( String name , XMLResourceIdentifier identifier , Augmentations augmentations );1;0;3
+AbortHandler.setDTDContentModelSource( XMLDTDContentModelSource source );1;0;3
+DOMParserImpl.DOMParserImpl( SymbolTable symbolTable , XMLGrammarPool grammarPool );1;2;13
+AbortHandler.endExternalSubset( Augmentations augmentations );1;0;3
+AbortHandler.startConditional( short type , Augmentations augmentations );1;0;3
+AbortHandler.characters( XMLString text , Augmentations augs );1;0;3
+AbortHandler.separator( short separator , Augmentations augmentations );1;0;3
+AbortHandler.occurrence( short occurrence , Augmentations augmentations );1;0;3
+AbortHandler.getDocumentSource( );1;0;3
+DOMParserImpl.setFilter( LSParserFilter filter );5;5;12
+DOMParserImpl.getFilter( );2;1;3
+AbortHandler.startCDATA( Augmentations augs );1;0;3
+DOMParserImpl.DOMParserImpl( SymbolTable symbolTable );1;1;9
+AbortHandler.setDTDSource( XMLDTDSource source );1;0;3
+DOMParserImpl.dom2xmlInputSource( LSInput is );10;13;34
+NullLSParserFilter.startElement( Element elementArg );1;0;3
+DOMParserImpl.canSetParameter( String name , Object value );42;27;84
+DOMParserImpl.newFeatureNotFoundError( String name );1;0;8
+DOMParserImpl.newInvalidStateError( );1;0;7
+AbortHandler.internalEntityDecl( String name , XMLString text , XMLString nonNormalizedText , Augmentations augmentations );1;0;3
+AbortHandler.xmlDecl( String version , String encoding , String standalone , Augmentations augs );1;0;3
+AbortHandler.externalEntityDecl( String name , XMLResourceIdentifier identifier , Augmentations augmentations );1;0;3
+DOMParserImpl.DOMParserImpl( String configuration , String schemaType );4;3;19
+DOMParserImpl.restoreHandlers( );1;0;5
+AbortHandler.startExternalSubset( XMLResourceIdentifier identifier , Augmentations augmentations );1;0;3
+DOMParserImpl.getDomConfig( );1;0;3
+DOMParserImpl.startElement( QName element , XMLAttributes attributes , Augmentations augs );6;8;12
+AbortHandler.startGeneralEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );1;0;3
+AbortHandler.endContentModel( Augmentations augmentations );1;0;3
+AbortHandler.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );1;0;3
+AbortHandler.endConditional( Augmentations augmentations );1;0;3
+AbortHandler.endAttlist( Augmentations augmentations );1;0;3
+AbortHandler.empty( Augmentations augmentations );1;0;3
+DOMParserImpl.parse( LSInput is );12;6;42
+DOMParserImpl.newFeatureNotSupportedError( String name );1;0;8
+DOMParserImpl.abort( );5;3;19
+AbortHandler.endGroup( Augmentations augmentations );1;0;3
+DOMParserImpl.parseURI( String uri );12;6;42
+AbortHandler.startGroup( Augmentations augmentations );1;0;3
+DOMParserImpl.getParameter( String name );52;22;122
+NullLSParserFilter.NullLSParserFilter( );1;0;1
+***not in a method***;0;10;0
+DOMParserImpl.getParameterNames( );2;1;30
+AbortHandler.textDecl( String version , String encoding , Augmentations augs );1;0;3
+AbortHandler.endElement( QName element , Augmentations augs );1;0;3
+AbortHandler.ignorableWhitespace( XMLString text , Augmentations augs );1;0;3
+AbortHandler.endGeneralEntity( String name , Augmentations augs );1;0;3
+AbortHandler.pcdata( Augmentations augmentations );1;0;3
+NullLSParserFilter.getWhatToShow( );1;0;3
+DOMParserImpl.setParameter( String name , Object value );54;22;205
+AbortHandler.attributeDecl( String elementName , String attributeName , String type , String [ ] enumeration , String defaultType , XMLString defaultValue , XMLString nonNormalizedDefaultValue , Augmentations augmentations );1;0;3
+AbortHandler.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );1;0;3
+AbortHandler.startParameterEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augmentations );1;0;3
+AbortHandler.endDTD( Augmentations augmentations );1;0;3
+DOMParserImpl.reset( );3;1;15
+AbortHandler.getDTDSource( );1;0;3
+AbortHandler.startContentModel( String elementName , Augmentations augmentations );1;0;3
+AbortHandler.endParameterEntity( String name , Augmentations augmentations );1;0;3
+AbortHandler.unparsedEntityDecl( String name , XMLResourceIdentifier identifier , String notation , Augmentations augmentations );1;0;3
+AbortHandler.endDocument( Augmentations augs );1;0;3
+AbortHandler.comment( XMLString text , Augmentations augs );1;0;3
+AbortHandler.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );1;0;3
+AbortHandler.startElement( QName element , XMLAttributes attributes , Augmentations augs );1;0;3
+DOMParserImpl.newTypeMismatchError( String name );1;0;8
+AbortHandler.startDTD( XMLLocator locator , Augmentations augmentations );1;0;3
+AbortHandler.element( String elementName , Augmentations augmentations );1;0;3
+AbortHandler.ignoredCharacters( XMLString text , Augmentations augmentations );1;0;3
+AbortHandler.any( Augmentations augmentations );1;0;3
+AbortHandler.setDocumentSource( XMLDocumentSource source );1;0;3
+AbortHandler.getDTDContentModelSource( );1;0;3

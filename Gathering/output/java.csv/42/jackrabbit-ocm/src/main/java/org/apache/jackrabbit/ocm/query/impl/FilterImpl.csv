@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FilterImpl.addIsNull( String fieldAttributeName );1;0;5
+FilterImpl.addEqualTo( String fieldAttributeName , Object value );1;0;6
+FilterImpl.getJcrFieldName( String fieldAttribute );2;1;7
+FilterImpl.getScope( );1;0;3
+FilterImpl.addLessOrEqualThan( String fieldAttributeName , Object value );1;0;6
+FilterImpl.addNotNull( String fieldAttributeName );1;0;5
+FilterImpl.orExpression( String jcrExpression );2;3;6
+FilterImpl.clone( );1;0;3
+FilterImpl.FilterImpl( ClassDescriptor classDescriptor , Map atomicTypeConverters , Class clazz , ValueFactory valueFactory );1;0;6
+FilterImpl.addLike( String fieldAttributeName , Object value );1;0;6
+FilterImpl.addGreaterOrEqualThan( String fieldAttributeName , Object value );1;0;6
+FilterImpl.addOrFilter( String fieldAttributeName , String [ ] valueList );2;0;10
+FilterImpl.addGreaterThan( String fieldAttributeName , Object value );1;0;6
+FilterImpl.setScope( String scope );1;0;3
+FilterImpl.getJcrExpression( );1;0;3
+FilterImpl.getStringValue( String fieldName , Object value );3;2;21
+FilterImpl.addLessThan( String fieldAttributeName , Object value );1;0;6
+FilterImpl.addBetween( String fieldAttributeName , Object value1 , Object value2 );1;0;8
+FilterImpl.setNodeName( String nodeName );1;0;3
+FilterImpl.toString( );1;0;3
+FilterImpl.getFilterClass( );1;0;3
+FilterImpl.getNodeName( );1;0;3
+FilterImpl.addAndFilter( Filter filter );5;5;15
+FilterImpl.addJCRExpression( String jcrExpression );1;0;4
+FilterImpl.addOrFilter( Filter filter );5;5;15
+FilterImpl.addNotEqualTo( String fieldAttributeName , Object value );1;0;6
+FilterImpl.addExpression( String jcrExpression );2;3;6
+FilterImpl.addContains( String scope , String fullTextSearch );2;0;12
+FilterImpl.orJCRExpression( String jcrExpression );1;0;4

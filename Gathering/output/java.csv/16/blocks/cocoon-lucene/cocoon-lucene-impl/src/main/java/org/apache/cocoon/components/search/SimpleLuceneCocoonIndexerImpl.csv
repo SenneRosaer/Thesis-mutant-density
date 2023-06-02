@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocumentDeletableIterator.DocumentDeletableIterator( Directory directory );1;0;4
+DocumentDeletableIterator.finalize( );3;2;11
+SimpleLuceneCocoonIndexerImpl.index( Directory index , boolean create , URL base_url );10;5;37
+SimpleLuceneCocoonIndexerImpl.setCocoonCrawler( CocoonCrawler cocoonCrawler );1;0;3
+SimpleLuceneCocoonIndexerImpl.getCocoonCrawler( );1;0;3
+SimpleLuceneCocoonIndexerImpl.setLuceneXMLIndexer( LuceneXMLIndexer luceneXMLIndexer );1;0;3
+SimpleLuceneCocoonIndexerImpl.setMergeFactor( int mergeFactor );1;0;3
+DocumentDeletableIterator.deleteAllStaleDocuments( );3;2;6
+DocumentDeletableIterator.documentHasNotBeenModified( Term term , String uid );2;2;3
+SimpleLuceneCocoonIndexerImpl.getMergeFactor( );1;0;3
+DocumentDeletableIterator.documentHasBeenModified( Term term , String uid );2;2;3
+DocumentDeletableIterator.deleteModifiedDocuments( String uid );3;0;9
+DocumentDeletableIterator.documentIsDeletable( Term term );2;2;3
+SimpleLuceneCocoonIndexerImpl.setAnalyzer( Analyzer analyzer );1;0;3
+SimpleLuceneCocoonIndexerImpl.getLuceneXMLIndexer( );1;0;3

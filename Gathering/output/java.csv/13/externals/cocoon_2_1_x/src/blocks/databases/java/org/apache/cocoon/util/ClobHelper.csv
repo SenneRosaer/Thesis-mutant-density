@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClobHelper.ClobHelper( InputStream is , long len );1;0;4
+ClobHelper.truncate( long len );1;0;3
+ClobHelper.setCharacterStream( long pos );1;0;4
+ClobHelper.setString( long pos , String str , int offset , int len );1;0;4
+ClobHelper.free( );1;0;3
+ClobHelper.position( Clob searchstr , long start );1;1;4
+ClobHelper.getCharacterStream( );1;0;3
+ClobHelper.getCharacterStream( long pos , long length );1;0;4
+ClobHelper.setString( long pos , String str );1;0;4
+ClobHelper.setAsciiStream( long pos );1;0;4
+ClobHelper.length( );1;0;3
+ClobHelper.position( String searchstr , long start );1;1;4
+ClobHelper.getAsciiStream( );1;0;3
+ClobHelper.getSubString( long pos , int length );1;0;4

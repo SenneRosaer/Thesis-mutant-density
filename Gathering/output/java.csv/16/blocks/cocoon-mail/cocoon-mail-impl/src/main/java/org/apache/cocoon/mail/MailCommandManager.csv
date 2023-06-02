@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MailCatAttachmentMessageByIdCommand.execute( );5;3;32
+MailSearchMessagesCommand.execute( );1;0;6
+MailCatMessageByIdCommand.contextualize( Context ctx );2;0;11
+MailRefreshFolderCommand.contextualize( Context ctx );1;0;4
+MailListFolderCommand.MailListFolderCommand( );1;0;1
+***not in a method***;0;2;0
+MailRefreshFolderCommand.MailRefreshFolderCommand( );1;0;1
+MailCatAttachmentMessageByIdCommand.MailCatAttachmentMessageByIdCommand( );1;0;1
+MailCatMessageByUIDCommand.contextualize( Context ctx );2;1;10
+MailListFolderCommand.contextualize( Context ctx );2;0;9
+MailCommandManager.MailCommandManager( );1;0;1
+MailListFolderCommand.execute( );2;2;8
+MailCommandManager.execute( List aList );2;0;9
+MailListMessagesCommand.execute( );1;0;11
+MailFolderCatCommand.execute( );1;0;4
+MailCatAttachmentMessageByIdCommand.contextualize( Context ctx );3;2;16
+MailListMessagesCommand.contextualize( Context ctx );1;0;4
+MailSearchMessagesCommand.contextualize( Context ctx );2;1;11
+MailCatMessageByIdCommand.execute( );1;0;6
+MailRefreshFolderCommand.execute( );1;0;5
+MailCommandManager.execute( AbstractMailCommand amfa );2;0;8
+MailFolderCatCommand.MailFolderCatCommand( );1;0;1
+MailCatMessageByUIDCommand.MailCatMessageByUIDCommand( );1;0;1
+MailFolderCatCommand.contextualize( Context ctx );1;0;4
+MailListFolderCommand.getFolderPattern( );1;0;3
+MailListMessagesCommand.MailListMessagesCommand( );1;0;1
+MailCommandManager.closeFolder( Folder f );3;2;5
+MailCatMessageByUIDCommand.execute( );1;0;7
+MailCommandManager.closeStore( Store s );3;2;5
+MailCommandManager.openStore( Store s );2;1;5
+MailCatMessageByIdCommand.MailCatMessageByIdCommand( );1;0;1
+MailCommandManager.openFolder( Folder f , int mode );2;1;5

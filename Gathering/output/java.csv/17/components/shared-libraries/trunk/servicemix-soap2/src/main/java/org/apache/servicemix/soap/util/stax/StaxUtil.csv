@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StaxUtil.writeTextQName( XMLStreamWriter out , QName name );2;1;8
+StaxUtil.createWriter( OutputStream os );1;0;3
+StaxUtil.getXMLInputFactory( );2;1;6
+StaxUtil.writeStartElement( XMLStreamReader reader , XMLStreamWriter writer );20;23;90
+StaxUtil.createReader( Source source );5;0;19
+StaxUtil.writeStartElement( XMLStreamWriter writer , String uri , String local , String prefix );9;8;44
+StaxUtil.createReader( InputStream is );1;0;3
+StaxUtil.choosePrefix( XMLStreamWriter out , QName name , boolean declare );13;11;36
+StaxUtil.copy( XMLStreamReader reader , XMLStreamWriter writer );10;3;31
+StaxUtil.getXMLOutputFactory( );2;1;6
+StaxUtil.getUniquePrefix( XMLStreamWriter writer );3;2;10
+StaxUtil.readQName( XMLStreamReader reader );5;7;17
+StaxUtil.createSource( XMLStreamReader reader );2;0;7
+StaxUtil.createReader( InputStream is , String encoding );2;0;7
+StaxUtil.writeStartElement( XMLStreamWriter writer , QName name );1;0;4
+StaxUtil.createWriter( OutputStream os , String encoding );2;0;7
+StaxUtil.createElement( XMLStreamReader reader );2;0;8

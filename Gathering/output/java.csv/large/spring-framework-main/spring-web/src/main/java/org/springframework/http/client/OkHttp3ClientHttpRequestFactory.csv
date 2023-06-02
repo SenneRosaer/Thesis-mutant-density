@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OkHttp3ClientHttpRequestFactory.OkHttp3ClientHttpRequestFactory( OkHttpClient client );1;0;5
+OkHttp3ClientHttpRequestFactory.setConnectTimeout( int connectTimeout );1;0;5
+OkHttp3ClientHttpRequestFactory.setReadTimeout( int readTimeout );1;0;5
+OkHttp3ClientHttpRequestFactory.createRequest( URI uri , HttpMethod httpMethod );1;0;3
+OkHttp3ClientHttpRequestFactory.getContentType( HttpHeaders headers );2;0;4
+OkHttp3ClientHttpRequestFactory.OkHttp3ClientHttpRequestFactory( );1;0;4
+OkHttp3ClientHttpRequestFactory.buildRequest( HttpHeaders headers , byte [ ] content , URI uri , HttpMethod method );4;2;13
+OkHttp3ClientHttpRequestFactory.setWriteTimeout( int writeTimeout );1;0;5
+OkHttp3ClientHttpRequestFactory.destroy( );3;1;10

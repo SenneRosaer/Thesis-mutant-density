@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServletResponseService.setContentLength( int len );1;0;3
+ServletResponseService.ServletResponseService( ServletBeanContext beanContext );1;0;3
+ServletResponseService.isCommitted( );1;0;3
+ServletResponseService.setContentType( java . lang . String type );1;0;3
+ServletResponseService.setLocale( java . util . Locale loc );1;0;3
+ServletResponseService.flushBuffer( );1;0;3
+ServletResponseService.getResponseWrapper( );1;0;3
+Wrapper.getResponse( );1;0;3
+ServletResponseService.getWriter( );1;0;3
+ServletResponseService.getServletResponse( );2;1;6
+ServletResponseService.getBufferSize( );1;0;3
+ServletResponseService.reset( );1;0;3
+ServletResponseService.setBufferSize( int size );1;0;3
+ServletResponseService.getLocale( );1;0;3
+ServletResponseService.getContentType( );1;0;3
+ServletResponseService.getServletBeanContext( );3;2;10
+Wrapper.Wrapper( ServletResponseService responseService );1;0;4
+ServletResponseService.getOutputStream( );1;0;3
+ServletResponseService.setCharacterEncoding( java . lang . String charset );1;0;3
+ServletResponseService.getCharacterEncoding( );1;0;3
+ServletResponseService.resetBuffer( );1;0;3

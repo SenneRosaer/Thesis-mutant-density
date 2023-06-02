@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockHttpServletResponseTests.getNonExistentDateHeader( );1;1;4
+MockHttpServletResponseTests.addHeaderWithNullValue( String headerName );1;0;4
+MockHttpServletResponseTests.contentTypeHeaderUTF8( );1;0;12
+MockHttpServletResponseTests.assertPrimarySessionCookie( String expectedValue );1;0;13
+MockHttpServletResponseTests.getDateHeader( );1;0;6
+MockHttpServletResponseTests.servletWriterAutoFlushedForChar( );1;0;4
+MockHttpServletResponseTests.servletOutputStreamCommittedOnOutputStreamFlush( );1;0;8
+MockHttpServletResponseTests.servletOutputStreamCommittedOnFlushBuffer( );1;0;8
+MockHttpServletResponseTests.servletWriterAutoFlushedForCharArray( );1;0;4
+MockHttpServletResponseTests.modifyStatusAfterSendError( );1;0;5
+MockHttpServletResponseTests.contentLanguageHeaderWithSingleValue( );1;0;8
+MockHttpServletResponseTests.servletOutputStreamCommittedWhenBufferSizeExceeded( );1;1;9
+MockHttpServletResponseTests.servletWriterCommittedOnWriterClose( );1;0;8
+MockHttpServletResponseTests.setCharacterEncodingThenContentType( );1;0;7
+MockHttpServletResponseTests.setContentType( );1;0;7
+MockHttpServletResponseTests.assertCookieValues( String ... expected );1;0;3
+MockHttpServletResponseTests.setCookieHeader( );1;0;8
+MockHttpServletResponseTests.getInvalidDateHeader( );1;0;5
+MockHttpServletResponseTests.setDateHeader( );1;0;4
+MockHttpServletResponseTests.assertNumCookies( int expected );1;0;3
+MockHttpServletResponseTests.servletWriterCommittedOnWriterFlush( );1;0;8
+MockHttpServletResponseTests.contentTypeHeaderWithMoreComplexCharsetSyntax( );1;0;12
+MockHttpServletResponseTests.contentLengthIntHeader( );1;0;5
+MockHttpServletResponseTests.defaultCharacterEncoding( );1;0;23
+MockHttpServletResponseTests.setLocaleWithNullValue( );1;0;5
+MockHttpServletResponseTests.resetResetsCharset( );1;0;21
+MockHttpServletResponseTests.httpHeaderNameCasingIsPreserved( );1;0;8
+MockHttpServletResponseTests.locationHeaderUpdatesGetRedirectedUrl( );1;0;5
+MockHttpServletResponseTests.addCookieHeaderWithExpiresAttributeWithoutMaxAgeAttribute( );1;1;14
+MockHttpServletResponseTests.addDateHeader( );1;0;6
+MockHttpServletResponseTests.setHeaderWithNullValue( String headerName );1;0;4
+MockHttpServletResponseTests.setCookieHeaderWithMaxAgeAndExpiresAttributes( );1;0;11
+MockHttpServletResponseTests.addCookieHeader( );1;0;9
+MockHttpServletResponseTests.cookies( );1;0;12
+MockHttpServletResponseTests.contentAsUtf8( );1;0;5
+MockHttpServletResponseTests.servletWriterCommittedWhenBufferSizeExceeded( );1;1;11
+MockHttpServletResponseTests.contentLength( );1;0;5
+MockHttpServletResponseTests.setContentTypeThenCharacterEncoding( );1;0;7
+MockHttpServletResponseTests.contentTypeHeader( );1;0;12
+MockHttpServletResponseTests.addCookieHeaderWithMaxAgeAndExpiresAttributes( );1;0;11
+MockHttpServletResponseTests.setCookieHeaderWithZeroExpiresAttribute( );1;0;8
+MockHttpServletResponseTests.contentLanguageHeaderWithMultipleValues( );1;0;8
+MockHttpServletResponseTests.sendRedirect( );1;0;8
+MockHttpServletResponseTests.contentLengthHeader( );1;0;5
+MockHttpServletResponseTests.addCookieHeaderWithMaxAgeAndZeroExpiresAttributes( );1;0;8
+MockHttpServletResponseTests.setContentTypeUTF8( );1;0;7
+MockHttpServletResponseTests.servletWriterAutoFlushedForString( );1;0;4
+MockHttpServletResponseTests.modifyStatusMessageAfterSendError( );1;0;5
+MockHttpServletResponseTests.addCookie( );1;0;16

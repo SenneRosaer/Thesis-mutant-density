@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BundlePermission.writeObject( java . io . ObjectOutputStream s );2;1;5
+BundlePermissionCollection.implies( Permission permission );10;18;36
+BundlePermission.implies( Permission p );3;3;8
+BundlePermission.BundlePermission( String symbolicName , String actions );1;0;3
+BundlePermission.getMask( );1;0;3
+BundlePermissionCollection.BundlePermissionCollection( );1;0;4
+BundlePermission.init( int mask );3;4;6
+BundlePermission.getActions( );9;9;29
+BundlePermission.readObject( java . io . ObjectInputStream s );1;0;4
+BundlePermission.hashCode( );1;1;3
+BundlePermission.equals( Object obj );4;4;10
+***not in a method***;0;3;0
+BundlePermissionCollection.elements( );1;0;3
+BundlePermission.newPermissionCollection( );1;0;3
+BundlePermission.BundlePermission( String symbolicName , int mask );1;0;4
+BundlePermission.getMask( String actions );75;181;86
+BundlePermissionCollection.add( Permission permission );7;5;26

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MyHandler.handlerMethod2( );1;0;2
+HandlerMethodMappingTests.ambiguousMatchOnPreFlightRequestWithCorsConfig( );1;0;13
+MyHandlerMethodMapping.isHandler( Class < ? > beanType );1;0;3
+HandlerMethodMappingTests.directMatch( );1;0;8
+HandlerMethodMappingTests.registerDuplicates( );1;0;5
+MyHandler.corsHandlerMethod( );1;0;2
+HandlerMethodMappingTests.setup( );1;0;6
+MyHandlerMethodMapping.getMappingComparator( ServerWebExchange exchange );1;0;3
+MyHandlerMethodMapping.getMatchingMapping( String pattern , ServerWebExchange exchange );3;1;9
+HandlerMethodMappingTests.registerMapping( );1;0;7
+HandlerMethodMappingTests.ambiguousMatch( );1;0;7
+MyHandlerMethodMapping.getMappingForMethod( Method method , Class < ? > handlerType );2;0;4
+MyHandlerMethodMapping.initCorsConfiguration( Object handler , Method method , String mapping );2;1;9
+MyHandlerMethodMapping.getDirectPaths( String mapping );2;0;4
+HandlerMethodMappingTests.registerMappingWithSameMethodAndTwoHandlerInstances( );1;0;9
+MyHandler.handlerMethod1( );1;0;2
+HandlerMethodMappingTests.unregisterMapping( );1;0;10
+MyHandlerMethodMapping.getMatches( );1;0;3
+HandlerMethodMappingTests.ambiguousMatchOnPreFlightRequestWithoutCorsConfig( );1;0;10
+HandlerMethodMappingTests.patternMatch( );1;0;7

@@ -1,0 +1,56 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestEntity.RequestEntity( MultiValueMap < String , String > headers , HttpMethod method , URI url );1;0;3
+UriTemplateRequestEntity.toString( );1;0;3
+DefaultBodyBuilder.body( T body , Type type );1;0;3
+RequestEntity.get( String uriTemplate , Object ... uriVariables );1;0;3
+DefaultBodyBuilder.body( T body );1;0;3
+DefaultBodyBuilder.headers( Consumer < HttpHeaders > headersConsumer );1;0;4
+RequestEntity.get( URI url );1;0;3
+RequestEntity.equals( @ Nullable Object other );6;3;11
+RequestEntity.delete( URI url );1;0;3
+RequestEntity.getType( );3;2;9
+RequestEntity.toString( );1;0;3
+UriTemplateRequestEntity.equals( @ Nullable Object other );7;4;12
+DefaultBodyBuilder.header( String headerName , String ... headerValues );2;0;6
+RequestEntity.options( URI url );1;0;3
+RequestEntity.RequestEntity( HttpMethod method , URI url );1;0;3
+DefaultBodyBuilder.acceptCharset( Charset ... acceptableCharsets );1;0;4
+RequestEntity.RequestEntity( @ Nullable T body , HttpMethod method , URI url );1;0;3
+RequestEntity.method( HttpMethod method , String uriTemplate , Object ... uriVariables );1;0;3
+DefaultBodyBuilder.ifModifiedSince( ZonedDateTime ifModifiedSince );1;0;4
+DefaultBodyBuilder.contentType( MediaType contentType );1;0;4
+RequestEntity.put( String uriTemplate , Object ... uriVariables );1;0;3
+RequestEntity.post( String uriTemplate , Object ... uriVariables );1;0;3
+RequestEntity.post( URI url );1;0;3
+RequestEntity.head( String uriTemplate , Object ... uriVariables );1;0;3
+RequestEntity.method( HttpMethod method , String uriTemplate , Map < String , ? > uriVariables );1;0;3
+RequestEntity.head( URI url );1;0;3
+RequestEntity.patch( String uriTemplate , Object ... uriVariables );1;0;3
+DefaultBodyBuilder.buildInternal( @ Nullable T body , @ Nullable Type type );3;2;12
+DefaultBodyBuilder.headers( @ Nullable HttpHeaders headers );2;1;6
+RequestEntity.options( String uriTemplate , Object ... uriVariables );1;0;3
+RequestEntity.method( HttpMethod method , URI url );1;0;3
+UriTemplateRequestEntity.UriTemplateRequestEntity( @ Nullable T body , @ Nullable MultiValueMap < String , String > headers , @ Nullable HttpMethod method , @ Nullable Type type , String uriTemplate , @ Nullable Object [ ] uriVarsArray , @ Nullable Map < String , ? > uriVarsMap );1;0;6
+DefaultBodyBuilder.accept( MediaType ... acceptableMediaTypes );1;0;4
+DefaultBodyBuilder.DefaultBodyBuilder( HttpMethod method , String uriTemplate , Map < String , ? > uriVars );1;0;7
+RequestEntity.patch( URI url );1;0;3
+RequestEntity.hashCode( );1;4;6
+DefaultBodyBuilder.build( );1;0;3
+DefaultBodyBuilder.ifNoneMatch( String ... ifNoneMatches );1;0;4
+RequestEntity.format( @ Nullable HttpMethod httpMethod , String url , @ Nullable T body , HttpHeaders headers );2;1;14
+RequestEntity.RequestEntity( @ Nullable T body , HttpMethod method , URI url , Type type );1;0;3
+DefaultBodyBuilder.ifModifiedSince( long ifModifiedSince );1;0;4
+DefaultBodyBuilder.DefaultBodyBuilder( HttpMethod method , URI url );1;0;7
+UriTemplateRequestEntity.getVarsMap( );1;0;3
+UriTemplateRequestEntity.getVars( );1;0;3
+RequestEntity.getMethod( );1;0;3
+DefaultBodyBuilder.ifModifiedSince( Instant ifModifiedSince );1;0;4
+RequestEntity.put( URI url );1;0;3
+RequestEntity.RequestEntity( @ Nullable T body , @ Nullable MultiValueMap < String , String > headers , @ Nullable HttpMethod method , URI url );1;0;3
+DefaultBodyBuilder.contentLength( long contentLength );1;0;4
+UriTemplateRequestEntity.hashCode( );1;2;3
+UriTemplateRequestEntity.getUriTemplate( );1;0;3
+RequestEntity.getUrl( );2;1;10
+RequestEntity.delete( String uriTemplate , Object ... uriVariables );1;0;3
+RequestEntity.RequestEntity( @ Nullable T body , @ Nullable MultiValueMap < String , String > headers , @ Nullable HttpMethod method , @ Nullable URI url , @ Nullable Type type );1;0;6
+DefaultBodyBuilder.DefaultBodyBuilder( HttpMethod method , String uriTemplate , Object ... uriVars );1;0;7

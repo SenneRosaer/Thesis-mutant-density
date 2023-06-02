@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JmsMessagingTemplate.convertAndSend( String destinationName , Object payload , @ Nullable Map < String , Object > headers );1;0;3
+JmsMessagingTemplate.convertSendAndReceive( String destinationName , Object request , @ Nullable Map < String , Object > headers , Class < T > targetClass , @ Nullable MessagePostProcessor postProcessor );4;1;5
+JmsMessagingTemplate.getDefaultDestinationName( );1;0;3
+JmsMessagingTemplate.setConnectionFactory( ConnectionFactory connectionFactory );2;1;8
+JmsMessagingTemplate.convertSendAndReceive( Object request , Class < T > targetClass , @ Nullable MessagePostProcessor postProcessor );2;1;9
+JmsMessagingTemplate.receiveAndConvert( Class < T > targetClass );2;1;9
+JmsMessagingTemplate.convertSendAndReceive( String destinationName , Object request , @ Nullable Map < String , Object > headers , Class < T > targetClass );1;0;3
+JmsMessagingTemplate.convertAndSend( Object payload , @ Nullable MessagePostProcessor postProcessor );2;1;9
+JmsMessagingTemplate.convertJmsException( JmsException ex );4;1;10
+JmsMessagingTemplate.createMessageCreator( Message < ? > message );1;0;3
+JmsMessagingTemplate.getConnectionFactory( );2;1;3
+JmsMessagingTemplate.sendAndReceive( Message < ? > requestMessage );2;1;9
+JmsMessagingTemplate.receiveAndConvert( String destinationName , Class < T > targetClass );3;1;9
+JmsMessagingTemplate.doSend( String destinationName , Message < ? > message );2;0;8
+JmsMessagingTemplate.JmsMessagingTemplate( );1;0;2
+JmsMessagingTemplate.afterPropertiesSet( );3;3;7
+JmsMessagingTemplate.send( String destinationName , Message < ? > message );1;0;3
+JmsMessagingTemplate.setDefaultDestinationName( @ Nullable String defaultDestinationName );1;0;3
+JmsMessagingTemplate.doSendAndReceive( String destinationName , Message < ? > requestMessage );2;0;10
+JmsMessagingTemplate.convertSendAndReceive( Object request , Class < T > targetClass );1;0;3
+JmsMessagingTemplate.doReceive( String destinationName );2;0;9
+JmsMessagingTemplate.send( Message < ? > message );2;1;9
+JmsMessagingTemplate.setJmsTemplate( @ Nullable JmsTemplate jmsTemplate );1;0;3
+JmsMessagingTemplate.JmsMessagingTemplate( JmsTemplate jmsTemplate );1;0;4
+JmsMessagingTemplate.getJmsMessageConverter( );1;0;3
+JmsMessagingTemplate.convertJmsMessage( @ Nullable jakarta . jms . Message message );4;1;11
+JmsMessagingTemplate.receive( String destinationName );1;0;3
+JmsMessagingTemplate.convertAndSend( String destinationName , Object payload );1;0;3
+JmsMessagingTemplate.getRequiredDefaultDestinationName( );2;1;8
+JmsMessagingTemplate.convertAndSend( String destinationName , Object payload , @ Nullable Map < String , Object > headers , @ Nullable MessagePostProcessor postProcessor );2;0;4
+JmsMessagingTemplate.receive( );2;1;9
+JmsMessagingTemplate.setJmsMessageConverter( MessageConverter jmsMessageConverter );1;0;5
+MessagingMessageCreator.createMessage( Session session );2;0;9
+JmsMessagingTemplate.obtainJmsTemplate( );1;1;4
+JmsMessagingTemplate.convertSendAndReceive( String destinationName , Object request , Class < T > targetClass );1;0;3
+MessagingMessageCreator.MessagingMessageCreator( Message < ? > message , MessageConverter messageConverter );1;0;4
+JmsMessagingTemplate.sendAndReceive( String destinationName , Message < ? > requestMessage );1;0;3
+JmsMessagingTemplate.convertAndSend( Object payload );1;0;3
+JmsMessagingTemplate.getJmsTemplate( );1;0;3
+JmsMessagingTemplate.doSend( Destination destination , Message < ? > message );2;0;8
+JmsMessagingTemplate.doSendAndReceive( Destination destination , Message < ? > requestMessage );2;0;10
+JmsMessagingTemplate.convertAndSend( String destinationName , Object payload , @ Nullable MessagePostProcessor postProcessor );1;0;3
+JmsMessagingTemplate.JmsMessagingTemplate( ConnectionFactory connectionFactory );1;0;3
+JmsMessagingTemplate.convertSendAndReceive( String destinationName , Object request , Class < T > targetClass , @ Nullable MessagePostProcessor requestPostProcessor );1;0;3
+JmsMessagingTemplate.doReceive( Destination destination );2;0;9

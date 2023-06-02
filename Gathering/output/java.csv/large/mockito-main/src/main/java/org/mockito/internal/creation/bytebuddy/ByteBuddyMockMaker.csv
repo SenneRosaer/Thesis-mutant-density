@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ByteBuddyMockMaker.getHandler( Object mock );1;0;3
+ByteBuddyMockMaker.clearAllCaches( );1;0;3
+ByteBuddyMockMaker.createStaticMock( Class < T > type , MockCreationSettings < T > settings , MockHandler handler );1;0;3
+ByteBuddyMockMaker.isTypeMockable( Class < ? > type );1;0;3
+ByteBuddyMockMaker.createMockType( MockCreationSettings < T > creationSettings );1;0;3
+ByteBuddyMockMaker.ByteBuddyMockMaker( );2;0;8
+ByteBuddyMockMaker.resetMock( Object mock , MockHandler newHandler , MockCreationSettings settings );1;0;3
+ByteBuddyMockMaker.createSpy( MockCreationSettings < T > settings , MockHandler handler , T object );1;0;3
+ByteBuddyMockMaker.createMock( MockCreationSettings < T > settings , MockHandler handler );1;0;3
+ByteBuddyMockMaker.ByteBuddyMockMaker( SubclassByteBuddyMockMaker subclassByteBuddyMockMaker );1;0;3
+ByteBuddyMockMaker.createConstructionMock( Class < T > type , Function < MockedConstruction . Context , MockCreationSettings < T > > settingsFactory , Function < MockedConstruction . Context , MockHandler < T > > handlerFactory , MockedConstruction . MockInitializer < T > mockInitializer );1;0;4

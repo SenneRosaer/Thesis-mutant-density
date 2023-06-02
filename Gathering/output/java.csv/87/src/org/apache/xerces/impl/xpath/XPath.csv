@@ -1,0 +1,45 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XPath.buildLocationPath( Vector stepsVector );1;1;8
+Scanner.Scanner( SymbolTable symbolTable );1;0;3
+***not in a method***;0;2;0
+Tokens.nextToken( );2;2;5
+XPath.parseNodeTest( int typeToken , Tokens xtokens , NamespaceContext context );11;12;25
+Tokens.addToken( int token );2;2;11
+Step.clone( );1;0;3
+Axis.clone( );1;0;3
+NodeTest.NodeTest( short type );1;0;3
+Tokens.addToken( String tokenStr );2;1;8
+NodeTest.toString( );9;6;29
+Axis.Axis( short type );1;0;3
+Tokens.peekToken( );2;1;5
+LocationPath.toString( );6;8;17
+Step.Step( Step step );1;0;4
+Tokens.getTokenString( int token );1;0;3
+XPath.XPath( String xpath , SymbolTable symbolTable , NamespaceContext context );2;0;8
+XPath.check( boolean b );2;1;3
+Tokens.Tokens( SymbolTable symbolTable );2;2;62
+Tokens.rewind( );1;0;3
+Axis.Axis( Axis axis );1;0;3
+Tokens.hasMore( );1;1;3
+NodeTest.NodeTest( String prefix , String uri );1;0;4
+Step.toString( );5;4;15
+Scanner.scanNumber( XPath . Tokens tokens , String data , int endOffset , int currentOffset );10;20;30
+Axis.toString( );5;0;9
+LocationPath.clone( );1;0;3
+Scanner.addToken( XPath . Tokens tokens , int token );1;0;3
+Step.Step( Axis axis , NodeTest nodeTest );1;0;4
+Tokens.nextTokenAsString( );2;1;5
+XPath.addToken( XPath . Tokens tokens , int token );12;21;19
+NodeTest.clone( );1;0;3
+Scanner.scanNCName( String data , int endOffset , int currentOffset );13;18;34
+LocationPath.LocationPath( LocationPath path );2;2;6
+LocationPath.LocationPath( Step [ ] steps );1;0;3
+Scanner.scanExpr( SymbolTable symbolTable , XPath . Tokens tokens , String data , int currentOffset , int endOffset );141;176;461
+XPath.parseExpression( final NamespaceContext context );30;9;124
+XPath.getLocationPaths( );2;2;7
+XPath.toString( );3;3;10
+XPath.main( String [ ] argv );3;2;14
+NodeTest.NodeTest( NodeTest nodeTest );1;0;4
+NodeTest.NodeTest( QName name );1;0;4
+XPath.getLocationPath( );1;0;3
+Tokens.dumpTokens( );55;20;179

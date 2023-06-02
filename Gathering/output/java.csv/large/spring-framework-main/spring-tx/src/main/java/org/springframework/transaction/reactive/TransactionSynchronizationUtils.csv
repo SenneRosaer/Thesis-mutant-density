@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionSynchronizationUtils.invokeAfterCommit( Collection < TransactionSynchronization > synchronizations );1;0;5
+TransactionSynchronizationUtils.triggerBeforeCommit( Collection < TransactionSynchronization > synchronizations , boolean readOnly );1;0;3
+ScopedProxyUnwrapper.unwrapIfNecessary( Object resource );2;0;8
+TransactionSynchronizationUtils.triggerBeforeCompletion( Collection < TransactionSynchronization > synchronizations );1;0;5
+TransactionSynchronizationUtils.unwrapResourceIfNecessary( Object resource );3;0;11
+TransactionSynchronizationUtils.invokeAfterCompletion( Collection < TransactionSynchronization > synchronizations , int completionStatus );1;0;4

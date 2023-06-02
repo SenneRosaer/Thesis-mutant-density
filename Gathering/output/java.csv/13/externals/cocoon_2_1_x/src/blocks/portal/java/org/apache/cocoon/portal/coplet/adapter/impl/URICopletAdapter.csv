@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+URICopletAdapter.service( ServiceManager manager );1;0;4
+URICopletAdapter.streamContent( final CopletInstanceData coplet , final String uri , final ContentHandler contentHandler );10;3;39
+URICopletAdapter.streamContent( CopletInstanceData coplet , ContentHandler contentHandler );2;1;7
+URICopletAdapter.renderErrorContent( CopletInstanceData coplet , ContentHandler handler , Exception error );6;4;31
+URICopletAdapter.initialize( );1;0;9
+URICopletAdapter.inform( CopletInstanceEvent event , PortalService service );3;2;10
+URICopletAdapter.dispose( );3;1;15
+URICopletAdapter.contextualize( Context context );1;0;3

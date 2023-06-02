@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpConsumerEndpoint.setSsl( SslParameters ssl );1;0;3
+HttpConsumerEndpoint.getDefaultMep( );1;0;3
+HttpConsumerEndpoint.setDefaultMep( URI defaultMep );1;0;3
+HttpConsumerEndpoint.process( MessageExchange exchange );6;3;23
+HttpConsumerEndpoint.HttpConsumerEndpoint( ServiceUnit serviceUnit , QName service , String endpoint );1;0;3
+HttpConsumerEndpoint.stop( );1;0;4
+HttpConsumerEndpoint.setAuthMethod( String authMethod );1;0;3
+HttpConsumerEndpoint.setLocationURI( String locationURI );1;0;3
+HttpConsumerEndpoint.getLocationURI( );1;0;3
+HttpConsumerEndpoint.activate( );1;0;5
+HttpConsumerEndpoint.setTimeout( long timeout );1;0;3
+HttpConsumerEndpoint.handleStaticResource( HttpServletRequest request , HttpServletResponse response );11;12;38
+HttpConsumerEndpoint.start( );1;0;4
+HttpConsumerEndpoint.sendAccepted( MessageExchange exchange , HttpServletRequest request , HttpServletResponse response );1;0;3
+HttpConsumerEndpoint.loadStaticResources( );1;0;2
+HttpConsumerEndpoint.sendOut( MessageExchange exchange , NormalizedMessage outMsg , HttpServletRequest request , HttpServletResponse response );1;0;3
+HttpConsumerEndpoint.HttpConsumerEndpoint( DefaultComponent component , ServiceEndpoint endpoint );1;0;3
+HttpConsumerEndpoint.process( HttpServletRequest request , HttpServletResponse response );19;12;81
+HttpConsumerEndpoint.getSsl( );1;0;3
+HttpConsumerEndpoint.HttpConsumerEndpoint( );1;0;3
+HttpConsumerEndpoint.getMarshaler( );1;0;3
+HttpConsumerEndpoint.getServerManager( );1;0;4
+HttpConsumerEndpoint.validate( );3;1;9
+HttpConsumerEndpoint.setMarshaler( HttpConsumerMarshaler marshaler );1;0;3
+HttpConsumerEndpoint.sendFault( MessageExchange exchange , Fault fault , HttpServletRequest request , HttpServletResponse response );1;0;3
+HttpConsumerEndpoint.getResource( String path );1;0;3
+HttpConsumerEndpoint.addResource( String path , Object resource );1;0;3
+HttpConsumerEndpoint.sendError( MessageExchange exchange , Exception error , HttpServletRequest request , HttpServletResponse response );1;0;3
+HttpConsumerEndpoint.deactivate( );1;0;5
+HttpConsumerEndpoint.createExchange( HttpServletRequest request );2;0;9
+HttpConsumerEndpoint.getAuthMethod( );1;0;3
+HttpConsumerEndpoint.getTimeout( );1;0;3

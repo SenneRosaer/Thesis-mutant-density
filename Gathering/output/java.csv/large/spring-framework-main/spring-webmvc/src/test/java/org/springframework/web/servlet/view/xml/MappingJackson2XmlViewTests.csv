@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestBeanSimple.getNow( );1;0;3
+TestChildBean.setParent( TestBeanSimple parent );1;0;3
+MappingJackson2XmlViewTests.renderWithCustomSerializerLocatedByFactory( );1;1;14
+DelegatingSerializerFactory.createSerializer( SerializerProvider prov , JavaType type );2;1;8
+TestChildBean.getParent( );1;0;3
+MappingJackson2XmlViewTests.renderWithSelectedContentType( );1;0;11
+TestChildBean.getBaz( );1;0;3
+TestChildBean.getValue( );1;0;3
+MappingJackson2XmlViewTests.renderCaching( );1;0;8
+MappingJackson2XmlViewTests.validateResult( );1;0;7
+MappingJackson2XmlViewTests.renderWithCustomSerializerLocatedByAnnotation( );1;1;9
+MappingJackson2XmlViewTests.isExposePathVars( );1;0;3
+DelegatingSerializerFactory.DelegatingSerializerFactory( SerializerFactoryConfig config );1;0;3
+TestBeanSimpleSerializer.serialize( Object value , JsonGenerator jgen , SerializerProvider provider );1;0;6
+MappingJackson2XmlViewTests.renderSimpleBean( );1;1;11
+TestBeanSimple.getChild( );1;0;3
+TestBeanSimple.getTest( );1;0;3
+MappingJackson2XmlViewTests.renderSimpleBeanWithJsonView( );1;1;15
+MappingJackson2XmlViewTests.renderOnlySpecifiedModelKey( );1;1;14
+TestBeanSimple.getProperty1( );1;0;3
+MappingJackson2XmlViewTests.renderModelWithMultipleKeys( );1;0;7
+TestBeanSimple.getProperty2( );1;0;3
+MappingJackson2XmlViewTests.renderSimpleMap( );1;1;14

@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EventConsumer.EventConsumer( SessionImpl session , EventListener listener , EventFilter filter );4;3;14
+EventConsumer.consumeEvents( EventStateCollection events );10;9;26
+EventConsumer.getSession( );1;0;3
+EventConsumer.getEventListener( );1;0;3
+EventConsumer.equals( Object obj );4;2;11
+EventConsumer.hashCode( );2;2;6
+EventConsumer.canRead( EventState eventState );1;0;4
+EventConsumer.prepareDeleted( EventStateCollection events , Iterator deletedItems );8;3;28
+EventConsumer.prepareEvents( EventStateCollection events );9;6;29

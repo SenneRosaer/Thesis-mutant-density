@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CacheFileContent.getContentLength( );1;0;3
+CacheFileContent.getInstance( @ NonNullable CacheFileContentType contentType , @ NonNullable byte [ ] content );1;0;3
+CacheFileContent.getContentHashCode( );1;0;3
+CacheFileContent.setContentHashCode( int contentHashCode );1;0;3
+CacheFileContent.getContent( );1;0;3
+CacheFileContent.setContentLength( int contentLength );1;0;3
+CacheFileContent.setContent( byte [ ] content );2;1;3
+CacheFileContent.CacheFileContent( );1;0;1
+CacheFileContent.setContentType( byte contentType );1;0;3
+CacheFileContent.write( @ NonNullable RandomAccessFile raf );1;0;6
+CacheFileContent.getInstance( @ NonNullable RandomAccessFile raf );1;0;11
+CacheFileContent.CacheFileContent( @ NonNullable CacheFileContentType contentType , @ NonNullable byte [ ] content );1;0;6
+***not in a method***;0;2;0
+CacheFileContent.deserialize( );1;0;3
+CacheFileContent.getContentType( );1;0;3
+CacheFileContent.isValid( );1;1;4

@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SchemaTypeVisitorImpl.ok( SchemaParticle part , boolean testValidity );2;1;12
+SchemaTypeVisitorImpl.notValid( );1;0;6
+SchemaTypeVisitorImpl.push( SchemaParticle part );1;0;4
+SchemaTypeVisitorImpl.SchemaTypeVisitorImpl( );1;0;2
+SchemaTypeVisitorImpl.get_elementflags( );6;5;8
+SchemaTypeVisitorImpl.prepare( );2;2;11
+SchemaTypeVisitorImpl.addParticle( SchemaParticle part );2;2;6
+SchemaTypeVisitorImpl.isAllValid( );1;0;3
+SchemaTypeVisitorImpl.topRef( );1;1;3
+SchemaTypeVisitorImpl.rollback( );2;3;12
+SchemaTypeVisitorImpl.get_schema_field( );2;0;5
+SchemaTypeVisitorImpl.currentParticle( );1;0;3
+SchemaTypeVisitorImpl.visit( QName eltName , boolean testValidity );34;39;113
+SchemaTypeVisitorImpl.expand( VisitorState [ ] orig );5;6;11
+SchemaTypeVisitorImpl.get_default_text( );3;3;5
+SchemaTypeVisitorImpl.saveCopy( VisitorState ref );2;2;6
+VisitorState.copy( VisitorState orig );2;1;13
+SchemaTypeVisitorImpl.testValid( QName eltName );1;0;3
+VisitorState.init( SchemaParticle part );2;1;10
+SchemaTypeVisitorImpl.commit( );1;0;5
+SchemaTypeVisitorImpl.visit( QName eltName );1;0;3
+SchemaTypeVisitorImpl.init( SchemaParticle part );4;3;17
+SchemaTypeVisitorImpl.SchemaTypeVisitorImpl( SchemaParticle part );1;0;3
+SchemaTypeVisitorImpl.pop( );2;2;7

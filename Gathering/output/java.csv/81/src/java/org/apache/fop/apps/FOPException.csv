@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FOPException.FOPException( String message , Locator locator );1;0;4
+FOPException.printStackTrace( );3;2;13
+FOPException.printStackTrace( java . io . PrintWriter writer );3;2;13
+FOPException.getMessage( );2;3;7
+FOPException.FOPException( String message , Exception cause );1;0;3
+FOPException.FOPException( String message , String systemId , int line , int column );1;0;6
+FOPException.FOPException( String message );1;0;3
+FOPException.setLocator( Locator locator );2;1;7
+FOPException.setLocalizedMessage( String msg );1;0;3
+FOPException.printStackTrace( java . io . PrintStream stream );3;2;13
+FOPException.FOPException( Exception cause );1;0;3
+FOPException.getLocalizedMessage( );2;1;7
+FOPException.isLocationSet( );1;1;3
+FOPException.setLocation( String systemId , int line , int column );1;0;5
+FOPException.getRootException( );4;1;14

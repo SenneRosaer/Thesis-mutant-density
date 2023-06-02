@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LuceneAuditor.createDocument( MessageExchange me );5;3;22
+LuceneAuditor.findExchangesIDsByStatus( ExchangeStatus status );1;0;4
+LuceneAuditor.findExchangesIDsByMessageProperty( String type , String property , String value );3;3;6
+LuceneAuditor.doStart( );2;1;7
+LuceneAuditor.setLuceneIndexer( LuceneIndexer luceneIndexer );1;0;3
+LuceneAuditor.doStop( );1;0;4
+LuceneAuditor.setDelegatedAuditor( AuditorMBean delegatedAuditor );2;0;6
+LuceneAuditor.deleteExchangesByRange( int fromIndex , int toIndex );1;0;3
+LuceneAuditor.exchangeSent( ExchangeEvent event );3;0;12
+LuceneAuditor.addMessagePropertiesToDocument( NormalizedMessage nm , Document document , String type );3;0;10
+LuceneAuditor.getExchangesByIds( String [ ] ids );1;0;3
+LuceneAuditor.getExchangeIdsByRange( int fromIndex , int toIndex );1;0;3
+LuceneAuditor.getDescription( );1;0;3
+LuceneAuditor.getExchangeCount( );1;0;3
+LuceneAuditor.getLuceneIndexer( );1;0;3
+LuceneAuditor.deleteExchangesByIds( String [ ] ids );2;0;8
+LuceneAuditor.getExchangeIds( String queryContent , String field );2;0;8
+LuceneAuditor.getDelegatedAuditor( );1;0;3
+LuceneAuditor.findExchangesIDsByMessageContent( String type , String content );1;0;4

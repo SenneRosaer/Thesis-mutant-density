@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FilteringWebHandlerTests.zeroFilters( );1;0;7
+FilteringWebHandlerTests.multipleFilters( );1;0;13
+ExceptionFilter.filter( ServerWebExchange exchange , WebFilterChain chain );1;0;3
+FilteringWebHandlerTests.handleErrorFromFilter( );1;0;13
+StubWebHandler.handle( ServerWebExchange exchange );1;0;5
+TestFilter.invoked( );1;0;3
+TestExceptionHandler.handle( ServerWebExchange exchange , Throwable ex );1;0;4
+FilteringWebHandlerTests.asyncFilter( );1;0;9
+FilteringWebHandlerTests.shortcircuitFilter( );1;0;13
+TestFilter.doFilter( ServerWebExchange exchange , WebFilterChain chain );1;0;3
+StubWebHandler.invoked( );1;0;3
+TestFilter.filter( ServerWebExchange exchange , WebFilterChain chain );1;0;4
+AsyncFilter.doAsyncWork( );1;0;3
+AsyncFilter.doFilter( ServerWebExchange exchange , WebFilterChain chain );1;0;6
+ShortcircuitingFilter.doFilter( ServerWebExchange exchange , WebFilterChain chain );1;0;3

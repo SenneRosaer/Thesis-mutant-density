@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OdeService.outResponseFault( MyRoleMessageExchange mex , javax . jbi . messaging . MessageExchange jbiMex );5;2;29
+OdeService.outFailure( MyRoleMessageExchange odeMex , javax . jbi . messaging . MessageExchange jbiMex );2;0;9
+OdeService.onJbiMessageExchange( javax . jbi . messaging . MessageExchange jbiMex );17;14;60
+OdeService.outResponse( MyRoleMessageExchange mex , javax . jbi . messaging . MessageExchange jbiMex );4;1;23
+OdeService.OdeService( OdeContext odeContext , Endpoint endpoint );1;0;4
+OdeService.sendError( javax . jbi . messaging . MessageExchange jbiMex , Exception error );2;0;9
+OdeService.getEndpoint( );1;0;3
+OdeService.invokeOde( javax . jbi . messaging . MessageExchange jbiMex , NormalizedMessage request );8;2;48
+OdeService.getInternalServiceEndpoint( );1;0;3
+OdeService.activate( );4;2;12
+OdeService.deactivate( );1;0;4
+OdeService.getExternalServiceEndpoint( );1;0;3

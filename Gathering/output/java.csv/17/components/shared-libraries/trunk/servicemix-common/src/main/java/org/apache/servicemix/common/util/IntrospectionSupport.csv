@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IntrospectionSupport.IntrospectionSupport( );1;0;2
+IntrospectionSupport.convert( Object value , Class type );3;2;11
+IntrospectionSupport.findSetterMethod( Class clazz , String name );5;5;12
+IntrospectionSupport.isSettableType( Class clazz );3;2;9
+IntrospectionSupport.simpleName( Class clazz );2;2;8
+IntrospectionSupport.extractProperties( Map props , String optionPrefix );4;1;16
+IntrospectionSupport.setProperties( Object target , Map props );5;2;14
+IntrospectionSupport.setProperty( Object target , String name , Object value );5;4;17
+IntrospectionSupport.addFields( Object target , Class startClass , Class stopClass , Map map );10;7;26
+IntrospectionSupport.toString( Object target , Class stopClass );3;0;21
+IntrospectionSupport.setProperties( Object target , Map props , String optionPrefix );6;2;21
+IntrospectionSupport.toString( Object target );1;0;3

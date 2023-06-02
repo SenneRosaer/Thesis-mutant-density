@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractDataBufferAllocatingTests.dataBufferFactories( );1;0;24
+AbstractDataBufferAllocatingTests.stringConsumer( String expected , Charset charset );1;0;7
+AbstractDataBufferAllocatingTests.createDataBuffer( int capacity );1;0;3
+AbstractDataBufferAllocatingTests.stringConsumer( String expected );1;0;3
+AbstractDataBufferAllocatingTests.release( DataBuffer ... buffers );1;0;3
+AbstractDataBufferAllocatingTests.deferStringBuffer( String value );1;0;3
+AbstractDataBufferAllocatingTests.stringBuffer( String value );1;0;3
+AbstractDataBufferAllocatingTests.waitForDataBufferRelease( Duration duration );4;0;15
+AbstractDataBufferAllocatingTests.verifyAllocations( );7;2;24
+AbstractDataBufferAllocatingTests.getAllocations( List < PoolArenaMetric > metrics );1;0;3
+AbstractDataBufferAllocatingTests.byteBuffer( byte [ ] value );1;0;5

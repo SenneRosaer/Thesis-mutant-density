@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestUtil.getCompleteBlockUri( HttpServletRequest request , HttpServletResponse response );8;10;24
+RequestUtil.createRequestForUri( HttpServletRequest request , String servletPath , String pathInfo );1;0;3
+RequestUtil.createRequestByRemovingPrefixFromUri( HttpServletRequest request , String prefix );2;5;12
+RequestUtil.manageException( HttpServletRequest req , HttpServletResponse res , Environment env , String uri , int errorStatus , String title , String message , String description , Exception e , ServletSettings settings , boolean verbose , Object sender );7;4;42
+RequestUtil.getCompleteUri( HttpServletRequest request , HttpServletResponse response );8;10;27
+RequestUtil.manageException( HttpServletRequest req , HttpServletResponse res , Environment env , String uri , int errorStatus , String title , String message , String description , Exception e , ServletSettings settings , Log logger , Object sender );1;0;3

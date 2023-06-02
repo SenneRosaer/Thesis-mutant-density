@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Jackson2ObjectMapperFactoryBean.setModules( List < Module > modules );1;0;3
+Jackson2ObjectMapperFactoryBean.setApplicationContext( ApplicationContext applicationContext );1;0;3
+Jackson2ObjectMapperFactoryBean.getObject( );1;0;3
+Jackson2ObjectMapperFactoryBean.setDateFormat( DateFormat dateFormat );1;0;3
+Jackson2ObjectMapperFactoryBean.setSerializers( JsonSerializer < ? > ... serializers );1;0;3
+Jackson2ObjectMapperFactoryBean.setIndentOutput( boolean indentOutput );1;0;3
+Jackson2ObjectMapperFactoryBean.setObjectMapper( ObjectMapper objectMapper );1;0;3
+Jackson2ObjectMapperFactoryBean.setBeanClassLoader( ClassLoader beanClassLoader );1;0;3
+Jackson2ObjectMapperFactoryBean.setFactory( JsonFactory factory );1;0;3
+Jackson2ObjectMapperFactoryBean.setDefaultUseWrapper( boolean defaultUseWrapper );1;0;3
+Jackson2ObjectMapperFactoryBean.setMixIns( Map < Class < ? > , Class < ? > > mixIns );1;0;3
+Jackson2ObjectMapperFactoryBean.isSingleton( );1;0;3
+Jackson2ObjectMapperFactoryBean.setCreateXmlMapper( boolean createXmlMapper );1;0;3
+Jackson2ObjectMapperFactoryBean.setSerializersByType( Map < Class < ? > , JsonSerializer < ? > > serializers );1;0;3
+Jackson2ObjectMapperFactoryBean.setDeserializers( JsonDeserializer < ? > ... deserializers );1;0;3
+Jackson2ObjectMapperFactoryBean.setDeserializersByType( Map < Class < ? > , JsonDeserializer < ? > > deserializers );1;0;3
+Jackson2ObjectMapperFactoryBean.setHandlerInstantiator( HandlerInstantiator handlerInstantiator );1;0;3
+Jackson2ObjectMapperFactoryBean.setSimpleDateFormat( String format );1;0;3
+Jackson2ObjectMapperFactoryBean.setAnnotationIntrospector( AnnotationIntrospector annotationIntrospector );1;0;3
+Jackson2ObjectMapperFactoryBean.setLocale( Locale locale );1;0;3
+Jackson2ObjectMapperFactoryBean.setFeaturesToDisable( Object ... featuresToDisable );1;0;3
+Jackson2ObjectMapperFactoryBean.setFindModulesViaServiceLoader( boolean findModules );1;0;3
+Jackson2ObjectMapperFactoryBean.setFeaturesToEnable( Object ... featuresToEnable );1;0;3
+Jackson2ObjectMapperFactoryBean.setModulesToInstall( Class < ? extends Module > ... modules );1;0;3
+Jackson2ObjectMapperFactoryBean.setAutoDetectGettersSetters( boolean autoDetectGettersSetters );1;0;3
+Jackson2ObjectMapperFactoryBean.getObjectType( );2;1;3
+Jackson2ObjectMapperFactoryBean.setFailOnEmptyBeans( boolean failOnEmptyBeans );1;0;3
+Jackson2ObjectMapperFactoryBean.setAutoDetectFields( boolean autoDetectFields );1;0;3
+Jackson2ObjectMapperFactoryBean.setSerializationInclusion( JsonInclude . Include serializationInclusion );1;0;3
+Jackson2ObjectMapperFactoryBean.setDefaultTyping( TypeResolverBuilder < ? > typeResolverBuilder );1;0;3
+Jackson2ObjectMapperFactoryBean.setTimeZone( TimeZone timeZone );1;0;3
+Jackson2ObjectMapperFactoryBean.setDefaultViewInclusion( boolean defaultViewInclusion );1;0;3
+Jackson2ObjectMapperFactoryBean.setPropertyNamingStrategy( PropertyNamingStrategy propertyNamingStrategy );1;0;3
+Jackson2ObjectMapperFactoryBean.afterPropertiesSet( );2;1;8
+Jackson2ObjectMapperFactoryBean.setFailOnUnknownProperties( boolean failOnUnknownProperties );1;0;3
+Jackson2ObjectMapperFactoryBean.setFilters( FilterProvider filters );1;0;3

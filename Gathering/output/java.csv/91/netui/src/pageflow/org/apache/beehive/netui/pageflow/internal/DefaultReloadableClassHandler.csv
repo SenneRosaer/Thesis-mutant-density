@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultReloadableClassHandler.isReloadEnabled( );1;0;3
+DefaultReloadableClassHandler.reinit( ServletContext servletContext );3;2;6
+DefaultReloadableClassHandler.init( HandlerConfig handlerConfig , Handler previousHandler , ServletContext servletContext );2;0;7
+DefaultReloadableClassHandler.removeRequestAttributes( ServletRequest request );5;1;17
+DefaultReloadableClassHandler.reloadClasses( RequestContext context );4;1;25
+DefaultReloadableClassHandler.createClassLoader( ServletContext servletContext );10;7;42
+DefaultReloadableClassHandler.DefaultReloadableClassHandler( ServletContext servletContext );1;0;3
+DefaultReloadableClassHandler.getClassLoader( );2;1;10
+DefaultReloadableClassHandler.newInstance( String className );1;0;3
+***not in a method***;0;1;0
+DefaultReloadableClassHandler.getResourceAsStream( String name );2;1;8
+DefaultReloadableClassHandler.getResource( String name );2;1;8
+DefaultReloadableClassHandler.getRegisteredReloadableClassHandler( );1;0;3
+DefaultReloadableClassHandler.removeSessionAttributes( ServletRequest request );6;2;20
+DefaultReloadableClassHandler.loadCachedClass( String className );4;2;21
+DefaultReloadableClassHandler.loadClass( String className );2;1;10

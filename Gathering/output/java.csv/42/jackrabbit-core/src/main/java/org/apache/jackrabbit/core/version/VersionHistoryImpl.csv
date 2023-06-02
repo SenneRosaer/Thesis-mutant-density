@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VersionHistoryImpl.addVersionLabel( String versionName , String label , boolean move );2;0;9
+VersionHistoryImpl.getVersionableUUID( );1;0;3
+VersionHistoryImpl.getInternalVersionHistory( );2;1;8
+VersionHistoryImpl.getAllVersions( );1;0;4
+VersionHistoryImpl.removeVersionLabel( String label );3;1;11
+VersionHistoryImpl.update( String srcWorkspaceName );1;0;5
+VersionHistoryImpl.getRootVersion( );1;0;4
+VersionHistoryImpl.getVersionLabels( Version version );2;2;9
+VersionHistoryImpl.isSame( Item otherItem );3;0;12
+VersionHistoryImpl.checkOwnVersion( Version version );2;1;5
+VersionHistoryImpl.merge( String srcWorkspace , boolean bestEffort );1;0;5
+VersionHistoryImpl.getVersionLabels( );2;2;8
+VersionHistoryImpl.VersionHistoryImpl( ItemManager itemMgr , SessionImpl session , AbstractNodeData data );1;0;3
+VersionHistoryImpl.toString( );1;0;3
+VersionHistoryImpl.hasVersionLabel( Version version , String label );2;0;9
+VersionHistoryImpl.removeVersion( String versionName );2;0;8
+VersionHistoryImpl.getVersionByLabel( String label );3;1;13
+VersionHistoryImpl.hasVersionLabel( String label );2;1;8
+VersionHistoryImpl.getVersion( String versionName );3;1;12

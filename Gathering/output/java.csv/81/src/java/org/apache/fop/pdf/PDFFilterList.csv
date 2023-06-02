@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PDFFilterList.addFilter( String filterType );9;1;25
+PDFFilterList.ensureFilterInPlace( PDFFilter pdfFilter );3;2;9
+PDFFilterList.isInitialized( );1;1;3
+PDFFilterList.addDefaultFilters( Map filters , String type );10;7;29
+PDFFilterList.setDisableAllFilters( boolean value );1;0;3
+PDFFilterList.applyFilters( OutputStream stream );4;6;10
+PDFFilterList.buildFilterDictEntries( );4;5;10
+PDFFilterList.putFilterDictEntries( PDFDictionary dict );3;3;9
+PDFFilterList.isDisableAllFilters( );1;0;3
+PDFFilterList.buildDecodeParms( List parms );6;5;26
+PDFFilterList.putFilterEntries( PDFDictionary dict , List names );5;5;16
+PDFFilterList.PDFFilterList( boolean ignoreASCIIFilters );1;0;3
+PDFFilterList.buildFilterEntries( List names );5;6;21
+PDFFilterList.addFilter( PDFFilter filter );4;2;8
+PDFFilterList.putDecodeParams( PDFDictionary dict , List parms );5;6;20
+PDFFilterList.populateNamesAndParms( List names , List parms );4;5;17
+PDFFilterList.PDFFilterList( );1;0;2

@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EffectiveNodeType.getMatchingPropDef( PropDef [ ] defs , int type );13;16;32
+EffectiveNodeType.includesNodeType( Name nodeTypeName );1;0;3
+EffectiveNodeType.checkSetPropertyValueConstraints( PropDef pd , InternalValue [ ] values );12;16;27
+EffectiveNodeType.getNamedNodeDefs( Name name );6;4;18
+EffectiveNodeType.checkAddNodeConstraints( Name name );2;0;9
+EffectiveNodeType.getNamedPropDefs( Name name );6;5;18
+EffectiveNodeType.getInheritedNodeTypes( );1;0;3
+EffectiveNodeType.EffectiveNodeType( );1;0;7
+EffectiveNodeType.getAutoCreatePropDefs( );7;4;21
+EffectiveNodeType.getApplicablePropertyDef( Name name , int type , boolean multiValued );3;2;12
+EffectiveNodeType.getUnnamedPropDefs( );5;3;17
+EffectiveNodeType.getAllPropDefs( );9;7;28
+EffectiveNodeType.getMatchingPropDef( PropDef [ ] defs , int type , boolean multiValued );9;11;24
+EffectiveNodeType.clone( );2;0;14
+EffectiveNodeType.getMandatoryNodeDefs( );7;3;21
+EffectiveNodeType.getNamedItemDefs( Name name );3;3;7
+EffectiveNodeType.hasNamedItemDef( Name name );1;0;3
+EffectiveNodeType.checkRemoveItemConstraints( Name name );5;3;13
+EffectiveNodeType.getNamedItemDefs( );4;2;14
+EffectiveNodeType.getAllItemDefs( );5;5;15
+EffectiveNodeType.getNamedPropDefs( );6;3;21
+EffectiveNodeType.getMergedNodeTypes( );1;0;3
+EffectiveNodeType.includesNodeTypes( Name [ ] nodeTypeNames );1;0;3
+EffectiveNodeType.create( );1;0;3
+EffectiveNodeType.merge( EffectiveNodeType other );1;0;5
+EffectiveNodeType.getMandatoryPropDefs( );7;4;21
+EffectiveNodeType.internalMerge( EffectiveNodeType other , boolean supertype );31;36;134
+EffectiveNodeType.create( NodeTypeDef ntd , EffectiveNodeTypeCache entCache , Map ntdCache );20;17;90
+EffectiveNodeType.getAutoCreateNodeDefs( );7;3;21
+EffectiveNodeType.getUnnamedNodeDefs( );5;2;17
+EffectiveNodeType.getAllNodeTypes( );1;0;3
+EffectiveNodeType.checkRemovePropertyConstraints( Name name );5;3;13
+EffectiveNodeType.getNamedNodeDefs( );6;2;21
+EffectiveNodeType.getUnnamedItemDefs( );2;1;6
+EffectiveNodeType.getApplicableChildNodeDef( Name name , Name nodeTypeName , NodeTypeRegistry ntReg );13;14;37
+EffectiveNodeType.checkRemoveNodeConstraints( Name name );5;3;13
+EffectiveNodeType.getApplicablePropertyDef( Name name , int type );3;2;11
+EffectiveNodeType.checkAddNodeConstraints( Name name , Name nodeTypeName , NodeTypeRegistry ntReg );3;0;9
+EffectiveNodeType.getAllNodeDefs( );9;5;28

@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpringHandlerInstantiatorTests.applicationContextAwaretypeResolverBuilder( );1;0;4
+User.User( String username );1;0;3
+SpringHandlerInstantiatorTests.setup( );1;0;9
+Group.getType( );1;0;3
+User.getUsername( );1;0;1
+SpringHandlerInstantiatorTests.applicationContextAwareTypeIdResolver( );1;0;4
+SpringHandlerInstantiatorTests.autowiredKeyDeserializer( );1;0;6
+CustomTypeIdResolver.getMechanism( );1;0;3
+CustomTypeResolverBuilder.buildTypeDeserializer( DeserializationConfig config , JavaType baseType , Collection < NamedType > subtypes );1;0;3
+SpringHandlerInstantiatorTests.autowiredDeserializer( );1;0;5
+CustomTypeIdResolver.getDescForKnownTypeIds( );1;0;3
+SecurityRegistry.addCredential( String username , String credential );1;0;3
+CustomTypeIdResolver.idFromBaseType( );1;0;3
+UserDeserializer.deserialize( JsonParser jsonParser , DeserializationContext deserializationContext );1;0;5
+CustomTypeResolverBuilder.buildTypeSerializer( SerializationConfig config , JavaType baseType , Collection < NamedType > subtypes );1;1;4
+User.User( );1;0;2
+SpringHandlerInstantiatorTests.autowiredSerializer( );1;0;5
+CustomTypeIdResolver.idFromValueAndType( Object o , Class < ? > type );1;0;3
+CustomTypeIdResolver.init( JavaType type );1;0;2
+UpperCaseKeyDeserializer.deserializeKey( String key , DeserializationContext context );1;0;3
+CustomTypeIdResolver.typeFromId( DatabindContext context , String id );1;0;3
+Capitalizer.capitalize( String text );1;0;3
+CustomTypeIdResolver.CustomTypeIdResolver( );1;0;2
+UserSerializer.serialize( User user , JsonGenerator jsonGenerator , SerializerProvider serializerProvider );1;0;5
+SecurityRegistry.getCredentials( );1;0;3
+CustomTypeIdResolver.idFromValue( Object value );1;1;4

@@ -1,0 +1,89 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MimeMessageCopyOnWriteProxy.addFrom( Address [ ] addresses );1;0;3
+MimeMessageCopyOnWriteProxy.getAllRecipients( );1;0;3
+MimeMessageCopyOnWriteProxy.getFileName( );1;0;3
+MimeMessageCopyOnWriteProxy.addRecipients( Message . RecipientType type , String addresses );1;0;3
+MimeMessageCopyOnWriteProxy.getDataHandler( );1;0;3
+MimeMessageCopyOnWriteProxy.getContentID( );1;0;3
+MimeMessageCopyOnWriteProxy.getRecipients( Message . RecipientType type );1;0;3
+MimeMessageCopyOnWriteProxy.setSender( Address arg0 );1;0;3
+MimeMessageCopyOnWriteProxy.setFrom( Address address );1;0;3
+MimeMessageCopyOnWriteProxy.getFrom( );1;0;3
+MimeMessageCopyOnWriteProxy.match( SearchTerm arg0 );1;0;3
+MimeMessageCopyOnWriteProxy.setFrom( );1;0;3
+MessageReferenceTracker.decrementReferenceCount( );2;2;7
+MimeMessageCopyOnWriteProxy.getReceivedDate( );1;0;3
+MimeMessageCopyOnWriteProxy.getAllHeaders( );1;0;3
+MimeMessageCopyOnWriteProxy.setRecipients( Message . RecipientType type , Address [ ] addresses );1;0;3
+MimeMessageCopyOnWriteProxy.getContentMD5( );1;0;3
+MimeMessageCopyOnWriteProxy.isExpunged( );1;0;3
+MimeMessageCopyOnWriteProxy.reply( boolean replyToAll );1;0;3
+MimeMessageCopyOnWriteProxy.isSet( Flags . Flag flag );1;0;3
+MimeMessageCopyOnWriteProxy.getEncoding( );1;0;3
+MimeMessageCopyOnWriteProxy.getContentLanguage( );1;0;3
+MessageReferenceTracker.MessageReferenceTracker( MimeMessage ref );1;0;3
+MimeMessageCopyOnWriteProxy.getMatchingHeaderLines( String [ ] names );1;0;3
+MimeMessageCopyOnWriteProxy.getReplyTo( );1;0;3
+MimeMessageCopyOnWriteProxy.getAllHeaderLines( );1;0;3
+MimeMessageCopyOnWriteProxy.setHeader( String name , String value );1;0;3
+MimeMessageCopyOnWriteProxy.getNonMatchingHeaderLines( String [ ] names );1;0;3
+MimeMessageCopyOnWriteProxy.isMimeType( String mimeType );1;0;3
+MimeMessageCopyOnWriteProxy.getMessageNumber( );1;0;3
+MimeMessageCopyOnWriteProxy.setFileName( String filename );1;0;3
+MimeMessageCopyOnWriteProxy.setFlags( Flags flag , boolean set );1;0;3
+MimeMessageCopyOnWriteProxy.getMessageID( );1;0;3
+MimeMessageCopyOnWriteProxy.getWrappedMessageForWriting( );2;1;9
+MimeMessageCopyOnWriteProxy.getMatchingHeaders( String [ ] names );1;0;3
+MimeMessageCopyOnWriteProxy.getContent( );1;0;3
+MimeMessageCopyOnWriteProxy.getSize( );1;0;3
+MimeMessageCopyOnWriteProxy.getWrappedMessage( );1;0;3
+MimeMessageCopyOnWriteProxy.getContentType( );1;0;3
+MimeMessageCopyOnWriteProxy.setText( String text );1;0;3
+MimeMessageCopyOnWriteProxy.MimeMessageCopyOnWriteProxy( MimeMessage original );1;0;3
+MimeMessageCopyOnWriteProxy.setSentDate( Date d );1;0;3
+MimeMessageCopyOnWriteProxy.saveChanges( );1;0;3
+MimeMessageCopyOnWriteProxy.getHeader( String name );1;0;3
+MimeMessageCopyOnWriteProxy.addRecipients( Message . RecipientType type , Address [ ] addresses );1;0;3
+MimeMessageCopyOnWriteProxy.setDataHandler( DataHandler dh );1;0;3
+MimeMessageCopyOnWriteProxy.hashCode( );1;0;3
+MimeMessageCopyOnWriteProxy.MimeMessageCopyOnWriteProxy( MimeMessageSource original );1;0;3
+MimeMessageCopyOnWriteProxy.dispose( );2;1;6
+MimeMessageCopyOnWriteProxy.getLineCount( );1;0;3
+MimeMessageCopyOnWriteProxy.setDescription( String description );1;0;3
+MimeMessageCopyOnWriteProxy.getMessageSize( );1;0;3
+MimeMessageCopyOnWriteProxy.setText( String text , String charset );1;0;3
+MimeMessageCopyOnWriteProxy.setSubject( String subject , String charset );1;0;3
+MimeMessageCopyOnWriteProxy.setContentLanguage( String [ ] languages );1;0;3
+MimeMessageCopyOnWriteProxy.writeTo( OutputStream os , String [ ] ignoreList );1;0;3
+MimeMessageCopyOnWriteProxy.getRawInputStream( );1;0;3
+MimeMessageCopyOnWriteProxy.setContentMD5( String md5 );1;0;3
+MimeMessageCopyOnWriteProxy.getNonMatchingHeaders( String [ ] names );1;0;3
+MimeMessageCopyOnWriteProxy.getDisposition( );1;0;3
+MessageReferenceTracker.incrementReferenceCount( );1;1;3
+MimeMessageCopyOnWriteProxy.removeHeader( String name );1;0;3
+MimeMessageCopyOnWriteProxy.getFlags( );1;0;3
+MimeMessageCopyOnWriteProxy.setReplyTo( Address [ ] addresses );1;0;3
+MimeMessageCopyOnWriteProxy.getSentDate( );1;0;3
+MimeMessageCopyOnWriteProxy.setSubject( String subject );1;0;3
+MimeMessageCopyOnWriteProxy.getHeader( String name , String delimiter );1;0;3
+MimeMessageCopyOnWriteProxy.addRecipient( RecipientType arg0 , Address arg1 );1;0;3
+MimeMessageCopyOnWriteProxy.setRecipients( Message . RecipientType type , String addresses );1;0;3
+MimeMessageCopyOnWriteProxy.setDescription( String description , String charset );1;0;3
+MessageReferenceTracker.getReferenceCount( );1;0;3
+MimeMessageCopyOnWriteProxy.addHeaderLine( String line );1;0;3
+MimeMessageCopyOnWriteProxy.addHeader( String name , String value );1;0;3
+MimeMessageCopyOnWriteProxy.getSender( );1;0;3
+MimeMessageCopyOnWriteProxy.setContent( Multipart mp );1;0;3
+MimeMessageCopyOnWriteProxy.setDisposition( String disposition );1;0;3
+MimeMessageCopyOnWriteProxy.setFlag( Flag arg0 , boolean arg1 );1;0;3
+MimeMessageCopyOnWriteProxy.getInputStream( );1;0;3
+MimeMessageCopyOnWriteProxy.writeTo( OutputStream os );1;0;3
+MimeMessageCopyOnWriteProxy.getDescription( );1;0;3
+MimeMessageCopyOnWriteProxy.getFolder( );1;0;3
+MimeMessageCopyOnWriteProxy.setContentID( String cid );1;0;3
+MimeMessageCopyOnWriteProxy.getSubject( );1;0;3
+MimeMessageCopyOnWriteProxy.toString( );1;0;3
+MimeMessageCopyOnWriteProxy.equals( Object arg0 );1;0;3
+MimeMessageCopyOnWriteProxy.MimeMessageCopyOnWriteProxy( MimeMessage original , boolean writeable );3;1;11
+MimeMessageCopyOnWriteProxy.setContent( Object o , String type );1;0;3
+MessageReferenceTracker.getWrapped( );1;0;3

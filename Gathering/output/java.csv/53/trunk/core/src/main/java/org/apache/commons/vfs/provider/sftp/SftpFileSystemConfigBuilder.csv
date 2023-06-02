@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SftpFileSystemConfigBuilder.getProxyHost( FileSystemOptions opts );1;0;3
+SftpFileSystemConfigBuilder.getKnownHosts( FileSystemOptions opts );1;0;3
+SftpFileSystemConfigBuilder.getStrictHostKeyChecking( FileSystemOptions opts );1;0;3
+SftpFileSystemConfigBuilder.getProxyPort( FileSystemOptions opts );2;1;7
+SftpFileSystemConfigBuilder.getIdentities( FileSystemOptions opts );1;0;3
+SftpFileSystemConfigBuilder.setIdentities( FileSystemOptions opts , File [ ] identities );1;0;3
+SftpFileSystemConfigBuilder.setProxyPort( FileSystemOptions opts , int proxyPort );1;0;3
+SftpFileSystemConfigBuilder.getUserDirIsRoot( FileSystemOptions opts );1;0;3
+SftpFileSystemConfigBuilder.getConfigClass( );1;0;3
+ProxyType.compareTo( Object o );1;0;3
+SftpFileSystemConfigBuilder.getCompression( FileSystemOptions opts );1;0;3
+SftpFileSystemConfigBuilder.setStrictHostKeyChecking( FileSystemOptions opts , String hostKeyChecking );5;7;7
+SftpFileSystemConfigBuilder.setKnownHosts( FileSystemOptions opts , File sshdir );1;0;3
+ProxyType.ProxyType( final String proxyType );1;0;3
+SftpFileSystemConfigBuilder.setUserDirIsRoot( FileSystemOptions opts , boolean userDirIsRoot );2;0;3
+SftpFileSystemConfigBuilder.getProxyType( FileSystemOptions opts );1;0;3
+SftpFileSystemConfigBuilder.getTimeout( FileSystemOptions opts );1;0;3
+SftpFileSystemConfigBuilder.setCompression( FileSystemOptions opts , String compression );1;0;3
+SftpFileSystemConfigBuilder.getUserInfo( FileSystemOptions opts );1;0;3
+SftpFileSystemConfigBuilder.setProxyType( FileSystemOptions opts , ProxyType proxyType );1;0;3
+SftpFileSystemConfigBuilder.setTimeout( FileSystemOptions opts , Integer timeout );1;0;3
+SftpFileSystemConfigBuilder.setProxyHost( FileSystemOptions opts , String proxyHost );1;0;3
+SftpFileSystemConfigBuilder.setUserInfo( FileSystemOptions opts , UserInfo info );1;0;3
+SftpFileSystemConfigBuilder.getInstance( );1;0;3
+ProxyType.equals( Object o );6;7;16
+SftpFileSystemConfigBuilder.SftpFileSystemConfigBuilder( );1;0;2

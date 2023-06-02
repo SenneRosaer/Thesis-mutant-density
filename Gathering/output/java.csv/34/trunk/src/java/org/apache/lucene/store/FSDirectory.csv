@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FSDirectory.toString( );1;1;3
+FSIndexInput.readInternal( byte [ ] b , int offset , int len );4;8;17
+FSIndexOutput.flushBuffer( byte [ ] b , int offset , int size );1;0;3
+FSIndexOutput.setLength( long length );1;0;3
+FSDirectory.getDirectory( String path , boolean create );1;0;3
+FSDirectory.getDirectory( File file );1;0;3
+FSDirectory.sync( String name );8;7;31
+FSIndexInput.length( );1;0;3
+FSIndexInput.seekInternal( long position );1;0;2
+FSDirectory.getDirectory( String path );1;0;3
+FSIndexOutput.close( );4;1;18
+FSDirectory.deleteFile( String name );2;1;6
+FSDirectory.touchFile( String name );1;0;5
+FSDirectory.list( );1;0;4
+FSDirectory.getDirectory( File file , boolean create );2;0;7
+FSDirectory.getDirectory( File file , LockFactory lockFactory );5;5;25
+FSDirectory.FSDirectory( File path , LockFactory lockFactory );1;0;5
+FSIndexInput.close( );2;1;3
+FSDirectory.fileExists( String name );1;0;5
+FSIndexOutput.FSIndexOutput( File path );1;0;4
+FSDirectory.createOutput( String name );3;2;8
+FSDirectory.FSDirectory( );1;0;1
+FSDirectory.fileLength( String name );1;0;5
+FSDirectory.getLockID( );3;5;21
+FSDirectory.openInput( String name , int bufferSize );1;0;4
+Descriptor.close( );2;0;6
+FSIndexOutput.length( );1;0;3
+FSDirectory.getFile( );1;0;4
+FSDirectory.openInput( String name );1;0;4
+FSDirectory.init( File path , LockFactory lockFactory );12;4;40
+FSDirectory.renameFile( String from , String to );11;6;48
+FSDirectory.fileModified( String name );1;0;5
+FSDirectory.setDisableLocks( boolean doDisableLocks );1;0;3
+FSIndexInput.clone( );1;0;5
+FSDirectory.create( );5;4;13
+FSDirectory.fileModified( File directory , String name );1;0;4
+FSDirectory.getDirectory( String path , LockFactory lockFactory );1;0;3
+Descriptor.Descriptor( File file , String mode );1;0;5
+FSDirectory.close( );3;3;8
+FSDirectory.getCanonicalPath( File file );1;0;3
+FSDirectory.getDisableLocks( );1;0;3
+FSDirectory.createDir( );6;5;10
+FSIndexInput.FSIndexInput( File path );1;0;3
+FSIndexInput.FSIndexInput( File path , int bufferSize );1;0;4
+FSIndexInput.isFDValid( );1;0;3
+Descriptor.finalize( );1;0;7
+FSIndexOutput.seek( long pos );1;0;4

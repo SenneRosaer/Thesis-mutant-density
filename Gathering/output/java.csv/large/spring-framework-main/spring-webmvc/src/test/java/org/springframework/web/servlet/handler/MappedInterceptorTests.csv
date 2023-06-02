@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MappedInterceptorTests.postHandle( );1;0;5
+MappedInterceptorTests.afterCompletion( );1;0;5
+TestPathMatcher.getPatternComparator( String path );1;0;3
+TestPathMatcher.matchStart( String pattern , String path );1;0;3
+MappedInterceptorTests.includePattern( Function < String , MockHttpServletRequest > requestFactory );1;0;5
+TestPathMatcher.combine( String pattern1 , String pattern2 );1;0;3
+MappedInterceptorTests.includePatternWithMatrixVariables( Function < String , MockHttpServletRequest > requestFactory );1;0;4
+MappedInterceptorTests.excludePattern( Function < String , MockHttpServletRequest > requestFactory );1;0;5
+MappedInterceptorTests.noPatterns( Function < String , MockHttpServletRequest > requestFactory );1;0;4
+MappedInterceptorTests.includePatternWithFallbackOnPathMatcher( Function < String , MockHttpServletRequest > requestFactory );1;0;6
+MappedInterceptorTests.customPathMatcher( Function < String , MockHttpServletRequest > requestFactory );1;0;6
+TestPathMatcher.extractUriTemplateVariables( String pattern , String path );1;0;3
+MappedInterceptorTests.includeAndExcludePatterns( Function < String , MockHttpServletRequest > requestFactory );1;0;6
+MappedInterceptorTests.pathPatternsArguments( );1;0;3
+TestPathMatcher.isPattern( String path );1;0;3
+TestPathMatcher.match( String pattern , String path );1;0;3
+TestPathMatcher.extractPathWithinPattern( String pattern , String path );1;0;3
+MappedInterceptorTests.preHandle( );1;0;5

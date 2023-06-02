@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XML11Configuration.setDocumentHandler( XMLDocumentHandler documentHandler );3;2;9
+XML11Configuration.getErrorHandler( );1;0;3
+XML11Configuration.addCommonComponent( XMLComponent component );2;0;7
+XML11Configuration.XML11Configuration( SymbolTable symbolTable );1;0;3
+***not in a method***;0;47;0
+XML11Configuration.getProperty( String propertyId );2;0;6
+XML11Configuration.parse( boolean complete );20;3;60
+XML11Configuration.reset( );2;2;7
+XML11Configuration.resetXML11( );2;2;7
+XML11Configuration.getLocale( );1;0;3
+XML11Configuration.configureXML11Pipeline( );15;14;76
+XML11Configuration.setProperty( String propertyId , Object value );6;6;26
+XML11Configuration.setLocale( Locale locale );1;0;4
+XML11Configuration.getEntityResolver( );1;0;3
+XML11Configuration.getDocumentHandler( );1;0;3
+XML11Configuration.checkProperty( String propertyId );14;13;33
+XML11Configuration.cleanup( );1;0;3
+XML11Configuration.parse( XMLInputSource source );10;0;29
+XML11Configuration.addComponent( XMLComponent component );2;0;7
+XML11Configuration.addRecognizedParamsAndSetDefaults( XMLComponent component );9;10;30
+XML11Configuration.setEntityResolver( XMLEntityResolver resolver );1;0;3
+XML11Configuration.XML11Configuration( SymbolTable symbolTable , XMLGrammarPool grammarPool , XMLComponentManager parentSettings );5;3;112
+XML11Configuration.XML11Configuration( );1;0;3
+XML11Configuration.setDTDHandler( XMLDTDHandler dtdHandler );1;0;3
+XML11Configuration.resetCommon( );2;2;7
+XML11Configuration.setFeature( String featureId , boolean state );5;6;23
+XML11Configuration.addXML11Component( XMLComponent component );2;0;7
+XML11Configuration.checkFeature( String featureId );24;23;54
+XML11Configuration.getFeature0( String featureId );1;0;3
+XML11Configuration.getDTDContentModelHandler( );1;0;3
+XML11Configuration.XML11Configuration( SymbolTable symbolTable , XMLGrammarPool grammarPool );1;0;3
+XML11Configuration.setDTDContentModelHandler( XMLDTDContentModelHandler handler );1;0;3
+XML11Configuration.setErrorHandler( XMLErrorHandler errorHandler );1;0;3
+XML11Configuration.getDTDHandler( );1;0;3
+XML11Configuration.initXML11Components( );2;1;14
+XML11Configuration.setInputSource( XMLInputSource inputSource );1;0;3
+XML11Configuration.getFeature( String featureId );2;0;6
+XML11Configuration.configurePipeline( );15;14;76

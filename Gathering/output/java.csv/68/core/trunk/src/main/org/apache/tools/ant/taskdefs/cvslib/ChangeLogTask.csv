@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ChangeLogTask.filterEntrySet( final CVSEntry [ ] entrySet );7;7;20
+ChangeLogTask.setRemote( final boolean remote );1;0;3
+ChangeLogTask.setDaysinpast( final int days );1;5;5
+ChangeLogTask.setUsersfile( final File usersFile );1;0;3
+ChangeLogTask.setDir( final File inputDir );1;0;3
+ChangeLogTask.loadUserlist( final Properties userList );3;1;9
+ChangeLogTask.setStart( final Date start );1;0;3
+ChangeLogTask.addFileset( final FileSet fileSet );1;0;3
+ChangeLogTask.setStartTag( final String start );1;0;3
+ChangeLogTask.setEnd( final Date endDate );1;0;3
+ChangeLogTask.replaceAuthorIdWithName( final Properties userList , final CVSEntry [ ] entrySet );3;2;8
+ChangeLogTask.addUser( final CvsUser user );1;0;3
+ChangeLogTask.setDestfile( final File destFile );1;0;3
+ChangeLogTask.writeChangeLog( final CVSEntry [ ] entrySet );3;0;16
+ChangeLogTask.execute( );14;14;79
+ChangeLogTask.validate( );10;13;25
+ChangeLogTask.setEndTag( final String end );1;0;3

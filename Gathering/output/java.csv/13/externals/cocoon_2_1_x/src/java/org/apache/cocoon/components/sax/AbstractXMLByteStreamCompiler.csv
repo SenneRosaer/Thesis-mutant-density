@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractXMLByteStreamCompiler.startDTD( String name , String publicId , String systemId );3;2;6
+AbstractXMLByteStreamCompiler.startElement( String namespaceURI , String localName , String qName , Attributes atts );3;3;15
+AbstractXMLByteStreamCompiler.startDocument( );2;1;5
+AbstractXMLByteStreamCompiler.AbstractXMLByteStreamCompiler( );1;0;4
+AbstractXMLByteStreamCompiler.writeString( final String str );3;17;21
+AbstractXMLByteStreamCompiler.processingInstruction( String target , String data );1;0;5
+AbstractXMLByteStreamCompiler.endElement( String namespaceURI , String localName , String qName );2;1;6
+AbstractXMLByteStreamCompiler.initOutput( );1;0;5
+AbstractXMLByteStreamCompiler.ignorableWhitespace( char [ ] ch , int start , int length );2;1;6
+AbstractXMLByteStreamCompiler.startPrefixMapping( java . lang . String prefix , java . lang . String uri );2;1;7
+AbstractXMLByteStreamCompiler.writeEvent( final int event );1;0;3
+AbstractXMLByteStreamCompiler.writeChars( final char [ ] ch , final int start , final int length );10;45;43
+AbstractXMLByteStreamCompiler.writeAttributes( final int attributes );2;5;5
+AbstractXMLByteStreamCompiler.startEntity( String name );1;0;4
+AbstractXMLByteStreamCompiler.endDocument( );1;0;3
+AbstractXMLByteStreamCompiler.endDTD( );1;0;3
+AbstractXMLByteStreamCompiler.writeProlog( );1;0;9
+AbstractXMLByteStreamCompiler.characters( char [ ] ch , int start , int length );1;0;4
+AbstractXMLByteStreamCompiler.skippedEntity( java . lang . String name );1;0;4
+AbstractXMLByteStreamCompiler.startCDATA( );1;0;3
+AbstractXMLByteStreamCompiler.endEntity( String name );1;0;4
+AbstractXMLByteStreamCompiler.endPrefixMapping( String prefix );1;0;4
+AbstractXMLByteStreamCompiler.setDocumentLocator( Locator locator );5;3;15
+AbstractXMLByteStreamCompiler.recycle( );1;0;3
+AbstractXMLByteStreamCompiler.comment( char ary [ ] , int start , int length );2;0;8
+AbstractXMLByteStreamCompiler.endCDATA( );1;0;3

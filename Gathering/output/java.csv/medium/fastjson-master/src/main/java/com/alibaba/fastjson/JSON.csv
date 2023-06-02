@@ -1,0 +1,93 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JSON.parseObject( String text , Feature ... features );1;0;3
+JSON.parseObject( String input , Type clazz , int featureValues , Feature ... features );3;1;13
+JSON.addMixInAnnotations( Type target , Type mixinSource );3;3;5
+JSON.writeJSONString( OutputStream os , Object object , SerializerFeature ... features );1;0;3
+JSON.parseObject( String input , Type clazz , ParserConfig config , ParseProcess processor , int featureValues , Feature ... features );9;6;26
+JSON.toJavaObject( Class < T > clazz );5;7;6
+JSON.toString( );1;0;3
+JSON.toJSONString( );1;0;9
+JSON.toJSONBytes( Object object , SerializeFilter [ ] filters , SerializerFeature ... features );1;0;3
+JSON.removeMixInAnnotations( Type target );2;1;5
+JSON.toJSONString( Object object , SerializeConfig config , SerializerFeature ... features );1;0;3
+JSON.toJSONString( Object object );1;0;3
+JSON.parse( byte [ ] input , int off , int len , CharsetDecoder charsetDecoder , int features );1;1;14
+JSON.parseObject( String text , Class < T > clazz , ParseProcess processor , Feature ... features );1;0;4
+***not in a method***;0;12;0
+JSON.writeJSONString( OutputStream os , Object object , int defaultFeatures , SerializerFeature ... features );1;0;10
+JSON.parse( String text , ParserConfig config , int features );2;1;10
+JSON.toJSONString( Object object , SerializeConfig config , SerializeFilter filter , SerializerFeature ... features );1;0;3
+JSON.writeJSONStringTo( Object object , Writer writer , SerializerFeature ... features );1;0;3
+JSON.parseObject( InputStream is , Charset charset , Type type , Feature ... features );1;0;3
+JSON.parseArray( String text , ParserConfig parserConfig );5;4;20
+JSON.toJSONBytesWithFastJsonConfig( Charset charset , Object object , SerializeConfig config , SerializeFilter [ ] filters , String dateFormat , int defaultFeatures , SerializerFeature ... features );5;4;19
+JSON.getMixInAnnotations( Type target );2;1;6
+JSON.parseObject( String input , Type clazz , ParserConfig config , int featureValues , Feature ... features );1;0;3
+JSON.parseObject( byte [ ] bytes , int offset , int len , Charset charset , Type clazz , ParserConfig config , ParseProcess processor , int featureValues , Feature ... features );9;8;35
+JSON.parseObject( byte [ ] bytes , Type clazz , Feature ... features );1;0;3
+JSON.toJSONString( Object object , int defaultFeatures , SerializerFeature ... features );5;8;18
+JSON.parseArray( String text , Class < T > clazz , ParserConfig config );5;4;21
+JSON.toJSONStringWithDateFormat( Object object , String dateFormat , SerializerFeature ... features );1;0;3
+JSON.parse( byte [ ] input , Feature ... features );2;1;8
+JSON.parseObject( String text , Class < T > clazz );1;0;3
+JSON.setDefaultTypeKey( String typeKey );1;0;7
+JSON.parseObject( InputStream is , Type type , Feature ... features );1;0;3
+JSON.toJSONBytes( Object object , SerializeConfig config , SerializeFilter [ ] filters , int defaultFeatures , SerializerFeature ... features );1;0;3
+JSON.toJSON( Object javaObject , SerializeConfig config );23;7;84
+JSON.parseObject( String input , Type clazz , ParserConfig config , Feature ... features );1;0;3
+JSON.parseArray( String text );1;0;3
+JSON.allocateChars( int length );4;5;14
+JSON.toJSONBytes( Object object , SerializeConfig config , SerializeFilter filter , SerializerFeature ... features );1;0;3
+JSON.isValidObject( String str );6;6;22
+JSON.toJSONBytes( Object object , SerializeConfig config , SerializerFeature ... features );1;0;3
+JSON.toJSONStringZ( Object object , SerializeConfig mapping , SerializerFeature ... features );1;0;3
+JSON.toJSONBytes( Object object , SerializeFilter filter , SerializerFeature ... features );1;0;3
+JSON.allocateBytes( int length );4;5;14
+JSON.parseObject( String text , TypeReference < T > type , Feature ... features );1;0;3
+JSON.clearMixInAnnotations( );1;0;3
+JSON.parse( String text );1;0;3
+JSON.toJSONBytes( Object object , int defaultFeatures , SerializerFeature ... features );1;0;3
+JSON.parseArray( String text , Type [ ] types );1;0;3
+JSON.config( Properties properties );7;5;29
+JSON.parseObject( String json , Type type , Feature ... features );1;0;3
+JSON.toJSONBytes( Object object , SerializerFeature ... features );1;0;3
+JSON.isValid( String str );14;5;37
+JSON.writeJSONString( Appendable appendable );2;0;11
+JSON.parse( String text , Feature ... features );2;0;7
+JSON.toJavaObject( Type type );1;0;3
+JSON.writeJSONString( Writer writer , Object object , SerializerFeature ... features );1;0;3
+JSON.parseObject( char [ ] input , int length , Type clazz , Feature ... features );4;3;14
+JSON.parse( String text , int features );1;0;3
+JSON.toJavaObject( TypeReference typeReference );2;1;4
+JSON.toJSONBytes( Charset charset , Object object , SerializeConfig config , SerializeFilter [ ] filters , String dateFormat , int defaultFeatures , SerializerFeature ... features );5;4;19
+JSON.toJSONString( Object object , SerializeFilter [ ] filters , SerializerFeature ... features );1;0;3
+JSON.writeJSONString( OutputStream os , Charset charset , Object object , SerializerFeature ... features );1;0;10
+JSON.writeJSONStringWithFastJsonConfig( OutputStream os , Charset charset , Object object , SerializeConfig config , SerializeFilter [ ] filters , String dateFormat , int defaultFeatures , SerializerFeature ... features );5;4;20
+JSON.toJSONString( Object object , SerializeConfig config , SerializeFilter [ ] filters , String dateFormat , int defaultFeatures , SerializerFeature ... features );5;4;19
+JSON.parseObject( byte [ ] bytes , Charset charset , Type clazz , ParserConfig config , ParseProcess processor , int featureValues , Feature ... features );1;0;3
+JSON.parse( String text , ParserConfig config , Feature ... features );2;0;7
+JSON.handleResovleTask( DefaultJSONParser parser , T value );1;0;3
+JSON.toJSON( Object javaObject , ParserConfig parserConfig );1;0;3
+JSON.toJSONBytes( Object object , SerializeConfig config , int defaultFeatures , SerializerFeature ... features );1;0;3
+JSON.parseObject( byte [ ] input , int off , int len , CharsetDecoder charsetDecoder , Type clazz , Feature ... features );1;1;10
+JSON.parseObject( String json , Class < T > clazz , Feature ... features );1;0;3
+JSON.parseObject( String text );3;0;11
+JSON.toJavaObject( JSON json , Class < T > clazz );1;0;3
+JSON.toJSONString( Object object , SerializerFeature ... features );1;0;3
+JSON.toJSONString( Object object , SerializeConfig config , SerializeFilter [ ] filters , SerializerFeature ... features );1;0;3
+JSON.toJSON( Object javaObject );1;0;3
+JSON.parseObject( InputStream is , Charset charset , Type type , ParserConfig config , ParseProcess processor , int featureValues , Feature ... features );5;9;20
+JSON.toJSONString( Object object , SerializeFilter filter , SerializerFeature ... features );1;0;3
+JSON.writeJSONString( Writer writer , Object object , int defaultFeatures , SerializerFeature ... features );1;0;9
+JSON.toString( SerializerFeature ... features );1;0;9
+JSON.toJSONBytes( Object object , SerializeConfig config , SerializeFilter [ ] filters , String dateFormat , int defaultFeatures , SerializerFeature ... features );1;0;3
+JSON.parseArray( String text , Class < T > clazz );1;0;3
+JSON.isValidArray( String str );5;5;19
+JSON.parse( String text , ParserConfig config );1;0;3
+JSON.parseObject( String input , Type clazz , ParseProcess processor , Feature ... features );1;0;3
+JSON.parse( byte [ ] input , int off , int len , CharsetDecoder charsetDecoder , Feature ... features );4;3;10
+JSON.parseObject( InputStream is , Charset charset , Type type , ParserConfig config , Feature ... features );1;0;3
+JSON.parseObject( byte [ ] bytes , int offset , int len , Charset charset , Type clazz , Feature ... features );1;0;3
+JSON.parseArray( String text , Type [ ] types , ParserConfig config );3;2;16
+JSON.toJSONString( Object object , boolean prettyFormat );2;1;6
+JSON.writeJSONString( OutputStream os , Charset charset , Object object , SerializeConfig config , SerializeFilter [ ] filters , String dateFormat , int defaultFeatures , SerializerFeature ... features );5;4;20

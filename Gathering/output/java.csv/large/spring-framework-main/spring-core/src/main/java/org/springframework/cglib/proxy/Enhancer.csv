@@ -1,0 +1,72 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Enhancer.registerStaticCallbacks( Class generatedClass , Callback [ ] callbacks );1;0;3
+Enhancer.preValidate( );4;3;12
+Enhancer.Enhancer( );1;0;3
+Enhancer.setCallbackTypes( Class [ ] callbackTypes );3;3;6
+Enhancer.setCallbackType( Class callbackType );1;0;3
+Enhancer.setInterceptDuringConstruction( boolean interceptDuringConstruction );1;0;3
+Enhancer.emitCommonNewInstance( CodeEmitter e );1;0;10
+Enhancer.processCase( int key , Label end );1;0;4
+Enhancer.emitNewInstanceMultiarg( ClassEmitter ce , List constructors );2;0;32
+Enhancer.create( Class superclass , Class interfaces [ ] , Callback callback );1;0;7
+Enhancer.processCase( Object key , Label end );2;2;12
+EnhancerFactoryData.setThreadCallbacks( Callback [ ] callbacks );3;0;11
+Enhancer.EnhancerKey( String type , List < String > interfaces , WeakCacheKey < CallbackFilter > filter , List < Type > callbackTypes , boolean useFactory , boolean interceptDuringConstruction , Long serialVersionUID );1;0;2
+Enhancer.emitGetCallbacks( ClassEmitter ce );2;2;17
+Enhancer.setSuperclass( Class superclass );5;4;13
+Enhancer.getOriginalModifiers( MethodInfo method );1;0;3
+Enhancer.registerCallbacks( Class generatedClass , Callback [ ] callbacks );1;0;3
+Enhancer.setUseFactory( boolean useFactory );1;0;3
+Enhancer.setThreadCallbacks( Class type , Callback [ ] callbacks );1;0;3
+Enhancer.emitSetCallbacks( ClassEmitter ce );2;2;13
+Enhancer.emitCurrentCallback( CodeEmitter e , int index );1;0;13
+Enhancer.create( );1;0;5
+Enhancer.create( Class [ ] argumentTypes , Object [ ] arguments );4;5;9
+Enhancer.getCallbackKeys( );2;2;7
+Enhancer.emitMethods( final ClassEmitter ce , List methods , List actualMethods );20;10;122
+Enhancer.beginMethod( ClassEmitter ce , MethodInfo method );3;3;16
+Enhancer.getMethods( Class superclass , Class [ ] interfaces , List methods );1;0;3
+Enhancer.emitLoadArgsAndInvoke( CodeEmitter e , MethodInfo method );5;5;21
+Enhancer.unwrapCachedValue( Object cached );2;0;7
+Enhancer.generateClass( ClassVisitor v );12;17;79
+Enhancer.getClassLoader( );1;0;3
+Enhancer.filterConstructors( Class sc , List constructors );2;1;6
+Enhancer.generate( ClassLoaderData data );3;2;10
+Enhancer.getDefaultClassLoader( );3;2;11
+EnhancerFactoryData.EnhancerFactoryData( Class generatedClass , Class [ ] primaryConstructorArgTypes , boolean classOnly );3;0;17
+Enhancer.emitConstructors( ClassEmitter ce , List constructors );10;11;29
+Enhancer.validate( );16;15;40
+Enhancer.emitSetThreadCallbacks( ClassEmitter ce );1;1;10
+Enhancer.emitSetCallback( ClassEmitter ce , int [ ] keys );1;0;19
+Enhancer.getProtectionDomain( );3;2;11
+Enhancer.firstInstance( Class type );2;0;8
+Enhancer.setCallbacks( Callback [ ] callbacks );3;3;6
+Enhancer.emitNewInstanceCallbacks( ClassEmitter ce );1;0;7
+Enhancer.createUsingReflection( Class type );2;1;14
+Enhancer.emitSetStaticCallbacks( ClassEmitter ce );1;1;9
+EnhancerFactoryData.newInstance( Class [ ] argumentTypes , Object [ ] arguments , Callback [ ] callbacks );3;2;13
+Enhancer.setInterfaces( Class [ ] interfaces );1;0;3
+Enhancer.wrapCachedClass( Class klass );3;1;19
+Enhancer.emitCallback( CodeEmitter e , int index );1;0;3
+Enhancer.setCallbacksHelper( Class type , Callback [ ] callbacks , String methodName );3;0;12
+Enhancer.emitGetCallback( ClassEmitter ce , int [ ] keys );1;0;21
+Enhancer.getCallbacksSetter( Class type , String methodName );1;0;3
+Enhancer.setSerialVersionUID( Long sUID );1;0;3
+Enhancer.emitNewInstanceCallback( ClassEmitter ce );3;0;19
+Enhancer.setCallbackFilter( CallbackFilter filter );1;0;3
+Enhancer.createClass( );1;0;4
+Enhancer.isEnhanced( Class type );2;0;9
+Enhancer.emitDefaultConstructor( ClassEmitter ce );2;0;17
+Enhancer.getMethods( Class superclass , Class [ ] interfaces , List methods , List interfaceMethods , Set forcePublic );7;5;21
+Enhancer.emitBindCallbacks( ClassEmitter ce );3;4;42
+Enhancer.getCallbackField( int index );1;0;3
+Enhancer.create( Class superclass , Class [ ] interfaces , CallbackFilter filter , Callback [ ] callbacks );1;0;8
+Enhancer.rename( Signature sig , int index );1;0;4
+Enhancer.processDefault( );1;0;4
+Enhancer.getIndex( MethodInfo method );1;0;3
+Enhancer.createHelper( );4;3;13
+Enhancer.setCallback( final Callback callback );1;0;3
+Enhancer.create( Class type , Callback callback );1;0;6
+Enhancer.getImplSignature( MethodInfo method );1;0;3
+Enhancer.getThisType( CodeEmitter e );2;1;8
+Enhancer.nextInstance( Object instance );3;1;13

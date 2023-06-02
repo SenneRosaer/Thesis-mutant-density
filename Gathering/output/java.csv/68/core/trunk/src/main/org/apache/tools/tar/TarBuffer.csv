@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TarBuffer.getCurrentBlockNum( );1;0;3
+TarBuffer.initialize( int blockSize , int recordSize );2;3;14
+TarBuffer.writeRecord( byte [ ] record );5;5;22
+***not in a method***;0;1;0
+TarBuffer.skipRecord( );5;4;15
+TarBuffer.TarBuffer( OutputStream outStream , int blockSize , int recordSize );1;0;5
+TarBuffer.TarBuffer( InputStream inStream );1;0;3
+TarBuffer.close( );7;6;18
+TarBuffer.getBlockSize( );1;0;3
+TarBuffer.TarBuffer( OutputStream outStream , int blockSize );1;0;3
+TarBuffer.setDebug( boolean debug );1;0;3
+TarBuffer.TarBuffer( OutputStream outStream );1;0;3
+TarBuffer.isEOFRecord( byte [ ] record );3;3;8
+TarBuffer.getCurrentRecordNum( );1;1;3
+TarBuffer.writeBlock( );3;2;12
+TarBuffer.writeRecord( byte [ ] buf , int offset );5;6;22
+TarBuffer.readRecord( );5;5;20
+TarBuffer.getRecordSize( );1;0;3
+TarBuffer.TarBuffer( InputStream inStream , int blockSize , int recordSize );1;0;5
+TarBuffer.readBlock( );8;10;33
+TarBuffer.TarBuffer( InputStream inStream , int blockSize );1;0;3
+TarBuffer.flushBlock( );4;2;11

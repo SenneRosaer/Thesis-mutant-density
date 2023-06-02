@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MyWebRequestInterceptor.preHandle( WebRequest request );1;0;3
+MyHandlerInterceptor1.postHandle( HttpServletRequest request , HttpServletResponse response , Object handler , @ Nullable ModelAndView modelAndView );3;2;9
+MyWebRequestInterceptor.postHandle( WebRequest request , @ Nullable ModelMap model );1;0;3
+MockMultipartResolver.getMultipartHeaders( String paramOrFileName );1;0;3
+MyHandlerAdapter.supports( Object handler );2;2;3
+MyServlet.getServletConfig( );1;0;3
+MockMultipartResolver.cleanupMultipart( MultipartHttpServletRequest request );2;1;6
+MyHandlerInterceptor2.postHandle( HttpServletRequest request , HttpServletResponse response , Object handler , @ Nullable ModelAndView modelAndView );4;3;12
+MyDummyAdapter.supports( Object handler );2;2;3
+MockMultipartResolver.getMultipartContentType( String paramOrFileName );1;0;3
+MyDummyAdapter.handle( HttpServletRequest request , HttpServletResponse response , Object delegate );1;0;3
+NoViewController.handleRequest( HttpServletRequest request , HttpServletResponse response );1;0;3
+MyServlet.init( ServletConfig servletConfig );1;0;3
+ComplexLocaleChecker.doSomething( HttpServletRequest request );19;18;61
+MyHandlerInterceptor1.afterCompletion( HttpServletRequest request , HttpServletResponse response , Object handler , Exception ex );3;2;9
+ComplexWebApplicationContext.refresh( );1;0;81
+MockMultipartResolver.resolveMultipart( HttpServletRequest request );4;2;22
+MyHandlerInterceptor2.preHandle( HttpServletRequest request , HttpServletResponse response , Object handler );3;2;12
+MyServlet.destroy( );1;0;3
+MyHandlerAdapter.getLastModified( HttpServletRequest request , Object delegate );1;0;3
+MockMultipartResolver.isMultipart( HttpServletRequest request );1;0;3
+ComplexLocaleChecker.lastModified( );1;0;3
+MyServlet.getServletInfo( );1;0;3
+MyHandlerInterceptor2.afterCompletion( HttpServletRequest request , HttpServletResponse response , Object handler , Exception ex );3;2;9
+BodyController.handleRequest( HttpServletRequest request , HttpServletResponse response );1;0;4
+MyDummyAdapter.getLastModified( HttpServletRequest request , Object delegate );1;1;3
+TestApplicationListener.onApplicationEvent( RequestHandledEvent event );1;1;3
+MyHandlerInterceptor1.preHandle( HttpServletRequest request , HttpServletResponse response , Object handler );2;1;9
+MyServlet.service( ServletRequest servletRequest , ServletResponse servletResponse );1;0;3
+MyHandlerAdapter.getOrder( );1;0;3
+MyHandlerAdapter.handle( HttpServletRequest request , HttpServletResponse response , Object delegate );1;0;4
+MyWebRequestInterceptor.afterCompletion( WebRequest request , @ Nullable Exception ex );1;0;3
+HeadController.handleRequest( HttpServletRequest request , HttpServletResponse response );2;0;6

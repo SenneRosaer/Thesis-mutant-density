@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SearchEngine.findModuleRevisionIds( DependencyResolver resolver , ModuleRevisionId pattern , PatternMatcher matcher );16;13;76
+SearchEngine.listTokenValues( String token , Map otherTokenValues );3;2;11
+SearchEngine.SearchEngine( IvySettings settings );1;0;3
+SearchEngine.listOrganisations( );3;2;12
+SearchEngine.listModules( ModuleId moduleCrit , PatternMatcher matcher );3;2;21
+SearchEngine.listModules( ModuleRevisionId moduleCrit , PatternMatcher matcher );3;2;25
+SearchEngine.listModules( DependencyResolver resolver , ModuleRevisionId moduleCrit , PatternMatcher matcher );2;2;22
+SearchEngine.listRevisions( String org , String module );3;2;15
+SearchEngine.listRevisionEntries( ModuleEntry module );3;2;16
+SearchEngine.listModules( String org );3;2;14
+SearchEngine.listOrganisationEntries( );3;2;13
+SearchEngine.listModuleEntries( OrganisationEntry org );3;2;15
+SearchEngine.addMatcher( PatternMatcher patternMatcher , String expression , Map criteria , String key );3;1;11

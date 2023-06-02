@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RealMethodCall.isInvokable( );1;0;3
+MockMethodAdvice.isMocked( Object instance );2;1;3
+MockMethodAdvice.handleStatic( Class < ? > type , Method origin , Object [ ] arguments );4;3;15
+ReturnValueWrapper.call( );1;0;3
+ConstructorShortcut.toFrames( Object self , List < TypeDescription > types );10;6;25
+ForEquals.enter( @ Identifier String identifier , @ Advice . This Object self );2;2;4
+MockMethodAdvice.removeRecursiveCalls( final Throwable cause , final Class < ? > declaringClass );4;4;20
+SerializableRealMethodCall.SerializableRealMethodCall( String identifier , Method origin , Object instance , Object [ ] arguments );1;0;6
+ReturnValueWrapper.ReturnValueWrapper( Object returned );1;0;3
+MockMethodAdvice.tryInvoke( Method origin , Object instance , Object [ ] arguments );2;0;11
+ConstructorShortcut.wrap( TypeDescription instrumentedType , MethodDescription instrumentedMethod , MethodVisitor methodVisitor , Implementation . Context implementationContext , TypePool typePool , int writerFlags , int readerFlags );27;7;227
+ConstructorShortcut.visitMaxs( int maxStack , int maxLocals );2;1;12
+ForHashCode.enter( @ Identifier String id , @ Advice . This Object self );2;2;4
+MockMethodAdvice.isMockedStatic( Class < ? > type );5;3;7
+ForEquals.enter( @ Advice . This Object self , @ Advice . Argument ( 0 ) Object other , @ Advice . Return ( readOnly = false ) boolean equals , @ Advice . Enter boolean skipped );2;1;5
+MockMethodAdvice.handle( Object instance , Method origin , Object [ ] arguments );3;1;15
+RealMethodCall.RealMethodCall( SelfCallInfo selfCallInfo , Method origin , Object instance , Object [ ] arguments );1;0;6
+ForStatic.exit( @ Advice . Return ( readOnly = false , typing = Assigner . Typing . DYNAMIC ) Object returned , @ Advice . Enter Callable < ? > mocked );2;1;5
+SelfCallInfo.checkSelfCall( Object value );2;1;8
+ForStatic.enter( @ Identifier String identifier , @ Advice . Origin Class < ? > type , @ Advice . Origin Method origin , @ Advice . AllArguments Object [ ] arguments );3;3;8
+ConstructorShortcut.visitCode( );19;7;186
+MockMethodAdvice.enter( @ Identifier String identifier , @ Advice . This Object mock , @ Advice . Origin Method origin , @ Advice . AllArguments Object [ ] arguments );4;4;10
+StaticMethodCall.invoke( );1;0;4
+MockMethodAdvice.isMock( Object instance );2;2;3
+RealMethodCall.invoke( );1;0;4
+SelfCallInfo.replace( Object value );1;0;5
+ForHashCode.enter( @ Advice . This Object self , @ Advice . Return ( readOnly = false ) int hashCode , @ Advice . Enter boolean skipped );2;0;5
+StaticMethodCall.isInvokable( );1;0;3
+ForReadObject.doReadObject( @ Identifier String identifier , @ This MockAccess thiz , @ Argument ( 0 ) ObjectInputStream objectInputStream );2;1;8
+MockMethodAdvice.isConstructorMock( Class < ? > type );1;0;3
+MockMethodAdvice.MockMethodAdvice( WeakConcurrentMap < Object , MockMethodInterceptor > interceptors , DetachedThreadLocal < Map < Class < ? > , MockMethodInterceptor > > mockedStatics , String identifier , Predicate < Class < ? > > isMockConstruction , ConstructionCallback onConstruction );1;0;7
+MockMethodAdvice.isOverridden( Object instance , Method origin );4;5;18
+SerializableRealMethodCall.isInvokable( );1;0;3
+ConstructorShortcut.ConstructorShortcut( String identifier );1;0;3
+StaticMethodCall.StaticMethodCall( SelfCallInfo selfCallInfo , Class < ? > type , Method origin , Object [ ] arguments );1;0;6
+MockMethodAdvice.handleConstruction( Class < ? > type , Object object , Object [ ] arguments , String [ ] parameterTypeNames );1;0;3
+MockMethodAdvice.exit( @ Advice . Return ( readOnly = false , typing = Assigner . Typing . DYNAMIC ) Object returned , @ Advice . Enter Callable < ? > mocked );2;1;5
+SerializableRealMethodCall.invoke( );2;1;16

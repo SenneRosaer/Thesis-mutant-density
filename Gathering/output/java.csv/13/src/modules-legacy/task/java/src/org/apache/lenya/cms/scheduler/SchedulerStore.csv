@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SchedulerStore.restoreJobs( Publication publication );4;2;22
+SchedulerStore.createSnapshot( NamespaceHelper helper , Publication publication , JobWrapper [ ] jobs );3;3;15
+SchedulerStore.getNamespaceHelper( );2;0;8
+SchedulerStore.getJobElements( Publication publication );6;2;32
+SchedulerStore.restoreJob( NamespaceHelper helper , Element jobElement , Publication publication );5;2;36
+SchedulerStore.SchedulerStore( );1;0;2
+SchedulerStore.getSnapshot( Publication publication , JobWrapper [ ] jobs );1;0;8
+SchedulerStore.getNamespaceHelper( Document document );1;0;3
+SchedulerStore.writeSnapshot( Publication publication , JobWrapper [ ] jobs );7;1;25
+SchedulerStore.getJobsFile( Publication publication );1;0;6

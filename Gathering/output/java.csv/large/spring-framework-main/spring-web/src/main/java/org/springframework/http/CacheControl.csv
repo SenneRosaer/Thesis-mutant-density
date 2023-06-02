@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CacheControl.getHeaderValue( );2;0;4
+CacheControl.empty( );1;0;3
+CacheControl.mustRevalidate( );1;0;4
+CacheControl.noCache( );1;0;5
+CacheControl.appendDirective( StringBuilder builder , String value );2;1;6
+CacheControl.proxyRevalidate( );1;0;4
+CacheControl.staleWhileRevalidate( long staleWhileRevalidate , TimeUnit unit );1;0;3
+CacheControl.sMaxAge( Duration sMaxAge );1;0;4
+CacheControl.cachePrivate( );1;0;4
+CacheControl.noTransform( );1;0;4
+CacheControl.noStore( );1;0;5
+CacheControl.maxAge( Duration maxAge );1;0;5
+CacheControl.toString( );1;0;3
+CacheControl.staleIfError( long staleIfError , TimeUnit unit );1;0;3
+CacheControl.CacheControl( );1;0;2
+CacheControl.staleIfError( Duration staleIfError );1;0;4
+CacheControl.cachePublic( );1;0;4
+CacheControl.staleWhileRevalidate( Duration staleWhileRevalidate );1;0;4
+CacheControl.maxAge( long maxAge , TimeUnit unit );1;0;3
+CacheControl.sMaxAge( long sMaxAge , TimeUnit unit );1;0;3
+CacheControl.toHeaderValue( );12;4;37

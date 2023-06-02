@@ -1,0 +1,69 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReferenceEntry.ReferenceEntry( AbstractReferenceMap parent , HashEntry next , int hashCode , Object key , Object value );1;0;6
+ReferenceEntrySetIterator.currentEntry( );1;0;4
+ReferenceValues.toArray( Object [ ] arr );2;0;7
+AbstractReferenceMap.createEntrySetIterator( );1;0;3
+ReferenceValuesIterator.next( );1;0;3
+AbstractReferenceMap.keySet( );2;1;6
+ReferenceEntry.equals( Object obj );6;6;16
+ReferenceEntry.getKey( );2;1;3
+WeakRef.hashCode( );1;0;3
+ReferenceKeySetIterator.next( );1;0;3
+ReferenceEntrySet.toArray( Object [ ] arr );2;0;9
+ReferenceEntrySetIterator.nextEntry( );3;2;13
+ReferenceEntry.hashCode( );1;0;3
+AbstractReferenceMap.values( );2;1;6
+ReferenceMapIterator.ReferenceMapIterator( AbstractReferenceMap parent );1;0;3
+ReferenceKeySetIterator.ReferenceKeySetIterator( AbstractReferenceMap parent );1;0;3
+AbstractReferenceMap.entrySet( );2;1;6
+ReferenceValues.ReferenceValues( AbstractHashedMap parent );1;0;3
+ReferenceEntrySetIterator.ReferenceEntrySetIterator( AbstractReferenceMap parent );2;1;6
+ReferenceMapIterator.next( );1;0;3
+ReferenceEntry.getValue( );2;1;3
+SoftRef.hashCode( );1;0;3
+AbstractReferenceMap.purge( );2;1;7
+AbstractReferenceMap.verify( String name , int type );3;3;5
+ReferenceEntrySetIterator.hasNext( );6;5;24
+ReferenceEntry.next( );1;0;3
+AbstractReferenceMap.put( Object key , Object value );3;2;10
+AbstractReferenceMap.isEqualKey( Object key1 , Object key2 );3;3;4
+AbstractReferenceMap.purgeBeforeRead( );1;0;3
+AbstractReferenceMap.purge( Reference ref );4;3;19
+ReferenceEntrySetIterator.remove( );2;1;11
+ReferenceMapIterator.setValue( Object value );2;1;7
+AbstractReferenceMap.createKeySetIterator( );1;0;3
+AbstractReferenceMap.mapIterator( );1;0;3
+AbstractReferenceMap.init( );1;0;3
+AbstractReferenceMap.getEntry( Object key );2;1;7
+AbstractReferenceMap.AbstractReferenceMap( int keyType , int valueType , int capacity , float loadFactor , boolean purgeValues );1;0;8
+AbstractReferenceMap.clear( );2;1;4
+ReferenceEntrySet.ReferenceEntrySet( AbstractHashedMap parent );1;0;3
+AbstractReferenceMap.doWriteObject( ObjectOutputStream out );2;0;12
+ReferenceEntrySetIterator.checkMod( );2;1;5
+ReferenceEntrySetIterator.nextNull( );2;3;3
+ReferenceKeySet.toArray( );1;0;3
+ReferenceEntrySet.toArray( );1;0;3
+ReferenceValuesIterator.ReferenceValuesIterator( AbstractReferenceMap parent );1;0;3
+AbstractReferenceMap.AbstractReferenceMap( );1;0;3
+ReferenceMapIterator.getKey( );2;1;7
+AbstractReferenceMap.doReadObject( ObjectInputStream in );3;1;18
+ReferenceMapIterator.getValue( );2;1;7
+ReferenceKeySet.toArray( Object [ ] arr );2;0;7
+AbstractReferenceMap.createValuesIterator( );1;0;3
+ReferenceEntry.purge( Reference ref );8;9;15
+AbstractReferenceMap.purgeBeforeWrite( );1;0;3
+AbstractReferenceMap.get( Object key );2;1;8
+ReferenceEntry.setValue( Object obj );2;1;8
+AbstractReferenceMap.hashEntry( Object key , Object value );3;3;4
+ReferenceKeySet.ReferenceKeySet( AbstractHashedMap parent );1;0;3
+SoftRef.SoftRef( int hash , Object r , ReferenceQueue q );1;0;4
+ReferenceEntrySetIterator.next( );1;0;3
+AbstractReferenceMap.containsValue( Object value );2;1;7
+ReferenceEntry.toReference( int type , Object referent , int hash );4;0;8
+AbstractReferenceMap.isEmpty( );1;0;4
+AbstractReferenceMap.size( );1;0;4
+ReferenceValues.toArray( );1;0;3
+WeakRef.WeakRef( int hash , Object r , ReferenceQueue q );1;0;4
+AbstractReferenceMap.createEntry( HashEntry next , int hashCode , Object key , Object value );1;0;3
+AbstractReferenceMap.containsKey( Object key );2;2;8
+AbstractReferenceMap.remove( Object key );2;1;7

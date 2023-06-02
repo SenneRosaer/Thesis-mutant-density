@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResponseEntityResultHandlerTests.handleWithPresetContentType( );1;0;12
+ResponseEntityResultHandlerTests.responseEntityStatusCode( );1;0;10
+ResponseEntityResultHandlerTests.handleReturnValueEtag( );1;0;9
+ResponseEntityResultHandlerTests.handleReturnValueETagAndLastModified( );1;0;14
+ResponseEntityResultHandlerTests.handleWithObjectMapperByTypeRegistration( );2;1;22
+ResponseEntityResultHandlerTests.assertConditionalResponse( MockServerWebExchange exchange , HttpStatus status , String body , String etag , Instant lastModified );4;2;17
+TestController.fluxWildcard( );1;0;1
+ResponseEntityResultHandlerTests.httpHeaders( );1;0;12
+ResponseEntityResultHandlerTests.handleWithProducibleContentTypeShouldFailWithServerError( );1;0;17
+ResponseEntityResultHandlerTests.handleMonoWithWildcardBodyType( );1;0;9
+ResponseEntityResultHandlerTests.testHandle( Object returnValue , MethodParameter returnType );1;0;8
+ResponseEntityResultHandlerTests.supports( );1;0;20
+ResponseEntityResultHandlerTests.doesNotSupport( );1;0;9
+ResponseEntityResultHandlerTests.createHandler( );2;0;11
+Person.Person( );1;0;2
+ResponseEntityResultHandlerTests.defaultOrder( );1;0;3
+TestController.mono( );1;0;1
+ResponseEntityResultHandlerTests.responseEntityHeaders( );1;0;12
+ResponseEntityResultHandlerTests.handleWithPresetContentTypeShouldFailWithServerError( );1;0;15
+TestController.completableFuture( );1;0;1
+TestController.string( );1;0;1
+ResponseEntityResultHandlerTests.handleReturnValueChangedETagAndLastModified( );1;0;15
+TestController.responseEntityVoid( );1;0;1
+ResponseEntityResultHandlerTests.malformedAcceptHeader( );1;0;12
+TestController.httpHeaders( );1;0;1
+ResponseEntityResultHandlerTests.handleMonoWithWildcardBodyTypeAndNullBody( );1;0;9
+ResponseEntityResultHandlerTests.handleProblemDetail( );1;0;16
+TestController.responseEntityString( );1;0;1
+TestController.object( );1;0;1
+TestController.single( );1;0;1
+ResponseEntityResultHandlerTests.assertResponseBody( MockServerWebExchange exchange , String responseBody );1;0;6
+Person.getName( );1;0;3
+Person.setName( String name );1;0;3
+ResponseEntityResultHandlerTests.entity( Class < ? > bodyType );1;0;3
+TestController.responseEntityPerson( );1;0;1
+TestController.problemDetail( );1;0;1
+TestController.errorResponse( );1;0;1
+ResponseEntityResultHandlerTests.handleReturnValueEtagInvalidIfNoneMatch( );1;0;9
+TestController.completable( );1;0;1
+Person.Person( String name );1;0;3
+ResponseEntityResultHandlerTests.handleErrorResponse( );1;0;18
+ResponseEntityResultHandlerTests.handleResponseEntityWithNullBody( );1;0;9
+ResponseEntityResultHandlerTests.assertResponseBodyIsEmpty( MockServerWebExchange exchange );1;0;3
+ResponseEntityResultHandlerTests.handleReturnTypes( );1;0;16
+ResponseEntityResultHandlerTests.handleReturnValueLastModified( );1;0;11
+ResponseEntityResultHandlerTests.handlerResult( Object returnValue , MethodParameter returnType );1;0;3
+TestController.monoResponseEntityWildcard( );1;0;1

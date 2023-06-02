@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CachingSourceFactory.getSource( final String location , final Map parameters );9;10;39
+CachingSourceFactory.getScheme( );1;0;3
+CachingSourceFactory.createCachingSource( String uri , String wrappedUri , Source wrappedSource , int expires , String cacheName );7;2;52
+CachingSourceFactory.lazyInitialize( );6;0;23
+CachingSourceFactory.absolutize( String baseURI , String location );1;0;3
+CachingSourceFactory.release( Source source );3;0;10
+CachingSourceFactory.isAsync( );1;0;3
+CachingSourceFactory.dispose( );4;3;15
+CachingSourceFactory.service( ServiceManager manager );1;0;3
+CachingSourceFactory.configure( Configuration configuration );4;1;17
+CachingSourceFactory.CachingSourceFactory( );1;0;2

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Embedded.setOutputStream( OutputStream outputStream );1;0;5
+Embedded.registerTagLibrary( String namespaceURI , TagLibrary taglib );2;1;4
+Embedded.registerTagLibrary( String namespaceURI , String className );2;1;4
+Embedded.getContext( );1;0;3
+Embedded.setScript( InputStream scriptAsInputStream );1;0;4
+Embedded.compileScriptAndKeep( );4;0;19
+Embedded.setScript( String scriptAsString );3;0;13
+Embedded.Embedded( );1;0;2
+Embedded.setVariable( String name , Object value );1;0;3
+Embedded.setErrorMsg( String errorMsg );1;0;3
+Embedded.getErrorMsg( );1;0;3
+Embedded.setContext( JellyContext context );1;0;3
+Embedded.resolveURL( String name );2;0;7
+Embedded.execute( );9;2;30

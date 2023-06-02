@@ -1,0 +1,97 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FlowController.alwaysTrackPreviousPage( );1;0;3
+FlowController.onDestroy( );1;0;2
+FlowController.getMapping( );1;0;3
+FlowController.saveActionErrors( ActionMessages errors );3;2;10
+FlowController.getDataSource( HttpServletRequest request );1;0;3
+FlowController.getActions( );2;2;10
+FlowController.handleException( Throwable ex , ActionMapping mapping , ActionForm form , HttpServletRequest request , HttpServletResponse response );1;0;15
+FlowController.getActionURI( String actionName );2;1;10
+FlowController.execute( ActionMapping mapping , ActionForm form , HttpServletRequest request , HttpServletResponse response );5;1;47
+FlowController.addActionErrorExpression( String propertyName , String expression , Object [ ] messageArgs );1;0;3
+FlowController.getFormBean( ActionMapping mapping );7;3;32
+FlowController.login( String username , String password );1;0;4
+FlowController.isTokenValid( boolean reset );1;0;3
+FlowController.getHandlerContext( );1;0;3
+FlowController.addActionError( String propertyName , String messageKey , Object [ ] messageArgs );1;0;3
+FlowController.resetToken( HttpServletRequest request );1;0;3
+FlowController.setPerRequestState( PerRequestState state );2;3;10
+FlowController.afterAction( );1;0;2
+FlowController.generateToken( );1;0;3
+FlowController.isTokenValid( );1;0;3
+FlowController.internalExecute( ActionMapping mapping , ActionForm form , HttpServletRequest request , HttpServletResponse response );19;15;101
+FlowController.getModuleConfig( ServletContext servletContext , HttpServletRequest request );1;0;3
+FlowController.getRequest( );2;1;7
+FlowController.refresh( HttpServletRequest request , HttpServletResponse response );1;0;11
+FlowController.savePreviousActionInfo( ActionForm form , HttpServletRequest request , ActionMapping mapping , ServletContext servletContext );1;0;2
+PerRequestState.getResponse( );1;0;3
+FlowController.FlowController( );1;0;2
+FlowController.isUserInRole( String roleName );1;0;4
+FlowController.getRewrittenActionURI( String actionName , Map parameters , boolean asValidXml );2;1;11
+FlowController.resolveAction( String actionName , Object form , HttpServletRequest request , HttpServletResponse response );5;4;21
+FlowController.getResponse( );2;1;7
+FlowController.saveErrors( HttpServletRequest request , ActionMessages errors );1;0;3
+FlowController.resetToken( );1;0;3
+FlowController.invokeActionMethod( Method method , Object arg , HttpServletRequest request , ActionMapping mapping );9;4;40
+FlowController.getSession( );2;1;7
+FlowController.savePreviousPageInfo( ActionForward forward , ActionForm form , ActionMapping mapping , HttpServletRequest request , ServletContext servletContext , boolean isSpecialForward );1;0;2
+FlowController.isCancelled( HttpServletRequest request );1;1;3
+FlowController.alwaysTrackPreviousAction( );1;0;3
+FlowController.getCurrentActionName( );1;0;3
+FlowController.retrieveUserLocale( HttpServletRequest request , String locale );4;3;8
+FlowController.getDefaultLocale( );1;0;3
+FlowController.generateToken( HttpServletRequest request );1;0;3
+FlowController.getLocale( );1;0;3
+PerRequestState.getRequest( );1;0;3
+FlowController.getMessageResources( String key );1;1;3
+FlowController.logout( boolean invalidateSessions );1;0;4
+FlowController.lookup( String actionName , ServletContext context , HttpServletRequest request , HttpServletResponse response , String actionServletClassName );1;0;3
+***not in a method***;0;1;0
+FlowController.isTokenValid( HttpServletRequest request , boolean reset );1;0;3
+FlowController.getRequestProcessor( );4;4;20
+FlowController.remove( );1;0;3
+FlowController.invokeActionMethod( Method method , Object arg );1;0;3
+FlowController.isAction( String name );1;2;3
+FlowController.getFormClass( Object form , ActionMapping mapping , HttpServletRequest request );4;2;11
+FlowController.getActionMapping( );2;1;7
+FlowController.reinitialize( HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );1;0;3
+FlowController.sendError( String errText , HttpServletRequest request , HttpServletResponse response );1;0;4
+FlowController.onRefresh( );1;0;2
+FlowController.theModuleConfig( );1;0;3
+FlowController.isPageFlow( );1;0;3
+FlowController.createNotLoggedInException( String actionName , HttpServletRequest request );2;0;10
+FlowController.saveMessages( HttpServletRequest request , ActionMessages messages );3;2;8
+FlowController.getActionMethod( String methodName , Class argType );9;10;36
+FlowController.handleSimpleAction( PageFlowActionMapping mapping , ActionForm wrappedFormBean , HttpServletRequest request , ServletContext servletContext );8;2;41
+FlowController.decrementRequestCount( HttpServletRequest request );1;2;4
+FlowController.isTokenValid( HttpServletRequest request );1;0;3
+FlowController.destroy( RequestContext requestContext , HttpSession session );4;4;11
+PerRequestState.PerRequestState( HttpServletRequest request , HttpServletResponse response , ActionMapping actionMapping );1;0;5
+FlowController.addValidationError( String propertyName , String messageKey );1;0;3
+FlowController.saveToken( HttpServletRequest request );1;0;3
+FlowController.getResources( HttpServletRequest request );1;0;3
+FlowController.create( HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );4;1;34
+FlowController.getResources( );1;0;3
+FlowController.getServlet( );1;0;3
+FlowController.destroy( HttpSession session );1;0;3
+FlowController.getUserPrincipal( );1;0;4
+FlowController.incrementRequestCount( HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );7;8;39
+FlowController.setLocale( HttpServletRequest request , Locale locale );2;1;8
+FlowController.onDestroy( HttpSession session );1;0;2
+FlowController.getMessageResources( );1;0;3
+FlowController.getModuleConfig( );2;3;8
+FlowController.getDataSource( HttpServletRequest request , String key );1;1;3
+FlowController.getActionMethodForward( String actionName , Object inputForm , HttpServletRequest request , HttpServletResponse response , ActionMapping mapping );4;2;18
+FlowController.getFormQualifiedActionPath( Class formClass , String actionPath );1;0;6
+FlowController.addValidationError( String propertyName , String messageKey , Object [ ] messageArgs );1;0;3
+FlowController.onCreate( );1;0;2
+FlowController.sendError( String errText , HttpServletResponse response );1;0;3
+FlowController.forwardTo( ActionForward fwd , ActionMapping mapping , PageFlowExceptionConfig exceptionConfig , String actionName , ModuleConfig altModuleConfig , ActionForm form , HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );1;0;5
+FlowController.getLocale( HttpServletRequest request );2;1;5
+FlowController.resolveAction( String actionName , Object form );1;0;3
+PerRequestState.getActionMapping( );1;0;3
+FlowController.setLocale( Locale locale );2;1;4
+FlowController.invokeExceptionHandler( Method method , Throwable ex , String message , ActionForm wrappedFormBean , PageFlowExceptionConfig exceptionConfig , ActionMapping actionMapping , HttpServletRequest request , HttpServletResponse response );12;4;66
+FlowController.beforeAction( );1;0;2
+FlowController.lookup( String actionName , ServletContext context , HttpServletRequest request , HttpServletResponse response );1;0;3
+FlowController.getResources( HttpServletRequest request , String key );1;0;3

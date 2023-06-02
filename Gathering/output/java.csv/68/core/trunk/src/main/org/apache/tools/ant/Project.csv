@@ -1,0 +1,126 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Project.setNewProperty( String name , String value );1;0;3
+Project.copyFile( File sourceFile , File destFile , boolean filtering );2;0;4
+Project.copyFile( String sourceFile , String destFile , boolean filtering , boolean overwrite );2;0;4
+Project.fireMessageLogged( Task task , String message , Throwable throwable , int priority );1;0;5
+Project.setName( String name );1;0;4
+Project.getTaskDefinitions( );1;0;3
+Project.initProperties( );1;0;6
+Project.getUserProperties( );1;0;3
+Project.setFileLastModified( File file , long time );1;0;4
+Project.copyFile( File sourceFile , File destFile , boolean filtering , boolean overwrite );2;0;4
+Project.copyFile( File sourceFile , File destFile , boolean filtering , boolean overwrite , boolean preserveLastModified );2;0;4
+Project.getReference( String key );5;2;16
+Project.setInputHandler( InputHandler handler );1;0;3
+Project.getThreadTask( Thread thread );4;4;13
+Project.getTargets( );1;0;3
+Project.setDefaultInputStream( InputStream defaultInputStream );1;0;3
+Project.setProperty( String name , String value );1;0;3
+Project.demuxOutput( String output , boolean isWarning );4;1;12
+Project.resolveFile( String fileName );1;0;3
+Project.replaceProperties( String value );1;0;3
+Project.initSubProject( Project subProject );1;0;7
+Project.inheritIDReferences( Project parent );1;0;3
+Project.setAntLib( );2;1;7
+Project.getUserProperty( String propertyName );1;0;3
+Project.addOrReplaceTarget( String targetName , Target target );1;0;6
+Project.setDefault( String defaultTarget );1;0;4
+Project.setJavaVersionProperty( );3;1;11
+Project.setProjectReference( final Object obj );4;1;15
+Project.resolveFile( String fileName , File rootDir );1;0;3
+Project.fireMessageLogged( Target target , String message , int priority );1;0;3
+AntRefTable.get( Object key );2;0;9
+Project.fireMessageLoggedEvent( BuildEvent event , String message , int priority );4;4;20
+Project.getProject( Object o );4;1;13
+Project.getReferences( );1;0;3
+AntRefTable.AntRefTable( );1;0;3
+Project.getElementName( Object element );1;0;3
+Project.addOrReplaceTarget( Target target );1;0;3
+Project.addDataTypeDefinition( String typeName , Class typeClass );1;0;4
+Project.setUserProperty( String name , String value );1;0;3
+Project.getDefaultInputStream( );1;0;3
+Project.checkTaskClass( final Class taskClass );6;2;28
+Project.fireBuildStarted( );2;2;7
+Project.demuxInput( byte [ ] buffer , int offset , int length );2;1;8
+Project.addTarget( String targetName , Target target );2;1;6
+Project.setPropertyInternal( String name , String value );1;0;3
+Project.demuxFlush( String output , boolean isError );4;1;12
+Project.log( String message , int msgLevel );1;0;3
+Project.fireTargetStarted( Target target );2;2;7
+Project.addTaskDefinition( String taskName , Class taskClass );1;0;4
+Project.addBuildListener( BuildListener listener );3;4;14
+Project.executeSortedTargets( Vector sortedTargets );14;7;62
+Project.getBaseDir( );3;1;10
+Project.initialValue( );1;0;3
+Project.addIdReference( String id , Object value );1;0;3
+Project.getJavaVersion( );1;0;3
+Project.getCoreLoader( );1;0;3
+Project.copyFile( String sourceFile , String destFile );1;0;3
+Project.topoSort( String root , Hashtable targetTable );1;0;3
+AntRefTable.getReal( Object key );1;0;3
+Project.executeTargets( Vector names );1;0;6
+Project.log( Task task , String message , int msgLevel );1;0;3
+Project.fireBuildFinished( Throwable exception );2;2;9
+Project.fireMessageLogged( Project project , String message , Throwable throwable , int priority );1;0;5
+Project.fireSubBuildFinished( Throwable exception );3;2;10
+Project.addTarget( Target target );1;0;3
+Project.log( String message );1;0;3
+Project.setDefaultTarget( String defaultTarget );1;0;3
+Project.fireTargetFinished( Target target , Throwable exception );2;2;8
+Project.addFilter( String token , String value );2;1;6
+Project.copyFile( String sourceFile , String destFile , boolean filtering , boolean overwrite , boolean preserveLastModified );2;0;4
+Project.defaultInput( byte [ ] buffer , int offset , int length );2;1;8
+Project.getBuildListeners( );2;2;9
+Project.addReference( String referenceName , Object value );4;4;12
+Project.getInheritedProperties( );1;0;3
+Project.toBoolean( String s );3;2;5
+Project.createDataType( String typeName );1;0;3
+Project.getProperty( String propertyName );2;1;4
+Project.getExecutor( );7;3;27
+Project.log( Target target , String message , Throwable throwable , int msgLevel );1;0;3
+Project.createClassLoader( ClassLoader parent , Path path );1;0;3
+Project.getDataTypeDefinitions( );1;0;3
+Project.removeBuildListener( BuildListener listener );3;7;15
+Project.translatePath( String toProcess );1;0;3
+Project.executeTarget( String targetName );2;1;7
+Project.createSubProject( );2;0;10
+Project.getFilters( );1;0;3
+Project.setKeepGoingMode( boolean keepGoingMode );1;0;3
+Project.setExecutor( Executor e );1;0;3
+Project.createTask( String taskType );1;0;3
+Project.setSystemProperties( );3;1;11
+Project.copyInheritedProperties( Project other );1;0;3
+Project.fireMessageLogged( Target target , String message , Throwable throwable , int priority );1;0;5
+Project.setBaseDir( File baseDir );3;2;15
+Project.topoSort( String [ ] root , Hashtable targetTable , boolean returnAll );10;9;33
+Project.copyUserProperties( Project other );1;0;3
+Project.log( Task task , String message , Throwable throwable , int msgLevel );1;0;3
+Project.fireSubBuildStarted( );3;2;9
+Project.fireMessageLogged( Project project , String message , int priority );1;0;3
+Project.getInputHandler( );1;0;3
+Project.getDescription( );2;1;6
+Project.getResource( String name );1;0;3
+Project.getProperties( );1;0;3
+Project.copyFile( File sourceFile , File destFile );1;0;3
+Project.tsort( String root , Hashtable targetTable , Hashtable state , Stack visiting , Vector ret );7;5;36
+Project.isKeepGoingMode( );1;0;3
+Project.fireTaskStarted( Task task );2;2;8
+Project.getDefaultTarget( );1;0;3
+Project.topoSort( String root , Hashtable targetTable , boolean returnAll );1;0;3
+Project.setCoreLoader( ClassLoader coreLoader );1;0;3
+Project.Project( );1;0;3
+Project.getGlobalFilterSet( );1;0;3
+Project.copyFile( String sourceFile , String destFile , boolean filtering );2;0;4
+Project.hasReference( String key );1;0;3
+Project.setBasedir( String baseD );1;0;3
+Project.log( String message , Throwable throwable , int msgLevel );1;0;3
+Project.registerThreadTask( Thread thread , Task task );2;1;11
+Project.fireMessageLogged( Task task , String message , int priority );1;0;3
+Project.log( Target target , String message , int msgLevel );1;0;3
+Project.init( );1;0;4
+Project.setDescription( String description );1;0;3
+Project.fireTaskFinished( Task task , Throwable exception );2;2;11
+Project.setInheritedProperty( String name , String value );1;0;3
+Project.createClassLoader( Path path );1;0;4
+Project.getName( );1;0;3
+Project.makeCircularException( String end , Stack stk );2;1;11

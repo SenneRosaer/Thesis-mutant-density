@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestController.getBody( String body );1;0;4
+InvocableHandlerMethodTests.invocationTargetException( );1;0;7
+TestController.response( ServerHttpResponse response );1;0;3
+InvocableHandlerMethodTests.assertHandlerResultValue( Mono < HandlerResult > mono , String expected );1;0;6
+InvocableHandlerMethodTests.stubResolver( Mono < Object > stubValue );1;0;6
+InvocableHandlerMethodTests.invoke( Object handler , Method method , Object ... providedArgs );1;0;5
+InvocableHandlerMethodTests.voidMethodWithExchangeArg( );1;0;7
+InvocableHandlerMethodTests.cannotResolveArg( );1;0;7
+InvocableHandlerMethodTests.illegalArgumentException( );1;0;12
+TestController.exceptionMethod( );1;0;3
+InvocableHandlerMethodTests.voidMonoMethodWithResponseArg( );1;0;8
+InvocableHandlerMethodTests.exceptionInResolvingArg( );1;0;8
+InvocableHandlerMethodTests.resolveProvidedArgFirst( );1;0;6
+InvocableHandlerMethodTests.resolveNoArgValue( );1;0;6
+InvocableHandlerMethodTests.stubResolver( Object stubValue );1;0;3
+InvocableHandlerMethodTests.resolveArg( );1;0;6
+TestController.exchange( ServerWebExchange exchange );1;0;3
+InvocableHandlerMethodTests.resolveProvidedArg( );1;0;5
+InvocableHandlerMethodTests.voidMonoMethodWithExchangeArg( );1;0;7
+InvocableHandlerMethodTests.checkNotModified( );1;2;8
+TestController.responseMonoVoid( ServerHttpResponse response );1;0;4
+InvocableHandlerMethodTests.responseStatusAnnotation( );1;0;6
+InvocableHandlerMethodTests.invokeForResult( Object handler , Method method , Object ... providedArgs );1;0;3
+TestController.created( );1;0;3
+InvocableHandlerMethodTests.resolveNoArgs( );1;0;5
+TestController.notModified( ServerWebExchange exchange );2;1;6
+TestController.singleArg( String q );1;0;3
+TestController.noArgs( );1;0;3
+InvocableHandlerMethodTests.voidMethodWithResponseArg( );1;0;8
+TestController.exchangeMonoVoid( ServerWebExchange exchange );1;0;4

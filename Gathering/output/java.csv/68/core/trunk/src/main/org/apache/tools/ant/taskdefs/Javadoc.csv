@@ -1,0 +1,158 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Javadoc.expand( String content );1;0;3
+Javadoc.setLink( String src );1;0;3
+Javadoc.createSourceFiles( );1;0;3
+Javadoc.setExecutable( String executable );1;0;3
+Javadoc.addSource( SourceFile sf );1;0;3
+Javadoc.setPackage( boolean b );1;0;3
+JavadocOutputStream.JavadocOutputStream( int level );1;0;3
+Javadoc.accept( File dir1 , String name );3;2;5
+Javadoc.addTaglet( ExtensionInfo tagletInfo );1;0;3
+LinkArgument.LinkArgument( );1;0;2
+ResourceCollectionContainer.iterator( );1;0;3
+Javadoc.parsePackages( Vector pn , Path sp );17;10;85
+Javadoc.setSourcepath( Path src );2;1;7
+Javadoc.createLink( );1;0;5
+AccessType.getValues( );1;0;3
+Javadoc.quoteString( final String str , final char delim );7;5;38
+Javadoc.doGroups( Commandline toExecute );5;4;17
+LinkArgument.isLinkOffline( );1;0;3
+Javadoc.addPackage( PackageName pn );1;0;3
+Javadoc.quoteString( final String str );5;9;12
+Javadoc.setEncoding( String enc );1;0;4
+Javadoc.createDoclet( );2;1;6
+Javadoc.addArgIf( boolean b , String arg );2;0;5
+Javadoc.setDocFilesSubDirs( boolean b );1;0;3
+DocletParam.getValue( );1;0;3
+Javadoc.setSourcefiles( String src );2;0;9
+Javadoc.setUseExternalFile( boolean b );1;0;3
+TagArgument.getParameter( );8;11;13
+Javadoc.setHeader( String header );1;0;5
+TagArgument.setName( String name );1;0;3
+JavadocOutputStream.logFlush( );2;1;6
+LinkArgument.getHref( );1;0;3
+Javadoc.setMaxmemory( String max );1;0;3
+Javadoc.setPackageList( String src );1;0;3
+Javadoc.setVersion( boolean b );1;0;3
+Javadoc.setNodeprecatedlist( boolean b );1;0;3
+Javadoc.setAccess( AccessType at );1;0;3
+Javadoc.setDocletPath( Path docletPath );2;1;7
+Javadoc.containsWhitespace( final String s );3;2;9
+DocletInfo.getParams( );1;0;3
+Javadoc.setAuthor( boolean b );1;0;3
+Javadoc.setLocale( String locale );1;0;4
+Javadoc.setHelpfile( File f );1;0;4
+Javadoc.addSourceFiles( Vector sf );8;4;27
+Javadoc.setNodeprecated( boolean b );1;0;3
+Javadoc.addHeader( Html text );1;0;3
+Javadoc.setLinkoffline( String src );3;2;16
+Javadoc.setDocencoding( String enc );1;0;4
+LinkArgument.setHref( String hr );1;0;3
+Javadoc.setOld( boolean b );1;0;4
+PackageName.setName( String name );1;0;3
+Javadoc.addPackageset( DirSet packageSet );1;0;3
+JavadocOutputStream.processLine( String line , int messageLevel );6;4;19
+GroupArgument.addPackage( PackageName pn );1;0;3
+Javadoc.createClasspath( );2;1;6
+Javadoc.setExtdirs( Path path );1;0;4
+DocletParam.setName( String name );1;0;3
+Javadoc.setIncludeNoSourcePackages( boolean b );1;0;3
+ExtensionInfo.createPath( );2;1;6
+Javadoc.setNonavbar( boolean b );1;0;3
+Javadoc.setExcludePackageNames( String packages );2;0;9
+Javadoc.doSourcePath( Commandline toExecute , Path sourceDirs );2;1;6
+Javadoc.checkPackagesToDoc( Vector packagesToDoc , Vector sourceFilesToDoc );4;5;7
+Javadoc.setBootclasspath( Path path );2;1;7
+SourceFile.getFile( );1;0;3
+DocletParam.getName( );1;0;3
+Javadoc.setSource( String source );1;0;3
+Javadoc.setDocletPathRef( Reference r );2;1;7
+LinkArgument.setOffline( boolean offline );1;0;3
+***not in a method***;0;1;0
+Javadoc.generalJavadocArguments( Commandline toExecute );13;13;36
+Javadoc.doJava14( Commandline toExecute );15;13;67
+Javadoc.checkPackages( Vector packagesToDoc , Path sourceDirs );3;3;7
+Javadoc.setFooter( String footer );1;0;5
+Javadoc.createSourcepath( );2;1;6
+TagArgument.setScope( String verboseScope );15;9;54
+Javadoc.setStylesheetfile( File f );1;0;4
+Javadoc.addFooter( Html text );1;0;3
+Javadoc.setClasspath( Path path );2;1;7
+Javadoc.setSplitindex( boolean b );1;0;3
+ResourceCollectionContainer.add( ResourceCollection rc );1;0;3
+Javadoc.setClasspathRef( Reference r );1;0;3
+GroupArgument.addTitle( Html text );1;0;3
+LinkArgument.setPackagelistURL( URL src );1;0;3
+Javadoc.setBreakiterator( boolean b );1;0;3
+Javadoc.doBootPath( Commandline toExecute );3;2;11
+Javadoc.setNohelp( boolean b );1;0;3
+Javadoc.setGroup( String src );1;0;3
+Javadoc.setPrivate( boolean b );1;0;3
+Javadoc.addDoctitle( Html text );1;0;3
+DocletInfo.createParam( );1;0;5
+SourceFile.setFile( File file );1;0;3
+LinkArgument.setPackagelistLoc( File src );1;0;3
+ExtensionInfo.setName( String name );1;0;3
+Javadoc.createArg( );1;0;3
+Javadoc.checkPackageAndSourcePath( );3;3;7
+LinkArgument.shouldResolveLink( );1;0;3
+PackageName.toString( );1;0;3
+ExtensionInfo.setPathRef( Reference r );1;0;3
+Javadoc.setNotree( boolean b );1;0;3
+DocletParam.setValue( String value );1;0;3
+Javadoc.setProtected( boolean b );1;0;3
+Javadoc.addBottom( Html text );1;0;3
+Javadoc.addArgIfNotEmpty( String key , String value );3;3;9
+Javadoc.doGroup( Commandline toExecute );4;3;16
+Html.addText( String t );1;0;3
+TagArgument.TagArgument( );1;0;2
+Javadoc.setDoctitle( String doctitle );1;0;5
+Javadoc.checkTaskName( );2;0;7
+Javadoc.setAdditionalparam( String add );1;0;3
+Javadoc.setDoclet( String docletName );2;1;7
+Html.getText( );1;0;3
+GroupArgument.getTitle( );2;1;3
+Javadoc.createBootclasspath( );2;1;6
+SourceFile.SourceFile( File file );1;0;3
+LinkArgument.getPackagelistLoc( );1;0;3
+Javadoc.doDoclet( Commandline toExecute );8;6;32
+LinkArgument.getPackagelistURL( );1;0;3
+Javadoc.setNoindex( boolean b );1;0;3
+Javadoc.execute( );16;10;91
+Javadoc.setWindowtitle( String title );1;0;3
+Javadoc.setDestdir( File dir );1;0;5
+Javadoc.setSourcepathRef( Reference r );1;0;3
+Javadoc.setExcludeDocFilesSubDir( String s );1;0;3
+Javadoc.setLinksource( boolean b );1;0;3
+Javadoc.setBootClasspathRef( Reference r );1;0;3
+Javadoc.createGroup( );1;0;5
+Javadoc.setDefaultexcludes( boolean useDefaultExcludes );1;0;3
+Javadoc.setBottom( String bottom );1;0;5
+TagArgument.setEnabled( boolean enabled );1;0;3
+ExtensionInfo.setPath( Path path );2;1;7
+Javadoc.setVerbose( boolean b );1;0;3
+GroupArgument.setPackages( String src );2;0;9
+Javadoc.doSourceAndPackageNames( Commandline toExecute , Vector packagesToDoc , Vector sourceFilesToDoc , boolean useExternalFile , File tmpList , PrintWriter srcListWriter );7;3;29
+LinkArgument.setResolveLink( boolean resolve );1;0;3
+Javadoc.setPackagenames( String packages );2;0;9
+Javadoc.createTag( );1;0;5
+Javadoc.setCharset( String src );1;0;3
+Javadoc.doLinks( Commandline toExecute );17;10;77
+Javadoc.doDocFilesSubDirs( Commandline toExecute );4;3;10
+GroupArgument.setTitle( String src );1;0;5
+Javadoc.addExcludePackage( PackageName pn );1;0;3
+ExtensionInfo.getName( );1;0;3
+Javadoc.setExtdirs( String path );1;0;4
+GroupArgument.getPackages( );3;3;10
+Javadoc.setPublic( boolean b );1;0;3
+GroupArgument.GroupArgument( );1;0;2
+Javadoc.setUse( boolean b );1;0;3
+Javadoc.setFailonerror( boolean b );1;0;3
+PackageName.getName( );1;0;3
+Javadoc.addFileset( FileSet fs );1;0;3
+Javadoc.setSerialwarn( boolean b );1;0;3
+Javadoc.setNoqualifier( String noqualifier );1;0;3
+ExtensionInfo.getPath( );1;0;3
+Javadoc.writeExternalArgs( Commandline toExecute );6;3;37
+Javadoc.setOverview( File f );1;0;4
+SourceFile.SourceFile( );1;0;2

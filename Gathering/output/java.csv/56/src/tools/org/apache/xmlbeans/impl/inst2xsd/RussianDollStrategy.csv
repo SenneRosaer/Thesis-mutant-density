@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SCTValidationContext.isValid( );1;0;3
+RussianDollStrategy.combineSimpleTypes( Type into , Type with , Inst2XsdOptions options );4;4;13
+RussianDollStrategy.combineTypes( Type into , Type with , Inst2XsdOptions options );28;38;63
+SCTValidationContext.invalid( String message );1;0;3
+RussianDollStrategy.processElementsInComplexType( Type elemType , List children , String parentNamespace , TypeSystemHolder typeSystemHolder , Inst2XsdOptions options );5;3;40
+RussianDollStrategy.combineElementsOfTypes( Type into , Type from , boolean makeElementsOptional , Inst2XsdOptions options );21;30;104
+RussianDollStrategy.processAttribute( XmlCursor xc , Inst2XsdOptions options , String parentNamespace , TypeSystemHolder typeSystemHolder );1;0;14
+RussianDollStrategy.combineToMoreGeneralSimpleType( QName t1 , QName t2 );42;30;39
+RussianDollStrategy.combineAttributesOfTypes( Type into , Type from );7;8;32
+RussianDollStrategy.combineElementComments( Element into , Element with );4;5;9
+RussianDollStrategy.checkIfReferenceToGlobalTypeIsNeeded( Element elem , TypeSystemHolder typeSystemHolder , Inst2XsdOptions options );1;0;2
+RussianDollStrategy.processElement( XmlCursor xc , String comment , Inst2XsdOptions options , TypeSystemHolder typeSystemHolder );21;7;92
+RussianDollStrategy.processAttributesInComplexType( Type elemType , List attributes );2;0;8
+RussianDollStrategy.processSimpleContentType( String lexicalValue , Inst2XsdOptions options , final XmlCursor xc );20;9;79
+SCTValidationContext.resetToValid( );1;0;3
+RussianDollStrategy.checkIfElementReferenceIsNeeded( Element child , String parentNamespace , TypeSystemHolder typeSystemHolder , Inst2XsdOptions options );3;1;16
+RussianDollStrategy.getNamespaceForPrefix( String prefix );1;0;1
+SCTValidationContext.invalid( String code , Object [ ] args );1;0;3
+RussianDollStrategy.checkIfAttributeReferenceIsNeeded( Attribute attribute , String parentNamespace , TypeSystemHolder typeSystemHolder );3;3;12
+RussianDollStrategy.processDoc( XmlObject [ ] instances , Inst2XsdOptions options , TypeSystemHolder typeSystemHolder );5;3;19
+RussianDollStrategy.addGlobalElement( Element withElem , TypeSystemHolder typeSystemHolder , Inst2XsdOptions options );2;1;15

@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Validator.setOnlyReturnErrors( boolean onlyReturnErrors );1;0;3
+Validator.setParameter( String parameterClassName , Object parameterValue );1;0;3
+Validator.setClassLoader( ClassLoader classLoader );1;0;3
+Validator.getOnlyReturnErrors( );1;0;3
+Validator.getUseContextClassLoader( );1;0;3
+Validator.getFormName( );1;0;3
+Validator.setFormName( String formName );1;0;3
+Validator.setPage( int page );1;0;3
+Validator.getParameterValue( String parameterClassName );1;0;3
+Validator.setUseContextClassLoader( boolean use );1;0;3
+Validator.Validator( ValidatorResources resources , String formName );2;1;7
+Validator.clear( );1;0;6
+Validator.validate( );3;2;17
+Validator.Validator( ValidatorResources resources );1;0;3
+Validator.getClassLoader( );4;2;12
+Validator.setFieldName( String fieldName );1;0;3
+Validator.getPage( );1;0;3
+Validator.Validator( ValidatorResources resources , String formName , String fieldName );2;1;8

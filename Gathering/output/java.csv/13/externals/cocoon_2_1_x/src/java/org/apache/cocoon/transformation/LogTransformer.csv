@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LogTransformer.startDTD( String name , String publicId , String systemId );2;1;6
+LogTransformer.startCDATA( );2;1;6
+LogTransformer.recycle( );3;1;9
+LogTransformer.endCDATA( );2;1;6
+LogTransformer.endDocument( );2;1;6
+LogTransformer.ignorableWhitespace( char ch [ ] , int start , int len );2;1;6
+LogTransformer.startPrefixMapping( String prefix , String uri );2;1;6
+LogTransformer.skippedEntity( String name );2;1;6
+LogTransformer.startEntity( String name );2;1;6
+LogTransformer.endDTD( );2;1;6
+LogTransformer.setup( SourceResolver resolver , Map objectModel , String src , Parameters parameters );4;1;27
+LogTransformer.setDocumentLocator( Locator locator );3;2;6
+LogTransformer.characters( char ch [ ] , int start , int len );2;1;6
+LogTransformer.destroy( );3;1;5
+LogTransformer.endEntity( String name );2;1;6
+LogTransformer.endElement( String uri , String loc , String raw );2;1;6
+LogTransformer.startElement( String uri , String loc , String raw , Attributes a );3;9;14
+LogTransformer.processingInstruction( String target , String data );2;1;6
+LogTransformer.endPrefixMapping( String prefix );2;1;6
+LogTransformer.comment( char ch [ ] , int start , int len );2;1;6
+LogTransformer.log( String location , String description );4;1;23
+LogTransformer.startDocument( );2;1;6

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FreeMarkerView.checkResourceExists( Locale locale );4;0;17
+FreeMarkerView.getCharset( @ Nullable MediaType mediaType );1;0;3
+FreeMarkerView.setEncoding( @ Nullable String encoding );1;0;3
+FreeMarkerView.getConfiguration( );1;0;3
+FreeMarkerView.getTemplateModel( Map < String , Object > model , ServerWebExchange exchange );1;0;5
+FreeMarkerView.getTemplate( Locale locale );2;1;5
+FreeMarkerView.getEncoding( );1;0;3
+FreeMarkerView.setConfiguration( @ Nullable Configuration configuration );1;0;3
+FreeMarkerView.setExposeSpringMacroHelpers( boolean exposeSpringMacroHelpers );1;0;3
+FreeMarkerView.autodetectConfiguration( );2;0;12
+FreeMarkerView.getObjectWrapper( );2;1;5
+FreeMarkerView.getModelAttributes( @ Nullable Map < String , ? > model , ServerWebExchange exchange );5;3;14
+FreeMarkerView.renderInternal( Map < String , Object > renderAttributes , @ Nullable MediaType contentType , ServerWebExchange exchange );3;1;23
+FreeMarkerView.obtainConfiguration( );1;1;5
+FreeMarkerView.afterPropertiesSet( );2;1;7

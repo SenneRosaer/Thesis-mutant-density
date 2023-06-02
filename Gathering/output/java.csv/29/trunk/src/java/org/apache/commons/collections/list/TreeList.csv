@@ -1,0 +1,57 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AVLNode.indexOf( Object object , int index );6;9;15
+TreeList.listIterator( int fromIndex );1;0;4
+TreeList.size( );1;0;3
+AVLNode.removeSelf( );14;18;45
+AVLNode.get( int index );4;4;11
+AVLNode.getHeight( AVLNode node );2;2;3
+AVLNode.getOffset( AVLNode node );2;1;6
+AVLNode.next( );3;2;6
+AVLNode.getValue( );1;0;3
+AVLNode.getRightSubTree( );2;0;3
+TreeList.TreeList( Collection coll );1;0;4
+TreeListIterator.previous( );3;4;15
+AVLNode.max( );2;1;3
+TreeList.set( int index , Object obj );1;1;7
+TreeList.remove( int index );1;3;8
+AVLNode.insertOnLeft( int indexRelativeToMe , Object obj );3;4;14
+TreeListIterator.hasPrevious( );1;1;3
+AVLNode.rotateLeft( );1;3;13
+TreeList.toArray( );2;1;7
+AVLNode.removeMin( );3;3;11
+AVLNode.setValue( Object obj );1;0;3
+TreeListIterator.remove( );3;6;16
+AVLNode.insertOnRight( int indexRelativeToMe , Object obj );3;4;14
+TreeList.get( int index );1;1;4
+TreeList.checkInterval( int index , int startIndex , int endIndex );3;3;5
+AVLNode.heightRightMinusLeft( );1;1;3
+AVLNode.setLeft( AVLNode node , AVLNode previous );2;1;5
+TreeListIterator.hasNext( );1;1;3
+TreeListIterator.next( );3;3;14
+AVLNode.remove( int index );5;7;19
+AVLNode.insert( int index , Object obj );2;2;8
+TreeListIterator.nextIndex( );1;0;3
+TreeList.iterator( );1;0;3
+TreeListIterator.TreeListIterator( TreeList parent , int fromIndex );2;2;8
+AVLNode.min( );2;1;3
+AVLNode.previous( );3;2;6
+TreeList.TreeList( );1;0;3
+AVLNode.setOffset( AVLNode node , int newOffest );2;1;8
+AVLNode.balance( );8;4;20
+TreeListIterator.previousIndex( );1;1;3
+TreeList.listIterator( );1;0;3
+TreeList.add( int index , Object obj );2;3;10
+AVLNode.AVLNode( int relativePosition , Object obj , AVLNode rightFollower , AVLNode leftFollower );1;0;8
+TreeListIterator.checkModCount( );2;1;5
+TreeList.indexOf( Object object );2;2;6
+TreeListIterator.add( Object obj );1;3;8
+TreeList.contains( Object object );1;1;3
+AVLNode.toString( );1;2;4
+AVLNode.rotateRight( );1;3;13
+AVLNode.getLeftSubTree( );2;0;3
+TreeList.clear( );1;1;5
+AVLNode.recalcHeight( );3;5;5
+AVLNode.toArray( Object [ ] array , int index );3;4;9
+AVLNode.removeMax( );3;3;11
+AVLNode.setRight( AVLNode node , AVLNode next );2;1;5
+TreeListIterator.set( Object obj );2;1;7

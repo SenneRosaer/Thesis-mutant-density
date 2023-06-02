@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NotTransactional.noop( );1;0;2
+TransactionAspectTests.defaultCommitOnSubclassOfClassWithTransactionalMethodAnnotated( );1;0;6
+TransactionAspectTests.defaultCommitOnAnnotatedClass( );1;0;6
+TransactionAspectTests.defaultCommitOnSubclassOfAnnotatedClass( );1;0;6
+TransactionAspectTests.initContext( );1;0;3
+TransactionAspectTests.noCommitOnImplementationOfAnnotatedInterface( );1;0;4
+TransactionAspectTests.commitOnAnnotatedProtectedMethod( );1;0;6
+TransactionAspectTests.testRollback( TransactionOperationCallback toc , boolean rollback );3;0;14
+TransactionAspectTests.testNotTransactional( TransactionOperationCallback toc , Throwable expected );1;0;8
+TransactionAspectTests.notTransactional( );1;0;6
+TransactionAspectTests.commitOnAnnotatedMethod( );1;0;6
+TransactionAspectTests.defaultRollbackOnAnnotatedClass( );1;0;6
+TransactionAspectTests.commitOnAnnotatedPrivateMethod( );1;0;6
+TransactionAspectTests.commitOnNonAnnotatedNonPublicMethodInTransactionalType( );1;0;6
+ImplementsAnnotatedInterface.echo( Throwable t );2;1;6
+TransactionAspectTests.testCommitOnAnnotatedClass( );1;0;6
+TransactionAspectTests.noRollbackOnImplementationOfAnnotatedInterface( );1;0;5

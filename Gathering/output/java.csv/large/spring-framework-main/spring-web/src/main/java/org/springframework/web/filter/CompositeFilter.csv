@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VirtualFilterChain.doFilter( final ServletRequest request , final ServletResponse response );2;3;10
+CompositeFilter.doFilter( ServletRequest request , ServletResponse response , FilterChain chain );1;0;3
+CompositeFilter.destroy( );2;2;6
+CompositeFilter.setFilters( List < ? extends Filter > filters );1;0;3
+CompositeFilter.init( FilterConfig config );2;0;5
+VirtualFilterChain.VirtualFilterChain( FilterChain chain , List < ? extends Filter > additionalFilters );1;0;4

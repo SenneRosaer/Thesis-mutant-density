@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractCachingProcessingPipeline.getTransformerKey( final Transformer transformer );3;0;10
+AbstractCachingProcessingPipeline.getSerializerKey( );3;0;10
+AbstractCachingProcessingPipeline.releaseLock( Object key );7;6;24
+AbstractCachingProcessingPipeline.generateCachingKey( Environment environment );8;9;47
+AbstractCachingProcessingPipeline.getGeneratorKey( );3;0;10
+AbstractCachingProcessingPipeline.connectPipeline( Environment environment );4;3;10
+AbstractCachingProcessingPipeline.processReader( Environment environment );35;26;151
+AbstractCachingProcessingPipeline.setSerializer( String role , String source , Parameters param , Parameters hintParam , String mimeType );1;0;4
+AbstractCachingProcessingPipeline.generateLock( Environment env , Object key );8;5;24
+AbstractCachingProcessingPipeline.getValidityForInternalPipeline( int index );14;11;37
+AbstractCachingProcessingPipeline.setupFromCacheKey( );1;0;4
+AbstractCachingProcessingPipeline.waitForLock( Environment env , Object key );9;7;34
+DeferredPipelineValidity.DeferredPipelineValidity( AbstractCachingProcessingPipeline pipeline , int index );1;0;4
+AbstractCachingProcessingPipeline.setupPipeline( Environment environment );2;1;8
+AbstractCachingProcessingPipeline.setupValidities( );11;16;42
+AbstractCachingProcessingPipeline.addTransformer( String role , String source , Parameters param , Parameters hintParam );1;0;4
+AbstractCachingProcessingPipeline.setReader( String role , String source , Parameters param , String mimeType );1;0;4
+AbstractCachingProcessingPipeline.recycle( );1;0;12
+AbstractCachingProcessingPipeline.setGenerator( String role , String source , Parameters param , Parameters hintParam );1;0;4
+AbstractCachingProcessingPipeline.getValidityForEventPipeline( );15;20;38
+AbstractCachingProcessingPipeline.processXMLPipeline( Environment environment );22;18;81
+AbstractCachingProcessingPipeline.validatePipeline( Environment environment );37;35;143
+AbstractCachingProcessingPipeline.getKeyForEventPipeline( );8;10;16
+AbstractCachingProcessingPipeline.parameterize( Parameters params );4;0;14
+DeferredPipelineValidity.getValidity( );1;0;3

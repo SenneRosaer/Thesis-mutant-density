@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InvokeContext.setLastProcessor( Processor p );1;0;3
+InvokeContext.isBuildingPipelineOnly( );1;0;3
+InvokeContext.setInternalPipelineDescription( Processor . InternalPipelineDescription desc );1;0;8
+InvokeContext.service( ServiceManager manager );2;1;7
+InvokeContext.getMapStack( );1;0;3
+InvokeContext.hasPipeline( );1;1;3
+InvokeContext.setRedirector( Redirector redirector );1;0;3
+InvokeContext.dumpParameters( );5;5;23
+InvokeContext.inform( String pipelineType , Parameters parameters );1;0;4
+InvokeContext.pushMap( String anchorName , Map map );6;4;23
+InvokeContext.InvokeContext( InvokeContext context , ServiceManager manager );1;0;7
+InvokeContext.getPipelineType( );1;0;3
+InvokeContext.InvokeContext( );1;0;3
+InvokeContext.getInternalPipelineDescription( Environment env );2;1;8
+InvokeContext.getMapByAnchor( String anchor );1;0;3
+InvokeContext.InvokeContext( boolean isBuildingPipelineOnly );1;0;3
+InvokeContext.dispose( );5;5;16
+InvokeContext.getRedirector( );1;0;3
+InvokeContext.popMap( );2;2;9
+InvokeContext.getProcessingPipeline( );2;3;10
+InvokeContext.getPipelineParameters( );1;0;3
+InvokeContext.setErrorHandler( SitemapErrorHandler handler );1;0;3

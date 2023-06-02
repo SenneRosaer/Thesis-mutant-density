@@ -1,0 +1,90 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Reporter.unsupportedCombinationOfAnnotations( String undesiredAnnotationOne , String undesiredAnnotationTwo );1;0;8
+Reporter.serializableWontWorkForObjectsThatDontImplementSerializable( Class < ? > classToMock );1;0;13
+Reporter.createTooManyInvocationsMessage( int wantedCount , int actualCount , DescribedInvocation wanted , List < Location > invocations );1;0;9
+Reporter.noMoreInteractionsWantedInOrder( Invocation undesired );1;0;10
+Reporter.unfinishedVerificationException( Location location );1;0;14
+Reporter.strictnessDoesNotAcceptNullParameter( );1;0;3
+Reporter.mocksHaveToBePassedToVerifyNoMoreInteractions( );1;0;9
+Reporter.missingMethodInvocation( );1;0;14
+Reporter.noInteractionsWanted( Object mock , List < VerificationAwareInvocation > invocations );2;0;17
+Reporter.cannotInjectDependency( Field field , Object matchingMock , Exception details );1;0;14
+Reporter.invalidArgumentPositionRangeAtInvocationTime( InvocationOnMock invocation , boolean willReturnLastParameter , int argumentIndex );2;1;19
+Reporter.atMostAndNeverShouldNotBeUsedWithTimeout( );1;0;12
+Reporter.mockedTypeIsInconsistentWithSpiedInstanceType( Class < ? > mockedType , Object spiedInstance );1;0;13
+Reporter.methodDoesNotAcceptParameter( String method , String parameter );1;1;4
+Reporter.wrongTypeOfReturnValue( String expectedType , String actualType , String methodName );1;2;14
+Reporter.unncessaryStubbingException( List < Invocation > unused );1;0;3
+Reporter.nullPassedToVerify( );1;0;11
+Reporter.noArgumentValueWasCaptured( );1;0;14
+Reporter.fieldInitialisationThrewException( Field field , Throwable details );1;0;14
+Reporter.missingByteBuddyDependency( Throwable t );4;3;14
+Reporter.wantedAtMostX( int maxNumberOfInvocations , int foundSize );1;0;8
+Reporter.cannotStubVoidMethodWithAReturnValue( String methodName );1;0;21
+Reporter.moreThanOneAnnotationNotAllowed( String fieldName );1;0;8
+Reporter.tooFewActualInvocations( org . mockito . internal . reporting . Discrepancy discrepancy , DescribedInvocation wanted , List < Location > allLocations );1;0;4
+Reporter.extraInterfacesCannotContainMockedType( Class < ? > wrongType );1;0;7
+Reporter.createTooFewInvocationsMessage( org . mockito . internal . reporting . Discrepancy discrepancy , DescribedInvocation wanted , List < Location > locations );3;2;12
+Reporter.spyAndDelegateAreMutuallyExclusive( );1;0;5
+Reporter.wrongTypeReturnedByDefaultAnswer( Object mock , String expectedType , String actualType , String methodName );1;2;12
+Reporter.notAMockPassedToVerifyNoMoreInteractions( );1;0;9
+Reporter.tooManyActualInvocations( int wantedCount , int actualCount , DescribedInvocation wanted , List < Location > locations );1;0;5
+Reporter.cannotVerifyToString( );1;0;9
+Reporter.nullPassedWhenCreatingInOrder( );1;0;8
+Reporter.locationsOf( Collection < LocalizedMatcher > matchers );2;0;7
+Reporter.formatUnncessaryStubbingException( Class < ? > testClass , Collection < Invocation > unnecessaryStubbings );3;2;19
+Reporter.inOrderRequiresFamiliarMock( );1;0;8
+Reporter.onlyVoidMethodsCanBeSetToDoNothing( );1;0;11
+Reporter.notAMockPassedToWhenMethod( );1;0;7
+Reporter.invocationListenerThrewException( InvocationListener listener , Throwable listenerThrowable );1;0;9
+Reporter.nullPassedToWhenMethod( );1;0;8
+Reporter.notAMockPassedWhenCreatingInOrder( );1;0;8
+Reporter.cannotCreateTimerWithNegativeDurationTime( long durationMillis );1;0;10
+Reporter.defaultAnswerDoesNotAcceptNullParameter( );1;0;3
+Reporter.incorrectUseOfApi( );1;0;12
+Reporter.unfinishedStubbing( Location location );1;0;17
+Reporter.wantedButNotInvoked( DescribedInvocation wanted );1;0;3
+Reporter.tooManyActualInvocationsInOrder( int wantedCount , int actualCount , DescribedInvocation wanted , List < Location > invocations );1;0;5
+Reporter.wrongTypeOfArgumentToReturn( InvocationOnMock invocation , String expectedType , Class < ? > actualType , int argumentIndex );1;0;30
+Reporter.cannotMockClass( Class < ? > clazz , String reason );1;0;7
+Reporter.appendNotMatchingPositions( Invocation actualInvocation , MatchableInvocation matchableInvocation , StringBuilder messageBuilder );4;3;15
+Reporter.requiresAtLeastOneListener( String method );1;0;3
+Reporter.stubPassedToVerify( Object mock );1;0;8
+Reporter.cannotInitializeForSpyAnnotation( String fieldName , Exception details );1;0;13
+Reporter.notAMockPassedToVerify( Class < ? > type );1;0;12
+Reporter.smartNullPointerException( String invocation , Location location );1;0;10
+Reporter.extraInterfacesRequiresAtLeastOneInterface( );1;0;3
+Reporter.neverWantedButInvoked( DescribedInvocation wanted , List < Invocation > invocations );1;0;9
+Reporter.argumentsAreDifferent( Invocation actualInvocation , MatchableInvocation matchableInvocation , String wanted , List < String > actualCalls , List < Location > actualLocations );5;7;29
+Reporter.extraInterfacesDoesNotAcceptNullParameters( );1;0;3
+Reporter.tooFewActualInvocationsInOrder( org . mockito . internal . reporting . Discrepancy discrepancy , DescribedInvocation wanted , List < Location > locations );1;0;4
+Reporter.cannotInitializeForInjectMocksAnnotation( String fieldName , String causeMessage );1;0;14
+Reporter.Reporter( );1;0;1
+Reporter.noMoreInteractionsWanted( Invocation undesired , List < VerificationAwareInvocation > invocations );1;0;13
+Reporter.wantedButNotInvokedInOrder( DescribedInvocation wanted , DescribedInvocation previous );1;0;12
+Reporter.mocksHaveToBePassedWhenCreatingInOrder( );1;0;8
+Reporter.misplacedArgumentMatcher( List < LocalizedMatcher > lastMatchers );1;0;23
+Reporter.mockedTypeIsInconsistentWithDelegatedInstanceType( Class < ? > mockedType , Object delegatedInstance );1;0;13
+Reporter.incorrectUseOfAdditionalMatchers( String additionalMatcherName , int expectedSubMatchersCount , Collection < LocalizedMatcher > matcherStack );1;1;25
+Reporter.potentialStubbingProblem( Invocation actualInvocation , Collection < Invocation > argMismatchStubbings );2;2;27
+Reporter.createAllLocationsMessage( List < Location > locations );3;1;10
+Reporter.createAllLocationsArgsMessage( List < Invocation > invocations );3;1;14
+Reporter.cannotStubWithNullThrowable( );1;0;3
+Reporter.reportNoSubMatchersFound( String additionalMatcherName );1;0;7
+Reporter.notAnException( );1;0;6
+Reporter.invalidArgumentRangeAtIdentityAnswerCreationTime( );1;0;8
+Reporter.exceptionCauseMessageIfAvailable( Exception details );2;1;6
+Reporter.wantedButNotInvoked( DescribedInvocation wanted , List < ? extends DescribedInvocation > invocations );3;1;17
+Reporter.nullPassedToVerifyNoMoreInteractions( );1;0;8
+Reporter.cannotCallAbstractRealMethod( );1;0;8
+Reporter.delegatedMethodHasWrongReturnType( Method mockMethod , Method delegateMethod , Object mock , Object delegate );1;0;14
+Reporter.createWantedButNotInvokedMessage( DescribedInvocation wanted );1;0;3
+Reporter.extraInterfacesAcceptsOnlyInterfaces( Class < ? > wrongType );1;0;8
+Reporter.delegatedMethodDoesNotExistOnDelegate( Method mockMethod , Object mock , Object delegate );1;0;11
+Reporter.invalidUseOfMatchers( int expectedMatchersCount , List < LocalizedMatcher > recordedMatchers );1;2;21
+Reporter.inlineClassWithoutUnboxImpl( Class < ? > inlineClass , Exception details );1;0;7
+Reporter.usingConstructorWithFancySerializable( SerializableMode mode );1;0;6
+Reporter.checkedExceptionInvalid( Throwable t );1;0;4
+Reporter.redundantMockitoListener( String listenerType );1;0;12
+Reporter.possibleArgumentTypesOf( InvocationOnMock invocation );6;6;23
+Reporter.unfinishedMockingSession( );1;0;7

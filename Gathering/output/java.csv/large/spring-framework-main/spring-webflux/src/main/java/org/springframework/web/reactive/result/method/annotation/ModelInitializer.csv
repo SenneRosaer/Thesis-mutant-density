@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ModelInitializer.ModelInitializer( ControllerMethodResolver methodResolver , ReactiveAdapterRegistry adapterRegistry );1;0;6
+ModelInitializer.isAsyncVoidType( ResolvableType type , @ Nullable ReactiveAdapter adapter );3;4;3
+ModelInitializer.handleResult( HandlerResult handlerResult , BindingContext bindingContext );3;1;13
+ModelInitializer.getNameForParameter( MethodParameter parameter );3;1;5
+ModelInitializer.findModelAttributes( HandlerMethod handlerMethod , SessionAttributesHandler sessionAttributesHandler );5;0;13
+ModelInitializer.initModel( HandlerMethod handlerMethod , InitBinderBindingContext bindingContext , ServerWebExchange exchange );3;2;23
+ModelInitializer.invokeModelAttributeMethods( BindingContext bindingContext , List < InvocableHandlerMethod > modelMethods , ServerWebExchange exchange );1;0;10
+ModelInitializer.getAttributeName( MethodParameter param );1;0;7

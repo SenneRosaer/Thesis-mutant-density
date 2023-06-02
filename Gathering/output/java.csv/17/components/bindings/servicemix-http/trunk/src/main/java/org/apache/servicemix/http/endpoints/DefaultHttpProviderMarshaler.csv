@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultHttpProviderMarshaler.getHeaders( );1;0;3
+DefaultHttpProviderMarshaler.createRequest( final MessageExchange exchange , final NormalizedMessage inMsg , final SmxHttpExchange httpExchange );6;4;24
+DefaultHttpProviderMarshaler.getLocationURI( );1;0;3
+DefaultHttpProviderMarshaler.setLocationURIExpression( Expression locationUriExpression );1;0;3
+DefaultHttpProviderMarshaler.setHeaders( Map < String , String > headers );1;0;3
+DefaultHttpProviderMarshaler.setContentTypeExpression( Expression contentTypeExpression );1;0;3
+DefaultHttpProviderMarshaler.getLocationURIExpression( );1;0;3
+DefaultHttpProviderMarshaler.getContentTypeExpression( );1;0;3
+DefaultHttpProviderMarshaler.getMethodExpression( );1;0;3
+DefaultHttpProviderMarshaler.getLocationUri( MessageExchange exchange , NormalizedMessage inMsg );5;4;14
+DefaultHttpProviderMarshaler.handleResponse( MessageExchange exchange , SmxHttpExchange httpExchange );7;5;33
+DefaultHttpProviderMarshaler.getContentType( MessageExchange exchange , NormalizedMessage inMsg );5;4;14
+DefaultHttpProviderMarshaler.getMethod( );1;0;3
+DefaultHttpProviderMarshaler.getMethod( MessageExchange exchange , NormalizedMessage inMsg );6;5;18
+DefaultHttpProviderMarshaler.handleException( MessageExchange exchange , SmxHttpExchange httpExchange , Throwable ex );1;0;3
+DefaultHttpProviderMarshaler.setLocationURI( String locationUri );1;0;3
+DefaultHttpProviderMarshaler.getContentType( );1;0;3
+DefaultHttpProviderMarshaler.setMethodExpression( Expression methodExpression );1;0;3
+DefaultHttpProviderMarshaler.setMethod( String method );1;0;3
+DefaultHttpProviderMarshaler.setContentType( String contentType );1;0;3

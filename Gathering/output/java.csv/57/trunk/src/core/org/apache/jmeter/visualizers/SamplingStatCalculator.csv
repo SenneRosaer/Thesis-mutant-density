@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SamplingStatCalculator.getSamples( );1;0;3
+SamplingStatCalculator.getMedian( );1;0;3
+SamplingStatCalculator.getMeanAsNumber( );1;0;3
+SamplingStatCalculator.getPercentPoint( float percent );1;0;3
+SamplingStatCalculator.setStartTime( SampleResult res );2;1;6
+SamplingStatCalculator.getPercentPoint( double percent );1;0;3
+SamplingStatCalculator.addSample( SampleResult res );5;12;43
+SamplingStatCalculator.getMaxThroughput( );1;0;3
+SamplingStatCalculator.getStandardDeviation( );1;0;3
+SamplingStatCalculator.getBytesPerSecond( );4;6;10
+SamplingStatCalculator.getMin( );2;1;6
+SamplingStatCalculator.getLabel( );1;0;3
+SamplingStatCalculator.SamplingStatCalculator( SamplingStatCalculator stat );1;0;4
+SamplingStatCalculator.getMax( );1;0;3
+SamplingStatCalculator.getDistribution( );1;0;3
+SamplingStatCalculator.getCurrentSample( );2;2;9
+SamplingStatCalculator.getElapsed( );2;2;6
+SamplingStatCalculator.getErrorPercentage( );2;2;8
+SamplingStatCalculator.getCount( );1;0;3
+SamplingStatCalculator.clear( );1;0;3
+SamplingStatCalculator.addSamples( SamplingStatCalculator ssc );2;1;11
+SamplingStatCalculator.SamplingStatCalculator( String label );1;0;4
+SamplingStatCalculator.getErrorCount( );1;0;3
+SamplingStatCalculator.getMean( );1;0;3
+SamplingStatCalculator.getKBPerSecond( );1;1;3
+SamplingStatCalculator.toString( );1;0;10
+SamplingStatCalculator.getPageSize( );4;6;10
+SamplingStatCalculator.getSample( int index );2;1;8
+SamplingStatCalculator.getAvgPageBytes( );4;6;10
+SamplingStatCalculator.SamplingStatCalculator( );1;0;3
+SamplingStatCalculator.init( );1;0;6
+SamplingStatCalculator.getRate( );2;1;6
+SamplingStatCalculator.getEndTime( SampleResult res );2;1;8

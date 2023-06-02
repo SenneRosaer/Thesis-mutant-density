@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Jackson2TokenizerTests.tokenizeStream( );1;0;31
+Jackson2TokenizerTests.createParser( );1;0;4
+Jackson2TokenizerTests.decode( List < String > source , boolean tokenize , int maxInMemorySize );2;0;15
+Jackson2TokenizerTests.doNotTokenizeArrayElements( );1;0;37
+Jackson2TokenizerTests.stringBuffer( String value );1;0;6
+Jackson2TokenizerTests.jsonEOFExceptionIsWrappedAsDecodingError( );1;1;8
+Jackson2TokenizerTests.tokenizeArrayElements( );1;0;68
+Jackson2TokenizerTests.testLimitTokenized( );1;1;20
+Jackson2TokenizerTests.errorInStream( );1;1;9
+Jackson2TokenizerTests.useBigDecimalForFloats( boolean useBigDecimalForFloats );3;1;24
+Jackson2TokenizerTests.testLimit( );1;1;16
+Jackson2TokenizerTests.testTokenize( List < String > input , List < String > output , boolean tokenize );2;1;12

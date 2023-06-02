@@ -1,0 +1,79 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DoubleOrderedMap.rotateRight( final Node node , final int index );4;3;17
+DoubleOrderedMap.doGetNext( );1;0;3
+DoubleOrderedMap.insertValue( final Node newNode );6;4;29
+DoubleOrderedMap.oppositeIndex( final int index );1;1;3
+DoubleOrderedMap.checkKey( final Object key );1;0;3
+DoubleOrderedMap.getGrandParent( final Node node , final int index );1;0;3
+DoubleOrderedMap.modify( );1;1;3
+Node.setBlack( final int index );1;0;3
+Node.getLeft( final int index );1;0;3
+DoubleOrderedMap.doGet( final Comparable o , final int index );2;1;7
+DoubleOrderedMap.removeAll( Collection c );3;2;10
+DoubleOrderedMapIterator.hasNext( );1;1;3
+DoubleOrderedMap.lookup( final Comparable data , final int index );4;3;16
+DoubleOrderedMap.isBlack( final Node node , final int index );2;1;5
+DoubleOrderedMapIterator.DoubleOrderedMapIterator( final int type );1;0;7
+DoubleOrderedMap.entrySet( );7;1;45
+DoubleOrderedMap.grow( );1;1;4
+DoubleOrderedMap.copyColor( final Node from , final Node to , final int index );3;2;9
+DoubleOrderedMap.DoubleOrderedMap( final Map map );1;0;3
+DoubleOrderedMap.makeBlack( final Node node , final int index );2;1;5
+DoubleOrderedMap.iterator( );1;0;7
+DoubleOrderedMap.makeRed( final Node node , final int index );2;1;5
+DoubleOrderedMap.DoubleOrderedMap( );1;0;2
+DoubleOrderedMapIterator.remove( );3;3;11
+DoubleOrderedMap.get( final Object key );1;0;3
+Node.getData( final int index );1;0;3
+Node.isRed( final int index );1;1;3
+DoubleOrderedMap.checkKeyAndValue( final Object key , final Object value );1;0;4
+Node.setParent( final Node node , final int index );1;0;3
+DoubleOrderedMap.keySetByValue( );2;1;28
+DoubleOrderedMap.swapPosition( final Node x , final Node y , final int index );17;16;74
+Node.getRight( final int index );1;0;3
+DoubleOrderedMap.keySet( );2;1;28
+DoubleOrderedMap.containsKey( final Object key );1;1;4
+Node.swapColors( final Node node , final int index );1;3;5
+DoubleOrderedMap.valuesByValue( );4;1;38
+DoubleOrderedMap.leastNode( final Node node , final int index );3;2;9
+DoubleOrderedMap.doRemove( final Comparable o , final int index );2;1;9
+DoubleOrderedMap.shrink( );1;1;4
+DoubleOrderedMap.entrySetByValue( );7;1;44
+DoubleOrderedMap.doRedBlackDelete( final Node deletedNode );13;12;49
+DoubleOrderedMap.nextGreater( final Node node , final int index );5;5;17
+***not in a method***;0;1;0
+DoubleOrderedMap.getParent( final Node node , final int index );2;1;5
+Node.setValue( Object ignored );1;0;4
+DoubleOrderedMap.getKeyForValue( final Object value );1;0;3
+Node.setLeft( final Node node , final int index );1;0;3
+DoubleOrderedMap.values( );4;1;38
+Node.setRed( final int index );1;0;3
+Node.Node( final Comparable key , final Comparable value );1;0;8
+Node.hashCode( );2;2;8
+DoubleOrderedMap.removeValue( final Object value );1;0;3
+Node.setRight( final Node node , final int index );1;0;3
+Node.getValue( );1;0;3
+DoubleOrderedMap.isLeftChild( final Node node , final int index );3;3;7
+DoubleOrderedMap.isRed( final Node node , final int index );2;1;5
+Node.equals( Object o );4;3;11
+DoubleOrderedMap.doRedBlackDeleteFixup( final Node replacementNode , final int index );12;4;64
+DoubleOrderedMap.checkNonNullComparable( final Object o , final int index );3;2;10
+DoubleOrderedMap.containsValue( final Object value );1;1;4
+Node.getKey( );1;0;3
+DoubleOrderedMap.clear( );1;0;3
+DoubleOrderedMap.remove( final Object key );1;0;3
+Node.copyColor( final Node node , final int index );1;0;3
+Node.getParent( final int index );1;0;3
+DoubleOrderedMap.isRightChild( final Node node , final int index );3;3;7
+DoubleOrderedMap.contains( Object o );3;6;10
+DoubleOrderedMap.compare( final Comparable o1 , final Comparable o2 );1;0;3
+DoubleOrderedMap.put( final Object key , final Object value );7;5;46
+DoubleOrderedMap.checkValue( final Object value );1;0;3
+DoubleOrderedMap.getRightChild( final Node node , final int index );2;1;5
+DoubleOrderedMap.getLeftChild( final Node node , final int index );2;1;5
+DoubleOrderedMap.doRedBlackInsert( final Node insertedNode , final int index );11;6;48
+DoubleOrderedMap.size( );1;0;3
+DoubleOrderedMap.rotateLeft( final Node node , final int index );4;3;17
+Node.isBlack( final int index );1;0;3
+DoubleOrderedMapIterator.next( );3;2;11
+DoubleOrderedMap.remove( Object o );4;10;14

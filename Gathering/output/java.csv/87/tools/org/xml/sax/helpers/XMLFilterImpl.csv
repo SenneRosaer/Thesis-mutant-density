@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLFilterImpl.fatalError( SAXParseException e );2;1;5
+XMLFilterImpl.setDocumentLocator( Locator locator );2;1;6
+XMLFilterImpl.XMLFilterImpl( );1;0;3
+XMLFilterImpl.setEntityResolver( EntityResolver resolver );1;0;3
+XMLFilterImpl.getFeature( String name );2;1;7
+XMLFilterImpl.setContentHandler( ContentHandler handler );1;0;3
+XMLFilterImpl.getEntityResolver( );1;0;3
+XMLFilterImpl.startDocument( );2;1;5
+XMLFilterImpl.getErrorHandler( );1;0;3
+XMLFilterImpl.skippedEntity( String name );2;1;5
+XMLFilterImpl.getDTDHandler( );1;0;3
+XMLFilterImpl.parse( InputSource input );1;0;4
+XMLFilterImpl.endDocument( );2;1;5
+XMLFilterImpl.setFeature( String name , boolean value );2;1;7
+XMLFilterImpl.setParent( XMLReader parent );1;0;3
+XMLFilterImpl.startElement( String uri , String localName , String qName , Attributes atts );2;1;5
+XMLFilterImpl.unparsedEntityDecl( String name , String publicId , String systemId , String notationName );2;1;6
+XMLFilterImpl.XMLFilterImpl( XMLReader parent );1;0;4
+XMLFilterImpl.endElement( String uri , String localName , String qName );2;1;5
+XMLFilterImpl.processingInstruction( String target , String data );2;1;5
+XMLFilterImpl.setProperty( String name , Object value );2;1;7
+XMLFilterImpl.setErrorHandler( ErrorHandler handler );1;0;3
+XMLFilterImpl.error( SAXParseException e );2;1;5
+XMLFilterImpl.parse( String systemId );1;0;3
+XMLFilterImpl.notationDecl( String name , String publicId , String systemId );2;1;5
+XMLFilterImpl.characters( char ch [ ] , int start , int length );2;1;5
+XMLFilterImpl.getContentHandler( );1;0;3
+XMLFilterImpl.ignorableWhitespace( char ch [ ] , int start , int length );2;1;5
+XMLFilterImpl.endPrefixMapping( String prefix );2;1;5
+XMLFilterImpl.setupParse( );2;1;9
+XMLFilterImpl.getProperty( String name );2;1;7
+XMLFilterImpl.setDTDHandler( DTDHandler handler );1;0;3
+XMLFilterImpl.warning( SAXParseException e );2;1;5
+XMLFilterImpl.startPrefixMapping( String prefix , String uri );2;1;5
+XMLFilterImpl.resolveEntity( String publicId , String systemId );2;1;7
+XMLFilterImpl.getParent( );1;0;3

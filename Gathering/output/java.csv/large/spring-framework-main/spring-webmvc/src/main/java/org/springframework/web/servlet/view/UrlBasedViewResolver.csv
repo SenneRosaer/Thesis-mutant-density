@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UrlBasedViewResolver.getAttributesMap( );1;0;3
+UrlBasedViewResolver.setOrder( int order );1;0;3
+UrlBasedViewResolver.getCacheKey( String viewName , Locale locale );1;0;3
+UrlBasedViewResolver.getSuffix( );1;0;3
+UrlBasedViewResolver.setRedirectContextRelative( boolean redirectContextRelative );1;0;3
+UrlBasedViewResolver.loadView( String viewName , Locale locale );2;0;5
+UrlBasedViewResolver.setPrefix( @ Nullable String prefix );2;1;3
+UrlBasedViewResolver.setRedirectHttp10Compatible( boolean redirectHttp10Compatible );1;0;3
+UrlBasedViewResolver.getExposePathVariables( );1;0;3
+UrlBasedViewResolver.getViewClass( );1;0;3
+UrlBasedViewResolver.instantiateView( );2;1;5
+UrlBasedViewResolver.setRequestContextAttribute( @ Nullable String requestContextAttribute );1;0;3
+UrlBasedViewResolver.setViewClass( @ Nullable Class < ? > viewClass );3;3;7
+UrlBasedViewResolver.setAttributes( Properties props );1;0;3
+UrlBasedViewResolver.canHandle( String viewName , Locale locale );2;2;4
+UrlBasedViewResolver.getViewNames( );1;0;3
+UrlBasedViewResolver.createView( String viewName , Locale locale );5;2;21
+UrlBasedViewResolver.setExposeContextBeansAsAttributes( boolean exposeContextBeansAsAttributes );1;0;3
+UrlBasedViewResolver.setAttributesMap( @ Nullable Map < String , ? > attributes );2;1;5
+UrlBasedViewResolver.setExposedContextBeanNames( @ Nullable String ... exposedContextBeanNames );1;0;3
+UrlBasedViewResolver.setContentType( @ Nullable String contentType );1;0;3
+UrlBasedViewResolver.getOrder( );1;0;3
+UrlBasedViewResolver.applyLifecycleMethods( String viewName , AbstractUrlBasedView view );3;1;10
+UrlBasedViewResolver.requiredViewClass( );1;0;3
+UrlBasedViewResolver.getPrefix( );1;0;3
+UrlBasedViewResolver.setExposePathVariables( @ Nullable Boolean exposePathVariables );1;0;3
+UrlBasedViewResolver.getExposedContextBeanNames( );1;0;3
+UrlBasedViewResolver.setViewNames( @ Nullable String ... viewNames );1;0;3
+UrlBasedViewResolver.isRedirectContextRelative( );1;0;3
+UrlBasedViewResolver.setSuffix( @ Nullable String suffix );2;1;3
+UrlBasedViewResolver.getExposeContextBeansAsAttributes( );1;0;3
+UrlBasedViewResolver.initApplicationContext( );2;1;6
+UrlBasedViewResolver.getContentType( );1;0;3
+UrlBasedViewResolver.getRequestContextAttribute( );1;0;3
+UrlBasedViewResolver.setRedirectHosts( @ Nullable String ... redirectHosts );1;0;3
+UrlBasedViewResolver.getRedirectHosts( );1;0;3
+UrlBasedViewResolver.isRedirectHttp10Compatible( );1;0;3
+UrlBasedViewResolver.buildView( String viewName );6;7;26

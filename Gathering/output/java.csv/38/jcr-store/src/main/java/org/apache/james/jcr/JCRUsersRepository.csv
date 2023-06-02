@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCRUsersRepository.addUser( String username , String password );6;2;43
+JCRUsersRepository.list( );6;0;31
+JCRUsersRepository.test( String username , String password );7;7;30
+JCRUsersRepository.addUser( User user );1;0;3
+JCRUsersRepository.updateUser( final User user );6;3;30
+JCRUsersRepository.containsCaseInsensitive( String name );1;0;3
+JCRUsersRepository.JCRUsersRepository( Repository repository );1;0;4
+JCRUsersRepository.getUserByName( String username );4;1;26
+JCRUsersRepository.JCRUsersRepository( );1;0;4
+JCRUsersRepository.JCRUsersRepository( Repository repository , Credentials credentials , String workspace , String path , Log logger );1;0;3
+JCRUsersRepository.getRealName( String name );1;0;3
+JCRUsersRepository.contains( String name );3;1;18
+JCRUsersRepository.countUsers( );4;0;22
+JCRUsersRepository.addUser( String name , Object attributes );2;0;7
+JCRUsersRepository.removeUser( String username );4;1;20
+JCRUsersRepository.getUserByNameCaseInsensitive( String name );1;0;3

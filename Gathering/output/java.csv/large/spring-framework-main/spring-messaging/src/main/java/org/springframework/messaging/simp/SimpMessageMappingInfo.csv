@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpMessageMappingInfo.combine( SimpMessageMappingInfo other );1;0;3
+SimpMessageMappingInfo.getMatchingCondition( Message < ? > message );2;1;4
+SimpMessageMappingInfo.SimpMessageMappingInfo( SimpMessageTypeMessageCondition messageTypeMessageCondition , DestinationPatternsMessageCondition destinationConditions );1;0;3
+SimpMessageMappingInfo.SimpMessageMappingInfo( CompositeMessageCondition delegate );1;0;3
+SimpMessageMappingInfo.getMessageTypeMessageCondition( );1;0;3
+SimpMessageMappingInfo.compareTo( SimpMessageMappingInfo other , Message < ? > message );1;0;3
+SimpMessageMappingInfo.getDestinationConditions( );1;0;3
+SimpMessageMappingInfo.toString( );1;0;3
+SimpMessageMappingInfo.equals( @ Nullable Object other );3;2;9
+SimpMessageMappingInfo.hashCode( );1;0;3

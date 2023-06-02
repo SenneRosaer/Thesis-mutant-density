@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+from( ServerRequest other );1;0;3
+create( HttpServletRequest servletRequest , List < HttpMessageConverter < ? > > messageReaders );1;0;3
+checkNotModified( String etag );1;0;4
+checkNotModified( Instant lastModified , String etag );1;0;5
+path( );1;0;3
+checkNotModified( Instant lastModified );1;0;4
+pathVariable( String name );2;0;9
+param( String name );3;1;13
+pathContainer( );1;0;3
+firstHeader( String headerName );2;0;4
+requestPath( );1;0;3
+attribute( String name );2;0;9

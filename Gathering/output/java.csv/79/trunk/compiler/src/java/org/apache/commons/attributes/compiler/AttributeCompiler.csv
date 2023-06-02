@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AttributeCompiler.elementHasAttributes( JavaField [ ] fields );3;2;8
+AttributeCompiler.addFileset( FileSet set );1;0;3
+AttributeCompiler.isAttribute( DocletTag tag );2;3;3
+AttributeCompiler.getTransformedQualifiedName( JavaClass type , StringBuffer sb );1;0;3
+AttributeCompiler.getParameterTypes( JavaParameter [ ] parameters );4;5;13
+AttributeCompiler.setSourcepathref( String pathref );2;0;11
+AttributeCompiler.addExpressions( DocletTag [ ] tags , String selector , PrintWriter pw , String collectionName , File sourceFile );8;6;36
+AttributeCompiler.outputAttributeExpression( PrintWriter pw , String expression , String filename , int line , String tempVariableName );6;3;28
+AttributeCompiler.generateClassAndInners( JavaClass clazz );2;2;7
+AttributeCompiler.hasAttributes( JavaClass javaClass );4;2;8
+AttributeCompiler.generateClass( JavaClass javaClass );25;32;163
+AttributeCompiler.setDestdir( File destDir );1;0;3
+AttributeCompiler.execute( );6;6;28
+AttributeCompiler.setAttributePackages( String attributePackages );1;0;3
+AttributeCompiler.addExpressions( DocletTag [ ] tags , PrintWriter pw , String collectionName , File sourceFile );1;0;3
+AttributeCompiler.getSourceFile( JavaClass javaClass );1;0;3
+AttributeCompiler.tagHasAttributes( DocletTag [ ] tags );3;2;8
+AttributeCompiler.copyImports( File source , PrintWriter dest );3;1;13
+AttributeCompiler.AttributeCompiler( );1;0;2
+AttributeCompiler.elementHasAttributes( JavaMethod [ ] methods );3;2;8

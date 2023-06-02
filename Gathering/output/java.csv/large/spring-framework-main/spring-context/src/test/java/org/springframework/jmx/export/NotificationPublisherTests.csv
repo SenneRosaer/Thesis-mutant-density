@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MyNotificationPublisherMBean.getMBeanInfo( );1;0;4
+NotificationPublisherTests.testLazyInit( );1;0;11
+NotificationPublisherTests.testSimpleBeanRegisteredManually( );1;0;11
+MyNotificationPublisherMBean.getAttribute( String attribute );1;0;3
+CountingNotificationListener.getLastNotification( );1;0;3
+MyNotificationPublisherMBean.setAttribute( Attribute attribute );1;0;2
+MyNotificationPublisherMBean.setAttributes( AttributeList attributes );1;0;3
+MyNotificationPublisherMBean.sendNotification( );1;0;3
+MyNotificationPublisher.setNotificationPublisher( NotificationPublisher notificationPublisher );1;0;3
+MyNotificationPublisherMBean.invoke( String actionName , Object [ ] params , String [ ] signature );1;0;3
+NotificationPublisherTests.testSimpleBean( );1;0;9
+MyNotificationPublisherMBean.getAttributes( String [ ] attributes );1;0;3
+NotificationPublisherTests.testMBean( );1;0;8
+MyNotificationPublisherStandardMBean.sendNotification( );1;0;3
+CountingNotificationListener.handleNotification( Notification notification , Object handback );1;1;4
+MyNotificationPublisher.getName( );1;0;3
+CountingNotificationListener.getCount( );1;0;3
+MyNotificationPublisher.getNotificationPublisher( );1;0;3
+MyNotificationPublisher.sendNotification( );1;0;3

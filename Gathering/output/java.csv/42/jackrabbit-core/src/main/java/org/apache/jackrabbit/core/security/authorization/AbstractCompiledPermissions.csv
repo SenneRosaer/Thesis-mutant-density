@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractCompiledPermissions.AbstractCompiledPermissions( );1;0;3
+Result.Result( int allows , int denies , int allowPrivileges , int denyPrivileges );1;8;12
+AbstractCompiledPermissions.clearCache( );1;0;5
+Result.equals( Object object );6;8;13
+Result.grants( int permissions );1;3;3
+AbstractCompiledPermissions.canReadAll( );1;0;3
+Result.hashCode( );1;0;3
+AbstractCompiledPermissions.grants( Path absPath , int permissions );1;0;3
+AbstractCompiledPermissions.close( );1;0;3
+AbstractCompiledPermissions.getResult( Path absPath );2;1;11
+AbstractCompiledPermissions.getPrivileges( Path absPath );1;0;3
+Result.combine( Result other );1;4;7
+Result.getPrivileges( );1;0;3

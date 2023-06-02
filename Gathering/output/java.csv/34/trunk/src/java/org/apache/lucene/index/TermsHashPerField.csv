@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TermsHashPerField.TermsHashPerField( DocInverterPerField docInverterPerField , final TermsHashPerThread perThread , final TermsHashPerThread nextPerThread , final FieldInfo fieldInfo );2;2;16
+TermsHashPerField.add( );23;62;83
+***not in a method***;0;2;0
+TermsHashPerField.comparePostings( RawPostingList p1 , RawPostingList p2 );7;16;22
+TermsHashPerField.add( int textStart );11;34;44
+TermsHashPerField.shrinkHash( int targetSize );5;10;13
+TermsHashPerField.reset( );4;4;13
+TermsHashPerField.abort( );2;1;5
+TermsHashPerField.finish( );2;1;5
+TermsHashPerField.initReader( ByteSliceReader reader , RawPostingList p , int stream );1;6;8
+TermsHashPerField.writeByte( int stream , byte b );2;9;13
+TermsHashPerField.quickSort( RawPostingList [ ] postings , int lo , int hi );13;21;49
+TermsHashPerField.writeVInt( int stream , int i );2;6;8
+TermsHashPerField.rehashPostings( final int newSize );8;22;35
+TermsHashPerField.start( Fieldable f );2;1;7
+TermsHashPerField.sortPostings( );1;1;5
+TermsHashPerField.postingEquals( final char [ ] tokenText , final int tokenTextLen );3;8;10
+TermsHashPerField.compactPostings( );4;6;14
+TermsHashPerField.start( Fieldable [ ] fields , int count );3;2;6
+TermsHashPerField.writeBytes( int stream , byte [ ] b , int offset , int len );2;3;5

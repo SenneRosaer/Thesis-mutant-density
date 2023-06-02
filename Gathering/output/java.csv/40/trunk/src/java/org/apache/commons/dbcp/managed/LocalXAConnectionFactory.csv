@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LocalXAResource.setTransactionTimeout( int transactionTimeout );1;0;3
+LocalXAResource.commit( Xid xid , boolean flag );7;3;20
+LocalXAConnectionFactory.createConnection( );1;0;6
+LocalXAResource.end( Xid xid , int flag );3;2;4
+LocalXAResource.rollback( Xid xid );5;2;15
+LocalXAConnectionFactory.getTransactionRegistry( );1;0;3
+LocalXAResource.recover( int flag );1;0;3
+LocalXAResource.prepare( Xid xid );3;0;10
+LocalXAResource.start( Xid xid , int flag );7;4;24
+LocalXAResource.LocalXAResource( Connection localTransaction );1;0;3
+LocalXAResource.getXid( );1;0;3
+LocalXAConnectionFactory.LocalXAConnectionFactory( TransactionManager transactionManager , ConnectionFactory connectionFactory );3;2;6
+LocalXAResource.isSameRM( XAResource xaResource );1;1;3
+LocalXAResource.getTransactionTimeout( );1;0;3
+LocalXAResource.forget( Xid xid );3;2;5

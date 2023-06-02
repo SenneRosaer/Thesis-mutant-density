@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StarTeamCheckout.visit( Folder starteamFolder , java . io . File targetFolder );14;11;64
+StarTeamCheckout.logOperationDescription( Folder starteamrootFolder , java . io . File targetrootFolder );10;4;34
+CheckoutMap.delete( java . io . File local );4;3;11
+StarTeamCheckout.describeCheckout( com . starbase . starteam . File remotefile , java . io . File localFile );2;1;11
+StarTeamCheckout.testPreconditions( );9;7;32
+StarTeamCheckout.setCreateWorkingDirs( boolean value );1;0;3
+StarTeamCheckout.createSnapshotView( View raw );4;1;14
+StarTeamCheckout.setLockStatus( boolean v , int newStatus );4;2;10
+CheckoutMap.init( java . io . File localFolder , Folder remoteFolder );5;4;21
+StarTeamCheckout.setUnlocked( boolean v );1;0;3
+CheckoutMap.isActive( );1;0;3
+StarTeamCheckout.setConvertEOL( boolean value );1;0;3
+StarTeamCheckout.getUseRepositoryTimeStamp( );1;0;3
+StarTeamCheckout.setAsOfDateFormat( String asOfDateFormat );1;0;3
+StarTeamCheckout.setLabel( String label );1;0;3
+StarTeamCheckout.processFile( com . starbase . starteam . File eachFile , File targetFolder );15;11;67
+StarTeamCheckout.describeCheckout( com . starbase . starteam . File remotefile );1;0;3
+StarTeamCheckout.setUseRepositoryTimeStamp( boolean useRepositoryTimeStamp );1;0;3
+CheckoutMap.processUncontrolledItems( );3;0;9
+StarTeamCheckout.setDeleteUncontrolled( boolean value );1;0;3
+StarTeamCheckout.setAsOfDate( String asOfDateParam );1;0;3
+StarTeamCheckout.setLocked( boolean v );1;0;3

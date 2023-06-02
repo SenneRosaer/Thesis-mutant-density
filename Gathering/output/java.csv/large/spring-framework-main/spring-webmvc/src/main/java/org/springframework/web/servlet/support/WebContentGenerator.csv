@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebContentGenerator.getVaryByRequestHeaders( );1;0;3
+WebContentGenerator.isAlwaysMustRevalidate( );1;0;3
+WebContentGenerator.isUseCacheControlNoStore( );1;0;3
+WebContentGenerator.isUseExpiresHeader( );1;0;3
+WebContentGenerator.setVaryByRequestHeaders( @ Nullable String ... varyByRequestHeaders );1;0;3
+WebContentGenerator.applyCacheSeconds( HttpServletResponse response , int cacheSeconds , boolean mustRevalidate );3;2;8
+WebContentGenerator.setUseCacheControlNoStore( boolean useCacheControlNoStore );1;0;3
+WebContentGenerator.initAllowHeader( );5;3;19
+WebContentGenerator.getAllowHeader( );1;0;3
+WebContentGenerator.applyCacheControl( HttpServletResponse response , CacheControl cacheControl );4;1;12
+WebContentGenerator.setCacheSeconds( int seconds );1;0;3
+WebContentGenerator.getSupportedMethods( );2;1;3
+WebContentGenerator.checkAndPrepare( HttpServletRequest request , HttpServletResponse response , int cacheSeconds , boolean lastModified );1;0;4
+WebContentGenerator.WebContentGenerator( String ... supportedMethods );1;0;3
+WebContentGenerator.setSupportedMethods( @ Nullable String ... methods );2;1;9
+WebContentGenerator.setUseCacheControlHeader( boolean useCacheControlHeader );1;0;3
+WebContentGenerator.cacheForSeconds( HttpServletResponse response , int seconds , boolean mustRevalidate );7;4;18
+WebContentGenerator.prepareResponse( HttpServletResponse response );6;2;19
+WebContentGenerator.WebContentGenerator( );1;0;3
+WebContentGenerator.checkRequest( HttpServletRequest request );5;5;9
+WebContentGenerator.isUseCacheControlHeader( );1;0;3
+WebContentGenerator.cacheForSeconds( HttpServletResponse response , int seconds );1;0;3
+WebContentGenerator.getCacheControl( );1;0;3
+WebContentGenerator.getVaryRequestHeadersToAdd( HttpServletResponse response , String [ ] varyByRequestHeaders );7;1;20
+WebContentGenerator.setUseExpiresHeader( boolean useExpiresHeader );1;0;3
+WebContentGenerator.applyCacheSeconds( HttpServletResponse response , int cacheSeconds );9;6;26
+WebContentGenerator.setCacheControl( @ Nullable CacheControl cacheControl );1;0;3
+***not in a method***;0;1;0
+WebContentGenerator.setAlwaysMustRevalidate( boolean mustRevalidate );1;0;3
+WebContentGenerator.isRequireSession( );1;0;3
+WebContentGenerator.WebContentGenerator( boolean restrictDefaultSupportedMethods );2;0;9
+WebContentGenerator.setRequireSession( boolean requireSession );1;0;3
+WebContentGenerator.getCacheSeconds( );1;0;3
+WebContentGenerator.preventCaching( HttpServletResponse response );4;0;12

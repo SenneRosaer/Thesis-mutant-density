@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompoundPropertyMaker.convertProperty( Property p , PropertyList propertyList , FObj fo );5;6;15
+CompoundPropertyMaker.checkEnumValues( String value );3;2;10
+CompoundPropertyMaker.get( int subpropertyId , PropertyList propertyList , boolean tryInherit , boolean tryDefault );3;3;7
+CompoundPropertyMaker.getSubpropMaker( int subpropertyId );1;0;3
+CompoundPropertyMaker.make( Property baseProperty , int subpropertyId , PropertyList propertyList , String value , FObj fo );4;4;14
+CompoundPropertyMaker.make( PropertyList propertyList );2;1;7
+CompoundPropertyMaker.CompoundPropertyMaker( int propId );1;0;3
+CompoundPropertyMaker.make( PropertyList propertyList , String value , FObj fo );1;0;5
+CompoundPropertyMaker.useGeneric( PropertyMaker generic );4;3;12
+CompoundPropertyMaker.getSubpropIndex( int subpropertyId );1;3;4
+CompoundPropertyMaker.addSubpropMaker( PropertyMaker subproperty );3;4;8
+CompoundPropertyMaker.makeCompound( PropertyList propertyList , FObj parentFO );3;4;12

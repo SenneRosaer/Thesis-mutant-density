@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocumentHelper.readDocument( URL url );1;0;4
+DocumentHelper.createBuilder( );2;1;8
+DocumentHelper.createDocument( String namespaceUri , String qualifiedName , DocumentType documentType );2;3;15
+DocumentHelper.getFirstChild( Element element , String namespaceUri , String localName );2;1;7
+DocumentHelper.writeDocument( Document document , Writer writer );2;1;7
+DocumentHelper.getFirstChild( Element element , String namespaceUri );1;0;3
+DocumentHelper.setSimpleElementText( Element element , String text );2;2;9
+DocumentHelper.getPrecedingSiblings( Element element , String namespaceUri );1;0;3
+DocumentHelper.readDocument( InputStream stream );1;0;4
+DocumentHelper.readDocument( String string , String encoding );1;0;6
+DocumentHelper.writeDocument( Document document , File file );3;2;11
+DocumentHelper.getChildren( Element element , String namespaceUri );1;0;3
+DocumentHelper.readDocument( URI uri );1;0;4
+DocumentHelper.getSimpleElementText( Element element );3;2;11
+DocumentHelper.getChildren( Element element );3;3;10
+DocumentHelper.writeDocument( Document document , OutputStream outputStream );4;2;18
+DocumentHelper.getPrecedingSiblings( Element element , String namespaceUri , String localName );3;4;11
+DocumentHelper.createDocumentType( String qualifiedName , String publicId , String systemId );1;0;4
+DocumentHelper.getNextSiblings( Element element , String namespaceUri , String localName );4;4;15
+DocumentHelper.getNextSiblings( Element element , String namespaceUri );1;0;3
+DocumentHelper.getTransformer( DocumentType documentType );4;3;13
+DocumentHelper.readDocument( File file );1;0;4
+DocumentHelper.getChildren( Element element , String namespaceUri , String localName );3;3;10
+DocumentHelper.setEntityResolver( EntityResolver resolver );1;0;3

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompositeCacheConfigurator.parseRegion( Properties props , String regName , String value , ICompositeCacheAttributes cca , String regionPrefix );10;7;39
+CompositeCacheConfigurator.setDefaultAuxValues( Properties props );2;0;8
+CompositeCacheConfigurator.parseKeyMatcher( Properties props , String auxPrefix );4;4;26
+CompositeCacheConfigurator.parseElementAttributes( Properties props , String regName , String regionPrefix );5;3;25
+CompositeCacheConfigurator.doConfigure( String configFileName );2;0;15
+CompositeCacheConfigurator.parseAuxiliary( CompositeCache cache , Properties props , String auxName , String regName );8;10;53
+CompositeCacheConfigurator.parseSystemRegions( Properties props );4;3;19
+CompositeCacheConfigurator.setDefaultElementAttributes( Properties props );1;0;5
+CompositeCacheConfigurator.CompositeCacheConfigurator( CompositeCacheManager ccMgr );1;0;3
+CompositeCacheConfigurator.parseRegions( Properties props );5;3;24
+CompositeCacheConfigurator.parseRegion( Properties props , String regName , String value );1;0;3
+CompositeCacheConfigurator.parseCompositeCacheAttributes( Properties props , String regName , String regionPrefix );5;3;28
+CompositeCacheConfigurator.setDefaultCompositeCacheAttributes( Properties props );1;0;6
+CompositeCacheConfigurator.parseCompositeCacheAttributes( Properties props , String regName );1;0;3
+CompositeCacheConfigurator.doConfigure( Properties properties );2;1;14
+CompositeCacheConfigurator.parseRegion( Properties props , String regName , String value , ICompositeCacheAttributes cca );1;0;3

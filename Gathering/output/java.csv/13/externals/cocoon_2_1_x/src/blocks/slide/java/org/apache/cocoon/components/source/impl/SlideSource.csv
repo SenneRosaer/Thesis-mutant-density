@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SlideSource.setSourceProperty( SourceProperty property );3;0;18
+SlideSource.moveTo( Source source );4;1;19
+SlideSource.setSourceRevision( String revision );1;0;3
+SlideSource.getSourceProperties( );4;3;29
+SlideSource.makeCollection( );3;0;23
+SlideSource.exists( );1;1;3
+SlideSourceOutputStream.close( );13;3;74
+SlideSourceOutputStream.enableLogging( Logger logger );1;0;3
+SlideSource.setSourceRevisionBranch( String branch );1;0;3
+SlideSource.canCancel( OutputStream stream );1;0;3
+SlideSource.getValidity( );4;4;9
+SlideSource.getChild( String name );1;1;3
+SlideSource.service( ServiceManager manager );1;0;3
+SlideSource.getURI( );1;3;3
+SlideSource.contextualize( Context context );1;0;3
+SlideSource.SlideSource( NamespaceAccessToken nat , String scheme , String scope , String path , String principal , String version );4;2;19
+SlideSource.refresh( );1;0;3
+SlideSource.removeSourceProperty( String namespace , String name );5;3;18
+SlideSource.getName( );2;3;7
+SlideSource.getMimeType( );2;1;6
+SlideSource.isCollection( );5;4;13
+SlideSource.getSourceLocks( );3;0;18
+SlideSource.copyTo( Source source );4;1;19
+SlideSourceOutputStream.canCancel( );1;1;3
+SlideSource.getContentLength( );2;2;6
+SlideSource.getInputStream( );2;0;7
+SlideSource.delete( );3;0;14
+SlideSource.getSourceRevisionBranch( );2;1;6
+SlideSource.addSourceLocks( SourceLock sourcelock );1;0;3
+SlideSource.getLastModified( );2;1;6
+SlideSource.getScheme( );1;0;3
+SlideSource.initialize( );9;2;37
+SlideSource.getSourceRevision( );2;1;6
+SlideSource.getSourceProperty( String namespace , String name );4;4;25
+SlideSourceOutputStream.cancel( );2;0;7
+SlideSource.isVersioned( );2;1;6
+SlideSource.getParent( );5;7;25
+SlideSource.getChildren( );4;3;13
+SlideSource.getOutputStream( );2;1;7
+SlideSource.cancel( OutputStream stream );3;1;9
+SlideSource.getLatestSourceRevision( );2;1;6
+SlideSource.getChildByPath( String path );1;0;8

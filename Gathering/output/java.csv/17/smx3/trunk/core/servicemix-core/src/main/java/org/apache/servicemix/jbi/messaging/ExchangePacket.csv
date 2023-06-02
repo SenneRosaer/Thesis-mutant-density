@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ExchangePacket.isAborted( );1;0;3
+ExchangePacket.getIn( );1;0;3
+ExchangePacket.getExchangeId( );1;0;3
+ExchangePacket.setSourceId( ComponentNameSpace sourceId );1;0;3
+ExchangePacket.getProperty( String name );2;1;6
+ExchangePacket.getPattern( );1;0;3
+ExchangePacket.getEndpoint( );1;0;3
+ExchangePacket.getPersistent( );1;0;3
+***not in a method***;0;1;0
+ExchangePacket.setOut( NormalizedMessageImpl out );1;0;3
+ExchangePacket.setExchangeId( String exchangeId );1;0;3
+ExchangePacket.getStatus( );1;0;3
+ExchangePacket.getOperationName( );1;0;3
+ExchangePacket.readPacket( byte [ ] data );1;0;4
+ExchangePacket.toString( );1;0;3
+ExchangePacket.getTransactionContext( );1;0;3
+ExchangePacket.setEndpoint( ServiceEndpoint endpoint );1;0;3
+ExchangePacket.copy( );1;0;3
+ExchangePacket.writeExternal( ObjectOutput output );4;2;17
+ExchangePacket.setError( Exception error );1;0;4
+ExchangePacket.setStatus( ExchangeStatus status );1;0;3
+ExchangePacket.getInterfaceName( );1;0;3
+ExchangePacket.setInterfaceName( QName interfaceName );1;0;3
+ExchangePacket.setIn( NormalizedMessageImpl in );1;0;3
+ExchangePacket.setPersistent( Boolean persistent );1;0;3
+ExchangePacket.getOut( );1;0;3
+ExchangePacket.setDestinationId( ComponentNameSpace destinationId );1;0;3
+ExchangePacket.setProperty( String name , Object value );3;2;9
+ExchangePacket.ExchangePacket( );1;0;2
+ExchangePacket.getSourceId( );1;0;3
+ExchangePacket.setPattern( URI pattern );1;0;3
+ExchangePacket.getFault( );1;0;3
+ExchangePacket.getPropertyNames( );2;1;6
+ExchangePacket.setAborted( boolean timedOut );1;0;3
+ExchangePacket.setOperationName( QName operationName );1;0;3
+ExchangePacket.readExternal( ObjectInput input );3;2;18
+ExchangePacket.setTransactionContext( Transaction transactionContext );1;0;3
+ExchangePacket.getProperties( );2;1;6
+ExchangePacket.getServiceName( );1;0;3
+ExchangePacket.ExchangePacket( ExchangePacket packet );6;6;30
+ExchangePacket.setFault( FaultImpl fault );1;0;3
+ExchangePacket.setServiceName( QName serviceName );1;0;3
+ExchangePacket.getError( );1;0;3
+ExchangePacket.getData( );1;0;7
+ExchangePacket.getDestinationId( );1;0;3

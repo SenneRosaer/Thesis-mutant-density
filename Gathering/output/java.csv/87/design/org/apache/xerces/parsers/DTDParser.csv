@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DTDParser.endAttlist( );1;0;2
+DTDParser.endEntity( String name );1;0;2
+DTDParser.endDTD( );1;0;2
+DTDParser.endConditional( );1;0;2
+DTDParser.externalEntityDecl( String name , String publicId , String systemId );1;0;2
+DTDParser.childrenSeparator( short separator );1;0;2
+DTDParser.notationDecl( String name , String publicId , String systemId );1;0;2
+DTDParser.attributeDecl( String elementName , String attributeName , String type , String [ ] enumeration , String defaultType , XMLString defaultValue );1;0;2
+DTDParser.endContentModel( );1;0;2
+DTDParser.childrenEndGroup( );1;0;2
+DTDParser.startEntity( String name , String publicId , String systemId , String encoding );1;0;2
+DTDParser.internalEntityDecl( String name , XMLString text );1;0;2
+DTDParser.startConditional( short type );1;0;2
+DTDParser.elementDecl( String name , XMLString contentModel );1;0;2
+DTDParser.startExternalSubset( );1;0;2
+DTDParser.endExternalSubset( );1;0;2
+DTDParser.unparsedEntityDecl( String name , String publicId , String systemId , String notation );1;0;2
+DTDParser.startContentModel( String elementName , short type );1;0;2
+DTDParser.startAttlist( String elementName );1;0;2
+DTDParser.processingInstruction( String target , XMLString data );1;0;2
+DTDParser.childrenStartGroup( );1;0;2
+DTDParser.mixedElement( String elementName );1;0;2
+DTDParser.childrenElement( String elementName );1;0;2
+DTDParser.comment( XMLString text );1;0;2
+DTDParser.DTDParser( SymbolTable symbolTable );1;0;2
+DTDParser.childrenOccurrence( short occurrence );1;0;2
+DTDParser.getDTDGrammar( );1;0;3
+DTDParser.startDTD( );1;0;2

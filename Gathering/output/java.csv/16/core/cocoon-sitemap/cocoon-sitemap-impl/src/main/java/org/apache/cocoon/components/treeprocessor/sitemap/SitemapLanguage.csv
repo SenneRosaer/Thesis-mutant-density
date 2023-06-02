@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SitemapLanguage.setBuildingView( boolean building );1;0;3
+SitemapLanguage.isBuildingErrorHandler( );1;0;3
+SitemapLanguage.getBuilderConfigURL( );1;0;3
+SitemapLanguage.contextualize( Context avalonContext );1;0;3
+SitemapLanguage.createTree( Configuration tree );1;0;4
+SitemapLanguage.getWebApplicationContext( );1;0;3
+SitemapLanguage.isBuildingView( );1;0;3
+SitemapLanguage.splitLabels( String labels );2;1;6
+SitemapLanguage.setAttribute( String name , Object value );1;0;3
+SitemapLanguage.createNodeBuilder( Configuration config );3;0;13
+SitemapLanguage.getAttribute( String name );1;0;3
+SitemapLanguage.registerListeners( );5;2;17
+SitemapLanguage.setupNode( ProcessingNode node , Configuration config );5;0;19
+SitemapLanguage.getMimeType( String role , String hint );1;0;3
+SitemapLanguage.getViewNodes( Collection viewNames );5;4;15
+SitemapLanguage.setProcessor( ConcreteTreeProcessor processor );1;0;3
+SitemapLanguage.getViewsForStatement( String role , String hint , Configuration statement );17;11;59
+SitemapLanguage.getNamespace( );1;0;3
+SitemapLanguage.getLeaveSitemapEventListeners( );1;0;3
+SitemapLanguage.recycle( );1;0;25
+SitemapLanguage.getDisposableNodes( );1;0;3
+SitemapLanguage.getHintsForStatement( String role , String hint , Configuration statement );10;7;48
+SitemapLanguage.getLocation( Configuration config );6;2;29
+SitemapLanguage.setBuildingErrorHandler( boolean building );1;0;3
+SitemapLanguage.getProcessor( );1;0;3
+SitemapLanguage.service( ServiceManager serviceManager );1;0;3
+SitemapLanguage.addViewForLabel( String label , String view );3;1;11
+SitemapLanguage.linkNodes( );2;0;7
+SitemapLanguage.registerNode( String name , ProcessingNode node );2;0;7
+SitemapLanguage.getParameters( Configuration config , Location location );5;4;21
+SitemapLanguage.getRegisteredNode( String name );2;0;6
+SitemapLanguage.getTypeForStatement( Configuration statement , String role );4;5;16
+SitemapLanguage.build( Configuration tree , String location );4;0;52
+SitemapLanguage.resolve( String expression );1;0;3
+SitemapLanguage.getEnterSitemapEventListeners( );1;0;3

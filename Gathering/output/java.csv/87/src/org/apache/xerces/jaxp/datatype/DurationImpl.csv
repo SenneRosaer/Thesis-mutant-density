@@ -1,0 +1,51 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DurationImpl.isDigitOrPeriod( char ch );2;2;3
+DurationImpl.getFieldAsBigDecimal( DatatypeConstants . Field f );4;3;19
+DurationImpl.compareResults( int resultA , int resultB );3;2;9
+DurationImpl.getYears( );1;0;3
+DurationImpl.isDigit( char ch );2;3;3
+DurationImpl.parseBigInteger( String whole , String part , int index );2;2;7
+DurationImpl.sanitize( BigInteger value , int signum );4;4;9
+DurationImpl.writeReplace( );1;0;3
+DurationImpl.getInt( DatatypeConstants . Field field );2;1;9
+DurationImpl.getHours( );1;0;3
+DurationImpl.addTo( Date date );1;0;6
+DurationImpl.compareDates( Duration duration1 , Duration duration2 );4;3;37
+DurationImpl.parsePiece( String whole , int [ ] idx );4;5;12
+DurationImpl.DurationImpl( String lexicalRepresentation );19;28;65
+DurationImpl.toString( BigDecimal bd );5;9;25
+DurationImpl.getCalendarTimeInMillis( Calendar cal );1;0;3
+DurationImpl.add( final Duration rhs );12;26;42
+DurationImpl.toBigInteger( BigDecimal value , boolean canBeNull );3;2;8
+DurationImpl.getTimeInMillis( final Date startInstant );1;1;6
+DurationImpl.getMinutes( );1;0;3
+DurationImpl.DurationImpl( final boolean isPositive , final int years , final int months , final int days , final int hours , final int minutes , final int seconds );2;1;10
+DurationImpl.alignSigns( BigDecimal [ ] buf , int start , int end );6;10;24
+DurationImpl.normalizeWith( Calendar startTimeInstant );1;9;16
+DurationImpl.isSet( DatatypeConstants . Field field );8;13;30
+DurationImpl.toString( );11;12;29
+DurationStream.readResolve( );1;0;3
+DurationImpl.organizeParts( String whole , String [ ] parts , int [ ] partsIndex , int len , String tokens );5;13;21
+DurationImpl.getTimeInMillis( final Calendar startInstant );1;1;5
+DurationImpl.testNonNegative( BigInteger n , DatatypeConstants . Field f );3;3;7
+DurationImpl.addTo( Calendar calendar );2;8;14
+DurationImpl.hashCode( );1;0;5
+DurationImpl.DurationImpl( boolean isPositive , BigInteger years , BigInteger months , BigInteger days , BigInteger hours , BigInteger minutes , BigDecimal seconds );7;11;25
+DurationImpl.wrap( final int i );2;1;6
+DurationImpl.getMonths( );1;0;3
+DurationImpl.getSign( );1;0;3
+DurationImpl.sanitize( BigDecimal value , int signum );4;4;9
+DurationImpl.DurationImpl( final long durationInMilliSeconds );8;17;28
+DurationImpl.compare( Duration rhs );27;61;115
+DurationImpl.multiply( int factor );1;0;3
+DurationImpl.negate( );1;1;10
+DurationImpl.signum( );1;0;3
+DurationImpl.getDays( );1;0;3
+DurationImpl.testNonNegative( BigDecimal n , DatatypeConstants . Field f );3;3;7
+DurationImpl.calcSignum( boolean isPositive );14;24;16
+DurationImpl.getSeconds( );1;0;3
+DurationImpl.parseBigDecimal( String whole , String part , int index );2;2;7
+DurationStream.DurationStream( String _lexical );1;0;3
+DurationImpl.multiply( BigDecimal factor );7;15;36
+DurationImpl.getField( DatatypeConstants . Field field );8;7;30
+DurationImpl.subtract( final Duration rhs );1;0;3

@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ModelAndView.ModelAndView( @ Nullable String viewName , @ Nullable Map < String , ? > model , @ Nullable HttpStatusCode status );2;1;7
+ModelAndView.getViewName( );2;0;3
+ModelAndView.addAllObjects( @ Nullable Map < String , ? > modelMap );1;0;4
+ModelAndView.toString( );1;0;3
+ModelAndView.ModelAndView( View view , @ Nullable Map < String , ? > model );2;1;6
+ModelAndView.hasView( );1;1;3
+ModelAndView.isReference( );1;0;3
+ModelAndView.wasCleared( );2;1;3
+ModelAndView.isEmpty( );2;2;3
+ModelAndView.ModelAndView( View view , String modelName , Object modelObject );1;0;4
+ModelAndView.setStatus( @ Nullable HttpStatusCode status );1;0;3
+ModelAndView.getModelMap( );2;1;6
+ModelAndView.setViewName( @ Nullable String viewName );1;0;3
+ModelAndView.ModelAndView( View view );1;0;3
+ModelAndView.addObject( String attributeName , @ Nullable Object attributeValue );1;0;4
+ModelAndView.getStatus( );1;0;3
+ModelAndView.ModelAndView( String viewName , HttpStatusCode status );1;0;4
+ModelAndView.ModelAndView( String viewName );1;0;3
+ModelAndView.addObject( Object attributeValue );1;0;4
+ModelAndView.ModelAndView( );1;0;2
+ModelAndView.getModel( );1;0;3
+ModelAndView.ModelAndView( String viewName , String modelName , Object modelObject );1;0;4
+ModelAndView.setView( @ Nullable View view );1;0;3
+ModelAndView.ModelAndView( String viewName , @ Nullable Map < String , ? > model );2;1;6
+ModelAndView.getModelInternal( );1;0;3
+ModelAndView.getView( );2;0;3
+ModelAndView.formatView( );2;0;3
+ModelAndView.clear( );1;0;5

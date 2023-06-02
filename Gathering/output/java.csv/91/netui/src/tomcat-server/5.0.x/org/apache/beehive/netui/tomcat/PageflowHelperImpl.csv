@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PageflowHelperImpl.logout( boolean invalidateSessions , HttpServletRequest request );1;0;3
+PageflowHelperImpl.findBestMatchSecurityConstraint( String uri , Context ctx );14;19;43
+PageflowHelperImpl.doSecurityRedirect( String uri , HttpServletRequest request , HttpServletResponse response , ServletContext servletContext );3;1;14
+PageflowHelperImpl.login( String username , String password , HttpServletRequest request );1;0;3
+PageflowHelperImpl.initRequest( HttpRequest request , HttpResponse response , PageflowValve valve );1;0;5
+PageflowHelperImpl.getSecureListenPort( HttpServletRequest request );3;1;21
+PageflowHelperImpl.isSecureResource( String uri , HttpServletRequest request );6;3;23
+PageflowHelperImpl.getListenPort( HttpServletRequest request );13;18;39
+PageflowHelperImpl.getFileExtension( String filename );2;3;4

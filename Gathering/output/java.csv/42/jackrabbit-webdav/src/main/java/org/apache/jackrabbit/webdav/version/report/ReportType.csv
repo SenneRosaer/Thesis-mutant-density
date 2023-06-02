@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReportType.createReport( DeltaVResource resource , ReportInfo info );3;0;11
+ReportType.getReportName( );1;0;3
+ReportType.getLocalName( );1;0;3
+ReportType.ReportType( String localName , Namespace namespace , String key , Class reportClass );1;0;6
+ReportType.isRequestedReportType( ReportInfo reqInfo );2;1;6
+ReportType.register( String localName , Namespace namespace , Class reportClass );8;6;23
+ReportType.getNamespace( );1;0;3
+ReportType.getType( ReportInfo reportInfo );3;1;11
+ReportType.toXml( Document document );1;0;3

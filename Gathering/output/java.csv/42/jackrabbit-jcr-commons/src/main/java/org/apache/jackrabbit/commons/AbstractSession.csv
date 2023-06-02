@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractSession.getExportContentHandler( OutputStream stream );3;0;19
+AbstractSession.export( String path , Exporter exporter );2;0;9
+AbstractSession.itemExists( String absPath );2;0;8
+AbstractSession.exportDocumentView( String path , ContentHandler handler , boolean skipBinary , boolean noRecurse );1;2;4
+AbstractSession.getNamespacePrefix( String uri );4;2;16
+AbstractSession.getNamespaceURI( String prefix );3;1;11
+AbstractSession.getItem( String absPath );4;2;15
+AbstractSession.impersonate( Credentials credentials );1;0;3
+AbstractSession.setNamespacePrefix( String prefix , String uri );11;8;32
+AbstractSession.logout( );1;0;3
+AbstractSession.getNamespacePrefixes( );2;2;9
+AbstractSession.importXML( String parentAbsPath , InputStream in , int uuidBehavior );4;0;16
+AbstractSession.exportSystemView( String absPath , OutputStream out , boolean skipBinary , boolean noRecurse );4;0;16
+AbstractSession.exportSystemView( String path , ContentHandler handler , boolean skipBinary , boolean noRecurse );1;2;4
+AbstractSession.exportDocumentView( String absPath , OutputStream out , boolean skipBinary , boolean noRecurse );4;0;16

@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RedirectView.expandTargetUrlTemplate( String targetUrl , Map < String , Object > model , Map < String , String > uriVariables );4;1;20
+RedirectView.RedirectView( String redirectUrl );1;0;3
+RedirectView.setContextRelative( boolean contextRelative );1;0;3
+RedirectView.setPropagateQuery( boolean propagateQuery );1;0;3
+RedirectView.encodeUriVariable( String text );1;0;3
+RedirectView.getCurrentUriVariables( ServerWebExchange exchange );1;0;4
+RedirectView.getHosts( );1;0;3
+RedirectView.RedirectView( );1;0;2
+RedirectView.appendCurrentRequestQuery( String targetUrl , ServerHttpRequest request );6;7;15
+RedirectView.getStatusCode( );1;0;3
+RedirectView.isRemoteHost( String targetUrl );5;1;15
+RedirectView.isContextRelative( );1;0;3
+RedirectView.setStatusCode( HttpStatusCode statusCode );1;0;4
+RedirectView.createTargetUrl( Map < String , Object > model , ServerWebExchange exchange );6;3;20
+RedirectView.renderInternal( Map < String , Object > model , @ Nullable MediaType contentType , ServerWebExchange exchange );1;0;4
+RedirectView.isRedirectView( );1;0;3
+RedirectView.setHosts( @ Nullable String ... hosts );1;0;3
+RedirectView.sendRedirect( String targetUrl , ServerWebExchange exchange );2;0;7
+RedirectView.checkResourceExists( Locale locale );1;0;3
+RedirectView.RedirectView( String redirectUrl , HttpStatusCode statusCode );1;0;4
+RedirectView.isPropagateQuery( );1;0;3

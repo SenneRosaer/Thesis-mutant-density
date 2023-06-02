@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConversionHelp.restoreClass( TestElement el , HierarchicalStreamReader reader , String prop );2;1;7
+ConversionHelp.saveItem( TestElement el , HierarchicalStreamWriter writer , String prop , boolean encode );3;1;9
+ConversionHelp.cdata( byte [ ] chars , String encoding );1;0;6
+ConversionHelp.decode( String p );4;2;14
+ConversionHelp.setOutVersion( String v );1;0;3
+ConversionHelp.saveClass( TestElement el , HierarchicalStreamWriter writer , String prop );2;1;6
+ConversionHelp.setInVersion( String v );1;0;3
+ConversionHelp.mapentry( String prop , String att );1;0;3
+ConversionHelp.saveSpecialProperties( TestElement el , HierarchicalStreamWriter writer );1;0;6
+ConversionHelp.restoreItem( TestElement el , HierarchicalStreamReader reader , String prop , boolean decode );3;1;10
+ConversionHelp.restoreSpecialProperties( TestElement el , HierarchicalStreamReader reader );1;0;6
+ConversionHelp.isSpecialProperty( String name );1;0;3
+ConversionHelp.encode( String p );4;2;15

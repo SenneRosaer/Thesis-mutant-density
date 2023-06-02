@@ -1,0 +1,62 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClassLoaders.using( final ClassLoader classLoader );1;0;3
+InMemoryClassLoaderBuilder.withParent( ClassLoader parent );1;0;4
+ReachableClassesFinder.addFromFileBasedClassLoader( Set < String > classes , URI uri );1;0;4
+IsolatedURLClassLoaderBuilder.withCurrentCodeSourceUrls( );1;0;4
+ExcludingURLClassLoaderBuilder.withCurrentCodeSourceUrls( );1;0;4
+LocalIsolatedURLClassLoader.findClass( String name );4;2;18
+ReachableClassesFinder.omit( String ... qualifiedNameSubstring );1;0;4
+ClassLoaders.pathToUrl( String path );2;0;7
+ClassLoaderExecutor.newThread( Runnable r );1;0;5
+InMemoryClassLoader.findClass( String name );2;1;7
+ClassLoaders.inMemoryClassLoader( );1;0;3
+IsolatedURLClassLoaderBuilder.withPrivateCopyOf( String ... privatePrefixes );1;0;4
+ClassLoaders.pathsToURLs( String ... codeSourceUrls );1;0;3
+ClassLoaders.isolatedClassLoader( );1;0;3
+ExcludingURLClassLoaderBuilder.withCodeSourceUrls( String ... urls );1;0;4
+MemHandler.openConnection( URL url );1;0;3
+ClassLoaderExecutor.execute( final Runnable task );5;0;36
+ClassLoaders.obtainCurrentClassPathOf( String className );2;1;9
+ClassLoaderExecutor.reloadTaskInClassLoader( Runnable task );8;2;29
+ReachableClassesFinder.classNameFor( File root , File file );1;1;7
+LocalIsolatedURLClassLoader.classShouldBePrivate( String name );3;0;6
+IsolatedURLClassLoaderBuilder.withCodeSourceUrlOf( Class < ? > ... classes );3;0;6
+LocalIsolatedURLClassLoader.classShouldBeExcluded( String name );3;0;6
+ClassLoaders.coverageTool( );4;0;7
+LocalExcludingURLClassLoader.findClass( String name );2;0;6
+IsolatedURLClassLoaderBuilder.build( );1;0;7
+ClassLoaders.systemClassLoader( );1;0;3
+MemHandler.MemHandler( InMemoryClassLoader inMemoryClassLoader );1;0;3
+InMemoryClassLoader.hasMoreElements( );1;0;3
+ClassLoaderExecutor.run( );2;0;11
+ReachableClassesFinder.listOwnedClasses( );5;0;20
+MemURLConnection.MemURLConnection( URL url , InMemoryClassLoader inMemoryClassLoader );1;0;5
+LocalExcludingURLClassLoader.LocalExcludingURLClassLoader( ClassLoader classLoader , URL [ ] urls , ArrayList < String > excludedPrefixes );1;0;4
+InMemoryClassLoader.nextElement( );2;1;7
+ExcludingURLClassLoaderBuilder.withCodeSourceUrlOf( Class < ? > ... classes );3;0;6
+ReachableClassesFinder.findClassQualifiedNames( File root , File file , Set < String > packageFilters );5;0;18
+InMemoryClassLoaderBuilder.build( );1;0;3
+ClassLoaders.pathsToURLs( List < String > codeSourceUrls );2;0;8
+ClassLoaders.excludingClassLoader( );1;0;3
+ClassLoaderExecutor.ClassLoaderExecutor( ClassLoader classLoader );1;0;3
+InMemoryClassLoader.getResources( String ignored );1;0;3
+InMemoryClassLoader.InMemoryClassLoader( ClassLoader parent , Map < String , byte [ ] > inMemoryClassObjects );1;0;4
+ClassLoaderExecutor.unwrapAndThrows( ExecutionException ex );1;0;3
+LocalExcludingURLClassLoader.classShouldBeExcluded( String name );3;0;6
+ClassLoaders.ClassLoaders( );1;0;1
+ClassLoaders.safeGetClass( String className );2;0;7
+MemURLConnection.connect( );1;0;1
+ReachableClassesFinder.addFromInMemoryBasedClassLoader( Set < String > classes , URI uri );2;0;6
+ExcludingURLClassLoaderBuilder.without( String ... privatePrefixes );1;0;4
+LocalIsolatedURLClassLoader.LocalIsolatedURLClassLoader( ClassLoader classLoader , URL [ ] urls , ArrayList < String > privateCopyPrefixes , ArrayList < String > excludedPrefixes );1;0;5
+ReachableClassesFinder.ReachableClassesFinder( ClassLoader classLoader );1;0;3
+ExcludingURLClassLoaderBuilder.build( );1;0;6
+MemURLConnection.getInputStream( );1;0;4
+ClassLoaders.currentClassLoader( );1;0;3
+ClassLoaders.in( ClassLoader classLoader );1;0;3
+ClassLoaders.jdkClassLoader( );1;0;3
+InMemoryClassLoader.inMemoryOnly( );2;0;17
+ReachableClassesFinder.excludes( String qualifiedName , Set < String > packageFilters );3;0;6
+InMemoryClassLoaderBuilder.withClassDefinition( String name , byte [ ] classDefinition );1;0;4
+IsolatedURLClassLoaderBuilder.withCodeSourceUrls( String ... urls );1;0;4
+IsolatedURLClassLoaderBuilder.without( String ... privatePrefixes );1;0;4

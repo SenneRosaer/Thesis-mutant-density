@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlModuleDescriptorWriter.printExtraAttributes( Map extra , PrintWriter out , String prefix );3;3;12
+XmlModuleDescriptorWriter.getConfs( ModuleDescriptor md , Artifact artifact );4;4;13
+XmlModuleDescriptorWriter.printPublications( ModuleDescriptor md , PrintWriter out );2;2;14
+XmlModuleDescriptorWriter.printDependencyIncludeRules( ModuleDescriptor md , PrintWriter out , IncludeRule [ ] includes );6;8;25
+XmlModuleDescriptorWriter.requireInnerInfoElement( ModuleDescriptor md );5;9;6
+XmlModuleDescriptorWriter.printAllExcludes( ModuleDescriptor md , PrintWriter out );6;8;32
+XmlModuleDescriptorWriter.printDependencyArtefacts( ModuleDescriptor md , PrintWriter out , DependencyArtifactDescriptor [ ] depArtifacts );6;8;24
+XmlModuleDescriptorWriter.printDependencies( ModuleDescriptor md , PrintWriter out );20;27;77
+XmlModuleDescriptorWriter.XmlModuleDescriptorWriter( );1;0;2
+XmlModuleDescriptorWriter.printAllMediators( ModuleDescriptor md , PrintWriter out );5;2;34
+XmlModuleDescriptorWriter.printDependencyExcludeRules( ModuleDescriptor md , PrintWriter out , ExcludeRule [ ] excludes );6;8;31
+XmlModuleDescriptorWriter.write( ModuleDescriptor md , String licenseHeader , File output );4;2;28
+XmlModuleDescriptorWriter.printInfoTag( ModuleDescriptor md , PrintWriter out );20;20;76
+XmlModuleDescriptorWriter.write( ModuleDescriptor md , File output );1;0;3
+XmlModuleDescriptorWriter.printExtraAttributes( ExtendableItem item , PrintWriter out , String prefix );1;0;3
+XmlModuleDescriptorWriter.printConfigurations( ModuleDescriptor md , PrintWriter out );8;10;33

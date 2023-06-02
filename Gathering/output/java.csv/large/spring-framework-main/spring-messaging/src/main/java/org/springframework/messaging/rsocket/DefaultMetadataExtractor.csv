@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultMetadataExtractor.metadataToExtract( MimeType mimeType , ParameterizedTypeReference < T > type , BiConsumer < T , Map < String , Object > > mapper );1;0;3
+DefaultMetadataExtractor.registerMetadata( MimeType mimeType , ResolvableType targetType , BiConsumer < T , Map < String , Object > > mapper );4;0;10
+DefaultMetadataExtractor.DefaultMetadataExtractor( List < Decoder < ? > > decoders );1;0;3
+DefaultMetadataExtractor.DefaultMetadataExtractor( Decoder < ? > ... decoders );1;0;3
+DefaultMetadataExtractor.extractEntry( ByteBuf content , @ Nullable String mimeType , Map < String , Object > result );7;4;16
+DefaultMetadataExtractor.metadataToExtract( MimeType mimeType , Class < T > targetType , BiConsumer < T , Map < String , Object > > mapper );1;0;3
+EntryExtractor.toString( );1;0;3
+EntryExtractor.EntryExtractor( Decoder < T > decoder , MimeType mimeType , ResolvableType targetType , BiConsumer < T , Map < String , Object > > accumulator );1;0;6
+EntryExtractor.extract( ByteBuf content , Map < String , Object > result );1;0;5
+DefaultMetadataExtractor.getDecoders( );1;0;3
+DefaultMetadataExtractor.extract( Payload payload , MimeType metadataMimeType );4;0;16

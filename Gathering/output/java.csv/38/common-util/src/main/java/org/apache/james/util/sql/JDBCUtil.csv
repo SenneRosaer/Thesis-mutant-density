@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JDBCUtil.tableExistsCaseSensitive( DatabaseMetaData dbMetaData , String tableName );1;0;9
+JDBCUtil.tableExists( DatabaseMetaData dbMetaData , String tableName );3;2;5
+JDBCUtil.closeJDBCResultSet( ResultSet aResultSet );3;1;9
+JDBCUtil.subclassLogWrapper( String logString );2;0;7
+JDBCUtil.closeJDBCConnection( Connection conn );3;1;9
+JDBCUtil.columnExists( DatabaseMetaData dbMetaData , String tableName , String columnName );9;8;11
+JDBCUtil.columnExistsCaseSensitive( DatabaseMetaData dbMetaData , String tableName , String columnName );1;0;9
+JDBCUtil.closeJDBCStatement( Statement stmt );3;1;9

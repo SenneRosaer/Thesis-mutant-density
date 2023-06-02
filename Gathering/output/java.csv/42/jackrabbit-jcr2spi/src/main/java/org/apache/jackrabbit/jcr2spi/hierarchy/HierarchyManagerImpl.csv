@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HierarchyManagerImpl.HierarchyManagerImpl( TransientItemStateFactory isf , IdFactory idFactory , PathFactory pathFactory );1;0;5
+HierarchyManagerImpl.getNodeEntry( Path qPath );3;1;12
+HierarchyManagerImpl.getNodeEntry( NodeId nodeId );3;2;14
+HierarchyManagerImpl.getPropertyEntry( Path qPath );3;1;11
+HierarchyManagerImpl.dispose( );1;0;3
+HierarchyManagerImpl.getNodeState( Path qPath );3;0;13
+HierarchyManagerImpl.getDepth( HierarchyEntry hierarchyEntry );2;2;10
+HierarchyManagerImpl.getRelativeDepth( NodeEntry ancestor , HierarchyEntry descendant );4;3;16
+HierarchyManagerImpl.getPropertyEntry( PropertyId propertyId );3;2;13
+HierarchyManagerImpl.lookup( Path workspacePath );1;0;3
+HierarchyManagerImpl.getRootEntry( );1;0;3
+HierarchyManagerImpl.getPropertyState( Path qPath );3;0;13
+HierarchyManagerImpl.setResolver( NamePathResolver resolver );2;0;6
+HierarchyManagerImpl.lookup( ItemId workspaceItemId );3;2;14

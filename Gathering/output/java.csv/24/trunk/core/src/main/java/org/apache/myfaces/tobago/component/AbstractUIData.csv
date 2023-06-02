@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractUIData.setState( SheetState state );1;0;3
+AbstractUIData.saveState( FacesContext context );1;0;6
+AbstractUIData.broadcast( FacesEvent facesEvent );6;2;19
+AbstractUIData.isAtEnd( );2;5;8
+AbstractUIData.getColumnLayout( );3;2;9
+AbstractUIData.getState( );1;0;3
+AbstractUIData.invokeOnComponent( FacesContext context , String clientId , ContextCallback callback );7;0;32
+AbstractUIData.isAtBeginning( );1;1;3
+AbstractUIData.getPages( );3;5;7
+AbstractUIData.processDecodes( FacesContext context );13;12;22
+AbstractUIData.getScrollPosition( );2;1;7
+AbstractUIData.encodeAjax( FacesContext facesContext );10;10;22
+AbstractUIData.getSheetState( FacesContext facesContext );4;2;18
+AbstractUIData.findComponent( String searchId );2;1;6
+AbstractUIData.invokeMethodBinding( MethodBinding methodBinding , FacesEvent event );5;3;15
+AbstractUIData.encodeEnd( FacesContext facesContext );3;2;7
+AbstractUIData.getRenderedChildrenOf( UIColumn column );3;0;10
+AbstractUIData.setWidthList( List < Integer > widthList );1;0;3
+AbstractUIData.hasRowCount( );1;2;3
+AbstractUIData.getLast( );2;2;4
+AbstractUIData.getStateChangeListeners( );1;0;3
+AbstractUIData.updateSheetState( FacesContext facesContext );2;1;11
+AbstractUIData.addStateChangeListener( SheetStateChangeListener listener );1;0;3
+AbstractUIData.getPage( );3;7;12
+AbstractUIData.queueEvent( FacesEvent facesEvent );9;8;26
+AbstractUIData.restoreState( FacesContext context , Object savedState );1;0;5
+AbstractUIData.getLastPageIndex( );3;4;9
+AbstractUIData.getRenderedColumns( );5;3;9
+AbstractUIData.getWidthList( );1;0;3
+AbstractUIData.processUpdates( FacesContext context );1;0;4
+AbstractUIData.performPaging( PageActionEvent pageEvent );18;14;61
+AbstractUIData.removeStateChangeListener( SheetStateChangeListener listener );1;0;3
+AbstractUIData.encodeBegin( FacesContext facesContext );6;6;15
+AbstractUIData.getAllColumns( );4;2;9

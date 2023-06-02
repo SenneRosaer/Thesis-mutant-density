@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropDefDiff.getOldDef( );1;0;3
+NodeTypeDefDiff.mixinFlagDiff( );2;1;3
+NodeTypeDefDiff.buildPropDefDiffs( );7;6;38
+ChildNodeDefDiff.getOldDef( );1;0;3
+ChildItemDefDiff.init( );10;6;31
+ChildItemDefDiff.isRemoved( );2;3;3
+PropDefDiff.getNewDef( );1;0;3
+ChildNodeDefDiff.getNewDef( );1;0;3
+NodeTypeDefDiff.isModified( );1;1;3
+ChildItemDefDiff.isAdded( );2;3;3
+PropDefDiff.init( );15;17;40
+NodeTypeDefDiff.toString( List childItemDefDiffs );3;3;12
+ChildItemDefDiff.isModified( );3;5;4
+ChildItemDefDiff.toString( );5;4;17
+NodeTypeDefDiff.isMajor( );1;1;3
+ChildNodeDefDiff.init( );9;9;21
+NodeTypeDefDiff.buildChildNodeDefDiffs( );7;6;38
+ChildItemDefDiff.ChildItemDefDiff( ItemDef oldDef , ItemDef newDef );1;0;5
+NodeTypeDefDiff.create( NodeTypeDef oldDef , NodeTypeDef newDef );4;4;9
+NodeTypeDefDiff.toString( );1;10;14
+NodeTypeDefDiff.init( );6;4;23
+NodeTypeDefDiff.NodeTypeDefDiff( NodeTypeDef oldDef , NodeTypeDef newDef );1;0;5
+NodeTypeDefDiff.isMinor( );1;1;3
+NodeTypeDefDiff.getType( );1;0;3
+PropDefDiff.PropDefDiff( PropDef oldDef , PropDef newDef );1;0;3
+NodeTypeDefDiff.modificationTypeToString( int modifcationType );5;0;14
+NodeTypeDefDiff.isTrivial( );1;1;3
+ChildItemDefDiff.getType( );1;0;3
+NodeTypeDefDiff.supertypesDiff( );2;1;3
+ChildNodeDefDiff.ChildNodeDefDiff( NodeDef oldDef , NodeDef newDef );1;0;3

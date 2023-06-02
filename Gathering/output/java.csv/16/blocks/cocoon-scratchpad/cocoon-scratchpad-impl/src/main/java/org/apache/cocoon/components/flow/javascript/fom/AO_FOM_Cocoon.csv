@@ -1,0 +1,126 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FOM_Cookie.FOM_Cookie( );1;0;2
+FOM_Session.jsFunction_getMaxInactiveInterval( );1;0;3
+FOM_Session.FOM_Session( Object session );1;0;3
+FOM_Request.jsFunction_getAttribute( String name );1;0;3
+FOM_Log.jsFunction_isDebugEnabled( );1;0;3
+FOM_Session.get( String name , Scriptable start );4;4;10
+FOM_Request.jsFunction_removeAttribute( String name );1;0;3
+AO_FOM_Cocoon.getClassName( );1;0;3
+FOM_Cookie.jsSet_comment( String purpose );1;0;3
+FOM_Request.FOM_Request( Object request );1;0;3
+AO_FOM_Cocoon.jsFunction_sendPage( String uri , Object obj , Object continuation );1;0;3
+FOM_Response.FOM_Response( );1;0;2
+FOM_Request.jsFunction_isSecure( );1;0;3
+AO_FOM_Cocoon.forwardTo( String uri , Object bean , FOM_WebContinuation fom_wk );1;0;8
+FOM_Cookie.jsGet_secure( );1;0;3
+FOM_Request.jsFunction_getContentType( );1;0;3
+FOM_Log.jsFunction_isInfoEnabled( );1;0;3
+AO_FOM_Cocoon.handleContinuation( String kontId , Scriptable parameters );4;5;15
+FOM_Session.jsFunction_getAttributeNames( );1;0;3
+FOM_Request.jsFunction_getParameter( String name );1;0;3
+AO_FOM_Cocoon.makeWebContinuation( Continuation k , FOM_WebContinuation parent , int timeToLive );3;2;18
+FOM_Log.jsFunction_debug( String message );1;0;3
+FOM_Session.jsFunction_getAttribute( String name );1;0;3
+FOM_Context.FOM_Context( Object context );1;0;3
+FOM_Cookie.jsGet_path( );1;0;3
+FOM_Session.getIds( );3;1;13
+FOM_Request.jsFunction_getServerPort( );1;0;3
+FOM_Cookie.jsGet_comment( );1;0;3
+FOM_Response.jsFunction_addHeader( String name , String value );1;0;3
+FOM_Session.jsFunction_getCreationTime( );1;0;3
+FOM_Cookie.jsSet_version( int value );1;0;3
+FOM_Log.FOM_Log( );1;0;2
+FOM_Session.jsFunction_getId( );1;0;3
+FOM_Request.jsFunction_getLocales( );1;0;3
+FOM_Request.jsFunction_get( String name );1;0;3
+FOM_Cookie.jsGet_version( );1;0;3
+FOM_Request.jsFunction_setAttribute( String name , Object value );1;0;3
+FOM_Log.FOM_Log( Object logger );1;0;3
+FOM_Cookie.jsGet_maxAge( );1;0;3
+FOM_Log.jsFunction_isErrorEnabled( );1;0;3
+FOM_Response.jsFunction_addCookie( Object cookie );2;1;7
+FOM_Request.jsFunction_getCookies( );2;2;8
+AO_FOM_Cocoon.getSession( );2;1;6
+FOM_Cookie.jsSet_value( String value );1;0;3
+FOM_Cookie.jsSet_secure( boolean value );1;0;3
+FOM_Cookie.jsSet_path( String value );1;0;3
+AO_FOM_Cocoon.jsGet_response( );3;2;12
+AO_FOM_Cocoon.jsFunction_load( String filename );1;0;7
+FOM_Response.jsFunction_containsHeader( String name );1;0;3
+AO_FOM_Cocoon.getResponse( );1;0;3
+FOM_Response.jsFunction_setHeader( String name , String value );1;0;3
+AO_FOM_Cocoon.setParameters( Scriptable value );1;0;3
+FOM_Request.jsFunction_getHeaders( String name );1;0;3
+AO_FOM_Cocoon.jsGet_session( );3;2;12
+FOM_Request.jsFunction_getLocale( );1;0;3
+FOM_Context.jsFunction_getInitParameter( String name );1;0;3
+FOM_Session.getClassName( );1;0;3
+AO_FOM_Cocoon.jsGet_context( );2;1;11
+FOM_Cookie.getClassName( );1;0;3
+FOM_Request.jsFunction_getParameterValues( String name );1;0;3
+FOM_Request.jsFunction_getHeaderNames( );1;0;3
+FOM_Request.jsFunction_getProtocol( );1;0;3
+FOM_Request.jsFunction_getContentLength( );1;0;3
+AO_FOM_Cocoon.jsFunction_apply( String script );2;0;7
+FOM_Cookie.FOM_Cookie( Object cookie );1;0;3
+FOM_Session.jsFunction_removeAttribute( String name );1;0;3
+FOM_Request.getClassName( );1;0;3
+AO_FOM_Cocoon.jsGet_parameters( );1;0;3
+FOM_Request.jsFunction_getRemoteAddr( );1;0;3
+FOM_Context.jsFunction_getAttribute( String name );1;0;3
+AO_FOM_Cocoon.getRequest( );1;0;3
+FOM_Cookie.jsGet_value( );1;0;3
+FOM_Request.jsFunction_getHeader( String name );1;0;3
+AO_FOM_Cocoon.setup( AO_FOM_JavaScriptInterpreter interp , Redirector redirector , Context avalonContext , ServiceManager manager );1;0;6
+FOM_Log.jsFunction_isWarnEnabled( );1;0;3
+FOM_Request.jsFunction_getUserPrincipal( );1;0;3
+AO_FOM_Cocoon.forwardTo( String uri , Object bizData , Continuation continuation );3;2;31
+FOM_Log.jsFunction_info( String message );1;0;3
+FOM_Session.FOM_Session( );1;0;2
+AO_FOM_Cocoon.jsGet_request( );3;2;12
+FOM_Request.jsFunction_getServerName( );1;0;3
+AO_FOM_Cocoon.jsFunction_getComponent( String id );1;0;3
+FOM_Request.get( String name , Scriptable start );4;4;10
+FOM_Request.jsFunction_getParameterNames( );1;0;3
+FOM_Cookie.jsGet_domain( );1;0;3
+AO_FOM_Cocoon.init( Scriptable scope );1;0;10
+FOM_Response.jsFunction_createCookie( String name , String value );1;0;7
+FOM_Response.getClassName( );1;0;3
+FOM_Request.jsFunction_getScheme( );1;0;3
+FOM_Session.jsFunction_setAttribute( String name , Object value );1;0;3
+AO_FOM_Cocoon.jsGet_log( );2;1;9
+FOM_Context.getIds( );3;1;13
+FOM_Session.jsFunction_setMaxInactiveInterval( int interval );1;0;3
+AO_FOM_Cocoon.jsFunction_redirectTo( String uri );1;0;3
+FOM_Request.getIds( );3;1;13
+FOM_Context.getClassName( );1;0;3
+FOM_Request.jsFunction_isUserInRole( String role );1;0;3
+AO_FOM_Cocoon.jsFunction_releaseComponent( Object component );1;0;3
+FOM_Log.getClassName( );1;0;3
+AO_FOM_Cocoon.unwrap( Object obj );3;1;8
+FOM_Request.jsFunction_getRemoteUser( );1;0;3
+FOM_Request.jsFunction_getAuthType( );1;0;3
+AO_FOM_Cocoon.invalidate( );1;0;10
+FOM_Cookie.jsSet_maxAge( int value );1;0;3
+FOM_Context.FOM_Context( );1;0;2
+FOM_Context.jsFunction_getAttributeNames( );1;0;3
+FOM_Cookie.jsGet_name( );1;0;3
+FOM_Request.jsFunction_getCharacterEncoding( );1;0;3
+AO_FOM_Cocoon.getObjectModel( );1;0;3
+FOM_Context.jsFunction_removeAttribute( String name );1;0;3
+FOM_Request.FOM_Request( );1;0;2
+FOM_Request.jsFunction_getRemoteHost( );1;0;3
+FOM_Request.jsFunction_setCharacterEncoding( String value );1;0;3
+FOM_Session.jsFunction_getLastAccessedTime( );1;0;3
+FOM_Session.jsFunction_invalidate( );1;0;3
+FOM_Response.FOM_Response( Object response );1;0;3
+AO_FOM_Cocoon.getContext( );1;0;3
+FOM_Log.jsFunction_warn( String message );1;0;3
+FOM_Session.jsFunction_isNew( );1;0;3
+FOM_Request.jsFunction_getMethod( );1;0;3
+FOM_Context.get( String name , Scriptable start );4;4;10
+AO_FOM_Cocoon.jsFunction_processPipelineTo( String uri , Object map , Object outputStream );2;1;7
+FOM_Log.jsFunction_error( String message );1;0;3
+FOM_Context.jsFunction_setAttribute( String name , Object value );1;0;3
+FOM_Cookie.jsSet_domain( String pattern );1;0;3

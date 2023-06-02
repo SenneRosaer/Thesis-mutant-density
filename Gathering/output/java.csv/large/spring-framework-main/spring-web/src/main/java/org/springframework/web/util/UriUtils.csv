@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UriUtils.encode( String scheme , String encoding , HierarchicalUriComponents . Type type );1;0;3
+UriUtils.encodeUriVariables( Map < String , ? > uriVariables );2;1;8
+UriUtils.extractFileExtension( String path );9;19;18
+UriUtils.encodeUriVariables( Object ... uriVariables );2;1;8
+UriUtils.encodeHost( String host , Charset charset );1;0;3
+UriUtils.encodePort( String port , String encoding );1;0;3
+UriUtils.encodeQuery( String query , Charset charset );1;0;3
+UriUtils.encodeHost( String host , String encoding );1;0;3
+UriUtils.encodeQueryParam( String queryParam , String encoding );1;0;3
+UriUtils.encodePath( String path , String encoding );1;0;3
+UriUtils.encodePathSegment( String segment , Charset charset );1;0;3
+UriUtils.encodeUserInfo( String userInfo , Charset charset );1;0;3
+UriUtils.encodeQueryParams( MultiValueMap < String , String > params );3;0;10
+UriUtils.encode( String source , Charset charset );1;0;3
+UriUtils.encodeFragment( String fragment , Charset charset );1;0;3
+UriUtils.encodePathSegment( String segment , String encoding );1;0;3
+UriUtils.encodeUserInfo( String userInfo , String encoding );1;0;3
+UriUtils.encodeQueryParam( String queryParam , Charset charset );1;0;3
+UriUtils.encodeFragment( String fragment , String encoding );1;0;3
+UriUtils.encodeScheme( String scheme , String encoding );1;0;3
+UriUtils.encodeAuthority( String authority , String encoding );1;0;3
+UriUtils.encode( String source , String encoding );1;0;3
+UriUtils.decode( String source , String encoding );1;0;3
+UriUtils.encodeScheme( String scheme , Charset charset );1;0;3
+UriUtils.encode( String scheme , Charset charset , HierarchicalUriComponents . Type type );1;0;3
+UriUtils.encodePath( String path , Charset charset );1;0;3
+UriUtils.encodeAuthority( String authority , Charset charset );1;0;3
+UriUtils.encodePort( String port , Charset charset );1;0;3
+UriUtils.decode( String source , Charset charset );1;0;3
+UriUtils.encodeQuery( String query , String encoding );1;0;3

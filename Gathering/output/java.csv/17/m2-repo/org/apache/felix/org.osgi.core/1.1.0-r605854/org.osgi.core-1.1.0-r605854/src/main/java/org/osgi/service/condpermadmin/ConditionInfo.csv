@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ConditionInfo.ConditionInfo( String type , String [ ] args );3;2;7
+ConditionInfo.toString( );1;0;3
+ConditionInfo.getArgs( );1;0;3
+ConditionInfo.unescapeString( char [ ] str , int begin , int end );8;7;29
+ConditionInfo.getType( );1;0;3
+ConditionInfo.ConditionInfo( String encodedCondition );21;30;66
+ConditionInfo.equals( Object obj );7;8;16
+ConditionInfo.hashCode( );2;3;7
+ConditionInfo.getEncoded( );2;2;12
+ConditionInfo.escapeString( String str , StringBuffer output );6;2;22

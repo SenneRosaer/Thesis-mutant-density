@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultTaskWrapper.DefaultTaskWrapper( ServiceManager manager );1;0;4
+DefaultTaskWrapper.initialize( String taskId , Publication publication , String webappUrl , Parameters _parameters );2;0;9
+DefaultTaskWrapper.setNotifying( NamespaceMap notificationParameters );1;0;4
+DefaultTaskWrapper.restore( NamespaceHelper helper , Element parent );2;2;13
+DefaultTaskWrapper.getWrapperParameters( );1;0;3
+DefaultTaskWrapper.execute( );10;7;59
+DefaultTaskWrapper.extractTaskParameters( Parameters _parameters , Publication publication , Request request );5;4;26
+DefaultTaskWrapper.getTaskParameters( );1;0;3
+DefaultTaskWrapper.getParameters( );1;0;3
+DefaultTaskWrapper.DefaultTaskWrapper( Map _parameters , ServiceManager manager );9;6;34
+DefaultTaskWrapper.setWorkflowAware( String eventName , Identity identity , Role [ ] roles );1;0;6
+DefaultTaskWrapper.DefaultTaskWrapper( NamespaceHelper helper , Element parent );1;0;4
+DefaultTaskWrapper.save( NamespaceHelper helper );2;0;17
+DefaultTaskWrapper.getParameterObject( );1;0;3

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PerConnectionWebSocketHandler.supportsPartialMessages( );1;0;3
+PerConnectionWebSocketHandler.getHandler( WebSocketSession session );2;1;7
+PerConnectionWebSocketHandler.toString( );1;0;3
+PerConnectionWebSocketHandler.afterConnectionClosed( WebSocketSession session , CloseStatus closeStatus );1;0;8
+PerConnectionWebSocketHandler.handleMessage( WebSocketSession session , WebSocketMessage < ? > message );1;0;3
+PerConnectionWebSocketHandler.setBeanFactory( BeanFactory beanFactory );1;0;3
+PerConnectionWebSocketHandler.afterConnectionEstablished( WebSocketSession session );1;0;5
+PerConnectionWebSocketHandler.handleTransportError( WebSocketSession session , Throwable exception );1;0;3
+PerConnectionWebSocketHandler.PerConnectionWebSocketHandler( Class < ? extends WebSocketHandler > handlerType , boolean supportsPartialMessages );1;0;4
+PerConnectionWebSocketHandler.PerConnectionWebSocketHandler( Class < ? extends WebSocketHandler > handlerType );1;0;3
+PerConnectionWebSocketHandler.destroyHandler( WebSocketSession session );4;1;13

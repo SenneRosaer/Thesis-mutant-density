@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompositeRequestCondition.wrap( RequestCondition < ? > ... rawConditions );2;2;7
+CompositeRequestCondition.assertNumberOfConditions( CompositeRequestCondition other );1;1;6
+CompositeRequestCondition.getContent( );2;1;3
+CompositeRequestCondition.getConditions( );1;0;3
+CompositeRequestCondition.getLength( );1;0;3
+CompositeRequestCondition.getToStringInfix( );1;0;3
+CompositeRequestCondition.unwrap( );3;0;7
+CompositeRequestCondition.CompositeRequestCondition( RequestCondition < ? > ... requestConditions );1;0;3
+CompositeRequestCondition.combine( CompositeRequestCondition other );6;3;19
+CompositeRequestCondition.isEmpty( );1;0;3
+CompositeRequestCondition.getMatchingCondition( HttpServletRequest request );4;3;13
+CompositeRequestCondition.CompositeRequestCondition( RequestConditionHolder [ ] requestConditions );1;0;3
+CompositeRequestCondition.compareTo( CompositeRequestCondition other , HttpServletRequest request );7;5;21

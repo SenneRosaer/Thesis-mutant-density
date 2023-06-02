@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QueryParser.QueryParser( QueryParserTokenManager tm );3;6;8
+QueryParser.QueryParser( );1;0;3
+QueryParser.AndQuery( );7;4;26
+QueryParser.getTermQuery( String term , boolean quoted );1;0;3
+QueryParser.QueryParser( CharStream stream );3;6;8
+***not in a method***;0;1;0
+QueryParser.checkDistanceSubQueries( DistanceQuery distq , String opName );2;1;6
+QueryParser.jj_2_1( int xla );2;1;6
+QueryParser.OrQuery( );7;4;26
+QueryParser.jj_scan_token( int kind );10;12;20
+QueryParser.jj_save( int index , int xla );3;4;8
+QueryParser.allowedTruncation( String truncated );4;7;10
+QueryParser.getTruncQuery( String truncated );1;0;3
+QueryParser.getFieldsQuery( SrndQuery q , ArrayList fieldNames );1;0;3
+QueryParser.jj_ntk( );2;1;6
+QueryParser.ReInit( CharStream stream );3;6;8
+QueryParser.getNotQuery( List queries , Token notToken );1;0;3
+QueryParser.getOrQuery( List queries , boolean infix , Token orToken );1;0;3
+QueryParser.parse2( String query );2;0;8
+QueryParser.jj_add_error_token( int kind , int pos );12;14;27
+QueryParser.jj_3_1( );3;0;5
+QueryParser.NQuery( );5;2;25
+QueryParser.getNextToken( );2;3;7
+QueryParser.NotQuery( );7;4;26
+QueryParser.PrimaryQuery( );13;3;30
+QueryParser.FieldsQueryList( );5;2;24
+QueryParser.getDistanceQuery( List queries , boolean infix , Token dToken , boolean ordered );1;0;9
+QueryParser.WQuery( );5;2;25
+QueryParser.FieldsQuery( );3;1;8
+QueryParser.jj_la1_0( );1;0;3
+QueryParser.getPrefixQuery( String prefix , boolean quoted );1;0;3
+QueryParser.generateParseException( );10;16;35
+QueryParser.PrefixOperatorQuery( );10;3;31
+QueryParser.enable_tracing( );1;0;2
+QueryParser.allowedSuffix( String suffixed );1;2;3
+QueryParser.OptionalFields( );5;1;20
+QueryParser.jj_consume_token( int kind );7;10;23
+QueryParser.parse( String query );1;0;4
+QueryParser.jj_rescan_token( );5;4;16
+QueryParser.disable_tracing( );1;0;2
+QueryParser.OptionalWeights( SrndQuery q );8;7;26
+QueryParser.SimpleTerm( );18;13;39
+QueryParser.getToken( int index );4;3;8
+QueryParser.getAndQuery( List queries , boolean infix , Token andToken );1;0;3
+QueryParser.ReInit( QueryParserTokenManager tm );3;6;8
+QueryParser.TopSrndQuery( );2;0;7
+QueryParser.getOpDistance( String distanceOp );2;2;5

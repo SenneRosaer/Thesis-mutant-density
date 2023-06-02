@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QueryTemplateManager.getTemplates( InputStream xslIs );1;0;7
+QueryTemplateManager.transformCriteria( Properties formProperties , InputStream xslIs , Result result );1;0;12
+QueryTemplateManager.getQueryAsDOM( Properties formProperties , InputStream xslIs );1;0;5
+QueryTemplateManager.transformCriteria( Properties formProperties , Transformer transformer , Result result );4;3;19
+QueryTemplateManager.transformCriteria( Properties formProperties , Templates template , Result result );1;0;3
+QueryTemplateManager.getQueryAsXmlString( Properties formProperties );1;0;3
+QueryTemplateManager.addDefaultQueryTemplate( InputStream xslIs );1;0;3
+QueryTemplateManager.QueryTemplateManager( InputStream xslIs );1;0;3
+QueryTemplateManager.getQueryAsDOM( Properties formProperties , Templates template );1;0;5
+QueryTemplateManager.getQueryAsDOM( Properties formProperties );1;0;3
+QueryTemplateManager.getQueryAsXmlString( Properties formProperties , String queryTemplateName );1;0;4
+QueryTemplateManager.getQueryAsDOM( Properties formProperties , String queryTemplateName );1;0;4
+QueryTemplateManager.addQueryTemplate( String name , InputStream xslIs );1;0;3
+QueryTemplateManager.getQueryAsXmlString( Properties formProperties , InputStream xslIs );1;0;6
+QueryTemplateManager.getQueryAsXmlString( Properties formProperties , Templates template );1;0;6
+QueryTemplateManager.QueryTemplateManager( );1;0;2

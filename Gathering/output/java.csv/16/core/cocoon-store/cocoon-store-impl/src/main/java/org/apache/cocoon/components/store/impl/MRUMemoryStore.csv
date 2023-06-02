@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MRUMemoryStore.init( );5;6;14
+MRUMemoryStore.remove( Object key );4;2;11
+MRUMemoryStore.size( );1;0;3
+MRUMemoryStore.setMaxObjects( int maxobjects );1;0;3
+MRUMemoryStore.hold( Object key , Object value );3;1;13
+MRUMemoryStore.setPersistentStore( Store persistentStore );1;0;3
+MRUMemoryStore.get( Object key );8;3;28
+MRUMemoryStore.setStoreJanitor( StoreJanitor storeJanitor );1;0;3
+MRUMemoryStore.free( );9;2;29
+MRUMemoryStore.setLogger( Log l );1;0;3
+MRUMemoryStore.destroy( );7;2;24
+MRUMemoryStore.containsKey( Object key );3;1;7
+MRUMemoryStore.store( Object key , Object value );1;0;3
+MRUMemoryStore.getLogger( );1;0;3
+MRUMemoryStore.keys( );1;0;3
+MRUMemoryStore.setUsePersistentStore( boolean persistent );1;0;3
+MRUMemoryStore.checkSerializable( Object object );1;0;3
+MRUMemoryStore.clear( );3;1;10

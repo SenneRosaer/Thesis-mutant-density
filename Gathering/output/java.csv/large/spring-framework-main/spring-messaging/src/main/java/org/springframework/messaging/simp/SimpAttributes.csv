@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpAttributes.getAttributeNames( );1;0;3
+SimpAttributes.registerDestructionCallback( String name , Runnable callback );2;1;8
+SimpAttributes.getAttribute( String name );1;0;3
+SimpAttributes.sessionCompleted( );2;1;8
+SimpAttributes.isSessionCompleted( );1;1;3
+SimpAttributes.removeDestructionCallback( String name );1;1;5
+SimpAttributes.setAttribute( String name , Object value );1;0;3
+SimpAttributes.removeAttribute( String name );1;0;4
+SimpAttributes.getSessionId( );1;0;3
+SimpAttributes.SimpAttributes( String sessionId , Map < String , Object > attributes );1;0;6
+SimpAttributes.executeDestructionCallbacks( );3;0;12
+SimpAttributes.fromMessage( Message < ? > message );3;2;13
+SimpAttributes.getSessionMutex( );2;1;7

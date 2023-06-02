@@ -1,0 +1,46 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SiteTreeImpl.linkAdded( Link link );2;1;5
+SiteTreeImpl.moveUp( String path );1;0;5
+SiteTreeImpl.getParent( TreeNode node );2;0;9
+SiteTreeImpl.getNodeFactory( );3;1;10
+SiteTreeImpl.linkRemoved( String uuid , String language );1;0;7
+SiteTreeImpl.add( String path , Document doc );5;2;18
+SiteTreeImpl.load( );5;1;25
+SiteTreeImpl.loadLinks( TreeNodeImpl node , NamespaceHelper helper , Element element );2;2;8
+SiteTreeImpl.contains( String path );1;0;5
+SiteTreeImpl.getPath2Node( );1;0;4
+SiteTreeImpl.reset( );1;0;5
+SiteTreeImpl.getSourceUri( );2;1;7
+SiteTreeImpl.getParentPath( String path );1;0;5
+SiteTreeImpl.contains( String path , String language );3;0;12
+SiteTreeImpl.containsInAnyLanguage( String uuid );3;2;11
+SiteTreeImpl.add( String path );2;2;8
+SiteTreeImpl.getPath( );1;0;3
+SiteTreeImpl.isModified( );1;0;3
+SiteTreeImpl.nodeRemoved( String path );1;0;5
+SiteTreeImpl.getRoot( );1;0;4
+SiteTreeImpl.nodeAdded( SiteNode node );2;2;8
+SiteTreeImpl.getTreeNode( String path );1;0;3
+SiteTreeImpl.getKey( Link link );1;0;7
+SiteTreeImpl.add( String path , String followingSiblingPath );3;4;12
+SiteTreeImpl.moveDown( String path );1;0;5
+SiteTreeImpl.getByUuid( String uuid , String language );2;1;9
+SiteTreeImpl.saveLinks( SiteNode node , NamespaceHelper helper , Element nodeElement );2;2;9
+SiteTreeImpl.save( );5;3;18
+SiteTreeImpl.getRepositoryNode( );2;0;7
+SiteTreeImpl.getArea( );1;0;3
+SiteTreeImpl.getUuidLanguage2Link( );1;0;4
+SiteTreeImpl.getNodes( );1;0;3
+SiteTreeImpl.getSession( );1;0;3
+SiteTreeImpl.getTopLevelNodes( );1;0;3
+SiteTreeImpl.getKey( String uuid , String language );1;1;5
+SiteTreeImpl.changed( );2;1;5
+SiteTreeImpl.containsByUuid( String uuid , String language );1;0;5
+SiteTreeImpl.SiteTreeImpl( ServiceManager manager , Area area , Logger logger );1;0;6
+SiteTreeImpl.preOrder( );1;0;3
+SiteTreeImpl.getPublication( );1;0;3
+SiteTreeImpl.getRevision( Node repoNode );2;1;7
+SiteTreeImpl.loadNodes( TreeNode parent , NamespaceHelper helper , Element element );4;2;18
+SiteTreeImpl.saveNodes( TreeNode parent , NamespaceHelper helper , Element parentElement );3;3;15
+SiteTreeImpl.getNode( String path );2;1;7
+SiteTreeImpl.initRoot( );1;0;4

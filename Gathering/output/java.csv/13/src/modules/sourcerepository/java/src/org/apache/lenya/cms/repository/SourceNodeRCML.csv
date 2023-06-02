@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SourceNodeRCML.getBackupsTime( );4;2;11
+SourceNodeRCML.saveToXml( );3;0;16
+SourceNodeRCML.deleteRevisions( );3;2;13
+SourceNodeRCML.restoreBackup( Node node , long time );1;0;5
+SourceNodeRCML.isCheckedOutBySession( Session session );5;2;18
+SourceNodeRCML.checkOut( Node node );1;0;3
+SourceNodeRCML.makeBackup( long time );1;0;4
+SourceNodeRCML.getChildValue( NamespaceHelper helper , Element element , String childName , String defaultValue );2;1;8
+SourceNodeRCML.restoreBackup( SourceWrapper wrapper , long time );3;1;14
+SourceNodeRCML.SourceNodeRCML( String contentSourceUri , String metaSourceUri , ServiceManager manager );1;2;7
+SourceNodeRCML.pruneEntries( );4;4;14
+SourceNodeRCML.getLatestCheckInEntry( );1;0;3
+SourceNodeRCML.getLatestElement( NamespaceHelper helper , String type );1;0;4
+SourceNodeRCML.checkOutIn( Node node , short type , long time , boolean backup , boolean newVersion , boolean restrictedToSession );10;8;45
+SourceNodeRCML.getChildValue( NamespaceHelper helper , Element element , String childName );2;1;9
+SourceNodeRCML.makeBackup( String sourceUri , long time );3;0;10
+SourceNodeRCML.checkOut( Node node , boolean restrictedToSession );1;0;4
+SourceNodeRCML.getLegacyEntry( NamespaceHelper helper , Element element );3;1;17
+SourceNodeRCML.getLatestCheckOutEntry( );1;0;3
+SourceNodeRCML.setDirty( );1;0;3
+SourceNodeRCML.delete( );2;0;10
+SourceNodeRCML.getBackupSourceUri( SourceWrapper wrapper , long time );1;0;4
+SourceNodeRCML.getLatestEntry( short type );3;1;10
+SourceNodeRCML.deleteBackup( String sourceUri , long time );2;0;9
+SourceNodeRCML.isDirty( );1;0;3
+SourceNodeRCML.copyFrom( Node node , Node otherNode );6;0;42
+SourceNodeRCML.checkIn( Node node , boolean backup , boolean newVersion );2;0;9
+SourceNodeRCML.getLatestEntry( );2;0;8
+SourceNodeRCML.getRcmlSourceUri( );1;1;3
+SourceNodeRCML.getBackupEntries( );4;2;11
+SourceNodeRCML.isCheckedOut( );2;3;4
+SourceNodeRCML.clearDirty( );1;0;3
+SourceNodeRCML.write( );2;0;10
+SourceNodeRCML.finalize( );2;0;5
+SourceNodeRCML.getEntry( NamespaceHelper helper , Element element );4;0;21
+SourceNodeRCML.getBackupSourceUri( String uri , long time );1;1;3
+SourceNodeRCML.saveToXml( NamespaceHelper helper , RCMLEntry entry );3;1;15
+SourceNodeRCML.getEntries( );5;3;21

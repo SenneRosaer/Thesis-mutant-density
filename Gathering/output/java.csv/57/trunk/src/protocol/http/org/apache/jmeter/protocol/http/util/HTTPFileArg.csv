@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HTTPFileArg.HTTPFileArg( HTTPFileArg file );1;0;3
+HTTPFileArg.HTTPFileArg( String path );1;0;3
+HTTPFileArg.getMimeType( );1;0;3
+HTTPFileArg.setPath( String newPath );1;0;3
+HTTPFileArg.setHeader( String newHeader );1;0;3
+HTTPFileArg.setProperty( String name , JMeterProperty prop );1;0;5
+HTTPFileArg.getHeader( );1;0;3
+HTTPFileArg.HTTPFileArg( String path , String paramname , String mimetype );4;5;8
+HTTPFileArg.HTTPFileArg( );1;0;2
+HTTPFileArg.getPath( );1;0;3
+HTTPFileArg.setParamName( String newParamName );1;0;3
+HTTPFileArg.toString( );1;0;5
+HTTPFileArg.isNotEmpty( );3;5;5
+HTTPFileArg.HTTPFileArg( JMeterProperty path , JMeterProperty paramname , JMeterProperty mimetype );4;5;8
+HTTPFileArg.getParamName( );1;0;3
+HTTPFileArg.setMimeType( String newMimeType );1;0;3

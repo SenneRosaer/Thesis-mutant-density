@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LeakAwareNettyDataBufferFactory.join( List < ? extends DataBuffer > dataBuffers );1;0;3
+LeakAwareNettyDataBufferFactory.recordHint( DataBuffer buffer );1;0;7
+LeakAwareNettyDataBufferFactory.reset( );1;0;3
+LeakAwareNettyDataBufferFactory.allocateBuffer( int initialCapacity );1;0;3
+LeakAwareNettyDataBufferFactory.LeakAwareNettyDataBufferFactory( ByteBufAllocator byteBufAllocator );1;0;3
+LeakAwareNettyDataBufferFactory.allocateBuffer( );1;0;3
+LeakAwareNettyDataBufferFactory.checkForLeaks( Duration duration );5;0;19
+LeakAwareNettyDataBufferFactory.wrap( ByteBuf byteBuf );2;1;7
+LeakAwareNettyDataBufferFactory.DataBufferLeakInfo( DataBuffer dataBuffer , AssertionError error );1;0;2

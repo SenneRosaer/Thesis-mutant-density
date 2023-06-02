@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Field.setRequired( boolean required );1;0;4
+Field.getXMLElementAttributes( );1;0;5
+Field.hasValueChangedListeners( );1;1;3
+Field.removeValueChangedListener( ValueChangedListener listener );1;0;3
+Field.doValidate( );6;5;17
+Field.getDefinition( );1;0;3
+Field.getValidationError( );1;0;3
+Field.setSelectionList( SelectionList selectionList );4;5;9
+Field.setSelectionList( String uri );1;0;3
+Field.setSuggestionList( SelectionList suggestionList );4;5;9
+Field.Field( FieldDefinition fieldDefinition );1;0;6
+Field.getSuggestionList( );1;0;3
+Field.validate( );7;7;24
+Field.generateItemSaxFragment( ContentHandler contentHandler , Locale locale );10;16;31
+Field.setSuggestionLabel( String label );2;1;7
+Field.setValidationError( ValidationError error );3;2;9
+Field.broadcastEvent( WidgetEvent event );3;1;9
+Field.addValueChangedListener( ValueChangedListener listener );1;0;3
+Field.getSuggestionLabel( );1;0;3
+Field.initialize( );2;1;10
+Field.getValue( );7;7;16
+Field.setValue( Object newValue );12;12;31
+Field.getXMLElementName( );1;0;3
+Field.readFromRequest( FormContext formContext );4;2;18
+Field.readFromRequest( String newEnteredValue );7;5;24
+Field.isSuggested( );1;1;3
+Field.getFieldDefinition( );1;0;3
+Field.setSuggestionList( String uri );1;0;3
+Field.isRequired( );1;0;3
+Field.applyWhitespaceTrim( String value );8;8;17
+Field.doParse( );4;2;19
+Field.setSelectionList( Object model , String valuePath , String labelPath );1;0;3
+Field.getDatatype( );1;0;3

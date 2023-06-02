@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GroupBasedProfileManager.getGlobalCopletDefinitions( final PortalUser info , final ProfileHolder profile );11;11;44
+GroupBasedProfileManager.getLayout( final ProfileHolder profile , final PortalUser info , final String category , final String layoutKey );3;1;19
+GroupBasedProfileManager.getLayout( String layoutId );4;3;13
+GroupBasedProfileManager.login( PortalUser user );1;0;4
+GroupBasedProfileManager.removeUserProfiles( );1;0;3
+GroupBasedProfileManager.setProfileStore( ProfileStore loader );1;0;3
+GroupBasedProfileManager.setCheckForChanges( boolean checkForChanges );1;0;3
+GroupBasedProfileManager.getCopletInstance( String copletID );2;1;7
+***not in a method***;0;1;0
+GroupBasedProfileManager.getCopletInstances( final ProfileHolder profile , final PortalUser info , final String category , final String layoutKey );3;1;18
+GroupBasedProfileManager.inform( LayoutRemovedEvent event );1;0;4
+GroupBasedProfileManager.getCopletDefinition( String copletDataId );2;1;7
+GroupBasedProfileManager.getCopletInstances( CopletDefinition data );4;1;15
+GroupBasedProfileManager.inform( CopletInstanceRemovedEvent event );1;0;4
+GroupBasedProfileManager.inform( CopletInstanceAddedEvent event );1;0;4
+GroupBasedProfileManager.inform( CopletDefinitionAddedEvent event );2;1;6
+GroupBasedProfileManager.loadProfile( ProfileHolder profile , PortalUser user , String profileName );11;10;22
+GroupBasedProfileManager.inform( LayoutInstanceAddedEvent event );1;0;4
+GroupBasedProfileManager.inform( LayoutAddedEvent event );1;0;4
+GroupBasedProfileManager.storeUserProfile( ProfileHolder profile );1;0;3
+GroupBasedProfileManager.getCopletInstances( );2;1;7
+GroupBasedProfileManager.saveUserProfiles( );1;0;4
+GroupBasedProfileManager.buildKey( String category , PortalUser info , String profileName );4;1;15
+GroupBasedProfileManager.saveCopletInstances( );2;0;13
+GroupBasedProfileManager.getLayoutInstance( Layout layout );2;1;8
+GroupBasedProfileManager.logout( PortalUser user );3;1;13
+GroupBasedProfileManager.loadProfile( );3;0;16
+GroupBasedProfileManager.saveLayoutInstances( );2;0;13
+GroupBasedProfileManager.isSourceNotFoundException( Throwable e );3;1;10
+GroupBasedProfileManager.getUserProfile( );1;0;3
+GroupBasedProfileManager.getCopletDefinitions( );2;1;7

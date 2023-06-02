@@ -1,0 +1,68 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LayoutContext.getRefIPD( );1;0;3
+LayoutContext.setRefIPD( int ipd );1;0;3
+LayoutContext.getSpaceAdjust( );1;0;3
+LayoutContext.getStackLimitBP( );1;0;3
+LayoutContext.setTrailingSpace( SpaceSpecifier space );1;0;3
+LayoutContext.getLeadingSpace( );1;0;3
+LayoutContext.getAlignmentContext( );1;0;3
+LayoutContext.setSpaceAfter( int spaceAfter );1;0;3
+LayoutContext.getKeepWithPreviousPending( );1;0;3
+LayoutContext.setLineStartBorderAndPaddingWidth( int lineStartBorderAndPaddingWidth );1;0;3
+LayoutContext.getLineStartBorderAndPaddingWidth( );1;0;3
+LayoutContext.setAlignmentContext( AlignmentContext alignmentContext );1;0;3
+LayoutContext.getIPDAdjust( );1;0;3
+LayoutContext.setStackLimitIP( MinOptMax limit );1;0;3
+LayoutContext.setSpaceBefore( int spaceBefore );1;0;3
+LayoutContext.setStackLimitBP( MinOptMax limit );1;0;3
+LayoutContext.clearKeepWithPreviousPending( );1;0;3
+LayoutContext.getTrailingSpace( );1;0;3
+LayoutContext.tryHyphenate( );1;2;3
+LayoutContext.getSpaceAfter( );1;0;3
+LayoutContext.addPendingAfterMark( UnresolvedListElementWithLength element );2;1;6
+LayoutContext.startsNewArea( );2;4;3
+LayoutContext.LayoutContext( LayoutContext parentLC );1;0;18
+LayoutContext.isLastArea( );1;2;3
+LayoutContext.getLineEndBorderAndPaddingWidth( );1;0;3
+LayoutContext.updateKeepWithPreviousPending( int strength );1;0;3
+LayoutContext.resetAlignmentContext( );2;1;5
+LayoutContext.isKeepWithNextPending( );1;1;3
+LayoutContext.getStackLimitIP( );1;0;3
+LayoutContext.getCurrentSpan( );2;1;4
+LayoutContext.getKeepWithNextPending( );1;0;3
+LayoutContext.getWritingMode( );1;0;3
+LayoutContext.setFlags( int flags , boolean bSet );2;2;7
+LayoutContext.getHyphContext( );1;0;3
+LayoutContext.isFirstArea( );1;2;3
+LayoutContext.setBreakBefore( int breakBefore );1;0;3
+LayoutContext.resolveLeadingSpace( );1;2;3
+LayoutContext.copyPendingMarksFrom( LayoutContext source );3;2;8
+LayoutContext.getPendingAfterMarks( );2;1;7
+LayoutContext.setBPAlignment( int alignment );1;0;3
+LayoutContext.updateKeepWithNextPending( int strength );1;0;3
+LayoutContext.isStart( );1;2;3
+LayoutContext.getNextSpan( );1;0;3
+LayoutContext.isKeepWithPreviousPending( );1;1;3
+LayoutContext.getSpaceBefore( );1;0;3
+LayoutContext.signalSpanChange( int span );4;0;14
+LayoutContext.clearPendingMarks( );1;0;4
+LayoutContext.setStackLimitsFrom( LayoutContext context );1;0;4
+LayoutContext.setLineEndBorderAndPaddingWidth( int lineEndBorderAndPaddingWidth );1;0;3
+LayoutContext.setBreakAfter( int breakAfter );1;0;3
+LayoutContext.getBreakBefore( );1;0;3
+LayoutContext.clearKeepWithNextPending( );1;0;3
+LayoutContext.getPendingBeforeMarks( );2;1;7
+LayoutContext.setLeadingSpace( SpaceSpecifier space );1;0;3
+LayoutContext.LayoutContext( int flags );1;0;8
+LayoutContext.toString( );7;6;25
+LayoutContext.setIPDAdjust( double ipdA );1;0;3
+LayoutContext.setWritingMode( int writingMode );1;0;3
+LayoutContext.setFlags( int flags );1;0;3
+LayoutContext.getBreakAfter( );1;0;3
+LayoutContext.getBPAlignment( );1;0;3
+LayoutContext.unsetFlags( int flags );1;0;3
+LayoutContext.addPendingBeforeMark( UnresolvedListElementWithLength element );2;1;6
+LayoutContext.suppressBreakBefore( );1;2;3
+LayoutContext.setSpaceAdjust( double adjust );1;0;3
+LayoutContext.clearKeepsPending( );1;0;4
+LayoutContext.setHyphContext( HyphContext hyph );1;0;3

@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClientSession.getAttributeNames( );2;0;7
+ClientSession.setNamespacePrefix( String prefix , String uri );2;0;7
+ClientSession.hasPendingChanges( );2;0;7
+ClientSession.impersonate( Credentials credentials );2;0;8
+ClientSession.getWorkspace( );3;1;11
+ClientSession.getNamespaceURI( String prefix );2;0;7
+ClientSession.save( );2;0;7
+ClientSession.ClientSession( Repository repository , RemoteSession remote , LocalAdapterFactory factory );1;0;5
+ClientSession.getImportContentHandler( final String path , final int mode );3;0;19
+ClientSession.getUserID( );2;0;7
+ClientSession.getLockTokens( );2;0;7
+ClientSession.removeLockToken( String name );2;0;7
+ClientSession.getValueFactory( );1;0;3
+ClientSession.checkPermission( String path , String actions );2;0;7
+ClientSession.move( String from , String to );2;0;7
+ClientSession.endDocument( );2;0;8
+ClientSession.importXML( String path , InputStream xml , int mode );3;2;12
+ClientSession.exportSystemView( String path , ContentHandler handler , boolean binaryAsLink , boolean noRecurse );5;0;18
+ClientSession.exportSystemView( String path , OutputStream output , boolean binaryAsLink , boolean noRecurse );2;0;8
+ClientSession.getItem( String path );2;0;7
+ClientSession.getAttribute( String name );2;0;7
+ClientSession.getNodeByUUID( String uuid );2;0;7
+ClientSession.itemExists( String path );2;0;7
+ClientSession.isLive( );3;1;7
+ClientSession.logout( );3;1;12
+ClientSession.getNamespacePrefix( String uri );2;0;7
+ClientSession.exportDocumentView( String path , ContentHandler handler , boolean binaryAsLink , boolean noRecurse );5;0;18
+ClientSession.getNamespacePrefixes( );2;0;7
+ClientSession.exportDocumentView( String path , OutputStream output , boolean binaryAsLink , boolean noRecurse );2;0;8
+ClientSession.getRootNode( );2;0;7
+ClientSession.addLockToken( String name );2;0;7
+ClientSession.refresh( boolean keepChanges );2;0;7
+ClientSession.getRepository( );1;0;3

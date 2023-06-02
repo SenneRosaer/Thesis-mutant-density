@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FtpFileObject.getLinkDestination( );3;2;18
+FtpFileObject.doGetChildren( );11;12;45
+FtpFileObject.doRename( FileObject newfile );2;1;23
+FtpInputStream.FtpInputStream( final FtpClient client , final InputStream in );1;0;4
+FtpInputStream.abort( );1;0;4
+FtpFileObject.doGetInputStream( );2;1;9
+FtpOutputStream.FtpOutputStream( final FtpClient client , final OutputStream outstr );1;0;4
+FtpFileObject.doGetContentSize( );2;0;13
+FtpFileObject.doGetType( );6;2;26
+FtpFileObject.doGetOutputStream( boolean bAppend );3;1;21
+FtpFileObject.getInputStream( long filePointer );2;1;13
+FtpOutputStream.onClose( );2;1;15
+FtpFileObject.doListChildren( );3;3;17
+FtpFileObject.onChildrenChanged( FileName child , FileType newType );4;2;17
+FtpFileObject.getRelPath( );1;0;3
+FtpFileObject.getInfo( boolean flush );3;2;21
+FtpInputStream.onClose( );2;1;15
+FtpFileObject.onChange( );2;0;12
+FtpFileObject.getChildren( );1;0;11
+FtpFileObject.doCreateFolder( );2;1;16
+FtpFileObject.FtpFileObject( final FileName name , final FtpFileSystem fileSystem , final FileName rootName );2;0;13
+FtpFileObject.doDelete( );3;1;28
+FtpFileObject.doGetLastModifiedTime( );3;1;21
+FtpFileObject.getChildFile( final String name , final boolean flush );4;3;13
+FtpFileObject.doGetRandomAccessContent( final RandomAccessMode mode );1;0;3
+FtpFileObject.doListChildrenResolved( );3;2;10
+FtpFileObject.refresh( );2;1;18
+FtpFileObject.doDetach( );1;0;7
+FtpFileObject.doAttach( );1;0;2

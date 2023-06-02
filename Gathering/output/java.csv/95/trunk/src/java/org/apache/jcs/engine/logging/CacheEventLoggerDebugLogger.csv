@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CacheEventLoggerDebugLogger.logError( String source , String eventName , String errorMessage );2;2;6
+CacheEventLoggerDebugLogger.logApplicationEvent( String source , String eventName , String optionalDetails );2;2;6
+CacheEventLoggerDebugLogger.setLogCategoryName( String logCategoryName );3;3;7
+CacheEventLoggerDebugLogger.createICacheEvent( String source , String region , String eventName , String optionalDetails , Serializable key );1;0;9
+CacheEventLoggerDebugLogger.logICacheEvent( ICacheEvent event );2;0;6

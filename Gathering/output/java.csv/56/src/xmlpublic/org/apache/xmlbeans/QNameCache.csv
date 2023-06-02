@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+QNameCache.getName( String uri , String localName );1;0;3
+QNameCache.hash( String uri , String localName , String prefix );1;5;7
+QNameCache.rehash( );4;10;20
+QNameCache.equals( QName q , String uri , String localName , String prefix );3;2;6
+QNameCache.getName( String uri , String localName , String prefix );7;9;20
+QNameCache.QNameCache( int initialCapacity );1;0;3
+QNameCache.QNameCache( int initialCapacity , float loadFactor );3;8;11

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ApplicationAciManager.createGroupsContainer( PartitionNexusProxy proxy , LdapDN groupDn );4;0;22
+ApplicationAciManager.removeApplicationAdminGroup( PartitionNexusProxy proxy , LdapDN appDn );1;1;14
+ApplicationAciManager.ApplicationAciManager( AttributeTypeRegistry registry );1;0;4
+ApplicationAciManager.createApplicationACIItem( String aciTag , LdapDN appDn );1;0;11
+ApplicationAciManager.appRemoved( LdapDN appDn );1;0;5
+ApplicationAciManager.createApplicationAdminACIItem( String aciTag , LdapDN adminGroupDn );1;0;12
+ApplicationAciManager.addApplicationAdminGroup( PartitionNexusProxy proxy , LdapDN appDn );1;0;22
+ApplicationAciManager.addApplicationSubentry( PartitionNexusProxy proxy , LdapDN appDn );1;1;37
+ApplicationAciManager.removeApplicationSubentry( PartitionNexusProxy proxy , LdapDN appDn );1;1;12
+ApplicationAciManager.createSubtreeSpecification( LdapDN adminPointDn , LdapDN appDn );1;0;8
+ApplicationAciManager.createAccessControlArea( PartitionNexusProxy proxy , LdapDN apDn );5;3;24
+ApplicationAciManager.appAdded( LdapDN appDn );1;0;5

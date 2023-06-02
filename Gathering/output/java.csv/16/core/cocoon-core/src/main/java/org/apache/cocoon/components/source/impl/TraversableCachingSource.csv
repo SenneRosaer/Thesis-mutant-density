@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TraversableCachingSource.getChildURI( String parentURI , boolean isCollection , String childName );4;4;21
+TraversableCachingSource.createSource( String uri , String wrappedUri , Source wrapped );1;0;3
+TraversableSourceMeta.getName( );1;0;3
+TraversableCachingSource.isCollection( );3;0;10
+TraversableSourceMeta.setIsCollection( boolean isCollection );1;0;3
+TraversableCachingSource.getName( );3;0;10
+TraversableCachingSource.readMeta( Source source );1;0;3
+TraversableSourceMeta.TraversableSourceMeta( Source source );4;2;20
+TraversableSourceMeta.getChildren( );1;0;3
+TraversableCachingSource.getTraversableSource( );1;0;3
+TraversableCachingSource.getTraversableResponseMeta( );1;0;3
+TraversableCachingSource.getChildren( );7;3;29
+TraversableCachingSource.TraversableCachingSource( final CachingSourceFactory factory , final String protocol , final String uri , final String sourceUri , TraversableSource source , int expires , String cacheName , boolean async , CachingSourceValidityStrategy validityStrategy , boolean fail );1;0;4
+TraversableSourceMeta.isCollection( );1;0;3
+TraversableCachingSource.getChild( String name );5;1;19
+TraversableCachingSource.getParentURI( String childURI );3;7;19
+TraversableSourceMeta.TraversableSourceMeta( );1;0;3
+TraversableSourceMeta.setChildren( String [ ] children );1;0;3
+TraversableSourceMeta.setName( String name );1;0;3
+TraversableCachingSource.getParent( );3;0;12

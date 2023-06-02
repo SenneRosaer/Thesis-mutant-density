@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ByteBuddyCrossClassLoaderSerializationSupport.mockReplacementCompleted( );1;0;3
+MockitoMockObjectInputStream.resolveClass( ObjectStreamClass desc );4;0;25
+MockitoMockObjectOutputStream.mockitoProxyClassMarker( Class < ? > cl );2;0;7
+CrossClassLoaderSerializationProxy.CrossClassLoaderSerializationProxy( Object mockitoMock );2;0;11
+MockitoMockObjectOutputStream.MockitoMockObjectOutputStream( ByteArrayOutputStream out );1;0;3
+ByteBuddyCrossClassLoaderSerializationSupport.writeReplace( Object mockitoMock );3;0;25
+CrossClassLoaderSerializationProxy.readResolve( );3;0;27
+MockitoMockObjectInputStream.MockitoMockObjectInputStream( InputStream in , Class < ? > typeToMock , Set < Class < ? > > extraInterfaces );1;0;6
+MockitoMockObjectOutputStream.annotateClass( Class < ? > cl );1;0;3
+MockitoMockObjectInputStream.hackClassNameToMatchNewlyCreatedClass( ObjectStreamClass descInstance , Class < ? > proxyClass );3;0;20
+***not in a method***;0;1;0
+ByteBuddyCrossClassLoaderSerializationSupport.mockReplacementStarted( );1;0;3
+ByteBuddyCrossClassLoaderSerializationSupport.mockIsCurrentlyBeingReplaced( );1;0;3
+MockitoMockObjectInputStream.notMarkedAsAMockitoMock( Object marker );1;1;3

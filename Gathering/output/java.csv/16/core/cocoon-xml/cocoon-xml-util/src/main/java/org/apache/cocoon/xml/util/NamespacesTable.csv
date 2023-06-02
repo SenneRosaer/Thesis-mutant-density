@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NamespacesTable.NamespacesTable( );1;0;3
+NamespacesTable.getCurrentScopeDeclarations( );6;9;17
+NamespacesTable.removeDeclaration( String prefix );10;8;36
+NamespacesTable.enterScope( ContentHandler handler );3;4;10
+NameImpl.getPrefix( );1;0;1
+NamespacesTable.addDeclaration( String prefix , String uri );6;5;18
+NameImpl.getQName( );1;0;1
+NamespacesTable.resolve( String uri , String raw , String prefix , String local );23;28;52
+NamespacesTable.getUri( String prefix );3;1;10
+NamespacesTable.leaveScope( ContentHandler handler );6;7;21
+NamespacesTable.leaveScope( );6;7;20
+NamespacesTable.getPrefix( String uri );4;3;9
+NamespacesTable.clear( );1;0;5
+Entry.getPrefix( );1;0;1
+NamespacesTable.getPrefixes( String uri );8;9;19
+Entry.create( String prefix , String uri );3;2;6
+NameImpl.getLocalName( );1;0;1
+NameImpl.getUri( );1;0;1
+NamespacesTable.enterScope( );1;1;5
+Entry.getUri( );1;0;1

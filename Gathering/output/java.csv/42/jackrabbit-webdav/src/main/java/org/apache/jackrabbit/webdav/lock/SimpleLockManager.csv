@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleLockManager.releaseLock( String lockToken , DavResource resource );3;1;11
+SimpleLockManager.refreshLock( LockInfo lockInfo , String lockToken , DavResource resource );3;2;10
+SimpleLockManager.createLock( LockInfo lockInfo , DavResource resource );14;10;31
+SimpleLockManager.getLock( Type type , Scope scope , DavResource resource );3;2;6
+SimpleLockManager.getLock( String path );7;5;17
+SimpleLockManager.isInternalMember( DavResource resource , String memberPath );4;1;12
+SimpleLockManager.hasLock( String lockToken , DavResource resource );3;2;7

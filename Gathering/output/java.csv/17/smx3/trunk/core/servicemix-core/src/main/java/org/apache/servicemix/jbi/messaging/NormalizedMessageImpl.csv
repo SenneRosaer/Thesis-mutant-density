@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NormalizedMessageImpl.setAttachments( Map attachments );1;0;3
+NormalizedMessageImpl.toString( );1;1;3
+NormalizedMessageImpl.listAttachments( );2;1;6
+NormalizedMessageImpl.setProperty( String name , Object value );3;2;9
+NormalizedMessageImpl.createPropertiesMap( );1;0;3
+NormalizedMessageImpl.getPropertyNames( );2;1;6
+NormalizedMessageImpl.getSecuritySubject( );1;0;3
+NormalizedMessageImpl.setContent( Source source );1;0;3
+NormalizedMessageImpl.removeAttachment( String id );2;1;5
+NormalizedMessageImpl.addAttachment( String id , DataHandler handler );1;0;3
+NormalizedMessageImpl.setBodyText( String xml );1;0;3
+NormalizedMessageImpl.NormalizedMessageImpl( MessageExchangeImpl exchange );1;0;3
+NormalizedMessageImpl.convertAttachments( );4;1;19
+NormalizedMessageImpl.setSecuritySubject( Subject securitySubject );1;0;3
+NormalizedMessageImpl.getContent( );4;3;10
+NormalizedMessageImpl.getProperty( String name );2;1;6
+NormalizedMessageImpl.getAttachmentNames( );2;1;6
+NormalizedMessageImpl.writeExternal( ObjectOutput out );7;7;16
+NormalizedMessageImpl.getBody( PojoMarshaler marshaler );1;0;3
+NormalizedMessageImpl.createFault( );1;0;3
+NormalizedMessageImpl.setBody( Object body );1;0;3
+NormalizedMessageImpl.getAttachment( String id );3;3;6
+NormalizedMessageImpl.getAttachments( );2;1;6
+NormalizedMessageImpl.NormalizedMessageImpl( );1;0;2
+NormalizedMessageImpl.getMarshaler( );1;0;3
+NormalizedMessageImpl.getBody( );2;1;6
+NormalizedMessageImpl.getBody( org . apache . servicemix . jbi . marshaler . PojoMarshaler marshaler );1;0;3
+NormalizedMessageImpl.setProperties( Map properties );1;0;3
+NormalizedMessageImpl.createAttachmentsMap( );1;0;3
+NormalizedMessageImpl.readExternal( ObjectInput in );2;1;9
+NormalizedMessageImpl.getBodyText( );1;0;3
+NormalizedMessageImpl.getProperties( );2;1;6
+NormalizedMessageImpl.getExchange( );1;0;3

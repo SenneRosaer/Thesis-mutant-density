@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageHolder.toString( );1;0;3
+StaticMessageSource.addMessage( String code , Locale locale , String msg );2;0;9
+MessageHolder.getMessageFormat( );2;1;8
+StaticMessageSource.resolveCode( String code , Locale locale );3;2;11
+StaticMessageSource.addMessages( Map < String , String > messages , Locale locale );1;0;4
+MessageHolder.MessageHolder( String message , Locale locale );1;0;4
+MessageHolder.getMessage( );1;0;3
+StaticMessageSource.resolveCodeWithoutArguments( String code , Locale locale );3;2;11
+StaticMessageSource.toString( );1;1;3

@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CompareToBuilder.append( char lhs , char rhs );4;4;7
+CompareToBuilder.append( int lhs , int rhs );4;4;7
+CompareToBuilder.append( float [ ] lhs , float [ ] rhs );9;14;24
+CompareToBuilder.append( long lhs , long rhs );4;4;7
+CompareToBuilder.append( byte [ ] lhs , byte [ ] rhs );9;14;24
+CompareToBuilder.reflectionCompare( Object lhs , Object rhs , String [ ] excludeFields );1;0;3
+CompareToBuilder.append( short lhs , short rhs );4;4;7
+CompareToBuilder.append( boolean lhs , boolean rhs );4;5;14
+CompareToBuilder.reflectionCompare( Object lhs , Object rhs , boolean compareTransients , Class reflectUpToClass , String [ ] excludeFields );7;8;19
+CompareToBuilder.append( double lhs , double rhs );2;1;7
+CompareToBuilder.append( long [ ] lhs , long [ ] rhs );9;14;24
+CompareToBuilder.append( Object lhs , Object rhs );1;0;3
+CompareToBuilder.reflectionAppend( Object lhs , Object rhs , Class clazz , CompareToBuilder builder , boolean useTransients , String [ ] excludeFields );10;14;18
+CompareToBuilder.reflectionCompare( Object lhs , Object rhs );1;0;3
+CompareToBuilder.append( char [ ] lhs , char [ ] rhs );9;14;24
+CompareToBuilder.append( Object [ ] lhs , Object [ ] rhs );1;0;3
+CompareToBuilder.append( double [ ] lhs , double [ ] rhs );9;14;24
+CompareToBuilder.append( Object [ ] lhs , Object [ ] rhs , Comparator comparator );9;14;24
+CompareToBuilder.toComparison( );1;0;3
+CompareToBuilder.append( boolean [ ] lhs , boolean [ ] rhs );9;14;24
+CompareToBuilder.appendSuper( int superCompareTo );2;1;7
+CompareToBuilder.reflectionCompare( Object lhs , Object rhs , Collection excludeFields );1;0;3
+CompareToBuilder.append( float lhs , float rhs );2;1;7
+CompareToBuilder.append( short [ ] lhs , short [ ] rhs );9;14;24
+CompareToBuilder.reflectionCompare( Object lhs , Object rhs , boolean compareTransients );1;0;3
+CompareToBuilder.append( int [ ] lhs , int [ ] rhs );9;14;24
+CompareToBuilder.append( Object lhs , Object rhs , Comparator comparator );15;7;44
+CompareToBuilder.reflectionCompare( Object lhs , Object rhs , boolean compareTransients , Class reflectUpToClass );1;0;3
+CompareToBuilder.CompareToBuilder( );1;0;4
+CompareToBuilder.append( byte lhs , byte rhs );4;4;7

@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JSIntrospector.hasNext( );1;0;3
+JSIntrospector.getIterator( Object obj , Info i );5;1;25
+JSMethod.isCacheable( );1;0;3
+ScriptableIterator.remove( );1;0;8
+ScriptableIterator.ScriptableIterator( Scriptable scope );1;0;5
+JSMethod.JSMethod( Scriptable scope , String name );1;0;4
+JSPropertySet.isCacheable( );1;0;3
+NativeArrayIterator.hasNext( );1;1;3
+JSPropertyGet.getMethodName( );1;0;3
+JSMethod.getReturnType( );1;0;3
+JSPropertySet.JSPropertySet( Scriptable scope , String name );1;0;4
+JSPropertySet.getMethodName( );1;0;3
+JSMethod.getMethodName( );1;0;3
+JSIntrospector.getPropertyGet( Object obj , String identifier , Info i );2;1;4
+JSMethod.invoke( Object thisArg , Object [ ] args );14;17;37
+ScriptableIterator.hasNext( );1;1;3
+JSIntrospector.getMethod( Object obj , String methodName , Object [ ] args , Info i );2;1;4
+JSIntrospector.next( );1;0;3
+NativeArrayIterator.next( );5;5;19
+NativeArrayIterator.remove( );1;0;3
+NativeArrayIterator.NativeArrayIterator( NativeArray arr );1;0;4
+JSPropertySet.invoke( Object thisArg , Object rhs );7;10;23
+JSPropertyGet.invoke( Object thisArg );10;9;28
+ScriptableIterator.next( );5;5;16
+JSIntrospector.getPropertySet( Object obj , String identifier , Object arg , Info i );2;1;4
+JSPropertyGet.JSPropertyGet( Scriptable scope , String name );1;0;4
+JSPropertyGet.isCacheable( );1;0;3
+JSIntrospector.remove( );1;0;2

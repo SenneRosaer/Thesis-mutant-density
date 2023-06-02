@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractInterpreter.setInterpreterID( String interpreterID );1;0;3
+AbstractInterpreter.AbstractInterpreter( );1;0;2
+AbstractInterpreter.getInterpreterID( );1;0;3
+AbstractInterpreter.dispose( );2;1;7
+AbstractInterpreter.service( ServiceManager sm );1;0;4
+AbstractInterpreter.register( String source );1;0;5
+AbstractInterpreter.process( String uri , Object biz , OutputStream out );1;0;10
+AbstractInterpreter.forwardTo( String uri , Object bizData , WebContinuation continuation , Redirector redirector );3;2;15
+AbstractInterpreter.configure( Configuration config );1;0;4
+AbstractInterpreter.contextualize( org . apache . avalon . framework . context . Context context );1;0;4

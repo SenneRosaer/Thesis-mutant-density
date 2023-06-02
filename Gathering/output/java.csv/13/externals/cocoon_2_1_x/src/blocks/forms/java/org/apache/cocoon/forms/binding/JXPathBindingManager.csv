@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Assistant.getBindingForConfigurationElement( Element configElm );8;6;29
+JXPathBindingManager.createBinding( Element bindingElement );4;0;15
+JXPathBindingManager.initialize( );1;0;15
+JXPathBindingManager.contextualize( Context context );1;0;3
+JXPathBindingManager.createBinding( String bindingURI );4;2;20
+JXPathBindingManager.createBinding( Source source );6;4;20
+Assistant.getContext( );1;0;3
+Assistant.popContext( );2;1;7
+Assistant.getDatatypeManager( );1;0;3
+JXPathBindingManager.getMyLogger( );1;0;3
+Assistant.makeChildBindings( Element parentElement , JXPathBindingBase [ ] existingBindings );9;9;32
+JXPathBindingManager.getBuilderAssistant( );1;0;3
+JXPathBindingManager.configure( Configuration configuration );1;0;3
+Assistant.getBindingBuilder( String bindingType );2;0;7
+Assistant.getServiceManager( );1;0;3
+Assistant.pushContext( );1;0;5
+JXPathBindingManager.dispose( );2;1;11
+JXPathBindingManager.service( ServiceManager manager );1;0;5
+Assistant.getBindingByIdOrPath( String id , String path , JXPathBindingBase [ ] bindings );4;3;12
+Assistant.getLibraryManager( );1;0;3
+Assistant.mergeBindings( JXPathBindingBase [ ] existing , JXPathBindingBase [ ] extra );11;14;30
+Assistant.makeChildBindings( Element parentElement );1;0;3

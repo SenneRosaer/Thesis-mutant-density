@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Row.addControl( UIComponent component , int spanX );1;2;5
+AbstractUIGridLayout.getSpanX( UIComponent component );1;0;4
+Marker.Marker( String name );1;0;3
+AbstractUIGridLayout.getColumnLayout( );2;1;6
+Row.getElements( );1;0;3
+Marker.Marker( String name , boolean rendered );1;0;4
+AbstractUIGridLayout.isIgnoreFree( );1;0;3
+AbstractUIGridLayout.encodeChildrenOfComponent( FacesContext facesContext , UIComponent component );1;0;4
+AbstractUIGridLayout.getSpanY( UIComponent component );1;0;4
+AbstractUIGridLayout.saveState( FacesContext context );1;0;4
+Row.fill( int start , int end , boolean rendered );5;3;22
+AbstractUIGridLayout.createRows( );5;9;24
+AbstractUIGridLayout.onComponentCreated( FacesContext context , UIComponent component );1;0;3
+Row.getColumns( );1;0;3
+AbstractUIGridLayout.getRowLayout( );2;1;6
+AbstractUIGridLayout.clearRows( );1;0;3
+Marker.toString( );1;0;3
+AbstractUIGridLayout.ensureRows( );2;1;6
+Row.setColumns( int columns );2;2;7
+Row.Row( int columns );1;0;3
+AbstractUIGridLayout.encodeChildren( FacesContext context );1;0;2
+AbstractUIGridLayout.getRendersChildren( );1;0;3
+AbstractUIGridLayout.getLayoutManager( );1;0;3
+Row.nextFreeColumn( );3;3;8
+Row.isHidden( );1;0;3
+Row.setHidden( boolean hidden );1;0;3
+AbstractUIGridLayout.nextFreeRow( List rows );3;4;9
+AbstractUIGridLayout.getColumnCount( );1;0;3
+AbstractUIGridLayout.setIgnoreFree( boolean ignoreFree );1;0;3
+Marker.isRendered( );1;0;3

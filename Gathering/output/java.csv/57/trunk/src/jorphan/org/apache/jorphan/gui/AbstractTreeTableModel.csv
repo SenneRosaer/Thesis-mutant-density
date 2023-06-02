@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractTreeTableModel.getColumnName( int columnIndex );1;0;3
+AbstractTreeTableModel.isLeaf( Object node );2;0;7
+AbstractTreeTableModel.AbstractTreeTableModel( String [ ] headers , Functor [ ] readFunctors , Functor [ ] writeFunctors , Class [ ] editorClasses );1;0;6
+AbstractTreeTableModel.addTableModelListener( TableModelListener l );1;0;3
+AbstractTreeTableModel.getColumnClass( int arg0 );1;0;3
+AbstractTreeTableModel.isCellEditable( int rowIndex , int columnIndex );1;0;3
+AbstractTreeTableModel.AbstractTreeTableModel( TreeNode root , boolean editable );1;0;3
+AbstractTreeTableModel.AbstractTreeTableModel( TreeNode root );1;0;3
+AbstractTreeTableModel.getRowCount( );2;1;6
+AbstractTreeTableModel.getRootNode( );1;0;3
+AbstractTreeTableModel.isCellEditable( Object node , int col );1;0;3
+AbstractTreeTableModel.getColumnCount( );1;0;3
+AbstractTreeTableModel.nodeStructureChanged( TreeNode node );1;0;2
+AbstractTreeTableModel.fireTreeNodesChanged( TreeNode source , Object [ ] path , int [ ] indexes , Object [ ] children );1;0;2
+AbstractTreeTableModel.getValueAt( int rowIndex , int columnIndex );1;0;3
+AbstractTreeTableModel.removeTableModelListener( TableModelListener l );1;0;3
+AbstractTreeTableModel.getChild( Object parent , int index );1;0;3
+AbstractTreeTableModel.setValueAt( Object val , Object node , int column );1;0;2
+AbstractTreeTableModel.clearData( );1;0;5
+AbstractTreeTableModel.getChildCount( Object parent );1;0;3
+AbstractTreeTableModel.setValueAt( Object aValue , int rowIndex , int columnIndex );1;0;2
+AbstractTreeTableModel.getValueAt( Object node , int col );1;0;3

@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IncomingDataPoint.setTSUID( String tsuid );1;0;3
+IncomingDataPoint.setTimestamp( long timestamp );1;0;3
+IncomingDataPoint.getTSUID( );1;0;3
+IncomingDataPoint.IncomingDataPoint( final String tsuid , final String granularity , final long timestamp , final String value );1;0;6
+IncomingDataPoint.setGranularity( String granularity );1;0;3
+IncomingDataPoint.IncomingDataPoint( );1;0;2
+IncomingDataPoint.setTags( Map < String , String > tags );1;0;3
+IncomingDataPoint.toString( );3;1;14
+IncomingDataPoint.getValue( );1;0;3
+IncomingDataPoint.getTimestamp( );1;0;3
+IncomingDataPoint.getMetric( );1;0;3
+IncomingDataPoint.setAggregator( String aggregator );1;0;3
+IncomingDataPoint.getTags( );1;0;3
+IncomingDataPoint.getAggregator( );1;0;3
+IncomingDataPoint.getGranularity( );1;0;3
+IncomingDataPoint.IncomingDataPoint( final String metric , final long timestamp , final String value , final HashMap < String , String > tags , final String granularity , final String aggregator );1;0;8
+IncomingDataPoint.setValue( String value );1;0;3
+IncomingDataPoint.setMetric( String metric );1;0;3

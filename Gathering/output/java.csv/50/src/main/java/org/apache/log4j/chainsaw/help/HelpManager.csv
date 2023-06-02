@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HelpManager.getInstance( );1;0;3
+HelpManager.addPropertyChangeListener( String propertyName , PropertyChangeListener listener );1;0;3
+HelpManager.firePropertyChange( String propertyName , boolean oldValue , boolean newValue );1;0;3
+HelpManager.firePropertyChange( PropertyChangeEvent evt );1;0;3
+HelpManager.HelpManager( );4;1;18
+HelpManager.removePropertyChangeListener( String propertyName , PropertyChangeListener listener );1;0;3
+HelpManager.removePropertyChangeListener( PropertyChangeListener listener );1;0;3
+HelpManager.firePropertyChange( String propertyName , Object oldValue , Object newValue );1;0;3
+HelpManager.setHelpURL( URL helpURL );1;0;4
+HelpManager.addPropertyChangeListener( PropertyChangeListener listener );1;0;3
+HelpManager.firePropertyChange( String propertyName , int oldValue , int newValue );1;0;3
+HelpManager.showHelpForClass( Class c );1;0;4
+HelpManager.getHelpForClass( Class c );3;2;8
+HelpManager.getHelpURL( );1;0;3

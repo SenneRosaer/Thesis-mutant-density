@@ -1,0 +1,70 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EjbcHandler.EjbcHandler( );1;0;4
+EjbInfo.setRemote( Classname remote );1;0;3
+EjbInfo.setHasession( boolean hasession );1;0;3
+EjbInfo.setRemote( String remote );1;0;3
+RedirectOutput.run( );4;1;17
+IPlanetEjbc.getEjbs( );1;0;7
+IPlanetEjbc.registerDTD( String publicID , String location );1;0;3
+EjbcHandler.characters( char [ ] ch , int start , int len );1;2;3
+EjbInfo.getCmp( );1;0;3
+IPlanetEjbc.setRetainSource( boolean retainSource );1;0;3
+EjbInfo.getIiop( );1;0;3
+EjbInfo.setCmp( String cmp );1;0;3
+IPlanetEjbc.buildArgumentList( EjbInfo ejb );8;0;31
+IPlanetEjbc.main( String [ ] args );14;12;67
+EjbInfo.destClassesModified( File destDir );5;4;17
+EjbInfo.sourceClassesModified( File buildDir );7;14;62
+EjbInfo.setBeantype( String beantype );1;0;3
+EjbInfo.mustBeRecompiled( File destDir );1;1;5
+RedirectOutput.RedirectOutput( InputStream stream );1;0;3
+EjbInfo.setPrimaryKey( Classname primaryKey );1;0;3
+EjbInfo.setCmp( boolean cmp );1;0;3
+EjbInfo.setPrimaryKey( String primaryKey );1;0;3
+IPlanetEjbc.IPlanetEjbc( File stdDescriptor , File iasDescriptor , File destDirectory , String classpath , SAXParser parser );3;1;17
+Classname.getClassFile( File directory );1;0;5
+EjbInfo.setHome( String home );1;0;3
+IPlanetEjbc.execute( );4;4;19
+IPlanetEjbc.usage( );1;0;21
+IPlanetEjbc.checkConfiguration( );9;15;25
+EjbcHandler.getDisplayName( );1;0;3
+EjbcHandler.stdCharacters( String value );10;1;26
+EjbInfo.getName( );3;2;10
+IPlanetEjbc.setDebugOutput( boolean debugOutput );1;0;3
+EjbInfo.setImplementation( Classname implementation );1;0;3
+EjbcHandler.resolveEntity( String publicId , String systemId );5;3;22
+Classname.getQualifiedWithUnderscores( );1;0;3
+EjbInfo.setIiop( boolean iiop );1;0;3
+EjbInfo.setImplementation( String implementation );1;0;3
+EjbcHandler.iasCharacters( String value );6;1;17
+EjbcHandler.getEjbs( );1;0;3
+IPlanetEjbc.log( String msg );2;0;5
+IPlanetEjbc.getCmpDescriptors( );2;2;9
+EjbInfo.EjbInfo( String name );1;0;3
+Classname.getClassName( );1;0;3
+EjbInfo.toString( );2;1;16
+EjbcHandler.endElement( String name );2;2;10
+EjbcHandler.startElement( String name , AttributeList atts );5;2;12
+IPlanetEjbc.setIasHomeDir( File iasHomeDir );1;0;3
+EjbInfo.getImplementation( );1;0;3
+IPlanetEjbc.getDisplayName( );1;0;3
+Classname.getPackageName( );1;0;3
+IPlanetEjbc.callEjbc( String [ ] arguments );5;8;28
+EjbInfo.setIiop( String iiop );1;0;3
+EjbInfo.getRemote( );1;0;3
+Classname.Classname( String qualifiedName );3;4;14
+Classname.getQualifiedClassName( );1;0;3
+EjbInfo.addCmpDescriptor( String descriptor );1;0;3
+EjbInfo.setHome( Classname home );1;0;3
+EjbInfo.setHasession( String hasession );1;0;3
+EjbcException.EjbcException( String msg );1;0;3
+EjbInfo.getBeantype( );1;0;3
+Classname.toString( );1;0;3
+IPlanetEjbc.getEjbFiles( );1;0;3
+EjbInfo.getHasession( );1;0;3
+EjbInfo.checkConfiguration( File buildDir );14;15;46
+EjbInfo.getPrimaryKey( );1;0;3
+EjbcHandler.registerDTD( String publicID , String location );6;5;16
+EjbInfo.getHome( );1;0;3
+EjbInfo.getCmpDescriptors( );1;0;3
+EjbInfo.classesToGenerate( );3;27;38

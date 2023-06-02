@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultPersistenceUnitManager.setPersistenceXmlLocation( String persistenceXmlLocation );1;0;3
+DefaultPersistenceUnitManager.setDefaultJtaDataSource( @ Nullable DataSource defaultJtaDataSource );1;0;3
+DefaultPersistenceUnitManager.obtainDefaultPersistenceUnitInfo( );5;3;16
+DefaultPersistenceUnitManager.setValidationMode( ValidationMode validationMode );1;0;3
+DefaultPersistenceUnitManager.getLoadTimeWeaver( );1;0;3
+DefaultPersistenceUnitManager.getDefaultJtaDataSource( );1;0;3
+DefaultPersistenceUnitManager.afterPropertiesSet( );3;2;6
+DefaultPersistenceUnitManager.postProcessPersistenceUnitInfo( MutablePersistenceUnitInfo pui );3;1;8
+DefaultPersistenceUnitManager.getPersistenceUnitPostProcessors( );1;0;3
+DefaultPersistenceUnitManager.getOrmXmlForDefaultPersistenceUnit( );4;2;16
+DefaultPersistenceUnitManager.setMappingResources( String ... mappingResources );1;0;3
+DefaultPersistenceUnitManager.applyManagedTypes( SpringPersistenceUnitInfo scannedUnit , PersistenceManagedTypes managedTypes );3;3;8
+DefaultPersistenceUnitManager.setSharedCacheMode( SharedCacheMode sharedCacheMode );1;0;3
+DefaultPersistenceUnitManager.setLoadTimeWeaver( @ Nullable LoadTimeWeaver loadTimeWeaver );1;0;3
+DefaultPersistenceUnitManager.setPackagesToScan( String ... packagesToScan );1;0;3
+DefaultPersistenceUnitManager.setDefaultPersistenceUnitName( String defaultPersistenceUnitName );1;0;3
+DefaultPersistenceUnitManager.isPersistenceUnitOverrideAllowed( );1;0;3
+DefaultPersistenceUnitManager.getDataSourceLookup( );1;0;3
+DefaultPersistenceUnitManager.obtainPersistenceUnitInfo( String persistenceUnitName );3;2;14
+DefaultPersistenceUnitManager.readPersistenceUnitInfos( );9;7;26
+DefaultPersistenceUnitManager.preparePersistenceUnitInfos( );12;13;38
+DefaultPersistenceUnitManager.buildDefaultPersistenceUnitInfo( );9;6;35
+DefaultPersistenceUnitManager.setPersistenceXmlLocations( String ... persistenceXmlLocations );1;0;3
+DefaultPersistenceUnitManager.setDataSources( Map < String , DataSource > dataSources );1;0;3
+DefaultPersistenceUnitManager.setDefaultPersistenceUnitRootLocation( String defaultPersistenceUnitRootLocation );1;0;3
+DefaultPersistenceUnitManager.setDefaultDataSource( @ Nullable DataSource defaultDataSource );1;0;3
+DefaultPersistenceUnitManager.setManagedTypes( PersistenceManagedTypes managedTypes );1;0;3
+DefaultPersistenceUnitManager.determineDefaultPersistenceUnitRootUrl( );5;1;16
+DefaultPersistenceUnitManager.getDefaultDataSource( );1;0;3
+DefaultPersistenceUnitManager.setDataSourceLookup( @ Nullable DataSourceLookup dataSourceLookup );2;1;3
+DefaultPersistenceUnitManager.setPersistenceUnitPostProcessors( @ Nullable PersistenceUnitPostProcessor ... postProcessors );1;0;3
+DefaultPersistenceUnitManager.getPersistenceUnitInfo( String persistenceUnitName );1;0;4
+DefaultPersistenceUnitManager.setResourceLoader( ResourceLoader resourceLoader );1;0;3

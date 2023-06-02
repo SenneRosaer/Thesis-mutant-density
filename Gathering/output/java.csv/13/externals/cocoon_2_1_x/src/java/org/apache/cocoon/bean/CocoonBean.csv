@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CocoonBean.readChecksumFile( );9;10;32
+CocoonBean.addIncludePattern( String pattern );1;0;3
+CocoonBean.pageGenerated( String sourceURI , String destURI , int pageSize , int linksInPage , int newLinksInPage , int pagesRemaining , int pagesComplete , long timeTaken );2;0;14
+CocoonBean.setVerbose( boolean verbose );1;0;3
+CocoonBean.CocoonBean( );1;0;3
+CocoonBean.setBrokenLinkGenerate( boolean brokenLinkGenerate );1;0;3
+CocoonBean.releaseSource( Source source );1;0;3
+CocoonBean.getProlog( );1;0;9
+CocoonBean.setConfirmExtensions( boolean confirmExtension );1;0;3
+CocoonBean.sendBrokenLinkWarning( String uri , String warning );2;0;7
+CocoonBean.addTargets( List uris , String destURI );2;0;11
+CocoonBean.isCrawlablePage( Target target );2;1;7
+CocoonBean.writeChecksumFile( );3;2;15
+CocoonBean.sendMessage( String msg );2;0;7
+CocoonBean.addTarget( String sourceURI , String destURI );1;0;8
+CocoonBean.setChecksumURI( String uri );1;0;3
+CocoonBean.setDefaultFilename( String filename );1;0;3
+CocoonBean.sendWarning( String uri , String warning );2;0;7
+CocoonBean.addListener( BeanListener listener );1;0;3
+CocoonBean.addIncludeLinkExtension( String extension );2;1;6
+CocoonBean.addTarget( String type , String sourceURI , String destURI );1;0;8
+CocoonBean.confirmExtensions( );1;0;3
+CocoonBean.getSource( Target target );2;1;10
+CocoonBean.isIncluded( String uri );7;4;29
+CocoonBean.initialize( );2;1;9
+CocoonBean.resourceUnavailable( Target target );5;3;27
+CocoonBean.process( );10;9;37
+CocoonBean.getTargetCount( );1;0;3
+CocoonBean.dispose( );3;1;9
+CocoonBean.followLinks( );1;0;3
+CocoonBean.setPrecompileOnly( boolean precompileOnly );1;0;3
+CocoonBean.getLastModified( Target target );1;0;6
+CocoonBean.addExcludePattern( String pattern );1;0;3
+CocoonBean.finalize( );1;0;4
+CocoonBean.pageSkipped( String uri , String message );2;0;7
+CocoonBean.isPrecompileOnly( );1;0;3
+CocoonBean.processTarget( Crawler crawler , Target target );31;24;139
+CocoonBean.setFollowLinks( boolean follow );1;0;3
+CocoonBean.setBrokenLinkExtension( String brokenLinkExtension );1;0;3
+CocoonBean.isSameContent( DelayedOutputStream stream , Target target );3;0;16
+CocoonBean.addTarget( String type , String root , String sourceURI , String destURI );1;0;8
+CocoonBean.addTarget( String type , String root , String sourceURI , String destURI , boolean followLinks , boolean confirmExtension , String logger );4;4;15

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RamFileObject.size( );2;1;7
+RamFileObject.getData( );1;0;3
+RamFileObject.doGetLastModifiedTime( );1;0;3
+RamFileObject.doRename( FileObject newfile );1;0;3
+RamFileObject.doCreateFolder( );1;0;4
+RamFileObject.doListChildren( );1;0;3
+RamFileObject.injectType( FileType fileType );1;0;4
+RamFileObject.doSetLastModTime( long modtime );1;0;4
+RamFileObject.doGetInputStream( );2;1;7
+RamFileObject.doGetRandomAccessContent( RandomAccessMode mode );1;0;3
+RamFileObject.save( );1;0;3
+RamFileObject.setData( RamFileData data );1;0;3
+RamFileObject.resize( int newSize );3;4;13
+RamFileObject.doDelete( );1;0;3
+RamFileObject.RamFileObject( FileName name , RamFileSystem fs );1;0;5
+RamFileObject.doGetType( );1;0;3
+RamFileObject.doGetOutputStream( boolean bAppend );2;1;7
+RamFileObject.doAttach( );1;0;3
+RamFileObject.endOutput( );1;0;4
+RamFileObject.doGetContentSize( );1;0;3

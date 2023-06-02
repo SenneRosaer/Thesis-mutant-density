@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ProtobufMessageConverter.ProtobufMessageConverter( @ Nullable ProtobufFormatSupport formatSupport , @ Nullable ExtensionRegistry extensionRegistry );5;3;16
+ProtobufMessageConverter.getMessageBuilder( Class < ? > clazz );3;1;14
+ProtobufMessageConverter.convertToInternal( Object payload , @ Nullable MessageHeaders headers , @ Nullable Object conversionHint );6;3;27
+ProtobufJavaUtilSupport.supportsWriteOnly( @ Nullable MimeType mimeType );1;0;3
+ProtobufMessageConverter.supports( Class < ? > clazz );1;0;3
+ProtobufMessageConverter.ProtobufMessageConverter( );1;0;3
+ProtobufJavaUtilSupport.ProtobufJavaUtilSupport( @ Nullable JsonFormat . Parser parser , @ Nullable JsonFormat . Printer printer );3;2;4
+ProtobufMessageConverter.ProtobufMessageConverter( ExtensionRegistry extensionRegistry );1;0;3
+ProtobufJavaUtilSupport.print( Message message , OutputStream output , MimeType contentType , Charset charset );2;0;11
+ProtobufJavaUtilSupport.supportedMediaTypes( );1;0;3
+ProtobufMessageConverter.convertFromInternal( org . springframework . messaging . Message < ? > message , Class < ? > targetClass , @ Nullable Object conversionHint );6;3;24
+ProtobufJavaUtilSupport.merge( org . springframework . messaging . Message < ? > message , Charset charset , MimeType contentType , ExtensionRegistry extensionRegistry , Message . Builder builder );2;0;9
+ProtobufMessageConverter.canConvertTo( Object payload , @ Nullable MessageHeaders headers );3;3;5

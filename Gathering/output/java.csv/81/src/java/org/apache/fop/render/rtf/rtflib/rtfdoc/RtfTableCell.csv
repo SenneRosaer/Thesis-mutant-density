@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RtfTableCell.newParagraph( RtfAttributes attrs );4;1;19
+RtfTableCell.RtfTableCell( RtfTableRow parent , Writer w , int cellWidth , RtfAttributes attrs , int idNum );1;0;6
+RtfTableCell.newTable( ITableColumnsInfo tc );1;0;5
+RtfTableCell.closeCurrentParagraph( );2;1;5
+RtfTableCell.getCellWidth( );1;0;1
+RtfTableCell.paragraphNeedsPar( RtfParagraph p );6;3;21
+RtfTableCell.setHMerge( int mergeStatus );1;0;3
+RtfTableCell.getVMerge( );1;0;1
+RtfTableCell.newImage( );1;0;5
+RtfTableCell.closeCurrentExternalGraphic( );2;1;5
+RtfTableCell.getHMerge( );1;0;3
+RtfTableCell.newList( RtfAttributes attrib );1;0;5
+RtfTableCell.writeRtfContent( );2;1;6
+RtfTableCell.RtfTableCell( RtfTableRow parent , Writer w , int cellWidth , int idNum );1;0;8
+RtfTableCell.closeAll( );1;0;6
+RtfTableCell.closeCurrentTable( );2;1;5
+RtfTableCell.getTextrun( );2;1;9
+RtfTableCell.getRow( );3;1;10
+RtfTableCell.writeRtfSuffix( );9;6;32
+RtfTableCell.isEmpty( );1;0;3
+RtfTableCell.setVMerge( int mergeStatus );1;0;1
+RtfTableCell.newParagraph( );1;0;3
+RtfTableCell.newTable( RtfAttributes attrs , ITableColumnsInfo tc );1;0;5
+RtfTableCell.writeRtfPrefix( );2;1;6
+RtfTableCell.writeCellDef( int offset );9;11;44
+RtfTableCell.closeCurrentList( );2;1;5

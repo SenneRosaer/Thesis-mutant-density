@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransientISFactory.getNodeReferences( NodeState nodeState );2;1;6
+TransientISFactory.createNewPropertyState( PropertyEntry entry , QPropertyDefinition definition , QValue [ ] values , int propertyType );1;0;5
+TransientISFactory.getChildNodeInfos( NodeId nodeId );1;0;3
+TransientISFactory.createDeepPropertyState( PropertyId propertyId , NodeEntry anyParent );1;0;4
+TransientISFactory.createRootState( NodeEntry entry );1;0;4
+TransientISFactory.TransientISFactory( AbstractItemStateFactory workspaceStateFactory , ItemDefinitionProvider defProvider );1;0;5
+TransientISFactory.createDeepNodeState( NodeId nodeId , NodeEntry anyParent );1;0;4
+TransientISFactory.createNewNodeState( NodeEntry entry , Name nodetypeName , QNodeDefinition definition );1;0;5
+TransientISFactory.createPropertyState( PropertyId propertyId , PropertyEntry entry );1;0;4
+TransientISFactory.statusChanged( ItemState state , int previousStatus );1;0;2
+TransientISFactory.createNodeState( NodeId nodeId , NodeEntry entry );1;0;4
+TransientISFactory.created( ItemState state );1;0;4

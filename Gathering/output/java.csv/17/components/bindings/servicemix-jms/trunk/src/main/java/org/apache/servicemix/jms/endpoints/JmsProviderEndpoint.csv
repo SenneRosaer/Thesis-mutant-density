@@ -1,0 +1,60 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JmsProviderEndpoint.setMessageIdEnabled( boolean messageIdEnabled );1;0;3
+JmsProviderEndpoint.setStoreFactory( StoreFactory storeFactory );1;0;3
+JmsProviderEndpoint.chooseDestination( MessageExchange exchange , Object message , Session session , DestinationChooser chooser , Destination defaultDestination );5;2;17
+JmsProviderEndpoint.getStore( );1;0;3
+JmsProviderEndpoint.getReplyDestinationChooser( );1;0;3
+JmsProviderEndpoint.isJms102( );1;0;3
+JmsProviderEndpoint.setReplyDestination( Destination replyDestination );1;0;3
+JmsProviderEndpoint.getDeliveryMode( );1;0;3
+JmsProviderEndpoint.getConnectionFactory( );1;0;3
+JmsProviderEndpoint.setJms102( boolean jms102 );1;0;3
+JmsProviderEndpoint.onMessage( Message message );14;6;51
+JmsProviderEndpoint.processInOnlyInSession( final MessageExchange exchange , final NormalizedMessage in , final Session session );1;0;9
+JmsProviderEndpoint.setPubSubDomain( boolean pubSubDomain );1;0;3
+JmsProviderEndpoint.setPriority( int priority );1;0;3
+JmsProviderEndpoint.getDestinationChooser( );1;0;3
+JmsProviderEndpoint.setDestination( Destination destination );1;0;3
+JmsProviderEndpoint.setMessageTimestampEnabled( boolean messageTimestampEnabled );1;0;3
+JmsProviderEndpoint.doInJms( Session session );4;1;12
+JmsProviderEndpoint.setReplyDestinationName( String replyDestinationName );1;0;3
+JmsProviderEndpoint.isPubSubNoLocal( );1;0;3
+JmsProviderEndpoint.getPriority( );1;0;3
+JmsProviderEndpoint.getReceiveTimeout( );1;0;3
+JmsProviderEndpoint.getReplyDestination( MessageExchange exchange , Object message , Session session );1;0;3
+JmsProviderEndpoint.processInOnly( final MessageExchange exchange , final NormalizedMessage in );4;0;17
+JmsProviderEndpoint.setReceiveTimeout( long receiveTimeout );1;0;3
+JmsProviderEndpoint.processInOutInSession( final MessageExchange exchange , final NormalizedMessage in , final Session session );15;10;62
+JmsProviderEndpoint.deactivate( );4;3;13
+JmsProviderEndpoint.getTimeToLive( );1;0;3
+JmsProviderEndpoint.setMarshaler( JmsProviderMarshaler marshaler );2;1;6
+JmsProviderEndpoint.validate( );4;3;12
+JmsProviderEndpoint.setDestinationResolver( DestinationResolver destinationResolver );1;0;3
+JmsProviderEndpoint.setStore( Store store );1;0;3
+JmsProviderEndpoint.getDestination( );1;0;3
+JmsProviderEndpoint.setDestinationName( String destinationName );1;0;3
+JmsProviderEndpoint.isMessageTimestampEnabled( );1;0;3
+JmsProviderEndpoint.setDestinationChooser( DestinationChooser destinationChooser );2;1;6
+JmsProviderEndpoint.isMessageIdEnabled( );1;0;3
+JmsProviderEndpoint.setReplyDestinationChooser( DestinationChooser replyDestinationChooser );1;0;3
+JmsProviderEndpoint.processInOut( final MessageExchange exchange , final NormalizedMessage in );4;0;17
+JmsProviderEndpoint.isExplicitQosEnabled( );1;0;3
+JmsProviderEndpoint.setPubSubNoLocal( boolean pubSubNoLocal );1;0;3
+JmsProviderEndpoint.getDestinationName( );1;0;3
+JmsProviderEndpoint.createTemplate( );5;3;28
+JmsProviderEndpoint.getStoreFactory( );1;0;3
+JmsProviderEndpoint.createMessage( Session session );1;0;3
+JmsProviderEndpoint.resolveOrCreateDestination( final JmsTemplate jmsTemplate , final String replyToDestinationName , final boolean pubSubDomain );3;0;15
+JmsProviderEndpoint.isPubSubDomain( );1;0;3
+JmsProviderEndpoint.createListenerContainer( );3;1;25
+JmsProviderEndpoint.activate( );7;9;26
+JmsProviderEndpoint.setDeliveryMode( int deliveryMode );1;0;3
+JmsProviderEndpoint.getReplyDestinationName( );1;0;3
+JmsProviderEndpoint.setTimeToLive( long timeToLive );1;0;3
+JmsProviderEndpoint.getDestination( MessageExchange exchange , Object message , Session session );1;0;3
+JmsProviderEndpoint.getReplyDestination( );1;0;3
+JmsProviderEndpoint.setExplicitQosEnabled( boolean explicitQosEnabled );1;0;3
+JmsProviderEndpoint.setConnectionFactory( ConnectionFactory connectionFactory );1;0;3
+JmsProviderEndpoint.getMarshaler( );1;0;3
+JmsProviderEndpoint.getDestinationResolver( );1;0;3
+JmsProviderEndpoint.process( MessageExchange exchange );7;5;26

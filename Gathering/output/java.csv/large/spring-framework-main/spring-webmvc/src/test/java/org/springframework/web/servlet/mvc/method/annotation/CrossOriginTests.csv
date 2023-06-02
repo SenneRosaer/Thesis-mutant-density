@@ -1,0 +1,54 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CrossOriginTests.defaultAnnotation( TestRequestMappingInfoHandlerMapping mapping );1;0;13
+CrossOriginTests.classLevelComposedAnnotation( TestRequestMappingInfoHandlerMapping mapping );1;0;10
+CrossOriginTests.customOriginPatternViaValueAttribute( TestRequestMappingInfoHandlerMapping mapping );1;0;10
+CrossOriginTests.preFlightRequestWithoutRequestMethodHeader( TestRequestMappingInfoHandlerMapping mapping );1;0;5
+MethodLevelController.noAnnotation( );1;0;2
+MethodLevelController.noAnnotationPost( );1;0;2
+CrossOriginTests.customized( TestRequestMappingInfoHandlerMapping mapping );1;0;13
+MethodLevelMappingWithComposedAnnotation.foo( );1;0;2
+MethodLevelController.defaultAnnotationWithParams( );1;0;2
+TestRequestMappingInfoHandlerMapping.initLookupPath( HttpServletRequest request );2;1;7
+MethodLevelController.customOriginPatternDefinedViaPlaceholder( );1;0;2
+CrossOriginTests.getCorsConfiguration( @ Nullable HandlerExecutionChain chain , boolean isPreFlightRequest );4;0;18
+MethodLevelController.customized( );1;0;2
+CrossOriginTests.ambiguousHeaderPreFlightRequest( TestRequestMappingInfoHandlerMapping mapping );1;0;17
+CrossOriginTests.methodLevelComposedAnnotation( TestRequestMappingInfoHandlerMapping mapping );1;0;10
+MethodLevelController.ambiguousHeader1a( );1;0;2
+CrossOriginTests.noAnnotationPostWithOrigin( TestRequestMappingInfoHandlerMapping mapping );1;0;7
+CrossOriginTests.setup( );1;0;4
+TestRequestMappingInfoHandlerMapping.registerHandler( Object handler );1;0;3
+MethodLevelController.ambiguousHeader1b( );1;0;2
+CrossOriginTests.allowCredentialsWithDefaultOrigin( TestRequestMappingInfoHandlerMapping mapping );1;0;5
+CrossOriginTests.customOriginDefinedViaPlaceholder( TestRequestMappingInfoHandlerMapping mapping );1;0;9
+CredentialsWithWildcardOriginController.wildcardOrigin( );1;0;2
+CrossOriginTests.noAnnotationWithoutOrigin( TestRequestMappingInfoHandlerMapping mapping );1;0;6
+CrossOriginTests.ambiguousProducesPreFlightRequest( TestRequestMappingInfoHandlerMapping mapping );1;0;16
+MethodLevelController.defaultAnnotation( );1;0;2
+MethodLevelController.customOriginDefinedViaValueAttribute( );1;0;2
+MaxAgeWithDefaultOriginController.methodAge( );1;0;2
+CrossOriginTests.pathPatternsArguments( );1;0;16
+MethodLevelController.customOriginDefinedViaPlaceholder( );1;0;2
+CrossOriginTests.noAnnotationWithOrigin( TestRequestMappingInfoHandlerMapping mapping );1;0;6
+CrossOriginTests.preFlightRequest( TestRequestMappingInfoHandlerMapping mapping );1;0;15
+CrossOriginTests.customOriginDefinedViaValueAttribute( TestRequestMappingInfoHandlerMapping mapping );1;0;9
+MethodLevelController.ambiguousProducesJson( );1;0;3
+TestRequestMappingInfoHandlerMapping.toString( );2;1;3
+ClassLevelController.foo( );1;0;2
+TestRequestMappingInfoHandlerMapping.getMappingForMethod( Method method , Class < ? > handlerType );3;2;20
+CrossOriginTests.bogusAllowCredentialsValue( TestRequestMappingInfoHandlerMapping mapping );1;0;6
+MethodLevelControllerWithBogusAllowCredentialsValue.bogusAllowCredentialsValue( );1;0;2
+CrossOriginTests.noAnnotationWithPreflightRequest( TestRequestMappingInfoHandlerMapping mapping );1;0;9
+TestRequestMappingInfoHandlerMapping.isHandler( Class < ? > beanType );1;1;3
+CrossOriginTests.classLevel( TestRequestMappingInfoHandlerMapping mapping );1;0;25
+CrossOriginTests.noAnnotationWithAccessControlRequestMethod( TestRequestMappingInfoHandlerMapping mapping );1;0;9
+ClassLevelController.baz( );1;0;2
+CrossOriginTests.maxAgeWithDefaultOrigin( TestRequestMappingInfoHandlerMapping mapping );1;0;17
+ClassLevelMappingWithComposedAnnotation.foo( );1;0;2
+CrossOriginTests.allowCredentialsWithWildcardOrigin( TestRequestMappingInfoHandlerMapping mapping );1;0;5
+CredentialsWithDefaultOriginController.noOrigin( );1;0;2
+CrossOriginTests.customOriginPatternViaPlaceholder( TestRequestMappingInfoHandlerMapping mapping );1;0;10
+MethodLevelController.ambiguousProducesXml( );1;0;3
+MaxAgeWithDefaultOriginController.classAge( );1;0;2
+ClassLevelController.bar( );1;0;2
+MethodLevelController.customOriginPatternDefinedViaValueAttribute( );1;0;2

@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleMessageListenerContainerTests.testSessionTransactedModeReallyDoesDefaultToFalse( );1;0;4
+SimpleMessageConsumer.getMessageListener( );1;0;3
+SimpleMessageListenerContainerTests.testSettingConcurrentConsumersToANegativeValueIsNotAllowed( );1;1;6
+SimpleMessageConsumer.receiveNoWait( );1;0;3
+TestMessageListener.onMessage( Message message );1;0;3
+SimpleMessageListenerContainerTests.testTransactedSessionsGetRollbackLogicAppliedAndThatExceptionsStillDo_NOT_Propagate( );1;0;25
+SimpleMessageListenerContainerTests.testDestroyClosesConsumersSessionsAndConnectionInThatOrder( );1;0;22
+SimpleMessageListenerContainerTests.testTaskExecutorCorrectlyInvokedWhenSpecified( );1;0;31
+SimpleMessageListenerContainerTests.testRegisteredErrorHandlerIsInvokedOnException( );1;0;27
+SimpleMessageConsumer.receive( );1;0;3
+SimpleMessageListenerContainerTests.testSettingMessageListenerToAnUnsupportedType( );1;0;4
+SimpleMessageListenerContainerTests.testSettingConcurrentConsumersToZeroIsNotAllowed( );1;0;6
+SimpleMessageConsumer.setMessageListener( MessageListener messageListener );1;0;3
+SimpleMessageConsumer.close( );1;0;3
+SimpleMessageConsumer.getMessageSelector( );1;0;3
+SimpleMessageListenerContainerTests.testSettingMessageListenerToANullType( );1;0;4
+SimpleMessageListenerContainerTests.testContextRefreshedEventStartsTheConnectionByDefault( );1;0;21
+SimpleMessageListenerContainerTests.testNoRollbackOccursIfSessionIsNotTransactedAndThatExceptionsDo_NOT_Propagate( );1;0;23
+SimpleMessageListenerContainerTests.testRegisteredExceptionListenerIsInvokedOnException( );1;0;27
+SimpleMessageConsumer.receive( long l );1;0;3
+SimpleMessageConsumer.sendMessage( Message message );1;0;3
+SimpleMessageListenerContainerTests.testContextRefreshedEventDoesNotStartTheConnectionIfAutoStartIsSetToFalse( );1;0;21
+SimpleMessageListenerContainerTests.testCorrectSessionExposedForSessionAwareMessageListenerInvocation( );3;1;33

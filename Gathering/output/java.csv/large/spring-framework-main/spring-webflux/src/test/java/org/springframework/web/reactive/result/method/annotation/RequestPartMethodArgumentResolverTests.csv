@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestPartMethodArgumentResolverTests.partRequired( );1;0;6
+RequestPartMethodArgumentResolverTests.personNotRequired( );1;0;6
+RequestPartMethodArgumentResolverTests.part( );1;0;8
+RequestPartMethodArgumentResolverTests.partToUtf8String( Part part );1;0;3
+RequestPartMethodArgumentResolverTests.setup( );3;0;7
+RequestPartMethodArgumentResolverTests.fluxPerson( );1;0;10
+RequestPartMethodArgumentResolverTests.fluxPartNotRequired( );1;0;6
+RequestPartMethodArgumentResolverTests.listPersonNotRequired( );1;0;6
+RequestPartMethodArgumentResolverTests.listPartNotRequired( );1;0;6
+Person.Person( @ JsonProperty ( "name" ) String name );1;0;3
+RequestPartMethodArgumentResolverTests.monoPerson( );1;0;7
+RequestPartMethodArgumentResolverTests.createExchange( MultipartBodyBuilder builder );1;0;9
+RequestPartMethodArgumentResolverTests.handle( @ RequestPart ( "name" ) Person person , @ RequestPart ( "name" ) Mono < Person > personMono , @ RequestPart ( "name" ) Flux < Person > personFlux , @ RequestPart ( "name" ) List < Person > personList , @ RequestPart ( "name" ) Part part , @ RequestPart ( "name" ) Mono < Part > partMono , @ RequestPart ( "name" ) Flux < Part > partFlux , @ RequestPart ( "name" ) List < Part > partList , @ RequestPart ( name = "anotherPart" , required = false ) Person anotherPerson , @ RequestPart ( name = "name" , required = false ) Mono < Person > anotherPersonMono , @ RequestPart ( name = "name" , required = false ) Flux < Person > anotherPersonFlux , @ RequestPart ( name = "name" , required = false ) List < Person > anotherPersonList , @ RequestPart ( name = "anotherPart" , required = false ) Part anotherPart , @ RequestPart ( name = "name" , required = false ) Mono < Part > anotherPartMono , @ RequestPart ( name = "name" , required = false ) Flux < Part > anotherPartFlux , @ RequestPart ( name = "name" , required = false ) List < Part > anotherPartList , Person notAnnotated );1;0;1
+RequestPartMethodArgumentResolverTests.monoPart( );1;0;8
+RequestPartMethodArgumentResolverTests.person( );1;0;7
+RequestPartMethodArgumentResolverTests.personRequired( );1;0;6
+RequestPartMethodArgumentResolverTests.fluxPart( );1;0;10
+Person.getName( );1;0;3
+RequestPartMethodArgumentResolverTests.listPart( );1;0;9
+RequestPartMethodArgumentResolverTests.listPerson( );1;0;8
+RequestPartMethodArgumentResolverTests.resolveArgument( MethodParameter param , MultipartBodyBuilder builder );1;0;8
+RequestPartMethodArgumentResolverTests.partNotRequired( );1;0;6
+RequestPartMethodArgumentResolverTests.monoPartNotRequired( );1;0;6
+RequestPartMethodArgumentResolverTests.monoPersonNotRequired( );1;0;6
+RequestPartMethodArgumentResolverTests.supportsParameter( );1;0;17
+RequestPartMethodArgumentResolverTests.fluxPersonNotRequired( );1;0;6

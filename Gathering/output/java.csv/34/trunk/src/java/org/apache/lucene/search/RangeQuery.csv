@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RangeQuery.RangeQuery( String field , String lowerTerm , String upperTerm , boolean includeLower , boolean includeUpper );1;0;3
+RangeQuery.equals( Object o );16;22;17
+RangeQuery.getCollator( );1;0;1
+RangeQuery.isInclusive( );2;1;1
+RangeQuery.includesUpper( );1;0;1
+RangeQuery.getUpperTermText( );2;1;1
+RangeQuery.toString( String field );7;4;17
+RangeQuery.getUpperTerm( );1;0;1
+RangeQuery.includesLower( );1;0;1
+RangeQuery.hashCode( );8;15;12
+RangeQuery.getEnum( IndexReader reader );3;2;4
+RangeQuery.getLowerTermText( );2;1;1
+RangeQuery.init( Term lowerTerm , Term upperTerm , boolean includeLower , boolean includeUpper , Collator collator );7;9;15
+RangeQuery.RangeQuery( Term lowerTerm , Term upperTerm , boolean inclusive , Collator collator );1;0;3
+RangeQuery.getField( );1;0;3
+RangeQuery.RangeQuery( String field , String lowerTerm , String upperTerm , boolean includeLower , boolean includeUpper , Collator collator );1;0;3
+RangeQuery.RangeQuery( Term lowerTerm , Term upperTerm , boolean inclusive );1;0;3
+RangeQuery.getLowerTerm( );1;0;1

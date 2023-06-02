@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestMappingInfoHandlerMapping.extractMatrixVariables( HttpServletRequest request , Map < String , String > uriVariables );7;13;23
+PartialMatchHelper.getConsumablePatchMediaTypes( );4;1;10
+PartialMatchHelper.hasMethodsMismatch( );3;0;8
+PartialMatch.hasConsumesMatch( );2;1;3
+RequestMappingInfoHandlerMapping.getMatchingMapping( RequestMappingInfo info , HttpServletRequest request );1;0;3
+PartialMatchHelper.getParamConditions( );5;2;17
+PartialMatchHelper.hasParamsMismatch( );3;0;8
+HttpOptionsHandler.handle( );1;0;3
+RequestMappingInfoHandlerMapping.handleNoMatch( Set < RequestMappingInfo > infos , String lookupPath , HttpServletRequest request );10;0;41
+PartialMatch.PartialMatch( RequestMappingInfo info , HttpServletRequest request );1;4;7
+RequestMappingInfoHandlerMapping.getMappingComparator( final HttpServletRequest request );1;0;3
+HttpOptionsHandler.initAllowedHttpMethods( Set < String > declaredMethods );6;2;21
+RequestMappingInfoHandlerMapping.handleMatch( RequestMappingInfo info , String lookupPath , HttpServletRequest request );5;2;17
+PartialMatchHelper.isEmpty( );1;0;3
+PartialMatchHelper.PartialMatchHelper( Set < RequestMappingInfo > infos , HttpServletRequest request );3;1;7
+PartialMatch.hasParamsMatch( );2;1;3
+RequestMappingInfoHandlerMapping.extractMatchDetails( PathPatternsRequestCondition condition , String lookupPath , HttpServletRequest request );2;0;21
+PartialMatchHelper.getProducibleMediaTypes( );3;0;9
+RequestMappingInfoHandlerMapping.RequestMappingInfoHandlerMapping( );1;0;3
+HttpOptionsHandler.HttpOptionsHandler( Set < String > declaredMethods , Set < MediaType > acceptPatch );1;0;4
+PartialMatch.toString( );1;0;3
+RequestMappingInfoHandlerMapping.extractMatchDetails( PatternsRequestCondition condition , String lookupPath , HttpServletRequest request );3;1;20
+PartialMatch.hasProducesMatch( );2;1;3
+PartialMatchHelper.getAllowedMethods( );3;0;9
+PartialMatchHelper.getConsumableMediaTypes( );3;0;9
+RequestMappingInfoHandlerMapping.getHandlerInternal( HttpServletRequest request );1;0;9
+PartialMatch.hasMethodsMatch( );1;0;3
+PartialMatchHelper.hasProducesMismatch( );3;0;8
+PartialMatchHelper.hasConsumesMismatch( );3;0;8
+RequestMappingInfoHandlerMapping.getDirectPaths( RequestMappingInfo info );1;0;3
+PartialMatch.getInfo( );1;0;3
+RequestMappingInfoHandlerMapping.getMappingPathPatterns( RequestMappingInfo info );1;0;3

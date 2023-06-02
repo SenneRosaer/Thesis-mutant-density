@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InvocationTrackingAspect.afterReturning( );1;0;3
+AfterAdviceLastTests.afterAdviceIsInvokedLast( @ Autowired Echo echo , @ Autowired InvocationTrackingAspect aspect );1;0;8
+Echo.echo( Object obj );2;0;6
+AfterAdviceFirstTests.afterAdviceIsInvokedFirst( @ Autowired Echo echo , @ Autowired InvocationTrackingAspect aspect );1;0;8
+InvocationTrackingAspect.before( );1;0;3
+InvocationTrackingAspect.afterThrowing( );1;0;3
+InvocationTrackingAspect.after( );1;0;3
+InvocationTrackingAspect.around( ProceedingJoinPoint joinPoint );1;0;9

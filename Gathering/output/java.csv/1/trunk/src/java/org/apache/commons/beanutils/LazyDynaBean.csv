@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LazyDynaBean.createProperty( String name , Class type );8;2;21
+LazyDynaBean.defaultMappedProperty( String name );1;0;3
+LazyDynaBean.defaultIndexedProperty( String name );1;0;3
+LazyDynaBean.size( String name );6;2;19
+LazyDynaBean.createIndexedProperty( String name , Class type );6;1;25
+LazyDynaBean.isDynaProperty( String name );4;2;9
+LazyDynaBean.createOtherProperty( String name , Class type );8;8;18
+LazyDynaBean.get( String name , String key );4;2;18
+LazyDynaBean.get( String name );5;4;17
+LazyDynaBean.set( String name , String key , Object value );3;2;12
+LazyDynaBean.createPrimitiveProperty( String name , Class type );9;8;21
+LazyDynaBean.createNumberProperty( String name , Class type );1;0;3
+LazyDynaBean.get( String name , int index );5;2;21
+LazyDynaBean.LazyDynaBean( String name );1;0;3
+LazyDynaBean.growIndexedProperty( String name , Object indexedProperty , int index );7;8;28
+LazyDynaBean.contains( String name , String key );4;2;13
+LazyDynaBean.createDynaBeanProperty( String name , Class type );3;0;12
+LazyDynaBean.getDynaClass( );1;0;3
+LazyDynaBean.getMap( );2;1;6
+LazyDynaBean.LazyDynaBean( DynaClass dynaClass );2;0;8
+LazyDynaBean.LazyDynaBean( );1;0;3
+LazyDynaBean.logger( );2;1;6
+LazyDynaBean.newMap( );1;0;3
+LazyDynaBean.createMappedProperty( String name , Class type );5;1;21
+LazyDynaBean.set( String name , Object value );7;4;27
+LazyDynaBean.remove( String name , String key );4;2;16
+LazyDynaBean.set( String name , int index , Object value );5;2;21
+LazyDynaBean.isAssignable( Class dest , Class source );18;32;15

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestMessageHandler.TestMessageHandler( WebSocketSession session );1;0;3
+OrderedMessageSendingIntegrationTests.exceedBufferSizeLimit( );2;6;16
+OrderedMessageSendingIntegrationTests.setup( );1;1;12
+OrderedMessageSendingIntegrationTests.createMessage( int index );1;0;8
+TestMessageHandler.getSavedException( );1;0;3
+OrderedMessageSendingIntegrationTests.sendAfterBlockedSend( );3;6;24
+OrderedMessageSendingIntegrationTests.exceedTimeLimit( );1;0;14
+OrderedMessageSendingIntegrationTests.tearDown( );1;0;3
+TestMessageHandler.setMessageLatch( CountDownLatch latch );1;0;3
+TestMessageHandler.handleMessage( Message < ? > message );3;1;12
+TestMessageHandler.getSavedMessages( );1;0;3

@@ -1,0 +1,99 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IvyNode.getLastModified( );2;1;6
+IvyNode.getProblemMessage( );1;0;3
+IvyNode.updateConfsToFetch( Collection confs );1;0;4
+IvyNode.addArtifactsFromOwnUsage( Set artifacts , Set dependencyArtifacts );2;0;7
+IvyNode.findPath( ModuleId from , IvyNode node , List path );4;2;19
+IvyNode.getModuleId( );1;0;3
+IvyNode.addDependencyDescriptor( IvyNode parent , DependencyDescriptor dd );1;0;3
+IvyNode.addArtifactsFromMergedUsage( String rootModuleConf , Set artifacts );4;2;17
+IvyNode.addCaller( String rootModuleConf , IvyNode callerNode , String callerConf , String [ ] dependencyConfs , DependencyDescriptor dd );2;0;8
+IvyNode.getRealNode( );2;1;4
+IvyNode.getResolvedNodes( ModuleId moduleId , String rootModuleConf );1;0;3
+IvyNode.findArtifactsMatching( IncludeRule rule , Map allArtifacts );3;0;10
+IvyNode.isDownloaded( );1;0;3
+IvyNode.isSearched( );1;0;3
+IvyNode.getAllEvictingNodes( );1;0;3
+IvyNode.getEvictedNodes( ModuleId mid , String rootModuleConf );1;0;3
+IvyNode.handleConfiguration( boolean loaded , String rootModuleConf , IvyNode parent , String parentConf , String conf , boolean shouldBePublic , IvyNodeUsage usage );11;9;44
+IvyNode.getPublication( );2;1;6
+IvyNode.getConfsToFetch( );1;0;3
+IvyNode.getEvictedConfs( );1;0;3
+IvyNode.getModuleRevision( );1;0;3
+IvyNode.compareTo( Object obj );1;0;4
+IvyNode.isBlacklisted( String rootModuleConf );1;0;3
+IvyNode.init( ResolveData data );1;0;6
+IvyNode.getSelectedArtifacts( Filter artifactFilter );4;3;11
+IvyNode.getRequiredConfigurations( );1;1;6
+IvyNode.getArtifacts( String rootModuleConf );19;22;63
+IvyNode.loadData( String rootModuleConf , IvyNode parent , String parentConf , String conf , boolean shouldBePublic , IvyNodeUsage usage );23;17;117
+IvyNode.toMrids( Collection path , IvyNode depNode );2;3;10
+IvyNode.getDependencies( String rootModuleConf , String conf , String requestedConf );7;5;38
+IvyNode.getRoot( );1;0;3
+IvyNode.clearEvictionDataInAllCallers( String rootModuleConf , Stack callerStack );4;4;15
+IvyNode.discardConf( String rootModuleConf , String conf );4;4;17
+IvyNode.getAllEvictingNodesDetails( );1;0;3
+IvyNode.getEvictedRevisions( ModuleId mid , String rootModuleConf );1;0;3
+IvyNode.hasProblem( );1;1;3
+IvyNode.getAllCallersModuleIds( );1;0;3
+IvyNode.getResolvedId( );4;4;9
+IvyNode.isFetched( String conf );1;0;3
+IvyNode.getId( );1;0;3
+IvyNode.getConfigurations( String rootModuleConf );2;0;9
+IvyNode.getConfiguration( String conf );3;2;13
+IvyNode.isRootModuleConfLoaded( String rootModuleConf );1;0;3
+IvyNode.getBlacklistData( String rootModuleConf );1;0;3
+IvyNode.updateDataFrom( IvyNode node , String rootModuleConf , boolean real );3;1;15
+IvyNode.getPendingConflicts( String rootModuleConf , ModuleId mid );1;0;3
+IvyNode.getProblem( );1;0;3
+IvyNode.getMainConf( String conf );2;0;8
+IvyNode.setPendingConflicts( ModuleId moduleId , String rootModuleConf , Collection conflicts );1;0;3
+IvyNode.getConflictManager( ModuleId mid );3;2;9
+IvyNode.getMainUsage( );1;0;3
+IvyNode.isEvicted( String rootModuleConf );1;0;3
+IvyNode.getEvictionDataInRoot( String rootModuleConf , IvyNode ancestor );1;0;3
+IvyNode.getRootModuleConfigurations( );1;0;4
+IvyNode.isDependencyModuleExcluded( String rootModuleConf , ModuleRevisionId dependencyRevisionId , String conf );1;0;4
+IvyNode.isConfRequiredByMergedUsageOnly( String rootModuleConf , String conf );2;3;4
+IvyNode.isLoaded( );1;1;3
+IvyNode.getAllEvictingConflictManagers( );1;0;3
+IvyNode.getAllArtifacts( );2;0;8
+IvyNode.findNode( ModuleRevisionId mrid );1;0;3
+IvyNode.hasConfigurationsToLoad( );1;1;3
+IvyNode.getAllRealCallers( );1;0;3
+IvyNode.markEvicted( EvictionData evictionData );3;1;10
+IvyNode.resolveSpecialConfigurations( String [ ] dependencyConfigurations , IvyNode node );6;5;15
+IvyNode.setResolvedNodes( ModuleId moduleId , String rootModuleConf , Collection resolved );1;0;3
+IvyNode.isCompletelyEvicted( );1;0;3
+IvyNode.getEvictedData( String rootModuleConf );1;0;3
+IvyNode.hashCode( );1;0;3
+IvyNode.getDependencyDescriptor( IvyNode parent );1;0;3
+IvyNode.markRootModuleConfLoaded( String rootModuleConf );1;0;3
+IvyNode.canExclude( String rootModuleConf );3;2;9
+IvyNode.getRealConfs( String conf );7;6;22
+IvyNode.getAllUsages( );1;0;6
+IvyNode.addRootModuleConfigurations( IvyNodeUsage usage , String rootModuleConf , String [ ] dependencyConfs );5;6;17
+IvyNode.IvyNode( ResolveData data , ModuleDescriptor md );1;0;6
+IvyNode.getData( );1;0;3
+IvyNode.findPath( ModuleId from );1;0;3
+IvyNode.addAllIfNotNull( Collection into , Collection col );2;1;5
+IvyNode.setEvictedNodes( ModuleId moduleId , String rootModuleConf , Collection evicted );1;0;3
+IvyNode.getRequiredConfigurations( IvyNode in , String inConf );3;1;9
+IvyNode.isRoot( );1;1;3
+IvyNode.getDefaultConf( String conf );2;0;8
+IvyNode.getResolvedRevisions( ModuleId moduleId , String rootModuleConf );1;0;3
+IvyNode.isCompletelyBlacklisted( );4;3;12
+IvyNode.IvyNode( ResolveData data , IvyNode parent , DependencyDescriptor dd );1;0;6
+IvyNode.markEvicted( String rootModuleConf , IvyNode node , ConflictManager conflictManager , Collection resolved );1;0;5
+IvyNode.getAllCallers( );1;0;3
+IvyNode.equals( Object obj );2;1;7
+IvyNode.getDependencies( String rootModuleConf , String [ ] confs );4;3;14
+IvyNode.clean( );1;0;3
+IvyNode.getDescriptor( );1;0;3
+IvyNode.toString( );1;0;3
+IvyNode.blacklist( IvyNodeBlacklist bdata );2;0;12
+IvyNode.getRootModuleConfigurationsSet( );2;0;9
+IvyNode.moveToRealNode( String rootModuleConf , IvyNode parent , String parentConf , String conf , boolean shouldBePublic , IvyNode resolved );4;4;21
+IvyNode.doesCallersExclude( String rootModuleConf , Artifact artifact , Stack callersStack );1;0;3
+IvyNode.getDirectCallerFor( ModuleId from );1;0;3
+IvyNode.getCallers( String rootModuleConf );1;0;3

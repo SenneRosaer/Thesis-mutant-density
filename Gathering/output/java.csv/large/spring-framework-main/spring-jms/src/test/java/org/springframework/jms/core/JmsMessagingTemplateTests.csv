@@ -1,0 +1,61 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JmsMessagingTemplateTests.validateJmsTemplate( );1;0;3
+JmsMessagingTemplateTests.convertDestinationResolutionExceptionOnSend( );1;0;6
+JmsMessagingTemplateTests.convertInvalidDestinationExceptionOnSendAndReceive( );1;0;6
+JmsMessagingTemplateTests.createJmsTextMessage( );1;0;3
+JmsMessagingTemplateTests.sendAndReceiveDefaultDestination( );2;0;10
+JmsMessagingTemplateTests.receiveDefaultDestinationName( );2;0;8
+JmsMessagingTemplateTests.convertSendAndReceivePayloadName( );1;0;7
+JmsMessagingTemplateTests.receiveAndConvert( );1;0;8
+JmsMessagingTemplateTests.receiveAndConvertNoConverter( );1;0;6
+JmsMessagingTemplateTests.toMessage( Object object , Session session );1;0;3
+JmsMessagingTemplateTests.sendPropertyInjection( );1;0;10
+JmsMessagingTemplateTests.convertSendAndReceiveNoDefaultSet( );1;0;4
+JmsMessagingTemplateTests.convertDestinationResolutionExceptionOnReceive( );1;0;6
+JmsMessagingTemplateTests.receive( );2;0;8
+JmsMessagingTemplateTests.convertAndSendDefaultDestinationName( );1;0;7
+JmsMessagingTemplateTests.convertSendAndReceiveDefaultDestination( );1;0;9
+JmsMessagingTemplateTests.convertAndSendPayloadAndHeaders( );1;0;8
+JmsMessagingTemplateTests.convertAndSendPayload( );1;0;7
+JmsMessagingTemplateTests.assertPayloadConverter( JmsMessagingTemplate messagingTemplate , MessageConverter messageConverter );1;0;7
+JmsMessagingTemplateTests.sendAndReceive( );2;0;9
+JmsMessagingTemplateTests.assertTextMessage( Message < ? > message );1;0;5
+JmsMessagingTemplateTests.convertMessageConversionExceptionOnReceive( );1;0;10
+JmsMessagingTemplateTests.convertSendAndReceivePayload( );1;0;8
+JmsMessagingTemplateTests.convertMessageNotReadableException( );1;0;5
+JmsMessagingTemplateTests.sendAndReceiveDefaultDestinationName( );2;0;9
+JmsMessagingTemplateTests.createJmsTextMessage( String payload );2;0;10
+JmsMessagingTemplateTests.sendAndReceiveNoDefaultSet( );1;0;5
+JmsMessagingTemplateTests.receiveDefaultDestination( );2;0;9
+JmsMessagingTemplateTests.receiveName( );2;0;7
+JmsMessagingTemplateTests.sendDefaultDestinationName( );1;0;7
+JmsMessagingTemplateTests.customConverterAlwaysTakesPrecedence( );1;0;9
+JmsMessagingTemplateTests.payloadConverterIsConsistentConstructor( );1;0;7
+JmsMessagingTemplateTests.convertAndSendPayloadAndHeadersName( );1;0;7
+JmsMessagingTemplateTests.convertAndSendDefaultDestination( );1;0;8
+JmsMessagingTemplateTests.convertAndSendPayloadName( );1;0;6
+JmsMessagingTemplateTests.convertSendAndReceiveDefaultDestinationName( );1;0;8
+JmsMessagingTemplateTests.sendName( );1;0;6
+JmsMessagingTemplateTests.convertAndSendCustomJmsMessageConverter( );1;0;14
+JmsMessagingTemplateTests.setup( );1;0;3
+JmsMessagingTemplateTests.sendDefaultDestination( );1;0;8
+JmsMessagingTemplateTests.receiveAndConvertName( );1;0;7
+JmsMessagingTemplateTests.send( );1;0;7
+JmsMessagingTemplateTests.createTextMessage( MessageCreator creator );1;0;9
+JmsMessagingTemplateTests.sendNoDefaultSet( );1;0;5
+JmsMessagingTemplateTests.convertAndSendNoDefaultSet( );1;0;4
+JmsMessagingTemplateTests.convertInvalidDestinationExceptionOnSendAndReceiveWithName( );1;0;5
+JmsMessagingTemplateTests.assertTextMessage( MessageCreator messageCreator );2;0;10
+JmsMessagingTemplateTests.convertMessageFormatException( );1;0;9
+JmsMessagingTemplateTests.convertMessageConversionExceptionOnSend( );1;0;10
+JmsMessagingTemplateTests.receiveAndConvertDefaultDestination( );1;0;9
+JmsMessagingTemplateTests.receiveNoDefaultSet( );1;0;4
+JmsMessagingTemplateTests.payloadConverterIsConsistentSetter( );1;0;8
+JmsMessagingTemplateTests.sendAndReceiveName( );2;0;8
+JmsMessagingTemplateTests.invokeMessageCreator( );1;0;7
+JmsMessagingTemplateTests.receiveAndConvertWithConversion( );1;0;8
+JmsMessagingTemplateTests.createTextMessage( );1;0;3
+JmsMessagingTemplateTests.receiveAndConvertDefaultDestinationName( );1;0;8
+JmsMessagingTemplateTests.convertMessageNotWritableException( );1;0;9
+JmsMessagingTemplateTests.receiveAndConvertNoInput( );1;0;4
+JmsMessagingTemplateTests.createTextMessage( String payload );1;0;4

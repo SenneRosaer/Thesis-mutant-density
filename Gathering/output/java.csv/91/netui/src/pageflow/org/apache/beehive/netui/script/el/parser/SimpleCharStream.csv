@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleCharStream.ReInit( java . io . InputStream dstream , int startline , int startcolumn , int buffersize );1;0;3
+SimpleCharStream.SimpleCharStream( java . io . Reader dstream );1;0;3
+SimpleCharStream.SimpleCharStream( java . io . InputStream dstream , int startline , int startcolumn );1;0;3
+SimpleCharStream.getBeginColumn( );1;0;3
+***not in a method***;0;1;0
+SimpleCharStream.getBeginLine( );1;0;3
+SimpleCharStream.ReInit( java . io . InputStream dstream , int startline , int startcolumn );1;0;3
+SimpleCharStream.getEndLine( );1;0;3
+SimpleCharStream.getLine( );1;0;3
+SimpleCharStream.adjustBeginLineColumn( int newLine , int newCol );7;28;31
+SimpleCharStream.getEndColumn( );1;0;3
+SimpleCharStream.GetSuffix( int len );2;12;11
+SimpleCharStream.ReInit( java . io . Reader dstream , int startline , int startcolumn , int buffersize );3;5;14
+SimpleCharStream.SimpleCharStream( java . io . InputStream dstream , int startline , int startcolumn , int buffersize );1;0;3
+SimpleCharStream.SimpleCharStream( java . io . Reader dstream , int startline , int startcolumn , int buffersize );1;1;9
+SimpleCharStream.ExpandBuff( boolean wrapAround );3;16;33
+SimpleCharStream.SimpleCharStream( java . io . InputStream dstream );1;0;3
+SimpleCharStream.backup( int amount );2;4;5
+SimpleCharStream.FillBuff( );10;14;34
+SimpleCharStream.readChar( );4;6;13
+SimpleCharStream.SimpleCharStream( java . io . Reader dstream , int startline , int startcolumn );1;0;3
+SimpleCharStream.ReInit( java . io . InputStream dstream );1;0;3
+SimpleCharStream.getColumn( );1;0;3
+SimpleCharStream.Done( );1;0;5
+SimpleCharStream.ReInit( java . io . Reader dstream );1;0;3
+SimpleCharStream.ReInit( java . io . Reader dstream , int startline , int startcolumn );1;0;3
+SimpleCharStream.UpdateLineColumn( char c );7;8;29
+SimpleCharStream.BeginToken( );1;1;6
+SimpleCharStream.GetImage( );2;6;7

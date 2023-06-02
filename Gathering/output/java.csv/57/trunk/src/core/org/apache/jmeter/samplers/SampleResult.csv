@@ -1,0 +1,101 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SampleResult.setTime( long elapsed );3;4;7
+SampleResult.setSampleLabel( String label );1;0;3
+SampleResult.setStopThread( boolean b );1;0;3
+SampleResult.isBinaryType( String ct );3;2;8
+SampleResult.getStartTime( );1;0;3
+SampleResult.isMonitor( );1;0;3
+SampleResult.setSuccessful( boolean success );1;0;3
+SampleResult.setMarked( String filename );2;1;6
+SampleResult.createTestSample( long start , long end );1;0;6
+SampleResult.getURL( );1;0;3
+SampleResult.setAllThreads( int n );1;0;3
+SampleResult.getResponseCode( );1;0;3
+SampleResult.getSamplerData( );1;0;3
+SampleResult.getUrlAsString( );2;1;3
+SampleResult.getDataEncoding( );2;1;6
+SampleResult.isMarked( String filename );2;2;3
+SampleResult.setResultFileName( String resultFileName );1;0;3
+SampleResult.getContentType( );1;0;3
+SampleResult.sampleResume( );2;3;7
+SampleResult.SampleResult( long elapsed , boolean atend );2;2;8
+SampleResult.getBytes( );2;1;3
+SampleResult.setStartTime( long start );2;0;6
+SampleResult.setStopTest( boolean b );1;0;3
+SampleResult.stampAndTime( long stamp , long elapsed );2;2;11
+SampleResult.currentTimeInMs( );2;2;8
+SampleResult.setDataType( String dataType );1;0;3
+SampleResult.getErrorCount( );2;0;3
+SampleResult.setEndTime( long end );3;4;11
+SampleResult.getResultFileName( );1;0;3
+SampleResult.isStampedAtStart( );1;0;3
+SampleResult.getGroupThreads( );1;0;3
+SampleResult.getSampleLabel( boolean includeGroup );2;0;7
+SampleResult.setThreadName( String threadName );1;0;3
+SampleResult.haveNanoTime( );1;1;3
+SampleResult.setGroupThreads( int n );1;0;3
+SampleResult.samplePause( );2;1;6
+SampleResult.setSampleCount( int count );1;0;3
+SampleResult.toString( );1;0;3
+SampleResult.setStampAndTime( long stamp , long elapsed );3;3;6
+SampleResult.setContentType( String string );1;0;3
+SampleResult.getSaveConfig( );1;0;3
+SampleResult.setResponseData( byte [ ] response );2;1;3
+SampleResult.SampleResult( long stamp , long elapsed );1;0;3
+SampleResult.SampleResult( );1;0;3
+SampleResult.isSuccessful( );1;0;3
+SampleResult.setParent( SampleResult parent );1;0;3
+SampleResult.setEncodingAndType( String ct );5;4;19
+SampleResult.getResponseDataAsString( );2;0;8
+SampleResult.setResponseMessageOK( );1;0;3
+SampleResult.setSaveConfig( SampleSaveConfiguration propertiesToSave );1;0;3
+SampleResult.getAllThreads( );1;0;3
+SampleResult.setBytes( int length );1;0;3
+SampleResult.setMonitor( boolean monitor );1;0;3
+SampleResult.setResponseCodeOK( );1;0;3
+SampleResult.setURL( URL location );1;0;3
+SampleResult.getSampleCount( );1;0;3
+SampleResult.isResponseCodeOK( );1;0;3
+SampleResult.setRequestHeaders( String string );1;0;3
+SampleResult.getResponseHeaders( );1;0;3
+SampleResult.setResponseData( String response );2;0;8
+SampleResult.addSubResult( SampleResult subResult );3;3;15
+SampleResult.getTimeStamp( );1;0;3
+SampleResult.setLatency( long latency );1;0;3
+SampleResult.setResponseMessage( String msg );1;0;3
+SampleResult.getThreadName( );1;0;3
+SampleResult.getDataEncodingWithDefault( );3;3;6
+SampleResult.sampleEnd( );2;1;7
+SampleResult.sampleStart( );2;1;7
+SampleResult.isStopThread( );1;0;3
+SampleResult.configure( Configuration info );1;0;3
+SampleResult.getSampleLabel( );1;0;3
+SampleResult.setTimeStamp( long timeStamp );1;0;3
+SampleResult.latencyEnd( );1;2;3
+SampleResult.getDataType( );1;0;3
+SampleResult.getTime( );1;0;3
+SampleResult.createTestSample( long elapsed );1;1;4
+SampleResult.getRequestHeaders( );1;0;3
+SampleResult.setSamplerData( String s );1;0;3
+SampleResult.getEndTime( );1;0;3
+SampleResult.getIdleTime( );1;0;3
+SampleResult.getResponseData( );1;0;3
+SampleResult.getLatency( );1;0;3
+SampleResult.nanoTime( );3;0;11
+SampleResult.setDataEncoding( String dataEncoding );1;0;3
+SampleResult.setResponseHeaders( String string );1;0;3
+SampleResult.SampleResult( SampleResult res );1;0;18
+SampleResult.initNanoTimeMethod( );2;0;7
+SampleResult.setResponseCode( String code );1;0;3
+SampleResult.storeSubResult( SampleResult subResult );2;1;7
+SampleResult.getAssertionResults( );2;1;6
+SampleResult.setTimes( long start , long end );1;0;4
+SampleResult.isStopTest( );1;0;3
+SampleResult.getSubResults( );2;1;6
+SampleResult.addAssertionResult( AssertionResult assertResult );2;1;6
+SampleResult.getResponseMessage( );1;0;3
+SampleResult.sampleNsClockInMs( );1;1;3
+SampleResult.setErrorCount( int i );1;0;2
+SampleResult.getParent( );1;0;3
+SampleResult.getDataEncodingNoDefault( );1;0;3
+SampleResult.getMediaType( );1;0;3

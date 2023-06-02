@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DebuggerSupport.addGlobalBreakpoint( Breakpoint breakpoint );1;0;5
+DebuggerSupport.resume( final Long iid );5;0;37
+DebuggerSupport.removeGlobalBreakpoint( Breakpoint breakpoint );1;0;5
+DebuggerSupport.suspend( final Long iid );5;0;30
+DebuggerSupport.getGlobalBreakpoints( );1;0;3
+DebuggerSupport.checkStep( ProcessInstanceEvent event );3;2;4
+DebuggerSupport.getBreakpoints( Long pid );2;1;4
+DebuggerSupport.checkBreakPoints( ProcessInstanceEvent event , Breakpoint [ ] breakpoints );3;2;10
+DebuggerSupport.enable( boolean enabled );1;0;3
+DebuggerSupport.run( BpelDAOConnection conn );3;6;26
+DebuggerSupport.DebuggerSupport( ODEProcess process );1;0;4
+DebuggerSupport.onEvent( BpelEvent event );12;7;41
+DebuggerSupport.addBreakpoint( Long pid , Breakpoint breakpoint );2;1;11
+DebuggerSupport.terminate( final Long iid );4;0;35
+DebuggerSupport.step( final Long iid );5;0;39
+DebuggerSupport.removeBreakpoint( Long pid , Breakpoint breakpoint );3;2;13

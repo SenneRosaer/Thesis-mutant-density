@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestRecorderFilter.destroy( );2;0;7
+TestRecorderFilter.init( FilterConfig filterConfig );4;1;20
+TestRecorderFilter.getWebapp( );1;0;3
+TestRecorderFilter.setResponseOutcome( ServletResponse response , String value );1;0;3
+TestRecorderFilter.filterInit( ServletRequest request );1;0;5
+TestRecorderFilter.genStartStopLinks( );1;8;18
+TestRecorderFilter.getWriter( ServletResponse resp );3;0;13
+TestRecorderFilter.isControlRequest( String reqURI );2;0;6
+TestRecorderFilter.getState( );1;0;3
+TestRecorderFilter.TestRecorderFilter( );1;0;2
+TestRecorderFilter.writeResponse( ResponseWrapper wrapper , String body , FilterData data , boolean addLink );10;6;45
+TestRecorderFilter.postFilterRecord( FilterData data , String body );7;2;38
+TestRecorderFilter.doFilter( ServletRequest request , ServletResponse response , FilterChain chain );19;7;67
+TestRecorderFilter.shouldHandleRequest( String reqURI );2;2;14
+TestRecorderFilter.getTestDefinitions( );1;0;3
+TestRecorderFilter.reportCookies( Cookie [ ] cookies );3;3;10
+TestRecorderFilter.getFilterConfig( );1;0;3
+TestRecorderFilter.postFilterPlayback( FilterData data );14;4;55
+TestRecorderFilter.instance( );1;0;3
+TestRecorderFilter.preFilter( FilterData data , FilterChain chain );17;4;64
+TestRecorderFilter.postFilter( FilterData data );12;2;49

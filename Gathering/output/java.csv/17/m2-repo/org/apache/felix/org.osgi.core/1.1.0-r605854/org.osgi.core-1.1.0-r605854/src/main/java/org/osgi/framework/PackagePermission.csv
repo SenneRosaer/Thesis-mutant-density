@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PackagePermissionCollection.PackagePermissionCollection( );1;0;4
+PackagePermission.getMask( );1;0;3
+PackagePermission.PackagePermission( String name , String actions );1;0;3
+PackagePermissionCollection.elements( );1;0;3
+PackagePermissionCollection.implies( Permission permission );10;18;36
+***not in a method***;0;3;0
+PackagePermission.implies( Permission p );3;3;8
+PackagePermission.getActions( );5;5;17
+PackagePermission.readObject( java . io . ObjectInputStream s );1;0;4
+PackagePermission.newPermissionCollection( );1;0;3
+PackagePermission.writeObject( java . io . ObjectOutputStream s );2;1;5
+PackagePermission.getMask( String actions );45;97;64
+PackagePermissionCollection.add( Permission permission );7;5;26
+PackagePermission.init( int mask );3;4;6
+PackagePermission.PackagePermission( String name , int mask );1;0;4
+PackagePermission.hashCode( );1;1;3
+PackagePermission.equals( Object obj );4;4;10

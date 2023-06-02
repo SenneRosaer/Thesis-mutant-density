@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpRequestValues.getHttpMethod( );1;0;3
+HttpRequestValues.getUri( );1;0;3
+Builder.build( );14;16;40
+Builder.setBodyValue( Object bodyValue );1;0;5
+Builder.addCookie( String name , String ... values );3;1;7
+HttpRequestValues.getUriTemplate( );1;0;3
+Builder.addRequestPart( String name , P publisher , ResolvableType type );2;1;5
+Builder.setUriTemplate( String uriTemplate );1;0;4
+Builder.setUri( URI uri );1;0;4
+Builder.setUriVariable( String name , String value );2;1;5
+Builder.addAttribute( String name , Object value );2;1;5
+Builder.addRequestPart( String name , Object part );2;1;5
+Builder.initHeaders( );2;1;4
+Builder.addRequestParameter( String name , String ... values );3;1;7
+HttpRequestValues.getHeaders( );1;0;3
+Builder.appendQueryParams( String uriTemplate , Map < String , String > uriVars , MultiValueMap < String , String > requestParams );3;4;15
+HttpRequestValues.getBodyValue( );1;0;3
+HttpRequestValues.builder( );1;0;3
+HttpRequestValues.HttpRequestValues( @ Nullable HttpMethod httpMethod , @ Nullable URI uri , @ Nullable String uriTemplate , Map < String , String > uriVariables , HttpHeaders headers , MultiValueMap < String , String > cookies , Map < String , Object > attributes , @ Nullable Object bodyValue , @ Nullable Publisher < ? > body , @ Nullable ParameterizedTypeReference < ? > bodyElementType );2;3;13
+HttpRequestValues.getBody( );1;0;3
+Builder.addHeader( String headerName , String ... headerValues );2;0;6
+Builder.setHttpMethod( HttpMethod httpMethod );1;0;4
+Builder.setAccept( List < MediaType > acceptableMediaTypes );1;0;4
+Builder.setBody( P body , ParameterizedTypeReference < T > elementTye );1;0;5
+HttpRequestValues.getUriVariables( );1;0;3
+HttpRequestValues.getBodyElementType( );1;0;3
+HttpRequestValues.getAttributes( );1;0;3
+HttpRequestValues.getCookies( );1;0;3
+Builder.setContentType( MediaType contentType );1;0;4

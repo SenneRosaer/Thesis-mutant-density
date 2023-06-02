@@ -1,0 +1,87 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LinkTool.remove( Object key );1;0;5
+LinkTool.params( Object parameters );5;2;20
+LinkTool.configure( ValueParser props );13;12;63
+LinkTool.directory( );2;1;11
+LinkTool.setPath( Object obj );4;5;14
+LinkTool.getQuery( );1;0;3
+LinkTool.getPath( );1;0;3
+LinkTool.toQuery( Object key , Object value );4;1;23
+LinkTool.getBaseRef( );1;0;6
+LinkTool.hashCode( );2;2;8
+LinkTool.getParams( );3;2;7
+LinkTool.getFile( );4;4;12
+LinkTool.encode( Object obj );3;1;15
+LinkTool.toURI( Object obj );3;0;18
+LinkTool.append( Object key , Object value );1;0;5
+LinkTool.append( Object pth );1;0;5
+LinkTool.combinePath( String start , String end );5;8;24
+LinkTool.setUserInfo( Object obj );2;1;3
+LinkTool.relative( Object obj );2;1;14
+LinkTool.LinkTool( );1;1;15
+LinkTool.scheme( Object scheme );1;0;5
+LinkTool.isOpaque( );1;0;3
+LinkTool.addToList( List vals , Object value );5;0;20
+LinkTool.putParam( Object key , Object value );3;0;12
+LinkTool.setPort( Object obj );4;3;22
+LinkTool.combineQuery( String current , String add );10;11;31
+LinkTool.uri( Object uri );2;0;8
+LinkTool.setParam( Object key , Object value , boolean append );3;1;16
+LinkTool.equals( Object obj );5;6;12
+LinkTool.relative( );1;0;5
+LinkTool.debug( String msg , Object ... args );1;0;3
+LinkTool.setFragment( Object obj );3;2;14
+LinkTool.removeParam( Object key );2;1;8
+LinkTool.getRoot( );2;1;8
+LinkTool.user( Object info );1;0;5
+LinkTool.setHost( Object obj );2;1;3
+LinkTool.getHost( );1;0;3
+LinkTool.normalizeQuery( String qs );2;1;7
+LinkTool.setForceRelative( boolean forceRelative );1;0;3
+LinkTool.parseQuery( String query , String queryDelim );7;2;36
+LinkTool.createURI( );15;20;39
+LinkTool.path( Object pth );1;0;5
+LinkTool.appendParam( String key , Object value );3;0;21
+LinkTool.secure( );1;0;3
+LinkTool.query( Object query );1;0;5
+LinkTool.isRelative( );2;2;3
+LinkTool.getAppendParams( );1;0;3
+LinkTool.parseQuery( String query );1;0;3
+LinkTool.absolute( Object obj );9;7;45
+LinkTool.anchor( Object anchor );1;0;5
+LinkTool.appendAsArray( StringBuilder out , Object key , Object [ ] arr );4;5;16
+LinkTool.appendPath( Object obj );3;3;6
+LinkTool.setCharacterEncoding( String chrst );1;0;3
+LinkTool.duplicate( );1;0;3
+LinkTool.toQuery( Map parameters );4;2;17
+LinkTool.isSecure( );1;0;3
+LinkTool.port( Object port );1;0;5
+LinkTool.setScheme( Object obj );4;3;18
+LinkTool.setAppendParams( boolean addParams );1;0;3
+LinkTool.set( Object key , Object value );1;0;5
+LinkTool.param( Object key , Object value );1;0;5
+LinkTool.getScheme( );1;0;3
+LinkTool.absolute( );2;1;9
+LinkTool.debug( String msg , Throwable t , Object ... args );3;2;6
+LinkTool.setFromURI( Object obj );6;4;39
+LinkTool.toString( );2;1;8
+LinkTool.getContextPath( );1;0;3
+LinkTool.setXHTML( boolean xhtml );2;0;3
+LinkTool.getDirectory( );4;4;12
+LinkTool.getUri( );2;1;7
+LinkTool.getSelf( );1;0;3
+LinkTool.setParams( Object obj , boolean append );7;5;26
+LinkTool.setQuery( Object obj );3;1;15
+LinkTool.getUser( );1;0;3
+LinkTool.getPort( );2;1;7
+LinkTool.root( );4;5;11
+LinkTool.isXHTML( );1;0;3
+LinkTool.getAnchor( );1;0;3
+LinkTool.handleParamsBoolean( boolean keep );2;1;6
+LinkTool.appendQuery( Object obj );2;1;6
+LinkTool.decode( Object obj );3;1;15
+LinkTool.insecure( );1;0;3
+LinkTool.duplicate( boolean deep );5;3;20
+LinkTool.getCharacterEncoding( );1;0;3
+LinkTool.host( Object host );3;3;9
+LinkTool.isAbsolute( );2;3;3

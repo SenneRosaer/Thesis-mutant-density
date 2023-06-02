@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketServerSockJsSession.getHandshakeHeaders( );1;1;4
+WebSocketServerSockJsSession.isActive( );3;4;3
+WebSocketServerSockJsSession.handleMessage( TextMessage message , WebSocketSession wsSession );4;2;18
+WebSocketServerSockJsSession.getAcceptedProtocol( );1;1;4
+WebSocketServerSockJsSession.initializeDelegateSession( WebSocketSession session );3;1;17
+WebSocketServerSockJsSession.getBinaryMessageSizeLimit( );1;1;4
+WebSocketServerSockJsSession.setTextMessageSizeLimit( int messageSizeLimit );1;1;4
+WebSocketServerSockJsSession.getTextMessageSizeLimit( );1;1;4
+WebSocketServerSockJsSession.WebSocketServerSockJsSession( String id , SockJsServiceConfig config , WebSocketHandler handler , @ Nullable Map < String , Object > attributes );1;0;3
+WebSocketServerSockJsSession.getRemoteAddress( );1;1;4
+WebSocketServerSockJsSession.getNativeSession( @ Nullable Class < T > requiredType );2;0;4
+WebSocketServerSockJsSession.getUri( );1;1;4
+WebSocketServerSockJsSession.getNativeSession( );2;1;5
+WebSocketServerSockJsSession.getPrincipal( );1;1;4
+WebSocketServerSockJsSession.sendMessageInternal( String message );3;2;13
+WebSocketServerSockJsSession.getLocalAddress( );1;1;4
+WebSocketServerSockJsSession.setBinaryMessageSizeLimit( int messageSizeLimit );1;1;4
+WebSocketServerSockJsSession.getExtensions( );1;1;4
+WebSocketServerSockJsSession.disconnect( CloseStatus status );4;1;12
+WebSocketServerSockJsSession.writeFrameInternal( SockJsFrame frame );2;1;8

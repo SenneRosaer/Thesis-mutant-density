@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ModuleDescriptorParserRegistry.addParser( ModuleDescriptorParser parser );1;0;3
+ModuleDescriptorParserRegistry.toIvyFile( InputStream is , Resource res , File destFile , ModuleDescriptor md );2;1;8
+ModuleDescriptorParserRegistry.ModuleDescriptorParserRegistry( );1;0;4
+ModuleDescriptorParserRegistry.getParser( Resource res );3;0;9
+ModuleDescriptorParserRegistry.parseDescriptor( ParserSettings settings , URL descriptorURL , Resource res , boolean validate );2;1;8
+ModuleDescriptorParserRegistry.accept( Resource res );1;1;3
+ModuleDescriptorParserRegistry.getInstance( );1;0;3
+ModuleDescriptorParserRegistry.getParsers( );1;0;4

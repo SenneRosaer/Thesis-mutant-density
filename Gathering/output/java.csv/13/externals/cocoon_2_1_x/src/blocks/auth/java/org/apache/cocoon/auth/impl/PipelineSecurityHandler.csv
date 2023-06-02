@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PipelineSecurityHandler.service( final ServiceManager aManager );1;0;4
+PipelineSecurityHandler.contextualize( final Context aContext );1;0;4
+PipelineSecurityHandler.login( final Map loginContext );7;7;43
+PipelineSHUser.getUserInfo( );1;0;3
+PipelineSHUser.addParametersFromAuthenticationXML( final String childElementName , final SourceParameters parameters );13;16;42
+PipelineSecurityHandler.logout( final Map logoutContext , final User user );3;1;15
+PipelineSHUser.calculateContextInfo( );4;4;20
+PipelineSHUser.PipelineSHUser( final Document info , final String id );1;0;5
+PipelineSecurityHandler.dispose( );2;1;7
+PipelineSecurityHandler.configure( final Configuration conf );1;0;4
+PipelineSecurityHandler.isValidAuthenticationDocument( final Document doc );12;11;33

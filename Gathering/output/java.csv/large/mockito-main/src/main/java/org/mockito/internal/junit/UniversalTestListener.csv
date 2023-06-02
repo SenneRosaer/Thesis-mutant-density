@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UniversalTestListener.setListenerDirty( );1;0;3
+UniversalTestListener.emitWarnings( MockitoLogger logger , TestFinishedEvent event , Collection < Object > mocks );2;1;11
+UniversalTestListener.UniversalTestListener( Strictness initialStrictness , MockitoLogger logger );1;0;5
+UniversalTestListener.reportUnusedStubs( TestFinishedEvent event , Collection < Object > mocks );3;3;6
+UniversalTestListener.onMockCreated( Object mock , MockCreationSettings settings );1;0;4
+UniversalTestListener.isListenerDirty( );1;0;3
+UniversalTestListener.setStrictness( Strictness strictness );1;0;4
+UniversalTestListener.testFinished( TestFinishedEvent event );4;0;16

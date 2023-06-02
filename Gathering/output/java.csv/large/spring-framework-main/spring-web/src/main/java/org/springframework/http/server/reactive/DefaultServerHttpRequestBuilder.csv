@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MutatedServerHttpRequest.initSslInfo( );1;0;3
+MutatedServerHttpRequest.getMethod( );1;0;3
+DefaultServerHttpRequestBuilder.path( String path );1;0;5
+MutatedServerHttpRequest.getLocalAddress( );1;0;3
+DefaultServerHttpRequestBuilder.build( );1;0;4
+DefaultServerHttpRequestBuilder.headers( Consumer < HttpHeaders > headersConsumer );1;0;5
+MutatedServerHttpRequest.MutatedServerHttpRequest( URI uri , @ Nullable String contextPath , HttpMethod method , @ Nullable SslInfo sslInfo , @ Nullable InetSocketAddress remoteAddress , HttpHeaders headers , Flux < DataBuffer > body , ServerHttpRequest originalRequest );3;2;8
+DefaultServerHttpRequestBuilder.header( String headerName , String ... headerValues );1;0;4
+DefaultServerHttpRequestBuilder.remoteAddress( InetSocketAddress remoteAddress );1;0;4
+MutatedServerHttpRequest.getId( );1;0;3
+DefaultServerHttpRequestBuilder.sslInfo( SslInfo sslInfo );1;0;4
+DefaultServerHttpRequestBuilder.getUriToUse( );12;11;36
+DefaultServerHttpRequestBuilder.method( HttpMethod httpMethod );1;0;5
+MutatedServerHttpRequest.getBody( );1;0;3
+DefaultServerHttpRequestBuilder.contextPath( String contextPath );1;0;4
+MutatedServerHttpRequest.initCookies( );1;0;3
+MutatedServerHttpRequest.getRemoteAddress( );1;0;3
+DefaultServerHttpRequestBuilder.uri( URI uri );1;0;4
+DefaultServerHttpRequestBuilder.DefaultServerHttpRequestBuilder( ServerHttpRequest original );1;0;10
+MutatedServerHttpRequest.getNativeRequest( );1;0;3

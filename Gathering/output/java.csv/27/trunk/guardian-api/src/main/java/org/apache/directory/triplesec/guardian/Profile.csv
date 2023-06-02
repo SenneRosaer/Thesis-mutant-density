@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Profile.getUserName( );1;0;3
+Profile.equals( Object that );4;2;13
+Profile.compareTo( Object that );2;1;9
+Profile.getApplicationName( );1;0;3
+Profile.getProfileId( );1;0;3
+Profile.hasPermission( String permissionName );1;1;3
+Profile.Profile( ApplicationPolicy store , String profileId , String userName , Roles roles , Permissions grants , Permissions denials , String description , boolean disabled );14;12;70
+Profile.getGrants( );1;0;3
+Profile.hashCode( );1;1;3
+Profile.checkPermission( String permissionName );1;0;7
+Profile.checkPermission( Permission permission );1;0;7
+Profile.getDenials( );1;0;3
+Profile.Profile( ApplicationPolicy store , String profileId , String userName , Roles roles , Permissions grants , Permissions denials , boolean disabled );1;0;3
+Profile.clone( );2;0;10
+Profile.getEffectivePermissions( );1;0;3
+Profile.isInRole( String roleName );1;0;3
+Profile.getRoles( );1;0;3
+Profile.checkPermission( Permission permission , String message );3;2;10
+Profile.getDescription( );1;0;3
+Profile.hasPermission( Permission permission );1;0;3
+Profile.isDisabled( );1;0;3
+Profile.checkPermission( String permissionName , String message );3;2;10
+Profile.toString( );1;0;3

@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleHandler.SimpleHandler( );1;0;3
+TestHandlerMapping.TestHandlerMapping( @ Nullable PathPatternParser parser );2;1;7
+CorsAbstractHandlerMappingTests.preflightRequestWithoutCorsConfig( TestHandlerMapping mapping );1;0;7
+CorsAbstractHandlerMappingTests.getCorsRequest( String requestURI );1;0;3
+CorsAbstractHandlerMappingTests.actualRequestWithCorsConfigSource( TestHandlerMapping mapping );1;0;11
+CorsAbstractHandlerMappingTests.actualRequestWithMappedPatternCorsConfiguration( TestHandlerMapping mapping );1;0;10
+CorsAbstractHandlerMappingTests.preflightRequestWithMappedCorsConfig( TestHandlerMapping mapping );1;0;10
+TestHandlerMapping.getCorsHandlerExecutionChain( HttpServletRequest request , HandlerExecutionChain chain , @ Nullable CorsConfiguration config );1;0;4
+CorsAbstractHandlerMappingTests.createCorsRequest( HttpMethod method , String requestURI );1;0;7
+CorsAbstractHandlerMappingTests.preflightRequestWithCorsConfigSource( TestHandlerMapping mapping );1;0;12
+CorsAbstractHandlerMappingTests.pathPatternsArguments( );1;0;3
+CorsAbstractHandlerMappingTests.getPreFlightRequest( String requestURI );1;0;3
+TestHandlerMapping.getHandlerInternal( HttpServletRequest request );3;0;10
+CorsAbstractHandlerMappingTests.actualRequestWithoutCorsConfig( TestHandlerMapping mapping );1;0;6
+TestHandlerMapping.getRequiredCorsConfig( );1;0;4
+CorsAwareHandler.getCorsConfiguration( HttpServletRequest request );1;0;5
+CustomCorsConfigurationSource.getCorsConfiguration( HttpServletRequest request );1;0;6
+CorsAbstractHandlerMappingTests.actualRequestWithMappedCorsConfig( TestHandlerMapping mapping );1;0;9
+TestHandlerMapping.initLookupPath( HttpServletRequest request );2;1;7
+TestHandlerMapping.hasSavedCorsConfig( );1;1;3
+CorsAbstractHandlerMappingTests.preflightRequestWithCorsConfigProvider( TestHandlerMapping mapping );1;0;7
+CorsAbstractHandlerMappingTests.actualRequestWithCorsConfigProvider( TestHandlerMapping mapping );1;0;6
+SimpleHandler.handleRequest( HttpServletRequest request , HttpServletResponse response );1;0;3
+CorsAbstractHandlerMappingTests.actualRequestWithCorsConfigProviderForHandlerChain( TestHandlerMapping mapping );1;0;6
+TestHandlerMapping.TestHandlerMapping( );1;0;3

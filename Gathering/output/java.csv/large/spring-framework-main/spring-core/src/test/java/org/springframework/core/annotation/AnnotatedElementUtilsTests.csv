@@ -1,0 +1,100 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AnnotatedElementUtilsTests.getMergedAnnotationAttributesWithImplicitAliasesInMetaAnnotationOnComposedAnnotation( );2;0;12
+AnnotatedElementUtilsTests.getMergedAnnotationAttributesOnClassWithLocalAnnotation( );2;0;8
+AnnotatedElementUtilsTests.hasAnnotationOnClassWithMetaDepth( );1;0;9
+AnnotatedElementUtilsTests.assertGetMergedAnnotation( Class < ? > element , String ... expected );2;0;10
+AbstractClassWithInheritedAnnotation.handleParameterized( T t );1;0;2
+AnnotatedElementUtilsTests.getMergedAnnotationAttributesFavorsLocalComposedAnnotationOverInheritedAnnotation( );2;0;8
+AnnotatedElementUtilsTests.getMergedAnnotationAttributesWithAliasedComposedAnnotation( );2;0;9
+AnnotatedElementUtilsTests.findMergedAnnotationForMultipleMetaAnnotationsWithClashingAttributeNames( );2;0;16
+ConcreteClassWithInheritedAnnotation.handleParameterized( String s );1;0;2
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesOnSubInheritedAnnotationInterface( );1;0;4
+AnnotatedElementUtilsTests.getMergedAnnotationAttributesFromInterfaceImplementedBySuperclass( );2;0;7
+AnnotatedElementUtilsTests.isAnnotatedOnNonAnnotatedClass( );1;0;3
+ConventionBasedAnnotationAttributeOverrideTests.getMergedAnnotationAttributesWithHalfConventionBasedAndHalfAliasedComposedAnnotation( );3;0;6
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesOnSubSubInheritedAnnotationInterface( );1;0;4
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesInheritedFromAbstractMethod( );1;0;5
+AnnotatedElementUtilsTests.getMergedAnnotationWithTransitiveImplicitAliasesWithSkippedLevelWithSingleElementOverridingAnArrayViaAliasFor( );1;0;3
+ConventionBasedAnnotationAttributeOverrideTests.getMergedAnnotationAttributesWithConventionBasedComposedAnnotation( );2;0;9
+ConventionBasedAnnotationAttributeOverrideTests.findMergedAnnotationWithLocalAliasesThatConflictWithAttributesInMetaAnnotationByConvention( );2;0;8
+AnnotatedElementUtilsTests.getMergedAnnotationWithImplicitAliasesForSameAttributeInComposedAnnotation( );1;0;5
+AnnotatedElementUtilsTests.getMergedAnnotationAttributesOnNonInheritedAnnotationInterface( );2;0;7
+AnnotatedElementUtilsTests.isAnnotatedWithNameOnNonAnnotatedClass( );1;0;3
+AnnotatedElementUtilsTests.getAllAnnotationAttributesFavorsInheritedComposedAnnotationsOverMoreLocallyDeclaredComposedAnnotations( );1;0;5
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesFromBridgeMethod( );7;7;20
+AnnotatedElementUtilsTests.hasMetaAnnotationTypesOnClassWithMetaDepth0( );1;0;3
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesOnMethodWithComposedMetaTransactionalAnnotation( );1;0;7
+AnnotatedElementUtilsTests.getMergedAnnotationWithTransitiveImplicitAliasesWithSingleElementOverridingAnArrayViaAliasFor( );1;0;3
+AnnotatedElementUtilsTests.findAndSynthesizeAnnotationAttributesOnClassWithAttributeAliasesInTargetAnnotation( );1;0;13
+AnnotatedElementUtilsTests.javaxAnnotationTypeViaFindMergedAnnotation( );1;0;4
+AnnotatedElementUtilsTests.javaxMetaAnnotationTypeViaFindMergedAnnotation( );1;0;4
+AnnotatedElementUtilsTests.getAllAnnotationAttributesFavorsInheritedAnnotationsOverMoreLocallyDeclaredComposedAnnotations( );1;0;5
+AnnotatedElementUtilsTests.findMethodAnnotationFromGenericInterface( );1;0;5
+AnnotatedElementUtilsTests.composedTransactionalMethod( );1;0;2
+AnnotatedElementUtilsTests.getMergedRepeatableAnnotationsWithContainerWithMultipleAttributes( );1;0;8
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesInheritedFromInterfaceMethod( );1;0;5
+AnnotatedElementUtilsTests.findMethodAnnotationFromGenericSuperclass( );1;0;5
+AnnotatedElementUtilsTests.getMergedAnnotationOnThreeDeepMetaWithValue( );1;0;5
+AnnotatedElementUtilsTests.getAllAnnotationAttributesOnLangType( );1;0;6
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesOnNonInheritedAnnotationInterface( );1;0;4
+ConventionBasedAnnotationAttributeOverrideTests.findMergedAnnotationAttributesWithSingleElementOverridingAnArrayViaConvention( );1;0;3
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesOnInheritedAnnotationInterface( );1;0;4
+AnnotatedElementUtilsTests.getMergedAnnotationAttributesWithShadowedAliasComposedAnnotation( );2;0;8
+AnnotatedElementUtilsTests.getMetaAnnotationTypesOnClassWithMetaDepth1( );1;0;6
+TransactionalServiceImpl.doIt( );1;0;3
+AnnotatedElementUtilsTests.assertComponentScanAttributes( Class < ? > element , String ... expected );1;0;7
+ConventionBasedAnnotationAttributeOverrideTests.getMergedAnnotationAttributesWithHalfConventionBasedAndHalfAliasedComposedAnnotation( Class < ? > clazz );1;0;11
+StringGenericParameter.getFor( Integer integer );1;0;3
+AnnotatedElementUtilsTests.getAllAnnotationAttributesOnJavaxType( );1;0;6
+AnnotatedElementUtilsTests.getMergedAnnotationAttributesFavorsInheritedAnnotationsOverMoreLocallyDeclaredComposedAnnotations( );2;0;8
+AnnotatedElementUtilsTests.findMergedAnnotationAttributes( AnnotatedElement element , Class < ? extends Annotation > annotationType );1;0;3
+AnnotatedElementUtilsTests.getAllAnnotationAttributesOnClassWithLocalComposedAnnotationAndInheritedAnnotation( );1;0;5
+AnnotatedElementUtilsTests.findMergedAnnotationWithAttributeAliasesInTargetAnnotation( );2;0;7
+AnnotatedElementUtilsTests.getAllMergedAnnotationsOnClassWithInterface( );1;0;5
+AnnotatedElementUtilsTests.assertWebMapping( AnnotatedElement element );1;0;6
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesOnClassWithMetaAndLocalTxConfig( );1;0;5
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesOnClassWithAttributeAliasInComposedAnnotationAndNestedAnnotationsInTargetAnnotation( );1;0;7
+AnnotatedElementUtilsTests.getMergedAnnotationAttributesOnMetaCycleAnnotatedClassWithMissingTargetMetaAnnotation( );1;0;4
+AnnotatedElementUtilsTests.hasMetaAnnotationTypesOnClassWithMetaDepth1( );1;0;4
+AnnotatedElementUtilsTests.getMergedAnnotationAttributesWithAliasedValueComposedAnnotation( );2;0;9
+ConcreteClassWithInheritedAnnotation.handleFromInterface( );1;0;2
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesInheritedFromBridgedMethod( );1;0;5
+AnnotatedElementUtilsTests.getAllAnnotationAttributesOnNonAnnotatedClass( );1;0;3
+AnnotatedElementUtilsTests.forAnnotationsCreatesCopyOfArrayOnEachCall( );1;0;6
+AnnotatedElementUtilsTests.getMergedAnnotationWithTransitiveImplicitAliases( );1;0;3
+AnnotatedElementUtilsTests.getAllAnnotationAttributesOnClassWithLocalAnnotationThatShadowsAnnotationFromSuperclass( );1;0;5
+AnnotatedElementUtilsTests.getMetaAnnotationTypesOnClassWithMetaDepth2( );1;0;6
+AnnotatedElementUtilsTests.getMergedAnnotationWithAliasedValueComposedAnnotation( );1;0;3
+AnnotatedElementUtilsTests.getMergedAnnotationAttributesOnClassWithLocalAnnotationThatShadowsAnnotationFromSuperclass( );2;0;8
+ConcreteClassWithInheritedAnnotation.handle( );1;0;2
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesOnSubNonInheritedAnnotationInterface( );1;0;4
+AnnotatedElementUtilsTests.isAnnotatedForPlainTypes( );1;0;6
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesOnClassWithComposedMetaTransactionalAnnotation( );2;0;7
+AnnotatedElementUtilsTests.getMergedAnnotationAttributesFavorsInheritedComposedAnnotationsOverMoreLocallyDeclaredComposedAnnotations( );2;0;8
+AnnotatedElementUtilsTests.isAnnotatedOnClassWithMetaDepth( );1;0;9
+AnnotatedElementUtilsTests.findMergedRepeatableAnnotationsWithContainerWithMultipleAttributes( );1;0;8
+AnnotatedElementUtilsTests.getMergedAnnotationAttributesOnInheritedAnnotationInterface( );2;0;7
+AnnotatedElementUtilsTests.findMergedAnnotationOnClassWithComposedMetaTransactionalAnnotation( );2;0;7
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesOnClassWithBothAttributesOfAnAliasPairDeclared( );1;0;3
+AnnotatedElementUtilsTests.hasMetaAnnotationTypesOnNonAnnotatedClass( );1;0;3
+AnnotatedElementUtilsTests.findMergedAnnotationWithSingleElementOverridingAnArrayViaAliasFor( );1;0;4
+AnnotatedElementUtilsTests.getMetaAnnotationTypesOnNonAnnotatedClass( );1;0;4
+AnnotatedElementUtilsTests.names( Class < ? > ... classes );1;0;3
+AnnotatedElementUtilsTests.getMergedAnnotationWithTransitiveImplicitAliasesWithSkippedLevel( );1;0;3
+AnnotatedElementUtilsTests.javaLangAnnotationTypeViaFindMergedAnnotation( );2;0;5
+AnnotatedElementUtilsTests.nullableAnnotationTypeViaFindMergedAnnotation( );1;0;4
+AnnotatedElementUtilsTests.hasMetaAnnotationTypesOnClassWithMetaDepth2( );1;0;5
+AnnotatedElementUtilsTests.findMergedAnnotationOnMethodWithComposedMetaTransactionalAnnotation( );1;0;7
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesWithSingleElementOverridingAnArrayViaAliasFor( );1;0;3
+AnnotatedElementUtilsTests.findMergedAnnotationAttributesOnSubSubNonInheritedAnnotationInterface( );1;0;4
+ConventionBasedAnnotationAttributeOverrideTests.findMergedAnnotationWithSingleElementOverridingAnArrayViaConvention( );1;0;3
+AnnotatedElementUtilsTests.getMergedAnnotationWithImplicitAliasesInMetaAnnotationOnComposedAnnotation( );2;0;12
+AnnotatedElementUtilsTests.getAllAnnotationAttributesOnClassWithMultipleComposedAnnotations( );1;0;5
+AnnotatedElementUtilsTests.hasAnnotationForPlainTypes( );1;0;6
+StringGenericParameter.getFor( Class < String > cls );1;0;3
+ConventionBasedAnnotationAttributeOverrideTests.getMergedAnnotationAttributesWithInvalidConventionBasedComposedAnnotation( );2;0;8
+AnnotatedElementUtilsTests.hasAnnotationOnNonAnnotatedClass( );1;0;3
+AnnotatedElementUtilsTests.getMergedAnnotationWithImplicitAliasesWithDefaultsInMetaAnnotationOnComposedAnnotation( );2;0;9
+AnnotatedElementUtilsTests.getAllAnnotationAttributesOnClassWithLocalAnnotation( );1;0;5
+AnnotatedElementUtilsTests.findAllMergedAnnotationsOnClassWithInterface( );1;0;5
+AnnotatedElementUtilsTests.isAnnotatedWithNameOnClassWithMetaDepth( );1;0;9

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebDAVRequestMethod.WebDAVRequestMethod( String uri , String name );1;0;4
+WebDAVTransformer.dispose( );1;0;4
+WebDAVTransformer.getKey( );4;2;16
+WebDAVTransformer.makeWebdavEventValidity( HttpURL methodurl );5;1;15
+WebDAVTransformer.setup( SourceResolver resolver , Map objectModel , String src , Parameters par );4;2;17
+WebDAVTransformer.recycle( );1;0;7
+WebDAVTransformer.startElement( String uri , String name , String raw , Attributes atts );12;8;35
+WebDAVTransformer.endElement( String uri , String name , String raw );16;7;52
+WebDAVTransformer.WebDAVTransformer( );1;0;3
+WebDAVTransformer.getValidity( );3;2;9
+WebDAVRequestMethod.getName( );1;0;3
+WebDAVTransformer.executeRequest( WebDAVRequestMethod method );10;16;59

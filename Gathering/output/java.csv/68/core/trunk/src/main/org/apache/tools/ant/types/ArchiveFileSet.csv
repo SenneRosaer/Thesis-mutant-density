@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ArchiveFileSet.ArchiveFileSet( ArchiveFileSet fileset );1;0;12
+ArchiveFileSet.getDirMode( Project p );2;0;7
+ArchiveFileSet.setFullpath( String fullpath );3;3;7
+ArchiveFileSet.getDirectoryScanner( Project p );6;3;24
+***not in a method***;0;2;0
+ArchiveFileSet.iterator( );3;1;10
+ArchiveFileSet.getFullpath( Project p );2;0;7
+ArchiveFileSet.getSrc( Project p );2;0;6
+ArchiveFileSet.setDir( File dir );2;1;8
+ArchiveFileSet.getPrefix( );1;0;3
+ArchiveFileSet.setFileMode( String octalString );1;0;4
+ArchiveFileSet.clone( );2;0;6
+ArchiveFileSet.hasDirModeBeenSet( );2;0;7
+ArchiveFileSet.size( );3;1;10
+ArchiveFileSet.dieOnCircularReference( Stack stk , Project p );4;2;12
+ArchiveFileSet.getFileMode( );1;0;3
+ArchiveFileSet.integerSetFileMode( int mode );1;1;4
+ArchiveFileSet.setErrorOnMissingArchive( boolean errorOnMissingArchive );1;0;4
+ArchiveFileSet.getDirMode( );1;0;3
+ArchiveFileSet.hasFileModeBeenSet( );2;0;7
+ArchiveFileSet.setPrefix( String prefix );3;3;7
+ArchiveFileSet.getFullpath( );1;0;3
+ArchiveFileSet.setSrc( File srcFile );1;0;3
+ArchiveFileSet.getFileMode( Project p );2;0;7
+ArchiveFileSet.getPrefix( Project p );2;0;7
+ArchiveFileSet.isFilesystemOnly( );2;1;7
+ArchiveFileSet.getSrc( );4;2;13
+ArchiveFileSet.addConfigured( ResourceCollection a );2;1;8
+ArchiveFileSet.ArchiveFileSet( FileSet fileset );1;0;3
+ArchiveFileSet.ArchiveFileSet( );1;0;3
+ArchiveFileSet.toString( );4;3;6
+ArchiveFileSet.checkArchiveAttributesAllowed( );4;3;9
+ArchiveFileSet.integerSetDirMode( int mode );1;1;4
+ArchiveFileSet.setSrcResource( Resource src );2;0;8
+ArchiveFileSet.setDirMode( String octalString );1;0;4
+ArchiveFileSet.configureFileSet( ArchiveFileSet zfs );1;0;8

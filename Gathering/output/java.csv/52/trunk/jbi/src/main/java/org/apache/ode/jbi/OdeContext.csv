@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OdeContext.activateEndpoint( QName pid , Endpoint endpoint );8;2;39
+OdeContext.getTransactionManager( );1;0;3
+OdeContext.getContext( );1;0;3
+OdeContext.getService( QName serviceName );3;0;7
+OdeContext.registerMapper( Mapper mapper );1;0;4
+OdeContext.getInstance( );2;1;8
+OdeContext.addEndpointDoc( QName svcname , Document df );1;0;3
+OdeContext.deactivatePMAPIs( );5;2;16
+OdeContext.deactivateEndpoint( Endpoint endpoint );2;1;6
+OdeContext.setContext( ComponentContext ctx );1;0;3
+OdeContext.getChannel( );3;1;11
+OdeContext.getService( Endpoint endpoint );1;0;3
+OdeContext.getServiceDescription( QName svcName );1;0;3
+OdeContext.getDefaultMapper( );1;0;3
+OdeContext.activatePMAPIs( );1;0;9
+OdeContext.getMapper( String name );1;0;3
+OdeContext.findMapper( NormalizedMessage nmsMsg , Operation op );7;2;21

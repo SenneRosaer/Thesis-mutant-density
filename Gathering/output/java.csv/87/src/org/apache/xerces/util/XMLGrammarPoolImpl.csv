@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLGrammarPoolImpl.XMLGrammarPoolImpl( int initialCapacity );1;0;4
+XMLGrammarPoolImpl.lockPool( );1;0;3
+XMLGrammarPoolImpl.retrieveInitialGrammarSet( String grammarType );4;4;17
+Entry.Entry( int hash , XMLGrammarDescription desc , Grammar grammar , Entry next );1;0;6
+XMLGrammarPoolImpl.clear( );3;3;9
+XMLGrammarPoolImpl.XMLGrammarPoolImpl( );1;0;4
+XMLGrammarPoolImpl.unlockPool( );1;0;3
+XMLGrammarPoolImpl.cacheGrammars( String grammarType , Grammar [ ] grammars );4;4;11
+XMLGrammarPoolImpl.removeGrammar( XMLGrammarDescription desc );5;7;21
+XMLGrammarPoolImpl.getGrammar( XMLGrammarDescription desc );4;5;12
+Entry.clear( );2;1;8
+XMLGrammarPoolImpl.hashCode( XMLGrammarDescription desc );1;0;3
+XMLGrammarPoolImpl.equals( XMLGrammarDescription desc1 , XMLGrammarDescription desc2 );1;0;3
+XMLGrammarPoolImpl.putGrammar( Grammar grammar );5;7;18
+XMLGrammarPoolImpl.containsGrammar( XMLGrammarDescription desc );4;5;12
+XMLGrammarPoolImpl.retrieveGrammar( XMLGrammarDescription desc );2;0;6

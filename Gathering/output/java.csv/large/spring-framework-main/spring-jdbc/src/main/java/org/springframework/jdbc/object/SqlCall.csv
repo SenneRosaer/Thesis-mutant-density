@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SqlCall.setFunction( boolean function );1;0;3
+SqlCall.setSqlReadyForUse( boolean sqlReadyForUse );1;0;3
+SqlCall.isFunction( );1;0;3
+SqlCall.SqlCall( DataSource ds , String sql );1;0;4
+SqlCall.compileInternal( );8;5;37
+SqlCall.newCallableStatementCreator( @ Nullable Map < String , ? > inParams );1;1;4
+SqlCall.isSqlReadyForUse( );1;0;3
+SqlCall.newCallableStatementCreator( ParameterMapper inParamMapper );1;1;4
+SqlCall.getCallString( );1;0;3
+SqlCall.SqlCall( );1;0;2
+SqlCall.onCompileInternal( );1;0;2

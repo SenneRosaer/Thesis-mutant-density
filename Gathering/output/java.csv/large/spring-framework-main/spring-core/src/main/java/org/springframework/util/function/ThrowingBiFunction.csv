@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+apply( T t , U u );1;0;3
+applyWithException( T t , U u );1;0;3
+of( ThrowingBiFunction < T , U , R > function );1;0;3
+throwing( BiFunction < String , Exception , RuntimeException > exceptionWrapper );1;0;12
+apply( T t , U u , BiFunction < String , Exception , RuntimeException > exceptionWrapper );3;0;11
+of( ThrowingBiFunction < T , U , R > function , BiFunction < String , Exception , RuntimeException > exceptionWrapper );1;0;3

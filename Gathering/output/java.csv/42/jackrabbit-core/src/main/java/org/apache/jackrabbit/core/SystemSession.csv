@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SystemAccessManager.checkPrivileges( String absPath , int privileges );1;0;2
+SystemAccessManager.checkPermission( ItemId id , int permissions );1;0;2
+SystemAccessManager.getPrivileges( String absPath );1;0;4
+SystemSession.retrieveUserId( Subject subject );1;0;3
+SystemSession.createAccessManager( Subject subject , HierarchyManager hierMgr );1;0;3
+SystemAccessManager.canAccess( String workspaceName );1;0;3
+SystemAccessManager.init( AMContext context );1;0;2
+SystemAccessManager.canRead( Path itemPath );1;0;3
+SystemAccessManager.hasPrivileges( String absPath , Privilege [ ] privileges );1;0;4
+SystemAccessManager.checkValidNodePath( String absPath );3;2;9
+SystemAccessManager.SystemAccessManager( );1;0;3
+SystemAccessManager.isGranted( Path parentPath , Name childName , int permissions );1;0;3
+SystemAccessManager.getEffectivePolicies( String absPath );1;0;3
+SystemAccessManager.close( );1;0;2
+SystemAccessManager.isGranted( ItemId id , int permissions );1;0;3
+SystemAccessManager.checkInitialized( );1;0;2
+SystemSession.SystemSession( RepositoryImpl rep , Subject subject , WorkspaceConfig wspConfig );1;0;3
+SystemAccessManager.getPrivilegeRegistry( );1;0;3
+SystemAccessManager.init( AMContext context , AccessControlProvider acProvider , WorkspaceAccessManager wspAccessMgr );1;0;2
+SystemAccessManager.isGranted( Path absPath , int permissions );1;0;3
+SystemSession.create( RepositoryImpl rep , WorkspaceConfig wspConfig );1;0;8

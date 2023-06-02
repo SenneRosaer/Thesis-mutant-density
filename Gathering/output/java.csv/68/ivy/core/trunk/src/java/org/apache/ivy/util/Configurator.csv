@@ -1,0 +1,71 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Configurator.addConfiguredMacrodef( MacroDef macrodef );1;0;3
+Configurator.addChild( String name , Object child );4;0;17
+ObjectDescriptor.addAddMethod( String name , Method m );1;0;3
+MacroDef.addConfiguredAttribute( Attribute att );1;0;3
+Configurator.endMacroDef( );1;0;4
+Configurator.clear( );1;0;3
+ObjectDescriptor.getTypeMatchingMethod( Class type , Map typeMethods );4;1;13
+ObjectDescriptor.getObject( );1;0;3
+Attribute.getDefault( );1;0;3
+MacroRecord.MacroRecord( String name );1;0;3
+Macro.play( Configurator conf );1;0;3
+Element.isOptional( );1;0;3
+ObjectDescriptor.getAddMethod( Class type );1;0;3
+Configurator.getCurrent( );2;0;3
+MacroDef.replaceParam( String string , Map attValues );1;0;3
+ObjectDescriptor.getAddMethod( String name );1;0;3
+Configurator.addText( String text );3;0;15
+Configurator.setAttribute( String attributeName , String value );22;8;62
+Configurator.typeDef( String name , Class clazz );1;0;3
+MacroDef.addElement( String elementName , boolean optional );1;0;6
+MacroRecord.getObject( );1;0;3
+Configurator.addChild( ObjectDescriptor parentOD , Class childClass , String name , Object child );7;5;32
+Configurator.setRoot( Object root );2;1;7
+MacroDef.createMacro( );1;0;3
+MacroRecord.getChildren( );1;0;3
+Configurator.setCurrent( Object object , String name );1;0;3
+MacroDef.MacroDef( String macroName );1;0;3
+ObjectDescriptor.addSetMethod( String name , Method m );3;3;7
+Attribute.setDefault( String default1 );1;0;3
+Macro.defineAttribute( String attributeName , String value );2;1;7
+MacroDef.getAttribute( String attributeName );1;0;3
+Element.setName( String name );1;0;3
+ObjectDescriptor.getCreateMethod( String name );1;0;3
+Element.setOptional( boolean optional );1;0;3
+MacroRecord.getAttributes( );1;0;3
+ObjectDescriptor.getAddConfiguredMethod( Class type );1;0;3
+ObjectDescriptor.ObjectDescriptor( Object object , String objName );19;21;42
+MacroDef.recordCreateChild( String name );1;0;4
+Configurator.addMacroElement( String elementName , boolean optional );1;0;3
+Macro.recordCreateChild( String name );2;1;10
+MacroDef.getName( );1;0;3
+Element.getName( );1;0;3
+MacroDef.play( Configurator conf , Map attValues , Map macroRecords );4;2;15
+Configurator.startCreateChild( String name );15;9;74
+ObjectDescriptor.getObjectName( );1;0;3
+ObjectDescriptor.addAddConfiguredMethod( Method m );1;0;3
+ObjectDescriptor.getSetMethod( String name );1;0;3
+ObjectDescriptor.addAddMethod( Method m );1;0;3
+Configurator.isTopLevelMacroRecord( );2;0;7
+ObjectDescriptor.addAddConfiguredMethod( String name , Method m );1;0;3
+ObjectDescriptor.addCreateMethod( String name , Method m );1;0;3
+MacroRecord.recordChild( String name );1;0;5
+MacroRecord.recordAttribute( String name , String value );1;0;3
+MacroRecord.recordChild( String name , Object object );1;0;5
+Macro.Macro( MacroDef def );1;0;3
+Configurator.setFileResolver( FileResolver fileResolver );1;0;4
+Configurator.getFileResolver( );1;0;3
+ObjectDescriptor.getAddConfiguredMethod( String name );1;0;3
+Attribute.setName( String name );1;0;3
+Configurator.endCreateChild( );7;2;35
+Configurator.getTypeDef( String name );1;0;3
+Configurator.getDepth( );1;0;3
+MacroDef.addAttribute( String attName , String attDefaultValue );1;0;6
+Configurator.startMacroDef( String macroName );1;0;5
+MacroDef.addConfiguredElement( Element elt );1;0;3
+Configurator.addMacroAttribute( String attName , String attDefaultValue );1;0;3
+Attribute.getName( );1;0;3
+Configurator.typeDef( String name , String className );1;0;3
+MacroRecord.getName( );1;0;3
+MacroDef.play( Configurator conf , MacroRecord macroRecord , Map attValues , Map childrenRecords );9;4;37

@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SchemaCopy.copyAll( Map uriMap , boolean stdout );5;0;19
+SchemaCopy.findAllRelative( URI source , URI target );4;1;21
+SchemaCopy.putMappingsFromWsdl( Map result , URI source , URI target , DefinitionsDocument . Definitions wdoc );4;6;12
+SchemaCopy.findRelativeInOne( URI source , URI target );4;0;19
+SchemaCopy.putNewMapping( Map result , URI origSource , URI origTarget , String literalURI );4;1;16
+SchemaCopy.putMappingsFromSchema( Map result , URI source , URI target , SchemaDocument . Schema schema );3;4;8
+SchemaCopy.printUsage( );1;0;7
+SchemaCopy.main( String [ ] args );12;9;67

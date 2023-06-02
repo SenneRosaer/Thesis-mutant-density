@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RepositoryStartupServlet.registerJNDI( );4;1;13
+RepositoryStartupServlet.configure( );12;9;49
+RepositoryStartupServlet.getRMIServerSocketFactory( final InetAddress hostAddress );1;0;7
+RepositoryStartupServlet.createRepository( InputSource is , File homedir );1;0;4
+RepositoryStartupServlet.restart( );2;1;6
+RepositoryStartupServlet.getRepositoryFactory( );2;0;12
+RepositoryStartupServlet.registerRMI( );13;6;64
+RepositoryStartupServlet.unregisterJNDI( );3;1;9
+RepositoryStartupServlet.getRepository( );1;1;3
+RepositoryStartupServlet.doGet( HttpServletRequest req , HttpServletResponse resp );2;1;7
+RepositoryStartupServlet.getRemoteFactoryDelegaterClass( );1;0;3
+RepositoryStartupServlet.createServerSocket( int port );1;1;3
+RepositoryStartupServlet.doPost( HttpServletRequest req , HttpServletResponse resp );11;2;33
+RepositoryStartupServlet.shutdown( );2;1;11
+RepositoryStartupServlet.destroy( );1;0;4
+RepositoryStartupServlet.shutdownRepository( );2;0;6
+RepositoryStartupServlet.startup( );3;1;17
+RepositoryStartupServlet.init( );2;1;8
+RMIRemoteFactoryDelegater.createRemoteRepository( Repository repository );1;0;3
+RepositoryStartupServlet.unregisterRMI( );3;1;10
+RepositoryStartupServlet.initRepository( );6;1;28
+RepositoryStartupServlet.getInstance( ServletContext context );1;0;3
+RepositoryStartupServlet.redirect( HttpServletRequest req , HttpServletResponse resp , String loc );3;3;7

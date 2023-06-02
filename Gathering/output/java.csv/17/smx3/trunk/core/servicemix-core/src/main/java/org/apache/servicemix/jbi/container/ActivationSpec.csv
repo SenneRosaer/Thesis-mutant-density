@@ -1,0 +1,43 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ActivationSpec.setOperation( QName operation );1;0;3
+ActivationSpec.getOperation( );1;0;3
+ActivationSpec.setMarshaler( PojoMarshaler marshaler );1;0;3
+ActivationSpec.setDestinationResolver( EndpointResolver destinationResolver );1;0;3
+ActivationSpec.setPersistent( Boolean persistent );1;0;3
+ActivationSpec.setDestinationUri( String destinationUri );1;0;3
+ActivationSpec.getService( );1;0;3
+ActivationSpec.ActivationSpec( Object component );1;0;3
+ActivationSpec.getPersistent( );1;0;3
+ActivationSpec.getSubscriptions( );1;0;3
+ActivationSpec.setDestinationEndpoint( String destinationEndpoint );1;0;3
+ActivationSpec.getDestinationEndpoint( );1;0;3
+ActivationSpec.createEndpointResolver( );5;4;14
+ActivationSpec.getDestinationService( );1;0;3
+ActivationSpec.getServiceChooser( );1;0;3
+ActivationSpec.getDestinationUri( );1;0;3
+ActivationSpec.getInterfaceName( );1;0;3
+ActivationSpec.getInterfaceChooser( );1;0;3
+ActivationSpec.setId( String id );1;0;3
+ActivationSpec.ActivationSpec( String id , Object component );1;0;4
+ActivationSpec.setComponent( Object component );1;0;3
+ActivationSpec.setInterfaceName( QName interfaceName );1;0;3
+ActivationSpec.setEndpoint( String endpoint );1;0;3
+ActivationSpec.getId( );1;0;3
+ActivationSpec.setServiceChooser( EndpointChooser serviceChooser );1;0;3
+ActivationSpec.setFailIfNoDestinationEndpoint( boolean failIfNoDestinationEndpoint );1;0;3
+ActivationSpec.getComponent( );1;0;3
+ActivationSpec.setInterfaceChooser( EndpointChooser interfaceChooser );1;0;3
+ActivationSpec.setDestinationInterface( QName destinationInterface );1;0;3
+ActivationSpec.setDestinationService( QName destinationService );1;0;3
+ActivationSpec.getMarshaler( );1;0;3
+ActivationSpec.ActivationSpec( );1;0;2
+ActivationSpec.getComponentName( );1;0;3
+ActivationSpec.getDestinationInterface( );1;0;3
+ActivationSpec.setComponentName( String componentName );1;0;3
+ActivationSpec.isFailIfNoDestinationEndpoint( );1;0;3
+ActivationSpec.getDestinationResolver( );2;1;6
+ActivationSpec.getEndpoint( );1;0;3
+ActivationSpec.setService( QName service );1;0;3
+ActivationSpec.setSubscriptions( SubscriptionSpec [ ] subscriptions );1;0;3
+ActivationSpec.getDestinationOperation( );1;0;3
+ActivationSpec.setDestinationOperation( QName destinationOperation );1;0;3

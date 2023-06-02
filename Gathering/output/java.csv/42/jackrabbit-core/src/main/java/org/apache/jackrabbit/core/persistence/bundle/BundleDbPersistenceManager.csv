@@ -1,0 +1,80 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BundleDbPersistenceManager.createParams( UUID uuid , Object p , boolean before );3;1;18
+BundleDbPersistenceManager.destroyBundle( NodePropBundle bundle );3;0;12
+ListNodeIdIterator.hasNext( );1;1;3
+BundleDbPersistenceManager.getBinding( );1;0;3
+BundleDbPersistenceManager.getBlockOnConnectionLoss( );1;0;3
+BundleDbPersistenceManager.checkTablesExist( );4;0;16
+BundleDbPersistenceManager.store( NodeReferences refs );4;1;18
+BundleDbPersistenceManager.setPassword( String password );1;0;3
+BundleDbPersistenceManager.setUser( String user );1;0;3
+DbBlobStore.remove( String blobId );1;1;4
+BundleDbPersistenceManager.getUser( );1;0;3
+BundleDbPersistenceManager.getDriver( );1;0;3
+BundleDbPersistenceManager.closeStatement( PreparedStatement stmt );3;1;9
+BundleDbPersistenceManager.close( );3;1;15
+BundleDbPersistenceManager.setMinBlobSize( String minBlobSize );1;0;3
+BundleDbPersistenceManager.getKey( UUID uuid );2;1;8
+DbBlobStore.put( String blobId , InputStream in , long size );2;0;9
+BundleDbPersistenceManager.storeBundle( NodePropBundle bundle );3;0;15
+BundleDbPersistenceManager.setDatabaseType( String databaseType );1;0;3
+BundleDbPersistenceManager.getConsistencyFix( );1;0;3
+BundleDbPersistenceManager.getUrl( );1;0;3
+ListNodeIdIterator.next( );1;0;3
+BundleDbPersistenceManager.prepareSchemaObjectPrefix( );3;6;20
+BundleDbPersistenceManager.checkSchema( );10;9;36
+BundleDbPersistenceManager.createDBBlobStore( PMContext context );1;0;3
+BundleDbPersistenceManager.setConsistencyCheck( String consistencyCheck );1;0;3
+BundleDbPersistenceManager.createBlobStore( );2;0;7
+BundleDbPersistenceManager.checkBundleConsistency( NodeId id , NodePropBundle bundle , boolean fix , Collection modifications );15;9;48
+BundleDbPersistenceManager.createLocalFSBlobStore( PMContext context );1;0;6
+BundleDbPersistenceManager.toString( );1;0;3
+BundleDbPersistenceManager.checkConsistency( String [ ] uuids , boolean recursive , boolean fix );23;27;122
+ListNodeIdIterator.ListNodeIdIterator( ArrayList list );1;0;3
+BundleDbPersistenceManager.setSchema( String databaseType );1;0;3
+BundleDbPersistenceManager.checkTablesWithUser( );1;0;3
+BundleDbPersistenceManager.getBytes( Blob blob );2;3;15
+BundleDbPersistenceManager.createSchemaSQL( String sql );1;0;3
+BundleDbPersistenceManager.useLocalFsBlobStore( );1;0;3
+BundleDbPersistenceManager.setErrorHandling( String errorHandling );1;0;3
+BundleDbPersistenceManager.setConsistencyFix( String consistencyFix );1;0;3
+BundleDbPersistenceManager.setSchemaObjectPrefix( String schemaObjectPrefix );1;0;3
+BundleDbPersistenceManager.init( PMContext context );3;0;19
+BundleDbPersistenceManager.closeResultSet( ResultSet rs );3;1;9
+BundleDbPersistenceManager.store( ChangeLog changeLog );8;5;32
+BundleDbPersistenceManager.exists( NodeReferencesId targetId );3;1;19
+BundleDbPersistenceManager.setExternalBLOBs( boolean externalBLOBs );1;0;3
+BundleDbPersistenceManager.resetStatement( PreparedStatement stmt );3;1;10
+BundleDbPersistenceManager.getSchema( );1;0;3
+BundleDbPersistenceManager.logException( String message , SQLException e );2;1;8
+BundleDbPersistenceManager.isExternalBLOBs( );1;0;3
+FSBlobStore.createId( PropertyId id , int index );1;0;3
+BundleDbPersistenceManager.loadBundle( NodeId id );1;0;3
+BundleDbPersistenceManager.getSchemaObjectPrefix( );1;0;3
+BundleDbPersistenceManager.getNameIndex( );4;1;18
+DbBlobStore.createId( PropertyId id , int index );1;0;11
+BundleDbPersistenceManager.setBlockOnConnectionLoss( String block );1;0;3
+BundleDbPersistenceManager.setUrl( String url );1;0;3
+BundleDbPersistenceManager.loadBundle( NodeId id , boolean checkBeforeLoading );5;1;29
+FSBlobStore.FSBlobStore( FileSystem fs );1;0;4
+BundleDbPersistenceManager.getMinBlobSize( );1;0;3
+ListNodeIdIterator.remove( );1;0;3
+BundleDbPersistenceManager.getErrorHandling( );1;0;3
+BundleDbPersistenceManager.buildSQLStatements( );2;1;32
+BundleDbPersistenceManager.getDatabaseType( );1;0;3
+BundleDbPersistenceManager.setKey( PreparedStatement stmt , UUID uuid , int pos );2;4;9
+DbBlobStore.close( );1;0;4
+BundleDbPersistenceManager.setDriver( String driver );1;0;3
+ListNodeIdIterator.nextNodeId( );2;2;6
+BundleDbPersistenceManager.getConsistencyCheck( );1;0;3
+DbBlobStore.get( String blobId );3;2;19
+BundleDbPersistenceManager.useDbBlobStore( );1;1;3
+FSBlobStore.close( );2;0;7
+BundleDbPersistenceManager.existsBundle( NodeId id );2;0;14
+BundleDbPersistenceManager.getPassword( );1;0;3
+BundleDbPersistenceManager.getAllNodeIds( NodeId bigger , int maxCount );10;10;46
+BundleDbPersistenceManager.getStorageModel( );1;0;3
+BundleDbPersistenceManager.createDbNameIndex( );1;0;3
+DbBlobStore.DbBlobStore( );1;0;7
+BundleDbPersistenceManager.destroy( NodeReferences refs );4;1;16
+BundleDbPersistenceManager.load( NodeReferencesId targetId );5;2;29

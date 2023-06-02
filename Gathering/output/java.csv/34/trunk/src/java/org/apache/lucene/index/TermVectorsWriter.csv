@@ -1,0 +1,5 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TermVectorsWriter.TermVectorsWriter( Directory directory , String segment , FieldInfos fieldInfos );1;3;9
+TermVectorsWriter.addRawDocuments( TermVectorsReader reader , int [ ] tvdLengths , int [ ] tvfLengths , int numDocs );2;8;16
+TermVectorsWriter.close( );11;7;22
+TermVectorsWriter.addAllDocVectors( TermFreqVector [ ] vectors );16;30;84

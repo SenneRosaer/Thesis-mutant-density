@@ -1,0 +1,19 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractJmsProcessor.createMessageFromExchange( Session session , MessageExchange exchange );3;4;14
+AbstractJmsProcessor.AbstractJmsProcessor( JmsEndpoint endpoint );1;0;6
+AbstractJmsProcessor.getStore( );1;0;3
+AbstractJmsProcessor.doStart( );1;0;2
+AbstractJmsProcessor.createContext( );1;0;3
+AbstractJmsProcessor.commonDoStartTasks( InitialContext ctx );8;5;27
+AbstractJmsProcessor.stop( );1;0;6
+AbstractJmsProcessor.doInit( InitialContext ctx );1;0;2
+AbstractJmsProcessor.doStop( );1;0;2
+AbstractJmsProcessor.getConnectionFactory( InitialContext ctx );7;9;13
+AbstractJmsProcessor.doShutdown( );1;0;2
+AbstractJmsProcessor.shutdown( );2;1;10
+AbstractJmsProcessor.fromNMS( NormalizedMessage nm , Session session );1;0;6
+AbstractJmsProcessor.init( );4;4;19
+AbstractJmsProcessor.getInitialContext( );5;6;15
+AbstractJmsProcessor.toNMS( Message message , Context ctx );1;0;7
+AbstractJmsProcessor.fromNMSResponse( MessageExchange exchange , Context ctx , Session session );6;5;26
+AbstractJmsProcessor.start( );3;0;11

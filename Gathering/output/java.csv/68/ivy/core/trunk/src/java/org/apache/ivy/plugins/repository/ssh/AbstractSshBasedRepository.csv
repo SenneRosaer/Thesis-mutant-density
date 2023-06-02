@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractSshBasedRepository.getKeyFile( );1;0;3
+AbstractSshBasedRepository.setPassFile( File passFile );1;0;3
+AbstractSshBasedRepository.getPassFile( );1;0;3
+AbstractSshBasedRepository.releaseSession( Session session , String pathOrUri );1;0;4
+AbstractSshBasedRepository.getUser( );1;0;3
+***not in a method***;0;1;0
+AbstractSshBasedRepository.setUser( String user );1;0;3
+AbstractSshBasedRepository.AbstractSshBasedRepository( );1;0;3
+AbstractSshBasedRepository.setHost( String host );1;0;3
+AbstractSshBasedRepository.getHost( );1;0;3
+AbstractSshBasedRepository.getSession( String pathOrUri );10;13;40
+AbstractSshBasedRepository.setKeyFile( File filePath );3;2;12
+AbstractSshBasedRepository.setUserPassword( String password );1;0;3
+AbstractSshBasedRepository.getPort( );1;0;3
+AbstractSshBasedRepository.setPort( int port );1;0;3
+AbstractSshBasedRepository.getKeyFilePassword( );1;0;3
+AbstractSshBasedRepository.parseURI( String source );7;7;22
+AbstractSshBasedRepository.requestCredentials( String host );4;3;16
+AbstractSshBasedRepository.getUserPassword( );1;0;3
+AbstractSshBasedRepository.setKeyFilePassword( String keyFilePassword );1;0;3

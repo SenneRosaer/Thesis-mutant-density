@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractCocoonRunnable.run( );1;0;9
+EnvironmentHelper.getCurrentProcessor( );3;3;8
+EnvironmentHelper.EnvironmentHelper( URL context );2;1;5
+EnvironmentHelper.getContext( );1;0;3
+EnvironmentHelper.markEnvironment( );2;1;7
+EnvironmentHelper.leaveEnvironment( );1;0;6
+AbstractCocoonRunnable.AbstractCocoonRunnable( );2;1;6
+EnvironmentHelper.leaveProcessor( );1;0;5
+EnvironmentHelper.changeContext( Source newSource , String newPrefix );12;16;59
+EnvironmentHelper.getSitemapServiceManager( );3;3;7
+EnvironmentHelper.createPushEnvironmentConsumer( XMLConsumer consumer , Environment environment );1;0;3
+EnvironmentHelper.resolveURI( final String location , String baseURI , final Map parameters );2;1;5
+EnvironmentHelper.resolveURI( final String location );1;0;3
+EnvironmentHelper.EnvironmentHelper( EnvironmentHelper parent );1;0;5
+EnvironmentHelper.createEnvironmentAwareConsumer( XMLConsumer consumer );1;0;5
+EnvironmentHelper.checkEnvironment( int depth );3;2;10
+EnvironmentHelper.changeContext( Environment env );3;2;11
+EnvironmentHelper.enterProcessor( Processor processor , Environment env );3;3;12
+EnvironmentHelper.enterEnvironment( Environment env );3;4;11
+EnvironmentHelper.service( ServiceManager avalonManager );2;0;14
+EnvironmentHelper.getCurrentEnvironment( );3;3;8
+EnvironmentHelper.getPrefix( );1;0;3
+EnvironmentHelper.createPopEnvironmentConsumer( XMLConsumer consumer );1;0;3
+EnvironmentHelper.dispose( );2;1;7
+EnvironmentHelper.release( Source source );1;0;3

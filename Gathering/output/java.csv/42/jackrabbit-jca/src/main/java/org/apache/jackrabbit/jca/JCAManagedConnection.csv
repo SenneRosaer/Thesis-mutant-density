@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCAManagedConnection.getUserName( );1;0;3
+JCAManagedConnection.sendTxRolledbackEvent( JCASessionHandle handle );1;0;3
+JCAManagedConnection.sendEvent( int type , Object handle , Exception cause );2;1;7
+JCAManagedConnection.getRepository( );1;0;3
+JCAManagedConnection.addConnectionEventListener( ConnectionEventListener listener );2;1;7
+JCAManagedConnection.getEISProductName( );1;0;3
+JCAManagedConnection.getConnection( Subject subject , ConnectionRequestInfo cri );1;0;5
+JCAManagedConnection.removeConnectionEventListener( ConnectionEventListener listener );1;0;5
+JCAManagedConnection.getLocalTransaction( );1;0;3
+JCAManagedConnection.sendrrorEvent( JCASessionHandle handle , Exception cause );1;0;3
+JCAManagedConnection.log( String message , Throwable exception );3;2;8
+JCAManagedConnection.sendEvent( ConnectionEvent event );7;0;25
+JCAManagedConnection.removeHandle( JCASessionHandle handle );1;0;5
+JCAManagedConnection.closeHandle( JCASessionHandle handle );2;1;6
+JCAManagedConnection.closeHandles( );2;2;10
+JCAManagedConnection.log( String message );1;0;3
+JCAManagedConnection.sendTxStartedEvent( JCASessionHandle handle );1;0;3
+JCAManagedConnection.setLogWriter( PrintWriter logWriter );1;0;3
+JCAManagedConnection.cleanup( );2;0;13
+JCAManagedConnection.getManagedConnectionFactory( );1;0;3
+JCAManagedConnection.getMaxConnections( );1;0;3
+JCAManagedConnection.getMetaData( );1;0;3
+JCAManagedConnection.getConnectionRequestInfo( );1;0;3
+JCAManagedConnection.getSession( JCASessionHandle handle );3;3;9
+JCAManagedConnection.sendTxCommittedEvent( JCASessionHandle handle );1;0;3
+JCAManagedConnection.addHandle( JCASessionHandle handle );1;0;5
+JCAManagedConnection.associateConnection( Object connection );2;1;8
+JCAManagedConnection.destroy( );1;0;4
+JCAManagedConnection.getXAResource( );1;0;3
+JCAManagedConnection.getEISProductVersion( );1;0;3
+JCAManagedConnection.getLogWriter( );1;0;3
+JCAManagedConnection.JCAManagedConnection( JCAManagedConnectionFactory mcf , JCAConnectionRequestInfo cri , XASession session );2;0;12
+JCAManagedConnection.sendClosedEvent( JCASessionHandle handle );1;0;3

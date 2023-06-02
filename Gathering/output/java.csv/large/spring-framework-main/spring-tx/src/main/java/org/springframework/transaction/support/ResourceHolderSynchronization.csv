@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceHolderSynchronization.beforeCommit( boolean readOnly );1;0;2
+ResourceHolderSynchronization.resume( );2;0;5
+ResourceHolderSynchronization.flush( );1;0;3
+ResourceHolderSynchronization.cleanupResource( H resourceHolder , K resourceKey , boolean committed );1;0;2
+ResourceHolderSynchronization.ResourceHolderSynchronization( H resourceHolder , K resourceKey );1;0;4
+ResourceHolderSynchronization.releaseResource( H resourceHolder , K resourceKey );1;0;2
+ResourceHolderSynchronization.shouldReleaseAfterCompletion( H resourceHolder );1;1;3
+ResourceHolderSynchronization.afterCompletion( int status );4;1;21
+ResourceHolderSynchronization.flushResource( H resourceHolder );1;0;2
+ResourceHolderSynchronization.shouldReleaseBeforeCompletion( );1;0;3
+ResourceHolderSynchronization.afterCommit( );2;1;5
+ResourceHolderSynchronization.suspend( );2;0;5
+ResourceHolderSynchronization.beforeCompletion( );3;0;9
+ResourceHolderSynchronization.processResourceAfterCommit( H resourceHolder );1;0;2
+ResourceHolderSynchronization.shouldUnbindAtCompletion( );1;0;3

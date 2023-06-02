@@ -1,0 +1,44 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropertyHelper.setProperty( String ns , String name , Object value , boolean verbose );1;0;3
+PropertyHelper.setProperty( Project project , String name , Object value );1;0;4
+PropertyHelper.replaceProperties( String value );3;2;4
+PropertyHelper.parsePropertyStringDefault( String value , Vector fragments , Vector propertyRefs );8;16;33
+PropertyHelper.getProperties( );1;0;5
+PropertyHelper.getPropertyHelper( Project project );2;1;11
+PropertyHelper.getInternalUserProperties( );1;0;3
+PropertyHelper.evaluate( String property , PropertyHelper propertyHelper );4;3;7
+PropertyHelper.parsePropertyString( String value , Vector fragments , Vector propertyRefs );1;0;3
+PropertyHelper.getUserProperty( String name );2;1;6
+PropertyHelper.setNewProperty( String ns , String name , Object value );1;0;3
+PropertyHelper.setNext( PropertyHelper next );1;0;3
+PropertyHelper.parseProperties( String value );1;0;4
+PropertyHelper.setInheritedProperty( String ns , String name , Object value );1;0;3
+PropertyHelper.getPropertyHook( String ns , String name , boolean user );5;3;14
+PropertyHelper.getProject( );1;0;3
+PropertyHelper.getUserProperty( String ns , String name );1;0;3
+PropertyHelper.getInternalProperties( );1;0;3
+PropertyHelper.copyInheritedProperties( Project other );3;1;13
+PropertyHelper.setNewProperty( String name , Object value );6;3;19
+PropertyHelper.setInheritedProperty( String name , Object value );1;0;8
+PropertyHelper.setProject( Project p );1;0;3
+PropertyHelper.copyUserProperties( Project other );3;0;13
+PropertyHelper.parsePropertyName( String s , ParsePosition pos , ParseNextProperty notUsed );3;6;13
+PropertyHelper.add( Delegate delegate );3;1;16
+PropertyHelper.setUserProperty( String ns , String name , Object value );1;0;3
+PropertyHelper.getNext( );1;0;3
+PropertyHelper.setProperty( String name , Object value , boolean verbose );9;3;28
+PropertyHelper.getDelegates( Class type );2;1;4
+PropertyHelper.containsProperties( String value );1;0;4
+PropertyHelper.getProperty( String name );5;2;15
+PropertyHelper.getInheritedProperties( );1;0;5
+PropertyHelper.getUserProperties( );1;0;5
+PropertyHelper.replaceProperties( String ns , String value , Hashtable keys );1;0;3
+PropertyHelper.setNewProperty( Project project , String name , Object value );1;0;4
+PropertyHelper.getDelegateInterfaces( Delegate d );4;3;15
+PropertyHelper.getExpanders( );1;0;3
+PropertyHelper.getInternalInheritedProperties( );1;0;3
+PropertyHelper.PropertyHelper( );1;0;5
+PropertyHelper.setPropertyHook( String ns , String name , Object value , boolean inherited , boolean user , boolean isNew );3;1;9
+PropertyHelper.getProperty( Project project , String name );1;0;4
+PropertyHelper.getProperty( String ns , String name );1;0;3
+PropertyHelper.setUserProperty( String name , Object value );1;0;7

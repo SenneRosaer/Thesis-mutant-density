@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SingletonSupplier.SingletonSupplier( @ Nullable T instance , Supplier < ? extends T > defaultSupplier );1;0;5
+SingletonSupplier.ofNullable( @ Nullable Supplier < T > supplier );2;1;3
+SingletonSupplier.of( T instance );1;0;3
+SingletonSupplier.get( );6;6;18
+SingletonSupplier.SingletonSupplier( @ Nullable Supplier < ? extends T > instanceSupplier , Supplier < ? extends T > defaultSupplier );1;0;4
+SingletonSupplier.SingletonSupplier( Supplier < ? extends T > supplier );1;0;4
+SingletonSupplier.SingletonSupplier( T singletonInstance );1;0;5
+SingletonSupplier.ofNullable( @ Nullable T instance );2;1;3
+SingletonSupplier.obtain( );1;1;5
+SingletonSupplier.of( Supplier < T > supplier );1;0;3

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMUtil.addChildElement( Element element , String name , Object textValue );2;1;9
+DOMUtil.getBuilder( );3;2;11
+DOMUtil.getFirstChildElement( Node parent );3;2;10
+DOMUtil.createQName( Element element , String qualifiedName );3;3;15
+DOMUtil.DOMUtil( );1;0;2
+DOMUtil.newDocument( );1;0;6
+DOMUtil.copyAttributes( Element from , Element to );2;2;7
+DOMUtil.asXML( Node node );1;0;6
+DOMUtil.moveContent( Element from , Element to );2;1;8
+DOMUtil.getElementText( Element element );4;5;11
+DOMUtil.getNextSiblingElement( Element el );3;1;8
+DOMUtil.asIndentedXML( Node node );1;0;7
+DOMUtil.getQName( Element el );4;3;11
+DOMUtil.parseDocument( InputStream is );1;0;8
+DOMUtil.releaseBuilder( DocumentBuilder builder );2;1;5
+DOMUtil.recursiveGetAttributeValue( Element element , String attributeName );6;3;17

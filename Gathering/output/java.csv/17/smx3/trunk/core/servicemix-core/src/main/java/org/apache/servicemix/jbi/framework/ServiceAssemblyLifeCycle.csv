@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ServiceAssemblyLifeCycle.getElement( Document doc , String name );1;0;4
+ServiceAssemblyLifeCycle.start( );1;0;3
+ServiceAssemblyLifeCycle.setPropertyChangeListener( PropertyChangeListener l );1;0;3
+ServiceAssemblyLifeCycle.getOperationInfos( );1;0;8
+ServiceAssemblyLifeCycle.getObjectToManage( );1;0;3
+ServiceAssemblyLifeCycle.restore( );3;0;11
+ServiceAssemblyLifeCycle.firePropertyChanged( String name , Object oldValue , Object newValue );2;1;7
+ServiceAssemblyLifeCycle.getType( );1;0;3
+ServiceAssemblyLifeCycle.getDescription( );1;0;3
+ServiceAssemblyLifeCycle.getServiceUnits( );2;2;7
+ServiceAssemblyLifeCycle.getDescriptor( );1;0;4
+ServiceAssemblyLifeCycle.shutDown( boolean writeState );9;5;32
+ServiceAssemblyLifeCycle.setServiceUnits( ServiceUnitLifeCycle [ ] serviceUnits );1;0;3
+ServiceAssemblyLifeCycle.stopConnections( );5;6;17
+ServiceAssemblyLifeCycle.shutDown( );1;0;3
+ServiceAssemblyLifeCycle.getCurrentState( );1;0;3
+ServiceAssemblyLifeCycle.fireEvent( int type );5;2;20
+ServiceAssemblyLifeCycle.stop( );1;0;3
+ServiceAssemblyLifeCycle.getServiceAssembly( );1;0;3
+ServiceAssemblyLifeCycle.getSubType( );1;0;3
+ServiceAssemblyLifeCycle.isShutDown( );1;0;3
+ServiceAssemblyLifeCycle.getName( );1;0;3
+ServiceAssemblyLifeCycle.getAttributeInfos( );1;0;8
+ServiceAssemblyLifeCycle.getLinkType( QName svc , String ep );7;8;15
+ServiceAssemblyLifeCycle.isStopped( );1;0;3
+ServiceAssemblyLifeCycle.getComponentFailure( Exception exception , String task , String component );3;1;16
+ServiceAssemblyLifeCycle.toString( );1;0;3
+ServiceAssemblyLifeCycle.start( boolean writeState );10;5;37
+ServiceAssemblyLifeCycle.isStarted( );1;0;3
+ServiceAssemblyLifeCycle.writeRunningState( );3;1;12
+ServiceAssemblyLifeCycle.getDeployedSUs( );1;0;3
+ServiceAssemblyLifeCycle.stop( boolean writeState , boolean forceInit );9;5;33
+ServiceAssemblyLifeCycle.ServiceAssemblyLifeCycle( ServiceAssembly sa , ServiceAssemblyEnvironment env , Registry registry );1;0;5
+ServiceAssemblyLifeCycle.getEnvironment( );1;0;3
+ServiceAssemblyLifeCycle.startConnections( );5;6;22
+ServiceAssemblyLifeCycle.parse( String result );1;0;8
+ServiceAssemblyLifeCycle.getRunningStateFromStore( );4;2;11

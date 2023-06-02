@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WorkspaceImpl.createWorkspace( String workspaceName , InputSource configTemplate );1;0;4
+WorkspaceImpl.internalClone( String srcAbsPath , String destAbsPath );7;3;45
+WorkspaceImpl.getEventJournal( int eventTypes , String absPath , boolean isDeep , String [ ] uuid , String [ ] nodeTypeName );3;1;16
+WorkspaceImpl.createItemStateManager( SharedItemStateManager shared );1;0;3
+WorkspaceImpl.getAccessibleWorkspaceNames( );1;0;4
+WorkspaceImpl.WorkspaceImpl( WorkspaceConfig wspConfig , SharedItemStateManager stateMgr , RepositoryImpl rep , SessionImpl session );1;0;9
+WorkspaceImpl.getLockManager( );2;1;7
+WorkspaceImpl.createEventStateCollection( );1;0;3
+WorkspaceImpl.createWorkspace( String name , String srcWorkspace );2;1;14
+WorkspaceImpl.getHierarchyManager( );1;0;3
+WorkspaceImpl.getQueryManager( );4;2;20
+WorkspaceImpl.internalCopy( String srcAbsPath , WorkspaceImpl srcWsp , String destAbsPath , int flag );7;3;48
+WorkspaceImpl.copy( String srcWorkspace , String srcAbsPath , String destAbsPath );4;2;20
+WorkspaceImpl.copy( String srcAbsPath , String destAbsPath );1;0;4
+WorkspaceImpl.move( String srcAbsPath , String destAbsPath );7;3;45
+WorkspaceImpl.createWorkspace( String name );1;0;4
+WorkspaceImpl.deleteWorkspace( String name );1;0;4
+WorkspaceImpl.getConfig( );1;0;3
+WorkspaceImpl.getObservationManager( );3;1;15
+WorkspaceImpl.getSession( );1;0;3
+WorkspaceImpl.getName( );1;0;3
+WorkspaceImpl.getNodeTypeManager( );1;0;4
+WorkspaceImpl.clone( String srcWorkspace , String srcAbsPath , String destAbsPath , boolean removeExisting );6;3;29
+WorkspaceImpl.restore( Version [ ] versions , boolean removeExisting );13;8;63
+WorkspaceImpl.getImportContentHandler( String parentAbsPath , int uuidBehavior );3;1;17
+WorkspaceImpl.getItemStateManager( );1;0;3
+WorkspaceImpl.dispose( );2;1;7
+WorkspaceImpl.getNamespaceRegistry( );1;0;4
+WorkspaceImpl.sanityCheck( );1;0;3
+WorkspaceImpl.select( VersionHistory versionHistory );2;1;7

@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PlaybackSessionBean.incrementPassedCount( );1;1;3
+PlaybackSessionBean.incrementFailedCount( );1;1;3
+PlaybackSessionBean.PlaybackSessionBean( String sessionName , boolean error );1;0;5
+PlaybackSessionBean.PlaybackSessionBean( String sessionName );1;0;3
+PlaybackSessionBean.getRecordedTestCount( );1;0;3
+***not in a method***;0;1;0
+PlaybackSessionBean.addTestResults( TestResults results );2;0;9
+PlaybackSessionBean.getTestCount( );1;0;3
+PlaybackSessionBean.getStatus( );3;0;9
+PlaybackSessionBean.getTestResults( );1;0;3
+PlaybackSessionBean.getFailedCount( );1;0;3
+PlaybackSessionBean.isErrorInternal( );3;2;12
+PlaybackSessionBean.isError( );2;0;3
+PlaybackSessionBean.getTestResults( int index );1;0;3
+PlaybackSessionBean.isSessionPassed( );2;1;5
+PlaybackSessionBean.setRecordedTestCount( int recordedTestCount );1;0;3
+PlaybackSessionBean.getPassedCount( );1;0;3

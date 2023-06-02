@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Exporter.getXMLName( String uri , String local );3;3;12
+Exporter.startElement( String uri , String local );2;0;17
+Exporter.getProperties( Node node );2;0;9
+Exporter.exportProperties( Node node );3;0;23
+Exporter.export( Node node );4;5;11
+Exporter.getUniquePrefix( String hint );2;2;7
+Exporter.endElement( String uri , String local );2;0;10
+Exporter.characters( char [ ] ch , int start , int length );1;0;3
+Exporter.getPrefix( String uri );3;1;10
+Exporter.exportNode( Node node );4;6;16
+Exporter.exportProperty( String name , Property property );6;5;25
+Exporter.addNamespace( String hint , String uri );2;1;8
+Exporter.Exporter( Session session , ContentHandler handler , boolean recurse , boolean binary );1;0;8
+Exporter.addAttribute( String uri , String local , String value );1;0;4
+Exporter.exportProperty( Map properties , String name );2;1;6
+Exporter.prefixExists( String prefix );3;0;9
+Exporter.exportNodes( Node node );4;2;9

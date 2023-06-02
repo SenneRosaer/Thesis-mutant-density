@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TraversingNodeResolver.collectNode( Name nodeName , Name ntName , NodeIterator nodes );7;3;16
+TraversingNodeResolver.collectNodes( String value , Set props , Name ntName , NodeIterator nodes , boolean exact , long maxSize );1;0;5
+TraversingNodeResolver.matches( String value , String toMatch , boolean exact );2;0;3
+TraversingNodeResolver.findNode( Name nodeName , Name ntName );3;0;13
+TraversingNodeResolver.findNodes( Set propertyNames , String value , Name ntName , boolean exact , long maxSize );3;0;13
+TraversingNodeResolver.TraversingNodeResolver( Session session , NamePathResolver resolver );1;0;3
+TraversingNodeResolver.findNode( Name propertyName , String value , Name ntName );4;0;18
+TraversingNodeResolver.collectNodes( String value , Set propertyNames , Name nodeTypeName , NodeIterator itr , Set matchSet , boolean exact , long maxSize );6;3;17
+TraversingNodeResolver.matches( NodeImpl node , Name nodeTypeName , Collection propertyNames , String value , boolean exact );12;7;35

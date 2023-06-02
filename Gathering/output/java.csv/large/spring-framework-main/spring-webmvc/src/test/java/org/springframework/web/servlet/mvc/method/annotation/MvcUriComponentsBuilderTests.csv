@@ -1,0 +1,67 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ControllerWithMethods.methodWithMultiValueRequestParams( @ PathVariable String id , @ RequestParam List < Integer > items , @ RequestParam Integer limit );1;0;3
+MvcUriComponentsBuilderTests.fromMethodCallWithPathVariableAndMultiValueRequestParams( );1;0;8
+MvcUriComponentsBuilderTests.fromMethodNameWithPathVarAndRequestParam( );1;0;8
+MvcUriComponentsBuilderTests.fromControllerWithCustomBaseUrlViaStaticCall( );1;0;6
+BookingControllerWithString.getBooking( @ PathVariable Long booking );1;0;3
+MvcUriComponentsBuilderTests.reset( );1;0;3
+UserContactController.showCreate( @ PathVariable Integer userId );1;0;3
+PathPrefixWebConfig.controller( );1;0;3
+PersonCrudController.get( @ PathVariable Long id );1;0;3
+MvcUriComponentsBuilderTests.fromMappingNameWithEncoding( );1;0;9
+MvcUriComponentsBuilderTests.usesForwardedHostAndPortFromHeader( );1;0;7
+MvcUriComponentsBuilderTests.fromMethodCallWithCustomBaseUrlViaStaticCall( );1;0;6
+MvcUriComponentsBuilderTests.fromMethodNameWithCustomBaseUrlViaStaticCall( );1;0;7
+BookingControllerWithModelAndView.getBooking( @ PathVariable Long booking );1;0;3
+MvcUriComponentsBuilderTests.fromMethodNameWithMetaAnnotation( );1;0;4
+MvcUriComponentsBuilderTests.fromMethodCallOnSubclass( );1;0;5
+MvcUriComponentsBuilderTests.fromMethodCallWithCustomBaseUrlViaInstance( );1;0;7
+MvcUriComponentsBuilderTests.fromMethodCallWithModelAndViewReturnType( );1;0;5
+PathWithoutLeadingSlashConfig.controller( );1;0;3
+UnmappedController.unmappedMethod( );1;0;2
+Person.getId( );1;0;3
+MvcUriComponentsBuilderTests.fromMappingNameWithPathWithoutLeadingSlash( );1;0;9
+MvcUriComponentsBuilderTests.fromMethodNameWithStringReturnType( );1;0;5
+MvcUriComponentsBuilderTests.fromMethodNameTwoPathVariables( );1;0;5
+MvcUriComponentsBuilderTests.fromMethodCallWithStringReturnType( );1;0;7
+MvcUriComponentsBuilderTests.adaptRequestFromForwardedHeaders( );1;0;6
+MvcUriComponentsBuilderTests.fromControllerNotMapped( );1;0;4
+MvcUriComponentsBuilderTests.usesForwardedHostAsHostIfHeaderIsSet( );1;0;7
+MetaAnnotationController.handle( );1;0;2
+MvcUriComponentsBuilderTests.initWebApplicationContext( Class < ? > configClass );1;0;7
+ControllerWithMethods.methodWithOptionalParam( @ RequestParam ( defaultValue = "" ) String q );1;0;3
+PathWithoutLeadingSlashController.getAddressesForCountry( @ PathVariable String country );1;0;3
+MvcUriComponentsBuilderTests.fromMethodCallWithPathVariable( );1;0;6
+MvcUriComponentsBuilderTests.fromControllerTwoTypeLevelMappings( );1;0;4
+MvcUriComponentsBuilderTests.fromMethodNameNotMapped( );1;0;4
+ControllerWithMethods.myMethod( @ RequestBody Object payload );1;0;3
+MvcUriComponentsBuilderTests.fromControllerSubResource( );1;0;4
+BookingControllerWithObject.getBooking( @ PathVariable Long booking );1;0;3
+PathPrefixWebConfig.configurePathMatch( PathMatchConfigurer configurer );1;0;3
+MvcUriComponentsBuilderTests.fromMethodNameTypeLevelPathVariable( );1;0;6
+MvcUriComponentsBuilderTests.setup( );1;0;3
+MvcUriComponentsBuilderTests.fromMethodNameWithOptionalParam( );1;0;5
+MvcUriComponentsBuilderTests.fromMethodNameWithBridgedMethod( );1;0;4
+MvcUriComponentsBuilderTests.fromMethodCallWithPathVariableAndRequestParams( );1;0;8
+MvcUriComponentsBuilderTests.fromControllerUriTemplate( );1;0;4
+MvcUriComponentsBuilderTests.fromMethodNamePathVariable( );1;0;5
+MvcUriComponentsBuilderTests.fromMethodCallWithObjectReturnType( );1;0;5
+MvcUriComponentsBuilderTests.fromMethodNameWithOptionalNamedParam( );1;0;6
+MvcUriComponentsBuilderTests.fromMappingNamePlain( );1;0;9
+ControllerWithMethods.methodForNextPage( @ PathVariable String id , @ RequestParam Integer offset , @ RequestParam Integer limit );1;0;3
+PersonsAddressesController.getAddressesForCountry( @ PathVariable String country );1;0;3
+ControllerWithMethods.methodWithTwoPathVariables( @ PathVariable Integer id , @ DateTimeFormat ( iso = ISO . DATE ) @ PathVariable Date date );1;0;3
+WebConfig.controller( );1;0;3
+ControllerWithMethods.methodWithOptionalNamedParam( @ RequestParam ( "search" ) Optional < String > q );1;0;3
+MvcUriComponentsBuilderTests.fromControllerWithPrefix( );1;0;9
+MetaAnnotationController.handleInput( );1;0;2
+MvcUriComponentsBuilderTests.fromMethodCallPlain( );1;0;5
+MvcUriComponentsBuilderTests.fromControllerPlain( );1;0;4
+MvcUriComponentsBuilderTests.fromMappingNameWithCustomBaseUrl( );1;0;7
+MvcUriComponentsBuilderTests.fromMethodCallWithTypeLevelUriVars( );1;0;5
+MvcUriComponentsBuilderTests.fromMethodWithPrefix( );1;0;12
+ControllerWithMethods.methodWithPathVariable( @ PathVariable String id );1;0;3
+MvcUriComponentsBuilderTests.fromMethodNameWithCustomBaseUrlViaInstance( );1;0;8
+MvcUriComponentsBuilderTests.usesFirstHostOfXForwardedHost( );1;0;7
+MvcUriComponentsBuilderTests.fromControllerWithCustomBaseUrlViaInstance( );1;0;7
+MvcUriComponentsBuilderTests.fromMethodNameTypeLevelPathVariableWithoutArgumentValue( );1;0;4

@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SnmpPollingEndpoint.setRetries( int retries );1;0;3
+SnmpPollingEndpoint.setTimeout( int timeout );1;0;3
+SnmpPollingEndpoint.setOids( OIDList oids );1;0;3
+SnmpPollingEndpoint.stop( );2;0;6
+SnmpPollingEndpoint.validate( );6;5;16
+SnmpPollingEndpoint.getOids( );1;0;3
+SnmpPollingEndpoint.sendSnmpDataMessage( PDU request , PDU response );2;0;12
+SnmpPollingEndpoint.getTimeout( );1;0;3
+SnmpPollingEndpoint.poll( );2;0;8
+SnmpPollingEndpoint.setAddress( String address );1;0;3
+SnmpPollingEndpoint.setSnmpCommunity( String snmpCommunity );1;0;3
+SnmpPollingEndpoint.process( MessageExchange exchange );1;0;2
+SnmpPollingEndpoint.getMarshaler( );1;0;3
+SnmpPollingEndpoint.getSnmpCommunity( );1;0;3
+SnmpPollingEndpoint.setMarshaler( SnmpMarshalerSupport marshaler );1;0;3
+SnmpPollingEndpoint.onResponse( ResponseEvent event );3;3;9
+SnmpPollingEndpoint.getSnmpVersion( );1;0;3
+SnmpPollingEndpoint.getRetries( );1;0;3
+SnmpPollingEndpoint.activate( );1;0;15
+SnmpPollingEndpoint.setSnmpVersion( int snmpVersion );1;0;3
+SnmpPollingEndpoint.start( );1;0;4
+SnmpPollingEndpoint.getAddress( );1;0;3

@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestHandler.assertObject( int index , Object object );1;0;3
+TestHandler.complete( );1;0;2
+SseEmitterTests.setup( );1;0;5
+SseEmitterTests.sendWithMediaType( );1;0;7
+TestHandler.onError( Consumer < Throwable > callback );1;0;2
+TestHandler.onCompletion( Runnable callback );1;0;2
+TestHandler.onTimeout( Runnable callback );1;0;2
+SseEmitterTests.send( );1;0;7
+TestHandler.assertObject( int index , Object object , MediaType mediaType );1;1;5
+SseEmitterTests.sendEventFullWithTwoDataLinesInTheMiddle( );1;0;9
+TestHandler.assertSentObjectCount( int size );1;0;3
+TestHandler.send( Object data , MediaType mediaType );1;0;4
+SseEmitterTests.sendEventWithTwoDataLines( );1;0;9
+SseEmitterTests.sendEventWithDataLine( );1;0;7
+SseEmitterTests.sendEventEmpty( );1;0;4
+SseEmitterTests.sendEventFull( );1;0;7
+TestHandler.completeWithError( Throwable failure );1;0;2

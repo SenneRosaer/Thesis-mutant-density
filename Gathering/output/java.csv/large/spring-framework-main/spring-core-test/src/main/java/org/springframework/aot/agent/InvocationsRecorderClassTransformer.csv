@@ -1,0 +1,6 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InvocationsRecorderClassTransformer.transform( @ Nullable ClassLoader classLoader , String className , Class < ? > classBeingRedefined , ProtectionDomain protectionDomain , byte [ ] classfileBuffer );2;0;6
+InvocationsRecorderClassTransformer.isTransformationCandidate( @ Nullable ClassLoader classLoader , String className );9;2;24
+InvocationsRecorderClassTransformer.InvocationsRecorderClassTransformer( String [ ] instrumentedPackages , String [ ] ignoredPackages );1;0;6
+InvocationsRecorderClassTransformer.rewriteToAsmFormat( String [ ] packages );1;0;4
+InvocationsRecorderClassTransformer.attemptClassTransformation( byte [ ] classfileBuffer );3;0;15

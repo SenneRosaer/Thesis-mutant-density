@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractMappingContentNegotiationStrategy.handleMatch( String key , MediaType mediaType );1;0;2
+AbstractMappingContentNegotiationStrategy.handleNoMatch( NativeWebRequest request , String key );4;1;12
+AbstractMappingContentNegotiationStrategy.AbstractMappingContentNegotiationStrategy( @ Nullable Map < String , MediaType > mediaTypes );1;0;3
+AbstractMappingContentNegotiationStrategy.resolveMediaTypes( NativeWebRequest webRequest );1;0;3
+AbstractMappingContentNegotiationStrategy.isIgnoreUnknownExtensions( );1;0;3
+AbstractMappingContentNegotiationStrategy.resolveMediaTypeKey( NativeWebRequest webRequest , @ Nullable String key );4;2;15
+AbstractMappingContentNegotiationStrategy.isUseRegisteredExtensionsOnly( );1;0;3
+AbstractMappingContentNegotiationStrategy.setUseRegisteredExtensionsOnly( boolean useRegisteredExtensionsOnly );1;0;3
+AbstractMappingContentNegotiationStrategy.setIgnoreUnknownExtensions( boolean ignoreUnknownExtensions );1;0;3

@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReverseDirs.ReverseDirs( Project project , File basedir , String [ ] dirs );1;0;6
+Delete.addModified( ModifiedSelector selector );1;0;4
+Delete.addNone( NoneSelector selector );1;0;4
+Delete.setExcludes( String excludes );1;0;4
+Delete.addMajority( MajoritySelector selector );1;0;4
+Delete.handle( String msg );1;0;3
+Delete.setExcludesfile( File excludesfile );1;0;4
+ReverseDirs.size( );1;0;1
+Delete.setDir( File dir );1;0;4
+Delete.execute( );49;36;143
+Delete.addSelector( SelectSelector selector );1;0;4
+Delete.createIncludesFile( );1;0;4
+Delete.createInclude( );1;0;4
+Delete.setVerbose( boolean verbose );2;0;7
+Delete.addDate( DateSelector selector );1;0;4
+Delete.setIncludeEmptyDirs( boolean includeEmpty );1;0;3
+Delete.addCustom( ExtendSelector selector );1;0;4
+Delete.setCaseSensitive( boolean isCaseSensitive );1;0;4
+ReverseDirs.iterator( );1;0;3
+ReverseDirs.compare( Object foo , Object bar );1;2;3
+Delete.addContains( ContainsSelector selector );1;0;4
+Delete.add( ResourceCollection rc );3;2;7
+Delete.setIncludes( String includes );1;0;4
+Delete.setRemoveNotFollowedSymlinks( boolean b );1;0;3
+Delete.removeFiles( File d , String [ ] files , String [ ] dirs );16;16;38
+Delete.addFileset( FileSet set );1;0;3
+Delete.addAnd( AndSelector selector );1;0;4
+Delete.delete( File f );4;1;14
+Delete.addOr( OrSelector selector );1;0;4
+Delete.setFollowSymlinks( boolean followSymlinks );1;0;4
+Delete.setDefaultexcludes( boolean useDefaultExcludes );1;0;4
+Delete.setIncludesfile( File includesfile );1;0;4
+Delete.setDeleteOnExit( boolean deleteOnExit );1;0;3
+Delete.addPresent( PresentSelector selector );1;0;4
+Delete.addFilename( FilenameSelector selector );1;0;4
+Delete.addNot( NotSelector selector );1;0;4
+Delete.setFile( File file );1;0;3
+Delete.add( FileSelector selector );1;0;4
+Delete.createPatternSet( );1;0;4
+Delete.createExcludesFile( );1;0;4
+Delete.addDepend( DependSelector selector );1;0;4
+Delete.isDanglingSymlink( File f );3;0;10
+Delete.createExclude( );1;0;4
+Delete.addContainsRegexp( ContainsRegexpSelector selector );1;0;4
+Delete.handle( Exception e );4;0;7
+Delete.setQuiet( boolean quiet );2;0;6
+Delete.removeDir( File d );7;5;22
+Delete.addSize( SizeSelector selector );1;0;4
+ReverseDirs.isFilesystemOnly( );1;0;1
+Delete.addDepth( DepthSelector selector );1;0;4
+Delete.setFailOnError( boolean failonerror );1;0;3

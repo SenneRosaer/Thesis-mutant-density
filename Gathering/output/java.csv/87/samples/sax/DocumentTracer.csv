@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DocumentTracer.startElement( String name , AttributeList attributes );4;5;37
+DocumentTracer.endPrefixMapping( String prefix );1;0;8
+DocumentTracer.endElement( String uri , String localName , String qname );1;1;15
+DocumentTracer.startEntity( String name );1;1;9
+DocumentTracer.ignorableWhitespace( char [ ] ch , int offset , int length );1;0;8
+DocumentTracer.DocumentTracer( );1;0;3
+DocumentTracer.characters( char [ ] ch , int offset , int length );1;0;8
+DocumentTracer.printError( String type , SAXParseException ex );3;4;20
+DocumentTracer.setDocumentLocator( Locator locator );1;0;8
+DocumentTracer.error( SAXParseException ex );1;0;3
+DocumentTracer.endCDATA( );1;1;6
+DocumentTracer.attributeDecl( String elementName , String attributeName , String type , String valueDefault , String value );1;0;20
+DocumentTracer.notationDecl( String name , String publicId , String systemId );1;0;14
+DocumentTracer.startCDATA( );1;1;6
+DocumentTracer.startDocument( );1;1;7
+DocumentTracer.skippedEntity( String name );1;0;8
+DocumentTracer.unparsedEntityDecl( String name , String publicId , String systemId , String notationName );1;0;17
+DocumentTracer.comment( char [ ] ch , int offset , int length );1;0;8
+DocumentTracer.setOutput( OutputStream stream , String encoding );2;1;7
+DocumentTracer.endDTD( );1;1;6
+DocumentTracer.printQuotedString( char [ ] ch , int offset , int length );2;3;7
+DocumentTracer.endElement( String name );1;1;9
+DocumentTracer.elementDecl( String name , String contentModel );1;0;11
+DocumentTracer.processingInstruction( String target , String data );1;0;11
+DocumentTracer.main( String [ ] argv );51;7;243
+DocumentTracer.setOutput( Writer writer );2;0;4
+DocumentTracer.normalizeAndPrint( char c );6;0;27
+DocumentTracer.startDTD( String name , String publicId , String systemId );1;1;15
+DocumentTracer.endDocument( );1;1;6
+DocumentTracer.startElement( String uri , String localName , String qname , Attributes attributes );4;5;51
+DocumentTracer.startPrefixMapping( String prefix , String uri );1;0;11
+DocumentTracer.printIndent( );2;2;5
+DocumentTracer.fatalError( SAXParseException ex );1;0;4
+DocumentTracer.printQuotedString( String s );3;3;13
+DocumentTracer.warning( SAXParseException ex );1;0;3
+DocumentTracer.internalEntityDecl( String name , String text );1;0;11
+DocumentTracer.endEntity( String name );1;1;8
+DocumentTracer.printUsage( );13;0;56
+DocumentTracer.externalEntityDecl( String name , String publicId , String systemId );1;0;14

@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PartnerLinkPartnerRoleImpl.invokeIL( MessageExchangeDAO mexDao );6;4;26
+UnreliableInvoker.run( );1;7;5
+PartnerLinkPartnerRoleImpl.invokeInMem( MessageExchangeDAO mexDao , EndpointReference partnerEpr , EndpointReference myRoleEpr , Operation operation , Set < InvocationStyle > supportedStyles , boolean oneway );11;2;51
+UnreliableInvoker.UnreliableInvoker( UnreliablePartnerRoleMessageExchangeImpl blockingMex );1;0;3
+PartnerLinkPartnerRoleImpl.invokeTransacted( MessageExchangeDAO mexDao , EndpointReference partnerEpr , EndpointReference myRoleEpr , Operation operation );4;1;25
+PartnerLinkPartnerRoleImpl.invokeUnreliable( MessageExchangeDAO mexDao , EndpointReference partnerEpr , EndpointReference myRoleEpr , Operation operation );1;0;8
+PartnerLinkPartnerRoleImpl.invokePersisted( MessageExchangeDAO mexDao , EndpointReference partnerEpr , EndpointReference myRoleEpr , Operation operation , Set < InvocationStyle > supportedStyles );5;1;19
+PartnerLinkPartnerRoleImpl.invokeReliable( MessageExchangeDAO mexDao , EndpointReference partnerEpr , EndpointReference myRoleEpr , Operation operation );4;2;24
+PartnerLinkPartnerRoleImpl.createPartnerRoleMex( MessageExchangeDAO mexdao );5;0;27
+PartnerLinkPartnerRoleImpl.PartnerLinkPartnerRoleImpl( ODEProcess process , PartnerLinkModel plink , Endpoint initialPartner );1;0;4

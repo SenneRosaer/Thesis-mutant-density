@@ -1,0 +1,106 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TypeUtils.toLocale( String strVal );3;2;10
+TypeUtils.isKotlin( Class clazz );5;5;10
+TypeUtils.castToShort( Object value );10;4;24
+TypeUtils.createCollection( Type type );14;6;34
+TypeUtils.addMapping( String className , Class < ? > clazz );1;0;3
+TypeUtils.castToBytes( Object value );3;0;9
+TypeUtils.cast( Object obj , Type type , ParserConfig mapping );9;4;23
+TypeUtils.intValue( BigDecimal decimal );4;5;10
+TypeUtils.checkPrimitiveArray( GenericArrayType genericArrayType );9;3;23
+TypeUtils.computeGetters( Class < ? > clazz , Map < String , String > aliasMap , boolean sorted );1;0;6
+TypeUtils.castToJavaBean( Object obj , Class < T > clazz );1;0;3
+TypeUtils.castToByte( Object value );10;4;24
+TypeUtils.fnv1a_64( String key );2;4;9
+TypeUtils.getPropertyNameByCompatibleFieldName( Map < String , Field > fieldCacheMap , String methodName , String propertyName , int fromIdx );4;1;9
+TypeUtils.getAnnotation( Class < ? > targetClass , Class < A > annotationClass );15;10;33
+TypeUtils.createSet( Type type );10;3;29
+TypeUtils.isNumber( String str );7;9;13
+TypeUtils.castToDate( Object value );1;0;3
+TypeUtils.getParameterAnnotations( Method method );14;6;32
+TypeUtils.createActualTypeMap( TypeVariable [ ] typeParameters , Type [ ] actualTypeArguments );2;2;8
+TypeUtils.castToEnum( Object obj , Class < T > clazz , ParserConfig mapping );11;4;36
+TypeUtils.getParameterAnnotations( Constructor constructor );21;14;45
+TypeUtils.apply( Class clazz );1;0;3
+TypeUtils.num( char c0 , char c1 , char c2 , char c3 );9;26;17
+TypeUtils.getKotlinConstructor( Constructor [ ] constructors , String [ ] paramNames );10;9;17
+TypeUtils.longValue( BigDecimal decimal );4;5;10
+TypeUtils.buildBeanInfo( Class < ? > beanType , Map < String , String > aliasMap , PropertyNamingStrategy propertyNamingStrategy , boolean fieldBased );20;16;67
+TypeUtils.isXmlField( Class clazz );16;15;47
+TypeUtils.num( char c0 , char c1 );5;12;11
+TypeUtils.castToBigDecimal( Object value );15;8;29
+TypeUtils.isAnnotationPresentOneToMany( Method method );7;6;13
+TypeUtils.getSuperMethodAnnotation( final Class < ? > clazz , final Method method );26;16;62
+TypeUtils.getCollectionSuperType( Class < ? > clazz );6;2;13
+TypeUtils.castToInt( Object value );17;9;45
+TypeUtils.isClob( final Class clazz );2;1;4
+TypeUtils.castToTimestamp( final Object value );1;0;3
+TypeUtils.castToFloat( Object value );10;6;24
+TypeUtils.optionalEmpty( Type type );6;2;22
+TypeUtils.getPropertyNameByMethodName( String methodName );1;1;3
+TypeUtils.apply( Map < String , Class < ? > > mappings );4;1;14
+TypeUtils.castToString( Object value );2;1;6
+TypeUtils.apply( Object value );14;35;42
+TypeUtils.isTransient( Method method );6;4;18
+TypeUtils.loadClass( String className , ClassLoader classLoader , boolean cache );19;12;51
+TypeUtils.parseDouble( String str );20;26;55
+TypeUtils.loadClass( String className );1;0;3
+TypeUtils.getClassFromMapping( String className );1;0;3
+TypeUtils.apply( Object obj , Class clazz );4;3;12
+TypeUtils.longExtractValue( Number number );2;0;6
+TypeUtils.getClass( Type type );9;2;22
+TypeUtils.getCollectionItemClass( Type fieldType );8;2;23
+TypeUtils.getAnnotation( Field field , Class < A > annotationClass );13;6;30
+TypeUtils.isKotlinIgnore( Class clazz , String methodName );6;7;25
+TypeUtils.isPath( Class < ? > clazz );5;4;13
+TypeUtils.getRawClass( Type type );7;1;17
+TypeUtils.isGenericParamType( Type type );5;2;10
+TypeUtils.castToBigInteger( Object value );15;10;35
+TypeUtils.castToChar( Object value );6;3;19
+TypeUtils.getKotlinConstructor( Constructor [ ] constructors );1;0;3
+TypeUtils.addBaseClassMappings( );4;1;104
+TypeUtils.castToSqlDate( final Object value );1;0;3
+TypeUtils.isJacksonCreator( Method method );7;6;13
+TypeUtils.shortValue( BigDecimal decimal );4;5;10
+TypeUtils.isHibernateInitialized( Object object );8;5;21
+TypeUtils.parseFloat( String str );20;26;55
+TypeUtils.getXmlAccessorType( Class clazz );5;4;13
+TypeUtils.isProxy( Class < ? > clazz );4;0;9
+TypeUtils.cast( final Object obj , final Class < T > clazz , ParserConfig config );54;52;144
+TypeUtils.fnv1a_64_extract( String key );6;11;15
+TypeUtils.loadClass( String className , ClassLoader classLoader );1;0;3
+TypeUtils.getCollectionItemType( Class < ? > clazz );2;0;5
+TypeUtils.getField( Class < ? > clazz , String fieldName , Field [ ] declaredFields );12;13;20
+TypeUtils.getActualType( Type typeParameter , Map < TypeVariable , Type > actualTypeMap );4;0;10
+TypeUtils.castToSqlTime( final Object value );1;0;3
+TypeUtils.isAnnotationPresentManyToMany( Method method );8;7;13
+TypeUtils.num( char c0 , char c1 , char c2 , char c3 , char c4 , char c5 , char c6 , char c7 , char c8 );19;61;32
+TypeUtils.castToBoolean( Object value );17;10;39
+TypeUtils.getWildcardTypeUpperBounds( Type type );3;1;8
+TypeUtils.computeGetters( Class < ? > clazz , Map < String , String > aliasMap );1;0;3
+TypeUtils.byteValue( BigDecimal decimal );4;5;10
+TypeUtils.clearClassMapping( );1;0;4
+TypeUtils.getFieldInfos( Class < ? > clazz , boolean sorted , Map < String , FieldInfo > fieldInfoMap );8;5;28
+TypeUtils.isJSONTypeIgnore( Class < ? > clazz , String propertyName );9;5;25
+MethodInheritanceComparator.compare( Method m1 , Method m2 );7;2;18
+TypeUtils.castToLong( Object value );18;10;50
+TypeUtils.setAccessible( AccessibleObject obj );4;1;13
+TypeUtils.getSerializeFeatures( Class < ? > clazz );2;1;7
+TypeUtils.computeGettersWithFieldBase( Class < ? > clazz , Map < String , String > aliasMap , boolean sorted , PropertyNamingStrategy propertyNamingStrategy );3;1;8
+TypeUtils.buildBeanInfo( Class < ? > beanType , Map < String , String > aliasMap , PropertyNamingStrategy propertyNamingStrategy );1;0;3
+TypeUtils.getParserFeatures( Class < ? > clazz );2;1;7
+TypeUtils.getCollectionItemType( ParameterizedType parameterizedType );8;2;18
+TypeUtils.castToDate( Object value , String format );39;34;109
+TypeUtils.unwrapOptional( Type type );5;2;17
+TypeUtils.decapitalize( String name );6;6;11
+TypeUtils.getGenericParamType( Type type );4;0;9
+TypeUtils.getCollectionItemType( Type fieldType );5;0;9
+TypeUtils.castToDouble( Object value );10;6;24
+TypeUtils.cast( Object obj , ParameterizedType type , ParserConfig mapping );40;37;104
+TypeUtils.computeFields( Class < ? > clazz , Map < String , String > aliasMap , PropertyNamingStrategy propertyNamingStrategy , Map < String , FieldInfo > fieldInfoMap , Field [ ] fields );11;8;39
+TypeUtils.getKoltinConstructorParameters( Class clazz );21;19;67
+TypeUtils.fnv1a_64_lower( String key );4;8;12
+TypeUtils.getAnnotation( Method method , Class < A > annotationClass );14;6;31
+TypeUtils.castToJavaBean( Map < String , Object > map , Class < T > clazz , ParserConfig config );31;18;102
+TypeUtils.makeParameterizedType( Class < ? > rawClass , Type [ ] typeParameters , Map < TypeVariable , Type > actualTypeMap );2;2;8
+TypeUtils.computeGetters( Class < ? > clazz , JSONType jsonType , Map < String , String > aliasMap , Map < String , Field > fieldCacheMap , boolean sorted , PropertyNamingStrategy propertyNamingStrategy );98;87;311

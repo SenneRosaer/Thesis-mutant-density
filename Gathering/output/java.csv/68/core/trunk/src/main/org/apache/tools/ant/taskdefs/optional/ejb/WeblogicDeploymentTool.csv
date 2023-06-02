@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WeblogicDeploymentTool.getEjbcClass( );1;0;3
+WeblogicDeploymentTool.isRebuildRequired( File genericJarFile , File weblogicJarFile );32;19;145
+WeblogicDeploymentTool.registerKnownDTDs( DescriptorHandler handler );1;0;6
+WeblogicDeploymentTool.setWeblogicdtd( String inString );1;0;3
+WeblogicDeploymentTool.getClassLoaderFromJar( File classjar );2;1;9
+WeblogicDeploymentTool.setNoEJBC( boolean noEJBC );1;0;3
+WeblogicDeploymentTool.setKeepgeneric( boolean inValue );1;0;3
+WeblogicDeploymentTool.setJvmargs( String args );1;0;3
+WeblogicDeploymentTool.processElement( );2;0;10
+WeblogicDeploymentTool.setSuffix( String inString );1;0;3
+WeblogicDeploymentTool.validateConfigured( );1;0;3
+WeblogicDeploymentTool.setWLClasspath( Path wlClasspath );1;0;3
+WeblogicDeploymentTool.addVendorFiles( Hashtable ejbFiles , String ddPrefix );6;6;44
+WeblogicDeploymentTool.setJvmDebugLevel( Integer jvmDebugLevel );1;0;3
+WeblogicDeploymentTool.setArgs( String args );1;0;3
+WeblogicDeploymentTool.setNewCMP( boolean newCMP );1;0;3
+WeblogicDeploymentTool.setEJBdtd( String inString );1;0;3
+WeblogicDeploymentTool.setWLdtd( String inString );1;0;3
+WeblogicDeploymentTool.getJvmDebugLevel( );1;0;3
+WeblogicDeploymentTool.createWLClasspath( );2;1;6
+WeblogicDeploymentTool.addSysproperty( Environment . Variable sysp );1;0;3
+WeblogicDeploymentTool.setKeepgenerated( String inValue );1;0;3
+WeblogicDeploymentTool.setCompiler( String compiler );1;0;3
+WeblogicDeploymentTool.setRebuild( boolean rebuild );1;0;3
+WeblogicDeploymentTool.getVendorOutputJarFile( String baseName );1;1;3
+WeblogicDeploymentTool.buildWeblogicJar( File sourceJar , File destJar , String publicId );23;17;88
+WeblogicDeploymentTool.writeJar( String baseName , File jarFile , Hashtable files , String publicId );4;2;12
+WeblogicDeploymentTool.setEjbcClass( String ejbcClass );1;0;3
+WeblogicDeploymentTool.setOldCMP( boolean oldCMP );1;1;3
+WeblogicDeploymentTool.setOutputDir( File outputDir );1;0;3
+WeblogicDeploymentTool.getWeblogicDescriptorHandler( final File srcDir );3;0;26

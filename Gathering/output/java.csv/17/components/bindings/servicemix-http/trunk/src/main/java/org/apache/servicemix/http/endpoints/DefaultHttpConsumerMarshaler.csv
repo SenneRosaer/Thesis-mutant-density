@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultHttpConsumerMarshaler.DefaultHttpConsumerMarshaler( );1;0;3
+DefaultHttpConsumerMarshaler.getDefaultMep( );1;0;3
+DefaultHttpConsumerMarshaler.sendError( MessageExchange exchange , Exception error , HttpServletRequest request , HttpServletResponse response );1;0;17
+DefaultHttpConsumerMarshaler.sendOut( MessageExchange exchange , NormalizedMessage outMsg , HttpServletRequest request , HttpServletResponse response );1;0;13
+DefaultHttpConsumerMarshaler.DefaultHttpConsumerMarshaler( URI defaultMep );1;0;3
+DefaultHttpConsumerMarshaler.setDefaultMep( URI defaultMep );1;0;3
+DefaultHttpConsumerMarshaler.sendAccepted( MessageExchange exchange , HttpServletRequest request , HttpServletResponse response );1;0;3
+DefaultHttpConsumerMarshaler.sendFault( MessageExchange exchange , Fault fault , HttpServletRequest request , HttpServletResponse response );1;0;10
+DefaultHttpConsumerMarshaler.createExchange( HttpServletRequest request , ComponentContext context );1;0;8

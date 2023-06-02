@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestBeanSmartFactoryBean.TestBeanSmartFactoryBean( boolean singleton , boolean prototype );1;0;4
+BeanFactoryUtilsTests.setup( );1;0;12
+BeanFactoryUtilsTests.findAnnotationOnBean( );1;0;5
+BeanFactoryUtilsTests.testFindsBeansOfTypeWithDefaultFactory( );2;0;55
+TestBeanSmartFactoryBean.getObject( );1;0;3
+BeanFactoryUtilsTests.testNoBeansOfType( );2;0;6
+BeanFactoryUtilsTests.testHierarchicalNamesForAnnotationWithNoMatch( );1;0;5
+BeanFactoryUtilsTests.testGetBeanNamesForAnnotationWithOverride( );1;0;9
+BeanFactoryUtilsTests.testBDependencies( );1;0;4
+BeanFactoryUtilsTests.testGetBeanNamesForTypeWithOverride( );1;0;9
+BeanFactoryUtilsTests.testHierarchicalNamesWithNoMatch( );1;0;5
+BeanFactoryUtilsTests.testCDependencies( );1;0;4
+BeanFactoryUtilsTests.testADependencies( );1;0;4
+BeanFactoryUtilsTests.testHierarchicalNamesForAnnotationWithMatchOnlyInRoot( );1;1;7
+TestBeanSmartFactoryBean.isPrototype( );1;0;3
+BeanFactoryUtilsTests.testHierarchicalCountBeansWithNonHierarchicalFactory( );1;1;6
+TestBeanSmartFactoryBean.isSingleton( );1;0;3
+BeanFactoryUtilsTests.testFindsBeansOfTypeWithStaticFactory( );2;0;27
+TestBeanSmartFactoryBean.getObjectType( );1;0;3
+BeanFactoryUtilsTests.assertControllerAdvice( ListableBeanFactory lbf , String beanName );1;0;6
+BeanFactoryUtilsTests.testHierarchicalNamesWithMatchOnlyInRoot( );1;1;7
+BeanFactoryUtilsTests.testHierarchicalResolutionWithOverride( );2;0;32
+BeanFactoryUtilsTests.testFindAnnotationOnBean( ListableBeanFactory lbf );1;0;4
+BeanFactoryUtilsTests.testHierarchicalCountBeansWithOverride( );1;2;4
+BeanFactoryUtilsTests.isSingletonAndIsPrototypeWithStaticFactory( );2;0;60
+BeanFactoryUtilsTests.findAnnotationOnBeanWithStaticFactory( );1;0;6
+BeanFactoryUtilsTests.testIntDependencies( );1;0;4

@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InterceptFieldTransformer.callbackName( Type type );2;1;5
+InterceptFieldTransformer.writeCallbackSig( Type type );1;0;9
+InterceptFieldTransformer.remap( Type type );3;0;9
+InterceptFieldTransformer.begin_method( int access , Signature sig , Type [ ] exceptions );5;0;26
+InterceptFieldTransformer.writeMethodSig( String name , String desc );1;0;3
+InterceptFieldTransformer.helper( Type owner , Signature sig );1;0;3
+InterceptFieldTransformer.addWriteMethod( String name , Type type );2;1;29
+InterceptFieldTransformer.visitFieldInsn( int opcode , String owner , String name , String desc );5;0;18
+InterceptFieldTransformer.InterceptFieldTransformer( InterceptFieldFilter filter );1;0;3
+InterceptFieldTransformer.readCallbackSig( Type type );1;0;8
+InterceptFieldTransformer.begin_class( int version , int access , String className , Type superType , Type [ ] interfaces , String sourceFile );2;2;23
+InterceptFieldTransformer.readMethodSig( String name , String desc );1;0;3
+InterceptFieldTransformer.addReadMethod( String name , Type type );2;1;26
+InterceptFieldTransformer.declare_field( int access , String name , Type type , Object value );4;1;11

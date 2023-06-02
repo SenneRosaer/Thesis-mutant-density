@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+InlineDelegateByteBuddyMockMaker.newInstance( Class < T > cls );11;2;36
+InlineConstructionMockControl.enable( );3;2;31
+InlineDelegateByteBuddyMockMaker.doCreateMock( MockCreationSettings < T > settings , MockHandler handler , boolean nullOnNonInlineConstruction );7;1;35
+InlineConstructionMockContext.InlineConstructionMockContext( Object [ ] arguments , Class < ? > type , String [ ] parameterTypeNames );1;0;5
+InlineDelegateByteBuddyMockMaker.resetMock( Object mock , MockHandler newHandler , MockCreationSettings settings );9;4;24
+InlineConstructionMockContext.constructor( );7;2;30
+InlineConstructionMockContext.arguments( );1;0;3
+InlineConstructionMockControl.getType( );1;0;3
+InlineDelegateByteBuddyMockMaker.mockable( );2;2;3
+InlineConstructionMockControl.InlineConstructionMockControl( Class < T > type , Function < MockedConstruction . Context , MockCreationSettings < T > > settingsFactory , Function < MockedConstruction . Context , MockHandler < T > > handlerFactory , MockedConstruction . MockInitializer < T > mockInitializer , Map < Class < ? > , BiConsumer < Object , MockedConstruction . Context > > interceptors );1;0;7
+InlineDelegateByteBuddyMockMaker.InlineDelegateByteBuddyMockMaker( );27;13;119
+InlineStaticMockControl.disable( );2;1;13
+InlineDelegateByteBuddyMockMaker.isTypeMockable( final Class < ? > type );5;0;21
+InlineDelegateByteBuddyMockMaker.prettifyFailure( MockCreationSettings < T > mockFeatures , Exception generationFailed );4;0;50
+InlineStaticMockControl.InlineStaticMockControl( Class < T > type , Map < Class < ? > , MockMethodInterceptor > interceptors , MockCreationSettings < T > settings , MockHandler handler );1;0;6
+InlineDelegateByteBuddyMockMaker.createMockType( MockCreationSettings < T > settings );2;0;13
+InlineConstructionMockControl.getMocks( );1;0;3
+InlineDelegateByteBuddyMockMaker.makeStandardArgument( Class < ? > type );9;8;21
+InlineDelegateByteBuddyMockMaker.createMock( MockCreationSettings < T > settings , MockHandler handler );1;0;3
+***not in a method***;0;4;0
+InlineStaticMockControl.getType( );1;0;3
+InlineConstructionMockContext.getCount( );2;1;7
+InlineConstructionMockControl.disable( );2;1;14
+InlineDelegateByteBuddyMockMaker.clearAllMocks( );1;0;4
+InlineDelegateByteBuddyMockMaker.getHandler( Object mock );6;2;14
+InlineDelegateByteBuddyMockMaker.createStaticMock( Class < T > type , MockCreationSettings < T > settings , MockHandler handler );8;8;23
+InlineDelegateByteBuddyMockMaker.clearMock( Object mock );6;0;9
+InlineDelegateByteBuddyMockMaker.nonMockableReason( );4;0;12
+InlineDelegateByteBuddyMockMaker.createConstructionMock( Class < T > type , Function < MockedConstruction . Context , MockCreationSettings < T > > settingsFactory , Function < MockedConstruction . Context , MockHandler < T > > handlerFactory , MockedConstruction . MockInitializer < T > mockInitializer );6;3;21
+InlineDelegateByteBuddyMockMaker.clearAllCaches( );1;0;4
+InlineStaticMockControl.enable( );2;1;12
+InlineDelegateByteBuddyMockMaker.createSpy( MockCreationSettings < T > settings , MockHandler handler , T object );2;1;11

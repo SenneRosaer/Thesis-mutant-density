@@ -1,0 +1,115 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PSVIWriter.checkForChildren( );3;2;13
+PSVIWriter.translateValidationAttempted( short val );4;0;12
+PSVIWriter.setDocumentHandler( XMLDocumentHandler documentHandler );1;0;3
+PSVIWriter.processPSVIAttributeDeclaration( XSAttributeDeclaration attr );2;1;14
+PSVIWriter.processPSVIAttributeUses( XSObjectList uses );4;5;17
+PSVIWriter.processPSVIElementDeclarationRef( XSElementDeclaration elem );2;1;5
+PSVIWriter.processPSVIAttributeWildcard( XSWildcard wildcard );2;1;10
+PSVIWriter.processingInstruction( String target , XMLString data , Augmentations augs );2;1;9
+PSVIWriter.translateCompositor( short comp );4;0;12
+PSVIWriter.getFeatureDefault( String featureId );3;2;8
+PSVIWriter.processPSVIElementDeclaration( XSElementDeclaration elem );2;1;24
+PSVIWriter.processPSVIEndElement( Augmentations augs );4;2;42
+PSVIWriter.sendElementEvent( String elementName , String elementValue );1;0;3
+PSVIWriter.processPSVIValueConstraint( short constraintType , String constraintValue );2;1;10
+PSVIWriter.processPSVIComplexTypeDefinition( XSComplexTypeDefinition type );5;5;35
+PSVIWriter.endDocument( Augmentations augs );2;1;12
+PSVIWriter.processPSVITypeDefinitionOrRef( String enclose , XSTypeDefinition type );4;3;14
+PSVIWriter.processDOMElement( Node node , String elementName , String tagName );8;6;43
+PSVIWriter.translateOrdered( short ordered );4;0;12
+ElementState.ElementState( boolean value );1;0;3
+PSVIWriter.processPSVITypeDefinitionRef( String enclose , XSTypeDefinition type );4;3;18
+PSVIWriter.translateScope( short scope );4;0;12
+PSVIWriter.translateConstraintType( short type );4;0;12
+PSVIWriter.getRecognizedProperties( );1;0;3
+PSVIWriter.textDecl( String version , String encoding , Augmentations augs );1;0;2
+PSVIWriter.processPSVIAnnotations( XSObjectList annotations );7;8;21
+PSVIWriter.processPSVIStartElement( Augmentations augs );3;2;8
+PSVIWriter.processInScopeNamespaces( );2;0;17
+PSVIWriter.processPSVIWildcard( XSWildcard wildcard );5;8;26
+PSVIWriter.createQName( String rawname );2;3;14
+PSVIWriter.processPSVIElementDeclarationOrRef( XSElementDeclaration elem );4;3;11
+PSVIWriter.processPSVINamespaceItem( XSNamespaceItem item );4;3;14
+PSVIWriter.sendElementEvent( String elementName , XMLString elementValue );1;0;3
+PSVIWriter.createID( XSObject obj );6;11;18
+PSVIWriter.setProperty( String propertyId , Object value );1;0;2
+PSVIWriter.processPSVISubstitutionGroupAffiliation( XSElementDeclaration elem );2;1;9
+PSVIWriter.setDocumentSource( XMLDocumentSource source );1;0;3
+PSVIWriter.translateBlockOrFinal( short val );10;23;27
+PSVIWriter.sendIndentedElement( String tagName , Vector attributes );1;1;6
+PSVIWriter.sendStartElementEvent( String tagname , Vector attributes );1;0;6
+PSVIWriter.endCDATA( Augmentations augs );1;0;2
+PSVIWriter.processNamespaceAttributes( XMLAttributes attributes );5;4;26
+PSVIWriter.processPSVISchemaErrorCode( StringList errorCodes );4;7;11
+PSVIWriter.translateDerivation( short deriv );7;0;18
+PSVIWriter.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );4;3;11
+PSVIWriter.sendUnIndentedElement( String tagName );1;1;6
+PSVIWriter.translateVariety( short var );5;0;14
+PSVIWriter.processPSVIFields( StringList fields );4;5;12
+PSVIWriter.getPropertyDefault( String propertyId );3;2;8
+PSVIWriter.processPSVIFacets( XSSimpleTypeDefinition type );11;16;42
+PSVIWriter.reset( XMLComponentManager componentManager );2;0;15
+PSVIWriter.endGeneralEntity( String name , Augmentations augs );1;0;2
+PSVIWriter.getID( XSObject obj );3;2;10
+PSVIWriter.processPSVIParticle( XSParticle part );6;2;31
+PSVIWriter.processPSVIAttributeGroupDefinition( XSAttributeGroupDefinition ag );2;1;11
+PSVIWriter.processPSVIAttribute( Augmentations augs );5;3;41
+PSVIWriter.processPSVIModelGroupDefinition( XSModelGroupDefinition mgd );2;1;13
+PSVIWriter.processDOMAttributes( Element elem );13;10;67
+PSVIWriter.sendElementEvent( String elementName , Vector attributes , XMLString elementValue );4;3;18
+PSVIWriter.startGeneralEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );1;0;2
+***not in a method***;0;1;0
+PSVIWriter.sendEndElementEvent( String tagname );1;0;3
+PSVIWriter.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );4;1;20
+PSVIWriter.ignorableWhitespace( XMLString text , Augmentations augs );3;1;7
+PSVIWriter.processPSVIIdentityConstraintDefinitions( XSNamedMap constraints );4;5;32
+PSVIWriter.translateType( short type );10;0;24
+PSVIWriter.sendEmptyElementEvent( String tagname );1;0;3
+PSVIWriter.processPSVIXPath( String path );1;0;5
+PSVIWriter.getDocumentSource( );1;0;3
+PSVIWriter.translateFacetKind( short kind );13;0;30
+PSVIWriter.processPSVIModelGroup( XSModelGroup mg );2;1;14
+PSVIWriter.translateProcessContents( short process );4;0;12
+PSVIWriter.sendIndentedElementWithID( String elementName , XSObject obj );1;0;9
+PSVIWriter.characters( XMLString text , Augmentations augs );2;1;8
+PSVIWriter.processPSVIParticles( XSObjectList particles );4;5;12
+PSVIWriter.processPSVIElementRef( String elementName , XSObject obj );1;0;3
+PSVIWriter.processPSVISchemaInformation( ElementPSVI elemPSVI );6;7;17
+PSVIWriter.startCDATA( Augmentations augs );1;0;2
+PSVIWriter.translateValueConstraintType( short type );3;0;10
+PSVIWriter.getRecognizedFeatures( );1;0;3
+PSVIWriter.translateCategory( short cat );4;0;12
+PSVIWriter.startElement( QName element , XMLAttributes attributes , Augmentations augs );3;1;16
+ElementState.getAttributes( );1;0;3
+ElementState.isEmpty( boolean value );1;0;3
+PSVIWriter.translateContentType( short contentType );5;0;14
+PSVIWriter.setFeature( String featureId , boolean state );1;0;2
+PSVIWriter.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );2;1;29
+PSVIWriter.translateValidity( short val );4;0;12
+PSVIWriter.createAttributes( Vector atts );3;5;12
+PSVIWriter.sendIndentedElement( String tagName );1;0;3
+PSVIWriter.PSVIWriter( );1;0;2
+PSVIWriter.sendElementEvent( String elementName , Vector attributes , String elementValue );2;1;10
+PSVIWriter.sendEmptyElementEvent( String tagname , Vector attributes );1;0;8
+PSVIWriter.processPSVISchemaComponents( XSNamespaceItem item );8;13;37
+PSVIWriter.sendElementEvent( String elementName );1;0;3
+PSVIWriter.sendIndent( );3;4;10
+PSVIWriter.processPSVIAttributeDeclarationRef( XSAttributeDeclaration att );3;2;14
+PSVIWriter.comment( XMLString text , Augmentations augs );2;1;8
+PSVIWriter.sendNewLine( );1;0;3
+PSVIWriter.xmlDecl( String version , String encoding , String standalone , Augmentations augs );2;1;7
+ElementState.ElementState( XMLAttributes attributes );1;0;4
+PSVIWriter.processPSVIElementRef( String elementName , Vector attributes , XSObject obj );3;2;12
+PSVIWriter.processPSVIMemberTypeDefinitions( XSObjectList memTypes );4;5;14
+PSVIWriter.processPSVITypeDefinition( XSTypeDefinition type );4;3;14
+PSVIWriter.processAttributes( XMLAttributes attributes );10;6;48
+PSVIWriter.processPSVINotationDeclaration( XSNotationDeclaration not );2;1;14
+PSVIWriter.processPSVIScope( String enclose , XSComplexTypeDefinition enclosingCTD , short scope );3;3;7
+PSVIWriter.endElement( QName element , Augmentations augs );4;1;17
+PSVIWriter.processPSVISchemaDocuments( XSNamespaceItem item );5;6;16
+PSVIWriter.processPSVISimpleTypeDefinition( XSSimpleTypeDefinition type );2;1;40
+PSVIWriter.processPSVIAttributeDeclarationOrRef( XSAttributeDeclaration att );4;3;11
+PSVIWriter.processPSVISchemaAnnotations( XSObjectList annotations );4;5;12
+PSVIWriter.processPSVIAnnotation( XSAnnotation ann );2;1;21
+PSVIWriter.getDocumentHandler( );1;0;3

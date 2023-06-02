@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StandardBenchmarker.getAllFiles( File srcDir , FileFilter filter , List allFiles );3;2;15
+StandardBenchmarker.makeIndex( TestRunData trd , File srcDir , IndexWriter iw , boolean stored , boolean tokenized , boolean tfv , StandardOptions options );5;9;32
+StandardBenchmarker.makeDocument( File in , String [ ] tags , boolean stored , boolean tokenized , boolean tfv );18;18;38
+StandardBenchmarker.StandardBenchmarker( );1;0;2
+StandardBenchmarker.runBenchmark( TestData params , StandardOptions options );19;17;109
+StandardBenchmarker.saveStream( InputStream is , File out , boolean closeInput );4;5;25
+StandardBenchmarker.benchmark( File workingDir , BenchmarkOptions opts );3;2;37
+StandardBenchmarker.reset( File indexDir );2;0;7
+StandardBenchmarker.getSourceDirectory( File workingDir );1;0;3
+StandardBenchmarker.createQueries( List qs , Analyzer a );6;3;33

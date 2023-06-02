@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SessionImpl.SessionImpl( SessionBean sessionBean );1;0;5
+SessionImpl.getSessionBean( );1;0;3
+SessionImpl.isSessionFinished( );2;1;7
+SessionImpl.incrementInProgress( );2;1;6
+SessionImpl.getEndDateString( );1;0;3
+***not in a method***;0;2;0
+SessionImpl.sessionEnd( );1;0;3
+SessionImpl.getStartDateString( );1;0;3
+SessionImpl.inProgressCnt( );1;0;3
+SessionImpl.getDescription( );1;0;3
+SessionImpl.checkSessionComplete( );7;6;24
+SessionImpl.isSessionStarted( );3;3;7
+SessionImpl.getSessionName( );1;0;3
+SessionImpl.getTestUser( );1;0;3
+SessionImpl.decrementInProgress( );2;1;6
+SessionImpl.error( String msg );1;0;3
+SessionImpl.sessionEnd( long loopTimeout , long hardTimeout );12;13;42
+SessionImpl.error( String msg , Exception e );1;0;3
+SessionImpl.setEndDate( Calendar endDate );1;0;3
+SessionImpl.toString( );1;0;14
+SessionImpl.error( String msg , Exception e , boolean unrecoverable );4;2;16
+SessionImpl.setSessionState( int sessionState );1;0;3
+SessionImpl.closeSession( );3;1;10
+SessionImpl.getSessionState( );1;0;3
+SessionImpl.setTestUser( String testUser );1;0;3
+SessionImpl.setStartDate( Calendar startDate );1;0;3
+SessionImpl.setDescription( String description );1;0;3

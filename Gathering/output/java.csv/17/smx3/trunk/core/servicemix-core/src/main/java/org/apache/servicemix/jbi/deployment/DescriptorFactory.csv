@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DescriptorFactory.warning( SAXParseException exception );1;0;3
+DescriptorFactory.checkServiceAssembly( List < String > violations , ServiceAssembly serviceAssembly );3;1;9
+DescriptorFactory.parseSharedLibrary( Element child );6;2;21
+DescriptorFactory.error( SAXParseException exception );1;0;3
+DescriptorFactory.getAttribute( Element e , String name );2;0;7
+DescriptorFactory.isBlank( String str );5;5;15
+DescriptorFactory.parseServiceUnit( Element child );4;1;25
+DescriptorFactory.checkServiceUnit( List < String > violations , Services services );1;0;2
+DescriptorFactory.getText( Element e );1;0;3
+DescriptorFactory.parseServiceAssembly( Element child );16;5;54
+DescriptorFactory.getDescriptorAsText( File descriptorFile );4;0;16
+DescriptorFactory.checkDescriptor( Descriptor descriptor );7;6;21
+DescriptorFactory.buildDescriptor( File descriptorFile );4;0;13
+DescriptorFactory.buildDescriptor( final URL url );6;0;46
+DescriptorFactory.checkComponent( List < String > violations , Component component );6;5;15
+DescriptorFactory.checkSharedLibrary( List < String > violations , SharedLibrary sharedLibrary );3;1;9
+DescriptorFactory.parseComponent( Element child );14;5;55
+DescriptorFactory.readAttributeQName( Element e , String name );2;1;8
+DescriptorFactory.DescriptorFactory( );1;0;2
+DescriptorFactory.fatalError( SAXParseException exception );1;0;3
+DescriptorFactory.readIdentification( Element e );4;1;11

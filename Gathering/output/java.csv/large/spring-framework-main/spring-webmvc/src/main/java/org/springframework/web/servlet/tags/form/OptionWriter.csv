@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OptionWriter.renderFromArray( TagWriter tagWriter );1;0;3
+OptionWriter.writeCommonAttributes( TagWriter tagWriter );1;0;2
+OptionWriter.renderFromEnum( TagWriter tagWriter );2;0;3
+OptionWriter.writeOptions( TagWriter tagWriter );7;1;18
+OptionWriter.processOptionValue( String resolvedValue );1;0;3
+OptionWriter.OptionWriter( Object optionSource , BindStatus bindStatus , @ Nullable String valueProperty , @ Nullable String labelProperty , boolean htmlEscape );1;0;9
+OptionWriter.renderFromCollection( TagWriter tagWriter );2;0;3
+OptionWriter.getDisplayString( @ Nullable Object value );2;1;4
+OptionWriter.doRenderFromCollection( Collection < ? > optionCollection , TagWriter tagWriter );6;2;17
+OptionWriter.renderFromMap( TagWriter tagWriter );10;2;14
+OptionWriter.isOptionSelected( @ Nullable Object resolvedValue );1;0;3
+OptionWriter.renderOption( TagWriter tagWriter , Object item , @ Nullable Object value , @ Nullable Object label );5;3;16
+OptionWriter.isOptionDisabled( );1;0;3

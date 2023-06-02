@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractCachingProcessingPipeline.releaseLock( Object key );7;6;24
+AbstractCachingProcessingPipeline.generateCachingKey( Environment environment );11;9;51
+AbstractCachingProcessingPipeline.connectPipeline( Environment environment );4;3;8
+AbstractCachingProcessingPipeline.processReader( Environment environment );31;22;134
+AbstractCachingProcessingPipeline.setSerializer( String role , String source , Parameters param , Parameters hintParam , String mimeType );1;0;4
+AbstractCachingProcessingPipeline.getValidityForInternalPipeline( int index );8;7;22
+AbstractCachingProcessingPipeline.setupFromCacheKey( );1;0;4
+DeferredPipelineValidity.DeferredPipelineValidity( AbstractCachingProcessingPipeline pipeline , int index );1;0;4
+AbstractCachingProcessingPipeline.setupPipeline( Environment environment );2;1;8
+AbstractCachingProcessingPipeline.setupValidities( );11;16;42
+AbstractCachingProcessingPipeline.waitForLock( Object key );8;6;31
+AbstractCachingProcessingPipeline.addTransformer( String role , String source , Parameters param , Parameters hintParam );1;0;4
+AbstractCachingProcessingPipeline.setReader( String role , String source , Parameters param , String mimeType );1;0;4
+AbstractCachingProcessingPipeline.recycle( );1;0;11
+AbstractCachingProcessingPipeline.setGenerator( String role , String source , Parameters param , Parameters hintParam );1;0;4
+AbstractCachingProcessingPipeline.getValidityForEventPipeline( );15;20;38
+AbstractCachingProcessingPipeline.processXMLPipeline( Environment environment );23;19;85
+AbstractCachingProcessingPipeline.validatePipeline( Environment environment );37;33;135
+AbstractCachingProcessingPipeline.generateLock( Object key );7;4;21
+AbstractCachingProcessingPipeline.getKeyForEventPipeline( );8;10;16
+AbstractCachingProcessingPipeline.parameterize( Parameters params );4;0;14
+DeferredPipelineValidity.getValidity( );1;0;3

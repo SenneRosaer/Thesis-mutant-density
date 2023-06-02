@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultPageFlowEventReporter.actionSuccess( RequestContext requestContext , FlowController flowController , ActionMapping mapping , ActionForm form , ActionForward result , long timeTakenMillis );2;0;14
+LogMsg.addParam( String name , Object value );2;1;11
+DefaultPageFlowEventReporter.flowControllerCreated( RequestContext requestContext , FlowController flowController );2;0;10
+DefaultPageFlowEventReporter.beginPageRequest( RequestContext requestContext );2;0;9
+DefaultPageFlowEventReporter.actionRaised( RequestContext requestContext , FlowController flowController , ActionMapping mapping , ActionForm form );2;0;12
+DefaultPageFlowEventReporter.beginActionRequest( RequestContext requestContext );2;0;9
+DefaultPageFlowEventReporter.endActionRequest( RequestContext requestContext , long timeTakenMillis );2;0;10
+DefaultPageFlowEventReporter.flowControllerRegistered( String modulePath , String controllerClassName , ModuleConfig moduleConfig );2;0;10
+LogMsg.LogMsg( String eventName );1;0;3
+LogMsg.toString( );2;1;3
+DefaultPageFlowEventReporter.flowControllerDestroyed( FlowController flowController , Object storageLocation );2;0;9
+DefaultPageFlowEventReporter.exceptionRaised( RequestContext requestContext , Throwable ex , ActionMapping actionMapping , ActionForm form , FlowController flowController );2;0;13
+DefaultPageFlowEventReporter.DefaultPageFlowEventReporter( ServletContext servletContext );1;0;3
+DefaultPageFlowEventReporter.exceptionHandled( RequestContext requestContext , Throwable ex , ActionMapping actionMapping , ActionForm form , FlowController flowController , ActionForward result , long timeTakenMillis );2;0;15
+DefaultPageFlowEventReporter.endPageRequest( RequestContext requestContext , long timeTakenMillis );2;0;10

@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractJournal.getNamePathResolver( );1;0;3
+AbstractJournal.getProducer( String identifier );2;1;10
+AbstractJournal.lockAndSync( );4;2;24
+AbstractJournal.unregister( RecordConsumer consumer );1;1;6
+AbstractJournal.getMinimalRevision( );3;1;13
+AbstractJournal.getResolver( );1;0;3
+AbstractJournal.init( String id , NamespaceResolver resolver );1;0;5
+AbstractJournal.getId( );1;0;3
+AbstractJournal.register( RecordConsumer consumer );2;0;11
+AbstractJournal.getConsumer( String identifier );1;0;5
+AbstractJournal.createProducer( String identifier );1;0;3
+AbstractJournal.setRepositoryHome( File repHome );1;0;3
+AbstractJournal.getRepositoryHome( );1;0;3
+AbstractJournal.unlock( boolean successful );1;0;4
+AbstractJournal.setRevision( String revision );1;0;3
+AbstractJournal.sync( );2;0;13
+AbstractJournal.appending( AppendRecord record );1;0;2
+AbstractJournal.doSync( long startRevision );6;2;29
+AbstractJournal.getRevision( );1;0;3

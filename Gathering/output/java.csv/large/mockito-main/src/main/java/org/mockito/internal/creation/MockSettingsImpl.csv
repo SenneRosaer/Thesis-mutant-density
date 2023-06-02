@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockSettingsImpl.getMockName( );1;0;3
+MockSettingsImpl.serializable( );1;0;3
+MockSettingsImpl.outerInstance( Object outerClassInstance );1;0;4
+MockSettingsImpl.hasInvocationListeners( );1;1;3
+MockSettingsImpl.getOuterClassInstance( );1;0;3
+MockSettingsImpl.isStubOnly( );1;0;3
+MockSettingsImpl.invocationListeners( InvocationListener ... listeners );1;0;4
+MockSettingsImpl.validatedSettings( Class < T > typeToMock , CreationSettings < T > source );1;0;12
+MockSettingsImpl.isUsingConstructor( );1;0;3
+MockSettingsImpl.withoutAnnotations( );1;0;4
+MockSettingsImpl.invocationListenersContainsType( Class < ? > clazz );3;0;8
+MockSettingsImpl.getDefaultAnswer( );1;0;3
+MockSettingsImpl.build( Class < T2 > typeToMock );1;0;3
+MockSettingsImpl.verificationStartedListeners( VerificationStartedListener ... listeners );1;0;4
+MockSettingsImpl.getSpiedInstance( );1;0;3
+MockSettingsImpl.verboseLogging( );2;1;6
+MockSettingsImpl.getConstructorArgs( );2;3;9
+MockSettingsImpl.validatedStaticSettings( Class < T > classToMock , CreationSettings < T > source );4;2;18
+MockSettingsImpl.name( String name );1;0;4
+MockSettingsImpl.extraInterfaces( Class < ? > ... extraInterfaces );7;5;14
+MockSettingsImpl.stubOnly( );1;0;4
+MockSettingsImpl.getTypeToMock( );1;0;3
+MockSettingsImpl.addListeners( T [ ] listeners , List < T > container , String method );5;3;14
+MockSettingsImpl.mockMaker( String mockMaker );1;0;4
+MockSettingsImpl.prepareExtraInterfaces( CreationSettings settings );3;0;7
+MockSettingsImpl.defaultAnswer( Answer defaultAnswer );2;1;7
+MockSettingsImpl.strictness( Strictness strictness );2;1;7
+MockSettingsImpl.getExtraInterfaces( );1;0;3
+MockSettingsImpl.lenient( );1;0;4
+MockSettingsImpl.useConstructor( Object ... constructorArgs );1;0;9
+MockSettingsImpl.serializable( SerializableMode mode );1;0;4
+MockSettingsImpl.spiedInstance( Object spiedInstance );1;0;4
+MockSettingsImpl.stubbingLookupListeners( StubbingLookupListener ... listeners );1;0;4
+MockSettingsImpl.buildStatic( Class < T2 > classToMock );1;0;3

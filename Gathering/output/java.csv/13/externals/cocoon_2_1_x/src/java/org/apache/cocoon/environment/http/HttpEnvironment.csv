@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+HttpEnvironment.setStatus( int statusCode );1;0;3
+HttpEnvironment.HttpEnvironment( String uri , String root , HttpServletRequest req , HttpServletResponse res , ServletContext servletContext , HttpContext context , String containerEncoding , String defaultFormEncoding );4;3;20
+HttpEnvironment.setContentType( String contentType );1;0;4
+HttpEnvironment.isResponseModified( long lastModified );2;4;8
+HttpEnvironment.tryResetResponse( );6;2;20
+HttpEnvironment.hasRedirected( );1;0;3
+HttpEnvironment.doRedirect( boolean sessionmode , String newURL , boolean permanent );13;10;37
+HttpEnvironment.setContentLength( int length );1;0;3
+HttpEnvironment.getOutputStream( final int bufferSize );2;1;6
+HttpEnvironment.getContentType( );1;0;3
+HttpEnvironment.redirect( boolean sessionmode , String newURL );1;0;3
+HttpEnvironment.isExternal( );1;0;3
+HttpEnvironment.permanentRedirect( boolean sessionmode , String newURL );1;0;3
+HttpEnvironment.sendStatus( int sc );1;0;4
+HttpEnvironment.setResponseIsNotModified( );1;0;3

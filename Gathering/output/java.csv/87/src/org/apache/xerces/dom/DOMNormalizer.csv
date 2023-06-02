@@ -1,0 +1,63 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMNormalizer.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );2;0;7
+XMLAttributesProxy.getType( String uri , String localName );1;0;3
+DOMNormalizer.xmlDecl( String version , String encoding , String standalone , Augmentations augs );1;0;2
+DOMNormalizer.endDocument( Augmentations augs );1;0;2
+DOMNormalizer.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );1;0;2
+DOMNormalizer.startCDATA( Augmentations augs );1;0;2
+XMLAttributesProxy.getAugmentations( String uri , String localPart );1;0;3
+DOMNormalizer.endElement( QName element , Augmentations augs );12;8;37
+XMLAttributesProxy.getValue( String uri , String localName );3;2;7
+XMLAttributesProxy.getValue( String qName );1;0;3
+XMLAttributesProxy.getType( int index );2;1;4
+XMLAttributesProxy.setName( int attrIndex , QName attrName );1;0;2
+XMLAttributesProxy.addAttribute( QName qname , String attrType , String attrValue );2;1;18
+DOMNormalizer.isAttrValueWF( DOMErrorHandler errorHandler , DOMErrorImpl error , DOMLocatorImpl locator , NamedNodeMap attributes , Attr a , String value , boolean xml11Version );8;7;33
+DOMNormalizer.namespaceFixUp( ElementImpl element , AttributeMap attributes );45;51;163
+XMLAttributesProxy.getURI( int index );3;2;9
+XMLAttributesProxy.getName( int attrIndex , QName attrName );2;1;5
+DOMNormalizer.isCDataWF( DOMErrorHandler errorHandler , DOMErrorImpl error , DOMLocatorImpl locator , String datavalue , boolean isXML11Version );30;37;75
+DOMNormalizer.startElement( QName element , XMLAttributes attributes , Augmentations augs );14;10;59
+DOMNormalizer.getDocumentSource( );1;0;3
+XMLAttributesProxy.setSpecified( int attrIndex , boolean specified );1;0;4
+DOMNormalizer.isCommentWF( DOMErrorHandler errorHandler , DOMErrorImpl error , DOMLocatorImpl locator , String datavalue , boolean isXML11Version );22;27;54
+DOMNormalizer.updateQName( Node node , QName qname );5;5;9
+DOMNormalizer.processingInstruction( String target , XMLString data , Augmentations augs );1;0;2
+XMLAttributesProxy.getIndex( String qName );1;1;3
+DOMNormalizer.characters( XMLString text , Augmentations augs );1;0;2
+DOMNormalizer.normalizeAttributeValue( String value , Attr attr );10;15;32
+DOMNormalizer.expandEntityRef( Node parent , Node reference );2;1;7
+XMLAttributesProxy.removeAllAttributes( );1;0;2
+XMLAttributesProxy.getAugmentations( String qName );1;0;3
+XMLAttributesProxy.isSpecified( int attrIndex );1;0;3
+XMLAttributesProxy.getLocalName( int index );3;2;9
+DOMNormalizer.normalizeNode( Node node );88;98;291
+DOMNormalizer.processDTD( String xmlVersion , String schemaLocation );9;9;39
+DOMNormalizer.endCDATA( Augmentations augs );1;0;2
+XMLAttributesProxy.getValue( int index );2;1;3
+XMLAttributesProxy.getIndex( String uri , String localPart );1;1;3
+XMLAttributesProxy.getLength( );2;1;3
+XMLAttributesProxy.getAugmentations( int attributeIndex );1;0;3
+XMLAttributesProxy.getType( String qName );1;0;3
+XMLAttributesProxy.getPrefix( int index );4;4;9
+XMLAttributesProxy.setAttributes( AttributeMap attributes , CoreDocumentImpl doc , ElementImpl elem );3;3;17
+XMLAttributesProxy.getNonNormalizedValue( int attrIndex );1;0;3
+XMLAttributesProxy.setValue( int attrIndex , String attrValue );2;1;8
+DOMNormalizer.addNamespaceDecl( String prefix , String uri , ElementImpl element );5;1;16
+DOMNormalizer.ignorableWhitespace( XMLString text , Augmentations augs );1;0;3
+XMLAttributesProxy.getReportableType( String type );2;1;6
+DOMNormalizer.DOMNormalizer( );1;0;1
+DOMNormalizer.setDocumentSource( XMLDocumentSource source );1;0;2
+DOMNormalizer.endGeneralEntity( String name , Augmentations augs );1;0;2
+XMLAttributesProxy.setAugmentations( int attrIndex , Augmentations augs );1;0;3
+XMLAttributesProxy.removeAttributeAt( int attrIndex );1;0;2
+DOMNormalizer.isXMLCharWF( DOMErrorHandler errorHandler , DOMErrorImpl error , DOMLocatorImpl locator , String datavalue , boolean isXML11Version );16;19;47
+DOMNormalizer.reportDOMError( DOMErrorHandler errorHandler , DOMErrorImpl error , DOMLocatorImpl locator , String message , short severity , String type );4;3;14
+DOMNormalizer.textDecl( String version , String encoding , Augmentations augs );1;0;2
+DOMNormalizer.startGeneralEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );1;0;2
+DOMNormalizer.comment( XMLString text , Augmentations augs );1;0;2
+XMLAttributesProxy.setNonNormalizedValue( int attrIndex , String attrValue );1;0;2
+DOMNormalizer.normalizeDocument( CoreDocumentImpl document , DOMConfigurationImpl config );17;18;79
+XMLAttributesProxy.getQName( int index );2;1;8
+DOMNormalizer.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );1;0;2
+XMLAttributesProxy.setType( int attrIndex , String attrType );1;0;3

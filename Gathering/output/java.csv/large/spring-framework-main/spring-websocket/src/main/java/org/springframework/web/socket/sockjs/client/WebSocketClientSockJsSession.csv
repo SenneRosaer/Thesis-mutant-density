@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebSocketClientSockJsSession.disconnect( CloseStatus status );2;1;5
+WebSocketClientSockJsSession.getTextMessageSizeLimit( );1;1;4
+WebSocketClientSockJsSession.sendInternal( TextMessage textMessage );1;1;4
+WebSocketClientSockJsSession.setBinaryMessageSizeLimit( int messageSizeLimit );1;1;4
+WebSocketClientSockJsSession.WebSocketClientSockJsSession( TransportRequest request , WebSocketHandler handler , org . springframework . util . concurrent . SettableListenableFuture < WebSocketSession > connectFuture );1;0;3
+WebSocketClientSockJsSession.setTextMessageSizeLimit( int messageSizeLimit );1;1;4
+WebSocketClientSockJsSession.WebSocketClientSockJsSession( TransportRequest request , WebSocketHandler handler , CompletableFuture < WebSocketSession > connectFuture );1;0;3
+WebSocketClientSockJsSession.initializeDelegateSession( WebSocketSession session );1;0;3
+WebSocketClientSockJsSession.getRemoteAddress( );1;1;4
+WebSocketClientSockJsSession.getAcceptedProtocol( );1;1;4
+WebSocketClientSockJsSession.getNativeSession( @ Nullable Class < T > requiredType );3;2;3
+WebSocketClientSockJsSession.getLocalAddress( );1;1;4
+WebSocketClientSockJsSession.getExtensions( );1;1;4
+WebSocketClientSockJsSession.getNativeSession( );1;1;4
+WebSocketClientSockJsSession.getBinaryMessageSizeLimit( );1;1;4

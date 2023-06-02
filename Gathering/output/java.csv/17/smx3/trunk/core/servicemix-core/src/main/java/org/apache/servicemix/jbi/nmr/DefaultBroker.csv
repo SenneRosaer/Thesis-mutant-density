@@ -1,0 +1,35 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultBroker.setDefaultInterfaceChooser( EndpointChooser defaultInterfaceChooser );1;0;3
+DefaultBroker.setDefaultServiceChooser( EndpointChooser defaultServiceChooser );1;0;3
+DefaultBroker.getSubscriptionFlowName( );1;0;3
+DefaultBroker.setFlowNames( String flowNames );1;0;3
+DefaultBroker.resolveAddress( MessageExchangeImpl exchange );18;14;62
+DefaultBroker.setDefaultFlowChooser( FlowChooser defaultFlowChooser );1;0;3
+DefaultBroker.start( );2;2;6
+DefaultBroker.getManagementContext( );1;0;3
+DefaultBroker.getContainer( );1;0;3
+DefaultBroker.getOperationInfos( );1;0;6
+DefaultBroker.getMatchingEndpoints( ServiceEndpoint [ ] endpoints , MessageExchangeImpl exchange );6;8;17
+DefaultBroker.getServiceMBean( );1;0;3
+DefaultBroker.sendExchangePacket( MessageExchange me );11;11;34
+DefaultBroker.setFlows( Flow [ ] flows );1;0;3
+DefaultBroker.getFlowNames( );1;0;3
+DefaultBroker.setSubscriptionFlowName( String subscriptionFlowName );1;0;3
+DefaultBroker.suspend( );2;2;5
+DefaultBroker.createEndpointFilter( ComponentContextImpl context , MessageExchangeImpl exchange );2;1;8
+DefaultBroker.getDefaultInterfaceChooser( );1;0;3
+DefaultBroker.getDefaultFlowChooser( );1;0;3
+DefaultBroker.getFlows( );1;0;3
+DefaultBroker.getDescription( );1;0;3
+DefaultBroker.init( JBIContainer container );4;5;17
+DefaultBroker.stop( );2;2;6
+DefaultBroker.resume( );2;2;5
+DefaultBroker.getServiceChooser( MessageExchangeImpl exchange );3;2;11
+DefaultBroker.shutDown( );2;2;9
+DefaultBroker.getSubscriptionManager( );1;0;3
+DefaultBroker.getContainerName( );1;0;3
+DefaultBroker.getDefaultServiceChooser( );1;0;3
+DefaultBroker.getRegistry( );1;0;3
+DefaultBroker.setSubscriptionManager( SubscriptionManager subscriptionManager );1;0;3
+DefaultBroker.DefaultBroker( );1;0;2
+DefaultBroker.getInterfaceChooser( MessageExchangeImpl exchange );3;2;11

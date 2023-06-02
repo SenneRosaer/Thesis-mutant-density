@@ -1,0 +1,86 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LessEqualOperator.buildTree( Stack operands );2;3;8
+GreaterEqualOperator.buildTree( Stack operands );2;3;8
+PushOperator.PushOperator( String attribute );1;0;3
+ConstOperator.toStringInfix( );1;0;3
+Parser.compareBoolean( Object lhs , String rhs , int operator );12;2;40
+Parser.substring( ArrayList pieces );19;8;84
+SubStringOperator.buildTree( Stack operands );1;0;5
+ConstOperator.execute( Stack operands , Mapper mapper );1;0;3
+NotOperator.buildTree( Stack operands );1;0;5
+EqualOperator.toString( );1;0;3
+Parser.Minimum( int a , int b , int c );3;2;13
+ConstOperator.toStringInfix( StringBuffer b );1;0;3
+PresentOperator.toString( );1;0;3
+OrOperator.toStringInfix( StringBuffer b );2;2;9
+NotOperator.execute( Stack operands , Mapper mapper );3;1;8
+PresentOperator.toStringInfix( StringBuffer b );1;0;5
+Parser.debug( String proc );3;3;8
+ConstOperator.ConstOperator( Object val );1;0;3
+AndOperator.toStringInfix( StringBuffer b );2;2;9
+Parser.convertPrimitiveArray( Object array );18;24;76
+Parser.setDebug( PrintStream out );1;0;4
+GreaterEqualOperator.GreaterEqualOperator( );1;0;2
+PushOperator.toStringInfix( StringBuffer b );1;0;3
+Parser.fewOperands( String op );1;0;3
+AndOperator.toString( );1;0;3
+Parser.reset( );2;1;8
+LessEqualOperator.toStringInfix( StringBuffer b );3;3;13
+AndOperator.execute( Stack operands , Mapper mapper );5;3;19
+GreaterEqualOperator.execute( Stack operands , Mapper mapper );4;0;13
+Parser.start( );3;2;14
+Parser.compare( Object lhs , String rhs , int operator );23;10;107
+GreaterEqualOperator.toStringInfix( StringBuffer b );3;3;13
+Parser.filtercomp( );15;4;38
+NotOperator.toString( );1;0;3
+ApproxOperator.toStringInfix( StringBuffer b );3;3;13
+Parser.reset( LdapLexer l );1;0;4
+PresentOperator.buildTree( Stack operands );1;0;3
+GreaterEqualOperator.toString( );1;0;3
+PresentOperator.execute( Stack operands , Mapper mapper );2;1;4
+Parser.compareToApprox( Object obj1 , Object obj2 );21;73;83
+EqualOperator.toStringInfix( StringBuffer b );3;3;13
+Parser.getProgram( );1;0;3
+Parser.appendEscaped( StringBuffer buf , String value );6;9;11
+SubStringOperator.toString( );3;3;15
+***not in a method***;0;1;0
+Parser.Parser( LdapLexer l );1;0;3
+Parser.filter( );4;3;17
+PushOperator.toString( );1;0;3
+AndOperator.buildTree( Stack operands );2;4;9
+EqualOperator.buildTree( Stack operands );2;3;9
+PushOperator.execute( Stack operands , Mapper mapper );2;1;9
+Parser.getDistance( String s , String t );8;22;51
+SubStringOperator.SubStringOperator( String [ ] pieces );1;0;3
+Parser.Parser( );1;0;3
+PresentOperator.PresentOperator( String attribute );1;0;3
+SubStringOperator.escape( String s );4;5;12
+ApproxOperator.ApproxOperator( );1;0;2
+EqualOperator.EqualOperator( );1;0;2
+ApproxOperator.execute( Stack operands , Mapper mapper );4;0;13
+PushOperator.toStringInfix( );1;0;3
+ApproxOperator.toString( );1;0;3
+SubStringOperator.check( String s );7;8;40
+SubStringOperator.execute( Stack operands , Mapper mapper );8;5;28
+SubStringOperator.toStringInfix( StringBuffer b );3;3;15
+LessEqualOperator.execute( Stack operands , Mapper mapper );4;0;13
+OrOperator.buildTree( Stack operands );2;4;9
+OrOperator.OrOperator( int opcnt );1;0;3
+Parser.generateSubStringCode( String attr , ArrayList pieces );1;0;6
+OrOperator.toString( );1;0;3
+PushOperator.buildTree( Stack operands );1;0;3
+Parser.unsupportedType( String opStr , Class clazz );1;1;4
+NotOperator.NotOperator( );1;0;2
+ConstOperator.toString( );1;0;3
+ApproxOperator.buildTree( Stack operands );2;3;8
+Parser.attribute( StringBuffer buf );18;5;44
+LessEqualOperator.LessEqualOperator( );1;0;2
+AndOperator.AndOperator( int opcnt );1;0;3
+LessEqualOperator.toString( );1;0;3
+Parser.equalop( );6;1;24
+EqualOperator.execute( Stack operands , Mapper mapper );4;0;13
+Parser.filterlist( );3;1;13
+Parser.item( String start );12;5;52
+NotOperator.toStringInfix( StringBuffer b );2;2;9
+OrOperator.execute( Stack operands , Mapper mapper );5;2;19
+ConstOperator.buildTree( Stack operands );1;0;3

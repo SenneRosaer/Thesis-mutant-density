@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractCachingViewResolver.clearCache( );1;0;7
+AbstractCachingViewResolver.isCache( );1;1;3
+AbstractCachingViewResolver.removeEldestEntry( Map . Entry < Object , View > eldest );2;1;9
+AbstractCachingViewResolver.render( @ Nullable Map < String , ? > model , HttpServletRequest request , HttpServletResponse response );1;0;2
+AbstractCachingViewResolver.createView( String viewName , Locale locale );1;0;3
+AbstractCachingViewResolver.setCacheFilter( CacheFilter cacheFilter );1;0;4
+AbstractCachingViewResolver.formatKey( Object cacheKey );1;0;3
+AbstractCachingViewResolver.isCacheUnresolved( );1;0;3
+AbstractCachingViewResolver.getCacheLimit( );1;0;3
+AbstractCachingViewResolver.getCacheKey( String viewName , Locale locale );1;2;3
+AbstractCachingViewResolver.getContentType( );1;0;3
+AbstractCachingViewResolver.removeFromCache( String viewName , Locale locale );4;3;17
+AbstractCachingViewResolver.setCacheLimit( int cacheLimit );1;0;3
+AbstractCachingViewResolver.setCacheUnresolved( boolean cacheUnresolved );1;0;3
+AbstractCachingViewResolver.resolveViewName( String viewName , Locale locale );10;8;30
+AbstractCachingViewResolver.getCacheFilter( );1;0;3
+AbstractCachingViewResolver.setCache( boolean cache );2;0;3

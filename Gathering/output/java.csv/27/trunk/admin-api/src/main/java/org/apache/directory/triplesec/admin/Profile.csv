@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Profile.getRoles( );1;0;3
+Profile.modifier( );1;0;3
+Profile.getDenials( );1;0;3
+Profile.getApplicationName( );1;0;3
+Profile.getDescription( );1;0;3
+Profile.getId( );1;0;3
+Profile.Profile( String creatorsName , Date createTimestamp , ProfileDao dao , String applicationName , String id , String user , String description , Set grants , Set denials , Set roles );1;0;4
+Profile.isDisabled( );1;0;3
+Profile.getUser( );1;0;3
+Profile.getGrants( );1;0;3
+Profile.Profile( String creatorsName , Date createTimestamp , String modifiersName , Date modifyTimestamp , ProfileDao dao , String applicationName , String id , String user , String description , Set grants , Set denials , Set roles , boolean disabled );1;0;12
+Profile.toString( );1;0;3

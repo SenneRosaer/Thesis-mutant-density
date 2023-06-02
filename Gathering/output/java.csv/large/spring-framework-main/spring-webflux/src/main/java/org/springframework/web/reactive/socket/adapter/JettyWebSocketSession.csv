@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JettyWebSocketSession.isOpen( );1;0;3
+JettyWebSocketSession.canSuspendReceiving( );1;0;3
+JettyWebSocketSession.sendMessage( WebSocketMessage message );5;0;22
+JettyWebSocketSession.JettyWebSocketSession( Session session , HandshakeInfo info , DataBufferFactory factory , @ Nullable Sinks . Empty < Void > completionSink );1;0;3
+JettyWebSocketSession.close( CloseStatus status );1;0;4
+SendProcessorCallback.writeSuccess( );1;0;4
+SendProcessorCallback.writeFailed( Throwable x );1;0;4
+JettyWebSocketSession.JettyWebSocketSession( Session session , HandshakeInfo info , DataBufferFactory factory );1;0;3
+JettyWebSocketSession.suspendReceiving( );1;1;4
+JettyWebSocketSession.resumeReceiving( );2;1;7

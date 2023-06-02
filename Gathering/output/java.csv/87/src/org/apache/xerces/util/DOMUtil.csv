@@ -1,0 +1,52 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DOMUtil.getAttrs( Element elem );2;2;7
+DOMUtil.isHidden( Node node );3;0;7
+DOMUtil.getFirstChildElementNS( Node parent , String [ ] [ ] elemNames );7;7;16
+DOMUtil.getFirstChildElement( Node parent , String elemNames [ ] );5;4;14
+DOMUtil.getFirstChildElementNS( Node parent , String uri , String localpart );6;5;14
+DOMUtil.getNextVisibleSiblingElement( Node node );4;4;11
+DOMUtil.getLastVisibleChildElement( Node parent , Hashtable hiddenNodes );4;4;11
+DOMUtil.getAttr( Element elem , String name );1;0;3
+DOMUtil.setHidden( Node node );3;0;6
+DOMUtil.getLastChildElement( Node parent , String elemNames [ ] );5;4;14
+DOMUtil.getFirstVisibleChildElement( Node parent );4;4;11
+DOMUtil.createLSException( short code , Throwable cause );5;3;10
+DOMUtil.getLocalName( Node node );2;1;4
+DOMUtil.getNextSiblingElementNS( Node node , String uri , String localpart );6;5;14
+DOMUtil.getFirstChildElement( Node parent );3;2;10
+DOMUtil.getFirstChildElement( Node parent , String elemName );4;2;12
+DOMUtil.DOMUtil( );1;0;1
+DOMUtil.getName( Node node );1;0;3
+DOMUtil.copyInto( Node src , Node dest );14;8;69
+DOMUtil.getLastVisibleChildElement( Node parent );4;4;11
+DOMUtil.getValue( Attr attribute );1;0;3
+DOMUtil.isHidden( Node node , Hashtable hiddenNodes );2;0;8
+DOMUtil.getAttrValueNS( Element elem , String nsUri , String localName );1;0;3
+DOMUtil.getAttrNS( Element elem , String nsUri , String localName );1;0;3
+DOMUtil.getParent( Element elem );2;0;6
+DOMUtil.getNextSiblingElement( Node node , String elemName , String attrName , String attrValue );5;3;14
+DOMUtil.getNamespaceURI( Node node );1;0;3
+DOMUtil.getNextSiblingElement( Node node , String elemNames [ ] );5;4;14
+DOMUtil.getSyntheticAnnotation( Node node );2;0;6
+DOMUtil.getAnnotation( Node node );2;0;6
+DOMUtil.getPrefix( Node node );1;0;3
+DOMUtil.getLastChildElement( Node parent , String elemName );4;2;12
+DOMUtil.setVisible( Node node );3;0;6
+DOMUtil.getNextSiblingElement( Node node , String elemName );4;2;12
+DOMUtil.getNextSiblingElement( Node node );3;2;10
+ThrowableMethods.ThrowableMethods( );1;0;1
+DOMUtil.getNextSiblingElementNS( Node node , String [ ] [ ] elemNames );7;7;16
+DOMUtil.getLastChildElement( Node parent , String elemName , String attrName , String attrValue );5;3;14
+DOMUtil.getFirstVisibleChildElement( Node parent , Hashtable hiddenNodes );4;4;11
+DOMUtil.getDocument( Node node );1;0;3
+DOMUtil.getAttrValue( Element elem , String name );1;0;3
+DOMUtil.getLastChildElementNS( Node parent , String [ ] [ ] elemNames );7;7;16
+DOMUtil.setVisible( Node node , Hashtable hiddenNodes );2;0;8
+DOMUtil.getFirstChildElement( Node parent , String elemName , String attrName , String attrValue );5;3;14
+DOMUtil.getLastChildElement( Node parent );3;2;10
+DOMUtil.createDOMException( short code , Throwable cause );5;3;10
+DOMUtil.getRoot( Document doc );1;0;3
+DOMUtil.getNextVisibleSiblingElement( Node node , Hashtable hiddenNodes );4;4;11
+DOMUtil.setHidden( Node node , Hashtable hiddenNodes );2;0;8
+DOMUtil.getLastChildElementNS( Node parent , String uri , String localpart );6;5;14
+DOMUtil.getChildText( Node node );5;4;18

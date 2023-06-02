@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JbiInWsdl1Interceptor.item( int index );1;0;3
+JbiInWsdl1Interceptor.wrapNodeList( final NodeList childNodes );1;0;10
+JbiInWsdl1Interceptor.isRequestor( Message message );1;0;3
+JbiInWsdl1Interceptor.addPart( Element parent , Node partValue );1;0;6
+JbiInWsdl1Interceptor.getBodyElement( SoapMessage message );2;0;11
+JbiInWsdl1Interceptor.getLength( );1;0;3
+JbiInWsdl1Interceptor.addPart( Element parent , NodeList nodes );2;2;9
+JbiInWsdl1Interceptor.getHeaderElement( SoapMessage message , QName name );9;4;26
+JbiInWsdl1Interceptor.JbiInWsdl1Interceptor( boolean useJBIWrapper , boolean useSOAPEnvelope );1;0;6
+JbiInWsdl1Interceptor.handleMessage( SoapMessage message );23;19;116
+JbiInWsdl1Interceptor.processHeader( SoapMessage message , List < SoapHeaderInfo > headers , List < Header > headerElement , List < Object > parts );7;5;23
+JbiInWsdl1Interceptor.handleJBIFault( SoapMessage message , Element soapFault );8;9;29
+JbiInWsdl1Interceptor.getOperation( Message message );2;1;9
+JbiInWsdl1Interceptor.findHeader( List < Header > headerElement , MessagePartInfo mpi );10;8;25
+JbiInWsdl1Interceptor.addEmptyDefaultTns( Element ret );4;3;13

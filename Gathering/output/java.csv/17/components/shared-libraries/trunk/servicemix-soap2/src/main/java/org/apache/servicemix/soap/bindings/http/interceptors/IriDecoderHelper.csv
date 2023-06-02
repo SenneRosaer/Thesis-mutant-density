@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Param.hashCode( );3;6;7
+Param.getValue( );1;0;3
+Param.equals( Object obj );9;8;18
+Param.getName( );1;0;3
+IriDecoderHelper.getUriPath( String uri );1;2;5
+IriDecoderHelper.findPartEnd( String path , int c );5;6;12
+IriDecoderHelper.getIndexedElement( Element e , int i );4;5;14
+IriDecoderHelper.decode( String uri , String loc , InputStream is );2;1;9
+IriDecoderHelper.interopolateParams( Document doc , XmlSchemaElement element , List < Param > params );11;10;49
+IriDecoderHelper.decodeIri( String uri , String loc );7;12;36
+IriDecoderHelper.buildDocument( XmlSchemaElement element , List < Param > params );6;4;28
+IriDecoderHelper.getElement( Element element , QName name );5;5;12
+IriDecoderHelper.expect( String path , int index , char c );2;1;5
+Param.toString( );1;0;3
+IriDecoderHelper.addParams( String input , int start , int stop , List < Param > params );3;4;12
+IriDecoderHelper.combine( String location , String httpLocation );4;5;13
+Param.Param( String name , String value );1;0;4

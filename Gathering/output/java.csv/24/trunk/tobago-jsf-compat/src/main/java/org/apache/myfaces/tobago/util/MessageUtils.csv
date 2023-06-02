@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MessageUtils.getApplicationBundle( FacesContext facesContext , Locale locale );2;1;4
+MessageUtils.getLabel( FacesContext facesContext , UIComponent component );3;1;10
+MessageUtils.getFormatedMessage( String message , Locale locale , Object ... args );4;5;7
+MessageUtils.getDefaultBundle( FacesContext facesContext , Locale locale );1;0;3
+MessageUtils.getBundleString( ResourceBundle bundle , String key );3;1;7
+MessageUtils.getMessage( FacesContext facesContext , Locale locale , FacesMessage . Severity severity , String messageId , Object ... args );10;13;43
+MessageUtils.addMessage( FacesContext facesContext , UIComponent component , FacesMessage . Severity severity , String messageId , Object [ ] args );1;0;4
+MessageUtils.getBundle( FacesContext facesContext , Locale locale , String bundleName );3;0;12

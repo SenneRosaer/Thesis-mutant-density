@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UCSReader.UCSReader( InputStream inputStream , byte [ ] buffer , short encoding );1;0;5
+UCSReader.UCSReader( InputStream inputStream , short encoding );1;0;3
+UCSReader.read( );8;31;28
+UCSReader.ready( );1;0;3
+UCSReader.close( );1;0;3
+UCSReader.markSupported( );1;0;3
+UCSReader.skip( long n );3;8;6
+UCSReader.UCSReader( InputStream inputStream , int size , short encoding );1;0;3
+UCSReader.read( char ch [ ] , int offset , int length );15;59;60
+UCSReader.mark( int readAheadLimit );1;0;3
+UCSReader.reset( );1;0;3

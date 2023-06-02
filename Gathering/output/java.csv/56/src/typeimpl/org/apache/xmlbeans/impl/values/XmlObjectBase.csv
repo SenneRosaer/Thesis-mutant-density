@@ -1,0 +1,255 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XmlObjectBase.getQNameValue( );1;0;2
+XmlObjectBase.set( QName obj );1;0;1
+XmlObjectBase.check_element_dated( );5;13;13
+XmlObjectBase.validate_immutable( XmlOptions options );10;12;26
+XmlObjectBase.intValue( );1;0;1
+XmlObjectBase.setLongValue( long v );1;0;1
+XmlObjectBase.setBooleanValue( boolean v );1;0;1
+XmlObjectBase.selectAttribute( String attributeUri , String attributeLocalName );1;0;3
+XmlObjectBase.shortValue( );1;0;1
+XmlObjectBase.newInputStream( XmlOptions options );1;0;1
+XmlObjectBase.newXMLInputStream( XmlOptions options );1;0;1
+XmlObjectBase.floatValue( );1;0;1
+XmlObjectBase.get_default_attribute_value( QName name );3;2;10
+XmlObjectBase.newCursorForce( );1;0;6
+XmlObjectBase.set_xmlanysimple( XmlAnySimpleType v );1;0;1
+XmlObjectBase.newReader( );1;0;1
+SerializedRootObject.SerializedRootObject( XmlObject impl );1;0;4
+XmlObjectBase.dump( );1;0;1
+XmlObjectBase.disconnect_store( );1;4;4
+XmlObjectBase.isDefault( );1;2;4
+SerializedInteriorObject.readObject( ObjectInputStream in );1;0;5
+XmlObjectBase.uses_invalidate_value( );2;2;4
+XmlObjectBase.set_GDuration( GDurationSpecification v );1;0;2
+XmlObjectBase.is_orphaned( );1;2;3
+XmlObjectBase.enumValue( );1;0;1
+XmlObjectBase.set_QName( QName v );1;0;2
+XmlObjectBase.buildInnerPrettyOptions( );1;0;8
+SerializedRootObject.SerializedRootObject( );1;0;2
+XmlObjectBase.create_element_user( QName eltName , QName xsiType );1;0;6
+XmlObjectBase.set_ComplexXml( XmlObject v );1;0;2
+XmlObjectBase.validate( XmlOptions options );4;6;24
+XmlObjectBase.save( ContentHandler ch , LexicalHandler lh );1;0;1
+XmlObjectBase.setShortValue( short v );1;0;1
+XmlObjectBase.update_from_complex_content( );1;0;3
+XmlObjectBase.valueEquals( XmlObject xmlobj );7;2;53
+XmlObjectBase.qNameValue( );1;0;1
+XmlObjectBase.set_commit( );3;7;15
+XmlObjectBase.getGDurationValue( );1;0;2
+XmlObjectBase.set( byte v );1;0;1
+XmlObjectBase.getEnumValue( );1;0;2
+SerializedRootObject.writeObject( ObjectOutputStream out );1;0;9
+XmlObjectBase.get_wscanon_rule( );1;0;3
+XmlObjectBase.get_element_ending_delimiters( QName eltname );2;1;6
+XmlObjectBase.set_BigInteger( BigInteger v );1;0;1
+XmlObjectBase.isNillable( );1;2;4
+XmlObjectBase.get_element_type( QName eltName , QName xsiType );1;0;4
+XmlObjectBase.isDefaultable( );1;2;4
+XmlObjectBase.getTargetForSetter( QName propName , int index , short kindSetterHelper );8;2;36
+XmlObjectBase.preCheck( );2;0;5
+XmlObjectBase.set_prepare( );2;2;5
+XmlObjectBase.getListValue( );1;0;2
+XmlObjectBase.underlying( XmlObject obj );5;1;11
+XmlObjectBase.byteArrayValue( );1;0;1
+XmlObjectBase.getDoubleValue( );2;1;1
+XmlObjectBase.set( Date obj );1;0;1
+XmlObjectBase.hashCode( );3;1;10
+XmlObjectBase.get_default_attribute_text( QName attrName );3;2;9
+XmlObjectBase.set( boolean v );1;0;1
+SerializedInteriorObject.SerializedInteriorObject( );1;0;2
+XmlObjectBase.execQuery( String path );1;0;3
+XmlObjectBase.setListValue( List obj );2;1;1
+XmlObjectBase.doubleValue( );1;0;1
+XmlObjectBase.instanceType( );2;0;1
+XmlObjectBase.build_nil( );1;6;5
+XmlObjectBase.setGDurationValue( GDuration obj );2;1;1
+XmlObjectBase.setIntValue( int v );1;0;1
+XmlObjectBase.getIntValue( );3;2;6
+XmlObjectBase.changeType( SchemaType type );3;3;15
+XmlObjectBase.selectPath( String path );1;0;3
+XmlObjectBase.check_orphaned( );2;0;4
+XmlObjectBase.getStringValue( );6;4;17
+XmlObjectBase.set_Calendar( Calendar v );1;0;2
+XmlObjectBase.initComplexType( boolean complexType , boolean complexContent );3;2;4
+XmlObjectBase.getXmlLocale( );1;0;3
+XmlObjectBase.setValidateOnSet( );1;1;3
+XmlObjectBase.setStringValue( String obj );2;1;1
+XmlObjectBase.compareTo( Object obj );2;1;6
+XmlObjectBase.is_child_element_order_sensitive( );2;1;5
+XmlObjectBase.set( Calendar obj );1;0;1
+XmlObjectBase.set_double( double v );1;0;1
+XmlObjectBase.setDoubleValue( double v );1;0;1
+SerializedInteriorObject.SerializedInteriorObject( XmlObject impl , XmlObject root );1;0;4
+XmlObjectBase.compareValue( XmlObject xmlobj );8;3;55
+XmlObjectBase.newXMLStreamReader( );1;0;1
+SerializedInteriorObject.distanceToRoot( );3;3;13
+SerializedRootObject.readResolve( );1;0;3
+XmlObjectBase.setByteValue( byte v );1;0;1
+XmlObjectBase.init_flags( SchemaProperty prop );8;14;13
+XmlObjectBase.generatedSetterHelperImpl( XmlObject src , QName propName , int index , short kindSetterHelper );10;2;88
+XmlObjectBase.getShortValue( );3;2;6
+XmlObjectBase.setFloatValue( float v );1;0;1
+XmlObjectBase.calendarValue( );1;0;1
+XmlObjectBase.setGDateValue( GDate obj );2;1;1
+XmlObjectBase.getObjectValue( );1;0;1
+XmlObjectBase.setEnumValue( StringEnumAbstractBase obj );2;1;1
+XmlObjectBase.set( XmlObject src );11;2;82
+XmlObjectBase.save( OutputStream os , XmlOptions options );1;0;1
+XmlObjectBase.save( File file );1;0;1
+XmlObjectBase.get_default_element_text( QName eltName );3;2;9
+XmlObjectBase.set_newValue( XmlObject obj );33;6;194
+XmlObjectBase.save( Writer w , XmlOptions options );1;0;1
+XmlObjectBase.getBigIntegerValue( );2;1;1
+XmlObjectBase.writeReplace( );2;0;8
+XmlObjectBase.get_attribute_type( QName attrName );1;0;4
+XmlObjectBase.isImmutable( );1;2;3
+XmlObjectBase.getBigDecimalValue( );1;0;2
+SerializedInteriorObject.writeObject( ObjectOutputStream out );1;0;5
+XmlObjectBase.isNil( );1;2;7
+SerializedInteriorObject.objectAtDistance( int count );3;3;14
+XmlObjectBase.set_hex( byte [ ] b );1;0;1
+XmlObjectBase.selectPath( String path , XmlOptions options );7;7;32
+XmlObjectBase.objectSet( Object obj );1;0;1
+XmlObjectBase.set_BigDecimal( BigDecimal v );1;0;2
+XmlObjectBase.update_from_wscanon_text( String v );6;15;19
+XmlObjectBase.selectChildren( String elementUri , String elementLocalName );1;0;3
+XmlObjectBase.set( GDurationSpecification obj );1;0;1
+XmlObjectBase.getFloatValue( );2;1;1
+XmlObjectBase.create_attribute_user( QName attrName );1;0;3
+SerializedRootObject.readObject( ObjectInputStream in );6;1;45
+XmlObjectBase.ensureStore( );4;4;15
+XmlObjectBase._isComplexType( );1;2;1
+XmlObjectBase.compareValueImpl( XmlObject xmlobj );11;11;25
+XmlObjectBase.bigIntegerValue( );1;0;1
+XmlObjectBase.newDomNode( XmlOptions options );1;0;1
+***not in a method***;0;7;0
+XmlObjectBase.set_GDate( GDateSpecification v );1;0;2
+XmlObjectBase.set_float( float v );1;0;1
+XmlObjectBase.setGDurationValue( GDurationSpecification obj );2;1;1
+XmlObjectBase.set( String obj );1;0;1
+XmlObjectBase.objectValue( );1;0;1
+XmlObjectBase.monitor( );2;0;5
+XmlObjectBase.gDurationValue( );1;0;1
+ImmutableValueValidationContext.invalid( String message );1;0;3
+XmlObjectBase.getCalendarValue( );1;0;2
+XmlObjectBase.newDomNode( );1;0;1
+XmlObjectBase.valueEqualsImpl( XmlObject xmlobj );7;8;14
+XmlObjectBase.compare_to( XmlObject xmlobj );2;0;5
+XmlObjectBase.getPrimitiveTypeName( );3;1;10
+XmlObjectBase.dateValue( );1;0;1
+XmlObjectBase.new_visitor( );2;1;5
+XmlObjectBase.XmlObjectBase( );1;1;3
+XmlObjectBase.set_char( char v );1;0;1
+XmlObjectBase.setBigDecimalValue( BigDecimal obj );2;1;1
+XmlObjectBase.setCalendarValue( Calendar obj );2;1;1
+XmlObjectBase.set( BigInteger obj );1;0;1
+ImmutableValueValidationContext.invalid( String code , Object [ ] args );1;0;3
+XmlObjectBase.selectAttribute( QName attributeName );5;1;24
+XmlObjectBase.setNil( );4;9;21
+ValueOutOfRangeValidationContext.invalid( String code , Object [ ] args );1;0;3
+XmlObjectBase.substitute( QName name , SchemaType type );4;4;17
+XmlObjectBase.build_text( NamespaceManager nsm );4;8;8
+XmlObjectBase.set( BigDecimal obj );1;0;1
+XmlObjectBase.getBooleanValue( );1;0;2
+XmlObjectBase.setObjectValue( Object o );21;1;52
+XmlObjectBase.set( float v );1;0;1
+XmlObjectBase.set( GDateSpecification obj );1;0;1
+XmlObjectBase.invalidate_element_order( );1;5;4
+XmlObjectBase.selectChildren( QName elementName );5;2;25
+XmlObjectBase.documentProperties( );1;0;1
+XmlObjectBase.listValue( );1;0;1
+XmlObjectBase.set_Date( Date v );1;0;2
+XmlObjectBase.set_byte( byte v );1;0;1
+XmlObjectBase.save( OutputStream os );1;0;1
+XmlObjectBase.equals( Object obj );4;3;10
+XmlObjectBase._set( XmlObject src );4;1;21
+XmlObjectBase.setterHelper( XmlObjectBase src );1;0;7
+XmlObjectBase._typedArray( XmlObject [ ] input );9;5;26
+XmlObjectBase.set( int v );1;0;1
+XmlObjectBase.validate_simpleval( String lexical , ValidationContext ctx );1;0;3
+XmlObjectBase.valueHashCode( );1;0;6
+XmlObjectBase.invalidate_nilvalue( );1;4;4
+XmlObjectBase.objSetterHelper( XmlObjectBase srcObj , QName propName , int index , short kindSetterHelper );1;0;7
+XmlObjectBase.set_String( String v );5;9;17
+XmlObjectBase.getGDateValue( );1;0;2
+XmlObjectBase.java_value( XmlObject obj );31;3;64
+XmlObjectBase.getDateValue( );1;0;2
+XmlObjectBase.newXMLStreamReader( XmlOptions options );1;0;1
+XmlObjectBase.copy( );2;0;9
+XmlObjectBase.set_int( int v );1;0;1
+XmlObjectBase.set( byte [ ] obj );1;0;1
+SerializedRootObject.readObjectV0( ObjectInputStream in , int utfBytes );5;12;34
+XmlObjectBase.attach_store( TypeStore store );4;8;10
+XmlObjectBase._copy( );1;0;3
+XmlObjectBase.booleanValue( );1;0;1
+XmlObjectBase.getDomNode( );1;0;1
+XmlObjectBase.get_attributeflags( QName attrName );5;5;10
+XmlObjectBase.save( Writer w );1;0;1
+XmlObjectBase._isComplexContent( );1;2;1
+XmlObjectBase.newReader( XmlOptions options );1;0;1
+XmlObjectBase.set_long( long v );1;0;1
+XmlObjectBase.stringValue( );1;0;1
+XmlObjectBase.save( File file , XmlOptions options );1;0;1
+XmlObjectBase.set_boolean( boolean v );1;0;2
+XmlObjectBase.set( short v );1;0;1
+XmlObjectBase.set_list( List list );1;0;2
+XmlObjectBase.set( double v );1;0;1
+XmlObjectBase.validate_now( );1;0;3
+XmlObjectBase.xgetListValue( );1;0;2
+XmlObjectBase.bigDecimalValue( );1;0;1
+XmlObjectBase.set_short( short v );1;0;1
+XmlObjectBase.makeInnerOptions( XmlOptions options );1;0;5
+XmlObjectBase.set_b64( byte [ ] b );1;0;1
+XmlObjectBase.set_ByteArray( byte [ ] b );1;0;2
+XmlObjectBase.apply_wscanon( String v );1;0;3
+XmlObjectBase.setImmutable( );2;4;5
+XmlObjectBase.comparable_value_spaces( SchemaType t1 , SchemaType t2 );10;16;12
+XmlObjectBase.getByteValue( );3;2;6
+XmlObjectBase.newXMLInputStream( );1;0;1
+XmlObjectBase.xmlText( );1;0;3
+XmlObjectBase.getLongValue( );4;3;7
+XmlObjectBase.setGDateValue( GDateSpecification obj );2;1;1
+XmlObjectBase.setDateValue( Date obj );2;1;1
+XmlObjectBase.getByteArrayValue( );1;0;2
+XmlObjectBase.longValue( );1;0;1
+ValueOutOfRangeValidationContext.invalid( String message );1;0;3
+XmlObjectBase.invalidate_value( );1;3;4
+XmlObjectBase.check_dated( );11;27;46
+XmlObjectBase.save( ContentHandler ch , LexicalHandler lh , XmlOptions options );1;0;1
+XmlObjectBase.get_store( );1;2;4
+XmlObjectBase.validate( );1;0;1
+XmlObjectBase.set( StringEnumAbstractBase obj );1;0;1
+XmlObjectBase.get_attribute_field( QName attrName );2;1;6
+XmlObjectBase.set_notation( String v );1;0;1
+XmlObjectBase.isInstanceOf( SchemaType type );6;4;18
+XmlObjectBase.set( long v );1;0;1
+XmlObjectBase.toString( );1;0;6
+XmlObjectBase.isRootXmlObject( );2;2;8
+XmlObjectBase.byteValue( );1;0;1
+XmlObjectBase.selectChildren( QNameSet elementNameSet );7;3;31
+XmlObjectBase.newCursor( );3;2;8
+ImmutableValueValidationContext.ImmutableValueValidationContext( Collection coll , XmlObject loc );1;0;4
+XmlObjectBase.has_store( );1;2;3
+XmlObjectBase.xmlText( XmlOptions options );1;0;11
+XmlObjectBase._copy( XmlOptions xmlOptions );2;0;8
+XmlObjectBase.selectAttributes( QNameSet attributeNameSet );7;3;30
+XmlObjectBase.set_enum( StringEnumAbstractBase e );1;0;2
+XmlObjectBase.schemaField( );2;1;8
+XmlObjectBase.execQuery( String queryExpr , XmlOptions options );3;1;20
+SerializedInteriorObject.readResolve( );1;0;3
+XmlObjectBase.setByteArrayValue( byte [ ] obj );2;1;1
+XmlObjectBase.get_schema_type( );1;0;3
+XmlObjectBase.isFixed( );1;2;4
+XmlObjectBase.is_defaultable_ws( String v );1;0;3
+XmlObjectBase._validateOnSet( );1;2;1
+XmlObjectBase.set( List obj );1;0;1
+XmlObjectBase.get_elementflags( QName eltName );9;13;15
+XmlObjectBase.getRootXmlObject( );2;1;9
+XmlObjectBase.newInputStream( );1;0;1
+XmlObjectBase.elementFlags( );1;1;4
+XmlObjectBase.get_wscanon_text( );2;2;7
+XmlObjectBase.xlistValue( );1;0;1
+XmlObjectBase.gDateValue( );1;0;1
+XmlObjectBase.setBigIntegerValue( BigInteger obj );2;1;1
+XmlObjectBase.setQNameValue( QName obj );2;1;1

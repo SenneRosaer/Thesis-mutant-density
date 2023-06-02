@@ -1,0 +1,55 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCAFlow.internalEndpointUnregistered( EndpointEvent event );1;0;3
+JCAFlow.setJmsURL( String jmsURL );1;0;3
+JCAFlow.toString( );1;0;3
+JCAFlow.setConnectionFactory( ActiveMQConnectionFactory connectionFactory );1;0;3
+JCAFlow.onRemoteEndpointUnregistered( EndpointEvent event );1;1;4
+RecoverableTransactionManagerWrapper.recoverResourceManager( NamedXAResource namedXAResource );1;0;3
+JCAFlow.canHandle( MessageExchange me );2;0;6
+Connector.start( );1;0;8
+JCAFlow.removeAllPackets( String containerName );1;0;2
+JCAFlow.onRemoteEndpointRegistered( EndpointEvent event );1;1;4
+JCAFlow.sendJmsMessage( Destination dest , Serializable object , boolean persistent , boolean transacted );5;1;18
+JCAFlow.stop( );4;0;15
+Connector.Connector( ActiveMQDestination destination , MessageListener listener , boolean transacted );2;1;9
+JCAFlow.getBroadcastDestinationName( );1;0;3
+JCAFlow.getTransactionManager( );1;0;3
+JCAFlow.setConnectionManager( ConnectionManager connectionManager );1;0;3
+RecoverableTransactionManagerWrapper.recoveryError( Exception e );1;0;3
+JCAFlow.getConnectionFactory( );1;0;3
+JCAFlow.onInternalEndpointRegistered( EndpointEvent event , boolean broadcast );5;4;20
+RecoverableTransactionManagerWrapper.rollback( );1;0;3
+SimpleBootstrapContext.createTimer( );1;0;3
+JCAFlow.onComponentStopped( ComponentEvent event );3;1;11
+JCAFlow.init( Broker broker );4;3;44
+RecoverableTransactionManagerWrapper.getStatus( );1;0;3
+JCAFlow.getConnectionManager( );3;2;14
+RecoverableTransactionManagerWrapper.setRollbackOnly( );1;0;3
+RecoverableTransactionManagerWrapper.setTransactionTimeout( int i );1;0;3
+JCAFlow.shutDown( );4;1;19
+SimpleBootstrapContext.SimpleBootstrapContext( WorkManager workManager );1;0;3
+JCAFlow.onComponentStarted( ComponentEvent event );4;3;16
+JCAFlow.getDescription( );1;0;3
+JCAFlow.onMessage( Message message );6;7;18
+JCAFlow.numberInNetwork( );1;0;3
+RecoverableTransactionManagerWrapper.commit( );1;0;3
+SimpleBootstrapContext.getXATerminator( );1;0;3
+JCAFlow.setBroadcastDestinationName( String broadcastDestinationName );1;0;3
+JCAFlow.start( );9;0;40
+Connector.stop( );1;0;5
+JCAFlow.JCAFlow( );1;0;2
+JCAFlow.JCAFlow( String jmsURL );1;0;3
+JCAFlow.doSend( MessageExchangeImpl me );1;0;3
+JCAFlow.componentStopped( ComponentEvent event );1;0;3
+RecoverableTransactionManagerWrapper.suspend( );1;0;3
+RecoverableTransactionManagerWrapper.resume( Transaction transaction );1;0;3
+SimpleBootstrapContext.getWorkManager( );1;0;3
+JCAFlow.componentStarted( ComponentEvent event );1;0;3
+RecoverableTransactionManagerWrapper.getTransaction( );1;0;3
+JCAFlow.internalEndpointRegistered( EndpointEvent event );1;0;3
+RecoverableTransactionManagerWrapper.begin( );1;0;3
+JCAFlow.onAdvisoryMessage( Object obj );6;3;16
+JCAFlow.getJmsURL( );1;0;3
+RecoverableTransactionManagerWrapper.RecoverableTransactionManagerWrapper( TransactionManager txMgr );1;0;3
+JCAFlow.onInternalEndpointUnregistered( EndpointEvent event , boolean broadcast );4;2;15
+JCAFlow.doRouting( final MessageExchangeImpl me );12;14;36

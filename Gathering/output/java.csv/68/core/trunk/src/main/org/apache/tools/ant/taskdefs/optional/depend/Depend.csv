@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Depend.setCache( File cache );1;0;3
+Depend.execute( );12;13;41
+Depend.createClasspath( );2;1;6
+Depend.getClassFiles( Path classLocations );3;2;11
+Depend.warnOutOfDateButNotDeleted( ClassFileInfo affectedClassInfo , String affectedClass , String className );4;1;17
+Depend.determineOutOfDateClasses( );9;5;38
+Depend.setDump( boolean dump );1;0;3
+Depend.writeCachedDependencies( Hashtable dependencyMap );4;4;23
+Depend.setSrcdir( Path srcPath );1;0;3
+Depend.findSourceFile( String classname , File sourceFileKnownToExist );5;5;16
+Depend.setClasspath( Path classpath );2;1;7
+Depend.getClasspath( );1;0;3
+Depend.isStub( String affectedClass , String baseClass , String suffix );1;1;3
+Depend.setDestDir( Path destPath );1;0;3
+Depend.determineDependencies( );25;17;135
+Depend.getCheckClassPath( );8;11;28
+Depend.deleteAffectedFiles( String className );10;11;49
+Depend.dumpDependencies( );6;1;34
+Depend.setWarnOnRmiStubs( boolean warnOnRmiStubs );1;0;3
+Depend.isRmiStub( String affectedClass , String className );4;3;6
+Depend.deleteAllAffectedFiles( );5;5;18
+Depend.readCachedDependencies( File depFile );3;1;23
+Depend.addClassFiles( Vector classFileList , File dir , File root );4;4;26
+Depend.setClosure( boolean closure );1;0;3
+Depend.setClasspathRef( Reference r );1;0;3
+Depend.scanDir( File srcDir , String [ ] files );5;5;22

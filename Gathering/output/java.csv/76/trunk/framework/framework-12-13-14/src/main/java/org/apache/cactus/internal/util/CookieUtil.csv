@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CookieUtil.getCookiePort( WebRequest theRequest , int theRealPort );3;3;14
+CookieUtil.getCookieDomain( WebRequest theRequest , String theRealHost );3;3;14
+CookieUtil.createHttpClientCookie( WebRequest theRequest , URL theUrl , Cookie theCactusCookie );3;2;29
+CookieUtil.createHttpClientCookies( WebRequest theRequest , URL theUrl );2;2;12
+CookieUtil.getCookiePath( WebRequest theRequest , String theRealPath );5;6;30
+CookieUtil.getCookieString( WebRequest theRequest , URL theUrl );2;1;14
+CookieUtil.createCookieHeader( String theDomain , String thePath , org . apache . commons . httpclient . Cookie [ ] theCookies );5;7;26

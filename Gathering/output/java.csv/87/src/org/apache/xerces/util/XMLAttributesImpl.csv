@@ -1,0 +1,48 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLAttributesImpl.getIndex( String qName );4;5;10
+XMLAttributesImpl.getSchemaId( String qname );2;2;4
+XMLAttributesImpl.getLocalName( int index );4;4;9
+XMLAttributesImpl.getNonNormalizedValue( int attrIndex );1;0;4
+XMLAttributesImpl.setNamespaces( boolean namespaces );1;0;3
+XMLAttributesImpl.setSpecified( int attrIndex , boolean specified );1;0;3
+XMLAttributesImpl.getValue( String uri , String localName );2;2;4
+XMLAttributesImpl.removeAllAttributes( );1;0;3
+XMLAttributesImpl.getPrefix( int index );4;4;7
+XMLAttributesImpl.getTableViewBucket( String localpart , String uri );2;6;9
+XMLAttributesImpl.getValue( String qname );2;2;4
+XMLAttributesImpl.addAttribute( QName name , String type , String value );20;34;75
+XMLAttributesImpl.getTableViewBucket( String qname );1;2;3
+XMLAttributesImpl.getValue( int index );3;3;6
+XMLAttributesImpl.setSchemaId( int attrIndex , boolean schemaId );1;0;3
+XMLAttributesImpl.getIndexFast( String uri , String localPart );4;6;10
+XMLAttributesImpl.prepareAndPopulateTableView( );3;3;18
+XMLAttributesImpl.XMLAttributesImpl( int tableSize );2;2;6
+XMLAttributesImpl.getURI( int index );3;3;7
+XMLAttributesImpl.getName( int attrIndex , QName attrName );1;0;3
+XMLAttributesImpl.getLength( );1;0;3
+XMLAttributesImpl.getAugmentations( int attributeIndex );3;3;6
+XMLAttributesImpl.checkDuplicatesNS( );11;18;42
+XMLAttributesImpl.prepareTableView( );2;1;9
+XMLAttributesImpl.getReportableType( String type );2;1;6
+XMLAttributesImpl.setURI( int attrIndex , String uri );1;0;3
+XMLAttributesImpl.setName( int attrIndex , QName attrName );1;0;3
+XMLAttributesImpl.getType( String qname );2;2;4
+XMLAttributesImpl.XMLAttributesImpl( );1;0;3
+XMLAttributesImpl.setNonNormalizedValue( int attrIndex , String attrValue );2;1;6
+XMLAttributesImpl.getType( String uri , String localName );3;3;7
+XMLAttributesImpl.removeAttributeAt( int attrIndex );2;7;10
+XMLAttributesImpl.getIndex( String uri , String localPart );8;12;13
+XMLAttributesImpl.getName( int index );3;3;6
+XMLAttributesImpl.getAugmentations( String uri , String localName );2;2;4
+XMLAttributesImpl.isSpecified( int attrIndex );1;0;3
+XMLAttributesImpl.getQName( int index );4;4;7
+XMLAttributesImpl.cleanTableView( );4;6;10
+XMLAttributesImpl.setValue( int attrIndex , String attrValue );1;0;5
+XMLAttributesImpl.addAttributeNS( QName name , String type , String value );4;7;24
+XMLAttributesImpl.setType( int attrIndex , String attrType );1;0;3
+XMLAttributesImpl.getSchemaId( int index );3;3;6
+XMLAttributesImpl.setAugmentations( int attrIndex , Augmentations augs );1;0;3
+XMLAttributesImpl.getSchemaId( String uri , String localName );3;3;7
+XMLAttributesImpl.getType( int index );3;3;6
+XMLAttributesImpl.getAugmentations( String qName );2;2;4
+XMLAttributesImpl.getIndexFast( String qName );3;4;9

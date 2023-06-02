@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BasicVerificationInOrderTest.shouldVerifyInOrderUsingAtLeastOnce( );1;0;8
+BasicVerificationInOrderTest.shouldFailWhenLastMockCalledTwice( );2;0;12
+BasicVerificationInOrderTest.shouldFailOnLastMethodBecauseOneInvocationWanted( );2;0;11
+BasicVerificationInOrderTest.shouldFailOnSecondMethodBecauseDifferentArgsWanted( );2;1;8
+BasicVerificationInOrderTest.shouldFailOnFirstMethodBecauseOneInvocationWantedAgain( );1;0;14
+BasicVerificationInOrderTest.shouldFailOnFirstMethodBecauseOneInvocationWanted( );1;0;14
+BasicVerificationInOrderTest.shouldFailOnLastMethodBecauseOneInvocationWantedAgain( );2;0;11
+BasicVerificationInOrderTest.shouldThrowNullPassedToVerifyException( );2;0;10
+BasicVerificationInOrderTest.shouldFailOnLastMethodBecauseDifferentArgsWanted( );2;1;11
+BasicVerificationInOrderTest.shouldFailOnLastMethodBecauseDifferentMethodWanted( );2;0;11
+BasicVerificationInOrderTest.shouldVerifyInOrder( );1;0;8
+BasicVerificationInOrderTest.shouldFailOnVerifyNoInteractions( );1;0;17
+BasicVerificationInOrderTest.shouldFailWhenLastMethodVerifiedFirst( );2;0;8
+BasicVerificationInOrderTest.shouldThrowNotAMockPassedToVerifyException( );2;0;11
+BasicVerificationInOrderTest.shouldFailOnFirstMethodBecauseDifferentMethodWanted( );1;0;24
+BasicVerificationInOrderTest.shouldFailWhenMiddleMethodVerifiedFirstInAtLeastOnceMode( );2;0;8
+BasicVerificationInOrderTest.shouldVerifyInOrderWhenExpectingSomeInvocationsToBeCalledZeroTimes( );1;0;11
+BasicVerificationInOrderTest.shouldFailOnSecondMethodBecauseTwoInvocationsWantedAgain( );2;0;8
+BasicVerificationInOrderTest.setUp( );1;0;12
+BasicVerificationInOrderTest.shouldFailWhenMiddleMethodVerifiedFirst( );2;0;8
+BasicVerificationInOrderTest.shouldFailOnSecondMethodBecauseDifferentMethodWanted( );2;0;8
+BasicVerificationInOrderTest.shouldFailWhenFirstMockCalledTwice( );2;0;8
+BasicVerificationInOrderTest.shouldFailOnFirstMethodBecauseDifferentArgsWanted( );1;0;24
+BasicVerificationInOrderTest.shouldFailOnVerifyNoMoreInteractions( );2;0;11
+BasicVerificationInOrderTest.shouldScreamWhenNullPassed( );1;0;12
+BasicVerificationInOrderTest.shouldFailOnSecondMethodBecauseFourInvocationsWanted( );2;0;8

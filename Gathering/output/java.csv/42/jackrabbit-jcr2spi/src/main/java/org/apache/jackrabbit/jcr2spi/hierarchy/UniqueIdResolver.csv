@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UniqueIdResolver.statusChanged( ItemState state , int previousStatus );6;3;19
+UniqueIdResolver.dispose( );1;0;4
+UniqueIdResolver.UniqueIdResolver( ItemStateFactory isf );1;0;5
+UniqueIdResolver.sameEntry( NodeEntry previous , NodeEntry entry );6;4;18
+UniqueIdResolver.lookup( String uniqueId );2;1;6
+UniqueIdResolver.putToLookup( String uniqueID , NodeEntry entry );3;2;10
+UniqueIdResolver.resolve( NodeId nodeId , NodeEntry rootEntry );2;1;8
+UniqueIdResolver.entryCreated( NodeEntry entry );2;1;8
+UniqueIdResolver.created( ItemState state );5;4;11
+UniqueIdResolver.uniqueIdChanged( NodeEntry entry , String previousUniqueID );4;3;14

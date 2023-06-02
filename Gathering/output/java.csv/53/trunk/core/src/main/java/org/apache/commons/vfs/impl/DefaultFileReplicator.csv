@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DefaultFileReplicator.createFile( final File parent , final String name );1;0;3
+DefaultFileReplicator.getFilecount( );1;0;3
+DefaultFileReplicator.removeFile( );1;0;6
+DefaultFileReplicator.close( );5;5;15
+DefaultFileReplicator.init( );3;3;14
+DefaultFileReplicator.createAndAddFile( final File parent , final String basename );1;0;5
+DefaultFileReplicator.removeFile( Object file );1;0;6
+DefaultFileReplicator.DefaultFileReplicator( final File tempDir );1;0;3
+DefaultFileReplicator.createFilename( final String baseName );1;0;4
+DefaultFileReplicator.allocateFile( final String baseName );1;1;9
+DefaultFileReplicator.replicateFile( final FileObject srcFile , final FileSelector selector );1;0;7
+DefaultFileReplicator.deleteFile( File file );2;0;12
+DefaultFileReplicator.DefaultFileReplicator( );1;0;2
+DefaultFileReplicator.addFile( Object file );1;0;6

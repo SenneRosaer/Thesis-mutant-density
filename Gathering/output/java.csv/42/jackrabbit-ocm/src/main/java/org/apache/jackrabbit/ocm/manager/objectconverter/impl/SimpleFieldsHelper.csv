@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleFieldsHelper.retrieveSimpleField( ClassDescriptor classDescriptor , Node node , Object initializedBean , FieldDescriptor fieldDescriptor , String fieldName , String propertyName );9;9;37
+SimpleFieldsHelper.checkProperty( Node objectNode , FieldDescriptor fieldDescriptor , Value value );5;4;15
+SimpleFieldsHelper.storeSimpleFields( Session session , Object object , ClassDescriptor classDescriptor , Node objectNode );9;1;26
+SimpleFieldsHelper.isProtectedProperty( Node objectNode , FieldDescriptor fieldDescriptor , String jcrName );4;1;16
+SimpleFieldsHelper.refreshUuidPath( Session session , ClassDescriptor classDescriptor , Node node , Object object );6;3;26
+SimpleFieldsHelper.SimpleFieldsHelper( AtomicTypeConverterProvider converterProvider );1;0;3
+SimpleFieldsHelper.retrieveSimpleFields( Session session , ClassDescriptor classDescriptor , Node node , Object object );11;4;42
+SimpleFieldsHelper.getPropertyDefinition( NodeType nodeType , String propertyName );6;5;20
+SimpleFieldsHelper.getPropertyDefinition( Node node , String propertyName );8;11;22
+SimpleFieldsHelper.getAtomicTypeConverter( FieldDescriptor fd , Object object , String fieldName );4;3;19
+SimpleFieldsHelper.storeSimpleField( Object object , Node objectNode , ValueFactory valueFactory , FieldDescriptor fieldDescriptor , String fieldName , String jcrName );4;4;17

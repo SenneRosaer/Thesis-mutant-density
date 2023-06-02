@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+OldSaveService.createConfigForString( String name , String value );2;1;10
+OldSaveService.getBinaryData( Configuration config );3;1;10
+OldSaveService.createCollection( Configuration config , String testClass );9;4;25
+OldSaveService.generateNode( Configuration config );4;3;18
+OldSaveService.getSerializedSampleResult( SampleResult result , DefaultConfigurationSerializer slzr , SampleSaveConfiguration cfg );3;4;15
+OldSaveService.processSamples( String filename , Visualizer visualizer , ResultCollector rc );3;2;13
+OldSaveService.OldSaveService( );1;0;2
+OldSaveService.loadSubTree( InputStream in );3;0;15
+OldSaveService.createProperty( Configuration config , String testClass );5;3;21
+OldSaveService.getConfiguration( SampleResult result , SampleSaveConfiguration saveConfig );17;8;49
+OldSaveService.getAssertionResult( Configuration config );1;0;7
+OldSaveService.createMap( Configuration config , String testClass );7;3;24
+OldSaveService.createTestElement( Configuration config );11;5;38
+OldSaveService.getConfigsFromTree( HashTree subTree );3;0;16
+OldSaveService.getConfiguration( byte [ ] bin );2;0;9
+OldSaveService.getConfiguration( AssertionResult assResult );1;0;7
+OldSaveService.getConfigForTestElement( String named , TestElement item );1;0;6
+OldSaveService.getSampleResult( Configuration config );4;6;24
+OldSaveService.saveSubTree( HashTree subTree , OutputStream writer );3;0;12

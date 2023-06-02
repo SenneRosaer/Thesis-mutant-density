@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CustomScoreQuery.clone( );2;2;9
+CustomScorer.CustomScorer( Similarity similarity , IndexReader reader , CustomWeight w , Scorer subQueryScorer , Scorer [ ] valSrcScorers );1;0;9
+CustomScoreQuery.isStrict( );1;0;3
+CustomScorer.next( );3;2;9
+CustomScoreQuery.name( );1;0;3
+CustomWeight.explain( IndexReader reader , int doc );1;0;3
+CustomWeight.getValue( );1;0;3
+CustomScoreQuery.CustomScoreQuery( Query subQuery , ValueSourceQuery valSrcQueries [ ] );3;2;7
+CustomWeight.sumOfSquaredWeights( );3;5;12
+CustomScoreQuery.customExplain( int doc , Explanation subQueryExpl , Explanation valSrcExpls [ ] );5;8;18
+CustomScoreQuery.createWeight( Searcher searcher );1;0;3
+CustomScoreQuery.setStrict( boolean strict );1;0;3
+CustomScorer.skipTo( int target );3;2;9
+CustomScorer.score( );2;3;6
+CustomScoreQuery.extractTerms( Set terms );2;2;6
+CustomWeight.CustomWeight( Searcher searcher );2;2;10
+CustomScoreQuery.CustomScoreQuery( Query subQuery , ValueSourceQuery valSrcQuery );2;1;4
+CustomScoreQuery.toString( String field );3;3;10
+CustomScorer.doc( );1;0;3
+CustomWeight.getQuery( );1;0;3
+CustomScoreQuery.rewrite( IndexReader reader );2;2;7
+CustomScoreQuery.customExplain( int doc , Explanation subQueryExpl , Explanation valSrcExpl );2;3;10
+CustomScoreQuery.customScore( int doc , float subQueryScore , float valSrcScores [ ] );4;5;13
+CustomWeight.scorer( IndexReader reader );2;2;8
+CustomScoreQuery.equals( Object o );7;9;17
+CustomWeight.normalize( float norm );3;3;11
+CustomScorer.explain( int doc );3;4;17
+CustomScoreQuery.CustomScoreQuery( Query subQuery );1;0;3
+CustomScoreQuery.customScore( int doc , float subQueryScore , float valSrcScore );1;1;3
+CustomScoreQuery.hashCode( );2;6;7

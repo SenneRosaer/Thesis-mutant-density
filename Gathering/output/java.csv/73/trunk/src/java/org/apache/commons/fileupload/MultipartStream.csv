@@ -1,0 +1,38 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ItemInputStream.read( byte [ ] b , int off , int len );5;6;20
+MultipartStream.readBoundary( );5;2;23
+MultipartStream.discardBodyData( );1;0;3
+ItemInputStream.findSeparator( );3;5;10
+ProgressNotifier.noteBytesRead( int pBytes );1;1;4
+ProgressNotifier.ProgressNotifier( ProgressListener pListener , long pContentLength );1;0;4
+ItemInputStream.makeAvailable( );7;15;25
+MalformedStreamException.MalformedStreamException( );1;0;3
+MultipartStream.MultipartStream( InputStream input , byte [ ] boundary , int bufSize );1;0;3
+ItemInputStream.close( );1;0;3
+ItemInputStream.close( boolean pCloseUnderlying );6;2;21
+ProgressNotifier.notifyListener( );2;1;5
+MultipartStream.getHeaderEncoding( );1;0;3
+MultipartStream.MultipartStream( InputStream input , byte [ ] boundary , ProgressNotifier pNotifier );1;0;3
+MultipartStream.setHeaderEncoding( String encoding );1;0;3
+MultipartStream.skipPreamble( );2;3;15
+MultipartStream.readByte( );4;5;13
+MultipartStream.arrayequals( byte [ ] a , byte [ ] b , int count );3;3;8
+ItemInputStream.available( );2;5;6
+MultipartStream.newInputStream( );1;0;3
+ItemInputStream.skip( long bytes );4;3;15
+MultipartStream.readHeaders( );7;6;35
+MultipartStream.MultipartStream( InputStream input , byte [ ] boundary , int bufSize , ProgressNotifier pNotifier );1;2;15
+IllegalBoundaryException.IllegalBoundaryException( );1;0;3
+ItemInputStream.getBytesRead( );1;0;3
+MultipartStream.readBodyData( OutputStream output );1;0;4
+ItemInputStream.ItemInputStream( );1;0;3
+MultipartStream.findSeparator( );8;17;22
+IllegalBoundaryException.IllegalBoundaryException( String message );1;0;3
+MultipartStream.MultipartStream( InputStream input , byte [ ] boundary );1;0;3
+ProgressNotifier.noteItem( );1;1;3
+ItemInputStream.read( );5;7;16
+MultipartStream.findByte( byte value , int pos );3;4;8
+ItemInputStream.isClosed( );1;0;3
+MultipartStream.MultipartStream( );1;0;3
+MultipartStream.setBoundary( byte [ ] boundary );2;2;8
+MalformedStreamException.MalformedStreamException( String message );1;0;3

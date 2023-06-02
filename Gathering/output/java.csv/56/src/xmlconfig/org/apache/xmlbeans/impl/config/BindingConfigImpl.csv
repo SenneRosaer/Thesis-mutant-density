@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BindingConfigImpl.recordNamespaceSetting( Object key , String value , Map result );8;3;18
+BindingConfigImpl.recordNamespacePrefixSetting( List list , String value , Map result );4;2;10
+BindingConfigImpl.forConfigDocuments( Config [ ] configs , File [ ] javaFiles , File [ ] classpath );1;0;3
+BindingConfigImpl.lookupByUriPrefix( Map mapByUriPrefix , String uri );8;6;20
+BindingConfigImpl.lookupPrefixForNamespace( String uri );1;0;3
+BindingConfigImpl.getInterfaceExtensions( );1;0;3
+BindingConfigImpl.error( String s , XmlObject xo );1;0;3
+BindingConfigImpl.getPrePostExtension( String fullJavaName );3;2;9
+BindingConfigImpl.secondPhaseValidation( );8;10;34
+BindingConfigImpl.recordExtensionSetting( File [ ] javaFiles , File [ ] classpath , Extensionconfig ext );9;7;29
+BindingConfigImpl.getPrePostExtensions( );1;0;3
+BindingConfigImpl.warning( String s , XmlObject xo );1;0;3
+BindingConfigImpl.lookup( Map map , Map mapByUriPrefix , String uri );5;4;14
+BindingConfigImpl.addPrePostExtension( PrePostExtensionImpl ext );2;1;5
+BindingConfigImpl.lookupJavanameForQName( QName qname );2;1;6
+BindingConfigImpl.addInterfaceExtension( InterfaceExtensionImpl ext );2;1;5
+BindingConfigImpl.lookupJavanameForQName( QName qname , int kind );5;0;14
+BindingConfigImpl.getJamLoader( File [ ] javaFiles , File [ ] classpath );6;6;24
+BindingConfigImpl.BindingConfigImpl( Config [ ] configs , File [ ] javaFiles , File [ ] classpath );10;10;60
+BindingConfigImpl.BindingConfigImpl( );1;0;14
+BindingConfigImpl.lookupPackageForNamespace( String uri );1;0;3
+BindingConfigImpl.lookupSuffixForNamespace( String uri );1;0;3
+BindingConfigImpl.getInterfaceExtensions( String fullJavaName );3;2;10

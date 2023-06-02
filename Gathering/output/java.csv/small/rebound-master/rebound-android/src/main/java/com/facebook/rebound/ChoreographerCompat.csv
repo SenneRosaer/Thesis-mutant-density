@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FrameCallback.doFrame( long frameTimeNanos );1;0;3
+FrameCallback.run( );1;0;3
+ChoreographerCompat.postFrameCallbackDelayed( FrameCallback callbackWrapper , long delayMillis );2;1;7
+FrameCallback.getRunnable( );2;1;11
+ChoreographerCompat.ChoreographerCompat( );2;0;7
+ChoreographerCompat.choreographerPostFrameCallbackDelayed( Choreographer . FrameCallback frameCallback , long delayMillis );1;0;3
+ChoreographerCompat.choreographerPostFrameCallback( Choreographer . FrameCallback frameCallback );1;0;3
+ChoreographerCompat.removeFrameCallback( FrameCallback callbackWrapper );2;0;7
+ChoreographerCompat.postFrameCallback( FrameCallback callbackWrapper );2;0;7
+***not in a method***;0;1;0
+ChoreographerCompat.getChoreographer( );1;0;3
+ChoreographerCompat.choreographerRemoveFrameCallback( Choreographer . FrameCallback frameCallback );1;0;3
+ChoreographerCompat.getInstance( );1;0;3
+FrameCallback.getFrameCallback( );2;1;11

@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SecondService.doStuff( );2;1;5
+FirstService.getDependency( );1;0;3
+TestContext.dependencyOne( );1;0;3
+TestContext.condition( );1;0;3
+FirstService.setDependency( DependencyOne dependency );1;0;3
+CustomCondition.setCondition( boolean value );1;0;3
+CustomCondition.check( );1;0;3
+FirstService.doStuff( );2;1;5
+TestContext.dependencyTwo( );1;0;3
+SecondService.getDependency( );1;0;3
+Spr12526Tests.testInjection( );1;0;11
+SecondService.setDependency( DependencyTwo dependency );1;0;3
+TestContext.service( CustomCondition condition );2;0;3

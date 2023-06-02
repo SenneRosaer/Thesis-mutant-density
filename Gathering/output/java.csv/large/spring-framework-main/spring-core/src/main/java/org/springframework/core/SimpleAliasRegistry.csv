@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleAliasRegistry.allowAliasOverriding( );1;0;3
+SimpleAliasRegistry.getAliases( String name );1;0;7
+SimpleAliasRegistry.hasAlias( String name , String alias );3;3;5
+SimpleAliasRegistry.resolveAliases( StringValueResolver valueResolver );8;7;32
+SimpleAliasRegistry.isAlias( String name );1;0;3
+SimpleAliasRegistry.removeAlias( String alias );2;1;8
+SimpleAliasRegistry.retrieveAliases( String name , List < String > result );2;0;8
+SimpleAliasRegistry.canonicalName( String name );3;2;12
+SimpleAliasRegistry.registerAlias( String name , String alias );8;2;33
+SimpleAliasRegistry.checkForAliasCircle( String name , String alias );2;0;7

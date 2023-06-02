@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+BundleFactoryLoader.BundleFactoryLoader( String factoryId , URL u , Bundle bundle );1;0;5
+Activator.stop( BundleContext bundleContext );2;1;9
+BundleFactoryLoader.hashCode( );1;0;3
+Activator.unregister( long bundleId );3;1;9
+Activator.bundleChanged( BundleEvent event );4;4;7
+Activator.debugPrintln( String msg );2;0;5
+***not in a method***;0;3;0
+BundleFactoryLoader.call( );3;0;16
+BundleFactoryLoader.toString( );1;0;3
+Activator.start( BundleContext bundleContext );6;7;14
+Activator.register( final Bundle bundle );7;4;26
+BundleFactoryLoader.equals( Object obj );2;0;7

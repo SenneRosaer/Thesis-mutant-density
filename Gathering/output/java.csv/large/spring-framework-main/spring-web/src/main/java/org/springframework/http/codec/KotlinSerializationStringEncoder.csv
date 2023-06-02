@@ -1,0 +1,7 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+KotlinSerializationStringEncoder.getEncodableMimeTypes( ResolvableType elementType );1;0;3
+KotlinSerializationStringEncoder.encodeValue( Object value , DataBufferFactory bufferFactory , ResolvableType valueType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );2;1;8
+KotlinSerializationStringEncoder.canEncode( ResolvableType elementType , @ Nullable MimeType mimeType );1;0;3
+KotlinSerializationStringEncoder.KotlinSerializationStringEncoder( T format , MimeType ... supportedMimeTypes );1;0;3
+KotlinSerializationStringEncoder.getEncodableMimeTypes( );1;0;3
+KotlinSerializationStringEncoder.encode( Publisher < ? > inputStream , DataBufferFactory bufferFactory , ResolvableType elementType , @ Nullable MimeType mimeType , @ Nullable Map < String , Object > hints );2;0;14

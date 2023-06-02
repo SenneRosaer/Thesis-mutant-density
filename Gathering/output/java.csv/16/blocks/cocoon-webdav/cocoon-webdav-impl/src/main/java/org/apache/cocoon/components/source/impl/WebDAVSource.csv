@@ -1,0 +1,39 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+WebDAVSource.exists( );3;0;10
+WebDAVSource.cancel( OutputStream stream );4;1;14
+WebDAVSource.getChildren( );7;2;33
+WebDAVSource.setSourceProperty( SourceProperty sourceproperty );7;5;30
+***not in a method***;0;2;0
+WebDAVSource.getName( );2;0;9
+WebDAVSource.WebDAVSource( WebdavResource resource , HttpURL url , String protocol );1;0;4
+WebDAVSource.getMimeType( );2;0;8
+WebDAVSource.resourcesToXml( WebdavResource [ ] resources );1;2;15
+WebDAVSource.refresh( );1;0;3
+WebDAVSource.getChild( String childName );4;1;16
+WebDAVSource.getSourceProperty( String namespace , String name );4;0;21
+WebDAVSource.canCancel( OutputStream stream );3;1;9
+WebDAVSource.getInputStream( );5;1;20
+WebDAVSource.newWebDAVSource( HttpURL url , String protocol );1;0;3
+WebDAVSource.initResource( int action , int depth );12;8;41
+WebDAVSource.delete( );3;0;10
+WebDAVSource.getValidity( );2;1;7
+WebDAVSource.removeSourceProperty( String namespace , String name );2;0;8
+WebDAVSource.getURI( );4;8;17
+WebDAVSource.getParent( );4;0;20
+WebDAVSourceOutputStream.cancel( );2;0;6
+WebDAVSourceOutputStream.canCancel( );1;1;3
+WebDAVSource.getLastModified( );2;0;8
+WebDAVSource.getSecureURI( );3;5;12
+WebDAVSource.getContentLength( );3;2;12
+WebDAVSource.moveTo( Source source );4;0;16
+WebDAVSource.newWebDAVSource( WebdavResource resource , HttpURL url , String protocol );1;0;3
+WebDAVSourceOutputStream.WebDAVSourceOutputStream( WebDAVSource source );1;0;3
+WebDAVSourceOutputStream.close( );3;1;19
+WebDAVSource.getOutputStream( );1;0;3
+WebDAVSource.copyTo( Source source );4;0;16
+WebDAVSource.getSourceProperties( );5;2;25
+WebDAVSource.isCollection( );2;0;9
+WebDAVSource.resourcesToSax( WebdavResource [ ] resources , ContentHandler handler );12;6;78
+WebDAVSource.WebDAVSource( HttpURL url , String protocol );5;5;25
+WebDAVSource.makeCollection( );9;4;30
+WebDAVSource.getScheme( );1;0;3

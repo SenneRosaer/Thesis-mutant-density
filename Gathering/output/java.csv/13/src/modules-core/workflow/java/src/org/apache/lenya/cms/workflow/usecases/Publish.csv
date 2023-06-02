@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Publish.initParameters( );3;2;13
+Publish.createAncestorNodes( Document document );3;4;13
+Publish.getExistingLink( String path , Document document );4;2;13
+LinkList.getUnpublishedLinks( );7;5;29
+Publish.publish( Document authoringDocument );4;1;19
+Publish.hasBrokenLinks( );6;5;25
+LinkList.LinkList( ServiceManager manager , Document doc );1;0;4
+LinkList.getDocuments( );2;1;6
+Publish.getNodesToLock( );3;1;16
+Publish.getWebUrl( Document document );2;3;14
+Publish.doCheckPreconditions( );13;11;56
+Publish.canNotifySubmitter( );3;2;13
+Publish.doExecute( );4;1;23
+Publish.sendNotification( Document authoringDocument );2;2;28
+Publish.doCheckExecutionConditions( );3;0;13

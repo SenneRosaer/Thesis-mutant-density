@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JCARepositoryManager.setAutoShutdown( boolean autoShutdown );1;0;3
+Reference.Reference( String homeDir , String configFile );1;0;5
+Reference.create( );6;3;27
+JCARepositoryManager.autoShutdownRepository( String homeDir , String configFile );2;0;6
+Reference.equals( String s1 , String s2 );4;4;9
+Reference.shutdown( );2;1;5
+JCARepositoryManager.JCARepositoryManager( );1;0;3
+Reference.hashCode( );3;4;5
+Reference.equals( Object o );3;1;9
+JCARepositoryManager.getInstance( );1;0;3
+JCARepositoryManager.isAutoShutdown( );1;0;3
+JCARepositoryManager.createRepository( String homeDir , String configFile );1;0;4
+JCARepositoryManager.shutdown( );2;0;9
+Reference.equals( Reference o );2;1;4
+JCARepositoryManager.getReference( String homeDir , String configFile );2;1;10

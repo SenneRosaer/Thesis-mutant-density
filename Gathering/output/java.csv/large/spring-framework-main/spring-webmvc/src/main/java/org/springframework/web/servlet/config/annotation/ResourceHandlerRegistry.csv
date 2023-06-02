@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceHandlerRegistry.getHandlerMapping( );4;0;13
+ResourceHandlerRegistry.hasMappingForPattern( String pathPattern );3;0;8
+ResourceHandlerRegistry.addResourceHandler( String ... pathPatterns );1;0;5
+ResourceHandlerRegistry.ResourceHandlerRegistry( ApplicationContext applicationContext , ServletContext servletContext );1;0;3
+***not in a method***;0;1;0
+ResourceHandlerRegistry.setOrder( int order );1;0;4
+ResourceHandlerRegistry.ResourceHandlerRegistry( ApplicationContext applicationContext , ServletContext servletContext , @ Nullable ContentNegotiationManager contentNegotiationManager );1;0;3
+ResourceHandlerRegistry.ResourceHandlerRegistry( ApplicationContext applicationContext , ServletContext servletContext , @ Nullable ContentNegotiationManager contentNegotiationManager , @ Nullable UrlPathHelper pathHelper );1;0;7
+ResourceHandlerRegistry.getRequestHandler( ResourceHandlerRegistration registration );4;2;18

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceWrapper.write( InputStream inputStream , String mimeType , String fileName , long fileSize );3;1;22
+ResourceWrapper.updateImageDimensions( );2;1;10
+ResourceWrapper.ResourceWrapper( Document document , ServiceManager manager , Logger logger );1;0;5
+ResourceWrapper.updateImageDimensions( String mimeType , InputStream stream , MetaData customMeta , String logInfo );3;1;14
+ResourceWrapper.addResourceMeta( String fileName , String mimeType , InputStream stream , MetaData customMeta );2;1;6
+ResourceWrapper.write( String sourceUri );3;2;19
+ResourceWrapper.getDocument( );1;0;3
+ResourceWrapper.translateMimeType( String mimeType );2;0;6
+ResourceWrapper.write( Part file );1;0;7
+ResourceWrapper.canReadMimeType( String mimeType );1;0;4
+ResourceWrapper.getSourceExtension( String fileName );2;3;10

@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ManagementContext.getJmxDomainName( );1;0;3
+ManagementContext.isCreateMBeanServer( );1;0;3
+ManagementContext.ManagementContext( MBeanServer server );1;0;3
+ManagementContext.sanitizeString( String in );2;1;9
+ManagementContext.setUseMBeanServer( boolean useMBeanServer );1;0;3
+ManagementContext.getSystemObjectName( String domainName , String containerName , Class theClass );1;2;5
+ManagementContext.ManagementContext( );1;0;3
+ManagementContext.createCustomComponentMBeanName( String type , String name );2;2;11
+ManagementContext.getRelativeName( String containerName , Class theClass );3;6;8
+ManagementContext.unregisterMBean( ObjectName name );3;2;5
+ManagementContext.getMBeanServer( );2;1;6
+ManagementContext.isUseMBeanServer( );1;0;3
+ManagementContext.stop( );6;6;8
+ManagementContext.setJmxDomainName( String jmxDomainName );1;0;3
+ManagementContext.start( );1;0;3
+ManagementContext.setCreateMBeanServer( boolean enableJMX );1;0;3
+ManagementContext.findMBeanServer( );8;5;22

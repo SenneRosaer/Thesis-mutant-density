@@ -1,0 +1,55 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+LoggerNameTreePanel.ignore( Collection fqnLoggersToIgnore );1;0;5
+MouseFocusOnListener.ignoreLoggerAtPoint( Point point );2;1;7
+LoggerNameTreePanel.updateIgnoreSummary( );1;0;3
+LoggerNameTreePanel.propertyChange( PropertyChangeEvent evt );2;2;10
+LoggerTreePopupMenu.initMenu( );1;0;11
+LoggerNameTreePanel.createCloseAction( );1;0;13
+LoggerNameTreePanel.createClearIgnoreListAction( );1;0;16
+MouseFocusOnListener.mouseClicked( MouseEvent e );6;11;19
+LoggerNameTreePanel.updateHiddenSetModels( );2;0;11
+LoggerNameTreePanel.collapseCurrentlySelectedNode( );6;6;28
+LoggerNameTreePanel.getLoggerName( TreePath path );4;5;17
+LoggerNameTreePanel.createIgnoreAction( );2;0;25
+LoggerNameTreePanel.actionPerformed( ActionEvent e );1;2;3
+LoggerNameTreePanel.getHiddenSet( );1;0;3
+LoggerNameTreePanel.treeNodesRemoved( TreeModelEvent e );1;0;2
+LoggerNameTreePanel.valueChanged( TreeSelectionEvent e );10;19;31
+LoggerNameTreePanel.createExpandAction( );1;0;16
+LoggerNameTreePanel.createCollapseAction( );1;0;16
+LoggerNameTreePanel.treeStructureChanged( TreeModelEvent e );1;0;2
+LoggerNameTreeCellRenderer.LoggerNameTreeCellRenderer( );1;0;5
+LoggerNameTreePanel.stateChanged( ChangeEvent evt );1;0;4
+LoggerNameTreePanel.setFocusOn( String newLogger );3;2;17
+LoggerNameTreePanel.addChangeListener( ChangeListener l );1;0;3
+LoggerNameTreePanel.createEditLoggerAction( );1;0;17
+LoggerNameTreePanel.removeChangeListener( ChangeListener l );1;0;3
+LoggerNameTreePanel.LoggerNameTreePanel( LogPanelLoggerTreeModel logTreeModel , LogPanelPreferenceModel preferenceModel );19;0;156
+LoggerNameTreePanel.isFocusOnSelected( );1;1;3
+LoggerNameTreePanel.actionPerformed( final ActionEvent e );1;0;7
+LoggerNameTreePanel.setFocusOnSelected( boolean selected );2;0;10
+LoggerTreePopupMenu.show( Component invoker , int x , int y );2;1;9
+LoggerNameTreePanel.getLoggerColorRule( );1;0;3
+LoggerNameTreePanel.expandCurrentlySelectedNode( );8;5;47
+LoggerNameTreePanel.getToolTipText( MouseEvent ev );3;2;13
+LoggerNameTreePanel.createFocusOnAction( );1;0;17
+LoggerTreePopupMenu.LoggerTreePopupMenu( );1;0;3
+LoggerNameTreePanel.treeNodesChanged( TreeModelEvent e );1;0;2
+LoggerNameTreePanel.propertyChange( PropertyChangeEvent arg0 );1;0;3
+LoggerNameTreePanel.run( );1;0;3
+MouseFocusOnListener.focusAnLoggerAtPoint( Point point );2;1;7
+LoggerNameTreePanel.updateAllIgnoreStuff( );1;0;4
+LoggerNameTreePanel.setupListeners( );12;0;81
+LoggerNameTreePanel.configureToolbarPanel( );1;0;26
+LoggerNameTreePanel.reconfigureMenuText( );3;3;15
+LoggerNameTreePanel.evaluate( LoggingEvent e );8;17;13
+LoggerNameTreePanel.mouseClicked( MouseEvent e );4;5;17
+LoggerNameTreePanel.ensureRootExpanded( );1;0;12
+LoggerNameTreeCellRenderer.getTreeCellRendererComponent( JTree tree , Object value , boolean sel , boolean expanded , boolean leaf , int row , boolean focus );6;5;30
+MouseFocusOnListener.getLoggerAtPoint( Point point );2;1;8
+MouseKeyIconListener.mouseMoved( MouseEvent e );4;7;16
+LoggerNameTreePanel.toggleFocusOnState( );1;2;4
+LoggerNameTreePanel.fireChangeEvent( );3;3;13
+LoggerNameTreePanel.toggleHiddenLogger( String logger );2;1;11
+LoggerNameTreePanel.getCurrentlySelectedLoggerName( );3;3;9
+LoggerNameTreePanel.treeNodesInserted( TreeModelEvent e );2;1;7

@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FTPSender.setUniqueFileName( String uniqueFileName );1;0;3
+FTPSender.getMarshaler( );1;0;3
+FTPSender.returnClient( SocketClient client );3;1;10
+FTPSender.init( );2;1;6
+FTPSender.process( MessageExchange exchange , NormalizedMessage message );8;5;42
+FTPSender.getClientPool( );1;0;3
+FTPSender.getUniqueFileName( );1;0;3
+FTPSender.isOverwrite( );1;0;3
+FTPSender.setOverwrite( boolean overwrite );1;0;3
+FTPSender.setClientPool( FTPClientPool clientPool );1;0;3
+FTPSender.setMarshaler( FileMarshaler marshaler );1;0;3

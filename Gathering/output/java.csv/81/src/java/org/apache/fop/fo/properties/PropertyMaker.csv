@@ -1,0 +1,36 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PropertyMaker.make( PropertyList propertyList );5;2;19
+PropertyMaker.checkEnumValues( String value );2;1;7
+PropertyMaker.addSubpropMaker( PropertyMaker subproperty );1;0;3
+PropertyMaker.make( PropertyList propertyList , String value , FObj fo );10;11;40
+PropertyMaker.setCorresponding( CorrespondingPropertyMaker corresponding );1;0;3
+PropertyMaker.setInherited( boolean inherited );1;0;3
+***not in a method***;0;1;0
+PropertyMaker.convertProperty( Property p , PropertyList propertyList , FObj fo );1;0;3
+PropertyMaker.getPercentBase( PropertyList pl );2;2;7
+PropertyMaker.convertShorthandProperty( PropertyList propertyList , Property prop , FObj fo );6;5;21
+PropertyMaker.convertPropertyDatatype( Property p , PropertyList propertyList , FObj fo );1;0;3
+PropertyMaker.getShorthand( PropertyList propertyList );6;7;20
+PropertyMaker.get( int subpropertyId , PropertyList propertyList , boolean tryInherit , boolean tryDefault );3;2;7
+PropertyMaker.useGeneric( PropertyMaker generic );4;3;16
+PropertyMaker.getSubprop( Property p , int subpropertyId );1;0;4
+PropertyMaker.setDatatypeParser( ShorthandParser parser );1;0;3
+PropertyMaker.make( Property baseProperty , int subpropertyId , PropertyList propertyList , String value , FObj fo );1;0;3
+PropertyMaker.addShorthand( PropertyMaker shorthand );4;4;11
+PropertyMaker.getName( );1;0;3
+PropertyMaker.addKeyword( String keyword , String value );2;1;6
+PropertyMaker.isInherited( );1;0;3
+PropertyMaker.makeNewProperty( );1;0;3
+PropertyMaker.setDefault( String defaultValue );1;0;3
+PropertyMaker.clone( );2;0;7
+PropertyMaker.setDefault( String defaultValue , boolean contextDep );1;0;4
+PropertyMaker.setByShorthand( boolean setByShorthand );1;0;3
+PropertyMaker.addEnum( String constant , Property value );2;1;6
+PropertyMaker.checkValueKeywords( String keyword );3;2;9
+PropertyMaker.getPropId( );1;0;3
+PropertyMaker.setSubprop( Property baseProperty , int subpropertyId , Property subproperty );1;0;5
+PropertyMaker.findProperty( PropertyList propertyList , boolean tryInherit );10;8;26
+PropertyMaker.getSubpropMaker( int subpropertyId );1;0;3
+PropertyMaker.compute( PropertyList propertyList );2;1;6
+PropertyMaker.setPercentBase( int percentBase );1;0;3
+PropertyMaker.PropertyMaker( int propId );1;0;3

@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DigesterReadContext.DigesterReadContext( Log log , BindingConfiguration bindingConfiguration , ReadConfiguration readConfiguration );1;0;3
+DigesterReadContext.DigesterReadContext( ReadContext readContext );1;0;3
+BeanRuleSet.BeanRuleSet( XMLIntrospector introspector , String basePath , ElementDescriptor baseElementDescriptor , Class baseBeanClass , Context context );1;0;8
+BeanRuleSet.BeanRuleSet( XMLIntrospector introspector , String basePath , ElementDescriptor baseElementDescriptor , Class baseBeanClass , boolean matchIDs );1;0;13
+BeanRuleSet.addRuleInstances( Digester digester );3;1;10
+BeanRuleSet.BeanRuleSet( XMLIntrospector introspector , String basePath , ElementDescriptor baseElementDescriptor , Class baseBeanClass , ReadContext baseContext );1;0;7
+BeanRuleSet.setLog( Log aLog );1;0;3
+DigesterReadContext.pushBean( Object bean );1;0;4
+BeanRuleSet.setClassNameAttribute( String classNameAttribute );1;0;3
+ActionMappingRule.nextAction( String namespace , String name , Attributes attributes , ReadContext context );2;1;11
+ActionMappingRule.end( String namespace , String name );1;0;4
+DigesterReadContext.getDigester( );1;0;3
+DigesterReadContext.popBean( );2;1;7
+BeanRuleSet.BeanRuleSet( XMLIntrospector introspector , String basePath , ElementDescriptor baseElementDescriptor , Context context );1;0;9
+DigesterReadContext.DigesterReadContext( BindingConfiguration bindingConfiguration , ReadConfiguration readConfiguration );1;0;3
+ActionMappingRule.begin( String namespace , String name , Attributes attributes );4;3;17
+BeanRuleSet.getNamespaceURI( );1;0;3
+DigesterReadContext.DigesterReadContext( Context context , ReadConfiguration readConfiguration );1;0;3
+DigesterReadContext.setDigester( Digester digester );1;0;3
+ActionMappingRule.body( String namespace , String name , String text );3;1;9
+BeanRuleSet.getClassNameAttribute( );1;0;3
+ActionMappingRule.finish( );1;0;3

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReflectionHelper.setupArgumentsForVarargsInvocation( Class < ? > [ ] requiredParameterTypes , Object ... args );7;17;22
+ReflectionHelper.compareArgumentsVarargs( List < TypeDescriptor > expectedArgTypes , List < TypeDescriptor > suppliedArgTypes , TypeConverter typeConverter );21;24;69
+ReflectionHelper.getTypeDifferenceWeight( List < TypeDescriptor > paramTypes , List < TypeDescriptor > argTypes );13;9;39
+ArgumentsMatchInfo.isCloseMatch( );1;1;3
+ReflectionHelper.convertAllArguments( TypeConverter converter , Object [ ] arguments , Method method );2;1;4
+ArgumentsMatchInfo.isExactMatch( );1;1;3
+ArgumentsMatchInfo.ArgumentsMatchInfo( ArgumentsMatchKind kind );1;0;3
+ReflectionHelper.compareArguments( List < TypeDescriptor > expectedArgTypes , List < TypeDescriptor > suppliedArgTypes , TypeConverter typeConverter );10;9;28
+ArgumentsMatchInfo.toString( );1;0;3
+ArgumentsMatchInfo.isMatchRequiringConversion( );1;1;3
+ReflectionHelper.isFirstEntryInArray( Object value , @ Nullable Object possibleArray );7;7;12
+ReflectionHelper.convertArguments( TypeConverter converter , Object [ ] arguments , Executable executable , @ Nullable Integer varargsPosition );11;22;48

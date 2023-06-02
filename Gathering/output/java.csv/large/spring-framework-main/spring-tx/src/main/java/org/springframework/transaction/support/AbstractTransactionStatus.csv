@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractTransactionStatus.rollbackToHeldSavepoint( );2;1;10
+AbstractTransactionStatus.setSavepoint( @ Nullable Object savepoint );1;0;3
+AbstractTransactionStatus.setCompleted( );1;0;3
+AbstractTransactionStatus.getSavepoint( );1;0;3
+AbstractTransactionStatus.rollbackToSavepoint( Object savepoint );1;0;3
+AbstractTransactionStatus.isLocalRollbackOnly( );1;0;3
+AbstractTransactionStatus.setRollbackOnly( );1;0;3
+AbstractTransactionStatus.flush( );1;0;2
+AbstractTransactionStatus.createAndHoldSavepoint( );1;0;3
+AbstractTransactionStatus.hasSavepoint( );1;1;3
+AbstractTransactionStatus.isGlobalRollbackOnly( );1;0;3
+AbstractTransactionStatus.releaseSavepoint( Object savepoint );1;0;3
+AbstractTransactionStatus.isCompleted( );1;0;3
+AbstractTransactionStatus.isRollbackOnly( );2;1;3
+AbstractTransactionStatus.createSavepoint( );1;0;3
+AbstractTransactionStatus.releaseHeldSavepoint( );2;1;9
+AbstractTransactionStatus.getSavepointManager( );1;0;3

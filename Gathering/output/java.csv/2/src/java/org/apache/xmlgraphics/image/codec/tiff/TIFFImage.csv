@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TIFFImage.copyData( WritableRaster wr );1;0;4
+TIFFImage.getFieldAsLongs( TIFFField field );4;5;15
+TIFFImage.interpretBytesAsShorts( byte [ ] byteArray , short [ ] shortArray , int shortCount );4;16;17
+TIFFImage.decodeJPEG( byte [ ] data , JPEGDecodeParam decodeParam , boolean colorConvert , int minX , int minY );4;1;16
+TIFFImage.decodePackbits( byte [ ] data , int arraySize , byte [ ] dst );10;23;27
+TIFFImage.readInts( int intCount , int [ ] intArray );2;1;10
+TIFFImage.getPrivateIFD( long offset );1;0;3
+TIFFImage.createPixelInterleavedSampleModel( int dataType , int tileWidth , int tileHeight , int bands );2;3;8
+***not in a method***;0;1;0
+TIFFImage.getTile( int tileX , int tileY );130;274;536
+TIFFImage.readShorts( int shortCount , short [ ] shortArray );2;1;10
+TIFFImage.inflate( byte [ ] deflated , byte [ ] inflated );2;0;10
+TIFFImage.createAlphaComponentColorModel( int dataType , int numBands , boolean isAlphaPremultiplied , int transparency );8;2;41
+TIFFImage.TIFFImage( SeekableStream stream , TIFFDecodeParam param , int directory );123;145;440
+TIFFImage.interpretBytesAsInts( byte [ ] byteArray , int [ ] intArray , int intCount );4;32;18

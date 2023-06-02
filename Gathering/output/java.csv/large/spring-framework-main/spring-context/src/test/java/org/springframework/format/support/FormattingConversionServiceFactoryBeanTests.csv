@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TestBeanFormatter.print( TestBean object , Locale locale );1;0;3
+FormattingConversionServiceFactoryBeanTests.testInvalidFormatter( );1;0;7
+TestBeanFormatter.parse( String text , Locale locale );1;0;5
+TestBean.setSpecialInt( int field );1;0;3
+FormattingConversionServiceFactoryBeanTests.testDefaultFormattersOn( );1;0;16
+SpecialIntAnnotationFormatterFactory.getPrinter( SpecialInt annotation , Class < ? > fieldType );1;0;5
+SpecialIntAnnotationFormatterFactory.getFieldTypes( );1;0;3
+FormattingConversionServiceFactoryBeanTests.testDefaultFormattersOff( );1;0;10
+FormattingConversionServiceFactoryBeanTests.testFormatterRegistrar( );1;0;11
+TestFormatterRegistrar.registerFormatters( FormatterRegistry registry );1;0;3
+TestBean.getSpecialInt( );1;0;3
+FormattingConversionServiceFactoryBeanTests.testCustomFormatter( );1;0;17
+SpecialIntAnnotationFormatterFactory.getParser( SpecialInt annotation , Class < ? > fieldType );1;0;5
+SpecialIntAnnotationFormatterFactory.SpecialIntAnnotationFormatterFactory( );1;0;3

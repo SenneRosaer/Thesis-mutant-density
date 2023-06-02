@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractHandlerExceptionResolver.buildLogMessage( Exception ex , HttpServletRequest request );1;1;3
+AbstractHandlerExceptionResolver.resolveException( HttpServletRequest request , HttpServletResponse response , @ Nullable Object handler , Exception ex );7;6;16
+AbstractHandlerExceptionResolver.setPreventResponseCaching( boolean preventResponseCaching );1;0;3
+AbstractHandlerExceptionResolver.setMappedHandlerClasses( Class < ? > ... mappedHandlerClasses );1;0;3
+AbstractHandlerExceptionResolver.logException( Exception ex , HttpServletRequest request );3;2;5
+AbstractHandlerExceptionResolver.preventCaching( HttpServletResponse response );1;0;3
+AbstractHandlerExceptionResolver.hasHandlerMappings( );2;3;3
+AbstractHandlerExceptionResolver.prepareResponse( Exception ex , HttpServletResponse response );2;0;5
+AbstractHandlerExceptionResolver.shouldApplyTo( HttpServletRequest request , @ Nullable Object handler );8;5;15
+AbstractHandlerExceptionResolver.getOrder( );1;0;3
+AbstractHandlerExceptionResolver.setOrder( int order );1;0;3
+AbstractHandlerExceptionResolver.setMappedHandlers( Set < ? > mappedHandlers );1;0;3
+AbstractHandlerExceptionResolver.setWarnLogCategory( String loggerName );2;0;3

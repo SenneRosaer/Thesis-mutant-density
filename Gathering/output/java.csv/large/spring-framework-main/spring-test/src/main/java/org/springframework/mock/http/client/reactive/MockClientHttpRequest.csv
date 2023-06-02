@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MockClientHttpRequest.MockClientHttpRequest( HttpMethod httpMethod , String urlTemplate , Object ... vars );1;0;3
+MockClientHttpRequest.writeWith( Publisher < ? extends DataBuffer > body );1;0;3
+MockClientHttpRequest.getURI( );1;0;3
+MockClientHttpRequest.getBody( );1;0;3
+MockClientHttpRequest.applyHeaders( );1;0;2
+MockClientHttpRequest.setWriteHandler( Function < Flux < DataBuffer > , Mono < Void > > writeHandler );1;0;4
+MockClientHttpRequest.getBodyAsString( );1;0;11
+MockClientHttpRequest.bufferFactory( );1;0;3
+MockClientHttpRequest.setComplete( );1;0;3
+MockClientHttpRequest.writeAndFlushWith( Publisher < ? extends Publisher < ? extends DataBuffer > > body );1;0;3
+MockClientHttpRequest.applyCookies( );1;0;4
+MockClientHttpRequest.MockClientHttpRequest( HttpMethod httpMethod , URI url );1;0;8
+MockClientHttpRequest.getNativeRequest( );1;0;3
+MockClientHttpRequest.getMethod( );1;0;3

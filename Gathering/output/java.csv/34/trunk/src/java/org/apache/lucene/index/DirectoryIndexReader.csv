@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DirectoryIndexReader.getIndexCommit( );1;0;3
+DirectoryIndexReader.doCommit( );9;9;42
+ReaderCommit.getGeneration( );1;0;3
+DirectoryIndexReader.finalize( );2;1;10
+DirectoryIndexReader.doClose( );2;0;4
+DirectoryIndexReader.open( final Directory directory , final boolean closeDirectory , final IndexDeletionPolicy deletionPolicy , final IndexCommit commit , final boolean readOnly );8;4;37
+DirectoryIndexReader.DirectoryIndexReader( Directory directory , SegmentInfos segmentInfos , boolean closeDirectory , boolean readOnly );1;0;4
+DirectoryIndexReader.reopen( );7;4;34
+DirectoryIndexReader.doBody( String segmentFileName );3;2;15
+ReaderCommit.isOptimized( );1;0;3
+DirectoryIndexReader.init( Directory directory , SegmentInfos segmentInfos , boolean closeDirectory , boolean readOnly );5;7;14
+DirectoryIndexReader.DirectoryIndexReader( );1;0;1
+ReaderCommit.getDirectory( );1;0;3
+DirectoryIndexReader.listCommits( Directory dir );8;8;26
+DirectoryIndexReader.acquireWriteLock( );6;4;19
+ReaderCommit.getVersion( );1;0;3
+DirectoryIndexReader.setDeletionPolicy( IndexDeletionPolicy deletionPolicy );1;0;3
+DirectoryIndexReader.getCommitUserData( );1;0;4
+DirectoryIndexReader.rollbackCommit( );3;3;9
+ReaderCommit.isDeleted( );1;0;3
+ReaderCommit.getSegmentsFileName( );1;0;3
+ReaderCommit.ReaderCommit( SegmentInfos infos , Directory dir );4;6;16
+DirectoryIndexReader.isOptimized( );2;3;4
+DirectoryIndexReader.isCurrent( );1;1;4
+DirectoryIndexReader.getVersion( );1;0;4
+ReaderCommit.getFileNames( );1;0;3
+DirectoryIndexReader.startCommit( );2;1;6
+ReaderCommit.getUserData( );1;0;3
+DirectoryIndexReader.open( final Directory directory , final boolean closeDirectory , final IndexDeletionPolicy deletionPolicy );1;0;3
+DirectoryIndexReader.directory( );1;0;4

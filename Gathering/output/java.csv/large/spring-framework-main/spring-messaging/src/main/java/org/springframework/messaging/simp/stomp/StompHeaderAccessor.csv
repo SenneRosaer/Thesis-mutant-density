@@ -1,0 +1,56 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+StompHeaderAccessor.setNack( @ Nullable String nack );1;0;3
+StompHeaderAccessor.setContentType( MimeType contentType );1;0;4
+StompHeaderAccessor.wrap( Message < ? > message );1;0;3
+StompHeaderAccessor.StompHeaderAccessor( Message < ? > message );1;0;4
+StompHeaderAccessor.StompHeaderAccessor( StompCommand command , @ Nullable Map < String , List < String > > externalSourceHeaders );1;0;5
+StompHeaderAccessor.getAck( );1;0;3
+StompHeaderAccessor.setHeartbeat( long cx , long cy );1;1;3
+StompHeaderAccessor.getContentLength( Map < String , List < String > > nativeHeaders );2;1;4
+StompHeaderAccessor.isHeartbeat( );1;1;3
+StompHeaderAccessor.setVersion( @ Nullable String version );1;0;3
+StompHeaderAccessor.updateStompCommandAsClientMessage( );4;3;15
+StompHeaderAccessor.setPasscode( @ Nullable String passcode );1;0;4
+StompHeaderAccessor.setDestination( @ Nullable String destination );1;0;4
+StompHeaderAccessor.getMessageId( );1;0;3
+StompHeaderAccessor.getHost( );1;0;3
+StompHeaderAccessor.setContentLength( int contentLength );1;0;3
+StompHeaderAccessor.getReceiptId( );1;0;3
+StompHeaderAccessor.create( StompCommand command );1;0;3
+StompHeaderAccessor.getMessage( );1;0;3
+StompHeaderAccessor.createAccessor( Message < ? > message );1;0;3
+StompPasscode.StompPasscode( String passcode );1;0;3
+StompHeaderAccessor.getShortLogMessage( Object payload );11;3;30
+StompHeaderAccessor.setHost( @ Nullable String host );1;0;3
+StompHeaderAccessor.StompHeaderAccessor( );1;0;3
+StompHeaderAccessor.getVersion( );1;0;3
+StompHeaderAccessor.getReceipt( );1;0;3
+StompHeaderAccessor.setLogin( @ Nullable String login );1;0;3
+StompHeaderAccessor.getNack( );1;0;3
+StompHeaderAccessor.protectPasscode( );3;3;7
+StompHeaderAccessor.setMessage( @ Nullable String content );1;0;3
+StompHeaderAccessor.updateSimpMessageHeadersFromStompHeaders( );11;7;29
+StompHeaderAccessor.setSubscriptionId( @ Nullable String subscriptionId );1;0;4
+StompHeaderAccessor.getAcceptVersion( );2;1;4
+StompHeaderAccessor.createForHeartbeat( );1;0;3
+StompHeaderAccessor.getCommand( Map < String , Object > headers );1;0;3
+StompHeaderAccessor.appendPayload( Object payload );8;11;17
+StompHeaderAccessor.setAck( @ Nullable String ack );1;0;3
+StompHeaderAccessor.getContentLength( );2;1;4
+StompHeaderAccessor.setAcceptVersion( String acceptVersion );1;0;3
+StompHeaderAccessor.trySetStompHeaderForSubscriptionId( );6;4;15
+StompHeaderAccessor.updateStompCommandAsServerMessage( );6;7;18
+StompHeaderAccessor.getCommand( );1;0;3
+StompHeaderAccessor.setMessageId( @ Nullable String id );1;0;3
+StompHeaderAccessor.getNativeHeaders( );1;0;3
+StompHeaderAccessor.getDetailedLogMessage( @ Nullable Object payload );8;6;24
+StompHeaderAccessor.updateStompHeadersFromSimpMessageHeaders( );3;2;11
+StompHeaderAccessor.setReceiptId( @ Nullable String receiptId );1;0;3
+StompHeaderAccessor.getPasscode( );2;1;4
+StompHeaderAccessor.create( StompCommand command , Map < String , List < String > > headers );1;0;3
+StompHeaderAccessor.getPasscode( Map < String , Object > headers );2;1;4
+StompHeaderAccessor.appendSession( );1;0;3
+StompHeaderAccessor.getLogin( );1;0;3
+StompHeaderAccessor.getHeartbeat( );2;1;8
+StompHeaderAccessor.setReceipt( @ Nullable String receiptId );1;0;3
+StompPasscode.toString( );1;0;3

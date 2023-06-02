@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Stopwatch.assertElapsedTimeIsLessThan( long expected , TimeUnit unit );2;1;8
+Stopwatch.elapsedNanos( );2;2;4
+Stopwatch.assertElapsedTimeIsMoreThan( long expected , TimeUnit unit );2;1;8
+Stopwatch.waitFor( int millis );2;0;7
+Stopwatch.fail( String message , long expectedNanos , long elapsedNanos );1;0;7
+Stopwatch.Stopwatch( );1;0;1
+Stopwatch.start( );2;1;5
+Stopwatch.createNotStarted( );1;0;3

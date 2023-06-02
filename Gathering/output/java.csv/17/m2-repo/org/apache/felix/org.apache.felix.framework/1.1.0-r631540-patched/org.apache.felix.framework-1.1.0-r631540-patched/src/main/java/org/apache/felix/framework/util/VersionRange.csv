@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+VersionRange.VersionRange( Version low , boolean isLowInclusive , Version high , boolean isHighInclusive );1;0;6
+VersionRange.parse( String range );2;6;15
+VersionRange.isHighInclusive( );1;0;3
+VersionRange.toString( );5;2;20
+VersionRange.isLowInclusive( );1;0;3
+VersionRange.getHigh( );1;0;3
+VersionRange.getLow( );1;0;3
+VersionRange.isInRange( Version version );10;15;19

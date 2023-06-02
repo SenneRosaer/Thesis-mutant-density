@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TransactionSynchronizationManager.clearSynchronization( );2;1;6
+TransactionSynchronizationManager.setCurrentTransactionIsolationLevel( @ Nullable Integer isolationLevel );1;0;3
+TransactionSynchronizationManager.doGetResource( Object actualKey );1;0;3
+TransactionSynchronizationManager.initSynchronization( );2;0;6
+TransactionSynchronizationManager.setCurrentTransactionReadOnly( boolean readOnly );1;0;3
+TransactionSynchronizationManager.clear( );1;0;3
+TransactionSynchronizationManager.bindResource( Object key , Object value );2;1;10
+TransactionSynchronizationManager.isSynchronizationActive( );1;1;3
+TransactionSynchronizationManager.getSynchronizations( );3;1;14
+TransactionSynchronizationManager.doUnbindResource( Object actualKey );1;0;4
+TransactionSynchronizationManager.registerSynchronization( TransactionSynchronization synchronization );2;1;8
+TransactionSynchronizationManager.getCurrentTransactionIsolationLevel( );1;0;3
+TransactionSynchronizationManager.isActualTransactionActive( );1;0;3
+TransactionSynchronizationManager.setActualTransactionActive( boolean active );1;0;3
+TransactionSynchronizationManager.TransactionSynchronizationManager( TransactionContext transactionContext );1;0;3
+TransactionSynchronizationManager.unbindResourceIfPossible( Object key );1;0;4
+TransactionSynchronizationManager.getCurrentTransactionName( );1;0;3
+TransactionSynchronizationManager.isCurrentTransactionReadOnly( );1;0;3
+TransactionSynchronizationManager.hasResource( Object key );1;1;5
+TransactionSynchronizationManager.setCurrentTransactionName( @ Nullable String name );1;0;3
+TransactionSynchronizationManager.unbindResource( Object key );2;1;8
+TransactionSynchronizationManager.forCurrentTransaction( );1;0;3
+TransactionSynchronizationManager.getResource( Object key );1;0;4

@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FTPClientWrapper.storeFileStream( String relPath );2;0;11
+FTPClientWrapper.disconnect( );1;0;10
+FTPClientWrapper.getReplyString( );1;0;3
+FTPClientWrapper.abort( );2;0;12
+FTPClientWrapper.getFileSystemOptions( );1;0;3
+FTPClientWrapper.makeDirectory( String relPath );2;0;11
+FTPClientWrapper.isConnected( );2;2;3
+FTPClientWrapper.retrieveFileStream( String relPath , long restartOffset );2;0;15
+FTPClientWrapper.createClient( );1;0;18
+FTPClientWrapper.completePendingCommand( );2;1;7
+FTPClientWrapper.removeDirectory( String relPath );2;0;11
+FTPClientWrapper.getRoot( );1;0;3
+FTPClientWrapper.FTPClientWrapper( final GenericFileName root , final FileSystemOptions fileSystemOptions );1;0;5
+FTPClientWrapper.rename( String oldName , String newName );2;0;11
+FTPClientWrapper.listFilesInDirectory( String relPath );5;5;17
+FTPClientWrapper.deleteFile( String relPath );2;0;11
+FTPClientWrapper.listFiles( String relPath );2;0;13
+FTPClientWrapper.appendFileStream( String relPath );2;0;11
+FTPClientWrapper.getFtpClient( );2;1;7
+FTPClientWrapper.retrieveFileStream( String relPath );2;0;11

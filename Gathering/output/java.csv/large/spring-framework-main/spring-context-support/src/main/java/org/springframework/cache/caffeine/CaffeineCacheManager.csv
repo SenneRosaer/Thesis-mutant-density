@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CaffeineCacheManager.setCacheNames( @ Nullable Collection < String > cacheNames );3;1;11
+CaffeineCacheManager.registerCustomCache( String name , com . github . benmanes . caffeine . cache . Cache < Object , Object > cache );1;0;4
+CaffeineCacheManager.getCacheNames( );1;0;3
+CaffeineCacheManager.doSetCaffeine( Caffeine < Object , Object > cacheBuilder );2;1;6
+CaffeineCacheManager.setCaffeineSpec( CaffeineSpec caffeineSpec );1;0;3
+CaffeineCacheManager.createNativeCaffeineCache( String name );2;1;3
+CaffeineCacheManager.refreshCommonCaches( );3;1;7
+CaffeineCacheManager.setAllowNullValues( boolean allowNullValues );2;1;6
+CaffeineCacheManager.isAllowNullValues( );1;0;3
+CaffeineCacheManager.setCacheSpecification( String cacheSpecification );1;0;3
+CaffeineCacheManager.CaffeineCacheManager( String ... cacheNames );1;0;3
+CaffeineCacheManager.CaffeineCacheManager( );1;0;2
+CaffeineCacheManager.setCaffeine( Caffeine < Object , Object > caffeine );1;0;4
+CaffeineCacheManager.adaptCaffeineCache( String name , com . github . benmanes . caffeine . cache . Cache < Object , Object > cache );1;0;3
+CaffeineCacheManager.createCaffeineCache( String name );1;0;3
+CaffeineCacheManager.setCacheLoader( CacheLoader < Object , Object > cacheLoader );2;1;6
+CaffeineCacheManager.getCache( String name );2;0;4

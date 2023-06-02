@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SerializableBatch.setValue( PropertyId propertyId , QValue [ ] values );1;0;3
+SerializableBatch.addNode( NodeId parentId , Name nodeName , Name nodetypeName , String uuid );1;0;3
+ReorderNodes.ReorderNodes( NodeId parentId , NodeId srcNodeId , NodeId beforeNodeId );1;0;5
+AddProperty.replay( Batch batch );2;0;7
+SerializableBatch.reorderNodes( NodeId parentId , NodeId srcNodeId , NodeId beforeNodeId );1;0;3
+Remove.replay( Batch batch );1;0;3
+SerializableBatch.remove( ItemId itemId );1;0;3
+SerializableBatch.setMixins( NodeId nodeId , Name [ ] mixinNodeTypeIds );1;0;3
+SerializableBatch.getSaveTarget( );1;0;3
+Remove.Remove( ItemId itemId );1;0;3
+SetValue.replay( Batch batch );2;0;7
+SerializableBatch.addProperty( NodeId parentId , Name propertyName , QValue [ ] values );1;0;3
+SerializableBatch.move( NodeId srcNodeId , NodeId destParentNodeId , Name destName );1;0;3
+SerializableBatch.addProperty( NodeId parentId , Name propertyName , QValue value );1;0;4
+AddNode.replay( Batch batch );1;0;3
+AddProperty.AddProperty( NodeId parentId , Name propertyName , QValue [ ] values , boolean isMultiValued );1;0;6
+ReorderNodes.replay( Batch batch );1;0;3
+SerializableBatch.SerializableBatch( ItemId itemId );1;0;3
+SetMixins.replay( Batch batch );1;0;3
+Move.replay( Batch batch );1;0;3
+SetMixins.SetMixins( NodeId nodeId , Name [ ] mixinNodeTypeIds );1;0;4
+SerializableBatch.setValue( PropertyId propertyId , QValue value );1;0;3
+Move.Move( NodeId srcNodeId , NodeId destParentNodeId , Name destName );1;0;5
+AddNode.AddNode( NodeId parentId , Name nodeName , Name nodetypeName , String uuid );1;0;6
+SerializableBatch.replay( Batch batch );2;0;5
+SetValue.SetValue( PropertyId propertyId , QValue [ ] values , boolean isMultiValued );1;0;5

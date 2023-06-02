@@ -1,0 +1,31 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RequestMappingHandlerAdapterIntegrationTests.handlerMethod( String methodName , Class < ? > ... paramTypes );1;0;4
+Handler.handleAndValidateRequestPart( @ RequestPart @ Valid String requestPart , Errors errors , Model model );1;0;3
+Handler.handleRequestPart( @ RequestPart String requestPart , Model model );1;0;3
+Handler.handleAndValidateRequestBody( @ Valid TestBean modelAttr , Errors errors );1;0;3
+RequestMappingHandlerAdapterIntegrationTests.teardown( );1;0;3
+Handler.handleHttpEntityWithCacheControl( HttpEntity < byte [ ] > httpEntity );1;0;4
+OtherUser.getName( );1;0;3
+RequestMappingHandlerAdapterIntegrationTests.handleAndCompleteSession( );1;0;5
+ColorArgumentResolver.resolveArgument( MethodParameter methodParameter , NativeWebRequest webRequest );1;0;3
+RequestMappingHandlerAdapterIntegrationTests.handleHttpEntityWithCacheControl( );3;0;11
+Handler.handleHttpEntity( HttpEntity < byte [ ] > httpEntity );1;0;6
+Handler.initBinder( WebDataBinder dataBinder , @ RequestParam ( "datePattern" ) String datePattern );1;0;4
+RequestMappingHandlerAdapterIntegrationTests.handleAndValidateRequestPart( );1;0;8
+RequestMappingHandlerAdapterIntegrationTests.handleAndValidateRequestBody( );3;0;10
+RequestMappingHandlerAdapterIntegrationTests.handleInInterface( );9;1;65
+Handler.model( Model model );1;0;9
+RequestMappingHandlerAdapterIntegrationTests.handleHttpEntity( );3;0;12
+StubValidator.supports( Class < ? > clazz );1;0;3
+User.getName( );1;0;3
+RequestMappingHandlerAdapterIntegrationTests.handle( );9;1;66
+Handler.handleRequestBody( @ RequestBody byte [ ] bytes );1;0;4
+RequestMappingHandlerAdapterIntegrationTests.handleRequestPart( );1;0;8
+StubValidator.validate( @ Nullable Object target , Errors errors );1;0;3
+RequestMappingHandlerAdapterIntegrationTests.handleRequestBody( );3;0;11
+CustomPrincipalArgumentResolver.supportsParameter( MethodParameter parameter );2;1;4
+CustomPrincipalArgumentResolver.resolveArgument( MethodParameter parameter , @ Nullable ModelAndViewContainer mavContainer , NativeWebRequest webRequest , @ Nullable WebDataBinderFactory binderFactory );1;0;3
+Handler.handleAndCompleteSession( SessionStatus sessionStatus );1;0;3
+RequestMappingHandlerAdapterIntegrationTests.setup( );1;0;17
+Handler.handleInInterface( int cookieV , String pathvarV , String headerV , String systemHeader , Map < String , Object > headerMap , Date dateParam , Map < String , Object > paramMap , String paramByConvention , String value , TestBean modelAttr , Errors errors , TestBean modelAttrByConvention , Color customArg , HttpServletRequest request , HttpServletResponse response , TestBean sessionAttribute , TestBean requestAttribute , User user , OtherUser otherUser , Model model , UriComponentsBuilder builder );1;0;18
+Handler.handle( @ CookieValue ( "cookie" ) int cookieV , @ PathVariable ( "pathvar" ) String pathvarV , @ RequestHeader ( "header" ) String headerV , @ RequestHeader ( defaultValue = "#{systemProperties.systemHeader}" ) String systemHeader , @ RequestHeader Map < String , Object > headerMap , @ RequestParam ( "dateParam" ) Date dateParam , @ RequestParam Map < String , Object > paramMap , String paramByConvention , @ Value ( "#{request.contextPath}" ) String value , @ ModelAttribute ( "modelAttr" ) @ Valid TestBean modelAttr , Errors errors , TestBean modelAttrByConvention , Color customArg , HttpServletRequest request , HttpServletResponse response , @ SessionAttribute TestBean sessionAttribute , @ RequestAttribute TestBean requestAttribute , @ Nullable User user , @ ModelAttribute OtherUser otherUser , @ AuthenticationPrincipal Principal customUser , Model model , UriComponentsBuilder builder );1;0;20

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ClientWorkspace.getNodeTypeManager( );2;0;8
+ClientWorkspace.getImportContentHandler( final String path , final int mode );3;0;18
+ClientWorkspace.move( String from , String to );2;0;7
+ClientWorkspace.copy( String from , String to );2;0;7
+ClientWorkspace.copy( String workspace , String from , String to );2;0;7
+ClientWorkspace.restore( Version [ ] versions , boolean removeExisting );1;0;3
+ClientWorkspace.getObservationManager( );3;1;12
+ClientWorkspace.ClientWorkspace( Session session , RemoteWorkspace remote , LocalAdapterFactory factory );1;0;5
+ClientWorkspace.getQueryManager( );2;0;8
+ClientWorkspace.getName( );2;0;7
+ClientWorkspace.clone( String workspace , String src , String dst , boolean removeExisting );2;0;7
+ClientWorkspace.importXML( String path , InputStream xml , int uuidBehaviour );3;2;12
+ClientWorkspace.getAccessibleWorkspaceNames( );2;0;7
+ClientWorkspace.getNamespaceRegistry( );2;0;8
+ClientWorkspace.endDocument( );2;0;8
+ClientWorkspace.getSession( );1;0;3

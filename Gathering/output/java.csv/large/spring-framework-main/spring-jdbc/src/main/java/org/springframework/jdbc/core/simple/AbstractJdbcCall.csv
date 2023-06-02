@@ -1,0 +1,37 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractJdbcCall.isReturnValueRequired( );1;0;3
+AbstractJdbcCall.matchInParameterValuesWithCallParameters( SqlParameterSource parameterSource );1;0;3
+AbstractJdbcCall.setReturnValueRequired( boolean returnValueRequired );1;0;3
+AbstractJdbcCall.executeCallInternal( Map < String , ? > args );3;5;13
+AbstractJdbcCall.onCompileInternal( );1;0;2
+AbstractJdbcCall.getCallableStatementFactory( );1;1;4
+AbstractJdbcCall.getProcedureName( );1;0;3
+AbstractJdbcCall.setProcedureName( @ Nullable String procedureName );1;0;3
+AbstractJdbcCall.setNamedBinding( boolean namedBinding );1;0;3
+AbstractJdbcCall.addDeclaredRowMapper( String parameterName , RowMapper < ? > rowMapper );2;0;6
+AbstractJdbcCall.getCallParameters( );1;0;3
+AbstractJdbcCall.matchInParameterValuesWithCallParameters( Object [ ] args );1;0;3
+AbstractJdbcCall.doExecute( Map < String , ? > args );2;0;5
+AbstractJdbcCall.getCallString( );1;0;3
+AbstractJdbcCall.compile( );6;2;19
+AbstractJdbcCall.setFunction( boolean function );1;0;3
+AbstractJdbcCall.getScalarOutParameterName( );1;0;3
+AbstractJdbcCall.isNamedBinding( );1;0;3
+AbstractJdbcCall.getCatalogName( );1;0;3
+AbstractJdbcCall.isCompiled( );1;0;3
+AbstractJdbcCall.AbstractJdbcCall( JdbcTemplate jdbcTemplate );1;0;4
+AbstractJdbcCall.doExecute( SqlParameterSource parameterSource );1;0;5
+AbstractJdbcCall.getJdbcTemplate( );1;0;3
+AbstractJdbcCall.setAccessCallParameterMetaData( boolean accessCallParameterMetaData );1;0;3
+AbstractJdbcCall.doExecute( Object ... args );2;0;5
+AbstractJdbcCall.checkCompiled( );2;1;6
+AbstractJdbcCall.getInParameterNames( );1;0;3
+AbstractJdbcCall.addDeclaredParameter( SqlParameter parameter );3;1;11
+AbstractJdbcCall.setSchemaName( @ Nullable String schemaName );1;0;3
+AbstractJdbcCall.isFunction( );1;0;3
+AbstractJdbcCall.setInParameterNames( Set < String > inParameterNames );1;0;3
+AbstractJdbcCall.compileInternal( );2;1;14
+AbstractJdbcCall.matchInParameterValuesWithCallParameters( Map < String , ? > args );1;0;3
+AbstractJdbcCall.setCatalogName( @ Nullable String catalogName );1;0;3
+AbstractJdbcCall.AbstractJdbcCall( DataSource dataSource );1;0;3
+AbstractJdbcCall.getSchemaName( );1;0;3

@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ResourceDatabasePopulator.setBlockCommentStartDelimiter( String blockCommentStartDelimiter );1;0;4
+ResourceDatabasePopulator.setIgnoreFailedDrops( boolean ignoreFailedDrops );1;0;3
+ResourceDatabasePopulator.setCommentPrefixes( String ... commentPrefixes );1;0;5
+ResourceDatabasePopulator.populate( Connection connection );2;0;8
+ResourceDatabasePopulator.setCommentPrefix( String commentPrefix );1;0;4
+ResourceDatabasePopulator.setSeparator( String separator );1;0;3
+ResourceDatabasePopulator.setContinueOnError( boolean continueOnError );1;0;3
+ResourceDatabasePopulator.setScripts( Resource ... scripts );1;0;4
+ResourceDatabasePopulator.addScript( Resource script );1;0;4
+ResourceDatabasePopulator.setBlockCommentEndDelimiter( String blockCommentEndDelimiter );1;0;4
+ResourceDatabasePopulator.addScripts( Resource ... scripts );1;0;4
+ResourceDatabasePopulator.setSqlScriptEncoding( @ Nullable String sqlScriptEncoding );2;0;3
+ResourceDatabasePopulator.ResourceDatabasePopulator( boolean continueOnError , boolean ignoreFailedDrops , @ Nullable String sqlScriptEncoding , Resource ... scripts );1;0;6
+ResourceDatabasePopulator.ResourceDatabasePopulator( );1;0;2
+ResourceDatabasePopulator.assertContentsOfScriptArray( Resource ... scripts );1;0;4
+ResourceDatabasePopulator.ResourceDatabasePopulator( Resource ... scripts );1;0;3
+ResourceDatabasePopulator.execute( DataSource dataSource );1;0;3

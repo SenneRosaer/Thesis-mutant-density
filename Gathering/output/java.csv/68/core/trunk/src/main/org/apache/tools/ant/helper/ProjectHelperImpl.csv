@@ -1,0 +1,34 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TaskHandler.characters( char [ ] buf , int start , int count );1;0;3
+AbstractHandler.AbstractHandler( ProjectHelperImpl helperImpl , DocumentHandler parentHandler );1;0;5
+TargetHandler.init( String tag , AttributeList attrs );13;7;49
+NestedElementHandler.NestedElementHandler( ProjectHelperImpl helperImpl , DocumentHandler parentHandler , Object parent , RuntimeConfigurable parentWrapper , Target target );2;0;10
+NestedElementHandler.characters( char [ ] buf , int start , int count );1;0;3
+TaskHandler.init( String tag , AttributeList attrs );4;2;21
+TargetHandler.startElement( String name , AttributeList attrs );1;0;3
+ProjectHandler.init( String tag , AttributeList attrs );13;9;51
+ProjectHelperImpl.ProjectHelperImpl( );1;0;3
+DescriptionHandler.characters( char [ ] buf , int start , int count );2;2;9
+DataTypeHandler.DataTypeHandler( ProjectHelperImpl helperImpl , DocumentHandler parentHandler , Target target );1;0;4
+DataTypeHandler.startElement( String name , AttributeList attrs );1;0;3
+TargetHandler.TargetHandler( ProjectHelperImpl helperImpl , DocumentHandler parentHandler );1;0;3
+DataTypeHandler.init( String propType , AttributeList attrs );3;1;13
+ProjectHelperImpl.parse( Project project , Object source );11;2;56
+NestedElementHandler.init( String propType , AttributeList attrs );3;0;21
+NestedElementHandler.startElement( String name , AttributeList attrs );2;0;9
+RootHandler.setDocumentLocator( Locator locator );1;0;3
+TaskHandler.TaskHandler( ProjectHelperImpl helperImpl , DocumentHandler parentHandler , TaskContainer container , RuntimeConfigurable parentWrapper , Target target );1;0;6
+RootHandler.resolveEntity( String publicId , String systemId );4;1;22
+ProjectHelperImpl.configureId( Object target , AttributeList attr );2;1;6
+ProjectHelperImpl.handleElement( ProjectHelperImpl helperImpl , DocumentHandler parent , Target target , String elementName , AttributeList attrs );3;1;9
+AbstractHandler.characters( char [ ] buf , int start , int count );2;1;6
+ProjectHandler.handleTarget( String tag , AttributeList attrs );1;0;3
+AbstractHandler.endElement( String name );1;0;3
+ProjectHandler.ProjectHandler( ProjectHelperImpl helperImpl , DocumentHandler parentHandler );1;0;3
+TaskHandler.startElement( String name , AttributeList attrs );2;0;8
+RootHandler.startElement( String tag , AttributeList attrs );2;0;8
+DataTypeHandler.characters( char [ ] buf , int start , int count );1;0;3
+ProjectHandler.startElement( String name , AttributeList attrs );2;0;7
+RootHandler.RootHandler( ProjectHelperImpl helperImpl );1;0;3
+AbstractHandler.startElement( String tag , AttributeList attrs );1;0;3
+DescriptionHandler.DescriptionHandler( ProjectHelperImpl helperImpl , DocumentHandler parentHandler );1;0;3

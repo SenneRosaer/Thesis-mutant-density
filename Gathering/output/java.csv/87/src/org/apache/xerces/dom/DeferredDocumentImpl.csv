@@ -1,0 +1,87 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DeferredDocumentImpl.createDeferredTextNode( String data , boolean ignorableWhitespace );2;2;8
+DeferredDocumentImpl.getRealPrevSibling( int nodeIndex );1;0;3
+DeferredDocumentImpl.setDeferredAttribute( int elementNodeIndex , String attrName , String attrURI , String attrValue , boolean specified );2;5;18
+DeferredDocumentImpl.setChunkValue( Object data [ ] [ ] , Object value , int chunk , int index );4;4;17
+IntVector.size( );1;0;3
+DeferredDocumentImpl.createDeferredElement( String elementName );1;0;3
+DeferredDocumentImpl.getChunkValue( Object data [ ] [ ] , int chunk , int index );2;1;3
+DeferredDocumentImpl.getNodeExtra( int nodeIndex , boolean free );3;5;9
+DeferredDocumentImpl.createDeferredElement( String elementURI , String elementName );1;2;8
+DeferredDocumentImpl.appendChild( int parentIndex , int childIndex );1;4;10
+IntVector.ensureCapacity( int newsize );3;4;10
+DeferredDocumentImpl.insertBefore( int parentIndex , int newChildIndex , int refChildIndex );2;6;14
+DeferredDocumentImpl.createDeferredProcessingInstruction( String target , String data );1;2;8
+DeferredDocumentImpl.putIdentifier0( String idName , Element element );3;1;11
+DeferredDocumentImpl.createDeferredElementDefinition( String elementName );1;2;7
+DeferredDocumentImpl.DeferredDocumentImpl( );1;0;3
+DeferredDocumentImpl.getNodeURI( int nodeIndex , boolean free );3;4;9
+DeferredDocumentImpl.getNodeExtra( int nodeIndex );1;0;3
+DeferredDocumentImpl.cloneNode( int nodeIndex , boolean deep );6;12;29
+IntVector.elementAt( int index );1;0;3
+DeferredDocumentImpl.clearChunkIndex( int data [ ] [ ] , int chunk , int index );4;7;11
+DeferredDocumentImpl.setTypeInfo( int elementNodeIndex , Object type );1;2;5
+DeferredDocumentImpl.createDeferredNotation( String notationName , String publicId , String systemId , String baseURI );1;4;14
+DeferredDocumentImpl.getChunkIndex( int data [ ] [ ] , int chunk , int index );2;2;3
+DeferredDocumentImpl.getPrevSibling( int nodeIndex );1;0;3
+DeferredDocumentImpl.synchronizeChildren( ParentNode p , int nodeIndex );4;4;28
+DeferredDocumentImpl.getPrevSibling( int nodeIndex , boolean free );5;11;23
+IntVector.removeAllElements( );1;0;3
+DeferredDocumentImpl.setAsLastChild( int parentIndex , int childIndex );1;2;5
+DeferredDocumentImpl.getNodeType( int nodeIndex );1;0;3
+DeferredDocumentImpl.createDeferredCDATASection( String data );1;2;7
+DeferredDocumentImpl.getRealPrevSibling( int nodeIndex , boolean free );3;5;9
+DeferredDocumentImpl.setNamespacesEnabled( boolean enable );1;0;3
+DeferredDocumentImpl.createDeferredElement( String elementURI , String elementName , Object type );1;2;9
+DeferredDocumentImpl.createDeferredDocument( );1;0;4
+DeferredDocumentImpl.setEntityInfo( int currentEntityDecl , String version , String encoding );2;4;9
+DeferredDocumentImpl.synchronizeChildren( );8;7;42
+DeferredDocumentImpl.getNodeValue( int nodeIndex , boolean free );3;4;9
+DeferredDocumentImpl.getDeferredEntityBaseURI( int entityIndex );2;2;8
+DeferredDocumentImpl.getLastChild( int nodeIndex );1;0;3
+DeferredDocumentImpl.getParentNode( int nodeIndex , boolean free );3;5;9
+DeferredDocumentImpl.getNodeType( int nodeIndex , boolean free );3;5;9
+DeferredDocumentImpl.getImplementation( );1;0;3
+DeferredDocumentImpl.DeferredDocumentImpl( boolean namespacesEnabled );1;0;3
+DeferredDocumentImpl.getNodeValue( int nodeIndex );1;0;3
+DeferredDocumentImpl.clearChunkValue( Object data [ ] [ ] , int chunk , int index );4;4;12
+DeferredDocumentImpl.putIdentifier( String name , int elementNodeIndex );4;6;24
+DeferredDocumentImpl.synchronizeChildren( AttrImpl a , int nodeIndex );5;6;36
+DeferredDocumentImpl.createDeferredComment( String data );1;2;7
+DeferredDocumentImpl.getNodeValueString( int nodeIndex , boolean free );14;28;59
+DeferredDocumentImpl.getTypeInfo( int nodeIndex );5;8;17
+DeferredDocumentImpl.getNamespacesEnabled( );1;0;3
+***not in a method***;0;8;0
+DeferredDocumentImpl.setInternalSubset( int doctypeIndex , String subset );1;4;9
+DeferredDocumentImpl.setChunkIndex( int data [ ] [ ] , int value , int chunk , int index );4;6;16
+DeferredDocumentImpl.getLastChild( int nodeIndex , boolean free );3;5;9
+DeferredDocumentImpl.createDeferredAttribute( String attrName , String attrValue , boolean specified );1;0;3
+DeferredDocumentImpl.setIdAttributeNode( int elemIndex , int attrIndex );1;3;9
+IntVector.addElement( int element );1;2;4
+DeferredDocumentImpl.lookupElementDefinition( String elementName );8;20;34
+DeferredDocumentImpl.getNodeName( int nodeIndex );1;0;3
+DeferredDocumentImpl.createNode( short nodeType );1;3;7
+DeferredDocumentImpl.getNodeURI( int nodeIndex );1;0;3
+DeferredDocumentImpl.DeferredDocumentImpl( boolean namespaces , boolean grammarAccess );1;0;6
+DeferredDocumentImpl.createChunk( int data [ ] [ ] , int chunk );1;1;4
+DeferredDocumentImpl.createDeferredEntityReference( String name , String baseURI );1;2;8
+DeferredDocumentImpl.createDeferredDocumentType( String rootElementName , String publicId , String systemId );1;2;9
+DeferredDocumentImpl.synchronizeData( );12;20;48
+DeferredDocumentImpl.createChunk( Object data [ ] [ ] , int chunk );1;1;4
+DeferredDocumentImpl.setDeferredAttribute( int elementNodeIndex , String attrName , String attrURI , String attrValue , boolean specified , boolean id , Object type );4;9;28
+DeferredDocumentImpl.getNodeName( int nodeIndex , boolean free );3;4;9
+DeferredDocumentImpl.getParentNode( int nodeIndex );1;0;3
+DeferredDocumentImpl.createDeferredAttribute( String attrName , String attrURI , String attrValue , boolean specified );2;2;11
+DeferredDocumentImpl.getNodeObject( int nodeIndex );27;20;108
+DeferredDocumentImpl.setIdAttribute( int attrIndex );1;3;7
+DeferredDocumentImpl.getNodeValueString( int nodeIndex );1;0;3
+DeferredDocumentImpl.print( int values [ ] , int start , int end , int middle , int target );6;6;19
+DeferredDocumentImpl.getAttribute( int elemIndex , String name );5;11;17
+DeferredDocumentImpl.binarySearch( final int values [ ] , int start , int end , int target );10;13;32
+DeferredDocumentImpl.ensureCapacity( int chunk );4;4;51
+DeferredDocumentImpl.getNodeValue( int chunk , int index );3;1;12
+DeferredDocumentImpl.createDeferredEntity( String entityName , String publicId , String systemId , String notationName , String baseURI );1;6;21
+DeferredDocumentImpl.getNodeIndex( );1;0;3
+DeferredDocumentImpl.setAttributeNode( int elemIndex , int attrIndex );5;19;49
+DeferredDocumentImpl.print( );29;9;106
+DeferredDocumentImpl.setInputEncoding( int currentEntityDecl , String value );1;2;7

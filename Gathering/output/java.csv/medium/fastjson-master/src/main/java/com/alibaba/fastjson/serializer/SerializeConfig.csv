@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SerializeConfig.addFilter( Class < ? > clazz , SerializeFilter filter );4;2;15
+SerializeConfig.SerializeConfig( int tableSize , boolean fieldBase );3;0;13
+SerializeConfig.setTypeKey( String typeKey );1;0;3
+SerializeConfig.createJavaBeanSerializer( SerializeBeanInfo beanInfo );61;55;125
+SerializeConfig.setPropertyNamingStrategy( PropertyNamingStrategy propertyNamingStrategy );1;0;3
+SerializeConfig.getTypeKey( );1;0;3
+SerializeConfig.SerializeConfig( );1;0;3
+SerializeConfig.SerializeConfig( boolean fieldBase );1;0;3
+SerializeConfig.put( Object type , Object value );1;0;3
+SerializeConfig.config( Class < ? > clazz , SerializerFeature feature , boolean value );8;7;32
+SerializeConfig.setAsmEnable( boolean asmEnable );2;0;6
+SerializeConfig.initSerializers( );1;0;49
+SerializeConfig.SerializeConfig( int tableSize );1;0;3
+SerializeConfig.getGlobalInstance( );1;0;3
+SerializeConfig.createJavaBeanSerializer( Class < ? > clazz );4;3;12
+SerializeConfig.getEnumValueField( Class clazz );8;5;26
+***not in a method***;0;1;0
+SerializeConfig.getEnumSerializer( );1;0;3
+SerializeConfig.register( Module module );1;0;3
+SerializeConfig.put( Type type , ObjectSerializer value );3;2;12
+SerializeConfig.isAsmEnable( );1;0;3
+SerializeConfig.getObjectWriter( Class < ? > clazz , boolean create );103;41;344
+SerializeConfig.createASMSerializer( SerializeBeanInfo beanInfo );5;3;14
+SerializeConfig.get( Type type );3;2;11
+SerializeConfig.configEnumAsJavaBean( Class < ? extends Enum > ... enumClasses );3;0;5
+SerializeConfig.clearSerializers( );1;0;4
+SerializeConfig.getObjectWriter( Class < ? > clazz );1;0;3

@@ -1,0 +1,16 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XML11DocumentScannerImpl.versionSupported( String version );2;1;3
+XML11DocumentScannerImpl.isValidNameChar( int value );1;0;3
+XML11DocumentScannerImpl.scanAttributeValue( XMLString value , XMLString nonNormalizedValue , String atName , boolean checkEntities , String eleName );58;51;204
+XML11DocumentScannerImpl.isUnchangedByNormalization( XMLString value );3;5;10
+XML11DocumentScannerImpl.isValidNameStartHighSurrogate( int value );1;0;3
+XML11DocumentScannerImpl.XML11DocumentScannerImpl( );1;0;1
+XML11DocumentScannerImpl.getVersionNotSupportedKey( );1;0;3
+XML11DocumentScannerImpl.normalizeWhitespace( XMLString value , int fromIndex );3;4;9
+XML11DocumentScannerImpl.isInvalid( int value );1;0;3
+XML11DocumentScannerImpl.scanContent( );13;16;35
+XML11DocumentScannerImpl.isInvalidLiteral( int value );1;1;3
+XML11DocumentScannerImpl.normalizeWhitespace( XMLString value );3;3;9
+XML11DocumentScannerImpl.isValidNameStartChar( int value );1;0;3
+XML11DocumentScannerImpl.isValidNCName( int value );1;0;3
+XML11DocumentScannerImpl.scanPubidLiteral( XMLString literal );14;17;40

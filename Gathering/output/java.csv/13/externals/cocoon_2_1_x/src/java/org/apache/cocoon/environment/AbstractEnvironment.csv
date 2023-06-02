@@ -1,0 +1,40 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractEnvironment.extractAction( Request req );6;3;18
+AbstractEnvironment.setStatus( int statusCode );1;0;2
+AbstractEnvironment.resolveURI( final String location );1;0;3
+AbstractEnvironment.initComponents( );5;2;23
+AbstractEnvironment.getRootContext( );2;1;6
+AbstractEnvironment.changeContext( String newPrefix , String newContext );14;15;61
+AbstractEnvironment.AbstractEnvironment( String uri , String view , File file );1;0;3
+AbstractEnvironment.setURIPrefix( String prefix );2;0;6
+AbstractEnvironment.setContext( String context );1;0;3
+AbstractEnvironment.extractView( Request request );1;0;3
+AbstractEnvironment.globalRedirect( boolean sessionmode , String newURL );1;0;3
+AbstractEnvironment.getURI( );1;0;3
+AbstractEnvironment.resolve( String systemId );9;3;47
+AbstractEnvironment.tryResetResponse( );3;2;7
+AbstractEnvironment.hasAttribute( String name );1;0;3
+AbstractEnvironment.finishingProcessing( );2;1;8
+AbstractEnvironment.release( final org . apache . excalibur . source . Source source );2;1;5
+AbstractEnvironment.setView( String view );2;1;6
+AbstractEnvironment.getAttribute( String name );1;0;3
+AbstractEnvironment.resolveURI( final String location , String baseURI , final Map parameters );2;1;6
+AbstractEnvironment.isInternalRedirect( );1;0;3
+AbstractEnvironment.getOutputStream( );1;1;5
+AbstractEnvironment.getObjectModel( );1;0;3
+AbstractEnvironment.getAction( );1;0;3
+AbstractEnvironment.AbstractEnvironment( String uri , String view , String context , String action );1;0;7
+AbstractEnvironment.setAction( String action );2;1;6
+AbstractEnvironment.commitResponse( );4;2;10
+AbstractEnvironment.AbstractEnvironment( String uri , String view , File file , String action );1;0;3
+AbstractEnvironment.isResponseModified( long lastModified );1;0;3
+AbstractEnvironment.setAttribute( String name , Object value );1;0;3
+AbstractEnvironment.setResponseIsNotModified( );1;0;2
+AbstractEnvironment.getView( );1;0;3
+AbstractEnvironment.setContext( String prefix , String uri , String context );3;1;8
+AbstractEnvironment.getContext( );2;1;6
+AbstractEnvironment.getURIPrefix( );1;0;3
+AbstractEnvironment.startingProcessing( );1;0;2
+AbstractEnvironment.getAttributeNames( );1;0;3
+AbstractEnvironment.getOutputStream( int bufferSize );4;3;13
+AbstractEnvironment.removeAttribute( String name );1;0;3

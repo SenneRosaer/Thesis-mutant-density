@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DNSServer.hasNext( );2;11;3
+DNSServer.getLocalHost( );1;0;3
+DNSServer.getByName( String host );7;5;15
+DNSServer.getHostName( InetAddress addr );2;1;12
+DNSServer.findTXTRecords( String hostname );3;3;11
+DNSServer.configure( final Configuration configuration );13;10;52
+DNSServer.lookup( String namestr , int type , String typeDesc );4;1;25
+DNSServer.getSMTPHostAddresses( final String domainName );11;0;45
+DNSServer.remove( );1;0;3
+DNSServer.allowIPLiteral( String host );3;3;9
+DNSServer.getDNSServers( );1;0;3
+DNSServer.findMXRecords( String hostname );3;1;26
+DNSServer.findMXRecordsRaw( String hostname );4;5;17
+MXRecordComparator.compare( Object a , Object b );2;3;5
+DNSServer.getAllByName( String host );8;7;20
+DNSServer.next( );1;2;3
+DNSServer.initialize( );7;2;35
+DNSServer.getSearchPaths( );1;0;3
+DNSServer.lookupNoException( String namestr , int type , String typeDesc );2;0;7

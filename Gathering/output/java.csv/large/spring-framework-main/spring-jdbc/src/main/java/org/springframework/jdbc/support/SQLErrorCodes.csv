@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SQLErrorCodes.setPermissionDeniedCodes( String ... permissionDeniedCodes );1;0;3
+SQLErrorCodes.setCustomSqlExceptionTranslatorClass( @ Nullable Class < ? extends SQLExceptionTranslator > customTranslatorClass );3;1;14
+SQLErrorCodes.setDeadlockLoserCodes( String ... deadlockLoserCodes );1;0;3
+SQLErrorCodes.setCannotSerializeTransactionCodes( String ... cannotSerializeTransactionCodes );1;0;3
+SQLErrorCodes.setUseSqlStateForTranslation( boolean useStateCodeForTranslation );1;0;3
+SQLErrorCodes.getDatabaseProductNames( );1;0;3
+SQLErrorCodes.getCustomSqlExceptionTranslator( );1;0;3
+SQLErrorCodes.isUseSqlStateForTranslation( );1;0;3
+SQLErrorCodes.getTransientDataAccessResourceCodes( );1;0;3
+SQLErrorCodes.setTransientDataAccessResourceCodes( String ... transientDataAccessResourceCodes );1;0;3
+SQLErrorCodes.setDuplicateKeyCodes( String ... duplicateKeyCodes );1;0;3
+SQLErrorCodes.getCannotSerializeTransactionCodes( );1;0;3
+SQLErrorCodes.getDataIntegrityViolationCodes( );1;0;3
+SQLErrorCodes.getPermissionDeniedCodes( );1;0;3
+SQLErrorCodes.setDatabaseProductNames( @ Nullable String ... databaseProductNames );1;0;3
+SQLErrorCodes.getDatabaseProductName( );3;3;4
+SQLErrorCodes.setDataAccessResourceFailureCodes( String ... dataAccessResourceFailureCodes );1;0;3
+SQLErrorCodes.getCustomTranslations( );1;0;3
+SQLErrorCodes.setDataIntegrityViolationCodes( String ... dataIntegrityViolationCodes );1;0;3
+SQLErrorCodes.getInvalidResultSetAccessCodes( );1;0;3
+SQLErrorCodes.getCannotAcquireLockCodes( );1;0;3
+SQLErrorCodes.setBadSqlGrammarCodes( String ... badSqlGrammarCodes );1;0;3
+SQLErrorCodes.getDataAccessResourceFailureCodes( );1;0;3
+SQLErrorCodes.setDatabaseProductName( @ Nullable String databaseProductName );1;0;3
+SQLErrorCodes.getDuplicateKeyCodes( );1;0;3
+SQLErrorCodes.setCustomTranslations( CustomSQLErrorCodesTranslation ... customTranslations );1;0;3
+SQLErrorCodes.getDeadlockLoserCodes( );1;0;3
+SQLErrorCodes.setCustomSqlExceptionTranslator( @ Nullable SQLExceptionTranslator customSqlExceptionTranslator );1;0;3
+SQLErrorCodes.setInvalidResultSetAccessCodes( String ... invalidResultSetAccessCodes );1;0;3
+SQLErrorCodes.setCannotAcquireLockCodes( String ... cannotAcquireLockCodes );1;0;3
+SQLErrorCodes.getBadSqlGrammarCodes( );1;0;3

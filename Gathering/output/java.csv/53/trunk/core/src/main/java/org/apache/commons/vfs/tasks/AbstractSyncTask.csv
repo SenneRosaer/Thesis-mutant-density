@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractSyncTask.handleFiles( );15;18;77
+AbstractSyncTask.handleUpToDateFile( final FileObject srcFile , final FileObject destFile );1;0;2
+AbstractSyncTask.setSrcDirIsBase( final boolean srcDirIsBase );1;0;3
+AbstractSyncTask.handleMissingSourceFile( final FileObject destFile );1;0;2
+AbstractSyncTask.addConfiguredSrc( final SourceInfo srcInfo );2;1;8
+AbstractSyncTask.isFailonerror( );1;0;3
+AbstractSyncTask.handleOutOfDateFile( final FileObject srcFile , final FileObject destFile );1;0;2
+SourceInfo.setFile( final String file );1;0;3
+AbstractSyncTask.setSrc( final String srcFile );1;0;5
+AbstractSyncTask.setIncludes( final String filesList );1;0;3
+AbstractSyncTask.execute( );16;19;60
+AbstractSyncTask.setDestFile( final String destFile );1;0;3
+AbstractSyncTask.handleFile( final Set destFiles , final FileObject srcFile , final FileObject destFile );2;0;12
+AbstractSyncTask.handleSingleFile( );3;2;20
+AbstractSyncTask.setSrcDir( final String srcDir );1;0;3
+AbstractSyncTask.handleFile( final FileObject srcFile , final FileObject destFile );3;3;11
+AbstractSyncTask.setFailonerror( final boolean failonerror );1;0;3
+AbstractSyncTask.logOrDie( final String message , int level );2;1;8
+AbstractSyncTask.setDestDir( final String destDir );1;0;3
+AbstractSyncTask.detectMissingSourceFiles( );1;0;3

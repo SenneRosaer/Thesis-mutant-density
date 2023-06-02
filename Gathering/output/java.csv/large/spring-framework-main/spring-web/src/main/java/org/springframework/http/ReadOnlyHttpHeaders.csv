@@ -1,0 +1,20 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReadOnlyHttpHeaders.getContentType( );2;1;10
+ReadOnlyHttpHeaders.clearContentHeaders( );1;0;2
+ReadOnlyHttpHeaders.ReadOnlyHttpHeaders( MultiValueMap < String , String > headers );1;0;3
+ReadOnlyHttpHeaders.put( String key , List < String > value );1;0;3
+ReadOnlyHttpHeaders.getAccept( );2;1;10
+ReadOnlyHttpHeaders.set( String headerName , @ Nullable String headerValue );1;0;3
+ReadOnlyHttpHeaders.addAll( MultiValueMap < String , String > values );1;0;3
+ReadOnlyHttpHeaders.remove( Object key );1;0;3
+ReadOnlyHttpHeaders.clear( );1;0;3
+ReadOnlyHttpHeaders.toSingleValueMap( );1;0;3
+ReadOnlyHttpHeaders.get( Object key );2;1;4
+ReadOnlyHttpHeaders.setAll( Map < String , String > values );1;0;3
+***not in a method***;0;1;0
+ReadOnlyHttpHeaders.addAll( String key , List < ? extends String > values );1;0;3
+ReadOnlyHttpHeaders.keySet( );1;0;3
+ReadOnlyHttpHeaders.values( );1;0;3
+ReadOnlyHttpHeaders.add( String headerName , @ Nullable String headerValue );1;0;3
+ReadOnlyHttpHeaders.entrySet( );1;0;6
+ReadOnlyHttpHeaders.putAll( Map < ? extends String , ? extends List < String > > map );1;0;3

@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+TrackingObject.setINameable( WeakReference nameable );1;0;3
+NameService.nameObject( String namePrefix , INameable object );1;2;4
+NameService.staticInstance( );2;1;5
+NameService.get( String name );5;4;16
+NameService.readObject( ObjectInputStream in );2;1;6
+NameService.getMap( String name , boolean create );7;4;18
+NameService.removeNamingObjectListener( NamingObjectListener nol );3;2;10
+NameService.getListener( );3;2;10
+NameService.put( INameable object );4;3;13
+NameService.instance( HttpSession session );3;2;13
+NameService.debugSetNameIntValue( int val );1;0;3
+NameService.reclaimSpace( );6;7;20
+NameService.fireNamingObjectEvent( TrackingObject to );3;3;10
+TrackingObject.getWeakINameable( );1;0;3
+NameService.addNamingObjectListener( NamingObjectListener nol );3;1;10
+NameService.NameService( );1;0;3

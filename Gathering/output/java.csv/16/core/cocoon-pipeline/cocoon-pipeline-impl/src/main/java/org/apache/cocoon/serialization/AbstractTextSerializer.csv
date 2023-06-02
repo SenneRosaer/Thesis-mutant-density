@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractTextSerializer.getTransformerHandler( );1;0;3
+NamespaceAsAttributes.clearMappings( );1;0;5
+AbstractTextSerializer.getValidity( );1;0;3
+AbstractTextSerializer.setDefaultEncoding( String defaultEncoding );1;0;3
+AbstractTextSerializer.setFormat( Properties format );1;0;3
+AbstractTextSerializer.initNamespacePipe( );3;0;9
+AbstractTextSerializer.setContentHandler( ContentHandler handler );2;1;8
+AbstractTextSerializer.setLexicalHandler( LexicalHandler handler );2;1;8
+AbstractTextSerializer.initTransformerFactory( );4;1;15
+NamespaceAsAttributes.endDocument( );1;0;6
+AbstractTextSerializer.recycle( );2;1;6
+NamespaceAsAttributes.endElement( String eltUri , String eltLocalName , String eltQName );4;5;6
+AbstractTextSerializer.configure( Configuration conf );11;10;46
+NamespaceAsAttributes.startElement( String eltUri , String eltLocalName , String eltQName , Attributes attrs );15;14;45
+NamespaceAsAttributes.startDocument( );1;0;6
+AbstractTextSerializer.init( );3;3;8
+AbstractTextSerializer.service( ServiceManager manager );2;1;8
+NamespaceAsAttributes.endPrefixMapping( String prefix );4;2;14
+AbstractTextSerializer.setTransformerFactory( String transformerFactoryClass );1;0;3
+AbstractTextSerializer.getTransformerFactory( );1;0;3
+AbstractTextSerializer.createCachingKey( Properties format );12;11;38
+NamespaceAsAttributes.startPrefixMapping( String prefix , String uri );4;4;14
+AbstractTextSerializer.setConsumer( XMLConsumer consumer );2;1;8
+AbstractTextSerializer.needsNamespacesAsAttributes( );3;3;27
+AbstractTextSerializer.getKey( );1;0;3

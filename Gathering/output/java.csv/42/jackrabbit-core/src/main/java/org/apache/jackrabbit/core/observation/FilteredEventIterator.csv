@@ -1,0 +1,10 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FilteredEventIterator.getSize( );1;1;3
+FilteredEventIterator.nextEvent( );1;0;3
+FilteredEventIterator.getPosition( );1;0;3
+FilteredEventIterator.remove( );1;0;3
+FilteredEventIterator.fetchNext( );7;5;15
+FilteredEventIterator.FilteredEventIterator( Iterator eventStates , long timestamp , EventFilter filter , Set denied );1;0;7
+FilteredEventIterator.next( );2;2;9
+FilteredEventIterator.hasNext( );1;1;3
+FilteredEventIterator.skip( long skipNum );2;2;5

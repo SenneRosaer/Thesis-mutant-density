@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+RExecClient.rexec( String username , String password , String command );1;0;3
+RExecClient.disconnect( );2;1;6
+RExecClient.getErrorStream( );1;0;3
+RExecClient.setRemoteVerificationEnabled( boolean enable );1;0;3
+RExecClient.RExecClient( );1;0;4
+RExecClient.getInputStream( );1;0;3
+RExecClient.rexec( String username , String password , String command , boolean separateErrorStream );6;6;30
+RExecClient.getOutputStream( );1;0;3
+RExecClient._createErrorStream( );3;2;18
+RExecClient.isRemoteVerificationEnabled( );1;0;3

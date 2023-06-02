@@ -1,0 +1,11 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SimpleClientHttpRequestFactory.prepareConnection( HttpURLConnection connection , String httpMethod );6;5;15
+SimpleClientHttpRequestFactory.openConnection( URL url , @ Nullable Proxy proxy );3;2;8
+SimpleClientHttpRequestFactory.createRequest( URI uri , HttpMethod httpMethod );2;0;10
+SimpleClientHttpRequestFactory.setBufferRequestBody( boolean bufferRequestBody );1;0;3
+SimpleClientHttpRequestFactory.setChunkSize( int chunkSize );1;0;3
+SimpleClientHttpRequestFactory.setProxy( Proxy proxy );1;0;3
+SimpleClientHttpRequestFactory.setConnectTimeout( int connectTimeout );1;0;3
+***not in a method***;0;2;0
+SimpleClientHttpRequestFactory.setOutputStreaming( boolean outputStreaming );1;0;3
+SimpleClientHttpRequestFactory.setReadTimeout( int readTimeout );1;0;3

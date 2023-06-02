@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JamesIdGenerator.JamesIdGenerator( final MailServer mailServer );1;0;4
+SimpleMailBuilder.addMailAddresses( Collection addresses , final MailboxList mailboxes );2;2;7
+SimpleMailBuilder.toInputStream( String text );2;0;8
+JamesIdGenerator.getId( );1;0;3
+SimpleMailBuilder.parseFrom( final String text , final MailAddress defaultAddress , final int length , int position );5;2;21
+SimpleMailBuilder.SimpleMailBuilder( final IdGenerator generator );1;0;3
+SimpleMailBuilder.toString( );1;0;7
+SimpleMailBuilder.build( String text );8;4;32
+SimpleMailBuilder.parseTo( final String text , Collection addresses , final int length , int position );5;2;19
+SimpleMailBuilder.SimpleMailBuilder( );1;0;8
+SimpleMailBuilder.firstMailAddress( final MailboxList mailboxes );2;1;8
+JamesIdGenerator.toString( );1;0;7
+SimpleMailBuilder.getId( );1;0;3
+SimpleMailBuilder.toMailAddress( final Mailbox mailbox );1;0;7

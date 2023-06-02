@@ -1,0 +1,30 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SPFLoggerAdapter.debug( String arg0 );1;0;3
+SPFLoggerAdapter.fatalError( String arg0 );1;0;3
+SPFHandler.getJunkHandlerData( SMTPSession session );5;4;18
+SPFHandler.doSPFCheck( SMTPSession session );12;9;37
+SPFLoggerAdapter.warn( String arg0 , Throwable arg1 );1;0;3
+SPFLoggerAdapter.info( String arg0 , Throwable arg1 );1;0;3
+SPFHandler.setDNSService( DNSService dnsService );1;0;3
+SPFHandler.getImplCommands( );1;0;6
+SPFLoggerAdapter.isWarnEnabled( );1;0;3
+SPFLoggerAdapter.isFatalErrorEnabled( );1;0;3
+SPFHandler.check( SMTPSession session );9;10;17
+SPFLoggerAdapter.isErrorEnabled( );1;0;3
+SPFHandler.configure( Configuration handlerConfiguration );4;3;18
+SPFLoggerAdapter.error( String arg0 );1;0;3
+SPFHandler.onCommand( SMTPSession session );3;0;7
+SPFHandler.setCheckAuthNetworks( boolean checkAuthNetworks );1;0;3
+SPFLoggerAdapter.fatalError( String arg0 , Throwable arg1 );1;0;3
+SPFLoggerAdapter.warn( String arg0 );1;0;3
+SPFLoggerAdapter.SPFLoggerAdapter( org . apache . avalon . framework . logger . Logger logger );1;0;3
+SPFLoggerAdapter.info( String arg0 );1;0;3
+SPFLoggerAdapter.isInfoEnabled( );1;0;3
+SPFLoggerAdapter.getChildLogger( String arg0 );1;0;3
+SPFLoggerAdapter.isDebugEnabled( );1;0;3
+SPFHandler.onMessage( SMTPSession session );1;0;4
+SPFHandler.initialize( );2;1;7
+SPFLoggerAdapter.debug( String arg0 , Throwable arg1 );1;0;3
+SPFLoggerAdapter.error( String arg0 , Throwable arg1 );1;0;3
+SPFHandler.setBlockSoftFail( boolean blockSoftFail );1;0;3
+SPFHandler.setBlockPermError( boolean blockPermError );1;0;3

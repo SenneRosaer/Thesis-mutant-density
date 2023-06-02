@@ -1,0 +1,8 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+UuidToUrlRewriter.getExtension( Document targetDocument , String requiredExtension );3;2;8
+UuidToUrlRewriter.getAbsoluteLink( URLInformation info , String linkUri );3;2;10
+UuidToUrlRewriter.matches( String url );2;1;3
+UuidToUrlRewriter.rewrite( String linkUrl );11;8;59
+UuidToUrlRewriter.getWebappUrl( Document targetDocument , String anchor , String queryString , String extension );5;9;14
+UuidToUrlRewriter.UuidToUrlRewriter( String currentUrl , LinkResolver linkResolver , DocumentFactory factory );1;0;8
+UuidToUrlRewriter.setCurrentDocument( Document doc );1;0;4

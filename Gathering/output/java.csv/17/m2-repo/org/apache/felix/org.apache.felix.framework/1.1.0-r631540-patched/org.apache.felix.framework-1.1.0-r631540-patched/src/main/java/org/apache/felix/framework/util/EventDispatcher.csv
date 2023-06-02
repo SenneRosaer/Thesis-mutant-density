@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+EventDispatcher.run( );1;6;16
+EventDispatcher.invokeBundleListenerCallback( Bundle bundle , final EventListener l , final EventObject event );8;11;25
+EventDispatcher.fireBundleEvent( BundleEvent event );3;3;15
+EventDispatcher.start( Logger logger );3;4;32
+EventDispatcher.invokeServiceListenerCallback( Bundle bundle , final EventListener l , Filter filter , Object acc , final EventObject event );16;17;64
+EventDispatcher.invokeFrameworkListenerCallback( Bundle bundle , final EventListener l , final EventObject event );4;4;20
+EventDispatcher.updateListener( Bundle bundle , Class clazz , EventListener l , Filter filter );12;16;45
+EventDispatcher.removeListeners( Bundle bundle );10;25;61
+EventDispatcher.addListener( Bundle bundle , Class clazz , EventListener l , Filter filter );14;16;87
+EventDispatcher.fireFrameworkEvent( FrameworkEvent event );1;0;8
+EventDispatcher.shutdown( );6;5;32
+EventDispatcher.fireEventImmediately( Logger logger , int type , Object [ ] listeners , EventObject event );7;11;35
+EventDispatcher.fireServiceEvent( ServiceEvent event );1;0;8
+EventDispatcher.EventDispatcher( Logger logger );1;0;3
+***not in a method***;0;1;0
+EventDispatcher.fireEventAsynchronously( Logger logger , int type , Object [ ] listeners , EventObject event );4;3;27
+EventDispatcher.removeListener( Bundle bundle , Class clazz , EventListener l );18;25;87

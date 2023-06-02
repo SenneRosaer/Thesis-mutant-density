@@ -1,0 +1,18 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+GroovyScriptFactory.executeScript( ScriptSource scriptSource , Class < ? > scriptClass );7;1;30
+GroovyScriptFactory.setBeanFactory( BeanFactory beanFactory );2;0;5
+GroovyScriptFactory.getScriptedObject( ScriptSource scriptSource , @ Nullable Class < ? > ... actualInterfaces );8;4;32
+GroovyScriptFactory.buildGroovyClassLoader( @ Nullable ClassLoader classLoader );2;1;4
+GroovyScriptFactory.GroovyScriptFactory( String scriptSourceLocator , CompilationCustomizer ... compilationCustomizers );2;1;7
+GroovyScriptFactory.requiresScriptedObjectRefresh( ScriptSource scriptSource );2;1;5
+GroovyScriptFactory.setBeanClassLoader( ClassLoader classLoader );4;3;10
+GroovyScriptFactory.getScriptInterfaces( );1;0;3
+GroovyScriptFactory.getScriptSourceLocator( );1;0;3
+GroovyScriptFactory.getGroovyClassLoader( );2;1;8
+GroovyScriptFactory.GroovyScriptFactory( String scriptSourceLocator );1;0;4
+GroovyScriptFactory.toString( );1;0;3
+GroovyScriptFactory.GroovyScriptFactory( String scriptSourceLocator , @ Nullable CompilerConfiguration compilerConfiguration );1;0;4
+GroovyScriptFactory.GroovyScriptFactory( String scriptSourceLocator , @ Nullable GroovyObjectCustomizer groovyObjectCustomizer );1;0;4
+GroovyScriptFactory.getScriptedObjectType( ScriptSource scriptSource );6;3;26
+GroovyScriptFactory.requiresConfigInterface( );1;0;3
+CachedResultHolder.CachedResultHolder( @ Nullable Object object );1;0;3

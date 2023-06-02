@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XSDocumentInfo.getAnnotations( );1;0;3
+XSDocumentInfo.addAllowedNS( String namespace );2;1;3
+XSDocumentInfo.XSDocumentInfo( Element schemaRoot , XSAttributeChecker attrChecker , SymbolTable symbolTable );4;5;30
+XSDocumentInfo.needReportTNSError( String uri );3;1;8
+XSDocumentInfo.toString( );6;5;19
+XSDocumentInfo.returnSchemaAttrs( );1;0;4
+XSDocumentInfo.restoreNSSupport( );1;0;4
+XSDocumentInfo.isAllowedNS( String namespace );2;1;3
+XSDocumentInfo.removeAnnotations( );1;0;3
+XSDocumentInfo.getSchemaAttrs( );1;0;3
+XSDocumentInfo.backupNSSupport( SchemaNamespaceSupport nsSupport );2;1;7
+XSDocumentInfo.addAnnotation( XSAnnotationInfo info );1;0;4

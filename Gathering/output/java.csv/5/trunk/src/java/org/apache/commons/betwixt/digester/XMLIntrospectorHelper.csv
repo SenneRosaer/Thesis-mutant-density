@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XMLIntrospectorHelper.defaultAddMethods( XMLIntrospector introspector , ElementDescriptor rootDescriptor , Class beanClass );29;25;107
+XMLIntrospectorHelper.setLog( Log aLog );1;0;3
+XMLIntrospectorHelper.XMLIntrospectorHelper( );1;0;2
+XMLIntrospectorHelper.configureProperty( AttributeDescriptor attributeDescriptor , PropertyDescriptor propertyDescriptor );7;3;27
+XMLIntrospectorHelper.configureProperty( ElementDescriptor elementDescriptor , PropertyDescriptor propertyDescriptor );1;0;3
+XMLIntrospectorHelper.getLog( );1;0;3
+XMLIntrospectorHelper.isLoopType( Class type );6;5;11
+XMLIntrospectorHelper.isPrimitiveType( Class type );12;9;18
+XMLIntrospectorHelper.configureProperty( ElementDescriptor elementDescriptor , PropertyDescriptor propertyDescriptor , String updateMethodName , Class beanClass );17;8;66
+XMLIntrospectorHelper.createDescriptor( PropertyDescriptor propertyDescriptor , boolean useAttributesForPrimitives , XMLIntrospector introspector );20;4;90
+XMLIntrospectorHelper.swapDescriptor( ElementDescriptor rootDescriptor , ElementDescriptor oldValue , ElementDescriptor newValue );4;4;13
+XMLIntrospectorHelper.makeElementDescriptorMap( ElementDescriptor rootDescriptor , Map map );4;4;13
+XMLIntrospectorHelper.findGetCollectionDescriptor( XMLIntrospector introspector , ElementDescriptor rootDescriptor , String propertyName );4;1;19

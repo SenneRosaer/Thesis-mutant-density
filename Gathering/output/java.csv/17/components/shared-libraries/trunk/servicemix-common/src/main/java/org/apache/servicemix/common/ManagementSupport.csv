@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Message.setTask( String task );1;0;3
+Message.getException( );1;0;3
+Message.getType( );1;0;3
+Message.getTask( );1;0;3
+Message.setComponent( String component );1;0;3
+Message.getMessage( );1;0;3
+Message.getResult( );1;0;3
+Message.setMessage( String message );1;0;3
+Message.getComponent( );1;0;3
+ManagementSupport.createComponentMessage( Message msg );5;3;78
+Message.setType( String type );1;0;3
+Message.setResult( String result );1;0;3
+Message.setException( Throwable exception );1;0;3
+ManagementSupport.failure( String task , String component , String info , Throwable e );3;2;14

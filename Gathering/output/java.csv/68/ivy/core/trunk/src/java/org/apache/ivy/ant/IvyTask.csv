@@ -1,0 +1,29 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IvyTask.getSettings( );1;0;3
+IvyTask.splitConfs( String conf );3;3;10
+IvyTask.setValidate( boolean validate );1;0;3
+IvyTask.getReference( String prefix , String org , String module , boolean strict );5;8;10
+IvyTask.doValidate( IvySettings ivy );2;1;6
+IvyTask.getResolvedDescriptor( String org , String module , boolean strict );1;0;3
+IvyTask.getIvyInstance( );4;3;23
+IvyTask.isValidate( );2;1;3
+IvyTask.getResolvedConfigurations( String org , String module , boolean strict );1;0;3
+IvyTask.getResolvedDescriptor( String resolveId );1;0;3
+IvyTask.getPubDate( String date , Date def );4;1;16
+IvyTask.getProperty( String value , IvySettings ivy , String name );2;1;9
+IvyTask.setResolved( ResolveReport report , String resolveId , boolean keep );2;1;10
+IvyTask.toString( );1;1;3
+IvyTask.getResolvedDescriptor( String resolveId , boolean strict );3;2;8
+IvyTask.getResolvedDescriptor( String org , String module );1;0;3
+IvyTask.getProperty( IvySettings ivy , String name , String resolveId );2;2;7
+IvyTask.getSettingsRef( );1;0;3
+IvyTask.execute( );1;0;8
+IvyTask.setResolved( ResolveReport report , boolean keep );2;1;14
+IvyTask.setSettingsRef( Reference ref );1;0;3
+IvyTask.finalizeTask( );2;1;6
+IvyTask.prepareTask( );1;0;6
+IvyTask.getProperty( String value , IvySettings ivy , String name , String resolveId );2;2;7
+IvyTask.getResolvedReport( String org , String module , String resolveId );2;1;10
+IvyTask.mergeConfs( String [ ] conf );1;0;3
+IvyTask.getProperty( IvySettings ivy , String name );3;2;15
+IvyTask.cacheAttributeNotSupported( );1;0;4

@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractDOMParser.endAttlist( Augmentations augs );1;0;2
+AbstractDOMParser.endGeneralEntity( String name , Augmentations augs );33;41;139
+AbstractDOMParser.getDocumentClassName( );1;0;3
+AbstractDOMParser.externalEntityDecl( String name , XMLResourceIdentifier identifier , Augmentations augs );15;12;65
+AbstractDOMParser.abort( );1;0;3
+AbstractDOMParser.doctypeDecl( String rootElement , String publicId , String systemId , Augmentations augs );3;2;14
+AbstractDOMParser.endExternalSubset( Augmentations augs );1;0;4
+AbstractDOMParser.AbstractDOMParser( XMLParserConfiguration config );1;0;12
+Abort.Abort( );1;0;1
+AbstractDOMParser.comment( XMLString text , Augmentations augs );14;13;43
+AbstractDOMParser.createAttrNode( QName attrQName );3;1;18
+AbstractDOMParser.textDecl( String version , String encoding , Augmentations augs );7;7;17
+AbstractDOMParser.setDocumentClassName( String documentClassName );7;6;28
+***not in a method***;0;8;0
+AbstractDOMParser.endDocument( Augmentations augs );5;5;17
+AbstractDOMParser.characters( XMLString text , Augmentations augs );19;15;70
+AbstractDOMParser.emptyElement( QName element , XMLAttributes attributes , Augmentations augs );1;0;4
+AbstractDOMParser.ignoredCharacters( XMLString text , Augmentations augs );1;0;2
+AbstractDOMParser.handleBaseURI( Node node );12;11;33
+AbstractDOMParser.endCDATA( Augmentations augs );11;11;38
+AbstractDOMParser.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );9;2;62
+AbstractDOMParser.startElement( QName element , XMLAttributes attributes , Augmentations augs );36;33;145
+AbstractDOMParser.startDTD( XMLLocator locator , Augmentations augs );6;3;16
+AbstractDOMParser.startAttlist( String elementName , Augmentations augs );1;0;2
+AbstractDOMParser.xmlDecl( String version , String encoding , String standalone , Augmentations augs );5;4;16
+AbstractDOMParser.processingInstruction( String target , XMLString data , Augmentations augs );14;11;48
+AbstractDOMParser.startCDATA( Augmentations augs );4;1;11
+AbstractDOMParser.endConditional( Augmentations augs );1;0;2
+AbstractDOMParser.endElement( QName element , Augmentations augs );26;24;82
+AbstractDOMParser.endParameterEntity( String name , Augmentations augs );2;0;6
+AbstractDOMParser.startParameterEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );7;6;15
+AbstractDOMParser.elementDecl( String name , String contentModel , Augmentations augs );3;3;9
+AbstractDOMParser.getDocument( );1;0;3
+AbstractDOMParser.createElementNode( QName element );3;1;16
+AbstractDOMParser.setLocale( Locale locale );1;0;3
+AbstractDOMParser.startGeneralEntity( String name , XMLResourceIdentifier identifier , String encoding , Augmentations augs );12;9;53
+AbstractDOMParser.reset( );1;2;30
+AbstractDOMParser.unparsedEntityDecl( String name , XMLResourceIdentifier identifier , String notation , Augmentations augs );14;13;63
+AbstractDOMParser.setCharacterData( boolean sawChars );12;11;36
+AbstractDOMParser.attributeDecl( String elementName , String attributeName , String type , String [ ] enumeration , String defaultType , XMLString defaultValue , XMLString nonNormalizedDefaultValue , Augmentations augs );21;20;88
+AbstractDOMParser.handleBaseURI( int node );9;10;29
+Abort.fillInStackTrace( );1;0;3
+AbstractDOMParser.startExternalSubset( XMLResourceIdentifier identifier , Augmentations augs );3;0;11
+AbstractDOMParser.endDTD( Augmentations augs );9;7;21
+AbstractDOMParser.startConditional( short type , Augmentations augs );1;0;2
+AbstractDOMParser.dropDocumentReferences( );1;0;10
+AbstractDOMParser.internalEntityDecl( String name , XMLString text , XMLString nonNormalizedText , Augmentations augs );16;13;56
+AbstractDOMParser.ignorableWhitespace( XMLString text , Augmentations augs );7;7;25
+AbstractDOMParser.notationDecl( String name , XMLResourceIdentifier identifier , Augmentations augs );13;15;51

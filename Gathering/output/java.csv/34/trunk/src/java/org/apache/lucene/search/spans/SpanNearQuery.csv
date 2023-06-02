@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SpanNearQuery.equals( Object o );6;6;9
+SpanNearQuery.getSpans( final IndexReader reader );4;2;9
+SpanNearQuery.getSlop( );1;0;1
+SpanNearQuery.hashCode( );2;7;9
+SpanNearQuery.getPayloadSpans( IndexReader reader );1;0;3
+SpanNearQuery.getField( );1;0;1
+SpanNearQuery.isInOrder( );1;0;1
+SpanNearQuery.getTerms( );2;0;9
+SpanNearQuery.SpanNearQuery( SpanQuery [ ] clauses , int slop , boolean inOrder );4;4;14
+SpanNearQuery.getClauses( );1;0;3
+SpanNearQuery.toString( String field );3;0;19
+SpanNearQuery.rewrite( IndexReader reader );5;5;17
+SpanNearQuery.extractTerms( Set terms );2;0;7

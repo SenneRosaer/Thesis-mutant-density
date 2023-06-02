@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ScriptableConnection.setParentScope( Scriptable parent );1;0;2
+ScriptableConnection.hasInstance( Scriptable instance );1;0;3
+ScriptableConnection.finishInit( Scriptable proto );1;0;2
+ScriptableConnection.construct( Context cx , Scriptable scope , Object [ ] args );1;0;3
+ScriptableConnection.delete( String name );1;0;3
+ScriptableConnection.call( Context cx , Scriptable scope , Scriptable thisObj , Object [ ] args );2;1;6
+ScriptableConnection.has( String name , Scriptable start );1;1;3
+ScriptableConnection.has( int index , Scriptable start );1;1;3
+ScriptableConnection.jsFunction_query( String sql , Object params , int startRow , int maxRows , Object funObj );17;16;75
+ScriptableConnection.wrap( final Scriptable wrapper , final Scriptable wrapped , final Function fun );2;0;62
+ScriptableConnection.put( String name , Scriptable start , Object value );1;1;3
+ScriptableConnection.wrap( final Scriptable wrapper , final Scriptable wrapped , Object obj );2;0;6
+ScriptableConnection.getDefaultValue( Class hint );1;0;3
+ScriptableConnection.jsFunction_update( String sql , Object params );8;6;33
+ScriptableConnection.get( String name , Scriptable start );1;2;3
+ScriptableConnection.getParentScope( );1;0;3
+ScriptableConnection.setPrototype( Scriptable prototype );1;0;2
+ScriptableConnection.ScriptableConnection( );1;0;2
+ScriptableConnection.get( int index , Scriptable start );1;2;3
+ScriptableConnection.ScriptableConnection( Scriptable parent , Connection conn );1;0;4
+ScriptableConnection.getPrototype( );1;0;3
+ScriptableConnection.jsConstructor( Context cx , Object [ ] args , Function ctorObj , boolean inNewExpr );5;2;17
+ScriptableConnection.getIds( );1;0;3
+ScriptableConnection.delete( int index );1;0;3
+ScriptableConnection.put( int index , Scriptable start , Object value );1;0;3
+ScriptableConnection.getClassName( );1;0;3

@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+CharsetFactory.loadCharset( Charset charset );2;2;7
+CharsetFactory.CharsetFactory( );5;1;27
+CharsetFactory.getCharset( );1;0;3
+CharsetFactory.loadCharset( String clazz );3;0;12
+CharsetFactory.getCharset( String name );3;2;7
+CharsetFactoryException.CharsetFactoryException( String message , Exception exception );2;1;4
+CharsetFactory.getDefaultCharset( );1;0;3
+CharsetFactory.newInstance( );3;2;8
+CharsetFactoryException.printStackTrace( PrintStream out );2;1;7
+CharsetFactory.loadCharsetsFromJar( URL url );5;6;23
+CharsetFactoryException.getException( );1;0;3
+CharsetFactory.loadCharsetsFromFile( URL url );4;8;12
+CharsetFactoryException.printStackTrace( PrintWriter out );2;1;7

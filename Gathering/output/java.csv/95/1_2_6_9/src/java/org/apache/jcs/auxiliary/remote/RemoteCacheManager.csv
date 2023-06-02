@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Location.hashCode( );2;2;3
+Location.equals( Object obj );7;9;16
+RemoteCacheManager.getInstance( IRemoteCacheAttributes cattr , ICompositeCacheManager cacheMgr );7;7;40
+RemoteCacheManager.freeCache( String name );2;1;11
+RemoteCacheManager.getCache( IRemoteCacheAttributes cattr );4;1;27
+RemoteCacheManager.getDefaultCattr( );1;0;3
+Location.Location( String host , int port );1;0;4
+RemoteCacheManager.RemoteCacheManager( String host , int port , String service , ICompositeCacheManager cacheMgr );5;0;34
+RemoteCacheManager.getStats( );3;1;13
+RemoteCacheManager.release( );5;3;25
+RemoteCacheManager.removeRemoteCacheListener( IRemoteCacheAttributes cattr , IRemoteCacheListener listener );1;0;7
+RemoteCacheManager.fixCaches( IRemoteCacheService remoteService , IRemoteCacheObserver remoteWatch );2;0;12
+RemoteCacheManager.getCache( String cacheName );1;0;5
+RemoteCacheManager.addRemoteCacheListener( IRemoteCacheAttributes cattr , IRemoteCacheListener listener );1;0;7
+RemoteCacheManager.removeRemoteCacheListener( IRemoteCacheAttributes cattr );3;1;21
+RemoteCacheManager.getCacheType( );1;0;3

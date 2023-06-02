@@ -1,0 +1,28 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MemoryFileSystem.listFolders( String folderPath );1;0;3
+MemoryFileSystem.lastModified( String path );1;0;4
+MemoryFileSystem.assertIsFile( String filePath );2;1;5
+MemoryFileSystem.getFile( String filePath );1;0;5
+MemoryFileSystem.exists( String path );1;0;3
+MemoryFileSystem.isFile( String path );2;2;3
+MemoryFileSystem.createFolder( String folderPath );4;4;17
+MemoryFileSystem.touch( String filePath );1;0;4
+MemoryFileSystem.listFiles( String folderPath );1;0;3
+MemoryFileSystem.getRandomAccessOutputStream( String filePath );1;0;4
+MemoryFileSystem.createFolderInternal( String folderPath );1;0;4
+MemoryFileSystem.isFolder( String path );3;1;7
+MemoryFileSystem.getInputStream( String filePath );1;0;6
+MemoryFileSystem.getOutputStream( String filePath );3;1;20
+MemoryFileSystem.init( );1;0;3
+MemoryFileSystem.deleteFolder( String folderPath );4;0;15
+MemoryFileSystem.assertIsFolder( String folderPath );2;1;7
+MemoryFileSystem.close( );1;0;2
+MemoryFileSystem.listInternal( String folderPath , boolean isFolder );4;4;13
+MemoryFileSystem.deleteFile( String filePath );1;0;4
+MemoryFileSystem.move( String srcPath , String destPath );8;6;33
+MemoryFileSystem.copy( String srcPath , String destPath );2;0;12
+MemoryFileSystem.length( String filePath );1;0;4
+MemoryFileSystem.list( String folderPath );5;3;14
+MemoryFileSystem.hasChildren( String path );1;1;4
+MemoryFileSystem.getEntry( String path );1;0;3
+MemoryFileSystem.assertExistence( String path );2;1;5

@@ -1,0 +1,71 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+DirectoryScanner.match( String pattern , String str , boolean isCaseSensitive );1;0;3
+DirectoryScanner.isIncluded( TokenizedPath path );5;2;14
+DirectoryScanner.matchPatternStart( String pattern , String str );1;0;3
+DirectoryScanner.getDeselectedFiles( );1;0;6
+DirectoryScanner.getBasedir( );1;0;3
+DirectoryScanner.getDefaultExcludes( );1;0;4
+DirectoryScanner.addDefaultExclude( String s );1;0;3
+DirectoryScanner.isExcluded( TokenizedPath name );5;2;14
+DirectoryScanner.hasBeenScanned( String vpath );1;1;3
+DirectoryScanner.matchPath( String pattern , String str );1;0;3
+DirectoryScanner.isIncluded( String name );1;0;3
+***not in a method***;0;3;0
+DirectoryScanner.shouldSkipPattern( String pattern );5;4;13
+DirectoryScanner.isEverythingIncluded( );1;0;3
+DirectoryScanner.setFollowSymlinks( boolean followSymlinks );1;0;3
+DirectoryScanner.clearResults( );1;1;13
+DirectoryScanner.getIncludedFiles( );2;1;12
+DirectoryScanner.isDeeper( TokenizedPattern pattern , TokenizedPath name );2;2;4
+DirectoryScanner.getScannedDirs( );1;0;3
+DirectoryScanner.matchPatternStart( String pattern , String str , boolean isCaseSensitive );1;0;3
+DirectoryScanner.isCaseSensitive( );1;0;3
+DirectoryScanner.fillNonPatternSet( Map map , String [ ] patterns );4;3;13
+DirectoryScanner.getNotFollowedSymlinks( );1;0;9
+DirectoryScanner.isFollowSymlinks( );1;0;3
+DirectoryScanner.scandir( File dir , TokenizedPath path , boolean fast );5;5;17
+DirectoryScanner.slowScan( );9;2;41
+DirectoryScanner.isExcluded( String name );1;0;3
+DirectoryScanner.addExcludes( String [ ] excludes );6;10;17
+DirectoryScanner.causesIllegalSymlinkLoop( String dirName , File parent , LinkedList directoryNamesFollowed );9;9;32
+DirectoryScanner.setMaxLevelsOfSymlinks( int max );1;0;3
+DirectoryScanner.removeDefaultExclude( String s );1;0;3
+DirectoryScanner.DirectoryScanner( );1;0;2
+DirectoryScanner.ensureNonPatternSetsReady( );2;1;7
+DirectoryScanner.matchPath( String pattern , String str , boolean isCaseSensitive );1;0;3
+DirectoryScanner.getDeselectedDirectories( );1;0;6
+DirectoryScanner.getNotIncludedFiles( );1;0;6
+DirectoryScanner.getExcludedDirectories( );1;0;6
+DirectoryScanner.couldHoldIncluded( TokenizedPath tokenizedName );5;2;15
+DirectoryScanner.setIncludes( String [ ] includes );3;3;10
+DirectoryScanner.addDefaultExcludes( );4;6;15
+DirectoryScanner.scandir( File dir , TokenizedPath path , boolean fast , String [ ] newfiles , LinkedList directoryNamesFollowed );21;17;77
+DirectoryScanner.couldHoldIncluded( String name );1;0;3
+DirectoryScanner.scandir( File dir , String vpath , boolean fast );1;0;3
+DirectoryScanner.getIncludedDirectories( );2;1;12
+DirectoryScanner.couldHoldIncluded( TokenizedPath tokenizedName , TokenizedPattern tokenizedInclude );3;2;5
+DirectoryScanner.setExcludes( String [ ] excludes );3;3;10
+DirectoryScanner.processSlowScan( String [ ] arr );3;3;8
+DirectoryScanner.getNotIncludedDirectories( );1;0;6
+DirectoryScanner.clearCaches( );1;0;7
+DirectoryScanner.getResource( String name );1;0;3
+DirectoryScanner.contentsExcluded( TokenizedPath path );4;3;10
+DirectoryScanner.scan( );22;12;83
+DirectoryScanner.checkIncludePatterns( );36;32;99
+DirectoryScanner.setBasedir( String basedir );2;1;5
+DirectoryScanner.getIncludedFilesCount( );2;1;6
+DirectoryScanner.accountForIncludedDir( TokenizedPath name , File file , boolean fast );4;3;6
+DirectoryScanner.setErrorOnMissingDir( boolean errorOnMissingDir );1;0;3
+DirectoryScanner.setCaseSensitive( boolean isCaseSensitive );1;0;3
+DirectoryScanner.setBasedir( File basedir );1;0;3
+DirectoryScanner.isMorePowerfulThanExcludes( String name );3;4;10
+DirectoryScanner.getIncludedDirsCount( );2;1;6
+DirectoryScanner.accountForIncludedDir( TokenizedPath name , File file , boolean fast , String [ ] children , LinkedList directoryNamesFollowed );4;3;6
+DirectoryScanner.match( String pattern , String str );1;0;3
+DirectoryScanner.setSelectors( FileSelector [ ] selectors );1;0;3
+DirectoryScanner.getExcludedFiles( );1;0;6
+DirectoryScanner.accountForIncludedFile( TokenizedPath name , File file );1;0;4
+DirectoryScanner.normalizePattern( String p );2;1;8
+DirectoryScanner.resetDefaultExcludes( );2;2;6
+DirectoryScanner.processIncluded( TokenizedPath path , File file , Vector inc , Vector exc , Vector des );6;3;16
+DirectoryScanner.isSelected( String name , File file );4;4;10

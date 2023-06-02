@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NoOpCache.getName( );1;0;3
+NoOpCache.putIfAbsent( Object key , @ Nullable Object value );1;0;3
+NoOpCache.evict( Object key );1;0;2
+NoOpCache.put( Object key , @ Nullable Object value );1;0;2
+NoOpCache.invalidate( );1;0;3
+NoOpCache.evictIfPresent( Object key );1;0;3
+NoOpCache.NoOpCache( String name );1;0;4
+NoOpCache.get( Object key , Callable < T > valueLoader );2;0;8
+NoOpCache.clear( );1;0;2
+NoOpCache.get( Object key );1;0;3
+NoOpCache.getNativeCache( );1;0;3
+NoOpCache.get( Object key , @ Nullable Class < T > type );1;0;3

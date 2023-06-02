@@ -1,0 +1,12 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+PersistenceUnitReader.determinePersistenceUnitRootUrl( Resource resource );7;7;28
+PersistenceUnitReader.parseProperties( Element persistenceUnit , SpringPersistenceUnitInfo unitInfo );3;1;12
+PersistenceUnitReader.buildDocument( ErrorHandler handler , InputStream stream );1;0;7
+PersistenceUnitReader.readPersistenceUnitInfos( String persistenceXmlLocation );1;0;3
+PersistenceUnitReader.parseJarFiles( Element persistenceUnit , SpringPersistenceUnitInfo unitInfo );7;2;26
+PersistenceUnitReader.parsePersistenceUnitInfo( Element persistenceUnit , String version , @ Nullable URL rootUrl );9;3;40
+PersistenceUnitReader.readPersistenceUnitInfos( String [ ] persistenceXmlLocations );6;0;27
+PersistenceUnitReader.parseDocument( Resource resource , Document document , List < SpringPersistenceUnitInfo > infos );2;0;10
+PersistenceUnitReader.parseMappingFiles( Element persistenceUnit , SpringPersistenceUnitInfo unitInfo );3;0;9
+PersistenceUnitReader.PersistenceUnitReader( ResourcePatternResolver resourcePatternResolver , DataSourceLookup dataSourceLookup );1;0;6
+PersistenceUnitReader.parseManagedClasses( Element persistenceUnit , SpringPersistenceUnitInfo unitInfo );3;0;9

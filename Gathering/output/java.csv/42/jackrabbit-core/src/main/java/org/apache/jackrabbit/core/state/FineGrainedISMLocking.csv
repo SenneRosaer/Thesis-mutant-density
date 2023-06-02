@@ -1,0 +1,17 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ReadLockImpl.release( );4;1;19
+LockMap.removeLock( ItemId id );5;5;24
+WriteLockImpl.release( );3;0;19
+WriteLockImpl.downgrade( );3;0;20
+FineGrainedISMLocking.acquireReadLock( ItemId id );5;4;24
+FineGrainedISMLocking.notifyWaitingReaders( );2;0;7
+FineGrainedISMLocking.hasDependency( ChangeLog changeLog , ItemId id );5;4;11
+LockMap.slotIndex( ItemId id );2;1;9
+ReadLockImpl.ReadLockImpl( ItemId id );1;0;3
+FineGrainedISMLocking.acquireWriteLock( ChangeLog changeLog );4;3;21
+LockMap.LockMap( );2;2;5
+LockMap.addLock( ItemId id );4;3;20
+ReadLockImpl.ReadLockImpl( );1;0;3
+LockMap.hasDependency( ChangeLog changes );6;3;18
+FineGrainedISMLocking.notifyWaitingWriters( );3;0;12
+WriteLockImpl.WriteLockImpl( ChangeLog changes );1;0;3

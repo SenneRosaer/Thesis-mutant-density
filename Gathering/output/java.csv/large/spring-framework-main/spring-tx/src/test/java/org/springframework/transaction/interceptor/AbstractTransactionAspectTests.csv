@@ -1,0 +1,27 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractTransactionAspectTests.rollbackOnUncheckedException( );1;0;3
+AbstractTransactionAspectTests.enclosingTransactionWithNonTransactionMethodOnAdvisedInside( );1;0;32
+AbstractTransactionAspectTests.noRollbackOnCheckedException( );1;0;3
+AbstractTransactionAspectTests.doTestRollbackOnException( final Exception ex , final boolean shouldRollback , boolean rollbackException );7;1;46
+AbstractTransactionAspectTests.rollbackOnCheckedException( );1;0;3
+AbstractTransactionAspectTests.transactionShouldSucceedWithCallbackPreference( );1;0;13
+AbstractTransactionAspectTests.noRollbackOnUncheckedException( );1;0;3
+AbstractTransactionAspectTests.transactionShouldSucceed( );1;0;14
+AbstractTransactionAspectTests.setup( );1;0;5
+AbstractTransactionAspectTests.cannotCommitTransaction( );2;2;22
+AbstractTransactionAspectTests.noRollbackOnUncheckedExceptionWithRollbackException( );1;0;3
+AbstractTransactionAspectTests.checkTransactionStatus( boolean expected );4;1;13
+AbstractTransactionAspectTests.transactionShouldSucceedWithNotNew( );1;0;14
+AbstractTransactionAspectTests.twoTransactionsShouldSucceed( );1;0;18
+AbstractTransactionAspectTests.noTransaction( );1;0;10
+AbstractTransactionAspectTests.transactionExceptionPropagatedWithCallbackPreference( );1;0;14
+AbstractTransactionAspectTests.rollbackOn( Throwable t );1;1;4
+AbstractTransactionAspectTests.rollbackOnUncheckedExceptionWithRollbackException( );1;0;3
+AbstractTransactionAspectTests.noRollbackOnCheckedExceptionWithRollbackException( );1;0;3
+AbstractTransactionAspectTests.rollbackOnCheckedExceptionWithRollbackException( );1;0;3
+AbstractTransactionAspectTests.exceptional( Throwable t );1;0;5
+AbstractTransactionAspectTests.programmaticRollback( );1;0;21
+AbstractTransactionAspectTests.getName( );1;0;5
+AbstractTransactionAspectTests.advised( Object target , PlatformTransactionManager ptm , TransactionAttributeSource [ ] tas );1;0;3
+AbstractTransactionAspectTests.enclosingTransactionWithNestedTransactionOnAdvisedInside( );1;0;41
+AbstractTransactionAspectTests.cannotCreateTransaction( );2;1;24

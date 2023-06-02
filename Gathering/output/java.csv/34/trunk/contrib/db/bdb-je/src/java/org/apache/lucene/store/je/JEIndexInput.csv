@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JEIndexInput.length( );1;0;3
+JEIndexInput.close( );1;0;2
+JEIndexInput.clone( );2;0;11
+JEIndexInput.JEIndexInput( JEDirectory directory , String name );2;1;10
+JEIndexInput.getFilePointer( );1;0;3
+JEIndexInput.seek( long pos );3;4;9
+JEIndexInput.readByte( );3;6;11
+JEIndexInput.readBytes( byte [ ] b , int offset , int len );4;11;23

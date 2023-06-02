@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JaxpSAXParser.setSaxParserFactoryName( String saxParserFactoryName );1;0;3
+JaxpSAXParser.initSaxParserFactory( );3;1;12
+DtdCommentEater.startEntity( String name );1;0;3
+JaxpSAXParser.isDropDtdComments( );1;0;3
+JaxpSAXParser.isStopOnRecoverableError( );1;0;3
+JaxpSAXParser.setupXMLReader( );7;2;34
+DtdCommentEater.endDTD( );1;0;4
+JaxpSAXParser.error( final SAXParseException spe );2;0;10
+JaxpSAXParser.parse( InputSource in , ContentHandler consumer );2;0;4
+JaxpSAXParser.isStopOnWarning( );1;0;3
+DtdCommentEater.startCDATA( );1;0;3
+DtdCommentEater.endEntity( String name );1;0;3
+JaxpSAXParser.parse( final InputSource in , final ContentHandler contentHandler , final LexicalHandler lexicalHandler );7;4;27
+DtdCommentEater.endCDATA( );1;0;3
+JaxpSAXParser.fatalError( final SAXParseException spe );1;0;7
+DtdCommentEater.startDTD( String name , String publicId , String systemId );1;0;4
+DtdCommentEater.DtdCommentEater( LexicalHandler nextHandler );1;0;3
+JaxpSAXParser.setStopOnWarning( boolean stopOnWarning );1;0;3
+DtdCommentEater.comment( char ch [ ] , int start , int length );2;1;5
+JaxpSAXParser.warning( final SAXParseException spe );2;0;10
+JaxpSAXParser.setStopOnRecoverableError( boolean stopOnRecoverableError );1;0;3
+JaxpSAXParser.setDropDtdComments( boolean dropDtdComments );1;0;3
+JaxpSAXParser.isNsPrefixes( );1;0;3
+JaxpSAXParser.getSaxParserFactoryName( );1;0;3
+JaxpSAXParser.setNsPrefixes( boolean nsPrefixes );1;0;3

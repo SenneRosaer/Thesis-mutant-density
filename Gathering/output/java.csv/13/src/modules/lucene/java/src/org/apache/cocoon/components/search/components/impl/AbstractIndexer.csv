@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractIndexer.deleteDocument( IndexReader deleter , String uid );3;0;12
+AbstractIndexer.getAnalyzer( );1;0;3
+AbstractIndexer.setMergeFactor( int value );1;0;3
+AbstractIndexer.index( Document doc );2;0;7
+AbstractIndexer.setIndex( Directory dir );4;1;16
+AbstractIndexer.switchToDEL_MODE( );2;1;6
+AbstractIndexer.openIndexWriter( boolean create );4;2;14
+AbstractIndexer.addDocument( IndexWriter writer , Document document );3;0;13
+AbstractIndexer.recycle( );2;0;7
+AbstractIndexer.getIndex( );1;0;3
+AbstractIndexer.clearIndex( );1;0;4
+AbstractIndexer.getMergeFactor( );1;0;3
+AbstractIndexer.release( );1;0;7
+AbstractIndexer.optimize( );1;0;3
+AbstractIndexer.closeReader( );4;1;14
+AbstractIndexer.del( String uid );1;0;4
+AbstractIndexer.openIndexReader( );4;1;13
+AbstractIndexer.handleError( String message , Exception exception );2;0;7
+AbstractIndexer.closeWriter( );4;1;14
+AbstractIndexer.switchToADD_MODE( boolean clear );2;1;6
+AbstractIndexer.setAnalyzer( Analyzer analyzer );3;1;10

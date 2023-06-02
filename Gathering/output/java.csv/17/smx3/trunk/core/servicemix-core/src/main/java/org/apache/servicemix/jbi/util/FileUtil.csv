@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FileUtil.zipDir( String directory , ZipOutputStream zos , String path );4;6;26
+FileUtil.countFilesInDirectory( File directory );4;2;12
+FileUtil.copyInputStream( InputStream in , OutputStream out );2;1;10
+FileUtil.zipDir( String directory , String zipName );1;0;6
+FileUtil.createUniqueDirectory( File rootDir , String seed );4;5;18
+FileUtil.buildDirectory( File file );2;1;3
+FileUtil.getDirectoryPath( File parent , String subDirectory );2;1;7
+FileUtil.moveFile( File src , File targetDirectory );2;1;5
+FileUtil.FileUtil( );1;0;2
+FileUtil.unpackArchive( File theFile , File targetDir );7;6;26
+FileUtil.unpackArchive( URL url , File targetDir );2;1;11
+FileUtil.archiveContainsEntry( File theFile , String name );3;0;14
+FileUtil.deleteFile( File fileToDelete );9;10;26

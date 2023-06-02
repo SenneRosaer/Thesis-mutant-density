@@ -1,0 +1,59 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JmsTemplateTests.testMessageNotReadableException( );1;0;3
+JmsTemplateTests.testSendAndReceiveDefaultDestinationName( );1;0;3
+JmsTemplateTests.testSendDefaultDestination( );1;0;3
+JmsTemplateTests.testReceiveDestinationNameWithSelector( );1;0;3
+JmsTemplateTests.testReceiveDestinationWithClientAcknowledge( );1;0;3
+JmsTemplateTests.testSendDestinationNameWithQOS( );1;0;3
+JmsTemplateTests.testInvalidClientIDException( );1;0;3
+JmsTemplateTests.createInitialContext( );1;0;3
+JmsTemplateTests.getLocalSession( );1;0;3
+JmsTemplateTests.createTemplate( );1;0;13
+JmsTemplateTests.testReceiveDestinationName( );1;0;3
+JmsTemplateTests.testInvalidDestinationException( );1;0;3
+JmsTemplateTests.testReceiveAndConvertDestinationNameWithSelector( );1;0;3
+JmsTemplateTests.doTestSendDestination( boolean explicitDestination , boolean useDefaultDestination , boolean ignoreQOS , boolean disableIdAndTimestamp );10;1;52
+JmsTemplateTests.testReceiveAndConvertDefaultDestinationName( );1;0;3
+JmsTemplateTests.testIllegalStateException( );1;0;3
+JmsTemplateTests.testReceiveDestinationWithSelector( );1;0;3
+JmsTemplateTests.testSendDefaultDestinationWithQOS( );1;0;3
+JmsTemplateTests.testReceiveAndConvertDefaultDestinationWithSelector( );1;0;3
+JmsTemplateTests.testSendDestinationWithQOS( );1;0;3
+JmsTemplateTests.testUncategorizedJmsException( );1;0;3
+JmsTemplateTests.doTestReceive( boolean explicitDestination , boolean useDefaultDestination , boolean testConverter , boolean clientAcknowledge , boolean messageSelector , boolean noLocal , long timeout );26;7;89
+JmsTemplateTests.testProducerCallbackWithIdAndTimestampDisabled( );1;0;19
+JmsTemplateTests.testSendAndReceiveDefaultDestination( );1;0;3
+JmsTemplateTests.testTransactionRolledBackException( );1;0;3
+JmsTemplateTests.testMessageEOFException( );1;0;3
+JmsTemplateTests.testReceiveDefaultDestinationWithSelector( );1;0;3
+JmsTemplateTests.testReceiveDestinationWithClientAcknowledgeWithSelector( );1;0;3
+JmsTemplateTests.testSendDestinationName( );1;0;3
+JmsTemplateTests.testResourceAllocationException( );1;0;3
+JmsTemplateTests.testReceiveDestination( );1;0;3
+JmsTemplateTests.testSessionCallback( );1;0;10
+JmsTemplateTests.testProducerCallback( );1;0;15
+JmsTemplateTests.testSendAndReceiveDestination( );1;0;3
+JmsTemplateTests.testReceiveAndConvertDestinationName( );1;0;3
+JmsTemplateTests.testReceiveDefaultDestinationNameWithSelector( );1;0;3
+JmsTemplateTests.testSendDefaultDestinationName( );1;0;3
+JmsTemplateTests.testMessageFormatException( );1;0;3
+JmsTemplateTests.testSendDefaultDestinationNameWithQOS( );1;0;3
+JmsTemplateTests.testConverter( );2;0;18
+JmsTemplateTests.useTransactedTemplate( );1;0;3
+JmsTemplateTests.useTransactedSession( );1;0;3
+JmsTemplateTests.doTestSendAndReceive( boolean explicitDestination , boolean useDefaultDestination , long timeout );7;2;51
+JmsTemplateTests.doTestJmsException( JMSException original , Class < ? extends JmsException > thrownExceptionClass );1;0;18
+JmsTemplateTests.testSendDestination( );1;0;3
+JmsTemplateTests.testReceiveAndConvertDestinationWithSelector( );1;0;3
+JmsTemplateTests.testReceiveDefaultDestination( );1;0;3
+JmsTemplateTests.testReceiveAndConvertDefaultDestination( );1;0;3
+JmsTemplateTests.testInvalidSelectorException( );1;0;3
+JmsTemplateTests.testSendAndReceiveDestinationName( );1;0;3
+JmsTemplateTests.testSessionCallbackWithinSynchronizedTransaction( );2;0;43
+JmsTemplateTests.testExceptionStackTrace( );1;1;11
+JmsTemplateTests.testJmsSecurityException( );1;0;3
+JmsTemplateTests.testTransactionInProgressException( );1;0;3
+JmsTemplateTests.setupMocks( );1;0;6
+JmsTemplateTests.testMessageNotWriteableException( );1;0;3
+JmsTemplateTests.testReceiveAndConvertDestination( );1;0;3
+JmsTemplateTests.testReceiveDefaultDestinationName( );1;0;3

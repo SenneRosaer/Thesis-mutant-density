@@ -1,0 +1,14 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+NMRTransportFactory.getBus( );1;0;3
+NMRTransportFactory.putDestination( String epName , NMRDestination destination );2;0;8
+NMRTransportFactory.getConduit( EndpointInfo endpointInfo , EndpointReferenceType target );2;1;8
+NMRTransportFactory.getConduit( EndpointInfo targetInfo );1;0;3
+NMRTransportFactory.setBus( Bus b );1;0;3
+NMRTransportFactory.getUriPrefixes( );1;0;3
+NMRTransportFactory.getDestination( EndpointInfo ei );3;2;14
+NMRTransportFactory.setNmr( NMR nmr );1;0;3
+NMRTransportFactory.getDestination( String epName );1;0;3
+NMRTransportFactory.getNmr( );1;0;3
+NMRTransportFactory.removeDestination( String epName );1;0;3
+NMRTransportFactory.setActivationNamespaces( Collection < String > ans );1;0;3
+NMRTransportFactory.registerWithBindingManager( );8;7;17

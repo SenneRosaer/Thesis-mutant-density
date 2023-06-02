@@ -1,0 +1,26 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ContextLoaderTests.contextLoaderListenerWithLocalContextInitializers( );1;0;13
+ContextLoaderTests.contextLoaderWithCustomContext( );1;0;12
+ContextLoaderTests.contextLoaderWithInvalidLocation( );1;0;9
+ContextLoaderTests.contextLoaderListenerWithProgrammaticAndGlobalInitializers( );1;0;13
+ContextLoaderTests.contextLoaderWithInvalidContext( );1;0;10
+ContextLoaderTests.contextLoaderListenerWithCustomizedContextLoader( );1;0;18
+ContextLoaderTests.customizeContext( ServletContext sc , ConfigurableWebApplicationContext wac );1;0;6
+TestWebContextInitializer.initialize( ConfigurableWebApplicationContext applicationContext );1;0;4
+ContextLoaderTests.refresh( );2;0;10
+TestContextInitializer.initialize( ConfigurableApplicationContext applicationContext );2;0;9
+ContextLoaderTests.contextLoaderListenerWithDefaultContext( );1;1;26
+EnvApplicationContextInitializer.initialize( ConfigurableWebApplicationContext applicationContext );1;0;4
+ContextLoaderTests.contextLoaderListenerWithGlobalContextInitializers( );1;0;13
+UnknownContextInitializer.initialize( UnknownApplicationContext applicationContext );1;0;3
+ContextLoaderTests.contextLoaderListenerWithProgrammaticInitializers( );1;0;12
+ContextLoaderTests.contextLoaderListenerWithUnknownContextInitializer( );1;0;11
+ContextLoaderTests.classPathXmlApplicationContext( );1;1;15
+ContextLoaderTests.contextLoaderWithDefaultLocation( );1;0;10
+ContextLoaderTests.contextLoaderListenerWithProgrammaticAndLocalInitializers( );1;0;13
+ContextLoaderTests.registeredContextInitializerCanAccessServletContextParamsViaEnvironment( );1;0;10
+ContextLoaderTests.contextLoaderListenerWithMixedContextInitializers( );1;0;13
+ContextLoaderTests.frameworkServletWithCustomLocation( );1;0;8
+TestContextInitializer.getProperty( String key );2;0;3
+ContextLoaderTests.singletonDestructionOnStartupFailure( );2;0;18
+ContextLoaderTests.frameworkServletWithDefaultLocation( );1;0;9

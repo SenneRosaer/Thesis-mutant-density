@@ -1,0 +1,50 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+IsCIDFont.parse( String line , int startpos , Stack stack );2;0;5
+AbstractValueHandler.getDoubleValue( String line , int startpos );1;0;4
+KPXHandler.parse( String line , int startpos , Stack stack );1;0;14
+AFMParser.parse( InputStream in );1;0;8
+AbstractValueHandler.getStringValue( String line , int startpos );1;0;3
+BooleanSetter.parse( String line , int startpos , Stack stack );2;0;10
+CharBBox.parse( String line , int startpos , Stack stack );1;0;5
+IntegerSetter.IntegerSetter( String variable );1;0;3
+AFMParser.skipToSemicolon( String line , int startpos );3;4;7
+FontBBox.parseBBox( String line , int startpos );1;2;19
+DoubleSetter.parse( String line , int startpos , Stack stack );1;0;4
+BeanSetter.setValue( Object target , Object value );2;0;8
+AFMParser.skipToNonWhiteSpace( String line , int startpos );3;3;7
+BooleanSetter.getContextObject( Stack stack );1;0;3
+NamedCharacterSetter.parse( String line , int startpos , Stack stack );1;0;5
+FontBBox.parse( String line , int startpos , Stack stack );1;0;5
+IntegerSetter.parse( String line , int startpos , Stack stack );1;0;4
+NumberSetter.NumberSetter( String variable );1;0;3
+WritingDirDoubleSetter.parse( String line , int startpos , Stack stack );1;0;4
+AFMParser.skipToWhiteSpace( String line , int startpos );3;4;7
+DoubleSetter.DoubleSetter( String variable );1;0;3
+AFMParser.parseCharMetrics( String line , Stack stack );6;3;31
+IsBaseFont.parse( String line , int startpos , Stack stack );2;0;5
+NumberSetter.parse( String line , int startpos , Stack stack );1;0;4
+WritingDirBooleanSetter.WritingDirBooleanSetter( String variable );1;0;3
+AbstractValueHandler.findValue( String line , int startpos );1;0;3
+WritingDirNumberSetter.WritingDirNumberSetter( String variable );1;0;3
+StringSetter.parse( String line , int startpos , Stack stack );1;0;5
+AFMParser.isWhitespace( char ch );2;3;4
+BooleanSetter.BooleanSetter( String variable );1;0;3
+WritingDirDoubleSetter.WritingDirDoubleSetter( String variable );1;0;3
+NotImplementedYet.NotImplementedYet( String key );1;0;3
+AFMParser.parse( BufferedReader reader );6;2;26
+AFMParser.parse( File afmFile );1;0;8
+AbstractValueHandler.getBooleanValue( String line , int startpos );1;0;3
+AbstractValueHandler.getNumberValue( String line , int startpos );2;0;7
+StringSetter.StringSetter( String variable );1;0;3
+WritingDirBooleanSetter.getContextObject( Stack stack );3;1;13
+NumberSetter.getContextObject( Stack stack );1;0;3
+NamedCharacterSetter.NamedCharacterSetter( String variable );1;0;3
+AbstractValueHandler.getIntegerValue( String line , int startpos );1;0;4
+StartDirection.parse( String line , int startpos , Stack stack );1;0;7
+StartFontMetrics.parse( String line , int startpos , Stack stack );2;1;10
+NotImplementedYet.parse( String line , int startpos , Stack stack );1;0;4
+AFMParser.AFMParser( );1;0;2
+BeanSetter.BeanSetter( String variable );1;0;3
+EndDirection.parse( String line , int startpos , Stack stack );2;1;5
+WritingDirNumberSetter.getContextObject( Stack stack );3;1;13
+AFMParser.parseLine( String line , Stack stack );2;1;12

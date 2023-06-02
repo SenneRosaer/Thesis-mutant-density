@@ -1,0 +1,22 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+MonitorStats.getProtocol( );1;0;3
+MonitorStats.setProtocol( String protocol );1;0;3
+MonitorStats.setLoad( int load );1;0;3
+MonitorStats.setHealth( int health );1;0;3
+MonitorStats.setMemLoad( int load );1;0;3
+MonitorStats.MonitorStats( int health , int load , int cpuload , int memload , int threadload , String host , String port , String protocol , long time );1;0;11
+MonitorStats.getHost( );1;0;3
+MonitorStats.getURL( );1;2;3
+MonitorStats.setPort( String port );1;0;3
+MonitorStats.getMemLoad( );1;0;3
+MonitorStats.getTimeStamp( );1;0;3
+MonitorStats.getLoad( );1;0;3
+MonitorStats.getHealth( );1;0;3
+MonitorStats.getThreadLoad( );1;0;3
+MonitorStats.MonitorStats( );1;0;3
+MonitorStats.setHost( String host );1;0;3
+MonitorStats.setCpuLoad( int load );1;0;3
+MonitorStats.getPort( );1;0;3
+MonitorStats.setThreadLoad( int load );1;0;3
+MonitorStats.setTimeStamp( long time );1;0;3
+MonitorStats.getCpuLoad( );1;0;3

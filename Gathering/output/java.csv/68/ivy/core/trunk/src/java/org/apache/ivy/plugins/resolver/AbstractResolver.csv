@@ -1,0 +1,67 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractResolver.startArtifactDownload( RepositoryCacheManager cache , ResolvedResource rres , Artifact artifact , ArtifactOrigin origin );4;2;12
+AbstractResolver.getNamespace( );2;1;6
+AbstractResolver.getLatestStrategy( );2;1;6
+AbstractResolver.getChangingMatcherName( );1;0;3
+AbstractResolver.commitPublishTransaction( );1;0;2
+AbstractResolver.toSystem( ModuleDescriptor md );1;0;3
+AbstractResolver.getSettings( );1;0;3
+AbstractResolver.reportFailure( );1;0;3
+AbstractResolver.toSystem( ModuleRevisionId resolvedMrid );1;0;3
+AbstractResolver.getRepositoryCacheManager( );2;1;6
+AbstractResolver.listModules( OrganisationEntry org );1;0;3
+AbstractResolver.findModuleInCache( DependencyDescriptor dd , ResolveData data , boolean anyResolver );2;0;5
+AbstractResolver.listOrganisations( );1;0;3
+AbstractResolver.beginPublishTransaction( ModuleRevisionId module , boolean overwrite );1;0;2
+AbstractResolver.abortPublishTransaction( );1;0;2
+AbstractResolver.reportFailure( Artifact art );1;0;3
+AbstractResolver.toSystem( MetadataArtifactDownloadReport report );1;0;3
+AbstractResolver.setLatestStrategy( LatestStrategy latestStrategy );1;0;3
+AbstractResolver.doValidate( ResolveData data );2;1;7
+AbstractResolver.validate( );1;0;5
+AbstractResolver.setCache( String cacheName );1;0;3
+AbstractResolver.initNamespaceFromSettings( );4;3;18
+AbstractResolver.getDownloadOptions( ResolveOptions options );1;0;3
+AbstractResolver.findModuleInCache( DependencyDescriptor dd , ResolveData data );1;0;3
+AbstractResolver.initRepositoryCacheManagerFromSettings( );4;3;17
+AbstractResolver.listTokenValues( String token , Map otherTokenValues );1;0;3
+AbstractResolver.getEventManager( );1;0;3
+AbstractResolver.isAfter( ResolvedModuleRevision rmr1 , ResolvedModuleRevision rmr2 , Date date );1;1;6
+AbstractResolver.setCheckmodified( boolean check );1;0;3
+AbstractResolver.needArtifact( RepositoryCacheManager cache , Artifact artifact );2;1;6
+AbstractResolver.listRevisions( ModuleEntry module );1;0;3
+AbstractResolver.getCacheDownloadOptions( DownloadOptions options );1;0;3
+AbstractResolver.initLatestStrategyFromSettings( );5;5;18
+AbstractResolver.dumpSettings( );1;0;4
+AbstractResolver.toSystem( ResolvedModuleRevision rmr );1;0;3
+AbstractResolver.setName( String name );1;0;3
+AbstractResolver.getChangingPattern( );1;0;3
+AbstractResolver.fromSystem( DependencyDescriptor dd );1;0;3
+AbstractResolver.getSystemNode( ResolveData data , ModuleRevisionId resolvedMrid );1;0;3
+AbstractResolver.setSettings( ResolverSettings ivy );1;0;3
+AbstractResolver.getLatest( );2;1;6
+AbstractResolver.setRepositoryCacheManager( RepositoryCacheManager repositoryCacheManager );1;0;4
+AbstractResolver.exists( Artifact artifact );1;1;3
+AbstractResolver.download( ArtifactOrigin artifact , DownloadOptions options );1;0;4
+AbstractResolver.hidePassword( String name );1;0;3
+AbstractResolver.describe( ResolvedModuleRevision rmr );3;3;8
+AbstractResolver.toString( );1;0;3
+AbstractResolver.setChangingPattern( String changingPattern );1;0;3
+AbstractResolver.setEventManager( EventManager eventManager );1;0;3
+AbstractResolver.getName( );1;0;3
+AbstractResolver.getDownloadListener( final DownloadOptions options );6;0;33
+AbstractResolver.checkLatest( ResolvedModuleRevision newModuleFound , ResolveData data );5;3;19
+AbstractResolver.toSystem( DependencyDescriptor dd );1;0;3
+AbstractResolver.listTokenValues( String [ ] tokens , Map criteria );1;0;3
+AbstractResolver.setNamespace( String namespaceName );1;0;3
+AbstractResolver.checkInterrupted( );1;0;3
+AbstractResolver.setValidate( boolean validate );1;0;3
+AbstractResolver.locate( Artifact artifact );3;2;10
+AbstractResolver.setChangingMatcher( String changingMatcherName );1;0;3
+AbstractResolver.isValidate( );2;1;3
+AbstractResolver.fromSystem( Artifact artifact );1;0;3
+AbstractResolver.setLatest( String strategyName );1;0;3
+AbstractResolver.getTypeName( );1;0;3
+AbstractResolver.toSystem( Artifact artifact );1;0;3
+AbstractResolver.endArtifactDownload( RepositoryCacheManager cache , Artifact artifact , ArtifactDownloadReport adr , File archiveFile );2;1;7
+AbstractResolver.getCacheOptions( ResolveData data );1;0;10

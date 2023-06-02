@@ -1,0 +1,24 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Writer.characters( XMLString text , Augmentations augs );1;0;4
+Writer.warning( String domain , String key , XMLParseException ex );1;0;3
+Writer.printError( String type , XMLParseException ex );3;4;20
+Writer.printUsage( );7;0;33
+Writer.setOutput( OutputStream stream , String encoding );2;1;7
+Writer.normalizeAndPrint( char c );8;0;32
+Writer.endElement( QName element , Augmentations augs );1;1;7
+Writer.setOutput( java . io . Writer writer );2;0;4
+Writer.normalizeAndPrint( XMLString text );2;3;5
+Writer.startCDATA( Augmentations augs );1;0;2
+Writer.fatalError( String domain , String key , XMLParseException ex );1;0;4
+Writer.Writer( XMLParserConfiguration configuration );1;0;4
+Writer.normalizeAndPrint( String s );3;3;7
+Writer.ignorableWhitespace( XMLString text , Augmentations augs );1;0;4
+Writer.comment( XMLString text , Augmentations augs );5;4;14
+Writer.emptyElement( QName element , XMLAttributes attrs , Augmentations augs );3;4;18
+Writer.startElement( QName element , XMLAttributes attrs , Augmentations augs );3;4;18
+Writer.error( String domain , String key , XMLParseException ex );1;0;3
+Writer.startDocument( XMLLocator locator , String encoding , NamespaceContext namespaceContext , Augmentations augs );2;1;8
+Writer.endCDATA( Augmentations augs );1;0;2
+Writer.setCanonical( boolean canonical );1;0;3
+Writer.processingInstruction( String target , XMLString data , Augmentations augs );5;4;16
+Writer.main( String argv [ ] );33;11;149

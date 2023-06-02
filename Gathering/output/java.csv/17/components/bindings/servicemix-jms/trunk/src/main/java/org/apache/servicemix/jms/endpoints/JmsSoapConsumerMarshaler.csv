@@ -1,0 +1,15 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+JmsSoapConsumerMarshaler.getBinding( );1;0;3
+JmsSoapConsumerMarshaler.setBinding( Binding < ? > binding );1;0;3
+Context.getMessage( );1;0;3
+JmsSoapConsumerMarshaler.setUseJbiWrapper( boolean useJbiWrapper );1;0;3
+JmsSoapConsumerMarshaler.createError( MessageExchange exchange , Exception error , Session session , JmsContext context );2;0;19
+JmsSoapConsumerMarshaler.createOut( MessageExchange exchange , NormalizedMessage outMsg , Session session , JmsContext context );1;0;13
+Context.Context( Message message );1;0;3
+JmsSoapConsumerMarshaler.setPolicies( Policy [ ] policies );1;0;3
+JmsSoapConsumerMarshaler.getPolicies( );1;0;3
+JmsSoapConsumerMarshaler.createContext( Message message );1;0;3
+JmsSoapConsumerMarshaler.isUseJbiWrapper( );1;0;3
+JmsSoapConsumerMarshaler.getChain( Phase phase );3;3;9
+JmsSoapConsumerMarshaler.createFault( MessageExchange exchange , Fault fault , Session session , JmsContext context );1;0;17
+JmsSoapConsumerMarshaler.createExchange( JmsContext jmsContext , ComponentContext jbiContext );1;0;10

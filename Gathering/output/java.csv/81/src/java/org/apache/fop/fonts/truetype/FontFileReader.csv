@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+FontFileReader.read( );2;2;7
+FontFileReader.getCurrentPos( );1;0;3
+FontFileReader.readTTFString( int len );4;6;15
+FontFileReader.readTTFString( );3;5;12
+FontFileReader.seekSet( long offset );3;3;7
+FontFileReader.getBytes( int offset , int length );2;2;8
+FontFileReader.readTTFString( int len , int encodingID );2;3;11
+FontFileReader.FontFileReader( InputStream in );1;0;3
+FontFileReader.init( InputStream in );1;0;5
+FontFileReader.readTTFUShort( );1;2;4
+FontFileReader.skip( long add );1;0;3
+FontFileReader.readTTFByte( );1;0;3
+FontFileReader.readTTFULong( );1;6;7
+FontFileReader.writeTTFUShort( int pos , int val );2;6;9
+FontFileReader.FontFileReader( String fileName );1;0;9
+FontFileReader.getFileSize( );1;0;3
+FontFileReader.readTTFUShort( long pos );1;0;7
+FontFileReader.readTTFUByte( );2;2;8
+FontFileReader.readTTFShort( long pos );1;0;7
+FontFileReader.readTTFShort( );1;2;5
+FontFileReader.readTTFLong( );1;6;7
+FontFileReader.seekAdd( long add );1;1;3

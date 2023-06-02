@@ -1,0 +1,74 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XsbDumper.atLeast( int majorver , int minorver , int releaseno );5;5;11
+XsbDumper.particleTypeString( int spt );6;0;12
+XsbDumper.dumpAnnotation( );11;12;50
+XsbDumper.readDouble( );2;0;11
+XsbDumper.attruseCodeString( int code );4;0;10
+XsbDumper.readHandle( );1;0;3
+XsbDumper.filetypeString( int code );8;0;14
+XsbDumper.emit( String str );1;1;1
+XsbDumper.dumpAnnotations( );3;3;11
+XsbDumper.error( String str );1;0;1
+XsbDumper.containerfieldTypeString( int code );5;0;11
+XsbDumper.dumpClassnameIndex( String fieldname );2;4;10
+XsbDumper.readType( );1;0;3
+XsbDumper.qnameSetString( QNameSet set );1;0;3
+XsbDumper.propertyflagsString( int flags );6;10;9
+XsbDumper.dump( InputStream input , String indent , PrintStream output );1;0;4
+XsbDumper.qnameString( QName qname );3;3;8
+XsbDumper.dump( InputStream input , String indent );1;0;3
+XsbDumper.readXmlValueObject( );24;4;48
+StringPool.codeForString( String str );3;2;12
+XsbDumper.readSOAPArrayType( );2;1;7
+XsbDumper.readEnd( );2;0;11
+XsbDumper.flush( );1;0;1
+XsbDumper.indent( );1;1;1
+XsbDumper.readByteArray( );2;0;14
+XsbDumper.atMost( int majorver , int minorver , int releaseno );5;5;11
+XsbDumper.dumpQNameMap( String fieldname );2;4;10
+XsbDumper.readString( );1;0;3
+XsbDumper.error( Exception e );1;0;1
+XsbDumper.readQNameSet( );5;7;19
+XsbDumper.dumpZip( File file );4;0;21
+XsbDumper.dumpAttributeData( boolean global );3;0;13
+XsbDumper.dumpIndexData( );4;3;31
+XsbDumper.readBigInteger( );6;7;10
+XsbDumper.dumpTypeArray( String fieldname );2;4;10
+StringPool.StringPool( );1;0;3
+XsbDumper.readQName( );2;1;7
+XsbDumper.alwaysString( int code );4;0;10
+XsbDumper.dumpHeader( );5;4;26
+XsbDumper.whitespaceCodeString( int code );5;0;11
+XsbDumper.accept( File file );3;2;1
+XsbDumper.facetCodeString( int code );10;0;16
+XsbDumper.readInt( );2;0;11
+XsbDumper.simpleVarietyString( int code );4;0;10
+XsbDumper.particleflagsString( int flags );11;20;14
+XsbDumper.dumpModelGroupData( );5;0;16
+XsbDumper.dumpTypeFileData( );21;24;131
+XsbDumper.readShort( );2;0;11
+XsbDumper.dumpStringArray( String fieldname );2;3;10
+XsbDumper.wcprocessString( int code );5;0;11
+XsbDumper.typeflagsString( int flags );21;40;24
+XsbDumper.hex32String( int i );1;0;3
+XsbDumper.SOAPArrayTypeString( SOAPArrayType t );2;2;5
+XsbDumper.dumpParticleArray( String fieldname );2;3;8
+XsbDumper.derivationTypeString( int code );4;0;10
+XsbDumper.dumpAttributeGroupData( );4;0;14
+XsbDumper.jtcString( int code );21;0;27
+XsbDumper.dump( InputStream input );1;0;3
+XsbDumper.outdent( );1;1;1
+XsbDumper.dumpPointerData( );1;0;3
+XsbDumper.dumpAll( );8;0;28
+StringPool.stringForCode( int code );2;1;5
+XsbDumper.main( String [ ] args );3;3;11
+XsbDumper.emit( );1;0;1
+XsbDumper.dump( File file , boolean force );10;4;33
+XsbDumper.dumpPropertyData( );6;5;30
+XsbDumper.dumpParticleData( boolean global );12;4;57
+StringPool.readFrom( DataInputStream input );6;7;23
+XsbDumper.complexVarietyString( int code );5;0;11
+XsbDumper.printUsage( );1;0;8
+XsbDumper.bigIntegerString( BigInteger bigint );2;1;5
+XsbDumper.XsbDumper( InputStream stream , String indent , PrintStream ostream );1;0;5
+XsbDumper.dumpXml( );2;0;12

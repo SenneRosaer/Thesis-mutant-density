@@ -1,0 +1,33 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Text.unescape( String string );1;0;3
+***not in a method***;0;6;0
+Text.Text( );1;0;2
+Text.digest( String algorithm , byte [ ] data );2;6;11
+Text.escape( String string , char escape );1;0;3
+Text.explode( String str , int ch );1;0;3
+Text.md5( String data , String enc );2;0;7
+Text.getName( String path );1;0;3
+Text.unescape( String string , char escape );5;6;21
+Text.getLocalName( String qname );2;2;4
+Text.escapeIllegalXpathSearchChars( String s );11;21;12
+Text.implode( String [ ] arr , String delim );3;3;10
+Text.getAbsoluteParent( String path , int level );5;7;12
+Text.md5( String data );2;0;7
+Text.digest( String algorithm , String data , String enc );1;0;3
+Text.getName( String path , boolean ignoreTrailingSlash );5;6;6
+Text.getRelativeParent( String path , int level );4;5;11
+Text.getRelativeParent( String path , int level , boolean ignoreTrailingSlash );4;4;6
+Text.getNamespacePrefix( String qname );2;1;4
+Text.escape( String string );1;0;3
+Text.replace( String text , String oldString , String newString );7;11;21
+Text.getName( String path , char delim );2;2;5
+Text.escape( String string , char escape , boolean isPath );6;8;20
+Text.unescapeIllegalJcrChars( String name );5;16;19
+Text.encodeIllegalXMLCharacters( String text );17;13;47
+Text.escapeIllegalJcrChars( String name );19;39;18
+Text.escapePath( String path );1;0;3
+Text.replaceVariables( Properties variables , String value , boolean ignoreMissing );5;8;26
+Text.explode( String str , int ch , boolean respectEmpty );9;11;20
+Text.isSibling( String p1 , String p2 );3;4;5
+Text.isDescendantOrEqual( String path , String descendant );3;0;8
+Text.isDescendant( String path , String descendant );3;2;5

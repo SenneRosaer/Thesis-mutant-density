@@ -1,0 +1,21 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Parameter.dump( Writer writer );1;0;3
+ParamSaxBuffer.startDocument( );1;0;4
+ParamSaxBuffer.startDTD( String name , String publicId , String systemId );1;0;4
+Parameter.send( ContentHandler contentHandler );1;0;2
+ParamSaxBuffer.toSAX( ContentHandler contentHandler , Map parameters );3;0;10
+ParamSaxBuffer.ignorableWhitespace( char ch [ ] , int start , int length );1;0;4
+ParamSaxBuffer.toString( Map parameters );4;0;12
+ParamSaxBuffer.processingInstruction( String target , String data );1;0;4
+ParamSaxBuffer.characters( char ch [ ] , int start , int length );9;19;39
+Parameter.Parameter( String name );1;0;3
+ParamSaxBuffer.endDTD( );1;0;4
+ParamSaxBuffer.startElement( String namespaceURI , String localName , String qName , Attributes atts );1;0;4
+ParamSaxBuffer.endDocument( );1;0;4
+Parameter.send( ContentHandler contentHandler , Map parameters );2;1;6
+ParamSaxBuffer.ParamSaxBuffer( SaxBuffer saxBuffer );1;0;3
+ParamSaxBuffer.flushChars( );2;1;6
+ParamSaxBuffer.comment( char ch [ ] , int start , int length );1;0;4
+ParamSaxBuffer.ParamSaxBuffer( );1;0;2
+Parameter.toString( StringBuffer result , Map parameters );2;1;6
+ParamSaxBuffer.endElement( String namespaceURI , String localName , String qName );1;0;4

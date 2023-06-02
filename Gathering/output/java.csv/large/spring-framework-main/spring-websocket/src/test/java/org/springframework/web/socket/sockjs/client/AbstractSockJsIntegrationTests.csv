@@ -1,0 +1,32 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+AbstractSockJsIntegrationTests.receiveOneMessageXhrStreaming( );1;0;3
+AbstractSockJsIntegrationTests.echoXhr( );1;0;5
+AbstractSockJsIntegrationTests.receiveOneMessageXhr( );1;0;5
+EchoHandler.handleTextMessage( WebSocketSession session , TextMessage message );1;0;3
+AbstractSockJsIntegrationTests.echoWebSocket( );1;0;3
+AbstractSockJsIntegrationTests.receiveOneMessageWebSocket( );1;0;3
+TestFilter.doFilter( ServletRequest request , ServletResponse response , FilterChain chain );6;0;24
+AbstractSockJsIntegrationTests.fallbackAfterConnectTimeout( );1;0;12
+AbstractSockJsIntegrationTests.setup( TestInfo testInfo );1;0;13
+TestConfig.registerWebSocketHandlers( WebSocketHandlerRegistry registry );1;0;5
+TestConfig.testServerHandler( );1;0;3
+TestClientHandler.awaitMessage( TextMessage expected , long timeToWait );3;2;12
+TestClientHandler.handleTransportError( WebSocketSession session , Throwable exception );1;0;3
+TestFilter.init( FilterConfig filterConfig );1;0;2
+AbstractSockJsIntegrationTests.infoRequestFailure( );1;0;18
+TestServerHandler.afterConnectionEstablished( WebSocketSession session );1;0;3
+TestServerHandler.awaitSession( long timeToWait );1;1;4
+TestClientHandler.handleTextMessage( WebSocketSession session , TextMessage message );1;0;3
+AbstractSockJsIntegrationTests.testReceiveOneMessage( Transport transport , WebSocketHttpHeaders headers );1;0;11
+AbstractSockJsIntegrationTests.echoXhrStreaming( );1;0;3
+AbstractSockJsIntegrationTests.fallbackAfterTransportFailure( );1;0;11
+AbstractSockJsIntegrationTests.onSuccess( WebSocketSession result );1;0;2
+AbstractSockJsIntegrationTests.onFailure( Throwable ex );1;0;3
+AbstractSockJsIntegrationTests.initSockJsClient( Transport ... transports );1;0;4
+AbstractSockJsIntegrationTests.awaitEvent( BooleanSupplier condition , long timeToWait , String description );4;3;15
+TestClientHandler.awaitMessageCount( final int count , long timeToWait );1;2;4
+TestFilter.destroy( );1;0;2
+AbstractSockJsIntegrationTests.echoXhrWithHeaders( );2;0;11
+AbstractSockJsIntegrationTests.testEcho( int messageCount , Transport transport , WebSocketHttpHeaders headers );4;2;19
+AbstractSockJsIntegrationTests.teardown( );5;0;26
+TestClientHandler.afterConnectionEstablished( WebSocketSession session );1;0;3

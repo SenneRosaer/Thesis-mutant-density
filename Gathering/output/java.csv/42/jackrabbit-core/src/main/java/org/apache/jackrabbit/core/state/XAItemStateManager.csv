@@ -1,0 +1,23 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+XAItemStateManager.update( ChangeLog changeLog );2;1;7
+XAItemStateManager.hasNodeReferences( NodeReferencesId id );4;2;10
+XAItemStateManager.removeVirtualReference( ChangeLog references , PropertyId sourceId , NodeReferencesId refsId );5;4;13
+XAItemStateManager.setVirtualProvider( VirtualItemStateProvider virtualProvider );1;0;3
+XAItemStateManager.XAItemStateManager( SharedItemStateManager sharedStateMgr , EventStateCollectionFactory factory , ItemStateCacheFactory cacheFactory );1;0;3
+XAItemStateManager.associate( TransactionContext tx );3;2;11
+XAItemStateManager.addVirtualReference( ChangeLog references , PropertyId sourceId , NodeReferencesId refsId );5;4;13
+XAItemStateManager.getChangeLog( );2;1;7
+XAItemStateManager.filterReferenceProperties( Iterator itemStates );2;0;12
+XAItemStateManager.getReferences( NodeReferencesId id );18;11;64
+XAItemStateManager.beforeOperation( TransactionContext tx );2;1;6
+XAItemStateManager.evaluate( Object object );2;2;8
+XAItemStateManager.hasItemState( ItemId id );8;5;26
+XAItemStateManager.prepare( TransactionContext tx );6;3;17
+XAItemStateManager.getNodeReferences( NodeReferencesId id );3;2;6
+XAItemStateManager.updateVirtualReferences( ChangeLog changes );19;23;60
+XAItemStateManager.afterOperation( TransactionContext tx );1;0;3
+XAItemStateManager.rollback( TransactionContext tx );4;3;9
+XAItemStateManager.commit( TransactionContext tx );4;2;12
+XAItemStateManager.XAItemStateManager( SharedItemStateManager sharedStateMgr , EventStateCollectionFactory factory , String attributeName , ItemStateCacheFactory cacheFactory );1;0;4
+XAItemStateManager.getChanges( );1;0;3
+XAItemStateManager.getItemState( ItemId id );6;5;18

@@ -1,0 +1,13 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+ModuleWriter.visitRequire( final String module , final int access , final String version );2;2;7
+ModuleWriter.putAttributes( final ByteVector output );3;8;33
+ModuleWriter.visitOpen( final String packaze , final int access , final String ... modules );3;2;12
+ModuleWriter.visitUse( final String service );1;1;4
+ModuleWriter.visitEnd( );1;0;2
+ModuleWriter.ModuleWriter( final SymbolTable symbolTable , final int name , final int access , final int version );1;0;13
+ModuleWriter.computeAttributesSize( );3;10;14
+ModuleWriter.visitPackage( final String packaze );1;1;4
+ModuleWriter.visitMainClass( final String mainClass );1;0;3
+ModuleWriter.getAttributeCount( );3;4;3
+ModuleWriter.visitExport( final String packaze , final int access , final String ... modules );3;2;12
+ModuleWriter.visitProvide( final String service , final String ... providers );2;1;8

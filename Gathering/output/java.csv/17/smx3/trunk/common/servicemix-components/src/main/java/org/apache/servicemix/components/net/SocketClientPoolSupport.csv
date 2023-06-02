@@ -1,0 +1,25 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+SocketClientPoolSupport.connect( SocketClient client );7;6;27
+SocketClientPoolSupport.getPort( );1;0;3
+***not in a method***;0;1;0
+SocketClientPoolSupport.getLocalPort( );1;0;3
+SocketClientPoolSupport.returnClient( SocketClient client );1;0;3
+SocketClientPoolSupport.borrowClient( );1;0;3
+SocketClientPoolSupport.getPool( );1;0;3
+SocketClientPoolSupport.afterPropertiesSet( );2;1;8
+SocketClientPoolSupport.getAddress( );1;0;3
+SocketClientPoolSupport.setPort( int port );1;0;3
+SocketClientPoolSupport.setLocalAddress( InetAddress localAddress );1;0;3
+SocketClientPoolSupport.getHost( );1;0;3
+SocketClientPoolSupport.makeObject( );1;0;5
+SocketClientPoolSupport.setPool( ObjectPool pool );2;1;6
+SocketClientPoolSupport.passivateObject( Object object );1;0;2
+SocketClientPoolSupport.validateObject( Object object );1;0;3
+SocketClientPoolSupport.getLocalAddress( );1;0;3
+SocketClientPoolSupport.setHost( String host );1;0;3
+SocketClientPoolSupport.setAddress( InetAddress address );1;0;3
+SocketClientPoolSupport.activateObject( Object object );1;0;2
+SocketClientPoolSupport.setLocalPort( int localPort );1;0;3
+SocketClientPoolSupport.destroy( );2;1;5
+SocketClientPoolSupport.disconnect( SocketClient client );2;0;5
+SocketClientPoolSupport.destroyObject( Object object );1;0;4

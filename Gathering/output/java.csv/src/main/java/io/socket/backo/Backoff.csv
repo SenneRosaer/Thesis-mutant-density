@@ -1,0 +1,9 @@
+Method Name;Cyclomatic Complexity;Mutant Density;Source Lines of Code
+Backoff.Backoff( );1;0;1
+Backoff.setMax( long max );1;0;4
+Backoff.setJitter( double jitter );3;4;8
+Backoff.reset( );1;0;3
+Backoff.setFactor( int factor );1;0;4
+Backoff.getAttempts( );1;0;3
+Backoff.duration( );3;5;15
+Backoff.setMin( long min );1;0;4

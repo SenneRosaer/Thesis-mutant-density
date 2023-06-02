@@ -27,7 +27,7 @@ def calculate_pearson(sloc, other_data, min_sloc=1):
     input1 = []
     input2 = []
     for index, item in enumerate(sloc):
-        if item >= min_sloc:
+        if item >= min_sloc and item <= 150:
             input1.append(sloc[index])
             input2.append(other_data[index])
     print(f"coverage={len(input1) / len(sloc)}")
@@ -113,6 +113,7 @@ def outliers(data, df, title, output, lim=50, symlog=False):
     std = np.std(data)
     z = stats.zscore(data)
     distribution = {}
+    outliers = []
     with open(output, "w+") as f:
         f.write(f"File;Method Name;Z-score\n")
         for idx, row in df.iterrows():
@@ -124,7 +125,9 @@ def outliers(data, df, title, output, lim=50, symlog=False):
                 distribution[math.floor(zscore)] = 1
             else:
                 distribution[math.floor(zscore)] += 1
-            f.write(f"{row['File']};{row['Method Name']};{zscore}\n")
+            if abs(zscore) >= 2:
+                f.write(f"{row['File']};{row['Method Name']};{zscore}\n")
+                outliers.append(f"{row['File']};{row['Method Name']}")
     print(distribution)
     if symlog:
         sns.displot(data, kde=True, bins=8).set(title=title)
@@ -139,7 +142,7 @@ def outliers(data, df, title, output, lim=50, symlog=False):
         plt.xlim(-lim, lim)
         plt.show()
     print('-------------------------------------')
-
+    return outliers
 def freq_dist(df, axis,title):
     plt.yscale('log')
     plt.xlim(0, 100)
@@ -202,10 +205,10 @@ def get_set_theory(outliers1, outliers2):
     print(unique)
 
 if __name__ == '__main__':
-    java_dfs = []
-    # java_dfs = [pd.read_csv("dataset_results/java/fastjson.csv", delimiter=";")]
-    for file in os.listdir('dataset_results/java'):
-        java_dfs.append(pd.read_csv(f"dataset_results/java/{file}", delimiter=";"))
+    # java_dfs = []
+    java_dfs = [pd.read_csv("dataset_results/java/spring.csv", delimiter=";")]
+    # for file in os.listdir('dataset_results/java'):
+    #     java_dfs.append(pd.read_csv(f"dataset_results/java/{file}", delimiter=";"))
     df_java = pd.concat(java_dfs, ignore_index=True)
     df_java = df_java[df_java['Mutant Density'] != 0]
     df_java = clean_df(df_java)
@@ -303,14 +306,14 @@ if __name__ == '__main__':
     # outliers(cc_sloc_diff, df, f"{language} CC and SLOC difference distribution", "better_output/cc_sloc_outliers1.csv")
     # outliers(md_sloc_diff, df, f"{language} MD and SLOC difference distribution", "better_output/cc_sloc_outliers1.csv")
     # outliers(cc_md_diff, df, f"{language} CC and MD difference distribution", "better_output/cc_sloc_outliers1.csv")
-    # outliers(cc_sloc_average, df, f"{language} CC and SLOC average distribution", "better_output/cc_sloc_outliers1.csv", lim=3, symlog=True)
-    # outliers(md_sloc_average, df, f"{language} MD and SLOC average distribution", "better_output/cc_sloc_outliers1.csv",lim=3, symlog=True)
+    # outliers(cc_sloc_average, df, f"{language} CC and SLOC average distribution", "better_output/spring_outliers_cc_sloc.csv", lim=3, symlog=True)
+    # outliers(md_sloc_average, df, f"{language} MD and SLOC average distribution", "better_output/spring_outliers_md_sloc.csv",lim=3, symlog=True)
     # outliers(cc_md_average, df, f"{language} CC and MD average distribution", "better_output/cc_sloc_outliers1.csv",lim=3, symlog=True)
 
-    outliers(cc_sloc_ratio, df, f"{language} CC and SLOC ratio distribution", "better_output/cc_sloc_outliers1.csv", lim=3, symlog=True)
-    outliers(md_sloc_ratio, df, f"{language} MD and SLOC ratio distribution", "better_output/cc_sloc_outliers1.csv",lim=10, symlog=True)
-    outliers(cc_md_ratio, df, f"{language} CC and MD ratio distribution", "better_output/cc_sloc_outliers1.csv",lim=10, symlog=True)
-
+    o1 = outliers(cc_sloc_ratio, df, f"{language} CC and SLOC ratio distribution", "better_output/spring_outliers_cc_sloc.csv", lim=3, symlog=True)
+    o2 = outliers(md_sloc_ratio, df, f"{language} MD and SLOC ratio distribution", "better_output/spring_outliers_md_sloc.csv",lim=10, symlog=True)
+    outliers(cc_md_ratio, df, f"{language} CC and MD ratio distribution", "better_output/cc_sloc_outliers1.csv",lim=4, symlog=True)
+    # get_set_theory(o2, o1)
 
     # scatterplot_loglog(df,'Source Lines of Code','Cyclomatic Complexity' , f"{language} Log-log Scatterplot SLOC & CC")
     # scatterplot_loglog(df, 'Source Lines of Code', 'Mutant Density',  f"{language} Log-log Scatterplot SLOC & MD")
@@ -323,7 +326,14 @@ if __name__ == '__main__':
     # boxplot(boxplot_cc_sloc, f"{language} Boxplot CC on SLOC")
     # boxplot(boxplot_md_sloc, f"{language} Boxplot MD on sloc")
 
+    data = {0: 4625, -1: 3488, 1: 244, -2: 168, -3: 61, -4: 19, 2: 40, 3: 11, 5: 1, -9: 3, -6: 7, -5: 7, -7: 1, 6: 1, -8: 2, 4: 3}
 
+
+    plt.bar(data.keys(), data.values())
+    plt.yscale('log')
+    plt.xlabel('Standard deviations from mean')
+    plt.ylabel('Count')
+    plt.show()
 
 
     print(f"pearson cc sloc 1 = {calculate_pearson(slocs_per_method, ccs_per_method, 1)}")
